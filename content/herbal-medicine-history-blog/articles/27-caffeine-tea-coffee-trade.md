@@ -32,6 +32,9 @@ Tea (*Camellia sinensis*), coffee (*Coffea* species), and later the kola and mat
 
 *Figure 1. Illustrative trade schematic for “Tea, coffee, and caffeine as global commodities” — simplified geography, not navigation or modern routing.*
 
+<!-- under-fig:v2 -->
+Pasqua Rosée’s London coffee stall is dated 1652 in the usual teaching story; Oxford houses were a few years earlier. The VOC carried Chinese tea toward Amsterdam; the British East India Company later made tea a Company good and a tax good. Yemeni coffee moved through Mocha; then Java; then Caribbean islands. Saint-Domingue’s coffee economy sat on enslaved labor until the 1791 revolution broke it. Brazilian *fazendas* took the volume afterward. Sidney Mintz’s *Sweetness and Power* is the pairing book: sugar made the cup a working-class fuel in Britain. Figure 1 will look like arrows of pleasure. Caption the labor.
+
 Chinese tea to Dutch and then British tables; Japanese tea as a different ceremonial and export file; Yemeni and then colonial coffee (Java, the Caribbean, later Brazil) as a transplanted shrub with a labor system attached. Figure 1 will look like arrows of pleasure. Caption the labor. Sugar, Mintz's subject, is the pairing that made the cup a working-class fuel in Britain. The cup is not innocent.
 
 Smuggling, the 1773 Boston tea politics, the Opium Wars as a tea-and-silver problem: caffeine plants sit inside those files without being their only cause. Do not flatten 1773 into a health story.
@@ -43,6 +46,9 @@ Smuggling, the 1773 Boston tea politics, the Opium Wars as a tea-and-silver prob
 ![Milestones timeline for Tea, coffee, and caffeine as global commodities.](../assets/caffeine-tea-coffee-trade/milestones-timeline.svg)
 
 *Figure 2. Dated beats to verify in draft — not a clinical efficacy chart.*
+
+<!-- under-fig:v2 -->
+Friedlieb Ferdinand Runge isolated “Kaffein” in 1819 after Goethe handed him coffee beans — the teaching story; `[VERIFY]` the paper year. When tea landed in a Galenic shop it gained “nervous” indications. When it landed in a drawing room it gained etiquette. Coca-Cola and the soda-and-tablet industry are a third landing: branded isolate plus sugar plus advertising. Wiley’s Bureau went after caffeine in Coca-Cola (*United States v. Forty Barrels and Twenty Kegs of Coca-Cola*, 1911). A cup of tea is food. A 2020s “focus” gummy is a DSHEA or candy-law object depending on the label.
 
 When tea landed in a Galenic or later official shop, it gained "nervous" indications. When it landed in a drawing room, it gained etiquette. When caffeine landed in a nineteenth-century laboratory, it gained a weight. Coca-Cola and the later soda-and-tablet industry are a third landing: a branded dose of the isolate plus sugar plus advertising. Figure 2 should carry 1610s European coffee houses, 1650s London, 1819 Runge, plantation dates you can defend — not a chart of "alertness scores."
 

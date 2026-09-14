@@ -46,6 +46,9 @@ Meadowsweet (*Filipendula ulmaria*, the older *Spiraea*) gave the *spir-* in the
 
 *Figure 2. Laboratory and regulatory dates to cite — no fabricated effect sizes.*
 
+<!-- under-fig:v2 -->
+Edward Stone’s letter ran in the *Philosophical Transactions* for 1763. Henri Leroux isolated salicin from willow bark in 1828–1829. Raffaele Piria moved from salicin toward salicylic acid in the 1830s. Hermann Kolbe’s 1859–1860 industrial synthesis made the tree optional. Felix Hoffmann’s 10 August 1897 notebook acetylation is Bayer’s official romance; Arthur Eichengrün’s later claim that he directed the work remains contested because 1933 wrote a Jewish chemist out of a firm’s memory. Heinrich Dreser pushed the 1899 Aspirin tin. Figure 2 carries those dates, not a pain-score bar. A U.S. willow-bark capsule is a DSHEA powder. Acetylsalicylic acid is a drug. Keep the letter, the crystal, and the tin in separate rooms.
+
 1763 Stone; 1829 Leroux; Kolbe's synthesis years; 1897 acetylation; 1899 trademark; later generic life and cardiology debates that do not belong here as advice. Figure 2 should carry those dates, not a bar chart of pain scores. The Eichengrün claim (a Jewish chemist written out after 1933) is contested; say so rather than settling it in a caption.
 
 Willow bark as a modern dietary-supplement powder is a DSHEA object in the United States, variable as plant material. Aspirin is a defined compound and a drug. Confusing them is how people get a gastritis and a story. Stone asked the Royal Society to look. Bayer asked pharmacists to stock a tin. Keep the letter, the crystal, and the tin in separate rooms.

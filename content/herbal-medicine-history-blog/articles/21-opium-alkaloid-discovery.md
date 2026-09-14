@@ -32,6 +32,9 @@ He tried it on himself and on dogs. That sentence is not a dare. It is a record 
 
 *Figure 1. Historical processing schematic — not synthesis instructions or dosing guidance.*
 
+<!-- under-fig:v2 -->
+Poppy juice was a known tool in Dioscorides, in Galenic shops, and in Islamicate hospitals long before a German pharmacist weighed a crystal. Paracelsus used a laudanum in a chemical rhetoric. Indian Ocean opium cake moved as medicine and as habit. Friedrich Sertürner worked in Paderborn and later Einbeck; his early-1800s papers did not travel. The 1817 *Annalen der Physik* piece, and Gay-Lussac’s attention, did. If a caption needs one year, 1817 is the year the news behaved like news. Figure 1 is latex to named base. It is not a method and not a cultivation note.
+
 Opium is a mixture. A tincture made in January is not a tincture made in July if the raw cake differs. A crystal with a name can be weighed. Weighing is the beginning of modern dose, of overdose as a number, of industrial production, of the later hypodermic century. Figure 1 is a historical cartoon of that change. It is not a process sheet.
 
 Meissner coined *Alkaloid* in 1819 for plant bases that could be salted and sold. Pelletier and Caventou took the habit to nux vomica (strychnine, 1818) and cinchona (quinine, 1820). Runge isolated caffeine in 1819. The 1804–1832 window in the file is the concept's birth decade, not a complete census of isolates.
@@ -45,6 +48,9 @@ Dioscorides already knew the poppy's juice as a sleep and a killer. Sydenham had
 ![Discovery and pharmacopeia timeline for Opium, morphine, and the alkaloid concept.](../assets/opium-alkaloid-discovery/discovery-timeline.svg)
 
 *Figure 2. Laboratory and regulatory dates to cite — no fabricated effect sizes.*
+
+<!-- under-fig:v2 -->
+Pierre-Jean Robiquet isolated codeine in 1832. C. R. A. Wright made diacetylmorphine in 1874; Bayer trademarked Heroin in 1898. Alexander Wood’s 1850s hypodermic work and the American Civil War taught a generation intramuscular mercy and a hook. The Harrison Narcotic Act (1914) and the 1961 Single Convention are administrative sequels. A hospice can still run short of oral morphine while a treaty system congratulates itself. Figure 2 gets no strength bar. Strength is why the lock was invented. No slang tutorial.
 
 For this pack: Sertürner isolated morphine in the first years of the nineteenth century and convinced the wider chemical world around 1817. If a caption needs one year, 1817 is the year the news behaved like news. C. R. A. Wright's 1874 diacetylmorphine, later Bayer's Heroin, is just outside the file window and belongs in the administrative sequel (Harrison 1914; Single Convention 1961). Figure 2 should not print a "strength" bar. Strength is why the lock was invented.
 

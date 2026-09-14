@@ -32,9 +32,8 @@ The book is famous because it is careful. It is careful because the plant is not
 
 *Figure 1. Historical processing schematic — not synthesis instructions or dosing guidance.*
 
-"Dropsy" was swelling and breathlessness — later filed under heart failure and renal disease. Digitalis, in his hands, seemed to move urine and ease some of the drowned. He preferred leaf gathered and dried with care because he had seen what a sloppy sample did. Figure 1 may run from leaf to glycoside. Do not read it as a recipe. The twentieth century isolated cardiac glycosides and then, in many clinics, narrowed the indications. *D. lanata* became an industrial source. Digoxin became a prescription object with a narrow window.
-
-Taking a folk brew and subtracting nineteen herbs is a kind of theft and a kind of science. The woman had a working, dangerous combination. Withering had case notes and a printer. Both worries can sit in the same paragraph.
+<!-- under-fig:v2 -->
+Withering practiced in Birmingham and hunted the leaf after a Shropshire family recipe for dropsy. He preferred leaf gathered and dried with care because he had seen what a sloppy sample did. “Dropsy” was swelling and breathlessness — later filed under heart failure and renal disease. In his hands the leaf seemed to move urine and ease some of the drowned. Taking a folk brew and subtracting nineteen herbs is a kind of theft and a kind of science. The unnamed woman had a working, dangerous combination. He had case notes and a printer. Both worries can sit in the same paragraph. *D. lanata* later became an industrial source. Digoxin became a prescription object with a narrow window. Figure 1 may run from leaf to glycoside. It is not a recipe.
 
 ## Laboratory milestones readers should know
 
@@ -44,7 +43,8 @@ Taking a folk brew and subtracting nineteen herbs is a kind of theft and a kind 
 
 *Figure 2. Laboratory and regulatory dates to cite — no fabricated effect sizes.*
 
-1785 the *Account*; nineteenth-century official digitalis in too many preparations; twentieth-century named glycosides; 1957 in this pack's graphics as a mid-century official beat — `[VERIFY]` what the artist meant (a USP or BP monograph year, a naming paper) before a print caption invents a discovery. Figure 2 should not print survival curves. Withering recorded xanthopsia among other toxic signs. The useful image is a Midlands bedside, a pulse, a leaf he does not romanticize.
+<!-- under-fig:v2 -->
+Claude-Adolphe Nativelle crystallized a “digitaline” in the late 1860s and early 1870s. Sydney Smith, at Burroughs Wellcome, characterized digoxin from *Digitalis lanata* in 1930. Digitoxin is the other official glycoside. Powdered digitalis leaf stayed in the USP and BP while chemists argued which molecule the leaf had been. This pack’s 1957 beat is a mid-century official box — `[VERIFY]` whether the artist meant a USP or BP monograph year before print. Withering’s 1785 *Account* remains the bedside book: pulses, xanthopsia, a leaf he will not romanticize. Figure 2 should not grow a survival curve. Hospital digoxin is a prescription object. Garden foxglove is a poison a child can reach.
 
 If you grow foxglove because it is pretty, good. If you grow it because a blog mentioned Withering and your ankles, stop. The Shropshire secret was never a secret from the plant.
 

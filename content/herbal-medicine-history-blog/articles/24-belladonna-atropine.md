@@ -32,7 +32,7 @@ Geiger, Hesse, and Mein sit in the 1830s isolation file; 1833 is the date this p
 
 *Figure 1. Historical processing schematic — not synthesis instructions or dosing guidance.*
 
-Dioscorides and the Latin herbals already treat mandrake and henbane as dangerous. Belladonna's vernacular names (deadly nightshade, dwale) are English warnings. Figure 1 is leaf to named base. Not a method. The pharmacopeia kept the leaf and the tincture after the isolate existed because shops are conservative and because a whole-leaf preparation is a different, dirtier object. Hyoscyamine can racemize toward atropine in some old preparations; scopolamine (hyoscine) is the neighbor alkaloid. Three tropanes. One family argument. A leaf infusion and a weighed crystal must not share a recipe card.
+Dioscorides and the Latin herbals already treat mandrake and henbane as dangerous. Belladonna's vernacular names (deadly nightshade, dwale) are English warnings. Linnaeus’s *Atropa* remembers Atropos, the Fate who cuts the thread. Figure 1 is leaf to named base. Not a method. The pharmacopeia kept the leaf and the tincture after the isolate existed because shops are conservative and because a whole-leaf preparation is a different, dirtier object. Hyoscyamine can racemize toward atropine in some old preparations; scopolamine (hyoscine) is the neighbor alkaloid. Three tropanes. One family argument. A leaf infusion and a weighed crystal must not share a recipe card.
 
 Ophthalmology and anesthesia later used atropine as a tool among tools. Those are hospital stories. They are not folk-use validations. A "traditional belladonna" capsule on a U.S. shelf, if it exists, is a DSHEA or a drug-misbranding problem depending on the claim — not a Renaissance cosmetic.
 
@@ -43,6 +43,9 @@ Ophthalmology and anesthesia later used atropine as a tool among tools. Those ar
 ![Discovery and pharmacopeia timeline for Belladonna and atropine in pharmacopeias.](../assets/belladonna-atropine/discovery-timeline.svg)
 
 *Figure 2. Laboratory and regulatory dates to cite — no fabricated effect sizes.*
+
+<!-- under-fig:v2 -->
+The pharmacist Mein (1831) and Geiger and Hesse (around 1833) sit in the isolation file this pack locked. `[VERIFY]` the first clean atropine paper against Sneader. Later nineteenth-century chemistry (Ladenburg and others) argued tropane structure. Official books kept *Extractum Belladonnae* and *Tinctura Belladonnae* long after the base existed — a dirtier object beside a weighed crystal. Homatropine is a later synthetic cousin used in the eye. Early-twentieth-century “twilight sleep” (scopolamine with morphine in obstetrics) is a hospital fashion, not a folk validation and not a recipe. Crude leaf retreated from household cabinets after labeling laws made the poison visible.
 
 1830s isolation; later synthetic and semisynthetic cousins; official monographs into the twentieth century; the slow retreat of crude belladonna from household cabinets after labeling laws. Figure 2 should not print a "potency" comparison that a reader could use. The historical point is the same as morphine's: **a plant drug became a chemical individual**, and the law eventually treated the individual more seriously than the leaf.
 

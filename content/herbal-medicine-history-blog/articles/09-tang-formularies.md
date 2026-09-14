@@ -47,6 +47,9 @@ Dunhuang medical fragments show the same century's less official hand: recipes o
 
 *Figure 2. Comparative materia medica plate — illustrative line art, not botanical ID.*
 
+<!-- under-fig:v2 -->
+Ginseng, licorice (*gancao*) as the great harmonizer in formulas, *má huáng*, ginger, rhubarb, and south-seas aromatics are the ingredients a plate can silhouette. The official unit is often the compound — a ratio and a logic — the way later Japanese Kampo insured extracts are compounds. The *Waitai miyao* (Wang Tao, 752) is a formula encyclopedia from the same dynasty’s later decades. Tanba Yasuyori’s *Ishinpō* (984) kept Tang-period material that China later lost. A single-herb capsule sold under a Tang name is a different object. No formula here is a protocol.
+
 Ginseng, licorice (*gancao*) as the great harmonizer in formulas, ephedra, ginger, rhubarb, the aromatics that Silk Road traffic made ordinary in Chang'an. Figure 2 cannot show a formula. A formula is a ratio and a logic. The plate shows ingredients. The historical claim is that **the unit of Tang official medicine is often the compound**, the way Kampo's later insured extracts are compounds. A single-herb capsule sold under a Tang name is a different object.
 
 Foreign drugs in the Tang lists — aromatics from the south seas, minerals, later identifications that Song editors would argue — are the empire as a stomach. Do not call this "multiculturalism." Call it a capital that could buy.

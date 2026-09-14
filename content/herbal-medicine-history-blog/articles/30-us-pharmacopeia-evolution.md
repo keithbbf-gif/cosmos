@@ -33,6 +33,9 @@ Later, the Food and Drug law would treat USP standards as a legal yardstick for 
 
 *Figure 1. Comparative plate for reading monographs — line art only, not herbarium IDs.*
 
+<!-- under-fig:v2 -->
+Lyman Spalding convened physicians in Washington in January 1820. Samuel Latham Mitchill and a short list of state delegates wanted a republic to speak one recipe language. The first *United States Pharmacopeia* printed that year is a thin official book: Latin drug names, English directions, a shop already full of botanicals. Revisions in 1830 (New York) and later decades stuffed the book with crude-drug monographs because the American shelf was a plant shelf. A classical monograph names the part, the look, the test, the preparation. Figure 1 is that reading order, not a backyard key. *Cannabis indica* entered in the 1850s and left in 1942 — political weather as much as a scientific one.
+
 A classical crude-drug monograph names the plant part, the look, the test, the preparation. Figure 1 is a schematic of that reading, not a field key. Do not identify a backyard leaf from it. The nineteenth-century USP was full of botanicals because the American shop was full of botanicals. The twentieth century emptied many of those monographs as tablets replaced tins.
 
 *Cannabis indica* entered the USP in the 1850s and left in 1942. That in-and-out is a political weather as much as a scientific one (see the later scheduling file). Digitalis, opium, belladonna: the official leaf was a standard, then a problem, then a memory.
@@ -44,6 +47,9 @@ A classical crude-drug monograph names the plant part, the look, the test, the p
 ![Edition and harmonization beats for United States Pharmacopeia editions in context.](../assets/us-pharmacopeia-evolution/edition-timeline.svg)
 
 *Figure 2. Edition and harmonization beats — verify against official publishers.*
+
+<!-- under-fig:v2 -->
+The Convention that owns the book still meets. USP incorporated in 1900 as a nonprofit. The *National Formulary* began in 1888 under the American Pharmaceutical Association; USP acquired it in 1975, which is why the spine now says USP–NF. The 1906 Act and the 1938 Act pointed at official compendia as legal yardsticks for official drugs. Harmonization talks with Ph. Eur. and the Japanese Pharmacopoeia sit in the Pharmacopoeial Discussion Group. Figure 2’s 2024 end is a living date. `[VERIFY]` a revision number against USP’s own history pages. This magazine will not pirate a current assay table.
 
 1820 first; later revision cycle; 1906 and 1938 statutes pointing at official compendia; USP–NF merger; harmonization talks with the European and Japanese pharmacopoeias. Figure 2's "2024" is a living end-date, not a final edition. `[VERIFY]` any specific revision number against USP's own history pages before a caption.
 

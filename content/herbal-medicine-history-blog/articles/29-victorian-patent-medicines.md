@@ -32,6 +32,9 @@ The British file is parallel: Holloway's pills, Beecham's, the newspaper column 
 
 *Figure 1. Statutory milestones — legal history, not treatment recommendations.*
 
+<!-- under-fig:v2 -->
+Lydia E. Pinkham began advertising her Vegetable Compound from Lynn, Massachusetts, in the 1870s. Hostetter’s Stomach Bitters carried a whiskey alibi and a stamp. Mrs. Winslow’s Soothing Syrup put opium or morphine in the nursery until analysis made the habit visible. Clark Stanley’s snake-oil liniment, tested after 1906, was mineral oil, turpentine, and theater. Britain’s Pharmacy Act 1868 and the medicine-stamp duty are a parallel file. James Harvey Young’s *Toadstool Millionaires* remains the historian to keep on the desk.
+
 Before 1906 a U.S. bottle could lie in a particular way: it could hide morphine, cannabis, cocaine, and alcohol behind a floral name. Adams's *Collier's* series named the math for a mass readership. The 1906 Pure Food and Drug Act (next essay) made certain lies and omissions federal matters. It did not require that a drug work. Efficacy as a legal demand arrives later.
 
 Figure 1: mid-century cheap paper and rural ads; Pinkham's career (she died in 1883; the letters kept coming); 1905–06 muckraking; 30 June 1906. No treatment recommendations. The buyers had pain, shame, no antibiotics, and a postal service. Mock the sellers who knew they were selling whiskey as a female tonic. Do not mock the mailbox.
@@ -43,6 +46,9 @@ Figure 1: mid-century cheap paper and rural ads; Pinkham's career (she died in 1
 ![Flow from product category to agency review concepts.](../assets/victorian-patent-medicines/agency-flow.svg)
 
 *Figure 2. Illustrative agency questions — not a filing checklist.*
+
+<!-- under-fig:v2 -->
+Samuel Hopkins Adams’s *Collier’s* series named the shelf before Congress did. After Pinkham’s death the company kept answering letters in her voice — an archive of gynecological need and of a face that outlived a person. The Proprietary Association learned to live with a federal label. Hadacol, in Dudley LeBlanc’s postwar radio, proved the emotional box could survive a microphone. Figure 2 is the inspector’s mind: what is on the label, what crosses a state line, who printed the testimonial. 1906 changed the carton more than the newspaper.
 
 What is on the label? What crosses a state line? Who printed the testimonial? Figure 2 is the inspector's mind, not a startup canvas. Hostetter's bitters ran like a whiskey with a medical alibi. Mrs. Winslow's Soothing Syrup put opium in the nursery. Clark Stanley's snake oil, analyzed after the new law, was mineral oil and theater. The Chinese railroad workers' liniment that American English stole and ruined is a different object. Say so.
 

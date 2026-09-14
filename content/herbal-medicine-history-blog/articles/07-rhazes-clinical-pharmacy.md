@@ -47,6 +47,9 @@ Alchemy and philosophy sit in his other books. This essay stays in the pharmacy:
 
 *Figure 2. Comparative materia medica plate — illustrative line art, not botanical ID.*
 
+<!-- under-fig:v2 -->
+The shared Islamicate shelf in Figure 2 is senna and other cathartics, rose, camphor, opium as a known tool, Gulf and Red Sea gum-resins. Al-Rāzī’s contribution is often a hospital sentence about an old plant: this famous drug failed this patient tonight. The *Kitāb al-Ḥāwī* is a working pile — notes, quotations, disagreements — not a tonic. Ibn al-Nadīm’s *Fihrist* already treats him as a compiler who would not stop. The smallpox-and-measles treatise traveled in Latin as *De variolis et morbillis*. A supplement statue of “Rhazes” is a statue. Prefer the pile.
+
 The plate is the shared Islamicate shelf: senna and other cathartics, rose, camphor, opium as a known tool, the gum-resins of the Gulf and the Red Sea. Al-Rāzī's contribution is not a new plant so much as a hospital sentence about an old one. He will note that a drug that looks official can still be the wrong drug for this patient tonight. That sentence later becomes, in other mouths, "the dose makes the poison." He did not need Paracelsus to notice a bad night.
 
 Do not turn him into a proto-clinician who secretly ran RCTs. He ran a ward. He wrote down what he trusted and what he had only read. The distinction is already a method. A modern supplement label that borrows "Rhazes" is borrowing a statue. The *Ḥāwī* is a pile of notes. Prefer the pile.

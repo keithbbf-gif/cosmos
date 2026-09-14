@@ -45,6 +45,9 @@ Figure 1: 1906, 1937 elixir, 1938 Act, 1962 efficacy. No treatment recommendatio
 
 *Figure 2. Illustrative agency questions — not a filing checklist.*
 
+<!-- under-fig:v2 -->
+In October and November 1937, FDA inspectors chased remaining raspberry elixir across state lines. The legal hook under the 1906 Act was often misbranding: “elixir” implied alcohol the bottle did not contain. S.E. Massengill paid a fine on the order of $26,000 — `[VERIFY]` the exact judgment against the FDA history office — because that was the tooth the old statute had. Harold Watkins, the chemist who chose diethylene glycol, died by suicide. Walter G. Campbell used the bodies in testimony the way Wiley had used borax. Figure 2’s questions — new drug, solvent, hidden label — are 1938’s questions. They are not a current filing guide and not a parable about “untested herbs.” The dead were killed by a solvent around a useful sulfa.
+
 Is it a new drug? What is the solvent? What does the label hide? Figure 2 is the 1938 question set, not a current filing guide. Walter Campbell and the FDA of that year used the disaster in testimony the way Wiley had used borax. Agencies need bodies, unfortunately, to get statutes.
 
 A "natural" solvent is not the lesson. Glycol is not natural in the marketing sense, and honey has killed infants for other reasons. The lesson is **process and file**. DSHEA later moved many botanicals into a lane with less file. That lane is a 1994 political fact. It does not repeal 1937. It just files the plant in another drawer.

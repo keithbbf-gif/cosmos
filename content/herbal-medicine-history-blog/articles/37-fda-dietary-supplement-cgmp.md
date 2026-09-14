@@ -32,6 +32,9 @@ This is not pre-market approval. It is a manufacturing ethic written as law. A p
 
 *Figure 1. Statutory milestones — legal history, not treatment recommendations.*
 
+<!-- under-fig:v2 -->
+DSHEA (1994) authorized good manufacturing practice rules for supplements. FDA did not finish the book until 72 Fed. Reg. 34752 (25 June 2007). Large firms went first; medium and small firms followed on a one-, two-, and three-year phase-in by employee count. 21 C.F.R. 111.75 is the identity-testing neighborhood inspectors actually argue about. The 2004 ephedra adulteration rule (21 C.F.R. 119; 21 U.S.C. § 342(f)) is a different tool: a class of alkaloids, a safety-risk finding, not a factory-process book. Do not merge them in a caption. Thirteen years from authorization to final GMP is the historical pace. Process is slow. Aisle marketing is not.
+
 1994 DSHEA authorized GMPs for supplements. The 2007 final rule (72 Fed. Reg. 34752, 25 June 2007) is the book. Small firms got more time. Figure 1 should carry those dates plus the 2004 ephedra adulteration rule as a different, safety-risk tool (21 U.S.C. § 342(f)). cGMP is about process. The ephedra rule was about a class of alkaloids in a class of products. Do not merge them in a caption.
 
 Adulteration and misbranding remain the hooks. A beautifully documented file can still be a disease-claim case. A sloppy file can be a cGMP case even when the label is shy. Two hooks. One aisle.
@@ -43,6 +46,9 @@ Adulteration and misbranding remain the hooks. A beautifully documented file can
 ![Flow from product category to agency review concepts.](../assets/fda-dietary-supplement-cgmp/agency-flow.svg)
 
 *Figure 2. Illustrative agency questions — not a filing checklist.*
+
+<!-- under-fig:v2 -->
+Part 111’s industrial nouns are master manufacturing records, batch records (see 111.260), a quality unit, laboratory operations, and hold-and-distribute decisions. Identity of a powdered leaf is pharmacognosy at factory scale: microscopy, HPTLC, a supplier-qualification file, sometimes a DNA-barcoding argument. Figure 2 is illustrative. It is not a consultant deck and not a way to “pass FDA.” Warning letters are a skewed sample — the messy firms, the failed identifications. Quiet competent plants do not trend. The botanical remainder is older than 2007: a name on a sack is not a species until someone checks.
 
 Who manufactures? What is the identity test for a powdered leaf? Where are the batch records? Figure 2 is illustrative. It is not a consultant's checklist and not a way to "pass FDA." This magazine will not help anyone design a 483 response.
 

@@ -46,6 +46,9 @@ The Indian Medicine Central Council Act (1970) and the later AYUSH ministry lice
 
 *Figure 2. Comparative materia medica plate — illustrative line art, not botanical ID.*
 
+<!-- under-fig:v2 -->
+The working Unani object is often a *qarābādin* — a formulary — not a single leaf. Indo-Persian shops compounded *majūn*, *jawārish*, *khamīra*, and *sharba* from pepper, sandal, saffron, senna, and a long vernacular synonymy. Calcined-metal *kushta* lines sit in the same cabinets as plant electuaries; they are a historical category, not a method this magazine will teach. Hakim Ajmal Khan’s Hindustani Dawakhana in Delhi is a named early-twentieth-century factory-and-college object. India’s later *National Formulary of Unani Medicine* (first volume in the early 1980s — `[VERIFY]` the imprint year) is a ministry book. It does not issue a U.S. label.
+
 Classical Unani pharmacy loves the compound: *majun*, *khamira*, *sharbat*, *raughan*. Figure 2 shows simples because plates show simples. The historical object is often the electuary. Opium as a known tool, cannabis in some compounds, metals in some lines, a huge vernacular synonymy: the shelf is mixed on purpose.
 
 A modern capsule of a single "Unani herb" is a factory-and-export object. If that capsule is sold in the United States as a dietary supplement, it lives under DSHEA, not under the *Canon*. The label's "ancient Unani" is a marketing tense. The monsoon is a climate and a shipping calendar. The jar is the subject. The rest is tourism.

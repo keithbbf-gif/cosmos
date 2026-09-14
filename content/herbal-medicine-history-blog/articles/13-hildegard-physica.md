@@ -32,6 +32,9 @@ She does not write like a 1980s naturopath. That voice was added later, mostly i
 
 *Figure 1. Anchors for antiquity-to-modern framing — verify dates in draft.*
 
+<!-- under-fig:v2 -->
+Hildegard was elected magistra at Disibodenberg and later founded Rupertsberg near Bingen; Eibingen is the later house. *Scivias* is the vision book. The music is a body of work that needs no herbal defense. *Physica* (*Liber simplicis medicinae*) is the plant, animal, and stone book. The 1158 flavor date in this pack is a teaching lock — `[VERIFY]` against Flanagan or Newman if a caption needs a composition year. She will sound, at moments, like the *Circa instans* because that was the international Latin style, not because she secretly attended Salerno.
+
 Disibodenberg, then Rupertsberg, then Eibingen: Rhine houses in a country already full of Roman leftovers and German names. *Physica* mixes Latin labels and local uses. The twelfth century was also Constantine the African and Salerno. Hildegard is not a Salernitan. She is a German abbess with a Latin toolkit and a garden. She will sound, at moments, like the *Circa instans* because that was the international style, not because she secretly attended a college in Italy.
 
 *Viriditas* — greenness as a name for living vigor — is a mystical and ecological idea. It is easy to print on a tea tin. The tin is brand work. The visions are visionary work. Keep them in different sentences. She cannot consent to a trademarked spelt biscuit.
@@ -43,6 +46,9 @@ Disibodenberg, then Rupertsberg, then Eibingen: Rhine houses in a country alread
 ![Stylized line plate of plants named in related pharmacopeia traditions.](../assets/hildegard-physica/materia-medica-plate.svg)
 
 *Figure 2. Comparative materia medica plate — illustrative line art, not botanical ID.*
+
+<!-- under-fig:v2 -->
+*Physica*’s plant book runs a repeated grammar: a name, a temperament (hot, cold, dry, moist), a use, a vehicle — wine, honey, a poultice. Fennel, sage, and spelt sit in a Rhine kitchen that was already growing them. Galangal and pepper sit there as bought goods that had walked from other climates. *Causae et curae* is the companion medical file; specialists still argue how much of it is hers — `[VERIFY]` against a Hildegard handbook before a caption treats both titles as one autograph. Quote a paragraph in that grammar if you honor her. Do not turn “for the fever” into a license.
 
 Spelt (*Dinkel*) is in her dietetic world as a grain among grains. Sage, fennel, the Rhine weeds a house already grew: Figure 2 will look like the monastic plate because it is the same ecology. The difference is a named author with a political life. Quote a plant paragraph in full — heat, use, vehicle — then say, plainly, that a twelfth-century indication is a historical sentence, not a license to treat a disease.
 

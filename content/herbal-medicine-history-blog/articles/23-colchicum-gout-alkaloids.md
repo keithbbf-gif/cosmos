@@ -33,6 +33,9 @@ Pelletier and Caventou, already famous for quinine, described colchicine in the 
 
 *Figure 1. Historical processing schematic — not synthesis instructions or dosing guidance.*
 
+<!-- under-fig:v2 -->
+Dioscorides and later Arabic compilers list related bulbs among dangerous drugs. Greek *hermodactylus* is often a wish laid on Linnaean *Colchicum autumnale* — say so. Early modern European physicians used wine of colchicum with faith and funerals. Anton von Störck in 1760s Vienna published hospital trials in a toxicological style that also touched aconite. `[VERIFY]` Störck’s dates against a handbook before a caption makes him a discoverer. That style killed people. The later isolate’s point was a number instead of a country wine. Gout is a historical disease-word that later biochemistry sorted into urate. They did not have the crystal.
+
 Figure 1 may show a corm and a name. It is not a kitchen card. Dioscorides and the Arabic compilers list related bulbs among dangerous drugs. Early modern European physicians used wine of colchicum with the usual mixture of faith and funerals. Anton von Störck in eighteenth-century Vienna is one of the names later histories attach to a "revival." `[VERIFY]` Störck's dates against a medical-history handbook before a caption makes him a discoverer. He was working in a toxicological style that also touched aconite. That style killed people. That is the point of the later isolate: a number instead of a country wine.
 
 Gout itself is a historical disease-word that later biochemistry sorted into urate and other pictures. Do not write that "the ancients treated gout with colchicine" as if they had the crystal and the assay. They had a plant and a pain.
@@ -44,6 +47,9 @@ Gout itself is a historical disease-word that later biochemistry sorted into ura
 ![Discovery and pharmacopeia timeline for Colchicum, gout, and colchicine history.](../assets/colchicum-gout-alkaloids/discovery-timeline.svg)
 
 *Figure 2. Laboratory and regulatory dates to cite — no fabricated effect sizes.*
+
+<!-- under-fig:v2 -->
+French isolation work in the 1820s neighborhood (Pelletier and Caventou; later Geiger) attached a name, colchicine, to a corm physicians already feared. `[VERIFY]` the first clean naming paper against Sneader or a chemistry handbook before a caption treats a single year as sacred. Later crystals and pharmacopeia monographs on *Colchici cormus* and then the alkaloid are the official beats. In 2009 FDA’s Unapproved Drugs Initiative and URL Pharma’s Colcrys exclusivity made a very old alkaloid a pricing docket. If that sentence stays in a revision, it stays with a Federal Register cite. A garden autumn crocus and a hospital tablet still do not share a verb.
 
 1820s naming; later purification; pharmacopeia monographs; mid-twentieth-century hospital use as a defined drug. Figure 2 should carry those beats without a pain-score chart. Colchicine's modern U.S. life includes a branded-drug controversy (the 2009 Unapproved Drugs Initiative episode) that belongs in a regulation essay if you have the Federal Register in hand. `[soft: cite the FR if you lock that paragraph]`.
 

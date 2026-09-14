@@ -33,7 +33,10 @@ The file's "12th c." is the century when this habit meets a flood of translated 
 
 *Figure 1. Anchors for antiquity-to-modern framing — verify dates in draft.*
 
-Walahfrid Strabo's *Hortulus*, written at Reichenau in the ninth century, is a poem that is also a plant list: sage, rue, fennel, mint, the melon he baby-sat. The *Circa instans*, a Salernitan simple-book of the twelfth century, is the international style: a plant, a quality, a use. Herbals copied in monasteries are not automatically "monastic medicine" in a mystical sense. They are how a house that already grew sage learned the new Latin names for it.
+<!-- under-fig:v2 -->
+The Plan of St. Gall (Codex Sangallensis 1092) draws an infirmary and labeled beds on an ideal ninth-century campus. It is a drawing, not a photograph of Swiss mud. Walahfrid Strabo’s *Hortulus*, written at Reichenau, is a poem that is also a planting list: sage, rue, fennel, melon. The *Capitulare de villis* tells a Carolingian estate what to grow, medicinals included. Those three documents are the early medieval file. Constantine the African and the Salerno translations changed the twelfth-century table. They did not invent mint.
+
+The *Circa instans*, a Salernitan simple-book of the twelfth century, is the international style: a plant, a quality, a use. Herbals copied in monasteries are not automatically "monastic medicine" in a mystical sense. They are how a house that already grew sage learned the new Latin names for it. Walahfrid’s melon is still the better image than a stock nun.
 
 Physic gardens as university institutions come later (Padua 1545). The cloister plot is their ancestor only in the way a pantry is ancestor to a shop. Do not draw a straight line from a monk's bed of rue to Kew. Draw a line from a rule, a kitchen, and a sick dormitory to a labeled bed.
 
@@ -45,9 +48,8 @@ Physic gardens as university institutions come later (Padua 1545). The cloister 
 
 *Figure 2. Comparative materia medica plate — illustrative line art, not botanical ID.*
 
-Sage, rue, fennel, mint, rose, lily, the poisonous bed that apprentices had to know from the neighbor's leaf: aconite, henbane, foxglove in later northern plots. Figure 2 is a comparative silhouette. A ninth-century Reichenau list and a sixteenth-century printed herbal do not share a species list. They share a job: grow the useful, copy the name, do not trust an unlabelled sack.
-
-Hildegard's *Physica* (next essay) is one German abbess's book inside this world, not the whole world. Culpeper is much later and polemical. If a magazine photographs a woman in a wimple holding lavender at golden hour, it has left the plan of St. Gall and entered a brand. Use the plan. The beds are a filing system.
+<!-- under-fig:v2 -->
+A ninth-century Reichenau list and a sixteenth-century printed herbal do not share a species list. They share a job: grow the useful, copy the name, know the poisonous bed from the neighbor’s leaf — aconite, henbane, later foxglove in northern plots. Sage, rue, fennel, mint, rose, and lily are the ordinary useful bed. Padua’s 1545 *orto dei semplici*, the Society of Apothecaries’ Chelsea Physic Garden (1673), and Kew are later politics. Culpeper’s 1652 *English Physitian* is a London polemic against the College, not a monk. Hildegard’s *Physica* (next essay) is one German abbess inside this ecology, not the ecology. If a magazine photographs a woman in a wimple holding lavender at golden hour, it has left the plan of St. Gall and entered a brand. Use the plan. The beds are a filing system.
 
 ## After the plan
 

@@ -33,6 +33,9 @@ This essay will not glow. No cinematic wet lab. No percentage of "drugs from pla
 
 *Figure 1. Anchors for antiquity-to-modern framing — verify dates in draft.*
 
+<!-- under-fig:v2 -->
+Mikhail Tswett’s early-1900s chromatography sat on the shelf until mid-century paper, gas, and then HPLC made “a peak” an ordinary noun. Norman Farnsworth’s NAPRALERT at the University of Illinois Chicago tried to make the world’s plant-constituent papers searchable. Monroe Wall and Mansukh Wani’s 1971 paclitaxel paper (from *Taxus brevifolia* bark) and their camptothecin work (*Camptotheca acuminata*) are NCI-adjacent named hits. The Ontario–Lilly vinca story (Noble, Beer, Cutts; Gordon Svoboda at Lilly) and China’s Project 523 / *Artemisia annua* are the other celebrity screens. Most fractions did nothing in the assay. That boredom is the science. 1920–2000 in this file is the window from alkaloid textbooks to “natural product” as a grant category.
+
 1920–2000 in the file is a working window: from the late alkaloid-and-glycoside textbook to HPLC as ordinary and to the decade when "natural product" became a grant category. Farnsworth's NAPRALERT was a Chicago-area attempt to make the world's plant-use papers searchable. The existence of the database is the historical point. Scraping it into medical advice is not.
 
 NCI–USDA collecting, Wall and Wani's paclitaxel and camptothecin, the Ontario–Lilly vinca story, Project 523 and qinghao: these are named institutional stories, already told more carefully in isolate essays. What this piece adds is the **form** — a screen, a fraction, a paper, a CRADA. Most fractions did nothing in the assay. That boredom is the science.

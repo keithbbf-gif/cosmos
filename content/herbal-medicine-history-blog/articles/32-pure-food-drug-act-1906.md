@@ -32,6 +32,9 @@ The revolution was bibliographic. The bottle had to start telling a kind of trut
 
 *Figure 1. Statutory milestones — legal history, not treatment recommendations.*
 
+<!-- under-fig:v2 -->
+Section 8 of the 1906 Act made a short list of habit-forming ingredients a federal disclosure if they sat in the bottle: alcohol, morphine, opium, cocaine, heroin, chloroform, cannabis indica, chloral hydrate, acetanilide, and a few cousins. That list is a 1906 mind, not the 1937 tax act and not the 1970 schedule. Harvey Washington Wiley had been chief chemist of the Department of Agriculture since 1883; his hygienic-table trials became the Poison Squad in the papers. Samuel Hopkins Adams’s *Collier’s* series (1905–1906) named the nostrum trade. Upton Sinclair’s *The Jungle* moved meat in the same season. The Act could not require that a drug work. Efficacy waits for 1962.
+
 Harvey Washington Wiley had spent years bullying Congress with data and theater. His hygienic table trials — clerks eating meals laced with preservatives — became the Poison Squad in the papers. Upton Sinclair's *The Jungle* (1906) was a socialist novel about labor that the country read as a book about sausage. Meat inspection and the Wiley Act rode through the same door.
 
 Adams's *Collier's* series had already named the nostrum trade. 1906 gave it a federal hook. The Act could not require that a drug work. Efficacy arrives later, with a bang after 1962. The 1938 Food, Drug, and Cosmetic Act (next essay) is the next shoe, written after Massengill's elixir sulfanilamide killed because the solvent was diethylene glycol.
@@ -43,6 +46,9 @@ Adams's *Collier's* series had already named the nostrum trade. 1906 gave it a f
 ![Flow from product category to agency review concepts.](../assets/pure-food-drug-act-1906/agency-flow.svg)
 
 *Figure 2. Illustrative agency questions — not a filing checklist.*
+
+<!-- under-fig:v2 -->
+The Sherley Amendment (1912) tried to reach false therapeutic claims and required proof of fraudulent intent — a weak tooth, as James Harvey Young and later FDA historians keep saying. Wiley left in 1912 after fighting successors he thought too friendly to packers. The Bureau of Chemistry ran the Act until 1927; the name Food, Drug, and Insecticide Administration appeared that year; “Food and Drug Administration” stuck in 1930. Figure 2 is 1907’s inspector: food or drug, state line, printed list. A designer who pastes a current org chart onto that flow has left 34 Stat. 768.
 
 Is it food or drug? Does it cross a state line? Is the list of habit-forming ingredients printed? Figure 2 is 1907's inspector, not a 2020s docket. Cannabis on the 1906 list is not the 1937 tax act and not the 1970 schedule. It is a recognition that cannabis was an ordinary American pharmaceutical the buyer had a right to see named.
 

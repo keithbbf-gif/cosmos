@@ -37,7 +37,7 @@ Lisbon, Seville, Antwerp, Amsterdam, London: the European nodes. Goa, Melaka, Ma
 
 The peacock flower is *Caesalpinia pulcherrima*. Name it. Enslaved and Indigenous women held the abortifacient use; European printed herbals often declined to carry it. That refusal is a historical event sitting inside the same ports the schematic treats as arrows.
 
-Padua's 1545 *orto*, Leiden's garden, the later Chelsea Physic Garden (1673) and Kew: living catalogs for students and for states. A labeled bed is a check on a merchant's sack. It is also a trophy case.
+Padua's 1545 *orto*, Leiden's garden, the later Chelsea Physic Garden (1673) and Kew: living catalogs for students and for states. John Tradescant the Elder hauled living curiosities toward London for Buckingham and then for Charles. A labeled bed is a check on a merchant's sack. It is also a trophy case.
 
 ## What changed when the cargo landed
 
@@ -47,9 +47,10 @@ Padua's 1545 *orto*, Leiden's garden, the later Chelsea Physic Garden (1673) and
 
 *Figure 2. Dated beats to verify in draft — not a clinical efficacy chart.*
 
-A New World plant in a Seville shop gained a Galenic temperament it had never needed in Nahuatl. An Asian plant in a Lisbon shop gained a Latin synonym war. The cargo did not change. The sentence did. That is the whole event.
+<!-- under-fig:v2 -->
+Garcia de Orta’s *Colóquios* (Goa, 1563) argues plant by plant against Pliny from a garden and a bazaar: clove, cinnamon, tamarind, the betel quid, a pepper he could buy on the dock. Carolus Clusius’s *Aromatum et simplicium* (Antwerp, 1567) is that book in Latin dress for the north. Nicolás Monardes, in Seville, sold sassafras and tobacco as New World courses. José de Acosta’s *Historia natural y moral de las Indias* (1590) is a Jesuit attempt to file the same cargo as natural history. The cargo did not change. The sentence did: a Nahuatl plant gained a Galenic temperament; an Asian plant gained a Latin synonym war.
 
-Figure 2: 1492 as a political date (not a botanical one), 1563 Orta, 1570s Hernández in Mexico, Dutch VOC gardens, the first printed New World herbals. `[VERIFY]` Hernández expedition years. Do not add an efficacy column. The historical remainder is a ledger: who collected, who printed, who was paid, who was not named. Vinca and cinchona later in this pack are the same remainder with different centuries.
+Figure 2’s beats should stay documentary: 1492 as a political date (not a botanical one), 1563 Orta, 1570s Hernández in Mexico, Dutch VOC gardens. `[VERIFY]` Hernández expedition years. Do not add an efficacy column. The historical remainder is a ledger: who collected, who printed, who was paid, who was not named. Vinca and cinchona later in this pack are the same remainder with different centuries.
 
 ## After the Wardian case
 

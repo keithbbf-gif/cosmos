@@ -32,9 +32,10 @@ Pierre-Joseph Pelletier and Joseph Bienaimé Caventou isolated quinine in Paris 
 
 *Figure 1. Historical processing schematic — not synthesis instructions or dosing guidance.*
 
-Figure 1 is bark to crystal as a historical cartoon. No processing instructions. Indigenous Andean knowledge of the tree is the least documented part of the official European file, which is a kind of documentation. Quechua *quina-quina* and the later *cascarilleros* sit in that silence. Londa Schiebinger has written about how expertise gets stripped when a remedy becomes a title.
+<!-- under-fig:v2 -->
+Cardinal Juan de Lugo and other Jesuits made “Jesuit’s bark” a Roman and then a European shop object in the 1630s and 1640s. Quechua *quina-quina* and the Andean *cascarilleros* who peeled it sit in a thinner European file — a silence that is itself a record. Londa Schiebinger has written about how expertise gets stripped when a remedy becomes a title. Later plantation language split trees into *Cinchona officinalis*, *C. calisaya*, *C. ledgeriana*. Hipólito Ruiz and José Pavón’s *Flora Peruviana et Chilensis* and Charles-Marie de La Condamine’s 1730s notes are how a French and Spanish public got drawings. The crystal in Figure 1 is a Paris object. The peelers are an Andean labor file the title page does not pay.
 
-Robert Talbor sold a secret English remedy that was, underneath the wine, bark. Thomas Sydenham argued about when to give it. Secrecy and bark went together because the bark was a business.
+Robert Talbor sold a secret English remedy that was, underneath the wine, bark. Thomas Sydenham argued about when to give it. Secrecy and bark went together because the bark was a business. Figure 1 is bark to crystal as a historical cartoon. No processing instructions.
 
 ## Laboratory milestones readers should know
 
@@ -44,9 +45,8 @@ Robert Talbor sold a secret English remedy that was, underneath the wine, bark. 
 
 *Figure 2. Laboratory and regulatory dates to cite — no fabricated effect sizes.*
 
-1630s Jesuit bark in Rome; 1820 isolation; Hasskarl, Ledger, Markham and the seed transfers; Dutch Java as the machine that actually produced; wartime synthetics and then, much later, artemisinin as another plant-to-principle story. Figure 2 may run to the 1940s (Atabrine, wartime supply). It should not print a cure rate. Malaria was a labor and logistics problem. Quinine was issued. It failed when the parasite or the logistics failed. It poisoned when the dose was clumsy. None of that is a home protocol.
-
-Charles Ledger's *calisaya* seed, grown on in the East Indies, is one of those stories in which a named Bolivian assistant (Manuel Incra Mamani) does the lethal work and the European gets the memorial. Tell it that way or do not tell it. The countess, if she ever took the bark, is allowed to rest. The counting house is the truer monument.
+<!-- under-fig:v2 -->
+Pelletier and Caventou’s 1820 announcement in the *Annales de chimie* made a crystal a Paris product. Pelletier’s later factory made it a commodity. Justus Hasskarl’s 1850s Dutch seed run, Clements Markham’s British attempt, and Charles Ledger’s *calisaya* seed — gathered with Manuel Incra Mamani in Bolivia — made Java the mountain that actually produced. Mamani did lethal hillside work; Ledger’s name stuck. Tell it that way or do not tell it. Japan’s 1942 occupation of the Indies is why wartime quinacrine (Atabrine) enters Figure 2’s 1940s end. Quinidine is the sister alkaloid in the same bark. Quinine was issued. It failed when the parasite or the logistics failed. It poisoned when the dose was clumsy. None of that is a home protocol. The countess, if she ever took the bark, is allowed to rest. The counting house is the truer monument.
 
 ## After Java
 

@@ -32,6 +32,9 @@ This is a **medicine** box. It is not DSHEA. A U.S. capsule that says "supports"
 
 *Figure 1. Statutory milestones — legal history, not treatment recommendations.*
 
+<!-- under-fig:v2 -->
+Directive 2004/24/EC of 31 March 2004 inserted a simplified registration into the community medicines code (2001/83/EC, Article 16a and neighbors). The teaching clocks are thirty years of traditional use and fifteen years in the Community — `[VERIFY]` the consolidated articles before a caption treats the numbers as folklore. Products already on the market were given a deadline (30 April 2011 is the date operators still recite). Quality of the herbal substance still sits on the table. The product is a **medicine**. German Commission E (published assessments, 1978–1994 neighborhood) was an earlier national expert door, **soft** if you treat it as a pile of randomized trials. Kava withdrawals around 2002 were weather the directive inherited.
+
 The Herbal Medicinal Products Committee (HMPC) at the EMA writes community monographs and list entries that member states use, argue with, and sometimes ignore. Kava's earlier German/Swiss withdrawals (c. 2002) sit just before the directive as weather: Europe had already shown it could un-license a plant medicine. St. John's wort lives in this world as a medicine with interaction warnings, not as a checkout mood candy.
 
 Figure 1: national herbal medicines before 2004 (Germany's Commission E as a famous, **soft**-as-trial expert system); 2004/24/EC; later implementing years; Brexit as a UK-file split. `[VERIFY]` UK's post-2020 traditional-herbal path before a caption says "EU only."
@@ -43,6 +46,9 @@ Figure 1: national herbal medicines before 2004 (Germany's Commission E as a fam
 ![Flow from product category to agency review concepts.](../assets/eu-traditional-herbal-registration/agency-flow.svg)
 
 *Figure 2. Illustrative agency questions — not a filing checklist.*
+
+<!-- under-fig:v2 -->
+EMA’s HMPC writes community herbal monographs and a shorter list of herbal substances. List entries bind more tightly than monographs; member states still argue. After Brexit the MHRA kept a traditional herbal registration scheme with THR numbers on the pack — `[VERIFY]` a London bottle against the current MHRA page. The United States is not on this path. A U.S. firm takes DSHEA or an NDA. The EU also still has a food-supplement box that is not this door. Figure 2’s questions — tradition evidence, quality, medicine labeling — are European operator questions. They are not a filing kit and not a U.S. org chart.
 
 The H2 says "US-focused where noted." Note it: the United States is not on this path. A company that wants a U.S. bottle usually takes DSHEA or an NDA, not an EU traditional registration. Figure 2's questions — traditional use evidence, quality of the herbal substance, labeling of a medicinal product — are European operator questions. They are not a filing kit this magazine will complete.
 

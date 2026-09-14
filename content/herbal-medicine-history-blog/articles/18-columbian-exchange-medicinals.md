@@ -31,7 +31,8 @@ Alfred Crosby named the Columbian Exchange in 1972. The ships had been moving th
 
 *Figure 1. Illustrative trade schematic for “Columbian Exchange medicinal plants” — simplified geography, not navigation or modern routing.*
 
-Seville's monopoly, later Cadiz; Veracruz and Portobelo; Lima and the Andean *yungas*; Manila's later Pacific stitch. Figure 1 is a cartoon of those funnels. The 1552 *Libellus de medicinalibus Indorum herbis* — Martín de la Cruz composing in Nahuatl knowledge, Juan Badiano putting it into Latin at Tlatelolco — is a presentation gift, not a free ethnography. The paintings are among the century's best plant portraits. The Latin is the passport. The college sat on a conquered market.
+<!-- under-fig:v2 -->
+The *Casa de Contratación* in Seville licensed pilots and tried to license knowledge. Treasure fleets ran a *flota* toward Veracruz and *galeones* toward Nombre de Dios and later Portobelo. Andrés de Urdaneta’s 1565 *tornaviaje* made the Manila galleon a yearly Pacific stitch. Lima and the Andean *yungas* fed the same funnels from the south. The Imperial College of Santa Cruz de Tlatelolco (1536) is where Martín de la Cruz and Juan Badiano made the 1552 *Libellus* — now Vatican Barb. lat. 241 — as a presentation gift, not a free ethnography. The paintings are among the century’s best plant portraits. The Latin is the passport. The college sat on a conquered market.
 
 Sahagún's *Florentine Codex*, book 11, is the larger warehouse from the same generation. Hernández's royal expedition in the 1570s tried to do the job with a Spaniard's authority. Read them as colonial files that still hold Indigenous labor.
 
@@ -43,7 +44,8 @@ Sahagún's *Florentine Codex*, book 11, is the larger warehouse from the same ge
 
 *Figure 2. Dated beats to verify in draft — not a clinical efficacy chart.*
 
-Guaiacum became a European course for the pox and a reason to cut Caribbean trees. Tobacco became a vice, a medicine, and a tax (later essay). Cinchona became Jesuit's bark and then a plantation crop (quinine essay). Coca remained a leaf in the Andes and became an isolate in Göttingen in 1860. Each landing is a different sentence.
+<!-- under-fig:v2 -->
+Ulrich von Hutten advertised guaiacum as a pox course in 1519; Caribbean *Guaiacum officinale* and *G. sanctum* paid for that fashion in trees. Ipecacuanha entered European dysentery files as a Brazilian root; Helvetius later sold a Paris secret that was the same root with better publicity. Tobacco became a vice, a medicine, and a tax (later essay). Cinchona became Jesuit's bark and then a plantation crop. Albert Niemann isolated cocaine from coca leaf in Göttingen in 1860. The leaf’s Andean life did not wait for Göttingen. Each landing is a different sentence.
 
 Figure 2: 1492, 1552 Badianus, 1560s–70s Monardes, 1630s Jesuit bark in Rome, 18th-century cinchona arguments. `[VERIFY]` the first European cinchona dates against Honigsbaum and the countess legend's collapse (Haggis). No efficacy chart. The exchange was not a gift exchange. It was a set of ships with guns and a set of shops with new jars. The jars are still on the timeline. So are the empty towns.
 

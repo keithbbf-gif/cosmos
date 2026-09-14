@@ -32,6 +32,9 @@ Later toxicology printed him on posters: *Sola dosis facit venenum* — the dose
 
 *Figure 1. Anchors for antiquity-to-modern framing — verify dates in draft.*
 
+<!-- under-fig:v2 -->
+He lectured in Basel in 1527 in German, insulted the faculty, and did not last. The *Paragranum* and *Opus paramirum* are the theoretical files; the *Grosse Wundarznei* is the wound book. The dose-and-poison sentence later printers made portable (*sola dosis facit venenum*) is a tag, not a compliance program. Iatrochemistry’s academic heirs — van Helmont, Sylvius, the mineral section of the 1618 *London Pharmacopoeia* — are a committee digesting a fighter. He died in Salzburg in 1541. Later engravings guess at the face.
+
 He looked at theriac and saw a coward's pantry. Why seventy ingredients if one *arcanum* will do? The attack on Galenic compounding is the part that still feels modern. It is also unfair. A compound can be a delivery system. He preferred a philosophy in which a disease had a specific chemical enemy. Specificity would later feed the isolate era. He lived in a world of impure salts and grand claims.
 
 His mercury and antimony courses killed and saved in ratios we cannot audit. Iatrochemistry after him — van Helmont, the London pharmacopeia's uneasy mineral pages — kept the argument going until something like chemistry arrived to make it testable. The 1618 *London Pharmacopoeia* already had to decide which of his heirs to officialize.

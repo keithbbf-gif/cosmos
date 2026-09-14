@@ -33,6 +33,9 @@ Hormuz later took more of the choke-point fame. The file's 9th–13th century wi
 
 *Figure 1. Illustrative trade schematic for “Persian Gulf ports and materia medica sorting” — simplified geography, not navigation or modern routing.*
 
+<!-- under-fig:v2 -->
+Kish (Qais) took Siraf’s traffic when the beach and the politics shifted; Hormuz is the later island funnel. Sohar, on the Omani shore, is the earlier Abbasid node in the same sea. Ibn Khurradādhbih’s ninth-century routes already treat the Gulf as a customs problem, not a romance. The *Periplus of the Erythraean Sea* had named an incense coast centuries before a *bīmāristān* locked a resin. Figure 1 is those funnels plus a Persian and Indian hinterland, not a pilot book.
+
 Siraf's excavations (Whitehouse and successors) are the archaeological check on the literary port: a city that lived by the sea and died by earthquake and shifting routes. Figure 1 is not a pilot book. It is a reminder that "Arabian pharmacy" in a caption is often a Gulf warehouse plus a Persian and Indian hinterland.
 
 Ibn al-Bayṭār, walking in the thirteenth century from al-Andalus to the Levant and Egypt, still had to account for Gulf names. Al-Kindī's earlier *Aqrābādhīn* (Levey's edition) shows compounds that assume imported simples. The port is present even when the author is not standing on a quay.
@@ -44,6 +47,9 @@ Ibn al-Bayṭār, walking in the thirteenth century from al-Andalus to the Levan
 ![Milestones timeline for Persian Gulf ports and materia medica sorting.](../assets/arabian-gulf-pharmacy/milestones-timeline.svg)
 
 *Figure 2. Dated beats to verify in draft — not a clinical efficacy chart.*
+
+<!-- under-fig:v2 -->
+Frankincense (*Boswellia*) left Dhofar and the Ḥaḍramawt as a graded tear long before a *bencao* or a Latin herbal filed it. The *Periplus of the Erythraean Sea* already knew an incense coast. Myrrh (*Commiphora*) and camphor traveled the same clerks: camphor’s identity fight — Sumatran *Dryobalanops* versus East Asian *Cinnamomum camphora* — is a dock argument that later books inherited. “Indian” on a medieval Gulf list is a direction, not a Linnaean species. Ibn Baṭṭūṭa passed these ports as a traveler; Ibn al-Bayṭār passed their names as a compiler.
 
 Sorting means grade: which frankincense, which camphor, which "Indian" root is last year's cheat. Pharmacognosy is a dock skill before it is a university skill. When the same sack reached a Galenic shop in Cairo, it gained degrees. When it reached a hospital chest, it gained a lock.
 

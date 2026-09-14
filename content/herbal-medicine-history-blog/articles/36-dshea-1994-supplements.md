@@ -32,6 +32,9 @@ The aisle you walk in an American pharmacy is not a scientific classification. I
 
 *Figure 1. Statutory milestones — legal history, not treatment recommendations.*
 
+<!-- under-fig:v2 -->
+Public Law 103-417 created 21 U.S.C. 321(ff). Orrin Hatch of Utah and Tom Harkin of Iowa are the named senators. The 15 October 1994 date still governs “new dietary ingredients.” Utah manufacturing, GNC, and the *Prevention* readership were constituencies. A botanist was optional. FDA’s early-1990s attempt to treat many botanicals more like drugs is the fight the statute ended — or relocated. Structure/function language (“supports…”) is a regulatory artifact. Disease language makes an unapproved drug. That split is the aisle.
+
 The 1976 Proxmire Amendment limited FDA's power to treat vitamins and minerals as drugs merely because the dose was high. DSHEA eighteen years later widened the fence to botanicals and the rest of the health-food store. The early-1990s agency impulse to police the store more like a drug aisle met an industry-and-consumer campaign that included blacked-out bottle ads. Congress listened.
 
 No pre-market approval for most supplements. Manufacturer responsibility for safety and for the truth of whatever is said. Structure/function claims with a mandatory disclaimer. Disease claims make the product an unapproved drug. New dietary ingredients have a notification path that is still a fight. Figure 1: 1976, 1993–94 campaign, 25 Oct 1994, later 21 C.F.R. 111, 2004 ephedra rule.
@@ -43,6 +46,9 @@ No pre-market approval for most supplements. Manufacturer responsibility for saf
 ![Flow from product category to agency review concepts.](../assets/dshea-1994-supplements/agency-flow.svg)
 
 *Figure 2. Illustrative agency questions — not a filing checklist.*
+
+<!-- under-fig:v2 -->
+Pharmanex’s Cholestin (red yeast rice with a lovastatin-like fraction) produced the teaching court file: drug if it is a new drug, supplement if it is a traditional food-like object, until a judge says. *NEJM* and *JAMA* editorials in 1994–1995 called the Act a fantasy. Industry called it a rescue from a morphinization of niacin. The 2004 ephedra rule showed § 342(f) could bite. Part 111 later told factories to keep records. Most botanicals never get a full safety docket. Figure 2 is food-like object, drug-like hope, disclaimer. A *bencao* simple is not a DSHEA supplement until someone puts it in interstate commerce with a Supplement Facts box.
 
 Food-like object, drug-like hope, disclaimer. Figure 2 is that triangle, not a how-to for a brand. Red yeast rice (Cholestin) contained a lovastatin-like statin; FDA said drug; the company said supplement; courts spent years on the boundary. Chemistry does not decide. The statute's definitions and the product's history of use decide, until they don't.
 
