@@ -1,0 +1,151 @@
+{
+ "label": "FEATURE_PROBE-ui-refresh-2026-09-14T12:31:21Z",
+ "schema": "cosmos-cdeck-feature-probe/1",
+ "ui_files": {
+  "app.css": {
+   "bytes": 788,
+   "sha256": "4dbfdf8c47674058d01e66705f39c8891da66f4208cc44aefbe0ba3cb4048ad1"
+  },
+  "app.js": {
+   "bytes": 2680,
+   "sha256": "ee03ef92bdc709eceadb57cc164e83c45a8a0423871883ea16ba1b3bcd4abdb1"
+  },
+  "cdeck.webmanifest": {
+   "bytes": 161,
+   "sha256": "d051eff9f1379b13c4d0b905366bd101b01d904bd696c818dbe67eda97707416"
+  },
+  "deck_backup.js": {
+   "bytes": 21,
+   "sha256": "9adedfef10c389559107c096047a12ed193134557bd962632df8b21eedd44a8d"
+  },
+  "deck_forge.js": {
+   "bytes": 1772,
+   "sha256": "30a31c5399286f27442b3a790f9a9621ced7352c3d55ccdb4fb69fe224650dfa"
+  },
+  "deck_gitur.js": {
+   "bytes": 9369,
+   "sha256": "8ea0f4feeab2ccdc4a66bd0f65957217290edb4377b749255b471fa1977e9b2a"
+  },
+  "deck_more.css": {
+   "bytes": 429,
+   "sha256": "485dbdd4229b2eb01f6e14ec2de8d67cf803f0b86a144390c2605354806d21fe"
+  },
+  "deck_more.html": {
+   "bytes": 274,
+   "sha256": "99e6ca3c5f5bbdb3a225ada1d79619f0efb8766866a2e4edaf8285e6adc3ec88"
+  },
+  "deck_orders.js": {
+   "bytes": 21,
+   "sha256": "5ab7ed71762dbc08ea43d8c508be1f7e06bcf00c9686581b4a2d849df404845e"
+  },
+  "deck_profiles.js": {
+   "bytes": 15707,
+   "sha256": "02c2c94b293462ab05789988d134171be4cd868c15441b55765ccbd92a430ee1"
+  },
+  "deck_session_kit.js": {
+   "bytes": 26,
+   "sha256": "1770d01bc4429501a81a2d78ee7b22268251dbfd09ec205ccd01b0b93a7adf06"
+  },
+  "deck_settings.js": {
+   "bytes": 23,
+   "sha256": "bcc79f18b3d92ce57add2b5a2670c3b4cc45d54a2091a22d790d2aaa5876c70a"
+  },
+  "deck_sfx.js": {
+   "bytes": 18,
+   "sha256": "fbd44df65692003c63e8a2ed3df557f4084ebb66ad763dadad082d9c51106f60"
+  },
+  "deck_studio.js": {
+   "bytes": 9356,
+   "sha256": "fd8f53d4cf992a445c55542057594fc2277176c1852c572e7383aa732acc3560"
+  },
+  "deck_tabs.js": {
+   "bytes": 243,
+   "sha256": "0de042519854f5626e13f10aac52e95c0603d8c7b6283152ca721184c0ac9786"
+  },
+  "header.css": {
+   "bytes": 1349,
+   "sha256": "7bb9ba7793232aa30b7ee5e0457e1dafb10f810da7a9a852d214b9e834ea27c9"
+  },
+  "header.js": {
+   "bytes": 10629,
+   "sha256": "855f6ad4434de1e94d2b0821cb680ffe2d231cbee2cbdb19f90fa7c1c101088a"
+  },
+  "index.html": {
+   "bytes": 4743,
+   "sha256": "7e0996a9dc38d5a3d7434efe55e9b0d49fd7d9376d73481a3566c5aebbc1e5ff"
+  },
+  "kdash_native.js": {
+   "bytes": 182,
+   "sha256": "61e2b95c3718d141d4ead2687e366601bef27e5e9dfd8ec1290f969e6719025e"
+  },
+  "model_rater.js": {
+   "bytes": 8452,
+   "sha256": "2e2b280e5100432d2c0aeb341fb077ad280ced32671eb8a7349e169a3cde10b7"
+  },
+  "openwork.svg": {
+   "bytes": 42,
+   "sha256": "fb91f9a03c202c5f160eef644da6f2f704b19ac5c5f8b4c124e1b0b485ad57a0"
+  },
+  "planets/jupiter.mp3": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "planets/mars.mp3": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "planets/mercury.mp3": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "planets/neptune.mp3": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "planets/saturn.mp3": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "planets/uranus.mp3": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "planets/venus.mp3": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "skins/crucible-chamber.jpg": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "skins/differentiator-clinic.jpg": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "skins/diligence-dealroom.jpg": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "skins/docket-archive.jpg": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "skins/forge-engineroom.jpg": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "skins/ups-lab.jpg": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "skins/website-studio.jpg": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "sw.js": {
+   "bytes": 110,
+   "sha256": "c757468ce5f3ee6291f365997bda294121da86ec849386f92755ca00f45a7431"
+  }
+ },
+ "ui_fingerprint_at": "2026-09-14T16:57:33Z"
+}

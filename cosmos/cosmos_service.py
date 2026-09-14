@@ -31,7 +31,8 @@ that omits what it serves is an undocumented surface, not a short one):
                            UPS-JUDGE is NAMED, not invented.
     GET /api/v1/fleet    - cDeck FLEET + host-volume projection (disk binders)
     GET /api/v1/nodemap  - cDeck NODE MAP projection (registry + heartbeats)
-    GET /api/v1/jukebox  - rich job/queue fold (command, priority, stale flag)
+    GET /api/v1/jukebox  - scheduler fold (QUEUED/RUNNING/BROKE/CLEAN/FINDINGS +
+                           counts + queue.jobs; see builds/cdeck/cosmos_jukebox_panel.py)
     GET /api/v1/model_rater - OpenRouter catalog + seat assignments (local cache)
                            ?type=docs = text out, text/file/image in (cards cut).
     GET /api/v1/model_rater/roles - named COSMOS roles (ORC, CCr, MOTIF, Crucible)
