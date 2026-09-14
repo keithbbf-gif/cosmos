@@ -20,10 +20,62 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 SCHEMA = "cosmos-profiles/1"
+PS_SCHEMA = "cosmos-portfolio-studio/1"
+PS_ROUTE = "/api/v1/profiles"
 ENGINE_NAME = "engine.json"
 MAX_TEXT = 80_000
 MAX_NOTE = 4_000
 MAX_PATH = 400
+UNMEASURED = "UNMEASURED"
+EMPTY = "EMPTY"
+
+# Legacy GET/POST envelope. Additive Portfolio Studio keys live under
+# portfolio_studio so existing clients keep byte/meaning of these fields.
+LEGACY_SNAPSHOT_KEYS = (
+    "schema", "ok", "profile", "label", "kind", "profiles", "stages",
+    "dest_catalog", "skin_tabs", "motif_top", "bar_catalog", "bg",
+    "engine", "motif_step_1", "implement_was", "does_not_start_motif",
+    "does_not_publish", "note",
+)
+LEGACY_ENGINE_KEYS = (
+    "schema", "profile", "label", "define", "stages", "step_setup",
+    "dest", "saved_at", "kind", "note",
+)
+LEGACY_PROFILE_ROW_KEYS = (
+    "id", "label", "kind", "status", "note", "dest_catalog",
+    "skin_tabs", "motif_top",
+)
+LEGACY_STAGE_KEYS = ("id", "n", "name", "hint")
+
+# Typed-state vocab. Empty is explicit. UNMEASURED is not 0.
+TYPED_STATES = (
+    UNMEASURED,
+    "NO_SOURCE",
+    "OK",
+    "BROKE",
+    EMPTY,
+)
+
+# Allowed transitions on the existing profiles route. Catalog, not a cursor.
+# SAVE is not a MOTIF start. GET does not mutate.
+TRANSITION_CATALOG = (
+    {
+        "id": "get_snapshot",
+        "via": "GET /api/v1/profiles",
+        "mutates": False,
+        "starts_motif": False,
+        "publishes": False,
+    },
+    {
+        "id": "save_engine",
+        "via": "POST /api/v1/profiles",
+        "mutates": True,
+        "starts_motif": False,
+        "publishes": False,
+        "from_kinds": ["NO_SOURCE", "OK", "BROKE"],
+        "to_kind": "OK",
+    },
+)
 
 # Pack key `define` is on-disk. Display is PROBLEM STATEMENT / STATED GOAL.
 MOTIF_STAGES = (
@@ -373,11 +425,246 @@ def _bg_fold(paths, profile_id: str) -> dict:
         return {"kind": "BROKE", "detail": f"{type(e).__name__}: {e}"[:200]}
 
 
+def _unmeasured_stage_cursor() -> dict:
+    return {"kind": UNMEASURED, "id": None, "n": None}
+
+
+def _unmeasured_scalar() -> dict:
+    return {"kind": UNMEASURED, "value": None}
+
+
+def _unmeasured_transition() -> dict:
+    return {
+        "kind": UNMEASURED,
+        "id": None,
+        "at": None,
+        "from_kind": None,
+        "to_kind": None,
+    }
+
+
+def _transition_catalog() -> list[dict]:
+    rows = []
+    for t in TRANSITION_CATALOG:
+        row = dict(t)
+        if "from_kinds" in row:
+            row["from_kinds"] = list(row["from_kinds"])
+        rows.append(row)
+    return rows
+
+
+def stage_projection(engine) -> list[dict]:
+    """Nine MOTIF rows. Catalog fields match stages[]. Live run fields
+    stay UNMEASURED until Core observes a MOTIF tick. Empty note is EMPTY,
+    never 0 and never a guessed status."""
+    notes = engine.get("stages") if isinstance((engine or {}).get("stages"), dict) else {}
+    rows = []
+    for s in MOTIF_STAGES:
+        note = str(notes.get(s["id"]) or "")
+        rows.append({
+            "id": s["id"],
+            "n": s["n"],
+            "name": s["name"],
+            "hint": s["hint"],
+            "note": note,
+            "note_kind": "OK" if note else EMPTY,
+            "status": UNMEASURED,
+            "outcome": UNMEASURED,
+            "current": None,
+            "elapsed_s": None,
+            "tokens": None,
+            "spend_usd": None,
+        })
+    return rows
+
+
+def portfolio_studio_fold(engine) -> dict:
+    """Additive Portfolio Studio contract. Does not infer a live stage."""
+    en = engine if isinstance(engine, dict) else {}
+    define = en.get("define") if isinstance(en.get("define"), dict) else {}
+    text = str(define.get("text") or "")
+    return {
+        "schema": PS_SCHEMA,
+        "route": PS_ROUTE,
+        "does_not_start_motif": True,
+        "does_not_publish": True,
+        "response": {
+            "schema": SCHEMA,
+            "legacy_keys": list(LEGACY_SNAPSHOT_KEYS),
+            "additive": "portfolio_studio",
+        },
+        "typed_states": {
+            "vocab": list(TYPED_STATES),
+            "engine": en.get("kind") or "NO_SOURCE",
+            "define": "OK" if text else EMPTY,
+            "live": {
+                "current_stage": UNMEASURED,
+                "motif_running": UNMEASURED,
+                "last_transition": UNMEASURED,
+                "next_live": UNMEASURED,
+                "spend": UNMEASURED,
+                "occupancy_n": UNMEASURED,
+            },
+        },
+        "stage_projection": stage_projection(en),
+        "transitions": {
+            "schema": PS_SCHEMA + "-transitions",
+            "catalog": _transition_catalog(),
+            "last": _unmeasured_transition(),
+            "next_live": {"kind": UNMEASURED, "id": None},
+        },
+        "current_stage": _unmeasured_stage_cursor(),
+        "motif_running": _unmeasured_scalar(),
+        "spend": {"kind": UNMEASURED, "usd": None, "tokens": None},
+        "occupancy": {"kind": UNMEASURED, "n": None},
+    }
+
+
+def legacy_view(snap: dict) -> dict:
+    """Legacy envelope only — existing clients ignore portfolio_studio."""
+    return {k: snap[k] for k in LEGACY_SNAPSHOT_KEYS}
+
+
+def iter_unbound_live(ps: dict):
+    """Every unbound live slot: (path, value). Numbers must be None, not 0."""
+    if not isinstance(ps, dict):
+        raise AssertionError("portfolio_studio is not an object")
+    yield "current_stage.kind", (ps.get("current_stage") or {}).get("kind")
+    yield "current_stage.id", (ps.get("current_stage") or {}).get("id")
+    yield "current_stage.n", (ps.get("current_stage") or {}).get("n")
+    yield "motif_running.kind", (ps.get("motif_running") or {}).get("kind")
+    yield "motif_running.value", (ps.get("motif_running") or {}).get("value")
+    yield "spend.kind", (ps.get("spend") or {}).get("kind")
+    yield "spend.usd", (ps.get("spend") or {}).get("usd")
+    yield "spend.tokens", (ps.get("spend") or {}).get("tokens")
+    yield "occupancy.kind", (ps.get("occupancy") or {}).get("kind")
+    yield "occupancy.n", (ps.get("occupancy") or {}).get("n")
+    last = (ps.get("transitions") or {}).get("last") or {}
+    yield "transitions.last.kind", last.get("kind")
+    yield "transitions.last.id", last.get("id")
+    yield "transitions.last.at", last.get("at")
+    yield "transitions.last.from_kind", last.get("from_kind")
+    yield "transitions.last.to_kind", last.get("to_kind")
+    nxt = (ps.get("transitions") or {}).get("next_live") or {}
+    yield "transitions.next_live.kind", nxt.get("kind")
+    yield "transitions.next_live.id", nxt.get("id")
+    live = ((ps.get("typed_states") or {}).get("live") or {})
+    for key in ("current_stage", "motif_running", "last_transition",
+                "next_live", "spend", "occupancy_n"):
+        yield "typed_states.live.%s" % key, live.get(key)
+    for i, row in enumerate(ps.get("stage_projection") or []):
+        prefix = "stage_projection[%d]" % i
+        yield prefix + ".status", row.get("status")
+        yield prefix + ".outcome", row.get("outcome")
+        yield prefix + ".current", row.get("current")
+        yield prefix + ".elapsed_s", row.get("elapsed_s")
+        yield prefix + ".tokens", row.get("tokens")
+        yield prefix + ".spend_usd", row.get("spend_usd")
+
+
+def assert_legacy_compatible(snap: dict) -> bool:
+    """Executable response-schema freeze. Raises on legacy drift."""
+    if not isinstance(snap, dict):
+        raise AssertionError("snapshot is not an object")
+    missing = [k for k in LEGACY_SNAPSHOT_KEYS if k not in snap]
+    if missing:
+        raise AssertionError("legacy keys missing: %s" % (missing,))
+    if snap.get("schema") != SCHEMA:
+        raise AssertionError("schema drifted: %r" % (snap.get("schema"),))
+    if snap.get("does_not_start_motif") is not True:
+        raise AssertionError("does_not_start_motif drifted")
+    if snap.get("does_not_publish") is not True:
+        raise AssertionError("does_not_publish drifted")
+    if not isinstance(snap.get("profiles"), list) or not snap["profiles"]:
+        raise AssertionError("profiles[] missing")
+    ids = [p.get("id") for p in snap["profiles"]]
+    for need in ("website", "forge", "crucible", "ups",
+                 "diligence", "docket", "differentiator"):
+        if need not in ids:
+            raise AssertionError("profiles[] lost %s" % need)
+    for row in snap["profiles"]:
+        lost = [k for k in LEGACY_PROFILE_ROW_KEYS if k not in row]
+        if lost:
+            raise AssertionError("profiles[] row keys missing: %s" % (lost,))
+    stages = snap.get("stages") or []
+    if [s.get("n") for s in stages] != list(range(1, 10)):
+        raise AssertionError("stages[] is not nine MOTIF steps")
+    if [s.get("id") for s in stages] != [s["id"] for s in MOTIF_STAGES]:
+        raise AssertionError("stages[] ids drifted")
+    for s in stages:
+        lost = [k for k in LEGACY_STAGE_KEYS if k not in s]
+        if lost:
+            raise AssertionError("stages[] keys missing: %s" % (lost,))
+    engine = snap.get("engine")
+    if not isinstance(engine, dict):
+        raise AssertionError("engine missing")
+    lost_en = [k for k in LEGACY_ENGINE_KEYS if k not in engine]
+    if lost_en:
+        raise AssertionError("engine keys missing: %s" % (lost_en,))
+    return True
+
+
+def assert_unbound_unmeasured(ps: dict) -> bool:
+    """New live fields emit UNMEASURED / None. Never inferred. Never 0."""
+    kind_suffixes = (".kind", ".status", ".outcome")
+    for path, val in iter_unbound_live(ps):
+        if val == 0:
+            raise AssertionError("%s is 0 (UNMEASURED is never 0)" % path)
+        if path.startswith("typed_states.live.") or path.endswith(kind_suffixes):
+            if val != UNMEASURED:
+                raise AssertionError("%s=%r not UNMEASURED" % (path, val))
+            continue
+        if val is not None:
+            raise AssertionError("%s=%r inferred (want None)" % (path, val))
+    return True
+
+
+def assert_portfolio_studio_contract(snap: dict) -> bool:
+    """Response + stage-projection + typed-state + transition freeze."""
+    assert_legacy_compatible(snap)
+    ps = snap.get("portfolio_studio")
+    if not isinstance(ps, dict):
+        raise AssertionError("portfolio_studio missing")
+    if ps.get("schema") != PS_SCHEMA:
+        raise AssertionError("portfolio_studio.schema drifted")
+    if ps.get("route") != PS_ROUTE:
+        raise AssertionError("portfolio_studio.route drifted (no new route)")
+    if ps.get("does_not_start_motif") is not True:
+        raise AssertionError("portfolio_studio.does_not_start_motif drifted")
+    if ps.get("does_not_publish") is not True:
+        raise AssertionError("portfolio_studio.does_not_publish drifted")
+    proj = ps.get("stage_projection") or []
+    if len(proj) != 9:
+        raise AssertionError("stage_projection is not nine rows")
+    catalog = [{k: s[k] for k in LEGACY_STAGE_KEYS} for s in snap["stages"]]
+    proj_cat = [{k: r[k] for k in LEGACY_STAGE_KEYS} for r in proj]
+    if catalog != proj_cat:
+        raise AssertionError("stage_projection catalog fields drifted from stages[]")
+    for row in proj:
+        if row.get("note_kind") not in (EMPTY, "OK"):
+            raise AssertionError("note_kind must be EMPTY or OK, got %r" % row.get("note_kind"))
+        if row.get("note_kind") == EMPTY and row.get("note") != "":
+            raise AssertionError("EMPTY note is not explicit empty string")
+        if row.get("elapsed_s") == 0 or row.get("tokens") == 0 or row.get("spend_usd") == 0:
+            raise AssertionError("UNMEASURED numeric slot is 0")
+    vocab = (ps.get("typed_states") or {}).get("vocab") or []
+    if list(vocab) != list(TYPED_STATES):
+        raise AssertionError("typed_states.vocab drifted")
+    trans = (ps.get("transitions") or {}).get("catalog") or []
+    if [t.get("id") for t in trans] != ["get_snapshot", "save_engine"]:
+        raise AssertionError("transition catalog drifted")
+    for t in trans:
+        if t.get("starts_motif") is not False or t.get("publishes") is not False:
+            raise AssertionError("transition %s starts MOTIF or publishes" % t.get("id"))
+    assert_unbound_unmeasured(ps)
+    return True
+
+
 def snapshot(paths, *, profile: str = "", rec=None) -> dict:
     pid = str(profile or "").strip().lower() or DEFAULT_PROFILE
     row = _profile(pid)
     engine = rec if rec is not None else load_engine(paths, row["id"])
-    return {
+    out = {
         "schema": SCHEMA,
         "ok": True,
         "profile": row["id"],
@@ -405,6 +692,8 @@ def snapshot(paths, *, profile: str = "", rec=None) -> dict:
             "not publish."
         ),
     }
+    out["portfolio_studio"] = portfolio_studio_fold(engine)
+    return out
 
 
 def _selftest() -> int:
@@ -520,6 +809,30 @@ def _selftest() -> int:
     check("Website GC skin left tabs are the 9 MOTIF stages",
           lambda: web_tabs[0] == "define" and web_tabs[-1] == "iterate"
           and len(web_tabs) == 9)
+    check("Portfolio Studio contract on GET NO_SOURCE (legacy + UNMEASURED live)",
+          lambda: assert_portfolio_studio_contract(snap)
+          and snap["portfolio_studio"]["typed_states"]["engine"] == "NO_SOURCE"
+          and snap["portfolio_studio"]["typed_states"]["define"] == EMPTY
+          and "portfolio_studio" not in legacy_view(snap))
+    check("SAVE is not a MOTIF transition; unbound live stays UNMEASURED",
+          lambda: assert_portfolio_studio_contract(saved)
+          and saved["portfolio_studio"]["typed_states"]["define"] == "OK"
+          and saved["portfolio_studio"]["typed_states"]["engine"] == "OK"
+          and saved["portfolio_studio"]["current_stage"]["id"] is None
+          and saved["portfolio_studio"]["current_stage"]["kind"] == UNMEASURED
+          and saved["does_not_start_motif"] is True)
+    check("stage_projection notes: empty=EMPTY, written=OK, never inferred current",
+          lambda: (
+              next(r for r in saved["portfolio_studio"]["stage_projection"]
+                   if r["id"] == "improve")["note_kind"] == "OK"
+              and next(r for r in saved["portfolio_studio"]["stage_projection"]
+                       if r["id"] == "define")["note_kind"] == EMPTY
+              and all(r["current"] is None
+                      for r in saved["portfolio_studio"]["stage_projection"])
+          ))
+    check("unbound live fields never emit 0",
+          lambda: all(v != 0 for _p, v in iter_unbound_live(
+              saved["portfolio_studio"])))
 
     failed = [(l, e) for l, ok, e in results if not ok]
     for label, ok, err in results:
