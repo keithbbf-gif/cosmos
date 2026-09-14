@@ -8,13 +8,14 @@ voice: essay
 claims_posture: educational-therapy-history
 audience: curious-reader
 status: draft
+voice_check: edited
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
 
 A good headline names an object. A bad headline names a noun. "Mindfulness works" is a bad headline. It does not tell you whose mindfulness, in whom, against what, for how long, paid by whom.
 
-Draft 02 gave a kit for therapy-history claims. This page is the kit applied to the specific sludge this pack's readers will meet.
+Essay 02 (*How to Read a Therapy-History Claim*) gave a kit for therapy-history claims. This page is the kit applied to the specific sludge this pack's readers will meet.
 
 **Whose?** Langer 1989, Benson 1975, MBSR 1979/1990, MBCT 2000/2002, ACT 1999, DBT 1993, a two-minute app, a corporate hour. If the paper cannot say, the headline is already lying.
 
@@ -32,7 +33,7 @@ When you have those six, you still do not have a prescription. You have a *descr
 
 A few headline species, named so you can swat them:
 
-- **"Ancient practice, modern science."** Category collapse. Drafts 05–06.
+- **"Ancient practice, modern science."** Category collapse. Essays 05–06.
 - **"Better than CBT."** Needs a named trial, a dated review, and limits. Usually missing all three.
 - **"No side effects."** Sitting can harm people. Retreats can harm people. Avoidance of medical care can harm people. A history page will not list a risk table as if it were a consent form; it will refuse the fairy tale.
 - **"Harvard says."** Langer and Benson both sat near that river. So did a lot of press offices.
@@ -56,6 +57,6 @@ If you are in danger, call local emergency services.
 
 ## Sources
 
-Teasdale et al. 2000; Öst 2008; Langer 1989; NICE CG90 2009; drafts 02 and 11; sister pack CLAIMS_GUARDRAILS.
+Teasdale et al. 2000; Öst 2008; Langer 1989; NICE CG90 2009; essays 02 and 11; sister pack `CLAIMS_GUARDRAILS.md`.
 
 *WOW Therapies educational series. Complementary to `content/wowtherapies-therapy-history/` and to the SLPWOW speech-pathology history pack. This lane is ACT and mindfulness-based therapy history only. Staged: do not write these files onto the live wowtherapies.com sitemap from this folder.*

@@ -8,6 +8,7 @@ voice: essay
 claims_posture: educational-therapy-history
 audience: curious-reader
 status: draft
+voice_check: edited
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
@@ -16,7 +17,7 @@ Guilford published G. Alan Marlatt and Judith R. Gordon's edited *Relapse Preven
 
 Marlatt (1941–2011) spent decades at the University of Washington in the psychology of alcohol and other drugs. After his death, Sarah Bowen, Neha Chawla, and colleagues carried a manual into print: *Mindfulness-Based Relapse Prevention for Addictive Behaviors* (Guilford, 2011). The 2011 book is the orderable MBRP object most English-speaking trainers mean. Earlier papers and a research clinic sit behind it; I will not pretend I have listed every trial.
 
-The historical shape should look familiar if you have read drafts 25–29. Take an existing behavioral idea (relapse as a process, not a moral verdict). Borrow an eight-week-ish group form from the MBSR/MBCT family. Study it. Argue about effects. Watch the word *mindfulness* do too much work in headlines ("mindfulness treats addiction").
+The historical shape should look familiar if you have read essays 25–29. Take an existing behavioral idea (relapse as a process, not a moral verdict). Borrow an eight-week-ish group form from the MBSR/MBCT family. Study it. Argue about effects. Watch the word *mindfulness* do too much work in headlines ("mindfulness treats addiction").
 
 This page will not teach urge surfing, a phrase that has already escaped into popular recovery talk. It will not teach a lapse-and-relapse distinction as homework. Recovery is a place where DIY protocols do extra damage. If you want help with alcohol or other drugs, you need a setting that is actually staffed for that work — not a history blog.
 

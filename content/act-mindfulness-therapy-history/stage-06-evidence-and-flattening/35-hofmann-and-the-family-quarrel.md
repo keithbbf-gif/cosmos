@@ -8,6 +8,7 @@ voice: essay
 claims_posture: educational-therapy-history
 audience: curious-reader
 status: draft
+voice_check: edited
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
@@ -18,7 +19,7 @@ In 2008, *Clinical Psychology Review* published Stefan G. Hofmann and Gordon J. 
 
 Hofmann's "old hat" question is the one a historically literate reader should keep. Exposure, behavioral activation, and a refusal to argue endlessly with thoughts are not 1999 inventions. Cognitive therapy already had decentering. Humanistic work already had acceptance-as-warmth. Morita already had *arugamama*. If ACT's contribution is a *package* and a research program, say package. If the claim is a new mechanism, show the mechanism studies. Hayes's group has tried to show processes (defusion, experiential avoidance). Critics have said the processes overlap CBT's. This pack will not close a process debate with a slogan.
 
-The Morita title is a sharper barb. Draft 12 already refused the collapse. Hofmann was not writing Japanese history; he was needling a brand. Needling can be fair. It can also flatten a 1921 Tokyo hospital into a punchline. Both happened in the reception. Our job is to keep Morita's paperwork Japanese and ACT's paperwork behavior-analytic, and then to allow a reader to hear a rhyme.
+The Morita title is a sharper barb. Essay 12 (*Morita, Naikan, and the Cousin Rooms*) already refused the collapse. Hofmann was not writing Japanese history; he was needling a brand. Needling can be fair. It can also flatten a 1921 Tokyo hospital into a punchline. Both happened in the reception. Our job is to keep Morita's paperwork Japanese and ACT's paperwork behavior-analytic, and then to allow a reader to hear a rhyme.
 
 Arch and Craske's 2008 essay is the one I would hand a graduate student. It is less of a nickname fight and more of a "what, exactly, do you think is different in the hour?" fight. Difference can be real at the level of therapist talk and still small at the level of outcome. That possibility is not a gotcha. It is how many psychotherapy comparisons end.
 
@@ -44,6 +45,6 @@ If you are in danger, call local emergency services.
 
 ## Sources
 
-Hofmann & Asmundson 2008; Hofmann 2008; Arch & Craske 2008; Öst 2008; Hayes 2004; Morita 1921 / draft 12; sister pack cognitive-empirical essay.
+Hofmann & Asmundson 2008; Hofmann 2008; Arch & Craske 2008; Öst 2008; Hayes 2004; Morita 1921; essay 12; sister pack cognitive-empirical essay.
 
 *WOW Therapies educational series. Complementary to `content/wowtherapies-therapy-history/` and to the SLPWOW speech-pathology history pack. This lane is ACT and mindfulness-based therapy history only. Staged: do not write these files onto the live wowtherapies.com sitemap from this folder.*

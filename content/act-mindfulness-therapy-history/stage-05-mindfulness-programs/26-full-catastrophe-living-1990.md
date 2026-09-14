@@ -8,6 +8,7 @@ voice: essay
 claims_posture: educational-therapy-history
 audience: curious-reader
 status: draft
+voice_check: edited
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
@@ -18,7 +19,7 @@ Trade books change a clinic's census. People who would never be sent to a Worces
 
 The book did the secularizing work in long form. It explained sitting and yoga in American medical English. It cited, as such books do, a mix of science and story. I will not audit every citation. I will say: 1990 is the year the hospital object became a mass-culture object. *Wherever You Go, There You Are* (Hyperion, 1994) then made the voice even more portable — shorter, more gift-book, easier to put in a stocking. Two doors, same author: the 1990 door still smells like a clinic; the 1994 door smells like a bedside table.
 
-Reception among Buddhist teachers split, as draft 06 already said. Some were glad. Some saw ethics fall off the truck. Kabat-Zinn's 2011 essay is, in part, his answer about skillful means and maps. Readers can hold the 1990 book and the 2011 essay together and still not have to enroll.
+Reception among Buddhist teachers split, as essay 06 (*Satipaṭṭhāna as a Textual Object*) already said. Some were glad. Some saw ethics fall off the truck. Kabat-Zinn's 2011 essay is, in part, his answer about skillful means and maps. Readers can hold the 1990 book and the 2011 essay together and still not have to enroll.
 
 For the ACT timeline, 1990 is weather. Hayes's group was still in the distancing-to-ACT rename. The 1999 Guilford ACT book would arrive in a country that had already learned to say "mindfulness" at a party. That country is Kabat-Zinn's as much as anyone's. ACT did not have to invent the noun. It had to decide what job the noun would do inside a behavior-analytic hour.
 

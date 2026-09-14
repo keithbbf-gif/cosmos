@@ -8,6 +8,7 @@ voice: essay
 claims_posture: educational-therapy-history
 audience: curious-reader
 status: draft
+voice_check: edited
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
@@ -36,7 +37,7 @@ This essay is a policy, not a profile. If it feels like a scold, good. This pack
 
 If a founder dies during the life of this folder, change the tense and the portrait row. Do not write an obituary that recasts the science as destiny. Destiny is the cartoon again.
 
-I am a writer on a clock. I have not called these people. I have opened their books and the pages their societies published. That limit is in every draft's mouth. It should stay there. A phone call would not have turned this pack into a biography, and a biography is not what WOW Therapies asked for. They asked for history with the claims fence up. The fence includes the living. It also includes the recently dead, who still have estates and photographs that are not ours.
+I am a writer on a clock. I have not called these people. I have opened their books and the pages their societies published. That limit is in every essay in this pack. It should stay there. A phone call would not have turned this pack into a biography, and a biography is not what WOW Therapies asked for. They asked for history with the claims fence up. The fence includes the living. It also includes the recently dead, who still have estates and photographs that are not ours.
 
 ## Claims box
 
@@ -46,6 +47,6 @@ If you are in danger, call local emergency services.
 
 ## Sources
 
-Sister pack CLAIMS_GUARDRAILS and PORTRAIT_SOURCES; Carey 2011 as the chosen-disclosure model; Kabat-Zinn 2011 and Hayes & Wilson 1994 as public-document models; this pack's PORTRAIT_SOURCES.md.
+Sister pack `CLAIMS_GUARDRAILS.md` and PORTRAIT_SOURCES; Carey 2011 as the chosen-disclosure model; Kabat-Zinn 2011 and Hayes & Wilson 1994 as public-document models; this pack's PORTRAIT_SOURCES.md.
 
 *WOW Therapies educational series. Complementary to `content/wowtherapies-therapy-history/` and to the SLPWOW speech-pathology history pack. This lane is ACT and mindfulness-based therapy history only. Staged: do not write these files onto the live wowtherapies.com sitemap from this folder.*

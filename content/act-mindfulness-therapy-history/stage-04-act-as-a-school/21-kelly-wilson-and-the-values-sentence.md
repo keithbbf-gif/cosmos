@@ -8,6 +8,7 @@ voice: essay
 claims_posture: educational-therapy-history
 audience: curious-reader
 status: draft
+voice_check: edited
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
@@ -32,7 +33,7 @@ Living-person rule: no health speculation. Wilson has spoken, in some public for
 
 Wilson later wrote, with others, books that put values in the subtitle hard enough for a catalog to notice. I will not list them as a shop. The 1999 collaboration remains the object this pack treats as founding. Later books are weather.
 
-The values sentence remains the part of ACT that non-behaviorists hear as human. That is why it travels. That is why it gets cheap. Stage 6's "acceptance as a muzzle" essay will return to the cheap version. This essay only needs the 1991–1999 fact: a third author, a noun, a school that did not want to be only about not-struggling.
+The values sentence remains the part of ACT that non-behaviorists hear as human. That is why it travels. That is why it gets cheap. Essay 38 (*When Acceptance Sounds Like a Muzzle*) returns to the cheap version. This essay only needs the 1991–1999 fact: a third author, a noun, a school that did not want to be only about not-struggling.
 
 ## Claims box
 

@@ -8,6 +8,7 @@ voice: essay
 claims_posture: educational-therapy-history
 audience: curious-reader
 status: draft
+voice_check: edited
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
@@ -24,7 +25,7 @@ The zendo and the lab also failed in public. Sexual misconduct and authoritarian
 
 *Zen Mind, Beginner's Mind* remains the object a curious American is most likely to have held. It is a set of talks, edited, in English, aimed at students in a particular California decade. It is not a twelfth-century Chinese kōan collection, and it is not a DBT manual. People who quote "beginner's mind" on a clinic website are quoting a brand as much as a doctrine.
 
-Sōtō Zen's emphasis on *shikantaza* — just sitting — appealed to clinicians who were tired of striving. That appeal is historically understandable. It is also how a religious discipline gets hired as an antidote to American self-improvement and then becomes a new self-improvement. The irony wrote itself by the 2010s. Stage 6 will deal with the yogurt. Here I only need the mid-century furniture: zafus in rented halls, a Japanese priest with imperfect English, students who would later become the people who trained the people who trained your intern.
+Sōtō Zen's emphasis on *shikantaza* — just sitting — appealed to clinicians who were tired of striving. That appeal is historically understandable. It is also how a religious discipline gets hired as an antidote to American self-improvement and then becomes a new self-improvement. The irony wrote itself by the 2010s. Stage 6 — evidence and flattening (essays 33–39) deals with the yogurt years. Here I only need the mid-century furniture: zafus in rented halls, a Japanese priest with imperfect English, students who would later become the people who trained the people who trained your intern.
 
 Chinese Chan, Korean Seon, and Vietnamese Thiền have their own American stories (the last includes Thích Nhất Hạnh, a later essay). Lumping them as "Zen" is the same flattening as lumping ACT and MBSR as "mindfulness-based therapy." I will keep the names apart when I know enough to. When I do not, I will say so.
 

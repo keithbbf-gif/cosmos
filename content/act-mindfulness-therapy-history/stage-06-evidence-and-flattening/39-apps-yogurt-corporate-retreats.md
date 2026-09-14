@@ -8,6 +8,7 @@ voice: essay
 claims_posture: educational-therapy-history
 audience: curious-reader
 status: draft
+voice_check: edited
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
@@ -16,7 +17,7 @@ By the mid-2010s you could buy a subscription that rang a bell on your phone, a 
 
 Timers are not evil. Monasteries had bells. Benson had a count. MBSR had homework. The productized timer is different because it removes the teacher, the census, the consent conversation, and the chance that someone will notice you are not safe to sit. It also adds venture capital, engagement metrics, and a push notification that can itself be a compulsion.
 
-Corporate retreats are the Purser diner from draft 37, in catering form. I have not attended the famous ones. I have read the genre: a hotel, a slide, a breathing minute before the layoff quarter. The genre is enough.
+Corporate retreats are the Purser diner from essay 37 (*McMindfulness*), in catering form. I have not attended the famous ones. I have read the genre: a hotel, a slide, a breathing minute before the layoff quarter. The genre is enough.
 
 Yogurt is the joke that is not a joke. When a medical-behavioral noun from 1979 and a 2000 journal table can decorate a breakfast, the noun has completed a certain American journey. Food marketing is not a trial. It is evidence of prestige. Prestige is what schools want until they get it.
 

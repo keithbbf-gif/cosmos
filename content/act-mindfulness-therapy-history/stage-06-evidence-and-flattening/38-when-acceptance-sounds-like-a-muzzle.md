@@ -8,6 +8,7 @@ voice: essay
 claims_posture: educational-therapy-history
 audience: curious-reader
 status: draft
+voice_check: edited
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
@@ -16,7 +17,7 @@ The sister pack's third-wave essay already said the quiet part: acceptance, taug
 
 This essay is that paragraph, slowed down, because this pack's subject matter is the muzzle's favorite vocabulary.
 
-Feminist therapy, liberation psychology, and the multicultural essays in the sister pack (Chesler, Fanon, Martín-Baró) are the older furniture. A 1999 behavior-therapy book does not replace them. If ACT popularizers wrote as if politics were a fusion to defuse, they earned a political critique. I will not invent a quotation. I will say: values language without a critique of who installed the values is a known failure mode. Draft 21 named the card-sort cheapening. Here the cheapening is crueler.
+Feminist therapy, liberation psychology, and the multicultural essays in the sister pack (Chesler, Fanon, Martín-Baró) are the older furniture. A 1999 behavior-therapy book does not replace them. If ACT popularizers wrote as if politics were a fusion to defuse, they earned a political critique. I will not invent a quotation. I will say: values language without a critique of who installed the values is a known failure mode. Essay 21 (*Kelly Wilson and the Values Sentence*) named the card-sort cheapening. Here the cheapening is crueler.
 
 Examples I will not fictionalize as composite patients — only as public patterns:
 
@@ -50,6 +51,6 @@ If you are in danger, call local emergency services.
 
 ## Sources
 
-Sister pack `13-third-wave.md`, feminist/liberation essays; Hayes, Strosahl, and Wilson 1999 as the pairing, not the poster; Linehan 1993 as another pairing; Purser & Loy 2013; draft 21.
+Sister pack `13-third-wave.md`, feminist/liberation essays; Hayes, Strosahl, and Wilson 1999 as the pairing, not the poster; Linehan 1993 as another pairing; Purser & Loy 2013; essay 21.
 
 *WOW Therapies educational series. Complementary to `content/wowtherapies-therapy-history/` and to the SLPWOW speech-pathology history pack. This lane is ACT and mindfulness-based therapy history only. Staged: do not write these files onto the live wowtherapies.com sitemap from this folder.*

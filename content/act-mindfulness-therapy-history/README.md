@@ -32,7 +32,7 @@ The live wowtherapies.com homepage, as last fetched, presents occupational, phys
 
 Human essay voice. `status: draft` on every file. The series is **staged** (seven argument stages) and **git-staged** as a proposal, not published as canon and not wired into COSMOS Core.
 
-`voice: essay` in YAML is the writer pass. A later editor may mark `voice_check: edited` if this pack is aligned with the sister-pack convention. Neither value is a byline.
+`voice: essay` in YAML is the writer pass. This editor pass marked **`voice_check: edited`** on all forty-five essays (read-aloud pass; grammar, voice, guardrails). Neither value is a byline.
 
 ## Stage 1 — How to read
 

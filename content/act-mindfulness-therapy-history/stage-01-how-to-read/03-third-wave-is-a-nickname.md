@@ -8,6 +8,7 @@ voice: essay
 claims_posture: educational-therapy-history
 audience: curious-reader
 status: draft
+voice_check: edited
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
@@ -30,7 +31,7 @@ There is a pedagogical cost. Students like waves. They can draw three boxes. The
 
 There is a marketing cost. A nickname that sounds like progress sells weekends. A clinician who says "I do third-wave work" after three hours of training is speaking a dialect the 2004 essay would not have recognized as a school. The 2004 essay wanted principles and data. A weekend wants a certificate.
 
-There is a justice cost, which later drafts take slowly. If "third" means "after the old, sad therapies," it can smear whole traditions — psychoanalysis, humanistic work, family systems — as prehistory. Those traditions have their own scars and their own documents. They are not a beach the wave erased. This pack will not put Freud on trial again. It will say: a behavior-therapy family used a beach metaphor, and the metaphor leaked.
+There is a justice cost, which later essays take slowly. If "third" means "after the old, sad therapies," it can smear whole traditions — psychoanalysis, humanistic work, family systems — as prehistory. Those traditions have their own scars and their own documents. They are not a beach the wave erased. This pack will not put Freud on trial again. It will say: a behavior-therapy family used a beach metaphor, and the metaphor leaked.
 
 When I write "third wave" from here on, I mean a **historiographical convenience** that Hayes and others used in the mid-2000s, that critics used as a target, and that journalists used as a headline. I do not mean that acceptance was invented in 2004, or that CBT ended, or that a small-city clinic that never bought a Guilford book is behind the times.
 

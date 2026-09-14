@@ -8,11 +8,12 @@ voice: essay
 claims_posture: educational-therapy-history
 audience: curious-reader
 status: draft
+voice_check: edited
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
 
-*Behavior Therapy* 35, no. 4 (2004) printed Steven C. Hayes, "Acceptance and Commitment Therapy, Relational Frame Theory, and the Third Wave of Behavioral and Cognitive Therapies," pages 639–665. Draft 03 already called the nickname a nickname. This essay is the paper as a dated object: what it tried to do in a flagship behavior-therapy journal, and what escaped.
+*Behavior Therapy* 35, no. 4 (2004) printed Steven C. Hayes, "Acceptance and Commitment Therapy, Relational Frame Theory, and the Third Wave of Behavioral and Cognitive Therapies," pages 639–665. Essay 03 (*Third Wave Is a Nickname*) already called the nickname a nickname. This essay is the paper as a dated object: what it tried to do in a flagship behavior-therapy journal, and what escaped.
 
 Hayes needed, in public, to place ACT next to a basic-science program (RFT) and next to a generation (DBT, FAP, IBCT, and others). He needed to answer the "getting ahead of the data" smell Corrigan had named in 2001. He wrote that the new treatments had kept empirical roots, not only at the level of outcome but at the level of process. He also wrote, in the characterization I already quoted, about context and function, experiential strategies, broad repertoires, and issues that mattered for clinicians as well as clients.
 

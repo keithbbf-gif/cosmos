@@ -62,7 +62,7 @@ slug = "american-zendo-after-1950"
 title = "The American Zendo After 1950"
 stage = "02-older-attention"
 path = "stage-02-older-attention/07-american-zendo-after-1950.md"
-words = "857"
+words = "863"
 
 [[draft]]
 id = "08"
@@ -118,7 +118,7 @@ slug = "rule-governed-behavior-1980s"
 title = "Rule-Governed Behavior, 1980s"
 stage = "03-behavioral-roots"
 path = "stage-03-behavioral-roots/14-rule-governed-behavior-1980s.md"
-words = "844"
+words = "849"
 
 [[draft]]
 id = "15"
@@ -158,7 +158,7 @@ slug = "the-1999-guilford-volume"
 title = "The 1999 Guilford Volume"
 stage = "04-act-as-a-school"
 path = "stage-04-act-as-a-school/19-the-1999-guilford-volume.md"
-words = "806"
+words = "811"
 
 [[draft]]
 id = "20"
@@ -206,7 +206,7 @@ slug = "kabat-zinn-1979"
 title = "Kabat-Zinn, 1979"
 stage = "05-mindfulness-programs"
 path = "stage-05-mindfulness-programs/25-kabat-zinn-1979.md"
-words = "818"
+words = "824"
 
 [[draft]]
 id = "26"
@@ -214,7 +214,7 @@ slug = "full-catastrophe-living-1990"
 title = "Full Catastrophe Living, 1990"
 stage = "05-mindfulness-programs"
 path = "stage-05-mindfulness-programs/26-full-catastrophe-living-1990.md"
-words = "801"
+words = "808"
 
 [[draft]]
 id = "27"
@@ -270,7 +270,7 @@ slug = "hayes-2004-wave-essay"
 title = "Hayes 2004 and the Wave Essay"
 stage = "06-evidence-and-flattening"
 path = "stage-06-evidence-and-flattening/33-hayes-2004-wave-essay.md"
-words = "807"
+words = "812"
 
 [[draft]]
 id = "34"
@@ -286,7 +286,7 @@ slug = "hofmann-and-the-family-quarrel"
 title = "Hofmann and the Family Quarrel"
 stage = "06-evidence-and-flattening"
 path = "stage-06-evidence-and-flattening/35-hofmann-and-the-family-quarrel.md"
-words = "803"
+words = "809"
 
 [[draft]]
 id = "36"
@@ -294,7 +294,7 @@ slug = "guidelines-as-historical-objects"
 title = "Guidelines as Historical Objects"
 stage = "06-evidence-and-flattening"
 path = "stage-06-evidence-and-flattening/36-guidelines-as-historical-objects.md"
-words = "806"
+words = "808"
 
 [[draft]]
 id = "37"
@@ -310,7 +310,7 @@ slug = "when-acceptance-sounds-like-a-muzzle"
 title = "When Acceptance Sounds Like a Muzzle"
 stage = "06-evidence-and-flattening"
 path = "stage-06-evidence-and-flattening/38-when-acceptance-sounds-like-a-muzzle.md"
-words = "837"
+words = "843"
 
 [[draft]]
 id = "39"
@@ -318,7 +318,7 @@ slug = "apps-yogurt-corporate-retreats"
 title = "Apps, Yogurt, Corporate Retreats"
 stage = "06-evidence-and-flattening"
 path = "stage-06-evidence-and-flattening/39-apps-yogurt-corporate-retreats.md"
-words = "809"
+words = "810"
 
 [[draft]]
 id = "40"
@@ -326,7 +326,7 @@ slug = "how-to-read-a-mindfulness-works-headline"
 title = "How to Read a \\"Mindfulness Works\\" Headline"
 stage = "07-reader-tools"
 path = "stage-07-reader-tools/40-how-to-read-a-mindfulness-works-headline.md"
-words = "800"
+words = "808"
 
 [[draft]]
 id = "41"
@@ -334,7 +334,7 @@ slug = "living-people-public-documents"
 title = "Living People, Public Documents"
 stage = "07-reader-tools"
 path = "stage-07-reader-tools/41-living-people-public-documents.md"
-words = "802"
+words = "805"
 
 [[draft]]
 id = "42"
@@ -342,7 +342,7 @@ slug = "what-a-small-city-clinic-inherited"
 title = "What a Small-City Clinic Inherited"
 stage = "07-reader-tools"
 path = "stage-07-reader-tools/42-what-a-small-city-clinic-inherited.md"
-words = "829"
+words = "804"
 
 [[draft]]
 id = "43"
@@ -350,7 +350,7 @@ slug = "what-we-opened"
 title = "What We Opened"
 stage = "07-reader-tools"
 path = "stage-07-reader-tools/43-what-we-opened.md"
-words = "825"
+words = "829"
 
 [[draft]]
 id = "44"
@@ -366,4 +366,4 @@ slug = "portraits-we-will-not-fake"
 title = "Portraits We Will Not Fake"
 stage = "07-reader-tools"
 path = "stage-07-reader-tools/45-portraits-we-will-not-fake.md"
-words = "808"
+words = "817"

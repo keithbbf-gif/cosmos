@@ -8,6 +8,7 @@ voice: essay
 claims_posture: educational-therapy-history
 audience: curious-reader
 status: draft
+voice_check: edited
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
@@ -22,7 +23,7 @@ This is the fork the family still argues about. CBT, in its classical public for
 
 Why pain-tolerance studies? Because analogue tasks are what a lab can run while a theory is young. A cold pressor or a shock protocol is not depression. Hayes later said, on the ACBS history page, that he held back randomized outcome publication because the implications seemed large and the model was not ready — and that a 1980s pain-rationale study did not appear until *The Psychological Record* in 1999. That is a founder's memory of delay. Readers may find it principled or convenient. Historians should print the dates: 1982 talk, 1986 Zettle paper, 1999 analogue write-up, 1999 Guilford book.
 
-Rule-following also has a politics. A woman whose "rules" were written by a church, a husband, or a clinic that called her borderline is not suffering only from language. If ACT's later popularizers made "defusion" sound like a way to tolerate oppression, they earned the critique Stage 6 will name. The 1980s papers are not that popularization. They are dryer, smaller, and easier to miss.
+Rule-following also has a politics. A woman whose "rules" were written by a church, a husband, or a clinic that called her borderline is not suffering only from language. If ACT's later popularizers made "defusion" sound like a way to tolerate oppression, they earned the critique essay 38 (*When Acceptance Sounds Like a Muzzle*) names. The 1980s papers are not that popularization. They are drier, smaller, and easier to miss.
 
 For a WOW Therapies reader: when someone says ACT is "just CBT with mindfulness," they are skipping this fork. When someone says ACT is "ancient wisdom," they are skipping it from the other side. The 1980s object is a behavior-therapy argument about instructions. You can reject the argument. You cannot honestly skip it and still tell the school's history.
 

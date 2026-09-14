@@ -8,6 +8,7 @@ voice: essay
 claims_posture: educational-therapy-history
 audience: curious-reader
 status: draft
+voice_check: edited
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
@@ -22,7 +23,7 @@ The United States does not have NICE. It has a mess of professional associations
 
 APA, ACA, ASHA, state counseling boards — different jobs. This pack is not a billing guide. Educational history may mention that *someone* named a treatment in a guideline. It may not turn the mention into a "we follow NICE" badge.
 
-Updates: NICE's depression guidance has been reviewed and restructured since 2009 (CG90 lived alongside later updates; numbering and websites move). A later editor should re-open the live NICE page before any public import and mark the year. This draft's last verification is 2026-09-14 and still treats CG90 2009 as the founding public object of the MBCT-in-the-NHS story.
+Updates: NICE's depression guidance has been reviewed and restructured since 2009 (CG90 lived alongside later updates; numbering and websites move). A later editor should re-open the live NICE page before any public import and mark the year. This essay was last verified on 2026-09-14 and still treats CG90 2009 as the founding public object of the MBCT-in-the-NHS story.
 
 Other countries wrote other documents. I have not surveyed Australia, Canada, or the Nordic systems here. Thinness is honest. A global "guidelines say" is a lie.
 
@@ -46,6 +47,6 @@ If you are in danger, call local emergency services.
 
 ## Sources
 
-NICE CG90 2009; *BJP* commentary on MBCT and the 2009 guideline (Williams and colleagues' public discussion); Teasdale et al. 2000 as the table the committee could name; sister pack CLAIMS_GUARDRAILS on schema.
+NICE CG90 2009; *BJP* commentary on MBCT and the 2009 guideline (Williams and colleagues' public discussion); Teasdale et al. 2000 as the table the committee could name; sister pack `CLAIMS_GUARDRAILS.md` on schema.
 
 *WOW Therapies educational series. Complementary to `content/wowtherapies-therapy-history/` and to the SLPWOW speech-pathology history pack. This lane is ACT and mindfulness-based therapy history only. Staged: do not write these files onto the live wowtherapies.com sitemap from this folder.*

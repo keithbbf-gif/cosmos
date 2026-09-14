@@ -8,6 +8,7 @@ voice: essay
 claims_posture: educational-therapy-history
 audience: curious-reader
 status: draft
+voice_check: edited
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
@@ -16,7 +17,7 @@ Guilford Press published *Acceptance and Commitment Therapy: An Experiential App
 
 The subtitle is a period piece. "Experiential" signaled, to a behavior-therapy readership, that the work would not be only didactic — not only argument with thoughts. "Behavior change" kept the book in the family that still measured what people *did*. The combination is the school's handshake: we will sit with private experience and we will still count.
 
-I have not reproduced chapters here and will not. Copyright is one reason. The better reason is the fence. A history site that becomes a poor man's manual is a legal and a clinical mistake. What I can say without stealing the book: it organized a stance (acceptance, defusion, values, committed action, self-as-context, present-moment work — the later "hexaflex" list) as a clinical approach tied to a contextual behavioral account of language. The list is a table of contents, not a worksheet. Draft 23 will treat the diagram as a picture that escaped.
+I have not reproduced chapters here and will not. Copyright is one reason. The better reason is the fence. A history site that becomes a poor man's manual is a legal and a clinical mistake. What I can say without stealing the book: it organized a stance (acceptance, defusion, values, committed action, self-as-context, present-moment work — the later "hexaflex" list) as a clinical approach tied to a contextual behavioral account of language. The list is a table of contents, not a worksheet. Essay 23 (*A Diagram That Escaped the Workshop*) treats the diagram as a picture that escaped.
 
 1999 is also a market year. Linehan's DBT book was already six years old. Managed care wanted treatments you could name. Kabat-Zinn's *Full Catastrophe Living* had been in the world since 1990. Segal, Williams, and Teasdale were a year from their JCCP trial and three from their own Guilford book. The decade was producing *orderable objects*. Coincidence is not conspiracy. It is a market recognizing cousins.
 

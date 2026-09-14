@@ -8,6 +8,7 @@ voice: essay
 claims_posture: educational-therapy-history
 audience: curious-reader
 status: draft
+voice_check: edited
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
@@ -26,7 +27,7 @@ The Center for Mindfulness in Medicine, Health Care, and Society is dated to 199
 
 Why this is not ACT: different building, different parentage, different census. Hayes's 1981 protocol nickname lived in a behavior-analysis lab. Kabat-Zinn's 1979 class lived in a Department of Medicine. They later shared English. Shared English is not a merger.
 
-Why this is not "the West discovering meditation": draft 05 already refused that. Kabat-Zinn's originality was a *hospital object* that could be copied without a conversion. Copying without conversion is also what critics later named as the loss.
+Why this is not "the West discovering meditation": essay 05 (*Attention Is Older Than a Clinic*) already refused that. Kabat-Zinn's originality was a *hospital object* that could be copied without a conversion. Copying without conversion is also what critics later named as the loss.
 
 This page will not describe a class session. It will not tell you to lie down. It will say: September 1979, Worcester, a renamed clinic, three early referrers, a retreat-room memory written down in 2011. That is enough to keep later "mindfulness-based" manuals from pretending they have no address.
 

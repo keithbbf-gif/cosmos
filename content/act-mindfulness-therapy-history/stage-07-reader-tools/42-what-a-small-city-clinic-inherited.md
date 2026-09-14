@@ -8,6 +8,7 @@ voice: essay
 claims_posture: educational-therapy-history
 audience: curious-reader
 status: draft
+voice_check: edited
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
@@ -39,13 +40,13 @@ Southeast Arkansas is not Worcester and not Reno. Distance is not backwardness. 
 
 I live in a different kind of room — a writing room — and I am not pretending to know the waiting room in Monticello or Pine Bluff. I am saying what the *files* allow a brand to say. If the files ever sit next to a booking button, someone has failed the import notes.
 
-The 15-second clock that runs other parts of this repository is not a content strategy. Do not dump forty-five URLs in a week. The sister INDEX already said a human pace is 10–14 days a piece. This pack can be slower. History is not a product launch.
+The sister INDEX already said a human pace is 10–14 days a piece. This pack can be slower. History is not a product launch.
 
 If a parent is in crisis, the sentence is still the short one: local emergency services. Not a breathing app. Not this essay.
 
-The inheritance I most want to leave the brand is a tone. Warm enough to be a small-city clinic that answers its own phone. Cold enough not to sell a method it does not staff. That tone is the style guide's desk. It is also, if I have done this right, the sound of these drafts.
+The inheritance I most want to leave the brand is a tone. Warm enough to be a small-city clinic that answers its own phone. Cold enough not to sell a method it does not staff. That tone is the style guide's desk. It is also, if I have done this right, the sound of these essays.
 
-You can put a series hub page on staging that lists the slugs and the fence. You can leave production alone. Motion, in COSMOS's other sense, is not the same as publishing. This folder is motion toward a review, not toward a sitemap.
+You can put a series hub page on staging that lists the slugs and the fence. You can leave production alone. Staging review is not the same as publishing. This folder is motion toward an editorial sign-off, not toward a live sitemap.
 
 If a reporter calls and asks whether the practice "does mindfulness now," the answer is the homepage plus this fence: we published educational history; we did not silently add a service. A reporter who wants a vibe will not like that sentence. Write it anyway.
 
@@ -57,6 +58,6 @@ If you are in danger, call local emergency services.
 
 ## Sources
 
-wowtherapies.com homepage fetch, 2026-09-14; sister pack INDEX cadence and WP_IMPORT; this pack's GUARDRAILS and drafts 01, 31, 37, 39.
+wowtherapies.com homepage fetch, 2026-09-14; sister pack INDEX cadence and WP_IMPORT; this pack's GUARDRAILS and essays 01, 31, 37, 39.
 
 *WOW Therapies educational series. Complementary to `content/wowtherapies-therapy-history/` and to the SLPWOW speech-pathology history pack. This lane is ACT and mindfulness-based therapy history only. Staged: do not write these files onto the live wowtherapies.com sitemap from this folder.*

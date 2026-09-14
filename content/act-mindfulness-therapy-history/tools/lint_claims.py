@@ -25,6 +25,7 @@ REQUIRED_FRONT = (
     "claims_posture",
     "audience",
     "status",
+    "voice_check",
 )
 FM_RE = re.compile(r"^---\n(.*?)\n---\n(.*)$", re.S)
 FORBIDDEN = [
@@ -110,6 +111,9 @@ def lint_one(path: Path) -> list[str]:
         errs.append(f"{path.name}: voice must be essay")
     if meta.get("audience") != "curious-reader":
         errs.append(f"{path.name}: audience must be curious-reader")
+    vc = meta.get("voice_check", "")
+    if vc not in ("edited", "human"):
+        errs.append(f"{path.name}: voice_check must be edited or human")
 
     n = words(body)
     if n < MIN_WORDS:
