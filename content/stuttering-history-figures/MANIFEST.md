@@ -9,7 +9,7 @@
 | Article count | 45 |
 | Era essays | 16 (`type: era`, orders 01–16) |
 | Profiles | 29 (`type: profile`, orders 17–45) |
-| Portraits | Notes only. No image binaries in this pack. No generated faces. |
+| Portraits | Five cleared Commons/BIU/MET files in `assets/portraits/` (`RIGHTS.md`). Remaining figures placeholder-only. No generated faces. |
 | QA | `python3 content/stuttering-history-figures/check_pack.py` |
 | Pack date | 14 September 2026 |
 
