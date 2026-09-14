@@ -10,7 +10,7 @@ period: 1859–1987
 regions: England, United States, Michigan SNF rooms
 word_target: 1800-2600
 figures: 6
-meta_description: "Nightingale wanted air and beds in rows. The American nursing home inherited a hospital deck and a motel dresser and called the mix a room."
+meta_description: "Nightingale wanted air and beds in rows. The American nursing home inherited a hospital deck and a motel dresser and still called the mix a room."
 tags:
   - healthcare-furniture
   - nursing-home
