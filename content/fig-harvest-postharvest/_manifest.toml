@@ -1,0 +1,279 @@
+# Staged draft manifest — fig harvest & postharvest, Zone 8a focus
+# status is editorial. stage is time | pick | ripen | dry | store.
+
+set = "fig-harvest-postharvest"
+status = "staged"
+focus = "8a"
+zones = ["7", "8a", "8b", "9"]
+count = 45
+voice_check = "draft"
+
+[[draft]]
+id = "d01"
+file = "drafts/d01-arkansas-crop-is-august.md"
+stage = "time"
+cluster = "timing"
+
+[[draft]]
+id = "d02"
+file = "drafts/d02-breba-is-a-bonus.md"
+stage = "time"
+cluster = "timing"
+
+[[draft]]
+id = "d03"
+file = "drafts/d03-main-crop-this-years-wood.md"
+stage = "time"
+cluster = "timing"
+
+[[draft]]
+id = "d04"
+file = "drafts/d04-color-is-not-the-harvest.md"
+stage = "time"
+cluster = "timing"
+
+[[draft]]
+id = "d05"
+file = "drafts/d05-neck-bend-is-the-sentence.md"
+stage = "time"
+cluster = "timing"
+
+[[draft]]
+id = "d06"
+file = "drafts/d06-the-eye-is-weather.md"
+stage = "time"
+cluster = "timing"
+
+[[draft]]
+id = "d07"
+file = "drafts/d07-variety-windows-are-not-a-chart.md"
+stage = "time"
+cluster = "timing"
+
+[[draft]]
+id = "d08"
+file = "drafts/d08-first-frost-is-the-last-argument.md"
+stage = "time"
+cluster = "timing"
+
+[[draft]]
+id = "d09"
+file = "drafts/d09-heat-and-drought-stall.md"
+stage = "time"
+cluster = "timing"
+
+[[draft]]
+id = "d10"
+file = "drafts/d10-daily-is-the-calendar.md"
+stage = "time"
+cluster = "timing"
+
+[[draft]]
+id = "d11"
+file = "drafts/d11-twist-dont-yank.md"
+stage = "pick"
+cluster = "picking"
+
+[[draft]]
+id = "d12"
+file = "drafts/d12-morning-before-the-skillet.md"
+stage = "pick"
+cluster = "picking"
+
+[[draft]]
+id = "d13"
+file = "drafts/d13-latex-will-find-a-scratch.md"
+stage = "pick"
+cluster = "picking"
+
+[[draft]]
+id = "d14"
+file = "drafts/d14-a-bucket-is-a-bruiser.md"
+stage = "pick"
+cluster = "picking"
+
+[[draft]]
+id = "d15"
+file = "drafts/d15-birds-start-at-dawn.md"
+stage = "pick"
+cluster = "picking"
+
+[[draft]]
+id = "d16"
+file = "drafts/d16-wasps-own-the-split-ones.md"
+stage = "pick"
+cluster = "picking"
+
+[[draft]]
+id = "d17"
+file = "drafts/d17-closed-eye-celeste.md"
+stage = "pick"
+cluster = "picking"
+
+[[draft]]
+id = "d18"
+file = "drafts/d18-a-pot-ripens-on-a-different-clock.md"
+stage = "pick"
+cluster = "picking"
+
+[[draft]]
+id = "d19"
+file = "drafts/d19-the-fig-that-dropped.md"
+stage = "pick"
+cluster = "picking"
+
+[[draft]]
+id = "d20"
+file = "drafts/d20-taste-is-the-last-check.md"
+stage = "pick"
+cluster = "picking"
+
+[[draft]]
+id = "d21"
+file = "drafts/d21-off-tree-does-not-mean-banana.md"
+stage = "ripen"
+cluster = "off-tree"
+
+[[draft]]
+id = "d22"
+file = "drafts/d22-softening-is-not-sugar.md"
+stage = "ripen"
+cluster = "off-tree"
+
+[[draft]]
+id = "d23"
+file = "drafts/d23-the-bird-save-pick.md"
+stage = "ripen"
+cluster = "off-tree"
+
+[[draft]]
+id = "d24"
+file = "drafts/d24-a-windowsill-is-not-a-ripening-room.md"
+stage = "ripen"
+cluster = "off-tree"
+
+[[draft]]
+id = "d25"
+file = "drafts/d25-do-not-fridge-a-hard-fig.md"
+stage = "ripen"
+cluster = "off-tree"
+
+[[draft]]
+id = "d26"
+file = "drafts/d26-one-layer-stem-up.md"
+stage = "ripen"
+cluster = "off-tree"
+
+[[draft]]
+id = "d27"
+file = "drafts/d27-the-canning-firm-habit.md"
+stage = "ripen"
+cluster = "off-tree"
+
+[[draft]]
+id = "d28"
+file = "drafts/d28-what-almost-looks-like.md"
+stage = "ripen"
+cluster = "off-tree"
+
+[[draft]]
+id = "d29"
+file = "drafts/d29-dry-only-what-was-good.md"
+stage = "dry"
+cluster = "drying"
+
+[[draft]]
+id = "d30"
+file = "drafts/d30-8a-humidity-is-why-the-box.md"
+stage = "dry"
+cluster = "drying"
+
+[[draft]]
+id = "d31"
+file = "drafts/d31-sun-screens-and-night-dew.md"
+stage = "dry"
+cluster = "drying"
+
+[[draft]]
+id = "d32"
+file = "drafts/d32-135-and-the-wet-center.md"
+stage = "dry"
+cluster = "drying"
+
+[[draft]]
+id = "d33"
+file = "drafts/d33-whole-vs-halved.md"
+stage = "dry"
+cluster = "drying"
+
+[[draft]]
+id = "d34"
+file = "drafts/d34-celeste-dries-like-it-was-built.md"
+stage = "dry"
+cluster = "drying"
+
+[[draft]]
+id = "d35"
+file = "drafts/d35-the-oven-is-a-last-tool.md"
+stage = "dry"
+cluster = "drying"
+
+[[draft]]
+id = "d36"
+file = "drafts/d36-condition-the-jar.md"
+stage = "dry"
+cluster = "drying"
+
+[[draft]]
+id = "d37"
+file = "drafts/d37-fresh-figs-last-days.md"
+stage = "store"
+cluster = "storage"
+
+[[draft]]
+id = "d38"
+file = "drafts/d38-the-crisper-is-cold-and-humid.md"
+stage = "store"
+cluster = "storage"
+
+[[draft]]
+id = "d39"
+file = "drafts/d39-dont-wash-the-tray.md"
+stage = "store"
+cluster = "storage"
+
+[[draft]]
+id = "d40"
+file = "drafts/d40-freeze-the-glut-the-night-you-pick.md"
+stage = "store"
+cluster = "storage"
+
+[[draft]]
+id = "d41"
+file = "drafts/d41-dried-storage-is-a-jar.md"
+stage = "store"
+cluster = "storage"
+
+[[draft]]
+id = "d42"
+file = "drafts/d42-split-and-sour-stay-out.md"
+stage = "store"
+cluster = "storage"
+
+[[draft]]
+id = "d43"
+file = "drafts/d43-after-a-rain-the-clock-shortens.md"
+stage = "store"
+cluster = "storage"
+
+[[draft]]
+id = "d44"
+file = "drafts/d44-a-pot-in-august-is-a-harvest-you-can-walk.md"
+stage = "store"
+cluster = "storage"
+
+[[draft]]
+id = "d45"
+file = "drafts/d45-what-we-actually-do-with-a-tuesday-tray.md"
+stage = "store"
+cluster = "storage"
