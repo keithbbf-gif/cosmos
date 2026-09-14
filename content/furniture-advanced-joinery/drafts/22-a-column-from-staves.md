@@ -1,0 +1,124 @@
+---
+title: "A Column from Staves"
+slug: a-column-from-staves
+status: draft
+voice_check: human
+word_count: 1214
+dek: "A staved cylinder is a coopered door stood on end and asked to be a post. The joints are long-grain; the load is compression; the top still needs a block that is not a wish."
+series: furniture-advanced-joinery
+topic: curved-work
+figures:
+  - id: fig-01
+    preferred: "D:\\BBF\\BBF Photos — staved cylinder dry-fit, inside hollow (filename pending shop pull)"
+    caption: "A hollow post. The staves take the ring. Something else has to take the table."
+    credit: "Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled"
+    license: "Owner clearance required. Do not invent a credit."
+    status: needed
+  - id: fig-02
+    preferred: "D:\\BBF\\BBF Photos — staved column with top block or iron plate (filename pending shop pull)"
+    caption: "The block is the joint. The cylinder is the dress."
+    credit: "Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled"
+    license: "Owner clearance required."
+    status: needed
+optional_links:
+  - label: Craft page
+    url: https://bradleybrandfurniture.com/craft
+    use: footnote-only
+verify:
+  - "Confirm shop staved columns / hollow pedestals [VERIFY]"
+---
+
+The cylinder stood on the bench, a hollow oak drum, eight staves, the inside still showing clamp marks. It looked like a post. It was a post only if I gave it a way to carry a top. A ring of long-grain glue joints is strong in compression if the load is even. A tabletop is not an even load. Someone will sit on a corner. The drum will then try to become an oval, and an oval stave joint is a split.
+
+<!-- PHOTO: fig-01 D:\BBF\BBF Photos — staved cylinder dry-fit, inside hollow (filename pending shop pull) -->
+
+A coopered door hangs. A coopered column stands. Same bevels, same form, different politics. I will not repeat the stave-plane lecture. I will talk about the block.
+
+## The drum is a sleeve
+
+I treat a staved column as a sleeve around a structure: a solid core, a steel tube, a wooden post, or a pair of blocks at top and bottom tied by a rod. The sleeve is the show. The structure is the joint.
+
+A hollow drum glued to a top with screws into stave end grain is a wobble. End grain of a stave is also a glue line’s end. I will not screw a top to that and call it furniture.
+
+<!-- PHOTO: fig-02 D:\BBF\BBF Photos — staved column with top block or iron plate (filename pending shop pull) -->
+
+**Top block.** A round or polygonal block, grain chosen so it can take screws or a tenon, let into the drum or sitting on a rabbet I cut after the drum closed. The block can be brick-laid if it is wide. It can be solid if it is not a propeller.
+
+**Rod.** Through the blocks, nut in a mortise. Knockdown if you can reach it. The drum then cannot go oval without fighting the rod.
+
+**Solid core.** A turned post inside, the staves glued to it. Heavy. Honest. Movement between core and staves is a thing: glue in zones, or don’t glue and pin. A fully glued skin on a solid core is a drum that will split to get away from the core in August. I glue at the ends and I let the middle be a fit.
+
+## Bevels and the circle
+
+More staves than a door, often, because a column wants a rounder read. I still sneak the last pair. I still fair with a batten. A column that is a stack of flats is a hex you did not finish. That can be a design. If it is not the design, keep fairing.
+
+Flutes: cut after the drum is true, or you will flute a lie. A fluting jig that rides the outside is a pleasure if the outside is already a circle.
+
+## Failures
+
+I screwed a top into stave ends. It held for the photograph. It did not hold for the first lean. I added a block from below, which is a repair you do on your knees and remember.
+
+I also glued a skin hard to a solid core and the drum opened a stave in the first summer. Glue at the ends. The middle can shine a little. Shine is not a split.
+
+<!-- PACK-EXPANSION -->
+
+## Building the sleeve so it stays a circle
+
+I cut the staves from one board when I can so the color agrees as you walk around. I dry-stack on a pair of plywood discs that are the inside diameter. I sneak the last pair. I glue with a strap and I leave the discs in if they will come out later, or I use outside cauls. A drum that dries oval is a drum you will fair into a thinner oval.
+
+I check the diameter at top and bottom. A cone is a design. An accidental cone is a block that will not sit.
+
+## The block, in more detail
+
+The top block can be a disc let into a rabbet I cut after the drum is true. I cut that rabbet on the router table with the drum running against a bearing, or I work it by hand if the drum is too precious for a machine. The block is screwed from below into long grain I left, or it is through-bolted to the foot-block with the rod.
+
+A solid core: I turn or I eight-side a post, I fit the sleeve, I glue at the top and bottom thirds, and I leave the middle able to shine. A fully glued sleeve on a core is the split I already owned.
+
+## Load
+
+Compression is kind to a ring if the load is centered. A dining top is not centered when a person sits on the edge. The rod and the blocks keep the ring from going oval. The staves alone will try. I do not ask them to try alone.
+
+## What I want from D:\BBF
+
+The hollow, clamp marks still visible. The block in the rabbet. A diameter stick across the mouth.
+
+## Flutes after truth
+
+I flute a circle. I do not flute an oval I am ashamed of. If the drum is still a hex of flats, I either own the flats as a design or I keep fairing. Flutes on flats are a different language.
+
+<!-- PACK-W2 -->
+
+## End-grain screws
+
+I will not screw a top into stave ends and call it a table. I already did. The block or the rod is the joint. The hollow is the dress. I keep those names straight when someone sits on a corner.
+
+<!-- PACK-W2L -->
+
+## Shop morning, staved post
+
+Staves from one board. Dry-stack on discs. Sneak the last pair. Strap. Check diameters. Rabbet. Block. Rod. Oil the inside. Lean on the spider before the top goes on. If it nods, the feet or the block, not the flute I have not cut yet.
+
+<!-- PACK-W3 -->
+
+## Oval in the night
+
+A drum that dries in a strap that was tighter on one side is an oval in the morning. I check the strap. I check diameters at two heights. An accidental cone is a block that will not sit.
+
+I will not flute a drum I am ashamed of. Flutes on an oval are a second language I did not mean to speak.
+
+<!-- PACK-W4 -->
+
+## Discs and a strap
+
+Two plywood discs and a strap are the clamp. I letter the discs so I use the same pair. A random disc is a random diameter. I fair with a batten around the drum, not with a belt sander I cannot see around a curve.
+
+<!-- PACK-W5 -->
+
+I oil the inside of the sleeve before the rod goes home so I am not oiling a tube I cannot reach. The inside still weathers. A raw inside and a finished outside is a cup in a circle. I do not need the inside pretty. I need it even. Then the block, then the rod, then a lean on the spider.
+
+<!-- PACK-W6 -->
+I letter the top and bottom of the sleeve so the rod goes home the same way it did in the shop. A sleeve that is a slight cone will sit only one way. The letters save a reverse that cracks a block.
+
+## The judgment
+
+A column from staves is a sleeve. Build the sleeve well — the door essay’s bevels still apply — and then put a block or a rod in it that can take a table. The hollow is pretty. The block is the joint. Do not confuse them when someone sits on the corner.

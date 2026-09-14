@@ -1,0 +1,127 @@
+---
+title: "A Pedestal That Splits"
+slug: a-pedestal-that-splits
+status: draft
+voice_check: human
+word_count: 1222
+dek: "A dining pedestal that comes apart is a block, a rod, and a set of feet that do not pretend they are a carved one-piece vase. The split is the feature."
+series: furniture-advanced-joinery
+topic: knockdown
+figures:
+  - id: fig-01
+    preferred: "D:\\BBF\\BBF Photos — pedestal table base apart: block, column, feet (filename pending shop pull)"
+    caption: "Three piles. If you cannot make three piles, you built a statue."
+    credit: "Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled"
+    license: "Owner clearance required. Do not invent a credit."
+    status: needed
+  - id: fig-02
+    preferred: "D:\\BBF\\BBF Photos — rod and nut in pedestal block, access (filename pending shop pull)"
+    caption: "The nut you can reach is the nut you will tighten in five years."
+    credit: "Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled"
+    license: "Owner clearance required."
+    status: needed
+optional_links:
+  - label: Craft page
+    url: https://bradleybrandfurniture.com/craft
+    use: footnote-only
+verify:
+  - "Confirm shop KD pedestals [VERIFY]"
+---
+
+The table was a dining top and a vase and a set of feet, and it would not go through the door as a vase. I had built the column as a brick-laid pretty thing and I had glued the feet as if the house would never move. The house moved. I cut the column free, I put a rod through, and I learned a cheaper lesson than building the second table: a pedestal that splits is a pedestal you can deliver.
+
+<!-- PHOTO: fig-01 D:\BBF\BBF Photos — pedestal table base apart: block, column, feet (filename pending shop pull) -->
+
+The brick-and-gouge essay was the curve. This is the iron.
+
+## Three piles
+
+**Top block / spider.** The thing the top actually screws to, with slots for movement if the top is solid.
+
+**Column.** Sleeve or solid, brick or stave or turn, with a hole for a rod or a pair of flanges.
+
+**Feet.** A cross, a tripod, a four-foot, joined to a block at the bottom with tenons or with plates.
+
+The rod ties 1 to 3 through 2. Nuts you can reach. If you cannot reach a nut after the top is on, you have designed a museum piece. Dining tables are not museum pieces. They live in rooms that get new rugs.
+
+<!-- PHOTO: fig-02 D:\BBF\BBF Photos — rod and nut in pedestal block, access (filename pending shop pull) -->
+
+## Feet that are joints
+
+A tripod with sliding dovetails into a bottom block is a classic, and it can be permanent or it can be pegged. I like pegs I can drive out. A plate under the feet with machine screws into inserts in the foot’s long grain is the shop version that will still be tight after a move. End-grain screws into a foot are a wobble.
+
+The column should not be asked to take the foot joinery in its thin waist. The waist is a look. The block at the bottom is the joint.
+
+## Failures
+
+Glued statue. Door. Saw. Rod. Do not be me.
+
+A rod that was too close to a brick glue line in the waist: the drill followed the glue and came out the show. Bore a test, or leave a core you trust.
+
+A spider that was plywood screwed only into a thin top: the top dimpled. The spider needs spread and the screws need a thickness. Or use figure-eights and let the top be a top.
+
+<!-- PACK-EXPANSION -->
+
+## How I would build the next one from the start
+
+Full-size drawing of the profile, then three blocks on the paper: spider, column, foot-block. The rod drawn through, nut access drawn as a rectangle you can get a socket into. Then I build the foot-block first, because the feet tell the truth about the table’s footprint. Then the column as a sleeve with a hole I bored before I carved the waist. Then the spider. Then a dry stack with the rod, no top, and I lean on the spider. If it nods, the feet are the problem or the block is the problem. The column is rarely the first sinner unless I bored it drunk.
+
+I finish the column off the rod so I can oil the inside of a sleeve. Then I assemble, then I fit the top with figure-eights or slots, then I take it apart and I pack the rod with the nuts in a bag taped to the spider. The nut that stays in a kitchen drawer is the nut that is missing at the house.
+
+## Feet, again, because this is where tables die
+
+A four-foot with two boards crossing is a lap or a half-lap with a plate. I do not glue a cross without a mechanical lock if the table is KD. The cross wants to open when someone sits on a long overhang. A tripod with sliding dovetails into a block is prettier and I still peg it. The peg is the knockdown. The dovetail is the locate.
+
+Leveling: one foot will be short on a real floor. I put a leveler in one foot, or I tell the customer the floor is the other half of the joint. A steel leveler in a carved foot wants an insert, not a screw in end grain.
+
+## The top is not the base
+
+I have seen pedestals sold with the top glued to the spider “so it will not rack.” The top then splits, or the spider tears out, or both. The top can help racking if it is attached in a way that allows movement. It cannot be the only racking member if the base is a noodle. Build the base to stand without the top. Then attach the top as a top.
+
+## What I want from D:\BBF
+
+The three piles on a moving blanket. The nut access with a socket in it, so a future editor can see the reach. A waist detail that shows a brick line, if the column was bricks, without pretending the brick is the joint.
+
+## Delivery
+
+I deliver in two or three boxes. I assemble in the room. I do not assemble in the shop and then look at a door. I already did that. The joint is the split. The split is the delivery.
+
+<!-- PACK-W2 -->
+
+## Pack the nuts
+
+The nuts ride in a bag taped to the spider. The nut in a kitchen drawer is the nut missing at the house. I assemble in the room. I do not assemble in the shop and then look at a door. I already did that.
+
+<!-- PACK-W2L -->
+
+## Shop morning, next pedestal
+
+Foot-block first. Column bored before the waist is carved. Spider last. Dry stack, rod, lean. Finish the sleeve off the rod. Figure-eights on the top. Take it apart. Bag the nuts. Deliver in piles. Assemble in the room.
+
+<!-- PACK-W3 -->
+
+## Door as a tool
+
+The door at the house is a measuring tool I should have used in the shop. I deliver in piles. I assemble in the room. I bag the nuts. I lean on the spider before I like the vase.
+
+I will not glue feet onto a carved column and call the carving the joint. The waist is a look. The block is the joint.
+
+<!-- PACK-W4 -->
+
+## Socket on the nut
+
+I put the actual socket I will send in the access hole before I carve the last of the waist. If the socket will not turn, the waist is already too pretty. I open the access, not the caption.
+
+<!-- PACK-W5 -->
+
+I deliver a printed note with the piles: which nut, which way the column sits, where the leveler lives. People lose notes. I also stamp the underside of the spider. The stamp survives the note. The bag of nuts is taped where a hand will find it before the vase goes up.
+
+<!-- PACK-W6 -->
+I level the foot-block on the shop floor before I carve the last of the column. A column that is pretty on a winding block is a table that nods in the room. The floor is the other half of the joint. I let it speak early.
+
+<!-- PACK-W7 -->
+I check the rod threads for paint or finish before the house assembly. A finished thread is a nut that will not start. I bag the rod clean.
+
+## The judgment
+
+A pedestal that splits is three piles and a rod you can reach. Carve what you want. Do not glue a dining base into a doorway problem. The split is not a lesser joint. It is the joint that respects the stair.
