@@ -88,31 +88,49 @@ Hitchcock fancy chairs, slightly later, took Grecian stenciling onto a factory s
 
 ## Figure plan
 
-**Fig. 1.** Sofa, workshop of Duncan Phyfe.  
+![Chronological anchors for the evidence discussed below.](assets/roman-furniture-prices-didactic/fig-01-timeline.svg)
+
+*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Regional focus for circulation and local workshop traditions.](assets/roman-furniture-prices-didactic/fig-02-map.svg)
+
+*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Morphological typology (idealized morphotypes).](assets/roman-furniture-prices-didactic/fig-03-typology.svg)
+
+*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Comparative elevation and plan plate.](assets/roman-furniture-prices-didactic/fig-04-plate.svg)
+
+*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+### Supplemental photographs and redraws
+
+**Fig. 5.** Sofa, workshop of Duncan Phyfe.  
 Met 42.16, New York, 1805–15.  
 License: Met CC0.  
 Alt: Mahogany scroll-back sofa with reeded legs and black horsehair.  
 Caption: The tacks and horsehair are a modern copy of the first foundations.
 
-**Fig. 2.** Side chair from the Pearsall suite.  
+**Fig. 6.** Side chair from the Pearsall suite.  
 Met 60.4.4, attributed to Duncan Phyfe, New York, 1791–1818.  
 License: Met CC0.  
 Alt: Mahogany side chair with a curule base and splat.  
 Caption: Stamped rails, a merchant’s suite, a London price book’s Greco-Roman.
 
-**Fig. 3.** Shop and Warehouse of Duncan Phyfe, 168–172 Fulton Street.  
+**Fig. 7.** Shop and Warehouse of Duncan Phyfe, 168–172 Fulton Street.  
 Met 22.28.1, watercolor, ink, and gouache, 1817–20.  
 License: Met, check OA.  
 Alt: Three brick shopfronts with show windows and a “Duncan Phyfe, Cabinet-maker” sign.  
 Caption: Partition Street, renamed. The 2011 catalog put the addresses back on a map.
 
-**Fig. 4.** Seymour or Salem Federal card table, for contrast.  
+**Fig. 8.** Seymour or Salem Federal card table, for contrast.  
 Winterthur or Met.  
 License: as marked.  
 Alt: Satinwood-inlaid card table.  
 Caption: New England Federal: more inlay, less New York thunderbolt.
 
-**Fig. 5.** Painted fancy chair, Hitchcock or Baltimore.  
+**Fig. 9.** Painted fancy chair, Hitchcock or Baltimore.  
 Met or a historical society.  
 License: as marked.  
 Alt: Painted side chair with gold stenciling.  

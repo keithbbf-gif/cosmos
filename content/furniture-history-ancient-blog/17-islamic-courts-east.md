@@ -85,36 +85,54 @@ European travelers wrote that “Moors sit on the floor” and stopped. The sent
 
 ## Figure plan
 
-**Fig. 1.** Qurʾan stand, Hasan al-Isfahani, 1360.  
+![Chronological anchors for the evidence discussed below.](assets/islamic-early-seating/fig-01-timeline.svg)
+
+*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Regional focus for circulation and local workshop traditions.](assets/islamic-early-seating/fig-02-map.svg)
+
+*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Morphological typology (idealized morphotypes).](assets/islamic-early-seating/fig-03-typology.svg)
+
+*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Comparative elevation and plan plate.](assets/islamic-early-seating/fig-04-plate.svg)
+
+*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+### Supplemental photographs and redraws
+
+**Fig. 5.** Qurʾan stand, Hasan al-Isfahani, 1360.  
 Met 10.218, teak, carved and inlaid.  
 License: Met CC0.  
 Alt: Tall folding wooden lectern covered in carved calligraphy.  
 Caption: Dated, signed, endowed to a madrasa. A book-stand that is a theological object.
 
-**Fig. 2.** Mamluk hexagonal kursi, Museum of Islamic Art, Cairo, inv. 139.  
+**Fig. 6.** Mamluk hexagonal kursi, Museum of Islamic Art, Cairo, inv. 139.  
 Muhammad ibn Sunqur al-Baghdadi, 728/1327–28, copper alloy inlaid with silver.  
 License: museum. If only a 19th-c. copy is photographable, use Penn NEP69 and say so in the caption.  
 Alt: Hexagonal inlaid metal stand with a small door.  
 Caption: A Qurʾan cabinet or stand made for al-Nasir Muhammad. Check the date; tourists ordered copies.
 
-**Fig. 3.** Ottoman rahle with ivory inlay.  
+**Fig. 7.** Ottoman rahle with ivory inlay.  
 Turkish and Islamic Arts Museum inv. 002, or the published 15th-c. Sotheby’s 2018 example.  
 License: museum / auction archive.  
 Alt: Folding book-stand with geometric inlay.  
 Caption: Square Kufic and a dog-tooth edge: Çulpan’s type in a court material.
 
-**Fig. 4.** Bayram Throne, Topkapı.  
+**Fig. 8.** Bayram Throne, Topkapı.  
 Imperial Treasury, Istanbul.  
 License: museum; press photographs.  
 Alt: Gold-sheathed throne with a red cushion.  
 Caption: Walnut in ten pieces, gold on the outside, assembled for the gate.
 
-**Fig. 5.** Mashrabiyya interior, Cairo (Gayer-Anderson or Bayt al-Suhaymi).  
+**Fig. 9.** Mashrabiyya interior, Cairo (Gayer-Anderson or Bayt al-Suhaymi).  
 Wikimedia CC.  
 Alt: Room seen through turned wooden lattice.  
 Caption: Privacy as a turned screen — furniture that is a wall.
 
-**Fig. 6.** Storage chest, Mosul, c. 1240.  
+**Fig. 10.** Storage chest, Mosul, c. 1240.  
 David Collection 3/1993, wood inlaid with ebony and bone (lid modern).  
 License: museum.  
 Alt: Squarish medieval wooden chest with carved arabesques.  

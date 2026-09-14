@@ -107,31 +107,49 @@ Cooke’s studio history, Castle’s two methods, Mari’s booklet, a CITES noti
 
 ## Figure plan
 
-**Fig. 1.** Wendell Castle chair (a documented late or digital-period piece).  
+![Chronological anchors for the evidence discussed below.](assets/reconstruction-methods-museums/fig-01-timeline.svg)
+
+*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Regional focus for circulation and local workshop traditions.](assets/reconstruction-methods-museums/fig-02-map.svg)
+
+*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Morphological typology (idealized morphotypes).](assets/reconstruction-methods-museums/fig-03-typology.svg)
+
+*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Comparative elevation and plan plate.](assets/reconstruction-methods-museums/fig-04-plate.svg)
+
+*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+### Supplemental photographs and redraws
+
+**Fig. 5.** Wendell Castle chair (a documented late or digital-period piece).  
 MAD or a university museum — confirm.  
 License: as marked.  
 Alt: Sculptural laminated or milled wooden chair.  
 Caption: A career that crossed the router without abandoning the seat.
 
-**Fig. 2.** Mari *Autoprogettazione* table or chair, built from the booklet.  
+**Fig. 6.** Mari *Autoprogettazione* table or chair, built from the booklet.  
 A museum or a photographed amateur build, captioned as such.  
 License: as marked.  
 Alt: Pine board furniture nailed from printed instructions.  
 Caption: 1974 instructions, a 21st-century habit of the file.
 
-**Fig. 3.** Live-edge walnut table, studio or small shop, dated.  
+**Fig. 7.** Live-edge walnut table, studio or small shop, dated.  
 Museum of craft or a documented maker.  
 License: as marked.  
 Alt: Thick slab table with a natural edge and steel or wooden legs.  
 Caption: Fashion and timber in the same slab. Name the forest if the maker did.
 
-**Fig. 4.** 3D-printed chair from a design-museum collection (e.g. a early 2010s experiment).  
+**Fig. 8.** 3D-printed chair from a design-museum collection (e.g. a early 2010s experiment).  
 MoMA or Vitra — confirm.  
 License: as marked.  
 Alt: Lattice polymer chair.  
 Caption: A fair object. Ask whether it has been sat on for a decade.
 
-**Fig. 5.** A working CNC in a small cabinet shop (documentary photograph).  
+**Fig. 9.** A working CNC in a small cabinet shop (documentary photograph).  
 License: photographer; or a PD shop-floor image if one exists.  
 Alt: Router cutting a chair part from a sheet.  
 Caption: The file and the bench, in the same week’s work.

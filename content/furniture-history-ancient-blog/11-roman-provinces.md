@@ -86,36 +86,54 @@ What “Roman” means on a table leg, after this tour, is a profile and a joint
 
 ## Figure plan
 
-**Fig. 1.** Simpelveld sarcophagus, interior relief with couch.  
+![Chronological anchors for the evidence discussed below.](assets/roman-cubiculum-furniture/fig-01-timeline.svg)
+
+*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Regional focus for circulation and local workshop traditions.](assets/roman-cubiculum-furniture/fig-02-map.svg)
+
+*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Morphological typology (idealized morphotypes).](assets/roman-cubiculum-furniture/fig-03-typology.svg)
+
+*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Comparative elevation and plan plate.](assets/roman-cubiculum-furniture/fig-04-plate.svg)
+
+*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+### Supplemental photographs and redraws
+
+**Fig. 5.** Simpelveld sarcophagus, interior relief with couch.  
 Rijksmuseum van Oudheden, Leiden.  
 License: museum; Wikimedia if a CC file exists.  
 Alt: Stone interior carved with a reclining woman and household furniture.  
 Caption: A northern villa’s furniture, inventoried in stone.
 
-**Fig. 2.** Waterlogged wooden stool or bench member, Vindolanda or London.  
+**Fig. 6.** Waterlogged wooden stool or bench member, Vindolanda or London.  
 Vindolanda Trust / Museum of London.  
 License: institution.  
 Alt: Dark oak furniture fragment with a joint visible.  
 Caption: Oak instead of Campanian fir; the joint is still Roman.
 
-**Fig. 3.** Graeco-Roman stool or bed from Karanis or Hawara.  
+**Fig. 7.** Graeco-Roman stool or bed from Karanis or Hawara.  
 Kelsey Museum or British Museum.  
 License: as marked; BM CC BY-NC-SA if BM.  
 Alt: Dry-preserved wooden stool from Roman Egypt.  
 Caption: The desert kept working after the pharaohs.
 
-**Fig. 4.** Mosaic of a *stibadium* banquet (Piazza Armerina or African museum).  
+**Fig. 8.** Mosaic of a *stibadium* banquet (Piazza Armerina or African museum).  
 Wikimedia CC.  
 Alt: Mosaic of diners on a crescent couch.  
 Caption: In the later empire the dining seat can be masonry.
 
-**Fig. 5.** Bronze furniture fitting from a British or German villa (lion paw or hinge).  
+**Fig. 9.** Bronze furniture fitting from a British or German villa (lion paw or hinge).  
 British Museum or Römisch-Germanisches Museum.  
 License: as marked.  
 Alt: Small bronze paw or lock plate.  
 Caption: Fittings travel farther than frames.
 
-**Fig. 6.** Inscription recording a *bisellium* (e.g. from Pompeii or a provincial theatre).  
+**Fig. 10.** Inscription recording a *bisellium* (e.g. from Pompeii or a provincial theatre).  
 Wikimedia PD squeeze or stone.  
 Alt: Latin inscription mentioning a seat of honor.  
 Caption: Sometimes the furniture is a right, named in stone, and the wood is gone.

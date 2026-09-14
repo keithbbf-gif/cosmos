@@ -83,37 +83,55 @@ It refuses upholstery. It refuses the carved skirt of a Qing court piece that wa
 
 ## Figure plan
 
-**Fig. 1.** Yokeback armchair.  
+![Chronological anchors for the evidence discussed below.](assets/han-dynasty-low-platforms/fig-01-timeline.svg)
+
+*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Regional focus for circulation and local workshop traditions.](assets/han-dynasty-low-platforms/fig-02-map.svg)
+
+*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Morphological typology (idealized morphotypes).](assets/han-dynasty-low-platforms/fig-03-typology.svg)
+
+*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Comparative elevation and plan plate.](assets/han-dynasty-low-platforms/fig-04-plate.svg)
+
+*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+### Supplemental photographs and redraws
+
+**Fig. 5.** Yokeback armchair.  
 Met 1997.92, *huanghuali*, 17th century.  
 License: Met CC0.  
 Alt: Tall hardwood armchair with a protruding crestrail and a curved splat.  
 Caption: 官帽椅 — the hat is the rail, the argument is the grain.
 
-**Fig. 2.** Horseshoe-back armchair.  
+**Fig. 6.** Horseshoe-back armchair.  
 Portland Art Museum 74.25.2, or another published *quanyi* with a checked accession.  
 License: Portland PD / as marked.  
 Alt: Armchair with a continuous curved crest rail.  
 Caption: The *quanyi*: five pieces in the rail, the same shop family.
 
-**Fig. 3.** Painting table, *huanghuali*.  
+**Fig. 7.** Painting table, *huanghuali*.  
 Met 1996.338, late 16th–early 17th century.  
 License: Met CC0.  
 Alt: Long, low hardwood table with clean stretchers.  
 Caption: A table for a scroll is a piece of studio furniture, not a dining type.
 
-**Fig. 4.** Round-corner cabinet.  
+**Fig. 8.** Round-corner cabinet.  
 Met or a published pair.  
 License: as marked.  
 Alt: Tall wooden cabinet with round hooded corners and brass plates.  
 Caption: The cupboard that stands, in the language of the chair.
 
-**Fig. 5.** *Kang* table on a platform, installation photograph or painting.  
+**Fig. 9.** *Kang* table on a platform, installation photograph or painting.  
 Museum installation or a Qing painting.  
 License: as marked.  
 Alt: Low table on a masonry or wooden platform.  
 Caption: Northern heat, low sitting: the yoke-back is not the whole house.
 
-**Fig. 6.** Detail of a pipe joint or exposed tenon.  
+**Fig. 10.** Detail of a pipe joint or exposed tenon.  
 Studio photograph of 1997.92 or a similar chair; or an Ecke plate.  
 License: CC0 / as marked.  
 Alt: Close view of a clean hardwood joint.  

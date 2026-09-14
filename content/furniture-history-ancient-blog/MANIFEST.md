@@ -67,6 +67,11 @@ Forty-three draft essays plus series apparatus. Folder only: `content/furniture-
 | `TIMELINE.md` | Dated spine |
 | `WP_IMPORT.md` | Draft-only staging |
 | `MANIFEST.md` | This file |
+| `GRAPHICS_INDEX.md` | Four SVG schematics per mapped chapter |
+| `LICENSES.md` | Rights notes for figures and museum URLs |
+| `CHAPTER_GRAPHICS_MAP.json` | Chapter stem → `assets/<slug>/` mapping |
+| `CITATION_PASS_REPORT.md` | PR #248 citation-deepen log (draft lineage) |
+| `MERGE_REPORT.md` | Unified pack merge record |
 
 ## Count method
 

@@ -86,42 +86,60 @@ What the town refuses is the old handbook sentence that Roman houses were sparse
 
 ## Figure plan
 
-**Fig. 1.** Carbonized couch, Casa del Mobilio Carbonizzato, room 8.  
+![Chronological anchors for the evidence discussed below.](assets/herculaneum-carbonized-wood/fig-01-timeline.svg)
+
+*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Regional focus for circulation and local workshop traditions.](assets/herculaneum-carbonized-wood/fig-02-map.svg)
+
+*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Morphological typology (idealized morphotypes).](assets/herculaneum-carbonized-wood/fig-03-typology.svg)
+
+*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Comparative elevation and plan plate.](assets/herculaneum-carbonized-wood/fig-04-plate.svg)
+
+*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+### Supplemental photographs and redraws
+
+**Fig. 5.** Carbonized couch, Casa del Mobilio Carbonizzato, room 8.  
 In situ or Museo Archeologico Virtuale / *Materia* exhibition.  
 License: site / exhibition; Wallace-Hadrill 2011 plates, rights reserved — use a CC site photo if available.  
 Alt: Blackened wooden bed-frame in a corner under three windows.  
 Caption: The house is named for this room, not for the triclinium.
 
-**Fig. 2.** Three-legged wooden table with animal or greyhound legs.  
+**Fig. 6.** Three-legged wooden table with animal or greyhound legs.  
 Herculaneum, same house or *Materia* display.  
 License: as Fig. 1.  
 Alt: Round carbonized table on three carved legs.  
 Caption: De Carolis and Mols both treat this small table as a household type, not a temple object.
 
-**Fig. 3.** Plan of V.5 with rooms 1 and 8 marked.  
+**Fig. 7.** Plan of V.5 with rooms 1 and 8 marked.  
 After Guidobaldi et al. 2014.  
 License: redrawn.  
 Alt: House plan with triclinium and the furniture room labeled.  
 Caption: Formal dining and the named furniture are not the same room.
 
-**Fig. 4.** Wooden cupboard or aedicula from Herculaneum.  
+**Fig. 8.** Wooden cupboard or aedicula from Herculaneum.  
 Mols catalog; Naples or on-site.  
 License: museum.  
 Alt: Carbonized cupboard with paneled doors.  
 Caption: A chest that learned to stand.
 
-**Fig. 5.** Marble trapezophoron, Naples.  
+**Fig. 9.** Marble trapezophoron, Naples.  
 Museo Archeologico Nazionale, confirm inventory.  
 License: Wikimedia PD/CC.  
 Alt: Marble table support carved as a mythological animal.  
 Caption: Stone cousins of the wooden tripod, split from it by museum departments.
 
-**Fig. 6.** Pompeian wall painting of a banquet or a furniture still-life.  
+**Fig. 10.** Pompeian wall painting of a banquet or a furniture still-life.  
 Naples / Met / BM. Prefer Met CC0 if a suitable fresco fragment exists.  
 Alt: Painted couches and tables.  
 Caption: Pompeii keeps the textiles in paint. Herculaneum keeps the joints.
 
-**Fig. 7.** Cradle, Herculaneum (if a publishable image exists); otherwise a household stool from Mols’s plates.  
+**Fig. 11.** Cradle, Herculaneum (if a publishable image exists); otherwise a household stool from Mols’s plates.  
 License: as Mols / exhibition.  
 Alt: Small carbonized cradle or stool.  
 Caption: Not every surviving bed was for a magistrate.

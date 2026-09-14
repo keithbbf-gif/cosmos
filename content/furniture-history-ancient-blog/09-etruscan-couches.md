@@ -84,29 +84,47 @@ The joiner’s name is missing. The shop is not. Turned profiles, bronze sockets
 
 ## Figure plan
 
-**Fig. 1.** Sarcophagus of the Spouses.  
+![Chronological anchors for the evidence discussed below.](assets/etruscan-funeral-couches/fig-01-timeline.svg)
+
+*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Regional focus for circulation and local workshop traditions.](assets/etruscan-funeral-couches/fig-02-map.svg)
+
+*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Morphological typology (idealized morphotypes).](assets/etruscan-funeral-couches/fig-03-typology.svg)
+
+*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Comparative elevation and plan plate.](assets/etruscan-funeral-couches/fig-04-plate.svg)
+
+*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+### Supplemental photographs and redraws
+
+**Fig. 5.** Sarcophagus of the Spouses.  
 Louvre Cp 5194, Cerveteri, late 6th c. BCE, terracotta.  
 License: Louvre / Wikimedia PD photographs.  
 Alt: Terracotta couple reclining on a couch-shaped sarcophagus lid.  
 Caption: The banquet furniture and the coffin are the same object.
 
-**Fig. 2.** Tomb of the Leopards, Tarquinia, banquet wall.  
+**Fig. 6.** Tomb of the Leopards, Tarquinia, banquet wall.  
 In situ; Wikimedia CC photographs.  
 Alt: Wall painting of couples reclining on couches with small tables.  
 Caption: Women on the kline, not beside it.
 
-**Fig. 3.** Tomb of the Reliefs, Cerveteri, interior.  
+**Fig. 7.** Tomb of the Reliefs, Cerveteri, interior.  
 Wikimedia CC.  
 Alt: Tufa tomb chamber with stucco household objects on the walls.  
 Caption: A furnished room cut from rock, tools included.
 
-**Fig. 4.** Stone throne or bench, Banditaccia tomb (specify tomb on layout).  
+**Fig. 8.** Stone throne or bench, Banditaccia tomb (specify tomb on layout).  
 Site photograph.  
 License: CC.  
 Alt: Chair carved from tufa in a tomb.  
 Caption: When the wood was gone, the seat was still worth cutting from the wall.
 
-**Fig. 5.** Bronze banquet cist or situla with couches in relief.  
+**Fig. 9.** Bronze banquet cist or situla with couches in relief.  
 Villa Giulia or Vatican; confirm inventory.  
 License: museum / Wikimedia.  
 Alt: Bronze vessel with a small banquet scene.  

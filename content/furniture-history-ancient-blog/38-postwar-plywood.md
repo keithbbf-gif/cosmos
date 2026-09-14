@@ -101,37 +101,55 @@ Panton’s S-chair and Kartell’s wipe-clean plastics close the thirty years wi
 
 ## Figure plan
 
-**Fig. 1.** Eames LCW.  
+![Chronological anchors for the evidence discussed below.](assets/joinery-before-nails/fig-01-timeline.svg)
+
+*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Regional focus for circulation and local workshop traditions.](assets/joinery-before-nails/fig-02-map.svg)
+
+*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Morphological typology (idealized morphotypes).](assets/joinery-before-nails/fig-03-typology.svg)
+
+*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Comparative elevation and plan plate.](assets/joinery-before-nails/fig-04-plate.svg)
+
+*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+### Supplemental photographs and redraws
+
+**Fig. 5.** Eames LCW.  
 Met 1984.566, c. 1946.  
 License: Met, modern design — rights may apply to the design; the museum photograph has its own terms.  
 Alt: Molded plywood lounge chair with a low seat and rubber mounts.  
 Caption: From a Navy splint to Zeeland. Ash veneer, two shells, a mount that gives.
 
-**Fig. 2.** Eames splint, wartime.  
+**Fig. 6.** Eames splint, wartime.  
 A museum of design or a medical museum — confirm.  
 License: as marked.  
 Alt: Molded plywood leg splint.  
 Caption: The research object. The chair is the afterlife.
 
-**Fig. 3.** Jacobsen Series 7, stacked.  
+**Fig. 7.** Jacobsen Series 7, stacked.  
 Fritz Hansen / a museum.  
 License: as marked.  
 Alt: A vertical stack of identical plywood chairs.  
 Caption: The room can be emptied.
 
-**Fig. 4.** Wegner Round Chair.  
+**Fig. 8.** Wegner Round Chair.  
 Designmuseum Danmark or V&A.  
 License: as marked.  
 Alt: Wooden armchair with a rounded, joined back-arm rail.  
 Caption: 1949. Teak as a North Atlantic fashion.
 
-**Fig. 5.** Panton S-chair or a Kartell plastic seat.  
+**Fig. 9.** Panton S-chair or a Kartell plastic seat.  
 Vitra or MoMA.  
 License: as marked.  
 Alt: Single-curve plastic cantilever chair.  
 Caption: A chair you can hose.
 
-**Fig. 6.** Case Study House interior with Eames furniture (a published Julius Shulman photograph).  
+**Fig. 10.** Case Study House interior with Eames furniture (a published Julius Shulman photograph).  
 License: Getty / J. Paul Getty Trust — usually restricted; use only if a PD or licensed file is available, or describe and skip.  
 Alt: Glass house with plywood chairs.  
 Caption: The California promise. Most living rooms did not look like this.

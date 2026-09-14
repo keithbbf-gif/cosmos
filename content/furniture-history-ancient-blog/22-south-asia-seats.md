@@ -19,7 +19,9 @@ Ibn Battuta, writing about Indian beds around 1350, described four conical legs,
 
 ## Lion thrones that outlasted their wood
 
-The *simhasana* (lion throne) is a word and an image before it is a surviving chair. Kushan and later Mathura sculpture puts a seated Buddha or a king on a seat whose supports are lions. The fifth-century Sarnath Buddha, in the Archaeological Museum at Sarnath, sits above a base where lions and a wheel do the heraldic work. The wood is gone. The stone still knows the type. A reader who wants a Mauryan chair will not find one. A reader who wants the idea of a raised, animal-supported seat will find it in every major Buddhist site catalog. Do not invent a surviving palace armchair for Ashoka.
+The *simhasana* (lion throne) is a word and an image before it is a surviving chair. Kushan and later Mathura sculpture puts a seated Buddha or a king on a seat whose supports are lions. The fifth-century Sarnath Buddha, in the Archaeological Museum at Sarnath, sits above a base where lions and a wheel do the heraldic work. The wood is gone. The stone still knows the type. A reader who wants a Mauryan chair will not find one in a warehouse. A reader who wants the idea of a raised, animal-supported seat will find it in every major Buddhist site catalog. Do not invent a surviving palace armchair for Ashoka.
+
+Mauryan furniture **322–185 BCE** lives in two registers that rarely touch: Greek ambassador prose about a wooden capital, and Indian administrative text about how a king moves through guarded rooms. Archaeology adds a third — polished sandstone columns without seat joinery. Megasthenes’ *Indica*, preserved in Strabo (*Geography* 15.1.35–36), describes Palibothra/Pataliputra as a parallelogram city with a perforated wooden rampart and a court where the king’s name compounds with the city’s; treat the comparison to Persian Susa as testimony about perceived scale, not as a verified inventory. At Patna, Kumrahar excavations documented an **eighty-pillared hall** of polished Mauryan sandstone — audience architecture whose timber superstructure decayed, binding how elites sat on platforms or cushions lost to fire and monsoon. Kautilya’s *Arthashastra* (Shamasastry trans., 1915) is clearer on **protocol** than on joinery: the king rises from bed through successive guarded compartments; assassins hide **under a bed** in the women’s quarters — furniture as danger locus. When a gallery mounts a “Mauryan throne,” ask whether the object is Mauryan or a later stylistic echo.
 
 Mughal painting — the *Padshahnama*, the Jahangir albums — shows emperors on jeweled seats under textiles, a footstool, attendants with fly-whisks. The Windsor *Padshahnama*, the imperial presentation volume of Shah Jahan’s reign, is the thickest visual record: low, wide thrones more like small platforms than European armchairs, a textile floor for everyone else, a canopy for one. Susan Stronge’s *Painting for the Mughal Emperor* (2002) is the V&A door into those folios. Some leaves are in Windsor, some in other collections; a caption must name the folio, not “a Mughal miniature.” Rank is a height difference of inches, then a cloth in the air.
 
@@ -86,37 +88,55 @@ The Peacock Throne remains a lost object with a loud afterlife. Use a painted th
 
 ## Figure plan
 
-**Fig. 1.** Charpai leg, or a complete ethnographic charpoy.  
+![Chronological anchors for the evidence discussed below.](assets/mauryan-palace-furniture/fig-01-timeline.svg)
+
+*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Regional focus for circulation and local workshop traditions.](assets/mauryan-palace-furniture/fig-02-map.svg)
+
+*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Morphological typology (idealized morphotypes).](assets/mauryan-palace-furniture/fig-03-typology.svg)
+
+*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Comparative elevation and plan plate.](assets/mauryan-palace-furniture/fig-04-plate.svg)
+
+*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+### Supplemental photographs and redraws
+
+**Fig. 5.** Charpai leg, or a complete ethnographic charpoy.  
 V&A IS.763-1883, Delhi, c. 1880, painted wood.  
 License: V&A.  
 Alt: Turned wooden bed-leg painted with flowers.  
 Caption: One of four legs the museum bought for two shillings. Ibn Battuta had already described the type.
 
-**Fig. 2.** Mughal painting of an emperor on a throne (*Padshahnama* folio).  
+**Fig. 6.** Mughal painting of an emperor on a throne (*Padshahnama* folio).  
 Royal Collection, Windsor, or V&A / Chester Beatty — specify folio.  
 License: as marked; some RC images restricted.  
 Alt: Painted king on a jeweled low throne under a textile.  
 Caption: Inches above the textile floor, a canopy for one.
 
-**Fig. 3.** Howdah.  
+**Fig. 7.** Howdah.  
 VMFA 2004.17a–b, silver, wood, velvet, c. 1896–1917.  
 License: museum.  
 Alt: Canopied silver seat designed to be strapped to an elephant.  
 Caption: A late princely throne that walks. Caption the date.
 
-**Fig. 4.** Ivory-inlaid table, Vizagapatam.  
+**Fig. 8.** Ivory-inlaid table, Vizagapatam.  
 V&A IS.20-1980, sandalwood and engraved ivory, 18th century.  
 License: V&A.  
 Alt: Oval inlaid table with tapering legs.  
 Caption: An English pattern, an east-coast shop, a Madras monogram.
 
-**Fig. 5.** Palanquin or palanquin fitting.  
+**Fig. 9.** Palanquin or palanquin fitting.  
 Met 2008.645.4 (makara cover) or a confirmed V&A litter.  
 License: as marked.  
 Alt: Brass makara head from a palanquin, or an enclosed wooden litter.  
 Caption: Processional furniture for a human body — or the piece that faced forward.
 
-**Fig. 6.** Buddhist lion throne in stone (Sarnath or Mathura).  
+**Fig. 10.** Buddhist lion throne in stone (Sarnath or Mathura).  
 Archaeological Museum, Sarnath, or an Indian museum / Wikimedia PD.  
 Alt: Stone Buddha seated on a throne with lion supports.  
 Caption: The *simhasana* as a sculptor knew it. The wood is gone.

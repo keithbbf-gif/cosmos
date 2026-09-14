@@ -88,35 +88,53 @@ Eames’s sentences from wills — a “great chest,” a board and a pair of tr
 
 ## Figure plan
 
-**Fig. 1.** Chest with Iron Banding.  
+![Chronological anchors for the evidence discussed below.](assets/oak-and-cedar-supply-chains/fig-01-timeline.svg)
+
+*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Regional focus for circulation and local workshop traditions.](assets/oak-and-cedar-supply-chains/fig-02-map.svg)
+
+*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Morphological typology (idealized morphotypes).](assets/oak-and-cedar-supply-chains/fig-03-typology.svg)
+
+*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Comparative elevation and plan plate.](assets/oak-and-cedar-supply-chains/fig-04-plate.svg)
+
+*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+### Supplemental photographs and redraws
+
+**Fig. 5.** Chest with Iron Banding.  
 Met 13.205.2, Westphalia, 15th century, oak and iron.  
 License: Met CC0.  
 Alt: Long oak chest bound with iron straps ending in fleurs-de-lis.  
 Caption: The straps are the lock’s partners. The box is older than the Gothic.
 
-**Fig. 2.** Six-board or clamp-front chest, English, parish or manor (V&A or a cathedral).  
+**Fig. 6.** Six-board or clamp-front chest, English, parish or manor (V&A or a cathedral).  
 V&A, confirm accession.  
 License: V&A terms.  
 Alt: Plain oak chest with a lid and a lock.  
 Caption: A household’s movable wall.
 
-**Fig. 3.** Bayeux Tapestry, banquet scene.  
+**Fig. 7.** Bayeux Tapestry, banquet scene.  
 Bayeux Museum; PD photographs of the embroidery.  
 Alt: Embroidered table with drinkers and servants.  
 Caption: A board, a cloth, no sideboard.
 
-**Fig. 4.** Hall interior, surviving medieval (e.g. Penshurst or a tithe barn used with caution).  
+**Fig. 8.** Hall interior, surviving medieval (e.g. Penshurst or a tithe barn used with caution).  
 National Trust / Wikimedia CC.  
 Alt: Timber hall with open roof and a central or wall hearth.  
 Caption: Furniture has to work in a volume this large and this drafty.
 
-**Fig. 5.** Turned or box chair, later medieval, with a skeptical caption if restored.  
+**Fig. 9.** Turned or box chair, later medieval, with a skeptical caption if restored.  
 V&A or Met.  
 License: as marked.  
 Alt: Heavy wooden chair with a paneled or turned back.  
 Caption: The marked seat. Dendrochronology before romance.
 
-**Fig. 6.** Trestle table, surviving or reconstructed from a reliable museum.  
+**Fig. 10.** Trestle table, surviving or reconstructed from a reliable museum.  
 Weald and Downland or V&A.  
 License: as marked.  
 Alt: Long board on trestles.  

@@ -82,32 +82,50 @@ The Wallace is frank that Boulle did not stamp, and that a monumental wardrobe i
 
 ## Figure plan
 
-**Fig. 1.** Cabinet, attributed to Boulle, Wallace F16.  
+![Chronological anchors for the evidence discussed below.](assets/pigment-and-gilding-furniture/fig-01-timeline.svg)
+
+*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Regional focus for circulation and local workshop traditions.](assets/pigment-and-gilding-furniture/fig-02-map.svg)
+
+*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Morphological typology (idealized morphotypes).](assets/pigment-and-gilding-furniture/fig-03-typology.svg)
+
+*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Comparative elevation and plan plate.](assets/pigment-and-gilding-furniture/fig-04-plate.svg)
+
+*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+### Supplemental photographs and redraws
+
+**Fig. 5.** Cabinet, attributed to Boulle, Wallace F16.  
 License: Wallace Collection images, as marked.  
 Alt: Tall cabinet with floral marquetry, carved terms, and a royal medal.  
 Caption: Early 1670s: flowers still in wood, metal already in the frieze.
 
-**Fig. 2.** Commode, Boulle, Met 1982.60.82.  
+**Fig. 6.** Commode, Boulle, Met 1982.60.82.  
 License: Met, check OA.  
 Alt: Bombé commode with brass-and-tortoiseshell marquetry and gilt-bronze mounts.  
 Caption: Linsky 1982.60.82 — a bedroom architecture of shell and brass.
 
-**Fig. 3.** Detail of première-partie marquetry.  
+**Fig. 7.** Detail of première-partie marquetry.  
 Wallace or Met.  
 License: as marked.  
 Alt: Close view of engraved brass in tortoiseshell.  
 Caption: The leftover of this panel is another panel’s field.
 
-**Fig. 4.** Galerie des Glaces, Versailles, a historic photograph (PD).  
+**Fig. 8.** Galerie des Glaces, Versailles, a historic photograph (PD).  
 Alt: Hall of mirrors with gilt furniture and chandeliers.  
 Caption: The silver suite is already a memory in most of the views we have.
 
-**Fig. 5.** Gilt-wood throne or armchair, Louis XIV (Louvre or Versailles).  
+**Fig. 9.** Gilt-wood throne or armchair, Louis XIV (Louvre or Versailles).  
 License: museum.  
 Alt: High-backed armchair, carved and gilded, with tapestry upholstery.  
 Caption: The *menuisier*’s Versailles, next to the *ébéniste*’s.
 
-**Fig. 6.** Warin medal of Louis XIV, as mounted on F16.  
+**Fig. 10.** Warin medal of Louis XIV, as mounted on F16.  
 Wallace.  
 License: Wallace.  
 Alt: Bronze medal of the king set into a cabinet.  

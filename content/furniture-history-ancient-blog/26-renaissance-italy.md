@@ -89,36 +89,54 @@ A *lettuccio* in a *camera* — paneled back, a place to sit up and receive — 
 
 ## Figure plan
 
-**Fig. 1.** Cassone, Lehman Collection.  
+![Chronological anchors for the evidence discussed below.](assets/pigment-and-gilding-furniture/fig-01-timeline.svg)
+
+*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Regional focus for circulation and local workshop traditions.](assets/pigment-and-gilding-furniture/fig-02-map.svg)
+
+*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Morphological typology (idealized morphotypes).](assets/pigment-and-gilding-furniture/fig-03-typology.svg)
+
+*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Comparative elevation and plan plate.](assets/pigment-and-gilding-furniture/fig-04-plate.svg)
+
+*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+### Supplemental photographs and redraws
+
+**Fig. 5.** Cassone, Lehman Collection.  
 Met 1975.1.1940, walnut, mid-16th century with later work.  
 License: Met, check OA for Lehman.  
 Alt: Long carved walnut chest with gilded details.  
 Caption: A marriage box. Read the label’s “additions” before trusting every leaf.
 
-**Fig. 2.** Cassone with the Conquest of Trebizond.  
+**Fig. 6.** Cassone with the Conquest of Trebizond.  
 Met 14.39, Florence, after ca. 1461; front panel may not be original to this carcase.  
 License: Met, check OA.  
 Alt: Painted and gilded marriage chest with a battle on the front.  
 Caption: A 2008 exam withdrew “intact.” The Strozzi ends are of this box; the battle may not be.
 
-**Fig. 3.** Gubbio Studiolo, Met 39.153.  
+**Fig. 7.** Gubbio Studiolo, Met 39.153.  
 License: Met photography.  
 Alt: Small room lined with perspective intarsia of benches, lattices, and instruments.  
 Caption: Federico’s study, a piece of furniture you walk into.
 
-**Fig. 4.** Pair of sgabelli.  
+**Fig. 8.** Pair of sgabelli.  
 Met 1975.1.2037 and 1975.1.2038, walnut; possibly 19th or early 20th century with reused footboards.  
 License: Met, check OA for Lehman.  
 Alt: Two high-backed stools with carved grotesque backs.  
 Caption: Davanzati, Volpi, a Renaissance a collector could sit on.
 
-**Fig. 5.** Lettuccio or a carved walnut bed (Italian, 16th c.).  
+**Fig. 9.** Lettuccio or a carved walnut bed (Italian, 16th c.).  
 Met or a palazzo museum.  
 License: as marked.  
 Alt: Daybed or bed with a paneled back.  
 Caption: The couch after Etruria, in walnut and a palace.
 
-**Fig. 6.** Detail of intarsia trompe-l’oeil cupboard.  
+**Fig. 10.** Detail of intarsia trompe-l’oeil cupboard.  
 Gubbio studiolo.  
 License: Met.  
 Alt: Inlaid wood imitating an open lattice and a book.  

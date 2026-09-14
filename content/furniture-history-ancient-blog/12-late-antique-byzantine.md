@@ -21,6 +21,8 @@ The consular diptychs themselves (ivory plaques issued by consuls in the fifth a
 
 Banquets continue. Dunbabin’s late mosaics still show the *stibadium*. But the new public room is the church, and the church’s furniture is a problem of visibility and hierarchy: the bishop’s chair, the synthronon (benches for clergy in the apse), the ambo, the chancel screens, the later iconostasis that is architecture more than a chair. Wooden tables for the Eucharist are documented and almost never survive. Stone altars do. A furniture history of Christianity that only lists thrones will miss the table; a history that only lists altars will miss the fact that a bishop sits.
 
+Roman catacombs **200–500 CE** are hypogea for bodies, not warehouses of household furniture. Perishable couches did not survive in loculi; stone **sarcophagi**, trench graves, and **arcosolia** did. The Pontifical Commission for Sacred Archaeology and the International Catacomb Society describe the standard grammar: **loculi** — horizontal wall niches closed with slabs — for ordinary burials; **arcosolia** — larger arched niches with trough graves or a **mensa** beneath the arch — for wealthier or clerical dead. The ICS glossary distinguishes **kline** (decorated couch in some early Jewish hypogea) from **loculus** slots so readers do not imagine dining rooms underground. Christian catacombs such as **Callixtus** on the Via Appia expanded under communal bishops from the early third century; loculi express communal equality in burial form even when frescoed cubicula reward patrons. When a novelist puts a triclinium couch in a loculus, the error is physical: the dead lie, they do not dine.
+
 The *cathedra* in a basilica is often masonry, a seat built into the apse, sometimes with a mosaic behind it (Ravenna’s other churches). Maximian’s ivory chair is portable prestige in a world that still understood ivory as the skin of office. Whether it was sat on every Sunday or reserved for ceremony is a local question. It was made to be seen.
 
 ## Households in the new capitals
@@ -79,31 +81,49 @@ Manuscripts fill the lost wood. Evangelists sit on thrones with cushions and foo
 
 ## Figure plan
 
-**Fig. 1.** Throne of Maximian, Ravenna.  
+![Chronological anchors for the evidence discussed below.](assets/catacombs-funeral-furniture/fig-01-timeline.svg)
+
+*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Regional focus for circulation and local workshop traditions.](assets/catacombs-funeral-furniture/fig-02-map.svg)
+
+*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Morphological typology (idealized morphotypes).](assets/catacombs-funeral-furniture/fig-03-typology.svg)
+
+*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Comparative elevation and plan plate.](assets/catacombs-funeral-furniture/fig-04-plate.svg)
+
+*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+### Supplemental photographs and redraws
+
+**Fig. 5.** Throne of Maximian, Ravenna.  
 Museo Arcivescovile. Ivory on wood, 6th century.  
 License: museum; Wikimedia photographs, check terms.  
 Alt: High-backed chair covered in carved ivory panels.  
 Caption: A bishop’s seat in the material of consuls.
 
-**Fig. 2.** Consular diptych (e.g. Anastasius or Justinian, V&A or Cabinet des Médailles).  
+**Fig. 6.** Consular diptych (e.g. Anastasius or Justinian, V&A or Cabinet des Médailles).  
 V&A or BnF.  
 License: as marked.  
 Alt: Ivory plaque of a consul on a throne or curule stool.  
 Caption: Furniture issued as a gift, in two leaves.
 
-**Fig. 3.** Synthronon, Hagia Irene or a surviving apse bench.  
+**Fig. 7.** Synthronon, Hagia Irene or a surviving apse bench.  
 Istanbul, site photograph.  
 License: Wikimedia CC.  
 Alt: Stepped stone benches in an apse.  
 Caption: Clergy furniture built into the wall.
 
-**Fig. 4.** Coptic painted box or stool.  
+**Fig. 8.** Coptic painted box or stool.  
 Brooklyn Museum or Coptic Museum — confirm ID.  
 License: museum Open Access if Brooklyn.  
 Alt: Wooden box with Christian painting.  
 Caption: Dry Egypt, again, keeps the household.
 
-**Fig. 5.** Manuscript illumination of an emperor or evangelist on a throne (e.g. a 10th-c. Gospel book).  
+**Fig. 9.** Manuscript illumination of an emperor or evangelist on a throne (e.g. a 10th-c. Gospel book).  
 BnF or BL, PD if date allows.  
 Alt: Painted gold throne with a cushion and footstool.  
 Caption: When the wood is gone, the painter still knows the footstool.

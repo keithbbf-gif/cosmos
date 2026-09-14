@@ -100,38 +100,56 @@ The chapters immediately after this one stay in Egypt because the New Kingdom wi
 
 ## Figure plan
 
-**Fig. 1.** Armchair of Hetepheres I, reconstruction.  
+![Chronological anchors for the evidence discussed below.](assets/egyptian-bed-frames/fig-01-timeline.svg)
+
+*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Regional focus for circulation and local workshop traditions.](assets/egyptian-bed-frames/fig-02-map.svg)
+
+*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Morphological typology (idealized morphotypes).](assets/egyptian-bed-frames/fig-03-typology.svg)
+
+*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Comparative elevation and plan plate.](assets/egyptian-bed-frames/fig-04-plate.svg)
+
+*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+### Supplemental photographs and redraws
+
+**Fig. 5.** Armchair of Hetepheres I, reconstruction.  
 Egyptian Museum, Cairo, JE 53263 (original reconstruction); or MFA Boston 38.957 (Gerte copy, 1938).  
 License: museum photography, rights vary; Digital Giza images per Harvard/MFA terms.  
 Alt: Gilded armchair with lion legs and inlaid panels, reconstructed.  
 Caption: Cairo holds the first reconstruction; Boston holds Gerte’s 1938 copy. The wood inside the gold is not Dynasty 4.
 
-**Fig. 2.** Carrying chair of Hetepheres I.  
+**Fig. 6.** Carrying chair of Hetepheres I.  
 Cairo JE 52372; MFA 38.874.  
 Alt: Long-poled carrying chair with gold hieroglyphs.  
 Caption: Furniture that is also a vehicle. The carriers are the missing members.
 
-**Fig. 3.** Reisner, *BMFA* 27 (1929), reconstruction drawing of the bed and canopy.  
+**Fig. 7.** Reisner, *BMFA* 27 (1929), reconstruction drawing of the bed and canopy.  
 Public domain in the United States (1929 publication).  
 Alt: Line drawing of a canopy bed with lion legs.  
 Caption: The 1929 bulletin is still the clearest statement of how little wood survived.
 
-**Fig. 4.** Shaft G 7000 X, section or expedition photograph.  
+**Fig. 8.** Shaft G 7000 X, section or expedition photograph.  
 Harvard University–Boston MFA Expedition; Digital Giza.  
 Alt: Deep shaft and chamber plan east of Khufu’s pyramid.  
 Caption: Ninety feet down, a household without a body.
 
-**Fig. 5.** Old Kingdom carpenter’s shop relief (Saqqara, Fifth Dynasty; e.g. tomb of Ty).  
+**Fig. 9.** Old Kingdom carpenter’s shop relief (Saqqara, Fifth Dynasty; e.g. tomb of Ty).  
 Wikimedia Commons, PD photograph of the relief.  
 Alt: Wall relief of men adzing furniture legs.  
 Caption: The shop scenes are contemporary evidence that G 7000 X is not a one-off fantasy of gold.
 
-**Fig. 6.** Lion-leg detail, Hetepheres armchair (Cairo or Boston).  
+**Fig. 10.** Lion-leg detail, Hetepheres armchair (Cairo or Boston).  
 Museum photo.  
 Alt: Carved or gilded lion paw on a drum base.  
 Caption: The animal is the leg, not a sticker on a post.
 
-**Fig. 7.** Headrest type, Old Kingdom (Met or MFA example, e.g. Met 26.9.11 or similar — confirm ID before layout).  
+**Fig. 11.** Headrest type, Old Kingdom (Met or MFA example, e.g. Met 26.9.11 or similar — confirm ID before layout).  
 Met Open Access CC0 if a Met headrest is used.  
 Alt: Curved alabaster or wood headrest.  
 Caption: The bed’s pillow is a separate object with its own carpenters and stone-workers.

@@ -111,30 +111,48 @@ Memphis Milano still produces *Carlton*. That afterlife is not this chapter’s 
 
 ## Figure plan
 
-**Fig. 1.** Sottsass, *Carlton* bookcase, 1981.  
+![Chronological anchors for the evidence discussed below.](assets/reconstruction-methods-museums/fig-01-timeline.svg)
+
+*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Regional focus for circulation and local workshop traditions.](assets/reconstruction-methods-museums/fig-02-map.svg)
+
+*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Morphological typology (idealized morphotypes).](assets/reconstruction-methods-museums/fig-03-typology.svg)
+
+*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Comparative elevation and plan plate.](assets/reconstruction-methods-museums/fig-04-plate.svg)
+
+*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+### Supplemental photographs and redraws
+
+**Fig. 5.** Sottsass, *Carlton* bookcase, 1981.  
 Vitra Design Museum or Memphis documentation.  
 License: as marked; design still copyrighted.  
 Alt: Totemic bookcase in colored plastic laminate.  
 Caption: A photograph that traveled farther than the edition.
 
-**Fig. 2.** Mendini, Proust armchair, 1978.  
+**Fig. 6.** Mendini, Proust armchair, 1978.  
 Museum of design, Milan or a documented example.  
 License: as marked.  
 Alt: Baroque armchair painted in colored dots.  
 Caption: Alchimia’s ready-made, a writing in fabric.
 
-**Fig. 3.** Venturi Chippendale chair for Knoll, 1984.  
+**Fig. 7.** Venturi Chippendale chair for Knoll, 1984.  
 V&A or a university collection.  
 License: as marked.  
 Alt: Oversized Chippendale-back chair in a flat color.  
 Caption: St. Martin’s Lane, quoted as a joke that is also a chair.
 
-**Fig. 4.** IKEA catalog page, 1980s or 1990s, used as a historical document.  
+**Fig. 8.** IKEA catalog page, 1980s or 1990s, used as a historical document.  
 License: IKEA — usually restricted; use a library-held catalog under fair research caption, or a PD news photograph of a warehouse.  
 Alt: Flat-pack room in a catalog grid.  
 Caption: Logistics as a style. The Allen key is the joint.
 
-**Fig. 5.** Aeron chair, 1994.  
+**Fig. 9.** Aeron chair, 1994.  
 Cooper Hewitt or MoMA.  
 License: as marked.  
 Alt: Mesh office chair with a levered skeleton.  

@@ -100,31 +100,49 @@ Pugin’s *True Principles* (1841) and the Houses of Parliament furniture attack
 
 ## Figure plan
 
-**Fig. 1.** Balloon-back chair, mid-19th century.  
+![Chronological anchors for the evidence discussed below.](assets/upholstery-bolsters-ancient/fig-01-timeline.svg)
+
+*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Regional focus for circulation and local workshop traditions.](assets/upholstery-bolsters-ancient/fig-02-map.svg)
+
+*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Morphological typology (idealized morphotypes).](assets/upholstery-bolsters-ancient/fig-03-typology.svg)
+
+*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Comparative elevation and plan plate.](assets/upholstery-bolsters-ancient/fig-04-plate.svg)
+
+*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+### Supplemental photographs and redraws
+
+**Fig. 5.** Balloon-back chair, mid-19th century.  
 V&A — confirm.  
 License: V&A.  
 Alt: Walnut chair with a rounded back and a stuff-over seat.  
 Caption: Show-wood and a hidden beech frame.
 
-**Fig. 2.** Buttoned sofa, coil-sprung, c. 1860–80.  
+**Fig. 6.** Buttoned sofa, coil-sprung, c. 1860–80.  
 Museum or a documented house.  
 License: as marked.  
 Alt: Deep-buttoned velvet sofa.  
 Caption: Comfort as a spring industry.
 
-**Fig. 3.** Coalbrookdale cast-iron bench or hall stand.  
+**Fig. 7.** Coalbrookdale cast-iron bench or hall stand.  
 V&A or Ironbridge.  
 License: as marked.  
 Alt: Black cast-iron seating with a maker’s badge.  
 Caption: The foundry in the garden and the hall.
 
-**Fig. 4.** Papier-mâché chair, Birmingham.  
+**Fig. 8.** Papier-mâché chair, Birmingham.  
 V&A.  
 License: V&A.  
 Alt: Black japanned chair with mother-of-pearl flowers.  
 Caption: Not timber. Still a chair.
 
-**Fig. 5.** Pugin or Houses of Parliament furniture (a documented piece).  
+**Fig. 9.** Pugin or Houses of Parliament furniture (a documented piece).  
 Parliamentary collection / V&A.  
 License: as marked.  
 Alt: Oak chair or table with honest Gothic construction.  

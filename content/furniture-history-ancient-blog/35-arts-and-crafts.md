@@ -89,34 +89,52 @@ CIRC.288-1960 remains the chapter’s object because it is cheap, repeatable, an
 
 ## Figure plan
 
-**Fig. 1.** Sussex armchair.  
+![Chronological anchors for the evidence discussed below.](assets/joinery-before-nails/fig-01-timeline.svg)
+
+*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Regional focus for circulation and local workshop traditions.](assets/joinery-before-nails/fig-02-map.svg)
+
+*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Morphological typology (idealized morphotypes).](assets/joinery-before-nails/fig-03-typology.svg)
+
+*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Comparative elevation and plan plate.](assets/joinery-before-nails/fig-04-plate.svg)
+
+*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+### Supplemental photographs and redraws
+
+**Fig. 5.** Sussex armchair.  
 V&A CIRC.288-1960.  
 License: V&A.  
 Alt: Ebonized turned chair with a rush seat and simple arms.  
 Caption: 9s 9d in the firm’s catalog. Red House sat on this type first.
 
-**Fig. 2.** Red House, exterior or a documented interior.  
+**Fig. 6.** Red House, exterior or a documented interior.  
 National Trust; Wikimedia CC.  
 Alt: Red-brick house with pointed arches and a garden.  
 Caption: Webb’s building, Morris’s first furnished experiment.
 
-**Fig. 3.** Stickley armchair, Met 2014.633.  
+**Fig. 7.** Stickley armchair, Met 2014.633.  
 License: Met CC0.  
 Alt: Tall oak armchair with metal and wood inlay and a leather seat.  
 Caption: Eastwood, about 1903. Ellis is no longer the only name on the inlay.
 
-**Fig. 4.** Gimson or Barnsley chair, Cotswolds.  
+**Fig. 8.** Gimson or Barnsley chair, Cotswolds.  
 Cheltenham or V&A.  
 License: as marked.  
 Alt: Ash or oak chair with a ladder back and a woven seat.  
 Caption: The expensive honesty, after London.
 
-**Fig. 5.** Greene and Greene chair or detail from the Gamble House.  
+**Fig. 9.** Greene and Greene chair or detail from the Gamble House.  
 Gamble House / Huntington.  
 License: as marked.  
 Alt: Mahogany chair with cloud-lift rails and ebony pegs.  
 Caption: Pasadena’s Japanese-looking oak-and-mahogany, not Eastwood’s.
 
-**Fig. 6.** Morris & Co. catalog page, Sussex range, c. 1912, PD.  
+**Fig. 10.** Morris & Co. catalog page, Sussex range, c. 1912, PD.  
 Alt: Printed chairs with prices.  
 Caption: A moral movement that knew how to print a price.

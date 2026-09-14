@@ -105,35 +105,53 @@ Beech in Moravia, ash on an LCW, oak in a Westphalian chest, rush on CIRC.288-19
 
 ## Figure plan
 
-**Fig. 1.** Exploded drawing of a mortise-and-tenon chair (Hatnefer or a Ming chair).  
+![Chronological anchors for the evidence discussed below.](assets/joinery-before-nails/fig-01-timeline.svg)
+
+*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Regional focus for circulation and local workshop traditions.](assets/joinery-before-nails/fig-02-map.svg)
+
+*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Morphological typology (idealized morphotypes).](assets/joinery-before-nails/fig-03-typology.svg)
+
+*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Comparative elevation and plan plate.](assets/joinery-before-nails/fig-04-plate.svg)
+
+*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+### Supplemental photographs and redraws
+
+**Fig. 5.** Exploded drawing of a mortise-and-tenon chair (Hatnefer or a Ming chair).  
 Redrawn from Killen or Wang.  
 License: redrawn.  
 Alt: Diagram of pegged tenons in a chair frame.  
 Caption: The tongue, the hole, the peg. Glue optional, history not.
 
-**Fig. 2.** Back of a veneered commode, secondary woods visible.  
+**Fig. 6.** Back of a veneered commode, secondary woods visible.  
 Met or Wallace conservation photo.  
 License: as marked.  
 Alt: Unpolished pine or oak carcase behind a fancy face.  
 Caption: The class system of timber.
 
-**Fig. 3.** Steam-bending jig, historic or reconstructed.  
+**Fig. 7.** Steam-bending jig, historic or reconstructed.  
 MAK or a living-history shop.  
 License: as marked.  
 Alt: Beech rod in a metal form.  
 Caption: Thonet’s joint is a bend plus a screw.
 
-**Fig. 4.** Mahogany log or a historic timber advertisement, PD.  
+**Fig. 8.** Mahogany log or a historic timber advertisement, PD.  
 Alt: Nineteenth-century print of tropical logs at a dock.  
 Caption: Anderson’s subject: the tree before the polish.
 
-**Fig. 5.** Cane or rush seat, close.  
+**Fig. 9.** Cane or rush seat, close.  
 V&A Sussex or a Thonet.  
 License: as marked.  
 Alt: Woven seat showing the pattern of the rush or cane.  
 Caption: The body meets a plant, not a plank.
 
-**Fig. 6.** Cam lock or CNC finger joint, 21st-century.  
+**Fig. 10.** Cam lock or CNC finger joint, 21st-century.  
 Documentary photo.  
 License: as marked.  
 Alt: Particle-board joint or a milled wooden finger.  

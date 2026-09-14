@@ -104,35 +104,53 @@ Literary woods (Theophrastus) are richer than finds. Maple, oak, box, olive, imp
 
 ## Figure plan
 
-**Fig. 1.** Grave stele of Hegeso, or a comparable klismos stele.  
+![Chronological anchors for the evidence discussed below.](assets/greek-chair-types/fig-01-timeline.svg)
+
+*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Regional focus for circulation and local workshop traditions.](assets/greek-chair-types/fig-02-map.svg)
+
+*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Morphological typology (idealized morphotypes).](assets/greek-chair-types/fig-03-typology.svg)
+
+*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Comparative elevation and plan plate.](assets/greek-chair-types/fig-04-plate.svg)
+
+*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+### Supplemental photographs and redraws
+
+**Fig. 5.** Grave stele of Hegeso, or a comparable klismos stele.  
 National Archaeological Museum, Athens, inv. 3624 (Hegeso).  
 License: museum; Wikimedia PD photographs.  
 Alt: Marble relief of a woman seated in a klismos, a standing servant with a box.  
 Caption: The best drawing we have of a chair that almost never survives in wood.
 
-**Fig. 2.** Red-figure scene with a klismos (e.g. a hydria or pelike in the Met or BM).  
+**Fig. 6.** Red-figure scene with a klismos (e.g. a hydria or pelike in the Met or BM).  
 Confirm accession before layout; Met Open Access preferred.  
 License: CC0 if Met.  
 Alt: Vase painting of a figure seated in a saber-legged chair.  
 Caption: Painters liked the curve. Joiners had to make it without snapping the back legs.
 
-**Fig. 3.** Symposium scene with klinai.  
+**Fig. 7.** Symposium scene with klinai.  
 Met or BM red-figure kylix, CC0 or BM license.  
 Alt: Reclining drinkers on couches with small tables.  
 Caption: The Greek dining room is a set of beds used awake.
 
-**Fig. 4.** Theatre of Dionysos, Athens, marble prohedria.  
+**Fig. 8.** Theatre of Dionysos, Athens, marble prohedria.  
 Wikimedia CC site photograph.  
 Alt: Stone seats of honor in a theatre.  
 Caption: Public sitting, names on the front row.
 
-**Fig. 5.** Terracotta model of a chair or couch.  
+**Fig. 9.** Terracotta model of a chair or couch.  
 British Museum or Met, confirm ID.  
 License: as marked.  
 Alt: Small clay furniture model.  
 Caption: Children’s graves and votives keep types the termites ate.
 
-**Fig. 6.** Meidias hydria.  
+**Fig. 10.** Meidias hydria.  
 British Museum.  
 License: BM CC BY-NC-SA.  
 Alt: Athenian red-figure hydria with gilded details.  

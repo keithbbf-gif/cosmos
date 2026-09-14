@@ -103,36 +103,54 @@ Silverman’s book remains the political frame for the French material: nature, 
 
 ## Figure plan
 
-**Fig. 1.** Mackintosh high-back Willow or Ingram Street chair.  
+![Chronological anchors for the evidence discussed below.](assets/pigment-and-gilding-furniture/fig-01-timeline.svg)
+
+*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Regional focus for circulation and local workshop traditions.](assets/pigment-and-gilding-furniture/fig-02-map.svg)
+
+*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Morphological typology (idealized morphotypes).](assets/pigment-and-gilding-furniture/fig-03-typology.svg)
+
+*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Comparative elevation and plan plate.](assets/pigment-and-gilding-furniture/fig-04-plate.svg)
+
+*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+### Supplemental photographs and redraws
+
+**Fig. 5.** Mackintosh high-back Willow or Ingram Street chair.  
 Glasgow Museums or V&A — confirm.  
 License: as marked.  
 Alt: Very tall oak or ebonized chair with a lattice or rectangular back.  
 Caption: A booth for one sitter, in a tea room.
 
-**Fig. 2.** Hoffmann chair for Palais Stoclet or a Werkstätte documented seat.  
+**Fig. 6.** Hoffmann chair for Palais Stoclet or a Werkstätte documented seat.  
 MAK or a published Stoclet photo.  
 License: as marked.  
 Alt: Geometric upholstered chair with a gridded back.  
 Caption: The house as a manifesto; the chair as a paragraph.
 
-**Fig. 3.** Majorelle or Gallé desk, Nancy.  
+**Fig. 7.** Majorelle or Gallé desk, Nancy.  
 Musée de l’École de Nancy.  
 License: museum / Wikimedia CC.  
 Alt: Marquetry desk with plant forms in veneer.  
 Caption: Provincial luxury, better than the joke about stems.
 
-**Fig. 4.** Horta, Hôtel Tassel stair (architecture as the furniture’s cousin).  
+**Fig. 8.** Horta, Hôtel Tassel stair (architecture as the furniture’s cousin).  
 Wikimedia CC.  
 Alt: Iron-and-mosaic stair with a whipping line.  
 Caption: The line hits the chair after it hits the stair.
 
-**Fig. 5.** Gaudí chair, Casa Calvet or Batlló.  
+**Fig. 9.** Gaudí chair, Casa Calvet or Batlló.  
 Barcelona museums.  
 License: as marked.  
 Alt: Carved, undulating wooden chair.  
 Caption: A building sample you can move.
 
-**Fig. 6.** Thonet or Kohn chair in a Loos interior (published photograph).  
+**Fig. 10.** Thonet or Kohn chair in a Loos interior (published photograph).  
 License: as published.  
 Alt: Plain bentwood in a marble-and-mirror room.  
 Caption: Loos’s refusal of the manifesto chair, with a café seat instead.

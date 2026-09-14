@@ -23,6 +23,8 @@ An *ondol* is a masonry flue system under a stone-and-clay floor, faced with pap
 
 Wright and Pai mapped the house as a set of rooms with different kits. The *sarangbang*, the outer study associated with men of the scholarly class, held book chests, a low desk, a painting, stationery boxes. The *anbang*, the inner room associated with women of the household, held stacked clothing chests, bedding chests, cosmetic boxes. Kitchen chests (*sungnyungbang* and related types) stood nearer the firebox. Gendered space is furniture space. A scholar’s book chest and a wedding *bandaji* are not interchangeable. The National Museum of Korea’s period rooms are the public version of that map. They are reconstructions. They are still more honest than a single chest on a plinth labeled “Korean antique.”
 
+The Joseon *ondol* is not the invention of floor heat. On the peninsula **300 BCE–600 CE**, posture already followed warmth. Early **ondol** (*jjokgudeul* — partial floor heating along a wall flue) appears in Goguryeo fort barracks and commoner houses long before whole-room **onggudeul** becomes a Joseon default. Excavations at **Mt. Acha Fort 4** and related Goguryeo mountain forts (published in the *Journal of Korean Art & Archaeology* and follow-up fortress studies) document rectangular buildings with **L-shaped or straight single-flue ondol** along walls — partial heating for soldiers and workers, sometimes with iron cauldrons still sitting on fireboxes. Furniture is implied (sleeping along the warm edge) rather than recovered as joined wood. Scholarly summaries note that floor heating spread among commoners early while palaces and temples adopted ondol more slowly — mixed chair and floor protocols by class long before the *bandaji* types in Western museums.
+
 ## Types without a throne
 
 *Bandaji* (blanket chest, often for bedding), *jang* and *nong* (stacked chests), *sungnyungbang* kitchen chests, document boxes, book chests for a *sarangbang*: the vocabulary is a house plan. A *jang* is a taller wardrobe, often in two stages; a *nong* is a stack of nearly identical chests that can be separated for moving. Height without a high chair: you stack the cupboards. The drop-front of a *bandaji* is a working door. Bedding is heavy. The flap is the width of the carcase so a rolled mattress can come out in one motion. Hinges and lock plates take the strain. That is why the metal is not a border; it is the drawing and the structure.
@@ -85,31 +87,49 @@ Open a *bandaji* flap and the inner face may be unfinished. That is a budget, no
 
 ## Figure plan
 
-**Fig. 1.** Bandaji with flower-basket and butterfly fittings.  
+![Chronological anchors for the evidence discussed below.](assets/korean-on-demand-platforms/fig-01-timeline.svg)
+
+*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Regional focus for circulation and local workshop traditions.](assets/korean-on-demand-platforms/fig-02-map.svg)
+
+*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Morphological typology (idealized morphotypes).](assets/korean-on-demand-platforms/fig-03-typology.svg)
+
+*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Comparative elevation and plan plate.](assets/korean-on-demand-platforms/fig-04-plate.svg)
+
+*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+### Supplemental photographs and redraws
+
+**Fig. 5.** Bandaji with flower-basket and butterfly fittings.  
 Birmingham Museum of Art 1999.58, 19th century.  
 License: museum.  
 Alt: Wooden chest with a drop front and decorative iron plates.  
 Caption: Bedding and textiles behind a metal drawing.
 
-**Fig. 2.** Stacked *nong* or *jang*.  
+**Fig. 6.** Stacked *nong* or *jang*.  
 National Museum of Korea.  
 License: museum.  
 Alt: Two or three chests stacked, brass locks aligned.  
 Caption: Height without a high chair: you stack the cupboards.
 
-**Fig. 3.** Soban, tray table.  
+**Fig. 7.** Soban, tray table.  
 National Museum of Korea (confirm inventory) or a published *hojokban*.  
 License: as marked.  
 Alt: Small low table with four legs and a tray top.  
 Caption: Dinner for one sitter, carried in and out.
 
-**Fig. 4.** *Sarangbang* installation.  
+**Fig. 8.** *Sarangbang* installation.  
 National Museum of Korea or a historic house.  
 License: museum / CC.  
 Alt: Floor-level study with a low desk and book chests.  
 Caption: The men’s room as a furniture type.
 
-**Fig. 5.** Mother-of-pearl lacquer chest.  
+**Fig. 9.** Mother-of-pearl lacquer chest.  
 Met 63.121.1a–k, early 20th century, or box 12.134.42a, b, 19th century.  
 License: Met CC0 if OA.  
 Alt: Dark lacquer chest inlaid with shell, phoenixes and flowers.  

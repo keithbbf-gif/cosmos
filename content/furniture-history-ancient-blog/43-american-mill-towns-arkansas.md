@@ -95,33 +95,51 @@ No catalog number of a living maker belongs here. The series ends on a dated wor
 
 ## Figure plan
 
-**Fig. 1.** Fort Smith riverfront or a documented factory building, historic photograph.  
+![Chronological anchors for the evidence discussed below.](assets/oak-and-cedar-supply-chains/fig-01-timeline.svg)
+
+*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Regional focus for circulation and local workshop traditions.](assets/oak-and-cedar-supply-chains/fig-02-map.svg)
+
+*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Morphological typology (idealized morphotypes).](assets/oak-and-cedar-supply-chains/fig-03-typology.svg)
+
+*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Comparative elevation and plan plate.](assets/oak-and-cedar-supply-chains/fig-04-plate.svg)
+
+*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+### Supplemental photographs and redraws
+
+**Fig. 5.** Fort Smith riverfront or a documented factory building, historic photograph.  
 Fort Smith Museum of History / PD postcard.  
 Alt: Brick furniture plant near the Arkansas River.  
 Caption: The 1885 move was a lease. The river was the point.
 
-**Fig. 2.** Ballman-Cummings or a Fort Smith suite in a local museum, if one survives with a label.  
+**Fig. 6.** Ballman-Cummings or a Fort Smith suite in a local museum, if one survives with a label.  
 Fort Smith Museum of History.  
 License: museum.  
 Alt: Oak chamber suite — bed, dresser, chiffonier.  
 Caption: 6 August 1894: dressers, sideboards, desks. A Victorian list in a hardwood town.
 
-**Fig. 3.** Period advertisement for Border Queen or a Fort Smith folding bed.  
+**Fig. 7.** Period advertisement for Border Queen or a Fort Smith folding bed.  
 PD city directory or newspaper ad.  
 Alt: Printed kitchen cabinet or folding bed.  
 Caption: Types of a decade: the kitchen as a branded room.
 
-**Fig. 4.** Warren or Crossett mill, historic photograph.  
+**Fig. 8.** Warren or Crossett mill, historic photograph.  
 Encyclopedia of Arkansas / PD.  
 Alt: Sawmill, stacks of lumber, a spur line.  
 Caption: Furniture towns and lumber towns overlap. They are not the same plant.
 
-**Fig. 5.** Ozark or Ouachita hardwood forest, oaks in leaf or winter.  
+**Fig. 9.** Ozark or Ouachita hardwood forest, oaks in leaf or winter.  
 USFS / Wikimedia CC.  
 Alt: Mixed oak woods on a ridge or in a bottom.  
 Caption: The *Encyclopedia*’s map: pine on the slopes, hardwood in the valleys and bottoms.
 
-**Fig. 6.** Turned leg or a factory lathe, historic shop-floor photograph, Arkansas or Indiana.  
+**Fig. 10.** Turned leg or a factory lathe, historic shop-floor photograph, Arkansas or Indiana.  
 PD.  
 Alt: A turner at a lathe, chair legs in a rack.  
 Caption: Ballman arrived as a turner. The joint at the end of the series is still a shop skill.

@@ -88,30 +88,48 @@ Ethnographic stools accessioned in 1912 are 1912 documents of living shops, not 
 
 ## Figure plan
 
-**Fig. 1.** Interior of a piled house (Minangkabau or Malay historic house).  
+![Chronological anchors for the evidence discussed below.](assets/vedic-india-low-seating/fig-01-timeline.svg)
+
+*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Regional focus for circulation and local workshop traditions.](assets/vedic-india-low-seating/fig-02-map.svg)
+
+*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Morphological typology (idealized morphotypes).](assets/vedic-india-low-seating/fig-03-typology.svg)
+
+*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Comparative elevation and plan plate.](assets/vedic-india-low-seating/fig-04-plate.svg)
+
+*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+### Supplemental photographs and redraws
+
+**Fig. 5.** Interior of a piled house (Minangkabau or Malay historic house).  
 Wikimedia CC.  
 Alt: Wooden room on a raised floor with mats and a higher inner platform.  
 Caption: Rank is a step in the floor, not a high back.
 
-**Fig. 2.** Thai manuscript storage cabinet, gold on lacquer.  
+**Fig. 6.** Thai manuscript storage cabinet, gold on lacquer.  
 Met 1971.139, Bangkok, late 18th–early 19th century.  
 License: Met, check OA.  
 Alt: Tall gilded wooden cabinet with Ramakien scenes.  
 Caption: A monastic cupboard for palm-leaf books. The Chinese-style stand may be later.
 
-**Fig. 3.** Javanese carved door or Balinese *padmasana*.  
+**Fig. 7.** Javanese carved door or Balinese *padmasana*.  
 Museum Nasional or a temple photograph used with care.  
 License: as marked.  
 Alt: Densely carved wooden architectural panel, or an empty stone-and-wood throne for a god.  
 Caption: The same shops cut houses and seats for gods. Some seats are empty on purpose.
 
-**Fig. 4.** Rattan stool, ethnographic collection, dated as a type.  
+**Fig. 8.** Rattan stool, ethnographic collection, dated as a type.  
 Smithsonian or Leiden (Museum Volkenkunde).  
 License: OA if Smithsonian.  
 Alt: Woven rattan stool.  
 Caption: A vegetal joint. The date is usually the collection date.
 
-**Fig. 5.** Angkor relief of a king in a palanquin or on a throne.  
+**Fig. 9.** Angkor relief of a king in a palanquin or on a throne.  
 Bayon or Angkor Wat; Wikimedia PD.  
 Alt: Stone relief of a seated ruler under umbrellas.  
 Caption: The palace wood is gone. The stone still knows the umbrellas.

@@ -105,42 +105,60 @@ Killen’s stool atlas is the ordinary end of the same century: lattice, folding
 
 ## Figure plan
 
-**Fig. 1.** Hatnefer’s Chair.  
+![Chronological anchors for the evidence discussed below.](assets/egyptian-folding-stool/fig-01-timeline.svg)
+
+*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Regional focus for circulation and local workshop traditions.](assets/egyptian-folding-stool/fig-02-map.svg)
+
+*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Morphological typology (idealized morphotypes).](assets/egyptian-folding-stool/fig-03-typology.svg)
+
+*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Comparative elevation and plan plate.](assets/egyptian-folding-stool/fig-04-plate.svg)
+
+*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+### Supplemental photographs and redraws
+
+**Fig. 5.** Hatnefer’s Chair.  
 The Metropolitan Museum of Art, 36.3.152. Boxwood, cypress, ebony, linen cord, c. 1492–1473 BCE.  
 License: Met Open Access, CC0.  
 Alt: Low wooden chair with a woven linen seat and a back carved with Bes and amulets.  
 Caption: The seat cord is original. Almost no other Egyptian chair in a public collection can say that.
 
-**Fig. 2.** Chair for a Woman, Dra Abu el-Naga (said to be).  
+**Fig. 6.** Chair for a Woman, Dra Abu el-Naga (said to be).  
 Met 12.182.28. Tamarisk, reed, early Dynasty 18.  
 License: CC0.  
 Alt: Low chair with lion legs and a restored mesh seat.  
 Caption: Forked-branch braces, pegged joins, a modern slat: a workshop chair plus its twentieth-century repairs.
 
-**Fig. 3.** Folding stool.  
+**Fig. 7.** Folding stool.  
 Met 12.182.49. Wood, ebony, ivory.  
 License: CC0.  
 Alt: X-frame folding stool with inlay.  
 Caption: A seat designed to travel, two centuries before anyone in this series will say *curule*.
 
-**Fig. 4.** Tutankhamun’s ceremonial chair, Carter 91.  
+**Fig. 8.** Tutankhamun’s ceremonial chair, Carter 91.  
 Egyptian Museum / GEM, JE 62028 / GEM 4573.  
 License: museum; Harry Burton photographs © Griffith Institute, Oxford — reproduction restricted. Use GEM’s published still or a PD Burton if released.  
 Alt: Gold-covered armchair with winged uraei and an Aten scene on the back.  
 Caption: Carter 91, JE 62028: an adult armchair from the first years of a reign that still spoke Aten.
 
-**Fig. 5.** Footrest JE 62046, nine bows.  
+**Fig. 9.** Footrest JE 62046, nine bows.  
 Cairo / GEM.  
 License: as Fig. 4.  
 Alt: Wooden footrest carved with bound enemies.  
 Caption: The chair’s politics are under the feet.
 
-**Fig. 6.** Banquet scene, Theban tomb (e.g. Nakht, TT52), women on low chairs.  
+**Fig. 10.** Banquet scene, Theban tomb (e.g. Nakht, TT52), women on low chairs.  
 Wikimedia Commons, PD photograph of the painting.  
 Alt: Wall painting of women seated on low chairs at a banquet.  
 Caption: The Met’s comparison for Hatnefer’s height is a painting, not a rulebook.
 
-**Fig. 7.** Detail of Bes, *tit*, and *djed* on 36.3.152.  
+**Fig. 11.** Detail of Bes, *tit*, and *djed* on 36.3.152.  
 Met CC0.  
 Alt: Close view of protective symbols on the chair back.  
 Caption: Household gods, in a row, at the height of a sitter’s spine.

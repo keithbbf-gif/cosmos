@@ -81,36 +81,54 @@ A tourist stool can carry Cole and Ross’s crocodile and still not be a stool w
 
 ## Figure plan
 
-**Fig. 1.** Prestige Stool, Asante.  
+![Chronological anchors for the evidence discussed below.](assets/upholstery-bolsters-ancient/fig-01-timeline.svg)
+
+*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Regional focus for circulation and local workshop traditions.](assets/upholstery-bolsters-ancient/fig-02-map.svg)
+
+*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Morphological typology (idealized morphotypes).](assets/upholstery-bolsters-ancient/fig-03-typology.svg)
+
+*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Comparative elevation and plan plate.](assets/upholstery-bolsters-ancient/fig-04-plate.svg)
+
+*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+### Supplemental photographs and redraws
+
+**Fig. 5.** Prestige Stool, Asante.  
 Met 1979.206.263, wood and metal, 19th–20th century.  
 License: Met, check OA for Rockefeller works.  
 Alt: Low wooden stool with a curved seat and metal strips.  
 Caption: A museum stool from the Rockefeller bequest. The Golden Stool is not available to this caption.
 
-**Fig. 2.** British Museum *sese dwa* Af1954,23.3215 (or a published photograph from the dissertation / BM).  
+**Fig. 6.** British Museum *sese dwa* Af1954,23.3215 (or a published photograph from the dissertation / BM).  
 License: BM CC BY-NC-SA.  
 Alt: Smoked wooden stool with metal plating.  
 Caption: Concentric squares under the seat; plating as rank.
 
-**Fig. 3.** Underside of a stool, showing the carved core.  
+**Fig. 7.** Underside of a stool, showing the carved core.  
 BM or a published figure.  
 License: as marked.  
 Alt: Hollowed underside of an Akan stool with square frames.  
 Caption: The part that sits on the ground has its own drawing.
 
-**Fig. 4.** Linguist staff with a stool finial.  
+**Fig. 8.** Linguist staff with a stool finial.  
 Met 1987.452.2a–c, wood and gold foil, c. 1930s.  
 License: as marked.  
 Alt: Gold-leafed wooden staff topped with a miniature stool, chain, and swords.  
 Caption: The seat walks in front of the speech. Regalia is stool property.
 
-**Fig. 5.** Photograph of an Asante ceremony in which stools are present (a published, rights-cleared historic photograph — not a stolen ritual).  
+**Fig. 9.** Photograph of an Asante ceremony in which stools are present (a published, rights-cleared historic photograph — not a stolen ritual).  
 e.g. Ghana Information Services, 1957, as used in *Wrapped in Pride*.  
 License: as published.  
 Alt: Ceremonial group with staffs and stools.  
 Caption: Ross and Adedze used this kind of picture to put objects back in a crowd.
 
-**Fig. 6.** Glasgow *mmaa gwa*, or a PD map of Asante and the Gold Coast for 1874 and 1900.  
+**Fig. 10.** Glasgow *mmaa gwa*, or a PD map of Asante and the Gold Coast for 1874 and 1900.  
 Glasgow Museums (looted 4 February 1874) / PD map.  
 License: as marked.  
 Alt: Woman’s stool with five supports, or a historical map of Asante territory.  

@@ -92,35 +92,53 @@ Meiji imports and department-store catalogs then add Western chairs at speed. Th
 
 ## Figure plan
 
-**Fig. 1.** Tatami room with tokonoma, a historic house (Katsura or a museum house).  
+![Chronological anchors for the evidence discussed below.](assets/japanese-floor-sitting/fig-01-timeline.svg)
+
+*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Regional focus for circulation and local workshop traditions.](assets/japanese-floor-sitting/fig-02-map.svg)
+
+*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Morphological typology (idealized morphotypes).](assets/japanese-floor-sitting/fig-03-typology.svg)
+
+*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Comparative elevation and plan plate.](assets/japanese-floor-sitting/fig-04-plate.svg)
+
+*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+### Supplemental photographs and redraws
+
+**Fig. 5.** Tatami room with tokonoma, a historic house (Katsura or a museum house).  
 Wikimedia CC, rights as marked.  
 Alt: Empty-looking room with mats, an alcove, and a hanging scroll.  
 Caption: The floor is the seat. The alcove is the display.
 
-**Fig. 2.** Stair chest (*kaidan-dansu*).  
+**Fig. 6.** Stair chest (*kaidan-dansu*).  
 Brooklyn Museum 77.142, 19th century, Kawagoe.  
 License: Brooklyn CC.  
 Alt: Wooden staircase whose risers are drawers.  
 Caption: A cupboard that is also the way upstairs.
 
-**Fig. 3.** Miniature tansu.  
+**Fig. 7.** Miniature tansu.  
 Smithsonian NMAA F1911.147a–i.  
 License: Smithsonian Open Access, CC0.  
 Alt: Small lacquered chest with many tiny drawers.  
 Caption: Freer’s 1911 purchase from Kita Toranosuke: the type in a collector’s scale.
 
-**Fig. 4.** Nanban portable cabinet.  
+**Fig. 8.** Nanban portable cabinet.  
 Met 2015.500.2.29a–k, Momoyama, *maki-e* and shell.  
 License: Met, check Open Access status on the Irving lacquer.  
 Alt: Small cabinet with gold lacquer, mother-of-pearl, silver mounts.  
 Caption: A Portuguese chest, a Japanese finish, Indian-looking borders.
 
-**Fig. 5.** Folding screen (a PD or OA pair).  
+**Fig. 9.** Folding screen (a PD or OA pair).  
 Met CC0 if available, or Freer.  
 Alt: Six-panel screen with a landscape or Tale of Genji scene.  
 Caption: A wall that folds.
 
-**Fig. 6.** *Shoin* built-in shelves (*chigaidana*).  
+**Fig. 10.** *Shoin* built-in shelves (*chigaidana*).  
 Historic house photograph, Katsura or a museum *shoin*.  
 License: CC.  
 Alt: Staggered wooden shelves in an alcove beside a desk.  

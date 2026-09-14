@@ -51,6 +51,8 @@ Aşıklı Höyük, earlier than Çatalhöyük and still in central Anatolia, alr
 
 What Çatalhöyük adds, besides the completeness of the grammar, is the duration of replastering. A platform that has been skinned fifty times is a conservative object. People could have moved the bench. Often they did not. The house’s furniture is a memory practice. Hodder’s later language of “history houses” — buildings that accumulate more burials and more installations — is a furniture language: some platforms are heavier with the dead than others. Rank, if it is here, may be the right to sleep on a more storied rectangle.
 
+The Indus tradition (**2600–1900 BCE**) never produced a European-style chair typology either. What survives is architecture that dictates posture — courtyards, staircases to upper rooms, brick bathing platforms — and a handful of stone and terracotta objects that hint at elevation without naming a joinery tradition. John Marshall’s Mohenjo-daro house plans show compounds with wells, staircases, and upper-storey rooms reached from courtyards; raised floors are platforms in the architectural sense, not imported bedsteads. Marshall’s “Seated Nobleman” from Mohenjo-daro (L Area, Chamber 75) — headless alabaster, one knee raised, found in situ above pavement — is sculpture, not a chair, yet it documents how an elite body occupied space. Jonathan Mark Kenoyer’s syntheses stress perishable furnishings that decayed while brick and stone survived. The comparison to Çatalhöyük is parallel, not genealogical: two urban traditions that made rank a surfaced elevation.
+
 Obsidian caches, lentil bins, and the grinding set in Building 1’s later phase are the kitchen. A furniture series that only photographs horned benches will lie about the day’s work. The south end of the room is hot, dirty, and full of tools. The north and east are cleaner, painted, and reserved. That split is as close as this site comes to a “suite.”
 
 ## How a platform is built, and what the dirt still holds
@@ -87,36 +89,54 @@ Hodder’s final project volumes (*Çatalhöyük Research Project* series, Briti
 
 ## Figure plan
 
-**Fig. 1.** Reconstruction painting or photograph of a Çatalhöyük interior with east platforms and south oven.  
+![Chronological anchors for the evidence discussed below.](assets/indus-valley-household-forms/fig-01-timeline.svg)
+
+*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Regional focus for circulation and local workshop traditions.](assets/indus-valley-household-forms/fig-02-map.svg)
+
+*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Morphological typology (idealized morphotypes).](assets/indus-valley-household-forms/fig-03-typology.svg)
+
+*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Comparative elevation and plan plate.](assets/indus-valley-household-forms/fig-04-plate.svg)
+
+*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+### Supplemental photographs and redraws
+
+**Fig. 5.** Reconstruction painting or photograph of a Çatalhöyük interior with east platforms and south oven.  
 Hodder project reconstruction house, or Mellaart-era reconstruction drawing.  
 License: project CC or © Çatalhöyük Research Project; use only a released still.  
 Alt: Plastered room with raised side platforms, ladder, and oven.  
 Caption: Fire at the south, platforms along the east: the plan that keeps returning from Level VII to Level II.
 
-**Fig. 2.** Field photograph, Building 52, horned bench.  
+**Fig. 6.** Field photograph, Building 52, horned bench.  
 Çatalhöyük Research Project.  
 License: project, permission required unless a Wikimedia upload exists.  
 Alt: Mudbrick bench with cattle horn cores set in the plaster.  
 Caption: A bench can hold a body and a herd at once.
 
-**Fig. 3.** Plan of a typical house (e.g. Building 1 or Mellaart Level VI house).  
+**Fig. 7.** Plan of a typical house (e.g. Building 1 or Mellaart Level VI house).  
 Published project plan.  
 License: redrawn from Hodder/Düring figures.  
 Alt: Plan with platforms, bench, oven, bins, and roof entry marked.  
 Caption: Steadman and Düring read this as a residence, not a shrine that sometimes cooked.
 
-**Fig. 4.** Section through replastered platforms.  
+**Fig. 8.** Section through replastered platforms.  
 Project archive.  
 Alt: Layer-cake of white plaster floors and packing.  
 Caption: Each skin of plaster is a decision to keep the same furniture in the same place.
 
-**Fig. 5.** Burial under a platform, archive photograph (use a published, ethically cleared image).  
+**Fig. 9.** Burial under a platform, archive photograph (use a published, ethically cleared image).  
 Hodder volumes; avoid sensational unpublished human remains.  
 License: as published.  
 Alt: Excavated platform with a burial cut visible in section, if a non-graphic published image is available; otherwise omit.  
 Caption: The east and north platforms were floors and graves. That is not a metaphor.
 
-**Fig. 6.** Exterior of the experimental house on site.  
+**Fig. 10.** Exterior of the experimental house on site.  
 Wikimedia Commons / project photo.  
 Alt: Mudbrick house cluster with roof openings.  
 Caption: You entered from above. The furniture was waiting on the raised edges of the room.

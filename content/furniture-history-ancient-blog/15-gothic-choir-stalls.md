@@ -88,34 +88,52 @@ Wear on a misericord is a use-wear study anyone can see without a laboratory. Fi
 
 ## Figure plan
 
-**Fig. 1.** Canopied choir stalls, Lincoln or Chester Cathedral.  
+![Chronological anchors for the evidence discussed below.](assets/woodworking-tools-ancient/fig-01-timeline.svg)
+
+*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Regional focus for circulation and local workshop traditions.](assets/woodworking-tools-ancient/fig-02-map.svg)
+
+*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Morphological typology (idealized morphotypes).](assets/woodworking-tools-ancient/fig-03-typology.svg)
+
+*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Comparative elevation and plan plate.](assets/woodworking-tools-ancient/fig-04-plate.svg)
+
+*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+### Supplemental photographs and redraws
+
+**Fig. 5.** Canopied choir stalls, Lincoln or Chester Cathedral.  
 In situ photograph.  
 License: Wikimedia CC, or cathedral.  
 Alt: Row of oak stalls with high canopies and traceried backs.  
 Caption: A chair that has become a wall of prayer.
 
-**Fig. 2.** Misericord, fox preaching or a domestic scene (e.g. Beverley or Ely).  
+**Fig. 6.** Misericord, fox preaching or a domestic scene (e.g. Beverley or Ely).  
 Cathedral; Wikimedia CC.  
 Alt: Carved underside of a choir seat with a narrative scene.  
 Caption: Mercy is a shelf. The rest is the carver’s own inventory.
 
-**Fig. 3.** Amiens or another French set, canopy detail.  
+**Fig. 7.** Amiens or another French set, canopy detail.  
 Wikimedia CC.  
 Alt: Flamboyant wooden canopy over a stall.  
 Caption: Vaults that never had to hold rain.
 
-**Fig. 4.** Toledo cathedral, stall detail.  
+**Fig. 8.** Toledo cathedral, stall detail.  
 Wikimedia CC.  
 Alt: Densely carved late Gothic or early Renaissance stall.  
 Caption: Iberian choirs run late and collect hands.
 
-**Fig. 5.** Domestic Gothic cupboard or chair, V&A.  
+**Fig. 9.** Domestic Gothic cupboard or chair, V&A.  
 Confirm accession.  
 License: V&A.  
 Alt: Small oak cupboard with tracery doors.  
 Caption: The church’s language, in a house that could afford a little of it.
 
-**Fig. 6.** Contract document or masons’/joiners’ mark (if a publishable image exists); otherwise a plan of a choir.  
+**Fig. 10.** Contract document or masons’/joiners’ mark (if a publishable image exists); otherwise a plan of a choir.  
 Redrawn plan of a collegiate choir.  
 Alt: Plan showing stall ranges, returns, and the high altar.  
 Caption: Hierarchy is a seating plan before it is a carving.

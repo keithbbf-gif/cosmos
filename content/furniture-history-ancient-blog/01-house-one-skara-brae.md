@@ -91,34 +91,52 @@ Childe wanted a domestic picture he recognized. Towrie and Richards want a ritua
 
 ## Figure plan
 
-**Fig. 1.** House 1, Skara Brae, looking toward the dresser.  
+![Chronological anchors for the evidence discussed below.](assets/woodworking-tools-ancient/fig-01-timeline.svg)
+
+*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Regional focus for circulation and local workshop traditions.](assets/woodworking-tools-ancient/fig-02-map.svg)
+
+*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Morphological typology (idealized morphotypes).](assets/woodworking-tools-ancient/fig-03-typology.svg)
+
+*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Comparative elevation and plan plate.](assets/woodworking-tools-ancient/fig-04-plate.svg)
+
+*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+### Supplemental photographs and redraws
+
+**Fig. 5.** House 1, Skara Brae, looking toward the dresser.  
 Orkney, late Neolithic occupation c. 2900–2500 BCE. Flagstone fittings in situ.  
 Photo: Historic Environment Scotland / Wikimedia Commons (check current HES license; many site photos are © Crown). Suggested Wikimedia file: *Skara Brae house 1 interior*.  
 Alt: Square stone room with a central hearth, lateral boxes, and a two-shelf dresser on the far wall.  
 Caption: The dresser in House 1 sits opposite the entrance, the one placement that repeats across the late houses.
 
-**Fig. 2.** Plan of House 1.  
+**Fig. 6.** Plan of House 1.  
 After Historic Environment Scotland / Childe.  
 License: redrawn for this series from published plans (fair-use scholarly redraw; or HES published plan if permission obtained).  
 Alt: Floor plan showing door, hearth, two boxes, dresser, and wall cells.  
 Caption: Forty square meters, one room, furniture that is the architecture.
 
-**Fig. 3.** House 7 or House 5 dresser, three-shelf type.  
+**Fig. 7.** House 7 or House 5 dresser, three-shelf type.  
 Wikimedia Commons, photograph of Skara Brae interiors (PD or CC as marked on file).  
 Alt: Stone dresser of uprights and shelves against a dry-stone wall.  
 Caption: Wickham-Jones describes the common dresser as three shelves in two bays.
 
-**Fig. 4.** House 8, the so-called workshop.  
+**Fig. 8.** House 8, the so-called workshop.  
 Ness of Brodgar Project / Wikimedia.  
 Alt: Isolated stone structure with a hearth and no dresser.  
 Caption: No boxes, no dresser, a hearth: the exception that keeps the village from looking like a single kit.
 
-**Fig. 5.** Replica Neolithic house, Skara Brae visitor center.  
+**Fig. 9.** Replica Neolithic house, Skara Brae visitor center.  
 HES visitor photography, rights reserved unless a CC file is used.  
 Alt: Reconstructed interior with skins in stone boxes and pots on shelves.  
 Caption: The replica decides what the boxes were. The ruin does not.
 
-**Fig. 6.** Bay of Skaill and the sea wall, looking toward the village.  
+**Fig. 10.** Bay of Skaill and the sea wall, looking toward the village.  
 Wikimedia Commons, CC or PD as marked.  
 Alt: Grassy coastal mound and stone houses behind a modern sea defense.  
 Caption: The furniture survives because the Atlantic has been held back. That is a modern fact about an ancient room.

@@ -97,35 +97,53 @@ The Fitzwilliam’s Hope armchair (M.4-1992) remains the heavy end a visitor can
 
 ## Figure plan
 
-**Fig. 1.** Meidias hydria.  
+![Chronological anchors for the evidence discussed below.](assets/greek-vocabulary-furniture/fig-01-timeline.svg)
+
+*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Regional focus for circulation and local workshop traditions.](assets/greek-vocabulary-furniture/fig-02-map.svg)
+
+*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Morphological typology (idealized morphotypes).](assets/greek-vocabulary-furniture/fig-03-typology.svg)
+
+*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Comparative elevation and plan plate.](assets/greek-vocabulary-furniture/fig-04-plate.svg)
+
+*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+### Supplemental photographs and redraws
+
+**Fig. 5.** Meidias hydria.  
 British Museum 1772,0320.30 (E224), Attic, ca. 420–410 BCE; Hamilton, 1772.  
 License: BM CC BY-NC-SA.  
 Alt: Athenian red-figure water jar with gilded details.  
 Caption: Reynolds sat it at Hamilton’s feet. Cabinetmakers sat it on a backrest.
 
-**Fig. 2.** V&A painted klismos, c. 1810, W.21:1, 2-1958.  
+**Fig. 6.** V&A painted klismos, c. 1810, W.21:1, 2-1958.  
 License: V&A.  
 Alt: Black and terracotta chair with a Hesperides frieze on the back.  
 Caption: A vase, translated into a backrest.
 
-**Fig. 3.** Latrobe / Aitken side chair.  
+**Fig. 7.** Latrobe / Aitken side chair.  
 Met 1994.189, Philadelphia, c. 1808.  
 License: Met CC0.  
 Alt: Red-and-black painted klismos with a Greek key.  
 Caption: Waln’s drawing room; an architect’s antique in American woods.
 
-**Fig. 4.** Plate from Hope, *Household Furniture*, 1807, PD.  
+**Fig. 8.** Plate from Hope, *Household Furniture*, 1807, PD.  
 Met Watson Library or a PD scan.  
 Alt: Engraved archaeological chair.  
 Caption: Correctness as a sermon.
 
-**Fig. 5.** French Empire fauteuil, Jacob-Desmalter or circle.  
+**Fig. 9.** French Empire fauteuil, Jacob-Desmalter or circle.  
 Met or Louvre.  
 License: as marked.  
 Alt: Gilded armchair with rolled back and animal or sphinx arms.  
 Caption: Rome after David, Egypt after Denon.
 
-**Fig. 6.** Robsjohn-Gibbings klismos, Met 2001.207, c. 1937.  
+**Fig. 10.** Robsjohn-Gibbings klismos, Met 2001.207, c. 1937.  
 License: Met, modern work — rights may be reserved.  
 Alt: Birch and vellum chair with saber legs, no paint.  
 Caption: The fifth century, tried again, without the terracotta.

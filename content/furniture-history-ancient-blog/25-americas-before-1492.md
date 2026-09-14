@@ -94,37 +94,55 @@ What this continent refuses is a single chair. Bonampak’s ledge, a Nayarit por
 
 ## Figure plan
 
-**Fig. 1.** Bonampak, Structure 1, Room 1, bench and paintings.  
+![Chronological anchors for the evidence discussed below.](assets/reconstruction-methods-museums/fig-01-timeline.svg)
+
+*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Regional focus for circulation and local workshop traditions.](assets/reconstruction-methods-museums/fig-02-map.svg)
+
+*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Morphological typology (idealized morphotypes).](assets/reconstruction-methods-museums/fig-03-typology.svg)
+
+*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Comparative elevation and plan plate.](assets/reconstruction-methods-museums/fig-04-plate.svg)
+
+*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+### Supplemental photographs and redraws
+
+**Fig. 5.** Bonampak, Structure 1, Room 1, bench and paintings.  
 Reconstruction or a published photograph (Miller/Brittenham).  
 License: as published; INAH for site photos.  
 Alt: Maya room with a masonry bench under mural figures.  
 Caption: The seat is the architecture. The paintings need it.
 
-**Fig. 2.** Nayarit house model.  
+**Fig. 6.** Nayarit house model.  
 Met 1979.206.359, ceramic and slip, 200 BCE–300 CE.  
 License: Met, check OA for Rockefeller works.  
 Alt: Ceramic model of a thatched two-storey house with people seated at a feast.  
 Caption: Sitters on the architecture. No separate chair to inventory.
 
-**Fig. 3.** Taíno duho.  
+**Fig. 7.** Taíno duho.  
 British Museum Am1949,22.118, guayacán and gold, Hispaniola.  
 License: BM CC BY-NC-SA.  
 Alt: Low wooden seat carved as a crouching male figure with gold inlay.  
 Caption: Ostapkowicz’s number. Older labels said “idol.”
 
-**Fig. 4.** Ceremonial metate, Guanacaste-Nicoya.  
+**Fig. 8.** Ceremonial metate, Guanacaste-Nicoya.  
 Met 1979.206.429, volcanic stone, 4th–8th century.  
 License: Met, check OA.  
 Alt: Tripod stone grinding table with a bird-head terminal.  
 Caption: Work-furniture first. A throne only if the caption says “suggested.”
 
-**Fig. 5.** Tlingit storage chest.  
+**Fig. 9.** Tlingit storage chest.  
 Met 1979.206.421a, b, wood and paint, Alaska, ca. 1880.  
 License: Met, check OA.  
 Alt: Painted wooden chest with a fitted lid.  
 Caption: Late for 1492; the kerfed corner is older than this example.
 
-**Fig. 6.** Codex image of a lord on an *icpalli*.  
+**Fig. 10.** Codex image of a lord on an *icpalli*.  
 PD facsimile.  
 Alt: Manuscript painting of a seated ruler on a reed or framed seat.  
 Caption: Central Mexico’s backed seat, as a painter knew it.

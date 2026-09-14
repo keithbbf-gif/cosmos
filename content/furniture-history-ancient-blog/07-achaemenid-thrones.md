@@ -99,30 +99,48 @@ Lycian stone klinai and later Macedonian couches quote satrapal and Ionian woodw
 
 ## Figure plan
 
-**Fig. 1.** Apadana, Persepolis, audience or tribute relief with the king seated (or the Treasury relief if that is the surviving king-on-throne).  
+![Chronological anchors for the evidence discussed below.](assets/persian-throne-protocol/fig-01-timeline.svg)
+
+*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Regional focus for circulation and local workshop traditions.](assets/persian-throne-protocol/fig-02-map.svg)
+
+*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Morphological typology (idealized morphotypes).](assets/persian-throne-protocol/fig-03-typology.svg)
+
+*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Comparative elevation and plan plate.](assets/persian-throne-protocol/fig-04-plate.svg)
+
+*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+### Supplemental photographs and redraws
+
+**Fig. 5.** Apadana, Persepolis, audience or tribute relief with the king seated (or the Treasury relief if that is the surviving king-on-throne).  
 Iran, in situ / Iran National Museum / Oriental Institute photographs.  
 License: OI photographs per their terms; Wikimedia PD/CC site photos.  
 Alt: Stone relief of a king on a high-backed throne with a footstool.  
 Caption: The wood is gone. The silhouette is the throne we have.
 
-**Fig. 2.** Detail of throne legs and footstool, Persepolis.  
+**Fig. 6.** Detail of throne legs and footstool, Persepolis.  
 Same sources.  
 Alt: Close view of turned or animal legs and a matching stool.  
 Caption: Two pieces, one seat. The feet do not hang.
 
-**Fig. 3.** Parasol-bearer, Apadana or Tripylon.  
+**Fig. 7.** Parasol-bearer, Apadana or Tripylon.  
 In situ photograph.  
 License: Wikimedia CC.  
 Alt: Attendant holding a parasol over the royal couple or king.  
 Caption: A job title in furniture form.
 
-**Fig. 4.** Nereid Monument, kline fragment or banquet scene.  
+**Fig. 8.** Nereid Monument, kline fragment or banquet scene.  
 British Museum.  
 License: BM CC BY-NC-SA.  
 Alt: Stone couch from a Lycian tomb monument.  
 Caption: On the empire’s western edge, the couch is already a tomb type.
 
-**Fig. 5.** Glazed-brick archer or tribute-bearer, Susa.  
+**Fig. 9.** Glazed-brick archer or tribute-bearer, Susa.  
 Louvre, Sb series.  
 License: Louvre / Wikimedia PD.  
 Alt: Colored brick figure in profile.  

@@ -102,36 +102,54 @@ Construction was mixed-media: ivory on a wooden chassis, moldings that once alte
 
 ## Figure plan
 
-**Fig. 1.** Panel with a tree pattern, from SW7.  
+![Chronological anchors for the evidence discussed below.](assets/assyrian-relief-seating/fig-01-timeline.svg)
+
+*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Regional focus for circulation and local workshop traditions.](assets/assyrian-relief-seating/fig-02-map.svg)
+
+*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Morphological typology (idealized morphotypes).](assets/assyrian-relief-seating/fig-03-typology.svg)
+
+*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Comparative elevation and plan plate.](assets/assyrian-relief-seating/fig-04-plate.svg)
+
+*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+### Supplemental photographs and redraws
+
+**Fig. 5.** Panel with a tree pattern, from SW7.  
 Met 59.107.1, Neo-Assyrian context, North Syrian style, modern wood frame.  
 License: Met Open Access, CC0.  
 Alt: Rectangular ivory furniture back with vertical plant motifs and star borders.  
 Caption: The only SW7 piece without figures, and one of the few ancient chair backs that still reads as a back.
 
-**Fig. 2.** Figural SW7 plaque (woman with blossoms or chariot, Met example).  
+**Fig. 6.** Figural SW7 plaque (woman with blossoms or chariot, Met example).  
 Met collection, Nimrud SW7 group — use 59.107 series or 61.197 as catalogued.  
 License: CC0.  
 Alt: Ivory plaque with a North Syrian-style figure.  
 Caption: Winter’s faces: large eye, small chin, a garment longer at the back.
 
-**Fig. 3.** Fort Shalmaneser, plan with SW7 marked.  
+**Fig. 7.** Fort Shalmaneser, plan with SW7 marked.  
 After Mallowan 1966.  
 License: redrawn.  
 Alt: Plan of the fort with storeroom SW7 highlighted.  
 Caption: Not a dining room. A reserve of seating in an arsenal.
 
-**Fig. 4.** Phoenician-style ivory (sphinx or Egyptianizing figure), British Museum.  
+**Fig. 8.** Phoenician-style ivory (sphinx or Egyptianizing figure), British Museum.  
 BM Nimrud ivory, e.g. BM 118102 or current display ID — confirm on Collection Online.  
 License: BM CC BY-NC-SA 4.0.  
 Alt: Openwork ivory sphinx with an Egyptian crown.  
 Caption: Same city, different carvers. Barnett’s Phoenician group.
 
-**Fig. 5.** Layard’s 1849 plate of Nimrud ivories.  
+**Fig. 9.** Layard’s 1849 plate of Nimrud ivories.  
 *Nineveh and Its Remains*, public domain.  
 Alt: Nineteenth-century engraving of ivory fragments.  
 Caption: Famous before they could be mended.
 
-**Fig. 6.** Samaria ivory plaque.  
+**Fig. 10.** Samaria ivory plaque.  
 Israel Antiquities / Rockefeller / PEF publication plate.  
 License: as published; PD plates from 1938 Crowfoot.  
 Alt: Small ivory plaque from Samaria.  

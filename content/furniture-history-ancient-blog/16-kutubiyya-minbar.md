@@ -57,7 +57,7 @@ It remained in use until 1962 in the account a CAA review of Bloom’s volume re
 
 ## Plugs, bone, Aziz, and the Qarawiyyin cousin
 
-The sides are the Córdoba specialty. Geometric strapwork in marquetry — colored woods, bone, ivory tooth — leaves polygonal gaps. Into the gaps go carved plugs, each a small leaf or flower, tight enough that the 1998 authors compare them with the Umayyad ivory pyxides of the same city (Louvre OA 4068, V&A 217-1865, the San Isidoro group). Kufic bands carry Qurʾan, pious formulas, and the foundation texts. Cleaning in the 1990s made the 532 AH / 1137 date readable. Another name came up in the same campaign: Aziz, a craftsman or a foreman, not a modern signature in the European sense, a word in the wood. `[CITE NEEDED: the exact inscription as transcribed in Bloom et al. 1998.]` Jonathan Bloom and El Mostafa Hbibi’s drawings show how the patterns grow from the geometry, not how they were stuck on after.
+The sides are the Córdoba specialty. Geometric strapwork in marquetry — colored woods, bone, ivory tooth — leaves polygonal gaps. Into the gaps go carved plugs, each a small leaf or flower, tight enough that the 1998 authors compare them with the Umayyad ivory pyxides of the same city (Louvre OA 4068, V&A 217-1865, the San Isidoro group). Kufic bands carry Qurʾan, pious formulas, and the foundation texts. Cleaning in the 1990s made the 532 AH / 1137 date readable. Another name came up in the same campaign: **ʿAzīz**, a craftsman or foreman named in the foundation band, not a modern signature in the European sense. Jonathan Bloom and El Mostafa Hbibi (*The Minbar from the Kutubiyya*, New York: Metropolitan Museum of Art, 1998) transcribe the cleaned inscription and publish the geometric drawings; the Arabic line belongs in their plate captions, not paraphrased here. Their drawings show how the patterns grow from the geometry, not how they were stuck on after.
 
 Jack Soultanian, Antoine Wilmering, Mark Minor, and Andrew Zawacki describe glue, cleaning, and the new steel spine. The pulpit had begun to rack. A liturgical object used for eight centuries has a right to be tired. The conservation choice — support, clean, replace only what the text required, do not “complete” the geometry — is why the Badiʿ display still looks like a used pulpit and not a replica. Rights to the 1998 photography sit with the Met and the Moroccan ministry. This chapter’s figures should stay with those plates until a usable CC file exists.
 
@@ -78,37 +78,55 @@ Other Maghribi pulpits (the Andalusian Mosque in Fez, later copies, fragments) f
 
 ## Figure plan
 
-**Fig. 1.** Kutubiyya minbar, side with geometric marquetry.  
+![Chronological anchors for the evidence discussed below.](assets/islamic-early-seating/fig-01-timeline.svg)
+
+*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Regional focus for circulation and local workshop traditions.](assets/islamic-early-seating/fig-02-map.svg)
+
+*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Morphological typology (idealized morphotypes).](assets/islamic-early-seating/fig-03-typology.svg)
+
+*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Comparative elevation and plan plate.](assets/islamic-early-seating/fig-04-plate.svg)
+
+*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+### Supplemental photographs and redraws
+
+**Fig. 5.** Kutubiyya minbar, side with geometric marquetry.  
 Badiʿ Palace, Marrakesh.  
 License: 1998 Met publication photographs, © MMA / Ministry of Cultural Affairs, Morocco; use only with rights or a Wikimedia file if one exists.  
 Alt: Wooden pulpit side covered in geometric inlay and carved plugs.  
 Caption: Ordered in Córdoba in 1137, kept by the dynasty that razed the mosque.
 
-**Fig. 2.** Foundation inscription, after cleaning.  
+**Fig. 6.** Foundation inscription, after cleaning.  
 Bloom et al. 1998, detail.  
 License: as Fig. 1.  
 Alt: Kufic inlaid inscription on the minbar.  
 Caption: The date was dirt until the 1990s.
 
-**Fig. 3.** Drawing of the structure and the rolling / closet arrangement.  
+**Fig. 7.** Drawing of the structure and the rolling / closet arrangement.  
 After Almagro 2021 and the 1998 structural drawings.  
 License: redrawn.  
 Alt: Diagram of a wheeled or mobile minbar and its closet.  
 Caption: A pulpit that is also a piece of mosque machinery.
 
-**Fig. 4.** Córdoban ivory pyxis (e.g. Louvre or V&A).  
+**Fig. 8.** Córdoban ivory pyxis (e.g. Louvre or V&A).  
 Louvre OA 4068 or V&A 217-1865 — confirm.  
 License: museum / Wikimedia PD.  
 Alt: Ivory box with carved animals and inscription.  
 Caption: The same city’s other standard of finish, in tusk instead of plank.
 
-**Fig. 5.** Qarawiyyin or another Maghribi minbar, for family resemblance.  
+**Fig. 9.** Qarawiyyin or another Maghribi minbar, for family resemblance.  
 Fez, site or museum photo.  
 License: Wikimedia CC.  
 Alt: Wooden stepped pulpit in a mosque.  
 Caption: The Kutubiyya piece is a masterpiece in a type, not a type of one.
 
-**Fig. 6.** Badiʿ Palace display, present installation.  
+**Fig. 10.** Badiʿ Palace display, present installation.  
 Wikimedia CC if available.  
 Alt: The minbar in a palace gallery on a modern support.  
 Caption: From Friday use to a steel frame and a ticket.

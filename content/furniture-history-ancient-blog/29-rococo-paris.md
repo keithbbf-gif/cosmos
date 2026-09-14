@@ -93,30 +93,48 @@ Provincial stamps — Lyon, Toulouse, a German court joiner quoting a Meissonnie
 
 ## Figure plan
 
-**Fig. 1.** Fauteuil en cabriolet, stamped Paris *menuisier*, c. 1750.  
+![Chronological anchors for the evidence discussed below.](assets/upholstery-bolsters-ancient/fig-01-timeline.svg)
+
+*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Regional focus for circulation and local workshop traditions.](assets/upholstery-bolsters-ancient/fig-02-map.svg)
+
+*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Morphological typology (idealized morphotypes).](assets/upholstery-bolsters-ancient/fig-03-typology.svg)
+
+*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Comparative elevation and plan plate.](assets/upholstery-bolsters-ancient/fig-04-plate.svg)
+
+*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+### Supplemental photographs and redraws
+
+**Fig. 5.** Fauteuil en cabriolet, stamped Paris *menuisier*, c. 1750.  
 Met or Louvre — confirm stamp and accession.  
 License: CC0 if Met.  
 Alt: Gilded armchair with a curved back and floral silk (or show-cover).  
 Caption: A conversation chair. The silk is half the object.
 
-**Fig. 2.** Commode, Charles Cressent.  
+**Fig. 6.** Commode, Charles Cressent.  
 Met 1982.60.56, Paris, ca. 1745–49; crowned-C mounts.  
 License: Met, check OA.  
 Alt: Bombé commode with parquetry and gilt-bronze boys swinging a monkey.  
 Caption: The tax mark dates the bronze. The sculptor-ébéniste cast it himself.
 
-**Fig. 3.** Meissonnier ornament print, PD.  
+**Fig. 7.** Meissonnier ornament print, PD.  
 Met or BnF.  
 License: PD.  
 Alt: Asymmetrical engraved cartouche and furniture sketch.  
 Caption: The curve travels as paper.
 
-**Fig. 4.** Amalienburg interior, Munich, or a Paris hôtel *boiserie*.  
+**Fig. 8.** Amalienburg interior, Munich, or a Paris hôtel *boiserie*.  
 Wikimedia CC.  
 Alt: Silver-and-blue carved room with low furniture.  
 Caption: German Rococo takes the furniture’s curve onto the wall.
 
-**Fig. 5.** Table à ouvrage or voyeuse.  
+**Fig. 9.** Table à ouvrage or voyeuse.  
 Met — confirm.  
 License: CC0 if Met.  
 Alt: Small work table or a spectator’s chair.  

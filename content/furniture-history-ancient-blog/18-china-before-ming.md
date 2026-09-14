@@ -33,6 +33,14 @@ The Marquis Yi of Zeng, buried about 433 BCE at Leigudun, Suizhou, left a tomb w
 
 Handler’s type chapters are still useful here if they are read against the grain. She sorts *an* and *ji*, the screened couch, the later *kang* table. The Han versions are shorter and more perishable. What survives is the sealed grave and the waterlogged pit. What does not survive is the bamboo and cane majority — everyday, regional, hard to date. They always were. The hardwood chapter will be a chapter about a minority of objects that survived because collectors wanted them.
 
+## Heated platforms before the mature kang
+
+The brick **kang** of North China — sleeping platform linked to a stove flue — is a late mature form. The Han–Song window in this chapter tracks **antecedents**: pounded-clay sleeping surfaces, stove-linked warm benches, and architecture that already ducted heat through walls. Calling every warm platform a “kang” would collapse two millennia of experiment; the distinction matters for any furniture history that treats the floor as furniture.
+
+Neolithic and early sites in the northeast record **direct-fired clay beds** (open fire on a pounded surface, ashes cleared before sleep). Han dynasty ruins summarized in Chinese archaeological press describe **kitchen ranges with discharge flues** beside bathing spaces — heat and smoke routed on purpose, architectural cousins to Roman hypocaust logic and Korean *jjokgudeul*, not identical copies. Western Han evidence tightened when excavators published a kang-like platform from **Dongheishan**, Xushui County, Hebei — a multi-period mound with an early Western Han heated surface that pushed documented flue-platform history earlier than some textbook timelines.
+
+Typology here contrasts **open-fired clay bed**, **single-flue bench/platform**, and **mat-on-floor summer habit** — behaviors as much as objects. Han lacquer platform beds in tombs belong to a parallel track: portable prestige furniture versus immovable heat architecture. Museum dioramas that show a family on a mature Qing-era kang should not be read backward into the Han without citing the excavation that proves flues under the sleeping surface.
+
 ## The folding stool and the coming of the chair
 
 The folding stool (*huchuang*, “barbarian bed/seat”) is associated in the texts with northern and western usage and with military camps. It is the old Egyptian–West Asian traveler’s seat arriving, again, with people who ride. Eastern Han and Wei-Jin notices treat it as a foreign convenience that officials also wanted. By the Tang it is at home. High chairs with backs appear in Tang and Song paintings of officials and scholars. The Song academy’s pictures of domestic interiors — a chair here, a low table there — show a mixed room, not a sudden conversion.
@@ -83,36 +91,54 @@ The Yemaotai chair does not close the gap the draft of this chapter marked: a sp
 
 ## Figure plan
 
-**Fig. 1.** Low lacquer table, Han, Mawangdui Tomb 1.  
+![Chronological anchors for the evidence discussed below.](assets/chinese-kang-platform-beds/fig-01-timeline.svg)
+
+*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Regional focus for circulation and local workshop traditions.](assets/chinese-kang-platform-beds/fig-02-map.svg)
+
+*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Morphological typology (idealized morphotypes).](assets/chinese-kang-platform-beds/fig-03-typology.svg)
+
+*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Comparative elevation and plan plate.](assets/chinese-kang-platform-beds/fig-04-plate.svg)
+
+*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+### Supplemental photographs and redraws
+
+**Fig. 5.** Low lacquer table, Han, Mawangdui Tomb 1.  
 Hunan Provincial Museum; inscribed 轪侯家; c. 60.2 × 40 × 5 cm.  
 License: museum; published excavation plates.  
 Alt: Low rectangular lacquered table with a raised lip.  
 Caption: A dining and offering height for people who sit on mats. The dishes were still on it.
 
-**Fig. 2.** Mawangdui painted silk or a tomb inventory photograph of screens.  
+**Fig. 6.** Mawangdui painted silk or a tomb inventory photograph of screens.  
 Hunan Provincial Museum.  
 License: as published.  
 Alt: Lacquer screen or a painted scene of a screened couch.  
 Caption: A room made with a screen, not with a suite.
 
-**Fig. 3.** Tang mural of figures on a couch or in chairs (e.g. a tomb at Xi’an).  
+**Fig. 7.** Tang mural of figures on a couch or in chairs (e.g. a tomb at Xi’an).  
 Wikimedia / museum.  
 Alt: Wall painting of seated figures at mixed heights.  
 Caption: The mixed room: mats, couch, the first high seats.
 
-**Fig. 4.** Wooden chair and table, Yemaotai Tomb 7, Liao, excavated 1974.  
+**Fig. 8.** Wooden chair and table, Yemaotai Tomb 7, Liao, excavated 1974.  
 Liaoning Provincial Museum, Shenyang.  
 License: museum.  
 Alt: Simple wooden chair with a rope seat beside a low table.  
 Caption: A pre-Ming wooden chair that is not a painting. A backgammon set sat on it.
 
-**Fig. 5.** *Night Revels of Han Xizai*, detail with chairs and a screened couch.  
+**Fig. 9.** *Night Revels of Han Xizai*, detail with chairs and a screened couch.  
 Palace Museum, Beijing, Song copy.  
 License: museum.  
 Alt: Painted banquet with sitters on chairs behind a screen.  
 Caption: Paintings lead; the Song chair in wood is still a rarity in the ground.
 
-**Fig. 6.** Han lacquer boxes, Met 1994.10.1a, b–.7a, b, or a Freer cup.  
+**Fig. 10.** Han lacquer boxes, Met 1994.10.1a, b–.7a, b, or a Freer cup.  
 Met CC0 or Smithsonian as marked.  
 Alt: Nested black lacquer boxes with silver foil.  
 Caption: The same shop chemistry that coated the tables.

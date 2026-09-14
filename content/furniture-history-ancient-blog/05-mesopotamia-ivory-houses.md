@@ -103,37 +103,55 @@ Cedar boasts in royal inscriptions are not metaphors. Logs floated. A temple bea
 
 ## Figure plan
 
-**Fig. 1.** Gudea seated, Neo-Sumerian.  
+![Chronological anchors for the evidence discussed below.](assets/levantine-ivory-inlays/fig-01-timeline.svg)
+
+*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Regional focus for circulation and local workshop traditions.](assets/levantine-ivory-inlays/fig-02-map.svg)
+
+*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Morphological typology (idealized morphotypes).](assets/levantine-ivory-inlays/fig-03-typology.svg)
+
+*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Comparative elevation and plan plate.](assets/levantine-ivory-inlays/fig-04-plate.svg)
+
+*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+### Supplemental photographs and redraws
+
+**Fig. 5.** Gudea seated, Neo-Sumerian.  
 Louvre, AO 20112 or AO 2 (confirm seated Gudea inventory before layout).  
 License: Louvre / Wikimedia PD photographs of the sculpture.  
 Alt: Diorite statue of a ruler seated on a cubic stool.  
 Caption: A stone throne that may be remembering a wooden one. The carpenter is not named.
 
-**Fig. 2.** Standard of Ur, “peace” side, banquet.  
+**Fig. 6.** Standard of Ur, “peace” side, banquet.  
 British Museum, ME 121201.  
 License: BM image license (usually CC BY-NC-SA 4.0).  
 Alt: Inlaid box panel with seated drinkers.  
 Caption: Not furniture, but the earliest famous picture of people sitting to drink in this river system.
 
-**Fig. 3.** Megiddo ivory plaque with architectural or furniture format.  
+**Fig. 7.** Megiddo ivory plaque with architectural or furniture format.  
 Oriental Institute, Chicago — Megiddo ivory (e.g. OIM A22251 or catalog equivalent; confirm).  
 License: OIM terms.  
 Alt: Carved ivory plaque with figures in registers.  
 Caption: Loud’s 1939 plates are still how most readers meet Levantine furniture ivory before Nimrud.
 
-**Fig. 4.** Puabi’s sledge or lyre (Ur).  
+**Fig. 8.** Puabi’s sledge or lyre (Ur).  
 British Museum / Penn Museum, Royal Cemetery.  
 License: BM or Penn Open Access as applicable.  
 Alt: Reconstructed lyre with inlaid soundbox, or sledge fittings.  
 Caption: Wooden cores, precious skins: the same thought as a lost chair.
 
-**Fig. 5.** Assyrian garden scene of Ashurbanipal reclining (preview of later posture).  
+**Fig. 9.** Assyrian garden scene of Ashurbanipal reclining (preview of later posture).  
 British Museum, ME 124920.  
 License: BM CC BY-NC-SA.  
 Alt: Relief of a king on a couch under a vine.  
 Caption: The couch as royal furniture is a first-millennium image. Do not read it back into Ur.
 
-**Fig. 6.** Map of ivory and cedar routes (Levant, Africa, Gulf).  
+**Fig. 10.** Map of ivory and cedar routes (Levant, Africa, Gulf).  
 Redrawn for this series.  
 Alt: Map with arrows from Lebanon, Syria, and Africa into southern Mesopotamia.  
 Caption: The furniture was local work on foreign skin.

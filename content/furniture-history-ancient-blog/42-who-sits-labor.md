@@ -99,30 +99,48 @@ Property law is the last social fact. A cassone in a dowry, a parish chest with 
 
 ## Figure plan
 
-**Fig. 1.** Tutankhamun footrest JE 62046, nine bows.  
+![Chronological anchors for the evidence discussed below.](assets/furniture-in-tomb-inventory/fig-01-timeline.svg)
+
+*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Regional focus for circulation and local workshop traditions.](assets/furniture-in-tomb-inventory/fig-02-map.svg)
+
+*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Morphological typology (idealized morphotypes).](assets/furniture-in-tomb-inventory/fig-03-typology.svg)
+
+*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Comparative elevation and plan plate.](assets/furniture-in-tomb-inventory/fig-04-plate.svg)
+
+*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+### Supplemental photographs and redraws
+
+**Fig. 5.** Tutankhamun footrest JE 62046, nine bows.  
 GEM / Cairo.  
 License: museum.  
 Alt: Footrest carved with bound figures.  
 Caption: Sitting as a map of other people’s backs.
 
-**Fig. 2.** Grave stele of Hegeso.  
+**Fig. 6.** Grave stele of Hegeso.  
 Athens NAM 3624.  
 License: Wikimedia PD.  
 Alt: Woman in a klismos, servant with a box.  
 Caption: A chair, a servant, a domestic forever.
 
-**Fig. 3.** Workshop relief, Old Kingdom, or a 19th-c. factory photograph of caners.  
+**Fig. 7.** Workshop relief, Old Kingdom, or a 19th-c. factory photograph of caners.  
 PD.  
 Alt: People making furniture, not sitting on it.  
 Caption: The missing names are usually here.
 
-**Fig. 4.** Palanquin or carrying chair (Hetepheres poles, or a South Asian palanquin).  
+**Fig. 8.** Palanquin or carrying chair (Hetepheres poles, or a South Asian palanquin).  
 MFA / Met.  
 License: as marked.  
 Alt: A seat with long poles.  
 Caption: The joint that needs four more people.
 
-**Fig. 5.** Café or office, a historic photograph of many identical chairs.  
+**Fig. 9.** Café or office, a historic photograph of many identical chairs.  
 PD.  
 Alt: Rows of Thonet or, later, office chairs.  
 Caption: Equality as a repeated seat — until the corner office orders a different one.

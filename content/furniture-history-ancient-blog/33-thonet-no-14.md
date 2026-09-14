@@ -91,32 +91,50 @@ No. 18, the other café workhorse, uses a similar logic with a different back. S
 
 ## Figure plan
 
-**Fig. 1.** Thonet No. 14, MAK H 2762.  
+![Chronological anchors for the evidence discussed below.](assets/joinery-before-nails/fig-01-timeline.svg)
+
+*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Regional focus for circulation and local workshop traditions.](assets/joinery-before-nails/fig-02-map.svg)
+
+*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Morphological typology (idealized morphotypes).](assets/joinery-before-nails/fig-03-typology.svg)
+
+*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Comparative elevation and plan plate.](assets/joinery-before-nails/fig-04-plate.svg)
+
+*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+### Supplemental photographs and redraws
+
+**Fig. 5.** Thonet No. 14, MAK H 2762.  
 License: MAK — confirm PD vs CC BY-NC-ND for the specific file.  
 Alt: Brown bent-beech café chair with a cane seat.  
 Caption: Designed 1859; this one about 1863. Inventory H 2762.
 
-**Fig. 2.** Factory catalog plate of No. 14, late 19th century, PD.  
+**Fig. 6.** Factory catalog plate of No. 14, late 19th century, PD.  
 MAK or a library copy.  
 Alt: Lithographed chair with a model number.  
 Caption: The chair as a number in a book of numbers.
 
-**Fig. 3.** Bentwood in steam: a historic factory photograph, Moravia.  
+**Fig. 7.** Bentwood in steam: a historic factory photograph, Moravia.  
 PD if pre-1929 publication.  
 Alt: Workers at bending jigs.  
 Caption: Beech, steam, a jig. The design is a process.
 
-**Fig. 4.** Café interior with No. 14 chairs (a PD photograph of a Viennese café).  
+**Fig. 8.** Café interior with No. 14 chairs (a PD photograph of a Viennese café).  
 Alt: Coffeehouse with bentwood chairs and newspapers.  
 Caption: Public sitting, same chair, different strangers.
 
-**Fig. 5.** Hoffmann for J. & J. Kohn, Purkersdorf chair or Sitting Machine.  
+**Fig. 9.** Hoffmann for J. & J. Kohn, Purkersdorf chair or Sitting Machine.  
 MAK.  
 License: MAK.  
 Alt: Geometric bentwood armchair.  
 Caption: The competitor’s architect.
 
-**Fig. 6.** Knocked-down No. 14, parts laid out (a museum or catalog image).  
+**Fig. 10.** Knocked-down No. 14, parts laid out (a museum or catalog image).  
 License: as marked.  
 Alt: A few bent pieces and screws beside an assembled chair.  
 Caption: It travels as a bundle. It lives as a café.

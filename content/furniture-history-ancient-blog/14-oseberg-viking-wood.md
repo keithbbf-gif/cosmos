@@ -85,36 +85,54 @@ Who the two women were is still not a name. The old identification with Queen Å
 
 ## Figure plan
 
-**Fig. 1.** Oseberg ship, present museum display.  
+![Chronological anchors for the evidence discussed below.](assets/oak-and-cedar-supply-chains/fig-01-timeline.svg)
+
+*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Regional focus for circulation and local workshop traditions.](assets/oak-and-cedar-supply-chains/fig-02-map.svg)
+
+*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Morphological typology (idealized morphotypes).](assets/oak-and-cedar-supply-chains/fig-03-typology.svg)
+
+*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Comparative elevation and plan plate.](assets/oak-and-cedar-supply-chains/fig-04-plate.svg)
+
+*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+### Supplemental photographs and redraws
+
+**Fig. 5.** Oseberg ship, present museum display.  
 Museum of the Viking Age, Oslo.  
 License: museum; some press photos credited Alexis Pantos / Museum.  
 Alt: Oak Viking ship in a hall, carved prow.  
 Caption: Built about 820, buried in 834, ninety percent original wood.
 
-**Fig. 2.** A bed from the burial, reconstructed.  
+**Fig. 6.** A bed from the burial, reconstructed.  
 Same museum.  
 License: museum.  
 Alt: Wooden bed-frame associated with the burial chamber.  
 Caption: The dead were laid in a bed with down. The frame packs.
 
-**Fig. 3.** Oseberg wagon.  
+**Fig. 7.** Oseberg wagon.  
 Museum of the Viking Age.  
 License: museum / Wikimedia where uploaded.  
 Alt: Elaborately carved four-wheeled wagon.  
 Caption: A vehicle that is also a display case for oak.
 
-**Fig. 4.** Carved sledge.  
+**Fig. 8.** Carved sledge.  
 Same.  
 Alt: Wooden sledge with interlace and animal carving.  
 Caption: Three ornate sledges and a work sledge: the grave distinguishes them.
 
-**Fig. 5.** Animal-head post.  
+**Fig. 9.** Animal-head post.  
 Historical Museum, Oslo (serpent head in *Miðgarðr* exhibition) or Viking Age Museum.  
 License: museum.  
 Alt: Carved oak post ending in a gripping-beast head.  
 Caption: Not a chair. The workshop’s other register.
 
-**Fig. 6.** Yew bucket with gilded bronze fittings.  
+**Fig. 10.** Yew bucket with gilded bronze fittings.  
 Museum of the Viking Age.  
 License: museum.  
 Alt: Small stave-built bucket with metal rim and fittings.  

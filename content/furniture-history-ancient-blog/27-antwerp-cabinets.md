@@ -104,41 +104,59 @@ Ebony’s afterlife is a forest history. Indian Ocean and African *Diospyros*, l
 
 ## Figure plan
 
-**Fig. 1.** Antwerp cabinet, V&A W.61-1923.  
+![Chronological anchors for the evidence discussed below.](assets/pigment-and-gilding-furniture/fig-01-timeline.svg)
+
+*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Regional focus for circulation and local workshop traditions.](assets/pigment-and-gilding-furniture/fig-02-map.svg)
+
+*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Morphological typology (idealized morphotypes).](assets/pigment-and-gilding-furniture/fig-03-typology.svg)
+
+*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Comparative elevation and plan plate.](assets/pigment-and-gilding-furniture/fig-04-plate.svg)
+
+*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+### Supplemental photographs and redraws
+
+**Fig. 5.** Antwerp cabinet, V&A W.61-1923.  
 License: V&A.  
 Alt: Ebony cabinet with painted panels on a stand.  
 Caption: The stand may be later. The painted Prodigal is the facade’s argument.
 
-**Fig. 2.** Interior of an Antwerp or Augsburg cabinet, drawers open.  
+**Fig. 6.** Interior of an Antwerp or Augsburg cabinet, drawers open.  
 Rijksmuseum or Getty.  
 License: as marked.  
 Alt: Small drawers and a colonnaded interior.  
 Caption: A city for medals and shells.
 
-**Fig. 3.** Augsburg Kunstschrank (Uppsala or a published equivalent).  
+**Fig. 7.** Augsburg Kunstschrank (Uppsala or a published equivalent).  
 License: museum.  
 Alt: Tall cabinet with an encyclopedic program of inlay and figures.  
 Caption: Knowledge as a piece of furniture.
 
-**Fig. 4.** Drop-front desk on chest (vargueño).  
+**Fig. 8.** Drop-front desk on chest (vargueño).  
 Met 60.52a, b, Spanish, 17th century; bone, gilding, wrought iron.  
 License: Met, check OA.  
 Alt: Fall-front writing cabinet with geometric bone inlay and iron mounts.  
 Caption: A desk that is a chest of columns. The geometry outlived the Reconquest.
 
-**Fig. 5.** Ebony veneer detail, showing thin skin on a pale carcase.  
+**Fig. 9.** Ebony veneer detail, showing thin skin on a pale carcase.  
 Conservation photograph, V&A Journal.  
 License: V&A.  
 Alt: Close view of ebony molding and a chip revealing the cheap wood beneath.  
 Caption: The tropical wood is a leaf. The oak is the tree.
 
-**Fig. 6.** Cabinet with an allegory of peace, Antwerp, c. 1650.  
+**Fig. 10.** Cabinet with an allegory of peace, Antwerp, c. 1650.  
 Rijksmuseum BK-NM-11906-1.  
 License: Rijksmuseum, as marked.  
 Alt: Ebony-veneered cabinet with painted doors after Rubens’s shop.  
 Caption: Baarsen’s date is mid-century; Fabri’s window is wider. The lock still matters.
 
-**Fig. 7.** Cabinet attributed to Herman Doomer, Amsterdam, c. 1640–50.  
+**Fig. 11.** Cabinet attributed to Herman Doomer, Amsterdam, c. 1640–50.  
 Met 2011.181.  
 License: Met CC0.  
 Alt: Severe ebony cabinet with ripple moldings; interior in tropical woods and mother-of-pearl.  

@@ -99,37 +99,55 @@ Mies said the Barcelona chair had to receive a king. Rietveld said the Red Blue 
 
 ## Figure plan
 
-**Fig. 1.** Rietveld, Red Blue Chair.  
+![Chronological anchors for the evidence discussed below.](assets/reconstruction-methods-museums/fig-01-timeline.svg)
+
+*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Regional focus for circulation and local workshop traditions.](assets/reconstruction-methods-museums/fig-02-map.svg)
+
+*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Morphological typology (idealized morphotypes).](assets/reconstruction-methods-museums/fig-03-typology.svg)
+
+*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+![Comparative elevation and plan plate.](assets/reconstruction-methods-museums/fig-04-plate.svg)
+
+*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+
+### Supplemental photographs and redraws
+
+**Fig. 5.** Rietveld, Red Blue Chair.  
 MoMA 487.1953.  
 License: MoMA image terms (usually restricted); use a PD installation view only if available, or a drawing.  
 Alt: Chair of lacquered wood planes in red, blue, yellow, and black.  
 Caption: 1918 structure, 1923 paint, standard lumber, spiritual comfort claimed.
 
-**Fig. 2.** Breuer B3 / Wassily, an early Thonet or Standard-Möbel example.  
+**Fig. 6.** Breuer B3 / Wassily, an early Thonet or Standard-Möbel example.  
 MoMA or Met.  
 License: as marked.  
 Alt: Tubular-steel armchair with leather slings.  
 Caption: Bicycle thinking, club-chair sitting.
 
-**Fig. 3.** Mies, Barcelona chair, 1929.  
+**Fig. 7.** Mies, Barcelona chair, 1929.  
 MoMA or a documented early example.  
 License: as marked.  
 Alt: Chrome X-frame with leather cushions.  
 Caption: A pavilion throne. Do not call it democratic.
 
-**Fig. 4.** Perriand / Le Corbusier / Jeanneret chaise.  
+**Fig. 8.** Perriand / Le Corbusier / Jeanneret chaise.  
 MoMA or V&A.  
 License: as marked.  
 Alt: Chrome chaise with a pony-skin or fabric sling.  
 Caption: *Équipement* as a luxury system. Restore Perriand’s name.
 
-**Fig. 5.** Aalto, Paimio chair.  
+**Fig. 9.** Aalto, Paimio chair.  
 MoMA or Alvar Aalto Museum.  
 License: as marked.  
 Alt: Bent-plywood armchair in a pale wood.  
 Caption: Wood’s revenge on chrome, before the war.
 
-**Fig. 6.** Bauhaus Dessau, a student room or the canteen, historic photograph.  
+**Fig. 10.** Bauhaus Dessau, a student room or the canteen, historic photograph.  
 Bauhaus-Archiv, PD if date allows.  
 Alt: Spare room with tubular chairs and a window wall.  
 Caption: A school, not a factory. The chairs were lessons.
