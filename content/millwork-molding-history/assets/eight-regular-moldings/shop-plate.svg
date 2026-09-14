@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="460" viewBox="0 0 760 460" role="img" aria-labelledby="title desc">
+  <title id="title">The eight regular moldings, as a shop grammar — shop plate</title>
+  <desc id="desc">Line sections for the second heading. Not a knife grind.</desc>
+  <rect width="100%" height="100%" fill="#f4efe6"/>
+  <text x="24" y="36" font-family="Source Serif 4, Georgia, serif" font-size="20" font-weight="600" fill="#2c2416">The eight regular moldings, as a shop grammar — shop plate</text>
+  <text x="24" y="58" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#6b5a45">Line sections for the second heading. Not a knife grind.</text>
+  <rect x="24" y="72" width="712" height="360" fill="#efe6d4" stroke="#c4b49a"/>
+  <path d="M 48.92 150 L 60.82 150 L 60.82 161.9 L 48.92 161.9" fill="none" stroke="#2c2416" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="40.92" y="360" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#2c2416">fillet</text>
+  <line x1="38.92" y1="140" x2="38.92" y2="310" stroke="#c4b49a" stroke-dasharray="3 4"/>
+  <path d="M 137.92000000000002 150 A 9.520000000000001 9.520000000000001 0 0 1 137.92000000000002 169.04" fill="none" stroke="#2c2416" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="129.92000000000002" y="360" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#2c2416">astragal</text>
+  <line x1="127.92000000000002" y1="140" x2="127.92000000000002" y2="310" stroke="#c4b49a" stroke-dasharray="3 4"/>
+  <path d="M 226.92000000000002 150 C 255.82000000000002 151.7 260.92 161.9 245.62 167.0 C 230.32000000000002 172.1 232.02 180.6 233.72000000000003 184" fill="none" stroke="#2c2416" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="218.92000000000002" y="360" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#2c2416">ogee</text>
+  <line x1="216.92000000000002" y1="140" x2="216.92000000000002" y2="310" stroke="#c4b49a" stroke-dasharray="3 4"/>
+  <path d="M 315.92 150 C 322.72 155.1 321.02000000000004 165.3 332.92 167.0 C 346.52000000000004 168.7 349.92 175.5 349.92 184" fill="none" stroke="#2c2416" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="307.92" y="360" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#2c2416">cyma recta</text>
+  <line x1="305.92" y1="140" x2="305.92" y2="310" stroke="#c4b49a" stroke-dasharray="3 4"/>
+  <path d="M 438.92 150 Q 404.92 150 404.92 184" fill="none" stroke="#2c2416" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="396.92" y="360" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#2c2416">cavetto</text>
+  <line x1="394.92" y1="140" x2="394.92" y2="310" stroke="#c4b49a" stroke-dasharray="3 4"/>
+  <path d="M 493.92 150 Q 527.9200000000001 150 527.9200000000001 184" fill="none" stroke="#2c2416" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="485.92" y="360" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#2c2416">ovolo</text>
+  <line x1="483.92" y1="140" x2="483.92" y2="310" stroke="#c4b49a" stroke-dasharray="3 4"/>
+  <path d="M 588.02 150 C 616.92 150 616.92 184 588.02 184" fill="none" stroke="#2c2416" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="574.92" y="360" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#2c2416">scotia</text>
+  <line x1="572.92" y1="140" x2="572.92" y2="310" stroke="#c4b49a" stroke-dasharray="3 4"/>
+  <path d="M 671.92 150 A 17.0 17.0 0 0 1 671.92 184" fill="none" stroke="#2c2416" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="663.92" y="360" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#2c2416">torus</text>
+  <line x1="661.92" y1="140" x2="661.92" y2="310" stroke="#c4b49a" stroke-dasharray="3 4"/>
+  <text x="36" y="400" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#6b5a45">Wall / fence is the dashed line. Curves are shop language, not CAD export.</text>
+  <text x="24" y="446" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" fill="#6b5a45">Illustrative shop plate — not a grind template. BBF millwork lane, staged.</text>
+</svg>

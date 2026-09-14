@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="460" viewBox="0 0 760 460" role="img" aria-labelledby="title desc">
+  <title id="title">Poplar, oak, walnut, pine: paint-grade and stain-grade — shop plate</title>
+  <desc id="desc">Line sections for the second heading. Not a knife grind.</desc>
+  <rect width="100%" height="100%" fill="#f4efe6"/>
+  <text x="24" y="36" font-family="Source Serif 4, Georgia, serif" font-size="20" font-weight="600" fill="#2c2416">Poplar, oak, walnut, pine: paint-grade and stain-grade — shop plate</text>
+  <text x="24" y="58" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#6b5a45">Line sections for the second heading. Not a knife grind.</text>
+  <rect x="24" y="72" width="712" height="360" fill="#efe6d4" stroke="#c4b49a"/>
+  <path d="M 73.84 150 Q 121.84 150 121.84 198" fill="none" stroke="#2c2416" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="65.84" y="360" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#2c2416">poplar</text>
+  <line x1="63.84" y1="140" x2="63.84" y2="310" stroke="#c4b49a" stroke-dasharray="3 4"/>
+  <path d="M 257.84000000000003 144 L 257.84000000000003 150 Q 309.44 154 299.84000000000003 198" fill="none" stroke="#2c2416" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="243.84" y="360" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#2c2416">oak</text>
+  <line x1="241.84" y1="140" x2="241.84" y2="310" stroke="#c4b49a" stroke-dasharray="3 4"/>
+  <path d="M 429.84000000000003 150 C 439.44000000000005 157.2 437.04 171.6 453.84000000000003 174.0 C 473.04 176.4 477.84000000000003 186.0 477.84000000000003 198" fill="none" stroke="#2c2416" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="421.84000000000003" y="360" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#2c2416">walnut</text>
+  <line x1="419.84000000000003" y1="140" x2="419.84000000000003" y2="310" stroke="#c4b49a" stroke-dasharray="3 4"/>
+  <path d="M 607.84 150 L 624.64 150 L 624.64 166.8 L 607.84 166.8" fill="none" stroke="#2c2416" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="599.84" y="360" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#2c2416">pine</text>
+  <line x1="597.84" y1="140" x2="597.84" y2="310" stroke="#c4b49a" stroke-dasharray="3 4"/>
+  <text x="36" y="400" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#6b5a45">Wall / fence is the dashed line. Curves are shop language, not CAD export.</text>
+  <text x="24" y="446" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" fill="#6b5a45">Illustrative shop plate — not a grind template. BBF millwork lane, staged.</text>
+</svg>

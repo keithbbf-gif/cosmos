@@ -1,0 +1,134 @@
+# Bibliography — sources named in the pack
+
+Writer-facing list. Not a library catalog. Soft dates stay `[VERIFY]` in prose.
+
+- Asher Benjamin, The American Builder's Companion (Boston, 6th ed. 1827).
+- C. R. Tompkins, A History of the Planing-Mill (New York, 1889).
+- Encyclopedia of Arkansas, “Bradley County.”
+- Asher Benjamin, The American Builder's Companion (1827), on regular mouldings.
+- R. G. Hatfield, The American House Carpenter, § mouldings.
+- Andrea Palladio, I quattro libri dell'architettura (Venice, 1570).
+- Calder Loth, “Notes on Moldings, the change from Roman to Greek,” ICAA (2015).
+- James Stuart and Nicholas Revett, The Antiquities of Athens, vol. 1 (London, 1762).
+- Asher Benjamin, The American Builder's Companion (1806; 1827).
+- 1911 Encyclopaedia Britannica, “Mouldings,” on Egyptian cavetto.
+- Description de l’Égypte (Paris, from 1809).
+- Asher Benjamin, on cavetto as a covering member (1827).
+- 1911 Encyclopaedia Britannica, “Mouldings,” Gothic section.
+- A. W. N. Pugin, The True Principles of Pointed or Christian Architecture (London, 1841).
+- James Newlands, The Carpenter’s Assistant (mid-19th c.).
+- Giacomo Barozzi da Vignola, Regola delli cinque ordini d'architettura (1562).
+- Andrea Palladio, I quattro libri dell'architettura (1570).
+- Isaac Ware, The Four Books of Andrea Palladio's Architecture (London, 1738).
+- James Gibbs, Rules for Drawing the Several Parts of Architecture (London, 1732).
+- Abraham Swan, The British Architect (1745).
+- Calder Loth, ICAA, on Drayton Hall and Palladio Londinensis.
+- Stuart and Revett, The Antiquities of Athens, vol. 1 (1762).
+- Robert and James Adam, The Works in Architecture, vol. 1 (1778).
+- Julien-David Le Roy, Ruines des plus beaux monuments de la Grèce (1758).
+- Asher Benjamin, The Country Builder's Assistant (Greenfield, 1797/1805).
+- Asher Benjamin, The American Builder's Companion (1806; 6th ed. 1827).
+- Minard Lafever, The Modern Builder's Guide (1833).
+- Minard Lafever, The Modern Builder's Guide (New York, 1833).
+- Calder Loth, ICAA, on Glen Maury and Annandale mantels.
+- William Strickland, Tennessee State Capitol (completed 1859).
+- C. R. Tompkins, A History of the Planing-Mill (1889).
+- VintageMachinery.org, short history of moulding machines.
+- William Woodworth planer patent lineage (1828 and after).
+- Calder Loth, ICAA, on Colonial Revival and Roman mouldings.
+- Rachel Silva, Historic Downtown Warren tour script (AHPP, 2012).
+- McKim, Mead & White domestic interiors, 1880s–1910s.
+- Rex Nelson, “Pine trees, pink tomatoes,” Arkansas Democrat-Gazette (2026).
+- argenweb.net, Bradley Lumber Company postcard text.
+- Bradley Lumber postcard: oak, pine millwork, furniture stock.
+- Arkansas Democrat-Gazette, hardwood mill strain, 30 Nov 2008.
+- WOOD TEC PEDIA, moulder history notes (Guilliet, Wadkin, Weinig).
+- Weinig company history; 35,000th moulder coverage (2013).
+- Classical Proportions, cornice sizing from Gibbs (interior methods).
+- William Chambers, Treatise on Civil Architecture, interior cornice bounds.
+- U.S. postwar tract-house millwork practice (shop memory; [VERIFY] local code year).
+- AWI Architectural Woodwork Standards, paint- vs stain-grade notes.
+- WMMPA / industry practice on primed finger-joint moulding.
+- Southern humidity and MDF swelling — shop practice, not a lab paper.
+- Shop practice: linear moulder vs CNC cycle time (internal BBF lane).
+- Weinig / industrial moulder feed-rate literature.
+- AWI, custom architectural woodwork vs stock millwork.
+- ADA Standards for Accessible Design (2010), clearances that move casework.
+- AWI / WI healthcare woodwork notes (cleanability, edges).
+- BBF lane: healthcare and hospitality FF&E as a millwork customer, not a brochure.
+- Mouldings One / ICAA teaching: architrave, dado, cornice on a wall.
+- James Gibbs, Rules for Drawing (1732).
+- Classical Proportions, cornice methods 1–3.
+- 1911 Encyclopaedia Britannica, “Mouldings,” cyma recta / cymatium.
+- Asher Benjamin, covering members (1827).
+- Classical Proportions, cyma–corona–bedmould.
+- Asher Benjamin, ovolo and ogee as supports (1827).
+- 1911 Britannica, cyma-reversa / ogee.
+- Jane Griswold Radocchia on Benjamin and falling water (2009).
+- Asher Benjamin, 1806/1827 ovolo experiment.
+- Calder Loth, quirked ovolo definition (ICAA).
+- 1911 Britannica, ovolo / echinus.
+- Asher Benjamin, cavetto as covering (1827).
+- Classical Proportions, Victorian scotia variation.
+- 1911 Britannica, cavetto.
+- Asher Benjamin, torus and astragal as binding members.
+- 1911 Britannica, torus, astragal, bead-and-reel.
+- Hatfield, American House Carpenter, bead/astragal.
+- 1911 Britannica, scotia / trochilus.
+- Asher Benjamin, fillet and scotia as separators (1827).
+- Vignola / Gibbs plates of the Attic base.
+- Classical Proportions, corona / soffit / crown etymology.
+- Asher Benjamin, fillet as separator.
+- Gibbs, Tuscan cornice plates.
+- Classical Proportions, three-part cornice.
+- James Gibbs, order cornices.
+- Shop practice: stacking stock WM / custom knives.
+- Mouldings One / ICAA, base as pedestal.
+- AWI, standing and running trim.
+- Shop practice: shoe as floor scribe.
+- Mouldings One, casing as architrave.
+- Asher Benjamin and Lafever door plates.
+- Shop practice: reveal, plinth, backband.
+- Mouldings One / ICAA, chair rail as dado.
+- Period U.S. picture-rail practice, c. 1890–1930.
+- Shop practice: chair height is not picture-rail height.
+- The Rules of Work of the Carpenters’ Company of Philadelphia (1786).
+- James Newlands, The Carpenter’s Assistant.
+- Calder Loth, ICAA, on the change in panel treatment.
+- Forest Products Laboratory, Wood Handbook, moisture and movement.
+- Gene Wengert / Wood-Doctor practice on EMC.
+- Shop practice: Southern acclimation before install.
+- Dave Rankin / Woodweb, knife characteristics and shear.
+- Rob Duve, grind angles ~23–25°, side clearance.
+- Older jointing/balance notes, 6½ in circle, 5,000 rpm class.
+- Gary Katz / THISisCarpentry, cutting and coping crown.
+- Common U.S. spring angles 38° / 45° (stock).
+- Shop practice: cope inside, miter outside.
+- FPL Wood Handbook, shrinkage and hardness by species.
+- Bradley Lumber postcard: mild-textured oak, Arkansas soft pine.
+- Shop practice: paint-grade poplar vs stain-grade oak.
+- Finish-carpentry practice: reveal consistency.
+- Period American plinth-block door casings.
+- Shop drawings: backband as a second knife, not caulk.
+- AWI, shop drawings and architectural woodwork.
+- BBF lane: design-to-spec for linear millwork and CNC.
+- Shop practice: field verify before grind.
+- AWI finishing systems (conversion varnish, lacquer, site paint).
+- Healthcare/hospitality finish specs as a cleanability file.
+- Shop practice: prefinish long runs, leave end-cut touch-up.
+- Finish-carpentry practice: scribe vs caulk.
+- Manufacturer crown/base install notes (nested, nail into framing).
+- Shop practice: leave extra length for scribes on stain-grade.
+- Preservation practice: profile matching from a section.
+- Custom knife shops: grind-to-sample.
+- NPS / rehab notes on replacing wood features in kind [VERIFY] brief.
+- Classical Proportions / Gibbs cornice fractions.
+- William Chambers, interior cornice 1/15 to 1/20.
+- Shop practice: landing on the outer ceiling edge.
+- IRC / local stair geometry [VERIFY] jurisdiction.
+- AWI, stairs and railings.
+- Shop practice: CNC newels, moulder nosing, site fit.
+- Custom millwork estimating practice (setup + waste + footage).
+- BBF lane: linear millwork vs CNC each-pricing.
+- Knife grind lead time as a schedule item, not a surprise.
+

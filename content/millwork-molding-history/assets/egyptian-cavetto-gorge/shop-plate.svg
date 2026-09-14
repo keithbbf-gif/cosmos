@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="460" viewBox="0 0 760 460" role="img" aria-labelledby="title desc">
+  <title id="title">The Egyptian cavetto and the gorge cornice — shop plate</title>
+  <desc id="desc">Line sections for the second heading. Not a knife grind.</desc>
+  <rect width="100%" height="100%" fill="#f4efe6"/>
+  <text x="24" y="36" font-family="Source Serif 4, Georgia, serif" font-size="20" font-weight="600" fill="#2c2416">The Egyptian cavetto and the gorge cornice — shop plate</text>
+  <text x="24" y="58" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#6b5a45">Line sections for the second heading. Not a knife grind.</text>
+  <rect x="24" y="72" width="712" height="360" fill="#efe6d4" stroke="#c4b49a"/>
+  <path d="M 190.88 150 Q 119.68 158 123.68 212.4" fill="none" stroke="#2c2416" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="115.68" y="360" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#2c2416">Egyptian gorge</text>
+  <line x1="113.68" y1="140" x2="113.68" y2="310" stroke="#c4b49a" stroke-dasharray="3 4"/>
+  <path d="M 527.6800000000001 150 Q 479.68 150 479.68 198" fill="none" stroke="#2c2416" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="471.68" y="360" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#2c2416">small cavetto</text>
+  <line x1="469.68" y1="140" x2="469.68" y2="310" stroke="#c4b49a" stroke-dasharray="3 4"/>
+  <text x="36" y="400" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#6b5a45">Wall / fence is the dashed line. Curves are shop language, not CAD export.</text>
+  <text x="24" y="446" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" fill="#6b5a45">Illustrative shop plate — not a grind template. BBF millwork lane, staged.</text>
+</svg>

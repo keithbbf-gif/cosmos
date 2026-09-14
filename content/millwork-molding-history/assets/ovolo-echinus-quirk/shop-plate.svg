@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="460" viewBox="0 0 760 460" role="img" aria-labelledby="title desc">
+  <title id="title">Ovolo, echinus, and the quirk that makes a line — shop plate</title>
+  <desc id="desc">Line sections for the second heading. Not a knife grind.</desc>
+  <rect width="100%" height="100%" fill="#f4efe6"/>
+  <text x="24" y="36" font-family="Source Serif 4, Georgia, serif" font-size="20" font-weight="600" fill="#2c2416">Ovolo, echinus, and the quirk that makes a line — shop plate</text>
+  <text x="24" y="58" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#6b5a45">Line sections for the second heading. Not a knife grind.</text>
+  <rect x="24" y="72" width="712" height="360" fill="#efe6d4" stroke="#c4b49a"/>
+  <path d="M 90.45333333333335 150 Q 138.45333333333335 150 138.45333333333335 198" fill="none" stroke="#2c2416" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="82.45333333333335" y="360" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#2c2416">Roman</text>
+  <line x1="80.45333333333335" y1="140" x2="80.45333333333335" y2="310" stroke="#c4b49a" stroke-dasharray="3 4"/>
+  <path d="M 333.78666666666675 144 L 333.78666666666675 150 Q 385.38666666666677 154 375.78666666666675 198" fill="none" stroke="#2c2416" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="319.78666666666675" y="360" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#2c2416">Greek</text>
+  <line x1="317.78666666666675" y1="140" x2="317.78666666666675" y2="310" stroke="#c4b49a" stroke-dasharray="3 4"/>
+  <path d="M 565.12 150 Q 613.12 150 613.12 198" fill="none" stroke="#2c2416" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="557.12" y="360" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#2c2416">router 1/4</text>
+  <line x1="555.12" y1="140" x2="555.12" y2="310" stroke="#c4b49a" stroke-dasharray="3 4"/>
+  <text x="36" y="400" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#6b5a45">Wall / fence is the dashed line. Curves are shop language, not CAD export.</text>
+  <text x="24" y="446" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" fill="#6b5a45">Illustrative shop plate — not a grind template. BBF millwork lane, staged.</text>
+</svg>
