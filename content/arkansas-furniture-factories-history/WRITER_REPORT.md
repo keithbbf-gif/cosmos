@@ -14,11 +14,12 @@ Staged pack at `content/arkansas-furniture-factories-history/` for Bradley Brand
 
 | Item | Count |
 |------|------:|
-| Draft articles (`drafts/*.md`) | 44 |
+| Draft articles (`drafts/*.md`) | 45 |
 | Clusters | 7 |
-| Photo slots | 88 (2 per essay, all `needed`) |
+| Photo slots | 90 (2 per essay, all `needed`) |
+| Body words | 59,294 (range 1,249–1,593) |
 
-Target band per `STYLE_GUIDE.md`: 1,200–2,000 body words. First pass ran short on many files; expansion pass in progress before INDEX/MANIFEST freeze.
+Target band per `STYLE_GUIDE.md`: 1,200–2,000 body words. Expansion pass complete. INDEX / MANIFEST / photo lists frozen from `_recount.py`.
 
 ## Clusters
 
@@ -28,7 +29,7 @@ Target band per `STYLE_GUIDE.md`: 1,200–2,000 body words. First pass ran short
 4. **Wood and rail** — Harris–Maxwell 1912 Table 8, coal/steam/gas, freight, spinoffs, gum-as-walnut, glass pairing.
 5. **Labor and civic** — unnamed sander, Turney 1966 women-in-finish, Local 2746, Ballman School, Museum / *Journal*.
 6. **Statewide** — Harrison pews, St. Joe kiln, Petit Jean lecterns, Warren stock **without** a Bradley succession claim, pine belt, Monticello hospitality, McCourt folding.
-7. **Afterlife** — 21 April 1996, imports, Whirlpool, what still gets made.
+7. **Afterlife** — 21 April 1996, imports, Whirlpool, what still gets made, how to read a Fort Smith label.
 
 ## Hard fences
 
@@ -48,4 +49,5 @@ Target band per `STYLE_GUIDE.md`: 1,200–2,000 body words. First pass ran short
 
 - `STYLE_GUIDE.md`
 - `BIBLIOGRAPHY.md`
-- `MANIFEST.md` (after recount freeze)
+- `INDEX.md`
+- `MANIFEST.md`
