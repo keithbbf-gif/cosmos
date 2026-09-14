@@ -61,6 +61,9 @@ def main() -> int:
             errors.append(f"{p.name}: missing keys {sorted(miss)}")
         if meta.get("status") != "draft" or meta.get("stage") != "draft":
             errors.append(f"{p.name}: status/stage must be draft")
+        vc = meta.get("voice_check")
+        if vc not in {"human", "edited"}:
+            errors.append(f"{p.name}: voice_check must be human or edited (got {vc!r})")
         if meta.get("series") != "slp-pediatric-milestones":
             errors.append(f"{p.name}: bad series")
         body = text[m.end() :]

@@ -19,7 +19,7 @@ citations:
   - "https://identifythesigns.org/signs-of-speech-and-language-disorders/"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. This page is about a habit, not about your child’s future. Nobody here will tell you that waiting “caused” a disorder.

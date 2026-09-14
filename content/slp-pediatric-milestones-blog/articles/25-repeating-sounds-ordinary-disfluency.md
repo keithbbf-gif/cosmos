@@ -18,7 +18,7 @@ citations:
   - "https://www.cdc.gov/act-early/media/pdfs/2025/10/cdc-milestone-checklists-ltsae-english-508.pdf"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Not a fluency evaluation and not a diagnosis. This page will not teach a home fluency program. It will not tell you to ignore what you see.

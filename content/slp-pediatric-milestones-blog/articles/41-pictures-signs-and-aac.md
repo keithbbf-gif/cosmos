@@ -18,7 +18,7 @@ citations:
   - "https://www.cdc.gov/act-early/media/pdfs/2025/10/cdc-milestone-checklists-ltsae-english-508.pdf"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not an AAC evaluation and not a treatment protocol. This page will not teach PECS phases or program an app. It will not tell you a child needs a device.

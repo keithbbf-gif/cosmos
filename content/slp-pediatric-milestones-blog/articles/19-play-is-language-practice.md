@@ -17,7 +17,7 @@ citations:
   - "https://www.healthychildren.org/English/family-life/work-play/Pages/The-Power-of-Play.aspx"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Not a play-based therapy protocol and not a diagnosis. Play is how children rehearse being people. You can join it without turning it into homework.

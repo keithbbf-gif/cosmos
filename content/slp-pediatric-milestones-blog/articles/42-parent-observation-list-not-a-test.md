@@ -19,7 +19,7 @@ citations:
   - "https://doi.org/10.1542/peds.2019-3449"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not a screening instrument, not a standardized test, and not a diagnosis. If you check boxes here, you are making notes for a conversation. You are not scoring your child.
@@ -108,7 +108,7 @@ You will not title it “delay checklist.”
 You will not post a completed one with the child’s name.  
 You will not let a relative use it as a courtroom exhibit.
 
-Identify the Signs and CDC already published public lists. This page is only a way to walk into a room with your own eyes organized. The person with the validated tool goes next (Lipkin & Macias, 2020). The person who can diagnose, if anyone, is not you and not this series.
+Identify the Signs and CDC already published public lists. This page is only a way to walk into a room with your own eyes organized. The person with the validated tool goes next (Lipkin & Macias, 2020). Naming a condition, if anyone does, is not your job and not this series’ job.
 
 If you get to the end and you are still worried, that sentence is the whole list. Take the worry. Leave the score.
 

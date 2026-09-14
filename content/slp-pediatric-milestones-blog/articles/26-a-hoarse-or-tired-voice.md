@@ -17,7 +17,7 @@ citations:
   - "https://identifythesigns.org/signs-of-speech-and-language-disorders/"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Not an ENT exam and not a diagnosis. Do not start voice exercises from a video. Do not decide why a voice is hoarse from an article.

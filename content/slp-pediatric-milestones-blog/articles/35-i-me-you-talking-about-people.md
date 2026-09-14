@@ -17,10 +17,10 @@ citations:
   - "https://www.asha.org/public/developmental-milestones/communication-milestones/"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
 ---
 
-**Disclaimer.** Educational only. Not a grammar diagnosis. Pronouns are slippery on purpose. This page will not tell you a child has a disorder because they said *me do it*.
+**Disclaimer.** Educational only. Not a grammar test and not a clinical label. Pronouns are slippery on purpose. *Me do it* is ordinary. This page will not turn a pronoun slip into a condition name.
 
 *I* is a moving target. When you say it, it means you. When they say it, it means them. That is a lot of philosophy for a person with a sippy cup.
 

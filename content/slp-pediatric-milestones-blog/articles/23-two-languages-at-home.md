@@ -18,7 +18,7 @@ citations:
   - "https://identifythesigns.org/signs-of-speech-and-language-disorders/"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Not a bilingual evaluation and not a diagnosis. Two languages are typical human childhood, not a risk factor you invented at the park.

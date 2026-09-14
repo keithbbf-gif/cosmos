@@ -18,7 +18,7 @@ citations:
   - "https://www.cdc.gov/act-early/milestones/index.html"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Not a screen and not a diagnosis. If you are worried about sound, looking, or a skill that went away, talk with your child’s doctor.

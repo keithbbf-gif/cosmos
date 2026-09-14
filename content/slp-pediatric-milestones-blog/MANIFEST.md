@@ -10,15 +10,16 @@ Editor agent: QA against `STYLE_GUIDE.md` and `CLAIMS_GUARDRAILS.md` after this 
 | --- | --- |
 | `INDEX.md` | Calendar, cadence, waves |
 | `MANIFEST.md` | This inventory |
-| `STYLE_GUIDE.md` | Voice bans + `voice_check: human` |
+| `STYLE_GUIDE.md` | Voice bans + `voice_check: human` / `edited` |
 | `CLAIMS_GUARDRAILS.md` | Never-say list (no diagnosis, no DIY therapy) |
 | `BIBLIOGRAPHY.md` | Citations used across the pack |
+| `EDITOR_REPORT.md` | Editor pass log (PR #317) |
 | `WP_IMPORT.md` | Staging import only |
 | `README.md` | One-page orientation |
 
 ## Article drafts (42)
 
-Required YAML on each: `title`, `slug`, `meta_description`, `series`, `type`, `audience`, `brand`, `tags`, `age_band`, `citations`, `status: draft`, `stage: draft`, `voice_check: human`.
+Required YAML on each: `title`, `slug`, `meta_description`, `series`, `type`, `audience`, `brand`, `tags`, `age_band`, `citations`, `status: draft`, `stage: draft`, `voice_check: human` (writer) or `edited` (after editor).
 
 Required body: educational disclaimer (not medical advice; not a screen; not a diagnosis).
 

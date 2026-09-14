@@ -18,10 +18,10 @@ citations:
   - "https://www.asha.org/about/press-room/articles/what-to-expect-your-childs-communication-development/"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
 ---
 
-**Disclaimer.** Educational only. Not a reading curriculum and not a learning-disability diagnosis. Kindergarten has many doors. This page will not tell you a child has dyslexia because rhyme is hard.
+**Disclaimer.** Educational only. Not a reading curriculum and not a learning-disability label. Kindergarten has many doors. This page will not name a reading disability because rhyme is hard.
 
 People want to skip to letters. CDC put letters on the **cognitive** line at five: writes some letters of their name; names some letters when you point. The **language** line at five wants a two-event story, answers about a book, a longer conversation, and **rhyme**.
 

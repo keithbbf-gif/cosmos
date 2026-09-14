@@ -21,7 +21,7 @@ citations:
   - "https://doi.org/10.1542/peds.2019-3449"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Not a developmental screening tool and not a diagnosis. Milestone charts describe what many children can do by an age. They do not name what is “wrong” with your child. If you have questions, talk with your child’s doctor or a licensed speech-language pathologist.

@@ -12,5 +12,6 @@ Start here:
 4. `articles/` — the drafts
 5. `BIBLIOGRAPHY.md` — CDC, ASHA, AAP, named papers
 6. `WP_IMPORT.md` — staging only
+7. `EDITOR_REPORT.md` — editor pass log (when present)
 
 Companion pack (do not merge): `content/slpwow-speech-pathology-history/` — history of the profession, different reader.

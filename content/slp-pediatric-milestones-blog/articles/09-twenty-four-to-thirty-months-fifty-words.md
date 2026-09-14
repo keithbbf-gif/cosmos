@@ -18,7 +18,7 @@ citations:
   - "https://doi.org/10.1542/peds.2019-3449"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Not a screen and not a diagnosis. “About 50 words” is a CDC 30-month surveillance item. It is not a precise test score.
@@ -36,6 +36,8 @@ Nobody needs a perfect ledger. “About” is in the sentence on purpose.
 A word is a consistent form with a consistent meaning (essay 15). Animal sounds used as names (*moo* for the cow) can count in a parent list. Family names count. *Uh-oh* can count if it is a real word in your house. You do not need adult pronunciation. You do need to be honest about signs and gestures: they are language, and they are not oral words. Count them in a separate column if you want. An SLP will be glad you did.
 
 If you cannot get near fifty and you are weeks from the 30-month visit, do not start a flashcard curriculum. Describe what you have. Combinations? Action words? Names in a book? Pronouns? The page is a cluster, not a single gate.
+
+Open the notes app and walk the house — kitchen words, bath words, park words, people, animals, social pieces, verbs. You will under-count if you only think at the table. You will over-count if you include every imitation from last month. Star the ones you heard this week. MacArthur-Bates CDI forms used in research are long on purpose. You are not filling one unless a clinician asks. You are making a human list. If you get to 35 and stall, that is a number to say aloud. “About 50” is CDC’s phrase; “I can list 35” is yours.
 
 ## Action words are the sleeper item
 
@@ -57,6 +59,8 @@ This is expression, not only the 2-year “point to the bear.” You point, you 
 
 Follows simple routines when told (“clean-up time”). Follows two-step instructions (“Put the toy down and close the door”). Pretend: feeding a block to a doll. Those sit on social and cognitive lines. They are the soil combinations grow in.
 
+Those comprehension items wear chore clothes. If vocabulary is the worry and they line up for clean-up when you say the script, say that — it is the quiet half (essay 16, 34). If they have fifty words and cannot do a two-step in a quiet room, say that too. One sentence for the visit: “They feed the doll a block” or “They do not pretend with objects” (essay 19). The visit is a collage, not a single gate.
+
 And the footer again: **general developmental screening is due at 30 months.** Ask for it by name. Lipkin and Macias (2020) is the AAP policy you can mention if you want a paper in your pocket. You are not being difficult. You are asking for the thing the Academy already recommended.
 
 ## Two-year-old research vs 30-month fridge
@@ -70,15 +74,3 @@ Offer choices that force a word or a point: apple or cracker, red cup or blue. W
 Play the two-step in real life, not as a trick. “Shoes, then door.” Thank them. CDC’s tips are still chores and parks and crayons.
 
 If fifty feels far off, you can ask for an SLP look and an EI look without waiting for the birthday. The footer said that when they were two months old. It has not expired.
-
-## How parents actually count to fifty
-
-Open the notes app. Walk the house. Kitchen words, bath words, park words, people, animals, social pieces, verbs. You will under-count if you only think at the table. You will over-count if you include every imitation from last month. Star the ones you heard this week.
-
-MacArthur-Bates CDI forms used in research are long on purpose. You are not filling one unless a clinician asks. You are making a human list. If you get to 35 and stall, that is a number to say aloud. “About 50” is CDC’s phrase; “I can list 35” is yours.
-
-## Clean-up time and two steps
-
-The 30-month social and cognitive lines want a routine when told and a two-step instruction. Those are comprehension items wearing chore clothes. If vocabulary is the worry and they line up for clean-up when you say the script, say that. It is the quiet half (essay 16, 34). If they have fifty words and cannot do a two-step in a quiet room, say that too.
-
-Pretend feeding a block to a doll is on the same cognitive line. One sentence for the visit: “They feed the doll a block” or “They do not pretend with objects.” Essay 19. The visit is a collage, not a single gate.

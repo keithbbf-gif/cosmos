@@ -17,7 +17,7 @@ citations:
   - "https://www.healthychildren.org/English/ages-stages/baby/crying-colic/Pages/Pacifiers-and-Thumb-Sucking.aspx"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not dental advice, not sleep advice, and not a diagnosis. This page will not tell you a pacifier caused a speech disorder. It will not tell you to yank one tonight if sleep would collapse.

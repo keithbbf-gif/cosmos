@@ -19,7 +19,7 @@ citations:
   - "https://identifythesigns.org/signs-of-speech-and-language-disorders/"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Not a screen and not a diagnosis. Two words together is a surveillance item. It is not a grammar exam and not a label.

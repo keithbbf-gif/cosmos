@@ -18,7 +18,7 @@ citations:
   - "https://identifythesigns.org/signs-of-speech-and-language-disorders/"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Not a screen and not a diagnosis. A first name-word is not a vocabulary count. If gestures or looking are missing, or a skill disappeared, talk with your child’s doctor.
