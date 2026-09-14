@@ -14,7 +14,7 @@ citations:
   - "International Journal of Play Therapy. Association for Play Therapy. First volume 1992."
   - "Bratton, Ray, Rhine, and Jones. Professional Psychology 36 (2005)."
 status: draft
-voice_check: human
+voice_check: edited
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
 ---
@@ -65,7 +65,7 @@ Before 1992, a student cited books and newsletters. After 1992, a student could 
 
 ## Special issues as a society's self-portrait
 
-A special issue tells you what a society wants to look like that year: trauma, schools, filial, sand. The cover is a census. This pack will not treat a cover as a finding. It will treat 1992 as the year the census became bindable. Semiannual then quarterly is how many pages a budget could stand. APA archives are a later convenience for people who were not at the conference.
+A special issue tells you what a society wants to look like that year: trauma, schools, filial, sand. The cover is a census. This series will not treat a cover as a finding. It will treat 1992 as the year the census became bindable. Semiannual then quarterly is how many pages a budget could stand. APA archives are a later convenience for people who were not at the conference.
 
 Watch the article type. A case is a case. A trial is a trial. A historical essay in *IJPT* is a cousin of this folder, not a graph. 2005 left the specialty cover on purpose. This essay stayed with the specialty cover on purpose.
 

@@ -14,7 +14,7 @@ citations:
   - "Landreth, Garry L. Play Therapy: The Art of the Relationship. 1991."
   - "Axline, Virginia M. Play Therapy. 1947."
 status: draft
-voice_check: human
+voice_check: edited
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
 ---
@@ -61,19 +61,19 @@ Using a child's home toys can be humble and can be surveillance of a household's
 
 ## Licensed plastic, and the tray that accidentally became a copyright problem
 
-Disney figures on a tray are a legal problem as well as a class problem. A late-century shelf often included licensed plastic because the catalog sold it. This pack can say that. It cannot say what the plastic means. Do not publish an Amazon list. Do not rate brands. Do not photograph a child's toy as evidence. Prices are historical. A method that forgets the price will mistake a budget for a psyche.
+Disney figures on a tray are a legal problem as well as a class problem. A late-century shelf often included licensed plastic because the catalog sold it. This series can say that. It cannot say what the plastic means. Do not publish an Amazon list. Do not rate brands. Do not photograph a child's toy as evidence. Prices are historical. A method that forgets the price will mistake a budget for a psyche.
 
 ## PTA budgets and washable objects as theories
 
-A PTA budget writes a theory on a school shelf. Infection control writes a theory on a hospital shelf. A department budget writes a theory on a university shelf. None of them call it a theory. This pack will. Completeness is a purchase order. Axline assumed materials, not a 1991 completeness. A Delta county store is not a coastal training catalog. Do not publish a shopping list. Do not rate brands.
+A PTA budget writes a theory on a school shelf. Infection control writes a theory on a hospital shelf. A department budget writes a theory on a university shelf. None of them call it a theory. This series will. Completeness is a purchase order. Axline assumed materials, not a 1991 completeness. A Delta county store is not a coastal training catalog. Do not publish a shopping list. Do not rate brands.
 
 ## Discount-store dollhouses and the completeness myth
 
-A two-story dollhouse from a coastal catalog and a one-room plastic house from a county discount store are both houses. A method that treats only the first as real play has written a class note. This pack will not teach a better note. It will say completeness is a 1991-shaped myth. Axline assumed materials. Materials are not a franchise shelf. Do not publish Amazon. Do not photograph a child's toy.
+A two-story dollhouse from a coastal catalog and a one-room plastic house from a county discount store are both houses. A method that treats only the first as real play has written a class note. This series will not teach a better note. It will say completeness is a 1991-shaped myth. Axline assumed materials. Materials are not a franchise shelf. Do not publish Amazon. Do not photograph a child's toy.
 
 Receipts write theories. PTA, infection control, department budgets, discount stores, coastal catalogs. Completeness is a purchase order. Licensed plastic is a copyright problem. Do not Amazon. Do not photograph a child's toy. A Delta county is not a coastal shelf.
 
-A later graphics pass will want a pretty shelf. A pretty shelf is a catalog photograph. Catalog photographs flatten class. This pack's photo rules already banned the smiling child. They should also ban the aspirational shelf used as if it were everyone's room. Type is enough: toys have prices.
+A later graphics pass will want a pretty shelf. A pretty shelf is a catalog photograph. Catalog photographs flatten class. This series's photo rules already banned the smiling child. They should also ban the aspirational shelf used as if it were everyone's room. Type is enough: toys have prices.
 
 The next essay is the gender of the people who stocked the shelf and sat on the floor — a workforce fact, not a compliment. Prices and percents are different receipts. This page held the price. The next page holds the hallway. Neither is a shopping list.
 

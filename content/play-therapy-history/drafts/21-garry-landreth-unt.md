@@ -15,7 +15,7 @@ citations:
   - "Center for Play Therapy, University of North Texas. Our Story."
   - "University of North Texas. Garry Lee Landreth obituary. Died 11 June 2026."
 status: draft
-voice_check: human
+voice_check: edited
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
 ---
@@ -32,7 +32,7 @@ Axline 1947 is a book. Landreth 1991 is a book that behaves like a course. Later
 
 The book describes a room. This series will not republish the room. It will say that a 1991 textbook made a room teachable, and that teachability is how a method becomes a study and a credential.
 
-He also wrote, with colleagues, about filial work and a shorter filial format that later trainings sold as a model with a session count. The count is a later object's problem. Guerney 1964 is the filial origin essay in this pack. Landreth's filial writing is a Denton descendant. Do not collapse them.
+He also wrote, with colleagues, about filial work and a shorter filial format that later trainings sold as a model with a session count. The count is a later object's problem. Guerney 1964 is the filial origin essay in this series. Landreth's filial writing is a Denton descendant. Do not collapse them.
 
 ## APT, and a Texas center that became a pilgrimage
 
@@ -42,7 +42,7 @@ A small-city clinician who has only the book, not the summer, is not a failed pi
 
 ## Living extra care, then a death notice
 
-Until June 2026 he was a living person in this pack's first outlines. The rule does not loosen because an obituary exists. No health speculation. No private life. Public books, the UNT page, the APT emeritus page. Monica Landreth appears in the university notice as a spouse of sixty-four years and a scholarship name. That is enough.
+Until June 2026 he was a living person in this series' first outlines. The rule does not loosen because an obituary exists. No health speculation. No private life. Public books, the UNT page, the APT emeritus page. Monica Landreth appears in the university notice as a spouse of sixty-four years and a scholarship name. That is enough.
 
 ## Portrait
 
@@ -56,19 +56,15 @@ Do use the 1988 and 1991 dates when you need the American institutional turn: a 
 
 The next essay is CCPT as a school after Axline — the name, the films, the studies — without making Denton the only city.
 
-## 1973, 1987, 1988: a campus decides to be a capital
-
-UNT's "Our Story" page is the timeline to argue with. A first international play-therapy conference on that campus in 1973. A 1987 departmental vote, asked for by a vice president who wanted national goals. A 1988 center under Landreth with a doctoral assistant. He directed it until 2003. Those are budget sentences.
-
-*Play Therapy: The Art of the Relationship* (1991; later 2002, 2012) behaved like a course. Counseling programs assigned it because it is organized, filmed, and American. CCPT as a late-century school name runs through this object more than through 1947.
-
-He sat on APT's first board and is Director Emeritus on the Association's page. Summer institutes made Denton a pilgrimage. The book traveled farther than the campus. A county clinician who has only the book is the more common case.
-
-Died 11 June 2026, UNT public notice. No scraped funeral photograph. No eulogy-as-protocol. Monica Landreth appears in the notice as a spouse of sixty-four years and a scholarship name. That is enough. Birth year 1937 is the conventional public figure; `[VERIFY]` against the notice if you print it.
-
 ## Filial descendants, and a book that outran a campus
 
 Landreth's later filial writing is a Denton descendant of Guerney 1964. Do not collapse them. The 1991 textbook is the object American programs actually assigned. Summer institutes made a pilgrimage. Most clinicians never took it. The 11 June 2026 UNT notice closes a living-person outline; it does not open a protocol. Type only.
+
+The filmed demonstrations that traveled with the textbook are a separate historical object from the book's prose. Counseling programs could assign a chapter without ever screening a tape. A county clinician who learned CCPT from the page alone is not a failed student of Denton; they are the distribution path the publisher actually built. When you cite Landreth, cite the edition you opened and say whether you are talking about text, film, or the center's public timeline — three objects that share a name.
+
+## Board service without a crown
+
+APT's first board is a roster problem for historians, not a genealogy tree. Landreth's name on it tells you the Association wanted university credibility and Texas visibility at the same moment it wanted dues. Director Emeritus on the society page is honorific English. It is not a license and not a clinical outcome. A brochure that lists emeritus names as if they blessed every local practitioner is selling proximity. This essay will quote the page. It will not sell the proximity. Emeritus is a thank-you, not a treatment endorsement.
 
 ## Claims box
 

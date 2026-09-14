@@ -15,7 +15,7 @@ citations:
   - "Winnicott, D. W. Transitional Objects and Transitional Phenomena. 1953."
   - "Winnicott, D. W. Hate in the Counter-Transference. 1949."
 status: draft
-voice_check: human
+voice_check: edited
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
 ---
@@ -62,7 +62,7 @@ The next essay leaves London for New York and a 1938 paper that tried to make pl
 
 Winnicott spoke to parents on the BBC. Those talks, later gathered, are mid-century British documents: feeding, sleeping, the look on a face when the baby is handed back. They are not 2026 Arkansas handbooks. They matter to the play-frame because they show a man who believed ordinary devotion was more interesting than a clever interpretation — and who still wrote the 1949 hate paper so the clever interpretation would not be replaced by a smile.
 
-The squiggle, in published accounts, is a doodle that becomes a conversation. Training films after his death made it look like a product. Products can be sold. A 1971 book that says playing *is* the work cannot be sold as a doodle without losing the 1949 discipline. This pack keeps both dates on the table so the doodle cannot steal the hour.
+The squiggle, in published accounts, is a doodle that becomes a conversation. Training films after his death made it look like a product. Products can be sold. A 1971 book that says playing *is* the work cannot be sold as a doodle without losing the 1949 discipline. This series keeps both dates on the table so the doodle cannot steal the hour.
 
 Clare Winnicott's social-work papers on deprived children remain the other half of the wartime story. A play theory that forgets the social worker forgets who moved the children. The sister essay said this. The play essay repeats it because *Playing and Reality* is the book most likely to be assigned without her.
 

@@ -14,7 +14,7 @@ citations:
   - "Association for Play Therapy. Membership notices and conference programs as dated objects."
   - "Schaefer obituaries using 'father of play therapy' as a myth to quote."
 status: draft
-voice_check: human
+voice_check: edited
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
 ---
@@ -65,15 +65,15 @@ A man in the playroom meets other stereotypes. Children's hours meet gendered to
 
 ## Vocation as a word that underpays
 
-Play therapy's public story treats the floor as vocation and the handbook as science. Vocation is a word that has been used to underpay. This pack will not compliment women for sitting on the floor. Sitting on the floor is work. Membership numbers and pay gaps need a year you can `[VERIFY]`. Until then, the hallway-versus-slide tension is the load-bearing fact. Do not write a recruitment ad.
+Play therapy's public story treats the floor as vocation and the handbook as science. Vocation is a word that has been used to underpay. This series will not compliment women for sitting on the floor. Sitting on the floor is work. Membership numbers and pay gaps need a year you can `[VERIFY]`. Until then, the hallway-versus-slide tension is the load-bearing fact. Do not write a recruitment ad.
 
 ## Microphones, floors, and three jobs that are not one person
 
-The person who answers the phone, the person who sits on the floor, and the person whose name is on the handbook are not always the same person. Origin slides hide that split. Hallways show it. "Father" sentences hide it again. This pack banned the crown unless quoting a myth. Hours as a quality signal hide the unpaid extra time. Filial work hid "mother" in the hearing even when the 1964 paper said parent. Name the hearing.
+The person who answers the phone, the person who sits on the floor, and the person whose name is on the handbook are not always the same person. Origin slides hide that split. Hallways show it. "Father" sentences hide it again. This series banned the crown unless quoting a myth. Hours as a quality signal hide the unpaid extra time. Filial work hid "mother" in the hearing even when the 1964 paper said parent. Name the hearing.
 
 ## Unpaid extra time as a hidden hour requirement
 
-RPT-style hours assume a person can stay after a caseload. Staying after is unpaid more often than handbooks admit. A majority-women workforce already leaning underpaid will feel that hidden hour as a gate, not as a quality bar. This pack will not abolish hours. It will not treat hours as pure signal. Verify membership percents before you print them. Until then, hallway versus slide is the fact.
+RPT-style hours assume a person can stay after a caseload. Staying after is unpaid more often than handbooks admit. A majority-women workforce already leaning underpaid will feel that hidden hour as a gate, not as a quality bar. This series will not abolish hours. It will not treat hours as pure signal. Verify membership percents before you print them. Until then, hallway versus slide is the fact.
 
 Hallway versus slide. Floor versus microphone. Vocation as a word that underpays. Hidden extra hours as a gate. Filial hearings that said mother. No recruitment ad. No father-crown except as quoted myth. Verify percents before you print them.
 

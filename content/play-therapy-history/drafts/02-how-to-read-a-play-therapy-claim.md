@@ -15,7 +15,7 @@ citations:
   - "Guerney, Bernard, Jr. Journal of Consulting Psychology 28 (1964): 304–310."
   - "Association for Play Therapy. Credential manuals as dated association objects."
 status: draft
-voice_check: human
+voice_check: edited
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
 ---

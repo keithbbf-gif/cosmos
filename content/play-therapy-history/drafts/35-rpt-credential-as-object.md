@@ -13,7 +13,7 @@ portrait: none
 citations:
   - "Association for Play Therapy. RPT / RPT-S credential manuals as dated association objects."
 status: draft
-voice_check: human
+voice_check: edited
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
 ---
@@ -44,7 +44,7 @@ Do not treat the credential as a quality guarantee. It is a membership-path guar
 
 ## Why a small-city parent meets the letters
 
-A directory search. A Psychology Today filter. A colleague's email signature. The letters travel farther than the manuals. This pack's job is to slow the letters down long enough to say what they are made of: dues, hours, a society founded in 1982, a journal founded in 1992, and a legal floor that is still the state.
+A directory search. A Psychology Today filter. A colleague's email signature. The letters travel farther than the manuals. This series's job is to slow the letters down long enough to say what they are made of: dues, hours, a society founded in 1982, a journal founded in 1992, and a legal floor that is still the state.
 
 The next essay is Eliana Gil, a living author whose public books made trauma-and-play a lane inside the same society.
 
@@ -60,7 +60,7 @@ Do not print "licensed play therapist" on a WOW page unless a statute uses those
 
 ## Directories, signatures, and a filter a parent can click
 
-Psychology Today filters and email signatures carry the letters farther than the manuals. This pack slows the letters: dues, hours, a 1982 society, a 1992 journal, a state license underneath. Do not put RPT in schema as a medical qualification. Do not invent a clinical director. International "equivalence" is an employer wish. Historians should not flatten it.
+Psychology Today filters and email signatures carry the letters farther than the manuals. This series slows the letters: dues, hours, a 1982 society, a 1992 journal, a state license underneath. Do not put RPT in schema as a medical qualification. Do not invent a clinical director. International "equivalence" is an employer wish. Historians should not flatten it.
 
 ## Tolls, flights, and who can sit extra hours
 
@@ -68,7 +68,7 @@ A credential with hours assumes a person can sit extra time, pay fees, and somet
 
 ## Association English, state English
 
-RPT is Association English. LPC is state English. School counselor is another statute. Child life is another letterhead. This pack will not let a directory filter merge them. Manuals rewrite hours; reprinting a table here would go stale and would be a how-to. a4pt.org holds the current table. This page holds the type of object: a toll, a path, a membership guarantee, not a sacrament and not a license.
+RPT is Association English. LPC is state English. School counselor is another statute. Child life is another letterhead. This series will not let a directory filter merge them. Manuals rewrite hours; reprinting a table here would go stale and would be a how-to. a4pt.org holds the current table. This page holds the type of object: a toll, a path, a membership guarantee, not a sacrament and not a license.
 
 Association English versus state English. Hours change; tables go stale; a4pt.org holds the current one. Toll, path, membership guarantee. Not a sacrament. Not a license. Three file cabinets. No schema medical qualification. No invented director.
 

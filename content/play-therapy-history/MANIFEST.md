@@ -10,7 +10,8 @@ Do not write to live wowtherapies.com from this folder.
 | --- | --- |
 | `INDEX.md` | Calendar, stages, slugs |
 | `MANIFEST.md` | This inventory |
-| `STYLE_GUIDE.md` | Voice bans + `voice_check: human` |
+| `STYLE_GUIDE.md` | Voice bans + `voice_check: human` / `edited` |
+| `EDITOR_REPORT.md` | Editor pass stamp (2026-09-14) |
 | `CLAIMS_GUARDRAILS.md` | On-site never-say list |
 | `BIBLIOGRAPHY.md` | Consolidated citations |
 | `PORTRAIT_SOURCES.md` | PD/CC or honest blank |

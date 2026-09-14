@@ -15,7 +15,7 @@ citations:
   - "Piaget, Jean. Play, Dreams and Imitation in Childhood. Norton, 1951."
   - "Erikson, Erik H. Childhood and Society. Norton, 1950."
 status: draft
-voice_check: human
+voice_check: edited
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
 ---

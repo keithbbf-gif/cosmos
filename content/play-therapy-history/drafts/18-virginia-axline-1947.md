@@ -14,7 +14,7 @@ citations:
   - "Axline, Virginia M. Play Therapy: The Inner Dynamics of Childhood. Houghton Mifflin, 1947."
   - "Rogers, Carl R. Journal of Consulting Psychology 21 (1957): 95–103."
 status: draft
-voice_check: human
+voice_check: edited
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
 ---
@@ -61,13 +61,13 @@ The next essay is the 1964 book that made a single child famous, and made later 
 
 Axline completed an Ed.D. at Teachers College in 1950. She taught at Chicago, Columbia, NYU, and again in Ohio, and kept a practice. The public objects remain 1947 and 1964. The career matters because later slides treat her as a single title. She was a working counselor-educator in the Rogers weather, then in her own.
 
-The eight principles later trainings numbered are in the 1947 book. This pack will not number them. Numbering is how a stance becomes a laminate. A laminate is a protocol. We will say the book offered principles. We will not offer them.
+The eight principles later trainings numbered are in the 1947 book. This series will not number them. Numbering is how a stance becomes a laminate. A laminate is a protocol. We will say the book offered principles. We will not offer them.
 
 She was born 31 March 1911 and died 21 March 1988 — the year the UNT Center opened, six years after APT. The calendar is tight. "Axlinean" and "Landrethian" are later nicknames. The documents have dates. Houghton Mifflin 1947 is not Routledge 2012.
 
 ## Ohio, then the coasts, then Ohio again
 
-Standard biographical notices put her in Columbus, Chicago, New York, and back. The migrations matter because later slides freeze her in 1947. She kept working. *Dibs* is 1964. The death year is 1988. Houghton Mifflin is the 1947 publisher; later paperbacks are later objects. This pack will not laminate the principles. It will keep the 1947 title page as the American non-directive date that is not year zero.
+Standard biographical notices put her in Columbus, Chicago, New York, and back. The migrations matter because later slides freeze her in 1947. She kept working. *Dibs* is 1964. The death year is 1988. Houghton Mifflin is the 1947 publisher; later paperbacks are later objects. This series will not laminate the principles. It will keep the 1947 title page as the American non-directive date that is not year zero.
 
 ## Claims box
 

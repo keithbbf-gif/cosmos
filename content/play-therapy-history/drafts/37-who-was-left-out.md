@@ -14,7 +14,7 @@ citations:
   - "Guthrie, Robert V. Even the Rat Was White. 2nd ed. 1998 (sister-pack weather for psychology's census)."
   - "Association for Play Therapy. Membership and conference programs as dated objects."
 status: draft
-voice_check: human
+voice_check: edited
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
 ---
@@ -35,11 +35,11 @@ Colonial psychiatry — Fanon, later liberation psychologies — belongs next do
 
 The next essay is gender. This paragraph is race and class inside the workforce. APT conference photographs, like most American specialty-society photographs, have a documented paleness in the early decades. That is not an insult to the people in the room. It is a fact about who could afford the hours, the dues, the flights to Denton, and the unpaid internships. A credential with a toll will reproduce a class.
 
-Non-U.S. associations — BAPT, later Latin American and East Asian play-therapy groups — are not "international color" for an American journal. They are other file cabinets. This pack named Britain because the Lowenfeld debt required it. A later writer who opens a Japanese or Mexican society history should open a new essay, not a sentence at the end of this one.
+Non-U.S. associations — BAPT, later Latin American and East Asian play-therapy groups — are not "international color" for an American journal. They are other file cabinets. This series named Britain because the Lowenfeld debt required it. A later writer who opens a Japanese or Mexican society history should open a new essay, not a sentence at the end of this one.
 
 ## Which languages were allowed
 
-Axline's hour assumes a child who will eventually use words the adult shares, or toys the adult can narrate in English. School-based work in a bilingual district knows this is a fantasy. SLPWOW's lane owns language as a profession. This pack owns the quieter theft: a play therapist who "just reflects" is still reflecting in a language. The reflection is not neutral.
+Axline's hour assumes a child who will eventually use words the adult shares, or toys the adult can narrate in English. School-based work in a bilingual district knows this is a fantasy. SLPWOW's lane owns language as a profession. This series owns the quieter theft: a play therapist who "just reflects" is still reflecting in a language. The reflection is not neutral.
 
 Indigenous play, kinship, and land are not a preface to Freud and not a preface to APT. If they appear in a clinic, they appear because a specific community built a specific program. This website does not have that program's consent to summarize it as heritage flavor.
 
@@ -57,7 +57,7 @@ Child-guidance intake was never a random sample. Commonwealth Fund boards saw th
 
 Mamie Phipps Clark's doll studies (sister pack) are psychology's public race document. They are not a play-therapy origin and not free decoration. They are a reminder that a doll can be an instrument in a fight about schools.
 
-APT conference photographs in the early decades have a documented paleness. That is a fact about who could afford hours, dues, and Denton flights. A credential with a toll reproduces a class. Non-U.S. societies are other file cabinets, not color for an American journal. This pack named Britain because Lowenfeld required it. A Japanese or Mexican society history deserves its own essay, not a garnish sentence.
+APT conference photographs in the early decades have a documented paleness. That is a fact about who could afford hours, dues, and Denton flights. A credential with a toll reproduces a class. Non-U.S. societies are other file cabinets, not color for an American journal. This series named Britain because Lowenfeld required it. A Japanese or Mexican society history deserves its own essay, not a garnish sentence.
 
 Axline's hour assumes a shared language or toys the adult can narrate. A bilingual district knows that is a fantasy. Indigenous play and land are not a preface to Freud. If they appear in a clinic, they appear because a community built a program this website does not have consent to flavor.
 
@@ -67,7 +67,7 @@ Arkansas is not Vienna and not Denton. A child in a Delta county meets a differe
 
 ## Language is not a neutral reflection
 
-A play therapist who "just reflects" still reflects in a language. The reflection is not neutral. SLPWOW owns language as a profession. This pack owns the quieter theft. A tray stocked from a U.S. hobby shop is a shop, not a world. Colonial psychiatry belongs next door as politics; here it is a warning against universal symbols. No garnish name at the end. No stock diversity photograph.
+A play therapist who "just reflects" still reflects in a language. The reflection is not neutral. SLPWOW owns language as a profession. This series owns the quieter theft. A tray stocked from a U.S. hobby shop is a shop, not a world. Colonial psychiatry belongs next door as politics; here it is a warning against universal symbols. No garnish name at the end. No stock diversity photograph.
 
 ## Claims box
 

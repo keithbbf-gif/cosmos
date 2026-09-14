@@ -15,7 +15,7 @@ citations:
   - "Kalff, Dora M. Sandplay. 1980."
   - "Homeyer, Linda E., and Daniel S. Sweeney. Sandtray Therapy (later manuals as dated objects)."
 status: draft
-voice_check: human
+voice_check: edited
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
 ---
@@ -34,7 +34,7 @@ Class walks in with the catalog. A tray stocked from a teacher's-supply store lo
 
 ## Photographs, copyright, and other people's worlds
 
-Sandplay books like pictures. A finished world photographs well. The ethical problem is not subtle. A child's or a patient's arrangement is not a stock image. Estates, institutes, and living people have interests. This pack's photo rules ban patient worlds as decoration. A graphics agent who wants a lead image can set type, or a photograph of an *empty* tray the practice owns and has rights to, with no scene.
+Sandplay books like pictures. A finished world photographs well. The ethical problem is not subtle. A child's or a patient's arrangement is not a stock image. Estates, institutes, and living people have interests. This series's photo rules ban patient worlds as decoration. A graphics agent who wants a lead image can set type, or a photograph of an *empty* tray the practice owns and has rights to, with no scene.
 
 Workshops that circulate slides of "typical" worlds are doing a teaching job this website will not do. They are also, sometimes, doing a diagnostic job in public. A history page that captions a scene as "the abandoned child archetype" has left history and entered a reading. We will not.
 
@@ -66,7 +66,7 @@ Blue sand, dry sand, wet sand: later trainings argued as if the moisture were a 
 
 Miniatures have copyrights. Disney figures on a tray are a legal problem as well as a symbolic one. A history page can say that a late-century tray often included licensed plastic. It cannot tell you what the plastic "means."
 
-The catalog flattened three names — World Technique, sandplay, sandtray — into one shopping category. Flattening is the market's job. Unflattening is this pack's job. If a parent in Arkansas hears "we use sand," the honest follow-up is "which training," not "what did the buried horse mean."
+The catalog flattened three names — World Technique, sandplay, sandtray — into one shopping category. Flattening is the market's job. Unflattening is this series's job. If a parent in Arkansas hears "we use sand," the honest follow-up is "which training," not "what did the buried horse mean."
 
 ## Three names at one cash register
 

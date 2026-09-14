@@ -14,7 +14,7 @@ citations:
   - "Jernberg, Ann M. Theraplay. Jossey-Bass, 1979."
   - "Association for Play Therapy. First-board lists (Jernberg)."
 status: draft
-voice_check: human
+voice_check: edited
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
 ---
@@ -23,7 +23,7 @@ last_verified: 2026-09-14
 
 Ann M. Jernberg published *Theraplay: A New Treatment Using Structured Play for Problem Children and Their Families* with Jossey-Bass in 1979. The subtitle is a period object. "Problem children" is 1979 clinic English. The book named a method in which the adult is active, structured, and physically in the play — a different posture from Axline's 1947 refusal to steer.
 
-She sat on the Association for Play Therapy's first board after 1982. That membership fact is why Theraplay is inside this pack's profession story and not only a side brand. The later Theraplay Institute is a public organization with its own training economy. This page will not teach dimensions, games, or a "nurture" exercise. It will keep 1979 as a book date.
+She sat on the Association for Play Therapy's first board after 1982. That membership fact is why Theraplay is inside this series's profession story and not only a side brand. The later Theraplay Institute is a public organization with its own training economy. This page will not teach dimensions, games, or a "nurture" exercise. It will keep 1979 as a book date.
 
 ## Structured, and therefore easy to steal
 
@@ -59,11 +59,11 @@ Death dates in circulating notices cluster around 1993 `[VERIFY]`. Until the bib
 
 ## First-board structured play, and a name that still startles
 
-People who think play therapy means sitting still meet 1979 as a shock. That shock is historical. Jernberg gave APT a structured-play founder on the original letterhead. The later Institute is a training economy. This pack will not teach dimensions. It will keep Jossey-Bass 1979 and the first-board fact. Verify the death year before you print it. Physical play has a risk history; the answer belongs in a training.
+People who think play therapy means sitting still meet 1979 as a shock. That shock is historical. Jernberg gave APT a structured-play founder on the original letterhead. The later Institute is a training economy. This series will not teach dimensions. It will keep Jossey-Bass 1979 and the first-board fact. Verify the death year before you print it. Physical play has a risk history; the answer belongs in a training.
 
 ## Why structured play had to be on the 1982 letterhead
 
-An umbrella that only hosted sitting-still hours would have left a 1979 book outside the society. Jernberg on the first board is how the umbrella stayed wide. Wide is Schaefer's later prescriptive habit in social form. This pack will not teach a game. It will keep the shock: play therapy, in one 1979 title, meant an adult who moves. Attachment wrap is later marketing weather. Bowlby stays next door.
+An umbrella that only hosted sitting-still hours would have left a 1979 book outside the society. Jernberg on the first board is how the umbrella stayed wide. Wide is Schaefer's later prescriptive habit in social form. This series will not teach a game. It will keep the shock: play therapy, in one 1979 title, meant an adult who moves. Attachment wrap is later marketing weather. Bowlby stays next door.
 
 Jossey-Bass 1979 used the period phrase problem children. The phrase is 1979 clinic English. Do not sanitize it into wellness copy and do not reuse it as a diagnosis. The book named a structured adult. The later Institute named a training path. This website names the year and refuses the path.
 

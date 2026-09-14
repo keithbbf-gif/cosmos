@@ -15,7 +15,7 @@ citations:
   - "Dignity Memorial. Charles Schaefer obituary. Died 19 September 2020."
   - "Association for Play Therapy. Director Emeritus page."
 status: draft
-voice_check: human
+voice_check: edited
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
 ---
@@ -54,7 +54,7 @@ The next essay is O'Connor, living, public books only, the other name on the 198
 
 ## Teaneck, handbooks, and a television medium
 
-Fairleigh Dickinson University in Teaneck is the New Jersey capital in this pack's map. Schaefer edited *The Therapeutic Use of Child's Play* (Jason Aronson, late 1970s), co-founded APT in 1982, co-edited the 1983 Wiley *Handbook* with O'Connor, and a 1994 second volume. A handbook is how a field tells itself it is a field.
+Fairleigh Dickinson University in Teaneck is the New Jersey capital in this series's map. Schaefer edited *The Therapeutic Use of Child's Play* (Jason Aronson, late 1970s), co-founded APT in 1982, co-edited the 1983 Wiley *Handbook* with O'Connor, and a 1994 second volume. A handbook is how a field tells itself it is a field.
 
 "Prescriptive play therapy" meant matching a method to a problem. Catnip for managed care and for weekends. Also a real editorial stance: the umbrella is wider than CCPT. APT's conference grid is that stance in social form.
 
@@ -68,7 +68,7 @@ Teaneck edited. Denton trained. Fresno mailed. Schaefer's public life is the org
 
 Without an organizer, brilliant rooms never meet. With only an organizer, a society forgets the rooms were not one room. Schaefer's public life is both documents. Fairleigh Dickinson titles, a crying-baby clinic in some FDU stories, Oprah as a medium: confirm extras on pages you hold. The load-bearing objects remain 1982, 1983, 1994, and 19 September 2020. Quote the father-myth. Do not wear it.
 
-Child Magazine named a 1992 parenting title of his Book of the Year in circulating notices — a popular-press fact, not a clinical finding. Confirm if you print it. The load-bearing public objects remain the Association, the handbooks, Fairleigh Dickinson, and the 2020 death notice. Organizing is the job this pack will credit. Inventing play is the job this pack will refuse to hand him.
+Child Magazine named a 1992 parenting title of his Book of the Year in circulating notices — a popular-press fact, not a clinical finding. Confirm if you print it. The load-bearing public objects remain the Association, the handbooks, Fairleigh Dickinson, and the 2020 death notice. Organizing is the job this series will credit. Inventing play is the job this series will refuse to hand him.
 
 1933–2020. Teaneck. 1982. 1983. 1994. Quote father-myth. Do not wear it. Organizer, not inventor. Handbooks as institutions. Television as a medium. Study group as a workshop fact. Three capitals on the map.
 

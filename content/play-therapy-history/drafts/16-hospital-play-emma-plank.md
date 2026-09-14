@@ -14,7 +14,7 @@ citations:
   - "Plank, Emma N. Working with Children in Hospitals. 1962."
   - "Association for the Care of Children's Health / child-life histories as dated society pages."
 status: draft
-voice_check: human
+voice_check: edited
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
 ---
@@ -41,7 +41,7 @@ Levy's 1938 "release therapy" sometimes gets cited as a cousin. Cousin is close 
 
 ## Plank as a figure without a cult
 
-This pack could have given Plank a solo figure essay. It did not, because her public object is a book about a *setting*. The setting is the point. She is easy to praise and easy to ignore: praise in child-life graduations, ignore in APT exam study guides that prefer Axline and Landreth. Both habits are historical. A therapy-history series that never mentions the ward is pretending children only suffer in outpatient hours.
+This series could have given Plank a solo figure essay. It did not, because her public object is a book about a *setting*. The setting is the point. She is easy to praise and easy to ignore: praise in child-life graduations, ignore in APT exam study guides that prefer Axline and Landreth. Both habits are historical. A therapy-history series that never mentions the ward is pretending children only suffer in outpatient hours.
 
 ## Portrait
 
@@ -55,9 +55,9 @@ If you want a play-therapy credential, that is APT or a university certificate �
 
 ## Child life as a letterhead history
 
-American child-life work changed society names. The Association for the Care of Children's Health is one ancestor in that letterhead. Later child-life specialists sat exams this pack will not outline. The exam is a profession object. It is not an RPT. It is not a play-therapy hour in an outpatient clinic.
+American child-life work changed society names. The Association for the Care of Children's Health is one ancestor in that letterhead. Later child-life specialists sat exams this series will not outline. The exam is a profession object. It is not an RPT. It is not a play-therapy hour in an outpatient clinic.
 
-Plank's 1962 book treated play, schooling, and ordinary talk as part of hospital care. Viennese-born, she wrote across a European and American ward memory. The book is why this pack can put a date on the American *staff-role* claim. Toys in a 1890s ward corner were hospitality. 1962 is a named job.
+Plank's 1962 book treated play, schooling, and ordinary talk as part of hospital care. Viennese-born, she wrote across a European and American ward memory. The book is why this series can put a date on the American *staff-role* claim. Toys in a 1890s ward corner were hospitality. 1962 is a named job.
 
 British hospital play staff organized their name and their association on their own clock. Use their pages. Do not flatten them into BAPT or APT. A ward is a patron. A weekly mental-health hour is a different patron. The child may be the same child. The note is not.
 
@@ -65,13 +65,13 @@ Preparation literature — dolls, syringes, rehearsal — is a genre with a team
 
 ## Two patrons, one child, two notes
 
-A surgeon's schedule and a therapist's Tuesday can share a child and not share a file. Child-life notes live in a medical chart. Play-therapy notes, if they exist, live in a mental-health chart. Parents hear "play" twice and think they heard one job. This pack exists to split the hearing. Plank 1962 is the American staff-role date. British hospital play staff pages are the other letterhead. APT is neither.
+A surgeon's schedule and a therapist's Tuesday can share a child and not share a file. Child-life notes live in a medical chart. Play-therapy notes, if they exist, live in a mental-health chart. Parents hear "play" twice and think they heard one job. This series exists to split the hearing. Plank 1962 is the American staff-role date. British hospital play staff pages are the other letterhead. APT is neither.
 
 ## Why APT exam slides often skip the ward
 
 Play-therapy exams prefer Axline and Landreth. Child-life graduations prefer Plank. Both habits are historical. A therapy-history series that never mentions the ward is pretending children only suffer in outpatient hours. A hospitalized child is a captive audience. Toys appear. So do boredom and a dressing change. 1962 named a staff role. 1890s corners were hospitality. The difference is a job title and a book.
 
-Emma Plank's name is easy to praise at a graduation and easy to skip on an APT slide. This pack put her in an era essay because the setting is the point. The ward is a patron. The weekly hour is a different patron. Split the hearing.
+Emma Plank's name is easy to praise at a graduation and easy to skip on an APT slide. This series put her in an era essay because the setting is the point. The ward is a patron. The weekly hour is a different patron. Split the hearing.
 
 ## Claims box
 

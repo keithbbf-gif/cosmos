@@ -14,7 +14,7 @@ citations:
   - "Guerney, Bernard, Jr. Filial Therapy: Description and Rationale. Journal of Consulting Psychology 28 (1964): 304–310."
   - "Guerney, Bernard, Louise Guerney, and Michael Andronico. Yale Scientific Magazine 40 (1966)."
 status: draft
-voice_check: human
+voice_check: edited
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
 ---
@@ -31,7 +31,7 @@ Child guidance had already treated the mother as the real patient. Filial therap
 
 Louise Guerney's later teaching and writing made the method a workforce, not only a husband's paper. A history that says "Guerney 1964" and means only Bernard is doing the ordinary theft. APT's original directors included her. That is a membership fact.
 
-Bernard Guerney died in 2019 in the public notices this pack has seen `[VERIFY the obituary page before you print the year]`. Louise, at last verification for this draft, is to be treated as a living person unless a public death notice is added to `BIBLIOGRAPHY.md`. Living-person rules: public books and interviews only.
+Bernard Guerney died in 2019 in the public notices this series has seen `[VERIFY the obituary page before you print the year]`. Louise, at last verification for this draft, is to be treated as a living person unless a public death notice is added to `BIBLIOGRAPHY.md`. Living-person rules: public books and interviews only.
 
 ## What filial is not
 
@@ -61,13 +61,13 @@ Filial is not CCPT with the child only, not "go play with your kid," not Therapl
 
 ## A rationale paper, then a workforce, then a market
 
-1964 is a journal. 1966 is a magazine. The 1982 board is a membership. Later session-count models are a market. This pack will keep those layers. Parents as agents was a clinic claim with supervision, not a blog. If a later editor confirms Bernard's 2019 notice and Louise's status, file both in `BIBLIOGRAPHY.md`. Until then, write as if a Guerney can read the page.
+1964 is a journal. 1966 is a magazine. The 1982 board is a membership. Later session-count models are a market. This series will keep those layers. Parents as agents was a clinic claim with supervision, not a blog. If a later editor confirms Bernard's 2019 notice and Louise's status, file both in `BIBLIOGRAPHY.md`. Until then, write as if a Guerney can read the page.
 
 ## Supervision is the word blogs drop
 
-The 1964 rationale assumes a clinic that trains and watches. Blogs keep "parent" and drop "supervised." This pack will keep supervised. Louise Guerney on the first APT board is the membership fact that stops a husband-only citation. VanFleet is a later living line: public titles only. Denton filial formats are descendants. 1964 is the parent paper, not the market.
+The 1964 rationale assumes a clinic that trains and watches. Blogs keep "parent" and drop "supervised." This series will keep supervised. Louise Guerney on the first APT board is the membership fact that stops a husband-only citation. VanFleet is a later living line: public titles only. Denton filial formats are descendants. 1964 is the parent paper, not the market.
 
-Andronico on the 1966 magazine piece is a third name this pack will not drop. A rationale that traveled into *Yale Scientific* was already trying to leave the journal. Leaving the journal is how a clinic idea becomes a public rumor. The rumor dropped supervision. We will not.
+Andronico on the 1966 magazine piece is a third name this series will not drop. A rationale that traveled into *Yale Scientific* was already trying to leave the journal. Leaving the journal is how a clinic idea becomes a public rumor. The rumor dropped supervision. We will not.
 
 ## Claims box
 

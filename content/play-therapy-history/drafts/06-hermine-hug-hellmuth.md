@@ -14,7 +14,7 @@ citations:
   - "Hug-Hellmuth, Hermine. On the Technique of Child-Analysis. International Journal of Psycho-Analysis 2 (1921): 287–305."
   - "MacLean, George, and Ulrich Rappen. Hermine Hug-Hellmuth: Her Life and Work. Routledge, 1991."
 status: draft
-voice_check: human
+voice_check: edited
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
 ---
@@ -61,7 +61,7 @@ The next two essays take the people who *did* live long enough to found camps: A
 
 The Vienna Psychoanalytic Society did not hand out founder medals for child work. Hug-Hellmuth presented, published, and taught in a circle that still treated the adult hour as the real hour. A 1921 English-language *IJP* essay is how the English-speaking world got a technique paper without waiting for Klein's 1932 book. That is a transmission fact. It is not a claim that London read her carefully. Many later syllabi did not read her at all.
 
-MacLean and Rappen (1991) reconstructed a life from a thin archive. Thin is the point. A murdered analyst leaves fewer boxes. Later writers who want a clean origin story skip the thin box. This pack will not skip it, and will not fill it with invention.
+MacLean and Rappen (1991) reconstructed a life from a thin archive. Thin is the point. A murdered analyst leaves fewer boxes. Later writers who want a clean origin story skip the thin box. This series will not skip it, and will not fill it with invention.
 
 She also published on children's mental life in the 1910s, including work later scholars have worried over for authorship and for the ethics of using a child's writing. Those worries are part of the record. They are not a key to the 1921 technique paper, and they are not a true-crime subplot. Name the worry. Do not embroider the nephew.
 

@@ -14,7 +14,7 @@ citations:
   - "Klein, Melanie. The Psycho-Analysis of Children. Hogarth, 1932."
   - "King, Pearl, and Riccardo Steiner, eds. The Freud–Klein Controversies 1941–45. Routledge, 1991."
 status: draft
-voice_check: human
+voice_check: edited
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
 ---

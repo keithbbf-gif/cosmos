@@ -14,7 +14,7 @@ citations:
   - "Bratton, Sue C., Dee Ray, Tammy Rhine, and Leslie Jones. Professional Psychology 36 (2005): 376–390."
   - "Chambless, Dianne L., and colleagues. EST lists as professional-history objects (sister pack)."
 status: draft
-voice_check: human
+voice_check: edited
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
 ---
@@ -41,7 +41,7 @@ Later school-based CCPT studies tried to be the better object. Critics asked abo
 
 The leak happens in the last paragraph. A writer has stayed historical for two thousand words and then offers "five ways to try play at home." The five ways are the article. Everything else was bait.
 
-This pack's first essay promised not to take the bait. The temptation will return in the graphics pass, in the SEO pass, in the "related services" plugin. Watch the plugin.
+This series's first essay promised not to take the bait. The temptation will return in the graphics pass, in the SEO pass, in the "related services" plugin. Watch the plugin.
 
 A milder leak is the thought record for parents, the feelings chart, the "ask your child these questions." Milder is still a session. We will not.
 

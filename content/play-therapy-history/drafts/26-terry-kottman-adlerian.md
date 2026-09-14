@@ -14,7 +14,7 @@ citations:
   - "Kottman, Terry. Partners in Play: An Adlerian Approach to Play Therapy. ACA, 1995."
   - "Adler, Alfred. Understanding Human Nature. 1927 (sister-pack weather)."
 status: draft
-voice_check: human
+voice_check: edited
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
 ---
@@ -47,7 +47,7 @@ Type only: "Terry Kottman" and the 1995 title.
 
 APT's umbrella is wide enough for a 1995 Adlerian textbook. The Association did not have to invent Adler. It had to host a counseling-school translation. That translation is the historical event. Individual Psychology's older books are the weather.
 
-If you want Adler the person, go next door. If you want the play-school name, 1995 is the date this pack will print.
+If you want Adler the person, go next door. If you want the play-school name, 1995 is the date this series will print.
 
 ## ACA 1995, and a counseling-school translation
 
@@ -59,7 +59,7 @@ She is living (2026-09-14). The sentence stops at the title page, the publisher,
 
 ## Individual Psychology's older books, and a 1995 door into counseling exams
 
-Adler and Dreikurs already had publics. 1995 is the ACA door into play-therapy syllabi. This pack will not reprint a lifestyle form or a four-goals list. Living author: title page only. Sister slug for the Viennese life. APT's grid could host 1995 without inventing Adler. That hosting is the event.
+Adler and Dreikurs already had publics. 1995 is the ACA door into play-therapy syllabi. This series will not reprint a lifestyle form or a four-goals list. Living author: title page only. Sister slug for the Viennese life. APT's grid could host 1995 without inventing Adler. That hosting is the event.
 
 ## Counseling exams, and a school that needed a play textbook
 
@@ -71,9 +71,9 @@ Counselor-education programs could now order an Adlerian play text from the same
 
 Later printings added research chapters and classroom aids. Classroom aids are how a book starts to look like a coursepack. A coursepack pasted onto a history URL is a protocol. We will cite the edition and leave the aids on the shelf.
 
-She remains living at last verification. The living-person essay applies. Title page, publisher, year. No workshop aside. No face. Sister pack for Vienna. This pack for the counseling-exam door.
+She remains living at last verification. The living-person essay applies. Title page, publisher, year. No workshop aside. No face. Sister pack for Vienna. This series for the counseling-exam door.
 
-1995 is an ACA spine, not a Viennese founding. Living author. Title page only. No four-goals reprint. No lifestyle form. Sister slug for Adler. This pack for the counseling-exam door and the later editions you should cite if you hold them.
+1995 is an ACA spine, not a Viennese founding. Living author. Title page only. No four-goals reprint. No lifestyle form. Sister slug for Adler. This series for the counseling-exam door and the later editions you should cite if you hold them.
 
 A play-therapy history that skipped 1995 would pretend counseling exams never needed an Adlerian door. They did. The door is a spine. The life is next door. The forms stay on the shelf. Living author, public documents, no face.
 

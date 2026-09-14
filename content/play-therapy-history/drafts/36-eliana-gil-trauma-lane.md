@@ -14,7 +14,7 @@ citations:
   - "Gil, Eliana. The Healing Power of Play: Working with Abused Children. Guilford, 1991."
   - "Gil, Eliana. Play in Family Therapy. Guilford, 1994."
 status: draft
-voice_check: human
+voice_check: edited
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
 ---
@@ -29,7 +29,7 @@ The sister pack already has a trauma-lineages era and a Judith Herman figure ess
 
 APT's umbrella could host child-centered hours that never named abuse and hours that named little else. Gil's 1991 book made the second lane visible as a *book* a library could order. Family play (1994) made a third visibility: the child is not the only body in the method.
 
-Later trauma manuals — including ones that use play as a delivery device for cognitive-behavioral tasks — are other objects. They have other authors, many living. This pack will not smuggle a TF-CBT worksheet into a Gil essay. If a later writer wants that object, they can open a folder that is willing to be about CBT-for-children as history. This folder is not.
+Later trauma manuals — including ones that use play as a delivery device for cognitive-behavioral tasks — are other objects. They have other authors, many living. This series will not smuggle a TF-CBT worksheet into a Gil essay. If a later writer wants that object, they can open a folder that is willing to be about CBT-for-children as history. This folder is not.
 
 ## Living-person rule, applied
 
@@ -51,7 +51,7 @@ The next stage of the series leaves founders and asks who was never in the photo
 
 *The Healing Power of Play* (1991) made abuse-and-play visible as a library book. *Play in Family Therapy* (1994) made a third visibility: the child is not the only body in the method. Herman's *Trauma and Recovery* (1992) is sister-pack weather — same American moment, different room.
 
-Later trauma manuals that use play as a delivery device for cognitive-behavioral tasks are other objects, other living authors. This pack will not smuggle a worksheet. If someone wants child-CBT-with-play as history, they can open a folder willing to be about that. This one is not.
+Later trauma manuals that use play as a delivery device for cognitive-behavioral tasks are other objects, other living authors. This series will not smuggle a worksheet. If someone wants child-CBT-with-play as history, they can open a folder willing to be about that. This one is not.
 
 She is living (2026-09-14). Title pages only. No speaker-bureau inventory. No scraped face. No retelling of an abused child's play as color. No trauma toy list. No PTSD booking CTA. Refrigerator-mother stories, if they appear in older literature, appear as harm.
 
@@ -59,11 +59,11 @@ She is living (2026-09-14). Title pages only. No speaker-bureau inventory. No sc
 
 ## Early 1990s American weather, two rooms
 
-Herman 1992 and Gil 1991/1994 share a decade and split a room. This pack will not merge them. Guilford is the imprint. Living author: title pages only. No worksheet from a later CBT-with-play manual. No booking CTA. The waiting-room pair "trauma" and "play" is why a parent lands on a 1991 title. Put the title in 1991. Refuse the how-to.
+Herman 1992 and Gil 1991/1994 share a decade and split a room. This series will not merge them. Guilford is the imprint. Living author: title pages only. No worksheet from a later CBT-with-play manual. No booking CTA. The waiting-room pair "trauma" and "play" is why a parent lands on a 1991 title. Put the title in 1991. Refuse the how-to.
 
 ## Family play as a third visibility
 
-1994 made the child not the only body in the method. That is a publishing fact, not a session. 1991 made abuse-and-play a Guilford object. Later CBT-with-play manuals are other living authors and another folder's problem. This pack will not smuggle their worksheets. Herman 1992 stays next door. No atrocity headers. No child retellings. Living author, title pages, refuse the CTA.
+1994 made the child not the only body in the method. That is a publishing fact, not a session. 1991 made abuse-and-play a Guilford object. Later CBT-with-play manuals are other living authors and another folder's problem. This series will not smuggle their worksheets. Herman 1992 stays next door. No atrocity headers. No child retellings. Living author, title pages, refuse the CTA.
 
 Guilford 1991 and 1994 are enough spine. Later related titles exist; cite if you hold them. Living author. No speaker bureau. No trauma toy list. The sister-pack trauma era owns shell shock to complex PTSD. This lane owns a play-and-child Guilford moment in the same early 1990s. Same decade. Different room. Do not merge to save a heading.
 

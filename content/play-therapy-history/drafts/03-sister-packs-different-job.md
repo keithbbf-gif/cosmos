@@ -15,7 +15,7 @@ citations:
   - "Winnicott, D. W. Playing and Reality. Tavistock, 1971."
   - "Freud, Anna. Einführung in die Technik der Kinderanalyse. 1927."
 status: draft
-voice_check: human
+voice_check: edited
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
 ---
@@ -50,9 +50,9 @@ CBT deepen (`content/cbt-history-deep/`) owns thought records and East 65th Stre
 
 ## How to use the cross-links
 
-Internal links in this pack should stay inside the forty-five slugs unless the sentence truly needs the sister figure. Then the link is "see also," not a paste. Do not import the Freud essay. Do not import the Van Riper essay. A hub page may list both calendars. A single URL should not pretend to be both.
+Internal links in this series should stay inside the forty-five slugs unless the sentence truly needs the sister figure. Then the link is "see also," not a paste. Do not import the Freud essay. Do not import the Van Riper essay. A hub page may list both calendars. A single URL should not pretend to be both.
 
-Graphics must not reuse SLP oral-mechanism diagrams as "play" decoration, and must not reuse a Freud 1909 Halberstadt as if he ran a playroom. Period objects for this pack are title pages, PD toy catalogs, and type. See `PORTRAIT_SOURCES.md`.
+Graphics must not reuse SLP oral-mechanism diagrams as "play" decoration, and must not reuse a Freud 1909 Halberstadt as if he ran a playroom. Period objects for this series are title pages, PD toy catalogs, and type. See `PORTRAIT_SOURCES.md`.
 
 ## A practical test
 

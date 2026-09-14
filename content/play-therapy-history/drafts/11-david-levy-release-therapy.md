@@ -14,7 +14,7 @@ citations:
   - "Levy, David M. Release Therapy. American Journal of Orthopsychiatry 8 (1938): 627–636."
   - "Levy, David M. Studies in Sibling Rivalry. 1936–37 research line."
 status: draft
-voice_check: human
+voice_check: edited
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
 ---
@@ -65,7 +65,7 @@ The 1938 pagination in circulating citations is 627–636. If a later pass opens
 
 The American Orthopsychiatric Association let psychiatrists, social workers, and psychologists talk in one journal. Levy's 1938 paper is an orthopsychiatry object. That is why it can sit on an American timeline without a British Society membership. It is also why "release" traveled into later structured-play talk that never read Klein.
 
-This pack will keep the journal name visible. Dropping it makes 1938 look like a timeless parenting metaphor. It was a paper with pages.
+This series will keep the journal name visible. Dropping it makes 1938 look like a timeless parenting metaphor. It was a paper with pages.
 
 ## Claims box
 

@@ -1,7 +1,7 @@
 ---
 title: "What we opened"
 slug: what-we-opened
-meta_description: "The bibliography as an honesty list: which objects this pack actually named, and which trails stay marked VERIFY."
+meta_description: "The bibliography as an honesty list: which objects this series actually named, and which trails stay marked VERIFY."
 tags:
   - play therapy history
   - bibliography
@@ -13,7 +13,7 @@ portrait: none
 citations:
   - "BIBLIOGRAPHY.md in this folder."
 status: draft
-voice_check: human
+voice_check: edited
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
 ---

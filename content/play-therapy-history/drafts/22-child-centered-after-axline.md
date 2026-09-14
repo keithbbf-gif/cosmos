@@ -15,7 +15,7 @@ citations:
   - "Landreth, Garry L. Play Therapy: The Art of the Relationship. 1991."
   - "Bratton, Ray, Rhine, and Jones. Professional Psychology 36 (2005)."
 status: draft
-voice_check: human
+voice_check: edited
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
 ---
@@ -32,7 +32,7 @@ Axline described a non-directive hour. Moustakas described a living relationship
 
 Short names do two jobs. They let a meta-analysis put papers in a pile (Bratton, Ray, Rhine, and Jones, 2005, had to decide what counted). They also let a workshop sell a weekend as if the initials were a complete training. The pile is a research decision. The weekend is a market decision. This series will not confuse them.
 
-Dee Ray and colleagues at UNT and elsewhere spent the 2000s publishing school-based CCPT outcome papers. Those papers are later objects. Cite the one you open. Do not invent a count. The school-based essay in this pack stays with the building. This essay stays with the label.
+Dee Ray and colleagues at UNT and elsewhere spent the 2000s publishing school-based CCPT outcome papers. Those papers are later objects. Cite the one you open. Do not invent a count. The school-based essay in this series stays with the building. This essay stays with the label.
 
 ## Films, and the hour you can rewind
 
@@ -54,7 +54,7 @@ It did not spread because 1947 ended the argument about interpretation. The argu
 
 ## Initials, films, and a study that can be coded
 
-CCPT is a late name for a 1947 stance. Initials let a meta-analysis pile papers and let a weekend sell a complete training. The pile is a research decision. The weekend is a market decision. This pack will not confuse them.
+CCPT is a late name for a 1947 stance. Initials let a meta-analysis pile papers and let a weekend sell a complete training. The pile is a research decision. The weekend is a market decision. This series will not confuse them.
 
 Films from UNT and other centers made the hour rewindable. A method that can be filmed can be coded. A method that can be coded can be put in a journal. A method that can be put in a journal can be put on a flyer that skips the sample. Unfilmed private-practice hours still happen. They are harder to count. The evidence-fights essay returns to that.
 
@@ -66,9 +66,9 @@ CCPT is not Klein, not sandplay, not Theraplay, not filial (though filial trains
 
 CCPT became the American counseling default because it is teachable, filmable, and free of a British Society vote. It did not become the human default. Analytic institutes kept interpreting. Trauma trainings returned to structure. Sandplay kept a tray. The label spread because Axline was already in the library and Landreth told a program how to look like a program. A default is a sociology. It is not a child's need.
 
-## Weekends, piles, and the difference this pack will not blur
+## Weekends, piles, and the difference this series will not blur
 
-A meta-analysis pile and a weekend complete-training are both uses of the initials CCPT. Only one is a research decision. This pack will keep saying which. Films made coding possible. Coding made journals possible. Journals made flyers possible. Flyers skip samples. Unfilmed hours still happen. They are the more common hour. A history that only counts what was filmed has described a lab, not a county.
+A meta-analysis pile and a weekend complete-training are both uses of the initials CCPT. Only one is a research decision. This series will keep saying which. Films made coding possible. Coding made journals possible. Journals made flyers possible. Flyers skip samples. Unfilmed hours still happen. They are the more common hour. A history that only counts what was filmed has described a lab, not a county.
 
 Ray's school papers and Landreth's course-shaped book made CCPT countable and teachable. Countable is not destiny. Teachable is not a child's need. A parent who hears play therapy and a student who hears CCPT still did not hear the same sentence. Keep the initials late. Keep 1947 as a stance without the brand.
 
@@ -76,7 +76,7 @@ The initials are late. The stance is 1947. The course is 1991. The school studie
 
 If a later writer wants a count of school-based CCPT trials, they must open the trials. This draft will not invent a number. Invented numbers are the other way a stance becomes a slogan. Keep 1947, 1991, 2000s, and 2005 on four shelves. The weekend is a fifth object and a market.
 
-Four shelves and a market: 1947 stance, 1991 course, 2000s school papers, 2005 pile, weekend sold as complete. This pack will not blur them. The next essays leave the initials for other schools that never agreed to be CCPT.
+Four shelves and a market: 1947 stance, 1991 course, 2000s school papers, 2005 pile, weekend sold as complete. This series will not blur them. The next essays leave the initials for other schools that never agreed to be CCPT.
 
 ## Claims box
 

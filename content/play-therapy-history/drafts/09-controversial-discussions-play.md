@@ -15,7 +15,7 @@ citations:
   - "Klein, Melanie. The Psycho-Analysis of Children. Hogarth, 1932."
   - "Freud, Anna. Einführung in die Technik der Kinderanalyse. 1927."
 status: draft
-voice_check: human
+voice_check: edited
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
 ---

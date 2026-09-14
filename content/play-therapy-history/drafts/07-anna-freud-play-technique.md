@@ -15,7 +15,7 @@ citations:
   - "Freud, Anna. The Ego and the Mechanisms of Defence. Hogarth, 1936."
   - "King, Pearl, and Riccardo Steiner, eds. The Freud–Klein Controversies 1941–45. Routledge, 1991."
 status: draft
-voice_check: human
+voice_check: edited
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
 ---
@@ -34,7 +34,7 @@ Melanie Klein would treat the child's play as the equivalent of the adult's spee
 
 She did not ban toys. She refused to let toys fire the analyst from the rest of the work: talking, drawing, the slow building of an observing ego, the fact of school and household. *The Ego and the Mechanisms of Defence* (1936) is the sister-pack book. Here it matters only as weather. A technique that takes the ego seriously will not treat a play scene as a telegram from the infant.
 
-The Hampstead Nurseries during the Second World War — children in care, observations written down, films later associated with the Robertson names in the attachment story — sit next door. This pack notes them as a place where play and observation were *staff work*, not as a session you should copy.
+The Hampstead Nurseries during the Second World War — children in care, observations written down, films later associated with the Robertson names in the attachment story — sit next door. This series notes them as a place where play and observation were *staff work*, not as a session you should copy.
 
 ## London, and a quarrel that was about play
 
@@ -60,7 +60,7 @@ If you want the life — the ego book, the nurseries, the long American visits �
 
 The Hampstead Child-Therapy Course and Clinic, in its postwar form, trained people in a method that included play and did not treat play as the whole of the job. Students learned to write observations. They learned a theory of defense. They learned that parents would be in the building. American counselors who later wanted only the playroom skipped the course and kept the word *play*. Skipping is a historical event. It is how 1927 became a footnote on an APT slide.
 
-She wrote in German and in English, and she wrote as a teacher. The 1927 book is short by later textbook standards. Shortness is why it can be misread as a preface. It is a full argument: the child is not a small adult; the alliance may have to be built; play is material; interpretation has a timing. Timing is the fight with Klein. This pack's Controversial Discussions essay keeps the minutes. This page keeps the 1927 timing claim.
+She wrote in German and in English, and she wrote as a teacher. The 1927 book is short by later textbook standards. Shortness is why it can be misread as a preface. It is a full argument: the child is not a small adult; the alliance may have to be built; play is material; interpretation has a timing. Timing is the fight with Klein. This series's Controversial Discussions essay keeps the minutes. This page keeps the 1927 timing claim.
 
 American visitors in the later decades — including people who would never become analysts — toured Hampstead the way they later toured Denton. Pilgrimage is a profession's habit. A pilgrimage is not a protocol, and a 1927 book is not a 1991 course.
 

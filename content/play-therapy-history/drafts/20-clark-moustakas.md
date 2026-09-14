@@ -14,7 +14,7 @@ citations:
   - "Moustakas, Clark E. Children in Play Therapy. McGraw-Hill, 1953."
   - "Moustakas, Clark E. Psychotherapy with Children: The Living Relationship. Harper, 1959."
 status: draft
-voice_check: human
+voice_check: edited
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
 ---
@@ -29,7 +29,7 @@ He wrote as a humanistic psychologist, not as a British analyst and not as a lat
 
 Moustakas treated the adult's presence as the method. That sentence sounds like Rogers and like Axline, because it is in that weather. It also sounds like a thousand workshop titles. The historical job is to keep the 1953 and 1959 books as books: mid-century American, clinical-philosophical, written before the Association for Play Therapy (1982) turned "play therapist" into a membership category.
 
-He later became better known, in some psychology departments, for phenomenological research methods than for play. That second fame is why some counseling students have never heard him and some qualitative researchers have never heard Axline. The split is a departmental accident. This pack keeps the play books.
+He later became better known, in some psychology departments, for phenomenological research methods than for play. That second fame is why some counseling students have never heard him and some qualitative researchers have never heard Axline. The split is a departmental accident. This series keeps the play books.
 
 ## What he added to the American shelf
 
@@ -61,7 +61,7 @@ He did not co-found APT. He did not build a Denton center. He wrote books a libr
 
 ## 1953, 1959, and a city that was not Denton
 
-Detroit's Merrill-Palmer weather is a different capital. McGraw-Hill and Harper put relationship language on a mid-century American shelf before APT existed. This pack keeps those imprints visible so 1991 cannot look like the first course-shaped book by erasure. He wrote. He did not found the Association. Both sentences are enough.
+Detroit's Merrill-Palmer weather is a different capital. McGraw-Hill and Harper put relationship language on a mid-century American shelf before APT existed. This series keeps those imprints visible so 1991 cannot look like the first course-shaped book by erasure. He wrote. He did not found the Association. Both sentences are enough.
 
 ## Humanistic campuses, and a suspicion of interpretation-as-power
 

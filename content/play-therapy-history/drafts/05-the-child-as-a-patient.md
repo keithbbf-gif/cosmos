@@ -15,7 +15,7 @@ citations:
   - "Horn, Margo. Before It's Too Late: The Child Guidance Movement in the United States, 1922–1945. Temple, 1989."
   - "Hug-Hellmuth, Hermine. International Journal of Psycho-Analysis 2 (1921): 287–305."
 status: draft
-voice_check: human
+voice_check: edited
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
 ---
@@ -66,7 +66,7 @@ The next essay names the first analyst who tried, in a journal, to say how a chi
 
 American clinics in the Commonwealth Fund years liked a triad: psychiatrist, psychologist, social worker. The child sat in the middle and was talked *about*. Play, if it happened, happened while the triad wrote. Later play therapists inherited the triad's file even when they sat on the floor. The floor changed the posture. It did not abolish the file.
 
-Healy's 1909 Chicago institute next to a juvenile court is the American date this pack will keep printing. It is not a play-therapy date. It is the date a city agreed that a child's trouble could be a medical-psychological object instead of only a legal one. Without that agreement, Axline's 1947 book has no waiting room.
+Healy's 1909 Chicago institute next to a juvenile court is the American date this series will keep printing. It is not a play-therapy date. It is the date a city agreed that a child's trouble could be a medical-psychological object instead of only a legal one. Without that agreement, Axline's 1947 book has no waiting room.
 
 British child guidance after 1918 had the Child Guidance Council and a different argument with psychoanalysis. The names differ. The invention is cousin: a referral, a team, a mother in the hallway. Horn and Jones are American books. A later pass that wants the London Council minutes should open them and mark the year.
 

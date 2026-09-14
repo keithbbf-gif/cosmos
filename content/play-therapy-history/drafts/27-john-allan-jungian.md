@@ -14,7 +14,7 @@ citations:
   - "Allan, John. Inscapes of the Child's World: Jungian Counseling in Schools and Clinics. Spring, 1988."
   - "Jung, C. G. as sister-pack weather, not as a play therapist."
 status: draft
-voice_check: human
+voice_check: edited
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
 ---
@@ -57,17 +57,17 @@ Sandplay is a cousin (Kalff 1980), not a synonym. A person can use both. A histo
 
 ## Images under a bell, not a Zürich commute
 
-1988 made a Jungian school book orderable in English counseling. Spring is the signal. A bell schedule is the constraint. Kalff 1980 is the tray cousin. Sister-pack Jung is the controversy and the life. This pack will not publish a symbol dictionary. Type the 1988 title. If you do not know whether Allan can read the page, write as if he can.
+1988 made a Jungian school book orderable in English counseling. Spring is the signal. A bell schedule is the constraint. Kalff 1980 is the tray cousin. Sister-pack Jung is the controversy and the life. This series will not publish a symbol dictionary. Type the 1988 title. If you do not know whether Allan can read the page, write as if he can.
 
 ## Why 1988 is not a sandplay founding
 
-Readers who see "Jungian" and "child" reach for Kalff. Allan 1988 is a school-and-clinic Spring book. Different publisher, different patron (a bell), different object. This pack will keep the split. Sister-pack Jung includes a controversy this page will not retry. No symbol key. No dragon meaning. Type the title. Write as if the author can read the page until a death notice is filed.
+Readers who see "Jungian" and "child" reach for Kalff. Allan 1988 is a school-and-clinic Spring book. Different publisher, different patron (a bell), different object. This series will keep the split. Sister-pack Jung includes a controversy this page will not retry. No symbol key. No dragon meaning. Type the title. Write as if the author can read the page until a death notice is filed.
 
 ## School counselors as a patron Jungian institutes did not design
 
 A school counselor has a caseload, a bell, and a building that is not an institute. Allan 1988 wrote into that constraint. That is why play-therapy bibliographies and school-counseling bibliographies both list the book. Shared listing is not a merger with Kalff, not a merger with Landreth, and not a license to publish a symbol key.
 
-Spring Publications placed the book in an archetypal catalog. Catalog placement is a historical signal. It tells you who the publisher thought the reader was. This pack will keep the signal and refuse the dictionary. Type the 1988 title. Do not generate a Jungian child.
+Spring Publications placed the book in an archetypal catalog. Catalog placement is a historical signal. It tells you who the publisher thought the reader was. This series will keep the signal and refuse the dictionary. Type the 1988 title. Do not generate a Jungian child.
 
 1988 is Spring, schools, and clinics. 1980 is Kalff's English tray book. They are cousins. Write as if Allan can read the page. No symbol key. No generated child. No retry of the sister-pack Jung controversy on this URL.
 

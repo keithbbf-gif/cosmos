@@ -15,7 +15,7 @@ citations:
   - "O'Connor, Kevin J. The Play Therapy Primer. Wiley, 1991 (and later editions)."
   - "Schaefer, Charles E., and Kevin J. O'Connor, eds. Handbook of Play Therapy. 1983."
 status: draft
-voice_check: human
+voice_check: edited
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
 ---
@@ -70,7 +70,7 @@ Cite the *Primer* edition you hold if a later subtitle changes. Ecosystemic rema
 
 Living. Newsletter labor. Fresno address. 1982–2003 board, 2004 emeritus, on APT's page. 1991 Primer. Ecosystemic as a hallway name. Second founder. No headshot. Cite the edition you hold if the subtitle moved.
 
-A play-therapy history that skipped the second founder would crown the first. APT's own pages refuse the crown. This pack follows the pages: two names, a newsletter, a Fresno address, a 1991 primer, a hallway noun. Living. Public only.
+A play-therapy history that skipped the second founder would crown the first. APT's own pages refuse the crown. This series follows the pages: two names, a newsletter, a Fresno address, a 1991 primer, a hallway noun. Living. Public only.
 
 ## Claims box
 

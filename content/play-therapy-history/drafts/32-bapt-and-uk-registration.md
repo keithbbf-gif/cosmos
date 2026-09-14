@@ -14,7 +14,7 @@ citations:
   - "British Association of Play Therapists. Association history (1992)."
   - "Association for Play Therapy. 1982, United States."
 status: draft
-voice_check: human
+voice_check: edited
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
 ---
@@ -47,37 +47,33 @@ Do not print "licensed play therapist" as if the UK and Arkansas shared a statut
 
 ## Why a Southeast Arkansas site still mentions 1992 Britain
 
-Because American Google will serve a British page, and a parent will not know the statute changed under the words. Because this pack's Lowenfeld and hospital essays would be dishonest if they ended in Fresno. Because "international" on an APT journal cover is an aspiration, not a passport.
+Because American Google will serve a British page, and a parent will not know the statute changed under the words. Because this series' Lowenfeld and hospital essays would be dishonest if they ended in Fresno. Because "international" on an APT journal cover is an aspiration, not a passport.
 
 The next essay comes home to the American school building, where play therapy tried to live next to the bell.
 
-## NHS as a patron, and more than one British noun
+## Five cabinets Google wants to merge
 
-BAPT, 1992, organized a job noun in a country that already had child psychotherapists, hospital play staff, and Lowenfeld's 1928 institute. The NHS is a buyer Fresno does not have. Registration quarrels follow the buyer. This pack will not referee a live fight from Arkansas.
+Child psychotherapists, hospital play staff, Lowenfeld's institute memory, BAPT 1992, and APT 1982 are not one profession because they share a toy. A parent with a phone does not sort statutes; a history page can keep the cabinets separate. Mark PTUK/PTI as a quarrel, not a verdict.
 
-Play Therapy UK and Play Therapy International appear in later public arguments about who may certify whom. Mark the cluster `[VERIFY on current society pages]`. A history site that picks a winner has left history.
+A later print pass should reopen bapt.info or its successor and the current UK register pages before stating who may use which title. This draft dated 1992 and refused a verdict. Arkansas is the wrong chair for a British statute. Britain stays a set of cabinets. That is the whole useful residue.
 
-Do not print "licensed play therapist" as if the UK and Arkansas shared a statute. Do not flatten hospital play staff into BAPT. Do not flatten child and adolescent psychotherapists into play therapists. A student on an RPT path and a student on a BAPT-recognized route are not in the same file cabinet. Employers sometimes pretend they are.
+## Tavistock weather and a different training file
 
-Two 1992s: American journal, British association. Coincidence is not affiliation. Lowenfeld is why Britain did not need to import 1982 in order to have a play-clinic memory.
+Analytic child psychotherapy in Britain has its own institutes, syllabi, and referral languages that predate BAPT's job noun. A Tavistock-trained clinician and a BAPT-trained clinician may both mention play in a sentence. The sentence is not interchangeable. Hospital play specialists — child life, therapeutic play workers, ward staff with a different letterhead — are a third cabinet again. Their minutes live in infection-control binders and volunteer rosters, not in APT's credential PDF.
 
-## Title protection is a statute problem, not a conference problem
+When American students read "international play therapy" on a journal cover, they often hear one church. The cover is marketing. The NHS buyer, the HCPC-adjacent arguments, and the coexistence of PTUK and PTI are the British weather. Weather is why a Southeast Arkansas history page mentions 1992 London without offering a registration path. The mention is a fence, not an import.
 
-American Google will serve a British page. A parent will not know the statute changed under the words. This pack mentions 1992 Britain so Lowenfeld and hospital play do not end in Fresno, and so "international" on an APT cover is not mistaken for a passport. Do not import a UK title onto a US service page. Mark PTUK/PTI as a quarrel, not a verdict. NHS is a patron. Registration follows patrons.
+## What a British parent might actually Google
 
-## Child psychotherapists are another British file cabinet
+A parent in Manchester and a parent in Pine Bluff may type the same three words. The statutes behind the words are not the same. A history essay cannot sort the statutes. It can refuse to print "licensed play therapist" as if Arkansas and England shared one board. It can point to Lowenfeld 1928 as evidence that Britain did not need Fresno to have a play-clinic memory. It can mark PTUK/PTI as `[VERIFY on current society pages]` and walk away. Walking away is correct behavior for a heritage URL.
 
-The UK already had child and adolescent psychotherapy trainings that are not play-therapy associations. Flattening them into BAPT is an American convenience. Hospital play staff are a third cabinet. BAPT 1992 is a fourth. APT 1982 is a fifth, and it is not British. This pack will keep the cabinets. Google will not. A history URL can at least slow the flatten. Lowenfeld 1928 is the memory that makes "import 1982" look unnecessary.
+Exporting a British title to an American footer is a common website mistake. Exporting an American RPT string to a British job ad is the same mistake in reverse. The mistake is flattening. Flattening is how parents hear one license where five cabinets exist. Five cabinets are the essay's whole job.
 
-## Why this Arkansas folder still has to say NHS
+Conference brochures love the word *international* because it sounds like a passport. Passports are statutes. A 1992 British association and a 1982 American society can share a calendar year on a slide and still not share a register. The slide is the danger. The cabinets are the correction.
 
-A parent with a phone does not sort statutes. A history page can. NHS as a patron, HCPC-adjacent arguments, and more than one British play-therapy organization are facts to confirm on current society pages. This draft will not pick a winner. It will keep Lowenfeld 1928, hospital play staff, child psychotherapists, BAPT 1992, and APT 1982 in separate cabinets. Two 1992s. One coincidence. No affiliation.
+Lowenfeld's 1928 institute is the quiet proof that "import 1982" is a marketing story, not a history story. Marketing stories travel on Google. History stories need dates you can open.
 
-Five cabinets: child psychotherapists, hospital play staff, Lowenfeld's institute memory, BAPT 1992, APT 1982. Google flattens. This URL should not. NHS is a patron. Mark PTUK/PTI as a quarrel. Two 1992s, no affiliation.
-
-A later print pass should reopen bapt.info or its successor and the current UK register pages before stating who may use which title. This draft dated 1992 and refused a verdict. Arkansas is the wrong chair for a British statute. The cabinets remain the useful object.
-
-The next essay comes home to the American school building, where play therapy tried to live next to the bell. Britain stays a set of cabinets. Arkansas stays the wrong chair for a British title. That is the whole useful residue.
+BAPT's own 1992 origin story is the British noun this essay will print until a society page moves it. APT's 1982 origin is the American noun. Two nouns. Two buyers. One coincidence on a calendar slide.
 
 ## Claims box
 

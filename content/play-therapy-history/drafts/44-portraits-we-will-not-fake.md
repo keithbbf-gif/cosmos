@@ -14,14 +14,14 @@ citations:
   - "PORTRAIT_SOURCES.md in this folder."
   - "PHOTO_NOTES.md in this folder."
 status: draft
-voice_check: human
+voice_check: edited
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
 
-Almost every figure in this pack is `portrait: none`. That is not a failure of research. It is the legal and ethical fact of twentieth-century photographs. Anna Freud died in 1982. Axline died in 1988. Landreth died in 2026. Living authors are living. University headshots are not free. Workshop selfies are not free. A generated "historical" face is a lie.
+Almost every figure in this series is `portrait: none`. That is not a failure of research. It is the legal and ethical fact of twentieth-century photographs. Anna Freud died in 1982. Axline died in 1988. Landreth died in 2026. Living authors are living. University headshots are not free. Workshop selfies are not free. A generated "historical" face is a lie.
 
 This essay is an instruction to the graphics agent and a warning to the import plugin that wants a featured image.
 
@@ -63,11 +63,11 @@ Banned: AI faces; AI children; "what Dibs looked like"; colorized guesses; cropp
 
 A child's face is a special ban. This is not only copyright. Decoration that uses children as proof has already started a clinical job it does not have consent to do. *Dibs* is a book. The boy is not clip art.
 
-Almost every figure in this pack is `portrait: none` because twentieth-century photographs are not free and living authors are living. Type is checkable. A generated Hug-Hellmuth is not. If you cannot fill the credit block in `PORTRAIT_SOURCES.md`, do not upload.
+Almost every figure in this series is `portrait: none` because twentieth-century photographs are not free and living authors are living. Type is checkable. A generated Hug-Hellmuth is not. If you cannot fill the credit block in `PORTRAIT_SOURCES.md`, do not upload.
 
 ## The import plugin is the enemy
 
-Auto-featured-image tools pull stock children. SEO tools want a face. This pack's instruction is a series template: wordmark plus title. Build one. Reuse it. On upload day, re-open any Commons URL; licenses get edited. The license table wins over a beautiful unlicensed face. A beautiful unlicensed child does not ship either.
+Auto-featured-image tools pull stock children. SEO tools want a face. This series's instruction is a series template: wordmark plus title. Build one. Reuse it. On upload day, re-open any Commons URL; licenses get edited. The license table wins over a beautiful unlicensed face. A beautiful unlicensed child does not ship either.
 
 ## Empty tray, owned, no scene
 

@@ -15,7 +15,7 @@ citations:
   - "Ray, Dee C. School-based CCPT outcome papers (2000s); cite the article you open."
   - "Alexander, Muro, Waterland and other 1960s counselor-education articles as a dated cluster."
 status: draft
-voice_check: human
+voice_check: edited
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
 ---
@@ -44,7 +44,7 @@ Do not publish a classroom guidance lesson. Do not tell a teacher to "just play.
 
 ## Why a rural district still meets this history
 
-Southeast Arkansas schools already employ counselors. They already have closets. They already have children who will never see a private play therapist in another county. School-based play therapy is the form most likely to exist near them, if it exists. That is why this pack refuses to treat Denton and Fresno as the only cities. The closet is the more common architecture.
+Southeast Arkansas schools already employ counselors. They already have closets. They already have children who will never see a private play therapist in another county. School-based play therapy is the form most likely to exist near them, if it exists. That is why this series refuses to treat Denton and Fresno as the only cities. The closet is the more common architecture.
 
 The next essay is the 2005 review that tried to turn a pile of such studies — school and clinic — into a single graph.
 
@@ -60,7 +60,7 @@ Prevention talk can be kind and can be a way to medicalize a noisy child without
 
 ## IEPs, counselors, and a hallway that already had an SLP
 
-A child may have a speech goal and a counseling goal in the same building. SLPWOW owns the speech history. This pack owns the closet hour. Do not merge to save a URL. 1960s articles are a cluster; open the one you cite. 2000s CCPT school papers are a later cluster; open the one you cite. The rural closet is the common architecture. Denton is the pilgrimage architecture. Gasoline is the Arkansas fact.
+A child may have a speech goal and a counseling goal in the same building. SLPWOW owns the speech history. This series owns the closet hour. Do not merge to save a URL. 1960s articles are a cluster; open the one you cite. 2000s CCPT school papers are a later cluster; open the one you cite. The rural closet is the common architecture. Denton is the pilgrimage architecture. Gasoline is the Arkansas fact.
 
 ## Short, early, kind — and the hiring it can replace
 
@@ -68,7 +68,7 @@ School play therapy sells itself as early and short. Sometimes it is. Sometimes 
 
 ## Gasoline, closets, and the form that wants a graph
 
-A rural child who will never see a private play therapist two counties over may still meet a closet hour. That is why this pack refuses to treat Denton as the only city. The 2005 pile included school samples because someone counted closets. Counting closets taught districts to ask for graphs. Asking is political. The 1960s cluster wanted prevention. Prevention is also political. Open the paper. Do not invent a count.
+A rural child who will never see a private play therapist two counties over may still meet a closet hour. That is why this series refuses to treat Denton as the only city. The 2005 pile included school samples because someone counted closets. Counting closets taught districts to ask for graphs. Asking is political. The 1960s cluster wanted prevention. Prevention is also political. Open the paper. Do not invent a count.
 
 Closet, bell, principal, gasoline. 1960s cluster and 2000s cluster: open what you cite. SLPWOW in the same hallway, different profession. Prevention can be kind and can replace hiring. A brochure cannot hold both sentences. A history page can.
 

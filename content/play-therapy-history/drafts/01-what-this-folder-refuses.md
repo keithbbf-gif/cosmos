@@ -15,7 +15,7 @@ citations:
   - "Association for Play Therapy. Society established 1982."
   - "Landreth, Garry L. Play Therapy: The Art of the Relationship. 1991."
 status: draft
-voice_check: human
+voice_check: edited
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
 ---

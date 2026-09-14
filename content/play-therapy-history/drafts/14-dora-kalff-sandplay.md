@@ -14,7 +14,7 @@ citations:
   - "Kalff, Dora M. Sandplay: A Psychotherapeutic Approach to the Psyche. Sigo, 1980."
   - "Lowenfeld, Margaret. Play in Childhood. 1935."
 status: draft
-voice_check: human
+voice_check: edited
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
 ---
@@ -27,7 +27,7 @@ This page will not teach you to read a tray. It will keep two facts from collaps
 
 ## A visit, then a vocabulary
 
-Kalff's own public account, in the book and in later teaching stories, includes contact with Lowenfeld's method and a translation into analytical psychology: archetypes, the self, a process that is not exactly Klein's association and not exactly Axline's reflection. Jung is the weather, not the inventor of the box of sand. The sister pack has Jung as a life. This pack has a tray that went to Zürich and came back with different nouns.
+Kalff's own public account, in the book and in later teaching stories, includes contact with Lowenfeld's method and a translation into analytical psychology: archetypes, the self, a process that is not exactly Klein's association and not exactly Axline's reflection. Jung is the weather, not the inventor of the box of sand. The sister pack has Jung as a life. This series has a tray that went to Zürich and came back with different nouns.
 
 Sandplay societies — later, international, with their own training hours — are historical objects of the 1980s and after. They are not APT. A person can hold both affiliations. A website that treats "sandplay" as a synonym for "play therapy" is doing a merger this series refuses.
 
@@ -35,7 +35,7 @@ Sandplay societies — later, international, with their own training hours — a
 
 It is a clinical-theoretical book. It describes a room, a stance, and a way of thinking about pictures in sand. It is also a book that later workshops flattened into a weekend. This series will not flatten it further by excerpting a method. It will say: a 1980 English book made a Swiss practice orderable in American catalogs.
 
-The photographs in sandplay books are a legal and ethical problem. Patient worlds are not clip art. This pack's photo rules ban them as decoration. Graphics agents: type only, or a tray with no child's scene.
+The photographs in sandplay books are a legal and ethical problem. Patient worlds are not clip art. This series's photo rules ban them as decoration. Graphics agents: type only, or a tray with no child's scene.
 
 ## Portrait
 
@@ -59,17 +59,17 @@ Kalff's English 1980 book made *sandplay* a catalog word. The German-language li
 
 Sandplay societies formed with their own hours and their own idea of who may teach. They are not APT. A person can hold both. A website that uses the words as synonyms has already started the brochure.
 
-Patient worlds photograph well and must not be used as decoration. An empty tray with rights is the only object this pack will allow a graphics agent to shoot. A "typical" world on a slide is a reading. We will not read.
+Patient worlds photograph well and must not be used as decoration. An empty tray with rights is the only object this series will allow a graphics agent to shoot. A "typical" world on a slide is a reading. We will not read.
 
 Living sandplay teachers are living people. Public books only. The 1980 title page is enough for this essay. Later society websites are organizational dates, not session notes.
 
 ## A slogan that workshops wore thin
 
-"Free and protected space" became a phrase later flyers could print without a 1980 book. Slogans travel. Vocabularies do not. This pack will keep Kalff's English title page as the object and Lowenfeld's tray as the older furniture. If a later society page dates a founding year, add it to `BIBLIOGRAPHY.md`. Do not add a reading of a buried figure.
+"Free and protected space" became a phrase later flyers could print without a 1980 book. Slogans travel. Vocabularies do not. This series will keep Kalff's English title page as the object and Lowenfeld's tray as the older furniture. If a later society page dates a founding year, add it to `BIBLIOGRAPHY.md`. Do not add a reading of a buried figure.
 
 ## Jung as weather, not as the carpenter of the box
 
-The sister pack has Jung as a life. This pack has a tray that went to Zürich and came back with different nouns. Jung did not invent the box of sand. Lowenfeld's furniture was already built. Kalff's 1980 English book is the translation that American catalogs could order. Translation is the honest word. Discovery is the brochure word. We will keep translation.
+The sister pack has Jung as a life. This series has a tray that went to Zürich and came back with different nouns. Jung did not invent the box of sand. Lowenfeld's furniture was already built. Kalff's 1980 English book is the translation that American catalogs could order. Translation is the honest word. Discovery is the brochure word. We will keep translation.
 
 A later editor who dates a sandplay society founding should file the year in `BIBLIOGRAPHY.md` and leave the reading of scenes out. Societies are organizational dates. Scenes are clinical objects this website will not interpret.
 

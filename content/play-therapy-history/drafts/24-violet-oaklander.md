@@ -13,7 +13,7 @@ portrait: none
 citations:
   - "Oaklander, Violet. Windows to Our Children. Real People Press, 1978."
 status: draft
-voice_check: human
+voice_check: edited
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
 ---
@@ -60,15 +60,15 @@ She is not Axline with art supplies, not Lowenfeld, not a sandplay analyst, not 
 
 ## Clay as a claim, not as a craft table
 
-A flyer that lists clay next to "play therapy" may be naming Oaklander, or a rainy-day bin, or an OT sensory tool. This pack's job is to keep 1978 as a Gestalt *claim* about contact. Real People Press is the imprint. 1927–2021 are the dates. The Foundation is a later organization. No empty-chair script. No foundation photo scrape.
+A flyer that lists clay next to "play therapy" may be naming Oaklander, or a rainy-day bin, or an OT sensory tool. This series's job is to keep 1978 as a Gestalt *claim* about contact. Real People Press is the imprint. 1927–2021 are the dates. The Foundation is a later organization. No empty-chair script. No foundation photo scrape.
 
 ## Encounter culture's publisher, and a 1978 door into mixed trainings
 
 Real People Press could get a Gestalt book into bookstores that already sold other contact-culture objects. That is why 1978 shows up in mixed APT grids next to CCPT. The grid is not a merger. Oaklander is not Axline with clay. Died 2021. No experiment reprint. No empty chair. The Foundation is later. The book is 1978. Keep the imprint in the sentence so it cannot look like Guilford or Houghton Mifflin.
 
-Gestalt institutes already existed. The 1978 book is a child's-hour door, not the founding of Gestalt. Mixed trainings like clay because clay photographs well. Photographing clay is not a contact claim. This pack will keep the claim in 1978 and the craft table in the classroom where it belongs.
+Gestalt institutes already existed. The 1978 book is a child's-hour door, not the founding of Gestalt. Mixed trainings like clay because clay photographs well. Photographing clay is not a contact claim. This series will keep the claim in 1978 and the craft table in the classroom where it belongs.
 
-1927–2021 are her dates. 1978 is the book. Real People Press is the imprint. Gestalt is the older adult school. Clay is older than both. The *claim* about clay is 1978. Mixed APT grids can host the claim without making it Axline. This pack will not reprint an experiment.
+1927–2021 are her dates. 1978 is the book. Real People Press is the imprint. Gestalt is the older adult school. Clay is older than both. The *claim* about clay is 1978. Mixed APT grids can host the claim without making it Axline. This series will not reprint an experiment.
 
 ## Claims box
 
