@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>cDeck</title>
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<section class="panel" id="panel-events">
+  <div class="panel-hd"><h2>LIVE EVENTS</h2></div>
+  <div class="panel-bd">
+    <p class="evt-contract" id="evt-panel-hint">
+      Each ledger row is clickable to open the inspector; scrolling away from the live tail
+      pauses auto-scroll — scrolling pauses, not a feed pause.
+    </p>
+    <div class="feedbar">
+      <div id="feedFollow" class="hidden"></div>
+      <button type="button" id="feedJump" class="hidden"></button>
+    </div>
+    <div id="feed"><div class="empty">connect to stream events</div></div>
+  </div>
+</section>
+<script src="app.js"></script>
+</body>
+</html>
