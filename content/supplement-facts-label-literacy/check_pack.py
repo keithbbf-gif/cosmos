@@ -18,7 +18,7 @@ REQUIRED_FM = (
     "era_focus:",
     "citations:",
     "status: draft",
-    "voice_check: human",
+    "voice_check: edited",
 )
 DSHEA = "not intended to diagnose"
 BANS = (

@@ -20,7 +20,7 @@ citations:
   - "FDA, Guidance for Industry: Questions and Answers Regarding Food Allergens (Edition 5)"
   - "https://www.fda.gov/media/117410/download"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not legal advice and not a labeling opinion for a specific SKU.

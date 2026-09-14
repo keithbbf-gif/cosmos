@@ -16,14 +16,14 @@ citations:
   - "FDA Small Entity Compliance Guide on Structure/Function Claims (9 January 2002), Criteria 1, 2, 5"
   - "65 FR 1000 (6 January 2000)"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not legal advice and not a labeling opinion for a specific SKU.
 
 "Detox" is doing organ work until you prove it is a flavor. On a tea tin the word can mean lemon and a dark color. On a supplement PDP it usually means liver, kidney, "toxins," or a cleanse that stands in for a disease or a drug. 21 CFR 101.93(g) reads implied disease from context. FTC's December 2022 *Health Products Compliance Guidance* reads the same panel as an advertising claim that needs competent and reliable scientific evidence — for weight loss, generally a human trial of the product.
 
-This piece teaches those two reads. It quotes FDA's forbidden examples as forbidden. It will not tell a reader to take a supplement to lose weight, to treat obesity, to cleanse an organ, or to replace a drug.
+This piece teaches those two reads. It quotes FDA's forbidden examples as forbidden. This piece will not tell a reader to take a supplement to lose weight, to treat obesity, to cleanse an organ, or to replace a drug.
 
 ## Weight loss is not a vibe
 

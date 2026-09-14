@@ -17,7 +17,7 @@ citations:
   - "21 CFR Part 111 (master manufacturing record, contrast)"
   - "companion pack: content/supplement-coa-manufacturing-literacy/"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not legal advice and not a labeling opinion for a specific SKU.
@@ -83,6 +83,6 @@ A print lock is a dated packet, not a Slack thumbs-up. Minimum contents:
 7. COA or program-directory screenshot for the lot you intend to pack, if you plan to say anything about a test (piece 36). That file is read with the COA pack, not rewritten here.
 8. Origin and Prop 65 math if those sentences are on the carton (pieces 38–39).
 
-One human signs that the five claim-bearing surfaces say the same serving, the same form, the same amounts, the same blend names, and the same claims. Science/QA and counsel are empty seats in this pack; the signature is still a person's. 101.93(a) already taught you that the notification's certification is a person. The print lock can borrow that seriousness.
+One human signs that every claim-bearing surface says the same serving, the same form, the same amounts, the same blend names, and the same claims. Science/QA and counsel are empty seats in this pack; the signature is still a person's. 101.93(a) already taught you that the notification's certification is a person. The print lock can borrow that seriousness.
 
 If any row fails, you do not send the printer a new die. You fix the document that is wrong. Sometimes that is the site. Sometimes that is the card. Sometimes that is the label someone "simplified." Print is the expensive moment (piece 44). The PDF is cheap. The dispute is cheaper than a letter that pastes three disagreeing sentences back to you as if they were one product.

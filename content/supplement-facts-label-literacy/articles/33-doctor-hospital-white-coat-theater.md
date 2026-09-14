@@ -15,7 +15,7 @@ citations:
   - "https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance"
   - "88 FR 48092 (26 July 2023)"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not legal advice and not a labeling opinion for a specific SKU.

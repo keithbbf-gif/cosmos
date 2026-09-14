@@ -16,7 +16,7 @@ citations:
   - "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/small-entity-compliance-guide-structurefunction-claims"
   - "https://www.law.cornell.edu/cfr/text/21/101.93"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not legal advice and not a labeling opinion for a specific SKU.
@@ -68,7 +68,7 @@ The statute and 101.93 give you three duties. They are ordered.
 
 **Thirty-day notice.** § 343(r)(6), last sentence; 101.93(a): no later than 30 days after first marketing of a dietary supplement that bears one of these statements, the manufacturer, packer, or distributor notifies the Office of Dietary Supplement Programs (HFS-810) with the contents 101.93(a)(2) lists. Notification is not approval. Silence is not a blessing. Piece 23 is the file.
 
-**Disclaimer.** § 343(r)(6)(C); 101.93(c)–(e): the two official sentences, or the plural form, in boldface, no smaller than one-sixteenth inch, adjacent or asterisk-linked, on each panel or page that carries the statement, boxed if not adjacent. Piece 22 is the type spec. The disclaimer does not wash a 101.93(g) claim.
+**Disclaimer box.** § 343(r)(6)(C); 101.93(c)–(e): the two official sentences, or the plural form, in boldface, no smaller than one-sixteenth inch, adjacent or asterisk-linked, on each panel or page that carries the statement, boxed if not adjacent. Piece 22 is the type spec. The disclaimer does not wash a 101.93(g) claim.
 
 A fourth practical duty is consistency. The bottle, the site, and the marketplace bullet must say the same permitted sentence (piece 42). A notified statement on the bottle and a disease blog on the cart is intended use assembled from four corners (piece 20).
 

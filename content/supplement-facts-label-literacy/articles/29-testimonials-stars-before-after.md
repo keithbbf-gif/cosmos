@@ -15,7 +15,7 @@ citations:
   - "FTC, Health Products Compliance Guidance (December 2022)"
   - "https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not legal advice and not a labeling opinion for a specific SKU.
@@ -70,7 +70,7 @@ Do not put a review carousel on a sell sheet you hand a retailer unless you have
 
 A creator you paid, seeded, or commissioned is an endorser with a material connection. The 2022 guide's Example 40 is the paid blogger who writes that a supplement cures acid reflux. The marketer made no such claim. The marketer is still liable for the blogger's sentence, and the post must disclose the payment so readers do not take it as an independent review. Acid reflux as a treatment claim is disease talk. Do not brief it. Do not leave it up.
 
-Scripts, talking points, and "just being authentic" captions are labeling if you paid for them. A Reel is not a private diary. Piece 41 will treat Reels and chat macros as four-corners surfaces. The endorsement rule is prior: the creator may not say a disease name, a typical result you cannot substantiate, "clinically proven" about a SKU that was not in the trial (piece 28), or "FDA approved" (piece 34). The brief should be a list of allowed sentences and a list of forbidden SECG examples, not a vibe.
+Scripts, talking points, and "just being authentic" captions are labeling if you paid for them. A Reel is not a private diary. Piece 41 treats Reels and chat macros as four-corners surfaces. The endorsement rule is prior: the creator may not say a disease name, a typical result you cannot substantiate, "clinically proven" about a SKU that was not in the trial (piece 28), or "FDA approved" (piece 34). The brief should be a list of allowed sentences and a list of forbidden SECG examples, not a vibe.
 
 Affiliate links, seeded jars, and "I just love this brand" posts by employees or relatives are the same file. 255.5 does not care that the caption was short. It cares whether a significant minority would still think the praise was unconnected.
 

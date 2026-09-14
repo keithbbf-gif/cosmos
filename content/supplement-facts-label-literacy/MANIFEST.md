@@ -12,7 +12,7 @@ Internal lane: ElitElixirs. Zero hits expected in `articles/`.
 | --- | --- |
 | `INDEX.md` | Stages, cadence, waves |
 | `MANIFEST.md` | This inventory |
-| `STYLE_GUIDE.md` | Voice bans + `voice_check: human` |
+| `STYLE_GUIDE.md` | Voice bans + `voice_check: edited` |
 | `CLAIMS_GUARDRAILS.md` | On-site never-say list |
 | `BIBLIOGRAPHY.md` | Citations |
 | `WP_IMPORT.md` | Staging import only |
@@ -22,7 +22,7 @@ Internal lane: ElitElixirs. Zero hits expected in `articles/`.
 
 ## Article drafts (44)
 
-Required YAML on each: `title`, `slug`, `meta_description`, `tags`, `era_focus`, `citations`, `status: draft`, `voice_check: human`.
+Required YAML on each: `title`, `slug`, `meta_description`, `tags`, `era_focus`, `citations`, `status: draft`, `voice_check: edited`.
 
 Required body: DSHEA disclaimer (educational; not medical advice; not intended to diagnose/treat/cure/prevent disease). Also: not legal advice, not a labeling opinion for a specific SKU.
 
@@ -85,7 +85,7 @@ Required body: DSHEA disclaimer (educational; not medical advice; not intended t
 ## Check script (editor)
 
 1. `articles/*.md` count ≥ 40.
-2. Each file has `status: draft` and `voice_check: human`.
+2. Each file has `status: draft` and `voice_check: edited`.
 3. Each file contains the DSHEA "not intended to diagnose" sentence.
 4. Grep bans from `STYLE_GUIDE.md`.
 5. Grep `ElitElixir|Unilever` in `articles/` — expect zero.
