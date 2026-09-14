@@ -8,7 +8,7 @@ voice: human
 cluster: glue
 series: gluing-clamping-furniture
 dek: A kitchen wipe is not a rain year. Type II and Type III are classes on a label. A garden bench is a different religion.
-word_count: 459
+word_count: 990
 topics: [water-resistance, outdoor, labels]
 figures:
   - id: fig-01

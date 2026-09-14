@@ -8,7 +8,7 @@ voice: human
 cluster: rehearsal
 series: gluing-clamping-furniture
 dek: Pipe stain on wet cherry is iron, water, and a jaw you did not pad. The mark is not figure. It is a pipe.
-word_count: 365
+word_count: 1083
 topics: [pads, pipe-clamps, stain]
 figures:
   - id: fig-01

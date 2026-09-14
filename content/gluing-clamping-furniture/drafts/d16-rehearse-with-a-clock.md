@@ -8,7 +8,7 @@ voice: human
 cluster: rehearsal
 series: gluing-clamping-furniture
 dek: Open time is not a feeling. Time the dry-fit. If the rehearsal misses the sheet, split the session or change the glue.
-word_count: 352
+word_count: 1049
 topics: [open-time, rehearsal, sessions]
 figures:
   - id: fig-01

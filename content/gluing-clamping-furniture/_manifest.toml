@@ -1,0 +1,294 @@
+# Staged draft manifest — gluing & clamping furniture shop practice
+# status is editorial. stage is the glue-up sequence.
+
+set = "gluing-clamping-furniture"
+status = "staged"
+count = 48
+
+[[draft]]
+id = "d01"
+file = "drafts/d01-glue-is-not-a-clamp.md"
+stage = "choose"
+cluster = "glue"
+
+[[draft]]
+id = "d02"
+file = "drafts/d02-what-the-yellow-bottle-is.md"
+stage = "choose"
+cluster = "glue"
+
+[[draft]]
+id = "d03"
+file = "drafts/d03-hide-after-the-pot-essay.md"
+stage = "choose"
+cluster = "glue"
+
+[[draft]]
+id = "d04"
+file = "drafts/d04-urea-is-a-different-pot.md"
+stage = "choose"
+cluster = "glue"
+
+[[draft]]
+id = "d05"
+file = "drafts/d05-epoxy-is-a-filler-that-also-sticks.md"
+stage = "choose"
+cluster = "glue"
+
+[[draft]]
+id = "d06"
+file = "drafts/d06-polyurethane-foam-is-not-a-joint.md"
+stage = "choose"
+cluster = "glue"
+
+[[draft]]
+id = "d07"
+file = "drafts/d07-ca-is-a-jig-glue.md"
+stage = "choose"
+cluster = "glue"
+
+[[draft]]
+id = "d08"
+file = "drafts/d08-the-shop-at-fifty-degrees.md"
+stage = "choose"
+cluster = "glue"
+
+[[draft]]
+id = "d09"
+file = "drafts/d09-the-bottle-that-froze.md"
+stage = "choose"
+cluster = "glue"
+
+[[draft]]
+id = "d10"
+file = "drafts/d10-four-clocks.md"
+stage = "choose"
+cluster = "glue"
+
+[[draft]]
+id = "d11"
+file = "drafts/d11-creep-is-a-pva-property.md"
+stage = "choose"
+cluster = "glue"
+
+[[draft]]
+id = "d12"
+file = "drafts/d12-water-resistant-is-not-outdoor.md"
+stage = "choose"
+cluster = "glue"
+
+[[draft]]
+id = "d13"
+file = "drafts/d13-the-dry-fit-is-the-glue-up.md"
+stage = "fit"
+cluster = "rehearsal"
+
+[[draft]]
+id = "d14"
+file = "drafts/d14-cauls-are-the-clamp-you-forgot.md"
+stage = "fit"
+cluster = "rehearsal"
+
+[[draft]]
+id = "d15"
+file = "drafts/d15-pads-wax-paper-black-rings.md"
+stage = "fit"
+cluster = "rehearsal"
+
+[[draft]]
+id = "d16"
+file = "drafts/d16-rehearse-with-a-clock.md"
+stage = "fit"
+cluster = "rehearsal"
+
+[[draft]]
+id = "d17"
+file = "drafts/d17-panel-triangles-cups-faces.md"
+stage = "fit"
+cluster = "rehearsal"
+
+[[draft]]
+id = "d18"
+file = "drafts/d18-the-winding-case.md"
+stage = "fit"
+cluster = "rehearsal"
+
+[[draft]]
+id = "d19"
+file = "drafts/d19-the-chair-is-an-animal.md"
+stage = "fit"
+cluster = "rehearsal"
+
+[[draft]]
+id = "d20"
+file = "drafts/d20-the-panel-is-not-in-the-glue.md"
+stage = "fit"
+cluster = "rehearsal"
+
+[[draft]]
+id = "d21"
+file = "drafts/d21-glue-the-middle-of-the-breadboard.md"
+stage = "fit"
+cluster = "rehearsal"
+
+[[draft]]
+id = "d22"
+file = "drafts/d22-biscuits-are-alignment.md"
+stage = "fit"
+cluster = "rehearsal"
+
+[[draft]]
+id = "d23"
+file = "drafts/d23-starved-and-drowned.md"
+stage = "spread"
+cluster = "application"
+
+[[draft]]
+id = "d24"
+file = "drafts/d24-both-cheeks-not-a-puddle.md"
+stage = "spread"
+cluster = "application"
+
+[[draft]]
+id = "d25"
+file = "drafts/d25-roller-brush-finger-bottle.md"
+stage = "spread"
+cluster = "application"
+
+[[draft]]
+id = "d26"
+file = "drafts/d26-end-grain-drinks-and-lies.md"
+stage = "spread"
+cluster = "application"
+
+[[draft]]
+id = "d27"
+file = "drafts/d27-squeeze-out-is-a-witness.md"
+stage = "spread"
+cluster = "application"
+
+[[draft]]
+id = "d28"
+file = "drafts/d28-glue-on-the-finish-face.md"
+stage = "spread"
+cluster = "application"
+
+[[draft]]
+id = "d29"
+file = "drafts/d29-winter-skin-august-flash.md"
+stage = "spread"
+cluster = "application"
+
+[[draft]]
+id = "d30"
+file = "drafts/d30-hide-on-cold-oak.md"
+stage = "spread"
+cluster = "application"
+
+[[draft]]
+id = "d31"
+file = "drafts/d31-enough-to-close-not-to-crush.md"
+stage = "press"
+cluster = "clamps"
+
+[[draft]]
+id = "d32"
+file = "drafts/d32-what-each-clamp-lies-about.md"
+stage = "press"
+cluster = "clamps"
+
+[[draft]]
+id = "d33"
+file = "drafts/d33-handscrew-still-earns-the-bench.md"
+stage = "press"
+cluster = "clamps"
+
+[[draft]]
+id = "d34"
+file = "drafts/d34-band-clamps-and-the-round-thing.md"
+stage = "press"
+cluster = "clamps"
+
+[[draft]]
+id = "d35"
+file = "drafts/d35-vacuum-bag-is-a-room-sized-clamp.md"
+stage = "press"
+cluster = "clamps"
+
+[[draft]]
+id = "d36"
+file = "drafts/d36-the-banana-panel.md"
+stage = "press"
+cluster = "clamps"
+
+[[draft]]
+id = "d37"
+file = "drafts/d37-square-the-inside-before-you-walk.md"
+stage = "press"
+cluster = "clamps"
+
+[[draft]]
+id = "d38"
+file = "drafts/d38-the-clamp-that-racks-the-chair.md"
+stage = "press"
+cluster = "clamps"
+
+[[draft]]
+id = "d39"
+file = "drafts/d39-softwood-crush-hardwood-cup.md"
+stage = "press"
+cluster = "clamps"
+
+[[draft]]
+id = "d40"
+file = "drafts/d40-two-sessions-is-not-cowardice.md"
+stage = "press"
+cluster = "clamps"
+
+[[draft]]
+id = "d41"
+file = "drafts/d41-unclamp-is-not-machine.md"
+stage = "cure"
+cluster = "aftermath"
+
+[[draft]]
+id = "d42"
+file = "drafts/d42-scrape-now-or-sand-a-smear.md"
+stage = "cure"
+cluster = "aftermath"
+
+[[draft]]
+id = "d43"
+file = "drafts/d43-the-scar-under-oil.md"
+stage = "cure"
+cluster = "aftermath"
+
+[[draft]]
+id = "d44"
+file = "drafts/d44-split-it-dont-fill-it.md"
+stage = "cure"
+cluster = "aftermath"
+
+[[draft]]
+id = "d45"
+file = "drafts/d45-do-not-mix-religions-in-one-chair.md"
+stage = "cure"
+cluster = "aftermath"
+
+[[draft]]
+id = "d46"
+file = "drafts/d46-august-humidity-and-a-line-that-never-glassed.md"
+stage = "cure"
+cluster = "aftermath"
+
+[[draft]]
+id = "d47"
+file = "drafts/d47-the-window-stays-open.md"
+stage = "cure"
+cluster = "aftermath"
+
+[[draft]]
+id = "d48"
+file = "drafts/d48-the-bench-after.md"
+stage = "cure"
+cluster = "aftermath"

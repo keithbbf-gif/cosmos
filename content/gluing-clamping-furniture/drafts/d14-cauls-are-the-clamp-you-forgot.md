@@ -8,7 +8,7 @@ voice: human
 cluster: rehearsal
 series: gluing-clamping-furniture
 dek: A crowned caul puts pressure where a bar cannot reach. A flat caul on a hollow glue-up presses the ends and starves the middle.
-word_count: 440
+word_count: 1057
 topics: [cauls, panels, pressure]
 figures:
   - id: fig-01

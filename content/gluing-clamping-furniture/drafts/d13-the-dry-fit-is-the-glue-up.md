@@ -8,7 +8,7 @@ voice: human
 cluster: rehearsal
 series: gluing-clamping-furniture
 dek: The craft pack already said not to hunt a clamp. This is the rehearsal as a piece of furniture — what you pick up, rack, mark, and refuse to glue.
-word_count: 489
+word_count: 1086
 topics: [dry-fit, rehearsal, assembly]
 figures:
   - id: fig-01

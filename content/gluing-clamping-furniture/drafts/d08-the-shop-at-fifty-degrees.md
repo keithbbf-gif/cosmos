@@ -8,7 +8,7 @@ voice: human
 cluster: glue
 series: gluing-clamping-furniture
 dek: Most bottles want a shop warmer than a January lean-to. The film that forms in the cold is a rumor. Warm the parts or wait.
-word_count: 456
+word_count: 1089
 topics: [temperature, winter, gel]
 figures:
   - id: fig-01
