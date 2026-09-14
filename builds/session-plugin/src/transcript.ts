@@ -18,7 +18,7 @@ export type TranscriptHead = {
   family?: string;
   title?: string;
   stream?: string;
-  legal?: boolean;
+  legal?: unknown;
   n_turns?: number;
   aliases?: Record<string, unknown>;
   [k: string]: unknown;
@@ -114,7 +114,7 @@ export function readSession(
 ): ReadResult {
   const t = readVerified(dir, id);
   // The file store has no Core in front of it, so the legal check happens here.
-  if (t.head.legal === true) refuse("LEGAL_OMITTED", id);
+  if (t.head.legal) refuse("LEGAL_OMITTED", id);
   const from = Math.max(0, offset);
   return {
     kind: "OK",
@@ -172,7 +172,7 @@ export function searchSessions(
       refused.push({ id, kind: (e as { kind?: string }).kind || "UNMEASURED" });
       continue;
     }
-    if (t.head.legal === true) {
+    if (t.head.legal) {
       legalOmitted += 1;
       continue;
     }
