@@ -3,7 +3,7 @@ title: William and Mary at table
 slug: william-and-mary-dining
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 4
 word_target: 1400-2200
 era: "1690–1725"
@@ -35,6 +35,7 @@ plate_status: cleared
     <span class="figure-credit">The Metropolitan Museum of Art, Open Access. CC0 1.0.</span>
   </figcaption>
 </figure>
+
 
 The turning is the giveaway. A William and Mary dining table in America does not announce itself with a royal cipher. It announces itself with a trumpet: a leg that swells, cups, and drops to a ball foot, often with a high stretcher tying the legs in an X or a box. The fashion is Dutch and English, post-1688, and it reaches Boston, New York, and Philadelphia in the 1690s and the first quarter of the new century. The dining it serves is still a hall dining. The style is what you notice when the leaves are up and the candles are lit.
 

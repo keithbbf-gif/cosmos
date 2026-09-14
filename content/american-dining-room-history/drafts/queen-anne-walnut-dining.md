@@ -3,7 +3,7 @@ title: Queen Anne walnut
 slug: queen-anne-walnut-dining
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 5
 word_target: 1400-2200
 era: "1725–1755"
@@ -35,6 +35,7 @@ plate_status: cleared
     <span class="figure-credit">The Metropolitan Museum of Art, Open Access. CC0 1.0.</span>
   </figcaption>
 </figure>
+
 
 The cabriole is a bent knee. On an American Queen Anne dining table it is usually walnut, sometimes maple painted to look like walnut, later mahogany pretending the hour is still this one. The leg springs from a rounded knee, tapers, and ends in a pad foot — a disc, a slipper, a trifid in Philadelphia. Stretchers have mostly gone. The table stands on four (or six) legs that you can see under a hanging leaf, and the silhouette is the fashion: open, curved, a little proud.
 

@@ -3,7 +3,7 @@ title: Thomas Day in Milton
 slug: thomas-day-southern-shops
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 15
 word_target: 1400-2200
 era: "1823–1861"
@@ -33,6 +33,7 @@ plate_status: cleared
     <span class="figure-credit">North Carolina Museum of History. Wikimedia Commons. Public domain.</span>
   </figcaption>
 </figure>
+
 
 The sideboard made for Caleb Hazard Richmond, now at the North Carolina Museum of History, is the dining object to stand in front of. Mahogany and mahogany veneer, yellow pine, tulip poplar, walnut, 1840–1855, attributed to Thomas Day, Milton, North Carolina. Chipstone’s 2013 essay, “The Missing Chapter in the Life of Thomas Day,” publishes a detail of the scrolled mirror support and names the donors: Museum of History Associates and Mr. Thomas S. Erwin. The S is too big. That is the point. Day’s shop took a conservative sideboard plan and put exuberant scrolls on it until the piece moved.
 

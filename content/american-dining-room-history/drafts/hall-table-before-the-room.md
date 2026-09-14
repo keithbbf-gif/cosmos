@@ -3,7 +3,7 @@ title: The hall table before the room
 slug: hall-table-before-the-room
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 2
 word_target: 1400-2200
 era: "1700–1780"
@@ -34,6 +34,7 @@ plate_status: cleared
     <span class="figure-credit">The Metropolitan Museum of Art, Open Access. CC0 1.0.</span>
   </figcaption>
 </figure>
+
 
 A New England hall in 1710 is a machine with a hearth. It cooks, hears cases, holds a loom, sleeps a child on a truckle, and twice a day becomes a dining room that does not keep the name. The table that makes that conversion possible is usually a gateleg or an oval drop-leaf in maple, oak, or walnut, sometimes pine painted. When the leaves hang, the piece is a narrow console against the wall. When the gates swing out, it is dinner. Afterward the cloth is folded, the trenchers stacked, and the hall goes back to being a hall.
 

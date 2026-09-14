@@ -3,7 +3,7 @@ title: Studio furniture after Nakashima
 slug: studio-furniture-nakashima
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 42
 word_target: 1400-2200
 era: "1940–now"
@@ -34,6 +34,7 @@ plate_status: cleared
     <span class="figure-credit">Wikimedia Commons. CC0 1.0.</span>
   </figcaption>
 </figure>
+
 George Nakashima’s dining tables are slabs. The live edge stays. Butterfly keys in contrasting wood stitch a split the way a cabinetmaker stitches, not the way a factory hides. The bases are trestles or a late modern geometry. The wood is named — walnut, cherry, English oak, a particular tree. The Conoid chair and the long table at New Hope, Pennsylvania, are the public images. The Mira Nakashima continuation of the shop is a living fact. This page is the one-off dining table as an American type after the factories won everything else.
 
 Wharton Esherick’s earlier, more sculptural furniture, Sam Maloof’s chairs (more rocker than dining, but the shop ethic), Wendell Castle’s stacks, a hundred less famous makers — the studio movement is a dining-room option for people who will wait and pay. It is also a cousin of any hardwood shop that still works a bench: a named wood, a client, a refusal of the suite.

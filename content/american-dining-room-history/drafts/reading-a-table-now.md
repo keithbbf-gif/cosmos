@@ -3,7 +3,7 @@ title: How to read an American dining table
 slug: reading-a-table-now
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 43
 word_target: 1400-2200
 era: "1700–now"
@@ -32,6 +32,7 @@ plate_status: cleared
     <span class="figure-credit">The Metropolitan Museum of Art, Open Access. CC0 1.0.</span>
   </figcaption>
 </figure>
+
 Get on the floor. The show top will lie. The underside keeps the shop. This page is a method, not a price guide. It exists so the series can end in a room you actually have, with a table you did not buy at the Met.
 
 Bring a flashlight, a notebook, and no certainty. Attribution is a specialist’s fight. What you can do is refuse the tag’s century until the joints agree.

@@ -3,7 +3,7 @@ title: Gilded Age dining rooms
 slug: gilded-age-dining-rooms
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 25
 word_target: 1400-2200
 era: "1870–1910"
@@ -35,6 +35,7 @@ plate_status: cleared
     <span class="figure-credit">Wikimedia Commons. Public domain.</span>
   </figcaption>
 </figure>
+
 
 The dining room at a Newport “cottage” is a European room that happens to be in Rhode Island: paneling shipped or copied, a table that extends toward twenty, chairs that are English or French or Italian in style and American in their last polish, a sideboard that is architecture, silver that needs a room of its own. McKim, Mead & White and Richard Morris Hunt built the envelopes. Herter, Allard, and a chain of decorators filled them. This is not how most Americans dined. It is the image that made the middle-class suite feel small and the Colonial Revival feel like a relief.
 

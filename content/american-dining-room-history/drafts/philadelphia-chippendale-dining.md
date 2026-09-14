@@ -3,7 +3,7 @@ title: Philadelphia Chippendale dining
 slug: philadelphia-chippendale-dining
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 6
 word_target: 1400-2200
 era: "1755–1785"
@@ -33,6 +33,7 @@ plate_status: cleared
     <span class="figure-credit">The Metropolitan Museum of Art, Open Access. CC0 1.0.</span>
   </figcaption>
 </figure>
+
 
 Thomas Chippendale never kept a bench on Second Street. What Philadelphia had, after 1754, was a book: *The Gentleman and Cabinet-Maker’s Director*, plates of chairs, tables, and case furniture that a shop could pirate, thicken, and make American. The dining parlor that comes out of those shops is mahogany on the show faces, tulip poplar and pine in the hidden ones, claw-and-ball feet on the chairs, and a drop-leaf or a large rectangular table that still folds because the room is not always a dining room yet.
 

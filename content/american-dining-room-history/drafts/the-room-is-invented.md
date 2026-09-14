@@ -3,7 +3,7 @@ title: The dining room is invented
 slug: the-room-is-invented
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 1
 word_target: 1400-2200
 era: "1700–1855"
@@ -35,6 +35,7 @@ plate_status: cleared
     <span class="figure-credit">The Metropolitan Museum of Art, Open Access. CC0 1.0.</span>
   </figcaption>
 </figure>
+
 
 The Metropolitan Museum’s Baltimore Room, Gallery 724, is a parlor pretending to be a dining room. The woodwork came from Henry Craig’s townhouse on East Pratt Street. Craig (1767–1832) was a Baltimore merchant and shipowner. The room served his family as a parlor. Since the American Wing opened in 1924 the Museum has set it for dinner: table, chairs, sideboard, plate. The curators of the 1920s preferred this architecture to the house’s actual dining room. They were staging a fashion that had only recently become ordinary.
 

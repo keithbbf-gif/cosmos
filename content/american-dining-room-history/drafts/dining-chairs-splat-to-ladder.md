@@ -3,7 +3,7 @@ title: Dining chairs, splat to ladder
 slug: dining-chairs-splat-to-ladder
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 31
 word_target: 1400-2200
 era: "1700–1960"
@@ -32,6 +32,7 @@ plate_status: cleared
     <span class="figure-credit">The Metropolitan Museum of Art, Open Access. CC0 1.0.</span>
   </figcaption>
 </figure>
+
 
 A dining chair is a chair that must accept a table rail, a coat, a long sit, and crumbs. Parlor chairs can be weaker and prettier. The American dining chair runs from the joint stool and the leather side chair through vase splats, pierced Chippendale backs, Federal shields, Grecian sabers, Hitchcock tablets, press-backs, Mission slats, and the mid-century plywood shell. This page is a spine so the shop essays do not each invent seating from nothing. It does not replace those essays.
 

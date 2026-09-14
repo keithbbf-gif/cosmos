@@ -3,7 +3,7 @@ title: Extension tables and patents
 slug: extension-table-patents
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 30
 word_target: 1400-2200
 era: "1835–1920"
@@ -34,6 +34,7 @@ plate_status: cleared
     <span class="figure-credit">The Metropolitan Museum of Art, Open Access. CC0 1.0.</span>
   </figcaption>
 </figure>
+
 
 Robert Jupe’s British patent 6788, March 1835, describes a circular table whose sections diverge from a center so that filling pieces can drop in. The first tables were made with John Johnstone of New Bond Street; brass bosses read “JUPES PATENT,” later “Johnstone & Jeanes.” They exhibited the expanding principle at the Great Exhibition of 1851. These are English luxury objects. American dining rooms felt them as an idea more than as a population of tables.
 

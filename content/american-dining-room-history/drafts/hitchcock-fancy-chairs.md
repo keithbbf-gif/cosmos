@@ -3,7 +3,7 @@ title: Hitchcock chairs at table
 slug: hitchcock-fancy-chairs
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 17
 word_target: 1400-2200
 era: "1818–1840"
@@ -34,6 +34,7 @@ plate_status: cleared
     <span class="figure-credit">The Metropolitan Museum of Art, Open Access. CC0 1.0.</span>
   </figcaption>
 </figure>
+
 
 The stencil on the back of the seat rail is the document: “L. HITCHCOCK. HITCHCOCKS-VILLE. CONN. WARRANTED.” Sometimes the wording shifts with partners. The chair under it is a painted fancy — turned legs, a pillowed tablet or a slat, rush or cane seat, gilt fruit and leaves in bronze powder. It is light. It was cheap. By the late 1820s a three-story brick factory on the Farmington River was turning out on the order of three hundred a week, something like fifteen thousand a year in the Henry Ford account, at prices the same essay puts between forty-five cents and a dollar seventy-five. That is not a cabinetmaker’s dining chair. It is a mill’s dining chair. America sat on it anyway.
 

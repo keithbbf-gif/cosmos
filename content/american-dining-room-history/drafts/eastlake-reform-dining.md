@@ -3,7 +3,7 @@ title: Eastlake and the reform dining room
 slug: eastlake-reform-dining
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 24
 word_target: 1400-2200
 era: "1870–1890"
@@ -33,6 +33,7 @@ plate_status: cleared
     <span class="figure-credit">The Metropolitan Museum of Art, Open Access. CC0 1.0.</span>
   </figcaption>
 </figure>
+
 
 Charles Locke Eastlake’s *Hints on Household Taste* (1868; American editions soon after) is a book against the fruit. He wants furniture whose construction you can see, ornament that is incised or geometric, wood that is not a composition grape. American factories read him the way they read every English book: they stamped “Eastlake” on a chair with a few incised lines and a factory finish and sold a dining suite to people who wanted to be good. The reform is real at the high end and a decal at the volume end. Both ended up at American tables.
 

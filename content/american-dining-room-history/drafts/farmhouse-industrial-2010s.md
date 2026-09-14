@@ -3,7 +3,7 @@ title: Farmhouse and industrial tables
 slug: farmhouse-industrial-2010s
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 40
 word_target: 1400-2200
 era: "2005–2020"
@@ -32,6 +32,7 @@ plate_status: cleared
     <span class="figure-credit">The Metropolitan Museum of Art, Open Access. CC0 1.0.</span>
   </figcaption>
 </figure>
+
 The 2010s dining table wanted to look like work. A thick pine top, a X-trestle or a black steel base, a distressed finish that was applied last week, a bench on one side and mixed chairs on the other. Restoration Hardware and a thousand Etsy and Wayfair cousins sold it. Open-plan kitchens wanted a table that photographed with a bowl of lemons. The hall trestle and the Shaker board and the factory base were all raided. The result is a style, not a farm.
 
 A later fashion brief asked for country house, not “farmhouse content.” This page is the content: what it took from history and what it invented.

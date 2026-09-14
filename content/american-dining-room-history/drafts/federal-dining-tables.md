@@ -3,7 +3,7 @@ title: Federal dining tables
 slug: federal-dining-tables
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 11
 word_target: 1400-2200
 era: "1785–1820"
@@ -35,6 +35,7 @@ plate_status: cleared
     <span class="figure-credit">The Metropolitan Museum of Art, Open Access. CC0 1.0.</span>
   </figcaption>
 </figure>
+
 
 A Federal dining table is a resident. The drop-leaf still exists — the Pembroke, the breakfast oval — but the table that owns the new dining room is a set of parts: two D-shaped ends and a rectangular center, or a pair of pedestals with leaves that store in a closet, or a single pedestal with a round top. When the guests go home the table does not become a console. It becomes a shorter dining table. That is a new idea. It needs a room that keeps its name.
 

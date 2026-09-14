@@ -1,6 +1,6 @@
 # Staged for BBF SEO — american-dining-room-history
 
-**Status:** staged only. Every article is `status: draft`. Do not set WordPress publish dates. Do not paste these files onto a live domain until an editor pass and a photograph plan exist.
+**Status:** staged only. Every article is `status: draft`. Do not set WordPress publish dates. Do not paste these files onto a live domain until a photograph plan exists. Editor pass complete 2026-09-14 (`EDITOR_REPORT.md`; `voice_check: edited`).
 
 ## What this pack is
 

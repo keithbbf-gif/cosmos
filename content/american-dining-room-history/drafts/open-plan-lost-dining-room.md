@@ -3,7 +3,7 @@ title: Open plan and the lost dining room
 slug: open-plan-lost-dining-room
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 41
 word_target: 1400-2200
 era: "1990–now"
@@ -32,6 +32,7 @@ plate_status: cleared
     <span class="figure-credit">The Metropolitan Museum of Art, Open Access. CC0 1.0.</span>
   </figcaption>
 </figure>
+
 Biddle’s 1805 plate gave the dining room a recess and a name. A century of American houses built that room, then a pantry, then a breakfast room. In the 1990s and after, builders took the walls down. The great room is a hall again: kitchen, sofa, and a table in one volume. The table may be an island with stools, a farmhouse trestle, a leftover formal suite under a fixture that now hangs in space. The specialized dining room survives in plans as an option and in older houses as a closed box people do not know how to use. Furniture follows volume. A sideboard needs a wall. An island needs a floor box.
 
 This is not decline as a moral. It is a return to mixed use with different labor. No enslaved waiter. No butler. The cook is at the island and also a host. MESDA’s slab height comes back as quartz. The person standing there owns the house.

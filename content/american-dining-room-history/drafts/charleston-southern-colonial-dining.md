@@ -3,7 +3,7 @@ title: Charleston and the Southern dining parlor
 slug: charleston-southern-colonial-dining
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 9
 word_target: 1400-2200
 era: "1730–1790"
@@ -34,6 +34,7 @@ plate_status: cleared
     <span class="figure-credit">The Metropolitan Museum of Art, Open Access. CC0 1.0.</span>
   </figcaption>
 </figure>
+
 
 MESDA’s sideboard table 3163 is not a dining table. It is a mahogany frame, cypress where you cannot see, and a marble slab, Charleston, 1750–1765, thirty and a quarter inches high, forty wide, not quite twenty-three deep. The museum’s label is blunt: marble is cool, water-resistant, and expensive; paired with carved mahogany it telegraphs elite status; it also implies servants — usually enslaved — who mix and serve while guests stay seated.
 
@@ -99,7 +100,7 @@ Federal Charleston will take the sideboard and the D-end with the rest of the co
 
 If you stand in front of 3163, do not only admire the marble. Look at the height. Imagine a person there who cannot sit. Then look at the dining table in the same room, if the museum has set one, and ask which object the guests thought was the furniture. Both were. Only one is usually photographed.
 
-Bradley Brand’s later Southern hardwood tables are a different shop and a free labor. The wood — oak, walnut, pecan — can still be a Southern sentence. The slab’s implication does not transfer. Do not borrow the marble’s glamour without the caption.
+Oak, walnut, and pecan in a later Southern table are a different woodshed than this marble slab. The slab’s implication does not transfer. Do not borrow the marble’s glamour without the caption.
 
 ## Sources
 

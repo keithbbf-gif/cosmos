@@ -3,7 +3,7 @@ title: Depression dinettes
 slug: depression-dinette
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 33
 word_target: 1400-2200
 era: "1925–1955"
@@ -33,6 +33,7 @@ plate_status: cleared
     <span class="figure-credit">Photo: Andrew Balet. Wikimedia Commons. CC BY-SA 4.0.</span>
   </figcaption>
 </figure>
+
 
 The dinette is a dining room that has admitted it lost the room. A table for four, often with a porcelain-enamel or linoleum top, chromium or painted-wood legs, chairs with tubular frames or thin painted wood, sometimes a matching cabinet. It lives in an alcove, a kitchen, or the end of a living room. Catalogs of the 1930s and 1940s sell it without shame. The Grand Rapids oak suite is still in the farmhouse. The city apartment buys this.
 

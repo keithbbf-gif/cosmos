@@ -3,7 +3,7 @@ title: Empire pillar and claw
 slug: empire-pillar-and-claw
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 16
 word_target: 1400-2200
 era: "1815–1845"
@@ -35,14 +35,13 @@ plate_status: cleared
     <span class="figure-credit">The Metropolitan Museum of Art, Open Access. CC0 1.0.</span>
   </figcaption>
 </figure>
-
-After about 1815 the Federal dining table puts on weight. The tapered leg thickens into a pillar. The foot becomes a carved paw, a scroll, or a hairy claw. The top goes from a quiet mahogany board to a crotch-veneered disc or oval that looks like a flame under polish. Leaves still add length, but the image of the table is now a central support and a cloth that falls onto a carved animal. American dealers call this Empire. The word is borrowed, stretched, and applied to shops that never saw a Bonaparte.
+On the floor under an Empire pedestal, glue blocks radiate from the pillar like a wagon wheel. A restorer who removes them to “clean up” the underside has removed the table’s brain. After about 1815 the Federal dining table puts on weight. The tapered leg thickens into a pillar. The foot becomes a carved paw, a scroll, or a hairy claw. The top goes from a quiet mahogany board to a crotch-veneered disc or oval that looks like a flame under polish. Leaves still add length, but the image of the table is now a central support and a cloth that falls onto a carved animal. American dealers call this Empire. The word is borrowed, stretched, and applied to shops that never saw a Bonaparte.
 
 Lannuier’s New York was the accurate French import. This page is the American product: Phyfe’s later shop, anonymous New York and Philadelphia factories, Boston’s Briggs-type extension tables already thinking about cranks, Southern walnut versions of the same silhouette. The dining room that holds this table is named, specialized, and, in town, middle-class as well as mercantile.
 
 ## The pillar as a knee solution
 
-A pedestal puts the structure in the middle. Diners keep their shins. The engineering problem moves to the top: a wide leaf on one pin, seasonal wobble, a split if the crossbanding fights the ground. Glue blocks radiate under the top like a wagon wheel. A restorer who removes them to “clean up” the underside has removed the table’s brain.
+A pedestal puts the structure in the middle. Diners keep their shins. The engineering problem moves to the top: a wide leaf on one pin, seasonal wobble, a split if the crossbanding fights the ground.
 
 The pillar itself is a turned baluster, often with carved acanthus at the throat, sitting on a plinth or on four splayed saber legs. Early Federal pedestals can still be a thin Sheraton urn. The Empire pillar is a fat column. If you are on the floor, the tell is diameter and the carved paw. Brass lion-paw casters are common. The table is heavy. Two people move it, or they do not. The dining room’s carpet begins to show a track.
 

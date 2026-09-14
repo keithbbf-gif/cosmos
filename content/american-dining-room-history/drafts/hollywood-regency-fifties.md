@@ -3,7 +3,7 @@ title: Hollywood Regency and the formal fifties
 slug: hollywood-regency-fifties
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 36
 word_target: 1400-2200
 era: "1935–1965"
@@ -33,6 +33,7 @@ plate_status: cleared
     <span class="figure-credit">Photo: King of Hearts. Wikimedia Commons. CC BY-SA 2.0.</span>
   </figcaption>
 </figure>
+
 Not every postwar table was a tulip. A large American dining room of 1955 might still be mahogany, or mahogany-colored, with a breakfront, a crystal fixture, shield-back chairs that are Colonial Revival’s grandchildren, and a table that extends to Thanksgiving. Hollywood Regency — the decorator name for lacquer, brass ormolu, a little Empire, a little chinoiserie, a glamour that photographs — sits at the expensive end. The suburban “formal dining room” sits at the volume end. Both refuse the chrome dinette as a public room. The dinette is in the kitchen. Company sees mahogany.
 
 Dorothy Draper and later decorators are the loud names. Most rooms were done from a store’s “traditional” floor. This page is the refusal of modernism at dinner, which is as American as Saarinen.

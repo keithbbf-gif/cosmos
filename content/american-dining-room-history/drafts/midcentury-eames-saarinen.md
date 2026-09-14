@@ -3,7 +3,7 @@ title: Eames, Saarinen, Knoll
 slug: midcentury-eames-saarinen
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 34
 word_target: 1400-2200
 era: "1940–1970"
@@ -33,6 +33,7 @@ plate_status: cleared
     <span class="figure-credit">Honolulu Museum of Art. Wikimedia Commons. CC0 1.0.</span>
   </figcaption>
 </figure>
+
 Eero Saarinen wanted to clear “the slum of legs” under the table. Knoll’s Pedestal Collection — designed 1956–57, in production from 1956 — is a cast-aluminum stem and a round or oval top in marble, wood, laminate. The Tulip chairs match. A dining room that buys this set has decided that Empire paws, Mission posts, and four oak legs are clutter. The decision is aesthetic and also practical: fewer legs to mop around, fewer collisions with shins. The pillar table of 1820 already knew the shin problem. Saarinen made the pillar a single stem and called the old forest a slum.
 
 Charles and Ray Eames are the other American modern dining: molded plywood chairs (the DCW and later fiberglass and wire), tables that are thinner, a California and Cranbrook intelligence that is less formal than Knoll’s marble. People eat at Eames tables. People also put Eames chairs at older tables. The mix is the American room.

@@ -3,7 +3,7 @@ title: Newport, Goddard, Townsend
 slug: newport-goddard-townsend-dining
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 7
 word_target: 1400-2200
 era: "1740–1790"
@@ -33,6 +33,7 @@ plate_status: cleared
     <span class="figure-credit">The Metropolitan Museum of Art, Open Access. CC0 1.0.</span>
   </figcaption>
 </figure>
+
 
 The blockfront secretary is the postcard. The dining table is the working relative. In Newport, from the 1740s through the Revolution, the Goddard and Townsend families — Quaker, intermarried, a shop culture more than a single genius — made mahogany case furniture that American collectors later treated as a national school. They also made tables and chairs that held dinner. Those pieces share the same wood, the same stop-fluted legs, the same refusal to carve as wetly as Philadelphia, and they are easier to miss in a museum because they do not have a carved shell the size of a hand on every drawer.
 

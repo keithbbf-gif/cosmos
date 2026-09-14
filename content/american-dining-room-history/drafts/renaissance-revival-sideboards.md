@@ -3,7 +3,7 @@ title: Renaissance Revival sideboards
 slug: renaissance-revival-sideboards
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 23
 word_target: 1400-2200
 era: "1860–1885"
@@ -34,6 +34,7 @@ plate_status: cleared
     <span class="figure-credit">The Metropolitan Museum of Art, Open Access. CC0 1.0.</span>
   </figcaption>
 </figure>
+
 
 The Federal sideboard was a long table with locks. The Renaissance Revival sideboard is a building. Pedestals at the ends, a high back, a pediment, carved heads, fruit, game, a marble slab in the middle, walnut or ebonized wood, sometimes incised gold. Herter Brothers at the top. Grand Rapids and a hundred factories at the volume. The dining room of the 1870s hangs its identity on this wall. Eliza Leslie’s “closet” has become a monument.
 

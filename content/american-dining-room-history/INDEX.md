@@ -1,7 +1,7 @@
 ---
 title: Index — American Dining Room Furniture, 1700–Now
 status: draft
-voice_check: human
+voice_check: edited
 series: american-dining-room-history
 ---
 
@@ -11,7 +11,7 @@ A series for buyers, designers, restorers, and anyone who has inherited a table 
 
 Bradley Brand works Arkansas hardwoods. These drafts teach how American dining furniture was made and used. They do not sell chairs.
 
-Canonical slugs: `writer-slugs.json` (44). Drafts live in `drafts/`. All articles: `status: draft`, `voice_check: human`. Voice: `STYLE_GUIDE.md`. Sources: `BIBLIOGRAPHY.md`. Images: `PHOTO_CAPTIONS.md`. Counts: `MANIFEST.md`.
+Canonical slugs: `writer-slugs.json` (44). Drafts live in `drafts/`. All articles: `status: draft`, `voice_check: edited` (editor pass 2026-09-14). Voice: `STYLE_GUIDE.md`. Sources: `BIBLIOGRAPHY.md`. Images: `PHOTO_CAPTIONS.md`. Counts: `MANIFEST.md`. Editor log: `EDITOR_REPORT.md`.
 
 Staged for BBF furniture-history SEO. Pillar map when present: [`content/_seo/furniture-pillars.md`](../_seo/furniture-pillars.md). One slug owns one query.
 

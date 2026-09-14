@@ -3,7 +3,7 @@ title: Baltimore painted dining
 slug: baltimore-painted-dining
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 14
 word_target: 1400-2200
 era: "1790–1825"
@@ -33,6 +33,7 @@ plate_status: cleared
     <span class="figure-credit">The Metropolitan Museum of Art, Open Access. CC0 1.0.</span>
   </figcaption>
 </figure>
+
 
 The Met’s Baltimore Room is a parlor dressed as a dining room, Craig woodwork, Gallery 724. The furniture the Museum puts in it has changed with curators. What Baltimore actually made for dining in the Federal years is a split: mahogany tables and sideboards like every other port, and a painted fancy — chairs, settees, sometimes tables — that is the city’s accent. The paint is not a substitute for carving only. It is a school: landscapes, gilt, grisaille, a chair that costs less than a Phyfe reeded mahogany and looks, under candles, like a different kind of money.
 

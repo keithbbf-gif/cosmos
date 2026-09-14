@@ -3,7 +3,7 @@ title: Who made the table
 slug: enslaved-labor-dining-room
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 20
 word_target: 1400-2200
 era: "1700–1865"
@@ -35,6 +35,7 @@ plate_status: cleared
     <span class="figure-credit">Wikimedia Commons. Public domain.</span>
   </figcaption>
 </figure>
+
 
 John Hemmings (1776–1833), enslaved at Monticello, joiner, made furniture and interior woodwork for Thomas Jefferson’s houses. He is a name. Most of the people who made and served at American dining tables before 1865 are not. This page is a dining-room labor history, not a complete census. It exists so the other essays cannot treat mahogany, marble, and Hepplewhite as if they arranged themselves.
 

@@ -3,7 +3,7 @@ title: Stickley and Mission dining
 slug: stickley-mission-dining
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 27
 word_target: 1400-2200
 era: "1900–1916"
@@ -33,6 +33,7 @@ plate_status: cleared
     <span class="figure-credit">The Metropolitan Museum of Art, Open Access. CC0 1.0.</span>
   </figcaption>
 </figure>
+
 
 Gustav Stickley’s Dining Table no. 631 is a plank. The Stickley Project notes put the idea in 1901 — a drawing for Things Wrought by the United Crafts at Eastwood, and the first issue of *The Craftsman*, then with a medial stretcher on the floor — numbered about 1904, made circa 1902–15, thirty by ninety-six by forty-eight inches in a recorded example. Catalogue D called it heavy construction, a two-inch top, a table for a large dining room that did not need to close, also used as a director’s table. Fumed oak. A price, in one list, of sixty-six dollars. That is a dining table that has stopped pretending to be French.
 

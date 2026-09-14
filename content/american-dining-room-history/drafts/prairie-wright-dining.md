@@ -3,7 +3,7 @@ title: Prairie School at table
 slug: prairie-wright-dining
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 28
 word_target: 1400-2200
 era: "1895–1925"
@@ -33,6 +33,7 @@ plate_status: cleared
     <span class="figure-credit">Victoria and Albert Museum, London. Wikimedia Commons. CC0 1.0.</span>
   </figcaption>
 </figure>
+
 
 Frank Lloyd Wright’s dining chairs are tall on purpose. They make a room inside the room: a fence of slats around the table so that dinner is an enclosure, not a floating suite in a box. The table itself is often built-in or aligned to a grid, oak, a low lamp or a ceiling fixture that is part of the same drawing. This is architecture that happens to hold plates. It is the most designed American dining of the century, and the least typical. Most Prairie-influenced dining rooms are a square oak table and some high-back chairs from a catalog that saw a photograph.
 

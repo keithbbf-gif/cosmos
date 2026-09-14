@@ -3,7 +3,7 @@ title: Southern hardwoods at table
 slug: arkansas-southern-hardwood-dining
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 44
 word_target: 1400-2200
 era: "1700–now"
@@ -33,9 +33,9 @@ plate_status: cleared
     <span class="figure-credit">The Metropolitan Museum of Art, Open Access. CC0 1.0.</span>
   </figcaption>
 </figure>
-A dining table in the Southern hardwood belt does not have to be mahogany. White oak and red oak, black walnut, cherry, pecan, hickory, pine, cypress — the forest that paid mills and furniture factories from the Carolinas to Arkansas is a dining forest. Charleston used mahogany because it was a port. The Piedmont and the interior used what grew. This page is that interior. Bradley Brand works Arkansas hardwoods; the series uses that shop as a way to look at oak, walnut, and pecan at dinner, not as a catalog.
+A quartersawn white-oak top on a Southern dining table shows medullary rays in a closed room and checks less than a flatsawn red-oak plank beside a sliding glass door. White oak and red oak, black walnut, cherry, pecan, hickory, pine, cypress — the forest that paid mills and furniture factories from the Carolinas to Arkansas is a dining forest. Charleston used mahogany because it was a port. The Piedmont and the interior used what grew. This page is that interior.
 
-The furniture-history pillar asked for Southern vernacular and for a woods cluster that is photographed, not invented. What follows is history and a shopping literacy, not a line of chairs.
+What follows is history and a way to read the underside, not a line of chairs.
 
 ## What the region already made
 

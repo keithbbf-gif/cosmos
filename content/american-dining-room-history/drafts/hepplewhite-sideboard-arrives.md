@@ -3,7 +3,7 @@ title: The sideboard arrives
 slug: hepplewhite-sideboard-arrives
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 10
 word_target: 1400-2200
 era: "1785–1820"
@@ -36,10 +36,9 @@ plate_status: cleared
     <span class="figure-credit">The Metropolitan Museum of Art, Open Access. CC0 1.0.</span>
   </figcaption>
 </figure>
+Thomas Shearer’s priced sideboard in the *Cabinet-Makers’ London Book of Prices* (1788) is a long, narrow cabinet on tapered legs: drawers, bottle wells, a lockable interior for plate. George Hepplewhite’s *Guide* of the same year — Hepplewhite dead, the book posthumous — gives shops serpentine and straight fronts in plates. That is the form before it has a room name on every plan. Eliza Leslie, in *The House Book* (1844), tells a middle-class reader that a large closet is indispensable to a dining room. By closet she means a sideboard. If the wall cannot take a large one, she allows two small ones in the recesses. That sentence is the form after it has won. This page is the winning hour: the 1780s and 1790s, when the sideboard became the furniture that proved you had a dining room.
 
-Eliza Leslie, in *The House Book* (1844), tells a middle-class reader that a large closet is indispensable to a dining room. By closet she means a sideboard. If the wall cannot take a large one, she allows two small ones in the recesses. That sentence is the form after it has won. This page is the winning: the 1780s and 1790s, when a long, narrow cabinet of drawers and bottle wells became the furniture that proved you had a dining room.
-
-English courts had dressed buffets for a long time. The American Federal sideboard is not that pageant. It is a carpenter’s object from a price book. Thomas Shearer’s designs in the *Cabinet-Makers’ London Book of Prices* (1788) and George Hepplewhite’s *Guide* of the same year — Hepplewhite dead, the book posthumous — give shops a serpentine or straight front, tapered legs, and a lockable interior for plate. Sheraton’s *Drawing-Book* (1793) adds the later, more architectural versions. American shops in New York, Baltimore, Boston, and Philadelphia copy, inlay, and stretch the form until it is the room’s other table.
+English courts had dressed buffets for a long time. The American Federal sideboard is not that pageant. Sheraton’s *Drawing-Book* (1793) adds the later, more architectural versions. American shops in New York, Baltimore, Boston, and Philadelphia copy, inlay, and stretch the form until it is the room’s other table.
 
 ## A priced novelty
 

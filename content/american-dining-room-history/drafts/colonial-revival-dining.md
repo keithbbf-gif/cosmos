@@ -3,7 +3,7 @@ title: Colonial Revival dining
 slug: colonial-revival-dining
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 26
 word_target: 1400-2200
 era: "1876–1930"
@@ -33,6 +33,7 @@ plate_status: cleared
     <span class="figure-credit">Photo: King of Hearts. Wikimedia Commons. CC BY-SA 2.0.</span>
   </figcaption>
 </figure>
+
 
 The Centennial Exhibition of 1876 in Philadelphia put colonial objects in a national mood. What followed was not a return to 1720. It was a new dining-room style: gateleg tables made yesterday, “Pilgrim” chairs that William and Mary would not have recognized, maple stained to look older than the house, Windsor sets sold as ancestral. Museums and collectors (Wallace Nutting the loud name) photographed and then manufactured a past. The American dining room, tired of walnuts grapes and gilt, put on a costume from its own attic — or from a factory’s idea of an attic.
 
@@ -84,7 +85,7 @@ The gain: people kept eating at wood tables instead of abandoning the room. The 
 
 If the tag says “colonial” and the screws are slotted-but-bright or Phillips, walk. If the maple is tiger and the finish is nitrocellulose, you are in the twentieth century. If the inlay on a “Hepplewhite” sideboard is too crisp and the secondary is plywood, you are in the twentieth century. Plywood is not a crime. It is a date.
 
-A Revival dining room that knows it is Revival — a 1920s house with 1920s colonial furniture — is an honest period. A Revival dining room that claims 1740 is a story. This series prefers the honest period. BBF’s Southern vernacular interest is closer to the Piedmont server than to a Nutting butterfly. Do not Colonial-Revival a hunt board. The hunt-board essay already asked.
+A Revival dining room that knows it is Revival — a 1920s house with 1920s colonial furniture — is an honest period. A Revival dining room that claims 1740 is a story. This series prefers the honest period. A Piedmont hunt board is closer to honest vernacular than a Nutting butterfly. Do not Colonial-Revival a hunt board. The hunt-board essay already asked.
 
 If you sit at a 1925 gateleg, use it as a 1925 table. Fold it. That is what it was designed to do, twice: once in imitation of 1710, and once because American dining rooms were still not huge. The imitation is the history. The fold still works.
 

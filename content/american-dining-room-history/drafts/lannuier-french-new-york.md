@@ -3,7 +3,7 @@ title: Lannuier and the French table
 slug: lannuier-french-new-york
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 13
 word_target: 1400-2200
 era: "1803–1819"
@@ -33,6 +33,7 @@ plate_status: cleared
     <span class="figure-credit">The Metropolitan Museum of Art, Open Access. CC0 1.0.</span>
   </figcaption>
 </figure>
+
 
 Charles-Honoré Lannuier (1779–1819) lasted sixteen years in New York and left labeled furniture that still looks like it got off a different ship than Phyfe’s. He arrived in 1803, French-trained, and died in 1819, at forty, at the height of the work. The Met’s Heilbrunn essay and the 1998 catalog *Honoré Lannuier, Cabinetmaker from Paris* keep him adjacent to Phyfe without collapsing them: more gilt bronze, more marble, more Paris, a Grecian that has not been fully translated into merchant English. Dining-specific labeled pieces are scarcer in the public conversation than pier tables and card tables. That scarcity is the first fact. Do not invent a suite.
 

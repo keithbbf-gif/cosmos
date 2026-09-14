@@ -3,7 +3,7 @@ title: Gateleg and drop-leaf
 slug: gateleg-and-drop-leaf
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 3
 word_target: 1400-2200
 era: "1680–1780"
@@ -34,6 +34,7 @@ plate_status: cleared
     <span class="figure-credit">The Metropolitan Museum of Art, Open Access. CC0 1.0.</span>
   </figcaption>
 </figure>
+
 
 Turn a gateleg over. The poetry stops. You get a rectangle of rails, two framed gates hinged on pintles, a pair of leaves hanging from a molded joint, and a top that has been scrubbed toward the grain. That underside is the American dining table before the pedestal and before the room. English shops had already perfected the type. American shops copied the geometry in maple, cherry, walnut, and pine, and they kept cutting it long after Philadelphia had learned Chippendale’s Director.
 

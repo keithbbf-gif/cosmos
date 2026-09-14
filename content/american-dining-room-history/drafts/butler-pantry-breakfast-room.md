@@ -3,7 +3,7 @@ title: Butler’s pantry and breakfast room
 slug: butler-pantry-breakfast-room
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 32
 word_target: 1400-2200
 era: "1840–1930"
@@ -32,6 +32,7 @@ plate_status: cleared
     <span class="figure-credit">Photo: Tim Evanson. Wikimedia Commons. CC BY-SA 2.0.</span>
   </figcaption>
 </figure>
+
 
 Once the dining room has a name, the house grows rooms to serve it. The butler’s pantry — a passage of glass-front cabinets, a sink, a plate warmer, a pass-through — is furniture that is also architecture. The breakfast room is a second dining room with worse chairs and a better morning. Berman’s pattern-book counts already show breakfast rooms alongside dining rooms in English plates Americans copied. By the Gilded Age and the large suburban house of 1910, the campus of eating is ordinary at a certain income. The dining table can stay formal because toast has somewhere else to go.
 
@@ -83,7 +84,7 @@ Leaves stacked on edge, felt between them if anyone cared, are pantry furniture.
 
 A glass cabinet in a pantry is a china closet that cannot be sold apart from the house. That is why so much of this furniture is still in place and so little of it is in museums. The movable dining suite is over-represented in collections. The pantry is under-represented. If you are documenting a house, photograph the pantry empty and full. The full is the dining-room history.
 
-BBF’s world — a shop, a kitchen, a table that may be the only table — is closer to the refusal of this split. A single good table in a room that is also the kitchen is an old hall idea and a new open-plan idea. The pantry years are the years between. They produced excellent millwork. They also produced a dining room that forgot how to be everyday. When people say they want a dining room but eat at the island, they are living the afterlife of the breakfast room. The island is a slab table in the kitchen. MESDA 3163 would recognize the height. The labor is now the owner.
+A single good table in a room that is also the kitchen is an old hall idea and a new open-plan idea. The pantry years are the years between. They produced excellent millwork. They also produced a dining room that forgot how to be everyday. When people say they want a dining room but eat at the island, they are living the afterlife of the breakfast room. The island is a slab table in the kitchen. MESDA 3163 would recognize the height. The labor is now the owner.
 
 ## Sources
 

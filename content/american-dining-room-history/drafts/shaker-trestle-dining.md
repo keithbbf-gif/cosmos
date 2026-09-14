@@ -3,7 +3,7 @@ title: Shaker trestles
 slug: shaker-trestle-dining
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 18
 word_target: 1400-2200
 era: "1800–1860"
@@ -35,6 +35,7 @@ plate_status: cleared
     <span class="figure-credit">The Metropolitan Museum of Art, Open Access. CC0 1.0.</span>
   </figcaption>
 </figure>
+
 
 A Shaker dining room is a long room with a long table and benches, not a suite of claw-foot chairs around a crotch pedestal. The table is often a trestle: a board on uprights and a shoe, sometimes with a stretcher you can find with your feet, maple or pine, a finish that is a stain and a varnish, not a French polish picture. The seats are benches. People sit on both sides. The meal is communal, sex-segregated in many communities, timed, silent or nearly silent in the popular telling, and — this is the furniture point — designed so that no one has a sideboard to perform at.
 
@@ -86,7 +87,7 @@ Look at the underside for community marks, paint ghosts, and repairs in kind. Lo
 
 If you sit at one in a museum, notice the absence of an armchair at the end. That absence is the design. The American dining room spent a century putting the host at the head. The trestle spends the meal refusing a head. You can buy the look and miss the refusal. Many have.
 
-Bradley Brand’s square, honest tables can sit near this tradition without claiming Believers. Simple and square is a Southern shop habit as well as a Shaker one. Do not put a peg rail in the caption unless the room has pegs.
+Simple and square is a Southern shop habit as well as a Shaker one. Do not put a peg rail in the caption unless the room has pegs.
 
 ## Sources
 
