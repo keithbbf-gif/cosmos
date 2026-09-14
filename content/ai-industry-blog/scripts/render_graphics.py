@@ -1,0 +1,499 @@
+#!/usr/bin/env python3
+"""One-shot renderer for ai-industry-blog magazine SVGs. Public concepts only."""
+
+from __future__ import annotations
+
+import textwrap
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+ASSETS = ROOT / "assets"
+
+
+def esc(text: str) -> str:
+    return (
+        text.replace("&", "&amp;")
+        .replace("<", "&lt;")
+        .replace(">", "&gt;")
+        .replace('"', "&quot;")
+    )
+
+# Magazine design tokens
+BG = "#FAF8F5"
+INK = "#141414"
+INK_MUTED = "#5C574F"
+INK_LIGHT = "#8A847A"
+LINE = "#E3DDD4"
+ACCENT = "#1E4D6B"
+ACCENT_WARM = "#B85C38"
+ACCENT_SOFT = "#D4E4ED"
+CARD = "#FFFFFF"
+W, H_TIMELINE = 1200, 640
+W_DIAG, H_DIAG = 1100, 620
+
+
+def svg_open(w: int, h: int, title: str) -> str:
+    return f"""<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="{w}" height="{h}" role="img" aria-labelledby="title desc">
+  <title id="title">{esc(title)}</title>
+  <desc id="desc">Editorial diagram for the AI industry blog. Generic public concepts only.</desc>
+  <defs>
+    <style>
+      .t-title {{ font: 600 26px Georgia, 'Times New Roman', serif; fill: {INK}; }}
+      .t-sub {{ font: 400 14px system-ui, -apple-system, 'Segoe UI', sans-serif; fill: {INK_MUTED}; }}
+      .t-year {{ font: 700 13px system-ui, sans-serif; fill: {ACCENT}; }}
+      .t-label {{ font: 600 12px system-ui, sans-serif; fill: {INK}; }}
+      .t-body {{ font: 400 11.5px system-ui, sans-serif; fill: {INK_MUTED}; }}
+      .t-small {{ font: 400 10px system-ui, sans-serif; fill: {INK_LIGHT}; }}
+      .t-card-title {{ font: 600 13px system-ui, sans-serif; fill: {INK}; }}
+    </style>
+    <filter id="shadow" x="-4%" y="-4%" width="108%" height="108%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#141414" flood-opacity="0.08"/>
+    </filter>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="{ACCENT}"/>
+    </marker>
+  </defs>
+  <rect width="100%" height="100%" fill="{BG}"/>
+"""
+
+
+def svg_close() -> str:
+    return "</svg>\n"
+
+
+def header(title: str, subtitle: str, y: int = 36) -> str:
+    return f"""
+  <text x="56" y="{y}" class="t-title">{title}</text>
+  <text x="56" y="{y + 26}" class="t-sub">{subtitle}</text>
+  <line x1="56" y1="{y + 38}" x2="{W - 56 if 'W' else W_DIAG - 56}" y2="{y + 38}" stroke="{LINE}" stroke-width="1"/>
+"""
+
+
+def write(path: Path, body: str) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(body, encoding="utf-8")
+
+
+def timeline_svg(
+    title: str,
+    subtitle: str,
+    years: range,
+    events: list[tuple[int, str, str]],
+    footnote: str,
+) -> str:
+    """events: (year, short label, detail) — placed on alternating rails."""
+    parts = [svg_open(W, H_TIMELINE, title)]
+    parts.append(
+        f'  <text x="56" y="40" class="t-title">{esc(title)}</text>\n'
+        f'  <text x="56" y="66" class="t-sub">{esc(subtitle)}</text>\n'
+        f'  <line x1="56" y1="78" x2="{W - 56}" y2="78" stroke="{LINE}"/>\n'
+    )
+    y0, y1 = 120, H_TIMELINE - 72
+    x_left, x_right = 100, W - 100
+    yr_min, yr_max = years.start, years.stop - 1
+    span = x_right - x_left
+
+    def x_for_year(y: int) -> float:
+        return x_left + (y - yr_min) / (yr_max - yr_min) * span
+
+    parts.append(
+        f'  <line x1="{x_left}" y1="{y0}" x2="{x_right}" y2="{y0}" stroke="{ACCENT}" stroke-width="3" stroke-linecap="round"/>\n'
+    )
+    for y in years:
+        x = x_for_year(y)
+        parts.append(
+            f'  <line x1="{x:.1f}" y1="{y0 - 8}" x2="{x:.1f}" y2="{y0 + 8}" stroke="{ACCENT}" stroke-width="2"/>\n'
+            f'  <text x="{x:.1f}" y="{y0 + 28}" text-anchor="middle" class="t-year">{y}</text>\n'
+        )
+
+    rail_top, rail_bot = y0 - 70, y0 + 52
+    for i, (yr, label, detail) in enumerate(events):
+        x = x_for_year(yr)
+        top = i % 2 == 0
+        cy = rail_top if top else rail_bot
+        dy = -12 if top else 14
+        anchor_y = cy + (dy - 28 if top else dy + 8)
+        card_w = 236
+        rx = max(56, min(x - card_w / 2, W - 56 - card_w))
+        parts.append(
+            f'  <circle cx="{x:.1f}" cy="{y0}" r="6" fill="{ACCENT_WARM}" stroke="{BG}" stroke-width="2"/>\n'
+            f'  <line x1="{x:.1f}" y1="{y0}" x2="{x:.1f}" y2="{cy}" stroke="{LINE}" stroke-width="1.5"/>\n'
+            f'  <rect x="{rx:.1f}" y="{anchor_y - 22}" width="{card_w}" height="52" rx="6" fill="{CARD}" filter="url(#shadow)"/>\n'
+            f'  <text x="{x:.1f}" y="{anchor_y}" text-anchor="middle" class="t-label">{esc(label)}</text>\n'
+        )
+        # wrap detail to ~38 chars
+        wrapped = textwrap.wrap(detail, width=38)[:2]
+        for j, line in enumerate(wrapped):
+            parts.append(
+                f'  <text x="{x:.1f}" y="{anchor_y + 14 + j * 13}" text-anchor="middle" class="t-body">{esc(line)}</text>\n'
+            )
+
+    parts.append(
+        f'  <text x="56" y="{H_TIMELINE - 28}" class="t-small">{esc(footnote)}</text>\n'
+    )
+    parts.append(svg_close())
+    return "".join(parts)
+
+
+def box_diagram(
+    title: str,
+    subtitle: str,
+    boxes: list[tuple[str, str, float, float, float, float]],
+    arrows: list[tuple[float, float, float, float]],
+    footnote: str,
+    w: int = W_DIAG,
+    h: int = H_DIAG,
+) -> str:
+    """boxes: label, sub, x, y, width, height"""
+    parts = [svg_open(w, h, title)]
+    parts.append(
+        f'  <text x="48" y="38" class="t-title">{esc(title)}</text>\n'
+        f'  <text x="48" y="62" class="t-sub">{esc(subtitle)}</text>\n'
+        f'  <line x1="48" y1="74" x2="{w - 48}" y2="74" stroke="{LINE}"/>\n'
+    )
+    for x1, y1, x2, y2 in arrows:
+        parts.append(
+            f'  <line x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}" stroke="{ACCENT}" stroke-width="2" marker-end="url(#arrow)"/>\n'
+        )
+    for label, sub, x, y, bw, bh in boxes:
+        parts.append(
+            f'  <rect x="{x}" y="{y}" width="{bw}" height="{bh}" rx="8" fill="{CARD}" stroke="{LINE}" filter="url(#shadow)"/>\n'
+            f'  <rect x="{x}" y="{y}" width="{bw}" height="6" rx="8" fill="{ACCENT_SOFT}"/>\n'
+            f'  <text x="{x + bw/2}" y="{y + 28}" text-anchor="middle" class="t-card-title">{esc(label)}</text>\n'
+        )
+        sub_lines = textwrap.wrap(sub, width=int(bw / 6.5))[:3]
+        for j, line in enumerate(sub_lines):
+            parts.append(
+                f'  <text x="{x + bw/2}" y="{y + 48 + j * 14}" text-anchor="middle" class="t-body">{esc(line)}</text>\n'
+            )
+    parts.append(f'  <text x="48" y="{h - 24}" class="t-small">{esc(footnote)}</text>\n')
+    parts.append(svg_close())
+    return "".join(parts)
+
+
+def main() -> None:
+    # --- Timelines ---
+    write(
+        ASSETS / "industry-milestones-2020-2026" / "timeline.svg",
+        timeline_svg(
+            "Public AI industry milestones",
+            "Selected anchors from research, products, and policy (2020–2026)",
+            range(2020, 2027),
+            [
+                (2020, "GPT-3 paper", "Large LM scaling gains attention in research"),
+                (2021, "Diffusion models", "Image generation moves to latent diffusion"),
+                (2022, "ChatGPT launch", "Consumer chat UI popularizes LLM assistants"),
+                (2023, "GPT-4 era", "Multimodal APIs; enterprise copilots expand"),
+                (2024, "Open weights wave", "Strong open models; on-device interest rises"),
+                (2025, "Agent framing", "Tool use and workflows enter product marketing"),
+                (2026, "Governance in prod", "Compliance hooks ship beside model APIs"),
+            ],
+            "Illustrative timeline; dates are public milestones, not a complete catalog.",
+        ),
+    )
+
+    write(
+        ASSETS / "compute-and-scaling-2020-2026" / "timeline.svg",
+        timeline_svg(
+            "Compute and scaling narrative",
+            "How training scale and efficiency debates entered the mainstream",
+            range(2020, 2027),
+            [
+                (2020, "100B+ params", "Research explores few-shot at scale"),
+                (2021, "Chinchilla insight", "Data vs parameters tradeoffs discussed"),
+                (2022, "H100 generation", "Hardware cycle shapes cluster planning"),
+                (2023, "Long context", "Context windows marketed as capability"),
+                (2024, "MoE efficiency", "Sparse activation models go mainstream"),
+                (2025, "Inference cost", "Serving economics rival training headlines"),
+                (2026, "Energy reporting", "Datacenter power draws regulator attention"),
+            ],
+            "Conceptual timeline for editorial use; not vendor-specific benchmarks.",
+        ),
+    )
+
+    write(
+        ASSETS / "open-weights-epochs-2020-2026" / "timeline.svg",
+        timeline_svg(
+            "Open-weights epochs",
+            "Public releases that shifted who could fine-tune and deploy locally",
+            range(2020, 2027),
+            [
+                (2020, "Research weights", "Mostly papers; weights rarely published"),
+                (2022, "Stable Diffusion", "Open image weights enable local art tools"),
+                (2023, "LLaMA leak & lineage", "Open LLM ecosystem accelerates"),
+                (2024, "License clarity", "Community debates commercial terms"),
+                (2025, "Small capable models", "Edge and laptop deployment normalizes"),
+                (2026, "Safety tooling", "Open eval harnesses bundled with releases"),
+            ],
+            "Names refer to widely reported public releases, not internal products.",
+        ),
+    )
+
+    # --- Architecture ---
+    write(
+        ASSETS / "architecture-transformer-block" / "diagram.svg",
+        box_diagram(
+            "Transformer block (generic)",
+            "Self-attention + feed-forward stack repeated L times",
+            [
+                ("Input tokens", "Embeddings + positional info", 80, 120, 200, 72),
+                ("Multi-head attention", "Query/key/value projections; scaled dot-product", 340, 100, 240, 88),
+                ("Add & norm", "Residual + layer normalization", 640, 120, 180, 72),
+                ("Feed-forward MLP", "Two linear layers + activation", 340, 260, 240, 88),
+                ("Output hidden state", "Passed to next block or head", 860, 120, 200, 72),
+            ],
+            [
+                (280, 156, 340, 144),
+                (580, 144, 640, 156),
+                (730, 156, 860, 156),
+                (460, 188, 460, 260),
+                (580, 304, 640, 192),
+            ],
+            "Educational schematic; omitting KV-cache and parallel training details.",
+        ),
+    )
+
+    write(
+        ASSETS / "architecture-rag-pipeline" / "diagram.svg",
+        box_diagram(
+            "Retrieval-augmented generation (RAG)",
+            "Retrieve evidence, then condition generation on cited chunks",
+            [
+                ("User query", "Natural language question", 60, 150, 170, 70),
+                ("Embed query", "Vector representation", 270, 150, 170, 70),
+                ("Vector index", "Chunked documents", 480, 120, 200, 90),
+                ("Ranked passages", "Top-k with scores", 480, 250, 200, 70),
+                ("Prompt assembly", "Instructions + citations", 720, 150, 200, 90),
+                ("LLM", "Answer grounded in context", 960, 150, 170, 90),
+            ],
+            [
+                (230, 185, 270, 185),
+                (440, 185, 480, 165),
+                (580, 210, 580, 250),
+                (680, 285, 720, 210),
+                (920, 195, 960, 195),
+            ],
+            "Generic RAG pattern; production systems add rerankers, filters, and eval loops.",
+        ),
+    )
+
+    write(
+        ASSETS / "architecture-fine-tuning-stages" / "diagram.svg",
+        box_diagram(
+            "Fine-tuning stages (generic)",
+            "From base model to task-specific behavior",
+            [
+                ("Pretrained base", "General language model", 80, 140, 190, 80),
+                ("Supervised FT", "Instruction / task pairs", 320, 120, 200, 80),
+                ("Preference tuning", "Human or model preferences", 320, 260, 200, 80),
+                ("Adapter / LoRA", "Low-rank weight updates", 560, 190, 200, 80),
+                ("Deployed checkpoint", "Served with guardrails", 800, 190, 220, 80),
+            ],
+            [
+                (270, 180, 320, 160),
+                (270, 180, 320, 300),
+                (520, 160, 560, 210),
+                (520, 300, 560, 230),
+                (760, 230, 800, 230),
+            ],
+            "Not every product uses every stage; diagram shows common public pipeline.",
+        ),
+    )
+
+    write(
+        ASSETS / "architecture-inference-stack" / "diagram.svg",
+        box_diagram(
+            "Inference serving stack",
+            "Request path from client to generated tokens",
+            [
+                ("Client", "App or API consumer", 60, 170, 150, 70),
+                ("Gateway", "Auth, routing, rate limits", 250, 170, 170, 70),
+                ("Scheduler", "Batching / queueing", 460, 120, 180, 70),
+                ("Model workers", "GPU/TPU execution", 460, 240, 180, 70),
+                ("Tokenizer", "Encode / decode", 680, 170, 160, 70),
+                ("Streamed response", "Tokens + metadata", 880, 170, 180, 70),
+            ],
+            [
+                (210, 205, 250, 205),
+                (420, 205, 460, 155),
+                (420, 205, 460, 275),
+                (640, 155, 680, 190),
+                (640, 275, 680, 210),
+                (840, 205, 880, 205),
+            ],
+            "Simplified serving diagram; excludes speculative decoding and multi-region failover.",
+        ),
+    )
+
+    write(
+        ASSETS / "architecture-agent-tool-loop" / "diagram.svg",
+        box_diagram(
+            "Agent with tools (conceptual loop)",
+            "Plan → act via tools → observe → repeat until stop",
+            [
+                ("Planner", "Chooses next step", 120, 110, 180, 70),
+                ("Tool router", "APIs, search, code", 360, 110, 180, 70),
+                ("Environment", "External state & data", 600, 110, 180, 70),
+                ("Observation", "Tool output logged", 600, 260, 180, 70),
+                ("Memory buffer", "Scratchpad / history", 360, 260, 180, 70),
+                ("Final answer", "User-visible result", 120, 260, 180, 70),
+            ],
+            [
+                (300, 145, 360, 145),
+                (540, 145, 600, 145),
+                (690, 180, 690, 260),
+                (600, 295, 540, 295),
+                (360, 295, 300, 295),
+                (210, 180, 210, 260),
+            ],
+            "Generic agent loop; production systems add policy checks and human approval gates.",
+        ),
+    )
+
+    # --- Eval explainers ---
+    write(
+        ASSETS / "eval-benchmark-families" / "explainer.svg",
+        box_diagram(
+            "Benchmark families",
+            "What public leaderboards typically measure",
+            [
+                ("Knowledge", "MMLU-style multi-subject QA", 80, 130, 220, 90),
+                ("Reasoning", "Math, logic, graduate problems", 340, 130, 220, 90),
+                ("Coding", "Function completion & bugs", 600, 130, 220, 90),
+                ("Instruction", "Follow constraints & format", 80, 280, 220, 90),
+                ("Safety", "Refusal & toxicity probes", 340, 280, 220, 90),
+                ("Multimodal", "Vision + language tasks", 600, 280, 220, 90),
+            ],
+            [],
+            "Categories overlap; scores are not interchangeable across suites.",
+            w=900,
+            h=480,
+        ),
+    )
+
+    write(
+        ASSETS / "eval-harness-pipeline" / "explainer.svg",
+        box_diagram(
+            "Evaluation harness (generic)",
+            "Repeatable runs from prompt set to reported metrics",
+            [
+                ("Prompt set", "Fixed items + rubric", 70, 160, 170, 75),
+                ("Runner", "Temperature, seeds", 280, 160, 150, 75),
+                ("Model endpoint", "Same build each run", 470, 160, 170, 75),
+                ("Scoring", "Exact match, judges, code exec", 680, 160, 180, 75),
+                ("Report", "Tables + confidence notes", 900, 160, 170, 75),
+            ],
+            [
+                (240, 197, 280, 197),
+                (430, 197, 470, 197),
+                (640, 197, 680, 197),
+                (860, 197, 900, 197),
+            ],
+            "Good harnesses version data, log prompts, and document judge models.",
+            w=1100,
+            h=400,
+        ),
+    )
+
+    write(
+        ASSETS / "eval-leaderboard-caveats" / "explainer.svg",
+        _caveats_svg(),
+    )
+
+    # --- Regulation timelines ---
+    write(
+        ASSETS / "regulation-eu-ai-act" / "timeline.svg",
+        timeline_svg(
+            "EU AI Act (public timeline)",
+            "Key implementation phases commonly cited in compliance guides",
+            range(2021, 2027),
+            [
+                (2021, "Proposal", "Commission publishes risk-based framework"),
+                (2024, "Entry into force", "Act adopted; staggered obligations"),
+                (2025, "GPAI duties", "General-purpose model rules phase in"),
+                (2026, "High-risk systems", "Conformity expectations sharpen"),
+                (2026, "Market practice", "Contracts reference AI Act clauses"),
+            ],
+            "Dates reflect public legislative timeline; verify against official EUR-Lex text.",
+        ),
+    )
+
+    write(
+        ASSETS / "regulation-us-federal-2023-2026" / "timeline.svg",
+        timeline_svg(
+            "U.S. federal AI policy (selected)",
+            "Executive and agency milestones reported in public dockets",
+            range(2023, 2027),
+            [
+                (2023, "EO 14110", "Safety, privacy, and innovation priorities"),
+                (2024, "NIST AI RMF", "Risk management framework adoption"),
+                (2024, "Agency rules", "Sector-specific guidance emerges"),
+                (2025, "Procurement", "Federal buying requirements evolve"),
+                (2026, "Congress debate", "Bills introduced; outcomes vary"),
+            ],
+            "Not legal advice; cite primary sources for compliance decisions.",
+        ),
+    )
+
+    write(
+        ASSETS / "regulation-global-snapshot-2026" / "timeline.svg",
+        timeline_svg(
+            "Global governance snapshot",
+            "Parallel policy tracks (illustrative, 2020–2026)",
+            range(2020, 2027),
+            [
+                (2021, "Ethics principles", "Multilateral AI ethics statements"),
+                (2022, "China measures", "Algorithm recommendation rules"),
+                (2023, "UK approach", "Pro-innovation regulator-led model"),
+                (2024, "EU AI Act", "Comprehensive horizontal regulation"),
+                (2025, "Standards bodies", "ISO/IEC work on AI management"),
+                (2026, "Cross-border", "Data flow + model export questions"),
+            ],
+            "High-level map for readers; jurisdictions differ in scope and enforcement.",
+        ),
+    )
+
+    print(f"Wrote assets under {ASSETS}")
+
+
+def _caveats_svg() -> str:
+    w, h = 1000, 520
+    items = [
+        ("Train vs eval overlap", "Benchmark items may appear in training corpora."),
+        ("Prompt sensitivity", "Small wording changes swing scores."),
+        ("Judge bias", "LLM-as-judge favors verbose or branded styles."),
+        ("Contamination", "Public tests leak via web crawls."),
+        ("Cherry-picked subsets", "Leaderboards highlight favorable slices."),
+        ("Version drift", "Model updates without frozen checkpoints."),
+    ]
+    parts = [svg_open(w, h, "Leaderboard caveats")]
+    parts.append(
+        f'  <text x="48" y="38" class="t-title">{esc("Reading leaderboards critically")}</text>\n'
+        f'  <text x="48" y="62" class="t-sub">{esc("Questions to ask before comparing headline numbers")}</text>\n'
+        f'  <line x1="48" y1="74" x2="{w - 48}" y2="74" stroke="{LINE}"/>\n'
+    )
+    col_w = 440
+    for i, (head, body) in enumerate(items):
+        col = i % 2
+        row = i // 2
+        x = 48 + col * (col_w + 24)
+        y = 100 + row * 130
+        parts.append(
+            f'  <rect x="{x}" y="{y}" width="{col_w}" height="108" rx="8" fill="{CARD}" stroke="{LINE}" filter="url(#shadow)"/>\n'
+            f'  <circle cx="{x + 22}" cy="{y + 28}" r="10" fill="{ACCENT_WARM}"/>\n'
+            f'  <text x="{x + 42}" y="{y + 32}" class="t-label">{esc(head)}</text>\n'
+        )
+        for j, line in enumerate(textwrap.wrap(body, width=52)):
+            parts.append(
+                f'  <text x="{x + 42}" y="{y + 54 + j * 14}" class="t-body">{esc(line)}</text>\n'
+            )
+    parts.append(
+        f'  <text x="48" y="{h - 24}" class="t-small">{esc("Use alongside ablations, not as sole purchase criteria.")}</text>\n'
+    )
+    parts.append(svg_close())
+    return "".join(parts)
+
+
+if __name__ == "__main__":
+    main()

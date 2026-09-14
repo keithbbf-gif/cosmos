@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="900" height="480" role="img" aria-labelledby="title desc">
+  <title id="title">Benchmark families</title>
+  <desc id="desc">Editorial diagram for the AI industry blog. Generic public concepts only.</desc>
+  <defs>
+    <style>
+      .t-title { font: 600 26px Georgia, 'Times New Roman', serif; fill: #141414; }
+      .t-sub { font: 400 14px system-ui, -apple-system, 'Segoe UI', sans-serif; fill: #5C574F; }
+      .t-year { font: 700 13px system-ui, sans-serif; fill: #1E4D6B; }
+      .t-label { font: 600 12px system-ui, sans-serif; fill: #141414; }
+      .t-body { font: 400 11.5px system-ui, sans-serif; fill: #5C574F; }
+      .t-small { font: 400 10px system-ui, sans-serif; fill: #8A847A; }
+      .t-card-title { font: 600 13px system-ui, sans-serif; fill: #141414; }
+    </style>
+    <filter id="shadow" x="-4%" y="-4%" width="108%" height="108%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#141414" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+  <rect width="100%" height="100%" fill="#FAF8F5"/>
+  <text x="48" y="38" class="t-title">Benchmark families</text>
+  <text x="48" y="62" class="t-sub">What public leaderboards typically measure</text>
+  <line x1="48" y1="74" x2="852" y2="74" stroke="#E3DDD4"/>
+  <rect x="80" y="130" width="220" height="90" rx="8" fill="#FFFFFF" stroke="#E3DDD4" filter="url(#shadow)"/>
+  <rect x="80" y="130" width="220" height="6" rx="8" fill="#D4E4ED"/>
+  <text x="190.0" y="158" text-anchor="middle" class="t-card-title">Knowledge</text>
+  <text x="190.0" y="178" text-anchor="middle" class="t-body">MMLU-style multi-subject QA</text>
+  <rect x="340" y="130" width="220" height="90" rx="8" fill="#FFFFFF" stroke="#E3DDD4" filter="url(#shadow)"/>
+  <rect x="340" y="130" width="220" height="6" rx="8" fill="#D4E4ED"/>
+  <text x="450.0" y="158" text-anchor="middle" class="t-card-title">Reasoning</text>
+  <text x="450.0" y="178" text-anchor="middle" class="t-body">Math, logic, graduate problems</text>
+  <rect x="600" y="130" width="220" height="90" rx="8" fill="#FFFFFF" stroke="#E3DDD4" filter="url(#shadow)"/>
+  <rect x="600" y="130" width="220" height="6" rx="8" fill="#D4E4ED"/>
+  <text x="710.0" y="158" text-anchor="middle" class="t-card-title">Coding</text>
+  <text x="710.0" y="178" text-anchor="middle" class="t-body">Function completion &amp; bugs</text>
+  <rect x="80" y="280" width="220" height="90" rx="8" fill="#FFFFFF" stroke="#E3DDD4" filter="url(#shadow)"/>
+  <rect x="80" y="280" width="220" height="6" rx="8" fill="#D4E4ED"/>
+  <text x="190.0" y="308" text-anchor="middle" class="t-card-title">Instruction</text>
+  <text x="190.0" y="328" text-anchor="middle" class="t-body">Follow constraints &amp; format</text>
+  <rect x="340" y="280" width="220" height="90" rx="8" fill="#FFFFFF" stroke="#E3DDD4" filter="url(#shadow)"/>
+  <rect x="340" y="280" width="220" height="6" rx="8" fill="#D4E4ED"/>
+  <text x="450.0" y="308" text-anchor="middle" class="t-card-title">Safety</text>
+  <text x="450.0" y="328" text-anchor="middle" class="t-body">Refusal &amp; toxicity probes</text>
+  <rect x="600" y="280" width="220" height="90" rx="8" fill="#FFFFFF" stroke="#E3DDD4" filter="url(#shadow)"/>
+  <rect x="600" y="280" width="220" height="6" rx="8" fill="#D4E4ED"/>
+  <text x="710.0" y="308" text-anchor="middle" class="t-card-title">Multimodal</text>
+  <text x="710.0" y="328" text-anchor="middle" class="t-body">Vision + language tasks</text>
+  <text x="48" y="456" class="t-small">Categories overlap; scores are not interchangeable across suites.</text>
+</svg>
