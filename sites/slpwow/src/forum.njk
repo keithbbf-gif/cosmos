@@ -1,0 +1,38 @@
+---
+layout: layouts/base.njk
+title: Forum
+description: Professional discussion space for speech-language pathologists — launching soon.
+permalink: /forum/
+---
+<header class="page-header">
+  <h1>Community forum</h1>
+  <p>Moderated discussion for SLPs, clinical fellows, and approved trainees. Patient identifiers and employer-sensitive details stay off the platform.</p>
+</header>
+
+<div class="notice">
+  <strong>Coming soon.</strong> We are configuring single sign-on, moderation queues, and category structure (school-based, medical, private practice, research, CF mentorship).
+</div>
+
+<div class="discourse-stub" id="discourse-embed-location">
+  <p><strong>Forum placeholder</strong></p>
+  <p>When Discourse is live, the embed will render here. Until then, follow news for launch updates.</p>
+</div>
+
+<!--
+  Discourse embed stub — enable when site.discourseUrl is set in src/_data/site.json
+
+  <script type="text/javascript">
+    DiscourseEmbed = {
+      discourseUrl: 'https://community.slpwow.com/',
+      discourseEmbedUrl: 'https://slpwow.com/forum/'
+    };
+  </script>
+  <script type="text/javascript" async src="https://community.slpwow.com/javascripts/embed.js"></script>
+-->
+
+<h2 class="section-title">While you wait</h2>
+<ul>
+  <li>Comment threads on blog posts will remain closed until moderation tools ship.</li>
+  <li><a href="/news/">News &amp; blog</a> covers research and caseload topics you can share with colleagues today.</li>
+  <li>Questions about access? Email <a href="mailto:{{ site.contactEmail }}">{{ site.contactEmail }}</a>.</li>
+</ul>

@@ -1,0 +1,6 @@
+{
+  "layout": "layouts/post.njk",
+  "permalink": "/news/posts/{{ page.fileSlug }}/",
+  "draft": true,
+  "author": "SLP WOW Editorial"
+}

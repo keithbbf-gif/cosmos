@@ -1,0 +1,18 @@
+---
+layout: layouts/base.njk
+mainClass: narrow prose
+---
+<article>
+  <header class="page-header">
+    <p class="post-meta">
+      <span class="tag">{{ category }}</span>
+      {{ date | readableDate }}
+      · {{ author or "SLP WOW Editorial" }}
+      {% if draft %}<span class="tag">Draft</span>{% endif %}
+    </p>
+    <h1>{{ title }}</h1>
+    {% if description %}<p>{{ description }}</p>{% endif %}
+  </header>
+  {{ content | safe }}
+</article>
+<p style="margin-top:2rem"><a href="/news/">← All news</a></p>

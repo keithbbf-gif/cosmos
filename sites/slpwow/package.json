@@ -1,0 +1,19 @@
+{
+  "name": "@slpwow/site",
+  "version": "0.1.0",
+  "private": true,
+  "description": "SLP WOW community and resource site (slpwow.com) — for speech-language pathologists.",
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve --port=8080",
+    "clean": "rm -rf _site"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "markdown-it": "^14.1.0",
+    "markdown-it-anchor": "^9.2.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

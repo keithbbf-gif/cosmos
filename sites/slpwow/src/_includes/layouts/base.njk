@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if title %}{{ title }} · {% endif %}{{ site.name }}</title>
+  <meta name="description" content="{{ description or site.description }}">
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/">
+        <strong>{{ site.name }}</strong>
+        <span>For speech-language pathologists</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="/" {% if page.url == "/" %}aria-current="page"{% endif %}>Home</a></li>
+          <li><a href="/news/" {% if page.url == "/news/" %}aria-current="page"{% endif %}>News</a></li>
+          <li><a href="/resources/" {% if page.url == "/resources/" %}aria-current="page"{% endif %}>Resources</a></li>
+          <li><a href="/word-lists/" {% if page.url == "/word-lists/" %}aria-current="page"{% endif %}>Word lists</a></li>
+          <li><a href="/forum/" {% if page.url == "/forum/" %}aria-current="page"{% endif %}>Forum</a></li>
+          <li><a href="/about/" {% if page.url == "/about/" %}aria-current="page"{% endif %}>About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="main" class="{{ mainClass or '' }}">
+    {{ content | safe }}
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>&copy; {% currentYear %} {{ site.name }}. Community content for SLP professionals.</p>
+      <p>
+        <a href="/privacy/">Privacy</a>
+        ·
+        <a href="/about/">About</a>
+        ·
+        <a href="mailto:{{ site.contactEmail }}">Contact</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

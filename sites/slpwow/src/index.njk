@@ -1,0 +1,52 @@
+---
+layout: layouts/base.njk
+title: Home
+description: SLP WOW — news, free resources, word lists, and professional community for speech-language pathologists.
+permalink: /
+---
+<section class="hero">
+  <h1>Stay sharp between sessions</h1>
+  <p class="lead">{{ site.tagline }}. Browse evidence-informed news, download vetted freebies, and prepare for peer discussion — all written for clinicians, not substitute caregiver handouts.</p>
+  <div class="btn-row">
+    <a class="btn btn-primary" href="/news/">Latest news</a>
+    <a class="btn btn-secondary" href="/resources/">Free resources</a>
+    <a class="btn btn-secondary" href="/word-lists/">Word lists</a>
+  </div>
+</section>
+
+<h2 class="section-title">What you will find here</h2>
+<div class="grid-3">
+  <article class="card">
+    <h3>News &amp; blog</h3>
+    <p>Research roundups with citations, implementation notes, and practice trends — filtered for busy caseloads.</p>
+    <p style="margin-top:0.75rem"><a href="/news/">Read the blog →</a></p>
+  </article>
+  <article class="card">
+    <h3>Resource hub</h3>
+    <p>Free downloads and explainers: how to use them ethically, align with goals, and document appropriately.</p>
+    <p style="margin-top:0.75rem"><a href="/resources/">Browse resources →</a></p>
+  </article>
+  <article class="card">
+    <h3>Word lists</h3>
+    <p>Structured lists by sound, syllable shape, and language level — starting points you can customize.</p>
+    <p style="margin-top:0.75rem"><a href="/word-lists/">View lists →</a></p>
+  </article>
+</div>
+
+<h2 class="section-title">Recent posts</h2>
+<ul class="post-list">
+{%- for post in collections.posts %}
+  {%- if loop.index0 < 4 %}
+  <li>
+    <p class="post-meta"><span class="tag">{{ post.data.category }}</span>{{ post.date | readableDate }}</p>
+    <h3 style="margin:0;font-size:1.1rem"><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+    <p style="color:var(--ink-muted);font-size:0.95rem;margin:0.35rem 0 0">{{ post.data.description }}</p>
+  </li>
+  {%- endif %}
+{%- endfor %}
+</ul>
+<p style="margin-top:1rem"><a href="/news/">View all posts →</a></p>
+
+<div class="notice notice-info" style="margin-top:2.5rem">
+  <strong>Forum coming soon.</strong> We are standing up moderated discussion for licensed SLPs and trainees. <a href="/forum/">See the roadmap</a>.
+</div>

@@ -1,0 +1,24 @@
+---
+layout: layouts/base.njk
+title: News & Blog
+description: Professional news, research roundups, and clinical tips for speech-language pathologists.
+permalink: /news/
+---
+<header class="page-header">
+  <h1>News &amp; blog</h1>
+  <p>Evidence-informed articles for SLP practice — research summaries, caseload wisdom, and free resource guides. Draft posts are marked until editorial review.</p>
+</header>
+
+<ul class="post-list">
+{%- for post in collections.posts %}
+  <li>
+    <p class="post-meta">
+      <span class="tag">{{ post.data.category }}</span>
+      {{ post.date | readableDate }}
+      {% if post.data.draft %}<span class="tag">Draft</span>{% endif %}
+    </p>
+    <h2 style="margin:0;font-size:1.2rem"><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
+    <p style="color:var(--ink-muted);margin:0.4rem 0 0">{{ post.data.description }}</p>
+  </li>
+{%- endfor %}
+</ul>

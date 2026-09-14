@@ -1,0 +1,44 @@
+---
+layout: layouts/base.njk
+title: Free resources
+description: Curated free downloads and guides for speech-language pathologists — with clinical use notes.
+permalink: /resources/
+---
+<header class="page-header">
+  <h1>Free SLP resources</h1>
+  <p>Materials linked here are free at the point of download. We summarize what each tool is for, which populations it fits, and how to document use in your setting.</p>
+</header>
+
+<div class="notice">
+  <strong>Professional use only.</strong> These resources support therapy planning and education among clinicians. They are not a substitute for individualized assessment or treatment plans for clients.
+</div>
+
+<section class="resource-grid">
+  <article class="card resource-card">
+    <h3>Session data trackers (Google Sheets)</h3>
+    <p>Lightweight templates for trial counts, cue levels, and carryover notes — editable for school, medical, or private practice workflows.</p>
+    <p><em>Status: placeholder link — upload to CDN before launch.</em></p>
+  </article>
+  <article class="card resource-card">
+    <h3>Goal bank starters</h3>
+    <p>Measurable language and speech sound goal stems aligned to common frameworks; meant to be customized, not copied verbatim into IEPs.</p>
+  </article>
+  <article class="card resource-card">
+    <h3>Home program language</h3>
+    <p>Clinician-facing paragraphs you can adapt when assigning practice — emphasizes dosage, feedback, and when to stop.</p>
+  </article>
+  <article class="card resource-card">
+    <h3>Cf mentorship check-ins</h3>
+    <p>Monthly reflection prompts for clinical fellows and supervisors: scope, ethics, workload, and documentation habits.</p>
+  </article>
+</section>
+
+<h2 class="section-title">Resource explainers on the blog</h2>
+<p>Deep dives on how to implement free tools without scope creep:</p>
+<ul>
+{%- for post in collections.posts %}
+  {%- if post.data.category == "resources" %}
+  <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+  {%- endif %}
+{%- endfor %}
+</ul>
