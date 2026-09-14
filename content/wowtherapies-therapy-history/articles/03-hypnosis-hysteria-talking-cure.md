@@ -18,7 +18,7 @@ citations:
   - "Freud, Sigmund, and Josef Breuer. Studien über Hysterie. 1895."
   - "Janet, Pierre. L'Automatisme psychologique. 1889."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -40,13 +40,13 @@ Josef Breuer, a respected Viennese internist, treated a woman the published case
 
 The book is not a miracle story. Pappenheim's later life was larger than the case: she organized Jewish women's social work, translated, and did not spend her remaining decades as "Anna O." Freud and Breuer soon disagreed about sexuality as the preferred plot. Freud dropped hypnosis because, he said, not everyone could be hypnotized, and because he wanted the patient awake enough to resist. Free association — say what comes, even if it is stupid — is a technical answer to a failed trance.
 
-Hippolyte Bernheim's Nancy school already had a simpler explanation: suggestion, without a Salpêtrière celebrity. Freud visited Nancy as well as Paris. The talking cure is, among other things, what happened when a Viennese neurologist decided that suggestion was not enough of an explanation and not enough of a method. Whether he was right is a century of argument. That he made the argument in a private study rather than a Tuesday amphitheater is the social fact this essay is after.
+Freud visited Nancy as well as Paris. The talking cure is, among other things, what happened when a Viennese neurologist decided that suggestion was not enough of an explanation and not enough of a method. Whether he was right is a century of argument. That he made the argument in a private study rather than a Tuesday amphitheater is the social fact this essay is after.
 
 ## Janet's other unconscious
 
 Pierre Janet, Charcot's student, published *L'Automatisme psychologique* in 1889, before the *Studien*. He wrote of the *subconscient*, of dissociation, of ideas split off from the main stream of personality. He treated hysteria as a narrowing of the field of consciousness, often after exhaustion or shock. He also kept a hospital job and a philosopher's vocabulary.
 
-Freud and Janet spent years in a sour priority fight. Ellenberger, who admired both, refused to let the fight erase Janet. A trauma clinician who has never heard of Freud is rare. A trauma clinician who has never heard of Janet is still too common. The essay on trauma lineages in this series picks him up again. The point here is simpler: the talking cure had more than one father, and one of them did not think the Oedipus story was the skeleton key.
+Freud and Janet spent years in a sour priority fight. Ellenberger, who admired both, refused to let the fight erase Janet. A trauma clinician who has never heard of Freud is rare. A trauma clinician who has never heard of Janet is still too common. The essay on trauma lineages in this series picks him up again. The point here is simpler: the talking cure had more than one inventor, and one of them did not think the Oedipus story was the skeleton key.
 
 ## What "hysteria" was doing as a word
 

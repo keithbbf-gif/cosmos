@@ -17,7 +17,7 @@ citations:
   - "Brown v. Board of Education, 347 U.S. 483 (1954)."
   - "Markowitz and Rosner. Children, Race, and Power. 1996."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

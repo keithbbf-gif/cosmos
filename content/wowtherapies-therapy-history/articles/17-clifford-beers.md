@@ -14,7 +14,7 @@ citations:
   - "Beers, Clifford Whittingham. A Mind That Found Itself. 1908."
   - "Dain, Norman. Clifford W. Beers: Advocate for the Insane. 1980."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

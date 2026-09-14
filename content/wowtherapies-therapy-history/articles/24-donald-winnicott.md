@@ -14,7 +14,7 @@ citations:
   - "Winnicott, D. W. Transitional Objects and Transitional Phenomena. 1953."
   - "Winnicott, D. W. The Maturational Processes and the Facilitating Environment. 1965."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

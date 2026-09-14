@@ -14,7 +14,7 @@ citations:
   - "Adler, Alfred. Menschenkenntnis. 1927."
   - "Makari, George. Revolution in Mind. 2008."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

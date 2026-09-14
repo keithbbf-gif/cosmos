@@ -14,7 +14,7 @@ citations:
   - "Yalom, Irvin D. The Theory and Practice of Group Psychotherapy. 1970."
   - "Yalom, Irvin D. Existential Psychotherapy. 1980."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

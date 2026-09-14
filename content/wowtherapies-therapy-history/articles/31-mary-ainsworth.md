@@ -13,7 +13,7 @@ citations:
   - "Ainsworth, Mary D. S. Infancy in Uganda. 1967."
   - "Ainsworth, Mary D. S., Blehar, Waters, and Wall. Patterns of Attachment. 1978."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

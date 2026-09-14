@@ -17,7 +17,7 @@ citations:
   - "Hayes, Steven C., Kirk D. Strosahl, and Kelly G. Wilson. Acceptance and Commitment Therapy. 1999."
   - "Segal, Zindel V., J. Mark G. Williams, and John D. Teasdale. Mindfulness-Based Cognitive Therapy for Depression. 2002."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

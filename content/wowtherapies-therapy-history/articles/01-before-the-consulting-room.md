@@ -15,7 +15,7 @@ citations:
   - "Scull, Andrew. Madness in Civilization. Princeton University Press, 2015."
   - "Porter, Roy. Madness: A Brief History. Oxford University Press, 2002."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

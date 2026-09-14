@@ -18,7 +18,7 @@ citations:
   - "Clark, Kenneth B., and Mamie P. Clark. 1939 and 1950 papers."
   - "Guthrie, Robert V. Even the Rat Was White. 1998."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

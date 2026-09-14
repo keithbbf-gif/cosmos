@@ -18,7 +18,7 @@ citations:
   - "Brown, Laura S. Subversive Dialogues. 1994."
   - "Chesler, Phyllis. Women and Madness. 1972."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -67,9 +67,7 @@ The Stone Center at Wellesley was a research and training address, not a mood. P
 
 The tradition also produced mistakes: political tests for patients, a romance of sisterhood that hid abuse, workshops that confused catharsis with change. A history that skips those is a brochure.
 
-Those collected volumes treated sexual orientation as ordinary clinical data, not as a side topic reserved for a special week.
-
-The Boston Lesbian Psychologies Collective's 1980s volumes, and later work on ethics with lesbian and bisexual clients, kept feminist therapy from becoming a straight-women's upgrade of Rogers. That literature is easy to skip on a general-history syllabus. Skipping it repeats the 1973 fight in a quieter key.
+The Boston Lesbian Psychologies Collective's 1980s volumes, and later work on ethics with lesbian and bisexual clients, kept feminist therapy from becoming a straight-women's upgrade of Rogers. Those collected volumes treated sexual orientation as ordinary clinical data, not as a side topic reserved for a special week. That literature is easy to skip on a general-history syllabus. Skipping it repeats the 1973 fight in a quieter key.
 
 Stephen Mitchell's *Relational Concepts in Psychoanalysis* (1988) is the institute-side cousin: a two-person psychology that did not wait for a feminist masthead, though it owed Ferenczi and a generation of women who had already said the analyst was in the room. Later "relational" branding mixed RCT, Mitchell, and couple therapies into one adjective. The adjective is fine if you know which door you walked through. It is fog if you do not.
 

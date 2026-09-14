@@ -13,7 +13,7 @@ citations:
   - "Satir, Virginia. Conjoint Family Therapy. 1964."
   - "Satir, Virginia. Peoplemaking. 1972."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -51,15 +51,11 @@ A practice site can honor that refusal without turning a blog post into a family
 
 A first family hour in a small-city practice is closer to Satir's social-work origin than to a California marathon. The usable inheritance is the intake question: who else is in this story, and who has been nominated as the problem? The rest is training, not a blog.
 
-## Avanta, and a presence that would not franchise
-
-The Avanta Network, later Satir institutes, and international trainings after 1988 had to decide how much of her was a method and how much was a presence that cannot be franchised. *Peoplemaking* (1972) made the stances a public vocabulary. Public vocabularies get used on families that have not consented to a workshop. A first hour in a small-city practice is closer to her Chicago social-work origin than to a California marathon: who else is in this story, and who has been nominated as the problem?
-
-A Wisconsin farm-family table taught her whether feelings were allowed at dinner. She treated that early fact as clinical data for the rest of her working life.
-
 Neillsville to Chicago to Palo Alto is a social-work geography. She directed training at MRI in the early 1960s and then left the engineer's table for a traveling practice. The leaving was a decision about which room she wanted: a research institute or a family that would stand up and show its loyalties in space.
 
-She died in 1988. MRI had already gone its briefer, more cynical way. She never sounded like Watzlawick. That difference is why this pack keeps both lineages. Growth theater and communication engineering were two temperatures of the same mid-century decision: the unit of treatment is larger than one.
+*Peoplemaking* (1972) made the stances a public vocabulary. Public vocabularies get used on families that have not consented to a workshop. The Avanta Network and later institutes had to decide how much of her was a method and how much was a presence that cannot be franchised.
+
+She died in 1988. MRI had already gone its briefer, more cynical way. She never sounded like Watzlawick. That difference is why this pack keeps both lineages. Growth theater and communication engineering were two temperatures of the same mid-century decision: the unit of treatment is larger than one. A Wisconsin farm-family table taught her whether feelings were allowed at dinner; she treated that early fact as clinical data for the rest of her working life. The farm table is not nostalgia; it is where she learned who got to speak. A first family hour in a small-city practice is closer to that origin than to a California marathon: who else is in this story, and who has been nominated as the problem?
 
 ## Portrait
 

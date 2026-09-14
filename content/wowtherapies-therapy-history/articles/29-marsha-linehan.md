@@ -14,7 +14,7 @@ citations:
   - "Linehan, Marsha M. Cognitive-Behavioral Treatment of Borderline Personality Disorder. 1993."
   - "Carey, Benedict. New York Times, 23 June 2011."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

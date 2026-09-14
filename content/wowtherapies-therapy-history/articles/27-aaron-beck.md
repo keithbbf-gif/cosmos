@@ -15,7 +15,7 @@ citations:
   - "Beck, Aaron T., Rush, Shaw, and Emery. Cognitive Therapy of Depression. 1979."
   - "Beck, A. T., et al. An Inventory for Measuring Depression. 1961."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

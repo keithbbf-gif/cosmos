@@ -15,10 +15,10 @@ citations:
   - "Myers, Charles S. A Contribution to the Study of Shell Shock. The Lancet, 1915."
   - "Janet, Pierre. L'Automatisme psychologique. 1889."
   - "Herman, Judith Lewis. Trauma and Recovery. 1992."
-  - "WHO. ICD-11, Complex post traumatic stress disorder."
+  - "WHO. ICD-11, complex post-traumatic stress disorder."
   - "Burgess, Ann Wolbert, and Lynda Lytle Holmstrom. Rape Trauma Syndrome. 1974."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -62,13 +62,13 @@ Every textbook chapter on trauma now includes a paragraph about how the field "f
 
 A counselor in a small American city meets all three lineages in one week and may have been trained in only one. History does not finish the training. It tells you why the chart you inherited is shaped like a soldier even when the person in the chair is not.
 
-Rivers treated officers whose muteness had no lesion a surgeon would sign.
-
 W. H. R. Rivers at Craiglockhart, and the literary afterlife of those war hospitals, belong next to Myers's 1915 paper. Poetry is not a diagnosis. It is how a later public remembered that a hospital had once treated speechlessness as an injury rather than as cowardice.
 
-Abram Kardiner's 1941 "physioneurosis" already knew the body stays on watch. After 1945 the diagnosis went quiet in civilian American psychiatry, then returned with new names. That forgetting is not a mystery of science. It is a mystery of who was allowed to be injured in public. Combat pensions required a word. Incest did not. Colonial torture, except where a hospital sat next to a war, waited longer than either. A chart that still leads with a combat vignette is that history, printed in a template.
-
 ISTSS (the society that took that name in the mid-1980s) and the *Journal of Traumatic Stress* made a field out of what had been a scatter of war papers and feminist clinics. Fields have conferences. They also have gatekeeping. Herman's complex trauma sat at that gate for decades before ICD-11 opened a door DSM had left shut.
+
+Frantz Fanon and Ignacio Martín-Baró appear elsewhere in this series because colonial war and state terror did not wait for a VA form. Their hospitals sat next to the violence. A trauma history that begins and ends in Europe and North America is not wrong about the dates it names. It is incomplete about the injuries it can see.
+
+Susannah Cahalan's later archival work on Rosenhan (*The Great Pretender*, 2019) is a reminder that scandal papers also age. A field that builds criteria on one exposé and then forgets to reread the exposé is repeating an old habit: believe the headline until the next headline arrives.
 
 ## Sources
 

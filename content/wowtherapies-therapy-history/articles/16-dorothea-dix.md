@@ -15,7 +15,7 @@ citations:
   - "Gollaher, David. Voice for the Mad. 1995."
   - "Smithsonian NPG.97.38, Samuel B. Waugh, 1868, CC0."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

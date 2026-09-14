@@ -17,7 +17,7 @@ citations:
   - "King, Pearl, and Riccardo Steiner, eds. The Freud–Klein Controversies 1941–45. 1991."
   - "Hartnack, Christiane. Psychoanalysis in Colonial India. 2001."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -75,9 +75,7 @@ Relational and intersubjective analysts in the United States (Stephen Mitchell a
 
 The psychoanalytic century did not end because it was "disproven" in a single paper. It ended as a monopoly. The rest of this series is what grew in the space that monopoly left — and what had been growing all along in rooms that never subscribed to *Imago*.
 
-The 1926 pamphlet did not settle American medicine. It named the fight.
-
-Lay analysis was a fight inside the family. Freud's *The Question of Lay Analysis* (1926) defended Theodor Reik and a non-physician practice. American institutes, for decades, said no. Psychologists and social workers built other rooms — counseling rooms among them — while waiting. The later opening of institute doors did not return those decades. A profession that now shares "psychodynamic" language across licenses is living in the settlement, not in Freud's 1926 pamphlet.
+Lay analysis was a fight inside the family — the pamphlet did not settle American medicine, but it named the fight. Freud's *The Question of Lay Analysis* (1926) defended Theodor Reik and a non-physician practice. American institutes, for decades, said no. Psychologists and social workers built other rooms — counseling rooms among them — while waiting. The later opening of institute doors did not return those decades. A profession that now shares "psychodynamic" language across licenses is living in the settlement, not in Freud's 1926 pamphlet.
 
 ## Sources
 

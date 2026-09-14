@@ -18,7 +18,7 @@ citations:
   - "Bateson, Gregory, et al. Toward a Theory of Schizophrenia. 1956."
   - "de Shazer, Steve. Keys to Solution in Brief Therapy. 1985."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -68,7 +68,7 @@ Whitaker could empty a chair or fill it. The hour either woke or wandered.
 
 Carl Whitaker's experiential family work — unpredictable, sometimes theatrical — sat near Satir and far from MRI's cooler paradox. Trainees either found a living hour or found a license to be chaotic. History's job is to keep those outcomes from being confused.
 
-Murray Bowen's Georgetown decades produced the diagrams that still cover whiteboards: triangles, cutoff, differentiation of self. The 1978 *Family Therapy in Clinical Practice* collected papers that had already been circulating among trainees. Bowen's own family-of-origin research included a famous, uneasy return to his family of origin — a move later teachers either mythologized or warned against. This pack will not assign that move. It will say: a theory of anxiety moving through generations can help a clinician see a room. It can also become a family curse drawn in marker. Use the diagram as a hypothesis. Date it. Be willing to erase it.
+Bowen's own family-of-origin research included a famous, uneasy return to his family of origin — a move later teachers either mythologized or warned against. This pack will not assign that move. It will say: a theory of anxiety moving through generations can help a clinician see a room. It can also become a family curse drawn in marker. Use the diagram as a hypothesis. Date it. Be willing to erase it. A family map on a whiteboard is a dated guess, not a verdict on anyone's character. Erase it when the room changes.
 
 ## Sources
 

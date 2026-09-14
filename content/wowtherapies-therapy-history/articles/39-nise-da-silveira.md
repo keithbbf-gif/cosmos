@@ -14,7 +14,7 @@ citations:
   - "Museu de Imagens do Inconsciente. Institutional chronology, museum 20 May 1952; Casa das Palmeiras 1956."
   - "Silveira, Nise da. Imagens do inconsciente."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

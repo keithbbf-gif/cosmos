@@ -14,9 +14,9 @@ citations:
   - "Herman, Judith Lewis. Father–Daughter Incest. 1981."
   - "Herman, Judith Lewis. Trauma and Recovery. 1992."
   - "Herman, Judith Lewis. Truth and Repair. 2023."
-  - "WHO. ICD-11, Complex post traumatic stress disorder."
+  - "WHO. ICD-11, complex post-traumatic stress disorder."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -44,23 +44,19 @@ Safety, remembrance, reconnection — the triad is now printed on continuing-edu
 
 *Truth and Repair* returned to justice as a clinical topic: what survivors say they need from a community, not only from an hour. Acknowledgment, apology, and a public record are not billing codes. They are the social half of a recovery that an isolated hour cannot finish. A counseling site can note the book without becoming a court.
 
-Harvard and Cambridge Hospital are the institutional addresses. The books are the public ones. Trainees who met her only through a slide titled "three stages" missed the 1981 sociology of a crime and the 1992 argument with a veterans' science that had forgotten households. The 2023 book is a late insistence that the community is still on the hook. This pack keeps all three dates visible so a reader cannot reduce her to a poster.
-
-The 1992 book remains the public hinge for readers who met trauma through veterans' science. The 1981 book remains the harder one for a profession that still sometimes prefers a combat story to a household crime. Read both, in that order or the reverse. Do not reduce either to a slide titled "the three stages." The stages were a social argument about what recovery requires of a community. A slide is only a souvenir.
+Harvard and Cambridge Hospital are the institutional addresses. The books are the public ones. This pack keeps all three dates visible so a reader cannot reduce her to a poster.
 
 ## Living, and the rules
 
-No health speculation. No lecture-circuit photography. No "Herman says you should…" protocol. The inheritance is a frame: trauma is political as well as private, and a field that remembers soldiers and forgets children in houses is not done remembering.
+She is living as of last verification (2026-09-14). No health speculation, no lecture-circuit photography, and no "Herman says you should…" protocol on a history page. The inheritance is a frame: trauma is political as well as private, and a field that remembers soldiers and forgets children in houses is not done remembering.
 
-She belongs next to Janet and Myers in the trauma-era essay, and next to the feminist-relational essay, because she refused to let those be two shelves.
+She belongs next to Janet and Myers in the trauma-era essay, and next to the feminist-relational essay, because she refused to let those be two shelves. Cambridge Hospital and Harvard Medical School are the letterhead; the Women's Mental Health Collective in Somerville is the earlier room where incest was already present tense. *Father–Daughter Incest* (1981) still reads harder than the 1992 public book because it will not let a household crime become a combat story with better lighting.
 
-Cambridge Hospital and Harvard Medical School are the letterhead. The Women's Mental Health Collective in Somerville is the earlier room where incest was already present tense. *Father–Daughter Incest* (1981) still reads harder than the 1992 public book because it will not let a household crime become a combat story with better lighting. DSM's refusal of complex PTSD and ICD-11's later adoption are a bureaucratic echo of that hardness.
+Trainees who meet her only through a slide titled "three stages" often miss the 1981 sociology of a crime and the 1992 argument with a veterans' science that had forgotten households. The 2023 book is a late insistence that acknowledgment, apology, and a public record belong in the vocabulary of recovery — not as substitutes for an hour, but as the social half an isolated hour cannot finish. A counseling site can name that argument without running a courtroom.
 
-The *New York Times* treated the 1992 book as a psychiatric event. DSM did not add the diagnosis. The lag is the history: who may name an injury, and how long the name takes to become billable.
+Complex PTSD, as a phrase, now walks into intakes uninvited. Herman's writing is more careful than the phrase's afterlife. ICD-11's later adoption is a bureaucratic echo, not a crown this series is asked to place. DSM's refusal of the diagnosis for decades is part of the same record: who may name an injury, and how long the name takes to become billable.
 
-Safety, remembrance, reconnection were a social sequence in 1992, not three billing codes. A person who is not safe cannot "process" on a worksheet. A person who only processes and never reconnects is stuck in a private museum of injury. Those are historical claims about what the book was doing. They are not a protocol this page will run.
-
-She is living as of last verification. No lecture-circuit photography. No "Herman says you should" protocol. The 2023 book returns justice to the clinical vocabulary: acknowledgment is not a billing code. A counseling site can note that without becoming a court.
+Read *Father–Daughter Incest* before or after *Trauma and Recovery*. The order matters less than refusing to treat either book as a three-bullet handout. The 1981 volume is sociology with a stethoscope; the 1992 volume is psychiatry arguing in public. Both insist that the person in the chair is not inventing a politics when she names the house. The trauma-era essay in this series carries the wider line from shell shock to ICD-11; Herman is the hinge where the household enters that line without being demoted to a footnote. She made that hinge in print, not in a slogan.
 
 ## Portrait
 

@@ -19,7 +19,7 @@ citations:
   - "Yalom, Irvin D. Existential Psychotherapy. 1980."
   - "May, Rollo, Ernest Angel, and Henri F. Ellenberger, eds. Existence. 1958."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

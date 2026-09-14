@@ -14,7 +14,7 @@ citations:
   - "Frankl, Viktor E. …trotzdem Ja zum Leben sagen. 1946."
   - "Frankl, Viktor E. Ärztliche Seelsorge and 1930s logotherapy papers."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

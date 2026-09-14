@@ -15,7 +15,7 @@ citations:
   - "Horney, Karen. New Ways in Psychoanalysis. 1939."
   - "Horney, Karen. Our Inner Conflicts. 1945."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

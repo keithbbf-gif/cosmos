@@ -18,7 +18,7 @@ citations:
   - "Skinner, B. F. Science and Human Behavior. 1953."
   - "Eysenck, H. J. The Effects of Psychotherapy. 1952."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

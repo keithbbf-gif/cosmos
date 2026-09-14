@@ -14,7 +14,7 @@ citations:
   - "Freud, Anna. The Ego and the Mechanisms of Defence. 1936."
   - "King, Pearl, and Riccardo Steiner, eds. The Freud–Klein Controversies 1941–45. 1991."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

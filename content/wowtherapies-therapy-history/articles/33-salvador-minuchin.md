@@ -13,7 +13,7 @@ citations:
   - "Minuchin, Salvador, et al. Families of the Slums. 1967."
   - "Minuchin, Salvador. Families and Family Therapy. 1974."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

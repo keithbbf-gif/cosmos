@@ -14,7 +14,7 @@ citations:
   - "de Shazer, Steve. Keys to Solution in Brief Therapy. 1985."
   - "Berg, Insoo Kim, and Scott D. Miller. Working with the Problem Drinker. 1992."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

@@ -17,7 +17,7 @@ citations:
   - "Ainsworth, Mary D. S., et al. Patterns of Attachment. 1978."
   - "Robertson, James, and Joyce Robertson. A Two-Year-Old Goes to Hospital. 1952."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -69,9 +69,7 @@ None of that is a protocol for "earning secure attachment in six sessions." Thos
 
 ## Why the war nurseries still matter
 
-The origin is not a lab. It is a century that separated children from caregivers on purpose — evacuation, hospital rules that banned parents, institutions that called themselves care. Attachment theory is, among other things, a long argument with those rules.
-
-When a pediatric hospital now lets a parent sleep in the room, that is this argument, won in furniture. When a therapy office treats missed sessions only as resistance and never as protest, that is this argument, lost in a smaller room.
+The origin is not a lab. It is a century that separated children from caregivers on purpose — evacuation, hospital rules that banned parents, institutions that called themselves care. Attachment theory is, among other things, a long argument with those rules. Policy won in furniture when hospitals let parents stay; policy can still lose in a consulting room that hears only resistance. The ward and the fifty-minute room are the same argument at different scales. History does not finish the training; it names the scale.
 
 John Bowlby's 1958 paper "The Nature of the Child's Tie to His Mother" is the theoretical hinge between the WHO survey and the trilogy: proximity-seeking as a primary motivational system, not a sequel to feeding or to oral pleasure. Analysts heard a biologist. Ethologists heard a clinician. The paper is still assignable. It is not a parenting blog, and it is not a law against a mother who earns a wage.
 

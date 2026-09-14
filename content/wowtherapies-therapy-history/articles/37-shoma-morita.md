@@ -15,7 +15,7 @@ citations:
   - "Kitanishi and historical reviews of Morita therapy."
   - "Culture, Medicine, and Psychiatry, 2024 socio-historical study (PMC11362480)."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

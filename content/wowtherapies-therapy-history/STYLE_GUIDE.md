@@ -2,7 +2,7 @@
 
 This pack is educational history for [WOWTherapies.com](https://wowtherapies.com): psychotherapy, counseling, and clinical-psychology heritage. It is **not** the SLPWOW speech-pathology series. Do not retell Van Riper, articulation science, dysphagia, or childhood apraxia here. Those belong on the speech lane.
 
-`voice_check: human` in front matter means the draft was written against this file. It is not a byline and must not appear on the public page.
+`voice_check: human` means the writer draft passed this file. `voice_check: edited` means a human editor read the piece aloud and tightened grammar, voice, and guardrails. Neither value is a byline and must not appear on the public page.
 
 ## Who is speaking
 

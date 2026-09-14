@@ -17,7 +17,7 @@ citations:
   - "Sue, Arredondo, and McDavis. 1992."
   - "Bayer, Ronald. Homosexuality and American Psychiatry. 1981."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

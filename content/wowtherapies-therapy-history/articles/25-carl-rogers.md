@@ -15,7 +15,7 @@ citations:
   - "Rogers, Carl R. On Becoming a Person. 1961."
   - "Kirschenbaum, Howard. The Life and Work of Carl Rogers. 2007."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

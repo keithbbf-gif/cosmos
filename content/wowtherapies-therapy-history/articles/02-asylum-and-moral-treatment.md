@@ -17,7 +17,7 @@ citations:
   - "Scull, Andrew. Madness in Civilization. 2015."
   - "Gollaher, David. Voice for the Mad. 1995."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

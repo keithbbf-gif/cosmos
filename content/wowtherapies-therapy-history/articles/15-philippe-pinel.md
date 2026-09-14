@@ -15,7 +15,7 @@ citations:
   - "Weiner, Dora B. Le geste de Pinel, 1994."
   - "Pinel, Philippe. Traité médico-philosophique, 1801."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

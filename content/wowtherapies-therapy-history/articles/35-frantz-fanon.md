@@ -15,7 +15,7 @@ citations:
   - "Fanon, Frantz. Les Damnés de la terre. 1961."
   - "Macey, David. Frantz Fanon: A Biography. 2000."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

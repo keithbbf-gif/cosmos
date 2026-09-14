@@ -14,7 +14,7 @@ citations:
   - "Klein, Melanie. The Psycho-Analysis of Children. 1932."
   - "King, Pearl, and Riccardo Steiner, eds. The Freud–Klein Controversies 1941–45. 1991."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

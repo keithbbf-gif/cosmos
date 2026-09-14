@@ -19,7 +19,7 @@ citations:
   - "Eysenck, H. J. Journal of Consulting Psychology, 1952 (historical gauntlet)."
   - "Cahalan, Susannah. The Great Pretender. 2019."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -75,7 +75,7 @@ The figure essays on Beck and Ellis stay with the men. Linehan's essay shows wha
 
 The National Institute of Mental Health's depression trials of the 1980s, including the Treatment of Depression Collaborative Research Program, put interpersonal therapy (Klerman and Weissman) on the same graph as CBT and medication. A third school on a federal graph is a political fact. It is also a reminder that "the empirical turn" was never only Beck's.
 
-Managed care in the 1990s did not invent the thought record. It recognized a cousin it could authorize in six sessions. University clinics that had spent the 1970s arguing about manuals spent the 1990s arguing about how many sessions a depression trial needed. Rural counties arrived to that argument late, with comorbidity and a two-hour drive. A history that treats the Penn manuals as the whole country has repeated the slide deck's error.
+Managed care in the 1990s did not invent the thought record. It recognized a cousin it could authorize in six sessions. University clinics that had spent the 1970s arguing about manuals spent the 1990s arguing about how many sessions a depression trial needed. A history that treats the Penn manuals as the whole country has repeated the slide deck's error.
 
 ## Sources
 

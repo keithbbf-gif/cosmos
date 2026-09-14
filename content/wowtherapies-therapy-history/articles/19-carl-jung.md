@@ -14,7 +14,7 @@ citations:
   - "Shamdasani, Sonu. Jung and the Making of Modern Psychology. 2003."
   - "Makari, George. Revolution in Mind. 2008."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
