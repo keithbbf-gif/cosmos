@@ -1,0 +1,330 @@
+# Staged draft manifest — fig nursery / wholesale cuttings ops
+# status is editorial. stage is the winter trade sequence.
+
+set = "fig-nursery-wholesale-ops"
+status = "staged"
+lane = "buyfigs"
+count = 46
+focus = "wholesale-cuttings"
+
+[[draft]]
+id = "d01"
+file = "drafts/d01-not-a-hobby-bag.md"
+stage = "take"
+cluster = "harvest"
+title = "A wholesale box is not a hobby envelope"
+
+[[draft]]
+id = "d02"
+file = "drafts/d02-dormant-window-is-the-product.md"
+stage = "take"
+cluster = "harvest"
+title = "The dormant window is the product"
+
+[[draft]]
+id = "d03"
+file = "drafts/d03-one-year-wood-not-green-tips.md"
+stage = "take"
+cluster = "harvest"
+title = "One-year wood, not the pretty green tip"
+
+[[draft]]
+id = "d04"
+file = "drafts/d04-how-much-wood-a-mother-can-spare.md"
+stage = "take"
+cluster = "harvest"
+title = "How much wood a mother can spare"
+
+[[draft]]
+id = "d05"
+file = "drafts/d05-grade-is-a-promise.md"
+stage = "take"
+cluster = "harvest"
+title = "Grade is a promise, not a vibe"
+
+[[draft]]
+id = "d06"
+file = "drafts/d06-pencil-thick-and-two-culls.md"
+stage = "take"
+cluster = "harvest"
+title = "Pencil-thick, and the two culls beside it"
+
+[[draft]]
+id = "d07"
+file = "drafts/d07-cut-to-order-vs-cooler.md"
+stage = "take"
+cluster = "harvest"
+title = "Cut-to-order versus the cooler inventory"
+
+[[draft]]
+id = "d08"
+file = "drafts/d08-mother-block-is-the-factory.md"
+stage = "take"
+cluster = "harvest"
+title = "The mother block is the factory"
+
+[[draft]]
+id = "d09"
+file = "drafts/d09-wipe-the-blade-when-the-name-changes.md"
+stage = "take"
+cluster = "harvest"
+title = "I wipe the blade when the name changes"
+
+[[draft]]
+id = "d10"
+file = "drafts/d10-polarity-on-the-bench.md"
+stage = "take"
+cluster = "harvest"
+title = "Mark the basal end like you mean it"
+
+[[draft]]
+id = "d11"
+file = "drafts/d11-name-goes-on-before-the-cut.md"
+stage = "mark"
+cluster = "label"
+title = "The name goes on before the cut"
+
+[[draft]]
+id = "d12"
+file = "drafts/d12-three-labels-or-you-will-lie.md"
+stage = "mark"
+cluster = "label"
+title = "Three labels, or you will lie in March"
+
+[[draft]]
+id = "d13"
+file = "drafts/d13-lot-codes-a-stranger-can-read.md"
+stage = "mark"
+cluster = "label"
+title = "A lot code a stranger can read"
+
+[[draft]]
+id = "d14"
+file = "drafts/d14-synonyms-are-not-extra-skus.md"
+stage = "mark"
+cluster = "label"
+title = "Synonyms are not extra SKUs"
+
+[[draft]]
+id = "d15"
+file = "drafts/d15-color-ties-need-a-legend.md"
+stage = "mark"
+cluster = "label"
+title = "Color ties without a legend are a future mix-up"
+
+[[draft]]
+id = "d16"
+file = "drafts/d16-slip-invoice-stick-must-agree.md"
+stage = "mark"
+cluster = "label"
+title = "Slip, invoice, and stick must agree"
+
+[[draft]]
+id = "d17"
+file = "drafts/d17-unknown-until-it-fruits.md"
+stage = "mark"
+cluster = "label"
+title = "Unknown until it fruits is a nursery sentence"
+
+[[draft]]
+id = "d18"
+file = "drafts/d18-tags-that-survive-a-wet-box.md"
+stage = "mark"
+cluster = "label"
+title = "A pulp tag is not a label"
+
+[[draft]]
+id = "d19"
+file = "drafts/d19-damp-is-not-wet.md"
+stage = "pack"
+cluster = "pack"
+title = "If you can wring it, you packed a mushroom farm"
+
+[[draft]]
+id = "d20"
+file = "drafts/d20-bundle-of-ten-and-fifty.md"
+stage = "pack"
+cluster = "pack"
+title = "Ten is a handful. Fifty is a trade unit."
+
+[[draft]]
+id = "d21"
+file = "drafts/d21-paper-film-and-what-we-skip.md"
+stage = "pack"
+cluster = "pack"
+title = "Paper, film, and what we do not pack with"
+
+[[draft]]
+id = "d22"
+file = "drafts/d22-ends-wax-film-or-a-clean-cut.md"
+stage = "pack"
+cluster = "pack"
+title = "Ends: wax, film, or a clean cut"
+
+[[draft]]
+id = "d23"
+file = "drafts/d23-empty-air-is-a-hammer.md"
+stage = "pack"
+cluster = "pack"
+title = "Empty air in a box is a hammer"
+
+[[draft]]
+id = "d24"
+file = "drafts/d24-mixed-boxes-need-walls.md"
+stage = "pack"
+cluster = "pack"
+title = "Two varieties in one box need a wall"
+
+[[draft]]
+id = "d25"
+file = "drafts/d25-count-twice-photograph-once.md"
+stage = "pack"
+cluster = "pack"
+title = "Count twice, photograph once, then tape"
+
+[[draft]]
+id = "d26"
+file = "drafts/d26-retail-sleeve-vs-wholesale-brick.md"
+stage = "pack"
+cluster = "pack"
+title = "A retail sleeve is a conversation. A brick is a count."
+
+[[draft]]
+id = "d27"
+file = "drafts/d27-potted-plants-are-a-different-pack.md"
+stage = "pack"
+cluster = "pack"
+title = "Dirt is weight, quarantine, and a different box"
+
+[[draft]]
+id = "d28"
+file = "drafts/d28-liners-vs-unrooted-wood.md"
+stage = "pack"
+cluster = "pack"
+title = "A liner has roots. A cutting does not."
+
+[[draft]]
+id = "d29"
+file = "drafts/d29-cooler-is-a-delay-not-a-hospital.md"
+stage = "hold"
+cluster = "dormant"
+title = "The cooler holds wood. It does not heal it."
+
+[[draft]]
+id = "d30"
+file = "drafts/d30-thermometer-in-the-drawer.md"
+stage = "hold"
+cluster = "dormant"
+title = "36–40°F is a reading, not a sticker"
+
+[[draft]]
+id = "d31"
+file = "drafts/d31-condensation-after-pack-out.md"
+stage = "hold"
+cluster = "dormant"
+title = "Warm wood in a cold bag sweats"
+
+[[draft]]
+id = "d32"
+file = "drafts/d32-friday-wood-in-a-tote.md"
+stage = "hold"
+cluster = "dormant"
+title = "Friday wood in a tote until Monday is a decision"
+
+[[draft]]
+id = "d33"
+file = "drafts/d33-some-inventory-has-to-be-thrown.md"
+stage = "hold"
+cluster = "dormant"
+title = "Some inventory has to go in the burn pile"
+
+[[draft]]
+id = "d34"
+file = "drafts/d34-we-ship-plants-not-snacks.md"
+stage = "ship"
+cluster = "ship"
+title = "We ship plants, not snacks"
+
+[[draft]]
+id = "d35"
+file = "drafts/d35-weather-is-a-ship-switch.md"
+stage = "ship"
+cluster = "ship"
+title = "The forecast can cancel a paid order"
+
+[[draft]]
+id = "d36"
+file = "drafts/d36-heat-packs-cook-as-often-as-they-save.md"
+stage = "ship"
+cluster = "ship"
+title = "A heat pack against bark is an oven"
+
+[[draft]]
+id = "d37"
+file = "drafts/d37-friday-drop-monday-freeze.md"
+stage = "ship"
+cluster = "ship"
+title = "A Friday drop into a Monday freeze"
+
+[[draft]]
+id = "d38"
+file = "drafts/d38-tracking-is-not-care.md"
+stage = "ship"
+cluster = "ship"
+title = "Tracking is not care. The porch is care."
+
+[[draft]]
+id = "d39"
+file = "drafts/d39-soil-pots-and-states-that-say-no.md"
+stage = "ship"
+cluster = "compliance"
+title = "Some states want paper. Some want no soil."
+
+[[draft]]
+id = "d40"
+file = "drafts/d40-phytosanitary-paper-is-not-a-vibe.md"
+stage = "ship"
+cluster = "compliance"
+title = "A phytosanitary certificate is a document"
+
+[[draft]]
+id = "d41"
+file = "drafts/d41-we-do-not-ship-what-we-cannot-name.md"
+stage = "ship"
+cluster = "compliance"
+title = "If I cannot name it, I do not ship it as a name"
+
+[[draft]]
+id = "d42"
+file = "drafts/d42-three-days-is-a-cutting.md"
+stage = "ship"
+cluster = "ship"
+title = "Three days is a cutting. A leafy pot wants another clock."
+
+[[draft]]
+id = "d43"
+file = "drafts/d43-open-the-box-on-the-bench.md"
+stage = "land"
+cluster = "receive"
+title = "Open the box on the bench, not in the driveway"
+
+[[draft]]
+id = "d44"
+file = "drafts/d44-doa-is-a-clock.md"
+stage = "land"
+cluster = "receive"
+title = "Dead on arrival is a clock, not a May email"
+
+[[draft]]
+id = "d45"
+file = "drafts/d45-this-lane-is-not-a-pharmacy.md"
+stage = "land"
+cluster = "receive"
+title = "This lane teaches packing. It does not treat people."
+
+[[draft]]
+id = "d46"
+file = "drafts/d46-the-season-on-one-wall.md"
+stage = "land"
+cluster = "receive"
+title = "The season on one wall"
