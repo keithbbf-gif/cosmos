@@ -13,7 +13,7 @@ meta_description: "Gavin Andrews (b. 1931): The Syndrome of Stuttering (1964) wi
 portrait: null
 portrait_status: note
 figure_dates: "b. 1931"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -23,7 +23,7 @@ This is history for a general reader. It is not a diagnosis, not a treatment pla
 
 Gavin Andrews’s fluency fame is a 1964 cloth book. *The Syndrome of Stuttering*, published by the Spastics Society Medical Education and Information Unit with Heinemann, came out of the departments of psychological medicine and child health at the University of Newcastle upon Tyne. Mary Harris, a speech pathologist and therapist, is on the title page. So are D. W. K. Kay, R. F. Garside, and a list of testers under Donald Court and Martin Roth. The Thousand Family Study weather is in the room. A magazine that prints only Andrews as a lone epidemiologist is stealing a committee.
 
-Wikidata and public biographical notes give a birth date of 6 August 1931 (John Gavin Andrews). UNSW Sydney lists him as Emeritus Professor of Psychiatry from 2010, with a later career in depression, classification, cost-effectiveness, and internet treatment of common mental disorders — hundreds of papers, a 2018 Australian Mental Health Prize. He is living in the institutional present this pack can see. Stuttering is the early work. Do not drag the later psychiatry into a fluency protocol. Do not ignore it as if the man stopped in 1964.
+Wikidata and public biographical notes give a birth date of 6 August 1931 (John Gavin Andrews). UNSW Sydney lists him as Emeritus Professor of Psychiatry from 2010, with a later career in depression, classification, cost-effectiveness, and internet treatment of common mental disorders — hundreds of papers, a 2018 Australian Mental Health Prize. He is living in the institutional present visible in public records. Stuttering is the early work. Do not drag the later psychiatry into a fluency protocol. Do not ignore it as if the man stopped in 1964.
 
 ## The 1964 object
 

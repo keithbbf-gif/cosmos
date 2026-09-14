@@ -13,7 +13,7 @@ meta_description: "Mark Onslow (living): Australian Stuttering Research Centre, 
 portrait: null
 portrait_status: note
 figure_dates: "living"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

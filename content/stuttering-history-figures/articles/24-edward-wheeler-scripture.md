@@ -12,7 +12,7 @@ meta_description: "Edward Wheeler Scripture (1864–1945): Yale laboratory speec
 portrait: null
 portrait_status: note
 figure_dates: "1864–1945"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

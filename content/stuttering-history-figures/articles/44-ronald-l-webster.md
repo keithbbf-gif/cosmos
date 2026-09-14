@@ -13,7 +13,7 @@ meta_description: "Ronald L. Webster (living): Hollins Communications Research I
 portrait: null
 portrait_status: note
 figure_dates: "living"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -37,7 +37,7 @@ A respectable intensive model. A vocabulary of targets. What they discarded, or 
 
 Living subject. No guessed dates. No generated face. No protocol.
 
-Hollins is a Virginia campus that most fluency undergraduates never visit and many intensive-program alumni can name. That split is the historical fact: a specialized address, a shaped voice, a network of people who preferred the new talking to the old block. University clinics that later taught “easy onsets” without printing Hollins on the consent form still owe the decade a citation. Owe is not the same as copy. Copy, from a brand blog, is how a target list becomes a home program. This pack refuses that list and keeps the letterhead.
+Hollins is a Virginia campus that most fluency undergraduates never visit and many intensive-program alumni can name. That split is the historical fact: a specialized address, a shaped voice, a network of people who preferred the new talking to the old block. University clinics that later taught “easy onsets” without printing Hollins on the consent form still owe the decade a citation. Owe is not the same as copy. Copy, from a brand blog, is how a target list becomes a home program. This article refuses that list and keeps the letterhead.
 
 ## Portrait
 

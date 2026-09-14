@@ -12,7 +12,7 @@ tags:
 meta_description: "1936–1973: Van Riper’s Kalamazoo clinic, identification and variation, Sheehan’s fear, Williams’s question. Stuttering modification as a craft, not a homework sheet."
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -44,7 +44,7 @@ Williams’s papers and the later Stuttering Foundation pamphlets that carried h
 
 People who wanted the stammer gone, not redesigned. Fluency-shaping will speak for them. Children too young for a craft that depends on talking about talking. Speakers whose language at home was not the clinic’s English. Black clients in Midwestern university clinics that did not say so in the prefaces.
 
-Women who ran Van Riper’s rooms and Sheehan’s groups — Vivian Sheehan continued the UCLA work after 1983 — appear as helpers in too many sentences. This pack will at least name Vivian in the iceberg essay.
+Women who ran Van Riper’s rooms and Sheehan’s groups — Vivian Sheehan continued the UCLA work after 1983 — appear as helpers in too many sentences. This article will at least name Vivian in the iceberg essay.
 
 ## Residue
 

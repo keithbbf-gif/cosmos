@@ -12,7 +12,7 @@ tags:
 meta_description: "1947–present: Malcolm Fraser’s Foundation, the National Stuttering Project of 1977, and the moment people who stutter stopped being only patients."
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -46,7 +46,7 @@ Clinicians were sometimes left out on purpose. That refusal was political and, a
 
 ## Residue
 
-A 2026 client who arrives already having read a Foundation book and already having a group is a different client from Van Riper’s 1938 undergraduate. The public stutterer — on a podcast, in a workplace film, in a presidential news cycle — is a late fact. This pack will not use living politicians as décor. The fact is enough: the disorder left the clinic without asking permission.
+A 2026 client who arrives already having read a Foundation book and already having a group is a different client from Van Riper’s 1938 undergraduate. The public stutterer — on a podcast, in a workplace film, in a presidential news cycle — is a late fact. This article will not use living politicians as décor. The fact is enough: the disorder left the clinic without asking permission.
 
 SLPWOW is a profession site, not an NSA chapter. These essays should link a reader toward history, not toward a household clinic’s intake form.
 

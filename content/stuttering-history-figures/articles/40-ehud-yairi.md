@@ -13,7 +13,7 @@ meta_description: "Ehud Yairi (living; birth year not independently found): Illi
 portrait: null
 portrait_status: note
 figure_dates: "living; birth year not found"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -23,7 +23,7 @@ This is history for a general reader. It is not a diagnosis, not a treatment pla
 
 Ehud Yairi’s public scientific work is the reason a 2026 clinician can say, without folklore, that many preschoolers who begin to stutter recover and some do not, and that the two groups do not look identical at the start. The University of Illinois Stuttering Research Program, which he directed from 1977 to 2004, followed children from near onset. Nicoline Ambrose is a co-author, not an assistant in a footnote. *Early Childhood Stuttering* (Pro-Ed, 2005) is the book. The 1983 onset paper, the 1992 longitudinal paper, the 1996 genetics paper with Ambrose and Nancy Cox — those are the objects.
 
-This profile treats a living scholar. Published books, papers, institutional pages, and a 2020 career interview released by the Stuttering Foundation. No private biography. Birth year was not independently confirmed from a CV header or a necrology at pack date; the 2006 CV circulating online does not print it on the first page this pack could verify. B.A. Tel Aviv, 1965 (psychology; African studies). M.A. Iowa 1968, Ph.D. Iowa 1970 (*Perception of parental attitudes by stuttering and by nonstuttering children*). Texas Tech, then Illinois; emeritus 2004; Tel Aviv medicine faculty affiliation. ASHA Honors; IFA researcher award; Malcolm Fraser Award.
+This profile treats a living scholar. Published books, papers, institutional pages, and a 2020 career interview released by the Stuttering Foundation. No private biography. Birth year was not independently confirmed from a CV header or a necrology at pack date; the 2006 CV circulating online does not print it on the first page this profile could verify. B.A. Tel Aviv, 1965 (psychology; African studies). M.A. Iowa 1968, Ph.D. Iowa 1970 (*Perception of parental attitudes by stuttering and by nonstuttering children*). Texas Tech, then Illinois; emeritus 2004; Tel Aviv medicine faculty affiliation. ASHA Honors; IFA researcher award; Malcolm Fraser Award.
 
 ## The argument
 

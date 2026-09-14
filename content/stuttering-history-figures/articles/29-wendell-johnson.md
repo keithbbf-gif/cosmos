@@ -13,7 +13,7 @@ meta_description: "Wendell Johnson (1906–1965): Iowa, general semantics, diagn
 portrait: null
 portrait_status: note
 figure_dates: "1906–1965"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -21,7 +21,7 @@ last_verified: 2026-09-14
 
 This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
 
-The theory had a clean sentence: stuttering begins when a listener puts a bad name on an ordinary bump. Wendell Johnson spent a career making that sentence sound like kindness, and in 1939 the sentence walked into an orphanage. The sibling profession pack has the ASHA presidency (1950), the journal editorship, the honors, *People in Quandaries* (1946). This pack has the cause and the thesis he advised.
+The theory had a clean sentence: stuttering begins when a listener puts a bad name on an ordinary bump. Wendell Johnson spent a career making that sentence sound like kindness, and in 1939 the sentence walked into an orphanage. The sibling profession pack has the ASHA presidency (1950), the journal editorship, the honors, *People in Quandaries* (1946). This profile keeps the cause and the thesis he advised.
 
 He was born 16 August 1906 in Roxbury, Kansas. He came to Iowa City in 1926 to study English, already stuttering, and stayed as a psychologist and speech pathologist until a heart attack in 1955 stripped titles and a second crisis killed him on 29 August 1965, age fifty-nine.
 

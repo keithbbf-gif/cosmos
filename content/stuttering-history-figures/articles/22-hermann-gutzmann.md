@@ -13,7 +13,7 @@ meta_description: "Hermann Gutzmann Sr. (1865–1922): Berlin phoniatrics, a med
 portrait: null
 portrait_status: note
 figure_dates: "1865–1922"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -23,7 +23,7 @@ This is history for a general reader. It is not a diagnosis, not a treatment pla
 
 Berlin taught speech as if it were an organ system. Hermann Gutzmann Sr. (1865–1922) is the name later phoniatricians still salute. His father, Albert, had already treated voice and speech. The son made an academic living of it: lectures, a clinic, students, a literature in German that American speech correction would later plunder without always citing.
 
-He is in the sibling profession pack as a founder of a medical specialty. He is in this pack because stuttering sat on that specialty’s benches beside cleft and voice. A child who stammered in Berlin after 1900 could be sent to a physician who thought the problem was discussable. That was not true in every American town.
+He is in the sibling profession pack as a founder of a medical specialty. He is in this fluency series because stuttering sat on that specialty’s benches beside cleft and voice. A child who stammered in Berlin after 1900 could be sent to a physician who thought the problem was discussable. That was not true in every American town.
 
 ## The job that mattered
 
@@ -37,7 +37,7 @@ A hospital address. A specialty name (*Phoniatrie*) that still labels European d
 
 Do not turn his papers into a home program. Do not call him an SLP.
 
-His sons and students carried phoniatrics after 1922. This pack will not turn the family into a dynasty chart. The usable inheritance is a door that said medicine and meant speech. An American reader who meets only ASHA dates is missing that door. Gutzmann’s Berlin is why a stuttering evaluation can still include a look at the larynx without becoming an ENT takeover.
+His sons and students carried phoniatrics after 1922. This article will not turn the family into a dynasty chart. The usable inheritance is a door that said medicine and meant speech. An American reader who meets only ASHA dates is missing that door. Gutzmann’s Berlin is why a stuttering evaluation can still include a look at the larynx without becoming an ENT takeover.
 
 The sibling pack has a Gutzmann profile for the profession’s ancestry. This one is the fluency profile: the bench, the stammer, the chart. New sentences. Same man.
 

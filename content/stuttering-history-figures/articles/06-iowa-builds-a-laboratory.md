@@ -12,7 +12,7 @@ tags:
 meta_description: "1920–1945: Iowa City turns stuttering into a university research object. Travis, Johnson, laterality, and the clinic that will later have to answer for 1939."
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -22,7 +22,7 @@ This is history for a general reader. It is not a diagnosis, not a treatment pla
 
 Lee Edward Travis came to the University of Iowa in the 1920s and treated stuttering as if it were a problem a psychology department could own. *Speech Pathology* (1931) is an early American textbook that does not apologize for the laboratory. Handedness, hemisphere dominance, the nervous child, the recording device — Iowa stacked them on a Midwestern campus and invited graduate students to take a piece.
 
-Wendell Johnson arrived in 1926 as an undergraduate who stuttered and stayed until he died in the same town in 1965. The sibling profession pack has him as an ASHA president and a semantics teacher. This pack has him as the man who made Iowa synonymous with a theory of stuttering: the trouble is not in the mouth; it is in the diagnosis. That theory will get its own essay, because in 1939 it walked into an orphanage. This essay is the building around that door.
+Wendell Johnson arrived in 1926 as an undergraduate who stuttered and stayed until he died in the same town in 1965. The sibling profession pack has him as an ASHA president and a semantics teacher. This essay keeps him as the man who made Iowa synonymous with a theory of stuttering: the trouble is not in the mouth; it is in the diagnosis. That theory will get its own essay, because in 1939 it walked into an orphanage. This essay is the building around that door.
 
 ## What the campus thought it was solving
 

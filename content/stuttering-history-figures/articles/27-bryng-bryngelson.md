@@ -13,7 +13,7 @@ meta_description: "Bryng Bryngelson (1892–1979): Minnesota clinics, laterality
 portrait: null
 portrait_status: note
 figure_dates: "1892–1979"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

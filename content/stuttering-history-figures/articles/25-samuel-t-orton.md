@@ -13,7 +13,7 @@ meta_description: "Samuel T. Orton (1879–1948): the reading neurologist whose 
 portrait: null
 portrait_status: note
 figure_dates: "1879–1948"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -21,7 +21,7 @@ last_verified: 2026-09-14
 
 This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
 
-Samuel Torrey Orton is in the reading clinic first. Strephosymbolia, the Iowa years, Anna Gillingham’s later teaching methods, a society that still bears his name. He is in this pack because Lee Edward Travis and others borrowed a neurological imagination — two hemispheres, one that should lead — and offered it to stammering. Orton was not a speech-language pathologist. Do not make him one.
+Samuel Torrey Orton is in the reading clinic first. Strephosymbolia, the Iowa years, Anna Gillingham’s later teaching methods, a society that still bears his name. He belongs in this series because Lee Edward Travis and others borrowed a neurological imagination — two hemispheres, one that should lead — and offered it to stammering. Orton was not a speech-language pathologist. Do not make him one.
 
 He was born in 1879 and died in 1948. He trained as a physician, worked in pathology and neurology, and spent a decisive stretch at Iowa in the 1920s, overlapping the campus that would become a stuttering factory. The overlap is geography and a shared wish for a brain story. It is not a joint practice.
 

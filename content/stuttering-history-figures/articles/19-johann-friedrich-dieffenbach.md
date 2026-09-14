@@ -13,7 +13,7 @@ meta_description: "Johann Friedrich Dieffenbach (1792–1847): reconstructive su
 portrait: null
 portrait_status: note
 figure_dates: "1792–1847"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

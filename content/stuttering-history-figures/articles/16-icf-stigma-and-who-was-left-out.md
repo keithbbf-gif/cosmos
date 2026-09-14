@@ -12,7 +12,7 @@ tags:
 meta_description: "2001–present: WHO’s ICF gives fluency a body-function-and-participation grammar. The people the old roster never hired, and the clinic that still has to choose its words."
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -26,7 +26,7 @@ Kenneth O. St. Louis’s public-opinion work, and later experimental work on lis
 
 ## Who the official story hired
 
-Look back down this calendar. Demosthenes. Surgeons. Masters. Professors. A graduate student with a clipboard. A businessman with a foundation. The sitters are mostly men, mostly white, mostly North Atlantic, mostly people who could enter a university or a paying practice. Lena Rustin is in the profile roster because the British parent-child story is otherwise a men’s argument about Australia. Vivian Sheehan, Ann Packman, Nicoline Ambrose, Deborah Kully, Mary Tudor, Bernice Rutherford — this pack puts them in essays so the index cannot pretend they were not there.
+Look back down this calendar. Demosthenes. Surgeons. Masters. Professors. A graduate student with a clipboard. A businessman with a foundation. The sitters are mostly men, mostly white, mostly North Atlantic, mostly people who could enter a university or a paying practice. Lena Rustin is in the profile roster because the British parent-child story is otherwise a men’s argument about Australia. Vivian Sheehan, Ann Packman, Nicoline Ambrose, Deborah Kully, Mary Tudor, Bernice Rutherford — these essays put them in the calendar so the index cannot pretend they were not there.
 
 Women who stammered and never became clinicians are almost absent from the early books. So are Black American stammerers, though they lived the same Midwestern decades as Iowa’s laboratory. So are speakers of Spanish in the U.S. South, of Arabic in Paris, of Indigenous languages in Alberta and New South Wales. A rural Arkansas clinic in 2026 — SLPWOW’s household knows the drive — meets those absences as caseload, not as a chapter.
 
@@ -34,7 +34,7 @@ Women who stammered and never became clinicians are almost absent from the early
 
 It cannot apologize for 1939. It cannot restore a left hand. It cannot make a PET scan kind. It can stop a student from writing a goal that mentions only percent syllables stuttered and never mentions the meeting the person will not attend.
 
-Identity-first (“stutterer”) and person-first (“person who stutters”) are both in the modern literature. Self-help groups often prefer the first. Medical style guides often prefer the second. Historical essays in this pack use the source’s word and then get out of the way. Living-figure profiles follow published preference when we have it. A brand site that polices a reader’s mouth has learned the wrong lesson from Johnson.
+Identity-first (“stutterer”) and person-first (“person who stutters”) are both in the modern literature. Self-help groups often prefer the first. Medical style guides often prefer the second. Historical essays in this series use the source’s word and then get out of the way. Living-figure profiles follow published preference when known. A brand site that polices a reader’s mouth has learned the wrong lesson from Johnson.
 
 ## Residue
 

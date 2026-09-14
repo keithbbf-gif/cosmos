@@ -12,7 +12,7 @@ meta_description: "Demosthenes of Athens (c. 384–322 BCE): the public stammere
 portrait: null
 portrait_status: note
 figure_dates: "c. 384–322 BCE"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -36,7 +36,7 @@ A famous person who stuttered (or did something the tradition called a stammer) 
 
 The other inheritance is darker: the idea that greatness *requires* the overcoming story. People who stutter and do not become Demosthenes are not failed orators. They are people. The marble head does not get to grade them.
 
-This pack’s era essay on old names (01) keeps the beach. This profile keeps the man in the assembly. The sentences are not copied from a profession-pack paragraph because the profession pack, rightly, barely wants him. He is fluency folklore, not ASHA.
+The era essay on old names (01) keeps the beach. This profile keeps the man in the assembly. The sentences are not copied from a profession-pack paragraph because the profession pack, rightly, barely wants him. He is fluency folklore, not ASHA.
 
 ## Portrait
 

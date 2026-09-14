@@ -13,7 +13,7 @@ meta_description: "Lena Rustin (1928–2004): NHS specialist, parent in the Brit
 portrait: null
 portrait_status: note
 figure_dates: "1928–2004"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -23,7 +23,7 @@ This is history for a general reader. It is not a diagnosis, not a treatment pla
 
 Lena Rustin wanted a British centre of excellence for children who stammer, and she wanted the parents in the room. The Michael Palin Centre opened in 1993 as a joint undertaking of a charity (then the Association for Research into Stammering in Childhood, now Action for Stammering Children) and the local NHS trust. The Centre’s own history page names her as the specialist who had led a team since the early 1970s and as the wish behind the building. Palin’s name is a later public gift. Rustin’s name is the earlier labor.
 
-Companies House records give a birth in August 1928. The Stuttering Foundation’s Summer 2005 notice, crediting the Centre, says she died 26 December 2004 after cancer. RCSLT honorary fellowship, 1988. She worked in the National Health Service and in the charitable sector. She wrote and edited books that British therapists still find on course lists. This pack will not extract those books as homework.
+Companies House records give a birth in August 1928. The Stuttering Foundation’s Summer 2005 notice, crediting the Centre, says she died 26 December 2004 after cancer. RCSLT honorary fellowship, 1988. She worked in the National Health Service and in the charitable sector. She wrote and edited books that British therapists still find on course lists. This article will not extract those books as homework.
 
 ## The job that mattered
 
@@ -35,7 +35,7 @@ She was diminutive, the Foundation notice said, and not quiet. That is an obitua
 
 The centre. The parent as partner. A British literature that does not have to cite Iowa to start. What they discarded: any attempt to turn a 1970s NHS team into a 2026 franchise. What they still use: Palin as a place people can name.
 
-She is Dr. Lena Rustin in the Centre’s usage. This pack did not independently re-verify the doctoral details and will not invent a thesis title. The institutional history is the warrant.
+She is Dr. Lena Rustin in the Centre’s usage. This article did not independently re-verify the doctoral details and will not invent a thesis title. The institutional history is the warrant.
 
 A British specialist service inside the NHS is not a Hollins month and not an Iowa laboratory. It is a public-address claim: a child who stammers in Camden should not have to buy a private miracle. The charity partnership is the other half of that claim — money and a famous name when the health service alone would not have built the door. Rustin’s wish was the door. Palin’s name painted it. Keep the order.
 

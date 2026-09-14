@@ -13,7 +13,7 @@ meta_description: "Emil Fröschels (1884–1972): Vienna logopedics, the chewing
 portrait: null
 portrait_status: note
 figure_dates: "1884–1972"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -23,7 +23,7 @@ This is history for a general reader. It is not a diagnosis, not a treatment pla
 
 Emil Fröschels (also Froeschels in American print) coined and organized more than he is now credited for in undergraduate slides. *Logopädie*. The 1924 international association (IALP). A Viennese clinic that treated stuttering as a struggle a person could unlearn, not a tongue a surgeon should shorten. Then 1938, because he was Jewish, and a second career in the United States.
 
-He was born in 1884 and died in 1972. Some web pages mis-place his medical degree in Jena. Vienna 1907 is the better-sourced degree, as the sibling profession pack already flagged. This pack will not “correct” a university website in the body of a magazine piece beyond that sentence. Uncertainty is a fact.
+He was born in 1884 and died in 1972. Some web pages mis-place his medical degree in Jena. Vienna 1907 is the better-sourced degree, as the sibling profession pack already flagged. This article will not “correct” a university website in the body of a magazine piece beyond that sentence. Uncertainty is a fact.
 
 ## The work
 

@@ -12,7 +12,7 @@ tags:
 meta_description: "1850–1910: London and the Atlantic drawing-room treat stammering as a teachable vice of delivery. James Hunt, the Bells, and the price of a fashionable mouth."
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

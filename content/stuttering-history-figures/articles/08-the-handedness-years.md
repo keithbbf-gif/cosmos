@@ -12,7 +12,7 @@ tags:
 meta_description: "1925–1960: Orton, Travis, and Bryngelson treat stuttering as a laterality problem. Forced right hands, elegant diagrams, and a theory the data outgrew."
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

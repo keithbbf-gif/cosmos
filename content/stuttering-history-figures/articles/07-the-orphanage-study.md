@@ -12,7 +12,7 @@ tags:
 meta_description: "Mary Tudor’s 1939 Iowa thesis, the Davenport orphanage, Johnson’s diagnosogenic idea, the 2001 newspaper, and the 2007 settlement. History, not a retelling for sport."
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

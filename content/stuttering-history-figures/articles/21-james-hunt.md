@@ -13,7 +13,7 @@ meta_description: "James Hunt (1833–1869): London stammering practice, the 186
 portrait: null
 portrait_status: note
 figure_dates: "1833–1869"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -27,7 +27,7 @@ He was born in 1833 and died in 1869, thirty-six years old. The stammering pract
 
 ## The practice
 
-Hunt treated stammering as a teachable disorder of delivery: breath, articulators, the attack on a feared sound. He published cases the way a fashionable doctor publishes cases. Famous literary and political names attach to the Hunt rooms in later retellings. This pack will not run a testimonial list. The structure is the fact: a fee, a course, a promise that a gentleman can be restyled.
+Hunt treated stammering as a teachable disorder of delivery: breath, articulators, the attack on a feared sound. He published cases the way a fashionable doctor publishes cases. Famous literary and political names attach to the Hunt rooms in later retellings. This article will not run a testimonial list. The structure is the fact: a fee, a course, a promise that a gentleman can be restyled.
 
 1861 is also Broca’s year. Hunt is not looking at a jar. He is looking at a pupil. The two 1861s should stay in the same century and out of each other’s sentences.
 

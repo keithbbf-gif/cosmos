@@ -12,7 +12,7 @@ meta_description: "Charles Van Riper (1905–1994): the 1936 Kalamazoo clinic, S
 portrait: null
 portrait_status: note
 figure_dates: "1905–1994"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -22,7 +22,7 @@ This is history for a general reader. It is not a diagnosis, not a treatment pla
 
 Charles Gage Van Riper opened a speech clinic at Western State Teachers College in 1936 and then wrote the book American undergraduates wore out. *Speech Correction: Principles and Methods* (Prentice-Hall, 1939) went through ten editions. The stuttering chapters taught a craft — identification, desensitization, modification, stabilization — that later students reduced to a mnemonic and some supervisors reduced to a photocopied hierarchy. The mnemonic is not a protocol on this page. The book is a historical object.
 
-He was born 1 December 1905 in Champion, Michigan, and died in September 1994. Contemporaneous memorials use 25 September; some secondary lists print the 26th. This pack follows the memorials and flags the split, as the sibling profession pack already did. He stuttered. He had been a patient of other people’s certainty, including a surgical generation’s leftovers and the masters’ promises. Kalamazoo was his answer: a room where the stammer could be worked with instead of abolished on paper.
+He was born 1 December 1905 in Champion, Michigan, and died in September 1994. Contemporaneous memorials use 25 September; some secondary lists print the 26th. This article follows the memorials and flags the split, as the sibling profession pack already did. He stuttered. He had been a patient of other people’s certainty, including a surgical generation’s leftovers and the masters’ promises. Kalamazoo was his answer: a room where the stammer could be worked with instead of abolished on paper.
 
 ## The work
 

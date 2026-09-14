@@ -13,7 +13,7 @@ meta_description: "Einer Boberg (1935–1995): University of Alberta, ISTAR with
 portrait: null
 portrait_status: note
 figure_dates: "1935–1995"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

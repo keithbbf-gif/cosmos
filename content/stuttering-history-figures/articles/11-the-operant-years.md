@@ -12,7 +12,7 @@ tags:
 meta_description: "1958–1990: stuttering as a response class. Goldiamond, token economies, GILCU, Ingham’s measurement fights, and the ethics of a contingency."
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -42,7 +42,7 @@ Lidcombe, in the next essay, is an operant cousin that put the parent in the cha
 
 ## Who was left out
 
-The speaker who fluent-for-tokens and stammered-for-life. The child whose “correct” speech was a whisper of fear. Clinicians who refused punishment and were told they were soft. People who stuttered and wanted to talk about shame while the graph only wanted syllables.
+The speaker who was fluent for tokens and stammered for life. The child whose “correct” speech was a whisper of fear. Clinicians who refused punishment and were told they were soft. People who stuttered and wanted to talk about shame while the graph only wanted syllables.
 
 Self-help groups in the 1970s (next essay) were, in part, a refusal of the technician. A person is not a rate.
 

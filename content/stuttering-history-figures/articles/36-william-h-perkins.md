@@ -12,7 +12,7 @@ meta_description: "William H. Perkins (c. 1923–2008): USC stuttering clinic, t
 portrait: null
 portrait_status: note
 figure_dates: "c. 1923–2008"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -22,7 +22,7 @@ This is history for a general reader. It is not a diagnosis, not a treatment pla
 
 William H. Perkins ran a stuttering clinic at the University of Southern California and spent the middle of his career trying to make fluency a coordination problem: phonation, articulation, respiration. The 1976 *Journal of Speech and Hearing Research* paper with Joanna Rudas, Linda Johnson, and Jody Bell is the laboratory object — voiced, whispered, silent articulation, and a claim that complexity of those pairings tracks the block. This page will not reconstruct the conditions as a home experiment.
 
-USC Annenberg’s notice says he died 6 October 2008 from complications of a fall in Baldwin Hills, California, age eighty-five. Age eighty-five in October 2008 implies a birth year around 1923. This pack has not found a separate birth announcement and will not invent a day. Distinguished emeritus, 1991; speech pathology and otolaryngology in the Keck School, speech communication in Annenberg. Richard Curlee took master’s and doctoral degrees from USC in the 1960s; the memorialists later tied that training to treatment-research design.
+USC Annenberg’s notice says he died 6 October 2008 from complications of a fall in Baldwin Hills, California, age eighty-five. Age eighty-five in October 2008 implies a birth year around 1923. This article has not found a separate birth announcement and will not invent a day. Distinguished emeritus, 1991; speech pathology and otolaryngology in the Keck School, speech communication in Annenberg. Richard Curlee took master’s and doctoral degrees from USC in the 1960s; the memorialists later tied that training to treatment-research design.
 
 ## The turn
 

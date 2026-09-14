@@ -12,7 +12,7 @@ tags:
 meta_description: "1980–2010: Australian Lidcombe places a parent in the treatment chair; British parent-child work at the Michael Palin Centre does it in another key. History of a role, not a how-to."
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -40,7 +40,7 @@ Do not collapse Lidcombe and Palin into “parent programs.” One is a verbal-c
 
 Parents who cannot do daily structured talking. Families whose language is not the program’s language. Fathers, in the early films, who appear as weekends. Children in foster care — the orphanage problem in a new key. Australian Aboriginal families and British families outside the Centre’s reach.
 
-Yairi and Ambrose’s Illinois natural-recovery data sit beside both programs as an uncomfortable cousin. If many preschoolers recover, early treatment has to prove it is not taking credit for time. The later trials tried. The argument is not finished and this pack will not finish it.
+Yairi and Ambrose’s Illinois natural-recovery data sit beside both programs as an uncomfortable cousin. If many preschoolers recover, early treatment has to prove it is not taking credit for time. The later trials tried. The argument is not finished and this article will not finish it.
 
 ## Residue
 

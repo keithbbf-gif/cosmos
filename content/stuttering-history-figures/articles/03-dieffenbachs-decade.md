@@ -11,7 +11,7 @@ tags:
 meta_description: "1841–1850: Johann Friedrich Dieffenbach offers Berlin and Paris a new operation for stuttering. The pamphlet, the fashion, the retreat."
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -25,7 +25,7 @@ Dieffenbach was not a quack. He was one of the century’s great reconstructive 
 
 ## What the decade thought it was solving
 
-If speech fails at the tongue, shorten or free or shock the tongue. The logic is local and nineteenth-century. It treats a timing problem as a carpentry problem. Patients volunteered. Some were desperate paying adults. Some were children delivered by parents who had already tried masters and medicines. Later retellings disagree on how many operations were done and how many people died. The disagreement is itself a fact. This pack will not invent a body count to make the paragraph land harder.
+If speech fails at the tongue, shorten or free or shock the tongue. The logic is local and nineteenth-century. It treats a timing problem as a carpentry problem. Patients volunteered. Some were desperate paying adults. Some were children delivered by parents who had already tried masters and medicines. Later retellings disagree on how many operations were done and how many people died. The disagreement is itself a fact. This article will not invent a body count to make the paragraph land harder.
 
 What we can say without a fake ledger: the fashion rose fast and fell fast. Relapse was obvious. Infection was ordinary. A tongue that hurts does not make a speaker free; it makes a speaker careful in a new way. By the 1850s serious medical writers were already embarrassed. The embarrassment did not end surgery for speech everywhere — frenulum myths have a long afterlife — but it ended Dieffenbach’s claim as a respectable European cure.
 

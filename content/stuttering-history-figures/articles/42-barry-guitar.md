@@ -12,7 +12,7 @@ meta_description: "Barry Guitar (living): University of Vermont, Stuttering: An 
 portrait: null
 portrait_status: note
 figure_dates: "living"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -22,7 +22,7 @@ This is history for a general reader. It is not a diagnosis, not a treatment pla
 
 Barry Guitar’s *Stuttering: An Integrated Approach to Its Nature and Treatment* is the late-century undergraduate object. Lippincott and later Wolters Kluwer kept reprinting it; editions stacked; students underlined the chapters that tried to put Van Riper’s furniture and the shaping machines in one house. Hugo Gregory had already said the war was optional. Guitar’s book made the option a syllabus. That is influence. It is not a peace treaty signed by speakers.
 
-This profile treats a living scholar at the University of Vermont. Published textbooks, papers, and institutional pages only. No private biography. He has written, in public professional contexts, as a person who stutters; this pack will not embroider that remark into a childhood. Vermont’s fluency work — including later collaborations and a clinic culture students remember — is the address. ASHA Fellow and other honors sit on the usual vita pages; this magazine does not need the full medal list.
+This profile treats a living scholar at the University of Vermont. Published textbooks, papers, and institutional pages only. No private biography. He has written, in public professional contexts, as a person who stutters; this article will not embroider that remark into a childhood. Vermont’s fluency work — including later collaborations and a clinic culture students remember — is the address. ASHA Fellow and other honors sit on the usual vita pages; this magazine does not need the full medal list.
 
 ## The job that mattered
 

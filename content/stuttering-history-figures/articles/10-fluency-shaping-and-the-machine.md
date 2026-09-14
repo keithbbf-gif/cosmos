@@ -12,7 +12,7 @@ tags:
 meta_description: "1950–1985: delayed auditory feedback, prolonged speech, Hollins, and the hotel-ballroom cure. Machines that changed the mouth, and the relapse they did not advertise."
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -30,7 +30,7 @@ The visible tip. If the mouth can be made to run without blocks, the underwater 
 
 William H. Perkins, at USC, spent years on phonation, respiration, and the coordination among them. His 1976 *JSHR* paper with Rudas, Johnson, and Bell is a laboratory object: voiced, whispered, silent articulation, and a claim about complexity. Later Perkins turned on his own field’s outcomes in essays that read like a man who had watched too many impressive first weeks.
 
-Martin F. Schwartz’s 1976 book *Stuttering Solved* is the commercial cousin. The title is a claim this pack will not repeat as a fact. Airflow as a product sat in the same decade as airflow as a research variable. Readers deserve the difference.
+Martin F. Schwartz’s 1976 book *Stuttering Solved* is the commercial cousin. The title is a claim this article will not repeat as a fact. Airflow as a product sat in the same decade as airflow as a research variable. Readers deserve the difference.
 
 ## Two or three rooms
 

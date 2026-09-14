@@ -13,7 +13,7 @@ meta_description: "Dean E. Williams (1924–1994): Iowa clinician-teacher, “wh
 portrait: null
 portrait_status: note
 figure_dates: "1924–1994"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -25,7 +25,7 @@ Dean Elmer Williams taught Iowa students to ask a child what the child was doing
 
 He died 31 July 1994 in Iowa City. Edward G. Conture’s remembrance, as extracted on the Kuster pages and in a 2003 ISAD note by Robert Quesal, is the warrant for that date. Quesal, Williams’s penultimate doctoral student, is also the warrant for the career shape: bachelor’s at Iowa, master’s at Florida State, doctorate at Iowa (the 1952 dissertation is *An evaluation of masseter muscle action potentials in stuttered and nonstuttered speech*), Indiana University, then back to Iowa until retirement in 1987. ASHA Fellow; Honors of the Association, 1992.
 
-Birth year 1924 appears in FamilySearch (“Dr. Dean Elmer Williams, 1924–1994”). It does not appear in the Conture remembrance used for the death. This pack prints 1924 with that flag. A missing newspaper birth notice is better than a guessed farmhouse.
+Birth year 1924 appears in FamilySearch (“Dr. Dean Elmer Williams, 1924–1994”). It does not appear in the Conture remembrance used for the death. This article prints 1924 with that flag. A missing newspaper birth notice is better than a guessed farmhouse.
 
 ## The work
 

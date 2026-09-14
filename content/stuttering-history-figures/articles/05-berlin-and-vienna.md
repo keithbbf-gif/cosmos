@@ -12,7 +12,7 @@ tags:
 meta_description: "1880–1938: Gutzmann’s Berlin phoniatrics and Fröschels’s Vienna logopedics turn stammering into a medical specialty — then 1938 empties the rooms."
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -32,13 +32,13 @@ Vienna thought it was solving a whole person who spoke. Fröschels moved among p
 
 ## 1924 and 1938
 
-1924 is a congress year. Logopedics gets an international noun. The sibling profession pack tells that story as the birth of a field. This pack tells it as a fluency address. A stammerer in Vienna in 1924 could be sent to a named specialty. A stammerer in many American towns could still be sent to an elocutionist or a surgeon leftover.
+1924 is a congress year. Logopedics gets an international noun. The sibling profession pack tells that story as the birth of a field. This essay tells it as a fluency address. A stammerer in Vienna in 1924 could be sent to a named specialty. A stammerer in many American towns could still be sent to an elocutionist or a surgeon leftover.
 
 1938 is an emptying. Fröschels was Jewish. He left. The association he had helped to build had to live with the fact that its city had become unsafe for him. American speech correction received European talent as a refugee fact, not as a faculty exchange. A history that prints only the chewing method and not the exit visa is a demonstration tape.
 
 ## Who was left out
 
-Women built the daily logopedic work and rarely got the chair. Patients who could not pay for a university clinic used folk methods or silence. The Nazi years did not only exile Jewish physicians. They also applied eugenic law to disabled people, including people whose speech marked them. This pack will not invent a particular murdered stammerer to decorate the paragraph. The legal climate is documented. The missing names are the point.
+Women built the daily logopedic work and rarely got the chair. Patients who could not pay for a university clinic used folk methods or silence. The Nazi years did not only exile Jewish physicians. They also applied eugenic law to disabled people, including people whose speech marked them. This article will not invent a particular murdered stammerer to decorate the paragraph. The legal climate is documented. The missing names are the point.
 
 ## Residue
 

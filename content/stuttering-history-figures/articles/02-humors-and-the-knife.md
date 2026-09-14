@@ -12,7 +12,7 @@ tags:
 meta_description: "Paris and the German clinics, 1800–1840: humoral leftovers, Itard’s medical attention, Colombat’s orthophonic institute, and the mood that made a tongue operation thinkable."
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

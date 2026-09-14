@@ -12,7 +12,7 @@ tags:
 meta_description: "1981–present: twin concordances, Illinois onset studies, the 1996 PET paper, and why a scan is not a personality."
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -28,7 +28,7 @@ Ehud Yairi, at the University of Illinois from 1977, with Nicoline Ambrose and c
 
 Peter T. Fox, Roger J. Ingham, Janis C. Ingham, and colleagues published in *Nature* in 1996 a PET study of the neural systems of stuttering. The paper is famous because *Nature* is famous. What it actually did was show, in adults, activation patterns that differed with fluency and with treatment-altered speech. It did not find Orton’s schoolroom hemisphere. It did not license a new surgery. It did not tell a parent what to say at dinner.
 
-Later fMRI and diffusion work thickened the map and the arguments: auditory-motor timing, basal ganglia, white-matter tracts, whether a finding is cause or a life of stuttering written into a brain. This pack will not referee a 2026 review article. It will say that the scanner years ended the last respectable version of “it’s only a habit” without restoring Dieffenbach.
+Later fMRI and diffusion work thickened the map and the arguments: auditory-motor timing, basal ganglia, white-matter tracts, whether a finding is cause or a life of stuttering written into a brain. This article will not referee a 2026 review article. It will say that the scanner years ended the last respectable version of “it’s only a habit” without restoring Dieffenbach.
 
 ## What the decades thought they were solving
 

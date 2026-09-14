@@ -13,7 +13,7 @@ meta_description: "Lee Edward Travis (1896–1987): Iowa’s speech laboratory, 
 portrait: null
 portrait_status: note
 figure_dates: "1896–1987"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -31,7 +31,7 @@ He was born in 1896 and died in 1987. He stuttered. The childhood is the story, 
 
 Orton’s reading neurology is in the air. Travis made it speak. Bryngelson carried laterality north. The later tables were modest. The book had already done its work.
 
-He was also an organizational founder. The sibling profession pack has him in the Hotel McAlpin generation. This pack will only say that the man who wanted a hemisphere also wanted a profession. Those wants are not the same, and they shared a vita.
+He was also an organizational founder. The sibling profession pack has him in the Hotel McAlpin generation. This article will only say that the man who wanted a hemisphere also wanted a profession. Those wants are not the same, and they shared a vita.
 
 ## What later people kept
 

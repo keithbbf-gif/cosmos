@@ -12,7 +12,7 @@ meta_description: "Marc Colombat de l’Isère (1797–1851): Paris Institut ort
 portrait: null
 portrait_status: note
 figure_dates: "1797–1851"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -22,7 +22,7 @@ This is history for a general reader. It is not a diagnosis, not a treatment pla
 
 The 1831 title page is crowded. *Du bégaiement et de tous les autres vices de la parole*, second edition, Paris, Mansut, with a report to the Académie de médecine. Marc Colombat de l’Isère had opened an Institut orthophonique the year before. He wanted stammering to be a medical house, not a parlor trick and not, yet, a surgical fashion.
 
-He was born in 1797, took the territorial name de l’Isère, and died in Paris on 10 June 1851. He wrote on women’s surgery, on instruments, on ventriloquism, and repeatedly on speech. The stammering books are the reason he is in this pack. The rest of the catalog is a reminder that a nineteenth-century medical entrepreneur did not have a single specialty board.
+He was born in 1797, took the territorial name de l’Isère, and died in Paris on 10 June 1851. He wrote on women’s surgery, on instruments, on ventriloquism, and repeatedly on speech. The stammering books are the reason he is in this profile. The rest of the catalog is a reminder that a nineteenth-century medical entrepreneur did not have a single specialty board.
 
 ## The house and the books
 

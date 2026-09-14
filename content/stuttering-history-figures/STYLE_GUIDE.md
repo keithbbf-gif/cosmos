@@ -59,7 +59,7 @@ last_verified: 2026-09-14
 ---
 ```
 
-`voice_check: human` is an editorial flag, not a boast. If a draft starts sounding like a model, rewrite the first paragraph before anything else.
+Writer drafts ship with `voice_check: human`. After the editor pass, every article must read `voice_check: edited`. `check_pack.py` enforces `edited`. If a draft starts sounding like a model, rewrite the first paragraph before anything else.
 
 `portrait: null` is mandatory in this pack. Portrait **notes** live in `PORTRAIT_SOURCES.md` and in a short “Portrait” section at the end of each profile.
 

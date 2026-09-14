@@ -12,7 +12,7 @@ meta_description: "Joseph G. Sheehan (1918–1983): UCLA Psychology Speech Clini
 portrait: null
 portrait_status: note
 figure_dates: "1918–1983"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -22,7 +22,7 @@ This is history for a general reader. It is not a diagnosis, not a treatment pla
 
 Joseph Green Sheehan drew the iceberg that escaped the family. Above the water, the visible stutter. Below, the fear, the skipped word, the job not taken. The drawing is a teaching object, not a validated instrument. It is why a 2026 student can be stopped from thinking the disorder is a syllable count.
 
-He was born 27 May 1918 in Battle Creek, Michigan. He stuttered, tried chemistry, could not keep work, found help in a UCLA orbit that still remembered Knight Dunlap’s negative practice, and took a Ph.D. in clinical psychology from the University of Michigan in 1950 after already joining the UCLA faculty in 1949. He founded the Psychology Speech Clinic that year and directed it until he died. The UCLA faculty memoir says he died in Los Angeles on 13 November 1983 after six months of cancer. UPI, a week later, says he died at home in Santa Monica on 14 November. Contemporary Authors also uses the 14th. This pack prints both dates. A missing certainty is better than a picked one.
+He was born 27 May 1918 in Battle Creek, Michigan. He stuttered, tried chemistry, could not keep work, found help in a UCLA orbit that still remembered Knight Dunlap’s negative practice, and took a Ph.D. in clinical psychology from the University of Michigan in 1950 after already joining the UCLA faculty in 1949. He founded the Psychology Speech Clinic that year and directed it until he died. The UCLA faculty memoir says he died in Los Angeles on 13 November 1983 after six months of cancer. UPI, a week later, says he died at home in Santa Monica on 14 November. Contemporary Authors also uses the 14th. This article prints both dates. A missing certainty is better than a picked one.
 
 ## The work
 
@@ -36,7 +36,7 @@ The picture. The permission to treat shame as data. What they abused: a photocop
 
 Covert stuttering — passing for fluent by starvation of the sentence — is the iceberg’s private case. Later writers who were not professors insisted on it. Sheehan made it sayable in a department that had a chart.
 
-UCLA’s psychology address matters. He did not come up through a speech-correction undergraduate line. A clinical psychologist with a clinic sign could treat stuttering as conflict and still run groups that looked, to a visitor, like speech therapy. The visitor was half right. The other half is why this pack files him under fluency history and not under a department war.
+UCLA’s psychology address matters. He did not come up through a speech-correction undergraduate line. A clinical psychologist with a clinic sign could treat stuttering as conflict and still run groups that looked, to a visitor, like speech therapy. The visitor was half right. The other half is why this profile files him under fluency history and not under a department war.
 
 ## Portrait
 

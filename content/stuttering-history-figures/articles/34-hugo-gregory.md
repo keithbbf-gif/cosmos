@@ -13,7 +13,7 @@ meta_description: "Hugo H. Gregory Jr. (1928–2004): Northwestern stuttering wo
 portrait: null
 portrait_status: note
 figure_dates: "1928–2004"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -21,7 +21,7 @@ last_verified: 2026-09-14
 
 This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
 
-Hugo Harris Gregory Jr. spent a career at Northwestern University trying to end a civil war. Modification versus fluency shaping had become a loyalty test. Gregory said, in public and in workshops from 1985 to 2001, that a clinician could evaluate a speaker and borrow from both benches. The *Daily Northwestern* obituary (8 November 2004) called him one of the first to advocate merging the two main approaches. That is a colleague’s sentence, not a randomized trial. It is why he is in this pack.
+Hugo Harris Gregory Jr. spent a career at Northwestern University trying to end a civil war. Modification versus fluency shaping had become a loyalty test. Gregory said, in public and in workshops from 1985 to 2001, that a clinician could evaluate a speaker and borrow from both benches. The *Daily Northwestern* obituary (8 November 2004) called him one of the first to advocate merging the two main approaches. That is a colleague’s sentence, not a randomized trial. It is why he is in this profile.
 
 He was born 11 July 1928 in Texarkana, Texas, grew up in Portland, Arkansas, and stuttered badly enough that his parents sent him by train, at fourteen, to a summer camp for stutterers in Bristol, Rhode Island, for three summers. The Ashley County Ledger obituary text is the warrant for that geography. University of Arkansas for two years; then three Northwestern degrees, Ph.D. 1959. He met Carolyn Booth, a speech pathologist, and they married into a lifelong clinical partnership. Faculty at Northwestern 1962–1993; emeritus after. He died 11 October 2004 at Johns Hopkins Hospital of a stroke and meningitis after surgery. He was seventy-six.
 

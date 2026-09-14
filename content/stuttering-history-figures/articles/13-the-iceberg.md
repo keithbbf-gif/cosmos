@@ -12,7 +12,7 @@ tags:
 meta_description: "1953–2000: Sheehan’s iceberg, covert stuttering, and the half of the disorder that does not show up on a syllable count."
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

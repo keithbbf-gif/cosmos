@@ -11,7 +11,7 @@ tags:
 meta_description: "Before clinics and credentials, stammering lived in oratory lore and medical junk drawers. Demosthenes, humoral names, and why the pebble story is not a protocol."
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

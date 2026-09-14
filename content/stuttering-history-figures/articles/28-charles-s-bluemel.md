@@ -12,7 +12,7 @@ meta_description: "Charles Sidney Bluemel (1884–1960): Denver psychiatrist, pr
 portrait: null
 portrait_status: note
 figure_dates: "1884–1960"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -24,7 +24,7 @@ Charles Sidney Bluemel (Sidney in some catalogs, Sydney in Duchan) was a psychia
 
 ## The books
 
-*Stammering and Cognate Defects of Speech* (1913) is early, thick with history, and already trying to separate a simple stammer from a complicated one. Later papers and *Mental Aspects of Stammering* (1930), *Stammering and Allied Disorders* (1935), and *The Riddle of Stuttering* (1957) move the cause around: auditory imagery, a break in consciousness, inhibition versus the wish to speak, then a more general disorganization under stress. Duchan’s summary of that drift is fair. This pack will not pretend the theory was stable. The stable thing is the riddle in the 1957 title.
+*Stammering and Cognate Defects of Speech* (1913) is early, thick with history, and already trying to separate a simple stammer from a complicated one. Later papers and *Mental Aspects of Stammering* (1930), *Stammering and Allied Disorders* (1935), and *The Riddle of Stuttering* (1957) move the cause around: auditory imagery, a break in consciousness, inhibition versus the wish to speak, then a more general disorganization under stress. Duchan’s summary of that drift is fair. This article will not pretend the theory was stable. The stable thing is the riddle in the 1957 title.
 
 Wendell Johnson reviewed *The Riddle* in *Pediatrics* in 1957. The Iowa man and the Denver man did not share a cause. They shared a subject.
 
