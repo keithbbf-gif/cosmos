@@ -10,6 +10,7 @@ novelty: public-record
 era: "2021"
 topics: [DALL-E, Ramesh, discrete-VAE, transformer]
 voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 # DALL·E 1: discrete tokens, a paper, and a withheld stack

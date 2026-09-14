@@ -10,6 +10,7 @@ novelty: public-record
 era: "2022"
 topics: [Stable-Diffusion, Stability, Runway, CompVis, RAIL]
 voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 # 22 August 2022: Stable Diffusion leaves the lab

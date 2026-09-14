@@ -10,6 +10,7 @@ novelty: public-record
 era: "2009-2012"
 topics: [ImageNet, Deng, Li-Fei-Fei, curriculum]
 voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 # ImageNet as a visual curriculum, not a multimodal paper

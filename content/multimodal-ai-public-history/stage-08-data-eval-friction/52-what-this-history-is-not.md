@@ -10,6 +10,7 @@ novelty: public-record
 era: "method"
 topics: [method, limits, non-claims]
 voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 # What this history is not
@@ -73,7 +74,7 @@ Second: Stable Diffusion is a latent
 diffusion paper plus a 22 August 2022
 file.
 
-Third: visual-language assistants are
+Third: vision-language assistants are
 an old desire (pixels to words) with a
 new chat template and a borrowed LM.
 

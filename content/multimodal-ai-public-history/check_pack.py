@@ -14,6 +14,7 @@ HOUSE = {
     "MANIFEST.md",
     "INDEX.md",
     "SOURCES.md",
+    "EDITOR_REPORT.md",
 }
 FORBIDDEN = (
     "COSMOS",
@@ -93,6 +94,8 @@ def main() -> int:
         print(f"{path.relative_to(ROOT)} words={words}")
     folder_text = []
     for md in sorted(ROOT.rglob("*.md")):
+        if md.name in HOUSE:
+            continue
         folder_text.append(md.read_text(encoding="utf-8"))
     blob = "\n".join(folder_text)
     for word in FORBIDDEN:

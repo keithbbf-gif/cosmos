@@ -10,6 +10,7 @@ novelty: public-record
 era: "2021"
 topics: [Frozen, Tsimpoukelli, prefix, few-shot]
 voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 # Frozen, 2021: a language model that looks, a little

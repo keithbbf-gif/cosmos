@@ -10,6 +10,7 @@ novelty: public-record
 era: "2015"
 topics: [Xu, attention, captioning, ICML]
 voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 # Show, Attend and Tell: a map over the photograph

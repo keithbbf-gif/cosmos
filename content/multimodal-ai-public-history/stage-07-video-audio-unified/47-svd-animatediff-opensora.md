@@ -10,6 +10,7 @@ novelty: public-record
 era: "2023-2024"
 topics: [SVD, AnimateDiff, Open-Sora, video-diffusion]
 voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 # SVD, AnimateDiff, Open-Sora: video diffusion you could run

@@ -10,6 +10,7 @@ novelty: public-record
 era: "2024"
 topics: [SD3, FLUX, MMDiT, Black-Forest-Labs]
 voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 # SD3 and FLUX: later public lines, no origin myth

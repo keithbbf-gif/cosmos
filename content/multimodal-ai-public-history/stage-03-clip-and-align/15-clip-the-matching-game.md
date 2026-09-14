@@ -10,6 +10,7 @@ novelty: public-record
 era: "2021"
 topics: [CLIP, Radford, contrastive, zero-shot]
 voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 # CLIP, 2021: predicting which caption goes with which image
@@ -62,7 +63,7 @@ stage 08 will come back to that weather without pretending the
 If you read only one technical claim, read this: after CLIP, a
 vision model can be **addressed in English**. That is a different
 interface from a 1000-way softmax. Diffusion models will type
-English into a frozen CLIP text tower. Visual-language assistants
+English into a frozen CLIP text tower. Vision-language assistants
 will still, often, start from a CLIP-like encoder. The matching
 game became plumbing.
 

@@ -10,6 +10,7 @@ novelty: public-record
 era: "2023"
 topics: [LLaVA, Liu, instruction-tuning, Vicuna]
 voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 # LLaVA, 2023: visual instruction tuning goes public

@@ -10,6 +10,7 @@ novelty: public-record
 era: "2018"
 topics: [Anderson, Faster-R-CNN, BUTD, COCO]
 voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 # Bottom-up top-down, 2018: objects as the caption's vocabulary

@@ -10,6 +10,7 @@ novelty: public-record
 era: "2020-2021"
 topics: [OSCAR, VinVL, Li, Zhang, object-tags]
 voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 # OSCAR and VinVL: object tags as extra words

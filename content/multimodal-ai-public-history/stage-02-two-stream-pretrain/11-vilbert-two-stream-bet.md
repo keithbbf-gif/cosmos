@@ -10,6 +10,7 @@ novelty: public-record
 era: "2019"
 topics: [ViLBERT, Lu, BERT, two-stream]
 voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 # ViLBERT, 2019: two streams because nobody trusted one

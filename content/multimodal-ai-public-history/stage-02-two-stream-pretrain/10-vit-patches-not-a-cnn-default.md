@@ -10,6 +10,7 @@ novelty: public-record
 era: "2020-2021"
 topics: [ViT, Dosovitskiy, patches, transformer]
 voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 # ViT: images as patches, and the scaling alibi

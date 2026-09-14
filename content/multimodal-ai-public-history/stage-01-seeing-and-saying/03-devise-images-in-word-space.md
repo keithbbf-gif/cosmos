@@ -10,6 +10,7 @@ novelty: public-record
 era: "2013"
 topics: [DeViSE, Frome, embeddings, zero-shot]
 voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 # DeViSE, 2013: putting photographs into a word space

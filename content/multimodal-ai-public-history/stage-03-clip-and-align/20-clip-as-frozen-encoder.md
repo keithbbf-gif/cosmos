@@ -10,6 +10,7 @@ novelty: public-record
 era: "2021-2023"
 topics: [CLIP, frozen-encoder, unCLIP, Stable-Diffusion]
 voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 # CLIP as a frozen encoder: when a paper becomes a part

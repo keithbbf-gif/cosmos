@@ -10,6 +10,7 @@ novelty: public-record
 era: "2015-2017"
 topics: [VQA, Antol, balanced-VQA, language-prior]
 voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 # VQA, 2015: asking a picture a question

@@ -10,6 +10,7 @@ novelty: public-record
 era: "2021-2022"
 topics: [LDM, Rombach, CompVis, CVPR]
 voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 # Latent diffusion: compress first, denoise second

@@ -10,6 +10,7 @@ novelty: public-record
 era: "2022"
 topics: [Whisper, Radford, ASR, weakly-supervised]
 voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 # Whisper: speech-text as a public multimodal neighbor

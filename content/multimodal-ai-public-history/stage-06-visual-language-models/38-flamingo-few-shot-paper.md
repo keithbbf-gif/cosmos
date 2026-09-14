@@ -10,6 +10,7 @@ novelty: public-record
 era: "2022"
 topics: [Flamingo, Alayrac, DeepMind, Perceiver]
 voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 # Flamingo, 2022: few-shot visual language, paper not weights

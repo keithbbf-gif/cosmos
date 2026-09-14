@@ -10,6 +10,7 @@ novelty: public-record
 era: "2023"
 topics: [ControlNet, Zhang, Canny, OpenPose]
 voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 # ControlNet: edges, poses, and a second encoder

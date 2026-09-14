@@ -10,6 +10,7 @@ novelty: public-record
 era: "2021"
 topics: [CLIP, openai/CLIP, WIT, weights]
 voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 # What CLIP released, and what it locked

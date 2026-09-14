@@ -10,6 +10,7 @@ novelty: public-record
 era: "2023"
 topics: [ImageBind, Girdhar, Meta, binding]
 voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 # ImageBind: one embedding space as a public dare

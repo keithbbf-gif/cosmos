@@ -10,6 +10,7 @@ novelty: public-record
 era: "2022-2024"
 topics: [flow-matching, Lipman, rectified-flow, Liu]
 voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 # Flow matching: a different ODE story in public

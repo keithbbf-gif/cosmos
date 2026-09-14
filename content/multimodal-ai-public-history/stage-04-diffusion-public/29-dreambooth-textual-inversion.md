@@ -10,6 +10,7 @@ novelty: public-record
 era: "2022"
 topics: [DreamBooth, textual-inversion, Ruiz, Gal]
 voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 # DreamBooth and textual inversion: personalization as a recipe

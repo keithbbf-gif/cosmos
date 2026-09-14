@@ -10,6 +10,7 @@ novelty: public-record
 era: "2021-2022"
 topics: [LAION, Schuhmann, LAION-5B, Common-Crawl]
 voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 # LAION-400M and LAION-5B: a commons with teeth

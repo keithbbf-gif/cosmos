@@ -10,6 +10,7 @@ novelty: public-record
 era: "2021-2022"
 topics: [CFG, Ho, Salimans, guidance-scale]
 voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 # Classifier-free guidance: a scalar that became taste

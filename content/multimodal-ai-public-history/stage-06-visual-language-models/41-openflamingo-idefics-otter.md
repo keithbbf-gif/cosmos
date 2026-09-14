@@ -10,6 +10,7 @@ novelty: public-record
 era: "2023"
 topics: [OpenFlamingo, IDEFICS, Otter, Hugging-Face]
 voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 # OpenFlamingo, IDEFICS, Otter: the open copies as scholarship

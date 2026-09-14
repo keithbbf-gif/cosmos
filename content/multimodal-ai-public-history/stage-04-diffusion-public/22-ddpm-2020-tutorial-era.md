@@ -10,6 +10,7 @@ novelty: public-record
 era: "2020-2021"
 topics: [DDPM, Ho, Sohl-Dickstein, Nichol, ADM]
 voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 # DDPM, 2020: the tutorial that remade generation

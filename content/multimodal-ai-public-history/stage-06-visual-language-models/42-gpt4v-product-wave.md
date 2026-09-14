@@ -10,6 +10,7 @@ novelty: public-record
 era: "2023-2024"
 topics: [GPT-4V, Gemini, Claude, system-card]
 voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 # GPT-4V and the 2023 product wave, as public speech

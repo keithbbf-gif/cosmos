@@ -10,6 +10,7 @@ novelty: public-record
 era: "2022-2024"
 topics: [consent, artists, LAION, opt-out, RAIL]
 voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 # Consent, artists, and the public fight over the crawl

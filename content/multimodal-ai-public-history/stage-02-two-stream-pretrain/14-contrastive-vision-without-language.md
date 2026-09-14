@@ -10,6 +10,7 @@ novelty: public-record
 era: "2018-2020"
 topics: [SimCLR, MoCo, CPC, contrastive]
 voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 # SimCLR and MoCo: contrastive vision before the captions

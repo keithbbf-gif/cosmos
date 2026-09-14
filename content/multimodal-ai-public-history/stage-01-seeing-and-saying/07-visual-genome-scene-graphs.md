@@ -10,6 +10,7 @@ novelty: public-record
 era: "2016-2017"
 topics: [Visual-Genome, Krishna, scene-graph, regions]
 voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 # Visual Genome: the expensive graph under the sentence

@@ -10,6 +10,7 @@ novelty: public-record
 era: "2014-2015"
 topics: [Show-and-Tell, Vinyals, NIC, COCO, captioning]
 voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 # Show and Tell, 2015: captioning as translation

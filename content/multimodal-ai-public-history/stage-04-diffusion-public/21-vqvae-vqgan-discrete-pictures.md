@@ -10,6 +10,7 @@ novelty: public-record
 era: "2017-2021"
 topics: [VQ-VAE, VQGAN, van-den-Oord, Esser]
 voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 # VQ-VAE and VQGAN: pictures as a codebook

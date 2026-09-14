@@ -10,6 +10,7 @@ novelty: public-record
 era: "2024"
 topics: [Sora, Veo, Movie-Gen, Lumiere]
 voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 # Sora, Veo, Movie Gen: announced systems, published pages

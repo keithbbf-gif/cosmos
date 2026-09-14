@@ -10,6 +10,7 @@ novelty: public-record
 era: "2022"
 topics: [Imagen, Parti, Saharia, Yu, Google]
 voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 # Imagen and Parti: published methods, withheld checkpoints

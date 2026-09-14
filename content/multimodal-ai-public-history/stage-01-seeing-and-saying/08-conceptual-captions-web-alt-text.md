@@ -10,6 +10,7 @@ novelty: public-record
 era: "2018"
 topics: [Conceptual-Captions, Sharma, alt-text, Google]
 voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 # Conceptual Captions, 2018: the web as a caption factory

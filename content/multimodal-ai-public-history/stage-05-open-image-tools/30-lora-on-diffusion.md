@@ -10,6 +10,7 @@ novelty: public-record
 era: "2021-2023"
 topics: [LoRA, Hu, adapters, Stable-Diffusion]
 voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 # LoRA on diffusion: the adapter that fit in a Discord upload
@@ -26,7 +27,7 @@ could hold a style, a character, or a badly overfit face.
 This is not a claim that LoRA was invented for images. It
 is a claim that **file size is a distribution channel**.
 DreamBooth checkpoints were large. LoRAs were small. Small
-files move. Moving files become a market, a safety
+files move. Moving files became a market, a safety
 problem, and a folklore about ranks (`rank 8`, `rank 32`)
 that most users never derive.
 

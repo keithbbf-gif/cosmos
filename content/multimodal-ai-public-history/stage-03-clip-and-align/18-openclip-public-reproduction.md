@@ -10,6 +10,7 @@ novelty: public-record
 era: "2021-2023"
 topics: [OpenCLIP, Ilharco, LAION, mlfoundations]
 voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 # OpenCLIP: reproduction as a public method

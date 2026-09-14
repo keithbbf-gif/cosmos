@@ -10,6 +10,7 @@ novelty: public-record
 era: "2023-2024"
 topics: [Qwen-VL, PaliGemma, Molmo, Pixtral, Llama-3.2]
 voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 # The 2024 open VLM wave: named weights, shared skeleton

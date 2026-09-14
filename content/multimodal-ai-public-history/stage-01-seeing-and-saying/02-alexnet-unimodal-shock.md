@@ -10,6 +10,7 @@ novelty: public-record
 era: "2012"
 topics: [AlexNet, Krizhevsky, GPU, ImageNet]
 voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 # AlexNet, 2012: a unimodal shock that multimodal work still spends

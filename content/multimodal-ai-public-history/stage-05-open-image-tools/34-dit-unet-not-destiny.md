@@ -10,6 +10,7 @@ novelty: public-record
 era: "2022-2023"
 topics: [DiT, Peebles, Xie, diffusion-transformer]
 voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 # DiT: UNet is not destiny

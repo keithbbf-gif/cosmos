@@ -10,13 +10,12 @@ novelty: public-record
 era: "2023-2024"
 topics: [SAM, Kirillov, masks, SA-1B]
 voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 # Segment Anything: a neighbor foundation, not a captioner
 
-Kirillov, Mintun, Ravi, Mao, Rolland, Gustafson,
-Xiao, Whitehead, Berg, Lo, Dollár, and Girshick's
-*Segment Anything* (arXiv:2304.02643, 5 April
+Kirillov et al.'s *Segment Anything* (arXiv:2304.02643, 5 April
 2023; ICCV 2023) is not a vision-language model
 in the CLIP or LLaVA sense. It is a promptable
 mask model: click, box, or coarse mask in; mask

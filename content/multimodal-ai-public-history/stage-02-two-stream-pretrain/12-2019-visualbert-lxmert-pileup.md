@@ -10,6 +10,7 @@ novelty: public-record
 era: "2019"
 topics: [VisualBERT, LXMERT, UNITER, pile-up]
 voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 # August 2019: VisualBERT, LXMERT, and a pile-up of BERTs

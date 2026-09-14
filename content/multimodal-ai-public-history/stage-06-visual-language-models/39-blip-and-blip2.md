@@ -10,6 +10,7 @@ novelty: public-record
 era: "2022-2023"
 topics: [BLIP, BLIP-2, Li, Q-Former, Salesforce]
 voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 # BLIP and BLIP-2: bootstrapping, then a Q-Former bargain

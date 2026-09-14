@@ -10,6 +10,7 @@ novelty: public-record
 era: "2024"
 topics: [Chameleon, Show-o, Transfusion, Janus]
 voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 # Chameleon, Show-o, Transfusion: one sequence, two kinds of tokens

@@ -10,6 +10,7 @@ novelty: public-record
 era: "2014-2025"
 topics: [COCO, VQAv2, MMBench, MMMU, GenEval]
 voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 # Public evals: the rulers that ran the field

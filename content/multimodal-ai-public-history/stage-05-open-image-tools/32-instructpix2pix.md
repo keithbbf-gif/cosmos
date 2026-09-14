@@ -10,6 +10,7 @@ novelty: public-record
 era: "2022-2023"
 topics: [InstructPix2Pix, Brooks, Holynski, Efros]
 voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 # InstructPix2Pix: edit the picture with a sentence
