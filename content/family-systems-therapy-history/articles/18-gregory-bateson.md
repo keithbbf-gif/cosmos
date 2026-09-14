@@ -9,7 +9,7 @@ tags:
   - cybernetics
 type: figure
 order: 18
-portrait: none
+portrait: "plates/gregory-bateson/plate.svg"
 citations:
   - "Bateson, Gregory. Naven. 1936."
   - "Bateson, Gregory, et al. Toward a Theory of Schizophrenia. 1956."
@@ -17,9 +17,28 @@ citations:
 status: draft
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1904–1980"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: gregory-bateson.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/gregory-bateson/plate.svg"
+    alt="Typographic history plate for Gregory Bateson (1904–1980) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Gregory Bateson</strong> (1904–1980) — Gregory Bateson (1904–1980): Grantchester, Naven, Bali, the Macy Conferences, the Palo Alto project, and a 1956 paper he would not let freeze.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/gregory-bateson/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Gregory Bateson was born on 9 May 1904 in Grantchester, near Cambridge, and died on 4 July 1980 in San Francisco. He was an anthropologist who wandered into a veterans' hospital town and gave American family therapy a set of words — context, logical types, double bind, ecology of mind — that the field still uses when it wants to sound older than a technique. He was not a family therapist. He disliked being drafted as one. That refusal is part of why the draft kept happening.
 

@@ -9,7 +9,7 @@ tags:
   - poverty
 type: figure
 order: 41
-portrait: none
+portrait: "plates/harry-aponte/plate.svg"
 citations:
   - "Aponte, Harry J. The Family-School Interview: An Eco-Structural Approach. 1976."
   - "Aponte, Harry J. The Negotiation of Values in Therapy. 1985."
@@ -18,9 +18,28 @@ citations:
 status: draft
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "living (verified 2026)"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: harry-aponte.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/harry-aponte/plate.svg"
+    alt="Typographic history plate for Harry J. Aponte (living (verified 2026)) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Harry J. Aponte</strong> (living (verified 2026)) — Harry J. Aponte: Philadelphia structural training, ecological family therapy, Bread & Spirit (1994) — poverty and faith back in an hour that could pretend it was only about boundaries.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/harry-aponte/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Harry J. Aponte published *Bread & Spirit: Therapy with the New Poor* in 1994, after years as a structural family therapist trained in the Philadelphia orbit. The book put poverty and faith back into an hour that could otherwise pretend it was only about boundaries. He was to be treated, at last verification, as a living or recently living writer: public books only, no gossip, no scraped institute photographs. A later editor should confirm vital dates against an authority file before a live page prints them as hard fact.
 

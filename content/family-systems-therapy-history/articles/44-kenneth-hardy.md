@@ -8,7 +8,7 @@ tags:
   - race
 type: figure
 order: 44
-portrait: none
+portrait: "plates/kenneth-hardy/plate.svg"
 citations:
   - "Hardy, Kenneth V., and Tracey A. Laszloffy. Teens Who Hurt. 2005."
   - "Hardy, Kenneth V., and Toby Bobes, eds. Culturally Sensitive Supervision and Training. 2016."
@@ -16,9 +16,28 @@ citations:
 status: draft
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "living (verified 2026)"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: kenneth-hardy.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/kenneth-hardy/plate.svg"
+    alt="Typographic history plate for Kenneth V. Hardy (living (verified 2026)) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Kenneth V. Hardy</strong> (living (verified 2026)) — Kenneth V. Hardy: race in the family hour as a present tense, public books and lectures, and a living writer this pack will not flatten into a diversity paragraph.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/kenneth-hardy/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Kenneth V. Hardy has spent a public career asking white family therapists to stop treating their own race as the unmarked default of the hour. Papers with Tracey A. Laszloffy, later books in public catalogues, training at addresses that have included Drexel and the Eikenberg Institute — the titles a live page will link should come from a library catalogue, not from a memory of a workshop. He was alive at last verification in 2026. Living writers get extra care: public books, public lectures, no gossip, no health speculation, no scraped photographs.
 

@@ -19,9 +19,27 @@ citations:
 status: draft
 voice_check: human
 last_verified: 2026-09-14
+lead_asset: "assets/era/mri-brief-interactional/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: mri-brief-interactional.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/mri-brief-interactional/lead-timeline.svg"
+    alt="Editorial timeline for MRI: interaction, paradox, a shorter ambition."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>MRI: interaction, paradox, a shorter ambition</strong> — Mental Research Institute as paradox, homeostasis, and a shorter hour.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 In September 1958 — some later pages say 1959 — Don D. Jackson founded the Mental Research Institute in Palo Alto as a public-service, nonprofit shop for research on interaction. He was head of psychiatry at the Palo Alto Medical Foundation. He had already published "The Question of Family Homeostasis" (1957): the idea that a symptom can be part of a family's way of staying the same, and that a "cure" in one person can appear as trouble in another. MRI was the building that idea moved into. The building on Middlefield Road came later, after a 1960s fundraising push. The mood came first: stop asking only what a symptom *means*. Ask what it *does* in the talk.
 

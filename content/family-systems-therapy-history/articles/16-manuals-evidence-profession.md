@@ -19,9 +19,27 @@ citations:
 status: draft
 voice_check: human
 last_verified: 2026-09-14
+lead_asset: "assets/era/manuals-evidence-profession/lead-period-object.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: manuals-evidence-profession.lead-period-object -->
+<figure class="wow-figure wow-figure--era wow-figure--period-object">
+  <img
+    src="../assets/era/manuals-evidence-profession/lead-period-object.svg"
+    alt="Typographic facsimile of the title page of Family Group Therapy, John Elderkin Bell, M.D., 1961 — public domain, no photograph."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Family Group Therapy</strong> (1961) — From a GPO monograph to licensure, journals, and court-bought manuals.
+    <span class="figure-credit">PD period object (facsimile for staging). Public domain (U.S. federal government work). See <code>assets/era/manuals-evidence-profession/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 In 1961 the U.S. Government Printing Office issued Public Health Monograph No. 64: John Elderkin Bell's *Family Group Therapy*. It is a federal document. The title page is public domain. A year later *Family Process* 1, no. 1 appeared, Haley editing, Jackson and Ackerman in the founding mix. Sixteen years after that, in December 1978, the American Association of Marriage and Family Counselors took the name American Association for Marriage and Family Therapy. The revolt had a journal, then a lobby, then a license. The family that walks into a small-city clinic in 2026 inherits all three — and a stack of manuals the 1956 paper did not imagine.
 

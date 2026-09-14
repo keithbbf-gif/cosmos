@@ -9,7 +9,7 @@ tags:
   - migration
 type: figure
 order: 39
-portrait: none
+portrait: "plates/celia-jaes-falicov/plate.svg"
 citations:
   - "Falicov, Celia Jaes, ed. Family Transitions. 1988."
   - "Falicov, Celia Jaes. Training to Think Culturally. Family Process. 1995."
@@ -17,9 +17,28 @@ citations:
 status: draft
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "living (verified 2026)"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: celia-jaes-falicov.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/celia-jaes-falicov/plate.svg"
+    alt="Typographic history plate for Celia Jaes Falicov (living (verified 2026)) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Celia Jaes Falicov</strong> (living (verified 2026)) — Celia Jaes Falicov: Latino Families in Therapy (1998), MECA, migration as structure — a living writer who treated cultural meaning as more than spice.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/celia-jaes-falicov/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Celia Jaes Falicov published *Latino Families in Therapy* in 1998 (later editions followed) and spent a career treating migration, ecological context, and cultural meaning as structure, not as spice. MECA — her map of migration, ecology, family organization, and family life cycle — is a training-room object this page will name and will not teach. She was alive at last verification in 2026. Living writers get extra care: public books, public academic posts, no gossip, no scraped photographs.
 

@@ -8,15 +8,34 @@ tags:
   - Milan
 type: figure
 order: 26
-portrait: none
+portrait: "plates/mara-selvini-palazzoli/plate.svg"
 citations:
   - "Selvini Palazzoli, Mara, Luigi Boscolo, Gianfranco Cecchin, and Giuliana Prata. Paradox and Counterparadox. 1978."
 status: draft
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1916–1999"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: mara-selvini-palazzoli.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/mara-selvini-palazzoli/plate.svg"
+    alt="Typographic history plate for Mara Selvini Palazzoli (1916–1999) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Mara Selvini Palazzoli</strong> (1916–1999) — Mara Selvini Palazzoli (1916–1999): Milan, anorexia work, the Centro, Paradox and Counterparadox (1978), and the split over the invariant prescription.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/mara-selvini-palazzoli/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Mara Selvini Palazzoli was born in 1916 in Milan and died there in 1999. She was a physician and a psychoanalyst before she was a family therapist. The anorexia work came first. The family work grew from the sense that a dangerous symptom in a young woman was not only a young woman's symptom. In the late 1960s she gathered Luigi Boscolo, Gianfranco Cecchin, and Giuliana Prata at the Centro per lo Studio della Famiglia. The book American trainees carried was *Paradox and Counterparadox*, English edition 1978.
 

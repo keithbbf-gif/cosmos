@@ -18,9 +18,27 @@ citations:
 status: draft
 voice_check: human
 last_verified: 2026-09-14
+lead_asset: "assets/era/bowen-georgetown-diagram/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: bowen-georgetown-diagram.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/bowen-georgetown-diagram/lead-timeline.svg"
+    alt="Editorial timeline for Bowen, Georgetown, and the multigenerational diagram."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Bowen, Georgetown, and the multigenerational diagram</strong> — Murray Bowen's multigenerational theory without publishing anyone's genogram.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 In November 1954, at the National Institute of Mental Health in Bethesda, Murray Bowen admitted a mother and an adult daughter onto an inpatient unit. The daughter had a psychotic illness. The mother moved in too. Over the next five years the project grew: more pairs, then fathers, then whole families living on a ward while Bowen and his staff watched an "emotional system" that he no longer wanted to reduce to a dyad. He had come from the Menninger Foundation in Topeka, where he had trained from 1946. He left NIMH in 1959 for a half-time chair at Georgetown. The diagrams that still cover counseling-program whiteboards were born in those five years, and they have been mistaken for fate ever since.
 

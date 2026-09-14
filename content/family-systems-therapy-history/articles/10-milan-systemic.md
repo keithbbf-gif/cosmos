@@ -16,9 +16,27 @@ citations:
 status: draft
 voice_check: human
 last_verified: 2026-09-14
+lead_asset: "assets/era/milan-systemic/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: milan-systemic.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/milan-systemic/lead-timeline.svg"
+    alt="Editorial timeline for Milan: paradox, circular questions, the team behind glass."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Milan: paradox, circular questions, the team behind glass</strong> — The Milan team's systemic paradox and the one-way mirror as a clinical object.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 In the late 1960s in Milan, Mara Selvini Palazzoli — already known in Italy for work on anorexia — gathered a team that would give family therapy a European dialect. Luigi Boscolo, Gianfranco Cecchin, and Giuliana Prata were the other three names on the book American trainees carried: *Paradox and Counterparadox*, English edition 1978, Italian earlier in the decade. They saw families at intervals, often a month apart. They met as a team. They hypothesized. They asked questions that made a household describe its own rules. Sometimes they delivered a paradoxical prescription and then left the family to live with it until the next appointment. American institutes imported the mirror and the questions. They did not always import the politics or the interval.
 

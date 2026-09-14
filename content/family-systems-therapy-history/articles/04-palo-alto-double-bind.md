@@ -18,9 +18,27 @@ citations:
 status: draft
 voice_check: human
 last_verified: 2026-09-14
+lead_asset: "assets/era/palo-alto-double-bind/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: palo-alto-double-bind.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/palo-alto-double-bind/lead-timeline.svg"
+    alt="Editorial timeline for Palo Alto and the double bind."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Palo Alto and the double bind</strong> — Cybernetics, communication theory, and the VA Hospital group that named interaction.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 In 1956 the new journal *Behavioral Science* printed a paper with a dry title and a long afterlife: "Toward a Theory of Schizophrenia." The authors were Gregory Bateson, Don D. Jackson, Jay Haley, and John Weakland. They had been working in Palo Alto, around the Veterans Administration Hospital and a research project Bateson had been building since 1952 with money that included Rockefeller funds and later NIMH. They described a "double bind": a person, often a child, caught in contradictory injunctions that could not be named or escaped. The paper is a landmark in communication theory. It is also a document that later readers, and some of the authors, had to walk back from when it hardened into a story about households and psychosis.
 

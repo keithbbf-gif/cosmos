@@ -18,9 +18,27 @@ citations:
 status: draft
 voice_check: human
 last_verified: 2026-09-14
+lead_asset: "assets/era/before-the-family-was-a-patient/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: before-the-family-was-a-patient.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/before-the-family-was-a-patient/lead-timeline.svg"
+    alt="Editorial timeline for Before the family was a patient."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Before the family was a patient</strong> — How the household moved from backdrop to chart before the Palo Alto vocabulary.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 In 1915 William Healy, a physician who had run Chicago's Juvenile Psychopathic Institute since 1909, published *The Individual Delinquent*. The title still pointed at one young person. The book did not. Healy's clinic had already learned that a child's theft, truancy, or silence arrived with a household attached: a wage, a boarding-house, a stepfather, a parish, a court. The family was not yet the patient. It was already the file.
 

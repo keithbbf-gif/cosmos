@@ -8,7 +8,7 @@ tags:
   - resilience
 type: figure
 order: 43
-portrait: none
+portrait: "plates/froma-walsh/plate.svg"
 citations:
   - "Walsh, Froma, ed. Normal Family Processes. 1982."
   - "Walsh, Froma. Strengthening Family Resilience. 1998."
@@ -16,9 +16,28 @@ citations:
 status: draft
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "living (verified 2026)"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: froma-walsh.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/froma-walsh/plate.svg"
+    alt="Typographic history plate for Froma Walsh (living (verified 2026)) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Froma Walsh</strong> (living (verified 2026)) — Froma Walsh: Strengthening Family Resilience (1998), Chicago training, and a living writer who asked what families do right without turning that question into a cheer.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/froma-walsh/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Froma Walsh published *Strengthening Family Resilience* in 1998 (later editions followed) and spent a career at Chicago training addresses asking what families do to come through. She was alive at last verification in 2026. Living writers get extra care: public books, public academic posts, no gossip, no scraped photographs.
 

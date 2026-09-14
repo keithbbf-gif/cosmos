@@ -9,7 +9,7 @@ tags:
   - brief therapy
 type: figure
 order: 28
-portrait: none
+portrait: "plates/john-weakland/plate.svg"
 citations:
   - "Bateson, Gregory, et al. Toward a Theory of Schizophrenia. 1956."
   - "Weakland, John H. The Double-Bind Hypothesis of Schizophrenia and Three-Party Interaction. 1960."
@@ -18,9 +18,28 @@ citations:
 status: draft
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1919–1995"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: john-weakland.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/john-weakland/plate.svg"
+    alt="Typographic history plate for John Weakland (1919–1995) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>John Weakland</strong> (1919–1995) — John Weakland (1919–1995): chemical engineer, anthropologist, 1956 coauthor, and the MRI brief-therapy ear that preferred watching to winning.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/john-weakland/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 John Weakland was born in 1919 and died in 1995. He trained as a chemical engineer, then as an anthropologist, then spent the rest of his working life in Palo Alto watching what people said twice. He is the fourth name on the 1956 double-bind paper, the third name on *Change* (1974) with Watzlawick and Fisch, and a coauthor of "Brief Therapy: Focused Problem Resolution" in *Family Process* the same year. Students who only remember Bateson and Haley have not met the person who actually sat still.
 

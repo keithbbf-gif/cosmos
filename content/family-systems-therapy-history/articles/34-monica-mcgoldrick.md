@@ -9,7 +9,7 @@ tags:
   - genogram
 type: figure
 order: 34
-portrait: none
+portrait: "plates/monica-mcgoldrick/plate.svg"
 citations:
   - "McGoldrick, Monica, John K. Pearce, and Joseph Giordano, eds. Ethnicity and Family Therapy. 1982."
   - "McGoldrick, Monica, and Randy Gerson. Genograms in Family Assessment. 1985."
@@ -18,9 +18,28 @@ citations:
 status: draft
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "living (verified 2026)"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: monica-mcgoldrick.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/monica-mcgoldrick/plate.svg"
+    alt="Typographic history plate for Monica McGoldrick (living (verified 2026)) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Monica McGoldrick</strong> (living (verified 2026)) — Monica McGoldrick: Ethnicity and Family Therapy (1982), Genograms (1985), the family life cycle with Betty Carter — a living writer who made ethnicity ordinary on American syllabi.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/monica-mcgoldrick/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Monica McGoldrick published *Ethnicity and Family Therapy* in 1982, with John K. Pearce and Joseph Giordano, and *Genograms in Family Assessment* in 1985, with Randy Gerson. With Betty Carter she edited the family-life-cycle volumes that trained a generation to think in stages without thinking only in white nuclear ones. She was alive at last verification in 2026. Living writers get extra care: public books, the Multicultural Family Institute as a public address, no gossip, no scraped photographs.
 

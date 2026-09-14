@@ -8,16 +8,35 @@ tags:
   - family therapy
 type: figure
 order: 17
-portrait: none
+portrait: "plates/nathan-ackerman/plate.svg"
 citations:
   - "Ackerman, Nathan W. The Psychodynamics of Family Life. 1958."
   - "Family Process 1, no. 1. 1962."
 status: draft
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1908–1971"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: nathan-ackerman.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/nathan-ackerman/plate.svg"
+    alt="Typographic history plate for Nathan Ackerman (1908–1971) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Nathan Ackerman</strong> (1908–1971) — Nathan W. Ackerman (1908–1971): Bessarabia to New York, The Psychodynamics of Family Life (1958), the Family Institute, and a founding chair of Family Process.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/nathan-ackerman/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Nathan Ward Ackerman was born on 22 November 1908 in Bessarabia, then in the Russian Empire, and died in New York on 12 June 1971. He was a child psychiatrist who decided, earlier than most of the people this pack treats as founders, that the child in his office was not a closed system. *The Psychodynamics of Family Life* (1958) is the book that still gets him onto syllabi. The Family Institute he opened in New York in 1960 — later the Ackerman Institute for the Family — is the building that still gets his name. *Family Process*, which he helped found in 1962 with Don Jackson and Jay Haley, is the journal that still gets his argument.
 

@@ -8,7 +8,7 @@ tags:
   - structural family therapy
 type: figure
 order: 23
-portrait: none
+portrait: "plates/salvador-minuchin/plate.svg"
 citations:
   - "Minuchin, Salvador, et al. Families of the Slums. 1967."
   - "Minuchin, Salvador. Families and Family Therapy. 1974."
@@ -16,9 +16,28 @@ citations:
 status: draft
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1921–2017"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: salvador-minuchin.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/salvador-minuchin/plate.svg"
+    alt="Typographic history plate for Salvador Minuchin (1921–2017) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Salvador Minuchin</strong> (1921–2017) — Salvador Minuchin (1921–2017): Entre Ríos to Wiltwyck to Philadelphia — Families of the Slums (1967), Families and Family Therapy (1974), and structure as a clinical word.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/salvador-minuchin/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Salvador Minuchin was born in 1921 in San Salvador, Entre Ríos, Argentina, and died in 2017 in Boca Raton, Florida. He studied medicine in Córdoba, worked with children in Israel in the early 1950s, trained at the William Alanson White Institute in New York in Sullivan's interpersonal psychiatry, and then, around 1957, became the intake psychiatrist at the Wiltwyck School for Boys in Esopus. The boys were not a Palo Alto sample. The long interpretive hour did not reach them. With Auerswald, King, Montalvo, Rabinowitz, and later Guerney, Rosman, and Schumer, he installed a mirror and learned to interview families. In 1965 he took that learning to the Philadelphia Child Guidance Clinic as director.
 

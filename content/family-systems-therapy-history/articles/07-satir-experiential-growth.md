@@ -17,9 +17,27 @@ citations:
 status: draft
 voice_check: human
 last_verified: 2026-09-14
+lead_asset: "assets/era/satir-experiential-growth/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: satir-experiential-growth.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/satir-experiential-growth/lead-timeline.svg"
+    alt="Editorial timeline for Satir, growth, and the experiential family."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Satir, growth, and the experiential family</strong> — Virginia Satir's experiential growth model and the traveling institute.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 Virginia Satir directed family-therapy training at the Mental Research Institute in the early 1960s and never sounded like the men who stayed. Where Watzlawick wrote about paradox, she wrote about self-worth. Where Haley wrote about power, she asked people to stand where their loyalty stood. *Conjoint Family Therapy* (1964) taught a generation to bring the household into the same hour. *Peoplemaking* (1972) took the same ideas to a public that had not signed a clinic consent form. The gift and the risk were the same: she believed a family could change in a short, intense encounter if someone told the truth and was not destroyed for it.
 

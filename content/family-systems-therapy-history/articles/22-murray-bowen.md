@@ -8,7 +8,7 @@ tags:
   - differentiation
 type: figure
 order: 22
-portrait: none
+portrait: "plates/murray-bowen/plate.svg"
 citations:
   - "Bowen, Murray. Family Therapy in Clinical Practice. 1978."
   - "Bowen, Murray. On the Differentiation of Self. Presented 1967."
@@ -16,9 +16,28 @@ citations:
 status: draft
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1913–1990"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: murray-bowen.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/murray-bowen/plate.svg"
+    alt="Typographic history plate for Murray Bowen (1913–1990) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Murray Bowen</strong> (1913–1990) — Murray Bowen (1913–1990): Waverly, Tennessee, Menninger, NIMH (1954–1959), Georgetown, the 1967 family-of-origin paper, and a theory that can be weather or fate.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/murray-bowen/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Murray Bowen was born in 1913 in Waverly, Tennessee, and died in 1990. He trained at the Menninger Foundation from 1946 to 1954, directed a five-year family study at NIMH in Bethesda from 1954 to 1959, and then spent the rest of his working life at Georgetown University Medical Center — half-time at first, founder of the Georgetown Family Center in 1975, director until his death. He kept a private practice in Chevy Chase. He wanted a science of human behavior, not a school of clever interviews. The diagrams that still cover counseling-program whiteboards are his afterlife. So is the temptation to treat a diagram as fate.
 

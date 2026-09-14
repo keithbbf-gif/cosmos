@@ -8,16 +8,35 @@ tags:
   - Women's Project
 type: figure
 order: 35
-portrait: none
+portrait: "plates/betty-carter/plate.svg"
 citations:
   - "Walters, Marianne, Betty Carter, Peggy Papp, and Olga Silverstein. The Invisible Web. 1988."
   - "Smith College. Betty Carter papers finding aid."
 status: draft
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "d. 2012"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: betty-carter.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/betty-carter/plate.svg"
+    alt="Typographic history plate for Betty Carter (d. 2012) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Betty Carter</strong> (d. 2012) — Betty Carter (d. 2012): Ackerman training, the Women's Project (1977), Family Institute of Westchester (1977–1997), The Invisible Web (1988), and a midlife social worker who changed a field's faculty math.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/betty-carter/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Betty Carter died in 2012. She had taken a B.A. in 1950, spent fifteen years in a nonprofit educational organization, earned an M.S.W. at Hunter in 1971, trained at the Ackerman Institute from 1970 to 1972 with Olga Silverstein under Peggy Papp, and in 1977 both co-founded the Women's Project in Family Therapy and became director of the Family Institute of Westchester, a post she held until 1997. Smith College holds her papers. The finding aid is a primary source this pack prefers to workshop lore.
 

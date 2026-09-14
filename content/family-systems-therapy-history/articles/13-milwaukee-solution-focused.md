@@ -18,9 +18,27 @@ citations:
 status: draft
 voice_check: human
 last_verified: 2026-09-14
+lead_asset: "assets/era/milwaukee-solution-focused/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: milwaukee-solution-focused.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/milwaukee-solution-focused/lead-timeline.svg"
+    alt="Editorial timeline for Milwaukee: what was already working."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Milwaukee: what was already working</strong> — Steve de Shazer and Insoo Kim Berg in Milwaukee brief therapy.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 In 1978, in Milwaukee, Steve de Shazer and Insoo Kim Berg founded the Brief Family Therapy Center. They had MRI in their rearview mirror: Weakland, Fisch, Watzlawick, a taste for shortness, a distrust of excavation. They spent the 1980s asking a different first question. Not "what maintains the problem?" so much as "when is the problem not happening, and what are you doing then?" *Patterns of Brief Family Therapy* (1982), *Keys to Solution in Brief Therapy* (1985), and *Clues* (1988) are the books that made "solution-focused" a phrase agencies could put on a flyer. The phrase is easy to parody. The parody exists because a miracle question, taken out of a supervised hour and dropped into a staff meeting, sounds like a greeting card.
 

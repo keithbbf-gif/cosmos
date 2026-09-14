@@ -18,9 +18,27 @@ citations:
 status: draft
 voice_check: human
 last_verified: 2026-09-14
+lead_asset: "assets/era/wiltwyck-philadelphia-structure/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: wiltwyck-philadelphia-structure.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/wiltwyck-philadelphia-structure/lead-timeline.svg"
+    alt="Editorial timeline for Wiltwyck to Philadelphia: structure as a clinical word."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Wiltwyck to Philadelphia: structure as a clinical word</strong> — Salvador Minuchin moves structure from a boys' school to Philadelphia Child Guidance.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 In 1965 Salvador Minuchin left the Wiltwyck School for Boys, a residential school in Esopus, New York, and became director of the Philadelphia Child Guidance Clinic. He was forty-four, Argentine-born, trained at the William Alanson White Institute in Sullivan's interpersonal psychiatry, and already convinced that a long interpretive hour did not reach the action-oriented boys Wiltwyck housed. With Dick Auerswald, Charles King, Braulio Montalvo, Clara Rabinowitz, and later Bernard Guerney, Bernice Rosman, and Florence Schumer, the Wiltwyck group had installed a one-way mirror and taken turns learning how to interview families. *Families of the Slums* (1967) is the book of that experiment. *Families and Family Therapy* (1974) is the book that made "structure" a word students could underline.
 

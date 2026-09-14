@@ -8,7 +8,7 @@ tags:
   - solution-focused
 type: figure
 order: 31
-portrait: none
+portrait: "plates/insoo-kim-berg/plate.svg"
 citations:
   - "Berg, Insoo Kim, and Scott D. Miller. Working with the Problem Drinker. 1992."
   - "Berg, Insoo Kim. Family Based Services. 1994."
@@ -17,9 +17,28 @@ citations:
 status: draft
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1934–2007"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: insoo-kim-berg.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/insoo-kim-berg/plate.svg"
+    alt="Typographic history plate for Insoo Kim Berg (1934–2007) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Insoo Kim Berg</strong> (1934–2007) — Insoo Kim Berg (1934–2007): Seoul pharmacy, American social work, MRI, Milwaukee's Brief Family Therapy Center — a path the field still flattens into a coauthor line.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/insoo-kim-berg/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Insoo Kim Berg was born in Korea in 1934 and died in 2007. She trained in pharmacy in Seoul, then in social work in the United States, then at the Mental Research Institute, then, with Steve de Shazer, founded the Brief Family Therapy Center in Milwaukee in 1978. The general psychotherapy pack already gives her a figure essay in a wider counseling frame. This pack is the family-systems deep lane. It will not reprint that essay. It will say, at more length, why Milwaukee without Berg is a misunderstanding.
 

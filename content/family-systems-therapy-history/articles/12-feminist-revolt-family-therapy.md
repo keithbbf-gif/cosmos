@@ -18,9 +18,27 @@ citations:
 status: draft
 voice_check: human
 last_verified: 2026-09-14
+lead_asset: "assets/era/feminist-revolt-family-therapy/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: feminist-revolt-family-therapy.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/feminist-revolt-family-therapy/lead-timeline.svg"
+    alt="Editorial timeline for The feminist revolt inside family therapy."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>The feminist revolt inside family therapy</strong> — How feminist therapists challenged family therapy's gender scripts.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 In June 1978 *Family Process* printed Rachel T. Hare-Mustin's "A Feminist Approach to Family Therapy." She was then at Villanova, writing from inside a field that had spent twenty years celebrating "the system" without asking who washed the system's dishes. The paper said the quiet part: family therapy recognized social context and then ignored the particular context called the status of women. Stereotyped sex roles were being reinforced in the hour and called neutrality, or structure, or strategy. Two years later she published "Family Therapy May Be Dangerous for Your Health" in *Professional Psychology*. The second title is not a joke. It is a research program.
 

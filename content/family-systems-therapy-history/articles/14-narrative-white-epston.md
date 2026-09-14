@@ -18,9 +18,27 @@ citations:
 status: draft
 voice_check: human
 last_verified: 2026-09-14
+lead_asset: "assets/era/narrative-white-epston/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: narrative-white-epston.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/narrative-white-epston/lead-timeline.svg"
+    alt="Editorial timeline for Adelaide and Auckland: narrative means."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Adelaide and Auckland: narrative means</strong> — Michael White and David Epston and the narrative turn in family work.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 In 1990 W. W. Norton published *Narrative Means to Therapeutic Ends*, by Michael White of Adelaide and David Epston of Auckland. The book treated problems as stories that had recruited a person, and it looked for the hours the story did not win. White had already been building the Dulwich Centre in Adelaide (from 1983) into a place that published, trained, and argued. Epston had been writing letters to families from the Family Therapy Centre in Auckland as if a letter could be a clinical act. Together they gave family therapy a Southern Hemisphere accent and a politics: against the expert who owns the meaning, against the thin story a file tells about a child.
 

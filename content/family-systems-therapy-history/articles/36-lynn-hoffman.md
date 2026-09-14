@@ -9,7 +9,7 @@ tags:
   - postmodern
 type: figure
 order: 36
-portrait: none
+portrait: "plates/lynn-hoffman/plate.svg"
 citations:
   - "Hoffman, Lynn. Foundations of Family Therapy. 1981."
   - "Hoffman, Lynn. Exchanging Voices. 1993."
@@ -17,9 +17,28 @@ citations:
 status: draft
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1924–2017"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: lynn-hoffman.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/lynn-hoffman/plate.svg"
+    alt="Typographic history plate for Lynn Hoffman (1924–2017) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Lynn Hoffman</strong> (1924–2017) — Lynn Hoffman (1924–2017): Foundations of Family Therapy (1981), a receiving station for Milan in America, and a career that moved from strategy toward collaborative postmodernism.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/lynn-hoffman/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Lynn Hoffman was born in 1924 and died in 2017. She published *Foundations of Family Therapy* in 1981 — a book that mapped the field while the field was still arguing with itself — and then spent later papers walking away from the strategic certainties the map had included. She is one of the American receiving stations for Milan. She is also one of the people who told the truth about how a receiving station changes the signal.
 

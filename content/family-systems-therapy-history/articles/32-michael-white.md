@@ -8,7 +8,7 @@ tags:
   - narrative therapy
 type: figure
 order: 32
-portrait: none
+portrait: "plates/michael-white/plate.svg"
 citations:
   - "White, Michael. Selected Papers. 1989."
   - "White, Michael, and David Epston. Narrative Means to Therapeutic Ends. 1990."
@@ -16,9 +16,28 @@ citations:
 status: draft
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1948–2008"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: michael-white.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/michael-white/plate.svg"
+    alt="Typographic history plate for Michael White (1948–2008) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Michael White</strong> (1948–2008) — Michael White (1948–2008): Adelaide, the Dulwich Centre (1983), Narrative Means to Therapeutic Ends (1990), and a politics the franchise keeps leaving at the airport.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/michael-white/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Michael White was born in 1948 in Adelaide and died in 2008 in San Diego, after a workshop — a public fact reported at the time. He built the Dulwich Centre (from 1983) into a place that published, trained, and argued. With David Epston he published *Narrative Means to Therapeutic Ends* in 1990. The book treated problems as stories that had recruited a person, and it looked for the hours the story did not win. He had read Foucault. He cared about the practices through which people get made into cases.
 

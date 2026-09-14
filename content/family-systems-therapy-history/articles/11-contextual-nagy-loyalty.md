@@ -16,9 +16,27 @@ citations:
 status: draft
 voice_check: human
 last_verified: 2026-09-14
+lead_asset: "assets/era/contextual-nagy-loyalty/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: contextual-nagy-loyalty.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/contextual-nagy-loyalty/lead-timeline.svg"
+    alt="Editorial timeline for Invisible loyalties: contextual therapy."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Invisible loyalties: contextual therapy</strong> — Ivan Boszormenyi-Nagy on loyalty, ledgers, and contextual fairness.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 Ivan Boszormenyi-Nagy was born in Budapest in 1920, came to the United States in 1950, and spent the decades that made family therapy famous at the Eastern Pennsylvania Psychiatric Institute in Philadelphia and in a language that never quite sounded like Palo Alto. With Geraldine Spark he published *Invisible Loyalties* in 1973. With Barbara Krasner he published *Between Give and Take* in 1986. He died in 2007. The words he left — loyalty, entitlement, ledger, relational ethics, multidirected partiality — are easy to turn into a poster. They were meant as a claim about justice between generations, not as a poster.
 

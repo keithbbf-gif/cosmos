@@ -15,6 +15,8 @@ Do not write to live wowtherapies.com from this folder.
 | `BIBLIOGRAPHY.md` | Consolidated citations |
 | `PORTRAIT_SOURCES.md` | PD/CC or honest blank |
 | `PHOTO_NOTES.md` | Image rules; no fake faces |
+| `RIGHTS.md` | Rights manifest for all graphics |
+| `GRAPHICS_INDEX.md` | Era / figure asset register |
 | `WP_IMPORT.md` | Staging import only |
 
 ## Required YAML on each article

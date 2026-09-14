@@ -8,15 +8,34 @@ tags:
   - strategic therapy
 type: figure
 order: 27
-portrait: none
+portrait: "plates/cloe-madanes/plate.svg"
 citations:
   - "Madanes, Cloé. Strategic Family Therapy. 1981."
 status: draft
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "living (verified 2026)"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: cloe-madanes.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/cloe-madanes/plate.svg"
+    alt="Typographic history plate for Cloé Madanes (living (verified 2026)) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Cloé Madanes</strong> (living (verified 2026)) — Cloé Madanes: Argentina to Philadelphia to Washington, Strategic Family Therapy (1981), and a public career this pack treats with the care due a living writer.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/cloe-madanes/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Cloé Madanes published *Strategic Family Therapy* in 1981. She had worked at the Philadelphia Child Guidance Clinic in the Minuchin years and then, with Jay Haley, at the Family Therapy Institute of Washington, D.C. She was alive at last verification in 2026. Living writers get extra care on this page: public books, public institutional facts, no gossip, no health speculation, no scraped headshots.
 

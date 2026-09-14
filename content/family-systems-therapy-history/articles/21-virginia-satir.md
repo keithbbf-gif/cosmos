@@ -8,16 +8,35 @@ tags:
   - experiential
 type: figure
 order: 21
-portrait: none
+portrait: "plates/virginia-satir/plate.svg"
 citations:
   - "Satir, Virginia. Conjoint Family Therapy. 1964."
   - "Satir, Virginia. Peoplemaking. 1972."
 status: draft
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1916–1988"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: virginia-satir.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/virginia-satir/plate.svg"
+    alt="Typographic history plate for Virginia Satir (1916–1988) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Virginia Satir</strong> (1916–1988) — Virginia Satir (1916–1988): Neillsville to Chicago to MRI to the traveling years — Conjoint Family Therapy (1964), Peoplemaking (1972), and a warmth that needs a warning.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/virginia-satir/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Virginia Satir was born on 26 June 1916 in Neillsville, Wisconsin, and died on 10 September 1988 in California. She trained as a social worker at the University of Chicago, worked at the Illinois Psychiatric Institute, directed family-therapy training at the Mental Research Institute in the early 1960s, and then left the engineer's table for a traveling practice that made her, by the 1970s, one of the faces of a new idea: you do not treat the "identified patient" as if the rest of the table were furniture.
 

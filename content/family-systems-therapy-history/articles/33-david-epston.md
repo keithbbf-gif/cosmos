@@ -8,7 +8,7 @@ tags:
   - narrative therapy
 type: figure
 order: 33
-portrait: none
+portrait: "plates/david-epston/plate.svg"
 citations:
   - "White, Michael, and David Epston. Literate Means to Therapeutic Ends. 1989."
   - "White, Michael, and David Epston. Narrative Means to Therapeutic Ends. 1990."
@@ -16,9 +16,28 @@ citations:
 status: draft
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "living (verified 2026)"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: david-epston.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/david-epston/plate.svg"
+    alt="Typographic history plate for David Epston (living (verified 2026)) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>David Epston</strong> (living (verified 2026)) — David Epston: Auckland, the Family Therapy Centre, letters as clinical acts, Narrative Means to Therapeutic Ends (1990) — a living writer, public books only.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/david-epston/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 David Epston, of Auckland, published *Narrative Means to Therapeutic Ends* with Michael White in 1990 and had already been writing letters to families from the Family Therapy Centre as if a letter could be a clinical act. He was alive at last verification in 2026. Living writers get extra care: public books, public lectures, no gossip, no health speculation, no scraped photographs. A commonly printed birth year is 1944; a later editor should confirm that against a library authority file before a live page treats it as hard fact.
 

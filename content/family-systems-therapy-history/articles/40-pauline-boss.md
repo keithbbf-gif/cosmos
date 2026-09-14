@@ -8,7 +8,7 @@ tags:
   - ambiguous loss
 type: figure
 order: 40
-portrait: none
+portrait: "plates/pauline-boss/plate.svg"
 citations:
   - "Boss, Pauline. Ambiguous Loss. 1999."
   - "Boss, Pauline. Loss, Trauma, and Resilience. 2006."
@@ -16,9 +16,28 @@ citations:
 status: draft
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "living (verified 2026)"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: pauline-boss.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/pauline-boss/plate.svg"
+    alt="Typographic history plate for Pauline Boss (living (verified 2026)) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Pauline Boss</strong> (living (verified 2026)) — Pauline Boss: Ambiguous Loss (1999), a theory of absence without a body or a death certificate — history, not a grief worksheet.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/pauline-boss/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Pauline Boss published *Ambiguous Loss* in 1999, after years of papers that named a kind of grief the field's older ledgers did not know what to do with: a person psychologically gone and physically present, or physically gone and psychologically present. Dementia, disappearance, migration, a soldier missing, a divorce that is not a death — the book made a vocabulary. She was alive at last verification in 2026. Living writers get extra care: public books, public lectures, no gossip, no scraped photographs. A commonly printed birth year is 1934; confirm before a live page treats it as hard fact.
 

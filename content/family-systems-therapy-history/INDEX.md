@@ -89,6 +89,9 @@ Hold any piece that still carries `[CITE NEEDED]` or `[VERIFY]` on a date you wo
 - `BIBLIOGRAPHY.md` — consolidated citations
 - `PORTRAIT_SOURCES.md` — PD/CC files, or an honest "no portrait"
 - `PHOTO_NOTES.md` — how to attach images; never fake a face
+- `RIGHTS.md` — pack rights manifest (PD facsimiles, CC0 SVG, no AI faces)
+- `GRAPHICS_INDEX.md` — register of era timelines and figure plates
+- `graphics_pass.py` — regenerate SVG assets and `<figure>` embeds
 - `WP_IMPORT.md` — staging/import only
 
 ## Review seats

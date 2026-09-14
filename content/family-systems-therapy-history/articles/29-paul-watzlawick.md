@@ -9,16 +9,35 @@ tags:
   - communication
 type: figure
 order: 29
-portrait: none
+portrait: "plates/paul-watzlawick/plate.svg"
 citations:
   - "Watzlawick, Paul, Janet Beavin Bavelas, and Don D. Jackson. Pragmatics of Human Communication. 1967."
   - "Watzlawick, Paul, John Weakland, and Richard Fisch. Change. 1974."
 status: draft
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1921–2007"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: paul-watzlawick.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/paul-watzlawick/plate.svg"
+    alt="Typographic history plate for Paul Watzlawick (1921–2007) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Paul Watzlawick</strong> (1921–2007) — Paul Watzlawick (1921–2007): Villach to Zürich to MRI — Pragmatics of Human Communication (1967), Change (1974), and a European dryness American sincerity still needs.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/paul-watzlawick/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Paul Watzlawick was born on 25 July 1921 in Villach, Austria, and died on 31 March 2007 in Palo Alto. He studied in Venice, spent time at the C. G. Jung Institute in Zürich — a fact that surprises readers who know him only as the cool author of paradox — and joined MRI in 1960. With Janet Beavin Bavelas and Don Jackson he published *Pragmatics of Human Communication* in 1967. With Weakland and Fisch he published *Change* in 1974. He also wrote smaller, meaner, funnier books about how people make themselves miserable with excellent reasons. Those books are public. This page will not turn them into a self-help list.
 

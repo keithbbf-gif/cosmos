@@ -19,9 +19,27 @@ citations:
 status: draft
 voice_check: human
 last_verified: 2026-09-14
+lead_asset: "assets/era/after-the-mirror-race-class-consent/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: after-the-mirror-race-class-consent.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/after-the-mirror-race-class-consent/lead-timeline.svg"
+    alt="Editorial timeline for After the mirror: race, class, consent, and the tape."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>After the mirror: race, class, consent, and the tape</strong> — Race, class, and consent after the one-way mirror became ordinary.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 Palo Alto filmed. Philadelphia filmed. Milan sat a team behind glass. The one-way mirror is the totem of family therapy's heroic decades: a household on one side, science on the other. The totem always had a class. The people most often watched were not the people most often hired to watch. Minuchin noticed the mismatch at the Philadelphia Child Guidance Clinic and tried to change the staff. Nancy Boyd-Franklin, Celia Falicov, Harry Aponte, and Kenneth Hardy spent later decades writing what the glass had not wanted to see. Consent forms got longer for a reason that is not a joke about lawyers.
 

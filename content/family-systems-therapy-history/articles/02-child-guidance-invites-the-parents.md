@@ -17,9 +17,27 @@ citations:
 status: draft
 voice_check: human
 last_verified: 2026-09-14
+lead_asset: "assets/era/child-guidance-invites-the-parents/lead-period-object.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: child-guidance-invites-the-parents.lead-period-object -->
+<figure class="wow-figure wow-figure--era wow-figure--period-object">
+  <img
+    src="../assets/era/child-guidance-invites-the-parents/lead-period-object.svg"
+    alt="Typographic facsimile of the title page of The Individual Delinquent, William Healy, M.D., 1915 — public domain, no photograph."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>The Individual Delinquent</strong> (1915) — Social-work home visits and court clinics that made the parent a file.
+    <span class="figure-credit">PD period object (facsimile for staging). Public domain (U.S. publication 1915). See <code>assets/era/child-guidance-invites-the-parents/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 In 1909, on the edge of Chicago's juvenile court, William Healy opened the Juvenile Psychopathic Institute. The court wanted to know why a particular child had stolen, run, or gone silent. Healy wanted a file that was thicker than a police blotter. Within a few years the institute's method — medical exam, psychological tests, a social history taken in the home — had a name that traveled: child guidance. The child was still the patient. The parents had already been invited, whether they knew the invitation was an examination.
 

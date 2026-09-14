@@ -20,9 +20,27 @@ citations:
 status: draft
 voice_check: human
 last_verified: 2026-09-14
+lead_asset: "assets/era/schizophrenogenic-theories/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: schizophrenogenic-theories.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/schizophrenogenic-theories/lead-timeline.svg"
+    alt="Editorial timeline for When the theory prosecuted the mother."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>When the theory prosecuted the mother</strong> — The era when family language could accuse a mother — and clinicians argued back.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 In 1948, in the journal *Psychiatry*, Frieda Fromm-Reichmann published "Notes on the Development of Treatment of Schizophrenics by Psychoanalytic Psychotherapy." She was writing from Chestnut Lodge, a private hospital in Maryland that took psychoanalysis into rooms other hospitals called hopeless. Buried in a paper about treatment was a phrase the next twenty years would not bury: the "schizophrenogenic" mother. A word that looked like Greek and behaved like a verdict.
 

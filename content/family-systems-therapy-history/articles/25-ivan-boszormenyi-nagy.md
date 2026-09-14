@@ -8,16 +8,35 @@ tags:
   - contextual therapy
 type: figure
 order: 25
-portrait: none
+portrait: "plates/ivan-boszormenyi-nagy/plate.svg"
 citations:
   - "Boszormenyi-Nagy, Ivan, and Geraldine M. Spark. Invisible Loyalties. 1973."
   - "Boszormenyi-Nagy, Ivan, and Barbara R. Krasner. Between Give and Take. 1986."
 status: draft
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1920–2007"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: ivan-boszormenyi-nagy.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/ivan-boszormenyi-nagy/plate.svg"
+    alt="Typographic history plate for Ivan Boszormenyi-Nagy (1920–2007) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Ivan Boszormenyi-Nagy</strong> (1920–2007) — Ivan Boszormenyi-Nagy (1920–2007): Budapest to EPPI, Invisible Loyalties (1973), Between Give and Take (1986), and a ledger that is not a worksheet.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/ivan-boszormenyi-nagy/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Ivan Boszormenyi-Nagy was born in Budapest in 1920, came to the United States in 1950, and died in 2007. He spent the decades that made family therapy famous at the Eastern Pennsylvania Psychiatric Institute in Philadelphia, in a language that never quite sounded like Palo Alto. With Geraldine Spark he published *Invisible Loyalties* in 1973. With Barbara Krasner he published *Between Give and Take* in 1986. Loyalty, entitlement, ledger, relational ethics, multidirected partiality — the words are easy to poster. They were meant as a claim about justice between generations.
 

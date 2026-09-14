@@ -9,7 +9,7 @@ tags:
   - homeostasis
 type: figure
 order: 19
-portrait: none
+portrait: "plates/don-jackson/plate.svg"
 citations:
   - "Jackson, Don D. The Question of Family Homeostasis. 1957."
   - "Jackson, Don D., ed. The Etiology of Schizophrenia. 1960."
@@ -17,9 +17,28 @@ citations:
 status: draft
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1920–1968"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: don-jackson.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/don-jackson/plate.svg"
+    alt="Typographic history plate for Don D. Jackson (1920–1968) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Don D. Jackson</strong> (1920–1968) — Don D. Jackson (1920–1968): Chestnut Lodge to Palo Alto, family homeostasis (1957), MRI (1958/59), and a short career that built an institute and a journal.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/don-jackson/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Don deAvila Jackson was born on 2 January 1920 and died on 29 January 1968. In those forty-eight years he trained at Chestnut Lodge in the interpersonal climate of Harry Stack Sullivan, returned to Palo Alto, sat on Bateson's communication project, published "The Question of Family Homeostasis" (1957), founded the Mental Research Institute in 1958 (some later pages say 1959), edited *The Etiology of Schizophrenia* (1960), helped launch *Family Process* (1962), and put his name on *Pragmatics of Human Communication* (1967) with Watzlawick and Beavin. The institute outlived him. So did a certain sentence: a symptom can be part of how a family stays the same.
 

@@ -8,15 +8,34 @@ tags:
   - experiential
 type: figure
 order: 24
-portrait: none
+portrait: "plates/carl-whitaker/plate.svg"
 citations:
   - "Napier, Augustus Y., and Carl Whitaker. The Family Crucible. 1978."
 status: draft
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1912–1995"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: carl-whitaker.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/carl-whitaker/plate.svg"
+    alt="Typographic history plate for Carl Whitaker (1912–1995) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Carl Whitaker</strong> (1912–1995) — Carl Whitaker (1912–1995): Emory, Wisconsin, The Family Crucible (1978), and symbolic-experiential work that could wake an hour or license a chaos.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/carl-whitaker/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Carl Whitaker was born in 1912 in Raymondville, New York, and died on 21 April 1995. He worked at Emory, then at the University of Wisconsin, and became, with Virginia Satir, the name students say when they mean experiential family therapy that did not come from MRI's cooler paradox. With Augustus Napier he published *The Family Crucible* in 1978. The book used a composite family. This series will not rewrite that composite as if it happened in Arkansas. Published case material is a text. It is not your neighbor.
 

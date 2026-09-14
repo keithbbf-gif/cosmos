@@ -9,7 +9,7 @@ tags:
   - multisystems
 type: figure
 order: 38
-portrait: none
+portrait: "plates/nancy-boyd-franklin/plate.svg"
 citations:
   - "Boyd-Franklin, Nancy. Black Families in Therapy: A Multisystems Approach. 1989."
   - "Boyd-Franklin, Nancy, and Brenna Hafer Bry. Reaching Out in Family Therapy. 2000."
@@ -17,9 +17,28 @@ citations:
 status: draft
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "living (verified 2026)"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: nancy-boyd-franklin.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/nancy-boyd-franklin/plate.svg"
+    alt="Typographic history plate for Nancy Boyd-Franklin (living (verified 2026)) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Nancy Boyd-Franklin</strong> (living (verified 2026)) — Nancy Boyd-Franklin: Black Families in Therapy (1989), a multisystems book, and a living writer who refused to treat racism as a cultural note at the bottom of a genogram.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/nancy-boyd-franklin/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Nancy Boyd-Franklin published *Black Families in Therapy: A Multisystems Approach* in 1989. The book treated kinship, church, agency, and racism as present-tense structure, not as a "cultural note" at the bottom of a genogram. She was alive at last verification in 2026. Living writers get extra care: public books, public academic posts, no gossip, no scraped photographs.
 

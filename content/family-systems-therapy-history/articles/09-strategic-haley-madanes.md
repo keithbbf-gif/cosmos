@@ -18,9 +18,27 @@ citations:
 status: draft
 voice_check: human
 last_verified: 2026-09-14
+lead_asset: "assets/era/strategic-haley-madanes/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: strategic-haley-madanes.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/strategic-haley-madanes/lead-timeline.svg"
+    alt="Editorial timeline for Strategic therapy: Haley, Madanes, and the directive."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Strategic therapy: Haley, Madanes, and the directive</strong> — Jay Haley and Cloé Madanes on directives, power, and brief strategic work.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 Jay Haley was born in 1923 in Midwest, Wyoming, and died in 2007 in San Diego. Between those dates he became the writer other family therapists read when they wanted to be less sentimental. *Strategies of Psychotherapy* (1963) treated therapy as a situation with a power problem, not as a confession booth. *Uncommon Therapy* (1973) made Milton Erickson's hypnosis and paradox available to people who would never become hypnotists. *Problem-Solving Therapy* (1976) and the Washington years with Cloé Madanes made "strategic" a school you could train in. The school is easy to parody as tricks. The parody exists because some of the tricks worked on the page better than they worked on a frightened family.
 

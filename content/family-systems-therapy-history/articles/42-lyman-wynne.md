@@ -8,15 +8,34 @@ tags:
   - schizophrenia research
 type: figure
 order: 42
-portrait: none
+portrait: "plates/lyman-wynne/plate.svg"
 citations:
   - "Wynne, Lyman C., Irving M. Ryckoff, Juliana Day, and Stanley I. Hirsch. Pseudo-Mutuality in the Family Relations of Schizophrenics. 1958."
 status: draft
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1923–2007"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: lyman-wynne.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/lyman-wynne/plate.svg"
+    alt="Typographic history plate for Lyman C. Wynne (1923–2007) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Lyman C. Wynne</strong> (1923–2007) — Lyman C. Wynne (1923–2007): NIMH, Rochester, Pseudo-Mutuality (1958), and a career that had to walk toward genetics and communication after a paper the culture used as a verdict.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/lyman-wynne/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Lyman C. Wynne was born in 1923 and died in 2007. In 1958, with Irving Ryckoff, Juliana Day, and Stanley Hirsch, he published "Pseudo-Mutuality in the Family Relations of Schizophrenics" in *Psychiatry*. The paper named a brittle, too-agreeable surface in some interviews at NIMH. It was a careful observation. It became, in careless hands, another way to say the house was sick and the patient was its symptom. He spent later decades walking toward communication research and genetics both. A career can revise itself. A phrase, once loose in the culture, does not.
 

@@ -8,7 +8,7 @@ tags:
   - strategic therapy
 type: figure
 order: 20
-portrait: none
+portrait: "plates/jay-haley/plate.svg"
 citations:
   - "Haley, Jay. Strategies of Psychotherapy. 1963."
   - "Haley, Jay. Uncommon Therapy. 1973."
@@ -16,9 +16,28 @@ citations:
 status: draft
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1923–2007"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: jay-haley.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/jay-haley/plate.svg"
+    alt="Typographic history plate for Jay Haley (1923–2007) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Jay Haley</strong> (1923–2007) — Jay Haley (1923–2007): Midwest, Wyoming, to Family Process, Philadelphia, and Washington — Strategies of Psychotherapy (1963) and a career spent refusing other people's churches.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/jay-haley/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Jay Haley was born on 19 July 1923 in Midwest, Wyoming, and died on 13 February 2007 in San Diego. He was the youngest name on the 1956 double-bind paper and the first editor of *Family Process* (1962–1969). He wrote *Strategies of Psychotherapy* (1963) as if therapy were a situation with a power problem. He wrote *Uncommon Therapy* (1973) as if Milton Erickson were a family therapist's secret ancestor. He wrote *Problem-Solving Therapy* (1976) as if a Tuesday needed a plan. He worked at MRI, at the Philadelphia Child Guidance Clinic, and at the Family Therapy Institute of Washington, D.C., with Cloé Madanes. He never sounded grateful to a school for long.
 

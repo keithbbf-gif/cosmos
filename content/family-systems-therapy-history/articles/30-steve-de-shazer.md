@@ -8,7 +8,7 @@ tags:
   - solution-focused
 type: figure
 order: 30
-portrait: none
+portrait: "plates/steve-de-shazer/plate.svg"
 citations:
   - "de Shazer, Steve. Patterns of Brief Family Therapy. 1982."
   - "de Shazer, Steve. Keys to Solution in Brief Therapy. 1985."
@@ -18,9 +18,28 @@ citations:
 status: draft
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1940–2005"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: steve-de-shazer.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/steve-de-shazer/plate.svg"
+    alt="Typographic history plate for Steve de Shazer (1940–2005) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Steve de Shazer</strong> (1940–2005) — Steve de Shazer (1940–2005): Milwaukee's Brief Family Therapy Center, Keys to Solution (1985), and a brief method that is easy to parody and hard to do without becoming a cheerleader.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/steve-de-shazer/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Steve de Shazer was born in 1940 and died in 2005. With Insoo Kim Berg he founded the Brief Family Therapy Center in Milwaukee in 1978. He wrote *Patterns of Brief Family Therapy* (1982), *Keys to Solution in Brief Therapy* (1985), and *Clues* (1988). He had MRI in his rearview mirror and Wittgenstein on the desk. He wanted a therapy that did not pretend to see behind language. He liked exceptions, small changes, and the idea that you do not need a cathedral-theory of the problem in order to build a solution.
 

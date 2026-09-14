@@ -9,7 +9,7 @@ tags:
   - couples
 type: figure
 order: 37
-portrait: none
+portrait: "plates/sue-johnson/plate.svg"
 citations:
   - "Greenberg, Leslie S., and Susan M. Johnson. Emotionally Focused Therapy for Couples. 1988."
   - "Johnson, Susan M. The Practice of Emotionally Focused Couple Therapy. 1996."
@@ -17,9 +17,28 @@ citations:
 status: draft
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "living (verified 2026)"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: sue-johnson.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/sue-johnson/plate.svg"
+    alt="Typographic history plate for Sue Johnson (living (verified 2026)) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Sue Johnson</strong> (living (verified 2026)) — Sue Johnson: emotionally focused couple therapy as a dated late-century school, Hold Me Tight (2008), and a living writer this pack will not turn into a worksheet.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/sue-johnson/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Sue Johnson (also published as Susan M. Johnson) built emotionally focused couple therapy in Ottawa and later at training sites that include Alliant, with outcome papers from the 1980s onward and a public book, *Hold Me Tight*, in 2008. She was alive at last verification in 2026. Living writers get extra care: public books, public academic posts, no gossip, no health speculation, no scraped workshop photographs. A commonly printed birth year is 1947; confirm before a live page treats it as hard fact.
 
