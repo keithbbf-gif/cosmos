@@ -3,7 +3,7 @@ title: "Turney Church Furniture, Harrison"
 slug: turney-church-furniture-harrison
 status: draft
 voice_check: human
-word_count: 1558
+word_count: 1291
 dek: "Claude Turney opened a garage shop in 1946 and, for twenty years, shipped laminated oak pews from Harrison. The company called itself the largest exclusive church-furniture maker in the western hemisphere. In 1968 it went to auction."
 series: arkansas-furniture-factories-history
 topic: statewide
@@ -28,6 +28,7 @@ verify:
   - "Encyclopedia of Arkansas (Welky): TWP 1946–1968; First Church of the Nazarene first job; red and white oak; 100+ employees mid-1950s, 300+ later; Plants A/B/C 48k/18k/20k sf; >1,000 churches/year mid-1960s; $3 million sales 1965; trucks and private airplanes; Kentucky Colonel and Arkansas Traveler 1967; sale to Tulsa men June 1967; closed March 18, 1968; bankruptcy March 22; auction June 1968."
   - "Company newsletter boast 'largest exclusive church furniture manufacturer in the western hemisphere' is their 1965 sentence, not ours."
   - "Do not invent a surviving pew in a named sanctuary without a photograph rights path."
+  - "Encyclopedia: Camp Orr for Boy Scouts among Turney’s civic projects; L. E. Durand as receiver. Confirm Camp Orr’s tie before a caption that names the camp as a Turney site."
 ---
 
 In 1946, the same year Herman Udouj put Riverside on a Fort Smith letterhead, Claude H. Turney opened Turney Wood Products in a Harrison garage. The first job, the *Encyclopedia of Arkansas* says, was furniture for the First Church of the Nazarene in town. For more than twenty years the company took red and white oak out of the Ozarks and laminated it into pews, altars, pulpits, lecterns. A 1965 newsletter said they had become “the largest exclusive church furniture manufacturer in the western hemisphere.” That is their sentence. I will not make it mine. I will make it a document.
@@ -36,28 +37,38 @@ In 1946, the same year Herman Udouj put Riverside on a Fort Smith letterhead, Cl
 
 Harrison is not Fort Smith. Boone County is a different ridge, a different labor pool, a different customer: congregations, Air Force chapels, a crew that flew and drove to install what the plants had only partly assembled. By the mid-1960s, the Encyclopedia says, they were building and installing for more than a thousand churches a year, more than three million dollars in 1965 sales, more than three hundred people, three plants, a truck fleet, private airplanes. Forest to finished product, the newsletter boasted. That boast, if it held, is the opposite of a High Point showroom. It is a vertical that ends in a sanctuary, not in a dealer.
 
-## Laminated oak as a theology of the shop
+## Three plants, one oak diet
 
-A pew is a long, abused bench. Lamination is how you get length and a curve without waiting for a mythical timber. Ozark oak — the Encyclopedia specifies red and white — is the same diet Fort Smith knew, minus the gum majority of the 1912 statewide furniture table. Church furniture can show oak and be proud. It does not need Circassian theater. The object is already wearing a costume.
+Mid-1950s: more than a hundred workers. Later: more than three hundred, split across Plant A at 48,000 square feet, Plant B at 18,000, Plant C at 20,000. Eighty-six thousand square feet is not a garage. It is a campus that still called itself, in the company’s own telling, a shop that ran every timber activity from the forest to the finished product.
 
-Installation is the second factory. The pieces left Harrison unfinished as a room. A crew finished the room in someone else’s town. That is closer to millwork than to a crated dresser. It is why airplanes appear in a furniture history without being silly. Time on the road was the product.
+Ozark oak — the Encyclopedia specifies red and white — is the same diet Fort Smith knew, minus the gum majority of the 1912 statewide furniture table. Harris and Maxwell counted 15,373,000 board feet of furniture wood in Arkansas that year, ninety-five percent red gum and white oak. Church furniture can show oak and be proud. It does not need Circassian theater. The object is already wearing a costume. A pew is a long, abused bench. Lamination is how you get length and a curve without waiting for a mythical timber.
+
+Installation is the second factory. The pieces left Harrison unfinished as a room. A crew finished the room in someone else’s town. That is closer to millwork than to a crated dresser. It is why airplanes appear in a furniture history without being silly. Time on the road was the product. Air Force chapels in the mid-1960s customer list are the same product in a different uniform: a room that must seat a crowd and look finished on a schedule.
 
 <!-- PHOTO: fig-02 D:\BBF\BBF Photos — empty industrial floor or a reused plant wall (filename pending shop pull) -->
 
 ## The prizes and the sale
 
-1967: Kentucky Colonel, Arkansas Traveler, a National Academy award the Encyclopedia records. Civic air. June 1967: controlling interest sold to three Tulsa businessmen. March 18, 1968: operations suspended. March 22: bankruptcy. May: reopen under a receiver, with cuts. June 28: the contract with Local 2746 loses in federal court. June: auction. Plant A, 48,000 square feet, still in use in the twenty-first century, not for manufacturing. Plants B and C gone.
+1967: Kentucky Colonel, named by Kentucky governor Edward T. Breathitt; Arkansas Traveler, named by Arkansas governor Orval E. Faubus; a National Academy of Industry and Commerce award the Encyclopedia records for citizenship, ability, and integrity. Civic air. Turney was also active in northwestern Arkansas projects, including help developing Camp Orr for Boy Scouts. I have not walked Camp Orr as a Turney site. I will leave the camp as a civic credit the Encyclopedia is willing to print, not as a factory annex.
 
-I have already used the union year in another essay. Here the sequence is the factory’s whole life in two pages. Founded in a garage the year the war ended. Dead as a maker twenty-two years later. The prizes sat in the same twelve months as the sale. That is not irony I need to underline. It is a calendar.
+June 1967: controlling interest sold to three Tulsa businessmen. The *Harrison Daily Times*, in Welky’s additional-information list, had already reported the acquisition that June. March 18, 1968: operations suspended. March 22: bankruptcy. L. E. Durand appointed operating receiver. May: reopen, with cuts. June 28: the contract with Local 2746 loses in federal court. June: auction. Plant A still in use in the twenty-first century, not for manufacturing. Plants B and C gone.
+
+Founded in a garage the year the war ended. Dead as a maker twenty-two years later. The prizes sat in the same twelve months as the sale. That is not irony I need to underline. It is a calendar. The Encyclopedia’s cause-clause is modest: financial difficulties due, in part, to being over-extended. Over-extended is a factory word. It means trucks, plants, airplanes, and a thousand churches a year can be a larger machine than the orders will feed.
 
 ## Comments as a second source class
 
 The Encyclopedia’s comment thread, which a later editor should treat as leads, has a salesman’s child and a brother’s child remembering jets and Scottsdale. That is family weather. It does not audit the three million. It does prove the company occupied a class of people who flew. Furniture history that only looks at sanders will miss that class. Furniture history that only looks at that class will miss the sanders. Turney had both. The newsletter bothered to notice women in finish. The court bothered to notice the local. The comments bother to notice the pool in Arizona. Keep all three.
 
+Do not promote a comment into a payroll. Do not name a living person as a source unless an editor has asked them. The thread is a pointer toward the Turney Family Collection Welky cites as privately held in Harrison. That collection, if it is opened, is the next document after the Encyclopedia.
+
 ## What Fort Smith is not
 
-Do not write Turney as a satellite of the riverfront. Do not write Riverside as a church house. 1946 is a coincidence of returning men and available oak, not a conspiracy of founders. The statewide pack exists because the Fort Smith story, told alone, becomes a monopoly on “Arkansas furniture.” Harrison made a different object for a different room and died on a different docket.
+Do not write Turney as a satellite of the riverfront. Do not write Riverside as a church house. 1946 is a coincidence of returning men and available oak, not a conspiracy of founders. Riverside’s customer was a dealer. Turney’s customer was a congregation. Sound-Craft, on Petit Jean, would later claim lecterns from 1947. Do not merge the lecterns. Harrison’s lecterns sat in a pew line. Morrilton’s lecterns, in the later public copy, sat in a presentation-furniture line. Marks are how this history stays out of the antique-forum business.
 
-A present-tense shop that has never laminated a pew should not caption a cutting board as church heritage. If an editor later finds a Turney pew with a plate, photograph the plate. Until then, the Encyclopedia entry is the plate.
+The statewide cluster exists because the Fort Smith story, told alone, becomes a monopoly on “Arkansas furniture.” Harrison made a different object for a different room and died on a different docket. A present-tense shop that has never laminated a pew should not caption a cutting board as church heritage. If an editor later finds a Turney pew with a plate, photograph the plate. Until then, the Encyclopedia entry is the plate.
+
+Welky’s additional-information list is a local paper trail: Archie Lantz in the *Harrison Daily Times*, February 16, 1953, on Claude Turney developing a major Harrison industry; a June 1, 1967, notice that Tulsa businessmen had acquired the firm; a March 20, 1968, closing story. I have not held those pages. I will leave them as the next documents after the Encyclopedia. They are how a garage shop became, in a hometown paper, a major industry, and how a major industry became a shutdown notice two days after the floor stopped.
+
+1946 is a cluster year: Riverside’s letterhead, Turney’s garage, St. Joe’s kiln completed. Harrison’s object was a sanctuary. Fort Smith’s object was a dealer suite. St. Joe’s object was a frame and a powder box. The oak was the shared hinterland. The customer was not. Keep the customers labeled. A thousand churches a year, if the mid-1960s count holds, is a different industrial rhythm than a riverfront row selling through stores. Installation crews sleeping in other towns are the rhythm. Airplanes are the expensive version of the same clock.
 
 Still frame: a pew end, oak, a little chewed by belts and bulletins, no stained-glass bokeh. If we only have a rail in a Warren shop, say it is analog and not Harrison. The airplanes are gone. The boast is yellow. The oak, in some sanctuary, may still be taking a hymn. That is a factory afterlife that does not need a showroom.
