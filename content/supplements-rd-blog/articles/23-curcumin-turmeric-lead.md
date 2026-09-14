@@ -77,6 +77,13 @@ Piperine: yes or no. If yes, the interaction warning is 12-point, not a footnote
 
 A kitchen-spice photo on a gram-class curcuminoid capsule is bait. Food turmeric and a 1,500 mg extract are different articles. The Las Vegas MMWR lot was a market spice at 2,000 mg/kg. Your capsule is the same metal if you bought the same powder.
 
+
+## Finished-product math a buyer can repeat
+
+ppm in the powder is not the number a child eats. Convert: (ppm × grams per serving) = mcg per serving. A 1 g capsule at 2 ppm lead is 2 mcg. Prop 65's reproductive MADL for lead has long been 0.5 mcg/day — `[VERIFY]` the live OEHHA figure. A "conforms to USP" line that never does this multiplication is how a kitchen-spice scandal becomes a capsule scandal.
+
+Ask for ICP-MS, not AAS-only, on a botanical you already know is a chromate risk. Ask for the LOQ. A non-detect above the MADL is not a non-detect you can live with. Split-sample a new supplier to a second 17025 lab once. Piece 16 is the COA read. This piece is why turmeric is the teaching botanical.
+
 ## What changed since 2020 (box)
 
 Demand stayed high. Lead stories kept landing because the incentive (color + price) did not die — Las Vegas MMWR 2021 used a 2019 kitchen. A 2026 turmeric SKU that I would ship has ICP-MS metals, a curcuminoid profile (not a single number), no piperine unless the interaction warning is in 12-point type, and no "replaces your NSAID" joke.

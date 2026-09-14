@@ -66,6 +66,15 @@ No CBD SKU is implied here. No cannabis parent company, no "we are waiting for C
 
 If Congress later writes a hemp-food pathway, that will be a dated event and a new counsel memo. Until then, treat "just add 25 mg CBD to the nighttime formula" as a way to lose the nighttime formula.
 
+
+## Delta-8, child packaging, and the warehouse stain
+
+2024 CBD/delta-8 letters were fewer than 2023 in Waldstein's tally (he counted nine, down from the prior year — trade count, not a federal stat). Several were joint FDA/FTC actions on high-dose delta-8 in packaging that looks like candy. One later letter treated child-appealing delta-8 packaging as enough even without a disease claim. `[VERIFY]` the letter number before you put it in a brief.
+
+That is the 3PL problem in this pack (piece 37). A vitamin book that shares a warehouse with intoxicating hemp inherits processor panic, insurance questions, and a children's-gummy adjacency you did not ask for (piece 34). A perfect CBD COA still fails gate 0: FDA's January 2023 sentence is about *status*, not about potency.
+
+"Next cannabinoid" (CBN, CBG, THCA, whatever the broker emails this quarter) inherits the same §201(ff)(3)(B) and §301(ll) questions unless counsel has a different fact pattern. Do not learn that on a launch week.
+
 ## What changed since 2020 (box)
 
 2020: gray market + COVID letters. 2023: FDA closed the supplement-rulemaking door and pointed at Congress. 2024: the Commissioner repeated it on the Hill. The aisle is still full. That is not the same as lawful interstate supplement commerce in FDA's view.

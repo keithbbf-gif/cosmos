@@ -76,6 +76,15 @@ If you drop folic acid because of a Shopify MTHFR story, you are arguing with th
 
 Choline, iodine, iron, and D are the other prenatal nouns that got louder after 2020. `[VERIFY]` ACOG/ODS current choline language. Iron belongs in a prenatal and does not belong in a 65+ "women's" multi (piece 26). Those two SKUs should not share art.
 
+
+## What a 23andMe screenshot is not
+
+A common MTHFR variant is not a diagnosis, not a reason to call folic acid toxic, and not a license to put a neural-tube photo on a Shopify page. CDC's folic-acid materials have addressed the variant question in plain language: people with MTHFR variants can still process folic acid. `[VERIFY]` the live wording if you quote it.
+
+FTC 2022 plus the 2023 endorsement guides (piece 13, piece 31) will read a DNA-helix ad as a health claim with a genetic hook. The substantiation file is the fortification trials and the CDC dose — folic acid — unless you are in a clinic arguing a specific exception.
+
+Assay the form you printed. A "methylated prenatal" that lists 5-MTHF and assays as folic acid is a COA problem. mcg DFE on the panel (piece 35). B12 in the same formula, because the UL conversation is about masking deficiency, not about winning a Reddit argument.
+
 ## What changed since 2020 (box)
 
 DTC genetics got cheaper. Methylfolate SKUs multiplied. CDC did not switch the NTD campaign to 5-MTHF. A serious prenatal still starts from ODS/CDC and then argues exceptions, not the other way around.

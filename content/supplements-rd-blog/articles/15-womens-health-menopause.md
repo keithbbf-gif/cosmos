@@ -79,6 +79,15 @@ These are **not** NAMS-approved VMS treatments. They are nutrients or sports ing
 
 Black cohosh (liver warning), ashwagandha in "cortisol / menopause" blends (piece 07), multi-herb dust. Identity of *Actaea racemosa* vs cheaper lookalikes is an ABC-class problem. If you insist on a botanical here, one plant, one extract, one warning set, finished-product HPTLC.
 
+
+## Fezolinetant is the contrast, not a competitor SKU
+
+NAMS 2023 put fezolinetant on the recommended list as a **drug**. That is the point of the map. A supplement PDP that says "natural Veozah" is the berberine/Ozempic joke with a new noun (piece 21). Hormone therapy remains a prescription decision. This pack does not argue it.
+
+What a midlife nutrient book can still do: iron-split multis (piece 26), creatine monohydrate with a training file (piece 06), vitamin D in mcg without an osteoporosis poster (piece 04, piece 27), protein that assays as protein. None of those are VMS treatments. Say so on the page.
+
+Black-cohosh identity (*Actaea racemosa* vs cheaper lookalikes) is an ABC-class problem. If you still sell it after Cochrane 2012 and NAMS 2023, you are selling a traditional herb with a liver-warning conversation — not a hot-flash drug. One plant, one extract, one warning set, finished-product HPTLC. Two hepatotoxic botanicals in one "cortisol menopause" blend is how DILI depositions get written.
+
 ## What changed since 2020 (box)
 
 The 2015 NAMS nonhormone statement was already cool on herbals. 2023 updated the drug side (fezolinetant) and kept supplements off the recommended list. Retail did the opposite and grew the "menopause wellness" set. A science-curious brand can sell creatine, protein, vitamin D, and an honest multi to women over 45 without pretending to be a vasomotor drug. That is the whole map.

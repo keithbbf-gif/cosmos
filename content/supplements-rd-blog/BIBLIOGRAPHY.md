@@ -151,6 +151,7 @@ Real sources used in the drafts. If a draft needed a number we could not pin, th
 - Angelon-Gaetz KA, et al. Lead in spices/herbs, North Carolina. *MMWR.* 2018;67:1290-1294.
 - Shoba G, et al. Piperine and curcumin PK. *Planta Med.* 1998. PMID 9619120 (`[VERIFY]` fold-change before quoting).
 - FDA. NDIN Master Files draft guidance. Announced 3 Apr 2024; 89 FR 23599 (4 Apr 2024); docket FDA-2024-D-0706.
+- GOED Voluntary Monograph — unflavored EPA/DHA oils: PV ≤ 5 meq/kg, p-AV ≤ 20, TOTOX ≤ 26 (TOTOX = 2×PV + p-AV). p-AV/TOTOX not reliable on flavored oils. `[VERIFY]` live version (v9.0 circulated 2026). https://goedomega3.com/
 - USP <467> Residual Solvents.
 - FDA tainted-supplements page. https://www.fda.gov/food/dietary-supplement-products-ingredients/tainted-products-marketed-dietary-supplements
 - FASTER Act (sesame as ninth major allergen, labeling 2023).

@@ -76,6 +76,15 @@ Serving, analyte, lab, LOD/LOQ, comparison to OEHHA safe harbor, warning yes/no.
 
 Sesame since 1 January 2023 is the ninth major allergen. An SOP that lists eight is stale. Undeclared soy lecithin after a clean-label swap is the 2020s classic. Fish vs algae lines (piece 38), bovine vs "vegan collagen" (piece 22), hemp next to vitamins (piece 14) — warehouse rules, not efficacy. Retain samples in *your* closet.
 
+
+## Nine allergens and a memo that ships
+
+FASTER Act: sesame became the ninth major US food allergen, labeling in effect **1 January 2023**. Milk, egg, fish, shellfish, tree nuts, peanuts, wheat, soy, sesame. An SOP that lists eight is stale. FALCPA does not care that the soy lecithin was 0.3% after a "clean label" swap.
+
+Prop 65: serving, analyte, lab, LOD/LOQ, comparison to safe harbor, warning yes/no. Lead's reproductive MADL has long been 0.5 mcg/day — `[VERIFY]` live OEHHA. Do not print "Prop 65 free." Protein (CR 2025, piece 10), turmeric (piece 23), cacao-flavored sticks, collagen scoops (piece 22) are why the memo is not theoretical.
+
+3PL: heat recorders on probiotic and omega-3 trailers; hemp/CBD next to vitamins is a processor panic (piece 14); SARMs sister brands stain the account (piece 32); opened gummy returns are trash. Retain samples in *your* closet. Amazon prep will scrape disease words (piece 12). A missing sesame line that stops a pallet is a favor.
+
 ## What changed since 2020 (box)
 
 Sesame joined the list on 1 January 2023. Prop 65 did not get friendlier. 3PLs got pickier about hemp and about paperwork after the inspection-quiet year. Packaging/shipping is R&D if your formula dies in July freight.

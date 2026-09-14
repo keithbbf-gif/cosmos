@@ -78,6 +78,15 @@ Print EGCG mg. Print caffeine mg. Print with food. Print stop-if-jaundice. Stay 
 
 I would rather sell bagged tea than a burner that needs a deposition.
 
+
+## How a label should talk about a tea that is not a cup
+
+Print the EGCG milligrams. Print caffeine if it is there. Print "take with food." Print "stop and seek care if you notice yellowing of skin or eyes, dark urine, or unusual fatigue" — that is USP-style cautionary language, not a disease claim. Print "not for use in liver disease" as a warning, not as a targeting strategy.
+
+A proprietary "thermogenic blend 800 mg" that does not break out EGCG is how a buyer crosses EFSA's 800 mg/day trial-signal line without knowing. 800 was never a target. The 2018 panel could not set a safe supplement dose below it. Rare idiosyncratic injury exists even with infusions.
+
+If you cannot print those lines, sell bagged tea. If you print "melts fat" next to them, FTC 2022 reads the net impression and the warning does not save the headline (piece 12).
+
 ## What changed since 2020 (box)
 
 The liver file was already there in 2018–2019. The 2020s added more thermogenic SKUs and more social copy. NAMS-style honesty (piece 15) has not reached this aisle. Put the warning on before a retailer or a plaintiff's firm writes it for you.

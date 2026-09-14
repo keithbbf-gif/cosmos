@@ -77,6 +77,15 @@ Child-resistant closure on any iron SKU. Pediatric overdose is why the closure e
 
 Hemochromatosis copy: "not for men or postmenopausal women unless a clinician says so" is a legitimate standalone-iron sentence. "Women's formula" is not a CBC.
 
+
+## Why the 1990s art file is still shipping 18 mg
+
+The RDA split is old. The carton did not get the memo. A shared "women's" die line is cheaper than two formulas until a 62-year-old on a high-meat diet stacks 18 mg for a decade. Hemochromatosis is not rare enough in northern-European ancestry to treat as a footnote — `[VERIFY]` prevalence if you print a rate.
+
+Standalone iron: elemental milligrams, CR closure, "get a lab" line, not-for-men-or-postmenopausal-unless-clinician. Prenatal iron is expected; constipation is expected; bisglycinate is a tolerance conversation, not an anemia-treatment claim.
+
+Gummies that include iron are a critical-error SKU (piece 34). Many kids' lines omit it for that reason. If yours includes it, you need a dose a poison-control card can understand and a closure that actually resists a child. Assay iron. It is cheap to underfill and ugly to overfill.
+
 ## What changed since 2020 (box)
 
 Ferritin TikTok made everyone an amateur hematologist. That is not a reason to put 18 mg in the 60+ bottle. It is a reason to sell a **standalone iron** with a "get a lab" line and an iron-free multi for everyone else.

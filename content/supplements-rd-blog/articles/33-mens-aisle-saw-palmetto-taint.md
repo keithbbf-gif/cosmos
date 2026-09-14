@@ -68,6 +68,17 @@ Saw palmetto adulteration is cheap oil cut into berry extract (ABC BAPP). HPTLC 
 
 PDE-5 analogue screen on any sexual SKU — cousins, not only sildenafil. When a "male pre" works too well, screen before you celebrate. Fenugreek and ashwagandha T-boosters are named extracts or they are dust; ashwagandha still carries a liver file (piece 07). A capsule is not TRT.
 
+
+## What Cochrane 2012 actually closed
+
+Tacklind et al., CD001423: *Serenoa repens* did not improve LUTS/BPH symptoms versus placebo in the analyses that mattered. BPH is a disease. A 2026 PDP that says "clinically proven prostate relief" argues with Cochrane and with 321(g). Later branded-extract papers exist; `[CITE NEEDED]` before you transfer one onto a broker oil. Identity is still HPTLC plus a fatty-acid profile that matches berry.
+
+FDA's tainted-supplements page is not a historical exhibit. Sexual-enhancement and weight-loss SKUs keep landing sildenafil, tadalafil, sibutramine, steroids, SARMs. A screen that only looks for sildenafil misses the analogue. Ask for the analogue panel or do not make the SKU.
+
+"Increases testosterone into the eugonadal range" is a drug-shaped claim. TRT is a prescription practice. Zinc and vitamin D deficiency can sit under low-T labs — that is ODS plus a clinician, not a fenugreek megadose.
+
 ## What changed since 2020 (box)
 
 T-booster ads followed the podcast boom. The Cochrane saw-palmetto conclusion did not move. FDA's taint page kept growing. A serious book stayed boring on purpose.
+
+A shared CMO between the boring book and the bedroom rocket is a deposition you bought on purpose. If the rocket fails a PDE-5 analogue screen, the creatine line sits in the same building. Price them as different businesses or leave the aisle. NSF/Informed-Sport still will not cover "pharmacy in a capsule."

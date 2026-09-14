@@ -70,6 +70,15 @@ HPLC assay, oil vehicle, opaque pack-out, nitrogen if you paid for ubiquinol, re
 
 Print the form (ubiquinone vs ubiquinol). Print the milligrams. Do not print "so you can stay off your statin." AHA/ACC still treat the drug as the intervention. Qu 2018's symptom scores and null CK are the mixed file, not a carton WMD.
 
+
+## What lipid societies did not write
+
+AHA/ACC cholesterol guidance still treats the statin as the intervention. CoQ10 is not in that algorithm as a required add-on. Banach-class earlier metas were more null than Qu 2018. The named RCTs inside those pools (Young, Caso, Bookstaver, Fedacko) disagree on pain scales and on whether people could stay on the drug. That disagreement *is* the file.
+
+A Shopify page that picks the one positive 30-day study and hides the null 12-week study is FTC 2022 net impression. Q-SYMBIO (Mortensen 2014, PMID 25282031) is a heart-failure trial. Heart failure is a disease. Do not go there on a DTC page.
+
+Softgel QA: HPLC, oil vehicle, opaque pack-out, retain at expiry. Ubiquinol after a July 3PL ride is a different article than the COA (piece 37). 30 mg does not inherit 200 mg papers. 200 mg does not inherit Q-SYMBIO.
+
 ## What changed since 2020 (box)
 
 Statins did not get less common. Ubiquinol marketing got louder. Qu 2018 is still the meta people cite; it did not become a guideline. A 200 mg assayed ubiquinone softgel with a boring label is the adult SKU. A "statin rescue" bundle is the letter.

@@ -74,6 +74,15 @@ If you stay in kids' multis: tiny doses, CR packaging, lot assay, no melatonin u
 
 Look-alike art next to real candy is intended use for a toddler. Child-resistant closure. Lot assay. No cartoon on a hormone. Food-first multi only if the diet is actually poor — and `[VERIFY]` any AAP sentence you quote. FTC 2022 + 2023 endorsements apply to the smiling pediatrician actor (piece 31).
 
+
+## Two numbers a brand has to be able to say out loud
+
+Lelak 2022: 260,435 pediatric melatonin ingestions, 2012–2021, a 530% rise, mostly ≤5 years, two deaths in that surveillance window. Cohen 2023: 22 of 25 gummies missed the label; one had no melatonin and 31.3 mg CBD. Together they say the fruit-snack shape is mislabeled and in the house where toddlers eat fruit snacks.
+
+Vitamin A UL is easy to smash when "2 gummies" sits next to a bowl. `[VERIFY]` the live ODS UL for the age band you print. Iron, if present, is the old fatal overdose — CR closure, a dose a poison-control card can read, or omit it. Fat-solubles accumulate. "More gummies = healthier kid" is the ad the 2020s ran.
+
+A smiling pediatrician actor is an endorsement (piece 31). School-grade before/after videos are claims. Exit melatonin for children, or treat it as a drug-adjacent critical-error line: tiny dose, adult art, CR cap, every-lot assay. The peach-ring option funds the next MMWR table.
+
 ## What changed since 2020 (box)
 
 Pandemic routines and sleep panic grew the kids' sleep SKU. MMWR and Cohen made the cost visible. A serious brand either exits pediatric gummies or treats them like a drug-adjacent critical-error line: tiny doses, CR packaging, lot assay, no cartoons on melatonin. The third option — peach rings with 5 mg and a bear — is how you fund the next MMWR table.
