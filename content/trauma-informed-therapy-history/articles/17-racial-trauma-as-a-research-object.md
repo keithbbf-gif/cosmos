@@ -55,6 +55,22 @@ Carter’s later instrument work and collaborators are a research afterlife `[VE
 
 Southeast Arkansas has its own racial history. This series will not write that history as a paragraph of atmosphere. Local history, if WOW ever commissions it, is a different pack with different sources and a human editor who lives there.
 
+## Assessment as a professional strategy, and its limit
+
+Carter 2007 wanted an injury that counseling psychology could assess without pretending every slight is PTSD and without pretending racism is only an opinion. That is a professional strategy. Instruments make a phenomenon discussable. They can also turn a social fact into a score a clinic files and a city ignores.
+
+Fanon’s colonial hospital and Martín-Baró’s wartime psychology are older shadows, already in the counseling-heritage pack. They are why a later American journal could insist the injury is not new, only newly assessable in that discipline’s terms. Mamie Phipps Clark’s mid-century work is another American reminder that psychology has, at times, taken racial injury into a courtroom. Carter is a later, different instrument.
+
+The object is not historical trauma. It is not SAMHSA’s sixth principle wearing a new shirt. Hosting would mean changing who has power in the building. Hiding would mean a bullet on a grant. The 2010s literature grew several names — race-based traumatic stress, racial trauma, racial battle fatigue from another scholarly door. This essay will not police them into one blob.
+
+Summerfield’s question about emptying the word “trauma” is allowed. So is the reply: the word was never as narrow as a 1980 soldier, and the soldier’s chart was already political. Keep both sentences. WOW Therapies will not diagnose a child’s articulation as racial trauma. Racism can still shape who gets referred and whose dialect is treated as a defect. That notice is history. It is not a chart.
+
+## Ninety-three pages in *The Counseling Psychologist*
+
+Carter’s 2007 article is long on purpose. *The Counseling Psychologist* gave race-based traumatic stress a monograph’s room inside a journal: assessment without pretending every slight is PTSD, and without pretending racism is only a feeling. A counseling program that adds the citation to a multicultural week and changes no intake power has hosted the paper and hidden it.
+
+Southeast Arkansas has its own racial history. This national research-object essay will not write that history as décor. Hosting, if a later local piece is commissioned, would mean who gets believed at intake and who has to bring a witness. Until then, keep Carter as 2007, a journal, and a refused collapse into the ACE mural.
+
 ## Sources
 
 Carter 2007; Fanon 1961 as older shadow, not as a method; SMA 14-4884 as later federal host-or-hide. Related: `historical-trauma-indigenous-scholarship`. Cross-link: counseling-heritage Fanon and Clark figures.

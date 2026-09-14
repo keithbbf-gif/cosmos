@@ -53,6 +53,22 @@ This page will not score you. It will not ask you the ten items. It will not tel
 
 The figure essay on Felitti and Anda stays with the collaboration and the obesity-clinic origin story. This era piece stays with the 1998 object: a graded association, a Kaiser sample, a later sticker industry. Trauma-informed care that treats ACE as destiny has not read the paper. Trauma-informed care that pretends childhood adversity is rare has not read it either.
 
+## A Kaiser envelope, not a destiny machine
+
+More than 17,000 insured adults in San Diego mailed a questionnaire about ten coarse categories and allowed those answers to be joined to medical records. The paper reported a graded curve: more categories, more later risk for a list of adult diseases and health behaviors. Epidemiology loves a curve. Clinics love a number. The later love affair is the problem.
+
+The sample is not “America.” It is not a foster-care census. It is not a Lakota grief theory. The categories collapse very different homes. Addition is a public-health convenience and a clinical crudity. The authors did not say that a score of 4 is a diagnosis. Later cities said it for them.
+
+Felitti’s obesity-clinic irritation — patients leaving, childhood sexual abuse arriving in the history — is the origin story he has told in talks. Anda’s CDC address is why the paper could speak the language of leading causes of death. Later talks sometimes sounded more missionary than the 1998 tables. This pack uses the paper when the talk and the paper diverge.
+
+SAMHSA 2014 needed a citation health departments already knew. Harris and Fallot 2001 did not need ACE to redesign a desk. The merger of ACE numbers and trauma-informed posters made grant language easy. Critics said, fairly, that ACE talk can stare at families and skip present wages, racism, and housing. The 1998 sample was not a poor sample. The afterlife often is. A speech clinic that quizzes the ten items to explain a lisp is making a claims mistake and a manners mistake. This URL will not print the items as a self-test.
+
+## After Kaiser: state modules, not a second 1998
+
+Later Behavioral Risk Factor Surveillance System modules asked ACE-like questions in state samples that were not the original Kaiser HMO. Those modules are a public-health afterlife. They are not a second Felitti–Anda paper and they are not a reason to say “the ACE study proves our county.” A state prevalence estimate is a different object with a different sampling story. Keep 1998 as the mailed San Diego envelope and the graded tables in the *American Journal of Preventive Medicine*.
+
+The later “ACE quiz” on a parenting blog is a third afterlife, coarser than the modules and far coarser than the paper. This pack will not score a reader. It will say that a ten-category screen was built for research association, not for a speech-language intake. If a school forwards a score with a referral, write the school’s words and the child’s speech goals. Do not write destiny in the chart.
+
 ## Sources
 
 Felitti, Anda, et al., *AJPM* 1998; SAMHSA SMA 14-4884 as downstream federal use. Figure: `vincent-felitti-robert-anda`. Do not print the ten items as a self-test on this URL.

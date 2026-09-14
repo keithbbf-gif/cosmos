@@ -47,6 +47,22 @@ WOW Therapies evaluates speech and language. A child who has been through a publ
 
 No portrait in this wave. Living person: license and reason required later. Do not use children’s photographs.
 
+## 15 July 1976, a 1979 paper, a 1991 binary that slides loved
+
+Terr is living as of last verification. The Chowchilla kidnapping was public. Twenty-six children, a buried trailer, an escape. Her 1979 follow-up in *The Psychoanalytic Study of the Child* and the 1990 book gave American child psychiatry a dated civilian file that was not a soldier’s chart. The 1991 Type I / Type II outline tried to split a single blow from a long horror. The binary helped people see that foster care and incest are not Chowchilla. The binary also flattered people who wanted a clean box. Real children sit in the smear.
+
+Famous cases distort. They also make journals listen. DTD was refused in 2013. Terr had already given the field a way to talk. Herman’s adult complex PTSD is a cousin, not a parent. NCTSN later carried this literature through a pipe. Terr is not the pipe.
+
+Play and reenactment are in her pages. This series will not turn those pages into a play-therapy how-to. Child-therapy methods have licenses and harms when looted. WOW Therapies evaluates speech. A child who has been through a public or private horror may also have a speech need. The need is still speech. No children’s photographs. No kidnapping reconstruction.
+
+## Courts wanted Type I and Type II to do too much
+
+Terr’s expert-witness years are the part a careful essay mentions and then refuses to retry. Courts wanted Type I and Type II to do more work than a journal article can do. Sometimes a court used the types well (as a way to ask better questions). Sometimes a court used them as a shortcut past the child’s actual chronology. A 2026 clinician citing Terr in a school letter should cite the 1991 paper and the child’s dates, not the courtroom folklore.
+
+San Francisco practice is not New York practice and not Little Rock practice. Terr wrote from a West-coast child-psychiatry world that had its own institutes and its own press. The 1990 trade book carried that world into airports. Airport books get sneered at. They also get read by teachers who will never see *AJP*. Both facts can be true.
+
+If a parent arrives at WOW having read *Too Scared to Cry*, the clinician does not need to agree with every page. The clinician needs to know the book exists and that Chowchilla is a 1976 date, not a metaphor. That is enough history for a speech room. More would be a seminar the parent did not book.
+
 ## Sources
 
 Terr 1979, 1990, 1991. Related: `developmental-trauma-and-the-rejected-chart`, `nctsn-and-the-child-trauma-network`.

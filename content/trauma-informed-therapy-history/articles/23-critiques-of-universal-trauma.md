@@ -54,6 +54,22 @@ WOW Therapies will not use this essay to sound worldly about “the trauma indus
 
 The Summerfield figure essay stays with the 2001 paper and the man. This era piece stays with the pair — Young and Summerfield — as the dissent this series required itself to read before it printed forty-five drafts.
 
+## Assembly is not fraud; export is not an empty ward
+
+Young sat in a VA unit and watched a diagnosis being taught. He did not say the veterans were pretending. He said the category is a cultural and institutional achievement, assembled from railway spine, shell shock, Kardiner, Horowitz, a veterans’ movement, and a manual that wanted checkable criteria. Astronomy is also assembled. The difference is that PTSD decides who is paid and who is believed.
+
+Summerfield is good for the airport: a checklist translated, a political catastrophe scored, an NGO that bills the hour and skips the house. He is less good as a solvent. “Invention” in a headline can be heard, by a person injured last year, as an accusation. A staged history refuses that hearing without refusing the paper. Social usefulness cuts both ways.
+
+Shephard 2001 is the military historian’s cousin: more files, still unwilling to let psychiatry own the century’s nerves. Universal precautions, as manners, are often right. As analysis they can become a way not to think. A stroke is not a rape. A late talker is not a veteran. A Lakota grief group is not a Kaiser quiz. Overdiagnosis — everything is trauma, therefore nothing is — is a real clinic complaint. Underdiagnosis is the older complaint this pack has told since 1915. A history that only has one complaint is a faction.
+
+WOW Therapies will not use this essay to sound worldly about “the trauma industry.” A sneer at trauma talk on a parent-facing site is a different injury. Keep the rooms distinct. Do not sell a pamphlet as a method. Do not use a *BMJ* essay as a reason to ignore a child.
+
+## Shephard 2001 is the readable military cousin
+
+Ben Shephard’s *A War of Nerves* is a synthesis of soldiers and psychiatrists across a century. Young 1995 is an ethnography of a diagnosis being assembled and taught. Summerfield 2001 is a short export argument in a general medical journal. Three dissent doors. A faction that only has Young will call every flinch a fashion. A faction that only has SAMHSA will call every pamphlet revealed text.
+
+This pack kept all three on the calendar so the federal card cannot finish the story. Assembly is not fraud. Export is not an empty ward. Burgess’s emergency room and Brave Heart’s 1998 papers do not vanish because a critic is good. WOW will not use dissent to sound worldly on a parent-facing page, and will not use a pamphlet to end a quarrel.
+
 ## Sources
 
 Young 1995; Summerfield 2001; Shephard 2001. Related: `refugee-torture-and-the-harvard-program`, `vietnam-dsm-iii-and-the-va-form`. Figure: `derek-summerfield`.

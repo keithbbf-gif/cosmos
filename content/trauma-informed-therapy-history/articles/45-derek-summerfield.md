@@ -46,6 +46,38 @@ This page will not tell you PTSD is fake. It will not tell you it is a natural k
 
 No portrait in this wave. Living author: license and reason required later. Prefer type.
 
+## A general medical journal, 2001, pages you can check
+
+The *BMJ* is not the *Journal of Traumatic Stress*. Summerfield placed “The Invention of Post-Traumatic Stress Disorder and the Social Usefulness of a Psychiatric Category” where internists, surgeons, and public-health readers would see it (322, 2001, 95–98). That address is part of the argument. He wanted a category’s *use* debated outside the trauma society that had organized around the category.
+
+*Invention* in a headline is easy to hear as a sneer at a rape survivor or a child who cannot sleep. This page refuses that hearing without refusing the paper. Social usefulness cuts both ways. A category can pad an NGO budget and skip land reform. It can also name an injury a family preferred to call personality. Young 1995 is the thicker cousin — an ethnography of a diagnosis being taught. Shephard 2001 is the readable military-psychiatry synthesis. Do not elect a president of dissent.
+
+Without this figure the series is a brochure for SMA 14-4884. With only this figure the series empties Burgess’s emergency room. The refugee essay already walked his trouble through Mollica’s clinic. Keep the chairs in the picture. WOW will not use him to sound worldly about “the trauma industry” on a parent-facing page. `[VERIFY]` a born-year if an editor wants one. Living author of a 2001 paper. Prefer type. No claim that PTSD is fake. No claim that it is a femur.
+
+## Use is the title’s second noun, and the one to keep
+
+*Social usefulness* is the phrase that earns the paper a place on this
+calendar. Who a category serves. What it organizes. What it lets an
+institution skip — land, law, a landlord, a house. Those questions are
+why a WOW pack that could have been a brochure kept a 2001 critic. They
+are also why the paper cannot be allowed to empty an emergency room or
+a Lakota grief intervention with the word *invention*.
+
+Humanitarian psychiatry in the 1990s already argued about Western modules
+and local categories. Summerfield’s *BMJ* essay is one English-language
+door onto that argument, aimed at doctors who do not subscribe to JTS.
+Mollica’s clinic is one place the argument has to walk through. Young’s
+monograph is the thicker shop. Shephard is the military synthesis. Keep
+the chairs. Prefer type. No parent-facing worldly sneer. No help denying
+a claim. No born-year invented for a sidebar.
+
+A later editor who wants a second Summerfield object can look for his other
+*BMJ* and humanitarian-psychiatry essays from the same years — and must
+`[VERIFY]` each title before printing it. This draft will not invent a
+second byline to look complete. One 2001 essay is enough to keep the pamphlet
+from finishing the story. Enough is a virtue in a series that already has
+forty-five doors.
+
 ## Sources
 
 Summerfield 2001; Young 1995 as thicker cousin. Era essay: `critiques-of-universal-trauma`. Related: `refugee-torture-and-the-harvard-program`.

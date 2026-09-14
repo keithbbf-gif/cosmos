@@ -46,6 +46,24 @@ WOW Therapies is a speech-language practice. Naming Harris and Fallot on a histo
 
 No portraits in this wave. Living people: license and reason required later.
 
+## Issue 89 is a serial, not a Sinai
+
+*New Directions for Mental Health Services* was a Jossey-Bass quarterly. Number 89 (Spring 2001) sat between other numbers about other problems. That bibliographic fact is the opposite of a founding myth. A clinic director in 2001 could subscribe, read Harris and Fallot’s design argument, and still spend Monday on housing and court dates. The volume traveled because quarterlies travel: they fit a bag, they have an issue number, they do not require a federal contract.
+
+What the issue actually asked a reader to redesign was dull on purpose. How many times does a person tell the worst day before anyone offers a service. Who sits in the first chair. Whether the waiting room is a pen. Whether staff can refuse a practice that recreates a threat. Those are furniture questions. They are also why “empowerment” in their five values cannot be sold like a spa. Choice in a building that can still call the sheriff is a constrained word. SAMHSA’s later **Empowerment, Voice and Choice** is a renamed federal echo of that constraint, not a completion of it.
+
+Faith-and-recovery essays in Fallot’s other publications are a separate file. Do not baptize the 2001 systems book with them. Harris’s women’s-services work is a separate file. Do not make her the only author. One slug, two names, a city agency, a quarterly. If a later editor wants a death date this draft missed, correct the living line. Do not invent a eulogy. WOW naming the pair is not a claim that ten SAMHSA domains have been implemented in Monticello.
+
+## A door that stayed open after the quarterly left
+
+Community Connections as a long project — not a one-year grant — is the institutional fact most slogan-histories omit. A model that only lives in a consultant’s slide deck dies when the consultant’s flight leaves. Harris and Fallot stayed in a building with a door. The 2001 *New Directions* issue is what traveled. The building is what taught them what to write.
+
+Fallot’s later interviews sometimes emphasize implementation humility: principles without coaching become posters. Harris’s later interviews sometimes emphasize women’s services that already knew the principles and did not need a man from a federal agency to baptize them. Both emphases belong. A history that only has one becomes a brand war.
+
+WOW will not become Community Connections. The usable inheritance is the 2001 question set, already named in the paired era essay. This figure page exists so the question set has authors who can be thanked without being turned into mascots.
+
+“Envisioning a Trauma-Informed Service System,” their chapter inside issue 89, is the essay most later slides compress into five words. Compression is how a design argument becomes a poster. The chapter is about intake, space, staff, and retelling. Read the chapter if you cite the words. A jail consultant who has not read the constraint on *choice* is selling a spa word to a locked building.
+
 ## Sources
 
 Harris & Fallot 2001; SMA 14-4884 as later echo. Era essay: `harris-fallot-service-systems`. Cousin: `sandra-bloom`.

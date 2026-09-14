@@ -56,6 +56,16 @@ WOW Therapies is a speech-language practice. Mutism after terror has a long medi
 
 Myers later regretted how loosely the public used his phrase. Inventors of names often do. The regret is part of the artifact. Once a word is out, armies and newspapers do what they want with it. “Trauma-informed” is learning the same lesson in a quieter register.
 
+## Boards, faraday, and the word the Army hated
+
+Myers’s February 1915 paper offered three early cases. The public heard “shell” and imagined a single blast. Clinicians already knew some of the men had been terrified in quiet sectors, buried, or simply finished. The British Army’s dislike of the name was not a scientific disagreement first. It was a pension disagreement. A word that sounds like an injury is a word a board may have to pay.
+
+Other labels — war neurosis, NYD(N), “lack of moral fibre” — did different moral work. Some implied a lesion. Some implied a character. Faraday treatment and shame are in the file next to Rivers’s listening. This series will not reconstruct the electrical rooms as instructions. The historical fact is the split: some doctors thought fear should be punished, some thought it should be heard, and the treasury thought both kinds of doctor were expensive.
+
+Shephard 2001 is the synthesis that keeps Owen’s poetry from eating the files. Poetry is how a later public remembered speechlessness as an injury. Files are how a board decided whether a tremor was “organic.” A trauma-informed *system* that only has the poetry will romanticize. A system that only has the board will sneer. 1915 contains both errors — over-naming and under-naming — if you are willing to see them.
+
+After 1918 the word receded. That recession is decommissioning, not a mystery of nature. The people who still woke at night were not decommissioned. Korea and the early Vietnam years reused old arguments under kinder bills. 1980 reversed the trick: commissioning a category so hard that later critics asked whether the West had begun to medicalize ordinary political suffering. Both tricks can be true in different rooms. This essay’s dated job is the first trick.
+
 ## Sources
 
 Myers 13 February 1915 and subsequent *Lancet* notes; Rivers 1918; Shephard 2001. Figure essays: `w-h-r-rivers`. Next official renaming: `vietnam-dsm-iii-and-the-va-form`.

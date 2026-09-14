@@ -52,6 +52,24 @@ Mollica is a living author as of last verification; treat *Healing Invisible Wou
 
 The critiques essay returns to Summerfield. This piece keeps the clinic in view so the critique cannot pretend the waiting room was empty.
 
+## Scales, kitchens, and the Istanbul door
+
+The Harvard Trauma Questionnaire tried to make the unspeakable countable: events, symptoms, translations argued over. Counting funds programs and shows who is missing. Counting also turns a life into a score. Mollica’s 2006 book keeps returning to food, work, and ordinary dignities a symptom list does not capture. The shop that built a scale also kept saying the scale is not the person. That internal tension is the interesting historical object.
+
+Torture-treatment centers and the later Istanbul Protocol sit in a medico-legal room: evidence for a court or a commission, not psychotherapy, not SMA 14-4884. Do not file an affidavit under a six-principle card. Do not file a six-principle card under an affidavit.
+
+Summerfield 2001 aimed at the export style: a PTSD module that leaves land, law, and the landlord to someone else. Grant him the trouble without granting him an empty waiting room. People who have been tortured sleep badly. Some want a clinician. Some want a job and a passport. A decent program notices the order of those wants.
+
+Interpreters, asylum clocks, and detention are Harris–Fallot problems with worse furniture. WOW Therapies may meet interpreter and accent questions as a speech clinic. A refugee torture history is not a reason to invent a program the clinic does not run. If a later editor wants one honest sentence, it is about how to refer, not about how to treat. `[VERIFY]` a single HPRT founding year if a footnote wants one; the work accumulated across the 1980s.
+
+## Sequence of rooms, and who owns the story
+
+The 1980s refugee clinic sat at an awkward junction of specialties. Infectious-disease doctors wanted parasite panels. Orthopedists wanted films of old fractures. Psychiatrists wanted to know if this was PTSD or depression or both. Interpreters wanted to know whether the session would be recorded. Lawyers wanted a letter that a judge would accept as evidence of past persecution. The same person sat in all of those rooms. A trauma-informed reading of that clinic does not collapse the specialties. It asks whether the *sequence* of rooms re-creates the interrogation schedule the person already survived: wait, strip, answer, wait again.
+
+Mollica’s later writing on the “trauma story” is easy to misread as a request for confession. The more careful reading is archival. The story is a document the person owns. The clinician is a scribe with a duty not to lose the file, not a priest with a duty to extract it. That distinction matters when a WOW clinician writes a letter for a family whose child is in speech therapy and whose parent is in an asylum proceeding. The letter can say what the clinician observed. It cannot say what the parent has not asked to have said.
+
+UNHCR and IOM trainings in the 2000s and 2010s borrowed the SAMHSA four R’s without always citing them. Borrowing is not theft when the principles are public. It is a problem when the slide deck claims a local clinic “is trauma-informed” because the deck was shown once. A history of HPRT is a history of *practice under constraint*: too many languages, too few hours, too much paperwork. That is closer to a rural Arkansas Monday than a Boston grand-rounds fantasy.
+
 ## Sources
 
 Mollica 2006; Summerfield 2001; Young 1995 as category history. Related: `critiques-of-universal-trauma`. Cross-link: counseling-heritage Fanon and Martín-Baró.

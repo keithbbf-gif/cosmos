@@ -47,6 +47,38 @@ WOW Therapies does not treat moral injury. An adult whose speech or swallow chan
 
 No portrait in this wave. Living person: license and reason required later.
 
+## *Themis*, a VA office, and a 2002 homecoming book
+
+Shay translated a veteran’s wrecked trust in command into a Homeric word English readers could hold: a betrayal of “what’s right.” Classicists can argue about *themis*. Clinicians can notice that the 1994 book is written *from* clinic hours, not instead of them. This page cannot invent those hours. It can say they existed, and that *Achilles in Vietnam* is a crossover object because it asked officers and psychiatrists to share a shelf.
+
+*Odysseus in America* (2002) is the homecoming book. Combat is not the only test. Return — work, family, drink, the civilian’s blank face — is the second test. Chaplains found the second book because homecoming is where a VA form is least like a life. Journalists found Homer because Homer is copy. The 2009 Litz and colleagues paper found a researchable model. Three afterlives. This slot keeps the office first.
+
+A later leadership seminar quoting Shay on betrayal may be doing management, not medicine. That is allowed. It is not a progress note. If a veteran at WOW mentions the title, the clinician can nod and stay in the speech task. Nodding is not treating moral injury. Living author: public books only.
+
+## Officers and classicists in the same week
+
+Shay’s later public speaking — including talks that reached officers and classicists in the same week — made *Achilles in Vietnam* a crossover book in a way *Traumatic Neuroses* never was. Crossover books get quoted out of context. A 2010s leadership seminar quoting Shay on betrayal may be doing management, not medicine. That is allowed. It is not the same as a VA progress note.
+
+The Boston VA years after the books included the ordinary work of seeing patients whose names will never be in a preface. A figure page that only cites the books misses the clinic hours. This page cannot invent those hours. It can say they existed, and that the books were written *from* them, not instead of them.
+
+If a veteran at WOW mentions Shay, the clinician can nod at the title and stay in the speech task. Nodding is not treating moral injury. It is refusing to look blank when a patient uses a name the field should have learned in 1994.
+
+## “Undoing of character” is a 1994 subtitle on purpose
+
+The 1994 book’s subtitle puts *character* where a DSM criterion set put
+clusters. That is not sloppiness. Shay wanted a word older than 1980 for
+what a betrayal of “what’s right” does to a person who still has to live
+with himself and with his dead. Character is a moral-psychological word.
+A later research model can operationalize pieces of it. Operationalizing
+is not the same as retiring Homer or retiring the VA office the book was
+written from.
+
+The 2002 homecoming book then asks what a culture does with the person
+who returns. Drink, work, a civilian’s blank face — those are tests the
+1980 criterion set did not grade. Chaplains were already grading them.
+This figure page nods at that fact and stays out of the chapel. WOW nods
+at a title if a veteran uses it, and stays in the speech task.
+
 ## Sources
 
 Shay 1994, 2002; Litz et al. 2009. Era essay: `moral-injury-after-shay`. Related: `robert-jay-lifton`, `institutional-betrayal`.

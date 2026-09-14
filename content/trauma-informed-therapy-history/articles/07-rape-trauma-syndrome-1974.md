@@ -54,6 +54,16 @@ By the 1980s “rape trauma syndrome” had thinned into a phrase lawyers and jo
 
 DSM-III’s 1980 PTSD criteria would absorb some of this civilian work without always citing the ward. That absorption is a success and a slight. Official language is slow and greedy. It takes what it needs for a criterion set. It does not owe a nurse a monument. This pack can owe her a dated essay.
 
+## Ninety-two interviews and a name that went to court
+
+Burgess and Holmstrom’s series was a study, not an essay that later memory turned into an essay. They organized an acute phase and a longer reorganization. They were more careful than some later popularizers to say that women differed — a controlled facade is not proof of absence of injury, and a visible collapse is not the only honest face. Those sentences would be asked to do legal work: why a victim delayed, why she seemed calm, why she knew the man.
+
+Expert testimony under the “rape trauma syndrome” heading has a contested afterlife. This pack will not retry those cases. It will say that a clinical name, once useful to a prosecutor or a defense, inherits the old railway problem. Credibility and compensation — here the compensation is sometimes belief — return.
+
+The ward’s second-injury problem is the systems inheritance. A kit can be care or a second assault. SAMHSA’s later verb *resist re-traumatization* has this night shift as an ancestor even if the pamphlet opens with restraint examples instead. Harris and Fallot’s values read differently at 3 a.m. in an emergency department. Choice is limited. Collaboration with a police officer is not collaboration with a therapist. The 1974 authors were already living those limits.
+
+By the 1980s the phrase had thinned into journalism. Thinning is the usual fate. The original paper’s virtue is the follow-up: they went back. A building that trains once and calls itself finished has learned the phrase and missed the method of the phrase. DSM-III would absorb some of this civilian work without always citing the nurse. Absorption is a success and a slight. This pack can owe her a dated essay without turning WOW Therapies into a forensic program.
+
 ## Sources
 
 Burgess & Holmstrom 1974; Herman 1992 as later hinge; Courtois 1988 as incest-wound cousin. Figure: `ann-wolbert-burgess`. Legal afterlife: treat as contested, not as a how-to for testimony.

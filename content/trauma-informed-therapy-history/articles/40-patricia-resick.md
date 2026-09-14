@@ -44,6 +44,46 @@ This page will not give you a stuck-point log. It will not say CPT will help you
 
 No portrait in this wave. Living person: license and reason required later.
 
+## Sage 1993, then a system that counts completion
+
+The 1993 Sage manual is a civilian, rape-centered cognitive object. Later editions and veteran-adapted therapist manuals are later objects. A 2000s VA clinic that needs a completion number will emphasize the sessions that produce the number. Measurement changes a method. That is not a reason to hide 1993. It is a reason to read implementation papers as history.
+
+Stuck points, impact statements, and worksheets stay off this URL. The 1993 headings — blame, safety, power, esteem, intimacy — are weather in a manual, not a form this series will print. Schnicke remains on the title page. A later group format will try to become the origin story. This slot refuses the swap.
+
+St. Louis university work, then Boston-area VA roles, then guideline citations: the geography is the transmission belt. CPT did not stay in one building the way some psychotherapies do. It moved with system jobs. System jobs are how a rural clinician hears a name without reading Sage. If a patient asks WOW for “the CPT lady’s therapy,” the honest answer is a referral path, not a log. Living author: public manual only. No speech-clinic service claim.
+
+## Schnicke’s name, and a first population that was not the VA
+
+Monica K. Schnicke is easy to drop once “Resick” becomes a guideline word.
+The 1993 title page does not drop her. A history that starts the story in a
+veterans’ clinic has skipped the first population: rape victims, a civilian
+manual, Sage. Later military-sexual-trauma adaptations and veteran therapist
+manuals are later objects. `[VERIFY]` a specific later veteran trial if a
+print page wants a second dated N. This slot can live on 1993.
+
+Foa 1991 remains the neighbor trial, not the boss. Recovered-memory rooms
+remain a different 1990s object. CPT is a cognitive manual for rape-related
+PTSD in that first life. It is not a hypnotic hunt. A parent who arrived
+from a poster should leave with that distinction, not a stuck-point log.
+The worksheet stays in the building licensed to assign it.
+
+## A manual’s first life is a rape-crisis decade
+
+Sage published the 1993 book into a decade that already had Burgess and
+Holmstrom’s emergency-ward name, Herman’s 1992 hinge (owned by the other
+pack), and a memory-wars weather this pack refuses to verdict. CPT’s first
+life sat in that civilian decade. It is a cognitive method for what people
+tell themselves after a rape. It is not the ED hallway and not a recovered-
+memory hunt. Three rooms. One slug.
+
+Later VA completion metrics are a second life. Guideline citations are how
+a rural clinician hears the name. Hearing the name is not a reason for a
+speech-language practice to assign writing. If a later editor wants a
+second dated object — a specific veteran trial, a later therapist-manual
+edition — mark `[VERIFY]` and quote that object’s year. Until then, 1993
+and Schnicke are enough history for this URL. Living author: public manual.
+No outcome promise. No “CPT will help your PTSD.”
+
 ## Sources
 
 Resick & Schnicke 1993; Foa et al. 1991 as neighbor. Related: `edna-foa`, `rape-trauma-syndrome-1974`, `memory-wars-without-a-verdict`.

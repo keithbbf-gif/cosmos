@@ -42,6 +42,35 @@ This page will not assign you homework. It will not tell you PE will help your P
 
 No portrait in this wave. Living person: license and reason required later.
 
+## Penn’s anxiety shop, a 1991 comparison, a 1998 book
+
+The Center for the Treatment and Study of Anxiety at the University of Pennsylvania is an institution, not a letterhead. Students who trained there carried a named exposure package into VA clinics and civilian practices. Some of those students later wrote the critiques. A field that can produce its own critics from inside the training shop is in better shape than a field that imports them from a comment thread.
+
+The 1991 *Journal of Consulting and Clinical Psychology* paper with Rothbaum, Riggs, and Murdock compared cognitive-behavioral procedures with counseling in rape-survivor PTSD. That is a civilian trial in a journal clinicians actually read. The 1998 Guilford book with Rothbaum, *Treating the Trauma of Rape*, is how a later clinic filed the work. A still-later PE therapist manual is a third object. Collapsing the three into “Foa invented exposure” is how a careful career becomes a cartoon. Exposure as a behavior-therapy idea is older than 1991. The 1991 paper is how a rape-survivor literature entered a randomized shop under her name.
+
+“Prolonged” in the later brand is a technical word, not a dare. Homework in that protocol is not homework in speech therapy. Mixing the homeworks is how people get hurt. This page exists to keep the buildings separate. Living author: public trial and public book only. No outcome promise.
+
+## Dissemination is not the 1991 trial
+
+Foa’s later dissemination work — manuals, workshops, international trials — is how PE left Philadelphia. Dissemination is not the same as the 1991 trial. A 2010s workshop in another country is a separate historical event with its own ethics (who pays, who translates, who is left out). Collapsing those events into “Foa invented exposure” is how a careful career becomes a cartoon.
+
+The Center for the Treatment and Study of Anxiety is an institution, not just a letterhead. Students who trained there carried PE into VA clinics and civilian practices. Some of those students later wrote the critiques. That is a healthy field. A field that cannot produce its own critics from inside the training shop will import them from Twitter, which is worse.
+
+A WOW clinician does not need a PE workshop. A WOW clinician needs to know that “prolonged” in the name is a 1991 technical word, not a dare, and that homework in that protocol is not homework in speech therapy. Mixing the homeworks is how people get hurt. This page exists to keep the homeworks in separate buildings.
+
+## Rothbaum stays on the 1991 and 1998 lines
+
+Barbara Olasov Rothbaum is a co-author of the 1991 trial and of the 1998
+Guilford book. Later virtual-reality exposure work associated with her shop
+is a separate historical object. This page will not merge a headset afterlife
+into the 1991 rape-survivor comparison. Collaborators remain on the citation
+because “Foa invented exposure” is already too much cartoon.
+
+Riggs and Murdock belong on the 1991 line as well. A four-author trial is
+how a civilian literature entered a randomized shop. A later international
+workshop is how a brand traveled. Keep the objects stacked, not blended.
+Living authors: public trial, public book. No homework from this URL.
+
 ## Sources
 
 Foa et al. 1991; Foa & Rothbaum 1998. Related: `rape-trauma-syndrome-1974`, `what-trauma-informed-is-not`. Neighbor figure: `patricia-resick`.

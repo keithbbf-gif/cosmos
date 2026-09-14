@@ -55,6 +55,16 @@ WOW Therapies does not specialize in PTSD. A history series on a speech-language
 
 Figley’s 1985 breakfast meeting in Washington and the Atlanta conference later that year are the professional afterparty of the 1980 criterion set. Fields have conferences. They also have gatekeeping. Herman’s complex trauma sat at that gate for decades. The ISTSS essay-of-record in this pack is the Figley figure and the NCTSN institution piece, not a cheer.
 
+## What “outside the usual” was doing in 1980
+
+The first American PTSD criterion set required an event “outside the range of usual human experience.” The phrase later collapsed because usual, for many people, includes violence. It was doing 1980 work: it marked the syndrome as not ordinary misery, not “personality,” not a character flaw a board could dismiss. It also, by accident or by habit, shaped the injury like a soldier. Burgess 1974 and Herman 1992 had to fight that shape.
+
+Horowitz 1976, Lifton 1973, Shatan’s “post-Vietnam syndrome,” Figley’s volumes, and the 2 March 1985 society breakfast are the furniture. Young 1995 sat in a VA unit and watched the furniture being used — taught, practiced, believed. A staged history can grant the assembly without sneering at the achievement. Forms are how modern medicine remembers. Forms are also how it excludes.
+
+DSM-IV and DSM-5 rewrote Criterion A and the clusters. Those rewrites are professional history, not a self-diagnosis table. ICD-11’s later split is a different official admission. Foa 1991, Resick 1993, Shapiro 1989 inherit a researchable object. This pack names those arrivals without homework.
+
+A counselor in a small American city still meets people who are not soldiers and inherits a chart that remembers 1980 more clearly than 1974. Trauma-informed *care* does not require the 1980 code. It does have to know that the code was a political achievement as well as a clinical one. Summerfield 2001 asked about the cost of the achievement when it traveled by aid flight. Keep both rooms.
+
 ## Sources
 
 DSM-III 1980; Horowitz 1976; Lifton 1973; Figley 1985 and ISTSS founding 2 March 1985; Young 1995. Cross-link: counseling-heritage `trauma-lineages`. Next official split: `icd-11-and-complex-ptsd`.

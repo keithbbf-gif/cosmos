@@ -46,6 +46,30 @@ WOW Therapies will not put an ACE form in a waiting room on the strength of this
 
 No portraits in this wave. Two living people: license and reason required later. Do not generate faces.
 
+## Internist, epidemiologist, a mailed form, a later keynote circuit
+
+Felitti is living as of last verification. Anda is the CDC half. The origin story Felitti has told: an obesity clinic, patients leaving, childhood sexual abuse arriving in the history, a decision to count. The 1998 *AJPM* paper is the object. More than 17,000 Kaiser San Diego adults. Ten coarse categories joined to records. A graded curve.
+
+Felitti’s address explains the sample: insured, willing to mail, San Diego enough. Anda’s address explains the leading-causes-of-death prose. Later talks sometimes outran the tables. This pack uses the paper when they diverge. `[VERIFY]` a specific later Anda caution before quoting it as gospel.
+
+The sticker industry forgot the addresses. Cities became “ACE-aware.” SAMHSA needed a citation. Harris and Fallot did not need the score to redesign a desk. Critics said ACE talk can stare at families and skip present wages and racism. The 1998 sample was not a poor sample. The afterlife often is.
+
+WOW Therapies will not put the ten items in a waiting room. Two living people: no portraits. Do not print a self-test on this URL.
+
+## Methods, not a parable
+
+Felitti’s obesity-clinic origin story is now so often told that it risks becoming a parable instead of a methods lesson. The methods lesson is uglier and more useful: a routine question about childhood sex was almost left off because it made people uncomfortable, and the associations appeared anyway. Discomfort is not a reason to skip a variable. It is also not a reason to add the variable to every speech intake. Those are different rooms.
+
+Anda’s CDC career after 1998 included the slow work of repeating the finding in other datasets and warning people not to turn the score into a brand. That warning is part of the authorship. Quoting only the 1998 odds ratios and skipping the later caution is how a good paper becomes a bad mural.
+
+Kaiser Permanente’s closed-system data is a historical condition, not a universal. Southeast Arkansas is not a closed system. A WOW clinician who remembers that will not say “the ACE study proves our county.” The study proves a graded association in a defined adult sample. The county has to be known the county’s way.
+
+## Anda’s later CDC caution is part of the authorship
+
+The 1998 tables are what murals quote. Anda’s later public-health career included repeating the finding in other datasets and warning people not to turn a score into a brand. Quoting only the odds ratios is how a good paper becomes a bad poster. Felitti’s obesity- clinic origin story, told often, is a methods lesson: a question almost left off because it made people uncomfortable still showed an association. Discomfort is not a reason to skip a research variable. It is also not a reason to add the variable to every speech intake.
+
+Kaiser’s closed-system data is a historical condition. Southeast Arkansas is not that system. Seventeen thousand envelopes are not a foster-care census. Ten categories are not a mechanism. Living authors: public paper only. No destiny sentence.
+
 ## Sources
 
 Felitti, Anda, et al. 1998; SMA 14-4884 as downstream use. Era essay: `ace-study-what-it-measured`.

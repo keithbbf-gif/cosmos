@@ -52,6 +52,22 @@ This page will not teach you how to do an oral-mech exam. It will not give a par
 
 If a later editor adds a single cross-link from this essay to a parent guide (“what a first visit is”), the link must not carry a trauma diagnosis. Manners are not a specialty.
 
+## Jaw, gown, interpreter: the pressure points without a protocol
+
+Rehabilitation is intimate. Hands on a jaw. A stranger asking you to fail in public at a walk you used to own. For a person whose body has been treated as an object, the gym and the speech room are not neutral. Saying what you will do before you do it, giving a way to stop, not surprising from behind — those are Harris–Fallot values in ordinary clothes. Ordinary is not a trauma-specific method. An SLP who explains a laryngeal exam is doing manners with a history. An SLP who offers EMDR is off the license.
+
+Burgess 1974 is the ward ancestor. Bloom is the inpatient ancestor. Disability communities asked for consent and explanation before the phrase existed. Trauma-informed talk that pretends to have invented “tell me before you touch me” is stealing from people who used different words.
+
+A stroke patient is not a rape patient. A late talker is not a foster child. Using one noun for every flinch makes the noun cheap and the exam worse. Professional associations issued continuing-education products across the 2010s. `[VERIFY]` any named ASHA page before a public footnote. The historical claim does not need the webinar: by the late 2010s the phrase had reached rehab the way it had reached schools.
+
+WOW Therapies’ live copy offers speech-language work, including cognition, voice, and swallow. It does not offer OT/PT as staffed unless the live site later says so. This essay follows that map. It will not claim ten-domain SAMHSA implementation. A later cross-link to a parent guide must not carry a trauma diagnosis.
+
+## The swallow chair is already an intimate room
+
+A jaw held still, a gown that will not close, an interpreter who was not booked — those are SMA 14-4884 domains (environment, engagement) without a federal site visit. Rehabilitation asks a person to fail in public at a walk or a swallow. Trauma-informed talk in that room is mostly about surprise, clothing, and who is allowed to watch. It is not a PE homework packet and not an ACE quiz on the clipboard.
+
+ASHA pages on trauma-informed service are a later professional afterlife. `[VERIFY]` the page an editor wants to footnote. This pack will not advertise OT/PT rooms the live site does not staff. Speech is the license. Manners at the exam are manners. They do not make the clinic a trauma program.
+
 ## Sources
 
 SMA 14-4884; Burgess & Holmstrom 1974 as the ward ancestor; Harris & Fallot 2001. Related: `what-trauma-informed-is-not`, `sanctuary-model-and-the-ward`. Do not file under Speech Therapy services in WordPress.

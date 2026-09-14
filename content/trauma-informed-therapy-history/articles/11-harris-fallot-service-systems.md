@@ -54,6 +54,22 @@ It does not license a school to call itself trauma-informed because it hung a po
 
 It does not license this page to teach the five values as a script. If you are in danger, call local emergency services. If you want care, use a licensed clinician. If you run an agency, read the 2001 volume and then look at your actual desk, not at a webinar.
 
+## Community Connections, not a webinar
+
+Washington, D.C., community mental health in those years took all comers: poverty, racism, housing, court mandates, substance use, a federal city watching itself. Harris and Fallot wrote from that weather. Choice, in a program that also manages a roof or a judge, is not the choice of a private-pay hour. A later consultant who sells “choice” to a jail has not read the constraint.
+
+The 2001 values are easy to print. Redesign costs money and changes who has power. Posters are cheaper. The book’s more durable sentence is the distinction that keeps dying: a building trying not to add a second injury is not thereby offering prolonged exposure. A clinician certified in a method can still work in a building that humiliates people at the desk.
+
+They wrote about intake, physical space, staff training, and the risk that a program’s own routines — restraints, sudden searches, a dozen retellings — recreate the original injury. Bloom’s Sanctuary Model is the hospital cousin. Figley’s secondary-stress file is the helper cousin. SAMHSA 2014 is the federal echo: four R’s, six principles, ten domains. Echo is not completion.
+
+The catchphrase *What happened to you?* is later popular weather. Do not back-date it into Jossey-Bass. The 2001 ask — understand the person in context; treat many symptoms as adaptations — does not need a 2021 trade title. WOW Therapies may later, after review, describe how it tries not to surprise people at an exam. That sentence would still not be 2001 implemented. It would be manners.
+
+## What a 2001 quarterly could not do
+
+Issue 89 could redesign a waiting room on paper. It could not hire a night clerk, move a bus line, or fire a punitive intake script by itself. Implementation literature after 2001 is full of sites that laminated the five values and kept the script. That failure is part of the history of the idea, not a reason to pretend the book was a webinar.
+
+Community Connections remained a door in a city. Consultants later carried the door’s vocabulary into jails, schools, and primary-care huddles. Some of those rooms needed the vocabulary. Some needed a lawyer. WOW’s usable inheritance is the question set already named in this essay: how many times the worst day is told, who sits first, whether the exam surprises. Not a ten-domain boast. Not a 2001 volume implemented by posting a slug.
+
 ## Sources
 
 Harris & Fallot 2001 (volume and “Envisioning” chapter); SAMHSA SMA 14-4884 as later echo. Figures: `maxine-harris-roger-fallot`. Cousin: `sanctuary-model-and-the-ward`.

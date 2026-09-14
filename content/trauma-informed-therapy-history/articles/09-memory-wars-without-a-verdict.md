@@ -56,6 +56,14 @@ WOW Therapies is a speech-language practice. An SLP who takes a history from a c
 
 McNally 2003 and Freyd 1996 will still be cited against each other in 2026. A staged essay does not have to end the citation war. It has to refuse the cartoon.
 
+## A divided professional report, and a foundation this page will not gossip
+
+The American Psychological Association’s mid-1990s working group on memories of childhood abuse produced a document that could not agree with itself — majority language and dissenting language in one professional object. That is a historical fact about a guild, not a verdict about a family. `[VERIFY]` the printed year and exact title before a footnote. A field that needed a working group already knew it did not have a settled mechanism.
+
+A 1992 foundation organized around the claim that some recovered memories were being produced in therapy became a public actor in talk shows and courtrooms. This page will name the *kind* of actor (an advocacy organization with a scientific-sounding syndrome in its title) and will not narrate the private lives that attached to it in the press. Freyd’s 1996 book remains a public theory. Loftus 1994 remains a public counter-program. Neither book is a license to retry a household on a speech-clinic URL.
+
+Talk-show weather made both files louder than their methods sections. A staged history can turn the volume down without throwing either book out. Child-welfare desks still live in the vise. Language does not dissolve it. WOW will not become a memory clinic to prove it read the decade.
+
 ## Sources
 
 Freyd 1994, 1996; Loftus & Ketcham 1994; McNally 2003; Smith & Freyd 2013 on institutional betrayal (`[VERIFY]` pagination before print). Figure: `jennifer-freyd`. Related: `ferenczi-confusion-of-tongues`, `institutional-betrayal`.

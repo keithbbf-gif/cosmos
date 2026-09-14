@@ -56,6 +56,36 @@ This page will not investigate your campus. It will not help you file a Title IX
 
 Freyd is living as of last verification (2026-09-14). Public papers only. No family gossip. The figure essay repeats that rule.
 
+## Dependence, advertising, and incentives
+
+Betrayal, in this literature, requires a relationship that mattered. A stranger’s cruelty is cruelty. A university that sells safety and then buries a report is a different object. Title IX offices, campus clergy, military commands, and hospital patient-relations desks are the usual American examples. The 2013 title’s “safe haven” is ironic on purpose.
+
+SAMHSA’s *resist re-traumatization* is a cousin verb. Shay’s leadership betrayal is a cousin from war. Harris and Fallot’s warning about programs that recreate injury is a cousin from community mental health. Do not merge the constructs. Do not pretend a laminated card invented the building problem.
+
+The 2013 paper is a framework and a set of associations, not a verdict on every delayed report or every institution. The memory wars taught this field, or should have, that frameworks get looted by people who already know the ending. Later “institutional courage” branding is an afterlife. A building that prints courage and keeps the same counsel script has learned a noun.
+
+WOW Therapies will not borrow the noun to win an IEP meeting on a history URL. School fights have special-education law. They are not automatically 2013 JTS. `[VERIFY]` pagination before a print footnote. If you need to report, use the actual office or the police — and, if you can, an advocate who does not work for the building you are reporting.
+
+## JTS 2013 is a society journal, not a campus verdict
+
+Smith and Freyd placed “Dangerous Safe Havens” in the *Journal of Traumatic Stress* — the ISTSS journal, a shop that already knew PTSD criteria. Putting institutional betrayal there asked a trauma society to look at buildings, not only at events. `[VERIFY]` pagination before a print footnote. A framework and a set of associations is not a verdict on every delayed report and not a Title IX kit.
+
+A diocesan review board, a hospital patient-relations desk, and a campus office share a structure (dependence, advertising, an incentive to keep the file quiet) and do not share a statute. Reporting can cost a person in ways a pamphlet’s “safety” bullet will not name. This URL is not a complaint form. If you need a door, use the actual office, the police, or an advocate who does not cash the building’s check.
+
+## A student-sample paper is not a census of buildings
+
+Smith and Freyd 2013 asked a trauma-society journal to look at institutions.
+The associations they reported came from the samples they had — not from a
+census of every campus, diocese, or hospital. That methods limit is part of
+the object. A later slide that treats the paper as a verdict on “the
+university” has skipped the methods section.
+
+Dependence plus advertising remains the structure worth keeping. A building
+that sells safety and then manages the reporter as the risk is the structure
+in ordinary English. This URL still will not file your complaint. It will
+not score your health from a betrayal item. It will keep 2013 dated so
+“resist re-traumatization” cannot stay a bullet without a building.
+
 ## Sources
 
 Smith & Freyd 2013; Freyd 1996 as the prior theory; SMA 14-4884 as cousin verb. Related: `memory-wars-without-a-verdict`, `moral-injury-after-shay`. Figure: `jennifer-freyd`.

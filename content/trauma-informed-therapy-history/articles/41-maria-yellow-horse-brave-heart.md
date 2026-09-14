@@ -44,6 +44,36 @@ This page will not diagnose a nation. It will not reconstruct a boarding-school 
 
 No portrait in this wave. Living person: license, reason, and the extra care due a scholar whose image is often looted. Prefer type.
 
+## *Smith College Studies in Social Work*, 1998, and a second byline
+
+The venue matters. *Smith College Studies in Social Work* is a social-work journal, not a psychiatric manual and not a public-health questionnaire. Brave Heart’s 1998 article on returning to a sacred path among the Lakota sits in that shop on purpose. A later slide that prints her next to an ACE score and calls the blob “historical” has changed venues without saying so.
+
+The companion 1998 paper with Lemyra M. DeBruyn in *American Indian and Alaska Native Mental Health Research* is the communal citation. Dropping DeBruyn makes a people-sized concept look like a solo invention. Historical unresolved grief is a companion term in that pair, not a synonym for a bad decade in any family. The losses she named did not stop because a journal issued a volume.
+
+Yael Danieli’s 1998 *International Handbook of Multigenerational Legacies of Trauma* is a parallel, plural volume from the same year — many peoples, many authors. Parallel is not a reason to file Brave Heart under Danieli. It is a reason not to pretend 1998 had only one door. WOW’s nearest honest use remains the refusal to analogize a child’s late talk to a nation’s grief. If a family names boarding-school history, write the words they used. Living author: public papers only. No ventriloquy.
+
+## Classrooms far from the first projects
+
+Brave Heart’s later teaching — including work that reached social-work classrooms far from the first Lakota projects — is the transmission belt this figure page still refuses to turn into a celebrity arc. A classroom in 2010 hearing “historical trauma” may never hear her name. That anonymity is both an insult and a measure of success. Ideas that matter get stolen. Ideas that matter also get taught.
+
+The 1998 pairing with DeBruyn is easy to drop when space is tight. Dropping it makes a communal concept look like a solo invention. This page keeps the pairing. Readers who want the communal texture should read that paper next, not a blog summary of this one.
+
+WOW’s nearest honest use remains the one already stated: do not analogize a child’s late talk to a nation’s grief. If a family names boarding-school history, write the words they used. Brave Heart wrote so those words would have a literature. She did not write so a speech clinic could borrow the literature as décor.
+
+## A psychoeducational group is a design, not a speech goal
+
+The 1998 *Smith College Studies in Social Work* paper describes a
+psychoeducational group intervention among Lakota people. Group, education,
+a people, a journal of social work — those four facts are the design. This
+page will not reprint the group’s sequence. It will not offer a “historical
+trauma circle” as a WOW service. Analogizing a child’s late talk to that
+group is the décor this pack already refused.
+
+If a later editor wants a next public document, later Interior boarding-school
+investigative work is government record, not a Brave Heart reprint. Keep 1998,
+two papers, DeBruyn on the second byline. Living author: public papers. No
+celebrity arc.
+
 ## Sources
 
 Brave Heart 1998; Brave Heart & DeBruyn 1998. Era essay: `historical-trauma-indigenous-scholarship`. Related: `racial-trauma-as-a-research-object`.

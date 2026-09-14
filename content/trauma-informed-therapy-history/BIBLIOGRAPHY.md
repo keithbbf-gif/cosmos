@@ -17,6 +17,7 @@ Working list for staged drafts. Prefer the edition named in the article. Do not 
 - Page, Herbert W. *Injuries of the Spine and Spinal Cord without Apparent Mechanical Lesion, and Nervous Shock*. London: J. & A. Churchill, 1883.
 - Janet, Pierre. *L’Automatisme psychologique*. Paris: Félix Alcan, 1889.
 - Janet, Pierre. *The Mental State of Hystericals*. English trans. 1901 (from *L’État mental des hystériques*).
+- Janet, Pierre. *The Major Symptoms of Hysteria*. New York: Macmillan, 1907. (Harvard lectures.)
 - Ellenberger, Henri F. *The Discovery of the Unconscious*. New York: Basic Books, 1970. (Janet chapter still the English door.)
 
 ## Ferenczi and the analytic quarrel
@@ -27,12 +28,17 @@ Working list for staged drafts. Prefer the edition named in the article. Do not 
 
 - Myers, Charles S. “A Contribution to the Study of Shell Shock.” *The Lancet* 185, no. 4772 (13 February 1915): 316–320. (Two further *Lancet* papers followed in 1915–1916.)
 - Rivers, W. H. R. “The Repression of War Experience.” *Proceedings of the Royal Society of Medicine* 11 (1918): 1–20.
+- Kardiner, Abram, with Ralph Linton. *The Individual and His Society*. New York: Columbia University Press, 1939.
 - Kardiner, Abram. *The Traumatic Neuroses of War*. New York: Hoeber, 1941.
 - Krystal, Henry, ed. *Massive Psychic Trauma*. New York: International Universities Press, 1968.
+- Krystal, Henry. *Integration and Self-Healing: Affect, Trauma, Alexithymia*. Hillsdale, NJ: Analytic Press, 1988.
 - Lifton, Robert Jay. *Death in Life: Survivors of Hiroshima*. New York: Random House, 1968.
 - Lifton, Robert Jay. *Home from the War: Vietnam Veterans—Neither Victims nor Executioners*. New York: Simon and Schuster, 1973.
+- Lifton, Robert Jay. *The Nazi Doctors: Medical Killing and the Psychology of Genocide*. New York: Basic Books, 1986.
 - Horowitz, Mardi J. *Stress Response Syndromes*. New York: Jason Aronson, 1976.
+- Figley, Charles R., ed. *Stress Disorders among Vietnam Veterans: Theory, Research, and Treatment*. New York: Brunner/Mazel, 1978.
 - Figley, Charles R., ed. *Trauma and Its Wake*. New York: Brunner/Mazel, 1985.
+- Figley, Charles R., ed. *Compassion Fatigue: Coping with Secondary Traumatic Stress Disorder in Those Who Treat the Traumatized*. New York: Brunner/Mazel, 1995.
 - Figley, Charles R. ISTSS / STSS founding meeting, Washington, D.C., 2 March 1985; first conference Atlanta, September 1985. See ISTSS history pages and Figley’s past-president column.
 - Shay, Jonathan. *Achilles in Vietnam: Combat Trauma and the Undoing of Character*. New York: Atheneum, 1994.
 - Shay, Jonathan. *Odysseus in America: Combat Trauma and the Trials of Homecoming*. New York: Scribner, 2002.
@@ -55,6 +61,7 @@ Working list for staged drafts. Prefer the edition named in the article. Do not 
 - Smith, Carly Parnitzke, and Jennifer J. Freyd. “Dangerous Safe Havens: Trauma, Institutional Betrayal, and Health.” *Journal of Traumatic Stress* 26 (2013): 346–353? `[VERIFY]` pagination; 2013 JTS paper is the usual institutional-betrayal door.
 - Loftus, Elizabeth, and Katherine Ketcham. *The Myth of Repressed Memory*. New York: St. Martin’s, 1994.
 - McNally, Richard J. *Remembering Trauma*. Cambridge, MA: Harvard University Press, 2003.
+- American Psychological Association Working Group on Investigation of Memories of Childhood Abuse. Mid-1990s divided professional report; often cited via later journal printings. `[VERIFY]` exact title and year before a footnote. Do not use this row to narrate private lives.
 
 ## ACE and systems TIC
 

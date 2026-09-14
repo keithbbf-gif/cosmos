@@ -56,6 +56,16 @@ WOW Therapies does not run a VA clinic. An adult in Southeast Arkansas whose att
 
 The figure essay on Kardiner stays with the man: the Columbia training, the later *The Psychological Frontiers of Society* work with Ralph Linton, the long life. This era piece stays with 1941 as a document the later field needed and, for a generation, mislaid.
 
+## The Bronx files and the decade that looked away
+
+Kardiner’s veterans were not acute dressing-station cases. They were men whose fashionable stories were over: jobs that could not stand a startle, marriages that could not stand a dream, a personality contracted around danger. He kept a psychoanalytic education and a physiologist’s stubbornness. The physioneurosis is that stubbornness on the page. Later popular talk that treats 2014 as the year the body entered trauma medicine has not read 1941.
+
+Why did the field not stay built? American psychiatry after 1945 had psychoanalysis at high tide, then new drugs, then community mental health as a promise. A monograph can be right about a body and still lose the decade. Vietnam did not reopen Kardiner as a national project because someone finally found him on a shelf. It reopened the problem because a movement, a set of 1970s books, and a criterion-hungry manual needed a name. Grandfathering happened after the fact.
+
+Young 1995 is unkind, usefully, to straight lines. Kardiner assembled what he had. Assembly is not fraud. The men were not a theory. A systems pack keeps 1941 because “forgetting between wars” is also a library problem: the files did not vanish; the profession’s attention did. Harris and Fallot later asked organizations not to forget the people in front of them. That ask does not need Kardiner. It rhymes with the cost of the forgotten decade.
+
+WOW Therapies does not run a VA clinic. Adult cognition after stroke is a service-page matter. Combat watchfulness is not that page, even when some of the words sound neighboring. Keep the rooms distinct.
+
 ## Sources
 
 Kardiner 1941; Horowitz 1976 as a later academic cousin; Young 1995 on assembly. Next: `vietnam-dsm-iii-and-the-va-form`. Figure: `abram-kardiner`.

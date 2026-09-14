@@ -21,3 +21,5 @@ This pack owns: railway spine; Ferenczi’s 1932 lecture as a trauma document; H
 ## QA
 
 Run `python3 content/trauma-informed-therapy-history/check_pack.py` from the repo root or from this folder. Exit 0 required before a human editor marks `voice_check: edited`.
+
+Writer QA 2026-09-14: 45 articles, 0 errors, `PASS`. Floors: era/institution ≥1,200 words; figure ≥1,000. Status remains `staging` (WordPress Draft only — see `WP_IMPORT.md`). `[VERIFY]` markers stay until a human editor checks the flagged dates and paginations.

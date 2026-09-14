@@ -50,6 +50,18 @@ This page will not diagnose your last car crash. It will not help you sue. If yo
 
 The man is a dated door into industrial shock. The door is enough. We do not need him to be kind, modern, or proto-SAMHSA. We need the 1866 object and the 1883 reply.
 
+## Textbooks, knighthood, and a name juries already knew
+
+Erichsen’s surgical textbooks are why a Victorian jury might already have heard the name before the railway case began. Fame is not a method. It is a courtroom fact. Plaintiffs like a recognizable surgeon. Companies like a recognizable surgeon who will disagree. Page, as surgeon to the London and North Western Railway, is the structural opposite number, not a cartoon villain.
+
+Copenhagen birth, London training, a long University College Hospital life — the biography is ordinary for a successful nineteenth-century operator. The 1866 lectures are the extraordinary object for this pack. He wrote “railway and *other* injuries.” The second half lets a later reader see the train as an example. Industrial accidents, later motors, later blasts would fill the “other.” He did not live to see DSM-III. He had already met the invisible-injury bill.
+
+His physicalism was a bet: something had happened even when the knife found little. Page’s psychologizing was a bet: fear and the lawsuit did more work. The twentieth century ran both bets again under other names. A figure essay can say that without declaring a winner. Young 1995 retrieved him as a rehearsal. Retrieval is not a family tree. It is a historian pointing at compensation, time-lag, and a body that will not display.
+
+No generated wreck. No sobbing stock passenger. If a later editor wants a public-domain portrait, log it in `PORTRAIT_SOURCES.md`. The 1866 title page is enough. WOW Therapies will not put him on a service page. A crash last year is an emergency-department question, not an 1866 lecture.
+
+Walton and Maberly put the lectures between boards in London. A later American reader who meets “railway spine” only as a joke has not opened that imprint. Page’s 1883 Churchill volume is the reply that made fear and the lawsuit visible as competing explanations. Two London medical publishers, two bets, one industrial injury that would not show the knife a fracture. Young retrieved the pair as a rehearsal for later compensation fights. Rehearsal is not ancestry. It is a historian pointing.
+
 ## Sources
 
 Erichsen 1866; Page 1883; era essay `railway-spine-and-industrial-shock`. Young 1995 as later historiographic retrieval.

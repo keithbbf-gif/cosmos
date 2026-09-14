@@ -52,6 +52,20 @@ This page will not give a teacher a de-escalation script. It will not give a par
 
 Arkansas schools and the Southeast Arkansas Education Cooperative are real institutions in the clinic’s working life. This essay will not write their policies for them and will not advertise a partnership the live site does not describe. Local IEP questions belong on service and parent-guide pages, after review — not on a PTSD-adjacent history URL.
 
+## Fluorescent light, and the vise that language does not dissolve
+
+A teacher who understands that “defiance” may be fear is doing something Harris and Fallot would recognize. A teacher told to process trauma in third period is being asked to practice without a license. This series will not blur that line. The better trainings, when they changed anything, changed office referrals, seclusion habits, and how many adults demand the worst story. Those are SAMHSA domains in fluorescent light. The worse trainings taught staff to see trauma everywhere and academics nowhere. A child can be injured and still need phonics. An SLP can say that without sneering at the injury.
+
+Child-protection systems were in the trauma business before the phrase: they also produce trauma — removals, multiple placements, a courtroom a child did not ask for. Ferenczi’s 1932 problem lives here in statute. An agency can over-believe a plot and destroy a safe home. It can under-believe a child and return her to a crime. Trauma-informed language does not dissolve that vise.
+
+NCTSN after 2000 made ignorance harder. It also became a shop window for models with acronyms. This page will not rank them. Arkansas schools and the Southeast Arkansas Education Cooperative are real in the clinic’s working life. This essay will not write their policies or advertise a partnership the live site does not describe. Local IEP questions belong on parent-guide pages after review — not on a PTSD-adjacent history URL.
+
+## Two pipes: school products and child-welfare products
+
+NCTSN’s catalog split, in practice, along buildings. School tip sheets traveled to principals. Child-welfare products traveled to caseworkers. A rural county might meet one pipe and not the other. That is not ignorance as a moral failing. It is a distribution fact. Phonics still exists after a training. So does a seclusion room. The first fact is why an SLP can refuse the “everything is trauma” slide without sneering at a frightened child.
+
+A principal can rename an office and leave the seclusion log untouched. An agency can write six principles into an RFP and leave placement stability untouched. Harris and Fallot would recognize the furniture problem. They would not recognize a speech goal written as a trauma goal. Keep the instruments distinct. Keep the child in the room that was booked.
+
 ## Sources
 
 NCTSN authorization 2000; Felitti et al. 1998; SMA 14-4884. Related: `nctsn-and-the-child-trauma-network`, `ace-study-what-it-measured`, `developmental-trauma-and-the-rejected-chart`.

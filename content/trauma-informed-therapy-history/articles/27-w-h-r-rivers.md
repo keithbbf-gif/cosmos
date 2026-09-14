@@ -51,6 +51,22 @@ WOW Therapies is a speech-language practice. Mutism has many medical and develop
 
 No portrait in this wave. Period photographs exist; log license before use. Do not generate a face. Do not use a film still as if it were 1917.
 
+## Torres Strait, Craiglockhart, and a 1922 death
+
+Rivers was not invented by 1916. The Torres Strait expedition and the nervous-system work are why obituaries lead with anthropology. He arrived at Craiglockhart as a person who already believed that what people say, and cannot say, is data. That habit made him useful to men whose dreams were the war and whose waking life was a board that wanted them back in the line.
+
+He was not typical. Faraday and “lack of moral fibre” are also in the British file. Shephard 2001 keeps the file from becoming a film. Prefer Shephard to the film. “The Repression of War Experience” (1918) describes a treatment that asked some of the war back into talk — carefully, not as a purge. Later abreaction cultures did harm when they treated discharge as a duty. Rivers is not those cultures. He is also not a 2026 workshop.
+
+Pat Barker’s *Regeneration* trilogy returned him to a wide audience. Fiction is not a primary source. If you use Barker, say you are using a novel. He died in 1922, before the next war reused the arguments. Ancestor-claims that put him next to SAMHSA are decoration. The useful inheritance is smaller: a military hospital once treated speechlessness as something other than cowardice, and a physician wrote it down.
+
+WOW Therapies will not file pediatric selective mutism under Rivers. Mutism has many medical and developmental explanations. Period photographs exist; log license. Do not use a film still as if it were 1917.
+
+## Craiglockhart is literature; 1918 is the paper
+
+The hospital that treated Sassoon and, in another bed, the myth of Rivers as a gentle listener is a literary afterlife. *The Repression of War Experience* (Royal Society of Medicine, 1918) is the checkable object: a physician arguing that silencing war memory is a medical problem, not a moral victory. Shephard 2001 is the readable map of how that argument sat among faradic treatment, pension boards, and forgetting.
+
+Do not make Rivers the inventor of talking therapy. Do not make him a mascot for “just listen.” He was an ethnologist and a physician in a British war machine. WOW does not inherit his couch. A speechless veteran in a later American VA is Kardiner’s weather, not automatically Rivers’s student. Keep 1918. Keep the poem off the progress note.
+
 ## Sources
 
 Rivers 1918; Myers 1915; Shephard 2001. Era essay: `shell-shock-pensions-and-forgetting`.

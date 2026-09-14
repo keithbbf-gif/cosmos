@@ -45,6 +45,30 @@ WOW Therapies does not practice Liftonian psychiatry. A speech-language history 
 
 No portrait in this wave. Living person: extra care. License and reason required before any later photograph.
 
+## Two books that made a public, and a career this pack will not swallow
+
+Lifton is living as of last verification. Public books only. *Death in Life* (1968) put Hiroshima survivors into English-language psychiatry as people, not as a mushroom-cloud metaphor. *Home from the War* (1973) gave Americans a picture of Vietnam veterans that refused hero and monster. DSM-III did not “come from” these books. The books helped make a public that could hear the diagnosis.
+
+His method — long interviews, a moral vocabulary that makes some empiricists nervous — is easy to praise and easy to dismiss. 1968 and 1973 are publishing events. Survivor guilt, psychic numbing, and the veteran’s double bind entered sentences a non-specialist could finish. He also wrote about thought reform, Nazi doctors, and cultic formations. Those books are fame. They are not automatically trauma-informed care. Do not file every title under SMA 14-4884.
+
+Chaim Shatan and others were in the same 1970s weather. Do not flatten them into one biography. Shay 1994 took the character-injury half further. Young 1995 remains the unkind useful cousin: categories assemble. Lifton’s pages are one of the pieces.
+
+WOW Therapies does not practice Liftonian psychiatry. A swallow exam is not a rap group. Living person: license and reason required before any later photograph.
+
+## Public intellectual, three populations
+
+Lifton’s public role after the books — interviews, congressional testimony, later writing on apocalyptic violence — made him a public intellectual in a way Kardiner never was. Public intellectuals get used. A 2000s cable segment could cite Lifton in one sentence and a war they wanted to start in the next. The books do not owe those segments anything. A careful clinic citation names the year and the population: Hiroshima 1968, Vietnam 1973.
+
+The “broken connection” theme in his later theoretical work is easy to inflate into a theory of everything. Inflating it is how a good book becomes a bad slide. WOW does not need a theory of everything. It needs the narrower permission: a person whose voice changed after atrocity is not being dramatic. Lifton documented that without asking the person to perform recovery on deadline.
+
+If students only read *Home from the War* as anti-war literature, they will miss the clinical chapters. If they only read the clinical chapters, they will miss why veterans trusted him enough to talk. Both readings belong on the same syllabus. This figure page is the syllabus card, not the seminar.
+
+## *The Nazi Doctors* is a 1986 third object
+
+*Death in Life* (1968) is Hiroshima. *Home from the War* (1973) is Vietnam veterans. *The Nazi Doctors* (1986) is a study of medical killing and the ordinary career that made it possible. Three books, three populations. A cable segment that cites “Lifton” and then a war it wants is not a reading. Name the year and the people.
+
+The later “broken connection” theoretical work is easy to inflate into a theory of everything. Inflating it is how a good book becomes a bad slide. WOW needs the narrower permission: a person whose voice changed after atrocity is not being dramatic. He documented that without a recovery deadline. Living author: public books only. No childhood invented for a sidebar.
+
 ## Sources
 
 Lifton 1968, 1973; DSM-III 1980 as the later official object. Related: `vietnam-dsm-iii-and-the-va-form`, `moral-injury-after-shay`.

@@ -54,6 +54,22 @@ WOW Therapies does not treat moral injury. A speech-language practice may meet a
 
 Shay is living as of last verification (2026-09-14). Public books only. The figure essay stays with the man. This era piece stays with 1994 and 2009 as the years the name became, first, literary-clinical, then researchable.
 
+## From hexameters to a 2009 model
+
+Shay 1994 made moral injury usable: a leadership betrayal of “what’s right,” a wreckage of character that the 1980 criterion set did not exhaust. Shay 2002 took homecoming — the veteran as a dangerous guest, the culture as a set of tests. Litz et al. 2009 operationalized: potential morally injurious events (perpetration, witnessing, betrayal) and outcomes that include shame and withdrawal. Operationalizing invites measures. Measures invite trials. This series will not get ahead of those manuals.
+
+The construct is not PTSD with better public relations. A person can have both. A person can have the shame without the classic cluster. The point of a second name is the second injury. Shay’s stubbornness about command is why a systems pack keeps him. Trauma-informed talk that never mentions leadership betrayal has read a pamphlet and skipped the VA office.
+
+Freyd and Smith’s institutional betrayal rhymes from the civilian side. A university that mishandles a report is not a platoon. The rhyme is the building. Drift in the 2010s took “moral injury” into any compromised shift. A nurse under a cruel staffing ratio may be using the word seriously. A bored office that uses it for a long Tuesday is doing something else. Summerfield’s caution about names that talk about war without talking about the war applies here too. Shay, to his credit, talks about the war.
+
+## Consensus ages; chaplains were already in the room
+
+The 2009 Litz paper is a consensus document, not a commandment. Consensus documents age. Later writers split moral injury into perpetration-based and betrayal-based forms, or into religious and secular forms, or into injury that looks like PTSD and injury that does not. A 2026 reader should treat those splits as *research programs*, not as settled anatomy. The clinical danger is using the newest split as a reason to stop listening to the oldest sentence: “I cannot live with what I did” or “I cannot live with what they did to us.”
+
+Chaplains remain under-cited in the scientific literature and over-present in the actual room. A 2010s VA chapel hour might hold more moral-injury talk than a PTSD clinic that week. That is not an argument against clinics. It is an argument against histories that only count what PubMed counts. WOW is not a chapel. WOW is also not forbidden from noticing when a veteran’s voice work stalls on a word that is also a vow.
+
+If a future DSM or ICD adds a moral-injury code, the code will be a filing tool. It will not retire Homer, and it will not retire the 1994 book that made Homer a VA document. Until then, the honest sentence is the one this essay already used: adjacent construct, growing literature, not a substitute for PTSD and not a license to treat from a blog.
+
 ## Sources
 
 Shay 1994, 2002; Litz et al. 2009. Related: `institutional-betrayal`, `vietnam-dsm-iii-and-the-va-form`. Figure: `jonathan-shay`.

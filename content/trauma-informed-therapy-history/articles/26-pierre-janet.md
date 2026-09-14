@@ -47,6 +47,22 @@ WOW Therapies does not practice Janetian psychotherapy. A child who goes mute in
 
 No portrait in this wave. If a later editor finds a public-domain photograph (many exist), log license and URL in `PORTRAIT_SOURCES.md`. Do not generate a face. Do not use a still from a film.
 
+## Le Havre, the Collège, and a mascot the slides invented
+
+The provincial years at Le Havre matter. He was already watching patients before Paris finished making him famous. He was a philosopher who had decided consciousness could be studied in pieces. The Salpêtrière gave him cases and a public. Charcot’s death in 1893 gave him a colder city. The Collège de France years are the long middle: he kept writing after *hysteria* had become an embarrassment.
+
+Freud took more of the English-language shelf. Ellenberger 1970 is still the door that refuses the erasure. Late-century trauma psychiatry produced ancestor-claims and a mascot who already believed in every later subtype. He died in 1947. He believed in *désagrégation* and *idées fixes*. If you cannot point to 1889 or the 1901 English, do not put him on a “parts” slide.
+
+He used hypnosis. He took long histories. This page will not run a hypnotic method and will not translate him into CBT. The systems rhyme is modest: a building that demands an ordered story will miss the person whose memory arrives as an attack. Rhyme is not lineage. WOW Therapies does not practice Janetian psychotherapy. A mute child in a speech chair has many explanations. Myers and Rivers will say speechlessness is an injury again, in English, under fire. They are not his students.
+
+Public-domain photographs exist. Log license. Do not generate a face. Do not use a film still.
+
+## 1907 Harvard lectures are a third door
+
+*The Major Symptoms of Hysteria* (1907) is Janet in English, on a Harvard stage, explaining to an American medical audience what his clinic had been naming in French. It is not *L’Automatisme* (1889) and not the 1901 translation of *L’État mental des hystériques*. Three doors. Students who only meet him as a 1990s “parts” mascot have opened none of them.
+
+He used hypnosis. That is a historical fact and not an invitation. Ellenberger 1970 remains the English refusal of the erasure. Charcot died in 1893; Janet kept the Collège de France years. American sequences forgot him anyway. Rediscovery without a page number is how slides get made. A mute child in a speech chair has many explanations. This figure will not choose the Salpêtrière’s.
+
 ## Sources
 
 Janet 1889; Janet 1901 English; Ellenberger 1970. Era essay: `janet-and-the-split-off-idea`. Cross-link: counseling-heritage trauma-lineages for the short official map.

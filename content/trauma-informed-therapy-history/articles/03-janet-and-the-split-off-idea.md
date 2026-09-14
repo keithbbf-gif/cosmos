@@ -56,6 +56,16 @@ This page is not a dissociation workbook. It will not teach you to “map parts.
 
 We will not invent a Janet who already believed in ACE scores, SAMHSA’s four R’s, or complex PTSD. He died in 1947. ICD-11’s split of PTSD from complex PTSD is a twenty-first-century chart event. The resemblance is a historian’s observation, not his claim.
 
+## What *L’Automatisme* is, if you actually open it
+
+The 1889 thesis is a general psychology before it is a trauma book. Janet is arguing that consciousness can run in pieces — that a person can do, write, or walk without the “I” that thinks it is in charge. Hysteria, in his picture, is a severe case of a common capacity, made more likely by shock, exhaustion, and a narrowed field of attention. That is why later popular talk that uses “dissociation” for every daydream is both downstream of him and unfair to him. He was more specific and, in another way, more ambitious.
+
+Ellenberger’s warning still earns its keep. English-language training sequences filed Janet as a forgotten Freud. The filing is a professional convenience. It is not a reading. *The Mental State of Hystericals* (English 1901) is the second door: longer case writing, still not a workbook. If you cannot point to one of those two, do not put his name on a slide about “parts.”
+
+American trauma psychiatry’s late-century rediscovery produced ancestor-claims. Ancestor-claims tell you what a 1990s clinic needed from 1889. They do not tell you what Janet thought about ACE scores or ICD-11. He died in 1947. The resemblance between a split-off *idée fixe* and a later reexperiencing cluster is a historian’s observation. It is not his citation of DSM-III.
+
+A systems pack keeps him because a building that demands an ordered story will miss the person whose memory arrives as an attack. That sentence is manners. It is not a license to diagnose from a flinch in a speech chair. WOW Therapies evaluates communication. Silence has many medical and developmental explanations. Janet is one historical reminder that speechlessness has been treated as an injury. Myers and Rivers will say it again under fire. They are not his students.
+
 ## Sources
 
 Janet 1889; Janet 1901 English; Ellenberger 1970. For the figure, see `pierre-janet` in this pack. For the short official map, see the counseling-heritage slug `trauma-lineages`.

@@ -45,6 +45,36 @@ No portrait in this wave. Living person: extra care. Prefer type. Do not generat
 
 `[VERIFY]` 2013 JTS pagination before a print footnote.
 
+## *Ethics & Behavior* 1994 is an unusual door
+
+Betrayal trauma did not first appear in a trauma-society journal. The 1994 paper sat in *Ethics & Behavior* — a venue that already knew dependence, harm, and the problem of what a person can afford to know. That bibliographic oddity is part of the history. A theory about not-knowing as an adaptive response to a needed caregiver is an ethics argument as much as a memory argument.
+
+The 1996 Harvard University Press book is the long form. DARVO, named in 1997 as a pattern (Deny, Attack, Reverse Victim and Offender), is a later coinage this page will mention and will not turn into a checklist for your argument at Thanksgiving. Smith and Freyd 2013 moved the dependence problem from a caregiver to a building. `[VERIFY]` pagination before a print footnote.
+
+Academic psychology still under-counts her when the topic is “memory” and over-counts her when the topic is “campus politics.” Both distortions are facts about the field. A student should read a 1996 chapter before a comment thread. WOW’s use remains clerical: do not make a child carry a parent’s reputation, and do not write the term in a chart unless the family used it. Living author: public papers only. No family gossip. No drop-down menu.
+
+## Institutional Courage is a second act
+
+Freyd’s later Center for Institutional Courage (public-facing work in the 2010s–2020s) is an organizational second act, not a replacement for the 1996 book. Second acts get used to retire first books. This page will not do that. DARVO as a 1997 named pattern and betrayal trauma as a 1994–1996 named pattern remain the bibliographic spine. The Center is a 21st-century delivery system for some of those ideas.
+
+Academic psychology’s citation practices still under-count her when the topic is “memory” and over-count her when the topic is “campus politics.” Both distortions are historical facts about the field, not facts about the 1996 chapters. A student should read a chapter before reading a comment thread.
+
+WOW’s use remains clerical and quiet: do not make a child carry a parent’s reputation, and do not write “betrayal trauma” in a chart unless the term is the family’s. Freyd wrote a psychology. She did not write a drop-down menu for rural EHRs.
+
+## Betrayal blindness is a 1996 companion term
+
+The 1996 book uses *betrayal blindness* for not-knowing that protects a
+needed relationship. It is a companion to betrayal trauma, not a second
+theory and not a courtroom tactic. This page will not diagnose a reader’s
+family with it. It will say that dependence is the hinge: a caregiver who
+is also the danger, later a building that is also the advertised haven.
+Take the hinge away and you have only an event.
+
+DARVO remains a 1997 named pattern, not a Thanksgiving script. The Center
+for Institutional Courage remains a 21st-century delivery system for some
+of these ideas, not a replacement for the Harvard book. Living author:
+public papers. No gossip. No EHR drop-down.
+
 ## Sources
 
 Freyd 1994, 1996; Smith & Freyd 2013. Era essays: `memory-wars-without-a-verdict`, `institutional-betrayal`.

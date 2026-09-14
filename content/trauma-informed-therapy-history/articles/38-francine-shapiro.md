@@ -44,6 +44,36 @@ This page will not describe bilateral stimulation. It will not give you a target
 
 No portrait in this wave. Period photographs exist; log license. Do not generate a face.
 
+## Two journals in 1989, then a shop that certified people
+
+The *Journal of Behavior Therapy and Experimental Psychiatry* paper and the *Journal of Traumatic Stress* paper are the same year and not the same audience. JBTEP is a behavior-therapy address. JTS is the new trauma society’s address. Publishing in both was a strategy: the method wanted a procedure-minded reader and a trauma-field reader. Students who only cite a later trade book miss that double door.
+
+What followed was an institute and, later, a professional association with its own membership rules. This page will not litigate training hours or trademark fights. It will say that after 1989 the method had a *shop*, and shops outlive founders. Shapiro died in 2019. The quarrel about whether eye movements do unique work did not die with her. Guideline sentences move. Moving is not the same as a 1989 first appearance.
+
+A walk in 1987 is copy. Copy is how origin stories get told. This slot keeps the two papers as the checkable objects. WOW Therapies does not offer EMDR and will not teach a reader to move their eyes. If a patient asks whether this is “the EMDR place,” the true sentence is the one already on the era calendar: speech-language practice; 1989-and-after trauma-treatment literature with its own training path. No marketing slogan. No saint, no fraud.
+
+## Certification is how a method survives a founder
+
+Shapiro’s later years included a large training organization and the ordinary controversies that follow any organization that certifies people for a fee. A history can notice the fee structure without turning it into a morality play. Certification is how a method survives its founder. It is also how a method becomes a brand. Both sentences are true of EMDR after 2019.
+
+The 1989 *Journal of Traumatic Stress* paper sitting next to the behavior- therapy paper is the bibliographic fact students skip. JTS was the new society’s journal. Publishing there meant the method wanted to be *in* the trauma field, not only in behavior therapy. That ambition is part of why later trauma-informed slides name EMDR even when the slide is about systems, not treatment. The naming is a category error. The ambition is historical.
+
+WOW does not need a position on eye movements. WOW needs the 1989 dates so a patient who asks “is this the EMDR place?” can be answered with a sentence that is true: this is a speech-language practice; EMDR is a 1989-and-after trauma-treatment literature with its own training path.
+
+## Adaptive Information Processing is a later theory name
+
+Later EMDR writing used Adaptive Information Processing as a theory label
+for what the 1989 papers had presented as a procedure. Naming the label is
+history. Teaching the model is a protocol, and this series will not do that.
+A theory name that arrives after two journal doors is an afterlife, like the
+institute and the association. Afterlives are how methods explain themselves
+to new students. They are not a second 1989.
+
+Guideline sentences will move again. This slot will still open on JBTEP and
+JTS. WOW will still not move anyone’s eyes. If an editor wants a current
+VA/DoD guideline clause, mark `[VERIFY]` and quote the year of that edition
+— not a blog’s memory of a slide.
+
 ## Sources
 
 Shapiro 1989 (two journals); later interview with Luber (2009) as afterlife, not as a protocol. Related: `what-trauma-informed-is-not`, `vietnam-dsm-iii-and-the-va-form`.

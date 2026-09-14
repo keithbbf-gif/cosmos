@@ -45,6 +45,37 @@ WOW Therapies does not run a milieu. The transferable caution is ordinary: frigh
 
 No portrait in this wave. Living person: license and reason required later.
 
+## SELF is an acronym this page will not teach
+
+Bloom’s later trainings used S.E.L.F. — Safety, Emotions, Loss, Future — as a shared vocabulary for units that already had too many competing models. This page will name the acronym as a historical object and will not turn the four words into homework. An acronym that can be written on a whiteboard will be written on a whiteboard. That is how wards talk. It is also how a 1997 book becomes a two-day product.
+
+Maxwell Jones’s mid-century therapeutic community is the older English-language cousin: a unit that treats the social life of the ward as part of the treatment. Bloom’s difference is the trauma center of gravity and the insistence that *staff* injury belongs in the same meeting as patient injury. Cousin is not lineage. Jones did not write *Creating Sanctuary*. Sanctuary did not make Jones a trauma theorist after the fact.
+
+The 1980s–1990s Philadelphia inpatient and residential settings remain the weather that made the book necessary. A merger nobody has mourned, a suicide that is still in the staff meeting, a restraint that has become a habit — those are the levers. Later Sanctuary Institute certification is an afterlife with a fee structure. Afterlives are how models survive founders. They are also how a principal can say “sanctuary” and mean a cafeteria poster. Keep 1997 as the book and the ward as the argument. WOW does not run a milieu and will not print SELF questions as a speech-clinic exercise.
+
+## Institute days are not a personality transplant
+
+Bloom’s later Sanctuary Institute trainings are the vector most hospitals actually met. A two-day training is not a personality transplant. It is a shared vocabulary for the next staff meeting. Whether the vocabulary stuck depended on whether the medical director funded the next meeting. Histories that blame Bloom for failed implementations are looking at the wrong budget line.
+
+The 1990s Philadelphia ward was not a rural Arkansas clinic. Saying so is not an insult to either. It is a scale warning. Sanctuary’s seven commitments assume a staff large enough to have a meeting. A two-person speech office has a different meeting. The commitments can still be read as questions. They cannot be read as a franchise manual for two people.
+
+If a hospital partner of WOW says they “use Sanctuary,” ask *which year* and *which commitment is funded*. That is a historian’s question and a safety question. Bloom wrote the book so the question would have a vocabulary. She did not write it so the vocabulary could replace the budget.
+
+## Seven commitments are names, not a two-person franchise
+
+Later Sanctuary literature listed seven commitments — among them nonviolence,
+emotional intelligence, democracy, open communication, social responsibility,
+and growth and change. This page will name that list as a historical object
+and will not turn it into a staff-meeting script. A two-person speech office
+does not have a night community meeting. Reading the commitments as questions
+(“who can still tell the truth here?”) is possible. Reading them as a
+franchise manual for two people is how a 1997 book gets mis-sold.
+
+Bloom wrote from units large enough to have a merger and a restraint log.
+Scale is a warning, not an insult to either the ward or the rural clinic.
+If a hospital partner says they “use Sanctuary,” ask which year and which
+commitment is funded. That is a historian’s question and a safety question.
+
 ## Sources
 
 Bloom 1997; Harris & Fallot 2001 as community cousin. Era essay: `sanctuary-model-and-the-ward`. Related: `charles-figley`.

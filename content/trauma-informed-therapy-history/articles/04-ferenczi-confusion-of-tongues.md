@@ -56,6 +56,16 @@ WOW Therapies is a speech-language practice. A child who cannot tell a clean sto
 
 Herman’s 1981 and 1992 books are the civilian hinge that made incest speakable in official American psychiatry. Point to the other pack’s Herman essay for the books. This essay’s job is the 1932 room: a congress, a lecture, a cooling friendship, and a paper that waited until 1949 to speak English.
 
+## Wiesbaden, Jones, and a seventeen-year delay
+
+The 1932 congress was not a trauma symposium. It was a psychoanalytic family meeting with all the weather that implies: loyalty, technique fights, Freud’s shadow, a dying speaker. Ernest Jones’s role in the paper’s reception is part of the record later historians still argue about. This draft will not invent a smoking-gun letter. It will say that the English text waited until 1949 in the *International Journal of Psycho-Analysis*, and that delay is itself a clinical-political fact. Fields bury what they cannot metabolize.
+
+Masson’s 1984 *Assault on Truth* made the seduction archive a prosecution. Use it as a 1980s event. He forced documents into view. He also wrote as a man with a thesis to protect. Herman 1992 could cite Ferenczi without becoming Masson. This pack can too.
+
+The lecture’s “confusion of tongues” is easy to loot as a slogan for any miscommunication. Keep it specific. A child wants tenderness. An adult brings passion or a crime and then denies the event. The child, dependent, takes in the adult’s guilt. That is a 1932 claim about a house. It is not a 2014 federal principle. Child-welfare offices inherit a statutory version of the same vise: over-believe and destroy a safe home; under-believe and return a child to a crime. Trauma-informed language does not dissolve the vise. Anyone who says it does is selling a training.
+
+WOW Therapies will not use this essay to accuse a household. An SLP who hears a fragment in a language sample is not thereby a Wiesbaden analyst. Do not force a narrative a child does not have. Do not treat silence as proof of a plot you brought into the room. Those two sentences are clinical manners. They are not a disclosure protocol, and this page will not inflate them into one.
+
 ## Sources
 
 Ferenczi 1932/1949; Herman 1992 on the burying; Masson 1984 as a later prosecution, not as gospel. Figure cross-link: none in this pack — Ferenczi is treated as an event, not as a full biography.

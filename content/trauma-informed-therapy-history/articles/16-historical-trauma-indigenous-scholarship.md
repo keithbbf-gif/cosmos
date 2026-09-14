@@ -54,6 +54,22 @@ If you are in danger, call local emergency services. If you want care, use a cli
 
 The figure essay stays with Brave Heart’s career. This era piece stays with 1998 as the year the citation became checkable, and with the warning that a federal principle is not a people.
 
+## 1998 as a citation you can check, not a slogan
+
+Brave Heart has said the terms were developed in the late 1980s out of work that began in the 1970s. The 1998 *Smith College Studies* paper and the 1998 paper with DeBruyn are what a staged history can footnote. Historical trauma, in her definition, is cumulative wounding across generations from massive group trauma. Historical unresolved grief is grief that could not be completed because the losses did not stop and the official culture did not agree they were losses.
+
+For the Lakota argument the list is not abstract: nineteenth-century wars, the reservation system, Wounded Knee, boarding schools, ceremony outlawed or managed, ongoing losses. This is not PTSD with a longer preface. A person can have both a personal assault history and a historical-trauma response. Collapsing them is how an ACE quiz pretends to have read her.
+
+The boarding-school policy is documented. This essay names the policy and stops. No dormitory reconstruction. No gore. Whitbeck’s later historical-loss measures are a research afterlife, not the 1998 papers. Danieli’s 1998 comparative handbook is a third door. Do not replace Brave Heart with Danieli.
+
+SAMHSA’s sixth principle can host this literature or hide behind it. Southeast Arkansas is not a Lakota reservation. A speech-language site will not print a decorative acknowledgement it has not earned. The useful rhyme, if any, is that boarding schools and later special-education systems have treated Indigenous and other minority children’s languages as defects. That rhyme belongs as much to SLPWOW as to this pack. Do not merge the calendars.
+
+## Danieli 1998 is a parallel volume, not a substitute
+
+Yael Danieli’s *International Handbook of Multigenerational Legacies of Trauma* gathered many peoples and many authors in the same year as Brave Heart’s Lakota papers. Parallel publication is a historical fact. It is not a reason to file a Lakota grief intervention under a plural handbook, and it is not a reason to treat every diaspora’s silence as one mechanism.
+
+Interior Department boarding-school investigative work in the 2020s is public record a later editor can cite as a *government* afterlife, not as Brave Heart’s paper. This series will not write Southeast Arkansas racial history as atmosphere inside a Lakota citation. Local history, if the clinic ever commissions it, needs its own writer and its own consent.
+
 ## Sources
 
 Brave Heart 1998; Brave Heart & DeBruyn 1998; Danieli 1998 as comparative handbook, used cautiously; SMA 14-4884 as later gesture. Figure: `maria-yellow-horse-brave-heart`.

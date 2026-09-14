@@ -52,6 +52,24 @@ This page will not enroll your agency in a learning collaborative. It will not l
 
 The schools-and-child-welfare essay is the companion piece: what leaked into fluorescent light. This institution piece stays with the 2000 authorization and the coordinating centers as the reason leakage had a hose.
 
+## Plumbing with valves
+
+Before 2000, child-trauma knowledge lived in a handful of academic hospitals, rape-crisis programs, and people who had read Terr and the foster-care files. After the network, a community site could join a learning collaborative and send staff to a model with an acronym. That is not a small change. It is not, by itself, a kind building.
+
+UCLA and Duke as coordinating centers means someone sets agendas. “Network” sounds like a hose. Hoses have valves. A history that only praises access has joined the brochure. A history that only sneers at academic coasts has joined a different brochure. The interesting file is which sites changed placement stability or seclusion numbers — and which sites gained a fact sheet.
+
+ACE 1998 is the public-health cousin. SMA 14-4884 is the later pamphlet that could assume the vocabulary. DTD is the diagnosis the caseload seemed to want and DSM-5 refused. ISTSS is a different charter: adult, mostly research-and-veteran professional association. NCTSN is a federally funded child-serving pipe. They share some nouns. They do not share a founding breakfast.
+
+`[VERIFY]` the exact public-law name if an editor wants a tighter statute footnote than “Congress authorized in 2000.” WOW Therapies is not a network site. A child in foster care who also needs speech work is still a speech question plus a referral question. This URL will not list model acronyms as a menu.
+
+## Products travel farther than fellows — until the toner runs out
+
+The “cat” network is easy to parody: too many logos, too many PDFs, too many webinars that a rural clinician watches at 9 p.m. after supper. Parody misses the 2000 problem the statute tried to solve. Child trauma knowledge lived in a few university clinics. A county in the Delta did not have a fellow. It had a school counselor, a pediatrician, and sometimes a speech-language pathologist. NCTSN’s bet was that *products* could travel farther than *fellows*. Sometimes the bet paid. Sometimes the PDF sat unopened because the clinic had no printer toner.
+
+A 2020s reader should also notice what NCTSN did *not* become. It did not become a licensing board. It did not become a single treatment brand. It did not become a replacement for state child-welfare statutes. Those negatives are achievements. A network that tried to be all three would have been a ministry, and ministries fail closed on the people farthest from the capital.
+
+For WOW, the usable inheritance is narrower than the catalog. When a teacher forwards an NCTSN tip sheet with a child’s speech referral, the clinician can read the sheet as *context* and still write goals in SLP language. The network was built so that translation would be possible. Translation is not the same as conversion.
+
 ## Sources
 
 NCTSN authorization 2000 and public history pages; SMA 14-4884; Felitti et al. 1998 as cousin. Related: `trauma-informed-schools-and-child-welfare`, `developmental-trauma-and-the-rejected-chart`.

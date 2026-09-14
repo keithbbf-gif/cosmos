@@ -56,6 +56,22 @@ WOW Therapies does not diagnose complex PTSD. A speech-language practice that me
 
 `[VERIFY]` before print: the exact ICD-11 browser wording and code if WHO has shifted numbering in a later linearization. 6B41 was current at last check in this draft’s sources.
 
+## Geneva’s code, Arlington’s shrug
+
+ICD-11 slims PTSD and then adds a sibling aimed at prolonged or repetitive injury that was hard to escape: core PTSD plus problems in affect regulation, self-concept, and relationships. Herman asked for a name like that in 1992. DSM-5-TR (2022) still had not given her one. A diagnosis can live in Geneva and wait in Arlington. They influence each other. They do not obey each other.
+
+Field trials argued about whether the self-organization symptoms are distinct enough. Overlap with personality-disorder talk is a real critic’s point. This essay will not hide it. It will also not tell a reader she does or does not “have C-PTSD.” Internet quizzes will do that without our help.
+
+A code changes grants, forms, and the covers of manuals. It does not make a desk kind. Harris and Fallot were redesigning buildings before WHO split the diagnosis. The sharper systems sentence is still useful: if your caseload is people who could not leave — children, hostages, partners in a locked house — your idea of “compliance” may be built for the wrong injury. That sentence is not a worksheet.
+
+*Truth and Repair* (2023) is not 6B41. Point to the counseling-heritage Herman essay for the three books. `[VERIFY]` the ICD-11 browser wording if WHO has shifted a linearization. WOW Therapies does not diagnose complex PTSD. A service page that mentioned 6B41 would be a category error. A history URL may mention a WHO code because the code is a public fact.
+
+## 6B40 and 6B41 are siblings, not a slogan
+
+ICD-11’s PTSD code and its complex-PTSD sibling (6B41) were built to be used together as a split: a slimmer core and an added disturbance-in- self-organization cluster aimed at prolonged or repetitive injury that was hard to escape. `[VERIFY]` the linearization text a print footnote will quote. Released 2018, in effect 2022 — two dates, one cartography.
+
+Arlington did not have to follow Geneva. DSM-5’s 2013 rewrite of PTSD and its refusal of a child developmental-trauma code are American events. A United States training program can say “clinically we often see…” and still be where Herman’s 1992 hinge lives without a matching DSM box. A health ministry can print 6B41 and still run an unkind desk. Codes do not civilize furniture. WOW will not write 6B41 on a speech chart to sound current.
+
 ## Sources
 
 WHO ICD-11 CPTSD; Herman 1992; DSM-5-TR 2022 as the American absence. Related: `developmental-trauma-and-the-rejected-chart`. Cross-link: counseling-heritage `judith-herman`.

@@ -43,6 +43,30 @@ WOW Therapies has no standing to specialize in this literature. A speech-languag
 
 No portrait in this wave. Log any later license-clear photograph. Do not generate a face. Do not use camp imagery as decoration.
 
+## Survivor clinics before the 1980 acronym
+
+Krystal’s public obituaries state the facts this pack will use: born 1925, survived the Holocaust, trained as a psychiatrist in the United States, died 2015, edited *Massive Psychic Trauma* in 1968. This essay will not reconstruct camps. It will not embroider a childhood. The 1968 volume is the checkable artifact. Niederland’s survivor-syndrome work belongs in the same mid-century room.
+
+1968 is late enough that American psychiatry had psychoanalysis and early drugs, and early enough that it did not have PTSD. Survivor clinics had to invent language the manual would not give them for another dozen years. Official names lag. “Trauma” was never only a soldier’s word, even when the soldier’s word won the 1980 chart.
+
+Alexithymia, in his later writing, became a looted slogan. This page will not teach you to spot it. A psychiatrist who had reasons to know about unspeakability tried to make unspeakability a clinical object without romance. Danieli 1998 is a later comparative door. Brave Heart 1998 is a different people and a different theory. Three rooms. Do not blob them.
+
+WOW Therapies has no standing to specialize here. An older adult whose language is changing for neurological reasons is a speech question. No camp imagery as decoration. No generated face.
+
+## Alexithymia, Detroit, and a contents page
+
+Krystal’s later essays on affect and alexithymia (a word he helped put into psychiatric English) matter for speech-language readers more than the camp monograph alone. If a person cannot find words for feeling, the SLP room is already in the story — not as trauma treatment, but as the place where words are the job. That is a boundary, not a marketing bridge. Naming the boundary keeps WOW from claiming Krystal as a speech ancestor.
+
+The 1968 volume’s table of contents is itself a historical document: physicians who were also survivors, writing in a language the camps had tried to take. Later trauma textbooks cite the volume and move on. Sitting with the contents page for ten minutes is a better education than a summary paragraph. This essay will not reproduce those contents. It will say: the book exists; the authors had names; the year was 1968.
+
+Detroit after 1968 is not a footnote. Industrial injury, racialized policing, and migration sat in the same clinics as Holocaust follow-up. Krystal’s refusal to keep those rooms in separate buildings is part of why later community psychiatrists could read him without being camp historians first.
+
+## 1988 is a later book, not a second 1968
+
+*Integration and Self-Healing* (1988) is Krystal thinking about affect, alexithymia, and what a person can feel in words after massive injury. It is not a reprint of the 1968 edited volume *Massive Psychic Trauma*. Two objects. Speech-language readers will hear the later book more sharply because words are the job. That is a boundary: WOW is not a Krystal clinic. Naming the boundary keeps the 1968 authors — physicians who were also survivors — from becoming a marketing bridge.
+
+Detroit after 1968 mixed industrial injury, racialized policing, and migration with Holocaust follow-up. He refused to keep those rooms in separate buildings. Later community psychiatrists could read him without first becoming camp historians. Keep both facts. Do not invent a session.
+
 ## Sources
 
 Krystal 1968; Niederland in that mid-century survivor-clinic context; Danieli 1998 as later comparative handbook. Related: `historical-trauma-indigenous-scholarship` as a different room, not a synonym.

@@ -52,6 +52,22 @@ This page will not walk you through a community meeting. It will not give you th
 
 Bloom is living as of last verification (2026-09-14). Public books and public trainings only. No health talk. The figure essay stays with the career. This era piece stays with the ward as the place trauma-informed *care* had to mean something before it meant a grant phrase.
 
+## Keys, nights, and a staff who sleep poorly for a living
+
+A residential unit has levers a walk-in clinic does not: keys, a night shift, a community meeting that can go cruel, a restraint that becomes a habit. Bloom’s model shows its hospital origin in its attention to those levers. Mid-century therapeutic-community talk (Maxwell Jones and others) is the older English-language cousin. Her difference is the trauma center of gravity and the insistence that the staff are in the picture.
+
+Secondary traumatic stress, burnout, and what later writers called organizational trauma are not decorations. They are why a ward goes mean. Figley’s helper-side file is the parallel from veterans and disaster. SAMHSA’s later workforce and environment domains are, in one reading, a federal translation of insights the ward paid for.
+
+The organization-as-patient metaphor helps a board notice that last year’s suicide or merger is still in the staff meeting. The metaphor also risks nonsense. A funding cut is not a rape. A corporation does not have a hippocampus. Keep the language as management, not as a diagnosis of the building.
+
+Later Sanctuary certification is a commercial afterlife. This pack honors 1997 without blessing every licensee. WOW Therapies does not run a milieu. The transferable caution is ordinary: frightened, humiliated staff frighten and humiliate. Ordinary caution does not require a trademark on a service page. This URL will not reprint SELF questions as homework.
+
+## Therapeutic community is a cousin with a different war
+
+Maxwell Jones and the mid-century therapeutic-community literature treated the social life of a unit as part of the medicine. Bloom read that cousin and then wrote a 1997 book whose center of gravity is trauma and staff injury. Cousin is not a reason to file *Creating Sanctuary* under Jones. It is a reason to notice that “the ward is the treatment” is older than the word trauma-informed.
+
+What a later two-day training could not buy is a night supervisor who will look at restraint numbers. Fidelity checklists that never meet the night report have purchased a vocabulary. Figley’s helper-side file and Harris and Fallot’s community file remain parallel shops. Three vocabularies, one ugly observation: frightened staff frighten. WOW does not run a milieu. Ordinary caution on a speech hallway does not require a trademark.
+
 ## Sources
 
 Bloom 1997; Harris & Fallot 2001 as community cousin; SMA 14-4884 as later federal domains. Figure: `sandra-bloom`. Related: `charles-figley` on secondary stress.

@@ -66,6 +66,22 @@ Derek Summerfield’s earlier *BMJ* critique (2001) was aimed at PTSD as a human
 
 If you are in danger, call local emergency services. This page will not write your safety plan. It will not walk your board through domain 1. Read the PDF if you run a program. Do not quote it as a method you can do at home.
 
+## Ten domains, or a laminated card
+
+The pamphlet’s most honest page is not the four R’s. It is the ten implementation domains: governance, policy, physical environment, engagement, cross-sector work, screening and services, workforce, quality assurance, financing, evaluation. That list admits that “trauma-informed” is a management problem. A hospital that trains for an hour and keeps the same restraint numbers has bought a principle. A clinic that changes doors, interpreters, chaperones, and who has to retell the worst day has bought a domain.
+
+Peer support is the addition that belongs to a federal recovery-movement decade. Cultural, historical, and gender issues is the addition that gestures at Brave Heart, at race, at the fact that a Kaiser sample is not a boarding-school history. A gesture is not a scholarship. This pack’s historical-trauma and racial-trauma essays exist because a bullet is not a people.
+
+TIP 57 is the thicker 2014 cousin: behavioral-health protocol, still not a consumer workbook, still not a license for a speech clinic to treat PTSD. If you mean the four R’s, say SMA 14-4884. If you mean the TIP, say TIP 57. Do not mash them.
+
+By 2016 the six principles lived on cards in buildings that had changed no policy in domain 2 or domain 9. Thinning is the cost of a shared federal object. Shared objects are also how American human services run. This pack will not sneer the pamphlet out of existence. It will not quote it as a method you can do at home. WOW Therapies will not claim ten-domain implementation on a history URL.
+
+## TIP 57 is a different 2014 object
+
+SMA 14-4884 is guidance for an *approach*. TIP 57 (*Trauma-Informed Care in Behavioral Health Services*, SMA 13-4801 on the cover line) is a treatment-improvement protocol aimed at behavioral-health programs. Two federal objects, same year, different jobs. A speech-language office is neither the pamphlet’s whole audience nor TIP 57’s. Citing both as if they were one laminated card is how a systems idea becomes a treatment claim.
+
+The ten implementation domains — governance, policy, physical environment, engagement, and the rest — are the pamphlet’s most honest page because they are expensive. A card is cheap. A domain is a budget line. This series will keep saying that. It will not turn the domain list into a fidelity checklist for Monticello.
+
 ## Sources
 
 SMA 14-4884 (2014); TIP 57 (2014); Harris & Fallot 2001 as cited thought-leaders. Related: `harris-fallot-service-systems`, `nctsn-and-the-child-trauma-network`.

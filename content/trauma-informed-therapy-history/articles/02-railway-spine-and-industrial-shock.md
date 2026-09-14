@@ -58,6 +58,18 @@ Erichsen died in 1896. Page outlived the first generation of the argument. The t
 
 If you want the figure, the Erichsen essay in this pack stays with the surgeon. This piece stays with the *system*: steel, speed, insurance, and a medicine that had to invent a lesion it could not hold in a jar.
 
+## What a Victorian jury was being asked to believe
+
+Erichsen’s lectures were not written for a trauma conference. They were written for students who would soon be expert witnesses. A passenger who had been in a collision, had perhaps a bruise, and then developed pain, tremor, or a failure of will that lasted past the week — that passenger needed a story a jury could follow. “Concussion of the spine” was a surgeon’s attempt to give the story a lesion. The lesion was, by his own admission, often invisible. Invisibility is why Page could answer.
+
+Railway companies in Britain kept their own medical staff and their own statistics. They had reasons to prefer a theory in which fear and the lawsuit did the work. They also had reasons to prefer a theory that limited payouts. A historian who cannot hold both reasons will write a morality play. This pack will not. The 1866 and 1883 books are the two poles of a compensation science that later armies and later VA boards would reinvent without always citing the trains.
+
+American courts borrowed the phrase. By the 1890s a Midwestern collision could be discussed in London’s vocabulary. That is how industrial names travel: not as science first, as usefulness first. “Shell shock” would travel the same way in 1915. “PTSD” would travel after 1980. “Trauma-informed” would travel after 2001 on laminated cards. The travel is not proof. It is the phenomenon.
+
+A speech-language clinician who meets an adult after a motor crash is not doing railway-spine medicine. Swallow and cognitive change after injury have their own exams. The useful inheritance is only the old warning: an unseen injury will attract both compassion and suspicion, and a building has to decide which one it will fund. Harris and Fallot’s later desk is a distant cousin of that decision. Do not make Erichsen their grandfather. Do not use that banned kinship word. He is a dated door.
+
+If a later editor wants a museum object, the 1866 title page is enough. No generated wreck. No stock photograph of a sobbing passenger. Period engravings of collisions exist; log license before use. The argument does not need the engraving.
+
 ## Sources
 
 Erichsen 1866; Page 1883; Young 1995 on industrial rehearsals. For the later military renaming, see the shell-shock and DSM-III essays in this pack.
