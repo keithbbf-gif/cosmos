@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" width="720" height="380" role="img" aria-labelledby="figTitle">
+  <title>Sunken Living Rooms: Architecture as Status</title>
+  <rect width="100%" height="100%" fill="#F7F5F0"/>
+  <text x="56" y="36" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="bold" fill="#1C1C1C" text-anchor="start">Sunken Living Rooms: Architecture as Status</text>
+  <text x="56" y="58" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10" fill="#5C5A55" text-anchor="start">Style pendulum · schematic cycle (not predictive)</text>
+  <circle cx="360" cy="200" r="118" fill="none" stroke="#C9C4BA" stroke-width="2" stroke-dasharray="6 4"/>
+  <circle cx="360.0" cy="102.0" r="5" fill="#7A6B56"/>
+  <text x="360.0" y="54.0" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="normal" fill="#1C1C1C" text-anchor="middle">Architect-led</text>
+  <circle cx="458.0" cy="200.0" r="5" fill="#8B4A5E"/>
+  <text x="506.0" y="200.0" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="normal" fill="#1C1C1C" text-anchor="middle">Suburban copy</text>
+  <circle cx="360.0" cy="298.0" r="5" fill="#7A6B56"/>
+  <text x="360.0" y="346.0" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="normal" fill="#1C1C1C" text-anchor="middle">Liability worry</text>
+  <circle cx="262.0" cy="200.0" r="5" fill="#8B4A5E"/>
+  <text x="214.0" y="200.00000000000003" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="normal" fill="#1C1C1C" text-anchor="middle">Meme archive</text>
+  <text x="56" y="356" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#5C5A55" text-anchor="start">Cycle diagram · sunken-living-rooms</text>
+</svg>

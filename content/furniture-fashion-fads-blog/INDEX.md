@@ -82,3 +82,8 @@ Pack total: 42 drafts, 64,881 words in the draft files (including YAML). Body le
 - `drafts/` — the essays
 
 All items `status: draft`, `voice_check: human`. Do not schedule. A later editor owns fact-check and image rights.
+
+## Also in this folder (graphics-aligned)
+
+Forty-four shorter magazine articles with staged SVG figures live in `articles/` (see `ARTICLES_MANIFEST.md`, `GRAPHICS_INDEX.md`). Those pieces keep the `#238` embeds. The 42 long drafts in `drafts/` are the 1,200–2,000-word series.
+

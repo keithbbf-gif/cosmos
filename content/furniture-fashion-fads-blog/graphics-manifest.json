@@ -1,0 +1,661 @@
+{
+  "pack": "furniture-fashion-fads-blog",
+  "draft_count": 44,
+  "design_tokens": {
+    "background": "#F7F5F0",
+    "ink": "#1C1C1C",
+    "muted": "#5C5A55",
+    "accent_furniture": "#7A6B56",
+    "accent_fashion": "#8B4A5E"
+  },
+  "articles": [
+    {
+      "slug": "mid-century-modern-resurgence",
+      "headline": "Mid-Century Modern Keeps Coming Back",
+      "category": "furniture",
+      "assets": [
+        {
+          "file": "decade-timeline.svg",
+          "type": "decade-timeline",
+          "caption": "When MCM moved from architect-led to algorithm-led discovery."
+        },
+        {
+          "file": "style-cycle.svg",
+          "type": "style-cycle",
+          "caption": "The modern line tends to widen before it simplifies again."
+        },
+        {
+          "file": "ages-well-vs-dates.svg",
+          "type": "ages-well-vs-dates",
+          "caption": "Materials and proportion age; novelty prints rarely do."
+        }
+      ]
+    },
+    {
+      "slug": "brutalist-furniture-moment",
+      "headline": "Brutalist Furniture's Short Hot Streak",
+      "category": "furniture",
+      "assets": [
+        {
+          "file": "style-cycle.svg",
+          "type": "style-cycle",
+          "caption": "Brutalist decor often peaks in photography before it peaks in living rooms."
+        },
+        {
+          "file": "ages-well-vs-dates.svg",
+          "type": "ages-well-vs-dates",
+          "caption": "Weight and craft read timeless; texture gimmicks do not."
+        }
+      ]
+    },
+    {
+      "slug": "ikea-era-flat-pack",
+      "headline": "The IKEA Era Changed What We Expect",
+      "category": "furniture",
+      "assets": [
+        {
+          "file": "decade-timeline.svg",
+          "type": "decade-timeline",
+          "caption": "IKEA milestones that trained taste toward modularity."
+        },
+        {
+          "file": "retail-era-chart.svg",
+          "type": "retail-era-chart",
+          "caption": "Flat-pack visibility indexed against US shelter media mentions (schematic)."
+        }
+      ]
+    },
+    {
+      "slug": "farmhouse-chic-cycle",
+      "headline": "Farmhouse Chic and the Shiplap Hangover",
+      "category": "furniture",
+      "assets": [
+        {
+          "file": "style-cycle.svg",
+          "type": "style-cycle",
+          "caption": "Farmhouse trends usually ruralize urban anxiety, then get mocked for it."
+        },
+        {
+          "file": "ages-well-vs-dates.svg",
+          "type": "ages-well-vs-dates",
+          "caption": "What tends to age well versus date quickly in Farmhouse Chic and the Shiplap Hangover."
+        }
+      ]
+    },
+    {
+      "slug": "velvet-sofa-waves",
+      "headline": "Velvet Sofas: Glam Returns on a Timer",
+      "category": "furniture",
+      "assets": [
+        {
+          "file": "decade-timeline.svg",
+          "type": "decade-timeline",
+          "caption": "Velvet reads luxury when the frame lasts longer than the hashtag."
+        },
+        {
+          "file": "ages-well-vs-dates.svg",
+          "type": "ages-well-vs-dates",
+          "caption": "What tends to age well versus date quickly in Velvet Sofas: Glam Returns on a Timer."
+        }
+      ]
+    },
+    {
+      "slug": "rattan-everywhere-phases",
+      "headline": "Rattan: Porch Material, Living Room Fad",
+      "category": "furniture",
+      "assets": [
+        {
+          "file": "style-cycle.svg",
+          "type": "style-cycle",
+          "caption": "Style cycle schematic for Rattan: Porch Material, Living Room Fad."
+        },
+        {
+          "file": "ages-well-vs-dates.svg",
+          "type": "ages-well-vs-dates",
+          "caption": "What tends to age well versus date quickly in Rattan: Porch Material, Living Room Fad."
+        }
+      ]
+    },
+    {
+      "slug": "terrazzo-tables-fad",
+      "headline": "Terrazzo Tables Flooded the Feed",
+      "category": "furniture",
+      "assets": [
+        {
+          "file": "ages-well-vs-dates.svg",
+          "type": "ages-well-vs-dates",
+          "caption": "What tends to age well versus date quickly in Terrazzo Tables Flooded the Feed."
+        },
+        {
+          "file": "retail-era-chart.svg",
+          "type": "retail-era-chart",
+          "caption": "Terrazzo visibility in shelter trade press (schematic index)."
+        }
+      ]
+    },
+    {
+      "slug": "cloud-couch-trend",
+      "headline": "The Cloud Couch and Performative Comfort",
+      "category": "furniture",
+      "assets": [
+        {
+          "file": "decade-timeline.svg",
+          "type": "decade-timeline",
+          "caption": "Timeline for The Cloud Couch and Performative Comfort."
+        },
+        {
+          "file": "ages-well-vs-dates.svg",
+          "type": "ages-well-vs-dates",
+          "caption": "What tends to age well versus date quickly in The Cloud Couch and Performative Comfort."
+        }
+      ]
+    },
+    {
+      "slug": "avocado-green-appliance-era",
+      "headline": "Avocado Green and the Appliance Time Stamp",
+      "category": "furniture",
+      "assets": [
+        {
+          "file": "decade-timeline.svg",
+          "type": "decade-timeline",
+          "caption": "Timeline for Avocado Green and the Appliance Time Stamp."
+        },
+        {
+          "file": "ages-well-vs-dates.svg",
+          "type": "ages-well-vs-dates",
+          "caption": "What tends to age well versus date quickly in Avocado Green and the Appliance Time Stamp."
+        }
+      ]
+    },
+    {
+      "slug": "sunken-living-rooms",
+      "headline": "Sunken Living Rooms: Architecture as Status",
+      "category": "furniture",
+      "assets": [
+        {
+          "file": "decade-timeline.svg",
+          "type": "decade-timeline",
+          "caption": "Timeline for Sunken Living Rooms: Architecture as Status."
+        },
+        {
+          "file": "style-cycle.svg",
+          "type": "style-cycle",
+          "caption": "Style cycle schematic for Sunken Living Rooms: Architecture as Status."
+        }
+      ]
+    },
+    {
+      "slug": "waterbed-decade",
+      "headline": "Waterbeds: The Ultimate Dateable Fad",
+      "category": "furniture",
+      "assets": [
+        {
+          "file": "decade-timeline.svg",
+          "type": "decade-timeline",
+          "caption": "Peak visibility versus practical ownership \u2014 a classic fad arc."
+        },
+        {
+          "file": "ages-well-vs-dates.svg",
+          "type": "ages-well-vs-dates",
+          "caption": "What tends to age well versus date quickly in Waterbeds: The Ultimate Dateable Fad."
+        }
+      ]
+    },
+    {
+      "slug": "bean-bag-lounge-cycles",
+      "headline": "Bean Bags Never Left, They Just Hid",
+      "category": "furniture",
+      "assets": [
+        {
+          "file": "style-cycle.svg",
+          "type": "style-cycle",
+          "caption": "Style cycle schematic for Bean Bags Never Left, They Just Hid."
+        },
+        {
+          "file": "ages-well-vs-dates.svg",
+          "type": "ages-well-vs-dates",
+          "caption": "What tends to age well versus date quickly in Bean Bags Never Left, They Just Hid."
+        }
+      ]
+    },
+    {
+      "slug": "open-shelving-kitchen",
+      "headline": "Open Shelving: Pinterest Pretty, Dusty Daily",
+      "category": "furniture",
+      "assets": [
+        {
+          "file": "ages-well-vs-dates.svg",
+          "type": "ages-well-vs-dates",
+          "caption": "What tends to age well versus date quickly in Open Shelving: Pinterest Pretty, Dusty Daily."
+        },
+        {
+          "file": "retail-era-chart.svg",
+          "type": "retail-era-chart",
+          "caption": "Retail-era visibility for Open Shelving: Pinterest Pretty, Dusty Daily."
+        }
+      ]
+    },
+    {
+      "slug": "shiplap-fatigue",
+      "headline": "When Shiplap Became a Punchline",
+      "category": "furniture",
+      "assets": [
+        {
+          "file": "retail-era-chart.svg",
+          "type": "retail-era-chart",
+          "caption": "Shiplap SKU visibility (schematic, not lumber volume)."
+        }
+      ]
+    },
+    {
+      "slug": "maximalism-vs-minimalism-pendulum",
+      "headline": "The Maximalism\u2013Minimalism Pendulum",
+      "category": "cross",
+      "assets": [
+        {
+          "file": "style-cycle.svg",
+          "type": "style-cycle",
+          "caption": "Shelter media tends to overcorrect every seven to ten years."
+        }
+      ]
+    },
+    {
+      "slug": "conversation-pit-revival",
+      "headline": "Conversation Pits Try Again Every Generation",
+      "category": "furniture",
+      "assets": [
+        {
+          "file": "style-cycle.svg",
+          "type": "style-cycle",
+          "caption": "Style cycle schematic for Conversation Pits Try Again Every Generation."
+        }
+      ]
+    },
+    {
+      "slug": "wicker-moment-2020s",
+      "headline": "Wicker's 2020s Instagram Renaissance",
+      "category": "furniture",
+      "assets": [
+        {
+          "file": "decade-timeline.svg",
+          "type": "decade-timeline",
+          "caption": "Timeline for Wicker's 2020s Instagram Renaissance."
+        }
+      ]
+    },
+    {
+      "slug": "boucle-upholstery-wave",
+      "headline": "Boucl\u00e9: Texture of the Moment",
+      "category": "furniture",
+      "assets": [
+        {
+          "file": "ages-well-vs-dates.svg",
+          "type": "ages-well-vs-dates",
+          "caption": "What tends to age well versus date quickly in Boucl\u00e9: Texture of the Moment."
+        },
+        {
+          "file": "retail-era-chart.svg",
+          "type": "retail-era-chart",
+          "caption": "Retail-era visibility for Boucl\u00e9: Texture of the Moment."
+        }
+      ]
+    },
+    {
+      "slug": "mcm-orange-plastic-chairs",
+      "headline": "Orange Plastic Chairs: Fun Until Move-Out Day",
+      "category": "furniture",
+      "assets": [
+        {
+          "file": "ages-well-vs-dates.svg",
+          "type": "ages-well-vs-dates",
+          "caption": "What tends to age well versus date quickly in Orange Plastic Chairs: Fun Until Move-Out Day."
+        }
+      ]
+    },
+    {
+      "slug": "neon-sign-home-decor",
+      "headline": "Neon Signs in Bedrooms",
+      "category": "furniture",
+      "assets": [
+        {
+          "file": "decade-timeline.svg",
+          "type": "decade-timeline",
+          "caption": "Timeline for Neon Signs in Bedrooms."
+        }
+      ]
+    },
+    {
+      "slug": "shoulder-pads-power-dressing",
+      "headline": "Shoulder Pads and the Power Silhouette",
+      "category": "fashion",
+      "assets": [
+        {
+          "file": "decade-timeline.svg",
+          "type": "decade-timeline",
+          "caption": "Timeline for Shoulder Pads and the Power Silhouette."
+        },
+        {
+          "file": "style-cycle.svg",
+          "type": "style-cycle",
+          "caption": "Style cycle schematic for Shoulder Pads and the Power Silhouette."
+        }
+      ]
+    },
+    {
+      "slug": "low-rise-jeans-cycle",
+      "headline": "Low-Rise Jeans: The Cycle Everyone Debates",
+      "category": "fashion",
+      "assets": [
+        {
+          "file": "style-cycle.svg",
+          "type": "style-cycle",
+          "caption": "Denim rises trace youth marketing more than ergonomics."
+        }
+      ]
+    },
+    {
+      "slug": "platform-shoes-height-wars",
+      "headline": "Platform Shoes and Altitude Inflation",
+      "category": "fashion",
+      "assets": [
+        {
+          "file": "decade-timeline.svg",
+          "type": "decade-timeline",
+          "caption": "Timeline for Platform Shoes and Altitude Inflation."
+        }
+      ]
+    },
+    {
+      "slug": "logomania-waves",
+      "headline": "Logomania Waves and Quiet Backlashes",
+      "category": "fashion",
+      "assets": [
+        {
+          "file": "retail-era-chart.svg",
+          "type": "retail-era-chart",
+          "caption": "Logo-forward assortment share (schematic index)."
+        }
+      ]
+    },
+    {
+      "slug": "athleisure-permanence",
+      "headline": "Did Athleisure Break the Fad Clock?",
+      "category": "fashion",
+      "assets": [
+        {
+          "file": "style-cycle.svg",
+          "type": "style-cycle",
+          "caption": "Style cycle schematic for Did Athleisure Break the Fad Clock?."
+        },
+        {
+          "file": "ages-well-vs-dates.svg",
+          "type": "ages-well-vs-dates",
+          "caption": "What tends to age well versus date quickly in Did Athleisure Break the Fad Clock?."
+        }
+      ]
+    },
+    {
+      "slug": "cottagecore-fashion",
+      "headline": "Cottagecore: Pandemic Pastoral in Fashion",
+      "category": "fashion",
+      "assets": [
+        {
+          "file": "decade-timeline.svg",
+          "type": "decade-timeline",
+          "caption": "Timeline for Cottagecore: Pandemic Pastoral in Fashion."
+        }
+      ]
+    },
+    {
+      "slug": "quiet-luxury-moment",
+      "headline": "Quiet Luxury and the Logo Hangover",
+      "category": "fashion",
+      "assets": [
+        {
+          "file": "ages-well-vs-dates.svg",
+          "type": "ages-well-vs-dates",
+          "caption": "What tends to age well versus date quickly in Quiet Luxury and the Logo Hangover."
+        },
+        {
+          "file": "retail-era-chart.svg",
+          "type": "retail-era-chart",
+          "caption": "Retail-era visibility for Quiet Luxury and the Logo Hangover."
+        }
+      ]
+    },
+    {
+      "slug": "y2k-fashion-revival",
+      "headline": "Y2K Fashion Revival: Nostalgia at Double Speed",
+      "category": "fashion",
+      "assets": [
+        {
+          "file": "decade-timeline.svg",
+          "type": "decade-timeline",
+          "caption": "Timeline for Y2K Fashion Revival: Nostalgia at Double Speed."
+        },
+        {
+          "file": "style-cycle.svg",
+          "type": "style-cycle",
+          "caption": "Style cycle schematic for Y2K Fashion Revival: Nostalgia at Double Speed."
+        }
+      ]
+    },
+    {
+      "slug": "cargo-pants-resurgence",
+      "headline": "Cargo Pants Return (Again)",
+      "category": "fashion",
+      "assets": [
+        {
+          "file": "style-cycle.svg",
+          "type": "style-cycle",
+          "caption": "Style cycle schematic for Cargo Pants Return (Again)."
+        }
+      ]
+    },
+    {
+      "slug": "skinny-jeans-death-rumors",
+      "headline": "Skinny Jeans 'Death' and Denim Politics",
+      "category": "fashion",
+      "assets": [
+        {
+          "file": "decade-timeline.svg",
+          "type": "decade-timeline",
+          "caption": "Timeline for Skinny Jeans 'Death' and Denim Politics."
+        }
+      ]
+    },
+    {
+      "slug": "parachute-pants-80s-90s",
+      "headline": "Parachute Pants: Functional to Punchline",
+      "category": "fashion",
+      "assets": [
+        {
+          "file": "decade-timeline.svg",
+          "type": "decade-timeline",
+          "caption": "Timeline for Parachute Pants: Functional to Punchline."
+        },
+        {
+          "file": "ages-well-vs-dates.svg",
+          "type": "ages-well-vs-dates",
+          "caption": "What tends to age well versus date quickly in Parachute Pants: Functional to Punchline."
+        }
+      ]
+    },
+    {
+      "slug": "normcore-ironically-timeless",
+      "headline": "Normcore: Anti-Trend That Became a Trend",
+      "category": "fashion",
+      "assets": [
+        {
+          "file": "style-cycle.svg",
+          "type": "style-cycle",
+          "caption": "Style cycle schematic for Normcore: Anti-Trend That Became a Trend."
+        },
+        {
+          "file": "ages-well-vs-dates.svg",
+          "type": "ages-well-vs-dates",
+          "caption": "What tends to age well versus date quickly in Normcore: Anti-Trend That Became a Trend."
+        }
+      ]
+    },
+    {
+      "slug": "neon-athleisure-2010s",
+      "headline": "Neon Athleisure and the Gym Selfie Era",
+      "category": "fashion",
+      "assets": [
+        {
+          "file": "retail-era-chart.svg",
+          "type": "retail-era-chart",
+          "caption": "Retail-era visibility for Neon Athleisure and the Gym Selfie Era."
+        }
+      ]
+    },
+    {
+      "slug": "peplum-waistline",
+      "headline": "Peplum Waistlines: Short Runway, Long Tail on eBay",
+      "category": "fashion",
+      "assets": [
+        {
+          "file": "decade-timeline.svg",
+          "type": "decade-timeline",
+          "caption": "Timeline for Peplum Waistlines: Short Runway, Long Tail on eBay."
+        }
+      ]
+    },
+    {
+      "slug": "mob-wife-aesthetic",
+      "headline": "Mob Wife Aesthetic: TV Costume to TikTok Uniform",
+      "category": "fashion",
+      "assets": [
+        {
+          "file": "decade-timeline.svg",
+          "type": "decade-timeline",
+          "caption": "Timeline for Mob Wife Aesthetic: TV Costume to TikTok Uniform."
+        }
+      ]
+    },
+    {
+      "slug": "coquette-bow-moment",
+      "headline": "Coquette Bows and Hyper-Feminine Micro-Trends",
+      "category": "fashion",
+      "assets": [
+        {
+          "file": "retail-era-chart.svg",
+          "type": "retail-era-chart",
+          "caption": "Retail-era visibility for Coquette Bows and Hyper-Feminine Micro-Trends."
+        }
+      ]
+    },
+    {
+      "slug": "fast-furniture-vs-fast-fashion",
+      "headline": "Fast Furniture vs Fast Fashion: Same Clock?",
+      "category": "cross",
+      "assets": [
+        {
+          "file": "retail-era-chart.svg",
+          "type": "retail-era-chart",
+          "caption": "Typical trend half-life (schematic, not corporate disclosure)."
+        }
+      ]
+    },
+    {
+      "slug": "target-design-collabs",
+      "headline": "Target Design Collabs and the Drop Calendar",
+      "category": "cross",
+      "assets": [
+        {
+          "file": "decade-timeline.svg",
+          "type": "decade-timeline",
+          "caption": "Timeline for Target Design Collabs and the Drop Calendar."
+        },
+        {
+          "file": "retail-era-chart.svg",
+          "type": "retail-era-chart",
+          "caption": "Retail-era visibility for Target Design Collabs and the Drop Calendar."
+        }
+      ]
+    },
+    {
+      "slug": "ikea-x-fashion-crossover",
+      "headline": "When IKEA Dressed Like a Fashion Label",
+      "category": "cross",
+      "assets": [
+        {
+          "file": "decade-timeline.svg",
+          "type": "decade-timeline",
+          "caption": "Timeline for When IKEA Dressed Like a Fashion Label."
+        }
+      ]
+    },
+    {
+      "slug": "thrift-resale-era-chart",
+      "headline": "Thrift and Resale: The Anti-Fad Infrastructure",
+      "category": "cross",
+      "assets": [
+        {
+          "file": "retail-era-chart.svg",
+          "type": "retail-era-chart",
+          "caption": "Secondhand share of closet inflows (schematic)."
+        }
+      ]
+    },
+    {
+      "slug": "pinterest-to-purchase-pipeline",
+      "headline": "Pinterest to Purchase: Mood Board Economics",
+      "category": "cross",
+      "assets": [
+        {
+          "file": "style-cycle.svg",
+          "type": "style-cycle",
+          "caption": "Style cycle schematic for Pinterest to Purchase: Mood Board Economics."
+        },
+        {
+          "file": "retail-era-chart.svg",
+          "type": "retail-era-chart",
+          "caption": "Retail-era visibility for Pinterest to Purchase: Mood Board Economics."
+        }
+      ]
+    },
+    {
+      "slug": "trend-forecasting-industrial-complex",
+      "headline": "Who Declares a Trend Dead?",
+      "category": "cross",
+      "assets": [
+        {
+          "file": "style-cycle.svg",
+          "type": "style-cycle",
+          "caption": "Style cycle schematic for Who Declares a Trend Dead?."
+        },
+        {
+          "file": "ages-well-vs-dates.svg",
+          "type": "ages-well-vs-dates",
+          "caption": "What tends to age well versus date quickly in Who Declares a Trend Dead?."
+        }
+      ]
+    },
+    {
+      "slug": "why-trends-accelerated-after-2010",
+      "headline": "Why Trends Accelerated After 2010",
+      "category": "cross",
+      "assets": [
+        {
+          "file": "decade-timeline.svg",
+          "type": "decade-timeline",
+          "caption": "Approximate fad half-life compression (editorial model)."
+        }
+      ]
+    },
+    {
+      "slug": "tiktok-shelf-life",
+      "headline": "TikTok Shelf Life: Furniture Caught Up to Fashion",
+      "category": "cross",
+      "assets": [
+        {
+          "file": "retail-era-chart.svg",
+          "type": "retail-era-chart",
+          "caption": "Viral home SKU spike duration (schematic)."
+        }
+      ]
+    }
+  ]
+}

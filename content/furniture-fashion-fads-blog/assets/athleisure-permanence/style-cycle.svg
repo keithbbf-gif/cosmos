@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" width="720" height="380" role="img" aria-labelledby="figTitle">
+  <title>Did Athleisure Break the Fad Clock?</title>
+  <rect width="100%" height="100%" fill="#F7F5F0"/>
+  <text x="56" y="36" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="bold" fill="#1C1C1C" text-anchor="start">Did Athleisure Break the Fad Clock?</text>
+  <text x="56" y="58" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10" fill="#5C5A55" text-anchor="start">Style pendulum · schematic cycle (not predictive)</text>
+  <circle cx="360" cy="200" r="118" fill="none" stroke="#C9C4BA" stroke-width="2" stroke-dasharray="6 4"/>
+  <circle cx="360.0" cy="102.0" r="5" fill="#7A6B56"/>
+  <text x="360.0" y="54.0" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="normal" fill="#1C1C1C" text-anchor="middle">Jogging 70s</text>
+  <circle cx="453.20353859692506" cy="169.71633455125516" r="5" fill="#8B4A5E"/>
+  <text x="498.8542513790924" y="154.88351882125767" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="normal" fill="#1C1C1C" text-anchor="middle">Yoga boom</text>
+  <circle cx="417.60295472466237" cy="279.28366544874484" r="5" fill="#7A6B56"/>
+  <text x="445.8166468347011" y="318.11648117874233" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="normal" fill="#1C1C1C" text-anchor="middle">Leggings norm</text>
+  <circle cx="302.39704527533763" cy="279.28366544874484" r="5" fill="#8B4A5E"/>
+  <text x="274.18335316529897" y="318.11648117874233" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="normal" fill="#1C1C1C" text-anchor="middle">Office blur</text>
+  <circle cx="266.79646140307494" cy="169.71633455125516" r="5" fill="#7A6B56"/>
+  <text x="221.14574862090757" y="154.8835188212577" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="normal" fill="#1C1C1C" text-anchor="middle">Gorpcore overlap</text>
+  <text x="56" y="356" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#5C5A55" text-anchor="start">Cycle diagram · athleisure-permanence</text>
+</svg>

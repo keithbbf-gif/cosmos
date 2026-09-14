@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" width="720" height="360" role="img" aria-labelledby="figTitle">
+  <title>Mid-Century Modern Keeps Coming Back</title>
+  <rect width="100%" height="100%" fill="#F7F5F0"/>
+  <text x="56" y="36" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="bold" fill="#1C1C1C" text-anchor="start">Mid-Century Modern Keeps Coming Back</text>
+  <text x="56" y="58" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10" fill="#5C5A55" text-anchor="start">Decade markers · editorial schematic (not sales data)</text>
+  <line x1="56" y1="200" x2="680" y2="200" stroke="#C9C4BA" stroke-width="2"/>
+  <line x1="56.0" y1="194" x2="56.0" y2="206" stroke="#C9C4BA" stroke-width="1"/>
+  <text x="56.0" y="222" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10" fill="#5C5A55" text-anchor="middle">1940</text>
+  <line x1="123.82608695652173" y1="194" x2="123.82608695652173" y2="206" stroke="#C9C4BA" stroke-width="1"/>
+  <line x1="191.65217391304347" y1="194" x2="191.65217391304347" y2="206" stroke="#C9C4BA" stroke-width="1"/>
+  <text x="191.65217391304347" y="222" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10" fill="#5C5A55" text-anchor="middle">1960</text>
+  <line x1="259.47826086956525" y1="194" x2="259.47826086956525" y2="206" stroke="#C9C4BA" stroke-width="1"/>
+  <line x1="327.30434782608694" y1="194" x2="327.30434782608694" y2="206" stroke="#C9C4BA" stroke-width="1"/>
+  <text x="327.30434782608694" y="222" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10" fill="#5C5A55" text-anchor="middle">1980</text>
+  <line x1="395.1304347826087" y1="194" x2="395.1304347826087" y2="206" stroke="#C9C4BA" stroke-width="1"/>
+  <line x1="462.95652173913044" y1="194" x2="462.95652173913044" y2="206" stroke="#C9C4BA" stroke-width="1"/>
+  <text x="462.95652173913044" y="222" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10" fill="#5C5A55" text-anchor="middle">2000</text>
+  <line x1="530.7826086956522" y1="194" x2="530.7826086956522" y2="206" stroke="#C9C4BA" stroke-width="1"/>
+  <line x1="598.6086956521739" y1="194" x2="598.6086956521739" y2="206" stroke="#C9C4BA" stroke-width="1"/>
+  <text x="598.6086956521739" y="222" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10" fill="#5C5A55" text-anchor="middle">2020</text>
+  <line x1="666.4347826086956" y1="194" x2="666.4347826086956" y2="206" stroke="#C9C4BA" stroke-width="1"/>
+  <circle cx="89.91304347826087" cy="200" r="7" fill="#7A6B56" stroke="#1C1C1C" stroke-width="1"/>
+  <text x="89.91304347826087" y="182" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-weight="bold" fill="#1C1C1C" text-anchor="middle">First wave</text>
+  <text x="89.91304347826087" y="238" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#5C5A55" text-anchor="middle">Case study houses</text>
+  <circle cx="191.65217391304347" cy="200" r="7" fill="#8B4A5E" stroke="#1C1C1C" stroke-width="1"/>
+  <text x="191.65217391304347" y="182" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-weight="bold" fill="#1C1C1C" text-anchor="middle">Mainstream</text>
+  <text x="191.65217391304347" y="238" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#5C5A55" text-anchor="middle">Showrooms + mail order</text>
+  <circle cx="327.30434782608694" cy="200" r="7" fill="#7A6B56" stroke="#1C1C1C" stroke-width="1"/>
+  <text x="327.30434782608694" y="182" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-weight="bold" fill="#1C1C1C" text-anchor="middle">Decline</text>
+  <text x="327.30434782608694" y="238" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#5C5A55" text-anchor="middle">Postmodern reaction</text>
+  <circle cx="429.04347826086956" cy="200" r="7" fill="#8B4A5E" stroke="#1C1C1C" stroke-width="1"/>
+  <text x="429.04347826086956" y="182" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-weight="bold" fill="#1C1C1C" text-anchor="middle">Revival I</text>
+  <text x="429.04347826086956" y="238" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#5C5A55" text-anchor="middle">Design within reach</text>
+  <circle cx="530.7826086956522" cy="200" r="7" fill="#7A6B56" stroke="#1C1C1C" stroke-width="1"/>
+  <text x="530.7826086956522" y="182" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-weight="bold" fill="#1C1C1C" text-anchor="middle">Revival II</text>
+  <text x="530.7826086956522" y="238" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#5C5A55" text-anchor="middle">Streaming interiors</text>
+  <circle cx="625.7391304347826" cy="200" r="7" fill="#8B4A5E" stroke="#1C1C1C" stroke-width="1"/>
+  <text x="625.7391304347826" y="182" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-weight="bold" fill="#1C1C1C" text-anchor="middle">Shelf reset</text>
+  <text x="625.7391304347826" y="238" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#5C5A55" text-anchor="middle">Fatigue chatter</text>
+  <text x="56" y="336" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#5C5A55" text-anchor="start">Source: period press &amp; trade history · mid-century-modern-resurgence</text>
+</svg>

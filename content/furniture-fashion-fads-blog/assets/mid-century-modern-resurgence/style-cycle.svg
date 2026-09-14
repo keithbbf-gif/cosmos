@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" width="720" height="380" role="img" aria-labelledby="figTitle">
+  <title>Mid-Century Modern Keeps Coming Back</title>
+  <rect width="100%" height="100%" fill="#F7F5F0"/>
+  <text x="56" y="36" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="bold" fill="#1C1C1C" text-anchor="start">Mid-Century Modern Keeps Coming Back</text>
+  <text x="56" y="58" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10" fill="#5C5A55" text-anchor="start">Style pendulum · schematic cycle (not predictive)</text>
+  <circle cx="360" cy="200" r="118" fill="none" stroke="#C9C4BA" stroke-width="2" stroke-dasharray="6 4"/>
+  <circle cx="360.0" cy="102.0" r="5" fill="#7A6B56"/>
+  <text x="360.0" y="54.0" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="normal" fill="#1C1C1C" text-anchor="middle">Minimal lines</text>
+  <circle cx="444.87048957087495" cy="151.0" r="5" fill="#8B4A5E"/>
+  <text x="486.439708952528" y="127.0" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="normal" fill="#1C1C1C" text-anchor="middle">Warm wood</text>
+  <circle cx="444.870489570875" cy="249.0" r="5" fill="#7A6B56"/>
+  <text x="486.43970895252806" y="273.0" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="normal" fill="#1C1C1C" text-anchor="middle">Decline</text>
+  <circle cx="360.0" cy="298.0" r="5" fill="#8B4A5E"/>
+  <text x="360.0" y="346.0" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="normal" fill="#1C1C1C" text-anchor="middle">Auction heat</text>
+  <circle cx="275.12951042912505" cy="249.00000000000003" r="5" fill="#7A6B56"/>
+  <text x="233.560291047472" y="273.00000000000006" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="normal" fill="#1C1C1C" text-anchor="middle">Mass market</text>
+  <circle cx="275.12951042912505" cy="151.0" r="5" fill="#8B4A5E"/>
+  <text x="233.56029104747196" y="126.99999999999999" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="normal" fill="#1C1C1C" text-anchor="middle">Irony</text>
+  <text x="56" y="356" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#5C5A55" text-anchor="start">Cycle diagram · mid-century-modern-resurgence</text>
+</svg>
