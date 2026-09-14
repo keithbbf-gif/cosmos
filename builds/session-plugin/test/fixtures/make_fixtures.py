@@ -18,7 +18,9 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 REPO = HERE.parents[3]
-SRC_FIX = REPO / "tests" / "fixtures" / "session_tools"
+# Repo-relative so the emitted sources[].path - and therefore the sha - is the
+# same on every machine. An absolute path baked into a fixture is not a fixture.
+SRC_FIX = Path("tests") / "fixtures" / "session_tools"
 TRANSCRIPTS = HERE / "transcripts"
 TAMPERED = HERE / "tampered"
 ROLLED = HERE / "rolled" / "cosmos.rolled.jsonl"
@@ -51,8 +53,11 @@ def _write(path: Path, payload: bytes) -> None:
 
 
 def main() -> int:
+    import os
+
     import session_tools as st
 
+    os.chdir(REPO)
     for rec_id, store in CLEAN:
         st.cmd_load(rec_id, store, TRANSCRIPTS)
 

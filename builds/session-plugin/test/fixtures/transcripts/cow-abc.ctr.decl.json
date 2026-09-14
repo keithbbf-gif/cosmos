@@ -1,7 +1,7 @@
 {
   "schema": "cosmos-transcript-decl/1",
-  "len": 771,
-  "sha": "45cdfe2fcf94feaabae5da1d8e08b5ca0be110d15cdd1ab9b73c9075c9bcaa57",
+  "len": 760,
+  "sha": "4a66e28e0c61fc61d7f642834bc5c5e9bd9dd30cfe94be4a37ef20a68638fe0e",
   "n_turns": 1,
   "fidelity": "span",
   "hmac": false
