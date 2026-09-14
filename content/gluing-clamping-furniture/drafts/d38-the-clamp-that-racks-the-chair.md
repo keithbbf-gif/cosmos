@@ -5,10 +5,11 @@ slug: the-clamp-that-racks-the-chair
 status: staged
 stage: press
 voice: human
+voice_check: edited
 cluster: clamps
 series: gluing-clamping-furniture
 dek: A bar on a diagonal can teach a limp. Set the animal on its feet. Use a strap, handscrews, even pull. Watch the four hooves.
-word_count: 953
+word_count: 970
 topics: [chairs, rack, bands]
 figures:
   - id: fig-01
@@ -33,7 +34,7 @@ I glue chairs on a known flat. I look under the feet. I rock. If it rocks in the
 
 ## Sessions
 
-Front, back, then sides. See `d19` and `d40`. A whole chair in one hide sprint is how a limp gets born.
+Front, back, then sides. See *The chair is an animal with four opinions* (essay 19) and *Two sessions is not cowardice* (essay 40). A whole chair in one hide sprint is how a limp gets born.
 
 ## What a rack looks like while the iron is still on
 

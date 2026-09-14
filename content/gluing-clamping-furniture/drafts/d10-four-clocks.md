@@ -5,6 +5,7 @@ slug: four-clocks
 status: staged
 stage: choose
 voice: human
+voice_check: edited
 cluster: glue
 series: gluing-clamping-furniture
 dek: Open, closed, clamp, and cure are not the same hour. Mixing them is how you machine a joint that is still a gel.

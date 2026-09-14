@@ -5,10 +5,11 @@ slug: scrape-now-or-sand-a-smear
 status: staged
 stage: cure
 voice: human
+voice_check: edited
 cluster: aftermath
 series: gluing-clamping-furniture
 dek: A gelled bead lifts. A cured smear is a pore full of plastic. Inside corners are cuts. The finish room is not a cleanup crew.
-word_count: 798
+word_count: 811
 topics: [cleanup, scrape, smear]
 figures:
   - id: fig-01
@@ -29,7 +30,7 @@ Now is the gel. Now is the inside corner. Now is the profile before hide turns t
 
 ## Lift, do not smear
 
-See `d27`. The aftermath version is: if you missed the gel, scrape. A card scraper on a flat. A chisel in a corner. Sanding a smear on oak is how you dish the rays and still leave plastic in the deep grain.
+See *Squeeze-out is a witness* (essay 27). The aftermath version is: if you missed the gel, scrape. A card scraper on a flat. A chisel in a corner. Sanding a smear on oak is how you dish the rays and still leave plastic in the deep grain.
 
 ## Hide vs PVA vs epoxy
 
@@ -59,7 +60,7 @@ Hide that turns to amber glass in a moulding is a carving day. I have spent an h
 
 ## Walnut still tells
 
-On walnut you can hide more and still not hide a ridge your finger finds. I have sanded a walnut smear into a dish and called the dish figure until oil made it a county. See `d43`. If I must sand, I sand a larger field, and I still expect oil to tell on me. The rays on oak go hollow the same way. The plastic stays in the latewood like a gasket the stain will not enter.
+On walnut you can hide more and still not hide a ridge your finger finds. I have sanded a walnut smear into a dish and called the dish figure until oil made it a county. See *The scar under oil* (essay 43). If I must sand, I sand a larger field, and I still expect oil to tell on me. The rays on oak go hollow the same way. The plastic stays in the latewood like a gasket the stain will not enter.
 
 ## The judgment
 

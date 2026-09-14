@@ -5,10 +5,11 @@ slug: handscrew-still-earns-the-bench
 status: staged
 stage: press
 voice: human
+voice_check: edited
 cluster: clamps
 series: gluing-clamping-furniture
 dek: Two wooden jaws can be angled, padded by being wood, and set before the glue. A handscrew is a caul you can tighten.
-word_count: 955
+word_count: 983
 topics: [handscrews, jaws]
 figures:
   - id: fig-01
@@ -55,11 +56,11 @@ I used a handscrew that had been holding a door overnight. The jaws had pitch an
 
 Wax is not optional on a show rail. Hide will marry a wood jaw to a cheek like a bad idea. PVA will too if you smear. I wax, or I put a scrap of wax paper on the jaw, and I still check that the paper did not become the smear. Newspaper prints. I have printed.
 
-They still dent. A hero crank will dish pine. See `d31`. I close until the film is a film and I stop.
+They still dent. A hero crank will dish pine. See *Enough to close, not to crush* (essay 31). I close until the film is a film and I stop.
 
 ## Where I will not ask them to work
 
-A dining top wants pipes and cauls. See `d36`. Handscrews on a six-board argument are a way to feel busy while the field rises. I use them to hold a caul while the pipes come. They will not replace a parallel on a box or a band on a hoop. See `d32` and `d34`. A lamination edge likes a handscrew that can follow the taper of the stack. I do not pretend a pair is a vacuum. They are a caul you can tighten.
+A dining top wants pipes and cauls. See *The banana panel* (essay 36). Handscrews on a six-board argument are a way to feel busy while the field rises. I use them to hold a caul while the pipes come. They will not replace a parallel on a box or a band on a hoop. See *What each clamp lies about* (essay 32) and *Band clamps and the round thing* (essay 34). A lamination edge likes a handscrew that can follow the taper of the stack. I do not pretend a pair is a vacuum. They are a caul you can tighten.
 
 ## The hunt I do not repeat
 

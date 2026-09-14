@@ -5,6 +5,7 @@ slug: panel-triangles-cups-faces
 status: staged
 stage: fit
 voice: human
+voice_check: edited
 cluster: rehearsal
 series: gluing-clamping-furniture
 dek: Joint the edges that day. Mark a triangle. Decide the show face in raking light before the bottle opens. A cup you pull shut is a cup that comes back.

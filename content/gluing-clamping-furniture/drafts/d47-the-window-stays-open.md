@@ -5,10 +5,11 @@ slug: the-window-stays-open
 status: staged
 stage: cure
 voice: human
+voice_check: edited
 cluster: aftermath
 series: gluing-clamping-furniture
 dek: Formaldehyde, isocyanates, CA fog, epoxy amines. This is not a safety program. It is the shop rule: air, gloves when the sheet says so, no romance about fumes.
-word_count: 787
+word_count: 849
 topics: [fumes, urea, polyurethane, ca, epoxy]
 figures:
   - id: fig-01
@@ -29,7 +30,7 @@ This essay is not a safety program. It will not name a cartridge, a PEL, or a me
 
 ## Which religions talk
 
-Urea: formaldehyde. PU: isocyanates. CA: sharp fog, accelerator. Epoxy: amines, sensitizers. PVA and hide are kinder and still not food. I do not spread urea with a finger. See `d04`, `d06`, `d07`, `d05`.
+Urea: formaldehyde. PU: isocyanates. CA: sharp fog, accelerator. Epoxy: amines, sensitizers. PVA and hide are kinder and still not food. I do not spread urea with a finger. See *Urea is a different pot* (essay 4), *Polyurethane foam is not a joint* (essay 6), *CA is a jig glue* (essay 7), *Epoxy is a filler that also sticks* (essay 5).
 
 ## The lid
 
@@ -37,9 +38,9 @@ Powder lids tape shut. Bottles cap. Mixed cups cure in the cup and then trash, n
 
 ## The afternoon that turned
 
-It was the kind of Bradley County turn where you shut the long-wall door against rain and then forget you shut it. Hide is animal and heat. Urea is a different pot and a different reason. See `d04`. I have run urea with the door shut because I did not want the bag to cool and I did not want weather on the work. The work can take a draft. I cannot take a closed shop and a warm cup as a personality.
+It was the kind of Bradley County turn where you shut the long-wall door against rain and then forget you shut it. Hide is animal and heat. Urea is a different pot and a different reason. See *Urea is a different pot* (essay 4). I have run urea with the door shut because I did not want the bag to cool and I did not want weather on the work. The work can take a draft. I cannot take a closed shop and a warm cup as a personality.
 
-I mix what I will use. I do not walk away from an open urea cup to hunt a caul. I do not treat PU foam as a smell I should get used to. See `d06`. I do not spray CA accelerator in a still room for fun. See `d07`. I do not wipe epoxy with the hide rag. See `d05`.
+I mix what I will use. I do not walk away from an open urea cup to hunt a caul. I do not treat PU foam as a smell I should get used to. See *Polyurethane foam is not a joint* (essay 6). I do not spray CA accelerator in a still room for fun. See *CA is a jig glue* (essay 7). I do not wipe epoxy with the hide rag. See *Epoxy is a filler that also sticks* (essay 5).
 
 I keep the sheets where I can find them. I do not keep a romance about “we’ve always done it this way” next to a urea bag. Always is how a closed afternoon happens twice.
 

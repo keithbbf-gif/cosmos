@@ -5,6 +5,7 @@ slug: urea-is-a-different-pot
 status: staged
 stage: choose
 voice: human
+voice_check: edited
 cluster: glue
 series: gluing-clamping-furniture
 dek: Plastic resin and urea-formaldehyde are the brittle, veneer-honest glues. They are not hide with a worse smell. The window stays open.

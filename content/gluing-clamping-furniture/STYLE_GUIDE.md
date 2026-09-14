@@ -138,6 +138,7 @@ slug: kebab-case
 status: staged
 stage: choose | fit | spread | press | cure
 voice: human
+voice_check: edited   # editor read-aloud pass; writer leaves this unset
 cluster: glue | rehearsal | application | clamps | aftermath
 series: gluing-clamping-furniture
 dek: one or two sentences, no slogan
@@ -147,8 +148,9 @@ figures: list (id, preferred, caption, credit, license, status)
 verify: list of claims still open
 ```
 
-`status` stays `staged` in this pack. `voice: human` is a writer pass, not an
-editor pass. Do not mark a piece `published` here.
+`status` stays `staged` in this pack. `voice: human` is a writer pass.
+`voice_check: edited` is the magazine-floor editor stamp after read-aloud and
+guardrail pass. Do not mark a piece `published` here.
 
 ## Figures
 

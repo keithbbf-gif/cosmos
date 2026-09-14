@@ -5,10 +5,11 @@ slug: square-the-inside-before-you-walk
 status: staged
 stage: press
 voice: human
+voice_check: edited
 cluster: clamps
 series: gluing-clamping-furniture
 dek: A case can be pretty on the rim and pinched where a drawer lives. Diagonals, an inside square, then the quiet. Do not poke a setting corner.
-word_count: 958
+word_count: 986
 topics: [cases, square, diagonals]
 figures:
   - id: fig-01
@@ -25,7 +26,7 @@ The rim looked like a picture. The drawer opening was a wedge. I had squared the
 
 <!-- PHOTO: fig-01 D:\BBF\BBF Photos — square in an inside case corner, clamps on (filename pending shop pull) -->
 
-After the iron is on, I read the inside. A square in the corner. A tape on the diagonals of the opening that matters, not only the footprint. A winding look if the case is a case I will put a lid on. See `d18`. Then I wipe, I check once more, I walk. Poking a setting hide corner is how you open a shoulder that was closed.
+After the iron is on, I read the inside. A square in the corner. A tape on the diagonals of the opening that matters, not only the footprint. A winding look if the case is a case I will put a lid on. See *The case that winds* (essay 18). Then I wipe, I check once more, I walk. Poking a setting hide corner is how you open a shoulder that was closed.
 
 ## The back is a clamp
 
@@ -33,7 +34,7 @@ A nailed or screwed back can pull a box into square or into a propeller. I dry-f
 
 ## One more quarter-turn
 
-No. See `d31`. If a corner is open, the iron is in the wrong place or the joint is daylight. Recut tomorrow. Do not invent a square with anger tonight.
+No. See *Enough to close, not to crush* (essay 31). If a corner is open, the iron is in the wrong place or the joint is daylight. Recut tomorrow. Do not invent a square with anger tonight.
 
 ## The footprint that lied
 
@@ -55,9 +56,9 @@ A pipe that sits only on the front stile and the back stile will bow the field b
 
 I write the two diagonals of the opening on a scrap, not in my head. The numbers do not have to be poetry. They have to match each other closer than a drawer will forgive. I do not invent a thousandth. If they are off by a fat pencil line, I loosen, I move iron, I check the inside square again. I do not split the difference by cranking the short diagonal until the tape is happy and the side is a banana.
 
-A winding look if there will be a lid. See `d18`. Square in plan is not flat in the world. I have glued a box that taped well and still took a propeller from a hollow bench. The inside square will not catch that. The sticks will. Both.
+A winding look if there will be a lid. See *The case that winds* (essay 18). Square in plan is not flat in the world. I have glued a box that taped well and still took a propeller from a hollow bench. The inside square will not catch that. The sticks will. Both.
 
-Afternoon through the long glass is a flatterer on a rim. Raking light on the inside corner is meaner and better. I get my head in the bay. I do not square a case from the vise end of the bench, the way I do not trust a chair from that same end. See `d38`. That view is the view of the person who already decided the clamps were right.
+Afternoon through the long glass is a flatterer on a rim. Raking light on the inside corner is meaner and better. I get my head in the bay. I do not square a case from the vise end of the bench, the way I do not trust a chair from that same end. See *The clamp that racks the chair* (essay 38). That view is the view of the person who already decided the clamps were right.
 
 ## After I walk
 

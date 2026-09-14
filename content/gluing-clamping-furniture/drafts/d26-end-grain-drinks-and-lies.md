@@ -5,10 +5,11 @@ slug: end-grain-drinks-and-lies
 status: staged
 stage: spread
 voice: human
+voice_check: edited
 cluster: application
 series: gluing-clamping-furniture
 dek: End grain will take a cup of glue and still not be a joint. Size it if you must. Better: do not ask end grain to be a cheek.
-word_count: 926
+word_count: 942
 topics: [end-grain, sizing, miters]
 figures:
   - id: fig-01
@@ -31,7 +32,7 @@ Long grain to long grain is a furniture joint. End grain to long grain is a dowe
 
 If I must glue a miter, I size: a thin wash, wait until it is dull, then a real coat, then close. Hide does this kindly. PVA does it if you do not wait so long that the wash becomes a peel. I do not invent a kitchen-timer religion. I watch the sheen.
 
-A breadboard tongue is mostly long grain if you cut it that way. The end of the table is end grain in the slot. That is why the middle glue is a short citizen and the pins do the rest. See `d21`.
+A breadboard tongue is mostly long grain if you cut it that way. The end of the table is end grain in the slot. That is why the middle glue is a short citizen and the pins do the rest. See *Glue the middle of the breadboard* (essay 21).
 
 ## Reinforcement is not shame
 
@@ -51,7 +52,7 @@ I have trusted a butt on a small box because the box was small. The lid racked t
 
 I have waited too long on PVA and closed a miter on a skin. The skin is not a film between two faces. It is a piece of plastic that used to be glue. The joint held until it didn’t. I have also not waited long enough and closed on a drink. Both look like I did something. Both are the porch again. `[VERIFY]` if I ever cite a sheet for the wait. In this shop I cite the dull.
 
-Sizing the end of a top before a breadboard goes on is not romance. It is how I stop the slot from becoming a sponge I cannot get back to. See `d21`.
+Sizing the end of a top before a breadboard goes on is not romance. It is how I stop the slot from becoming a sponge I cannot get back to. See *Glue the middle of the breadboard* (essay 21).
 
 ## Keys after the wish
 

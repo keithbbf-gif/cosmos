@@ -5,6 +5,7 @@ slug: the-winding-case
 status: staged
 stage: fit
 voice: human
+voice_check: edited
 cluster: rehearsal
 series: gluing-clamping-furniture
 dek: A box can be square in plan and twisted in elevation. Winding sticks on the dry-fit. The lid will not forgive a case you glued into a propeller.

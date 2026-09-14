@@ -5,10 +5,11 @@ slug: do-not-mix-religions-in-one-chair
 status: staged
 stage: cure
 voice: human
+voice_check: edited
 cluster: aftermath
 series: gluing-clamping-furniture
 dek: Hide steams. PVA fights. Epoxy does not come apart. A future person should meet one glue. Repair is the argument that starts at the first bottle.
-word_count: 778
+word_count: 795
 topics: [repair, hide, pva, epoxy]
 figures:
   - id: fig-01
@@ -47,7 +48,7 @@ I have steamed a white joint because I wanted the old chair to be one chair agai
 
 I have opened a chair and found brown, white, and a gray epoxy in a repaired break. I cut the break. I picked the rest. I put hide back in the joints that could take hide, and I wrote epoxy on the inside of the broken post so the next steam would not be a fool. Three religions in one animal is a museum of indecision. Two is already a problem.
 
-Yellow because the pot was cold is how the fossil gets in. The pot was not ready. The yellow bottle was. The joint was a joint. I told myself I would steam the others later and this one “didn’t matter.” It mattered when I steamed the others. See `d03` for the bottle that is not the pot. This page is only the mix.
+Yellow because the pot was cold is how the fossil gets in. The pot was not ready. The yellow bottle was. The joint was a joint. I told myself I would steam the others later and this one “didn’t matter.” It mattered when I steamed the others. See *Hide after the pot essay* (essay 3) for the bottle that is not the pot. This page is only the mix.
 
 ## Iron on the wrong blister
 
@@ -55,7 +56,7 @@ I have guessed what was under a skin. The scorch was a dull county in an otherwi
 
 ## When the stock is still rails
 
-A painted kitchen cousin can be PVA from the first joint and I will not apologize. That chair is a chair that will be scraped and painted again. A hide dining animal is a different promise. I pick the religion when the stock is still rails, not when the pot is cold and the yellow is closer. See `d19`.
+A painted kitchen cousin can be PVA from the first joint and I will not apologize. That chair is a chair that will be scraped and painted again. A hide dining animal is a different promise. I pick the religion when the stock is still rails, not when the pot is cold and the yellow is closer. See *The chair is an animal with four opinions* (essay 19).
 
 I have opened a chair I did not glue the first time. Brown in three holes, white in one, no note. I treated it as mixed from the minute I saw the white. I did not steam the whole animal and hope. I opened what would open, I cut what would not, I chose one religion for what I put back. The person who mixed it is not a name I own. The mix is.
 

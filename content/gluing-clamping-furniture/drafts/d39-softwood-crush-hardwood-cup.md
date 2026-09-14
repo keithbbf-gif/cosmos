@@ -5,10 +5,11 @@ slug: softwood-crush-hardwood-cup
 status: staged
 stage: press
 voice: human
+voice_check: edited
 cluster: clamps
 series: gluing-clamping-furniture
 dek: Pine keeps a jaw print. Oak keeps a cup if you leave it on a cold table. Pads for the first. Stickers for the second.
-word_count: 779
+word_count: 793
 topics: [crush, cup, pads, stickers]
 figures:
   - id: fig-01
@@ -25,7 +26,7 @@ The poplar stretcher had a rectangle in it, crisp as a stamp. I had padded one j
 
 <!-- PHOTO: fig-01 D:\BBF\BBF Photos — jaw print in pine beside a stickered oak panel (filename pending shop pull) -->
 
-Pads bigger than the jaw. Both jaws. Softwood especially. See `d15`. I sand a print if I must and I still see it in raking light after stain. Better not to write it.
+Pads bigger than the jaw. Both jaws. Softwood especially. See *Pads, wax paper, and the black ring* (essay 15). I sand a print if I must and I still see it in raking light after stain. Better not to write it.
 
 ## Hardwood cup is air
 
@@ -53,7 +54,7 @@ Pine in this county is cheap until you print it. Poplar is the furniture softwoo
 
 The oak top had come out of clamps honest. I needed the bench. The saw was empty and flat-looking. I left the top on the iron overnight “just until morning.” Morning was a shy plant. The underside had slept on cold steel. The top face had slept in shop air. It cupped toward the iron.
 
-I have also left a panel on a hollow bench and blamed the jointer. The bench was the jointer. The saw is a convenient liar. Mystery cup is a week of weather. A banana is a clamp smile. See `d36`. This page is the overnight kind: steel you trusted, stickers you were too tired to pull.
+I have also left a panel on a hollow bench and blamed the jointer. The bench was the jointer. The saw is a convenient liar. Mystery cup is a week of weather. A banana is a clamp smile. See *The banana panel* (essay 36). This page is the overnight kind: steel you trusted, stickers you were too tired to pull.
 
 If I must set a top down for ten minutes, I set it on three dry sticks, not on the saw, not on the pipes I just hung. Ten minutes in this shop in August is long enough for a thin panel to learn the steel.
 

@@ -5,6 +5,7 @@ slug: hide-after-the-pot-essay
 status: staged
 stage: choose
 voice: human
+voice_check: edited
 cluster: glue
 series: gluing-clamping-furniture
 dek: The pot already has its page. This is the other hide work — liquid urea, bloom you actually opened, gel on cold oak, and where the pot does not belong.

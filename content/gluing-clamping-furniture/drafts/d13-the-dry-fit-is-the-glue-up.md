@@ -5,6 +5,7 @@ slug: the-dry-fit-is-the-glue-up
 status: staged
 stage: fit
 voice: human
+voice_check: edited
 cluster: rehearsal
 series: gluing-clamping-furniture
 dek: The craft pack already said not to hunt a clamp. This is the rehearsal as a piece of furniture — what you pick up, rack, mark, and refuse to glue.

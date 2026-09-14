@@ -5,6 +5,7 @@ slug: what-the-yellow-bottle-is
 status: staged
 stage: choose
 voice: human
+voice_check: edited
 cluster: glue
 series: gluing-clamping-furniture
 dek: Aliphatic PVA is a family, not a personality. Interior, water-resistant, and “the dark one” are different clocks and different creeps.

@@ -5,10 +5,11 @@ slug: hide-on-cold-oak
 status: staged
 stage: spread
 voice: human
+voice_check: edited
 cluster: application
 series: gluing-clamping-furniture
 dek: The pot can be right and the cheek still wrong. Gel on the wood is not a glue line. Warm the part. Do not boil the pot to chase the rail.
-word_count: 1045
+word_count: 1068
 topics: [hide, gel, temperature]
 figures:
   - id: fig-01
@@ -57,17 +58,17 @@ I do not chase the rail by turning the pot up. The pot essay already told you wh
 
 ## The order I actually use
 
-If the work is end grain — a miter I should have reinforced, a breadboard tongue I am only sizing — I still warm first. A size on a frozen end is a drink that never becomes a film. See `d26`. Warm, then the disappearing coat, then the coat I will close. If I skip the warm, I get two leathers and a mouth that opens when someone leans.
+If the work is end grain — a miter I should have reinforced, a breadboard tongue I am only sizing — I still warm first. A size on a frozen end is a drink that never becomes a film. See *End grain drinks and lies* (essay 26). Warm, then the disappearing coat, then the coat I will close. If I skip the warm, I get two leathers and a mouth that opens when someone leans.
 
 Long grain is the same order without the size unless the oak is thirsty in a way I can see. Thirsty and cold is a trap. The wood looks like it wants glue. It wants heat. I give it heat.
 
-I stage the clamps and the pads before the brush leaves the pot. Open time on a correctly warm cheek is still a clock. See `d16`. A pad hunt is how a good film becomes a skin while I swear at a coffee can.
+I stage the clamps and the pads before the brush leaves the pot. Open time on a correctly warm cheek is still a clock. See *Rehearse with a clock on the bench* (essay 16). A pad hunt is how a good film becomes a skin while I swear at a coffee can.
 
 ## Liquid hide on the same cold oak
 
 I trusted the bottle because it poured in a shop that was not warm enough for the pot. The stile was still a wrench. The liquid hide laid out like it was doing me a favor. I closed. I even got a bead. The next week I could pick a skin at the shoulder with a fingernail. The urea kept the bottle honest. It did not keep the oak honest. Convenience is a pour. It is not a climate.
 
-I still walk the parts to the warm end. See `d03` for the bottle versus the pot. This page is only the cheek.
+I still walk the parts to the warm end. See *Hide after the pot essay* (essay 3) for the bottle versus the pot. This page is only the cheek.
 
 ## A peel is a diagnosis
 

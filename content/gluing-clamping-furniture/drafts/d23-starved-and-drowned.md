@@ -5,10 +5,11 @@ slug: starved-and-drowned
 status: staged
 stage: spread
 voice: human
+voice_check: edited
 cluster: application
 series: gluing-clamping-furniture
 dek: Too little glue is a dry cheek. Too much is a hydraulic tenon and a smear you will sand for a week. The witness is an even bead, not a flood.
-word_count: 818
+word_count: 843
 topics: [spread, squeeze-out, starved-joint]
 figures:
   - id: fig-01
@@ -35,11 +36,11 @@ How much: enough that I cannot see dry wood through the film, not so much that i
 
 ## Starved is a clamp story too
 
-Hungry bars pump the middle dry. A fit that was already sloppy lets the glue run into the gap and leave the high spots naked. Recut. Ease the pressure. See `d01` and `d31`. Starvation is often a pressure problem wearing a spread costume.
+Hungry bars pump the middle dry. A fit that was already sloppy lets the glue run into the gap and leave the high spots naked. Recut. Ease the pressure. See *Glue is not a clamp* (essay 1) and *Enough to close, not to crush* (essay 31). Starvation is often a pressure problem wearing a spread costume.
 
 ## Drowned is a mortise story too
 
-A puddle in the floor of a mortise will push the tenon back at you. The joint looks possessed. It is just glue with nowhere to go. Butter the cheeks. Leave the floor a film. See `d24`.
+A puddle in the floor of a mortise will push the tenon back at you. The joint looks possessed. It is just glue with nowhere to go. Butter the cheeks. Leave the floor a film. See *Both cheeks, not a puddle in the mortise* (essay 24).
 
 ## The scrap pair I keep for this
 

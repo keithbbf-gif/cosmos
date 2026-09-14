@@ -5,6 +5,7 @@ slug: ca-is-a-jig-glue
 status: staged
 stage: choose
 voice: human
+voice_check: edited
 cluster: glue
 series: gluing-clamping-furniture
 dek: Cyanoacrylate tacks a fence, a wedge, a broken horn. It is not a chair rail. Accelerator is a clock you cannot take back.

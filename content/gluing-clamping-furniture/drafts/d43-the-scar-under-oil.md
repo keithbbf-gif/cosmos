@@ -5,10 +5,11 @@ slug: the-scar-under-oil
 status: staged
 stage: cure
 voice: human
+voice_check: edited
 cluster: aftermath
 series: gluing-clamping-furniture
 dek: Glue stain is not figure. Oil will introduce it. Tape, lift, and a test scrap beat a pale lightning bolt in cherry.
-word_count: 853
+word_count: 867
 topics: [glue-stain, oil, finish]
 figures:
   - id: fig-01
@@ -21,7 +22,7 @@ verify:
   - "None beyond ordinary shop practice"
 ---
 
-I thought I had sanded past it. Oil said I had not. A pale bolt across a cherry rail, bright as a mistake. See `d28`. This is the cure-room version: what you do when the scar is already there, and what you do so the next rail never gets one.
+I thought I had sanded past it. Oil said I had not. A pale bolt across a cherry rail, bright as a mistake. See *Glue on the finish face* (essay 28). This is the cure-room version: what you do when the scar is already there, and what you do so the next rail never gets one.
 
 <!-- PHOTO: fig-01 D:\BBF\BBF Photos — pale glue scar on oiled cherry or maple (filename pending shop pull) -->
 
@@ -61,7 +62,7 @@ I have oiled a cherry rail from one end and watched the bolt appear under the ra
 
 I do not sand harder at that moment. Harder is a hollow. I stop. I decide scrape-deeper or recut. I have kept going with the rag to “see the whole thing.” The whole thing was a bolt I already knew was there, plus oil in a pore I then had to wait on before I could scrape again.
 
-A dirty wipe at glue-up is how most of these bolts get scheduled. I have wiped a bead with a rag that had already painted three other seams. The fourth seam was the show face. See `d27`. The oil did not invent the scar. The rag did. Oil only introduced it.
+A dirty wipe at glue-up is how most of these bolts get scheduled. I have wiped a bead with a rag that had already painted three other seams. The fourth seam was the show face. See *Squeeze-out is a witness* (essay 27). The oil did not invent the scar. The rag did. Oil only introduced it.
 
 ## The judgment
 

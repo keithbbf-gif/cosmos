@@ -5,6 +5,7 @@ slug: glue-is-not-a-clamp
 status: staged
 stage: choose
 voice: human
+voice_check: edited
 cluster: glue
 series: gluing-clamping-furniture
 dek: A bottle will not close a joint you did not cut. The glue line is a film. The clamp is a hand. Neither one is wood.

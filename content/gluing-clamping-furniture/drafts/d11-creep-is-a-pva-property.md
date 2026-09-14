@@ -5,6 +5,7 @@ slug: creep-is-a-pva-property
 status: staged
 stage: choose
 voice: human
+voice_check: edited
 cluster: glue
 series: gluing-clamping-furniture
 dek: A thick aliphatic line under constant rack will flow. That is the plastic doing what plastic does. Hide glasses. PVA can hinge.

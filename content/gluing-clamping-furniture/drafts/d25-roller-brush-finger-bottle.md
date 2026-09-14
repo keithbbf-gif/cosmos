@@ -5,10 +5,11 @@ slug: roller-brush-finger-bottle
 status: staged
 stage: spread
 voice: human
+voice_check: edited
 cluster: application
 series: gluing-clamping-furniture
 dek: Pick a tool on purpose. A bottle bead is a start, not a film. A roller is a panel. A finger is a tenon. A dedicated brush is hide.
-word_count: 897
+word_count: 916
 topics: [tools, spread]
 figures:
   - id: fig-01
@@ -37,7 +38,7 @@ Hide wants a brush. The pot essay already taught the sheet off the bristles. PVA
 
 ## Finger
 
-A tenon cheek, a dovetail pin, a place a roller will not go. I wear a glove if the glue is a glue I do not want in a cut. I wash. I do not spread urea or epoxy with a bare finger and then eat an apple. See `d47`.
+A tenon cheek, a dovetail pin, a place a roller will not go. I wear a glove if the glue is a glue I do not want in a cut. I wash. I do not spread urea or epoxy with a bare finger and then eat an apple. See *The window stays open* (essay 47).
 
 ## Bottle only
 
@@ -55,11 +56,11 @@ The brush that lives in the pot does not visit the yellow bottle. PVA in the hid
 
 PVA will take a cheap brush. A silicone brush is easy to wash and easy to pretend is clean when it is not. I flex it. I look at the heel, where yesterday’s skin hides. A skin in the heel draws roads the way a bottle draws roads. I throw a brush that has become a sculpture. Glue is cheaper than a striped seam.
 
-Urea has its own stick and its own cup. I do not “use the stick” across religions. The stick becomes a brick, or worse, a brick that flakes into the next film. See `d04` if the powder is the afternoon. This page is only the drawer: one tool, one cup, one wash.
+Urea has its own stick and its own cup. I do not “use the stick” across religions. The stick becomes a brick, or worse, a brick that flakes into the next film. See *Urea is a different pot* (essay 4) if the powder is the afternoon. This page is only the drawer: one tool, one cup, one wash.
 
 ## A finger is a tool I wash
 
-The apple is not a joke. It is a thing I have done with PVA on my hand and decided not to repeat with a pot that has a sheet I actually read. See `d47`.
+The apple is not a joke. It is a thing I have done with PVA on my hand and decided not to repeat with a pot that has a sheet I actually read. See *The window stays open* (essay 47).
 
 A gloved finger still has to make a film. I have dabbed and called it buttered. Dab is a road the width of a fingerprint. I look at the cheek in the light. If I can see dry wood I have not finished. If I can see a drip starting for the floor I have started a puddle.
 

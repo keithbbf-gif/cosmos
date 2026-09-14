@@ -5,6 +5,7 @@ slug: cauls-are-the-clamp-you-forgot
 status: staged
 stage: fit
 voice: human
+voice_check: edited
 cluster: rehearsal
 series: gluing-clamping-furniture
 dek: A crowned caul puts pressure where a bar cannot reach. A flat caul on a hollow glue-up presses the ends and starves the middle.

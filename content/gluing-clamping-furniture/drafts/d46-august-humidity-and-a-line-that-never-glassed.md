@@ -5,10 +5,11 @@ slug: august-humidity-and-a-line-that-never-glassed
 status: staged
 stage: cure
 voice: human
+voice_check: edited
 cluster: aftermath
 series: gluing-clamping-furniture
 dek: A wet week can keep a PVA seam tacky and a hide film from drying into a glass. The shop’s air is part of the cure. Do not truck a green joint.
-word_count: 802
+word_count: 826
 topics: [humidity, cure, arkansas]
 figures:
   - id: fig-01
@@ -37,15 +38,15 @@ A green joint on a trailer is a rack and a creep. I do not ship a chair the morn
 
 ## The calendar is not a hygrometer
 
-I have machined a tacky seam because the calendar said I could. The cutter smeared. The smear was a pale county that oil later introduced. See `d41` and `d43`. My finger is the meter I actually own. If the seam picks up dust, it is not a board. I do not invent an RH number I did not read.
+I have machined a tacky seam because the calendar said I could. The cutter smeared. The smear was a pale county that oil later introduced. See *Unclamp is not machine* (essay 41) and *The scar under oil* (essay 43). My finger is the meter I actually own. If the seam picks up dust, it is not a board. I do not invent an RH number I did not read.
 
 Bradley County air in a 65-foot shop with glass on the long wall can feel like a cloth for a week. The sheet’s hours were written in a drier county. I wait longer than I want to. I sticker. I do not load.
 
 ## A fan that only stirs
 
-I have pointed a fan at a panel and felt virtuous. The panel stayed tacky. The fan had moved the same wet air over the same wet film. I do not stack two green tops to “save space.” I have stacked. The lower top stayed a gel in the field and skinned at the edges, a doughnut of cure. See `d39`.
+I have pointed a fan at a panel and felt virtuous. The panel stayed tacky. The fan had moved the same wet air over the same wet film. I do not stack two green tops to “save space.” I have stacked. The lower top stayed a gel in the field and skinned at the edges, a doughnut of cure. See *Softwood crush, hardwood cup* (essay 39).
 
-Winter is the other humidity story. A dry heated room can take water out of a panel too fast on one face if that face is toward a vent. I do not set a green top in front of a heater and call it a kiln. Stickers. Both sides. Shade from the glass stripe. See `d29`.
+Winter is the other humidity story. A dry heated room can take water out of a panel too fast on one face if that face is toward a vent. I do not set a green top in front of a heater and call it a kiln. Stickers. Both sides. Shade from the glass stripe. See *Winter skin, August flash* (essay 29).
 
 ## Friday after a Thursday storm
 

@@ -5,10 +5,11 @@ slug: the-chair-is-an-animal
 status: staged
 stage: fit
 voice: human
+voice_check: edited
 cluster: rehearsal
 series: gluing-clamping-furniture
 dek: Four legs, a rack, and a clamp that can teach a chair to limp. Dry-fit on its feet. Glue in sessions if the animal fights you.
-word_count: 1010
+word_count: 1024
 topics: [chairs, rack, sessions]
 figures:
   - id: fig-01
@@ -33,7 +34,7 @@ A bar across a side can pull a leg in and give you a chair that stands on three.
 
 ## Sessions are respect
 
-Front assembly. Back assembly. Then the side rails. Hide in August will not give you a whole chair if you are alone. PVA will give you the minutes and still not give you four perfect corners if you rush. I have glued a whole chair in one hero session. I have also recut a rail. Two sessions is not cowardice. See `d40`.
+Front assembly. Back assembly. Then the side rails. Hide in August will not give you a whole chair if you are alone. PVA will give you the minutes and still not give you four perfect corners if you rush. I have glued a whole chair in one hero session. I have also recut a rail. Two sessions is not cowardice. See *Two sessions is not cowardice* (essay 40).
 
 Pins and drawbores are allowed. They are how a chair stays a chair when the film is thin. They are not how you skip the feet test.
 
@@ -53,7 +54,7 @@ The bench lies about chairs. A bench holds the back like a box. A floor asks the
 
 I buttered every tenon because I wanted to be the kind of person who can keep four corners alive. Hide, August, glass wall throwing heat. The front went home. The back went home. The first side rail went home with a tap I liked. The second side rail went home with a tap I did not, and I cranked a bar to close a shoulder that had already started to skin. That shoulder is the one I recut later. The clock was not the villain. I was the villain for asking one clock to be four assemblies.
 
-Front, then back, then sides when both ends are things I can hold without a panic. I write the order on tape. I do not invent the order while the brush is wet. See `d40` when the clock is the whole chapter. Here the clock is only why the animal gets to keep its opinions.
+Front, then back, then sides when both ends are things I can hold without a panic. I write the order on tape. I do not invent the order while the brush is wet. See *Two sessions is not cowardice* (essay 40) when the clock is the whole chapter. Here the clock is only why the animal gets to keep its opinions.
 
 ## What a bar does to a post
 

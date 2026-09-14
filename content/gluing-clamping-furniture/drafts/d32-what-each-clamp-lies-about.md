@@ -5,10 +5,11 @@ slug: what-each-clamp-lies-about
 status: staged
 stage: press
 voice: human
+voice_check: edited
 cluster: clamps
 series: gluing-clamping-furniture
 dek: Pipes stain. Bars flex. Parallels are heavy and still print. F-clamps walk. Pick the iron for the lie you can live with.
-word_count: 941
+word_count: 980
 topics: [pipe-clamps, bar-clamps, parallel-clamps]
 figures:
   - id: fig-01
@@ -47,7 +48,7 @@ They have their own pages. They lie less about shape and more about how slow you
 
 ## The bracelet I earned on purpose
 
-I knew pipes stain. I had read it. I still laid a bare pipe in a wet bead on cherry because I was watching the seam and not the iron. In the morning the rail had two bracelets, crisp as jewelry, the diameter of the pipe. Tannin, water, steel. See `d15`. I taped the pipes after that, or I kept them off the work, and I still catch myself setting a pipe down in a smear because the smear is where the hand wants to rest.
+I knew pipes stain. I had read it. I still laid a bare pipe in a wet bead on cherry because I was watching the seam and not the iron. In the morning the rail had two bracelets, crisp as jewelry, the diameter of the pipe. Tannin, water, steel. See *Pads, wax paper, and the black ring* (essay 15). I taped the pipes after that, or I kept them off the work, and I still catch myself setting a pipe down in a smear because the smear is where the hand wants to rest.
 
 A pipe will also roll. I have had a long panel walk off the bench because the pipes were the feet and the feet were round. I chock them now. The stain is the famous lie. The roll is the one that breaks a corner.
 
@@ -55,11 +56,11 @@ A pipe will also roll. I have had a long panel walk off the bench because the pi
 
 The case was a small cabinet. I was short on pipes and rich in light bars. I put a bar across each corner like a diagonal thought. The bars flexed. The flex racked the box into a shape that looked square from the door and measured as a lie on the diagonals. I found it when the back would not sit. I slacked, I squared from the inside, I replaced two bars with a pipe and a parallel that did not bow. The box came back. The afternoon did not.
 
-A bar is a gift on a picture frame and a small door. I watch the section. If I can bend it with my hands in the rack, I do not ask it to be a case. I also watch the jaw pad. A cheap bar will cock and print a corner. I pad. I stop. See `d31`.
+A bar is a gift on a picture frame and a small door. I watch the section. If I can bend it with my hands in the rack, I do not ask it to be a case. I also watch the jaw pad. A cheap bar will cock and print a corner. I pad. I stop. See *Enough to close, not to crush* (essay 31).
 
 ## The chair that went limp
 
-Parallels keep a case honest if the case was already a case. I believe that. I hung two of them on a chair rail because I wanted that honesty on a joint that was not a box. The rail sagged under the iron. The tenon, which had been home, became a tenon with a gap at the shoulder I could see in raking light. I took the parallels off and put handscrews on, which is `d33`, and the shoulder sat down again. The lie was weight. Square jaws do not get to ignore gravity.
+Parallels keep a case honest if the case was already a case. I believe that. I hung two of them on a chair rail because I wanted that honesty on a joint that was not a box. The rail sagged under the iron. The tenon, which had been home, became a tenon with a gap at the shoulder I could see in raking light. I took the parallels off and put handscrews on, which is *Handscrews still earn the bench* (essay 33), and the shoulder sat down again. The lie was weight. Square jaws do not get to ignore gravity.
 
 They will still print. I have stamped pine with a parallel I trusted because it was the expensive iron. Expense is not a pad.
 
@@ -71,7 +72,7 @@ An F-clamp is a third hand on a jig and a keeper on a caul. I do not let a rack 
 
 ## Why the rack is mixed
 
-I used to want one religion. Then I owned bracelets, a trapezoid, a limp rail, and a dining base that had been chased. The mix is the work. Pipes for length I can tape. Parallels for a case that is already close. Bars for a small frame I will watch. F-clamps for help. Handscrews for a taper. Bands for a hoop. See `d33` and `d34`. I pick the liar I can live with that morning. Nearest is how the bracelets happened. Heavy is how the chair learned a limp.
+I used to want one religion. Then I owned bracelets, a trapezoid, a limp rail, and a dining base that had been chased. The mix is the work. Pipes for length I can tape. Parallels for a case that is already close. Bars for a small frame I will watch. F-clamps for help. Handscrews for a taper. Bands for a hoop. See *Handscrews still earn the bench* (essay 33) and *Band clamps and the round thing* (essay 34). I pick the liar I can live with that morning. Nearest is how the bracelets happened. Heavy is how the chair learned a limp.
 
 ## The judgment
 

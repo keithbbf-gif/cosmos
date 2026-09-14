@@ -5,10 +5,11 @@ slug: biscuits-are-alignment
 status: staged
 stage: fit
 voice: human
+voice_check: edited
 cluster: rehearsal
 series: gluing-clamping-furniture
 dek: A spline that swells is a helper. It is not a tenon. If the edge does not meet, the biscuit will not save the seam.
-word_count: 900
+word_count: 910
 topics: [biscuits, dominos, alignment]
 figures:
   - id: fig-01
@@ -57,7 +58,7 @@ Dowels are older than both. I have drilled a pair of dowel holes in a panel edge
 
 ## A lake in the slot
 
-I learned the lake on a walnut field I then had to scrape in the pores. The scrape took the plump line and left a pale county. Stain found the county. The biscuits had done their alignment. The bottle had done a religion I did not ask for. A domino slot will hold a puddle the same way a mortise will. See `d24` if the helper has started to pretend it is a tenon.
+I learned the lake on a walnut field I then had to scrape in the pores. The scrape took the plump line and left a pale county. Stain found the county. The biscuits had done their alignment. The bottle had done a religion I did not ask for. A domino slot will hold a puddle the same way a mortise will. See *Both cheeks, not a puddle in the mortise* (essay 24) if the helper has started to pretend it is a tenon.
 
 ## What I will not helper
 

@@ -29,6 +29,7 @@ REQUIRED = (
     "status: staged",
     "stage:",
     "voice: human",
+    "voice_check:",
     "cluster:",
     "series: gluing-clamping-furniture",
     "dek:",
@@ -65,6 +66,8 @@ def main() -> int:
             errors.append(f"{path.name}: status is not staged")
         if "voice: human" not in fm:
             errors.append(f"{path.name}: voice is not human")
+        if "voice_check: edited" not in fm and "voice_check: human" not in fm:
+            errors.append(f"{path.name}: missing voice_check (edited or human)")
         n = body_words(text)
         if n < 680:
             errors.append(f"{path.name}: short body ({n} words)")

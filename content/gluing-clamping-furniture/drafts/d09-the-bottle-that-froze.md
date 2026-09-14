@@ -5,6 +5,7 @@ slug: the-bottle-that-froze
 status: staged
 stage: choose
 voice: human
+voice_check: edited
 cluster: glue
 series: gluing-clamping-furniture
 dek: Shelf life is a date you write on the shoulder. Ice and a crusted cap are not “still good.” Glue is cheaper than a dining top.

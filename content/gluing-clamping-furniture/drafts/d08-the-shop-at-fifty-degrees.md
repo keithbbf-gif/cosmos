@@ -5,10 +5,11 @@ slug: the-shop-at-fifty-degrees
 status: staged
 stage: choose
 voice: human
+voice_check: edited
 cluster: glue
 series: gluing-clamping-furniture
 dek: Most bottles want a shop warmer than a January lean-to. The film that forms in the cold is a rumor. Warm the parts or wait.
-word_count: 1089
+word_count: 1107
 topics: [temperature, winter, gel]
 figures:
   - id: fig-01
@@ -35,7 +36,7 @@ A space heater aimed at the ceiling is a comfort. A rail on a cold table is stil
 
 The night-before pile is a practice, not a mood. Stretchers on stickers, off the floor, away from the door that dumps Bradley County air every time I walk a board in from the truck. I used to leave the pile on the steel because the steel was clear. Clear is not warm. I have also left a case side on the concrete because I needed the bench. The concrete drank the night. In the morning the side felt like a tombstone. I glued it anyway once. The PVA looked closed. A humid week later the seam opened like it had been waiting.
 
-The bottle itself can be cold. A frozen PVA that “thawed” is a bottle I throw away. The polymer does not forgive ice the way a person forgives a jacket. If it livered, if it coughs rope, it is trash. See `d09`.
+The bottle itself can be cold. A frozen PVA that “thawed” is a bottle I throw away. The polymer does not forgive ice the way a person forgives a jacket. If it livered, if it coughs rope, it is trash. See *The bottle that froze and the one that sat open* (essay 9).
 
 I have set a yellow bottle on the heater “for a minute” so it would pour. The minute became a lunch. Heat ages PVA. A bottle that pours like cream after a bake is not a kinder bottle. It is an older bottle. I warm parts. I do not cook glue.
 
@@ -57,7 +58,7 @@ Epoxy in the same shop is a different punishment. The kit will kick eventually. 
 
 ## Summer is the other temperature
 
-This page is winter. August has its own page (`d29`). The shared rule is: the wood’s temperature is the glue’s temperature. A rail that sat in a truck cab at a hundred degrees will flash PVA while you are still spreading the second cheek. A rail that sat in a truck bed in January will gel hide. I do not glue off the tailgate. I let the parts become shop parts.
+This page is winter. August has its own page — *Winter skin, August flash* (essay 29). The shared rule is: the wood’s temperature is the glue’s temperature. A rail that sat in a truck cab at a hundred degrees will flash PVA while you are still spreading the second cheek. A rail that sat in a truck bed in January will gel hide. I do not glue off the tailgate. I let the parts become shop parts.
 
 The tailgate glue-up is a story people tell like it is toughness. I have done it. The oak came off a truck on a Wilmar morning with frost in the grain. I spread hide because I wanted to be the kind of shop that glues when the wood arrives. The brush sheeted. The cheek rubbered. I drove home with a joint that had never been a joint. The parts become shop parts or they do not get a bottle.
 

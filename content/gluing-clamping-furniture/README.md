@@ -41,6 +41,9 @@ joint” recipes get pushed off the table. If a number is a data-sheet
 claim, the draft marks `[VERIFY]` until someone reads the sheet in the
 room. It does not invent a second trial.
 
+All **48** staged drafts carry `voice_check: edited` (2026-09-14 editor pass
+on PR #535). Pack meta files stay `voice_check: human`.
+
 ## Do not treat this as
 
 - A substitute for the glue manufacturer’s sheet

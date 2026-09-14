@@ -5,6 +5,7 @@ slug: glue-the-middle-of-the-breadboard
 status: staged
 stage: fit
 voice: human
+voice_check: edited
 cluster: rehearsal
 series: gluing-clamping-furniture
 dek: A breadboard is a tongue that must slide. Glue the center. Pin the wings in slots. A fully glued breadboard is a split you named a finish detail.

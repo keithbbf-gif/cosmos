@@ -5,10 +5,11 @@ slug: two-sessions-is-not-cowardice
 status: staged
 stage: press
 voice: human
+voice_check: edited
 cluster: clamps
 series: gluing-clamping-furniture
 dek: Ends, then stretchers. Front, then back, then sides. A hero session is three good corners and one you rushed. Split the play.
-word_count: 765
+word_count: 794
 topics: [sessions, open-time, chairs, tables]
 figures:
   - id: fig-01
@@ -45,7 +46,7 @@ I write “ends only” because I have a habit of lying to myself at the bench. 
 
 A second pair of hands can keep a whole chair alive if the dry-fit already wrote the order and the clamps are already on the floor. Help is not a license to invent the order while hide is on a cheek. I have had help and still split, because the animal was a dining chair and the shop was a kiln and I did not want a limp I would steam on Saturday.
 
-Help can hold a case while I read the inside square. Help can keep a panel from banana-ing while I set the last caul. Help cannot make a six-board argument into a top. See `d36`. If the rehearsal fought me, the wet play will not become kinder because someone else is in the room.
+Help can hold a case while I read the inside square. Help can keep a panel from banana-ing while I set the last caul. Help cannot make a six-board argument into a top. See *The banana panel* (essay 36). If the rehearsal fought me, the wet play will not become kinder because someone else is in the room.
 
 Pairs of panel boards have a clock I can keep. A meal of six edges does not. I glue in pairs, then I join the pairs, and I treat each glued pair as a patient — not as a pile I will get to after lunch.
 
@@ -55,9 +56,9 @@ I do not glue a stretcher that is the only thing keeping two ends from becoming 
 
 If the dry-fit already racked, I do not split my way around a bad rail. I recut. Two sessions is not a way to hide a daylight cheek overnight and hope PVA will be a jointer in the morning.
 
-Hide in January will gel on a cold oak cheek while I am still congratulating myself for having split the play. See `d30`. Split does not mean I can wander. The half I chose still wants warm parts and a rehearsal I already timed. See `d16`. PVA will give me minutes and still not give me four perfect corners if I use the minutes to hunt a pad.
+Hide in January will gel on a cold oak cheek while I am still congratulating myself for having split the play. See *Hide on cold oak is a skin* (essay 30). Split does not mean I can wander. The half I chose still wants warm parts and a rehearsal I already timed. See *Rehearse with a clock on the bench* (essay 16). PVA will give me minutes and still not give me four perfect corners if I use the minutes to hunt a pad.
 
-I have left a glued pair of panel boards on the saw “until the next pair.” The pair cupped. See `d39`. A session is not a pause you abandon.
+I have left a glued pair of panel boards on the saw “until the next pair.” The pair cupped. See *Softwood crush, hardwood cup* (essay 39). A session is not a pause you abandon.
 
 ## The judgment
 

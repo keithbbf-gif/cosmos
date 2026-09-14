@@ -5,6 +5,7 @@ slug: water-resistant-is-not-outdoor
 status: staged
 stage: choose
 voice: human
+voice_check: edited
 cluster: glue
 series: gluing-clamping-furniture
 dek: A kitchen wipe is not a rain year. Type II and Type III are classes on a label. A garden bench is a different religion.

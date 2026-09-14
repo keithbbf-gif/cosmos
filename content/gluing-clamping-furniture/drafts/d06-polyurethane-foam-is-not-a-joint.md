@@ -5,10 +5,11 @@ slug: polyurethane-foam-is-not-a-joint
 status: staged
 stage: choose
 voice: human
+voice_check: edited
 cluster: glue
 series: gluing-clamping-furniture
 dek: Moisture-cure polyurethane foams, stains, and fills a void with bread. That is a construction trick. It is not a furniture cheek.
-word_count: 751
+word_count: 757
 topics: [polyurethane, foam, moisture-cure]
 figures:
   - id: fig-01
@@ -51,7 +52,7 @@ I do not keep the bottle next to the yellow caps. Someone will grab it because i
 
 ## Fumes are not folklore
 
-Isocyanates are why the sheet talks about air and gloves. This essay is not a safety program. If we run PU at all, the window or the fan is already a decision, and the leftover bead is not something I wipe with a bare wrist. See `d47` for the shop’s fume page. This page is only here so the foam does not get a second chance at a furniture cheek.
+Isocyanates are why the sheet talks about air and gloves. This essay is not a safety program. If we run PU at all, the window or the fan is already a decision, and the leftover bead is not something I wipe with a bare wrist. See *The window stays open* (essay 47) for the shop’s fume page. This page is only here so the foam does not get a second chance at a furniture cheek.
 
 ## The scrap I still keep
 

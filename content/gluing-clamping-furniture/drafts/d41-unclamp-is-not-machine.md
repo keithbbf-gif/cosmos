@@ -5,10 +5,11 @@ slug: unclamp-is-not-machine
 status: staged
 stage: cure
 voice: human
+voice_check: edited
 cluster: aftermath
 series: gluing-clamping-furniture
 dek: The sheet’s clamp hour is not full strength. Pull the iron. Wait to plane. Wait to load. A gel smears. A green joint creeps.
-word_count: 788
+word_count: 828
 topics: [cure, machining, clamp-time]
 figures:
   - id: fig-01
@@ -21,7 +22,7 @@ verify:
   - "Clamp vs full-strength times: sheet that day [VERIFY]"
 ---
 
-I jointed at the hour plus one because the thicknesser was free. The cutter left a shiny streak and a hairline the next morning. See `d10`. This page is the habit after the iron: what I may do, what I may not.
+I jointed at the hour plus one because the thicknesser was free. The cutter left a shiny streak and a hairline the next morning. See *Four clocks, one bottle* (essay 10). This page is the habit after the iron: what I may do, what I may not.
 
 <!-- PHOTO: fig-01 D:\BBF\BBF Photos — panel out of clamps, still on stickers, not in the thicknesser (filename pending shop pull) -->
 
@@ -53,15 +54,15 @@ If I must take a high spot off a green panel, I take it with a sharp plane, a li
 
 ## The coffee can and the broom
 
-A tote on the field is a dent you will find after you have already called the glue-up done. I have set a coffee can on a green top because the can needed a home. The can left a ring. The ring was not pipe stain. It was a fool’s weight on a gel. See `d39`.
+A tote on the field is a dent you will find after you have already called the glue-up done. I have set a coffee can on a green top because the can needed a home. The can left a ring. The ring was not pipe stain. It was a fool’s weight on a gel. See *Softwood crush, hardwood cup* (essay 39).
 
-A chair can teach itself a new limp if you lean it against the wall on two legs. I set chairs on four feet or I hang them so they cannot rack. I do not lean a green animal in a corner like a broom. A PVA joint in a wet week will creep after the iron comes off. See `d11` and `d46`. Better to see a shoulder that opened now than after finish.
+A chair can teach itself a new limp if you lean it against the wall on two legs. I set chairs on four feet or I hang them so they cannot rack. I do not lean a green animal in a corner like a broom. A PVA joint in a wet week will creep after the iron comes off. See *Creep is a PVA property, not a rumor* (essay 11) and *August humidity and a line that never glassed* (essay 46). Better to see a shoulder that opened now than after finish.
 
 ## Load is a clamp you did not intend
 
 A table on a trailer the morning after a wet-week pull is a rack and a creep. The joints will take the road’s twist and keep a little of it. I have loaded too early because someone wanted Friday. Friday got a hairline. I do not invent that person. I invent the refusal.
 
-A leaf with a hip is the same sentence in a house. A green breadboard that you clamp to a base and then move is a breadboard you may have glued too far in the first place. See `d21`.
+A leaf with a hip is the same sentence in a house. A green breadboard that you clamp to a base and then move is a breadboard you may have glued too far in the first place. See *Glue the middle of the breadboard* (essay 21).
 
 I have carried a green case on its side through the door because the floor was in the way. The case took a parallelogram and kept a little of it. Carry on the bottom. Or wait. A rack you teach after the iron comes off is still a rack. The thicknesser will be free again tomorrow.
 

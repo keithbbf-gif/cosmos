@@ -5,6 +5,7 @@ slug: the-panel-is-not-in-the-glue
 status: staged
 stage: fit
 voice: human
+voice_check: edited
 cluster: rehearsal
 series: gluing-clamping-furniture
 dek: A frame-and-panel door is a frame you glue and a field you do not. Glue in the groove is a split you scheduled for August.

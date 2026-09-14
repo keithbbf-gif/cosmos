@@ -5,10 +5,11 @@ slug: enough-to-close-not-to-crush
 status: staged
 stage: press
 voice: human
+voice_check: edited
 cluster: clamps
 series: gluing-clamping-furniture
 dek: Pressure is the close of a film. Another quarter-turn after the grab is a bow. Hungry jaws starve the middle and print the pad.
-word_count: 1088
+word_count: 1129
 topics: [pressure, clamps, crush]
 figures:
   - id: fig-01
@@ -33,7 +34,7 @@ Sheets talk pounds. Shops talk whether the seam disappeared and whether the pane
 
 ## Softwood crush
 
-Pine takes a jaw print and keeps it. Poplar too. A pad that is smaller than the jaw is a stamp. See `d15` and `d39`. Hardwood still dishes if the jaw is a corner. I pad. I stop.
+Pine takes a jaw print and keeps it. Poplar too. A pad that is smaller than the jaw is a stamp. See *Pads, wax paper, and the black ring* (essay 15) and *Softwood crush, hardwood cup* (essay 39). Hardwood still dishes if the jaw is a corner. I pad. I stop.
 
 ## Hungry in the middle
 
@@ -45,7 +46,7 @@ I remember the sound better than the morning. A green, wooden complaint from the
 
 I sawed that top apart. I recut the edges until they closed with a tap. I glued it again and I stopped when the daylight died. No creak. The second top stayed a top. The first one had been a press I invented because I liked the sound of effort.
 
-The banana pattern — bars all on one face, no cauls — has its own page. See `d36`. This page is the crank inside any pattern. You can alternate the iron and still ruin a panel if you treat the screw as a jointer.
+The banana pattern — bars all on one face, no cauls — has its own page. See *The banana panel* (essay 36). This page is the crank inside any pattern. You can alternate the iron and still ruin a panel if you treat the screw as a jointer.
 
 ## Hide grabs and then you open it
 
@@ -61,15 +62,15 @@ I will not publish a house psi. We do not own the meter that would make the numb
 
 ## Softwood remembers the extra turn
 
-I printed a rectangle into a poplar stretcher because I padded the far jaw and forgot the near one, then I cranked as if the print would sand out. It sanded quieter. Stain found the rim of the stamp. See `d39`. Pine is the same guest book. I pad both jaws, bigger than the iron, and I stop when the joint closes. The pad is not permission to go hunting for a creak.
+I printed a rectangle into a poplar stretcher because I padded the far jaw and forgot the near one, then I cranked as if the print would sand out. It sanded quieter. Stain found the rim of the stamp. See *Softwood crush, hardwood cup* (essay 39). Pine is the same guest book. I pad both jaws, bigger than the iron, and I stop when the joint closes. The pad is not permission to go hunting for a creak.
 
 Hardwood is ruder in a different way. A parallel corner on a cherry arris will burnish. The shine lasts through a scrape. A hungry pipe on an oak edge will dish a place a hand will feel. I pad walnut too. Pride about "it's hard enough" is how I got a shiny bruise on a leg I had already scraped.
 
 ## Anger is a caul you do not have
 
-A wide panel with bars only at the rims will close the rims. The field stays a rumor. I have been angry at that rumor and tightened the rims until the panel smiled. The smile felt like I had won. I had starved the middle and crowned the top. Cauls are the clamp that reaches the field. See `d14`. I stage them in the dry-fit. I do not invent them after the creak.
+A wide panel with bars only at the rims will close the rims. The field stays a rumor. I have been angry at that rumor and tightened the rims until the panel smiled. The smile felt like I had won. I had starved the middle and crowned the top. Cauls are the clamp that reaches the field. See *Cauls are the clamp you forgot* (essay 14). I stage them in the dry-fit. I do not invent them after the creak.
 
-If a seam will not close without a hero, the hero is a recut. I have used the bars as a jointer. The joint came back in September. Glue is not a clamp. See `d01`. This page is only the hand on the screw after the joint is already a joint.
+If a seam will not close without a hero, the hero is a recut. I have used the bars as a jointer. The joint came back in September. Glue is not a clamp. See *Glue is not a clamp* (essay 1). This page is only the hand on the screw after the joint is already a joint.
 
 South Arkansas August will make you hurry the crank because the film is dying. Hurry is still not an extra turn. Spread less. Close sooner. Stop the same way.
 

@@ -5,6 +5,7 @@ slug: rehearse-with-a-clock
 status: staged
 stage: fit
 voice: human
+voice_check: edited
 cluster: rehearsal
 series: gluing-clamping-furniture
 dek: Open time is not a feeling. Time the dry-fit. If the rehearsal misses the sheet, split the session or change the glue.

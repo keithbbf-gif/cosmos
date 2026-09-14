@@ -5,10 +5,11 @@ slug: split-it-dont-fill-it
 status: staged
 stage: cure
 voice: human
+voice_check: edited
 cluster: aftermath
 series: gluing-clamping-furniture
 dek: A failed glue-up is a saw cut and a recut edge. Filler in a daylight seam is a gasket you will meet again in September.
-word_count: 766
+word_count: 815
 topics: [failure, repair, recut]
 figures:
   - id: fig-01
@@ -37,21 +38,21 @@ A knot void in a slab you already accepted. A nail hole in paint-grade. Not a di
 
 ## Name the liar
 
-I name it before I pick up a saw. Starved — no bead, or pearls and dry counties. Drowned — a river. Racked. Flashed — August skin on a cheek I closed anyway. Cold — hide rubber on oak I did not warm. See `d23`, `d29`, `d30`. If I cannot name it, I will fill it, because filler is what you reach for when you have not thought.
+I name it before I pick up a saw. Starved — no bead, or pearls and dry counties. Drowned — a river. Racked. Flashed — August skin on a cheek I closed anyway. Cold — hide rubber on oak I did not warm. See *Starved and drowned* (essay 23), *Winter skin, August flash* (essay 29), *Hide on cold oak is a skin* (essay 30). If I cannot name it, I will fill it, because filler is what you reach for when you have not thought.
 
-In the kerf I could see the film: fat at the ends, thin in the field, the banana I had cranked. See `d36`. I jointed to fresh wood. I glued a film. I do not invent that top as a sold job. I invent it as the top that did not get a gasket.
+In the kerf I could see the film: fat at the ends, thin in the field, the banana I had cranked. See *The banana panel* (essay 36). I jointed to fresh wood. I glued a film. I do not invent that top as a sold job. I invent it as the top that did not get a gasket.
 
-I have seen a filled seam go dull in a wet week and bright in a dry one, a little weather glass in a table. September opened it. Gaskets creep. Gaskets stain. Gaskets show under oil like a confession. See `d01`.
+I have seen a filled seam go dull in a wet week and bright in a dry one, a little weather glass in a table. September opened it. Gaskets creep. Gaskets stain. Gaskets show under oil like a confession. See *Glue is not a clamp* (essay 1).
 
 ## The shoulder I buttered
 
-A chair shoulder that failed is the same religion. I do not butter the daylight and clamp it “tighter this time.” I have buttered. The shoulder looked closed. A hip opened it. I opened it on purpose the second time, got to wood, recut the cheek that was gone. See `d45` if the hole is already two religions.
+A chair shoulder that failed is the same religion. I do not butter the daylight and clamp it “tighter this time.” I have buttered. The shoulder looked closed. A hip opened it. I opened it on purpose the second time, got to wood, recut the cheek that was gone. See *Do not mix religions in one chair* (essay 45) if the hole is already two religions.
 
 A narrower honest top is still a top. A full-width gasket is a story. I do not always have extra width. Then I lose a bit of overhang and I tell the truth.
 
 ## The nail hole that was allowed
 
-I have filled once, on a paint-grade pine case, a nail hole I made myself. That fill disappeared under paint. A wormhole I have already decided is character is the same small house. A breadboard tongue I glued too far is not a void — it is a recut, or living with a split I caused. See `d21`. I have split more than once on seams I wanted to save because I was tired. Tired is how filler gets a dining seam.
+I have filled once, on a paint-grade pine case, a nail hole I made myself. That fill disappeared under paint. A wormhole I have already decided is character is the same small house. A breadboard tongue I glued too far is not a void — it is a recut, or living with a split I caused. See *Glue the middle of the breadboard* (essay 21). I have split more than once on seams I wanted to save because I was tired. Tired is how filler gets a dining seam.
 
 ## Leftover gasket is a second liar
 

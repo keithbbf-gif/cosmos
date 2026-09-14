@@ -5,10 +5,11 @@ slug: squeeze-out-is-a-witness
 status: staged
 stage: spread
 voice: human
+voice_check: edited
 cluster: application
 series: gluing-clamping-furniture
 dek: A bead means the film existed. A dry line means it did not. Wipe with a plan. Smear is a finish problem you scheduled.
-word_count: 902
+word_count: 920
 topics: [squeeze-out, cleanup]
 figures:
   - id: fig-01
@@ -49,7 +50,7 @@ I have done the same thing with a paper towel that left lint in the wet film, an
 
 I stained that lid because I wanted the figure. What I got was counties. Dark where the rag had missed. Pale where the pores were plastic. I sanded. I sanded again. Rays are not a thickness you can sand off and still have a lid. I went as far as I dared and then I put a film over the map and lived with it. That lid taught me more than a scrap ever did, because I had to keep it.
 
-A wipe of mineral spirits on a raw face will preview some of this if I am paying attention. If the wipe shows a pale river, I am still in the glue chapter. See `d28` and `d43`.
+A wipe of mineral spirits on a raw face will preview some of this if I am paying attention. If the wipe shows a pale river, I am still in the glue chapter. See *Glue on the finish face* (essay 28) and *The scar under oil* (essay 43).
 
 ## The gel minute
 
@@ -67,7 +68,7 @@ I have sent a drawer back from my own hand. A glue ridge in an inside corner is 
 
 The lifted bead goes in a scrap can, not on the bench, not on a pad, not back onto a cheek I missed. I have smeared a good lift by setting the chisel down on the lid. The lid took a second map, smaller and meaner, right where a hand would rest.
 
-I do not celebrate a dry line. I have celebrated dry lines. They were starved patches or a gap I had cranked shut. See `d23`. A river is a smear I have already scheduled for the finish room. I do not use last Tuesday's minute. I use this bead, this rag, this wait.
+I do not celebrate a dry line. I have celebrated dry lines. They were starved patches or a gap I had cranked shut. See *Starved and drowned* (essay 23). A river is a smear I have already scheduled for the finish room. I do not use last Tuesday's minute. I use this bead, this rag, this wait.
 
 ## The judgment
 

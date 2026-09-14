@@ -5,10 +5,11 @@ slug: vacuum-bag-is-a-room-sized-clamp
 status: staged
 stage: press
 voice: human
+voice_check: edited
 cluster: clamps
 series: gluing-clamping-furniture
 dek: Even pressure if the platens are flat and the bag is honest. A breadcrumb is a dent for life. Do not peek because you are curious.
-word_count: 955
+word_count: 1025
 topics: [vacuum, veneer, laminations]
 figures:
   - id: fig-01
@@ -33,7 +34,7 @@ I sweep. I run a hand. I have pressed a shaving into a door. The door still tell
 
 ## Glue choice
 
-Urea and some epoxies like a bag. PVA in a bag can work on a veneer and still creep later if the line is fat. Hide in a bag is a special day I do not pretend is standard. See `d04` and `d05`. The bag is the clamp. The glue is still a religion.
+Urea and some epoxies like a bag. PVA in a bag can work on a veneer and still creep later if the line is fat. Hide in a bag is a special day I do not pretend is standard. See *Urea is a different pot* (essay 4) and *Epoxy is a filler that also sticks* (essay 5). The bag is the clamp. The glue is still a religion.
 
 ## Do not peek
 
@@ -41,7 +42,7 @@ Clamp time is clamp time. Curiosity is a spring. I write the take-down time on t
 
 ## The afternoon I stole from urea
 
-The crest rail was a bent lamination I had rehearsed dry. The form was honest. The bag held. I had mixed urea like `d04` told me to, and then I stood in the shop at supper and thought: it feels quiet, I could just check the bend. I opened the zipper. The stack came up a little in my hands, a polite spring, the kind you can talk yourself into calling nothing. I closed it again and ran the pump like I could put the minute back. In the morning the rail had a memory. Not a break. A willingness to flatten that the dry-fit had not had. I used the rail. I know which chair. I do not peek now.
+The crest rail was a bent lamination I had rehearsed dry. The form was honest. The bag held. I had mixed urea as in *Urea is a different pot* (essay 4), and then I stood in the shop at supper and thought: it feels quiet, I could just check the bend. I opened the zipper. The stack came up a little in my hands, a polite spring, the kind you can talk yourself into calling nothing. I closed it again and ran the pump like I could put the minute back. In the morning the rail had a memory. Not a break. A willingness to flatten that the dry-fit had not had. I used the rail. I know which chair. I do not peek now.
 
 Urea wanted the night. `[VERIFY]` that day's sheet. I write the take-down time on tape on the pump before I mix. The zipper is how I own a spring.
 
@@ -61,13 +62,13 @@ A leaky bag is a rumor in the middle of the night. The edges may hold. The field
 
 ## Glue is still a religion inside the plastic
 
-Urea likes the even press and the time. Some epoxies like it if the mix is a mix I already trust for a film, not a paste I am using as a gap. See `d05`. PVA will veneer in a bag and then creep later if I left a fat line. See `d11`. I do not use the bag as permission to drown a cheek. Even pressure on a drowned line is even creep.
+Urea likes the even press and the time. Some epoxies like it if the mix is a mix I already trust for a film, not a paste I am using as a gap. See *Epoxy is a filler that also sticks* (essay 5). PVA will veneer in a bag and then creep later if I left a fat line. See *Creep is a PVA property, not a rumor* (essay 11). I do not use the bag as permission to drown a cheek. Even pressure on a drowned line is even creep.
 
-Hide in a bag is a day I have thought about and not made a habit. See `d03` and `d30`. The bag is not a heater. A strap is the cheap cousin on a gentle hoop. See `d34`. I do not strap a veneer field.
+Hide in a bag is a day I have thought about and not made a habit. See *Hide after the pot essay* (essay 3) and *Hide on cold oak is a skin* (essay 30). The bag is not a heater. A strap is the cheap cousin on a gentle hoop. See *Band clamps and the round thing* (essay 34). I do not strap a veneer field.
 
 ## The room the bag needs
 
-This is a 65-foot shop and the bag still eats a table. I do not bag on a pile. I do not leave a square under the bag "for a minute." I have done that with a pencil. The pencil wrote in a skin. I do not park the press in the glass. See `d29`. Overnight is a habit I like because I am less curious at dawn than I am at supper.
+This is a 65-foot shop and the bag still eats a table. I do not bag on a pile. I do not leave a square under the bag "for a minute." I have done that with a pencil. The pencil wrote in a skin. I do not park the press in the glass. See *Winter skin, August flash* (essay 29). Overnight is a habit I like because I am less curious at dawn than I am at supper.
 
 ## The judgment
 

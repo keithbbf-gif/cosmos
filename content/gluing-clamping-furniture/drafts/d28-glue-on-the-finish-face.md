@@ -5,10 +5,11 @@ slug: glue-on-the-finish-face
 status: staged
 stage: spread
 voice: human
+voice_check: edited
 cluster: application
 series: gluing-clamping-furniture
 dek: A smear under oil is a bright scar. Tape the show face if the joint is close. Glue does not sand out of cherry the way you hope.
-word_count: 940
+word_count: 959
 topics: [glue-stain, finish, tape]
 figures:
   - id: fig-01
@@ -39,7 +40,7 @@ Blue tape on a show pin line looks like a shop that has been burned. It has. I p
 
 I had taken that cherry rail to a grit I trusted. The surface felt clean. The pores did not. Cherry will take a smear down into the vessel and keep it. Sanding the face is sanding the roof of a hole that is still full. I have chased a bolt with 180 and then 220 and then a scraper, and the bolt got quieter and did not leave. Oil found it the way oil finds every plastic county.
 
-The honest test is a wipe of mineral spirits or a drop of the oil you mean to use, on a scrap you glued the same day with the same rag habit. If the scrap shows a pale river, the rail will show a pale river. I keep a cutoff of the same board now. See `d43` when the scar is already there. This page is the minute the bead appears.
+The honest test is a wipe of mineral spirits or a drop of the oil you mean to use, on a scrap you glued the same day with the same rag habit. If the scrap shows a pale river, the rail will show a pale river. I keep a cutoff of the same board now. See *The scar under oil* (essay 43) when the scar is already there. This page is the minute the bead appears.
 
 ## Where the show face sits
 
@@ -57,9 +58,9 @@ I peel when the bead is lifted and the joint is closed, before the glue and the 
 
 ## Species that tell on you
 
-Cherry writes in lightning. Maple writes in pale lakes. Quarter-sawn oak writes in rays, which is the lid in `d27`. Walnut will hide a thin smear from across the shop and show it at dinner, under a raking lamp, as a dull river.
+Cherry writes in lightning. Maple writes in pale lakes. Quarter-sawn oak writes in rays, which is the lid in *Squeeze-out is a witness* (essay 27). Walnut will hide a thin smear from across the shop and show it at dinner, under a raking lamp, as a dull river.
 
-I do not treat "I will film-finish this" as permission to paint. I have changed my mind in the finish room, from film to oil, more than once. The smear already voted. A sloppy roller on a table seam is how the arris gets a coat that was meant for the cheek. See `d25`. Tape is cheaper than hoping I will roll perfectly at the end of a long edge in August.
+I do not treat "I will film-finish this" as permission to paint. I have changed my mind in the finish room, from film to oil, more than once. The smear already voted. A sloppy roller on a table seam is how the arris gets a coat that was meant for the cheek. See *Roller, brush, finger, bottle* (essay 25). Tape is cheaper than hoping I will roll perfectly at the end of a long edge in August.
 
 ## The dry-fit that aims the squeeze
 

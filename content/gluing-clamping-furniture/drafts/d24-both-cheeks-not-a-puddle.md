@@ -5,10 +5,11 @@ slug: both-cheeks-not-a-puddle
 status: staged
 stage: spread
 voice: human
+voice_check: edited
 cluster: application
 series: gluing-clamping-furniture
 dek: Wet both faces of a film joint. Do not fill the mortise like a cup. Hydraulics will hand the tenon back to you.
-word_count: 858
+word_count: 867
 topics: [mortise, tenon, spread]
 figures:
   - id: fig-01
@@ -57,7 +58,7 @@ If I see weep, I know I poured. Glue that weeps from a pin hole will stain the s
 
 ## The biscuit cousin
 
-A slot is a little mortise. A lake in a slot is a little piston. I put a little in the slot and I butter the edge. I do not fill the slot like a cup and then act surprised when a biscuit hydraulics and the edge starves. See `d22`. The theme does not change because the helper is cute. Film. Not pond. Two faces. No cup.
+A slot is a little mortise. A lake in a slot is a little piston. I put a little in the slot and I butter the edge. I do not fill the slot like a cup and then act surprised when a biscuit hydraulics and the edge starves. See *Biscuits and dominos are alignment, not religion* (essay 22). The theme does not change because the helper is cute. Film. Not pond. Two faces. No cup.
 
 ## The judgment
 

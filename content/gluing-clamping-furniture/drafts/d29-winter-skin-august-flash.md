@@ -5,10 +5,11 @@ slug: winter-skin-august-flash
 status: staged
 stage: spread
 voice: human
+voice_check: edited
 cluster: application
 series: gluing-clamping-furniture
 dek: Cold gels a film before the bar is on. Heat skins PVA while you are still spreading the second cheek. The weather is the clock.
-word_count: 1084
+word_count: 1133
 topics: [temperature, open-time, weather]
 figures:
   - id: fig-01
@@ -25,13 +26,13 @@ August. The first cheek was wet. The second cheek had already gone dull when I r
 
 <!-- PHOTO: fig-01 D:\BBF\BBF Photos — glue-up in a hot shop, or a gelled hide skin on a cheek (filename pending shop pull) -->
 
-Winter is the other sentence. Hide skins on cold oak. PVA gets lazy under fifty. See `d08`. This page is the spread version: what the film does while it is still on one face.
+Winter is the other sentence. Hide skins on cold oak. PVA gets lazy under fifty. See *The shop at fifty degrees* (essay 8). This page is the spread version: what the film does while it is still on one face.
 
 ## Flash is a skin you did not mean
 
 PVA in heat loses water fast. The surface goes dull. Dull can mean ready-to-close or ready-to-peel. If it peels when you close, you have two skins and no joint. I spread fewer inches. I work toward the close. I do not bead six feet and then stroll.
 
-Hide in heat is a sprint you already timed. See `d16`. If the pot is right and the shop is a kiln, I glue one rail, not four.
+Hide in heat is a sprint you already timed. See *Rehearse with a clock on the bench* (essay 16). If the pot is right and the shop is a kiln, I glue one rail, not four.
 
 ## Gel is a skin you also did not mean
 
@@ -59,9 +60,9 @@ Hide in the same heat is a shorter sentence. The pot can be right and the cheek 
 
 ## Winter is the same skin from the other door
 
-January in the lean-to end of this building is a different shop than the warm end by the heater. A rail that spent the night on the tablesaw is a heat sink. Hide on that rail is `d30`. PVA on that rail is lazy — thick, slow to wet, willing to sit on the surface like gravy. I have closed gravy and called it a film. The next week the seam had no grab in the middle.
+January in the lean-to end of this building is a different shop than the warm end by the heater. A rail that spent the night on the tablesaw is a heat sink. Hide on that rail skins the way essay 30 describes (*Hide on cold oak is a skin*). PVA on that rail is lazy — thick, slow to wet, willing to sit on the surface like gravy. I have closed gravy and called it a film. The next week the seam had no grab in the middle.
 
-I warm the parts. I do not only warm the air. A cheek on steel is still January. I bring the work to the warm end the night before when I can. If I cannot warm it, I do not spread. Cold PVA that "looks fine" can still be a bottle that froze in a truck. See `d09`. This page is a good bottle on a part that is the wrong temperature.
+I warm the parts. I do not only warm the air. A cheek on steel is still January. I bring the work to the warm end the night before when I can. If I cannot warm it, I do not spread. Cold PVA that "looks fine" can still be a bottle that froze in a truck. See *The bottle that froze and the one that sat open* (essay 9). This page is a good bottle on a part that is the wrong temperature.
 
 ## The wood's width is weather too
 
@@ -71,7 +72,7 @@ The other direction is an August panel dropped into a winter groove. I do not as
 
 ## How I spread when the room is a kiln
 
-Fewer inches. Film, then close, then the next inches. A helper if I have one. A timer if I am alone. See `d16`. I do not bead six feet of walnut and then stroll to the clamp rack. The stroll is how the second cheek dies. I have used a scrap door as a parasol over a panel when I could not move the bench. It looked like folklore. It kept the film a film long enough to close.
+Fewer inches. Film, then close, then the next inches. A helper if I have one. A timer if I am alone. See *Rehearse with a clock on the bench* (essay 16). I do not bead six feet of walnut and then stroll to the clamp rack. The stroll is how the second cheek dies. I have used a scrap door as a parasol over a panel when I could not move the bench. It looked like folklore. It kept the film a film long enough to close.
 
 ## The judgment
 

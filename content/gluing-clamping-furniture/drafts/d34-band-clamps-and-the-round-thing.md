@@ -5,10 +5,11 @@ slug: band-clamps-and-the-round-thing
 status: staged
 stage: press
 voice: human
+voice_check: edited
 cluster: clamps
 series: gluing-clamping-furniture
 dek: A strap will close a hex, a chair, a coopered door without teaching a limp. Corners still need pads. A strap is not a square.
-word_count: 1019
+word_count: 1057
 topics: [band-clamps, chairs, coopered]
 figures:
   - id: fig-01
@@ -49,7 +50,7 @@ A hopper is the same hoop with sloped sides. Bars skate downhill. I have chased 
 
 ## Chairs are animals with a hoop
 
-A chair wants a clamp line that follows the seat rail around, or the crest, or the box of the seat. Pipes on a chair teach a limp. Parallels teach a limp with better jaws. See `d19` and `d32`. A strap around the seat, pads at the legs, and the animal can close without being taught a rectangle.
+A chair wants a clamp line that follows the seat rail around, or the crest, or the box of the seat. Pipes on a chair teach a limp. Parallels teach a limp with better jaws. See *The chair is an animal with four opinions* (essay 19) and *What each clamp lies about* (essay 32). A strap around the seat, pads at the legs, and the animal can close without being taught a rectangle.
 
 I still set the chair on its feet. I still look at the shoulders in raking light. I still read the diagonals of the seat if the seat is a square that will take a frame. A band will happily close a racked chair into a tighter rack. I have done that. The feet rocked. The shoulders looked closed from one county and open from another. I slacked, I racked the chair true by hand, I pulled the strap even, and I walked around it twice before I trusted the quiet.
 
@@ -63,13 +64,13 @@ A strap that walks off in open time is worse. The belt jumps, the corner takes a
 
 ## Coopered work, and what a strap is not
 
-A coopered door with a gentle curve will take a strap over honest cauls. I have closed staves that way. A tight bend, a veneer skin, a stack that must be a skin — that is a bag or a press. See `d35`. I strapped a veneer test once and got a bubble at a county the strap never reached. The strap pulls a hoop. It does not press a field. I do not hope a hoop into a platen.
+A coopered door with a gentle curve will take a strap over honest cauls. I have closed staves that way. A tight bend, a veneer skin, a stack that must be a skin — that is a bag or a press. See *A vacuum bag is a clamp the size of a room* (essay 35). I strapped a veneer test once and got a bubble at a county the strap never reached. The strap pulls a hoop. It does not press a field. I do not hope a hoop into a platen.
 
 A truck strap will do in a pinch if the ratchet does not eat the work. I have used one on a big frame when the web kit was too short. I padded as if it were a meaner cousin, because it is.
 
 ## What I still check after the hoop is tight
 
-Feet. Shoulders. Diagonals. The strap can hide a twist if you only look at the rim. A wastebasket oval is funny until it is a chair that rocks. I do not crank until the webbing sings. The song is usually a dent or a rack. See `d31`. Then I walk. The pads are already on the bench. I do not invent one in open time.
+Feet. Shoulders. Diagonals. The strap can hide a twist if you only look at the rim. A wastebasket oval is funny until it is a chair that rocks. I do not crank until the webbing sings. The song is usually a dent or a rack. See *Enough to close, not to crush* (essay 31). Then I walk. The pads are already on the bench. I do not invent one in open time.
 
 ## The judgment
 

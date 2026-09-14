@@ -5,6 +5,7 @@ slug: epoxy-is-a-filler-that-also-sticks
 status: staged
 stage: choose
 voice: human
+voice_check: edited
 cluster: glue
 series: gluing-clamping-furniture
 dek: Epoxy will glue a gap and still hold. That is its gift and how a shop stops cutting. Use it when the wood is gone, not when the cheek is lazy.
