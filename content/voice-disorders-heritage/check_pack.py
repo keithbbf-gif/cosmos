@@ -98,8 +98,8 @@ def main() -> int:
                 errors.append(f"{path.name}: missing YAML {key}")
         if fm.get("series") != "slpwow-voice-disorders-heritage":
             errors.append(f"{path.name}: bad series {fm.get('series')!r}")
-        if fm.get("voice_check") != "human":
-            errors.append(f"{path.name}: voice_check is not human")
+        if fm.get("voice_check") != "edited":
+            errors.append(f"{path.name}: voice_check is not edited")
         if fm.get("stage") != "draft":
             errors.append(f"{path.name}: stage is not draft")
         if fm.get("audience") != "slpwow":

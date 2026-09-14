@@ -7,7 +7,7 @@ tags: [voice-disorders-heritage, turck, vienna, laryngoscopy]
 portrait: assets/portraits/ludwig-turck.jpg
 portrait_status: downloaded
 figure_dates: "1810–1868"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 ---

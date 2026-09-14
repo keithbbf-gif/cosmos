@@ -7,7 +7,7 @@ tags: [voice-disorders-heritage, mackenzie, london, frederick-iii]
 portrait: assets/portraits/morell-mackenzie.jpg
 portrait_status: downloaded
 figure_dates: "1837–1892"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 ---
@@ -38,7 +38,7 @@ A modern clinician who wants a lesson from Frederick III can have this one: a yo
 
 ## Residue
 
-A door in Golden Square. A hygiene genre later American paperbacks would inherit. A caution about famous patients that Gould’s generation would ignore and then professionalize. Portraits are easy to find in British print; licenses are not always easy. Hunt before download.
+A door in Golden Square. A hygiene genre later American paperbacks would inherit. A caution about famous patients that Gould’s generation would ignore and then professionalize. Wood-engraved portraits are common; confirm Commons status before replacing the current image.
 
 ## The journal and the lintel
 

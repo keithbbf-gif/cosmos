@@ -7,7 +7,7 @@ tags: [voice-disorders-heritage, gould, voice-foundation]
 portrait: null
 portrait_status: placeholder
 figure_dates: "d. 1994, age 74"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 ---
@@ -18,7 +18,7 @@ stage: draft
 
 > **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the pack date. See `PORTRAIT_SOURCES.md` for hunt status. Do not invent or generate a substitute likeness.
 
-Wilbur James Gould died at Lenox Hill Hospital on 7 February 1994, of a heart attack. He was seventy-four. The NCVS hall-of-fame page and the *Journal of Voice* memorial (“In memory of Wilbur James Gould, M.D.”) are the warrants. This pack does not force a birth day without a citable certificate; age-at-death plus the 1994 date is enough.
+Wilbur James Gould died at Lenox Hill Hospital on 7 February 1994, of a heart attack. He was seventy-four. The NCVS hall-of-fame page and the *Journal of Voice* memorial (“In memory of Wilbur James Gould, M.D.”) are the warrants. This pack does not force a birth date without a citable certificate; age-at-death plus the 1994 date is enough.
 
 ## A guest list as a method
 

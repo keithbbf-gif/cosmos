@@ -6,7 +6,7 @@ type: era
 tags: [voice-disorders-heritage, voice-therapy, boone, stemple, verdolini, greene]
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 ---

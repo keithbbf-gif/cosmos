@@ -6,7 +6,7 @@ type: era
 tags: [voice-disorders-heritage, spasmodic-dysphonia, botulinum, ludlow, dedo]
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 ---
@@ -39,7 +39,7 @@ A diagnosis that still frightens students. A procedure that still dominates Amer
 
 The 1970s nerve-section years taught a second lesson the toxin years sometimes forgot: patients will accept a terrible bargain if the voice has already taken the job, the church solo, the telephone. Dedo’s operation is not a cartoon villain. It is a record of how little else the decade thought it had. When the toxin arrived, the bargain changed from permanent to rented. That is an improvement. It is also a dependency. A history that only cheers the rental is a vendor history.
 
-Classification fights — adductor, abductor, mixed, tremor in or out of the room — are the unglamorous literature Ludlow’s group and others kept alive while the procedure ate the textbooks. A student who can name the toxin and cannot name the subtypes has learned a billing word.
+Classification fights — adductor, abductor, mixed, tremor in or out of the room — are the unglamorous literature Ludlow’s group and others kept alive while the procedure ate the textbooks. Textbooks that foreground injection without classification leave students with a billing word, not a differential.
 
 A last caution, already in the guardrails and worth a sentence on this page: nothing here is a reason to skip a neurologic voice clinic or to treat a breaking voice as a personality. The old bin cost people years. The new procedure costs people appointments. Both sentences can be true.
 

@@ -7,7 +7,7 @@ tags: [voice-disorders-heritage, babington, glottiscope, london]
 portrait: assets/portraits/benjamin-guy-babington.jpg
 portrait_status: downloaded
 figure_dates: "1794–1866"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 ---
@@ -32,7 +32,7 @@ The glottiscope demonstration is secure as an event. What remains argued is the 
 
 No Royal Society physiology paper. No school of singers. No hundredth-birthday dinners. Babington’s glottiscope is a date in a priority footnote and a warning against origin myths. The British story likes to keep him so that 1855 is not a French raid on London’s honor. The honest story keeps him because the *idea* of a laryngeal mirror is older than the *use*.
 
-If a later editor finds a rights-clear portrait — there are engravings in the usual London libraries — log it in `PORTRAIT_SOURCES.md` and retire the placeholder. Do not generate a substitute face for a man who already sat for real ones.
+Additional engravings may be logged in `PORTRAIT_SOURCES.md` if a clearer scan is found; do not generate a substitute face for a man who already sat for real ones.
 
 ## A society demonstration is not a school
 

@@ -7,7 +7,7 @@ tags: [voice-disorders-heritage, czermak, laryngoscopy, prague, leipzig]
 portrait: assets/portraits/johann-nepomuk-czermak.jpg
 portrait_status: downloaded
 figure_dates: "1828–1873"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 ---
@@ -34,7 +34,7 @@ He worked in Pest and in Leipzig. He was not only a “throat man.” The physio
 
 Türck died in 1868. Czermak died five years later. Neither got the last word, which is the only fair ending for a priority fight. Later textbooks that print “Czermak invented laryngoscopy” are doing the lamp’s work and erasing García and Türck and Babington. Later textbooks that print “Czermak stole the mirror” are doing Vienna’s work. Print the lamp. Print the book. Print the age at death. Forty-five is young enough that the afterlife had to be written by other people.
 
-Portraits exist in the Central European engraving trade. Log a file-page license before download. Do not use a cropped textbook woodcut of unknown date as if it were a studio photograph.
+Portraits exist in the Central European engraving trade. Confirm the Commons license on the file page before swapping the lithograph. Do not use a cropped textbook woodcut of unknown date as if it were a studio photograph.
 
 ## Physiology first
 

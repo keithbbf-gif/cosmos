@@ -7,7 +7,7 @@ tags: [voice-disorders-heritage, gutzmann, phoniatrics, berlin]
 portrait: assets/portraits/hermann-gutzmann-sr.jpg
 portrait_status: downloaded
 figure_dates: "1865–1922"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 ---
@@ -28,7 +28,7 @@ The Eckstein plate is logged in `PORTRAIT_SOURCES.md` as a Commons-PD ingest. Th
 
 Born in Bütow, Pomerania, first of seven children, he took the Abitur at the Friedrichswerdersches Gymnasium in 1883 and studied medicine in Berlin under Ernst von Bergmann and Carl Gerhardt among others. The 1887 dissertation, *Über das Stottern*, was the family subject: his father Albert taught deaf children and already published on speech errors. In 1890 they founded the *Medizinisch-pädagogische Monatsschrift für die gesamte Sprachheilkunde*. Medicine and pedagogy, one monthly.
 
-1891: private outpatient clinic for the speech-impaired in Berlin. 1896: sanatorium in Zehlendorf. 1904–05: a thesis on respiratory movements in speech disorders, then the 1905 inaugural lecture — *Die Sprachstörungen als Gegenstand des klinischen Unterrichts* — the year the Union of European Phoniatricians still prints as phoniatrics’ academic founding. 1907: clinic into the medical polyclinic. 1912: Gustav Killian brings the service into the Charité’s throat and nose clinic. A phonetic laboratory, first private, then attached.
+1891: private outpatient clinic for the speech-impaired in Berlin. 1896: sanatorium in Zehlendorf. 1904–05: a thesis on respiratory movements in speech disorders, then the 1905 inaugural lecture — *Die Sprachstörungen als Gegenstand des klinischen Unterrichts* — the year the Union of European Phoniatricians still prints as phoniatrics’ academic founding. 1907: clinic into the medical polyclinic. 1912: Gustav Killian brings the service into the Charité’s throat and nose clinic. A phonetic laboratory, first private, then attached to the Charité service.
 
 *Des Kindes Sprache und Sprachfehler* (1894), *Physiologie der Stimme und Sprache* (1909), *Sprachheilkunde* (1912). Students from everywhere: Nadoleczny, Schilling, Stern, Seeman, Sokolowski, Panconcelli-Calzia, Wethlo, the son Hermann Jr. The 1909 physiology book is the spine of *this* profile. It treats voice as a measurable organ, not only as a school problem.
 

@@ -7,7 +7,7 @@ tags: [voice-disorders-heritage, brodnitz, new-york, phoniatrics]
 portrait: null
 portrait_status: placeholder
 figure_dates: "1899–1995"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 ---
@@ -22,7 +22,7 @@ Friedrich Samuel Brodnitz closed his Manhattan office at ninety-two and still to
 
 ## Berlin, then a board exam
 
-ENT training with Carl von Eicken at the Charité; phoniatric time with Hermann Gutzmann Jr. and Theodor Flatau, in the Union of European Phoniatricians’ telling. Judy Duchan’s page says Gutzmann Sr. Sr. died in 1922; Brodnitz’s Berlin medical year is 1924. This pack follows UEP and prints the disagreement. He left Germany. He passed the American Board of Otolaryngology in 1942. Mount Sinai’s phoniatric clinic, Beth David’s speech and voice clinic, Hunter College, a private practice that ran into 1992 — essay 08 is the hallway. This profile is the paperback.
+ENT training with Carl von Eicken at the Charité; phoniatric time with Hermann Gutzmann Jr. and Theodor Flatau, in the Union of European Phoniatricians’ telling. Judy Duchan’s page says Gutzmann Sr. died in 1922; Brodnitz’s Berlin medical year is 1924. This pack follows UEP and prints the disagreement. He left Germany. He passed the American Board of Otolaryngology in 1942. Mount Sinai’s phoniatric clinic, Beth David’s speech and voice clinic, Hunter College, a private practice that ran into 1992 — essay 08 is the hallway. This profile is the paperback.
 
 *Keep Your Voice Healthy* first appeared in 1951 (UEP and the Folia obituary; later printings 1973, 1988). *Vocal Rehabilitation* went through mid-century editions (a fourth in 1970 is the one European CVs cite). The 1954 paper with Fröschels on chewing and nodules is an exile document. He kept sitting on the American Academy’s “actor and singer as patients” panel into old age. Berlin gave him honors late — Senate 1979, German Medical Association 1980, the Berlin ENT society 1981 — the way a country does when it wants a son back without the years.
 

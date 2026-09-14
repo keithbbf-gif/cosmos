@@ -7,7 +7,7 @@ tags: [voice-disorders-heritage, boone, voice-and-voice-therapy, arizona]
 portrait: null
 portrait_status: placeholder
 figure_dates: "1927–2018"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 ---

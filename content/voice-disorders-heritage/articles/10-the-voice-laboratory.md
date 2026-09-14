@@ -6,7 +6,7 @@ type: era
 tags: [voice-disorders-heritage, voice-science, van-den-berg, titze, acoustics]
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 ---
@@ -15,7 +15,7 @@ stage: draft
 
 *Educational history for SLPWOW. Not a treatment plan and not a substitute for evaluation by a licensed clinician.*
 
-On 1 September 1958 the new *Journal of Speech and Hearing Research* printed a paper whose title is a theory: Janwillem van den Berg, “Myoelastic-Aerodynamic Theory of Voice Production.” Five years earlier he had defended, *cum laude*, a Groningen dissertation in Dutch — *Physica van de stemvorming, met toepassingen* — that Bell Labs was said to have put into English almost at once. The 1958 paper is the version American training programs can cite without a translator.
+On 1 September 1958 the new *Journal of Speech and Hearing Research* printed Janwillem van den Berg’s “Myoelastic-Aerodynamic Theory of Voice Production” — a title that states the theory in the headline. Five years earlier he had defended, *cum laude*, a Groningen dissertation in Dutch — *Physica van de stemvorming, met toepassingen* — that Bell Labs was said to have put into English almost at once. The 1958 paper is the version American training programs can cite without a translator.
 
 The claim, against older “neurochronaxic” stories that tried to fire each cycle from a nerve, is that the fold is a myoelastic valve in an airstream. Muscle sets the posture and the stiffness. Air does the rest of the honoring. Later work would complicate every noun in that sentence. The sentence still organizes a lab.
 

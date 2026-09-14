@@ -53,13 +53,13 @@ tags: [voice-disorders-heritage, ...]
 portrait: assets/portraits/slug.jpg | null
 portrait_status: downloaded | placeholder | essay-only
 figure_dates: "1805–1906"   # profiles only; omit if unknown
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 ---
 ```
 
-`voice_check: human` is an editorial flag, not a boast. If a draft starts sounding like a model, rewrite the first paragraph before anything else.
+`voice_check` is an editorial flag, not a boast. Use `human` while the draft is still raw; set `edited` after a grammar-and-voice pass. If a draft starts sounding like a model, rewrite the first paragraph before anything else.
 
 ## Educational line
 

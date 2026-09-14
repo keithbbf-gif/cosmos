@@ -7,7 +7,7 @@ tags: [voice-disorders-heritage, moses, stanford, voice-of-neurosis]
 portrait: null
 portrait_status: placeholder
 figure_dates: "1897–1965"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 ---
@@ -30,7 +30,7 @@ He sat in a circle that included Brodnitz, Deso Weiss, Auguste Jellinek, Gottfri
 
 ## How to read him
 
-Do not revive “neurosis” as a billing word. Do not treat the book as a diagnostic instrument. Do read the 1954 introduction’s jurisdictional sentence: two professions, each half-deaf. That sentence is why he is in a voice-disorders pack and not only in a history of psychiatry.
+“Neurosis” is a period word, not a billing label; the book is not a diagnostic instrument. The 1954 introduction’s jurisdictional sentence — two professions, each half-deaf — is why he belongs in a voice-disorders pack and not only in a history of psychiatry.
 
 ## 131 pages, a mixed review
 

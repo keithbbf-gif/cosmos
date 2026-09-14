@@ -6,7 +6,7 @@ type: era
 tags: [voice-disorders-heritage, hirano, body-cover, kurume, grbas]
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 ---
@@ -33,13 +33,13 @@ It did not tell you how to do therapy. It did not tell you when to operate. It d
 
 Hirano spent his academic life at Kurume University and trained a generation of Japanese laryngeal surgeons, including his son Shigeru. The American Laryngological Association’s notice says he died suddenly on 19 December 2017. Western obituaries treat him as a corresponding fellow who had already become a chapter heading. The chapter heading is earned. So is the reminder that the “Western” voice clinic’s most-used tissue model is not Western.
 
-If your slide deck puts Hirano after a row of European beards as if he were a late illustration, reorder the deck.
+Slide decks that list Hirano after a row of European beards treat a Kurume paper as late illustration; chronology and geography both argue for an earlier, central place.
 
 ## The word “cord”
 
 Hirano’s English title still says *vocal cord*. So did almost everyone in 1974. Later American teaching preferred *fold* because a fold is a layered shelf and a cord is a string. The paper that killed the string kept the older noun. That is not irony for its own sake. It is a reminder that a five-page *Folia* article cannot also be a style guide. Students who correct a 1974 title are doing branding.
 
-Western citation practice also flattened the atlas into a single cartoon. Hirano’s later color plates are the thing surgeons actually used. The 1974 diagram is the thing slide decks use. If your course owns only the cartoon, say so. The plates are why a cyst and a nodule are not the same afternoon.
+Western citation practice also flattened the atlas into a single cartoon. Hirano’s later color plates are the thing surgeons actually used. The 1974 diagram is the thing slide decks use. Courses that teach only the 1974 diagram should say so; surgeons worked from the color atlas. The plates are why a cyst and a nodule are not the same afternoon.
 
 Hirano’s singing question — how one pair of folds makes many colors — is why pedagogues grabbed the paper. The grab was sometimes a mistranslation. A cover that travels is not a “covered” tone in the studio sense. Keep the words in their guilds. The 1974 text is short enough that a teacher can read it on a lunch break. That is part of why it won.
 

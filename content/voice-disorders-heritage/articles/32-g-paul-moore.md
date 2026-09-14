@@ -7,7 +7,7 @@ tags: [voice-disorders-heritage, moore, high-speed, florida, northwestern]
 portrait: null
 portrait_status: placeholder
 figure_dates: "1907–2008"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 ---
