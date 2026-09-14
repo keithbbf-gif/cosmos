@@ -54,6 +54,8 @@ Slotted screws through battens or pocket-screw patterns that all point the same 
 
 Hide glue on a historic carcase can be taken apart with heat and moisture. The joint is a reversible contract. Urea-formaldehyde on a factory edge is not. A hide-glue mahogany chair can be repaired. A UF-glued breadboard that split the top is a different object. Choose the glue for the life you want, then design the joint for the moisture you will get.
 
+A floating panel that rattles in January is doing its job. A bead of hide glue at the top center is enough to stop the rattle in a show door without imprisoning the width. Cross-banding under a veneer face — a historic ébéniste habit — is a thin plywood idea before plywood. Skip it, glue a crotch leaf to flatsawn poplar, and you are betting the hide glue will creep. Sometimes you get the Empire check.
+
 Veneer assumes a ground. Hide glue on deal or yellow-poplar is the historic sandwich. If the ground moves and the glue goes brittle, the face checks — crotch mahogany on poplar in American Empire is the textbook failure. A plywood ground is the 20th-century sandwich: cross-bands cancel movement. A paper foil on particleboard is a photograph. The veneer draft takes the sandwich. This draft is why the sandwich was invented.
 
 ## Heat, air conditioning, and a finish
@@ -77,12 +79,6 @@ August: the flatsawn panel has swollen. The groove was not deep enough, or a bea
 Look at tabletops with breadboards. If the pins elongated into slots, someone understood tangential movement. If the breadboard split the top, someone did not. Look at a 2010 condominium dining table with pocket screws every four inches across a 42-inch flatsawn oak top. Look for the crack.
 
 Arkansas shops send furniture into houses with air conditioning. The destination EMC is the design number, not the mill’s 12 percent sticker. Oak and walnut still move. Domestic is not a repeal of chapter 4. Specify cut, specify acclimation, specify the joint that travels. The Convention of 1973 will not float your panel. Neither will a Janka number.
-
-## Hide glue, UF, and a panel that should rattle
-
-A floating panel that rattles in January is doing its job. A bead of hide glue at the top center is enough to stop the rattle in a show door without imprisoning the width. A bead of UF around four sides is a split. The glue is a tool. Hoadley will say the joint is a moisture joint first. Conservators prefer hide on objects that should come apart. Factories prefer UF because the clamp time is short and the joint is “forever.” Forever on a wide flatsawn panel is a crack.
-
-Veneer grounds are the other moisture object. A yellow-poplar drawer front moves. A crotch leaf on it does not want to. Cross-banding under the face — a historic ébéniste habit and later a factory habit — is a thin plywood idea before plywood. If you skip the cross-band and glue a leaf to a flatsawn solid ground, you are betting the hide glue will creep enough. Sometimes it does. Sometimes you get the Empire check.
 
 Look at the groove and the slots. If they have room, the door will stick less and split less. If they do not, January will write the rest of this chapter on the face. FPL chapter 4 is the text. The door is the problem set.
 

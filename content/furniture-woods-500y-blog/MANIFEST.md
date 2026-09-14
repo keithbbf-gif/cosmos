@@ -11,7 +11,7 @@ Body word counts are tokens matching `[A-Za-z0-9']+` after YAML frontmatter, exc
 Band: 1,400–2,200. All items `status: draft`, `voice_check: human`.
 Canonical files: `drafts/<slug>.md`. Slug list: `writer-slugs.json`.
 
-Counted: 46 drafts. Total body words: 76,512.
+Counted: 46 drafts. Total body words: 75,618.
 
 | # | slug | title | words | file |
 |---|------|-------|------:|------|
@@ -31,14 +31,14 @@ Counted: 46 drafts. Total body words: 76,512.
 | 14 | `rosewood-victorian` | Rosewood in the Victorian parlor | 1747 | `drafts/rosewood-victorian.md` |
 | 15 | `rosewood-gothic-revival` | Rosewood and the Gothic Revival parlor | 1699 | `drafts/rosewood-gothic-revival.md` |
 | 16 | `teak-colonial-dockyards` | Teak in the colonial dockyards | 1701 | `drafts/teak-colonial-dockyards.md` |
-| 17 | `teak-deck-and-garden` | Teak on the deck and in the garden | 1642 | `drafts/teak-deck-and-garden.md` |
+| 17 | `teak-deck-and-garden` | Teak on the deck and in the garden | 1645 | `drafts/teak-deck-and-garden.md` |
 | 18 | `ebony-inlay-keys` | Ebony, inlay, and the piano key | 1754 | `drafts/ebony-inlay-keys.md` |
-| 19 | `maple-birdseye-factory` | Birdseye maple and the factory pale | 1619 | `drafts/maple-birdseye-factory.md` |
+| 19 | `maple-birdseye-factory` | Birdseye maple and the factory pale | 1506 | `drafts/maple-birdseye-factory.md` |
 | 20 | `cherry-shaker` | Cherry in the Shaker room | 1661 | `drafts/cherry-shaker.md` |
 | 21 | `yew-medieval-turnery` | Yew on the pole lathe | 1654 | `drafts/yew-medieval-turnery.md` |
 | 22 | `satinwood-adam-style` | Satinwood in the Adam room | 1605 | `drafts/satinwood-adam-style.md` |
 | 23 | `beech-bentwood-thonet` | Beech, steam, and the No. 14 | 1664 | `drafts/beech-bentwood-thonet.md` |
-| 24 | `ash-sporting-chairs` | Ash, the hoop, and the sporting chair | 1676 | `drafts/ash-sporting-chairs.md` |
+| 24 | `ash-sporting-chairs` | Ash, the hoop, and the sporting chair | 1608 | `drafts/ash-sporting-chairs.md` |
 | 25 | `cedar-lining-chests` | Cedar linings and the moth chest | 1702 | `drafts/cedar-lining-chests.md` |
 | 26 | `boxwood-inlay` | Boxwood stringing and the pale line | 1664 | `drafts/boxwood-inlay.md` |
 | 27 | `padauk-modernist-accents` | Padauk as a modernist accent | 1694 | `drafts/padauk-modernist-accents.md` |
@@ -50,12 +50,12 @@ Counted: 46 drafts. Total body words: 76,512.
 | 33 | `reclaimed-oak-beams` | Reclaimed oak beams | 1541 | `drafts/reclaimed-oak-beams.md` |
 | 34 | `quartersawn-arts-crafts` | Quartersawn oak and Arts and Crafts | 1531 | `drafts/quartersawn-arts-crafts.md` |
 | 35 | `flatsawn-panel-figure` | Flatsawn cathedrals and the floating panel | 1856 | `drafts/flatsawn-panel-figure.md` |
-| 36 | `rift-cut-flooring` | Rift cut, matching legs, and a floor | 1693 | `drafts/rift-cut-flooring.md` |
-| 37 | `moisture-wood-movement` | Moisture, movement, and a stuck door | 1649 | `drafts/moisture-wood-movement.md` |
-| 38 | `janka-hardness-explained` | Janka hardness, a steel ball, 12 percent | 1685 | `drafts/janka-hardness-explained.md` |
+| 36 | `rift-cut-flooring` | Rift cut, matching legs, and a floor | 1652 | `drafts/rift-cut-flooring.md` |
+| 37 | `moisture-wood-movement` | Moisture, movement, and a stuck door | 1548 | `drafts/moisture-wood-movement.md` |
+| 38 | `janka-hardness-explained` | Janka hardness, a steel ball, 12 percent | 1496 | `drafts/janka-hardness-explained.md` |
 | 39 | `density-weight-shipping` | Density, freight, and a crate that argues | 1595 | `drafts/density-weight-shipping.md` |
-| 40 | `workability-hand-tools` | Workability, Hoadley, and the plane that chatters | 1640 | `drafts/workability-hand-tools.md` |
-| 41 | `veneer-versus-solid` | Veneer, solid, and the ground that moved | 1661 | `drafts/veneer-versus-solid.md` |
+| 40 | `workability-hand-tools` | Workability, Hoadley, and the plane that chatters | 1430 | `drafts/workability-hand-tools.md` |
+| 41 | `veneer-versus-solid` | Veneer, solid, and the ground that moved | 1486 | `drafts/veneer-versus-solid.md` |
 | 42 | `brazilian-rosewood-midcentury` | Brazilian rosewood in the mid-century shop | 1712 | `drafts/brazilian-rosewood-midcentury.md` |
 | 43 | `indian-rosewood-exports` | Indian rosewood and the export lane | 1717 | `drafts/indian-rosewood-exports.md` |
 | 44 | `plywood-and-core-stock` | Plywood and the core | 1755 | `drafts/plywood-and-core-stock.md` |

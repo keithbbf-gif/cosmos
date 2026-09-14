@@ -66,9 +66,7 @@ Strip flooring hides some of the cut argument because the piece is narrow. It do
 
 Chair legs next to that floor should match each other, not the floor. A rift floor and flatsawn legs is a coherent room if you meant it. A mixed bundle in both is a room that happened. Specify twice.
 
-A factory that grades rift by the face photograph, without an end-grain check, will ship you a flatsawn board whose cathedral is shy. Reject it on the dock. The 10× lens is cheaper than the callback. Hoadley’s cylinder does not care about the grade stamp.
-
-Look at the end of a leg and the end of a floorboard. Rings on the diagonal: rift. Rings parallel to the face: flat. Rings through the thickness: quartered. No rings, only a photograph: factory. Figure 3 is the picture. The moisture draft is the numbers. This page is why a set of chairs and a corridor cost more when they match.
+A factory that grades rift by the face photograph, without an end-grain check, will ship you a flatsawn board whose cathedral is shy. Reject it on the dock. The 10× lens is cheaper than the callback. Hoadley’s cylinder does not care about the grade stamp. Figure 3 is the picture. This page is why a set of chairs and a corridor cost more when they match.
 
 ## Sources
 

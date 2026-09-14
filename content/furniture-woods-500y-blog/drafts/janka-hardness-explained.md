@@ -73,17 +73,11 @@ Stand a pine tavern table next to a maple counter. Press a thumbnail into an uns
 
 Arkansas white oak, maple, hickory, cherry, and walnut cover most of the table. The number on the wall is FPL’s, at 12 percent, side hardness. Your board will vary. Specify the species and the job. Do not specify “hardwood” and hope the ball is on your side.
 
-## Floors, counters, and a number that got advertised
+Flooring catalogues made Janka a consumer word. Furniture catalogues mostly did not. That is why a client now asks whether a cherry table is “hard enough” and expects a single integer. Cherry at 950 lbf is a fine dining top if the house will accept a few marks. It is a poor shipping counter. Maple at 1,450 will still mark under a dropped can, because the ball is not a can edge. Hickory at 1,820 is the domestic top of Figure 4 and a wood that fights a plane. Specify the abuse, then pick the row.
 
-Flooring catalogues made Janka a consumer word. Furniture catalogues mostly did not. That is why a client now asks whether a cherry table is “hard enough” and expects a single integer. Cherry at 950 lbf is a fine dining top if the house will accept a few marks and a finish that can be cut back. It is a poor shipping counter. Maple at 1,450 is a shipping counter that will still mark under a dropped can, because the ball is not a can edge. Hickory at 1,820 is the domestic top of Figure 4 and a wood that fights a plane. Specify the abuse, then pick the row.
+End hardness, when FPL reports it, runs higher than side hardness. Do not borrow the end number to sell a top. A floor at 6 percent in January will dent a little less and gape a little more; at 14 percent it will dent more and cup. The table does not replace the moisture chapter.
 
-End hardness, when FPL reports it, runs higher than side hardness. A chair leg’s end grain on a dirt floor is not the dining-table face. Do not borrow the end number to sell a top. Green, Begel, and Nelson’s nonstandard-specimen note exists because flooring scraps keep getting tested as if they were the handbook’s clear side-grain block. The correlation is good enough for a mill. It is not a certificate for your plank.
-
-Moisture at test is 12 percent. A floor at 6 percent in January will dent a little less and gape a little more. A floor at 14 percent in a wet crawlspace will dent more and cup. The Janka table does not replace the moisture draft. Read both.
-
-A pine tavern table at 380 lbf and a maple counter at 1,450 are the two ends of a room people already know by touch. The ball is how a mill writes that touch down. It is not how a shop chooses elm for a Windsor seat, or mahogany for a splat, or hide glue for a chair that should come apart. Use the number for dents. Use the species chapter for the rest.
-
-Look at the dent that is already there. A buckle mark in pine is the species doing its job. A crushed earlywood pore in red oak is the anatomy doing its job. A maple top with no marks after ten years is either a careful house or a hard row on the table. Figure 4 is the map. The ball is 0.444 inch. The room is larger.
+Look at the dent that is already there. A buckle mark in pine is the species doing its job. A crushed earlywood pore in red oak is the anatomy doing its job. Figure 4 is the map. The ball is 0.444 inch. The room is larger.
 
 ## Sources
 

@@ -62,15 +62,9 @@ Specify: face species, cut of the face (crown, quarter, rift, rotary), thickness
 
 Arkansas shops meet veneer as imported faces on imported cores, and as domestic walnut and oak leaves on domestic ply or on yellow-poplar for paint-grade work. The solid side of that rack is the older contract. The useful sentence is the long one. The Eames DCM and a printed suburban suite share a century. They do not share a glue, a mould, or a noun.
 
-## Oyster, crotch, and a foil that blistered
+Oyster veneer — end-grain slices of walnut or laburnum, laid like overlapping coins — wastes less of a small figured stem than a solid board would. Movement in the oysters is a different geometry (end grain, not a long face). The failure is lifting at the edges, not a cathedral split. Seaweed marquetry is the cousin: two woods, a knife, a ground.
 
-Oyster veneer — end-grain slices of walnut or laburnum, laid like overlapping coins — is a 17th-century conversion that wastes less of a small, figured stem than a solid board would. The ground is still deal or oak. The glue is still hide. Movement in the oysters is a different geometry (end grain, not a long face), and the failure is lifting at the edges, not a cathedral split. Seaweed marquetry is the cousin: two woods, a knife, a ground. The Wallace Collection and the walnut-baroque draft take the pictures. This chapter only needs the contract: leaf, ground, hide, weather.
-
-Crotch and burl are the show leaves of the next hours. They are unstable as solids. They are why veneer exists. A solid crotch slab is a conversation piece and a movement problem. A crotch leaf on ply is a conversation piece that stays a rectangle. A crotch leaf on flatsawn poplar is the Empire check.
-
-Foil under a casserole blisters. There is no plane that fixes a bubble. A solid top would have a white ring you might revive. Choose the life before you choose the leaf. Hide glue on a historic leaf can be reversed. UF on a factory leaf cannot. Floating panels belong to solids. Slotted screws belong to solids. A veneered-ply top screwed rigid is acceptable physics. A solid top screwed rigid is a split.
-
-Look at the edge and the check. If the picture of the tree has opened and the core is a different color, you are in this chapter. If the whole thickness opened along a glue line, you are in the flatsawn and moisture chapters. Figure 3 is the solid cut. Figure 4 is why a poplar ground dents and a maple lipping does not. Hide glue is the old contract. UF is the factory contract. Neither will save a specification that says only wood.
+Foil under a casserole blisters. There is no plane that fixes a bubble. A solid top would have a white ring you might revive. Choose the life before you choose the leaf. A veneered-ply top screwed rigid is acceptable physics. A solid top screwed rigid is a split. If the picture of the tree has opened and the core is a different color, you are in this chapter. If the whole thickness opened along a glue line, you are in the flatsawn and moisture chapters.
 
 ## Sources
 

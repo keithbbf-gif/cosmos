@@ -27,7 +27,7 @@ A teak weather deck is a joinery problem before it is a luxury. Planks are laid 
 
 *Tectona grandis* is still the ring-porous tree of the dockyard chapter. The *Wood Handbook* (FPL-GTR-190) still gives excellent dimensional stability and a very high natural durability. Compiled Janka sits near 1,070 lbf, specific gravity near 0.55 — oak’s neighbor, not maple’s. Figure 4 places that hardness among the series’ ten anchors. Outdoor furniture does not need a higher number. It needs heartwood, a joint that drains, and fasteners that will not stain.
 
-Figure 2 keeps the Indian Ocean lane in view. The garden bench of 1985 and the Bombay frigate of 1817 share a species and a port geography. They do not share a finish, a shop, or a labor system. Plantation teak from Africa and Latin America is a later supply on that same map (FPL already noted plantations). The plantation slug takes the papers. This draft takes the wet face.
+Figure 2 keeps the Indian Ocean lane in view. The garden bench of 1985 and the Bombay frigate of 1817 share a species and a port geography. They do not share a finish, a shop, or a labor system. Plantation teak from Africa and Latin America is a later supply on that same map (FPL already noted plantations). The plantation chapter (`sustainable-teak-plantations`) takes the papers. This hour is the wet face.
 
 Old Burma teak is the folklore grade: tight rings, dark, greasy. Plantation boards can be lighter, paler, wider-ringed, less oily. Both are *Tectona* if the anatomy agrees. Neither is “yacht grade” because a catalogue said so. Sapwood on a garden rail is the cheap cut; it will not last like heart. Look at the end grain. A wide pale band is a specification, not a surprise.
 

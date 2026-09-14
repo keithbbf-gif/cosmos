@@ -68,15 +68,7 @@ CNC routers like MDF and even-textured hardwoods. They do not like silica, voids
 
 Arkansas oak, walnut, cherry, maple, and pine cover a useful workability band. Interlock is rare. Tannin in oak will still rust a plane. Cherry will still blotch if you skip a conditioner or a scraper. Domestic is not a synonym for easy. It is a synonym for a known iron.
 
-## A gouge, a scraper, and a glued panel
-
-Chippendale’s splat is a gouge problem. Mahogany’s diffuse texture lets the tool cross the grain without the crumbling oak gives you in a thin piercing. Walnut can do some of it. Hard maple will hold the arris and fight the same cut. Sapele will chatter in the ribbon and then take a scraper to a finish that looks like the *Director* plate if you are patient. The plate does not name the iron. The wood does.
-
-A cabinet scraper, sprung, is Hoadley’s answer to figure. It is also the answer to a tearout you already made. You are cutting a dust, not a shave. The surface can burnish. Stop before the polish seals the pore if you still have to glue. Hide glue wants a clean, slightly open surface. UF wants fit and clamp. Neither glue wants a surface you just waxed to see the color.
-
-The split door returns here because workability includes the joint you chose after the plane was happy. A perfect sapele panel, scraped, oiled, and glued into a tight groove, is a January crack. Floating panels and slotted screws are tool work: a plow plane or a slot in a breadboard, a screwdriver that stops before it pins the width. The iron and the fastener are the same chapter.
-
-Look at the surface under raking light. Tearout is interlock or a dull iron or a cathedral planed the wrong way. A dotted moulding is oak earlywood. A polished, slightly wavy pine board is latewood bands. A checked crotch veneer is a ground that moved under hide glue that went glass. Figure 4 is hardness. Figure 3 is cut. The iron is the third axis. Hoadley is the text. The split door is what happens when the iron was fine and the panel was glued.
+Look at the surface under raking light. Tearout is interlock or a dull iron or a cathedral planed the wrong way. A dotted moulding is oak earlywood. A polished, slightly wavy pine board is latewood bands. A checked crotch veneer is a ground that moved under hide glue that went glass. A scraper that burnishes before you glue will starve hide glue; stop while the pore is still slightly open. Figure 4 is hardness. Figure 3 is cut. The iron is the third axis. The split door is what happens when the iron was fine and the panel was glued.
 
 ## Sources
 
