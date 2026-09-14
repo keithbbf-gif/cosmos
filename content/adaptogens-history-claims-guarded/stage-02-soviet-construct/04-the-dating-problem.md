@@ -16,6 +16,11 @@ I do not mean a little academic asterisk. I mean the kind of problem that tells 
 
 This draft does not treat, cure, or prevent any disease. It is not medical advice. It is a quarrel about a calendar.
 
+<figure class="blog-figure">
+  <img src="../assets/shared/svg/soviet-adaptogen-timeline.svg" alt="Schematic timeline of adaptogen word anchors from 1947 dispute through 2008 EMA reflection" width="960" height="320" loading="lazy" />
+  <figcaption><strong>Figure.</strong> Anchor dates cited in secondary literature and regulator documents — not a complete chronology. <em>Schematic timeline; not to scale.</em></figcaption>
+</figure>
+
 The version you will meet first, because it is short, goes like this: in 1947 the Soviet toxicologist Nikolai Vasilievich Lazarev coined *adaptogen* for substances that raise "nonspecific resistance" to adverse influences. The European Medicines Agency's 2008 reflection paper repeats a form of that line and even lists a 1947 congress citation (7th All-Union Congress of Physiology, Biochemistry, and Pharmacology, Medgiz, Moscow, p. 579) among its references. Later popular pages copy the year and lose the congress. By the time the year reaches a blog, Lazarev has "invented adaptogens," as if he had invented the plants.
 
 Then there is the version that sits in a footnote of a 2011 *HerbalGram* review by Alexander Panossian and Hildebert Wagner. The authors say they went looking through original Russian full texts from 1943 onward. They say they did not find the word *adaptogen* in any publication before 1958 — not in Lazarev's 1947 book *Evolution of Pharmacology*, not in early Brekhman pieces, not in the conference abstracts they checked. They date Lazarev's introduction of the term into the scientific literature to 1957, for substances that increase the "state of non-specific resistance" in stress. They add that a 1947 congress abstract and a 1956 paper discussed a synthetic, dibazol, in the neighborhood of nonspecific resistance *without* using the later brand-word.

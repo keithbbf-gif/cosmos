@@ -14,6 +14,11 @@ Three words keep getting stacked as if they were synonyms you could shuffle for 
 
 This draft does not treat, cure, or prevent any disease. It is not medical advice. It is a short history of three labels that refuse to sit in the same chair.
 
+<figure class="blog-figure">
+  <img src="../assets/shared/svg/tonic-stimulant-adaptogen-compare.svg" alt="Schematic comparison of tonic, stimulant, and adaptogen as three historical vocabulary lanes" width="900" height="420" loading="lazy" />
+  <figcaption><strong>Figure.</strong> Three vocabulary lanes from different medical rooms — not interchangeable synonyms. <em>Schematic; not a plant taxonomy.</em></figcaption>
+</figure>
+
 **Tonic** is the oldest of the three in ordinary European medical talk, and it has cousins everywhere. German and older English physicians used it for preparations meant to address weakness or "lack of tone" in a person or an organ. The EMA herbal committee, when it needed a contrast class in 2008, reached for that traditional sense and for *asthenia* — a word that, the committee was careful to say, does not map cleanly onto a modern ICD line. In Chinese materia, *bu* (to tonify, to supplement) is a verb inside a system of qualities, not a brand. In Ayurveda, rasayana is a whole shelf with arguments about rejuvenation language that are not our arguments. Household English used "tonic" for bitters, wines, and things a grandmother poured when someone looked peaked.
 
 A tonic, in those rooms, is not "a substance that treats a named disease." It is a style of use: repeated, general, aimed at a picture of depletion that the local medicine already had words for. You can study that style as history. You cannot, from the word alone, hang a diagnosis on a bottle.

@@ -16,6 +16,11 @@ The name is better than the branding.
 
 This draft does not treat, cure, or prevent any disease. It is not medical advice. It is a plant with a smell, a shelf, and a recent American celebrity that would surprise a 1960s Vladivostok list.
 
+<figure class="blog-figure">
+  <img src="../assets/images/ashwagandha-smell-of-a-horse/mhnt-withania-2012.jpg" alt="Herbarium specimen photograph of Withania somnifera" width="800" loading="lazy" />
+  <figcaption><strong>Figure.</strong> <em>Withania somnifera</em> herbarium specimen — botanical record only. Ercé / Muséum de Toulouse, Wikimedia Commons (CC BY-SA 3.0).</figcaption>
+</figure>
+
 The Ayurvedic file — *Charaka*, *Sushruta*, later nighantus, a living practice — places the root in rasayana and other talks: astringent and bitter language, a warming reputation in some descriptions, a use-picture that includes depletion and a kind of steadiness I will not translate into a psychiatric term. I am staying high on purpose. High is how you do not accidentally write an indication.
 
 The horse in the name is an ethnographic gift. It points at a sensory test (the root's odor) and at a culture that thought in animals as well as in dosha theory. English branding keeps the horse and loses the smell. A standardized withanolide extract does not smell like a stable. That is not a joke about quality. It is a fact about **what got discarded when the plant became a SKU**.

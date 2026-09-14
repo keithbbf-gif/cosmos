@@ -16,6 +16,11 @@ Five tastes: the Chinese medical set, not a tasting-menu gimmick. A berry that c
 
 This draft does not treat, cure, or prevent any disease. It is not medical advice. It is a berry with too many later jobs.
 
+<figure class="blog-figure">
+  <img src="../assets/images/schisandra-and-five-tastes/flore-des-serres-schisandra-1850s.jpg" alt="Nineteenth-century botanical plate of Schisandra from Flore des serres" width="700" loading="lazy" />
+  <figcaption><strong>Figure.</strong> <em>Schisandra</em> in a nineteenth-century horticultural plate — naming and illustration history, not an efficacy claim. Louis van Houtte, <em>Flore des serres</em>, public domain, via Wikimedia Commons.</figcaption>
+</figure>
+
 In Chinese materia, *Schisandra chinensis* (Turcz.) Baill. — and the related southern talk that sometimes points at *S. sphenanthera* — shows up with astringing and gathering language, with lung and kidney talk in the Chinese sense, with a reputation that later English pages flatten into "liver" and then flatten again into a cleanse. Flattening is the enemy. I will stop at: the berry had a file, the file had tastes, the tastes had a system.
 
 The Soviet file is different. Reviews say wartime and pre-war Russian journals discussed *limonnik* as a stimulating and tonic sort of preparation, and that the berry sat on the adaptogen shortlist next to eleuthero and *Panax*. Same species neighborhood, different verbs. If you merge "astringe" and "nonspecific resistance" you get a smoothie of systems. This folder serves the systems in separate bowls.

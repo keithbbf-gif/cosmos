@@ -16,6 +16,16 @@ What English speakers flatten as "the *Shennong Bencao Jing*" is a textual tradi
 
 This draft does not treat, cure, or prevent any disease. It is not medical advice. It is a walk around a plant in a literature.
 
+<figure class="blog-figure">
+  <img src="../assets/images/panax-in-the-bencao/jartoux-ginseng-1713.jpg" alt="Engraving of ginseng plant after Pierre Jartoux, 1713" width="700" loading="lazy" />
+  <figcaption><strong>Figure.</strong> Ginseng as drawn for European readers after Jesuit botanical reporting — historical plate, not modern identification. Pierre Jartoux (1713), public domain, via Wikimedia Commons.</figcaption>
+</figure>
+
+<figure class="blog-figure">
+  <img src="../assets/images/panax-in-the-bencao/psm-ginseng-1891.jpg" alt="Late nineteenth-century illustration of ginseng root and leaves" width="700" loading="lazy" />
+  <figcaption><strong>Figure.</strong> Ginseng in a popular-science engraving era when the root was already a trade object. <em>Popular Science Monthly</em> (1891), public domain, via Wikimedia Commons.</figcaption>
+</figure>
+
 The literature talks in **qualities and directions**, not in ICD codes. Ginseng is discussed in the language of *qi*, of spleen and lung in the Chinese medical sense (which are not the autopsy organs with the same English names), of a body that can be depleted or collapsed. If I translate those sentences into "for fatigue" I have already done the aisle's first theft. If I translate them into "for immune health" I have done the second. I will not do the third, which would be to translate them into *adaptogen* and then smile as if the Han had been waiting for Lazarev.
 
 What a historian can say without leaving the fence:

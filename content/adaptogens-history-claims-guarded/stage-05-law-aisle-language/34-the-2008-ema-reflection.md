@@ -16,6 +16,11 @@ On 8 May 2008 the Committee on Herbal Medicinal Products (HMPC) of the European 
 
 This draft does not treat, cure, or prevent any disease. It is not medical advice. It is a reading of a committee's public thinking.
 
+<figure class="blog-figure">
+  <img src="../assets/shared/svg/soviet-adaptogen-timeline.svg" alt="Timeline highlighting 2008 EMA HMPC reflection on adaptogen terminology" width="960" height="320" loading="lazy" />
+  <figcaption><strong>Figure.</strong> The 2008 HMPC reflection sits at the end of this schematic — a committee statement about marketing language, not a verdict on plants. <em>Educational timeline; not to scale.</em></figcaption>
+</figure>
+
 What the paper does, in my paraphrase — go to the PDF if you need their words — is four jobs.
 
 It **defines by quotation**. Lazarev 1947 is their attributed start (we have already put a dating quarrel on that year). Brekhman's clauses are reproduced, including the awkward pathology-gradient line. Selye is named as the sense of *stress* they mean.

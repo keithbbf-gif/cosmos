@@ -12,8 +12,10 @@ protocol, a shop, or a list of cures.
 1. [`GUARDRAILS.md`](GUARDRAILS.md) — what a sentence may and may not do.
 2. [`CITATIONS.md`](CITATIONS.md) — named public documents and the honesty
    rule for secondary literature.
-3. This index — one-line theses, in stage order.
-4. Any single draft. They stand alone. They do not stack into a treatment.
+3. [`RIGHTS.md`](RIGHTS.md) and [`GRAPHICS_INDEX.md`](GRAPHICS_INDEX.md) — figures,
+   licenses, and embed policy (`staged/FIGURE_EMBEDS.md`).
+4. This index — one-line theses, in stage order.
+5. Any single draft. They stand alone. They do not stack into a treatment.
 
 If you only open one file besides the guardrails, open
 [`stage-01-how-to-read/01-what-this-folder-refuses.md`](stage-01-how-to-read/01-what-this-folder-refuses.md).

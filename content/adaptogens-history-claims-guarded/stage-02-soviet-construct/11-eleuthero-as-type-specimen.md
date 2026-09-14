@@ -16,6 +16,16 @@ If the Soviet school needed a plant that could carry the noun *adaptogen* into q
 
 This draft does not treat, cure, or prevent any disease. It is not medical advice. It is a portrait of a shrub as a **logistical and rhetorical** object.
 
+<figure class="blog-figure">
+  <img src="../assets/shared/svg/araliaceae-cousinhood-schematic.svg" alt="Family schematic showing Panax and Eleutherococcus as separate genera within Araliaceae" width="720" height="400" loading="lazy" />
+  <figcaption><strong>Figure.</strong> Botanical cousinhood made the Soviet metaphor easy; it is not a substitution claim in the body. <em>Redrawn schematic.</em></figcaption>
+</figure>
+
+<figure class="blog-figure">
+  <img src="../assets/images/eleuthero-as-type-specimen/doronenko-eleuthero-2006.jpg" alt="Photograph of Eleutherococcus senticosus foliage and stems" width="800" loading="lazy" />
+  <figcaption><strong>Figure.</strong> <em>Eleutherococcus senticosus</em> (eleuthero) — specimen photograph for botanical context only; not cultivation or dosing advice. Photo: Stanislav Doronenko, Wikimedia Commons (CC BY 2.5).</figcaption>
+</figure>
+
 Look at the family first. Araliaceae is also *Panax*'s family. That botanical cousinhood made a metaphor easy: if you cannot get enough true ginseng, here is a relative with its own Chinese record. Metaphors are not chemistry. A cousin in a flora is not a substitute in a body, and this page will not say it is. It is a reason a pharmacologist in the Far East could put the two plants in the same sentence without feeling insane.
 
 Look at the Chinese record second. *Ciwujia* does not begin in Vladivostok. It has a materia-medica life that draft 18 takes up. The Soviet program did not invent the shrub. It **redescribed** the shrub in resistance language and then published enough that later Europeans, when they needed an example, reached for Eleutherococci radix. The EMA's 2008 reflection paper says as much: the committee was drafting a community herbal monograph on eleuthero root when it found itself having to think about the adaptogenic concept in general.
