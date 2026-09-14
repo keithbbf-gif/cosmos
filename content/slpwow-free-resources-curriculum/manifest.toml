@@ -1,0 +1,63 @@
+# SLPWOW free-resources curriculum — machine list
+# Human map: INDEX.md    Claims law: CLAIMS_GUARDRAILS.md
+
+pack = "slpwow-free-resources-curriculum"
+line = "SLPWOW-FR"
+status = "curriculum-briefs-wave-1"
+date = "2026-09-14"
+original_only = true
+diagnoses = false
+
+required_files = [
+  "INDEX.md",
+  "CLAIMS_GUARDRAILS.md",
+  "AGE_BANDS.md",
+  "FORMAT_SCOPE.md",
+  "STYLE_CLINICIAN_PDF.md",
+  "PREPUBLISH.md",
+  "manifest.toml",
+  "check_curriculum.py",
+  "briefs/worksheets.md",
+  "briefs/printouts.md",
+  "briefs/word-lists.md",
+  "briefs/report-templates.md",
+  "domains/speech-sound.md",
+  "domains/language.md",
+  "domains/phonological-awareness.md",
+  "domains/social-fluency.md",
+]
+
+formats = ["WS", "PO", "WL", "RT"]
+bands = ["EI", "PK", "EE", "LE", "AD", "AX", "MX"]
+domains = [
+  "ART", "PHN", "PA", "VOC", "SYN", "NAR",
+  "SOC", "FLU", "AAC", "CG", "DOC", "MIX",
+]
+
+# First-wave SKUs. Keep in sync with INDEX.md.
+skus = [
+  "SLPWOW-FR-WS-ART-EE-01",
+  "SLPWOW-FR-WS-PHN-PK-01",
+  "SLPWOW-FR-WS-VOC-EE-01",
+  "SLPWOW-FR-WS-SYN-LE-01",
+  "SLPWOW-FR-WS-NAR-EE-01",
+  "SLPWOW-FR-WS-PA-PK-01",
+  "SLPWOW-FR-WS-SOC-AD-01",
+  "SLPWOW-FR-WS-FLU-MX-01",
+  "SLPWOW-FR-PO-CG-EI-01",
+  "SLPWOW-FR-PO-CG-PK-01",
+  "SLPWOW-FR-PO-AAC-MX-01",
+  "SLPWOW-FR-PO-MIX-MX-01",
+  "SLPWOW-FR-PO-ART-EE-01",
+  "SLPWOW-FR-PO-FLU-MX-01",
+  "SLPWOW-FR-WL-ART-MX-01",
+  "SLPWOW-FR-WL-ART-MX-02",
+  "SLPWOW-FR-WL-VOC-EE-01",
+  "SLPWOW-FR-WL-VOC-AD-01",
+  "SLPWOW-FR-WL-SYN-LE-01",
+  "SLPWOW-FR-WL-NAR-MX-01",
+  "SLPWOW-FR-RT-DOC-MX-01",
+  "SLPWOW-FR-RT-DOC-MX-02",
+  "SLPWOW-FR-RT-DOC-MX-03",
+  "SLPWOW-FR-RT-DOC-MX-04",
+]
