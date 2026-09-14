@@ -56,6 +56,25 @@ Register every publishable figure here **before** embedding in articles. Columns
 | `smyrna.usda-endgere` | `assets/images/smyrna-fig-caprification-usa/usda-pom-01071-endgere.jpg` | USDA watercolor | slug: `smyrna-fig-caprification-usa` | ready |
 | `parthenocarpic.usda-fig-x1` | `assets/images/parthenocarpic-vs-pollinated-types/usda-pom-07442-fig-x1.jpg` | USDA watercolor | slug: `parthenocarpic-vs-pollinated-types` | ready |
 | `condit.usda-royal-black` | `assets/images/condit-and-modern-pomology/usda-pom-01045-royal-black.jpg` | USDA watercolor | slug: `condit-and-modern-pomology` | ready |
+| `condit.usda-nameless` | `assets/images/condit-and-modern-pomology/usda-pom-01044-nameless.jpg` | USDA watercolor | slug: `condit-and-modern-pomology` | ready |
+| `smyrna.usda-first-crop-1897` | `assets/images/smyrna-fig-caprification-usa/usda-pom-01166-first-crop-smyrna.jpg` | USDA watercolor | slug: `smyrna-fig-caprification-usa` | ready |
+| `mission-kadota.magnolia-1913` | `assets/images/mission-kadota-brown-turkey/usda-pom-01043-magnolia.jpg` | USDA watercolor | slug: `mission-kadota-brown-turkey` | ready |
+| `northern.toulousienne-1895` | `assets/images/northern-garden-lambeth-jefferson/usda-pom-01168-toulousienne.jpg` | USDA watercolor | slug: `northern-garden-lambeth-jefferson` | ready |
+| `northern.usda-cutting` | `assets/images/northern-garden-lambeth-jefferson/usda-pom-01042-cutting.jpg` | USDA watercolor | slug: `northern-garden-lambeth-jefferson` | ready |
+| `fig-motif.man-8625` | `assets/images/pompeii-gardens-fig-trees/herculaneum-man-8625.jpg` | museum photo | slug: `fig-motif-folklore` | ready |
+| `fig-nutrition.wellcome` | `assets/images/figs-in-greek-roman-medicine/wellcome-v0044761.jpg` | historical plate | slug: `fig-nutrition-history-lens` | ready |
+| `fig-leaves.ehret-1771` | `assets/images/syconium-botany-and-morphology/ehret-trew-1771.jpg` | historical plate | slug: `fig-leaves-culinary-wrap` | ready |
+| `fig-wine.melendez` | `assets/images/renaissance-still-life-figs/melendez-still-life-figs-bread-nga.jpg` | painting | slug: `fig-wine-and-vinegar` | ready |
+| `italian-dottato.bimbi` | `assets/images/renaissance-still-life-figs/bimbi-figs-1696.jpg` | painting | slug: `italian-dottato-and-gi` | ready |
+| `south-asia.ehret-carica` | `assets/images/syconium-botany-and-morphology/ehret-trew-1771.jpg` | historical plate | slug: `south-asia-fig-among-ficus` | ready |
+| `pliny.bimbi` | `assets/images/renaissance-still-life-figs/bimbi-figs-1696.jpg` | painting | slug: `pliny-and-the-roman-fig-catalog` | ready |
+| `black-mission.celeste` | `assets/images/mission-kadota-brown-turkey/usda-pom-07441-celeste.jpg` | USDA watercolor | slug: `black-mission-vs-white-genoa` | ready |
+| `izmir.calimyrna-ship` | `assets/images/sarilop-and-turkish-export-grades/usda-pom-07439-calimyrna-ship.jpg` | USDA watercolor | slug: `izmir-port-and-fig-packing` | ready |
+| `blastophaga.endgere` | `assets/images/smyrna-fig-caprification-usa/usda-pom-01071-endgere.jpg` | USDA watercolor | slug: `blastophaga-psenes-and-pollination` | ready |
+| `fig-leaf-morphology.ehret` | `assets/images/syconium-botany-and-morphology/ehret-trew-1771.jpg` | historical plate | slug: `fig-leaf-morphology-identification` | ready |
+| `paste.melendez` | `assets/images/renaissance-still-life-figs/melendez-still-life-figs-bread-nga.jpg` | painting | slug: `fig-paste-and-confection` | ready |
+| `ottoman.calimyrna-1912` | `assets/images/mission-kadota-brown-turkey/usda-pom-07440-calimyrna-1912.jpg` | USDA watercolor | slug: `ottoman-aydin-fig-export` | ready |
+| `caprification.usda-first-crop` | `assets/images/smyrna-fig-caprification-usa/usda-pom-01166-first-crop-smyrna.jpg` | USDA watercolor | slug: `caprification-discovery-history` | ready |
 
 ## Pending (writer / rights lane)
 
