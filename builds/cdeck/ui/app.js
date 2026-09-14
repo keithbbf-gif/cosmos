@@ -136,11 +136,28 @@
       "<ul class=\"sys-list\">" + parts + "</ul>";
   }
 
+  function railRowClass(r) {
+    if (r.proof_state === "STALE" || (r.verified === false && r.model)) {
+      return " stale-row";
+    }
+    return "";
+  }
+
+  function verifiedCell(r) {
+    if (r.proof_state === "STALE") {
+      return '<span class="bad">STALE</span>';
+    }
+    var v = r.verified;
+    if (v === true) return '<span class="ok">✓</span>';
+    if (v === false) return '<span class="bad">✗</span>';
+    return '<span class="warn">?</span>';
+  }
+
   function renderRails(d) {
     var el = $("sys-rails");
     if (!el) return;
     d = d || {};
-    var m = d.matrix || [];
+    var m = (d.matrix || []).concat(d.stale || []);
     if (m.length === 0) {
       el.innerHTML =
         '<h3 class="sys-hd">Rails</h3>' +
@@ -149,16 +166,18 @@
       return;
     }
     var rows = m.map(function (r) {
-      var v = r.verified;
-      var vCell = v === true ? '<span class="ok">✓</span>'
-        : v === false ? '<span class="bad">✗</span>'
-          : '<span class="warn">?</span>';
-      return "<tr><td>" + esc(r.link_id || r.rail || "?") + "</td><td>" + vCell + "</td></tr>";
+      var model = r.model != null && String(r.model) !== "" ? esc(String(r.model)) : "—";
+      var age = r.age_s != null ? esc(String(Math.round(r.age_s))) + "s" : "—";
+      return "<tr class=\"" + esc(railRowClass(r).trim()) + "\">" +
+        "<td>" + esc(r.link_id || r.rail || "?") + "</td>" +
+        "<td>" + model + "</td>" +
+        "<td>" + verifiedCell(r) + "</td>" +
+        "<td class=\"dim\">" + age + "</td></tr>";
     }).join("");
     el.innerHTML =
       '<h3 class="sys-hd">Rails</h3>' +
       '<p class="dim tiny">GET /api/v1/rails</p>' +
-      '<div class="twrap"><table><thead><tr><th>link</th><th>verified</th></tr></thead><tbody>' +
+      '<div class="twrap"><table><thead><tr><th>link</th><th>model</th><th>verified</th><th>age</th></tr></thead><tbody>' +
       rows + "</tbody></table></div>";
   }
 
@@ -199,13 +218,46 @@
     var topo = d.topology || {};
     var nodes = topo.nodes || [];
     var reg = d.registry || {};
-    var mx = reg.matrix || [];
+    var mx = (reg.matrix || []).concat(reg.stale || []);
+    var gem = null;
+    var i;
+    for (i = 0; i < nodes.length; i++) {
+      if (nodes[i].id === "gem-api" || nodes[i].link_id === "gem-api") {
+        gem = nodes[i];
+        break;
+      }
+    }
+    if (!gem) {
+      for (i = 0; i < mx.length; i++) {
+        if (mx[i].link_id === "gem-api") {
+          gem = mx[i];
+          break;
+        }
+      }
+    }
     var nodeLines = nodes.slice(0, 16).map(function (n) {
-      return "<li>" + esc(n.id || n.name || "?") + "</li>";
+      var model = n.model != null && String(n.model) !== "" ? " · " + esc(String(n.model)) : "";
+      var stale = n.proof_state === "STALE" ? ' <span class="bad">STALE</span>' : "";
+      return "<li>" + esc(n.label || n.id || "?") + model + stale + "</li>";
     }).join("");
+    var gemBlock = "";
+    if (gem) {
+      var gModel = gem.model != null && String(gem.model) !== "" ? esc(String(gem.model)) : "—";
+      var gVer = verifiedCell(gem);
+      var gNote = gem.independence ? '<p class="tiny dim">' + esc(gem.independence) + "</p>" : "";
+      if (!gNote && reg.catalog && reg.catalog["gem-api"]) {
+        gNote = '<p class="tiny dim">' + esc(reg.catalog["gem-api"].independence || "") + "</p>";
+      }
+      gemBlock =
+        '<div class="sys-gem' + (gem.proof_state === "STALE" ? " stale-row" : "") + '">' +
+        "<b>GEM</b> gem-api · model " + gModel + " · " + gVer +
+        (gem.role ? '<p class="tiny">' + esc(gem.role) + "</p>" : "") +
+        gNote + "</div>";
+    }
     el.innerHTML =
       '<h3 class="sys-hd">Nodemap</h3>' +
       '<p class="dim tiny">GET /api/v1/nodemap</p>' +
+      gemBlock +
       '<p class="tiny">nodes ' + esc(String(nodes.length)) +
       " · matrix " + esc(String(mx.length)) + "</p>" +
       "<ul class=\"sys-list\">" + (nodeLines || "<li class=\"dim\">none</li>") + "</ul>";

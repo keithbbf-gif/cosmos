@@ -31,7 +31,7 @@ def _read(*names: str) -> str:
 def main() -> int:
     css = _read("header.css", "deck_more.css", "app.css")
     html = _read("index.html", "deck_more.html")
-    js = _read("header.js", "model_rater.js", "kdash_native.js", "app.js", "deck_tabs.js")
+    js = _read("header.js", "model_rater.js", "kdash_native.js", "app.js", "deck_tabs.js", "deck_forge.js")
     blob = css + "\n" + html + "\n" + js
     appjs = _read("app.js")
     tabsjs = _read("deck_tabs.js")
@@ -217,6 +217,32 @@ def main() -> int:
         "SYSTEM: 503 surfaces CDECK_PANEL_NOT_COMPOSED verbatim",
         "CDECK_PANEL_NOT_COMPOSED" in appjs,
         "503 string",
+    )
+
+    check(
+        "SYSTEM: rails/nodemap paint vendor model + STALE red for gem-api",
+        "proof_state" in appjs
+        and "STALE" in appjs
+        and "gem-api" in appjs
+        and "model" in appjs
+        and "stale-row" in appjs,
+        "gem stale wiring",
+    )
+
+    check(
+        "FORGE: paintForgeTab reads GET /api/v1/nodemap for GEM rail",
+        "paintForgeTab" in js
+        and 'apiGet("/api/v1/nodemap")' in js
+        and "forge-gem-rail" in js,
+        "forge gem",
+    )
+
+    check(
+        "INDEPENDENCE: SGH+GBW same-family note kept in nodemap catalog",
+        "SGH+GBW" in (Path(REPO / "cosmos_nodemap_panel.py").read_text(encoding="utf-8")
+                      if (REPO / "cosmos_nodemap_panel.py").is_file() else "")
+        or "SGH+GBW" in js,
+        "independence",
     )
 
     failed = [r for r in RESULTS if not r[1]]

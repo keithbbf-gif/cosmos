@@ -53,6 +53,7 @@ FAKES = {
                             "Playwright/1.63.0-alpha-2026-08-05"),
     "github-forge": _fake("github-forge", "rest_limit=5000 remaining=4999"),
     "gitlab-forge": _fake("gitlab-forge", "user_id=42 username=probe-user"),
+    "groq-api": _fake("groq-api", "openai/gpt-oss-20b"),
 }
 
 WIRED_IDS = [s["link_id"] for s in WIRED_NODES]

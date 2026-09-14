@@ -70,6 +70,9 @@
     if (tabId === "system" && typeof window.paintSystemTab === "function") {
       window.paintSystemTab();
     }
+    if (tabId === "forge" && typeof window.paintForgeTab === "function") {
+      window.paintForgeTab();
+    }
   }
 
   function buildRail() {

@@ -35,3 +35,6 @@ body[data-orch-mode="home"] #orch-home { display: block; }
 .twrap { overflow-x: auto; }
 .twrap table { width: 100%; border-collapse: collapse; font-size: 11px; }
 .twrap th, .twrap td { border-bottom: 1px solid #eee; padding: 2px 4px; text-align: left; }
+.stale-row { color: #a00; }
+.stale-row td { border-bottom-color: #f5c2c2; }
+.sys-gem.stale-row { border: 1px solid #f5c2c2; padding: 4px; border-radius: 4px; }

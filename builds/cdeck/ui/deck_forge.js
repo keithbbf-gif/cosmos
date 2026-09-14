@@ -1,6 +1,83 @@
 (function () {
   "use strict";
 
+  function esc(s) {
+    if (s == null) return "";
+    return String(s)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/"/g, "&quot;");
+  }
+
+  function $(id) {
+    return document.getElementById(id);
+  }
+
+  function paintForgeTab() {
+    var panel = $("panel-forge");
+    if (!panel) return;
+    if (panel.dataset.shell !== "1") {
+      panel.dataset.shell = "1";
+      panel.innerHTML =
+        '<section id="forge-gem-rail" class="sys-block" aria-label="GEM rail"></section>' +
+        '<section id="forge-independence" class="sys-block" aria-label="family notes"></section>';
+    }
+    var gemEl = $("forge-gem-rail");
+    var indEl = $("forge-independence");
+    if (gemEl) gemEl.innerHTML = '<p class="dim tiny">GET /api/v1/nodemap …</p>';
+    apiGet("/api/v1/nodemap").then(function (d) {
+      var reg = (d && d.registry) || {};
+      var cat = reg.catalog || {};
+      var mx = (reg.matrix || []).concat(reg.stale || []);
+      var gemProof = null;
+      var i;
+      for (i = 0; i < mx.length; i++) {
+        if (mx[i].link_id === "gem-api") {
+          gemProof = mx[i];
+          break;
+        }
+      }
+      var gemCat = cat["gem-api"] || {};
+      if (gemEl) {
+        if (!gemProof && !gemCat.agent) {
+          gemEl.innerHTML = '<div class="empty">gem-api not in registry projection</div>';
+        } else {
+          var model = gemProof && gemProof.model ? esc(String(gemProof.model)) : "—";
+          var stale = gemProof && gemProof.proof_state === "STALE";
+          var ver = stale ? '<span class="bad">STALE</span>'
+            : (gemProof && gemProof.verified === true ? '<span class="ok">verified live</span>'
+              : '<span class="warn">unverified</span>');
+          gemEl.innerHTML =
+            "<h3 class=\"sys-hd\">GEM · gem-api</h3>" +
+            '<p class="dim tiny">Forge reads Core nodemap — vendor model only after live prove</p>' +
+            '<p>model <b>' + model + "</b> · " + ver + "</p>" +
+            (gemCat.role ? '<p class="tiny">' + esc(gemCat.role) + "</p>" : "");
+        }
+      }
+      if (indEl) {
+        var lines = [];
+        if (cat["gem-api"] && cat["gem-api"].independence) {
+          lines.push("<li><b>GEM</b> " + esc(cat["gem-api"].independence) + "</li>");
+        }
+        if (cat["sgh-api"] && cat["sgh-api"].independence) {
+          lines.push("<li><b>SGH</b> " + esc(cat["sgh-api"].independence) + "</li>");
+        }
+        if (cat["gw-api"] && cat["gw-api"].independence) {
+          lines.push("<li><b>GBW</b> " + esc(cat["gw-api"].independence) + "</li>");
+        }
+        indEl.innerHTML =
+          "<h3 class=\"sys-hd\">Family / independence</h3>" +
+          "<ul class=\"sys-list\">" + (lines.join("") || "<li class=\"dim\">—</li>") + "</ul>";
+      }
+    }).catch(function (e) {
+      if (gemEl) {
+        gemEl.innerHTML = '<div class="sys-err">' + esc(e.message || String(e)) + "</div>";
+      }
+    });
+  }
+
+  window.paintForgeTab = paintForgeTab;
+
   function assign(profile, seat, model, where, via) {
     if (!seat) return;
     var body = { profile: profile, seat: seat, model: model || "" };

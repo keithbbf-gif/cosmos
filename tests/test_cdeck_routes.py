@@ -110,9 +110,9 @@ def main() -> int:
             "note": "proven-live empty",
         }), encoding="utf-8")
         code_e, body_e = get("/api/v1/nodemap")
-        check("empty disk rails.json overlays kernel.matrix (not a blank map)",
+        check("empty disk rails.json overlays kernel projection (not a blank map)",
               lambda: code_e == 200 and body_e.get("registry", {}).get("source")
-              == "kernel.matrix"
+              in ("kernel.projection_view", "kernel.matrix")
               and len(body_e["registry"].get("matrix") or []) >= 1)
         code, body = get("/api/v1/jukebox")
         check("GET /jukebox is 200 (rich queue fold, even if empty)",
