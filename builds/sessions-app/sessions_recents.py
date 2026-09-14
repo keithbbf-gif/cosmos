@@ -24,6 +24,10 @@ PRODUCT = "Sessions"
 UPSTREAM_SCHEMA = "cdeck-recents/1"
 ROW_FIELDS = ("id", "date", "stream", "title")
 ID_RE = re.compile(r"^[A-Za-z0-9._-]{1,128}$")
+# Default open page: enough to read, never the whole transcript on the wire.
+DEFAULT_TURN_FROM = 0
+DEFAULT_TURN_TO = 20
+TURN_PAGE_MAX = 100
 
 
 def valid_id(rec_id: str) -> str:
@@ -33,6 +37,49 @@ def valid_id(rec_id: str) -> str:
     if not ID_RE.match(rec_id):
         raise SessionsAppRefusal("BAD_ID", f"not id-shaped: {rec_id[:64]!r}")
     return rec_id
+
+
+def parse_turn_range(turn_from, turn_to) -> tuple[int, int]:
+    """Half-open [turn_from, turn_to). Defaults + hard page cap."""
+    try:
+        start = DEFAULT_TURN_FROM if turn_from is None else int(turn_from)
+        end = DEFAULT_TURN_TO if turn_to is None else int(turn_to)
+    except (TypeError, ValueError) as e:
+        raise SessionsAppRefusal("BAD_TURN_RANGE",
+                                 f"turn_from/turn_to must be integers: {e}") from e
+    if start < 0 or end < 0:
+        raise SessionsAppRefusal("BAD_TURN_RANGE",
+                                 f"turn range must be non-negative: [{start}, {end})")
+    if end < start:
+        raise SessionsAppRefusal("BAD_TURN_RANGE",
+                                 f"turn_to {end} is before turn_from {start}")
+    if end - start > TURN_PAGE_MAX:
+        raise SessionsAppRefusal(
+            "BAD_TURN_RANGE",
+            f"page of {end - start} turns exceeds the {TURN_PAGE_MAX}-turn cap")
+    return start, end
+
+
+def _turns_from_body(body: dict) -> list[dict]:
+    """Prefer Core's structured turns; else split flat text on blank lines."""
+    raw = body.get("turns")
+    if isinstance(raw, list):
+        out: list[dict] = []
+        for i, t in enumerate(raw):
+            if isinstance(t, dict):
+                out.append({
+                    "seq": int(t["seq"]) if isinstance(t.get("seq"), int) else i,
+                    "role": t.get("role"),
+                    "text": t.get("text") if isinstance(t.get("text"), str) else "",
+                })
+            elif isinstance(t, str):
+                out.append({"seq": i, "role": None, "text": t})
+        return out
+    text = body.get("text")
+    if not isinstance(text, str) or text == "":
+        return []
+    parts = text.split("\n\n")
+    return [{"seq": i, "role": None, "text": p} for i, p in enumerate(parts)]
 
 
 def _int_or_none(value) -> int | None:
@@ -109,12 +156,21 @@ def project_list(code: int, body: dict, source: str) -> dict:
     }
 
 
-def project_open(code: int, body: dict, rec_id: str, source: str) -> dict:
+def project_open(code: int, body: dict, rec_id: str, source: str,
+                 turn_from=None, turn_to=None) -> dict:
     """Core's open body → the app's open projection. A legal (omitted) session
-    is reported as omitted with opened=0, never rendered as empty text."""
+    is reported as omitted with opened=0, never rendered as empty text.
+
+    The full transcript is never re-serialized onto the wire: only the requested
+    turn range is projected. `text` stays None; `text_len` / `n_turns` keep the
+    measured totals so a surface can page without guessing.
+    """
     kind = str(body.get("kind") or body.get("error") or "UNMEASURED")
     text = body.get("text")
     omitted = kind == "LEGAL_OMITTED"
+    start, end = parse_turn_range(turn_from, turn_to)
+    all_turns = [] if omitted else _turns_from_body(body)
+    page = all_turns[start:end]
     return {
         "schema": OPEN_SCHEMA,
         "product": PRODUCT,
@@ -125,8 +181,13 @@ def project_open(code: int, body: dict, rec_id: str, source: str) -> dict:
         "id": rec_id,
         "opencode_id": body.get("opencode_id"),
         "title": body.get("title"),
-        "text": text if isinstance(text, str) else None,
+        # Never dump the full transcript — the UI streams only `turns`.
+        "text": None,
         "text_len": len(text) if isinstance(text, str) else None,
+        "n_turns": len(all_turns),
+        "turn_from": start,
+        "turn_to": end,
+        "turns": page,
         "openwork": body.get("openwork"),
         "omission": _omission(1 if omitted else None) if omitted else None,
         "detail": str(body.get("detail") or "")[:400] or None,

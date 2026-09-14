@@ -41,6 +41,8 @@ async function getJSON(path) {
 
 // ---------------------------------------------------------------- sessions
 let selected = null;
+let detailFrom = 0;
+const TURN_PAGE = 20;
 
 function renderSessions(http, b) {
   $("src").textContent = "source " + (b.source || "—");
@@ -81,25 +83,49 @@ function renderSessions(http, b) {
   }
 }
 
-async function openSession(id) {
+async function openSession(id, turnFrom = 0, turnTo = TURN_PAGE) {
   selected = id;
+  detailFrom = turnFrom;
   for (const el of document.querySelectorAll(".srow")) {
     el.classList.toggle("sel", el.dataset.id === id);
   }
   $("detail").innerHTML = '<div class="empty">opening ' + esc(id) + " …</div>";
-  const { body: b } = await getJSON("/api/sessions/open?id=" + encodeURIComponent(id));
+  // Only the requested turn page crosses the wire — never the full transcript.
+  const q = "/api/sessions/open?id=" + encodeURIComponent(id) +
+    "&turn_from=" + encodeURIComponent(turnFrom) +
+    "&turn_to=" + encodeURIComponent(turnTo);
+  const { body: b } = await getJSON(q);
   setCount($("c-detail"), b.text_len, "chars");
   if (b.error || !b.ok) {
     $("detail").innerHTML = refusalHTML(b) +
+      (b.size !== undefined
+        ? '<div class="note">size ' + esc(b.size) + " · cap " + esc(b.cap) + "</div>"
+        : "") +
       (b.omission
         ? '<div class="note">counted ' + b.omission.counted + ", opened " +
           b.omission.opened + "</div>"
         : "");
     return;
   }
+  const turns = b.turns || [];
+  const nTurns = (b.n_turns === null || b.n_turns === undefined) ? "UNMEASURED" : b.n_turns;
+  const more = (typeof b.n_turns === "number") && (b.turn_to < b.n_turns);
   $("detail").innerHTML = '<div class="note">' + esc(b.id) + " · " +
-    esc(b.opencode_id || "no opencode id") + " · " + esc(b.title || "") + "</div>" +
-    "<pre>" + esc((b.text || "").slice(0, 4000)) + "</pre>";
+    esc(b.opencode_id || "no opencode id") + " · " + esc(b.title || "") +
+    " · turns [" + esc(b.turn_from) + "," + esc(b.turn_to) + ")/" + esc(nTurns) +
+    "</div>" +
+    turns.map((t) =>
+      '<pre class="turn" data-seq="' + esc(t.seq) + '">' +
+        esc((t.text || "").slice(0, 4000)) + "</pre>").join("") +
+    (more
+      ? '<div class="row-hd">more turns <button id="btnMoreTurns">NEXT ' +
+        TURN_PAGE + "</button></div>"
+      : "");
+  const btn = $("btnMoreTurns");
+  if (btn) {
+    btn.addEventListener("click", () =>
+      openSession(id, b.turn_to, b.turn_to + TURN_PAGE));
+  }
 }
 
 // ------------------------------------------------------------------- verbs
@@ -174,7 +200,7 @@ async function reload() {
     renderVerbs(v.http, v.body);
     const t = await getJSON("/api/timeline");
     renderTimeline(t.http, t.body);
-    if (selected) { await openSession(selected); }
+    if (selected) { await openSession(selected, detailFrom, detailFrom + TURN_PAGE); }
   } finally {
     $("btnReload").disabled = false;
   }

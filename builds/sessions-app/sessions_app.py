@@ -71,6 +71,12 @@ def _refusal(kind: str, detail: str, **extra) -> dict:
             "kind": kind, "detail": str(detail)[:400], **extra}
 
 
+def _refusal_from(e: SessionsAppRefusal, **extra) -> dict:
+    fields = dict(getattr(e, "fields", {}) or {})
+    fields.update(extra)
+    return _refusal(e.kind, e, **fields)
+
+
 # ---------------------------------------------------------------- projections
 
 def list_sessions(base: str, token: str | None) -> dict:
@@ -78,10 +84,15 @@ def list_sessions(base: str, token: str | None) -> dict:
     return recents.project_list(code, body, core.source_url(base))
 
 
-def open_session(rec_id: str, base: str, token: str | None) -> dict:
+def open_session(rec_id: str, base: str, token: str | None,
+                 turn_from=None, turn_to=None) -> dict:
     rec_id = recents.valid_id(rec_id)
+    # Validate the range before the Core round-trip so a bad page never burns
+    # a read of a large open body.
+    turn_from, turn_to = recents.parse_turn_range(turn_from, turn_to)
     code, body = core.recents_open(rec_id, base, token)
-    return recents.project_open(code, body, rec_id, core.source_url(base))
+    return recents.project_open(code, body, rec_id, core.source_url(base),
+                                turn_from=turn_from, turn_to=turn_to)
 
 
 # ------------------------------------------------------------------ the shell
@@ -111,15 +122,22 @@ class App:
         try:
             return 200, list_sessions(self.core_base, self.core_token)
         except SessionsAppRefusal as e:
-            return 503, _refusal(e.kind, e, source=core.source_url(self.core_base),
-                                 n_shown=None)
+            code = 413 if e.kind == "TOO_LARGE" else 503
+            return code, _refusal_from(
+                e, source=core.source_url(self.core_base), n_shown=None)
 
-    def api_open(self, rec_id: str) -> tuple[int, dict]:
+    def api_open(self, rec_id: str, turn_from=None, turn_to=None) -> tuple[int, dict]:
         try:
-            rec = open_session(rec_id, self.core_base, self.core_token)
+            rec = open_session(rec_id, self.core_base, self.core_token,
+                               turn_from=turn_from, turn_to=turn_to)
         except SessionsAppRefusal as e:
-            code = 400 if e.kind == "BAD_ID" else 503
-            return code, _refusal(e.kind, e, id=rec_id)
+            if e.kind == "BAD_ID" or e.kind == "BAD_TURN_RANGE":
+                code = 400
+            elif e.kind == "TOO_LARGE":
+                code = 413
+            else:
+                code = 503
+            return code, _refusal_from(e, id=rec_id)
         return (200 if rec["ok"] else 409), rec
 
     def api_verbs(self) -> tuple[int, dict]:
@@ -190,7 +208,10 @@ class App:
                     return self._send(*app_self.api_sessions())
                 if path == "/api/sessions/open":
                     q = parse_qs(parsed.query)
-                    return self._send(*app_self.api_open(q.get("id", [""])[0]))
+                    return self._send(*app_self.api_open(
+                        q.get("id", [""])[0],
+                        turn_from=(q.get("turn_from") or [None])[0],
+                        turn_to=(q.get("turn_to") or [None])[0]))
                 if path == "/api/verbs":
                     return self._send(*app_self.api_verbs())
                 if path == "/api/verbs/scan":
@@ -277,6 +298,10 @@ def main(argv: list[str] | None = None) -> int:
         _add_common(sp, True)
         if name == "open":
             sp.add_argument("id")
+            sp.add_argument("--turn-from", type=int, default=None,
+                            help="first turn index (inclusive); default 0")
+            sp.add_argument("--turn-to", type=int, default=None,
+                            help="turn index end (exclusive); default 20")
         elif name == "verb":
             sp.add_argument("name")
             sp.add_argument("--store", default=None)
@@ -298,15 +323,21 @@ def main(argv: list[str] | None = None) -> int:
                 _print_list(rec)
             return 0 if (rec["available"] or rec["kind"] == "NO_SOURCE") else 1
         if a.cmd == "open":
-            rec = open_session(a.id, a.core, token)
+            rec = open_session(a.id, a.core, token,
+                               turn_from=a.turn_from, turn_to=a.turn_to)
             if a.json:
-                print(json.dumps({k: v for k, v in rec.items() if k != "text"},
-                                 indent=2))
+                print(json.dumps(rec, indent=2))
             else:
                 print(f"{recents.PRODUCT}  {rec['kind']}  {rec['id']}  "
-                      f"{rec.get('opencode_id')}  text_len={rec['text_len']}")
+                      f"{rec.get('opencode_id')}  text_len={rec['text_len']}  "
+                      f"turns=[{rec['turn_from']},{rec['turn_to']})/"
+                      f"{rec['n_turns']}")
                 print(rec.get("title") or "")
-                print((rec.get("text") or rec.get("detail") or "")[:2000])
+                for t in rec.get("turns") or []:
+                    print((t.get("text") or "")[:2000])
+                    print("---")
+                if rec.get("detail"):
+                    print(rec["detail"][:2000])
             return 0 if rec["ok"] else 2
         if a.cmd == "verbs":
             rec = verbs.registry()
@@ -342,7 +373,7 @@ def main(argv: list[str] | None = None) -> int:
             app.shutdown()
         return 0
     except SessionsAppRefusal as e:
-        print(json.dumps(_refusal(e.kind, e), indent=2))
+        print(json.dumps(_refusal_from(e), indent=2))
         return 2
 
 
