@@ -7,6 +7,10 @@ STATED GOAL. Stage 8 is IMPLEMENT (was IMPROVE). Write dest depends on
 the running profile. GET never mutates and never mkdir. POST does not
 start MOTIF and does not publish.
 
+POST /profiles may also apply an optimistic Keith-approved adjacent
+stage transition (action=transition). That path emits ledger evidence
+and never starts a job.
+
     py -3.14 cosmos\\\\cosmos_profiles.py --selftest
 """
 from __future__ import annotations
@@ -16,14 +20,24 @@ import sys
 import time
 from datetime import datetime, timezone
 from pathlib import Path
-
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 SCHEMA = "cosmos-profiles/1"
+TRANSITION_SCHEMA = "cosmos-profiles-transition/1"
+TRANSITION_EVENT = "PROFILE_STAGE_TRANSITION"
+TRANSITION_EVENT_SCHEMA = "cosmos-profile-stage-transition/1"
 ENGINE_NAME = "engine.json"
 MAX_TEXT = 80_000
 MAX_NOTE = 4_000
 MAX_PATH = 400
+UNMEASURED = "UNMEASURED"
+
+# Ledger event payload contract for PROFILE_STAGE_TRANSITION (append-only).
+TRANSITION_EVENT_FIELDS = (
+    "schema", "profile", "edge_id", "from_stage", "to_stage", "version",
+    "keith_decision", "gates", "starts_motif", "publishes", "job_started",
+    "node",
+)
 
 # Pack key `define` is on-disk. Display is PROBLEM STATEMENT / STATED GOAL.
 MOTIF_STAGES = (
@@ -47,6 +61,10 @@ MOTIF_STAGES = (
      "hint": "Return to PROBLEM STATEMENT / STATED GOAL. Runtime-binding, not a green log."},
 )
 STAGE_IDS = frozenset(s["id"] for s in MOTIF_STAGES)
+STAGE_ORDER = tuple(s["id"] for s in MOTIF_STAGES)
+
+# Gate names required on every legal adjacent transition (fail-closed).
+TRANSITION_GATES = ("health", "tree", "spend", "product")
 
 FORGE_DEST = (
     ("local", "Local file"),
@@ -128,7 +146,7 @@ def skin_tabs_for(profile_id: str) -> list[dict]:
 
 
 class ProfileError(RuntimeError):
-    """kind in {BAD_INPUT, REFUSED, BROKE}."""
+    """kind in {BAD_INPUT, REFUSED, BROKE, STALE, SKIPPED, RED, UNMEASURED, UNGATED}."""
 
     def __init__(self, kind: str, detail: str):
         self.kind = kind
@@ -137,6 +155,42 @@ class ProfileError(RuntimeError):
 
 def _iso_now() -> str:
     return datetime.now(timezone.utc).astimezone().isoformat(timespec="seconds")
+
+
+def motif_transition_edges() -> list[dict]:
+    """Frozen MOTIF advance edges. Only these are legal adjacent transitions."""
+    edges: list[dict] = []
+    for i, fr in enumerate(STAGE_ORDER):
+        to = STAGE_ORDER[(i + 1) % len(STAGE_ORDER)]
+        edges.append({
+            "id": "%s_to_%s" % (fr, to),
+            "from_stage": fr,
+            "to_stage": to,
+            "requires_keith": True,
+        })
+    edges[-1]["note"] = "ITERATE returns to PROBLEM STATEMENT / STATED GOAL"
+    return edges
+
+
+def _edge_map() -> dict[tuple[str, str], dict]:
+    return {(e["from_stage"], e["to_stage"]): e for e in motif_transition_edges()}
+
+
+def transition_contract() -> dict:
+    """Schema freeze for Portfolio Studio stage transitions."""
+    return {
+        "schema": TRANSITION_SCHEMA,
+        "event": TRANSITION_EVENT,
+        "event_schema": TRANSITION_EVENT_SCHEMA,
+        "event_fields": list(TRANSITION_EVENT_FIELDS),
+        "allowed_edges": motif_transition_edges(),
+        "gates": list(TRANSITION_GATES),
+        "note": (
+            "Legal adjacent transitions require an explicit Keith decision and "
+            "emit ledger-bound evidence. SAVE does not advance. Transition does "
+            "not start MOTIF and does not publish."
+        ),
+    }
 
 
 def dir_for(paths, profile: str) -> Path:
@@ -219,6 +273,9 @@ def default_engine(profile_id: str = DEFAULT_PROFILE) -> dict:
         "stages": notes,
         "step_setup": default_step_setup(),
         "dest": default_dest(row),
+        "current_stage": UNMEASURED,
+        "version": None,
+        "last_transition": None,
         "saved_at": None,
         "kind": "NO_SOURCE",
         "note": (
@@ -297,6 +354,24 @@ def load_engine(paths, profile_id: str) -> dict:
         dest = _public_dest(rec.get("dest"), row)
     except ProfileError:
         dest = default_dest(row)
+    cur_stage = rec.get("current_stage")
+    if cur_stage in STAGE_IDS:
+        current_stage = cur_stage
+    elif cur_stage in (None, "", UNMEASURED):
+        current_stage = UNMEASURED
+    else:
+        current_stage = UNMEASURED
+    try:
+        version = rec.get("version")
+        if version is None:
+            version = None
+        else:
+            version = int(version)
+    except (TypeError, ValueError):
+        version = None
+    last = rec.get("last_transition")
+    if not isinstance(last, dict):
+        last = None
     return {
         "schema": SCHEMA,
         "profile": row["id"],
@@ -308,15 +383,31 @@ def load_engine(paths, profile_id: str) -> dict:
         "stages": stages,
         "step_setup": _public_step_setup(rec.get("step_setup")),
         "dest": dest,
+        "current_stage": current_stage,
+        "version": version,
+        "last_transition": last,
         "saved_at": rec.get("saved_at"),
         "kind": "OK",
         "note": base["note"],
     }
 
 
-def save_engine(paths, body: dict) -> dict:
+def save_engine(paths, body: dict, *, kernel=None) -> dict:
+    """Persist skin setup. Does not start MOTIF. Does not advance stages.
+
+    When body.action == 'transition' (or a transition object is present),
+    delegates to apply_stage_transition instead.
+    """
     if not isinstance(body, dict):
         raise ProfileError("BAD_INPUT", "body must be a JSON object")
+    action = str(body.get("action") or "").strip().lower()
+    tr = body.get("transition")
+    if action == "transition" or (
+        isinstance(tr, dict)
+        and (tr.get("from_stage") is not None or tr.get("to_stage") is not None
+             or tr.get("from") is not None or tr.get("to") is not None)
+    ):
+        return apply_stage_transition(paths, body, kernel=kernel)
     row = _profile(body.get("profile") or DEFAULT_PROFILE)
     cur = load_engine(paths, row["id"])
     if "define" in body:
@@ -342,11 +433,27 @@ def save_engine(paths, body: dict) -> dict:
         cur["dest"] = _public_dest(body["dest"], row)
     if "step_setup" in body:
         cur["step_setup"] = _public_step_setup(body["step_setup"])
+    # First SAVE lands the occupant at DEFINE without walking a transition.
+    if cur.get("current_stage") in (None, UNMEASURED):
+        cur["current_stage"] = "define"
+    try:
+        ver = int(cur["version"]) if cur.get("version") is not None else 0
+    except (TypeError, ValueError):
+        ver = 0
+    cur["version"] = ver + 1
     cur["saved_at"] = _iso_now()
     cur["kind"] = "OK"
     d = dir_for(paths, row["id"])
     d.mkdir(parents=True, exist_ok=True)
-    out = {
+    out = _engine_disk_record(cur, row)
+    engine_path(paths, row["id"]).write_text(
+        json.dumps(out, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    out["kind"] = "OK"
+    return snapshot(paths, profile=row["id"], rec=out)
+
+
+def _engine_disk_record(cur: dict, row: dict) -> dict:
+    return {
         "schema": SCHEMA,
         "profile": row["id"],
         "label": row["label"],
@@ -354,13 +461,353 @@ def save_engine(paths, body: dict) -> dict:
         "stages": cur["stages"],
         "step_setup": cur.get("step_setup") or default_step_setup(),
         "dest": cur["dest"],
+        "current_stage": cur.get("current_stage") if cur.get("current_stage") in STAGE_IDS
+        else UNMEASURED,
+        "version": cur.get("version"),
+        "last_transition": cur.get("last_transition"),
         "saved_at": cur["saved_at"],
         "note": cur["note"],
     }
+
+
+def _public_keith_decision(raw) -> dict:
+    if not isinstance(raw, dict):
+        raise ProfileError(
+            "UNGATED",
+            "legal adjacent transition requires an explicit Keith decision object",
+        )
+    approved = raw.get("approved")
+    if approved is not True and str(approved).strip().lower() not in ("true", "yes", "1"):
+        # Explicit reject or missing approval is ungated / refused — no queue.
+        if approved in (False, None, "", 0, "0", "false", "no"):
+            raise ProfileError(
+                "UNGATED",
+                "Keith decision.approved must be true for a legal adjacent transition",
+            )
+        raise ProfileError("UNGATED", "Keith decision.approved must be true")
+    by = str(raw.get("decided_by") or raw.get("by") or "").strip().lower()
+    if by not in ("keith", "kb", "owner"):
+        raise ProfileError(
+            "UNGATED",
+            "Keith decision.decided_by must name Keith (got %r)" % (by or ""),
+        )
+    note = str(raw.get("note") or "")[:MAX_NOTE]
+    at = str(raw.get("at") or raw.get("decided_at") or _iso_now())[:80]
+    return {
+        "approved": True,
+        "decided_by": "keith",
+        "at": at,
+        "note": note,
+        "decision_id": str(raw.get("decision_id") or raw.get("id") or "")[:120] or None,
+    }
+
+
+def _require_gates(raw_gates, *, paths, profile_row: dict, kernel=None) -> dict:
+    """Fail-closed health/tree/spend/product gates. Never queues work."""
+    if not isinstance(raw_gates, dict):
+        raise ProfileError(
+            "UNGATED",
+            "transition requires gates {%s}" % ", ".join(TRANSITION_GATES),
+        )
+    missing = [g for g in TRANSITION_GATES if g not in raw_gates]
+    if missing:
+        raise ProfileError("UNGATED", "missing gate(s): %s" % ", ".join(missing))
+
+    health = raw_gates.get("health")
+    if not isinstance(health, dict):
+        raise ProfileError("UNGATED", "gates.health must be an object")
+    verdict = str(health.get("verdict") or "")
+    try:
+        reds = int(health.get("reds") if health.get("reds") is not None else -1)
+    except (TypeError, ValueError):
+        reds = -1
+    nc = health.get("negative_control_red")
+    if nc is not True and str(nc).lower() not in ("true", "1"):
+        # Absent / false negative-control means the board is untrustworthy.
+        raise ProfileError(
+            "RED",
+            "health gate refused: negative_control_red is not true (board untrusted)",
+        )
+    if reds < 0:
+        raise ProfileError("UNGATED", "gates.health.reds must be a measured integer")
+    if reds > 0 or verdict.upper().startswith("RED") or verdict.upper().startswith("BOARD-BROKEN"):
+        raise ProfileError(
+            "RED",
+            "health gate refused: verdict=%r reds=%s" % (verdict, reds),
+        )
+    if not verdict:
+        raise ProfileError("UNGATED", "gates.health.verdict is empty")
+
+    tree = raw_gates.get("tree")
+    if not isinstance(tree, dict):
+        raise ProfileError("UNGATED", "gates.tree must be an object")
+    want = str(tree.get("tree_id") or "").strip()
+    if not want:
+        raise ProfileError("UNGATED", "gates.tree.tree_id is required")
+    have = paths.sentinel.tree_id
+    if want != have:
+        raise ProfileError(
+            "STALE",
+            "tree gate fencing mismatch: request %r != live %r" % (want, have),
+        )
+
+    spend = raw_gates.get("spend")
+    if not isinstance(spend, dict):
+        raise ProfileError("UNGATED", "gates.spend must be an object")
+    spend_kind = str(spend.get("kind") or "").strip().upper()
+    if not spend_kind:
+        raise ProfileError("UNGATED", "gates.spend.kind is required")
+    if spend_kind == UNMEASURED:
+        raise ProfileError("UNMEASURED", "spend gate is UNMEASURED — refuse, never invent 0")
+    if spend_kind in ("DENIED", "REFUSED", "NOT_PERMITTED", "RED"):
+        raise ProfileError("REFUSED", "spend gate kind=%s" % spend_kind)
+
+    product = raw_gates.get("product")
+    if not isinstance(product, dict):
+        raise ProfileError("UNGATED", "gates.product must be an object")
+    prod_kind = str(product.get("kind") or "").strip().upper()
+    if not prod_kind:
+        raise ProfileError("UNGATED", "gates.product.kind is required")
+    if prod_kind == UNMEASURED:
+        raise ProfileError(
+            "UNMEASURED",
+            "product gate is UNMEASURED — refuse without queueing work",
+        )
+    prod_id = str(product.get("id") or product.get("profile") or "").strip().lower()
+    if prod_id and prod_id != profile_row["id"]:
+        raise ProfileError(
+            "REFUSED",
+            "product gate id %r does not match profile %r" % (prod_id, profile_row["id"]),
+        )
+
+    # Optional kernel cross-check when composed — still no job start.
+    if kernel is not None:
+        live_tree = getattr(getattr(kernel, "paths", None), "sentinel", None)
+        if live_tree is not None and getattr(live_tree, "tree_id", None) not in (None, want):
+            if live_tree.tree_id != want:
+                raise ProfileError(
+                    "STALE",
+                    "kernel tree_id %r != gate tree_id %r"
+                    % (live_tree.tree_id, want),
+                )
+
+    return {
+        "health": {
+            "verdict": verdict,
+            "reds": reds,
+            "negative_control_red": True,
+        },
+        "tree": {"tree_id": want},
+        "spend": {"kind": spend_kind, "detail": str(spend.get("detail") or "")[:200]},
+        "product": {
+            "id": profile_row["id"],
+            "kind": prod_kind,
+            "detail": str(product.get("detail") or "")[:200],
+        },
+    }
+
+
+def apply_stage_transition(paths, body: dict, *, kernel=None) -> dict:
+    """Optimistic Keith-approved adjacent stage transition on POST /profiles.
+
+    Emits PROFILE_STAGE_TRANSITION ledger evidence when a kernel ledger is
+    present. Never starts a job, never starts MOTIF, never publishes.
+    """
+    if not isinstance(body, dict):
+        raise ProfileError("BAD_INPUT", "body must be a JSON object")
+    row = _profile(body.get("profile") or DEFAULT_PROFILE)
+    tr = body.get("transition") if isinstance(body.get("transition"), dict) else body
+    fr = str(tr.get("from_stage") or tr.get("from") or "").strip().lower()
+    to = str(tr.get("to_stage") or tr.get("to") or "").strip().lower()
+    if fr not in STAGE_IDS or to not in STAGE_IDS:
+        raise ProfileError("BAD_INPUT", "from_stage/to_stage must be MOTIF stage ids")
+
+    edge = _edge_map().get((fr, to))
+    if edge is None:
+        raise ProfileError(
+            "SKIPPED",
+            "transition %s -> %s is not a legal adjacent edge (skipped/non-adjacent)"
+            % (fr, to),
+        )
+
+    # Legal adjacent transitions always require an explicit Keith decision.
+    keith = _public_keith_decision(
+        body.get("keith_decision") or tr.get("keith_decision") or body.get("decision")
+    )
+    gates = _require_gates(
+        body.get("gates") or tr.get("gates"),
+        paths=paths,
+        profile_row=row,
+        kernel=kernel,
+    )
+
+    cur = load_engine(paths, row["id"])
+    if cur.get("kind") == "NO_SOURCE":
+        raise ProfileError(
+            "UNMEASURED",
+            "engine is NO_SOURCE / UNMEASURED — SAVE first; refuse without queueing",
+        )
+    if cur.get("kind") == "BROKE":
+        raise ProfileError("BROKE", "engine is BROKE — refuse without queueing")
+
+    have_stage = cur.get("current_stage")
+    if have_stage in (None, UNMEASURED):
+        raise ProfileError(
+            "UNMEASURED",
+            "current_stage is UNMEASURED — refuse without inventing a stage",
+        )
+    if have_stage != fr:
+        raise ProfileError(
+            "STALE",
+            "from_stage %r does not match engine current_stage %r" % (fr, have_stage),
+        )
+
+    try:
+        expect = tr.get("expect_version", body.get("expect_version"))
+        if expect is None:
+            raise ProfileError("UNGATED", "expect_version is required (fencing)")
+        expect_i = int(expect)
+    except ProfileError:
+        raise
+    except (TypeError, ValueError):
+        raise ProfileError("BAD_INPUT", "expect_version must be an integer")
+    have_ver = cur.get("version")
+    if have_ver is None:
+        raise ProfileError(
+            "UNMEASURED",
+            "engine version is UNMEASURED — refuse fencing without a measured version",
+        )
+    try:
+        have_i = int(have_ver)
+    except (TypeError, ValueError):
+        raise ProfileError("BROKE", "engine version is unreadable")
+    if expect_i != have_i:
+        raise ProfileError(
+            "STALE",
+            "version fencing: expect_version %s != engine version %s"
+            % (expect_i, have_i),
+        )
+
+    # Website no-publish: transitioning into IMPLEMENT never publishes.
+    if to == "improve" and (cur.get("dest") or {}).get("kind") == "publish":
+        # Allowed as a stage cursor move; still does not publish.
+        pass
+
+    new_ver = have_i + 1
+    at = _iso_now()
+    last = {
+        "schema": TRANSITION_EVENT_SCHEMA,
+        "edge_id": edge["id"],
+        "from_stage": fr,
+        "to_stage": to,
+        "at": at,
+        "version": new_ver,
+        "keith_decision": keith,
+        "gates": gates,
+        "starts_motif": False,
+        "publishes": False,
+        "job_started": False,
+    }
+
+    ledger_seq = None
+    if kernel is not None and getattr(kernel, "ledger", None) is not None:
+        payload = {
+            "schema": TRANSITION_EVENT_SCHEMA,
+            "profile": row["id"],
+            "edge_id": edge["id"],
+            "from_stage": fr,
+            "to_stage": to,
+            "version": new_ver,
+            "keith_decision": keith,
+            "gates": gates,
+            "starts_motif": False,
+            "publishes": False,
+            "job_started": False,
+            "node": row["id"],
+        }
+        try:
+            expect_head = body.get("expect_head_seq", tr.get("expect_head_seq"))
+            if expect_head is not None:
+                rec = kernel.ledger.append(
+                    TRANSITION_EVENT, payload, expect_head_seq=int(expect_head))
+            else:
+                rec = kernel.ledger.append(TRANSITION_EVENT, payload)
+            ledger_seq = rec.get("seq")
+            last["ledger_seq"] = ledger_seq
+            last["ledger_event"] = TRANSITION_EVENT
+        except Exception as e:  # noqa: BLE001
+            # Ledger refusal must not partially advance the engine.
+            kind = getattr(e, "kind", None) or type(e).__name__
+            if kind == "STALE_HEAD":
+                raise ProfileError("STALE", "ledger head moved: %s" % e) from e
+            raise ProfileError("BROKE", "ledger append failed: %s" % e) from e
+    else:
+        # Core-only writer: without a ledger there is no evidence — refuse.
+        raise ProfileError(
+            "UNGATED",
+            "transition requires Core ledger (kernel) for ledger-bound evidence",
+        )
+
+    cur["current_stage"] = to
+    cur["version"] = new_ver
+    cur["last_transition"] = last
+    cur["saved_at"] = at
+    cur["kind"] = "OK"
+    d = dir_for(paths, row["id"])
+    d.mkdir(parents=True, exist_ok=True)
+    out = _engine_disk_record(cur, row)
     engine_path(paths, row["id"]).write_text(
         json.dumps(out, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     out["kind"] = "OK"
-    return snapshot(paths, profile=row["id"], rec=out)
+    snap = snapshot(paths, profile=row["id"], rec=out)
+    snap["transition"] = {
+        "ok": True,
+        "edge_id": edge["id"],
+        "from_stage": fr,
+        "to_stage": to,
+        "version": new_ver,
+        "ledger_seq": ledger_seq,
+        "ledger_event": TRANSITION_EVENT,
+        "starts_motif": False,
+        "publishes": False,
+        "job_started": False,
+        "keith_decision": keith,
+        "gates": gates,
+    }
+    return snap
+
+
+def _transition_fold(engine: dict) -> dict:
+    """Live transition cursor for GET — UNMEASURED until a ledgered advance."""
+    last = engine.get("last_transition") if isinstance(engine.get("last_transition"), dict) else None
+    cur_stage = engine.get("current_stage")
+    if last and last.get("edge_id") and cur_stage in STAGE_IDS:
+        return {
+            "schema": TRANSITION_SCHEMA,
+            "contract": transition_contract(),
+            "current": {
+                "kind": "OK",
+                "edge_id": last.get("edge_id"),
+                "from_stage": last.get("from_stage"),
+                "to_stage": last.get("to_stage") or cur_stage,
+                "at": last.get("at"),
+                "version": engine.get("version"),
+                "ledger_seq": last.get("ledger_seq"),
+            },
+        }
+    return {
+        "schema": TRANSITION_SCHEMA,
+        "contract": transition_contract(),
+        "current": {
+            "kind": UNMEASURED,
+            "edge_id": None,
+            "from_stage": None,
+            "to_stage": None if cur_stage in (None, UNMEASURED) else cur_stage,
+            "at": None,
+            "version": engine.get("version"),
+            "ledger_seq": None,
+        },
+    }
 
 
 def _bg_fold(paths, profile_id: str) -> dict:
@@ -395,6 +842,7 @@ def snapshot(paths, *, profile: str = "", rec=None) -> dict:
         ],
         "bg": _bg_fold(paths, row["id"]),
         "engine": engine,
+        "stage_transition": _transition_fold(engine),
         "motif_step_1": "PROBLEM STATEMENT / STATED GOAL",
         "implement_was": "IMPROVE",
         "does_not_start_motif": True,
@@ -402,7 +850,8 @@ def snapshot(paths, *, profile: str = "", rec=None) -> dict:
         "note": (
             "Per-profile MOTIF skins. Website GC IMPLEMENT dest is staged / "
             "sandbox / publish / Gitur. SAVE does not start MOTIF and does "
-            "not publish."
+            "not publish. Legal adjacent transitions require Keith decision "
+            "and ledger evidence."
         ),
     }
 
@@ -520,6 +969,115 @@ def _selftest() -> int:
     check("Website GC skin left tabs are the 9 MOTIF stages",
           lambda: web_tabs[0] == "define" and web_tabs[-1] == "iterate"
           and len(web_tabs) == 9)
+
+    edges = motif_transition_edges()
+    check("legal adjacent transition catalog has 9 MOTIF edges",
+          lambda: len(edges) == 9
+          and edges[0]["from_stage"] == "define"
+          and edges[0]["to_stage"] == "research"
+          and edges[0]["requires_keith"] is True
+          and edges[-1]["from_stage"] == "iterate"
+          and edges[-1]["to_stage"] == "define")
+    check("SAVE lands current_stage=define with a measured version; no MOTIF start",
+          lambda: saved["engine"]["current_stage"] == "define"
+          and isinstance(saved["engine"]["version"], int)
+          and saved["engine"]["version"] >= 1
+          and saved["does_not_start_motif"] is True
+          and (saved.get("stage_transition") or {}).get("current", {}).get("kind")
+          == UNMEASURED)
+
+    from cosmos_kernel import Kernel
+
+    kroot = install(td / "live-tr", tree_id="spike-profiles-tr")
+    kern = Kernel(kroot)
+    kpaths = kern.paths
+    save_engine(kpaths, {
+        "profile": "website",
+        "define": {"text": "WHAT: transition pin. WHY: PS-05."},
+        "dest": {"kind": "staged"},
+    })
+    eng = load_engine(kpaths, "website")
+    ok_tr = apply_stage_transition(kpaths, {
+        "profile": "website",
+        "action": "transition",
+        "transition": {
+            "from_stage": "define",
+            "to_stage": "research",
+            "expect_version": eng["version"],
+        },
+        "keith_decision": {"approved": True, "decided_by": "keith",
+                           "note": "PS-05 selftest"},
+        "gates": {
+            "health": {"verdict": "GREEN", "reds": 0,
+                       "negative_control_red": True},
+            "tree": {"tree_id": kpaths.sentinel.tree_id},
+            "spend": {"kind": "OK"},
+            "product": {"id": "website", "kind": "OK"},
+        },
+    }, kernel=kern)
+    check("Keith-approved adjacent transition emits ledger evidence; no job start",
+          lambda: ok_tr["engine"]["current_stage"] == "research"
+          and ok_tr["transition"]["ledger_event"] == TRANSITION_EVENT
+          and isinstance(ok_tr["transition"]["ledger_seq"], int)
+          and ok_tr["transition"]["job_started"] is False
+          and ok_tr["transition"]["starts_motif"] is False
+          and ok_tr["does_not_publish"] is True)
+
+    def _refuse(kind, body):
+        try:
+            apply_stage_transition(kpaths, body, kernel=kern)
+            return False
+        except ProfileError as e:
+            return e.kind == kind
+
+    eng2 = load_engine(kpaths, "website")
+    base_gates = {
+        "health": {"verdict": "GREEN", "reds": 0, "negative_control_red": True},
+        "tree": {"tree_id": kpaths.sentinel.tree_id},
+        "spend": {"kind": "OK"},
+        "product": {"id": "website", "kind": "OK"},
+    }
+    check("SKIPPED non-adjacent transition refuses without queueing",
+          lambda: _refuse("SKIPPED", {
+              "profile": "website",
+              "transition": {"from_stage": "define", "to_stage": "build",
+                             "expect_version": eng2["version"]},
+              "keith_decision": {"approved": True, "decided_by": "keith"},
+              "gates": base_gates,
+          }))
+    check("STALE version fencing refuses without queueing",
+          lambda: _refuse("STALE", {
+              "profile": "website",
+              "transition": {"from_stage": "research", "to_stage": "arch",
+                             "expect_version": (eng2["version"] or 0) + 99},
+              "keith_decision": {"approved": True, "decided_by": "keith"},
+              "gates": base_gates,
+          }))
+    check("RED health gate refuses without queueing",
+          lambda: _refuse("RED", {
+              "profile": "website",
+              "transition": {"from_stage": "research", "to_stage": "arch",
+                             "expect_version": eng2["version"]},
+              "keith_decision": {"approved": True, "decided_by": "keith"},
+              "gates": {**base_gates, "health": {
+                  "verdict": "RED x1", "reds": 1, "negative_control_red": True}},
+          }))
+    check("UNMEASURED product gate refuses without queueing",
+          lambda: _refuse("UNMEASURED", {
+              "profile": "website",
+              "transition": {"from_stage": "research", "to_stage": "arch",
+                             "expect_version": eng2["version"]},
+              "keith_decision": {"approved": True, "decided_by": "keith"},
+              "gates": {**base_gates, "product": {
+                  "id": "website", "kind": UNMEASURED}},
+          }))
+    check("UNGATED missing Keith decision refuses without queueing",
+          lambda: _refuse("UNGATED", {
+              "profile": "website",
+              "transition": {"from_stage": "research", "to_stage": "arch",
+                             "expect_version": eng2["version"]},
+              "gates": base_gates,
+          }))
 
     failed = [(l, e) for l, ok, e in results if not ok]
     for label, ok, err in results:
