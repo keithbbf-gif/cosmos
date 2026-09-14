@@ -11,7 +11,24 @@ standalone: true
 educational_claim: Outdoor furniture often fails at the screw, the bolt, and the staple — galvanic pairs, thin platings, oak tannin, treated-wood chemistry. Specify the metal and the isolation, or the joint will narrate the winter.
 topics: [shop, fasteners, stainless, galvanic, rust]
 sequence_after: ogfh-07-39
+meta_description: "The fastener rusts first. Design as if you knew that. Outdoor furniture often fails at the screw, the bolt, and the staple — galvanic pairs, thin platings, oak tannin, treated-wood… Staged BBF spoken draft."
+figure_id: diagrams.08-40-fasteners-rust-first
+image_rights: documented
+image_pass: 2026-09-14
+featured_image: ../assets/_shared/series-featured.svg
 ---
+<!-- ogfh-figure:v1 -->
+<figure class="ogfh-figure ogfh-figure--diagram">
+  <img
+    src="../assets/diagrams/08-40-fasteners-rust-first.svg"
+    alt="Editorial schematic for BBF outdoor furniture history: The fastener rusts first. Design as if you knew that"
+    width="880"
+    height="520"
+    loading="lazy"
+    decoding="async"
+  />
+  <figcaption><strong>Fig. 1.</strong> Outdoor furniture often fails at the screw, the bolt, and the staple — galvanic pairs, thin platings, oak tannin, treated-wood chemistry. Specify the metal and the isolation, or the joint will narrate the winter. <em>Rights:</em> Original editorial schematic; Keith Fritz / BBF outdoor-garden-furniture-history pack (see RIGHTS.md).</figcaption>
+</figure>
 
 I look at the screw before I look at the silhouette.
 

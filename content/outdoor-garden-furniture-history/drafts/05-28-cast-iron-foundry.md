@@ -11,7 +11,24 @@ standalone: true
 educational_claim: Cast iron is poured, heavy, brittle relative to bar stock, and honest about rust if the film fails. Garden seating from Coalbrookdale onward is a foundry product. Weight is the virtue. Snap is the vice.
 topics: [materials, cast-iron, foundry, rust, weight]
 sequence_after: ogfh-04-27
+meta_description: "Cast iron remembers the foundry longer than it remembers the garden. Cast iron is poured, heavy, brittle relative to bar stock, and honest about rust if the film fails. Garden seating from Coalbrookdale… Staged BBF spoken draft."
+figure_id: diagrams.05-28-cast-iron-foundry
+image_rights: documented
+image_pass: 2026-09-14
+featured_image: ../assets/_shared/series-featured.svg
 ---
+<!-- ogfh-figure:v1 -->
+<figure class="ogfh-figure ogfh-figure--diagram">
+  <img
+    src="../assets/diagrams/05-28-cast-iron-foundry.svg"
+    alt="Editorial schematic for BBF outdoor furniture history: Cast iron remembers the foundry longer than it remembers the garden"
+    width="880"
+    height="520"
+    loading="lazy"
+    decoding="async"
+  />
+  <figcaption><strong>Fig. 1.</strong> Cast iron is poured, heavy, brittle relative to bar stock, and honest about rust if the film fails. Garden seating from Coalbrookdale onward is a foundry product. Weight is the virtue. Snap is the vice. <em>Rights:</em> Original editorial schematic; Keith Fritz / BBF outdoor-garden-furniture-history pack (see RIGHTS.md).</figcaption>
+</figure>
 
 You can hear the pour in the object if you stop decorating it with ferns.
 

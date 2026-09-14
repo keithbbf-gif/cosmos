@@ -11,7 +11,24 @@ standalone: true
 educational_claim: Marshall B. Lloyd's 1917 woven-paper fabric — paper twisted on wire, loomed as a sheet — made a light, regular "wicker" for porches and interiors. It is not rattan. Rain is not its friend. The regularity is the tell.
 topics: [materials, lloyd-loom, paper, wire, 1917]
 sequence_after: ogfh-06-34
+meta_description: "Lloyd Loom is paper on a wire that fooled a century. Marshall B. Lloyd's 1917 woven-paper fabric — paper twisted on wire, loomed as a sheet — made a light, regular \"wicker\" for porches and… Staged BBF spoken draft."
+figure_id: diagrams.06-35-lloyd-loom
+image_rights: documented
+image_pass: 2026-09-14
+featured_image: ../assets/_shared/series-featured.svg
 ---
+<!-- ogfh-figure:v1 -->
+<figure class="ogfh-figure ogfh-figure--diagram">
+  <img
+    src="../assets/diagrams/06-35-lloyd-loom.svg"
+    alt="Editorial schematic for BBF outdoor furniture history: Lloyd Loom is paper on a wire that fooled a century"
+    width="880"
+    height="520"
+    loading="lazy"
+    decoding="async"
+  />
+  <figcaption><strong>Fig. 1.</strong> Marshall B. Lloyd's 1917 woven-paper fabric — paper twisted on wire, loomed as a sheet — made a light, regular "wicker" for porches and interiors. It is not rattan. Rain is not its friend. The regularity is the tell. <em>Rights:</em> Original editorial schematic; Keith Fritz / BBF outdoor-garden-furniture-history pack (see RIGHTS.md).</figcaption>
+</figure>
 
 Look for the evenness. Nature is not that polite.
 

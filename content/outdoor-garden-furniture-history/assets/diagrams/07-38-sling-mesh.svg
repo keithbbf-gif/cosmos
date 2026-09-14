@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="520" viewBox="0 0 880 520" role="img">
+  <title>Sling seat drainage</title>
+  <desc>Fabric sling draining between frame rails.</desc>
+  <rect width="880" height="520" fill="#f8fafb"/>
+
+  <line x1="300" y1="200" x2="300" y2="360" stroke="#64748b" stroke-width="4"/>
+  <line x1="580" y1="200" x2="580" y2="360" stroke="#64748b" stroke-width="4"/>
+  <path d="M300,220 Q440,320 580,220" fill="none" stroke="#0ea5e9" stroke-width="3"/>
+  <path d="M420,300 L420,340" stroke="#3b82f6" stroke-width="2"/>
+    <text x="440" y="80" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#1f2933">REFUSES TO HOLD A PUDDLE</text>
+
+</svg>

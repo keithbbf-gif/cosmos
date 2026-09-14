@@ -11,7 +11,24 @@ standalone: true
 educational_claim: Aluminum outdoor frames trade rust for lightness, fatigue, heat, and a different oxidation. Cast aluminum and tubular aluminum are different machines. Wind and stacking are part of the spec.
 topics: [materials, aluminum, fatigue, heat, cast-vs-tube]
 sequence_after: ogfh-05-29
+meta_description: "Aluminum is light, and it means every word of that. Aluminum outdoor frames trade rust for lightness, fatigue, heat, and a different oxidation. Cast aluminum and tubular aluminum are… Staged BBF spoken draft."
+figure_id: diagrams.05-30-aluminum-light
+image_rights: documented
+image_pass: 2026-09-14
+featured_image: ../assets/_shared/series-featured.svg
 ---
+<!-- ogfh-figure:v1 -->
+<figure class="ogfh-figure ogfh-figure--diagram">
+  <img
+    src="../assets/diagrams/05-30-aluminum-light.svg"
+    alt="Editorial schematic for BBF outdoor furniture history: Aluminum is light, and it means every word of that"
+    width="880"
+    height="520"
+    loading="lazy"
+    decoding="async"
+  />
+  <figcaption><strong>Fig. 1.</strong> Aluminum outdoor frames trade rust for lightness, fatigue, heat, and a different oxidation. Cast aluminum and tubular aluminum are different machines. Wind and stacking are part of the spec. <em>Rights:</em> Original editorial schematic; Keith Fritz / BBF outdoor-garden-furniture-history pack (see RIGHTS.md).</figcaption>
+</figure>
 
 If you wanted heavy, you wanted a different metal.
 

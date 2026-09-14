@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="520" viewBox="0 0 880 520" role="img">
+  <title>Pressure-treated lumber cylinder</title>
+  <desc>Wood in treatment cylinder with chemical note.</desc>
+  <rect width="880" height="520" fill="#f8fafb"/>
+
+  <rect x="360" y="120" width="160" height="280" rx="20" fill="none" stroke="#1f2933" stroke-width="3"/>
+  <rect x="380" y="200" width="120" height="160" fill="#d4a574" stroke="#1f2933"/>
+  <path d="M440,140 L440,180" stroke="#3b82f6" stroke-width="4"/>
+    <text x="440" y="80" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#1f2933">PRESERVATIVE PROCESS — NOT A SPECIES</text>
+
+</svg>

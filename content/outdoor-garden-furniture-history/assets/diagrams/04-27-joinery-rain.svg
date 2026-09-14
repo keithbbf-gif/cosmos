@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="520" viewBox="0 0 880 520" role="img">
+  <title>Outdoor joint that sheds water</title>
+  <desc>Mortise shoulder shedding water versus trapped puddle.</desc>
+  <rect width="880" height="520" fill="#f8fafb"/>
+
+  <path d="M280,300 L280,220 L400,220 L400,300 Z" fill="#d4a574" stroke="#1f2933"/>
+  <path d="M480,300 L480,240 L600,240 L600,300 Z" fill="#d4a574" stroke="#1f2933"/>
+  <ellipse cx="540" cy="270" rx="30" ry="12" fill="#3b82f6" opacity="0.6"/>
+    <text x="340" y="360" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#1f2933">sheds</text>
+    <text x="540" y="360" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#b45309">cistern</text>
+    <text x="440" y="90" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#1f2933">JOINTS MUST SHED OR MOVE</text>
+
+</svg>

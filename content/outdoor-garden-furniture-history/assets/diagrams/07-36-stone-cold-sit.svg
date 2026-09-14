@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="520" viewBox="0 0 880 520" role="img">
+  <title>Stone bench thermal honesty</title>
+  <desc>Heavy stone slab bench.</desc>
+  <rect width="880" height="520" fill="#f8fafb"/>
+
+  <rect x="280" y="260" width="320" height="40" fill="#d1d5db" stroke="#1f2933"/>
+  <rect x="300" y="300" width="40" height="80" fill="#9ca3af" stroke="#1f2933"/>
+  <rect x="540" y="300" width="40" height="80" fill="#9ca3af" stroke="#1f2933"/>
+    <text x="440" y="80" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#1f2933">COLD SIT YOU CAN LEAVE OUT</text>
+
+</svg>

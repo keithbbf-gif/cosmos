@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="520" viewBox="0 0 880 520" role="img">
+  <title>Aluminum frame lightness and wind</title>
+  <desc>Tubular aluminum chair blowing in wind arrow.</desc>
+  <rect width="880" height="520" fill="#f8fafb"/>
+
+  <polyline points="360,320 400,220 440,320 480,220 520,320" fill="none" stroke="#64748b" stroke-width="4"/>
+  <path d="M600,260 L720,260" stroke="#b45309" stroke-width="2"/>
+  <polygon points="720,260 700,250 700,270" fill="#b45309"/>
+    <text x="440" y="80" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#1f2933">LIGHT MEANS WIND & STACKING COUNT</text>
+
+</svg>

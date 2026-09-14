@@ -11,7 +11,24 @@ standalone: true
 educational_claim: Thomas Lee's Westport chair of 1903 — eleven pieces, later patented by Harry Bunnell — is a low, wide, slatted outdoor sit. The word Adirondack is a later region-name. The duties are the seat angle, the slats, and a wood that can take weather.
 topics: [history, adirondack, westport, plank, outdoor-chair]
 sequence_after: ogfh-03-16
+meta_description: "The Adirondack is a plank chair, not a lifestyle. Thomas Lee's Westport chair of 1903 — eleven pieces, later patented by Harry Bunnell — is a low, wide, slatted outdoor sit. The word… Staged BBF spoken draft."
+figure_id: diagrams.03-17-adirondack
+image_rights: documented
+image_pass: 2026-09-14
+featured_image: ../assets/_shared/series-featured.svg
 ---
+<!-- ogfh-figure:v1 -->
+<figure class="ogfh-figure ogfh-figure--diagram">
+  <img
+    src="../assets/diagrams/03-17-adirondack.svg"
+    alt="Editorial schematic for BBF outdoor furniture history: The Adirondack is a plank chair, not a lifestyle"
+    width="880"
+    height="520"
+    loading="lazy"
+    decoding="async"
+  />
+  <figcaption><strong>Fig. 1.</strong> Thomas Lee's Westport chair of 1903 — eleven pieces, later patented by Harry Bunnell — is a low, wide, slatted outdoor sit. The word Adirondack is a later region-name. The duties are the seat angle, the slats, and a wood that can take weather. <em>Rights:</em> Original editorial schematic; Keith Fritz / BBF outdoor-garden-furniture-history pack (see RIGHTS.md).</figcaption>
+</figure>
 
 Eleven boards and a sit you have to commit to.
 

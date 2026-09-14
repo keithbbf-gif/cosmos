@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="520" viewBox="0 0 880 520" role="img">
+  <title>Victorian garden display overload</title>
+  <desc>Many outdoor objects in rain.</desc>
+  <rect width="880" height="520" fill="#f8fafb"/>
+
+  <ellipse cx="440" cy="120" rx="200" ry="60" fill="#e2e8f0" stroke="#52606d"/>
+  <path d="M360,120 L380,200 M440,120 L440,200 M520,120 L500,200" stroke="#3b82f6" stroke-width="2"/>
+  <rect x="200" y="280" width="60" height="40" fill="#64748b" stroke="#1f2933"/>
+  <rect x="300" y="300" width="50" height="30" fill="#d4a574" stroke="#1f2933"/>
+  <circle cx="500" cy="300" r="30" fill="#d1d5db" stroke="#1f2933"/>
+  <rect x="580" y="290" width="70" height="35" fill="#d4a574" stroke="#1f2933"/>
+    <text x="440" y="400" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#52606d">Display habit + rain = first casualties</text>
+
+</svg>

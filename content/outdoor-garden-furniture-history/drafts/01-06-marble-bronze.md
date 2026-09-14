@@ -11,7 +11,24 @@ standalone: true
 educational_claim: Classical outdoor furniture history is biased toward stone and the few bronzes that escaped the scrap pile. Wood was there. Weather and reuse ate the evidence, which is why garden catalogs still over-learn from marble.
 topics: [history, marble, bronze, survival-bias, materials]
 sequence_after: ogfh-01-05
+meta_description: "Marble sat. Bronze got melted. Wood left almost no proof. Classical outdoor furniture history is biased toward stone and the few bronzes that escaped the scrap pile. Wood was there. Weather and… Staged BBF spoken draft."
+figure_id: diagrams.01-06-marble-bronze
+image_rights: documented
+image_pass: 2026-09-14
+featured_image: ../assets/_shared/series-featured.svg
 ---
+<!-- ogfh-figure:v1 -->
+<figure class="ogfh-figure ogfh-figure--diagram">
+  <img
+    src="../assets/diagrams/01-06-marble-bronze.svg"
+    alt="Editorial schematic for BBF outdoor furniture history: Marble sat. Bronze got melted. Wood left almost no proof"
+    width="880"
+    height="520"
+    loading="lazy"
+    decoding="async"
+  />
+  <figcaption><strong>Fig. 1.</strong> Classical outdoor furniture history is biased toward stone and the few bronzes that escaped the scrap pile. Wood was there. Weather and reuse ate the evidence, which is why garden catalogs still over-learn from marble. <em>Rights:</em> Original editorial schematic; Keith Fritz / BBF outdoor-garden-furniture-history pack (see RIGHTS.md).</figcaption>
+</figure>
 
 The museum will lie to you by being honest about what it has.
 

@@ -11,7 +11,24 @@ standalone: true
 educational_claim: Craftsman and Mission porch furniture — settles, straight chairs, oak — borrowed indoor honesty and needed the porch roof. It is not a patio style name, and it is not a license to leave quartersawn oak in standing water.
 topics: [history, mission, craftsman, oak, porch]
 sequence_after: ogfh-03-17
+meta_description: "Mission on a porch is oak, a roof, and a refusal of wicker fuss. Craftsman and Mission porch furniture — settles, straight chairs, oak — borrowed indoor honesty and needed the porch roof. It is not a… Staged BBF spoken draft."
+figure_id: diagrams.03-18-mission-porch
+image_rights: documented
+image_pass: 2026-09-14
+featured_image: ../assets/_shared/series-featured.svg
 ---
+<!-- ogfh-figure:v1 -->
+<figure class="ogfh-figure ogfh-figure--diagram">
+  <img
+    src="../assets/diagrams/03-18-mission-porch.svg"
+    alt="Editorial schematic for BBF outdoor furniture history: Mission on a porch is oak, a roof, and a refusal of wicker fuss"
+    width="880"
+    height="520"
+    loading="lazy"
+    decoding="async"
+  />
+  <figcaption><strong>Fig. 1.</strong> Craftsman and Mission porch furniture — settles, straight chairs, oak — borrowed indoor honesty and needed the porch roof. It is not a patio style name, and it is not a license to leave quartersawn oak in standing water. <em>Rights:</em> Original editorial schematic; Keith Fritz / BBF outdoor-garden-furniture-history pack (see RIGHTS.md).</figcaption>
+</figure>
 
 Stickley did not design a pool collection.
 

@@ -11,7 +11,24 @@ standalone: true
 educational_claim: Historic wrought iron is a low-carbon, slag-bearing iron worked by a smith. Almost all modern "wrought" patio furniture is mild steel, bent and welded. The scroll can be the same. The rust calendar is not a mythic metal. It is a film and a gauge.
 topics: [materials, wrought-iron, mild-steel, welding, rust]
 sequence_after: ogfh-05-28
+meta_description: "Wrought iron is a grandmother's name on a mild-steel cousin. Historic wrought iron is a low-carbon, slag-bearing iron worked by a smith. Almost all modern \"wrought\" patio furniture is mild steel,… Staged BBF spoken draft."
+figure_id: diagrams.05-29-wrought-vs-steel
+image_rights: documented
+image_pass: 2026-09-14
+featured_image: ../assets/_shared/series-featured.svg
 ---
+<!-- ogfh-figure:v1 -->
+<figure class="ogfh-figure ogfh-figure--diagram">
+  <img
+    src="../assets/diagrams/05-29-wrought-vs-steel.svg"
+    alt="Editorial schematic for BBF outdoor furniture history: Wrought iron is a grandmother's name on a mild-steel cousin"
+    width="880"
+    height="520"
+    loading="lazy"
+    decoding="async"
+  />
+  <figcaption><strong>Fig. 1.</strong> Historic wrought iron is a low-carbon, slag-bearing iron worked by a smith. Almost all modern "wrought" patio furniture is mild steel, bent and welded. The scroll can be the same. The rust calendar is not a mythic metal. It is a film and a gauge. <em>Rights:</em> Original editorial schematic; Keith Fritz / BBF outdoor-garden-furniture-history pack (see RIGHTS.md).</figcaption>
+</figure>
 
 Ask for the metal, not the curl.
 

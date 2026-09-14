@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="520" viewBox="0 0 880 520" role="img">
+  <title>Outdoor finish failure modes</title>
+  <desc>Chalk, peel, and silver paths on wood.</desc>
+  <rect width="880" height="520" fill="#f8fafb"/>
+
+  <rect x="200" y="220" width="160" height="120" fill="#d4a574" stroke="#1f2933"/>
+  <rect x="400" y="220" width="160" height="120" fill="#e5e7eb" stroke="#1f2933"/>
+  <path d="M400,220 L560,340" fill="none" stroke="#b45309" stroke-width="2"/>
+  <rect x="600" y="220" width="80" height="120" fill="#d4a574" stroke="#1f2933" opacity="0.5"/>
+    <text x="440" y="80" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#1f2933">PICK AN HONEST DEATH</text>
+
+</svg>

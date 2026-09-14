@@ -11,7 +11,24 @@ standalone: false
 educational_claim: Before a carton, walk the roof, the sun, the water, the path, and the January storage. The history was a map of objects. The materials were a map of duties. The site decides which object is honest.
 topics: [shop, process, patio, sequence, series]
 sequence_after: ogfh-08-42
+meta_description: "How to read a patio before anyone draws a set. Before a carton, walk the roof, the sun, the water, the path, and the January storage. The history was a map of objects. The materials… Staged BBF spoken draft."
+figure_id: diagrams.08-43-read-the-patio
+image_rights: documented
+image_pass: 2026-09-14
+featured_image: ../assets/_shared/series-featured.svg
 ---
+<!-- ogfh-figure:v1 -->
+<figure class="ogfh-figure ogfh-figure--diagram">
+  <img
+    src="../assets/diagrams/08-43-read-the-patio.svg"
+    alt="Editorial schematic for BBF outdoor furniture history: How to read a patio before anyone draws a set"
+    width="880"
+    height="520"
+    loading="lazy"
+    decoding="async"
+  />
+  <figcaption><strong>Fig. 1.</strong> Before a carton, walk the roof, the sun, the water, the path, and the January storage. The history was a map of objects. The materials were a map of duties. The site decides which object is honest. <em>Rights:</em> Original editorial schematic; Keith Fritz / BBF outdoor-garden-furniture-history pack (see RIGHTS.md).</figcaption>
+</figure>
 
 Walk out with a tape and the tallest glass.
 

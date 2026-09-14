@@ -11,7 +11,24 @@ standalone: true
 educational_claim: Italian Renaissance garden seating is placed for prospect and pause — stone, often architectural, aimed at a view. A bench that faces a blank fence is using the silhouette and refusing the job.
 topics: [history, italy, villa, stone, prospect]
 sequence_after: ogfh-01-08
+meta_description: "The villa bench sits for a view, not for a television of hedge. Italian Renaissance garden seating is placed for prospect and pause — stone, often architectural, aimed at a view. A bench that faces a… Staged BBF spoken draft."
+figure_id: diagrams.01-09-italian-villa-stone
+image_rights: documented
+image_pass: 2026-09-14
+featured_image: ../assets/_shared/series-featured.svg
 ---
+<!-- ogfh-figure:v1 -->
+<figure class="ogfh-figure ogfh-figure--diagram">
+  <img
+    src="../assets/diagrams/01-09-italian-villa-stone.svg"
+    alt="Editorial schematic for BBF outdoor furniture history: The villa bench sits for a view, not for a television of hedge"
+    width="880"
+    height="520"
+    loading="lazy"
+    decoding="async"
+  />
+  <figcaption><strong>Fig. 1.</strong> Italian Renaissance garden seating is placed for prospect and pause — stone, often architectural, aimed at a view. A bench that faces a blank fence is using the silhouette and refusing the job. <em>Rights:</em> Original editorial schematic; Keith Fritz / BBF outdoor-garden-furniture-history pack (see RIGHTS.md).</figcaption>
+</figure>
 
 Put the bench where the land already made a sentence.
 

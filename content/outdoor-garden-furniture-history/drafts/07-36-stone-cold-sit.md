@@ -11,7 +11,24 @@ standalone: true
 educational_claim: Stone outdoor seating is architecture-adjacent: heavy, thermally honest, leave-it. The duties are span, freeze, staining, and a pad. A thin cultured-stone top on legs is not a villa slab.
 topics: [materials, stone, marble, thermal, leave-it]
 sequence_after: ogfh-06-35
+meta_description: "A stone bench is a cold sit you can leave. Stone outdoor seating is architecture-adjacent: heavy, thermally honest, leave-it. The duties are span, freeze, staining, and a pad. A… Staged BBF spoken draft."
+figure_id: diagrams.07-36-stone-cold-sit
+image_rights: documented
+image_pass: 2026-09-14
+featured_image: ../assets/_shared/series-featured.svg
 ---
+<!-- ogfh-figure:v1 -->
+<figure class="ogfh-figure ogfh-figure--diagram">
+  <img
+    src="../assets/diagrams/07-36-stone-cold-sit.svg"
+    alt="Editorial schematic for BBF outdoor furniture history: A stone bench is a cold sit you can leave"
+    width="880"
+    height="520"
+    loading="lazy"
+    decoding="async"
+  />
+  <figcaption><strong>Fig. 1.</strong> Stone outdoor seating is architecture-adjacent: heavy, thermally honest, leave-it. The duties are span, freeze, staining, and a pad. A thin cultured-stone top on legs is not a villa slab. <em>Rights:</em> Original editorial schematic; Keith Fritz / BBF outdoor-garden-furniture-history pack (see RIGHTS.md).</figcaption>
+</figure>
 
 If you cannot leave it, you bought the wrong mineral.
 

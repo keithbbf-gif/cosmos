@@ -11,7 +11,24 @@ standalone: true
 educational_claim: High-Victorian gardens treated outdoor furniture as display — rustic, cast, ceramic, taxidermy nature — in a climate that still rained. The display habit is why modern patios over-furnish. The rain is why those extra objects die first.
 topics: [history, victorian, rustic, display, clutter]
 sequence_after: ogfh-02-12
+meta_description: "The Victorian garden was a display case with a weather problem. High-Victorian gardens treated outdoor furniture as display — rustic, cast, ceramic, taxidermy nature — in a climate that still rained.… Staged BBF spoken draft."
+figure_id: diagrams.02-13-victorian-display
+image_rights: documented
+image_pass: 2026-09-14
+featured_image: ../assets/_shared/series-featured.svg
 ---
+<!-- ogfh-figure:v1 -->
+<figure class="ogfh-figure ogfh-figure--diagram">
+  <img
+    src="../assets/diagrams/02-13-victorian-display.svg"
+    alt="Editorial schematic for BBF outdoor furniture history: The Victorian garden was a display case with a weather problem"
+    width="880"
+    height="520"
+    loading="lazy"
+    decoding="async"
+  />
+  <figcaption><strong>Fig. 1.</strong> High-Victorian gardens treated outdoor furniture as display — rustic, cast, ceramic, taxidermy nature — in a climate that still rained. The display habit is why modern patios over-furnish. The rain is why those extra objects die first. <em>Rights:</em> Original editorial schematic; Keith Fritz / BBF outdoor-garden-furniture-history pack (see RIGHTS.md).</figcaption>
+</figure>
 
 More objects is not more garden.
 

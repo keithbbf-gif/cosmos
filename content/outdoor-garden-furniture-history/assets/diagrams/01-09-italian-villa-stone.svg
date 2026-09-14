@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="520" viewBox="0 0 880 520" role="img">
+  <title>Villa bench aimed at a view</title>
+  <desc>Stone bench on axis toward a landscape prospect.</desc>
+  <rect width="880" height="520" fill="#f8fafb"/>
+
+  <path d="M80,380 L800,380" stroke="#4d7c57" stroke-width="2"/>
+  <path d="M440,380 L440,120" stroke="#b45309" stroke-width="2" stroke-dasharray="6 4"/>
+  <rect x="360" y="300" width="160" height="24" fill="#d1d5db" stroke="#1f2933"/>
+  <polygon points="440,100 520,200 360,200" fill="none" stroke="#52606d" stroke-width="1.5"/>
+    <text x="440" y="70" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#1f2933">BENCH AS VIEWING MACHINE</text>
+
+</svg>

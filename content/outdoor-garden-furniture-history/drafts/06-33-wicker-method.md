@@ -11,7 +11,24 @@ standalone: true
 educational_claim: Wicker means weaving a seat or a skin around a frame — rattan, willow, reed, paper, or resin. The method is old. The frame and the fiber decide the climate, not the department-store syllable.
 topics: [materials, wicker, method, willow, frame]
 sequence_after: ogfh-06-32
+meta_description: "Wicker is a method. The plant gets to keep its own name. Wicker means weaving a seat or a skin around a frame — rattan, willow, reed, paper, or resin. The method is old. The frame and the fiber… Staged BBF spoken draft."
+figure_id: diagrams.06-33-wicker-method
+image_rights: documented
+image_pass: 2026-09-14
+featured_image: ../assets/_shared/series-featured.svg
 ---
+<!-- ogfh-figure:v1 -->
+<figure class="ogfh-figure ogfh-figure--diagram">
+  <img
+    src="../assets/diagrams/06-33-wicker-method.svg"
+    alt="Editorial schematic for BBF outdoor furniture history: Wicker is a method. The plant gets to keep its own name"
+    width="880"
+    height="520"
+    loading="lazy"
+    decoding="async"
+  />
+  <figcaption><strong>Fig. 1.</strong> Wicker means weaving a seat or a skin around a frame — rattan, willow, reed, paper, or resin. The method is old. The frame and the fiber decide the climate, not the department-store syllable. <em>Rights:</em> Original editorial schematic; Keith Fritz / BBF outdoor-garden-furniture-history pack (see RIGHTS.md).</figcaption>
+</figure>
 
 Say weaving, then say of what, then say around what.
 

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="520" viewBox="0 0 880 520" role="img">
+  <title>Porcelain garden drum seat</title>
+  <desc>Drum-shaped pierced garden seat silhouette.</desc>
+  <rect width="880" height="520" fill="#f8fafb"/>
+
+  <ellipse cx="440" cy="320" rx="140" ry="40" fill="#e2e8f0" stroke="#1f2933"/>
+  <rect x="300" y="180" width="280" height="140" rx="20" fill="#f8fafc" stroke="#1f2933" stroke-width="2"/>
+  <circle cx="380" cy="250" r="18" fill="none" stroke="#52606d"/>
+  <circle cx="500" cy="250" r="18" fill="none" stroke="#52606d"/>
+    <text x="440" y="80" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#1f2933">DRUM STOOL — GARDEN SEAT, NOT NIGHTSTAND</text>
+
+</svg>

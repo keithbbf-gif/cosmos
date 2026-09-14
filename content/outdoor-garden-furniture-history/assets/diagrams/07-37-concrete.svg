@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="520" viewBox="0 0 880 520" role="img">
+  <title>Concrete bench spall risk</title>
+  <desc>Concrete seat with hairline crack and rebar hint.</desc>
+  <rect width="880" height="520" fill="#f8fafb"/>
+
+  <rect x="300" y="240" width="280" height="60" fill="#d1d5db" stroke="#1f2933"/>
+  <path d="M360,270 L420,290" stroke="#b45309" stroke-width="2"/>
+  <circle cx="500" cy="270" r="6" fill="#b45309"/>
+    <text x="440" y="80" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#1f2933">MIX · REINFORCEMENT · FREEZE</text>
+
+</svg>

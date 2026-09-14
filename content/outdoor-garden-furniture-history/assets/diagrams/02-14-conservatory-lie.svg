@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="520" viewBox="0 0 880 520" role="img">
+  <title>Conservatory versus open patio</title>
+  <desc>Glazed room furniture versus sky furniture.</desc>
+  <rect width="880" height="520" fill="#f8fafb"/>
+
+  <rect x="80" y="120" width="320" height="280" fill="#e0f2fe" stroke="#1f2933" opacity="0.5"/>
+  <line x1="80" y1="120" x2="400" y2="120" stroke="#1f2933" stroke-width="2"/>
+  <line x1="200" y1="120" x2="200" y2="400" stroke="#1f2933" stroke-width="1"/>
+  <rect x="140" y="300" width="100" height="40" fill="#d4a574" stroke="#1f2933"/>
+    <text x="240" y="90" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#1f2933">CONSERVATORY</text>
+  <rect x="480" y="320" width="320" height="20" fill="#cbd5e1" stroke="#1f2933"/>
+  <rect x="560" y="260" width="120" height="60" fill="#fca5a5" stroke="#1f2933" opacity="0.4"/>
+    <text x="640" y="90" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#1f2933">OPEN PATIO</text>
+    <text x="640" y="380" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#52606d">Upholstery without glass = lie</text>
+
+</svg>

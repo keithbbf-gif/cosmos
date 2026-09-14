@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="520" viewBox="0 0 880 520" role="img">
+  <title>Cedar and cypress extractives</title>
+  <desc>Outdoor heartwood boards with rot resistance note.</desc>
+  <rect width="880" height="520" fill="#f8fafb"/>
+
+  <rect x="240" y="200" width="160" height="120" fill="#c4a484" stroke="#1f2933"/>
+  <rect x="480" y="200" width="160" height="120" fill="#a8b5a0" stroke="#1f2933"/>
+    <text x="320" y="350" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#1f2933">cedar</text>
+    <text x="560" y="350" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#1f2933">cypress</text>
+    <text x="440" y="90" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#1f2933">EXTRACTIVES HELP — STILL WOOD</text>
+
+</svg>

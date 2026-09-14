@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="520" viewBox="0 0 880 520" role="img">
+  <title>Lloyd Loom paper on wire</title>
+  <desc>Regular woven paper sheet on wire grid.</desc>
+  <rect width="880" height="520" fill="#f8fafb"/>
+
+  <line x1="280" y1="200" x2="600" y2="200" stroke="#52606d"/>
+  <line x1="280" y1="240" x2="600" y2="240" stroke="#52606d"/>
+  <line x1="280" y1="280" x2="600" y2="280" stroke="#52606d"/>
+  <line x1="320" y1="160" x2="320" y2="320" stroke="#52606d"/>
+  <line x1="400" y1="160" x2="400" y2="320" stroke="#52606d"/>
+  <line x1="480" y1="160" x2="480" y2="320" stroke="#52606d"/>
+  <line x1="560" y1="160" x2="560" y2="320" stroke="#52606d"/>
+    <text x="440" y="80" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#1f2933">PAPER ON WIRE — REGULARITY IS THE TELL</text>
+
+</svg>

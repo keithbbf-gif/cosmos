@@ -11,7 +11,24 @@ standalone: true
 educational_claim: Mid-nineteenth-century cast-iron garden seats — Coalbrookdale and its rivals — turned sitting outdoors into a repeatable industrial object. The fern is a pattern. The duty is weight, rust, and a foundry, not a woodland spirit.
 topics: [history, cast-iron, coalbrookdale, victorian, industry]
 sequence_after: ogfh-02-11
+meta_description: "Coalbrookdale put the garden on a pattern plate. Mid-nineteenth-century cast-iron garden seats — Coalbrookdale and its rivals — turned sitting outdoors into a repeatable industrial… Staged BBF spoken draft."
+figure_id: diagrams.02-12-coalbrookdale
+image_rights: documented
+image_pass: 2026-09-14
+featured_image: ../assets/_shared/series-featured.svg
 ---
+<!-- ogfh-figure:v1 -->
+<figure class="ogfh-figure ogfh-figure--diagram">
+  <img
+    src="../assets/diagrams/02-12-coalbrookdale.svg"
+    alt="Editorial schematic for BBF outdoor furniture history: Coalbrookdale put the garden on a pattern plate"
+    width="880"
+    height="520"
+    loading="lazy"
+    decoding="async"
+  />
+  <figcaption><strong>Fig. 1.</strong> Mid-nineteenth-century cast-iron garden seats — Coalbrookdale and its rivals — turned sitting outdoors into a repeatable industrial object. The fern is a pattern. The duty is weight, rust, and a foundry, not a woodland spirit. <em>Rights:</em> Original editorial schematic; Keith Fritz / BBF outdoor-garden-furniture-history pack (see RIGHTS.md).</figcaption>
+</figure>
 
 A fern that never wilts is a mold.
 

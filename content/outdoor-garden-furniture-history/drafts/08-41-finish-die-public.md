@@ -11,7 +11,24 @@ standalone: true
 educational_claim: Films chalk, peel, and map in sun. Oils go sticky or disappear. Paint is a sacrificial skin. Bare teak silvers. The specification is which failure the household will maintain, not which color the screen liked.
 topics: [shop, finish, film, oil, paint, ultraviolet]
 sequence_after: ogfh-08-40
+meta_description: "Outdoor finish has to die in public. Pick an honest death. Films chalk, peel, and map in sun. Oils go sticky or disappear. Paint is a sacrificial skin. Bare teak silvers. The specification is… Staged BBF spoken draft."
+figure_id: diagrams.08-41-finish-die-public
+image_rights: documented
+image_pass: 2026-09-14
+featured_image: ../assets/_shared/series-featured.svg
 ---
+<!-- ogfh-figure:v1 -->
+<figure class="ogfh-figure ogfh-figure--diagram">
+  <img
+    src="../assets/diagrams/08-41-finish-die-public.svg"
+    alt="Editorial schematic for BBF outdoor furniture history: Outdoor finish has to die in public. Pick an honest death"
+    width="880"
+    height="520"
+    loading="lazy"
+    decoding="async"
+  />
+  <figcaption><strong>Fig. 1.</strong> Films chalk, peel, and map in sun. Oils go sticky or disappear. Paint is a sacrificial skin. Bare teak silvers. The specification is which failure the household will maintain, not which color the screen liked. <em>Rights:</em> Original editorial schematic; Keith Fritz / BBF outdoor-garden-furniture-history pack (see RIGHTS.md).</figcaption>
+</figure>
 
 Sun is a critic that does not care about your favorite sheen.
 

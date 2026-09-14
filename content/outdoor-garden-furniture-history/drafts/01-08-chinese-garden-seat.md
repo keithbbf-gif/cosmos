@@ -11,7 +11,24 @@ standalone: true
 educational_claim: Chinese porcelain garden seats — drum-shaped, pierced, often ceramic — were outdoor and garden objects that could take weather better than upholstered Western cousins. Calling every barrel stool a "garden seat" does not make it one.
 topics: [history, china, porcelain, garden-seat, stone]
 sequence_after: ogfh-01-07
+meta_description: "The drum stool was a garden seat, not a nightstand. Chinese porcelain garden seats — drum-shaped, pierced, often ceramic — were outdoor and garden objects that could take weather better… Staged BBF spoken draft."
+figure_id: diagrams.01-08-chinese-garden-seat
+image_rights: documented
+image_pass: 2026-09-14
+featured_image: ../assets/_shared/series-featured.svg
 ---
+<!-- ogfh-figure:v1 -->
+<figure class="ogfh-figure ogfh-figure--diagram">
+  <img
+    src="../assets/diagrams/01-08-chinese-garden-seat.svg"
+    alt="Editorial schematic for BBF outdoor furniture history: The drum stool was a garden seat, not a nightstand"
+    width="880"
+    height="520"
+    loading="lazy"
+    decoding="async"
+  />
+  <figcaption><strong>Fig. 1.</strong> Chinese porcelain garden seats — drum-shaped, pierced, often ceramic — were outdoor and garden objects that could take weather better than upholstered Western cousins. Calling every barrel stool a "garden seat" does not make it one. <em>Rights:</em> Original editorial schematic; Keith Fritz / BBF outdoor-garden-furniture-history pack (see RIGHTS.md).</figcaption>
+</figure>
 
 A barrel that rings like a pot is allowed to live in the rain.
 

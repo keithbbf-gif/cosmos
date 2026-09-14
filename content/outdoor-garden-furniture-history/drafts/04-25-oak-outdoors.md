@@ -11,7 +11,24 @@ standalone: true
 educational_claim: White oak heartwood, with tyloses, has a better outdoor chance than red oak. English park benches used oak with detailing and paint or patience. An indoor quartersawn dining oak left on a patio is a dining table in trouble.
 topics: [materials, oak, white-oak, tyloses, benches]
 sequence_after: ogfh-04-24
+meta_description: "Oak outdoors is a different oak than the dining room. White oak heartwood, with tyloses, has a better outdoor chance than red oak. English park benches used oak with detailing and paint or… Staged BBF spoken draft."
+figure_id: diagrams.04-25-oak-outdoors
+image_rights: documented
+image_pass: 2026-09-14
+featured_image: ../assets/_shared/series-featured.svg
 ---
+<!-- ogfh-figure:v1 -->
+<figure class="ogfh-figure ogfh-figure--diagram">
+  <img
+    src="../assets/diagrams/04-25-oak-outdoors.svg"
+    alt="Editorial schematic for BBF outdoor furniture history: Oak outdoors is a different oak than the dining room"
+    width="880"
+    height="520"
+    loading="lazy"
+    decoding="async"
+  />
+  <figcaption><strong>Fig. 1.</strong> White oak heartwood, with tyloses, has a better outdoor chance than red oak. English park benches used oak with detailing and paint or patience. An indoor quartersawn dining oak left on a patio is a dining table in trouble. <em>Rights:</em> Original editorial schematic; Keith Fritz / BBF outdoor-garden-furniture-history pack (see RIGHTS.md).</figcaption>
+</figure>
 
 The pores are the plot.
 

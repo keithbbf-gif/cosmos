@@ -11,7 +11,24 @@ standalone: true
 educational_claim: Powder coating is an electrostatic powder baked onto metal. It can be an excellent outdoor film. It still chalks, chips, and maps welds. A chip is a climate. The metal underneath is the real specification.
 topics: [materials, powder-coat, film, chalking, chips]
 sequence_after: ogfh-05-30
+meta_description: "Powder coat is a baked film, not a metal. Powder coating is an electrostatic powder baked onto metal. It can be an excellent outdoor film. It still chalks, chips, and maps welds.… Staged BBF spoken draft."
+figure_id: diagrams.05-31-powder-coat
+image_rights: documented
+image_pass: 2026-09-14
+featured_image: ../assets/_shared/series-featured.svg
 ---
+<!-- ogfh-figure:v1 -->
+<figure class="ogfh-figure ogfh-figure--diagram">
+  <img
+    src="../assets/diagrams/05-31-powder-coat.svg"
+    alt="Editorial schematic for BBF outdoor furniture history: Powder coat is a baked film, not a metal"
+    width="880"
+    height="520"
+    loading="lazy"
+    decoding="async"
+  />
+  <figcaption><strong>Fig. 1.</strong> Powder coating is an electrostatic powder baked onto metal. It can be an excellent outdoor film. It still chalks, chips, and maps welds. A chip is a climate. The metal underneath is the real specification. <em>Rights:</em> Original editorial schematic; Keith Fritz / BBF outdoor-garden-furniture-history pack (see RIGHTS.md).</figcaption>
+</figure>
 
 The color is a crust.
 

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="520" viewBox="0 0 880 520" role="img">
+  <title>American porch as roofed room</title>
+  <desc>House porch section between street and interior.</desc>
+  <rect width="880" height="520" fill="#f8fafb"/>
+
+  <rect x="120" y="200" width="200" height="180" fill="#f1f5f9" stroke="#1f2933"/>
+  <polygon points="100,200 220,140 340,200" fill="#e2e8f0" stroke="#1f2933"/>
+  <rect x="360" y="200" width="400" height="180" fill="#fff7ed" stroke="#b45309"/>
+    <text x="260" y="320" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#1f2933">porch room</text>
+    <text x="560" y="320" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#1f2933">street / yard</text>
+    <text x="440" y="80" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#1f2933">ROOF IS THE SPEC</text>
+
+</svg>

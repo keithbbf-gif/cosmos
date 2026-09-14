@@ -11,7 +11,24 @@ standalone: true
 educational_claim: Porch, patio, and open lawn are three assignments of roof, splash, and ultraviolet. Using one word — outdoor — for all three is how a room gets the wrong object.
 topics: [frame, porch, patio, lawn, climate]
 sequence_after: ogfh-00-01
+meta_description: "Porch, patio, open lawn — three climates that keep getting one name. Porch, patio, and open lawn are three assignments of roof, splash, and ultraviolet. Using one word — outdoor — for all three is how a… Staged BBF spoken draft."
+figure_id: diagrams.00-02-three-climates
+image_rights: documented
+image_pass: 2026-09-14
+featured_image: ../assets/_shared/series-featured.svg
 ---
+<!-- ogfh-figure:v1 -->
+<figure class="ogfh-figure ogfh-figure--diagram">
+  <img
+    src="../assets/diagrams/00-02-three-climates.svg"
+    alt="Editorial schematic for BBF outdoor furniture history: Porch, patio, open lawn — three climates that keep getting one name"
+    width="880"
+    height="520"
+    loading="lazy"
+    decoding="async"
+  />
+  <figcaption><strong>Fig. 1.</strong> Porch, patio, and open lawn are three assignments of roof, splash, and ultraviolet. Using one word — outdoor — for all three is how a room gets the wrong object. <em>Rights:</em> Original editorial schematic; Keith Fritz / BBF outdoor-garden-furniture-history pack (see RIGHTS.md).</figcaption>
+</figure>
 
 Call the place by its roof, or admit it has none.
 

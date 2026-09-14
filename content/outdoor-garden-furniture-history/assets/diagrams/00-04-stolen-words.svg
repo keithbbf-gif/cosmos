@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="520" viewBox="0 0 880 520" role="img">
+  <title>Stolen outdoor furniture words</title>
+  <desc>Labels showing marketing words diverging from material meaning.</desc>
+  <rect width="880" height="520" fill="#f8fafb"/>
+
+    <text x="440" y="55" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#1f2933">WORD → OLD MEANING → CATALOG MEANING</text>
+  <line x1="120" y1="120" x2="760" y2="120" stroke="#52606d"/>
+  <line x1="120" y1="200" x2="760" y2="200" stroke="#52606d"/>
+  <line x1="120" y1="280" x2="760" y2="280" stroke="#52606d"/>
+    <text x="200" y="110" text-anchor="start" font-family="system-ui,sans-serif" font-size="11" fill="#1f2933">teak</text>
+    <text x="520" y="110" text-anchor="start" font-family="system-ui,sans-serif" font-size="11" fill="#1f2933">tree + oil</text>
+    <text x="720" y="110" text-anchor="start" font-family="system-ui,sans-serif" font-size="11" fill="#1f2933">color</text>
+    <text x="200" y="190" text-anchor="start" font-family="system-ui,sans-serif" font-size="11" fill="#1f2933">wrought</text>
+    <text x="520" y="190" text-anchor="start" font-family="system-ui,sans-serif" font-size="11" fill="#1f2933">smith iron</text>
+    <text x="720" y="190" text-anchor="start" font-family="system-ui,sans-serif" font-size="11" fill="#1f2933">scroll</text>
+    <text x="200" y="270" text-anchor="start" font-family="system-ui,sans-serif" font-size="11" fill="#1f2933">all-weather</text>
+    <text x="520" y="270" text-anchor="start" font-family="system-ui,sans-serif" font-size="11" fill="#1f2933">climate duty</text>
+    <text x="720" y="270" text-anchor="start" font-family="system-ui,sans-serif" font-size="11" fill="#1f2933">feeling</text>
+
+</svg>

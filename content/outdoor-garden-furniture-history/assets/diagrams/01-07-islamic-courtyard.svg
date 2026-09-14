@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="520" viewBox="0 0 880 520" role="img">
+  <title>Courtyard shade and water section</title>
+  <desc>Shaded walk, fountain, and hard seat in hot climate.</desc>
+  <rect width="880" height="520" fill="#f8fafb"/>
+
+  <rect x="100" y="80" width="680" height="360" fill="#fffbeb" stroke="#1f2933"/>
+  <rect x="100" y="80" width="120" height="360" fill="#e2e8f0"/>
+  <rect x="660" y="80" width="120" height="360" fill="#e2e8f0"/>
+  <rect x="380" y="300" width="120" height="20" fill="#d6d3d1" stroke="#1f2933"/>
+  <ellipse cx="440" cy="220" rx="50" ry="30" fill="#3b82f6" opacity="0.6"/>
+    <text x="440" y="60" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#1f2933">SHADE IS LAW</text>
+
+</svg>

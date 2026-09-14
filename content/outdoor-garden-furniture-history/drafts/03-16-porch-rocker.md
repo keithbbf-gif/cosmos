@@ -11,7 +11,24 @@ standalone: true
 educational_claim: A porch rocker is a moving chair for a roofed room — runners, splay, a sit you can stay in. It is not a patio dining chair and it is not a nursery prop. The runners have to live with grit and a painted floor.
 topics: [history, rocker, porch, motion, wood]
 sequence_after: ogfh-03-15
+meta_description: "The rocking chair earned the porch by doing work. A porch rocker is a moving chair for a roofed room — runners, splay, a sit you can stay in. It is not a patio dining chair and it is not… Staged BBF spoken draft."
+figure_id: diagrams.03-16-porch-rocker
+image_rights: documented
+image_pass: 2026-09-14
+featured_image: ../assets/_shared/series-featured.svg
 ---
+<!-- ogfh-figure:v1 -->
+<figure class="ogfh-figure ogfh-figure--diagram">
+  <img
+    src="../assets/diagrams/03-16-porch-rocker.svg"
+    alt="Editorial schematic for BBF outdoor furniture history: The rocking chair earned the porch by doing work"
+    width="880"
+    height="520"
+    loading="lazy"
+    decoding="async"
+  />
+  <figcaption><strong>Fig. 1.</strong> A porch rocker is a moving chair for a roofed room — runners, splay, a sit you can stay in. It is not a patio dining chair and it is not a nursery prop. The runners have to live with grit and a painted floor. <em>Rights:</em> Original editorial schematic; Keith Fritz / BBF outdoor-garden-furniture-history pack (see RIGHTS.md).</figcaption>
+</figure>
 
 A chair that moves is doing a job a still chair cannot fake with a cushion.
 

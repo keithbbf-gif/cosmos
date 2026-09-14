@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="520" viewBox="0 0 880 520" role="img">
+  <title>OGFH series type plate</title>
+  <desc>Series header schematic with bench and chair silhouettes on a timeline stroke.</desc>
+  <rect width="880" height="520" fill="#f8fafb"/>
+
+  <rect x="60" y="80" width="760" height="360" fill="#e8eef2" stroke="#1f2933" stroke-width="1.5"/>
+  <path d="M120,320 L280,200 L440,280 L600,180 L760,260" fill="none" stroke="#b45309" stroke-width="3"/>
+  <rect x="200" y="300" width="120" height="12" fill="#d4a574" stroke="#1f2933"/>
+  <rect x="520" y="290" width="140" height="10" fill="#64748b" stroke="#1f2933"/>
+    <text x="440" y="60" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" fill="#1f2933">Outdoor & garden furniture — history & materials</text>
+    <text x="440" y="420" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#52606d">Weather · materials · shop honesty (BBF editorial schematic)</text>
+
+</svg>

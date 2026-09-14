@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="520" viewBox="0 0 880 520" role="img">
+  <title>Outdoor fastener galvanic pairs</title>
+  <desc>Screw rust at joint before board fails.</desc>
+  <rect width="880" height="520" fill="#f8fafb"/>
+
+  <rect x="300" y="240" width="280" height="40" fill="#d4a574" stroke="#1f2933"/>
+  <circle cx="360" cy="260" r="10" fill="#64748b" stroke="#b45309" stroke-width="2"/>
+  <circle cx="440" cy="260" r="10" fill="#b45309" stroke="#1f2933"/>
+  <circle cx="520" cy="260" r="10" fill="#64748b" stroke="#b45309" stroke-width="2"/>
+    <text x="440" y="80" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#1f2933">FASTENER RUSTS FIRST</text>
+
+</svg>

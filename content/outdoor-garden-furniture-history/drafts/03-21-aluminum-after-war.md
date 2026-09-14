@@ -11,7 +11,24 @@ standalone: true
 educational_claim: Postwar outdoor aluminum — Brown Jordan, Tropitone, Woodard's later lines, and a thousand unnamed sets — made lightness and stacking industrial virtues. Aluminum does not rust like steel. It still fatigues, paints poorly when cheap, and gets hot.
 topics: [history, aluminum, brown-jordan, stacking, patio]
 sequence_after: ogfh-03-20
+meta_description: "After the war, aluminum taught the patio to stack. Postwar outdoor aluminum — Brown Jordan, Tropitone, Woodard's later lines, and a thousand unnamed sets — made lightness and stacking… Staged BBF spoken draft."
+figure_id: diagrams.03-21-aluminum-after-war
+image_rights: documented
+image_pass: 2026-09-14
+featured_image: ../assets/_shared/series-featured.svg
 ---
+<!-- ogfh-figure:v1 -->
+<figure class="ogfh-figure ogfh-figure--diagram">
+  <img
+    src="../assets/diagrams/03-21-aluminum-after-war.svg"
+    alt="Editorial schematic for BBF outdoor furniture history: After the war, aluminum taught the patio to stack"
+    width="880"
+    height="520"
+    loading="lazy"
+    decoding="async"
+  />
+  <figcaption><strong>Fig. 1.</strong> Postwar outdoor aluminum — Brown Jordan, Tropitone, Woodard's later lines, and a thousand unnamed sets — made lightness and stacking industrial virtues. Aluminum does not rust like steel. It still fatigues, paints poorly when cheap, and gets hot. <em>Rights:</em> Original editorial schematic; Keith Fritz / BBF outdoor-garden-furniture-history pack (see RIGHTS.md).</figcaption>
+</figure>
 
 The chair got light enough to steal, and that was progress.
 

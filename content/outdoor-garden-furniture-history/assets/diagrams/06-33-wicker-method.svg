@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="520" viewBox="0 0 880 520" role="img">
+  <title>Wicker weaving method</title>
+  <desc>Weave around a frame regardless of fiber.</desc>
+  <rect width="880" height="520" fill="#f8fafb"/>
+
+  <rect x="340" y="200" width="200" height="120" fill="none" stroke="#1f2933" stroke-width="2"/>
+  <path d="M340,220 h200 M340,260 h200 M340,300 h200" stroke="#b45309" stroke-width="2"/>
+  <path d="M360,200 v120 M400,200 v120 M440,200 v120 M480,200 v120 M520,200 v120" stroke="#b45309" stroke-width="2"/>
+    <text x="440" y="80" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#1f2933">METHOD — FRAME + FIBER</text>
+
+</svg>

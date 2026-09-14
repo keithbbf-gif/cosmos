@@ -11,7 +11,24 @@ standalone: true
 educational_claim: The English landscape garden placed benches as stations in a composed view — rustic wood, later iron, often at a rise or a turning. The bench is a camera. If there is no picture, it is only lumber.
 topics: [history, england, landscape, rustic, bench]
 sequence_after: ogfh-02-10
+meta_description: "The English bench is a viewing machine for a fake wilderness. The English landscape garden placed benches as stations in a composed view — rustic wood, later iron, often at a rise or a turning. The… Staged BBF spoken draft."
+figure_id: diagrams.02-11-english-landscape-bench
+image_rights: documented
+image_pass: 2026-09-14
+featured_image: ../assets/_shared/series-featured.svg
 ---
+<!-- ogfh-figure:v1 -->
+<figure class="ogfh-figure ogfh-figure--diagram">
+  <img
+    src="../assets/diagrams/02-11-english-landscape-bench.svg"
+    alt="Editorial schematic for BBF outdoor furniture history: The English bench is a viewing machine for a fake wilderness"
+    width="880"
+    height="520"
+    loading="lazy"
+    decoding="async"
+  />
+  <figcaption><strong>Fig. 1.</strong> The English landscape garden placed benches as stations in a composed view — rustic wood, later iron, often at a rise or a turning. The bench is a camera. If there is no picture, it is only lumber. <em>Rights:</em> Original editorial schematic; Keith Fritz / BBF outdoor-garden-furniture-history pack (see RIGHTS.md).</figcaption>
+</figure>
 
 Capability Brown did not invent sitting down. He invented a reason to walk farther before you did it.
 

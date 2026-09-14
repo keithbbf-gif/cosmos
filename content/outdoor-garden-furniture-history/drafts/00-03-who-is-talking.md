@@ -11,7 +11,24 @@ standalone: true
 educational_claim: A custom indoor shop can teach outdoor furniture as weather, wood, metal, and honesty. It cannot narrate a patio line it does not build or a chemical warranty it does not print.
 topics: [frame, shop, voice, boundaries]
 sequence_after: ogfh-00-02
+meta_description: "Who is talking, and what this shop will not invent about the garden. A custom indoor shop can teach outdoor furniture as weather, wood, metal, and honesty. It cannot narrate a patio line it does not build… Staged BBF spoken draft."
+figure_id: diagrams.00-03-who-is-talking
+image_rights: documented
+image_pass: 2026-09-14
+featured_image: ../assets/_shared/series-featured.svg
 ---
+<!-- ogfh-figure:v1 -->
+<figure class="ogfh-figure ogfh-figure--diagram">
+  <img
+    src="../assets/diagrams/00-03-who-is-talking.svg"
+    alt="Editorial schematic for BBF outdoor furniture history: Who is talking, and what this shop will not invent about the garden"
+    width="880"
+    height="520"
+    loading="lazy"
+    decoding="async"
+  />
+  <figcaption><strong>Fig. 1.</strong> A custom indoor shop can teach outdoor furniture as weather, wood, metal, and honesty. It cannot narrate a patio line it does not build or a chemical warranty it does not print. <em>Rights:</em> Original editorial schematic; Keith Fritz / BBF outdoor-garden-furniture-history pack (see RIGHTS.md).</figcaption>
+</figure>
 
 I should tell you who is talking, because garden copy has a habit of putting a linen shirt on a script and calling it a craftsman.
 

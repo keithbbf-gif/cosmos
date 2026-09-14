@@ -11,7 +11,24 @@ standalone: true
 educational_claim: A conservatory or sunroom is a glazed room. Its furniture can be lighter, finer, even upholstered if the glass and the heat are managed. Putting that furniture on an open patio is how a pretty lie becomes a stain.
 topics: [history, conservatory, sunroom, glass, indoor-outdoor]
 sequence_after: ogfh-02-13
+meta_description: "Conservatory furniture is indoor furniture that can see the garden. A conservatory or sunroom is a glazed room. Its furniture can be lighter, finer, even upholstered if the glass and the heat are managed.… Staged BBF spoken draft."
+figure_id: diagrams.02-14-conservatory-lie
+image_rights: documented
+image_pass: 2026-09-14
+featured_image: ../assets/_shared/series-featured.svg
 ---
+<!-- ogfh-figure:v1 -->
+<figure class="ogfh-figure ogfh-figure--diagram">
+  <img
+    src="../assets/diagrams/02-14-conservatory-lie.svg"
+    alt="Editorial schematic for BBF outdoor furniture history: Conservatory furniture is indoor furniture that can see the garden"
+    width="880"
+    height="520"
+    loading="lazy"
+    decoding="async"
+  />
+  <figcaption><strong>Fig. 1.</strong> A conservatory or sunroom is a glazed room. Its furniture can be lighter, finer, even upholstered if the glass and the heat are managed. Putting that furniture on an open patio is how a pretty lie becomes a stain. <em>Rights:</em> Original editorial schematic; Keith Fritz / BBF outdoor-garden-furniture-history pack (see RIGHTS.md).</figcaption>
+</figure>
 
 Glass is a roof. Treat it like one.
 

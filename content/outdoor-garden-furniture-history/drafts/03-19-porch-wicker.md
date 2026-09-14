@@ -11,7 +11,24 @@ standalone: true
 educational_claim: Heywood-Wakefield and its rivals made rattan and wicker porch furniture a national summer object. Wicker is a woven skin. It wants a roof, a dry winter, and a household that will not hose it like a driveway.
 topics: [history, wicker, rattan, heywood-wakefield, porch]
 sequence_after: ogfh-03-18
+meta_description: "American porch wicker is a summer skin, not a winter skeleton. Heywood-Wakefield and its rivals made rattan and wicker porch furniture a national summer object. Wicker is a woven skin. It wants a… Staged BBF spoken draft."
+figure_id: diagrams.03-19-porch-wicker
+image_rights: documented
+image_pass: 2026-09-14
+featured_image: ../assets/_shared/series-featured.svg
 ---
+<!-- ogfh-figure:v1 -->
+<figure class="ogfh-figure ogfh-figure--diagram">
+  <img
+    src="../assets/diagrams/03-19-porch-wicker.svg"
+    alt="Editorial schematic for BBF outdoor furniture history: American porch wicker is a summer skin, not a winter skeleton"
+    width="880"
+    height="520"
+    loading="lazy"
+    decoding="async"
+  />
+  <figcaption><strong>Fig. 1.</strong> Heywood-Wakefield and its rivals made rattan and wicker porch furniture a national summer object. Wicker is a woven skin. It wants a roof, a dry winter, and a household that will not hose it like a driveway. <em>Rights:</em> Original editorial schematic; Keith Fritz / BBF outdoor-garden-furniture-history pack (see RIGHTS.md).</figcaption>
+</figure>
 
 Cyrus Wakefield figured out that a vine from across an ocean could furnish an American porch.
 

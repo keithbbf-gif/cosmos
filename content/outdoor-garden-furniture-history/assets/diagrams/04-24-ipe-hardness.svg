@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="520" viewBox="0 0 880 520" role="img">
+  <title>Ipe hardness and fasteners</title>
+  <desc>Dense deck board with screw callout.</desc>
+  <rect width="880" height="520" fill="#f8fafb"/>
+
+  <rect x="260" y="220" width="360" height="80" fill="#8b5a2b" stroke="#1f2933"/>
+  <circle cx="320" cy="260" r="8" fill="#64748b"/>
+  <circle cx="400" cy="260" r="8" fill="#64748b"/>
+  <circle cx="480" cy="260" r="8" fill="#64748b"/>
+    <text x="440" y="100" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#1f2933">HARDNESS TAX ON BITS & JOINTS</text>
+
+</svg>

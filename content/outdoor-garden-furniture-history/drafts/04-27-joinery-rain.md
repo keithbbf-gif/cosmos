@@ -11,7 +11,24 @@ standalone: true
 educational_claim: Outdoor wood joinery has to shed water, allow movement, and fail in a way you can maintain. Indoor brag joints — tight shoulders, trapped end grain, film inside a mortise — can become cisterns in the rain.
 topics: [materials, joinery, water, movement, outdoor-wood]
 sequence_after: ogfh-04-26
+meta_description: "A joint that holds a puddle is not a joint. It is a cistern. Outdoor wood joinery has to shed water, allow movement, and fail in a way you can maintain. Indoor brag joints — tight shoulders,… Staged BBF spoken draft."
+figure_id: diagrams.04-27-joinery-rain
+image_rights: documented
+image_pass: 2026-09-14
+featured_image: ../assets/_shared/series-featured.svg
 ---
+<!-- ogfh-figure:v1 -->
+<figure class="ogfh-figure ogfh-figure--diagram">
+  <img
+    src="../assets/diagrams/04-27-joinery-rain.svg"
+    alt="Editorial schematic for BBF outdoor furniture history: A joint that holds a puddle is not a joint. It is a cistern"
+    width="880"
+    height="520"
+    loading="lazy"
+    decoding="async"
+  />
+  <figcaption><strong>Fig. 1.</strong> Outdoor wood joinery has to shed water, allow movement, and fail in a way you can maintain. Indoor brag joints — tight shoulders, trapped end grain, film inside a mortise — can become cisterns in the rain. <em>Rights:</em> Original editorial schematic; Keith Fritz / BBF outdoor-garden-furniture-history pack (see RIGHTS.md).</figcaption>
+</figure>
 
 The prettiest shoulder I cut indoors can be a fool outdoors.
 

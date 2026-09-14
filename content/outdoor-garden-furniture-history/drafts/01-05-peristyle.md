@@ -11,7 +11,24 @@ standalone: true
 educational_claim: A Roman peristyle is a courtyard with a colonnade — shade, water, a floor, and seats that belong to the architecture. Most modern "outdoor rooms" are trying to buy a peristyle without building the colonnade.
 topics: [history, rome, peristyle, courtyard, shade]
 sequence_after: ogfh-00-04
+meta_description: "The peristyle is the first outdoor room that still makes sense. A Roman peristyle is a courtyard with a colonnade — shade, water, a floor, and seats that belong to the architecture. Most modern… Staged BBF spoken draft."
+figure_id: diagrams.01-05-peristyle
+image_rights: documented
+image_pass: 2026-09-14
+featured_image: ../assets/_shared/series-featured.svg
 ---
+<!-- ogfh-figure:v1 -->
+<figure class="ogfh-figure ogfh-figure--diagram">
+  <img
+    src="../assets/diagrams/01-05-peristyle.svg"
+    alt="Editorial schematic for BBF outdoor furniture history: The peristyle is the first outdoor room that still makes sense"
+    width="880"
+    height="520"
+    loading="lazy"
+    decoding="async"
+  />
+  <figcaption><strong>Fig. 1.</strong> A Roman peristyle is a courtyard with a colonnade — shade, water, a floor, and seats that belong to the architecture. Most modern "outdoor rooms" are trying to buy a peristyle without building the colonnade. <em>Rights:</em> Original editorial schematic; Keith Fritz / BBF outdoor-garden-furniture-history pack (see RIGHTS.md).</figcaption>
+</figure>
 
 Walk a Pompeian house in your head and stop in the hole of light.
 

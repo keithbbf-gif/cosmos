@@ -11,7 +11,24 @@ standalone: true
 educational_claim: Teak — Tectona grandis — carries natural oils and silica that made it a ship-deck wood. Garden furniture borrowed that habit. Silvering is what the surface does in sun. "Teak oil" is often a store can, not the tree.
 topics: [materials, teak, oil, silica, silvering]
 sequence_after: ogfh-03-21
+meta_description: "Teak is oil and silica, not a finish color. Teak — Tectona grandis — carries natural oils and silica that made it a ship-deck wood. Garden furniture borrowed that habit. Silvering… Staged BBF spoken draft."
+figure_id: diagrams.04-22-teak-oil-silica
+image_rights: documented
+image_pass: 2026-09-14
+featured_image: ../assets/_shared/series-featured.svg
 ---
+<!-- ogfh-figure:v1 -->
+<figure class="ogfh-figure ogfh-figure--diagram">
+  <img
+    src="../assets/diagrams/04-22-teak-oil-silica.svg"
+    alt="Editorial schematic for BBF outdoor furniture history: Teak is oil and silica, not a finish color"
+    width="880"
+    height="520"
+    loading="lazy"
+    decoding="async"
+  />
+  <figcaption><strong>Fig. 1.</strong> Teak — Tectona grandis — carries natural oils and silica that made it a ship-deck wood. Garden furniture borrowed that habit. Silvering is what the surface does in sun. "Teak oil" is often a store can, not the tree. <em>Rights:</em> Original editorial schematic; Keith Fritz / BBF outdoor-garden-furniture-history pack (see RIGHTS.md).</figcaption>
+</figure>
 
 The plane will tell you before the tag will.
 

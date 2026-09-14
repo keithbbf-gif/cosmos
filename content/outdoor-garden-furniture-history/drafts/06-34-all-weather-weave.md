@@ -11,7 +11,24 @@ standalone: true
 educational_claim: Resin wicker is an extruded polymer woven on a weather-worthy frame, usually aluminum. It can be a good patio skin. Ultraviolet still chalks it, heat still softens cheap strands, and the word wicker is borrowed.
 topics: [materials, resin, all-weather, ultraviolet, extrusion]
 sequence_after: ogfh-06-33
+meta_description: "All-weather weave is plastic with a memory of rattan. Resin wicker is an extruded polymer woven on a weather-worthy frame, usually aluminum. It can be a good patio skin. Ultraviolet still… Staged BBF spoken draft."
+figure_id: diagrams.06-34-all-weather-weave
+image_rights: documented
+image_pass: 2026-09-14
+featured_image: ../assets/_shared/series-featured.svg
 ---
+<!-- ogfh-figure:v1 -->
+<figure class="ogfh-figure ogfh-figure--diagram">
+  <img
+    src="../assets/diagrams/06-34-all-weather-weave.svg"
+    alt="Editorial schematic for BBF outdoor furniture history: All-weather weave is plastic with a memory of rattan"
+    width="880"
+    height="520"
+    loading="lazy"
+    decoding="async"
+  />
+  <figcaption><strong>Fig. 1.</strong> Resin wicker is an extruded polymer woven on a weather-worthy frame, usually aluminum. It can be a good patio skin. Ultraviolet still chalks it, heat still softens cheap strands, and the word wicker is borrowed. <em>Rights:</em> Original editorial schematic; Keith Fritz / BBF outdoor-garden-furniture-history pack (see RIGHTS.md).</figcaption>
+</figure>
 
 A die can imitate a vine. The sun will still find the polymer.
 

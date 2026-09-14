@@ -11,7 +11,24 @@ standalone: true
 educational_claim: Sling fabric and metal mesh drain. That is the job. Tension, UV hours, and the frame's attachment points decide whether the sit lasts or becomes a hammock and then a tear.
 topics: [materials, sling, mesh, drain, tension]
 sequence_after: ogfh-07-37
+meta_description: "Sling and mesh are seats that refuse to be a tray. Sling fabric and metal mesh drain. That is the job. Tension, UV hours, and the frame's attachment points decide whether the sit lasts or… Staged BBF spoken draft."
+figure_id: diagrams.07-38-sling-mesh
+image_rights: documented
+image_pass: 2026-09-14
+featured_image: ../assets/_shared/series-featured.svg
 ---
+<!-- ogfh-figure:v1 -->
+<figure class="ogfh-figure ogfh-figure--diagram">
+  <img
+    src="../assets/diagrams/07-38-sling-mesh.svg"
+    alt="Editorial schematic for BBF outdoor furniture history: Sling and mesh are seats that refuse to be a tray"
+    width="880"
+    height="520"
+    loading="lazy"
+    decoding="async"
+  />
+  <figcaption><strong>Fig. 1.</strong> Sling fabric and metal mesh drain. That is the job. Tension, UV hours, and the frame's attachment points decide whether the sit lasts or becomes a hammock and then a tear. <em>Rights:</em> Original editorial schematic; Keith Fritz / BBF outdoor-garden-furniture-history pack (see RIGHTS.md).</figcaption>
+</figure>
 
 Water should fall through you and keep going.
 

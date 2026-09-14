@@ -11,7 +11,24 @@ standalone: true
 educational_claim: Islamic courtyard sitting is a climate machine — water, shade, hard seats, low furniture — not a style board of lanterns. Copy the thermal job or you are buying a costume for a hot slab.
 topics: [history, courtyard, shade, water, climate]
 sequence_after: ogfh-01-06
+meta_description: "Shade is law — the courtyard that treated heat as the client. Islamic courtyard sitting is a climate machine — water, shade, hard seats, low furniture — not a style board of lanterns. Copy the… Staged BBF spoken draft."
+figure_id: diagrams.01-07-islamic-courtyard
+image_rights: documented
+image_pass: 2026-09-14
+featured_image: ../assets/_shared/series-featured.svg
 ---
+<!-- ogfh-figure:v1 -->
+<figure class="ogfh-figure ogfh-figure--diagram">
+  <img
+    src="../assets/diagrams/01-07-islamic-courtyard.svg"
+    alt="Editorial schematic for BBF outdoor furniture history: Shade is law — the courtyard that treated heat as the client"
+    width="880"
+    height="520"
+    loading="lazy"
+    decoding="async"
+  />
+  <figcaption><strong>Fig. 1.</strong> Islamic courtyard sitting is a climate machine — water, shade, hard seats, low furniture — not a style board of lanterns. Copy the thermal job or you are buying a costume for a hot slab. <em>Rights:</em> Original editorial schematic; Keith Fritz / BBF outdoor-garden-furniture-history pack (see RIGHTS.md).</figcaption>
+</figure>
 
 Heat is a more honest critic than taste.
 

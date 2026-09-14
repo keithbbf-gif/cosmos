@@ -11,7 +11,24 @@ standalone: true
 educational_claim: All-weather, teak, wrought iron, and patio set used to describe climate, a tree, a metal, and a grouping. After lifestyle copy, they often describe a feeling.
 topics: [frame, language, teak, wrought, all-weather]
 sequence_after: ogfh-00-03
+meta_description: "All-weather, teak, wrought, patio set — words that got stolen. All-weather, teak, wrought iron, and patio set used to describe climate, a tree, a metal, and a grouping. After lifestyle copy, they… Staged BBF spoken draft."
+figure_id: diagrams.00-04-stolen-words
+image_rights: documented
+image_pass: 2026-09-14
+featured_image: ../assets/_shared/series-featured.svg
 ---
+<!-- ogfh-figure:v1 -->
+<figure class="ogfh-figure ogfh-figure--diagram">
+  <img
+    src="../assets/diagrams/00-04-stolen-words.svg"
+    alt="Editorial schematic for BBF outdoor furniture history: All-weather, teak, wrought, patio set — words that got stolen"
+    width="880"
+    height="520"
+    loading="lazy"
+    decoding="async"
+  />
+  <figcaption><strong>Fig. 1.</strong> All-weather, teak, wrought iron, and patio set used to describe climate, a tree, a metal, and a grouping. After lifestyle copy, they often describe a feeling. <em>Rights:</em> Original editorial schematic; Keith Fritz / BBF outdoor-garden-furniture-history pack (see RIGHTS.md).</figcaption>
+</figure>
 
 Start with the words that got fat.
 

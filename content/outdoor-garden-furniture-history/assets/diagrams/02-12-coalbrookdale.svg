@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="520" viewBox="0 0 880 520" role="img">
+  <title>Cast iron garden seat pattern</title>
+  <desc>Victorian cast back with fern motif on foundry bench.</desc>
+  <rect width="880" height="520" fill="#f8fafb"/>
+
+  <path d="M200,360 L680,360" stroke="#1f2933" stroke-width="3"/>
+  <path d="M240,360 L240,220 Q440,120 640,220 L640,360" fill="none" stroke="#64748b" stroke-width="4"/>
+  <path d="M300,200 Q340,160 380,200 Q420,240 460,200" fill="none" stroke="#4d7c57" stroke-width="2"/>
+    <text x="440" y="80" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#1f2933">FERN IS A PATTERN PLATE</text>
+    <text x="440" y="420" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#52606d">Weight · rust · foundry — not woodland spirit</text>
+
+</svg>

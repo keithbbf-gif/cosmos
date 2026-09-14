@@ -11,7 +11,24 @@ standalone: true
 educational_claim: An outdoor cushion is foam and a textile with a zipper. It can make a hard sit possible. It cannot make a bad frame honest. Storage, drainage, and a cover that is not a greenhouse decide whether it lasts a season or a decade.
 topics: [materials, cushions, foam, textile, storage]
 sequence_after: ogfh-07-38
+meta_description: "Cushions are not furniture. They are a weather argument you can fold. An outdoor cushion is foam and a textile with a zipper. It can make a hard sit possible. It cannot make a bad frame honest. Storage,… Staged BBF spoken draft."
+figure_id: diagrams.07-39-cushions-not-furniture
+image_rights: documented
+image_pass: 2026-09-14
+featured_image: ../assets/_shared/series-featured.svg
 ---
+<!-- ogfh-figure:v1 -->
+<figure class="ogfh-figure ogfh-figure--diagram">
+  <img
+    src="../assets/diagrams/07-39-cushions-not-furniture.svg"
+    alt="Editorial schematic for BBF outdoor furniture history: Cushions are not furniture. They are a weather argument you can fold"
+    width="880"
+    height="520"
+    loading="lazy"
+    decoding="async"
+  />
+  <figcaption><strong>Fig. 1.</strong> An outdoor cushion is foam and a textile with a zipper. It can make a hard sit possible. It cannot make a bad frame honest. Storage, drainage, and a cover that is not a greenhouse decide whether it lasts a season or a decade. <em>Rights:</em> Original editorial schematic; Keith Fritz / BBF outdoor-garden-furniture-history pack (see RIGHTS.md).</figcaption>
+</figure>
 
 If the sit disappears when the cushion disappears, you bought a pillow with a chair attached.
 

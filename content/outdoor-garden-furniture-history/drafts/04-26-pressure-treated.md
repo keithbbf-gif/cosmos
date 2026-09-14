@@ -11,7 +11,24 @@ standalone: true
 educational_claim: Pressure-treated pine — CCA until the mid-2000s residential phaseout, then copper systems — is a preservative process. It can make a deck last. It does not automatically make a good chair, and the fasteners have to match the chemistry.
 topics: [materials, pressure-treated, cca, copper, fasteners]
 sequence_after: ogfh-04-25
+meta_description: "Pressure-treated is a chemical story, not a furniture species. Pressure-treated pine — CCA until the mid-2000s residential phaseout, then copper systems — is a preservative process. It can make a… Staged BBF spoken draft."
+figure_id: diagrams.04-26-pressure-treated
+image_rights: documented
+image_pass: 2026-09-14
+featured_image: ../assets/_shared/series-featured.svg
 ---
+<!-- ogfh-figure:v1 -->
+<figure class="ogfh-figure ogfh-figure--diagram">
+  <img
+    src="../assets/diagrams/04-26-pressure-treated.svg"
+    alt="Editorial schematic for BBF outdoor furniture history: Pressure-treated is a chemical story, not a furniture species"
+    width="880"
+    height="520"
+    loading="lazy"
+    decoding="async"
+  />
+  <figcaption><strong>Fig. 1.</strong> Pressure-treated pine — CCA until the mid-2000s residential phaseout, then copper systems — is a preservative process. It can make a deck last. It does not automatically make a good chair, and the fasteners have to match the chemistry. <em>Rights:</em> Original editorial schematic; Keith Fritz / BBF outdoor-garden-furniture-history pack (see RIGHTS.md).</figcaption>
+</figure>
 
 The tag on the end of the board is doing more work than the Latin.
 

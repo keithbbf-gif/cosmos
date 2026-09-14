@@ -11,7 +11,24 @@ standalone: true
 educational_claim: Rattan is a climbing palm used as poles and peel. It is strong for its weight and thirsty in weather. Porch history used it. Patio weather, untreated, will take it apart at the crossings.
 topics: [materials, rattan, vine, porch, moisture]
 sequence_after: ogfh-05-31
+meta_description: "Rattan is a vine, not a style, and it drinks. Rattan is a climbing palm used as poles and peel. It is strong for its weight and thirsty in weather. Porch history used it. Patio… Staged BBF spoken draft."
+figure_id: diagrams.06-32-rattan-vine
+image_rights: documented
+image_pass: 2026-09-14
+featured_image: ../assets/_shared/series-featured.svg
 ---
+<!-- ogfh-figure:v1 -->
+<figure class="ogfh-figure ogfh-figure--diagram">
+  <img
+    src="../assets/diagrams/06-32-rattan-vine.svg"
+    alt="Editorial schematic for BBF outdoor furniture history: Rattan is a vine, not a style, and it drinks"
+    width="880"
+    height="520"
+    loading="lazy"
+    decoding="async"
+  />
+  <figcaption><strong>Fig. 1.</strong> Rattan is a climbing palm used as poles and peel. It is strong for its weight and thirsty in weather. Porch history used it. Patio weather, untreated, will take it apart at the crossings. <em>Rights:</em> Original editorial schematic; Keith Fritz / BBF outdoor-garden-furniture-history pack (see RIGHTS.md).</figcaption>
+</figure>
 
 It grew by climbing, and it still wants to move.
 

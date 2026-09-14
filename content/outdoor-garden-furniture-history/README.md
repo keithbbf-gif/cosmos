@@ -57,9 +57,21 @@ This landing is **44 staged drafts**. Machine index: `MANIFEST.json`.
 - Not a building-code, accessibility, or structural-engineering brief. Local code and a licensed trade beat a furniture essay.
 - Not COSMOS kernel work. This folder is channel copy sitting in the repo so the drafts have a git home and a PR.
 
+## IMAGE+SEO (editor lane)
+
+Original **SVG teaching figures** (no AI faces, no lifestyle portraits) with per-draft `meta_description`, `figure_id`, and `<figure class="ogfh-figure">` blocks. Rights register: `RIGHTS.md`. Asset map: `GRAPHICS_INDEX.md`.
+
+Regenerate assets and embeds:
+
+```bash
+python3 content/outdoor-garden-furniture-history/_editorial/generate_diagrams.py
+python3 content/outdoor-garden-furniture-history/_editorial/embed_figures.py
+```
+
 ## Check the set
 
 ```bash
 python3 content/outdoor-garden-furniture-history/validate_staging.py
 python3 content/outdoor-garden-furniture-history/validate_staging.py --write-manifest
+python3 content/outdoor-garden-furniture-history/validate_image_seo.py
 ```

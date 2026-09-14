@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="520" viewBox="0 0 880 520" role="img">
+  <title>Postwar aluminum stacking chairs</title>
+  <desc>Light tubular aluminum chairs that stack.</desc>
+  <rect width="880" height="520" fill="#f8fafb"/>
+
+  <rect x="280" y="300" width="60" height="6" fill="#64748b" stroke="#1f2933"/>
+  <rect x="360" y="290" width="60" height="6" fill="#64748b" stroke="#1f2933"/>
+  <rect x="440" y="280" width="60" height="6" fill="#64748b" stroke="#1f2933"/>
+  <line x1="300" y1="306" x2="300" y2="360" stroke="#64748b" stroke-width="3"/>
+  <line x1="380" y1="296" x2="380" y2="350" stroke="#64748b" stroke-width="3"/>
+  <line x1="460" y1="286" x2="460" y2="340" stroke="#64748b" stroke-width="3"/>
+    <text x="440" y="80" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#1f2933">STACK · LIGHT · HEAT</text>
+
+</svg>

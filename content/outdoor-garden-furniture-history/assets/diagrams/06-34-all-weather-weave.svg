@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="520" viewBox="0 0 880 520" role="img">
+  <title>Resin wicker on aluminum frame</title>
+  <desc>Extruded polymer weave on outdoor frame.</desc>
+  <rect width="880" height="520" fill="#f8fafb"/>
+
+  <rect x="320" y="240" width="240" height="80" fill="none" stroke="#64748b" stroke-width="3"/>
+  <ellipse cx="380" cy="280" rx="30" ry="15" fill="none" stroke="#94a3b8" stroke-width="3"/>
+  <ellipse cx="440" cy="280" rx="30" ry="15" fill="none" stroke="#94a3b8" stroke-width="3"/>
+  <ellipse cx="500" cy="280" rx="30" ry="15" fill="none" stroke="#94a3b8" stroke-width="3"/>
+    <text x="440" y="80" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#1f2933">PLASTIC WITH A MEMORY OF RATTAN</text>
+
+</svg>

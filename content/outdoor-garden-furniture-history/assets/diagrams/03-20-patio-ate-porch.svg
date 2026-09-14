@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="520" viewBox="0 0 880 520" role="img">
+  <title>Patio slab without porch roof</title>
+  <desc>Backyard slab with sky-exposed seating.</desc>
+  <rect width="880" height="520" fill="#f8fafb"/>
+
+  <rect x="200" y="280" width="480" height="120" fill="#cbd5e1" stroke="#1f2933"/>
+  <rect x="120" y="200" width="80" height="160" fill="#f1f5f9" stroke="#1f2933" opacity="0.4"/>
+    <text x="160" y="190" text-anchor="middle" font-family="system-ui,sans-serif" font-size="9" fill="#52606d">porch (empty)</text>
+  <rect x="360" y="240" width="160" height="40" fill="#64748b" stroke="#1f2933"/>
+    <text x="440" y="80" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#1f2933">SKY FURNITURE ON A SLAB</text>
+
+</svg>

@@ -11,7 +11,24 @@ standalone: true
 educational_claim: Western red cedar and bald cypress carry extractives that resist rot relative to pine. They are still woods. They dent, they weather, they need detail. Smell is not a structural grade.
 topics: [materials, cedar, cypress, extractives, american-woods]
 sequence_after: ogfh-04-22
+meta_description: "Cedar and cypress are the American outdoor woods that already voted. Western red cedar and bald cypress carry extractives that resist rot relative to pine. They are still woods. They dent, they weather,… Staged BBF spoken draft."
+figure_id: diagrams.04-23-cedar-cypress
+image_rights: documented
+image_pass: 2026-09-14
+featured_image: ../assets/_shared/series-featured.svg
 ---
+<!-- ogfh-figure:v1 -->
+<figure class="ogfh-figure ogfh-figure--diagram">
+  <img
+    src="../assets/diagrams/04-23-cedar-cypress.svg"
+    alt="Editorial schematic for BBF outdoor furniture history: Cedar and cypress are the American outdoor woods that already voted"
+    width="880"
+    height="520"
+    loading="lazy"
+    decoding="async"
+  />
+  <figcaption><strong>Fig. 1.</strong> Western red cedar and bald cypress carry extractives that resist rot relative to pine. They are still woods. They dent, they weather, they need detail. Smell is not a structural grade. <em>Rights:</em> Original editorial schematic; Keith Fritz / BBF outdoor-garden-furniture-history pack (see RIGHTS.md).</figcaption>
+</figure>
 
 Some trees show up already arguing with fungi.
 

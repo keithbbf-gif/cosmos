@@ -11,7 +11,24 @@ standalone: true
 educational_claim: Twentieth-century garden concrete — benches, tables, planters — is a mix, a reinforcement, and a freeze calendar. It can be honest modern outdoor furniture. Hairline cracks and rust bleed from rebar are part of the material, not a surprise plot twist.
 topics: [materials, concrete, rebar, freeze, modern]
 sequence_after: ogfh-07-36
+meta_description: "Concrete wanted to be democratic stone and sometimes it spalled. Twentieth-century garden concrete — benches, tables, planters — is a mix, a reinforcement, and a freeze calendar. It can be honest… Staged BBF spoken draft."
+figure_id: diagrams.07-37-concrete
+image_rights: documented
+image_pass: 2026-09-14
+featured_image: ../assets/_shared/series-featured.svg
 ---
+<!-- ogfh-figure:v1 -->
+<figure class="ogfh-figure ogfh-figure--diagram">
+  <img
+    src="../assets/diagrams/07-37-concrete.svg"
+    alt="Editorial schematic for BBF outdoor furniture history: Concrete wanted to be democratic stone and sometimes it spalled"
+    width="880"
+    height="520"
+    loading="lazy"
+    decoding="async"
+  />
+  <figcaption><strong>Fig. 1.</strong> Twentieth-century garden concrete — benches, tables, planters — is a mix, a reinforcement, and a freeze calendar. It can be honest modern outdoor furniture. Hairline cracks and rust bleed from rebar are part of the material, not a surprise plot twist. <em>Rights:</em> Original editorial schematic; Keith Fritz / BBF outdoor-garden-furniture-history pack (see RIGHTS.md).</figcaption>
+</figure>
 
 A mix is not a rock. It is a recipe.
 

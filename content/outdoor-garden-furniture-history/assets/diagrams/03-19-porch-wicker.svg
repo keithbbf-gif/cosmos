@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="520" viewBox="0 0 880 520" role="img">
+  <title>Porch wicker needs a roof</title>
+  <desc>Woven skin chair under porch versus rain.</desc>
+  <rect width="880" height="520" fill="#f8fafb"/>
+
+  <polygon points="200,160 680,160 700,200 180,200" fill="#e2e8f0" stroke="#1f2933"/>
+  <ellipse cx="360" cy="300" rx="100" ry="80" fill="none" stroke="#b45309" stroke-width="2"/>
+  <path d="M320,280 Q360,320 400,280" fill="none" stroke="#b45309"/>
+  <path d="M520,120 L540,320" stroke="#3b82f6" stroke-width="3"/>
+    <text x="360" y="400" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#1f2933">Wicker under roof</text>
+    <text x="600" y="400" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#52606d">Rain on patio</text>
+
+</svg>

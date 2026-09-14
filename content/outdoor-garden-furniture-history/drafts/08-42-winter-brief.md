@@ -11,7 +11,24 @@ standalone: true
 educational_claim: Freeze, covers, stacking, and storage are part of the object. A piece that cannot be left, stacked, or stored was specified for a climate the household does not have. Draw January in September.
 topics: [shop, winter, freeze, covers, storage]
 sequence_after: ogfh-08-41
+meta_description: "Winter is a design brief, not a surprise in March. Freeze, covers, stacking, and storage are part of the object. A piece that cannot be left, stacked, or stored was specified for a… Staged BBF spoken draft."
+figure_id: diagrams.08-42-winter-brief
+image_rights: documented
+image_pass: 2026-09-14
+featured_image: ../assets/_shared/series-featured.svg
 ---
+<!-- ogfh-figure:v1 -->
+<figure class="ogfh-figure ogfh-figure--diagram">
+  <img
+    src="../assets/diagrams/08-42-winter-brief.svg"
+    alt="Editorial schematic for BBF outdoor furniture history: Winter is a design brief, not a surprise in March"
+    width="880"
+    height="520"
+    loading="lazy"
+    decoding="async"
+  />
+  <figcaption><strong>Fig. 1.</strong> Freeze, covers, stacking, and storage are part of the object. A piece that cannot be left, stacked, or stored was specified for a climate the household does not have. Draw January in September. <em>Rights:</em> Original editorial schematic; Keith Fritz / BBF outdoor-garden-furniture-history pack (see RIGHTS.md).</figcaption>
+</figure>
 
 Draw the snow on the seat while you still have a choice.
 

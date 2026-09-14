@@ -11,7 +11,24 @@ standalone: true
 educational_claim: Midcentury American houses moved sitting to a backyard slab or deck — the patio — while air conditioning emptied the front porch. Patio furniture is sky furniture. Trying to reproduce a full living room on that slab is how cushions and films die.
 topics: [history, patio, ranch, deck, midcentury]
 sequence_after: ogfh-03-19
+meta_description: "The patio ate the porch and then asked for a living room. Midcentury American houses moved sitting to a backyard slab or deck — the patio — while air conditioning emptied the front porch. Patio… Staged BBF spoken draft."
+figure_id: diagrams.03-20-patio-ate-porch
+image_rights: documented
+image_pass: 2026-09-14
+featured_image: ../assets/_shared/series-featured.svg
 ---
+<!-- ogfh-figure:v1 -->
+<figure class="ogfh-figure ogfh-figure--diagram">
+  <img
+    src="../assets/diagrams/03-20-patio-ate-porch.svg"
+    alt="Editorial schematic for BBF outdoor furniture history: The patio ate the porch and then asked for a living room"
+    width="880"
+    height="520"
+    loading="lazy"
+    decoding="async"
+  />
+  <figcaption><strong>Fig. 1.</strong> Midcentury American houses moved sitting to a backyard slab or deck — the patio — while air conditioning emptied the front porch. Patio furniture is sky furniture. Trying to reproduce a full living room on that slab is how cushions and films die. <em>Rights:</em> Original editorial schematic; Keith Fritz / BBF outdoor-garden-furniture-history pack (see RIGHTS.md).</figcaption>
+</figure>
 
 The party went around back, and the roof did not always follow.
 
