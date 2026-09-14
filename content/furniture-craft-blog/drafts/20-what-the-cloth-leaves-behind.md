@@ -27,6 +27,20 @@ optional_links:
 verify:
   - "House finish schedules by line — do not name a product as standard without the shop card [VERIFY]"
   - "Flexner / Jewitt claims on 'breathing' — treat as common finishing knowledge, not a lab report"
+graphics:
+  - asset_slug: oil-finish-maintenance
+    path: assets/oil-finish-maintenance/finish-comparison.svg
+    alt: "Oil finish refresh cycle"
+    caption: "Light wipe coat when water no longer beads."
+graphics:
+  - asset_slug: oil-finish-maintenance
+    path: assets/oil-finish-maintenance/finish-comparison.svg
+    alt: "Oil finish refresh cycle"
+    caption: "Light wipe coat when water no longer beads."
+  - asset_slug: finishing-outdoor-furniture
+    path: assets/finishing-outdoor-furniture/finish-comparison.svg
+    alt: "Outdoor finish refresh"
+    caption: "Annual light coat beats thick build that peels."
 ---
 
 The cloth comes up darker than it went down, cherry dust and oil, and the board looks wet in a way that will dry back and then, over months, go the other way — deeper, warmer, the color cherry is famous for and that no stain quite fakes. I wipe the excess. If I leave it, I have a sticky table and a customer who thinks oil is a scam.
@@ -34,6 +48,17 @@ The cloth comes up darker than it went down, cherry dust and oil, and the board 
 A film finish — varnish, lacquer, conversion, a waterborne that actually works — sits on the wood as a coat you can dent with a fingernail and, if you built it, rub to a glow that looks like a piano or like a satin that does not show every thumb. It is a different contract. The oil contract is: I will look like wood, I will take a water ring, I will repair with another cloth. The film contract is: I will keep the ring off the fibers longer, I will scratch as a coat, I will repair as a coat.
 
 I do not think one is holier. I think a dining top in a house of glasses wants a film, or an oil-varnish blend that is closer to a film than the catalog word “oil” admits. I think a walnut chest that will be touched and waxed for thirty years wants oil or shellac and wax. I think a kitchen island with a granite neighbor and a raw-wood boast wants an honest film on the wood doors and an honest conversation about the top.
+
+<figure class="craft-figure">
+  <img src="../assets/oil-finish-maintenance/finish-comparison.svg" alt="Oil finish refresh cycle" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Light wipe coat when water no longer beads.</figcaption>
+</figure>
+
+
+<figure class="craft-figure">
+  <img src="../assets/finishing-outdoor-furniture/finish-comparison.svg" alt="Outdoor finish refresh" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Annual light coat beats thick build that peels.</figcaption>
+</figure>
 
 ## What “oil” usually is
 

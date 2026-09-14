@@ -20,11 +20,40 @@ optional_links:
     use: footnote-only
 verify:
   - "Chair lines that are shaped vs turned — confirm which series uses a shave [VERIFY]"
+graphics:
+  - asset_slug: curved-apron-template
+    path: assets/curved-apron-template/process-flow.svg
+    alt: "Template routing path"
+    caption: "Pattern bit follows template; climb cuts on exit only with care."
+  - asset_slug: carving-gouge-grind
+    path: assets/carving-gouge-grind/tool-layout.svg
+    alt: "Gouge bevel profile"
+    caption: "Outside bevel sets depth; inside bevel aids tight curves."
+graphics:
+  - asset_slug: curved-apron-template
+    path: assets/curved-apron-template/process-flow.svg
+    alt: "Template routing path"
+    caption: "Pattern bit follows template; climb cuts on exit only with care."
+  - asset_slug: carving-gouge-grind
+    path: assets/carving-gouge-grind/tool-layout.svg
+    alt: "Gouge bevel profile"
+    caption: "Outside bevel sets depth; inside bevel aids tight curves."
 ---
 
 The spokeshave is a short plane with handles that teach you, immediately, whether you are cutting or tearing. I start at the high spot of a cabriole knee, or at the long fair of a back post, and I listen for the hiss. When the hiss becomes a chatter, I have gone uphill, or the iron is proud at a corner, or I am taking too much, or the wood has a knot that I should have seen in the blank.
 
 Chairs are full of curves because bodies are. Machines can rough them: a bandsaw, a spindle sander, a lathe if the leg is a turning. The shave, a rasp, a spokeshave’s cousin the drawknife on green work — those are how the curve becomes a line you meant. A spindle sander left alone will leave a series of flats that finish will read as a cheap faceting. The shave blends the flats into a fair.
+
+<figure class="craft-figure">
+  <img src="../assets/curved-apron-template/process-flow.svg" alt="Template routing path" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Pattern bit follows template; climb cuts on exit only with care.</figcaption>
+</figure>
+
+
+<figure class="craft-figure">
+  <img src="../assets/carving-gouge-grind/tool-layout.svg" alt="Gouge bevel profile" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Outside bevel sets depth; inside bevel aids tight curves.</figcaption>
+</figure>
 
 ## Flat, round, concave
 

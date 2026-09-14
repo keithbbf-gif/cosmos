@@ -21,11 +21,26 @@ optional_links:
 verify:
   - "Steam time per thickness — treat as shop-specific; FPL notes exist; do not print a universal minute-per-inch as law [VERIFY]"
   - "Michael Fortune / FPL bending practice — attitudinal; cite if a number is used"
+graphics:
+  - asset_slug: steam-bending-form
+    path: assets/steam-bending-form/process-flow.svg
+    alt: "Steam bend cooling"
+    caption: "Strap compresses outside; stay on form until cool."
+graphics:
+  - asset_slug: steam-bending-form
+    path: assets/steam-bending-form/process-flow.svg
+    alt: "Steam bend cooling"
+    caption: "Strap compresses outside; stay on form until cool."
 ---
 
 The slat comes out of the box in a cloud and it is heavier than it was, limp in a way dry oak never is, and you have seconds that feel like they should be minutes. The strap goes on the outside of the bend. The slat finds the form. The clamps close from the middle out, or from the end if that is the form you built, and you do not stop to admire the steam. The steam is already leaving. What stays is a bend that will try to remember it was straight.
 
 Springback is not a failure. It is the wood saying it is still wood. You overbend by an amount you learned on a scrap of the same lot, or you leave it on the form until it is dry and it still moves a little when you take it off. If you fight springback with a dry clamp in the assembled chair, you are storing a split.
+
+<figure class="craft-figure">
+  <img src="../assets/steam-bending-form/process-flow.svg" alt="Steam bend cooling" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Strap compresses outside; stay on form until cool.</figcaption>
+</figure>
 
 ## What steam does
 

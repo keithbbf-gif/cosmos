@@ -27,11 +27,40 @@ optional_links:
 verify:
   - "This essay is culture, not a substitute for OSHA, machine manuals, or local code"
   - "Do not invent a shop incident; none is quoted here"
+graphics:
+  - asset_slug: table-saw-fence-check
+    path: assets/table-saw-fence-check/tool-layout.svg
+    alt: "Fence alignment check"
+    caption: "Same gap at front and rear of blade plate."
+  - asset_slug: shop-dust-collection-layout
+    path: assets/shop-dust-collection-layout/tool-layout.svg
+    alt: "Dust trunk layout"
+    caption: "Main trunk + branches; blast gate at each machine."
+graphics:
+  - asset_slug: table-saw-fence-check
+    path: assets/table-saw-fence-check/tool-layout.svg
+    alt: "Fence alignment check"
+    caption: "Same gap at front and rear of blade plate."
+  - asset_slug: shop-dust-collection-layout
+    path: assets/shop-dust-collection-layout/tool-layout.svg
+    alt: "Dust trunk layout"
+    caption: "Main trunk + branches; blast gate at each machine."
 ---
 
 I stand at the saw and I look at the floor before I look at the fence. A cutoff on the floor is a roll waiting for a foot. A push stick on a hook twenty feet away is a hand that will get invited. The riving knife is on, or I do not start. This is not bravery. This is the thirty seconds that keep the rest of the day ordinary.
 
 I am not a safety officer and this is not a manual. Machines have manuals. Dust has rules. Finish rags have a chemistry that does not care about your experience. What I can write is the culture that makes those rules feel like the work instead of a laminated sheet that no one reads.
+
+<figure class="craft-figure">
+  <img src="../assets/table-saw-fence-check/tool-layout.svg" alt="Fence alignment check" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Same gap at front and rear of blade plate.</figcaption>
+</figure>
+
+
+<figure class="craft-figure">
+  <img src="../assets/shop-dust-collection-layout/tool-layout.svg" alt="Dust trunk layout" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Main trunk + branches; blast gate at each machine.</figcaption>
+</figure>
 
 ## The pause is the device
 

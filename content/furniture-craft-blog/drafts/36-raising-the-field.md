@@ -20,11 +20,36 @@ optional_links:
     use: footnote-only
 verify:
   - "Cutter set / raise angle on house doors [VERIFY]"
+graphics:
+  - asset_slug: case-dry-fit
+    path: assets/case-dry-fit/process-flow.svg
+    alt: "Dry-fit gate"
+    caption: "No glue until square repeats twice and hardware clears."
+graphics:
+  - asset_slug: case-dry-fit
+    path: assets/case-dry-fit/process-flow.svg
+    alt: "Dry-fit gate"
+    caption: "No glue until square repeats twice and hardware clears."
+  - asset_slug: torsion-box-shelf
+    path: assets/torsion-box-shelf/joinery-diagram.svg
+    alt: "Torsion box section"
+    caption: "Top and bottom skins glued to grid; edges capture square."
 ---
 
 The panel comes off the raise head and the field is a tabletop in miniature, a bevel that catches the light, a shoulder that will sit under the sticking of the frame. I run a thumb from field to bevel. If I catch a ridge, the knives were not in the same world, or I fed a cupped panel, or I took a second pass that did not quite meet the first.
 
 Raised panels are how a wide board becomes a door without becoming a slab. The raise is not decoration first. It is a thinning of the edge so the panel can live in a groove, and a leaving of thickness in the field so the door has a face. The light on the bevel is the bonus that sold a hundred kitchen catalogs.
+
+<figure class="craft-figure">
+  <img src="../assets/case-dry-fit/process-flow.svg" alt="Dry-fit gate" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> No glue until square repeats twice and hardware clears.</figcaption>
+</figure>
+
+
+<figure class="craft-figure">
+  <img src="../assets/torsion-box-shelf/joinery-diagram.svg" alt="Torsion box section" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Top and bottom skins glued to grid; edges capture square.</figcaption>
+</figure>
 
 ## Flat, bevel, the shoulder
 

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-labelledby="title desc">
+  <title id="title">Half-blind dovetail layout</title>
+  <desc id="desc">Baseline and slope lines before any saw cut.</desc>
+  <rect width="100%" height="100%" fill="#F7F3E8"/>
+  <text x="32" y="44" fill="#1A1A1A" font-family="Georgia, serif" font-size="20" font-weight="600">Half-blind dovetail layout</text>
+  <rect x="24" y="64" width="592" height="332" fill="none" stroke="#D4C9B0" stroke-width="1"/>
+  <polygon points="140,320 180,260 220,320" fill="none" stroke="#1A1A1A" stroke-width="2.5"/>
+  <polygon points="220,320 260,260 300,320" fill="none" stroke="#1A1A1A" stroke-width="2.5"/>
+  <line x1="120" y1="340" x2="520" y2="340" stroke="#8B4513" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="124" y="332" fill="#8B4513" font-family="Helvetica, Arial, sans-serif" font-size="12">baseline</text>
+</svg>

@@ -20,11 +20,26 @@ optional_links:
     use: footnote-only
 verify:
   - "None beyond shop cutter rotation / climb-cut policy for routers"
+graphics:
+  - asset_slug: reading-grain-for-planing
+    path: assets/reading-grain-for-planing/process-flow.svg
+    alt: "Grain direction arrows"
+    caption: "Cathedral opens toward you = often downhill on face."
+graphics:
+  - asset_slug: reading-grain-for-planing
+    path: assets/reading-grain-for-planing/process-flow.svg
+    alt: "Grain direction arrows"
+    caption: "Cathedral opens toward you = often downhill on face."
 ---
 
 The jointer takes a bite and the oak comes off in chunks, not shavings, a crater in the cathedral’s valley. I know before I turn the board over. I turned it the wrong way, or there was no right way, because this board is two grain directions in one face, which is what a cathedral is. I can keep going and make a deeper crater, or I can flip, take a lighter cut, close the cap iron, scrape the valley, and stop pretending the machine is a moral authority.
 
 Tearout is fibers lifted ahead of the cutter and broken below the line you wanted. It happens on a plane, a jointer, a planer, a router, a shaper, a tablesaw that is dull. The fix is direction, sharpness, a smaller bite, a different cutter geometry, or a different tool. The fix is not “sand until the crater is a valley.” That sanding is how a flat becomes a dish.
+
+<figure class="craft-figure">
+  <img src="../assets/reading-grain-for-planing/process-flow.svg" alt="Grain direction arrows" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Cathedral opens toward you = often downhill on face.</figcaption>
+</figure>
 
 ## Reading the edge
 

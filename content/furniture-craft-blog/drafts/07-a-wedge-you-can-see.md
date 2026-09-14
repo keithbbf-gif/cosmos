@@ -26,11 +26,26 @@ optional_links:
     use: footnote-only
 verify:
   - "House preference for fox-wedge vs through-wedge on hidden work [VERIFY]"
+graphics:
+  - asset_slug: repair-loose-chair-wedged-tenon
+    path: assets/repair-loose-chair-wedged-tenon/joinery-diagram.svg
+    alt: "Wedged through-tenon"
+    caption: "Wedge spreads tenon in mortise; orient wedge across grain."
+graphics:
+  - asset_slug: repair-loose-chair-wedged-tenon
+    path: assets/repair-loose-chair-wedged-tenon/joinery-diagram.svg
+    alt: "Wedged through-tenon"
+    caption: "Wedge spreads tenon in mortise; orient wedge across grain."
 ---
 
 The wedge makes a sound when it goes — not a crack, a rising tightness, like a jar lid that has found its thread. I stop before the sound gets bright. The through-tenon has come through the mortise, the kerfs have opened, and the tenon cheeks have pressed into the mortise walls as if the joint had grown a pair of shoulders inside the hole. Glue is in there. The wedge would still do something if the glue were a rumor.
 
 I leave the tenon proud a little, then plane it flush with the wedge after the glue has set. You can read the joint. You can also read whether I rushed the kerf.
+
+<figure class="craft-figure">
+  <img src="../assets/repair-loose-chair-wedged-tenon/joinery-diagram.svg" alt="Wedged through-tenon" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Wedge spreads tenon in mortise; orient wedge across grain.</figcaption>
+</figure>
 
 ## Why through, why wedged
 

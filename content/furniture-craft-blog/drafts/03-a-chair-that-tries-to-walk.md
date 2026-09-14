@@ -27,11 +27,26 @@ optional_links:
 verify:
   - "Any numbered rake or stretch angle should be checked against a shop drawing before print [VERIFY]"
   - "Brian Boggs / Moser geometry references are attitudinal here; do not attribute unpublished shop numbers"
+graphics:
+  - asset_slug: repair-loose-chair-wedged-tenon
+    path: assets/repair-loose-chair-wedged-tenon/joinery-diagram.svg
+    alt: "Wedged through-tenon"
+    caption: "Wedge spreads tenon in mortise; orient wedge across grain."
+graphics:
+  - asset_slug: repair-loose-chair-wedged-tenon
+    path: assets/repair-loose-chair-wedged-tenon/joinery-diagram.svg
+    alt: "Wedged through-tenon"
+    caption: "Wedge spreads tenon in mortise; orient wedge across grain."
 ---
 
 I set the unfinished side chair on the concrete and put a hand on the crest and a foot, lightly, on the front rail like a customer who will never admit they do this. The chair tried to walk. Not a step — a rack. The rectangle of the front elevation became a whisper of a diamond, then came back. The tenons in that front rail are the whole day. If they are dowels, the day is shorter than you think.
 
 A table can hide a timid joint under a top. A chair cannot. A chair is a stick diagram that people trust with their whole weight, then they lean back, then they scoot, then a teenager rocks onto the back legs because no one has ever successfully forbidden it. Joinery that survives that is not “better craftsmanship” as a slogan. It is geometry plus long-grain glue plus a mechanical lock when you can get one.
+
+<figure class="craft-figure">
+  <img src="../assets/repair-loose-chair-wedged-tenon/joinery-diagram.svg" alt="Wedged through-tenon" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Wedge spreads tenon in mortise; orient wedge across grain.</figcaption>
+</figure>
 
 ## The loads are not polite
 

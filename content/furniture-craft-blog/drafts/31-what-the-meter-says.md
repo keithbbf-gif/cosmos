@@ -21,11 +21,26 @@ optional_links:
 verify:
   - "House target MC for interior casework and chairs [VERIFY] — do not print a single number as law"
   - "Meter calibration and species correction — follow the meter’s card"
+graphics:
+  - asset_slug: lumber-milling-order
+    path: assets/lumber-milling-order/process-flow.svg
+    alt: "Mill four-square sequence"
+    caption: "Face → edge 90° → rip width → thickness to gauge."
+graphics:
+  - asset_slug: lumber-milling-order
+    path: assets/lumber-milling-order/process-flow.svg
+    alt: "Mill four-square sequence"
+    caption: "Face → edge 90° → rip width → thickness to gauge."
 ---
 
 The board has been in the shop for a week and it feels like furniture. The meter says it does not. I take three readings, I avoid a knot, I go past the end grain that always lies a little, and I write the numbers on the edge in pencil. If the core is wet and the shell is dry, I have a board that will move after I have been clever. I put it back on sticks. I do not argue with a number I asked for.
 
 Moisture content is the quiet half of joinery. A perfect tenon in wet oak is a loose tenon in January. A drawer fitted in a wet week is a drawer that will not open in a wetter week, or a drawer that is sloppy when the heat comes on, depending on which way you guessed.
+
+<figure class="craft-figure">
+  <img src="../assets/lumber-milling-order/process-flow.svg" alt="Mill four-square sequence" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Face → edge 90° → rip width → thickness to gauge.</figcaption>
+</figure>
 
 ## What the number is
 

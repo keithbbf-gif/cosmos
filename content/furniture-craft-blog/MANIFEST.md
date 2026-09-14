@@ -57,7 +57,12 @@ Body-copy word counts (front matter excluded). Counted after the last self-edit.
 - `INDEX.md`
 - `BIBLIOGRAPHY.md`
 - `PHOTO_CAPTIONS.md`
+- `PHOTO_MANIFEST.md`
+- `GRAPHICS_INDEX.md`
+- `GRAPHIC_MAP.yaml`
+- `MERGE_REPORT.md`
 - `WP_IMPORT.md`
 - `MANIFEST.md`
+- `assets/` (45 SVG diagrams)
 - `drafts/01`–`drafts/44`
 

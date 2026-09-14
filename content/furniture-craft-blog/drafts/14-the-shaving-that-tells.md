@@ -20,11 +20,36 @@ optional_links:
     use: footnote-only
 verify:
   - "Which bench planes actually live on the Wilmar wall — do not invent a set [VERIFY]"
+graphics:
+  - asset_slug: hand-plane-setup
+    path: assets/hand-plane-setup/tool-layout.svg
+    alt: "Bench plane iron assembly"
+    caption: "Cap iron ~0.5–1 mm behind cutting edge for general work."
+graphics:
+  - asset_slug: hand-plane-setup
+    path: assets/hand-plane-setup/tool-layout.svg
+    alt: "Bench plane iron assembly"
+    caption: "Cap iron ~0.5–1 mm behind cutting edge for general work."
+  - asset_slug: block-plane-use
+    path: assets/block-plane-use/tool-layout.svg
+    alt: "Block plane cut direction"
+    caption: "Plane into the uphill grain on end grain."
 ---
 
 The first pass after lunch is always a little worse. The iron has picked up a nick from a glue line I should have scraped, or my hands are thinking about the invoice. I stop. I look at the shaving. If it is torn, if it is dust, if it is a thick ribbon from the middle and nothing at the edges, the plane is telling me the same things it always tells: mouth, camber, depth, grain direction, a cap iron that is too far from the edge for this board.
 
 I can run that top through a wide-belt and have a thickness in a minute. I often do. The wide-belt does not read the grain. It leaves a surface that is technically flat and optically busy, scratches in a direction that finish will light up. The last pass with a plane, or a scraper, is how I decide what the room will see at 4 p.m. when the light comes in low.
+
+<figure class="craft-figure">
+  <img src="../assets/hand-plane-setup/tool-layout.svg" alt="Bench plane iron assembly" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Cap iron ~0.5–1 mm behind cutting edge for general work.</figcaption>
+</figure>
+
+
+<figure class="craft-figure">
+  <img src="../assets/block-plane-use/tool-layout.svg" alt="Block plane cut direction" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Plane into the uphill grain on end grain.</figcaption>
+</figure>
 
 ## What the plane is for in a shop that has machines
 

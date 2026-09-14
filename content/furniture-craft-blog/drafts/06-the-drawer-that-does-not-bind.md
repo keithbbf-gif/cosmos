@@ -26,11 +26,40 @@ optional_links:
     use: footnote-only
 verify:
   - "Side-to-opening clearance used on a given case line — confirm before printing a fraction [VERIFY]"
+graphics:
+  - asset_slug: drawer-fit-shimming
+    path: assets/drawer-fit-shimming/joinery-diagram.svg
+    alt: "Drawer side clearance"
+    caption: "1–2 mm total side play; front reveal even left-right."
+  - asset_slug: seasonal-gaps-in-drawers
+    path: assets/seasonal-gaps-in-drawers/joinery-diagram.svg
+    alt: "Drawer in summer vs winter"
+    caption: "Size for mid-RH; runners take up slack."
+graphics:
+  - asset_slug: drawer-fit-shimming
+    path: assets/drawer-fit-shimming/joinery-diagram.svg
+    alt: "Drawer side clearance"
+    caption: "1–2 mm total side play; front reveal even left-right."
+  - asset_slug: seasonal-gaps-in-drawers
+    path: assets/seasonal-gaps-in-drawers/joinery-diagram.svg
+    alt: "Drawer in summer vs winter"
+    caption: "Size for mid-RH; runners take up slack."
 ---
 
 The drawer that binds does not bind in the photograph. It binds on a Saturday in June when the air is thick and the guest bedroom has been closed. You pull. The side swells against the runner, or the bottom has humped and kisses the dust panel, or the back is high because someone measured the opening and then built the box as if wood were aluminum.
 
 I have a little hornwood stick I use as a feeler. If I cannot run it along the top of the drawer side in the opening, I am not done, even if the drawer looks tight and expensive. Tight is not the same as fitted.
+
+<figure class="craft-figure">
+  <img src="../assets/drawer-fit-shimming/joinery-diagram.svg" alt="Drawer side clearance" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> 1–2 mm total side play; front reveal even left-right.</figcaption>
+</figure>
+
+
+<figure class="craft-figure">
+  <img src="../assets/seasonal-gaps-in-drawers/joinery-diagram.svg" alt="Drawer in summer vs winter" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Size for mid-RH; runners take up slack.</figcaption>
+</figure>
 
 ## The box is a climate object
 

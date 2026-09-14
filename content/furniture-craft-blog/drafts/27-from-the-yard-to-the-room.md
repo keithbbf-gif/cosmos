@@ -31,6 +31,16 @@ verify:
   - "Potlatch purchase ~1956–58: Bradham / county sources [VERIFY year in the sentence you keep]"
   - "2008 LLC date is directory-level [VERIFY against filing if used as legal history]"
   - "Sanborn Warren 1907 exact LOC item URL"
+graphics:
+  - asset_slug: lumber-milling-order
+    path: assets/lumber-milling-order/process-flow.svg
+    alt: "Mill four-square sequence"
+    caption: "Face → edge 90° → rip width → thickness to gauge."
+graphics:
+  - asset_slug: lumber-milling-order
+    path: assets/lumber-milling-order/process-flow.svg
+    alt: "Mill four-square sequence"
+    caption: "Face → edge 90° → rip width → thickness to gauge."
 ---
 
 The stack in the yard is not furniture. It is oak on sticks, a forklift scar on a corner, a sticker stain that will become someone’s “character” if we are sloppy later. I pull a board, I look at the end, I look at the face, I put a meter in it. If the meter and the shop do not agree, the board stays in the stack or it goes back. A pretty cathedral at the wrong moisture is a table that will move after it is paid for.
@@ -38,6 +48,11 @@ The stack in the yard is not furniture. It is oak on sticks, a forklift scar on 
 This is the continuum I will stand on: a county that learned to dry, saw, grade, and ship hardwood, and a shop that still has to do those things, in miniature, before anyone talks about a named series or a river. The continuum is not a letterhead. Bradley Lumber Company of Warren was created in 1901 by Samuel Holmes Fullerton of St. Louis, after a small mill and a timber man, Joe L. Reaves, Sr., whose name is in the county histories. By 1907 the Encyclopedia of Arkansas puts Bradley among the big hardwood dealers in a town that also had Southern Lumber and Arkansas Lumber — tens of thousands of board feet a day, hundreds of men, a population that doubled with the mills. [VERIFY] those figures against the Encyclopedia page if you quote them in a catalog; they are published there.
 
 Potlatch bought into Warren’s mill story in the 1950s. The furniture LLC that uses the Bradley name in this century is dated, in directories, around 2008. Those are different corporate objects. The heritage page already says so. I will not un-say it for a smoother paragraph. What is continuous is the dirt, the river names, the oak, the habit of making things out of boards that started as logs in this part of Arkansas.
+
+<figure class="craft-figure">
+  <img src="../assets/lumber-milling-order/process-flow.svg" alt="Mill four-square sequence" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Face → edge 90° → rip width → thickness to gauge.</figcaption>
+</figure>
 
 ## What a mill taught a furniture shop
 

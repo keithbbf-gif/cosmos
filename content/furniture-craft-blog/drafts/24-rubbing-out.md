@@ -20,11 +20,26 @@ optional_links:
     use: footnote-only
 verify:
   - "Whether production tops are rubbed or left from the gun / satin conversion [VERIFY]"
+graphics:
+  - asset_slug: french-polish-overview
+    path: assets/french-polish-overview/finish-comparison.svg
+    alt: "Rubber pad paths"
+    caption: "Figure-eight with thin shellac; oil slip prevents drag."
+graphics:
+  - asset_slug: french-polish-overview
+    path: assets/french-polish-overview/finish-comparison.svg
+    alt: "Rubber pad paths"
+    caption: "Figure-eight with thin shellac; oil slip prevents drag."
 ---
 
 The top looks done from the door and unfinished from a foot away: a faint orange peel, two nibs, a bit of dry spray at the back edge. This is a film that was sprayed honestly. The gun does not make a piano. The pad does.
 
 Rubbing out is leveling and then polishing, or leveling and then stopping at satin. It is not “sanding the finish off.” It is taking the high film down to the low film until the light does not break. If you cut through, you have a raw island, and on a stained top that island is a different country.
+
+<figure class="craft-figure">
+  <img src="../assets/french-polish-overview/finish-comparison.svg" alt="Rubber pad paths" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Figure-eight with thin shellac; oil slip prevents drag.</figcaption>
+</figure>
 
 ## Let it cure
 

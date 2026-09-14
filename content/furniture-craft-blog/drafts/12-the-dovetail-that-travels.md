@@ -20,11 +20,26 @@ optional_links:
     use: footnote-only
 verify:
   - "Router bit angle used on case shelves — confirm the cutter in the shop [VERIFY]"
+graphics:
+  - asset_slug: sliding-dovetail-shelf
+    path: assets/sliding-dovetail-shelf/joinery-diagram.svg
+    alt: "Sliding dovetail shelf"
+    caption: "Tail narrower at front; slide from back rail."
+graphics:
+  - asset_slug: sliding-dovetail-shelf
+    path: assets/sliding-dovetail-shelf/joinery-diagram.svg
+    alt: "Sliding dovetail shelf"
+    caption: "Tail narrower at front; slide from back rail."
 ---
 
 The shelf goes in from the back, talking the whole way, a rising friction that should scare you a little and then stop at the line you cut. A sliding dovetail is a tail the length of a board, a socket the width of a case. Once it is in, the shelf does not tip, does not dump, does not rely on a row of pins that were really nails. It can still, if you are kind, let the case side move across the shelf’s grain.
 
 I use them on bookcase shelves that must carry real books, on carcase dividers, on a tabletop-to-base connection that should not be a pair of screws from below pretending to be structure. I do not use them on every shelf because they are not a reflex. They are a commitment. A bad sliding dovetail is a shelf stuck halfway, or a socket blown out at the show edge, or a joint glued in the wrong third so the side splits in August.
+
+<figure class="craft-figure">
+  <img src="../assets/sliding-dovetail-shelf/joinery-diagram.svg" alt="Sliding dovetail shelf" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Tail narrower at front; slide from back rail.</figcaption>
+</figure>
 
 ## Why this instead of a dado
 

@@ -26,11 +26,26 @@ optional_links:
     use: footnote-only
 verify:
   - "Groove depth and panel clearance on a house door profile — confirm against the cutter set in use [VERIFY]"
+graphics:
+  - asset_slug: wood-movement-across-grain
+    path: assets/wood-movement-across-grain/joinery-diagram.svg
+    alt: "Width change vs grain"
+    caption: "Tangential movement roughly 2× radial on many species."
+graphics:
+  - asset_slug: wood-movement-across-grain
+    path: assets/wood-movement-across-grain/joinery-diagram.svg
+    alt: "Width change vs grain"
+    caption: "Tangential movement roughly 2× radial on many species."
 ---
 
 Pick up a cabinet door in January and shake it, gently, as if it were a gift you suspected. The panel should talk. A little wooden flutter in the groove. If it is silent and solid as a cutting board, someone glued the panel, or the panel has swollen to a press fit that will be a split in the stile by late summer, or you are holding plywood and the rules changed.
 
 Frame-and-panel is not a style. It is a treaty. The frame is the structure, grain running around the rectangle. The panel is the field, grain running one way, free to grow and shrink across its width in a groove. The groove is the demilitarized zone. Glue is not invited.
+
+<figure class="craft-figure">
+  <img src="../assets/wood-movement-across-grain/joinery-diagram.svg" alt="Width change vs grain" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Tangential movement roughly 2× radial on many species.</figcaption>
+</figure>
 
 ## Why the old doors last
 

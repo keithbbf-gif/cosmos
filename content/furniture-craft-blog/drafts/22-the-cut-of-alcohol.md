@@ -20,11 +20,40 @@ optional_links:
     use: footnote-only
 verify:
   - "Cut (lb/gallon) used as sealer on the line [VERIFY]"
+graphics:
+  - asset_slug: shellac-vs-polyurethane
+    path: assets/shellac-vs-polyurethane/finish-comparison.svg
+    alt: "Finish property comparison"
+    caption: "Shellac: fast repair; poly: harder film, slower spot fix."
+  - asset_slug: wax-over-shellac
+    path: assets/wax-over-shellac/finish-comparison.svg
+    alt: "Shellac then wax"
+    caption: "2–3 lb cut shellac; paste wax after cure, buff out."
+graphics:
+  - asset_slug: shellac-vs-polyurethane
+    path: assets/shellac-vs-polyurethane/finish-comparison.svg
+    alt: "Finish property comparison"
+    caption: "Shellac: fast repair; poly: harder film, slower spot fix."
+  - asset_slug: wax-over-shellac
+    path: assets/wax-over-shellac/finish-comparison.svg
+    alt: "Shellac then wax"
+    caption: "2–3 lb cut shellac; paste wax after cure, buff out."
 ---
 
 The flakes sit in alcohol like amber gravel and then they disappear, and the jar becomes a liquid the color of weak tea or of something stronger, depending on the grade. I write the date on the lid. Old shellac in a bottle from a store can be a lottery: it may still dry, it may stay tacky forever, a film that never becomes a film. Fresh cut from flakes is one of the last shop finishes that still feels like a shop.
 
 Shellac is a resin from a bug, filtered, sometimes bleached, sometimes left orange. That sentence is enough zoology. What I care about is: it dries fast, it sticks to a lot of things, it seals in a way that helps blotchy woods, it dissolves again in alcohol so you can repair it, and it is not a good bar top for a wet glass left overnight unless you built it like a French polish and you still should not.
+
+<figure class="craft-figure">
+  <img src="../assets/shellac-vs-polyurethane/finish-comparison.svg" alt="Finish property comparison" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Shellac: fast repair; poly: harder film, slower spot fix.</figcaption>
+</figure>
+
+
+<figure class="craft-figure">
+  <img src="../assets/wax-over-shellac/finish-comparison.svg" alt="Shellac then wax" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> 2–3 lb cut shellac; paste wax after cure, buff out.</figcaption>
+</figure>
 
 ## Cuts, wax, the jar
 

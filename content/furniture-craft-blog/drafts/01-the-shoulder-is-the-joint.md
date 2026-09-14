@@ -27,11 +27,40 @@ optional_links:
 verify:
   - "Confirm the Wilmar shop’s default tenon thickness on dining-table aprons [VERIFY]"
   - "Do not publish a specific glue brand as house standard without a shop note"
+graphics:
+  - asset_slug: mortise-and-tenon-basics
+    path: assets/mortise-and-tenon-basics/joinery-diagram.svg
+    alt: "Through mortise and tenon (section)"
+    caption: "Cheek faces stay parallel; shoulders define depth stop."
+  - asset_slug: dowel-vs-biscuit
+    path: assets/dowel-vs-biscuit/finish-comparison.svg
+    alt: "Alignment aid comparison"
+    caption: "Dowels: strong registration. Biscuits: face alignment, weaker shear."
+graphics:
+  - asset_slug: mortise-and-tenon-basics
+    path: assets/mortise-and-tenon-basics/joinery-diagram.svg
+    alt: "Through mortise and tenon (section)"
+    caption: "Cheek faces stay parallel; shoulders define depth stop."
+  - asset_slug: dowel-vs-biscuit
+    path: assets/dowel-vs-biscuit/finish-comparison.svg
+    alt: "Alignment aid comparison"
+    caption: "Dowels: strong registration. Biscuits: face alignment, weaker shear."
 ---
 
 The left cheek of the tenon was a little proud. I felt it before I saw it — a tightness when the apron kissed the leg, a hair of light still showing on the right shoulder. Chalk on the high cheek, two strokes with a shoulder plane, dry-fit again. The shoulders closed. That is the whole argument, if you want it in one motion: the joint is not the tenon floating in a hole. The joint is the shoulder, bearing, and the cheeks keeping the tenon from walking.
 
 A dowel does not have a shoulder worth talking about. It has a cylinder and a hole and a hope that glue will make them one piece. Sometimes it does. On a cabinet side, a shelf-hole row, a light frame that never sees a hip, dowels are honest enough. Furniture that gets sat in, leaned on, dragged an inch to sweep, will ask the joint a different question.
+
+<figure class="craft-figure">
+  <img src="../assets/mortise-and-tenon-basics/joinery-diagram.svg" alt="Through mortise and tenon (section)" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Cheek faces stay parallel; shoulders define depth stop.</figcaption>
+</figure>
+
+
+<figure class="craft-figure">
+  <img src="../assets/dowel-vs-biscuit/finish-comparison.svg" alt="Alignment aid comparison" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Dowels: strong registration. Biscuits: face alignment, weaker shear.</figcaption>
+</figure>
 
 ## What a mortise-and-tenon is actually doing
 

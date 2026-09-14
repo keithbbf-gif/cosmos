@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-labelledby="title desc">
+  <title id="title">Grit progression</title>
+  <desc id="desc">80 → 120 → 150 → 180 → 220 for film finishes.</desc>
+  <rect width="100%" height="100%" fill="#F7F3E8"/>
+  <text x="32" y="44" fill="#1A1A1A" font-family="Georgia, serif" font-size="20" font-weight="600">Grit progression</text>
+  <rect x="40" y="200" width="96" height="56" rx="6" fill="#FFFDF8" stroke="#1A1A1A" stroke-width="1.8"/>
+  <text x="88" y="222" text-anchor="middle" fill="#1A1A1A" font-family="sans-serif" font-size="11">80</text>
+  <line x1="140" y1="228" x2="152" y2="228" stroke="#8B4513" stroke-width="2"/>
+  <polygon points="152,228 146,224 146,232" fill="#8B4513"/>
+  <rect x="156" y="200" width="96" height="56" rx="6" fill="#FFFDF8" stroke="#1A1A1A" stroke-width="1.8"/>
+  <text x="204" y="222" text-anchor="middle" fill="#1A1A1A" font-family="sans-serif" font-size="11">120</text>
+  <line x1="256" y1="228" x2="268" y2="228" stroke="#8B4513" stroke-width="2"/>
+  <polygon points="268,228 262,224 262,232" fill="#8B4513"/>
+  <rect x="272" y="200" width="96" height="56" rx="6" fill="#FFFDF8" stroke="#1A1A1A" stroke-width="1.8"/>
+  <text x="320" y="222" text-anchor="middle" fill="#1A1A1A" font-family="sans-serif" font-size="11">150</text>
+  <line x1="372" y1="228" x2="384" y2="228" stroke="#8B4513" stroke-width="2"/>
+  <polygon points="384,228 378,224 378,232" fill="#8B4513"/>
+  <rect x="388" y="200" width="96" height="56" rx="6" fill="#FFFDF8" stroke="#1A1A1A" stroke-width="1.8"/>
+  <text x="436" y="222" text-anchor="middle" fill="#1A1A1A" font-family="sans-serif" font-size="11">180</text>
+  <line x1="488" y1="228" x2="500" y2="228" stroke="#8B4513" stroke-width="2"/>
+  <polygon points="500,228 494,224 494,232" fill="#8B4513"/>
+  <rect x="504" y="200" width="96" height="56" rx="6" fill="#FFFDF8" stroke="#1A1A1A" stroke-width="1.8"/>
+  <text x="552" y="222" text-anchor="middle" fill="#1A1A1A" font-family="sans-serif" font-size="11">220</text>
+</svg>

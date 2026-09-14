@@ -23,11 +23,40 @@ optional_links:
     use: footnote-only
 verify:
   - "No invented quotes from makers or customers"
+graphics:
+  - asset_slug: workbench-dog-holes
+    path: assets/workbench-dog-holes/tool-layout.svg
+    alt: "Dog hole grid"
+    caption: "Front row for planing; second row for wider panels."
+  - asset_slug: holdfast-workholding
+    path: assets/holdfast-workholding/tool-layout.svg
+    alt: "Holdfast shaft angle"
+    caption: "Shaft wedges in hole; pad presses work to bench."
+graphics:
+  - asset_slug: workbench-dog-holes
+    path: assets/workbench-dog-holes/tool-layout.svg
+    alt: "Dog hole grid"
+    caption: "Front row for planing; second row for wider panels."
+  - asset_slug: holdfast-workholding
+    path: assets/holdfast-workholding/tool-layout.svg
+    alt: "Holdfast shaft angle"
+    caption: "Shaft wedges in hole; pad presses work to bench."
 ---
 
 The feed wants a flat-lay of tools that have not cut anything this week, a sentence about passion, a before-and-after that hides the filler. The bench wants a sharper iron and a decision about a tenon. I know which one pays the photographer. I know which one pays the next thirty years of the table.
 
 I am not against pictures. A good shop photograph of a dry-fit, a flake, a winter breadboard line — those are records. I am against a culture that has more to say about identity than about a shoulder that will not close. The word *maker* got tired from being asked to mean a personality. In this county it used to mean a shift.
+
+<figure class="craft-figure">
+  <img src="../assets/workbench-dog-holes/tool-layout.svg" alt="Dog hole grid" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Front row for planing; second row for wider panels.</figcaption>
+</figure>
+
+
+<figure class="craft-figure">
+  <img src="../assets/holdfast-workholding/tool-layout.svg" alt="Holdfast shaft angle" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Shaft wedges in hole; pad presses work to bench.</figcaption>
+</figure>
 
 ## What I will keep from the current noise
 

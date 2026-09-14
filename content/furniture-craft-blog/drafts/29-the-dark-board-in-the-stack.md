@@ -20,11 +20,26 @@ optional_links:
     use: footnote-only
 verify:
   - "Regional walnut sources vs 'local' claims — do not invent a county walnut industry [VERIFY]"
+graphics:
+  - asset_slug: choosing-hardwood-boards
+    path: assets/choosing-hardwood-boards/process-flow.svg
+    alt: "Board defect map"
+    caption: "Mark knots and sap; nest longest parts on clearest grain."
+graphics:
+  - asset_slug: choosing-hardwood-boards
+    path: assets/choosing-hardwood-boards/process-flow.svg
+    alt: "Board defect map"
+    caption: "Mark knots and sap; nest longest parts on clearest grain."
 ---
 
 The dark board is never as dark as the customer’s memory of a piano, and it is darker than the board next to it that came from the same lift. Walnut is a range: chocolate, purple, gray-brown, a streak of mineral, a sapwood that is the color of cream and bone. I pull the boards and I lay them on the floor in the light they will be sold in. I walk away and I come back. The one that looked heroic on the rack looks loud in a set. The quiet one is the top.
 
 I do not stain walnut to make it “walnut.” I cut sapwood off or I keep it on purpose. A thin, even sap edge can be a drawing. A smear of sap in the middle of a table is a smear. Staining the sap to match the heart is a brown fog that wears off at the arris and returns as a stripe. I have done the fog. I do not advertise it.
+
+<figure class="craft-figure">
+  <img src="../assets/choosing-hardwood-boards/process-flow.svg" alt="Board defect map" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Mark knots and sap; nest longest parts on clearest grain.</figcaption>
+</figure>
 
 ## Color that changes its mind
 

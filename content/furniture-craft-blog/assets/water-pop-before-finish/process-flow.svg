@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-labelledby="title desc">
+  <title id="title">Water pop sequence</title>
+  <desc id="desc">Wet → dry → 220 → seal; avoids raised grain after finish.</desc>
+  <rect width="100%" height="100%" fill="#F7F3E8"/>
+  <text x="32" y="44" fill="#1A1A1A" font-family="Georgia, serif" font-size="20" font-weight="600">Water pop sequence</text>
+  <rect x="50" y="200" width="120" height="56" rx="6" fill="#FFFDF8" stroke="#1A1A1A" stroke-width="1.8"/>
+  <text x="110" y="222" text-anchor="middle" fill="#1A1A1A" font-family="sans-serif" font-size="11">Wipe water</text>
+  <line x1="174" y1="228" x2="186" y2="228" stroke="#8B4513" stroke-width="2"/>
+  <polygon points="186,228 180,224 180,232" fill="#8B4513"/>
+  <rect x="190" y="200" width="120" height="56" rx="6" fill="#FFFDF8" stroke="#1A1A1A" stroke-width="1.8"/>
+  <text x="250" y="222" text-anchor="middle" fill="#1A1A1A" font-family="sans-serif" font-size="11">Dry</text>
+  <line x1="314" y1="228" x2="326" y2="228" stroke="#8B4513" stroke-width="2"/>
+  <polygon points="326,228 320,224 320,232" fill="#8B4513"/>
+  <rect x="330" y="200" width="120" height="56" rx="6" fill="#FFFDF8" stroke="#1A1A1A" stroke-width="1.8"/>
+  <text x="390" y="222" text-anchor="middle" fill="#1A1A1A" font-family="sans-serif" font-size="11">220 sand</text>
+  <line x1="454" y1="228" x2="466" y2="228" stroke="#8B4513" stroke-width="2"/>
+  <polygon points="466,228 460,224 460,232" fill="#8B4513"/>
+  <rect x="470" y="200" width="120" height="56" rx="6" fill="#FFFDF8" stroke="#1A1A1A" stroke-width="1.8"/>
+  <text x="530" y="222" text-anchor="middle" fill="#1A1A1A" font-family="sans-serif" font-size="11">Seal coat</text>
+</svg>

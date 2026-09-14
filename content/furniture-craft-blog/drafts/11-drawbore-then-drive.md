@@ -26,11 +26,36 @@ optional_links:
     use: footnote-only
 verify:
   - "Offset used on production pins — measure a shop sample before printing a fraction [VERIFY]"
+graphics:
+  - asset_slug: mortise-and-tenon-basics
+    path: assets/mortise-and-tenon-basics/joinery-diagram.svg
+    alt: "Through mortise and tenon (section)"
+    caption: "Cheek faces stay parallel; shoulders define depth stop."
+graphics:
+  - asset_slug: mortise-and-tenon-basics
+    path: assets/mortise-and-tenon-basics/joinery-diagram.svg
+    alt: "Through mortise and tenon (section)"
+    caption: "Cheek faces stay parallel; shoulders define depth stop."
+  - asset_slug: pocket-hole-when-to-use
+    path: assets/pocket-hole-when-to-use/joinery-diagram.svg
+    alt: "Pocket hole use map"
+    caption: "OK: face frame, carcass back. Avoid: visible show faces."
 ---
 
 I bore the mortise walls first, assembled, dry, a bit that matches the pin. Then I take the joint apart and mark the tenon through those holes. Then I move the mark toward the shoulder — a little. The little is the whole craft. Too little and the pin is a passenger. Too much and the pin splits the tenon or refuses to start, and you stand there with a pretty piece of riven oak and a joint that will not go.
 
 Drawboring is older than the F-clamp. Joiners used it because a frame on a jobsite does not have a dozen clamps and a Saturday. The pin pulls the shoulder closed and keeps it closed when the hide glue has gone to powder. I use it because I have built tables whose clamps could not reach, and because I like a joint that still means something if the glue line becomes a historical artifact.
+
+<figure class="craft-figure">
+  <img src="../assets/mortise-and-tenon-basics/joinery-diagram.svg" alt="Through mortise and tenon (section)" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Cheek faces stay parallel; shoulders define depth stop.</figcaption>
+</figure>
+
+
+<figure class="craft-figure">
+  <img src="../assets/pocket-hole-when-to-use/joinery-diagram.svg" alt="Pocket hole use map" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> OK: face frame, carcass back. Avoid: visible show faces.</figcaption>
+</figure>
 
 ## The offset is not a personality
 

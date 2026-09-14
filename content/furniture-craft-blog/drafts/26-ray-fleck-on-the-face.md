@@ -26,11 +26,26 @@ optional_links:
     use: footnote-only
 verify:
   - "Historic Bradley mill oak mix (furniture stock vs flooring vs millwork) — cite Encyclopedia / Bradham; do not invent percentages [VERIFY]"
+graphics:
+  - asset_slug: choosing-hardwood-boards
+    path: assets/choosing-hardwood-boards/process-flow.svg
+    alt: "Board defect map"
+    caption: "Mark knots and sap; nest longest parts on clearest grain."
+graphics:
+  - asset_slug: choosing-hardwood-boards
+    path: assets/choosing-hardwood-boards/process-flow.svg
+    alt: "Board defect map"
+    caption: "Mark knots and sap; nest longest parts on clearest grain."
 ---
 
 You tilt the board and the rays catch, a flash that is not figure in the maple sense and not a stripe of stain. It is the medullary ray, sawn on the quarter, laid out on the face like a quiet heraldry. People call it tiger, flake, fleck. I call it a reason to pay for the extra work at the mill, and a reason a wide top will stay closer to the width I cut it.
 
 Quartersawn is not a species. It is a geometry. The growth rings stand more or less vertical on the end grain. The board shrinks less in width than a flatsawn board of the same oak. It cups less. It wears in a floor as a tighter story. It also wastes more of the log if you are trying to get every board cathedral-pretty for a pallet. Mills that did this for a living — and Warren was a hardwood town — knew the math. [VERIFY] how much of Bradley’s historic mix was quartered furniture oak versus other products; the county sources say hardwood, furniture stock, flooring, without a percentage I will invent.
+
+<figure class="craft-figure">
+  <img src="../assets/choosing-hardwood-boards/process-flow.svg" alt="Board defect map" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Mark knots and sap; nest longest parts on clearest grain.</figcaption>
+</figure>
 
 ## How the log is opened
 

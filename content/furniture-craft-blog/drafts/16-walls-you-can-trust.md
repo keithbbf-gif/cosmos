@@ -20,11 +20,26 @@ optional_links:
     use: footnote-only
 verify:
   - "Mortiser on the floor vs hand-chopped exceptions — confirm shop split [VERIFY]"
+graphics:
+  - asset_slug: half-blind-dovetails
+    path: assets/half-blind-dovetails/joinery-diagram.svg
+    alt: "Half-blind socket depth"
+    caption: "Tail length equals socket depth plus reveal allowance."
+graphics:
+  - asset_slug: half-blind-dovetails
+    path: assets/half-blind-dovetails/joinery-diagram.svg
+    alt: "Half-blind socket depth"
+    caption: "Tail length equals socket depth plus reveal allowance."
 ---
 
 The chisel stands in the knife line, bevel toward the hole, and I give it a tap that is more like seating a hinge than like splitting stove wood. That tap sets the wall. After that I can hog. If I hog first, the chisel follows the grain out of the mortise and I have a wall that looks like a coastline. Tenons do not like coastlines. Glue does not make a coastline into a plane.
 
 A mortise is the part of the joint nobody photographs until it fails. I have opened legs that were bored with a brace and cleaned with a chisel, walls true enough to write on. I have opened machine mortises that were burned, tapered, and short, the tenon bottoms sitting on a pile of compacted chips. Both kinds of shops exist. I would rather eat lunch in the first one.
+
+<figure class="craft-figure">
+  <img src="../assets/half-blind-dovetails/joinery-diagram.svg" alt="Half-blind socket depth" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Tail length equals socket depth plus reveal allowance.</figcaption>
+</figure>
 
 ## Hand, hollow chisel, slot, router
 

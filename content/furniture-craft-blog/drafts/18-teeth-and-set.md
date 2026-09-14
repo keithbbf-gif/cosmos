@@ -26,11 +26,36 @@ optional_links:
     use: footnote-only
 verify:
   - "Which handsaws are actually in service vs decorative [VERIFY]"
+graphics:
+  - asset_slug: crosscut-sled
+    path: assets/crosscut-sled/tool-layout.svg
+    alt: "Crosscut sled layout"
+    caption: "Fence 90° to blade; stop block for repeat length."
+graphics:
+  - asset_slug: crosscut-sled
+    path: assets/crosscut-sled/tool-layout.svg
+    alt: "Crosscut sled layout"
+    caption: "Fence 90° to blade; stop block for repeat length."
+  - asset_slug: bandsaw-blade-tension
+    path: assets/bandsaw-blade-tension/tool-layout.svg
+    alt: "Blade drift adjustment"
+    caption: "Mark freehand cut; set fence parallel to drift line."
 ---
 
 The first stroke on a dovetail is a nick on the far corner of the line, then the near, then the saw sits in a kerf you made on purpose. After that, if you steer, you make a banana. I have made bananas. They look like confidence from three feet and like a bent pin from the inside of the socket.
 
 A saw is a row of tiny chisels. Rip teeth are filed to chisel along the grain. Crosscut teeth are filed to knife across it. A hybrid “toolbox” tooth does both badly enough that people buy a tablesaw and forget the handsaw, which is fine until the tablesaw is the wrong tool — a tail, a tenon shoulder, a cut in a house that is already finished.
+
+<figure class="craft-figure">
+  <img src="../assets/crosscut-sled/tool-layout.svg" alt="Crosscut sled layout" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Fence 90° to blade; stop block for repeat length.</figcaption>
+</figure>
+
+
+<figure class="craft-figure">
+  <img src="../assets/bandsaw-blade-tension/tool-layout.svg" alt="Blade drift adjustment" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Mark freehand cut; set fence parallel to drift line.</figcaption>
+</figure>
 
 ## Set, plate, the kerf that binds
 

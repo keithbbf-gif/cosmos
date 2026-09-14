@@ -1,12 +1,12 @@
 # Furniture Craft Blog Pack — Index
 
-**Status:** staged drafts only. `voice_check: human` after self-edit. An editor agent still owns grammar QA.
+**Status:** merged publish pack — magazine prose + embedded SVG diagrams. Still **draft** for WordPress; editor pass and `D:\BBF` photo pulls remain.
 
-**Count:** 44 essays. Body words: 55,844 (range 1207–1495).
+**Count:** 44 essays. Body words: 55,844 (range 1207–1495). **45** line-art figures in `assets/` (all mapped in `GRAPHIC_MAP.yaml`).
 
 Folder: `content/furniture-craft-blog/`. Soft brand home is Warren & Wilmar, Bradley County, Arkansas — usable later by Bradley Brand Furniture / Saline River Workshop / the mill-heritage story. Optional footnotes only: [heritage](https://bradleybrandfurniture.com/heritage), [craft](https://bradleybrandfurniture.com/craft).
 
-Read `STYLE_GUIDE.md` before editing. Photo plans live in each draft’s front matter and in `PHOTO_CAPTIONS.md`. WordPress: `WP_IMPORT.md` (draft-only). Slug list + counts: `MANIFEST.md`.
+Read `STYLE_GUIDE.md` before editing. **Diagrams:** `GRAPHICS_INDEX.md`, `assets/<slug>/`. **Photos (staged):** `figures` in each draft, `PHOTO_CAPTIONS.md`, `PHOTO_MANIFEST.md` → `D:\BBF`. WordPress: `WP_IMPORT.md` (draft-only). Slug list + counts: `MANIFEST.md`. Merge provenance: `MERGE_REPORT.md`.
 
 ## Joinery
 

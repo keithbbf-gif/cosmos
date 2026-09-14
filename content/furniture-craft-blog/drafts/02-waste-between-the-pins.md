@@ -26,11 +26,26 @@ optional_links:
     use: footnote-only
 verify:
   - "House slope for drawer dovetails (1:6 vs 1:8) — confirm if the shop has a stated preference [VERIFY]"
+graphics:
+  - asset_slug: dovetail-layout
+    path: assets/dovetail-layout/joinery-diagram.svg
+    alt: "Half-blind dovetail layout"
+    caption: "Baseline and slope lines before any saw cut."
+graphics:
+  - asset_slug: dovetail-layout
+    path: assets/dovetail-layout/joinery-diagram.svg
+    alt: "Half-blind dovetail layout"
+    caption: "Baseline and slope lines before any saw cut."
 ---
 
 The gauge line is a hair deeper than it needs to be. That is on purpose. When the saw stops in the line, and the chisel pares to it from the waste side, the drawer side will meet the front in a plane you can feel with a thumb. Sneak past the line and you have a step. Leave the line proud and you have a ridge that will show under finish like a scar someone tried to powder.
 
 Hand-cut dovetails are not a moral exam. They are a corner that locks in two directions without a nail. Pins and tails, slope, baseline, waste. The romance is other people’s problem. The work is usually a drawer, sometimes a carcase, rarely a box someone will call an “heirloom” before it has held a winter of socks.
+
+<figure class="craft-figure">
+  <img src="../assets/dovetail-layout/joinery-diagram.svg" alt="Half-blind dovetail layout" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Baseline and slope lines before any saw cut.</figcaption>
+</figure>
 
 ## Why this joint, on this corner
 

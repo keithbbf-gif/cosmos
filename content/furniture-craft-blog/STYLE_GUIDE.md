@@ -93,6 +93,12 @@ verify: list of claims still open
 
 `status` stays `draft` in this pack. An editor agent will QA grammar and style after drafting. Do not mark a piece `ready` here.
 
+## Figures (diagrams + photos)
+
+- **Diagrams** are cream/ink SVG in `assets/<asset-slug>/`. Each draft embeds one or two `<figure class="craft-figure">` blocks after the opening graf(s), before the first `##` section. Captions come from the graphics pack; do not swap in stock art.
+- **`graphics` in front matter** lists the asset slug(s) and paths for importers. **`figures`** lists **shop photo** slots only — paths under `D:\BBF`, staged and credited before publish. Missing BBF frames stay `status: needed`; do not substitute Unsplash.
+- Regenerate SVGs: `python3 tools/generate_furniture_craft_blog_graphics.py`. Re-apply prose↔asset mapping: `python3 tools/merge_furniture_craft_blog_pack.py` (see `GRAPHIC_MAP.yaml`).
+
 ## WordPress
 
 See `WP_IMPORT.md`. Import as **draft** posts only. Do not schedule. Do not set a public publish date in this pack.

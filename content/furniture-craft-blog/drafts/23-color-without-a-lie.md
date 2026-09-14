@@ -20,11 +20,26 @@ optional_links:
     use: footnote-only
 verify:
   - "Do not name a house stain formula without the finish card [VERIFY]"
+graphics:
+  - asset_slug: water-pop-before-finish
+    path: assets/water-pop-before-finish/process-flow.svg
+    alt: "Water pop sequence"
+    caption: "Wet → dry → 220 → seal; avoids raised grain after finish."
+graphics:
+  - asset_slug: water-pop-before-finish
+    path: assets/water-pop-before-finish/process-flow.svg
+    alt: "Water pop sequence"
+    caption: "Wet → dry → 220 → seal; avoids raised grain after finish."
 ---
 
 The sample looked right under the fluorescent and wrong under their west window. That is the usual story. They wanted the oak “a little warmer,” which in a photograph means orange, and in a room with a cool LED means mud. I brought three boards from the same lot, same grit, same sealer, and we stood in the room at the hour they eat. We picked the duller one. The duller one was the one that would still look like oak at dinner.
 
 Stain is not a sin. A millwork run that has to meet a door already in the house needs stain, or toner, or a glaze, or a dye, and a person who can see. Stain becomes a lie when it is asked to turn poplar into walnut for a sales tag, or when it is wiped on a blotchy cherry board to “even it out” and instead writes a map of the mill in brown.
+
+<figure class="craft-figure">
+  <img src="../assets/water-pop-before-finish/process-flow.svg" alt="Water pop sequence" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Wet → dry → 220 → seal; avoids raised grain after finish.</figcaption>
+</figure>
 
 ## Dye, pigment, the difference you can feel
 

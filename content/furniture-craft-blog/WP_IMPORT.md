@@ -16,7 +16,8 @@ Import every essay as a WordPress **draft**. Do not publish, schedule, or ping a
 | `status: draft` | `draft` — do not override |
 | `topic` | Category or a single craft tag |
 | `series: furniture-craft` | Tag `furniture-craft` |
-| `figures` | Media library items, attached after files exist |
+| `figures` | **Shop photos** (`D:\BBF`) — media library items, attached after files exist |
+| `graphics` | **SVG diagrams** — upload from `assets/`; body already references `../assets/...` |
 | `optional_links` | Optional footnote block, not the first paragraph |
 | body after front matter | Post content (Markdown → block editor or a Markdown importer) |
 

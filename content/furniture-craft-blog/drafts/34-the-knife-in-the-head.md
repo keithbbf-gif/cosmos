@@ -27,11 +27,26 @@ optional_links:
 verify:
   - "Historic mill product mix included pine millwork — Bradham / heritage page [VERIFY wording]"
   - "AWI profile tolerances if a number is quoted [VERIFY edition]"
+graphics:
+  - asset_slug: router-table-setup
+    path: assets/router-table-setup/tool-layout.svg
+    alt: "Router table feed direction"
+    caption: "Feed against bit rotation; bearing follows template."
+graphics:
+  - asset_slug: router-table-setup
+    path: assets/router-table-setup/tool-layout.svg
+    alt: "Router table feed direction"
+    caption: "Feed against bit rotation; bearing follows template."
 ---
 
 The first stick through a fresh knife is a small event. The oak comes out with an arris you could read with a fingernail, a cove that does not chatter, no shine of burn in the hollow. The tenth stick is still good. The two-hundredth, if no one honed, starts to look like plastic — a glaze in the cove, a fuzz on the quirk, a profile that will take paint like a sponge and look tired before the painter arrives.
 
 Millwork is furniture that agreed to be a line on a wall: casing, base, crown, a built-up plinth, a door sticking. The joinery is different — copes, scarfs, a nail that is allowed — but the knife is the same idea as a plane iron. A mill that ran pine millwork and furniture stock in the same town was not confused. It was a town that cut profiles and boards and knew both paid.
+
+<figure class="craft-figure">
+  <img src="../assets/router-table-setup/tool-layout.svg" alt="Router table feed direction" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Feed against bit rotation; bearing follows template.</figcaption>
+</figure>
 
 ## The profile is a drawing
 

@@ -26,11 +26,26 @@ optional_links:
     use: footnote-only
 verify:
   - "Do not invent a client name or quote"
+graphics:
+  - asset_slug: tabletop-flattening
+    path: assets/tabletop-flattening/process-flow.svg
+    alt: "Top flattening pattern"
+    caption: "High spots only; diagonal passes until winding sticks agree."
+graphics:
+  - asset_slug: tabletop-flattening
+    path: assets/tabletop-flattening/process-flow.svg
+    alt: "Top flattening pattern"
+    caption: "High spots only; diagonal passes until winding sticks agree."
 ---
 
 The elevation is taped to the shop door at eye height so I hit it with my shoulder and look at it. A table, a height, a note that the apron cannot be 4 inches because a knee lives there, a circle around a drawer that the client added after they said they were done adding. The paper is dirty. The dirt is the job.
 
 A commission without a drawing is a disagreement scheduled for delivery day. A drawing that was never taken to the room is a pretty disagreement. I measure the room. I look at the base, the outlet, the window that will rake the top, the path the piece will have to walk to get in. I have built a bookcase that would not turn the stair. The drawing was correct. The stair was also correct. The two had not met.
+
+<figure class="craft-figure">
+  <img src="../assets/tabletop-flattening/process-flow.svg" alt="Top flattening pattern" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> High spots only; diagonal passes until winding sticks agree.</figcaption>
+</figure>
 
 ## What the drawing must decide
 

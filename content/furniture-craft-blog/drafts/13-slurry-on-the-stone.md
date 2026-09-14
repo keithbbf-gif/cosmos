@@ -26,11 +26,26 @@ optional_links:
     use: footnote-only
 verify:
   - "House sharpening media (waterstone, diamond, oil) — confirm before naming a brand as standard [VERIFY]"
+graphics:
+  - asset_slug: chisel-sharpening-jig
+    path: assets/chisel-sharpening-jig/tool-layout.svg
+    alt: "Honing guide setup"
+    caption: "Roll to micro-bevel; do not grind away the registration face."
+graphics:
+  - asset_slug: chisel-sharpening-jig
+    path: assets/chisel-sharpening-jig/tool-layout.svg
+    alt: "Honing guide setup"
+    caption: "Roll to micro-bevel; do not grind away the registration face."
 ---
 
 The stone is already dirty when I start, a gray slurry from yesterday’s iron. I add a little water. The iron’s bevel finds the grit the way a shoe finds a step you have used for years. I am not meditating. I am raising a wire edge and taking it off. If I skip this, the next hour is me leaning on a plane that is scraping, and then I will sand, and then I will say the wood was difficult.
 
 Sharpening is the most skipped “advanced technique” in the trade. It is also the least advanced. A millwright who would never run a dull knife in the molder will still push a cabinet scraper that has no hook and call the tearout character. I have done it. The stone is cheaper than the character.
+
+<figure class="craft-figure">
+  <img src="../assets/chisel-sharpening-jig/tool-layout.svg" alt="Honing guide setup" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Roll to micro-bevel; do not grind away the registration face.</figcaption>
+</figure>
 
 ## What sharp is
 

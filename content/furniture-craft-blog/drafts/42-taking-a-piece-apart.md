@@ -20,11 +20,26 @@ optional_links:
     use: footnote-only
 verify:
   - "No invented client repair stories"
+graphics:
+  - asset_slug: repair-loose-chair-wedged-tenon
+    path: assets/repair-loose-chair-wedged-tenon/joinery-diagram.svg
+    alt: "Wedged through-tenon"
+    caption: "Wedge spreads tenon in mortise; orient wedge across grain."
+graphics:
+  - asset_slug: repair-loose-chair-wedged-tenon
+    path: assets/repair-loose-chair-wedged-tenon/joinery-diagram.svg
+    alt: "Wedged through-tenon"
+    caption: "Wedge spreads tenon in mortise; orient wedge across grain."
 ---
 
 The chair is loose at the front rail and someone has already been here: a yellow-brown drip of wood glue on the underside, a finish smear, a dowel that is not the size of the original hole. I do not add a third glue. I ask how it comes apart. If the answer is hide and pins, I heat, I tap, I label every rail with painter’s tape and a number, I photograph the underside before I forget the angle of a stretcher that only looks symmetric.
 
 If the answer is PVA and a factory dowel, I tell the owner the truth: we may lose wood, we may sleeve, we may recut a rail. The bottle in the kitchen drawer is how chairs become puzzles with no picture.
+
+<figure class="craft-figure">
+  <img src="../assets/repair-loose-chair-wedged-tenon/joinery-diagram.svg" alt="Wedged through-tenon" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Wedge spreads tenon in mortise; orient wedge across grain.</figcaption>
+</figure>
 
 ## Diagnosis
 

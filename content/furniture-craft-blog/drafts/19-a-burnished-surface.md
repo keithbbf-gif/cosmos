@@ -20,11 +20,26 @@ optional_links:
     use: footnote-only
 verify:
   - "None beyond shop-specific hook practice"
+graphics:
+  - asset_slug: card-scraper-vs-sanding
+    path: assets/card-scraper-vs-sanding/finish-comparison.svg
+    alt: "Scraper then sand"
+    caption: "Scraper for tear-out; 180–220 to unify scratch pattern."
+graphics:
+  - asset_slug: card-scraper-vs-sanding
+    path: assets/card-scraper-vs-sanding/finish-comparison.svg
+    alt: "Scraper then sand"
+    caption: "Scraper for tear-out; 180–220 to unify scratch pattern."
 ---
 
 There is a patch of curl in the walnut, right where a hand will land on the table edge, and the plane has already said no — a little tear, a roughness you can feel with a thumb. I could sand it. The sander would take the tear and it would also take a dish, because I would stay too long where the tear was, because that is what hands do. The dish would show under finish as a shadow that moves when you walk past.
 
 I take a cabinet scraper, a rectangle of steel with a hook I turned this morning, and I lean it a little and I push. A shaving comes, thin, the color of the board. The tear is gone. The plane of the top is still a plane. That is the whole argument for this tool. It is not a rustic accessory. It is how you stay flat.
+
+<figure class="craft-figure">
+  <img src="../assets/card-scraper-vs-sanding/finish-comparison.svg" alt="Scraper then sand" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Scraper for tear-out; 180–220 to unify scratch pattern.</figcaption>
+</figure>
 
 ## Turning a hook
 

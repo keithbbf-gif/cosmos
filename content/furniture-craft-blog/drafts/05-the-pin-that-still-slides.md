@@ -26,11 +26,26 @@ optional_links:
     use: footnote-only
 verify:
   - "Shop allowance for oak movement across a 36-inch top — compute from FPL coefficients for the species and MC swing; do not print a single inch figure as universal [VERIFY]"
+graphics:
+  - asset_slug: breadboard-ends
+    path: assets/breadboard-ends/joinery-diagram.svg
+    alt: "Breadboard end movement"
+    caption: "Fixed center; slots at ends for seasonal width change."
+graphics:
+  - asset_slug: breadboard-ends
+    path: assets/breadboard-ends/joinery-diagram.svg
+    alt: "Breadboard end movement"
+    caption: "Fixed center; slots at ends for seasonal width change."
 ---
 
 In February the breadboard shoulder shows a dark line on the left, maybe a thirty-second, maybe more if the top is wide and the house is dry. Someone who bought the table in August will call it a crack. It is not a crack. The panel got narrower. The breadboard did not, not across that width, because its grain runs the other way. The outer pins have slid in their slots. If they have not — if someone glued the whole tongue, or drove square pegs through round holes like a punishment — the top has split, and the call is a different call.
 
 I run a finger along that winter line and I am glad to see it. It means the joint was built by a person who believed the handbook.
+
+<figure class="craft-figure">
+  <img src="../assets/breadboard-ends/joinery-diagram.svg" alt="Breadboard end movement" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Fixed center; slots at ends for seasonal width change.</figcaption>
+</figure>
 
 ## What the breadboard is for
 

@@ -20,11 +20,26 @@ optional_links:
     use: footnote-only
 verify:
   - "Hoadley / FPL movement — cite if a coefficient is printed; none is printed here as a number"
+graphics:
+  - asset_slug: lumber-milling-order
+    path: assets/lumber-milling-order/process-flow.svg
+    alt: "Mill four-square sequence"
+    caption: "Face → edge 90° → rip width → thickness to gauge."
+graphics:
+  - asset_slug: lumber-milling-order
+    path: assets/lumber-milling-order/process-flow.svg
+    alt: "Mill four-square sequence"
+    caption: "Face → edge 90° → rip width → thickness to gauge."
 ---
 
 I pick up a board by the end and I look at it the way a mill buyer looks at it, which is also the way a person looks at a cut tree if they are honest. The rings are a map of years and they are a map of how this board will move. If they run in tall arches across the end, I have a flatsawn face waiting, a cathedral, a cup toward the bark. If they stand like a fence, I have rift or quarter, a calmer width, a chance of fleck on oak.
 
 The show face is a sales face. The end grain is the contract. I have been fooled by a pretty face. I have not been fooled by an end, except when I did not look.
+
+<figure class="craft-figure">
+  <img src="../assets/lumber-milling-order/process-flow.svg" alt="Mill four-square sequence" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Face → edge 90° → rip width → thickness to gauge.</figcaption>
+</figure>
 
 ## How to look
 

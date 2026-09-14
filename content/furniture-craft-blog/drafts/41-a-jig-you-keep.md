@@ -20,11 +20,26 @@ optional_links:
     use: footnote-only
 verify:
   - "Do not claim a specific house jig inventory"
+graphics:
+  - asset_slug: shooting-board-build
+    path: assets/shooting-board-build/tool-layout.svg
+    alt: "Shooting board section"
+    caption: "Plane rides fence; work stops on hook."
+graphics:
+  - asset_slug: shooting-board-build
+    path: assets/shooting-board-build/tool-layout.svg
+    alt: "Shooting board section"
+    caption: "Plane rides fence; work stops on hook."
 ---
 
 I keep a tenoning jig that is uglier than a catalog and truer than my patience on a Tuesday. The fence has a pencil confession: *which face*. The runner is waxed. The clamp is a real clamp, not a wish. When I put a rail in it, the shoulder is the same shoulder I cut in March. That is the only reason it is still on the wall.
 
 A jig that exists to make a video simpler is often a jig that makes a hand less careful. A jig that exists to keep a hand out of a blade, or to repeat a mortise on four legs, or to hold a door while you hinge it — those I keep. The test is: does the second piece match the first without a hero moment?
+
+<figure class="craft-figure">
+  <img src="../assets/shooting-board-build/tool-layout.svg" alt="Shooting board section" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Plane rides fence; work stops on hook.</figcaption>
+</figure>
 
 ## Disposable vs kept
 

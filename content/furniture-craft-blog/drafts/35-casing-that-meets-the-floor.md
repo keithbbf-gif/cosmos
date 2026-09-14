@@ -20,11 +20,26 @@ optional_links:
     use: footnote-only
 verify:
   - "House reveal dimension on interior doors [VERIFY]"
+graphics:
+  - asset_slug: hinge-mortise-by-hand
+    path: assets/hinge-mortise-by-hand/joinery-diagram.svg
+    alt: "Butt hinge mortise depth"
+    caption: "Mortise depth = hinge leaf thickness; barrel flush."
+graphics:
+  - asset_slug: hinge-mortise-by-hand
+    path: assets/hinge-mortise-by-hand/joinery-diagram.svg
+    alt: "Butt hinge mortise depth"
+    caption: "Mortise depth = hinge leaf thickness; barrel flush."
 ---
 
 I set the head casing first so the two long legs have something to be about, and I mark the reveal on the jamb with a little gauge — a block, a story, not a wandering pencil. The reveal is a shadow line. If it grows and shrinks around the door, the door looks drunk. If it is even, the wall looks like a person meant it, even when the wall is not.
 
 Then the legs down. The floor is high on the left. Of course it is. I scribe the left leg or I sneak a plinth that can take a scribe, or I live with a sliver of shadow that the painter will want to caulk. Paint-grade can take a little caulk. Stain-grade wants wood.
+
+<figure class="craft-figure">
+  <img src="../assets/hinge-mortise-by-hand/joinery-diagram.svg" alt="Butt hinge mortise depth" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Mortise depth = hinge leaf thickness; barrel flush.</figcaption>
+</figure>
 
 ## The door is a system
 

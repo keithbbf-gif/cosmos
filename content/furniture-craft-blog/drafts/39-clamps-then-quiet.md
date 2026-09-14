@@ -20,11 +20,26 @@ optional_links:
     use: footnote-only
 verify:
   - "Clamp time vs glue data sheet — follow the sheet for the glue in the pot [VERIFY]"
+graphics:
+  - asset_slug: glue-up-clamping-strategy
+    path: assets/glue-up-clamping-strategy/process-flow.svg
+    alt: "Clamp order flow"
+    caption: "Dry fit → glue longest joint → cauls → check square → wipe squeeze-out."
+graphics:
+  - asset_slug: glue-up-clamping-strategy
+    path: assets/glue-up-clamping-strategy/process-flow.svg
+    alt: "Clamp order flow"
+    caption: "Dry fit → glue longest joint → cauls → check square → wipe squeeze-out."
 ---
 
 The dry run takes longer than the glue. I want every clamp on a pad, every caul bowed the right way, the square in the corner, the diagonal strings or the tape measure ready, the glue brush wet in a cup, the rag, the person if I need a person. Then I take it apart and I do it again with glue. If I am hunting a clamp during the open time, I have already lost a shoulder.
 
 A glue-up is not a chance to persuade a bad tenon. It is a chance to hold a good one while the glue becomes the thin thing it should be. Hungry clamps starve a joint and bow a panel. Lazy clamps leave a daylight you will call “clamp pressure” later, when you mean regret.
+
+<figure class="craft-figure">
+  <img src="../assets/glue-up-clamping-strategy/process-flow.svg" alt="Clamp order flow" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Dry fit → glue longest joint → cauls → check square → wipe squeeze-out.</figcaption>
+</figure>
 
 ## Rehearsal
 

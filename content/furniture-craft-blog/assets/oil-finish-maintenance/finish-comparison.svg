@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-labelledby="title desc">
+  <title id="title">Oil finish refresh cycle</title>
+  <desc id="desc">Light wipe coat when water no longer beads.</desc>
+  <rect width="100%" height="100%" fill="#F7F3E8"/>
+  <text x="32" y="44" fill="#1A1A1A" font-family="Georgia, serif" font-size="20" font-weight="600">Oil finish refresh cycle</text>
+  <text x="48" y="100" fill="#1A1A1A" font-family="sans-serif" font-size="14" font-weight="600">Finish</text>
+  <text x="220" y="100" fill="#1A1A1A" font-family="sans-serif" font-size="14" font-weight="600">Repair</text>
+  <text x="400" y="100" fill="#1A1A1A" font-family="sans-serif" font-size="14" font-weight="600">Notes</text>
+  <line x1="40" y1="108" x2="600" y2="108" stroke="#D4C9B0" stroke-width="1"/>
+  <text x="48" y="136" fill="#4A4A4A" font-family="sans-serif" font-size="13">Boiled linseed</text>
+  <text x="220" y="136" fill="#4A4A4A" font-family="sans-serif" font-size="13">Wipe yearly</text>
+  <text x="400" y="136" fill="#4A4A4A" font-family="sans-serif" font-size="13">Cure slow; rags fire risk</text>
+  <line x1="40" y1="148" x2="600" y2="148" stroke="#D4C9B0" stroke-width="0.8"/>
+  <text x="48" y="188" fill="#4A4A4A" font-family="sans-serif" font-size="13">Tung oil</text>
+  <text x="220" y="188" fill="#4A4A4A" font-family="sans-serif" font-size="13">Light refresh</text>
+  <text x="400" y="188" fill="#4A4A4A" font-family="sans-serif" font-size="13">Water resistance builds</text>
+  <line x1="40" y1="200" x2="600" y2="200" stroke="#D4C9B0" stroke-width="0.8"/>
+  <text x="48" y="240" fill="#4A4A4A" font-family="sans-serif" font-size="13">Hardwax oil</text>
+  <text x="220" y="240" fill="#4A4A4A" font-family="sans-serif" font-size="13">Factory recoat</text>
+  <text x="400" y="240" fill="#4A4A4A" font-family="sans-serif" font-size="13">Follow vendor interval</text>
+  <line x1="40" y1="252" x2="600" y2="252" stroke="#D4C9B0" stroke-width="0.8"/>
+</svg>

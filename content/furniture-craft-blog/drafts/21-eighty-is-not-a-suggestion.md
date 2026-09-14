@@ -20,11 +20,26 @@ optional_links:
     use: footnote-only
 verify:
   - "House grit sequence on tabletops [VERIFY]"
+graphics:
+  - asset_slug: sanding-grit-sequence
+    path: assets/sanding-grit-sequence/process-flow.svg
+    alt: "Grit progression"
+    caption: "80 → 120 → 150 → 180 → 220 for film finishes."
+graphics:
+  - asset_slug: sanding-grit-sequence
+    path: assets/sanding-grit-sequence/process-flow.svg
+    alt: "Grit progression"
+    caption: "80 → 120 → 150 → 180 → 220 for film finishes."
 ---
 
 Someone jumped to 180. You can see it when the sun is low and the top looks like a pond with a wind on it — little arcs, the memory of 80 grit, filled with finish that only made them glossier. I have been that someone. I was in a hurry. The paper in the 120 slot was gone. The top “felt smooth.” A thumb is not raking light. A thumb is a liar after lunch.
 
 Sanding is not a personality and it is not a punishment. It is a sequence of scratches, each set finer, each set required to erase the last. If you skip, the last coarse set stays. Finish does not hide it. Finish is a lens.
+
+<figure class="craft-figure">
+  <img src="../assets/sanding-grit-sequence/process-flow.svg" alt="Grit progression" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> 80 → 120 → 150 → 180 → 220 for film finishes.</figcaption>
+</figure>
 
 ## The sequence is boring on purpose
 

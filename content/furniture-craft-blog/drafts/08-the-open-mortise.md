@@ -20,11 +20,26 @@ optional_links:
     use: footnote-only
 verify:
   - "Whether a given line uses bridles on trestle uprights — confirm from shop drawings [VERIFY]"
+graphics:
+  - asset_slug: mortise-and-tenon-basics
+    path: assets/mortise-and-tenon-basics/joinery-diagram.svg
+    alt: "Through mortise and tenon (section)"
+    caption: "Cheek faces stay parallel; shoulders define depth stop."
+graphics:
+  - asset_slug: mortise-and-tenon-basics
+    path: assets/mortise-and-tenon-basics/joinery-diagram.svg
+    alt: "Through mortise and tenon (section)"
+    caption: "Cheek faces stay parallel; shoulders define depth stop."
 ---
 
 The bridle is the joint you cut when you want the strength of a mortise-and-tenon and you want to see, from the edge, that the tenon goes all the way through the open slot. It looks like a fork and a tongue. It is a corner that does not hide. I use it on trestle uprights, on frame corners that can stand a little architecture, on a stand for a slab that already has enough mystery in the grain.
 
 The open mortise is three-sided. You can cut it on the table saw with a tenoning jig, or with a router, or with a saw and chisel if the day is that kind of day. The tenon is the full width of the rail, usually, cheeks pared to a tap. Shoulders — there they are again — have to close on both faces or you have a fork that is only a decoration.
+
+<figure class="craft-figure">
+  <img src="../assets/mortise-and-tenon-basics/joinery-diagram.svg" alt="Through mortise and tenon (section)" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Cheek faces stay parallel; shoulders define depth stop.</figcaption>
+</figure>
 
 ## What it is good at
 

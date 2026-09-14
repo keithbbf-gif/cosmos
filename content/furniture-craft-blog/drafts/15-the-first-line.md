@@ -20,11 +20,26 @@ optional_links:
     use: footnote-only
 verify:
   - "House marking convention (face/edge marks) if one is taught on the floor [VERIFY]"
+graphics:
+  - asset_slug: marking-gauge-technique
+    path: assets/marking-gauge-technique/tool-layout.svg
+    alt: "Knife wall at layout line"
+    caption: "Saw kerf rides in the knife wall; waste side is obvious."
+graphics:
+  - asset_slug: marking-gauge-technique
+    path: assets/marking-gauge-technique/tool-layout.svg
+    alt: "Knife wall at layout line"
+    caption: "Saw kerf rides in the knife wall; waste side is obvious."
 ---
 
 The gauge pin — or the little knife in a cutting gauge — follows the fence down the oak, and a bright line appears that is not graphite. Graphite is a suggestion. This line is a wall for a chisel. If I saw past it, I will see the step for the life of the piece. If I stop in it, the joint will look like I meant it.
 
 I mark the face of every rail with a loop and a tail, the old cabinetmaker’s scribble, so I know which face the fence of every tool should kiss. When I skip the scribble I cut a tenon from two different faces and the shoulders do not match and I pretend, for a minute, that the wood moved. The wood did not move. I did.
+
+<figure class="craft-figure">
+  <img src="../assets/marking-gauge-technique/tool-layout.svg" alt="Knife wall at layout line" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Saw kerf rides in the knife wall; waste side is obvious.</figcaption>
+</figure>
 
 ## Knife, not pencil, where a cut will live
 

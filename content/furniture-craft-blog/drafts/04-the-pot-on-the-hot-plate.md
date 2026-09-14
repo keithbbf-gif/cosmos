@@ -27,11 +27,26 @@ optional_links:
 verify:
   - "Bloom-gram strength and pot temperature: confirm against the granule lot in use [VERIFY]"
   - "Do not list a house glue SKU without shop confirmation"
+graphics:
+  - asset_slug: glue-up-clamping-strategy
+    path: assets/glue-up-clamping-strategy/process-flow.svg
+    alt: "Clamp order flow"
+    caption: "Dry fit → glue longest joint → cauls → check square → wipe squeeze-out."
+graphics:
+  - asset_slug: glue-up-clamping-strategy
+    path: assets/glue-up-clamping-strategy/process-flow.svg
+    alt: "Clamp order flow"
+    caption: "Dry fit → glue longest joint → cauls → check square → wipe squeeze-out."
 ---
 
 The first thing is the smell. Not rotten — people who say rotten have not stood over a clean pot. It is animal and sweet and a little like a barn that someone swept. The granules have sat in cold water until they look like brown ice. The hot plate is on low. You do not boil this. Boil it and you have cooked the strength out and you will still get a glue line that looks like you tried.
 
 I brush a thin coat on both cheeks of a tenon that already fits. The pot is right when the glue sheets off the brush and does not drip like tea. Open time is short. That is the point. You are not building a margin for a phone call. You are assembling a joint you dry-fit an hour ago.
+
+<figure class="craft-figure">
+  <img src="../assets/glue-up-clamping-strategy/process-flow.svg" alt="Clamp order flow" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Dry fit → glue longest joint → cauls → check square → wipe squeeze-out.</figcaption>
+</figure>
 
 ## What hide is, without the folklore
 

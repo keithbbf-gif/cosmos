@@ -20,11 +20,26 @@ optional_links:
     use: footnote-only
 verify:
   - "House use of veneer vs solid on which lines [VERIFY]"
+graphics:
+  - asset_slug: resawing-veneer
+    path: assets/resawing-veneer/process-flow.svg
+    alt: "Resaw path"
+    caption: "Tall fence + featherboard; flip book-match at center cut."
+graphics:
+  - asset_slug: resawing-veneer
+    path: assets/resawing-veneer/process-flow.svg
+    alt: "Resaw path"
+    caption: "Tall fence + featherboard; flip book-match at center cut."
 ---
 
 I unroll a leaf of quartered oak and the flake repeats, a bookmatch that would have taken two perfect solid boards and a prayer about movement. The core is stable — plywood, or a lumber core that I trust, or an MDF I will only use where the piece can stand MDF. The face is the oak. The joint at the edge is a band of solid so a hip does not meet a paper-thin arris.
 
 Veneer has a bad twentieth century in the public mouth because cheap print and cheap peel taught people to hate the word. Furniture shops used veneer for four hundred years because a crotch is a gift and a slab of crotch is a split. I use it when the face wants to be one thought and the structure wants to be another. I do not use it to lie about a particleboard box unless the box is an honest painted box and the veneer is not invited.
+
+<figure class="craft-figure">
+  <img src="../assets/resawing-veneer/process-flow.svg" alt="Resaw path" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Tall fence + featherboard; flip book-match at center cut.</figcaption>
+</figure>
 
 ## What it is good for
 

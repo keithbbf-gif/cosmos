@@ -20,11 +20,26 @@ optional_links:
     use: footnote-only
 verify:
   - "Do not promise a number of months to 'final' color — it does not finish [VERIFY any shop talking point]"
+graphics:
+  - asset_slug: oil-finish-maintenance
+    path: assets/oil-finish-maintenance/finish-comparison.svg
+    alt: "Oil finish refresh cycle"
+    caption: "Light wipe coat when water no longer beads."
+graphics:
+  - asset_slug: oil-finish-maintenance
+    path: assets/oil-finish-maintenance/finish-comparison.svg
+    alt: "Oil finish refresh cycle"
+    caption: "Light wipe coat when water no longer beads."
 ---
 
 I set a new cherry apron next to a rail we made two summers ago and the customer thinks I am showing two species. I am not. The old rail has gone to that deep, even russet people mean when they say cherry. The new apron is a blond with a blush, gum streaks, a little green if the light is ugly. I tell them the apron is late. The apron will catch up if we let the sun do some of it and if we do not bury the piece under a tablecloth for a year and then remove the tablecloth and call the pale shadow a defect.
 
 Cherry changes its mind in public. That is the sale, if you tell it. If you do not tell it, the sale is a refinish.
+
+<figure class="craft-figure">
+  <img src="../assets/oil-finish-maintenance/finish-comparison.svg" alt="Oil finish refresh cycle" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Light wipe coat when water no longer beads.</figcaption>
+</figure>
 
 ## Light, oxidation, the tablecloth
 

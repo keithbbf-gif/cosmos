@@ -20,11 +20,26 @@ optional_links:
     use: footnote-only
 verify:
   - "Shellac on knots as pitch block — common practice; not a guarantee in a hot window [VERIFY product]"
+graphics:
+  - asset_slug: reading-grain-for-planing
+    path: assets/reading-grain-for-planing/process-flow.svg
+    alt: "Grain direction arrows"
+    caption: "Cathedral opens toward you = often downhill on face."
+graphics:
+  - asset_slug: reading-grain-for-planing
+    path: assets/reading-grain-for-planing/process-flow.svg
+    alt: "Grain direction arrows"
+    caption: "Cathedral opens toward you = often downhill on face."
 ---
 
 The plane iron finds the knot and the sound changes — a tap, a shine, a little spark if you are romantic and the knot is hard enough. I stop. I look. Is this knot tight, a swirl of living wood, or is it a loose dark plug with a black ring that will fall out in a dry month and leave a hole the size of a thumb?
 
 A tight knot can stay in a rustic top, a painted cupboard, a mill-grade stile that will be the back. A loose knot in a dining field is a hole I will be gluing a plug into, or a board I will turn into parts. I do not “stabilize” a loose knot with a river of thin CA and then sell the table as a calm object. The CA is a glass around a pebble. The pebble still wants to leave.
+
+<figure class="craft-figure">
+  <img src="../assets/reading-grain-for-planing/process-flow.svg" alt="Grain direction arrows" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Cathedral opens toward you = often downhill on face.</figcaption>
+</figure>
 
 ## Tight, loose, the ring
 

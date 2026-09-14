@@ -20,11 +20,26 @@ optional_links:
     use: footnote-only
 verify:
   - "Spline thickness vs slot on the house case line [VERIFY]"
+graphics:
+  - asset_slug: edge-banding-solid-wood
+    path: assets/edge-banding-solid-wood/joinery-diagram.svg
+    alt: "Solid edge on ply"
+    caption: "Slightly proud band; flush after glue cures."
+graphics:
+  - asset_slug: edge-banding-solid-wood
+    path: assets/edge-banding-solid-wood/joinery-diagram.svg
+    alt: "Solid edge on ply"
+    caption: "Slightly proud band; flush after glue cures."
 ---
 
 A miter is a pretty lie: two pieces of long grain meeting as if they had always been a corner, end grain tucked out of sight. Glue on a miter is mostly end grain talking to end grain. End grain drinks and does not hold. The corner opens in a dry month, a proud hairline, and then a little more, and someone says the finish failed. The finish did not fail. The joint was a handshake with no hands.
 
 A spline is a thin bit of hardwood in two slots, long grain running across the miter so the glue has something to be glue on. You can hide it. You can show it as a stripe. I show it when the box can stand a stripe. I hide it when the room wanted a quiet corner. I do not skip it on a miter I expect to last.
+
+<figure class="craft-figure">
+  <img src="../assets/edge-banding-solid-wood/joinery-diagram.svg" alt="Solid edge on ply" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Slightly proud band; flush after glue cures.</figcaption>
+</figure>
 
 ## The slot is the work
 

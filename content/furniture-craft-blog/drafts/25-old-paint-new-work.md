@@ -20,11 +20,26 @@ optional_links:
     use: footnote-only
 verify:
   - "Historic milk-paint recipes vs commercial casein paints — do not conflate without a label [VERIFY]"
+graphics:
+  - asset_slug: milk-paint-on-primer
+    path: assets/milk-paint-on-primer/finish-comparison.svg
+    alt: "Milk paint layers"
+    caption: "Sizing → milk paint → light sand → second coat."
+graphics:
+  - asset_slug: milk-paint-on-primer
+    path: assets/milk-paint-on-primer/finish-comparison.svg
+    alt: "Milk paint layers"
+    caption: "Sizing → milk paint → light sand → second coat."
 ---
 
 Milk paint does not smell like a chemicals aisle. It smells a little like a barn and a little like a kitchen, and it dries flat in a way that makes a cupboard look like it was always in the room. I mix it in a jar, I wait, I stir again, I put a thin coat on a poplar door that will never pretend to be walnut. The first coat looks starved. The second coat looks like a decision.
 
 I like it on pieces that will be touched: a step-back, a child’s cupboard, a chair that can take a chip at the foot and not look ruined. I do not like it as a costume on a plywood box that was routed with “distressing” the same afternoon. Wear is a use. Distress is a product.
+
+<figure class="craft-figure">
+  <img src="../assets/milk-paint-on-primer/finish-comparison.svg" alt="Milk paint layers" width="640" height="420" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Sizing → milk paint → light sand → second coat.</figcaption>
+</figure>
 
 ## What it is
 
