@@ -15,6 +15,10 @@ stage: draft
 
 In 1692, a Swiss physician working in Haarlem published a short Latin book with a boast in the title. Johann Conrad Amman called it *Surdus loquens* — the deaf man speaking. He claimed that a pupil who had never heard speech could be taught to talk by watching the mouth, feeling the throat, and copying the positions of the tongue. The book is small. The claim is not. For the next two centuries, anyone in Europe who wanted to argue that speech could be *taught* — not merely prayed over — had Amman’s pages to wave.
 
+![Johann Conrad Amman](../assets/portraits/johann-conrad-amman.jpg)
+
+*Johann Conrad Amman (1669–1724). Photogravure after the portrait by Johann Friedrich Wettstein. The oil hung in the Museum zu Allerheiligen, Schaffhausen, and was destroyed in the 1 April 1944 bombing. Photographer: Rodoldy, Schaffhausen; collotype: H. Wessner, Basel. Stadtarchiv Schaffhausen / Wikimedia Commons. Public domain.*
+
 There was not yet a profession. There were pulpits, schoolrooms, and a few consulting rooms over shops. The people who worked on other people’s voices came from three trades that did not speak to one another.
 
 <figure class="slpwow-figure slpwow-figure--timeline">
@@ -46,9 +50,21 @@ A second trade was already arguing with itself. In Paris, Charles-Michel de l’
 
 *Charles-Michel de l’Épée. Engraving after Claude-André Deseine. Public domain.*
 
-Amman’s book sat on the oral side of that argument. So, later, did the Bells. A clinician writing in 2026 has to hold two facts at once: the oral teachers produced some of the first systematic descriptions of articulation, and their success, especially after the 1880 Milan congress, was used to push signed languages out of classrooms. History that only cheers the “first speech lesson” is advertising.
+![Samuel Heinicke](../assets/portraits/samuel-heinicke.jpg)
 
-Heinicke’s surviving likenesses are poor. Amman’s are poorer — a postage-stamp reproduction, not a portrait you can hang. The work outlasted the pictures.
+*Samuel Heinicke (1727–1790). Historical likeness published 1912. Tripota / Universität Trier / Wikimedia Commons. Public domain.*
+
+Roch-Ambroise Cucurron Sicard (1742–1822) took Épée’s school after 1789 and kept signed language at the center while the Revolution renamed the building. Jean-Marc Gaspard Itard (1774–1838) was the school’s physician, not its language teacher. He is remembered for Victor of Aveyron — the so-called wild boy — and for treating the institute as a place where a child’s mouth could be written down. The later clinic’s habit of a case note passes through that corridor as much as through Broca’s autopsy room.
+
+![Roch-Ambroise Sicard](../assets/portraits/roch-ambroise-sicard.jpg)
+
+*Roch-Ambroise Cucurron Sicard (1742–1822). Engraving after Charles-Étienne Gaucher. Musée de la Révolution française / Wikimedia Commons. Public domain.*
+
+![Jean-Marc Gaspard Itard](../assets/portraits/jean-marc-gaspard-itard.jpg)
+
+*Jean-Marc Gaspard Itard (1774–1838). Engraving by Clara Nargeot. Bibliothèque interuniversitaire de santé, Paris (CIPB1087). Licence Ouverte.*
+
+Amman’s book sat on the oral side of that argument. So, later, did the Bells. A clinician writing in 2026 has to hold two facts at once: the oral teachers produced some of the first systematic descriptions of articulation, and their success, especially after the 1880 Milan congress, was used to push signed languages out of classrooms. History that only cheers the “first speech lesson” is advertising.
 
 ## The physician who would not yet stay
 

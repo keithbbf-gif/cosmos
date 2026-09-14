@@ -15,8 +15,17 @@ Filename convention: `assets/portraits/<portrait_id>.<ext>`.
 | elsie-fogerty | Elsie Fogerty | `assets/portraits/elsie-fogerty.png` | Public domain | https://commons.wikimedia.org/wiki/File:Anne_Elizabeth_Fogerty_(1865%E2%80%931945).png | Elsie Fogerty. *The Sketch*, 21 September 1898. Lafayette studio. Public domain. | yes |
 | aleksandr-luria | Aleksandr R. Luria | `assets/portraits/aleksandr-luria.jpg` | Commons-stated PD (photographer unknown, c. 1940s) | https://commons.wikimedia.org/wiki/File:Alexander_Luria.jpg | Aleksandr R. Luria, c. 1940s. Photographer unknown. Wikimedia Commons (stated public domain; see caution). | caution |
 | charles-michel-de-lepee | Charles-Michel de l’Épée | `assets/portraits/charles-michel-de-lepee.jpg` | Public domain | https://commons.wikimedia.org/wiki/File:Charles-Michel_de_L%27%C3%89p%C3%A9e.jpg | Charles-Michel de l’Épée. Engraving after Claude-André Deseine. Public domain. | yes (essay illustration) |
-| samuel-heinicke | Samuel Heinicke | `assets/portraits/samuel-heinicke.jpg` | Public domain (small) | https://commons.wikimedia.org/wiki/File:Samuel_Heinicke.jpg | Samuel Heinicke. Historical likeness via Wikimedia Commons. Public domain. | yes (not hero) |
-| johann-conrad-amman | Johann Conrad Amman | `assets/portraits/johann-conrad-amman.jpg` | Public domain (tiny) | https://commons.wikimedia.org/wiki/File:Amman_J_C.jpg | Low-res historical reproduction. Not a lead portrait. | no (quality) |
+| johann-conrad-amman-crumb | Johann Conrad Amman | `assets/portraits/_superseded/johann-conrad-amman-113x149.jpg` | Public domain (tiny) | https://commons.wikimedia.org/wiki/File:Amman_J_C.jpg | First-pack Duchan-site crumb. Superseded by the Wettstein photogravure. | no (quality) |
+| samuel-heinicke-crumb | Samuel Heinicke | `assets/portraits/_superseded/samuel-heinicke-184x248.jpg` | Public domain (tiny) | https://commons.wikimedia.org/wiki/File:Samuel_Heinicke.jpg | First-pack crumb. Superseded by the 1912 plate. | no (quality) |
+| johann-conrad-amman | Johann Conrad Amman | `assets/portraits/johann-conrad-amman.jpg` | Public domain | https://commons.wikimedia.org/wiki/File:Ammann_Stadtarchiv_SH.jpg | Photogravure after Johann Friedrich Wettstein. Original oil destroyed 1 April 1944 (Museum zu Allerheiligen, Schaffhausen). Stadtarchiv Schaffhausen. Public domain. | yes (essay illustration) |
+| samuel-heinicke | Samuel Heinicke | `assets/portraits/samuel-heinicke.jpg` | Public domain | https://commons.wikimedia.org/wiki/File:Samuel_Heinicke_1912.jpg | Historical likeness published 1912. Tripota / Universität Trier. Public domain. | yes (essay illustration) |
+| roch-ambroise-sicard | Roch-Ambroise Sicard | `assets/portraits/roch-ambroise-sicard.jpg` | Public domain | https://commons.wikimedia.org/wiki/File:Roch-Ambroise_Cucurron_Sicard.jpg | Engraving after Charles-Étienne Gaucher. Musée de la Révolution française. Public domain. | yes (essay illustration) |
+| jean-marc-gaspard-itard | Jean-Marc Gaspard Itard | `assets/portraits/jean-marc-gaspard-itard.jpg` | Licence Ouverte | https://commons.wikimedia.org/wiki/File:Itard,_Jean_E._M._Gaspard_CIPB1087.jpg | Engraving by Clara Nargeot. BIU Santé, Paris (CIPB1087). Licence Ouverte. | yes (essay illustration) |
+| franz-joseph-gall | Franz Joseph Gall | `assets/portraits/franz-joseph-gall.jpg` | Public domain | https://commons.wikimedia.org/wiki/File:Franz_Joseph_Gall.jpg | Stipple engraving lettered “Le Dr Franc.-Jos. Gall.” Public domain. | yes (essay illustration) |
+| jean-baptiste-bouillaud | Jean-Baptiste Bouillaud | `assets/portraits/jean-baptiste-bouillaud.jpg` | Licence Ouverte | https://commons.wikimedia.org/wiki/File:Bouillaud,_Jean-Baptiste_(1796-1881)_CIPN21514.jpg | BIU Santé, Paris (CIPN21514). Licence Ouverte. | yes (essay illustration) |
+| ludwig-lichtheim | Ludwig Lichtheim | `assets/portraits/ludwig-lichtheim.jpg` | Public domain (U.S., pub. 1925) | https://commons.wikimedia.org/wiki/File:Ludwig_Lichtheim.jpg | Published J. F. Lehmann, Munich, 1925. NLM IHM. Public domain in the U.S. (publication 1925). | yes (essay illustration) |
+| john-hughlings-jackson | John Hughlings Jackson | `assets/portraits/john-hughlings-jackson.jpg` | Public domain | https://commons.wikimedia.org/wiki/File:John_Hughlings_Jackson.jpg | Photogravure after Lance Calkin, 1895. NLM / Commons. Public domain. | yes (essay illustration) |
+| henry-head | Henry Head | `assets/portraits/henry-head.jpg` | Commons-stated PD (Marceau d. 1922) | https://commons.wikimedia.org/wiki/File:Henry_Head.jpg | Theodore C. Marceau (1859–1922). NLM IHM. Commons PD; NLM uses caution boilerplate (no year). | yes (essay illustration; see caution) |
 | van-riper-charles | Charles Van Riper | — | — | ASHA pioneers exhibit; WMU | Pending plate | no |
 | travis-lee-edward | Lee Edward Travis | — | — | ASHA founding exhibit | Pending plate | no |
 | johnson-wendell | Wendell Johnson | — | — | ASHA / Iowa | Pending plate | no |
@@ -65,12 +74,20 @@ Until `cleared = yes`, embeds must use the pending plate: *Portrait pending — 
 - Commons-stated public domain, unknown photographer, c. 1940s, credit UCSD Luria homepage.
 - **Caution:** a 1940s photograph of a man who died in 1977 may still have an unidentified photographer’s copyright. If a rights holder appears, pull the file.
 
-### Essay illustrations
+### Essay illustrations (third hunt, 14 September 2026)
 
 - Charles-Michel de l’Épée: engraving after Claude-André Deseine. Public domain. Not a modern SLP profile.
-- Samuel Heinicke: small (184 × 248). Document illustration only.
-- Johann Conrad Amman: 113 × 149. Source crumb only.
+- Johann Conrad Amman: photogravure after Friedrich Wettstein (d. 1744). Oil destroyed 1 April 1944. 839 × 1,111. Plate credits: Rodoldy, Schaffhausen; Basel lichtdruck house named on the sheet. Commons PD.
+- Samuel Heinicke: 1912 Tripota plate, 624 × 900. Replaces the 184 × 248 crumb.
+- Roch-Ambroise Sicard: PD engraving after Charles-Étienne Gaucher.
+- Jean-Marc Gaspard Itard: Clara Nargeot engraving, BIU Santé CIPB1087, Licence Ouverte. Local file scaled to 864 × 1,400.
+- Franz Joseph Gall: PD stipple engraving.
+- Jean-Baptiste Bouillaud: BIU Santé CIPN21514, Licence Ouverte. Local file 1,280 × 1,651 (Commons 1,280 px derivative of the 3,259 × 4,204 scan).
+- Ludwig Lichtheim: NLM IHM; **published** München, J. F. Lehmann, 1925 (photomechanical / halftone). U.S. public domain as a 1925 publication. NLM’s page still carries generic “may be under copyright” boilerplate; the publication year is the warrant, same publisher as the Wernicke plate.
+- John Hughlings Jackson: 1895 photogravure after Lance Calkin. PD.
+- Henry Head: Theodore Marceau (d. 1922). Commons PD. NLM record 101418155 carries caution boilerplate and no year. If a rights holder appears, pull the file.
 - Visible Speech chart: `assets/visible-speech-english-chart.png`. Public domain.
+- Superseded crumbs: `assets/portraits/_superseded/`.
 
 ---
 
@@ -106,6 +123,26 @@ Wikidata `P18` is empty for Fröschels, Blanton, Stinchfield Hawk, Charles Gage 
 
 Letters still required: ASHA (Hawk 1939; West; Travis), WMU (Van Riper), Iowa (Johnson), Mayo (Darley), Minnesota (Schuell, Templin, Brookshire), RCSLT/Newcastle (Morley), Wien Geschichte Wiki / IALP / Mount Sinai (Fröschels).
 
+## Third hunt pass (14 September 2026)
+
+Goal: redistribution-clear faces only (PD / CC / Licence Ouverte / museum open access). U.S. photographs generally need **publication in 1930 or earlier** (PD in 2026) or a written grant.
+
+**Cleared and ingested (essay illustrations, not new profiles).** Amman (Wettstein photogravure), Heinicke 1912, Sicard, Itard, Gall, Bouillaud, Lichtheim 1925 Lehmann, Jackson 1895, Head (Marceau). See table.
+
+**Inspected and refused for redistribution.**
+
+- NLM IHM `[Smiley Blanton]`, unique ID 101434725, image B06262. Vanderbilt contribution, **publication 1955**, “may be under copyright.” Not downloaded.
+- Wisconsin *Badger* 1916, 1917, 1918, 1919, 1921 (Internet Archive). Blanton appears in the faculty *directory* (1917 p. 42: “Smiley Blanton, SN, Assistant Professor of Public Speaking”) and as a Sigma Nu “member in faculty.” The 1917 Sigma Nu plate is a student group; the caption list does not include him. No usable face.
+- Iowa *Hawkeye* 1921 names “Sarah Stinchfield” in a women’s organization list. Not taken as a portrait without a labelled individual plate.
+- Iowa *Hawkeye* 1921 and 1923 OCR: no Travis or Wendell Johnson faculty plates.
+- Wikidata `P18` still empty for Fröschels, Blanton, Stinchfield Hawk, Travis, Johnson, Charles Gage Van Riper, Schuell, Goodglass, Darley, Morley, Eisenson.
+- Commons `File:Charles Van Riper.jpg` remains Charles King Van Riper (Carmel). Do not use.
+- Commons `File:Ammann Loquela abebooks.jpg` is a modern bookseller product shot. Not used.
+- John Wallis Kneller file carries third-party copyright claims on the NPG reproduction. Not used.
+- ASHA omeka still not scraped.
+
+**Still no file for the mid-century ASHA / VA / Mayo sitters.** Those photographs sit in copyright. Letters, not scraping.
+
 ## Refused
 
 - AI-generated “historical portraits”
@@ -117,6 +154,6 @@ Letters still required: ASHA (Hawk 1939; West; Travis), WMU (Van Riper), Iowa (J
 | License in this pack | Attribution | Commercial WP use |
 |----------------------|-------------|-------------------|
 | Public domain / CC0 | Credit still good practice | Yes |
-| Licence Ouverte (Scripture) | Required | Yes, with attribution |
-| Commons-stated PD, photographer unknown (Luria) | Credit + caution | Editor’s risk call |
+| Licence Ouverte (Scripture, Itard, Bouillaud) | Required | Yes, with attribution |
+| Commons-stated PD, photographer unknown (Luria) or NLM caution boilerplate (Head) | Credit + caution | Editor’s risk call |
 | ASHA omeka (not downloaded) | N/A | No until permission |

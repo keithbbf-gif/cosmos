@@ -14,7 +14,7 @@ stage: draft
 
 # Emil Fröschels
 
-> **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the pack date. See `PORTRAIT_SOURCES.md` for hunt status. Do not invent or generate a substitute likeness.
+> **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the third hunt (14 September 2026). Wikidata has no `P18`; Wellcome and NLM IHM returned no portrait; Wien Geschichte Wiki is biography only. See `PORTRAIT_SOURCES.md`. Do not invent or generate a substitute likeness.
 
 Emil Fröschels was born in Vienna on 24 August 1884 and died in New York on 18 January 1972. Between those cities he named a profession, chaired its international association for twenty-nine years, lost a clinic to the Anschluss, and started again.
 

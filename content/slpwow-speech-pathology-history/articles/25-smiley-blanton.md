@@ -14,7 +14,7 @@ stage: draft
 
 # Smiley Blanton
 
-> **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the pack date. University of Tennessee holds the Blanton papers. See `PORTRAIT_SOURCES.md`. Do not invent or generate a substitute likeness.
+> **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the third hunt (14 September 2026). The 1917 Wisconsin *Badger* lists him in the faculty directory and as a Sigma Nu faculty member; those pages are typeset names, not a face. NLM’s 1955 Vanderbilt still (IHM 101434725) is marked as possibly under copyright. University of Tennessee holds the papers. See `PORTRAIT_SOURCES.md`. Do not invent or generate a substitute likeness.
 
 Smiley Jordan Blanton was born 7 May 1882 in Unionville, Tennessee, to Hiram and Sallie Brunson Blanton. He died 30 October 1966 and is buried at Mount Olivet in Nashville. In between he opened the first American university speech clinic, sat with Freud, and ended in a Manhattan counseling office with Norman Vincent Peale. The last chapter surprises people who only know the Madison door.
 

@@ -14,7 +14,7 @@ Writer drafts (40 articles) landed 14 September 2026. Seed SVGs are embedded in 
 | `lee-edward-travis` | Pending portrait plate | `embeds/lee-edward-travis.md` | `articles/28-lee-edward-travis.md` | Rights **not** cleared | **Plate only** |
 | `wendell-johnson` | Pending portrait plate | `embeds/wendell-johnson.md` | `articles/29-wendell-johnson.md` | Rights **not** cleared | **Plate only** |
 
-Cleared photographic portraits (see `PORTRAIT_SOURCES.md`) are embedded in the Bell, Broca, Wernicke, Gutzmann, Scripture, Fogerty, and Luria profiles, plus essay illustrations for de l’Épée and Visible Speech.
+Cleared photographic portraits (see `PORTRAIT_SOURCES.md`) are embedded in the Bell, Broca, Wernicke, Gutzmann, Scripture, Fogerty, and Luria profiles, plus essay illustrations for Amman, de l’Épée, Heinicke, Sicard, Itard, Gall, Bouillaud, Lichtheim, Jackson, Head, and Visible Speech.
 
 ## Article drafts
 

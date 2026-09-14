@@ -46,7 +46,7 @@ Stop the hunt when a file is PD, CC BY, CC BY-SA, CC0, Licence Ouverte, or a mus
 ## Crop and size
 
 - Lead portraits in this pack were resized to a long edge of about 1,200–1,400 px where the original was huge (Bell NPG scan was 4,726 × 7,001).
-- Do not upscale the small historical reproductions (Amman, Heinicke). If they stay, treat them as documents, not hero images.
+- Do not upscale the superseded crumbs in `assets/portraits/_superseded/`. The Wettstein/Amman photogravure and the 1912 Heinicke plate are the usable files.
 - Preferred web rendition: JPEG q≈80–85 or original PNG for line art (Visible Speech chart).
 
 ## Objects that are not portraits (usable)

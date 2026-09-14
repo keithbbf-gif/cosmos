@@ -17,13 +17,35 @@ In April 1861, at the Bicêtre hospital outside Paris, a man who had been nearly
 
 The argument was not born in 1861. Franz Joseph Gall had already assigned “language” a bump on the skull. Jean-Baptiste Bouillaud had already bet that the frontal lobes mattered. Broca had a lesion he could point to in a wet room, and a patient whose life had been written down. That combination traveled.
 
+![Franz Joseph Gall](../assets/portraits/franz-joseph-gall.jpg)
+
+*Franz Joseph Gall (1758–1828). Stipple engraving, lettered “Le Dr Franc.-Jos. Gall.” Wikimedia Commons. Public domain.*
+
+![Jean-Baptiste Bouillaud](../assets/portraits/jean-baptiste-bouillaud.jpg)
+
+*Jean-Baptiste Bouillaud (1796–1881). Bibliothèque interuniversitaire de santé, Paris (CIPN21514). Licence Ouverte.*
+
 ## Two maps, then a fight
 
-Carl Wernicke was twenty-six and in Breslau when he published *Der aphasische Symptomencomplex* (1874). He described a different failure: speech that flowed and missed its nouns, with poor understanding of what other people said. He put that failure farther back, in the superior temporal lobe, and he drew a connection between the two regions. Damage the connection, he said, and you get a third picture — speech that cannot find the words it can still understand.
+Carl Wernicke was twenty-six and in Breslau when he published *Der aphasische Symptomencomplex* (1874). He described a different failure: speech that flowed and missed its nouns, with poor understanding of what other people said. He put that failure farther back, in the superior temporal lobe, and he drew a connection between the two regions. Damage the connection, he said, and you get a third picture — speech that cannot find the words it can still understand. Ludwig Lichtheim, in 1885, drew the house-diagram that later textbooks still mean when they say “Wernicke–Lichtheim”: boxes for a motor center, a sensory center, and the concepts between them, with lines that can break. The diagram is a teaching object. It is not a photograph of a brain.
+
+![Ludwig Lichtheim](../assets/portraits/ludwig-lichtheim.jpg)
+
+*Ludwig Lichtheim (1845–1928). Published by J. F. Lehmann, Munich, 1925. NLM Images from the History of Medicine / Wikimedia Commons. Public domain (U.S.: first published 1925).*
 
 The names stuck. Broca’s aphasia. Wernicke’s aphasia. Conduction aphasia. Medical students still meet them in that order, as if the brain had sat for a group portrait in the 1870s and never moved.
 
-It moved. John Hughlings Jackson in London refused the idea that a “center” held a little man who spoke. He watched patients who could swear and could not ask for water. Henry Head, after the First World War, sat with wounded men and wrote *Aphasia and Kindred Disorders of Speech* (1926) in a prose that still feels like a person in a chair, not a diagram. Kurt Goldstein, who had run a Frankfurt institute for brain-injured soldiers, fled the Nazis and kept arguing that the whole organism reorganizes after injury. The localizationists and the holists spent fifty years talking past one another. Speech therapy inherited both stacks of paper.
+It moved. John Hughlings Jackson in London refused the idea that a “center” held a little man who spoke. He watched patients who could swear and could not ask for water. Henry Head, after the First World War, sat with wounded men and wrote *Aphasia and Kindred Disorders of Speech* (1926) in a prose that still feels like a person in a chair, not a diagram.
+
+![John Hughlings Jackson](../assets/portraits/john-hughlings-jackson.jpg)
+
+*John Hughlings Jackson (1835–1911). Photogravure after Lance Calkin, 1895. NLM / Wikimedia Commons. Public domain.*
+
+![Henry Head](../assets/portraits/henry-head.jpg)
+
+*Henry Head (1861–1940). Photograph by Theodore C. Marceau (1859–1922). NLM Images from the History of Medicine / Wikimedia Commons. Public domain (photographer’s life plus seventy years; Commons-stated).*
+
+Kurt Goldstein, who had run a Frankfurt institute for brain-injured soldiers, fled the Nazis and kept arguing that the whole organism reorganizes after injury. The localizationists and the holists spent fifty years talking past one another. Speech therapy inherited both stacks of paper.
 
 ## What the ward did not hire
 

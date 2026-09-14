@@ -13,7 +13,7 @@ stage: draft
 
 # Vienna, 1924: Logopedics Gets a Name
 
-> **Portrait placeholder.** Emil Fröschels (1884–1972). No public-domain or clearly licensed portrait located as of the pack date. See `PORTRAIT_SOURCES.md` for hunt status. Do not invent or generate a substitute likeness.
+> **Portrait placeholder.** Emil Fröschels (1884–1972). No public-domain or clearly licensed portrait located as of the third hunt (14 September 2026). See `PORTRAIT_SOURCES.md`. Do not invent or generate a substitute likeness.
 
 In 1924 Emil Fröschels gave the work a word he could take across a border. *Logopädie* — logopedics — the study and treatment of speech defects, said as if it were already a science. He was forty, a laryngologist, director of a speech and hearing service in Vienna, and restless about names. “Speech correction” was an American classroom phrase. “Phoniatrics” was a Berlin medical chair. He wanted a term that could hold physicians, teachers, and the people who did the daily drills.
 

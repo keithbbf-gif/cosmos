@@ -36,6 +36,8 @@ Articles cite contested facts in the text. This file holds the warrant.
 ## Books by the people in the series (first or defining editions)
 
 - Amman, Johann Conrad. *Surdus loquens.* 1692. English as *A Dissertation on Speech*, later reprints.
+- Itard, Jean-Marc Gaspard. *De l’éducation d’un homme sauvage.* Paris, 1801. (Victor of Aveyron; context for the Paris deaf-school physician, not a speech-therapy manual.)
+- Head, Henry. *Aphasia and Kindred Disorders of Speech.* 2 vols. Cambridge: Cambridge University Press, 1926.
 - Bell, Alexander Melville. *Visible Speech: The Science of Universal Alphabetics.* London, 1867.
 - Bell, Alexander Melville. *Principles of Speech and Dictionary of Sounds.* Washington, D.C.: Volta Bureau, 1900.
 - Broca, Paul. “Remarques sur le siège de la faculté du langage articulé…” *Bulletin de la Société Anatomique*, 1861. English: York University *Classics in the History of Psychology* (autopsy +24h; specimen shown to the Société d’Anthropologie).
@@ -99,6 +101,8 @@ Articles cite contested facts in the text. This file holds the warrant.
 - VCU Social Welfare History Project. “Alexander Graham Bell and His Role in Oral Education.”
 - Volta Bureau / Alexander Graham Bell Association institutional histories.
 - Second International Congress on Education of the Deaf, Milan, 1880 — later historical accounts of the oralist resolution.
+- Musée de la Révolution française / Commons file page for Sicard (Gaucher engraving).
+- Stadtarchiv Schaffhausen. “Johann Conrad Ammann, Dr. med., Taubstummenlehrer” (notes the destroyed Wettstein portrait, 1 April 1944).
 
 ## British clinic timeline
 

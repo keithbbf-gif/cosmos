@@ -24,8 +24,8 @@ Portrait key:
 
 | # | Type | Slug / file | Title | Dates | Portrait |
 |---|------|-------------|-------|-------|----------|
-| 01 | era | `articles/01-before-the-clinic.md` | Before the Clinic: Elocution, Oratory, and the Speaking Voice | c. 1692–1910 | n/a |
-| 02 | era | `articles/02-medicine-finds-the-lesion.md` | Medicine Finds the Lesion | 1861–1915 | n/a |
+| 01 | era | `articles/01-before-the-clinic.md` | Before the Clinic: Elocution, Oratory, and the Speaking Voice | c. 1692–1910 | essay files (Amman, Épée, Heinicke, Sicard, Itard) |
+| 02 | era | `articles/02-medicine-finds-the-lesion.md` | Medicine Finds the Lesion | 1861–1915 | essay files (Gall, Bouillaud, Lichtheim, Jackson, Head) |
 | 03 | era | `articles/03-visible-speech-and-the-bells.md` | Visible Speech and the Bell Family | 1864–1908 | chart in `assets/` |
 | 04 | era | `articles/04-german-phoniatrics.md` | The Berlin School: Phoniatrics as a Medical Trade | 1887–1922 | Gutzmann file |
 | 05 | era | `articles/05-vienna-1924-logopedics.md` | Vienna, 1924: Logopedics Gets a Name | 1907–1938 | hunt (Fröschels) |
@@ -75,10 +75,11 @@ Birth–death years below are the ones used in copy. Where a respectable source 
 
 | Figure | Dates | Why they are here | Uncertainty |
 |--------|-------|-------------------|-------------|
-| Johann Conrad Amman | 1669–1724 | *Surdus loquens* (1692); early oral teaching of deaf pupils | Portrait in repo is a low-res historical reproduction only |
+| Johann Conrad Amman | 1669–1724 | *Surdus loquens* (1692); early oral teaching of deaf pupils | Lead likeness is a photogravure after Wettstein; the oil was destroyed in 1944 |
 | Alexander Melville Bell | 1819–1905 | *Visible Speech* (1867); elocution + articulation teaching | — |
 | Alexander Graham Bell | 1847–1922 | Visible Speech teacher; Volta Bureau; oralism (in context) | — |
 | Paul Broca | 1824–1880 | 1861 localization; medical ancestor, not a clinician of the modern field | — |
+| Ludwig Lichtheim | 1845–1928 | 1885 house-diagram; later “Wernicke–Lichtheim” teaching object | Essay 02 illustration; not a solo profile |
 | Carl Wernicke | 1848–1905 | Sensory aphasia, 1874 | — |
 | Hermann Gutzmann Sr. | 1865–1922 | Founder of phoniatrics as an academic medical specialty (1905 lecture) | — |
 | Edward Wheeler Scripture | 1864–1945 | Yale lab; Vanderbilt Speech Clinic (Columbia); London clinic | Career dates after 1915 have a few conflicting station lists |
