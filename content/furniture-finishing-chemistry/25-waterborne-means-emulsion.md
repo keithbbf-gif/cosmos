@@ -56,13 +56,12 @@ read as plastic if you build it like oil PU.
 ## It is still a chemical product
 
 Water cleanup is not a children's craft. There
-are coalescents, biocides, sometimes isocyanate
-crosslinkers in the *commercial two-component*
-waterbornes — those are shop products with an
-SDS, not a kitchen upgrade. This series stays
-with one-component consumer and small-shop
+are coalescents and biocides in the ordinary
+cans. Two-component shop waterbornes exist as
+commercial products with an SDS; this series
+stays with one-component consumer and small-shop
 waterbornes. We will not walk a part-B
-isocyanate mix.
+crosslinker mix.
 
 You still want air. You still want a respirator
 if the label and your lungs vote that way. You
