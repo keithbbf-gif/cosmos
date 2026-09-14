@@ -23,6 +23,14 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 SCHEMA = "cosmos-surfaces-kit/1"
 CHANNEL_TYPES = ("API", "CLI", "DOM", "MCP", "CHAT")
+
+
+class SurfacesKitError(RuntimeError):
+    """kind in {BAD_REQUEST, SURFACES_NOT_COMPOSED, UNKNOWN_SURFACE, UNQUALIFIED}."""
+
+    def __init__(self, kind: str, detail: str):
+        self.kind = kind
+        super().__init__(f"[{kind}] {detail}")
 ROLD_ROOT = Path(r"V:\Ai\ROLD")
 ROLD_FILES = ("GLOSSARY.md", "RULES.md", "SCARS.md")
 SCARS_FILE = ROLD_ROOT / "SCARS.md"
@@ -230,6 +238,38 @@ def _contracts(kernel) -> dict:
         return {"kind": "OK", "rows": rows if isinstance(rows, list) else []}
     except Exception as e:  # noqa: BLE001
         return {"kind": "BROKE", "detail": f"{type(e).__name__}: {e}"[:200], "rows": []}
+
+
+def save_surface(paths, body: dict, kernel=None) -> dict:
+    """POST /api/v1/surfaces — measure surfaces; never mkdir; never invent reachability."""
+    if not isinstance(body, dict):
+        raise SurfacesKitError("BAD_REQUEST", "body must be a JSON object")
+    sf = getattr(kernel, "surfaces", None) if kernel is not None else None
+    if sf is None or not hasattr(sf, "measure"):
+        raise SurfacesKitError(
+            "SURFACES_NOT_COMPOSED",
+            "kernel has no surfaces map — composition fault, not an empty catalog",
+        )
+    action = str(body.get("action") or "measure_canon").strip().lower()
+    from cosmos_surfaces import CANON_SURFACE_IDS, measure_canon_surfaces
+
+    if action in ("measure_canon", "check"):
+        measured = measure_canon_surfaces(sf, paths)
+        return {"action": action, "measured": measured, "surfaces": sf.report()}
+    if action == "measure":
+        sid = str(body.get("id") or "").strip()
+        if not sid:
+            raise SurfacesKitError("BAD_REQUEST", "measure requires id")
+        try:
+            rec = sf.measure(sid)
+        except Exception as e:  # noqa: BLE001
+            from cosmos_surfaces import SurfaceError
+
+            if isinstance(e, SurfaceError):
+                raise SurfacesKitError(e.kind, str(e)) from e
+            raise
+        return {"action": action, "measurement": rec, "surfaces": sf.report()}
+    raise SurfacesKitError("BAD_REQUEST", f"unknown action {action!r}")
 
 
 def snapshot(kernel) -> dict:

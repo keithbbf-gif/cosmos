@@ -125,7 +125,7 @@ def main() -> int:
     k = Kernel(root, worker="core")
     check("writing kernel seeds cosmos-live surface",
           lambda: "cosmos-live" in k.surfaces.state()
-          and k.surfaces.report()[0]["reachable"] is True)
+          and next(r for r in k.surfaces.report() if r["id"] == "cosmos-live")["reachable"] is True)
     head_before = k.ledger.head_seq()
     kr = Kernel(root, worker="reader", read_only=True)
     check("read-only kernel COMPOSES surfaces and does not reseed",
@@ -146,13 +146,18 @@ def main() -> int:
             return e.code, json.loads(e.read().decode("utf-8"))
 
     code, body = get("/api/v1/surfaces")
+    surf_ids = {s["id"] for s in body["surfaces"]}
     check("GET /surfaces without a token -> 200 on loopback",
-          lambda: code == 200 and {s["id"] for s in body["surfaces"]} == {"cosmos-live"})
+          lambda: code == 200 and "cosmos-live" in surf_ids)
+    check("GET /surfaces registers canon GDX (UNMEASURED until dest configured)",
+          lambda: any(s["id"] == "GDX" and s["reachable"] is None
+                      for s in body["surfaces"]))
     code, body = get("/api/v1/surfaces", svc.token)
+    live_row = next(s for s in body["surfaces"] if s["id"] == "cosmos-live")
     check("GET /surfaces serves measured cosmos-live over the wire",
-          lambda: code == 200 and body["surfaces"][0]["id"] == "cosmos-live"
-          and body["surfaces"][0]["reachable"] is True
-          and body["surfaces"][0]["free_gb"] is not None)
+          lambda: code == 200 and live_row["id"] == "cosmos-live"
+          and live_row["reachable"] is True
+          and live_row["free_gb"] is not None)
     check("GET /surfaces carries served_at + measured_at",
           lambda: body.get("served_at") and body.get("measured_at"))
     check("GET /surfaces is a read - ledger head did not move",

@@ -129,7 +129,7 @@ class Kernel:
         # (runtime root) so GET /api/v1/surfaces is a measured catalog, not 404.
         self.surfaces = Surfaces(self.ledger, clock=clock)
         if not read_only:
-            seed_host_surfaces(self.surfaces, self.paths.root)
+            seed_host_surfaces(self.surfaces, self.paths.root, self.paths)
         # Durable conversational sessions + the ITC/corpus resource broker.
         # Construction is a read (a projection over the ledger) - safe in a
         # read-only kernel; neither writes on construct. ITC's fetcher is the

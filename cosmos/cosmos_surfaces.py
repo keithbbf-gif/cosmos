@@ -27,12 +27,30 @@ SCARS THIS CLOSES:
 """
 from __future__ import annotations
 
+import hashlib
+import json
+import os
 import shutil
 import time
+import uuid
 from pathlib import Path
 from typing import Callable, Optional
 
 from cosmos_ledger import Ledger
+
+# cDeck Surfaces pane canon rows (GET /api/v1/surfaces ids, upper case).
+CANON_SURFACE_IDS = ("ROLD", "ITC", "GDX", "ODX", "TB1")
+
+_CANON_CLAIMS: dict[str, tuple[str, str, str]] = {
+    "ROLD": ("LOCAL", "ARCHIVE", "rold://operator/ROLD"),
+    "ITC": ("PUBLISH", "PUBLISH", "https://ai.dchambers.com"),
+    "GDX": ("CLOUD", "BACKUP", "gdrive://BTS_SGH_Handoff"),
+    "ODX": ("CLOUD", "BACKUP", "onedrive://operator/ODX"),
+    "TB1": ("LOCAL", "ARCHIVE", "local://TB1"),
+}
+
+_BACKUP_TARGETS_NAME = "backup_targets.json"
+_BUCKET_WORKER_NAMES = ("bucket_worker.json", "node_bucket_worker.json")
 
 # A surface's PHYSICAL/reach class - where the bytes actually live and whether reaching
 # them leaves this machine. LOCAL never leaves; LAN/CLOUD do; PUBLISH is a read mirror.
@@ -232,6 +250,144 @@ class Surfaces:
         return rows
 
 
+def _read_json_file(path: Path) -> dict | None:
+    if not path.is_file():
+        return None
+    try:
+        raw = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return None
+    return raw if isinstance(raw, dict) else None
+
+
+def _dest_from_backup_targets(cfg: dict | None, kind: str) -> Path | None:
+    if not cfg:
+        return None
+    targets = cfg.get("targets")
+    if not isinstance(targets, dict):
+        return None
+    row = targets.get(kind)
+    if not isinstance(row, dict):
+        return None
+    dest = row.get("dest")
+    if not isinstance(dest, str) or not dest.strip():
+        return None
+    return Path(dest.strip())
+
+
+def _dest_from_bucket_worker(cfg: dict | None, key: str) -> Path | None:
+    if not cfg:
+        return None
+    dest = cfg.get("dest")
+    if not isinstance(dest, dict):
+        return None
+    val = dest.get(key) or dest.get(key.lower())
+    if not isinstance(val, str) or not val.strip():
+        return None
+    return Path(val.strip())
+
+
+def resolve_surface_paths(paths) -> dict[str, Path | None]:
+    """Operator-configured roots only — never a well-known drive literal."""
+    out: dict[str, Path | None] = {sid: None for sid in CANON_SURFACE_IDS}
+    if paths is None:
+        return out
+    cfg_dir = paths.role("config")
+    backup = _read_json_file(cfg_dir / _BACKUP_TARGETS_NAME)
+    out["GDX"] = _dest_from_backup_targets(backup, "gdx")
+    out["ODX"] = _dest_from_backup_targets(backup, "odx")
+    out["TB1"] = _dest_from_backup_targets(backup, "tb1")
+    bucket_cfg = None
+    for name in _BUCKET_WORKER_NAMES:
+        bucket_cfg = _read_json_file(cfg_dir / name)
+        if bucket_cfg:
+            break
+    if out["GDX"] is None:
+        out["GDX"] = _dest_from_bucket_worker(bucket_cfg, "GDX")
+    if out["ODX"] is None:
+        out["ODX"] = _dest_from_bucket_worker(bucket_cfg, "ODX")
+    if out["TB1"] is None:
+        out["TB1"] = _dest_from_bucket_worker(bucket_cfg, "TB1")
+    rold = Path(r"V:\Ai\ROLD")
+    out["ROLD"] = rold if rold.is_dir() else None
+    return out
+
+
+def exchange_put_verify_probe(root: Path) -> Probe:
+    """GDX BTS_SGH_Handoff exchange: atomic put, read back, verify hash, remove probe file."""
+
+    def _probe():
+        p = Path(root)
+        if not p.is_dir():
+            return False, None, f"NO_DEST: not a directory ({p})"
+        probe_dir = p / ".cosmos-gdx-probe"
+        try:
+            probe_dir.mkdir(exist_ok=True)
+        except OSError as e:
+            return False, None, f"probe dir: {type(e).__name__}"
+        token = uuid.uuid4().hex
+        payload = {"schema": "cosmos-gdx-probe/1", "token": token}
+        body = json.dumps(payload, sort_keys=True).encode("utf-8")
+        digest = hashlib.sha256(body).hexdigest()
+        tmp = probe_dir / f".put-{token}.tmp"
+        final = probe_dir / f"put-{token}.json"
+        try:
+            tmp.write_bytes(body)
+            os.replace(tmp, final)
+            read_back = final.read_bytes()
+            if hashlib.sha256(read_back).hexdigest() != digest:
+                return False, None, "readback hash mismatch"
+            parsed = json.loads(read_back.decode("utf-8"))
+            if parsed.get("token") != token:
+                return False, None, "readback token mismatch"
+            final.unlink(missing_ok=True)
+        except OSError as e:
+            return False, None, f"put+verify: {type(e).__name__}: {e}"
+        try:
+            free = int(shutil.disk_usage(p).free)
+        except OSError:
+            free = None
+        return True, free, f"atomic put+verify ok ({p})"
+
+    return _probe
+
+
+def _itc_publish_probe(url: str) -> Probe:
+    def _probe():
+        try:
+            import urllib.error
+            import urllib.request
+
+            req = urllib.request.Request(  # noqa: S310
+                url, method="HEAD", headers={"User-Agent": "cosmos-surfaces/1"})
+            with urllib.request.urlopen(req, timeout=15) as resp:  # noqa: S310
+                code = int(resp.status)
+            ok = 200 <= code < 400
+            return ok, None, f"HEAD {url} -> {code}"
+        except Exception as e:  # noqa: BLE001
+            return False, None, f"HEAD {url}: {type(e).__name__}"
+
+    return _probe
+
+
+def _canon_probe(surface_id: str, dest: Path | None) -> Probe:
+    if surface_id in ("GDX", "ODX"):
+        if dest is None:
+            return lambda: (False, None, "NO_DEST: not configured on this host")
+        return exchange_put_verify_probe(dest)
+    if surface_id == "ROLD":
+        if dest is None:
+            return lambda: (False, None, "NO_DEST: ROLD tree not present")
+        return local_disk_probe(str(dest))
+    if surface_id == "TB1":
+        if dest is None:
+            return lambda: (False, None, "NO_DEST: TB1 not configured")
+        return local_disk_probe(str(dest))
+    if surface_id == "ITC":
+        return _itc_publish_probe("https://ai.dchambers.com")
+    return lambda: (False, None, f"no probe for {surface_id}")
+
+
 def local_disk_probe(path: str) -> Probe:
     """() -> (reachable, free_bytes, detail) for a filesystem root."""
 
@@ -248,18 +404,46 @@ def local_disk_probe(path: str) -> Probe:
     return _probe
 
 
-def seed_host_surfaces(sf: "Surfaces", root: Path | str) -> list[str]:
+def seed_host_surfaces(sf: "Surfaces", root: Path | str, paths=None) -> list[str]:
     """Idempotent: register + probe + measure the COSMOS runtime root.
 
     One LOCAL SCRATCH surface so GET /api/v1/surfaces is never an empty
-    catalog on a writing boot. Extra volumes are claims the operator
-    registers; this seed does not invent V:\\ / P:\\ rows in tests.
+    catalog on a writing boot. Five canon names (ROLD ITC GDX ODX TB1) are
+    registered for cDeck; dest paths come from config only. reachable stays
+    None until a probe runs (measure() or POST /api/v1/surfaces check).
     """
-    sid = "cosmos-live"
+    touched: list[str] = []
     root_s = str(Path(root))
+    sid = "cosmos-live"
     if sid not in sf.state():
         sf.register(sid, "LOCAL", root_s, "SCRATCH")
     sf.attach_probe(sid, local_disk_probe(root_s))
     if sf.state().get(sid, {}).get("measurement") is None:
         sf.measure(sid)
-    return [sid]
+    touched.append(sid)
+
+    resolved = resolve_surface_paths(paths)
+    for canon_id in CANON_SURFACE_IDS:
+        kind, role, claim_path = _CANON_CLAIMS[canon_id]
+        if canon_id not in sf.state():
+            sf.register(canon_id, kind, claim_path, role)
+        dest = resolved.get(canon_id)
+        sf.attach_probe(canon_id, _canon_probe(canon_id, dest))
+        touched.append(canon_id)
+    return touched
+
+
+def measure_canon_surfaces(sf: "Surfaces", paths=None) -> list[dict]:
+    """Run probes for canon rows whose dest is configured (or ITC HEAD)."""
+    resolved = resolve_surface_paths(paths)
+    out: list[dict] = []
+    for canon_id in CANON_SURFACE_IDS:
+        if canon_id not in sf.state():
+            continue
+        if canon_id != "ITC" and resolved.get(canon_id) is None:
+            continue
+        try:
+            out.append(sf.measure(canon_id))
+        except SurfaceError:
+            continue
+    return out
