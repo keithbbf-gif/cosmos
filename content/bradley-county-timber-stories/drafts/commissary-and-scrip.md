@@ -3,7 +3,8 @@ title: "Commissary and scrip"
 slug: commissary-and-scrip
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 15
 word_target: 1400-2200
 lane: bradleylumbercompany.com
@@ -37,7 +38,7 @@ Monday, 3 January 1949, tied the store to the weather. Mrs. J. E. Stewart, the m
 
 Independent Warren kept selling. Silva’s block-by-block is a poem of counters: Cunningham’s Grocery, Oscar Kohler’s barber, Botts Clothing, Gannaway Drug, Bailey’s then Wayne’s, Ederington’s department store with an Art Deco skin in the 1940s, Kroger by the late 1930s at 222, Imogene’s Fashion Center — Imogene French, married to Bill French of the Ben Franklin — a Jewish couple on South Main in a mill town that also had a Presbyterian church on the Citgo corner until at least 1938. Tomato money, after the 1920s, joined mill money on those sidewalks. The Pink Tomato Festival would wait until 1956. The fruit was already in the ledger. A commissary that must settle weekly is, among other things, a competitor with a festival the merchants would later invent to keep the square busy when the cut thinned.
 
-Mill-town America likes to photograph the company store as a closed system: one counter, one ticket, one debt. Warren’s photograph, if the camera is honest, includes the transom, the metal that later hid it, the post office on the commissary’s grave, the dollar store in the mill store’s body, and the grocery on the square that delivered. The particular is a 1920 brick with two addresses. The type is the southern payroll captured for a week at a time. The remaining object is the address. 215 South Main. You can still stand under the covered transom and know that a ticket once had to become a Saturday before it became a Sunday.
+Mill-town America likes to photograph the company store as a closed system: one counter, one ticket, one debt. Warren’s photograph, if the camera is honest, includes the transom, the metal that later hid it, the post office on the commissary’s grave, the dollar store in the mill store’s body, and the grocery on the square that delivered. The particular is a 1920 brick with two addresses. The type is the southern payroll captured for a week at a time. The remaining object is the address. 215 South Main. Under the covered transom at 215 South Main, a ticket once had to become a Saturday before it became a Sunday.
 
 ## Sources
 

@@ -1,7 +1,8 @@
 ---
 title: Index — Bradley County Timber Stories
 status: staged
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 series: bradley-county-timber-stories
 lane: bradleylumbercompany.com
 ---
@@ -10,7 +11,7 @@ lane: bradleylumbercompany.com
 
 Historical essays for the bradleylumbercompany.com lane. Ken Burns tone. No catalog. No prices. Bradley Brand Furniture appears only as the hardwood afterlife of the same county.
 
-Canonical slugs: `writer-slugs.json` (44). Drafts live in `drafts/`. All articles: `status: staged`, `commerce: false`, `voice_check: human`. Voice: `STYLE_GUIDE.md`. Sources: `BIBLIOGRAPHY.md`. Counts: `MANIFEST.md`. Staging: `STAGING_README.md`.
+Canonical slugs: `writer-slugs.json` (44). Drafts live in `drafts/`. All articles: `status: staged`, `commerce: false`, `voice_check: edited`. Voice: `STYLE_GUIDE.md`. Sources: `BIBLIOGRAPHY.md`. Counts: `MANIFEST.md`. Staging: `STAGING_README.md`.
 
 A sister pack covers Wilmar / Saline River local history. Do not merge the two.
 

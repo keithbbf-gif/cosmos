@@ -3,7 +3,8 @@ title: "Before the rail, the small mills"
 slug: before-the-rail-the-small-mills
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 5
 word_target: 1400-2200
 lane: bradleylumbercompany.com

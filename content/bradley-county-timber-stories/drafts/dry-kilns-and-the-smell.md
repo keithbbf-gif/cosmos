@@ -3,7 +3,8 @@ title: "Dry kilns and the smell"
 slug: dry-kilns-and-the-smell
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 19
 word_target: 1400-2200
 lane: bradleylumbercompany.com
@@ -35,7 +36,7 @@ Women on the floor in the First World War, slacks under the dress rule, worked i
 
 Monday’s storm in 1949 threw the mill’s iron into yards and living rooms. A bale of cotton plastered a fence like down, the later memory says; steel traveled three-quarters of a mile. Kiln brick is heavy and low. It can survive a wind that takes a stack. It cannot run without the boiler the stack belonged to. One thousand employees displaced includes the men who knew, by nose, when a charge was ready. Housing wrecked — 120 destroyed, 72 major, 150 minor on the incomplete 1949 check — includes the porches that had smelled the night shift. Good Friday 1975 repeated the path. Seven dead. The kilns, by then, wore Potlatch’s name.
 
-Potlatch Forests, Inc., of Idaho bought Southern in 1956 and Bradley in 1958 and, the nomination notes, more than 100,000 acres of southern yellow pine, oak, and other hardwoods. A West Coast letterhead knows kilns. What it inherited in Warren was a peninsula that had been drying both species since the Fullerton sons arrived. After 2002, after the Chambers purchase, after the 2008 closure, the smell left the south side of town the way a weather leaves. The remaining object is not a kiln door. It is the habit, in a later shop, of asking whether a board is dry enough to trust. Bradley Brand Furniture, dating hardwood work from the mill’s first years, still has to answer that question. Oak that grew in the same bottoms the 1826 plats called fields will still move if you rush it. The handbook and the nose agree. The town, when it had three mills, agreed every day at quitting time, when the heat stayed in the brick and the square took the smell and kept it overnight.
+Potlatch Forests, Inc., of Idaho bought Southern in 1956 and Bradley in 1958 and, the nomination notes, more than 100,000 acres of southern yellow pine, oak, and other hardwoods. A West Coast letterhead knows kilns. What it inherited in Warren was a peninsula that had been drying both species since the Fullerton sons arrived. After 2002, after the Chambers purchase, after the 2008 closure, the smell left the south side of town the way a weather leaves. The remaining object is not a kiln door. It is the habit, in a later shop, of asking whether a board is dry enough to trust. Bradley Brand Furniture, dating hardwood work from the mill’s first years, still has to answer that question. Oak that grew in the same bottoms the 1826 plats called fields will still move if the board is rushed. The handbook and the nose agree. The town, when it had three mills, agreed every day at quitting time, when the heat stayed in the brick and the square took the smell and kept it overnight.
 
 ## Sources
 

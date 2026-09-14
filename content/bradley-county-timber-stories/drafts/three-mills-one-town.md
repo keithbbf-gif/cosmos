@@ -3,7 +3,8 @@ title: "Three mills, one town"
 slug: three-mills-one-town
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 9
 word_target: 1400-2200
 lane: bradleylumbercompany.com
@@ -21,7 +22,7 @@ The order of arrival is a short play. March 1901, if you follow the later Nelson
 
 Frank W. Gibb’s 1903 courthouse is the civic twin of those first mill years. Rusticated brick, towers of unequal height, a cupola, yellow and light brown. The clerk’s office of 1890 had already been the annex to the 1861 building and, on the 1907 Sanborn, the post office. Silva’s tour uses the 1907 map the way a novelist uses a clock. Warehouses north of the square. A skating rink that will become a YMCA corner. Grocery and furniture storage between First Street and the tracks. Frame businesses on East Elm that will become Catfish Row. The Sanborn does not draw the three mills as personalities. It draws a town that has outgrown Cabeens because three payrolls have arrived at once.
 
-Southern was the pine-belt Weyerhaeuser exception, a Lakes fortune in south Arkansas. Bradley was the hardwood boast, Fullerton’s plant the encyclopedia calls one of the world’s large dealers in that trade. Arkansas Lumber was the largest cut and the shortest life: 85,000 acres, gone by 1928. Three business models, one square. A worker could, in theory, hear three whistles and still buy groceries at McCann’s, which delivered, or at the commissary, which took scrip. The leaky fence is Warren’s type. Crossett’s fence was tighter. Do not go there. Stay on Main, which the 1931 Sanborn still remembers as Vine in parentheses.
+Southern was the pine-belt Weyerhaeuser exception, a Lakes fortune in south Arkansas. Bradley was the hardwood boast, Fullerton’s plant the encyclopedia calls one of the world’s large dealers in that trade. Arkansas Lumber was the largest cut and the shortest life: 85,000 acres, gone by 1928. Three business models, one square. A worker could, in theory, hear three whistles and still buy groceries at McCann’s, which delivered, or at the commissary, which took scrip. The leaky fence is Warren’s type. Crossett’s fence was tighter. Warren’s leaky fence is Main, which the 1931 Sanborn still remembers as Vine in parentheses.
 
 Population doubled is a phrase that can become a mood. Keep the ink. 1880: 301. 1890: 492. 1900: 954. 1910: 2,057. 1920: 2,145. The rail decade lifted the town off the farm-hamlet floor. The mill decade lifted it into a small city of the pine belt. After 1910 the growth slowed, then crawled — 2,523 in 1930, 2,516 in 1940 — while the county itself peaked at 18,097 in 1940 and then thinned as the plants modernized. The doubling is therefore a specific ten years, not a destiny. 1900 to 1910 is the hour three companies hired more men than the town had possessed as residents a generation earlier. Some of those men boarded. Some brought families. Some were Black workers the 1912 Sanborn would label, without courtesy, a “Negro Settlement” of twelve frame dwellings at Walnut and Ash. The census did not double only on the white side of Elm.
 

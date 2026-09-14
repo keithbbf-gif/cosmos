@@ -3,7 +3,8 @@ title: "Sunday in a mill town"
 slug: sunday-in-a-mill-town
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 23
 word_target: 1400-2200
 lane: bradleylumbercompany.com

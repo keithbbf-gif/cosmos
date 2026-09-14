@@ -3,7 +3,8 @@ title: "Brick streets, 1927"
 slug: brick-streets-1927
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 26
 word_target: 1400-2200
 lane: bradleylumbercompany.com
@@ -39,7 +40,7 @@ Hardwood left Warren over rails and, after 1927, over a street that would not va
 
 The listing of 24 January 2007, NRIS 06001277, under the multiple-property cover “Arkansas Highway and Transportation Era Architecture, 1910–1965,” is the hour the federal government agreed the X at the intersection was history. Period of significance in that paper: circa 1927 to 1957. Significant years: 1927 and 1957. The second date is a cutoff, not a parade. In 2016 the same streets become contributing structure inside the Warren Commercial Historic District. Two nominations for one floor. Paper is cheaper than brick and less useful in the rain.
 
-If you come to the square on a late summer afternoon, the still is not the cupola. It is a stained tomato on vitrified clay, the fruit a little too pink, the mortar dark, a pickup ticking as it waits the light on Main where the asphalt has covered the older idea. Under the asphalt the idea continues. Under the paint the 1927 bond continues. A county that once met in a parlor paved its argument in clay because mud was no longer a sufficient government. The mills had made the population. The automobiles had made the mess. The brick made a surface that could hold both, and later, without being asked, a festival.
+On a late-summer square, the still is not the cupola. It is a stained tomato on vitrified clay, the fruit a little too pink, the mortar dark, a pickup ticking as it waits the light on Main where the asphalt has covered the older idea. Under the asphalt the idea continues. Under the paint the 1927 bond continues. A county that once met in a parlor paved its argument in clay because mud was no longer a sufficient government. The mills had made the population. The automobiles had made the mess. The brick made a surface that could hold both, and later, without being asked, a festival.
 
 ## Sources
 

@@ -1,7 +1,8 @@
 ---
 title: Manifest — Bradley County Timber Stories
 status: staged
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 series: bradley-county-timber-stories
 lane: bradleylumbercompany.com
 ---
@@ -9,7 +10,7 @@ lane: bradleylumbercompany.com
 # Manifest
 
 Body word counts are tokens matching `[A-Za-z0-9']+` after YAML frontmatter, excluding the Sources section.
-Band: 1,400–2,200. All items `status: staged`, `voice_check: human`, `commerce: false`, `lane: bradleylumbercompany.com`.
+Band: 1,400–2,200. All items `status: staged`, `voice_check: edited`, `commerce: false`, `lane: bradleylumbercompany.com`.
 Canonical files: `drafts/<slug>.md`. Slug list: `writer-slugs.json`.
 
 Counted: 44 drafts. Total body words: 71,943.
@@ -72,6 +73,7 @@ Counted: 44 drafts. Total body words: 71,943.
 
 ## QA notes
 
+- Editor pass 2026-09-14 (`EDITOR_REPORT.md`). All drafts `voice_check: edited`.
 - No commerce phrasing (`shop now`, prices, SKUs) in the draft bodies.
 - BBF / Bradley Brand Furniture appears as heritage, not as a catalog.
 - Tornado victims limited to the named 1949 record.

@@ -3,7 +3,8 @@ title: "Photographs and letters"
 slug: photographs-and-letters
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 43
 word_target: 1400-2200
 lane: bradleylumbercompany.com
@@ -33,13 +34,13 @@ What gets photographed is not what got punched. Postcards show plants, not filer
 
 Letters that would have filled it are ordinary and gone. A sawyer to a cousin in Mississippi. A woman in 1918 about the slacks. A Black grocer on Elm about a license. Joe Reaves’s timber-buying books, named in the bibliography as absent. Fullerton family papers beyond Cornell social notes, absent. We have the shape of the correspondence — mill towns ran on mail as they ran on rails — and we have almost none of the sentences. Bragg is the exception because a daughter-in-law made a book. The *Eagle* is the exception because a paper is a business. Postcards are the exception because a drugstore sold them. Memory follows what was copied.
 
-Mill-town America has a Ken Burns grammar: sepia, a fiddle, a letter read aloud, a pan across a group photograph whose names are in the caption. Warren can furnish the grammar’s objects. It cannot furnish, in the public pack, the read-aloud letter from the yard. The honest film would read Bragg on food, then cut to a Sanborn, then to the 1949 *Eagle*, then to a postcard back, then to Silva on a brick street, and would admit the cut where the sawyer’s letter should be. The admission is the scholarship. Fabricated compliance would be a scripted voice in a boarding house. This series will not write that voice.
+Mill-town America has a Ken Burns grammar: sepia, a fiddle, a letter read aloud, a pan across a group photograph whose names are in the caption. Warren can furnish the grammar’s objects. It cannot furnish, in the public pack, the read-aloud letter from the yard. The honest film would read Bragg on food, then cut to a Sanborn, then to the 1949 *Eagle*, then to a postcard back, then to Silva on a brick street, and would admit the cut where the sawyer’s letter should be. The admission is the scholarship. Fabricated compliance would be a scripted voice in a boarding house. That voice is not written here.
 
 The dual identity shows in the archive as two piles. Tomato: festival cookbooks, 1956–2006, Pryor Center oral history, Act 255, painted brick, a luncheon menu. Pine: Balogh, Curry’s 1952 thesis, Smith’s *Sawmill* for the larger last-virgin-forest story, Bradham, company cards, Potlatch 10-Ks, a 2008 business-page paragraph. The piles share the *Eagle* and the encyclopedia. They do not share a feeling. The fruit photographs in color. The mill photographs in smoke. A person who only sees the color has not read the letters.
 
-What remains when the photographs fade is the habit of pointing. That is where the depot was rebuilt after the fire. That is Wayne’s, where the clock stopped. That is the cardiac wing. That is Crowtown before it was Ingalls. That is Parnell’s steps. Pointing is an oral Sanborn. Silva’s tour is pointing raised to a profession. Frazer pointing, having been ten in 1949 and mayor in 1975, is pointing as civic office. The county remembers by walking and naming. The page you are reading is a later walk.
+What remains when the photographs fade is the habit of pointing. That is where the depot was rebuilt after the fire. That is Wayne’s, where the clock stopped. That is the cardiac wing. That is Crowtown before it was Ingalls. That is Parnell’s steps. Pointing is an oral Sanborn. Silva’s tour is pointing raised to a profession. Frazer pointing, having been ten in 1949 and mayor in 1975, is pointing as civic office. The county remembers by walking and naming. Silva’s tour is a later walk.
 
-A later hardwood shop in mill space will have its own photographs someday, and they will be tempted toward a catalog. This series does not take them. Bradley Brand Furniture’s 1903 date is allowed as heritage, not as a picture of a sofa. The mill’s own postcard already showed furniture stock as a pile. That pile is the ancestor of every later picture. Keep the ancestor. Leave the catalog.
+A later hardwood shop in mill space will have its own photographs someday, and they will be tempted toward a catalog. Those photographs are out of lane for these essays. Bradley Brand Furniture’s 1903 date is allowed as heritage, not as a picture of a sofa. The mill’s own postcard already showed furniture stock as a pile. That pile is the ancestor of every later picture; catalog photographs stay out of lane.
 
 The still, if this were a film, would be a kitchen table: a Sanborn copy, an *Eagle* clipped in 1949, a mill postcard, Bragg’s 1960 binding, and a blank space the size of a time-clock card. How a mill town remembers is that table. How it forgets is the blank. Both are the history. The camera holds the blank long enough that a viewer wants a name. The voice-over does not supply one.
 

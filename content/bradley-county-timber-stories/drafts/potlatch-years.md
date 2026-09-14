@@ -3,7 +3,8 @@ title: "The Potlatch years"
 slug: potlatch-years
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 33
 word_target: 1400-2200
 lane: bradleylumbercompany.com
@@ -41,7 +42,7 @@ Black Warren in the Potlatch years is the long civil-rights decade the commercia
 
 Mill-town America in the 1950s collects northern and western names — International Paper, Georgia-Pacific, Weyerhaeuser taking Dierks in 1969, Potlatch at Warren — and calls the collection a forest-products sector. The particular here is Bradham’s candor that the collection felt like salvation because the alternative had a date, 1928, and a method, cut out and get out. Potlatch was the opposite method on paper: hold land, hold a mill, hold a town. On paper is not nothing. The 1994 pine mill is a real building. The 2002 hardwood closing is a real Saturday. Between them the aura did its work. Boys grew up thinking the stack was a municipal object. It was a corporate object that had chosen, for a term of years, not to leave.
 
-If you want a still, use 1958 letterhead beside a 1928 absence. Sturgis Street, where Arkansas Lumber’s office and clubhouse had been, does not get the new name. The two living yards do. A community leader, unnamed in Bradham — they are always unnamed when they are having a feeling — looks at Idaho and exhales. The pink tomato posters are going up for the first or third June. Jack Winter is cutting cloth. The banks that held in the thirties are still on Main. Warner is an old story men tell about 1939. The stack that fell in 1949 has been up long enough to stain. Permanency, as a word, is too large. What they had was a buyer who wanted pine enough to purchase the refusals of two earlier decades. What they did not have, and could not have, was a promise that hardwood would still pay in 2002. The aura was honest as a feeling. The deeds, dated, are the better record. 1956 or 1958. 1994. 2002. 2008. The years are a mill town learning that letterhead is weather. The woods, second growth now for a human lifetime, keep the older weather. They do not read Idaho.
+The still is 1958 letterhead beside a 1928 absence. Sturgis Street, where Arkansas Lumber’s office and clubhouse had been, does not get the new name. The two living yards do. A community leader, unnamed in Bradham — they are always unnamed when they are having a feeling — looks at Idaho and exhales. The pink tomato posters are going up for the first or third June. Jack Winter is cutting cloth. The banks that held in the thirties are still on Main. Warner is an old story men tell about 1939. The stack that fell in 1949 has been up long enough to stain. Permanency, as a word, is too large. What they had was a buyer who wanted pine enough to purchase the refusals of two earlier decades. What they did not have, and could not have, was a promise that hardwood would still pay in 2002. The aura was honest as a feeling. The deeds, dated, are the better record. 1956 or 1958. 1994. 2002. 2008. The years are a mill town learning that letterhead is weather. The woods, second growth now for a human lifetime, keep the older weather. They do not read Idaho.
 
 ## Sources
 

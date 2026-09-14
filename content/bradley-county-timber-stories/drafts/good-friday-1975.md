@@ -3,7 +3,8 @@ title: "Good Friday, 1975"
 slug: good-friday-1975
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 36
 word_target: 1400-2200
 lane: bradleylumbercompany.com
@@ -21,7 +22,7 @@ Spring, the *Gazette* wrote, is usually a gentle friend to this Saline River val
 
 Farmville was the first room. Houses went down. Three people died there. Large trees blocked the roads into Warren. The injured had trouble reaching the hospital because the roads were the hospital’s problem before the hospital was. Danny Richard Boyd, twenty-two, a student at the University of Arkansas at Monticello, husband of Barbara Ross Boyd, member of First Baptist. Marilyn Jeanette Robertson, thirty, his aunt. Vertie Lou Stoddard, seventy-three, their companion. The *Eagle* set those three in the Farmville yards. The other four died in Warren.
 
-Ellis Clanton, sixty-one, was at work at Potlatch. The *Gazette*’s typesetting called the plant the Polach Corporation and said the huge structure was virtually destroyed. The name is Potlatch. The death is Clanton’s. Dorothy Fay McKinstry, forty-one, of Wilmar, and John Albert Frey, seventy-five, a retired carpenter, member of Westside Baptist, died at their homes in the southwest section. Gentenval Morgan, eighty-five — the papers also spell Genteval — was hurt in the west end and died the next day. The Storm Prediction Center later counted fifty-one injuries. Local papers said more than sixty. The series does not reconcile the ledgers by invention. It names the dead the papers named, and it stops.
+Ellis Clanton, sixty-one, was at work at Potlatch. The *Gazette*’s typesetting called the plant the Polach Corporation and said the huge structure was virtually destroyed. The name is Potlatch. The death is Clanton’s. Dorothy Fay McKinstry, forty-one, of Wilmar, and John Albert Frey, seventy-five, a retired carpenter, member of Westside Baptist, died at their homes in the southwest section. Gentenval Morgan, eighty-five — the papers also spell Genteval — was hurt in the west end and died the next day. The Storm Prediction Center later counted fifty-one injuries. Local papers said more than sixty. The ledgers are not reconciled here by invention. It names the dead the papers named, and it stops.
 
 A quarter of the town was damaged or destroyed. The *Eagle*’s Saturday tally, gathered after Chief Tommy Dunaway asked breakfast eaters at Dave’s café on East Cypress, at 4:30 in the morning, to form search squads: 151 homes totally destroyed, 238 damaged. Cost, over ten million dollars, probably much more. Frame houses in the southwest were gone. A pool hall left one table on a slab. Sligh Egg Company went down; green styrofoam cartons littered the east side of town, outside the path, a kind of bright trash the wind used as a signature. The Warren hospital took a hard blow. A nurse, Mrs. Shelton Clark, told the papers the cardiac wing virtually exploded in the wind. Industrial buildings, commercial buildings, the mill again. 1949 had crumpled the Bradley powerhouse and dropped the stack across the source of power for more than a thousand workmen. 1975 found Potlatch on the same ground and treated it as if the company name had not changed.
 

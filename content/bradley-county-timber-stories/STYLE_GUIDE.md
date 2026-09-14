@@ -1,7 +1,8 @@
 ---
 title: Style Guide — Bradley County Timber Stories
 status: staged
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 series: bradley-county-timber-stories
 lane: bradleylumbercompany.com
 ---
@@ -70,7 +71,7 @@ title: "Plain title, no colon-stack if you can help it"
 slug: kebab-case
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
 reading_order: 12
 word_target: 1400-2200
 lane: bradleylumbercompany.com

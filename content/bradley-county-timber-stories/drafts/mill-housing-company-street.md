@@ -3,7 +3,8 @@ title: "Mill housing, company street"
 slug: mill-housing-company-street
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 16
 word_target: 1400-2200
 lane: bradleylumbercompany.com

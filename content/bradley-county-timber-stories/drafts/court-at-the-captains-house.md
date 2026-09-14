@@ -3,7 +3,8 @@ title: Court at the captain's house
 slug: court-at-the-captains-house
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 3
 word_target: 1400-2200
 lane: bradleylumbercompany.com
@@ -39,7 +40,7 @@ Gibb’s 1903 courthouse went up while the mills were teaching Warren a new popu
 
 The first grand jury of 1841 — Gardner, Haley, Grose, Morris, Howson, Wise, Etheridge, Griffith, Henderson, Johnson, Reaves, Marks, Franklin — is a roster of men who could still hear one another across a clearing. Sixty years later the time clock would hold more names than a parlor could seat. That is the only population fact the house needs. It was built for a county that could still fit in a room.
 
-If you walk the square now, the 1903 courthouse is the still. The captain’s house is an absence. Absences are where the voice-over belongs. In the spring of 1841, before there was a town worthy of the name, the law came to supper and stayed. The mills would later make the supper loud. They did not cook the first meal. A later hardwood shop in this county may date itself from the mill. The court dates itself from a house. Both dates are true. Only one of them required a saw.
+On the square now, the 1903 courthouse is the still. The captain’s house is an absence. Absences are where the voice-over belongs. In the spring of 1841, before there was a town worthy of the name, the law came to supper and stayed. The mills would later make the supper loud. They did not cook the first meal. A later hardwood shop in this county may date itself from the mill. The court dates itself from a house. Both dates are true. Only one of them required a saw.
 
 ## Sources
 

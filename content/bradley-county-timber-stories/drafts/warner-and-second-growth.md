@@ -3,7 +3,8 @@ title: "Warner and second growth"
 slug: warner-and-second-growth
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 29
 word_target: 1400-2200
 lane: bradleylumbercompany.com
@@ -37,7 +38,7 @@ A later Warren shop that still works pine and oak lives in the permission Warner
 
 What Warner could not do was make permanence. Potlatch would run the Warren operation as a southern yellow-pine fact into a new century, build a new $27 million sawmill in the early 1990s, close a hardwood mill in 2002 and sell it, keep a pine mill, and eventually leave the old aura to whoever next leased the sheds. The Chambers years, the credit-suit closure of 2008, the later remanufacturing names on Martin Street — these are other essays. This one ends earlier, on a decision that still has dirt under it. The second stand was already in the ground. Someone had to say it was enough to keep a boiler.
 
-If you want a still, do not use a hero’s portrait. There is none in the public pack. Use a blackened boiler wall and, behind it, a ridge of twelve- and sixteen-year-old shortleaf that does not yet look like wealth. A man from a burned northern county points. The owners, who had bought a ticket to close a southern county’s mill, buy different equipment instead. The stack goes back up. The W&OV still answers. Bradley’s hardwood mill keeps its own weather on the other side of town. In 1939 the woods were not finished. That is the whole revelation. It was enough to cancel a shutdown, and it was late enough that a county could feel, for the first time since 1928, that the method had a rival.
+The still is a blackened boiler wall and, behind it, a ridge of twelve- and sixteen-year-old shortleaf that does not yet look like wealth. There is no hero’s portrait in the public pack. A man from a burned northern county points. The owners, who had bought a ticket to close a southern county’s mill, buy different equipment instead. The stack goes back up. The W&OV still answers. Bradley’s hardwood mill keeps its own weather on the other side of town. In 1939 the woods were not finished. That is the whole revelation. It was enough to cancel a shutdown, and it was late enough that a county could feel, for the first time since 1928, that the method had a rival.
 
 ## Sources
 

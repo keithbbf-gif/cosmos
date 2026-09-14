@@ -3,7 +3,8 @@ title: "When the hardwood mill closed"
 slug: when-the-hardwood-mill-closed
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 39
 word_target: 1400-2200
 lane: bradleylumbercompany.com
@@ -29,7 +30,7 @@ What closed was not the county’s entire timber trade. Potlatch pine continued.
 
 Mill-town America has a literature of last shifts. A whistle, a line of cars, a union hall, a camera. Warren’s 2008 close is quieter in the public pack. No recovered *Eagle Democrat* extra has been quoted here with a last-board photograph. `[CITE NEEDED: local last-day coverage, if any, beyond the *Democrat-Gazette* statewide frame.]` What we have is a Little Rock byline, a docket, and an appeals court later cleaning a fraud clock. That thinness is itself a fact. 1949 was a tragic record on the square. 1975 was a Good Friday extra. 2008 was a business-page paragraph. The mill had become, to the rest of the state, one more hardwood plant in a slump. To Warren it was the Bradley name on a gate that had said Fullerton, then Potlatch, then Chambers.
 
-Do not turn the loans into a morality play. ADFA is not a villain for lending and not a savior for intervening. Webster is not a northern conspiracy; it is a credit corporation that did what credit corporations do when they dislike a borrower’s liquidity. Chambers is not a failed hero and not a cautionary advertisement. He is a physician who said, in the same 2008 piece, that he had put a life savings and a retirement into jobs and lost millions. The quote belongs to the purchase essay and to this one, because the loss is the close. Civic motive does not set aside a judgment. It keeps the close from being narrated as if only interest rates lived here.
+The loans are not a morality play. ADFA is not a villain for lending and not a savior for intervening. Webster is not a northern conspiracy; it is a credit corporation that did what credit corporations do when they dislike a borrower’s liquidity. Chambers is not a failed hero and not a cautionary advertisement. He is a physician who said, in the same 2008 piece, that he had put a life savings and a retirement into jobs and lost millions. The quote belongs to the purchase essay and to this one, because the loss is the close. Civic motive does not set aside a judgment. It keeps the close from being narrated as if only interest rates lived here.
 
 The courthouse that Gibb built in 1903 was still on the square when the mill of that same year stopped. Cupola, rusticated brick, unequal towers. The depot of 1909/1911 was still below the grade. The Martin House had been a museum since 1987. Brick streets still ran in their 1927 bond. The Pastime’s marquee still named a pastime. None of those objects closed in 2008. They are what a town keeps when a specialty wage leaves. After the hardwood mill closed, Warren was still a county seat. It was less a hardwood town.
 

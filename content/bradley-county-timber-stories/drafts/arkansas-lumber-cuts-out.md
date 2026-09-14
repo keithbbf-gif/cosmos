@@ -3,7 +3,8 @@ title: "Arkansas Lumber cuts out"
 slug: arkansas-lumber-cuts-out
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 28
 word_target: 1400-2200
 lane: bradleylumbercompany.com
@@ -35,7 +36,7 @@ Mill-town America is full of 1928. The South’s first great pine harvest is ove
 
 A later furniture shop in Warren that works the same species Arkansas Lumber once floated in a pond is not that company’s child. Bradley Brand Furniture dates a hardwood afterlife from the mill that stayed. Arkansas Lumber’s afterlife is a school ground, a fairground, a church gift, a city hall, a clubhouse on Sturgis, and a caption that still cannot decide whether the acreage was seventy, eighty-three, or eighty-five thousand. The acreage is gone as timber. It remains as an argument about how a peninsula should be used. Cut out and get out used it as a mine. Warner, later, would use the second story of the same mine as a farm. The rivers did not notice which theory won. They took the silt either way.
 
-If you want a still, use the log pond on West Central, near where later churches would stand, the tram above the water, the tank to the right, the powerhouse to the left. Evening. The pond holds the last inventory. In the morning the inventory is a schedule. In 1928 the schedule ends. The electricity that was a byproduct becomes someone else’s job. The Trading Company’s cloth stays on the bolt until it doesn’t. The Shays find other woods or the torch. The courthouse steeple, which the storage-shed photograph caught in the same frame as the company store, keeps the hour for a town that is now two mills and a memory of a third. The memory is not romantic. It is 85,000 acres of stumps and a method with a name that does not bother to apologize.
+The still is the log pond on West Central, near where later churches would stand, the tram above the water, the tank to the right, the powerhouse to the left. Evening. The pond holds the last inventory. In the morning the inventory is a schedule. In 1928 the schedule ends. The electricity that was a byproduct becomes someone else’s job. The Trading Company’s cloth stays on the bolt until it doesn’t. The Shays find other woods or the torch. The courthouse steeple, which the storage-shed photograph caught in the same frame as the company store, keeps the hour for a town that is now two mills and a memory of a third. The memory is not romantic. It is 85,000 acres of stumps and a method with a name that does not bother to apologize.
 
 Get out is the part the boosters skip. The men got out, or they walked across town and tried to get on at Bradley or Southern, or they left the county. The land got out of the lumber column and into an oil man’s speculation. The letterhead got out of the city directory. What did not get out is the method’s reputation. Every later speech about permanence — Bradham’s aura when Potlatch buys the survivors, the tomato festival’s claim on the square, a shop dating itself from 1903 — is a speech against 1928. Arkansas Lumber is the ghost those speeches require. Without a mill that left, the mills that stayed cannot be praised for staying. The ghost is a powerhouse, a pond, a Shay, and a year.
 

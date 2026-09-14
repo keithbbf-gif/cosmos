@@ -3,7 +3,8 @@ title: "A physician buys a mill"
 slug: a-physician-buys-a-mill
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 38
 word_target: 1400-2200
 lane: bradleylumbercompany.com
@@ -27,7 +28,7 @@ Chambers was not the first doctor in Warren’s civic file. Dr. John Wilson Mart
 
 The mill he bought was the Bradley plant, the one the papers still dated to 1903 when they wrote the 2008 obituary of its second death. 1903 is also the year Frank W. Gibb’s courthouse rose on the square — rusticated brick, unequal towers, a cupola — while the large-mill decade was changing the town’s weight. Samuel Fullerton’s Bradley Lumber was finding its feet. William H. Wheeler had started the small mill; Fullerton of St. Louis had bought it; Joe L. Reaves, Sr., Hugh Bradley’s descendant, had walked the timber with a purchase book. By 1907 the plant posted 100,000 board feet a day and 350 men, a world’s large hardwood dealer. That is the inheritance. Not a logo. A count, a species list, a town that had doubled in a decade because oak and pine could leave on a rail.
 
-What a physician can do with a mill is not what Fullerton could do with a mill. Fullerton had sons, Robert W. and S. Baker, Cornell and the floor. He had a commissary. He had scrip and a weekly settle at 215 South Main after 1920. He had a YMCA Council of 22 in 1918 and a building in 1920. Chambers had a credit line, state development loans, and a housing market that had not yet fallen through the floor his mill was trying to feed. The 2008 paper will have to carry the suit. This essay stops at the purchase and the motive, because the motive is the rare public sentence. A local doctor said he bought jobs. The record does not require us to decorate that. It requires us not to turn it into a brochure.
+What a physician can do with a mill is not what Fullerton could do with a mill. Fullerton had sons, Robert W. and S. Baker, Cornell and the floor. He had a commissary. He had scrip and a weekly settle at 215 South Main after 1920. He had a YMCA Council of 22 in 1918 and a building in 1920. Chambers had a credit line, state development loans, and a housing market that had not yet fallen through the floor his mill was trying to feed. The 2008 paper will have to carry the suit. The purchase and the motive stop here, because the motive is the rare public sentence. A local doctor said he bought jobs. The record does not need decoration and should not read like a brochure.
 
 Mill-town America is full of last owners. A group from the next state. A holding company. A manager who stays after the parent leaves. The particular here is the profession and the verb. Not leased. Bought. Not a timber family. A physician and his wife. Not a diversification play announced from Spokane. A retirement account opened onto a saw deck. Whether the math could ever have worked is a 2008 question. Whether the sentence was civic is a 2008 quote. The series takes the quote and does not invent a conversation in an emergency room or a kitchen. No invented letter. No invented wage. The *Democrat-Gazette* is enough.
 
@@ -35,7 +36,7 @@ Pine did not leave with the sale. Potlatch’s Southern Unit kept its shifts and
 
 Around the purchase the town was already after the big mill in Silva’s later sense. Robbins Flooring on Pennington and on the bypass. Chip mills. A medical center heading toward the largest payroll. Pink tomatoes still celebrated every second full weekend in June, the fruit a state emblem since 1987. Potlatch pine still moving. The hardwood plant was the piece that did not fit the parent’s raw-material chart. It fit the county’s older chart: oak, gum, hickory, the bottoms, furniture stock, flooring, the postcard that had already named those products in the 1940s. A physician who bought that chart was buying the half of the peninsula Potlatch no longer wanted.
 
-There is a temptation to make this a hero reel. Resist it. Chambers said he lost millions. The mill closed in 2008 amid a credit suit. Workers who had already survived a 2002 closure announcement and a strike survived another lock on the gate. The civic motive does not redeem the outcome and does not need to. It explains why a doctor’s name is on a bill of sale in a timber series at all. Without that sentence, the purchase is only another transfer. With it, the purchase is a county trying, through one household, to keep a hardwood wage after the corporation had done the rational thing.
+Chambers said he lost millions. The mill closed in 2008 amid a credit suit. Workers who had already survived a 2002 closure announcement and a strike survived another lock on the gate. The civic motive does not redeem the outcome and does not need to. It explains why a doctor’s name is on a bill of sale in a timber series at all. Without that sentence, the purchase is only another transfer. With it, the purchase is a county trying, through one household, to keep a hardwood wage after the corporation had done the rational thing.
 
 Joe Reaves buying timber for Fullerton was kinship turned into acreage. Chambers buying the plant from Potlatch was medicine turned into a payroll bet. Both are southern pine-belt conversions of a local life into mill math. The first helped start the large-mill hour. The second tried to keep a remainder of it. Between them sit a century of sawyers and filers, women in slacks on a 1918 floor, a thousand men displaced when the 1949 stack fell, seven dead on a Good Friday at a renamed plant. The physician’s mill is late in that file. It is not outside it.
 
@@ -45,6 +46,6 @@ The still, if this were a film, would be an August signature page, no dollar fig
 
 ## Sources
 
-Lewiston *Tribune* / Associated pressers, 3 June 2002 and August 2002 (Potlatch close; sale to Dr. David Chambers; strike; pine shift). Potlatch Form 10-K for 2002 (charge; August sale). Nancy Cole, “Hardwood sawmills in state feeling strain,” *Arkansas Democrat-Gazette*, 30 November 2008 (Chambers quote; 1903 dating; Michelle; civic motive). *Encyclopedia of Arkansas*, “Warren” (840); “Bradley County” (750). Silva 2012 (later employers around the purchase).
+Lewiston *Tribune* / Associated Press, 3 June 2002 and August 2002 (Potlatch close; sale to Dr. David Chambers; strike; pine shift). Potlatch Form 10-K for 2002 (charge; August sale). Nancy Cole, “Hardwood sawmills in state feeling strain,” *Arkansas Democrat-Gazette*, 30 November 2008 (Chambers quote; 1903 dating; Michelle; civic motive). *Encyclopedia of Arkansas*, “Warren” (840); “Bradley County” (750). Silva 2012 (later employers around the purchase).
 
 See: `potlatch-years`, `after-the-big-mill`, `when-the-hardwood-mill-closed`, `the-long-afterlife`.

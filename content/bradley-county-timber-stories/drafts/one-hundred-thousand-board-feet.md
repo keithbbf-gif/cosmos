@@ -3,7 +3,8 @@ title: "One hundred thousand board feet"
 slug: one-hundred-thousand-board-feet
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 12
 word_target: 1400-2200
 lane: bradleylumbercompany.com
@@ -21,7 +22,7 @@ Board foot is a clerk’s unit: a foot long, a foot wide, an inch thick, or the 
 
 The number is not a mood and must not be rounded into one. It is attached to a year and to named companies. Southern, the Weyerhaeuser-Denkman plant grown from Lindsay and Ainsworth’s 1882 operation, 100,000 and 300. Bradley, Fullerton’s, Wheeler’s old mill underneath, 100,000 and 350, and the encyclopedia’s additional claim: one of the world’s large hardwood dealers. The second claim is why Bradley’s 100,000 is not a copy of Southern’s. Southern’s hundred thousand is the shortleaf hill. Bradley’s is the hill plus the hallway — oak, gum, hickory — counted in the same unit because a clerk has only one unit. A hardwood dealer’s day and a pine mill’s day can look like the same digit and not be the same woods.
 
-How long a day was, the published pack does not say. `[CITE NEEDED: shift length and actual operating days per year at the three Warren mills, 1907.]` We will not invent a whistle time. We can say that a daily capacity is an advertisement as well as a measurement. Mills posted what they could do when the logs came and the belts held. A wet month, a broken engine, a camp fever, and the civic number became a hope. The encyclopedia still treats 1907 as a year the hope and the fact were close enough to print. That is the civic use. The town said the number the way another town said the height of a courthouse.
+How long a day was, the published pack does not say. `[CITE NEEDED: shift length and actual operating days per year at the three Warren mills, 1907.]` Whistle time is not invented here. We can say that a daily capacity is an advertisement as well as a measurement. Mills posted what they could do when the logs came and the belts held. A wet month, a broken engine, a camp fever, and the civic number became a hope. The encyclopedia still treats 1907 as a year the hope and the fact were close enough to print. That is the civic use. The town said the number the way another town said the height of a courthouse.
 
 Population is the other 1907 number, arriving a little late. 954 in 1900. 2,057 in 1910. Doubled, the county entry says, as a result of the lumber business. One hundred thousand board feet, twice, plus Arkansas Lumber’s one hundred fifty, is the cause the census is answering. A thousand men on three payrolls, plus the camps, the short lines, the boarding houses, the women not counted in the 1907 head-counts, will double a town of a thousand. The number of feet and the number of people are the same event in two units.
 
@@ -37,7 +38,7 @@ The First World War would test the number by subtracting men. The Depression wou
 
 Furniture stock is inside Bradley’s hundred thousand, not after it. The postcard and the 1944 *American Builder* page are later, but the hardwood dealer claim is 1907. Oak and gum leaving Warren as flooring and chair parts is the mill hour that later shops still date from. Bradley Brand Furniture, naming a heritage from 1903, is the long afterlife of that particular 100,000, the part that was never only framing. One sentence is enough. The number is the subject. The bench is the echo.
 
-Arkansas Lumber’s 150,000 sits on the edge of this page the way a louder sibling sits at a table. The title refuses that extra fifty thousand on purpose. Two mills saying the same number is a rhyme. Three mills saying three numbers is a list. The civic fact this essay is assigned is the rhyme. Southern and Bradley, pine fortune and hardwood dealer, Lakes name and St. Louis name, 100,000 and 100,000. A town that could hear both whistles in the same noon and add them without becoming two towns. The third whistle was louder. It also stopped first.
+Arkansas Lumber’s 150,000 sits on the edge of this page the way a louder sibling sits at a table. The title refuses that extra fifty thousand on purpose. Two mills saying the same number is a rhyme. Three mills saying three numbers is a list. The civic fact in question is the rhyme. Southern and Bradley, pine fortune and hardwood dealer, Lakes name and St. Louis name, 100,000 and 100,000. A town that could hear both whistles in the same noon and add them without becoming two towns. The third whistle was louder. It also stopped first.
 
 What remains of a day’s cut is not a pile. The pile was loaded. What remains is the habit of treating a unit of lumber as a unit of civic health. When Potlatch was still a large employer, the habit held. When the Chambers mill closed in 2008 amid a credit suit and a housing market that had stopped asking for boards, the habit broke in public. The *Democrat-Gazette* wrote the strain as a state story. Warren had already learned, in 1928 and 1939 and 1949, that a number can leave. 1907 is the year it arrived loudly enough to name a town’s decade.
 

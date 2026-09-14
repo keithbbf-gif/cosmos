@@ -3,7 +3,8 @@ title: "Women in slacks, 1918"
 slug: women-in-slacks-1918
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 22
 word_target: 1400-2200
 lane: bradleylumbercompany.com

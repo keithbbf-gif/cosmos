@@ -3,7 +3,8 @@ title: "Rebuilding the stack"
 slug: rebuilding-the-stack
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 32
 word_target: 1400-2200
 lane: bradleylumbercompany.com
@@ -37,7 +38,7 @@ A later shop that still works oak in this county works it because the 1949 rebui
 
 Mill-town America rebuilds a stack the way it rebuilds a steeple: because the skyline is the payroll’s signature. Warren’s particular is the speed of the two rebuilds in one week — a house north of the cemetery under a roof by dark on the 8th, churches full on the 9th, a paper on the 13th already talking about readjustment in the past tense of pews — and the slowness, only partly documented, of steam. The tornado of 28 March 1975 will follow the same path and kill seven. The 1949 stack will be there to be threatened again. That is the definition of a rebuild: it lasts long enough to face the next weather.
 
-If you want a still, use Sunday morning, 9 January. Warm air that should not be warm. A choir that has already sung this week. A coat from Newton Chapel folded on a relative’s table. Out the Prospect road, a barn with its roof laid open and the hay decently in the mow. At the mill, a fallen chimney that has not yet been replaced, only surrounded by men who know that the next hymn is brick. The clock at Wayne’s still says 5:45 if no one has moved the hands. Someone will. The stack will go up because a peninsula that has already refused 1928 and refused 1939 does not, in 1949, accept a January wind as a company policy. The paper of the 13th is not a policy. It is a crowd on a road, and a town in a pew, and the first proof that the living intended to stay.
+The still is Sunday morning, 9 January. Warm air that should not be warm. A choir that has already sung this week. A coat from Newton Chapel folded on a relative’s table. Out the Prospect road, a barn with its roof laid open and the hay decently in the mow. At the mill, a fallen chimney that has not yet been replaced, only surrounded by men who know that the next hymn is brick. The clock at Wayne’s still says 5:45 if no one has moved the hands. Someone will. The stack will go up because a peninsula that has already refused 1928 and refused 1939 does not, in 1949, accept a January wind as a company policy. The paper of the 13th is not a policy. It is a crowd on a road, and a town in a pew, and the first proof that the living intended to stay.
 
 ## Sources
 

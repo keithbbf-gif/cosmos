@@ -3,7 +3,8 @@ title: "The YMCA, nineteen twenty"
 slug: ymca-nineteen-twenty
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 24
 word_target: 1400-2200
 lane: bradleylumbercompany.com
@@ -41,7 +42,7 @@ The Council of 22 is the name that most needs a list and does not have one in th
 
 What remains on the ground is a habit. The corner still works as a Y. Children still learn to swim in a town that learned, first, to skate, then to watch a stage, then to charter a Christian association because twenty-two men in a war year decided the mill’s sons needed a room that was not a balcony and not a commissary. The 1920 charter is the dated object. The fire of 1944 is the dated absence. Between them a mill town practiced the American faith that a pool can civilize a payroll. It can. It cannot desegregate a theater. It cannot hold a smokestack up in a January wind. It can keep a corner from becoming only a memory of wheels.
 
-If you stand there now, the still is not the Reynolds glass. It is the older idea of a floor. First wood for skates. Then boards for a play. Then water. Then smoke. Then cots. A county that once held court in a captain’s house is entitled to hold recreation in a recycled rink. The mills made the population that needed the room. The Council of 22 named the room. Nineteen twenty is the year the ink dries.
+There now, the still is not the Reynolds glass. It is the older idea of a floor. First wood for skates. Then boards for a play. Then water. Then smoke. Then cots. A county that once held court in a captain’s house is entitled to hold recreation in a recycled rink. The mills made the population that needed the room. The Council of 22 named the room. Nineteen twenty is the year the ink dries.
 
 ## Sources
 

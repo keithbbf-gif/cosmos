@@ -3,7 +3,8 @@ title: "Shortleaf pine country"
 slug: shortleaf-pine-country
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 7
 word_target: 1400-2200
 lane: bradleylumbercompany.com
@@ -25,7 +26,7 @@ Climate is the quiet author. Pine in south Arkansas grows faster in sandy soils 
 
 Before anyone printed “soft pine,” the trees were the thing you removed to grow corn. The 1826–1830 plats marked fields. Bradham copied the possessors. Hugh Bradley’s generation wanted sunlight, not board feet. The Civil War left the fields weedy and the uplands unfertilized. What grew in the neglect was the forest the 1880 railroad made valuable. Isolation had kept the shortleaf honest. A tree no one could ship is a tree no one has to invent a grade for. After 5 August 1880 the grades arrived, and with them the northern habit of talking about a stand as if it were a warehouse.
 
-The small mills of the 1880s already knew the mix. A barn wants pine. A wagon bed wants oak. A local partnership did not need a slogan to cut both. What it lacked was a car. The mixed car is a railroad object. It is the reason the postcard can boast “Headquarters.” You load the pine and the oak together because the county grew them together and because a Midwestern yard might want a little of each. Pure pine trains are a Crossett kind of sentence. Warren’s sentence is mixed because the peninsula is mixed. Do not steal the Saline River sister story here. The Saline is geography: a hardwood wall on the east county line. It is not a monograph.
+The small mills of the 1880s already knew the mix. A barn wants pine. A wagon bed wants oak. A local partnership did not need a slogan to cut both. What it lacked was a car. The mixed car is a railroad object. It is the reason the postcard can boast “Headquarters.” You load the pine and the oak together because the county grew them together and because a Midwestern yard might want a little of each. Pure pine trains are a Crossett kind of sentence. Warren’s sentence is mixed because the peninsula is mixed. The Saline is geography: a hardwood wall on the east county line. It is not a monograph.
 
 Summer is the other climate. Anyone who has walked a shortleaf stand in July knows the tick of cooling bark and the way the air holds dust. The encyclopedia will not give us a mill-floor thermometer. The Gene Davis comment on the Warren page — a later memory of a man named Moree wiping his brow and saying the obvious about the heat — is the kind of weather that gets into comments and not into tables. Treat it as memory. The heat is not in dispute. Kiln-dried pine in this county is a fight with August. Green oak in this county is a fight with the same month. The mixed car is a fight with both, plus a billing clerk.
 
