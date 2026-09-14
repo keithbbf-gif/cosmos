@@ -17,6 +17,7 @@ import { dirname, join } from "node:path";
 
 import { loadConfig } from "../src/config.ts";
 import { RECENTS_SCHEMA } from "../src/core.ts";
+import { esc } from "../src/esc.ts";
 import { readVerified } from "../src/transcript.ts";
 import {
   mcpCallTool, mcpListTools, RESULT_SCHEMA, runTool, SESSION_TOOLS, TRANSCRIPT_SCHEMA,
@@ -117,6 +118,42 @@ async function main(): Promise<number> {
       !JSON.stringify(list.gate.rows).includes("legal"));
     await check("session.list honours limit", async () =>
       ((await run("session.list", { limit: 1 }, coreEnv)).gate.rows as unknown[]).length === 1);
+    await check("session.list unavailable feed is NO_SOURCE with n null, not 0", async () => {
+      const r = await runTool("session.list", {}, {
+        env: coreEnv,
+        fetchImpl: async () => ({
+          status: 200,
+          json: async () => ({ schema: RECENTS_SCHEMA, kind: "NO_SOURCE", available: false }),
+          text: async () => "",
+        }),
+      });
+      return r.kind === "NO_SOURCE" && r.ok === false && r.gate.n === null;
+    });
+    await check("session.list measured empty is n 0, not UNMEASURED", async () => {
+      const r = await runTool("session.list", {}, {
+        env: coreEnv,
+        fetchImpl: async () => ({
+          status: 200,
+          json: async () => ({
+            schema: RECENTS_SCHEMA, available: true, n_omitted_legal: 0, rows: [],
+          }),
+          text: async () => "",
+        }),
+      });
+      return r.ok && r.kind === "OK" && r.gate.n === 0 &&
+        (r.gate.rows as unknown[]).length === 0 && r.legal_omitted === 0;
+    });
+    await check("session.list with no n_omitted_legal is null, never 0", async () => {
+      const r = await runTool("session.list", {}, {
+        env: coreEnv,
+        fetchImpl: async () => ({
+          status: 200,
+          json: async () => ({ schema: RECENTS_SCHEMA, available: true, rows: [] }),
+          text: async () => "",
+        }),
+      });
+      return r.ok && r.legal_omitted === null && r.gate.legal_omitted === null;
+    });
 
     // --- session.open ---
     const open = await run("session.open", { id: "cow-abc" }, coreEnv);
@@ -133,6 +170,17 @@ async function main(): Promise<number> {
       (await run("session.open", { id: "nope" }, coreEnv)).kind === "NOT_FOUND");
     await check("session.open without an id is BAD_ARGS before any request", async () =>
       (await run("session.open", {}, coreEnv)).kind === "BAD_ARGS");
+    await check("session.open missing text is null, not an empty string", async () => {
+      const r = await runTool("session.open", { id: "cow-abc" }, {
+        env: coreEnv,
+        fetchImpl: async () => ({
+          status: 200,
+          json: async () => ({ ok: true, kind: "OK", id: "cow-abc" }),
+          text: async () => "",
+        }),
+      });
+      return r.ok && r.gate.text === null && r.gate.title === null;
+    });
 
     // --- auth boundary ---
     await check("loopback Core needs no bearer (Core skips it for 127.0.0.1)", () =>
@@ -301,6 +349,31 @@ async function main(): Promise<number> {
       const parsed = JSON.parse(ok.content[0].text) as ToolResult;
       return ok.isError === false && bad.isError === true &&
         parsed.schema === "cosmos-session-plugin-result/1";
+    });
+    await check("esc() encodes data text, not structural fields", () =>
+      esc("<a & 'b'>") === "&lt;a &amp; &#39;b&#39;&gt;" &&
+      esc("hello from plumbing") === "hello from plumbing");
+    await check("session.list and session.open run data text through esc()", async () => {
+      const title = 'say <b>hi</b> & "go"';
+      const body = { ok: true, schema: RECENTS_SCHEMA, available: true, rows: [
+        { id: "cow-esc", date: "2026-09-14", stream: "cm", title },
+      ]};
+      const listed = await runTool("session.list", {}, {
+        env: coreEnv,
+        fetchImpl: async () => ({ status: 200, json: async () => body, text: async () => "" }),
+      });
+      const opened = await runTool("session.open", { id: "cow-esc" }, {
+        env: coreEnv,
+        fetchImpl: async () => ({
+          status: 200,
+          json: async () => ({ ok: true, kind: "OK", id: "cow-esc", title, text: title }),
+          text: async () => "",
+        }),
+      });
+      const wanted = esc(title);
+      const row = (listed.gate.rows as Array<{ title: string }>)[0];
+      return listed.ok && row.title === wanted && !JSON.stringify(listed).includes("<b>") &&
+        opened.ok && opened.gate.title === wanted && opened.gate.text === wanted;
     });
     await check("OpenWork plugin entry exposes the same five, executing the same table", async () => {
       const hooks = await CosmosSessionsPlugin({});
