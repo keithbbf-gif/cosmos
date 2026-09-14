@@ -440,31 +440,37 @@ def _nodemap_overlay_kernel(kernel, body: dict) -> dict:
     """Disk rails.json is proven-live only (often count 0). GET /nodemap is
     served while Kernel is up, so overlay registry.matrix() — the same rows
     GET /rails already returns — when the disk projection has no rows.
-    Does not rewrite the file; ledger stays authority."""
+    Does not rewrite the file; ledger stays authority.
+
+    COW is then bound from the same registry: model only if a live prove
+    named the vendor responder; stale stays STALE (not a green memory).
+    """
     if not isinstance(body, dict) or body.get("ok") is False:
         return body
+    out = body
     reg = body.get("registry") if isinstance(body.get("registry"), dict) else {}
     disk_mx = reg.get("matrix") if isinstance(reg.get("matrix"), list) else []
-    if disk_mx:
-        return body
     kr = getattr(kernel, "registry", None)
-    if kr is None:
-        return body
+    if not disk_mx and kr is not None:
+        try:
+            mx = kr.matrix()
+        except Exception:  # noqa: BLE001
+            mx = []
+        if mx:
+            meta = dict(reg)
+            meta["available"] = True
+            meta["source"] = "kernel.matrix"
+            meta["schema"] = meta.get("schema") or "cosmos-registry/1"
+            meta["matrix"] = mx
+            meta["composed"] = len(mx)
+            meta["count"] = sum(1 for r in mx if r.get("verified") is True)
+            out = dict(body)
+            out["registry"] = meta
     try:
-        mx = kr.matrix()
+        from cosmos_cow_node import attach_to_nodemap
+        out = attach_to_nodemap(out, kr)
     except Exception:  # noqa: BLE001
-        return body
-    if not mx:
-        return body
-    meta = dict(reg)
-    meta["available"] = True
-    meta["source"] = "kernel.matrix"
-    meta["schema"] = meta.get("schema") or "cosmos-registry/1"
-    meta["matrix"] = mx
-    meta["composed"] = len(mx)
-    meta["count"] = sum(1 for r in mx if r.get("verified") is True)
-    out = dict(body)
-    out["registry"] = meta
+        pass
     return out
 
 

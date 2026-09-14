@@ -94,6 +94,12 @@ WIRED_NODES = (
      "family": "oa-openai", "module": "bts_oa_api"},
     {"link_id": "claude-cli", "rail_type": "CLI", "src": "core", "dst": "code",
      "family": "anthropic", "module": None},
+    # CoW is the orch node (VERIFY / SYNTHESISE / ORCHESTRATE). Own satellite
+    # so probe_module_for cannot fall through to cosmos_claude_rail — claude-cli
+    # stays the only Anthropic-default row. dst=orch so a proven COW cannot
+    # capture core->code. Hands are configured (spec/key/heartbeat), never PATH.
+    {"link_id": "cow", "rail_type": "CHAT", "src": "core", "dst": "orch",
+     "family": "anthropic-cowork", "module": None, "satellite": "cow"},
     # Same rail_type/src/dst/module shape as claude-cli (the other CLI coding
     # rail). satellite=codex so probe_module_for / default_live_call cannot
     # fall through to the Anthropic rail — that was the F-24 wiring's second
@@ -433,6 +439,33 @@ def _groq_live_call(paths: CosmosPaths) -> dict:
             "detail": str(detail)[:300]}
 
 
+def _cow_live_call(paths: CosmosPaths) -> dict:
+    """Prove-shaped COW live_call. Model = vendor-emitted name only.
+
+    Reuses the Claude/Cowork seat binary (Cowork has no CLI). The requested
+    model is never a proof — if the vendor JSON omitted `model`, the row
+    fails closed. Does not do the reading (LIVE_PROMPT is PONG only).
+    """
+    rec = _claude_live_call(paths)
+    out = dict(rec)
+    vendor = ""
+    if rec.get("model_source") == "json":
+        vendor = str(rec.get("model") or "").strip()
+    out["model"] = vendor
+    out["node"] = "cow"
+    out["role"] = "VERIFY, SYNTHESISE, ORCHESTRATE"
+    out["independence"] = (
+        "SGH+GBW are not independent checks of each other")
+    if vendor:
+        out["model_source"] = "vendor-emitted JSON model (Claude/Cowork seat)"
+        return out
+    out["ok"] = False
+    detail = str(out.get("detail") or "").strip()
+    out["detail"] = (detail + " COW: vendor did not name the responder").strip()
+    out["model_source"] = ""
+    return out
+
+
 def _github_forge_live_call(paths: CosmosPaths) -> dict:
     return _forge_live_call(paths, "github-forge")
 
@@ -452,6 +485,7 @@ SATELLITES = {
     "github-forge": ("cosmos_forge_rail", _github_forge_live_call),
     "gitlab-forge": ("cosmos_forge_rail", _gitlab_forge_live_call),
     "codex": ("cosmos_codex_rail", _codex_live_call),
+    "cow": ("cosmos_cow_node", _cow_live_call),
 }
 
 
@@ -550,6 +584,13 @@ def _hands_configured(paths: CosmosPaths, spec: dict) -> bool:
         # the key file is the configuration fact.
         from cosmos_codex_rail import KEY_NAME
         return paths.config(KEY_NAME).exists()
+    if sat == "cow":
+        # Existence only. PATH presence of `claude` is NOT hands — that would
+        # spend a live seat call from a bare machine that happens to have
+        # the binary. Spec/key (same files as claude-cli) or a COW heartbeat
+        # are the configuration facts. Filename matches cosmos_resession.
+        return (_claude_configured(paths)
+                or paths.role("state", "control", "COW_HEARTBEAT.json").exists())
     return _claude_configured(paths)
 
 

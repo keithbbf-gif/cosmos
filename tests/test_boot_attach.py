@@ -43,6 +43,7 @@ FAKES = {
     "gem-api": _fake("gem-api", "gemini-2.5-flash"),
     "oa-api": _fake("oa-api", "gpt-5.6-terra"),
     "claude-cli": _fake("claude-cli", "claude-haiku-4-5"),
+    "cow": _fake("cow", "claude-opus-4-5"),
     "codex-cli": _fake("codex-cli", "gpt-5.4-codex"),
     # F-24: the four rails that answered their own probes and were never asked.
     # Each carries the responder its VENDOR emits, not a name invented here.
@@ -131,6 +132,7 @@ def main() -> int:
               and by_id["gem-api"]["model"] == "gemini-2.5-flash"
               and by_id["oa-api"]["model"] == "gpt-5.6-terra"
               and by_id["claude-cli"]["model"] == "claude-haiku-4-5"
+              and by_id["cow"]["model"] == "claude-opus-4-5"
               and by_id["codex-cli"]["model"] == "gpt-5.4-codex"
               and by_id["gw-api"]["model"] == "grok-build-0.1"
               and by_id["cursor-api"]["model"] == "Cursor COSMOS 2"
@@ -156,6 +158,7 @@ def main() -> int:
                              body=""),
             "oa-api": FAKES["oa-api"],
             "claude-cli": _fake("claude-cli", "", ok=True, rc=0, body="PONG"),
+            "cow": _fake("cow", "", ok=True, rc=0, body="PONG"),
             "codex-cli": _fake("codex-cli", "", ok=False, rc=2, body=""),
             # Extra F-24 rails stay injected so live=True never falls through
             # to default_live_call (gw-api is a module rail, not a satellite).

@@ -41,6 +41,7 @@ FAKES = {
     "gem-api": _fake("gem-api", "gemini-2.5-flash"),
     "oa-api": _fake("oa-api", "gpt-5.6-terra"),
     "claude-cli": _fake("claude-cli", "claude-haiku-4-5"),
+    "cow": _fake("cow", "claude-opus-4-5"),
     "codex-cli": _fake("codex-cli", "gpt-5.4-codex"),
     "gw-api": _fake("gw-api", "grok-build-0.1"),
     "cursor-api": _fake("cursor-api", "Cursor COSMOS 2"),
@@ -97,6 +98,7 @@ def main() -> int:
               and by_id["gem-api"]["model"] == "gemini-2.5-flash"
               and by_id["oa-api"]["model"] == "gpt-5.6-terra"
               and by_id["claude-cli"]["model"] == "claude-haiku-4-5"
+              and by_id["cow"]["model"] == "claude-opus-4-5"
               and by_id["codex-cli"]["model"] == "gpt-5.4-codex"
               and by_id["gw-api"]["model"] == "grok-build-0.1"
               and by_id["cursor-api"]["model"] == "Cursor COSMOS 2"
@@ -117,6 +119,7 @@ def main() -> int:
                              body=""),
             "oa-api": FAKES["oa-api"],
             "claude-cli": _fake("claude-cli", "", ok=True, rc=0, body="PONG"),
+            "cow": _fake("cow", "", ok=True, rc=0, body="PONG"),
             "codex-cli": _fake("codex-cli", "", ok=False, rc=2, body=""),
             "gw-api": _fake("gw-api", "", ok=False, rc=2, body=""),
             "cursor-api": _fake("cursor-api", "", ok=False, rc=2, body=""),
@@ -142,9 +145,23 @@ def main() -> int:
         check("WIRED_NODES is the named hands, not a static dump",
               lambda: [s["link_id"] for s in WIRED_NODES]
               == ["sgh-api", "gem-api", "gw-api", "oa-api", "claude-cli",
+                  "cow",
                   "codex-cli",
                   "cursor-api", "firecrawl-web", "groq-api", "playwright-dom",
                   "github-forge", "gitlab-forge"])
+        by_wired = {s["link_id"]: s for s in WIRED_NODES}
+        check("cow is a CHAT core->orch satellite (not the Anthropic-default row)",
+              lambda: (by_wired["cow"]["rail_type"], by_wired["cow"]["src"],
+                       by_wired["cow"]["dst"], by_wired["cow"].get("satellite"))
+              == ("CHAT", "core", "orch", "cow"))
+        from cosmos_rails_prober import SATELLITES, probe_module_for, _cow_live_call
+        check("cow probe module is cosmos_cow_node, never claude-cli default",
+              lambda: SATELLITES["cow"][0] == "cosmos_cow_node"
+              and probe_module_for(by_wired["cow"]) == "cosmos_cow_node"
+              and callable(_cow_live_call))
+        check("cow independence note is on the live_call contract",
+              lambda: "SGH+GBW are not independent checks of each other"
+              in src)
 
         src = (Path(__file__).resolve().parent.parent / "cosmos"
                / "cosmos_rails_prober.py").read_text(encoding="utf-8")
