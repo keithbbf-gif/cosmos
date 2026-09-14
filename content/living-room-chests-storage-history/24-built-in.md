@@ -1,4 +1,23 @@
-# Built-in versus the box you can take when you leave
+---
+title: Built-in versus the box you can take when you leave
+slug: 24-built-in
+series: living-room-chests-storage-history
+status: draft
+voice_check: edited
+dek: "<figure class='lrch-figure'>"
+meta_description: "<figure class='lrch-figure'>"
+
+figure_id: met-linen-press-dt184
+image_rights: documented
+image_pass: 2026-09-14
+---# Built-in versus the box you can take when you leave
+
+<!-- lrch-figure:v1 -->
+<figure class="lrch-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/60/Linen_Press_MET_DT184.jpg" alt="American linen press as standing built-in case storage before modular wall units" width="1200" height="1500" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Built-in cupboards inherit Shaker clearance and Victorian parlor denial at architectural scale. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Linen_Press_MET_DT184.jpg">source</a>. American linen press; standing case storage.</figcaption>
+</figure>
+
 
 There are two ways to solve a living room that has too much life in it.
 

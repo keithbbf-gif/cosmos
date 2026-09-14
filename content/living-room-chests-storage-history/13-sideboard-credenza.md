@@ -1,4 +1,23 @@
-# Sideboard, credenza, and the word that sounded richer
+---
+title: Sideboard, credenza, and the word that sounded richer
+slug: 13-sideboard-credenza
+series: living-room-chests-storage-history
+status: draft
+voice_check: edited
+dek: "<figure class='lrch-figure'>"
+meta_description: "<figure class='lrch-figure'>"
+
+figure_id: met-sideboard-256582
+image_rights: documented
+image_pass: 2026-09-14
+---# Sideboard, credenza, and the word that sounded richer
+
+<!-- lrch-figure:v1 -->
+<figure class="lrch-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/c/c9/Sideboard_MET_256582.jpg" alt="American sideboard with serving surface and enclosed storage, Metropolitan Museum of Art" width="1200" height="1253" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Credenza begins as dining trust; the living room borrows the word after the radio needs wooden clothes. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Sideboard_MET_256582.jpg">source</a>. American sideboard — dining trust before credenza drift.</figcaption>
+</figure>
+
 
 A sideboard is dining furniture. Late eighteenth-century England gave it a classic form — a serving height, drawers for the silver and the cloths, sometimes a cellaret, sometimes a rail to keep the plates from committing suicide. Shearer, Hepplewhite, Sheraton: the names on the plates. American Federal copies and improves. You stand at it with a platter. You do not watch a serial there.
 

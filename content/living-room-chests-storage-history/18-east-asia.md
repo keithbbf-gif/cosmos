@@ -1,4 +1,23 @@
-# Tansu, bandaji, camphor — do not say “Asian chest”
+---
+title: Tansu, bandaji, camphor — do not say “Asian chest”
+slug: 18-east-asia
+series: living-room-chests-storage-history
+status: draft
+voice_check: edited
+dek: "<figure class='lrch-figure'>"
+meta_description: "<figure class='lrch-figure'>"
+
+figure_id: commons-ryobiraki-tansu
+image_rights: documented
+image_pass: 2026-09-14
+---# Tansu, bandaji, camphor — do not say “Asian chest”
+
+<!-- lrch-figure:v1 -->
+<figure class="lrch-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/0/03/Ryobiraki_tansu.jpg" alt="Ryōbiraki tansu clothing chest with iron hardware and sliding doors, Wikimedia Commons" width="800" height="571" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Tansu live in storehouses and closets — say tansu and bandaji; do not write Asian chest. <em>Rights:</em> CC BY-SA 3.0; Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:Ryobiraki_tansu.jpg">source</a>. Ryōbiraki tansu — clothing storage; not a Western commode cousin.</figcaption>
+</figure>
+
 
 A living-room catalog will sell you an “Asian chest” the way a restaurant sells “Asian salad.” The words mean the buyer does not have to learn a name. Learn the names.
 

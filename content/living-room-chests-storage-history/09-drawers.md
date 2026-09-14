@@ -1,4 +1,23 @@
-# Drawers — the day the pile lost
+---
+title: Drawers — the day the pile lost
+slug: 09-drawers
+series: living-room-chests-storage-history
+status: draft
+voice_check: edited
+dek: "<figure class='lrch-figure'>"
+meta_description: "<figure class='lrch-figure'>"
+
+figure_id: form-evolution
+image_rights: documented
+image_pass: 2026-09-14
+---# Drawers — the day the pile lost
+
+<!-- lrch-figure:v1 -->
+<figure class="lrch-figure">
+  <img src="assets/shared/svg/form-evolution.svg" alt="Form evolution schematic from lidded chest to drawer stack for Restoration walnut chest-of-drawers history" width="760" height="400" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> The drawer is the well losing — a face you look at instead of a lid you sit on. <em>Rights:</em> CC0 1.0 (original schematic); Keith BBF / COSMOS content pack; <a href="../content/living-room-chests-storage-history/RIGHTS.md">source</a>. Lid, basal drawer, and drawer-stack silhouettes.</figcaption>
+</figure>
+
 
 A chest is a well. You take out the top to get the bottom. That is fine when you own two shirts and a cloak. It is a tax when you own a dozen shifts, or when the thing you need is the pair of stockings you put in first because you were tired.
 

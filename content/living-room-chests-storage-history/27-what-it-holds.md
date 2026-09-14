@@ -1,4 +1,23 @@
-# What a living-room chest actually holds
+---
+title: What a living-room chest actually holds
+slug: 27-what-it-holds
+series: living-room-chests-storage-history
+status: draft
+voice_check: edited
+dek: "<figure class='lrch-figure'>"
+meta_description: "<figure class='lrch-figure'>"
+
+figure_id: storage-ottoman
+image_rights: documented
+image_pass: 2026-09-14
+---# What a living-room chest actually holds
+
+<!-- lrch-figure:v1 -->
+<figure class="lrch-figure">
+  <img src="assets/shared/svg/storage-ottoman-schematic.svg" alt="Storage ottoman schematic representing blankets, cables, and postponed decisions behind a lid" width="560" height="300" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> What the living-room chest holds is leftover narrative — a lid postpones a decision. <em>Rights:</em> CC0 1.0 (original schematic); Keith BBF / COSMOS content pack; <a href="../content/living-room-chests-storage-history/RIGHTS.md">source</a>. Storage ottoman as upholstered lidded box.</figcaption>
+</figure>
+
 
 Not dowries, mostly.
 

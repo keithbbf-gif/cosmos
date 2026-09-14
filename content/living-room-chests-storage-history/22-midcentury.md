@@ -1,4 +1,23 @@
-# Mid-century: the living room names the storage
+---
+title: Mid-century: the living room names the storage
+slug: 22-midcentury
+series: living-room-chests-storage-history
+status: draft
+voice_check: edited
+dek: "<figure class='lrch-figure'>"
+meta_description: "<figure class='lrch-figure'>"
+
+figure_id: va-eames-esu-421c
+image_rights: documented
+image_pass: 2026-09-14
+---# Mid-century: the living room names the storage
+
+<!-- lrch-figure:v1 -->
+<figure class="lrch-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Eames_storage_unit_ESU_421-C%2C_V%26A_London_02.jpg" alt="Eames Storage Unit ESU 421-C with steel frame and colored panels, Victoria and Albert Museum photograph" width="1200" height="1554" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Herman Miller, 1950–55 — living room named in the copy; five years of product, long afterlife in photographs. <em>Rights:</em> CC0 1.0; Victoria and Albert Museum, London; <a href="https://commons.wikimedia.org/wiki/File:Eames_storage_unit_ESU_421-C,_V%26A_London_02.jpg">source</a>. Charles and Ray Eames Storage Unit ESU 421-C; living room named in Herman Miller copy.</figcaption>
+</figure>
+
 
 For once the catalog says the room. The Eames Storage Unit, Herman Miller, 1950, is sold for the living room, the dining room, the bedroom, or as a divider. Steel extrusions, diagonal braces, plywood, Masonite, perforated metal. Warehouse vocabulary. Charles and Ray had already built a house out of industrial parts. The ESU is that house at furniture scale.
 

@@ -1,4 +1,23 @@
-# Shaker storage — the floor as a theology
+---
+title: Shaker storage — the floor as a theology
+slug: 17-shaker
+series: living-room-chests-storage-history
+status: draft
+voice_check: edited
+dek: "<figure class='lrch-figure'>"
+meta_description: "<figure class='lrch-figure'>"
+
+figure_id: met-shaker-blanket-chest
+image_rights: documented
+image_pass: 2026-09-14
+---# Shaker storage — the floor as a theology
+
+<!-- lrch-figure:v1 -->
+<figure class="lrch-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Blanket_Chest_MET_190605.jpg" alt="Shaker blanket chest with plain wooden lid and drawer pulls, Metropolitan Museum of Art" width="1200" height="971" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Storage as moral clearance of the floor — knobs instead of a cassone parade. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Blanket_Chest_MET_190605.jpg">source</a>. Shaker blanket chest; Met American Wing.</figcaption>
+</figure>
+
 
 The United Society of Believers did not invent the cupboard. They invented, or rather they insisted on, a room in which the cupboard had already done its work. Peg rails. Built-in cases. Oval boxes in nests. A cupboard-chest from New Lebanon, the Met’s pine “weave-chest,” cupboard above and four drawers below, about 1800–1850: that is a living-room problem solved in a workroom. The floor stays clear. The extra life goes into the wall.
 

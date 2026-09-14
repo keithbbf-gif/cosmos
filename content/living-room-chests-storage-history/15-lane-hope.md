@@ -1,4 +1,23 @@
-# Lane, cedar, and the gift that starts the home
+---
+title: Lane, cedar, and the gift that starts the home
+slug: 15-lane-hope
+series: living-room-chests-storage-history
+status: draft
+voice_check: edited
+dek: "<figure class='lrch-figure'>"
+meta_description: "<figure class='lrch-figure'>"
+
+figure_id: commons-lane-ad-1954
+image_rights: documented
+image_pass: 2026-09-14
+---# Lane, cedar, and the gift that starts the home
+
+<!-- lrch-figure:v1 -->
+<figure class="lrch-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Lane_Cedar_Chests_-_Debbie_Reynolds_agrees%2C_1954.jpg" alt="1954 Lane cedar chest advertisement scan on Wikimedia Commons, factory hope-chest marketing" width="1200" height="1741" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Altavista from 1912 — cedar, speed from ammunition boxes, and a script that stored a narrow future. <em>Rights:</em> Public domain (U.S. advertisement, 1954); Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:Lane_Cedar_Chests_-_Debbie_Reynolds_agrees,_1954.jpg">source</a>. Lane cedar chest advertisement, 1954 — factory trousseau script, not a period type.</figcaption>
+</figure>
+
 
 Red cedar — *Juniperus virginiana*, the American one — keeps moths honest. That is a chemistry you can smell. A lidded chest lined with it will hold wool. That is the material fact. Everything else in the twentieth-century “hope chest” is a script.
 

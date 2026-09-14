@@ -1,4 +1,23 @@
-# Hardware — the part that tells on the box
+---
+title: Hardware — the part that tells on the box
+slug: 25-hardware
+series: living-room-chests-storage-history
+status: draft
+voice_check: edited
+dek: "<figure class='lrch-figure'>"
+meta_description: "<figure class='lrch-figure'>"
+
+figure_id: commons-campaign-chest
+image_rights: documented
+image_pass: 2026-09-14
+---# Hardware — the part that tells on the box
+
+<!-- lrch-figure:v1 -->
+<figure class="lrch-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/CampaignChest.jpg" alt="Campaign chest brass corners and flush pulls showing hardware as travel grammar" width="600" height="726" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Handles are handles — iron straps on a six-board, brass on a campaign chest, knobs on Shaker cases. <em>Rights:</em> CC BY-SA 3.0; Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:CampaignChest.jpg">source</a>. British campaign chest in two parts — travel hardware, later sitting-room still life.</figcaption>
+</figure>
+
 
 Wood lies with stain. Hardware has a harder time.
 

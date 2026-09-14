@@ -1,4 +1,23 @@
-# The parlor that would not store anything
+---
+title: The parlor that would not store anything
+slug: 19-victorian-parlor
+series: living-room-chests-storage-history
+status: draft
+voice_check: edited
+dek: "<figure class='lrch-figure'>"
+meta_description: "<figure class='lrch-figure'>"
+
+figure_id: met-morris-chair-235723
+image_rights: documented
+image_pass: 2026-09-14
+---# The parlor that would not store anything
+
+<!-- lrch-figure:v1 -->
+<figure class="lrch-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d6/Reclining_Morris_Chair_MET_235723.jpg" alt="Reclining Morris chair in Arts and Crafts idiom, Metropolitan Museum of Art American Wing" width="1200" height="1357" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Parlor comfort that denies storage — whatnots and glass while the chest waits in another room. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Reclining_Morris_Chair_MET_235723.jpg">source</a>. Morris chair in the parlor's comfort vocabulary — not a chest, but the room's refusal of storage.</figcaption>
+</figure>
+
 
 A middle-class American parlor before the Civil War, and for a while after, was a room with a job that excluded the chest. Company. Courtship. The piano if you had one. The dead, laid out, in the houses that still did that at home. Sundays. The room was the household’s public face. Faces do not have drawers if they can help it.
 

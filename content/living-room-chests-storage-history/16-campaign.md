@@ -1,4 +1,23 @@
-# Campaign chests — built to leave, kept to stay
+---
+title: Campaign chests — built to leave, kept to stay
+slug: 16-campaign
+series: living-room-chests-storage-history
+status: draft
+voice_check: edited
+dek: "<figure class='lrch-figure'>"
+meta_description: "<figure class='lrch-figure'>"
+
+figure_id: commons-campaign-chest
+image_rights: documented
+image_pass: 2026-09-14
+---# Campaign chests — built to leave, kept to stay
+
+<!-- lrch-figure:v1 -->
+<figure class="lrch-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/CampaignChest.jpg" alt="British campaign chest in two parts with brass corners and flush pulls, travel furniture photograph" width="600" height="726" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Built to travel, then posed still in English and American sitting rooms as if it always sat there. <em>Rights:</em> CC BY-SA 3.0; Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:CampaignChest.jpg">source</a>. British campaign chest in two parts — travel hardware, later sitting-room still life.</figcaption>
+</figure>
+
 
 British officers in the eighteenth and nineteenth centuries needed furniture that could survive a ship and a mule and a damp station. The campaign chest is the type that still looks like that job after a century in a sitting room: two cases that stack, flush brass pulls that will not snag a lashing, corner guards, side handles, a height you can crate. Lost Art Press will give you a box to imagine — about forty by forty by twenty-two. Mahogany if you are looking at the British archetype. Teak turns up where the shop and the insects demanded it.
 

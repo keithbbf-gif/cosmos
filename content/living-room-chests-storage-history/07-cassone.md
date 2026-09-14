@@ -1,4 +1,23 @@
-# Cassone — a chest that had to walk through the street
+---
+title: Cassone — a chest that had to walk through the street
+slug: 07-cassone
+series: living-room-chests-storage-history
+status: draft
+voice_check: edited
+dek: "<figure class='lrch-figure'>"
+meta_description: "<figure class='lrch-figure'>"
+
+figure_id: met-cassone-dp106682
+image_rights: documented
+image_pass: 2026-09-14
+---# Cassone — a chest that had to walk through the street
+
+<!-- lrch-figure:v1 -->
+<figure class="lrch-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/Marriage_chest_%28cassone%29_MET_DP106682.jpg" alt="Italian Renaissance marriage chest cassone with painted front, Metropolitan Museum of Art" width="1200" height="787" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Cassone on the street and in the bedchamber — not a living-room type until later rooms inherit the silhouette. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Marriage_chest_(cassone)_MET_DP106682.jpg">source</a>. Italian marriage chest (cassone); Met collection photograph.</figcaption>
+</figure>
+
 
 The Italian marriage chest is the one museums taught us to want. Gilded gesso eagles. A painted triumph. Arms of two families on a box long enough to be a coffin, and sometimes shaped like one. The Met will show you a Tuscan cassone from about 1425–50 in pine and poplar, the decoration molded and gilt, and another from about 1480–95 that is more than six feet long. You can believe, looking at those, that a chest is a painting that happens to open.
 

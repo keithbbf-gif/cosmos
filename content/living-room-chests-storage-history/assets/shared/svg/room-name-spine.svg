@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="380" viewBox="0 0 720 380" role="img" aria-labelledby="title desc">
+  <title id="title">Parlor to living room - American front-room name change schematic</title>
+  <desc id="desc">Timeline of parlor formality loosening, decorating literature using living room in the 1890s, Bok house plans from 1895, and living room preferred by about 1910 in magazine usage.</desc>
+  <rect width="100%" height="100%" fill="#f4efe6"/>
+  <text x="24" y="36" font-family="Source Serif 4, Georgia, serif" font-size="18" font-weight="600" fill="#2c2416">The room gets a new name</text>
+  <rect x="40" y="70" width="120" height="36" rx="4" fill="#8b5a2b"/>
+  <text x="100" y="94" text-anchor="middle" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" font-weight="600" fill="#fffaf0">to ~1850</text>
+  <text x="180" y="94" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="13" fill="#2c2416">Parlor formal - company, Sunday, sometimes the dead.</text>
+  <rect x="40" y="130" width="120" height="36" rx="4" fill="#efe6d4" stroke="#c4b49a"/>
+  <text x="100" y="154" text-anchor="middle" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" font-weight="600" fill="#8b5a2b">1850-90</text>
+  <text x="180" y="154" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="13" fill="#2c2416">Room loosens; comfort argues with gentility.</text>
+  <rect x="40" y="190" width="120" height="36" rx="4" fill="#efe6d4" stroke="#c4b49a"/>
+  <text x="100" y="214" text-anchor="middle" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" font-weight="600" fill="#8b5a2b">1890s</text>
+  <text x="180" y="214" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="13" fill="#2c2416">Living room in decorating books - not Bok invention.</text>
+  <rect x="40" y="250" width="120" height="36" rx="4" fill="#8b5a2b"/>
+  <text x="100" y="274" text-anchor="middle" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" font-weight="600" fill="#fffaf0">1895+</text>
+  <text x="180" y="274" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="13" fill="#2c2416">Bok house plans drop the parlor; bric-a-brac sermon.</text>
+  <rect x="40" y="310" width="120" height="36" rx="4" fill="#8b5a2b"/>
+  <text x="100" y="334" text-anchor="middle" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" font-weight="600" fill="#fffaf0">~1910</text>
+  <text x="180" y="334" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="13" fill="#2c2416">Living room preferred to parlor in American magazine usage.</text>
+  <text x="24" y="372" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" fill="#6b5a45">Original schematic - CC0 1.0 - see 02-timeline.md and 20-bok.md.</text>
+</svg>

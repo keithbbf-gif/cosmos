@@ -1,4 +1,23 @@
-# Highboy, tallboy, and the chest that left the floor
+---
+title: Highboy, tallboy, and the chest that left the floor
+slug: 10-highboy-tallboy
+series: living-room-chests-storage-history
+status: draft
+voice_check: edited
+dek: "<figure class='lrch-figure'>"
+meta_description: "<figure class='lrch-figure'>"
+
+figure_id: met-high-chest-18-110-4
+image_rights: documented
+image_pass: 2026-09-14
+---# Highboy, tallboy, and the chest that left the floor
+
+<!-- lrch-figure:v1 -->
+<figure class="lrch-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/High_chest_of_drawers_MET_h1_18.110.4_av3.jpg" alt="Philadelphia high chest of drawers with scrolled pediment and cabriole legs, Met 18.110.4" width="1200" height="1831" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Chamber height — a bonnet-top highboy in a television room has lost a fight with scale. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:High_chest_of_drawers_MET_h1_18.110.4_av3.jpg">source</a>. Philadelphia high chest of drawers; Met 18.110.4.</figcaption>
+</figure>
+
 
 Once the drawers had won, someone stacked a second case on the first, or put the whole stack on a stand with legs. England said tallboy. America said highboy. The dates you can defend without a fight are rough: the fashion is an eighteenth-century one, strongest before 1775, lingering after because a tall chest is a useful wall.
 

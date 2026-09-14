@@ -1,0 +1,191 @@
+# src URLs are Wikimedia Commons upload links (no utm params in embeds).
+# Schematics use pack-relative paths for WordPress import.
+
+[plates.met-cassone-dp106682]
+src = "https://upload.wikimedia.org/wikipedia/commons/4/42/Marriage_chest_%28cassone%29_MET_DP106682.jpg"
+width = 1200
+height = 787
+license = "CC0 1.0 (Met Open Access)"
+institution = "The Metropolitan Museum of Art"
+source_page = "https://commons.wikimedia.org/wiki/File:Marriage_chest_(cassone)_MET_DP106682.jpg"
+credit = "Italian marriage chest (cassone); Met collection photograph."
+
+[plates.met-board-chest]
+src = "https://upload.wikimedia.org/wikipedia/commons/5/57/Board_Chest_MET_85I_ACF3091R6.jpg"
+width = 1200
+height = 868
+license = "CC0 1.0 (Met Open Access)"
+institution = "The Metropolitan Museum of Art"
+source_page = "https://commons.wikimedia.org/wiki/File:Board_Chest_MET_85I_ACF3091R6.jpg"
+credit = "Board chest; Met American Wing."
+
+[plates.met-commode-dp105698]
+src = "https://upload.wikimedia.org/wikipedia/commons/c/c1/Commode_MET_DP105698.jpg"
+width = 1200
+height = 1197
+license = "CC0 1.0 (Met Open Access)"
+institution = "The Metropolitan Museum of Art"
+source_page = "https://commons.wikimedia.org/wiki/File:Commode_MET_DP105698.jpg"
+credit = "French commode; Met decorative arts."
+
+[plates.nga-cressent-commode]
+src = "https://upload.wikimedia.org/wikipedia/commons/5/51/Commode%2C_Charles_Cressent%2C_Paris%2C_1745-1749_-_Nelson-Atkins_Museum_of_Art_-_DSC08841.JPG"
+width = 1200
+height = 900
+license = "CC0 1.0"
+institution = "The Nelson-Atkins Museum of Art"
+source_page = "https://commons.wikimedia.org/wiki/File:Commode,_Charles_Cressent,_Paris,_1745-1749_-_Nelson-Atkins_Museum_of_Art_-_DSC08841.JPG"
+credit = "Charles Cressent commode, Paris, c. 1745–49 — convenient case form."
+
+[plates.met-high-chest-18-110-4]
+src = "https://upload.wikimedia.org/wikipedia/commons/3/33/High_chest_of_drawers_MET_h1_18.110.4_av3.jpg"
+width = 1200
+height = 1831
+license = "CC0 1.0 (Met Open Access)"
+institution = "The Metropolitan Museum of Art"
+source_page = "https://commons.wikimedia.org/wiki/File:High_chest_of_drawers_MET_h1_18.110.4_av3.jpg"
+credit = "Philadelphia high chest of drawers; Met 18.110.4."
+
+[plates.met-linen-press-dt184]
+src = "https://upload.wikimedia.org/wikipedia/commons/6/60/Linen_Press_MET_DT184.jpg"
+width = 1200
+height = 1500
+license = "CC0 1.0 (Met Open Access)"
+institution = "The Metropolitan Museum of Art"
+source_page = "https://commons.wikimedia.org/wiki/File:Linen_Press_MET_DT184.jpg"
+credit = "American linen press; standing case storage."
+
+[plates.met-sideboard-256582]
+src = "https://upload.wikimedia.org/wikipedia/commons/c/c9/Sideboard_MET_256582.jpg"
+width = 1200
+height = 1253
+license = "CC0 1.0 (Met Open Access)"
+institution = "The Metropolitan Museum of Art"
+source_page = "https://commons.wikimedia.org/wiki/File:Sideboard_MET_256582.jpg"
+credit = "American sideboard — dining trust before credenza drift."
+
+[plates.met-shaker-blanket-chest]
+src = "https://upload.wikimedia.org/wikipedia/commons/a/a8/Blanket_Chest_MET_190605.jpg"
+width = 1200
+height = 971
+license = "CC0 1.0 (Met Open Access)"
+institution = "The Metropolitan Museum of Art"
+source_page = "https://commons.wikimedia.org/wiki/File:Blanket_Chest_MET_190605.jpg"
+credit = "Shaker blanket chest; Met American Wing."
+
+[plates.commons-campaign-chest]
+src = "https://upload.wikimedia.org/wikipedia/commons/4/47/CampaignChest.jpg"
+width = 600
+height = 726
+license = "CC BY-SA 3.0"
+institution = "Wikimedia Commons"
+source_page = "https://commons.wikimedia.org/wiki/File:CampaignChest.jpg"
+credit = "British campaign chest in two parts — travel hardware, later sitting-room still life."
+
+[plates.va-eames-esu-421c]
+src = "https://upload.wikimedia.org/wikipedia/commons/f/f7/Eames_storage_unit_ESU_421-C%2C_V%26A_London_02.jpg"
+width = 1200
+height = 1554
+license = "CC0 1.0"
+institution = "Victoria and Albert Museum, London"
+source_page = "https://commons.wikimedia.org/wiki/File:Eames_storage_unit_ESU_421-C,_V%26A_London_02.jpg"
+credit = "Charles and Ray Eames Storage Unit ESU 421-C; living room named in Herman Miller copy."
+
+[plates.commons-ryobiraki-tansu]
+src = "https://upload.wikimedia.org/wikipedia/commons/0/03/Ryobiraki_tansu.jpg"
+width = 800
+height = 571
+license = "CC BY-SA 3.0"
+institution = "Wikimedia Commons"
+source_page = "https://commons.wikimedia.org/wiki/File:Ryobiraki_tansu.jpg"
+credit = "Ryōbiraki tansu — clothing storage; not a Western commode cousin."
+
+[plates.haa-bandaji]
+src = "https://upload.wikimedia.org/wikipedia/commons/7/79/Korean_storage_chest_%28chonju_bandaji%29%2C_late_19th_century%2C_elm%2C_oak%2C_pine_and_metal%2C_HAA.JPG"
+width = 1200
+height = 1609
+license = "CC0 1.0"
+institution = "Honolulu Academy of Arts (photograph on Commons)"
+source_page = "https://commons.wikimedia.org/wiki/File:Korean_storage_chest_(chonju_bandaji),_late_19th_century,_elm,_oak,_pine_and_metal,_HAA.JPG"
+credit = "Chonju bandaji — half-front opening; say the name."
+
+[plates.commons-lane-ad-1954]
+src = "https://upload.wikimedia.org/wikipedia/commons/e/ec/Lane_Cedar_Chests_-_Debbie_Reynolds_agrees%2C_1954.jpg"
+width = 1200
+height = 1741
+license = "Public domain (U.S. advertisement, 1954)"
+institution = "Wikimedia Commons"
+source_page = "https://commons.wikimedia.org/wiki/File:Lane_Cedar_Chests_-_Debbie_Reynolds_agrees,_1954.jpg"
+credit = "Lane cedar chest advertisement, 1954 — factory trousseau script, not a period type."
+
+[plates.commons-radio-furniture-ad-1930]
+src = "https://upload.wikimedia.org/wikipedia/commons/5/55/Vintage_Radio_Advertising_-_General_Motors_Radio_with_Tone_Selector%2C_%22The_Ageless_Charm_of_Splendid_Furniture%2C_New_Mastery_of_Tone%22%2C_From_Ladies%27_Home_Journal%2C_November_1930_%289716692091%29.jpg"
+width = 1200
+height = 1576
+license = "CC BY-SA 2.0"
+institution = "Wikimedia Commons (Ladies' Home Journal scan)"
+source_page = "https://commons.wikimedia.org/wiki/File:Vintage_Radio_Advertising_-_General_Motors_Radio_with_Tone_Selector,_%22The_Ageless_Charm_of_Splendid_Furniture,_New_Mastery_of_Tone%22,_From_Ladies%27_Home_Journal,_November_1930_(9716692091).jpg"
+credit = "1930 radio in furniture's clothes — parlor manners for the machine."
+
+[plates.met-morris-chair-235723]
+src = "https://upload.wikimedia.org/wikipedia/commons/d/d6/Reclining_Morris_Chair_MET_235723.jpg"
+width = 1200
+height = 1357
+license = "CC0 1.0 (Met Open Access)"
+institution = "The Metropolitan Museum of Art"
+source_page = "https://commons.wikimedia.org/wiki/File:Reclining_Morris_Chair_MET_235723.jpg"
+credit = "Morris chair in the parlor's comfort vocabulary — not a chest, but the room's refusal of storage."
+
+[schematics.spine-timeline]
+src = "assets/shared/svg/spine-timeline.svg"
+width = 820
+height = 520
+license = "CC0 1.0 (original schematic)"
+institution = "Keith BBF / COSMOS content pack"
+source_page = "content/living-room-chests-storage-history/RIGHTS.md"
+credit = "Spine timeline from 02-timeline.md — educational line art."
+
+[schematics.room-name-spine]
+src = "assets/shared/svg/room-name-spine.svg"
+width = 720
+height = 380
+license = "CC0 1.0 (original schematic)"
+institution = "Keith BBF / COSMOS content pack"
+source_page = "content/living-room-chests-storage-history/RIGHTS.md"
+credit = "Parlor-to-living-room name spine — not a floor plan."
+
+[schematics.six-board]
+src = "assets/shared/svg/six-board-schematic.svg"
+width = 720
+height = 420
+license = "CC0 1.0 (original schematic)"
+institution = "Keith BBF / COSMOS content pack"
+source_page = "content/living-room-chests-storage-history/RIGHTS.md"
+credit = "Six-board chest construction schematic."
+
+[schematics.form-evolution]
+src = "assets/shared/svg/form-evolution.svg"
+width = 760
+height = 400
+license = "CC0 1.0 (original schematic)"
+institution = "Keith BBF / COSMOS content pack"
+source_page = "content/living-room-chests-storage-history/RIGHTS.md"
+credit = "Lid, basal drawer, and drawer-stack silhouettes."
+
+[schematics.hadley-panel]
+src = "assets/shared/svg/hadley-panel-schematic.svg"
+width = 640
+height = 360
+license = "CC0 1.0 (original schematic)"
+institution = "Keith BBF / COSMOS content pack"
+source_page = "content/living-room-chests-storage-history/RIGHTS.md"
+credit = "Hadley-group panel grammar — not a single-shop signature."
+
+[schematics.storage-ottoman]
+src = "assets/shared/svg/storage-ottoman-schematic.svg"
+width = 560
+height = 300
+license = "CC0 1.0 (original schematic)"
+institution = "Keith BBF / COSMOS content pack"
+source_page = "content/living-room-chests-storage-history/RIGHTS.md"
+credit = "Storage ottoman as upholstered lidded box."

@@ -1,4 +1,23 @@
-# Hadley, sunflower, and the initials that are not the maker
+---
+title: Hadley, sunflower, and the initials that are not the maker
+slug: 14-hadley-sunflower
+series: living-room-chests-storage-history
+status: draft
+voice_check: edited
+dek: "<figure class='lrch-figure'>"
+meta_description: "<figure class='lrch-figure'>"
+
+figure_id: hadley-panel
+image_rights: documented
+image_pass: 2026-09-14
+---# Hadley, sunflower, and the initials that are not the maker
+
+<!-- lrch-figure:v1 -->
+<figure class="lrch-figure">
+  <img src="assets/shared/svg/hadley-panel-schematic.svg" alt="Schematic Hadley-group chest front with tulip-and-stem panel and initials field, Connecticut River Valley grammar" width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Tulip-and-stem and sunflower rosettes — initials are usually the woman whose cloth went in, not the maker. <em>Rights:</em> CC0 1.0 (original schematic); Keith BBF / COSMOS content pack; <a href="../content/living-room-chests-storage-history/RIGHTS.md">source</a>. Hadley-group panel grammar — not a single-shop signature.</figcaption>
+</figure>
+
 
 New England’s joined oak chests are the American objects that make people say “our chests” as if oak were a citizenship. Two groups get the magazine ink.
 

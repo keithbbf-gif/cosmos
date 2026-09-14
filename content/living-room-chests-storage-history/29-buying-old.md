@@ -1,4 +1,23 @@
-# Buying an old chest without getting taken
+---
+title: Buying an old chest without getting taken
+slug: 29-buying-old
+series: living-room-chests-storage-history
+status: draft
+voice_check: edited
+dek: "<figure class='lrch-figure'>"
+meta_description: "<figure class='lrch-figure'>"
+
+figure_id: commons-campaign-chest
+image_rights: documented
+image_pass: 2026-09-14
+---# Buying an old chest without getting taken
+
+<!-- lrch-figure:v1 -->
+<figure class="lrch-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/CampaignChest.jpg" alt="Campaign chest photograph for judging old case furniture hardware and honest wear" width="600" height="726" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Buy the joint talking — bun feet replaced, straps thin, or corners that remember a cart. <em>Rights:</em> CC BY-SA 3.0; Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:CampaignChest.jpg">source</a>. British campaign chest in two parts — travel hardware, later sitting-room still life.</figcaption>
+</figure>
+
 
 I am not an appraiser. I am a person who has watched listings lie.
 

@@ -1,4 +1,23 @@
-# The mule chest and the name that showed up in 1911
+---
+title: The mule chest and the name that showed up in 1911
+slug: 08-mule-name
+series: living-room-chests-storage-history
+status: draft
+voice_check: edited
+dek: "<figure class='lrch-figure'>"
+meta_description: "<figure class='lrch-figure'>"
+
+figure_id: form-evolution
+image_rights: documented
+image_pass: 2026-09-14
+---# The mule chest and the name that showed up in 1911
+
+<!-- lrch-figure:v1 -->
+<figure class="lrch-figure">
+  <img src="assets/shared/svg/form-evolution.svg" alt="Schematic silhouettes of lidded chest, chest with basal drawer, and vertical drawer stack; mule chest name dated about 1911" width="760" height="400" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> The hybrid form is seventeenth-century; the English name mule chest is late — do not retroject it onto the joiners. <em>Rights:</em> CC0 1.0 (original schematic); Keith BBF / COSMOS content pack; <a href="../content/living-room-chests-storage-history/RIGHTS.md">source</a>. Lid, basal drawer, and drawer-stack silhouettes.</figcaption>
+</figure>
+
 
 There is a chest with a lid, and under the lid there is still a chest, and under that there are one or two drawers. You lift for the blankets. You pull for the things you need without unfolding the blankets. English joiners were making that hybrid in the seventeenth century. Oak. Sometimes a till inside the lid-space — a little long box along the end, the medieval leftover. The drawers were called tills too, or drawing boxes. They ran in grooves. They were not pretty. They were the first honest admission that a pile is a stupid way to file a shirt.
 

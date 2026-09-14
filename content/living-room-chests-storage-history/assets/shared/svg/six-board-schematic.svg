@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Six-board chest construction - ends, sides, bottom, lid, corner straps</title>
+  <desc id="desc">Exploded schematic of a boarded chest: two ends become feet, two sides, bottom, lid, and iron straps at weak nailed corners.</desc>
+  <rect width="100%" height="100%" fill="#f4efe6"/>
+  <text x="24" y="36" font-family="Source Serif 4, Georgia, serif" font-size="18" font-weight="600" fill="#2c2416">Six boards - a count, not a style</text>
+  <rect x="120" y="120" width="48" height="200" fill="#d4c4a8" stroke="#8b5a2b" stroke-width="2"/>
+  <text x="144" y="340" text-anchor="middle" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" fill="#2c2416">end (foot)</text>
+  <rect x="168" y="140" width="280" height="24" fill="#e8dcc8" stroke="#8b5a2b" stroke-width="2"/>
+  <text x="308" y="110" text-anchor="middle" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" fill="#2c2416">lid</text>
+  <rect x="168" y="164" width="280" height="140" fill="#efe6d4" stroke="#8b5a2b" stroke-width="2"/>
+  <text x="308" y="240" text-anchor="middle" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" fill="#6b5a45">sides (x2)</text>
+  <rect x="168" y="304" width="280" height="16" fill="#c4b49a" stroke="#8b5a2b" stroke-width="2"/>
+  <text x="308" y="360" text-anchor="middle" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" fill="#2c2416">bottom</text>
+  <rect x="448" y="120" width="48" height="200" fill="#d4c4a8" stroke="#8b5a2b" stroke-width="2"/>
+  <path d="M168 164 L168 120 L216 120 L216 164" fill="none" stroke="#5c4030" stroke-width="4"/>
+  <path d="M448 164 L448 120 L496 120 L496 164" fill="none" stroke="#5c4030" stroke-width="4"/>
+  <text x="520" y="200" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#2c2416">Iron straps admit</text>
+  <text x="520" y="220" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#2c2416">the corner is weak.</text>
+  <text x="24" y="404" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" fill="#6b5a45">Educational line art - CC0 1.0 - not a measured shop drawing.</text>
+</svg>

@@ -1,4 +1,23 @@
-# The room is younger than the box
+---
+title: The room is younger than the box
+slug: 05-the-room-is-younger
+series: living-room-chests-storage-history
+status: draft
+voice_check: edited
+dek: "<figure class='lrch-figure'>"
+meta_description: "<figure class='lrch-figure'>"
+
+figure_id: room-name-spine
+image_rights: documented
+image_pass: 2026-09-14
+---# The room is younger than the box
+
+<!-- lrch-figure:v1 -->
+<figure class="lrch-figure">
+  <img src="assets/shared/svg/room-name-spine.svg" alt="Timeline schematic from parlor formality through Bok house plans to living room preferred by about 1910 in American magazine usage" width="720" height="380" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> The living room is an American winning name for a front room you use on a weekday — younger than the chest it inherits. <em>Rights:</em> CC0 1.0 (original schematic); Keith BBF / COSMOS content pack; <a href="../content/living-room-chests-storage-history/RIGHTS.md">source</a>. Parlor-to-living-room name spine — not a floor plan.</figcaption>
+</figure>
+
 
 The living room is a late argument that won. The chest is not an argument. It is a box with a lid, and it was already old when the people who named parlors were learning to speak French in English houses.
 

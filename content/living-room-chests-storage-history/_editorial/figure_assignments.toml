@@ -1,0 +1,126 @@
+# slug -> plate_key, alt text, caption body (before Rights line)
+
+[05-the-room-is-younger]
+plate = "room-name-spine"
+alt = "Timeline schematic from parlor formality through Bok house plans to living room preferred by about 1910 in American magazine usage"
+caption = "The living room is an American winning name for a front room you use on a weekday — younger than the chest it inherits."
+
+[06-six-board]
+plate = "met-board-chest"
+alt = "Board chest with iron straps at the corners, Metropolitan Museum of Art American Wing photograph"
+caption = "A boarded chest wears iron where the nailed corner admits weakness — seat, table, and cupboard before closets."
+
+[07-cassone]
+plate = "met-cassone-dp106682"
+alt = "Italian Renaissance marriage chest cassone with painted front, Metropolitan Museum of Art"
+caption = "Cassone on the street and in the bedchamber — not a living-room type until later rooms inherit the silhouette."
+
+[08-mule-name]
+plate = "form-evolution"
+alt = "Schematic silhouettes of lidded chest, chest with basal drawer, and vertical drawer stack; mule chest name dated about 1911"
+caption = "The hybrid form is seventeenth-century; the English name mule chest is late — do not retroject it onto the joiners."
+
+[09-drawers]
+plate = "form-evolution"
+alt = "Form evolution schematic from lidded chest to drawer stack for Restoration walnut chest-of-drawers history"
+caption = "The drawer is the well losing — a face you look at instead of a lid you sit on."
+
+[10-highboy-tallboy]
+plate = "met-high-chest-18-110-4"
+alt = "Philadelphia high chest of drawers with scrolled pediment and cabriole legs, Met 18.110.4"
+caption = "Chamber height — a bonnet-top highboy in a television room has lost a fight with scale."
+
+[11-commode]
+plate = "nga-cressent-commode"
+alt = "Charles Cressent commode in bombé form, Nelson-Atkins Museum of Art, Paris about 1745–49"
+caption = "Commode means convenient — bedroom delivery before the type walks into smaller salons."
+
+[12-press-armoire]
+plate = "met-linen-press-dt184"
+alt = "American linen press with doors for folded storage, Metropolitan Museum of Art"
+caption = "Press and armoire logic — standing case storage before the closet is framed in the wall."
+
+[13-sideboard-credenza]
+plate = "met-sideboard-256582"
+alt = "American sideboard with serving surface and enclosed storage, Metropolitan Museum of Art"
+caption = "Credenza begins as dining trust; the living room borrows the word after the radio needs wooden clothes."
+
+[14-hadley-sunflower]
+plate = "hadley-panel"
+alt = "Schematic Hadley-group chest front with tulip-and-stem panel and initials field, Connecticut River Valley grammar"
+caption = "Tulip-and-stem and sunflower rosettes — initials are usually the woman whose cloth went in, not the maker."
+
+[15-lane-hope]
+plate = "commons-lane-ad-1954"
+alt = "1954 Lane cedar chest advertisement scan on Wikimedia Commons, factory hope-chest marketing"
+caption = "Altavista from 1912 — cedar, speed from ammunition boxes, and a script that stored a narrow future."
+
+[16-campaign]
+plate = "commons-campaign-chest"
+alt = "British campaign chest in two parts with brass corners and flush pulls, travel furniture photograph"
+caption = "Built to travel, then posed still in English and American sitting rooms as if it always sat there."
+
+[17-shaker]
+plate = "met-shaker-blanket-chest"
+alt = "Shaker blanket chest with plain wooden lid and drawer pulls, Metropolitan Museum of Art"
+caption = "Storage as moral clearance of the floor — knobs instead of a cassone parade."
+
+[18-east-asia]
+plate = "commons-ryobiraki-tansu"
+alt = "Ryōbiraki tansu clothing chest with iron hardware and sliding doors, Wikimedia Commons"
+caption = "Tansu live in storehouses and closets — say tansu and bandaji; do not write Asian chest."
+
+[19-victorian-parlor]
+plate = "met-morris-chair-235723"
+alt = "Reclining Morris chair in Arts and Crafts idiom, Metropolitan Museum of Art American Wing"
+caption = "Parlor comfort that denies storage — whatnots and glass while the chest waits in another room."
+
+[20-bok]
+plate = "room-name-spine"
+alt = "Schematic timeline of parlor loosening, 1890s living room in print, Bok plans from 1895, magazine preference by 1910"
+caption = "Bok did not invent living room — he sold house plans that dropped the parlor and called bric-a-brac a nervous condition."
+
+[21-radio-tv]
+plate = "commons-radio-furniture-ad-1930"
+alt = "1930 Ladies Home Journal advertisement for a radio styled as splendid furniture, Wikimedia Commons scan"
+caption = "The machine enters through wooden manners — credenza on a radio by 1928 is the same door."
+
+[22-midcentury]
+plate = "va-eames-esu-421c"
+alt = "Eames Storage Unit ESU 421-C with steel frame and colored panels, Victoria and Albert Museum photograph"
+caption = "Herman Miller, 1950–55 — living room named in the copy; five years of product, long afterlife in photographs."
+
+[23-ottoman]
+plate = "storage-ottoman"
+alt = "Schematic side view of upholstered storage ottoman with lidded box below padded top"
+caption = "A six-board in softer clothes — ask whether the lid stays up."
+
+[24-built-in]
+plate = "met-linen-press-dt184"
+alt = "American linen press as standing built-in case storage before modular wall units"
+caption = "Built-in cupboards inherit Shaker clearance and Victorian parlor denial at architectural scale."
+
+[25-hardware]
+plate = "commons-campaign-chest"
+alt = "Campaign chest brass corners and flush pulls showing hardware as travel grammar"
+caption = "Handles are handles — iron straps on a six-board, brass on a campaign chest, knobs on Shaker cases."
+
+[26-woods]
+plate = "met-board-chest"
+alt = "Board chest in oak or similar hardwood showing honest boarded construction at the Met"
+caption = "Oak in the valley, walnut in the city veneer, cedar in the Lane script — the wood is the argument."
+
+[27-what-it-holds]
+plate = "storage-ottoman"
+alt = "Storage ottoman schematic representing blankets, cables, and postponed decisions behind a lid"
+caption = "What the living-room chest holds is leftover narrative — a lid postpones a decision."
+
+[28-staging]
+plate = "six-board"
+alt = "Six-board chest schematic reminding scale and strap honesty for staging a chest in a living room"
+caption = "Staging is not the subject — but a cassone-length box in a small room is a dock."
+
+[29-buying-old]
+plate = "commons-campaign-chest"
+alt = "Campaign chest photograph for judging old case furniture hardware and honest wear"
+caption = "Buy the joint talking — bun feet replaced, straps thin, or corners that remember a cart."

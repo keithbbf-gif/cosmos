@@ -1,5 +1,11 @@
 # The living room is younger than the box
 
+<!-- lrch-figure:v1 -->
+<figure class="lrch-figure">
+  <img src="assets/shared/svg/spine-timeline.svg" alt="Timeline schematic contrasting medieval chest forms with the twentieth-century living room name and industrial cedar chest marketing" width="820" height="520" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Publish candidate spine — box older than the room that borrows it. <em>Rights:</em> CC0 1.0 (original schematic); Keith BBF / COSMOS content pack; <a href="RIGHTS.md">source</a>. Educational line art; pair with object plates in essays 05–29.</figcaption>
+</figure>
+
 The living room is younger than the box it keeps trying to hide.
 
 A chest is a lid on a well. If the shop is ordinary the count is six: ends that run down and become feet, sides nailed on, a bottom, a cover. The corners want to tear when you rack the box on a cart. Iron straps are not a look. They are the joint admitting what it is. You sit on the lid to pull your shoes on. You set a bowl there. You put inside it what a house cannot leave in the open. In a room with almost no other furniture the chest is cupboard, bench, and table. Northern Europe ran that object for centuries. Nobody needed a special word for the room. The chest sat where the life was.

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Hadley-group chest front - tulip-and-stem panel schematic</title>
+  <desc id="desc">Stylized Connecticut River Valley joined-chest front with tulip-and-stem carving and initials field. Not a reproduction of a single accession.</desc>
+  <rect width="100%" height="100%" fill="#f4efe6"/>
+  <rect x="160" y="60" width="320" height="220" fill="#efe6d4" stroke="#8b5a2b" stroke-width="3"/>
+  <ellipse cx="320" cy="150" rx="50" ry="70" fill="none" stroke="#8b5a2b" stroke-width="2"/>
+  <path d="M320 80 Q320 150 320 220" stroke="#6b8e4e" stroke-width="3" fill="none"/>
+  <path d="M280 150 Q320 130 360 150" stroke="#6b8e4e" stroke-width="2" fill="none"/>
+  <text x="320" y="300" text-anchor="middle" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#2c2416">Initials often name the woman whose cloth went in - not the joiner.</text>
+  <text x="24" y="344" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" fill="#6b5a45">Original schematic - CC0 1.0 - pair with museum plate when cleared.</text>
+</svg>

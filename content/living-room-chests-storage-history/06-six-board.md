@@ -1,4 +1,23 @@
-# Six boards and a pair of iron straps
+---
+title: Six boards and a pair of iron straps
+slug: 06-six-board
+series: living-room-chests-storage-history
+status: draft
+voice_check: edited
+dek: "<figure class='lrch-figure'>"
+meta_description: "<figure class='lrch-figure'>"
+
+figure_id: met-board-chest
+image_rights: documented
+image_pass: 2026-09-14
+---# Six boards and a pair of iron straps
+
+<!-- lrch-figure:v1 -->
+<figure class="lrch-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/57/Board_Chest_MET_85I_ACF3091R6.jpg" alt="Board chest with iron straps at the corners, Metropolitan Museum of Art American Wing photograph" width="1200" height="868" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> A boarded chest wears iron where the nailed corner admits weakness — seat, table, and cupboard before closets. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Board_Chest_MET_85I_ACF3091R6.jpg">source</a>. Board chest; Met American Wing.</figcaption>
+</figure>
+
 
 If you ask someone to draw a chest, they draw a six-board chest. They do not know that is the name. They draw two ends that go to the floor, two sides nailed to those ends, a bottom dropped into a groove or a rebate, a lid. They draw a box a person could sit on. That drawing is more than a thousand years of ordinary European furniture.
 

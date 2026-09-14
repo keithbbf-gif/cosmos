@@ -1,4 +1,23 @@
-# The soft chest
+---
+title: The soft chest
+slug: 23-ottoman
+series: living-room-chests-storage-history
+status: draft
+voice_check: edited
+dek: "<figure class='lrch-figure'>"
+meta_description: "<figure class='lrch-figure'>"
+
+figure_id: storage-ottoman
+image_rights: documented
+image_pass: 2026-09-14
+---# The soft chest
+
+<!-- lrch-figure:v1 -->
+<figure class="lrch-figure">
+  <img src="assets/shared/svg/storage-ottoman-schematic.svg" alt="Schematic side view of upholstered storage ottoman with lidded box below padded top" width="560" height="300" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> A six-board in softer clothes — ask whether the lid stays up. <em>Rights:</em> CC0 1.0 (original schematic); Keith BBF / COSMOS content pack; <a href="../content/living-room-chests-storage-history/RIGHTS.md">source</a>. Storage ottoman as upholstered lidded box.</figcaption>
+</figure>
+
 
 An ottoman, in the English and American house, is a padded stool or a low upholstered seat. The name traveled from Turkish seating in the eighteenth and nineteenth centuries and then forgot the trip. For a long time it did not store anything. It was a place for a foot or a second body.
 

@@ -1,4 +1,23 @@
-# Woods — what the box could afford
+---
+title: Woods — what the box could afford
+slug: 26-woods
+series: living-room-chests-storage-history
+status: draft
+voice_check: edited
+dek: "<figure class='lrch-figure'>"
+meta_description: "<figure class='lrch-figure'>"
+
+figure_id: met-board-chest
+image_rights: documented
+image_pass: 2026-09-14
+---# Woods — what the box could afford
+
+<!-- lrch-figure:v1 -->
+<figure class="lrch-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/57/Board_Chest_MET_85I_ACF3091R6.jpg" alt="Board chest in oak or similar hardwood showing honest boarded construction at the Met" width="1200" height="868" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Oak in the valley, walnut in the city veneer, cedar in the Lane script — the wood is the argument. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Board_Chest_MET_85I_ACF3091R6.jpg">source</a>. Board chest; Met American Wing.</figcaption>
+</figure>
+
 
 **Oak.** The European default for joined and boarded chests until walnut becomes a city fashion. American joined chests too — Hadley, sunflower — oak faces, pine or oak elsewhere as the shop had it. Quartered oak later, Stickley, the living-room sideboard that wants to look like a principle.
 

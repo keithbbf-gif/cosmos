@@ -2,7 +2,8 @@
 
 **Stream:** writer. **Owner voice:** BBF. **Rule:** quality over speed.  
 **Folder:** `content/living-room-chests-storage-history/`  
-**Count:** forty-six files, `00` through `45`. This file is the map, not the piece.
+**Count:** forty-six files, `00` through `45`. This file is the map, not the piece.  
+**Images:** `IMAGE-SEO.md`, `RIGHTS.md`, `GRAPHICS_INDEX.md`, `assets/` (SVG schematics + Commons registry).
 
 This is not a furniture catalog and not a COSMOS module. It is a staged writing set: research that can be checked, then object essays, then full-essay revisions, then the apparatus (openings, cuts, captions, claim index). The living room is the room. The chest is the oldest storage furniture most people in the West still recognize. The argument is that those two facts do not sit easily together, and most copy about “living room storage” pretends they do.
 

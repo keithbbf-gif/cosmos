@@ -1,4 +1,23 @@
-# When the chest stood up — press, cupboard, armoire
+---
+title: When the chest stood up — press, cupboard, armoire
+slug: 12-press-armoire
+series: living-room-chests-storage-history
+status: draft
+voice_check: edited
+dek: "<figure class='lrch-figure'>"
+meta_description: "<figure class='lrch-figure'>"
+
+figure_id: met-linen-press-dt184
+image_rights: documented
+image_pass: 2026-09-14
+---# When the chest stood up — press, cupboard, armoire
+
+<!-- lrch-figure:v1 -->
+<figure class="lrch-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/60/Linen_Press_MET_DT184.jpg" alt="American linen press with doors for folded storage, Metropolitan Museum of Art" width="1200" height="1500" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Press and armoire logic — standing case storage before the closet is framed in the wall. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Linen_Press_MET_DT184.jpg">source</a>. American linen press; standing case storage.</figcaption>
+</figure>
+
 
 A lid is a horizontal door. At some point the door stands on its side and the chest becomes a cupboard. English said press, linen press, clothes press. French said armoire. The trays slide, or the shelves sit, and the textiles do not live in a pile you have to archaeology.
 

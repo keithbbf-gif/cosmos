@@ -1,4 +1,23 @@
-# Staging a chest in a room (the other “staged”)
+---
+title: Staging a chest in a room (the other “staged”)
+slug: 28-staging
+series: living-room-chests-storage-history
+status: draft
+voice_check: edited
+dek: "<figure class='lrch-figure'>"
+meta_description: "<figure class='lrch-figure'>"
+
+figure_id: six-board
+image_rights: documented
+image_pass: 2026-09-14
+---# Staging a chest in a room (the other “staged”)
+
+<!-- lrch-figure:v1 -->
+<figure class="lrch-figure">
+  <img src="assets/shared/svg/six-board-schematic.svg" alt="Six-board chest schematic reminding scale and strap honesty for staging a chest in a living room" width="720" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Staging is not the subject — but a cassone-length box in a small room is a dock. <em>Rights:</em> CC0 1.0 (original schematic); Keith BBF / COSMOS content pack; <a href="../content/living-room-chests-storage-history/RIGHTS.md">source</a>. Six-board chest construction schematic.</figcaption>
+</figure>
+
 
 Furniture staging, the real-estate kind, loves a chest. It is low, it takes a lamp, it takes a bowl, it takes a stack of books that have never been opened in that county. The photograph says “storage” without showing a sock.
 

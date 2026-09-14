@@ -1,5 +1,11 @@
 # Timeline — the box is old; the room is not
 
+<!-- lrch-figure:v1 -->
+<figure class="lrch-figure">
+  <img src="assets/shared/svg/spine-timeline.svg" alt="Spine timeline schematic from six-board chests through cassone, drawers, commode, living room name, Lane cedar, and Eames storage unit" width="820" height="520" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> The chest is medieval; the living room is a late-Victorian argument that won — milestones for the essays, not a catalog chronology. <em>Rights:</em> CC0 1.0 (original schematic); Keith BBF / COSMOS content pack; <a href="RIGHTS.md">source</a>. Spine timeline from 02-timeline.md — educational line art.</figcaption>
+</figure>
+
 A year with no object is a rumor. This is a spine, not a chronicle of every shop.
 
 ## Before anyone said living room
