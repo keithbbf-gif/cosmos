@@ -35,15 +35,33 @@ A tree that looked “fine” at the first flush will wear a map after a string 
 
 Zone **8a** gives you those weeks for free. Humidity does not cancel them. A west pot on gravel will write the loudest leaf. An in-ground tree with rust plus heat plus a painted virus will look like the end of the world. It is often just July.
 
+I have a photo album that is almost only this argument. May, polite. July, a map. Same branch. Same tape label. I show it to people who want a funeral. They still want a bottle. The album is cheaper.
+
+## A 98° week walk, in order
+
+I walk in the morning, not at 3 p.m. when every leaf looks guilty.
+
+I take a drink to the pot row first. West gravel cooks. A dry pot plus a painted virus plus a reflected driveway is three theaters. I water the dirt. I do not “treat the virus.” I treat the week.
+
+I flip ten leaves on the loudest name. Underside first. If I see orange grit, I have rust arriving on schedule and I am in a different bucket. If the back is clean and the blade is a map, I stay off the jug.
+
+I look at fruit. If figs are still sizing and coloring, the leaf theater is not automatically a crop failure. If fruit is souring, that is yeast and a door, not a new virus.
+
+I look at the top for a noon wilt while the pot is still heavy. That is water or roots, not mosaic getting a promotion.
+
+I photograph the loud leaf, top and back, and I put yesterday’s May photo next to it if I have one. Same branch if I can. Feelings want one villain. The two photos usually sell a calendar.
+
 ## What I compare, not what I feel
 
 I compare **May notes to July notes** on the same tree. If I have a photo from a cool spring, I look at it. Same branch. Same paint, louder. That is mosaic being mosaic.
 
 If May was clean and July is angular grit on the underside, that is rust arriving on schedule. Different bucket.
 
-If May was clean and July is bleach on the west face, that is a cooked leaf. Move the pot.
+If May was clean and July is bleach on the west face, that is a cooked leaf. Move the pot. Afternoon shade on a pot block in the Deep South is already FigRoots outdoor talk. Mosaic does not change that. It makes it ruder if you ignore it.
 
 If the whole top folded and the dirt is wet, leave mosaic out of it until you have looked at water and roots.
+
+If the new flush is small and twisted and the rest of the tree still works, I write “paints in heat” on the label side and I go pick. I do not write “new infection Tuesday.”
 
 Feelings want one villain. July will sell you one. The yard usually has two.
 
@@ -53,7 +71,9 @@ I am not going to invent a lab mechanism I did not measure. The review papers ta
 
 So I water. I do not “treat the virus.” I treat the week.
 
-Afternoon shade on a pot block in the Deep South is already FigRoots talk. Mosaic does not change that. It makes it ruder if you ignore it.
+A clay hole that baked and then cracked will make a painted in-ground tree look worse than the same name in a mulched bed that still held a drink. Same file. Different speaker. I mulch. I do not oil.
+
+A first-year stick in a three-gallon pot will scream louder than a ten-year stool. Give the stick the same patience you give a first-year plant without mosaic. Heat plus a small pot plus a virus leaf is a lot of theater. The question is still: did it grow.
 
 ## What I will not do in a loud week
 
@@ -63,7 +83,11 @@ I will not oil the canopy at 4 p.m. on a 98° day. You will cook what the virus 
 
 I will not decide a variety is worthless because Tuesday’s leaf was ugly. I decide in September, on fruit and wood.
 
-I will not start a mite program on an old painted turkey because July was loud. The mite chapter is for spread onto clean plants. This tree already has the file.
+I will not start a mite program on an old painted turkey because July was loud. The mite chapter is for spread onto clean plants. This tree already has the file. Controlling mites may reduce spread. It does not evict the virus already in the wood.
+
+I will not copper a paint job because a rust article was open in another tab. LSU 2025 said no labeled fungicide for figs in Louisiana. UAEX still talks historic copper for rust. UF’s older Florida note said no EPA-approved fungicides for edible figs in that document. None of that is a heat-wave mosaic spray. **[VERIFY]** your own label if you are even in the rust bucket.
+
+I will not cut the tree down on a Wednesday because the group chat said virus.
 
 ## What I will do
 
@@ -73,7 +97,13 @@ Check rust. Check water. Check whether fruit is still moving.
 
 Write down that this name paints in heat. That is useful when I am tempted to buy a “cleaner” cutting of the same flavor and call it new.
 
-Give a first-year plant the same patience I give a first-year plant without mosaic. Heat plus a small pot plus a virus leaf is a lot of theater. The question is still: did it grow.
+Move a west pot if I can. Leave an in-ground working tree if it is still a working tree.
+
+Keep the hose boring. Dirt, not a midnight shower on a leaf I am already mad at.
+
+Give a first-year plant the same patience I give a first-year plant without mosaic.
+
+If a plant never makes a canopy — not just a loud July, but a stick that will not grow up — I replace it. UC said live with it or replace a tree that will not perform. Heat week is not the performance review. The year is.
 
 ## Winter will turn the volume down
 
@@ -81,8 +111,12 @@ The next cool spring the tree will look polite again. Do not write a testimonial
 
 If winter also killed wood, that is a cold chapter or a rust-flush chapter or a variety that did not belong on that wall. Mosaic will try to take the credit. Do not give it.
 
+I have lost wood after a rust strip and a foolish October flush and a teen night. I wanted the virus to be the author because the leaf had been loud in July. The scrape in March said cold. I believe the scrape.
+
 ## The date on the infection
 
 Date the infection to the cutting, or the mite, or the grandmother tree — something that actually moves virus. Do not date it to the heat wave. The heat wave dated your attention. That is a different stamp.
 
 Leave the working tree. Water the week. Flip the leaf so you do not rust-treat a paint job. July is loud. It is allowed to be loud. You are not required to match it with a jug.
+
+I will be out there in the next 98° week with a hose and a camera. The leaf will be a map. The fruit can still be breakfast. That is the whole sermon.
