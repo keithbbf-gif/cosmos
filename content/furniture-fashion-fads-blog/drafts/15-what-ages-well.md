@@ -1,0 +1,39 @@
+---
+title: What Ages Well
+slug: what-ages-well
+status: draft
+voice_check: human
+series: furniture-fashion-fads
+dek: Solid wood, an honest finish, a joint you can get back into — versus a printed grain, a one-year color, and a sofa no one will re-cover.
+word_count: 1483
+---
+
+The table is oak, the top a little proud at one end where a leaf used to live, the finish worn to a pale path between the two chairs that were always used. Someone has put a mason jar of spoons on it. The kitchen around it has been painted four times since 1978. The table has been wiped. That is the whole inheritance. You do not have to love 1970s oak to keep the table. You have to recognize that the top is a board, the boards are joined, and the finish is a film you can cut through without cutting through the idea.
+
+*Photo cue: FFF-15a — 1970s solid-oak dining table, worn path in the finish, one leaf seam visible; kitchen light, no styling beyond what is already on the top.*
+
+This is a field guide, not a ranking. What ages well in furniture is a short list of mechanical properties dressed up as taste. Solid wood — or a thick veneer over a stable core, honestly described — can be refinished. An honest finish is one you can name: oil, wax, shellac, lacquer, a conversion varnish, even a consumer polyurethane if you know it is there. Repairable joinery is a mortise, a dowel you can drill out, a screw that was not a cam lock, a corner block. The opposite list is also short. Printed grain on a substrate that chips at the edge. A color that was the point of the piece. Upholstery whose cover cannot come off and whose foam is stapled to a frame that will not be worth the recovering bill.
+
+Dining tables age if the top is real. Case goods — dressers, sideboards, chests — age if the drawers run on wood or on a slide you can replace, and if the carcass is not a photograph wrapped around air. Chairs age if the joints can be knocked apart and glued, if the seat is a slip or a pad, if the back is a post and not a molded shell whose only future is a crack. Sofas are a different kingdom. Upholstery is fashion. A sofa can be well made and still be a five-to-twelve-year object for most households, because taste in cloth moves and because bodies ruin cloth. The exception is a frame you will pay to recover, in a shop that still does that work. Most sofas are not that exception. They are the color cycle in foam.
+
+Inherit a 1970s oak table and do this. Do not sand it in the driveway on the first Saturday unless the finish is failing. Clean it. Denatured alcohol on a cloth will tell you if you are dealing with shellac; water will tell you if the top has been living as a bar. If the film is intact and only ugly, you can live with ugly while you decide. If you strip, strip to the wood and stop. 1970s oak is often redder than the present mood. You can tone it down with a stain that has some brown and green in it, or you can leave the red and let the room catch up. Do not “whitewash” it unless you want a 2014 kitchen in 2028. Oil, if the wood can take it, is reversible. A thick consumer polyurethane is a commitment. Either is honest if you choose it on purpose.
+
+*Photo cue: FFF-15b — same table mid-clean, finish test patch, no before/after glamour; tools in frame, shop-light truth.*
+
+The 1970s oak suite — hutch, table, captain’s chairs — is the hangover people are meanest about, and some of it earned the meanness. A lot of those suites were oak-colored rather than oak, with carved-looking panels that were stamped, and chairs whose stretchers loosened in the first decade. The table, if it is the real member of the family, is still the keeper. Sell or stage the hutch if the hutch is a box of dust and glass doors that rattle. Keep the top that can take a holiday. Status, then, was a matched set. Status now is a mixed room that looks as if someone chose. You can use that. You do not have to sneer at the original buyer. They bought a set because the store sold sets. Sears, Levitz, and a hundred regional floors made the set the default. The default was a picture. The table is what survived the picture.
+
+Printed grain dates on a schedule you can set a clock by. As soon as the print is of a fashion oak — gray, whitewashed, “rustic” with a black wash in the pores — the year is in the paper. You cannot sand a photograph. You can paint it, and then you have a painted photograph. One-year color dates faster: the millennial-pink velvet, the hunter-green wash, the terracotta bouclé that was a clip. Unrepairable upholstery dates in two ways at once. The cloth goes, and the structure will not accept a new cloth at a price a sane person pays. That is why the sofa is the wrong place to spend as if you were buying a table.
+
+A Warren, Arkansas, hardwood island is a different bet than a laminate cart. Bradley Brand Furniture’s product copy says solid hardwood and no particleboard or MDF. The same family of copy places Bradley Lumber Co. at 1902, which is a company claim until a primary record sits beside it [CITE NEEDED]. I am not writing a specification. I am writing a category. An island you can plane is an island you can keep when the cabinets change color. A cart with a printed top and a skinny chrome stem is a cart you will list for twenty dollars because it still rolls. Both objects hold a bowl of fruit. Only one of them is in this field guide.
+
+*Photo cue: FFF-15c — solid-hardwood kitchen island, top worn, knife marks; contrasting laminate utility cart in the same frame if you can do it without cruelty.*
+
+What ages in a chair is often the least visible part. A post-and-rung chair you can re-glue. A Thonet-style bentwood if the bend has not split. A Moser-type arm if the shop will still talk to you. A 1990s “farmhouse” chair with dowels and glue and a stretch of fiberboard in the seat is a chair you will put at the kid’s table and then not. Hardware ages when it is brass or iron that can be cleaned, not when it is a zinc knob in a trend shape. Barn-door steel on a closet will look like 2016 longer than a plain mortised lockset will look like any year.
+
+Finishes that age are finishes that can dull and be brought back. Oil and wax ask for a hand. Shellac asks for alcohol and skill. Nitrocellulose lacquer, on older case goods, can be melted in and repaired by a finisher who still does that. Conversion varnishes on late-century factory tables are harder; they are also why some of those tables still look “new” in a way that is not quite living. A factory distressing that was meant to look old looks, after ten years of real life, like two times stacked. Stop stacking. If you want old, use the piece.
+
+The hangover from the last twenty years of “fast” case goods is a particular trash-day object: a dresser whose paper surface has lifted at the drawer edge, the white substrate showing like a tooth. Next to it, sometimes, is a 1970s oak table no one wanted to carry. Carry the table. Leave the tooth. I have seen that pair on a curb in the same hour. The street understands this essay. The street is not sentimental about oak. It is sentimental about weight. Weight is a bad proxy, but it is better than a thumbnail.
+
+Retail will keep selling the other list, because the other list photographs. Wayfair, the warehouse clubs, the mall galleries, the feed — they need a new grain and a new color because the old picture has been scrolled past. High Point will mint the grain. A hardwood shop will mint another top. You can buy from both without lying to yourself if you know which purchase is a year and which is a table. A year is allowed. A house that is only years is a catalog that you happen to sleep in.
+
+Inherit the oak table. Wipe it. Decide later about the red. Paint the walls whatever the decade demands. The table will still be there when terracotta is embarrassing, and it was there when harvest gold was proud. That is not virtue. That is a board, kept.

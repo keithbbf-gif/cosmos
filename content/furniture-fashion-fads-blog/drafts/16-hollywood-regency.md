@@ -1,0 +1,43 @@
+---
+title: Hollywood Regency
+slug: hollywood-regency
+status: draft
+voice_check: human
+series: furniture-fashion-fads
+dek: Studio glamour had weight and lacquer; the boutique-hotel copy often has resin and a palm that came in a roll.
+word_count: 1557
+---
+
+The chest is black lacquer, high enough to throw a lamp, the doors a pair of Greek-key panels that catch the light like water. Someone has put a porcelain dog on it. The dog is a little much. The chest can take the dog. That is Hollywood Regency when it is working: a surface that will accept a joke because the surface was built. When it is not working, the same idea is a resin box with a foil key pattern and a palm-print pillow, and the dog looks like the only honest object in the room.
+
+*Photo cue: FFF-16a — high-gloss lacquered chest, Greek-key detail, 1940s–50s or a documented later piece in the same construction; object, not a celebrity interior.*
+
+Dorothy Draper is the name the hotels keep. She redid the Greenbrier in White Sulphur Springs in the 1940s, after the building had been a wartime hospital, and she put the place back into a kind of American Baroque: cabbage roses, strong color, black and white, a lobby that would photograph. The Tides is the other Draper citation that travels with her name in the brief histories; treat the attribution as something to pin to a dated commission list before you write it in bronze [CITE NEEDED for the exact Tides project and year]. Draper’s point, in the rooms that are still hers, was not “more.” It was scale and nerve. A baroque plaster and a striped chair can be a system. A striped chair alone is a remnant.
+
+William Haines — Billy Haines — came at the same glamour from the studio side. An actor who became a decorator, he did houses for people whose faces were already furniture, and he designed pieces that could stand that company: clean, shiny, a little classical, not cute. Hollywood furniture in his hands was not a prop department leftover. It was a second career with a shop. The 1930s into the 1950s are the years the style still belongs to. Palm motifs, Greek key, high-gloss lacquer, animal print as an accent that knew it was an accent. The studio wanted a room that looked like money in black and white and then in Technicolor. The furniture had to read at thirty feet and also survive a party.
+
+*Photo cue: FFF-16b — Dorothy Draper, Greenbrier, 1940s public room, cabbage rose or black-and-white geometry; historic photograph, rights via the hotel archive or a public collection.*
+
+Status, then, was proximity to the industry. A Haines sofa in a Bel Air living room said you were in the picture even when you were at home. A Draper hotel lobby said the guest was in a production. That is a specific vanity, and it produced specific objects: lacquer that took labor, brass that had weight, a mirror that was a wall. The hangover, even in the good years, was the cheaper studio-adjacent suite — blond, shiny, a little Spanish, a little French, sold in Los Angeles and then in every city that wanted a taste of the credits. Some of that suite was walnut under the shine. Some of it was already a costume.
+
+The 2000s brought the costume back as a boutique-hotel product. Jonathan Adler, who came up through pottery and then a full interiors line, sold a cheerful, knowing Regency: brass, lacquer colors, a porcelain animal that was in on the joke. Kelly Wearstler put a denser, more mineral version into hotels and houses — pattern on pattern, a Greek key that had been to the gym, animal print that was not shy. The Viceroy and the other Wearstler-era rooms taught a generation of developers what “glamour” looked like in a photograph for a booking site. Adler taught a generation of shops what glamour looked like on a shelf. Both are competent at the joke. The copy that followed them often had only the joke.
+
+Resin is the tell. A well-made lacquered chest is wood, or a stable panel, with film built up and rubbed. It can be repaired by a finisher who still understands rubbing. A resin “lacquer” chest is a molded shine. It chips to a beige wound. Greek key in inlay or in a painted band is a drawing on a surface that exists. Greek key in a decal or a printed PVC is a drawing on a drawing. Palm motifs in a good textile are leaves someone decided to stylize. Palm motifs on a peel-and-stick mural behind a gold sofa are a vacation the room cannot take. Animal print on a pillow is a tradition. Animal print on every vertical surface is a costume department that lost the lead actor.
+
+*Photo cue: FFF-16c — 2000s boutique-hotel lobby, Wearstler-era or after, Greek key and animal print in one frame; booking photograph or published interior, rights dependent.*
+
+Retail spread the revival through Jonathan Adler stores, through Wearstler’s books and the hotel copycats, through Restoration Hardware’s shinier years, through every “glam” collection at the mall that put a crystal finial on a lamp and called it Hollywood. High Point minted brass-and-black suites that had never been near a studio. Wayfair still returns a hundred “Hollywood Regency” nightstands, most of them a cam-lock box with a chrome handle. The name, like Mission, like Tuscany, like farmhouse, became a filter. Filters do not age. They date.
+
+What ages is the well-made lacquered chest, the brass that can be polished, the chair whose show-wood is actually wood, the mirror that is heavy enough to need two people. Those objects can leave Bel Air and live in a smaller room if you let them be furniture instead of a set. What dates is the resin version, the palm that came in a roll, the faux-shagreen that is a vinyl, the chandelier that is a photograph of a chandelier. The 2000s boutique-hotel copy dates fastest when it was all accent: no quiet surface, no place for the eye to stop, a room that required the ice machine down the hall to make sense.
+
+A Greenbrier corridor and a suburban dining room can use the same black-and-white stripe. The corridor has the stripe as a beat in a larger system. The dining room has the stripe as the system. Draper can survive the first. She cannot be blamed for the second. Haines cannot be blamed for the nightstand with the Greek-key sticker. Adler and Wearstler can be blamed only for being good enough to copy. Copy is the fad mechanism. It always has been.
+
+*Photo cue: FFF-16d — resin “lacquer” nightstand, chip on a corner showing substrate, Greek-key decal lifting; object photography, hangover evidence.*
+
+A hardwood shop will not, as a rule, make Hollywood Regency, and should not be asked to as a personality test. Bradley Brand Furniture in Warren, Arkansas, talks solid hardwood and no particleboard or MDF in its product language; it also attaches Bradley Lumber Co. to 1902 in that language, which stays company copy until a primary record confirms it [CITE NEEDED]. The useful contrast is construction, not taste. Lacquer over a stable hardwood chest is a finish on furniture. Shine over a resin box is a finish on a product cycle. You can want the shine. You should know which substrate you are shining.
+
+Animal print, while we are here, ages only as an accent and only if the cloth is cloth. A 1950s leopard chair in a real hide or a real textile, kept as one object in a quiet room, still has nerve. A 2018 leopard rug under a gold coffee table under a palm mural is a year. High-gloss ages if someone will rub it out when it dulls. High-gloss dates if it was never a film, only a plastic. Greek key ages if it is drawn once, at a scale that fits the piece. It dates if it is a border on everything, including the wastebasket.
+
+The studio rooms were sets, and they knew it. That self-knowledge is what the good pieces kept: a chest that could walk out of the set and still be a chest. The boutique-hotel rooms of the 2000s were sets that wanted to be booked. The booking photograph is a hard master. It wants the palm, the key, the print, the shine, in one frame, because the guest is scrolling. Furniture that exists to satisfy a scroll is already in the same trouble as furniture that existed to satisfy a Wish Book page. The body arrives later, with a suitcase, and sits on a bench that was specified as a stripe.
+
+Keep the lacquered chest if the doors still close and the film can be saved. Give the resin key-pattern box to the next production. Hollywood Regency, when it was a shop and a hotel and a decorator with a drawing account, made objects that could carry a porcelain dog. The fad version makes the dog do all the work. The dog is tired. Let the chest work. If there is no chest — if there is only a palm and a shine — you are not in the 1940s. You are in a listing. Listings refresh. Lacquer, if it is lacquer, can be rubbed again.
