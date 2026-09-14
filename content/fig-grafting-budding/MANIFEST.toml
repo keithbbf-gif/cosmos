@@ -1,0 +1,83 @@
+# Staged draft inventory — fig grafting / budding, Zone 8a
+# status is staged until a human publishes. Do not treat a green check as live.
+
+series = "fig-grafting-budding"
+zone = "8a"
+status = "staged"
+voice = "human"
+min_drafts = 40
+
+[[stage]]
+id = "00"
+name = "orientation"
+folder = "stage-00-orientation"
+
+[[stage]]
+id = "01"
+name = "calendar"
+folder = "stage-01-calendar"
+
+[[stage]]
+id = "02"
+name = "kit-and-safety"
+folder = "stage-02-kit-and-safety"
+
+[[stage]]
+id = "03"
+name = "understock"
+folder = "stage-03-understock"
+
+[[stage]]
+id = "04"
+name = "scion"
+folder = "stage-04-scion"
+
+[[stage]]
+id = "05"
+name = "union-anatomy"
+folder = "stage-05-union-anatomy"
+
+[[stage]]
+id = "06"
+name = "dormant-grafts"
+folder = "stage-06-dormant-grafts"
+
+[[stage]]
+id = "07"
+name = "bark-and-large-stock"
+folder = "stage-07-bark-and-large-stock"
+
+[[stage]]
+id = "08"
+name = "budding"
+folder = "stage-08-budding"
+
+[[stage]]
+id = "09"
+name = "bench-and-special"
+folder = "stage-09-bench-and-special"
+
+[[stage]]
+id = "10"
+name = "aftercare"
+folder = "stage-10-aftercare"
+
+[[stage]]
+id = "11"
+name = "first-year-and-winter"
+folder = "stage-11-first-year-and-winter"
+
+[[stage]]
+id = "12"
+name = "failures-and-disease"
+folder = "stage-12-failures-and-disease"
+
+[[stage]]
+id = "13"
+name = "varieties-8a"
+folder = "stage-13-varieties-8a"
+
+[[stage]]
+id = "14"
+name = "field-cards"
+folder = "stage-14-field-cards"
