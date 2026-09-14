@@ -4,6 +4,8 @@ title: Four doors a handmade piece walked through
 stage: 00-frame
 status: staged
 voice: shop-floor-first-person
+voice_check: edited
+voice_check_date: 2026-09-14
 form: spoken-narrative
 channel: BBF
 runtime_min: 8
@@ -17,7 +19,7 @@ Before the history, I want four doors in your head. If you keep these straight, 
 
 Door one. Consignment.
 
-You make the piece. You put it in someone else's room — a craft gallery, sometimes a shop with a curator. They do not buy it. They do not take title. They put it on the floor. If a buyer writes a check, the room takes a cut and you get the rest. If nobody writes a check, the piece comes home, or it sits there eating rent you are not paying and hope you are. Common gallery splits in American craft have often lived around the even cut. That is a pattern, not a commandment. The educational point is not the percentage. The point is who owns the object while it waits. You do. The gallery owns the wall, the lighting, the reputation, and the conversation with the buyer. That conversation is the product they sell you.
+You make the piece. You put it in someone else's room — a craft gallery, sometimes a shop with a curator. They do not buy it. They do not take title. They put it on the floor. If a buyer writes a check, the room takes a cut and you get the rest. If nobody writes a check, the piece comes home, or it sits there eating rent you are not paying and hope you are. Common gallery splits in American craft have often lived around the even cut. That is a pattern, not a commandment. The percentage is not the lesson. The lesson is who owns the object while it waits. You do. The gallery owns the wall, the lighting, the reputation, and the conversation with the buyer. That conversation is the product they sell you.
 
 Door two. Wholesale.
 

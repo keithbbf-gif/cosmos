@@ -4,6 +4,8 @@ title: Walking away from the pipe
 stage: 06-platform-wholesale
 status: staged
 voice: shop-floor-first-person
+voice_check: edited
+voice_check_date: 2026-09-14
 form: spoken-narrative
 channel: BBF
 runtime_min: 8
@@ -39,7 +41,7 @@ Do not confuse walking away with becoming invisible. You still need a door. A we
 
 The industry will keep offering you the pipe with a new name. The name will sound like a partnership. Use the four doors. If they keep the customer, it is the same job.
 
-For the channel, this walk-away is not a brand film. It is the reason we can teach the history without a checkout button at the end of the lecture. We are not above commerce. We sell tables. We are trying to sell them through a document that can hold a dining table.
+We teach this history without a checkout button at the end because we still sell through doors that can hold a dining table — not because we are above commerce.
 
 If you are a buyer who only has the pipe, I am not asking you to pretend you have a designer. I am asking you to use the pipe with gallery questions. Who held the work. Who owns the customer. What happens if it is wrong. Who is coming to the house. Those questions make a hunter a little more like a student.
 

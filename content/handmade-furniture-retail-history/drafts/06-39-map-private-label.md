@@ -4,6 +4,8 @@ title: MAP, private label, and whose name is on the box
 stage: 06-platform-wholesale
 status: staged
 voice: shop-floor-first-person
+voice_check: edited
+voice_check_date: 2026-09-14
 form: spoken-narrative
 channel: BBF
 runtime_min: 8
@@ -42,6 +44,6 @@ If you are a buyer, ask whose name is on the box and whose name is on the invoic
 
 If you are a designer, do not specify a private-label cousin of a showroom piece and tell the client it is the same. It might be. It might be a hat. Your job is to know.
 
-The educational point: branding is not vanity. It is a map of responsibility. When the map is redrawn so the website is the only visible adult, the shop becomes a child laboring in the back. Some shops accepted that because the orders were food. I understand food. I still want the adult in the room to be the people who held the work.
+Branding is not vanity. It is a map of responsibility. When the map is redrawn so the website is the only visible adult, the shop becomes a child laboring in the back. Some shops accepted that because the orders were food. I understand food. I still want the adult in the room to be the people who held the work.
 
 Next: the day after the truck — returns, chargebacks, and a table that already left the shop.

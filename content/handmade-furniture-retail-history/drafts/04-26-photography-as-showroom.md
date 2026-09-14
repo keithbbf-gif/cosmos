@@ -4,6 +4,8 @@ title: Photography became the showroom
 stage: 04-early-web
 status: staged
 voice: shop-floor-first-person
+voice_check: edited
+voice_check_date: 2026-09-14
 form: spoken-narrative
 channel: BBF
 runtime_min: 8
@@ -49,6 +51,6 @@ There is a particular scar in furniture: color. Wood is not a hex code. A screen
 
 Platforms learned to show reviews with photos from living rooms. That helped, sometimes. It also trained shops to fear the living room photo, which is a kind of honesty, and to chase a finish that survives a bad phone camera, which is a kind of cowardice. I would rather a finish be right in the room and difficult on a phone than the other way around.
 
-The educational point: when photography became the showroom, the teacher left the building. The remaining teacher is whoever writes the caption and whoever is willing to send a sample. Prefer the shop that still sends the sample.
+When photography became the showroom, the teacher left the building. The remaining teacher is whoever writes the caption and whoever is willing to send a sample. Prefer the shop that still sends the sample.
 
 Next: the other scar, the one that does not care how pretty the picture was — freight. Furniture is not shipping. Furniture is moving a room.

@@ -4,6 +4,8 @@ title: The sample floor — pieces we build so other pieces can be believed
 stage: 02-showrooms
 status: staged
 voice: shop-floor-first-person
+voice_check: edited
+voice_check_date: 2026-09-14
 form: spoken-narrative
 channel: BBF
 runtime_min: 7
@@ -41,6 +43,6 @@ If you are a client, the sample is not a rejection of custom. It is how custom s
 
 If you are a maker, budget samples as a line, not as an afterthought. A shop that cannot afford samples cannot afford showrooms. Then do not call the showroom system broken. Call your capacity what it is.
 
-The educational point is simple. In handmade furniture, belief is a physical object. Websites tried to replace it with photography. Sometimes photography is enough for a lamp. For a dining table, I still want the hand.
+In handmade furniture, belief is a physical object. Websites tried to replace it with photography. Sometimes photography is enough for a lamp. For a dining table, I still want the hand.
 
 Next: the paper that follows the hand — sidemarks, memos, acknowledgements — the unfashionable trail that keeps a commission from becoming a rumor.

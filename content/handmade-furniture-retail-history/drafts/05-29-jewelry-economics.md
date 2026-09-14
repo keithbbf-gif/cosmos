@@ -4,6 +4,8 @@ title: Why a dining table never fit Etsy's jewelry economics
 stage: 05-etsy
 status: staged
 voice: shop-floor-first-person
+voice_check: edited
+voice_check_date: 2026-09-14
 form: spoken-narrative
 channel: BBF
 runtime_min: 7
@@ -30,7 +32,7 @@ It photographs as a rumor.
 It moves as freight.
 It is slow to multiply if you are honest.
 It cannot come back without a second move.
-It is not an impulse unless the buyer is unwell.
+It is not an impulse unless the buyer is reckless.
 It lives in a search for "dining table" next to objects that are not its cousins, and the search does not know that.
 
 When a marketplace is tuned for the first list, the second list looks like a failure of the seller. You should take better photos. You should offer free shipping. You should list more SKUs. You should run ads. Each of those sentences is jewelry advice put on a table. Some of it is useful. Most of it is a category error.

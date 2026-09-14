@@ -4,6 +4,8 @@ title: 2013 — the handmade wars
 stage: 05-etsy
 status: staged
 voice: shop-floor-first-person
+voice_check: edited
+voice_check_date: 2026-09-14
 form: spoken-narrative
 channel: BBF
 runtime_min: 8
@@ -33,7 +35,7 @@ IKEA did not have to arrive. The word arrived without them.
 
 Partial production had already existed in a hazier form. 2013 made the haze a door. A door is better than a haze if you are trying to run a company. A door is worse if you were using the haze as a moat.
 
-I am not going to perform outrage I did not live as an Etsy seller. I am going to translate the fight into shop language.
+I was not an Etsy seller in 2013. I can still tell you what the fight meant on a bench.
 
 If a designer in New York sends us a drawing and we make the table in Ferdinand, who is the maker? We are. They are the designer. The trade has words for that. We do not call the table handmade-by-the-designer. We call it a commission.
 

@@ -4,6 +4,8 @@ title: When a table became art — studio furniture and the museum shadow
 stage: 01-galleries
 status: staged
 voice: shop-floor-first-person
+voice_check: edited
+voice_check_date: 2026-09-14
 form: spoken-narrative
 channel: BBF
 runtime_min: 8
@@ -41,6 +43,6 @@ The tragedy of the Etsy years and the platform years is that both paths got pour
 
 When I walk a design showroom, I am closer to the house path with better lighting. When I walk a museum, I am a citizen enjoying the other path. I do not need those rooms to merge. I need buyers to know which ticket they bought.
 
-If you have a famous chair in your house, good. Use it if the maker wanted that. If you have a table from a living shop, use it harder. The educational point is not which object is better. The point is that handmade furniture fractured into art and use, and retail never printed a legend on the map.
+If you have a famous chair in your house, good. Use it if the maker wanted that. If you have a table from a living shop, use it harder. Neither object is automatically better. Handmade furniture fractured into art and use, and retail never printed a legend on the map.
 
 Next: why a dining table is a rude houseguest in a gallery built for objects you can lift.

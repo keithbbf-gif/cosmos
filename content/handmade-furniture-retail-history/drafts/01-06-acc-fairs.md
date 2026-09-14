@@ -4,6 +4,8 @@ title: Rhinebeck, Baltimore, and the ACC fair as a portable gallery
 stage: 01-galleries
 status: staged
 voice: shop-floor-first-person
+voice_check: edited
+voice_check_date: 2026-09-14
 form: spoken-narrative
 channel: BBF
 runtime_min: 8
@@ -17,7 +19,7 @@ A fair is a gallery that you have to assemble with a screwdriver before the door
 
 The American Craft Council did not invent selling under a tent. It did professionalize a circuit that American makers still use as a mental model, even when they have never applied. The Northeast fair starts in the mid-sixties — Stowe in 1966, then Mount Snow, Bennington, Rhinebeck in 1973, West Springfield later. Baltimore's Winter Market put hundreds of craftspeople in the Civic Center and told the East Coast that January could be a buying season. Those names are not nostalgia. They are infrastructure.
 
-Here is the educational mechanics, without the romance.
+Here is how the money works, without the romance.
 
 You apply. A jury looks at slides, later jpegs, and decides whether you are in. Already you are in a selection system. America House had a board. The fair has a jury. The website has a feed. Only one of those will tell you no to your face.
 
@@ -35,7 +37,7 @@ Still, the fair taught furniture something the internet later forgot. Presence. 
 
 There is a shadow side. Fairs create a professional class of people who are good at fairs. Their work is sized for the booth, priced for the aisle, finished for the lights. That is not a sin. It is a selection pressure. Over years the circuit can start to look like itself. Juries get conservative. Trends move like weather. A maker who needs three years to change a line will look late. A maker who changes a line every season will look like a catalog. The fair does not resolve that. It just makes it visible twice a year.
 
-I did not build this company as a booth business. I say that so you do not hear a memoir I did not live. I have walked fairs. I have watched the two buyers. I have seen a furniture maker spend more on the week than they made, and then go home and tell the shop it was good exposure. Exposure is a word that has bounced more checks than any platform fee.
+I did not build this company as a booth business. I say that so you do not hear a memoir I did not live. I have walked fairs. I have watched the two buyers. I have seen a furniture maker spend more on the week than they made, and then go home and tell the shop it was good exposure. Exposure is a word that has bankrupted more makers than any platform fee.
 
 If you are a maker considering the old circuit, do the ugly math before the pretty canopy. Booth plus travel plus lost bench days plus the probability that a dining table does not fit the aisle. If the math works, the fair is still one of the cleanest doors left, because the customer is in the room. If the math does not work, do not let Instagram tell you that you are a coward for staying home. You may be a shop.
 

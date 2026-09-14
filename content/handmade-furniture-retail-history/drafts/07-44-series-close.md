@@ -4,6 +4,8 @@ title: Keep the house standing — what this channel is for
 stage: 07-after
 status: staged
 voice: shop-floor-first-person
+voice_check: edited
+voice_check_date: 2026-09-14
 form: spoken-narrative
 channel: BBF
 runtime_min: 8
@@ -44,7 +46,7 @@ The BBF channel will show work. Of course it will. A finish, a leaf, a board tha
 
 I live above the shop. I still like mornings before the crew arrives. I still think you should touch a table. I still think a photograph is a map. I still think a cart is a thin document. None of that requires you to buy our work. It requires you to keep the words honest in your own house.
 
-Staged, for now, means these drafts are ready for a human cut. I will change a date if a date is wrong. I will not change the doors to make a platform feel kind. Kindness is a teacher in a room. It is not a return policy.
+I will change a date if a date is wrong. I will not change the doors to make a platform feel kind. Kindness is a teacher in a room. It is not a return policy.
 
 When you see the next pretty listing, I want the rude question to arrive on time.
 

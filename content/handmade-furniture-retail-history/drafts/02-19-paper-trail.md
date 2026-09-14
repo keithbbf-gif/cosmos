@@ -4,6 +4,8 @@ title: Sidemarks, memos, acknowledgements — the paper that keeps a table hones
 stage: 02-showrooms
 status: staged
 voice: shop-floor-first-person
+voice_check: edited
+voice_check_date: 2026-09-14
 form: spoken-narrative
 channel: BBF
 runtime_min: 7
@@ -46,6 +48,6 @@ If you are a client, ask to see the acknowledgement. You are not being difficult
 
 If you are a maker, do not start a piece on a verbal. I have done it. I have regretted it. The romance of "we understand each other" dies on a Wednesday when someone remembers a different brown.
 
-The educational point: trust in handmade furniture is not a feeling. It is a trail. Galleries had a ticket. Fairs had an order pad. Showrooms have sidemarks. Websites have a cart. Only some of those trails are rich enough to carry a dining table.
+Trust in handmade furniture is not a feeling. It is a trail. Galleries had a ticket. Fairs had an order pad. Showrooms have sidemarks. Websites have a cart. Only some of those trails are rich enough to carry a dining table.
 
 Next, before we leave the human origin of our own shop: the cold call, the Capitol Hill years, and why I still believe a voice is a door.

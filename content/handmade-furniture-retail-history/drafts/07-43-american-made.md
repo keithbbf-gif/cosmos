@@ -4,6 +4,8 @@ title: What American made meant in 1999, and what a caption means now
 stage: 07-after
 status: staged
 voice: shop-floor-first-person
+voice_check: edited
+voice_check_date: 2026-09-14
 form: spoken-narrative
 channel: BBF
 runtime_min: 8

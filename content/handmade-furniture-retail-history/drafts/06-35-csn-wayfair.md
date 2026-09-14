@@ -4,6 +4,8 @@ title: CSN Stores — two hundred websites, then one word
 stage: 06-platform-wholesale
 status: staged
 voice: shop-floor-first-person
+voice_check: edited
+voice_check_date: 2026-09-14
 form: spoken-narrative
 channel: BBF
 runtime_min: 8
@@ -26,7 +28,7 @@ They went to High Point. The How I Built This interview is public about that. Tr
 
 In late 2011 they closed and redirected a couple hundred niche sites into Wayfair.com, changed the name from CSN, and went about becoming a household word. 2014, they filed to go public. The S-1 voice is the educational gold: millions of products, thousands of suppliers, many of them small family operations without a national brand, and Wayfair as the access to a customer base those shops did not have.
 
-Read that again as a shop.
+Hear that the way a shop hears it.
 
 We have the customer.
 You have the object.

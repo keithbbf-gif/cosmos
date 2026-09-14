@@ -4,6 +4,8 @@ title: Why we own the trucks — delivery as the last inch of making
 stage: 02-showrooms
 status: staged
 voice: shop-floor-first-person
+voice_check: edited
+voice_check_date: 2026-09-14
 form: spoken-narrative
 channel: BBF
 runtime_min: 7

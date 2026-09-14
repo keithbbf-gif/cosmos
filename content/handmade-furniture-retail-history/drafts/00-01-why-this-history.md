@@ -4,6 +4,8 @@ title: Why this history, and why we tell it from the shop
 stage: 00-frame
 status: staged
 voice: shop-floor-first-person
+voice_check: edited
+voice_check_date: 2026-09-14
 form: spoken-narrative
 channel: BBF
 runtime_min: 7
@@ -23,7 +25,7 @@ For a long time the machine was a gallery. Then it was a craft fair. Then it was
 
 Those are not the same doors.
 
-The BBF channel is going to walk them in order. Galleries. The Etsy years. Trade showrooms. The wholesale past that ran through Overstock and Wayfair and a thousand shops that said yes because the purchase order looked like oxygen. I lived on some of those floors. I watched the others from a bench in southern Indiana. I will tell you which is which.
+The BBF channel is going to walk them in order. Galleries. The Etsy years. Trade showrooms. The wholesale past that ran through Overstock and Wayfair and a thousand shops that said yes because the purchase order looked like oxygen. I have walked showroom floors and trade markets for years. I watched the platform pipes from this bench in southern Indiana. I will tell you which is which.
 
 This is educational on purpose. I am not here to make you hate a platform. Platforms are pipes. Pipes do what they are designed to do. A dropship catalog is designed to show you seven million things and ship you one of them from someone else's warehouse. A craft gallery is designed to put twelve objects in a white room and ask you to take one of them home like a decision. A trade showroom is designed to let an interior designer spend your money with a professional discount and a sample program. If you do not know which room you are standing in, you will use the rules of one room inside another, and you will get hurt. Or you will hurt a shop that cannot absorb your return.
 

@@ -4,6 +4,8 @@ title: The SKU flood and the death of the edited floor
 stage: 06-platform-wholesale
 status: staged
 voice: shop-floor-first-person
+voice_check: edited
+voice_check_date: 2026-09-14
 form: spoken-narrative
 channel: BBF
 runtime_min: 7
@@ -41,6 +43,6 @@ If you shop catalogs, try a kinder exercise. Shortlist five. Walk away. Come bac
 
 If you make, do not measure your worth by whether you can be found in the flood. Measure it by whether a person who has seen the work in air still wants it. That metric is slower. It pays finishers.
 
-The educational point: completeness is a business model. It is not a looking model. Handmade furniture is a looking object. Those two models are in a fight, and the fight is not fair.
+Remember this: completeness is a business model. It is not a looking model. Handmade furniture is a looking object. Those two models are in a fight, and the fight is not fair.
 
 Next: names on boxes — MAP, private label, and the moment a shop's work learned to travel without the shop's name.

@@ -4,6 +4,8 @@ title: List, net, and the multiplier — who is being paid for what
 stage: 02-showrooms
 status: staged
 voice: shop-floor-first-person
+voice_check: edited
+voice_check_date: 2026-09-14
 form: spoken-narrative
 channel: BBF
 runtime_min: 8

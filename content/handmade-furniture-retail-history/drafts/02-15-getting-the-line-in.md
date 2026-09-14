@@ -4,6 +4,8 @@ title: How a line gets into a showroom — and why most should not
 stage: 02-showrooms
 status: staged
 voice: shop-floor-first-person
+voice_check: edited
+voice_check_date: 2026-09-14
 form: spoken-narrative
 channel: BBF
 runtime_min: 8
@@ -56,6 +58,6 @@ If you are a young shop, I would rather you have two showrooms that know your fi
 
 Getting in is also not staying in. Rooms reshuffle. Principals retire. A building changes its fashion. You can do everything right and still lose a floor. Have more than one door. Do not have so many doors that the shop becomes a shipping department with a memory of craft.
 
-The educational point: representation is not a prize you win at the end of a pretty portfolio. It is a capacity contract. Sign it like you would sign a lease.
+Representation is not a prize you win at the end of a pretty portfolio. It is a capacity contract. Sign it like you would sign a lease.
 
 Next, the politics that sit under that lease: territory, exclusivity, and the quiet fight over who gets to sell the same name on the same street.

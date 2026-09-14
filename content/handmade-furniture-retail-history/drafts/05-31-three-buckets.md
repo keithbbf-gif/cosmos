@@ -4,6 +4,8 @@ title: Handmade, vintage, supplies — three buckets, one storefront
 stage: 05-etsy
 status: staged
 voice: shop-floor-first-person
+voice_check: edited
+voice_check_date: 2026-09-14
 form: spoken-narrative
 channel: BBF
 runtime_min: 7
@@ -19,7 +21,7 @@ Three buckets. One search bar. That is a hard architecture.
 
 Handmade we have already taken to the bench. Labor or authorship, 2005 or 2013.
 
-Vintage is a policy bucket with an age test. The number has been in the neighborhood of twenty years, and you should check the live rule before you swear to it on camera. The educational point is not the number. The point is that vintage is a different moral claim. Nobody made this last month. Somebody kept it, found it, repaired it, or at least recognized it. A vintage furniture seller can be a scholar or a picker or a person with a truck. They are not a shop like ours. They can be as honest as we are. They should not wear our apron unless they also made the thing.
+Vintage is a policy bucket with an age test. The number has been in the neighborhood of twenty years, and you should check the live rule before you swear to it on camera. The lesson is not the number. The point is that vintage is a different moral claim. Nobody made this last month. Somebody kept it, found it, repaired it, or at least recognized it. A vintage furniture seller can be a scholar or a picker or a person with a truck. They are not a shop like ours. They can be as honest as we are. They should not wear our apron unless they also made the thing.
 
 Craft supplies are the back door of making. Wood, hardware, fabric, the stuff that becomes the other two buckets. A supplies listing is honest when it is selling a material. It becomes a fog when the material is staged like a finished life.
 

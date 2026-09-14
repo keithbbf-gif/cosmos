@@ -4,6 +4,8 @@ title: Overstock — from closeouts to fulfillment partners
 stage: 06-platform-wholesale
 status: staged
 voice: shop-floor-first-person
+voice_check: edited
+voice_check_date: 2026-09-14
 form: spoken-narrative
 channel: BBF
 runtime_min: 8
@@ -15,7 +17,7 @@ sequence_after: hfrh-05-33
 
 1999 is a hinge year for this shop and for this website, and I do not want that coincidence to become a myth. We opened a custom shop. A Utah company that had been D2-Discounts Direct, then Deals.com, took the name Overstock.com. They were not thinking about our tables. They were thinking about closeouts.
 
-Closeout is an old trade. Somebody made too much. Somebody cancelled. A jobber moves the pile. The civilian gets a bargain and a story about a deal. Patrick Byrne's group looked at that pile and put it on a transactional website. The SEC paperwork from the 2002 offering is the dry version: inconsistent quantities, fragmented supply, the internet as a way to gather both sides.
+Closeout is an old trade. Somebody made too much. Somebody canceled. A jobber moves the pile. The civilian gets a bargain and a story about a deal. Patrick Byrne's group looked at that pile and put it on a transactional website. The SEC paperwork from the 2002 offering is the dry version: inconsistent quantities, fragmented supply, the internet as a way to gather both sides.
 
 That is door two with leftover goods. Title often sat with Overstock. Risk sat with Overstock. The customer sat with Overstock. A shop that sold them a pile was doing something a factory understands: we made it, we need it gone, we will take a smaller number.
 

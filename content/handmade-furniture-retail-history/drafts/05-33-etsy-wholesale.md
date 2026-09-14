@@ -4,6 +4,8 @@ title: Etsy Wholesale — the dream of a clean big-box door
 stage: 05-etsy
 status: staged
 voice: shop-floor-first-person
+voice_check: edited
+voice_check_date: 2026-09-14
 form: spoken-narrative
 channel: BBF
 runtime_min: 7
@@ -36,14 +38,9 @@ If you were a seller who used that door and it fed you, tell the truth about whi
 
 If you are a maker now looking for a "wholesale platform," use the four doors. If the platform keeps the customer, you are not in wholesale. If the retailer keeps the customer and the inventory, you might be.
 
-This is also the last Etsy-stage draft, so I will say the stage in one breath.
+This is also the last Etsy-stage draft, so let me walk the stage in one breath instead of a list.
 
-2005: a room that meant handmade.
-Jewelry economics: the room's body type.
-2013: handmade becomes authorship if you apply.
-Three buckets: a taxonomy a search bar can ignore.
-Ads: oxygen for sale.
-Wholesale: a reach back toward door two.
+In 2005 the room still meant handmade, but the room was built for jewelry economics — portable, parcel, repeatable. In 2013 handmade became authorship if you applied. Three buckets gave the search bar a taxonomy it could ignore. Ads turned oxygen into rent. Wholesale was a reach back toward door two, not a guarantee you would land there.
 
 Etsy did not invent craft. It did not murder craft. It scaled a room until the room needed a different word, and then it kept the old word because the old word was the asset.
 

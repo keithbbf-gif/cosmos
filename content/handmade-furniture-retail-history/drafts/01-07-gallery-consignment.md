@@ -4,6 +4,8 @@ title: The gallery ticket — consignment, the wall, and the 50 percent myth
 stage: 01-galleries
 status: staged
 voice: shop-floor-first-person
+voice_check: edited
+voice_check_date: 2026-09-14
 form: spoken-narrative
 channel: BBF
 runtime_min: 8

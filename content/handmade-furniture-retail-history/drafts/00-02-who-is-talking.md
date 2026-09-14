@@ -4,6 +4,8 @@ title: Who is talking, and what a shop like this actually is
 stage: 00-frame
 status: staged
 voice: shop-floor-first-person
+voice_check: edited
+voice_check_date: 2026-09-14
 form: spoken-narrative
 channel: BBF
 runtime_min: 8
@@ -17,7 +19,7 @@ I should tell you who is talking, because the internet has a habit of putting a 
 
 My name is on the door. Keith Fritz Fine Furniture. We started in 1999. The first shop was a storefront on Capitol Hill in Washington. I lived above it. I still live above the shop. The building is different. It is a nineteenth-century factory in Ferdinand, Indiana, about thirty-three thousand square feet, and the wood comes in the back and the finished work leaves the front on our own trucks. We make on the order of several hundred pieces a year. That number matters. It means we are not a factory that can eat a weekend of returns. It means we are not a one-man Instagram. It means every bad door we walk through costs a real bench.
 
-I am the son of a carpenter. I grew up in Siberia, Indiana, which is a real place and not a joke I tell for cities. I made my first serious piece at sixteen, a Bombay Chippendale secretary that took something like twelve hundred hours. That is not a brand story. That is how long a complicated piece takes when you do not yet know what you are doing and you refuse to stop. I went to seminary and graduate school and then I opened a shop anyway, which tells you something about the quality of my career counseling.
+I am the son of a carpenter. I grew up in Siberia, Indiana, which is a real place and not a joke I tell for cities. I made my first serious piece at sixteen, a bombé Chippendale secretary that took something like twelve hundred hours. That is not a brand story. That is how long a complicated piece takes when you do not yet know what you are doing and you refuse to stop. I went to seminary and graduate school and then I opened a shop anyway, which tells you something about the quality of my career counseling.
 
 I used to cold-call designers. That is not glamorous. You get a name, you get a phone, you get a no. Every so often you get a yes, and then you have to be as good as the yes. In 2001 we built a dining table for President Clinton. I mention that once in this series so we can put it down. It is a true job. It is not the thesis. The thesis is the pipe.
 

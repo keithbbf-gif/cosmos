@@ -4,6 +4,8 @@ title: Four prices for the same table
 stage: 07-after
 status: staged
 voice: shop-floor-first-person
+voice_check: edited
+voice_check_date: 2026-09-14
 form: spoken-narrative
 channel: BBF
 runtime_min: 8
@@ -35,7 +37,7 @@ If the answer is nothing, be suspicious. Nothing is a lie. The driver is include
 
 Our prices are not this episode. I will not perform a sheet. The education is the parsing, the same parsing we did with list and net.
 
-A useful household exercise:
+Try this at your kitchen table before you compare numbers:
 
 Find a table you like in a showroom photograph.
 Find a cousin on a platform.

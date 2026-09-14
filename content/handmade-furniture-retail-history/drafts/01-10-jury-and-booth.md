@@ -4,6 +4,8 @@ title: The year you do not get in — juries, booths, and useful nos
 stage: 01-galleries
 status: staged
 voice: shop-floor-first-person
+voice_check: edited
+voice_check_date: 2026-09-14
 form: spoken-narrative
 channel: BBF
 runtime_min: 7
@@ -47,6 +49,6 @@ If you apply, apply to the room that can hold your object. A table in a show bui
 
 Our own door, the trade showroom, has juries too. They just do not call themselves that. A principal looks at your line, your lead times, your ability to not embarrass them in front of a designer with a famous client. They say no in a nicer restaurant. Same rationing. Different silverware.
 
-The educational point is not "rejection makes you stronger." The point is that handmade retail was never an open field. It was always a set of rooms with capacities. When someone tells you the old system was gatekeeping and the new system is freedom, ask them who owns the gate now and what they charge per click.
+Handmade retail was never an open field. It was always a set of rooms with capacities. When someone tells you the old system was gatekeeping and the new system is freedom, ask them who owns the gate now and what they charge per click.
 
 We close the gallery stage with what those rooms taught a buyer that a website still cannot teach — and then we hand the history to the showroom.
