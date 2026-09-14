@@ -5,7 +5,7 @@ series: dining-chairs-history-design
 status: draft
 voice_check: human
 reading_order: 12
-word_count: 1678
+word_count: 1511
 dek: "The Drawing-Book squares the back and reeds the leg. Dinner sits in a grid. The chair is a draftsman’s object that still has to take a hip."
 topic: form
 era: "1793–1820s"
@@ -72,6 +72,30 @@ Reeding on quartersawn oak is a different light than reeding on mahogany. It can
 I would rather eat in the oak grid than in a broken-point shield that is “more period.” Period is not a flavor. It is a set of joints and a date.
 
 If the client wants “Sheraton dining chairs,” I ask to see the table legs. If the table is a farm trestle, the reeds may look lonely. If the table is a pedestal with fire, the reeds may look right. Pair first. Buy second.
+
+## Reeds that pop, a rail that takes gravy
+
+I will not fake a long quote from the 1803 *Dictionary* about dining-room chairs versus drawing-room chairs. `[CITE NEEDED]` if you print his wording. I have picked popped reeds off a dining-room floor after a vacuum cleaner lost an argument with a cheap revival. The mortise in the rail was fine. The jewelry was not. A tipped reeded leg that does not match the reed is a confession. I would rather see an honest later ferrule than a fake reed that tries to hide a recut.
+
+I have wiped gravy off a rail under a painted tablet. The tablet was fine. The rail was the dinner. If your femurs are long, you will feel the front rail sooner than you did in a compass. If your femurs are short, the square seat is a parking space that does not steal corners. A square-back agrees with a rectangular table and parks you facing the roast — a kindness if the meal is formal, a small unkindness if you like to talk across a corner the way a Queen Anne compass allows.
+
+## America, labor, Phyfe before Greece
+
+New York, Salem, Baltimore, Charleston shops make Sheraton-style chairs with local woods and local labor. Montgomery still applies. Southern shops — including shops that used enslaved labor — produced fashionable square-backs for dining rooms whose inventories later said “mahogany chairs” as if mahogany were a maker. Name the shop when you can. Name the labor when the shop is a plantation context. I will not invent a weekly output or a quoted wage.
+
+Phyfe’s early work sits on this line before the Grecian turn. Square backs, reeding, a New York finish. The later saber is another essay. Do not date every reeded leg to 1793 because the *Drawing-Book* is 1793. Plates travel. Shops repeat. Recut feet and later cane sit on older frames.
+
+Haircloth, cane, rush: same menu as the shield-back hour, different geometry. Leather appears when someone has had enough itch. A foam pad in a square-back is the same hospital treatment: it raises the sit, hides a tired frame, and then compresses through the roast. Measure the compressed sit.
+
+## Pairing: pedestal, sideboard, farm trestle
+
+Height pairs with the new sideboards and pedestal tables of the same years — sibling pack for those forms. A pedestal with fire and a reeded chair can look as if they were drawn on the same sheet. A farm trestle and a reeded chair can look as if someone lost a bet. I have sat both pairs. The trestle meal was fine. The reeds looked lonely, and I spent the soup wishing the table had a quieter leg.
+
+Apron clearance is kinder than Chippendale cabriole because the knee is gone. It is not automatic. Deep skirts, drawer aprons, thick tops still steal the thigh. Arms on Sheraton host chairs are often upright — good for the person who must rise and carve, bad if the arms hit a table that gained a skirt in a later marriage of furniture. Always the apron.
+
+A square-back pulled to a kitchen island is the same mistake as a Windsor at an island: the number is wrong. These chairs want dining height, a wipeable seat, and a table that does not ask them to be stools.
+
+If the client wants Sheraton dining chairs, I ask to see the table legs. I ask whether anyone tilts. I ask whether the reeds are cut or applied. I ask whether the host arms clear. I do not ask whether the drawing is authentic. The drawing is public. The mortise is the chair. A reeded taper that still has its foot, a square back whose corners have meat, a seat you can recover, a height that meets the underside of the table you own — that is the type doing dinner.
 
 ## Sources
 

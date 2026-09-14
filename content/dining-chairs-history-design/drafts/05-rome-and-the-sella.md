@@ -5,7 +5,7 @@ series: dining-chairs-history-design
 status: draft
 voice_check: human
 reading_order: 5
-word_count: 1698
+word_count: 1817
 dek: "A folding stool that meant office, a cathedra that meant a teacher, and couches that did the actual dining. Rome’s seating is a vocabulary, not a set of eight."
 topic: history
 era: "Roman Republic and Empire"
@@ -72,6 +72,28 @@ Medieval curule chairs, Renaissance X-chairs, Savonarola and Dante seats in the 
 A shop that is asked for “Roman dining chairs” should ask which movie. Then offer a stool, or a Grecian saber, or a honest refusal. The client usually wants Empire. Empire is a later hour. It has mahogany and a tablet. It has almost nothing of the sella except a memory of antique power.
 
 Wanscher stays on the desk. The vase and the relief stay labeled as pictures. The carbonized wood stays rare. That is enough Rome for a dining-chair series. The meal was mostly not this object. The object was mostly not the meal. Both facts keep the later side chair from pretending it is inevitable.
+
+## The fold as a joint, not a metaphor
+
+A curule stool is a pair of frames that cross and a seat that spans them. Leather, fabric, or slats. The crossing is the joint you have to trust. If the hinge pins or the bindings are tired, the sit goes slack and the frames want to scissor. I have sat camp stools that pinched a calf on the way down. The Roman object is in that family even when the bronze fittings are finer than a surplus store. You get a wide, low stance. You can stand up without walking a four-leg box backward. You can fold the dignity and move it.
+
+That is office. It is not a two-hour roast. At a long meal a folding stool is a guest seat, which is how later houses still use the extra stool when the eighth cousin arrives. Rank can travel. Dinner, in the nineteenth-century sense, wants to stay and multiply.
+
+I will not print a standard seat height for a sella. Survivals in wood are not a population. Bronze and stone give you a type, not a popliteal habit. `[CITE NEEDED]` before anyone uses a single museum bronze as a dining-height rule.
+
+## The lectus is the pairing
+
+In the dining rooms the texts care about, the table comes to the couch. Low, brought, shifted. Service moves around bodies that are on an elbow and a hip. The *lectus* has a rise. When popular history says Rome invented the dining room, it is often talking about a dedicated space — the *triclinium* — and a ritual of three couches. It is not talking about a set of eight matching backs. I will not invent how many couches Allison found in a given house type. A masonry bench in a Pompeian shop is a survival you can still photograph. A carbonized couch fragment in Herculaneum is a miracle; cite the piece.
+
+Banquettes in a later essay refuse the individual side chair. Rome, for the houses that could afford the performance, refused it first. The refusal is not a lineage of joinery. It is a habit of the meal.
+
+A *cathedra* keeps you. The back is why. A dining host chair is a faint echo: same end of the table, less doctrine. A *solium* leans toward throne. You do not make eight. Egypt wrote a name on a back. Rome wrote office on a fold and teaching on a back. The Victorian cloth wrote arms at the ends. We still buy the set that way.
+
+Labor inside a Roman house of means includes enslaved workers. I will not invent a furniture-shop headcount or a named joiner for a bronze leg without a source. Allison’s households are find-spots, not a payroll. `[CITE NEEDED]` before a draft prints a slave-made-chair sentence tied to a specific piece. A bronze animal foot in a case is a terminal, not a dinner. Empire shops later spoke to those terminals about antique power, not about how a Roman framed a seat rail.
+
+## Shop: which movie
+
+A client who asks for “Roman dining chairs” usually wants a folding stool that photographs as power, a Grecian saber that photographs as antique, or a leather-backed side chair that wipes. The first is a sella cousin. The second is Empire. The third is a dinner sit Rome would recognize only as a stool with ambitions. I ask which movie, then which table. A high oak rectangle with eight X-frame chairs is a shin fight. A modest stool at a tavern-height board is closer to ordinary Roman sitting than any gilt saber, and it will not make the client happy if what they wanted was Napoleon.
 
 ## Sources
 

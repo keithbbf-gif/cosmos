@@ -5,7 +5,7 @@ series: dining-chairs-history-design
 status: draft
 voice_check: human
 reading_order: 11
-word_count: 1694
+word_count: 1472
 dek: "The 1788 Guide thins the back into a shield, an oval, a heart. Federal dining rooms sat in a drawing. The sit is lighter, and the splat has become a picture."
 topic: form
 era: "1788–1810s"
@@ -66,6 +66,32 @@ I refuse the sentence “Hepplewhite is more feminine.” It is a dealer tic. Th
 I refuse to treat the *Guide* as a shop manual for a county that cuts southern red oak. The *Guide* is a drawing. The oak is a fiber. Translate. Do not costume.
 
 Bradley Brand does not need a shield-back line to justify this paragraph. The paragraph is here because Federal dining rooms sat in these chairs, and because a lot of American houses still have one sad shield-back in the corner with a broken point. Repair the point with a splice you can defend. Or retire the chair to a hall. Do not glue a matchstick into the break and put Uncle on it.
+
+## Points, pads, and the table
+
+I will not invent a *Guide* plate number. Cite the edition in front of you. `[CITE NEEDED]` until then. I have had a shield on the bench with a hairline at the bottom point and a proud owner who wanted Uncle to sit there at Christmas. A matchstick and hide glue will get you through a photograph. It will not get you through a lean. A splice you can defend — new wood, grain with the hoop — is the adult repair. The heart back is a collection of inward points. Teenagers tilt.
+
+Cane will print a pattern on a dress. A foam pad raises the sit and hides a tired frame. Measure after the pad. Seat height wants a Federal table in the high 28s to 30s, often, once you count the seat’s give. `[VERIFY]` against a named Montgomery object and a named table. Recut feet and later pads are how “uncomfortable antiques” get made in a room that changed its floor covering. The cabriole knee is gone, which is a gift under an apron.
+
+The sit is a stop you find when you finish a sentence. If you lounge, the hoop catches you in a few places and the tapered legs complain. Guests will tilt a chair this light. I would rather see a slightly heavy, honest point than a perfect silhouette with a hairline. Inlay — ebony lines, holly, satinwood — is time. Someone spent that time. I will not invent a headcount.
+
+## Arms, sideboard, apron
+
+Armchairs at the ends: the arms are often delicate and a little low. They can sneak under a shallow apron and fail under a deep one. Host chairs in this style are easy to love in a photo and easy to bruise on a skirted table. The sideboard in the same room — sibling pack for that form — wants a chair that can be pulled, turned, and parked without a cabriole fight. The shield agrees with that geometry better than a claw.
+
+A Federal dining room that “puts the chairs away” usually puts them against the wall. A shield can look wounded there, point down, hoop as a picture. A square Sheraton looks like architecture. That is a later hour. Here: the shield is a drawing you hang on the sitter.
+
+## Labor and the unnamed chair
+
+New York, Salem, Baltimore, Charleston, smaller shops copying a neighbor. Mahogany that arrived as boards. Satinwood that arrived as veneer. Inlay that is time. Enslaved labor in Southern shops that produced fashionable shield-backs for dining rooms whose later inventories said “mahogany chairs” as if mahogany were a maker. Name the shop when you can. Name the labor when the context is a plantation. I will not invent a headcount.
+
+A dining set of eight CNC shields in oak with a dark stain called mahogany is a lie about fiber. Oak can make a good Federal-ish chair if the points have meat and the sit is honest. The stain is the lie.
+
+## Pairing and the sad chair in the corner
+
+If the table is a farm trestle, the shield may look lonely and the points will still break when someone tilts. If the table is a Federal pedestal or a plain mahogany four-post with a shallow apron, the pair can be quiet and right. Pair first. Do not put a heavy sitter on a knife-edge hoop and call it period charm. Period is a date and a joint.
+
+I have pulled a sound shield-back with two fingers and felt the hoop twist when a guest leaned to pass a plate. That twist is dinner. Leave meat in the points, or leave the chair against the wall where the hoop can be a picture and not a lever.
 
 ## Sources
 

@@ -5,7 +5,7 @@ series: dining-chairs-history-design
 status: draft
 voice_check: human
 reading_order: 7
-word_count: 1704
+word_count: 1714
 dek: "Sgabelletti, caquetoires, wainscot and upholstered backs — the century when more people got something to lean on, and dinner started to individualize."
 topic: history
 era: "c. 1450–1650"
@@ -74,6 +74,32 @@ The next hours go Queen Anne and compass seats, then Chippendale splats. Those a
 A shop asked for “Renaissance dining chairs” should ask whether the client wants a refectory photograph or a sit. A sit might be a leather-backed side chair with honest stretchers and a seat you can wipe. A photograph might be eight sgabelli and a candle. I know which one I would eat in.
 
 If you only remember one motion from this hour, remember the moment a sitter leans and the rear posts take it. That lean is dinner deciding to stay. The rest of the series is how shops kept the lean from destroying the chair, and how some shops gave up and sold a drawing.
+
+## The sgabello as an object, not a set
+
+A sixteenth-century sgabello is often a singleton you can pick up and place. Three legs or a trestle, a seat board, a back that is a carved yoke or a splat turned into armorial theater. Grotesques, a crest, a family’s claim. It stands in a hall the way a candlestick stands: to be seen, then used. The sit can be mean. Narrow board. Hard front edge. A back that meets you too high, as if the carver were drawing a shield and forgot a spine.
+
+I will not pin an accession I have not opened this hour. Met, V&A, Bargello — pick one live record before you publish a figure. `[CITE NEEDED]` for the object, then read the height. Some sgabelli are closer to a stool with a billboard than to a dining side chair. Matching eight carved yokes around a refectory table is a palace project or a twentieth-century restaurant with a Renaissance noun. I have sat in the restaurant version. The backs were high, the seats were pads, the candles were doing the century work. The meal was fine. The name was rented.
+
+Dinner, if it happened in the sgabello, happened as an event you staged, not as a nightly set of six. Trapezoidal *caquetoire* plans turn you to the person beside you; Thornton’s interiors are the room language — cite the plate if you name a room `[CITE NEEDED]`.
+
+## Cloth, leather, and who keeps them
+
+Once the back is a plane, someone will pad it. Turkey-work, velvet, leather. The joinery is still a frame. The comfort is cloth. Cloth fails first — light, moth, gravy, a damp winter. Museum chairs with original textile are scarce and often too fragile to sit. The sit you imagine is a sit in a reproduction cover.
+
+Leather is the dinner friend. Spanish leather chairs, Low Countries rooms, a back you can wipe. Thornton’s comparisons keep England from looking like the only story. A dining-chair series that stays in London will miss the wipeable back. Turkey-work is a needle labor, often women’s labor in the household or specialist work you should not collapse into “upholstery” as if it were one man with a hammer. I will not invent a workshop’s gender roster. I will say the cover is a separate trade from the frame, and dinner attacks the cover.
+
+The Farthingale chair — wide, often armless, late sixteenth and early seventeenth century — is a clothing fact. Skirts. Dining is not the first job. The lesson for later side chairs is the armless wide seat. Arms fight clothes. Arms also fight aprons. The two fights are cousins.
+
+Recut legs show up early. A chair built for one board gets shortened for another. Museums recut too. Measure, then doubt. I have seen a paneled back loosen at the shoe after a holiday of tilting. The carving was still pretty. The chair was a parallelogram.
+
+## Pairing and shop
+
+A refectory table wants length, not a place setting. Benches still do that job. A backed chair at the end is rank. A row of leather sides along a shorter table is the beginning of the later set — individual places, wipeable seats, a back that lets the course multiply. Ask which pairing the client means when they say Renaissance.
+
+If they want the photograph, they want high board-backs and candles. If they want the sit, I would rather build or find a leather-backed side chair with honest stretchers, a seat you can wipe, and a height that meets the actual apron. I know which one I would eat in. I know which one photographs.
+
+Place settings will later freeze the individualization the backed chair already started. This is my cushion. This is my arms. The stool did not say mine. The bench said ours. The Renaissance back says stay, and then it has to survive the stay.
 
 ## Sources
 

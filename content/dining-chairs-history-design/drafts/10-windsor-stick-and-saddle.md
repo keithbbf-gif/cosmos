@@ -5,7 +5,7 @@ series: dining-chairs-history-design
 status: draft
 voice_check: human
 reading_order: 10
-word_count: 1812
+word_count: 1472
 dek: "Turned sticks in a plank seat, painted, light enough to carry — the other American dining chair. Not a failed mahogany. A different machine."
 topic: form
 era: "18th–19th c.; Revival after"
@@ -76,6 +76,20 @@ Southern shops made stick chairs. Not every painted spindle chair is a Philadelp
 I like a Windsor at breakfast more than at a black-tie dinner, which is a prejudice about paint and sticks, not a law. I have seen a perfect bow-back hold a formal room because the table was simple and the plates were not competing. The chair is light. Let the table be quiet.
 
 Evans for construction and shops. Nutting for the Revival document. A named museum chair for any public dimension. Paint analysis if you are about to strip. You are not about to strip.
+
+## How the hub actually holds
+
+I have re-wedged a Windsor that had been dragged across a gravel drive. The holes were oval. Glue in an oval rotten hole is a wish. The repair is new wood or an honest admission. `[CITE NEEDED]` for a specific shop’s wood list if you name the shop. I can feel a router dent that was sold as a saddle. The pommel bothers people who want their thighs together. It helps people who do not want to slide forward. Neither preference is a moral.
+
+`[VERIFY]` a named museum Windsor against a named table before you print an inch. A Windsor at a drop-leaf is the pair I trust. A Windsor pulled to a kitchen island is a different number and usually a bad one; the island wants a stool. A Windsor at a 30-inch table with a deep drawer apron can still work because there is no splat and no cabriole knee — only sticks and a saddle — but the island height will still ruin it. Continuous-arm chairs are beautiful and wide. Measure the apron. Side chairs without arms are the workhorses at a crowded table.
+
+Turning labor is repetition. Someone stood at a lathe. Someone bored the seat. Someone bent the bow. I will not invent a daily count. Evans documents shops. Dating a dining set from Nutting’s 1917 handbook is dating a mood. An oak shop asked for “Windsor dining chairs” should decide whether the client wants through-tenons and a real saddle or a catalog silhouette. The silhouette is cheap. The saddle is the hour.
+
+The sit through a meal is a rake of small contacts, not a plane. Spindles give a little. A cheap Revival with dowels where through-tenons should be will not. I have sat a good saddle through breakfast and stood up without the numb ham a shallow Federal seat can leave. I have sat a flat factory plank for the same hour and wanted a pad I would not put on a real Windsor.
+
+Paint hid the mix of woods and also took the gravy. Recoat is ordinary. Strip is not. Southern shops made stick chairs that are not Philadelphia bows; some are kitchen, some are later factory. Name the year if you can. Do not hang Nutting’s 1917 mood on a 1765 seat.
+
+If the client wants eight matching Windsors around a carved pedestal, I ask whether they want the chairs to look like they lost a fight with the table. Pair first. Through-tenons second. Silhouette last. Stretchers that still lock matter more than bamboo turning that photographs as fancy. A loose H-stretcher on a gravel-worn chair is a sit I will not send to dinner until the wedges are honest again.
 
 ## Sources
 

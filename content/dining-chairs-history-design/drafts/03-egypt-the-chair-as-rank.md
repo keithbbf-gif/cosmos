@@ -5,7 +5,7 @@ series: dining-chairs-history-design
 status: draft
 voice_check: human
 reading_order: 3
-word_count: 1710
+word_count: 1998
 dek: "Hatnefer’s cedar and ebony survive because a tomb is drier than a dining room. The Egyptian chair is rank you can still measure — not a template for a modern side chair."
 topic: history
 era: "New Kingdom and earlier"
@@ -76,6 +76,32 @@ We see these chairs because of desert and tomb architecture. A Theban dining roo
 That is why this series starts with benches and stools in the previous hour. Egypt is the early place where the backed chair becomes visible as rank *and* as joinery we can still photograph. It is not the origin of dinner. Dinner does not have one origin.
 
 If you stand in the Met and look at Hatnefer’s chair, look at the underside if they let you, or at the photographs of the underside. Joints, repairs, insect, a rail that was always a rail. Then look at the lion feet and remember they were meant to be seen from a floor that was not a parquet dining room in New York. The museum is a third climate. The sit you imagine is your sit. The object is hers.
+
+## Nine inches and a different meal
+
+The live Met record for Hatnefer (36.3.152) prints a seat height of 24.5 cm — 9 5/8 inches — and an overall height of 53 cm, with a width near 50 cm and a depth near 42. `[VERIFY]` those digits on the object page the week you publish; labels move. Even if a conservator revises a centimeter, the sit will not become an American dining sit. This is a low chair. Knees come up. The table, if there was a table, came down. Pairing this object in your head to a 30-inch oak rectangle is a category error. Museums put chairs on platforms. We fill in a Western meal. The platform is a display. The seat is hers. Eighteen inches, later in this series, is a habit for a different table. This chair is proof that a backed seat can be rank without being dining-height.
+
+## What the label says the wood is
+
+Older captions, including some I have said out loud, call the chair cedar and ebony. The live Met medium line for 36.3.152 currently reads boxwood, cypress, ebony, and linen cord. `[VERIFY]` on the day you publish. Cedar is a real Egyptian furniture wood on other objects and in the import story. It is not a reason to override a current object page. Boxwood takes a crisp edge on small parts. Cypress is a lighter structural wood. Ebony is the dark statement and the trade map. Linen cord is the seat: a woven grid, not a panel, not a rush fantasy, not a foam pad slipped in last Tuesday.
+
+A perfect grid of cord on a New Kingdom chair is a conservation sentence until the record says the weave is original. I will not guess which courses are 1930s and which are 1400s BCE. The sit of a cord seat is a give: you feel the grid, then a sag if the cord has lived.
+
+Hatnefer’s tomb — the Met excavated it in 1935–36, below TT 71 at Sheikh Abd el-Qurna, the tomb of Hatnefer and Ramose — is why the chair has a climate history we can name. `[CITE NEEDED]` before anyone prints a family-tree sentence that makes her only a famous son’s mother and forgets she is the named sitter.
+
+## Reniseneb is a different height
+
+The Chair of Reniseneb (68.58) stands 86.2 cm overall on the current Met line — about 34 inches — a back you see across a room. `[VERIFY]` the live page for accession 68.58. Wood, ebony, ivory. Dynasty 18, ca. 1450 BCE, Theban in the geography line. The back is the event: openwork, inscription, a field that names. Ivory is a fitting and a surface. You do not eat ivory. You pay for it.
+
+Two New Kingdom chairs in one museum, two jobs. Hatnefer’s is low, compact, animal-footed, cord-seated. Reniseneb’s is taller, written, closer to a stele you can sit in. Neither is a set. Neither wants a leaf. If a decorator orders “Egyptian chairs” as eight matching sides, they are pairing a movie. The sit I describe is inferred from joinery and from the seat height the museum prints.
+
+Someone dressed the wood, worked the ebony, carved or turned the lion terminals, laced the cord, cut the openwork and the name. I will not invent a workshop roster, a wage, or a yearly output. Household labor is the other half, and the wood lists it less. Someone carried food to a sitter who had a chair. Someone sat on a mat. Tomb paintings of offering exist; cite the tomb if you use one `[CITE NEEDED]`.
+
+## Pairing: tables that are not thirty inches
+
+Egyptian eating furniture includes low tables, offering tables, stands, a tray on a support. I will not publish a mean table height from a memory of Giza reconstructions. The pairing fact I trust is negative: a 9 5/8-inch seat is not waiting for a 29-inch apron. A “Nile dining set” with lion feet and farm-table height is a costume and a thigh bruise.
+
+A shop asked for lion’s-paw dining chairs should ask what table. If the table is a 30-inch oak rectangle, the paw is decoration on a Western machine. That can be a conscious quote — Empire already did it — if the clearance is honest and the paw does not kick the apron. Show them the Met numbers first.
 
 ## Sources
 

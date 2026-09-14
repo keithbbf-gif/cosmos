@@ -5,7 +5,7 @@ series: dining-chairs-history-design
 status: draft
 voice_check: human
 reading_order: 8
-word_count: 1748
+word_count: 1622
 dek: "A rounded front, a vase splat, cabriole legs — the dining chair gets lighter and starts to turn as you eat. The compass is the sit, not the date."
 topic: form
 era: "c. 1710–1740 (style longer)"
@@ -74,6 +74,26 @@ Knees that still have their thickness. A splat without a patched break at the na
 If a client wants “Queen Anne dining chairs” in new oak, I want to know the table apron first. Then I want to know whether they will sit two hours. A vase splat and a hard slip seat can do an hour beautifully and punish the third. A thin pad, not a lounge cushion, is the honest middle. A foam throne on cabriole legs is a different type wearing a costume.
 
 The compass is the gift. Keep the gift. Let the sitter turn. Then check the knee against the apron, because dinner does not care about the reign.
+
+## How the compass is cut
+
+The curve is in the seat rails, not in a later upholsterer’s optimism. Front rail bows. Side rails come into that bow. The slip seat is a separate frame dropped into a rabbet, upholstered, a document you can lift out. I have had a compass slip seat on the bench with the show cover gone and the linen and the horsehair still telling the truth about the last century of thighs. Foam on top of that truth is a hospital treatment. It raises the sit. It changes the table.
+
+I do not have a Pheasant percentile for 1730. I have a shop habit: a drop-leaf in the 28-to-29-inch world often meets a finished seat in the same band later shops call eighteen inches, plus or minus the pad. `[VERIFY]` against a named museum pair before you print a rule. I have seen a pretty pad foot that was once a longer foot. The rake of the rear stile had become a stumble.
+
+## Cabriole at the apron
+
+A cabriole that photographs as grace can steal the thigh space a compass seat just gave you. A claw on a rug sits the chair higher and changes the plate. Dining rooms that later added thick carpets to “soften” a period chair often created the discomfort they then blamed on Queen Anne. I am not pious about stretchers on a museum masterpiece. I am pious about stretchers on a chair I have to guarantee.
+
+Labor is still shop labor, not mill labor. Apprentices, journeymen, enslaved workers in Southern shops that made fashionable seats for white dining rooms. If the object is Southern and unnamed, do not fill the name with a dynasty. I will not invent a weekly output for a Newport knee. `[CITE NEEDED]` for a specific object if you name a maker.
+
+## Pairing: drop-leaf, tea table, later oak
+
+A tea table is a different height world than a dining drop-leaf. Chairs migrate. A compass chair that spent fifty years at tea and then got drafted to dinner will tell you with the sitter’s shoulders. The leaf wants a chair that can come in close. The cabriole knee may not. A later farm table with a thick top and a deep skirt is a hostile partner. I would rather change the table pairing than plane the knee.
+
+New oak “Queen Anne” dining chairs are a translation. The compass can be cut honestly in oak. The vase splat can be left thick enough to live. The cabriole can be drawn with the apron you actually have. What I refuse is a foam throne on cabriole legs and a stain that pretends the oak is walnut. Oak is a fiber. Walnut is a fiber. Translate. Do not costume.
+
+If the client will sit two hours, a vase splat and a hard slip seat can do the first hour beautifully and punish the third. A thin pad, not a lounge cushion, is the honest middle. Measure the finished sit after the pad, not the rail. Then I want the table in the same room: apron height, drawer or no drawer, rug or no rug. If those numbers are wrong, the reign does not matter.
 
 ## Sources
 

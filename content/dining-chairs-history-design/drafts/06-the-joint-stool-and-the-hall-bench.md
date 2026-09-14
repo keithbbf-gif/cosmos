@@ -5,7 +5,7 @@ series: dining-chairs-history-design
 status: draft
 voice_check: human
 reading_order: 6
-word_count: 1736
+word_count: 1794
 dek: "English oak, a boarded seat, stretchers in a box — the cheap dining seat of inventories, and the bench that made the hall a table."
 topic: history
 era: "c. 1500–1700, with a long hangover"
@@ -74,6 +74,26 @@ Extra guests. Kitchens. Pubs. School refectories. Picnic tables. The island stoo
 When a dining-chair buyer says they need two armchairs and four sides, they are speaking the language that replaced this hour. That language is comfort, rank at the ends, and a photograph of a tablescape. The stool’s language is capacity and a floor that is not level. I would keep one good joint stool in a house that otherwise sits on backed chairs, if only as a measuring stick. If your fancy side chair cannot be more pleasant, for an hour, than a board on four splayed legs, the fancy chair is only a drawing.
 
 Chinnery for the object. Eames for the scarcity of medieval backs. An inventory, named, if you want a count. The rest is the sit: hard, low or not, your own spine, the table an inch from your knee.
+
+## The board and the trestle are the other half
+
+A joint stool without its table is a museum object. With its table it is a height agreement. Early boards sit on trestles you can knock down after the meal. Later joined tables stay. In both cases the sitter’s knee wants a space that is not a drawer apron and not a Victorian skirt. The stool has no back to hit the wood. It slides under until the thighs say stop. That is the pairing the backed chair will spend centuries trying to recover with stacking, hanging, and “please don’t leave them out.”
+
+I will not print a mean seat height from three auction lots. `[CITE NEEDED]` before anyone treats a 17-inch English stool as a law. What I trust is the family: oak stool, oak board, the same shop language of mortise and splay. A joint stool pulled up to a 30-inch table with a 6-inch drawer apron is often a stretch for the shoulders and a gift for the knees. People do it at Thanksgiving. Their necks tell the truth by dessert.
+
+Trestles that fold change the room. Benches that run the length change the exiting. The stool is the patch: end of the bench, corner of the board, child’s place, extra cousin. Inventories list them in quantity because the meal needed quantity. I still will not invent the ratio. Name the inventory if you want a number.
+
+## Turned work and the labor in the box
+
+A village turner could make legs all week. A joiner cut mortises and set the splay. The seat board might be oak, or elm, or a later replacement that does not match. This is not romantic cottage industry if you are the person at the lathe. It is repetition and a pile of chips. The splay angle is a judgment. Too little and the stool tips when a heavy sitter stands with a hand on the board. Too much and the footprint fights the table legs.
+
+I look for stretchers that still have their tenons. I look for legs that have not been recut so far that the turning’s belly sits on the floor. I look at the underside of the seat for unused holes and second thoughts. A “perfect” stool with new everything and an old story is a prop. A replaced seat on tired original legs is a house that kept sitting.
+
+Southern halls and later dogtrots used benches because the table was still a length. Enslaved labor made furniture that later rooms attributed to a family name. If the object is from a plantation context, name the labor problem. I will not invent a shop name to fill a blank.
+
+Getting out of a populated bench is a wave. The middle sitter asks. The end sitters stand. I have eaten at a picnic table that still runs this way. The complaint — “I can’t get out” — is the design working. Gravy wipes off oak better than it wipes off turkey-work. That is a dinner fact the later upholstered back will have to learn.
+
+A client who wants “period stools” should say whether anyone will sit for an hour. A prop can be distressed and a little tippy. A sit needs a splay that works, stretchers that lock, and a board that will not fold you along a split. I would rather glue a split I can defend than sell a seat that photographs as 1650 and behaves as kindling. Arkansas mills in the later timber century cut oak that became other people’s colonial kits. That is a stock story, not a brand story, and not a reason to stencil a fake town name under a new seat. Decide whether you are making a sit. Then cut the splay.
 
 ## Sources
 

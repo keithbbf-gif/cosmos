@@ -5,7 +5,7 @@ series: dining-chairs-history-design
 status: draft
 voice_check: human
 reading_order: 4
-word_count: 1764
+word_count: 1872
 dek: "Saber legs and a concave back from vase-painting — a chair almost no wood survives to prove, and a silhouette later rooms could not leave alone."
 topic: form
 era: "Classical Greece; revivals after"
@@ -72,6 +72,28 @@ I have seen restaurants put “klismos” chairs at tables of 30 inches and call
 A shop in Arkansas that cuts a saber dining chair is quoting Empire and Federal, not quoting a pot. That is a clean quote if the rear legs are thick enough at the short grain and the stretchers are real. It is a dirty quote if the saber is a CNC outline in weak stock. The drawing is cheap now. The short grain is not.
 
 Richter is still the place to start, then the vase, then the price book, then the American chair with a provenance. Skip the paragraph that says the klismos is the most beautiful chair ever made. Beauty is not a dimension. The curve is.
+
+## How a drawing becomes a break
+
+I have had a revival saber on the bench with the split already started on the inside of the rear curve. The paint still looked fine. The short grain had been working for years. A guest leans to tell a story, the back loads the stile, the stile loads the saber, and the saber is a board that wanted to be a bow. Cut from solid, the annual rings do not follow the kick. They cross it. That crossing is the cost of taking a vase outline as a cutting path.
+
+Bent or laminated work, where a shop can actually do it, keeps more fiber with the curve. Thonet will later industrialize a different bend for a different chair. Do not drag No. 14 backward onto a red-figure hydria. `[CITE NEEDED]` before anyone prints a fifth-century construction method as known. I do not add stretchers to a museum reconstruction to make myself feel better. I add them to a chair I have to send out the door.
+
+Painters put women in klismoi in domestic and wedding scenes, and gods in them, and anyone a myth needs who is not on a throne. Elite men in the texts that get taught first often recline: *klinē*, a couch, a spine that is not dining-chair upright. I will not flatten those into one “Greek dinner.” Later rooms adopted a silhouette that had already been a mixed social object — backed comfort in the drawing, not only rank.
+
+## Pairing the kick to a table
+
+Front sabers kick into the aisle and into a table stretcher if the table still has one. Rear sabers occupy the passage behind the sitter. Serving with a platter along a row of kicks is a shin map. I have watched a coat slide off a saber the way it will not slide off a Marlborough leg. That is not a moral. It is a hook.
+
+Rectangular tables with square legs want chairs that agree or chairs that stay out of the way. The klismos does neither. It wants space around the plan. Pedestal tables — Empire pillars first, later a Saarinen religion — give the saber a place to live because the floor under the table is clearer. The sibling room pack owns those tables. Here the chair fact: a kick and a four-post farm table are a negotiation every meal. Measure the spread of the front legs against the apron’s corners before you call the pair “Grecian dining.”
+
+Seat depth on revival examples is often shallow. Shallow helps a short thigh under an apron. Shallow leaves a long femur with a numb ham by course four. Seat height in 1810 shops tracks dining tables of that decade, often in the high 17s to 19s once you count a thin pad or a cane give. `[VERIFY]` against a named chair and a named table, not against a catalog adjective. Athens does not owe you that number.
+
+A foam pad on a saber chair raises the sit, fattens the line, and then compresses through the roast. Measure the compressed sit if you care about the plate.
+
+The 1802 price book, with the 1808 supplement, prices Grecian work as hours. That is labor you can cite without inventing a weekly count. A 1990s “authentic klismos” is a mood with a CNC path unless the shop still laminates and still leaves meat in the saber. Enslaved labor in Southern shops that made fashionable Grecian seats is the same refusal as in the Queen Anne hour: do not fill an unnamed object with a dynasty.
+
+If a client wants “klismos dining chairs,” I ask three things. What table, and is the apron shallow. Will anyone lean. Are the rear legs thick enough at the short grain, or is the saber a drawing in weak stock. A shop that cuts a saber in oak is quoting Empire and Federal, not quoting a pot. That is a clean quote if the stretchers are real and the seat stays thin. It is a dirty quote if the pad is a lounge and the finish cannot take wine. I have seen restaurants do the dirty quote and call it Mediterranean. The stain was the only Greek thing in the room, and it was not even that.
 
 ## Sources
 

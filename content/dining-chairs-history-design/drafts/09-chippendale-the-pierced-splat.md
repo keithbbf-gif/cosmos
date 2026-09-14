@@ -5,7 +5,7 @@ series: dining-chairs-history-design
 status: draft
 voice_check: human
 reading_order: 9
-word_count: 1788
+word_count: 1484
 dek: "The Director opens the back: ribbon, tassel, Gothic tracery, a hole a sleeve can catch. Dinner finds the piercing and the claw."
 topic: form
 era: "1754–1780s (style longer)"
@@ -72,6 +72,22 @@ Arms on end chairs must clear the table or the armchair is a parlor chair in exi
 I like these chairs best when the piercing is thick enough to trust and the table is honest about the knee. I like them least when a dining room is trying to be a gallery and the sitters are trying to be guests. The *Director* was always a little gallery. Dinner was always a little mess. The good shops knew both.
 
 A new oak “Chippendale” with a CNC Gothic and a foam seat is a costume unless the bridges have meat and the seat height matches the table you actually own. The book is public domain. The short grain is not.
+
+## What a plate does not say
+
+I will not invent a plate number from a memory of ribbon and Gothic. Cite the edition and the plate when you publish a figure. `[CITE NEEDED]` until that number is in front of you. The plate will not mention the fillet you must leave when you pierce. I have seen revival Gothics snap at the first move. The break is always at the thinnest bridge, and always after someone hangs a bag or a child puts weight on the crest. People who sit two hours in a ribbon-back often add a cushion and then complain the table feels high. The cushion is the thief. The plate is innocent of foam. Every hole is wood you cannot lean on. The crest and the shoe have to finish the job.
+
+## Philadelphia labor, and the chairs that are not Philadelphia
+
+American Chippendale chairs — Philadelphia especially — take the book and spend labor on carving that London might have saved for a richer commission. Heckscher’s catalog is the object trail. I will not steal the sibling pack’s port lede. Here: the sit is still a side chair, armless along the table, armed at the ends if the household can pay. Knuckles on those arms are a carver’s hour. The hour is a person. In Southern shops that person may be enslaved. In Northern shops that person is hired, apprenticed, or the master’s own hand. Do not fill a blank with a dynasty. Do not print a factory total. The *Director* is not a factory.
+
+Newport, New York, Boston, rural shops copying a plate from a neighbor’s chair — the type travels farther than the carving budget. A plain pierced splat with honest meat is a better dinner chair than a pastry masterpiece that cannot take a lean. I would rather eat in the plain one.
+
+Haircloth splits at the front rail where the thigh works it. Replacement horsehair is a specialist job; Winterthur and MESDA notes exist for a reason. Measure the finished sit after the cover, not the rabbet.
+
+Serving behind a row of Gothic chairs is a textile sport. Household labor — enslaved in the South, hired in the North — moved around these chairs with platters. The pretty hole is their snag as much as the sitter’s. I have glued a child’s-finger break at a pastry bridge. I have also refused to, when the next Thanksgiving would only break it again. An open splat is a lever with holes in it.
+
+I have watched a carved knee meet a drawer apron and lose. The carving was not the problem. The pair was. On a thick rug the claw sits the chair higher and the table relation changes — another way “old chairs are uncomfortable” turns out to be a floor covering. Tip the rug. Measure the leaf, then the arms. Two hours on haircloth is a different fatigue than two hours on a later balloon-back pad. People who call Chippendale uncomfortable are sometimes telling the truth about haircloth and a wrong table, not about the splat. I ask to see the apron before I agree to the hole. Oak can carry a pierced splat if the bridges have meat. CNC Gothic is only a costume when the cutter chases the photograph down to pastry and the seat is a foam loaf.
 
 ## Sources
 
