@@ -10,6 +10,7 @@ citations:
   - "SCHICK2023 https://arxiv.org/abs/2302.04761"
 status: draft
 voice_check: edited
+voice_edited: 2026-09-14
 figures:
   - architecture-rag-pipeline
   - diagram-rag-vs-long-context

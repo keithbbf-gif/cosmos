@@ -10,6 +10,7 @@ citations:
   - "KAPLAN2020 https://arxiv.org/abs/2001.08361"
 status: draft
 voice_check: edited
+voice_edited: 2026-09-14
 figures:
   - comparison-era-capability-2020-2023-2026
   - infographic-training-inference-cost

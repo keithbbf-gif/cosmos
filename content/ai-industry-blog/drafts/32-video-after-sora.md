@@ -10,6 +10,7 @@ citations:
   - "HO2020 https://arxiv.org/abs/2006.11239"
 status: draft
 voice_check: edited
+voice_edited: 2026-09-14
 figures:
   - diagram-multimodal-pipeline
   - industry-milestones-2020-2026
@@ -17,7 +18,7 @@ figures:
 
 On 15 February 2024, OpenAI posted *Video generation models as world simulators* and a reel. Sora, a diffusion transformer over spacetime patches, produced up to a minute of video from text. The Tokyo walk, the paper planes, the "it almost understands objects" claim. The research post is more honest than the reel: glass does not shatter right, food does not change state when eaten, objects appear because the sampler needed them. Red-teamers and a few artists got access first. A product you could type into came later, in stages, under safety and likeness rules that kept moving.
 
-Runway (Gen-2, then Gen-3 Alpha on 17 June 2024), Pika, Luma, Kling, and a 2024–25 pile of open and semi-open video models made the category a market before Sora was a SKU. OpenAI opened a ChatGPT-side Sora product in December 2024 (Plus/Pro, US first, with watermarking and likeness rules that kept moving). The image-diffusion drop of 22 August 2022 had already taught the industry that a closed reel does not stay closed if the paper is close. Video is heavier — data, compute, legal — so the open file lagged. It did not fail to arrive.
+Runway (Gen-2, then Gen-3 Alpha on 17 June 2024), Pika, Luma, Kling, and a 2024–25 pile of open and semi-open video models made the category a market before Sora was a SKU. OpenAI opened a ChatGPT-side Sora product in December 2024 (Plus/Pro, US first, with watermarking and rollout rules that kept shifting). The image-diffusion drop of 22 August 2022 had already taught the industry that a closed reel does not stay closed if the paper is close. Video is heavier — data, compute, legal — so the open file lagged. It did not fail to arrive.
 
 <!-- ai-blog-figures:begin -->
 <figure class="blog-figure">

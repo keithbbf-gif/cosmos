@@ -14,6 +14,7 @@ citations:
   - "EO14365 https://www.federalregister.gov/documents/2025/12/16/2025-23092/ensuring-a-national-policy-framework-for-artificial-intelligence"
 status: draft
 voice_check: edited
+voice_edited: 2026-09-14
 figures:
   - decision-tree-ai-compliance
   - regulation-global-snapshot-2026

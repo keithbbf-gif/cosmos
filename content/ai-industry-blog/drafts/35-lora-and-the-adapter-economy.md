@@ -10,6 +10,7 @@ citations:
   - "TOUVRON2023B https://arxiv.org/abs/2307.09288"
 status: draft
 voice_check: edited
+voice_edited: 2026-09-14
 figures:
   - architecture-fine-tuning-stages
   - infographic-moe-routing
@@ -17,7 +18,7 @@ figures:
 
 On 17 June 2021, Hu et al. posted *LoRA: Low-Rank Adaptation of Large Language Models*. Freeze the base. Train two small matrices whose product is a rank-r update to selected weights (usually attention projections). At serve time, merge them or keep them as a hot-swappable add-on. The paper's GPT-3 experiments were the point: you do not need to store a second 175B. You need a few megabytes and a recipe.
 
-In May 2023, Dettmers et al. posted QLoRA: 4-bit frozen bases plus LoRA, a 65B-class finetune on a single 48GB GPU in their telling. Combined with Llama (February) and Llama 2 (July), that paper is why every 2023 Discord had a "train your own boyfriend model" era, and why a few companies had a real on-tenant adaptation story.
+In May 2023, Dettmers et al. posted QLoRA: 4-bit frozen bases plus LoRA, a 65B-class fine-tune on a single 48GB GPU in their telling. Combined with Llama (February) and Llama 2 (July), that paper is why every 2023 Discord had a "train your own boyfriend model" era, and why a few companies had a real tenant-side adaptation story.
 
 <!-- ai-blog-figures:begin -->
 <figure class="blog-figure">
@@ -52,7 +53,7 @@ Cost. A full 70B update is a cluster and a forgetting risk (the model loses the 
 
 Distribution. A 50MB adapter can travel. The base stays put (and licensed). That is a product: sell the adapter, not the 140GB. Image people learned this first (DreamBooth 2022, then LoRA on Stable Diffusion). Text people copied it in 2023.
 
-Privacy theater vs privacy. If you train the adapter on tenant data *in the tenant*, you have a story. If you upload the tickets to a vendor's finetune API, you have a DPA. Both get called "custom models" on slides. They are not the same object.
+Privacy theater vs privacy. If you train the adapter on tenant data *in the tenant*, you have a story. If you upload the tickets to a vendor's fine-tune API, you have a DPA. Both get called "custom models" on slides. They are not the same object.
 
 ## Defects specific to adapters
 
@@ -66,7 +67,7 @@ Privacy theater vs privacy. If you train the adapter on tenant data *in the tena
 
 ## 2025–26
 
-On-device LoRA (phones, laptops) is how personalization happens without shipping raw user text to a frontier API — when the vendor actually keeps the update local. Apple's and Google's on-device stories belong next to the small-models draft. Server-side, every cloud now sells "finetune this base." The differentiator is whether you can export the adapter and run it on vLLM yourself.
+On-device LoRA (phones, laptops) is how personalization happens without shipping raw user text to a frontier API — when the vendor actually keeps the update local. Apple's and Google's on-device stories belong next to the small-models draft. Server-side, every cloud now sells "fine-tune this base." The differentiator is whether you can export the adapter and run it on vLLM yourself.
 
 ## Opinion
 

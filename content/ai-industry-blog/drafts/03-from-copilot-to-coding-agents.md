@@ -10,6 +10,7 @@ citations:
   - "GPT5 https://openai.com/index/introducing-gpt-5-for-developers/"
 status: draft
 voice_check: edited
+voice_edited: 2026-09-14
 figures:
   - swimlane-agent-orchestration
   - architecture-agent-tool-loop
@@ -17,7 +18,7 @@ figures:
 
 On 29 June 2021, Nat Friedman wrote that GitHub was putting an "AI pair programmer" inside Visual Studio Code. The preview suggested whole lines and whole functions from the file you were already in. The model was OpenAI Codex. The product name, Copilot, stuck harder than the model name.
 
-A week later, on 7 July, Chen et al. posted *Evaluating Large Language Models Trained on Code*. Codex was a GPT-style model fine-tuned on public GitHub. On a new set they called HumanEval — 164 Python problems with unit tests — the model solved 28.8% with one sample. GPT-3, on the same docstring-to-code task, solved 0%. Sample 100 times and pick a pass, and Codex reached 70.2%. That second number is the one product people should have tattooed on a monitor. Coding models get better if you let them try again against a test.
+A week later, on 7 July, Chen et al. posted *Evaluating Large Language Models Trained on Code*. Codex was a GPT-style model fine-tuned on public GitHub. On a new set they called HumanEval — 164 Python problems with unit tests — the model solved 28.8% with one sample. GPT-3, on the same docstring-to-code task, solved 0%. Sample 100 times and pick one that passes, and Codex reached 70.2%. That second number is the one product people should have tattooed on a monitor. Coding models get better if you let them try again against a test.
 
 <!-- ai-blog-figures:begin -->
 <figure class="blog-figure">

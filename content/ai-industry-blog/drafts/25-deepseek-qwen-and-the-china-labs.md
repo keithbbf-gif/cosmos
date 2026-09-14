@@ -10,6 +10,7 @@ citations:
   - "HOFFMANN2022 https://arxiv.org/abs/2203.15556"
 status: draft
 voice_check: edited
+voice_edited: 2026-09-14
 figures:
   - topology-open-vs-closed-deployment
   - open-weights-epochs-2020-2026
@@ -48,7 +49,7 @@ This piece is not a geopolitical pamphlet. It is a catalog and a constraint.
 
 A weight that is "fine on Hugging Face" can still be banned by a US agency buyer, a bank's third-country list, or an App Store rule. None of those lists are this pack's to reprint; they change. Write down *who* in your company owns the list. If the answer is "the intern who picked Qwen-32B because it won a tweet," you do not have a policy.
 
-Censorship evals (refusals on political prompts) are a real behavioral difference on some China-origin chat finetunes. They are also a difference on US models, in another direction. Measure the class you care about. Do not assume a geography is a moral guarantee.
+Censorship evals (refusals on political prompts) are a real behavioral difference on some China-origin chat fine-tunes. They are also a difference on US models, in another direction. Measure the class you care about. Do not assume a geography is a moral guarantee.
 
 ## What Western buyers actually did
 

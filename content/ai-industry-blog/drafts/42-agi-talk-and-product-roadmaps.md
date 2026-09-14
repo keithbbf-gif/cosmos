@@ -10,6 +10,7 @@ citations:
   - "O1 https://openai.com/index/introducing-openai-o1-preview/"
 status: draft
 voice_check: edited
+voice_edited: 2026-09-14
 figures:
   - comparison-era-capability-2020-2023-2026
   - eval-benchmark-families

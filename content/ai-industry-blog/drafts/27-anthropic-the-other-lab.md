@@ -10,6 +10,7 @@ citations:
   - "COMPUSE https://www.anthropic.com/news/3-5-models-and-computer-use"
 status: draft
 voice_check: edited
+voice_edited: 2026-09-14
 figures:
   - topology-open-vs-closed-deployment
   - flowchart-safety-evals-release

@@ -11,6 +11,7 @@ citations:
   - "CLAUDE3 https://www.anthropic.com/news/claude-3-family"
 status: draft
 voice_check: edited
+voice_edited: 2026-09-14
 figures:
   - diagram-multimodal-pipeline
   - architecture-inference-stack
@@ -55,7 +56,7 @@ Flamingo (Alayrac et al., DeepMind, April 2022) already interleaved images and t
 
 CLIP (Radford et al., January 2021) is the other parent. Contrastive image-text pretraining gave everyone a joint space. DALL·E 2 used it to generate. GPT-4-class models used related ideas to *understand*. If you skip CLIP you cannot explain 2021–24.
 
-LLaVA and the 2023–24 open vision-language finetunes (often on Llama) put screenshot-to-JSON on a hobby GPU. They were messy. They were also how a lot of document-AI startups stopped paying a closed vision endpoint for every page.
+LLaVA and the 2023–24 open vision-language fine-tunes (often on Llama) put screenshot-to-JSON on a hobby GPU. They were messy. They were also how a lot of document-AI startups stopped paying a closed vision endpoint for every page.
 
 ## What got easier
 

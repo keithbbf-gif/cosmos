@@ -13,6 +13,7 @@ citations:
   - "DEEPSEEK2025 https://arxiv.org/abs/2501.12948"
 status: draft
 voice_check: edited
+voice_edited: 2026-09-14
 figures:
   - topology-open-vs-closed-deployment
   - open-weights-epochs-2020-2026

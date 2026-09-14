@@ -10,12 +10,13 @@ citations:
   - "CHEN2021 https://arxiv.org/abs/2107.03374"
 status: draft
 voice_check: edited
+voice_edited: 2026-09-14
 figures:
   - comparison-era-capability-2020-2023-2026
   - infographic-data-flywheel
 ---
 
-On 2 May 2023, the Writers Guild of America went on strike. AI was not the only item (residuals, staffing, mini-rooms). It was the item this pack can name with a straight face: who gets credit when a model drafts a scene, and can a studio use a writer's work to train the thing that replaces the room. The strike ended 27 September 2023 with a contract that put fences around AI use — human credit, limits on treating model output as "literary material," notice. Read the current MBA, not a tweet, before you brief a room. `[CITE NEEDED]` if you quote a clause number; they get restated.
+On 2 May 2023, the Writers Guild of America went on strike. AI was not the only item (residuals, staffing, mini-rooms). It was the item that this pack can name with a straight face: who gets credit when a model drafts a scene, and can a studio use a writer's work to train the thing that replaces the room. The strike ended 27 September 2023 with a contract that put fences around AI use — human credit, limits on treating model output as "literary material," notice. Read the current MBA, not a tweet, before you brief a room. `[CITE NEEDED]` if you quote a clause number; they get restated.
 
 On 14 July 2023, SAG-AFTRA struck. Likeness, voice, "synthetic performers," background-actor scans. The TV/Theatrical deal (9 November 2023; SAG-AFTRA's own contract-2023 pages) put informed consent and payment around digital replicas. Later 2024–26 riders in other corners of the industry copied the shape. This is not Hollywood trivia. It is the template every other trade will steal.
 
@@ -40,7 +41,7 @@ Voice actors and the 2024–25 clone-market (ElevenLabs-class tools) are the ugl
 
 ## Labeling, the workforce under the reward model
 
-Investigative reporting in 2023 and after named vendors and sites. The work is: read a prompt, rank four answers, absorb the worst of the internet so a product can refuse it. That labor is why InstructGPT and Claude exist. It is also why "alignment" has a wage. A 2026 safety story that does not mention contractors is a chapel.
+Investigative reporting in 2023 and after named vendors and sites — Scale, Surge, Appen, and contractors in Kenya and the Philippines among them. The work is: read a prompt, rank four answers, absorb the worst of the internet so a product can refuse it. That labor is why InstructGPT and Claude exist. It is also why "alignment" has a wage. A 2026 safety story that does not mention contractors is a sermon without a payroll.
 
 If you run your own RLHF, you have become one of those vendors. Write the trauma policy and the pay. This is not a slogan. It is a staffing plan.
 
@@ -51,8 +52,6 @@ Chen et al. 2021 (Codex) already had an economics paragraph. Copilot (29 June 20
 Seniors who write specs and tests got faster. Juniors who only accept gray text did not become seniors. Some shops hired fewer juniors. Some shops hired the same number and raised the expected output. Both can be true in the same city.
 
 The Codex/HumanEval lesson still applies: a model that passes a test can still be a confident wrong patch. If you cut the juniors who *read* the patch, you cut the immune system. See the Copilot draft.
-
-RLHF and data-labeling labor (Scale, Surge, Appen, the invisible contractors in Kenya and the Philippines who showed up in 2023 reporting) is the other workforce. InstructGPT does not exist without them. Their working conditions are a matter of record in journalism. They are not a footnote to "alignment." They are the alignment.
 
 ## What a builder can do that is not PR
 

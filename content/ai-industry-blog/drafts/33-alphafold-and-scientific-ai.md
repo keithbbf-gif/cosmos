@@ -10,6 +10,7 @@ citations:
   - "CASP14 https://www.predictioncenter.org/casp14/"
 status: draft
 voice_check: edited
+voice_edited: 2026-09-14
 figures:
   - infographic-data-flywheel
   - comparison-era-capability-2020-2023-2026

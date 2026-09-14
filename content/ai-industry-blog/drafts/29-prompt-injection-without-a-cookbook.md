@@ -12,6 +12,7 @@ citations:
   - "OWASP_2026 https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/"
 status: draft
 voice_check: edited
+voice_edited: 2026-09-14
 figures:
   - flowchart-prompt-injection-defenses
   - architecture-agent-tool-loop

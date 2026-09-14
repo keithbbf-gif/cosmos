@@ -11,6 +11,7 @@ citations:
   - "KAPLAN2020 https://arxiv.org/abs/2001.08361"
 status: draft
 voice_check: edited
+voice_edited: 2026-09-14
 figures:
   - comparison-era-capability-2020-2023-2026
   - industry-milestones-2020-2026
@@ -65,7 +66,7 @@ Detection, 2019-style: Grover (Zellers et al., 2019) and GLTR tried to spot mach
 
 The GLUE-era career path. A 2020 PhD who only fine-tuned BERT for another leaderboard arrived at 2023 interviews speaking a dead dialect. The skills that transferred were data hygiene, eval honesty, and knowing when a metric was saturated. The skills that did not were "design a clever classification head."
 
-Also gone: the idea that 1.5B was "too big to release." By 2023 a 7B chat model was a weekend finetune. The 2019 threshold aged like a software license.
+Also gone: the idea that 1.5B was "too big to release." By 2023 a 7B chat model was a weekend fine-tune. The 2019 threshold aged like a software license.
 
 ## Opinion
 

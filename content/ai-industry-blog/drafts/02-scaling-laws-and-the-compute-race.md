@@ -10,6 +10,7 @@ citations:
   - "BROWN2020 https://arxiv.org/abs/2005.14165"
 status: draft
 voice_check: edited
+voice_edited: 2026-09-14
 figures:
   - compute-and-scaling-2020-2026
   - infographic-training-inference-cost

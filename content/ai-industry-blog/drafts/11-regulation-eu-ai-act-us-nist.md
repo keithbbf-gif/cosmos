@@ -15,6 +15,7 @@ citations:
   - "EO14365 https://www.federalregister.gov/documents/2025/12/16/2025-23092/ensuring-a-national-policy-framework-for-artificial-intelligence"
 status: draft
 voice_check: edited
+voice_edited: 2026-09-14
 figures:
   - decision-tree-ai-compliance
   - regulation-eu-ai-act
@@ -45,7 +46,7 @@ On 1 August 2024, Regulation (EU) 2024/1689 — the AI Act — entered into forc
 
 ## NIST, the document people can actually use
 
-AI 100-1 is short by regulatory standards and dense with lists. It does not certify you. It does not pre-approve a model. It gives organizations a way to talk about risk without pretending a single accuracy number is a control. In July 2024 NIST added AI 600-1, a generative-AI profile, which is the version most product teams should start from if they ship chat, image, or agents.
+AI 100-1 is short by regulatory standards and dense with lists. It does not certify you. It does not pre-approve a model. It gives organizations a way to talk about risk without pretending a single accuracy number is a control. In July 2024 NIST added NIST AI 600-1, a generative-AI profile, which is the version most product teams should start from if they ship chat, image, or agents.
 
 Because it is voluntary, NIST survives electoral whiplash better than an executive order. A new White House can ignore it. Your bank's examiner might not.
 

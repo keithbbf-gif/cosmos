@@ -11,6 +11,7 @@ citations:
   - "LLAMA4 https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
 status: draft
 voice_check: edited
+voice_edited: 2026-09-14
 figures:
   - infographic-moe-routing
   - compute-and-scaling-2020-2026

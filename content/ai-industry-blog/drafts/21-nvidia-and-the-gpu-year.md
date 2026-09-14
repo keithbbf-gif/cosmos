@@ -10,6 +10,7 @@ citations:
   - "HOFFMANN2022 https://arxiv.org/abs/2203.15556"
 status: draft
 voice_check: edited
+voice_edited: 2026-09-14
 figures:
   - compute-and-scaling-2020-2026
   - infographic-training-inference-cost
@@ -46,7 +47,7 @@ Export controls (US rules tightening around advanced accelerators to China, 2022
 
 Clouds (Azure, GCP, AWS, CoreWeave and the GPU specialists) sat between labs and NVIDIA. Microsoft's OpenAI relationship was, among other things, a power-and-cluster relationship. Meta published that it was building toward hundreds of thousands of GPUs for Llama 3-class training. Those numbers move and get restated. The shape does not: a handful of buyers soaked the 2023–24 supply.
 
-Startups that needed 64 GPUs for a finetune discovered they were not in that handful. They rented, they queued, they distilled, they waited for 2025 inference prices. The "GPU rich / GPU poor" split is more explanatory of 2024 product quality than most architecture blogs.
+Startups that needed 64 GPUs for a fine-tune discovered they were not in that handful. They rented, they queued, they distilled, they waited for 2025 inference prices. The "GPU rich / GPU poor" split is more explanatory of 2024 product quality than most architecture blogs.
 
 A side market grew: GPU-backed funds, sale-leasebacks, data-center shells in places with power contracts. This pack will not do municipal politics. Note the input. A scaling law that assumes you can always buy 4× compute meets a substation that does not exist yet.
 

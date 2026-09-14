@@ -11,6 +11,7 @@ citations:
   - "LIU2023 https://arxiv.org/abs/2307.03172"
 status: draft
 voice_check: edited
+voice_edited: 2026-09-14
 figures:
   - infographic-context-window-literacy
   - diagram-rag-vs-long-context
@@ -39,7 +40,7 @@ The number got cheap to print. Using the middle of the window did not.
 
 Attention is quadratic if you are naive. A 1M window at full dense attention is a finance event. The 2023–25 tricks were sparse and cached: sliding windows, grouped-query attention, ring attention, state-space cousins (Mamba, 2023), prefix-cache reuse, and a lot of "we will not tell you the exact pattern." Long-context is a systems paper wearing a product number.
 
-The product reason was RAG fatigue and PDF fatigue. Customers wanted to drop the binder in the box. A 128K window is a small binder. A million is a shelf. A ten million is a filing cabinet you should not trust without a test.
+The product reason was RAG fatigue and PDF fatigue. Customers wanted to drop the binder in the box. A 128K window is a small binder. A million is a shelf. Ten million tokens is a filing cabinet you should not trust without a test.
 
 ## Lost in the middle
 

@@ -21,6 +21,7 @@ No DNS, no WP install, no plugin work in this PR.
 | `citations` | Footer "Sources" block, or a custom field JSON |
 | `status: draft` | WP status **draft**. Never auto-publish. |
 | `voice_check: edited` | Internal editorial flag; do not show on the public post |
+| `voice_edited` | Internal date stamp; strip on import |
 | `figures` | Media library attachments; HTML `<figure class="blog-figure">` blocks are already in the Markdown. Rewrite `../assets/` to the WP uploads path on import. |
 
 Keep YAML in the Markdown for git. Strip it on import or use a front-matter plugin. Do not leave `voice_check` in the rendered HTML.

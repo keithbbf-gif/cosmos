@@ -10,6 +10,7 @@ citations:
   - "LORA https://arxiv.org/abs/2106.09685"
 status: draft
 voice_check: edited
+voice_edited: 2026-09-14
 figures:
   - topology-open-vs-closed-deployment
   - open-weights-epochs-2020-2026
@@ -36,7 +37,7 @@ Llama 2 (18 July 2023) is the file. This draft is the wrench.
 
 **Cards and files.** The Hub, GGUF, safetensors, a model card that may or may not tell you the license. Ollama later wrapped `llama.cpp` for people who did not want a flag list. Together they turned a research dump into `pull` / `run`. Quality of cards varies from "reproducible" to "a selfie." The channel is still how most people meet a weight.
 
-**Train / adapt.** LoRA (Hu et al., 17 June 2021) and QLoRA (Dettmers et al., 2023) made a single-GPU finetune a weekend. Axolotl, Unsloth, TRL, Lightning — pick your wrapper. The adapter economy has its own piece in this pack. The tooling fact: without PEFT-style libraries, Llama 2 is a paperweight for anyone who is not Meta.
+**Train / adapt.** LoRA (Hu et al., 17 June 2021) and QLoRA (Dettmers et al., 2023) made a single-GPU fine-tune a weekend. Axolotl, Unsloth, TRL, Lightning — pick your wrapper. The adapter economy has its own piece in this pack. The tooling fact: without PEFT-style libraries, Llama 2 is a paperweight for anyone who is not Meta.
 
 **Serve.** vLLM, TGI (Hugging Face), TensorRT-LLM, SGLang, llama.cpp's server, MLX. Continuous batching and prefix cache are the 2024–26 cost story (see token economics). A lab that "has a model" and no serving story has a demo.
 

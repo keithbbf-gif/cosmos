@@ -11,6 +11,7 @@ citations:
   - "MARINER_IO https://blog.google/innovation-and-ai/technology/ai/io-2025-keynote/"
 status: draft
 voice_check: edited
+voice_edited: 2026-09-14
 figures:
   - swimlane-agent-orchestration
   - architecture-agent-tool-loop

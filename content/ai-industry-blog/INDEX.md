@@ -62,7 +62,7 @@ Figures: 28 SVGs under `assets/`; every draft already embeds via `<!-- ai-blog-f
 **15–17 / 32 / 36–37 / 40–41** — data/copyright, video, labor, power, memory, school.
 **21 / 25–29 / 33 / 42** — chips, China-origin weights, board week, the other labs, search, injection (no cookbook), scientific AI, AGI-talk as a roadmap toxin.
 
-Each draft YAML: `title`, `slug`, `meta_description`, `tags`, `era_start`, `citations`, `figures`, `status: draft`, `voice_check: edited`.
+Each draft YAML: `title`, `slug`, `meta_description`, `tags`, `era_start`, `citations`, `figures`, `status: draft`, `voice_check: edited`, `voice_edited: 2026-09-14`.
 
 ## Suggested publish clusters (do not dump all at once)
 

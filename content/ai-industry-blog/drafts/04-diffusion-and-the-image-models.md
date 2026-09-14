@@ -11,6 +11,7 @@ citations:
   - "DALLE2 https://openai.com/index/dall-e-2/"
 status: draft
 voice_check: edited
+voice_edited: 2026-09-14
 figures:
   - diagram-multimodal-pipeline
   - comparison-era-capability-2020-2023-2026
@@ -43,7 +44,7 @@ OpenAI's DALL·E 2 (6 April 2022) used a diffusion decoder on CLIP latents and l
 
 ## 22 August 2022
 
-Stable Diffusion's public weights are the image-side equivalent of Llama's later shock, and they arrived first. CompVis, Stability AI, and LAION put a latent diffusion checkpoint on GitHub and Hugging Face that people could actually run. Licenses and safety filters were argued about by dinner. By the next week, fine-tunes, DreamBooth faces, and NSFW forks were everywhere.
+Stable Diffusion's public weights are the image-side equivalent of Llama's later shock, and they arrived first. CompVis, Stability AI, and LAION put a latent diffusion checkpoint on GitHub and Hugging Face that people could actually run. Licenses and safety filters were argued about over dinner. By the next week, fine-tunes, DreamBooth faces, and NSFW forks were everywhere.
 
 This is the part closed vendors still under-tell. Once the U-Net and the VAE are a file, the "product" is a config: your LoRA, your ControlNet, your A1111 flags. The 2022–23 explosion of ControlNet (Zhang et al., pose and edge conditioning) and of community UIs did more for daily use than any single closed sampler. It also dumped the safety problem onto whoever hosted the Gradio space.
 
@@ -59,7 +60,7 @@ Getty Images sued Stability AI in London and the US (2023). Artists sued the usu
 
 ## What changed for people who make pictures
 
-Working illustrators gained a sketching slave and a competitor on the same Tuesday. Concept art cycles compressed. Stock photography took a hit that looks, in 2026, structural. The cliché of "six-fingered hands" faded as samplers and finetunes improved; the cliché of "a house style that is actually 40 LoRAs" did not.
+Working illustrators gained a sketching assistant and a competitor on the same Tuesday. Concept art cycles compressed. Stock photography took a hit that looks, in 2026, structural. The cliché of "six-fingered hands" faded as samplers and fine-tunes improved; the cliché of "a house style that is actually 40 LoRAs" did not.
 
 Credit and consent did not keep up. Some platforms added opt-out crawls. Some artists watermarked in ways models learned to imitate. Adobe bet on Firefly plus Content Credentials (see the authenticity piece in this pack) and a training set it claimed was licensed. That bet is a business model, not a settled ethic. It is also one of the few adult answers in a market that otherwise trained first and sent notes later.
 

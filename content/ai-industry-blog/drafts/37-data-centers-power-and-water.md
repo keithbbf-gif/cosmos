@@ -12,6 +12,7 @@ citations:
   - "CEG_TMI https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs"
 status: draft
 voice_check: edited
+voice_edited: 2026-09-14
 figures:
   - infographic-training-inference-cost
   - compute-and-scaling-2020-2026

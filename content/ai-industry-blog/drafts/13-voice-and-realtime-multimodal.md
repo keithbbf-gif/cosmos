@@ -9,12 +9,13 @@ citations:
   - "GPT4 https://openai.com/index/gpt-4-research/"
 status: draft
 voice_check: edited
+voice_edited: 2026-09-14
 figures:
   - diagram-multimodal-pipeline
   - architecture-inference-stack
 ---
 
-On 13 May 2024, OpenAI's GPT-4o demo did a thing live video calls had not done: the model took interruption, changed tone, and talked about what the camera saw without a "please wait while I transcribe" beat you could drive a truck through. The blog post promised an advanced voice mode in alpha, Plus first. The internet promised that every app would feel like that by Christmas.
+On 13 May 2024, OpenAI's GPT-4o demo did what live video calls had not done: the model took interruption, changed tone, and talked about what the camera saw without a "please wait while I transcribe" beat you could drive a truck through. The blog post promised an advanced voice mode in alpha, Plus first. The internet promised that every app would feel like that by Christmas.
 
 Christmas was quieter. The expectation stayed.
 

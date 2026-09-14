@@ -11,6 +11,7 @@ citations:
   - "LLAMA32 https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/"
 status: draft
 voice_check: edited
+voice_edited: 2026-09-14
 figures:
   - topology-open-vs-closed-deployment
   - infographic-moe-routing
@@ -71,7 +72,7 @@ Energy math is local. Serving a 70B at 10 QPS in a region is a data-center probl
 
 ## 2025–26, without the brochure
 
-Llama 4's edge story, Mistral's Ministral line, Qwen's small variants, Google's Gemma 3-class releases, and a pile of 1B–8B finetunes are the working set. `[CITE NEEDED]` for any specific 2026 LMSYS Elo on a 27B — those numbers move weekly; do not freeze them in a blog without a date stamp and a link.
+Llama 4's edge story, Mistral's Ministral line, Qwen's small variants, Google's Gemma 3-class releases, and a pile of 1B–8B fine-tunes are the working set. `[CITE NEEDED]` for any specific 2026 LMSYS Elo on a 27B — those numbers move weekly; do not freeze them in a blog without a date stamp and a link.
 
 The interesting systems are not "a 3B that beats GPT-4." That sentence is always a lie in the limit. The interesting systems are "a 3B that handles 80% of our routing cheaply, with a log of the 20% we escalated."
 

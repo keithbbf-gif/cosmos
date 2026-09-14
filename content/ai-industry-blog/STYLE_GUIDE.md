@@ -41,7 +41,7 @@ If a Keith-cluster brand appears at all: waitlist-grade one-liner, or omit. Defa
 
 ## Front matter
 
-Every draft YAML includes `status: draft`. After the writer pass: `voice_check: human`. After the editor pass: `voice_check: edited`.
+Every draft YAML includes `status: draft`. After the writer pass: `voice_check: human`. After the editor pass: `voice_check: edited` and `voice_edited: YYYY-MM-DD`.
 
 ## Self-edit checklist (run on every file)
 

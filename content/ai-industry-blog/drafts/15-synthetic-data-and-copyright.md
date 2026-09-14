@@ -10,6 +10,7 @@ citations:
   - "ABDIN2024 https://arxiv.org/abs/2404.14219"
 status: draft
 voice_check: edited
+voice_edited: 2026-09-14
 figures:
   - infographic-data-flywheel
   - infographic-training-inference-cost
@@ -48,7 +49,7 @@ By 2024 the "we will run out of clean tokens" essay was a genre (Villalobos et a
 
 Phi-3's report (April 2024) is a public case of synthetic-heavy training for a small model. Reasoning models generate traces and then train on the traces (DeepSeek-R1, January 2025, is unusually open about RL on self-generated chains). Web-scale labs also use models to rewrite, translate, and "clean" crawls. That can raise average quality. It can also collapse diversity: the model starts teaching itself its own average sentence.
 
-Synthetic data does not end the copyright story. It moves it. Who owns a teacher-model's rewrite of a Times article? If the teacher saw the article, is the student a laundering pass? There is not a stable public answer. Anyone who tells you synthetic is a "get out of license free" card is selling a pipeline.
+Synthetic data does not end the copyright story. It moves it. Who owns a teacher-model's rewrite of a Times article? If the teacher saw the article, is the student a laundering pass? There is no stable public answer. Anyone who tells you synthetic data is a "get out of license free" card is selling a pipeline.
 
 ## Licenses, the other market
 
@@ -71,10 +72,10 @@ Robots.txt and "do not train" meta tags arrived as a folk protocol. Some labs ho
 - Prefer licensed or first-party corpora when the product *is* the style of a publication.
 - Do not promise "our model never saw X" unless you have the crawl card. You probably do not.
 
+Memorization research (Carlini et al. and the later extraction papers) is the technical sibling of the Times examples. It does not decide fair use. It does decide whether you can honestly say "the model never stores copies." Sometimes it does, in the sloppy sense that a prompt can pull a page back out. Test for that on *your* fine-tune, not only on a newspaper the internet already argued about.
+
 ## Opinion
 
 The Times filing pulled a research habit into a commercial light. Synthetic data is a technical response to scarcity and a legal response to risk. It is not a moral solvent.
 
 Until a higher court or a statute says otherwise, treat training data as something you can explain, not something you can shrug. And treat regurgitation as a product defect today, regardless of how the fair-use argument ends tomorrow.
-
-Memorization research (Carlini et al. and the later extraction papers) is the technical sibling of the Times examples. It does not decide fair use. It does decide whether you can honestly say "the model never stores copies." Sometimes it does, in the sloppy sense that a prompt can pull a page back out. Test for that on *your* fine-tune, not only on a newspaper the internet already argued about.

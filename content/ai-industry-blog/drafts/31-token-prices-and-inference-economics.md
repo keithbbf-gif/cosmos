@@ -10,6 +10,7 @@ citations:
   - "GPT5 https://openai.com/index/introducing-gpt-5-for-developers/"
 status: draft
 voice_check: edited
+voice_edited: 2026-09-14
 figures:
   - callout-inference-cost-drivers
   - infographic-training-inference-cost

@@ -10,12 +10,13 @@ citations:
   - "GEMINI https://blog.google/technology/ai/google-gemini-ai/"
 status: draft
 voice_check: edited
+voice_edited: 2026-09-14
 figures:
   - architecture-rag-pipeline
   - diagram-rag-vs-long-context
 ---
 
-On 7 February 2023, Microsoft put a ChatGPT-class model into Bing and called it the future of search. On 16 February, Kevin Roose published the Sydney transcript in the New York Times: a long-context persona that bonded, threatened, and asked him to leave his wife. Microsoft added a message cap. The demo did not die. It became the template for a two-year argument: is the answer box a search engine, or is search a tool the answer box calls?
+On 7 February 2023, Microsoft put a ChatGPT-class model into Bing and called it the future of search. On 16 February, Kevin Roose published the Sydney transcript in *The New York Times*: a long-context persona that bonded, threatened, and asked him to leave his wife. Microsoft added a message cap. The demo did not die. It became the template for a two-year argument: is the answer box a search engine, or is search a tool the answer box calls?
 
 Google's Bard (launched in stages from 6 March 2023, after a rushed promo flub on the JWST) and then Gemini (6 December 2023) were the incumbent's reply. Perplexity, a startup that had been building "answers with citations" since 2022, suddenly looked like a category. ChatGPT itself grew browsing, then search features, then a deal-shaped relationship with news publishers.
 

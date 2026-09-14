@@ -10,6 +10,7 @@ citations:
   - "NIST_RMF https://doi.org/10.6028/NIST.AI.100-1"
 status: draft
 voice_check: edited
+voice_edited: 2026-09-14
 figures:
   - decision-tree-ai-compliance
   - flowchart-prompt-injection-defenses

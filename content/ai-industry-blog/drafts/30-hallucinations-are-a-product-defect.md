@@ -11,6 +11,7 @@ citations:
   - "MOFFATT2024 https://www.canlii.org/en/bc/bccrt/doc/2024/2024bccrt149/2024bccrt149.html"
 status: draft
 voice_check: edited
+voice_edited: 2026-09-14
 figures:
   - eval-leaderboard-caveats
   - architecture-rag-pipeline

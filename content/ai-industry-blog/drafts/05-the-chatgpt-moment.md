@@ -10,6 +10,7 @@ citations:
   - "GPT4 https://openai.com/index/gpt-4-research/"
 status: draft
 voice_check: edited
+voice_edited: 2026-09-14
 figures:
   - industry-milestones-2020-2026
   - comparison-era-capability-2020-2023-2026
