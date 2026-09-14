@@ -19,7 +19,8 @@ citations:
   - "https://doi.org/10.1044/2018_AJSLP-17-0100"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Not a kindergarten entrance exam and not a diagnosis. Rhymes and stories are skills with ranges.
@@ -28,7 +29,7 @@ Kindergarten likes children who can tell what happened and hear that *bat* and *
 
 CDC’s 5-year language line: tells a story they heard or made up with **at least two events** (a cat stuck in a tree; a firefighter saved it); answers simple questions about a book after you read it; keeps a conversation going with **more than three** back-and-forth exchanges; uses or recognizes simple rhymes.
 
-ASHA’s 4-to-5-year public note mentions recognizing and naming letters and writing a name — those sit on CDC’s *cognitive* line (some letters in her name; names some letters). Keep speech-language and early print in the same house without turning this essay into a reading program.
+ASHA’s 4-to-5-year public note mentions recognizing and naming letters and writing a name — those sit on CDC’s *cognitive* line (some letters in their name; names some letters). Keep speech-language and early print in the same house without turning this essay into a reading program.
 
 ## Two events is a plot
 

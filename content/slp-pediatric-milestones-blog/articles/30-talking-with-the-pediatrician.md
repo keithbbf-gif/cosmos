@@ -18,7 +18,8 @@ citations:
   - "https://www.asha.org/profind/"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 **Disclaimer.** Educational only. Not medical advice. A well-child visit is short. This page is about using the minutes. It is not a script that forces a referral.

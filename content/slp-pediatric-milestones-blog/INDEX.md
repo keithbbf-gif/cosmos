@@ -1,6 +1,6 @@
 # Editorial calendar — SLPWOW pediatric speech & language milestones
 
-Forty-two parent-facing drafts. Status: `draft` / `stage: draft`. Nothing here is cleared for the live slpwow.com sitemap.
+Forty-two parent-facing drafts. Status: `draft` / `stage: draft`. Editor pass logged in `EDITOR_REPORT.md` (`voice_check: edited`, 2026-09-14). Nothing here is cleared for the live slpwow.com sitemap.
 
 Speech and language from birth through five: how to read a chart, what CDC and ASHA actually printed, hearing, two languages, late talking as a *research* description, and how to talk with a pediatrician or an SLP — without diagnosing anyone.
 

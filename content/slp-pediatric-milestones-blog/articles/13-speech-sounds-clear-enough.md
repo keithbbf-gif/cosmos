@@ -19,14 +19,15 @@ citations:
   - "https://www.cdc.gov/act-early/media/pdfs/2025/10/cdc-milestone-checklists-ltsae-english-508.pdf"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Not an articulation test and not a diagnosis. Sound charts describe groups of children. They do not name a disorder for yours.
 
 Parents get handed photocopies. A column of IPA symbols. A year beside *r*. Someone’s aunt says, “He’ll get that lisp in school.”
 
-The photocopy and the aunt are both doing a job this essay will not do: deciding whether a sound is “late.” What we can do is say what the large reviews actually found, and what CDC/ASHA ask parents to notice instead of a phoneme list.
+The photocopy and the aunt are both doing a job this essay will not do: deciding whether a sound is “late.” This essay can say what the large reviews actually found, and what CDC/ASHA ask parents to notice instead of a phoneme list.
 
 ## The 2018 review in one kitchen paragraph
 

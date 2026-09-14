@@ -14,10 +14,10 @@ age_band: 24-60m
 citations:
   - "https://www.cdc.gov/act-early/media/pdfs/2025/10/cdc-milestone-checklists-ltsae-english-508.pdf"
   - "https://www.asha.org/public/developmental-milestones/communication-milestones/"
-  - "https://www.asha.org/public/developmental-milestones/communication-milestones/"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Not a language sample scored for question types and not a diagnosis.

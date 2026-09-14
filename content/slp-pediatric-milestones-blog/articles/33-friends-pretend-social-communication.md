@@ -18,7 +18,8 @@ citations:
   - "https://identifythesigns.org/signs-of-speech-and-language-disorders/"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 **Disclaimer.** Educational only. Not an autism screen and not a diagnosis. Social communication is a real domain. Naming a condition is a clinician’s job. This page will describe what CDC printed and how to talk about it without a label.
@@ -71,7 +72,7 @@ People are the point of speech. Watching how your child tries to get into the pe
 
 ## Birthday parties are a rotten lab
 
-Noise, cake, cousins they see twice a year. A child who hides in your leg is giving you temperament and sensory load and maybe language. Write “party” on that story so nobody treats it like a Tuesday at the park with one friend.
+Noise, cake, cousins they see twice a year. A child who clings to your leg is giving you temperament and sensory load and maybe language. Write “party” on that story so nobody treats it like a Tuesday at the park with one friend.
 
 CDC’s 4-year item — asks to go play if no children are around — is a bid. Some children bid by dragging you to the door. That counts. Some never bid and are happy in a solo world. Happiness is allowed. Your worry is also allowed. Both go to the person with a screen, not to a comment thread.
 

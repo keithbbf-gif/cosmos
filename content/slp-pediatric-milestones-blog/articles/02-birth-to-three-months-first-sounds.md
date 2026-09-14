@@ -19,7 +19,8 @@ citations:
   - "https://www.jcih.org/"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Not a screening tool and not a diagnosis. Newborns vary. If something worries you — especially hearing or a skill that disappeared — talk with your child’s doctor.
@@ -44,7 +45,7 @@ A startle, a blink, a stilling, a look — CDC is asking whether the auditory sy
 
 In the United States, newborn hearing screening is standard under Early Hearing Detection and Intervention. The Joint Committee on Infant Hearing’s 2019 position statement is the professional rulebook: screen, then diagnose, then intervene on a tight timetable when a baby does not pass. A pass in the nursery is good news. It is not a lifetime certificate. Fluid, later illness, or a progressive condition can change the picture. If you later wonder whether sound is getting in, you can ask for another check. You do not have to wait for a word to be late.
 
-A baby who sleeps through the dog is not automatically a concern. A baby who never startles, never stills to a voice, never seems to find your face with their ears — that is worth saying out loud at the visit.
+A baby who sleeps through the dog is not automatically a concern. A baby who never startles, never stills to a voice, never turns toward you when you speak — that is worth saying out loud at the visit.
 
 ## The face is the first sentence
 
@@ -60,7 +61,7 @@ Talk about the boring work. “I’m washing your hands.” “That’s the latc
 
 Sing if you sing. Hum if you do not. The melody is extra timing information. You are not auditioning.
 
-Limit your own screen when you are the person in the room. CDC’s 2-month tips say being responsive is easier when the phone is not winning. That is not a moral ranking of parents. It is physics: a baby cannot take a turn with a forehead.
+Limit your own screen when you are the person in the room. CDC’s 2-month tips say being responsive is easier when the phone is not winning. That is not a moral ranking of parents. It is physics: a baby cannot take a turn while you are on your phone.
 
 Watch for the baby’s “I need a break” signs — turning away, yawning, fussing. CDC names those. Language is a social game. Games have pauses.
 

@@ -19,7 +19,8 @@ citations:
   - "https://www.asha.org/public/developmental-milestones/communication-milestones/"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Not an intelligibility score and not a diagnosis. “I understood that” is a family fact. “Strangers should understand 100 percent” is a sentence that needs a source and an age.

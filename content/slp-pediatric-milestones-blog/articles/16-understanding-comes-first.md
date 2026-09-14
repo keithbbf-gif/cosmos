@@ -18,7 +18,8 @@ citations:
   - "https://identifythesigns.org/signs-of-speech-and-language-disorders/"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Not a language test and not a diagnosis. “They understand everything” is a compliment families say. Sometimes it is true. Sometimes it is hope. A visit can tell those apart.

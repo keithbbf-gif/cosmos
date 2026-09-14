@@ -19,7 +19,8 @@ citations:
   - "https://identifythesigns.org/signs-of-speech-and-language-disorders/"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Not a screening tool and not a diagnosis. This essay explains how researchers used the phrase “late talking.” It does not apply that phrase to your child.
@@ -52,7 +53,7 @@ If a blog says “late talkers are usually boys who will catch up,” they are f
 
 Some children in LLE groups later score in the average range on language tests. Some have lingering weak spots in grammar or reading. Some receive clinical diagnoses later — and this essay will not list those diagnoses as destiny. A mean cannot sit with you at 2 a.m.
 
-The useful sentence from the literature is negative: **we cannot tell from a word count alone who will need what.** The useful sentence from CDC/ASHA is practical: if you are worried, act early — talk, screen, ask about evaluation.
+The useful sentence from the literature is negative: **a word count alone cannot tell who will need what.** The useful sentence from CDC/ASHA is practical: if you are worried, act early — talk, screen, ask about evaluation.
 
 ## What to do with the phrase if someone uses it
 
@@ -77,4 +78,4 @@ Rescorla’s LDS was designed as a **screen** — a first pass — not as a coff
 
 ## Why this essay exists
 
-Because the T-shirt version of “late talker” sells comfort and sells fear in the same shop. The papers sell neither. They sell a group, a tool, an age, and a lot of leftover variance. Your child is the leftover variance. That is why we do not stamp. That is why we still knock on doors.
+Because the T-shirt version of “late talker” sells comfort and sells fear in the same shop. The papers sell neither. They sell a group, a tool, an age, and a lot of leftover variance. Your child is the leftover variance. That is why this series does not stamp. That is why you can still knock on doors.

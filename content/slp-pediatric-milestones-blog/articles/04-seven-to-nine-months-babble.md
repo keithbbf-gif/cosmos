@@ -19,7 +19,8 @@ citations:
   - "https://doi.org/10.1542/peds.2019-3449"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Not a screen and not a diagnosis. Babble is not a first word. If babble is missing or a skill disappeared, talk with your child’s doctor.
@@ -46,7 +47,7 @@ You can answer with words. “Up. You want up.” You are not required to wait f
 
 ## Name, peekaboo, and the social sheet
 
-The 9-month social line is doing heavy lifting: shy with strangers, several facial expressions, looks when you call their name, reacts when you leave, smiles or laughs at peekaboo. “Looks when you call her name” is one of the items families remember later, when someone on the internet has turned it into a scare headline. On the CDC page it is one observation among others, at an age when 75 percent or more of children would be expected to do it.
+The 9-month social line is doing heavy lifting: shy with strangers, several facial expressions, looks when you call their name, reacts when you leave, smiles or laughs at peekaboo. “Looks when you call their name” is one of the items families remember later, when someone on the internet has turned it into a scare headline. On the CDC page it is one observation among others, at an age when 75 percent or more of children would be expected to do it.
 
 If they do not look, say that. Mention hearing. Mention what name you actually use — some households have three. Do not let a comment thread name a condition.
 

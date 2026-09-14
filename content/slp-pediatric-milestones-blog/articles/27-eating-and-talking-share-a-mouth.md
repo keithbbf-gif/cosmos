@@ -17,7 +17,8 @@ citations:
   - "https://identifythesigns.org/signs-of-speech-and-language-disorders/"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Not a feeding-therapy plan and not a diagnosis. If drinking, chewing, or swallowing looks unsafe, call your child’s doctor now — not after a milestone article.

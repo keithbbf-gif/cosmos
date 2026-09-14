@@ -18,7 +18,8 @@ citations:
   - "https://pubmed.ncbi.nlm.nih.gov/1883521/"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 **Disclaimer.** Educational only. Not a reading curriculum and not a diagnosis. You cannot fail bedtime.
@@ -49,7 +50,7 @@ A silent video of a book is a different object. A person who answers *dat?* is t
 
 ## Two languages
 
-Read the book you can perform. A clumsy English and a living Spanish (or the reverse) is not a contest. You can tell the same pictures in two languages on two nights. You can keep the home-language stories that never got a ISBN.
+Read the book you can perform. Clumsy English and fluent Spanish (or the reverse) is not a contest. You can tell the same pictures in two languages on two nights. You can keep the home-language stories that never got an ISBN.
 
 ## When books are a fight
 

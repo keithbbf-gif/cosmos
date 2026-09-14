@@ -18,7 +18,8 @@ citations:
   - "https://identifythesigns.org/signs-of-speech-and-language-disorders/"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Not a screen and not a diagnosis. A first name-word is not a vocabulary count. If gestures or looking are missing, or a skill disappeared, talk with your child’s doctor.
@@ -61,7 +62,7 @@ When they point, answer with a word and a beat of waiting. “You want the cup? 
 
 ## Hearing and name-looking
 
-The 9-month social item “looks when you call her name” is still in play. The 12-month cognitive line wants them looking for something they saw you hide. Together those are about following your attention into the world. If sound seems optional — TV up, no startle, no find-your-voice — ask about hearing before you ask about words (essay 22).
+The 9-month social item “looks when you call their name” is still in play. The 12-month cognitive line wants them looking for something they saw you hide. Together those are about following your attention into the world. If sound seems optional — TV up, no startle, no find-your-voice — ask about hearing before you ask about words (essay 22).
 
 ## What this birthday is not
 

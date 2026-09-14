@@ -18,7 +18,8 @@ citations:
   - "https://doi.org/10.1111/j.0956-7976.2005.01534.x"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Not a gesture inventory and not a diagnosis. Hands can carry meaning before the mouth does.

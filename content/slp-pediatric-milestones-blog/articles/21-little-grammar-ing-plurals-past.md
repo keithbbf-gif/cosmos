@@ -18,7 +18,8 @@ citations:
   - "https://www.nidcd.nih.gov/health/speech-and-language"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Not a grammar test and not a diagnosis. *I goed* is a famous ordinary error. It is not a disorder you can name from a blog.
@@ -56,7 +57,7 @@ Do not hold dessert for a correct irregular. Model: “You went to the park.” 
 
 ## Pronouns and little words
 
-*I / me / we* at 30 months (CDC) is a start. *Him doing it* will linger. Articles (*a, the*) and *is* are easy for adults to miss because we fill them in. An SLP listening to a recording will hear whether they are there. You can listen too, once, without becoming a copy editor.
+*I / me / we* at 30 months (CDC) is a start. *Him doing it* will linger. Articles (*a, the*) and *is* are easy for adults to miss because listeners fill them in. An SLP listening to a recording will hear whether they are there. You can listen too, once, without becoming a copy editor.
 
 ## Two languages, two grammars
 

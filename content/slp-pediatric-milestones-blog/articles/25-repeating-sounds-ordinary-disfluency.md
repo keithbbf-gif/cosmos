@@ -18,7 +18,8 @@ citations:
   - "https://www.cdc.gov/act-early/media/pdfs/2025/10/cdc-milestone-checklists-ltsae-english-508.pdf"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Not a fluency evaluation and not a diagnosis. This page will not teach a home fluency program. It will not tell you to ignore what you see.
@@ -67,7 +68,7 @@ Disfluency can show up when a second language is new, or when sentences just got
 
 ## The ask
 
-You can call a pediatric SLP who lists fluency without a referral in many states; ask your pediatrician anyway if you want ears and a well-child note in the same week. You can ask how soon they like to see preschoolers. Early advice to *families* — how you listen — is part of care. That is not the same as a home drill.
+You can call a pediatric SLP whose practice includes fluency without a referral in many states; ask your pediatrician anyway if you want ears and a well-child note in the same week. You can ask how soon they like to see preschoolers. Early advice to *families* — how you listen — is part of care. That is not the same as a home drill.
 
 If the child is in sudden distress, or you are, do not finish this article. Call the people you already have.
 

@@ -19,7 +19,8 @@ citations:
   - "https://identifythesigns.org/signs-of-speech-and-language-disorders/"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 **Disclaimer.** Educational only. Not medical advice. This page is about a habit, not about your child’s future. Nobody here will tell you that waiting “caused” a disorder.
@@ -30,7 +31,7 @@ CDC named it. Abercrombie, Wiggins, and Green (2022) listed a wait-and-see appro
 
 ## Waiting that is a plan versus waiting that is a shrug
 
-**A plan:** we will do the 18-month validated screen on this date; we will check hearing; we will try these two ordinary things; we will come back in six weeks; here is the EI number if you want it sooner.
+**A plan:** a date for the 18-month validated screen; a hearing check; two ordinary things to keep doing; a return visit in six weeks; the EI number saved if you want it sooner.
 
 **A shrug:** boys are late; your brother was quiet; she’ll talk when she’s ready; don’t compare.
 
@@ -40,7 +41,7 @@ You can accept a plan. You can refuse a shrug. You can build a plan the shrug-pe
 
 ## Why smart people shrug
 
-They are trying to comfort you. They remember a child who bloomed. The late-talking literature really does have a group who later look typical (essay 24). Group comfort is not individual data. The people who did *not* bloom are not at the reunion to give the toast.
+They are trying to comfort you. They remember a child who bloomed. The late-talking literature really does have children who later look typical (essay 24). Group comfort is not individual data. The people who did *not* bloom are not at the reunion to give the toast.
 
 They are also tired of worry. Worry is exhausting. A shrug is cheap energy. Screens and referrals cost time. Time is what they are spending without noticing.
 
@@ -75,11 +76,11 @@ Waiting to see can be science if someone is actually looking. Waiting to see, wi
 
 ## A six-week plan you can write on a receipt
 
-Date we will screen or return: ______  
+Date I will screen or return: ______  
 Hearing asked: yes / not yet  
 EI number called: yes / not yet  
-Two ordinary things we will keep doing (talk about what they look at; read three pages): ______  
-What would make us call sooner (lost skill; your gut): ______
+Two ordinary things I will keep doing (talk about what they look at; read three pages): ______  
+What would make me call sooner (lost skill; your gut): ______
 
 That is a plan. “She’s a girl, they’ll talk” is not. Zubler et al. (2022) and Abercrombie et al. (2022) were trying to put something like this receipt into the culture. You can write it even if the culture at your table has not read *Pediatrics*.
 

@@ -18,7 +18,8 @@ citations:
   - "https://identifythesigns.org/signs-of-speech-and-language-disorders/"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Families argue about first words for sport. A clinician counts with rules. This page explains the rules. It does not award a trophy or a delay label.

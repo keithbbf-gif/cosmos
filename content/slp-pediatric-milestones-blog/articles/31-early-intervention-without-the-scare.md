@@ -18,7 +18,8 @@ citations:
   - "https://doi.org/10.1542/peds.2019-3449"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 **Disclaimer.** Educational only. Not legal advice and not a promise of eligibility. Early intervention is a public system. Rules vary by state. This page cannot tell you whether your child will qualify.

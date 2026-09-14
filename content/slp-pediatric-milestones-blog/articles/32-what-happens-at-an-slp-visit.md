@@ -18,7 +18,8 @@ citations:
   - "https://identifythesigns.org/signs-of-speech-and-language-disorders/"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 **Disclaimer.** Educational only. Not a substitute for a clinical visit. This page describes a typical outline. Clinics differ. A visit is not a diagnosis until someone licensed says so — and many visits end with “let’s watch” or “here are ideas,” not a name.

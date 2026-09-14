@@ -19,7 +19,8 @@ citations:
   - "https://identifythesigns.org/signs-of-speech-and-language-disorders/"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Not a screen and not a diagnosis. Two words together is a surveillance item. It is not a grammar exam and not a label.
@@ -54,7 +55,7 @@ A nod, a shrug, a blown kiss, a hush finger, a “so big.” CDC wants the set t
 
 ## Social line: hurt feelings and checking your face
 
-Notices when someone is hurt or upset; looks at your face to see how to react in a new situation. Those are not speech-sound items. They are the reason we bother with speech sounds — people.
+Notices when someone is hurt or upset; looks at your face to see how to react in a new situation. Those are not speech-sound items. They are why speech sounds matter — people.
 
 If a parent is worried about “social communication,” this is where blogs get reckless. This series will not name a condition from a missed glance. It will say: describe what you see; the 18- and 24-month autism-specific screens exist for a reason; the person who can interpret them is not a URL (essays 30, 33).
 

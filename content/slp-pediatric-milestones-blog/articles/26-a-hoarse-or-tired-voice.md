@@ -17,7 +17,8 @@ citations:
   - "https://identifythesigns.org/signs-of-speech-and-language-disorders/"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Not an ENT exam and not a diagnosis. Do not start voice exercises from a video. Do not decide why a voice is hoarse from an article.
@@ -70,4 +71,4 @@ A week of a musical can wreck an adult voice. Children have smaller folds and th
 
 If the child is a mouth-breather, snores, or always sounds stuffed, the pediatrician may want ears, nose, and sleep in the same conversation as the voice. That is medicine. This page will not diagnose tonsils.
 
-A teacher microphone is an environmental kindness. So is not making them scream “I’m here” across a gym. You cannot control the gym. You can ask the school what they have. You can ask the doctor what they want next. Two asks. No personality theory.
+Not making them scream “I’m here” across a gym is the same kind of environmental kindness. You cannot control the gym. You can ask the school what they have. You can ask the doctor what they want next. Two asks. No personality theory.

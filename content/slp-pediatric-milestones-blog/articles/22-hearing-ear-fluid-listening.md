@@ -19,7 +19,8 @@ citations:
   - "https://www.asha.org/public/hearing/"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 **Disclaimer.** Educational only. Not medical advice and not an audiology report. This page cannot tell you whether your child hears. It can tell you why asking is ordinary.

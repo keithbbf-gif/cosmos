@@ -17,7 +17,8 @@ citations:
   - "https://www.healthychildren.org/English/family-life/work-play/Pages/The-Power-of-Play.aspx"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Not a play-based therapy protocol and not a diagnosis. Play is how children rehearse being people. You can join it without turning it into homework.
@@ -66,7 +67,7 @@ A child who wants to play but cannot get in — language too thin, speech too un
 
 ## What this series will not do
 
-We will not give you a 12-step pretend protocol. We will not tell you to withhold toys until they talk. We will not tell you floor-time branded steps as if SLPWOW invented them.
+We will not give you a 12-step pretend protocol. We will not tell you to withhold toys until they talk. We will not sell you floor-time branded steps as if this series invented them.
 
 We will tell you that the CDC sheets already treated play as data. You can treat it as Tuesday. Bring one story about play to the visit. It will explain more than a word count alone.
 

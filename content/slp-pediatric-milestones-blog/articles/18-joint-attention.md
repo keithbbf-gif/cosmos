@@ -18,7 +18,8 @@ citations:
   - "https://doi.org/10.1542/peds.2019-3449"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Not an autism screen and not a diagnosis. Sharing attention is a skill with a research name. Missing a look is a reason to talk with a clinician, not a reason to name a condition from an article.

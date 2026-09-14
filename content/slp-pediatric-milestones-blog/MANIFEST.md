@@ -2,7 +2,7 @@
 
 Draft-only pack. Count target: **≥40** article drafts. This write: **42**, parent-facing longform (quality over quota).
 
-Editor agent: QA against `STYLE_GUIDE.md` and `CLAIMS_GUARDRAILS.md` after this commit. Do not publish.
+Editor pass 2026-09-14: `EDITOR_REPORT.md`. All articles `voice_check: edited`. Do not publish until licensed SLP + claims review.
 
 ## Ops (not posts)
 
@@ -10,7 +10,8 @@ Editor agent: QA against `STYLE_GUIDE.md` and `CLAIMS_GUARDRAILS.md` after this 
 | --- | --- |
 | `INDEX.md` | Calendar, cadence, waves |
 | `MANIFEST.md` | This inventory |
-| `STYLE_GUIDE.md` | Voice bans + `voice_check: human` |
+| `STYLE_GUIDE.md` | Voice bans + `voice_check` workflow |
+| `EDITOR_REPORT.md` | Editor pass log (2026-09-14) |
 | `CLAIMS_GUARDRAILS.md` | Never-say list (no diagnosis, no DIY therapy) |
 | `BIBLIOGRAPHY.md` | Citations used across the pack |
 | `WP_IMPORT.md` | Staging import only |
@@ -18,7 +19,7 @@ Editor agent: QA against `STYLE_GUIDE.md` and `CLAIMS_GUARDRAILS.md` after this 
 
 ## Article drafts (42)
 
-Required YAML on each: `title`, `slug`, `meta_description`, `series`, `type`, `audience`, `brand`, `tags`, `age_band`, `citations`, `status: draft`, `stage: draft`, `voice_check: human`.
+Required YAML on each: `title`, `slug`, `meta_description`, `series`, `type`, `audience`, `brand`, `tags`, `age_band`, `citations`, `status: draft`, `stage: draft`, `voice_check: edited`, `voice_check_date`.
 
 Required body: educational disclaimer (not medical advice; not a screen; not a diagnosis).
 

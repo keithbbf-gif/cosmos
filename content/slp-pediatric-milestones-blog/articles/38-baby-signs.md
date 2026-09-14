@@ -18,7 +18,8 @@ citations:
   - "https://www.asha.org/public/speech/disorders/aac/"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 **Disclaimer.** Educational only. Not a sign-language curriculum and not a diagnosis. Baby sign is optional. It is not a treatment you failed to provide.

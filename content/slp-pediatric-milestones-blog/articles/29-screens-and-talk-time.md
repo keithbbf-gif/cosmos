@@ -18,7 +18,8 @@ citations:
   - "https://doi.org/10.1177/0956797617742725"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Not a diagnosis. This page will not say screens cause autism, delay, or a moral failure. It will say what AAP and CDC printed about time with people.
