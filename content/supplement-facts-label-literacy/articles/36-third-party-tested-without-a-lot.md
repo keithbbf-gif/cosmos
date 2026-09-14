@@ -20,7 +20,7 @@ citations:
   - "21 CFR 111.75 (skip-lot contrast; COA pack)"
   - "companion pack: content/supplement-coa-manufacturing-literacy/"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not legal advice and not a labeling opinion for a specific SKU.
@@ -42,6 +42,10 @@ A useful test sentence has four parts. If any one is absent, you do not have a c
 **Which rows.** Identity, potency, specified metals, residual solvents, pesticides, microbes, and sports banned-substance panels are different questions. A clean micro result does not answer lead. A matching vitamin C assay does not answer whether the proprietary blend is the expensive herb or the maltodextrin-adjacent filler (piece 16). Write the rows. "Heavy-metal free" is not a row (piece 38).
 
 A one-page PDF that lacks those four fields is a flyer. You may still keep it in a vendor folder. You may not translate it into a PDP badge.
+
+## Badge art without the four fields
+
+Marketplace tiles and A+ modules love a shield icon with "lab tested" in eight-point type. The image is labeling when it sits on the same screen as the buy box. A graphic that implies "heavy-metal free," "pharmaceutical grade," or "FDA approved" without the statutory meaning of those phrases is piece 34 and piece 35 wearing a PNG (CLAIMS_GUARDRAILS). Do not paste a third-party logo you are not enrolled in. Do not crop a COA header so only the word "passed" remains. If the badge cannot name lot, method, lab, and rows, the badge is a claim you cannot substantiate — not a shortcut around piece 44's print lock.
 
 ## Skip-lot vs every batch (plain language)
 

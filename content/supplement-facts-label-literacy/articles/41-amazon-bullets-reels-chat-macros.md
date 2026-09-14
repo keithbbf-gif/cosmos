@@ -18,7 +18,7 @@ citations:
   - "https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance"
   - "FRS International, LLC, MARCS-CMS 606701 (15 June 2020) (method; worked example in piece 43)"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not legal advice and not a labeling opinion for a specific SKU.
@@ -68,6 +68,12 @@ Audit the macros the way you audit bullets. Search the helpdesk for: diagnose, t
 Marketplace "Ask a question" answers, chatbot trees, SMS flows, and the storefront live-chat widget are the same file. A 3PL that answers "is this safe for my child's sleep?" with a yes has just written pediatric intended use. This pack will not supply a sleep-disease answer. The survivable macro is: we do not give medical advice; the product is a dietary supplement; here is the serving on the label; speak with a licensed clinician.
 
 Returns macros that concede a disease result ("sorry it didn't help your [condition]") adopt the condition as the product's job. Write the apology without the diagnosis.
+
+## Email, subscriptions, and post-purchase flows
+
+The order confirmation, the shipment email, the subscription-renewal reminder, and the win-back coupon are not "transactional" in the way operators wish they were. They are sentences attached to the same SKU after the customer has already bought. A renewal subject line that names a disease, a post-purchase SMS that promises to "boost immunity during flu season," or a loyalty email that quotes a five-star review naming arthritis is the same intended-use file as a bullet (pieces 29–30). FTC's December 2022 guidance reads net impression across a PDP; a drip sequence is a long PDP with a delay.
+
+Auto-ship portals and "manage subscription" pages often inherit copy from the first checkout. If the first checkout was clean and the third month's email is not, you still shipped the third sentence. Export those templates into the inventory table below with the same columns as Amazon and chat. If marketing owns the ESP and regulatory owns the label, someone has to own the merge field that still says "clinically proven" from a 2019 test.
 
 ## One inventory of sentences
 
