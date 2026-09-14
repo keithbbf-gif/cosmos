@@ -16,7 +16,7 @@ citations:
   - "Shoba G et al. Planta Med. 1998;64:353-356. PMID 9619120 (piperine + curcumin PK — [VERIFY] fold-change before quoting)"
   - "21 CFR 111"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not a treatment guide for arthritis, depression, or cancer.
@@ -74,9 +74,6 @@ A food-spice lot that assays at 2,000 mg/kg lead is a public-health object. A su
 Plant part (rhizome), species (*Curcuma longa*), solvent, native-extract vs excipient weight, curcuminoid profile (not a single %), HPTLC identity, ICP-MS metals with LOD/LOQ, pesticides, residual solvents if extracted (piece 36). Convert lead to mcg/day at the labeled serving. Compare that number to your internal spec and to Prop 65 (piece 37).
 
 Piperine: yes or no. If yes, the interaction warning is 12-point, not a footnote. If no, do not imply Shoba 1998 PK.
-
-A kitchen-spice photo on a gram-class curcuminoid capsule is bait. Food turmeric and a 1,500 mg extract are different articles. The Las Vegas MMWR lot was a market spice at 2,000 mg/kg. Your capsule is the same metal if you bought the same powder.
-
 
 ## Finished-product math a buyer can repeat
 

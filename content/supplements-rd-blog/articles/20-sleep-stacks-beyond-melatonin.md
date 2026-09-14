@@ -18,7 +18,7 @@ citations:
   - "Cohen PA et al. JAMA. 2023. PMC10130950"
   - "21 CFR 101.93"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not a treatment plan for insomnia, anxiety, or depression.
@@ -87,7 +87,7 @@ One hero: one assay row, one method, one unit that matches the panel (piece 35).
 
 If you add apigenin, identity of the isolate and a solvent row (piece 36) join the file. If you add glycine at 3 g, you need a scoop or a large tablet and you need to stop calling 200 mg glycinate "the glycine study."
 
-Child-resistant closure. No cartoon. Lot match. The Cohen letter is about melatonin, but a five-botanical night gummy fails the same matrix. Sedative stacking language belongs in a warning, not a joke.
+Lot match on every assay row. The Cohen letter is about melatonin, but a five-botanical night gummy fails the same matrix. Sedative-stacking warnings belong on the label, not in a joke caption.
 
 ## What changed since 2020 (box)
 

@@ -15,7 +15,7 @@ citations:
   - "21 CFR 101.93"
   - "https://ods.od.nih.gov/factsheets/ (NAC is not a vitamin with an RDA)"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). NAC is a prescription drug in other presentations. This is not a treatment guide for acetaminophen overdose, lung disease, or psychiatric use.
@@ -37,7 +37,7 @@ April 2022: draft enforcement-discretion guidance. August 2022: final guidance (
 
 The final text is a leash, not a blessing. FDA intends not to object to sale of certain NAC products *labeled as dietary supplements* that would be lawful if NAC were not excluded, and that are **not otherwise** in violation of the FD&C Act. The policy **does not apply** if the product is intended to diagnose, cure, mitigate, treat, or prevent disease. It does not apply if the lot is adulterated or misbranded for some other reason. FDA said it would keep the discretion until it finished a rulemaking or denied the petition's rulemaking ask — unless a safety problem showed up.
 
-Read that as an operator. You can ship a 600 mg NAC capsule with a structure/function file and a 101.93 disclaimer *today* under a policy that FDA can withdraw. You cannot ship "NAC protocol for long COVID" or "replaces Mucomyst." Those sentences turn the leash into a letter.
+Read that as an operator. You can ship a 600 mg NAC capsule with a structure/function file and a 101.93 disclaimer today under a policy FDA can withdraw. You cannot ship "NAC protocol for long COVID" or "replaces Mucomyst." Those sentences turn the leash into a letter.
 
 Retailers moved faster than the Federal Register. When exclusion talk circulated in 2021–2022, some marketplaces paused NAC listings. After the August guidance, many restocked. That is not a safety finding. It is a platform reading a PDF.
 

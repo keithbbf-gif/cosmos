@@ -20,7 +20,7 @@ citations:
   - "21 CFR 101.93"
   - "Pub. L. 103-417 (DSHEA)"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93).
@@ -29,7 +29,7 @@ The last quiet month for this category was January 2020. Then demand, inspection
 
 ## What did not change
 
-DSHEA is still the statute (Pub. L. 103-417, 1994). FDA still does not pre-approve supplement SKUs. cGMP is still 21 CFR Part 111. Structure/function claims still require notification, substantiation, and the disclaimer in 21 CFR 101.93. A product still becomes a drug when intended use — label, site, Reel, Amazon bullet — says diagnose, cure, mitigate, treat, or prevent disease.
+DSHEA is still the statute (Pub. L. 103-417, 1994). FDA still does not pre-approve supplement SKUs. cGMP is still 21 CFR Part 111. Structure/function claims still require notification, substantiation, and the disclaimer in 21 CFR 101.93. A product still becomes a drug when intended use — label, site, Reels, Amazon bullets — says diagnose, cure, mitigate, treat, or prevent disease.
 
 If you only remember one legal fact from 2020–2026, remember that. Most of the "new" enforcement was the old statute applied to a louder market.
 

@@ -20,7 +20,7 @@ citations:
   - "https://www.consumerreports.org/lead/protein-powders-and-shakes-contain-high-levels-of-lead-a4206364640/"
   - "https://advocacy.consumerreports.org/press_release/consumer-reports-investigation-finds-two-thirds-of-protein-powders-and-shakes-tested-contained-high-levels-of-lead-in-a-single-serving"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93).
@@ -39,7 +39,7 @@ Lead, arsenic, cadmium, mercury. Botanicals, protein powders (especially plant/c
 
 Consumer Reports published a protein-powder/shake investigation on 14 October 2025 (updated 8 January 2026): 23 products, samples bought November 2024–January 2025, protein by Dumas (AOAC 968.06), metals by triple-quad ICP-MS (AOAC 2015.01). About 70% of those products were above CR's own lead "level of concern" of 0.5 mcg/day *in one serving*. Plant-based powders ran higher on average than dairy in that set. CR named high-lead examples (Naked Nutrition Vegan Mass Gainer 7.7 mcg lead/serving; Huel Black Edition 6.3 mcg lead and 9.2 mcg cadmium) and later published a second, smaller round of reader-requested powders that came in lower. Those numbers are **CR's benchmark, not an FDA tolerance**. FDA still has no binding lead limit for protein powder. Do not reprint a named SKU on your site without re-opening CR's table — they update, and a 2025 lot is not a 2026 lot.
 
-Clean Label Project has run similar consumer tests. Treat them as press tests: useful pressure, not your release spec.
+Clean Label Project has run similar consumer tests. Treat them as press tests — useful pressure, not your release spec.
 
 **Prop 65 (California).** OEHHA's list and safe-harbor levels are not federal GMPs. They are a warning statute with a plaintiff's bar. A lot that is "fine" under a USP <2232> or internal spec can still be a Prop 65 problem for lead. If you ship to CA, model the warning decision with counsel. Do not put "heavy-metal free" on a cacao protein.
 

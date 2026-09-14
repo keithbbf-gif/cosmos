@@ -14,7 +14,7 @@ citations:
   - "21 CFR 111"
   - "FDA food allergen resources (sesame as ninth major allergen, labeling 2023)"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93).
@@ -70,21 +70,16 @@ Amazon's prep rules will scrape disease words off a label image (piece 12). A 3P
 Gluten-free, vegan, and "made in a facility that also processes…" are specifications. If the CMO cannot show line clearance and an allergen swab SOP, do not print the halo. A 2021 carton on a 2024 formula is a recall shape even when the assay is fine.
 
 
-## The decision memo a 3PL will ask for
-
-Serving, analyte, lab, LOD/LOQ, comparison to OEHHA safe harbor, warning yes/no. Lead's reproductive MADL has long been 0.5 mcg/day — `[VERIFY]` live. Do not print "Prop 65 free."
-
-Sesame since 1 January 2023 is the ninth major allergen. An SOP that lists eight is stale. Undeclared soy lecithin after a clean-label swap is the 2020s classic. Fish vs algae lines (piece 38), bovine vs "vegan collagen" (piece 22), hemp next to vitamins (piece 14) — warehouse rules, not efficacy. Retain samples in *your* closet.
-
-
-## Nine allergens and a memo that ships
+## Nine allergens, the Prop 65 memo, and what the 3PL will ask for
 
 FASTER Act: sesame became the ninth major US food allergen, labeling in effect **1 January 2023**. Milk, egg, fish, shellfish, tree nuts, peanuts, wheat, soy, sesame. An SOP that lists eight is stale. FALCPA does not care that the soy lecithin was 0.3% after a "clean label" swap.
 
-Prop 65: serving, analyte, lab, LOD/LOQ, comparison to safe harbor, warning yes/no. Lead's reproductive MADL has long been 0.5 mcg/day — `[VERIFY]` live OEHHA. Do not print "Prop 65 free." Protein (CR 2025, piece 10), turmeric (piece 23), cacao-flavored sticks, collagen scoops (piece 22) are why the memo is not theoretical.
+Prop 65: serving, analyte, lab, LOD/LOQ, comparison to OEHHA safe harbor, warning yes/no. Lead's reproductive MADL has long been 0.5 mcg/day — `[VERIFY]` live OEHHA. Do not print "Prop 65 free." Protein (CR 2025, piece 10), turmeric (piece 23), cacao-flavored sticks, and collagen scoops (piece 22) are why the memo is not theoretical.
 
-3PL: heat recorders on probiotic and omega-3 trailers; hemp/CBD next to vitamins is a processor panic (piece 14); SARMs sister brands stain the account (piece 32); opened gummy returns are trash. Retain samples in *your* closet. Amazon prep will scrape disease words (piece 12). A missing sesame line that stops a pallet is a favor.
+Heat recorders on probiotic and omega-3 trailers; hemp/CBD next to vitamins is a processor panic (piece 14); SARMs sister brands stain the account (piece 32); opened gummy returns are trash. Retain samples in *your* closet. Amazon prep will scrape disease words (piece 12). A missing sesame line that stops a pallet is a favor.
 
 ## What changed since 2020 (box)
 
 Sesame joined the list on 1 January 2023. Prop 65 did not get friendlier. 3PLs got pickier about hemp and about paperwork after the inspection-quiet year. Packaging/shipping is R&D if your formula dies in July freight.
+
+Ask your 3PL for their allergen and Prop 65 intake forms before you book the first pallet — not when the truck is at the dock with a hold sticker. Piece 11 is freight heat; piece 16 is retain samples when the hold turns into a notice.

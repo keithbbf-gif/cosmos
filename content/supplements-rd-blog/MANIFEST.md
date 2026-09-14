@@ -10,7 +10,8 @@ Editor agent: QA against `STYLE_GUIDE.md` after this commit. Do not publish.
 | --- | --- |
 | `INDEX.md` | Calendar, cadence, waves |
 | `MANIFEST.md` | This inventory |
-| `STYLE_GUIDE.md` | Voice bans + `voice_check: human` |
+| `STYLE_GUIDE.md` | Voice bans + `voice_check: human` → `edited` after editor |
+| `EDITOR_REPORT.md` | Editor QA sign-off (PR #230) |
 | `CLAIMS_GUARDRAILS.md` | On-site never-say list |
 | `BIBLIOGRAPHY.md` | Citations |
 | `WP_IMPORT.md` | Staging import only |
@@ -18,7 +19,7 @@ Editor agent: QA against `STYLE_GUIDE.md` after this commit. Do not publish.
 
 ## Article drafts (40)
 
-Required YAML on each: `title`, `slug`, `meta_description`, `tags`, `era_focus`, `citations`, `status: draft`, `voice_check: human`.
+Required YAML on each: `title`, `slug`, `meta_description`, `tags`, `era_focus`, `citations`, `status: draft`, `voice_check: edited` (post–editor on PR #230).
 
 Required body: DSHEA disclaimer (educational; not medical advice; not intended to diagnose/treat/cure/prevent disease).
 
@@ -76,7 +77,7 @@ Required body: DSHEA disclaimer (educational; not medical advice; not intended t
 ## Check script (editor)
 
 1. `articles/*.md` count ≥ 40.
-2. Each file has `status: draft` and `voice_check: human`.
+2. Each file has `status: draft` and `voice_check: edited`.
 3. Each file contains the DSHEA "not intended to diagnose" sentence.
 4. Grep bans from `STYLE_GUIDE.md`.
 5. Grep `ElitElixir|Unilever` in `articles/` — expect zero.

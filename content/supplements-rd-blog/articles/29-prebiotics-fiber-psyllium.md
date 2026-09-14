@@ -17,12 +17,12 @@ citations:
   - "21 CFR 101.81 (soluble fiber from psyllium and CHD — exact wording if used)"
   - "FDA dietary-fiber guidance (isolated fibers that may be declared)"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not a treatment for constipation, IBD, or cholesterol as disease.
 
-ISAPP defined a **prebiotic** in 2017 (Gibson et al., PMID 28611380): a substrate that is selectively utilized by host microorganisms conferring a health benefit. That is a higher bar than "contains inulin." A **synbiotic** (Swanson et al., 2020, PMID 32810439) is a mixture of live microbes and substrate(s) that meet the definitions — complementary or synergistic, not "we dumped powder B into powder A." Salminen et al. 2021 (PMID 33948025) then gave **postbiotic** a consensus definition. Three nouns. Retail used all three on 50 mg blends.
+ISAPP defined a **prebiotic** in 2017 (Gibson et al., PMID 28611380): a substrate selectively used by host microorganisms conferring a health benefit. That is a higher bar than "contains inulin." A **synbiotic** (Swanson et al., 2020, PMID 32810439) is a mixture of live microbes and substrate(s) that meet the definitions — complementary or synergistic, not "we dumped powder B into powder A." Salminen et al. 2021 (PMID 33948025) then gave **postbiotic** a consensus definition. Three nouns. Retail used all three on 50 mg blends.
 
 ## Fiber law vs Instagram
 
@@ -58,20 +58,11 @@ Piece 05 is the live-microbe half of this aisle. This piece is the substrate hal
 Psyllium QA is identity plus swell. Incoming husk that was cut with cheaper fiber, or with sand, is an old adulteration story. Assay the fiber you declared. A choke warning on the label is not optional; dry powder in a throat is a case report waiting for a lawyer. If you use 21 CFR 101.81, you also inherit the qualifying amount and the exact sentence. Paraphrase is how you leave the health-claim path and enter FTC's net-impression path with a weaker file.
 
 
-## 21 CFR 101.81 is a sentence, not a vibe
+## 21 CFR 101.81 and isolated fibers that had to earn the word
 
 If you want the soluble-fiber-and-CHD claim, you print the **exact** regulatory sentence and you hit the qualifying amount. Paraphrase ("heart healthy fiber") is how you leave that path. Most gummy PDPs are not on that path.
 
-ISAPP's 2017 prebiotic definition requires selective use plus a benefit. A 50 mg inulin dusting is neither. Synbiotic (2020) requires both sides. Postbiotic (2021) is a third noun. Retail used all three on peach rings.
-
-Psyllium: mix with a full glass of water. Binding of other orals belongs in the file. Identity plus swell. A choke case is a lawyer. Sell a canister with grams or do not use the word fiber.
-
-
-## Isolated fibers had to earn the word
-
-FDA's late-2010s/2020s fiber-declaration rules meant some isolated fibers needed a citizen petition showing a physiologic benefit before they could be called "dietary fiber" on the panel. `[VERIFY]` the live FDA list before you print "5 g fiber" on an inulin gummy. Inulin, FOS, GOS, and several resistant starches have had to earn that noun. Psyllium already had 21 CFR 101.81 — exact sentence, qualifying amount, or you do not have the CHD claim.
-
-ISAPP 2017 (Gibson, PMID 28611380) is selective use plus a benefit. A 50 mg dusting is neither. Swanson 2020 synbiotic (PMID 32810439) requires both sides. Salminen 2021 postbiotic (PMID 33948025) is a third noun. Retail used all three on peach rings.
+FDA's late-2010s/2020s fiber-declaration rules meant some isolated fibers needed a citizen petition showing a physiologic benefit before they could be called "dietary fiber" on the panel. `[VERIFY]` the live FDA list before you print "5 g fiber" on an inulin gummy. ISAPP 2017 (Gibson, PMID 28611380) is selective use plus a benefit — a 50 mg dusting is neither. Swanson 2020 synbiotic (PMID 32810439) requires both sides; Salminen 2021 postbiotic (PMID 33948025) is a third noun retail used on peach rings.
 
 Psyllium QA: identity plus swell, mix with a full glass of water, binding of other orals in the file. A choke case is a lawyer. Sell grams in a canister or do not use the word fiber.
 

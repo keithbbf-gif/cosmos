@@ -14,7 +14,7 @@ citations:
   - "https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance"
   - "CLAIMS_GUARDRAILS.md (this pack)"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not an audit opinion on a live catalog.
@@ -84,18 +84,13 @@ Do not invent a medical director in the footer to bless the leftovers. The partn
 No invented lab. No chief scientist who does not exist. The drafts in this folder are operator notes. They are not a white-coat costume.
 
 
-## How to run the four gates in a week
+## How to run the four gates in a week — and what "park" means
 
 Day 1: status table (CBD, SARMs/peptides/PDE-5, NMN without NDIN, NAC disease copy). Day 2: highlighter on PDP, Amazon, Reels. Day 3: dose vs paper (strain, elemental math, Cohen melatonin, EGCG warning, named extracts). Day 4: finished-product COAs, sesame, Prop 65 memos. Day 5: who is the buyer — kids, 50+ iron, athletes, warfarin+K2.
 
-Keep the boring book (creatine, protein, D3, glycinate, iron-split multi, assayed DHA, 0.5–3 mg melatonin tablets). Park the loud book. Do not invent a medical director to bless leftovers. Forty essays tell you which SKU to assay first. They do not replace the assay.
-
-
-## What "park" means in a week-one book
-
 Park is not never. Park is not until a paper, a COA, and a claim file exist. Longevity stacks wait on NMN/NDI (08, 30). Berberine waits until someone deletes the GLP-1 caption (21). Liposomal everything waits on a matrix-matched PK paper (09). 15-strain probiotics wait on deposit numbers and CFU through expiry (05). Kids' sleep gummies wait on CR closures and Cohen-grade assays — or they exit (19, 34). Men's rockets wait on a PDE-5 analogue screen or they exit (32, 33).
 
-Run the gates in order. Flavor is not a gate. A beautiful COA on an excluded article is a souvenir. Forty essays tell you which SKU to assay first. They do not replace the assay. Do not invent a medical director to bless leftovers.
+Keep the boring book (creatine, protein, D3, glycinate, iron-split multi, assayed DHA, 0.5–3 mg melatonin tablets). Run the gates in order. Flavor is not a gate. Forty essays tell you which SKU to assay first. They do not replace the assay. Do not invent a medical director to bless leftovers.
 
 ## What changed since 2020 (box)
 

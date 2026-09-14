@@ -17,7 +17,7 @@ citations:
   - "Kreider et al. JISSN 2017 (creatine; includes older-women bone/strength citations)"
   - "21 CFR 101.93"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not guidance to treat menopause, osteoporosis, or hormone-sensitive disease, and it is not a substitute for a clinician. Hormone therapy is a prescription decision.
@@ -86,7 +86,7 @@ NAMS 2023 put fezolinetant on the recommended list as a **drug**. That is the po
 
 What a midlife nutrient book can still do: iron-split multis (piece 26), creatine monohydrate with a training file (piece 06), vitamin D in mcg without an osteoporosis poster (piece 04, piece 27), protein that assays as protein. None of those are VMS treatments. Say so on the page.
 
-Black-cohosh identity (*Actaea racemosa* vs cheaper lookalikes) is an ABC-class problem. If you still sell it after Cochrane 2012 and NAMS 2023, you are selling a traditional herb with a liver-warning conversation — not a hot-flash drug. One plant, one extract, one warning set, finished-product HPTLC. Two hepatotoxic botanicals in one "cortisol menopause" blend is how DILI depositions get written.
+If you still sell black cohosh after Cochrane 2012 and NAMS 2023, you are selling a traditional herb with a liver-warning conversation — not a hot-flash drug. Two hepatotoxic botanicals in one "cortisol menopause" blend is how DILI depositions get written.
 
 ## What changed since 2020 (box)
 

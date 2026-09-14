@@ -15,7 +15,7 @@ citations:
   - "FDA Warrior Labz letter 655280 (12 June 2023) — PDE-5 sold by name"
   - "21 CFR 101.93"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not a treatment for BPH, erectile dysfunction, or hypogonadism.
@@ -62,23 +62,16 @@ Citrus extracts and "natural Viagra" plants are where the hidden tablet lives. I
 Fenugreek identity is a botanical problem (piece 36). "Testofen-class" extracts are named materials; a broker seed powder is not that paper. Ashwagandha in a T-booster inherits the liver file (piece 07) and still does not become TRT. A men's multi without iron (piece 26) plus creatine (piece 06) plus a vitamin D if they are low is the boring book. The bedroom rocket is the taint page. Price them as different businesses. A shared CMO is a shared deposition if the rocket fails a PDE-5 screen.
 
 
-## Identity of the berry versus the oil
+## Identity of the berry, Cochrane, and the analogue screen
 
-Saw palmetto adulteration is cheap oil cut into berry extract (ABC BAPP). HPTLC plus a fatty-acid profile that matches berry, or you bought the cut. Cochrane 2012 already disappointed the outcome file. A "clinically proven prostate relief" line argues with both.
+Saw palmetto adulteration is cheap oil cut into berry extract (ABC BAPP). HPTLC plus a fatty-acid profile that matches berry, or you bought the cut. Tacklind et al., Cochrane 2012 (CD001423): *Serenoa repens* did not improve LUTS/BPH symptoms versus placebo in the analyses that mattered. BPH is a disease. A 2026 PDP that says "clinically proven prostate relief" argues with Cochrane and with 321(g). Later branded-extract papers exist; `[CITE NEEDED]` before you transfer one onto a broker oil.
 
-PDE-5 analogue screen on any sexual SKU — cousins, not only sildenafil. When a "male pre" works too well, screen before you celebrate. Fenugreek and ashwagandha T-boosters are named extracts or they are dust; ashwagandha still carries a liver file (piece 07). A capsule is not TRT.
-
-
-## What Cochrane 2012 actually closed
-
-Tacklind et al., CD001423: *Serenoa repens* did not improve LUTS/BPH symptoms versus placebo in the analyses that mattered. BPH is a disease. A 2026 PDP that says "clinically proven prostate relief" argues with Cochrane and with 321(g). Later branded-extract papers exist; `[CITE NEEDED]` before you transfer one onto a broker oil. Identity is still HPTLC plus a fatty-acid profile that matches berry.
-
-FDA's tainted-supplements page is not a historical exhibit. Sexual-enhancement and weight-loss SKUs keep landing sildenafil, tadalafil, sibutramine, steroids, SARMs. A screen that only looks for sildenafil misses the analogue. Ask for the analogue panel or do not make the SKU.
-
-"Increases testosterone into the eugonadal range" is a drug-shaped claim. TRT is a prescription practice. Zinc and vitamin D deficiency can sit under low-T labs — that is ODS plus a clinician, not a fenugreek megadose.
+FDA's tainted-supplements page is not a historical exhibit. Sexual-enhancement and weight-loss SKUs keep landing sildenafil, tadalafil, sibutramine, steroids, SARMs. PDE-5 analogue screen on any sexual SKU — cousins, not only sildenafil. When a "male pre" works too well, screen before you celebrate. "Increases testosterone into the eugonadal range" is a drug-shaped claim; TRT is a prescription practice. Zinc and vitamin D deficiency can sit under low-T labs — that is ODS plus a clinician, not a fenugreek megadose.
 
 ## What changed since 2020 (box)
 
 T-booster ads followed the podcast boom. The Cochrane saw-palmetto conclusion did not move. FDA's taint page kept growing. A serious book stayed boring on purpose.
 
 A shared CMO between the boring book and the bedroom rocket is a deposition you bought on purpose. If the rocket fails a PDE-5 analogue screen, the creatine line sits in the same building. Price them as different businesses or leave the aisle. NSF/Informed-Sport still will not cover "pharmacy in a capsule."
+
+When a sexual SKU clears a screen once, re-screen at formula change — not only at launch. Analogue chemistry does not wait for your annual catalog refresh. Piece 32 is the full Warrior Labz roster; this aisle is where taint and weak outcome files overlap on one shelf.

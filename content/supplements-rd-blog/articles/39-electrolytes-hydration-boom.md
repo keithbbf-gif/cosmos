@@ -14,7 +14,7 @@ citations:
   - "ISSN / ACSM hydration position materials (exercise fluid replacement)"
   - "21 CFR 101.36 / 101.9"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not a treatment for dehydration, heat stroke, or adrenal disease.
@@ -59,21 +59,16 @@ If the stick is a dietary supplement, 21 CFR 101.36 applies. If it is a food, 10
 ISSN/ACSM fluid-replacement language is about sweat rate, not about a 2 p.m. Zoom. A 1,000 mg sodium stick on a rest day is a different object than 300 mg in hour two of a hot ride. Potassium in the 99 mg tablet is a labeling habit; a gram-class potassium packet is a clinician conversation for the wrong patient. Do not put "prevents hyponatremia" or "adrenal support" on either. Assay sodium, potassium, chloride, magnesium as ions. "Sea salt blend" is not an ion. Cacao-flavored sticks inherit a metals memo (piece 37). Caffeine in the same stick is a second SKU (piece 32's lesson: name the milligrams).
 
 
-## Ions, not a sea-salt story
+## Ions, ORS logic, and desk-day wellness water
 
-Assay sodium, potassium, chloride, magnesium as ions. "Sea salt blend" is not an ion. 200–500 mg sodium can be a starting packet for a long hot session; it is not an adrenal protocol and it is not hyponatremia prevention. A 1,000 mg potassium stick is a different object than a 99 mg tablet — `[VERIFY]` current K limits before you joke.
-
-Sugar vs zero: SGLT1 logic is why some packets still use glucose. They are not WHO-ORS. Sugar alcohols write bathroom reviews. Caffeine in the stick is a second SKU. Pick 101.36 or 101.9 and stop mixing panels. Desk-day wellness water is flavored salt. Print the milligrams.
-
-
-## ORS logic is not a cholera ward on the mood board
-
-WHO-style oral rehydration uses glucose plus sodium (SGLT1). Some sports packets still use sugar for that reason. They are not a cholera protocol, and a zero-sugar stick is not WHO-ORS. Do not put a ward on the carton. Sugar alcohols in a "gut + hydration" stack write bathroom reviews (piece 29).
+Assay sodium, potassium, chloride, magnesium as ions. "Sea salt blend" is not an ion. WHO-style oral rehydration uses glucose plus sodium (SGLT1); some sports packets still use sugar for that reason. They are not a cholera protocol, and a zero-sugar stick is not WHO-ORS. Do not put a ward on the carton.
 
 ACSM/ISSN fluid-replacement language is about sweat rate, duration, and heat — `[VERIFY]` the live sentence if you quote one. A 200–500 mg sodium stick can be a starting packet for a long hot session. It is not an adrenal cocktail and it is not "prevents hyponatremia." A 1,000 mg potassium stick is a different object than a 99 mg tablet; high-dose potassium salts have cardiac logic in the wrong patient (ACE inhibitors, potassium-sparing diuretics, kidney disease).
 
-Assay the ions. Pick 21 CFR 101.36 or 101.9. Caffeine in the stick is a second SKU. Cacao flavor inherits a metals memo (piece 37).
+Desk-day wellness water is flavored salt. Print the milligrams. Sugar alcohols in a "gut + hydration" stack write bathroom reviews (piece 29). Caffeine in the stick is a second SKU (piece 32). Cacao flavor inherits a metals memo (piece 37). Pick 21 CFR 101.36 or 101.9 and stop mixing panels.
 
 ## What changed since 2020 (box)
 
 Remote work and "wellness water" turned a sports product into an all-day sip. The physiology did not. Sell milligrams of sodium and potassium for sweat. Leave the adrenals and the ER out of the carton.
+
+A stick pack that cannot state sodium and potassium per serving is not ready for Amazon or for a team-sport buyer. Print the ions, pick supplement or food facts, and keep disease nouns off the hero image. Piece 29 is the gut-fiber stack that should not share a stick with marathon sodium without a formulation conversation. ODS fact sheets for sodium and potassium are the public numbers to sanity-check your panel before counsel does.

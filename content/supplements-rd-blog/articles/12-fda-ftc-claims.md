@@ -18,7 +18,7 @@ citations:
   - "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/frs-international-llc-606701-06152020"
   - "Mercola.com, LLC — FDA warning letter 607133, 18 Feb 2021"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not legal advice.
@@ -93,7 +93,6 @@ Status (can it be a supplement at all?) is piece 08 and piece 14. Claims are thi
 2. Run the same highlighter on Amazon bullets, emails, affiliate scripts, and the founder podcast.
 3. Counsel + a science/QA seat before the first paid ad. Empty seat is better than a fake MD byline.
 4. Keep the warning-letter RSS in the marketing Slack. Shame is a control.
-
 
 ## Social is labeling, and 2024 did not retire the split
 

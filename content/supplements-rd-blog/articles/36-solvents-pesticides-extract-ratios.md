@@ -14,7 +14,7 @@ citations:
   - "https://www.herbalgram.org (ABC BAPP)"
   - "USP Dietary Supplement Verification / botanical monographs"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93).
@@ -67,23 +67,16 @@ Identity (HPTLC against a reference) **and** a marker assay. Marker alone is how
 A purchasing email that only asks "10:1, 5% marker, best price" is how COVID-era elderberry and ashwagandha lots got cheap (piece 02, piece 07). Write the plant part, the solvent, the native-extract weight, the excipient, the method, and the metals-per-serving math. If the broker cannot answer, you do not have a drum. You have a story that will fail the first grown-up buyer's COA read (piece 16).
 
 
-## Native extract versus maltodextrin
+## Native extract, Class 1 solvents, and the PO that actually asks questions
 
-Ask for native-extract weight and excipient weight separately. A 50:1 that is weak herb plus carrier looks like potency and assays like powder. Solvent on the spec: water vs ethanol is a different chromatogram (ashwagandha, elderberry, turmeric — pieces 07, 02, 23).
+Ask for native-extract weight and excipient weight separately. A 50:1 that is weak herb plus carrier looks like potency and assays like powder. Solvent on the spec: water vs ethanol is a different chromatogram (ashwagandha, elderberry, turmeric — pieces 07, 02, 23). A 10:1 without plant part, solvent, native-extract weight, and marker method is a non-answer.
 
-USP <467> Class 1 detections kill a supplier. Class 2/3 need numbers. Pesticides: method and LOQ, not "conforms." Metals: mcg/day at the labeled dose, because extracts concentrate lead with the marker. Organic ink does not replace the row.
+USP <467> Class 1 solvents (benzene, carbon tetrachloride, and the rest of the "should not be there" list) kill a supplier — not a rounding conversation. Class 2 need numbers; Class 3 are less severe and still need a row if the process used them. "Food-grade ethanol" is still a residual if it is there. Pesticides: method and LOQ, not "conforms." Organic ink does not replace a multi-residue panel.
 
-
-## Class 1 is not a rounding conversation
-
-USP <467> Class 1 solvents (benzene, carbon tetrachloride, and the rest of the "should not be there" list) kill a supplier. Class 2 need numbers. Class 3 are less severe and still need a row if the process used them. "Food-grade ethanol" is still a residual if it is there. Hexane-extracted oils: the number matters more than the adjective.
-
-A 10:1 without plant part, solvent, native-extract weight, and marker method is a non-answer. COVID-era elderberry and ashwagandha POs that only asked "5% marker, best price" are how spiked drums ship (piece 02, piece 07). Extracts concentrate lead with the marker — convert to mcg/day (piece 23, piece 37). Organic ink does not replace a multi-residue pesticide panel with an LOQ.
-
-Write the chromatogram into the PO. If the broker cannot answer, you do not have a drum.
-
-Mycotoxins (aflatoxin, ochratoxin) belong on the same incoming list as pesticides when the crop warrants it — some roots and grains, not every leaf. `[CITE NEEDED]` before you print a crop-specific action level as if it were USP. Marker % without HPTLC identity is how you buy a spiked drum (piece 02, piece 07).
+COVID-era elderberry and ashwagandha POs that only asked "5% marker, best price" are how spiked drums ship (piece 02, piece 07). Extracts concentrate lead with the marker — convert to mcg/day (piece 23, piece 37). Mycotoxins (aflatoxin, ochratoxin) belong on the same incoming list as pesticides when the crop warrants it. `[CITE NEEDED]` before you print a crop-specific action level as if it were USP. Marker % without HPTLC identity is how you buy a spiked drum. Write the chromatogram into the PO. If the broker cannot answer, you do not have a drum.
 
 ## What changed since 2020 (box)
 
 COVID demand (elderberry, ashwagandha) rewarded the cheapest 10:1. ABC's adulteration warning was about that incentive. 2026 purchasing should treat a ratio without a solvent, a plant part, and a marker method as a non-answer. Pay for the chromatogram.
+
+A broker who answers ratio questions in email but not on the COA is the same broker who will disappear when Class 1 solvents show up. Put the plant part, solvent, and method on the purchase order line, not in a footnote. Piece 23 is turmeric lead; piece 07 is ashwagandha extract identity — same purchasing discipline, different botanical.

@@ -15,7 +15,7 @@ citations:
   - "21 CFR 101.9 / 101.36 (mcg DFE)"
   - "21 CFR 101.93"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not prenatal care and not genetic counseling.
@@ -68,22 +68,13 @@ A prenatal is one of the few supplement SKUs with a public-health reason to exis
 If you offer both a folic-acid prenatal and a 5-MTHF prenatal, say why without insulting the CDC molecule. Print mcg DFE. Print the UL logic for supplemental folate. Do not put a neural-tube photo on a DTC page as if the capsule were a procedure.
 
 
-## How a prenatal label gets the units wrong
+## Prenatal labels, units, and the 23andMe screenshot
 
-mcg DFE is the panel unit. Folic acid, when used, is listed separately. A "800 mcg methylfolate" line that ignores DFE math is a 2014 label (piece 35). The UL conversation is about supplemental folic acid masking B12 deficiency, not about food folate.
+mcg DFE is the panel unit; folic acid, when used, is listed separately. An "800 mcg methylfolate" line that ignores DFE math is a 2014 label (piece 35). The UL conversation is about supplemental folic acid masking B12 deficiency — keep B12 in the formula and do not treat food folate as the same molecule on the panel.
 
-If you drop folic acid because of a Shopify MTHFR story, you are arguing with the fortification molecule. Say so in the science folder. Do not say "folic acid is toxic" on a carton. Do not put a neural-tube photo on a DTC page as if the capsule were a procedure.
+A common MTHFR variant is not a diagnosis, not a reason to call folic acid toxic, and not a license to put a neural-tube photo on a Shopify page. If you drop folic acid because of a DTC genetics story, say why in the science folder; you are arguing with the fortification molecule CDC still uses. FTC 2022 plus the 2023 endorsement guides (piece 13, piece 31) will read a DNA-helix ad as a health claim with a genetic hook. Assay the form you printed — a "methylated prenatal" that lists 5-MTHF and assays as folic acid is a COA problem.
 
 Choline, iodine, iron, and D are the other prenatal nouns that got louder after 2020. `[VERIFY]` ACOG/ODS current choline language. Iron belongs in a prenatal and does not belong in a 65+ "women's" multi (piece 26). Those two SKUs should not share art.
-
-
-## What a 23andMe screenshot is not
-
-A common MTHFR variant is not a diagnosis, not a reason to call folic acid toxic, and not a license to put a neural-tube photo on a Shopify page. CDC's folic-acid materials have addressed the variant question in plain language: people with MTHFR variants can still process folic acid. `[VERIFY]` the live wording if you quote it.
-
-FTC 2022 plus the 2023 endorsement guides (piece 13, piece 31) will read a DNA-helix ad as a health claim with a genetic hook. The substantiation file is the fortification trials and the CDC dose — folic acid — unless you are in a clinic arguing a specific exception.
-
-Assay the form you printed. A "methylated prenatal" that lists 5-MTHF and assays as folic acid is a COA problem. mcg DFE on the panel (piece 35). B12 in the same formula, because the UL conversation is about masking deficiency, not about winning a Reddit argument.
 
 ## What changed since 2020 (box)
 

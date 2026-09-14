@@ -15,7 +15,7 @@ citations:
   - "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/"
   - "FDA warning letter 607133 (Mercola, 18 Feb 2021) — liposomal C/D3 sold with COVID intended use"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93).
@@ -78,7 +78,7 @@ Liposomal vitamin D and "liposomal glutathione" are even thinner. Glutathione or
 
 ## Other form fights worth having
 
-- **Folate vs folic acid vs methylfolate.** Different molecules. MTHFR marketing is usually ahead of the clinical need. Piece 13.
+- **Folate vs folic acid vs methylfolate.** Different molecules. MTHFR marketing is usually ahead of the clinical need. Piece 25; the quiz lane is piece 13.
 - **Vitamin D2 vs D3.** D3 raises 25(OH)D more efficiently in most humans. That is older than this pack.
 - **Omega-3 triglycerides vs ethyl esters vs phospholipids.** EE need a fatty meal; the REDUCE-IT/STRENGTH products are *drugs* at 4 g (piece 04). A krill oil SKU does not inherit Vascepa.
 - **Curcumin with piperine vs phytosome vs "self-emulsifying."** Piperine changes metabolism of *other drugs* too. That is a safety fact, not a boast.

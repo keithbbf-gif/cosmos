@@ -14,7 +14,7 @@ citations:
   - "https://www.herbalgram.org (ABC BAPP; Blumenthal comments via New Hope 2020)"
   - "21 CFR 111"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93).
@@ -36,7 +36,7 @@ I do not have a single federal time series that says "vitamin D3 API lead time w
 
 **Freight.** Container rates and port dwell times in 2020–2022 are documented in freight indices. `[VERIFY]` a specific Drewry or Freightos number if you put it on a slide. The operator fact: landed cost of a commodity vitamin moved more because of the box than because of the molecule.
 
-**Packaging.** PET bottles, desiccants, foil, and empty capsules (the gelatin/HPMC plants) had their own shortages. Brands reformulated from two-piece capsules to tablets because that was what the CMO had on the calendar, then forgot to redo disintegration and the label.
+**Packaging.** PET bottles, desiccants, foil, and empty capsules (the gelatin/HPMC plants) had their own shortages. Brands reformulated from two-piece capsules to tablets because that was what the CMO had on the calendar, then forgot to redo disintegration testing and the label.
 
 **Labor and inspections.** Extra shifts, new temps, FDA not walking the floor (New Hope, 2020). Deviations that would have been caught in a slower year became lots.
 

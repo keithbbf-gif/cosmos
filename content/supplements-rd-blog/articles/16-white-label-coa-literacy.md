@@ -15,7 +15,7 @@ citations:
   - "https://www.usp.org/verification-services/dietary-supplements-verification-program"
   - "https://www.nsfsport.com/"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not legal advice and not an audit.
@@ -86,7 +86,7 @@ You do not "receive" specs from a COA. You write them (or approve the CMO's) in 
 - Pesticides on botanicals.
 - Allergens if the line is mixed.
 
-If the CMO's COA has no spec column, only "results," you cannot tell a pass from a vibe.
+If the CMO's COA has no spec column — only "results" — you cannot tell a pass from a vibe.
 
 ## Tricks that survive a Shopify launch
 

@@ -15,7 +15,7 @@ citations:
   - "FDA NDIN master files draft guidance, announced 3 Apr 2024; 89 FR 23599 (4 Apr 2024); docket FDA-2024-D-0706"
   - "NMN NDIN ack/exclusion letters 2022; citizen-petition responses 29 Sep 2025"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not legal advice and not an NDIN.
@@ -66,20 +66,13 @@ Urolithin A, next year's postbiotic isolate, a new synthetic "bioidentical" — 
 - If you are referencing a 2024-style master file: the authorization letter, not a screenshot of someone else's NDIN number.
 
 
-## Identity of the article
+## Identity, master files, and filing is not a finding
 
 CAS, spec, impurity profile, particle size if it matters, residual solvents if synthesized, expected intake — not a mouse LD50. A notification that describes 50 mg and a label that says 500 mg is a different article. A second plant is a second story. A master-file authorization is a letter, not a Slack screenshot.
 
-Amazon listings are not 1994 marketing evidence. Self-affirmed GRAS is not an NDIN. NMN's 2022 ack-then-exclusion and 2025 reinterpretation are the teaching case (piece 08). NAC is exclusion plus discretion (piece 17). CBD never cleared the definition (piece 14). File them in three folders.
-
-
-## Filing is not a finding — the NMN teaching case
-
 Kingdomway-class NDIN acknowledgments in 2022 were procedural. FDA then sent exclusion letters on §201(ff)(3)(B). September 2025 petition answers reinterpreted marketing history. None of that is a safety finding, and none of it is an NDIN you can skip (piece 08). NAC is still exclusion plus discretion (piece 17). CBD never cleared the definition (piece 14). Three ingredients, three folders.
 
-A 2024 master file (89 FR 23599, docket FDA-2024-D-0706) is voluntary. It lets a manufacturer authorize others to reference identity, manufacturing, or safety data. It does not waive 75 days. An authorization letter you cannot produce is not a master file.
-
-Amazon listings are not 1994 marketing evidence. Self-affirmed GRAS is not an NDIN. A second plant is a second article. Launch week is not day 10.
+A 2024 master file (89 FR 23599, docket FDA-2024-D-0706) is voluntary. It lets a manufacturer authorize others to reference identity, manufacturing, or safety data. It does not waive 75 days. Amazon listings are not 1994 marketing evidence. Self-affirmed GRAS is not an NDIN. Launch week is not day 10.
 
 ## What changed since 2020 (box)
 

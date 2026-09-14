@@ -2,7 +2,7 @@
 
 Voice is the product. A clinician-curious operator or a white-label founder should finish a piece and trust the sourcing. If it sounds like a wellness SEO mill, it fails even when the citations are real.
 
-`voice_check: human` in front matter means the draft was written against this file, not that a model is claiming to be a person.
+`voice_check: human` means the draft was written against this file. `voice_check: edited` means an editor pass (grammar, voice bans, figure hygiene) on top — neither flag claims a human byline.
 
 ## Who is speaking
 

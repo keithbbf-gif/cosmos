@@ -17,7 +17,7 @@ citations:
   - "https://www.mdpi.com/2072-6643/17/17/2748"
   - "https://www.tandfonline.com/doi/full/10.1080/15502783.2025.2586523"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not a prescription for kidney disease, diabetes, or sarcopenia treatment.
@@ -51,7 +51,7 @@ Kreider et al., ISSN 2017 position stand (PMID 28615996; PMC5469049): creatine m
 
 A *Nutrients* systematic review and meta-analysis (2025, 17(17), 2748) pooled 69 RCTs (1,937 people) on creatine plus training vs placebo. Small but statistically significant bumps: bench/chest press +1.43 kg, squat +5.64 kg, vertical jump +1.48 cm, Wingate peak +47.8 W. Leg press and handgrip did not clear significance in the main model. **Subgroups:** younger adults showed the strength increases; older adults as a group did not in that split. Men showed several of the power/strength increases; **women as a group did not** in that analysis.
 
-Read that twice before you write a women's creatine ad. It is not "creatine does nothing in women." It is: this pool, these endpoints, this split, no significant mean effect. Women were under-represented in the creatine literature for decades. A 2025 meta cannot invent the missing trials. It can stop you from pasting male point estimates onto a pink tub.
+Read that twice before you write a women's creatine ad. It is not "creatine does nothing in women." It is: this pool, these endpoints, this split, no significant mean effect. Women were underrepresented in the creatine literature for decades. A 2025 meta cannot invent the missing trials. It can stop you from pasting male point estimates onto a pink tub.
 
 A 2025 *JISSN* dose-response meta (doi 10.1080/15502783.2025.2586523) looked at body-mass and FFM in trained vs untrained lifters. Both groups gained body mass and FFM on creatine plus training; between-group differences were small. I am not going to over-quote their kilograms here — open the paper if you put them on a spec sheet. `[VERIFY]` any exact FFM delta against the table.
 

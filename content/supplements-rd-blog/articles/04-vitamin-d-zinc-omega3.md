@@ -22,7 +22,7 @@ citations:
   - "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/"
   - "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). Prescription fish-oil drugs are not dietary supplements.
@@ -46,7 +46,7 @@ A later writeup (Manson et al., PMC7089819) flagged a possible cancer-*mortality
 
 **What a 2026 label can carry.** Nutrient content. "Helps maintain vitamin D status." Bone and muscle structure/function language *if* your substantiation file matches ODS/Endocrine Society-type evidence and counsel signs it. Not: cancer, COVID, "the sunshine vitamin vs. the virus."
 
-People who are actually deficient still need a clinician and a lab value. Population RCTs in already-replete older US adults are a poor way to argue about a 25(OH)D of 12 ng/mL.
+People with documented deficiency still need a clinician and a lab value. Population RCTs in already-replete older US adults are a poor way to argue about a 25(OH)D of 12 ng/mL.
 
 ## Zinc — one honest COVID RCT, an older cold literature
 
