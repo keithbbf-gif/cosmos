@@ -23,7 +23,7 @@ images:
   source: ours
   folder_pick: Damaged Cuttings
 status: draft
-voice_check: human
+voice_check: edited
 pillar: mosaic
 priority: 17
 zone: 8a
@@ -112,7 +112,7 @@ We look at dirt. A puddle after a two-inch rain is not a virus.
 
 We ask whether the tree grew and finished fruit last year. If yes, the protocol is a bowl. If no, the protocol is a replacement and a better hole, not a jug.
 
-We do not walk to the farm store on that same trip if the only problem is paint. The aisle wants us confused. Confusion sells an “immune booster,” a fruit-tree systemic, and a bottle that says organic like that is a lab. I will not write those onto a painted stool.
+We do not walk to the farm store on that same trip if the only problem is paint. The aisle wants us confused. Confusion sells an “immune booster,” a fruit-tree systemic, and a bottle that says *organic* like the word is a lab report. I will not write those onto a painted stool.
 
 If the plant is a first-year pot on a greenhouse bench, we still do not run a heat-lamp protocol. We check the thermostat on the mat if we are rooting sticks. We do not solarize a living tree in a black pot on gravel and call it clean-up. I have cooked sticks. I have not cleaned wood.
 

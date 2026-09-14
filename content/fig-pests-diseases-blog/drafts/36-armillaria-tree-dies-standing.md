@@ -24,7 +24,7 @@ images:
   source: ours
   folder_pick: Damaged Cuttings
 status: draft
-voice_check: human
+voice_check: edited
 pillar: diagnosis
 priority: 36
 zone: 8a

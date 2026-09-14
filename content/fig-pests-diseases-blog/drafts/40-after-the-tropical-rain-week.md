@@ -23,7 +23,7 @@ images:
   source: ours
   folder_pick: Figs
 status: draft
-voice_check: human
+voice_check: edited
 pillar: cultural
 priority: 40
 zone: 8a

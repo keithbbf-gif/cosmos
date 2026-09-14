@@ -23,7 +23,7 @@ images:
   source: ours
   folder_pick: Outdoor
 status: draft
-voice_check: human
+voice_check: edited
 pillar: rust
 priority: 11
 zone: 8a

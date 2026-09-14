@@ -6,7 +6,7 @@ Scope: `content/fig-pests-diseases-blog/` only. Every article: **`status: draft`
 
 The cuttings magazine pack already has short takes on nematodes, rust, and birds. These drafts go deeper. They do not paste those essays.
 
-Quality bar: human PapaFig voice, no fake cures (`CLAIMS_GUARDRAILS.md`), 1,100–1,600 words. **45 drafts. 61,497 body words. Mean 1,367.**
+Quality bar: human PapaFig voice, no fake cures (`CLAIMS_GUARDRAILS.md`), 1,100–1,600 words. **45 drafts. 61,497 body words. Mean 1,367.** Editor pass: `EDITOR_REPORT.md`; drafts carry `voice_check: edited`.
 
 | # | Title | Slug | Pillar | Words | File |
 |---|---|---|---|---:|---|

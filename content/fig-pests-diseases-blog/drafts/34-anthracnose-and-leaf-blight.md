@@ -24,7 +24,7 @@ images:
   source: ours
   folder_pick: Figs-summer-23
 status: draft
-voice_check: human
+voice_check: edited
 pillar: diagnosis
 priority: 34
 zone: 8a

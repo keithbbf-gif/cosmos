@@ -25,7 +25,7 @@ images:
   source: ours
   folder_pick: Outdoor
 status: draft
-voice_check: human
+voice_check: edited
 pillar: wildlife
 priority: 29
 zone: 8a
@@ -54,7 +54,7 @@ If you only say “wildlife got them,” you will hang tape for a raccoon and fo
 
 They sample unripe. They waste. They cut netting. An Oregon master gardener told a homeowner to net, cinch, check daily, and if needed add a **two-foot metal collar** about six feet up on an isolated trunk. Isolated is the job. A fig that touches a fence, a shed, or another canopy is a bridge. The collar becomes jewelry.
 
-I have cinched net and found a hole the next morning. I have also had weeks squirrels ignored a tree because a pecan was louder. I do not forecast squirrels. I forecast whether the tree is a ladder.
+Squirrels will chew a tight cinch if they want in. I have found fresh holes after a night I thought the skirt was honest. I have also had weeks they ignored a fig because a pecan was louder. I do not forecast squirrels. I forecast whether the tree is a ladder.
 
 Hot pepper sprays are a mood in rain. 8a rain laughs. A two-inch Gulf leftover washes the sermon off the fruit. I will not sell a weekly capsaicin religion.
 

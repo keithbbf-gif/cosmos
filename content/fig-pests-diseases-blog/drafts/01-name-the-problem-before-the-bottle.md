@@ -26,7 +26,7 @@ images:
   source: ours
   folder_pick: Fig Fruit
 status: draft
-voice_check: human
+voice_check: edited
 pillar: diagnosis
 priority: 1
 zone: 8a
@@ -81,7 +81,7 @@ I will not write you a rust cure for a leaf that is already orange. UF/IFAS said
 
 I will not write you a mosaic cure. UC IPM is blunt. There is no practical control on a house tree except live with it or replace a tree that will not perform. Oils may bother mites. They do not evict a virus.
 
-I will not write you a nematode drench that “clears the soil.” NC State’s fig-disease talk, as we have been using it on FigRoots, is that established plants do not get a homeowner chemical reset. Pots. Clean stock. Do not donate a rare cutting to that hole. [An Introduction to Figs](https://figroots.com/an-introduction-to-figs/) already told you not to root in mystery yard dirt.
+I will not write you a nematode drench that “clears the soil.” NC State extension fig guidance — the same file we cite elsewhere on FigRoots — is that established plants do not get a homeowner chemical reset. Pots. Clean stock. Do not donate a rare cutting to that hole. [An Introduction to Figs](https://figroots.com/an-introduction-to-figs/) already told you not to root in mystery yard dirt.
 
 I will not write you a beetle fog for fruit you plan to eat tonight. Sanitation and a morning pick beat a residue argument.
 

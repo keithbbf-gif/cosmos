@@ -24,7 +24,7 @@ images:
   source: ours
   folder_pick: More Fig Pictures
 status: draft
-voice_check: human
+voice_check: edited
 pillar: rust
 priority: 8
 zone: 8a

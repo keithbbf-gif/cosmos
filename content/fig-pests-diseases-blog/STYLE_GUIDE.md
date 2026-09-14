@@ -88,7 +88,7 @@ zone: 8a
 ---
 ```
 
-`status: draft` is the staging rule. Do not set `publish`. `voice_check: human` is a claim. If the prose is generic, change the prose.
+`status: draft` is the staging rule. Do not set `publish`. `voice_check: human` is the author’s first-pass claim. After editor review, set `voice_check: edited`. If the prose is generic, change the prose — do not only flip the flag.
 
 ## Length
 

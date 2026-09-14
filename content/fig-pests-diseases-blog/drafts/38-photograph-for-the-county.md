@@ -23,7 +23,7 @@ images:
   source: ours
   folder_pick: Fig Fruit
 status: draft
-voice_check: human
+voice_check: edited
 pillar: diagnosis
 priority: 38
 zone: 8a
@@ -58,13 +58,13 @@ When it started. Not “a while.” A week, a month, last August and again this 
 
 Rain that week. A tropical leftover. A dry wind. Irrigation you added after you forgot them for ten days.
 
-Whether fruit is involved. Leaf only is one bucket. Fruit only is another. Both is a week, not one Latin name.
+Fruit involved or not. Leaf-only is one bucket. Fruit-only is another. Both at once is a week, not one Latin name.
 
 Age of the tree. First year in the hole is not a twenty-year Celeste.
 
 Pot or ground. Mix you bought or dirt you inherited. Last year’s tomatoes, okra, tobacco. LSU already said that ground is a root-knot conversation.
 
-Whether you already sprayed, and what. Clinics hate guessing under a film. Oil, soap, a “fruit tree” jug, a copper you cannot name — say it. Date it.
+What you sprayed, if anything, and when. Clinics hate guessing under a film. Oil, soap, a “fruit tree” jug, a copper you cannot name — say it. Date it.
 
 Variety if you believe the tag. County. 8a is not a site. Your sand or clay is a site. Shade from a metal building is a site. A pot block on gravel is a site.
 
