@@ -1,7 +1,7 @@
 ---
 title: "Four to six months: cooing, raspberries, taking turns"
 slug: four-to-six-months-cooing-turns
-meta_description: By 4 months CDC looks for cooing and sounds back. By 6 months, raspberries, squeals, and sound-taking turns.
+meta_description: By 4 months CDC looks for cooing and sounds back. By 6 months, raspberries, squeals, and turn-taking with sounds.
 series: slp-pediatric-milestones
 type: age-band
 audience: parents

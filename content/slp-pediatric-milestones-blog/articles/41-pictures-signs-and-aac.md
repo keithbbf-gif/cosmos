@@ -31,7 +31,7 @@ If we give them pictures, they will not talk.
 
 Romski and Sevcik (2005) wrote about AAC myths in early intervention for a reason. Families still hear the sentence in parking lots. The usual clinical counter — and ASHA’s public tone — is: people use the method that works; having another method does not steal the mouth; many children use AAC **and** speech; some children need AAC as their voice for a long time. That last group deserves respect, not a promise that the device is temporary.
 
-This series will not promise that AAC “opens the door to speech.” It will not promise that it never does. Outcomes are individual. Marketing is not.
+This series will not promise that AAC will make speech appear on a schedule. It will not promise that it never does. Outcomes are individual. Marketing is not.
 
 ## Who decides
 

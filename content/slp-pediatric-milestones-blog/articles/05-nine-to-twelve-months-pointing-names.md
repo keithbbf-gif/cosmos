@@ -31,7 +31,7 @@ Notice what the lists will not do. They will not demand a ten-word vocabulary. T
 
 ## A wave is not a cute extra — it is the sentence
 
-Bye-bye is a social script. It has a moment (someone is leaving), a body shape, and often a word from you. CDC put it on the communication line because it is a symbol. The baby is referring to an event, not just grabbing a cookie.
+Bye-bye is a social script. It has a moment (someone is leaving), a body shape, and often a word from you. CDC put it on the communication line because it is a symbol. The baby is referring to an event, not only reaching for a cookie.
 
 If there is no wave, look at the rest of the gesture set. Do they show you a toy? Hold something out? Shake the head? ASHA treats that cluster as the late-first-year work. Essay 17 stays with gestures. Identify the Signs asks families to notice few gestures around the first birthday. That is a conversation prompt, not a label.
 
