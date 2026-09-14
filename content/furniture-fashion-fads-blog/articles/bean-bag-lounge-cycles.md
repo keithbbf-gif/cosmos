@@ -4,8 +4,8 @@ slug: bean-bag-lounge-cycles
 category: furniture
 status: draft
 graphics: true
-voice_check: human
-word_count: 1052
+voice_check: edited
+word_count: 1133
 ---
 
 # Bean Bags Never Left, They Just Hid

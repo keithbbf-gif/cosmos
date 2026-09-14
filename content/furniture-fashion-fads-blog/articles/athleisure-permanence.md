@@ -4,8 +4,8 @@ slug: athleisure-permanence
 category: fashion
 status: draft
 graphics: true
-voice_check: human
-word_count: 802
+voice_check: edited
+word_count: 868
 ---
 
 # Did Athleisure Break the Fad Clock?

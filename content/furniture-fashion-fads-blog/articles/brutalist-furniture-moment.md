@@ -4,8 +4,8 @@ slug: brutalist-furniture-moment
 category: furniture
 status: draft
 graphics: true
-voice_check: human
-word_count: 1176
+voice_check: edited
+word_count: 1229
 ---
 
 # Brutalist Furniture's Short Hot Streak

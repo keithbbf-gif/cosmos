@@ -4,8 +4,8 @@ slug: avocado-green-appliance-era
 category: furniture
 status: draft
 graphics: true
-voice_check: human
-word_count: 1049
+voice_check: edited
+word_count: 1128
 ---
 
 # Avocado Green and the Appliance Time Stamp

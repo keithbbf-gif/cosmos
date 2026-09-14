@@ -4,8 +4,8 @@ slug: coquette-bow-moment
 category: fashion
 status: draft
 graphics: true
-voice_check: human
-word_count: 899
+voice_check: edited
+word_count: 906
 ---
 
 # Coquette Bows and Hyper-Feminine Micro-Trends

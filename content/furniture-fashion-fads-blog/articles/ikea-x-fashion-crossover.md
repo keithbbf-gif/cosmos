@@ -4,8 +4,8 @@ slug: ikea-x-fashion-crossover
 category: cross
 status: draft
 graphics: true
-voice_check: human
-word_count: 951
+voice_check: edited
+word_count: 976
 ---
 
 # When IKEA Dressed Like a Fashion Label
@@ -33,6 +33,6 @@ MARKERAD is the crossover people mean when they say IKEA dressed like a fashion 
 
 Room tours finished the costume change. Once phones could walk a flat-pack apartment in one take, the IKEA room stopped being a catalog spread and became an outfit you wore on camera. The Billy, the MALM, the SÖDERHAMN — those names behave like SKUs on a lookbook page. Influencers did not need a designer collab to style IKEA as fashion. They needed a wide lens and a Saturday.
 
-A shop that still sells a chair as a chair — bbfur would rather do that than sell a caption — looks almost stubborn next to MARKERAD. Stubborn is useful. The FRAKTA still carries bricks. The Wørts sideboard, if you can find one that was not particleboard to begin with, still holds dishes. Abloh's cabinet is a good object and a better story. The story is what yellows.
+A shop that still sells a chair as a chair — bbfur would rather do that than sell a caption — looks stubborn next to MARKERAD. Stubborn still helps. The FRAKTA still carries bricks. The Wørts sideboard, if you can find one that was not particleboard to begin with, still holds dishes. Abloh's cabinet is a good object and a better story. The story is what yellows.
 
 Do not invent the rest. There will be lists online that date IKEA against every Copenhagen label that ever used yellow and blue. If the year is not in an IKEA release, a museum caption, or a trade piece that quotes one, leave it blank or mark it. The catalog-as-lookbook is the long fact. MARKERAD in 2019 is the short one. HAY's YPPERLIG in 2017 is the Danish design fact that sits next to fashion without stealing a fashion week. That is enough history to stand on. The rest is mood boarding.

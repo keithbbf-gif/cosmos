@@ -4,8 +4,8 @@ slug: boucle-upholstery-wave
 category: furniture
 status: draft
 graphics: true
-voice_check: human
-word_count: 909
+voice_check: edited
+word_count: 964
 ---
 
 # Bouclé: Texture of the Moment
