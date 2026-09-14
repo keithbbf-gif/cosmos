@@ -31,7 +31,12 @@ that omits what it serves is an undocumented surface, not a short one):
                            UPS-JUDGE is NAMED, not invented.
     GET /api/v1/fleet    - cDeck FLEET + host-volume projection (disk binders)
     GET /api/v1/nodemap  - cDeck NODE MAP projection (registry + heartbeats)
-    GET /api/v1/jukebox  - rich job/queue fold (command, priority, stale flag)
+    GET /api/v1/jukebox  - scheduler jobs/counts fold. Legal words:
+                           QUEUED RUNNING BROKE CLEAN FINDINGS. stale is a
+                           flag (report-never-retry), never a sixth outcome.
+                           Documented shape: jobs[] + counts{} + queue{}
+                           aliases for Gitur/Review/Runs. GET never mutates.
+                           Uncomposed binder stays 503 CDECK_PANEL_NOT_COMPOSED.
     GET /api/v1/model_rater - OpenRouter catalog + seat assignments (local cache)
                            ?type=docs = text out, text/file/image in (cards cut).
     GET /api/v1/model_rater/roles - named COSMOS roles (ORC, CCr, MOTIF, Crucible)
@@ -420,11 +425,13 @@ def _cdeck_panel_get(mod: str):
     return getattr(importlib.import_module(mod), "handle_get")
 
 
-def _cdeck_panel_invoke(hg, root, *, expected_tree_id, query=None):
+def _cdeck_panel_invoke(hg, root, *, expected_tree_id, query=None, kernel=None):
     """Call a binder with only the kwargs its handle_get accepts.
 
-    Recents takes query= (open= / id=). Fleet / nodemap / jukebox do not —
-    passing query= is TypeError, swallowed as 503 CDECK_PANEL_NOT_COMPOSED.
+    Recents takes query= (open= / id=). Jukebox accepts kernel= so /jukebox
+    and /jobs share one Scheduler projection. Extra kwargs the binder does
+    not declare are omitted — passing query= to fleet is TypeError, swallowed
+    as 503 CDECK_PANEL_NOT_COMPOSED.
     """
     import inspect
     params = inspect.signature(hg).parameters
@@ -433,6 +440,8 @@ def _cdeck_panel_invoke(hg, root, *, expected_tree_id, query=None):
         kw["expected_tree_id"] = expected_tree_id
     if "query" in params:
         kw["query"] = query
+    if "kernel" in params:
+        kw["kernel"] = kernel
     return hg(root, **kw)
 
 
@@ -905,7 +914,7 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                         q = parse_qs(parsed.query)
                     code, body = _cdeck_panel_invoke(
                         hg, kernel.paths.root,
-                        expected_tree_id=tid, query=q)
+                        expected_tree_id=tid, query=q, kernel=kernel)
                 except Exception as e:  # noqa: BLE001
                     return self._send(503, {
                         "error": "CDECK_PANEL_NOT_COMPOSED",
