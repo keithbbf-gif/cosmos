@@ -10,6 +10,7 @@ export type RefusalKind =
   | "SCHEMA_UNKNOWN"
   | "NO_TOKEN"
   | "CORE_UNREACHABLE"
+  | "CORE_TIMEOUT"
   | "BAD_ARGS"
   | "UNMEASURED"
   | (string & {}); // HTTP_<code> is minted at the call site

@@ -13,7 +13,8 @@ import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 
 import { loadConfig } from "../src/config.ts";
-import { RECENTS_SCHEMA } from "../src/core.ts";
+import { CORE_CONNECT_MS, coreGet, RECENTS_SCHEMA, type FetchLike } from "../src/core.ts";
+import { SessionPluginRefusal } from "../src/refusals.ts";
 import { readVerified } from "../src/transcript.ts";
 import { mcpCallTool, mcpListTools, runTool, SESSION_TOOLS } from "../src/tools.ts";
 import type { ToolResult } from "../src/tools.ts";
@@ -148,6 +149,34 @@ async function main(): Promise<number> {
     await check("a dead Core is CORE_UNREACHABLE, not an empty list", async () =>
       (await run("session.list", {}, { COSMOS_CORE_URL: "http://127.0.0.1:1" })).kind ===
         "CORE_UNREACHABLE");
+    await check("a wedged Core (no response) is CORE_TIMEOUT, not an indefinite hang", async () => {
+      const wedged = createServer(() => {
+        /* accept, never write — wedged Core */
+      });
+      const base = await new Promise<string>((resolve) => {
+        wedged.listen(0, "127.0.0.1", () => {
+          const addr = wedged.address();
+          const port = typeof addr === "object" && addr ? addr.port : 0;
+          resolve(`http://127.0.0.1:${port}`);
+        });
+      });
+      const cfg = loadConfig({ COSMOS_CORE_URL: base });
+      const t0 = Date.now();
+      try {
+        await coreGet(cfg, "/api/v1/recents", {}, globalThis.fetch as unknown as FetchLike);
+        return false;
+      } catch (e) {
+        const ms = Date.now() - t0;
+        return (
+          e instanceof SessionPluginRefusal &&
+          e.kind === "CORE_TIMEOUT" &&
+          ms >= CORE_CONNECT_MS - 100 &&
+          ms < CORE_CONNECT_MS + 800
+        );
+      } finally {
+        wedged.close();
+      }
+    });
 
     // --- session.read ---
     const read = await run("session.read", { id: "cow-abc" }, fileEnv);

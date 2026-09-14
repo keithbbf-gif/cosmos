@@ -7,11 +7,26 @@ import { refuse, scrub, SessionPluginRefusal } from "./refusals.ts";
 export const RECENTS_PATH = "/api/v1/recents";
 export const RECENTS_SCHEMA = "cdeck-recents/1";
 
-export type FetchLike = (url: string, init?: { headers?: Record<string, string> }) => Promise<{
+export type FetchLike = (
+  url: string,
+  init?: { headers?: Record<string, string>; signal?: AbortSignal },
+) => Promise<{
   status: number;
   json: () => Promise<unknown>;
   text: () => Promise<string>;
 }>;
+
+/** Time to receive response headers from Core. Matches KDash GET budget split (connect leg). */
+export const CORE_CONNECT_MS = 3_000;
+/** Time to read the response body after headers. Matches cvm-dt FAST_READ_S / KDash GET polls. */
+export const CORE_READ_MS = 8_000;
+
+function timedOut(e: unknown): boolean {
+  if (!(e instanceof Error)) return false;
+  if (e.name === "AbortError") return true;
+  const cause = (e as Error & { cause?: unknown }).cause;
+  return cause instanceof Error && cause.name === "AbortError";
+}
 
 export type CoreResponse = { status: number; body: Record<string, unknown> };
 
@@ -35,17 +50,40 @@ export async function coreGet(
   }
   const qs = new URLSearchParams(query).toString();
   const url = `${cfg.coreUrl}${path}${qs ? `?${qs}` : ""}`;
+  const connectCtl = new AbortController();
+  const connectTimer = setTimeout(() => connectCtl.abort(), CORE_CONNECT_MS);
   let res: Awaited<ReturnType<FetchLike>>;
   try {
-    res = await fetchImpl(url, { headers: headers(cfg) });
+    res = await fetchImpl(url, { headers: headers(cfg), signal: connectCtl.signal });
   } catch (e) {
+    if (timedOut(e)) {
+      refuse(
+        "CORE_TIMEOUT",
+        scrub(`${url}: no response within ${CORE_CONNECT_MS}ms`, [cfg.token]),
+      );
+    }
     refuse("CORE_UNREACHABLE", scrub(`${url}: ${(e as Error).message}`, [cfg.token]));
+  } finally {
+    clearTimeout(connectTimer);
   }
   let body: unknown;
+  let readTimer: ReturnType<typeof setTimeout> | undefined;
   try {
-    body = await res.json();
-  } catch {
+    body = await Promise.race([
+      res.json(),
+      new Promise<never>((_, reject) => {
+        readTimer = setTimeout(() => {
+          reject(Object.assign(new Error("body read timed out"), { name: "AbortError" }));
+        }, CORE_READ_MS);
+      }),
+    ]);
+  } catch (e) {
+    if (timedOut(e)) {
+      refuse("CORE_TIMEOUT", scrub(`${url}: body read exceeded ${CORE_READ_MS}ms`, [cfg.token]));
+    }
     body = {};
+  } finally {
+    if (readTimer !== undefined) clearTimeout(readTimer);
   }
   const obj = (body && typeof body === "object" ? body : {}) as Record<string, unknown>;
   if (res.status !== 200) {
