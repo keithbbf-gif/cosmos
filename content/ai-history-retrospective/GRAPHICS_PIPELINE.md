@@ -2,12 +2,20 @@
 
 **Owner:** GRAPHICS agent · **Tree:** `content/ai-history-retrospective/` · **Status:** staged only (not wired to publish CMS).
 
+## Quality bar (quality over speed)
+
+- **Fewer, excellent figures** beat article clutter. Default: **shared era map + at most one** article-specific figure (timeline *or* lab map, not both unless COPY proves both essential).
+- **Archival-grade** means double rules, restrained typography, explicit “schematic / not to scale” where curves or bands are qualitative, and figure IDs in the footer (e.g. G-ERA-001).
+- **Portrait plates** use hatched voids, “No likeness reproduced,” and **never** silhouettes, bust clip-art, or generative faces. Raster only after `PORTRAIT_SOURCES.md` clearance.
+- **Do not ship** a diagram that duplicates a shared figure with weaker art; link the shared asset instead.
+- New slugs: propose figures in `GRAPHICS_CHECKLIST.md` before drawing; reviewer gate is “would this hold up in a print annual?”
+
 ## Deliverables per article slug
 
 | Artifact | Path pattern | Notes |
 |----------|--------------|--------|
-| Era strip / local timeline | `assets/<slug>/timeline.svg` | Anchors article dates to master era map |
-| Lab / school diagram | `assets/<slug>/labs-schools.svg` | Optional when article covers institutions |
+| Era strip / local timeline | `assets/<slug>/timeline.svg` | Only when dates need detail beyond G-ERA-001 |
+| Lab / school diagram | `assets/<slug>/labs-schools.svg` | At most one per article; skip if prose suffices |
 | Portrait plate | `assets/<slug>/portrait-plate.svg` | Figure articles only; see portrait rules |
 | Embed pack | `staged/embeds/<slug>.md` | Copy-ready Markdown: `figure` + caption |
 

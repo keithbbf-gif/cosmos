@@ -1,9 +1,6 @@
 # Embed pack — first-ai-winter
 
 ```markdown
-![Context band for the first AI winter and policy shifts.](../../assets/first-ai-winter/funding-band.svg)
-*Figure 1. First AI winter in policy and funding context.*
-
-![Series schematic of AI winters and summers.](../../assets/shared/ai-winter-summer-schematic.svg)
-*Figure 2. AI winters and summers (illustrative schematic).*
+![Archival schematic of AI funding and attention with labeled winter valleys and recent summer.](../../assets/shared/ai-winter-summer-schematic.svg)
+*Figure 1. AI winters and summers — qualitative schematic (G-WIN-001). Pair with prose on Lighthill and DARPA shifts; not a quantitative chart.*
 ```

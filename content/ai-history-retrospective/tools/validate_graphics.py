@@ -12,6 +12,11 @@ ASSETS = ROOT / "assets"
 
 HTTP_IMAGE = re.compile(r'(?:href|xlink:href)\s*=\s*["\']https?://', re.I)
 PORTRAIT_IMAGE = re.compile(r"<image\b", re.I)
+SKIP_NAMES = {"archival-defs.svg", "portrait-plate.svg"}
+
+
+def is_portrait_plate(path: Path) -> bool:
+    return path.parent.name.startswith("figure-") and path.name == "portrait-plate.svg"
 
 
 def check_svg(path: Path) -> list[str]:
@@ -21,13 +26,19 @@ def check_svg(path: Path) -> list[str]:
         errs.append("missing viewBox")
     if HTTP_IMAGE.search(text):
         errs.append("external HTTP image reference")
+    if "<desc" not in text and path.name not in SKIP_NAMES:
+        errs.append("missing desc (accessibility + archival caption source)")
     try:
         ET.parse(path)
     except ET.ParseError as exc:
         errs.append(f"XML parse: {exc}")
-    if "portrait" in path.name or path.parent.name.startswith("figure-"):
-        if PORTRAIT_IMAGE.search(text) and "rights not cleared" not in text:
-            errs.append("portrait SVG contains <image> but no rights placeholder text")
+    if is_portrait_plate(path):
+        if PORTRAIT_IMAGE.search(text):
+            errs.append("portrait plate must not embed raster image until rights cleared")
+        if "rights not cleared" not in text.lower():
+            errs.append('portrait plate must state "rights not cleared"')
+        if "no likeness reproduced" not in text.lower():
+            errs.append('portrait plate must state "No likeness reproduced"')
     return errs
 
 
@@ -36,9 +47,11 @@ def main() -> int:
         print(f"assets missing: {ASSETS}", file=sys.stderr)
         return 1
     failed = 0
+    counted = 0
     for svg in sorted(ASSETS.rglob("*.svg")):
         if "_templates" in svg.parts:
             continue
+        counted += 1
         problems = check_svg(svg)
         if problems:
             failed += 1
@@ -46,8 +59,7 @@ def main() -> int:
     if failed:
         print(f"\n{failed} file(s) failed validation.")
         return 1
-    count = len(list(ASSETS.rglob("*.svg"))) - len(list((ASSETS / "_templates").rglob("*.svg")))
-    print(f"OK — {count} SVG(s) under assets/ (excluding _templates).")
+    print(f"OK — {counted} production SVG(s) under assets/ (excluding _templates).")
     return 0
 
 

@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 280" role="img" aria-labelledby="t">
- <title id="t">Symbolic AI lab lineage</title>
- <rect width="600" height="280" fill="#f4f0e8"/>
- <text x="300" y="28" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#2a241c">Symbolic AI &#183; institutional lineage (1960s-1970s)</text>
- <rect x="40" y="70" width="150" height="50" fill="#ebe4d6" stroke="#6b6358"/><text x="115" y="100" text-anchor="middle" font-family="Georgia, serif" font-size="11">MIT AI Lab</text>
- <rect x="225" y="70" width="150" height="50" fill="#ebe4d6" stroke="#6b6358"/><text x="300" y="100" text-anchor="middle" font-family="Georgia, serif" font-size="11">Stanford AI</text>
- <rect x="410" y="70" width="150" height="50" fill="#ebe4d6" stroke="#6b6358"/><text x="485" y="100" text-anchor="middle" font-family="Georgia, serif" font-size="11">CMU &#183; Simon school</text>
- <text x="115" y="150" text-anchor="middle" font-family="Georgia, serif" font-size="9" fill="#4a3728">Minsky &#183; McCarthy era</text>
- <text x="300" y="150" text-anchor="middle" font-family="Georgia, serif" font-size="9" fill="#4a3728">Lisp &#183; vision &#183; robotics</text>
- <text x="485" y="150" text-anchor="middle" font-family="Georgia, serif" font-size="9" fill="#4a3728">SOAR &#183; early ML hybrids</text>
- <line x1="115" y1="120" x2="115" y2="200" stroke="#6b6358" stroke-dasharray="4 3"/>
- <line x1="300" y1="120" x2="300" y2="200" stroke="#6b6358" stroke-dasharray="4 3"/>
- <line x1="485" y1="120" x2="485" y2="200" stroke="#6b6358" stroke-dasharray="4 3"/>
- <text x="300" y="230" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#6b6358">Shared themes: search, representation, theorem proving, blocks world</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" role="img" aria-labelledby="t d">
+  <title id="t">Symbolic AI institutional lineage</title>
+  <desc id="d">MIT, Stanford, and CMU as anchor labs for symbolic AI in the 1960s and 1970s.</desc>
+  <rect width="640" height="300" fill="#f3efe6"/>
+  <text x="320" y="40" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#2a241c">SYMBOLIC AI: THREE ANCHOR LABS</text>
+  <line x1="40" y1="52" x2="600" y2="52" stroke="#6b6358" stroke-width="0.5"/>
+  <g font-family="Georgia, serif">
+    <rect x="48" y="80" width="168" height="64" fill="#ebe4d6" stroke="#6b6358" stroke-width="0.8"/>
+    <text x="132" y="108" text-anchor="middle" font-size="12" fill="#2a241c">MIT AI Lab</text>
+    <text x="132" y="128" text-anchor="middle" font-size="9" fill="#5c5248">Lisp, robotics, vision</text>
+    <rect x="236" y="80" width="168" height="64" fill="#ebe4d6" stroke="#6b6358" stroke-width="0.8"/>
+    <text x="320" y="108" text-anchor="middle" font-size="12" fill="#2a241c">Stanford AI</text>
+    <text x="320" y="128" text-anchor="middle" font-size="9" fill="#5c5248">Search, knowledge</text>
+    <rect x="424" y="80" width="168" height="64" fill="#ebe4d6" stroke="#6b6358" stroke-width="0.8"/>
+    <text x="508" y="108" text-anchor="middle" font-size="12" fill="#2a241c">CMU</text>
+    <text x="508" y="128" text-anchor="middle" font-size="9" fill="#5c5248">Cognitive modeling, SOAR</text>
+  </g>
+  <text x="320" y="200" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#4a3728">Shared toolkit: representation, search, theorem proving, microworlds</text>
+  <text x="320" y="268" text-anchor="middle" font-family="Georgia, serif" font-size="8" fill="#8a8074">Institutional map; not a family tree of every researcher.</text>
 </svg>
