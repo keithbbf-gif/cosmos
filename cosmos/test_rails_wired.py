@@ -161,6 +161,7 @@ def wiring(td: Path) -> None:
     own = {"cursor-api": "cosmos_cursor_rail",
            "firecrawl-web": "cosmos_firecrawl_rail",
            "groq-api": "cosmos_groq_rail",
+           "gem-free": "cosmos_gem_free_rail",
            "playwright-dom": "cosmos_playwright_rail",
            "github-forge": "cosmos_forge_rail",
            "gitlab-forge": "cosmos_forge_rail",
@@ -349,6 +350,7 @@ def prove_then_stale(td: Path) -> None:
               "cursor-api": "Cursor COSMOS 2",
               "firecrawl-web": getattr(P, "FIRECRAWL_RESPONDER", "firecrawl"),
               "groq-api": "openai/gpt-oss-20b",
+              "gem-free": "gemini-2.5-flash",
               "playwright-dom": "Playwright/1.63.0-alpha-2026-08-05",
               "github-forge": "rest_limit=5000 remaining=4999",
               "gitlab-forge": "user_id=42 username=probe-user"}

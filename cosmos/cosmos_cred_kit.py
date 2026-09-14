@@ -57,7 +57,7 @@ SOURCES = (
      "link_id": "sgh-api", "docs": "https://console.x.ai"},
     {"id": "google_ai", "label": "Google AI Studio", "kind": "API",
      "file": "google_api_key.txt", "env": "GOOGLE_API_KEY",
-     "link_id": "gem-api", "docs": "https://aistudio.google.com/apikey"},
+     "link_id": "gem-free", "docs": "https://aistudio.google.com/apikey"},
     {"id": "gcloud", "label": "Google Cloud ADC", "kind": "ADC",
      "link_id": "vertex-coding",
      "docs": "https://cloud.google.com/docs/authentication/application-default-credentials"},

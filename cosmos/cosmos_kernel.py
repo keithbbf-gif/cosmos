@@ -204,6 +204,8 @@ class Kernel:
             # Cheap reasoning (Keith 2026-09-04). GroqCloud not Grok.
             # Satellite GATE PASS; compose at boot like firecrawl/cursor.
             ("groq-api", "cosmos_groq_rail", "attach_to_kernel", True),
+            # AI Studio Free tier (Developer API). Not Vertex gem-api.
+            ("gem-free", "cosmos_gem_free_rail", "attach_to_kernel", True),
             # Joanna Vertex Express. Same link_id as bts_gem (gem-api).
             # Adapter only — does not re-register, does not generateContent.
             ("gem-api", "cosmos_vertex_rail", "attach_to_kernel", True),

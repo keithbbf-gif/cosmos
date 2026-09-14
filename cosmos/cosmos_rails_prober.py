@@ -108,6 +108,10 @@ WIRED_NODES = (
     {"link_id": "groq-api", "rail_type": "API", "src": "core",
      "dst": "models", "family": "groqcloud", "module": None,
      "satellite": "groq"},
+    # AI Studio Developer API (keith.bbf Free tier). NOT Vertex gem-api.
+    {"link_id": "gem-free", "rail_type": "API", "src": "core",
+     "dst": "models", "family": "gem-studio-free", "module": None,
+     "satellite": "gem-free"},
     {"link_id": "playwright-dom", "rail_type": "DOM", "src": "core",
      "dst": "interact", "family": "playwright-mcp", "module": None,
      "satellite": "playwright"},
@@ -412,6 +416,31 @@ def _forge_live_call(paths: CosmosPaths, link_id: str) -> dict:
             "detail": str(detail)[:300]}
 
 
+def _gem_free_live_call(paths: CosmosPaths) -> dict:
+    """Real generateContent. Vendor emits modelVersion; 429 = billing-linked dead."""
+    from cosmos_gem_free_rail import (
+        BILLING_429_NOTE, DEFAULT_MODEL, GemFreeRail, key_path_for,
+        load_spec, spec_path_for,
+    )
+    sp = spec_path_for(paths)
+    spec = load_spec(sp if sp.exists() else None)
+    rail = GemFreeRail(key_path_for(paths, spec), spec, paths=paths)
+    rec = rail.dispatch({"prompt": LIVE_PROMPT, "max_output_tokens": 16})
+    body = str(rec.get("body") or rec.get("text") or "")
+    model = str(rec.get("model") or "")
+    http = rec.get("http")
+    ok = bool(rec.get("ok") and body.strip() and model.strip())
+    detail = str(rec.get("detail") or "")[:300]
+    if not ok and rec.get("kind") == "QUOTA_DEAD":
+        detail = BILLING_429_NOTE
+    return {"ok": ok, "rc": 0 if ok else 2, "body": body,
+            "body_bytes": len(body.encode("utf-8")),
+            "model": model if ok else "",
+            "model_source": rec.get("model_source") or "modelVersion",
+            "detail": detail if ok else detail,
+            "kind": rec.get("kind")}
+
+
 def _groq_live_call(paths: CosmosPaths) -> dict:
     """GET /models; bind openai/gpt-oss-20b in the vendor id list."""
     from cosmos_groq_rail import (
@@ -447,6 +476,7 @@ def _gitlab_forge_live_call(paths: CosmosPaths) -> dict:
 SATELLITES = {
     "cursor": ("cosmos_cursor_rail", _cursor_live_call),
     "firecrawl": ("cosmos_firecrawl_rail", _firecrawl_live_call),
+    "gem-free": ("cosmos_gem_free_rail", _gem_free_live_call),
     "groq": ("cosmos_groq_rail", _groq_live_call),
     "playwright": ("cosmos_playwright_rail", _playwright_live_call),
     "github-forge": ("cosmos_forge_rail", _github_forge_live_call),
@@ -530,6 +560,11 @@ def _hands_configured(paths: CosmosPaths, spec: dict) -> bool:
     if sat == "groq":
         from cosmos_groq_rail import KEY_NAME
         return paths.config(KEY_NAME).exists()
+    if sat == "gem-free":
+        from cosmos_gem_free_rail import KEY_NAME, SPEC_NAME
+        return (paths.config(SPEC_NAME).exists()
+                and (paths.config(KEY_NAME).exists()
+                     or paths.config("gemini_api_key.txt").exists()))
     if sat == "playwright":
         from cosmos_playwright_rail import SPEC_NAME, find_pinned_cli
         return (paths.config(SPEC_NAME).exists()
