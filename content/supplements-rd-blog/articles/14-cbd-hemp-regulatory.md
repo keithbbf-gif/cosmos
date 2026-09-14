@@ -34,13 +34,12 @@ A state hemp license is not an FDA blessing.
 
 ## 26 January 2023: the sentence to keep
 
-FDA announced that existing food and supplement frameworks are **not appropriate** for CBD. A working group had looked at Epidiolex data, published literature, a public docket, and FDA's own work. The agency denied three citizen petitions that asked for rulemaking to allow CBD as a dietary supplement. It said it would **not** start that rulemaking, because it was not apparent how CBD could meet the safety standard for supplements or food additives (liver signal, unknown chronic dose, male-reproductive signals in animals, pregnancy unknown). It asked Congress for a new pathway.
+<!-- graphics-pack:v1 -->
 
-The slide deck FDA posted (`media/168778`) is blunt: inherent risk profile + protective food/supplement safety standards + limited risk-management tools (you cannot put a boxed warning on a gummy the way you can on a drug).
+![Timeline of selected US CBD regulatory beats including January 2023 FDA conclusion.](../assets/cbd-hemp-regulatory-lessons/timeline.svg)
 
-**April 2024.** Commissioner Califf told a House Oversight hearing the same thing: not safe enough, as the file stands, to be a supplement or a food; liver enzymes, drug interactions, male-reproductive signals, pregnancy unknown; Congress can build something else. He also talked about gummies packaged for children — a risk-management tool food law does not give him. Foley & NutraIngredients both covered the hearing. The policy did not thaw.
+*Figure 1. Adjacent regulatory lesson — not a guide to launching a CBD supplement SKU.*
 
-FDA has issued CBD warning letters since 2015, long before COVID. The 2023 announcement was not a first shot. It was the agency saying it would *not* do the rulemaking industry wanted. Enforcement remains selective. That is not the same as legal.
 
 ## COVID made it louder
 

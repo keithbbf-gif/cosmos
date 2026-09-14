@@ -28,11 +28,12 @@ That is the year to study if you make or white-label anything botanical.
 
 ## Demand, with numbers that have a source
 
-CRN funded an Ipsos COVID survey in late July–early August 2020 (2,004 US adults; 1,488 supplement users). Among users, the products they said they *increased* were led by multivitamins (+59%), vitamin C (+44%), and vitamin D (+37%). Zinc was +17%. Those are self-reports, not Nielsen units. They still tell you where the purchase intent sat.
+<!-- graphics-pack:v1 -->
 
-Nutrition Business Journal's ~15% industry growth for 2020 was widely repeated (KUER's 2022 piece on Nevada plants cited it). I have not opened the paid NBJ table for this draft. `[VERIFY]` the exact NBJ percentage against the yearbook if you put it on a slide. Directionally: immune SKUs and the category as a whole had an abnormal year.
+![Side-by-side lists contrasting 2020 demand signals with quality and oversight pressures.](../assets/covid-demand-adulteration-scrutiny/demand-vs-oversight.svg)
 
-NOW Foods' CEO told KUER sales were up nearly 20% and still short of demand. One company. One interview. Useful as color, not as a market model.
+*Figure 1. Illustrative framing of the 2020 tension: more units moving while routine Part 111 walk-throughs thinned.*
+
 
 ## What FDA actually wrote
 
@@ -46,19 +47,12 @@ That split matters. A founder who only watches warning letters will over-learn c
 
 ## Adulteration: the memo that was not a surprise
 
-Mark Blumenthal at the American Botanical Council wrote, in email quoted by New Hope, that more adulterated botanical raw materials and extracts were a "virtual certainty" because demand plus disruption plus price spikes is the classic incentive. ABC's Botanical Adulterants Prevention Program already had bulletins on elderberry, turmeric, ginkgo, grape seed, and saw palmetto from *before* COVID. The pandemic did not invent economic adulteration. It raised the bid.
+<!-- graphics-pack:v1 -->
 
-What "adulteration" means in this trade, concretely:
+![Four-step flowchart from incoming identity testing through buyer COA audit.](../assets/covid-demand-adulteration-scrutiny/adulteration-response-loop.svg)
 
-- **Substitution.** A cheaper berry or leaf for the named species.
-- **Dilution.** Extract standardized on a marker you can spike (or on a marker that is not unique).
-- **Spiking.** Pure caffeine in "green coffee"; lead chromate in turmeric to fake color and weight.
-- **Wrong plant part.** Leaf for root, stem for fruit.
-- **Drug spillage.** PDE-5 analogues in sexual-enhancement capsules — older scandal, same incentive structure.
+*Figure 2. Process literacy loop — not a substitute for your MMR or supplier qualification file.*
 
-Elderberry is the 2020 case students should keep. Demand for *Sambucus* extracts jumped. Identity testing that only looks at a generic anthocyanin number will pass a lot of things that are not elderberry. If your COA says "4% anthocyanins" and does not say the method or the species confirmation (HPTLC, DNA where it is valid, anthocyanin *profile*), you bought a color.
-
-I have not seen a peer-reviewed 2020–2021 paper that quantifies the *increase* in adulterated lots entering US supplement plants during the inspection pause. `[CITE NEEDED]` for any "X% of lots failed" claim you want to print. The qualitative risk call from ABC is on the record. A percentage would be a different object.
 
 ## Inspections paused. 21 CFR 111 did not.
 

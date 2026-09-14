@@ -27,7 +27,12 @@ The NAD shelf sold a feeling: a battery icon, a mouse paper, a founder in a blac
 
 ## The biochemistry in one paragraph
 
-NAD+ is a cofactor. Levels tend to decline with age in some tissues in some models. Nicotinamide riboside (NR) and nicotinamide mononucleotide (NMN) are intermediates that can raise NAD+ in humans at sufficient doses. Yoshino, Baur, and Imai's *Cell Metabolism* 2018 review is the map most people steal their figures from. Raising a cofactor is not the same as reversing aging. A lot of copy treats those as synonyms.
+<!-- graphics-pack:v1 -->
+
+![Schematic NAD salvage pathway from NAM through NMN or NR to NAD+.](../assets/nad-nmn-longevity-evidence/nad-salvage-pathway.svg)
+
+*Figure 1. Biochemistry schematic for literacy (Yoshino, Baur, Imai 2018 review). Raising NAD+ is not the same as reversing aging.*
+
 
 ## The human evidence, without the keynote
 
@@ -41,24 +46,12 @@ NR (nicotinamide riboside, often as chloride, Niagen-class) had a cleaner *early
 
 ## The regulatory plot, which actually has dates
 
-**May–July 2022.** FDA filed NDINs for NMN (including SyncoZymes). Filing is procedural. It is not a safety finding. FDA said so in the ack letters.
+<!-- graphics-pack:v1 -->
 
-**11 October 2022.** FDA told Inner Mongolia Kingdomway (and then other firms) that NMN is **excluded** from the dietary-supplement definition under § 201(ff)(3): authorized for investigation as a new drug, substantial clinical investigations instituted and made public, and — in FDA's then view — not lawfully marketed as a supplement or food before that authorization. Amazon and other platforms started treating NMN as unsellable. Brands that had built a 2021 SKU learned what "race to market" means.
+![Table of NMN regulatory dates to verify before print.](../assets/nad-nmn-longevity-evidence/nmn-regulatory-dates.svg)
 
-**2023.** Citizen petitions from NPA/ANH (FDA-2023-P-0872) and CRN (FDA-2023-P-1867).
+*Figure 2. Agency status with dates — not an efficacy claim.*
 
-**29 September 2025.** FDA responded. The important sentence, from the NPA/ANH response: NMN is **not excluded**, because it *was marketed as a dietary supplement in the United States before IND authorization*. FDA also said the "best reading" of the clause does **not** require that earlier marketing to have been lawful — a change from the 2022 letters. Evidence of US marketing as early as 2017 is what the agency leaned on (trade writeups of the letters; read the PDF, do not trust my memory for a date you will put on a lawyer's desk).
-
-What FDA did **not** do in those letters:
-
-- Declare NMN safe.
-- Waive NDI notification for the next brand that wants to sell it.
-- Bless self-affirmed GRAS as a substitute for NDIN (Venable's 2025 note is blunt on this).
-- Publish a guidance that explains "substantial clinical investigations" for the next molecule.
-
-CRN's companion response: FDA granted in part, refused to spend resources on a broader drug-exclusion guidance.
-
-**NAC is the sibling plot.** Final enforcement-discretion guidance (2022): FDA still describes NAC as excluded, will not treat otherwise-lawful NAC supplements as a priority, and the discretion **dies** if you sell NAC as a disease treatment. NMN 2025 is a different legal move (reinterpretation of marketing-before-IND). Do not mash them into "FDA approved the longevity category."
 
 ## Copy that is already false
 

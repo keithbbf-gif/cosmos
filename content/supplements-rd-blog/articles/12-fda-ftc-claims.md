@@ -27,21 +27,21 @@ Two agencies, two statutes, one landing page. Founders still write as if FDA wer
 
 ## The split, without a diagram
 
-**FDA (FD&C Act).** A dietary supplement that is *intended* to diagnose, cure, mitigate, treat, or prevent disease is a drug. Intended use is assembled from the four corners of the internet you paid for. Structure/function claims are a defined exception (21 U.S.C. § 343(r)(6); 21 CFR 101.93): they must be truthful, not misleading, substantiated, notified to FDA within 30 days, and paired with the exact-enough disclaimer that the statement has not been evaluated by FDA and the product is not intended to diagnose, treat, cure, or prevent any disease.
+<!-- graphics-pack:v1 -->
 
-**FTC (FTC Act).** Advertising must be truthful and not misleading. Health claims need competent and reliable scientific evidence. In December 2022 FTC issued *Health Products Compliance Guidance*, which replaced the 1998 dietary-supplement advertising guide. The 2022 document is broader (foods, apps, devices, CBD ads) and more explicit that the evidence must match the claim *as consumers take it*, not as your toxicologist footnotes it.
+![Two-column split of structure-function claims versus disease intended use.](../assets/fda-ftc-structure-function-enforcement/structure-function-vs-disease.svg)
 
-A claim can satisfy 101.93's paperwork and still fail FTC. A claim can be silent on disease and still be deceptive if the before/after photo does the work.
+*Figure 1. Educational split under DSHEA and FD&C intended-use rules — counsel owns final copy.*
+
 
 ## What the COVID letters taught, mechanically
 
-Bautista et al. (PMC7528445): 98 COVID-focused letters, March–July 2020. Most products reclassified as drugs. Vitamin C, CBD, D, silver, elderberry, zinc.
+<!-- graphics-pack:v1 -->
 
-FRS International, 15 June 2020, letter 606701: quercetin chews, websites plus Facebook, FDA and FTC reviewing together. That dual header is the model. Do not celebrate "FDA didn't email us" if your Meta ads would make an FTC attorney lean forward.
+![Flow describing FDA intended-use review and FTC net-impression standard.](../assets/fda-ftc-structure-function-enforcement/dual-agency-review.svg)
 
-Mercola.com, 18 February 2021, letter 607133: liposomal C, liposomal D3, quercetin/pterostilbene, COVID intended use. Dosage-form adjectives did not help.
+*Figure 2. FDA and FTC both read what you publish; 98 COVID-focused letters Mar–Jul 2020 (Bautista et al.).*
 
-FDA's fraudulent-COVID-products page kept the roster current. Firms were told they would be added to a public list. That list is a procurement problem (retailers, payment processors) as much as a legal one.
 
 ## FTC 2022, the sentences that matter for a PDP
 

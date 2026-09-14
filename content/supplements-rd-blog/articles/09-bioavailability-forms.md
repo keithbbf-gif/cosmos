@@ -30,17 +30,12 @@ A dissolution cup is not a human PK study. A cell-monolayer paper is not a human
 
 ## Magnesium — forms that have a file
 
-Elemental magnesium is the dose. Oxide is ~60% elemental and poorly soluble. Citrate, gluconate, lactate, chloride, glycinate/bisglycinate, malate, threonate are heavier salts with less elemental per gram and, in several human comparisons, better urinary excretion or better tolerance.
+<!-- graphics-pack:v1 -->
 
-Walker et al., 2003 (*Magnes Res*): magnesium citrate beat oxide on bioavailability in a small human comparison that every formulator has seen. Schuchardt and Hahn (2017; PMID 28471760) reviewed the human data: organic salts and some chelates generally outperform oxide; the magnitude is not "ten times"; diarrhea is both a side effect and, for citrate/oxide, sometimes the point.
+![Table comparing magnesium salt forms on discussion axes without ranked absorption percentages.](../assets/bioavailability-liposomal-chelates-magnesium/magnesium-forms.svg)
 
-**Glycinate.** Popular in 2020s sleep/mood SKUs because it is gentler for many people than oxide. "Glycinate crosses the blood-brain barrier as a calming neurotransmitter delivery system" is a stretch you should not print. Glycine has its own literature. The chelate is a magnesium salt with glycine. Do not mash them into a drug claim.
+*Figure 1. Form literacy table — no fabricated % absorption bars.*
 
-**L-threonate (Magtein and cousins).** Marketed for "brain magnesium." There is a small human cognitive file on a specific salt. It is not a replica of the Walker citrate study, and it is not a dementia treatment. If you sell it, sell the branded ingredient's actual trials, or don't.
-
-**Oxide.** Cheap. Fine if the goal is a high elemental number on the panel and you accept that a lot of it will not be absorbed and some of it will be a laxative. Lying about that is the problem.
-
-ODS magnesium fact sheet is the public ballast (RDA, UL 350 mg/day from *supplements* for adults, food not counted the same way). `[VERIFY]` the current UL table before you print it.
 
 ## Chelates — chemistry, not a halo
 
@@ -54,13 +49,12 @@ Iron bisglycinate has a better human file than most wellness chelates (tolerance
 
 ## Liposomes — a delivery idea that outran the citations
 
-A real liposome is a phospholipid bilayer vesicle with a measured size distribution (DLS), a defined encapsulation efficiency, and stability data in the bottle. Most "liposomal" vitamin C on the internet is a glycerol-lecithin slurry. Some of it is honest emulsion marketing. Almost none of it has a human AUC study in *that* SKU.
+<!-- graphics-pack:v1 -->
 
-What exists: a handful of small vitamin C studies comparing liposomal vs non-liposomal ascorbic acid, mixed methods, often industry-linked. I am not putting a "X-fold" number here because the ones in sales decks wander. `[CITE NEEDED]` + `[VERIFY]` against the actual paper, not the Amazon A+ module.
+![Three questions to ask before liposomal or chelated claims go on a label.](../assets/bioavailability-liposomal-chelates-magnesium/delivery-claim-questions.svg)
 
-Liposomal vitamin D and "liposomal glutathione" are even thinner. Glutathione oral bioavailability is a long-running argument; liposomal wrapping does not automatically end it.
+*Figure 2. Delivery-tech hype filter before art goes to the printer.*
 
-**Regulatory scar.** Mercola.com's 18 February 2021 FDA/FTC letter (607133) named *Liposomal Vitamin C* and *Liposomal Vitamin D3* among products FDA said were intended for COVID-19. The dosage form did not save the intended use. If anything, "liposomal" was flavoring on a drug claim.
 
 ## Other form fights worth having
 

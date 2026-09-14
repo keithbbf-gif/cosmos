@@ -57,11 +57,12 @@ I am not going to inventory every 2021–2025 IBS or AAD meta-analysis here. Sev
 
 ## Label and COA problems that are specific to live organisms
 
-1. **CFU at manufacture vs CFU at expiry.** If the label says 30 billion and the 24-month real-time data say 4 billion, you have a potency problem. Part 111 cares.
-2. **Strain drift and supplier swaps.** The Chinese plant that sold you "HN019" last year may ship a different isolate this year. Ask for the deposit number and a genetic ID method.
-3. **Survivability theater.** Enteric coatings and "stomach-proof" claims need data in the matrix you sell, not a generic acid-bath graph from 2011.
-4. **Moisture and 3PL.** Live bacteria in a Houston warehouse in August is a stability study, not a vibe. Desiccant, water activity, and a ship-test belong in the file.
-5. **Drug claims.** AGA wrote about *C. difficile* and NEC. Those are diseases. A supplement PDP that repeats the AGA *C. diff* sentence next to an add-to-cart button has a drug problem even if the guideline is real. Hospital use and DTC copy are different rooms.
+<!-- graphics-pack:v1 -->
+
+![Two-column label comparison: species-only versus strain-level identification.](../assets/probiotics-strain-specificity/label-strain-vs-species.svg)
+
+*Figure 1. Strain names tie SKUs to human data; species-only lines cannot do that work.*
+
 
 ## The evidence bar, written as a buying rule
 

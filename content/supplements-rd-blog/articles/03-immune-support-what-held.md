@@ -68,22 +68,28 @@ VITAL's vitamin D arm (see piece 04) was not a COVID trial. Do not recruit it as
 
 ## What actually held
 
-Held, in the boring sense:
+<!-- graphics-pack:v1 -->
 
-- **Deficiency is not a vibe.** Vitamin D, zinc, vitamin A, iron, B12 — if a person is low, that is a clinical problem. A supplement can be one way a clinician fills a gap. That sentence survived 2020.
-- **Daily, modest vitamin D in people who are low** still has a literature for skeletal health and a *small, pre-COVID* ARI signal. It did not become a pandemic therapeutic.
-- **Zinc lozenges for common cold duration** is an older, messy literature (ion, dose, start time). It is not a SARS-CoV-2 literature. Do not blend them.
-- **Sleep, vaccination, and ventilation** moved outcomes more than any capsule. That is not a supplement claim. It is why a serious brand does not pretend it is in that business.
+![Qualitative bars comparing immune marketing claims to evidence burden tiers.](../assets/immune-support-held-vs-hype/immune-claims-evidence-burden.svg)
 
-Did not hold:
+*Figure 1. Qualitative map only — not effect sizes. Trial names and outcomes are in the body text.*
 
-- High-dose C + zinc as outpatient COVID therapy (COVID A to Z).
-- Population test-and-treat vitamin D as COVID/ARI prevention (CORONAVIT).
-- Any botanical "protocol" sold as unapproved antiviral.
+![Table of ingredient classes commonly listed in early COVID warning-letter rosters.](../assets/immune-support-held-vs-hype/letter-ingredients.svg)
 
-Still open:
+*Figure 2. Roster themes from Bautista et al. (PMC7528445); the violation was intended use, not the nutrient itself.*
 
-- Very deficient subgroups, different doses, different endpoints (hospitalization vs infection vs smell). Those papers, if they exist and are large, belong in a revision of this draft with their PMIDs. Do not fill the gap with a podcast.
+![Table of ingredient classes commonly listed in early COVID warning-letter rosters.](../assets/immune-support-held-vs-hype/letter-ingredients.svg)
+
+*Figure 2. Roster themes from Bautista et al. (PMC7528445); the violation was intended use, not the nutrient itself.*
+
+![Table of ingredient classes commonly listed in early COVID warning-letter rosters.](../assets/immune-support-held-vs-hype/letter-ingredients.svg)
+
+*Figure 2. Roster themes from Bautista et al. (PMC7528445); the violation was intended use, not the nutrient itself.*
+
+![Table of ingredient classes commonly listed in early COVID warning-letter rosters.](../assets/immune-support-held-vs-hype/letter-ingredients.svg)
+
+*Figure 2. Roster themes from Bautista et al. (PMC7528445); the violation was intended use, not the nutrient itself.*
+
 
 ## How to write the label in 2026
 

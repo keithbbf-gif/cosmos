@@ -35,21 +35,12 @@ If you only remember one legal fact from 2020–2026, remember that. Most of the
 
 ## What did change, dated
 
-**March–July 2020.** FDA and FTC treated COVID claim copy as an emergency. Bautista, Trotz-Homeier, and colleagues counted 98 COVID-related warning letters in that window, out of 3,139 letters overall. Vitamin C, CBD, vitamin D, colloidal silver, elderberry, and zinc showed up again and again. The letters were about intended use, not about a new monograph for zinc. FDA kept a running list: *Fraudulent Coronavirus Disease 2019 (COVID-19) Products*.
+<!-- graphics-pack:v1 -->
 
-Routine GMP inspections thinned out while plants ran extra shifts. That combination — more units, fewer walk-throughs — is the quality story of 2020, and it is why adulteration people at ABC started writing memos in the present tense.
+![Timeline of selected US supplement regulatory and enforcement milestones from 2020 through 2026.](../assets/six-years-rewired-supplement-rd/timeline.svg)
 
-**2020–2021 demand.** CRN/Ipsos asked users what they added. Multivitamins, vitamin C, and vitamin D led. Zinc followed. Nutrition Business Journal's 2020 growth figure (~15% year-over-year, as reported in contemporary trade and public-radio writeups) is a trade number, not a federal statistic. Treat it that way. The direction is not in dispute: immune SKUs cleared shelves.
+*Figure 1. Dated public milestones referenced in this opener (FDA/FTC actions, guidance, and petition responses). Not a forecast.*
 
-**December 2022.** FTC published *Health Products Compliance Guidance*, replacing the 1998 dietary-supplement advertising guide. The standard did not get softer. Competent and reliable scientific evidence; human studies that match the claim a reasonable buyer would hear.
-
-**August 2022 / final NAC guidance.** FDA said NAC is excluded from the supplement definition because of drug history, then said it would exercise enforcement discretion for otherwise lawful NAC products that are not sold as disease treatments. That is a truce, not a blessing.
-
-**26 January 2023.** FDA concluded existing food and supplement frameworks are not appropriate for CBD, denied citizen petitions that asked for supplement rulemaking, and told Congress it wanted a new pathway. Epidiolex is the drug fact that sits under that letter.
-
-**June 2023.** The North American Menopause Society's nonhormone position statement did not recommend herbal supplements for vasomotor symptoms. That document matters more than a decade of "women's hormone balance" PDPs.
-
-**29 September 2025.** FDA answered NMN citizen petitions. The agency walked back the 2022 "NMN is excluded" position: NMN had been marketed as a supplement in the US before IND authorization, and FDA would no longer require that earlier marketing to have been *lawful*. NMN is still an NDI problem. It is not a proven longevity drug.
 
 ## The science moved slower than the shelf
 
@@ -67,9 +58,12 @@ USP Verified, NSF Certified for Sport, and Informed-Sport still mean a program, 
 
 ## Ingredients that learned they were in a race
 
-NMN, NAC, and CBD are the three objects that taught a new generation of founders that "it's in commerce" is not a regulatory status. The race-to-market clause in § 201(ff)(3)(B) is now something a formulator has to be able to explain. CBD lost. NAC got discretion. NMN got a 2025 reinterpretation and an NDI bill that still comes due.
+<!-- graphics-pack:v1 -->
 
-If you are building a white-label book, you do not need a longevity SKU to learn the lesson. You need a process that checks the dated FDA page before art goes to the printer.
+![Three-column comparison of CBD, NAC, and NMN regulatory threads under DSHEA.](../assets/six-years-rewired-supplement-rd/ingredient-regulatory-threads.svg)
+
+*Figure 2. Three ingredients that forced founders to read §201(ff)(3)(B). Agency status is not clinical efficacy.*
+
 
 ## What a serious brand does with this map
 

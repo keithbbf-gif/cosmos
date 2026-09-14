@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="304" viewBox="0 0 760 304" role="img" aria-labelledby="title desc">
+  <title id="title">Magnesium salt forms — typical discussion axes</title>
+  <rect width="100%" height="100%" fill="#f7fafc"/>
+  <text x="24" y="36" font-family="Source Serif 4, Georgia, serif" font-size="22" font-weight="600" fill="#1a2332">Magnesium salt forms — typical discussion axes</text>
+  <rect x="24" y="72" width="352" height="32" rx="6" fill="#e2e8f0" stroke="#cbd5e0"/>
+  <text x="32" y="94" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1a2332">Form</text>
+  <rect x="380" y="72" width="352" height="32" rx="6" fill="#e2e8f0" stroke="#cbd5e0"/>
+  <text x="388" y="94" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1a2332">Discussion axis (not ranked % absorption)</text>
+  <rect x="24" y="108" width="352" height="34" rx="6" fill="#ffffff" stroke="#cbd5e0"/>
+  <text x="32" y="130" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" font-weight="400" fill="#1a2332">Oxide</text>
+  <rect x="380" y="108" width="352" height="34" rx="6" fill="#ffffff" stroke="#cbd5e0"/>
+  <text x="388" y="130" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" font-weight="400" fill="#1a2332">High elemental Mg; GI tolerance varies</text>
+  <rect x="24" y="144" width="352" height="34" rx="6" fill="#ffffff" stroke="#cbd5e0"/>
+  <text x="32" y="166" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" font-weight="400" fill="#1a2332">Citrate</text>
+  <rect x="380" y="144" width="352" height="34" rx="6" fill="#ffffff" stroke="#cbd5e0"/>
+  <text x="388" y="166" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" font-weight="400" fill="#1a2332">Common; solubility / laxative effect talks</text>
+  <rect x="24" y="180" width="352" height="34" rx="6" fill="#ffffff" stroke="#cbd5e0"/>
+  <text x="32" y="202" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" font-weight="400" fill="#1a2332">Glycinate</text>
+  <rect x="380" y="180" width="352" height="34" rx="6" fill="#ffffff" stroke="#cbd5e0"/>
+  <text x="388" y="202" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" font-weight="400" fill="#1a2332">Chelate language — verify assay on COA</text>
+  <rect x="24" y="216" width="352" height="34" rx="6" fill="#ffffff" stroke="#cbd5e0"/>
+  <text x="32" y="238" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" font-weight="400" fill="#1a2332">L-Threonate</text>
+  <rect x="380" y="216" width="352" height="34" rx="6" fill="#ffffff" stroke="#cbd5e0"/>
+  <text x="388" y="238" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" font-weight="400" fill="#1a2332">Form-specific studies — match claim to evidence</text>
+  <text x="24" y="290" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" fill="#4a5568">Illustrative table — article 09; no fabricated absorption percentages</text>
+</svg>

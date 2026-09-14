@@ -47,34 +47,21 @@ Clean Label Project has run similar consumer tests. Treat them as press tests: u
 
 ## The three marks people mean when they are being precise
 
-### USP Verified (dietary supplement program)
+<!-- graphics-pack:v1 -->
 
-USP audits the facility, checks GMP, tests products against USP standards (identity, potency, contaminants, disintegration), and does marketplace surveillance. The mark is for **specific SKUs** that stay in the program. Look up the product in USP's verified directory. A factory that "follows USP" is not USP Verified. USP monographs and the Verification Program are related and not identical.
+![Two-column comparison of third-party mark verification versus lot-matched COA duties.](../assets/heavy-metals-usp-nsf-informed-sport/program-compare.svg)
 
-### NSF Certified for Sport
+*Figure 1. USP, NSF, and Informed-Sport are trademarks — use only when the SKU is in-program.*
 
-NSF's sport mark is about banned substances (the WADA/NFL/MLB-type lists NSF uses), plus contents and manufacturing. Lots are tested. The certified-product search is the source of truth. Athletes and teams actually use this. "NSF registered" on a facility is a different, weaker sentence than "this bottle is Certified for Sport."
-
-### Informed-Sport (LGC)
-
-Batch testing against a banned-substance screen, plus manufacturing quality components. The Informed-Sport site lists certified products. Informed-Choice is a sibling mark with a different sampling intensity. Do not swap the names.
-
-**None of these marks mean "the ingredient treats a disease."** They mean a program was paid for, a standard was applied, and (if current) the SKU is in the database.
 
 ## What a finished-product COA has to have
 
-Piece 16 goes deeper. The short list:
+<!-- graphics-pack:v1 -->
 
-- Your product name, lot, date, spec version.
-- Identity test (and method).
-- Assay for each dietary ingredient you claim, with method and spec.
-- Micro (TAMC, TYMC, pathogens as specified).
-- Heavy metals by ICP-MS.
-- Residual solvents if you used extracts/excipients that warrant USP <467>.
-- Pesticides on botanicals.
-- Lab name, ISO/IEC 17025 accreditation scope that **covers these methods**, signature.
+![Table of expected finished-product COA rows and why each matters.](../assets/heavy-metals-usp-nsf-informed-sport/coa-rows-finished-product.svg)
 
-A supplier COA for "ashwagandha 5%" that does not match your lot, your label claim, or a method you understand is raw-material paperwork. It is not a finished-product release.
+*Figure 2. Row set for buyer literacy — your spec column still has to exist in the MMR.*
+
 
 ## Theater
 

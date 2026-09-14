@@ -2,7 +2,7 @@
 
 No fake lab. No white-coat stock presented as our facility. No COA screenshot with a real lot number from a supplier you do not have the right to show.
 
-These drafts are text-first. Images, if any, are diagrams or clearly labeled stock.
+These drafts are text-first with **editorial SVG figures** under `assets/<slug>/` (see `GRAPHICS_INDEX.md`). Images are diagrams or clearly labeled stock.
 
 ## Allowed
 

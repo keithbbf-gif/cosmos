@@ -47,6 +47,7 @@ Hold any piece that still carries `[CITE NEEDED]` on a claim you would print on 
 - `BIBLIOGRAPHY.md` — consolidated citations used in drafts.
 - `WP_IMPORT.md` — staging/import only. No live publish.
 - `PHOTO_NOTES.md` — stock and diagram needs. No fake lab photos.
+- `GRAPHICS_INDEX.md` — SVG manifest, embed policy, regen commands.
 
 ## Review seats (empty on purpose)
 

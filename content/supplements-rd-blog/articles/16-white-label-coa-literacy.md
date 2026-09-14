@@ -26,11 +26,12 @@ A certificate of analysis is a signed statement that *this lot* was tested again
 
 ## The two COAs people confuse
 
-**Incoming / ingredient COA.** The extract plant or the vitamin premix house tested the drum. Useful. Not sufficient to release *your* bottle.
+<!-- graphics-pack:v1 -->
 
-**Finished-product COA.** Someone tested the capsules that will see a label. Identity of the finished form, assay vs label claim, contaminants, micro. This is the document a grown-up buyer asks for.
+![Side-by-side explanation of ingredient versus finished-product COAs.](../assets/white-label-coa-literacy/ingredient-vs-finished-coa.svg)
 
-A CMO that only forwards the ingredient PDF is asking you to treat 21 CFR 111 as optional. You can qualify a supplier and skip some incoming tests *if* the verification is real. You cannot skip having a scientifically sound finished-product story.
+*Figure 1. Incoming drum COAs do not release your labeled bottle by themselves.*
+
 
 ## The first five matches
 
@@ -44,15 +45,12 @@ Open the COA and the label art and the batch record. If any row fails, stop.
 
 ## Methods or it is a rumor
 
-Every result row needs a method: HPLC, UPLC, ICP-MS, HPTLC, USP monograph number, AOAC, a validated in-house method. "Withanolides 5%" with no method is a number from a sales rep.
+<!-- graphics-pack:v1 -->
 
-For botanicals: identity (HPTLC against a reference) **and** a marker assay. Marker alone is how you buy spiked material (piece 02, piece 07).
+![Ordered stack for reading identity, assay, methods, and contaminants on a COA.](../assets/white-label-coa-literacy/coa-read-stack.svg)
 
-For protein: nitrogen method and, if the SKU is expensive or plant-based, an amino-acid profile so you can see glycine dumps.
+*Figure 2. Read lot match first — methods on every row, ISO/IEC 17025 scope still applies.*
 
-For probiotics: strain ID + CFU, and whether CFU is at manufacture or through expiry. Ask for the stability points.
-
-For lipids: oxidation (PV, p-AV, TOTOX) on omega-3s, not just EPA/DHA milligrams.
 
 ## Labs
 

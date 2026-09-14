@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="268" viewBox="0 0 760 268" role="img" aria-labelledby="title desc">
+  <title id="title">Large trials — primary endpoint headlines (as reported)</title>
+  <rect width="100%" height="100%" fill="#f7fafc"/>
+  <text x="24" y="36" font-family="Source Serif 4, Georgia, serif" font-size="22" font-weight="600" fill="#1a2332">Large trials — primary endpoint headlines (as reported)</text>
+  <rect x="24" y="72" width="352" height="32" rx="6" fill="#e2e8f0" stroke="#cbd5e0"/>
+  <text x="32" y="94" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1a2332">Trial</text>
+  <rect x="380" y="72" width="352" height="32" rx="6" fill="#e2e8f0" stroke="#cbd5e0"/>
+  <text x="388" y="94" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1a2332">Primary endpoint headline</text>
+  <rect x="24" y="108" width="352" height="34" rx="6" fill="#ffffff" stroke="#cbd5e0"/>
+  <text x="32" y="130" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" font-weight="400" fill="#1a2332">VITAL (n≈25,871)</text>
+  <rect x="380" y="108" width="352" height="34" rx="6" fill="#ffffff" stroke="#cbd5e0"/>
+  <text x="388" y="130" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" font-weight="400" fill="#1a2332">No reduction invasive cancer / major CVD (primary)</text>
+  <rect x="24" y="144" width="352" height="34" rx="6" fill="#ffffff" stroke="#cbd5e0"/>
+  <text x="32" y="166" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" font-weight="400" fill="#1a2332">STRENGTH (n≈13,078)</text>
+  <rect x="380" y="144" width="352" height="34" rx="6" fill="#ffffff" stroke="#cbd5e0"/>
+  <text x="388" y="166" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" font-weight="400" fill="#1a2332">Stopped for futility (omega-3 CA)</text>
+  <rect x="24" y="180" width="352" height="34" rx="6" fill="#ffffff" stroke="#cbd5e0"/>
+  <text x="32" y="202" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" font-weight="400" fill="#1a2332">COVID A to Z</text>
+  <rect x="380" y="180" width="352" height="34" rx="6" fill="#ffffff" stroke="#cbd5e0"/>
+  <text x="388" y="202" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" font-weight="400" fill="#1a2332">No shorter outpatient COVID symptoms</text>
+  <text x="24" y="254" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" fill="#4a5568">Population/dose specifics in article 04; not a meta-analysis chart</text>
+</svg>

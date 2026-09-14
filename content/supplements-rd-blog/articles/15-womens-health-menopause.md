@@ -26,15 +26,12 @@ voice_check: human
 
 ## What NAMS 2023 actually recommended
 
-*Menopause* 2023, PMID 37252752. Nonhormone options for **vasomotor symptoms** (hot flashes, night sweats).
+<!-- graphics-pack:v1 -->
 
-**Recommended (with their evidence grades):** cognitive-behavioral therapy, clinical hypnosis, SSRIs/SNRIs, gabapentin, fezolinetant (Level I); oxybutynin (I–II); weight loss and stellate ganglion block (II–III). Those are mostly *not supplements*. Fezolinetant is a drug.
+![Qualitative evidence map for menopause nutraceutical claims.](../assets/womens-health-menopause-nutraceuticals/nams-evidence-map.svg)
 
-**Not recommended:** supplements/herbal remedies (Levels I–II); soy foods, soy extracts, equol; black cohosh; cannabinoids; evening primrose; maca; ginseng; dong quai; wild yam; vitamin E; omega-3s for VMS; and a longer list in the paper (paced respiration is not recommended either, for a different reason).
+*Figure 1. Qualitative map aligned to NAMS 2023 — not a product ranking.*
 
-The press release (1 June 2023) said the quiet part: many women cannot or do not want hormone therapy; clinicians still need options that *work*. Herbals did not make the cut.
-
-If you sell a "menopause relief" blend of black cohosh, soy isoflavones, and red clover, you are selling against the current US menopause-society map. You may still sell a *nutrient* SKU to women in midlife. You may not honestly say NAMS is on your side.
 
 ## Black cohosh
 
