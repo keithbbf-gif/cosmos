@@ -7,7 +7,7 @@ series: american-bedroom-furniture-history
 
 # Index
 
-Magazine essays on American bedroom furniture, 1650–now. Editor pass 2026-09-14 on staged drafts 07–45. Writer fill 2026-09-14: chapters 01–06.
+Magazine essays on American bedroom furniture, 1650–now. Editor pass 2026-09-14: full pack **01–45** (`voice_check: edited`). Stack: PR #516 fill on PR #450.
 
 ## Drafts
 

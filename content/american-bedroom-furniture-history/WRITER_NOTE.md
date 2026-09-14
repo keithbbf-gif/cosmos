@@ -1,7 +1,7 @@
 ---
 title: Writer note — American Bedroom Furniture History 01–06
 status: draft
-voice_check: human
+voice_check: edited
 series: american-bedroom-furniture-history
 writer_pass: 2026-09-14
 ---
@@ -19,8 +19,7 @@ A parallel branch `cursor/american-bedroom-furniture-history-34e6` already held 
 | Draft articles (`drafts/*.md`) | **45** (chapters **01–45**) |
 | Holes before 07 | none |
 | New writer slugs | 01–06 |
-| `voice_check` on 01–06 | `human` |
-| `voice_check` on 07–45 and editor pack files | `edited` (unchanged) |
+| `voice_check` on 01–45 and pack files | `edited` (editor unify pass 2026-09-14) |
 
 ## Locked objects (lede / figure)
 
@@ -46,12 +45,12 @@ Do not invent accessions. These were read off collection pages or published muse
 
 Still marked `[CITE NEEDED]`: specific probate dockets (Essex 1653 pairing; Chesapeake “Negro bedding”; named laborers in Boston / Philadelphia / Newport shops); Coit 1738 present location; measured blocking thickness on Yale files; Winterthur high-chest accession for a walk-around figure.
 
-## Out of scope
+## Out of scope (writer)
 
-- Editor pass on 01–06 (`voice_check` stays `human`).
 - Figure pulls, WordPress import, resolving `[CITE NEEDED]`.
 - Bradley Brand (not allowed on these slugs).
-- Touching 07–45 body copy.
+
+Editor pass on 01–06: see `EDITOR_REPORT.md` (pack-meta trim, `voice_check: edited`). 07–45 body copy unchanged after PR #450.
 
 ## Stack
 

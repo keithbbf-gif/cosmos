@@ -7,7 +7,7 @@ series: american-bedroom-furniture-history
 
 # Manifest
 
-Staged essays **01–45** (45 drafts). Chapters **01–06** writer-filled 2026-09-14 on editor pack 07–45 (`voice_check: human`). House style: object-first, Residual, Notes, Figure plan.
+Staged essays **01–45** (45 drafts). Writer fill 01–06 (PR #516); editor unify 2026-09-14 (`voice_check: edited` on all slugs). House style: object-first, Residual, Notes, Figure plan.
 
 | Slug | Ch. | Title | Words |
 |------|-----|-------|------:|

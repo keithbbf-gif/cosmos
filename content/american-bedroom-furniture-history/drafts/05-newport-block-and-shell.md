@@ -4,7 +4,7 @@ slug: 05-newport-block-and-shell
 chapter: 05
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 period: 1745–1785
 regions: Newport, Rhode Island
 word_target: 1800-2800
@@ -38,13 +38,13 @@ The feet — open talon, tight ball, the particular Newport claw — are another
 
 A Newport high chest stood in a merchant chamber that also hung a bed and, if the house was rich enough, held a bureau table in another room or the same one. It is still not a suite. The matching dressing table exists in the school; it is a pair when it is a pair, a separate bill when it is not. Met 1994.449 is a quieter Newport dressing table: mahogany, 1740–50, thirty and three-eighths by thirty-four and a quarter by twenty-two and a half inches, slipper feet, a shell integrated into the skirt scrolls. Queen Anne, not yet the full blocked street. The Revolution hurt Newport. The shops that had made the great blocked cases did not resume at the same pitch. Federal Newport is a smaller story. The high chests that survive are colonial objects that outlived their city’s boom.
 
-Colonial Revival and the Girl Scouts exhibition put those objects back into public looking. Brixey’s chest is a collection history as much as a shop history: 1929, a private house, a university study, Moses on the train to New Haven. The signature is the rare thing American furniture usually lacks. Most of this series is “workshop of” and “Philadelphia.” Here a man wrote his name and his town and a year on the wood.
+Colonial Revival and the Girl Scouts exhibition put those objects back into public looking. Brixey’s chest is a collection history as much as a shop history: 1929, a private house, a university study, Moses on the train to New Haven. The signature is the rare thing American furniture usually lacks. Most surviving labels are “workshop of” and “Philadelphia.” Here a man wrote his name and his town and a year on the wood.
 
 ## Quaker shops, Atlantic money
 
 The Townsends and Goddards were Friends. Newport’s meeting and Newport’s rum and slave trade sat in the same streets. Cabinetmaking wealth in that town is not separable from the cargoes that paid for mahogany and for the houses the high chests stood in. Later museum labels have begun to say so. Older catalogs did not. A shell is not a political statement. A shell is also not only wood.
 
-Job Townsend, Christopher Townsend, John Townsend, John Goddard, the next generation that worked into the Federal years — the family tree is in Moses and in Patricia Kane’s later Yale catalog, *Art and Industry in Early America: Rhode Island Furniture, 1650–1830* (2016). A magazine essay cannot replay it. What matters for the chamber is that a small city produced a consistent geometry for a few decades and then, after occupation and a lost war economy, did not. The objects outlived the boom because they were too good to burn and too heavy to throw away.
+Job Townsend, Christopher Townsend, John Townsend, John Goddard, the next generation that worked into the Federal years — the family tree is in Moses and in Patricia Kane’s later Yale catalog, *Art and Industry in Early America: Rhode Island Furniture, 1650–1830* (2016). A short article cannot replay it. What matters for the chamber is that a small city produced a consistent geometry for a few decades and then, after occupation and a lost war economy, did not. The objects outlived the boom because they were too good to burn and too heavy to throw away.
 
 Met 2015.50 is Christopher Townsend’s earlier high chest: mahogany, chestnut, and white pine, seventy and a quarter by thirty-nine by twenty-one and three-eighths inches, Newport, 1748, gift of Gerald and Kathleen Peters in honor of Morrison H. Heckscher, 2015. The blocking is not yet the full later sentence. The shop is already Newport.
 
@@ -52,7 +52,7 @@ Met 2015.50 is Christopher Townsend’s earlier high chest: mahogany, chestnut, 
 
 If the board is too thin, the blocked bay becomes a veneer and a hope. If the shell is applied, the glue line telegraphs. Nineteenth-century and Colonial Revival copies fail in those two places first. A thumb in a 1759 shell finds no glue line at the rays. That is the test the photograph cannot give. It is why this form still belongs in a furniture study, not only on a pedestal.
 
-Drawer runners and dustboards in the Yale chest — the A-to-E marks — are a shop’s assembly language. Townsend labeled parts so the case went back together after transport or after the finishing room. A high chest is a knockdown object before it is a monument. The later bed-rail essay will say the same of iron hooks. The American chamber’s best furniture was already thinking about stairs and carts.
+Drawer runners and dustboards in the Yale chest — the A-to-E marks — are a shop’s assembly language. Townsend labeled parts so the case went back together after transport or after the finishing room. A high chest is a knockdown object before it is a monument. Iron hooks on a bed rail tell the same story about stairs. The American chamber’s best furniture was already thinking about stairs and carts.
 
 ## A board thick enough to block, and a glue line you can feel
 
@@ -60,7 +60,7 @@ Blocking is hours in a thick board. The raised bay is often the original mahogan
 
 Chestnut in the drawer sides and backs is a Rhode Island timber map. American chestnut — *Castanea dentata* — turns up as secondary wood in Newport case work more often than tulip poplar does. After the blight, restorers who replaced a runner or a side in poplar left a different forest in the dark. Conservators look for chestnut the way they look for white pine in Boston. It is not a moral. It is a port’s woodshed. White pine still appears. Cottonwood shows up in 1984.32.26. The mix is the fingerprint, not a single species.
 
-Stop-fluted quarter columns — flutes that end in a carved stop before the necking — are another Newport habit. Philadelphia often runs the flute. A reader who can see that difference in a hallway has the connoisseurship this series actually needs. The open-talon foot, the paper that will slide behind a claw, is the argument from the floor. Do not settle it in a sentence. Point.
+Stop-fluted quarter columns — flutes that end in a carved stop before the necking — are another Newport habit. Philadelphia often runs the flute. A reader who can see that difference in a hallway has the connoisseurship these rooms actually reward. The open-talon foot, the paper that will slide behind a claw, is the argument from the floor. Do not settle it in a sentence. Point.
 
 A blocked drawer front that still has its original thickness at the raised bay will measure on the order of an inch and a half to two inches of mahogany before anyone starts talking about veneer. `[CITE NEEDED: a measured thickness on Yale 1957.37 or 1984.32.26 from the object file.]` That number is the shop’s expense. The inscription on 1984.32.26 is the rare American case that also speaks a year. A signature does not make the cousins disappear. Goddard’s Chicago high chest, 1989.158, and Met 1980.139 are still attributed. Belief and inscription are not the same word.
 
@@ -70,13 +70,13 @@ Newport’s cabinet shops sat in a town that distilled rum and traded in people.
 
 Named enslaved workmen in the Townsend and Goddard shops remain thinner in the published bills than the family tree. The gap is not a proof of absence in a slave-trading port. `[CITE NEEDED: a named enslaved or free Black workman in a Newport cabinet shop, if Kane, Moses, or the city records yield one.]` Quaker membership and the meeting’s discipline sat on the same streets as the wharves. Occupation, 1776–79, took the market. John Townsend kept a bench. The volume dropped. The objects that survive are colonial work that outlived the boom because they were too heavy to throw away and too good to burn.
 
-RISD’s Pendleton House and the Hunter House in Newport are where a reader sees the furniture in a room instead of a pedestal. The chamber still hung a bed. The bureau table — Yale 1957.37 — is the school’s other famous facade, a kneehole and a prospect, dressing and writing in one blocked body. The next essay will have to keep that type from being called a lowboy. Here it is the same geometry at a different height. The shells are closer to the hands.
+RISD’s Pendleton House and the Hunter House in Newport are where a reader sees the furniture in a room instead of a pedestal. The chamber still hung a bed. The bureau table — Yale 1957.37 — is the school’s other famous facade, a kneehole and a prospect, dressing and writing in one blocked body. Do not call that bureau table a lowboy. Here it is the same geometry at a different height. The shells are closer to the hands.
 
 ## Rays, centers, and the copy that tires
 
 Townsend’s rays can serpentine. The centers are cross-hatched. Heckscher’s 1982 *Antiques* essay taught a generation to see that hand in the shell rather than in a silhouette. Goddard’s blocking, in the literature, is sometimes read as a different weight. Later writers have warned against treating every ray as a signature. Mark the tight call as a belief unless the board is inscribed. The Girl Scouts loan exhibition of 1929 put these cases back into public looking and into the Brixey living room. Collection history is part of the object. So is the train to New Haven.
 
-A Colonial Revival copy fails first in thickness and in the shell’s glue line. A factory “blockfront” from Grand Rapids is a different essay and a different honesty. 1759. Newport. The drawers still run. The chestnut is still in the dark if no one has replaced it.
+A Colonial Revival copy fails first in thickness and in the shell’s glue line. A factory “blockfront” from Grand Rapids is a different century and a different honesty. 1759. Newport. The drawers still run. The chestnut is still in the dark if no one has replaced it.
 
 ## Residual
 

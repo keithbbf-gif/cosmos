@@ -4,7 +4,7 @@ slug: 01-the-chamber-before-the-suite
 chapter: 01
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 period: 1650–1750
 regions: New England, Mid-Atlantic, Chesapeake
 word_target: 1800-2800
@@ -32,7 +32,7 @@ Winterthur and the Met hold enough early bedsteads to make the type visible. Man
 
 The other object in the room is a chest. Six-board, joined, carved, painted. The Hadley chests of the Connecticut Valley — the type Robert Trent and Philip Zea have kept in the literature — are storage with a front that announces a family. They are not “bedroom storage” in the later sense. They hold linens, clothing, and the household’s portable wealth. A chest of drawers, when it arrives in the late seventeenth and early eighteenth centuries, is a New England and London idea stacked: drawers in a case, still often in the hall or chamber without a matching bed.
 
-Boston and Salem shops in the first decades of the eighteenth century begin to make the high chest of drawers that later collectors call a highboy. That form gets its own essays. The chamber accumulated case pieces one at a time, by marriage, inheritance, and a cabinetmaker’s bill, not by a catalog page that showed all five pieces in walnut.
+Boston and Salem shops in the first decades of the eighteenth century begin to make the high chest of drawers that later collectors call a highboy. The chamber accumulated case pieces one at a time, by marriage, inheritance, and a cabinetmaker’s bill, not by a catalog page that showed all five pieces in walnut.
 
 A dressing table — the lowboy — is even later as a named partner. Early chambers had a looking glass if they were lucky, a basin if they were ordinary, and a chest whose top served. The vanity as a type is a twentieth-century word laid on an eighteenth-century table.
 
@@ -64,7 +64,7 @@ Urban chambers in Boston and Philadelphia by 1720 can look closer to the later i
 
 A Colonial Revival bedroom of 1925 will put a highboy on one wall, a four-poster without hangings on another, a lowboy under a glass, a Windsor by the window, and call the result “early American.” Every object may be old. The room is not. The old chamber did not match. It accumulated. It priced feathers above posts. It hung cloth that the revival was afraid of because cloth is dust and work.
 
-The high chests in the next essays did not invent the bedroom. They invented a vertical wooden face. The bedroom was already there, expensive in stuffing, cheap in maple, shared, and unfinished by any catalog.
+The high chests did not invent the bedroom. They invented a vertical wooden face. The bedroom was already there, expensive in stuffing, cheap in maple, shared, and unfinished by any catalog.
 
 Cummings’s inventories, Forman’s joints, and the Valley chests are enough to start. The Chesapeake gap on enslaved bedding is enough to keep the start from being a New England comfort.
 

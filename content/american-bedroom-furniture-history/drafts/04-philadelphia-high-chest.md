@@ -4,7 +4,7 @@ slug: 04-philadelphia-high-chest
 chapter: 04
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 period: 1755–1790
 regions: Philadelphia
 word_target: 1800-2800
@@ -16,7 +16,7 @@ figures: 8
 
 Met 18.110.4 stands ninety-one and three-quarter inches in Gallery 752: mahogany and mahogany veneer over yellow pine, tulip poplar, and northern white cedar, brass, forty-four and five-eighths by twenty-four and five-eighths inches in plan, Philadelphia, 1762–65. John Stewart Kennedy Fund, 1918. The scrolled pediment carries a figural finial that the American Wing ties to plates in Chippendale’s *Director*. The serpent-and-swan carving on the bottom drawer goes to Thomas Johnson’s *A New Book of Ornaments* (1762). The current label does not give the case to a named shop. That refusal is the first honest sentence.
 
-Philadelphia made the American high chest into a monument. Boston had stacked drawers and, sometimes, gilt. Newport blocked the facade and carved shells that belong to the next essay. Philadelphia carved the case until the chamber had a piece of architecture that did not need a tester to look expensive. William Macpherson Hornor’s *Blue Book of Philadelphia Furniture* (1935) is still the rumored map. Morrison Heckscher’s Met catalogs and the Winterthur high chests are the objects you can walk around.
+Philadelphia made the American high chest into a monument. Boston had stacked drawers and, sometimes, gilt. Newport blocked the facade and carved shells in a different coastal language. Philadelphia carved the case until the chamber had a piece of architecture that did not need a tester to look expensive. William Macpherson Hornor’s *Blue Book of Philadelphia Furniture* (1935) is still the rumored map. Morrison Heckscher’s Met catalogs and the Winterthur high chests are the objects you can walk around.
 
 Met 32.93 is the dressing table the Met’s object page is willing to call en suite with 18.110.4: mahogany and mahogany veneer over tulip poplar, yellow pine, and white cedar, thirty-one and a quarter by thirty-five and seven-eighths by twenty-one and three-eighths inches, 1762–90, Morris K. Jesup Fund, 1932. Same shop, the page says, and then the useful caution: different hands on the carving. The table’s cut is deeper and livelier than the chest’s. A pair. Still not a five-piece suite. The bed in that chamber was still a textile machine.
 
@@ -80,7 +80,7 @@ The high chest still faced a hung bed. The drawers still held linen. The pair, w
 
 ## Residual
 
-Boston stacked. Newport blocked. Philadelphia carved. The three cities knew one another’s work through the coast. They did not merge. A reader who can tell them apart in a hallway has learned the only connoisseurship this series needs. The suite will try to erase that difference with a matched finish. The high chest, at its best, is a single object that refuses to be a set. Met 18.110.4 is ninety-one inches of that refusal, still correctly labeled “Philadelphia.”
+Boston stacked. Newport blocked. Philadelphia carved. The three cities knew one another’s work through the coast. They did not merge. A reader who can tell them apart in a hallway has learned the connoisseurship these rooms reward. The suite will try to erase that difference with a matched finish. The high chest, at its best, is a single object that refuses to be a set. Met 18.110.4 is ninety-one inches of that refusal, still correctly labeled “Philadelphia.”
 
 ## Notes
 

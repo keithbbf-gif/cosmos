@@ -4,7 +4,7 @@ slug: 02-testers-and-hangings
 chapter: 02
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 period: 1700–1820
 regions: United States, Atlantic world
 word_target: 1800-2800
@@ -40,7 +40,7 @@ The joinery is not romantic. Posts are turned or square, often with a removable 
 
 Met 10.125.336 is the other public New England machine in the same wing: Massachusetts, 1760–90, mahogany, maple, and white pine, eighty-eight and an eighth by sixty-one and a quarter by seventy-seven inches, Sage gift, 1909. Fluted columnar foot-posts, claw-and-ball feet, removable knees carved with acanthus and rosettes. One of a small group attributable to the same shop. The raked-back talons and the secondary woods are Massachusetts sentences. The hangings are gone. The posts are what a later photograph wants.
 
-Southern testers run taller. Charleston and the Chesapeake needed air and mosquito netting as much as they needed wool. The “rice bed” of the Carolina lowcountry — posts carved with rice stalks — is a Federal and later type that collectors have over-named; not every carved reed is rice, and not every tall post is Charleston. MESDA’s object files are the check on the nickname. The southern testers essay stays with that climate. Here the shared fact is the rack.
+Southern testers run taller. Charleston and the Chesapeake needed air and mosquito netting as much as they needed wool. The “rice bed” of the Carolina lowcountry — posts carved with rice stalks — is a Federal and later type that collectors have over-named; not every carved reed is rice, and not every tall post is Charleston. MESDA’s object files are the check on the nickname. Charleston’s tall posts and rice carving belong to a warmer climate. Here the shared fact is the rack.
 
 New England pencil posts are a thinner, later taste: octagonal shafts, a tester that can be light, hangings that can be summer dimity. The form photographs as “Shaker-simple” and is not Shaker. Shaker beds have wheels and almost no theater.
 
@@ -66,7 +66,7 @@ Color in period rooms is a guess disciplined by fragments and by the mercer’s 
 
 A field bed is a collapsible or light-posted bed with an arched tester, associated with campaign furniture and with smaller chambers. American examples exist in maple and mahogany. They are not all military. They are a way to have hangings without a full architectural box. The later “pencil-post field bed” of the reproduction trade mixes types. Keep the words apart: field is a tester shape and a knockdown habit; pencil is a post section.
 
-Knockdown is already here, before the iron hook of the factory bed. A tall-post bed that cannot come apart does not go up a New England stair. The rail joint in the later joinery essay is the long afterlife of that problem. The hangings come off first. Then the tester. Then the rails. The posts go last, like a small timber frame. 49.91’s cornices themselves are a knockdown: mortise-and-tenon at the corners, four pieces that make a lid.
+Knockdown is already here, before the iron hook of the factory bed. A tall-post bed that cannot come apart does not go up a New England stair. The rail joint on a factory bed is the long afterlife of that problem. The hangings come off first. Then the tester. Then the rails. The posts go last, like a small timber frame. 49.91’s cornices themselves are a knockdown: mortise-and-tenon at the corners, four pieces that make a lid.
 
 ## Grant’s books, Fleeson’s ads, and thirty-odd yards
 

@@ -8,64 +8,74 @@ editor_pass: 2026-09-14
 
 # Editor report
 
-Editor pass on `content/american-bedroom-furniture-history/` (draft PR). Target path `content/living-room-chests-storage-history/` is **not in the repository**; this pass covers the unfinished furniture pack with staged drafts **`voice_check: human`** on remote branches (`cursor/abfh-essays-greene-waterbeds-28fc`, `cursor/abfh-essays-31-45-077a`).
+Editor pass on `content/american-bedroom-furniture-history/` — **45 staged drafts**, unified `voice_check: edited` across the pack. Stack for this PR: **`cursor/american-bedroom-furniture-fill-01-06-8166` (PR #516, chapters 01–06 fill)** on **`cursor/american-bedroom-furniture-editor-2bbe` (PR #450, editor pass 07–45)**. Do not merge this PR ahead of #450 or #516.
 
-Criteria: **object-first** magazine voice (per `STYLE_GUIDE.md`), trim **pack-meta** (“brief for this chapter,” “this chapter is not…”), **Bradley Brand** only where allowed, `voice_check: edited` on all series markdown.
+Criteria: **object-first** magazine voice (`STYLE_GUIDE.md`), trim **pack-meta** (“this chapter,” “next essay,” “this series needs”), **Bradley Brand** only on allowed slugs, `voice_check: edited` on every series `.md`.
 
 ## Scope
 
 | Item | Count |
 |------|------:|
-| Draft articles (`drafts/*.md`) | 39 (chapters **07–45**) |
-| Series files (INDEX, MANIFEST, STYLE_GUIDE, EDITOR_REPORT) | 4 |
-| Chapters **01–06** | not in repo |
+| Draft articles (`drafts/*.md`) | **45** (chapters **01–45**) |
+| Series files (INDEX, MANIFEST, STYLE_GUIDE, EDITOR_REPORT, WRITER_NOTE) | 5 |
 | `[CITE NEEDED]` markers | retained (intentional gaps) |
 
-**Total body words (07–45):** 90,845 (per `MANIFEST.md`).
+**Total body words (01–45):** 108,180 (per `MANIFEST.md`; 01–06: 17,335; 07–45: 90,845).
 
 ## Principles applied
 
-1. **Object-first** — Left strong object ledes; cut editorial/process lines that stepped out of the room.
-2. **No pack-meta** — Removed “brief for this chapter” from Grand Rapids dates; softened “this chapter is not a catalog” and similar throat-clear in revival / Arkansas / who-slept essays.
-3. **Bradley Brand** — Replaced “may be named as” scaffolding with direct bench sentences in `36-arkansas-hardwood-bedrooms` and `43-a-shop-looking-at-a-highboy` (only allowed brand slugs).
-4. **Children’s beds** — Dek and body: less “chapter” talk; kept CPSC and inventory voice.
-5. **Banned phrasing** — Scan: no STYLE_GUIDE banned-list hits in draft bodies (incidental “leverage” in joinery sense only).
-6. **`voice_check`** — All pack `.md`: `human` → `edited`.
+1. **Object-first** — Locked Met / Yale accessions on 01–06 ledes; 07–45 ledes unchanged where already strong.
+2. **No pack-meta** — Removed cross-essay throat-clear in 01–06 (“gets its own essays,” “next essay,” “this series needs,” “southern testers essay,” “later joinery essay,” “later vanity essay”).
+3. **Bradley Brand** — Unchanged from #450: only `36-arkansas-hardwood-bedrooms` and `43-a-shop-looking-at-a-highboy`.
+4. **`voice_check`** — All pack `.md`: **`edited`** (01–06 promoted from `human`; 07–45 already `edited`).
 
-## Substantive edits (drafts)
+## Substantive edits — chapters 01–06 (this pass)
+
+| Slug | Change |
+|------|--------|
+| `01-the-chamber-before-the-suite` | Cut forward-reference lines to “essays”; close on high chests without pack pointer |
+| `02-testers-and-hangings` | Southern climate without “testers essay”; bed-rail joint without “joinery essay” |
+| `04-philadelphia-high-chest` | Newport shells without “next essay”; hallway connoisseurship without “this series” |
+| `05-newport-block-and-shell` | Labels, knockdown / bureau-table / Grand Rapids lines without essay/series meta |
+| `06-the-lowboy-partner` | Factory vanity type; Notes line without “vanity essay” |
+
+Chapters **03** — front matter only (`voice_check`). Bodies already matched house style.
+
+## Substantive edits — chapters 07–45 (PR #450, unchanged here)
 
 | Slug | Change |
 |------|--------|
 | `13-grand-rapids-bedroom-factory` | Cut “brief for this chapter” from 1885 sales and Simmons/Berkey chronology |
-| `35-solid-wood-revival-now` | Open on trade return; cut catalog/chapter meta; “revival that matters here” |
-| `36-arkansas-hardwood-bedrooms` | Inland luxury without “this chapter”; Bradley Brand as bench; heritage sentence close |
+| `35-solid-wood-revival-now` | Open on trade return; cut catalog/chapter meta |
+| `36-arkansas-hardwood-bedrooms` | Bradley Brand as bench; heritage sentence close |
 | `38-who-slept-where` | Drop “chapter 1 promised”; “bedroom record” not “this chapter” |
 | `42-what-a-bedroom-is-now` | “Thin room is the honest subject” |
 | `43-a-shop-looking-at-a-highboy` | Bradley Brand bench sentence without “may be named” |
-| `44-childrens-beds-and-cradles` | Dek trim; “honest inventory”; federal register close |
+| `44-childrens-beds-and-cradles` | Dek trim; honest inventory; federal register close |
 
 ## Not in this pass
 
-- Essays **01–06** (not on any remote branch searched).
-- `living-room-chests-storage-history` (slug absent from `keithbbf-gif/cosmos`).
+- `living-room-chests-storage-history` (slug absent from repo).
 - Figure pulls, WordPress import, or resolving `[CITE NEEDED]` claims.
-- Word-band tightening for drafts above 2,800 words (flagged in MANIFEST; no cuts this pass).
+- Word-band tightening for drafts above 2,800 words (flagged in MANIFEST; no cuts).
 
 ## QA checklist
 
-- [x] 39 slugs present; INDEX/MANIFEST aligned
+- [x] 45 slugs present; INDEX/MANIFEST aligned
 - [x] `status: draft` on articles
-- [x] No `voice_check: human` remaining under pack
-- [x] `EDITOR_REPORT.md` + `STYLE_GUIDE.md` added
-- [x] Pack-meta / brief language removed from edited slugs
+- [x] No `voice_check: human` under pack
+- [x] `EDITOR_REPORT.md` + `STYLE_GUIDE.md` current
+- [x] Pack-meta trimmed on 01–06; #450 edits preserved on 07–45
 
-## Writer fill (2026-09-14)
+## Stack / merge order
 
-Chapters **01–06** are now in the pack (`voice_check: human`), stacked on this editor branch. Object-first ledes lock Met / Yale accessions already in the public collection pages. Residual / Notes / Figure plan match 07–45. `[CITE NEEDED]` markers retained. See `WRITER_NOTE.md`.
+1. **#450** — `cursor/american-bedroom-furniture-editor-2bbe` (07–45 editor)
+2. **#516** — `cursor/american-bedroom-furniture-fill-01-06-8166` (01–06 fill on #450)
+3. **This PR** — `cursor/american-bedroom-editor-unify-75a9` (editor unify 01–45, atop #516)
 
 ## See also
 
 - `STYLE_GUIDE.md` — voice, BBF rule, front matter
 - `MANIFEST.md` — per-slug word counts
 - `INDEX.md` — draft list
-- `WRITER_NOTE.md` — fill 01–06, locked objects, QA
+- `WRITER_NOTE.md` — fill 01–06, locked objects, writer QA

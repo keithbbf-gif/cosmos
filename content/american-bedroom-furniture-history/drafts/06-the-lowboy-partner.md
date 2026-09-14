@@ -4,7 +4,7 @@ slug: 06-the-lowboy-partner
 chapter: 06
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 period: 1730–1790
 regions: Boston, Newport, Philadelphia
 word_target: 1800-2800
@@ -66,7 +66,7 @@ Hardware follows the high chest: drops, then bails, then later replacements. Bec
 
 The collector’s *lowboy* hides three objects. An American dressing table is usually a case of drawers on cabriole or turned legs, table height, no kneehole, a basin on the top, a looking glass on the wall. A Newport bureau table — Yale 1957.37 is the public one — is a kneehole piece with a prospect and a blocked facade, writing and dressing in the same body. An English toilet table may have a kneehole the American dressing table refuses. If a caption calls all three a lowboy, the pair with a high chest becomes destiny and the kneehole becomes a sawn-off desk. Keep the words apart.
 
-The toilet glass, or dressing glass, is the fourth object in the morning and the one period rooms most often omit. A small swinging mirror on a box, sometimes with tiny drawers, sits on the table. It is not bolted to a backboard. English plate shows up in inventories as a separate line from the table. American shops made the boxes; the glass was often imported. When a Colonial Revival dealer screws a tall glass to a colonial dressing table, the marriage is visible in the screw pattern and in a crest that does not know the skirt. The later vanity essay is that marriage made into a factory type. Here the honest restoration is the stain on the top, the glass on the wall or on its own box, the basin where the ring still is.
+The toilet glass, or dressing glass, is the fourth object in the morning and the one period rooms most often omit. A small swinging mirror on a box, sometimes with tiny drawers, sits on the table. It is not bolted to a backboard. English plate shows up in inventories as a separate line from the table. American shops made the boxes; the glass was often imported. When a Colonial Revival dealer screws a tall glass to a colonial dressing table, the marriage is visible in the screw pattern and in a crest that does not know the skirt. The later vanity type is that marriage made into a factory SKU. Here the honest restoration is the stain on the top, the glass on the wall or on its own box, the basin where the ring still is.
 
 Boston japanned dressing tables exist and are rarer than the japanned high chests. 10.125.68 is the one the Met will stand next to its high chest. Probate already said the pair was a possibility, not a law: two rooms apart is as common as a matching skirt.
 
@@ -101,7 +101,7 @@ Most dressing tables lived without a mate, and most mornings did not require a n
 - Moses, *Master Craftsmen of Newport* (1984).
 - Jobe and Kaye, *New England Furniture* (1984), Boston dressing tables.
 - Hollingsworth / Affleck pair: sale catalog literature; confirm present locations before layout.
-- On dressing table vs. bureau table vs. toilet/dressing glass: Heckscher; Moses; Kane 2016 on Newport bureau tables; the later vanity essay for the bolted glass.
+- On dressing table vs. bureau table vs. toilet/dressing glass: Heckscher; Moses; Kane 2016 on Newport bureau tables; twentieth-century vanity furniture for the bolted glass.
 - Downs, *American Furniture* (Winterthur, 1952), dressing tables.
 - Glue-block and skirt-rail construction: conservation notes in Met and Winterthur files; shop practice, not a pattern-book plate.
 
