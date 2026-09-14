@@ -1,6 +1,6 @@
 # MANIFEST — fig pests & diseases pack
 
-Status: **draft / staged** (do not publish live). Voice: PapaFig. Zone: **8a**.
+Status: **draft / staged** (do not publish live). Voice: PapaFig. Zone: **8a**. `voice_check: edited` on all drafts (see `EDITOR_REPORT.md`).
 Guardrails: `CLAIMS_GUARDRAILS.md`. Sources: `BIBLIOGRAPHY.md`.
 
 Scope: `content/fig-pests-diseases-blog/` only.

@@ -22,7 +22,7 @@ images:
   source: ours
   folder_pick: More Fig Pictures
 status: draft
-voice_check: human
+voice_check: edited
 pillar: birds
 priority: 25
 zone: 8a
@@ -75,7 +75,7 @@ Heat makes the neck drop faster. A 98° afternoon after a wet night will finish 
 
 ## What I will not do
 
-Poison. Glue. A pellet gun story on a migratory bird. That is not a garden tip. That is a legal and a decent-person line. Migratory birds are not a pesticide label.
+Poison. Glue. A pellet gun story on a migratory bird. That is not a garden tip. That crosses a legal line and a decent-person line. Migratory birds are not a pesticide label.
 
 I will not write a fake hawk as a personality.
 

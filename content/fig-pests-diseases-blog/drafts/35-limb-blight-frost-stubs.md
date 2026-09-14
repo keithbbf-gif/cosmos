@@ -23,7 +23,7 @@ images:
   source: ours
   folder_pick: Damaged Cuttings
 status: draft
-voice_check: human
+voice_check: edited
 pillar: cultural
 priority: 35
 zone: 8a

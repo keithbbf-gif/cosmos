@@ -23,7 +23,7 @@ images:
   source: ours
   folder_pick: Fig Labels
 status: draft
-voice_check: human
+voice_check: edited
 pillar: biosecurity
 priority: 41
 zone: 8a

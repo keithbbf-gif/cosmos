@@ -23,7 +23,7 @@ images:
   source: ours
   folder_pick: Fig Fruit
 status: draft
-voice_check: human
+voice_check: edited
 pillar: birds
 priority: 27
 zone: 8a

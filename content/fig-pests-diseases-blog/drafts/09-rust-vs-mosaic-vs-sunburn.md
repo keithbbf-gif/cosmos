@@ -24,7 +24,7 @@ images:
   source: ours
   folder_pick: More Fig Pictures
 status: draft
-voice_check: human
+voice_check: edited
 pillar: diagnosis
 priority: 9
 zone: 8a

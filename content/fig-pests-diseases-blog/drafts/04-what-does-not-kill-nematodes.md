@@ -23,7 +23,7 @@ images:
   source: ours
   folder_pick: Damaged Cuttings
 status: draft
-voice_check: human
+voice_check: edited
 pillar: nematodes
 priority: 4
 zone: 8a

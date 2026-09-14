@@ -24,7 +24,7 @@ images:
   source: ours
   folder_pick: Outdoor
 status: draft
-voice_check: human
+voice_check: edited
 pillar: cultural
 priority: 42
 zone: 8a
