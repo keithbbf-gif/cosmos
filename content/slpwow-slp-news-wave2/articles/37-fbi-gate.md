@@ -17,7 +17,8 @@ citations:
   - "https://aslpcompact.com/wp-content/uploads/2023/10/ASLP-IC-Frequently-Asked-Questions-10-7-23.pdf"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 last_verified: 2026-09-14
 ---
 

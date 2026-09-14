@@ -17,7 +17,8 @@ citations:
   - "https://www.asha.org/policy/sp2016-00343/"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 last_verified: 2026-09-14
 ---
 

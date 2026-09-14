@@ -8,7 +8,7 @@ Working clinicians, informed parents, and teachers who hit an SLP headline and n
 
 - Short sentences. Name the statute, rule, compact page, or paper.
 - Ban SEO slop: *delve, leverage, game-changer, in conclusion, whether you're a…, tapestry, plethora, unlock, empower, cutting-edge, healthcare landscape, holistic approach, in this article we will explore.*
-- `voice_check: human` on every draft.
+- `voice_check: human` on writer drafts; `voice_check: edited` plus `voice_check_date` after an editor pass.
 - No corporate we. No invented quotations. Short quoted phrases only when a title or a statutory term is the point.
 
 ## What an article is

@@ -18,7 +18,8 @@ citations:
   - "https://www.asha.org/news/2026/congress-extends-medicare-telehealth-authority-through-2027-asha-continues-push-for-permanence/"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 last_verified: 2026-09-14
 ---
 

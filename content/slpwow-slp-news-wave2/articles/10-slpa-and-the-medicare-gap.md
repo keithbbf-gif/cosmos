@@ -18,7 +18,8 @@ citations:
   - "https://www.cms.gov/files/document/r13051bp.pdf"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 last_verified: 2026-09-14
 ---
 

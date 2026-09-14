@@ -24,6 +24,7 @@
 | `README.md` | Orientation |
 | `WP_IMPORT.md` | Later import notes |
 | `PHOTO_NOTES.md` | No likenesses |
+| `EDITOR_REPORT.md` | Editor pass log (wave 2) |
 
 ## Scope lock
 

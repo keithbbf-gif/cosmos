@@ -17,7 +17,8 @@ citations:
   - "https://aslpcompact.com/"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 last_verified: 2026-09-14
 ---
 
@@ -33,7 +34,7 @@ That last verb is the policy. The first sentences are the atmosphere.
 
 When a district or a home-health agency cannot hire, the temptation is to stretch supervision, to bill an assistant as if Medicare had blinked, or to let a compact rumor replace a license. The agenda’s own structure argues the other way. Licensure standards exist because the people in the chairs can be harmed. A compact privilege is supposed to be equivalent to a license in a member state, not a shortcut around competence.
 
-This desk’s compact briefs will keep repeating the September 2026 fact: 37 jurisdictions enacted; four issued privileges. “Operationalize” still had a lot of map left. A workforce crisis that treats the compact as already national is lying about access.
+This desk’s compact briefs will keep repeating the September 2026 fact: **37 [VERIFY]** jurisdictions enacted; **four [VERIFY]** issued privileges. “Operationalize” still had a lot of map left. A workforce crisis that treats the compact as already national is lying about access.
 
 ## What ASHA did not publish in that paragraph
 

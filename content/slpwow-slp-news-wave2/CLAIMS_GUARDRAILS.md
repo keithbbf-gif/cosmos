@@ -16,5 +16,6 @@
 - Name the **primary source** the reader should open.
 - Separate **headline heat** from **document text**.
 - Date-stamp numbers (conversion factors, KX thresholds, compact maps) as of the pack date.
+- Mark **live Compact Map legend counts** and other map numerators with **`[VERIFY]`** before import; CY 2026 CMS/ASHA PDF dollars tied to cited URLs do not need the tag if the primary page still matches.
 - Keep `status: draft` until a human editor clears import.
 - Mark uncertainty: “as of 14 September 2026 the Compact Map showed four issuing jurisdictions.”

@@ -17,7 +17,8 @@ citations:
   - "https://aslpcompact.com/"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 last_verified: 2026-09-14
 ---
 
@@ -43,11 +44,11 @@ The four desks are not branding. They are different kinds of public writing.
 
 Each piece in this folder names one primary URL, sometimes two. The body paraphrases. It does not paste the ASHA Leader, the Federal Register, or a paywalled methods section. If you need the table of national rates, open ASHA’s PDF or the CMS locality file. If you need the compact fee for Tennessee, open the Commission’s July 2026 fee-and-jurisprudence sheet.
 
-Numbers in these briefs are dated **14 September 2026**. Conversion factors, KX thresholds, and compact maps move. A brief that still says “four issuing jurisdictions” after a fifth state launches is stale. That is a feature of news, not a defect of the folder.
+Numbers in these briefs are dated **14 September 2026**. Conversion factors and KX thresholds that come from the CY 2026 CMS fact sheet, MLN summary, or Therapy Services page are tied to those URLs — re-open them before you print a dollar in a patient handout. Compact Map counts and other live legends carry **`[VERIFY]`** in the copy because they change when a state onboarded yesterday. A brief that still says “four issuing jurisdictions” after a fifth state launches is stale. That is a feature of news, not a defect of the folder.
 
 ## What we will not do from a feed
 
-We will not tell you a child has developmental language disorder because a milestone app pinged. We will not tell you to add the KX modifier because a consultant’s carousel said the cap is back. We will not tell you to take a compact privilege in a state that has only enacted the statute. We will not treat an Evidence Map landing page as a protocol.
+This desk will not tell you a child has developmental language disorder because a milestone app pinged. This desk will not tell you to add the KX modifier because a consultant’s carousel said the cap is back. This desk will not tell you to take a compact privilege in a state that has only enacted the statute. This desk will not treat an Evidence Map landing page as a protocol.
 
 If the primary page and this summary disagree, the primary page wins. That sentence is the whole desk.
 

@@ -144,8 +144,8 @@ def main() -> int:
         for key in REQUIRED_YAML:
             if key not in fm:
                 errors.append(f"{path.name}: missing YAML {key}")
-        if fm.get("voice_check") != "human":
-            errors.append(f"{path.name}: voice_check is not human")
+        if fm.get("voice_check") not in ("human", "edited"):
+            errors.append(f"{path.name}: voice_check must be human or edited")
         if fm.get("stage") != "draft":
             errors.append(f"{path.name}: stage is not draft")
         if fm.get("status") != "draft":

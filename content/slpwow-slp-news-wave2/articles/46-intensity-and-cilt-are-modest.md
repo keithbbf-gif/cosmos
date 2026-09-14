@@ -17,7 +17,8 @@ citations:
   - "https://apps.asha.org/EvidenceMaps/Maps/LandingPage/f8eee3d9-4739-4ba6-b925-5d2f3ad809b6"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 last_verified: 2026-09-14
 ---
 

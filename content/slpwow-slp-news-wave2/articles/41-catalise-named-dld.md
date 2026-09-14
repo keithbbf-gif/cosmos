@@ -17,7 +17,8 @@ citations:
   - "https://ora.ox.ac.uk/objects/uuid:b519a20b-a04d-4e7b-afec-16f9067e616c/files/m93ce0a87edeb2ff1dc50f65812ffe413"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 last_verified: 2026-09-14
 ---
 

@@ -17,7 +17,8 @@ citations:
   - "https://aslpcompact.com/compact-map/"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 last_verified: 2026-09-14
 ---
 
@@ -25,7 +26,7 @@ last_verified: 2026-09-14
 
 *Educational news brief for SLPWOW. Not legal advice, not billing advice, and not a substitute for reading the primary source or for evaluation by a licensed clinician.*
 
-The Compact Map is the only graphic this desk trusts. On the September 2026 reading, the Commission’s home page said **37 jurisdictions** (36 states and one territory) had enacted ASLP-IC legislation. The map’s legend counted **four** jurisdictions issuing privileges, **33** enacted but not yet issuing, a handful of active bills, and a remainder with no bill. Those four issuing names, on the same home page, were **Louisiana, Ohio, Tennessee, and West Virginia**.
+The Compact Map is the only graphic this desk trusts. On the September 2026 reading, the Commission’s home page said **37 [VERIFY] jurisdictions** (36 states and one territory) had enacted ASLP-IC legislation. The map’s legend counted **four [VERIFY]** jurisdictions issuing privileges, **33 [VERIFY]** enacted but not yet issuing, a handful of active bills, and a remainder with no bill. Those four issuing names, on the same home page, were **Louisiana, Ohio, Tennessee, and West Virginia** — **`[VERIFY]`** the legend before you cite them in a contract.
 
 If a recruiter says “the SLP compact is in 37 states, so you can start Monday,” they have read the first number and ignored the second.
 

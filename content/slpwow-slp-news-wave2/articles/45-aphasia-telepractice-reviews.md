@@ -19,7 +19,8 @@ citations:
   - "https://pubs.asha.org/doi/abs/10.1044/2023_AJSLP-22-00324"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 last_verified: 2026-09-14
 ---
 

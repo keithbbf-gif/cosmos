@@ -17,7 +17,8 @@ citations:
   - "https://www.cms.gov/medicare/coding-billing/therapy-services"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 last_verified: 2026-09-14
 ---
 
@@ -41,7 +42,7 @@ Do not tell a beneficiary that “Medicare will investigate you if we keep going
 
 ## What this desk will not do
 
-We will not publish a template progress note. We will not guess your MAC’s favorite phrases. We will say: if you add KX, you are asserting the record is ready. If you are not ready, fix the record before the modifier.
+This desk will not publish a template progress note. This desk will not guess your MAC’s favorite phrases. The point stands: if you add KX, you are asserting the record is ready. If you are not ready, fix the record before the modifier.
 
 Review letters often ask for the plan of care, the certifying physician’s order if your setting needs one, and a stretch of notes that show skill rather than attendance. If you cannot find the order in a week, that is the finding. If every note is a clone, that is the finding. Software that autocompletes “patient continues to benefit” is not an ally here.
 

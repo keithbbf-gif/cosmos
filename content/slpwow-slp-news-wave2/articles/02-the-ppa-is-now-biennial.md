@@ -17,7 +17,8 @@ citations:
   - "https://www.asha.org/advocacy/2025-2026-advocacy-priorities-for-audiologists-and-speech-language-pathologists/"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 last_verified: 2026-09-14
 ---
 

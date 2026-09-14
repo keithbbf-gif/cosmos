@@ -18,7 +18,8 @@ citations:
   - "https://www.asha.org/practice/reimbursement/medicare/medicare_faqs_slp"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 last_verified: 2026-09-14
 ---
 
