@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-labelledby="title desc">
+  <title id="title">Seat-to-apron clearance at dinner</title>
+  <desc id="desc">Side elevation: table apron above chair seat; vertical gap labeled for dining ergonomics.</desc>
+  <rect width="100%" height="100%" fill="#E8E4DC"/>
+
+  <rect x="80" y="220" width="480" height="12" fill="#8B6F47" stroke="#2A2622" stroke-width="2"/>
+  <rect x="120" y="232" width="400" height="18" fill="#8B6F47" opacity="0.35"/>
+  <text x="320" y="248" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#5A554F">apron</text>
+  <rect x="200" y="250" width="160" height="10" fill="#8B6F47" stroke="#2A2622"/>
+  <line x1="200" y1="260" x2="200" y2="310" stroke="#2A2622" stroke-width="3"/>
+  <line x1="360" y1="260" x2="360" y2="310" stroke="#2A2622" stroke-width="3"/>
+  <rect x="190" y="300" width="180" height="14" fill="#8B6F47" stroke="#2A2622" stroke-width="2"/>
+  <text x="280" y="292" text-anchor="middle" font-family="Georgia,serif" font-size="12" fill="#2A2622">seat</text>
+  <line x1="280" y1="250" x2="280" y2="300" stroke="#C45C3E" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="300" y="275" font-family="Helvetica,Arial,sans-serif" font-size="13" fill="#C45C3E">thigh gap</text>
+  <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#C45C3E"/></marker></defs>
+
+</svg>

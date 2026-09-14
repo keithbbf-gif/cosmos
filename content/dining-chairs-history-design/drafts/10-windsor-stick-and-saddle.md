@@ -3,7 +3,7 @@ title: "Windsor, stick and saddle"
 slug: windsor-stick-and-saddle
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 10
 word_count: 1472
 dek: "Turned sticks in a plank seat, painted, light enough to carry — the other American dining chair. Not a failed mahogany. A different machine."
@@ -29,7 +29,16 @@ figures:
 verify:
   - "Pin Evans object or Winterthur accession for fig-01"
   - "Do not treat Nutting 1917 as a primary for 1760"
+
+figure_id: plates.windsor-nutting-plate
+image_rights: documented
+image_pass: 2026-09-14
 ---
+<!-- dchd-figure:v1 -->
+<figure class="dchd-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Wallace_Nutting_Windsors_-_correct_Windsor_furniture._%281918%29_%2814592391377%29_retouched.jpg" alt="Published illustration of Windsor chair forms with stick legs and saddle seat" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Stick-and-saddle Windsor — turned legs driven into a sculpted seat. <em>Rights:</em> Public domain; Wallace Nutting, Windsor Furniture (1918); <a href="https://commons.wikimedia.org/wiki/File:Wallace_Nutting_Windsors_-_correct_Windsor_furniture._(1918)_(14592391377)_retouched.jpg">source</a>. Published Windsor chair forms — stick-and-saddle construction.</figcaption>
+</figure>
 
 A Windsor is a plank that learned to hold sticks. The seat is the hub: saddle-shaped if the shop is proud, thick enough to take holes, often elm in English work, pine or poplar in American, painted so the mixed woods disappear. Legs and stretchers and spindles are turned hardwoods — maple, oak, hickory, ash — driven into the seat, wedged, sometimes glued. The back can be a bow, a comb, a fan, a sack-back. There is no splat in the Chippendale sense. There is a forest of sticks and a rim that takes your shoulder blades as a rake of small contacts.
 

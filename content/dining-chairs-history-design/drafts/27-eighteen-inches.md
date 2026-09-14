@@ -3,7 +3,7 @@ title: "Eighteen inches"
 slug: eighteen-inches
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 27
 word_count: 1955
 dek: "A finished-seat habit, not a law. Seventeen to nineteen inches for a table sold as twenty-nine or thirty — and why a pad, a rug, and a recut foot each steal the number."
@@ -29,7 +29,16 @@ figures:
 verify:
   - "Do not print a Wilmar house standard without a shop note"
   - "Pheasant popliteal numbers: cite edition and percentile if a range is quoted as data"
+
+figure_id: plates.diag-eighteen-inches
+image_rights: documented
+image_pass: 2026-09-14
 ---
+<!-- dchd-figure:v1 -->
+<figure class="dchd-figure">
+  <img src="../assets/diagrams/eighteen-inches.svg" alt="Diagram measuring finished dining chair seat height from floor" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Seventeen to nineteen inches is habit, not law — measure after the pad settles. <em>Rights:</em> CC0-1.0 (pack schematic); Bradley Brand editorial / pack; <a href="content/dining-chairs-history-design/assets/diagrams/eighteen-inches.svg">source</a>. Original line diagram; no AI-generated faces or stock people.</figcaption>
+</figure>
 
 Eighteen inches is a camp, not a shrine. I start there because a lot of American tables are sold as 29 or 30 inches to the top, and a lot of chairs that work with those tables land a finished seat in the 17-to-19-inch band. The camp is a pairing habit. It is not BIFMA. It is not ISO 9241. It is not a 5th-percentile female popliteal height copied out of an office guide and nailed to a dining room.
 

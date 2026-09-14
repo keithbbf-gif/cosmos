@@ -3,7 +3,7 @@ title: "Hepplewhite, the shield"
 slug: hepplewhite-shield-back
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 11
 word_count: 1472
 dek: "The 1788 Guide thins the back into a shield, an oval, a heart. Federal dining rooms sat in a drawing. The sit is lighter, and the splat has become a picture."
@@ -29,7 +29,16 @@ figures:
 verify:
   - "Cite Guide plate from the edition used"
   - "Montgomery object for American example"
+
+figure_id: plates.hepplewhite-shield-chair
+image_rights: documented
+image_pass: 2026-09-14
 ---
+<!-- dchd-figure:v1 -->
+<figure class="dchd-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Hepplewhite_shield-shaped_dining_chair_in_%27country_house%27_condition%2C_May_2014.jpg" alt="Hepplewhite shield-back side chair" width="1200" height="1805" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Shield back — Hepplewhite's published profile in a documented side chair. <em>Rights:</em> CC BY-SA 3.0; Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:Hepplewhite_shield-shaped_dining_chair_in_%27country_house%27_condition,_May_2014.jpg">source</a>. Shield-back Hepplewhite side chair photograph.</figcaption>
+</figure>
 
 George Hepplewhite’s name is on a book published after he died. *The Cabinet-Maker and Upholsterer’s Guide* (1788) thins the English chair into shields, ovals, hearts. The splat is no longer a vase you lean on. It is a picture in the middle of a hoop. Federal America copies the picture with mahogany, satinwood, inlay, sometimes paint. Charles Montgomery’s Federal catalog is the American object trail. The dining-room pack already brought the sideboard into the room. This hour is the back you see when you look across the table.
 

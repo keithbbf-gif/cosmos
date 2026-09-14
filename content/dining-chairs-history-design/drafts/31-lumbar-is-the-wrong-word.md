@@ -3,7 +3,7 @@ title: "Lumbar is the wrong word"
 slug: lumbar-is-the-wrong-word
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 31
 word_count: 1499
 dek: "Office chairs sell a knob for a workday spine. Dinner sells a splat, a hoop, a shell, an hour. Borrow fit if you want. Do not borrow the vocabulary as if it were a dining feature."
@@ -28,7 +28,16 @@ figures:
     status: needed
 verify:
   - "Grandjean / ISO 9241-5 named as work posture, not dinner"
+
+figure_id: plates.diag-lumbar-is-the-wrong-word
+image_rights: documented
+image_pass: 2026-09-14
 ---
+<!-- dchd-figure:v1 -->
+<figure class="dchd-figure">
+  <img src="../assets/diagrams/lumbar-is-the-wrong-word.svg" alt="Abstract torso outline comparing office lumbar zone to dining chair back contact" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Lumbar as office vocabulary — dining contact is shoulder blades on the splat. <em>Rights:</em> CC0-1.0 (pack schematic); Bradley Brand editorial / pack; <a href="content/dining-chairs-history-design/assets/diagrams/lumbar-is-the-wrong-word.svg">source</a>. Original line diagram; no AI-generated faces or stock people.</figcaption>
+</figure>
 
 “Does it have lumbar support?” is a sentence from a showroom that sells mesh. At a dining table it usually means: will my low back hurt after the roast. That is a fair fear. The word is still the wrong tool. Lumbar, in the office literature, is a shaped contact you can move, often a pad or a shell bulge with a height knob, designed for a person who will sit through a shift in one chair. Etienne Grandjean’s task-fitting book and ISO 9241-5 are that world. BIFMA’s computer-use standard is that world.
 

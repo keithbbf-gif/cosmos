@@ -3,7 +3,7 @@ title: "A chair a wheelchair can meet"
 slug: a-chair-a-wheelchair-can-meet
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 40
 word_count: 1629
 dek: "Dinner is a table height and a place to put a plate. The spare ‘chair’ is sometimes a wheelchair. The dining chairs have to leave, and the underside has to be a cave you can enter."
@@ -29,7 +29,16 @@ figures:
 verify:
   - "ADA dining-surface numbers: cite the current ADAAG if a number is printed [VERIFY live]"
   - "Allsteel wheelchair section is office; name it as cousin"
+
+figure_id: plates.diag-a-chair-a-wheelchair-can-meet
+image_rights: documented
+image_pass: 2026-09-14
 ---
+<!-- dchd-figure:v1 -->
+<figure class="dchd-figure">
+  <img src="../assets/diagrams/a-chair-a-wheelchair-can-meet.svg" alt="Diagram of wheelchair footprint and knee clearance under dining table" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Table underside dimensions — knee clearance without centering the wheelchair user as stock art. <em>Rights:</em> CC0-1.0 (pack schematic); Bradley Brand editorial / pack; <a href="content/dining-chairs-history-design/assets/diagrams/a-chair-a-wheelchair-can-meet.svg">source</a>. Original line diagram; no AI-generated faces or stock people.</figcaption>
+</figure>
 
 A wheelchair at dinner is not a special event in a lot of houses. It is a seat. The dining chairs have to get out of the way, and the table has to offer a cave: underside height, width, depth, nothing in the knee path that a pedestal or a drawer invented for looks.
 

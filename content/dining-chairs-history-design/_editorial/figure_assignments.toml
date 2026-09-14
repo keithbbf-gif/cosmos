@@ -1,0 +1,232 @@
+# slug -> plate_key, alt text, caption body (before Rights line)
+series = "dining-chairs-history-design"
+
+[the-chair-at-dinner]
+plate = "diag-the-chair-at-dinner"
+alt = "Side elevation diagram labeling thigh clearance between dining chair seat and table apron"
+caption = "The history is the gap — seat height paired to apron clearance, not splat fashion alone."
+
+[before-the-back-stools-and-benches]
+plate = "joint-stool-met"
+alt = "English oak joint stool photographed in the Met collection"
+caption = "Joint stool height — sitting without a back was the norm in hall and kitchen."
+
+[egypt-the-chair-as-rank]
+plate = "met-hatnefer-chair"
+alt = "Ancient Egyptian chair of Hatnefer in cedar and ebony, Met collection"
+caption = "Hatnefer's chair — rank made visible in wood long before the backed chair was common."
+
+[the-greek-klismos]
+plate = "klismos-vase-mar"
+alt = "Red-figure vase painting showing a woman seated on a klismos chair"
+caption = "Klismos on a vase — the sit survived in paint when the furniture did not."
+
+[rome-and-the-sella]
+plate = "sella-curulis-relief"
+alt = "Roman relief carving of a sella curulis folding stool"
+caption = "Sella curulis — portable dignity folded for travel and ceremony."
+
+[the-joint-stool-and-the-hall-bench]
+plate = "joint-stool-met"
+alt = "English oak joint stool with turned legs"
+caption = "Joint stool joinery — the stool the hall knew before the side chair multiplied."
+
+[renaissance-when-the-back-arrives]
+plate = "sgabello-cc0"
+alt = "Italian Renaissance sgabello chair with carved back panel"
+caption = "Sgabello — a backed chair form that still reads as furniture, not upholstery."
+
+[queen-anne-compass-seat]
+plate = "met-queen-anne-chair-dp265158"
+alt = "Queen Anne carved mahogany side chair with compass seat"
+caption = "Compass-front seat frame — the curve is cut in the rails, not stuffed on later."
+
+[chippendale-the-pierced-splat]
+plate = "chippendale-director-plate"
+alt = "Chippendale Director published plate of chair designs"
+caption = "Director plate — pierced splat vocabulary taught to shops and buyers."
+
+[windsor-stick-and-saddle]
+plate = "windsor-nutting-plate"
+alt = "Published illustration of Windsor chair forms with stick legs and saddle seat"
+caption = "Stick-and-saddle Windsor — turned legs driven into a sculpted seat."
+
+[hepplewhite-shield-back]
+plate = "hepplewhite-shield-chair"
+alt = "Hepplewhite shield-back side chair"
+caption = "Shield back — Hepplewhite's published profile in a documented side chair."
+
+[sheraton-square-and-reeded]
+plate = "met-rococo-chair-266251"
+alt = "American side chair with square and reeded post details"
+caption = "Square and reeded posts — Sheraton's lighter line beside heavier revival carving."
+
+[empire-saber-and-tablet]
+plate = "quervelle-empire-pedestal-haa"
+alt = "Empire pedestal dining table attributed to Quervelle workshop"
+caption = "Empire dining rooms — saber legs and tablet backs shared the same Grecian posture."
+
+[hitchcock-sitting-in-paint]
+plate = "met-side-chair-203079"
+alt = "American side chair with stenciled Hitchcock-style decoration"
+caption = "Stenciled factory chair — paint and rush in a named mill idiom."
+
+[thonet-fourteen]
+plate = "thonet-14"
+alt = "Thonet No. 14 bentwood cafe chair"
+caption = "No. 14 — steamed bentwood that scaled café and kitchen sitting."
+
+[balloon-back-and-the-long-course]
+plate = "met-slipper-chair-150203"
+alt = "Victorian slipper chair with upholstered seat"
+caption = "Victorian course sitting — balloon backs and slipper chairs held long meals."
+
+[eastlake-spindle-reform]
+plate = "met-gothic-chair-dp152859"
+alt = "Gothic Revival side chair with spindles and incised decoration"
+caption = "Eastlake reform in the air — spindle backs and honest turning beside revival carving."
+
+[stickley-slat-and-the-hour]
+plate = "stickley-tea-table-hnt"
+alt = "Gustav Stickley tea table top showing joinery and plank construction"
+caption = "Mission joinery culture — slat-back dining chairs share this shop honesty."
+
+[breuer-cesca-and-the-tube]
+plate = "breuer-cesca"
+alt = "Marcel Breuer Cesca cantilever side chair with tubular steel frame"
+caption = "Cesca — tube and cane as a twentieth-century side chair."
+
+[eames-dcm-plywood-side]
+plate = "eames-lcw-ford"
+alt = "Eames molded plywood dining chair on museum display"
+caption = "Molded plywood side chair — laminate seat pan as dining furniture."
+
+[saarinen-tulip-clears-the-floor]
+plate = "saarinen-tulip"
+alt = "Eero Saarinen Pedestal tulip side chair"
+caption = "Tulip pedestal — one stem clearing chair legs from the floor circle."
+
+[wegner-y-and-the-wishbone]
+plate = "wegner-wishbone-chair"
+alt = "Hans Wegner Wishbone CH24 chair in oak and paper cord"
+caption = "Wishbone Y — Danish cord seat on a dining-scaled oak frame."
+
+[jacobsen-series-seven]
+plate = "jacobsen-series7"
+alt = "Arne Jacobsen Series 7 molded plywood side chair"
+caption = "Series 7 — one-piece shell scaled to cafés and dining nooks."
+
+[the-plastic-stacker]
+plate = "robin-day-poly-stack"
+alt = "Robin Day polypropylene stacking chairs in original colors"
+caption = "Polypropylene stacker — Robin Day's molded shell at institutional scale."
+
+[ladderback-farm-and-revival]
+plate = "shaker-side-chair-met"
+alt = "Shaker slat-back side chair in the Met collection"
+caption = "Slat-back ladder form — farm kitchen and Shaker revival share the same rails."
+
+[ikea-ingolf-and-the-flat-chair]
+plate = "ikea-lack"
+alt = "IKEA LACK flat-pack table illustrating boxed particleboard furniture"
+caption = "Flat-pack dining — boxed chairs and tables; Ingolf catalog imagery still [VERIFY rights]."
+
+[eighteen-inches]
+plate = "diag-eighteen-inches"
+alt = "Diagram measuring finished dining chair seat height from floor"
+caption = "Seventeen to nineteen inches is habit, not law — measure after the pad settles."
+
+[the-gap-under-the-apron]
+plate = "diag-the-gap-under-the-apron"
+alt = "Diagram of clearance between chair seat and table apron"
+caption = "Thigh gap under the apron — the pair fails here before the splat does."
+
+[seat-depth-and-the-knee]
+plate = "diag-seat-depth-and-the-knee"
+alt = "Plan diagram of dining chair seat depth from front rail"
+caption = "Seat depth — leave the back of the knee free for a long conversation."
+
+[rake-is-not-a-lounge]
+plate = "diag-rake-is-not-a-lounge"
+alt = "Diagram comparing vertical chair back and raked dining back"
+caption = "Back rake — a little reach is fine; lounge rake steals the meal."
+
+[lumbar-is-the-wrong-word]
+plate = "diag-lumbar-is-the-wrong-word"
+alt = "Abstract torso outline comparing office lumbar zone to dining chair back contact"
+caption = "Lumbar as office vocabulary — dining contact is shoulder blades on the splat."
+
+[the-front-rail-and-the-thigh]
+plate = "diag-the-front-rail-and-the-thigh"
+alt = "Diagram comparing sharp and radiused dining chair front rails"
+caption = "Front rail arris — the thigh knows a sharp corner before the catalog does."
+
+[arms-that-clear]
+plate = "diag-arms-that-clear"
+alt = "Plan diagram of chair arms crossing table apron clearance zone"
+caption = "Arms that kiss the apron belong in another room."
+
+[host-and-hostess]
+plate = "met-queen-anne-chair-dp265158"
+alt = "Queen Anne carved mahogany side chair at the head-of-table scale"
+caption = "Host chair hierarchy — wider seat and arms when they clear the cloth."
+
+[cane-rush-leather-foam]
+plate = "met-william-mary-chair-142083"
+alt = "William and Mary side chair with caned seat"
+caption = "Cane and rush breathe; foam lies on Tuesday and bottoms on Thanksgiving."
+
+[rack-is-the-dinner-test]
+plate = "diag-rack-is-the-dinner-test"
+alt = "Diagram of dining chair frame racked into a parallelogram under lean"
+caption = "Rack test — diagonal lean turns a square frame into a parallelogram."
+
+[stacking-and-the-spare]
+plate = "robin-day-poly-stack"
+alt = "Stack of Robin Day polypropylene chairs"
+caption = "Stacking spare — institutional shells that refuse to be heirlooms."
+
+[children-at-the-table]
+plate = "diag-children-at-the-table"
+alt = "Diagram of booster seat height relative to table without showing a child"
+caption = "Booster and tape — popliteal height without identifiable children in frame."
+
+[the-long-dinner]
+plate = "met-slipper-chair-150203"
+alt = "Victorian slipper chair with upholstered seat"
+caption = "Long-course sitting — duration, not showroom twenty minutes."
+
+[a-chair-a-wheelchair-can-meet]
+plate = "diag-a-chair-a-wheelchair-can-meet"
+alt = "Diagram of wheelchair footprint and knee clearance under dining table"
+caption = "Table underside dimensions — knee clearance without centering the wheelchair user as stock art."
+
+[how-to-measure-a-dining-chair]
+plate = "diag-how-to-measure-a-dining-chair"
+alt = "Diagram labeling width, seat height, and back height on a schematic chair"
+caption = "Measure wood and finished seat — not cushion fantasy in the catalog photo."
+
+[arkansas-oak-side-chair]
+plate = "met-queen-anne-chair-dp265158"
+alt = "Queen Anne mahogany side chair as museum reference for quartersawn oak discussion"
+caption = "Oak side-chair stock — museum fill until BBF shop quartersawn frames are cleared."
+
+[comfort-myths]
+plate = "met-rococo-chair-266251"
+alt = "Rococo Revival side chair with upholstered seat"
+caption = "Comfort myths — shallow show chairs blamed for the wrong table decade."
+
+[how-to-read-a-dining-chair]
+plate = "met-chippendale-chair-dp265161"
+alt = "Chippendale carved mahogany side chair"
+caption = "Read the rails first — splat language follows the sitting brief."
+
+[side-chair-versus-armchair]
+plate = "met-chippendale-chair-dp265161"
+alt = "Chippendale side chair without arms"
+caption = "Side chair type — no arms, or arms that know the apron."
+
+[banquettes-refuse-the-chair]
+plate = "hamptons-open-kitchen"
+alt = "Open kitchen and dining area with built-in seating"
+caption = "Banquette floor plans — the chair type refused in favor of a fixed bench."

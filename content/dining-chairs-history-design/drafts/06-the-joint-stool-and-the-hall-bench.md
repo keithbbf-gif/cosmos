@@ -3,7 +3,7 @@ title: "The joint stool and the hall bench"
 slug: the-joint-stool-and-the-hall-bench
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 6
 word_count: 1794
 dek: "English oak, a boarded seat, stretchers in a box — the cheap dining seat of inventories, and the bench that made the hall a table."
@@ -29,7 +29,16 @@ figures:
 verify:
   - "Pin one joint-stool accession and date range from the live label"
   - "Do not invent a Wiltshire inventory ratio"
+
+figure_id: plates.joint-stool-met
+image_rights: documented
+image_pass: 2026-09-14
 ---
+<!-- dchd-figure:v1 -->
+<figure class="dchd-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Joint_Stool_MET_DT235347.jpg" alt="English oak joint stool with turned legs" width="1200" height="1500" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Joint stool joinery — the stool the hall knew before the side chair multiplied. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Joint_Stool_MET_DT235347.jpg">source</a>. English oak joint stool; Met American Wing.</figcaption>
+</figure>
 
 The joint stool is a small table that learned to be sat on. Four legs, often turned, splayed so the footprint is bigger than the seat; rails or stretchers that make a box; a board pegged or nailed or housed on top. English oak, sometimes elm in the seat, the finish worn to a polish where hose and hand hit. Victor Chinnery’s *Oak Furniture* is full of them because houses were full of them. They are not charming until a dealer says so. They are the seating that inventories could afford to list in quantity.
 

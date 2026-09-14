@@ -3,7 +3,7 @@ title: "Rome and the sella"
 slug: rome-and-the-sella
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 5
 word_count: 1817
 dek: "A folding stool that meant office, a cathedra that meant a teacher, and couches that did the actual dining. Rome’s seating is a vocabulary, not a set of eight."
@@ -29,7 +29,16 @@ figures:
 verify:
   - "Pin Wanscher plate / object for the folding stool figure"
   - "Allison’s Pompeian households: cite the specific room type if a furniture count is used"
+
+figure_id: plates.sella-curulis-relief
+image_rights: documented
+image_pass: 2026-09-14
 ---
+<!-- dchd-figure:v1 -->
+<figure class="dchd-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Relief_sella_curulis_Massimo.jpg" alt="Roman relief carving of a sella curulis folding stool" width="1200" height="657" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Sella curulis — portable dignity folded for travel and ceremony. <em>Rights:</em> CC BY 2.5; Museo Nazionale Romano (Palazzo Massimo); <a href="https://commons.wikimedia.org/wiki/File:Relief_sella_curulis_Massimo.jpg">source</a>. Relief with sella curulis folding stool.</figcaption>
+</figure>
 
 The sella folds. That is the Roman sentence I trust. Crossed legs, a seat of leather or fabric or a slat, a magistrate’s sign that can travel and still be a seat. Ole Wanscher’s *Sella Curulis* treats the folding stool as a symbol of dignity with a long afterlife. I start with the hinge, not with a marble throne. Dinner in a Roman house of means is often a couch problem anyway. The backed chair is not the center of the meal. Office is. Teaching is. The *cathedra* is a chair with a back for a person who speaks. The dining room of later America will forget that split and then reenact it with a host chair.
 

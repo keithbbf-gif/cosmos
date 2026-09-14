@@ -3,7 +3,7 @@ title: "Empire, saber and tablet"
 slug: empire-saber-and-tablet
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 13
 word_count: 1987
 dek: "The splat thins to a tablet or disappears into a saber. Grecian chairs come to dinner with a kick that takes a coat and a sit that is more lounge than Hepplewhite allowed."
@@ -29,7 +29,16 @@ figures:
 verify:
   - "Kenny and Brown object for Phyfe example"
   - "1802/1808 price-book citation for the labor line"
+
+figure_id: plates.quervelle-empire-pedestal-haa
+image_rights: documented
+image_pass: 2026-09-14
 ---
+<!-- dchd-figure:v1 -->
+<figure class="dchd-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Rectangular_pedestal_dining_room_table_attributed_to_Gabriel_Quervelle_of_Philadelphia%2C_c._1820-1830%2C_mahogany%2C_HAA.JPG" alt="Empire pedestal dining table attributed to Quervelle workshop" width="1200" height="702" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Empire dining rooms — saber legs and tablet backs shared the same Grecian posture. <em>Rights:</em> CC0 1.0; Historic American Art (Commons); <a href="https://commons.wikimedia.org/wiki/File:Rectangular_pedestal_dining_room_table_attributed_to_Gabriel_Quervelle_of_Philadelphia,_c._1820-1830,_mahogany,_HAA.JPG">source</a>. Empire dining furniture culture — pedestal and saber forms in the same rooms as tablet chairs.</figcaption>
+</figure>
 
 The saber is a kick. Rear legs sweep back; front legs may sweep forward; the back becomes a tablet or a curved bar; the old pierced splat loses the argument. Empire — French first, then English and American readings — wants antique power without Gothic lace. The dining chair that comes out of this is closer to the painted klismos than to Chippendale, and closer to a slight lounge than Hepplewhite’s hoop.
 

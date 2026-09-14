@@ -3,7 +3,7 @@ title: "Before the back"
 slug: before-the-back-stools-and-benches
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 2
 word_count: 1425
 dek: "Most people who have eaten did not sit in a backed chair. The stool and the bench are the older dining seats. The back is the late luxury that dinner learned to expect."
@@ -29,7 +29,16 @@ figures:
 verify:
   - "Pin one English joint-stool accession before any public photo [CITE NEEDED]"
   - "Do not invent a medieval household inventory count"
+
+figure_id: plates.joint-stool-met
+image_rights: documented
+image_pass: 2026-09-14
 ---
+<!-- dchd-figure:v1 -->
+<figure class="dchd-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Joint_Stool_MET_DT235347.jpg" alt="English oak joint stool photographed in the Met collection" width="1200" height="1500" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Joint stool height — sitting without a back was the norm in hall and kitchen. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Joint_Stool_MET_DT235347.jpg">source</a>. English oak joint stool; Met American Wing.</figcaption>
+</figure>
 
 A backed chair in a medieval hall was a small political fact. Everyone else had a length of oak and a neighbor’s hip. We walk through house museums now and the chairs are what the camera wants. The meal was the board and the bench. If you start the history of the dining chair with Chippendale, you have started in the last fifth of the story and in the richest rooms of that fifth.
 

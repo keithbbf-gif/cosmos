@@ -3,7 +3,7 @@ title: "Hitchcock, sitting in paint"
 slug: hitchcock-sitting-in-paint
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 14
 word_count: 1981
 dek: "The mill essay next door owns the factory and the stencil. This hour is the sit: rush, a light frame, paint as the chair, and what gravy does to bronze powder."
@@ -29,7 +29,16 @@ figures:
 verify:
   - "Sibling hitchcock-fancy-chairs remains the mill document; do not repeat Braden’s floor plan as if new"
   - "Confirm Ford object dimensions from the live label if printed"
+
+figure_id: plates.met-side-chair-203079
+image_rights: documented
+image_pass: 2026-09-14
 ---
+<!-- dchd-figure:v1 -->
+<figure class="dchd-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/db/Side_Chair_MET_203079.jpg" alt="American side chair with stenciled Hitchcock-style decoration" width="1200" height="1523" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Stenciled factory chair — paint and rush in a named mill idiom. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Side_Chair_MET_203079.jpg">source</a>. Stenciled factory side chair in the Hitchcock idiom.</figcaption>
+</figure>
 
 The stencil on the seat rail is a factory’s mouth. The dining-room pack already walked Hitchcocksville: the brick mill, the bronze powder, the weekly counts in the Henry Ford account, the women who stenciled, the rush. I will not rebuild that floor. I want what happens when you sit in the chair at a table that is not a museum riser.
 

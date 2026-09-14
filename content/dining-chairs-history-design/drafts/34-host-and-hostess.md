@@ -3,7 +3,7 @@ title: "Host and hostess"
 slug: host-and-hostess
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 34
 word_count: 1621
 dek: "Two arms at the ends, a rank leftover from rooms that inscribed a seat. The furniture still asks who carves and who faces the door."
@@ -28,7 +28,16 @@ figures:
     status: needed
 verify:
   - "Do not invent an etiquette manual quote; cite Kasson or a named guide if used"
+
+figure_id: plates.met-queen-anne-chair-dp265158
+image_rights: documented
+image_pass: 2026-09-14
 ---
+<!-- dchd-figure:v1 -->
+<figure class="dchd-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d6/Queen_Anne_Carved_Mahogany_Side_Chair_MET_DP265158.jpg" alt="Queen Anne carved mahogany side chair at the head-of-table scale" width="1200" height="1683" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Host chair hierarchy — wider seat and arms when they clear the cloth. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Queen_Anne_Carved_Mahogany_Side_Chair_MET_DP265158.jpg">source</a>. Queen Anne carved mahogany side chair.</figcaption>
+</figure>
 
 The ends of the table still remember rank. Two armchairs, often a little taller, often a little wider, sometimes carved when the sides are plain. Host and hostess is a furniture-store phrase for a leftover inscription. Egypt put a name on a back. A medieval hall put a wainscot at the high table. A Victorian cloth put arms at the ends and sides along the length. We still buy the set that way, even when no one carves and the door is behind everyone.
 

@@ -3,7 +3,7 @@ title: "Ladderback, farm and revival"
 slug: ladderback-farm-and-revival
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 25
 word_count: 1715
 dek: "Slats across a post, a rush or tape seat, a chair that stacks better than a claw. The farm type is older than the 1930s mood that sold it as ‘Early American.’"
@@ -29,7 +29,16 @@ figures:
 verify:
   - "Do not date a Revival chair to 1790 because it has slats"
   - "Sibling country-early-american-revival owns the later mood as a room"
+
+figure_id: plates.shaker-side-chair-met
+image_rights: documented
+image_pass: 2026-09-14
 ---
+<!-- dchd-figure:v1 -->
+<figure class="dchd-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/Side_Chair_MET_190604.jpg" alt="Shaker slat-back side chair in the Met collection" width="1200" height="1482" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Slat-back ladder form — farm kitchen and Shaker revival share the same rails. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Side_Chair_MET_190604.jpg">source</a>. Shaker side chair; Met American Wing.</figcaption>
+</figure>
 
 A ladderback is slats in a pair of posts, like rungs, a seat of rush or splint or Shaker tape, turned or shaved posts, often a finial that catches a dust rag. It is older than Mission and thinner. It stacks and hangs better than a claw. It sat at farm tables and then at 1930s “Early American” dinettes when factories needed a chair that read as ancestor.
 

@@ -3,7 +3,7 @@ title: "Sheraton, square and reeded"
 slug: sheraton-square-and-reeded
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 12
 word_count: 1511
 dek: "The Drawing-Book squares the back and reeds the leg. Dinner sits in a grid. The chair is a draftsman’s object that still has to take a hip."
@@ -29,7 +29,16 @@ figures:
 verify:
   - "Cite Drawing-Book plate from the edition used"
   - "Cabinet Dictionary 1803 note on dining-room vs drawing-room: confirm wording before quoting"
+
+figure_id: plates.met-rococo-chair-266251
+image_rights: documented
+image_pass: 2026-09-14
 ---
+<!-- dchd-figure:v1 -->
+<figure class="dchd-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/79/Side_Chair_MET_266251.jpg" alt="American side chair with square and reeded post details" width="1200" height="955" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Square and reeded posts — Sheraton's lighter line beside heavier revival carving. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Side_Chair_MET_266251.jpg">source</a>. Rococo Revival side chair — square and reeded postures in the same century.</figcaption>
+</figure>
 
 Thomas Sheraton was a draftsman who published like a teacher. *The Cabinet-Maker and Upholsterer’s Drawing-Book* (1793) and later the *Cabinet Dictionary* (1803) square the fashionable chair: a rectangular back, verticals you could have inked, legs that taper and take reeding like a column that learned manners. If Hepplewhite is a hoop and a picture, Sheraton is a grid. Federal America sits in both, often in the same room, and then Phyfe will pull the grid toward Greece.
 

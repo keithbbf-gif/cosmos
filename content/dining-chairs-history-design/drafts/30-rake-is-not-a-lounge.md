@@ -3,7 +3,7 @@ title: "Rake is not a lounge"
 slug: rake-is-not-a-lounge
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 30
 word_count: 1673
 dek: "A few degrees of back tilt keep you at the plate. Too much and the salt is a reach. Dining is not a club chair with a shorter seat."
@@ -28,7 +28,16 @@ figures:
     status: needed
 verify:
   - "If a degree band is printed as data, cite the source (Diffrient / Pheasant / a measured set)"
+
+figure_id: plates.diag-rake-is-not-a-lounge
+image_rights: documented
+image_pass: 2026-09-14
 ---
+<!-- dchd-figure:v1 -->
+<figure class="dchd-figure">
+  <img src="../assets/diagrams/rake-is-not-a-lounge.svg" alt="Diagram comparing vertical chair back and raked dining back" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Back rake — a little reach is fine; lounge rake steals the meal. <em>Rights:</em> CC0-1.0 (pack schematic); Bradley Brand editorial / pack; <a href="content/dining-chairs-history-design/assets/diagrams/rake-is-not-a-lounge.svg">source</a>. Original line diagram; no AI-generated faces or stock people.</figcaption>
+</figure>
 
 Rake is the back’s tilt off the vertical, and sometimes the seat’s tilt off the level. A little of both can keep you in the chair without a death-grip in the thighs. A lot of both is a lounge. Dinner is a forward activity: knife, glass, a face across the table. If the chair wins, the plate loses.
 

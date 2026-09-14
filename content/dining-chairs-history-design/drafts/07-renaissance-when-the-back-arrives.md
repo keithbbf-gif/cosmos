@@ -3,7 +3,7 @@ title: "When the back arrives"
 slug: renaissance-when-the-back-arrives
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 7
 word_count: 1714
 dek: "Sgabelletti, caquetoires, wainscot and upholstered backs — the century when more people got something to lean on, and dinner started to individualize."
@@ -29,7 +29,16 @@ figures:
 verify:
   - "Pin sgabello and caquetoire accessions"
   - "Thornton 1978: cite the plate if a specific interior is named"
+
+figure_id: plates.sgabello-cc0
+image_rights: documented
+image_pass: 2026-09-14
 ---
+<!-- dchd-figure:v1 -->
+<figure class="dchd-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Sgabello_5KA3863.tif" alt="Italian Renaissance sgabello chair with carved back panel" width="1200" height="800" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Sgabello — a backed chair form that still reads as furniture, not upholstery. <em>Rights:</em> CC0 1.0; Wikimedia Commons (museum scan); <a href="https://commons.wikimedia.org/wiki/File:Sgabello_5KA3863.tif">source</a>. Italian Renaissance sgabello chair form.</figcaption>
+</figure>
 
 The back does not arrive all at once. It arrives as a board nailed to a stool, as a paneled wainscot that weighs like furniture-as-wall, as a French chair named for chatter, as an Italian *sgabello* that is still half a stool with ambitions. Peter Thornton’s interiors are useful here: decoration and seating as a room language, not as a catalog of types you can order in six-packs. Dinner is still a board in a lot of houses. What changes is how many sitters get a stop for the spine, and how much that stop costs.
 

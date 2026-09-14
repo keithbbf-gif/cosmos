@@ -3,7 +3,7 @@ title: "Banquettes refuse the chair"
 slug: banquettes-refuse-the-chair
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 46
 word_count: 1743
 dek: "A built-in seat along a wall is a bench that learned upholstery and a floor plan. It refuses the individual side chair — and it brings back the problem of getting out."
@@ -28,7 +28,16 @@ figures:
     status: needed
 verify:
   - "Do not invent a first American breakfast-nook year"
+
+figure_id: plates.hamptons-open-kitchen
+image_rights: documented
+image_pass: 2026-09-14
 ---
+<!-- dchd-figure:v1 -->
+<figure class="dchd-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Hamptons_Kitchen_Design_1.jpg" alt="Open kitchen and dining area with built-in seating" width="1200" height="800" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Banquette floor plans — the chair type refused in favor of a fixed bench. <em>Rights:</em> CC BY-SA 4.0; Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:Hamptons_Kitchen_Design_1.jpg">source</a>. Open kitchen/dining plan where banquettes replace freestanding chairs.</figcaption>
+</figure>
 
 A banquette is a bench that signed a lease with the wall. Upholstered, often buttoned, often too deep, a breakfast nook or a restaurant booth or an open-plan kitchen’s way of seating three where two chairs would stand. It refuses the individual dining chair: no pull-out, no stack, no splat to photograph as a set. It brings back the medieval problem in foam: the middle person wants out.
 

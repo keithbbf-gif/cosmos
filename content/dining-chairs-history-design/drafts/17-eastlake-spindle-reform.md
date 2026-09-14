@@ -3,7 +3,7 @@ title: "Eastlake, spindle reform"
 slug: eastlake-spindle-reform
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 17
 word_count: 1720
 dek: "Hints on Household Taste (1868) wants honesty and fewer cabrioles. American factories read that as turned spindles and ebonized grooves. The sit gets more vertical. The sermon gets a catalog."
@@ -29,7 +29,16 @@ figures:
 verify:
   - "Cite American edition if quoting a plate that differs"
   - "Do not treat every incised-line chair as ‘Eastlake’ without a date range"
+
+figure_id: plates.met-gothic-chair-dp152859
+image_rights: documented
+image_pass: 2026-09-14
 ---
+<!-- dchd-figure:v1 -->
+<figure class="dchd-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/f/f0/Side_chair_MET_DP152859.jpg" alt="Gothic Revival side chair with spindles and incised decoration" width="1200" height="1540" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Eastlake reform in the air — spindle backs and honest turning beside revival carving. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Side_chair_MET_DP152859.jpg">source</a>. Gothic Revival side chair.</figcaption>
+</figure>
 
 Charles Eastlake’s *Hints on Household Taste* (1868, then American editions) is a reform argument: construction you can read, less naturalistic fruit, turning and geometry instead of a cabriole that pretends to be an animal. American factories heard “Eastlake” and made a style — incised lines, ebonized maple or walnut, galleries of spindles, a chair that looks like a small machine for sitting upright. The sibling pack has Eastlake in the dining room as a reform interior. This hour is the spindle against your back.
 

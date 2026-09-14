@@ -3,7 +3,7 @@ title: "Balloon-back and the long course"
 slug: balloon-back-and-the-long-course
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 16
 word_count: 1926
 dek: "A rounded open back, a stuffed seat, a Victorian dinner that outlasted hunger. The balloon is a hoop that learned upholstery, and a sit that assumes courses."
@@ -29,7 +29,16 @@ figures:
 verify:
   - "Pin one object for the hoop construction (laminated vs cut)"
   - "Do not invent a course-count as a national average"
+
+figure_id: plates.met-slipper-chair-150203
+image_rights: documented
+image_pass: 2026-09-14
 ---
+<!-- dchd-figure:v1 -->
+<figure class="dchd-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Slipper_Chair_MET_150203.jpg" alt="Victorian slipper chair with upholstered seat" width="1200" height="1677" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Victorian course sitting — balloon backs and slipper chairs held long meals. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Slipper_Chair_MET_150203.jpg">source</a>. Victorian slipper chair — long-course sitting.</figcaption>
+</figure>
 
 The balloon-back is an O you look through. A rounded open back, often walnut or mahogany, sometimes rosewood in richer rooms; a stuffed seat on coil or webbing; cabriole or turned legs that have learned a later century’s carving. It is the dining chair of a meal that has become a program. Soup, fish, a roast, a sweet, talk that is part of the service. John Kasson’s manners book is not a furniture catalog, but duration is a furniture problem. A balloon-back assumes you will stay.
 

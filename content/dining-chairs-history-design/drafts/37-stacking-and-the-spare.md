@@ -3,7 +3,7 @@ title: "Stacking and the spare"
 slug: stacking-and-the-spare
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 37
 word_count: 1542
 dek: "The extra chair is the problem a dining room pretends not to have. Hang, stack, line the wall, or own a column of plastic. Occupancy is a design choice."
@@ -28,7 +28,16 @@ figures:
     status: needed
 verify:
   - "Do not invent a colonial peg-rail as universal"
+
+figure_id: plates.robin-day-poly-stack
+image_rights: documented
+image_pass: 2026-09-14
 ---
+<!-- dchd-figure:v1 -->
+<figure class="dchd-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/f/f5/Plastic_stacking_chairs_designed_by_Robin_Day.jpg" alt="Stack of Robin Day polypropylene chairs" width="1200" height="1600" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Stacking spare — institutional shells that refuse to be heirlooms. <em>Rights:</em> CC0 1.0; Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:Plastic_stacking_chairs_designed_by_Robin_Day.jpg">source</a>. Robin Day polypropylene stacking chairs.</figcaption>
+</figure>
 
 Every dining room has a lie about how many people it can seat. The table opens. The chairs do not multiply. The spare chair is the truth: a Windsor on a peg, a ladderback against a wall, a joint stool under the board, a Thonet from the extra crate, a Series 7 column, a stacker in the garage, a folding metal thing that bites a finger.
 

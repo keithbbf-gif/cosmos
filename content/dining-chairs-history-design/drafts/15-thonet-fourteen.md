@@ -3,7 +3,7 @@ title: "Thonet fourteen"
 slug: thonet-fourteen
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 15
 word_count: 1841
 dek: "Steam, a few screws, a cane seat, a café that taught the world a dining chair could be a repeating product without looking like a Hitchcock stencil."
@@ -29,7 +29,16 @@ figures:
 verify:
   - "Wilk / von Vegesack for early dating of No. 14; do not invent a first-year from memory"
   - "Do not print a total-produced number without a named source [CITE NEEDED]"
+
+figure_id: plates.thonet-14
+image_rights: documented
+image_pass: 2026-09-14
 ---
+<!-- dchd-figure:v1 -->
+<figure class="dchd-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/71/Michael_Thonet_14.jpg" alt="Thonet No. 14 bentwood cafe chair" width="888" height="1200" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> No. 14 — steamed bentwood that scaled café and kitchen sitting. <em>Rights:</em> CC BY-SA 3.0; Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:Michael_Thonet_14.jpg">source</a>. Thonet No. 14 bentwood chair.</figcaption>
+</figure>
 
 The No. 14 is a small pile of bent beech and a cane seat, held with screws you are allowed to see. Michael Thonet’s steam process — laminated strips first, then solid rods in steam — made a chair that could leave Moravia in pieces and become a café in Vienna, a kitchen in Brooklyn, a church basement anywhere the crate went. Christopher Wilk and later MAK/Vitra writing are the trail. I will not invent a “fifty million sold” from a blog. `[CITE NEEDED]` before any total. The type is famous enough without a fake census.
 

@@ -3,7 +3,7 @@ title: "Seat depth and the knee"
 slug: seat-depth-and-the-knee
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 29
 word_count: 1528
 dek: "Buttock to popliteal. A dining seat that is too deep cuts the back of the knee. A seat that is too shallow leaves a long femur floating. Dinner does not have a slider."
@@ -28,7 +28,16 @@ figures:
     status: needed
 verify:
   - "If a numeric band is printed as data, cite Pheasant buttock–popliteal length and the condition"
+
+figure_id: plates.diag-seat-depth-and-the-knee
+image_rights: documented
+image_pass: 2026-09-14
 ---
+<!-- dchd-figure:v1 -->
+<figure class="dchd-figure">
+  <img src="../assets/diagrams/seat-depth-and-the-knee.svg" alt="Plan diagram of dining chair seat depth from front rail" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Seat depth — leave the back of the knee free for a long conversation. <em>Rights:</em> CC0-1.0 (pack schematic); Bradley Brand editorial / pack; <a href="content/dining-chairs-history-design/assets/diagrams/seat-depth-and-the-knee.svg">source</a>. Original line diagram; no AI-generated faces or stock people.</figcaption>
+</figure>
 
 The front rail should not be a bar into the back of the knee. That is the whole depth argument. Stephen Pheasant calls the relevant bone buttock–popliteal length: how much thigh you have to put on a seat before the seat runs into the popliteal fold. Office chairs invent sliders because one worker owns the chair. Dinner invents nothing. Six people share six fixed depths.
 

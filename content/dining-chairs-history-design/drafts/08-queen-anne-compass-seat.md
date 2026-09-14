@@ -3,7 +3,7 @@ title: "Queen Anne, the compass seat"
 slug: queen-anne-compass-seat
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 8
 word_count: 1622
 dek: "A rounded front, a vase splat, cabriole legs — the dining chair gets lighter and starts to turn as you eat. The compass is the sit, not the date."
@@ -29,7 +29,16 @@ figures:
 verify:
   - "Pin Heckscher or Winterthur object for fig-01"
   - "Walnut vs maple in American examples: read the label"
+
+figure_id: plates.met-queen-anne-chair-dp265158
+image_rights: documented
+image_pass: 2026-09-14
 ---
+<!-- dchd-figure:v1 -->
+<figure class="dchd-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d6/Queen_Anne_Carved_Mahogany_Side_Chair_MET_DP265158.jpg" alt="Queen Anne carved mahogany side chair with compass seat" width="1200" height="1683" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Compass-front seat frame — the curve is cut in the rails, not stuffed on later. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Queen_Anne_Carved_Mahogany_Side_Chair_MET_DP265158.jpg">source</a>. Queen Anne carved mahogany side chair.</figcaption>
+</figure>
 
 The compass seat is a curve you feel in the knees before you see it in a catalog. The front rail bows. The seat is not a square. You sit, and the chair lets you rotate a few degrees toward the person on your right without walking the rear legs. Queen Anne as a date is a mess — she dies in 1714, the style runs later, America keeps the vase splat into years that London would call something else. Queen Anne as a sit is clearer: lighter than wainscot, a back you can see through, cabriole front legs that take the show, and that rounded seat.
 

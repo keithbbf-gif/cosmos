@@ -3,7 +3,7 @@ title: "Arms that clear"
 slug: arms-that-clear
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 33
 word_count: 1593
 dek: "If the arm hits the apron, the armchair is a parlor chair in exile. Host furniture is a clearance problem before it is a hierarchy."
@@ -28,7 +28,16 @@ figures:
     status: needed
 verify:
   - "Do not print a single arm-height law; pair to the table"
+
+figure_id: plates.diag-arms-that-clear
+image_rights: documented
+image_pass: 2026-09-14
 ---
+<!-- dchd-figure:v1 -->
+<figure class="dchd-figure">
+  <img src="../assets/diagrams/arms-that-clear.svg" alt="Plan diagram of chair arms crossing table apron clearance zone" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Arms that kiss the apron belong in another room. <em>Rights:</em> CC0-1.0 (pack schematic); Bradley Brand editorial / pack; <a href="content/dining-chairs-history-design/assets/diagrams/arms-that-clear.svg">source</a>. Original line diagram; no AI-generated faces or stock people.</figcaption>
+</figure>
 
 An armchair at dinner has to do a trick: hold a body and still slide into a table that was drawn for side chairs. If the arm meets the apron, you sit six inches too far from the plate and you carve in the air. That is not dignity. That is a miss.
 

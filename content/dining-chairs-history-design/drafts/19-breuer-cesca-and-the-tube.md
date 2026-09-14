@@ -3,7 +3,7 @@ title: "Breuer, Cesca and the tube"
 slug: breuer-cesca-and-the-tube
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 19
 word_count: 1670
 dek: "A steel sled, a cane seat, a back that floats. The Cesca (B32) brings the café’s cane onto a tube and asks dinner to sit in a modern line that still sags."
@@ -29,7 +29,16 @@ figures:
 verify:
   - "Wilk 1981 for dating; Knoll/Gavina later production history — do not flatten"
   - "Do not invent a first-year restaurant commission"
+
+figure_id: plates.breuer-cesca
+image_rights: documented
+image_pass: 2026-09-14
 ---
+<!-- dchd-figure:v1 -->
+<figure class="dchd-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Breuer_chair_2008.jpg" alt="Marcel Breuer Cesca cantilever side chair with tubular steel frame" width="920" height="1200" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Cesca — tube and cane as a twentieth-century side chair. <em>Rights:</em> CC BY-SA 3.0; Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:Breuer_chair_2008.jpg">source</a>. Marcel Breuer Cesca (B32) cantilever side chair.</figcaption>
+</figure>
 
 Marcel Breuer’s B32 — later called Cesca, after his daughter Francesca in the marketing afterlife — is a tubular steel sled with a cane seat and a cane back in wooden frames. Christopher Wilk’s MoMA furniture book is the place to start. I will not untangle every license and every Italian factory in this hour. I want the sit at a table: a chair that springs a little, prints a hexagon on you, and slides on a hard floor like a thought you have not finished.
 

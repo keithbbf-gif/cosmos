@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-labelledby="title desc">
+  <title id="title">Back rake versus vertical</title>
+  <desc id="desc">Side view comparing vertical post and raked back.</desc>
+  <rect width="100%" height="100%" fill="#E8E4DC"/>
+
+  <line x1="280" y1="320" x2="280" y2="120" stroke="#2A2622" stroke-width="4"/>
+  <line x1="320" y1="320" x2="350" y2="130" stroke="#3D6B8E" stroke-width="4"/>
+  <line x1="280" y1="320" x2="350" y2="320" stroke="#6B6560" stroke-width="2"/>
+  <path d="M280 320 A60 60 0 0 0 330 270" fill="none" stroke="#C45C3E" stroke-width="2"/>
+  <text x="360" y="200" font-family="Helvetica,Arial,sans-serif" font-size="13" fill="#C45C3E">back rake</text>
+  <text x="120" y="340" font-family="Georgia,serif" font-size="12" fill="#5A554F">too much rake → reach and lounge, not dinner</text>
+
+</svg>

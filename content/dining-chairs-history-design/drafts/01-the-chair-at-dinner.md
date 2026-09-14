@@ -3,7 +3,7 @@ title: "The chair at dinner"
 slug: the-chair-at-dinner
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 1
 word_count: 1585
 dek: "Dinner is a pair: a table height and a seat that has to clear the apron, take a hip, and last the meal. The room is another series. This one is the chair."
@@ -33,7 +33,16 @@ optional_links:
 verify:
   - "Do not print a Wilmar house seat height as standard without a shop note [VERIFY]"
   - "Sibling splat-to-ladder essay remains the room-pack survey; this opener must not steal that lede"
+
+figure_id: plates.diag-the-chair-at-dinner
+image_rights: documented
+image_pass: 2026-09-14
 ---
+<!-- dchd-figure:v1 -->
+<figure class="dchd-figure">
+  <img src="../assets/diagrams/the-chair-at-dinner.svg" alt="Side elevation diagram labeling thigh clearance between dining chair seat and table apron" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> The history is the gap — seat height paired to apron clearance, not splat fashion alone. <em>Rights:</em> CC0-1.0 (pack schematic); Bradley Brand editorial / pack; <a href="content/dining-chairs-history-design/assets/diagrams/the-chair-at-dinner.svg">source</a>. Original line diagram; no AI-generated faces or stock people.</figcaption>
+</figure>
 
 The front rail found the thigh before the soup found the spoon. I was sitting in a chair that had been sold as dining — handsome splat, honest oak, a seat that photographed well — at a table whose apron had been cut deep for a drawer the table did not need. The wood was fine. The pair was not. That is the whole argument if you want it in one contact: a dining chair is not a sculpture that happens to stand near plates. It is half of a machine. The other half is the table.
 

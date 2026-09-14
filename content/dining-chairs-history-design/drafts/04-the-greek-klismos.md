@@ -3,7 +3,7 @@ title: "The Greek klismos"
 slug: the-greek-klismos
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 4
 word_count: 1872
 dek: "Saber legs and a concave back from vase-painting — a chair almost no wood survives to prove, and a silhouette later rooms could not leave alone."
@@ -29,7 +29,16 @@ figures:
 verify:
   - "Pin one vase accession for fig-01 before publication"
   - "Do not invent a surviving fifth-century wooden klismos"
+
+figure_id: plates.klismos-vase-mar
+image_rights: documented
+image_pass: 2026-09-14
 ---
+<!-- dchd-figure:v1 -->
+<figure class="dchd-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Woman_klismos_MAR_Palermo_NI2091.jpg" alt="Red-figure vase painting showing a woman seated on a klismos chair" width="1200" height="1800" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Klismos on a vase — the sit survived in paint when the furniture did not. <em>Rights:</em> CC BY 2.5; Museo Archeologico Regionale Antonio Salinas, Palermo; <a href="https://commons.wikimedia.org/wiki/File:Woman_klismos_MAR_Palermo_NI2091.jpg">source</a>. Red-figure vase with klismos chair; Palermo NI2091.</figcaption>
+</figure>
 
 The klismos everyone knows is paint. A red-figure woman sits in a chair whose back is a curve and whose legs are sabers, light as a line. The seat is a thin plane. There is no fat splat, no ball-and-claw, no stretcher box you can lean a boot on. Gisela Richter spent a career turning those paintings and a handful of reliefs into a furniture history. The wood, for the classical type, is almost not there. That absence is the first fact. The second is that later Europe could not stop rebuilding the silhouette from the drawings.
 

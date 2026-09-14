@@ -3,7 +3,7 @@ title: "Side chair versus armchair"
 slug: side-chair-versus-armchair
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 45
 word_count: 1501
 dek: "The side chair is the dining type. The armchair is a clearance problem and a leftover rank. Mixing them is a set. Filling the table with arms is a fence."
@@ -21,7 +21,16 @@ figures:
     license: "Owner"
     status: needed
 verify: []
+
+figure_id: plates.met-chippendale-chair-dp265161
+image_rights: documented
+image_pass: 2026-09-14
 ---
+<!-- dchd-figure:v1 -->
+<figure class="dchd-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Chippendale_Carved_Mahogany_Side_Chair_MET_DP265161.jpg" alt="Chippendale side chair without arms" width="1200" height="1723" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Side chair type — no arms, or arms that know the apron. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Chippendale_Carved_Mahogany_Side_Chair_MET_DP265161.jpg">source</a>. Chippendale carved mahogany side chair.</figcaption>
+</figure>
 
 The side chair is the dining chair. Armless, it slides, it packs along a length, it lets a platter pass, it does not invent a collision with the apron. The armchair is a special: ends, a rest, a leftover inscription, a wider timber bill. Stores sell “two plus four” because the nineteenth century did and because the photograph looks complete. Completeness is not a law.
 

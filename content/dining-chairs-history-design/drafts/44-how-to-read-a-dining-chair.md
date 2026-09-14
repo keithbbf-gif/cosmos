@@ -3,7 +3,7 @@ title: "How to read a dining chair"
 slug: how-to-read-a-dining-chair
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 44
 word_count: 1568
 dek: "Joints, seat diary, recut feet, the pair on the floor. A method for a chair in a room, an auction, or a shop — without a sermon."
@@ -28,7 +28,16 @@ figures:
     status: needed
 verify:
   - "No invented auction-house quotes"
+
+figure_id: plates.met-chippendale-chair-dp265161
+image_rights: documented
+image_pass: 2026-09-14
 ---
+<!-- dchd-figure:v1 -->
+<figure class="dchd-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Chippendale_Carved_Mahogany_Side_Chair_MET_DP265161.jpg" alt="Chippendale carved mahogany side chair" width="1200" height="1723" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Read the rails first — splat language follows the sitting brief. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Chippendale_Carved_Mahogany_Side_Chair_MET_DP265161.jpg">source</a>. Chippendale carved mahogany side chair.</figcaption>
+</figure>
 
 Turn the chair over. The listing photograph will not. Corner blocks, screws that do not belong, a seat that is plywood in a rush frame, a stretcher that was added, a stretcher that was removed, a front rail that has been planed to take a thicker pad. The meal writes underneath.
 

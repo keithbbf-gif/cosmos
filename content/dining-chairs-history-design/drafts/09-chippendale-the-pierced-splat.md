@@ -3,7 +3,7 @@ title: "Chippendale, the pierced splat"
 slug: chippendale-the-pierced-splat
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 9
 word_count: 1484
 dek: "The Director opens the back: ribbon, tassel, Gothic tracery, a hole a sleeve can catch. Dinner finds the piercing and the claw."
@@ -29,7 +29,16 @@ figures:
 verify:
   - "Cite Director plate number from the edition used"
   - "Do not steal the sibling Philadelphia dining lede; this is the splat and the sit"
+
+figure_id: plates.chippendale-director-plate
+image_rights: documented
+image_pass: 2026-09-14
 ---
+<!-- dchd-figure:v1 -->
+<figure class="dchd-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/The_Gentleman_and_Cabinet-Maker%27s_Director_MET_DP105205.jpg" alt="Chippendale Director published plate of chair designs" width="1200" height="1772" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Director plate — pierced splat vocabulary taught to shops and buyers. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:The_Gentleman_and_Cabinet-Maker%27s_Director_MET_DP105205.jpg">source</a>. Chippendale Director plate — published chair designs.</figcaption>
+</figure>
 
 Thomas Chippendale’s *Director* (1754, then later editions) does not invent the dining chair. It opens the splat and sells the opening. Ribbon, tassel, Gothic tracery, Chinese fret — the back becomes a drawing you can see the window through, and a catch for a sleeve. A parlor can live with that catch. Dinner, with serving and coats and a reach across a corner, lives with it every course.
 

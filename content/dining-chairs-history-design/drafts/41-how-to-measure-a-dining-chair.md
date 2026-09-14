@@ -3,7 +3,7 @@ title: "How to measure a dining chair"
 slug: how-to-measure-a-dining-chair
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 41
 word_count: 1582
 dek: "A tape, a fist in the foam, the underside of the table, the path of an arm. Catalog numbers are a starting rumor."
@@ -28,7 +28,16 @@ figures:
     status: needed
 verify:
   - "Diagram to be drawn; do not publish a pretty but wrong schematic"
+
+figure_id: plates.diag-how-to-measure-a-dining-chair
+image_rights: documented
+image_pass: 2026-09-14
 ---
+<!-- dchd-figure:v1 -->
+<figure class="dchd-figure">
+  <img src="../assets/diagrams/how-to-measure-a-dining-chair.svg" alt="Diagram labeling width, seat height, and back height on a schematic chair" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Measure wood and finished seat — not cushion fantasy in the catalog photo. <em>Rights:</em> CC0-1.0 (pack schematic); Bradley Brand editorial / pack; <a href="content/dining-chairs-history-design/assets/diagrams/how-to-measure-a-dining-chair.svg">source</a>. Original line diagram; no AI-generated faces or stock people.</figcaption>
+</figure>
 
 Bring a tape. Bring the pad you will actually use. Get under the table. Sit. Pull in. None of this is advanced. Most of what goes wrong is a photograph and a number that meant the rail, not the sit.
 

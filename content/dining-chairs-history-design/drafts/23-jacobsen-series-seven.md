@@ -3,7 +3,7 @@ title: "Jacobsen, Series 7"
 slug: jacobsen-series-seven
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 23
 word_count: 1819
 dek: "A single plywood veneer shell on a tubular base — 3107 / Series 7, 1955. The dining chair becomes a stack of silhouettes and a sit that is all curve."
@@ -29,7 +29,16 @@ figures:
 verify:
   - "Thau and Vindum / Fritz Hansen for 1955 dating"
   - "Ant chair is a cousin; do not conflate models"
+
+figure_id: plates.jacobsen-series7
+image_rights: documented
+image_pass: 2026-09-14
 ---
+<!-- dchd-figure:v1 -->
+<figure class="dchd-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/14/Jacobsen%2C_7an.jpg" alt="Arne Jacobsen Series 7 molded plywood side chair" width="1200" height="1543" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Series 7 — one-piece shell scaled to cafés and dining nooks. <em>Rights:</em> CC BY-SA 3.0; Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:Jacobsen,_7an.jpg">source</a>. Arne Jacobsen Series 7 chair.</figcaption>
+</figure>
 
 Arne Jacobsen’s Series 7 — the 3107 in Fritz Hansen’s numbering — is a pressure-molded veneer shell on a chrome or later base, a waist in the middle, a stack when you need the floor. 1955. Thau and Vindum’s monograph and the maker’s records are the trail. The Ant is a cousin with a different cut. Do not mix the names if you are buying.
 

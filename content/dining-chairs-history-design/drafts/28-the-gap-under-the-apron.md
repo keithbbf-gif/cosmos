@@ -3,7 +3,7 @@ title: "The gap under the apron"
 slug: the-gap-under-the-apron
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 28
 word_count: 1547
 dek: "Thigh to wood. The history of the dining chair is fashion above the rail and a clearance below it. If the gap is wrong, the splat is a drawing."
@@ -29,7 +29,16 @@ figures:
 verify:
   - "Do not print a single inch as house law without a shop note"
   - "Thigh thickness: if a percentile is quoted, cite Pheasant/CAESAR and the condition (seated, clothed)"
+
+figure_id: plates.diag-the-gap-under-the-apron
+image_rights: documented
+image_pass: 2026-09-14
 ---
+<!-- dchd-figure:v1 -->
+<figure class="dchd-figure">
+  <img src="../assets/diagrams/the-gap-under-the-apron.svg" alt="Diagram of clearance between chair seat and table apron" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Thigh gap under the apron — the pair fails here before the splat does. <em>Rights:</em> CC0-1.0 (pack schematic); Bradley Brand editorial / pack; <a href="content/dining-chairs-history-design/assets/diagrams/the-gap-under-the-apron.svg">source</a>. Original line diagram; no AI-generated faces or stock people.</figcaption>
+</figure>
 
 I have watched a handsome chair lose a dinner to a drawer. The table was honest oak. The drawer was for cloths no one kept in it. The apron came down far enough that the sitter’s thigh met wood before the plate met the fork. The splat was a vase. The knees were the review.
 

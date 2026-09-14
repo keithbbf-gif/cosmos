@@ -3,7 +3,7 @@ title: "Stickley, slat and the hour"
 slug: stickley-slat-and-the-hour
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 18
 word_count: 1871
 dek: "A post, a row of slats, a leather seat — Mission dining as a long sit that occupies the room even when no one is eating. The slat is structure and a sermon."
@@ -29,7 +29,16 @@ figures:
 verify:
   - "Pin a shop mark / model from a named record"
   - "Prairie high-backs are a sibling-room topic; do not steal Wright’s dining lede"
+
+figure_id: plates.stickley-tea-table-hnt
+image_rights: documented
+image_pass: 2026-09-14
 ---
+<!-- dchd-figure:v1 -->
+<figure class="dchd-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Stickley_-_tea_table_-_top_-_HNT_-_Copy.jpg" alt="Gustav Stickley tea table top showing joinery and plank construction" width="1200" height="1256" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Mission joinery culture — slat-back dining chairs share this shop honesty. <em>Rights:</em> CC BY-SA 4.0; Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:Stickley_-_tea_table_-_top_-_HNT_-_Copy.jpg">source</a>. Stickley joinery — slat-back chairs share this shop culture.</figcaption>
+</figure>
 
 Gustav Stickley’s dining chair is a set of posts and slats that refuse to disappear. Oak — often quartersawn, the flake showing — a leather or rush seat, a back that is a wall of horizontals or verticals depending on the model, corbels if the shop is speaking the full dialect. *The Craftsman* sold this as a way to live. The dining-room pack already put Stickley at the Mission table. I want the hour you spend in the slats.
 

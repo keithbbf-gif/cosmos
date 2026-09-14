@@ -3,7 +3,7 @@ title: "The front rail and the thigh"
 slug: the-front-rail-and-the-thigh
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 32
 word_count: 1496
 dek: "A sharp bar under the hamstring is not a style. It is a rail that was left square, or a seat that is too high, or a cushion that slid you forward onto an arris."
@@ -28,7 +28,16 @@ figures:
     status: needed
 verify:
   - "Haircloth failure as a conservation observation; cite a lab note if printed as a study"
+
+figure_id: plates.diag-the-front-rail-and-the-thigh
+image_rights: documented
+image_pass: 2026-09-14
 ---
+<!-- dchd-figure:v1 -->
+<figure class="dchd-figure">
+  <img src="../assets/diagrams/the-front-rail-and-the-thigh.svg" alt="Diagram comparing sharp and radiused dining chair front rails" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Front rail arris — the thigh knows a sharp corner before the catalog does. <em>Rights:</em> CC0-1.0 (pack schematic); Bradley Brand editorial / pack; <a href="content/dining-chairs-history-design/assets/diagrams/the-front-rail-and-the-thigh.svg">source</a>. Original line diagram; no AI-generated faces or stock people.</figcaption>
+</figure>
 
 The front rail is where dinner signs the chair. Haircloth splits there. Leather wears there. Rush abrades there. Your hamstring learns an arris there in the first twenty minutes if the shop left the edge square and the seat a little high.
 

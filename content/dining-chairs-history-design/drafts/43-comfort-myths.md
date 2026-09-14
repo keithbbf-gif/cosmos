@@ -3,7 +3,7 @@ title: "Comfort myths"
 slug: comfort-myths
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 43
 word_count: 1517
 dek: "Old chairs are uncomfortable. Soft is kind. Lumbar is required. Matching matters more than measuring. A short list of sentences that ruin dinners."
@@ -22,7 +22,16 @@ figures:
     status: needed
 verify:
   - "No invented customer quotes"
+
+figure_id: plates.met-rococo-chair-266251
+image_rights: documented
+image_pass: 2026-09-14
 ---
+<!-- dchd-figure:v1 -->
+<figure class="dchd-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/79/Side_Chair_MET_266251.jpg" alt="Rococo Revival side chair with upholstered seat" width="1200" height="955" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Comfort myths — shallow show chairs blamed for the wrong table decade. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Side_Chair_MET_266251.jpg">source</a>. Rococo Revival side chair — square and reeded postures in the same century.</figcaption>
+</figure>
 
 I keep a list of sentences that wreck a purchase. They are not always wrong. They are underspecified. Dinner is a pair and a duration. A myth is a sentence that forgets one of those.
 

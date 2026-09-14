@@ -3,7 +3,7 @@ title: "Arkansas oak side chair"
 slug: arkansas-oak-side-chair
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 42
 word_count: 1550
 dek: "A side chair cut in southern oak for a table that already exists. Bradley Brand may appear here because the wood is the subject. No SKU. No succession story."
@@ -37,7 +37,16 @@ verify:
   - "No Fullerton-to-BBF succession claim"
   - "No house seat height as standard without a shop note"
   - "Species on a given job: read the ticket, do not invent red vs white"
+
+figure_id: plates.met-queen-anne-chair-dp265158
+image_rights: documented
+image_pass: 2026-09-14
 ---
+<!-- dchd-figure:v1 -->
+<figure class="dchd-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d6/Queen_Anne_Carved_Mahogany_Side_Chair_MET_DP265158.jpg" alt="Queen Anne mahogany side chair as museum reference for quartersawn oak discussion" width="1200" height="1683" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Oak side-chair stock — museum fill until BBF shop quartersawn frames are cleared. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Queen_Anne_Carved_Mahogany_Side_Chair_MET_DP265158.jpg">source</a>. Queen Anne carved mahogany side chair.</figcaption>
+</figure>
 
 A side chair in Arkansas oak is a pairing problem first. The table is already in the room, or it is being cut in the same shop, or it is a 29-inch habit the customer said out loud. The splat can be a vase, a ladder, a board, a Y if someone can steam. The wood is oak that grew in a county that has cut furniture stock for a long time. Bradley Brand works that geography. This paragraph is allowed to say so because the subject is the wood and the shop, not a collection page.
 

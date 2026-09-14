@@ -22,7 +22,12 @@ Sibling: `content/american-dining-room-history/` is the room-and-table spine. Th
 - `INDEX.md` — reading order + publish queue
 - `STYLE_GUIDE.md` — voice, citations, banned phrasing
 - `BIBLIOGRAPHY.md` — series sources
-- `PHOTO_CAPTIONS.md` — plates to shoot or license
+- `PHOTO_CAPTIONS.md` — plates to shoot or license (BBF rows stay `needed`)
+- `RIGHTS.md` — Commons / museum hot links + schematic CC0
+- `GRAPHICS_INDEX.md` — IMAGE + SEO pass inventory
+- `assets/figures/REGISTRY.toml` — canonical plate URLs
+- `assets/diagrams/*.svg` — original ergonomics schematics (no faces)
+- `_editorial/` — `figure_assignments.toml`, `embed_figures.py`, `check_figures.py`
 - `WP_IMPORT.md` — draft-only import
 - `MANIFEST.md` — word counts
 - `STAGING_README.md` — this file

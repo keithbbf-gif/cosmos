@@ -3,7 +3,7 @@ title: "Cane, rush, leather, foam"
 slug: cane-rush-leather-foam
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 35
 word_count: 1969
 dek: "The seat is the part that fails first and the part that tells the meal. Date the frame. Read the seat as a history of dinners."
@@ -29,7 +29,16 @@ figures:
 verify:
   - "Haircloth/horsehair: conservation cite if a technical claim is printed"
   - "Do not invent a recane interval as a warranty"
+
+figure_id: plates.met-william-mary-chair-142083
+image_rights: documented
+image_pass: 2026-09-14
 ---
+<!-- dchd-figure:v1 -->
+<figure class="dchd-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Side_Chair_MET_142083.jpg" alt="William and Mary side chair with caned seat" width="1200" height="1830" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Cane and rush breathe; foam lies on Tuesday and bottoms on Thanksgiving. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Side_Chair_MET_142083.jpg">source</a>. William and Mary–era American side chair.</figcaption>
+</figure>
 
 The seat is the meal’s furniture. The back is the photograph. I look at the seat first when I want to know whether a chair has eaten. Rush sags. Cane drums and then hammocks. Haircloth shines and splits at the front rail. Leather wipes and cracks. Foam feels kind on Tuesday and bottoms on a holiday. Vinyl is the dinette’s wipeable cousin and the 1970s captain’s-chair answer. None of these dates the frame by itself. A 1790 shield with a 1950 foam pad is a dining chair that stayed in use. A 1790 shield with a perfect period-style haircloth and no wear is a chair that has been curated.
 

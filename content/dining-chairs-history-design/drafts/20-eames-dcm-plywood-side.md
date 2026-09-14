@@ -3,7 +3,7 @@ title: "Eames DCM, plywood side"
 slug: eames-dcm-plywood-side
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 20
 word_count: 1599
 dek: "A molded seat and back on a wire or wood base — the dining chair becomes two shells. The lounge is another object. This hour is the side chair at a table."
@@ -29,7 +29,16 @@ figures:
 verify:
   - "Do not steal the sibling midcentury table lede"
   - "Confirm DCM date from Vitra/MoMA before printing a first-year"
+
+figure_id: plates.eames-lcw-ford
+image_rights: documented
+image_pass: 2026-09-14
 ---
+<!-- dchd-figure:v1 -->
+<figure class="dchd-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Eames_LCW_Chair_%281946-49%29%2C_Molded_Dining_Chair_%28c.1950%29%2C_Molded_Plywood_Leg_Splint_%28c.1943%29%2C_Mold_for_Eames_Fiberglass_Armchair_%281950-68%29_-_Fully_Furnished_-_Historic_Furniture_Exhibit_-_Henry_Ford_Museum.jpg" alt="Eames molded plywood dining chair on museum display" width="1200" height="1600" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Molded plywood side chair — laminate seat pan as dining furniture. <em>Rights:</em> CC BY-SA 2.0; The Henry Ford; <a href="https://commons.wikimedia.org/wiki/File:Eames_LCW_Chair_(1946-49),_Molded_Dining_Chair_(c.1950),_Molded_Plywood_Leg_Splint_(c.1943),_Mold_for_Eames_Fiberglass_Armchair_(1950-68)_-_Fully_Furnished_-_Historic_Furniture_Exhibit_-_Henry_Ford_Museum.jpg">source</a>. Eames molded plywood dining chair (DCM/LCW family) on display.</figcaption>
+</figure>
 
 The Eames lounge is a celebrity. It is not a dining chair. The dining story is the DCM — dining chair metal — and its wood-base cousin the DCW: a molded plywood seat, a molded plywood back, shock mounts, a frame that looks like a drawing of a stance. Martin Eidelberg’s lounge book is useful for method and off-limits for this sit. MoMA and Vitra object records are the dining documents.
 

@@ -3,7 +3,7 @@ title: "Children at the table"
 slug: children-at-the-table
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 38
 word_count: 1714
 dek: "A dining chair is an adult camp. Children perch, slide, tilt, and grow. Boosters, straps, and a foot that finds something are the household tools. The chair is not a crib."
@@ -29,7 +29,16 @@ figures:
 verify:
   - "High-chair standards (ASTM) are a different object; name them only as cousins"
   - "No identifiable children in public photos without release"
+
+figure_id: plates.diag-children-at-the-table
+image_rights: documented
+image_pass: 2026-09-14
 ---
+<!-- dchd-figure:v1 -->
+<figure class="dchd-figure">
+  <img src="../assets/diagrams/children-at-the-table.svg" alt="Diagram of booster seat height relative to table without showing a child" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Booster and tape — popliteal height without identifiable children in frame. <em>Rights:</em> CC0-1.0 (pack schematic); Bradley Brand editorial / pack; <a href="content/dining-chairs-history-design/assets/diagrams/children-at-the-table.svg">source</a>. Original line diagram; no AI-generated faces or stock people.</figcaption>
+</figure>
 
 A dining chair is sized for an adult camp. A child at that table is a person whose popliteal height is not 18 inches of sit plus a 30-inch top. They perch on the front rail. They slide forward. They kneel. They tilt. They grow. The household’s tools are a booster, a footrest, a rail they are allowed to use, and a refusal to pretend a side chair is a high chair.
 

@@ -3,7 +3,7 @@ title: "The plastic stacker"
 slug: the-plastic-stacker
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 24
 word_count: 1668
 dek: "Polypropylene, a gas-lift of a silhouette, a column in a closet. The cafeteria taught dining rooms that a chair could be a unit of storage."
@@ -29,7 +29,16 @@ figures:
 verify:
   - "Pin Day / Hille or another first documented stacker; do not invent a year"
   - "Institutional vs home grades: name the difference if claiming a test"
+
+figure_id: plates.robin-day-poly-stack
+image_rights: documented
+image_pass: 2026-09-14
 ---
+<!-- dchd-figure:v1 -->
+<figure class="dchd-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/f/f5/Plastic_stacking_chairs_designed_by_Robin_Day.jpg" alt="Robin Day polypropylene stacking chairs in original colors" width="1200" height="1600" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Polypropylene stacker — Robin Day's molded shell at institutional scale. <em>Rights:</em> CC0 1.0; Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:Plastic_stacking_chairs_designed_by_Robin_Day.jpg">source</a>. Robin Day polypropylene stacking chairs.</figcaption>
+</figure>
 
 The plastic stacker is a shell you can lift with two fingers and a column you can build in a closet. Robin Day’s Polypropylene chair for Hille is a named early type; there are others. `[CITE NEEDED]` before a “first” year in a caption. I care less about the patent race than about the sit: a slick seat, a back that flexes if the plastic is honest, four legs or a wire base, a chair that does not care about your mahogany story.
 

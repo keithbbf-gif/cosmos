@@ -3,7 +3,7 @@ title: "Wegner, Y and the wishbone"
 slug: wegner-y-and-the-wishbone
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 22
 word_count: 1801
 dek: "CH24, 1949: a Y of wood, a steam-bent back, a paper-cord seat. The dining chair becomes a joinery problem you can see, and a sit that depends on the cord."
@@ -29,7 +29,16 @@ figures:
 verify:
   - "Olesen 2014 for the one-good-chair line; confirm CH24 date"
   - "Danish modern America sibling owns the broader import story"
+
+figure_id: plates.wegner-wishbone-chair
+image_rights: documented
+image_pass: 2026-09-14
 ---
+<!-- dchd-figure:v1 -->
+<figure class="dchd-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Hans_Wegner_Wishbone_Chair.jpg" alt="Hans Wegner Wishbone CH24 chair in oak and paper cord" width="800" height="1200" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Wishbone Y — Danish cord seat on a dining-scaled oak frame. <em>Rights:</em> CC BY-SA 2.0; Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:Hans_Wegner_Wishbone_Chair.jpg">source</a>. Hans Wegner CH24 Wishbone chair.</figcaption>
+</figure>
 
 Hans Wegner said he was in search of one good chair, and then he made more than one. The Wishbone — CH24, 1949, the Y-back everyone can outline in the air — is the dining chair of that search that most people can name. Christian Holmsted Olesen’s Designmuseum book is the monograph trail. Carl Hansen’s production is the long factory afterlife. I want the sit: a steam-bent hoop, a forked splat that is actually a wishbone of wood, a paper-cord seat that will record every meal.
 

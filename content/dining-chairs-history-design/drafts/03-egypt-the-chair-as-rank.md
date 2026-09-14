@@ -3,7 +3,7 @@ title: "Egypt, the chair as rank"
 slug: egypt-the-chair-as-rank
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 3
 word_count: 1998
 dek: "Hatnefer’s cedar and ebony survive because a tomb is drier than a dining room. The Egyptian chair is rank you can still measure — not a template for a modern side chair."
@@ -29,7 +29,16 @@ figures:
 verify:
   - "Confirm Met open-access status and exact woods/dimensions from the live object pages before captions go public"
   - "Do not invent a meal scene as if these chairs were excavated under a table"
+
+figure_id: plates.met-hatnefer-chair
+image_rights: documented
+image_pass: 2026-09-14
 ---
+<!-- dchd-figure:v1 -->
+<figure class="dchd-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Hatnefer%27s_Chair_MET_DT2908.jpg" alt="Ancient Egyptian chair of Hatnefer in cedar and ebony, Met collection" width="1200" height="960" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Hatnefer's chair — rank made visible in wood long before the backed chair was common. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Hatnefer%27s_Chair_MET_DT2908.jpg">source</a>. Chair of Hatnefer, ca. 1492–1473 B.C.E.; Met 36.3.152 line.</figcaption>
+</figure>
 
 Hatnefer’s chair is in a museum because a tomb is a climate a dining room cannot offer. Cedar and ebony, a back, legs that end in lion’s feet, joinery that still reads. The Met’s object record (36.3.152) is the document. I start there instead of with a sentence about “ancient luxury.” Luxury is a shop word. This is a backed seat that belonged to a named woman in the New Kingdom, buried with enough care that we can still look at the rails.
 

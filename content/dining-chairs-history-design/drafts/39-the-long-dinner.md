@@ -3,7 +3,7 @@ title: "The long dinner"
 slug: the-long-dinner
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 39
 word_count: 1752
 dek: "Forty minutes forgives a stern splat. Three hours will not. Duration is the ergonomic that catalogs skip because it cannot be a SKU."
@@ -28,7 +28,16 @@ figures:
     status: needed
 verify:
   - "Kasson if a manners duration is claimed"
+
+figure_id: plates.met-slipper-chair-150203
+image_rights: documented
+image_pass: 2026-09-14
 ---
+<!-- dchd-figure:v1 -->
+<figure class="dchd-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Slipper_Chair_MET_150203.jpg" alt="Victorian slipper chair with upholstered seat" width="1200" height="1677" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Long-course sitting — duration, not showroom twenty minutes. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Slipper_Chair_MET_150203.jpg">source</a>. Victorian slipper chair — long-course sitting.</figcaption>
+</figure>
 
 A weeknight plate is a short sit. A holiday is a long one. The same chair can be a pleasure at forty minutes and a tax at three hours. Catalogs skip this because they cannot SKU a duration. Office literature talks about shifts and microbreaks. Dinner talks about courses, standing to serve, a child who leaves, wine, a story that will not end.
 

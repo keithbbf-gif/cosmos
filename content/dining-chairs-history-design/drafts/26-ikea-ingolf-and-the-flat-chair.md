@@ -3,7 +3,7 @@ title: "IKEA Ingolf and the flat chair"
 slug: ikea-ingolf-and-the-flat-chair
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 26
 word_count: 1695
 dek: "A boxed spindle chair, a hex key, a sit that millions know. The sibling pack owns the IKEA table. This hour is the chair that comes out of the box and meets an apron."
@@ -29,7 +29,16 @@ figures:
 verify:
   - "Confirm INGOLF introduction year from a catalog or IKEA museum note before printing"
   - "Do not steal the sibling ikea-flatpack-table lede"
+
+figure_id: plates.ikea-lack
+image_rights: documented
+image_pass: 2026-09-14
 ---
+<!-- dchd-figure:v1 -->
+<figure class="dchd-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/15/IKEA_Lack.jpg" alt="IKEA LACK flat-pack table illustrating boxed particleboard furniture" width="1050" height="1198" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Flat-pack dining — boxed chairs and tables; Ingolf catalog imagery still [VERIFY rights]. <em>Rights:</em> CC BY 3.0; Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:IKEA_Lack.jpg">source</a>. IKEA LACK — flat-pack particleboard table (Ingolf essay cites boxed spindle chair; catalog still [VERIFY rights]).</figcaption>
+</figure>
 
 INGOLF is a name people can say when they mean a painted spindle dining chair that arrived in a box. IKEA has sold other chairs; this one became a default in a certain decade of apartments and first houses. I will not print a first-year from memory. `[VERIFY]` against a catalog or the IKEA museum. The sibling pack already took the flat-pack table. This hour is the chair: a back of turned-looking members, a seat that is often wood or a thin pad, legs that bolt, a sit that is better than a bad folding chair and less of a document than a rush Hitchcock.
 

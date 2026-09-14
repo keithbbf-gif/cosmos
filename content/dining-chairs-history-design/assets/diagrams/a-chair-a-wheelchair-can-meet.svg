@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-labelledby="title desc">
+  <title id="title">Wheelchair approach to dining table</title>
+  <desc id="desc">Underside clearance dimensions without depicting a person.</desc>
+  <rect width="100%" height="100%" fill="#E8E4DC"/>
+
+  <rect x="80" y="160" width="480" height="20" fill="#8B6F47" stroke="#2A2622"/>
+  <rect x="200" y="220" width="240" height="100" rx="6" fill="none" stroke="#3D6B8E" stroke-width="2"/>
+  <text x="320" y="270" text-anchor="middle" font-size="12" fill="#3D6B8E" font-family="Helvetica,Arial,sans-serif">wheelchair footprint</text>
+  <line x1="120" y1="160" x2="120" y2="120" stroke="#C45C3E" stroke-width="2"/>
+  <line x1="520" y1="160" x2="520" y2="120" stroke="#C45C3E" stroke-width="2"/>
+  <line x1="120" y1="140" x2="520" y2="140" stroke="#C45C3E" stroke-width="2"/>
+  <text x="320" y="132" text-anchor="middle" font-size="13" fill="#C45C3E">knee clearance + apron height</text>
+
+</svg>

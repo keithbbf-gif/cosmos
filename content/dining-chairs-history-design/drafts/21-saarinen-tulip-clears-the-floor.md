@@ -3,7 +3,7 @@ title: "Saarinen tulip clears the floor"
 slug: saarinen-tulip-clears-the-floor
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 21
 word_count: 1569
 dek: "One stem, a shell, a floor you can see. The Pedestal side chair is a dining sit that refused the slum of legs — and then asked the table to refuse it too."
@@ -29,7 +29,16 @@ figures:
 verify:
   - "Knoll date 1955–57 from a named record"
   - "Sibling owns the table story; this is the chair sit"
+
+figure_id: plates.saarinen-tulip
+image_rights: documented
+image_pass: 2026-09-14
 ---
+<!-- dchd-figure:v1 -->
+<figure class="dchd-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Eero_saarinen_per_knoll_international%2C_sedia_tulip_dalla_collezione_pedestal%2C_1955-56.jpg" alt="Eero Saarinen Pedestal tulip side chair" width="1200" height="1777" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Tulip pedestal — one stem clearing chair legs from the floor circle. <em>Rights:</em> CC BY 3.0; Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:Eero_saarinen_per_knoll_international,_sedia_tulip_dalla_collezione_pedestal,_1955-56.jpg">source</a>. Eero Saarinen Pedestal side chair (Tulip), 1955–56.</figcaption>
+</figure>
 
 Eero Saarinen wanted the slum of legs gone. The Pedestal group — table and chairs — is one argument in two objects. The dining-room pack already told the table half. This hour is the side chair: a molded shell on a single stem, a swivel in many versions, a sit that turns toward the person on your right without walking four feet.
 

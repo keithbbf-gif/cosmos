@@ -3,7 +3,7 @@ title: "Rack is the dinner test"
 slug: rack-is-the-dinner-test
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 36
 word_count: 1752
 dek: "A dining chair is a box that wants to become a parallelogram when a twelve-year-old leans. Stretchers, shoulders, and a dry-fit are the adult answers. Glue is a guest."
@@ -29,7 +29,16 @@ figures:
 verify:
   - "Do not invent a house tenon thickness"
   - "Craft-pack ‘chair that tries to walk’ is a sibling joinery hour; this is dinner’s lean"
+
+figure_id: plates.diag-rack-is-the-dinner-test
+image_rights: documented
+image_pass: 2026-09-14
 ---
+<!-- dchd-figure:v1 -->
+<figure class="dchd-figure">
+  <img src="../assets/diagrams/rack-is-the-dinner-test.svg" alt="Diagram of dining chair frame racked into a parallelogram under lean" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Rack test — diagonal lean turns a square frame into a parallelogram. <em>Rights:</em> CC0-1.0 (pack schematic); Bradley Brand editorial / pack; <a href="content/dining-chairs-history-design/assets/diagrams/rack-is-the-dinner-test.svg">source</a>. Original line diagram; no AI-generated faces or stock people.</figcaption>
+</figure>
 
 A dining chair racks. That is the test the parlor chair can dodge and dinner cannot. Someone leans to tell a story. Someone drags the chair in with a foot. A child tilts onto the back legs. The rectangle of rails wants to become a parallelogram. If the joints are cylinders in end grain, the holes oval and the glue shines. If the joints are shoulders and cheeks — a tenon in a post, a stretcher that is a real beam — the box argues back.
 
