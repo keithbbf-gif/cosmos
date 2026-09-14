@@ -24,6 +24,11 @@ This is the one-sitting pass. It does not replace the rest of the pack. It is wh
 
 Print it. Write the lot number at the top. Sign it.
 
+<figure class="blog-figure">
+  <img src="../assets/svg/operator-coa-checklist.svg" alt="Typeset operator checklist for reviewing a certificate of analysis before release" width="700" height="380" loading="lazy" />
+  <figcaption><strong>Figure.</strong> Printable-style checklist — use with the numbered sections below, not as a substitute for the BPR. <em>Fictional form layout.</em></figcaption>
+</figure>
+
 ## 0. Three files open
 
 - Label PDF (the one that will be on the bottle).

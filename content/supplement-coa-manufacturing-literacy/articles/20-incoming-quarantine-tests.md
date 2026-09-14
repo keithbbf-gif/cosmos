@@ -28,6 +28,11 @@ Part 111 wants the first sentence. Many white-label plants perform the second an
 
 ## What the rule is asking
 
+<figure class="blog-figure">
+  <img src="../assets/svg/quarantine-to-release-flow.svg" alt="Flowchart from incoming quarantine through identity testing to finished product release COA" width="900" height="300" loading="lazy" />
+  <figcaption><strong>Figure.</strong> Incoming material should not reach the blend line before QC release — schematic path only. <em>Not a plant layout drawing.</em></figcaption>
+</figure>
+
 You establish component specifications (111.70). You collect representative samples of each unique lot and each unique shipment (111.80(a)). You verify identity of each dietary ingredient (111.75(a)(1)). You determine whether the other specs are met, by testing or by a qualified supplier COA (piece 02, piece 28). Quality control releases or rejects.
 
 111.155 and 111.160 (receiving and the associated records) are the paperwork twin of that physical fact. If the record says "quarantine" and the pallet is already on the line, the record is a story.

@@ -24,6 +24,11 @@ That is a legitimate way to start. It is not a way to skip Part 111. It is not a
 
 ## The transaction
 
+<figure class="blog-figure">
+  <img src="../assets/svg/brand-cmo-lab-3pl-map.svg" alt="Schematic boxes for brand owner, CMO, contract lab, and 3PL quality roles" width="900" height="400" loading="lazy" />
+  <figcaption><strong>Figure.</strong> White-label splits formula ownership, manufacturing, testing, and retailer QC — each box holds different COA obligations. <em>Schematic roles map.</em></figcaption>
+</figure>
+
 You sign a purchasing agreement and, if you are lucky, a quality agreement (piece 29). You pay an NRE for artwork and a first-article run, or you skip first-article and regret it (piece 34). You take a MOQ. You receive bottles that look like a brand.
 
 What you did *not* automatically buy:

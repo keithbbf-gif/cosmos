@@ -40,6 +40,11 @@ The trade uses "COA" for four different objects. A founder who treats them as on
 
 Open a finished-product COA. If you cannot find these, stop.
 
+<figure class="blog-figure">
+  <img src="../assets/svg/coa-anatomy-rows.svg" alt="Fictional schematic of certificate of analysis rows including product, lot, methods, results, and signature" width="900" height="480" loading="lazy" />
+  <figcaption><strong>Figure.</strong> Fictional COA anatomy — field names only, no real supplier lots. <em>Original typeset diagram; not a certificate you can file.</em></figcaption>
+</figure>
+
 1. **Your product name and SKU**, not last season's formula and not the CMO's house code alone.
 2. **Lot or batch number** that matches the bottle, the drum, and the batch production record.
 3. **Date of manufacture** and **date of test**. A 2021 test on a 2026 lot is a costume (piece 06, piece 39).

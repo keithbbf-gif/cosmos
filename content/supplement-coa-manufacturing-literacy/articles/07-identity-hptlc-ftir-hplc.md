@@ -34,6 +34,11 @@ A method is appropriate when it can tell those pairs apart. A method is a costum
 
 ## Methods you will actually see
 
+<figure class="blog-figure">
+  <img src="../assets/svg/identity-methods-overview.svg" alt="Overview schematic of identity testing methods HPTLC, FTIR, HPLC, and microscopy" width="900" height="320" loading="lazy" />
+  <figcaption><strong>Figure.</strong> Identity methods named on COA rows — not interchangeable badges. <em>Original schematic; not a lab SOP.</em></figcaption>
+</figure>
+
 **HPTLC (high-performance thin-layer chromatography).** The workhorse for many botanicals. You run the sample against a botanical reference material and look at the band pattern. A plate that does not match is a fail, even if a marker assay later says "2% withanolides." Marker assays without identity are how spiked material travels: someone adds a cheap withanolide source to sawdust and sells you a number.
 
 Ask: which reference material? Which method ID? Who read the plate? Is there an image in the file?

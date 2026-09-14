@@ -22,6 +22,11 @@ Most ugly COAs are sloppy, not criminal. Sloppy still cannot release a lot. A sm
 
 ## The tells
 
+<figure class="blog-figure">
+  <img src="../assets/svg/recycled-coa-red-flags.svg" alt="List schematic of red flags for recycled or template COA PDFs" width="700" height="340" loading="lazy" />
+  <figcaption><strong>Figure.</strong> Common tells that a PDF is a template — literacy list, not an accusation against a named supplier. <em>Original typeset list.</em></figcaption>
+</figure>
+
 **Dates that cannot be true.** Test before manufacture. A 2021 test on a 2026 lot. A signature dated on a Sunday the lab is closed, if you happen to know they are closed. (Do not invent a closed day. If you do not know, skip this tell.)
 
 **The same number to three decimals on two lots.** pH 5.432 twice. Lead 0.137 twice. Nature is not that loyal. Methods have noise. Two identical noisy numbers is a copy-paste.

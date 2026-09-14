@@ -26,6 +26,11 @@ On 1 September 2023 FDA posted warning letter MARCS-CMS 657518 to InnoMark, Inc.
 
 That letter is not exotic. It is the usual failure, written in public English.
 
+<figure class="blog-figure">
+  <img src="../assets/svg/supplier-vs-finished-coa.svg" alt="Schematic comparing incoming ingredient COA and finished product COA" width="900" height="460" loading="lazy" />
+  <figcaption><strong>Figure.</strong> Supplier drum COA and finished-bottle COA answer different release questions under 21 CFR 111. <em>Schematic; not a supply-chain photograph.</em></figcaption>
+</figure>
+
 ## Two documents, two jobs
 
 The **incoming COA** answers: did this unique lot of a component meet the specifications *for that component* when the supplier (or their lab) tested it?

@@ -25,6 +25,11 @@ voice_check: human
 
 ## Three numbers, three jobs
 
+<figure class="blog-figure">
+  <img src="../assets/svg/lod-loq-nd-schematic.svg" alt="Schematic axis showing limit of detection, limit of quantitation, and not-detected reporting" width="900" height="360" loading="lazy" />
+  <figcaption><strong>Figure.</strong> LOD, LOQ, and spec sit on different lines — “ND” is not a synonym for zero. <em>Simplified axis diagram.</em></figcaption>
+</figure>
+
 **LOD (limit of detection).** The lowest level at which the method can say "something is here" with the lab's stated confidence. Often a qualitative line. Useful. Not a quantity.
 
 **LOQ (limit of quantitation).** The lowest level at which the method will report a number you are supposed to treat as a quantity. This is the line that matters for a numeric spec.
