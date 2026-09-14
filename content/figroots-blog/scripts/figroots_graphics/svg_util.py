@@ -5,7 +5,7 @@ from __future__ import annotations
 import textwrap
 from xml.sax.saxutils import escape
 
-from .palette import BG, FONT, INK, LINE, MUTED
+from .palette import BG, FONT, INK, LINE, MUTED, WARM, WARM_LIGHT
 
 
 def svg_open(width: int, height: int, title: str) -> list[str]:
@@ -30,8 +30,10 @@ def svg_close() -> list[str]:
 def text_block(x: int, y: int, lines: list[str], cls: str = "label", line_height: int = 18) -> str:
     parts = [f'<text class="{cls}">']
     for i, line in enumerate(lines):
-        dy = 0 if i == 0 else line_height
-        parts.append(f'<tspan x="{x}" dy="{dy}">{escape(line)}</tspan>')
+        if i == 0:
+            parts.append(f'<tspan x="{x}" y="{y}">{escape(line)}</tspan>')
+        else:
+            parts.append(f'<tspan x="{x}" dy="{line_height}">{escape(line)}</tspan>')
     parts.append("</text>")
     return "\n".join(parts)
 
@@ -40,10 +42,29 @@ def wrapped_text(x: int, y: int, text: str, width_chars: int = 42, cls: str = "s
     lines = textwrap.wrap(text, width=width_chars) or [""]
     out = [f'<text class="{cls}">']
     for i, line in enumerate(lines):
-        dy = 0 if i == 0 else 16
-        out.append(f'<tspan x="{x}" dy="{dy}">{escape(line)}</tspan>')
+        if i == 0:
+            out.append(f'<tspan x="{x}" y="{y}">{escape(line)}</tspan>')
+        else:
+            out.append(f'<tspan x="{x}" dy="16">{escape(line)}</tspan>')
     out.append("</text>")
     return "\n".join(out)
+
+
+def desc_tag(description: str) -> str:
+    return f'<desc id="desc">{escape(description)}</desc>'
+
+
+def fig_fruit_cross_section(cx: int, cy: int, rx: int, ry: int, ostiole_r: int) -> str:
+    """Pear-shaped fig cross-section with ostiole (eye) at the top."""
+    top_y = cy - ry
+    parts = [
+        f'<ellipse cx="{cx}" cy="{cy}" rx="{rx}" ry="{ry}" fill="{WARM_LIGHT}" stroke="{WARM}" stroke-width="2"/>',
+        f'<ellipse cx="{cx}" cy="{cy + 8}" rx="{int(rx * 0.55)}" ry="{int(ry * 0.45)}" '
+        f'fill="none" stroke="{LINE}" stroke-width="1" stroke-dasharray="4 3"/>',
+        f'<circle cx="{cx}" cy="{top_y + ostiole_r + 4}" r="{ostiole_r}" fill="{BG}" stroke="{INK}" stroke-width="2"/>',
+        f'<line x1="{cx - rx}" y1="{cy}" x2="{cx + rx}" y2="{cy}" stroke="{LINE}" stroke-width="1" opacity="0.6"/>',
+    ]
+    return "\n".join(parts)
 
 
 def box(x: int, y: int, w: int, h: int, fill: str, stroke: str = LINE, rx: int = 6) -> str:

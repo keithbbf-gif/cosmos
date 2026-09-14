@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="440" viewBox="0 0 720 440" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="480" viewBox="0 0 720 480" role="img" aria-labelledby="title desc">
+<desc id="desc">Decision tree for rot, callus-only, and dry cuttings.</desc>
 <title id="title">Cutting failure modes</title>
 <rect width="100%" height="100%" fill="#f7f4ef"/>
 <style>text { font-family: system-ui, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #1c2420; } .label { font-size: 13px; } .small { font-size: 11px; fill: #5c6b63; } .mono { font-family: ui-monospace, Consolas, monospace; font-size: 12px; }</style>
 <defs><marker id='arrowhead' markerWidth='8' markerHeight='8' refX='6' refY='4' orient='auto'><polygon points='0 0, 8 4, 0 8' fill='#9aa89f'/></marker></defs>
 <text class="small">
-<tspan x="24" dy="0">Autopsy flow — read the wood before blaming the</tspan>
+<tspan x="24" y="18">Autopsy flow — read the wood before blaming the</tspan>
 <tspan x="24" dy="16">variety.</tspan>
 </text>
 <rect x="280" y="48" width="160" height="44" rx="6" fill="#d4e4dc" stroke="#2f5d4a" stroke-width="1.5"/>
 <text class="label" x="360" y="76" text-anchor="middle">Cutting failed?</text>
-<rect x="60" y="160" width="160" height="52" rx="6" fill="#ffffff" stroke="#a0452a" stroke-width="1.5"/>
-<text class="label" x="140" y="190" text-anchor="middle">Soft base / smell</text>
-<line x1="360" y1="92" x2="140" y2="160" stroke="#9aa89f" stroke-width="2" marker-end="url(#arrowhead)"/>
-<rect x="280" y="160" width="160" height="52" rx="6" fill="#ffffff" stroke="#8b5e34" stroke-width="1.5"/>
-<text class="label" x="360" y="190" text-anchor="middle">Callus, no roots</text>
-<line x1="360" y1="92" x2="360" y2="160" stroke="#9aa89f" stroke-width="2" marker-end="url(#arrowhead)"/>
-<rect x="500" y="160" width="160" height="52" rx="6" fill="#ffffff" stroke="#5c6b63" stroke-width="1.5"/>
-<text class="label" x="580" y="190" text-anchor="middle">Wrinkled / light</text>
-<line x1="360" y1="92" x2="580" y2="160" stroke="#9aa89f" stroke-width="2" marker-end="url(#arrowhead)"/>
-<text class="small" x="60" y="260" text-anchor="middle">Too wet → drier mix</text>
-<text class="small" x="280" y="260" text-anchor="middle">Wait / bottom heat</text>
-<text class="small" x="500" y="260" text-anchor="middle">Rehydrate or discard</text>
+<rect x="60" y="170" width="160" height="52" rx="6" fill="#ffffff" stroke="#a0452a" stroke-width="1.5"/>
+<text class="label" x="140" y="200" text-anchor="middle">Soft base / smell</text>
+<line x1="360" y1="92" x2="140" y2="170" stroke="#9aa89f" stroke-width="2" marker-end="url(#arrowhead)"/>
+<text class="small" x="140" y="260" text-anchor="middle">Too wet → drier mix</text>
+<line x1="140" y1="222" x2="140" y2="248" stroke="#9aa89f" stroke-width="1"/>
+<rect x="280" y="170" width="160" height="52" rx="6" fill="#ffffff" stroke="#8b5e34" stroke-width="1.5"/>
+<text class="label" x="360" y="200" text-anchor="middle">Callus, no roots</text>
+<line x1="360" y1="92" x2="360" y2="170" stroke="#9aa89f" stroke-width="2" marker-end="url(#arrowhead)"/>
+<text class="small" x="360" y="260" text-anchor="middle">Wait / bottom heat</text>
+<line x1="360" y1="222" x2="360" y2="248" stroke="#9aa89f" stroke-width="1"/>
+<rect x="500" y="170" width="160" height="52" rx="6" fill="#ffffff" stroke="#5c6b63" stroke-width="1.5"/>
+<text class="label" x="580" y="200" text-anchor="middle">Wrinkled / light</text>
+<line x1="360" y1="92" x2="580" y2="170" stroke="#9aa89f" stroke-width="2" marker-end="url(#arrowhead)"/>
+<text class="small" x="580" y="260" text-anchor="middle">Rehydrate or discard</text>
+<line x1="580" y1="222" x2="580" y2="248" stroke="#9aa89f" stroke-width="1"/>
 </svg>

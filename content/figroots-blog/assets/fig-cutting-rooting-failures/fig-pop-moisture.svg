@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="340" viewBox="0 0 720 340" role="img" aria-labelledby="title desc">
+<desc id="desc">Three moisture states for coir in fig pops: too wet, correct damp, too dry.</desc>
+<title id="title">Fig Pop moisture — hand test schematic</title>
+<rect width="100%" height="100%" fill="#f7f4ef"/>
+<style>text { font-family: system-ui, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #1c2420; } .label { font-size: 13px; } .small { font-size: 11px; fill: #5c6b63; } .mono { font-family: ui-monospace, Consolas, monospace; font-size: 12px; }</style>
+<text class="small">
+<tspan x="24" y="22">Jack’s squeeze test — same as the Fig Pop page. Schematic cups, not</tspan>
+<tspan x="24" dy="16">lab data.</tspan>
+</text>
+<rect x="30" y="70" width="140" height="100" rx="6" fill="#ffffff" stroke="#a0452a" stroke-width="1.5"/>
+<ellipse cx="100" cy="120" rx="35" ry="28" fill="#e8dcc8" stroke="#a0452a" stroke-width="2"/>
+<text class="label" x="100" y="58" text-anchor="middle">Too wet</text>
+<text class="small" x="100" y="190" text-anchor="middle">Drips when squeezed</text>
+<text class="mono" x="100" y="230" text-anchor="middle">↓ rot risk</text>
+<rect x="230" y="70" width="140" height="100" rx="6" fill="#ffffff" stroke="#2f5d4a" stroke-width="1.5"/>
+<ellipse cx="300" cy="120" rx="35" ry="28" fill="#e8dcc8" stroke="#2f5d4a" stroke-width="2"/>
+<text class="label" x="300" y="58" text-anchor="middle">Damp (target)</text>
+<text class="small" x="300" y="190" text-anchor="middle">Clumps, no drip;</text>
+<text class="small" x="300" y="204" text-anchor="middle">~30% dry coir added</text>
+<text class="mono" x="300" y="230" text-anchor="middle">Fig Pop default</text>
+<rect x="430" y="70" width="140" height="100" rx="6" fill="#ffffff" stroke="#5c6b63" stroke-width="1.5"/>
+<ellipse cx="500" cy="120" rx="35" ry="28" fill="#e8dcc8" stroke="#5c6b63" stroke-width="2"/>
+<text class="label" x="500" y="58" text-anchor="middle">Too dry</text>
+<text class="small" x="500" y="190" text-anchor="middle">Crumbles apart</text>
+<text class="mono" x="500" y="230" text-anchor="middle">↓ callus / dry stick</text>
+<rect x="40" y="260" width="640" height="56" rx="6" fill="#d4e4dc" stroke="#2f5d4a" stroke-width="1.5"/>
+<text class="small">
+<tspan x="56" y="282">Leave 1–2 in gap under the cutting so the wound is not sitting in a sump.</tspan>
+</text>
+</svg>

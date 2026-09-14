@@ -1,25 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="400" viewBox="0 0 720 400" role="img" aria-labelledby="title desc">
+<desc id="desc">Comparison of container vs in-ground fig growing in the South.</desc>
 <title id="title">Pot vs in-ground — South Arkansas tradeoffs</title>
 <rect width="100%" height="100%" fill="#f7f4ef"/>
 <style>text { font-family: system-ui, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #1c2420; } .label { font-size: 13px; } .small { font-size: 11px; fill: #5c6b63; } .mono { font-family: ui-monospace, Consolas, monospace; font-size: 12px; }</style>
-<rect x="24" y="56" width="672" height="280" rx="6" fill="#ffffff" stroke="#9aa89f" stroke-width="1.5"/>
+<rect x="24" y="56" width="672" height="320" rx="6" fill="#ffffff" stroke="#9aa89f" stroke-width="1.5"/>
+<rect x="32" y="64" width="656" height="28" rx="6" fill="#d4e4dc" stroke="#2f5d4a" stroke-width="1.5"/>
 <text class="label" x="40" y="68">Factor</text>
 <text class="label" x="200" y="68">Container</text>
 <text class="label" x="400" y="68">In-ground</text>
-<text class="small" x="40" y="100">Winter move</text>
-<text class="small" x="200" y="100">Easy shuffle</text>
-<text class="small" x="400" y="100">Fixed site</text>
-<line x1="32" y1="116" x2="688" y2="116" stroke="#9aa89f"/>
-<text class="small" x="40" y="152">Summer root heat</text>
-<text class="small" x="200" y="152">Watch black pots</text>
-<text class="small" x="400" y="152">More buffer</text>
+<text class="small" x="40" y="106">Winter move</text>
+<text class="small" x="200" y="106">Easy shuffle</text>
+<text class="small" x="400" y="106">Fixed site</text>
+<line x1="32" y1="120" x2="688" y2="120" stroke="#9aa89f"/>
+<text class="small" x="40" y="154">Summer root heat</text>
+<text class="small" x="200" y="154">Watch black pots</text>
+<text class="small" x="400" y="154">More soil buffer</text>
 <line x1="32" y1="168" x2="688" y2="168" stroke="#9aa89f"/>
-<text class="small" x="40" y="204">Water swings</text>
-<text class="small" x="200" y="204">Daily risk</text>
-<text class="small" x="400" y="204">Less frequent</text>
-<line x1="32" y1="220" x2="688" y2="220" stroke="#9aa89f"/>
-<text class="small" x="40" y="256">Trial varieties</text>
-<text class="small" x="200" y="256">Ideal</text>
-<text class="small" x="400" y="256">Permanent bet</text>
+<text class="small" x="40" y="202">Water swings</text>
+<text class="small" x="200" y="202">Daily risk in July</text>
+<text class="small" x="400" y="202">Less frequent</text>
+<line x1="32" y1="216" x2="688" y2="216" stroke="#9aa89f"/>
+<text class="small" x="40" y="250">Trial varieties</text>
+<text class="small" x="200" y="250">Ideal</text>
+<text class="small" x="400" y="250">Permanent bet</text>
+<line x1="32" y1="264" x2="688" y2="264" stroke="#9aa89f"/>
+<text class="small" x="40" y="298">Breba odds (8a)</text>
+<text class="small" x="200" y="298">Higher if protected</text>
+<text class="small" x="400" y="298">Usually main crop only</text>
 </svg>

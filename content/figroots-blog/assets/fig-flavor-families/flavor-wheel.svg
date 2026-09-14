@@ -1,22 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="400" viewBox="0 0 720 400" role="img" aria-labelledby="title desc">
+<desc id="desc">Five flavor family descriptors around ripe fruit.</desc>
 <title id="title">Fig flavor families — descriptive axes</title>
 <rect width="100%" height="100%" fill="#f7f4ef"/>
 <style>text { font-family: system-ui, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #1c2420; } .label { font-size: 13px; } .small { font-size: 11px; fill: #5c6b63; } .mono { font-family: ui-monospace, Consolas, monospace; font-size: 12px; }</style>
 <text class="small">
-<tspan x="24" dy="0">Tasting vocabulary — not chemical analysis or Brix</tspan>
+<tspan x="24" y="22">Tasting vocabulary — not chemical analysis or Brix</tspan>
 <tspan x="24" dy="16">data.</tspan>
 </text>
-<circle cx="360.0" cy="134.0" r="28" fill="#d4e4dc" stroke="#2f5d4a"/>
-<text class="label" x="360.0" y="50.0" text-anchor="middle">Berry</text>
-<circle cx="422.76973007548014" cy="179.60487837125348" r="28" fill="#d4e4dc" stroke="#2f5d4a"/>
-<text class="label" x="502.658477444273" y="153.6474508437579" text-anchor="middle">Honey</text>
-<circle cx="398.7938266513032" cy="253.39512162874652" r="28" fill="#d4e4dc" stroke="#2f5d4a"/>
-<text class="label" x="448.167787843871" y="321.3525491562421" text-anchor="middle">Sugar</text>
-<circle cx="321.2061733486968" cy="253.39512162874652" r="28" fill="#d4e4dc" stroke="#2f5d4a"/>
-<text class="label" x="271.83221215612906" y="321.3525491562421" text-anchor="middle">Melon</text>
-<circle cx="297.23026992451986" cy="179.60487837125348" r="28" fill="#d4e4dc" stroke="#2f5d4a"/>
-<text class="label" x="217.34152255572695" y="153.6474508437579" text-anchor="middle">Peach</text>
-<text class="small" x="360" y="200" text-anchor="middle">ripe
-fruit</text>
+<circle cx="360" cy="215" r="42" fill="#e8dcc8" stroke="#8b5e34" stroke-width="2"/>
+<text class="label" x="360" y="211" text-anchor="middle">ripe</text>
+<text class="label" x="360" y="229" text-anchor="middle">fruit</text>
+<line x1="360" y1="215" x2="360.0" y2="120.0" stroke="#9aa89f" stroke-width="2"/>
+<circle cx="360.0" cy="120.0" r="32" fill="#d4e4dc" stroke="#2f5d4a" stroke-width="2"/>
+<text class="label" x="360.0" y="73.0" text-anchor="middle">Berry</text>
+<line x1="360" y1="215" x2="450.35036904803957" y2="185.64338553438" stroke="#9aa89f" stroke-width="2"/>
+<circle cx="450.35036904803957" cy="185.64338553438" r="32" fill="#d4e4dc" stroke="#2f5d4a" stroke-width="2"/>
+<text class="label" x="499.80530789538756" y="174.57450182688274" text-anchor="middle">Honey</text>
+<line x1="360" y1="215" x2="415.8395989677849" y2="291.85661446562" stroke="#9aa89f" stroke-width="2"/>
+<circle cx="415.8395989677849" cy="291.85661446562" r="32" fill="#d4e4dc" stroke="#2f5d4a" stroke-width="2"/>
+<text class="label" x="446.40443208699355" y="338.92549817311726" text-anchor="middle">Sugar</text>
+<line x1="360" y1="215" x2="304.1604010322151" y2="291.85661446562" stroke="#9aa89f" stroke-width="2"/>
+<circle cx="304.1604010322151" cy="291.85661446562" r="32" fill="#d4e4dc" stroke="#2f5d4a" stroke-width="2"/>
+<text class="label" x="273.59556791300645" y="338.92549817311726" text-anchor="middle">Melon</text>
+<line x1="360" y1="215" x2="269.6496309519604" y2="185.64338553438" stroke="#9aa89f" stroke-width="2"/>
+<circle cx="269.6496309519604" cy="185.64338553438" r="32" fill="#d4e4dc" stroke="#2f5d4a" stroke-width="2"/>
+<text class="label" x="220.19469210461241" y="174.57450182688274" text-anchor="middle">Peach</text>
 </svg>

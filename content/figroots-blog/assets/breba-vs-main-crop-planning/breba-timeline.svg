@@ -1,18 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="320" viewBox="0 0 720 320" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+<desc id="desc">Season timeline for breba on old wood and main crop on new growth.</desc>
 <title id="title">Breba vs main crop on last year's wood</title>
 <rect width="100%" height="100%" fill="#f7f4ef"/>
 <style>text { font-family: system-ui, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #1c2420; } .label { font-size: 13px; } .small { font-size: 11px; fill: #5c6b63; } .mono { font-family: ui-monospace, Consolas, monospace; font-size: 12px; }</style>
 <text class="small">
-<tspan x="24" dy="0">Season schematic — timing varies by variety and prune.</tspan>
+<tspan x="24" y="22">Season schematic — timing varies by variety and prune. Arkansas 8a:</tspan>
+<tspan x="24" dy="16">breba is a bonus.</tspan>
 </text>
-<line x1="60" y1="200" x2="660" y2="200" stroke="#8b5e34" stroke-width="6"/>
-<rect x="90" y="120" width="140" height="36" rx="6" fill="#2f5d4a" stroke="#2f5d4a" stroke-width="1.5"/>
-<text fill="#ffffff" x="160" y="144" text-anchor="middle" class="label">Breba</text>
-<text class="small" x="160" y="170" text-anchor="middle">old wood</text>
-<rect x="380" y="210" width="160" height="36" rx="6" fill="#8b5e34" stroke="#8b5e34" stroke-width="1.5"/>
-<text fill="#ffffff" x="460" y="234" text-anchor="middle" class="label">Main crop</text>
-<text class="small" x="460" y="260" text-anchor="middle">new growth</text>
-<text class="label" x="60" y="100">Prior season wood ─────────────►</text>
-<text class="label" x="60" y="290">Current season push ─────────────►</text>
+<line x1="60" y1="220" x2="660" y2="220" stroke="#1c2420" stroke-width="2"/>
+<line x1="60" y1="220" x2="60" y2="228" stroke="#1c2420" stroke-width="2"/>
+<text class="small" x="60" y="244" text-anchor="middle">Mar</text>
+<line x1="210" y1="220" x2="210" y2="228" stroke="#1c2420" stroke-width="2"/>
+<text class="small" x="210" y="244" text-anchor="middle">May</text>
+<line x1="360" y1="220" x2="360" y2="228" stroke="#1c2420" stroke-width="2"/>
+<text class="small" x="360" y="244" text-anchor="middle">Jul</text>
+<line x1="510" y1="220" x2="510" y2="228" stroke="#1c2420" stroke-width="2"/>
+<text class="small" x="510" y="244" text-anchor="middle">Sep</text>
+<line x1="660" y1="220" x2="660" y2="228" stroke="#1c2420" stroke-width="2"/>
+<text class="small" x="660" y="244" text-anchor="middle">Nov</text>
+<rect x="100" y="130" width="120" height="32" rx="6" fill="#2f5d4a" stroke="#2f5d4a" stroke-width="1.5"/>
+<text fill="#ffffff" x="160" y="152" text-anchor="middle" class="label">Breba</text>
+<text class="small" x="160" y="178" text-anchor="middle">last year’s wood</text>
+<line x1="160" y1="162" x2="160" y2="220" stroke="#2f5d4a" stroke-width="2" stroke-dasharray="4 3"/>
+<rect x="380" y="240" width="140" height="32" rx="6" fill="#8b5e34" stroke="#8b5e34" stroke-width="1.5"/>
+<text fill="#ffffff" x="450" y="262" text-anchor="middle" class="label">Main crop</text>
+<text class="small" x="450" y="288" text-anchor="middle">this year’s shoots</text>
+<line x1="450" y1="240" x2="450" y2="220" stroke="#8b5e34" stroke-width="2" stroke-dasharray="4 3"/>
 </svg>

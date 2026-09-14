@@ -31,12 +31,17 @@ pillar: culture
 priority: 9
 figures:
 - ../assets/fig-soil-drainage-clay-beds/drainage-cross-section.svg
+- ../assets/fig-soil-drainage-clay-beds/hole-perk-test.svg
 ---
 I have watched a thunderstorm turn a new planting into a birdbath. The fig sat in it overnight. People love to say figs are tough. Tough is not gills.
 
 [Pick The Right Fig](https://figroots.com/2025/07/02/pick-the-right-fig-for-you/) said most figs can take harder soil — clay, rock — and that you still want air. They hate being drowned. That is the whole soil chapter. The rest is how you keep a South Arkansas hole from becoming a cup.
 
 ## What fig roots actually are
+
+<!-- figroots-graphic: hole-perk-test -->
+![Three-step field perk test for a planting hole on clay soil](../assets/fig-soil-drainage-clay-beds/hole-perk-test.svg)
+*Dig, fill, check next morning — puddle means berm, not deeper hole.*
 
 Fibrous. Shallow. They do not drill a taproot to China. Texas A&M and UAEX both talk drought stress because of that shallow mat. Dry week: fruit drop. Wet week in a sealed clay bowl: roots sour, leaves yellow, and you fertilize a corpse.
 

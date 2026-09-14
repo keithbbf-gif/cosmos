@@ -31,6 +31,7 @@ pillar: culture
 priority: 3
 figures:
 - ../assets/breba-vs-main-crop-planning/breba-timeline.svg
+- ../assets/breba-vs-main-crop-planning/breba-branch-wood.svg
 ---
 Somebody on a forum swears their tree is “everbearing.” They prune it like a rose in March. Then they wait for the June figs that live on the wood they just threw in the burn pile.
 
@@ -51,6 +52,10 @@ University of Arkansas Extension says the quiet part out loud: in our climate, b
 So if you are in Arkansas, or anywhere that regularly bites wood into the teens, plan the year around main crop. Breba is a bonus you get after a soft winter, a protected wall, or a pot you kept from freezing.
 
 ## Why a hard prune feels like sabotage
+
+<!-- figroots-graphic: breba-branch-wood -->
+![Branch schematic showing breba on prior-season wood and main crop on new shoots](../assets/breba-vs-main-crop-planning/breba-branch-wood.svg)
+*Where fruit sets — February hard prune removes breba wood.*
 
 Celeste is the example UAEX uses, and it is a good one. Most cold-hardy of the common yard figs here. Tight eye. Earlier than Brown Turkey. Chop it hard in late winter and you **greatly limit that season’s fruit**. Celeste does not shrug and re-shoot a full crop the way some trees do.
 

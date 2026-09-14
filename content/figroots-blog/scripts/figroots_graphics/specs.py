@@ -55,6 +55,13 @@ ARTICLE_FIGURES: dict[str, list[FigureSpec]] = {
             "Season schematic — timing shifts with prune and variety.",
             "## The two crops, in plain wood",
         ),
+        FigureSpec(
+            "breba-branch-wood",
+            "breba-branch-wood",
+            "Branch schematic showing breba on prior-season wood and main crop on new shoots",
+            "Where fruit sets — February hard prune removes breba wood.",
+            "## Why a hard prune feels like sabotage",
+        ),
     ],
     "pot-vs-in-ground-figs-south": [
         FigureSpec(
@@ -91,6 +98,13 @@ ARTICLE_FIGURES: dict[str, list[FigureSpec]] = {
             "Name the failure mode before you restick — schematic autopsy.",
             "## Failure 1: rot",
         ),
+        FigureSpec(
+            "fig-pop-moisture",
+            "fig-pop-moisture",
+            "Schematic of too-wet, damp, and too-dry Fig Pop coir moisture",
+            "Squeeze test — damp, not wet. Same hand test as the Pop page.",
+            "## Failure 2: callus-only",
+        ),
     ],
     "birds-pests-green-vs-dark-figs": [
         FigureSpec(
@@ -108,6 +122,13 @@ ARTICLE_FIGURES: dict[str, list[FigureSpec]] = {
             "Cross-section schematic of a fig on a raised berm over clay soil with mulch",
             "Bed profile schematic — not a engineered drainage spec.",
             "## The test I want you to run before you shop a tree",
+        ),
+        FigureSpec(
+            "hole-perk-test",
+            "hole-perk-test",
+            "Three-step field perk test for a planting hole on clay soil",
+            "Dig, fill, check next morning — puddle means berm, not deeper hole.",
+            "## What fig roots actually are",
         ),
     ],
     "summer-shade-water-hot-south": [

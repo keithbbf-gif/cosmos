@@ -31,6 +31,7 @@ pillar: propagation
 priority: 7
 figures:
 - ../assets/fig-cutting-rooting-failures/rooting-failure-tree.svg
+- ../assets/fig-cutting-rooting-failures/fig-pop-moisture.svg
 ---
 The leaves come out and you relax. A week later the whole thing folds like a cheap tent.
 
@@ -59,6 +60,10 @@ Wash first. Dirty bark is a head start for slime. Soap, or the dilute bleach alr
 If it rotted: throw the mush away. Do not “cut above the rot and restick” unless there is a clean, firm piece with nodes left *and* you change the mix. Same wet bag, same ending.
 
 ## Failure 2: callus-only
+
+<!-- figroots-graphic: fig-pop-moisture -->
+![Schematic of too-wet, damp, and too-dry Fig Pop coir moisture](../assets/fig-cutting-rooting-failures/fig-pop-moisture.svg)
+*Squeeze test — damp, not wet. Same hand test as the Pop page.*
 
 You pull the stick and there is a white or cream knob at the base. Alive. No roots. Tops may have leaves. Then the leaves cook the cutting because nothing is drinking.
 

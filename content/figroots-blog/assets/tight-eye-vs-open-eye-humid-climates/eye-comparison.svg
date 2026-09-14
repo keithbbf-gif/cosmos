@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="280" viewBox="0 0 720 280" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="320" viewBox="0 0 720 320" role="img" aria-labelledby="title desc">
+<desc id="desc">Side-by-side fig fruit cross-sections comparing small and large ostiole openings.</desc>
 <title id="title">Tight-eye vs open-eye schematic</title>
 <rect width="100%" height="100%" fill="#f7f4ef"/>
 <style>text { font-family: system-ui, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #1c2420; } .label { font-size: 13px; } .small { font-size: 11px; fill: #5c6b63; } .mono { font-family: ui-monospace, Consolas, monospace; font-size: 12px; }</style>
 <text class="small">
-<tspan x="24" dy="0">Cross-section schematic — not to scale. Photo: D:\FIGS\Fig Fruit.</tspan>
+<tspan x="24" y="24">Cross-section schematic — not to scale. Pair with a fruit photo</tspan>
+<tspan x="24" dy="16">from D:\FIGS\Fig Fruit.</tspan>
 </text>
-<text class="label" x="180" y="70" text-anchor="middle">Tight eye</text>
-<ellipse cx="180" cy="150" rx="70" ry="55" fill="#e8dcc8" stroke="#8b5e34" stroke-width="2"/>
-<circle cx="180" cy="118" r="8" fill="#f7f4ef" stroke="#1c2420" stroke-width="2"/>
-<text class="small" x="180" y="230" text-anchor="middle">ostiole opening</text>
-<text class="label" x="480" y="70" text-anchor="middle">Open eye</text>
-<ellipse cx="480" cy="150" rx="70" ry="55" fill="#e8dcc8" stroke="#8b5e34" stroke-width="2"/>
-<circle cx="480" cy="118" r="28" fill="#f7f4ef" stroke="#1c2420" stroke-width="2"/>
-<text class="small" x="480" y="230" text-anchor="middle">ostiole opening</text>
+<text class="label" x="180" y="72" text-anchor="middle">Tight eye</text>
+<ellipse cx="180" cy="165" rx="72" ry="58" fill="#e8dcc8" stroke="#8b5e34" stroke-width="2"/>
+<ellipse cx="180" cy="173" rx="39" ry="26" fill="none" stroke="#9aa89f" stroke-width="1" stroke-dasharray="4 3"/>
+<circle cx="180" cy="117" r="6" fill="#f7f4ef" stroke="#1c2420" stroke-width="2"/>
+<line x1="108" y1="165" x2="252" y2="165" stroke="#9aa89f" stroke-width="1" opacity="0.6"/>
+<text class="small" x="180" y="248" text-anchor="middle">ostiole (eye) at apex</text>
+<text class="label" x="480" y="72" text-anchor="middle">Open eye</text>
+<ellipse cx="480" cy="165" rx="72" ry="58" fill="#e8dcc8" stroke="#8b5e34" stroke-width="2"/>
+<ellipse cx="480" cy="173" rx="39" ry="26" fill="none" stroke="#9aa89f" stroke-width="1" stroke-dasharray="4 3"/>
+<circle cx="480" cy="133" r="22" fill="#f7f4ef" stroke="#1c2420" stroke-width="2"/>
+<line x1="408" y1="165" x2="552" y2="165" stroke="#9aa89f" stroke-width="1" opacity="0.6"/>
+<text class="small" x="480" y="248" text-anchor="middle">ostiole (eye) at apex</text>
+<text class="small" x="180" y="268" text-anchor="middle">pinhole opening</text>
+<text class="small" x="480" y="268" text-anchor="middle">open ostiole</text>
+<text class="small">
+<tspan x="24" y="296">Humid rain + heat: open eyes invite souring and wasp access; tight eyes</tspan>
+<tspan x="24" dy="16">buy time on the tree.</tspan>
+</text>
 </svg>
