@@ -4,7 +4,7 @@ Magazine series for a later import to **SLPWOW.com**. This folder is the pack. I
 
 **Start here:** [`INDEX.md`](INDEX.md) (calendar + roster). Voice: [`STYLE_GUIDE.md`](STYLE_GUIDE.md). Claims: [`CLAIMS_GUARDRAILS.md`](CLAIMS_GUARDRAILS.md). Portraits: [`PORTRAIT_SOURCES.md`](PORTRAIT_SOURCES.md) (notes only). WordPress: [`WP_IMPORT.md`](WP_IMPORT.md).
 
-Forty-four Markdown drafts live in `articles/` (16 era essays, 28 profiles). No image files ship in this pack.
+Forty-four Markdown drafts live in `articles/` (16 era essays, 28 profiles). Cleared **PD/CC portraits** live under `assets/portraits/` with per-file `*.RIGHTS.md` sidecars and pack ledger [`RIGHTS.md`](RIGHTS.md). Lead `<figure class="slpwow-figure">` blocks carry SEO captions; living figures stay placeholder — never AI faces.
 
 This series is the **swallowing / dysphagia** lane of SLPWOW heritage copy: the word before the clinic, experimental physiology, bismuth and barium, the rigid esophagoscope, infant cine at Bethesda, the Hopkins swallowing center, the 1980s SLP turn, FEES, silent aspiration as an argument, texture modification as a century-long habit, and the people whose books and films still sit on clinic shelves. The general history of the profession (Hotel McAlpin, Iowa, ASHA’s name changes) lives next door in `content/slpwow-speech-pathology-history/`. Voice and larynx live in `content/voice-disorders-heritage/`. Chevalier Jackson appears in the voice pack from the knife side; here he is the foreign-body and esophagus man.
 
@@ -18,14 +18,17 @@ This series is the **swallowing / dysphagia** lane of SLPWOW heritage copy: the 
 | `STYLE_GUIDE.md` | Human voice, bans, structure |
 | `CLAIMS_GUARDRAILS.md` | Educational, not a protocol |
 | `BIBLIOGRAPHY.md` | Sources used |
-| `PHOTO_NOTES.md` | Art direction for a later graphics pass |
-| `PORTRAIT_SOURCES.md` | License ledger and hunt log — notes only |
+| `PHOTO_NOTES.md` | Art direction for figures and captions |
+| `PORTRAIT_SOURCES.md` | License ledger and hunt log |
+| `RIGHTS.md` | Cleared portrait registry + placeholder policy |
+| `assets/portraits/` | Ingested PD/CC JPEGs + `*.RIGHTS.md` |
+| `_tools/` | Commons ingest + figure patch helpers |
 | `WP_IMPORT.md` | Draft-only WordPress map |
 | `check_pack.py` | Structural QA |
 
 ## Portrait policy
 
-Never generate or embed synthetic historical faces. This pack records **public-domain and open-license portrait notes** only. Do not download likenesses into this folder until a later rights-cleared graphics pass. Until then, profiles carry a caption-ready credit line and, when no PD file is known, the placeholder block in `STYLE_GUIDE.md`.
+Never generate or embed synthetic historical faces. Ingest only **public domain, CC, museum open access, or Wikimedia Commons** files with a verified file-page license. Record every binary in `RIGHTS.md` and `assets/portraits/<id>.RIGHTS.md`. Profiles with `portrait_status: downloaded` must carry a lead `<figure class="slpwow-figure slpwow-figure--portrait">` block (`<!-- figure-id: <slug>.lead-portrait -->`). Living or uncleared figures stay `portrait_status: placeholder` with the verbatim placeholder block — no substitute likeness.
 
 ## What this pack will not do
 

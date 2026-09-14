@@ -11,8 +11,8 @@ tags:
   - foreign-body
 figure_dates: "1865–1958"
 meta_description: Chevalier Jackson (1865–1958) built American bronchoesophagology around a clinic of pins, coins, and children. The autobiography is a source and a performance.
-portrait: null
-portrait_status: note
+portrait: assets/portraits/chevalier-jackson.jpg
+portrait_status: downloaded
 voice_check: human
 audience: slpwow
 stage: draft
@@ -22,6 +22,23 @@ last_verified: 2026-09-14
 # Chevalier Jackson
 
 *Educational history for SLPWOW. Not a treatment plan and not a substitute for evaluation by a licensed clinician.*
+
+<!-- figure-id: chevalier-jackson.lead-portrait -->
+<figure class="slpwow-figure slpwow-figure--portrait">
+  <img
+    src="../assets/portraits/chevalier-jackson.jpg"
+    alt="Autographed studio portrait of Chevalier Jackson in later life."
+    width="360"
+    height="476"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Chevalier Jackson</strong> (1865–1958), Philadelphia bronchoesophagologist whose foreign-body clinic and manuals shaped American endoscopy.
+    <span class="figure-credit">Wellcome Collection / Wikimedia Commons. CC BY 4.0.</span>
+  </figcaption>
+</figure>
+
+
 
 4 November 1865, western Pennsylvania. 16 August 1958. Ninety-two years, most of them spent teaching other people to look down a rigid tube without killing the person attached to it. Pittsburgh first, then Philadelphia — Jefferson, later Temple. The College of Physicians still knows his name as a cabinet of objects. Tourists remember the open safety pins. The clinic was for the children who had swallowed them.
 
@@ -48,9 +65,3 @@ He is not an SLP. Do not recruit him. A later FEES is not his esophagoscopy. The
 ## Residue
 
 A Pennsylvania birth, a 1958 death, a glass case of pins. The residue is the case, and the unphotographed children.
-
-## Portrait
-
-> **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the pack date. See `PORTRAIT_SOURCES.md` for hunt status. Do not invent or generate a substitute likeness.
-
-Candidate: Commons and Wellcome studio portraits. Confirm each file page. Do not use a living-patient radiograph, or any clinical foreign-body film, as a stand-in face.

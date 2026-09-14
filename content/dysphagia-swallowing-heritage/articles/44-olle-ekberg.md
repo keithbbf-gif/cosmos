@@ -12,7 +12,7 @@ tags:
 figure_dates: "living at pack date"
 meta_description: Olle Ekberg’s Lund cine radiology is the reminder that the filmed pharynx is not an American SLP invention. European pictures, same crossing.
 portrait: null
-portrait_status: note
+portrait_status: placeholder
 voice_check: human
 audience: slpwow
 stage: draft
@@ -22,6 +22,9 @@ last_verified: 2026-09-14
 # Olle Ekberg
 
 *Educational history for SLPWOW. Not a treatment plan and not a substitute for evaluation by a licensed clinician.*
+
+> **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the pack date. See `PORTRAIT_SOURCES.md` for hunt status. Do not invent or generate a substitute likeness.
+
 
 American training myths like a 1983 start date. Olle Ekberg’s Lund career — swallowing radiology, cine of the pharynx, papers that sit in *Dysphagia* and the European radiology journals — is the reminder that people were filming the crossing while American SLPs were still arguing their way into the suite. He was living or recently active when this pack was staged. Published work only.
 
@@ -47,10 +50,4 @@ Several birth certificates for the filmed pharynx can sit in one folder. Lund’
 
 ## Residue
 
-A Lund loop and a student in another country who thinks the pause button was born in 1983. The residue is the older flicker.
-
-## Portrait
-
-> **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the pack date. See `PORTRAIT_SOURCES.md` for hunt status. Do not invent or generate a substitute likeness.
-
-Living. Hunt Swedish university archives only with a license. Default is placeholder.
+A Lund loop and a student in another country who thinks the pause button was born in 1983. The residue is the older flicker, and the Swedish archive hunt still marked placeholder here.

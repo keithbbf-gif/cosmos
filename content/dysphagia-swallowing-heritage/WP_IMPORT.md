@@ -13,6 +13,9 @@ content/dysphagia-swallowing-heritage/
   BIBLIOGRAPHY.md
   PHOTO_NOTES.md
   PORTRAIT_SOURCES.md
+  RIGHTS.md
+  assets/portraits/
+  _tools/
   WP_IMPORT.md             this file
   check_pack.py
   articles/01-…44-….md
@@ -45,8 +48,9 @@ Do not hang these under `/services/` or `/dysphagia/` or `/swallowing-therapy/ex
 | `type: era` | Category: History — Swallow Ages |
 | `type: profile` | Category: History — Swallow People |
 | `tags` | Post tags |
-| `portrait` | Featured image only if a later pass adds a cleared file; this pack ships `null` |
-| `portrait_status: note` | No featured image; keep the placeholder block in the body |
+| `portrait` | Featured image path when `portrait_status: downloaded`; else `null` |
+| `portrait_status: downloaded` | Lead `<figure class="slpwow-figure">` in body **and** featured image on import |
+| `portrait_status: placeholder` | No featured image; keep placeholder block in body |
 | `figure_dates` | Optional subtitle or a custom field `figure_dates` |
 | `voice_check` | Custom field; hide from public |
 | `series` | Custom field `series = slpwow-dysphagia-swallowing-heritage` |
@@ -61,13 +65,14 @@ Keep the italic educational line under the title. It is not optional.
 ## Markdown → blocks
 
 - ATX `##` / `###` → heading blocks.
+- Raw HTML `<figure class="slpwow-figure …">` → Custom HTML block (preserve `figure-id` comment, `figcaption`, and `figure-credit` span for SEO).
 - Blockquotes that start with `**Portrait placeholder.**` → a muted “callout” or “notice” block. Do not style them as testimonials.
 - Italic book titles stay italic.
 - Do not auto-link every proper name to Wikipedia.
 
 ## Featured images
 
-This pack ships **no** image binaries. Upload later only files listed as **cleared** in `PORTRAIT_SOURCES.md`.
+Upload only files listed as **cleared** in `RIGHTS.md` / `PORTRAIT_SOURCES.md`. Map `portrait` YAML to the media library path. Alt text and caption come from the lead `<figure>` block and the matching `*.RIGHTS.md`.
 
 Do **not** upload generated likenesses, ASHA omeka scrapes, or university-page snapshots without a redistribution grant. Do **not** upload a frame from a clinical swallow study.
 

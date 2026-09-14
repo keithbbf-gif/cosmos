@@ -12,7 +12,7 @@ tags:
 figure_dates: "living at pack date"
 meta_description: Barbara C. Sonies used ultrasound at NIH to watch a swallow without a lead apron. A third picture, quieter than fluoro or FEES, and not a home gadget.
 portrait: null
-portrait_status: note
+portrait_status: placeholder
 voice_check: human
 audience: slpwow
 stage: draft
@@ -22,6 +22,9 @@ last_verified: 2026-09-14
 # Barbara C. Sonies
 
 *Educational history for SLPWOW. Not a treatment plan and not a substitute for evaluation by a licensed clinician.*
+
+> **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the pack date. See `PORTRAIT_SOURCES.md` for hunt status. Do not invent or generate a substitute likeness.
+
 
 Not every swallow picture is barium or a nose. Barbara C. Sonies’s NIH career put ultrasound on the tongue and hyoid and asked what you could see without a lead apron or a cart of scopes. Aging, saliva, the oral stage as a visible motion — papers that sit beside Robbins and beside the older Bosma cine without being either. She was living or recently retired when this pack was staged. Published work and NIH pages only.
 
@@ -48,9 +51,3 @@ A probe without a cookie is easy to oversell at a conference. Sonies’s NIH pap
 ## Residue
 
 A Bethesda lab and a probe. The residue is a picture without a cookie.
-
-## Portrait
-
-> **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the pack date. See `PORTRAIT_SOURCES.md` for hunt status. Do not invent or generate a substitute likeness.
-
-Living. Not public domain. NIH news photos are not a license.

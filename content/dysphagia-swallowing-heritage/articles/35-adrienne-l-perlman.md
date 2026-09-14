@@ -12,7 +12,7 @@ tags:
 figure_dates: "living at pack date"
 meta_description: Adrienne L. Perlman’s Iowa and Illinois line treated the swallow as physiology you could wire — EMG, timing, the unromantic traces behind a clinic adjective.
 portrait: null
-portrait_status: note
+portrait_status: placeholder
 voice_check: human
 audience: slpwow
 stage: draft
@@ -22,6 +22,9 @@ last_verified: 2026-09-14
 # Adrienne L. Perlman
 
 *Educational history for SLPWOW. Not a treatment plan and not a substitute for evaluation by a licensed clinician.*
+
+> **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the pack date. See `PORTRAIT_SOURCES.md` for hunt status. Do not invent or generate a substitute likeness.
+
 
 A clinic adjective — “weak,” “delayed,” “incomplete” — is a story. Adrienne L. Perlman’s career (Iowa, Illinois, the physiology papers that put EMG and timing on an SLP shelf) is the American line this pack uses for the unromantic traces behind the story. She was living when this pack was staged. DRS Gold Medal, 2024, on the society’s page, is a footnote. Published work only. BCS-S after the credential existed; do not back-date a board onto a younger paper.
 
@@ -47,10 +50,4 @@ If your clinic note cannot survive a millisecond, it is still a story. Perlman�
 
 ## Residue
 
-A tracing that does not care about your cookie folklore. The residue is the tracing.
-
-## Portrait
-
-> **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the pack date. See `PORTRAIT_SOURCES.md` for hunt status. Do not invent or generate a substitute likeness.
-
-Living. Not public domain.
+A tracing that does not care about your cookie folklore. The residue is the tracing, and the living portrait row that stays placeholder in this pass.

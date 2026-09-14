@@ -1,6 +1,6 @@
 # Photo Notes — Art Direction (Dysphagia / Swallowing Series)
 
-Staged guidance for a later SLPWOW.com editor. No live CMS writes. **This pack ships notes, not files.**
+Staged guidance for a later SLPWOW.com editor. No live CMS writes. **Cleared PD/CC portraits** live in `assets/portraits/`; see `RIGHTS.md`.
 
 ## What we are making
 

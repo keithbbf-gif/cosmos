@@ -12,7 +12,7 @@ tags:
 figure_dates: "living at pack date"
 meta_description: JoAnne Robbins’s Wisconsin and Madison VA work made the aging swallow a research object. Lingual strengthening is a literature, not a magazine workout.
 portrait: null
-portrait_status: note
+portrait_status: placeholder
 voice_check: human
 audience: slpwow
 stage: draft
@@ -22,6 +22,9 @@ last_verified: 2026-09-14
 # JoAnne Robbins
 
 *Educational history for SLPWOW. Not a treatment plan and not a substitute for evaluation by a licensed clinician.*
+
+> **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the pack date. See `PORTRAIT_SOURCES.md` for hunt status. Do not invent or generate a substitute likeness.
+
 
 The aging swallow is not a 25-year-old swallow with wrinkles. JoAnne Robbins’s career at the University of Wisconsin–Madison and the William S. Middleton Memorial Veterans Hospital is the American research line this pack uses for that sentence. She was living when this pack was staged. Published papers and institutional pages only. DRS later put her among Gold Medal names; honors are a footnote.
 
@@ -48,9 +51,3 @@ Aging research can be used to humble a protocol or to excuse one. Robbins’s pa
 ## Residue
 
 A Madison lab and a word that escaped. The residue is the word, and the duty not to turn it into a tray ticket.
-
-## Portrait
-
-> **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the pack date. See `PORTRAIT_SOURCES.md` for hunt status. Do not invent or generate a substitute likeness.
-
-Living. Not public domain.

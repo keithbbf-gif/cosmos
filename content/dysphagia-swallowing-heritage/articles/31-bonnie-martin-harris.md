@@ -12,7 +12,7 @@ tags:
 figure_dates: "living at pack date"
 meta_description: Bonnie Martin-Harris’s MBSImP papers, from 2008 on, tried to make two strangers score the same swallow film. A dialect project, not a treatment pad.
 portrait: null
-portrait_status: note
+portrait_status: placeholder
 voice_check: human
 audience: slpwow
 stage: draft
@@ -22,6 +22,9 @@ last_verified: 2026-09-14
 # Bonnie Martin-Harris
 
 *Educational history for SLPWOW. Not a treatment plan and not a substitute for evaluation by a licensed clinician.*
+
+> **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the pack date. See `PORTRAIT_SOURCES.md` for hunt status. Do not invent or generate a substitute likeness.
+
 
 One clinician’s “mild residue” is another’s shrug. Bonnie Martin-Harris’s MBSImP papers (*Dysphagia*, 2008 and after) are an attempt to make the videofluoroscopic swallow a dialect two strangers can share. Medical University of South Carolina, later Northwestern — the public addresses moved. The project is the scoring of a look, not a magazine how-to. She was living when this pack was staged. Published work only. DRS Gold Medal, 2023, is a footnote.
 
@@ -47,10 +50,4 @@ If MBSImP becomes, in a later decade, only a workshop badge, that will be a use,
 
 ## Residue
 
-A 2008 paper and a generation that can argue about a number instead of a shrug. The residue is the argument.
-
-## Portrait
-
-> **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the pack date. See `PORTRAIT_SOURCES.md` for hunt status. Do not invent or generate a substitute likeness.
-
-Living. Not public domain.
+A 2008 paper and a generation that can argue about a number instead of a shrug. The residue is the argument, and the portrait hunt that stays open until a cleared file page lands.

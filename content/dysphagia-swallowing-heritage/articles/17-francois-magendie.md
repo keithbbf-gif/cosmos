@@ -10,8 +10,8 @@ tags:
   - physiology
 figure_dates: "1783–1855"
 meta_description: François Magendie (1783–1855) made deglutition a reflex you could interrupt. A physiology life, not a swallow clinic.
-portrait: null
-portrait_status: note
+portrait: assets/portraits/francois-magendie.jpg
+portrait_status: downloaded
 voice_check: human
 audience: slpwow
 stage: draft
@@ -21,6 +21,23 @@ last_verified: 2026-09-14
 # François Magendie
 
 *Educational history for SLPWOW. Not a treatment plan and not a substitute for evaluation by a licensed clinician.*
+
+<!-- figure-id: francois-magendie.lead-portrait -->
+<figure class="slpwow-figure slpwow-figure--portrait">
+  <img
+    src="../assets/portraits/francois-magendie.jpg"
+    alt="Lithograph portrait of François Magendie, nineteenth-century French physiologist."
+    width="360"
+    height="357"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>François Magendie</strong> (1783–1855), French physiologist who treated deglutition as interruptible physiology in the *Précis* textbooks.
+    <span class="figure-credit">BIU Santé / Wikimedia Commons. CC0 1.0.</span>
+  </figcaption>
+</figure>
+
+
 
 The *Précis élémentaire de physiologie* is a thick French textbook, not a clinic manual. Deglutition lives in it the way urine and breath live in it: as an act you can take apart. François Magendie, born in Bordeaux on 6 October 1783 and dead in Paris on 7 October 1855, is in this pack because later swallow science still uses his permission. He is not in it because he was a speech-language pathologist. The credential would have baffled him.
 
@@ -39,9 +56,3 @@ What later people discarded is the public casualness of the cutting. What they k
 ## Residue
 
 A Bordeaux birth date and a Paris death date, one day after a seventy-second birthday. A textbook that outlived the fights about vitalism. A later fluoro suite that still believes a swallow is a mechanism. The residue is the permission, and the debt.
-
-## Portrait
-
-> **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the pack date. See `PORTRAIT_SOURCES.md` for hunt status. Do not invent or generate a substitute likeness.
-
-Candidate: 19th-century lithographs on Wikimedia Commons and BIU Santé. Confirm the file-page license before a later graphics pass downloads anything. Engraver credit on the file page, not a Google thumbnail.

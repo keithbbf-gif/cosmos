@@ -11,8 +11,8 @@ tags:
   - physiology
 figure_dates: "1871–1945"
 meta_description: Walter B. Cannon (1871–1945) stained a living meal with bismuth and asked Röntgen’s rays to draw it. Homeostasis made him famous. The goose made him ours.
-portrait: null
-portrait_status: note
+portrait: assets/portraits/walter-b-cannon.jpg
+portrait_status: downloaded
 voice_check: human
 audience: slpwow
 stage: draft
@@ -22,6 +22,23 @@ last_verified: 2026-09-14
 # Walter B. Cannon
 
 *Educational history for SLPWOW. Not a treatment plan and not a substitute for evaluation by a licensed clinician.*
+
+<!-- figure-id: walter-b-cannon.lead-portrait -->
+<figure class="slpwow-figure slpwow-figure--portrait">
+  <img
+    src="../assets/portraits/walter-b-cannon.jpg"
+    alt="Studio photograph of Walter Bradford Cannon in mid career."
+    width="360"
+    height="269"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Walter B. Cannon</strong> (1871–1945), Harvard physiologist who stained living meals with bismuth for early fluoroscopic swallow studies.
+    <span class="figure-credit">Wellcome Collection / Wikimedia Commons. CC BY 4.0.</span>
+  </figcaption>
+</figure>
+
+
 
 Prairie du Chien, Wisconsin, 19 October 1871. Cambridge and Boston for the long career. New Hampshire, 1 October 1945. The obituaries will talk about homeostasis and the sympathetic nervous system. This pack talks about a student in Bowditch’s laboratory in 1896 who put bismuth subnitrate in a goose’s meal so a new kind of light would draw a stomach.
 
@@ -44,9 +61,3 @@ What they discarded, or should have: the casual leap from “Cannon” to “bar
 ## Residue
 
 A Wisconsin birth and a 1945 death, a month shy of seventy-four. Geese in a Boston laboratory. A later dark room that still believes a meal can be stained into honesty. The residue is the stain.
-
-## Portrait
-
-> **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the pack date. See `PORTRAIT_SOURCES.md` for hunt status. Do not invent or generate a substitute likeness.
-
-Candidate: NLM Images from the History of Medicine and Commons plates of mid-career Cannon. Early files may be public domain; later studio photographs need a file-page check. Do not grab a textbook scan and call it cleared.

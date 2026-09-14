@@ -11,7 +11,7 @@ tags:
 figure_dates: "living at pack date"
 meta_description: Paula Leslie’s ethics-of-feeding papers treated the cup as a moral object. Risk, harm, the end of a life — a literature, not a decision for a stranger.
 portrait: null
-portrait_status: note
+portrait_status: placeholder
 voice_check: human
 audience: slpwow
 stage: draft
@@ -21,6 +21,9 @@ last_verified: 2026-09-14
 # Paula Leslie
 
 *Educational history for SLPWOW. Not a treatment plan and not a substitute for evaluation by a licensed clinician.*
+
+> **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the pack date. See `PORTRAIT_SOURCES.md` for hunt status. Do not invent or generate a substitute likeness.
+
 
 A fluoro loop can show residue. It cannot tell you what a life is for. Paula Leslie’s essays and talks — a long University of Pittsburgh stretch, later a UK address on public pages — are the literature this pack uses when the cup becomes a moral object. Risk feeding. End-of-life swallowing. The difference between a hazard and a harm. She was living when this pack was staged. Published papers and lectures only. This profile will not decide a stranger’s last meal.
 
@@ -47,9 +50,3 @@ A fluoro loop that cannot say what a life is for is still a useful loop. It is n
 ## Residue
 
 A paper you cannot laminate into a diet. The residue is a question that still needs a person with authority to consent, sitting down.
-
-## Portrait
-
-> **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the pack date. See `PORTRAIT_SOURCES.md` for hunt status. Do not invent or generate a substitute likeness.
-
-Living. Not public domain.

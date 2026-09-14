@@ -13,6 +13,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 ART = ROOT / "articles"
 INDEX = ROOT / "INDEX.md"
+PORTRAITS = ROOT / "assets" / "portraits"
+FIGURE_CLS = re.compile(r'<figure class="slpwow-figure', re.I)
 
 REQUIRED_YAML = [
     "title",
@@ -123,21 +125,37 @@ def main() -> int:
             errors.append(f"{path.name}: bad series {fm.get('series')!r}")
         if fm.get("audience") != "slpwow":
             errors.append(f"{path.name}: audience must be slpwow")
-        if fm.get("portrait") not in {"null", ""}:
-            errors.append(f"{path.name}: this pack is notes-only; portrait must be null")
         typ = fm.get("type")
         if typ not in {"era", "profile"}:
             errors.append(f"{path.name}: bad type {typ!r}")
         else:
             types[typ] += 1
-        if typ == "profile" and fm.get("portrait_status") not in {"note"}:
-            errors.append(f"{path.name}: profile portrait_status must be note")
         if typ == "era" and fm.get("portrait_status") not in {"essay-only"}:
             errors.append(f"{path.name}: era portrait_status must be essay-only")
-        if typ == "profile" and "figure_dates" not in fm:
-            errors.append(f"{path.name}: profile missing figure_dates")
-        if typ == "profile" and PLACEHOLDER_NEEDLE not in text:
-            errors.append(f"{path.name}: profile missing placeholder block")
+        if typ == "profile":
+            pstat = fm.get("portrait_status")
+            if pstat not in {"downloaded", "placeholder"}:
+                errors.append(f"{path.name}: profile portrait_status must be downloaded or placeholder")
+            if "figure_dates" not in fm:
+                errors.append(f"{path.name}: profile missing figure_dates")
+            if pstat == "placeholder":
+                if PLACEHOLDER_NEEDLE not in text:
+                    errors.append(f"{path.name}: placeholder profile missing placeholder block")
+                if fm.get("portrait") not in {"null", ""}:
+                    errors.append(f"{path.name}: placeholder profile must have portrait: null")
+            if pstat == "downloaded":
+                portrait = fm.get("portrait", "")
+                if not portrait or portrait == "null":
+                    errors.append(f"{path.name}: downloaded profile missing portrait path")
+                if not FIGURE_CLS.search(text):
+                    errors.append(f"{path.name}: downloaded profile missing slpwow-figure block")
+                if portrait:
+                    img_path = ROOT / portrait
+                    if not img_path.is_file():
+                        errors.append(f"{path.name}: missing portrait file {portrait}")
+                    rights = img_path.with_suffix(".RIGHTS.md")
+                    if not rights.is_file():
+                        errors.append(f"{path.name}: missing {rights.relative_to(ROOT)}")
         if DISCLAIMER_NEEDLE not in text.lower():
             errors.append(f"{path.name}: missing educational note")
         if AI_FACE.search(text) and "do not" not in text.lower():
@@ -171,9 +189,15 @@ def main() -> int:
     if types["profile"] != TARGET_PROFILE:
         errors.append(f"profile count {types['profile']} != {TARGET_PROFILE}")
 
+    allowed_images = set()
+    if PORTRAITS.is_dir():
+        for img in PORTRAITS.glob("*.jpg"):
+            allowed_images.add(img.resolve())
     for img in ROOT.rglob("*"):
-        if img.suffix.lower() in {".jpg", ".jpeg", ".png", ".gif", ".webp"}:
-            errors.append(f"image file not allowed in this notes-only pack: {img.relative_to(ROOT)}")
+        if img.suffix.lower() not in {".jpg", ".jpeg", ".png", ".gif", ".webp"}:
+            continue
+        if img.resolve() not in allowed_images:
+            errors.append(f"unexpected image outside assets/portraits: {img.relative_to(ROOT)}")
 
     ops = [
         "INDEX.md",
@@ -183,6 +207,7 @@ def main() -> int:
         "BIBLIOGRAPHY.md",
         "PORTRAIT_SOURCES.md",
         "PHOTO_NOTES.md",
+        "RIGHTS.md",
         "WP_IMPORT.md",
         "README.md",
     ]

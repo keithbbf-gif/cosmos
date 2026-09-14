@@ -6,10 +6,10 @@ Filename convention for a later graphics pass: `assets/portraits/<portrait_id>.<
 
 | portrait_id | figure | candidate | license / terms | source URL | credit line | cleared to download later |
 |-------------|--------|-----------|-----------------|------------|-------------|---------------------------|
-| francois-magendie | François Magendie | Several 19th-c lithographs / BIU Santé | Often PD or Licence Ouverte | Search Commons and BIU “François Magendie” | Credit photographer or engraver on file page | verify file page |
-| walter-b-cannon | Walter B. Cannon | Mid-career Harvard photographs; NLM IHM plates | Early plates may be PD; later studio photos caution | Search NLM IHM and Commons “Walter Bradford Cannon” | Photographer on file page | verify file page |
-| gustav-killian | Gustav Killian | German studio portraits c. 1900–15 | Often PD | Search Commons “Gustav Killian” | Photographer on file page | verify file page |
-| chevalier-jackson | Chevalier Jackson | Wellcome / Commons studio portraits; later autobiography plates | Confirm each file; some 1930s plates still need a check | Search Commons “Chevalier Jackson” | Do not use a living-patient foreign-body radiograph as a portrait | verify file page |
+| francois-magendie | François Magendie | BIU Santé lithograph S454 | CC0 1.0 | [Portrait de François Magendie (1783-1855)](https://commons.wikimedia.org/wiki/File:Portrait_de_Fran%C3%A7ois_Magendie_(1783-1855),_physiologiste,_S454.jpg) | BIU Santé / Wikimedia Commons | **yes** — ingested 2026-09-14 |
+| walter-b-cannon | Walter B. Cannon | Wellcome M0014715 | CC BY 4.0 | [Walter Bradford Cannon. Photograph. Wellcome M0014715.jpg](https://commons.wikimedia.org/wiki/File:Walter_Bradford_Cannon._Photograph._Wellcome_M0014715.jpg) | Wellcome Collection | **yes** — ingested 2026-09-14 |
+| gustav-killian | Gustav Killian | Commons `Killian.jpg` | Public domain | [Killian.jpg](https://commons.wikimedia.org/wiki/File:Killian.jpg) | See file page | **yes** — ingested 2026-09-14 |
+| chevalier-jackson | Chevalier Jackson | Wellcome autographed portrait M0017924 | CC BY 4.0 | [Portrait of Chevalier Jackson, autographed](https://commons.wikimedia.org/wiki/File:Portrait_of_Chevalier_Jackson,_autographed._Wellcome_M0017924.jpg) | Wellcome Collection | **yes** — ingested 2026-09-14 |
 | harris-p-mosher | Harris P. Mosher | Harvard faculty plates; *Annals* memorial era | Early plates may be PD (d. 1954) | Countway / Commons hunt | Photographer on file page | verify file page |
 | arthur-hurst | Arthur Hurst | Guy’s Hospital / Wellcome candidates | Hunt Wellcome and RCP | Search “Arthur Hurst” Wellcome | **Portrait placeholder** until file page checked | not yet |
 | james-f-bosma | James F. Bosma | NIH / Baltimore *Sun* news photos | Copyright likely (d. 2001) | NIH Office of NIH History; do not grab news wire | **Portrait placeholder.** | no |

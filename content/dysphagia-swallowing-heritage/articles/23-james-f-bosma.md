@@ -12,7 +12,7 @@ tags:
 figure_dates: "1916–2001"
 meta_description: James F. Bosma (1916–2001) filmed infant cry and swallow, then spent twenty years at NIH making the infant head an atlas. The 1986 book is the object you can still hold.
 portrait: null
-portrait_status: note
+portrait_status: placeholder
 voice_check: human
 audience: slpwow
 stage: draft
@@ -22,6 +22,9 @@ last_verified: 2026-09-14
 # James F. Bosma
 
 *Educational history for SLPWOW. Not a treatment plan and not a substitute for evaluation by a licensed clinician.*
+
+> **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the pack date. See `PORTRAIT_SOURCES.md` for hunt status. Do not invent or generate a substitute likeness.
+
 
 1916. Death on Friday, 22 June 2001, of heart failure, at the University of Maryland Medical Center. The Baltimore *Sun* printed the obituary on the 28th. He was eighty-five. Birth day is not forced in this pack. James F. Bosma is here because pediatric dysphagia has a cine-and-atlas ancestor, and because the ancestor sat, later, in Martin Donner’s adult swallowing center as if the crossing of air and food did not care about your age.
 
@@ -44,9 +47,3 @@ What they discarded: some of the older positional folklore that attached itself 
 ## Residue
 
 An unnamed 1916, a June 2001 death in Baltimore, a 1986 book. The residue is a flickering infant hyoid on a reel a later team will quote without watching.
-
-## Portrait
-
-> **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the pack date. See `PORTRAIT_SOURCES.md` for hunt status. Do not invent or generate a substitute likeness.
-
-Candidate: NIH Office of History; Baltimore *Sun* news photographs (copyright). Do not grab the wire photo.

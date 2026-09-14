@@ -12,7 +12,7 @@ tags:
 figure_dates: "living at pack date"
 meta_description: Michael Groher’s mid-1980s textbooks made dysphagia an SLP-edited shelf object with a VA accent. Not a sidekick to the 1983 book. A second spine.
 portrait: null
-portrait_status: note
+portrait_status: placeholder
 voice_check: human
 audience: slpwow
 stage: draft
@@ -22,6 +22,9 @@ last_verified: 2026-09-14
 # Michael Groher
 
 *Educational history for SLPWOW. Not a treatment plan and not a substitute for evaluation by a licensed clinician.*
+
+> **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the pack date. See `PORTRAIT_SOURCES.md` for hunt status. Do not invent or generate a substitute likeness.
+
 
 If Logemann is the 1983 physiology-and-cookie spine, Michael E. Groher is the other American textbook line: *Dysphagia: Diagnosis and Management*, editions from the mid-1980s, later work with Michael Crary under larger house imprints. VA lineage shows through the bindings. He was living when this pack was staged. Published books and institutional pages only.
 
@@ -48,9 +51,3 @@ A student who only meets Groher as “the other textbook” has already learned 
 ## Residue
 
 A mid-1980s spine next to a 1983 spine. The residue is two books on one cart.
-
-## Portrait
-
-> **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the pack date. See `PORTRAIT_SOURCES.md` for hunt status. Do not invent or generate a substitute likeness.
-
-Living. Not public domain.

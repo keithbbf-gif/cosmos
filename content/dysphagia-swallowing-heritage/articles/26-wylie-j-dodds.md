@@ -12,7 +12,7 @@ tags:
 figure_dates: "1934–1992"
 meta_description: Wylie J. “Jerry” Dodds (1934–1992) of the Medical College of Wisconsin joined manometry to a barium picture. The birth year is inferred from memorial age. The papers are not.
 portrait: null
-portrait_status: note
+portrait_status: placeholder
 voice_check: human
 audience: slpwow
 stage: draft
@@ -22,6 +22,9 @@ last_verified: 2026-09-14
 # Wylie J. Dodds
 
 *Educational history for SLPWOW. Not a treatment plan and not a substitute for evaluation by a licensed clinician.*
+
+> **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the pack date. See `PORTRAIT_SOURCES.md` for hunt status. Do not invent or generate a substitute likeness.
+
 
 Wylie J. Dodds — Jerry in the Milwaukee hallway — died in 1992 of a brain tumor. He was fifty-eight, say the Society of Abdominal Radiology and the motility-society memorials. This pack therefore prints 1934–1992 and flags the birth year as arithmetic from those sentences, not as a birth certificate. He had kept meeting trainees weekly through three years of disability. That sentence is in the memorials. It is enough house detail.
 
@@ -42,9 +45,3 @@ What they discarded: the hope that one laboratory style would settle every argum
 ## Residue
 
 An inferred 1934, a 1992 death, a Milwaukee lab. The residue is a tracing and a picture stapled together, and a lecture that still says both names.
-
-## Portrait
-
-> **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the pack date. See `PORTRAIT_SOURCES.md` for hunt status. Do not invent or generate a substitute likeness.
-
-Candidate: Medical College of Wisconsin archives. Copyright. Ask.

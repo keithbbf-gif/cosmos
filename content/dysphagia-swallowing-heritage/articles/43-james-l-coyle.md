@@ -12,7 +12,7 @@ tags:
 figure_dates: "living at pack date"
 meta_description: James L. Coyle’s Pittsburgh work is the dark-room conscience — recording quality, claims after twenty seconds of fluoro, who is looking. Not a how-to.
 portrait: null
-portrait_status: note
+portrait_status: placeholder
 voice_check: human
 audience: slpwow
 stage: draft
@@ -22,6 +22,9 @@ last_verified: 2026-09-14
 # James L. Coyle
 
 *Educational history for SLPWOW. Not a treatment plan and not a substitute for evaluation by a licensed clinician.*
+
+> **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the pack date. See `PORTRAIT_SOURCES.md` for hunt status. Do not invent or generate a substitute likeness.
+
 
 A swallow study is a culture: a slot, a code, a person standing in a dark room. James L. Coyle’s University of Pittsburgh career is the American conscience this pack uses for that culture — instrumentation, image quality, what you may claim after a short loop, who is qualified to look. He was living when this pack was staged. Published papers and teaching pages only.
 
@@ -48,9 +51,3 @@ A competency card that cannot survive a subpoena is a costume. Coyle’s dark-ro
 ## Residue
 
 A dark room and a file name. The residue is a claim you can defend, or should not have made.
-
-## Portrait
-
-> **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the pack date. See `PORTRAIT_SOURCES.md` for hunt status. Do not invent or generate a substitute likeness.
-
-Living. Not public domain.

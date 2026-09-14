@@ -12,7 +12,7 @@ tags:
 figure_dates: "living at pack date"
 meta_description: Rosemary Martino’s TOR-BSST literature tried to make stroke swallow screening a procedure rather than a vibe. History of a screen. Not the items.
 portrait: null
-portrait_status: note
+portrait_status: placeholder
 voice_check: human
 audience: slpwow
 stage: draft
@@ -22,6 +22,9 @@ last_verified: 2026-09-14
 # Rosemary Martino
 
 *Educational history for SLPWOW. Not a treatment plan and not a substitute for evaluation by a licensed clinician.*
+
+> **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the pack date. See `PORTRAIT_SOURCES.md` for hunt status. Do not invent or generate a substitute likeness.
+
 
 A screen sorts. An evaluation owns the next sentence. Rosemary Martino’s TOR-BSST papers — Toronto, *Stroke* and later validation work — are the North American attempt this pack uses for that distinction as a *publication history*. She was living when this pack was staged. Published papers only. This profile will not print the items, the water amounts, or a hospital policy.
 
@@ -48,9 +51,3 @@ A named screen is a historical achievement and a standing temptation. The achiev
 ## Residue
 
 A *Stroke* paper and a binder. The residue is the distinction between sort and own.
-
-## Portrait
-
-> **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the pack date. See `PORTRAIT_SOURCES.md` for hunt status. Do not invent or generate a substitute likeness.
-
-Living. Not public domain.

@@ -11,7 +11,7 @@ tags:
 figure_dates: "living at pack date"
 meta_description: Joan C. Arvedson’s Pediatric Swallowing and Feeding made the children’s-hospital team a portable curriculum. A textbook life, not a home pacing plan.
 portrait: null
-portrait_status: note
+portrait_status: placeholder
 voice_check: human
 audience: slpwow
 stage: draft
@@ -21,6 +21,9 @@ last_verified: 2026-09-14
 # Joan C. Arvedson
 
 *Educational history for SLPWOW. Not a treatment plan and not a substitute for evaluation by a licensed clinician.*
+
+> **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the pack date. See `PORTRAIT_SOURCES.md` for hunt status. Do not invent or generate a substitute likeness.
+
 
 Children’s Hospital of Wisconsin. *Pediatric Swallowing and Feeding* — first with Linda Brodsky, later editions that bring Maureen Lefton-Greif more fully onto the spine. Joan C. Arvedson is the name a generation of SLP students met when the adult cookie book ran out of infants. She was living when this pack was staged. DRS Gold Medal (shared, 2025, on the society’s awards page) is a footnote. Published textbooks and papers only.
 
@@ -47,9 +50,3 @@ A children’s hospital textbook is also a record of who was invited onto the sp
 ## Residue
 
 A Wisconsin children’s hospital and a spine that travels. The residue is the meeting, mailed.
-
-## Portrait
-
-> **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the pack date. See `PORTRAIT_SOURCES.md` for hunt status. Do not invent or generate a substitute likeness.
-
-Living. Not public domain.

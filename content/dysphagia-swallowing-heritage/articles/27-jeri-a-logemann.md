@@ -12,7 +12,7 @@ tags:
 figure_dates: "1942–2014"
 meta_description: Jerilyn Ann Logemann (21 May 1942–19 June 2014) wrote the 1983 book that made swallowing a teachable American SLP job. Ph.D., not M.D. Cookie folklore sits on a real method.
 portrait: null
-portrait_status: note
+portrait_status: placeholder
 voice_check: human
 audience: slpwow
 stage: draft
@@ -22,6 +22,9 @@ last_verified: 2026-09-14
 # Jeri A. Logemann
 
 *Educational history for SLPWOW. Not a treatment plan and not a substitute for evaluation by a licensed clinician.*
+
+> **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the pack date. See `PORTRAIT_SOURCES.md` for hunt status. Do not invent or generate a substitute likeness.
+
 
 Jerilyn Ann Logemann was born 21 May 1942 and died 19 June 2014, at seventy-two. Northwestern Now and the Feinberg obituary agree on the day. Between 1963 and 1968 she took a bachelor’s, a master’s, and a Ph.D. in speech pathology from Northwestern — one campus, three degrees. She taught locally, joined the medical-school research staff, and from 1978 held faculty lines in Communication Sciences and Disorders and in otolaryngology and neurology. Ralph and Jean Sundin Professor. Director of the Voice, Speech, and Language Service and Swallowing Center on the Chicago campus. Twice president of the American Speech-Language-Hearing Association. Twice chair of Northwestern’s Faculty Senate. The Fisher–Logemann Test of Articulation Competence was already a shelf object before the swallow book.
 
@@ -46,9 +49,3 @@ What they discarded, or should have: the idea that a textbook is a protocol pad.
 ## Residue
 
 A May birth, a June death, a 1983 spine. The residue is a pause button in a dark room and a student who thinks the job was always theirs.
-
-## Portrait
-
-> **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the pack date. See `PORTRAIT_SOURCES.md` for hunt status. Do not invent or generate a substitute likeness.
-
-Candidate: Northwestern archives; ASHA. Copyright (d. 2014). Ask. Do not scrape the obituary photo.

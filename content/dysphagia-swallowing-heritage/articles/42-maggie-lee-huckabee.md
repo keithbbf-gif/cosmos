@@ -12,7 +12,7 @@ tags:
 figure_dates: "living at pack date"
 meta_description: Maggie-Lee Huckabee’s Canterbury work made skill-versus-strength a swallow debate. History of an argument. Not a biofeedback homework sheet.
 portrait: null
-portrait_status: note
+portrait_status: placeholder
 voice_check: human
 audience: slpwow
 stage: draft
@@ -22,6 +22,9 @@ last_verified: 2026-09-14
 # Maggie-Lee Huckabee
 
 *Educational history for SLPWOW. Not a treatment plan and not a substitute for evaluation by a licensed clinician.*
+
+> **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the pack date. See `PORTRAIT_SOURCES.md` for hunt status. Do not invent or generate a substitute likeness.
+
 
 If Perlman’s traces made timing visible, Maggie-Lee Huckabee’s University of Canterbury career made *skill* a fighting word. Surface EMG, biofeedback as a research tool, the claim that some swallow failures are motor-learning problems rather than “do it harder” problems — a New Zealand laboratory talking back to an American maneuver culture. She was living when this pack was staged. Published papers only. This profile will not print electrode placements or a week’s homework.
 
@@ -47,10 +50,4 @@ Living — no family, no home. Portrait: placeholder.
 
 ## Residue
 
-A Canterbury lab and a word — skill — that still picks fights. The residue is the fight.
-
-## Portrait
-
-> **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the pack date. See `PORTRAIT_SOURCES.md` for hunt status. Do not invent or generate a substitute likeness.
-
-Living. Not public domain.
+A Canterbury lab and a word — skill — that still picks fights. The residue is the fight, and the portrait placeholder this pack keeps until rights clear.

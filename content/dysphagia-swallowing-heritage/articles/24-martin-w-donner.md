@@ -12,7 +12,7 @@ tags:
 figure_dates: "c. 1920–1992"
 meta_description: Martin W. Donner (c. 1920–1992) ran Hopkins radiology, opened a swallowing center in 1981, and founded the journal Dysphagia. Colleagues said first. He built a meeting.
 portrait: null
-portrait_status: note
+portrait_status: placeholder
 voice_check: human
 audience: slpwow
 stage: draft
@@ -22,6 +22,9 @@ last_verified: 2026-09-14
 # Martin W. Donner
 
 *Educational history for SLPWOW. Not a treatment plan and not a substitute for evaluation by a licensed clinician.*
+
+> **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the pack date. See `PORTRAIT_SOURCES.md` for hunt status. Do not invent or generate a substitute likeness.
+
 
 The Baltimore *Sun*, 15 April 1992: Dr. Martin W. Donner died Monday at Hopkins Hospital of complications after a heart transplant on 6 March. He was seventy-one. Monday was 13 April. Birth day is not forced; “c. 1920/21” is the arithmetic this pack will carry. German-born — later memorials mention the reunited native country and an honorary membership in the Deutsche Röntgengesellschaft. Ruxton, Maryland, at the end. Zion Lutheran near City Hall for the service.
 
@@ -44,9 +47,3 @@ What they discarded, when they were careless: the multidisciplinary part. A glas
 ## Residue
 
 A German childhood this pack does not fake, an April 1992 death, a journal spine. The residue is volume 1, number 1, and a meeting that outlived the man who wanted it.
-
-## Portrait
-
-> **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the pack date. See `PORTRAIT_SOURCES.md` for hunt status. Do not invent or generate a substitute likeness.
-
-Candidate: Hopkins faculty photographs; Springer memorial plates. Copyright. Ask the archive. Do not treat a scanned obituary halftone as cleared.

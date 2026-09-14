@@ -12,7 +12,7 @@ tags:
 figure_dates: "living at pack date"
 meta_description: Catriona Steele’s Toronto laboratory treated thin liquid as a measurable object. IDDSI’s science neighbor, not a brand ambassador, and not a kitchen coach.
 portrait: null
-portrait_status: note
+portrait_status: placeholder
 voice_check: human
 audience: slpwow
 stage: draft
@@ -22,6 +22,9 @@ last_verified: 2026-09-14
 # Catriona M. Steele
 
 *Educational history for SLPWOW. Not a treatment plan and not a substitute for evaluation by a licensed clinician.*
+
+> **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the pack date. See `PORTRAIT_SOURCES.md` for hunt status. Do not invent or generate a substitute likeness.
+
 
 Thin liquid is a slogan until someone measures it. Catriona M. Steele’s Toronto career — University of Toronto, KITE/Toronto Rehabilitation Institute — is the instrumentation neighborhood this pack puts beside Cichero’s framework papers. Bolus, viscosity, swallow physiology as numbers rather than nectar-words. She was living when this pack was staged. Published papers only.
 
@@ -47,10 +50,4 @@ SI units will not make a meal kind. They will make a paper honest. Steele’s To
 
 ## Residue
 
-A Toronto lab and a liquid that finally had to sit still for a machine. The residue is the number.
-
-## Portrait
-
-> **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the pack date. See `PORTRAIT_SOURCES.md` for hunt status. Do not invent or generate a substitute likeness.
-
-Living. Not public domain.
+A Toronto lab and a liquid that finally had to sit still for a machine. The residue is the number, and the open portrait slot until a cleared Canadian file appears.

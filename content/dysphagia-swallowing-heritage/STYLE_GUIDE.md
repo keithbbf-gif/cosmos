@@ -53,8 +53,8 @@ order: 1
 tags:
   - dysphagia-heritage
 meta_description: One or two sentences for a later WP excerpt. No hype. No how-to.
-portrait: null
-portrait_status: note | essay-only
+portrait: null | assets/portraits/<id>.jpg
+portrait_status: placeholder | downloaded | essay-only
 figure_dates: "1783–1855"   # profiles only
 voice_check: human
 audience: slpwow
@@ -65,7 +65,7 @@ last_verified: 2026-09-14
 
 `voice_check: human` is an editorial flag, not a boast. If a draft starts sounding like a model, rewrite the first paragraph before anything else.
 
-`portrait: null` is mandatory in this pack. Portrait **notes** live in `PORTRAIT_SOURCES.md` and in a short “Portrait” section at the end of each profile.
+`portrait: null` with `portrait_status: placeholder` when no cleared file exists. `portrait_status: downloaded` requires a lead `<figure class="slpwow-figure slpwow-figure--portrait">` and matching `assets/portraits/<id>.RIGHTS.md`.
 
 ## Educational line
 
@@ -101,14 +101,14 @@ Use the name the person published under, then the modern field name once.
 - Do not call 1898 radiologists or 1920s endoscopists “SLPs.” They did not use that credential.
 - FEES began in print as FEESS (fiberoptic endoscopic examination of swallowing safety). Say so once.
 
-## Portraits — notes only
+## Portraits — PD/CC only
 
-This pack does **not** ship image files and does **not** generate faces.
+Cleared Commons portraits may ship in `assets/portraits/`. **Never** generate faces.
 
-1. Public domain, CC, museum open access, or Wikimedia Commons with a readable license.
-2. Record the candidate file, URL, license, author, and credit line in `PORTRAIT_SOURCES.md`.
-3. Do not download into this folder in this pass.
-4. If rights are unclear: labeled placeholder. **Never** generate a likeness and pass it off as a historical photograph.
+1. Public domain, CC, museum open access, or Wikimedia Commons with a readable **file-page** license.
+2. Record the file, URL, license, author, and credit line in `PORTRAIT_SOURCES.md`, `RIGHTS.md`, and `assets/portraits/<id>.RIGHTS.md`.
+3. Do not ingest press photos, ASHA scrapes, or university snapshots without redistribution rights.
+4. If rights are unclear: `portrait_status: placeholder` and the verbatim block below. **Never** generate a likeness and pass it off as a historical photograph.
 
 Placeholder copy (use verbatim when needed):
 

@@ -12,7 +12,7 @@ tags:
 figure_dates: "1879–1944"
 meta_description: Sir Arthur Hurst (1879–1944) of Guy’s wrote cardiospasm and barium into British clinical habit. He had other lives. This pack keeps the swallow one in the room.
 portrait: null
-portrait_status: note
+portrait_status: placeholder
 voice_check: human
 audience: slpwow
 stage: draft
@@ -22,6 +22,9 @@ last_verified: 2026-09-14
 # Arthur Hurst
 
 *Educational history for SLPWOW. Not a treatment plan and not a substitute for evaluation by a licensed clinician.*
+
+> **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the pack date. See `PORTRAIT_SOURCES.md` for hunt status. Do not invent or generate a substitute likeness.
+
 
 23 July 1879. 17 August 1944. Guy’s Hospital, London. The knighthood came later; the papers on cardiospasm and the unopening cardia came when barium had become a morning list and “spasm” was still the English word later writers would fold into *achalasia*. Arthur Frederick Hurst is in this pack because the esophagus had a British clinic voice before the pharynx had an American SLP one.
 
@@ -44,9 +47,3 @@ What they discarded: some of the spasm language, and the hope that one man’s w
 ## Residue
 
 A July birth, an August death in the last year of a war he had already written about in another register. The residue is a British word on an American student’s unused esophagus chapter.
-
-## Portrait
-
-> **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the pack date. See `PORTRAIT_SOURCES.md` for hunt status. Do not invent or generate a substitute likeness.
-
-Candidate: Wellcome Collection and Royal College of Physicians hunts. Do not download a news-weekly scan.

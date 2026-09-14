@@ -12,7 +12,7 @@ tags:
 figure_dates: "living at pack date"
 meta_description: Maureen Lefton-Greif’s Hopkins pediatric line is the other American academic address for children’s swallow — reviews, teams, and a name that migrated onto Arvedson’s spine.
 portrait: null
-portrait_status: note
+portrait_status: placeholder
 voice_check: human
 audience: slpwow
 stage: draft
@@ -22,6 +22,9 @@ last_verified: 2026-09-14
 # Maureen Lefton-Greif
 
 *Educational history for SLPWOW. Not a treatment plan and not a substitute for evaluation by a licensed clinician.*
+
+> **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the pack date. See `PORTRAIT_SOURCES.md` for hunt status. Do not invent or generate a substitute likeness.
+
 
 If Wisconsin is Arvedson’s children’s hospital, Johns Hopkins is Maureen A. Lefton-Greif’s academic address. Pediatric dysphagia reviews, airway-and-swallow papers, later editions of the pediatric textbook that already had Arvedson’s name on it — a career spent making the infant and child meal a Hopkins subject after Bosma’s atlas and Donner’s adult center had already made the building famous for other ages. She was living when this pack was staged. Published work only.
 
@@ -47,10 +50,4 @@ Baltimore already had a swallow fame when she wrote the pediatric reviews. Using
 
 ## Residue
 
-A Baltimore building and a review article a later team still assigns. The residue is the child who is not a small Logemann patient.
-
-## Portrait
-
-> **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the pack date. See `PORTRAIT_SOURCES.md` for hunt status. Do not invent or generate a substitute likeness.
-
-Living. Not public domain.
+A Baltimore building and a review article a later team still assigns. The residue is the child who is not a small Logemann patient, and the placeholder frame until Hopkins grants a portrait.

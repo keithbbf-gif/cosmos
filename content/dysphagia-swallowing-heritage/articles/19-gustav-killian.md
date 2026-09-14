@@ -10,8 +10,8 @@ tags:
   - endoscopy
 figure_dates: "1860–1921"
 meta_description: Gustav Killian (1860–1921) removed a foreign body through a rigid bronchoscope in 1897. The triangle that later writers attach to Zenker is the quieter residue.
-portrait: null
-portrait_status: note
+portrait: assets/portraits/gustav-killian.jpg
+portrait_status: downloaded
 voice_check: human
 audience: slpwow
 stage: draft
@@ -21,6 +21,23 @@ last_verified: 2026-09-14
 # Gustav Killian
 
 *Educational history for SLPWOW. Not a treatment plan and not a substitute for evaluation by a licensed clinician.*
+
+<!-- figure-id: gustav-killian.lead-portrait -->
+<figure class="slpwow-figure slpwow-figure--portrait">
+  <img
+    src="../assets/portraits/gustav-killian.jpg"
+    alt="Portrait photograph of Gustav Killian, German laryngologist and endoscopist."
+    width="360"
+    height="284"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Gustav Killian</strong> (1860–1921), Freiburg laryngologist associated with rigid endoscopy and Killian’s triangle.
+    <span class="figure-credit">Wikimedia Commons. Public domain.</span>
+  </figcaption>
+</figure>
+
+
 
 Mainz, 2 June 1860. Death, 24 February 1921. Freiburg is the 1897 city in the story American endoscopy textbooks still tell: a rigid tube, a light, a living airway, a foreign body that came out instead of staying in a grave. Priority fights around “who first looked down a bronchus” are a national sport. This pack will carry the published removal and leave the minute-by-minute reconstruction to people holding the German primary.
 
@@ -43,9 +60,3 @@ If you only remember the 1897 afternoon, you miss the quieter anatomy. Killian�
 ## Residue
 
 A Mainz birth, a 1921 death, a Freiburg afternoon that later slides still show. The residue is a triangle and a tube.
-
-## Portrait
-
-> **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the pack date. See `PORTRAIT_SOURCES.md` for hunt status. Do not invent or generate a substitute likeness.
-
-Candidate: German studio portraits c. 1900–1915 on Wikimedia Commons. Confirm photographer and license on the file page. Do not colorize.

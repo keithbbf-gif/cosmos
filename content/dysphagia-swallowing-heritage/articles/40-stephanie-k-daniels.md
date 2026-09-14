@@ -12,7 +12,7 @@ tags:
 figure_dates: "living at pack date"
 meta_description: Stephanie K. Daniels’s clinical-indicator papers after stroke made the bedside a probability, not a clearance. Clusters, not a pocket diagnosis.
 portrait: null
-portrait_status: note
+portrait_status: placeholder
 voice_check: human
 audience: slpwow
 stage: draft
@@ -22,6 +22,9 @@ last_verified: 2026-09-14
 # Stephanie K. Daniels
 
 *Educational history for SLPWOW. Not a treatment plan and not a substitute for evaluation by a licensed clinician.*
+
+> **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the pack date. See `PORTRAIT_SOURCES.md` for hunt status. Do not invent or generate a substitute likeness.
+
 
 A clean voice after a sip is not a clearance. Stephanie K. Daniels’s papers from VA and academic stroke services in the 1990s and after — clinical indicators, clusters of signs, the chance a later instrumental exam would show trouble — are the American literature this pack uses for that rebuke. She was living when this pack was staged. University of Houston appears on later public pages. DRS Gold Medal, 2026, on the society’s awards list, is a footnote. Published papers only. No item list.
 
@@ -48,9 +51,3 @@ Clusters travel. Censuses do not, not without a sentence about who was in the be
 ## Residue
 
 A VA ward and a cluster. The residue is a probability, still waiting for someone to own the next sentence.
-
-## Portrait
-
-> **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the pack date. See `PORTRAIT_SOURCES.md` for hunt status. Do not invent or generate a substitute likeness.
-
-Living. Not public domain.

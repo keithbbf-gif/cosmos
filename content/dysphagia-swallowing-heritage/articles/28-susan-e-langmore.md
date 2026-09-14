@@ -12,7 +12,7 @@ tags:
 figure_dates: "living at pack date"
 meta_description: Susan E. Langmore’s 1988 VA paper with Schatz and Olsen named FEESS, later FEES. Four pages, an extra S, a fight about who may look through a nose.
 portrait: null
-portrait_status: note
+portrait_status: placeholder
 voice_check: human
 audience: slpwow
 stage: draft
@@ -22,6 +22,9 @@ last_verified: 2026-09-14
 # Susan E. Langmore
 
 *Educational history for SLPWOW. Not a treatment plan and not a substitute for evaluation by a licensed clinician.*
+
+> **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the pack date. See `PORTRAIT_SOURCES.md` for hunt status. Do not invent or generate a substitute likeness.
+
 
 Four pages in *Dysphagia* 2, no. 4 (1988): 216–219. Susan E. Langmore, Kenneth Schatz, Nels Olsen. Veterans Affairs. “Fiberoptic Endoscopic Examination of Swallowing Safety: A New Procedure.” The acronym on the page is FEESS. Later speech shortened it. She was living when this pack was staged. Published work and institutional pages only.
 
@@ -50,9 +53,3 @@ Schatz and Olsen are not sidekicks on the 1988 byline. They are the reminder tha
 ## Residue
 
 Volume 2, pages 216–219, and a scope on a cart. The residue is the cart.
-
-## Portrait
-
-> **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the pack date. See `PORTRAIT_SOURCES.md` for hunt status. Do not invent or generate a substitute likeness.
-
-Living. Not public domain. Do not scrape a conference badge photo.

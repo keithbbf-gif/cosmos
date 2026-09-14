@@ -12,7 +12,7 @@ tags:
 figure_dates: "living at pack date"
 meta_description: Reza Shaker’s Milwaukee GI laboratory made the UES and the head-lift paper famous. History of a publication. Not a repetition count.
 portrait: null
-portrait_status: note
+portrait_status: placeholder
 voice_check: human
 audience: slpwow
 stage: draft
@@ -22,6 +22,9 @@ last_verified: 2026-09-14
 # Reza Shaker
 
 *Educational history for SLPWOW. Not a treatment plan and not a substitute for evaluation by a licensed clinician.*
+
+> **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the pack date. See `PORTRAIT_SOURCES.md` for hunt status. Do not invent or generate a substitute likeness.
+
 
 Medical College of Wisconsin. Gastroenterology. The upper esophageal sphincter as a door you can argue about with manometry and pictures after Jerry Dodds’s generation had already taught Milwaukee to combine the two. Reza Shaker’s 1990s papers on a head-lift exercise are the ones hallway culture turned into a proper name. He was living when this pack was staged. Published work only.
 
@@ -48,9 +51,3 @@ Eponyms are how hallways remember GI papers they did not finish. “Shaker” on
 ## Residue
 
 A 1990s paper and a mat in a therapy gym this pack will not describe how to use. The residue is the fight, not the count.
-
-## Portrait
-
-> **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the pack date. See `PORTRAIT_SOURCES.md` for hunt status. Do not invent or generate a substitute likeness.
-
-Living. Not public domain.
