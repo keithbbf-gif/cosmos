@@ -1,0 +1,447 @@
+{
+  "drafts": [
+    {
+      "file": "00-01-why-this-history.md",
+      "id": "hfrh-00-01",
+      "title": "Why this history, and why we tell it from the shop",
+      "stage": "00-frame",
+      "runtime_min": 7.0,
+      "standalone": "true",
+      "words": 797,
+      "educational_claim": "Handmade furniture did not jump from a workbench to a website. It moved through a sequence of selling rooms, and each room taught the buyer a different lie or a different truth."
+    },
+    {
+      "file": "00-02-who-is-talking.md",
+      "id": "hfrh-00-02",
+      "title": "Who is talking, and what a shop like this actually is",
+      "stage": "00-frame",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 919,
+      "educational_claim": "A custom furniture shop that sells through trade showrooms is not a store, not a factory in the Wayfair sense, and not a gallery. The speaker's job is to keep those categories from collapsing."
+    },
+    {
+      "file": "00-03-four-doors.md",
+      "id": "hfrh-00-03",
+      "title": "Four doors a handmade piece walked through",
+      "stage": "00-frame",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 917,
+      "educational_claim": "Consignment, wholesale, to-the-trade, and dropship are four different assignments of risk, title, and customer relationship. Mixing them is how shops go broke and buyers get confused."
+    },
+    {
+      "file": "00-04-stolen-words.md",
+      "id": "hfrh-00-04",
+      "title": "Handmade, custom, wholesale, artisan \u2014 words that got stolen",
+      "stage": "00-frame",
+      "runtime_min": 7.0,
+      "standalone": "true",
+      "words": 835,
+      "educational_claim": "Retail language drifted on purpose. Handmade, custom, wholesale, and artisan used to describe labor and contracts. After the platforms, they often describe a feeling."
+    },
+    {
+      "file": "01-05-america-house.md",
+      "id": "hfrh-01-05",
+      "title": "America House \u2014 the first serious door for American craft",
+      "stage": "01-galleries",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 827,
+      "educational_claim": "Before websites, American craft built a cooperative city shop so rural makers could reach metropolitan buyers. America House (1940\u20131971) is the ancestor of the gallery door."
+    },
+    {
+      "file": "01-06-acc-fairs.md",
+      "id": "hfrh-01-06",
+      "title": "Rhinebeck, Baltimore, and the ACC fair as a portable gallery",
+      "stage": "01-galleries",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 898,
+      "educational_claim": "The American Craft Council fairs turned handmade retail into a temporary city with a jury, a booth fee, and two kinds of buyer: the public with a checkbook and the store with a wholesale order."
+    },
+    {
+      "file": "01-07-gallery-consignment.md",
+      "id": "hfrh-01-07",
+      "title": "The gallery ticket \u2014 consignment, the wall, and the 50 percent myth",
+      "stage": "01-galleries",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 894,
+      "educational_claim": "A craft gallery sells access to a taught buyer. Consignment keeps title with the maker; the split pays for rent, editing, and talk. The famous 50 percent is a habit, not a law."
+    },
+    {
+      "file": "01-08-studio-furniture-as-art.md",
+      "id": "hfrh-01-08",
+      "title": "When a table became art \u2014 studio furniture and the museum shadow",
+      "stage": "01-galleries",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 854,
+      "educational_claim": "Mid-century studio furniture taught America that a chair could be a life's work. The art market that followed raised prices and also made ordinary usefulness look like a lesser category."
+    },
+    {
+      "file": "01-09-table-as-bad-gallery-object.md",
+      "id": "hfrh-01-09",
+      "title": "Why a dining table is a rude guest in a gallery",
+      "stage": "01-galleries",
+      "runtime_min": 7.0,
+      "standalone": "true",
+      "words": 796,
+      "educational_claim": "Scale, freight, sit-testing, and the time a table occupies a floor make dining furniture a poor fit for rooms designed around portable craft. That mismatch pushed serious tables toward showrooms and commissions."
+    },
+    {
+      "file": "01-10-jury-and-booth.md",
+      "id": "hfrh-01-10",
+      "title": "The year you do not get in \u2014 juries, booths, and useful nos",
+      "stage": "01-galleries",
+      "runtime_min": 7.0,
+      "standalone": "true",
+      "words": 748,
+      "educational_claim": "Juries and booth fees are rationing systems. A no can be information about fit, fashion, or capacity. The internet's yes is not automatically kinder."
+    },
+    {
+      "file": "01-11-what-galleries-taught.md",
+      "id": "hfrh-01-11",
+      "title": "What a gallery taught a buyer that a website still cannot",
+      "stage": "01-galleries",
+      "runtime_min": 7.0,
+      "standalone": "true",
+      "words": 781,
+      "educational_claim": "Galleries taught looking, comparison, patience, and the right to ask who made the last two inches. Websites taught speed and a return policy. Those are not interchangeable educations."
+    },
+    {
+      "file": "01-12-gallery-to-showroom-handoff.md",
+      "id": "hfrh-01-12",
+      "title": "The handoff \u2014 when furniture outgrew the gallery and needed a trade",
+      "stage": "01-galleries",
+      "runtime_min": 7.0,
+      "standalone": "false",
+      "words": 792,
+      "educational_claim": "As interior design professionalized, large handmade furniture moved from consignment walls to trade showrooms because designers needed repeatable catalog, net pricing, and a sample they could bring a client to."
+    },
+    {
+      "file": "02-13-to-the-trade.md",
+      "id": "hfrh-02-13",
+      "title": "To the trade \u2014 a badge is not a velvet rope for fun",
+      "stage": "02-showrooms",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 804,
+      "educational_claim": "To-the-trade means the professional is the customer. The restriction is usually on buying, not browsing. The system exists to split labor between maker, showroom, and designer."
+    },
+    {
+      "file": "02-14-design-centers.md",
+      "id": "hfrh-02-14",
+      "title": "The D&D and the design center \u2014 a mall that is not a mall",
+      "stage": "02-showrooms",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 765,
+      "educational_claim": "A design center is a cluster of wholesale showrooms for professionals. It is not High Point, not a department store, and not a craft fair. The D&D Building (1965) is the type specimen."
+    },
+    {
+      "file": "02-15-getting-the-line-in.md",
+      "id": "hfrh-02-15",
+      "title": "How a line gets into a showroom \u2014 and why most should not",
+      "stage": "02-showrooms",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 751,
+      "educational_claim": "Representation is a capacity deal. The showroom needs a line that will not embarrass them; the shop needs a room it can feed. Wanting every city is how lead times die."
+    },
+    {
+      "file": "02-16-territory-exclusivity.md",
+      "id": "hfrh-02-16",
+      "title": "Territory and exclusivity \u2014 the quiet fight over a name",
+      "stage": "02-showrooms",
+      "runtime_min": 7.0,
+      "standalone": "true",
+      "words": 673,
+      "educational_claim": "Showroom exclusivity is a tool for protecting sales effort. It can also become a fence that keeps a maker from eating. The map is a contract, not a compliment."
+    },
+    {
+      "file": "02-17-net-list-multiplier.md",
+      "id": "hfrh-02-17",
+      "title": "List, net, and the multiplier \u2014 who is being paid for what",
+      "stage": "02-showrooms",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 815,
+      "educational_claim": "List is a published number. Net is the professional price. The gap is not automatically greed; it is a bundle of showroom labor, designer labor, and sometimes a fiction. Learn to parse the bundle."
+    },
+    {
+      "file": "02-18-sample-floor.md",
+      "id": "hfrh-02-18",
+      "title": "The sample floor \u2014 pieces we build so other pieces can be believed",
+      "stage": "02-showrooms",
+      "runtime_min": 7.0,
+      "standalone": "true",
+      "words": 698,
+      "educational_claim": "A showroom sample is a working argument, not inventory. It costs a shop real bench time, and it is how custom work stays honest across a continent."
+    },
+    {
+      "file": "02-19-paper-trail.md",
+      "id": "hfrh-02-19",
+      "title": "Sidemarks, memos, acknowledgements \u2014 the paper that keeps a table honest",
+      "stage": "02-showrooms",
+      "runtime_min": 7.0,
+      "standalone": "true",
+      "words": 671,
+      "educational_claim": "Trade paperwork exists because a commission has too many people to remember in their heads. Sidemarks, finish samples, and acknowledgements are how a shop refuses to guess."
+    },
+    {
+      "file": "02-20-cold-calling-designers.md",
+      "id": "hfrh-02-20",
+      "title": "Cold calls on Capitol Hill \u2014 how a shop finds a designer before it finds a building",
+      "stage": "02-showrooms",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 709,
+      "educational_claim": "Before a showroom list, a custom shop finds work by talking to designers one at a time. The call is a door. Most calls fail. The ones that do not become a practice."
+    },
+    {
+      "file": "02-21-own-trucks.md",
+      "id": "hfrh-02-21",
+      "title": "Why we own the trucks \u2014 delivery as the last inch of making",
+      "stage": "02-showrooms",
+      "runtime_min": 7.0,
+      "standalone": "true",
+      "words": 645,
+      "educational_claim": "Freight is where handmade furniture is most often ruined. A shop that delivers its own work is refusing to outsource the last inch of the object."
+    },
+    {
+      "file": "03-22-high-point.md",
+      "id": "hfrh-03-22",
+      "title": "High Point \u2014 the twice-a-year city that is not a store",
+      "stage": "03-markets",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 743,
+      "educational_claim": "High Point Market, begun as the Southern Furniture Market in 1909, is a trade gathering. It is where wholesale relationships are made, not where the public shops a mall."
+    },
+    {
+      "file": "03-23-market-order-vs-cart.md",
+      "id": "hfrh-03-23",
+      "title": "A market order is not a cart",
+      "stage": "03-markets",
+      "runtime_min": 7.0,
+      "standalone": "true",
+      "words": 571,
+      "educational_claim": "A traditional market order moved title, terms, and a season's bet. A website cart moves a payment and a hope. Handmade shops that treated carts like market orders absorbed risk they did not price."
+    },
+    {
+      "file": "03-24-tear-sheets.md",
+      "id": "hfrh-03-24",
+      "title": "Tear sheets and catalogs \u2014 the photograph before the photograph",
+      "stage": "03-markets",
+      "runtime_min": 7.0,
+      "standalone": "true",
+      "words": 563,
+      "educational_claim": "Trade catalogs and tear sheets taught the industry to sell from paper long before e-commerce. The web did not invent the picture. It deleted the person holding the picture."
+    },
+    {
+      "file": "04-25-ebay-yahoo.md",
+      "id": "hfrh-04-25",
+      "title": "eBay, Yahoo, and the first digital storefronts",
+      "stage": "04-early-web",
+      "runtime_min": 7.0,
+      "standalone": "true",
+      "words": 576,
+      "educational_claim": "Before Etsy and Wayfair, makers used eBay, Yahoo stores, and early personal sites as doors. Those doors taught payments and photographs. They did not solve furniture."
+    },
+    {
+      "file": "04-26-photography-as-showroom.md",
+      "id": "hfrh-04-26",
+      "title": "Photography became the showroom",
+      "stage": "04-early-web",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 641,
+      "educational_claim": "Once the picture could take money, shops started building for the camera. That changed which objects got made, which defects were allowed, and who learned to look."
+    },
+    {
+      "file": "04-27-freight-is-not-shipping.md",
+      "id": "hfrh-04-27",
+      "title": "Freight is not shipping",
+      "stage": "04-early-web",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 601,
+      "educational_claim": "Parcel shipping and furniture freight are different industries. Early e-commerce hid that difference behind a checkout line, and handmade tables paid for the confusion."
+    },
+    {
+      "file": "05-28-etsy-2005.md",
+      "id": "hfrh-05-28",
+      "title": "2005 \u2014 a marketplace that actually meant handmade",
+      "stage": "05-etsy",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 588,
+      "educational_claim": "Etsy launched in June 2005 as a Brooklyn-built marketplace for handmade goods. Its first gift to makers was a room that believed the word. Its first problem was scale."
+    },
+    {
+      "file": "05-29-jewelry-economics.md",
+      "id": "hfrh-05-29",
+      "title": "Why a dining table never fit Etsy's jewelry economics",
+      "stage": "05-etsy",
+      "runtime_min": 7.0,
+      "standalone": "true",
+      "words": 666,
+      "educational_claim": "Etsy's fee structure, shipping culture, and browsing habit were built around portable, repeatable, parcel-scale objects. Furniture breaks each of those assumptions."
+    },
+    {
+      "file": "05-30-handmade-wars.md",
+      "id": "hfrh-05-30",
+      "title": "2013 \u2014 the handmade wars",
+      "stage": "05-etsy",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 734,
+      "educational_claim": "In October 2013 Etsy allowed sellers to hire and to apply to use manufacturers if they remained the design author. The fight was about whether handmade is labor or authorship."
+    },
+    {
+      "file": "05-31-three-buckets.md",
+      "id": "hfrh-05-31",
+      "title": "Handmade, vintage, supplies \u2014 three buckets, one storefront",
+      "stage": "05-etsy",
+      "runtime_min": 7.0,
+      "standalone": "true",
+      "words": 586,
+      "educational_claim": "Etsy's public contract was three allowed kinds of goods. Furniture could be honest in all three and still confuse a buyer who thought the storefront meant one thing."
+    },
+    {
+      "file": "05-32-fees-and-ads.md",
+      "id": "hfrh-05-32",
+      "title": "When the booth fee became an auction",
+      "stage": "05-etsy",
+      "runtime_min": 7.0,
+      "standalone": "true",
+      "words": 625,
+      "educational_claim": "A listing fee is rent. Promoted listings are an auction for oxygen. After ads, \"organic\" handmade discovery is a phrase, not a system."
+    },
+    {
+      "file": "05-33-etsy-wholesale.md",
+      "id": "hfrh-05-33",
+      "title": "Etsy Wholesale \u2014 the dream of a clean big-box door",
+      "stage": "05-etsy",
+      "runtime_min": 7.0,
+      "standalone": "true",
+      "words": 571,
+      "educational_claim": "Etsy Wholesale tried to connect growing sellers to retailers. It is the bridge sentence between craft-marketplace culture and the older wholesale pipe. Treat it as a chapter, not a current promise."
+    },
+    {
+      "file": "06-34-overstock-partners.md",
+      "id": "hfrh-06-34",
+      "title": "Overstock \u2014 from closeouts to fulfillment partners",
+      "stage": "06-platform-wholesale",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 673,
+      "educational_claim": "Overstock began as an online closeout shop (D2, 1997; Overstock.com, 1999) and grew a fulfillment-partner model that let other people's inventory sit on their site. That is an early industrial dropship."
+    },
+    {
+      "file": "06-35-csn-wayfair.md",
+      "id": "hfrh-06-35",
+      "title": "CSN Stores \u2014 two hundred websites, then one word",
+      "stage": "06-platform-wholesale",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 653,
+      "educational_claim": "Wayfair began in 2002 as CSN Stores, a forest of niche sites, then consolidated into Wayfair.com in 2011. The catalog was a supplier network, not a warehouse of their own objects."
+    },
+    {
+      "file": "06-36-dropship-job.md",
+      "id": "hfrh-06-36",
+      "title": "Dropship, said as a job description",
+      "stage": "06-platform-wholesale",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 657,
+      "educational_claim": "Dropship assigns the customer to the website and the object to the shop. It is a job change, not a marketing channel. Shops that priced it like wholesale underpriced the job."
+    },
+    {
+      "file": "06-37-high-point-recruitment.md",
+      "id": "hfrh-06-37",
+      "title": "High Point as a recruiting office for catalogs",
+      "stage": "06-platform-wholesale",
+      "runtime_min": 7.0,
+      "standalone": "true",
+      "words": 590,
+      "educational_claim": "Platforms filled millions of SKUs by walking the old wholesale market and turning supplier catalogs into listings. The market's original buyer was a store. The new buyer was a website."
+    },
+    {
+      "file": "06-38-sku-flood.md",
+      "id": "hfrh-06-38",
+      "title": "The SKU flood and the death of the edited floor",
+      "stage": "06-platform-wholesale",
+      "runtime_min": 7.0,
+      "standalone": "true",
+      "words": 555,
+      "educational_claim": "An edited floor teaches by exclusion. A seven-million-SKU catalog teaches by ranking. Handmade furniture got harder to see when exclusion left the building."
+    },
+    {
+      "file": "06-39-map-private-label.md",
+      "id": "hfrh-06-39",
+      "title": "MAP, private label, and whose name is on the box",
+      "stage": "06-platform-wholesale",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 665,
+      "educational_claim": "Minimum advertised price and private label decide whether a shop's work can be recognized. Platforms often wanted the object without the name. Showrooms wanted the name without a public discount war."
+    },
+    {
+      "file": "06-40-returns-chargebacks.md",
+      "id": "hfrh-06-40",
+      "title": "Returns, chargebacks, and a table that already left the shop",
+      "stage": "06-platform-wholesale",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 637,
+      "educational_claim": "Furniture returns are a second making. Chargebacks are a third party rewriting the acknowledgement. Platform policies built for parcels treat both as normal."
+    },
+    {
+      "file": "06-41-walking-away.md",
+      "id": "hfrh-06-41",
+      "title": "Walking away from the pipe",
+      "stage": "06-platform-wholesale",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 669,
+      "educational_claim": "Leaving a platform pipe is a capacity decision. It costs orders. It buys back the customer, the name, and the right to say no. Not every shop can afford the walk. Every shop should price it."
+    },
+    {
+      "file": "07-42-four-prices.md",
+      "id": "hfrh-07-42",
+      "title": "Four prices for the same table",
+      "stage": "07-after",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 588,
+      "educational_claim": "The same object can carry four honest prices depending on door, livings, risk, and teaching. A cheaper picture is often a different bundle, not a bargain on the same bundle."
+    },
+    {
+      "file": "07-43-american-made.md",
+      "id": "hfrh-07-43",
+      "title": "What American made meant in 1999, and what a caption means now",
+      "stage": "07-after",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 600,
+      "educational_claim": "American made used to imply a building, a payroll, and a dock. After global supply chains and caption culture, the phrase can mean a brand office, a final assembly, or a hope. Ask for the building."
+    },
+    {
+      "file": "07-44-series-close.md",
+      "id": "hfrh-07-44",
+      "title": "Keep the house standing \u2014 what this channel is for",
+      "stage": "07-after",
+      "runtime_min": 8.0,
+      "standalone": "false",
+      "words": 599,
+      "educational_claim": "The history is a tool. Use it to read a door, keep a shop alive while it changes, and refuse stolen words. The channel teaches the route, then shows the work."
+    }
+  ],
+  "count": 44,
+  "status": "staged",
+  "channel": "BBF"
+}
