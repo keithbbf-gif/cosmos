@@ -16,6 +16,7 @@ Rights-hunt pass: 14 September 2026. Graphics PR #257 left Freud / Rogers / Beck
 | william-james | William James | `assets/portraits/william-james.jpg` | https://commons.wikimedia.org/wiki/File:William_James_b1842c.jpg | Public domain | Notman Studios | Studio photograph of the psychologist | cleared |
 | pierre-janet | Pierre Janet | `assets/portraits/pierre-janet.jpg` | https://commons.wikimedia.org/wiki/File:Pierre_Janet_cropped.jpg | Public domain | Paul François Arnold Cardon (Dornac), 1858–1941 | Seated studio portrait | cleared |
 | aaron-beck-1942 | Aaron T. Beck | `assets/portraits/aaron-beck-1942.jpg` | https://commons.wikimedia.org/wiki/File:Liber_Brunensis_1942,_Aaron_T._Beck.jpg | Public domain (U.S.: published 1942 without copyright notice) | Uncredited yearbook photographer | Brown University *Liber Brunensis* 1942; https://repository.library.brown.edu/studio/item/bdr:603028/ — **undergraduate likeness**, not a CBT-era portrait. U.S. PD only. | caution |
+| alfred-adler-1925 | Alfred Adler | `assets/portraits/alfred-adler-1925.jpg` | https://commons.wikimedia.org/wiki/File:Alfred_Adler_und_Leonhard_Seif_(1925)_(cropped).jpg | CC BY-SA 3.0 DE | Deutsche Gesellschaft für Individualpsychologie e.V. | Adler (left of the uncropped pair) with Leonhard Seif, Salzburg meeting, 1925. Archive of the DGIP, Gotha; Commons OTRS. Credit DGIP. Crop is Adler only. | cleared |
 
 ## Placeholders (not photographs)
 
@@ -23,7 +24,6 @@ Rights-hunt pass: 14 September 2026. Graphics PR #257 left Freud / Rogers / Beck
 |------|--------|------|-----|
 | carl-rogers | Carl R. Rogers | `assets/portraits/carl-rogers.placeholder.svg` | `File:Carl Ransom Rogers.jpg` is a **2006 sketch** by Didius (CC BY 2.5), not a photograph. `File:Carl Rogers.jpg` is an August 2018 “own work” upload of a man who died in 1987 — not a valid photographer license. |
 | albert-ellis | Albert Ellis | `assets/portraits/albert-ellis.placeholder.svg` | Suggested `File:Albert Ellis 2003.jpg` is not on Commons. Remaining files are REBT diagrams or a dust-jacket scan (`File:Photo of Albert Ellis on dust jacket.jpg`) with an unknown photographer and a thin PD claim. |
-| alfred-adler | Alfred Adler | `assets/portraits/alfred-adler.placeholder.svg` | `File:Alfred Adler.jpg` is a modern pencil sketch (Ixitixel / Sonoma “psychart” gallery), not a photograph of Adler. |
 
 ## Rejected (do not embed)
 
@@ -33,6 +33,9 @@ Rights-hunt pass: 14 September 2026. Graphics PR #257 left Freud / Rogers / Beck
 | File:Carl Rogers.jpg | Invalid 2018 “own work” of a deceased sitter |
 | File:Albert Fuller Ellis.jpg | Wrong Ellis (New Zealand prospector) |
 | File:Photo of Albert Ellis on dust jacket.jpg | 20th-c. dust jacket; unknown photographer; PD claim not used |
+| File:Alfred Adler.jpg | Modern pencil sketch (Ixitixel / Sonoma psychart), not a photograph |
+| File:AlfredAdler.jpg | Uploader CC BY-SA 4.0; metadata names Science Photo Library as copyright holder. Not used. |
+| File:Adler-child.jpg | Tiny institute-website scan; thin PD claim. Prefer the 1925 DGIP photograph. |
 | File:ETH-BIB-Jung, Carl Gustav (1875-1961)-Portrait-Portr 14163 (cropped).tif | c. 1935, photographer unknown; Commons PD-old **without a U.S. public-domain tag**. A 1935 photograph is not treated as U.S. PD here. |
 | File:Ivan Pavlov LIFE.jpg | LIFE-hosted file dated 1920; LIFE magazine launched 1936. Prefer the Nobel portrait. |
 

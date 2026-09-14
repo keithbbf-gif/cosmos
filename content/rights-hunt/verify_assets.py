@@ -47,6 +47,8 @@ def main() -> int:
             if not path.is_file():
                 continue
             rel = path.relative_to(pack).as_posix()
+            if rel.startswith("assets/retired/") or "/retired/" in rel:
+                continue
             if path.suffix.lower() == ".svg" and path.name.endswith(".placeholder.svg"):
                 placeholders += 1
                 if rel not in mentioned:

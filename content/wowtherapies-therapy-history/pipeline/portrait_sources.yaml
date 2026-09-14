@@ -25,3 +25,11 @@ figures:
     status: placeholder
     file: assets/portraits/albert-ellis.placeholder.svg
     license_note: "No Commons photograph with a clear photographer license. Dust-jacket PD claim refused."
+  fig-adler-1925:
+    subject: "Alfred Adler (1870–1937)"
+    status: cleared
+    file: assets/portraits/alfred-adler-1925.jpg
+    commons: "File:Alfred Adler und Leonhard Seif (1925) (cropped).jpg"
+    license: "CC BY-SA 3.0 DE"
+    author: "Deutsche Gesellschaft für Individualpsychologie e.V."
+    credit: "Salzburg meeting, 1925. DGIP archive, Gotha. Credit DGIP."

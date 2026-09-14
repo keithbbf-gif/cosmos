@@ -23,12 +23,16 @@ Every raster below was downloaded only after a Commons or Met Open Access licens
 | `assets/images/botanical/usda-pom-01045-fig.jpg` | `cultivars.royal-black` | https://commons.wikimedia.org/wiki/File:Pomological_Watercolor_POM00001045.jpg | Elsie Lower Pomeroy; USDA NAL | Public domain (U.S. government work) | “Royal Black,” Washington, D.C., 1910. |
 | `assets/images/art/melendez-still-life-figs-bread-nga.jpg` | `renaissance-still-life-figs.melendez-nga` | https://commons.wikimedia.org/wiki/File:Luis_Mel%C3%A9ndez,_Still_Life_with_Figs_and_Bread,_c._1770,_NGA_111627.jpg | Luis Meléndez, c. 1770 | CC0 (National Gallery of Art Open Access) | Still life with figs and bread. |
 | `assets/images/art/nationalmuseum-still-life-with-figs.jpg` | `renaissance-still-life-figs.nationalmuseum` | https://commons.wikimedia.org/wiki/File:Still_Life_with_Figs_-_Nationalmuseum_-_17171.tif | Unknown artist; Nationalmuseum, Stockholm | Public domain | Inventory 17171. |
+| `assets/images/botanical/holtzbecker-gottorfer-ficus-carica.jpg` | `syconium-botany.holtzbecker` | https://commons.wikimedia.org/wiki/File:Johannes_Simon_Holtzbecher_-_Ficus_carica_-_Google_Art_Project.jpg | Hans Simon Holtzbecker; Gottorfer Codex, c. 1649–1659 | Public domain | Labeled *Ficus carica*. SMK / Google Art Project scan. |
+| `assets/images/botanical/wellcome-macfarlane-ficus-carica.jpg` | `syconium-botany.macfarlane-wellcome` | https://commons.wikimedia.org/wiki/File:A_fig_plant_(Ficus_carica);_fruiting_stem_and_halved_fruit._Wellcome_V0044761.jpg | J. L. MacFarlane, coloured zincograph c. 1872 | CC BY 4.0 | Wellcome Collection V0044761. Whole fruit and transverse section. Credit Wellcome. |
+| `assets/images/classical/ficus-ruminalis-denarius-cng.jpg` | `roman-orchards.ficus-ruminalis-denarius` | https://commons.wikimedia.org/wiki/File:Sex._Pompeius,_AR_denarius,_137_BC,_RRC_235-1c.jpg | Photo: CNG. Coin: Sex. Pompeius Fostlus, Rome, 137 BCE (RRC 235/1c) | CC BY-SA 2.5 | Reverse: Faustulus, she-wolf and twins, **Ficus Ruminalis** in the background. Not a Greek kylix. Credit CNG. |
+| `assets/images/art/tissot-vine-dresser-fig-tree.jpg` | `later-reception.tissot-barren-fig` | https://commons.wikimedia.org/wiki/File:Brooklyn_Museum_-_The_Vine_Dresser_and_the_Fig_Tree_(Le_vigneron_et_le_figuier)_-_James_Tissot.jpg | James Tissot | Public domain | Brooklyn Museum *The Vine Dresser and the Fig Tree* (parable of the barren fig). 19th-c. watercolor, not an ancient plate. |
 
 ## Pending (honest gaps)
 
 | Figure ID | Planned path | Notes |
 |-----------|--------------|-------|
-| `greek-vases.fig-banquet` | planned attic kylix detail (not downloaded) | No attic kylix with a *documented* fig-banquet subject and a clear museum OA download was isolated this pass. Do not use an unrelated symposium vase. |
+| `greek-vases.fig-banquet` | planned attic kylix detail (not downloaded) | No attic kylix with a *documented* fig-banquet subject and a clear museum OA download was isolated. Symposium kylikes (Louvre G467, Oltos, Brygos) show wine service, not figs. Do not substitute. The Roman Ficus Ruminalis denarius is the closest cleared ancient fig-tree object this pass. |
 | `origins-ficus-carica-domestication.gilgal` | — | Archaeobotanical site photography is almost always copyrighted field work. No PD excavation plate located. |
 
 ## Rejected / deleted this pass

@@ -50,3 +50,4 @@ Until `Status = cleared`, embeds must use: *Portrait pending — rights not clea
 - Scraping ASHA omeka JPEGs
 - Buffalo Duchan family snapshots of Stinchfield Hawk
 - Getty / Alamy thumbs (Gutzmann appears on Alamy; the Commons Eckstein file is the one used)
+- Commons `File:Charles Van Riper.jpg` and `File:Charles King Van Riper by Lewis Josselyn.jpg` — **wrong person** (Charles King Van Riper of Carmel, not Charles Gage Van Riper the speech pathologist)

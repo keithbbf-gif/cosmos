@@ -15,8 +15,7 @@ No generative “historical faces.” A placeholder SVG is labeled *Not a photog
 | john-von-neumann | John von Neumann | `assets/portraits/john-von-neumann.jpg` | https://commons.wikimedia.org/wiki/File:John_von_Neumann_Los_Alamos_identity_badge_photo.jpg | LANL / LANS attribution (redistribution with notice) | Los Alamos Laboratory | Project Y badge photo, c. 1943–1947; LA-UR-22-25508. Reproduce the LANL notice below. | cleared |
 | john-mccarthy | John McCarthy | `assets/portraits/john-mccarthy.jpg` | https://commons.wikimedia.org/wiki/File:John_McCarthy_Stanford.jpg | CC BY-SA 2.0 | Flickr user “null0” | Stanford, 13 May 2006; Flickr 272015955 | caution |
 | marvin-minsky | Marvin Minsky | `assets/portraits/marvin-minsky.jpg` | https://commons.wikimedia.org/wiki/File:Marvin_Minsky_at_OLPCb.jpg | CC BY 3.0 | Sethwoodworth (en.wikipedia uploader) | OLPC event; transferred to Commons 2008 | cleared |
-| newell-simon | Allen Newell & Herbert A. Simon | `assets/portraits/newell-simon.jpg` | https://commons.wikimedia.org/wiki/File:Herbert_A._Simon_and_Allen_Newell_Chess_Match.jpg | Public domain (Commons label; Flickr provenance is thin) | Paolo Massa (Flickr upload) | Dated 1958 on Commons | caution |
-| herbert-simon | Herbert A. Simon | `assets/portraits/herbert-simon.jpg` | https://commons.wikimedia.org/wiki/File:Herbert_simon_tan_d.jpg | CC BY 3.0 | Richard Rappaport | Painting/photograph dated 1986 on Commons | cleared |
+| herbert-simon | Herbert A. Simon | `assets/portraits/herbert-simon.jpg` | https://commons.wikimedia.org/wiki/File:Herbert_simon_tan_d.jpg | CC BY 3.0 | Richard Rappaport | **Painted likeness**, 1986; Simon Family Collection (Commons OTRS). Caption must say painting, not photograph. | cleared |
 | edward-feigenbaum | Edward A. Feigenbaum | `assets/portraits/edward-feigenbaum.jpg` | https://commons.wikimedia.org/wiki/File:27._Dr._Edward_A._Feigenbaum_1994-1997.jpg | Public domain (U.S. Air Force work) | United States Air Force | Chief Scientist portrait, 1 Dec 1994 | cleared |
 | david-rumelhart | David E. Rumelhart | `assets/portraits/david-rumelhart.jpg` | https://commons.wikimedia.org/wiki/File:DavidRumelhart-IJCNNseattle1991-07-08.jpg | CC BY-SA 4.0 | Rolf Kickuth | IJCNN Seattle, 8 July 1991 | cleared |
 | geoffrey-hinton | Geoffrey E. Hinton | `assets/portraits/geoffrey-hinton.jpg` | https://commons.wikimedia.org/wiki/File:Geoffrey_Hinton_at_UBC.jpg | CC BY-SA 3.0 | Eviatar Bach | Lecture, University of British Columbia, 30 May 2013 | cleared |
@@ -48,6 +47,13 @@ No generative “historical faces.” A placeholder SVG is labeled *Not a photog
 | warren-mcculloch | Warren S. McCulloch | `assets/portraits/warren-mcculloch.placeholder.svg` | Illinois Archives photo (c. 1969, ID 0011113) exists; **copyright holder unknown**. No Commons solo likeness with a clear redistribution license. |
 | terry-winograd | Terry Winograd | `assets/portraits/terry-winograd.placeholder.svg` | Living person. No photographer-granted Commons portrait located. |
 | kunihiko-fukushima | Kunihiko Fukushima | `assets/portraits/kunihiko-fukushima.placeholder.svg` | Living person. No photographer-granted Commons portrait located. |
+| allen-newell | Allen Newell | `assets/portraits/allen-newell.placeholder.svg` | Commons `File:Herbert A. Simon and Allen Newell Chess Match.jpg` is an AAAI 25th-anniversary graphic with burned-in type (retired to `assets/retired/`). CMU Digital Collections portraits are viewable, not a redistribution grant. |
+
+## Retired (do not embed as a period photograph)
+
+| File | Why |
+|------|-----|
+| `assets/retired/aaai25-newell-simon-anniversary-graphic.jpg` | Commons `File:Herbert A. Simon and Allen Newell Chess Match.jpg`. Visual check: burned-in “Celebrating AAAI’s 25th Anniversary.” AAAI was founded in 1979. |
 
 ## LANL notice (von Neumann badge photo)
 
