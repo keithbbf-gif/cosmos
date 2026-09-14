@@ -10,6 +10,14 @@ topic: [sanding, practice]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Sanding decides the film before the can opens. Coarser scratch shows through thin films"
+graphic:
+  primary: "assets/sanding-decides-the-film/shop-diagram.svg"
+  alt: "Sanding progression 120 to 180 to 220 before first finish coat"
+photo:
+  path: "assets/photos/sandpaper-closeup.jpg"
+  license: "CC-BY-SA-3.0"
+  credit: "Wikimedia Commons — Sandpaper closeup"
 ---
 
 # Sanding decides the film before the can opens
@@ -35,6 +43,16 @@ forever. Under a filled, built PU you
 might start the film earlier and let
 build bury, at the cost of plastic.
 
+
+<figure class="ffc-figure">
+  <img src="assets/sanding-decides-the-film/shop-diagram.svg" alt="Sanding progression 120 to 180 to 220 before first finish coat" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Coarser scratch shows through thin films; last grit sets the sheen base.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="assets/photos/sandpaper-closeup.jpg" alt="Sandpaper grit closeup showing scratch pattern left before furniture finish" width="640" height="427" loading="lazy" decoding="async" />
+  <figcaption><strong>Photo 2.</strong> Coarser grit telegraphs through thin shellac; last sand sets the sheen baseline. (<a href="https://commons.wikimedia.org/wiki/File:Sandpaper_closeup.jpg">Wikimedia Commons — Sandpaper closeup</a>)</figcaption>
+</figure>
 I last-sand most furniture to 180 or 220
 for oil and thin films, and I do not
 chase 400 on open-pore oak unless I am

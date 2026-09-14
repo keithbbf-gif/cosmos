@@ -10,6 +10,14 @@ topic: [shellac, resin]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Shellac is a bug resin. That is the whole romance. Flakes or buttons plus alcohol"
+graphic:
+  primary: "assets/shellac-is-a-bug-resin/shop-diagram.svg"
+  alt: "Shellac lac resin dissolved in denatured alcohol forming brushable film"
+photo:
+  path: "assets/photos/shellac-three-colours.jpg"
+  license: "CC-BY-SA-4.0"
+  credit: "Wikimedia Commons — Shellac three colours"
 ---
 
 # Shellac is a bug resin. That is the whole romance.
@@ -36,6 +44,16 @@ dewaxed and thin. It undercoats almost anything if you
 do the dewaxed part. A French polish is still the way a
 certain kind of brown furniture looks like brown furniture.
 
+
+<figure class="ffc-figure">
+  <img src="assets/shellac-is-a-bug-resin/shop-diagram.svg" alt="Shellac lac resin dissolved in denatured alcohol forming brushable film" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Flakes or buttons plus alcohol; alcohol leaves and resin reflows into a film.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="assets/photos/shellac-three-colours.jpg" alt="Natural shellac resin in blonde amber and garnet grades before mixing with alcohol" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Photo 2.</strong> Shellac colour grades are refining choices, not different bugs — dissolve in alcohol and brush. (<a href="https://commons.wikimedia.org/wiki/File:Shellac_three_colours.jpeg">Wikimedia Commons — Shellac three colours</a>)</figcaption>
+</figure>
 It also rings under a wet glass, spots under a gin, and
 softens on a radiator. The romance that skips those
 sentences is how a bar top gets shellac and then a

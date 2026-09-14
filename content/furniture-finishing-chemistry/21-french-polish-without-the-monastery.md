@@ -10,6 +10,14 @@ topic: [french-polish, shellac]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "French polish without the monastery. Pad deposits thin shellac"
+graphic:
+  primary: "assets/french-polish-without-the-monastery/shop-diagram.svg"
+  alt: "French polishing with shellac pad oil lubricant and spiriting off"
+photo:
+  path: "assets/photos/applying-varnish-shop.jpg"
+  license: "CC-BY-SA-4.0"
+  credit: "Wikimedia Commons — Applying varnish to wood"
 ---
 
 # French polish without the monastery
@@ -32,6 +40,16 @@ pad sliding. Too much oil and you have a smear that
 will not harden into the story you wanted. Too little
 and the pad sticks and tears the film.
 
+
+<figure class="ffc-figure">
+  <img src="assets/french-polish-without-the-monastery/shop-diagram.svg" alt="French polishing with shellac pad oil lubricant and spiriting off" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Pad deposits thin shellac; oil lubricates; spirit cleans the last pass.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="assets/photos/applying-varnish-shop.jpg" alt="Shop worker applying thin varnish coat with pad on wood not staged hazmat" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Photo 2.</strong> Pad and brush work is thin passes — French polish is shellac layers, not one flooded coat. (<a href="https://commons.wikimedia.org/wiki/File:Me_applying_varnish_to_the_wood.jpg">Wikimedia Commons — Applying varnish to wood</a>)</figcaption>
+</figure>
 You are not brushing a coat and leaving. You are
 burnishing a thermoplastic into itself. That is why
 it repairs: the same pad, the same alcohol, the same

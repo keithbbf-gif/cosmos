@@ -10,6 +10,14 @@ topic: [schedule, practice, table]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "A staged dining-table schedule. Table schedule stacks dry time between stain sealer and top build."
+graphic:
+  primary: "assets/a-staged-dining-table-schedule/shop-diagram.svg"
+  alt: "Multi-day furniture finish schedule stain seal topcoat cure before delivery"
+photo:
+  path: "assets/photos/dining-table-brown.jpg"
+  license: "CC-BY-SA-4.0"
+  credit: "Wikimedia Commons — Dining table brown"
 ---
 
 # A staged dining-table schedule
@@ -31,6 +39,16 @@ species is oily, degrease as the
 system allows, then do not go to
 lunch.
 
+
+<figure class="ffc-figure">
+  <img src="assets/a-staged-dining-table-schedule/shop-diagram.svg" alt="Multi-day furniture finish schedule stain seal topcoat cure before delivery" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Table schedule stacks dry time between stain sealer and top build.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="assets/photos/dining-table-brown.jpg" alt="Wooden dining table top where multi-day finish schedule matters before delivery" width="640" height="427" loading="lazy" decoding="async" />
+  <figcaption><strong>Photo 2.</strong> Dining tables need staged sealer and topcoat days; do not book dinner before full cure. (<a href="https://commons.wikimedia.org/wiki/File:Dining_table_brown.jpg">Wikimedia Commons — Dining table brown</a>)</figcaption>
+</figure>
 **Stage 1.** First wipe, thin, off
 the rag like you are undoing it.
 Hang rags. Night of air.

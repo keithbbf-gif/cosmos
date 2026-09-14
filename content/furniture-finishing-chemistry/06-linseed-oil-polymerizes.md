@@ -10,6 +10,14 @@ topic: [linseed, oil, cure]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Linseed oil polymerizes. It does not "dry. Raw linseed needs air and time"
+graphic:
+  primary: "assets/linseed-oil-polymerizes/shop-diagram.svg"
+  alt: "Schematic linseed oil taking oxygen and crosslinking on wood surface"
+photo:
+  path: "assets/photos/flax-linseed-source.jpg"
+  license: "CC-BY-SA-3.0"
+  credit: "Wikimedia Commons — Linum usitatissimum qtl1"
 ---
 
 # Linseed oil polymerizes. It does not "dry."
@@ -34,6 +42,16 @@ yellows. It is honest. Almost nobody finishes furniture with it
 unless they like the wait or they are following a historical
 spec and mean it.
 
+
+<figure class="ffc-figure">
+  <img src="assets/linseed-oil-polymerizes/shop-diagram.svg" alt="Schematic linseed oil taking oxygen and crosslinking on wood surface" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Raw linseed needs air and time; heat in a wadded rag is the same chemistry without escape.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="assets/photos/flax-linseed-source.jpg" alt="Flax Linum usitatissimum plants source of linseed drying oil for wood finishes" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Photo 2.</strong> Linseed oil is pressed from flax; polymerization in the shop still needs thin coats and air. (<a href="https://commons.wikimedia.org/wiki/File:Linum_usitatissimum_qtl1.jpg">Wikimedia Commons — Linum usitatissimum qtl1</a>)</figcaption>
+</figure>
 **Boiled linseed oil** in the hardware aisle is not oil you boiled
 on the stove. It is linseed with metallic driers already in the
 can — the commercial kind, already a consumer product. Those

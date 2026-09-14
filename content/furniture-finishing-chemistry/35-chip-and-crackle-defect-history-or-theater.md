@@ -10,6 +10,10 @@ topic: [milk-paint, chip, crackle]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Chip and crackle. Theater crackle is a product stack"
+graphic:
+  primary: "assets/chip-and-crackle-defect-history-or-theater/shop-diagram.svg"
+  alt: "Crackle glaze chemistry versus accidental chip on weak bond coat"
 ---
 
 # Chip and crackle: defect, history, or theater
@@ -35,6 +39,11 @@ and high spots first, because that is
 where hands and wood movement
 concentrate.
 
+
+<figure class="ffc-figure">
+  <img src="assets/chip-and-crackle-defect-history-or-theater/shop-diagram.svg" alt="Crackle glaze chemistry versus accidental chip on weak bond coat" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Theater crackle is a product stack; accidental chip is adhesion or brittleness.</figcaption>
+</figure>
 A bonding additive reduces chip. A
 flexible topcoat can reduce the little
 chips and invent a bigger peel if the

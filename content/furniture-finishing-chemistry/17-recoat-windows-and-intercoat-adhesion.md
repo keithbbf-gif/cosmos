@@ -10,6 +10,10 @@ topic: [recoat, adhesion, varnish]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Recoat windows, sanding dust, and intercoat adhesion. Inside the window the next coat melts in"
+graphic:
+  primary: "assets/recoat-windows-and-intercoat-adhesion/shop-diagram.svg"
+  alt: "Timeline for sanding between varnish coats versus wet recoat window"
 ---
 
 # Recoat windows, sanding dust, and intercoat adhesion
@@ -30,6 +34,11 @@ works with alcohol, how fresh oil varnish works with
 mineral spirits in the window, how lacquers (commercial,
 sprayed, not a home brew) melt into themselves.
 
+
+<figure class="ffc-figure">
+  <img src="assets/recoat-windows-and-intercoat-adhesion/shop-diagram.svg" alt="Timeline for sanding between varnish coats versus wet recoat window" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Inside the window the next coat melts in; outside it needs scuff or strip.</figcaption>
+</figure>
 **Bite.** The old coat is no longer interested in melting.
 You scuff it so the new coat has a mechanical key, and
 you hope the chemistry is not actively hostile (wax,

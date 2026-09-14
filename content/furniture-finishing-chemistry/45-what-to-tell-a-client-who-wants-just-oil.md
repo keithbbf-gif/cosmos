@@ -10,6 +10,10 @@ topic: [client, oil, practice]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "What to tell a client who wants "just oil. Oil looks honest and marks faster"
+graphic:
+  primary: "assets/what-to-tell-a-client-who-wants-just-oil/shop-diagram.svg"
+  alt: "Compare maintenance and mark resistance oil finish versus varnish for dining table"
 ---
 
 # What to tell a client who wants "just oil"
@@ -39,6 +43,11 @@ also a place where people then buy
 an oil that is still a chemical
 reaction with a rag fire attached.
 
+
+<figure class="ffc-figure">
+  <img src="assets/what-to-tell-a-client-who-wants-just-oil/shop-diagram.svg" alt="Compare maintenance and mark resistance oil finish versus varnish for dining table" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Oil looks honest and marks faster; varnish films protect more with less feeding.</figcaption>
+</figure>
 Name the constraint. A low-odor
 waterborne in a matte, thin build
 may be the feeling they want. An

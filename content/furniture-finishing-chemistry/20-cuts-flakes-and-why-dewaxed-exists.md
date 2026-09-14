@@ -10,6 +10,10 @@ topic: [shellac, cut, dewaxed]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Cuts, flakes, and why dewaxed exists. Dewaxed sticks to the next coat"
+graphic:
+  primary: "assets/cuts-flakes-and-why-dewaxed-exists/shop-diagram.svg"
+  alt: "Compare pound cut shellac dewaxed versus waxed for sealer under other finishes"
 ---
 
 # Cuts, flakes, and why dewaxed exists
@@ -40,6 +44,11 @@ you must. That is ordinary. Heating a closed jar on
 the stove is not ordinary and is not in this series.
 Patience dissolves shellac. Fire dissolves shops.
 
+
+<figure class="ffc-figure">
+  <img src="assets/cuts-flakes-and-why-dewaxed-exists/shop-diagram.svg" alt="Compare pound cut shellac dewaxed versus waxed for sealer under other finishes" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Dewaxed sticks to the next coat; waxed resists waterborne and some varnishes.</figcaption>
+</figure>
 Label the jar with date and cut. Shellac you mixed is
 still on a clock. Use it while it still dries to a
 hard film on glass.

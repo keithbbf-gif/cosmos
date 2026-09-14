@@ -10,6 +10,10 @@ topic: [alkyd, varnish]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Alkyd varnish. Alkyd is the shop workhorse: build coats amber slowly and sand between."
+graphic:
+  primary: "assets/alkyd-varnish-the-shop-standard/shop-diagram.svg"
+  alt: "Alkyd resin crosslinking as mineral spirits leave furniture surface"
 ---
 
 # Alkyd varnish — the shop standard that still works
@@ -32,6 +36,11 @@ more furniture-in-a-house. A long-oil varnish is more flexible,
 slower, closer to spar, happier on something that moves and
 sees weather.
 
+
+<figure class="ffc-figure">
+  <img src="assets/alkyd-varnish-the-shop-standard/shop-diagram.svg" alt="Alkyd resin crosslinking as mineral spirits leave furniture surface" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Alkyd is the shop workhorse: build coats amber slowly and sand between.</figcaption>
+</figure>
 You will not get a number on a consumer lid. You will get
 behavior. If a "varnish" stays slightly soft and yellows like a
 butterscotch candy, it is living long-oil. If it knocks back

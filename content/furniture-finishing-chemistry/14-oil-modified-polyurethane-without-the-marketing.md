@@ -10,6 +10,10 @@ topic: [polyurethane, varnish]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Oil-modified polyurethane without the marketing. Oil-mod PU trades a little yellow for flexibility"
+graphic:
+  primary: "assets/oil-modified-polyurethane-without-the-marketing/shop-diagram.svg"
+  alt: "Compare oil-modified PU flexibility and amber to straight alkyd varnish"
 ---
 
 # Oil-modified polyurethane without the marketing
@@ -34,6 +38,11 @@ ads, more plastic in the hand than oil, and a repair that
 does not melt back into itself with a rag of the original
 thinner.
 
+
+<figure class="ffc-figure">
+  <img src="assets/oil-modified-polyurethane-without-the-marketing/shop-diagram.svg" alt="Compare oil-modified PU flexibility and amber to straight alkyd varnish" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Oil-mod PU trades a little yellow for flexibility; still a film finish.</figcaption>
+</figure>
 Once it has crosslinked, a scratch is a scratch in a
 skin. You sand, you blend, you live with a halo, or you
 cut back a whole surface. That is the contract. Do not

@@ -10,6 +10,14 @@ topic: [waterborne, emulsion]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Waterborne means emulsion, not "water paint. Waterborne is dispersed plastic in water"
+graphic:
+  primary: "assets/waterborne-means-emulsion/shop-diagram.svg"
+  alt: "Schematic polymer particles in water coalescing into film as water leaves"
+photo:
+  path: "assets/photos/waterborne-paint-bucket.jpg"
+  license: "CC-BY-SA-3.0"
+  credit: "Wikimedia Commons — Green paint bucket"
 ---
 
 # Waterborne means emulsion, not "water paint"
@@ -36,6 +44,16 @@ other. The minimum film-formation temperature
 (MFFT) has to be met. Then the coalescent itself
 slowly leaves, and the film gets harder for days.
 
+
+<figure class="ffc-figure">
+  <img src="assets/waterborne-means-emulsion/shop-diagram.svg" alt="Schematic polymer particles in water coalescing into film as water leaves" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Waterborne is dispersed plastic in water; coalescence not simple drying.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="assets/photos/waterborne-paint-bucket.jpg" alt="Water-based latex paint bucket showing milky emulsion before coalescence on wood" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Photo 2.</strong> Milky in the container is dispersed polymer; clarity comes after water leaves and film knits. (<a href="https://commons.wikimedia.org/wiki/File:GreenPaintBucketRome.jpg">Wikimedia Commons — Green paint bucket</a>)</figcaption>
+</figure>
 Touch-dry is step one. Recoatable is step two.
 Hard is a later chapter. People tape a waterborne
 table on day two and pull the sheen off in the

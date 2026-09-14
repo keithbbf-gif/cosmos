@@ -10,6 +10,10 @@ topic: [dye, stain, color]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Dye, stain, and the finish that has to live on top. Dye moves in fiber"
+graphic:
+  primary: "assets/dye-stain-and-the-finish-on-top/shop-diagram.svg"
+  alt: "Dye in wood fibers with clear film on top versus pigment stain in surface"
 ---
 
 # Dye, stain, and the finish that has to live on top
@@ -26,6 +30,11 @@ dye raises grain. Alcohol dye is fast
 and can lap. Both can be clearer in the
 grain than a thick pigment stain.
 
+
+<figure class="ffc-figure">
+  <img src="assets/dye-stain-and-the-finish-on-top/shop-diagram.svg" alt="Dye in wood fibers with clear film on top versus pigment stain in surface" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Dye moves in fiber; pigment sits in pores; topcoat choice follows.</figcaption>
+</figure>
 The finish on top must not lift them.
 Waterborne on a water dye without a lock
 is how you make a streaky ghost. A

@@ -10,6 +10,10 @@ topic: [milk-paint, bonding]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Bonding coats and the myth of universal stick. Chalk needs tooth"
+graphic:
+  primary: "assets/bonding-coats-and-the-myth-of-universal-stick/shop-diagram.svg"
+  alt: "Bonding agent or scuff prep before milk paint on slick old finish"
 ---
 
 # Bonding coats and the myth of universal stick
@@ -36,6 +40,11 @@ plastic. The look can stay matte. The
 chip behavior changes. If you wanted chip,
 you may have just bought it off.
 
+
+<figure class="ffc-figure">
+  <img src="assets/bonding-coats-and-the-myth-of-universal-stick/shop-diagram.svg" alt="Bonding agent or scuff prep before milk paint on slick old finish" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Chalk needs tooth; bonding coat or mechanical scratch not magic stick.</figcaption>
+</figure>
 Read the manufacturer's ratio. More is not
 more stick forever; it is a different
 paint. We are not formulating a third

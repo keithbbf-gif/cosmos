@@ -10,6 +10,10 @@ topic: [defects]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Fish-eye, crater, orange peel. Fisheye is contamination"
+graphic:
+  primary: "assets/fisheye-crater-orange-peel/shop-diagram.svg"
+  alt: "Diagram fisheye silicone crater and orange peel texture in finish film"
 ---
 
 # Fish-eye, crater, orange peel — reading the film
@@ -26,6 +30,11 @@ wet. Classic silicone. Also wax,
 oil from skin, the tree's own grease,
 a contaminated tack cloth.
 
+
+<figure class="ffc-figure">
+  <img src="assets/fisheye-crater-orange-peel/shop-diagram.svg" alt="Diagram fisheye silicone crater and orange peel texture in finish film" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Fisheye is contamination; orange peel is flow; crater is dirt or solvent pop.</figcaption>
+</figure>
 If you see one, you will see more.
 Stop building. A second coat locks
 the craters under glass.

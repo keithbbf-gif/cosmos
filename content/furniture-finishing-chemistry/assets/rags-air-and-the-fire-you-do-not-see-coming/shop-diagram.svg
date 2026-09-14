@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-labelledby="title desc">
+  <title id="title">Oily rag disposal shop schematic</title>
+  <desc id="desc">Shop-safe oily rag disposal: hang dry or metal waste can not plastic bag</desc>
+  <rect width="100%" height="100%" fill="#F7F3E8"/>
+  <text x="32" y="44" fill="#1A1A1A" font-family="Georgia, serif" font-size="20" font-weight="600">Oily rag disposal shop schematic</text>
+  <rect x="260" y="140" width="120" height="160" rx="8" fill="#9EA3A8" stroke="#1A1A1A" stroke-width="2"/>
+  <rect x="248" y="128" width="144" height="24" rx="4" fill="#7A8085" stroke="#1A1A1A"/>
+  <text x="280" y="230" fill="#1A1A1A" font-family="sans-serif" font-size="12" font-weight="600">Oily waste</text>
+  <text x="48" y="320" fill="#4A4A4A" font-family="sans-serif" font-size="13">• Hang open</text>
+  <text x="48" y="342" fill="#4A4A4A" font-family="sans-serif" font-size="13">• Metal waste can</text>
+  <text x="48" y="364" fill="#4A4A4A" font-family="sans-serif" font-size="13">• No dryer</text>
+</svg>

@@ -10,6 +10,10 @@ topic: [oil, film, practice]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Film versus penetrating. Penetrating systems wet fibers"
+graphic:
+  primary: "assets/film-versus-penetrating/shop-diagram.svg"
+  alt: "Shop diagram comparing in-the-wood oil versus built varnish film on furniture"
 ---
 
 # Film versus penetrating
@@ -28,6 +32,11 @@ wets those straws, occupies the cut cells at the surface, and leaves
 little or no measurable crust. The hand still feels wood. The pore still
 looks like a pore.
 
+
+<figure class="ffc-figure">
+  <img src="assets/film-versus-penetrating/shop-diagram.svg" alt="Shop diagram comparing in-the-wood oil versus built varnish film on furniture" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Penetrating systems wet fibers; film systems protect from above. Most cans blend both behaviors.</figcaption>
+</figure>
 Linseed and tung, used as oils and wiped dry, live here. So do a lot of
 hardwax oils, if you do not pile them into a failed varnish. So does a
 true wipe-and-off Danish oil *if* the varnish fraction is small and you

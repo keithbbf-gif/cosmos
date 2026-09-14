@@ -10,6 +10,14 @@ topic: [oily-woods, teak, rosewood, oil]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Oil on teak, rosewood, and other greasy citizens. Extractives fight adhesion"
+graphic:
+  primary: "assets/oil-on-teak-rosewood-and-other-greasy-citizens/shop-diagram.svg"
+  alt: "Prep flow for teak rosewood: degrease shellac seal then finish"
+photo:
+  path: "assets/photos/teak-tectona-grandis.jpg"
+  license: "CC-BY-3.0"
+  credit: "Wikimedia Commons — Tectona grandis (Starr)"
 ---
 
 # Oil on teak, rosewood, and other greasy citizens
@@ -34,6 +42,16 @@ a rosewood box smells like money. They are also why a
 "simple oil finish" on a teak mid-century piece can look
 blotchy and never quite harden.
 
+
+<figure class="ffc-figure">
+  <img src="assets/oil-on-teak-rosewood-and-other-greasy-citizens/shop-diagram.svg" alt="Prep flow for teak rosewood: degrease shellac seal then finish" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Extractives fight adhesion; clean test coat on scrap before the show face.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="assets/photos/teak-tectona-grandis.jpg" alt="Teak Tectona grandis tree oily exotic species common in furniture shops" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Photo 2.</strong> Teak and rosewood families carry extractives; solvent wipe and test coat before the show face. (<a href="https://commons.wikimedia.org/wiki/File:Starr_010304-0485_Tectona_grandis.jpg">Wikimedia Commons — Tectona grandis (Starr)</a>)</figcaption>
+</figure>
 You are not going to solvent-extract a dining table in a
 lab. You are going to work with a freshly sanded surface
 and a first product that can tolerate a little grease.

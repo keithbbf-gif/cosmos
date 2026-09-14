@@ -10,6 +10,10 @@ topic: [waterborne, oil, stacking]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Waterborne over oil. Oil must cure"
+graphic:
+  primary: "assets/waterborne-over-oil-the-honest-sequence/shop-diagram.svg"
+  alt: "Sequence: fully cured oil scuff shellac optional then waterborne topcoat"
 ---
 
 # Waterborne over oil — the honest sequence
@@ -38,6 +42,11 @@ sheet the size of a placemat.
    sealed or not cured.
 6. Build the waterborne as itself.
 
+
+<figure class="ffc-figure">
+  <img src="assets/waterborne-over-oil-the-honest-sequence/shop-diagram.svg" alt="Sequence: fully cured oil scuff shellac optional then waterborne topcoat" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Oil must cure; scuff for bite; dewaxed shellac if the stack is picky.</figcaption>
+</figure>
 If that sounds long, it is longer than a
 bad peel, which is also long.
 

@@ -10,6 +10,10 @@ topic: [milk-paint, topcoat]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Topcoating milk paint without killing the chalk. Wax keeps chalk"
+graphic:
+  primary: "assets/topcoating-milk-paint-without-killing-the-chalk/shop-diagram.svg"
+  alt: "Compare wax versus thin waterborne over milk paint keeping chalk look"
 ---
 
 # Topcoating milk paint without killing the chalk
@@ -31,6 +35,11 @@ almost nothing if the client likes
 powder on their hands. Ask. Do not assume
 topcoat is virtue.
 
+
+<figure class="ffc-figure">
+  <img src="assets/topcoating-milk-paint-without-killing-the-chalk/shop-diagram.svg" alt="Compare wax versus thin waterborne over milk paint keeping chalk look" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Wax keeps chalk; heavy poly fills pores and kills the point.</figcaption>
+</figure>
 ## Wax
 
 A paste wax on fully dry milk paint

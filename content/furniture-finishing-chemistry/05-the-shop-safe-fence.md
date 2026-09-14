@@ -10,6 +10,10 @@ topic: [safety, shop-safe, fence]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "The shop-safe fence. Commercial products and ventilation yes"
+graphic:
+  primary: "assets/the-shop-safe-fence/shop-diagram.svg"
+  alt: "Flowchart of allowed shop finishing topics versus formulation and hazmat outside scope"
 ---
 
 # The shop-safe fence
@@ -27,6 +31,11 @@ point back here instead of repeating a sermon.
 furniture, we will talk about how that class behaves: open time,
 recoat, cure, what ruins it, what it ruins.
 
+
+<figure class="ffc-figure">
+  <img src="assets/the-shop-safe-fence/shop-diagram.svg" alt="Flowchart of allowed shop finishing topics versus formulation and hazmat outside scope" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Commercial products and ventilation yes; distillation synthesis and waste dumping no.</figcaption>
+</figure>
 **Shop air.** Solvent finishes want moving air that does not blow
 dust onto a wet film. Waterborne finishes still want air — the
 carrier is still leaving. A respirator that is actually rated for

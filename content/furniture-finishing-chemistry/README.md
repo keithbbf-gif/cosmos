@@ -93,3 +93,10 @@ A claim without a shop consequence is cut.
 See [`MANIFEST.md`](MANIFEST.md) for slugs, stages, and topics.
 
 Drafts are numbered so the folder *is* the syllabus.
+
+## Graphics (PR #303 pass)
+
+- [`STYLE_GUIDE.md`](STYLE_GUIDE.md) — figure markup, SEO alt text, no hazmat glamour.
+- [`RIGHTS.md`](RIGHTS.md) — CC0 SVGs + Wikimedia PD/CC photo ledger.
+- [`GRAPHICS_INDEX.md`](GRAPHICS_INDEX.md) — slug → diagram type → photo slot.
+- Regenerate: `python3 scripts/generate_graphics.py` (see STYLE_GUIDE).

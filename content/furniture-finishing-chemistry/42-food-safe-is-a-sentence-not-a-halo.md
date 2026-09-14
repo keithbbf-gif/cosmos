@@ -10,6 +10,10 @@ topic: [food-contact, safety]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Food safe" is a sentence, not a halo. Regulatory sentences beat front-label halos"
+graphic:
+  primary: "assets/food-safe-is-a-sentence-not-a-halo/shop-diagram.svg"
+  alt: "Compare cured film food contact standards versus marketing food safe labels"
 ---
 
 # "Food safe" is a sentence, not a halo
@@ -29,6 +33,11 @@ mouthed. That is a claim with a
 clock (cure) and a use (what kind of
 food, wet or dry, cut or served).
 
+
+<figure class="ffc-figure">
+  <img src="assets/food-safe-is-a-sentence-not-a-halo/shop-diagram.svg" alt="Compare cured film food contact standards versus marketing food safe labels" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Regulatory sentences beat front-label halos; cure time and film matter.</figcaption>
+</figure>
 A finish can be **made of materials
 that have a history in food-adjacent
 objects** — raw drying oils, certain

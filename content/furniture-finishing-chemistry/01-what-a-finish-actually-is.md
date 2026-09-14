@@ -10,6 +10,14 @@ topic: [film, binder, shop]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "What a finish actually is. A finish can occupy pores and build a film on top"
+graphic:
+  primary: "assets/what-a-finish-actually-is/shop-diagram.svg"
+  alt: "Cross-section schematic: wood fibers, penetrating oil, and surface film on furniture"
+photo:
+  path: "assets/photos/wood-plank-fragment.jpg"
+  license: "CC-BY-SA-4.0"
+  credit: "Wikimedia Commons — Wood plank fragment"
 ---
 
 # What a finish actually is
@@ -27,6 +35,16 @@ not a finish.
 
 Every finish that earns a place on furniture does some mix of three jobs.
 
+
+<figure class="ffc-figure">
+  <img src="assets/what-a-finish-actually-is/shop-diagram.svg" alt="Cross-section schematic: wood fibers, penetrating oil, and surface film on furniture" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> A finish can occupy pores and build a film on top; adhesion and thickness decide whether it survives use.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="assets/photos/wood-plank-fragment.jpg" alt="Aged wood plank surface showing pores and wear a finish must slow" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Photo 2.</strong> A finish slows dirt and moisture on fiber like this; shine is what light does afterward. (<a href="https://commons.wikimedia.org/wiki/File:%D0%A4%D1%80%D0%B0%D0%B3%D0%BC%D0%B5%D0%BD%D1%82_%D1%86%D0%B5%D1%80%D0%BA%D0%B2%D0%B8._%D0%94%D0%BE%D1%88%D0%BA%D0%B8_%D0%BE%D0%B1%D0%B1%D0%B8%D0%B2%D0%BA%D0%B8.jpg">Wikimedia Commons — Wood plank fragment</a>)</figcaption>
+</figure>
 **It occupies the surface.** Oil-heavy systems sink into cell cavities and
 the first few fibers. Film systems sit more on top. Most real cans do both
 and then lie about the ratio.

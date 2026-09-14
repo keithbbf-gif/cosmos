@@ -10,6 +10,14 @@ topic: [wood, extractives, oily-woods]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Why some woods drink and some spit. Ring-porous woods drink finish into vessels"
+graphic:
+  primary: "assets/why-some-woods-drink-and-some-spit/shop-diagram.svg"
+  alt: "End-grain schematic showing open ring-porous oak versus tight maple for finish absorption"
+photo:
+  path: "assets/photos/oak-vasa-sample.jpg"
+  license: "CC-BY-SA-4.0"
+  credit: "Wikimedia Commons — Piece of oak wood from the ship Vasa 4"
 ---
 
 # Why some woods drink and some spit
@@ -26,6 +34,16 @@ oil sits on top and looks greasy if you leave it. Pine is earlywood
 and latewood arguing in public; stain and thin oil will make that
 argument louder.
 
+
+<figure class="ffc-figure">
+  <img src="assets/why-some-woods-drink-and-some-spit/shop-diagram.svg" alt="End-grain schematic showing open ring-porous oak versus tight maple for finish absorption" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Ring-porous woods drink finish into vessels; diffuse-porous woods often need fewer coats.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="assets/photos/oak-vasa-sample.jpg" alt="Oak wood sample showing ring-porous structure that absorbs finishing coats" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Photo 2.</strong> Ring-porous oak moves finish into vessels; always test absorption on scrap from the same board. (<a href="https://commons.wikimedia.org/wiki/File:Piece_of_oak_wood_from_the_ship_Vasa_4.jpg">Wikimedia Commons — Piece of oak wood from the ship Vasa 4</a>)</figcaption>
+</figure>
 End grain is not "thirstier" in a poetic way. It is open pipe.
 The same finish that looks like a whisper on a face grain will
 look like a stain on a tabletop's cut edge unless you seal or

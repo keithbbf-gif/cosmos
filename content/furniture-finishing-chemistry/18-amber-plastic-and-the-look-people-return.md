@@ -10,6 +10,10 @@ topic: [appearance, varnish, sheen]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Amber, plastic, and the look people return. Amber warms oak"
+graphic:
+  primary: "assets/amber-plastic-and-the-look-people-return/shop-diagram.svg"
+  alt: "Color comparison amber oil varnish versus clear acrylic waterborne on maple"
 ---
 
 # Amber, plastic, and the look people return
@@ -29,6 +33,11 @@ underneath is also changing — cherry, maple, walnut each
 have a plot. The combination is a color you cannot
 un-pour.
 
+
+<figure class="ffc-figure">
+  <img src="assets/amber-plastic-and-the-look-people-return/shop-diagram.svg" alt="Color comparison amber oil varnish versus clear acrylic waterborne on maple" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Amber warms oak; waterborne stays cooler; neither is cheating if disclosed.</figcaption>
+</figure>
 If the sample board was a day old and the delivery is
 three weeks later in a box, the client is seeing the
 second chapter and calling it a bait-and-switch. Show

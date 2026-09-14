@@ -10,6 +10,10 @@ topic: [maintenance]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Maintenance years later. Penetrating oils want periodic feed"
+graphic:
+  primary: "assets/maintenance-years-later/shop-diagram.svg"
+  alt: "Timeline for wax refresh oil re-coat versus full scuff and recoat"
 ---
 
 # Maintenance years later: oil vs film
@@ -28,6 +32,11 @@ used to. The refresh is the same family,
 thin, wiped off. Not a new brand of
 "restorer" that is silicone and perfume.
 
+
+<figure class="ffc-figure">
+  <img src="assets/maintenance-years-later/shop-diagram.svg" alt="Timeline for wax refresh oil re-coat versus full scuff and recoat" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Penetrating oils want periodic feed; films want abrasion repair or recoat.</figcaption>
+</figure>
 How often: a dining table might be
 yearly. A chest might be never. A
 window bench in sun might be twice a

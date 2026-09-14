@@ -10,6 +10,10 @@ topic: [oil, defects, bloom]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Bloom, wrinkle, and the rag that never dries. Wrinkle is too much oil too little air"
+graphic:
+  primary: "assets/bloom-wrinkle-and-the-rag-that-never-dries/shop-diagram.svg"
+  alt: "Schematic of wrinkled oil film from thick coat and bloom from trapped solvent"
 ---
 
 # Bloom, wrinkle, and the rag that never dries
@@ -25,6 +29,11 @@ has more area than the footprint it started with, so it
 ridges. You see this on the rim of a BLO can and on a table
 where someone "let it soak overnight."
 
+
+<figure class="ffc-figure">
+  <img src="assets/bloom-wrinkle-and-the-rag-that-never-dries/shop-diagram.svg" alt="Schematic of wrinkled oil film from thick coat and bloom from trapped solvent" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Wrinkle is too much oil too little air; bloom is solvent trapped under skin.</figcaption>
+</figure>
 The fix is not a fifth coat. The fix is remove the wrinkled
 skin — scrape, sand, mineral spirits on a rag for the gummy
 part if the system allows — back to a surface that is either

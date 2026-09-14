@@ -10,6 +10,10 @@ topic: [oil, cure, schedule]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "A curing schedule that respects oxygen. Recoat when tack-free"
+graphic:
+  primary: "assets/a-curing-schedule-that-respects-oxygen/shop-diagram.svg"
+  alt: "Timeline for wiping oil coats with dry between and full cure before topcoat"
 ---
 
 # A curing schedule that respects oxygen
@@ -26,6 +30,11 @@ and the oil is finding fiber. This is when you wipe off.
 Miss this clock and you have started a film you did not
 mean.
 
+
+<figure class="ffc-figure">
+  <img src="assets/a-curing-schedule-that-respects-oxygen/shop-diagram.svg" alt="Timeline for wiping oil coats with dry between and full cure before topcoat" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Recoat when tack-free; full hardness waits on oxygen not calendar optimism.</figcaption>
+</figure>
 **Tack-free.** Hours to a day, thin coat, warm shop, BLO or
 a wiping varnish. Raw tung and raw linseed can sit longer.
 Tack-free means a clean knuckle does not come away with a

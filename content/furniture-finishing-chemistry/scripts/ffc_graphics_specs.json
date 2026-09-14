@@ -1,0 +1,381 @@
+{
+  "what-a-finish-actually-is": {
+    "type": "layers",
+    "title": "Wood surface with finish film layers",
+    "alt": "Cross-section schematic: wood fibers, penetrating oil, and surface film on furniture",
+    "caption": "A finish can occupy pores and build a film on top; adhesion and thickness decide whether it survives use.",
+    "layers": ["Wood fiber", "Penetrating oil", "Surface film"]
+  },
+  "film-versus-penetrating": {
+    "type": "compare",
+    "title": "Penetrating finish versus film finish",
+    "alt": "Shop diagram comparing in-the-wood oil versus built varnish film on furniture",
+    "caption": "Penetrating systems wet fibers; film systems protect from above. Most cans blend both behaviors.",
+    "rows": [
+      ["Penetrating", "In pores", "Hand feels wood"],
+      ["Film", "On surface", "Measurable build"],
+      ["Mutt can", "Both", "Read the binder"]
+    ]
+  },
+  "binder-solvent-additive": {
+    "type": "stack",
+    "title": "Finish can anatomy: binder carrier additives",
+    "alt": "Schematic of furniture finish ingredients: binder solvent and shop additives",
+    "caption": "The binder becomes the solid; the carrier leaves; additives change dry time sheen and flow.",
+    "blocks": ["Binder (film)", "Carrier (leaves)", "Additives (driers flatteners)"]
+  },
+  "why-some-woods-drink-and-some-spit": {
+    "type": "layers",
+    "title": "Open versus closed grain wood",
+    "alt": "End-grain schematic showing open ring-porous oak versus tight maple for finish absorption",
+    "caption": "Ring-porous woods drink finish into vessels; diffuse-porous woods often need fewer coats.",
+    "layers": ["Open vessels", "Latewood bridge", "Tight face grain"]
+  },
+  "the-shop-safe-fence": {
+    "type": "flow",
+    "title": "Shop-safe finishing scope",
+    "alt": "Flowchart of allowed shop finishing topics versus formulation and hazmat outside scope",
+    "caption": "Commercial products and ventilation yes; distillation synthesis and waste dumping no.",
+    "steps": ["Read label", "Ventilate", "Dispose legally", "Stop at formulation"]
+  },
+  "linseed-oil-polymerizes": {
+    "type": "flow",
+    "title": "Linseed oil oxygen cure",
+    "alt": "Schematic linseed oil taking oxygen and crosslinking on wood surface",
+    "caption": "Raw linseed needs air and time; heat in a wadded rag is the same chemistry without escape.",
+    "steps": ["Wet wood", "Oxygen enters", "Crosslinks", "Film stiffens"]
+  },
+  "tung-oil-and-the-can-that-lied": {
+    "type": "compare",
+    "title": "True tung oil versus wiping varnish label",
+    "alt": "Comparison of pure tung oil cure versus blended wiping varnish in a mislabeled can",
+    "caption": "Pure tung is slow and matte; many cans are varnish with a tung adjective.",
+    "rows": [
+      ["Pure tung", "Slow cure", "Matte in-wood"],
+      ["Wiping varnish", "Faster", "Thin film"],
+      ["Label check", "Read binder", "Not the front adjective"]
+    ]
+  },
+  "danish-oil-is-a-wiping-varnish": {
+    "type": "stack",
+    "title": "Danish oil as oil plus varnish blend",
+    "alt": "Diagram of Danish oil layers: linseed or tung fraction plus alkyd varnish in mineral spirits",
+    "caption": "Danish oil is usually wiping varnish: oil for look varnish for build if you leave it on.",
+    "blocks": ["Mineral spirits", "Drying oil", "Alkyd varnish"]
+  },
+  "hardwax-oil-the-wax-is-the-last-coat": {
+    "type": "layers",
+    "title": "Hardwax oil film stack",
+    "alt": "Cross-section of oil cure with wax buffed on furniture surface",
+    "caption": "Oil polymerizes in the wood; wax sits last and governs feel and renewability.",
+    "layers": ["Oil in fiber", "Thin oil film", "Wax on top"]
+  },
+  "a-curing-schedule-that-respects-oxygen": {
+    "type": "timeline",
+    "title": "Oil cure schedule with oxygen",
+    "alt": "Timeline for wiping oil coats with dry between and full cure before topcoat",
+    "caption": "Recoat when tack-free; full hardness waits on oxygen not calendar optimism.",
+    "events": [
+      ["Coat 1", "Wipe dry"],
+      ["Wait", "Tack-free"],
+      ["Coat 2", "Thin"],
+      ["Cure", "Before varnish"]
+    ]
+  },
+  "bloom-wrinkle-and-the-rag-that-never-dries": {
+    "type": "defect",
+    "title": "Oil bloom and wrinkle defects",
+    "alt": "Schematic of wrinkled oil film from thick coat and bloom from trapped solvent",
+    "caption": "Wrinkle is too much oil too little air; bloom is solvent trapped under skin.",
+    "labels": ["Thick puddle", "Skin first", "Wrinkle below"]
+  },
+  "oil-on-teak-rosewood-and-other-greasy-citizens": {
+    "type": "flow",
+    "title": "Oily exotic wood prep",
+    "alt": "Prep flow for teak rosewood: degrease shellac seal then finish",
+    "caption": "Extractives fight adhesion; clean test coat on scrap before the show face.",
+    "steps": ["Scuff", "Solvent wipe", "Test coat", "Seal if needed"]
+  },
+  "alkyd-varnish-the-shop-standard": {
+    "type": "layers",
+    "title": "Alkyd varnish film on wood",
+    "alt": "Alkyd resin crosslinking as mineral spirits leave furniture surface",
+    "caption": "Alkyd is the shop workhorse: build coats amber slowly and sand between.",
+    "layers": ["Wood", "Alkyd film", "Next coat bite"]
+  },
+  "oil-modified-polyurethane-without-the-marketing": {
+    "type": "compare",
+    "title": "Oil-modified polyurethane versus straight alkyd",
+    "alt": "Compare oil-modified PU flexibility and amber to straight alkyd varnish",
+    "caption": "Oil-mod PU trades a little yellow for flexibility; still a film finish.",
+    "rows": [
+      ["Alkyd", "Amber", "Standard build"],
+      ["Oil-mod PU", "Warmer", "Tougher film"],
+      ["Read can", "Oil length", "Not brand myth"]
+    ]
+  },
+  "spar-varnish-and-porch-chalk": {
+    "type": "layers",
+    "title": "Spar varnish UV flex additives",
+    "alt": "Schematic spar varnish with UV absorbers and softer oil for exterior chalking",
+    "caption": "Spar moves more and chalks outdoors; interior table tops want a harder film.",
+    "layers": ["Wood outdoors", "Flex resin", "UV additives"]
+  },
+  "wipe-on-varnish-is-just-thin-varnish": {
+    "type": "compare",
+    "title": "Wipe-on versus brush varnish same resin",
+    "alt": "Same alkyd resin thinned for wipe-on versus full brush coat build rate",
+    "caption": "Wipe-on is thin varnish many passes; not a different chemistry.",
+    "rows": [
+      ["Brush coat", "High build", "Few coats"],
+      ["Wipe-on", "Low build", "Many passes"],
+      ["Same binder", "Thin solvent", "Patience"]
+    ]
+  },
+  "recoat-windows-and-intercoat-adhesion": {
+    "type": "timeline",
+    "title": "Recoat window for varnish",
+    "alt": "Timeline for sanding between varnish coats versus wet recoat window",
+    "caption": "Inside the window the next coat melts in; outside it needs scuff or strip.",
+    "events": [
+      ["Coat A", "Tack-free"],
+      ["Window", "Recoat no sand"],
+      ["Late", "Scuff"],
+      ["Miss", "Peel risk"]
+    ]
+  },
+  "amber-plastic-and-the-look-people-return": {
+    "type": "compare",
+    "title": "Amber alkyd versus waterborne clear",
+    "alt": "Color comparison amber oil varnish versus clear acrylic waterborne on maple",
+    "caption": "Amber warms oak; waterborne stays cooler; neither is cheating if disclosed.",
+    "rows": [
+      ["Alkyd", "Warm", "Amber shift"],
+      ["Waterborne", "Cooler", "Plastic clear"],
+      ["Client", "Sample board", "Pick once"]
+    ]
+  },
+  "shellac-is-a-bug-resin": {
+    "type": "flow",
+    "title": "Shellac flake to alcohol solution",
+    "alt": "Shellac lac resin dissolved in denatured alcohol forming brushable film",
+    "caption": "Flakes or buttons plus alcohol; alcohol leaves and resin reflows into a film.",
+    "steps": ["Lac resin", "Dissolve", "Brush", "Alcohol leaves"]
+  },
+  "cuts-flakes-and-why-dewaxed-exists": {
+    "type": "compare",
+    "title": "Shellac cut and dewaxed grades",
+    "alt": "Compare pound cut shellac dewaxed versus waxed for sealer under other finishes",
+    "caption": "Dewaxed sticks to the next coat; waxed resists waterborne and some varnishes.",
+    "rows": [
+      ["2 lb cut", "General", "Thin fast"],
+      ["Dewaxed", "Universal sealer", "Next coat sticks"],
+      ["Waxed", "French polish", "Repels some films"]
+    ]
+  },
+  "french-polish-without-the-monastery": {
+    "type": "flow",
+    "title": "French polish pad path",
+    "alt": "French polishing with shellac pad oil lubricant and spiriting off",
+    "caption": "Pad deposits thin shellac; oil lubricates; spirit cleans the last pass.",
+    "steps": ["Pad charge", "Spiriting", "Oil drop", "Burnish"]
+  },
+  "shellac-as-the-diplomat": {
+    "type": "layers",
+    "title": "Shellac sealer between dissimilar coats",
+    "alt": "Shellac barrier coat between stain and varnish or waterborne stacks",
+    "caption": "Dewaxed shellac isolates incompatible layers when the label stack is honest.",
+    "layers": ["Stain or dye", "Dewaxed shellac", "Top film"]
+  },
+  "blush-alcohol-and-a-humid-tuesday": {
+    "type": "defect",
+    "title": "Shellac blush in humidity",
+    "alt": "Schematic white shellac blush when alcohol traps moisture on humid day",
+    "caption": "Blush is moisture in the film; slow thinner or dehumidify before the next pass.",
+    "labels": ["Humid air", "Fast evap", "White blush"]
+  },
+  "what-shellac-cannot-survive": {
+    "type": "compare",
+    "title": "Shellac limits heat water alcohol",
+    "alt": "Table of shellac weakness to heat water rings and alcohol spills",
+    "caption": "Shellac repairs fast and fails fast on bar tops and radiators.",
+    "rows": [
+      ["Hot mug", "Ring", "Use harder topcoat"],
+      ["Alcohol", "Dissolves", "Not bar finish"],
+      ["Exterior", "UV water", "Choose varnish"]
+    ]
+  },
+  "waterborne-means-emulsion": {
+    "type": "layers",
+    "title": "Waterborne latex emulsion particles",
+    "alt": "Schematic polymer particles in water coalescing into film as water leaves",
+    "caption": "Waterborne is dispersed plastic in water; coalescence not simple drying.",
+    "layers": ["Water", "Polymer beads", "Coalesced film"]
+  },
+  "grain-raise-is-swelling": {
+    "type": "defect",
+    "title": "Grain raise from waterborne",
+    "alt": "Wood fibers swollen after waterborne first coat requiring knockback sand",
+    "caption": "Water swells fibers; first coat raises grain; knock back before color or top.",
+    "labels": ["First WB coat", "Fibers swell", "Knock back"]
+  },
+  "acrylic-versus-waterborne-polyurethane": {
+    "type": "compare",
+    "title": "Acrylic latex versus waterborne polyurethane",
+    "alt": "Compare acrylic emulsion clarity versus PUD polyurethane toughness on furniture",
+    "caption": "Acrylic stays clear and softer; PUD reads tougher and can amber slightly.",
+    "rows": [
+      ["Acrylic WB", "Clear", "Moderate wear"],
+      ["WB PU", "Tougher", "Slight warm"],
+      ["Label", "Read resin", "Not just water"]
+    ]
+  },
+  "coalescent-cold-shops-and-the-film-that-never-knits": {
+    "type": "defect",
+    "title": "MFFT and cold shop coalescence failure",
+    "alt": "Waterborne film failing to knit below minimum film formation temperature",
+    "caption": "Cold shop leaves tacky white particles; warm room or coalescent-rated product.",
+    "labels": ["Below MFFT", "Beads stay", "No knit"]
+  },
+  "waterborne-over-oil-the-honest-sequence": {
+    "type": "flow",
+    "title": "Stacking waterborne over cured oil",
+    "alt": "Sequence: fully cured oil scuff shellac optional then waterborne topcoat",
+    "caption": "Oil must cure; scuff for bite; dewaxed shellac if the stack is picky.",
+    "steps": ["Oil cured", "Scuff", "Shellac optional", "WB top"]
+  },
+  "foam-leveling-and-the-cheap-applicator": {
+    "type": "defect",
+    "title": "Foam applicator bubbles in waterborne",
+    "alt": "Foam brush trapping air bubbles in waterborne finish on table top",
+    "caption": "Foam injects air; quality synthetic brush or spray for level film.",
+    "labels": ["Foam cells", "Air in film", "Crater risk"]
+  },
+  "milk-paint-is-casein-and-lime": {
+    "type": "stack",
+    "title": "Milk paint casein lime binder",
+    "alt": "Casein protein and lime in milk paint forming matte chalky film",
+    "caption": "Real milk paint sets by protein and lime; acrylic latex imitates the look.",
+    "blocks": ["Casein protein", "Lime", "Pigment chalk"]
+  },
+  "bonding-coats-and-the-myth-of-universal-stick": {
+    "type": "flow",
+    "title": "Bonding coat for milk paint",
+    "alt": "Bonding agent or scuff prep before milk paint on slick old finish",
+    "caption": "Chalk needs tooth; bonding coat or mechanical scratch not magic stick.",
+    "steps": ["Old film", "Scuff or bond", "Milk paint", "Topcoat choice"]
+  },
+  "milk-paint-over-an-old-film": {
+    "type": "layers",
+    "title": "Milk paint over existing finish",
+    "alt": "Milk paint on scuffed varnish versus peeling on glossy old film",
+    "caption": "Glossy urethane needs prep; bare wood or bonded surface holds chalk.",
+    "layers": ["Old urethane", "Prep tooth", "Casein film"]
+  },
+  "topcoating-milk-paint-without-killing-the-chalk": {
+    "type": "compare",
+    "title": "Topcoats over milk paint sheen",
+    "alt": "Compare wax versus thin waterborne over milk paint keeping chalk look",
+    "caption": "Wax keeps chalk; heavy poly fills pores and kills the point.",
+    "rows": [
+      ["Wax", "Matte", "Renewable"],
+      ["Thin WB", "Light sheen", "Test first"],
+      ["Heavy poly", "Plastic", "Kills chalk"]
+    ]
+  },
+  "chip-and-crackle-defect-history-or-theater": {
+    "type": "defect",
+    "title": "Intentional crackle versus failure chip",
+    "alt": "Crackle glaze chemistry versus accidental chip on weak bond coat",
+    "caption": "Theater crackle is a product stack; accidental chip is adhesion or brittleness.",
+    "labels": ["Crackle stack", "Weak bond", "Real chip"]
+  },
+  "sanding-decides-the-film": {
+    "type": "flow",
+    "title": "Grit sequence before finish",
+    "alt": "Sanding progression 120 to 180 to 220 before first finish coat",
+    "caption": "Coarser scratch shows through thin films; last grit sets the sheen base.",
+    "steps": ["Machine 120", "Hand 150", "Final 180-220", "Vacuum"]
+  },
+  "dye-stain-and-the-finish-on-top": {
+    "type": "layers",
+    "title": "Dye stain under film finish",
+    "alt": "Dye in wood fibers with clear film on top versus pigment stain in surface",
+    "caption": "Dye moves in fiber; pigment sits in pores; topcoat choice follows.",
+    "layers": ["Dye in fiber", "Pigment in pore", "Clear film"]
+  },
+  "compatibility-in-prose": {
+    "type": "flow",
+    "title": "Finish compatibility test path",
+    "alt": "Scrap board test stack before committing finish on client piece",
+    "caption": "Same species same prep; test the whole stack not the last can alone.",
+    "steps": ["Scrap board", "Same prep", "Full stack", "Then piece"]
+  },
+  "repair-without-stripping-the-whole-piece": {
+    "type": "flow",
+    "title": "Localized finish repair",
+    "alt": "Feather sand blend repair shellac pad on damaged finish spot",
+    "caption": "Identify binder; feather edge; patch in family; blend sheen last.",
+    "steps": ["ID binder", "Feather", "Patch", "Blend sheen"]
+  },
+  "maintenance-years-later": {
+    "type": "timeline",
+    "title": "Finish maintenance years after install",
+    "alt": "Timeline for wax refresh oil re-coat versus full scuff and recoat",
+    "caption": "Penetrating oils want periodic feed; films want abrasion repair or recoat.",
+    "events": [
+      ["Year 1", "Use marks"],
+      ["Oil piece", "Re-oil wear"],
+      ["Film", "Abrade spot"],
+      ["Late", "Full recoat"]
+    ]
+  },
+  "rags-air-and-the-fire-you-do-not-see-coming": {
+    "type": "safety",
+    "title": "Oily rag disposal shop schematic",
+    "alt": "Shop-safe oily rag disposal: hang dry or metal waste can not plastic bag",
+    "caption": "Spread rags to cure or submerge in water in a metal can; never a closed pile.",
+    "items": ["Hang open", "Metal waste can", "No dryer"]
+  },
+  "food-safe-is-a-sentence-not-a-halo": {
+    "type": "compare",
+    "title": "Food contact finish claims",
+    "alt": "Compare cured film food contact standards versus marketing food safe labels",
+    "caption": "Regulatory sentences beat front-label halos; cure time and film matter.",
+    "rows": [
+      ["Label halo", "Marketing", "Not proof"],
+      ["Cured film", "Test standard", "Ask SDS"],
+      ["Cutting board", "Maintain", "Not immortal"]
+    ]
+  },
+  "fisheye-crater-orange-peel": {
+    "type": "defect",
+    "title": "Spray and wipe film defects",
+    "alt": "Diagram fisheye silicone crater and orange peel texture in finish film",
+    "caption": "Fisheye is contamination; orange peel is flow; crater is dirt or solvent pop.",
+    "labels": ["Silicone fisheye", "Orange peel", "Crater"]
+  },
+  "a-staged-dining-table-schedule": {
+    "type": "timeline",
+    "title": "Dining table finish schedule",
+    "alt": "Multi-day furniture finish schedule stain seal topcoat cure before delivery",
+    "caption": "Table schedule stacks dry time between stain sealer and top build.",
+    "events": [
+      ["Day 1", "Sand stain"],
+      ["Day 2", "Seal"],
+      ["Day 3-4", "Top coats"],
+      ["Deliver", "Full cure"]
+    ]
+  },
+  "what-to-tell-a-client-who-wants-just-oil": {
+    "type": "compare",
+    "title": "Oil-only client expectations",
+    "alt": "Compare maintenance and mark resistance oil finish versus varnish for dining table",
+    "caption": "Oil looks honest and marks faster; varnish films protect more with less feeding.",
+    "rows": [
+      ["Oil look", "High", "More care"],
+      ["Oil marks", "Show", "Easy refresh"],
+      ["Varnish", "Film", "Less feeding"]
+    ]
+  }
+}

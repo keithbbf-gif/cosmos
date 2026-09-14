@@ -10,6 +10,14 @@ topic: [waterborne, grain-raise]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Grain raise is swelling. Sanding is the apology. Water swells fibers"
+graphic:
+  primary: "assets/grain-raise-is-swelling/shop-diagram.svg"
+  alt: "Wood fibers swollen after waterborne first coat requiring knockback sand"
+photo:
+  path: "assets/photos/wood-surface-texture.jpg"
+  license: "Public domain"
+  credit: "Wikimedia Commons — Surface wooden furniture texture"
 ---
 
 # Grain raise is swelling. Sanding is the apology.
@@ -33,6 +41,16 @@ mineral show, let it dry fully, sand the whiskers
 with a finer grit than the last structural grit —
 you are cutting hairs, not recarving the surface.
 
+
+<figure class="ffc-figure">
+  <img src="assets/grain-raise-is-swelling/shop-diagram.svg" alt="Wood fibers swollen after waterborne first coat requiring knockback sand" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Water swells fibers; first coat raises grain; knock back before color or top.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="assets/photos/wood-surface-texture.jpg" alt="Wood furniture surface texture where raised grain shows after wetting" width="640" height="427" loading="lazy" decoding="async" />
+  <figcaption><strong>Photo 2.</strong> Raised grain reads as whiskers after a wetting step; knock back before stain or topcoat. (<a href="https://commons.wikimedia.org/wiki/File:Surface_wooden_furniture_interior_design_texture.jpg">Wikimedia Commons — Surface wooden furniture texture</a>)</figcaption>
+</figure>
 Then the first waterborne coat raises less, or
 raises a remainder you can knock back after it
 films.

@@ -10,6 +10,10 @@ topic: [wipe-on, varnish]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Wipe-on varnish is just thin varnish. Wipe-on is thin varnish many passes"
+graphic:
+  primary: "assets/wipe-on-varnish-is-just-thin-varnish/shop-diagram.svg"
+  alt: "Same alkyd resin thinned for wipe-on versus full brush coat build rate"
 ---
 
 # Wipe-on varnish is just thin varnish
@@ -33,6 +37,11 @@ Easy edges. A build that stays thin enough to look like
 you oiled, until the fourth coat when you notice you
 have a film.
 
+
+<figure class="ffc-figure">
+  <img src="assets/wipe-on-varnish-is-just-thin-varnish/shop-diagram.svg" alt="Same alkyd resin thinned for wipe-on versus full brush coat build rate" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Wipe-on is thin varnish many passes; not a different chemistry.</figcaption>
+</figure>
 That last sentence is the whole pedagogy. Wipe-on is how
 people accidentally cross the penetrating/film fork
 without updating the repair speech.

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-labelledby="title desc">
+  <title id="title">Finish maintenance years after install</title>
+  <desc id="desc">Timeline for wax refresh oil re-coat versus full scuff and recoat</desc>
+  <rect width="100%" height="100%" fill="#F7F3E8"/>
+  <text x="32" y="44" fill="#1A1A1A" font-family="Georgia, serif" font-size="20" font-weight="600">Finish maintenance years after install</text>
+  <line x1="60" y1="220" x2="580" y2="220" stroke="#1A1A1A" stroke-width="2"/>
+  <circle cx="60" cy="220" r="8" fill="#1A1A1A"/>
+  <text x="20" y="190" fill="#1A1A1A" font-family="sans-serif" font-size="12" font-weight="600">Year 1</text>
+  <text x="16" y="250" fill="#4A4A4A" font-family="sans-serif" font-size="11">Use marks</text>
+  <circle cx="233" cy="220" r="8" fill="#1A1A1A"/>
+  <text x="193" y="190" fill="#1A1A1A" font-family="sans-serif" font-size="12" font-weight="600">Oil piece</text>
+  <text x="189" y="250" fill="#4A4A4A" font-family="sans-serif" font-size="11">Re-oil wear</text>
+  <circle cx="406" cy="220" r="8" fill="#1A1A1A"/>
+  <text x="366" y="190" fill="#1A1A1A" font-family="sans-serif" font-size="12" font-weight="600">Film</text>
+  <text x="362" y="250" fill="#4A4A4A" font-family="sans-serif" font-size="11">Abrade spot</text>
+  <circle cx="579" cy="220" r="8" fill="#1A1A1A"/>
+  <text x="539" y="190" fill="#1A1A1A" font-family="sans-serif" font-size="12" font-weight="600">Late</text>
+  <text x="535" y="250" fill="#4A4A4A" font-family="sans-serif" font-size="11">Full recoat</text>
+</svg>

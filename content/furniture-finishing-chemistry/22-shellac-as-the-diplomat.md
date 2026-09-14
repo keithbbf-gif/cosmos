@@ -10,6 +10,10 @@ topic: [shellac, sealer, compatibility]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Shellac as the diplomat under other finishes. Dewaxed shellac isolates incompatible layers when the label stack is honest."
+graphic:
+  primary: "assets/shellac-as-the-diplomat/shop-diagram.svg"
+  alt: "Shellac barrier coat between stain and varnish or waterborne stacks"
 ---
 
 # Shellac as the diplomat
@@ -23,6 +27,11 @@ is the embassy.
 **Oily woods** after a degrease: a wash coat so the
 next film is not sitting on teak's lunch.
 
+
+<figure class="ffc-figure">
+  <img src="assets/shellac-as-the-diplomat/shop-diagram.svg" alt="Shellac barrier coat between stain and varnish or waterborne stacks" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Dewaxed shellac isolates incompatible layers when the label stack is honest.</figcaption>
+</figure>
 **Odorous woods and smoke**: shellac is an old odor
 sealer. It is not a miracle on a fire-sale sofa, but
 on a cedar chest or a musty drawer it is a known

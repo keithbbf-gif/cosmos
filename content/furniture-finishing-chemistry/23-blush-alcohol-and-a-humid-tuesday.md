@@ -10,6 +10,10 @@ topic: [shellac, blush, humidity]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Blush, alcohol, and a humid Tuesday. Blush is moisture in the film"
+graphic:
+  primary: "assets/blush-alcohol-and-a-humid-tuesday/shop-diagram.svg"
+  alt: "Schematic white shellac blush when alcohol traps moisture on humid day"
 ---
 
 # Blush, alcohol, and a humid Tuesday
@@ -34,6 +38,11 @@ never cured. It is not stain pulling, though a
 blush and a pulled dye can keep each other company
 if you work wet.
 
+
+<figure class="ffc-figure">
+  <img src="assets/blush-alcohol-and-a-humid-tuesday/shop-diagram.svg" alt="Schematic white shellac blush when alcohol traps moisture on humid day" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Blush is moisture in the film; slow thinner or dehumidify before the next pass.</figcaption>
+</figure>
 If the milk is only in the last coat and a quick
 alcohol wipe (a commercial retarder or a light
 re-amalgamation with the same alcohol family)

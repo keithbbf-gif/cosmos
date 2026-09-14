@@ -10,6 +10,14 @@ topic: [spar, varnish, UV]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Spar varnish and why porch chairs go chalky. Spar moves more and chalks outdoors"
+graphic:
+  primary: "assets/spar-varnish-and-porch-chalk/shop-diagram.svg"
+  alt: "Schematic spar varnish with UV absorbers and softer oil for exterior chalking"
+photo:
+  path: "assets/photos/spar-varnish-can.jpg"
+  license: "CC-BY-SA-3.0"
+  credit: "Wikimedia Commons — Spar varnish"
 ---
 
 # Spar varnish and why porch chairs go chalky
@@ -33,6 +41,16 @@ season. UV package: the sun does not get a free meal on
 day one. Often a bit more build, because weather wants
 thickness more than a dining table does.
 
+
+<figure class="ffc-figure">
+  <img src="assets/spar-varnish-and-porch-chalk/shop-diagram.svg" alt="Schematic spar varnish with UV absorbers and softer oil for exterior chalking" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Spar moves more and chalks outdoors; interior table tops want a harder film.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="assets/photos/spar-varnish-can.jpg" alt="Spar varnish can for exterior wood not interior table film" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Photo 2.</strong> Spar formulas flex and chalk outdoors; interior tops usually want a harder alkyd or PU film. (<a href="https://commons.wikimedia.org/wiki/File:Piece09-Spar-Varnish.jpg">Wikimedia Commons — Spar varnish</a>)</figcaption>
+</figure>
 What it does not mean: maintenance-free. UV packages get
 used up. They are a sacrificial army, not a force field.
 A south-facing rail is a consumable.

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-labelledby="title desc">
+  <title id="title">Hardwax oil film stack</title>
+  <desc id="desc">Cross-section of oil cure with wax buffed on furniture surface</desc>
+  <rect width="100%" height="100%" fill="#F7F3E8"/>
+  <text x="32" y="44" fill="#1A1A1A" font-family="Georgia, serif" font-size="20" font-weight="600">Hardwax oil film stack</text>
+  <rect x="120" y="120" width="400" height="52" fill="#E8DCC8" stroke="#1A1A1A" stroke-width="1"/>
+  <text x="136" y="152" fill="#1A1A1A" font-family="sans-serif" font-size="14">Oil in fiber</text>
+  <rect x="120" y="182" width="400" height="52" fill="#C9B896" stroke="#1A1A1A" stroke-width="1"/>
+  <text x="136" y="214" fill="#1A1A1A" font-family="sans-serif" font-size="14">Thin oil film</text>
+  <rect x="120" y="244" width="400" height="52" fill="#A8926A" stroke="#1A1A1A" stroke-width="1"/>
+  <text x="136" y="276" fill="#1A1A1A" font-family="sans-serif" font-size="14">Wax on top</text>
+</svg>

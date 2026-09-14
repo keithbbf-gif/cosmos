@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-labelledby="title desc">
+  <title id="title">Finish can anatomy: binder carrier additives</title>
+  <desc id="desc">Schematic of furniture finish ingredients: binder solvent and shop additives</desc>
+  <rect width="100%" height="100%" fill="#F7F3E8"/>
+  <text x="32" y="44" fill="#1A1A1A" font-family="Georgia, serif" font-size="20" font-weight="600">Finish can anatomy: binder carrier additives</text>
+  <defs><marker id="arr" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#4A4A4A"/></marker></defs>
+  <rect x="200" y="110" width="240" height="56" fill="#E8DCC8" stroke="#1A1A1A"/>
+  <text x="212" y="144" fill="#1A1A1A" font-family="sans-serif" font-size="13">Binder (film)</text>
+  <line x1="320" y1="166" x2="320" y2="180" stroke="#4A4A4A" marker-end="url(#arr)"/>
+  <rect x="200" y="184" width="240" height="56" fill="#E8DCC8" stroke="#1A1A1A"/>
+  <text x="212" y="218" fill="#1A1A1A" font-family="sans-serif" font-size="13">Carrier (leaves)</text>
+  <line x1="320" y1="240" x2="320" y2="254" stroke="#4A4A4A" marker-end="url(#arr)"/>
+  <rect x="200" y="258" width="240" height="56" fill="#E8DCC8" stroke="#1A1A1A"/>
+  <text x="212" y="292" fill="#1A1A1A" font-family="sans-serif" font-size="13">Additives (driers flatteners)</text>
+  <line x1="320" y1="314" x2="320" y2="328" stroke="#4A4A4A" marker-end="url(#arr)"/>
+</svg>

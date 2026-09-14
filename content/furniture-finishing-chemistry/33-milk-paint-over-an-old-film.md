@@ -10,6 +10,10 @@ topic: [milk-paint, recoating]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Milk paint over an old film. Glossy urethane needs prep"
+graphic:
+  primary: "assets/milk-paint-over-an-old-film/shop-diagram.svg"
+  alt: "Milk paint on scuffed varnish versus peeling on glossy old film"
 ---
 
 # Milk paint over an old film
@@ -37,6 +41,11 @@ paint may be lead. **Test for lead before
 you sand a mystery.** That is the fence.
 Positive changes the job.
 
+
+<figure class="ffc-figure">
+  <img src="assets/milk-paint-over-an-old-film/shop-diagram.svg" alt="Milk paint on scuffed varnish versus peeling on glossy old film" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Glossy urethane needs prep; bare wood or bonded surface holds chalk.</figcaption>
+</figure>
 Wax beads water. If water beads hard after
 you thought you cleaned, degrease with the
 product meant for wax, not with hope.

@@ -10,6 +10,14 @@ topic: [milk-paint, casein]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Milk paint is casein and lime, not nostalgia. Real milk paint sets by protein and lime"
+graphic:
+  primary: "assets/milk-paint-is-casein-and-lime/shop-diagram.svg"
+  alt: "Casein protein and lime in milk paint forming matte chalky film"
+photo:
+  path: "assets/photos/casein-precipitation.jpg"
+  license: "CC-BY-SA-4.0"
+  credit: "Wikimedia Commons — Casein precipitation"
 ---
 
 # Milk paint is casein and lime, not nostalgia
@@ -37,6 +45,16 @@ opens ready-made. It sticks to more things.
 It cleans up like a craft paint. It can be
 fine. It is not casein chemistry.
 
+
+<figure class="ffc-figure">
+  <img src="assets/milk-paint-is-casein-and-lime/shop-diagram.svg" alt="Casein protein and lime in milk paint forming matte chalky film" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Real milk paint sets by protein and lime; acrylic latex imitates the look.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="assets/photos/casein-precipitation.jpg" alt="Casein milk protein precipitate the binder chemistry behind traditional milk paint" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Photo 2.</strong> Milk paint is casein chemistry, not acrylic in a rustic label — protein sets the chalky film. (<a href="https://commons.wikimedia.org/wiki/File:Casein_(_Milk_Protein)_Precipitation.jpg">Wikimedia Commons — Casein precipitation</a>)</figcaption>
+</figure>
 If the powder needs mixing and smells a
 little like wet stone and kitchen, you may
 be in the old family. If the can is a

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-labelledby="title desc">
+  <title id="title">French polish pad path</title>
+  <desc id="desc">French polishing with shellac pad oil lubricant and spiriting off</desc>
+  <rect width="100%" height="100%" fill="#F7F3E8"/>
+  <text x="32" y="44" fill="#1A1A1A" font-family="Georgia, serif" font-size="20" font-weight="600">French polish pad path</text>
+  <rect x="48" y="160" width="100" height="48" rx="6" fill="#E8DCC8" stroke="#1A1A1A"/>
+  <text x="56" y="188" fill="#1A1A1A" font-family="sans-serif" font-size="11">Pad charge</text>
+  <line x1="148" y1="184" x2="158" y2="184" stroke="#4A4A4A" stroke-width="2"/>
+  <polygon points="158,180 158,188 166,184" fill="#4A4A4A"/>
+  <rect x="178" y="160" width="100" height="48" rx="6" fill="#E8DCC8" stroke="#1A1A1A"/>
+  <text x="186" y="188" fill="#1A1A1A" font-family="sans-serif" font-size="11">Spiriting</text>
+  <line x1="278" y1="184" x2="288" y2="184" stroke="#4A4A4A" stroke-width="2"/>
+  <polygon points="288,180 288,188 296,184" fill="#4A4A4A"/>
+  <rect x="308" y="160" width="100" height="48" rx="6" fill="#E8DCC8" stroke="#1A1A1A"/>
+  <text x="316" y="188" fill="#1A1A1A" font-family="sans-serif" font-size="11">Oil drop</text>
+  <line x1="408" y1="184" x2="418" y2="184" stroke="#4A4A4A" stroke-width="2"/>
+  <polygon points="418,180 418,188 426,184" fill="#4A4A4A"/>
+  <rect x="438" y="160" width="100" height="48" rx="6" fill="#E8DCC8" stroke="#1A1A1A"/>
+  <text x="446" y="188" fill="#1A1A1A" font-family="sans-serif" font-size="11">Burnish</text>
+</svg>

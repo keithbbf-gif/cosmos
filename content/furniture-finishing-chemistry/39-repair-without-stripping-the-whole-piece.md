@@ -10,6 +10,10 @@ topic: [repair]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Repair without stripping the whole piece. Identify binder"
+graphic:
+  primary: "assets/repair-without-stripping-the-whole-piece/shop-diagram.svg"
+  alt: "Feather sand blend repair shellac pad on damaged finish spot"
 ---
 
 # Repair without stripping the whole piece
@@ -30,6 +34,11 @@ looks dry wants a cleaner, then maybe a
 polish, then maybe a scuff-and-coat of
 the same film.
 
+
+<figure class="ffc-figure">
+  <img src="assets/repair-without-stripping-the-whole-piece/shop-diagram.svg" alt="Feather sand blend repair shellac pad on damaged finish spot" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Identify binder; feather edge; patch in family; blend sheen last.</figcaption>
+</figure>
 The hidden-spot tests: alcohol on a
 cotton swab (shellac moves), a fingernail
 at an existing ding (film vs penetrate),

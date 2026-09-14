@@ -10,6 +10,10 @@ topic: [compatibility]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Compatibility in prose, not a poster. Same species same prep"
+graphic:
+  primary: "assets/compatibility-in-prose/shop-diagram.svg"
+  alt: "Scrap board test stack before committing finish on client piece"
 ---
 
 # Compatibility in prose, not a poster
@@ -25,6 +29,11 @@ depending on how oily you are. Wipe off.
 This is the family that repairs by adding
 more of itself.
 
+
+<figure class="ffc-figure">
+  <img src="assets/compatibility-in-prose/shop-diagram.svg" alt="Scrap board test stack before committing finish on client piece" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Same species same prep; test the whole stack not the last can alone.</figcaption>
+</figure>
 ## Oil, then wiping varnish or oil PU
 
 Yes, if the oil is not a puddle and has

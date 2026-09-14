@@ -10,6 +10,10 @@ topic: [shellac, limits]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "What shellac cannot survive. Shellac repairs fast and fails fast on bar tops and radiators."
+graphic:
+  primary: "assets/what-shellac-cannot-survive/shop-diagram.svg"
+  alt: "Table of shellac weakness to heat water rings and alcohol spills"
 ---
 
 # What shellac cannot survive
@@ -26,6 +30,11 @@ lesson. If the piece will live with drinkers, shellac
 is a sealer or a French-polish lid on a box, not
 the field of the table.
 
+
+<figure class="ffc-figure">
+  <img src="assets/what-shellac-cannot-survive/shop-diagram.svg" alt="Table of shellac weakness to heat water rings and alcohol spills" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Shellac repairs fast and fails fast on bar tops and radiators.</figcaption>
+</figure>
 ## Heat
 
 A hot mug. A hair dryer used as a "quick dry." A

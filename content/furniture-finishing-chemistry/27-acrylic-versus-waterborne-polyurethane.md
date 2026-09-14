@@ -10,6 +10,10 @@ topic: [waterborne, acrylic, polyurethane]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Acrylic waterborne vs waterborne polyurethane. Acrylic stays clear and softer"
+graphic:
+  primary: "assets/acrylic-versus-waterborne-polyurethane/shop-diagram.svg"
+  alt: "Compare acrylic emulsion clarity versus PUD polyurethane toughness on furniture"
 ---
 
 # Acrylic waterborne vs waterborne polyurethane
@@ -29,6 +33,11 @@ against alcohol and heat than a good PU
 dispersion, depending on the formula — cans
 vary more than nouns.
 
+
+<figure class="ffc-figure">
+  <img src="assets/acrylic-versus-waterborne-polyurethane/shop-diagram.svg" alt="Compare acrylic emulsion clarity versus PUD polyurethane toughness on furniture" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Acrylic stays clear and softer; PUD reads tougher and can amber slightly.</figcaption>
+</figure>
 A lot of "water-based polycrylic" living-room
 cans are acrylic or acrylic-forward hybrids
 wearing a word that sounds like polyurethane.

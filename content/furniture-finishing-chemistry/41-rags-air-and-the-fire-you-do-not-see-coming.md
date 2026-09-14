@@ -10,6 +10,10 @@ topic: [safety, rags, ventilation]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Rags, air, and the fire you do not see coming. Spread rags to cure or submerge in water in a metal can"
+graphic:
+  primary: "assets/rags-air-and-the-fire-you-do-not-see-coming/shop-diagram.svg"
+  alt: "Shop-safe oily rag disposal: hang dry or metal waste can not plastic bag"
 ---
 
 # Rags, air, and the fire you do not see coming
@@ -30,6 +34,11 @@ famous. Tung, wiping varnish, oil PU
 rags, hardwax pads — if there is drying
 oil, the family is invited.
 
+
+<figure class="ffc-figure">
+  <img src="assets/rags-air-and-the-fire-you-do-not-see-coming/shop-diagram.svg" alt="Shop-safe oily rag disposal: hang dry or metal waste can not plastic bag" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Spread rags to cure or submerge in water in a metal can; never a closed pile.</figcaption>
+</figure>
 This is ordinary shop fire. It has
 burned ordinary buildings. Treat it as
 part of the coat, not as an afterthought

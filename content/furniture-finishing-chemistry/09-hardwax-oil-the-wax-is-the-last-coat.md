@@ -10,6 +10,10 @@ topic: [hardwax, oil, wax]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Hardwax oil. Oil polymerizes in the wood"
+graphic:
+  primary: "assets/hardwax-oil-the-wax-is-the-last-coat/shop-diagram.svg"
+  alt: "Cross-section of oil cure with wax buffed on furniture surface"
 ---
 
 # Hardwax oil — the wax is the last coat, not the magic
@@ -32,6 +36,11 @@ because the brand is pretty. If you apply a thick paste and
 leave it, you get a smear of wax sitting on unset oil. It
 looks rich at 8 p.m. and cloudy at breakfast.
 
+
+<figure class="ffc-figure">
+  <img src="assets/hardwax-oil-the-wax-is-the-last-coat/shop-diagram.svg" alt="Cross-section of oil cure with wax buffed on furniture surface" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Oil polymerizes in the wood; wax sits last and governs feel and renewability.</figcaption>
+</figure>
 The wax is not a polymer network. It is a soft, renewable,
 heat-sensitive skin. A hot mug will print it. A solvent will
 move it. That is the deal. You are buying repairability and

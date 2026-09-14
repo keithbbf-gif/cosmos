@@ -10,6 +10,10 @@ topic: [tung, oil, labeling]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Tung oil, and the can that lied. Pure tung is slow and matte"
+graphic:
+  primary: "assets/tung-oil-and-the-can-that-lied/shop-diagram.svg"
+  alt: "Comparison of pure tung oil cure versus blended wiping varnish in a mislabeled can"
 ---
 
 # Tung oil, and the can that lied
@@ -34,6 +38,11 @@ label that learned what people search for. It can be a good
 finish. It is not tung. Calling it tung is like calling a
 Danish oil "the tree from Denmark."
 
+
+<figure class="ffc-figure">
+  <img src="assets/tung-oil-and-the-can-that-lied/shop-diagram.svg" alt="Comparison of pure tung oil cure versus blended wiping varnish in a mislabeled can" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Pure tung is slow and matte; many cans are varnish with a tung adjective.</figcaption>
+</figure>
 Read the cleanup. If it says mineral spirits and the dry time
 is "recoat in 4 hours, use in 24," you are holding a varnish
 blend. Real tung, wiped thin, is not in a hurry that way. It

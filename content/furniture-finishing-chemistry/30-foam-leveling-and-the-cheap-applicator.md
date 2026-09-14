@@ -10,6 +10,10 @@ topic: [waterborne, application, foam]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Foam, leveling, and the cheap applicator. Foam injects air"
+graphic:
+  primary: "assets/foam-leveling-and-the-cheap-applicator/shop-diagram.svg"
+  alt: "Foam brush trapping air bubbles in waterborne finish on table top"
 ---
 
 # Foam, leveling, and the cheap applicator
@@ -26,6 +30,11 @@ The surfactant package that keeps particles
 apart is happy to keep air apart too. You
 brush a cappuccino.
 
+
+<figure class="ffc-figure">
+  <img src="assets/foam-leveling-and-the-cheap-applicator/shop-diagram.svg" alt="Foam brush trapping air bubbles in waterborne finish on table top" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Foam injects air; quality synthetic brush or spray for level film.</figcaption>
+</figure>
 Stir. Wait if you already shook. Pour out
 what you need so you are not whipping the
 gallon every pass.

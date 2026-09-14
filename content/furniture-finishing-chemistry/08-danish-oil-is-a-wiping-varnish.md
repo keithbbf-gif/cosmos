@@ -10,6 +10,10 @@ topic: [danish-oil, wiping-varnish, oil]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Danish oil is a wiping varnish with a nickname. Danish oil is usually wiping varnish: oil for look varnish for build if you leave it on."
+graphic:
+  primary: "assets/danish-oil-is-a-wiping-varnish/shop-diagram.svg"
+  alt: "Diagram of Danish oil layers: linseed or tung fraction plus alkyd varnish in mineral spirits"
 ---
 
 # Danish oil is a wiping varnish with a nickname
@@ -33,6 +37,11 @@ varnish, add oil for wetting and a longer open time, wipe it
 like you are staining, and you get a surface that looks
 hand-done and still has a little armor.
 
+
+<figure class="ffc-figure">
+  <img src="assets/danish-oil-is-a-wiping-varnish/shop-diagram.svg" alt="Diagram of Danish oil layers: linseed or tung fraction plus alkyd varnish in mineral spirits" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Danish oil is usually wiping varnish: oil for look varnish for build if you leave it on.</figcaption>
+</figure>
 The oil fraction helps the first coat sink and pop grain.
 The varnish fraction is why a Danish-oiled table survives a
 week of mail and coffee cups better than raw BLO. The solvent

@@ -10,6 +10,10 @@ topic: [waterborne, MFFT, coalescent]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Coalescent, cold shops, and the film that never knits. Cold shop leaves tacky white particles"
+graphic:
+  primary: "assets/coalescent-cold-shops-and-the-film-that-never-knits/shop-diagram.svg"
+  alt: "Waterborne film failing to knit below minimum film formation temperature"
 ---
 
 # Coalescent, cold shops, and the film that never knits
@@ -38,6 +42,11 @@ continuous. Tape pulls it. A fingernail
 scribes a white line that should not be
 that easy. Edges crumble.
 
+
+<figure class="ffc-figure">
+  <img src="assets/coalescent-cold-shops-and-the-film-that-never-knits/shop-diagram.svg" alt="Waterborne film failing to knit below minimum film formation temperature" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Cold shop leaves tacky white particles; warm room or coalescent-rated product.</figcaption>
+</figure>
 People add another coat. They are now
 stacking powder.
 

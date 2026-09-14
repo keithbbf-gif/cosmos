@@ -10,6 +10,10 @@ topic: [can, binder, solvent]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Binder, solvent, additive. The binder becomes the solid"
+graphic:
+  primary: "assets/binder-solvent-additive/shop-diagram.svg"
+  alt: "Schematic of furniture finish ingredients: binder solvent and shop additives"
 ---
 
 # Binder, solvent, additive
@@ -25,6 +29,11 @@ polyurethane, acrylic, shellac resin, casein. If two cans share a
 binder family, they will fail in related ways even if one is
 "antique maple" and the other is "crystal clear."
 
+
+<figure class="ffc-figure">
+  <img src="assets/binder-solvent-additive/shop-diagram.svg" alt="Schematic of furniture finish ingredients: binder solvent and shop additives" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> The binder becomes the solid; the carrier leaves; additives change dry time sheen and flow.</figcaption>
+</figure>
 Binders differ in hardness, yellowing, solvent resistance, and how
 they feel about the next coat. Shellac will redissolve in alcohol
 forever. That is a repair gift and a bar-top curse. A crosslinked
