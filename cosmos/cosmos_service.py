@@ -451,20 +451,47 @@ def _nodemap_overlay_kernel(kernel, body: dict) -> dict:
     if kr is None:
         return body
     try:
-        mx = kr.matrix()
+        from cosmos_registry import PROOF_TTL_S
+        live = kr.live_nodes()
+        stale = kr.stale_nodes()
+        mx = [{**row, "verified": True, "proof_state": "LIVE"}
+              for row in live.values()]
+        mx.extend({**row, "verified": False, "proof_state": "STALE"}
+                  for row in stale.values())
+        if not mx:
+            mx = kr.matrix()
     except Exception:  # noqa: BLE001
         return body
     if not mx:
         return body
     meta = dict(reg)
     meta["available"] = True
-    meta["source"] = "kernel.matrix"
+    meta["source"] = "kernel.live+stale"
     meta["schema"] = meta.get("schema") or "cosmos-registry/1"
+    meta["proof_ttl_s"] = PROOF_TTL_S
     meta["matrix"] = mx
+    meta["stale"] = [r for r in mx if r.get("proof_state") == "STALE"]
     meta["composed"] = len(mx)
-    meta["count"] = sum(1 for r in mx if r.get("verified") is True)
+    meta["count"] = sum(1 for r in mx if r.get("proof_state") == "LIVE")
+    meta["stale_count"] = len(meta["stale"])
     out = dict(body)
     out["registry"] = meta
+    try:
+        import importlib
+        import sys
+        from pathlib import Path as _P
+        d = str((_P(__file__).resolve().parent.parent / "builds" / "cdeck").resolve())
+        if d not in sys.path:
+            sys.path.append(d)
+        nmp = importlib.import_module("cosmos_nodemap_panel")
+        idx = {str(r.get("link_id")): r for r in mx if r.get("link_id")}
+        nodes, edges = nmp._compose_routing_nodes(idx)  # noqa: SLF001
+        topo = dict(body.get("topology") or {})
+        topo["nodes"] = nodes
+        topo["edges"] = edges
+        out["topology"] = topo
+    except Exception:  # noqa: BLE001
+        pass
     return out
 
 

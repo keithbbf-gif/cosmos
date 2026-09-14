@@ -94,11 +94,13 @@ def main() -> int:
               and any(r.get("worker") == "cosmos-pulse"
                       for r in body["fleet"].get("clocks") or []))
         code, body = get("/api/v1/nodemap")
-        check("GET /nodemap is 200 and names gem-api from the registry",
+        check("GET /nodemap is 200 and binds GEM routing node to gem-api",
               lambda: code == 200 and body.get("ok") is True
               and body.get("registry", {}).get("available") is True
-              and any(n.get("id") == "gem-api"
-                      for n in (body.get("topology") or {}).get("nodes") or []))
+              and any(n.get("id") == "GEM"
+                      for n in (body.get("topology") or {}).get("nodes") or [])
+              and any(r.get("link_id") == "gem-api"
+                      for r in body["registry"].get("matrix") or []))
         check("GET /nodemap registry carries matrix for the browser wrap",
               lambda: isinstance(body.get("registry", {}).get("matrix"), list)
               and len(body["registry"]["matrix"]) >= 1
@@ -110,9 +112,9 @@ def main() -> int:
             "note": "proven-live empty",
         }), encoding="utf-8")
         code_e, body_e = get("/api/v1/nodemap")
-        check("empty disk rails.json overlays kernel.matrix (not a blank map)",
+        check("empty disk rails.json overlays kernel live+stale (not a blank map)",
               lambda: code_e == 200 and body_e.get("registry", {}).get("source")
-              == "kernel.matrix"
+              in ("kernel.matrix", "kernel.live+stale")
               and len(body_e["registry"].get("matrix") or []) >= 1)
         code, body = get("/api/v1/jukebox")
         check("GET /jukebox is 200 (rich queue fold, even if empty)",
