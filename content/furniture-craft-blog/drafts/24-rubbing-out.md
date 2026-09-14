@@ -2,8 +2,8 @@
 title: "Rubbing Out"
 slug: rubbing-out
 status: draft
-voice_check: human
-word_count: 1235
+voice_check: edited
+word_count: 1009
 dek: "A film finish off the gun is a field of orange peel and dust nibs. Rubbing out is how it becomes a surface you meant."
 series: furniture-craft
 topic: finish
@@ -20,11 +20,6 @@ optional_links:
     use: footnote-only
 verify:
   - "Whether production tops are rubbed or left from the gun / satin conversion [VERIFY]"
-graphics:
-  - asset_slug: french-polish-overview
-    path: assets/french-polish-overview/finish-comparison.svg
-    alt: "Rubber pad paths"
-    caption: "Figure-eight with thin shellac; oil slip prevents drag."
 graphics:
   - asset_slug: french-polish-overview
     path: assets/french-polish-overview/finish-comparison.svg
@@ -97,14 +92,8 @@ Spot-rubbing a repair is how you get a shiny island in a satin sea. You rub the 
 
 ## Hands and shoulders
 
-This is physical in a dull way. I change sides of the table. I do not bear down on one corner because I am facing that way. The film is not even in thickness — guns are people — and one corner will cut through first if it was light from the gun. I watch that corner.
+This is physical in a dull way. I change sides of the table. I do not bear down on one corner because I am facing that way.
 
 When the light stops breaking, I stop. The extra ten minutes is how you cut through. I have taken the extra ten minutes. I have used a drop of dye and a prayer. The prayer is not a finish system.
 
 I turn off the overhead and I use the window. If the top holds the window as a shape, not as a broken glitter, I can call it. Then I walk away before I find a reason to take one more pass. The last pass is how good rub-outs die.
-
-A hospitality top that will take a real cleaner is usually a satin conversion from the gun, not a piano rub. A show dining table that was priced as a show table should not hide behind the kitchen system. I say the repair problem before we rub: a later scratch on a rubbed gloss is a whole-panel job. Some customers hear that and switch to satin. I am glad when they do. The dog and the homework station were always going to vote.
-
-I pick the big nibs with a blade before I level, carefully. A picked nib can be a hole. A hole wants a drop of finish and a wait. The finish room that sands oak in the same hour is donating nibs. I have donated. Wax after a rub is thin or it is a fingerprint farm. The rag still goes in the can.
-
-South Arkansas humidity will lie to a schedule written in a drier state. I push a fingernail in an unseen corner. If it prints, I wait. If I am late, I ship a satin from the gun and I do not call it rubbed. Honesty is faster than a gummed top.

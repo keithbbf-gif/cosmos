@@ -2,8 +2,8 @@
 title: "Eighty Is Not a Suggestion"
 slug: eighty-is-not-a-suggestion
 status: draft
-voice_check: human
-word_count: 1244
+voice_check: edited
+word_count: 1243
 dek: "Grit discipline: each paper erases the last scratch. Skipping is how a table looks finished until 4 p.m. light."
 series: furniture-craft
 topic: finish
@@ -20,11 +20,6 @@ optional_links:
     use: footnote-only
 verify:
   - "House grit sequence on tabletops [VERIFY]"
-graphics:
-  - asset_slug: sanding-grit-sequence
-    path: assets/sanding-grit-sequence/process-flow.svg
-    alt: "Grit progression"
-    caption: "80 → 120 → 150 → 180 → 220 for film finishes."
 graphics:
   - asset_slug: sanding-grit-sequence
     path: assets/sanding-grit-sequence/process-flow.svg
@@ -47,7 +42,7 @@ I start as coarse as the surface requires, not as coarse as my anger. A planed t
 
 Skipping 80 to 150 on a rough board is how you spend an hour making shiny valleys between deep trenches. The trenches remain. You have polished their rims.
 
-A stop at 180 is enough for a lot of oil and a lot of film. 220 is common. 320 on a film between coats, carefully, to knock nibs, not to cut through an edge. 400 and beyond is rubbing out, not sanding wood, and it is easy to cut a arris into a raw line that will stain dark.
+A stop at 180 is enough for a lot of oil and a lot of film. 220 is common. 320 on a film between coats, carefully, to knock nibs, not to cut through an edge. 400 and beyond is rubbing out, not sanding wood, and it is easy to cut an arris into a raw line that will stain dark.
 
 I do not sand to 400 on bare oak and then wonder why the stain went blotchy and the wood looks tired. Fine grits close the surface. Some finishes want that. Some stains do not.
 

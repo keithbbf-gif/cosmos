@@ -1,7 +1,7 @@
 # Style Guide — Furniture Craft Blog Pack
 
 **Status:** working house rules for this folder only.  
-**Voice check:** every draft ships `voice_check: human` only after a pass that kills the banned list.
+**Voice check:** drafters set `voice_check: human` after self-edit (banned list). Editor agent sets `voice_check: edited` after grammar QA; see `EDITOR_REPORT.md`.
 
 This pack is magazine writing for people who already take furniture seriously, and for readers who want to. It is not a DIY funnel, not a product grid, and not a keyword farm. Soft brand home is Arkansas hardwood country — Warren and Wilmar, Bradley County — usable later by Bradley Brand Furniture, Saline River Workshop, or the mill-heritage story. The writing stands without the brand. The brand, if it appears, is a place and a shop, not a slogan.
 
@@ -81,7 +81,7 @@ Prefer Keith’s library: `D:\BBF\BBF Photos`, plus working-shop and millwork fr
 title: string
 slug: kebab-case
 status: draft
-voice_check: human
+voice_check: human | edited
 word_count: integer   # body copy only, counted after the last self-edit
 dek: one or two sentences, no slogan
 series: furniture-craft
@@ -91,13 +91,13 @@ optional_links: footnote-only, or omit
 verify: list of claims still open
 ```
 
-`status` stays `draft` in this pack. An editor agent will QA grammar and style after drafting. Do not mark a piece `ready` here.
+`status` stays `draft` in this pack. After editor QA, `voice_check: edited` — still not `ready` until shop verify and photo pulls. Do not mark a piece `ready` here.
 
 ## Figures (diagrams + photos)
 
 - **Diagrams** are cream/ink SVG in `assets/<asset-slug>/`. Each draft embeds one or two `<figure class="craft-figure">` blocks after the opening graf(s), before the first `##` section. Captions come from the graphics pack; do not swap in stock art.
 - **`graphics` in front matter** lists the asset slug(s) and paths for importers. **`figures`** lists **shop photo** slots only — paths under `D:\BBF`, staged and credited before publish. Missing BBF frames stay `status: needed`; do not substitute Unsplash.
-- Regenerate SVGs: `python3 tools/generate_furniture_craft_blog_graphics.py`. Re-apply prose↔asset mapping: `python3 tools/merge_furniture_craft_blog_pack.py` (see `GRAPHIC_MAP.yaml`).
+- Regenerate SVGs: `python3 tools/generate_furniture_craft_blog_graphics.py`. Re-apply prose↔asset mapping after **editor** changes: `python3 tools/merge_furniture_craft_editor_stack.py` (see `GRAPHIC_MAP.yaml`, `MERGE_REPORT.md`).
 
 ## WordPress
 

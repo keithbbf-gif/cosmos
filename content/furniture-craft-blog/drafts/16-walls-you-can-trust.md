@@ -2,8 +2,8 @@
 title: "Walls You Can Trust"
 slug: walls-you-can-trust
 status: draft
-voice_check: human
-word_count: 1260
+voice_check: edited
+word_count: 1263
 dek: "A mortise is a hole with opinions. The walls have to be flat, the ends square, and the bottom deep enough that the tenon does not bottom out before the shoulders shut."
 series: furniture-craft
 topic: tools
@@ -20,11 +20,6 @@ optional_links:
     use: footnote-only
 verify:
   - "Mortiser on the floor vs hand-chopped exceptions — confirm shop split [VERIFY]"
-graphics:
-  - asset_slug: half-blind-dovetails
-    path: assets/half-blind-dovetails/joinery-diagram.svg
-    alt: "Half-blind socket depth"
-    caption: "Tail length equals socket depth plus reveal allowance."
 graphics:
   - asset_slug: half-blind-dovetails
     path: assets/half-blind-dovetails/joinery-diagram.svg

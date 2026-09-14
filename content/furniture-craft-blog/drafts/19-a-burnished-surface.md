@@ -2,8 +2,8 @@
 title: "A Burnished Surface"
 slug: a-burnished-surface
 status: draft
-voice_check: human
-word_count: 1250
+voice_check: edited
+word_count: 1139
 dek: "The cabinet scraper, the hook, and the patch of grain a sander would dish into a story you cannot un-sand."
 series: furniture-craft
 topic: tools
@@ -25,11 +25,6 @@ graphics:
     path: assets/card-scraper-vs-sanding/finish-comparison.svg
     alt: "Scraper then sand"
     caption: "Scraper for tear-out; 180–220 to unify scratch pattern."
-graphics:
-  - asset_slug: card-scraper-vs-sanding
-    path: assets/card-scraper-vs-sanding/finish-comparison.svg
-    alt: "Scraper then sand"
-    caption: "Scraper for tear-out; 180–220 to unify scratch pattern."
 ---
 
 There is a patch of curl in the walnut, right where a hand will land on the table edge, and the plane has already said no — a little tear, a roughness you can feel with a thumb. I could sand it. The sander would take the tear and it would also take a dish, because I would stay too long where the tear was, because that is what hands do. The dish would show under finish as a shadow that moves when you walk past.
@@ -43,7 +38,7 @@ I take a cabinet scraper, a rectangle of steel with a hook I turned this morning
 
 ## Turning a hook
 
-File the long edge square. Polish the faces so the hook has a clean place to start. Burnisher, a little oil, a pass or two flat to draw the steel, then a tilt to turn the hook. The angle is learned. Too much and the scraper chatters and grabs. Too little and you have a dull square edge that makes dust.
+I file the long edge square on a mill file, polish the faces on a fine stone so the hook has a clean corner to start from, then burnisher, a little oil, a pass or two flat to draw the steel, then a tilt to turn the hook. The angle is learned. If I skip the polish, the hook is ragged and the scraper chatters. Too much tilt and the hook is a claw and the cut is a grab. Too little and you have a dull square edge that makes dust. I test on a scrap of the job wood. The scrap tells me faster than a theory of degrees.
 
 I have a card scraper and I have a No. 80, the one with a sole and a thumbscrew that bows the iron. The No. 80 is easier on the hands and easier to keep at a consistent cut. The card is what fits in a pocket and gets into a cove if you bend it. Both need a hook. A scraper without a hook is a piece of steel you heat with your thumbs for no reason.
 
@@ -73,10 +68,6 @@ I still sand. 180 or 220 after a scraped and planed top, lightly, to even the sc
 
 A random-orbit on a curl patch is how you get a dip that you then “blend” into a larger dip. I have blended. I have regretted.
 
-## Turning a hook I can trust
-
-I file the long edge square on a mill file, I polish the faces on a fine stone so the hook has a clean corner to start from, I draw the steel with the burnisher flat, then I tilt and I turn. If I skip the polish, the hook is ragged and the scraper chatters. If I turn too much, the hook is a claw and the cut is a grab. I test on a scrap of the job wood. The scrap tells me faster than a theory of degrees.
-
 A No. 80 with a bow in the iron is kinder to my thumbs on a big top. I still keep a card for coves and for a patch the sole will not enter. The card lives on the bench, hook up, not in a drawer under chisels.
 
 ## A curl patch on a dining edge
@@ -91,8 +82,4 @@ The scraper will teach you to keep your wrists in a way a plane’s tote does no
 
 When the shaving turns to dust, I stop and I turn the hook again. That might be every fifteen minutes on hard maple. Maple is honest that way. Walnut will let you go longer and then surprise you with a gum streak.
 
-I put the scraper on the bench, not in a drawer under a pile, because a rolled hook dies in a pile. A living hook sits where I can see it, next to the stone, which is the other half of this sentence.
-
-On a maple top the hook dies every quarter hour if I am leaning. I stop, I turn it again, I do not keep going into dust and heat. The thumbs burn when the hook is dead. Tape on the thumbs is a confession that I stayed too long. A No. 80 and a living hook are kinder than a story about calluses. The surface stays a plane. That is the only proof I want.
-
-End grain of a breadboard and a through-tenon will take a sharp scraper after the plane has left fuzz. I use it there. I do not scrape a whole flatsawn oak top as a personality. I scrape the trouble. The rest can be a plane or a light sand if the finish wants a scratch. The scraper is how I refuse to let the ROS shape the curl.
+I put the scraper on the bench, not in a drawer under a pile, because a rolled hook dies in a pile. A living hook sits where I can see it, next to the stone, which is the other half of this sentence. On a maple top the hook dies every quarter hour if I am leaning. I stop, I turn it again, I do not keep going into dust and heat. The thumbs burn when the hook is dead. Tape on the thumbs is a confession that I stayed too long. A No. 80 and a living hook are kinder than a story about calluses. The surface stays a plane. That is the only proof I want.

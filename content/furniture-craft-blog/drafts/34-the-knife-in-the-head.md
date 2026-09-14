@@ -2,8 +2,8 @@
 title: "The Knife in the Head"
 slug: the-knife-in-the-head
 status: draft
-voice_check: human
-word_count: 1232
+voice_check: edited
+word_count: 1209
 dek: "A molder running casing: the profile is a knife, the burn is a dull knife, and millwork is furniture that learned to live on a wall."
 series: furniture-craft
 topic: millwork
@@ -27,11 +27,6 @@ optional_links:
 verify:
   - "Historic mill product mix included pine millwork — Bradham / heritage page [VERIFY wording]"
   - "AWI profile tolerances if a number is quoted [VERIFY edition]"
-graphics:
-  - asset_slug: router-table-setup
-    path: assets/router-table-setup/tool-layout.svg
-    alt: "Router table feed direction"
-    caption: "Feed against bit rotation; bearing follows template."
 graphics:
   - asset_slug: router-table-setup
     path: assets/router-table-setup/tool-layout.svg
@@ -90,17 +85,11 @@ Every wall is out. I scribe a base to a floor that dips. I do not sand a base to
 
 Caulk is a painter’s joint, not a millworker’s pride. A little caulk in a paint-grade inside corner is life. A bead of caulk in a stain-grade reveal is a confession. I cut the wood closer.
 
-## A historic room and a “close” knife
+## A historic room, dull at two hundred
 
 I ran a stock casing in a 1910 hall because the custom grind was a week out. Close was a shadow that did not match at the splice. I pulled it and I waited for the knife. The room was right. Close is not a section.
 
-Inside corners: I cope. A miter on a complex crown opened when the house moved. The cope could close. Outside: a miter, tight. Scarfs not at eye height if I can help it. I have put a scarf at eye height. I still see it.
-
-## Dull at two hundred
-
-The first stick was a fingernail arris. The two-hundredth, unhoned, was a glaze in the cove and a fuzz on the quirk. Paint ate it. I change the knife before I change the story. A test stick in the job box is how a repair six months later matches. Without it, the repair is a cousin from a different grind.
-
-Stain-grade oak shows every chatter. I run it like I mean it: sharp, slow, a test. Paint-grade poplar is the diplomat. A flat sanding pad still kills a bead in a minute. I have killed the bead.
+The first stick through a fresh grind was a fingernail arris. The two-hundredth, unhoned, was a glaze in the cove and a fuzz on the quirk. Paint ate it. I change the knife before I change the story. A test stick in the job box is how a repair six months later matches. Without it, the repair is a cousin from a different grind.
 
 ## Listening to the head
 
@@ -108,4 +97,6 @@ A molder that sings is a molder that is cutting. A molder that slaps is a loose 
 
 I keep a cutoff of the good run in the job box. Months later, a repair stick can match. Without the cutoff, the repair is a cousin from a different knife. The room will introduce them to each other every time someone turns on the hall light.
 
-The knife in the head is a small piece of steel with a drawing ground into it. When it is sharp, the wall gets a line that belongs to the house. When it is dull, the house gets a shine and a fuzz and a painter’s problem. I change the knife before I change the story.
+The knife in the head is a small piece of steel with a drawing ground into it. When it is sharp, the wall gets a line that belongs to the house. When it is dull, the house gets a shine and a fuzz and a painter’s problem.
+
+Stain-grade oak shows every chatter. I run it sharp, slow, with a test stick in the job box. Paint-grade poplar is the diplomat. A flat sanding pad still kills a bead in a minute. I have killed the bead. The painter cannot put it back. Pre-finishing sticks before install is how you avoid a raw line when the house moves and a joint opens. A raw line on stained oak is a lightning bolt at the hall switch.

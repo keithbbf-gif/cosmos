@@ -2,7 +2,7 @@
 title: "Drawbore, Then Drive"
 slug: drawbore-then-drive
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1229
 dek: "A pin with a purpose: the hole in the tenon is offset, the pin cams the shoulder home, and the joint does not wait on a clamp you cannot reach."
 series: furniture-craft
@@ -10,7 +10,7 @@ topic: joinery
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — drawbore pins, offset mark on a tenon, oak pegs (filename pending)"
-    caption: "The offset is a mark you can miss if you get proud. A hair toward the shoulder. Not a rumor."
+    caption: "The offset is a mark you can miss if you get greedy. A hair toward the shoulder. Not a rumor."
     credit: "Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled"
     license: "Owner clearance required."
     status: needed
@@ -26,11 +26,6 @@ optional_links:
     use: footnote-only
 verify:
   - "Offset used on production pins — measure a shop sample before printing a fraction [VERIFY]"
-graphics:
-  - asset_slug: mortise-and-tenon-basics
-    path: assets/mortise-and-tenon-basics/joinery-diagram.svg
-    alt: "Through mortise and tenon (section)"
-    caption: "Cheek faces stay parallel; shoulders define depth stop."
 graphics:
   - asset_slug: mortise-and-tenon-basics
     path: assets/mortise-and-tenon-basics/joinery-diagram.svg

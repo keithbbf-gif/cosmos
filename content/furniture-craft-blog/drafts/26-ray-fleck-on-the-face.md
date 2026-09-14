@@ -2,8 +2,8 @@
 title: "Ray Fleck on the Face"
 slug: ray-fleck-on-the-face
 status: draft
-voice_check: human
-word_count: 1257
+voice_check: edited
+word_count: 1184
 dek: "Quartersawn oak is a sawing choice. The fleck is a ray, not a stain, and the board moves less across its width than the cathedral next to it in the pile."
 series: furniture-craft
 topic: materials
@@ -26,11 +26,6 @@ optional_links:
     use: footnote-only
 verify:
   - "Historic Bradley mill oak mix (furniture stock vs flooring vs millwork) — cite Encyclopedia / Bradham; do not invent percentages [VERIFY]"
-graphics:
-  - asset_slug: choosing-hardwood-boards
-    path: assets/choosing-hardwood-boards/process-flow.svg
-    alt: "Board defect map"
-    caption: "Mark knots and sap; nest longest parts on clearest grain."
 graphics:
   - asset_slug: choosing-hardwood-boards
     path: assets/choosing-hardwood-boards/process-flow.svg
@@ -79,19 +74,15 @@ Fasteners: you still slot the breadboard. Quartered is not “no movement.” It
 
 ## Arkansas oak, without a brochure
 
-This county grew and cut oak. The Saline bottoms and the upland stands are not one oak. The furniture stock that left Warren in the mill century included hardwoods that other towns wanted for floors and chairs and millwork. [VERIFY] product lists against Bradham and the Encyclopedia; the brand heritage page already walks carefully.
+This county grew and cut oak. The Saline bottoms and the upland stands are not one oak. The furniture stock that left Warren in the century of mill work included hardwoods that other towns wanted for floors and chairs and millwork. [VERIFY] product lists against Bradham and the Encyclopedia; the brand heritage page already walks carefully.
 
-What I can say from the bench: the oak that arrives here now is a mix of regional and not, kiln-dried to a number I still meter. A romantic “local quartered” board that is still wet is a worse board than a honest flatsawn board at 7 percent. [VERIFY] the number against the meter and the house target. Moisture beats a sawing story.
+What I can say from the bench: the oak that arrives here now is a mix of regional and not, kiln-dried to a number I still meter. A romantic “local quartered” board that is still wet is a worse board than an honest flatsawn board at 7 percent. [VERIFY] the number against the meter and the house target. Moisture beats a sawing story.
 
 ## A glue-up that mixed cuts
 
 I put a rift stile next to a flatsawn rail in a door because the faces both said “oak” and the ends were in the stack. The door’s rail moved more than the stile. The haunch opened a hair in winter. Now I read the ends before I read the faces. A family of vertical rings for a frame. A cathedral for a floating panel. Not a cathedral in a 3-inch rail if I can help it.
 
 Rays that pick: a light plane cut, a scraper. A dull wide-belt will burnish the flake and then tear it, a sparkle that becomes a void. I would rather scrape than polish a void.
-
-## Specifying without a tag
-
-The drawing says QSWO or rift if the job needs it. The tag can say oak. I do not specify quartered for a painted poplar cupboard. I specify it for a wide top, a stile that cannot be a propeller, a floor that should stay tight. Mission flake is a look. The movement is the reason I still pay.
 
 ## The look in a room
 

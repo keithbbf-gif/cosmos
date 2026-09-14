@@ -2,8 +2,8 @@
 title: "Teeth and Set"
 slug: teeth-and-set
 status: draft
-voice_check: human
-word_count: 1234
+voice_check: edited
+word_count: 1237
 dek: "Rip, crosscut, dovetail: a saw is a row of chisels. The set is how they clear the kerf. The rest is whether you let the saw cut."
 series: furniture-craft
 topic: tools
@@ -26,11 +26,6 @@ optional_links:
     use: footnote-only
 verify:
   - "Which handsaws are actually in service vs decorative [VERIFY]"
-graphics:
-  - asset_slug: crosscut-sled
-    path: assets/crosscut-sled/tool-layout.svg
-    alt: "Crosscut sled layout"
-    caption: "Fence 90° to blade; stop block for repeat length."
 graphics:
   - asset_slug: crosscut-sled
     path: assets/crosscut-sled/tool-layout.svg

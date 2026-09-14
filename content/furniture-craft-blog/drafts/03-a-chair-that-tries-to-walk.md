@@ -2,8 +2,8 @@
 title: "A Chair That Tries to Walk"
 slug: a-chair-that-tries-to-walk
 status: draft
-voice_check: human
-word_count: 1327
+voice_check: edited
+word_count: 1319
 dek: "Set a side chair on the floor and lean. The front rail is already talking. Chair joinery is load, rack, and the refusal to become a parallelogram."
 series: furniture-craft
 topic: joinery
@@ -27,11 +27,6 @@ optional_links:
 verify:
   - "Any numbered rake or stretch angle should be checked against a shop drawing before print [VERIFY]"
   - "Brian Boggs / Moser geometry references are attitudinal here; do not attribute unpublished shop numbers"
-graphics:
-  - asset_slug: repair-loose-chair-wedged-tenon
-    path: assets/repair-loose-chair-wedged-tenon/joinery-diagram.svg
-    alt: "Wedged through-tenon"
-    caption: "Wedge spreads tenon in mortise; orient wedge across grain."
 graphics:
   - asset_slug: repair-loose-chair-wedged-tenon
     path: assets/repair-loose-chair-wedged-tenon/joinery-diagram.svg

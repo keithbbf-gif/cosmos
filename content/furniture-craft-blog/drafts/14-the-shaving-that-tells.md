@@ -2,8 +2,8 @@
 title: "The Shaving That Tells"
 slug: the-shaving-that-tells
 status: draft
-voice_check: human
-word_count: 1340
+voice_check: edited
+word_count: 1333
 dek: "A bench plane’s last pass is information. Thickness sanders make a thickness. The iron makes a surface."
 series: furniture-craft
 topic: tools
@@ -20,11 +20,6 @@ optional_links:
     use: footnote-only
 verify:
   - "Which bench planes actually live on the Wilmar wall — do not invent a set [VERIFY]"
-graphics:
-  - asset_slug: hand-plane-setup
-    path: assets/hand-plane-setup/tool-layout.svg
-    alt: "Bench plane iron assembly"
-    caption: "Cap iron ~0.5–1 mm behind cutting edge for general work."
 graphics:
   - asset_slug: hand-plane-setup
     path: assets/hand-plane-setup/tool-layout.svg
@@ -99,7 +94,7 @@ The shaving that day had been thick in the middle and nothing at the edges. The 
 
 ## Cap iron, the close setting
 
-On interlocked walnut I set the cap iron close enough that I can barely see a line of bright iron. The shaving crumbles instead of lifting a wedge of fiber ahead of the edge. This is not mystery. It is the chip breaking before it can lift the fibers ahead of the edge. When I get lazy and leave the cap iron a sixteenth back, the same board tears. I do not blame the board.
+On interlocked walnut I set the cap iron close enough that I can barely see a line of bright iron. The shaving crumbles instead of lifting a wedge of fiber ahead of the edge. This is not mystery. It is the chip breaking before the tear starts. When I get lazy and leave the cap iron a sixteenth back, the same board tears. I do not blame the board.
 
 A tight mouth helps the same problem. I have a smoother with a mouth I can adjust. I close it for the wild stuff. I open it when I am taking a heavier cut on a kind board. One setting for every board is how a plane becomes a decoration.
 

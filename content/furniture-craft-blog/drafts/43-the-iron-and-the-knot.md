@@ -2,8 +2,8 @@
 title: "The Iron and the Knot"
 slug: the-iron-and-the-knot
 status: draft
-voice_check: human
-word_count: 1214
+voice_check: edited
+word_count: 1211
 dek: "A knot is a branch that stayed. You can design around it, you can put it on the back, or you can let it be the face and then you owe it a finish that will not weep."
 series: furniture-craft
 topic: materials
@@ -20,11 +20,6 @@ optional_links:
     use: footnote-only
 verify:
   - "Shellac on knots as pitch block — common practice; not a guarantee in a hot window [VERIFY product]"
-graphics:
-  - asset_slug: reading-grain-for-planing
-    path: assets/reading-grain-for-planing/process-flow.svg
-    alt: "Grain direction arrows"
-    caption: "Cathedral opens toward you = often downhill on face."
 graphics:
   - asset_slug: reading-grain-for-planing
     path: assets/reading-grain-for-planing/process-flow.svg
@@ -79,15 +74,11 @@ Seal, then the system. A knot will take stain darker, usually. I accept it or I 
 
 Oil will show every ring. Film will show the bump. Paint will show the ridge if you did not prime and sand. None of them make a loose knot tight.
 
-## A plug in the gravy story
-
-A loose knot in a dining field is a hole. I do not stabilize it with a glass of CA and sell calm. I plug, grain aligned, or I recut the board into parts. A tight knot at the edge can disappear in a rip. A cluster in a chair rail is a weak place. I do not ask a collar to take a rack.
-
-Shellac on a pine knot helps pitch. A hot window will still test it. I do not put a pitchy knot over a sofa in a sunroom and then talk about character when the finish yellows.
-
 ## Butterflies that were not asked for
 
-A row of butterflies on a slab that is not checking is a costume. I put them where the wood asked. A contrasting plug on a formal top is a spot. I ask before I spot. Common oak is full of knots; I cut them out of the show and leave them in the back. That is yield. The iron’s tap is the first diagnosis. A nick from a mineral-hard knot prints a stripe. I hone before I print.
+A row of butterflies on a slab that is not checking is a costume. I put them where the wood asked. A contrasting plug on a formal top is a spot. I ask before I spot.
+
+A loose knot in a dining field is a hole, not a character speech. I plug with grain aligned, or I recut the board into parts. I do not stabilize with a river of thin CA and sell the table as calm. The CA is a glass around a pebble. The pebble still wants to leave.
 
 ## The iron, again
 
@@ -95,6 +86,10 @@ I hone after a knot that was mineral-hard. The nick will print a stripe down the
 
 Then I decide, one last time, with the board on the bench in the light: is this knot a face? If I have to talk myself into it, it is a back. The face is for the room. The room did not ask for a speech about a branch. It asked for a table that will not lose a plug into a gravy boat.
 
-I keep a board with a beautiful tight knot in the rack for a painted door or a shop stool. I do not keep it for a mystery. The mystery is how often a knot looks like destiny on the pile and like a mistake on the stand. The iron already knew. I try to listen at the first tap, not at the last coat.
+A mineral-hard knot can nick the iron and print a stripe down the rest of the board. I hone before I print. Sandpaper loads on a knot and throws a grit comet. I clean the paper. I do not grind the knot into a crater and call the crater character.
 
-A plane will chip the trailing edge of a tight knot if I am a hero. I take a lighter cut, I scrape, I come from the other side. Sandpaper loads on a knot and then throws a comet. I clean the paper. I do not grind the knot into a crater and call the crater character. Oil will show every ring. Paint will show the ridge if I did not prime. None of them make a loose knot stay.
+Shellac on a pine knot is old medicine for pitch. It helps. A hot window will still test it. I do not put a pitchy knot over a sofa in a sunroom and then talk about character when the finish yellows. Oil will show every ring. Film will show the bump. None of them make a loose knot tight.
+
+A plane will chip the trailing edge of a tight knot if I take a hero cut. I come from the other direction. I scrape. The iron’s tap at the first pass is the diagnosis I trust. Common oak is full of knots; I cut them out of the show and leave them in the back. That is yield, not shame.
+
+I keep a board with a beautiful tight knot in the rack for a painted door or a shop stool. I do not keep it for a mystery. The mystery is how often a knot looks like destiny on the pile and like a mistake on the stand. The iron already knew. I try to listen at the first tap, not at the last coat.

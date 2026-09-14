@@ -2,8 +2,8 @@
 title: "What the Meter Says"
 slug: what-the-meter-says
 status: draft
-voice_check: human
-word_count: 1231
+voice_check: edited
+word_count: 1223
 dek: "A pin meter in a board that looks dry: moisture is the invisible joint. Ignore it and every visible joint will eventually comment."
 series: furniture-craft
 topic: materials
@@ -21,11 +21,6 @@ optional_links:
 verify:
   - "House target MC for interior casework and chairs [VERIFY] — do not print a single number as law"
   - "Meter calibration and species correction — follow the meter’s card"
-graphics:
-  - asset_slug: lumber-milling-order
-    path: assets/lumber-milling-order/process-flow.svg
-    alt: "Mill four-square sequence"
-    caption: "Face → edge 90° → rip width → thickness to gauge."
 graphics:
   - asset_slug: lumber-milling-order
     path: assets/lumber-milling-order/process-flow.svg
@@ -62,6 +57,8 @@ End grain reads differently. Fresh from the planer, a board can look drier becau
 
 A delivery of oak in January into a heated shop will lose moisture and cup if it was wetter than the shop. A delivery in August may gain. I sticker it. I give it time that matches the thickness. 8/4 is not 4/4. A weekend is a story we tell ourselves about 4/4 that was already close.
 
+I have stickered a lift in the machine bay while the finish room held the same species a point drier. On a wide top I would rather wait a day and assemble in the room that matches the house than win a fight with a clamp.
+
 If the customer wants a slab next week and the slab is 12 percent, the answer is no, or the answer is a design that can move, or the answer is a different slab. I have said no. It is cheaper than a yes that becomes a crack.
 
 ## Case-hardening, the kiln scar
@@ -76,21 +73,15 @@ A piece that leaves a humid shop and sits in a truck in the sun, then in an air-
 
 ## Shop practice
 
-Write the number. Date it. If two people meter, they use the same species setting. I have argued about a board that was two species settings apart. The board was innocent.
+Write the number. Date it. If two people meter, they use the same species setting. I have argued about a board that was two species settings apart on the same meter. The board was innocent. We use the same setting now. A meter that has not seen a calibration block is a rumor. I check the block.
 
 Keep a sample of the job wood in the finish room and in the machine room if those rooms live different lives. A metal building in Arkansas can swing. The finish room with a dehumidifier is a different climate than the assembly floor. Assemble where it will be, if you can, or accept a small fight.
 
-## A slab that wanted next week
+## A slab that wanted Saturday
 
-The slab was handsome and 12 percent and the party was Saturday. I said no, or a different slab, or a design that could move. They took a different slab. The handsome one sat on sticks and became a better table a month later. A yes that weekend would have been a crack in their photos.
+The slab was handsome at twelve percent and the party was Saturday. I said no. They took a different slab. The handsome one sat on sticks and became a better table a month later. A yes that weekend would have been a crack in their photos.
 
-Case-hardened: I ripped a board and the kerf closed on the blade. I sent the lift back. What I kept I cut into short parts. I do not make a 40-inch top out of a board that is in a fight with itself.
-
-## Two people, two settings
-
-We argued about a board that was two species settings apart on the same meter. The board was innocent. We use the same setting now. We write the number and the date on the edge. A meter that has not seen a calibration block is a rumor. I check the block.
-
-A metal shop in August and a dehumidified finish room are different climates. I assemble where I can in the drier air if the piece is going to a winter house, or I design the joints for the trip. The meter is a gate, not a designer.
+A pinless reading fooled by a sticker stain once sent me into a glue-up I had to recut. The stain lied; the joint did not forgive.
 
 ## Why a mill town should already know
 
@@ -100,4 +91,8 @@ I do not need 1901 to take a reading. I need the reading.
 
 When the meter says yes, I still look at the board. A yes with a twist is a yes I cut around. A yes that is beautiful and too short is a yes for another job. The meter is not a designer. It is a gate. I have started to like the gate. It has saved me from being interesting on a board that only wanted another week on the sticks.
 
-A pinless meter fooled by a sticker stain once sent me into a glue-up I recut. I take more than one reading. I avoid the knot. I go past the end that always lies a little. Finish on both faces slows the room’s vote. It does not cancel it. The winter house will still speak. The joints have to have been cut as if it would.
+Finish on both faces slows the room’s vote. It does not cancel it. The winter house will still speak. The joints have to have been cut as if it would.
+
+I have built a top that left the shop at a number I trusted and still opened a hair at a breadboard pin because the truck sat in the sun. The meter was not wrong on Tuesday. The trip was still real. I design for the trip now the way I design for January.
+
+A board that reads dry on the shell and wet in the core is a board that will move after I have been clever. That is why I write three numbers on the edge, not one hero reading from the pretty face.

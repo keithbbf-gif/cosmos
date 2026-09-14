@@ -2,8 +2,8 @@
 title: "The Pot on the Hot Plate"
 slug: the-pot-on-the-hot-plate
 status: draft
-voice_check: human
-word_count: 1247
+voice_check: edited
+word_count: 1239
 dek: "Hide glue, the smell you either know or will, and why a joint you can take apart is sometimes the more serious joint."
 series: furniture-craft
 topic: joinery
@@ -27,11 +27,6 @@ optional_links:
 verify:
   - "Bloom-gram strength and pot temperature: confirm against the granule lot in use [VERIFY]"
   - "Do not list a house glue SKU without shop confirmation"
-graphics:
-  - asset_slug: glue-up-clamping-strategy
-    path: assets/glue-up-clamping-strategy/process-flow.svg
-    alt: "Clamp order flow"
-    caption: "Dry fit → glue longest joint → cauls → check square → wipe squeeze-out."
 graphics:
   - asset_slug: glue-up-clamping-strategy
     path: assets/glue-up-clamping-strategy/process-flow.svg

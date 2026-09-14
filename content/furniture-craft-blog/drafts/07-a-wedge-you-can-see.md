@@ -2,8 +2,8 @@
 title: "A Wedge You Can See"
 slug: a-wedge-you-can-see
 status: draft
-voice_check: human
-word_count: 1445
+voice_check: edited
+word_count: 1441
 dek: "Through-tenons and the small violence of a wedge: the joint that admits it might outlast the glue."
 series: furniture-craft
 topic: joinery
@@ -26,11 +26,6 @@ optional_links:
     use: footnote-only
 verify:
   - "House preference for fox-wedge vs through-wedge on hidden work [VERIFY]"
-graphics:
-  - asset_slug: repair-loose-chair-wedged-tenon
-    path: assets/repair-loose-chair-wedged-tenon/joinery-diagram.svg
-    alt: "Wedged through-tenon"
-    caption: "Wedge spreads tenon in mortise; orient wedge across grain."
 graphics:
   - asset_slug: repair-loose-chair-wedged-tenon
     path: assets/repair-loose-chair-wedged-tenon/joinery-diagram.svg

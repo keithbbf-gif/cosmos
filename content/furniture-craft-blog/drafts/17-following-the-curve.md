@@ -2,8 +2,8 @@
 title: "Following the Curve"
 slug: following-the-curve
 status: draft
-voice_check: human
-word_count: 1235
+voice_check: edited
+word_count: 1169
 dek: "A spokeshave on a chair leg is a conversation with grain that will not stay in a jointer’s world."
 series: furniture-craft
 topic: tools
@@ -20,15 +20,6 @@ optional_links:
     use: footnote-only
 verify:
   - "Chair lines that are shaped vs turned — confirm which series uses a shave [VERIFY]"
-graphics:
-  - asset_slug: curved-apron-template
-    path: assets/curved-apron-template/process-flow.svg
-    alt: "Template routing path"
-    caption: "Pattern bit follows template; climb cuts on exit only with care."
-  - asset_slug: carving-gouge-grind
-    path: assets/carving-gouge-grind/tool-layout.svg
-    alt: "Gouge bevel profile"
-    caption: "Outside bevel sets depth; inside bevel aids tight curves."
 graphics:
   - asset_slug: curved-apron-template
     path: assets/curved-apron-template/process-flow.svg
@@ -106,5 +97,3 @@ A travisher on a seat: I work downhill from the high spots, I mark with pencil, 
 We sell chairs that have to take a person. The curve is not the product. The curve is how the product meets the person. A back post that is fair is less likely to have a short-grain weak spot you sanded into existence. A foot that is crisp at the floor and gentle above does not chip the first time it is dragged.
 
 I do not need a brand story to say that. I need a shave that is sharp and a pair of legs that match at the three stations. When they do, I set them on the floor and I look from the door. If the pair reads as a pair, I can go to the mortises. If one leg is a little proud at the knee, I pick up the shave again. The door is farther than the vise. The door is closer to the truth.
-
-A nick in the iron is a ridge on every stroke after. I feel it, I go to the stone, I do not sand the ridge into a flat beside a curve I just paid for. The stone is five minutes. The chase around the knee is an hour and a bar of soap. I have the soap. I keep the stone closer now.

@@ -2,8 +2,8 @@
 title: "Waste Between the Pins"
 slug: waste-between-the-pins
 status: draft
-voice_check: human
-word_count: 1453
+voice_check: edited
+word_count: 1436
 dek: "A marking gauge on a drawer side, and the particular quiet of chopping waste when the pins are laid out by hand."
 series: furniture-craft
 topic: joinery
@@ -26,11 +26,6 @@ optional_links:
     use: footnote-only
 verify:
   - "House slope for drawer dovetails (1:6 vs 1:8) — confirm if the shop has a stated preference [VERIFY]"
-graphics:
-  - asset_slug: dovetail-layout
-    path: assets/dovetail-layout/joinery-diagram.svg
-    alt: "Half-blind dovetail layout"
-    caption: "Baseline and slope lines before any saw cut."
 graphics:
   - asset_slug: dovetail-layout
     path: assets/dovetail-layout/joinery-diagram.svg

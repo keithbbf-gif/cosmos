@@ -2,8 +2,8 @@
 title: "The Dark Board in the Stack"
 slug: the-dark-board-in-the-stack
 status: draft
-voice_check: human
-word_count: 1214
+voice_check: edited
+word_count: 1182
 dek: "Walnut is a color you find, a sapwood you decide about, and a board that will go quieter in the room if you let it."
 series: furniture-craft
 topic: materials
@@ -20,11 +20,6 @@ optional_links:
     use: footnote-only
 verify:
   - "Regional walnut sources vs 'local' claims — do not invent a county walnut industry [VERIFY]"
-graphics:
-  - asset_slug: choosing-hardwood-boards
-    path: assets/choosing-hardwood-boards/process-flow.svg
-    alt: "Board defect map"
-    caption: "Mark knots and sap; nest longest parts on clearest grain."
 graphics:
   - asset_slug: choosing-hardwood-boards
     path: assets/choosing-hardwood-boards/process-flow.svg
@@ -57,7 +52,7 @@ Dust is dark and it gets into every pore of a maple door across the shop. I sequ
 
 ## Slabs
 
-A walnut slab is a religion. I like a slab that is dried, flattened, and has a breadboard or a battens plan if it needs one. I do not like a slab that is a live-edge shrine with the pith in the middle and a river of epoxy because the check would not stop. Epoxy rivers are a product. They can be handsome. They are not “more honest.” They are a different honesty: we kept the crack and we filled it with a plastic.
+A walnut slab is a religion. I like a slab that is dried, flattened, and has a breadboard or a batten plan if it needs one. I do not like a slab that is a live-edge shrine with the pith in the middle and a river of epoxy because the check would not stop. Epoxy rivers are a product. They can be handsome. They are not “more honest.” They are a different honesty: we kept the crack and we filled it with a plastic.
 
 Nakashima’s eye is cited too often by people who did not take his care with the board. The care is the selection and the support, not the leftover bark. Bark is a pest hotel and a finish problem. I remove most of it. I leave a live edge when the edge is a good line. I do not leave rot.
 
@@ -82,8 +77,6 @@ A waterborne that goes gray-cool on walnut will disappoint a person who wanted w
 ## Sapwood I stained once
 
 A formal top with a sap lightning bolt: I stained it into a brown fog. The arris wore, the stripe came back. I recut the top later, on my dime, and I kept the sap off the field. Now I cut it off, or I design with it, or I say no to formal. A rustic edge of sap can be a drawing. A smear in the middle is a smear.
-
-Steamed lots are more even. Unsteamed can be louder. I name which if the customer names things. Fresh walnut is brighter than their piano memory. A year will quiet it. I say that before the truck.
 
 ## Dust on a maple door
 

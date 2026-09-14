@@ -2,7 +2,7 @@
 title: "A Skin of Better Wood"
 slug: a-skin-of-better-wood
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1207
 dek: "Veneer is not a confession. It is a way to put a stable core under a face that would be a propeller as a solid, or a flake that would cost a log."
 series: furniture-craft
@@ -20,11 +20,6 @@ optional_links:
     use: footnote-only
 verify:
   - "House use of veneer vs solid on which lines [VERIFY]"
-graphics:
-  - asset_slug: resawing-veneer
-    path: assets/resawing-veneer/process-flow.svg
-    alt: "Resaw path"
-    caption: "Tall fence + featherboard; flip book-match at center cut."
 graphics:
   - asset_slug: resawing-veneer
     path: assets/resawing-veneer/process-flow.svg
@@ -81,15 +76,13 @@ A “solid oak” tag on a veneered top is a problem I will not help with. A “
 
 Old hide-glue veneer: heat, moisture, a knife, patience, new hide. Old PVA veneer: a fight. A missing chip at an edge: a patch from a saved leaf of the same lot if you were kind to your future self. I keep offcuts of the leaf in the job folder. The folder is part of the joint.
 
+On a repair I write the glue on the back of the panel: hide, date, which face is show. The next person with a heat gun should not have to guess whether the original shop was kind.
+
 ## Sanded through, once
 
 A wide-belt and a heavy hand on a quartered oak leaf: I was in the core, a pale wound. I remade the panel. I keep offcuts of the leaf in the job folder now. A hungry flush-trim on an edge band left a crescent of core. The crescent would not stain like the face. I band thicker than a thumbnail. Iron-on tape is for a closet.
 
-Both faces, or a balanced panel from the start. One-sided veneer on a wet week cupped a door. The glue was fine. The other face was empty.
-
-## The word without the apology
-
-I say veneer when it is veneer. Solid legs, veneered panel is a lot of good furniture. A “solid oak” tag on a leaf is a problem I will not help with. “Quartered oak face, stable core” is a sentence I will stand next to. Hide and a hammer still fix a blister. PVA veneer is a fight later. I write the glue in the note on the back.
+One-sided veneer on a wet week cupped a door. The glue was fine. The other face was empty.
 
 ## This shop, this county
 
@@ -99,4 +92,6 @@ What I have in my hand is a leaf that lets me put rift stiles and a flake panel 
 
 When the press releases, I listen. A crackle can be a bond that is not a bond. A quiet panel is a quiet panel. I knock it. I look at the seams. I tape a note to the back: both faces, date, glue. The next person, sanding, might read it before they reach for 80. I hope they read it. I still sand as if they will not.
 
-A cutting surface, a child’s desk edge without a band, a wet bar without a film that can live there: I do not put a leaf. A reception desk that would be a ton in solid and a movement circus: I do. The match is layout. I spend more time on the match than on the press. A bad match in a good bag is still a bad door. The hip meets a band. That is the sentence I want in the room.
+A reception desk that would be a ton in solid and a movement circus is where a leaf earns its keep. A cutting surface, a child’s desk edge without a band, a wet bar without a film that can live there: I do not put a leaf there. The match is layout. I spend more time on the match than on the press. A bad match in a good bag is still a bad door.
+
+Hide and a hammer still fix a blister. PVA veneer is a fight later. I write the glue on the note on the back so the next repair does not start with a guess. The hip meets a band. That is the sentence I want in the room when someone asks what they are buying.

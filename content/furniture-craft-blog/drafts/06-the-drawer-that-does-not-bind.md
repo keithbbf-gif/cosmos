@@ -2,8 +2,8 @@
 title: "The Drawer That Does Not Bind"
 slug: the-drawer-that-does-not-bind
 status: draft
-voice_check: human
-word_count: 1291
+voice_check: edited
+word_count: 1182
 dek: "Runners, sides, and the particular misery of a drawer that worked in the shop and swells shut in June."
 series: furniture-craft
 topic: joinery
@@ -26,15 +26,6 @@ optional_links:
     use: footnote-only
 verify:
   - "Side-to-opening clearance used on a given case line — confirm before printing a fraction [VERIFY]"
-graphics:
-  - asset_slug: drawer-fit-shimming
-    path: assets/drawer-fit-shimming/joinery-diagram.svg
-    alt: "Drawer side clearance"
-    caption: "1–2 mm total side play; front reveal even left-right."
-  - asset_slug: seasonal-gaps-in-drawers
-    path: assets/seasonal-gaps-in-drawers/joinery-diagram.svg
-    alt: "Drawer in summer vs winter"
-    caption: "Size for mid-RH; runners take up slack."
 graphics:
   - asset_slug: drawer-fit-shimming
     path: assets/drawer-fit-shimming/joinery-diagram.svg
@@ -100,12 +91,6 @@ Stops: a block at the back so the false front does not punch through the case, o
 A half-blind dovetailed front is the drawer. A false front screwed from inside is a face you can adjust. Kitchens live on false fronts. Fine chests can go either way. If you use a false front, do not pretend the box can be sloppy. The slides still see the box.
 
 The even reveal around a bank of drawers is layout. You leave the fronts proud and sneak them as a set. You do not finish first and then discover one front is a heavy sixteenth. Or you do, once, and then you stop doing that.
-
-## June, the feeler stick
-
-If I cannot run the hornwood stick along the top of the side in the opening, I am not done, even if the false front looks like jewelry. The side is the climate object. The reveal is paint. I have fitted a drawer in January that locked in June. The gap at the top is the joint with the weather.
-
-A wide drawer without a center guide skews; I called it swelling. It was geometry. A bottom glued all around is a drum. Plywood bottoms in a kitchen are a stable answer I use without a speech.
 
 ## When I pull a drawer in a strange house
 

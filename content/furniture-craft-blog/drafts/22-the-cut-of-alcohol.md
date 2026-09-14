@@ -2,8 +2,8 @@
 title: "The Cut of Alcohol"
 slug: the-cut-of-alcohol
 status: draft
-voice_check: human
-word_count: 1248
+voice_check: edited
+word_count: 1245
 dek: "Shellac in a shop jar: a sealer, a finish, a repair ally, and a coat that still smells like a cabinet shop instead of a chemistry set."
 series: furniture-craft
 topic: finish
@@ -20,15 +20,6 @@ optional_links:
     use: footnote-only
 verify:
   - "Cut (lb/gallon) used as sealer on the line [VERIFY]"
-graphics:
-  - asset_slug: shellac-vs-polyurethane
-    path: assets/shellac-vs-polyurethane/finish-comparison.svg
-    alt: "Finish property comparison"
-    caption: "Shellac: fast repair; poly: harder film, slower spot fix."
-  - asset_slug: wax-over-shellac
-    path: assets/wax-over-shellac/finish-comparison.svg
-    alt: "Shellac then wax"
-    caption: "2–3 lb cut shellac; paste wax after cure, buff out."
 graphics:
   - asset_slug: shellac-vs-polyurethane
     path: assets/shellac-vs-polyurethane/finish-comparison.svg

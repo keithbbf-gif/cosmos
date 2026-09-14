@@ -2,8 +2,8 @@
 title: "The Dovetail That Travels"
 slug: the-dovetail-that-travels
 status: draft
-voice_check: human
-word_count: 1250
+voice_check: edited
+word_count: 1252
 dek: "A sliding dovetail on a carcase shelf or a breadboard cousin: the joint that pulls itself in and still lets the panel move if you cut the glue the way the wood requires."
 series: furniture-craft
 topic: joinery
@@ -20,11 +20,6 @@ optional_links:
     use: footnote-only
 verify:
   - "Router bit angle used on case shelves — confirm the cutter in the shop [VERIFY]"
-graphics:
-  - asset_slug: sliding-dovetail-shelf
-    path: assets/sliding-dovetail-shelf/joinery-diagram.svg
-    alt: "Sliding dovetail shelf"
-    caption: "Tail narrower at front; slide from back rail."
 graphics:
   - asset_slug: sliding-dovetail-shelf
     path: assets/sliding-dovetail-shelf/joinery-diagram.svg
