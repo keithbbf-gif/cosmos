@@ -34,4 +34,5 @@ check_site() {
 
 check_site dailyscar 9871
 check_site lmnator 9872
+node "$(dirname "$0")/tools/check-static-seo.mjs"
 echo "All site checks passed."

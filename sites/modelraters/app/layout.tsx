@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Cormorant_Garamond, DM_Sans } from "next/font/google";
+import { JsonLd } from "@/components/JsonLd";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { site } from "@/lib/site";
@@ -60,16 +61,29 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: "/",
+    languages: {
+      "en-US": "/",
+    },
+  },
+  category: "technology",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
   },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${dmSans.variable} ${cormorant.variable}`}>
+      <head>
+        <JsonLd />
+      </head>
       <body>
+        <a className="skip-link" href="#main-content">Skip to content</a>
         <div className="site-shell">
           <SiteHeader />
-          <main>{children}</main>
+          <main id="main-content">{children}</main>
           <SiteFooter />
         </div>
       </body>

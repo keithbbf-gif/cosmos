@@ -6,6 +6,8 @@ export const site = {
   description:
     "ModelRater helps teams evaluate, compare, and trust AI models through thoughtful workflows and a calm, transparent experience.",
   contactEmail: "hello@modelraters.com",
+  themeColor: "#f7f6f3",
+  alternateDomains: ["https://mdrater.com"],
 } as const;
 
 export const navLinks = [

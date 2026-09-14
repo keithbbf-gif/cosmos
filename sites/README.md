@@ -1,20 +1,39 @@
-# Product static sites
+# AI cluster marketing sites
 
-Distinct marketing packages for the AI cluster. Each site is self-contained static HTML; no COSMOS runtime dependency.
+Self-contained packages under `sites/` for the AI product cluster. No COSMOS runtime dependency. Public copy stays novelty-safe (no internal architecture or patent language).
 
-| Package | Domain | Path |
-|---------|--------|------|
-| DailyScar | [dailyscar.com](https://dailyscar.com) | `sites/dailyscar/` |
-| LMNator | [lmnator.com](https://lmnator.com) | `sites/lmnator/` |
+| Package | Domain | Stack |
+|---------|--------|--------|
+| ModelRater | [modelraters.com](https://modelraters.com) | Next.js static export |
+| MD Rater (alias) | [mdrater.com](https://mdrater.com) | Static HTML |
+| DailyScar | [dailyscar.com](https://dailyscar.com) | Static HTML |
+| LMNator | [lmnator.com](https://lmnator.com) | Static HTML |
+| BrokenTokn | [brokentokn.com](https://brokentokn.com) | Next.js static export |
+| AI Cluster hub | private staging | Static HTML (`noindex`) |
 
-Shared visual primitives live in `sites/shared/` (design tokens and base layout). Brand colors and copy stay in each package.
+## SEO
+
+- **Next.js** (`modelraters/`, `brokentokn/`): `metadata` in `app/layout.tsx`, JSON-LD via `components/JsonLd.tsx`, semantic `<main id="main-content">`, skip links.
+- **Static HTML**: canonical URLs, Open Graph, Twitter cards, and JSON-LD (`WebSite` + `Organization` on home pages) generated from `sites/shared/seo.mjs`. Refresh with `node sites/tools/apply-static-seo.mjs`; verify with `node sites/tools/check-static-seo.mjs`.
 
 ## Local preview
 
-From a site directory:
+Static HTML (from a site directory):
 
 ```bash
 python3 -m http.server 8080 --bind 127.0.0.1
 ```
 
-Open `http://127.0.0.1:8080/` (paths are relative to that site root; shared assets use `../shared/`).
+Next.js:
+
+```bash
+cd sites/modelraters && npm ci && npm run build
+```
+
+## Smoke checks
+
+```bash
+./sites/verify_sites.sh
+```
+
+Shared visual primitives: `sites/shared/` (tokens, base layout, waitlist helper).
