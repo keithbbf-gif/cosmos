@@ -3,7 +3,7 @@ title: "A Drawer That Bows"
 slug: a-drawer-that-bows
 status: draft
 voice_check: human
-word_count: 1210
+word_count: 1372
 dek: "A bow-front drawer is a curve you can see and a pair of dovetails that still have to meet a straight side. The front is coopered or bent. The pins do not get to pretend the world is square."
 series: furniture-advanced-joinery
 topic: compound-dovetails
@@ -77,6 +77,14 @@ I traced tails onto a front that was still a little proud of fair. The sockets f
 I also glued a coopered front with a stave joint landing in a pin. The chisel picked the glue line and the pin wall came out in two species of stubborn. Move the stave joint, or move the pin.
 
 Steam-bending a solid front and then dovetailing it is possible. The springback will move your end angles if you mark before it finishes moving. I wait. [VERIFY] a shop moisture and wait time before anyone prints a schedule.
+
+## A cradle for the transfer
+
+The tool that makes the pin transfer honest is a cradle that holds the bow so the front cannot rock while I knife from the tails. I cut it from a scrap of the same curve — leftover from the form, not a guess — and I clamp the side to the front with the inside faces where I can see them. A second pair of hands is a luxury. The cradle is a habit.
+
+I wait on a steamed or laminated front until a batten likes the face and the ends have stopped walking. [VERIFY] a wait before anyone prints a schedule. I have marked a front that was still smiling from the form, then watched the ends come back a hair and take my pin lines with them.
+
+What I want from `D:\BBF`: the smile meeting a straight side, pins chopped, and the front on the form before any gauge line. No invented file.
 
 ## The judgment
 

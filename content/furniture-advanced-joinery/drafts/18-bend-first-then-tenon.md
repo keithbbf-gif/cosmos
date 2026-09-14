@@ -3,7 +3,7 @@ title: "Bend First, Then Tenon"
 slug: bend-first-then-tenon
 status: draft
 voice_check: human
-word_count: 1204
+word_count: 1544
 dek: "A laminated or steamed rail that is tenoned while it is still straight is a rail whose tenons will point at yesterday. Bend, wait, then cut."
 series: furniture-advanced-joinery
 topic: curved-work
@@ -62,60 +62,42 @@ I tenoned first on a laminated apron because I wanted to use the tenoner while i
 
 I also marked shoulders from the drawing after a steam bend without offering the rail to the posts. The drawing did not include the springback I actually got. The posts did.
 
-<!-- PACK-EXPANSION -->
+## Two waits, and a pair of posts that stay put
 
-## A story frame
+On the form, then off the form. The first wait is obvious. The second wait is the one that feels like idling. The rail is still giving back a little length and a little smile. I sticker it next to the posts so they share the same air in the 65-foot shop — not in a closed box on one end of the glass wall and a kiln pile on the other. A rail that is still wet will shrink after you tenon, and then the shoulders will be in a different place than the mortises.
 
-I keep a pair of posts, or a plywood stand-in of the posts, at the spacing of the chair. After the rail dries, I offer it to that frame and I mark. The frame is cheaper than a wrong tenon on a rail I already steamed.
+I will not print a moisture number as house law. [VERIFY]. I will print the habit. Meter the rail. Meter the posts. Same country. Then mark.
 
-If I do not have a frame, I have the actual posts, and I clamp them to the bench at the spacing. The rail comes to them. They do not come to a memory of the rail.
+I keep a pair of posts, or a plywood stand-in of the posts, at the spacing of the chair. After the rail dries, I offer it to that frame and I mark. The frame is cheaper than a wrong tenon on a rail I already steamed. If I do not have a frame, I clamp the actual posts to the bench at the spacing. The rail comes to them. They do not come to a memory of the rail.
 
-## Moisture
+## A shoulder stick, not a tape
 
-A meter on the rail and a meter on the posts. Same country. I will not print a number as house law. [VERIFY]. I will print the habit. A rail that is still wet will shrink after you tenon and then the shoulders will be in a different place than the mortises. Wait.
+The tool that is not already in this essay is a shoulder stick — a thin batten with the post spacing scribed on it, and a pair of sliding fences I pinch with a thumbscrew once the live rail has spoken. I offer the rail to the posts. I knife the shoulders on the rail. I transfer those two knives to the stick. The stick is the drawing from then on. The paper drawing is retired.
 
-## Machines after the bend
+I have marked from a tape after a bend and then wondered why one tenon was fat and the other shy. A tape measures a chord. The shoulder lives on a curve. The stick takes the two points the posts actually gave me.
 
-A tenoner wants a straight stick. A bent rail on a tenoner is a rail you have to cradle so you are not flattening the bend to please the machine. If I cannot cradle it, I mortise for a loose tenon after the bend. The loose tenon is a stick the tenoner can still like.
+When I recut, I recut to the stick, not to the old knife lines on a rail I am about to throw in the burn pile. I once steam-bent a pecan crest, marked from the paper, cut tenons, and found both ends short of the posts by enough that a longer tenon would have been fiction. I cut a new blank. I bent it on the same form. I waited both waits. I marked from the posts onto a new stick. The second crest fit. The first one is a clamp caul now, which is a kind of honesty.
+
+## Cradles that do not flatten the smile
+
+A tenoner wants a straight stick. A bent rail on a tenoner is a rail you have to cradle so you are not flattening the bend to please the machine. I keep two shaped scraps that match the rail’s curve — cut from the same form, not from a guess — so a sled can see a straight world without asking the rail to become yesterday’s stick.
+
+If I cannot make those cradles in the time it takes to set up a mortiser, I switch. I mortise the rail end after it has moved, and I use a loose tenon. The loose tenon is a stick. Sticks can go to the machine. The rail stays a curve.
+
+I have also cut cheeks on the bandsaw with the rail standing in a birdsmouth, the smile pointing up, a sacrificial fence behind the cut. That is slower than a tenoner and kinder than a clamp that squishes the belly flat. The cheek that comes off a flattened belly is a cheek for a flatter chair.
+
+## Humidity is a change of address
+
+Steam leaves water. Laminating glue leaves water. Both of those waters leave the rail after you think the shape is done. Oak and pecan do not give it back on the same afternoon. [VERIFY] species notes before anyone captions a schedule. A rail stickered on the form overnight and tenoned at first light is a rail whose shoulders will walk toward the posts as it dries, or walk away, depending on which face was the stretch.
+
+I watch length, not just smile. I put a pencil tick on the story frame at the day-one landing. If the tick and the rail disagree after the second wait, I mark again. I do not “split the difference” with a shorter tenon and a fatter glue line.
+
+A house in Warren in August will take more water than the shop on a dry January morning. If I tenon to a shop-dry rail and the chair later lives through a rain week, the rail can plump and shove the posts. If I tenon while the rail is still proud of the posts’ moisture, the shoulders open. The sequence includes the weather. The saw does not.
 
 ## What I want from D:\BBF
 
-Long blank on a form, no tenons. The same rail later, tenons cut, against the posts. Two frames, one sequence.
-
-## Habit
-
-“I always tenon first” is a habit for straight rails. It is not a principle. Principles survive a bend. Habits do not. I had the habit. I have the scrap pile to prove it.
-
-<!-- PACK-W2 -->
-
-## Overbend only with scrap
-
-A production overbend is a number from a pile of broken and measured rails. A one-off overbend is a guess. I do not guess a one-off. I wait and I mark.
-
-<!-- PACK-W2L -->
-
-## Shop morning, bent rail
-
-Blank long, no tenons. Bend. Wait on the form. Wait off the form. Meter against the posts. Offer to the story frame. Mark shoulders. Cradle the curve if a machine must cut. Or loose-tenon after the move. I do not flatten a bent rail to please a tenoner.
-
-<!-- PACK-W3 -->
-
-## Two waits
-
-On the form, then off the form. People skip the second wait because the rail looks like the drawing. The rail is still arguing. Tenons cut in that argument point at yesterday. I have the scrap to prove it.
-
-I will not tenon a one-off first because the tenoner is warm from a square table. Warm machines are not a sequence.
-
-<!-- PACK-W4 -->
-
-## Cradle scraps
-
-I keep two shaped scraps that match the rail’s curve so a sled or a tenoner can see a straight world without flattening the bend. If I cannot make the cradle in ten minutes, I switch to a loose tenon and I mortise the rail after it has moved. The loose tenon is a stick. Sticks can go to the machine.
-
-<!-- PACK-W5 -->
-
-The second wait is the one that feels like idling. It is not idling. The rail is still giving back a little length and a little smile. I sticker it next to the posts so they share the same air. If I rush the mark, I mark a rail that will not be this rail tomorrow. I would rather lose an afternoon than recut a crest I already like.
+The long blank on the form, horns still on, no shoulders. The same rail later against the posts, tenons cut, the shoulder stick in the frame if we have that honesty. Two photographs, one sequence. Filename pending the pull. Photographer unnamed until the file says so.
 
 ## The judgment
 
-Bend first, then tenon. Wait until the rail is in the same moisture country as the posts. Mark from the posts. The saw is invited last. If that slows you down, it is supposed to. The faster sequence is how you build a chair for last night.
+Bend first, then tenon. Wait until the rail and the posts are in the same moisture country. Mark from the posts onto a stick you can hold. Cradle the curve if a machine must cut, or mortise for a stick after the move. A warm tenoner is not a sequence. It is a temptation with a motor. The faster order is how you build a chair for last night.

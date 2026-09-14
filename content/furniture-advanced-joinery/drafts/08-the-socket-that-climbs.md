@@ -3,7 +3,7 @@ title: "The Socket That Climbs"
 slug: the-socket-that-climbs
 status: draft
 voice_check: human
-word_count: 1256
+word_count: 1718
 dek: "A compound sliding dovetail is a shelf or rail that does not meet the case at ninety. The socket climbs, the tail has two slopes, and a square bit is the wrong religion."
 series: furniture-advanced-joinery
 topic: compound-dovetails
@@ -72,42 +72,40 @@ I set the saddle to the case edge instead of the level line. The shelf sat on a 
 
 I also glued a full-length tail on a solid canted side because the dry-slide felt “too loose” at the back. The side opened along the socket in the first summer. Loose at the back is often the movement allowance you were afraid of. A little shine on the tail is a passing grade. A split is not.
 
-<!-- PACK-EXPANSION -->
+## A saddle with a vial in it
 
-## Saddle from a level line
+The second saddle I built has a cheap line level let into a mortise on the top face, the vial parallel to the fence edge. I set the case side on the bench against a block that holds the cant, I clamp the saddle to the inside face, and I tap until the bubble sits. Then I lock the clamps. If I set by eye against the case edge I am back to the pencil-rolling shelf.
 
-I clamp a straightedge to the inside face so its edge is the shelf’s world, not the case edge’s world. I run the bit in that saddle, shallow first. I check depth at both ends of the climb. The thin end of a cant is where show faces die.
+The fence edge is a strip of maple, planed straight, screwed from the waste side so a bit nick does not become a dip I will copy into every socket. A guide bushing rides that maple. I run the bit 1/8 first and I check depth at both ends of the climb with a depth gauge dropped through a hole I drilled in the saddle at each end. The two readings have to match. If they do not, the saddle is twisted or the inside face has a hill. Flatten the face before you deepen the cut.
 
-The shelf is cut long. I scribe from a case that is already a case. Two sides in a rack are not a case.
+I mark the show-edge stop on the saddle with a pencil tick that I can see without pulling the router. The bit dies on that tick. The last 1/8 of the stop wall is a chisel job, registered to a knife line on the inside face. A router asked to make a pretty stop on a climbing cut will blow the downhill arris.
+
+## The lectern dry-fit I kept
+
+I cut a practice lectern side in white oak — a shop sample, not a named commission — with a single climbing socket for a reading shelf. The case was two sides and a back, strapped so it could stand. I scribed the shelf from that assembly. The first tail had the dovetail slope and forgot the case slope; the shelf sat on two floors, high at the front. I recut the tail from a second blank I had left long on purpose. The first tail became a story stick: I traced its end onto the new board and I added the missing bevel with a block plane, checking against the case with each shaving.
+
+The dry-slide still stuck at four inches. I had not flattened the shelf. A cup in a climbing socket is a jam at one arris and a light gap at the other. I took the shelf back to the sticks, I planed the cup out, and then the tail went. Flatten first, then scribe, then slide. I wrote that on the sample in pencil. The pencil is still there.
+
+If the shelf rolls a pencil after the slide, I do not call the slope a design. I recut. A design slope is a line I drew. A pencil rolling toward the reader is a saddle I set to the wrong world.
+
+## Oak that cooks, then rains
+
+White oak sides in Warren will still move across their width when the glass wall cooks the bench and then a rain week walks in off the Saline bottoms. A climbing socket is a long wound in that side — longer than a square sliding tail, because the path is a hypotenuse. More wound, more chance the side opens along the socket in August.
+
+I leave the back of the tail able to shine. I glue the front third so the show reveal stays shut when a hand pulls a book. Loose at the back on a solid cant is the allowance. A split follows the socket like a creek, and on a lean it reads as a lightning bolt someone meant.
+
+Painted pine is a dado job wearing a costume. Paint hides the blowout until the first move. I dado pine and I sleep.
+
+## Depth that is not an average
+
+Constant depth from the inside face still means leftover meat changes as the cant thins. I measure that meat at both ends with a marking gauge riding the *show* face. If the thin end cannot keep it, I move the shelf down or I shallow the whole socket. I do not average.
+
+A square bit in a climbing socket leaves walls that are not the dovetail you think you cut. I keep the dovetail bit and I accept that the saddle is the job.
 
 ## What I want from D:\BBF
 
-The saddle on a leaning side. A level sitting on a dry-fit shelf. A show-edge stop that did not blow.
+The saddle on a leaning side, vial visible, maple fence toward the camera. A level sitting on a dry-fit shelf that does not roll a pencil. A depth gauge in the two holes at the ends of the climb, same reading. A show-edge stop that did not blow. The oak sliver plug only if we are teaching the wink — I would rather pull a clean stop. Filename pending a real shop pull.
 
-## Dado, again
+## Next time
 
-If I do not need a clean cheek, I dado and I sleep. This joint is for the shelf that is also a rail. The craft-pack sliding tail remains the square default.
-
-<!-- PACK-W2 -->
-
-## Shelf as a beam
-
-I check the shelf for cup before I cut the compound tail. A cupped shelf in a climbing socket is a jam at one arris and a gap at the other. Flatten first, then scribe, then slide.
-
-<!-- PACK-W2L -->
-
-## Shop morning, canted shelf
-
-Case sides closed enough to be a case. Level line on the inside. Saddle to that line. Shallow pass, then depth from the thin end. Shelf long, scribed. Glue a third. If the shelf rolls a pencil I recut. I do not call a slope a design unless I drew it.
-
-<!-- PACK-W3 -->
-
-## Oak in a leaning case
-
-White oak sides in this county will still move across their width when the glass wall cooks the bench and then a rain week walks in. A climbing socket is a long wound in that side. I leave the back of the tail able to shine. Shine is not a split. A split follows the socket like a creek. I would rather a customer ask why the back of the shelf looks burnished than why the case opened.
-
-I will not cut this joint in a painted pine bookcase that is really a dado job. Paint does not cancel a compound tail. It hides the blowout until the first move.
-
-## The judgment
-
-A climbing socket is a level shelf in a leaning world. Parallel to the shelf, constant depth, glue in a third. The craft-pack sliding dovetail still applies; the cant just revoked your right to a square fence. If that sentence feels like too much work, dado it and go flatten a top. If the case has to carry itself without screws in the cheek, build the saddle and climb.
+I close the case until it is a case before I cut a tail. I set the saddle to the shelf’s world. I flatten the shelf. I check depth at both ends before the last pass. If I do not need a clean cheek, I dado. The climbing socket is for the shelf that is also a rail, the case you will drag, the cheek you will not plug. It earns its morning. It does not earn a second morning spent pretending a slope was what you meant.

@@ -3,7 +3,7 @@ title: "A Tail That Follows the Bow"
 slug: a-tail-that-follows-the-bow
 status: draft
 voice_check: human
-word_count: 1210
+word_count: 1479
 dek: "A sliding dovetail that is not straight in plan — a bowed rail, a curved divider — is a socket you cannot run with a straight fence. The tail has to be fair, and so does the hole."
 series: furniture-advanced-joinery
 topic: curved-work
@@ -58,68 +58,46 @@ I cut a straight socket and a curved rail and I called the gaps “shadow.” Th
 
 I also glued the whole smiling run on a solid side. The side split along the smile, which is a prettier split than a straight one and just as final. Glue a third.
 
-<!-- PACK-EXPANSION -->
+## One template, a depth block, and a pair of starting wedges
 
-## A template I would keep
-
-I fair a 1/4-inch template of the bow until a batten likes it. I use that template for the socket floor in the side and for the tail on the rail. If I fair them separately, I have two smiles. Two smiles do not slide.
-
-The router plane on the socket is slow and it is the only tool that will tell me the floor is even. A chisel alone will leave a stair. A stair catches a tail.
-
-## When a trammel is honest
-
-If the bow is a true radius, a trammel is the adult. I set it from the same center I used on the drawing. I do not set it from a center I invented at the bench because the drawing was in the other room. The drawing comes to the bench.
-
-If the bow is a fair that is not a radius, the template is the adult. A trammel on a fair that is not a radius is a different smile.
-
-## Glue third, still
-
-The side moves. The smile does not cancel August. I glue a front third or I glue nothing if the case travels. I do not glue the whole smile. I already wrote the split that follows the smile. It is prettier than a straight split and just as final.
-
-## What I want from D:\BBF
-
-The smiling socket, empty. The tail on the rail. A dry-slide halfway, the friction visible in the face if the light is kind.
-
-## Applique, again
-
-A curved stretcher glued onto a straight rail that is sliding-dovetailed as a straight tail is a different, easier, often better joint. I will do that when the curve is a look. I will cut the smiling socket when the rail’s strength is the curve. The distinction is the whole reason this essay exists next to the craft-pack sliding dovetail.
-
-<!-- PACK-W2 -->
-
-## One taper
-
-I may tighten the tail toward the show. I will not taper both the tail and the socket. Two tapers is a joint that only goes together once, in one shop, at one moisture.
-
-<!-- PACK-W2L -->
-
-## Shop morning, smiling socket
-
-One template for socket and tail. Router plane the floor. Stop the show. Glue a third or glue nothing. Dry-slide. If I cut a straight socket for a curved rail I recut the socket. I do not call the gaps shadow. Gaps are gaps.
-
-<!-- PACK-W3 -->
-
-## Two smiles
-
-A socket faired by eye and a tail faired by a different batten are two smiles. They do not slide. One template. A router plane on the floor. I will not call gaps at the fat of the bow a shadow line. I recut.
-
-I will not glue the whole smile on a solid oak side. August already wrote that split. It follows the curve. People will think it is a design. It is not.
-
-<!-- PACK-W4 -->
-
-## Router plane floor
-
-I chase the socket floor with a router plane until a batten of the template sits without a rock. A chisel stair in a smiling socket is a jam at the fat. Wax after the floor is fair, not before, or I will polish a stair and call it slick.
-
-<!-- PACK-W5 -->
+I fair a quarter-inch template of the bow until a batten likes it. I use that template for the socket floor in the side and for the tail on the rail. If I fair them separately, I have two smiles. Two smiles do not slide.
 
 I refuse a second template “for the tail only.” That is how two smiles are born. One template, both parts, the same day. If I lose the template I recut it from the rail that already is, not from a memory of the drawing. Memory makes a straighter bow. Straighter bows jam at the fat.
 
-<!-- PACK-W6 -->
+The tool that is not already in this essay is a pair of starting wedges and a depth block for the router plane. The depth block is a scrap the thickness of the finished socket floor. I set the plane to it once. I do not chase the iron by eye around a smile. A chisel stair in a smiling socket is a jam at the fat. The wedges start the tail into the socket so I am not hammering a curve into a corner. A mallet on a bowed tail is how you bruise the show and still do not know if the floor is fair.
+
+If the bow is a true radius, a trammel is the adult. I set it from the same center I used on the drawing. The drawing comes to the bench. A trammel on a fair that is not a radius is a different smile.
+
 I stop the show edge with a chisel after the router, the same as a square sliding tail, because the smile does not cancel a blown corner. A blown smiling corner is a darker hole. I would rather a shoe at the stop than a hole from the sofa.
 
-<!-- PACK-W7 -->
-I wax after the dry-slide, not before the first try, so I can still feel a stair in the socket floor. Slick on a stair is a jam I will blame on humidity.
+## The recut after I called the gaps shadow
+
+The first time I cut this joint I cut a straight socket because the fence was already on the router table. The rail was a bow. The meeting was two points and a grin I named shadow. I recut the socket to the template. The side then had two wounds: the straight trench and the smile that crossed it. I plugged the straight trench with a matching strip, I let it sit, I recut the smile through the plug. You can see the plug if you know. The sofa does not have to know. I would rather have designed once.
+
+Dry-slide halfway, no wax yet. I want to feel a stair. Wax after the floor is fair, not before the first try. Slick on a stair is a jam I will blame on humidity. I chalk the fat of the bow where it hangs. I pull the rail. I take the floor down with the router plane to the depth block. I slide again. I do this until the chalk has nowhere to go and the show edge is still stopped.
+
+I may tighten the tail toward the show. I will not taper both the tail and the socket. Two tapers is a joint that only goes together once, in one shop, at one moisture.
+
+## Glue a third, and know when to refuse the smile
+
+The side moves. The smile does not cancel August. I glue a front third or I glue nothing if the case travels. I do not glue the whole smile. The split that follows the curve is prettier than a straight split and just as final. People will think it is a design. It is not.
+
+A curved stretcher glued onto a straight rail that is sliding-dovetailed as a straight tail is a different, easier, often better joint. I will do that when the curve is a look. I will cut the smiling socket when the rail’s strength is the curve. The distinction is the whole reason this essay exists next to the craft-pack sliding dovetail.
+
+I hold the side in the vise with a curved caul — a scrap of the same template, corked — so the clamp does not flatten the board I am about to cut a smile into. Flattening the side to please a clamp is a straight socket with extra steps.
+
+## Humidity is a jam at the fat
+
+A bowed rail still moves across its width and it can change its smile as it dries. I cut the tail after the rail has lived with the side, same air, same week, along the glass wall if I can. A wetter rail in a drier oak side will shrink and hang at the fat. A drier rail in a side that then takes a South Arkansas rain week will swell and jam at the same place.
+
+I do not print a moisture pair. [VERIFY]. I do print the order: fair the template, wait the rail and the side into the same country, then cut both from the one template. Wax after the dry-slide, not as a substitute for a fair floor.
+
+Pecan rail, oak side: they will not keep the same calendar. I meter them or I pick one species. A pretty pairing that jams in June is a pairing I will take apart in the house.
+
+## What I want from D:\BBF
+
+The smiling socket empty, template in the frame. The tail on the rail. A dry-slide halfway, the friction visible in the face if the light is kind, the starting wedges still in the shot. Filename pending the pull. Photographer unnamed until the file says so.
 
 ## The judgment
 
-A tail that follows the bow is a socket you fair, not a fence you clamp. Use it when the rail *is* the curve. If the curve is an applique, apply it. The craft-pack sliding dovetail remains the default for straight country. This joint is for the smile you cannot fake with a shadow.
+A tail that follows the bow is a socket you fair, not a fence you clamp. Use it when the rail *is* the curve. If the curve is an applique, apply it. A smile you cannot slide is two drawings pretending to be one. The craft-pack sliding dovetail remains the default for straight country. This joint is for the smile you cannot fake with a shadow.

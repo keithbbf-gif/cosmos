@@ -3,7 +3,7 @@ title: "Staves That Make a Door"
 slug: staves-that-make-a-door
 status: draft
 voice_check: human
-word_count: 1200
+word_count: 1746
 dek: "A coopered door is a barrel that learned to hang. The staves are the curve. The joints between them are long-grain, and the frame still has to let the barrel move."
 series: furniture-advanced-joinery
 topic: curved-work
@@ -72,34 +72,38 @@ I glued the skin into a square frame with glue on the panel edge because it ratt
 
 I also under-bevelled two staves and filled the gap with glue. Glue is not a stave. The gap telegraphed as a dark line after oil. Plane the bevel. Do not grout a barrel.
 
-<!-- PACK-EXPANSION -->
+## The long shooting board
 
-## Frame first or skin first
+The stave shooting board is a six-foot pine plank with a stop at one end and a fence that I can shim. I plane the bevel with the stave on its edge, the plane on its side, the way a door-edge joint is shot. The last shaving should be full length. A shaving that dies in the middle leaves a high spot that will print as a flat after glue.
 
-I like to have the square frame true, grooves cut, before I glue the barrel, so I can size the skin to a groove that exists. A skin first is a skin I will then force a frame around. I have done both. I like frame first.
+I spring the joint the same way I spring a tabletop: two or three light hollows in the middle with a jointer plane, ends touching. On a stave the hollow is easy to overdo because the edge is short. I check with a straightedge and I err toward almost-straight. Too much spring and the middle never shuts on the form; the strap then closes a grin that is all glue.
 
-The groove may need to be widened in the middle if the panel’s thickness is the chord of a curve. I dress the panel edges to a thickness the groove can live with. I do not glue the panel edge. The rattle in January is the door in August.
+The form ribs are plywood, the curve drawn from a thin batten I bent to the rise I wanted. I do not trust a fairing I drew with a compass on a door this wide — the compass is a circle, the door is a shallow arc, and they are not the same pride. I staple the batten, I mark, I bandsaw, I clean the rib with a spokeshave until the batten lies down without light.
 
-## Hinge meat
+## The grout line I recut
 
-The first stave, if it is the stile, gets extra width. A hinge in a bevel joint is a hinge in a glue line. I have seen the leaf open the stave. Mortise in square country.
+I built a practice door for a small wall cabinet — white oak, eight staves, shop sample — and I got impatient with two bevels that still showed a thread of light on the form. I glued it anyway and I told myself the squeeze-out would fill. After oil, under the glass wall, those two joints were dark hairs the length of the door. I sawed the skin apart along those joints, I reshot the bevels until the dry-stack went dark by itself, and I glued again. The second oil did not draw a map.
+
+That recut taught me to dry-stack with a light behind the form. If I can see the window through a joint, the joint is not shut. Tape on the outside can hide a grin you will pay for later. I look from the hollow.
+
+I now like to have the square frame true, grooves cut, before I glue the barrel, so I can size the skin to a groove that exists. A skin first is a skin I will then force a frame around. I have done both. Frame first means I can dress the panel edges to a thickness the groove can live with — the thickness at the edge is a chord of the curve, fatter than you think if you only measured the stave at the belly. I sneak those edges with a rabbet plane until they slip, and I do not glue them.
+
+## Belly in a rain week
+
+White oak staves in Wilmar still move across their width. A coopered skin is a lot of small widths adding up to a barrel that wants to flatten or belly when the shop goes from a cooked January afternoon to a rain week off the river. Inside a grooved frame, that movement is a slide. Glued at the edge, it is a split in the middle stave.
+
+The barrel-as-door version changes its belly in the opening. I finish the hollow and the show the same week so one face does not pull the other. A pantry in a wet kitchen will still swell toward the strike. I shape the strike to the curve with a rasp. A flat strike on a belly is a point that chips a stave.
+
+If the first stave is the stile, I leave it extra wide and I keep the outer edge square before I shoot the inner bevel. The mortise lives there. A leaf that lands on a stave joint will open the barrel.
+
+## Compass plane and the batten
+
+After glue I fair with a compass plane set to a radius a little tighter than the door, then a curved scraper. I check with the same batten I used for the ribs. The batten does not lie. My eye will call a proud stave “figure.” The batten will click. I stop when the batten whispers the whole width. Glass-wall raking light is the exam after oil. I would rather find the flat now.
 
 ## What I want from D:\BBF
 
-Dry-stack on a form. The hollow, inside. A hinge stile that is obviously a board.
+Dry-stack on the form, light behind the joints, no window showing through. The long shooting board with a stave on edge. The hollow, inside, after the compass plane. A hinge stile that is obviously a board, mortise in square grain. A frame already true with the skin rattling a little in the groove. Filename pending shop pull.
 
-<!-- PACK-W2 -->
+## Next time
 
-## Catch
-
-A flat strike on a belly is a point. I shape the strike or I use a catch that can forgive a little movement. The door will move. The catch should not be a grudge that chips a stave.
-
-<!-- PACK-W2L -->
-
-## Shop morning, barrel door
-
-Form. Staves sprung. Dry-stack shuts. Glue. Fair with a batten. Frame already true, grooves waiting. Panel edges dressed to the groove. No glue on the panel edge. Hinge in square meat. Catch that forgives a belly. A rattle in January is a passing grade.
-
-## The judgment
-
-A coopered door is a barrel you hang. Long-grain stave joints, a form you trust, and a frame (or a square first stave) that lets the barrel be wood. If you want a curve without stave politics, laminate. If you want the look of a small cask on a cabinet, cut bevels until the dry-stack shuts and then treat the panel like a panel, not like a prisoner.
+I cut bevels until the dry-stack shuts without grout. I size a panel to a groove that already exists. I let January rattle. I keep iron in square meat and I shape the strike to the belly. If I want a curve without stave politics I will laminate. If I want the look of a small cask on a cabinet, I will treat the barrel as a panel that is allowed to remain wood — hung, not jailed.

@@ -3,7 +3,7 @@ title: "A Column from Staves"
 slug: a-column-from-staves
 status: draft
 voice_check: human
-word_count: 1214
+word_count: 1469
 dek: "A staved cylinder is a coopered door stood on end and asked to be a post. The joints are long-grain; the load is compression; the top still needs a block that is not a wish."
 series: furniture-advanced-joinery
 topic: curved-work
@@ -60,65 +60,48 @@ I screwed a top into stave ends. It held for the photograph. It did not hold for
 
 I also glued a skin hard to a solid core and the drum opened a stave in the first summer. Glue at the ends. The middle can shine a little. Shine is not a split.
 
-<!-- PACK-EXPANSION -->
+## Discs, a strap, and a long plane
 
-## Building the sleeve so it stays a circle
+I cut the staves from one board when I can so the color agrees as you walk around. I dry-stack on a pair of plywood discs that are the inside diameter. I letter the discs so I use the same pair at top and bottom. A random disc is a random diameter. An accidental cone is a block that will not sit.
 
-I cut the staves from one board when I can so the color agrees as you walk around. I dry-stack on a pair of plywood discs that are the inside diameter. I sneak the last pair. I glue with a strap and I leave the discs in if they will come out later, or I use outside cauls. A drum that dries oval is a drum you will fair into a thinner oval.
+The tool that is not already in this essay is a long plane on a shooting board I tip to the stave bevel. Table-saw bevels get me close. The long plane makes the face a plane so the glue line is a line, not a scallop that will telegraph after oil. I sneak the last pair on that board, not on optimism.
 
-I check the diameter at top and bottom. A cone is a design. An accidental cone is a block that will not sit.
+I glue with a strap and I leave the discs in if they will come out later, or I use outside cauls. I check the strap. A drum that dries in a strap that was tighter on one side is an oval in the morning. I check diameter at two heights with a stick I keep for this — not a tape around the belly. A tape around an oval will lie and call itself a circle.
 
-## The block, in more detail
+I oil the inside of the sleeve before the rod goes home so I am not oiling a tube I cannot reach. The inside still weathers. A raw inside and a finished outside is a cup in a circle. I do not need the inside pretty. I need it even.
+
+## The recut when the drum went cone
+
+I dry-stacked eight oak staves, glued, and found the top mouth a quarter smaller than the bottom. The last pair had been sneaked from the bottom’s gap. The top had been already shut. I had built a cone.
+
+I could not fair a cone into a cylinder without making a thinner cone. I split the glue on one joint — hide, luck, a wedge — and I recut that pair from a leftover of the same board. I dry-stacked again with both discs in, and I sneaked while both mouths were open. The second drum sat. The first one is a lamp, which is what a pretty drum becomes when it nods.
+
+When I recut now, I dry-fit with both discs in and a diameter stick across each mouth before I mix glue. If the sticks disagree, I sneak again. I do not glue a disagreement.
+
+I letter the top and bottom of the sleeve so the rod goes home the same way it did in the shop. A slight cone will sit only one way. The letters save a reverse that cracks a block.
+
+## The block after the drum is true
 
 The top block can be a disc let into a rabbet I cut after the drum is true. I cut that rabbet on the router table with the drum running against a bearing, or I work it by hand if the drum is too precious for a machine. The block is screwed from below into long grain I left, or it is through-bolted to the foot-block with the rod.
 
 A solid core: I turn or I eight-side a post, I fit the sleeve, I glue at the top and bottom thirds, and I leave the middle able to shine. A fully glued sleeve on a core is the split I already owned.
 
-## Load
-
 Compression is kind to a ring if the load is centered. A dining top is not centered when a person sits on the edge. The rod and the blocks keep the ring from going oval. The staves alone will try. I do not ask them to try alone.
+
+I lean on the spider before the top goes on. If it nods, the feet or the block, not a flute I have not cut yet. Flutes on an oval are a second language I did not mean to speak. If the drum is still a hex of flats, I either own the flats as a design or I keep fairing. I fair with a batten around the drum, not with a belt sander I cannot see around a curve.
+
+## Humidity is an oval you did not glue
+
+August in South Arkansas will swell a raw inside if the outside is already oiled. That cup in a circle is a stave joint in shear. I finish inside and out, even if the inside is a dark tube no diner will praise.
+
+A fully glued skin on a solid core is the other weather problem. The core and the sleeve do not move together. The sleeve wants to get away. I glue at the ends. The middle can show a hair of light and still be a column.
+
+Oak staves and a walnut block are a pairing I will meter, not assume. [VERIFY] before a caption names a moisture. The habit: the drum and the blocks wait in the same air by the glass wall, then the rabbet, then the rod. A wet drum shrunk onto a dry block is a crack that follows a stave.
 
 ## What I want from D:\BBF
 
-The hollow, clamp marks still visible. The block in the rabbet. A diameter stick across the mouth.
-
-## Flutes after truth
-
-I flute a circle. I do not flute an oval I am ashamed of. If the drum is still a hex of flats, I either own the flats as a design or I keep fairing. Flutes on flats are a different language.
-
-<!-- PACK-W2 -->
-
-## End-grain screws
-
-I will not screw a top into stave ends and call it a table. I already did. The block or the rod is the joint. The hollow is the dress. I keep those names straight when someone sits on a corner.
-
-<!-- PACK-W2L -->
-
-## Shop morning, staved post
-
-Staves from one board. Dry-stack on discs. Sneak the last pair. Strap. Check diameters. Rabbet. Block. Rod. Oil the inside. Lean on the spider before the top goes on. If it nods, the feet or the block, not the flute I have not cut yet.
-
-<!-- PACK-W3 -->
-
-## Oval in the night
-
-A drum that dries in a strap that was tighter on one side is an oval in the morning. I check the strap. I check diameters at two heights. An accidental cone is a block that will not sit.
-
-I will not flute a drum I am ashamed of. Flutes on an oval are a second language I did not mean to speak.
-
-<!-- PACK-W4 -->
-
-## Discs and a strap
-
-Two plywood discs and a strap are the clamp. I letter the discs so I use the same pair. A random disc is a random diameter. I fair with a batten around the drum, not with a belt sander I cannot see around a curve.
-
-<!-- PACK-W5 -->
-
-I oil the inside of the sleeve before the rod goes home so I am not oiling a tube I cannot reach. The inside still weathers. A raw inside and a finished outside is a cup in a circle. I do not need the inside pretty. I need it even. Then the block, then the rod, then a lean on the spider.
-
-<!-- PACK-W6 -->
-I letter the top and bottom of the sleeve so the rod goes home the same way it did in the shop. A sleeve that is a slight cone will sit only one way. The letters save a reverse that cracks a block.
+The hollow with clamp marks still visible and both discs in the mouths. The block in the rabbet. A diameter stick across the top. Filename pending the pull. Photographer unnamed until metadata is pulled.
 
 ## The judgment
 
-A column from staves is a sleeve. Build the sleeve well — the door essay’s bevels still apply — and then put a block or a rod in it that can take a table. The hollow is pretty. The block is the joint. Do not confuse them when someone sits on the corner.
+A column from staves is a sleeve. Build the sleeve well — the door essay’s bevels still apply — and then put a block or a rod in it that can take a table. The hollow is pretty. The block is the joint. A pretty drum that nods is a lamp. A table has to take a corner sit. Do not confuse dress and joint when someone sits on the corner.

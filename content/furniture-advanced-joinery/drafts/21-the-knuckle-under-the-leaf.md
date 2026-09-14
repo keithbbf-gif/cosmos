@@ -3,7 +3,7 @@ title: "The Knuckle Under the Leaf"
 slug: the-knuckle-under-the-leaf
 status: draft
 voice_check: human
-word_count: 1213
+word_count: 1504
 dek: "A rule joint is a pair of matched profiles that hide a hinge. When the leaf drops, the knuckle stays in the dark. When the leaf lifts, the table is one top if you cut the cove to the pin."
 series: furniture-advanced-joinery
 topic: curved-work
@@ -64,55 +64,42 @@ I also cut the joint on the finished top first “to save time.” The scrap met
 
 A cheap hinge with a pin that wandered along its length gave me a cove that was right at one end and wrong at the other. Buy the hinge you will keep, then cut.
 
-<!-- PACK-EXPANSION -->
+## A pin block and a scrap that hangs on a nail
 
-## Scraps of the same thickness
+The tool that is not already in this essay is a pin block: a scrap the thickness of the top, with the hinge I will keep already mortised, and a pencil line on the edge that is the pin’s center. I hang that scrap on a nail over the bench. Catalog bits lie. The pin in the hinge I bought does not. I set the cove cutter to the block, I cut the scraps, I swing them. When the iron disappears and the fillet still has a square, I may touch the real top.
 
-I mortise the hinges on scraps, I swing them, I cut the cove and the thumb on the scraps until the scrap joint shuts and the iron disappears. Then I touch the real top. The catalog picture of a bit is not the pin in my hinge.
+I put the pin block next to the real top so I cannot “improve” the bit height. Improvement is how the iron shows.
 
-Tearout on a cross-grain top: backup, a light last pass. A fillet so the joint has a place to hide a small disagreement.
+I mortise the hinge with a router plane after I waste the pocket with a drill or a small router. The router plane keeps the floor flat. A wandering floor tilts the pin along its length, which is the cheap-hinge problem bought with a chisel. The pin has to be a line, not a smile.
 
-## June
+## The recut that made the leaf thinner
 
-A joint cut tight in a dry January shop is a joint that will not close after a rain week. I leave a little. June will take it. A support that holds the leaf to the plane — not a hair low — keeps the ditch from opening even when the profiles are right.
+I once cut the thumb too small on a real leaf because the scrap had been a hair thicker than the top and I had not noticed. The leaf came up and the fillet was a ditch. I recut the thumb deeper. The leaf lost thickness at the edge. The ditch got narrower and did not leave. I edged the leaf with a matching strip, glued long-grain, and I recut the thumb on the strip. The strip is still there if you know. The diner does not have to know. I would rather have left the leaf fat and cut once.
+
+When I recut now, I recut a new leaf if the edge is already at finished thickness. A strip is a confession I will own. A second confession on the same edge is a table I will not finish.
+
+Dry-fit is the swing. I put the scraps up, I put them down, I look from the side the chairs will look from. I also put a straightedge across the rule joint with the leaf supported. Eye from the end of the table lies. The straightedge finds the ditch I will serve dinner in.
+
+## Tearout, a backup strip, and a fillet I keep
+
+Cross-grain on a solid oak top is a chew if I exit into air. I clamp a sacrificial strip at the far end, same height, so the cutter leaves the work into wood. A light last pass. I do not sand the cove to hide tearout. Sanding a cove changes the radius. Changing the radius shows iron.
+
+I cut the fillet even if the catalog profile omitted it. The fillet is where I hide a small disagreement. June will bring a disagreement. I leave room.
+
+A leaf finished on one face will cup toward the weather it did not get. I finish both. Battens and slots if I must, the slots long, the screws in the middle of the leaf’s width so the ends can walk. A cleat glued across the whole width is a cup you scheduled.
+
+## Humidity is a stuck leaf, not a tight boast
+
+A joint cut tight in a dry January shop is a joint that will not close after a rain week. The leaf and the top are two boards. They do not cup on the same morning. Oak in Wilmar in August will take water across the width and the thumb will plump in the cove. I leave a little that looks almost sloppy in January. June takes it.
+
+I do not print a gap number. [VERIFY] before anyone captions a feeler. The habit: swing the scraps in the weather you have, then leave a hair more if the shop is bone dry and the table is for a house that is not.
+
+The support is part of the moisture story. A gate that sags after a season drops the leaf a hair and opens a ditch that the profiles did not earn. I check the support at the plane with the straightedge, not with my eye, and I check it again after finish. Finish adds thickness. Thickness changes the plane.
 
 ## What I want from D:\BBF
 
-Leaf up, one line. Leaf down, no iron. The hinge on the underside, pin location obvious.
-
-<!-- PACK-W2 -->
-
-## Hinge choice first
-
-I buy the hinge I will keep, I measure the pin, I cut the profiles to that pin. A cheap pin that wanders along its length gives me a cove that is right at one end and wrong at the other.
-
-<!-- PACK-W2L -->
-
-## Shop morning, rule joint
-
-Hinge on scraps of the same thickness. Pin measured. Cove and thumb cut to the pin. Fillet left. Light last pass across grain. Leaf support set to the plane. A little slop for June. Then the real top. I do not prototype on the finished dining surface.
-
-<!-- PACK-W3 -->
-
-## Leaf cup
-
-A leaf finished on one face will cup toward the weather it did not get. I finish both. A cupped leaf binds in the cove or grins at the fillet. Battens and slots if I must. I do not glue a leaf to a cleat that fights the whole width.
-
-I will not cut a rule joint tight in January and call myself precise. Precise in January is stuck in June.
-
-<!-- PACK-W4 -->
-
-## Pin gauge
-
-I keep a scrap with the hinge pinned and the profiles cut, hung on a nail. That scrap is the gauge for the next drop-leaf. Catalog bits lie. The pin in the hinge I bought does not. I cut to the scrap, then I cut the top.
-
-<!-- PACK-W5 -->
-
-I put the scrap-hinge gauge next to the real top so I cannot “improve” the bit height. Improvement is how the iron shows. I cut the fillet even if the catalog profile omitted it. The fillet is where I hide a small disagreement. June will bring a disagreement. I leave room.
-
-<!-- PACK-W6 -->
-I check the leaf support at the plane with a straightedge across the rule joint, not with my eye from the end of the table. Eye from the end lies. The straightedge finds the ditch I will serve dinner in.
+Leaf up, one line, not a ditch. Leaf down, no iron in the cove. The hinge on the underside with the pin location obvious, the pin block in the frame if we have that scrap. Filename pending the pull. Photographer unnamed until the file says so.
 
 ## The judgment
 
-The knuckle under the leaf is a hinge pin you built a cove around. Match the profiles to the pin, leave a fillet, leave a little for June, support the leaf to the plane. A drop-leaf table is a curved joint most people never look at from below. They look at the ditch. Do not give them a ditch.
+The knuckle under the leaf is a hinge pin you built a cove around. Match the profiles to the pin you bought, leave a fillet, leave a little for June, support the leaf to the plane. Dinner finds the ditch. Nobody inspects the knuckle. Do not give them a ditch.

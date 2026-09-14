@@ -3,7 +3,7 @@ title: "Half-Blind on a Slope"
 slug: half-blind-on-a-slope
 status: draft
 voice_check: human
-word_count: 1221
+word_count: 1598
 dek: "A sloped drawer front — knife edge, canted lip, a fall-front cousin — still wants half-blind pins. The sockets lean, and a square gauge line is a lie at one end."
 series: furniture-advanced-joinery
 topic: compound-dovetails
@@ -66,50 +66,40 @@ Crescent in the knife. Recut the front. I will not tell you to patch a knife edg
 
 I also transferred tails before the lip was faired and then the fairing took a 32nd off the shoulder. The drawer sat proud. I planed the sides and I lost the fit in the opening. Fair, then mark, then cut. The same sentence as the bow-front. It earns its keep.
 
-<!-- PACK-EXPANSION -->
+## A cradle that stops the rock
 
-## A lip I cut last
+I cut a V-block from a pine offcut, the included angle matched to the wedge with a sliding bevel locked to the finished slope. The front lies in that V with the inside face up. A toggle through a dog hole keeps it from climbing out when the mallet hits. Without the V, every chop is also a tap that walks the knife toward the floor.
 
-I leave the front as a wedge with square ends until the pins are cut and the sides are fitted. Then I plane the lip. Then I fair. If I cut the lip first, every sneak on the shoulder changes the overlap and I chase a reveal around the case like a dog.
+The backing board is the other half of that thought. I bandsaw a scrap to the same slope and I clamp it under the show face so the knife has a friend. Chopping a top socket with the knife hanging in the air is how crescents are born. The backing does not have to be pretty. It has to be there.
 
-The knife at the top is a shadow. I ease it so a hand does not find a blade. I do not ease it into a pin.
+For transfer, I still use a marking gauge, but I ride the *inside* face and I set the pin to the socket depth I already chose from the thin country. A gauge that tries to ride the show will walk the slope and give you a depth that changes from pin to pin. I also keep a pair of winding sticks on the inside face before I knife the tails. A twisted wedge transfers a twisted pin. You will chase that twist around the case rail for an afternoon.
 
-## Support the knife
+## The proud drawer I recut
 
-A backing board shaped to the slope, or a pad and a careful bench. Chopping a top socket with the knife hanging in the air is how crescents are born. I have a crescent in my head even when I do not have the drawer anymore.
+I had a pecan practice front — thick at the rail, knifed at the top, shop sample — and I marked the tails while the lip was still a square arris I meant to fair later. Later took a 32nd off the shoulder behind the lip. The sides, already cut, sat the drawer proud of the case. I planed the sides to pull it back and I lost the runner fit. The drawer then racked in the opening.
 
-## Case rail
+I recut the sides from new stock. I left the new front as a wedge with square ends until the pins were chopped and the sides were fitted to the runners. Then I planed the lip. Then I faired. The overlap became a number I could repeat, not a number I chased. I wrote the shoulder setback on the story stick for that opening. The stick has the runner length on the other edge. Lip world and runner world stay on opposite edges so I do not mix them.
 
-If the case rail is square and the front is sloped, the top gap is optics. I can slope the rail a little to match, and that is millwork I will do on a piece that wants a quiet reveal. I will not plane the knife to chase a square rail. The knife will vanish and then I will have no lip and still a gap.
+If a pin still wants the knife after that layout, I move the pin. I do not thin the socket to “make it work.” There is no dignified crescent.
+
+## Summer at the thick rail
+
+A knife-edge lip in pecan will chip if I leave it sharp and someone slams the drawer. I ease it with two strokes of a block plane and a piece of paper-backed abrasive, enough that a thumb does not find a blade. I do not ease it into a socket.
+
+Summer swell in this shop makes the sloped front look tighter at the bottom, where the meat is. That is the wedge doing wedge things. It is not a bind if the sides were fitted to the runners with a little shine in July. It is a bind if I fitted the sides to the lip’s overlap and ignored the runner. The runner wins that fight. The lip gets faired later.
+
+January will open the top reveal a hair because the thin knife shrinks faster than the thick rail — the glass wall cooks the knife, the rail stays in the shadow of the case. I do not plane the knife to chase a square rail. The knife will vanish and then I will have no lip and still a gap. If the piece wants a quiet reveal I slope the case rail a little to match. That is millwork I will do on purpose. It is not a save I invent at finish.
+
+## Router from the inside, or not
+
+If I router these, the jig is a fence on the inside face and a depth stop I set from a test cut in a scrap of the same wedge. I do not let a bushing ride the show. I tried that on a sample. The bit came through the knife like a grin. The sample is not in the library on purpose.
+
+A 1/4-inch straight bit, shallow passes, and I chop the pin walls by hand. The router is for waste in the thick country. The top socket stays a chisel. A spinning cutter next to a knife edge is a crescent with a motor.
 
 ## What I want from D:\BBF
 
-The wedge section, end view, sockets drawn. A dry-fit side on the shoulder behind the lip. Not a crescent unless we are teaching, and even then I would rather recut than photograph a wound I am ashamed of — unless the wound is the lesson. This pack allows the lesson.
+The wedge in section, end view, sockets drawn in chalk on the thick country only. The V-cradle with a front in it, inside face up. A dry-fit side sitting on the shoulder behind the lip, lip not yet a blade. A backing board under the knife. I will photograph a crescent only if we are teaching, and even then I would rather show the recut front. Filename pending shop pull.
 
-## Depth, said once more
+## Next time
 
-From the inside face. Consistent. The show can be a knife. The knife is not a pin wall.
-
-<!-- PACK-W2 -->
-
-## Runner world
-
-I square the side to the runner, not to the lip. The lip is a shadow. The runner is the drawer. If those two fights, the runner wins and the lip gets faired later.
-
-<!-- PACK-W2L -->
-
-## Shop morning, knife front
-
-Wedge with square ends. Pins in the thick country. Depth from the inside. Backing on the knife. Fit the sides. Lip last. Ease the knife so a hand is safe. If a pin wants the knife I move the pin. I recut a crescent. I do not patch a knife on a show drawer.
-
-<!-- PACK-W3 -->
-
-## Knife and thumb
-
-A knife-edge lip in pecan will chip if I leave it sharp and someone slams the drawer. I ease it. I do not ease it into a socket. Summer swell will make the sloped front look tighter at the bottom, where the meat is. That is not a bind if the sides were fitted to the runners. It is the wedge doing wedge things.
-
-I will not router this from a jig that rides the show face. That jig plunges through the thin end. I tried it on a sample. The sample is not in the library on purpose.
-
-## The judgment
-
-Half-blind on a slope is a depth problem. Keep the pins in the thick country, measure from the inside, support the knife. The lip is a shadow, not a place to hide a tail. If the front is too thin at the top to hold a socket, that is the drawing talking. Listen, or draw a thicker knife.
+Pins stay in the meat. Depth stays a single number from the inside. The lip waits until the sides already run. The knife is a shadow a hand can pass without blood, not a wall for a tail. If the drawing made the top too thin to hold a socket, the drawing already answered. Thicken the knife, or drop the top pin, or admit the front wanted to be square. A slope is allowed to revoke a joint. Listen before you chop toward air.

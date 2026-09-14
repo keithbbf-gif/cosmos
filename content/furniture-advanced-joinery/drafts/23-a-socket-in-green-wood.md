@@ -3,7 +3,7 @@ title: "A Socket in Green Wood"
 slug: a-socket-in-green-wood
 status: draft
 voice_check: human
-word_count: 1206
+word_count: 1524
 dek: "A Windsor-style bent stretcher in a green leg is a round tenon in a round hole that shrinks around it. The joint is the drying, if you did not bore a wish."
 series: furniture-advanced-joinery
 topic: curved-work
@@ -62,59 +62,50 @@ I also cut a tenon on a bent stretcher the night of the steam. Morning: differen
 
 A kiln-dried “Windsor” kit with all dry parts and PVA is a different chair. It can be a good chair. It is not this joint. Do not advertise the shrink if you did not use the shrink.
 
-<!-- PACK-EXPANSION -->
-
 ## Whether this shop does this
 
 I marked [VERIFY] on purpose. If the Wilmar floor is a dry shop with a kiln pile and no green riving, this essay is documented practice, not a house claim. I will not caption a green-wood chair as a BBF build until someone says the legs were wet and the tenons were dry and a meter was in the room.
 
-The joint is still worth writing. Chairs rack. This is one of the old answers.
+The joint is still worth writing. Chairs rack. This is one of the old answers. If this shop is dry-only, I build the dry chair and I do not caption a shrink I did not use. The [VERIFY] stays until someone says the legs were wet.
 
-## Reamer and taper
+A caption that invents a wet leg is a different kind of loose joint.
 
-A tapered tenon in a tapered hole seats like a stone in a wall. I like it when I have the tools. A straight tenon in a straight hole relies more on the shrink and the fit. Both can make a chair. Mixing a tapered tenon in a straight hole is a joint that is tight at the mouth and loose at the bottom, or the reverse. Pick a pair.
+## A ring gauge and a scrap of the same story
 
-## Seat versus stretcher
+The tool that is not already in this essay is a shop-made ring gauge: a hardwood block with a hole I bored with the same bit I will use in the leg, and a mouth I can slip over the shaved tenon. I shave until the tenon is a tap in that hole, not a pound. I keep the gauge hung with the bit. A tenon cutter I have not used this month is a cutter I test on a scrap of the same moisture story as the stretcher.
 
-A through-tenon in a seat, wedged from above, is a show joint and a clamp. A stopped stretcher tenon is a shrink joint you cannot see. I do not treat them as the same sentence. The seat wedge you can see is the craft-pack cousin. The stretcher shrink is this essay.
+A reamer I have not used this month is a reamer I test the same way. Mixing a new hole size with an old tenon cutter is how I build a loose chair I will blame on the weather.
+
+Pick a pair. Straight hole and straight tenon, or taper and reamer. A tapered tenon in a straight hole is tight at the mouth and loose at the bottom, or the reverse. That is not a shrink. That is a wobble with a story.
+
+## The recut after the oval
+
+I shaved a stretcher tenon by eye after a steam bend and I trusted the first circle the hollow auger gave me. The auger had wandered on the smile. The tenon was an oval. It tapped into the gauge on two meridians and rocked on the others. I recut the tenon shorter, back into round wood behind the wander, and I lost length I had wanted in the socket. The stretcher still works if you do not look at how shallow the pin sits.
+
+Now I offer the tenon to the ring gauge before I offer it to a leg. If the gauge rocks, I recut. I do not “tap it tighter” in a wet hole. A pound in green wood is a reamed oval you cannot un-ream.
+
+Dry-fit here is a tap on the scrap pair — a scrap leg of the same moisture, a scrap tenon of the same dryness — before I bore the chair. The scrap pair is cheaper than a loose stretcher in a chair I already like.
+
+## Seat wedge and stretcher shrink are not one sentence
+
+A through-tenon in a seat, wedged from above, is a show joint and a clamp. A stopped stretcher tenon is a shrink joint you cannot see. I do not treat them as the same work. The seat wedge you can see is the craft-pack cousin. The stretcher shrink is this essay.
+
+Bend the stretcher first. Wait. Then shave. The sequence essay already spent its morning on that. Here I will only say: a tenon cut the night of the steam is a tenon for a smile that will not be this smile at assembly.
+
+Assemble while the difference lives. A bag on the legs, or a morning that does not include a three-day wait after the boring. Holes race you. The meter stays in the sentence until the shop says otherwise.
+
+## Humidity is the clamp — or it is not
+
+If the shop runs green, the weather is the clamp you cannot buy. Wet hole, drier pin. The socket closes as the leg dries toward the house. South Arkansas August will still move a chair after that close. A stretcher that was bone dry and a leg that was only “less wet” is a milder shrink than the books like to draw. [VERIFY] any number. The meter is the joinery.
+
+If the shop is dry-only — kiln pile, no riving, no bag of wet legs — then PVA and a good fit are the chair. That can be a good chair. It is not this joint. Build it honestly. Do not borrow the shrink caption.
+
+I will not print a house moisture pair. I will print the fork: differential and assembly while it lives, or a dry chair that does not pretend.
 
 ## What I want from D:\BBF
 
-A fuzzy wet hole, a shaved tenon, a meter in the frame if we have that honesty. A bent stretcher off a form. Do not use a dry kit chair as the picture for this joint.
-
-## Glue wars
-
-I will not start one. I will say the differential is the sentence, and glue is a modifier. If you skip the differential and lean on PVA, you built a dry chair. Build a good dry chair. Do not caption the shrink.
-
-<!-- PACK-W2 -->
-
-## Assemble while the difference lives
-
-I do not bore wet legs and then let them sit unassembled until the holes have already moved. The tenon is then loose. A bag on the legs, or an assembly that happens while the meter still shows a difference.
-
-<!-- PACK-W2L -->
-
-## Shop morning, if the shop is wet
-
-Meter. Wet hole, drier pin. Round to a gauge. Bend the stretcher first. Assemble while the difference lives. If this shop is dry-only, I build the dry chair and I do not caption a shrink I did not use. The [VERIFY] stays until someone says the legs were wet.
-
-<!-- PACK-W3 -->
-
-## Caption until verified
-
-If this floor does not rive green, the essay stays practice, not a house build. I will not use a dry kit chair as the photograph for a shrink joint. The meter has to be in the room or the caption has to change.
-
-I will not mix a tapered tenon with a straight hole and call it traditional. Pick a pair. Straight and straight, or taper and reamer.
-
-<!-- PACK-W4 -->
-
-## Gauge and reamer
-
-The tenon gauge and the hole have to be a pair I checked on a scrap of the same moisture story. A reamer I have not used this month is a reamer I test. Mixing a new hole size with an old tenon cutter is how I build a loose chair I will blame on the weather.
-
-<!-- PACK-TINY -->
-The meter stays in the sentence until the shop says otherwise.
+A fuzzy wet hole and a shaved tenon in the same frame, a meter in the shot if we have that honesty. A bent stretcher off a form. Do not use a dry kit chair as the picture for this joint. If the floor does not rive green, the caption changes or the frame stays in the drawer. Filename pending the pull. Photographer unnamed until metadata is pulled.
 
 ## The judgment
 
-A socket in green wood is a clamp the weather applies. Wet hole, drier pin, round to a gauge, bend before you tenon. If the shop does not run green, say so and build the dry version honestly. If it does, the meter is part of the joinery. The steam is only how the stretcher got its line.
+A socket in green wood is a clamp the weather applies, and only if the weather was actually invited. Wet hole, drier pin, round to a gauge, bend before you tenon. If the shop does not run green, say so and build the dry version honestly. If it does, the meter is part of the joinery. The steam is only how the stretcher got its line.

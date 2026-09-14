@@ -3,7 +3,7 @@ title: "Bricks on a Corner"
 slug: bricks-on-a-corner
 status: draft
 voice_check: human
-word_count: 1254
+word_count: 1628
 dek: "A brick-laid curve that has to become a corner is two religions meeting. The bricks want a radius. The dovetail wants a board. You decide which one dies at the joint."
 series: furniture-advanced-joinery
 topic: hybrid
@@ -70,48 +70,34 @@ I dovetailed the last thin brick. The tail was half glue. It sheared in the dry-
 
 I also faired through a glued corner and opened a pin cheek. The gap was a dark hair on an otherwise pretty radius. I left it. Filling a pin cheek on a show pedestal is a different lie than a crescent on a knife-edge drawer. Still a lie. Fair less.
 
-<!-- PACK-EXPANSION -->
+## Cauls that know a quarter-circle
 
-## The leftover board
+The stack wants even pressure, not a C-clamp on the pretty face. I bandsaw a pair of outer cauls to the outside radius plus a little, and I line them with cork so a brick cannot print a flat. The inner caul is a plywood rib with the inside curve. Strap clamps around that sandwich pull the voussoirs home. A single bar clamp across a quarter-circle is a clamp that only knows two bricks.
 
-I start the stack with a brick that is really a board, six or eight inches longer than a voussoir, grain running the way tails like. I carve the radius down to that board and I stop. The board is the pin board. The radius is the look. If I cannot afford that board, I do not dovetail the stack. I spline, or I loose-tenon, or I bolt.
+I stagger the vertical joints the way a mason staggers a wall. A stack that is a set of rings with all the verticals lined up is a column with perforations. When a pin cheek has to exist, I want that cheek in one brick, not on a glue plane. I dry-stack with chalk ticks on the edges so I can see the stagger before I wet anything. July in this shop is a race against skinning. I glue in smaller lifts — four or five bricks, wait, then the next lift — rather than butter twenty and watch the first ones skin while I am still aligning the last.
 
-## Glue lines and chisels
+Overnight is cheaper than a banana. I do not carve a loaf that is still creeping. A creeping glue line in a corner brick is a radius that flattens at the teeth before you have touched a gouge.
 
-I stagger so a pin cheek is not a glue plane. When I have to cross a glue line, I pare as if the line will skate — short bites, no pry. A pry on a glue line is a chip that is two species of stubborn.
+## The shear I recut
 
-## Fairing through the joint
+The first practice corner was a clock-hood sample in walnut, shop only. I carved the radius all the way to the end because the drawing looked prettier that way. The last brick was a sliver. I laid out tails on it anyway. In the dry-fit the tail sheared along the glue line with a sound like a postage stamp tearing. I kept the straight case side. I remade the stack with an end board eight inches longer than a voussoir, grain running the way tails like. I carved the radius down to that board and I stopped. The board took pins. The curve stopped being a sculpture one inch before the baseline.
 
-I dry-fit, I fair almost, I glue, I kiss. If I fair through a glued pin I open a cheek. I have. The gap is a hair on a pretty radius. I leave it or I recut. I do not fill a pin cheek on a show pedestal and call it a shadow.
+I checked that leftover board with winding sticks before I marked a single tail. A brick loaf can wind if one lift was clamped harder than the next. A twisted pin board on a straight case side is a gap that walks from rim to floor. I planed the leftover board true to the case’s world, not true to the carved radius. The radius can take a kiss later. The pin board cannot take a sculpture’s twist.
+
+When I have to cross a glue line with a chisel, I pare in short bites and I do not pry. A pry on a glue line is a chip that is two species of stubborn. I would rather leave a tiny step I can sand after glue than open a cheek I will be tempted to fill.
+
+## Movement in a committee
+
+A brick-laid corner in South Arkansas is not one board shrinking. Each voussoir has its own grain direction, more or less around the bend, and the leftover pin board is a normal slab that wants to move across its width like any case side. In a dry January the pin board shrinks; the carved radius, being a stack, shrinks in smaller arguments. The tell is a hair at the baseline where board meets bend. I do not glue a spline across that meeting and hope. I leave the fairing able to hide a hair, or I accept the tell as honest.
+
+I will not veneer a brick corner to hide a starved line and then dovetail through the veneer. Veneer on a pin wall is a chip with a species name. Oil will find the glue anyway. A quiet stripe can read as coopering. A cloudy stripe is starved. Recut the lift; do not stain a second lie.
+
+If I cannot afford the leftover board, I do not dovetail the stack. I cut a spline kerf that crosses three bricks, or I loose-tenon into the long-grain leftover I *can* afford, or I bolt the curve to a block. The hybrid topic exists so I can say no.
 
 ## What I want from D:\BBF
 
-The stack before the gouge, the long end brick obvious. The meeting after, board and bend. A glue line that stayed out of a pin.
+The stack before the gouge, the long end brick obvious, chalk ticks showing the stagger. The outer caul and strap on a quarter-circle. The meeting after: a board and a bend, baseline visible, no tail sitting on a glue plane. A winding-stick check on the leftover board. Filename pending a real pull. I do not need a photograph of the sheared sliver. I already remember the sound.
 
-## Refuse
+## Next time
 
-Tight radius, thin bricks: refuse the dovetail. The hybrid topic exists so I can say no.
-
-<!-- PACK-W2 -->
-
-## Overnight stack
-
-A brick loaf wants time. I do not carve a stack that is still creeping. A creeping glue line in a waist is a banana I already owned. Overnight is cheaper than a lamp made from a failed pedestal.
-
-<!-- PACK-W2L -->
-
-## Shop morning, bend meets board
-
-Long end brick first. Stack. Overnight. Carve to the board, stop. Dovetail the board, not the voussoir. Fair almost, glue, kiss. If I cannot afford the board I spline or I bolt. I do not ask a dovetail to pretend a brick is a drawer side.
-
-<!-- PACK-W3 -->
-
-## Glue in a stack in July
-
-A brick loaf in this shop in July is a race against skinning. I work in a smaller stack, or I use a glue that gives me the minutes I need [VERIFY]. I do not carve a loaf that is still warm with creep. Creep in a corner brick is a radius that flattens at the teeth.
-
-I will not veneer a brick corner to hide a starved line and then dovetail through the veneer. Veneer on a pin wall is a chip with a species name.
-
-## The judgment
-
-Bricks make thickness into a curve. Corners make curves into furniture. Leave a board at the end that can take a joint, or pick a joint that can take a glue stack. Do not ask a dovetail to pretend a voussoir is a drawer side. The radius will look carved. The corner should still look built.
+Bricks make thickness into a curve. The corner is where I decide whether furniture or sculpture wins. I leave a board that can take teeth, or I pick a joint that can take a glue stack. I wait until the loaf has stopped creeping. I fair almost, I glue, I kiss, and I stop before I open a cheek. The radius can look carved. The corner should still look built — because that is what it is, a board I refused to carve away.

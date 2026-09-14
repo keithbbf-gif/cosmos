@@ -3,7 +3,7 @@ title: "A Lamination into a Leg"
 slug: a-lamination-into-a-leg
 status: draft
 voice_check: human
-word_count: 1225
+word_count: 1731
 dek: "A bent-laminated apron is a stack of thin truths. The tenon you cut in that stack is either a real tenon in long grain or a bundle of glue lines pretending to be one."
 series: furniture-advanced-joinery
 topic: curved-work
@@ -66,46 +66,40 @@ I cut a tenon that was mostly one glue plane. It held for the photo. It loosened
 
 I also clamped a form with too few clamps and got a hollow in the middle of the apron. The tenons were fine. The apron looked pregnant. Re-form, or live with a belly. I re-formed. Clamps are cheaper than a pregnant apron on a dining table.
 
-<!-- PACK-EXPANSION -->
+## Cauls, clamp spacing, the block behind the chisel
 
-## Solid end
+The form is two cauls I bandsaw together so they match, then I dress the faces with a compass plane until a leaf lies down without a click. I add a little extra curve for the small spring laminations still make. I line the cauls with packing tape so glue does not marry the apron to the form. Cork on the outside caul keeps a clamp from printing a facet.
 
-I leave the last leaf thick, or I scarf a short solid onto the laminated ribbon after the bend, so the tenon lives in a board. A tenon that is a glue plane is a tenon that will peel. I have one under a top. The customer does not know. I do.
+Clamp spacing is closer than my pride likes. I set a clamp every three or four inches on a dining apron, alternating sides of the caul so I am not banana-bending the form itself. A hollow in the middle is too few clamps or a caul that was not fair. I have made both mistakes. The pregnant apron was the first.
 
-## Do not pound
+When I pare the tenon I back the stack with a wide block clamped across the leaves so the chisel is not levering them apart. A laminated tenon that needs a mallet is a tenon I pare again. I keep a wide chisel and that backup block on the bench before I offer the ribbon to the leg. If the mortise in the leg is burned from a router, I scrape the burn before I invite the stack. Burn is a lubricant until it is a gap.
 
-A dead-blow on a laminated tenon is a request for a split between leaves. Pare. A tap. If it will not go, the tenon is fat or the mortise is shy. The stack will not forgive a pound the way a solid oak rail sometimes will.
+## The glue-plane tenon I opened
+
+The apron that loosened was a five-leaf oak ribbon, shop table, not a named commission I will print. I had sawn the tenon where a stripe sat on the cheek. It looked like one piece in the dry-fit. After a South Arkansas summer — glass wall, then a wet week — the outside leaf let go in the mortise. The table still stood. The corner had a little give you could feel if you knew where to press.
+
+I pulled the apron, I sawed the bad end off, and I scarfed a short solid of the same oak onto the ribbon, long grain, the scarf under where the top would hide it. The new tenon lived in that solid. I should have left the last leaf thick from the start. A solid end is not a confession. It is the joint telling the truth about what a glue line can and cannot be.
+
+I dry-fit the repaired corner overnight, unglued, with a clamp at table tension. If a leaf lifts by morning, the scarf is hungry or the mortise is fat. I will not glue a maybe.
+
+## Leaves, humidity, oil
+
+I resaw leaves from one board when I can, numbered, so the ribbon still reads as a plank after oil. A cloudy stripe is starved glue or a leaf that shifted on the form while I was reaching for another clamp. I would rather recut an apron than stain a stripe into a second lie.
+
+Thin leaves in this shop pick up and dump moisture faster than a solid rail. A ribbon glued on a wet Monday and tenoned on a cooked Wednesday has already changed its mind about thickness. I sticker the dressed apron next to the legs for a day and I meter them together before I cut a tenon that has to stay. [VERIFY] any number a caption wants to print.
+
+I will not laminate a tight radius out of leaves that are too thick and then call the spring a design. Thick leaves in a tight form are a steam job, or a refuse. Laminations spring less than steam; they do not spring never. If the apron comes off the form and I can see daylight under a batten, I re-form or I live with a belly I will hate at finish.
+
+A tapered leg adds a thickness map the tenon does not get to ignore. I set tenon thickness from the meat in the leg at the mortise, and I keep the ribbon’s extra length so I can shift the tenon off a stripe. Offset the stack if you have to. The shoulder still has to shut on the flat I left, or on the scribe I paid for.
+
+## Loose tenon when the ribbon is a cracker
+
+If the leaves are too thin to own an integral tenon, I dress the apron, I mark the middle leaves, and I cut a mortise in the end as if the stack were solid. The loose tenon is hardwood, grain running the way a tenon wants, and it lives in those middle leaves. The outer leaves stay cosmetic and structural for the bend, not for the hole in the leg. That is a different honesty than a glue-plane cheek, and I will take it.
 
 ## What I want from D:\BBF
 
-Leaves on a form. A tenon with stripes that stay in the cheeks, not on the cheek. A flat on a turned leg where a shoulder can shut.
+Leaves on a form, numbered, clamps close together, tape on the caul. A tenon with stripes that stay *in* the cheeks, not on the cheek. A backup block behind a paring cut. A flat on a turned or tapered leg where a shoulder can shut. The scarf under a top only if we are teaching the repair — I would rather show the solid end I should have started with. Filename pending shop pull.
 
-<!-- PACK-W2 -->
+## Next time
 
-## Clamp count on the form
-
-A hollow in the middle of an apron is too few clamps. I use more than my pride likes. A pregnant apron on a dining table is a caption I will not write.
-
-<!-- PACK-W2L -->
-
-## Shop morning, ribbon rail
-
-Leaves long, from one board if I can. Form, many clamps. Wait. Solid end or a tenon that keeps leaves in the cheeks. Flat on the leg or a scribe. Tap, do not pound. If the tenon is a glue plane I scarf a solid on and I do not pretend the first tenon was fine.
-
-<!-- PACK-W3 -->
-
-## Oil and stripes
-
-Oil finds every glue line I thought was invisible. I dry-stack leaves in order from one board so the ribbon still reads as a plank. A cloudy stripe is starved glue or a leaf that shifted on the form. I would rather recut an apron than stain a stripe into a second lie.
-
-I will not laminate a tight radius out of leaves that are too thick and then call the spring a design. Thick leaves in a tight form are a steam job, or a refuse.
-
-<!-- PACK-W4 -->
-
-## Bit and a tap
-
-A laminated tenon that needs a mallet is a tenon I pare. I keep a wide chisel and a block to back the stack so I am not levering leaves apart. If the mortise in the leg is burned, I scrape the burn before I invite the ribbon. Burn is a lubricant until it is a gap.
-
-## The judgment
-
-A lamination into a leg is a tenon in a stack. Keep leaves in the cheeks, or give the rail a solid end. Scribe or flatten the meeting. Do not pound. Steam is a different heat. Bricks are a different thickness. This joint is thin truths glued into a curve that still has to sit down on a shoulder like a rail that grew up straight.
+The ribbon is allowed to be a curve. The tenon is not allowed to be a bundle of wishes in a hole. I keep leaves in the cheeks, or I give the rail a board at the end. I clamp like I mean the middle. I tap, I do not pound. Steam is a different heat. Bricks are a different thickness. This joint is thin truths glued into a shape that still has to sit down on a shoulder like a rail that grew up straight — and if it cannot, I stop calling the stack a rail and I change the fastener.

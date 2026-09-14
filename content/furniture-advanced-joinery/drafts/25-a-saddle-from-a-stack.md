@@ -3,7 +3,7 @@ title: "A Saddle from a Stack"
 slug: a-saddle-from-a-stack
 status: draft
 voice_check: human
-word_count: 1211
+word_count: 1508
 dek: "A stack-laminated seat is a block you carve into a saddle. The joints are the glue planes; the legs still need sockets that do not land on a starved stripe."
 series: furniture-advanced-joinery
 topic: curved-work
@@ -60,61 +60,46 @@ I bored a socket on a stripe. The reamer found the glue and chattered. The leg s
 
 I also stacked for looks — alternating species in a thin sandwich — and the hard/soft difference carved like washboard. Same species, or species that behave. Pretty stripes are not a saddle.
 
-<!-- PACK-EXPANSION -->
+## Cauls in the middle, and a dummy that has to stand
 
-## Sitting in the shop
+I draw the rake and splay on the underside while it is still flatter than a saddle. I mark the underside grain so I do not bore a socket that exits into a leaf edge. An exit in a leaf edge is a socket that will oval.
 
-I clamp the carved saddle on the bench and I sit on it before I bore if I already bored, I sit anyway. A saddle that looks fair and sits like a ridge is a saddle that followed the eye and not the bone. I mark the hot spots with chalk and I go back to the gouge. This is not a tips list. This is the only test that matters.
+The tool that is not already in this essay is a dummy leg with the rake I drew, and a pair of deep-reach cauls I keep for the loaf’s middle. Edge clamps lie about a wide glue-up. The middle starves. I wax the cauls, I pad them, I treat the center of the seat like the only glue joint that matters, because it is the one I will sit on.
 
-## Stripes that carve like washboard
+I offer the dummy to the underside before I commit all four sockets. A dummy that will not stand is a drawing I have not transferred. I do not invent the fourth hole from hope.
 
-Hard and soft species in thin layers will not carve as one. I stack the same species, or I stack species I have already carved together on a scrap. A walnut/maple sandwich can be a look. It can also be a washboard. I find out on a scrap loaf, not on a seat.
+Hard and soft species in thin layers will not carve as one. I stack the same species, or I stack species I have already carved together on a scrap loaf. A walnut and maple sandwich can be a look. It can also be a washboard. I find that out on a scrap, not on a seat.
 
-## Sockets and rakes
+## The recut after the reamer chattered
 
-I draw the rake and splay on the underside while it is still flatter than a saddle. I use a sightline, or a dummy leg, or a bevel. Then I bore. Then I carve down to the holes with respect. A hole that appears in the dish is a hole I carved into. That is a different chair.
+The socket on the stripe was not a small error. The reamer walked. The hole went oval. I plugged it with a matching walnut dowel, I let it sit, I re-bored into leaf. The plug shows on the underside. I know which chair that is.
+
+When I recut now, I recut the loaf if two sockets want to land on the same plane. Offsetting a leaf after glue is fiction. Offsetting a leaf on the bench is a stack. I would rather waste a glue-up than plug two holes in a dish people will photograph.
+
+I clamp the carved saddle on the bench and I sit on it. A saddle that looks fair and sits like a ridge is a saddle that followed the eye and not the bone. I mark the hot spots with chalk and I go back to the gouge. I sit longer than is dignified. I do this before finish. Finish will not hide a ridge I was too tired to take down. Tired is a ridge. The chair will not be kinder than the bench.
+
+A hole that appears in the dish is a hole I carved into. That is a different chair. I bore from a flat or from a jig that finds the carved face. I do not guess a rake after the pommel has already moved the marks.
+
+## Travisher after the gouge, oil after the sit
+
+I hog with a gouge. I fair with a travisher if I have one, or a compass plane if the dish will take it, then a scraper. The travisher is the tool that finds a ridge the gouge left along a glue line. A belt sander in a saddle is a dish I cannot see. I have tried. The shine lied.
+
+A through-tenon wedged on a saddle will show every stripe. I like that if the stack was honest. I do not like a wedge standing in a glue plane. That wedge splits leaves. I move the exit or I move the wedge.
+
+A saddle takes finish in a hollow that will wear. I oil, I wax, I expect a sit-shine. A film finish on a saddle can be a sit-crack. I will not moralize. I will say I oil the ones I sit on in the shop. That shine is not a failure. A ridge where a glue line stood up is a failure. I scrape it or I recut the loaf.
+
+## Humidity is a stack that still moves
+
+Leaves in a loaf were not all at the same moisture the morning I glued them, even if I thought they were. I sticker the leaves together for a wait I will not print as a number. [VERIFY]. Then I glue. A wetter leaf in a drier stack is a ridge after the first season, or a cup that opens a stripe.
+
+If I use green-wood shrink in the legs, the stack has to be in on the joke. A kiln-dry loaf and a wet tenon is a different chair than a wet hole and a dry pin. Do not invent a third sentence. If this floor is dry-only, the sockets are dry sockets. I do not caption a shrink I did not use.
+
+August in South Arkansas will still move a finished saddle across the leaves. Oil both the dish and the underside. A raw underside and an oiled dish is a cup you will sit on. The dummy leg does not tell me that. The underside drawing and the finish do.
 
 ## What I want from D:\BBF
 
-The loaf, square. The dish, chalk on a hot spot. The underside with sockets off the stripes.
-
-## Finish
-
-A saddle takes finish in a hollow that will wear. I oil, I wax, I expect a sit-shine. A film finish on a saddle can be a sit-crack. I will not moralize. I will say I oil the ones I sit on in the shop.
-
-<!-- PACK-W2 -->
-
-## Wedges at the exit
-
-A through-tenon wedged on a saddle will show every stripe. I like that if the stack was honest. I do not like a wedge standing in a glue plane. That wedge splits leaves.
-
-<!-- PACK-W2L -->
-
-## Shop morning, loaf
-
-Stack so sockets miss glue planes. Glue with cauls in the middle. Bore from a flat or a jig. Carve. Sit. Chalk the ridges. Gouge again. Oil. If I stacked for a pretty stripe through a socket I plug and I bore again, and I know which seat that is.
-
-<!-- PACK-W3 -->
-
-## Sit-shine
-
-I oil a saddle I will sit on. A film finish in a hollow can sit-crack. I expect a shine where bones land. That shine is not a failure. A ridge where a glue line stood up is a failure. I scrape it or I recut the loaf.
-
-I will not bore a socket on a stripe because the stripe looked centered and pretty. Pretty stripes are not a rake angle.
-
-<!-- PACK-W4 -->
-
-## Dummy leg
-
-I keep a dummy leg with the rake I drew. I offer it to the underside before I commit all four sockets. A dummy that will not stand is a drawing I have not transferred. I do not invent the fourth hole from hope.
-
-<!-- PACK-W5 -->
-
-I sit longer than is dignified. A saddle that is almost fair will still find a sit-bone. Chalk, gouge, sit again. I do this before finish. Finish will not hide a ridge I was too tired to take down. Tired is a ridge. The chair will not be kinder than the bench.
-
-<!-- PACK-W6 -->
-I mark the underside grain direction so I do not bore a socket that exits into a leaf edge. An exit in a leaf edge is a socket that will oval. The dummy leg does not tell me that. The underside drawing does.
+The loaf, still square, cauls in the middle. The dish with chalk on a hot spot. The underside with sockets off the stripes and the dummy leg in the frame. Filename pending the pull. Photographer unnamed until metadata is pulled.
 
 ## The judgment
 
-A saddle from a stack is a block you carve, and a set of sockets you placed before the pretty part talked you out of engineering. Keep glue planes out of the holes. Fair the dish. Sit on it in the shop before you finish it, if you can. The chair will not be kinder than the bench.
+A saddle from a stack is a block you carve, and a set of sockets you placed before the pretty stripe talked you out of engineering. Keep glue planes out of the holes. Fair the dish. Sit on it in the shop before you finish it. A pretty stripe through a socket is a rake you will re-bore. The chair will not be kinder than the bench.

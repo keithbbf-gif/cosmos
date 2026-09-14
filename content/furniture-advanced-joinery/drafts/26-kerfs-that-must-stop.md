@@ -3,7 +3,7 @@ title: "Kerfs That Must Stop"
 slug: kerfs-that-must-stop
 status: draft
 voice_check: human
-word_count: 1206
+word_count: 1544
 dek: "A kerf-bent case side is a board with a lot of saw cuts in its back, bent around a form. The joinery lives in the solid ends you did not kerf. If you kerf into a dovetail, you have a hinge you did not want."
 series: furniture-advanced-joinery
 topic: curved-work
@@ -66,55 +66,44 @@ I also bent without a form, by hand, “just to see.” The radius was a flat an
 
 A finish that soaked into empty kerfs and then spotted the show face: seal or glue the comb before you oil, or oil will find every slot.
 
-<!-- PACK-EXPANSION -->
+## A kerfing sled and letters I can see when the saw is loud
 
-## Same board scrap
+I test kerf depth on a cutoff of the same board. Thickness varies. A cousin from the rack is a different hinge. Almost through, not through.
 
-I test kerf depth on a cutoff of the same board. Thickness varies. A cousin from the rack is a different hinge. Almost through, not through. A form, not a freehand to see.
+The tool that is not already in this essay is a kerfing sled: a sliding carriage with a depth stop I set from the same-board scrap, and a fence I can index from the story stick. I do not freehand a comb against the saw fence while I count in my head. The sled holds the board so the face hinge stays even. An uneven hinge is a face that cracks at the thin station when I bend.
 
-The fence on the comb is the joint. I mark it. I stop. I dress the solid ends after the bend, then I mark tails. Sequence.
+I write STOP on the fence line in letters I can see when the saw is loud. I have cut past a polite pencil. The letters are not decoration. I count the uncut inches at each end out loud before I start the comb. The number is the joint. If the number is smaller than a tail plus meat, I change the radius or I change the board. I do not change the number after the saw is already singing. I do not add “one more to be sure.” One more is how I enter the tail zone.
 
-## Glue in the comb
+I hold the board to the form with a pair of folding wedges and a strap, not with my palms. Palms invent kinks. The form is cheaper than a checked face on the last wide board in the pile.
 
-I glue the kerfs when the side is structural. I leave them empty and lined when the side is a skin on a frame. Oil in empty kerfs will spot the show. Seal or glue before you oil.
+## The recut after three kerfs in the pin
 
-## What I want from D:\BBF
+Those three kerfs in the tail zone were not a small miss. The corner opened along a slot I had sawn on purpose. I recut the side from a new board. I did not fill the kerfs with epoxy and call the pin solid. Epoxy in a kerf is a hinge with a different color.
 
-The comb, stopped, the solid end obvious. The form. A checked face from a kink, if we kept the scrap.
-
-<!-- PACK-W2 -->
-
-## Liner as second skin
+When I recut now, I lay the new board on the old form and I mark the STOP line from the story stick before I plug in the saw. I dry-bend the same-board scrap on the form until it takes the rib without a crack. Then I cut the comb on the real side. Then I bend. Then I dress the solid ends as if they were new boards, because the bend has changed their angle. Then I mark tails. Not before.
 
 A thin liner on the inside can hide the comb and set the bend. That liner is not a tail board. I do not dovetail a liner. I dovetail the solid end I left, or I apply the kerfed skin to a frame that already has joints.
 
-<!-- PACK-W2L -->
+## Empty comb, glued comb, and oil that finds a slot
 
-## Shop morning, kerf bend
+I glue the kerfs when the side is a beam. I leave them empty and lined when the side is a skin on a frame. Oil in empty kerfs will spot the show. I seal or I glue the comb before I oil.
 
-Cutoff of the same board. Kerf until it takes the form without a crack. Mark the fence. Cut the comb. Stop. Bend on the form. Glue the comb if the side is a beam; line it if the side is a skin. Dress the solid ends. Then mark tails. If a kerf is in the tail zone I recut the side. I do not hide a hinge inside a pin.
+An empty comb in a Warren August can take water and telegraph as hairlines on a thin face. A glued comb fights later movement and can force a split in the solid end if I did not leave the end as a real board. I pick a church and I stay in it. [VERIFY] before a caption names the house habit.
 
-<!-- PACK-W3 -->
+The adult cabinet — kerfed skin on straight stiles — keeps the humidity argument in the skin. The stiles stay square. The hinges stay in long grain. I like this when the piece has to last in a house that has weather. I like a full kerfed side when the piece is small and I counted the uncut inches twice.
 
-## Same-board hinge
+## Humidity is a hinge that still moves
 
-A cousin from the rack is a different thickness and a different hinge. I test kerfs on a cutoff of the same board. I stop the comb. I dress ends after the bend. Oil in empty kerfs spots the show. I seal or I glue the comb first.
+South Arkansas rain week on an empty comb is a sponge behind a pretty face. South Arkansas January on a glued comb is a set curve that will not give when the solid ends want to shrink. Either way, the joint lives in the uncut inches. I sticker the board with the rest of the case before I kerf, so I am not bending a wetter board than the rails it will meet.
 
-I will not freehand a bend to see. The form is cheaper than a checked face on the last wide board in the pile.
+I do not print a moisture number. [VERIFY]. I do print the order: same-board scrap, STOP line, comb, form, glue or liner, dress the ends, then tails. A kerf in the tail zone is a recut, not a filler.
 
-<!-- PACK-W4 -->
+Pecan face, oak liner: they will not move together. I meter them or I pick one species for both. A pretty pairing that checks at a kink is a pairing I will own in the scrap pile.
 
-## Fence pencil
+## What I want from D:\BBF
 
-A dark line where the comb dies. I stop the saw on the line, not past the line. A kerf past the line is a hinge in a pin. I count kerfs on the story stick and I do not add “one more to be sure.” One more is how I enter the tail zone.
-
-<!-- PACK-W5 -->
-
-I write STOP on the fence line in letters I can see when the saw is loud. I have cut past a polite pencil. The letters are not decoration. After the bend I dress the solid ends as if they were new boards, because the bend has changed their angle. Then I mark tails. Not before.
-
-<!-- PACK-W6 -->
-I count the uncut inches at each end out loud before I start the comb. The number is the joint. If the number is smaller than a tail plus meat, I change the radius or I change the board. I do not change the number after the saw is already singing.
+The comb, stopped, the STOP letters still on the solid end. The form with the wedges in. A checked face from a kink, if we kept the scrap. Filename pending the pull. Photographer unnamed until the file says so.
 
 ## The judgment
 
-Kerfs that must stop are a comb with a fence. Bend on a form, keep solid country for the joint, dress the ends after the bend. If you need a structural curve with no comb, laminate or cooper. If you need a soft corner on a small case, kerf it — and then remember that most of that board is now a hinge. Hinges do not hold pins.
+Kerfs that must stop are a comb with a fence. Bend on a form, keep solid country for the joint, dress the ends after the bend. The uncut inches are the joint. The pretty radius is the decoration. If you need a structural curve with no comb, laminate or cooper. If you need a soft corner on a small case, kerf it — and then remember that most of that board is now a hinge. Hinges do not hold pins.

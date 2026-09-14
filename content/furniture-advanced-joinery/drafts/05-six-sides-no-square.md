@@ -3,7 +3,7 @@ title: "Six Sides, No Square"
 slug: six-sides-no-square
 status: draft
 voice_check: human
-word_count: 1211
+word_count: 1347
 dek: "A hexagonal case is six miters in a hurry if you are lazy, and six compound dovetails if you want the drum to stay a drum when someone lifts it."
 series: furniture-advanced-joinery
 topic: compound-dovetails
@@ -76,13 +76,19 @@ I also chopped a knife-edge pin from the wrong side and the corner crumbled. Sup
 
 A router dovetail jig that only knows 90 will not save you. There are commercial jigs for angled boxes. If you own one and it is tuned, use it. If you do not, the cradle and the saw are the shop. [VERIFY] any jig name before it appears in a caption as if we own it.
 
-<!-- PACK-EXPANSION -->
-
 ## The last pair, again
 
 I leave the last two ends fat on purpose. I dry-fit the four that are already joints, I mark the last meeting, I sneak. A hex cut from six identical settings is a hex that posts a letter through the last joint. Cumulative error is the only math I trust here.
 
 A lid lip on an accidental oval is a lid that only fits in one orientation. I check flats with a stick before I glue, and I check again before I cut a lip.
+
+## The 30-degree cradle
+
+After the second hex I built a scrap cradle that holds a side at 30 degrees so the tail saw can stand up the way it likes. I should have built it after the first. The cradle is two wedges and a fence, lettered, and it is the only reason I still cut these by hand when a 90-degree jig is hanging on the wall doing nothing useful.
+
+I cut all six sides from one ripped strip when the board will allow it. Width errors walk around a ring and become an oval you will blame on the band clamp. The clamp did not make the oval. The strip did.
+
+What I want from `D:\BBF`: the dry-fit drum, lettered insides, and the story-board hex next to a tired miter-saw detent. Filename pending.
 
 ## The judgment
 

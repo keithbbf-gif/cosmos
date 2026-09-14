@@ -3,7 +3,7 @@ title: "The Miter That Hides Tails"
 slug: the-miter-that-hides-tails
 status: draft
 voice_check: human
-word_count: 1265
+word_count: 1449
 dek: "A secret-mitered dovetail is a box that looks like a picture-frame corner until you open it. The miter is the show. The tails are the reason it stays a box."
 series: furniture-advanced-joinery
 topic: compound-dovetails
@@ -83,6 +83,14 @@ I will not pretend a splined miter is the same joint. A spline is good. A spline
 I once left the tail tips a hair proud of the miter line on the inside, thought I had stayed hidden, and finished the box. Under a lamp the outside showed four tiny shadows, one at each corner, like the box had freckles. I could not plane them without changing the dimension. I still have that box. It taught me to mark the fence darker than my optimism.
 
 Another time I cut the miters first on thin walnut and blew a corner out chopping the pin. Walnut will do that when you are prying waste toward a bevel that is already a knife. I patched it with a sliver. I can find the sliver. Nobody else has, which is not the same as the joint being clean.
+
+## A 45 donkey that earns the last shaving
+
+I keep a shooting donkey with a 45 fence and a stop I can sneak. The last pass is a shaving you can read a pencil through. If the donkey is tired — a ding in the fence, a plane that wants to dive — the miter goes long and the tails never seat. I dress the fence before I dress the box. That order has saved more corners than a sharper chisel.
+
+South Arkansas August will open an end-grain miter that looked shut in January. I glue the tails and the bevel, I leave the clamps on overnight, and I do not oil the outside until the corner has sat a day in the glass-wall light. A shadow that shows up then is a long miter I can still sneak. A shadow that shows up after finish is a box I will keep in the shop.
+
+What I want from `D:\BBF`: the closed corner under raking light, and the inside with the tails still visible. No filename. Photographer unnamed until the file says so.
 
 ## The judgment
 

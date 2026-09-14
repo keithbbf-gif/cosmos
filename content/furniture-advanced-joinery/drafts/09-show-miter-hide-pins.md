@@ -3,7 +3,7 @@ title: "Show Miter, Hide Pins"
 slug: show-miter-hide-pins
 status: draft
 voice_check: human
-word_count: 1247
+word_count: 1713
 dek: "A mitered-through dovetail shows a clean bevel on the top edge and still flashes pins on the side. The miter is a lid for the end grain. The pins are still the joint."
 series: furniture-advanced-joinery
 topic: compound-dovetails
@@ -68,44 +68,38 @@ I also sanded the rim miter to close a gap and rounded the only sharp line the l
 
 On a pine chest I cut the miter too deep and the half-pin’s remaining triangle was paper. It crushed in the clamp. Pine will do that if you treat it like oak. Leave meat, or pick a wood that has some.
 
-<!-- PACK-EXPANSION -->
+## The 45 donkey under the window
 
-## A chest rim under a lid
+I keep a shooting cradle for this rim: a 45 bed of maple screwed to a bench hook, the plane on its side, the chest side registered against a fence that stops short of the first full pin so I cannot shoot into a cheek I already like. The last pass is a shaving I can read newsprint through. If I skip the donkey and I sand, I have rounded the only line the lid owns.
 
-I convert the half-pin after the through-dovetails are chopped. I shoot the 45 until the tails and the bevel sit down together. I keep the hinge out of the miter. I ease the inside arris so the lid does not chip the bevel.
+The fence has a small birdsmouth cut out where the half-pin’s remaining triangle lives. Without that relief the plane rides the triangle and takes the bevel out of true. I learned that on the pine crush. The triangle needs air. The bevel needs the plane.
 
-If the side must also be secret, I cut the secret miter instead. This joint is not a failed secret. It is a lid strategy that still wants teeth on the side.
+I mark the 45 on both boards with a knife from a sliding bevel locked to a 45 block I trust more than the saw’s detent. Detents are for casing. A chest rim wants the line I locked. I leave the rim waste until the teeth are chopped, then I saw shy of the knife and I shoot to it. The dry-fit is tails and bevel sitting down in the same motion. If I have to choose, I leave the miter a hair shy and I shoot again. I do not plane a tail cheek to chase a bevel that I can still sneak.
 
-## What I want from D:\BBF
+## The pine crush I recut
 
-From above, a miter. From the side, pins. One corner, two frames. A shooting block.
+The pine practice chest — shop sample, 3/4 sides, a lid I meant to sit in a rebate — taught the meat lesson the hard way. I converted the half-pin, I shot past the line, and the remaining triangle crushed when I put a bar clamp on the rim. The corner closed. The rim went soft. I recut both long sides. I moved the first full pin down a quarter inch so the miter had a real triangle to sit on, and I used cauls that pressed the sides, not the rim. The new dry-fit shut on the teeth first; the bevel came with them.
 
-<!-- PACK-W2 -->
+I cut the dust-lid rebate after that glue-up, once the rim was true. A rebate that crosses an open miter chips the line you just shot. I run the rebate with a moving fillister, the fence on the inside face, and I stop the cut at the corners with a chisel so the fillister does not blow the miter’s inside arris. The lid then lands on long grain in a pocket, not on a bevel it can bruise.
 
-## Dust lid rebate
+## January drink, August swell
 
-If the lid sits in a rebate, I cut the rebate after the rim miter is glued and true. A rebate that crosses an open miter is a rebate that will chip the only line I just shot.
+End grain at a chest rim drinks finish faster than the face. That is half the reason the miter exists — so the lid lands on long grain that takes oil the way the side takes oil. In a dry January in this shop the miter can still open a hair if I starved the bevel. Hide on the rim, time in the clamps, and I do not rush a 4-foot box around four corners in one PVA sprint.
 
-<!-- PACK-W2L -->
-
-## Shop morning, chest rim
-
-Through-dovetails chopped. Half-pin converted. 45 shot until tails and bevel sit together. Hinge out of the miter. Rebate after glue if a dust lid wants one. If I wanted mystery I would have cut the secret miter. I wanted a lid line and teeth on the side.
-
-<!-- PACK-W3 -->
-
-## Rim drink
-
-End grain at a chest rim drinks finish faster than the face. That is half the reason the miter exists — so the lid lands on long grain. In a dry January the miter can still open a hair if I starved it. I glue the bevel and I give it time. I will not sand the rim to close a gap. Sanding is how a lid sits on fuzz.
+August swell will not usually blow a rim miter the way it blows a sliding tail. The teeth below take the rack. What August will do is swell a dust lid in a tight rebate until the lid sits high and the hinge binds. I leave the lid a little free in the pocket, and I finish the rebate walls. Raw end grain in a rebate is a sponge next to the Saline humidity that walks in after a rain week.
 
 I will not put this joint on a toy box a child will sit on. Through-dovetails, fat, no rim vanity. The lid strategy is for a chest that is opened like a book, not ridden like a bench.
 
-<!-- PACK-W4 -->
+## Hinge country is not miter country
 
-## Shooting donkey
+I lay out hinge locations before I convert the half-pin, so I know the mortise will live in a full pin or in a separate hinge rail. A leaf that lands on the 45 is a leaf that pries the only glue line the lid sees every day. I pre-drill. I do not let a screw find the remaining triangle.
 
-I keep a 45 cradle for this rim. The last pass is a shaving I can read through. If I skip the donkey and I sand, I have rounded the only line the lid owns. A dust lid that sits on fuzz is a lid I will chase with a plane I should have used first.
+If the lid is heavy, I add a stay so the slab cannot go over-center and yank the back rim. That is the chest-that-takes-a-hit argument, and it still applies when the rim is pretty. Pretty does not cancel a pry.
 
-## The judgment
+## What I want from D:\BBF
 
-Show miter, hide the rim’s end grain, leave the side’s teeth. It is not a secret. It is a lid strategy. If you want mystery, cut the secret miter in this pack. If you want a chest that reads as a chest and still closes on a clean line, convert the half-pin and shoot the bevel until the tails and the miter sit down together.
+One corner, two frames: from above, a closed miter; from the side, pins that were not eaten. The shooting donkey with a shaving on the bed. A knife line on both boards at the rim, first full pin clearly below the bevel. A rebate cut after glue, lid in the pocket. No invented filename. If the pine crush still exists I would rather not flaunt it — the recut sides are the frame I want.
+
+## Next time
+
+I chop the teeth, I convert the half-pin, I shoot until the bevel and the tails sit down together, and I keep iron out of the 45. The joint is not a failed secret. It is a landing for a lid that would otherwise chew a checkerboard of end grain. If I wanted mystery I would hide every tooth. I wanted a chest that still reads as a chest when you walk past, and a rim that still looks like one piece when you look down.

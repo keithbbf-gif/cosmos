@@ -3,7 +3,7 @@ title: "A Shoulder That Is Not Square"
 slug: a-shoulder-that-is-not-square
 status: draft
 voice_check: human
-word_count: 1210
+word_count: 1663
 dek: "A curved rail into a straight post needs a scribed shoulder. The tenon can be ordinary. The shoulder is the joint the light will find."
 series: furniture-advanced-joinery
 topic: curved-work
@@ -66,61 +66,48 @@ I also scribed with a pencil only and then lost the line in oak pores. Knife. Oa
 
 A router with a bearing that follows the post can sneak a shoulder if you invent a jig that holds the rail. I have seen it work. I have also seen it chew the show arris. Hand tools at the end either way.
 
-<!-- PACK-EXPANSION -->
+## Height first, or the taper lies
 
-## The dry-fit light
+A turned taper is a changing radius. Slide the rail up a sixteenth and you have scribed a fatter country than the one the chair will live in. I lock the height before I touch the compass.
 
-I put the rail home and I look from the side the room will look from. A moon that only shows from the underside of a table can sometimes live if the top hides it. A moon on a chair rail cannot live. I mark the moon with chalk, I pull the rail, I pare, I put it back. I do this until the chalk has nowhere to go.
+The tool that is not already in this essay is a pair of handscrews and a height block. The block is a scrap ripped to the finished stretcher height off the floor — or off the seat, if that is the story. I clamp the post to the bench, I set the block, I pinch the rail to the post with the handscrews so the tenon is home and the rail cannot creep while I walk the scribe. A spring clamp is a fidget. A handscrew is a third hand that does not get tired.
 
-A flashlight is ruder than daylight and useful. The glass wall at late day is ruder still. I like the glass wall for this. It is unkind and it is honest.
+On a chair I do this at both posts before I knife either shoulder. If I scribe one end and then discover the other end wants the rail a hair lower, I have carved a moon into the first meeting. Both ends dry, both ends pinched, then both ends marked.
 
-## Compass setting
+## The moon is a map, not a mood
 
-I set the compass to the largest gap, not the average. Averaging a scribe leaves the large gap. The large gap is the one the photograph finds. I walk the scribe, I check that the line does not fall off the tenon onto a place I cannot pare without loosening the fit.
+I do not set the compass until I know which gap is the largest. I slide a playing card, then two, then a scrap of veneer, around the meeting. The fat place is often not where the eye goes first. On a cylinder it is usually at the side, where the tangent leaves. On an arched rail into a square post it is often under the belly, where the elevation curve is proudest.
 
-If the gap is so large the scribe would eat the tenon, the rail is in the wrong place or the tenon is too short. Recut. Do not scribe a disaster into a smaller disaster.
+I chalk the fat place. I set the compass to that thickness, not to an average of the cards. Averaging a scribe leaves the large gap, and the large gap is the one the glass wall finds at four o'clock. Late day through the long wall of the 65-foot shop is ruder than a flashlight. I use both. The flashlight is local and mean. The glass is the room.
 
-## Turned legs
+I walk the knife. I check that the line does not fall off the tenon onto a place I cannot pare without loosening the cheeks. If the gap is so large the scribe would eat the tenon, the rail is in the wrong place or the tenon is too short. That is a recut, not a braver pare.
 
-A cylinder is a kind scribe — a constant radius if the turn is fair. A turned taper is a changing radius. I scribe after the rail is at the height it will live, because a taper means the radius at the shoulder changes if the rail slides up a 16th. Dry-fit at the finished height. Then scribe.
+## The recut I should have left stock for
+
+I once scribed an oak apron into a walnut turning and watched the knife line walk onto the tenon cheek. I kept going because the blank was already cut to length. The tenon became a stub. The mortise still had depth. The shoulder shut on a pin that had nothing left to be a pin. I cut a new apron from a longer blank, tenoned it fat, and scribed with meat to spare.
+
+The lesson was not “be careful.” The lesson was leave the rail long enough that a bad first shoulder is still a blank. Horns are cheap. A second turning is not.
+
+When I recut now, I offer the new rail to the same height block and the same handscrews. I do not trust the memory of yesterday’s moon. The post has not moved. My memory of the post has.
+
+## Two shoulders, two knives
+
+A chair rail has an outside shoulder the room sees and an inside shoulder a hand finds when someone hooks a heel. I scribe both. The inside moon is the one I used to butter because “nobody looks there.” Somebody’s calf looks there.
+
+The two scribes are not the same line. The post is a cylinder. The rail has thickness. The inside meeting is a slightly different radius at a slightly different station. I knife the outside first, because that is the show, then I reset the compass for the inside fat place and I do the walk again. One compass setting for both faces is how you get a pretty outside and a hinge on the inside.
+
+## Humidity is a second moon
+
+A scribed shoulder is a line cut at one moisture. The rail still moves across its width. The post, if it is a turning, moves less in diameter than the rail moves in thickness, and a walnut post and an oak rail do not keep the same calendar. [VERIFY] any meter story before it becomes a caption. The habit I will stand on: I do not scribe a bone-dry January rail to a post that still smells like the yard.
+
+If I scribe in a dry week and the rail later takes a South Arkansas rain week, the rail swells and the moon can close — or the rail can plump and bruise the post. If I scribe in a wet week and the house dries the chair, the moon comes back across the thickness of the rail, not along its length. That is a different shape than the original tangent-point moon. It looks like a grin at the arris.
+
+I sticker the rail with the posts for a wait I will not print as a number. Same air, same week, then the knife. Finish both faces of the rail before the chair lives in a house that has weather. A raw inside face and an oiled show face is a cup that opens a moon you already closed.
 
 ## What I want from D:\BBF
 
-A moon of light under a square-cut shoulder, then a shut scribe, if we have both. The compass on the rail. A shoulder plane shaving.
-
-## Glue
-
-I already said glue does not scribe. I will say it in the expansion because people butter moons. Butter is a hinge. Rack finds hinges. Pare until the moon is gone.
-
-<!-- PACK-W2 -->
-
-## Under the top
-
-I allow an ugly haunch under a tabletop. I do not allow an ugly chair-rail scribe. The hand finds the chair. The tabletop hides the haunch. Spend the time where the hand is.
-
-<!-- PACK-W2L -->
-
-## Shop morning, scribe
-
-Tenon home. Largest moon sets the compass. Knife. Pare. Glass-wall light. Again until chalk has nowhere to go. If the scribe would eat the tenon I recut the rail. I do not butter the moon. Butter is a hinge.
-
-<!-- PACK-W3 -->
-
-## Oak pores and a pencil
-
-Oak will hide a pencil scribe in the pores. I knife. I have lost a line and then I have pared a shoulder that was a guess. A guess on a turned taper is a moon that comes back after finish.
-
-I will not table-saw a square shoulder on a cylinder because the saw is already set up for something else. Setup time is not a reason to invent a moon.
-
-<!-- PACK-W4 -->
-
-## Shoulder plane last
-
-The shoulder plane is the last tool, not the first. Compass, knife, chisel, then the plane for the last hair. Sandpaper is how I lose the arris that has to meet a cylinder. I keep the plane sharp enough that oak does not tear at the scribe.
-
-<!-- PACK-TINY -->
-The flashlight is ruder than I am, and I use it.
+A square-cut shoulder with the moon still in it, then the same meeting after the knife, if both frames exist. The handscrews and the height block in the shot, not just the compass. A shoulder-plane shaving that still remembers the cylinder. No filename until the pull. No photographer name until the file says so.
 
 ## The judgment
 
-A shoulder that is not square is a scribe. The tenon can be ordinary. The light under the rail cannot. Fit, mark, pare, then glue. The curve you worked for is wasted if the meeting is two tangent points and a moon.
+The tenon can be ordinary. The light under the rail cannot. A moon is a measurement. Butter is a hinge you will meet again when someone leans. Fit at the height the chair will keep, mark the fattest air, pare to the knife, and leave enough blank that a bad first shoulder is still wood. The curve you worked for is wasted if the meeting is two tangent points and a story you told with glue.

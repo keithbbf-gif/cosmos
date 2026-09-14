@@ -3,7 +3,7 @@ title: "The Fall-Front Cant"
 slug: the-fall-front-cant
 status: draft
 voice_check: human
-word_count: 1226
+word_count: 1361
 dek: "A secretary with sloped sides is a drawer stack living in a hopper. The case dovetails are compound, the runners have to follow, and the fall front does not forgive a twist."
 series: furniture-advanced-joinery
 topic: compound-dovetails
@@ -80,11 +80,17 @@ I built the square-guts version once and left the fillet until the end. The fill
 
 I also cut top tails to a remembered slope instead of the board in my hand. The cornice sat on a shoulder that was a degree off. A degree on a 14-inch top is a gap with a name. I planed the shoulder and I lost a molding reveal I liked. Measure the board.
 
-<!-- PACK-EXPANSION -->
-
 ## Pick the interior on the paper
 
 True hopper interiors mean every drawer is a different width. Square guts mean a fillet. I pick on the drawing. I do not pick at the bench when the fall front is already hinged. The front will tell on a late decision with a tapered reveal I cannot plane into fairness.
+
+## Winding sticks before any hinge
+
+I strap the case and I sight the two cants with winding sticks on the top opening before I cut a hinge mortise. A fall front will not plane a twist into fairness. It will hang and tell. Lopers or stays come after the front shuts. The desk surface is a luxury. First it is a door.
+
+Hinge leaves on a canted cheek often want a little taper in the mortise so the knuckle sits plumb to the room. I mark that from the front, closed. A square I trusted in the abstract has already lied to me once on a four-foot oak side.
+
+What I want from `D:\BBF`: the tall hopper side with tails at the cornice, and the fall front dry-fit, stays visible. Photographer unnamed until metadata.
 
 ## The judgment
 

@@ -3,7 +3,7 @@ title: "Bricks, Then a Gouge"
 slug: bricks-then-a-gouge
 status: draft
 voice_check: human
-word_count: 1244
+word_count: 1638
 dek: "A brick-laid pedestal is a stack you carve into a vase or a column. The joinery is the stack and whatever iron you hid to keep the vase from becoming a kebab."
 series: furniture-advanced-joinery
 topic: curved-work
@@ -68,56 +68,40 @@ I carved the waist through a glue line that was already shy. The pedestal took a
 
 I also through-bolted with a rod that was too short to get a nut on after the top was finished. Design the access. A pretty pedestal you cannot service is a pedestal you will glue forever, and forever is a long time to trust a starved brick.
 
-<!-- PACK-EXPANSION -->
+## Profile first, then the loaf
 
-## Stacking a waist that is not a fuse
+I draw the thinnest diameter on a story stick — waist, flare, the flats I will leave for a plate — and I count how many bricks live at the waist. If the answer is one short-grain brick, I change the stack before I wet a joint. I want long grain through that pinch, or enough bricks that a single shy glue line is not the whole diameter.
 
-I draw the thinnest diameter and I count how many bricks live there. If the answer is one short-grain brick, I change the stack. I want long grain through the waist, or enough bricks that a single shy glue line is not the whole diameter.
+I stagger vertical joints the way I would on a brick corner. A stack that is a set of rings with all the verticals lined up is a column with perforations. I dry-stack the octagon around a plywood core I can pull after glue, so the hole for a future rod is already something I meant. If I drill the hole after carving, I am guessing where the waist still has meat.
 
-I stagger vertical joints. A stack that is a set of rings with all the verticals lined up is a column with perforations.
+Clamp as a bundle: strap around the octagon, cauls on the flats, overnight at least. July in this shop skins PVA while you are still tapping the last brick. I work in smaller lifts when the air is that kind of wet. I do not carve a loaf that is still warm with creep. Creep in a waist is a banana I have already owned.
 
-## Turning speed
+## The banana that became a lamp
 
-A brick loaf on a lathe is a glue test at speed. I start slow. I take light cuts. A catch on a brick stack is a brick in the room. I wear what I wear. I do not treat a brick loaf like a solid walnut blank I have turned twenty of.
+The first dining-height sample was walnut, shop only. I carved past a starved line at the waist because the gouge was running and the facet looked fair. By morning the loft had a set. I tried a strap. The strap opened the shy joint the rest of the way. I staged that loaf toward lamp work and I stacked again, this time with the starved lift moved into the flare where the diameter could afford a scar. The second waist was two bricks of long grain and a glue line I could see and trust.
 
-## Access to the nut
+I learned to brush dust out of every glue line as I carved. Carving a waist throws grit into the rivers. A ridge on a glue line after oil is often starved glue, not dust, but dust will make you think it is the other. I look, I do not finish over grit that will print.
 
-I draw the access before I carve the pretty. A waist that is too thin to hide a nut is a waist that needs the nut in the foot-block or in the spider. I have carved past the access and then I have had a pretty vase I could not tighten. The knockdown essay is the rest of this sentence.
+The gouge I use on a loaf is one I am willing to stone twice in an hour. A dull gouge rides the glue and leaves a hard line I will call figure. It is not figure. I stop and I stone before I chase the waist thinner. A mallet, not speed. The lathe version of that sentence is: start slow, light cuts. A catch on a brick stack is a brick in the room.
+
+## Rod length and the nut you can reach
+
+I draw the access before I carve the pretty. A waist that is too thin to hide a nut is a waist that needs the nut in the foot-block or in the spider under the top. I have carved past the access and then I have had a pretty vase I could not tighten. The knockdown essays later in this pack are the rest of that hardware story. Here: the rod is the joint, and a joint you cannot service is a wish.
+
+I cut the rod long enough to get a socket on after the top is finished, and I test that with the blocks dry, before I commit the carve. A rod that is short by a thread is a rod you will glue in and then trust forever. Forever is a long time next to a starved brick.
+
+The foot stays a separate block when I can — a flare or a solid — tied with a plate or the same rod, not glued cross-grain to the stack as a huge ring. A ring will open. August in South Arkansas will find it. The glass wall cooks the top; the foot sits in the shadow of the tablecloth and stays fatter. That difference is a ring-shaped grin if you glued the whole diameter.
+
+End-grain screws into the stack, without inserts, are a wobble I can schedule. I will use inserts or a cross-grain plug I trust. I will not send a pedestal out on faith in eight screws in end grain.
+
+## Oil, stripes, the waist as a photograph
+
+Oil will find glue. A quiet stripe can be a coopered read. A cloudy stripe is starved. I would rather see a quiet stripe than fill it with a stain that is a second lie. The waist is what people photograph. I still leave the tenon or the hole ugly and honest at the ends until the iron is chosen. Pretty without access is a vase.
 
 ## What I want from D:\BBF
 
-The octagon loaf. The gouge taking a facet, a glue line showing. The nut access with a socket.
+The octagon loaf in the vise, first facet off, a glue line showing like a river. The story stick with waist diameter marked, bricks counted. The gouge and the stone on the bench. The nut access with a socket on the rod, top not yet pretty. A foot block separate from the stack. Filename pending shop pull. The lamp from the banana loaf only if we are teaching mercy.
 
-## Finish and stripes
+## Next time
 
-Oil will find glue. A quiet stripe can be a coopered read. A cloudy stripe is starved. I would rather see a quiet stripe than fill it with a stain that is a second lie.
-
-<!-- PACK-W2 -->
-
-## Foot separate
-
-I keep the flare of the foot as a separate block when I can, tied with a plate or a rod, not glued cross-grain to the stack as a huge ring. A ring will open. August will find it.
-
-<!-- PACK-W2L -->
-
-## Shop morning, carved post
-
-Draw the waist. Stack so the waist is not one shy brick. Overnight. Slow on the lathe or patient with the gouge. Leave a tenon or a hole for a rod. Access drawn before pretty. If I carve past the nut I have a vase I cannot tighten.
-
-<!-- PACK-W3 -->
-
-## Dust in a waist
-
-Carving a waist throws dust into every glue line. I brush, I look, I do not finish over grit that will print as a ridge. A ridge on a glue line is often starved glue, not dust, but dust will make you think it is the other.
-
-I will not through-bolt a rod I cannot reach after the top is finished. Access is a joint. Pretty without access is a vase.
-
-<!-- PACK-W4 -->
-
-## Mallet, not speed
-
-A brick loaf gets a mallet and a gouge I am willing to resharpen twice. A dull gouge rides the glue and leaves a ridge I will call figure. It is not figure. It is a hard line. I stop and I stone the tool before I chase the waist thinner.
-
-## The judgment
-
-Bricks, then a gouge: thickness into a curve, then a curve into a post. Stack so the waist is not a fuse. Leave a tenon or a rod that is the real joint. The carving is what people photograph. The rod is what they lean on when they stand up from the table.
+I stack so the waist is not a fuse. I wait until the loaf has stopped creeping. I carve with a tool I will sharpen, and I stop before I cut the joint I hid. The carving is what a camera wants. The rod, or the tenon into a real board, is what a guest leans on when they stand up from the table. If those two disagree, I recut the stack. I do not recut the guest.

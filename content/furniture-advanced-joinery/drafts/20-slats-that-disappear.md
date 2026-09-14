@@ -3,7 +3,7 @@ title: "Slats That Disappear"
 slug: slats-that-disappear
 status: draft
 voice_check: human
-word_count: 1206
+word_count: 1545
 dek: "A tambour is a curtain of slats glued to a canvas that has to run a track you cannot see. The joint is the slat edge, the cloth, and a channel that does not pinch in August."
 series: furniture-advanced-joinery
 topic: curved-work
@@ -67,52 +67,44 @@ I also cut the groove after finish on the case and I tore out at the curve. Cut 
 
 A canvas that was too narrow left the slat ends unsupported in the groove. The ends crumbled. The cloth should come close to the groove without dragging. That is a fitting job. Dry-run the curtain in the open case before you close the last side if the design allows. Some designs do not allow. Those designs are why test blocks exist.
 
-<!-- PACK-EXPANSION -->
+## A gluing board that is a jig
 
-## Test curtain
+The tool that is not already in this essay is a gluing board: a flat scrap as long as the curtain, two raised fences the thickness of the slats, and a spacer stick I can lift and set again. Slats go face-down between the fences. The spacer sits between each pair. Weights — bricks, or a second board — keep the slats from rocking while the cloth goes on.
 
-Three slats on a scrap of cloth, run in a test block of the radius, before I cut the case. If the three jam, the case will jam. The test block is cheaper than a desk.
+I do not glue a tambour in the air. I have tried. The slats wander and the gaps become a song. The board is the only square in that hour.
 
-I finish the slats at least to sealer before they live in the groove, so June does not swell raw wood into a door that will not open.
+I run a test curtain of three in a radius block until I am bored of it. Boredom means the radius is kind. Excitement means I am forcing a slat around a corner it cannot take. I change the corner. I do not change the slat thickness to please a drawing I liked on a screen.
 
-## The case as a gauge
+The lock rail gets a square, a thicker glue patch, and sometimes two short dowels into the first slats so a yank cannot peel cloth. People pull the lock rail. I build it like a rail.
 
-A web, a fixed shelf, a back — something keeps the two tracks a pair. A case that can pinch will pinch. I treat the track distance as a dimension I will not leave to hope.
+## The recut after the first slat chipped
+
+I cut extras. I still ran short once, because the first three slats chipped on the inside arris when I still thought a block plane was too much ceremony. I recut those three from the extras, then I recut two more when the canvas adhesive wicked onto a show face and stained a stripe. The curtain that went into the case was the second curtain. The first one taught the spacer and the sealer.
+
+Dry-run in the open case if the design allows. I feed the lock rail first, I walk the curve by hand, I listen. A tick at the curve is a slat climbing. A grind is a groove that is shy or a finish crumb. I do not close the last side until that run is boring.
+
+If the three-slat test jammed and I had already cut the case, I have one ugly mercy: open the radius with a thicker template and a second pass, if the side still has meat. If it does not, the case is a different cabinet. Recut the side. Do not sand the slats thinner until they rattle.
+
+## Tracks before the case is jewelry
+
+I cut the tracks before the case is precious. A template of the path — straight, curve, straight — and a guide bushing, or a scratch stock if the run is short. The template is a pair. Left and right are mirrored. I mark them L and R. A flipped template is a pinch you will blame on August.
+
+At the curve I use a backing block and a climbing pass if I am routing. Tear-out there is a crater the slat will catch on every trip. I ease the groove entries with a small chamfer so the curtain can be fed without peeling the first slat.
+
+I wax the groove after the sealer, not before the first dry-run, so I can still feel a stair. Slick on a torn crater is a jam I will blame on humidity.
+
+## Humidity is a pinch and a swell
+
+June in South Arkansas will swell slats in thickness. The cloth does not swell with them. The gaps you left are there so the curtain can still roll when each slat is a hair fatter. No gap, no roll. A fat gap, cloth from the sofa.
+
+The case is the other weather. Walnut sides and pecan slats do not keep the same calendar. [VERIFY] any pairing before it becomes a caption. If the sides move toward each other, the tracks pinch even if every slat was perfect. The web, the fixed shelf, the back — that gauge goes in before I call the tambour done.
+
+A canvas glued with a glue that dries like a board is a second slat. The hinge has to stay a hinge. [VERIFY] the bottle. I finish the slats to sealer before they live in the groove, so a rain week does not swell raw end grain into a door that will not open. I finish the inside of the groove too. Raw oak pores in a track are a sponge.
 
 ## What I want from D:\BBF
 
-Cloth side of a tambour. A slat entering a curve in a track. A lock rail that is obviously thicker.
-
-<!-- PACK-W2 -->
-
-## Handle slat
-
-People pull the front. I make the front slat a rail — thicker, better glued to the cloth, maybe pinned to the first two slats. A pull on a thin slat is a slat off the cloth.
-
-<!-- PACK-W2L -->
-
-## Shop morning, tambour
-
-Test curtain of three in a radius block. Spacer on the cloth. Sealer on the slats. Tracks cut before the case is precious. Web or back to hold the gauge. Lock rail at the front. Dry-run in the open case if the design allows. If the three jam, I change the radius, not the caption.
-
-<!-- PACK-W3 -->
-
-## Cloth in a wet June
-
-A canvas that was glued with a glue that dries like a board is a second slat. The hinge has to stay a hinge. [VERIFY] the bottle. I do not eyeball gaps. A spacer. No gap, no roll. A fat gap, cloth from the sofa.
-
-I will not cut tracks after the case is precious and then tear out at the curve. Tracks first, or a climbing pass and a backing.
-
-<!-- PACK-W4 -->
-
-## Spacer stick
-
-I cut a spacer the thickness of the gap I want and I use it on every slat. Eye is how I build a curtain that will not roll. The lock rail gets a square and a thicker glue patch. People pull the lock rail. I build it like a rail.
-
-<!-- PACK-W5 -->
-
-I run the test curtain until I am bored of it. Boredom means the radius is kind. Excitement means I am forcing a slat around a corner it cannot take. I change the corner. I do not change the slat thickness to please a drawing I liked on a screen. The case gauge — the web, the back — goes in before I call the tambour done.
+The cloth side of a curtain on the gluing board, spacer still in the shot. A slat entering a curve in a track. A lock rail that is obviously thicker than its neighbors. Filename pending the pull. Photographer unnamed until metadata is pulled.
 
 ## The judgment
 
-Slats that disappear are a curtain and a track. Gap the slats, keep the cloth flexible, cut a radius the slats can actually run, and do not let the case pinch the gauge. A tambour is curved work you never see as a curve until it jams. The jam is the joint talking. Listen in the test block, not in the finished desk.
+Slats that disappear are a curtain and a track. Gap them on a board, keep the cloth flexible, cut a radius the slats can actually run, and do not let the case pinch the gauge. A tambour is a mortise that never sees a tenon. It still has to stay a pair. Listen in the test block, not in the finished desk.

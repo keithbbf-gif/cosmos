@@ -3,7 +3,7 @@ title: "Brass on a Travel Chest"
 slug: brass-on-a-travel-chest
 status: draft
 voice_check: human
-word_count: 1215
+word_count: 1412
 dek: "Campaign furniture is knockdown as a culture: corners you can replace, drawers that lock with a pin, brass that takes the hit so the dovetail does not have to."
 series: furniture-advanced-joinery
 topic: knockdown
@@ -41,11 +41,15 @@ Through-dovetails on the boxes. Web frames that are real frames. Drawer slips. T
 
 Brass straps across a dovetail: the screws should not land in the waste of a pin if you can help it. They should land in meat. A screw in a pin waste is a screw in a wedge.
 
+I finish the boxes before I install the brass if the brass is a color I cannot sand. August on the long glass wall will sweat a fresh oil film onto a plate and then the sandpaper will write a map on it. I install the pins after finish so I do not film them in. I letter the boxes inside with a pencil that will still be there when the delivery note is not.
+
 ## Stacking is the knockdown
 
 Flush pins (brass or wood) on the top of the lower box, holes in the bottom of the upper. The pins take shear so the tower does not skate. They are not a substitute for a back that keeps the boxes rectangular. If you pick the tower up by the top box, you have picked up one box and a surprise. Design a way to lift, or tell the customer not to. I tell them. They will still try. The pins should be stout enough to complain loudly before they shear.
 
 Some chests bolt through. That is a bed-bolt idea standing up. I like it when the tower is tall.
+
+Four pins, four holes, one story stick. I do not lay out the upper box from a tape I re-read after finish. Finish changes what I think I see. The stick does not. I check the stack on a flat bench with a straightedge across the lips. A proud lip is a pin I laid out after finish with a tape. I recut the hole. I do not sand the lip into a slope and call the slope a chamfer.
 
 <!-- PHOTO: fig-02 D:\BBF\BBF Photos — campaign drawer, flush pulls, locking pin or flush stay (filename pending shop pull) -->
 
@@ -55,7 +59,27 @@ Flush pulls. Flush escutcheons. A drawer that locks with a pin or a flush stay s
 
 A secretary fall on a campaign piece has to latch. A latch that is proud will be the first casualty. Flush, or a strap that is the latch.
 
-## Failures
+The screwdriver that fits the strap screws lives in the same tray as the pulls. A pretty screw with a slot no driver in the house will find is a strap that will loosen and stay loose.
+
+## A stack I would actually carry
+
+I carry one box at a time, on a hip, around a newel if the stair has one. I tell the customer that. The pins will complain if they lift the tower. A sheared pin is a box on a foot. I put one spare pin in the top box, taped inside, because campaign is a pocket the same way a travel stool is a pocket, only the pocket is a box.
+
+A box that is too wide for the newel is a box I will know in the shop if I walk it. I have walked a dry-fit around the shop’s own corner post with a hand on the bottom, not the top. The top hand is how you rack a dovetail you have not glued yet. The bottom hand is how you find out the depth is a lie.
+
+In the shop I walk one box through the chalk door and up the shop stair if the shop has one. A box that is “fine in the room” and too deep for the turn is a box I will recut the depth on, or I will admit it is a house chest with jewelry and stop calling it travel.
+
+I dry-stack the two boxes on the bench with a band clamp around the equator, not to crush them, only to keep the pins from walking while I run a straightedge. The clamp is a third hand. The pins are not allowed to be the only thing holding a dry-fit I am measuring.
+
+A wet week will swell the oak enough that a flush pin feels tight in a hole I bored in January. I do not ream the hole to make August comfortable. I ease the pin a whisper, or I wait. A reamed hole is a skate in January. I have also put a scrap of felt between boxes on a painted pair so the paint does not print; the felt is not a joint. The pins still have to find the holes without the felt doing the locate.
+
+I countersink strap screws so the heads sit in the brass, not on it. A proud screw head is a crate catch. The bit that matches the screw lives in the same tray. A mixed bit is how I cam a slot and then invent a second screw an inch over, which is a strap with a hole I did not mean.
+
+## Historical quiet
+
+I will not write a regiment, a campaign in a country I did not research, or a maker’s name I did not read in a primary page. The form is useful. The romance is optional and, in this pack, mostly off. A bibliography can hold a book. A caption should not invent a war.
+
+## Failures I will own
 
 I put pretty standing pulls on a “travel” box because the customer liked them on a mood board. The first move took one off. Flush means flush.
 
@@ -63,62 +87,11 @@ I also aligned stack pins by eye. The upper box sat with a proud lip. I recut th
 
 Screws into brass into a thin wall: the wall split. The strap wants a wall that can take a screw, or a machine screw into an insert. Thin walls get a different strap, or they get thicker.
 
-<!-- PACK-EXPANSION -->
-
-## A stack I would build
-
-Two boxes, each a through-dovetailed carcase, flush top and bottom so they sit. Four brass pins on the lower, four holes on the upper, a story stick so the holes match after finish. Web frames in each box. Drawers with flush pulls and a pin that keeps them shut in a crate. Straps on the corners that screw into meat, not into pin waste.
-
-I finish the boxes before I install the brass if the brass is a color I cannot sand. I install the pins after finish so I do not film them in. I letter the boxes inside.
-
-## What the brass is allowed to do
-
-Take a hit. Cover a corner that will hit. Provide a pin. Provide a pull that stays in the plane. The brass is not allowed to be the only thing holding a rabbet shut. If I see a strap over a split corner, I know the tails were skipped or the glue failed. I repair the wood. I do not add a bigger strap and call it campaign.
-
-## Historical quiet
-
-I will not write a regiment, a campaign in a country I did not research, or a maker’s name I did not read in a primary page. The form is useful. The romance is optional and, in this pack, mostly off. A bibliography can hold a book. A caption should not invent a war.
+I once set straps on a box that was still a little fat from a wet week, then I watched the brass sit proud when the oak went quiet in January. The screws were still tight. The plate had a hairline of wood proud of the brass, and every crate edge found it. Now I strap after the moisture has settled, or I leave the plate a whisper proud of a face I know will shrink, not proud of a face I hope will stay.
 
 ## What I want from D:\BBF
 
-A corner with strap and a hint of tail. Flush pulls. Two boxes stacked, the lip even. A pin between boxes, close.
-
-## Stairs
-
-I carry one box at a time. I tell the customer that. The pins will complain if they lift the tower. The pins should be stout enough to complain before they shear. A sheared pin is a box on a foot.
-
-<!-- PACK-W2 -->
-
-## Drawer pin
-
-A drawer that opens in a crate is a projectile. I use a flush stay or a pin. Standing pulls on a travel box are pulls that leave on the first move. Flush means flush.
-
-<!-- PACK-W2L -->
-
-## Shop morning, stack
-
-Two dovetailed boxes. Story stick for pins. Flush pulls. Drawer stays. Straps into meat. Letter inside. Finish before the brass if the brass cannot take sandpaper. Carry one box. Tell them. They will still lift the tower. The pins should complain first.
-
-<!-- PACK-W3 -->
-
-## Crate and romance
-
-I will not invent a regiment to sell a strap. The form is a stack that goes up a stair. Flush hardware. Pins that shear last. Tails under the brass. A strap over a split corner is a repair I have not done yet.
-
-I will not put standing pulls on a box I called travel because a mood board liked them. The first move takes one off.
-
-<!-- PACK-W4 -->
-
-## Story stick for pins
-
-Four pins, four holes, one stick. I do not lay out the upper box from a tape I re-read after finish. Finish changes what I think I see. The stick does not. I letter the boxes before the brass goes on.
-
-<!-- PACK-W5 -->
-
-I install flush pulls after the finish has gone quiet so I do not film the brass in. I check the stack on a flat bench with a straightedge across the lips. A proud lip is a pin I laid out after finish with a tape. The stick should have done that job. I recut the hole, I do not sand the lip into a slope.
-
-<!-- PACK-W6 -->
-I put one spare pin in the top box, taped inside. The pin that shears on a stair is the pin I did not pack. Campaign is a pocket, the same as the stool, only the pocket is a box.
+A corner with strap and a hint of tail under it — the bumper and the joint in one frame. Flush pulls on a drawer, nothing standing off. Two boxes stacked, a straightedge implied by an even lip. A pin between boxes, close. Filename pending the shop pull. Do not invent a photographer. Do not invent a regiment in the caption.
 
 ## The judgment
 

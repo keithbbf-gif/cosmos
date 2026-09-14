@@ -3,7 +3,7 @@ title: "Steam Still in the Rail"
 slug: steam-still-in-the-rail
 status: draft
 voice_check: human
-word_count: 1213
+word_count: 1699
 dek: "A crest rail comes off the form wet and sure of itself. The mortises in the posts are already cut. Springback is the joint you have not met yet."
 series: furniture-advanced-joinery
 topic: curved-work
@@ -71,42 +71,40 @@ I also steamed a rail with a small check I thought would stay a small check. The
 
 A metal strap that was too narrow left a dent I had to take out with a spokeshave, and I lost the thickness I wanted for the tenon. Wider strap, a leather pad, less heroics.
 
-<!-- PACK-EXPANSION -->
+## Strap, pad, and the box I will not schedule
 
-## Extras
+The strap I use now is wide enough to cover most of the crest’s width, with a leather pad between steel and oak so the heat does not print a stripe I have to shave off. That shave is tenon thickness I cannot get back. I clamp the strap to the form with the same energy I would use on a glue-up I cannot undo — because I cannot undo a break on the form.
 
-I cut two blanks if the crest matters. Steam breaks rails. A knot on the tension face is a break I can schedule. I reject checks before the box. I wait on the form, then I wait off the form, then I meter, then I tenon.
+I mark the tension face before the blank goes in the box. A knot there is a no. A knot on the compression face can sometimes live. I would rather cut a second blank than steam a no. I also reject checks, even polite ones. Steam finds them.
 
-A metal strap too narrow is a dent that costs tenon thickness. Wide strap, a pad, less heroics.
+I will not print a soak-and-steam schedule as house law. Thickness, species, and how wet the week has been in Bradley County all change the clock. [VERIFY] whatever the floor actually does before a caption writes minutes. What I will say: the rail comes out hot and sure of itself. I get it on the form without a speech. Conversation happens after the strap is tight.
 
-## Scribe the post
+Two blanks if the crest matters. Steam breaks rails. The extra is not waste until it is a chair.
 
-The crest’s shoulder is a scribe to a post that is flat or turned. I do not table-saw a square shoulder on a cylinder and butter the moon. The shoulder essay in this pack is the rest of that sentence.
+## The evening tenon I recut
 
-## What I want from D:\BBF
+The first oak crest I rushed — shop practice, posts already mortised for a side chair — I sawed tenons the night of the bend because the blank was still easy to hold and I liked the smile. In the morning the smile had opened. The tenons cocked and hit the mortise walls like they had been cut for a different room. I could sneak a shoulder. I could not sneak a diagonal entry back into square.
 
-Steam still visible, strap on. A rail against posts the next day, tenons not yet cut. Then tenons. Sequence in three frames if the library will have them.
+I recut from the second blank. I left that one on the form until it felt like a rail, then I stickered it next to the posts for a day, then I metered both. Same country, then I marked. The first rail I kept as a story stick: I hang it over the form and I can see how much that oak wanted to go home. It is scrap that talks.
 
-<!-- PACK-W2 -->
+When I offer the dried rail to the posts, I do it before I cut a tenon. I clamp the posts in their chair geometry — a simple plywood cradle that holds rake and spacing — and I lay the crest across the mortises. I mark the shoulders from the posts, not from a tape. Then I cut. The cradle is the chair’s world. The bench is not.
 
-## Tension face
-
-I mark the outside of the bend before the box. A knot there is a no. A knot on the inside can sometimes live. I would rather cut a second blank than steam a no.
-
-<!-- PACK-W2L -->
-
-## Shop morning, crest
-
-Two blanks if it matters. Reject the tension-face knot. Steam. Wide strap. Wait. Meter. Offer to posts. Tenon. Scribe. A rail I tenoned the night of the bend is a rail I recut. I have the story stick of springback. It is scrap.
-
-<!-- PACK-W3 -->
-
-## Steam and a meter
+## Meter, river air, the gap in the mortise
 
 I do not guess “dry enough” because the rail feels like a rail. I meter it against the posts. A wet crest in a dry post will shrink and then the shoulders are a memory. A dry crest in a wetter post is a looser story. Same country. [VERIFY] the numbers before a caption prints them.
 
-I will not steam kiln-dried hickory as my first experiment on a customer’s chair. Hickory will bend and then it will try to go home like a trap. Extras. Always extras.
+A January afternoon on the glass wall will dry a thin crest faster than a 2-inch post. I sticker the rail in the same light the chair will live in, not in a dead corner, and I give the posts the same week. South Arkansas will then throw a rain week at you. If the crest gained moisture off the form and the posts did not, the tenons swell in the holes and the posts creep apart. That is why the mortise gets a gap at the bottom, and why I do not bottom the tenon like a proud fit.
 
-## The judgment
+I will not steam kiln-dried hickory as my first experiment on a chair someone will sit in. Hickory will bend and then it will try to go home like a trap. Extras. Always extras. Oak from this county, straight grain, is the practice wood I trust enough to waste.
 
-Steam still in the rail means the joint is not ready. Wait until the rail and the posts are in the same moisture country, then cut tenons that enter mortises you already trust, and scribe the shoulders to the posts. The curve is a process. The mortise is a hole that does not care about your excitement. Let the rail finish becoming itself before you ask it to become a chair.
+## Compasses on a turned post
+
+If the post is turned, I scribe the shoulder with a pair of compasses, one leg on the cylinder, one on the rail, and I knife the line. I do not table-saw a square shoulder onto a cylinder and butter the moon. The shoulder essay in this pack is the rest of that sentence. On a flat I left on the post, I can shoot a shoulder. I like a flat when the drawing allows it. A flat is a place a crest can shut without a dance.
+
+## What I want from D:\BBF
+
+Steam still visible, wide strap, leather pad, rail on the form. The same rail the next day against posts, tenons not yet cut, cradle holding the rake. Then tenons, shoulders scribed. Sequence in three frames if the library will have them. The story-stick scrap of springback if we are teaching. Filename pending shop pull.
+
+## Next time
+
+The curve is a process with a clock I do not own. The mortise is a hole that does not care how pretty the rail looked at dusk. I wait until rail and posts share a moisture country, I mark from a cradle that is already a chair, and I scribe the meeting. Excitement is for the steam. The joint is for the morning after, and the morning after that.

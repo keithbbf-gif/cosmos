@@ -3,7 +3,7 @@ title: "A Tail on a Taper"
 slug: a-tail-on-a-taper
 status: draft
 voice_check: human
-word_count: 1211
+word_count: 1739
 dek: "A sliding dovetail into a tapered post, or a pin into a splayed leg, is a joint that changes its mind along its own length. The saw has to know which end is the fat one."
 series: furniture-advanced-joinery
 topic: compound-dovetails
@@ -70,30 +70,42 @@ I used a standard dovetail bit and a deep setting because the fat end “could t
 
 A metal hanger bolt in a tapered post is a different religion — knockdown, later in this pack. Do not mix a deep sliding tail and a hanger bolt in the same meat. They will meet inside the post like two bad neighbors.
 
-<!-- PACK-EXPANSION -->
+## The pine cradle I keep under the bench
 
-## A hall table post
+The router wants a flat sole. A tapered post offers a ramp. I built a trough from 3/4 plywood with two pine wedges screwed in so the post’s show face sits level to the bench and the opposite cheek is packed with a scrap that matches the leftover taper. The bit then travels in a world that thinks the post is square. The socket comes out as a true slot instead of a smile that follows the ramp.
 
-I taper the post, I mark the socket, I measure thickness at both ends of that mark, I set depth from the thin end, I stop the show, I make a saddle so the router fence has a parallel. I dry-slide from the fat end if I can. I glue a third at the fat end. I do not also put a hanger bolt through the same meat.
+The first cradle was too short. The post rocked on the last two inches and the bit walked toward the show. I lengthened the trough so both ends of the socket have bearing, and I added a toggle through a dog hole. That toggle is uglier than a clamp, and it does not walk when the bit hits dense pecan.
 
-If the post is already thin at the top for looks, maybe there is no sliding tail. Maybe there is a tenon from a rail into a thicker lower zone. The taper you cut to make the post pretty is allowed to revoke a joint. Listen.
+The same trough is a sawing saddle if I am cutting by hand. I set a scrap behind the plate so the wrist has a neighbor. Mixing a cradled start with a freehand finish on the long walls is how you get a banana you will blame on the bit.
+
+## The dry-slide I recut
+
+I keep a walnut trestle sample in the rack — practice, not a named job. I cut a stopped sliding tail for a stretcher that enters from the fat end. On the first dry-slide the tail hung three inches short of the stop. The thin end of the socket was tighter than the fat, which is what a taper does if you cut the tail to a test block taken from parallel scrap.
+
+I recut the tail, not the socket. The socket already had as much depth as the thin end would give. I planed a long taper onto the tail’s underside, a shaving that died before the fat shoulder, so the rail could enter and then seat. I marked that shaving on a story stick: two saw cuts in the edge, fat and thin, plus the amount I took off. The next rail I cut from the stick. A number on a pad gets lost.
+
+## January at the thin end
+
+White oak in this county still moves. The 65-foot shop has glass on the long wall; a clear January afternoon cooks the bench and the thin end of a tapered post loses moisture faster than the fat end. I have watched a socket that slid on a wet Monday grab on a dry Wednesday, tightest at the top, which is exactly where you have the least meat to pare.
+
+The unglued third belongs at the thin end so that end can shine a little when the post shrinks around it. Shine is not a split. A split on a taper starts at the thin show face and runs downhill like a creek.
+
+Pecan is worse. Density changes along a taper if the post was cut near the pith; the thin end can be all latewood. A burned first pass glazes that latewood and the tail sticks. I take the last pass by hand at the thin stop. The router does not finish a cut I cannot see the bottom of.
+
+## Bit, wax, and the stop you can photograph
+
+I use a 14-degree dovetail bit when the post has the thickness, and a shallower cutter when the thin end is under 1-1/4. [VERIFY] the actual cutters on the floor before a caption names an angle. The shallower bit leaves more wood behind the socket wall.
+
+Wax is not a finish here. A paraffin rub on the tail, kept off the glue third, lets me slide without a dead-blow. A dead-blow on a taper is a request for the thin end to split. If the rail will not go, I sneak the tail. I do not sneak the socket deeper toward a face I already measured as thin.
+
+The stop wants a square wall. I chop it from the inside after the router dies 1/16 short. A router asked to make the stop will blow the thin arris — the one you see when you walk past the table.
 
 ## What I want from D:\BBF
 
-A thickness map in chalk on a tapered post. A stopped socket. The blowout smile I plugged, if I still have that post. The plug is the lesson.
+A thickness map in chalk on a tapered post, both numbers readable. The pine cradle with a post in it, router sole sitting flat. A stopped socket that did not break the show. The plugged smile if that post still exists — the plug is the lesson. No filename until a real frame is pulled.
 
-<!-- PACK-W2 -->
+## Next time
 
-## Chalk the thin end
+If the drawing wants a pretty thin top, I move the rail down into thicker country, or I change the joint to a tenon that lives in the fat zone. The pretty cut does not owe me a sliding tail. I will not put a hanger bolt through the same meat.
 
-I write the two thicknesses on the post in chalk, thin and fat, before I pick a bit. If I cannot see the numbers, I will set depth from the fat end again. The chalk is the jig I always have.
-
-<!-- PACK-W2L -->
-
-## Shop morning, tapered post
-
-Taper first. Chalk both thicknesses. Depth from the thin. Saddle for the fence. Stop the show. Slide from the fat if I can. Glue the fat third. No hanger bolt in the same meat. If the top is too thin for a tail I move the rail down or I change the joint.
-
-## The judgment
-
-A tail on a taper is a thickness problem wearing a joinery costume. Measure both ends of the socket. Stop before the show face. Slide from the end that can afford to be a wedge. The taper you cut to make the post pretty is the same taper that will punish you if the joint pretends the post is still square.
+A tail that only works on the day you cut it was cut for a square post you no longer have. The joint is finished when the show face is still a face and the thin end can still take a January.

@@ -3,7 +3,7 @@ title: "Two Rows of Teeth"
 slug: two-rows-of-teeth
 status: draft
 voice_check: human
-word_count: 1279
+word_count: 1372
 dek: "A houndstooth dovetail is not decoration first. It is a second row of pins in the same corner, and the only reason to cut it is that the corner has the thickness and the load to use them."
 series: furniture-advanced-joinery
 topic: compound-dovetails
@@ -78,25 +78,23 @@ I staggered wrong on one practice corner and the inner pins lined up under the o
 
 I also once left the inner baseline too close to the outer and the wall between rows became a veneer. It cracked on the dry-fit. Thickness is not a mood. If the board is 7/8, you may not have two honest rows. Say so and cut one.
 
-<!-- PACK-EXPANSION -->
-
 ## Thickness I will not fake
 
 If the board is 7/8, I measure the two baselines on a scrap of the same thickness before I commit a chest corner. If the wall between rows is paper, I cut one row. A fake second row — a shallow nick that photographs as houndstooth — is a caption I will not write.
 
 Clamp time on four thick corners in July is a relay. I still glue two, then two. PVA is a sprint I will not run around a 4-foot box with inner teeth I cannot see seating.
 
-<!-- PACK-W2 -->
-
 ## Inner row, last look
 
 I dry-fit until the outer teeth look finished, then I tap the inside. If the inner row is proud, I pare those cheeks and I do not call the corner done from the sofa view. The sofa view is how inner rows get left fat.
 
-<!-- PACK-W2L -->
+## Cauls that can see the inner row
 
-## Shop morning, thick corner
+Four thick corners in July are a relay. I glue two, then two. The cauls are leather-faced and they stop short of the inner baseline so I can still tap the inside teeth and feel if they seated. A caul that covers the whole end is a caul that hides a proud inner pin until the glue has already voted.
 
-Scrap of the same thickness. Two baselines. Stagger, not a ladder. Wall between rows is meat, not paper. Outer tails, then inner. Chop the inner like veneer work. Glue two corners, then two, in July. Tap the inside before I like the sofa view.
+I keep a scrap of the same thickness with both baselines already scribed. Before I commit a chest, I dry-chop that scrap. If the wall between rows is paper, I cut one row. A second row that exists only in a photograph is a caption I will not write.
+
+What I want from `D:\BBF`: two baselines on a thick end, and a dry-fit you can look into from the inside. Filename pending the pull.
 
 ## The judgment
 

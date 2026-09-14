@@ -3,7 +3,7 @@ title: "A Confirmat in Ply"
 slug: a-confirmat-in-ply
 status: draft
 voice_check: human
-word_count: 1206
+word_count: 1425
 dek: "A confirmat is a fat screw with a thread that likes plywood. It is a knockdown if you can get it out. It is a joint if you piloted both pieces as if you meant them to meet again."
 series: furniture-advanced-joinery
 topic: knockdown
@@ -34,6 +34,8 @@ The confirmat went in with that waxy, slow bite that means the pilot was right, 
 
 This belongs next to the 32mm essay. Same world. A one-man shop will still build a ply case that has to come apart. Confirmats can be removed and driven again a few times if you did not wreck the edge. After a few times, the edge is a hole. Then you insert, or you dowel, or you admit the case is now permanent.
 
+Ply is the native food. I will not confirmat a walnut solid case to save an afternoon. Solids get inserts or tails. The caption says ply and screw, or it does not get this screw.
+
 ## Pilot both pieces
 
 The face panel gets a clearance hole for the shank. The edge gets a smaller hole for the thread. Special step-drills exist because this is not optional. I mark a fence so the confirmat lands in the middle of the edge, not a hair toward the show face where it will telegraph.
@@ -44,6 +46,22 @@ Clamps while you drive. A confirmat will walk a panel if the panel is free. The 
 
 I still like a rabbet or a tongue to locate, then the confirmat to clamp. Location plus clamp. The same sentence as the cam, the barrel, the bed bolt. Hardware is not a substitute for a shoulder. It can be a substitute for glue.
 
+## The step-drill stays in the press
+
+The step-drill lives in the drill press for this job, not in a hand drill I cannot keep square to an edge. A tipped confirmat is a mushroom. A mushroom is a cap that will not sit. I joint the edge first. A clean edge takes a thread. A burned edge from a dull blade powders, and the powder is not a nut.
+
+I set a fence on the press so every edge hole is the same inset and the same depth. Face clearance holes come from a story stick I made for that case — one stick, the hole centers marked, no tape I re-read four times. The stick hangs on the same hook as the step-drill so I cannot lose the relationship.
+
+I dry-assemble with clamps and no screws, check for square against a rod from corner to corner, then I drive. The first confirmat in a corner sets the relationship. If it walks, I back it out and I clamp harder. I do not drive the other three to “pull it over.” Four screws pulling a panel into a parallelogram is a case you will fight at the wall.
+
+## A case I would actually confirmat
+
+A four-shelf ply bookcase, 30 by 12 by 72, maple veneer, a rental that will move twice. I would rabbet the back, confirmat the four corners and the fixed middle shelf, and leave the other shelves on pins in a 32mm row if I had the grid. The middle shelf is the racking rail. Without it the case is a ladder even if every confirmat is perfect.
+
+I cut the parts from one sheet when I can so the veneer direction agrees. I mark inside faces. Maple veneer will telegraph a confirmat that sat a hair toward the show. The fence is cheaper than a filler that never quite matches.
+
+Caps over the heads: I use them on show faces. I do not use them as a way to hide a head that is already crushed. Seat the head in a clean countersink. The cap is a cover, not a bandage.
+
 ## Failures
 
 Scabbed veneer. Step-drill. Clamp.
@@ -52,65 +70,32 @@ I also used confirmats in solid-wood edges. They can work. They also split. Ply 
 
 A confirmat as a hinge: no.
 
-<!-- PACK-EXPANSION -->
-
-## A case I would actually confirmat
-
-A four-shelf ply bookcase, 30 by 12 by 72, maple veneer, a rental that will move twice. I would rabbet the back, confirmat the four corners and the fixed middle shelf, and leave the other shelves on pins in a 32mm row if I had the grid. The middle shelf is the racking rail. Without it the case is a ladder even if every confirmat is perfect.
-
-I cut the parts from one sheet when I can so the veneer direction agrees. I mark inside faces. I drill the edge holes on the drill press with a fence, all the same inset, all the same depth. Then I drill the face clearance holes from a story stick, not from a tape I re-read four times. Then I dry-assemble with clamps and no screws, check for square, then I drive.
-
-The first confirmat in a corner sets the relationship. If it walks, I back it out and I clamp harder. I do not drive the other three to “pull it over.” Four screws pulling a panel into a parallelogram is a case you will fight at the wall.
-
-## Summer in a 65-foot shop
-
-Ply still moves a little, and the glue in the core still smells when the glass wall cooks the bench. I do not leave a dry-fit case clamped overnight in that heat with confirmats half-driven; the heads will print. Drive, seat, done. If I have to stop, I take the screws out so they are not a clamp on a swelling edge.
-
-A confirmat through an edge that was cut with a dull blade is a mushroom waiting. Joint the edge. A clean edge takes a thread. A burned edge powders.
+The walk I owned was a tall side I drove without the rabbet seated. The panel crept a sixteenth as the thread pulled. I kept driving. The case was then a parallelogram you could see from the glass wall. I backed all four out, I clamped the rabbet home, I drove the first corner true, and I plugged nothing because the holes had not yet ovaled. Pride would have been the fifth screw.
 
 ## How many teardowns
 
 I will take a confirmat out twice without much grief if the pilot was right. The third time the edge starts to look polished. The fourth time I am in a hole. Then I go to an insert in a plugged hole, or I move over a half-inch and I plug the first. Design the case so the customer is not doing this every spring. Shop fixtures can be a different number. Furniture that ships once and lives is one teardown at delivery and maybe one more at a move. That is the life I drill for.
 
-Caps over the heads: I use them on show faces. I do not use them as a way to hide a head that is already crushed. Seat the head in a clean countersink. The cap is a cover, not a bandage.
+If I expect many teardowns, I insert from the start and I use the confirmat only where I mean a few. An insert in ply wants a clean hole and a bit of epoxy or a tight thread in the face — [VERIFY] the house habit before anyone prints a recipe. The confirmat is not jealous. It is a tool with a short life in an edge.
 
-## What I want from D:\BBF
+## Summer in a 65-foot shop, and a stair that is a truck
 
-A close frame of a seated head in maple ply, raking light, no mushroom. A second frame of the step-drill in the chuck and the two diameters on a scrap with the names of the diameters written in chalk — not a brand, a size. If the library has a blown face-veneer scab, that is a better teacher than a catalog shot of a clean case.
+Ply still moves a little, and the glue in the core still smells when the glass wall cooks the bench. I do not leave a dry-fit case clamped overnight in that heat with confirmats half-driven; the heads will print. Drive, seat, done. If I have to stop, I take the screws out so they are not a clamp on a swelling edge.
+
+August humidity will swell a ply edge just enough that a confirmat you left sitting in a half-driven hole becomes a clamp you did not mean. I have a printed ring in a maple cheek that is the shape of a confirmat head. I sanded it. I still see it.
+
+The hallway changes this joint when the case has to come apart on a landing and go back together in a room that is not square. I square the case to itself, not to the wall, and I shim the gap. Four confirmats used as wracking irons against a drunk wall will oval the edges on the first move. The wall is not a clamp.
+
+A truck is a stair that rattles. I bag the confirmats with the driver that fits them. A kitchen that has every bit except this one is a kitchen that will grab a drywall screw. That substitution is a scab I already described.
 
 ## When I put the box away
 
-If the case is walnut solids, I do not reach for this screw. If the case is a chest a person will call furniture in the sitting-room sense, I dovetail or I loose-tenon and I use hardware as a clamp, not as the corner. If the case is ply and it has to live in a truck, the confirmat is a citizen. The caption should say ply and screw, not heirloom and handmade. The joint can still be square, clean, and kind to the next person who has to take it apart.
+If the case is walnut solids, I do not reach for this screw. If the case is a chest a person will call furniture in the sitting-room sense, I dovetail or I loose-tenon and I use hardware as a clamp, not as the corner. If the case is ply and it has to live in a truck, the confirmat is a citizen. The joint can still be square, clean, and kind to the next person who has to take it apart.
 
-<!-- PACK-W2 -->
+## What I want from D:\BBF
 
-## Drive the first corner true
-
-The first confirmat sets the relationship. If it walks, I back it out and I clamp harder. I do not drive the other three to pull a panel into a parallelogram. Four screws on a diagonal is a case I will fight at the wall.
-
-<!-- PACK-W2L -->
-
-## Shop morning, ply case
-
-One sheet, faces marked. Edge holes on the press. Face holes from a stick. Dry clamp, square, then drive. First corner true. Caps on clean heads. I count teardowns I expect. If I expect many, I insert. If the case is walnut solids, I put this screw back in the drawer.
-
-<!-- PACK-W3 -->
-
-## Veneer scab
-
-A dull edge and a single-diameter stab lift a face veneer like a scab. I joint the edge. I use the two diameters. I clamp. I drive the first corner true.
-
-I will not confirmat a walnut solid case to save an afternoon. Ply is the native food. Solids get inserts or tails. The caption says ply and screw, or it does not get this screw.
-
-<!-- PACK-W4 -->
-
-## Step-drill in the press
-
-The step-drill lives in the press for this job, not in a hand drill I cannot keep square to an edge. A tipped confirmat is a mushroom. A mushroom is a cap that will not sit. I joint the edge first.
-
-<!-- PACK-TINY -->
-Square first, then the screw, then the cap.
+A close frame of a seated head in maple ply, raking light, no mushroom. A second frame of the step-drill in the press — not a hand drill — and the two diameters on a scrap with the names of the diameters written in chalk, not a brand, a size. The story stick hanging next to the fence. If the library has a blown face-veneer scab, that is a better teacher than a catalog shot of a clean case. Do not invent the frame.
 
 ## The judgment
 
-A confirmat in ply is a piloted, clamped, two-diameter fastener that can knock down a few times. It is not a dovetail. It is not a sin in a sheet-good case. The sin is a single stab and a caption that says handmade when you meant handy.
+A confirmat in ply is a piloted, clamped, two-diameter fastener that can knock down a few times. It is not a dovetail. It is not a sin in a sheet-good case. The sin is a single stab, a walnut chest asked to prove a ply screw, and a caption that says handmade when you meant handy.

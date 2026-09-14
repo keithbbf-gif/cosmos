@@ -3,7 +3,7 @@ title: "An Ellipse from Segments"
 slug: an-ellipse-from-segments
 status: draft
 voice_check: human
-word_count: 1216
+word_count: 1530
 dek: "An elliptical frame is a ring of miters that are all a little different. A spline or a bridle keeps the ring from becoming a pile of pretty chords."
 series: furniture-advanced-joinery
 topic: curved-work
@@ -70,58 +70,42 @@ I also splined with the grain of the rim because it was pretty. The spline split
 
 A table rim I glued without a full-size drawing “because I could see it.” I could not see an ellipse. I could see six pieces that wanted to be a circle. Draw.
 
-<!-- PACK-EXPANSION -->
+## Paper, pins, and a shooting board
 
-## Full-size paper
+I draw the ellipse full size and I stick it to the bench. String and two pins will give you the line if you trust the pins not to walk. Station points from a plotted major and minor axis are slower and, in a loud shop, less likely to drift when someone bumps the string. I have used both. I keep the paper until the glass is in. Memory makes circles. Circles are easier and they are not this job.
 
-I draw the ellipse, I stick it to the bench, I cut to the lines with a bevel locked to the paper, not to a remembered degree. I sneak the last pair. I spline across the miters. I band-clamp. I check both axes with sticks. Then I fair. Then I rebate for glass.
+The tool that is not already in this essay is a short shooting board I keep for local miters. Each segment gets its bevel from the paper, then a pass or two on the board so the face is a plane, not a saw-scallop. I do not shoot all eight to a remembered fence angle. I reset the board’s fence from the bevel locked to that joint’s line. An oval is a ring of local honesty. A single fence setting is how I build a circle that wanted to be an oval.
 
-A nickel at the last joint is cumulative error. I recut the last pair. I always leave them fat now.
+I leave the last pair fat. I dry-fit the ring on the paper. I sneak.
+
+## The recut that opened the other side
+
+The nickel at the last joint is the famous error. The quieter one is what happened after I recut that pair and shut the nickel: the joint across the major axis opened a hair on the inside. I had stolen length from one meeting and the ring had paid for it opposite. I unclamped. I dressed the opposite pair a whisper. I dry-fit again. The nickel had moved, not vanished.
+
+Now I sneak two meetings, not one. I mark both with chalk while the band clamp is on, I take the clamp off, I shoot the chalked faces, I clamp again. I do not fair until both axes have sat still. A ring that is still creeping is a ring I will thin in the wrong place.
+
+I leave the spline proud a hair and I flush it after the ring is true. A flushed spline in an open ring is a spline I will thin while I sneak. Thin cross-grain splines still split if you starve them. Thin with-the-rim splines split because they were never a spline.
+
+## Sticks, pads, and a clamp that dents
+
+Two sticks, two axes, one band clamp. I pad the band. A band clamp on oak will leave a stripe you will fair away and then wonder why that station went thin. Cork or leather scraps, lettered to the segments so I put the same pad on the same belly. A random pad is a random dent.
+
+If the long axis grew, I unclamp and I sneak before I fair. Fairing a fat axis is how I make a thinner wrong oval. The inside fair is the rebate’s parent. I fair it before I cut the rebate. A lumpy inside is a lumpy glass line. Glass does not forgive a lump.
+
+I cut the rebate with a bearing after the ring is true, the ring running against a block I clamp to the bench so I am not freehanding an oval on a router table that thinks in rectangles. If the ring is too precious for a machine, a scratch stock and a lot of patience. Either way: after close, not before.
+
+## Humidity on a rim that has to stay an eye
+
+A hanging mirror is a kinder climate than a dining rim. The mirror hangs. People lean on the rim. Oak in a Warren dining room will take August and give it back in January. The ring wants to change its major and minor differently if the grain is not running as a continuous hoop — and it is not. It is chords.
+
+A walnut spline in an oak rim moves less across the joint than the oak wants to. That is fine if the spline is a key. It is a split if the spline was cut with the rim’s grain and the rim dries. Cross the miter. Leave the glass a little free in the rebate. A glass cut to a June ring will be a glass that is tight in January, or a glass that rattles in August, depending on when you cut it. I cut the glass — or I send the opening — after the ring has lived a week in the shop air, not the hour after glue.
+
+I do not print a moisture target. [VERIFY]. I do print the order: close the ring, wait, check the sticks again, then rebate, then glass.
 
 ## What I want from D:\BBF
 
-Segments on the drawing. A spline across a miter. A stick on the long axis.
-
-## Four segments
-
-Four is a lot of fairing and a wild miter. I would rather eight or twelve on a dining rim. Four is a tray. A tray can be four. A table rim that will be leaned on should not be four unless the stock is a beam.
-
-<!-- PACK-W2 -->
-
-## Inside fair
-
-The inside of an elliptical rim is the rebate’s parent. I fair it before I cut the rebate. A lumpy inside is a lumpy glass line. Glass does not forgive a lump.
-
-<!-- PACK-W2L -->
-
-## Shop morning, oval rim
-
-Paper on the bench. Eight or twelve, not four, if a table will be leaned on. Bevel locked to the paper. Splines across the miters. Last pair fat. Band clamp. Sticks on both axes. Fair. Rebate. If I skip the paper I build a circle that wanted to be an oval. I have.
-
-<!-- PACK-W3 -->
-
-## Glass and a nickel
-
-A nickel at the last joint is a glass that will not sit without a shim. Shimmed glass is a headline. I leave the last pair fat. I check both axes. I rebate after the ring is true. I do not rebate a lie.
-
-I will not dovetail an elliptical table rim to prove I can. The rim is a ring. A spline that crosses the miter is the citizen. Teeth are for boxes you lift.
-
-<!-- PACK-W4 -->
-
-## Band clamp and sticks
-
-Two sticks, two axes, one band clamp. If the long axis grew, I unclamp and I sneak before I fair. Fairing a fat axis is how I make a thinner wrong oval. A spokeshave after the ring is true, not before.
-
-<!-- PACK-W5 -->
-
-I keep the drawing on the bench until the glass is in. The paper is cheaper than a second rim. If someone moves the paper I redraw. I do not work from a memory of an oval. Memory makes circles. Circles are easier and they are not this job. The last pair stays fat until the band clamp tells the truth.
-
-<!-- PACK-W6 -->
-I leave the spline proud a hair and I flush it after the ring is true, not before. A flushed spline in an open ring is a spline I will thin while I sneak. Thin splines split along themselves when the rim moves. Cross-grain, after close, then flush.
-
-<!-- PACK-W7 -->
-I do not fair the outside until both axes have sat still under the band clamp. A ring that is still creeping is a ring I will thin in the wrong place.
+Segments sitting on the paper, bevels chalked. A spline standing across a miter, still proud. A stick on the long axis with the band clamp padded. Filename pending the pull. No invented credit.
 
 ## The judgment
 
-An ellipse from segments is a ring of local miters plus a spline that means it. Sneak the last pair. Fair after it closes. Do not ask a circle’s habits to run an oval’s shop. The oval will leave you a nickel and no place to put the glass.
+An ellipse from segments is a ring of local miters plus a spline that means it. Sneak more than one meeting. Fair after both axes sit. Rebate after the ring is true. Do not ask a circle’s one-fence habit to run an oval’s shop. The oval will leave you a nickel, then a second nickel opposite, and no place to put the glass.

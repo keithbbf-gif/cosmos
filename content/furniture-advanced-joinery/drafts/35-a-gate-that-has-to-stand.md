@@ -3,7 +3,7 @@ title: "A Gate That Has to Stand"
 slug: a-gate-that-has-to-stand
 status: draft
 voice_check: human
-word_count: 1208
+word_count: 1343
 dek: "A gate-leg is a frame that swings to hold a leaf and then has to stand like a table, not like a door. The hinge is easy. The rack is the joint."
 series: furniture-advanced-joinery
 topic: knockdown
@@ -48,75 +48,53 @@ A gate that only swings and friction-parks under the leaf will creep. I like a s
 
 Some gates have a small tenon or a block that lands in a mortise in the underside of the leaf. That is a locate. I like it. It is also a thing that will tear out if the leaf is thin and the block is a screw in end grain. Long grain, or an insert.
 
-## Failures
-
-Door-built gate. Rack. Recut with real tenons.
-
-I also hinged a gate off a thin apron with screws that found the mortise of the main rail. The apron split. The hinge wants its own meat. Design a hinge stile.
-
-A gate that opened past the useful point and then would not come back without lifting the table: stop it. A stop is joinery. A dent in the floor is not.
-
-<!-- PACK-EXPANSION -->
+Locate in wood if you can — the block in the leaf, the latch pin in a hole. Clamp in iron if the latch is a hook. The hinge is neither. The hinge is permission to swing. Standing is a different job.
 
 ## Hanging the gate after the table is a table
 
 I build the main frame first — legs, aprons, the rule joint if there is one — and I get it standing without a wobble. Then I hang the gate. A gate hung on a winding table will inherit the wind and add a swing. I shim the hinge stile until the gate’s top rail meets the leaf at the plane I want, then I mortise.
 
-Two hinges, not one. A single hinge is a pivot and a sag. The knuckles should share an axis you can sight. If they do not, the gate will bind at one end of the swing and flop at the other.
+Two hinges, not one. A single hinge is a pivot and a sag. The knuckles should share an axis you can sight. I sight the two hinge knuckles with a stick. If the stick rocks, the gate will rise and the leaf will miss the plane. I fix the axis before I cut a latch. A latch will not correct a rising gate.
 
-A stop at the useful angle keeps the gate from going past and lifting the table. I put the stop on the underside where a foot will not find it. A stop that lives on the floor is a dent.
+A stop at the useful angle keeps the gate from going past and lifting the table. I put the stop on the underside where a foot will not find it. A stop that lives on the floor is a dent. A stop is joinery. A dent in the floor is not.
 
 ## The leaf is a lever
 
-When the leaf is up, the gate is holding a cantilever. The latch has to take that without a creep. I test with weight on the leaf — books, a body, something ruder than a polite hand. If the latch clicks open, I change the latch, not the caption.
+When the leaf is up, the gate is holding a cantilever. The latch has to take that without a creep. I hang a bag of books on the up leaf and I walk away for a minute. If the latch has crept when I come back, I change the latch. A latch that holds a hand and not a bag is a latch for a photo. Dinner is a bag of books that talks and leans.
+
+I sight the leaf plane from the side of the table after the bag of books has sat. If the rule joint opened, the latch crept. I change the latch, not the leaf.
 
 A swing-leg (one leg, not a gate frame) is a cousin. It has even less rectangle to offer. I treat a swing-leg as a post with a good tenon into a hinge rail, and I still latch it. A single leg that only friction-parks is a leaf that will sag during dinner.
 
-## What I want from D:\BBF
-
-Gate open, leaf up, a hand on the corner of the leaf — the rack test. The underside latch. The hinge axis sighted with a stick if we have a working frame.
-
-## Storage
+## Against the wall, through the hall
 
 The table against a wall, gates in, is a different object. The gates should not scrape the floor every time they move. A little clearance, a little felt if the floor is precious. A gate that shaves the floor is a gate whose axis is already wrong or whose legs are already long.
 
-<!-- PACK-W2 -->
-
-## Weight on the leaf
-
-I put weight on the up leaf — books, a body — and I watch the latch. A latch that clicks open is a latch I change. A gate built like a cabinet door will rack. I mortise the gate like a small chair.
-
-<!-- PACK-W2L -->
-
-## Shop morning, gate-leg
-
-Main frame standing, no wind. Gate mortised like a chair. Two hinges, axis sighted. Latch that takes a body on the leaf. Stop so the gate cannot go past and lift the table. Clearance so the gate does not shave the floor when the table lives against a wall. If any of that is missing, I do not call it a dining table. I call it a project.
-
-<!-- PACK-W3 -->
-
-## Floor shave
-
-A gate that shaves the floor is an axis that is already wrong or a leg that is already long. I hang the gate after the table stands. I latch it under a body on the leaf. I stop it before it lifts the table.
-
-I will not biscuit a gate and hope. A gate is a small chair. Chairs get tenons.
-
-<!-- PACK-W4 -->
-
-## Stick on the knuckles
-
-I sight the two hinge knuckles with a stick. If the stick rocks, the gate will rise and the leaf will miss the plane. I fix the axis before I cut a latch. A latch will not correct a rising gate.
-
-<!-- PACK-W5 -->
-
-I hang a bag of books on the up leaf and I walk away for a minute. If the latch has crept when I come back, I change the latch. A latch that holds a hand and not a bag is a latch for a photo. Dinner is a bag of books that talks and leans.
-
-<!-- PACK-W6 -->
 I put felt on the gate foot if the floor is precious, after the axis is true. Felt will not hide a shave. A shave means I recut a leg or I remortise a hinge. Then felt.
 
-<!-- PACK-W7 -->
-I sight the leaf plane from the side of the table after the bag of books has sat. If the rule joint opened, the latch crept. I change the latch, not the leaf.
+In the shop I walk the folded table through the chalk door. A gate-leg that is “fine open” and too thick folded for a 1920s turn is a table I will recut the leaf for, or I will admit it is a dining table that lives in the room. The knockdown is the footprint. If the footprint will not travel, the hinges were decoration.
 
-A gate is a small chair I hinged to a table, and I will mortise it like one every time.
+## Wet week, dry week
+
+A leaf that sat through a wet week on the glass wall will cup. The gate that was plumb in a dry January shop will then bind at one end of the swing and flop at the other. I finish both faces of the leaf. I hang the gate after the leaf has gone quiet, not the afternoon I glued the rule joint.
+
+I once hung a gate the same day I jointed a leaf that had come in from a humid truck. The leaf flattened overnight. The gate, which had met the leaf at noon, met air at the far corner in the morning. I remortised. Now the leaf sits stickered in the shop until it stops moving, and then I hang.
+
+I clamp the gate frame to the bench like a small chair when I chop the tenons — holdfast on the stile, caul on the show — so the shoulder does not creep under the mallet. I pare hinge mortises with a router plane after I have sighted the stick on the knuckles. A chisel-only mortise that is deep at one end is how an axis that looked plumb on Monday rises on Tuesday.
+
+## Failures I will own
+
+Door-built gate. Rack. Recut with real tenons.
+
+I also hinged a gate off a thin apron with screws that found the mortise of the main rail. The apron split. The hinge wants its own meat. Design a hinge stile.
+
+A gate that opened past the useful point and then would not come back without lifting the table: stop it.
+
+I biscuit-joined a practice gate because I wanted to see the swing before I “committed” to mortises. The biscuits held a polite hand and then racked under the bag of books. I burned the gate for kindling and I cut a new one with tenons. A gate is a small chair. Chairs get tenons. A practice failure you can own is cheaper than a dinner that slides.
+
+## What I want from D:\BBF
+
+Gate open, leaf up, a hand on the corner of the leaf — the rack test. The underside latch. The hinge axis sighted with a stick if we have a working frame. Filename pending the shop pull. Photographer unnamed until metadata is pulled.
 
 ## The judgment
 
