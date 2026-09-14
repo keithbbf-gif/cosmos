@@ -2,6 +2,7 @@
 
 **Pull request:** [#387](https://github.com/keithbbf-gif/cosmos/pull/387)  
 **Editor pass:** 2026-09-14 (UTC)  
+**Second verification:** 2026-09-14 (Cursor lane `465b`) — full `claims_lint` + pytest re-run; brochure and second-person dose sweeps; no further body edits required.  
 **Scope:** All forty-seven `VH-*.md` drafts, folder guardrails, `claims_lint.py`  
 **Outcome:** `voice_check: edited` on every draft; claims fence tightened in seven essay bodies; lint and pytest green. **Draft PR only — not merged.**
 
