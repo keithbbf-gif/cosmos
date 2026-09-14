@@ -6,11 +6,25 @@ import { loadConfig, requireRolledFeed, requireTranscriptDir } from "./config.ts
 import type { Env } from "./config.ts";
 import type { FetchLike } from "./core.ts";
 import { listSessions, openSession } from "./core.ts";
-import { SessionPluginRefusal } from "./refusals.ts";
+import { scrub, SessionPluginRefusal } from "./refusals.ts";
 import { timeline } from "./rolled.ts";
-import { readSession, searchSessions } from "./transcript.ts";
+import { TRANSCRIPT_SCHEMA, readSession, searchSessions } from "./transcript.ts";
 
 export const RESULT_SCHEMA = "cosmos-session-plugin-result/1";
+export { TRANSCRIPT_SCHEMA };
+
+const REFUSAL_KINDS = new Set<string>([
+  "NO_SOURCE",
+  "NOT_FOUND",
+  "LEGAL_OMITTED",
+  "LEN_MISMATCH",
+  "HASH_MISMATCH",
+  "SCHEMA_UNKNOWN",
+  "NO_TOKEN",
+  "CORE_UNREACHABLE",
+  "BAD_ARGS",
+  "UNMEASURED",
+]);
 
 export type ToolContext = { env: Env; fetchImpl?: FetchLike };
 
@@ -49,6 +63,115 @@ function num(args: Record<string, unknown>, key: string, fallback: number): numb
   const v = args[key];
   const n = typeof v === "number" ? v : Number(v);
   return Number.isFinite(n) && n >= 0 ? Math.floor(n) : fallback;
+}
+
+function isRefusalKind(kind: string): boolean {
+  return REFUSAL_KINDS.has(kind) || /^HTTP_\d{3}$/.test(kind);
+}
+
+/** Bearer material from the host env. Never logged; used only to scrub. */
+function secretsOf(ctx: ToolContext): Array<string | undefined> {
+  const inline = (ctx.env.COSMOS_API_TOKEN || "").trim() || undefined;
+  let resolved: string | undefined;
+  try {
+    resolved = loadConfig(ctx.env).token;
+  } catch {
+    resolved = undefined;
+  }
+  return [inline, resolved];
+}
+
+function scrubUnknown(value: unknown, secrets: Array<string | undefined>): unknown {
+  if (typeof value === "string") return scrub(value, secrets);
+  if (Array.isArray(value)) return value.map((v) => scrubUnknown(v, secrets));
+  if (value && typeof value === "object") {
+    const out: Record<string, unknown> = {};
+    for (const [k, v] of Object.entries(value as Record<string, unknown>)) {
+      out[k] = scrubUnknown(v, secrets);
+    }
+    return out;
+  }
+  return value;
+}
+
+function envelope(
+  tool: string,
+  ok: boolean,
+  kind: string,
+  gate: Record<string, unknown>,
+  legalOmitted: unknown,
+  ctx?: ToolContext,
+): ToolResult {
+  const secrets = ctx ? secretsOf(ctx) : [];
+  return {
+    schema: RESULT_SCHEMA,
+    tool,
+    ok,
+    kind,
+    gate: scrubUnknown(gate, secrets) as Record<string, unknown>,
+    legal_omitted: legalOmitted,
+  };
+}
+
+function refuseEnvelope(
+  tool: string,
+  kind: string,
+  detail: string,
+  ctx?: ToolContext,
+): ToolResult {
+  return envelope(
+    tool,
+    false,
+    kind,
+    { detail },
+    kind === "LEGAL_OMITTED" ? 1 : null,
+    ctx,
+  );
+}
+
+/**
+ * Fail-closed wrap of a tool.run gate. Schema strings are exact (`===`),
+ * LEGAL_OMITTED is honoured on both mechanics, and a typed refusal kind is
+ * never reported as ok.
+ */
+function wrapGate(
+  tool: string,
+  gate: Record<string, unknown>,
+  ctx: ToolContext,
+): ToolResult {
+  const kind = String(gate.kind || "OK");
+  const head = gate.head && typeof gate.head === "object"
+    ? gate.head as { schema?: unknown; legal?: unknown }
+    : undefined;
+
+  // File-store mechanic: head.legal is omitted here, not repaired into a row.
+  if (head?.legal === true) {
+    return refuseEnvelope(tool, "LEGAL_OMITTED", String(gate.id || tool), ctx);
+  }
+
+  // cosmos-transcript/1 is exact. A suffix, prefix, or v2 is SCHEMA_UNKNOWN.
+  if (head && head.schema !== TRANSCRIPT_SCHEMA) {
+    return refuseEnvelope(
+      tool,
+      "SCHEMA_UNKNOWN",
+      `${String(gate.id || tool)}: head.schema is ${String(head.schema)}`,
+      ctx,
+    );
+  }
+
+  // Core mechanic: Core's own kind is the refusal (open LEGAL_OMITTED).
+  if (kind === "LEGAL_OMITTED") {
+    return envelope(tool, false, "LEGAL_OMITTED", gate, gate.legal_omitted ?? 1, ctx);
+  }
+
+  return envelope(
+    tool,
+    !isRefusalKind(kind),
+    kind,
+    gate,
+    gate.legal_omitted ?? null,
+    ctx,
+  );
 }
 
 export const SESSION_TOOLS: ToolDef[] = [
@@ -108,6 +231,7 @@ export const SESSION_TOOLS: ToolDef[] = [
       additionalProperties: false,
     },
     async run(args, ctx) {
+      // No local parse. readSession -> readVerified (len+sha, then JSON.parse).
       const dir = requireTranscriptDir(loadConfig(ctx.env));
       return readSession(dir, str(args, "id") || "", num(args, "offset", 0), num(args, "limit", 50));
     },
@@ -129,6 +253,8 @@ export const SESSION_TOOLS: ToolDef[] = [
       additionalProperties: false,
     },
     async run(args, ctx) {
+      // No local parse and no unverified scan. searchSessions calls readVerified
+      // per id (len+sha before JSON.parse); a failed file is refused by id.
       const dir = requireTranscriptDir(loadConfig(ctx.env));
       const ids = Array.isArray(args.ids) ? (args.ids as unknown[]).map(String) : undefined;
       return searchSessions(dir, str(args, "query") || "", num(args, "limit", 20), ids);
@@ -160,8 +286,9 @@ export function findTool(name: string): ToolDef | undefined {
 }
 
 /**
- * Always returns an envelope. A refusal is a typed result an agent can read, not
- * an exception string it has to guess at.
+ * Always returns a cosmos-session-plugin-result/1 envelope. A refusal is a
+ * typed kind an agent can read, not an exception string it has to guess at.
+ * Every failure path below mints a kind; nothing falls out as a throw.
  */
 export async function runTool(
   name: string,
@@ -170,47 +297,20 @@ export async function runTool(
 ): Promise<ToolResult> {
   const tool = findTool(name);
   if (!tool) {
-    return {
-      schema: RESULT_SCHEMA,
-      tool: name,
-      ok: false,
-      kind: "NOT_FOUND",
-      gate: { detail: `no such tool: ${name}` },
-      legal_omitted: null,
-    };
+    return refuseEnvelope(name, "NOT_FOUND", `no such tool: ${name}`, ctx);
   }
   for (const req of tool.inputSchema.required || []) {
     if (args[req] === undefined || args[req] === null || args[req] === "") {
-      return {
-        schema: RESULT_SCHEMA,
-        tool: tool.name,
-        ok: false,
-        kind: "BAD_ARGS",
-        gate: { detail: `${tool.name} requires ${req}` },
-        legal_omitted: null,
-      };
+      return refuseEnvelope(tool.name, "BAD_ARGS", `${tool.name} requires ${req}`, ctx);
     }
   }
   try {
     const gate = await tool.run(args, ctx);
-    return {
-      schema: RESULT_SCHEMA,
-      tool: tool.name,
-      ok: true,
-      kind: String(gate.kind || "OK"),
-      gate,
-      legal_omitted: gate.legal_omitted ?? null,
-    };
+    return wrapGate(tool.name, gate, ctx);
   } catch (e) {
-    const kind = e instanceof SessionPluginRefusal ? e.kind : "UNMEASURED";
-    return {
-      schema: RESULT_SCHEMA,
-      tool: tool.name,
-      ok: false,
-      kind: String(kind),
-      gate: { detail: (e as Error).message },
-      legal_omitted: kind === "LEGAL_OMITTED" ? 1 : null,
-    };
+    const kind = e instanceof SessionPluginRefusal ? String(e.kind) : "UNMEASURED";
+    const detail = e instanceof Error ? e.message : String(e);
+    return refuseEnvelope(tool.name, kind, detail, ctx);
   }
 }
 

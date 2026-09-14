@@ -7,15 +7,20 @@
 //
 //     node --experimental-strip-types builds/session-plugin/test/test_session_plugin.ts
 
+import { createHash } from "node:crypto";
+import { mkdirSync, writeFileSync } from "node:fs";
 import { createServer } from "node:http";
 import type { Server } from "node:http";
+import { tmpdir } from "node:os";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 
 import { loadConfig } from "../src/config.ts";
 import { RECENTS_SCHEMA } from "../src/core.ts";
 import { readVerified } from "../src/transcript.ts";
-import { mcpCallTool, mcpListTools, runTool, SESSION_TOOLS } from "../src/tools.ts";
+import {
+  mcpCallTool, mcpListTools, RESULT_SCHEMA, runTool, SESSION_TOOLS, TRANSCRIPT_SCHEMA,
+} from "../src/tools.ts";
 import type { ToolResult } from "../src/tools.ts";
 import { CosmosSessionsPlugin } from "../.opencode/plugins/cosmos_sessions.ts";
 
@@ -119,8 +124,11 @@ async function main(): Promise<number> {
       open.ok && String(open.gate.text).includes("hello from plumbing") &&
       open.gate.opencode_id === "ses_cow_001" &&
       seen.some((s) => s.path.includes("open=1") && s.path.includes("id=cow-abc")));
-    await check("session.open passes Core's LEGAL_OMITTED through as the kind", async () =>
-      (await run("session.open", { id: "cow-leg1" }, coreEnv)).kind === "LEGAL_OMITTED");
+    await check("session.open passes Core's LEGAL_OMITTED through as the kind", async () => {
+      const r = await run("session.open", { id: "cow-leg1" }, coreEnv);
+      return r.kind === "LEGAL_OMITTED" && r.ok === false && r.legal_omitted === 1 &&
+        r.schema === RESULT_SCHEMA && !("text" in r.gate);
+    });
     await check("session.open on an unknown id is NOT_FOUND, not an empty session", async () =>
       (await run("session.open", { id: "nope" }, coreEnv)).kind === "NOT_FOUND");
     await check("session.open without an id is BAD_ARGS before any request", async () =>
@@ -160,16 +168,23 @@ async function main(): Promise<number> {
       return (r.gate.turns as Array<{ seq: number }>).length === 1 &&
         (r.gate.turns as Array<{ seq: number }>)[0].seq === 2 && r.gate.n_turns === 2;
     });
-    await check("session.read refuses a legal transcript", async () =>
-      (await run("session.read", { id: "cow-leg1" }, fileEnv)).kind === "LEGAL_OMITTED");
+    await check("session.read refuses a legal transcript", async () => {
+      const r = await run("session.read", { id: "cow-leg1" }, fileEnv);
+      return r.kind === "LEGAL_OMITTED" && r.ok === false && r.legal_omitted === 1 &&
+        r.schema === RESULT_SCHEMA && !("turns" in r.gate) && !("head" in r.gate);
+    });
     await check("session.read of an unknown id is NOT_FOUND", async () =>
       (await run("session.read", { id: "cow-nope" }, fileEnv)).kind === "NOT_FOUND");
-    await check("mutated bytes under a good sidecar refuse HASH_MISMATCH", async () =>
-      (await run("session.read", { id: "cow-tamper" },
-        { COSMOS_TRANSCRIPT_DIR: TAMPERED })).kind === "HASH_MISMATCH");
-    await check("truncated bytes refuse LEN_MISMATCH before any parse", async () =>
-      (await run("session.read", { id: "cow-short" },
-        { COSMOS_TRANSCRIPT_DIR: TAMPERED })).kind === "LEN_MISMATCH");
+    await check("mutated bytes under a good sidecar refuse HASH_MISMATCH", async () => {
+      const r = await run("session.read", { id: "cow-tamper" },
+        { COSMOS_TRANSCRIPT_DIR: TAMPERED });
+      return r.kind === "HASH_MISMATCH" && !r.ok && !("turns" in r.gate);
+    });
+    await check("truncated bytes refuse LEN_MISMATCH before any parse", async () => {
+      const r = await run("session.read", { id: "cow-short" },
+        { COSMOS_TRANSCRIPT_DIR: TAMPERED });
+      return r.kind === "LEN_MISMATCH" && !r.ok && !("turns" in r.gate);
+    });
     await check("no COSMOS_TRANSCRIPT_DIR is NO_SOURCE, never a guessed root", async () =>
       (await run("session.read", { id: "cow-abc" }, {})).kind === "NO_SOURCE");
 
@@ -214,6 +229,68 @@ async function main(): Promise<number> {
     // --- host adapters ---
     await check("an unknown tool name is NOT_FOUND, not a throw", async () =>
       (await run("session.nope", {}, fileEnv)).kind === "NOT_FOUND");
+
+    // --- envelope hardening (WO-F) ---------------------------------------
+    await check("every result schema is exactly cosmos-session-plugin-result/1", async () => {
+      const samples = [
+        list, open, read, hit, tl,
+        await run("session.open", { id: "cow-leg1" }, coreEnv),
+        await run("session.read", { id: "cow-nope" }, fileEnv),
+        await run("session.nope", {}, fileEnv),
+      ];
+      return samples.every((r) => r.schema === RESULT_SCHEMA && r.schema ===
+        "cosmos-session-plugin-result/1");
+    });
+    await check("session.read head.schema is exactly cosmos-transcript/1", () =>
+      (read.gate.head as { schema: string }).schema === TRANSCRIPT_SCHEMA &&
+      TRANSCRIPT_SCHEMA === "cosmos-transcript/1");
+    await check("a suffixed transcript schema is SCHEMA_UNKNOWN, not a prefix match", async () => {
+      const dir = join(tmpdir(), `ctr-schema-${process.pid}`);
+      mkdirSync(dir, { recursive: true });
+      const head = {
+        schema: "cosmos-transcript/1-beta", id: "cow-schema", family: "cowork",
+        legal: false, n_turns: 1,
+      };
+      const payload = Buffer.from(`${JSON.stringify(head)}\n${JSON.stringify({
+        seq: 1, role: "user", text: "hello",
+      })}\n`);
+      writeFileSync(join(dir, "cow-schema.ctr.jsonl"), payload);
+      writeFileSync(join(dir, "cow-schema.ctr.decl.json"), JSON.stringify({
+        schema: "cosmos-transcript-decl/1",
+        len: payload.length,
+        sha: createHash("sha256").update(payload).digest("hex"),
+      }));
+      const r = await run("session.read", { id: "cow-schema" }, { COSMOS_TRANSCRIPT_DIR: dir });
+      return r.kind === "SCHEMA_UNKNOWN" && !r.ok && !("turns" in r.gate);
+    });
+    await check("token in a Core body never reaches the envelope", async () => {
+      const token = "tok-must-never-leak-9f3a";
+      const r = await runTool("session.list", {}, {
+        env: { COSMOS_CORE_URL: url, COSMOS_API_TOKEN: token },
+        fetchImpl: async () => ({
+          status: 200,
+          json: async () => ({ leaked: token }),
+          text: async () => "",
+        }),
+      });
+      const dumped = JSON.stringify(r);
+      return r.kind === "SCHEMA_UNKNOWN" && !r.ok &&
+        !dumped.includes(token) && dumped.includes("<redacted>");
+    });
+    await check("HTTP_401 is a typed refusal and the bearer is scrubbed", async () => {
+      const token = "tok-http-401-secret";
+      const r = await runTool("session.list", {}, {
+        env: { COSMOS_CORE_URL: url, COSMOS_API_TOKEN: token },
+        fetchImpl: async () => ({
+          status: 401,
+          json: async () => ({ error: "UNAUTHORIZED", detail: `bad bearer ${token}` }),
+          text: async () => "",
+        }),
+      });
+      const dumped = JSON.stringify(r);
+      return r.kind === "HTTP_401" && !r.ok && !dumped.includes(token) &&
+        String(r.gate.detail).includes("<redacted>");
+    });
     await check("MCP tools/list advertises all five with JSON Schema", () => {
       const listed = mcpListTools();
       return listed.length === 5 && listed.every((t) => t.inputSchema.type === "object");
