@@ -3,7 +3,7 @@ title: PyTorch 1.0 and the research default
 slug: pytorch-1-research-default
 series: open-source-ai-history-2015-2026
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 11
 word_target: 600-1800
 era: "2018–2021"

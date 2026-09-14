@@ -3,7 +3,7 @@ title: Lightning, fastai, and the wrappers
 slug: lightning-fastai-wrappers
 series: open-source-ai-history-2015-2026
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 15
 word_target: 600-1800
 era: "2018–2024"

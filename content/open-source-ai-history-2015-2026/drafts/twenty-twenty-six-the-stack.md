@@ -3,7 +3,7 @@ title: The stack as of September 2026
 slug: twenty-twenty-six-the-stack
 series: open-source-ai-history-2015-2026
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 45
 word_target: 600-1800
 era: "2026"
@@ -22,7 +22,7 @@ stack:
 
 A workstation this month still `import torch`s. It still talks to the Hub. It still has a GGUF cache and, if it serves, a vLLM container. The weight file on the card might be Llama 4 Maverick, Qwen3.6, DeepSeek-V4-Flash, Gemma 4, Mistral Small 4, or gpt-oss-20b. The license file is the part that changed most since 2023, and the part people still skip.
 
-This chapter is a look, not a leaderboard. Dates after April 2026 that are not in the first-party posts already cited are marked `[CITE NEEDED]` rather than invented. Later summer 2026 cards may exist that this pack does not name. Do not invent a September surprise to make the chapter feel current. Current is the pin you have.
+This chapter is a look, not a leaderboard. Dates after April 2026 that are not in the first-party posts already cited are marked `[CITE NEEDED]` rather than invented. Later summer 2026 cards may exist that this pack does not name. This pack does not invent a September headline to sound current. Current is the pin you have.
 
 ## Frameworks
 

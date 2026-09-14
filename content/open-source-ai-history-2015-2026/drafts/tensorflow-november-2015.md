@@ -3,7 +3,7 @@ title: 9 November 2015
 slug: tensorflow-november-2015
 series: open-source-ai-history-2015-2026
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 3
 word_target: 600-1800
 era: "2015"
@@ -74,6 +74,7 @@ External researchers used the library to publish Google-comparable graphs. Googl
 The white paper PDF on tensorflow.org is still the right object. Page through the DistBelief limitations. Page through the Apache sentence. The rest of the paper is a 2015 systems design. Some of it (sessions, placeholders) is a museum. Some of it (devices, portable graphs) is still how Lite and Serving think.
 
 A 2026 reader who only knows `tf.keras` will not recognize the 2015 Python. That is fine. The landmark is the license-plus-institution, not the session API. The session API is the next chapter.
+
 ## Sources
 
 Google Research, “TensorFlow — Google’s latest machine learning system, open sourced for everyone,” 9 November 2015. Abadi et al., TensorFlow white paper, November 2015. Google Developers Blog, “Announcing TensorFlow 1.0,” 15 February 2017. Apache License, Version 2.0.

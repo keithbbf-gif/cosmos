@@ -3,7 +3,7 @@ title: Alpaca, Vicuna, and the weekend fine-tunes
 slug: alpaca-vicuna-weekend-finetunes
 series: open-source-ai-history-2015-2026
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 25
 word_target: 600-1800
 era: "2023"

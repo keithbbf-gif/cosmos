@@ -1,7 +1,7 @@
 ---
 title: Style Guide — Open-Source AI, 2015–2026
 status: draft
-voice_check: human
+voice_check: edited
 series: open-source-ai-history-2015-2026
 ---
 
@@ -63,7 +63,7 @@ title: "Plain title, no colon-stack if you can help it"
 slug: kebab-case
 series: open-source-ai-history-2015-2026
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 12
 word_target: 600-1800
 era: "2015–2026"
@@ -73,6 +73,8 @@ stack:
 ```
 
 WordPress import: `status: draft` only. Do not set publish dates.
+
+After a full editor pass on the series, set `voice_check: edited` on each draft (and record the pass in `EDITOR_REPORT.md`).
 
 ## Names and spelling
 

@@ -3,7 +3,7 @@ title: Define-by-run, 2016
 slug: pytorch-2016-define-by-run
 series: open-source-ai-history-2015-2026
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 9
 word_target: 600-1800
 era: "2016–2017"
@@ -53,7 +53,7 @@ If you want the object: the GitHub tags are still there. Read `v0.1.1` for the p
 
 Paszke’s 2017 workshop paper is short and worth reading if you want the math without the 2019 marketing. The 2019 NeurIPS paper is the project at the moment it knew it had won research. Read them in order.
 
-## DataLoader as a quiet revolution
+## DataLoader without graph queues
 
 Queue runners were a graph. DataLoader is a Python iterator with workers and pinned memory. It is also a source of deadlocks and `num_workers` folklore. It is still better than queue runners for the people who write Python. The 0.1.6 notes already care about this. A research library that cares about data loading is a research library that has been used.
 

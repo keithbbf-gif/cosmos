@@ -3,7 +3,7 @@ title: The Hub as a distribution system
 slug: hub-as-distribution
 series: open-source-ai-history-2015-2026
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 20
 word_target: 600-1800
 era: "2020–2026"

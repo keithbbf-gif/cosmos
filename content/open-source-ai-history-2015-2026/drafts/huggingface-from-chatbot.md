@@ -3,7 +3,7 @@ title: A chatbot company that kept the library
 slug: huggingface-from-chatbot
 series: open-source-ai-history-2015-2026
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 16
 word_target: 600-1800
 era: "2016–2020"

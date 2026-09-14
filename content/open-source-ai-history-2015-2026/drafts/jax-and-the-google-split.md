@@ -3,7 +3,7 @@ title: JAX and the other Google
 slug: jax-and-the-google-split
 series: open-source-ai-history-2015-2026
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 8
 word_target: 600-1800
 era: "2018–2026"

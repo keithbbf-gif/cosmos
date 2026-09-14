@@ -3,7 +3,7 @@ title: PEFT, LoRA, and the adapter
 slug: peft-lora-adapters
 series: open-source-ai-history-2015-2026
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 23
 word_target: 600-1800
 era: "2021–2025"

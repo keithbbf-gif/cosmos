@@ -16,7 +16,8 @@ BANNED = re.compile(
     r"delve|robust|leverage|unlock|cutting-edge|game-changer|"
     r"Moreover|Whether you're|In conclusion|It's important to note|"
     r"In today's|At the end of the day|rich tapestry|paradigm shift|"
-    r"Cambrian|democratize|seamless|holistic|unpack"
+    r"Cambrian|democratize|seamless|holistic|unpack|revolution|journey|"
+    r"elevate|empower"
     r")\b",
     re.I,
 )
@@ -55,6 +56,8 @@ def main() -> int:
             errors.append(f"{slug}: no frontmatter")
         if "status: draft" not in raw:
             errors.append(f"{slug}: status not draft")
+        if "voice_check: edited" not in raw:
+            errors.append(f"{slug}: voice_check not edited")
         if f"slug: {slug}" not in raw:
             errors.append(f"{slug}: slug mismatch")
         if "series: open-source-ai-history-2015-2026" not in raw:

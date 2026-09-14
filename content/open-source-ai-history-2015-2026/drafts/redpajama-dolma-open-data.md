@@ -3,7 +3,7 @@ title: RedPajama, Dolma, and the open-data bet
 slug: redpajama-dolma-open-data
 series: open-source-ai-history-2015-2026
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 42
 word_target: 600-1800
 era: "2023–2026"

@@ -3,7 +3,7 @@ title: What Lua Torch left in the room
 slug: torch-lua-inheritance
 series: open-source-ai-history-2015-2026
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 10
 word_target: 600-1800
 era: "2011–2017"

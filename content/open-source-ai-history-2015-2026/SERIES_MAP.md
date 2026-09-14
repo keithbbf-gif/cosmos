@@ -1,7 +1,7 @@
 ---
 title: Series map — Open-Source AI, 2015–2026
 status: draft
-voice_check: human
+voice_check: edited
 series: open-source-ai-history-2015-2026
 ---
 

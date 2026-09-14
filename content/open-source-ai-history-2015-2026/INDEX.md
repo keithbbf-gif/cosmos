@@ -1,7 +1,7 @@
 ---
 title: Index — Open-Source AI, 2015–2026
 status: draft
-voice_check: human
+voice_check: edited
 series: open-source-ai-history-2015-2026
 ---
 
@@ -11,7 +11,7 @@ A series for people who ship models, read licenses, and want the public record o
 
 These drafts teach the stack. They do not sell a product. They do not describe any private operating system.
 
-Canonical slugs: `writer-slugs.json` (46). Drafts live in `drafts/`. Figures: `GRAPHICS_INDEX.md` and `assets/`. All articles: `status: draft`, `voice_check: human`. Timeline: `SERIES_MAP.md`. Voice: `STYLE_GUIDE.md`. Sources: `BIBLIOGRAPHY.md`. Counts: `MANIFEST.md`.
+Canonical slugs: `writer-slugs.json` (46). Drafts live in `drafts/`. Figures: `GRAPHICS_INDEX.md` and `assets/`. All articles: `status: draft`, `voice_check: edited`. Timeline: `SERIES_MAP.md`. Voice: `STYLE_GUIDE.md`. Editor pass: `EDITOR_REPORT.md`. Sources: `BIBLIOGRAPHY.md`. Counts: `MANIFEST.md`.
 
 ## How to read the series
 

@@ -3,7 +3,7 @@ title: A 35-kilobyte wheel, 17 November 2018
 slug: transformers-library-2018
 series: open-source-ai-history-2015-2026
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 17
 word_target: 600-1800
 era: "2018–2020"

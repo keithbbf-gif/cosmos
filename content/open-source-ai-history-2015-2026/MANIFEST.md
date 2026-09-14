@@ -1,17 +1,17 @@
 ---
 title: Manifest — Open-Source AI, 2015–2026
 status: draft
-voice_check: human
+voice_check: edited
 series: open-source-ai-history-2015-2026
 ---
 
 # Manifest
 
 Body word counts are tokens matching `[A-Za-z0-9']+` after YAML frontmatter, excluding figure markdown, figure captions, HTML comments, and the Sources section.
-Band: 600–1,800. All items `status: draft`. Draft articles: `voice_check: human`.
+Band: 600–1,800. All items `status: draft`. Draft articles: `voice_check: edited`.
 Canonical files: `drafts/<slug>.md`. Slug list: `writer-slugs.json`.
 
-Counted: 46 drafts. Total body words: 43,805.
+Counted: 46 drafts. Total body words: 43,803.
 
 | # | slug | title | words | file |
 |---|------|-------|------:|------|
@@ -59,7 +59,7 @@ Counted: 46 drafts. Total body words: 43,805.
 | 42 | `redpajama-dolma-open-data` | RedPajama, Dolma, and the open-data bet | 854 | `drafts/redpajama-dolma-open-data.md` |
 | 43 | `onnx-export-problem` | ONNX and the export problem | 717 | `drafts/onnx-export-problem.md` |
 | 44 | `mlx-apple-silicon` | MLX and Apple silicon | 845 | `drafts/mlx-apple-silicon.md` |
-| 45 | `twenty-twenty-six-the-stack` | The stack as of September 2026 | 766 | `drafts/twenty-twenty-six-the-stack.md` |
+| 45 | `twenty-twenty-six-the-stack` | The stack as of September 2026 | 765 | `drafts/twenty-twenty-six-the-stack.md` |
 | 46 | `what-a-license-actually-permits` | What a license actually permits | 835 | `drafts/what-a-license-actually-permits.md` |
 
 ## Series files (not in word band)
@@ -74,11 +74,13 @@ Counted: 46 drafts. Total body words: 43,805.
 - `staged-embeds/` — paste-in figure blocks
 - `assets/` — SVG figures
 - `check_pack.py` — slug, draft status, band, banned-phrase, COSMOS scan
+- `EDITOR_REPORT.md` — editor pass log (2026-09-14, PR #347)
 - `MANIFEST.md` — this file
 
 ## QA notes
 
-- Banned-phrase scan (delve / robust / leverage / unlock / cutting-edge / game-changer / Moreover / Whether you're / In conclusion / It's important to note / In today's / Cambrian / democratize as filler): clean in `drafts/` as of this count.
+- Banned-phrase scan (STYLE_GUIDE list, including `revolution` / `journey` / `elevate` / `empower`): clean in `drafts/` as of this count.
+- `voice_check: edited` on all 46 drafts after editor pass 2026-09-14.
 - No COSMOS mentions in drafts.
 - Public first-party sources only. Uncertain facts marked `[CITE NEEDED]`.
 - License chapters treat “open source” as an OSI-shaped test, not a compliment.

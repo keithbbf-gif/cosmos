@@ -3,7 +3,7 @@ title: Theano, Torch, Caffe, and the closed predecessor
 slug: before-tensorflow-theano-torch-caffe
 series: open-source-ai-history-2015-2026
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 2
 word_target: 600-1800
 era: "2011–2015"
@@ -87,6 +87,7 @@ The 28 September 2017 Theano retirement note remains the cleanest death certific
 A `.caffemodel` without a prototxt is a brick. A Theano pickle from 2013 is a museum object that may not run. A Torch `.t7` might still load in the 2016 reader. DistBelief does not load. That last sentence is why open-source history starts when the tarball starts. Existence inside a company is not a release.
 
 See also the serving chapter: the 2015 white paper’s phone sentence is already a production sentence. The predecessor labs were not thinking about phones. They were thinking about a Titan and a paper deadline. Both jobs are real. They are not the same job.
+
 ## Sources
 
 Google Research, TensorFlow announcement, 9 November 2015 (DistBelief paragraph). Abadi et al., TensorFlow white paper, 2015. Theano retirement announcement, 28 September 2017 (Groupe de recherche appliquée en apprentissage automatique / MILA public note). Jia et al., Caffe, ACM MM 2014. Collobert, Kavukcuoglu, Farabet, “Torch7,” NIPS workshop 2011; PyTorch `v0.1.1` notes on `torch.legacy`. Chollet, Keras documentation, 2015.

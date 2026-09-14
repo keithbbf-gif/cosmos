@@ -3,7 +3,7 @@ title: TensorFlow 2.0, 30 September 2019
 slug: tensorflow-2-eager-2019
 series: open-source-ai-history-2015-2026
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 7
 word_target: 600-1800
 era: "2019–2021"

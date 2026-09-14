@@ -3,7 +3,7 @@ title: The open stack, eleven years on
 slug: intro-the-open-stack
 series: open-source-ai-history-2015-2026
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 1
 word_target: 600-1800
 era: "2015–2026"
@@ -75,6 +75,7 @@ Macquoid, if he had been a systems person, would have given you four timber ages
 If a fact lives only in a private Slack, a vendor NDA, or an unpublished cluster log, it is not in this pack. Download counts that appear only on a keynote slide are vendor claims; quote them as such or omit them. Star counts that are not dated to a first-party page get the same treatment. The series would rather be thin than inventive.
 
 The four layers leak into each other — a Hub card names a library, a GGUF names a base, a trainer names a license it did not ship — but the leak is not a reason to use one adjective for the pile. Keep the layer. Keep the date. Keep the file.
+
 ## Sources
 
 Google Research TensorFlow announcement, 9 November 2015; TensorFlow white paper, 2015. PyTorch `v0.1.6` release notes (public release dated 18 January 2016); Paszke et al., NeurIPS 2019. Hugging Face `transformers` `v0.1.2`, 17 November 2018; Wolf et al., arXiv:1910.03771. Meta, “Introducing LLaMA,” 24 February 2023; Touvron et al., arXiv:2302.13971; The Verge, 8 March 2023. Meta Llama 2 (18 July 2023), Llama 3 (18 April 2024), Llama 3.1 (23 July 2024), Llama 4 (5 April 2025). Linux Foundation PyTorch Foundation, 12 September 2022. Kwon et al., SOSP 2023. OpenAI, “Introducing gpt-oss,” 5 August 2025. Google, Gemma 4, 2 April 2026.

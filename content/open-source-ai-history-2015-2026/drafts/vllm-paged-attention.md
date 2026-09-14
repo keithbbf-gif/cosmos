@@ -3,7 +3,7 @@ title: vLLM and PagedAttention
 slug: vllm-paged-attention
 series: open-source-ai-history-2015-2026
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 29
 word_target: 600-1800
 era: "2023–2026"

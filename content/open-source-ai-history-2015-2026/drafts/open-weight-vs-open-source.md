@@ -3,7 +3,7 @@ title: Open weight versus open source
 slug: open-weight-vs-open-source
 series: open-source-ai-history-2015-2026
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 41
 word_target: 600-1800
 era: "2015–2026"
