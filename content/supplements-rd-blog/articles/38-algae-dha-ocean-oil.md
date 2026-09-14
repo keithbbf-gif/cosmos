@@ -15,7 +15,7 @@ citations:
   - "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/"
   - "GOED Voluntary Monograph (unflavored EPA/DHA oils: PV ≤5 meq/kg, p-AV ≤20, TOTOX ≤26) — [VERIFY] live version"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). Prescription EPA drugs are not algae softgels.
@@ -70,19 +70,14 @@ Third-trimester DHA conversations in obstetric guidance are about fetal developm
 Krill oil (phospholipid) is a third product. It does not inherit algae or Vascepa. Astaxanthin in krill is a color and a second assay.
 
 
-## Oxidation numbers that belong on a retain
+## GOED oxidation numbers on retain — still write a spec
 
-PV, p-AV, TOTOX on retain, nitrogen-flushed bottles, dark pack-out, a real expiry. Lemon flavor hides aldehydes. GOED voluntary numbers are trade conversation — `[VERIFY]` if you print a cap as if it were USP.
-
-Print EPA and DHA milligrams separately. DHA-only algae does not inherit REDUCE-IT. VITAL's 1 g fish-oil miss and STRENGTH's 4 g drug futility stay with those papers (piece 04). Prenatal DHA intake talk is a different file than a 70-year-old's MACE composite. Do not mash the models.
-
-
-## GOED numbers are trade conversation — still write a spec
-
-GOED's voluntary monograph for unflavored EPA/DHA oils has long used PV ≤ 5 meq/kg, p-AV ≤ 20, TOTOX ≤ 26, where TOTOX = (2 × PV) + p-AV. `[VERIFY]` the live monograph version you cite (v9.0 circulated in 2026). p-AV and TOTOX do **not** apply cleanly to flavored, strongly colored, krill, or some virgin oils — lemon flavor is why. Algae oil still oxidizes. PV on retain, nitrogen flush, opaque pack-out, a real expiry.
+GOED's voluntary monograph for unflavored EPA/DHA oils has long used PV ≤ 5 meq/kg, p-AV ≤ 20, TOTOX ≤ 26, where TOTOX = (2 × PV) + p-AV. `[VERIFY]` the live monograph version you cite (v9.0 circulated in 2026). p-AV and TOTOX do **not** apply cleanly to flavored, strongly colored, krill, or some virgin oils — lemon flavor is why. Algae oil still oxidizes: PV on retain, nitrogen flush, opaque pack-out, a real expiry. Lemon flavor hides aldehydes.
 
 Print EPA and DHA milligrams separately. A 300 mg DHA algae softgel inherits none of VITAL's 1 g fish-oil miss, STRENGTH's 4 g drug futility, or REDUCE-IT's icosapent ethyl HR (piece 04). Prenatal DHA intake talk is a different file than a 70-year-old's MACE composite. Dual-source means two qualified fermentation sites, not two brokers with the same tank (piece 11).
 
 ## What changed since 2020 (box)
 
 Algae DHA became the default vegan prenatal and a climate talking point. The cardiovascular evidence bar stayed where VITAL/STRENGTH/REDUCE-IT left it — and those papers were not algae. Sell a named mg of DHA with an oxidation spec. Leave the drug HRs on the drug.
+
+Prenatal buyers care about DHA milligrams and allergen lines. Cardiovascular buyers care about EPA content and trial names. One softgel cannot wear both stories without lying to one of them. Piece 04 is where VITAL and REDUCE-IT live; piece 35 is where the EPA/DHA milligrams must print on the panel.

@@ -15,7 +15,7 @@ citations:
   - "USPSTF draft update posted Dec 2024 — [VERIFY] final grade before print"
   - "21 CFR 101.93"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not a treatment for osteoporosis.
@@ -62,20 +62,13 @@ Knapen-class MK-7 papers on arterial stiffness and bone markers exist and are sm
 Carbonate vs citrate is a meal and acid conversation. A 600 mg elemental serving split across the day is a different GI object than 1,200 mg at bedtime. Assay elemental calcium. A "calcium complex 1,000 mg" that is mostly carbonate salt weight is the iron-salt trick with a new noun (piece 26).
 
 
-## What USPSTF did not bless
+## Stones, WHI, and what USPSTF did not bless
 
-The 2018 D recommendation was specific: ≤400 IU D plus ≤1,000 mg calcium, community-dwelling postmenopausal women, primary fracture prevention. It was not "calcium is useless." It was not a license to print "prevents osteoporosis." The I statements covered higher doses and other sexes. The 2024 draft, if it finalizes as written, is harsher. `[VERIFY]` the live grade.
+The 2018 D recommendation was specific: ≤400 IU D plus ≤1,000 mg calcium, community-dwelling postmenopausal women, primary fracture prevention. It was not "calcium is useless," and it was not a license to print "prevents osteoporosis." The I statements covered higher doses and other sexes; the 2024 draft, if it finalizes as written, is harsher. `[VERIFY]` the live grade. USPSTF put kidney stones in the harm column in 2018.
 
-K2 does not rescue a disease claim. Carboxylation biochemistry is real. A 90 mcg MK-7 softgel is not Japanese MK-4 drug doses and not a CT-angiogram product. Warfarin warnings are not optional. Split elemental calcium across the day if GI tolerance is the brief. Assay elemental, not salt weight.
+WHI calcium/D is the older megatrial people still argue about — stones, a CVD debate, a population that is not your 90 mcg MK-7 softgel. Do not average WHI, VITAL, and a 24-person MK-7 pilot into one "clinically proven bone bundle." K2 does not rescue a disease claim: carboxylation biochemistry is real, but a 90 mcg MK-7 softgel is not Japanese MK-4 drug doses and not a CT-angiogram product.
 
-
-## Stones, WHI, and the bundle that multiplies files
-
-USPSTF put kidney stones in the harm column in 2018. WHI calcium/D is the older megatrial people still argue about — stones, a CVD debate, a population that is not your 90 mcg MK-7 softgel. Do not average WHI, VITAL, and a 24-person MK-7 pilot into one "clinically proven bone bundle."
-
-Carbonate vs citrate is a meal and acid conversation (PPI, achlorhydria). Split elemental calcium across the day if GI tolerance is the brief. Assay elemental, not salt weight — the iron-salt trick with a new noun (piece 26).
-
-K1 is leafy greens and clotting conversations. MK-4 drug doses in Japan are not a US supplement. MK-7 at 90–180 mcg is a different article. Warfarin/VKA warning is not optional; DOACs are still a clinician. If you cannot print that warning, do not sell K2.
+Carbonate vs citrate is a meal and acid conversation (PPI, achlorhydria). Split elemental calcium across the day if GI tolerance is the brief. Assay elemental, not salt weight — the iron-salt trick with a new noun (piece 26). Warfarin/VKA warning is not optional; DOACs are still a clinician. If you cannot print that warning, do not sell K2.
 
 ## What changed since 2020 (box)
 

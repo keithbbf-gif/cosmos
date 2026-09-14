@@ -15,7 +15,7 @@ citations:
   - "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/"
   - "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not a labeling-compliance opinion for a specific SKU.
@@ -66,25 +66,16 @@ Artwork freeze during 2020 overtime (piece 11) is why dual-unit stickers exist. 
 Piece 16 is how you read the COA. This piece is why the first five matches include units.
 
 
-## The spreadsheet that becomes a recall
-
-D3: 1 mcg = 40 IU. Divide, do not multiply. Folate: DFE, plus folic acid listed when used. Vitamin A: mcg RAE. Vitamin E: mg, form-specific factor from ODS. Write the conversion once in a locked MMR cell. The COA unit must match the panel unit (piece 16).
-
-Serving size is a claim engine. Six capsules of a two-capsule study is 3×. A 40 g scoop in a "30 g" tub is a nitrogen lie. Proprietary blends hide everything except the blend total — legal, and usually contemptible. 2026 is late for IU-only D3 as the legal panel.
-
-
 ## Worked conversions that belong in a locked cell
 
 Vitamin D: 1 mcg = 40 IU. 25 mcg = 1,000 IU. 125 mcg = 5,000 IU. Divide IU to get mcg; do not multiply. A spreadsheet that multiplies is a recall.
 
-Folate: mcg DFE. Folic acid, when used, listed separately. Food folate and folic acid are not 1:1 (piece 25).
+Folate: mcg DFE; folic acid, when used, listed separately. Food folate and folic acid are not 1:1 (piece 25). Vitamin A: mcg RAE — retinol and carotenoids convert differently. Vitamin E: mg, form-specific factor (d-alpha vs dl-alpha) from ODS, not from memory.
 
-Vitamin A: mcg RAE. Retinol and carotenoids convert differently. A gummy that stacks both can look modest in old IU and rude in RAE.
-
-Vitamin E: mg, form-specific factor (d-alpha vs dl-alpha) from ODS, not from memory.
-
-Serving size is a claim engine. Six capsules of a two-capsule study is 3×. A 40 g scoop in a "30 g" tub is a nitrogen lie (piece 06). Proprietary blends hide everything except the blend total. The COA unit must match the panel unit (piece 16). 2026 is late for IU-only D3 as the legal panel. Artwork that froze under 2020 overtime (piece 11) is why dual-unit stickers still exist — they are not the system of record.
+Write each conversion once in a locked MMR cell. The COA unit must match the panel unit (piece 16). Six capsules of a two-capsule study is 3×. A 40 g scoop in a "30 g" tub is a nitrogen lie (piece 06). Artwork that froze under 2020 overtime (piece 11) is why dual-unit stickers still exist — they are not the system of record. 2026 is late for IU-only D3 as the legal panel.
 
 ## What changed since 2020 (box)
 
 The new panel became mandatory while plants were running COVID overtime (piece 11). Artwork froze. Dual-unit stickers appeared. 2026 is late to still be shipping IU-only D3 as the legal panel. Fix the template, then the next SKU.
+
+Before you approve the next prenatal or D3 hero, run the spreadsheet in both directions: IU to mcg and mcg to IU. One wrong cell propagates to every channel that scrapes the Supplement Facts image. Piece 25 is the folate DFE story; piece 16 is how the COA unit must match the panel you just calculated. Dual-column protein panels are where scoop weight errors hide next to %DV math — weigh the scoop before you freeze art. Rounding is not a license to move a digit in the wrong column.

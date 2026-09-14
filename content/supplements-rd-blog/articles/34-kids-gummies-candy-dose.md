@@ -14,7 +14,7 @@ citations:
   - "https://ods.od.nih.gov/factsheets/ (vitamin A UL; iron)"
   - "21 CFR 101.36"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not pediatric dosing advice. Keep supplements away from children unless a clinician directed a specific product.
@@ -68,21 +68,14 @@ ODS vitamin A ULs are easy to hit when a gummy serving is candy-shaped and a sec
 If you stay in kids' multis: tiny doses, CR packaging, lot assay, no melatonin unless a clinician-directed SKU with adult-looking art — and I would still rather exit melatonin for children entirely. Piece 19 is the assay scandal. This piece is the pantry.
 
 
-## Serving size as a critical-error control
+## Serving size and two numbers a brand has to say out loud
 
-"2 gummies" next to a bowl is how a child takes 6. Vitamin A UL is easy to smash. Fat-solubles accumulate. Iron, if present, is the old fatal overdose. Melatonin, if present, is the MMWR curve. A proprietary "calm blend" that hides 5 mg melatonin inherits Cohen and Lelak at once.
+"2 gummies" next to a bowl is how a child takes 6. Lelak 2022: 260,435 pediatric melatonin ingestions, 2012–2021, a 530% rise, mostly ≤5 years, two deaths in that surveillance window. Cohen 2023: 22 of 25 gummies missed the label; one had no melatonin and 31.3 mg CBD. Together they say the fruit-snack shape is mislabeled and in the house where toddlers eat fruit snacks.
 
-Look-alike art next to real candy is intended use for a toddler. Child-resistant closure. Lot assay. No cartoon on a hormone. Food-first multi only if the diet is actually poor — and `[VERIFY]` any AAP sentence you quote. FTC 2022 + 2023 endorsements apply to the smiling pediatrician actor (piece 31).
-
-
-## Two numbers a brand has to be able to say out loud
-
-Lelak 2022: 260,435 pediatric melatonin ingestions, 2012–2021, a 530% rise, mostly ≤5 years, two deaths in that surveillance window. Cohen 2023: 22 of 25 gummies missed the label; one had no melatonin and 31.3 mg CBD. Together they say the fruit-snack shape is mislabeled and in the house where toddlers eat fruit snacks.
-
-Vitamin A UL is easy to smash when "2 gummies" sits next to a bowl. `[VERIFY]` the live ODS UL for the age band you print. Iron, if present, is the old fatal overdose — CR closure, a dose a poison-control card can read, or omit it. Fat-solubles accumulate. "More gummies = healthier kid" is the ad the 2020s ran.
-
-A smiling pediatrician actor is an endorsement (piece 31). School-grade before/after videos are claims. Exit melatonin for children, or treat it as a drug-adjacent critical-error line: tiny dose, adult art, CR cap, every-lot assay. The peach-ring option funds the next MMWR table.
+Vitamin A UL is easy to smash when the serving is candy-shaped. `[VERIFY]` the live ODS UL for the age band you print. Fat-solubles accumulate. Iron, if present, is the old fatal overdose — CR closure, a dose a poison-control card can read, or omit it. A proprietary "calm blend" that hides 5 mg melatonin inherits Cohen and Lelak at once. Look-alike art next to real candy is intended use for a toddler. A smiling pediatrician actor is an endorsement (piece 31). Exit melatonin for children, or treat it as a drug-adjacent critical-error line: tiny dose, adult art, CR cap, every-lot assay.
 
 ## What changed since 2020 (box)
 
 Pandemic routines and sleep panic grew the kids' sleep SKU. MMWR and Cohen made the cost visible. A serious brand either exits pediatric gummies or treats them like a drug-adjacent critical-error line: tiny doses, CR packaging, lot assay, no cartoons on melatonin. The third option — peach rings with 5 mg and a bear — is how you fund the next MMWR table.
+
+Retail buyers who sell children's vitamins next to candy aisles are not absolving you of pantry risk. Your art, your closure, and your assay program are still the control that keeps a toddler from treating the bottle like a snack.

@@ -14,7 +14,7 @@ citations:
   - "https://www.ftc.gov/news-events/news/press-releases/2023/04/ftc-warns-almost-700-marketing-companies-they-could-face-civil-penalties-if-they-cant-back-their"
   - "https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not legal advice.
@@ -68,20 +68,11 @@ A claim list is shorter than a creative brief. If the list is empty, you do not 
 Fake reviews are their own 2023 problem. Bought stars, recycled testimonials, and "review farms" sit in the same Endorsement Guides revision. A supplement brand that pays for five-star density on Amazon and then cites "4.8 from 12,000 reviews" as evidence is citing an ad, not a trial. FTC's health-product guide already said competent and reliable scientific evidence. The endorsement mail said the speaker is part of the ad. Together they close the 2020 move of putting the illegal sentence in someone else's mouth.
 
 
-## The substantiation file next to the invoice
+## Substantiation next to the invoice — and what "clear and conspicuous" means on a phone
 
-A media invoice without a claim list is how a Reel writes your intended use. Ban virus names, GLP-1 comparisons, "replaced my statin," kid-sleep miracles, cancer secondaries stolen from COSMOS (piece 18). Require a disclosure a reasonable viewer sees — not a 7-pixel #ad.
+A media invoice without a claim list is how a Reel writes your intended use. Ban virus names, GLP-1 comparisons, "replaced my statin," kid-sleep miracles, cancer secondaries stolen from COSMOS (piece 18). Require a disclosure a reasonable viewer sees — not a gray 7-pixel "#ad" at the end of a 40-second Reel. Superimposed text that lasts one second is not a disclosure.
 
-Typicality: if the creator lost 20 pounds, you need evidence that is typical, or you need to not post it. FTC 2022 already said that. The 2023 guides said the speaker is part of the ad. The April mail said civil penalties are not theoretical. Keep the contract.
-
-
-## What "clear and conspicuous" means on a phone
-
-16 CFR 255 after 26 July 2023 is a viewer test. A gray 7-pixel "#ad" at the end of a 40-second Reel is the example the revision was written to catch. Superimposed text that lasts one second is not a disclosure. Employee posts and founder "what I take" videos are endorsements when the connection would matter to a buyer.
-
-The 13 April 2023 mail (~700 penalty-offense notices) restated: competent and reliable scientific evidence for health claims; **at least one well-controlled clinical trial** if you claim to cure, mitigate, or treat a disease. It pointed at the December 2022 health-product guide. That stack is the 2020s advertising law for this aisle.
-
-Bought stars and review farms are in the same guides revision. "4.8 from 12,000 reviews" is an ad, not a trial. Keep the contract next to the substantiation file. If the creator names a GLP-1, a virus, or a child's sleep miracle, you made that claim (pieces 21, 12, 34).
+Typicality: if the creator lost 20 pounds, you need evidence that is typical, or you need to not post it. The 13 April 2023 mail (~700 penalty-offense notices) restated competent and reliable scientific evidence for health claims — **at least one well-controlled clinical trial** if you claim to cure, mitigate, or treat a disease — and pointed at the December 2022 health-product guide. Employee posts and founder "what I take" videos are endorsements when the connection would matter to a buyer. Bought stars and review farms sit in the same guides revision; "4.8 from 12,000 reviews" is an ad, not a trial. Keep the contract next to the substantiation file.
 
 ## What changed since 2020 (box)
 

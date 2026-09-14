@@ -14,7 +14,7 @@ citations:
   - "https://ods.od.nih.gov/ (no berberine RDA — plant alkaloid)"
   - "21 CFR 101.93"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not guidance to treat diabetes or to replace a GLP-1 drug. Numbers below from clinic papers are not product claims.
@@ -40,7 +40,7 @@ GLP-1 receptor agonists are drugs with boxed warnings, REMS-era attention, and G
 
 If you need a sentence for the science folder: AMPK talk and complex-I inhibition show up in mechanistic papers (including later work from overlapping groups). Mechanism slides do not become a semaglutide. They also do not become a supplement structure/function you should print without counsel.
 
-Later Chinese-clinic metas and short RCTs piled onto Yin. Heterogeneity is the word: different salts, different grams, different background meds, different assay quality. A 2021-class systematic review you want to quote needs its own PMID and a risk-of-bias paragraph. `[CITE NEEDED]` before a pooled HbA1c or kilogram number. STEP and SURMOUNT programs enrolled thousands on a defined GLP-1 dose with a defined placebo. That is the file the caption stole. Berberine does not have it.
+Later Chinese-clinic metas and short RCTs piled onto Yin. Heterogeneity is the word: different salts, different grams, different background meds, different assay quality. Any 2021-class systematic review you want to quote needs its own PMID and a risk-of-bias paragraph. `[CITE NEEDED]` before a pooled HbA1c or kilogram number. STEP and SURMOUNT enrolled thousands on a defined GLP-1 dose with a defined placebo. That is the file the caption stole. Berberine does not have it.
 
 A buyer who is already on metformin, insulin, or a GLP-1 and then adds a 1.5 g/day alkaloid because a Reel said "stack it" is a clinician problem. The 2008 paper was a clinic comparison, not an add-on protocol for someone on Wegovy.
 
@@ -64,7 +64,7 @@ Metformin comparisons in the 2008-class papers are **clinic** comparisons in a d
 
 Allowed shape, maybe, after counsel: nothing about diabetes, nothing about a named drug, a very narrow structure/function if you even have one you believe. I would rather **not sell berberine** than sell it as a GLP-1. There are easier SKUs.
 
-If search volume is the brief, treat it as a **risk signal**. The same year FTC mailed ~700 penalty-offense notices (piece 31). A founder who buys "Ozempic" ads against a berberine SKU is volunteering for that stack.
+If search volume is the brief, treat it as a **risk signal**. In April 2023 FTC mailed ~700 penalty-offense notices (piece 31). A founder who buys "Ozempic" ads against a berberine SKU is volunteering for that stack.
 
 ## What changed since 2020 (box)
 

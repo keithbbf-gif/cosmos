@@ -13,7 +13,7 @@ citations:
   - "21 CFR 101.36"
   - "https://www.cdc.gov/nutrition/ (iron-deficiency materials)"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). Iron deficiency and hemochromatosis are clinical diagnoses. This is not a treatment protocol.
@@ -69,23 +69,16 @@ If the CMO's "women's 50+" formula still carries 18 mg because the 1990s art fil
 "Women's formula" is not a clinical indication. It is a merchandising noun that has been wrong for half the age curve since the RDA split existed.
 
 
-## Elemental math on the panel
+## Elemental math and why the 1990s art file still ships 18 mg
 
-Ferrous sulfate is about 20% elemental iron. A "50 mg ferrous sulfate" capsule that prints 50 mg iron is a lie. Bisglycinate, fumarate, gluconate — same rule: panel = elemental. The COA assay unit must match (piece 35).
+Ferrous sulfate is about 20% elemental iron. A "50 mg ferrous sulfate" capsule that prints 50 mg iron is a lie. Bisglycinate, fumarate, gluconate — same rule: panel = elemental, and the COA assay unit must match (piece 35). Child-resistant closure on any iron SKU; pediatric overdose is why the closure exists.
 
-Child-resistant closure on any iron SKU. Pediatric overdose is why the closure exists. Gummies that look like candy and contain iron are a critical-error line (piece 34). Many kids' gummies omit iron for that reason; if yours includes it, you need a dose a poison-control card can understand.
+The RDA split is old. The carton did not get the memo. A shared "women's" die line is cheaper than two formulas until a 62-year-old on a high-meat diet stacks 18 mg for a decade. Hemochromatosis is not rare enough in northern-European ancestry to treat as a footnote — `[VERIFY]` prevalence if you print a rate. "Not for men or postmenopausal women unless a clinician says so" is a legitimate standalone-iron sentence; "women's formula" is not a CBC.
 
-Hemochromatosis copy: "not for men or postmenopausal women unless a clinician says so" is a legitimate standalone-iron sentence. "Women's formula" is not a CBC.
-
-
-## Why the 1990s art file is still shipping 18 mg
-
-The RDA split is old. The carton did not get the memo. A shared "women's" die line is cheaper than two formulas until a 62-year-old on a high-meat diet stacks 18 mg for a decade. Hemochromatosis is not rare enough in northern-European ancestry to treat as a footnote — `[VERIFY]` prevalence if you print a rate.
-
-Standalone iron: elemental milligrams, CR closure, "get a lab" line, not-for-men-or-postmenopausal-unless-clinician. Prenatal iron is expected; constipation is expected; bisglycinate is a tolerance conversation, not an anemia-treatment claim.
-
-Gummies that include iron are a critical-error SKU (piece 34). Many kids' lines omit it for that reason. If yours includes it, you need a dose a poison-control card can understand and a closure that actually resists a child. Assay iron. It is cheap to underfill and ugly to overfill.
+Gummies that include iron are a critical-error SKU (piece 34). If yours includes it, you need a dose a poison-control card can understand and a closure that actually resists a child. Assay iron — it is cheap to underfill and ugly to overfill.
 
 ## What changed since 2020 (box)
 
 Ferritin TikTok made everyone an amateur hematologist. That is not a reason to put 18 mg in the 60+ bottle. It is a reason to sell a **standalone iron** with a "get a lab" line and an iron-free multi for everyone else.
+
+Split formulas cost two SKUs and two cartons. They also cost fewer clinician calls from buyers who should never have seen 18 mg on a 50+ label. ODS's 8 mg vs 18 mg split is not new; the catalog that ignores it is.

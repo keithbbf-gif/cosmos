@@ -15,7 +15,7 @@ citations:
   - "https://ods.od.nih.gov/factsheets/ (CoQ10 / ubiquinone professional or consumer as available)"
   - "21 CFR 101.93"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not advice to start or stop a statin.
@@ -64,21 +64,14 @@ Migraine and male-fertility papers exist in the CoQ10 pile. They are **disease o
 If a clinician uses CoQ10 in a named condition, that is a clinic. If a brand uses Q-SYMBIO as a Shopify hero, that is a letter.
 
 
-## Softgel QA that the diagram skips
+## Softgel QA and what lipid societies did not write
 
-HPLC assay, oil vehicle, opaque pack-out, nitrogen if you paid for ubiquinol, retain at expiry. A purple capsule after a July 3PL ride (piece 37) is a different article than the COA. 30 mg does not inherit 200 mg myalgia papers. 200 mg does not inherit Q-SYMBIO, and Q-SYMBIO is a heart-failure trial you do not put on Shopify.
+HPLC assay, oil vehicle, opaque pack-out, nitrogen if you paid for ubiquinol, retain at expiry. A purple capsule after a July 3PL ride (piece 37) is a different article than the COA. Print the form (ubiquinone vs ubiquinol) and the milligrams. Do not print "so you can stay off your statin."
 
-Print the form (ubiquinone vs ubiquinol). Print the milligrams. Do not print "so you can stay off your statin." AHA/ACC still treat the drug as the intervention. Qu 2018's symptom scores and null CK are the mixed file, not a carton WMD.
-
-
-## What lipid societies did not write
-
-AHA/ACC cholesterol guidance still treats the statin as the intervention. CoQ10 is not in that algorithm as a required add-on. Banach-class earlier metas were more null than Qu 2018. The named RCTs inside those pools (Young, Caso, Bookstaver, Fedacko) disagree on pain scales and on whether people could stay on the drug. That disagreement *is* the file.
-
-A Shopify page that picks the one positive 30-day study and hides the null 12-week study is FTC 2022 net impression. Q-SYMBIO (Mortensen 2014, PMID 25282031) is a heart-failure trial. Heart failure is a disease. Do not go there on a DTC page.
-
-Softgel QA: HPLC, oil vehicle, opaque pack-out, retain at expiry. Ubiquinol after a July 3PL ride is a different article than the COA (piece 37). 30 mg does not inherit 200 mg papers. 200 mg does not inherit Q-SYMBIO.
+AHA/ACC cholesterol guidance still treats the statin as the intervention. CoQ10 is not in that algorithm as a required add-on. Banach-class earlier metas were more null than Qu 2018; the named RCTs inside those pools (Young, Caso, Bookstaver, Fedacko) disagree on pain scales and on whether people could stay on the drug. That disagreement *is* the file — not a carton WMD. A Shopify page that picks the one positive 30-day study and hides the null 12-week study is FTC 2022 net impression. Q-SYMBIO (Mortensen 2014, PMID 25282031) is a heart-failure trial; heart failure is a disease. Do not go there on a DTC page. Thirty milligrams does not inherit 200 mg myalgia papers; 200 mg does not inherit Q-SYMBIO.
 
 ## What changed since 2020 (box)
 
 Statins did not get less common. Ubiquinol marketing got louder. Qu 2018 is still the meta people cite; it did not become a guideline. A 200 mg assayed ubiquinone softgel with a boring label is the adult SKU. A "statin rescue" bundle is the letter.
+
+If the buyer's cardiologist did not mention CoQ10, your PDP should not imply they should have. "Ask your prescriber" is a real sentence. "Fix your statin side effects" is not. Piece 12 is the claims file; this piece is the evidence file behind it.

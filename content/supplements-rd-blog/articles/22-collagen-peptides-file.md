@@ -15,7 +15,7 @@ citations:
   - "Morton RW et al. Br J Sports Med. 2018;52:376-384. PMID 28698222"
   - "https://ods.od.nih.gov/factsheets/Protein-HealthProfessional/"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not a treatment for osteoarthritis, wrinkles as disease, or bone pathology. Small industry-linked RCTs are not facelifts.
@@ -72,11 +72,7 @@ Prop 65 math is per serving (piece 37). A 20 g scoop concentrates whatever the h
 
 ## The named-peptide rule
 
-Proksch 2014 used a specific hydrolysate at 2.5 or 5 g. Zdzieblik 2015 used 15 g plus supervised lifting in older men. A broker bag labeled "collagen peptides 10 g" is a food ingredient until you can show it is the same article.
-
-Write the source (bovine hide, fish skin), the hydrolysis method, the hydroxyproline spec, and the metals-per-scoop math. If the tub is the buyer's only protein, Morton 2018 still applies to the rest of the day — collagen is incomplete. "Vegan collagen" that is vitamin C plus amino acids must not imply a hydrolyzed triple helix.
-
-Do not put a WOMAC chart on the tub unless the paper used *this* peptide at *this* dose. Osteoarthritis treatment is a disease claim. Skin elasticity percents from n=23-per-arm industry papers are not facelifts.
+Proksch 2014 used a specific hydrolysate at 2.5 or 5 g. Zdzieblik 2015 used 15 g plus supervised lifting in older men. A broker bag labeled "collagen peptides 10 g" is a food ingredient until you can show it is the same article. Write the source (bovine hide, fish skin), the hydrolysis method, the hydroxyproline spec, and the metals-per-scoop math. Do not put a WOMAC chart on the tub unless the paper used *this* peptide at *this* dose — osteoarthritis treatment is a disease claim, and skin-elasticity percents from n=23-per-arm industry papers are not facelifts.
 
 ## What changed since 2020 (box)
 

@@ -15,7 +15,7 @@ citations:
   - "USP green tea extract cautionary labeling (Dietary Supplements Admission Evaluations)"
   - "21 CFR 101.93"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not a weight-loss program and not a treatment for liver disease.
@@ -69,16 +69,6 @@ I would rather sell bagged tea and a nutrition label than a 50-ingredient burner
 
 If you stay in the extract business: print the EGCG milligrams, print the with-food line, print the stop-if-jaundice line, and stay under the dose you can defend — knowing EFSA did not hand you a green light below 800.
 
-
-## Thermogenic blends hide the milligrams
-
-A 50-ingredient "fat burner" with EGCG, caffeine, and a synephrine-class stimulant in a proprietary blend is how LiverTox chapters get messy. The hepatologist cannot name the dose. The buyer cannot stop at the first yellow week because they never knew the milligrams.
-
-Print EGCG mg. Print caffeine mg. Print with food. Print stop-if-jaundice. Stay off the 800 mg EFSA signal line on purpose — it was never a target. Decaf extract still carries catechins. Tea as a drink is the 2018 "generally presumed safe" object. A fasted 400 mg capsule is not a cup.
-
-I would rather sell bagged tea than a burner that needs a deposition.
-
-
 ## How a label should talk about a tea that is not a cup
 
 Print the EGCG milligrams. Print caffeine if it is there. Print "take with food." Print "stop and seek care if you notice yellowing of skin or eyes, dark urine, or unusual fatigue" — that is USP-style cautionary language, not a disease claim. Print "not for use in liver disease" as a warning, not as a targeting strategy.
@@ -90,3 +80,5 @@ If you cannot print those lines, sell bagged tea. If you print "melts fat" next 
 ## What changed since 2020 (box)
 
 The liver file was already there in 2018–2019. The 2020s added more thermogenic SKUs and more social copy. NAMS-style honesty (piece 15) has not reached this aisle. Put the warning on before a retailer or a plaintiff's firm writes it for you.
+
+A retailer that asks for your cautionary-label file in 2026 is doing what FDA and USP already signaled in 2018. Have the EGCG milligrams, the with-food line, and the stop-if-jaundice line in the MMR before the buyer asks — not after the first adverse-event report.
