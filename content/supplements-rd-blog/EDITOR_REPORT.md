@@ -1,9 +1,13 @@
 # Editor report — supplements R&D blog pack
 
-**Branch:** `cursor/supplements-rd-blog-ee57` (PR #230)  
+**Branch:** `cursor/supplements-rd-editor-clean-85a9` (clean editor PR → `cursor/supplements-rd-integration-85a9`)  
 **Editor pass date:** 2026-09-14  
-**Base:** post–≥1,000-word expansion (`35b8b1b`). **Not** PR #245.  
+**Base:** writer integration (`35b8b1b` + figure embed). **Not** PR #245 (`cursor/supplements-rd-blog-editor-b6b8`).  
 **Graphics:** PR #240 SVG embeds preserved (`<!-- graphics-pack:v1 -->` + `../assets/...` paths unchanged).
+
+## Remediation
+
+See `content/_ops/REMEDIATION_REPORT.md` — **close PR #245**; this branch is the replacement editor pass.
 
 ## Scope
 
