@@ -10,6 +10,12 @@ cluster: siting
 topics: [varieties, celeste]
 ---
 
+<!-- figure-id: d11.usda-pom-celeste -->
+<figure>
+<img src="../assets/images/varieties/usda-pom-celeste.jpg" alt="Celeste fig USDA pomological watercolor with closed-eye fruit">
+<figcaption>Figure 1. Celeste's tight ostiole is often cited for humid summers; in Zone 8a winter, the same plant still needs wood protection to fruit again. Credit: Elsie Lower Pomeroy; USDA NAL Pomological Watercolor Collection. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 Celeste is the fig I actually want to eat in a humid 8a. Small. Skin
 bronze to purple. Pulp pink. Honey-sweet without the jammy weight that
 makes some larger figs feel like dessert for someone else. The ostiole —

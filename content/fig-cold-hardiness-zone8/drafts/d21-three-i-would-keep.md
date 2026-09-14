@@ -10,6 +10,12 @@ cluster: siting
 topics: [varieties]
 ---
 
+<!-- figure-id: d21.usda-pom-celeste -->
+<figure>
+<img src="../assets/images/varieties/usda-pom-celeste.jpg" alt="Three-cultivar winter planning — Celeste USDA plate as representative hardy common fig">
+<figcaption>Figure 1. If you could keep only three figs in 8a, start with proven wood survivors — Celeste-class tight-eye fruit on USDA documentation. Credit: Elsie Lower Pomeroy; USDA NAL Pomological Watercolor Collection. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 If the place burned and I could carry three figs out of 8a, I
 would not take the rarest. I would take the ones that still
 make a year feel like a year.

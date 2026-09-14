@@ -10,6 +10,12 @@ cluster: siting
 topics: [in-ground, cold-hardiness]
 ---
 
+<!-- figure-id: d15.amwell-fig-tree -->
+<figure>
+<img src="../assets/images/living/amwell-fig-tree.jpg" alt="In-ground common fig tree with trunk and roots in garden soil">
+<figcaption>Figure 1. In-ground figs use soil mass as a blanket — the trunk and crown sit in earth that buffers sudden drops compared with a raised pot. Credit: Hopefully Acceptable Use (Wikimedia Commons). License: CC BY-SA 4.0 — see RIGHTS.md.</figcaption>
+</figure>
+
 The reason I put figs in the dirt, if I can, is not romance. It is
 thermal mass. A couple of feet of soil does not care about your
 overnight low the way a pot does. The roots sit in a battery that

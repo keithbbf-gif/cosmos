@@ -10,6 +10,12 @@ cluster: containers
 topics: [pots, roots, cold-hardiness]
 ---
 
+<!-- figure-id: d16.usda-pom-cutting -->
+<figure>
+<img src="../assets/images/varieties/usda-pom-cutting.jpg" alt="USDA plate of fig cutting wood for propagation">
+<figcaption>Figure 1. A container fig has a small root volume that freezes through — cutting wood plates remind you the plant is mostly roots in a pot cliff. Credit: USDA NAL Pomological Watercolor Collection. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 A pot looks like a small garden. In January it is a cliff. The roots
 are standing in the air, on every side, with only a half-inch of
 plastic or fabric between them and the night. In-ground roots fail

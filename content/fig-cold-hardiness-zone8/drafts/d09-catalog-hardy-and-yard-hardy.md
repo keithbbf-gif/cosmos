@@ -10,6 +10,12 @@ cluster: siting
 topics: [varieties, cold-hardiness]
 ---
 
+<!-- figure-id: d09.usda-pom-nameless -->
+<figure>
+<img src="../assets/images/varieties/usda-pom-nameless.jpg" alt="USDA pomological watercolor of an unnamed common fig cultivar">
+<figcaption>Figure 1. Catalog hardiness ratings and yard hardiness are not the same test — USDA plates document named fruit, not your fence line microclimate. Credit: USDA NAL Pomological Watercolor Collection. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 "Hardy to Zone 7" on a website means a person in marketing looked at other
 websites. Sometimes there is a real trial behind it. Sometimes there is a
 plant that lived in a protected courtyard in 7b and sent up new canes after

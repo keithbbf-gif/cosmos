@@ -10,6 +10,12 @@ cluster: hardiness
 topics: [cold-hardiness, zone-8a]
 ---
 
+<!-- figure-id: d01.usda-phzm-2012 -->
+<figure>
+<img src="../assets/images/shared/usda-phzm-2012.jpg" alt="USDA Plant Hardiness Zone Map with Zones 7, 8a, 8b, and 9 across the United States">
+<figcaption>Figure 1. Zone 8a sits between colder Zone 7 and milder Zone 9 on the USDA map — the in-between band where fig winter strategy borrows from both neighbors. Credit: USDA Agricultural Research Service. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 Zone 8a is where fig people get cocky and then get surprised. The map says the
 average annual extreme minimum sits between 10 and 15°F. That is not fig country
 the way a courtyard in Zone 10 is fig country. It is also not the Michigan problem,

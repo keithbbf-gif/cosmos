@@ -10,6 +10,12 @@ cluster: wrapping
 topics: [wrapping, materials]
 ---
 
+<!-- figure-id: d26.ehret-trew-1771 -->
+<figure>
+<img src="../assets/images/botanical/ehret-trew-1771.jpg" alt="Ehret 1771 botanical plate of Ficus carica — avoid non-breathable wrap materials">
+<figcaption>Figure 1. Do not wrap figs in sealed plastic or dark tarps — breathable materials protect without fermenting dormant tissue. Credit: G. D. Ehret; C. J. Trew, Plantae selectae (1771). License: Public domain — see RIGHTS.md.</figcaption>
+</figure>
+
 I keep a mental dumpster for fig wraps I will not build
 again.
 

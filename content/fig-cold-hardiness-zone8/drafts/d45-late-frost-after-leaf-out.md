@@ -10,6 +10,12 @@ cluster: spring
 topics: [late-frost, crop]
 ---
 
+<!-- figure-id: d45.hortus-leiden-fig-2021 -->
+<figure>
+<img src="../assets/images/living/hortus-leiden-fig-2021.jpg" alt="Fig tree with young spring foliage vulnerable to late frost">
+<figcaption>Figure 1. Late frost after leaf-out burns tender growth — protect or accept setback on breba wood in Zone 8a. Credit: Rudolphous (Wikimedia Commons). License: CC BY-SA 4.0 — see RIGHTS.md.</figcaption>
+</figure>
+
 The January low is the one we train for.
 The April frost is the one that takes
 the crop we already counted. Leaves

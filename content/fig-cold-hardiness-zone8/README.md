@@ -26,6 +26,10 @@ keep wood:
 
 A manifest lives in `_manifest.toml`. Drafts live in `drafts/`.
 
+Graphics (staged, not live): each draft embeds one `<figure>` with an SEO `figcaption`.
+Cleared rasters are in `assets/images/`; see `RIGHTS.md`, `GRAPHICS_INDEX.md`, and
+`IMAGE_SOURCES.md`. Regenerate with `python3 tools/fig_zone8_graphics.py all`.
+
 ## Voice
 
 First person, a yard in 8a, neighbors in 7 and 9. Specific temperatures. Opinions

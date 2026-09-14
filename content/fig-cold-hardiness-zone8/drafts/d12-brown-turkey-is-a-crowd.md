@@ -10,6 +10,12 @@ cluster: siting
 topics: [varieties, brown-turkey]
 ---
 
+<!-- figure-id: d12.usda-pom-magnolia -->
+<figure>
+<img src="../assets/images/varieties/usda-pom-magnolia.jpg" alt="USDA Magnolia fig watercolor — Brown Turkey class fruit in commerce">
+<figcaption>Figure 1. Brown Turkey in nurseries is a crowd of similar clones — a USDA Magnolia plate is a voucher, not proof your tag matches this wood. Credit: USDA NAL Pomological Watercolor Collection. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 If I had a dollar for every Brown Turkey that was not the Brown Turkey the
 seller meant, I could buy a decent roll of burlap. The name is a filing
 cabinet. Eastern Brown Turkey, Texas Everbearing (often filed here),

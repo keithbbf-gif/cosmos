@@ -1,0 +1,98 @@
+[
+  {
+    "path": "assets/images/shared/usda-phzm-2012.jpg",
+    "bytes": 614310,
+    "sha256": "db5554124550d411e4cf86fde3f2ad128fe8bc91eccac4581b0c86583830bf67",
+    "commons": "2012_USDA_Plant_Hardiness_Zone_Map_(USA).jpg"
+  },
+  {
+    "path": "assets/images/varieties/usda-pom-celeste.jpg",
+    "bytes": 1312615,
+    "sha256": "869835e7bbd5177e0e52fac9a5ec709909eda66b83bd115ad645f3f3e1191a22",
+    "commons": "Pomological_Watercolor_POM00007441.jpg"
+  },
+  {
+    "path": "assets/images/varieties/usda-pom-magnolia.jpg",
+    "bytes": 1041155,
+    "sha256": "d1e6746461c51bea16c254d6d21c18c9edc2a2e9464d279cc846c7c4a4a01f44",
+    "commons": "Pomological_Watercolor_POM00001043.jpg"
+  },
+  {
+    "path": "assets/images/varieties/usda-pom-calimyrna-1912.jpg",
+    "bytes": 1036707,
+    "sha256": "8ff6d2e49eb7618c991485383c1c260f9a0fb968c952ab6bce5fdab9eef57f99",
+    "commons": "Pomological_Watercolor_POM00007440.jpg"
+  },
+  {
+    "path": "assets/images/varieties/usda-pom-nameless.jpg",
+    "bytes": 1104273,
+    "sha256": "8cff7f0a1c7cb8fb781bb793790cb2b3d167a94307d379f1e12c47c5b0133768",
+    "commons": "Pomological_Watercolor_POM00001044.jpg"
+  },
+  {
+    "path": "assets/images/varieties/usda-pom-royal-black.jpg",
+    "bytes": 1066970,
+    "sha256": "f74e667e539c4ec55e26dc242b581c8fa229e3450e42d170661b2d74ac321658",
+    "commons": "Pomological_Watercolor_POM00001045.jpg"
+  },
+  {
+    "path": "assets/images/varieties/usda-pom-cutting.jpg",
+    "bytes": 1104754,
+    "sha256": "884c4786a4e4a2df6e61c8ff14035d0093f6272cb33be01671a474203e742e80",
+    "commons": "Pomological_Watercolor_POM00001042.jpg"
+  },
+  {
+    "path": "assets/images/varieties/usda-pom-toulousienne.jpg",
+    "bytes": 1134940,
+    "sha256": "e6df2f4ef81473ccda71fef433d92b38f8a14280f2797784a656f01c6ca32928",
+    "commons": "Pomological_Watercolor_POM00001168.jpg"
+  },
+  {
+    "path": "assets/images/varieties/usda-pom-endgere-caprifig.jpg",
+    "bytes": 1217338,
+    "sha256": "7e96eb1ab4f14660375d444c6df51e62417b152502a05d3951adfa6fb158acd1",
+    "commons": "Pomological_Watercolor_POM00001071.jpg"
+  },
+  {
+    "path": "assets/images/botanical/wellcome-v0044761.jpg",
+    "bytes": 2396146,
+    "sha256": "04439701f8e8f32e95ed1a161269e5911f48c31c50fef6d87d2eb9f831c18801",
+    "commons": "A_fig_plant_(Ficus_carica);_fruiting_stem_and_halved_fruit._Wellcome_V0044761.jpg"
+  },
+  {
+    "path": "assets/images/botanical/ehret-trew-1771.jpg",
+    "bytes": 113826,
+    "sha256": "2d76056f345974e0d66889aea481e33edaa617c0b453eb926293c1289fbbee5f",
+    "commons": "Ficus_carica_L,_1771.jpg"
+  },
+  {
+    "path": "assets/images/botanical/eb1911-moraceae-diagram.jpg",
+    "bytes": 296261,
+    "sha256": "5546e1029e93edca59fd4a0d1068c524ee4927f0b43c219b737cd00c42ec3a21",
+    "commons": "EB1911_Moraceae_-_Ficus_carica.jpg"
+  },
+  {
+    "path": "assets/images/botanical/kohler-type-med-plate.jpg",
+    "bytes": 940066,
+    "sha256": "7e6e5c1fb4dbba774329eb8731f679f3e30c79d70df36b36a596a6e6fbf1f6c8",
+    "commons": "Illustration_Ficus_carica0.jpg"
+  },
+  {
+    "path": "assets/images/botanical/denoncin-figuier-plate.jpg",
+    "bytes": 1806422,
+    "sha256": "fc3fac386c32a787e7769c7b095aa83ed281d43bffe8a6e4972e2bed5e7f2e96",
+    "commons": "11-Figuier-Ficus_carica.jpg"
+  },
+  {
+    "path": "assets/images/living/amwell-fig-tree.jpg",
+    "bytes": 1073291,
+    "sha256": "b2a50262e31fcddd1e46799ab6a71b8d9a7a13207e633328cd5101e074d854d7",
+    "commons": "Amwell_Fig_(1).jpg"
+  },
+  {
+    "path": "assets/images/living/hortus-leiden-fig-2021.jpg",
+    "bytes": 1052347,
+    "sha256": "78481dbad8361c6acf6d301db6ada79f2d772a86268e1b005886e681f592d869",
+    "commons": "20210731_Hortus_botanicus_Leiden_-_Ficus_carica.jpg"
+  }
+]

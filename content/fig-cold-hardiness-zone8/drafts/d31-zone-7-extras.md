@@ -10,6 +10,12 @@ cluster: wrapping
 topics: [zone-7, wrapping]
 ---
 
+<!-- figure-id: d31.usda-phzm-2012 -->
+<figure>
+<img src="../assets/images/shared/usda-phzm-2012.jpg" alt="USDA zone map with Zone 7 north of Zone 8a">
+<figcaption>Figure 1. Zone 7 growers bury crowns and accept top dieback — 8a can borrow crown mulch without copying every northern ritual. Credit: USDA Agricultural Research Service. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 When I talk to Zone 7 growers I borrow three extras I
 do not use every year in 8a, and I try not to pretend
 I am tougher than they are. Their average extreme

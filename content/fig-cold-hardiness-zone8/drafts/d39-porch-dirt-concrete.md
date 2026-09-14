@@ -10,6 +10,12 @@ cluster: containers
 topics: [pots, siting]
 ---
 
+<!-- figure-id: d39.hortus-leiden-fig-2021 -->
+<figure>
+<img src="../assets/images/living/hortus-leiden-fig-2021.jpg" alt="Fig tree on hardscape versus soil — porch and patio winter microclimates">
+<figcaption>Figure 1. Concrete and porch boards radiate cold under pots — surface matters as much as USDA zone for patio figs. Credit: Rudolphous (Wikimedia Commons). License: CC BY-SA 4.0 — see RIGHTS.md.</figcaption>
+</figure>
+
 I can change a pot's winter by moving it six
 feet and not changing anything else.
 

@@ -10,6 +10,12 @@ cluster: hardiness
 topics: [polar-vortex, cold-hardiness]
 ---
 
+<!-- figure-id: d41.usda-phzm-2012 -->
+<figure>
+<img src="../assets/images/shared/usda-phzm-2012.jpg" alt="USDA hardiness map during extreme cold-wave planning for fig growers">
+<figcaption>Figure 1. Polar vortex years break averages — zone maps are background when forecasts show days below teens in 8a. Credit: USDA Agricultural Research Service. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 Once or twice a decade the map is a rumor.
 The air that belongs in another country
 sits on 8a like it pays rent. Single

@@ -10,6 +10,12 @@ cluster: wrapping
 topics: [mulch, wrapping]
 ---
 
+<!-- figure-id: d49.eb1911-moraceae-diagram -->
+<figure>
+<img src="../assets/images/botanical/eb1911-moraceae-diagram.jpg" alt="Fig floral structure diagram — mulch over crown versus trunk wrap">
+<figcaption>Figure 1. Mulch insulates crown roots; it is not a substitute for wrapping upper wood on exposed in-ground figs. Credit: Encyclopaedia Britannica 1911. License: Public domain — see RIGHTS.md.</figcaption>
+</figure>
+
 I love mulch. I also watch people pile
 it like a volcano and think they have
 wrapped a fig. They have wrapped the

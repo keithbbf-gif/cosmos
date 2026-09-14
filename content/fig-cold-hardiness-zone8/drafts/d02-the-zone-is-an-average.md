@@ -10,6 +10,12 @@ cluster: hardiness
 topics: [cold-hardiness, usda-zones]
 ---
 
+<!-- figure-id: d02.usda-phzm-2012 -->
+<figure>
+<img src="../assets/images/shared/usda-phzm-2012.jpg" alt="USDA hardiness zone map showing thirty-year average extreme minimum temperatures">
+<figcaption>Figure 1. The published zone number is a long average of the coldest night, not a promise for your yard — the map is context for reading forecasts against fig wood. Credit: USDA Agricultural Research Service. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 USDA zones are built from the average annual extreme minimum. Read that again,
 slower. Average. Annual extreme. Minimum. It is not the coldest night that will
 ever happen in your driveway. It is not the coldest week. It is a statistic of

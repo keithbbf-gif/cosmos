@@ -10,6 +10,12 @@ cluster: containers
 topics: [pots, garage]
 ---
 
+<!-- figure-id: d36.usda-pom-cutting -->
+<figure>
+<img src="../assets/images/varieties/usda-pom-cutting.jpg" alt="Dormant fig wood on USDA plate — garage storage of potted trees">
+<figcaption>Figure 1. Unheated garage storage trades light for stable cold — dormant potted figs still need occasional moisture checks. Credit: USDA NAL Pomological Watercolor Collection. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 The garage is not a greenhouse. That is why it
 works. I want a place that stays mostly 30–45°F,
 dark or dim, quiet, and boring. A fig in that

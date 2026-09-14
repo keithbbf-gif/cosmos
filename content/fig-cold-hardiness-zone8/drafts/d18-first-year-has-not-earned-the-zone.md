@@ -10,6 +10,12 @@ cluster: siting
 topics: [first-year, cold-hardiness]
 ---
 
+<!-- figure-id: d18.usda-pom-cutting -->
+<figure>
+<img src="../assets/images/varieties/usda-pom-cutting.jpg" alt="Young fig propagation wood on USDA watercolor plate">
+<figcaption>Figure 1. First-year figs have not hardened wood or roots — treat new plantings colder than your zone map until they survive a full winter cycle. Credit: USDA NAL Pomological Watercolor Collection. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 An established fig in 8a and a stick you planted in May are not the
 same species as far as January is concerned. The established plant
 has a root plate, stored sugar, wood that hardened over a real

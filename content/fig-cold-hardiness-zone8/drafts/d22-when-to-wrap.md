@@ -10,6 +10,12 @@ cluster: wrapping
 topics: [wrapping, timing]
 ---
 
+<!-- figure-id: d22.amwell-fig-tree -->
+<figure>
+<img src="../assets/images/living/amwell-fig-tree.jpg" alt="Dormant-season fig tree before wrapping — timing reference in a temperate garden">
+<figcaption>Figure 1. Wrapping too early in October traps moisture — wait until the tree is dormant and forecasts justify protection in Zone 8a. Credit: Hopefully Acceptable Use (Wikimedia Commons). License: CC BY-SA 4.0 — see RIGHTS.md.</figcaption>
+</figure>
+
 The urge to wrap arrives on the first cool weekend, when the
 leaves are still green and the garden centers have put out
 burlap. That urge is how you trap a plant that has not gone

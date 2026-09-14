@@ -10,6 +10,12 @@ cluster: containers
 topics: [in-ground, pots]
 ---
 
+<!-- figure-id: d17.hortus-leiden-fig-2021 -->
+<figure>
+<img src="../assets/images/living/hortus-leiden-fig-2021.jpg" alt="Potted and field fig trees both Ficus carica — comparison context in a botanic garden">
+<figcaption>Figure 1. In-ground versus pot is a winter decision: soil volume and mobility trade off before the first killing frost in Zone 8a. Credit: Rudolphous (Wikimedia Commons). License: CC BY-SA 4.0 — see RIGHTS.md.</figcaption>
+</figure>
+
 People pick a side. In-ground people talk about "real plants" and
 show you a trunk. Pot people talk about control and show you a
 garage. Both are trying not to feel foolish when March comes. I keep

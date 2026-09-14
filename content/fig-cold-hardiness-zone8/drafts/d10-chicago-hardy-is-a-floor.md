@@ -10,6 +10,12 @@ cluster: siting
 topics: [varieties, chicago-hardy]
 ---
 
+<!-- figure-id: d10.usda-pom-toulousienne -->
+<figure>
+<img src="../assets/images/varieties/usda-pom-toulousienne.jpg" alt="USDA watercolor of Toulousienne fig on the branch">
+<figcaption>Figure 1. Chicago Hardy and other cold-tolerant labels are floors in commerce, not personalities — historic USDA plates show the fruit those names sell. Credit: USDA NAL Pomological Watercolor Collection. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 I plant Chicago Hardy the way I keep a spare key. It is not my favorite fig.
 It is the fig that makes the rest of the collection honest. Missouri
 Botanical Garden rates the stems to 10°F and the roots to −20°F. Those are

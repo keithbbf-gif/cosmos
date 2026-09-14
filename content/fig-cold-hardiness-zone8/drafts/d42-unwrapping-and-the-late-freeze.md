@@ -10,6 +10,12 @@ cluster: spring
 topics: [unwrapping, late-freeze]
 ---
 
+<!-- figure-id: d42.amwell-fig-tree -->
+<figure>
+<img src="../assets/images/living/amwell-fig-tree.jpg" alt="Early-spring fig tree before full leaf-out — late freeze unwrap timing">
+<figcaption>Figure 1. Unwrap on a warming trend but keep material handy — late March freezes hit 8a figs after a mild week. Credit: Hopefully Acceptable Use (Wikimedia Commons). License: CC BY-SA 4.0 — see RIGHTS.md.</figcaption>
+</figure>
+
 Taking the coat off is how you lose the
 wood you kept, if you do it like a person
 who is sick of looking at burlap. I have

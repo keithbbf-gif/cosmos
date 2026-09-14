@@ -10,6 +10,12 @@ cluster: wrapping
 topics: [wrapping, heat]
 ---
 
+<!-- figure-id: d27.kohler-type-med-plate -->
+<figure>
+<img src="../assets/images/botanical/kohler-type-med-plate.jpg" alt="Köhler-type Ficus carica plate — caution with heat cables and lights">
+<figcaption>Figure 1. Heat cables and incandescent lights need thermostats and fire clearance — electricity is a tool, not a substitute for a bad wrap job. Credit: Köhler-type medicinal plate (Commons scan). License: Public domain — see RIGHTS.md.</figcaption>
+</figure>
+
 Old incandescent Christmas lights put out a little heat.
 People still talk about them like they are a fig tradition.
 I have used a short string, on a timer, inside a breathable

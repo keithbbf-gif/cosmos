@@ -10,6 +10,12 @@ cluster: containers
 topics: [pots, roots]
 ---
 
+<!-- figure-id: d38.usda-pom-cutting -->
+<figure>
+<img src="../assets/images/varieties/usda-pom-cutting.jpg" alt="Small-diameter fig wood — pot volume and freeze-through time">
+<figcaption>Figure 1. Small pots freeze through in one night; larger soil mass buys hours that matter at 12°F in Zone 8a. Credit: USDA NAL Pomological Watercolor Collection. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 A three-gallon fig is a popsicle waiting for
 hours, not days. A twenty-gallon fig is a
 roast that takes all night to go cold in the

@@ -10,6 +10,12 @@ cluster: siting
 topics: [raised-beds, in-ground, pots]
 ---
 
+<!-- figure-id: d20.eb1911-moraceae-diagram -->
+<figure>
+<img src="../assets/images/botanical/eb1911-moraceae-diagram.jpg" alt="Encyclopaedia Britannica 1911 floral diagram of Ficus carica">
+<figcaption>Figure 1. Raised beds drain well but lift roots toward the air — neither true in-ground mass nor a movable pot for winter protection. Credit: Encyclopaedia Britannica 1911. License: Public domain — see RIGHTS.md.</figcaption>
+</figure>
+
 I planted a fig in a pretty raised bed because the yard was a
 sheet of water in February and I wanted drainage. I got drainage.
 I also got a root zone that behaved like a wide, shallow pot

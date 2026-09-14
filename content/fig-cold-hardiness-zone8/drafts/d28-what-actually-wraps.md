@@ -10,6 +10,12 @@ cluster: wrapping
 topics: [wrapping, training]
 ---
 
+<!-- figure-id: d28.amwell-fig-tree -->
+<figure>
+<img src="../assets/images/living/amwell-fig-tree.jpg" alt="Multi-stem common fig tree habit for winter tying and wrapping">
+<figcaption>Figure 1. Split-trunk and bush forms wrap differently — tie stems so burlap follows the real architecture, not an imaginary lollipop. Credit: Hopefully Acceptable Use (Wikimedia Commons). License: CC BY-SA 4.0 — see RIGHTS.md.</figcaption>
+</figure>
+
 A fig you trained as a single tall trunk is a flagpole. A
 fig you let become a stool of six canes is a bundle. I
 know which one I can wrap in twenty minutes, and which

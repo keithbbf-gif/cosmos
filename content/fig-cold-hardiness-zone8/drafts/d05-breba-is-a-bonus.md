@@ -10,6 +10,12 @@ cluster: hardiness
 topics: [cold-hardiness, breba, main-crop]
 ---
 
+<!-- figure-id: d05.usda-pom-celeste -->
+<figure>
+<img src="../assets/images/varieties/usda-pom-celeste.jpg" alt="USDA watercolor plate of Celeste fig fruit and leaves">
+<figcaption>Figure 1. Breba figs form on last year's wood — when cold kills canes, you lose that bonus crop on cultivars like Celeste. Credit: Elsie Lower Pomeroy; USDA NAL Pomological Watercolor Collection. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 Figs can make two crops. The early one, the breba, sits on last year's wood.
 The main crop sits on this year's wood. That sentence is the whole reason
 winter protection has a point beyond "keep the plant alive."

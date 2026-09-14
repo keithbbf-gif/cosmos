@@ -10,6 +10,12 @@ cluster: hardiness
 topics: [cold-hardiness, duration]
 ---
 
+<!-- figure-id: d08.usda-phzm-2012 -->
+<figure>
+<img src="../assets/images/shared/usda-phzm-2012.jpg" alt="USDA zone map emphasizing mid-South and Mid-Atlantic hardiness bands">
+<figcaption>Figure 1. Duration below freezing often matters more than the single lowest degree on the thermometer — zone bands are averages of extreme nights, not hours cold. Credit: USDA Agricultural Research Service. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 A 10°F snap that arrives after midnight and is gone by 9 a.m. is a different
 animal from four days that never climb through 20. I used to read forecasts
 for the low and go to bed. I still read the low. I also count the hours

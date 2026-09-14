@@ -10,6 +10,12 @@ cluster: wrapping
 topics: [wrapping, midwinter]
 ---
 
+<!-- figure-id: d34.amwell-fig-tree -->
+<figure>
+<img src="../assets/images/living/amwell-fig-tree.jpg" alt="Wrapped-season inspection of common fig in a garden without removing protection">
+<figcaption>Figure 1. Midwinter checks should confirm ties and dryness — peek without stripping insulation during a cold spell. Credit: Hopefully Acceptable Use (Wikimedia Commons). License: CC BY-SA 4.0 — see RIGHTS.md.</figcaption>
+</figure>
+
 The worst thing you can do to a decent wrap is
 love it every Saturday. Peeking dumps the warm,
 lets the rain in, and turns a coat into a hobby.

@@ -10,6 +10,12 @@ cluster: siting
 topics: [varieties, cold-hardiness]
 ---
 
+<!-- figure-id: d14.usda-pom-royal-black -->
+<figure>
+<img src="../assets/images/varieties/usda-pom-royal-black.jpg" alt="USDA Royal Black fig pomological watercolor">
+<figcaption>Figure 1. Cultivars that sulk in 8a often want longer seasons or milder winters — dark-fruited plates help you recognize the plant, not guarantee survival. Credit: USDA NAL Pomological Watercolor Collection. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 I have a soft spot for figs that do not belong here. That soft spot has
 cost me wood, pots, and one entire spring of pretending a Mission was
 "just late." Some cultivars are not immoral in 8a. They are just asking

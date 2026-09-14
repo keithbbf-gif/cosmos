@@ -10,6 +10,12 @@ cluster: hardiness
 topics: [water, dormancy]
 ---
 
+<!-- figure-id: d35.wellcome-v0044761 -->
+<figure>
+<img src="../assets/images/botanical/wellcome-v0044761.jpg" alt="Ficus carica stem and fruit cross-section — drought and freeze stress">
+<figcaption>Figure 1. Water into dormancy, then avoid bone-dry roots before a hard freeze — stressed wood freezes more readily in 8a pots and margins. Credit: Wellcome Collection V0044761. License: CC BY 4.0 — see RIGHTS.md.</figcaption>
+</figure>
+
 A fig that goes into a freeze drunk on August
 water and late nitrogen is soft. A fig that
 goes into a freeze as a dry bone, especially

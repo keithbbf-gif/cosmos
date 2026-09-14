@@ -10,6 +10,12 @@ cluster: wrapping
 topics: [zone-9, wrapping]
 ---
 
+<!-- figure-id: d32.hortus-leiden-fig-2021 -->
+<figure>
+<img src="../assets/images/living/hortus-leiden-fig-2021.jpg" alt="Mild-climate fig tree in full leaf — Zone 9 restraint on wrapping">
+<figcaption>Figure 1. In Zone 9, unnecessary wrapping steams dormant wood — mild winters need shade and water discipline more than burlap habits from 8a. Credit: Rudolphous (Wikimedia Commons). License: CC BY-SA 4.0 — see RIGHTS.md.</figcaption>
+</figure>
+
 Zone 9a averages an extreme minimum in the 20–25°F
 band. That is a citrus night, not a fig funeral. A
 dormant fig of a normal variety, in the ground, in

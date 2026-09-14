@@ -10,6 +10,12 @@ cluster: siting
 topics: [microclimate, siting]
 ---
 
+<!-- figure-id: d19.amwell-fig-tree -->
+<figure>
+<img src="../assets/images/living/amwell-fig-tree.jpg" alt="Fig tree planted along a garden wall with radiant heat potential">
+<figcaption>Figure 1. South walls and brick steal degrees on sunny days — siting against masonry is a Zone 8a trick that does not show on the USDA map. Credit: Hopefully Acceptable Use (Wikimedia Commons). License: CC BY-SA 4.0 — see RIGHTS.md.</figcaption>
+</figure>
+
 The best wrap I own is a wall I did not build. South or southwest
 masonry collects the day and leaks it back at night. It kills the
 north fetch. It makes an 8a fig behave like it moved a half zone

@@ -68,6 +68,10 @@ def main() -> int:
         words_all.append(n)
         if n < MIN_WORDS:
             errors.append(f"{path.name}: {n} words < {MIN_WORDS}")
+        if "<figure>" not in text:
+            errors.append(f"{path.name}: missing <figure> block")
+        if "figcaption>" not in text:
+            errors.append(f"{path.name}: missing SEO figcaption")
         low = text.lower()
         for phrase in SLOP:
             if phrase in low:

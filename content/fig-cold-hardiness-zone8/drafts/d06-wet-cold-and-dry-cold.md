@@ -10,6 +10,12 @@ cluster: hardiness
 topics: [cold-hardiness, humidity, wrapping]
 ---
 
+<!-- figure-id: d06.hortus-leiden-fig-2021 -->
+<figure>
+<img src="../assets/images/living/hortus-leiden-fig-2021.jpg" alt="Common fig tree Ficus carica in summer leaf at Hortus botanicus Leiden">
+<figcaption>Figure 1. Wet cold and dry cold stress dormant fig tissue differently — living foliage shows the tree you are trying to keep alive through winter. Credit: Rudolphous (Wikimedia Commons). License: CC BY-SA 4.0 — see RIGHTS.md.</figcaption>
+</figure>
+
 I have had 14°F in a dry wind that left the fig sulking but intact, and 18°F
 in a week of sopping cold that marked wood I thought was safe. The
 thermometer was not the whole story. Water was.

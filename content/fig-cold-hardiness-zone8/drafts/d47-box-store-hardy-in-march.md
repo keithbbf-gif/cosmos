@@ -10,6 +10,12 @@ cluster: siting
 topics: [buying, varieties]
 ---
 
+<!-- figure-id: d47.usda-pom-magnolia -->
+<figure>
+<img src="../assets/images/varieties/usda-pom-magnolia.jpg" alt="Nursery-labeled Brown Turkey class fig on USDA plate — March box-store hardy tags">
+<figcaption>Figure 1. Box-store hardy labels in March describe marketing, not your December — verify cultivar against a voucher plate, then plan wraps. Credit: USDA NAL Pomological Watercolor Collection. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 March is when the big stores roll out
 figs with tags that say hardy like it
 is a flavor. The plants have been in

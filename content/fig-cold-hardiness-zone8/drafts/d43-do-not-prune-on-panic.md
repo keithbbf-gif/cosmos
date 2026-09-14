@@ -10,6 +10,12 @@ cluster: spring
 topics: [pruning, dieback]
 ---
 
+<!-- figure-id: d43.amwell-fig-tree -->
+<figure>
+<img src="../assets/images/living/amwell-fig-tree.jpg" alt="Common fig with winter dieback wood waiting for late spring pruning">
+<figcaption>Figure 1. Do not panic-prune brown wood in March — wait until buds show live tissue after the last hard freeze window. Credit: Hopefully Acceptable Use (Wikimedia Commons). License: CC BY-SA 4.0 — see RIGHTS.md.</figcaption>
+</figure>
+
 March wood is a liar and a sleeper. I have
 cut a fig to the dirt because I was tired
 of looking at sticks, and then watched the

@@ -10,6 +10,12 @@ cluster: hardiness
 topics: [cold-hardiness, dieback, recovery]
 ---
 
+<!-- figure-id: d04.amwell-fig-tree -->
+<figure>
+<img src="../assets/images/living/amwell-fig-tree.jpg" alt="Mature common fig tree Ficus carica with branching structure in a garden">
+<figcaption>Figure 1. Dieback to grey sticks is not always death — a living Ficus carica can resprout from lower wood after a hard Zone 8a winter. Credit: Hopefully Acceptable Use (Wikimedia Commons). License: CC BY-SA 4.0 — see RIGHTS.md.</figcaption>
+</figure>
+
 The first bad March I had with figs, I almost dug the plant. It looked like I
 had installed a coat rack. No buds swelling. Bark dull. I kicked the mulch,
 saw what I thought was a dead crown, and went inside to look up replacements.

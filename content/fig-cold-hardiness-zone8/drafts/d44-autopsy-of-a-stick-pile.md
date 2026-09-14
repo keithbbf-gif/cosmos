@@ -10,6 +10,12 @@ cluster: spring
 topics: [autopsy, dieback]
 ---
 
+<!-- figure-id: d44.usda-pom-cutting -->
+<figure>
+<img src="../assets/images/varieties/usda-pom-cutting.jpg" alt="Dead fig stick wood on USDA propagation plate — autopsy comparison">
+<figcaption>Figure 1. Autopsy piles of grey sticks teach more than catalogs — scratch bark and check pith before declaring the roots dead. Credit: USDA NAL Pomological Watercolor Collection. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 When a fig is sticks, I want a story that
 makes me innocent. Variety. Polar vortex.
 The neighbor's walnut. Sometimes the

@@ -10,6 +10,12 @@ cluster: hardiness
 topics: [cold-hardiness, wood, buds, roots]
 ---
 
+<!-- figure-id: d03.wellcome-v0044761 -->
+<figure>
+<img src="../assets/images/botanical/wellcome-v0044761.jpg" alt="Botanical illustration of Ficus carica fruiting stem, syconia, and halved fruit">
+<figcaption>Figure 1. Winter damage splits wood, buds, roots, and fruiting positions differently — a common fig anatomy plate labels what can freeze separately. Credit: Wellcome Collection V0044761. License: CC BY 4.0 — see RIGHTS.md.</figcaption>
+</figure>
+
 People say "the fig froze" as if the plant were one object with one death. It
 is four objects that fail at different temperatures, and they fail in a
 different order depending on whether you are in the ground or in a pot.

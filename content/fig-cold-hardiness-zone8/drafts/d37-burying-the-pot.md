@@ -10,6 +10,12 @@ cluster: containers
 topics: [pots, burying]
 ---
 
+<!-- figure-id: d37.amwell-fig-tree -->
+<figure>
+<img src="../assets/images/living/amwell-fig-tree.jpg" alt="In-ground fig planting depth context for burying pots">
+<figcaption>Figure 1. Burying pots heel-deep uses soil insulation while keeping the plant movable — different from true in-ground culture. Credit: Hopefully Acceptable Use (Wikimedia Commons). License: CC BY-SA 4.0 — see RIGHTS.md.</figcaption>
+</figure>
+
 If I cannot get a pot into a garage, I can still
 give it a fake in-ground winter. I dig a hole
 the pot can sit in, drop it so the rim is near

@@ -10,6 +10,12 @@ cluster: wrapping
 topics: [wrapping, cage]
 ---
 
+<!-- figure-id: d24.denoncin-figuier-plate -->
+<figure>
+<img src="../assets/images/botanical/denoncin-figuier-plate.jpg" alt="Historic French fig wood and fruit plate — winter cage context">
+<figcaption>Figure 1. Leaf-filled cages insulate without sealing — historic plates show the wood you are enclosing, not the leaves themselves. Credit: Denoncin, figuier plate (Commons: 11-Figuier-Ficus carica). License: Public domain (as tagged on Commons) — see RIGHTS.md.</figcaption>
+</figure>
+
 The cage is the only wrap I will still respect in a hurry.
 Hardware cloth or a tall tomato cage, a cylinder around the
 bundled fig, filled with leaves I dried under the porch, a

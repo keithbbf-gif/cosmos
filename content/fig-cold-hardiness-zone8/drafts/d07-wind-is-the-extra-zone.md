@@ -10,6 +10,12 @@ cluster: hardiness
 topics: [cold-hardiness, wind, microclimate]
 ---
 
+<!-- figure-id: d07.amwell-fig-tree -->
+<figure>
+<img src="../assets/images/living/amwell-fig-tree.jpg" alt="Spreading fig tree canopy exposed to open garden air">
+<figcaption>Figure 1. Wind strips heat from fig wood faster than a still night at the same temperature — open exposure behaves like a colder zone. Credit: Hopefully Acceptable Use (Wikimedia Commons). License: CC BY-SA 4.0 — see RIGHTS.md.</figcaption>
+</figure>
+
 The thermometer on the shaded porch said 13°F. The fig in the open was living
 a colder life than that. Wind does not always drop the air temperature on a
 cheap sensor, but it strips the little envelope of warmer air a plant keeps

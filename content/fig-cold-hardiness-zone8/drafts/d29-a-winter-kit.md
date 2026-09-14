@@ -10,6 +10,12 @@ cluster: wrapping
 topics: [wrapping, materials]
 ---
 
+<!-- figure-id: d29.wellcome-v0044761 -->
+<figure>
+<img src="../assets/images/botanical/wellcome-v0044761.jpg" alt="Fig plant parts labeled on Wellcome botanical plate — winter kit reference">
+<figcaption>Figure 1. A winter kit is twine, breathable wrap, mulch, and a forecast — not a gadget drawer of unlabeled sprays. Credit: Wellcome Collection V0044761. License: CC BY 4.0 — see RIGHTS.md.</figcaption>
+</figure>
+
 I used to buy fig winter gadgets. I now buy materials
 that have a summer job too.
 

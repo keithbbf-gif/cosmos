@@ -10,6 +10,12 @@ cluster: hardiness
 topics: [zone-8a, zone-8b]
 ---
 
+<!-- figure-id: d33.usda-phzm-2012 -->
+<figure>
+<img src="../assets/images/shared/usda-phzm-2012.jpg" alt="USDA map detail for Zone 8a versus 8b minimum temperature bands">
+<figcaption>Figure 1. Five degrees of average extreme minimum separates 8a from 8b — attitude toward wrapping and variety risk shifts with that band. Credit: USDA Agricultural Research Service. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 Eight-b is 15–20°F on the average extreme. Eight-a
 is 10–15°F. Five degrees. It does not sound like a
 personality. It is one. I have friends in 8b who

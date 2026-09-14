@@ -10,6 +10,12 @@ cluster: wrapping
 topics: [wrapping, tip-and-bury]
 ---
 
+<!-- figure-id: d25.usda-pom-cutting -->
+<figure>
+<img src="../assets/images/varieties/usda-pom-cutting.jpg" alt="Flexible fig branches on USDA cutting plate — tip-and-bury candidate wood">
+<figcaption>Figure 1. Tip-and-bury bends young wood to soil level — a Zone 7 trick some 8a growers still use after polar winters. Credit: USDA NAL Pomological Watercolor Collection. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 Laying a fig down and covering it with soil is the old
 northern method. You prune to a flexible framework, bend
 the canes, pin them, bury them, mark the grave so you do

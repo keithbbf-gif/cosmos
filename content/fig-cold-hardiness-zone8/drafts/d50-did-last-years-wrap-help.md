@@ -10,6 +10,12 @@ cluster: spring
 topics: [wrapping, evidence]
 ---
 
+<!-- figure-id: d50.amwell-fig-tree -->
+<figure>
+<img src="../assets/images/living/amwell-fig-tree.jpg" alt="Surviving common fig after winter — evaluating last season's protection">
+<figcaption>Figure 1. Judge last year's wrap by live wood and breba set, not by whether burlap looked tidy in April. Credit: Hopefully Acceptable Use (Wikimedia Commons). License: CC BY-SA 4.0 — see RIGHTS.md.</figcaption>
+</figure>
+
 I used to wrap, survive, and credit
 the wrap. That is a story, not a
 test. Figs survive 8a without me

@@ -10,6 +10,12 @@ cluster: containers
 topics: [in-ground, pots]
 ---
 
+<!-- figure-id: d46.amwell-fig-tree -->
+<figure>
+<img src="../assets/images/living/amwell-fig-tree.jpg" alt="In-ground yard fig beside container culture — two winter regimes">
+<figcaption>Figure 1. Yard fig and patio fig are different plants in winter — soil mass versus garage mobility in the same USDA zone. Credit: Hopefully Acceptable Use (Wikimedia Commons). License: CC BY-SA 4.0 — see RIGHTS.md.</figcaption>
+</figure>
+
 I used to treat every fig as the same
 assignment. That is how the patio plant
 died and the yard plant got a wrap it

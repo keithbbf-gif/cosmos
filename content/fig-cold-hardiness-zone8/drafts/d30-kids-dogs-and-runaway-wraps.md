@@ -10,6 +10,12 @@ cluster: wrapping
 topics: [wrapping]
 ---
 
+<!-- figure-id: d30.hortus-leiden-fig-2021 -->
+<figure>
+<img src="../assets/images/living/hortus-leiden-fig-2021.jpg" alt="Garden fig tree where pets and children can disturb winter protection">
+<figcaption>Figure 1. Dogs, kids, and wind undo wraps — stake cages so protection survives the yard, not just the first cold night. Credit: Rudolphous (Wikimedia Commons). License: CC BY-SA 4.0 — see RIGHTS.md.</figcaption>
+</figure>
+
 I wrapped a fig beautifully once. By morning the tarp
 was in the neighbor's yaupon and the dog had pulled a
 necklace of burlap down the drive. The fig was fine. My

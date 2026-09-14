@@ -10,6 +10,12 @@ cluster: hardiness
 topics: [snow, ice]
 ---
 
+<!-- figure-id: d40.amwell-fig-tree -->
+<figure>
+<img src="../assets/images/living/amwell-fig-tree.jpg" alt="Temperate garden fig after snow — ice and insulation context">
+<figcaption>Figure 1. Snow can insulate if it stays; ice and wind strip protection — do not assume white cover always helps wood. Credit: Hopefully Acceptable Use (Wikimedia Commons). License: CC BY-SA 4.0 — see RIGHTS.md.</figcaption>
+</figure>
+
 Snow on the crown is a decent blanket. Snow
 is mostly air. A few inches over a mulched
 stool in 8a is free insulation I did not

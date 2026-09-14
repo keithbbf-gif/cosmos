@@ -10,6 +10,12 @@ cluster: siting
 topics: [varieties, lsu]
 ---
 
+<!-- figure-id: d13.usda-pom-endgere-caprifig -->
+<figure>
+<img src="../assets/images/varieties/usda-pom-endgere-caprifig.jpg" alt="USDA caprifig watercolor used in Smyrna pollination systems">
+<figcaption>Figure 1. LSU releases were bred for Gulf humidity and nematodes — caprifig biology still explains why some fig classes need wasps, unlike most backyard 8a trees. Credit: USDA NAL Pomological Watercolor Collection. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 Louisiana State University did not breed figs so a person in a dry Zone 6
 could win a Facebook argument. They bred them for heat, humidity, and a
 long season where rust and souring will take a crop before a January night

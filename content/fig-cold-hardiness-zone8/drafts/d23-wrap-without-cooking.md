@@ -10,6 +10,12 @@ cluster: wrapping
 topics: [wrapping]
 ---
 
+<!-- figure-id: d23.hortus-leiden-fig-2021 -->
+<figure>
+<img src="../assets/images/living/hortus-leiden-fig-2021.jpg" alt="Open-centered fig tree structure for winter airflow when wrapped">
+<figcaption>Figure 1. Burlap and breathable wraps need air gaps — avoid cooking dormant buds under plastic sheeting on sunny winter days. Credit: Rudolphous (Wikimedia Commons). License: CC BY-SA 4.0 — see RIGHTS.md.</figcaption>
+</figure>
+
 A good wrap is a coat with cuffs you can loosen. A bad wrap is
 a bag. I have built both. The bag makes you feel like you did
 something. The bag is also how you smell the plant in March

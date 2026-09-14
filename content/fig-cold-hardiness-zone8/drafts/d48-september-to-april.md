@@ -10,6 +10,12 @@ cluster: spring
 topics: [calendar, wrapping, pots]
 ---
 
+<!-- figure-id: d48.usda-phzm-2012 -->
+<figure>
+<img src="../assets/images/shared/usda-phzm-2012.jpg" alt="Seasonal calendar context on USDA Zone 8a hardiness map">
+<figcaption>Figure 1. September through April is the wall calendar for 8a fig winter — protection, checks, unwrap, and late frost in one loop. Credit: USDA Agricultural Research Service. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 I do not run figs on a pretty calendar
 with icons. I run them on a few
 habits that sit on the same months
