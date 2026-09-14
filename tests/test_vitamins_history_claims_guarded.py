@@ -27,6 +27,8 @@ def test_folder_furniture_exists():
         "README.md",
         "STAGING.md",
         "SOURCES.md",
+        "RIGHTS.md",
+        "GRAPHICS_INDEX.md",
     ):
         assert (FOLDER / name).is_file(), name
 

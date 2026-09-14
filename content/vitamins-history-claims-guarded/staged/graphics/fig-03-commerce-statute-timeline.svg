@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="vhfig03-title vhfig03-desc">
+  <title id="vhfig03-title">Fig. 3 - Commerce and U.S. statute milestones (1940-1995)</title>
+  <desc id="vhfig03-desc">Timeline from One-A-Day trademark era through flour enrichment, Proxmire amendment, DSHEA, and creation of the NIH Office of Dietary Supplements.</desc>
+  <defs>
+    <style>
+      .paper { fill: #F4F0E6; }
+      .ink { fill: #1A1814; font-family: Georgia, 'Palatino Linotype', serif; }
+      .muted { fill: #5A5348; font-family: Georgia, serif; }
+      .caps { font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; }
+      .label { font-size: 13px; font-weight: bold; }
+      .note { font-size: 11px; }
+      .year { font-size: 12px; font-weight: bold; fill: #2F5F6F; }
+      .band-trade { fill: #E6DED0; }
+      .band-law { fill: #D8E0EB; }
+      .rule { stroke: #1A1814; stroke-width: 1.2; fill: none; }
+      .tick { stroke: #1A1814; stroke-width: 1; }
+    </style>
+    <marker id="arrow3" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#1A1814"/>
+    </marker>
+  </defs>
+  <rect class="paper" width="1200" height="520"/>
+  <rect x="0" y="0" width="1200" height="6" fill="#2F5F6F"/>
+  <text x="48" y="42" class="ink caps">Fig. 03</text>
+  <text x="48" y="72" class="ink" font-size="26" font-weight="bold">From habit to statute</text>
+  <text x="48" y="98" class="muted note">Manufacturing, enrichment policy, and federal supplement law - described as history, not compliance advice.</text>
+
+  <rect x="80" y="124" width="520" height="32" class="band-trade" rx="2"/>
+  <text x="90" y="144" class="muted caps" font-size="10">Trade &amp; commodities</text>
+  <rect x="600" y="124" width="520" height="32" class="band-law" rx="2"/>
+  <text x="610" y="144" class="muted caps" font-size="10">Statute &amp; labeling architecture</text>
+
+  <line x1="80" y1="280" x2="1120" y2="280" class="rule" marker-end="url(#arrow3)"/>
+  <g class="tick">
+    <line x1="160" y1="272" x2="160" y2="288"/><text x="140" y="308" class="year">1940</text>
+    <line x1="320" y1="272" x2="320" y2="288"/><text x="300" y="308" class="year">1941</text>
+    <line x1="480" y1="272" x2="480" y2="288"/><text x="460" y="308" class="year">1976</text>
+    <line x1="640" y1="272" x2="640" y2="288"/><text x="620" y="308" class="year">1990</text>
+    <line x1="800" y1="272" x2="800" y2="288"/><text x="780" y="308" class="year">1994</text>
+    <line x1="960" y1="272" x2="960" y2="288"/><text x="940" y="308" class="year">1995</text>
+  </g>
+
+  <g>
+    <line x1="160" y1="280" x2="160" y2="220" class="tick"/>
+    <circle cx="160" cy="214" r="5" fill="#2F5F6F"/>
+    <text x="100" y="200" class="label ink">One-A-Day trademark</text>
+    <text x="100" y="216" class="note muted">Miles Laboratories habit packaging (VH-31)</text>
+
+    <line x1="320" y1="280" x2="320" y2="340" class="tick"/>
+    <circle cx="320" cy="346" r="5" fill="#2F5F6F"/>
+    <text x="240" y="362" class="label ink">Enriched flour standard</text>
+    <text x="240" y="378" class="note muted">Federal identity standard; wartime nutrition context (VH-32-33)</text>
+
+    <line x1="480" y1="280" x2="480" y2="220" class="tick"/>
+    <circle cx="480" cy="214" r="5" fill="#2F5F6F"/>
+    <text x="400" y="200" class="label ink">Proxmire amendment</text>
+    <text x="400" y="216" class="note muted">Vitamin-mineral high-potency fence (VH-34)</text>
+
+    <line x1="640" y1="280" x2="640" y2="340" class="tick"/>
+    <circle cx="640" cy="346" r="5" fill="#2F5F6F"/>
+    <text x="560" y="362" class="label ink">NLEA</text>
+    <text x="560" y="378" class="note muted">Nutrition labeling architecture (context for VH-37)</text>
+
+    <line x1="800" y1="280" x2="800" y2="220" class="tick"/>
+    <circle cx="800" cy="214" r="5" fill="#2F5F6F"/>
+    <text x="720" y="200" class="label ink">DSHEA signed</text>
+    <text x="720" y="216" class="note muted">Pub. L. 103-417 - statute history only (VH-35)</text>
+
+    <line x1="960" y1="280" x2="960" y2="340" class="tick"/>
+    <circle cx="960" cy="346" r="5" fill="#2F5F6F"/>
+    <text x="880" y="362" class="label ink">NIH ODS created</text>
+    <text x="880" y="378" class="note muted">Office of Dietary Supplements (VH-47)</text>
+  </g>
+
+  <text x="48" y="440" class="muted note">Roche cartel plea (1999) and commodity shifts east (VH-39-40) sit after this axis - see essays, not this figure.</text>
+  <text x="48" y="460" class="muted note">No structure/function or disease claims are implied by this timeline.</text>
+</svg>

@@ -1,0 +1,79 @@
+{
+  "series": "vitamins-history-claims-guarded",
+  "assets": [
+    {
+      "id": "vh-fig-01",
+      "path": "staged/graphics/fig-01-discovery-timeline.svg",
+      "sha256": "9fb51ea9ebb9eded3bc1402ab4835382be80486c446f50dcf119d68264070f8f",
+      "kind": "timeline"
+    },
+    {
+      "id": "vh-fig-02",
+      "path": "staged/graphics/fig-02-naming-letters-map.svg",
+      "sha256": "cd134efbe626ff0ade9463632d2fc50a51032dc7ae285eee90d45536c7f2d558",
+      "kind": "diagram"
+    },
+    {
+      "id": "vh-fig-03",
+      "path": "staged/graphics/fig-03-commerce-statute-timeline.svg",
+      "sha256": "2a6da36d3eb9e567b04fc3179b91fffeacdf7a1ced69eff2fc383b97ba0f94d5",
+      "kind": "timeline"
+    },
+    {
+      "id": "vh-img-funk-01",
+      "path": "staged/images/commons-casimir-funk-01.jpg",
+      "sha256": "4dc7a901ed032fe34a1bf547fae57719e8d9b6e4525c36da6b4a1dc3830bfb49",
+      "license": "Public domain",
+      "draft_slug": "funk-coins-vitamine-1912"
+    },
+    {
+      "id": "vh-img-hopkins",
+      "path": "staged/images/commons-frederick-gowland-hopkins.jpg",
+      "sha256": "daccee991b843f86c64ced79dbae41bdee0ce6c0844232fb410add7a97976236",
+      "license": "CC BY 4.0",
+      "draft_slug": "hopkins-accessory-food-factors"
+    },
+    {
+      "id": "vh-img-eijkman",
+      "path": "staged/images/commons-christiaan-eijkman.jpg",
+      "sha256": "6fa0c1d510c31cc469fc87a537e29d50d56a859dc6a10405f9935e905c589c78",
+      "license": "Copyrighted free use",
+      "draft_slug": "eijkman-chickens-batavia"
+    },
+    {
+      "id": "vh-img-lind-treatise",
+      "path": "staged/images/wellcome-james-lind-treatise-1757.jpg",
+      "sha256": "c6c90a7cfc91e0acd83723e2364f2aeb4a1f2fe00d8edc89c3dadf2047b87512",
+      "license": "CC BY 4.0",
+      "draft_slug": "lind-treatise-of-the-scurvy-1753"
+    },
+    {
+      "id": "vh-img-szent-gyorgyi",
+      "path": "staged/images/commons-albert-szent-gyorgyi.jpg",
+      "sha256": "2d318f3ac33da2338b38894b2914b93f85f0d034d818a02756eea9b0d160c5af",
+      "license": "Public domain",
+      "draft_slug": "szent-gyorgyi-hexuronic-acid"
+    },
+    {
+      "id": "vh-img-goldberger",
+      "path": "staged/images/commons-joseph-goldberger.jpg",
+      "sha256": "225faf799b0b354a1675816d8eb86ffcef6ed62afcadd414873e14ba41acf010",
+      "license": "Public domain",
+      "draft_slug": "goldberger-pellagra-diet"
+    },
+    {
+      "id": "vh-img-enrichment-1941",
+      "path": "staged/images/usda-enriched-flour-bread-1941-cover.jpg",
+      "sha256": "b3c40f12a29395a76fec2ba9b75e8e3cb8ff910c93f10192b996591d1f165cdc",
+      "license": "Public domain",
+      "draft_slug": "flour-enrichment-1941"
+    },
+    {
+      "id": "vh-img-wartime-poster",
+      "path": "staged/images/loc-eat-these-every-day-poster-1942.jpg",
+      "sha256": "a96a2234d841a39d419109c06e64ee615480141f1c3b10529812d52793bcf19b",
+      "license": "Public domain",
+      "draft_slug": "wartime-vitamin-contracts"
+    }
+  ]
+}

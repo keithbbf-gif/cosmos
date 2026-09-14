@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="vhfig02-title vhfig02-desc">
+  <title id="vhfig02-title">Fig. 2 - How vitamin letters accumulated (1912-1940s)</title>
+  <desc id="vhfig02-desc">Bands for fat-soluble and water-soluble factors with approximate naming decades; letters are historical labels, not supplement instructions.</desc>
+  <defs>
+    <style>
+      .paper { fill: #F4F0E6; }
+      .ink { fill: #1A1814; font-family: Georgia, 'Palatino Linotype', serif; }
+      .muted { fill: #5A5348; font-family: Georgia, serif; }
+      .caps { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; }
+      .label { font-size: 14px; font-weight: bold; }
+      .note { font-size: 11px; }
+      .fat { fill: #E8D4B8; stroke: #8B4513; stroke-width: 1; }
+      .water { fill: #D4E3EB; stroke: #2F5F6F; stroke-width: 1; }
+      .grave { fill: #E8E4DC; stroke: #666; stroke-width: 0.8; stroke-dasharray: 4 3; }
+      .rule { stroke: #1A1814; stroke-width: 0.8; fill: none; }
+    </style>
+  </defs>
+  <rect class="paper" width="1200" height="520"/>
+  <rect x="0" y="0" width="1200" height="6" fill="#2F5F6F"/>
+  <text x="48" y="42" class="ink caps">Fig. 02</text>
+  <text x="48" y="72" class="ink" font-size="26" font-weight="bold">The letter map</text>
+  <text x="48" y="98" class="muted note">How A, B-complex members, C, D, E, and K entered the vocabulary - many provisional letters retired.</text>
+
+  <rect x="64" y="140" width="1072" height="120" class="fat" rx="4"/>
+  <text x="80" y="168" class="label ink">Fat-soluble track</text>
+  <text x="80" y="190" class="note muted">McCollum &amp; Osborne-Mendel rat work - A (1920) - D (calciferol era) - E (Evans) - K (Dam &amp; Doisy)</text>
+  <text x="80" y="212" class="note muted">Sterol chemistry (Windaus) sits under D; irradiation patents (Steenbock/WARF) are commerce, not clinical copy.</text>
+  <text x="80" y="240" class="note muted">Letters name fractions before structures are final - the map is messy on purpose.</text>
+
+  <rect x="64" y="280" width="1072" height="150" class="water" rx="4"/>
+  <text x="80" y="308" class="label ink">Water-soluble track</text>
+  <text x="80" y="330" class="note muted">B-complex splits: thiamine (B1), riboflavin, niacin, B6, biotin, pantothenic, folate, B12 - each with its own bench story.</text>
+  <text x="80" y="352" class="note muted">C: hexuronic acid - ascorbic acid (Szent-Gy-rgyi, Haworth). Funk&apos;s 1912 guess about amines was wrong; the nickname stuck.</text>
+  <text x="80" y="374" class="note muted">Suzuki&apos;s oryzanin (Japan) parallels bran work - same rice polish, different publication language.</text>
+  <text x="80" y="396" class="note muted">Japanese and European threads meet in journals, not in a single "inventor" line.</text>
+
+  <rect x="64" y="448" width="1072" height="52" class="grave" rx="4"/>
+  <text x="80" y="472" class="label ink">Letter graveyard (VH-28)</text>
+  <text x="80" y="490" class="note muted">Retired provisional letters (F, G, H, ...) - naming collisions resolved by chemistry, not marketing.</text>
+
+  <text x="48" y="512" class="muted note" font-size="10">History-of-science diagram. Not a Supplement Facts panel.</text>
+</svg>

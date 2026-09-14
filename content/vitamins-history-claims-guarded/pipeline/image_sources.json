@@ -1,0 +1,88 @@
+{
+  "images": [
+    {
+      "id": "vh-img-funk-01",
+      "file": "staged/images/commons-casimir-funk-01.jpg",
+      "draft_slug": "funk-coins-vitamine-1912",
+      "license": "Public domain",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Casimir_Funk_01.jpg",
+      "credit": "Casimir Funk; scan from Wielka Encyklopedia Powszechna PWN (1964). Unknown photographer."
+    },
+    {
+      "id": "vh-img-hopkins",
+      "file": "staged/images/commons-frederick-gowland-hopkins.jpg",
+      "draft_slug": "hopkins-accessory-food-factors",
+      "license": "CC BY 4.0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Frederick_Gowland_Hopkins.jpg",
+      "credit": "Frederick Gowland Hopkins. Photo F.A. Swaine Ltd. — attribution required on publish."
+    },
+    {
+      "id": "vh-img-eijkman",
+      "file": "staged/images/commons-christiaan-eijkman.jpg",
+      "draft_slug": "eijkman-chickens-batavia",
+      "license": "Copyrighted free use",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Christiaan_Eijkman.jpg",
+      "credit": "Christiaan Eijkman. See Commons file page for uploader terms."
+    },
+    {
+      "id": "vh-img-lind-treatise",
+      "file": "staged/images/wellcome-james-lind-treatise-1757.jpg",
+      "draft_slug": "lind-treatise-of-the-scurvy-1753",
+      "license": "CC BY 4.0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:James_Lind,_A_Treatise_on_the_Scurvy,_1757_Wellcome_M0013130.jpg",
+      "credit": "Wellcome Collection. James Lind, A Treatise on the Scurvy (1757) — attribution required."
+    },
+    {
+      "id": "vh-img-szent-gyorgyi",
+      "file": "staged/images/commons-albert-szent-gyorgyi.jpg",
+      "draft_slug": "szent-gyorgyi-hexuronic-acid",
+      "license": "Public domain",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Albert_Szent-Gy%C3%B6rgyi.jpg",
+      "credit": "Albert Szent-Györgyi. Photo J.W. McGuire."
+    },
+    {
+      "id": "vh-img-goldberger",
+      "file": "staged/images/commons-joseph-goldberger.jpg",
+      "draft_slug": "goldberger-pellagra-diet",
+      "license": "Public domain",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Goldberger,_Joseph.jpg",
+      "credit": "Joseph Goldberger, U.S. Public Health Service."
+    },
+    {
+      "id": "vh-img-enrichment-1941",
+      "file": "staged/images/usda-enriched-flour-bread-1941-cover.jpg",
+      "draft_slug": "flour-enrichment-1941",
+      "license": "Public domain",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%22Enriched%22_flour_and_bread_(IA_enrichedflourbre1941unit).pdf",
+      "credit": "U.S. Department of Agriculture, Enriched flour and bread (1941). Cover page rasterized from Internet Archive scan on Wikimedia Commons."
+    },
+    {
+      "id": "vh-img-wartime-poster",
+      "file": "staged/images/loc-eat-these-every-day-poster-1942.jpg",
+      "draft_slug": "wartime-vitamin-contracts",
+      "license": "Public domain",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Eat_these_every_day_LCCN98518333.jpg",
+      "credit": "U.S. Government poster, Eat these every day (Library of Congress LCCN 98518333)."
+    }
+  ],
+  "svg": [
+    {
+      "id": "vh-fig-01",
+      "file": "staged/graphics/fig-01-discovery-timeline.svg",
+      "kind": "timeline",
+      "license": "Original schematic (series editorial, 2026)"
+    },
+    {
+      "id": "vh-fig-02",
+      "file": "staged/graphics/fig-02-naming-letters-map.svg",
+      "kind": "diagram",
+      "license": "Original schematic (series editorial, 2026)"
+    },
+    {
+      "id": "vh-fig-03",
+      "file": "staged/graphics/fig-03-commerce-statute-timeline.svg",
+      "kind": "timeline",
+      "license": "Original schematic (series editorial, 2026)"
+    }
+  ]
+}

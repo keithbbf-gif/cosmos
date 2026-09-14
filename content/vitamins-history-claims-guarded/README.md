@@ -33,9 +33,21 @@ Body, then a `## Claims desk` that names what was refused, then the series discl
 
 Forty-seven drafts (`VH-01` … `VH-47`). Lint fails under 40.
 
+## Graphics (IMAGE + SEO)
+
+Staged figures live under `staged/` (PD/CC rasters, original SVG timelines). **No AI faces.**
+
+| doc | role |
+| --- | --- |
+| `RIGHTS.md` | Credit ledger |
+| `GRAPHICS_INDEX.md` | Figure list |
+| `staged/FIGURE_EMBEDS.md` | Copy-paste `<figure>` blocks with `alt` + `figcaption` |
+| `pipeline/GRAPHICS_PIPELINE.md` | How to add assets |
+
 ## Check
 
 ```bash
 python content/vitamins-history-claims-guarded/tools/claims_lint.py
-python -m pytest tests/test_vitamins_history_claims_guarded.py -q
+python3 content/vitamins-history-claims-guarded/pipeline/verify_staged_graphics.py
+python -m pytest tests/test_vitamins_history_claims_guarded.py tests/test_vitamins_history_graphics.py -q
 ```

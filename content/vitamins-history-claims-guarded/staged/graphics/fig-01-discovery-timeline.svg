@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="vhfig01-title vhfig01-desc">
+  <title id="vhfig01-title">Fig. 1 - Selected milestones in vitamin discovery (1753-1943)</title>
+  <desc id="vhfig01-desc">Chronological axis from James Lind&apos;s scurvy treatise through laboratory isolation work; educational schematic, not a dosing guide.</desc>
+  <defs>
+    <style>
+      .paper { fill: #F4F0E6; }
+      .ink { fill: #1A1814; font-family: Georgia, 'Palatino Linotype', serif; }
+      .muted { fill: #5A5348; font-family: Georgia, serif; }
+      .caps { font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; }
+      .label { font-size: 13px; font-weight: bold; }
+      .note { font-size: 11px; }
+      .year { font-size: 12px; font-weight: bold; fill: #8B4513; }
+      .band-lab { fill: #E6DED0; }
+      .band-ship { fill: #D8E4E8; }
+      .band-name { fill: #E8E0D4; }
+      .rule { stroke: #1A1814; stroke-width: 1.2; fill: none; }
+      .tick { stroke: #1A1814; stroke-width: 1; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#1A1814"/>
+    </marker>
+  </defs>
+  <rect class="paper" width="1200" height="560"/>
+  <rect x="0" y="0" width="1200" height="6" fill="#8B4513"/>
+  <text x="48" y="42" class="ink caps">Fig. 01</text>
+  <text x="48" y="72" class="ink" font-size="26" font-weight="bold">Discovery on a timeline</text>
+  <text x="48" y="98" class="muted note">Selected landmarks in inquiry history - not exhaustive. Dates mark publication, statute, or widely cited experiment year.</text>
+  <line x1="48" y1="118" x2="1152" y2="118" class="rule" stroke-width="0.6" opacity="0.35"/>
+
+  <rect x="80" y="136" width="200" height="34" class="band-ship" rx="2"/>
+  <text x="90" y="158" class="muted caps" font-size="10">Ships &amp; wards</text>
+  <rect x="280" y="136" width="280" height="34" class="band-lab" rx="2"/>
+  <text x="290" y="158" class="muted caps" font-size="10">Laboratory &amp; animal models</text>
+  <rect x="560" y="136" width="300" height="34" class="band-name" rx="2"/>
+  <text x="570" y="158" class="muted caps" font-size="10">Naming &amp; crystallization</text>
+  <rect x="860" y="136" width="280" height="34" class="band-lab" rx="2"/>
+  <text x="870" y="158" class="muted caps" font-size="10">Policy &amp; industry</text>
+
+  <line x1="80" y1="300" x2="1120" y2="300" class="rule" marker-end="url(#arrow)"/>
+  <text x="80" y="288" class="muted caps">Time</text>
+
+  <g class="tick">
+    <line x1="120" y1="292" x2="120" y2="308"/><text x="100" y="328" class="year">1753</text>
+    <line x1="280" y1="292" x2="280" y2="308"/><text x="260" y="328" class="year">1884</text>
+    <line x1="400" y1="292" x2="400" y2="308"/><text x="380" y="328" class="year">1911</text>
+    <line x1="520" y1="292" x2="520" y2="308"/><text x="500" y="328" class="year">1912</text>
+    <line x1="640" y1="292" x2="640" y2="308"/><text x="620" y="328" class="year">1920</text>
+    <line x1="760" y1="292" x2="760" y2="308"/><text x="740" y="328" class="year">1929</text>
+    <line x1="900" y1="292" x2="900" y2="308"/><text x="880" y="328" class="year">1934</text>
+    <line x1="1040" y1="292" x2="1040" y2="308"/><text x="1020" y="328" class="year">1941</text>
+  </g>
+
+  <g>
+    <line x1="120" y1="300" x2="120" y2="240" class="tick"/>
+    <circle cx="120" cy="234" r="5" fill="#8B4513"/>
+    <text x="130" y="228" class="label ink">Lind - scurvy treatise</text>
+    <text x="130" y="244" class="note muted">Controlled pairs aboard ship (history)</text>
+
+    <line x1="280" y1="300" x2="280" y2="360" class="tick"/>
+    <circle cx="280" cy="366" r="5" fill="#8B4513"/>
+    <text x="200" y="382" class="label ink">Takaki - navy ration change</text>
+    <text x="200" y="398" class="note muted">Japan, beriberi inquiry (not a product claim)</text>
+
+    <line x1="400" y1="300" x2="400" y2="220" class="tick"/>
+    <circle cx="400" cy="214" r="5" fill="#8B4513"/>
+    <text x="320" y="208" class="label ink">Funk - rice-bran fraction</text>
+    <text x="320" y="224" class="note muted">Journal of Physiology 1911</text>
+
+    <line x1="520" y1="300" x2="520" y2="360" class="tick"/>
+    <circle cx="520" cy="366" r="5" fill="#8B4513"/>
+    <text x="440" y="382" class="label ink">Funk - vitamine review</text>
+    <text x="440" y="398" class="note muted">Coinage; deficiency-disease title quoted as history</text>
+
+    <line x1="640" y1="300" x2="640" y2="240" class="tick"/>
+    <circle cx="640" cy="234" r="5" fill="#8B4513"/>
+    <text x="560" y="228" class="label ink">Drummond - drops the e</text>
+    <text x="560" y="244" class="note muted">Biochemical Journal 1920</text>
+
+    <line x1="760" y1="300" x2="760" y2="360" class="tick"/>
+    <circle cx="760" cy="366" r="5" fill="#8B4513"/>
+    <text x="680" y="382" class="label ink">Nobel cluster opens</text>
+    <text x="680" y="398" class="note muted">Eijkman &amp; Hopkins (1929); more through 1943</text>
+
+    <line x1="900" y1="300" x2="900" y2="220" class="tick"/>
+    <circle cx="900" cy="214" r="5" fill="#8B4513"/>
+    <text x="820" y="208" class="label ink">Industrial ascorbic acid</text>
+    <text x="820" y="224" class="note muted">Reichstein route; Roche Redoxon era</text>
+
+    <line x1="1040" y1="300" x2="1040" y2="360" class="tick"/>
+    <circle cx="1040" cy="366" r="5" fill="#8B4513"/>
+    <text x="960" y="382" class="label ink">Enriched flour standard</text>
+    <text x="960" y="398" class="note muted">U.S. identity standard (1941) - statute history</text>
+  </g>
+
+  <text x="48" y="520" class="muted note">Editorial schematic for the vitamins-history-claims-guarded series. Does not recommend intakes or products.</text>
+</svg>
