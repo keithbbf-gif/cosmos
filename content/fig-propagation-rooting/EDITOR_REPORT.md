@@ -3,8 +3,9 @@
 **Date:** 2026-09-14  
 **Scope:** `content/fig-propagation-rooting/` (46 drafts + house files)  
 **Upstream:** PR #407 (`cursor/fig-propagation-rooting-4bb7`)  
-**Editor branch:** `cursor/fig-propagation-rooting-editor-9b8a`  
+**Editor branch:** `cursor/fig-propagation-rooting-editor-50c1` (stacked on writer PR #407)  
 **Gate:** `voice_check: edited` on all 46 drafts  
+**Validation:** `python3 content/fig-propagation-rooting/validate.py` → **PASS** (46 drafts; 666–900 words each; 34,897 body words total)
 
 ## Method
 
