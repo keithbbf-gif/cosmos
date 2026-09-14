@@ -1,5 +1,12 @@
 # Graphics pipeline — wowtherapies-therapy-history
 
+## Agent routing (Keith, 2026-09-14)
+
+**WOWTherapies graphics stay on Cursor Composer 2.5** for this content tree
+(`content/wowtherapies-therapy-history/`). Do not switch this lane to Opus or
+other models unless Keith directs otherwise. (COSMOS adversarial work orders
+elsewhere may still refuse Composer; this strand is an explicit exception.)
+
 ## Stages
 
 1. **Draft** — optional markdown in `drafts/` (outline only).
