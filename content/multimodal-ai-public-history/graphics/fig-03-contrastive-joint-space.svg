@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" role="img" aria-labelledby="fig03-title fig03-desc">
+  <title id="fig03-title">Fig. 3 - Contrastive image and text encoders sharing a joint embedding space</title>
+  <desc id="fig03-desc">Schematic of CLIP-style training: image encoder and text encoder map paired samples into a shared space; contrastive loss pulls matches together and pushes non-matches apart. No sample photographs.</desc>
+  <defs>
+    <style>
+      .bg { fill: #0f1419; }
+      .panel { fill: #1a2330; stroke: #3a4a5c; stroke-width: 1; }
+      .ink { fill: #e8eef2; font-family: 'Segoe UI', system-ui, sans-serif; }
+      .muted { fill: #8b9aab; font-family: system-ui, sans-serif; font-size: 11px; }
+      .caps { fill: #56b6c2; font-size: 11px; letter-spacing: 0.12em; }
+      .vec { stroke: #3fd68f; stroke-width: 2; fill: none; }
+      .space { fill: #15202b; stroke: #56b6c2; stroke-width: 1.5; stroke-dasharray: 6 4; }
+      .thumb { fill: #2a3544; stroke: #56b6c2; }
+      .token { fill: #243040; stroke: #8b9aab; }
+    </style>
+  </defs>
+  <rect class="bg" width="960" height="520"/>
+  <text x="40" y="36" class="caps">Fig. 03</text>
+  <text x="40" y="64" class="ink" font-size="20" font-weight="bold">Contrastive joint space (CLIP-shaped)</text>
+
+  <rect x="48" y="100" width="200" height="140" class="panel" rx="6"/>
+  <text x="64" y="128" class="ink" font-size="14">Image encoder</text>
+  <rect x="72" y="148" width="72" height="56" class="thumb" rx="4"/>
+  <text x="82" y="180" class="muted">patch grid</text>
+  <text x="64" y="218" class="muted">ViT or ResNet (public paper)</text>
+
+  <rect x="48" y="280" width="200" height="140" class="panel" rx="6"/>
+  <text x="64" y="308" class="ink" font-size="14">Text encoder</text>
+  <rect x="72" y="328" width="140" height="24" class="token" rx="3"/>
+  <text x="80" y="344" class="muted" font-size="10">a photo of a ...</text>
+  <rect x="72" y="360" width="100" height="24" class="token" rx="3"/>
+  <text x="80" y="376" class="muted" font-size="10">Transformer</text>
+
+  <path class="vec" d="M248 170 L360 260"/>
+  <path class="vec" d="M248 350 L360 280"/>
+
+  <ellipse cx="600" cy="270" rx="220" ry="160" class="space"/>
+  <text x="520" y="250" class="ink" font-size="15">Joint embedding</text>
+  <text x="500" y="272" class="muted">cosine similarity - batch contrastive loss</text>
+  <circle cx="560" cy="300" r="8" fill="#3fd68f"/>
+  <text x="576" y="304" class="muted">matched pair</text>
+  <circle cx="680" cy="240" r="6" fill="#8b9aab"/>
+  <circle cx="700" cy="320" r="6" fill="#8b9aab"/>
+  <text x="620" y="340" class="muted">non-matches pushed apart</text>
+
+  <rect x="720" y="100" width="200" height="320" class="panel" rx="6"/>
+  <text x="736" y="128" class="ink" font-size="14">Public uses (reception)</text>
+  <text x="736" y="156" class="muted">zero-shot class names</text>
+  <text x="736" y="178" class="muted">retrieval / ranking</text>
+  <text x="736" y="200" class="muted">prompt templates</text>
+  <text x="736" y="222" class="muted">steer other generators</text>
+  <text x="736" y="260" class="muted" font-size="10">Not in the paper: chat,</text>
+  <text x="736" y="276" class="muted" font-size="10">caption decoder, or diffusion.</text>
+
+  <text x="40" y="490" class="muted">Editorial schematic - CC0 - abstract tiles only.</text>
+</svg>

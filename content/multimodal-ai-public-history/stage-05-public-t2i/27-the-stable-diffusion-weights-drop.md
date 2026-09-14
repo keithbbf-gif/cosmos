@@ -17,9 +17,19 @@ does_not_claim:
   - "internal training logs"
   - "a single-author origin"
 last_reviewed: 2026-09-14
+seo:
+  og_image: graphics/fig-01-public-multimodal-timeline.svg
+  description: August 2022 Stable Diffusion researcher and public weight releases on the record.
 ---
 
 # The Stable Diffusion weights drop
+
+<figure class="mmh-figure mmh-figure--spread" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+  <img src="../graphics/fig-01-public-multimodal-timeline.svg"
+       alt="Timeline highlighting the August 2022 Stable Diffusion public weights release among other multimodal milestones"
+       width="1200" height="520" loading="lazy" decoding="async"/>
+  <figcaption itemprop="caption"><strong>Fig. 1.</strong> The August 2022 door on a longer public timeline — researcher release 10 Aug, public weights 22 Aug.</figcaption>
+</figure>
 
 On August 10, 2022, Stability AI wrote that they were releasing Stable Diffusion to researchers, with Hugging Face as a weights host, and that a public release was coming. On August 22, they wrote that the public release was here. Those two dates are the floor moving.
 

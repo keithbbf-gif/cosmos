@@ -16,9 +16,19 @@ does_not_claim:
   - "that one space fits all senses equally"
   - "unpublished alignment graphs"
 last_reviewed: 2026-09-14
+seo:
+  og_image: graphics/fig-06-modality-fanout.svg
+  description: ImageBind and public attempts to widen joint embedding spaces after CLIP.
 ---
 
 # ImageBind and joint spaces after CLIP
+
+<figure class="mmh-figure mmh-figure--column" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+  <img src="../graphics/fig-06-modality-fanout.svg"
+       alt="Hub diagram with text-image joint space and branches for speech, video, music, ImageBind, and vision-language assistants"
+       width="960" height="480" loading="lazy" decoding="async"/>
+  <figcaption itemprop="caption"><strong>Fig. 6.</strong> After CLIP’s two-door space, public work fanned into speech, video, music, broader binding, and assistants that look.</figcaption>
+</figure>
 
 CLIP’s space has two doors. Image. Text. The whole trick is that a third thing can only enter if you *make it look like one of the two* — a spectrogram as an image, a video as a bag of frames, a depth map as a picture. ImageBind (Girdhar et al., Meta, 2023) is a public attempt to cut more doors into the same kind of room.
 

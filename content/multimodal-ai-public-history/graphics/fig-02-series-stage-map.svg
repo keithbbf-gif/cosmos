@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-labelledby="fig02-title fig02-desc">
+  <title id="fig02-title">Fig. 2 - Editorial stages of the public multimodal history series</title>
+  <desc id="fig02-desc">Flow from precursors through contrastive vision-language, discrete and diffusion generation, public text-to-image, control adapters, vision-language assistants, audio and video, and aftermath essays.</desc>
+  <defs>
+    <style>
+      .bg { fill: #0f1419; }
+      .box { fill: #1a2330; stroke: #56b6c2; stroke-width: 1.2; }
+      .hub { fill: #243040; stroke: #3fd68f; stroke-width: 1.5; }
+      .ink { fill: #e8eef2; font-family: 'Segoe UI', system-ui, sans-serif; font-size: 13px; font-weight: 600; }
+      .sub { fill: #8b9aab; font-family: 'Segoe UI', system-ui, sans-serif; font-size: 10px; }
+      .caps { fill: #56b6c2; font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; }
+      .arrow { stroke: #8b9aab; stroke-width: 1.2; fill: none; marker-end: url(#ah); }
+    </style>
+    <marker id="ah" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto">
+      <polygon points="0 0, 7 3.5, 0 7" fill="#8b9aab"/>
+    </marker>
+  </defs>
+  <rect class="bg" width="960" height="640"/>
+  <text x="40" y="36" class="caps">Fig. 02</text>
+  <text x="40" y="64" class="ink" font-size="22">How this draft series is staged</text>
+  <text x="40" y="88" class="sub">Read top to bottom; stages are editorial, not a claim of strict causality.</text>
+
+  <rect x="340" y="110" width="280" height="56" class="hub" rx="6"/>
+  <text x="360" y="138" class="ink">00 - How to read</text>
+  <text x="360" y="154" class="sub">Rules, public record, voice</text>
+
+  <path class="arrow" d="M480 166 L480 188"/>
+  <rect x="300" y="190" width="360" height="48" class="box" rx="4"/>
+  <text x="320" y="218" class="ink">01 Precursors - captions, VQA, attention</text>
+
+  <path class="arrow" d="M480 238 L480 260"/>
+  <rect x="280" y="262" width="400" height="48" class="box" rx="4"/>
+  <text x="300" y="290" class="ink">02 Contrastive VL - CLIP, OpenCLIP, retrieval</text>
+
+  <path class="arrow" d="M480 310 L480 332"/>
+  <rect x="260" y="334" width="440" height="48" class="box" rx="4"/>
+  <text x="280" y="362" class="ink">03-04 Generation - tokens, DDPM, latents, GLIDE</text>
+
+  <path class="arrow" d="M480 382 L480 404"/>
+  <rect x="250" y="406" width="460" height="48" class="box" rx="4"/>
+  <text x="270" y="434" class="ink">05 Public T2I - DALL-E 2, SD drop, two publics</text>
+
+  <path class="arrow" d="M480 454 L480 476"/>
+  <rect x="270" y="478" width="420" height="48" class="box" rx="4"/>
+  <text x="290" y="506" class="ink">06-07 Control + VL assistants - LoRA, LLaVA, GPT-4V</text>
+
+  <path class="arrow" d="M480 526 L480 548"/>
+  <rect x="290" y="550" width="380" height="48" class="box" rx="4"/>
+  <text x="310" y="578" class="ink">08-09 Audio, video, metrics, writing early</text>
+
+  <text x="40" y="620" class="sub">Original schematic - CC0</text>
+</svg>

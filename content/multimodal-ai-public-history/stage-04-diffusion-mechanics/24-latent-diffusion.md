@@ -16,9 +16,19 @@ does_not_claim:
   - "that LDM is identical to every later Stable Diffusion"
   - "unpublished training mixes"
 last_reviewed: 2026-09-14
+seo:
+  og_image: graphics/fig-04-latent-diffusion-loop.svg
+  description: Latent diffusion on the public record — autoencoder, denoiser in latent space, text conditioning.
 ---
 
 # Latent diffusion
+
+<figure class="mmh-figure mmh-figure--column" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+  <img src="../graphics/fig-04-latent-diffusion-loop.svg"
+       alt="Schematic of latent diffusion with encoder, denoising U-Net, text embeddings, and decoder"
+       width="960" height="480" loading="lazy" decoding="async"/>
+  <figcaption itemprop="caption"><strong>Fig. 4.</strong> Denoise in a smaller latent room, then decode — the LDM-shaped loop behind the public Stable Diffusion stack.</figcaption>
+</figure>
 
 Pixel-space diffusion is hungry. A 512-pixel picture is a lot of numbers to ruin and repair, and most of those numbers are, to a human, texture. The latent diffusion paper — Rombach, Blattmann, Lorenz, Esser, Ommer, arXiv late 2021, CVPR 2022 — is a public argument that you should **throw away the texture for the expensive conversation**, then put the texture back with a decoder that already knows how to paint.
 

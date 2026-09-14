@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" role="img" aria-labelledby="fig04-title fig04-desc">
+  <title id="fig04-title">Fig. 4 - Latent diffusion loop with text conditioning</title>
+  <desc id="fig04-desc">Diagram of latent diffusion: autoencoder maps pixels to a latent code; a denoising network steps from noise toward a latent guided by text embeddings; decoder returns to pixel space. Editorial schematic.</desc>
+  <defs>
+    <style>
+      .bg { fill: #0f1419; }
+      .box { fill: #1a2330; stroke: #56b6c2; stroke-width: 1.2; }
+      .ink { fill: #e8eef2; font-family: system-ui, sans-serif; font-size: 13px; font-weight: 600; }
+      .muted { fill: #8b9aab; font-family: system-ui, sans-serif; font-size: 11px; }
+      .caps { fill: #56b6c2; font-size: 11px; letter-spacing: 0.12em; }
+      .arrow { stroke: #3fd68f; stroke-width: 1.5; fill: none; marker-end: url(#a4); }
+      .noise { fill: #2a3544; stroke: #8b9aab; stroke-dasharray: 3 3; }
+    </style>
+    <marker id="a4" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto">
+      <polygon points="0 0, 7 3.5, 0 7" fill="#3fd68f"/>
+    </marker>
+  </defs>
+  <rect class="bg" width="960" height="480"/>
+  <text x="40" y="36" class="caps">Fig. 04</text>
+  <text x="40" y="64" class="ink" font-size="20">Latent diffusion (LDM-shaped)</text>
+
+  <rect x="48" y="120" width="120" height="100" class="box" rx="4"/>
+  <text x="64" y="148" class="ink">Pixels</text>
+  <text x="64" y="168" class="muted">high-D grid</text>
+
+  <path class="arrow" d="M168 170 L220 170"/>
+  <text x="178" y="158" class="muted">encoder E</text>
+
+  <rect x="220" y="120" width="120" height="100" class="box" rx="4"/>
+  <text x="236" y="148" class="ink">Latent z</text>
+  <text x="236" y="168" class="muted">smaller room</text>
+
+  <path class="arrow" d="M340 170 L400 170"/>
+  <rect x="400" y="100" width="200" height="140" class="noise" rx="6"/>
+  <text x="420" y="130" class="ink">Denoiser U-Net</text>
+  <text x="420" y="152" class="muted">steps t ' t-1</text>
+  <text x="420" y="174" class="muted">classifier-free guidance</text>
+
+  <rect x="400" y="280" width="200" height="64" class="box" rx="4"/>
+  <text x="416" y="308" class="ink">Text encoder</text>
+  <text x="416" y="328" class="muted">prompt embeddings</text>
+  <path class="arrow" d="M500 280 L500 240"/>
+
+  <path class="arrow" d="M600 170 L660 170"/>
+  <rect x="660" y="120" width="120" height="100" class="box" rx="4"/>
+  <text x="676" y="148" class="ink">Clean z</text>
+
+  <path class="arrow" d="M780 170 L832 170"/>
+  <text x="788" y="158" class="muted">decoder D</text>
+  <rect x="832" y="120" width="96" height="100" class="box" rx="4"/>
+  <text x="848" y="148" class="ink">Out</text>
+
+  <text x="48" y="400" class="muted">Forward process (training): add noise in latent space. Reverse (sampling): iterative denoise.</text>
+  <text x="48" y="420" class="muted">Public names: Rombach et al. CVPR 2022; Stable Diffusion stack - see essay 24 and 27.</text>
+  <text x="48" y="456" class="muted">Original schematic - CC0</text>
+</svg>

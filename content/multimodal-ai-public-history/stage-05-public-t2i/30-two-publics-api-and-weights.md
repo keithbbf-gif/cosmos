@@ -17,9 +17,19 @@ does_not_claim:
   - "private traffic numbers"
   - "that one public is morally complete"
 last_reviewed: 2026-09-14
+seo:
+  og_image: graphics/fig-05-two-publics-api-vs-weights.svg
+  description: API and Discord products versus downloadable checkpoints — two publics that shared vocabulary in 2022.
 ---
 
 # Two publics — API and weights
+
+<figure class="mmh-figure mmh-figure--column" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+  <img src="../graphics/fig-05-two-publics-api-vs-weights.svg"
+       alt="Split diagram comparing gated API image products with locally runnable weight checkpoints"
+       width="960" height="520" loading="lazy" decoding="async"/>
+  <figcaption itemprop="caption"><strong>Fig. 5.</strong> City A (API, waitlist, Discord) versus City B (checkpoints, local inference) — same year, different civics.</figcaption>
+</figure>
 
 2022 had two publics that used the same words and did not live in the same city.
 

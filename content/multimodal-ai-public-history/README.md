@@ -1,4 +1,24 @@
+---
+seo:
+  title: Public multimodal AI history — draft series
+  description: Staged historiography of CLIP, diffusion, Stable Diffusion, and vision-language assistants on the public record only.
+  og_image: graphics/fig-01-public-multimodal-timeline.svg
+  twitter_card: summary_large_image
+figures:
+  - graphics/fig-01-public-multimodal-timeline.svg
+  - graphics/fig-02-series-stage-map.svg
+---
+
 # Public multimodal AI history — draft series
+
+<figure class="mmh-figure mmh-figure--spread" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+  <meta itemprop="name" content="Public milestones in multimodal AI (2012–2024)"/>
+  <meta itemprop="license" content="https://creativecommons.org/publicdomain/zero/1.0/"/>
+  <img src="graphics/fig-01-public-multimodal-timeline.svg"
+       alt="Timeline of public multimodal AI milestones from Show and Tell through GPT-4V and Whisper"
+       width="1200" height="520" decoding="async" fetchpriority="high"/>
+  <figcaption itemprop="caption"><strong>Fig. 1.</strong> Selected public doors in multimodal AI (editorial schematic). See <code>GRAPHICS_INDEX.md</code> and <code>RIGHTS.md</code>.</figcaption>
+</figure>
 
 Staged drafts about **public** multimodal AI: CLIP and the contrastive vision–language line, diffusion and the 2022 text-to-image event, and the vision–language assistants that followed.
 
@@ -16,6 +36,17 @@ Start at `stage-00-how-to-read/00-how-to-read-this-series.md`. Then walk the sta
 - When a lab did not publish weights, say so. When a number is a vendor claim, mark it as a claim.
 - Do not paste copyrighted paper text. Cite, then speak in a human voice.
 - Opinion is allowed when it is labeled as reading, not as evidence.
+
+## Graphics
+
+Original SVG timelines and diagrams live in `graphics/` (CC0, **no AI faces**). SEO-ready HTML snippets: `EMBEDS.md`. Validation: `python3 check_graphics.py`.
+
+<figure class="mmh-figure mmh-figure--column" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+  <img src="graphics/fig-02-series-stage-map.svg"
+       alt="Flowchart of editorial stages from how-to-read through precursors, CLIP, diffusion, public T2I, control, assistants, and aftermath"
+       width="960" height="640" loading="lazy" decoding="async"/>
+  <figcaption itemprop="caption"><strong>Fig. 2.</strong> Editorial stages (folders 00–09) for this draft series.</figcaption>
+</figure>
 
 ## Stage map
 

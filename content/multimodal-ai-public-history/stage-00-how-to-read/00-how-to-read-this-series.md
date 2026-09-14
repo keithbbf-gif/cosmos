@@ -15,9 +15,19 @@ does_not_claim:
   - "unpublished methods"
   - "priority over any paper"
 last_reviewed: 2026-09-14
+seo:
+  og_image: graphics/fig-02-series-stage-map.svg
+  description: How to read the public multimodal AI history drafts — rules, dates, and what we refuse to claim.
 ---
 
 # How to read this series
+
+<figure class="mmh-figure mmh-figure--column" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+  <img src="../graphics/fig-02-series-stage-map.svg"
+       alt="Flowchart of editorial stages from how-to-read through precursors, CLIP, diffusion, public T2I, control, assistants, and aftermath"
+       width="960" height="640" loading="lazy" decoding="async"/>
+  <figcaption itemprop="caption"><strong>Fig. 2.</strong> The staged folders in this series — start at 00, then walk 01–09 or jump via the README index.</figcaption>
+</figure>
 
 I am writing these as drafts a careful person could hand to another careful person, not as a textbook and not as a press kit.
 

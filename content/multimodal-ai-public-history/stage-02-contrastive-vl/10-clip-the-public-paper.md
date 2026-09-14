@@ -16,9 +16,19 @@ does_not_claim:
   - "unpublished WIT scrape details"
   - "internal ablations not in the paper"
 last_reviewed: 2026-09-14
+seo:
+  og_image: graphics/fig-03-contrastive-joint-space.svg
+  description: What the public CLIP paper commits to — two encoders, contrastive loss, zero-shot, and released weights.
 ---
 
 # CLIP, the public paper
+
+<figure class="mmh-figure mmh-figure--column" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+  <img src="../graphics/fig-03-contrastive-joint-space.svg"
+       alt="Diagram of image and text encoders mapping paired samples into a shared embedding space with contrastive loss"
+       width="960" height="520" loading="lazy" decoding="async"/>
+  <figcaption itemprop="caption"><strong>Fig. 3.</strong> CLIP-shaped contrastive training — the joint the paper sells, and the reception uses it did not have to include.</figcaption>
+</figure>
 
 On January 5, 2021, OpenAI published a blog post about connecting text and images. The same day they published a blog post about DALL·E. That pairing is already a historical fact: the lab presented a retriever and a generator as twins. This draft is only about the retriever. The generator gets its own room later, and it is not a diffusion model.
 
