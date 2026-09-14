@@ -14,6 +14,10 @@ Forty-four magazine essays on American dining-room furniture from about 1700 to 
 - `STYLE_GUIDE.md` — voice, citations, banned phrasing
 - `BIBLIOGRAPHY.md` — series sources
 - `PHOTO_CAPTIONS.md` — plates to shoot or license
+- `RIGHTS.md` — verified PD/CC sources (no AI)
+- `staged/images/` — downloaded Met Open Access and Commons plates
+- `staged/EMBEDS.md` — reusable `<figure>` / SEO caption blocks
+- `staged/image_sources.yaml` — slug → file → license registry
 - `MANIFEST.md` — word counts
 
 ## SEO rules

@@ -19,6 +19,15 @@ seo_intent: informational
 
 # Gateleg and drop-leaf
 
+
+<figure class="adrh-figure">
+  <img src="content/american-dining-room-history/staged/images/met-3913-gateleg-detail.jpg"
+       alt="Construction detail of an American gate-leg drop-leaf table showing hinges and frame, 1700–1750"
+       width="2328" height="1899" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Gate-leg drop-leaf table, American, 1700–1750 — collection detail of rails, hinges, and leaf support (the joint family this essay tracks). Metropolitan Museum of Art, object 3913 (CC0).</figcaption>
+</figure>
+
+
 Turn a gateleg over. The poetry stops. You get a rectangle of rails, two framed gates hinged on pintles, a pair of leaves hanging from a molded joint, and a top that has been scrubbed toward the grain. That underside is the American dining table before the pedestal and before the room. English shops had already perfected the type. American shops copied the geometry in maple, cherry, walnut, and pine, and they kept cutting it long after Philadelphia had learned Chippendale’s Director.
 
 The form solves a problem a hall actually has: dinner is wide, the rest of the day is not. Leaves down, the table is a side piece. Leaves up, it seats six if the chairs are armless and the diners are not wearing 1750 skirts. The conversion is the design. Everything else — trumpet legs, pad feet, a drawer in the rail — is fashion on top of a hinge.

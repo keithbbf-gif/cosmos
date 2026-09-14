@@ -19,6 +19,15 @@ seo_intent: informational
 
 # The hall table before the room
 
+
+<figure class="adrh-figure">
+  <img src="content/american-dining-room-history/staged/images/met-3917-gateleg-table.jpg"
+       alt="American gate-leg table in maple and pine, 1690–1730, folded for hall use, Metropolitan Museum of Art"
+       width="3811" height="3049" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Gate-leg table, New England, 1690–1730 (maple and pine). Leaves down, the table reads as hall furniture until the cloth and chairs arrive. Metropolitan Museum of Art, object 3917 (CC0).</figcaption>
+</figure>
+
+
 A New England hall in 1710 is a machine with a hearth. It cooks, hears cases, holds a loom, sleeps a child on a truckle, and twice a day becomes a dining room that does not keep the name. The table that makes that conversion possible is usually a gateleg or an oval drop-leaf in maple, oak, or walnut, sometimes pine painted. When the leaves hang, the piece is a narrow console against the wall. When the gates swing out, it is dinner. Afterward the cloth is folded, the trenchers stacked, and the hall goes back to being a hall.
 
 This is the furniture of eating before the room. It is not primitive. It is a different contract with square footage. Most colonial houses could not spare a chamber that earned its keep only at two or three in the afternoon. The table had to earn its keep the other twenty hours as well.

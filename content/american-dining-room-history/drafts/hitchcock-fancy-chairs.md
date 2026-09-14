@@ -19,6 +19,15 @@ seo_intent: informational
 
 # Hitchcock chairs at table
 
+
+<figure class="adrh-figure">
+  <img src="content/american-dining-room-history/staged/images/met-1769-hitchcock-chair.jpg"
+       alt="Lambert Hitchcock stenciled side chair, Hitchcocksville Connecticut, 1825–28, Metropolitan Museum of Art"
+       width="1624" height="2060" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Side chair by Lambert Hitchcock, 1825–28 (Hitchcocksville, Connecticut). Stenciled seat-rail marks — “L. HITCHCOCK… WARRANTED” — turned factory dining chairs into readable brand furniture. Metropolitan Museum of Art, object 1769 (CC0).</figcaption>
+</figure>
+
+
 The stencil on the back of the seat rail is the document: “L. HITCHCOCK. HITCHCOCKS-VILLE. CONN. WARRANTED.” Sometimes the wording shifts with partners. The chair under it is a painted fancy — turned legs, a pillowed tablet or a slat, rush or cane seat, gilt fruit and leaves in bronze powder. It is light. It was cheap. By the late 1820s a three-story brick factory on the Farmington River was turning out on the order of three hundred a week, something like fifteen thousand a year in the Henry Ford account, at prices the same essay puts between forty-five cents and a dollar seventy-five. That is not a cabinetmaker’s dining chair. It is a mill’s dining chair. America sat on it anyway.
 
 Lambert Hitchcock apprenticed with Silas Cheney of Litchfield, who already made Federal sideboards and fancy painted chairs. Clockmakers like Eli Terry were nearby, thinking in interchangeable parts. In 1818 Hitchcock rented space and power at the Benham-Doolittle sawmill in Barkhamsted, at the fork of the Farmington and Still Rivers, and began making unfinished chair parts for stores and peddlers. Parts went as far as Charleston. Then came knockdown chairs, then finished chairs, then, in 1825, the brick factory. The hamlet had already been called Hitchcocksville (later Riverton). The dining room of the 1830s middle class is that factory’s market.

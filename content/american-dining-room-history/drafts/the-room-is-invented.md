@@ -20,6 +20,15 @@ seo_intent: informational
 
 # The dining room is invented
 
+
+<figure class="adrh-figure">
+  <img src="content/american-dining-room-history/staged/images/met-4934-craig-mantel.jpg"
+       alt="Federal mantel from the drawing room of Henry Craig’s Baltimore townhouse, ca. 1810, Metropolitan Museum of Art"
+       width="3811" height="3049" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Mantel from the drawing room of the Craig House, East Pratt Street, Baltimore (ca. 1810), now staged as the Met’s Baltimore Room (American Wing, Gallery 724). The sideboard recess Biddle labels on Plate 37 (1805) is carpentry for a room that keeps its dining furniture overnight. Metropolitan Museum of Art, object 4934 (CC0).</figcaption>
+</figure>
+
+
 The Metropolitan Museum’s Baltimore Room, Gallery 724, is a parlor pretending to be a dining room. The woodwork came from Henry Craig’s townhouse on East Pratt Street. Craig (1767–1832) was a Baltimore merchant and shipowner. The room served his family as a parlor. Since the American Wing opened in 1924 the Museum has set it for dinner: table, chairs, sideboard, plate. The curators of the 1920s preferred this architecture to the house’s actual dining room. They were staging a fashion that had only recently become ordinary.
 
 That is the first fact of American dining furniture. The table is older than the room. For most of the eighteenth century a prosperous household ate in a hall, a parlor, or whichever heated room could take a leaf. The furniture folded. The cloth came out. After the meal the gateleg went back to the wall. A dedicated dining room — a room that keeps its table, its sideboard, and its name when no one is eating — is a late colonial and early national invention, and it arrives unevenly.

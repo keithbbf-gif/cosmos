@@ -18,6 +18,15 @@ seo_intent: informational
 
 # Southern hardwoods at table
 
+
+<figure class="adrh-figure">
+  <img src="content/american-dining-room-history/staged/images/met-3173-drop-leaf-dining-table.jpg"
+       alt="American Federal drop-leaf dining table showing hardwood top and period joinery, 1795–1810"
+       width="3877" height="3228" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Drop-leaf dining table, 1795–1810 (American hardwoods). Teaching plate until a Bradley Brand shop photograph of quartersawn Arkansas oak or walnut — unfinished slab, no logo — replaces it. Metropolitan Museum of Art, object 3173 (CC0).</figcaption>
+</figure>
+
+
 A dining table in the Southern hardwood belt does not have to be mahogany. White oak and red oak, black walnut, cherry, pecan, hickory, pine, cypress — the forest that paid mills and furniture factories from the Carolinas to Arkansas is a dining forest. Charleston used mahogany because it was a port. The Piedmont and the interior used what grew. This page is that interior. Bradley Brand works Arkansas hardwoods; the series uses that shop as a way to look at oak, walnut, and pecan at dinner, not as a catalog.
 
 The furniture-history pillar asked for Southern vernacular and for a woods cluster that is photographed, not invented. What follows is history and a shopping literacy, not a line of chairs.

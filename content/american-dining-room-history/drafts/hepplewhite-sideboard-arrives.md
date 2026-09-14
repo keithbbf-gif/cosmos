@@ -21,6 +21,15 @@ seo_intent: informational
 
 # The sideboard arrives
 
+
+<figure class="adrh-figure">
+  <img src="content/american-dining-room-history/staged/images/met-16912-federal-sideboard.jpg"
+       alt="Federal sideboard in cherry with inlaid mahogany banding, 1795–1800, Metropolitan Museum of Art"
+       width="3919" height="2541" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Sideboard, American Federal, 1795–1800 (cherry, mahogany banding, light- and dark-wood inlay). Bottle drawers and a fixed wall presence mark the dining room Leslie later calls a “closet you can see.” Metropolitan Museum of Art, object 16912 (CC0).</figcaption>
+</figure>
+
+
 Eliza Leslie, in *The House Book* (1844), tells a middle-class reader that a large closet is indispensable to a dining room. By closet she means a sideboard. If the wall cannot take a large one, she allows two small ones in the recesses. That sentence is the form after it has won. This page is the winning: the 1780s and 1790s, when a long, narrow cabinet of drawers and bottle wells became the furniture that proved you had a dining room.
 
 English courts had dressed buffets for a long time. The American Federal sideboard is not that pageant. It is a carpenter’s object from a price book. Thomas Shearer’s designs in the *Cabinet-Makers’ London Book of Prices* (1788) and George Hepplewhite’s *Guide* of the same year — Hepplewhite dead, the book posthumous — give shops a serpentine or straight front, tapered legs, and a lockable interior for plate. Sheraton’s *Drawing-Book* (1793) adds the later, more architectural versions. American shops in New York, Baltimore, Boston, and Philadelphia copy, inlay, and stretch the form until it is the room’s other table.

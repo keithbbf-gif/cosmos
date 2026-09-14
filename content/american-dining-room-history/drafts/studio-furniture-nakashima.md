@@ -19,6 +19,15 @@ seo_intent: informational
 
 # Studio furniture after Nakashima
 
+
+<figure class="adrh-figure">
+  <img src="content/american-dining-room-history/staged/images/met-3173-drop-leaf-dining-table.jpg"
+       alt="Federal drop-leaf dining table in American woods, 1795–1810, Metropolitan Museum of Art"
+       width="3877" height="3228" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Drop-leaf dining table, American Federal, 1795–1810 — a fixed dining-room resident before live-edge studio slabs. Placeholder until a rights-cleared Nakashima slab with butterfly keys is available. Metropolitan Museum of Art, object 3173 (CC0).</figcaption>
+</figure>
+
+
 George Nakashima’s dining tables are slabs. The live edge stays. Butterfly keys in contrasting wood stitch a split the way a cabinetmaker stitches, not the way a factory hides. The bases are trestles or a late modern geometry. The wood is named — walnut, cherry, English oak, a particular tree. The Conoid chair and the long table at New Hope, Pennsylvania, are the public images. The Mira Nakashima continuation of the shop is a living fact. This page is the one-off dining table as an American type after the factories won everything else.
 
 Wharton Esherick’s earlier, more sculptural furniture, Sam Maloof’s chairs (more rocker than dining, but the shop ethic), Wendell Castle’s stacks, a hundred less famous makers — the studio movement is a dining-room option for people who will wait and pay. It is also a cousin of any hardwood shop that still works a bench: a named wood, a client, a refusal of the suite.

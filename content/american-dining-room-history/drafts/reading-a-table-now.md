@@ -17,6 +17,15 @@ seo_intent: informational
 
 # How to read an American dining table
 
+
+<figure class="adrh-figure">
+  <img src="content/american-dining-room-history/staged/images/met-3913-gateleg-detail.jpg"
+       alt="Underside construction detail of American gate-leg table for reading joints and secondaries"
+       width="2328" height="1899" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Gate-leg drop-leaf table, 1700–1750 — the reader’s view: rails, pintles, and wear before the polish. Metropolitan Museum of Art, object 3913 (CC0).</figcaption>
+</figure>
+
+
 Get on the floor. The show top will lie. The underside keeps the shop. This page is a method, not a price guide. It exists so the series can end in a room you actually have, with a table you did not buy at the Met.
 
 Bring a flashlight, a notebook, and no certainty. Attribution is a specialist’s fight. What you can do is refuse the tag’s century until the joints agree.

@@ -1,0 +1,125 @@
+# Verified image sources — american-dining-room-history
+# PD or CC only. No AI-generated plates. See RIGHTS.md.
+
+series: american-dining-room-history
+base_path: content/american-dining-room-history/staged/images
+
+images:
+  - id: adr-img-001
+    file: met-4934-craig-mantel.jpg
+    slug: the-room-is-invented
+    provider: Metropolitan Museum of Art
+    license: CC0 1.0 (Met Open Access)
+    object_url: https://www.metmuseum.org/art/collection/search/4934
+    credit: Rogers Fund, 1918
+
+  - id: adr-img-002
+    file: met-3917-gateleg-table.jpg
+    slug: hall-table-before-the-room
+    provider: Metropolitan Museum of Art
+    license: CC0 1.0 (Met Open Access)
+    object_url: https://www.metmuseum.org/art/collection/search/3917
+    credit: Gift of Mrs. J. Insley Blair, 1947
+
+  - id: adr-img-003
+    file: met-3913-gateleg-detail.jpg
+    slug: gateleg-and-drop-leaf
+    provider: Metropolitan Museum of Art
+    license: CC0 1.0 (Met Open Access)
+    object_url: https://www.metmuseum.org/art/collection/search/3913
+    credit: Gift of Mrs. J. Insley Blair, 1947
+    note: Additional collection photograph (construction detail).
+
+  - id: adr-img-004
+    file: met-16912-federal-sideboard.jpg
+    slug: hepplewhite-sideboard-arrives
+    provider: Metropolitan Museum of Art
+    license: CC0 1.0 (Met Open Access)
+    object_url: https://www.metmuseum.org/art/collection/search/16912
+    credit: Gift of Mrs. J. Insley Blair, 1947
+
+  - id: adr-img-005
+    file: met-7506-phyfe-sideboard-table.jpg
+    slug: phyfe-new-york-dining
+    provider: Metropolitan Museum of Art
+    license: CC0 1.0 (Met Open Access)
+    object_url: https://www.metmuseum.org/art/collection/search/7506
+    credit: Gift of Mrs. J. Insley Blair, 1947
+
+  - id: adr-img-006
+    file: wikimedia-thomas-day-ncmuseum.jpg
+    slug: thomas-day-southern-shops
+    provider: Wikimedia Commons / North Carolina Museum of History
+    license: Public domain (photograph by Daderot)
+    commons_url: https://commons.wikimedia.org/wiki/File:Furniture_by_Thomas_Day_-_North_Carolina_Museum_of_History_-_DSC06084.JPG
+    credit: North Carolina Museum of History; photograph Daderot
+
+  - id: adr-img-007
+    file: met-7504-sideboard-table.jpg
+    slug: hunt-board-southern-vernacular
+    provider: Metropolitan Museum of Art
+    license: CC0 1.0 (Met Open Access)
+    object_url: https://www.metmuseum.org/art/collection/search/7504
+    credit: Gift of Mrs. J. Insley Blair, 1947
+    note: Illustrates Southern sideboard-table height and bottle drawers; compare MESDA 3163 (Charleston marble slab).
+
+  - id: adr-img-008
+    file: met-1769-hitchcock-chair.jpg
+    slug: hitchcock-fancy-chairs
+    provider: Metropolitan Museum of Art
+    license: CC0 1.0 (Met Open Access)
+    object_url: https://www.metmuseum.org/art/collection/search/1769
+    credit: Gift of James Robert Sands and Laurance M. Land, in memory of Margaret Queen Sands, 1970
+
+  - id: adr-img-009
+    file: met-14336-byrdcliffe-linen-press.jpg
+    slug: stickley-mission-dining
+    provider: Metropolitan Museum of Art
+    license: CC0 1.0 (Met Open Access)
+    object_url: https://www.metmuseum.org/art/collection/search/14336
+    credit: Purchase, Friends of the American Wing Fund, 1984
+    note: Byrdcliffe Arts and Crafts casework (1904). Met Gustav Stickley dining pieces are not Open Access; swap when OA or rights-cleared Stickley plate available.
+
+  - id: adr-img-010
+    file: met-3180-extension-detail.jpg
+    slug: extension-table-patents
+    provider: Metropolitan Museum of Art
+    license: CC0 1.0 (Met Open Access)
+    object_url: https://www.metmuseum.org/art/collection/search/3180
+    credit: Gift of Mrs. J. Insley Blair, 1947
+    note: Detail view of extension dining table, ca. 1800–1825.
+
+  - id: adr-img-011
+    file: wikimedia-eames-plastic-chair-1950.jpg
+    slug: midcentury-eames-saarinen
+    provider: Wikimedia Commons
+    license: CC BY 3.0
+    commons_url: https://commons.wikimedia.org/wiki/File:Charles_and_Ray_Eames_-_Plastic_Chair_1950-53.jpg
+    credit: "Charles and Ray Eames - Plastic Chair 1950-53.jpg" — Creative Commons Attribution 3.0
+    note: Eames shell chair; Saarinen Tulip (Knoll) requires separate rights-cleared photograph at publish.
+
+  - id: adr-img-012
+    file: met-3173-drop-leaf-dining-table.jpg
+    slug: studio-furniture-nakashima
+    provider: Metropolitan Museum of Art
+    license: CC0 1.0 (Met Open Access)
+    object_url: https://www.metmuseum.org/art/collection/search/3173
+    credit: Gift of Mrs. J. Insley Blair, 1947
+    note: Federal drop-leaf documents fixed dining-room residency; replace with rights-cleared Nakashima slab when available.
+
+  - id: adr-img-013
+    file: met-3173-drop-leaf-dining-table.jpg
+    slug: arkansas-southern-hardwood-dining
+    provider: Metropolitan Museum of Art
+    license: CC0 1.0 (Met Open Access)
+    object_url: https://www.metmuseum.org/art/collection/search/3173
+    credit: Gift of Mrs. J. Insley Blair, 1947
+    note: Placeholder teaching plate; BBF shop oak/walnut slab photograph pending per PHOTO_CAPTIONS.md.
+
+  - id: adr-img-014
+    file: met-3913-gateleg-detail.jpg
+    slug: reading-a-table-now
+    provider: Metropolitan Museum of Art
+    license: CC0 1.0 (Met Open Access)
+    object_url: https://www.metmuseum.org/art/collection/search/3913
+    credit: Gift of Mrs. J. Insley Blair, 1947

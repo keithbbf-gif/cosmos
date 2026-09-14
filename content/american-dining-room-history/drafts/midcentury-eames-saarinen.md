@@ -18,6 +18,15 @@ seo_intent: informational
 
 # Eames, Saarinen, Knoll
 
+
+<figure class="adrh-figure">
+  <img src="content/american-dining-room-history/staged/images/wikimedia-eames-plastic-chair-1950.jpg"
+       alt="Charles and Ray Eames molded plastic side chair, 1950s, design for modern dining"
+       width="3741" height="4303" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Charles and Ray Eames, molded plastic side chair (1950–53). Factory dining moved to shell seats and pedestal bases; Saarinen’s Tulip table still needs a Knoll-cleared or museum OA photograph at publish. Image: Wikimedia Commons, CC BY 3.0.</figcaption>
+</figure>
+
+
 Eero Saarinen wanted to clear “the slum of legs” under the table. Knoll’s Pedestal Collection — designed 1956–57, in production from 1956 — is a cast-aluminum stem and a round or oval top in marble, wood, laminate. The Tulip chairs match. A dining room that buys this set has decided that Empire paws, Mission posts, and four oak legs are clutter. The decision is aesthetic and also practical: fewer legs to mop around, fewer collisions with shins. The pillar table of 1820 already knew the shin problem. Saarinen made the pillar a single stem and called the old forest a slum.
 
 Charles and Ray Eames are the other American modern dining: molded plywood chairs (the DCW and later fiberglass and wire), tables that are thinner, a California and Cranbrook intelligence that is less formal than Knoll’s marble. People eat at Eames tables. People also put Eames chairs at older tables. The mix is the American room.

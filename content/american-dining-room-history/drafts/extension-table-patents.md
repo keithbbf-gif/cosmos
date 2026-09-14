@@ -19,6 +19,15 @@ seo_intent: informational
 
 # Extension tables and patents
 
+
+<figure class="adrh-figure">
+  <img src="content/american-dining-room-history/staged/images/met-3180-extension-detail.jpg"
+       alt="Detail of American extension dining table slides and leaves, 1800–1825, Metropolitan Museum of Art"
+       width="3144" height="2060" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Extension dining table, American, 1800–1825 — detail of leaves and sliding mechanism (Briggs and later patent cranks build on this hardware story). Metropolitan Museum of Art, object 3180 (CC0).</figcaption>
+</figure>
+
+
 Robert Jupe’s British patent 6788, March 1835, describes a circular table whose sections diverge from a center so that filling pieces can drop in. The first tables were made with John Johnstone of New Bond Street; brass bosses read “JUPES PATENT,” later “Johnstone & Jeanes.” They exhibited the expanding principle at the Great Exhibition of 1851. These are English luxury objects. American dining rooms felt them as an idea more than as a population of tables.
 
 The American mechanical story that actually filled rooms is the slide and the crank. Cornelius C. Briggs of Boston — proprietor of a large shop, patent 1843 in the Bray and Carr account (*Antiques and Fine Arts*, 2010) — made accordion, hand-crank extension tables. A labeled example, “Briggs Extension Dining Table / C.C. & J. Briggs, 507 Washington Street / Boston,” shows a shaped top, accordion crank, carved supports, casters. A related table is at the Museum of Fine Arts, Boston. That is the document. The later factory table with wooden telescopic slides is the volume.

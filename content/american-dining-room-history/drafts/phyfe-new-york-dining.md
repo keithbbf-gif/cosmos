@@ -17,6 +17,15 @@ seo_intent: informational
 
 # Phyfe’s New York dining
 
+
+<figure class="adrh-figure">
+  <img src="content/american-dining-room-history/staged/images/met-7506-phyfe-sideboard-table.jpg"
+       alt="Sideboard table attributed to Duncan Phyfe workshop, New York, ca. 1815, Metropolitan Museum of Art"
+       width="2036" height="1352" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Sideboard table attributed to the workshop of Duncan Phyfe, New York, ca. 1815. Read the label language — “attributed” — before you assign every New York pedestal to Phyfe. Metropolitan Museum of Art, object 7506 (CC0).</figcaption>
+</figure>
+
+
 The Brooklyn Museum’s dining table 1997.150.15a–c is the object to start with if you want dinner, not a sofa. Attributed to Duncan Phyfe, about 1805, mahogany with beech, twenty-nine and a half by forty-eight by seventy-eight inches, Matthew Scott Sloan Collection, gift of Lidie Lane Sloan McBurney. It is a table with parts — the a–c in the accession — the way Federal dining tables are parts. The Met’s better-known Phyfe pieces in the dining line are smaller or adjacent: Pembroke 31.44.15, drop-leaf Pembroke 22.98, sideboard table 1971.160. The sofa 42.16 is a masterpiece of the shop and not a dining table. This page keeps the cloth on the wood you eat from.
 
 Duncan Phyfe (born Duncan Fife, near Lock Fannich, Ross-shire, 1768/70–1854) ran a New York shop that made Federal and later Grecian furniture into a recognizable product. The Met’s Heilbrunn essay on Phyfe and Lannuier puts the family in the United States in 1784, in Albany first, then New York by 1791. Peter M. Kenny and Michael K. Brown’s *Duncan Phyfe: Master Cabinetmaker in New York* (Met, 2011) replaced a century of wishful “Phyfe” with addresses, apprentices, and the move from Partition Street when it became Fulton. Attribution to the workshop is the honest phrase. Specialists carved, turned, and caned. The dining table is a shop sentence in mahogany: reeded legs or a pedestal, a leaf that meets, a secondary of pine or poplar or, in Brooklyn’s case, beech.

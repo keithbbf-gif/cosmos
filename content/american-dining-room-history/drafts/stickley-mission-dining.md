@@ -18,6 +18,15 @@ seo_intent: informational
 
 # Stickley and Mission dining
 
+
+<figure class="adrh-figure">
+  <img src="content/american-dining-room-history/staged/images/met-14336-byrdcliffe-linen-press.jpg"
+       alt="Byrdcliffe Arts and Crafts linen press, American, ca. 1904, Metropolitan Museum of Art"
+       width="2978" height="3722" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Linen press, Byrdcliffe Arts and Crafts colony, ca. 1904 — honest oak casework in the Mission-era dining room. Met Gustav Stickley dining tables are not Open Access; swap for an OA Stickley plank-top catalog plate when cleared. Metropolitan Museum of Art, object 14336 (CC0).</figcaption>
+</figure>
+
+
 Gustav Stickley’s Dining Table no. 631 is a plank. The Stickley Project notes put the idea in 1901 — a drawing for Things Wrought by the United Crafts at Eastwood, and the first issue of *The Craftsman*, then with a medial stretcher on the floor — numbered about 1904, made circa 1902–15, thirty by ninety-six by forty-eight inches in a recorded example. Catalogue D called it heavy construction, a two-inch top, a table for a large dining room that did not need to close, also used as a director’s table. Fumed oak. A price, in one list, of sixty-six dollars. That is a dining table that has stopped pretending to be French.
 
 The Bungalow Trestle, model no. 445, circa 1901, twenty-eight and a quarter by seventy by twenty-nine inches in the Sotheby’s example, is rarer — two known, Cathers cites a period photograph from Stickley’s Rochester Arts and Crafts exhibition. Most American Mission dining tables are neither 631 nor 445. They are factory cousins: square oak legs, a mediocre top, a stain that is not a fume. Stickley is the sermon. The bungalow is the congregation.

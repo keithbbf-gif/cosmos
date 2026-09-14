@@ -18,6 +18,15 @@ seo_intent: informational
 
 # Thomas Day in Milton
 
+
+<figure class="adrh-figure">
+  <img src="content/american-dining-room-history/staged/images/wikimedia-thomas-day-ncmuseum.jpg"
+       alt="Thomas Day furniture on view at the North Carolina Museum of History"
+       width="4320" height="3240" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Furniture by Thomas Day (free Black cabinetmaker, Milton, North Carolina) on view at the North Carolina Museum of History. Day’s S-scrolls and shop output are the Southern dining-room story the Phyfe label does not own. Photograph Daderot (public domain).</figcaption>
+</figure>
+
+
 The sideboard made for Caleb Hazard Richmond, now at the North Carolina Museum of History, is the dining object to stand in front of. Mahogany and mahogany veneer, yellow pine, tulip poplar, walnut, 1840–1855, attributed to Thomas Day, Milton, North Carolina. Chipstone’s 2013 essay, “The Missing Chapter in the Life of Thomas Day,” publishes a detail of the scrolled mirror support and names the donors: Museum of History Associates and Mr. Thomas S. Erwin. The S is too big. That is the point. Day’s shop took a conservative sideboard plan and put exuberant scrolls on it until the piece moved.
 
 Thomas Day (1801–1861) was a free Black cabinetmaker in a slave state. His father, John Day, was a cabinetmaker. The family moved from Virginia — Dinwiddie County in the Chipstone account — into North Carolina. Thomas advertised in the *Milton Gazette & Roanoke Advertiser* on 1 March 1827: mahogany, walnut, and stained furniture on hand, fashionable and common bedsteads, repairing and varnishing. He had been in Milton since about 1823 (a later letter to his daughter implies it). He bought property in 1827. In 1830 he married Aquilla Wilson, a free Black woman from Virginia; an 1826 law blocked her migration until sixty-one white men petitioned the Assembly to let her in. That petition is part of the furniture. It says what the town thought the shop was worth.
