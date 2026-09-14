@@ -27,17 +27,25 @@ If you remember one furniture sentence from the survey book, remember that Appen
 
 I have watched a person fail a stand on a beautiful chair and succeed on an ugly one. The ugly one had a 20-inch firm seat, a front edge that did not collapse, and arms you could push without your hand sliding off a ball.
 
-## Height is not a style
+## History: the lounge that failed a hip
 
-Residential lounge chairs sank in the 1990s and never apologized. A 16- or 17-inch seat looks low and fashionable in a JPEG. It is a hole for a person whose hips do not flex, whose calves are short or long in the wrong direction, who needs the world to come up to meet them.
+Wards sat people on benches and stacking chairs because a ward is a count. A stacking chair is an event object. A resident who sits three times a day is not an event. Hospital leftover seating — chrome, vinyl, a 17-inch sink — walked into nursing homes with the Hill-Burton supply and stayed because it wiped.
 
-Shop ranges I will own: many residents I saw needed something in the **19- to 21-inch** seat-height neighborhood, measured to a compressed foam, not to an uncompressed swatch. Short women and tall men do not share a number. A day room that buys one SKU has chosen a population to punish.
+OBRA 1987 made furniture comfort into survey language. F584 names uncomfortable, non-homelike furniture as an institutional leftover a house should work off. F917 names a chair for the resident and furniture for a visitor’s comfort. The industry heard “residential collection.” Residential lounge chairs sank in the 1990s and never apologized. A 16- or 17-inch seat looks low and fashionable in a JPEG. It is a hole for a person whose hips do not flex.
+
+Culture change wanted a living room. Some houses bought a chair you could stand from and a second place a daughter could sit. Some houses bought a skirted club chair and a floral throw and called it homelike. Homelike is a direction in Appendix PP, not a skirt. A skirt is a lint trap and a urine trap.
+
+Medline-era vinyl programs were a binder of swatches that changed names every two years. The chair died when the vinyl died. Wood frames that could take a new cover — the argument a mill like Bradley Brand could make without a catalog voice — outlived foam sculptures. Foam sculptures outlived their residents and then filled a dumpster.
+
+I will not invent a seating clinic’s protocol. I will say the floors I walked punished short women with one SKU and tall men with the same SKU, in rooms that already had only **80** square feet in a double or **100** in a single. The leftover does not want two thrones. It wants one machine that works and a thought about the visitor.
+
+## Shop geometry: height, arms, edge
+
+Residential lounge chairs sank. Shop ranges I will own: many residents I saw needed something in the **19- to 21-inch** seat-height neighborhood, measured to a compressed foam, not to an uncompressed swatch. Short women and tall men do not share a number. A day room that buys one SKU has chosen a population to punish.
 
 The low-bed draft already said the chair and the deck are one specification. A high chair next to a floor-level bed is a cliff. A low chair next to a high bed is a slide.
 
 Do not take a catalog’s “seat height” as compressed. Sit on it. Measure it. Write the compressed number.
-
-## Arms you can push
 
 A chair without arms is a lounge and a trap. A chair with arms that are too low is a lounge with decoration. A chair with arms that flare so wide you cannot get them under a table is a dining problem. A chair with a ball or a scroll at the end is a hand-slip.
 
@@ -45,21 +53,25 @@ I want a flat, slightly grippy cap at a height where a person can load the shoul
 
 Urethane arms wipe. Wood arms feel like a house and take a dent. Vinyl-wrapped arms tear at the staple line. Pick the failure you can live with.
 
-## Depth, back, and the slide
-
 Too-deep a seat is how a short person slumps into a sacral sit and then cannot start a stand. Too-upright a back is how a thin person aches. Too-reclined a back is a geri chair pretending to be a room chair.
 
 A lumbar that is a pillow will walk. A lumbar that is built in will be wrong for half the room. There is no SKU that fits a floor. There is a SKU that fails fewer people, and a cushion program for the rest.
 
-Slick vinyl plus a posterior tilt is a slide. Moisture-barrier plus slick vinyl plus a slide is a wound-care meeting. The infection-control draft will sit with covers. Here: **friction is a clinical number wearing a swatch.**
+Slick vinyl plus a posterior tilt is a slide. Moisture-barrier plus slick vinyl plus a slide is a wound-care meeting. The infection-control draft will sit with covers. Here: **friction is a clinical number wearing a swatch.** Facilities first certified after October 1, 1990, hold **71 to 81 °F**. The same vinyl in an 80-degree west room is a different slide than the swatch in a 72-degree showroom.
 
-## Cleanout, barrier, foam
+The front edge is the machine. Soft showroom foam is a lie that becomes a hole in six months. If the edge collapses, the stand starts from a ditch. Density is how the edge stays an edge. I will not tattoo a foam spec as law. I will say sit on the chair in month eighteen, not in the lobby on delivery day.
+
+Casters on a resident chair are how the chair leaves when a person loads the arms. Glides that mark the floor are how EVS enters the fight. A chair that walks is a fall that will be blamed on the person.
+
+## Cleanout, barrier, foam, weight
 
 A healthcare chair that cannot be wiped after a void is a residential chair. Cleanout — a gap at the back of the seat, a removable cover, a way to get a hand in — is not glamorous. It is why EVS will not hide the chair.
 
-Moisture barrier under the cover is how foam lives. Foam density is how the front edge stays a front edge. Soft showroom foam is a lie that becomes a hole in six months.
+Moisture barrier under the cover is how foam lives. A skirt is how you fail EVS. I have refused skirts. I will refuse them again.
 
-Weight rating: write it. A 250-pound chair in a building with a bariatric program is an incident. The bariatric draft is the long version. Do not put a + on a page and go home.
+Weight rating: write it. A 250-pound chair in a building with a bariatric program is an incident. The bariatric draft is the long version. Do not put a + on a page and go home. Width is dignity. A chair that will not go through the door is a hallway address. A chair that will not fit under the dining table is a tray.
+
+BIFMA has chair tests. They are not a healthcare stamp — that draft sits later in the series — but they are better than a plus sign. Ask how the pounds were tested, or write that you do not know.
 
 ## The visitor
 
@@ -69,17 +81,27 @@ A folding chair in the closet is a thought. A second healthcare chair is a thoug
 
 In the lobby, the visitor chair and the resident chair are often the same SKU fighting two jobs. If the lobby is a marketing room, you will get the 17-inch. Then the resident who waits for the van will be stuck. Specify a mixed lobby or admit who the lobby is for.
 
+Personal belongings are in F584 on purpose. The daughter’s chair from home is a belonging and a flame story and a tip story. The geri-chair draft will sit with the family recliner. Here: a visitor still has to stand. A sunken sofa in a small single is how you buy a second fall.
+
 ## Channel notes
 
-Medline-era vinyl programs were a binder of swatches that changed names every two years. The chair died when the vinyl died. Attic stock a bolt or stop pretending the chair is maple.
+Medline-era vinyl programs were a binder of swatches that changed names every two years. Attic stock a bolt or stop pretending the chair is maple.
 
-A “residential collection” with a skirt is a lint trap and a urine trap. Skirts are how you fail EVS. I have refused skirts. I will refuse them again.
+A “residential collection” with a skirt is a lint trap. Matching the nightstand is not a tag. Height is. I have seen packages where the wardrobe, bedside, and headboard matched and the only chair was a stacking banquet chair from the dining room. Visitor comfort is in the guidance. The stacking chair is a tell.
+
+Special-buys froze a seat height for a chain. Good if the height was compressed and measured against the beds. Bad if the height was a showroom lounge. Medilodge-era floors mixed those buys with leftover stacking chairs and a family recliner in the aisle. I will not assign a grade to a name on our public list. I will say the mixed floor is the ordinary floor.
 
 Bradley Brand’s wood frames could take a new cover. That is a reason to build a frame that is a frame, not a foam sculpture. If you inherit a foam sculpture, you inherit a landfill.
 
-## How I sit a chair on a walkthrough
+GPO pages listed “patient chair” and “lounge chair” as if the words were dimensions. Patient is not 19 inches. Lounge is not a transfer. Write the compressed height, the arm, the cleanout, the weight, and whether the chair must go under a table.
+
+## What to look for on a floor
 
 I sit. I stand. I do it again without using a lunge I do not have at 86. I check whether my hand slipped. I check whether the chair walked. I check whether the vinyl is already a map of someone else’s slide. I check the weight sticker if any. I check whether a second person could sit without blocking the door.
+
+Look at the front edge after a year, not only on delivery. Look at the staple line on a vinyl-wrapped arm. Look at whether a skirt is already a reservoir. Look at the leftover: does this chair steal the working side, the lift path, the toilet door?
+
+Look at the bed height. If the deck is low at night and the seat is 21 inches, you are looking at a cliff that only appears after shift change. Look at the dining room. If the arms will not go under the top, the person will slump or eat on the overbed.
 
 If I cannot stand without a story, the chair is a restraint that no one documented.
 

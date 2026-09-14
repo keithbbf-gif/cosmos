@@ -28,14 +28,14 @@ Counted: 42 drafts.
 | 10 | `the-room-package` | The room package | 1557 | `drafts/the-room-package.md` |
 | 11 | `hospital-beds-are-not-residential` | Hospital beds are not residential | 1611 | `drafts/hospital-beds-are-not-residential.md` |
 | 12 | `seven-entrapment-zones` | Seven entrapment zones | 1670 | `drafts/seven-entrapment-zones.md` |
-| 13 | `side-rails-restraint-and-geometry` | Side rails, restraint, and geometry | 996 | `drafts/side-rails-restraint-and-geometry.md` |
-| 14 | `low-beds-and-fall-culture` | Low beds and fall culture | 821 | `drafts/low-beds-and-fall-culture.md` |
-| 15 | `mattress-fit-is-a-gap` | Mattress fit is a gap | 813 | `drafts/mattress-fit-is-a-gap.md` |
-| 16 | `overbed-tables` | Overbed tables | 936 | `drafts/overbed-tables.md` |
-| 17 | `bedside-cabinets` | Bedside cabinets | 948 | `drafts/bedside-cabinets.md` |
-| 18 | `wardrobes-and-the-closet-rule` | Wardrobes and the closet rule | 1088 | `drafts/wardrobes-and-the-closet-rule.md` |
-| 19 | `resident-chairs-and-sit-to-stand` | Resident chairs and sit-to-stand | 983 | `drafts/resident-chairs-and-sit-to-stand.md` |
-| 20 | `geri-chairs-and-the-recliner` | Geri chairs and the recliner | 874 | `drafts/geri-chairs-and-the-recliner.md` |
+| 13 | `side-rails-restraint-and-geometry` | Side rails, restraint, and geometry | 2200 | `drafts/side-rails-restraint-and-geometry.md` |
+| 14 | `low-beds-and-fall-culture` | Low beds and fall culture | 2185 | `drafts/low-beds-and-fall-culture.md` |
+| 15 | `mattress-fit-is-a-gap` | Mattress fit is a gap | 2099 | `drafts/mattress-fit-is-a-gap.md` |
+| 16 | `overbed-tables` | Overbed tables | 1952 | `drafts/overbed-tables.md` |
+| 17 | `bedside-cabinets` | Bedside cabinets | 1774 | `drafts/bedside-cabinets.md` |
+| 18 | `wardrobes-and-the-closet-rule` | Wardrobes and the closet rule | 1746 | `drafts/wardrobes-and-the-closet-rule.md` |
+| 19 | `resident-chairs-and-sit-to-stand` | Resident chairs and sit-to-stand | 1724 | `drafts/resident-chairs-and-sit-to-stand.md` |
+| 20 | `geri-chairs-and-the-recliner` | Geri chairs and the recliner | 1901 | `drafts/geri-chairs-and-the-recliner.md` |
 | 21 | `dining-in-the-snf` | Dining in the SNF | 2095 | `drafts/dining-in-the-snf.md` |
 | 22 | `activity-and-day-room` | Activity and day room | 1873 | `drafts/activity-and-day-room.md` |
 | 23 | `nurses-station-millwork` | Nurses’ station millwork | 1972 | `drafts/nurses-station-millwork.md` |
