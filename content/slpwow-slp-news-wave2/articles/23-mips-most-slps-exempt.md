@@ -32,6 +32,22 @@ That exemption is why the second conversion factor exists. Qualifying APM partic
 
 ## Why the exemption exists
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/mips-most-slps-exempt/mips-most-slps-exempt-schematic.svg"
+    alt="Educational infographic schematic: Most SLPs are still outside MIPS — that is not a quality vacation. ASHA’s 2026 fee-schedule reading says most speech-language pathologists remain exempt from MIPS reporting and have limit"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> ASHA’s 2026 fee-schedule reading says most speech-language pathologists remain exempt from MIPS reporting and have limited Advanced APM access.
+    <span class="figure-credit">SLPWOW SLP News wave 2 — original SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 MIPS was built around physician-style reporting, eligible clinician types, and volume thresholds. Many speech-language pathologists fall below low-volume thresholds, work in settings that bill under a facility number, or are simply not in the eligible-clinician list the way a physician group is. ASHA’s pages on QPP have tracked this for years. The 2026 booklet is a status check, not a new statute.
 
 CMS’s fact sheet, meanwhile, is full of primary-care and behavioral-health add-on codes. Those are real 2026 news for physicians. They are not automatically SLP news. Do not let a QPP webinar shame a school-based or SNF SLP for “not reporting MIPS.”

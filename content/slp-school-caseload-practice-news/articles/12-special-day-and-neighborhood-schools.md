@@ -31,6 +31,22 @@ ASHA’s portal already says student needs vary and that a single number cannot 
 
 ## What “special day / residential” is in the survey
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/special-day-and-neighborhood-schools/special-day-and-neighborhood-schools-schematic.svg"
+    alt="Educational infographic schematic: Special day schools and neighborhood schools. ASHA’s 2024 survey put special day and residential caseloads at a median of 25. Neighborhood elementary sat at 51. Inten"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> ASHA’s 2024 survey put special day and residential caseloads at a median of 25. Neighborhood elementary sat at 51. Intensity is not a spa day.
+    <span class="figure-credit">SLPWOW school caseload series — original SVG. Not legal, billing, union, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 It is a facility type, not a disability category. It includes public and nonpublic specialized schools and residential programs that employ SLPs. It is not a synonym for “self-contained classroom inside a neighborhood elementary.” Those students often sit on the elementary row’s 51.
 
 LRE still applies. A specialized placement is a team decision, not an SLP brand. This essay does not argue for or against those placements. It argues against stealing the 25 to shame the 51, or stealing the 51 to shame the 25.

@@ -31,6 +31,22 @@ That split is the news. It is also not the law. The law lives on the service pag
 
 ## What the IEP actually promised
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/makeup-sessions-and-the-iep-clock/makeup-sessions-and-the-iep-clock-schematic.svg"
+    alt="Educational infographic schematic: Make-up sessions and the IEP clock. ASHA’s 2024 survey found 37 percent of school SLPs must always or almost always make up missed sessions. The IEP, not th"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> ASHA’s 2024 survey found 37 percent of school SLPs must always or almost always make up missed sessions. The IEP, not the hallway, owns the minutes.
+    <span class="figure-credit">SLPWOW school caseload series — original SVG. Not legal, billing, union, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 Related services are part of a free appropriate public education when the team writes them there. Frequency, location, and duration are not decorations. They are how a parent, a teacher, and a later investigator know what “speech” meant this year.
 
 A missed session is not automatically a denial of FAPE. A pattern of missed sessions, a month of vacancy, a make-up policy that exists only as a rumor — those are how districts end up in compensatory-services conversations (essay 41). *Endrew F.* did not invent make-up rules. It did say the program must be reasonably calculated for appropriate progress, not for “merely more than de minimis.” Minutes that never occur are a hard way to calculate anything.

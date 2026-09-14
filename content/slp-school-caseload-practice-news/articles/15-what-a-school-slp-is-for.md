@@ -34,6 +34,22 @@ This series will not reprint the 2010 PDF. It will keep using its spine.
 
 ## The educational object
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/what-a-school-slp-is-for/what-a-school-slp-is-for-schematic.svg"
+    alt="Educational infographic schematic: What a school SLP is for. School speech-language pathology is an educational service under IDEA, not a mini-clinic in a closet. ASHA’s 2010 roles "
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> School speech-language pathology is an educational service under IDEA, not a mini-clinic in a closet. ASHA’s 2010 roles document still draws the line.
+    <span class="figure-credit">SLPWOW school caseload series — original SVG. Not legal, billing, union, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 IDEA funds special education and related services so a child with a disability receives a free appropriate public education. Speech-language pathology is named as a related service. It can also be the primary disability category (essay 17). In both cases the IEP has to be reasonably calculated for progress appropriate in light of the child’s circumstances (*Endrew F.*, 2017). “Merely more than de minimis” is not the standard. A closet that never talks to the classroom is how you get de minimis with better toys.
 
 Educational relevance is essay 18. The short version: if the only person who cares about the goal is the SLP, the goal is probably in the wrong dialect.

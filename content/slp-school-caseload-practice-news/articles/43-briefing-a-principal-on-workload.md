@@ -33,6 +33,22 @@ This is not a script for a grievance. It is a magazine-section description of a 
 
 ## Page one — the four clusters
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/briefing-a-principal-on-workload/briefing-a-principal-on-workload-schematic.svg"
+    alt="Educational infographic schematic: How to brief a principal on workload. A principal brief is a one-page workload list, not a complaint and not a student story. Here is the packet that matches "
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> A principal brief is a one-page workload list, not a complaint and not a student story. Here is the packet that matches ASHA’s four clusters.
+    <span class="figure-credit">SLPWOW school caseload series — original SVG. Not legal, billing, union, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 **Direct.** How many IEP / 504 / MTSS students you actually serve this month (three doors, essay 19). How many session blocks. The 2024 national mean was 22.6 hours of direct intervention. Your number goes next to it.
 
 **Educational-program support.** Present levels, materials, AAC programming (essay 38), progress reports. National documentation mean: 6.0 hours. Diagnostics: 4.0.

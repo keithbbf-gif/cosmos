@@ -30,6 +30,22 @@ A ten-student gap at the middle of the distribution is the whole plot of this pi
 
 ## What a median is allowed to hide
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/median-50-versus-manageable-40/median-50-versus-manageable-40-schematic.svg"
+    alt="Educational infographic schematic: Median 50 versus manageable 40. ASHA’s 2024 Schools Survey put actual caseload at 50 and manageable at 40. A ten-student gap is not a cap and not a diag"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> ASHA’s 2024 Schools Survey put actual caseload at 50 and manageable at 40. A ten-student gap is not a cap and not a diagnosis.
+    <span class="figure-credit">SLPWOW school caseload series — original SVG. Not legal, billing, union, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 Half the respondents sat at or under 50. Half sat at or over. The range up to 351 is doing real work: someone, somewhere, reported a monthly caseload that looks like a typing error until you remember itinerant coverage, summer evaluations counted in a monthly figure, or a data system that never dismisses. ASHA printed the range. Use it.
 
 Manageable has its own range, down to 0. That is a person saying *nothing about this load is manageable*, or a person whose caseload is not the right object. The survey does not interview them for us.

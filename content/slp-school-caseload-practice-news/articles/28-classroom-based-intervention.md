@@ -31,6 +31,22 @@ Classroom-based intervention, in this pack, means the SLP’s service is designe
 
 ## What has to be true before you walk in
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/classroom-based-intervention/classroom-based-intervention-schematic.svg"
+    alt="Educational infographic schematic: Classroom-based intervention. Classroom-based speech-language service is a model, not a slogan. It needs a unit, a teacher, and minutes that still mat"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Classroom-based speech-language service is a model, not a slogan. It needs a unit, a teacher, and minutes that still match the IEP.
+    <span class="figure-credit">SLPWOW school caseload series — original SVG. Not legal, billing, union, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 **A shared plan.** The teacher knows you are coming, what the unit is asking students to *do with language*, and which students have IEP minutes in this block. FERPA still applies; you do not announce eligibility to the room (essay 33).
 
 **A goal that can be seen here** (essay 23). If the goal can only be scored on a probe in the closet, you are in the wrong room or you have the wrong goal.

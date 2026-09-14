@@ -31,6 +31,22 @@ Specialties that live in hospitals will feel a PE cut. Specialties that live in 
 
 ## The SLP twist
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/nonfacility-pe-helps-slp/nonfacility-pe-helps-slp-schematic.svg"
+    alt="Educational infographic schematic: The 2026 practice-expense shift is built for offices — and SLP is paid that way anyway. CMS is raising non-facility practice-expense weight and cutting facility PE. Speech-language pathology is paid at the"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> CMS is raising non-facility practice-expense weight and cutting facility PE. Speech-language pathology is paid at the non-facility rate by law, so the shift is a small tailwind.
+    <span class="figure-credit">SLPWOW SLP News wave 2 — original SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 Speech-language pathology outpatient services under Part B are paid at the **non-facility** rate regardless of setting. ASHA’s booklet repeats the statutory quirk and then draws the conclusion: the 2026 PE redistribution is, on average, a **positive** for SLP payments under the MPFS. You can treat in a hospital outpatient department and still be priced like an office for this fee schedule.
 
 That does not mean the hospital’s own OPPS bill is an SLP office bill. It means the professional SLP line on the PFS uses the non-facility PE. Do not tell a CFO that “CMS just raised hospital SLP.” Tell them the PFS PE formula moved, and SLP already sat on the side of the formula that got heavier.

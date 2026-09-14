@@ -32,6 +32,22 @@ That is a professional association disagreeing with a surveillance tool without 
 
 ## What ASHA did not deny
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/asha-was-not-on-the-working-group/asha-was-not-on-the-working-group-schematic.svg"
+    alt="Educational infographic schematic: ASHA was not on the CDC milestone working group — and said so. ASHA publicly stated it did not help write the 2022 CDC/AAP milestone revision and remains concerned that some age shift"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> ASHA publicly stated it did not help write the 2022 CDC/AAP milestone revision and remains concerned that some age shifts will slow early-intervention referrals.
+    <span class="figure-credit">SLPWOW SLP News wave 2 — original SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 The checklists are surveillance, not screening, not evaluation. They can sit beside other tools. Families should still act on concern. Hearing belongs to audiology. Communication and swallowing concerns in a 1- to 5-year-old are a reason to find an SLP even when the child does not yet “qualify” for a program. ASHA’s stated goal on that page is children entering kindergarten with the communication they need to learn — a civic sentence, not a test cutoff.
 
 ## What the disagreement is about

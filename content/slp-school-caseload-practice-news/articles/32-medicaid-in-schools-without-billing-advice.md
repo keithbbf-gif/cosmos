@@ -30,6 +30,22 @@ That is a **payment and access** story. It is not a coding class. This essay wil
 
 ## What the guide is doing in the news
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/medicaid-in-schools-without-billing-advice/medicaid-in-schools-without-billing-advice-schematic.svg"
+    alt="Educational infographic schematic: Medicaid in schools without billing advice. CMS’s 2023 school-based Medicaid guide is about access and claiming. It is not a coding sheet and not a reason to add a "
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> CMS’s 2023 school-based Medicaid guide is about access and claiming. It is not a coding sheet and not a reason to add a second set of IEP goals.
+    <span class="figure-credit">SLPWOW school caseload series — original SVG. Not legal, billing, union, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 Medicaid and CHIP cover more than half of U.S. children, the agencies said. Schools are a place those children already are. The guide talks about paying schools for covered services, simplifying interim billing, random-moment time studies, provider enrollment, and *not* paying school-based health contractors on a contingency-fee basis.
 
 It also points at **parental consent** under FERPA and IDEA when records are shared and when public benefits are accessed for IEP services. 34 C.F.R. §300.154 is the IDEA regulation to open; `[VERIFY]` the current text before a live page. Consent to evaluate is not consent to bill. Do not flatten the signatures.

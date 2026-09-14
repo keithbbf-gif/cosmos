@@ -32,6 +32,22 @@ Both instincts can be true in the same statehouse. They are still different tool
 
 ## What a ratio law is
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/state-ratio-laws-versus-asha-workload/state-ratio-laws-versus-asha-workload-schematic.svg"
+    alt="Educational infographic schematic: State ratio laws versus ASHA’s workload stance. Some states print a caseload maximum. ASHA refuses a national number. A ratio bill and a workload analysis are different"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Some states print a caseload maximum. ASHA refuses a national number. A ratio bill and a workload analysis are different tools.
+    <span class="figure-credit">SLPWOW school caseload series — original SVG. Not legal, billing, union, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 Some states publish caseload guidelines or maximums for school SLPs. Some leave the number to the local education agency. ASHA keeps a state caseload chart for members; this pack will not reprint it, because the cells move and a blog that freezes a statute is a liability. Open the chart. Open the state education code. If the bill on your desk is an amendment, open the amendment.
 
 A ratio can be written as students per FTE, as a “weighted” count (AAC or multiple disabilities counting as more than one), or as a “soft” guideline a district may exceed with a waiver. Those three sentences are not interchangeable. A waiver culture is how a printed 55 becomes a practiced 80. A weighted count is how a printed 40 becomes a practiced 28 *or* a practiced 40 that still wrecks the week.

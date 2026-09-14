@@ -31,6 +31,22 @@ This essay will not prescribe minutes. It will name the three objects that have 
 
 ## What the service page is promising
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/minutes-frequency-and-lre/minutes-frequency-and-lre-schematic.svg"
+    alt="Educational infographic schematic: Minutes, frequency, and least restrictive environment. Service minutes are not a vibe and not a national default. LRE, Endrew F., and the leftover calendar all sit on the same"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Service minutes are not a vibe and not a national default. LRE, Endrew F., and the leftover calendar all sit on the same line.
+    <span class="figure-credit">SLPWOW school caseload series — original SVG. Not legal, billing, union, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 Frequency, duration, and location tell a parent what FAPE looks like this year. They tell a make-up policy what to chase (essay 07). They tell a compensatory-services conversation what was missed (essay 41). If the page says 60 minutes a week and the schedule delivers two groups of 20 with six other students, the page is fiction.
 
 Indirect services belong on the page when they are real. ASHA’s 3:1 examples (essay 26) only work if the IEP says that one week in four is observation, collaboration, and planning *for this student*. A parent who never heard of the indirect week did not consent to a surprise.

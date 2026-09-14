@@ -29,6 +29,22 @@ This essay will not diagnose autism. It will not publish a treatment protocol. I
 
 ## Educational object, again
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/autism-on-the-caseload-educational/autism-on-the-caseload-educational-schematic.svg"
+    alt="Educational infographic schematic: Autism on the caseload — educational only. 93.8 percent of 2024 school SLPs regularly served students with autism. That is a service pattern, not a diagnosis you c"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> 93.8 percent of 2024 school SLPs regularly served students with autism. That is a service pattern, not a diagnosis you can make from a blog.
+    <span class="figure-credit">SLPWOW school caseload series — original SVG. Not legal, billing, union, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 The school’s job is the IEP or 504, the curriculum, the peers, the device, the language of the lab (essays 15–18). A medical or clinical identification, if it exists, is data. It is not the program. *Endrew F.* is about the program.
 
 Social-communication goals that only live in a social-skills closet have the same problem as /r/ goals that only live in a portable: the building never sees them (essay 23). Classroom-based and consult models (essays 25, 28, 34) are often the honest ones. Pull-out can still be right for a slice.

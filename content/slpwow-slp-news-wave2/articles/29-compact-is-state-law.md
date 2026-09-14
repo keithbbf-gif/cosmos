@@ -31,6 +31,22 @@ Under the compact’s own explanation, a clinician who is licensed in good stand
 
 ## Why the distinction matters
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/compact-is-state-law/compact-is-state-law-schematic.svg"
+    alt="Educational infographic schematic: The ASLP-IC is state law plus a commission — not an ASHA membership perk. The Audiology and Speech-Language Pathology Interstate Compact is an agreement among states. ASHA advocated for it. The "
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> The Audiology and Speech-Language Pathology Interstate Compact is an agreement among states. ASHA advocated for it. The Commission runs it.
+    <span class="figure-credit">SLPWOW SLP News wave 2 — original SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 People say “I got the compact through ASHA.” They mean they heard about it in an ASHA webinar. The application is CompactConnect. The fee sheet is a Commission PDF. The FBI-background-check gate is in the model legislation and the FAQ. Your CCC is a private credential. Your home-state license is the compact’s on-ramp.
 
 If ASHA disappeared tomorrow, the enacted statutes would still be there until legislatures repealed them. If the Commission stalled, ASHA could still write letters. Keep the letterhead straight.

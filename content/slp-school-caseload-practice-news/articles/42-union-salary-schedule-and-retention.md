@@ -28,6 +28,22 @@ This essay will not tell you to join, resign, strike, or cross a line. It will t
 
 ## Why a separate schedule shows up
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/union-salary-schedule-and-retention/union-salary-schedule-and-retention-schematic.svg"
+    alt="Educational infographic schematic: Unions, salary schedules, and retention asks. Half of 2024 school SLPs put a separate salary schedule in their top two retention ideas. Sixty-three percent had a unio"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Half of 2024 school SLPs put a separate salary schedule in their top two retention ideas. Sixty-three percent had a union available. This is a survey, not a vote.
+    <span class="figure-credit">SLPWOW school caseload series — original SVG. Not legal, billing, union, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 School SLPs are often paid on the teacher scale even when the calendar, the credential, the Medicaid log, and the liability do not match the teacher next door. Clinics and medical settings post different numbers — the salary PDF in the same ASHA wave is the desk for that comparison; this pack is not reprinting wages that go stale.
 
 A separate schedule is one retention idea. It is not ASHA policy in the 2002 workload sense. It is not a promise it will cut caseload. People can want to be paid as the market and still need a workload analysis (essay 02).

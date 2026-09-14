@@ -31,6 +31,22 @@ Phase 1 (*PLOS One*, 2016) worked on identification. Phase 2 (Bishop and colleag
 
 ## The names that stuck
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/catalise-named-dld/catalise-named-dld-schematic.svg"
+    alt="Educational infographic schematic: CATALISE named developmental language disorder — and dropped the IQ gap. The CATALISE Delphi studies replaced a tangle of labels with language disorder and DLD, and they dropped the verbal–nonv"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> The CATALISE Delphi studies replaced a tangle of labels with language disorder and DLD, and they dropped the verbal–nonverbal mismatch rule.
+    <span class="figure-credit">SLPWOW SLP News wave 2 — original SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 **Language disorder** is the profile that impairs everyday life and carries a poor prognosis. **Developmental language disorder (DLD)** is that profile when it is **not** tied to a known biomedical condition. Risk factors — neurobiological or environmental — do **not** block the DLD label. DLD **may** sit next to other neurodevelopmental diagnoses, ADHD included. DLD does **not** require a gap between verbal and nonverbal ability.
 
 That last sentence is the one that still has not reached every eligibility meeting. A child can have DLD and a nonverbal score that is not conveniently higher. The old SLI clubhouse is not the consensus.

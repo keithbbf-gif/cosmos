@@ -32,6 +32,22 @@ This is not a plea for prettier writing. It is a plea for a document that does e
 
 ## What a usable present level contains
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/present-levels-a-teacher-can-use/present-levels-a-teacher-can-use-schematic.svg"
+    alt="Educational infographic schematic: Present levels a teacher can use. Present levels have to describe the student in the curriculum, not only in the speech room. A teacher who cannot use the"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Present levels have to describe the student in the curriculum, not only in the speech room. A teacher who cannot use the paragraph cannot implement the IEP.
+    <span class="figure-credit">SLPWOW school caseload series — original SVG. Not legal, billing, union, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 **The school scene.** What happens in the classroom, in small group, in the hallway, on a presentation day. Not a novel. Three concrete observations a teacher recognizes. No name in this essay; on the real IEP, the name is the student’s and the record is FERPA-protected (essay 33).
 
 **The academic hook.** Which parts of the grade-level curriculum are blocked by communication: word problems, lab directions, the language of compare-and-contrast, the demand to explain a claim. Literacy (essay 37) lives here when it is true. It does not live here as a slogan.

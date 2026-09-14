@@ -29,6 +29,22 @@ Dismissal from special education, dismissal from a related service while another
 
 ## Reevaluation is the adult in the room
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/reevaluation-and-dismissal/reevaluation-and-dismissal-schematic.svg"
+    alt="Educational infographic schematic: Reevaluation and dismissal. Ten percent of 2024 school SLPs named dismissal difficulty as their top caseload barrier. Dismissal is a team finding, n"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Ten percent of 2024 school SLPs named dismissal difficulty as their top caseload barrier. Dismissal is a team finding, not a mood.
+    <span class="figure-credit">SLPWOW school caseload series — original SVG. Not legal, billing, union, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 IDEA expects reevaluation at least every three years unless the parent and district agree it is unnecessary, and sooner if the child’s needs change or if a teacher or parent requests it. The point is to ask whether the student still has a disability, still needs special education and related services, and whether the program should change.
 
 A team that never reevaluates will grow a museum. A team that reevaluates only to “cut caseload” will grow a hearing. ASHA’s school eligibility and dismissal pages ask the educational-need question again: is there still an adverse effect the program must address? Not: is the SLP tired? Tired is essay 09. Need is this page.

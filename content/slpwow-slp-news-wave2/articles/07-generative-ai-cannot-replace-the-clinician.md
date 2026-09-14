@@ -33,6 +33,22 @@ That is the news. Not a product launch. A refusal.
 
 ## What the pages actually require
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/generative-ai-cannot-replace-the-clinician/generative-ai-cannot-replace-the-clinician-schematic.svg"
+    alt="Educational infographic schematic: ASHA’s generative-AI pages say the model is not the clinician. ASHA’s public AI guidance ties generative tools to the 2023 Code of Ethics. Review output, protect PHI, and do not treat"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> ASHA’s public AI guidance ties generative tools to the 2023 Code of Ethics. Review output, protect PHI, and do not treat a scribe as a signer.
+    <span class="figure-credit">SLPWOW SLP News wave 2 — original SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 The hub page is cautious about law. It notes limited legislative and regulatory oversight, flags that some states have started to write their own rules, and points readers at federal AI documents from 2025 and 2026 without pretending those documents are a scope of practice. Efficacy claims, ASHA says, need evidence. A chatbot that “writes IEPs” is a marketing sentence until someone shows outcomes.
 
 The ethics-considerations page gets more concrete. Principle III, Rule E is the accuracy duty: clients, patients, and students get accurate information about services. If a tool drafts a treatment note or a family handout, the clinician still owns the words. ASHA’s paraphrase of good practice is unglamorous: know the tool, read the terms and the privacy policy, keep protected health information out of the prompt, then edit. Add the data the model cannot know. Delete the confident error.

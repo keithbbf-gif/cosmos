@@ -30,6 +30,22 @@ That is the object. It is not a census of every person who ever billed a school 
 
 ## Who answered
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/what-the-2024-asha-schools-survey-measured/what-the-2024-asha-schools-survey-measured-schematic.svg"
+    alt="Educational infographic schematic: What the 2024 ASHA Schools Survey actually measured. ASHA fielded the 2024 Schools Survey to 15,000 SLPs. Here is the sample, the n, and what a member survey is not."
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> ASHA fielded the 2024 Schools Survey to 15,000 SLPs. Here is the sample, the n, and what a member survey is not.
+    <span class="figure-credit">SLPWOW school caseload series — original SVG. Not legal, billing, union, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 The SLP sample was stratified by state. Small states were oversampled. Weighting put the results back in line with ASHA’s membership database so Wyoming does not vanish and California does not swallow the median.
 
 After deaths, retirements, bad addresses, and opt-outs, 14,610 SLPs were eligible. 3,749 responded. Combined response rate: **25.7 percent** (postal 29.9 percent; electronic 21.4 percent). The caseload report’s big n for full-time clinical providers with an actual caseload is **2,815**. Manageable-caseload n is **2,776**. Weekly-activity n is **2,347**. State tables only print a cell when at least **25** people in that state answered that item. Blank is not zero.

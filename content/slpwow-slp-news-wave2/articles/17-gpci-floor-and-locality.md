@@ -31,6 +31,22 @@ This desk will not invent a list of losing localities. That list belongs in the 
 
 ## What a floor was doing
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/gpci-floor-and-locality/gpci-floor-and-locality-schematic.svg"
+    alt="Educational infographic schematic: The GPCI floor is a locality story hiding inside a national raise. ASHA warns that eliminating the geographic practice cost index floor will cut some localities even as national conversio"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> ASHA warns that eliminating the geographic practice cost index floor will cut some localities even as national conversion factors rise. Check your MAC file.
+    <span class="figure-credit">SLPWOW SLP News wave 2 — original SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 A GPCI adjusts work, practice expense, and malpractice RVUs for local cost. A statutory floor kept some indices from falling as far as the raw data wanted. Remove the floor and a low-cost (on paper) locality sees a smaller multiplier. The conversion factor can rise in Baltimore and still fall in the county that lost its floor.
 
 ASHA’s political ask — write Congress — is about this class of quiet cut, plus sequestration, plus the efficiency adjustment. You can decline the politics and still owe your board a locality printout.

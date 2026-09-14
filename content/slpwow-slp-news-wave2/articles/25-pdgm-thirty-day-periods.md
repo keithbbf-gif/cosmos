@@ -32,6 +32,22 @@ What changed is the incentive to stack visits for the payment group. The 2026 ho
 
 ## Why SLPs still get cut from the calendar
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/pdgm-thirty-day-periods/pdgm-thirty-day-periods-schematic.svg"
+    alt="Educational infographic schematic: Home health PDGM still pays a 30-day period, not a therapy stack. PDGM removed therapy-threshold payment in home health. CY 2026 updates rates and LUPA math. Speech visits still count as"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> PDGM removed therapy-threshold payment in home health. CY 2026 updates rates and LUPA math. Speech visits still count as care, not as a volume bonus.
+    <span class="figure-credit">SLPWOW SLP News wave 2 — original SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 Agencies that learned to live without therapy-threshold bonuses sometimes learned the wrong lesson: speech is optional. The regulation CMS keeps citing is 42 CFR 409.42. Coverage is about the person, the homebound rules, and the plan, not about whether SLP “pays extra.” If a patient cannot manage a safe swallow or a way to call for help, that is a clinical grouping and comorbidity problem, not a luxury visit.
 
 OASIS accuracy is the PDGM cousin of the SNF MDS problem. Functional items and comorbidities that never mention communication or swallowing will not summon a speech visit, and they will not price the period as if the problem existed.

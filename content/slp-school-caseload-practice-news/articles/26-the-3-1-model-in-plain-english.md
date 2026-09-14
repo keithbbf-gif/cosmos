@@ -31,6 +31,22 @@ The ASHA Leader’s 2019 school-based piece called it one of many workload solut
 
 ## Why people reach for it
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/the-3-1-model-in-plain-english/the-3-1-model-in-plain-english-schematic.svg"
+    alt="Educational infographic schematic: The 3:1 model in plain English. Three weeks of direct service and one flexible week is one optional workload model. ASHA does not require it. The IEP ha"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Three weeks of direct service and one flexible week is one optional workload model. ASHA does not require it. The IEP has to say it.
+    <span class="figure-credit">SLPWOW school caseload series — original SVG. Not legal, billing, union, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 IEP meetings cancel the only therapy block. Documentation sits at six hours (essay 06) and still loses to the next group. Consultation sits at 2.5 hours and feels like theft. Make-up rules chase minutes that meetings already ate (essay 07). Present levels have no classroom source (essay 22).
 
 3:1 tries to stop pretending those hours are hobbies. It puts them on a calendar a principal can see.

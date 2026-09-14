@@ -30,6 +30,22 @@ Read them as weather, next to the challenge ranking (paperwork first, caseload/w
 
 ## What the items can bear
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/burnout-numbers-without-the-panic/burnout-numbers-without-the-panic-schematic.svg"
+    alt="Educational infographic schematic: Burnout numbers without the panic. ASHA’s 2024 workforce report found 34 percent of school SLPs considering a setting change and 27 percent considering lea"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> ASHA’s 2024 workforce report found 34 percent of school SLPs considering a setting change and 27 percent considering leaving. Read the items, not the panic.
+    <span class="figure-credit">SLPWOW school caseload series — original SVG. Not legal, billing, union, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 They can bear a conversation about **retention**. The same report asked for suggestions. Fifty percent included placing SLPs on a separate salary schedule from teachers as one of their top two ideas. That is a survey answer, not this magazine’s endorsement, and not a union instruction. Essay 42.
 
 They can bear a conversation about **workload**, because ASHA’s portal already cites occupational stress and burnout literature next to large caseloads (Marante and colleagues, 2023 — `[VERIFY]` the full cite before a live page). The 2024 hour list — 22.6 direct, 6.0 documentation, 4.0 diagnostics — is a week that does not include the drive between buildings.

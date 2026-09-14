@@ -31,6 +31,22 @@ That is a calendar change. It is not a new Medicare benefit. It is not a compact
 
 ## What the agenda is for
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/the-ppa-is-now-biennial/the-ppa-is-now-biennial-schematic.svg"
+    alt="Educational infographic schematic: ASHA’s Public Policy Agenda is now a two-year document. In 2025 ASHA’s Government Affairs board aligned the Public Policy Agenda with the congressional calendar. That is a proc"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> In 2025 ASHA’s Government Affairs board aligned the Public Policy Agenda with the congressional calendar. That is a process change, not a new statute.
+    <span class="figure-credit">SLPWOW SLP News wave 2 — original SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 ASHA describes the Public Policy Agenda as the list of what members said matters most, and as a framework for staff to write actual objectives. The published 2025–2026 text is short on statutory citations and long on verbs: protect payment, expand and permanently cover telehealth, keep the full professional scope in the room, and operationalize the interstate compact.
 
 Those verbs are instructions to lobbyists and to members who send messages to Congress. They are not instructions to a MAC. CMS still publishes the Physician Fee Schedule. State boards still publish compact onboarding dates. A school district still writes its own Medicaid claiming manual.

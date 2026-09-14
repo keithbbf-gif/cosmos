@@ -31,6 +31,22 @@ The point, CDC still says on its Act Early “about” page, was to stop “wait
 
 ## What else changed besides the percentile
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/cdc-75-percent-milestones/cdc-75-percent-milestones-schematic.svg"
+    alt="Educational infographic schematic: CDC moved milestones to the 75-percent line on purpose. The 2022 Learn the Signs. Act Early. revision placed checklist items at ages when at least 75 percent of children show t"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> The 2022 Learn the Signs. Act Early. revision placed checklist items at ages when at least 75 percent of children show the skill. It is surveillance, not a diagnosis.
+    <span class="figure-credit">SLPWOW SLP News wave 2 — original SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 The revision added 15- and 30-month checklists so the ages match AAP health-supervision visits. It dropped duplicate items that had repeated across ages. It tried to show a progression instead of a pile. The methods paper quantified the churn: about 26 percent of old milestones removed, about 41 percent replaced, a third of the keepers moved in age, and most of those movers went **older**. Social-emotional and cognitive items had the thinnest normative data. That last sentence is how you talk to a pediatrician who thinks the list is a normed test. It is not.
 
 LTSAE is surveillance and family education. Screening is a different act, with a different instrument, at recommended ages. Evaluation is a third act. Wave 1 of this series already drew that card. Wave 2 is here because the 75-percent rule keeps getting retold as “CDC says talking later is fine.”

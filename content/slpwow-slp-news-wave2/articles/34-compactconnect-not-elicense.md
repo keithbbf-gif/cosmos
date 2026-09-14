@@ -32,6 +32,22 @@ That is the entire product story. There is no ASHA member-login shortcut. There 
 
 ## Why states built a second door
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/compactconnect-not-elicense/compactconnect-not-elicense-schematic.svg"
+    alt="Educational infographic schematic: CompactConnect is the application. Your state portal is not.. ASLP-IC privileges are requested at app.compactconnect.org. Ohio’s board had to tell licensees that eLicense will not pr"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> ASLP-IC privileges are requested at app.compactconnect.org. Ohio’s board had to tell licensees that eLicense will not process the compact.
+    <span class="figure-credit">SLPWOW SLP News wave 2 — original SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 A compact has to move licensure status, disciplinary flags, and privilege records among members without handing FBI rap sheets to the Commission. The model legislation forbids sharing FBI criminal-record information through the compact communications channel. A shared system that is *not* your state’s old license app is how they tried to do that. Onboarding a state means loading its licensees into that system and flipping the issuing switch. Until the switch flips, the door is a 404 for that board.
 
 ## What to do on day one

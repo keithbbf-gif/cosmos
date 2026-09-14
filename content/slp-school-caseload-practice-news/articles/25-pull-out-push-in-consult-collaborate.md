@@ -33,6 +33,22 @@ The caseload portal’s warning still stands: large caseloads shrink the menu. P
 
 ## What each tool is good at
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/pull-out-push-in-consult-collaborate/pull-out-push-in-consult-collaborate-schematic.svg"
+    alt="Educational infographic schematic: Pull-out, push-in, consult, collaborate. Four school SLP service models are tools, not religions. ASHA will not crown one. Caseload size often does the crowning "
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Four school SLP service models are tools, not religions. ASHA will not crown one. Caseload size often does the crowning anyway.
+    <span class="figure-credit">SLPWOW school caseload series — original SVG. Not legal, billing, union, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 Pull-out is good for a skill that needs a quieter stage, a new AAC map, a fluency or voice session that the classroom would drown, an evaluation. It is bad as the only adult conversation the student gets about language. It is also a removal. Write it that way.
 
 Push-in is good when the goal lives in the classroom language (essay 23) and the teacher wants another adult who knows the unit. It is bad when the SLP becomes an extra pair of hands for center management and the specialized minutes evaporate. It is not automatically “more inclusive” if the student is singled out on the carpet.

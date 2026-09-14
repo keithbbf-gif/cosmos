@@ -31,6 +31,22 @@ The Bipartisan Budget Act of 2018 is why this is a threshold and not the old har
 
 ## Combined means combined
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/kx-is-2480-combined/kx-is-2480-combined-schematic.svg"
+    alt="Educational infographic schematic: The 2026 KX threshold is $2,480 — and PT still shares it with SLP. CMS set the CY 2026 KX modifier threshold at $2,480 for PT and SLP combined and $2,480 for OT. It is a documentation fla"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> CMS set the CY 2026 KX modifier threshold at $2,480 for PT and SLP combined and $2,480 for OT. It is a documentation flag, not a hard cap.
+    <span class="figure-credit">SLPWOW SLP News wave 2 — original SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 The sentence clinics still get wrong is the pairing. PT and SLP share one bucket. OT has its own. A busy rehab gym can spend the shared $2,480 on physical therapy before the SLP has billed a dime. The KX then belongs on later PT *and* SLP claims in that year, not because the SLP was extravagant, but because the statute glued the two professions together in 2018 and never unglued them.
 
 Do not tell a family that “speech therapy stops at $2,480.” Tell them that Medicare wants an extra flag and a better note after that much PT-plus-SLP spending. Targeted medical review can still land on claims far above the threshold. ASHA’s 2026 booklet reminds readers that manual review survived into 2026. The threshold is the doorbell. Review is the conversation.

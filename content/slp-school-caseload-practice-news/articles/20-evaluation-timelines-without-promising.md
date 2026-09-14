@@ -31,6 +31,22 @@ The clock is a **process** right. Eligibility is a **team** finding after the ev
 
 ## What sits on the SLP’s portion of the clock
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/evaluation-timelines-without-promising/evaluation-timelines-without-promising-schematic.svg"
+    alt="Educational infographic schematic: Evaluation timelines without promising eligibility. IDEA sets evaluation clocks as federal floors. States may be tighter. A clock is not a yes. A blog will not evaluate a s"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> IDEA sets evaluation clocks as federal floors. States may be tighter. A clock is not a yes. A blog will not evaluate a student.
+    <span class="figure-credit">SLPWOW school caseload series — original SVG. Not legal, billing, union, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 Observation, classroom language sampling, standardized tests when they are valid for this student, dynamic assessment, hearing and vision status as already documented or still needed, teacher input, family input, an interpreter if the assessment is not in the language that will tell the truth (essay 36). The 2024 activity list put diagnostics at a mean of **4.0 hours** a week. That is a national smear of a job that arrives in clumps: September, January, the month before kindergarten round-up.
 
 A caseload integer that ignores the evaluation queue will look fine on October 1 and explode on October 20. Workload analysis (essay 02) is how you put the queue on the page before you accept another building.

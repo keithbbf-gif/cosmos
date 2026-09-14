@@ -33,6 +33,22 @@ The idea that surprises people is older than the guide. Medicaid can pay for med
 
 ## What the 2023 packet added
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/school-medicaid-2023-guide/school-medicaid-2023-guide-schematic.svg"
+    alt="Educational infographic schematic: School Medicaid is not IDEA — CMS’s 2023 guide is the federal floor. The May 2023 CMS school-based services guide and CIB explain how Medicaid can pay for speech in schools. An IEP is not a"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> The May 2023 CMS school-based services guide and CIB explain how Medicaid can pay for speech in schools. An IEP is not automatically a claim.
+    <span class="figure-credit">SLPWOW SLP News wave 2 — original SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 The bulletin advertised claiming flexibilities: roster-style interim payments reconciled to cost, optional per-child-per-month interim rates, and a friendlier posture toward random-moment time studies so a district does not have to diary every minute. The guide walks PT, OT, and speech/audiology through 440.110 — physician or other licensed-practitioner orders where required, “by or under the direction of” a qualified therapist, qualifications that often orbit the CCC or an equivalent.
 
 ASHA’s school Medicaid toolkit is the profession’s translation: free-care limits on mass screenings, EPSDT as the usual benefit theory for evaluation and treatment, NPI-versus-LEA billing as a state-plan choice, parental consent under IDEA/FERPA when you bill.

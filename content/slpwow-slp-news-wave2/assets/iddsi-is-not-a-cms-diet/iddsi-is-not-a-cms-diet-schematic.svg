@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 420" role="img" aria-labelledby="title desc">
+  <title id="title">IDDSI is a texture framework — not a Medicare meal ticket</title>
+  <desc id="desc">The International Dysphagia Diet Standardisation Initiative is a shared language for textures. CMS does not pay a claim because a tray is labeled Level 4.</desc>
+  <defs><style>
+
+.bg { fill: #FAF9F7; }
+.title { font-family: Georgia, serif; font-size: 16px; font-weight: 600; fill: #1E293B; }
+.dek { font-family: system-ui, sans-serif; font-size: 11px; fill: #64748B; }
+.label { font-family: system-ui, sans-serif; font-size: 11px; fill: #64748B; }
+.strong { font-family: system-ui, sans-serif; font-size: 12px; font-weight: 600; fill: #1E293B; }
+.card { fill: #FFFFFF; stroke: #CBD5E1; stroke-width: 1; }
+.band { fill: #FFE4E6; }
+.accent { fill: #BE123C; }
+.bullet { font-family: system-ui, sans-serif; font-size: 11px; fill: #1E293B; }
+.note { font-family: system-ui, sans-serif; font-size: 10px; fill: #64748B; }
+.spine { stroke: #BE123C; stroke-width: 2; fill: none; }
+.node { fill: #BE123C; }
+
+  </style></defs>
+  <rect class="bg" width="880" height="420"/>
+  <text x="40" y="36" class="title">IDDSI is a texture framework — not a Medicare meal ticket</text>
+  <text x="40" y="56" class="dek">The International Dysphagia Diet Standardisation Initiative is a shared language for textures. CMS does not pay a claim …</text>
+  <rect class="card" x="40" y="76" width="800" height="300" rx="8"/>
+  <rect class="band" x="56" y="92" width="768" height="36" rx="4"/>
+  <rect class="accent" x="56" y="92" width="6" height="36" rx="2"/>
+  <text x="72" y="116" class="strong">Research</text>
+  <rect class="band" x="56" y="140" width="370" height="200" rx="6"/>
+  <rect class="band" x="454" y="140" width="370" height="200" rx="6"/>
+  <text x="72" y="164" class="strong">Column A</text>
+  <text x="470" y="164" class="strong">Column B</text>
+  <text x="72" y="188" class="bullet">• The International Dysphagia Diet Standardisation Initiative is a shared language for tex…</text>
+  <text x="72" y="210" class="bullet">• Verify against the primary source before you share.</text>
+  <text x="470" y="188" class="bullet">• Verify against the primary source before you share.</text>
+  <text x="470" y="210" class="bullet">• Verify against the primary source before you share.</text>
+  <text x="40" y="396" class="note">SLPWOW SLP News wave 2 — original editorial SVG. No photographs or AI faces.</text>
+</svg>

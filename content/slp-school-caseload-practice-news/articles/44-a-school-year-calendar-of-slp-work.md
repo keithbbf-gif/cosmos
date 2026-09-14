@@ -30,6 +30,22 @@ This last piece is a map of the series and a map of a year. It is not your distr
 
 ## Late summer
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/a-school-year-calendar-of-slp-work/a-school-year-calendar-of-slp-work-schematic.svg"
+    alt="Educational infographic schematic: A school-year calendar of SLP work. The year is not a session list. Evaluations, IEPs, AAC, and the 2024 survey’s hour piles sit on a calendar. This map clo"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> The year is not a session list. Evaluations, IEPs, AAC, and the 2024 survey’s hour piles sit on a calendar. This map closes the series.
+    <span class="figure-credit">SLPWOW school caseload series — original SVG. Not legal, billing, union, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 IEP service pages that do not match the master schedule (essay 24). Device backups (essay 38). A roles one-pager for teachers who think you do baby talk (essays 15, 34). A privacy reminder that student text does not go into a public model (essays 33, 40). The three doors — MTSS, 504, IEP — written on a slide without a child (essay 19).
 
 ## September–October

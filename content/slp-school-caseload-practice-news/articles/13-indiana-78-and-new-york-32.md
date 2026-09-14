@@ -27,6 +27,22 @@ A feed that says “Indiana fails children” or “New York has it solved” ha
 
 ## What the table will let you say
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/indiana-78-and-new-york-32/indiana-78-and-new-york-32-schematic.svg"
+    alt="Educational infographic schematic: Indiana 78 and New York 32. ASHA’s 2024 state table ran from Indiana’s median caseload of 78 to New York’s 32. Medians are not morals. Here is how t"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> ASHA’s 2024 state table ran from Indiana’s median caseload of 78 to New York’s 32. Medians are not morals. Here is how to read the edges.
+    <span class="figure-credit">SLPWOW school caseload series — original SVG. Not legal, billing, union, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 You may say the reportable range of *state medians* ran from 32 to 78. You may say Indiana’s respondents described the largest drop from actual to manageable (28). You may say New York and Arkansas described the smallest drops (2 and 1). You may say Connecticut and New York tied for the smallest manageable median (30), and that seven states put manageable at 50.
 
 You may say Texas sat at 65 actual / 50 manageable, Tennessee at 63 / 50, Florida and Kentucky at 60 / 50, Louisiana at 60 / 43. You may say Massachusetts and Arkansas sat at 40 actual. You may say Illinois sat at 45 / 40, Wisconsin at 42 / 35, New Jersey at 45 / 35.

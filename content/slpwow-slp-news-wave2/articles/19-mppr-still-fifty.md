@@ -31,6 +31,22 @@ ASHA’s fee-schedule booklet keeps MPPR on the 2026 policy list. It did not die
 
 ## What “always therapy” means in a speech clinic
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/mppr-still-fifty/mppr-still-fifty-schematic.svg"
+    alt="Educational infographic schematic: MPPR is still half the practice expense on the second code. CMS continues the 50 percent multiple procedure payment reduction on the practice-expense portion of always-therapy serv"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> CMS continues the 50 percent multiple procedure payment reduction on the practice-expense portion of always-therapy services furnished the same day.
+    <span class="figure-credit">SLPWOW SLP News wave 2 — original SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 If you bill two always-therapy SLP procedures on one date — an evaluation and a treatment, or two procedures CMS has stacked — do not expect two full PE slices. Work and malpractice RVUs are not what this reduction is about. The PE slice is. Software that shows “the fee” without applying MPPR is lying about the remittance.
 
 The rule is per patient per day, not per clinician ego. Two SLPs in the same group who both bill always-therapy codes to the same beneficiary on Tuesday are in the same stack.

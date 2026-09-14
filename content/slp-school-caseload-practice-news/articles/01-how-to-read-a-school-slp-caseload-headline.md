@@ -33,6 +33,22 @@ This series is the longer desk. The short news cards live in `content/slpwow-slp
 
 ## The word that does too much work
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/how-to-read-a-school-slp-caseload-headline/how-to-read-a-school-slp-caseload-headline-schematic.svg"
+    alt="Educational infographic schematic: How to read a school SLP caseload headline. Ratio bills, vacancies, and missed minutes share the word caseload. They are three different stories. Here is how to rea"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Ratio bills, vacancies, and missed minutes share the word caseload. They are three different stories. Here is how to read the headline.
+    <span class="figure-credit">SLPWOW school caseload series — original SVG. Not legal, billing, union, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 ASHA’s Practice Portal is blunt. **Caseload** is the number of students with IEPs, IFSPs, and 504 plans an SLP serves — sometimes counted as sessions in a window — and, in some districts, the students sitting in MTSS who never got a disability label. **Workload** is every hour the job requires: face-to-face time plus the rest of the week that makes those minutes legal and educational.
 
 A headline that prints “caseloads hit 70” has not told you whether 70 is a headcount, a weekly session count, a building average, or a Facebook number. It has not told you how many of those students need an AAC system programmed, how many evaluations are open, or whether the SLP is also the only person covering three elementary schools.

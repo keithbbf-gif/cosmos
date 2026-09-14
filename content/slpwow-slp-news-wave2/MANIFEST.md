@@ -8,7 +8,7 @@
 | Stage | `draft` (staged; not a live CMS write) |
 | Article count | 46 |
 | Desks | literacy 1 · ASHA 11 · CMS 16 · compact 10 · research 8 |
-| Graphics | None in this pack (wave 1 holds SVG news cards) |
+| Graphics | Original SVG infographics + schema.org figure embeds (`assets/`, `embeds/`, `scripts/generate_graphics.py`) |
 | QA | `python3 content/slpwow-slp-news-wave2/check_pack.py` |
 | Pack date | 14 September 2026 |
 

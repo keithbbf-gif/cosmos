@@ -29,6 +29,22 @@ High workload / caseload size is second in most facility types. Meetings are thi
 
 ## Six hours that are not “notes”
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/why-paperwork-ranks-first/why-paperwork-ranks-first-schematic.svg"
+    alt="Educational infographic schematic: Why paperwork ranked first. In ASHA’s 2024 workforce report, paperwork outranked caseload in every facility type. Here is what those hours are doing"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> In ASHA’s 2024 workforce report, paperwork outranked caseload in every facility type. Here is what those hours are doing.
+    <span class="figure-credit">SLPWOW school caseload series — original SVG. Not legal, billing, union, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 The caseload report’s activity list (n = 2,347 full-time clinical providers with at least one student, hours capped at 55) put documentation at a **mean of 6.0 hours** in a typical week. Direct intervention took 22.6. Diagnostics 4.0. Consultation 2.5. Supervision 1.1. Tech checks 0.7. Other duties 2.4. Mean total 39.3.
 
 Six hours is not a confession of slowness. It is IEP present levels, progress reports, Medicaid logs if the district bills, prior written notice, evaluation write-ups, emails that became the record, and the portal that timed out. ASHA’s Documentation in Schools portal is the professional-issues page for that pile. This essay will not tell you which checkbox to tick.

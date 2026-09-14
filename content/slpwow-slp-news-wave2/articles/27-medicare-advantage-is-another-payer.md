@@ -31,6 +31,22 @@ This brief will not audit every 2026 Advantage policy. Those PDFs churn by issue
 
 ## Prior authorization is the usual scar
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/medicare-advantage-is-another-payer/medicare-advantage-is-another-payer-schematic.svg"
+    alt="Educational infographic schematic: Medicare Advantage is another payer wearing a familiar name. Part C plans may use prior authorization and their own rates. Do not treat the Physician Fee Schedule or the KX threshol"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Part C plans may use prior authorization and their own rates. Do not treat the Physician Fee Schedule or the KX threshold as the Advantage contract.
+    <span class="figure-credit">SLPWOW SLP News wave 2 — original SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 Part B therapy does not generally wait on a PA to start medically necessary outpatient speech. Many Advantage plans do. They may also limit visits, demand a specific form, or treat telehealth as a different benefit. CMS has, in other rulemakings, tried to discipline Advantage prior-authorization delays. That federal fuss does not let you skip the plan’s portal this morning.
 
 If a family says “I have Medicare,” ask which card. A red, white, and blue card and an Advantage card are different operational universes.

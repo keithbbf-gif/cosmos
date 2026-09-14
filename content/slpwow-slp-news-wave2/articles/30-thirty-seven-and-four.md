@@ -31,6 +31,22 @@ If a recruiter says “the SLP compact is in 37 states, so you can start Monday,
 
 ## Enacted, onboarded, issuing
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/thirty-seven-and-four/thirty-seven-and-four-schematic.svg"
+    alt="Educational infographic schematic: Thirty-seven jurisdictions enacted the compact. Four were issuing.. As of September 2026 the ASLP-IC Compact Map showed 37 enacted jurisdictions and four issuing privileges. Enacted is not"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> As of September 2026 the ASLP-IC Compact Map showed 37 enacted jurisdictions and four issuing privileges. Enacted is not operational.
+    <span class="figure-credit">SLPWOW SLP News wave 2 — original SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 A legislature can pass the model bill and still be months from CompactConnect, from FBI-check implementation, from a board rule. The Commission’s own “what’s next” line is that additional member states must onboard licensees to CompactConnect and meet compact requirements before they issue. Ohio’s board, for example, told its licensees that as of February 2026 they could seek privileges only in the states that were already live.
 
 The map will move. This brief’s numbers are a **14 September 2026** stamp. If you are reading it in a later season, open the map. Do not open this paragraph.

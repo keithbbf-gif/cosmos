@@ -29,6 +29,22 @@ The 2025–2026 Public Policy Agenda is a stack of verbs. Expand and permanently
 
 ## Payment is a conversion factor and a threshold
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/payment-coverage-access-workforce/payment-coverage-access-workforce-schematic.svg"
+    alt="Educational infographic schematic: Payment, coverage, access, workforce — four PPA verbs that are not one story. ASHA’s 2025–2026 agenda stacks payment, telehealth, scope, and compact access. Each verb points to a different public do"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> ASHA’s 2025–2026 agenda stacks payment, telehealth, scope, and compact access. Each verb points to a different public document.
+    <span class="figure-credit">SLPWOW SLP News wave 2 — original SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 Medicare outpatient speech-language pathology rides the Physician Fee Schedule. Calendar year 2026 introduced two conversion factors and left the KX modifier threshold at $2,480 for physical therapy and speech-language pathology combined. Those numbers live on CMS pages and in ASHA’s November 2025 fee-schedule analysis. The PPA does not print them. It says ASHA will keep working with Medicare, Medicaid, Tricare, and private plans, and will keep writing tools so members can survive the case-level mess.
 
 If your clinic’s problem is a 2026 locality rate or an efficiency adjustment on a diagnostic code, the agenda is the wrong PDF. Open the CMS fact sheet and the ASHA booklet. Then write Congress if you want the statutory update changed. That last step is advocacy. It is not billing.

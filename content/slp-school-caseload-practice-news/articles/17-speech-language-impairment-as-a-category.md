@@ -31,6 +31,22 @@ This essay will not tell you a child is eligible. It will not reprint your state
 
 ## Adverse effect is the school word
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/speech-language-impairment-as-a-category/speech-language-impairment-as-a-category-schematic.svg"
+    alt="Educational infographic schematic: Speech-language impairment as an eligibility category. SLI is a federal IDEA category, not a clinic stamp and not a promise. States write the operational definition. A blog do"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> SLI is a federal IDEA category, not a clinic stamp and not a promise. States write the operational definition. A blog does not.
+    <span class="figure-credit">SLPWOW school caseload series — original SVG. Not legal, billing, union, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 A lisp that does not affect educational performance is not, on the federal sentence, SLI. A language disability that wrecks reading comprehension and classroom talk may be — if the rest of the state’s criteria and the team’s evaluation say so.
 
 “Educational performance” is broader than a reading percentile. States and courts have argued about grades, state tests, social communication, and vocational performance. ASHA’s eligibility-and-dismissal materials for schools walk clinicians through that argument. They do not let a blog finish it.

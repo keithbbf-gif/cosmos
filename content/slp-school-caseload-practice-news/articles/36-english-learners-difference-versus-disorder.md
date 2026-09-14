@@ -29,6 +29,22 @@ ASHA’s public bilingualism page and the multilingual service-delivery portal a
 
 ## Difference
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/english-learners-difference-versus-disorder/english-learners-difference-versus-disorder-schematic.svg"
+    alt="Educational infographic schematic: English learners — difference versus disorder. A language difference is not a language disability. ASHA’s multilingual portal and IDEA’s exclusion rules exist so casel"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> A language difference is not a language disability. ASHA’s multilingual portal and IDEA’s exclusion rules exist so caseloads do not become English class.
+    <span class="figure-credit">SLPWOW school caseload series — original SVG. Not legal, billing, union, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 The student is acquiring English on a typical path for their history: age of first exposure, richness of input in each language, interrupted schooling, the dialect of the home. Skills may look “low” on an English-only booklet and typical in the home language — or the reverse, if the booklet was the only place they have ever done that task.
 
 Dynamic assessment and a true bilingual evaluation, when needed, are the professional tools. Interpreters and translators are a legal and ethical requirement when the adult in the room does not share the language. ASHA has a portal page for that collaboration. This pack will not write the script.

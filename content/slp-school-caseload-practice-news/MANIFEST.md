@@ -13,7 +13,13 @@ Draft-only school SLP practice / caseload / news pack. **44** articles. Staged. 
 | `CLAIMS_GUARDRAILS.md` | Never-say list |
 | `BIBLIOGRAPHY.md` | Primary sources |
 | `WP_IMPORT.md` | Staging import only |
-| `check_pack.py` | Editor smoke check |
+| `check_pack.py` | Editor smoke check + figure SEO gates |
+| `AGENTS_GRAPHICS.md` | IMAGE+SEO agent brief |
+| `GRAPHICS_INDEX.md` | Asset roster (auto-generated) |
+| `RIGHTS.md` | SVG rights rows |
+| `assets/<slug>/*.svg` | Educational infographics |
+| `embeds/<slug>.md` | WordPress figure HTML |
+| `scripts/generate_graphics.py` | Regenerate figures |
 | `articles/*.md` | Drafts |
 
 ## Article inventory

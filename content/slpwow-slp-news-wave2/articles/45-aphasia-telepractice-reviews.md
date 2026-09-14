@@ -35,6 +35,22 @@ A 2025 telemedicine review of assessment psychometrics (Teti, Murray, et al., on
 
 ## How this meets the CMS telehealth clock
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/aphasia-telepractice-reviews/aphasia-telepractice-reviews-schematic.svg"
+    alt="Educational infographic schematic: Aphasia telepractice reviews are encouraging — and protocol-thin. ASHA Evidence Map summaries of aphasia telerehabilitation report language gains and some face-to-face equivalence, with "
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> ASHA Evidence Map summaries of aphasia telerehabilitation report language gains and some face-to-face equivalence, with little protocol variety.
+    <span class="figure-credit">SLPWOW SLP News wave 2 — original SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 Congress extended practitioner authority through 2027. These reviews are why a clinic can say remote aphasia work is not a dare. They are not why a clinic can skip bandwidth checks, caregiver training, or a plan for when the person cannot point to a picture on a laptop. They are not a 92507 modifier. They are not a compact privilege.
 
 ## What not to tell a spouse

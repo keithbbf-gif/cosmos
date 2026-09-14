@@ -31,6 +31,22 @@ The math is a five-year lookback of the Medicare Economic Index productivity fac
 
 ## Where SLPs sit
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/efficiency-adjustment-exempts-92507/efficiency-adjustment-exempts-92507-schematic.svg"
+    alt="Educational infographic schematic: The 2.5 percent efficiency adjustment is real — and 92507 is named out. CMS finalized a 2.5 percent efficiency cut to work RVUs for many non-time-based codes. Time-based treatment and teleheal"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> CMS finalized a 2.5 percent efficiency cut to work RVUs for many non-time-based codes. Time-based treatment and telehealth-list services, including 92507, are exempt.
+    <span class="figure-credit">SLPWOW SLP News wave 2 — original SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 ASHA’s November 2025 booklet translates this into clinic English. Services whose main resource is the clinician’s time, and services on the telehealth list, are out. CPT **92507** — individual treatment of speech, language, voice, communication, and/or auditory processing — is **specifically exempt**. New codes in their birth year are also out. Some diagnostic and other non-time-based SLP codes are in. ASHA tells readers to check CMS’s published list rather than assume the whole speech caseload is safe.
 
 That pair of sentences is the whole brief. Treatment minutes are not the target. Some tests and procedures are.

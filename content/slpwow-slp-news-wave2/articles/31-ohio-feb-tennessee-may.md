@@ -34,6 +34,22 @@ The Commission’s July 2026 fee-and-jurisprudence PDF gives a second pair of �
 
 ## Why a calendar brief exists
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/ohio-feb-tennessee-may/ohio-feb-tennessee-may-schematic.svg"
+    alt="Educational infographic schematic: Ohio opened in February. Tennessee opened in May. The map is a calendar.. Ohio began processing ASLP-IC privileges on February 9, 2026. Tennessee began issuing on May 28, 2026. Louisiana and Wes"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Ohio began processing ASLP-IC privileges on February 9, 2026. Tennessee began issuing on May 28, 2026. Louisiana and West Virginia had opened earlier.
+    <span class="figure-credit">SLPWOW SLP News wave 2 — original SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 Because “the compact launched” is not a year. It is a sequence of Tuesdays. A clinician who applied in November 2025 had two remote states. A clinician who waited until June 2026 had four, if their home state was one of those four. Everyone else still had a statute and a waiting room.
 
 ## What the Ohio page teaches everyone else

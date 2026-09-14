@@ -31,6 +31,22 @@ This essay will not bless a product. It will not ban a tool your district has al
 
 ## What a tool cannot be
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/ai-for-ieps-what-the-news-is-about/ai-for-ieps-what-the-news-is-about-schematic.svg"
+    alt="Educational infographic schematic: AI for IEPs — what the news is actually about. AI can type an IEP. It cannot take legal responsibility, know the classroom, or accept a student record in a public prom"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> AI can type an IEP. It cannot take legal responsibility, know the classroom, or accept a student record in a public prompt. Read the tool as a tool.
+    <span class="figure-credit">SLPWOW school caseload series — original SVG. Not legal, billing, union, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 **The provider of record.** IDEA still wants a team and a program reasonably calculated for this student. A generator that has never seen the classroom cannot write a present level a teacher can use (essay 22). If two IEPs come out as twins, both failed (essay 23).
 
 **The record holder.** Pasting a present level into a consumer chatbot is how you create a copy of an education record you do not control (essay 33). PTAC’s school-official test is for vendors the *district* contracted, with direct control and a destruction plan — not for a free tab on a phone.

@@ -30,6 +30,22 @@ The workforce report adds a second fact about that row: telepractice offices wer
 
 ## What the setting is doing to the week
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/telepractice-offices-and-the-52/telepractice-offices-and-the-52-schematic.svg"
+    alt="Educational infographic schematic: Telepractice offices and the caseload of 52. ASHA’s 2024 survey put the highest median caseload in telepractice offices at 52. That is a work setting, not a verdict "
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> ASHA’s 2024 survey put the highest median caseload in telepractice offices at 52. That is a work setting, not a verdict on remote service.
+    <span class="figure-credit">SLPWOW school caseload series — original SVG. Not legal, billing, union, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 Tech checks appear on the national activity list at a mean of **0.7 hours**. Anyone who has waited for a cart to boot knows that number is a national average, not a Monday in a building with one working camera. The telepractice office absorbs some of that friction as the job itself: platform, headsets, a school facilitator who is or is not in the room.
 
 Facilitators are workload. So are no-shows that look like “student unavailable” (essay 07) and so is the documentation pile that did not get smaller because the session was remote (essay 06). FERPA still applies to the education record. A platform that records a session has created a record someone must house. Essay 33.

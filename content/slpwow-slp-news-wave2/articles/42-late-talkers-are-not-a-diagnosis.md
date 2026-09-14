@@ -32,6 +32,22 @@ That paragraph is why this magazine will not sell a late-talker kit. It is also 
 
 ## What later reviews added
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/late-talkers-are-not-a-diagnosis/late-talkers-are-not-a-diagnosis-schematic.svg"
+    alt="Educational infographic schematic: Late talking is a risk description, not a lifelong label. CATALISE and later DLD reviews treat late talking at 18–24 months as a weak predictor. Some children persist. Most catch"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> CATALISE and later DLD reviews treat late talking at 18–24 months as a weak predictor. Some children persist. Most catch up. Reassessment beats a slogan.
+    <span class="figure-credit">SLPWOW SLP News wave 2 — original SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 The 2024 German-language guideline review in *Deutsches Ärzteblatt* (Neumann and colleagues) treats children in the third year with developmental language delay as at risk for later DLD, and it reports effect sizes for parent training and for language therapy that vary by whether the delay is expressive-only or includes comprehension. It also complains that German intervention research is thin, that parent training is underused, and that therapy often starts too late. Those are health-system sentences from one country. They are not your school district’s eligibility manual. They are evidence that “late talker” is a window, not a brand.
 
 The 2025 *Frontiers in Pediatrics* screening review (next brief) is the other half: tools are weak at age 2, better around 2.5, and DLD as a stable label is more comfortable near 4.

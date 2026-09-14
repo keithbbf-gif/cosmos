@@ -31,6 +31,22 @@ This essay will not reprint state SLPA statutes. They differ on scope, supervisi
 
 ## What the IEP still needs
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/slpa-supervision-in-schools/slpa-supervision-in-schools-schematic.svg"
+    alt="Educational infographic schematic: SLPA supervision in schools. Twelve percent of 2024 school SLPs supervised an SLPA. An assistant is not a second caseload integer. Supervision is wor"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Twelve percent of 2024 school SLPs supervised an SLPA. An assistant is not a second caseload integer. Supervision is workload.
+    <span class="figure-credit">SLPWOW school caseload series — original SVG. Not legal, billing, union, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 A provider of record who can assess, interpret, write present levels, and stand at the table. Assistants, where lawful, may deliver assigned services. They do not become the eligibility decider. They do not become the person who independently redesigns the goal. If a parent only ever meets the assistant, the district has a communication problem and possibly a supervision problem.
 
 Minutes delivered by an SLPA still have to match the page (essay 24). Make-ups still have a clock (essay 07). FERPA still applies to what the assistant writes (essay 33).

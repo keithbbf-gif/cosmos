@@ -33,6 +33,22 @@ That is why this brief exists. ASHA news posts move faster. The Federal Register
 
 ## What else lives there
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/cms-therapy-page-updated/cms-therapy-page-updated-schematic.svg"
+    alt="Educational infographic schematic: The CMS Therapy Services page is the living index. CMS’s Therapy Services page is where KX, MPPR, telehealth extensions, and new RTM codes show up after the Federal Regist"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> CMS’s Therapy Services page is where KX, MPPR, telehealth extensions, and new RTM codes show up after the Federal Register fight is over.
+    <span class="figure-credit">SLPWOW SLP News wave 2 — original SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 The MPPR reminder is older than 2026 and still easy to forget. Since 1 April 2013, the multiple procedure payment reduction on the practice-expense piece of certain always-therapy services is **50 percent** in both office and institutional settings. The highest-PE service of the day pays in full; the rest of the always-therapy stack that day takes the PE cut. CMS posted a CY 2026 MPPR rate file and, in a February 2026 note, added code 97026 to it. If you bill two SLP procedures on the same date, do not be shocked when the second PE slice shrinks.
 
 The page still carries the BBA 2018 origin story for the KX threshold and the targeted-review language. It is a museum and a bulletin board at once. Scroll past the history only after you have confirmed this year’s dollars.

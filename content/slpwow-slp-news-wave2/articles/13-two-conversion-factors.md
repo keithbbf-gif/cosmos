@@ -31,6 +31,22 @@ CMS’s fact sheet rounds the finals to **$33.57** (qualifying APM, about +3.77 
 
 ## Why there are two
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/two-conversion-factors/two-conversion-factors-schematic.svg"
+    alt="Educational infographic schematic: 2026 is the year Medicare grew a second conversion factor. CMS-1832-F splits the 2026 PFS conversion factor into $33.57 for qualifying APM participants and $33.40 for everyone els"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> CMS-1832-F splits the 2026 PFS conversion factor into $33.57 for qualifying APM participants and $33.40 for everyone else. Most SLPs use the second number.
+    <span class="figure-credit">SLPWOW SLP News wave 2 — original SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 MACRA froze the annual update at zero through 2025, then promised 0.75 percent for qualifying APM clinicians and 0.25 percent for the rest. A later statute — ASHA names the One Big Beautiful Bill Act — added a one-year **2.50 percent** bump for 2026. CMS also describes a small positive adjustment (about 0.49 percent in the fact sheet) to keep the books aligned with work-RVU changes. Add those pieces and you get two larger-looking conversion factors that still sit on top of sequestration, efficiency adjustments, and geographic floors that may be disappearing.
 
 The political sentence is that Congress “raised rates.” The operational sentence is that you now have to know whether you are a QP. If you do not know, you are almost certainly on $33.40.

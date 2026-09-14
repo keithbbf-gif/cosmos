@@ -30,6 +30,22 @@ Remote therapeutic monitoring is the 2026 fee-schedule topic most likely to arri
 
 ## Sometimes therapy is a disposition, not a vibe
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/rtm-sometimes-therapy/rtm-sometimes-therapy-schematic.svg"
+    alt="Educational infographic schematic: New RTM codes landed on the therapy list — they are not 92507. CMS added RTM codes 98979, 98984, and 98985 as sometimes-therapy services for 2026 and revised 98976 and 98977. Read the"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> CMS added RTM codes 98979, 98984, and 98985 as sometimes-therapy services for 2026 and revised 98976 and 98977. Read the descriptors before anyone markets a dashboard.
+    <span class="figure-credit">SLPWOW SLP News wave 2 — original SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 “Sometimes therapy” means the code is therapy when a therapist furnishes it under a therapy plan of care, and something else when a physician or other qualified practitioner furnishes it under a different benefit theory. It does not mean “optional documentation.” It does not mean “this is speech treatment.” RTM codes describe monitoring and management of respiratory or musculoskeletal systems, or other RTM families as the descriptors read *this year*. Swallowing, language, and cognitive treatment are still 92526, 92507, 97129/97130, or whatever your MAC actually pays — not a renamed sensor.
 
 If a vendor says their app “is 98985 for SLPs,” open the current CPT descriptor and the therapy-list disposition. If the descriptor does not match the clinical work, it is not your code.

@@ -32,6 +32,22 @@ Two structures matter for SLPs. Sometimes speech-language impairment is the **pr
 
 ## What the IEP has to carry
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/idea-related-services-in-one-page/idea-related-services-in-one-page-schematic.svg"
+    alt="Educational infographic schematic: IDEA related services in one page. Speech-language pathology is a related service under IDEA when the IEP team writes it there. Here is the federal object "
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Speech-language pathology is a related service under IDEA when the IEP team writes it there. Here is the federal object without a promise of eligibility.
+    <span class="figure-credit">SLPWOW school caseload series — original SVG. Not legal, billing, union, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 Federal IEP contents include present levels of academic achievement and functional performance, measurable annual goals, and a description of how progress will be measured and reported. Special education, related services, supplementary aids and services, and program modifications are stated so the team — and a later reader — know what FAPE was supposed to look like this year.
 
 *Endrew F. v. Douglas County* (2017) added a sentence the Department of Education later put in a Q&A: the IEP must be reasonably calculated to enable the child to make progress appropriate in light of the child’s circumstances. The Court rejected “merely more than de minimis.” It did not print a minute count. It did not name speech. It named the program.

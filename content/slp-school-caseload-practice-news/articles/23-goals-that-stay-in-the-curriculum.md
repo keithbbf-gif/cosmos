@@ -32,6 +32,22 @@ This essay will not hand you a goal bank. Goal banks are how every student on a 
 
 ## Educationally relevant, again
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/goals-that-stay-in-the-curriculum/goals-that-stay-in-the-curriculum-schematic.svg"
+    alt="Educational infographic schematic: Goals that stay in the curriculum. IEP speech-language goals have to be measurable and educationally relevant. A 100 percent forever goal is a trap, not ri"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> IEP speech-language goals have to be measurable and educationally relevant. A 100 percent forever goal is a trap, not rigor.
+    <span class="figure-credit">SLPWOW school caseload series — original SVG. Not legal, billing, union, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 If the only place the goal can be observed is the speech room, ask why. Sometimes the answer is good: a new skill is being shaped and the classroom is not the first stage. Sometimes the answer is habit. ASHA’s 2010 roles document wanted intervention tied to the curriculum. A goal about “explaining a three-step science procedure using temporal words” can be measured in the lab. A goal about “improving language skills” cannot be measured anywhere.
 
 Secondary goals that ignore credit-bearing classes are closet goals (essay 11). Elementary goals that ignore the language of the reading block will collide with the science-of-reading conversation (essay 37) whether you want them to or not.

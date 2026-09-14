@@ -31,6 +31,22 @@ This essay will not name a preferred battery. Batteries go stale and this pack w
 
 ## What a standardized test is allowed to do
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/tests-versus-classroom-language/tests-versus-classroom-language-schematic.svg"
+    alt="Educational infographic schematic: Standardized tests versus classroom language. A standard score is one kind of evidence. Classroom language is another. Eligibility and progress need both dialects, no"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> A standard score is one kind of evidence. Classroom language is another. Eligibility and progress need both dialects, not a trophy test.
+    <span class="figure-credit">SLPWOW school caseload series — original SVG. Not legal, billing, union, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 Compare this student’s performance on *this* task to the people in the norming sample, if the student is in the sample’s world. Give a second adult a number they can recognize. Sometimes meet a state operational definition that still talks in standard deviations (essay 17).
 
 It is allowed to be wrong for a bilingual student, a student who uses AAC, a student who has never sat a timed booklet, a student whose hearing was not checked. It is allowed to miss classroom language that the booklet never asked for: the science explanation, the argument with a peer, the joke that did not land.

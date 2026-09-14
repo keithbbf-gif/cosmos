@@ -31,6 +31,22 @@ That is a jurisdiction. It is not a laminated values statement for the break roo
 
 ## Who must hold the CCC to treat
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/code-of-ethics-is-not-a-poster/code-of-ethics-is-not-a-poster-schematic.svg"
+    alt="Educational infographic schematic: The 2023 Code of Ethics is a jurisdiction, not a poster. ASHA’s 2023 Code of Ethics binds members and CCC holders. It is enforced by the Board of Ethics. It is not a state licen"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> ASHA’s 2023 Code of Ethics binds members and CCC holders. It is enforced by the Board of Ethics. It is not a state license and not a billing manual.
+    <span class="figure-credit">SLPWOW SLP News wave 2 — original SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 The 2023 code keeps a bright line that clinics still trip over. ASHA members who provide clinical services must hold the Certificate of Clinical Competence. Members without the CCC may not provide clinical services, except that people in the certification pipeline may treat if local law and ASHA certification rules allow it. The sentence is about ASHA membership-plus-practice, not about every human who has an SLP job. State licenses can and do cover clinicians who never join ASHA. Those clinicians are not under this Board. They are under their board.
 
 Do not tell a provisionally licensed fellow that “ASHA says you cannot treat.” Read the code, the certification standards, and the state practice act. They do not say the same thing.

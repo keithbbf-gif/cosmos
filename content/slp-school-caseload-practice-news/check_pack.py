@@ -13,6 +13,15 @@ except ImportError:
 
 ROOT = pathlib.Path(__file__).resolve().parent
 ART = ROOT / "articles"
+ASSETS = ROOT / "assets"
+EMBEDS = ROOT / "embeds"
+FIGURE_NEEDLES = (
+    "<figure",
+    "<figcaption",
+    'itemtype="https://schema.org/ImageObject"',
+    'itemprop="contentUrl"',
+)
+FIG_OPS_FILES = ("RIGHTS.md", "AGENTS_GRAPHICS.md", "GRAPHICS_CHECKLIST.md", "GRAPHICS_INDEX.md")
 REQUIRED = {
     "title",
     "slug",
@@ -99,12 +108,30 @@ def main() -> int:
         slug = str(meta.get("slug", ""))
         if slug and not p.name.endswith(slug + ".md"):
             errors.append(f"{p.name}: slug {slug!r} mismatch")
+        for needle in FIGURE_NEEDLES:
+            if needle not in text:
+                errors.append(f"{p.name}: missing SEO figure hook {needle!r}")
+        if slug:
+            asset_dir = ASSETS / slug
+            if not asset_dir.is_dir() or not any(asset_dir.glob("*.svg")):
+                errors.append(f"{p.name}: no SVG under assets/{slug}/")
+            embed = EMBEDS / f"{slug}.md"
+            if not embed.is_file():
+                errors.append(f"{p.name}: missing embeds/{slug}.md")
+    for svg in ASSETS.rglob("*.svg") if ASSETS.is_dir() else []:
+        svg_text = svg.read_text(encoding="utf-8")
+        if "<title" not in svg_text or "<desc" not in svg_text:
+            errors.append(f"{svg.relative_to(ROOT)}: missing <title> or <desc>")
+    for name in FIG_OPS_FILES:
+        if not (ROOT / name).is_file():
+            errors.append(f"missing ops file {name}")
     if errors:
         print("FAIL")
         for e in errors:
             print(" ", e)
         return 1
-    print(f"OK {len(files)} drafts")
+    svg_n = len(list(ASSETS.rglob("*.svg"))) if ASSETS.is_dir() else 0
+    print(f"OK {len(files)} drafts, {svg_n} SVG figures embedded")
     return 0
 
 

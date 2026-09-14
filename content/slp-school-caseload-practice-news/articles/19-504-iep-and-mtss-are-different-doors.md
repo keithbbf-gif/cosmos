@@ -35,6 +35,22 @@ ASHA’s caseload definition can include all three groups. A district data syste
 
 ## How the doors get jammed
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/504-iep-and-mtss-are-different-doors/504-iep-and-mtss-are-different-doors-schematic.svg"
+    alt="Educational infographic schematic: 504, IEP, and MTSS are different doors. Section 504, an IDEA IEP, and MTSS are three doors. Using one word for all three is how caseloads and headlines get mudd"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Section 504, an IDEA IEP, and MTSS are three doors. Using one word for all three is how caseloads and headlines get muddy.
+    <span class="figure-credit">SLPWOW school caseload series — original SVG. Not legal, billing, union, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 **MTSS as a waiting room.** A parent requests an evaluation. The building says “let’s try a tier first.” Federal rules do not let a district use RTI to delay an evaluation once a request has been made. The exact clock is state-specific (essay 20). The principle is not.
 
 **504 as a consolation IEP.** A team that does not find IDEA eligibility sometimes offers 504 as a prize. Sometimes 504 is the correct door. Sometimes it is a way to avoid writing present levels. OCR, not this blog, owns 504 complaints.

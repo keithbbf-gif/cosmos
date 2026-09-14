@@ -12,7 +12,22 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 ART = ROOT / "articles"
+ASSETS = ROOT / "assets"
+EMBEDS = ROOT / "embeds"
 INDEX = ROOT / "INDEX.md"
+
+FIGURE_NEEDLES = (
+    "<figure",
+    "<figcaption",
+    'itemtype="https://schema.org/ImageObject"',
+    'itemprop="contentUrl"',
+)
+FIG_OPS_FILES = (
+    "RIGHTS.md",
+    "AGENTS_GRAPHICS.md",
+    "GRAPHICS_CHECKLIST.md",
+    "GRAPHICS_INDEX.md",
+)
 
 REQUIRED_YAML = [
     "title",
@@ -187,6 +202,25 @@ def main() -> int:
         for pat in BANNED + BANNED_BODY_ONLY:
             if re.search(pat, hay, re.I):
                 errors.append(f"{path.name}: banned phrase /{pat}/")
+        for needle in FIGURE_NEEDLES:
+            if needle not in text:
+                errors.append(f"{path.name}: missing SEO figure hook {needle!r}")
+        if slug:
+            asset_dir = ASSETS / slug
+            if not asset_dir.is_dir() or not any(asset_dir.glob("*.svg")):
+                errors.append(f"{path.name}: no SVG under assets/{slug}/")
+            embed = EMBEDS / f"{slug}.md"
+            if not embed.is_file():
+                errors.append(f"{path.name}: missing embeds/{slug}.md")
+
+    for svg in ASSETS.rglob("*.svg") if ASSETS.is_dir() else []:
+        svg_text = svg.read_text(encoding="utf-8")
+        if "<title" not in svg_text or "<desc" not in svg_text:
+            errors.append(f"{svg.relative_to(ROOT)}: missing <title> or <desc>")
+
+    for name in FIG_OPS_FILES:
+        if not (ROOT / name).is_file():
+            errors.append(f"missing ops file {name}")
 
     if orders and sorted(orders) != list(range(1, len(files) + 1)):
         errors.append(f"orders not 1..{len(files)}: {sorted(orders)}")
@@ -195,7 +229,8 @@ def main() -> int:
         print("\n".join(errors), file=sys.stderr)
         return 1
     desk_bits = ", ".join(f"{k}={v}" for k, v in sorted(desks.items()))
-    print(f"OK: {len(files)} articles ({desk_bits})")
+    svg_n = len(list(ASSETS.rglob("*.svg"))) if ASSETS.is_dir() else 0
+    print(f"OK: {len(files)} articles ({desk_bits}), {svg_n} SVG figures embedded")
     return 0
 
 

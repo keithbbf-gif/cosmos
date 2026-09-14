@@ -31,6 +31,22 @@ ASHA’s 2010 roles document wanted interprofessional practice. The caseload por
 
 ## What a teacher can use
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/working-with-teachers/working-with-teachers-schematic.svg"
+    alt="Educational infographic schematic: Working with teachers without a therapy dump. Collaboration ranked as a top-six challenge for school SLPs in 2024. A therapy dump is not collaboration. A calendar is."
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Collaboration ranked as a top-six challenge for school SLPs in 2024. A therapy dump is not collaboration. A calendar is.
+    <span class="figure-credit">SLPWOW school caseload series — original SVG. Not legal, billing, union, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 A present level that sounds like their room (essay 22). A goal they would notice if it moved (essay 23). Two sentences about what they are already doing that *is* language instruction. One ask that fits the unit, not a second curriculum. A time to talk that is on a calendar — even fifteen minutes in a 3:1 week (essay 26).
 
 They can use honesty about LRE: why this student leaves, or why you are coming in (essay 24). They can use a warning before you pull a student from the only writing block.

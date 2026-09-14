@@ -32,6 +32,22 @@ This desk will not reprint IDDSI’s level names as a household menu. Thickener 
 
 ## What CMS actually pays attention to
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/iddsi-is-not-a-cms-diet/iddsi-is-not-a-cms-diet-schematic.svg"
+    alt="Educational infographic schematic: IDDSI is a texture framework — not a Medicare meal ticket. The International Dysphagia Diet Standardisation Initiative is a shared language for textures. CMS does not pay a claim "
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> The International Dysphagia Diet Standardisation Initiative is a shared language for textures. CMS does not pay a claim because a tray is labeled Level 4.
+    <span class="figure-credit">SLPWOW SLP News wave 2 — original SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 In a SNF, PDPM’s SLP component cares whether the MDS found a swallowing disorder and a mechanically altered diet. Those are assessment-item facts, not an IDDSI audit. You can have a perfect IDDSI kitchen and a blank K0100. You can have a K-section that says “altered” and a tray that is still a guess. The payment flag and the safety system are friends only if someone makes them talk.
 
 Home-health PDGM will not add visits because a level changed. Part B will not pay 92526 because the cardstock is color-coded.

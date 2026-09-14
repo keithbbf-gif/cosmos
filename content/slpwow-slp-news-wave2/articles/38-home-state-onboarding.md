@@ -32,6 +32,22 @@ That last sentence is the only official timeline for most of the map. The home p
 
 ## Home state is a legal word
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/home-state-onboarding/home-state-onboarding-schematic.svg"
+    alt="Educational infographic schematic: Your home state has to onboard before anyone else’s privilege matters. Compact privileges start with a home-state license in a member state that has joined CompactConnect and met issuing requ"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Compact privileges start with a home-state license in a member state that has joined CompactConnect and met issuing requirements. The FAQ says to ask your board.
+    <span class="figure-credit">SLPWOW SLP News wave 2 — original SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 In compact English, home state is the member state that issued the license you are using as the base — typically the state of residence and primary license. You cannot home-state out of a non-member because the work is nicer in a member. You cannot home-state out of an enacted-but-dark board and privilege into Tennessee as if Tennessee were your parent. Tennessee can receive privileges from issuing homes. It cannot adopt you.
 
 The October 2023 FAQ PDF describes “initial privilege to practice” as the home state’s verification of education, examination, and criminal history. Those steps are completed at home. The remote state then looks, through the data system, for other licenses, encumbrances, and adverse actions.

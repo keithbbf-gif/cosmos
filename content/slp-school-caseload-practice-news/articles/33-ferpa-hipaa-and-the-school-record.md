@@ -35,6 +35,22 @@ This essay will not decide your hat. Counsel and the district privacy officer wi
 
 ## What school SLPs actually leak
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/ferpa-hipaa-and-the-school-record/ferpa-hipaa-and-the-school-record-schematic.svg"
+    alt="Educational infographic schematic: FERPA, HIPAA, and the school record. Most school SLP records are education records under FERPA. HIPAA applies to covered entities. Flattening the two is how "
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Most school SLP records are education records under FERPA. HIPAA applies to covered entities. Flattening the two is how news stories and vendors get sloppy.
+    <span class="figure-credit">SLPWOW school caseload series — original SVG. Not legal, billing, union, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 Hallway talk with a student name and a goal. A group note that lists another child’s data (essay 27). A photo of a data sheet on a personal phone. An AI prompt that pasted a present level (essay 40). A progress report emailed to the wrong parent.
 
 None of those required a hacker. All of them are how a “no PHI” series stays strict.

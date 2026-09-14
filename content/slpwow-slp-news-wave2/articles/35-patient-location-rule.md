@@ -32,6 +32,22 @@ If you sit in Louisiana and the child is in a grandparent’s kitchen in a non-i
 
 ## Two tele- stories that are not one
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/patient-location-rule/patient-location-rule-schematic.svg"
+    alt="Educational infographic schematic: Practice is where the patient is — the compact says so on the home page. ASLP-IC states that audiology and speech-language pathology practice occurs in the patient’s state at the time of the en"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> ASLP-IC states that audiology and speech-language pathology practice occurs in the patient’s state at the time of the encounter. Telepractice does not relocate them.
+    <span class="figure-credit">SLPWOW SLP News wave 2 — original SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 Medicare telehealth authority through 2027 is a **payer** story about Part B beneficiaries and listed codes. The compact patient-location rule is a **licensure** story. You can be perfectly legal on a Medicare telehealth claim and illegal on a state-board complaint, or the reverse. ASHA’s permanence campaign does not rewrite the compact sentence.
 
 Employers who say “we’re a compact company, take anyone in a compact-enacted state” are skipping the issuing column *and* the location rule. Enacted-but-not-issuing is not a privilege. A privilege into Ohio does not cover a patient who drove to Pennsylvania for the week.

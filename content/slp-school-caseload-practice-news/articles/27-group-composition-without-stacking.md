@@ -30,6 +30,22 @@ This essay will not give you a maximum group size. It will give you a way to tel
 
 ## What a group can be for
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/group-composition-without-stacking/group-composition-without-stacking-schematic.svg"
+    alt="Educational infographic schematic: Group composition without stacking. A group is a service-delivery choice, not a storage unit. When caseload size picks the group, FAPE is the thing that get"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> A group is a service-delivery choice, not a storage unit. When caseload size picks the group, FAPE is the thing that gets stacked.
+    <span class="figure-credit">SLPWOW school caseload series — original SVG. Not legal, billing, union, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 Shared language of a classroom unit. Peer models who actually model. A social-communication goal that requires other people. Efficiency that does not erase the service page.
 
 The 2024 intervention means hint at why stacking is tempting. Language (form/content) averaged 23 students among SLPs who serve it. Speech sounds averaged 20. Those piles want groups. Fluency averaged 2.6. Childhood apraxia of speech averaged 3.0. AAC averaged 7.2. If those last three are inside the first two’s Thursday slot, you do not have a group. You have a waiting room.

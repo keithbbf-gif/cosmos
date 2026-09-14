@@ -28,6 +28,22 @@ When ASHA asked clinical providers for their **single greatest barrier** to a ma
 
 ## Three shortages that share a noun
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/what-shortage-means-in-a-hiring-story/what-shortage-means-in-a-hiring-story-schematic.svg"
+    alt="Educational infographic schematic: What “shortage” means in a hiring story. Twenty-six percent of 2024 school SLPs named a local SLP shortage as their top barrier to a manageable caseload. Shortag"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Twenty-six percent of 2024 school SLPs named a local SLP shortage as their top barrier to a manageable caseload. Shortage is several different shortages.
+    <span class="figure-credit">SLPWOW school caseload series — original SVG. Not legal, billing, union, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 **A body shortage.** The posting is up. Nobody acceptable applied. The 79 percent who saw more openings than seekers (essay 08) live here. So do visa delays, a rural drive, and a salary schedule that loses to the clinic across town (essay 42).
 
 **A credentials shortage.** People applied. They cannot be the provider of record in this state, or the district will not accept the CF, or the SLPA cannot take the work the vacancy actually is (essay 31). The 1 percent who named a shortage of assistants are a small slice with a loud local reality.

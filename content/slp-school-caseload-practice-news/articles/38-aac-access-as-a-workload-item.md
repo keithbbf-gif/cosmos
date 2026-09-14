@@ -29,6 +29,22 @@ ASHA’s caseload portal already lists programming and maintenance of AAC among 
 
 ## Access is the IEP object
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/aac-access-as-a-workload-item/aac-access-as-a-workload-item-schematic.svg"
+    alt="Educational infographic schematic: AAC access as a workload item. Three-quarters of 2024 school SLPs regularly served AAC. Programming, charging, and classroom vocabulary are workload, n"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Three-quarters of 2024 school SLPs regularly served AAC. Programming, charging, and classroom vocabulary are workload, not extra credit.
+    <span class="figure-credit">SLPWOW school caseload series — original SVG. Not legal, billing, union, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 IDEA’s assistive-technology and supplementary-aids language is how a device (or a book, or a no-tech board) gets onto a program. LRE includes the right to communicate *in* the classroom, not only in the closet (essay 24). A device that stays in a backpack is not a service. A device whose vocabulary is last year’s field trip is not educationally relevant (essay 18).
 
 Present levels should say what the student can already say, on what system, with whom (essay 22). Goals should say what the classroom will hear this year (essay 23). Progress should include classroom use, not only a closet probe (essay 29).

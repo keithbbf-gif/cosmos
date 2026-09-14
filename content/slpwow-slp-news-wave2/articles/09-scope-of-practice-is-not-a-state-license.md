@@ -31,6 +31,22 @@ Near the top of the purpose section: this scope does **not** supersede existing 
 
 ## What the map is for
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/scope-of-practice-is-not-a-state-license/scope-of-practice-is-not-a-state-license-schematic.svg"
+    alt="Educational infographic schematic: The 2016 Scope of Practice is a map of the profession, not a license. ASHA’s 2016 Scope of Practice names communication and swallowing work. It does not override state licensure, and compete"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> ASHA’s 2016 Scope of Practice names communication and swallowing work. It does not override state licensure, and competence is still personal.
+    <span class="figure-credit">SLPWOW SLP News wave 2 — original SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 The SLP, in ASHA’s definition here, is the professional who practices in communication and swallowing across the life span. Communication is allowed to be a large word: speech production, fluency, language, cognition, voice, resonance, hearing. Swallowing includes feeding. The committee’s big structural move in 2016 was to split the work into eight service-delivery domains — collaboration, counseling, prevention and wellness, screening, assessment, treatment, modalities/technology/instrumentation, population and systems — and five professional-practice domains: advocacy, supervision, education, research, administration/leadership.
 
 That grid is why a later certification standard can mention telepractice without rewriting the scope, and why a hospital can argue that counseling a family after a new tracheostomy is inside the profession. It is also why the document keeps repeating a competence warning. No one practices the whole grid. The Code of Ethics already said you stay inside education, training, and experience. The scope repeats it so a payer or a principal cannot pretend that “ASHA says every SLP does FEES.”

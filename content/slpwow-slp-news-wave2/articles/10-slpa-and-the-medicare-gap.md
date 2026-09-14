@@ -34,6 +34,22 @@ That is the news that refuses to get old. Every hiring season someone announces 
 
 ## Why the PTA analogy fails
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/slpa-and-the-medicare-gap/slpa-and-the-medicare-gap-schematic.svg"
+    alt="Educational infographic schematic: Assistants can be licensed at home and still be invisible to Medicare. CMS’s benefit policy and ASHA’s Medicare FAQs agree: speech-language pathology assistant services billed as therapy are "
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> CMS’s benefit policy and ASHA’s Medicare FAQs agree: speech-language pathology assistant services billed as therapy are not covered. State licensure does not fix that.
+    <span class="figure-credit">SLPWOW SLP News wave 2 — original SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 The 85 percent assistant differential that clinics quote is a PTA/OTA rule. It is not a hidden SLPA rule. There is no parallel modifier that lets you bill 92507 at a reduced rate for an assistant’s minute. The correct operational reading is harsher: do not put an SLPA on a Medicare claim as the skilled provider. If an assistant helps with unskilled tasks, those minutes are not the therapy service.
 
 State practice acts can still create SLPAs, set supervision ratios, and let schools or private clinics use them. Medicaid and commercial plans can choose to recognize them. Those are other payers. Do not launder a state license into a Medicare benefit.

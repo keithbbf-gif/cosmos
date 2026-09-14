@@ -31,6 +31,22 @@ ASHA’s Medicare FAQs, written for people who have to put codes on a 1500 form,
 
 ## What “skilled” has to sound like
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/medical-necessity-documentation/medical-necessity-documentation-schematic.svg"
+    alt="Educational infographic schematic: Medical necessity is still the sentence the KX is promising. CMS restored the old therapy-cap dollars as a KX attestation. The record, not the modifier, is what makes the claim defe"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> CMS restored the old therapy-cap dollars as a KX attestation. The record, not the modifier, is what makes the claim defensible.
+    <span class="figure-credit">SLPWOW SLP News wave 2 — original SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 A note that says “patient tolerated treatment well” is a weather report. A note that says what was assessed, what was trained, what changed, and why a qualified SLP had to be the one in the room is a Medicare sentence. This magazine will not hand you a phrase bank. Phrase banks become the next audit finding.
 
 Maintenance therapy has a narrower Medicare theory than people wish. Improvement is not always required; skill still is. If you are holding a swallow in place against expected decline, say that, and say what you did that an unskilled person could not. If you cannot say it, you are in social-visit territory.

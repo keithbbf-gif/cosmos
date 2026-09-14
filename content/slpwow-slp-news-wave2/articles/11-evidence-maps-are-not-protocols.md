@@ -31,6 +31,22 @@ That is a shelf. A shelf is not a protocol, not a Local Coverage Determination, 
 
 ## How to read a map row
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/evidence-maps-are-not-protocols/evidence-maps-are-not-protocols-schematic.svg"
+    alt="Educational infographic schematic: ASHA Evidence Maps are a shelf, not a protocol. ASHA’s Evidence Maps collect systematic reviews and article summaries. They do not replace clinical judgment, a practice"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> ASHA’s Evidence Maps collect systematic reviews and article summaries. They do not replace clinical judgment, a practice act, or a plan of care.
+    <span class="figure-credit">SLPWOW SLP News wave 2 — original SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 A typical map card names the paper, the question, the number of studies, and a cautious paragraph. The aphasia telerehabilitation review this desk used later in the research stack reported language gains in 28 of 31 studies and no significant face-to-face versus remote difference in four of six head-to-heads. That is a literature shape. It is not a billing code. It is not a guarantee that your rural broadband will carry a Western Aphasia Battery.
 
 The constraint-induced language therapy update is even more map-like: modest support, mixed intensity findings, preliminary because the studies are few and uneven. If your administrator wants a one-word answer, the map is the wrong genre.

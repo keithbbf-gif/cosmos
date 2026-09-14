@@ -29,6 +29,22 @@ If you stop at the integers, you will staff a high school like a third-grade win
 
 ## What the elementary integer is usually made of
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/elementary-versus-secondary-caseload-shape/elementary-versus-secondary-caseload-shape-schematic.svg"
+    alt="Educational infographic schematic: Elementary versus secondary caseload shape. Elementary and secondary medians sat near 50 in 2024. The weeks are not the same. Age bands change the work inside the i"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Elementary and secondary medians sat near 50 in 2024. The weeks are not the same. Age bands change the work inside the integer.
+    <span class="figure-credit">SLPWOW school caseload series — original SVG. Not legal, billing, union, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 Elementary is where speech-sound work and early language groups still dominate many buildings. The 2024 intervention table is national, not elementary-only, but speech-sound disorders were served by 89.1 percent of respondents (mean 20.1 students among those who serve them) and language (semantics, morphology, syntax) by 90.2 percent (mean 23.0). Those means are the large piles. They are also the piles most likely to be grouped, dismissed, or moved into classroom language (essays 27 and 28).
 
 Elementary IEP calendars are dense: initial evaluations, three-year reevaluations, kindergarten transitions from Part C or preschool, 504 conversations that start when a teacher first worries about sounds. Volume of meetings ranked third overall and sat in the top three for elementary. The SLP is often in more buildings per FTE than the secondary colleague, which the survey does not count as a separate integer.

@@ -31,6 +31,22 @@ CFCC is a semi-autonomous ASHA body. In 2024 ASHA ran a Curriculum and Practice 
 
 ## What an applicant still has to be
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/2027-standards-start-august/2027-standards-start-august-schematic.svg"
+    alt="Educational infographic schematic: The 2027 CCC-SLP standards start on August 1 — they are not a license. CFCC’s 2027 speech-language pathology certification standards take effect August 1, 2027. They update the CCC, not state"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> CFCC’s 2027 speech-language pathology certification standards take effect August 1, 2027. They update the CCC, not state licensure or Medicare.
+    <span class="figure-credit">SLPWOW SLP News wave 2 — original SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 Standard I still wants a master’s or a doctoral degree. Standard II still wants graduate coursework and practicum started and finished in a CAA-accredited program, a CAA-candidacy program, or an internationally equivalent program. The implementation notes are picky in a useful way: a program-director verification form, an official transcript with a conferral date, no registrar letter as a substitute, transcript in within a year of the application.
 
 Standard III keeps a floor of 36 graduate semester hours plus supervised clinical experience deep enough to hit the knowledge and skills lists. Those lists are where the 2027 text shows its age — in a good way. Knowledge outcomes still run from biological and physical science prerequisites through swallowing, literacy, AAC, and cognition. Implementation language now names **telepractice and telesupervision**, **technology literacy**, social determinants of health, and service that aligns with the histories and values of the people in the room. That is a standards update, not a gadget endorsement.

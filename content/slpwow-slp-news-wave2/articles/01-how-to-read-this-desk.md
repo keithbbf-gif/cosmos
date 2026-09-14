@@ -31,6 +31,22 @@ The four desks are not branding. They are different kinds of public writing.
 
 ## Four kinds of paper
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/how-to-read-this-desk/how-to-read-this-desk-schematic.svg"
+    alt="Educational infographic schematic: How to read this desk without treating a headline as a rule. Wave 2 of SLPWOW SLP News separates ASHA, CMS, compact, and research documents so a viral post is not treated as a polic"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Wave 2 of SLPWOW SLP News separates ASHA, CMS, compact, and research documents so a viral post is not treated as a policy change.
+    <span class="figure-credit">SLPWOW SLP News wave 2 — original SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 **ASHA** writes association policy, ethics, certification standards, and advocacy copy. A Public Policy Agenda tells you what the association will lobby. It does not rewrite 42 CFR. The 2023 Code of Ethics binds certificate holders and members. It does not license you in Ohio. The 2027 CCC-SLP standards bind applicants for the Certificate of Clinical Competence starting 1 August 2027. They do not replace a state practice act.
 
 **CMS** writes payment and coverage for Medicare, and, with state Medicaid agencies, the federal floor for Medicaid. A Physician Fee Schedule final rule (CMS-1832-F for calendar year 2026) is a Federal Register artifact with a conversion factor, RVUs, and a therapy page that still has to be opened. ASHA’s November 2025 fee-schedule booklet is a reading of that rule, not the rule.

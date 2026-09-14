@@ -33,6 +33,22 @@ ASHA has been trying to get that sentence into administrative English since the 
 
 ## What caseload is allowed to mean
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/caseload-is-not-workload/caseload-is-not-workload-schematic.svg"
+    alt="Educational infographic schematic: Caseload is not workload. Caseload counts students. Workload counts the week. ASHA has said so since 2002. Here is the difference in one sitting."
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Caseload counts students. Workload counts the week. ASHA has said so since 2002. Here is the difference in one sitting.
+    <span class="figure-credit">SLPWOW school caseload series — original SVG. Not legal, billing, union, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 On ASHA’s page, caseload is the number of students with IEPs, IFSPs, and 504 plans the SLP serves through direct or indirect options. It can also be quantified as sessions in a time frame. Some districts fold in MTSS / RTI students who do not have a disability identification. That last group is easy to forget when a board packet prints a single integer.
 
 The portal lists five groups school SLPs actually serve:

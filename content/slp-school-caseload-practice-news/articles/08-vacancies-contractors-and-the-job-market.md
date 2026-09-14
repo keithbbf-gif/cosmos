@@ -28,6 +28,22 @@ A vacancy, a contract, and a caseload are three objects. Headlines love to add t
 
 ## What a vacancy is allowed to mean
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/vacancies-contractors-and-the-job-market/vacancies-contractors-and-the-job-market-schematic.svg"
+    alt="Educational infographic schematic: Vacancies, contractors, and the 79 percent story. In 2024, 79 percent of school SLPs said there were more job openings than seekers. Twelve percent were contractors. A va"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> In 2024, 79 percent of school SLPs said there were more job openings than seekers. Twelve percent were contractors. A vacancy is not a caseload.
+    <span class="figure-credit">SLPWOW school caseload series — original SVG. Not legal, billing, union, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 An unfilled FTE is a hole in a staffing plan. The students attached to that hole did not become less eligible. They became someone else’s Tuesday, or no one’s. Make-up rules (essay 07) and compensatory-services procedures (essay 41) are how districts confess that fact later.
 
 ASHA’s portal already lists recruitment and retention among the damages of large caseloads. The 2024 job-market item is the other direction: people who *have* jobs looking out and seeing openings. Those two sentences can both be true. A district can fail to fill a posting *and* overload the person who stayed.

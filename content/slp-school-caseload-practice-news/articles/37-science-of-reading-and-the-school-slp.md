@@ -31,6 +31,22 @@ A news story that says “speech has nothing to do with reading” has not read 
 
 ## What the wave is
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/science-of-reading-and-the-school-slp/science-of-reading-and-the-school-slp-schematic.svg"
+    alt="Educational infographic schematic: Science of reading and the school SLP. Only 28 percent of 2024 school SLPs regularly served literacy. The science-of-reading wave still lands on language. Here"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Only 28 percent of 2024 school SLPs regularly served literacy. The science-of-reading wave still lands on language. Here is the lane without a reading protocol.
+    <span class="figure-credit">SLPWOW school caseload series — original SVG. Not legal, billing, union, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 State dyslexia laws, curriculum adoptions, and a public argument about phonics have changed what principals want from every adult who touches language. The National Reading Panel (2000) is the old document people still name. The new documents are *state* pages. Cite the one in your hand. `[VERIFY]` before a live post names a statute.
 
 Science of reading, as a phrase, is not a protocol this blog will print. It is a policy weather system. SLPs stand in it because spoken language, phonological awareness, vocabulary, and discourse are already the job — even when the data system files them under “language: semantics, morphology, syntax” (90.2 percent) instead of “literacy” (28 percent).

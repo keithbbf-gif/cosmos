@@ -31,6 +31,22 @@ ASHA’s 2010 school-roles document leaned on **educational relevance** because 
 
 ## A filter, not a brush-off
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/educational-relevance-not-a-medical-stamp/educational-relevance-not-a-medical-stamp-schematic.svg"
+    alt="Educational infographic schematic: Educational relevance, not a medical stamp. School SLPs serve an educational program. A medical finding can matter and still not be the IEP. Here is the filter with"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> School SLPs serve an educational program. A medical finding can matter and still not be the IEP. Here is the filter without a diagnosis.
+    <span class="figure-credit">SLPWOW school caseload series — original SVG. Not legal, billing, union, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 Educational relevance is not “we only work on /r/ if it is on the state test.” It is: does this communication need change the student’s access to instruction, to peers, to the vocational or social demands of the grade?
 
 A voice that cannot last a class period is educational. A fluency pattern that keeps a student from presenting is educational. A language disability that wrecks word problems is educational. AAC that is not up to date is educational *and* a workload item (essay 38).

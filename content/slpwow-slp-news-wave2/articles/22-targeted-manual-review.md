@@ -31,6 +31,22 @@ This is not a new program. It is a reminder that 2026’s payment headlines did 
 
 ## What “targeted” is supposed to mean
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/targeted-manual-review/targeted-manual-review-schematic.svg"
+    alt="Educational infographic schematic: Targeted manual medical review survived the 2026 rule. Crossing the KX threshold can still trigger targeted medical review. ASHA’s 2026 booklet says the review policy remained"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Crossing the KX threshold can still trigger targeted medical review. ASHA’s 2026 booklet says the review policy remained in place.
+    <span class="figure-credit">SLPWOW SLP News wave 2 — original SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 After the hard cap died, Congress and CMS kept a way to look at high-spend therapy claims without pretending every dollar above $2,480 is fraud. Review is supposed to be aimed — high outliers, odd patterns, missing modifiers — not a blanket punishment for every stroke patient who still cannot swallow safely in month four. In practice, a clinic learns it is a target when additional documentation requests arrive. The defense is the chart you already should have written: skilled service, goals, why this intensity, why still now.
 
 Do not confuse review with prior authorization. Medicare Advantage plans may want a PA. Traditional Part B targeted review is usually retrospective. Different beast, same need for a sentence a stranger can follow.

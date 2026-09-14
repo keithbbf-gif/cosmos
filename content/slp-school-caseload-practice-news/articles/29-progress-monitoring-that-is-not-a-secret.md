@@ -33,6 +33,22 @@ This essay will not give you a data sheet. It will name the failures.
 
 ## Secret systems
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/progress-monitoring-that-is-not-a-secret/progress-monitoring-that-is-not-a-secret-schematic.svg"
+    alt="Educational infographic schematic: Progress monitoring that is not a secret. IDEA requires a plan for measuring and reporting progress. A private notebook is not a plan. A cloned graph is not data."
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> IDEA requires a plan for measuring and reporting progress. A private notebook is not a plan. A cloned graph is not data.
+    <span class="figure-credit">SLPWOW school caseload series — original SVG. Not legal, billing, union, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 A notebook in a bag. A spreadsheet on a personal drive. A probe the parent has never seen described. A Medicaid log that is the only “data” and cannot be shown as educational progress.
 
 FERPA: the education record is the district’s record (essay 33). A shadow system is how you lose a hearing and a laptop.

@@ -34,6 +34,22 @@ Cognition comes from the BIMS or the staff assessment. Swallowing disorder is an
 
 ## Minutes still exist. They do not classify.
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/pdpm-classifies-people-not-minutes/pdpm-classifies-people-not-minutes-schematic.svg"
+    alt="Educational infographic schematic: PDPM pays the SLP component on characteristics, not minutes. Since October 1, 2019, the SNF Patient Driven Payment Model classifies the SLP component by diagnosis, comorbidity, cogn"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Since October 1, 2019, the SNF Patient Driven Payment Model classifies the SLP component by diagnosis, comorbidity, cognition, diet, and swallow — not therapy minutes.
+    <span class="figure-credit">SLPWOW SLP News wave 2 — original SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 SNFs still record therapy minutes for other reasons — program integrity, quality, the discharge assessment. They do not buy the SLP case-mix group. A director who says “we cannot afford speech because PDPM pays by the minute” is describing RUG-IV. A director who says “we will not evaluate because the component already paid” is describing a different failure: payment is not a care plan.
 
 The HIPPS code’s second character is the SLP group. CMS published a twelve-group grid (SA through SL) that climbs as neurologic/comorbidity/cognition flags stack with diet and swallow flags. This brief will not reprint the CMI table. Open the CMS deck if you need the numbers.
