@@ -62,6 +62,8 @@ that omits what it serves is an undocumented surface, not a short one):
                            GET never mutates. Does not fire a resession.
     GET /api/v1/session_tools - Open Sessions + suite verbs (scan/load/convert/
                            diff/check/anonymize/crash-recover). GET never mutates.
+    GET /api/v1/rolled     - ROLLED.md milestone feed (rolled-event/1 schema).
+                           GET never mutates. Returns empty events when absent.
     GET /api/v1/research_call - MOTIF RESEARCH envelope for a chat research
                            function (Perplexity search_web/fetch_url). GET never
                            fetches. Core does not call Perplexity API.
@@ -1010,6 +1012,11 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
             if parsed.path == "/api/v1/session_tools":
                 from cosmos_session_tools_kit import snapshot as session_tools_snapshot
                 rec = session_tools_snapshot(kernel.paths)
+                rec["tree_id"] = kernel.paths.sentinel.tree_id
+                return self._send(200, rec)
+            if parsed.path == "/api/v1/rolled":
+                from cosmos_rolled import snapshot as rolled_snapshot
+                rec = rolled_snapshot(kernel.paths)
                 rec["tree_id"] = kernel.paths.sentinel.tree_id
                 return self._send(200, rec)
             if parsed.path == "/api/v1/orc":
