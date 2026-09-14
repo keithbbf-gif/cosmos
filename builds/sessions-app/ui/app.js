@@ -57,7 +57,8 @@ function renderSessions(http, b) {
   const om = b.omission || {};
   const counted = (om.counted === null || om.counted === undefined)
     ? "UNMEASURED" : om.counted;
-  $("omission").textContent = "legal " + esc(om.reason) + " — counted " + counted +
+  $("omission").textContent =
+    "legal " + (om.reason || "—") + " — counted " + counted +
     ", opened " + om.opened + " (counted, never opened here)";
   if (!b.available) {
     $("rows").innerHTML = '<div class="refusal"><span class="rkind">' +
@@ -92,8 +93,8 @@ async function openSession(id) {
   if (b.error || !b.ok) {
     $("detail").innerHTML = refusalHTML(b) +
       (b.omission
-        ? '<div class="note">counted ' + b.omission.counted + ", opened " +
-          b.omission.opened + "</div>"
+        ? '<div class="note">counted ' + esc(b.omission.counted) + ", opened " +
+          esc(b.omission.opened) + "</div>"
         : "");
     return;
   }
@@ -120,6 +121,9 @@ function renderVerbs(http, b) {
   if (!b.store_declared) {
     $("scan").innerHTML = '<div class="empty">no --store declared at serve time — ' +
       "a browser does not supply a filesystem path</div>";
+  } else {
+    $("scan").innerHTML = '<div class="empty">the declared store is scanned here — ' +
+      "press RUN</div>";
   }
 }
 

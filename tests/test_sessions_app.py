@@ -446,6 +446,40 @@ def t_cdeck_sessions_route_still_intact():
             and '_CDECK_ROUTES["/cdeck/" + _n]' in svc)
 
 
+def t_shell_ui_wiring_and_esc_pins():
+    """WO-D: three-pane shell calls all four APIs; buttons wired; esc on HTML data."""
+    js = (APP / "ui" / "app.js").read_text(encoding="utf-8")
+    html = (APP / "ui" / "index.html").read_text(encoding="utf-8")
+    apis = (
+        'getJSON("/api/sessions")',
+        'getJSON("/api/verbs")',
+        'getJSON("/api/timeline")',
+        'getJSON("/api/sessions/open?id="',
+        'getJSON("/api/verbs/scan")',
+    )
+    buttons = (
+        '$("btnReload").addEventListener("click", reload)',
+        '$("btnScan").addEventListener("click", runScan)',
+        "openSession(el.dataset.id)",
+    )
+    esc_use = (
+        "function esc(" in js
+        and "+ esc(r.id)" in js
+        and "esc(b.detail" in js
+        and "esc(b.omission.counted)" in js
+    )
+    empties = all(
+        s in html
+        for s in (
+            "not read yet",
+            "pick a session on the left",
+            "the declared store is scanned here",
+            "press RUN",
+        )
+    )
+    return all(a in js for a in apis) and all(b in js for b in buttons) and esc_use and empties
+
+
 def t_app_is_one_directional():
     """cosmos/ and the verb suite must not have grown a dependency on this app,
     and this app must not claim a /cdeck/ route."""
@@ -484,6 +518,7 @@ CHECKS = (
     ("timeline bad line refuses naming it", t_timeline_bad_line_refuses_naming_it),
     ("timeline wrong schema refuses", t_timeline_wrong_schema_refuses),
     ("shell + all four APIs end-to-end", t_shell_and_api_end_to_end),
+    ("shell UI wiring + esc pins (WO-D)", t_shell_ui_wiring_and_esc_pins),
     ("Core down through the shell is 503 null", t_core_down_through_the_shell_is_503_null),
     ("no --store / no --root are typed", t_no_store_no_root_are_typed_not_faked),
     ("non-loopback bind refuses", t_non_loopback_bind_refuses),
