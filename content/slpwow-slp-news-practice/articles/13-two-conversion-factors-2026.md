@@ -18,6 +18,7 @@ citations:
 status: draft
 stage: draft
 voice_check: human
+featured_image: assets/two-conversion-factors-2026/two-conversion-factors.svg
 ---
 
 **Disclaimer.** Educational news briefing for SLPWOW. Not billing advice, not legal advice, not a treatment protocol, and not medical advice. Rules change by contractor, state, and calendar year. Verify the current CMS, MAC, state, or ASHA page before you act. This series does not evaluate patients and does not publish worksheets.
@@ -58,3 +59,19 @@ If Congress later glues the two factors back together, this essay becomes histor
 “There are two Medicare multipliers this year. The bigger one is for people CMS has already called QPs. I’m not going to pretend I’m one so I can enjoy a slide.” That is enough. If someone wants the RVU file, they can have the CMS ZIP. This series will not reprint it.
 
 Essay 14 is the other arithmetic that happens on the same day: MPPR, the 50 percent practice-expense haircut when more than one therapy service sits on one date. The conversion factor multiplies. MPPR subtracts. They are not the same knife.
+
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/two-conversion-factors-2026/two-conversion-factors.svg"
+    alt="Schematic comparing facility and non-facility Medicare conversion factors for SLP services"
+    width="880"
+    height="420"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Two conversion factors (schematic). Outpatient clinic versus facility setting — verify CY CMS values.
+    <span class="figure-credit">SLPWOW SLP News — practice pack — original editorial SVG. Not billing, legal, or clinical advice.</span>
+  </figcaption>
+</figure>

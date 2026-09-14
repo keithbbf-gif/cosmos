@@ -17,6 +17,7 @@ citations:
 status: draft
 stage: draft
 voice_check: human
+featured_image: assets/when-a-review-is-just-a-list/systematic-vs-list.svg
 ---
 
 **Disclaimer.** Educational news briefing for SLPWOW. Not billing advice, not legal advice, not a treatment protocol, and not medical advice. Rules change by contractor, state, and calendar year. Verify the current CMS, MAC, state, or ASHA page before you act. This series does not evaluate patients and does not publish worksheets.
@@ -65,3 +66,19 @@ Someone prints a review, highlights the abstract, and says we should change the 
 If the answers are thin, the diet order set can wait. Waiting is not cruelty. Changing a house-wide habit on a list of titles can be.
 
 This page will not tell you which swallow paper to believe. It will tell you that the word on the masthead is not a finding. Essay 06 is about the journals that hope you never ask.
+
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/when-a-review-is-just-a-list/systematic-vs-list.svg"
+    alt="Schematic comparing a systematic review with PRISMA flow to an unscreened literature list"
+    width="880"
+    height="420"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Systematic review versus literature list (schematic). Search, screen, and extract — or it is homework, not synthesis.
+    <span class="figure-credit">SLPWOW SLP News — practice pack — original editorial SVG. Not billing, legal, or clinical advice.</span>
+  </figcaption>
+</figure>

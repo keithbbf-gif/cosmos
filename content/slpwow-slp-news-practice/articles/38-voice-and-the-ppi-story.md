@@ -18,6 +18,7 @@ citations:
 status: draft
 stage: draft
 voice_check: human
+featured_image: assets/voice-and-the-ppi-story/ppi-voice-headlines.svg
 ---
 
 **Disclaimer.** Educational news briefing for SLPWOW. Not billing advice, not legal advice, not a treatment protocol, and not medical advice. Rules change by contractor, state, and calendar year. Verify the current CMS, MAC, state, or ASHA page before you act. This series does not evaluate patients and does not publish worksheets.
@@ -51,3 +52,19 @@ New pills and new reflux tests will get their own papers. Read them with essays 
 “ENT’s 2018 hoarseness guideline said not to start reflux medicine for isolated hoarseness from symptoms alone, without seeing the larynx. I’m going to ask about the look. I’m not going to prescribe, and I’m not going to run a therapy protocol in a news brief.” If a resident wants the executive summary, it is in *Otolaryngology–Head and Neck Surgery*. If a patient wants to stop a pill tonight, they want their physician.
 
 Essay 39 is the occupational cousin: teachers, and a voice that is a workplace injury, not a personality.
+
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/voice-and-the-ppi-story/ppi-voice-headlines.svg"
+    alt="Schematic separating PPI reflux headlines from voice clinic evaluation pathways"
+    width="880"
+    height="420"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> PPI and voice headlines (schematic). Population news is not a directive to change a patient's reflux meds.
+    <span class="figure-credit">SLPWOW SLP News — practice pack — original editorial SVG. Not billing, legal, or clinical advice.</span>
+  </figcaption>
+</figure>

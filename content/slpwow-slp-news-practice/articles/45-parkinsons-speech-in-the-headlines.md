@@ -17,6 +17,7 @@ citations:
 status: draft
 stage: draft
 voice_check: human
+featured_image: assets/parkinsons-speech-in-the-headlines/parkinsons-speech-news.svg
 ---
 
 **Disclaimer.** Educational news briefing for SLPWOW. Not billing advice, not legal advice, not a treatment protocol, and not medical advice. Rules change by contractor, state, and calendar year. Verify the current CMS, MAC, state, or ASHA page before you act. This series does not evaluate patients and does not publish worksheets.
@@ -52,3 +53,19 @@ LSVT homework. SPEAK OUT! session lists. EMST pressures. Device settings. Those 
 Care partners do a lot of the hearing. A spouse who has become the interpreter is a data point and a fatigue story. Public pages mention families; headlines mention the person with the tremor. You can invite the partner into the eval without turning them into the therapist. You can also notice when the partner has started ordering for everyone at the table. That noticing is clinical. The program binder, if you have one, can wait until the room has been heard — the quiet voice and the tired interpreter both.
 
 Essay 46 is the other survivorship headline: head and neck cancer, and communication after the building is done celebrating the scan.
+
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/parkinsons-speech-in-the-headlines/parkinsons-speech-news.svg"
+    alt="Schematic separating branded Parkinson speech therapy headlines from individualized care plans"
+    width="880"
+    height="420"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Parkinson speech headlines (schematic). Branded therapy news is not everyone's treatment plan.
+    <span class="figure-credit">SLPWOW SLP News — practice pack — original editorial SVG. Not billing, legal, or clinical advice.</span>
+  </figcaption>
+</figure>

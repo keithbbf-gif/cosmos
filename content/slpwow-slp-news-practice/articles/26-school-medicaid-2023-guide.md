@@ -18,6 +18,7 @@ citations:
 status: draft
 stage: draft
 voice_check: human
+featured_image: assets/school-medicaid-2023-guide/school-medicaid-guide.svg
 ---
 
 **Disclaimer.** Educational news briefing for SLPWOW. Not billing advice, not legal advice, not a treatment protocol, and not medical advice. Rules change by contractor, state, and calendar year. Verify the current CMS, MAC, state, or ASHA page before you act. This series does not evaluate patients and does not publish worksheets.
@@ -53,3 +54,19 @@ Leave: any sentence that starts “so we should always…” Leave the time-stud
 “There’s a 2023 CMS/ED guide that replaced the old school-claiming books. It wants more care in schools and gives states optional simpler ways to claim. It does not write our SPA, and it does not write my session.” If the special-ed director wants the PDF, it is free. If they want you to become the biller, they want a different hire.
 
 Essay 27 is the 2014 letter the 2023 guide keeps citing: free care is not the barrier people still describe in 2003 English.
+
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/school-medicaid-2023-guide/school-medicaid-guide.svg"
+    alt="Flow schematic of themes in CMS 2023 school-based Medicaid guidance"
+    width="880"
+    height="420"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> School-based Medicaid guide (schematic). LEA billing and documentation — verify CMS SBMT PDF.
+    <span class="figure-credit">SLPWOW SLP News — practice pack — original editorial SVG. Not billing, legal, or clinical advice.</span>
+  </figcaption>
+</figure>

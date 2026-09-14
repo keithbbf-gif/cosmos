@@ -17,6 +17,7 @@ citations:
 status: draft
 stage: draft
 voice_check: human
+featured_image: assets/single-subject-designs-in-csd/single-subject-phases.svg
 ---
 
 **Disclaimer.** Educational news briefing for SLPWOW. Not billing advice, not legal advice, not a treatment protocol, and not medical advice. Rules change by contractor, state, and calendar year. Verify the current CMS, MAC, state, or ASHA page before you act. This series does not evaluate patients and does not publish worksheets.
@@ -64,3 +65,19 @@ CONSORT has a sibling conversation for n-of-1 and single-case reporting (CENT / 
 If someone says “it’s only n = 1,” you can say: “It’s n = 1 on purpose. Did they control the phase.” If someone says “this proves the program,” you can say: “It shows a change in these participants under these conditions.” If someone wants the steps, you can say: “Read the paper. This page will not photocopy them.”
 
 That last sentence is the house rule. Essay 01 started it. The next essay is about the papers that collect a lot of studies and then, sometimes, collect only a mood.
+
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/single-subject-designs-in-csd/single-subject-phases.svg"
+    alt="Timeline schematic of baseline and intervention phases in single-subject CSD research"
+    width="880"
+    height="420"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Single-subject design phases (schematic). Baseline, intervention, and replication — not a failed RCT.
+    <span class="figure-credit">SLPWOW SLP News — practice pack — original editorial SVG. Not billing, legal, or clinical advice.</span>
+  </figcaption>
+</figure>

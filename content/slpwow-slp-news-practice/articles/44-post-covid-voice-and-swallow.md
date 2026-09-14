@@ -19,6 +19,7 @@ citations:
 status: draft
 stage: draft
 voice_check: human
+featured_image: assets/post-covid-voice-and-swallow/post-covid-voice-swallow.svg
 ---
 
 **Disclaimer.** Educational news briefing for SLPWOW. Not billing advice, not legal advice, not a treatment protocol, and not medical advice. Rules change by contractor, state, and calendar year. Verify the current CMS, MAC, state, or ASHA page before you act. This series does not evaluate patients and does not publish worksheets.
@@ -50,3 +51,19 @@ Breathing-swallow hierarchies. Vocal function exercise lists. Smell-training pho
 School SLPs met a quieter version: children whose first classroom years were a screen, teachers whose rooms never got quieter, a nurse’s office full of lingering cough. Not every cough is a swallow problem. Not every fog is a language disorder. The public pages give you permission to ask. They do not give you a screen you can run from a blog. Ask, refer, and refuse the branded six-week package until someone shows you the methods. That refusal is how this whole pack started.
 
 Essay 45 is a quieter, older neurodegenerative headline: Parkinson’s speech, and the difference between a public page and a trademarked program.
+
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/post-covid-voice-and-swallow/post-covid-voice-swallow.svg"
+    alt="Schematic of public health agency statements on post-COVID voice and swallow symptoms"
+    width="880"
+    height="420"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Post-COVID voice and swallow (schematic). Agency statements — not social-media treatment recipes.
+    <span class="figure-credit">SLPWOW SLP News — practice pack — original editorial SVG. Not billing, legal, or clinical advice.</span>
+  </figcaption>
+</figure>

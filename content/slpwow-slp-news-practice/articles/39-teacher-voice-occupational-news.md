@@ -18,6 +18,7 @@ citations:
 status: draft
 stage: draft
 voice_check: human
+featured_image: assets/teacher-voice-occupational-news/teacher-voice-occupational.svg
 ---
 
 **Disclaimer.** Educational news briefing for SLPWOW. Not billing advice, not legal advice, not a treatment protocol, and not medical advice. Rules change by contractor, state, and calendar year. Verify the current CMS, MAC, state, or ASHA page before you act. This series does not evaluate patients and does not publish worksheets.
@@ -51,3 +52,19 @@ A resonant-voice protocol. A “vocal hygiene” handout. Those objects exist in
 Substitute teachers and coaches live in the same hazard and get even less of the story. A Friday football gym is a voice environment. So is a cafeteria duty. If the only “voice plan” in the building is a flyer on the SLP’s door, the building has not made a plan. Occupational news is allowed to be this boring: hours, rooms, mics, leave. Therapy is what you add when those are not enough, or when the folds need a look. Start with the room. Then open the referral path. That order is the headline.
 
 Essay 40 leaves the staff lounge and walks into the other folklore we inherited: fluency, and the old instruction to pretend the stutter is not in the room.
+
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/teacher-voice-occupational-news/teacher-voice-occupational.svg"
+    alt="Schematic of occupational voice injury news themes for teachers"
+    width="880"
+    height="420"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Teacher voice occupational news (schematic). Classroom load and referral pathways — not a vocal hygiene worksheet.
+    <span class="figure-credit">SLPWOW SLP News — practice pack — original editorial SVG. Not billing, legal, or clinical advice.</span>
+  </figcaption>
+</figure>

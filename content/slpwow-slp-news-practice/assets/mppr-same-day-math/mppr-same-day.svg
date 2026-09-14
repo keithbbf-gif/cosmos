@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 420" role="img" aria-labelledby="title desc">
+  <title id="title">MPPR same-day schematic</title>
+  <desc id="desc">Schematic of multiple procedure payment reduction on same-day therapy codes.</desc>
+  <defs>
+<style>
+.bg { fill: #FAF9F7; }
+.title { font-family: Georgia, serif; font-size: 16px; font-weight: 600; fill: #1E293B; }
+.dek { font-family: system-ui, sans-serif; font-size: 11px; fill: #64748B; }
+.label { font-family: system-ui, sans-serif; font-size: 11px; fill: #64748B; }
+.strong { font-family: system-ui, sans-serif; font-size: 12px; font-weight: 600; fill: #1E293B; }
+.card { fill: #FFFFFF; stroke: #CBD5E1; stroke-width: 1; }
+.band-teal { fill: #CCFBF1; }
+.band-amber { fill: #FEF3C7; }
+.band-indigo { fill: #E0E7FF; }
+.accent-teal { fill: #0F766E; }
+.accent-amber { fill: #B45309; }
+.arrow { stroke: #0F766E; stroke-width: 2; fill: none; marker-end: url(#arrowhead); }
+.note { font-family: system-ui, sans-serif; font-size: 10px; fill: #64748B; }
+</style>
+  <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#0F766E"/>
+  </marker>
+  </defs>
+  <rect class="bg" width="880" height="420"/>
+  <text x="40" y="36" class="title">MPPR same-day</text>
+  <text x="40" y="56" class="dek">Not a coding class</text>
+  <rect class="card" x="40" y="76" width="800" height="300" rx="8"/>
+  <rect class="band-teal" x="56" y="92" width="768" height="52" rx="4"/>
+  <text x="68" y="114" class="strong">First code</text>
+  <text x="68" y="130" class="label">Full therapy payment rate</text>
+  <rect class="band-indigo" x="56" y="154" width="768" height="52" rx="4"/>
+  <text x="68" y="176" class="strong">Second code same day</text>
+  <text x="68" y="192" class="label">Reduced percentage — policy rule</text>
+  <rect class="band-amber" x="56" y="216" width="768" height="52" rx="4"/>
+  <text x="68" y="238" class="strong">Not a moral judgment</text>
+  <text x="68" y="254" class="label">Math on the claim</text>
+  <rect class="band-teal" x="56" y="278" width="768" height="52" rx="4"/>
+  <text x="68" y="300" class="strong">Verify</text>
+  <text x="68" y="316" class="label">CMS MPPR table · MAC article</text>
+  <text x="40" y="404" class="note">SLPWOW original schematic — typography only. No AI-generated faces.</text>
+</svg>

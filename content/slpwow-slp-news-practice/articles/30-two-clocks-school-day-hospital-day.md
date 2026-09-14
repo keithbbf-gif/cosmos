@@ -17,6 +17,7 @@ citations:
 status: draft
 stage: draft
 voice_check: human
+featured_image: assets/two-clocks-school-day-hospital-day/two-clocks.svg
 ---
 
 **Disclaimer.** Educational news briefing for SLPWOW. Not billing advice, not legal advice, not a treatment protocol, and not medical advice. Rules change by contractor, state, and calendar year. Verify the current CMS, MAC, state, or ASHA page before you act. This series does not evaluate patients and does not publish worksheets.
@@ -60,3 +61,19 @@ It is not a scheduling protocol. If your district wants a 3:1 model and your hos
 “I can do both jobs. I can’t use one clock for both jobs.” If a director wants you to, they want a cheaper universe. If a family is confused, they are not slow. They have been handed two watches and one word.
 
 Essay 31 is the backpack. What a school SLP can honestly do with a VFSS they did not attend.
+
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/two-clocks-school-day-hospital-day/two-clocks.svg"
+    alt="Schematic of school-day versus hospital-day documentation clocks for SLPs"
+    width="880"
+    height="420"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Two clocks (schematic). School IEP minutes and hospital medical records run on different timers.
+    <span class="figure-credit">SLPWOW SLP News — practice pack — original editorial SVG. Not billing, legal, or clinical advice.</span>
+  </figcaption>
+</figure>

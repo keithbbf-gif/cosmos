@@ -18,6 +18,7 @@ citations:
 status: draft
 stage: draft
 voice_check: human
+featured_image: assets/when-the-school-reads-a-swallow-study/swallow-study-handoff.svg
 ---
 
 **Disclaimer.** Educational news briefing for SLPWOW. Not billing advice, not legal advice, not a treatment protocol, and not medical advice. Rules change by contractor, state, and calendar year. Verify the current CMS, MAC, state, or ASHA page before you act. This series does not evaluate patients and does not publish worksheets.
@@ -59,3 +60,19 @@ Hospital says thickened liquids. Child drinks thin at grandma’s. School nurse 
 “I’ll read this as a dated medical document, translate it into our cafeteria language, and take it to the team. I will not rerun the fluoro at lunch, and I will not pretend the IEP can replace an order.” If the principal wants a protocol, they want a clinician and a policy, not a blog.
 
 Essay 32 stays on the medical clock: the word *skilled*, and why auditors still collect it even when you are tired of typing it.
+
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/when-the-school-reads-a-swallow-study/swallow-study-handoff.svg"
+    alt="Flow schematic from hospital swallow study report to school SLP file review"
+    width="880"
+    height="420"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Swallow study handoff (schematic). Hospital report enters the school file — not a standalone school protocol.
+    <span class="figure-credit">SLPWOW SLP News — practice pack — original editorial SVG. Not billing, legal, or clinical advice.</span>
+  </figcaption>
+</figure>

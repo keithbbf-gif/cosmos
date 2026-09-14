@@ -17,6 +17,7 @@ citations:
 status: draft
 stage: draft
 voice_check: human
+featured_image: assets/the-therapy-cap-is-gone/therapy-cap-timeline.svg
 ---
 
 **Disclaimer.** Educational news briefing for SLPWOW. Not billing advice, not legal advice, not a treatment protocol, and not medical advice. Rules change by contractor, state, and calendar year. Verify the current CMS, MAC, state, or ASHA page before you act. This series does not evaluate patients and does not publish worksheets.
@@ -58,3 +59,19 @@ If a family asks “so we can come forever,” the answer is the old answer: as 
 Because the CY 2026 transmittals are still spending ink on a 2018 repeal. Because ASHA is still spending a heading on it. Because hallway English has not caught up. News is sometimes the fact that an old fact has not arrived.
 
 The next pages are the machinery that replaced the cliff: the fee schedule in one paragraph, two conversion factors, same-day reductions, the modifier, the review line. None of them is a protocol. All of them are easier if you stop calling them a cap.
+
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/the-therapy-cap-is-gone/therapy-cap-timeline.svg"
+    alt="Timeline schematic of Medicare therapy cap repeal and remaining KX threshold policy"
+    width="880"
+    height="420"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Medicare therapy cap repeal (schematic). Cap gone; KX attestation and review thresholds still matter — verify CMS.
+    <span class="figure-credit">SLPWOW SLP News — practice pack — original editorial SVG. Not billing, legal, or clinical advice.</span>
+  </figcaption>
+</figure>

@@ -18,6 +18,7 @@ citations:
 status: draft
 stage: draft
 voice_check: human
+featured_image: assets/skilled-still-gets-audited/skilled-audit-card.svg
 ---
 
 **Disclaimer.** Educational news briefing for SLPWOW. Not billing advice, not legal advice, not a treatment protocol, and not medical advice. Rules change by contractor, state, and calendar year. Verify the current CMS, MAC, state, or ASHA page before you act. This series does not evaluate patients and does not publish worksheets.
@@ -57,3 +58,19 @@ A note that can take a question usually answers four ordinary things: what you a
 School Medicaid reviewers, when they exist, ask a cousin of the same four things in education clothes. If your district’s claiming vendor sells a “skilled” dropdown for an IEP service log, treat the dropdown as a reminder, not as the sentence. The sentence is still yours.
 
 Essay 33 is a school document people mash with IEPs as carelessly as they mash skilled with ‘progress’: the 504 plan, as news.
+
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/skilled-still-gets-audited/skilled-audit-card.svg"
+    alt="Schematic of skilled therapy documentation elements subject to Medicare audit"
+    width="880"
+    height="420"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Skilled documentation (schematic). Complexity and progression in the note — auditors still collect the word skilled.
+    <span class="figure-credit">SLPWOW SLP News — practice pack — original editorial SVG. Not billing, legal, or clinical advice.</span>
+  </figcaption>
+</figure>

@@ -18,6 +18,7 @@ citations:
 status: draft
 stage: draft
 voice_check: human
+featured_image: assets/hnc-survivorship-communication-news/hnc-survivorship.svg
 ---
 
 **Disclaimer.** Educational news briefing for SLPWOW. Not billing advice, not legal advice, not a treatment protocol, and not medical advice. Rules change by contractor, state, and calendar year. Verify the current CMS, MAC, state, or ASHA page before you act. This series does not evaluate patients and does not publish worksheets.
@@ -51,3 +52,19 @@ Radiation swallow exercise lists. TEP voicing steps. Device care. “Eat this on
 Forty-six pieces ago we started with a 6:41 a.m. PDF. The habits were small: methods first, dollars in English, two clocks, headlines that refuse to become homework. If a colleague wants a protocol from this folder, the folder will keep disappointing them. If they want a way to read the mail without losing their integrity, that was the job.
 
 Staged. Draft. Not live. The next reader is an editor with a license, not a sitemap.
+
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/hnc-survivorship-communication-news/hnc-survivorship.svg"
+    alt="Schematic of head and neck cancer survivorship communication themes in news coverage"
+    width="880"
+    height="420"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> HNC survivorship communication (schematic). Survivorship swallow and voice needs — verify oncology and ASHA guidance.
+    <span class="figure-credit">SLPWOW SLP News — practice pack — original editorial SVG. Not billing, legal, or clinical advice.</span>
+  </figcaption>
+</figure>

@@ -17,6 +17,7 @@ citations:
 status: draft
 stage: draft
 voice_check: human
+featured_image: assets/abn-when-medicare-may-not-pay/abn-patient-path.svg
 ---
 
 **Disclaimer.** Educational news briefing for SLPWOW. Not billing advice, not legal advice, not a treatment protocol, and not medical advice. Rules change by contractor, state, and calendar year. Verify the current CMS, MAC, state, or ASHA page before you act. This series does not evaluate patients and does not publish worksheets.
@@ -56,3 +57,19 @@ It will tell you the form is public, current, and meant to be given *before*, no
 A last, small honesty: some buildings use the ABN as a way to keep a family paying after the clinician has already decided the care is not skilled. That is not what the form was built for. If the care is not skilled, the adult sentence is discharge or a different payer, not a clipboard. If the care might be skilled and Medicare might still say no, the form has a job. Mixing those two stories is how people lose trust in both.
 
 Essay 22 is the document that often sits under the ABN: a local coverage determination that is law in one contractor’s neighborhood and a rumor in another.
+
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/abn-when-medicare-may-not-pay/abn-patient-path.svg"
+    alt="Flow schematic for Advance Beneficiary Notice when Medicare may not cover a service"
+    width="880"
+    height="420"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> ABN path (schematic). When Medicare may not pay — patient choice documented before service.
+    <span class="figure-credit">SLPWOW SLP News — practice pack — original editorial SVG. Not billing, legal, or clinical advice.</span>
+  </figcaption>
+</figure>

@@ -13,6 +13,8 @@ except ImportError:
 
 ROOT = pathlib.Path(__file__).resolve().parent
 ART = ROOT / "articles"
+ASSETS = ROOT / "assets"
+EMBEDS = ROOT / "embeds"
 REQUIRED = {
     "title",
     "slug",
@@ -86,6 +88,18 @@ def main() -> int:
             errors.append(f"{p.name}: slug {slug!r} mismatch")
         if "[CITE NEEDED]" in body:
             errors.append(f"{p.name}: unresolved [CITE NEEDED]")
+        if "<figure" not in body or "<figcaption" not in body:
+            errors.append(f"{p.name}: missing figure/figcaption embed")
+        if 'itemtype="https://schema.org/ImageObject"' not in body:
+            errors.append(f"{p.name}: missing ImageObject schema on figure")
+    for svg in ASSETS.rglob("*.svg"):
+        if "_shared" in svg.parts:
+            continue
+        body_svg = svg.read_text(encoding="utf-8")
+        if "<title" not in body_svg or "<desc" not in body_svg:
+            errors.append(f"{svg.relative_to(ROOT)}: missing title/desc")
+    if not (ROOT / "RIGHTS.md").is_file():
+        errors.append("RIGHTS.md missing")
     if errors:
         print("FAIL")
         for e in errors:

@@ -17,6 +17,7 @@ citations:
 status: draft
 stage: draft
 voice_check: human
+featured_image: assets/abstracts-are-not-the-study/abstract-vs-body.svg
 ---
 
 **Disclaimer.** Educational news briefing for SLPWOW. Not billing advice, not legal advice, not a treatment protocol, and not medical advice. Rules change by contractor, state, and calendar year. Verify the current CMS, MAC, state, or ASHA page before you act. This series does not evaluate patients and does not publish worksheets.
@@ -77,3 +78,19 @@ If step 3 says “not printed,” you do not have a quarrel with statistics. You
 Essay 01 was the map. This page is the first trap on the map. The next pages are the other traps: stars that are not sizes, single-subject papers graded with the wrong ruler, reviews that are shopping lists, journals that want your credit card more than your methods, preprints that have not met a reviewer, guidelines that get flattened into threads.
 
 The abstract will still be there at 6:41 a.m. You can let it wait until you have seen the table. The student in the waiting room will not mind. The PDF might.
+
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/abstracts-are-not-the-study/abstract-vs-body.svg"
+    alt="Split schematic: abstract claims versus methods and outcomes in the full study"
+    width="880"
+    height="420"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Abstract versus full study (schematic). The abstract is a summary; methods and outcomes live in the body.
+    <span class="figure-credit">SLPWOW SLP News — practice pack — original editorial SVG. Not billing, legal, or clinical advice.</span>
+  </figcaption>
+</figure>

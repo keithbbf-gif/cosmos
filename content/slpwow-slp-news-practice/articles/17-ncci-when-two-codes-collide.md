@@ -17,6 +17,7 @@ citations:
 status: draft
 stage: draft
 voice_check: human
+featured_image: assets/ncci-when-two-codes-collide/ncci-edits.svg
 ---
 
 **Disclaimer.** Educational news briefing for SLPWOW. Not billing advice, not legal advice, not a treatment protocol, and not medical advice. Rules change by contractor, state, and calendar year. Verify the current CMS, MAC, state, or ASHA page before you act. This series does not evaluate patients and does not publish worksheets.
@@ -52,3 +53,19 @@ Many state Medicaid programs and commercial plans borrow NCCI logic, or borrow a
 ## A closer
 
 Two codes can be clinically elegant together and administratively allergic. That allergy is published. It is updated. It is not a cap, not a review threshold, and not a reason to skip the look at the larynx. When in doubt, read the current row. When not in doubt, still glance at the quarter. Pride is how old edits become new denials.
+
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/ncci-when-two-codes-collide/ncci-edits.svg"
+    alt="Schematic of NCCI procedure-to-procedure edits blocking same-day code pairs"
+    width="880"
+    height="420"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> NCCI edits (schematic). Some code pairs cannot sit together on one claim — verify NCCI lookup.
+    <span class="figure-credit">SLPWOW SLP News — practice pack — original editorial SVG. Not billing, legal, or clinical advice.</span>
+  </figcaption>
+</figure>

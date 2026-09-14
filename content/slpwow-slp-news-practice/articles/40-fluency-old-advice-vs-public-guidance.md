@@ -17,6 +17,7 @@ citations:
 status: draft
 stage: draft
 voice_check: human
+featured_image: assets/fluency-old-advice-vs-public-guidance/fluency-guidance-shift.svg
 ---
 
 **Disclaimer.** Educational news briefing for SLPWOW. Not billing advice, not legal advice, not a treatment protocol, and not medical advice. Rules change by contractor, state, and calendar year. Verify the current CMS, MAC, state, or ASHA page before you act. This series does not evaluate patients and does not publish worksheets.
@@ -50,3 +51,19 @@ A 504 for extra time and a teacher who does not finish the child’s sentences (
 Adults who stutter are not a failed preschool story. Public pages exist for them too. Workplace discrimination, a physician who still says “slow down,” a dating script that treats the stutter as a reveal — those are 2026 headlines as much as any toddler post. This pack will not become an advocacy kit. It will say the silence folklore was always a poor fit for a person who already has a job and a mouth they live in. Mentioning the stutter in the room, when the person wants it mentioned, is not therapy. It is manners.
 
 Essay 41 is the other pediatric headline that sits at the lunch table: feeding, when AAP and ASHA share a press cycle and a worried parent.
+
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/fluency-old-advice-vs-public-guidance/fluency-guidance-shift.svg"
+    alt="Schematic contrasting outdated fluency advice with current public guidance"
+    width="880"
+    height="420"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Fluency guidance shift (schematic). Old ignore-it lore versus current early-support guidance — verify ASHA.
+    <span class="figure-credit">SLPWOW SLP News — practice pack — original editorial SVG. Not billing, legal, or clinical advice.</span>
+  </figcaption>
+</figure>

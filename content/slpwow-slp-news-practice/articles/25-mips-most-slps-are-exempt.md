@@ -18,6 +18,7 @@ citations:
 status: draft
 stage: draft
 voice_check: human
+featured_image: assets/mips-most-slps-are-exempt/mips-exempt-card.svg
 ---
 
 **Disclaimer.** Educational news briefing for SLPWOW. Not billing advice, not legal advice, not a treatment protocol, and not medical advice. Rules change by contractor, state, and calendar year. Verify the current CMS, MAC, state, or ASHA page before you act. This series does not evaluate patients and does not publish worksheets.
@@ -53,3 +54,19 @@ Qualifying APM participants get the larger conversion factor (essay 13). Most SL
 “MIPS is a real program. I’m going to check whether I’m even eligible before I build a second job out of it. ASHA’s last public read is that most of us aren’t.” If the slide deck author looks crushed, they can keep the deck for the people it was written for.
 
 That closes the outpatient-dollar wave. The next pieces walk into buildings that do not live on the Physician Fee Schedule: school Medicaid, IDEA, two clocks, a swallow study that arrives in a backpack. The dollars change religion. The need for English does not.
+
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/mips-most-slps-are-exempt/mips-exempt-card.svg"
+    alt="Schematic of MIPS participation thresholds showing most speech-language pathologists exempt"
+    width="880"
+    height="420"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> MIPS exemption (schematic). Most SLPs remain below participation thresholds — verify CMS QPP.
+    <span class="figure-credit">SLPWOW SLP News — practice pack — original editorial SVG. Not billing, legal, or clinical advice.</span>
+  </figcaption>
+</figure>

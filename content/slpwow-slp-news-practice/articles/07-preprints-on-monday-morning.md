@@ -17,6 +17,7 @@ citations:
 status: draft
 stage: draft
 voice_check: human
+featured_image: assets/preprints-on-monday-morning/preprint-pipeline.svg
 ---
 
 **Disclaimer.** Educational news briefing for SLPWOW. Not billing advice, not legal advice, not a treatment protocol, and not medical advice. Rules change by contractor, state, and calendar year. Verify the current CMS, MAC, state, or ASHA page before you act. This series does not evaluate patients and does not publish worksheets.
@@ -64,3 +65,19 @@ ASHA journals now live in a world where a paper might have been public for month
 If the text from your colleague is still sitting on your phone, you do not owe them a protocol by third period. You owe them a reading, or a “not today.” Either one is more scientific than a thumbs-up emoji under a claim that has not met a reviewer.
 
 Essay 08 is about the documents that *have* met a crowd of reviewers — guidelines — and what happens when a thread flattens them into a dare.
+
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/preprints-on-monday-morning/preprint-pipeline.svg"
+    alt="Flow schematic from preprint upload through peer review to published version of record"
+    width="880"
+    height="420"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Preprint to journal path (schematic). Posted early, reviewed later — not a finished clinical protocol.
+    <span class="figure-credit">SLPWOW SLP News — practice pack — original editorial SVG. Not billing, legal, or clinical advice.</span>
+  </figcaption>
+</figure>

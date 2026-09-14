@@ -18,6 +18,7 @@ citations:
 status: draft
 stage: draft
 voice_check: human
+featured_image: assets/lcd-vs-ncd-local-coverage/lcd-ncd-map.svg
 ---
 
 **Disclaimer.** Educational news briefing for SLPWOW. Not billing advice, not legal advice, not a treatment protocol, and not medical advice. Rules change by contractor, state, or calendar year. Verify the current CMS, MAC, state, or ASHA page before you act. This series does not evaluate patients and does not publish worksheets.
@@ -53,3 +54,19 @@ Search the contractor that actually processes *your* claims. Read the indication
 “National Medicare is a thin book. Our contractor’s LCD is the thick one. If you learned coverage in another state, look it up again.” If they want L34429 as an example of the *genre*, they can have the Coverage Database link. If they want to treat L34429 as Arkansas law, they need to check whether it is even their contractor.
 
 Essay 23 is the coverage story that kept changing with Congress instead of with a contractor: telehealth, extended again, still not a permanent sentence for SLPs.
+
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/lcd-vs-ncd-local-coverage/lcd-ncd-map.svg"
+    alt="Schematic map of National versus Local Coverage Determinations for Medicare SLP services"
+    width="880"
+    height="420"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> LCD versus NCD (schematic). National policy versus MAC-local rules — verify Medicare Coverage Database.
+    <span class="figure-credit">SLPWOW SLP News — practice pack — original editorial SVG. Not billing, legal, or clinical advice.</span>
+  </figcaption>
+</figure>

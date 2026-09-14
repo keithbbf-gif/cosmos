@@ -18,6 +18,7 @@ citations:
 status: draft
 stage: draft
 voice_check: human
+featured_image: assets/efficiency-adjustment-and-the-gpci-floor/gpci-efficiency.svg
 ---
 
 **Disclaimer.** Educational news briefing for SLPWOW. Not billing advice, not legal advice, not a treatment protocol, and not medical advice. Rules change by contractor, state, and calendar year. Verify the current CMS, MAC, state, or ASHA page before you act. This series does not evaluate patients and does not publish worksheets.
@@ -55,3 +56,19 @@ It will not give you a locality fee. It will not list every SLP code on the effi
 2026 is a year of stacked small machines: two factors, an efficiency harvest, a floor that vanished, an MPPR file that did not, a telehealth authority that got two more years. None of the machines is a cap. All of them are why “what did Medicare do to speech” is a bad question. Ask what they did to *this code, in this town, on this day*. Then open the CMS file, not a reel.
 
 Essay 25 is the quality-program door most SLPs never walk through, and why that absence is itself a headline.
+
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/efficiency-adjustment-and-the-gpci-floor/gpci-efficiency.svg"
+    alt="Schematic of GPCI floor and efficiency adjustment affecting Medicare therapy fees"
+    width="880"
+    height="420"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> GPCI floor and efficiency adjustment (schematic). Locality and budget-neutrality on fees — verify CMS final rule.
+    <span class="figure-credit">SLPWOW SLP News — practice pack — original editorial SVG. Not billing, legal, or clinical advice.</span>
+  </figcaption>
+</figure>

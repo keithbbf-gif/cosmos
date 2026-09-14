@@ -18,6 +18,7 @@ citations:
 status: draft
 stage: draft
 voice_check: human
+featured_image: assets/childhood-apraxia-headlines/cas-headlines.svg
 ---
 
 **Disclaimer.** Educational news briefing for SLPWOW. Not billing advice, not legal advice, not a treatment protocol, and not medical advice. Rules change by contractor, state, and calendar year. Verify the current CMS, MAC, state, or ASHA page before you act. This series does not evaluate patients and does not publish worksheets.
@@ -51,3 +52,19 @@ PROMPT hierarchies. DTTC steps. Integral stimulation lists. Home drill sheets. T
 Genetic headlines will keep arriving. A rare-gene story is not a clinic algorithm, and it is not a reason to tell every family to sequence first and talk later. If a paper names a gene and a speech profile, read it as a paper (essay 01). If a lab markets a panel in the same week, read the conflict line (essay 09). The child in front of you still needs a way to say something today. That way might be AAC (essay 43) while the noun debate continues. Headlines that delay communication to protect a future label have the order wrong.
 
 Essay 43 is the tool that should have been in the room the whole time: AAC as access news, not as an app store ranking.
+
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/childhood-apraxia-headlines/cas-headlines.svg"
+    alt="Schematic of childhood apraxia of speech headlines versus assessment pathways"
+    width="880"
+    height="420"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Childhood apraxia headlines (schematic). Labels in news are not assessments — verify clinical evaluation paths.
+    <span class="figure-credit">SLPWOW SLP News — practice pack — original editorial SVG. Not billing, legal, or clinical advice.</span>
+  </figcaption>
+</figure>

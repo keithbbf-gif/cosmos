@@ -18,6 +18,7 @@ citations:
 status: draft
 stage: draft
 voice_check: human
+featured_image: assets/telehealth-extended-not-settled/telehealth-status.svg
 ---
 
 **Disclaimer.** Educational news briefing for SLPWOW. Not billing advice, not legal advice, not a treatment protocol, and not medical advice. Rules change by contractor, state, and calendar year. Verify the current CMS, MAC, state, or ASHA page before you act. This series does not evaluate patients and does not publish worksheets.
@@ -53,3 +54,19 @@ A director who heard “CMS made SLP telehealth permanent” and a director who 
 “The codes are on CMS’s telehealth list for keeps, as of the last fee schedule. Our *authority to be the person on the call* is a law that currently ends December 31, 2027. I’m not going to collapse those sentences.” If someone wants the FAQ, it is a public PDF. If someone wants a how-to for a first tele-session, they can have a supervisor, not a news brief.
 
 Essay 24 is the other 2026 fee-schedule weather: an efficiency adjustment some codes got, and a GPCI floor some places lost. Also two clocks. Also not a raise until you do the arithmetic.
+
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/telehealth-extended-not-settled/telehealth-status.svg"
+    alt="Timeline schematic of Medicare telehealth extensions for speech-language pathology"
+    width="880"
+    height="420"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Medicare SLP telehealth (schematic). Extended provisions with moving dates — verify CMS and ASHA.
+    <span class="figure-credit">SLPWOW SLP News — practice pack — original editorial SVG. Not billing, legal, or clinical advice.</span>
+  </figcaption>
+</figure>

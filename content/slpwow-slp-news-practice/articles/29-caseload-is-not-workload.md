@@ -19,6 +19,7 @@ citations:
 status: draft
 stage: draft
 voice_check: human
+featured_image: assets/caseload-is-not-workload/caseload-workload.svg
 ---
 
 **Disclaimer.** Educational news briefing for SLPWOW. Not billing advice, not legal advice, not a treatment protocol, and not medical advice. Rules change by contractor, state, and calendar year. Verify the current CMS, MAC, state, or ASHA page before you act. This series does not evaluate patients and does not publish worksheets.
@@ -54,3 +55,19 @@ It is not a calculator for your district. ASHA has a workload calculator for mem
 The other misuse of the photograph is to treat “40 manageable” as a new national cap ASHA “really” wants. They said they would not give you one. A median of what respondents called livable is a survey answer, not a position statement. Use it as a conversation starter. Do not launder it as a rule and then blame Rockville when a board attorney asks where the number lives.
 
 Essay 30 is what the pie feels like when the same person also works a Friday hospital PRN. Two clocks. One nervous system.
+
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/caseload-is-not-workload/caseload-workload.svg"
+    alt="Schematic separating school SLP caseload counts from total workload"
+    width="880"
+    height="420"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Caseload versus workload (schematic). Headcount is not minutes, paperwork, or travel — verify ASHA schools data.
+    <span class="figure-credit">SLPWOW SLP News — practice pack — original editorial SVG. Not billing, legal, or clinical advice.</span>
+  </figcaption>
+</figure>

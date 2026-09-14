@@ -18,6 +18,7 @@ citations:
 status: draft
 stage: draft
 voice_check: human
+featured_image: assets/pediatric-feeding-shared-headlines/pediatric-feeding-headlines.svg
 ---
 
 **Disclaimer.** Educational news briefing for SLPWOW. Not billing advice, not legal advice, not a treatment protocol, and not medical advice. Rules change by contractor, state, and calendar year. Verify the current CMS, MAC, state, or ASHA page before you act. This series does not evaluate patients and does not publish worksheets.
@@ -49,3 +50,19 @@ If a 2024 or 2025 AAP clinical report is the object your department is arguing a
 Insurance nouns lag the research nouns. A clinic may need a swallow code, a GI code, and a behavioral code to describe one dinner. Families hear that lag as “nobody agrees what is wrong.” You can say: the shared name is new; the payers are old; the child is still hungry. That sentence is news. It is not a prior-auth script. If your state Medicaid still has no pediatric feeding benefit language, that is a state headline worth taking to the association, not a reason to invent a home program on a blog.
 
 Essay 42 is the other pediatric noun that collects wait-and-see: childhood apraxia, the headlines, and the scar.
+
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/pediatric-feeding-shared-headlines/pediatric-feeding-headlines.svg"
+    alt="Schematic when AAP and ASHA share pediatric feeding headlines with distinct professional lenses"
+    width="880"
+    height="420"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Pediatric feeding headlines (schematic). Shared news with different professional lenses — verify both societies.
+    <span class="figure-credit">SLPWOW SLP News — practice pack — original editorial SVG. Not billing, legal, or clinical advice.</span>
+  </figcaption>
+</figure>

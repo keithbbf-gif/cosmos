@@ -34,10 +34,11 @@ If a plugin strips blockquotes on import, put the disclaimer in a Custom HTML bl
 1. Copy the repo folder onto a machine that can reach staging WP.
 2. Convert MD → Gutenberg with a tool that preserves headings. Test one post (`01`) first.
 3. Set author to a holding user (`editorial-drafts`), not a made-up CCC-SLP who is not on the license wall.
-4. Featured image: no stock “sad elder with a sippy cup” as if it were a patient. No clinic photos of real patients without a signed release (this pack has none).
-5. Disable “related services” / booking widgets on these posts until claims review.
-6. `noindex, nofollow` on staging. Confirm robots and site visibility.
-7. Keep `status=draft`. If the importer offers “publish,” decline.
+4. Featured image: use the pack SVG for that slug (`featured_image` in front matter → upload SVG or exported PNG). No stock “sad elder with a sippy cup” as if it were a patient. No clinic photos of real patients without a signed release (this pack has none). Rights: `RIGHTS.md`.
+5. Preserve `<figure>` / `<figcaption>` and `ImageObject` microdata from the markdown embeds (`embeds/<slug>.md`).
+6. Disable “related services” / booking widgets on these posts until claims review.
+7. `noindex, nofollow` on staging. Confirm robots and site visibility.
+8. Keep `status=draft`. If the importer offers “publish,” decline.
 
 ## Things that must not auto-run
 

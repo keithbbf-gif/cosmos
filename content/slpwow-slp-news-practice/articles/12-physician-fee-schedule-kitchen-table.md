@@ -19,6 +19,7 @@ citations:
 status: draft
 stage: draft
 voice_check: human
+featured_image: assets/physician-fee-schedule-kitchen-table/pfs-kitchen-table.svg
 ---
 
 **Disclaimer.** Educational news briefing for SLPWOW. Not billing advice, not legal advice, not a treatment protocol, and not medical advice. Rules change by contractor, state, and calendar year. Verify the current CMS, MAC, state, or ASHA page before you act. This series does not evaluate patients and does not publish worksheets.
@@ -60,3 +61,19 @@ When the July proposed rule and the November final rule land, ignore the first a
 If you can hold those four facts, you can sit in a staff meeting without becoming the person who only heard a podcast.
 
 The kitchen-table paragraph is still true if you forget the rest. RVUs times a factor, adjusted for place. Everything else is weather on top of arithmetic.
+
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/physician-fee-schedule-kitchen-table/pfs-kitchen-table.svg"
+    alt="Flow schematic from RVU components through conversion factor to Medicare allowed amount"
+    width="880"
+    height="420"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Physician Fee Schedule (schematic). RVUs, conversion factor, and locality — verify the live CMS table.
+    <span class="figure-credit">SLPWOW SLP News — practice pack — original editorial SVG. Not billing, legal, or clinical advice.</span>
+  </figcaption>
+</figure>

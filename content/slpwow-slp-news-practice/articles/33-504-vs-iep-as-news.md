@@ -18,6 +18,7 @@ citations:
 status: draft
 stage: draft
 voice_check: human
+featured_image: assets/504-vs-iep-as-news/504-iep-compare.svg
 ---
 
 **Disclaimer.** Educational news briefing for SLPWOW. Not billing advice, not legal advice, not a treatment protocol, and not medical advice. Rules change by contractor, state, and calendar year. Verify the current CMS, MAC, state, or ASHA page before you act. This series does not evaluate patients and does not publish worksheets.
@@ -53,3 +54,19 @@ This page will not list the accommodations you should use. Lists become protocol
 Traveling CFs mash the rooms because graduate school taught one “paperwork” unit. Ask which statute the meeting is under before you speak. An IEP team can discuss specialized instruction. A 504 meeting can discuss access. If you start listing therapy goals in a 504 room, someone will write them down as if they were FAPE minutes, and then no one will own them when the device breaks. If you start listing only accommodations in an IEP room that already found a speech disability, you may have shrunk a service without saying so. The statute you are in should change your verbs. That is not lawyer work. That is literacy.
 
 Essay 34 is the money version of the same mash: who pays for related services when school, Medicaid, and a parent’s plan are all in the parking lot.
+
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/504-vs-iep-as-news/504-iep-compare.svg"
+    alt="Schematic comparing Section 504 accommodations with IDEA individualized education programs"
+    width="880"
+    height="420"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> 504 versus IEP (schematic). Accommodations civil-rights frame versus special education services — verify ED guidance.
+    <span class="figure-credit">SLPWOW SLP News — practice pack — original editorial SVG. Not billing, legal, or clinical advice.</span>
+  </figcaption>
+</figure>

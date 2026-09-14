@@ -17,6 +17,7 @@ citations:
 status: draft
 stage: draft
 voice_check: human
+featured_image: assets/mppr-same-day-math/mppr-same-day.svg
 ---
 
 **Disclaimer.** Educational news briefing for SLPWOW. Not billing advice, not legal advice, not a treatment protocol, and not medical advice. Rules change by contractor, state, and calendar year. Verify the current CMS, MAC, state, or ASHA page before you act. This series does not evaluate patients and does not publish worksheets.
@@ -52,3 +53,19 @@ If you need a scenario, get it from ASHA or from your MAC on the day you need it
 “Same patient, same day, more than one therapy service — Medicare halves the practice-expense part of the extras. That’s MPPR. It’s old. It’s still on.” If someone wants to know which of *their* codes sits on the list, they can open the CMS ZIP. If someone wants to know how to re-sequence a day to maximize payment, they have left news and entered a consulting product. This series does not sell that product.
 
 Essay 15 is the modifier people still confuse with a cap. MPPR can apply whether or not you ever see a KX. They stack. They are still not a cliff.
+
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/mppr-same-day-math/mppr-same-day.svg"
+    alt="Schematic of Medicare multiple procedure payment reduction for same-day therapy codes"
+    width="880"
+    height="420"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> MPPR same-day math (schematic). Second code reduced per policy — verify CMS table, not a worksheet.
+    <span class="figure-credit">SLPWOW SLP News — practice pack — original editorial SVG. Not billing, legal, or clinical advice.</span>
+  </figcaption>
+</figure>

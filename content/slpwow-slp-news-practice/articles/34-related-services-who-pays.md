@@ -18,6 +18,7 @@ citations:
 status: draft
 stage: draft
 voice_check: human
+featured_image: assets/related-services-who-pays/related-services-pay.svg
 ---
 
 **Disclaimer.** Educational news briefing for SLPWOW. Not billing advice, not legal advice, not a treatment protocol, and not medical advice. Rules change by contractor, state, and calendar year. Verify the current CMS, MAC, state, or ASHA page before you act. This series does not evaluate patients and does not publish worksheets.
@@ -53,3 +54,19 @@ It will not tell you how to stack a school claim and a clinic claim. It will not
 “The school owes the related service if the IEP says so, even if every payer says no. Medicaid might chip in if our state built that door. A clinic is a third wallet, not a translation of the IEP.” If someone wants the 2023 guide, send the PDF. If they want you to become the revenue cycle, they want a different job description.
 
 That closes the school-vs-medical wave. The last twelve pieces are practice-area *headlines*: IDDSI versions, thickened-liquid evidence, FEES vs VFSS access, PPI and voice, teacher voice, fluency folklore, pediatric feeding, CAS, AAC, post-COVID, Parkinson, head and neck cancer. Still news. Still no protocols. Still no worksheets.
+
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/related-services-who-pays/related-services-pay.svg"
+    alt="Flow schematic of payment responsibility for IDEA related services including speech-language pathology"
+    width="880"
+    height="420"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Related services payment (schematic). School obligation when eligible — separate from private insurance files.
+    <span class="figure-credit">SLPWOW SLP News — practice pack — original editorial SVG. Not billing, legal, or clinical advice.</span>
+  </figcaption>
+</figure>

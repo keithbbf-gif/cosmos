@@ -18,6 +18,7 @@ citations:
 status: draft
 stage: draft
 voice_check: human
+featured_image: assets/pdpm-speech-is-a-component/pdpm-speech-component.svg
 ---
 
 **Disclaimer.** Educational news briefing for SLPWOW. Not billing advice, not legal advice, not a treatment protocol, and not medical advice. Rules change by contractor, state, and calendar year. Verify the current CMS, MAC, state, or ASHA page before you act. This series does not evaluate patients and does not publish worksheets.
@@ -59,3 +60,19 @@ It is not a protocol for treating dysphagia so the diet code looks a certain way
 ## A hallway version
 
 “We’re not paid for SLP minutes under Part A anymore. We’re paid a speech component that cares whether this person is neurologic, cognitively impaired, on a changed diet, or has a swallow problem — and whether the MDS tells that truth.” If someone wants the twelve-group table, CMS already printed it. If someone wants a treatment plan, they can have a licensed clinician and a chart, not this URL.
+
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/pdpm-speech-is-a-component/pdpm-speech-component.svg"
+    alt="Schematic of speech-language pathology inputs to PDPM case-mix in skilled nursing"
+    width="880"
+    height="420"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> PDPM speech component (schematic). SLP inputs feed case-mix — not leftover outpatient minutes.
+    <span class="figure-credit">SLPWOW SLP News — practice pack — original editorial SVG. Not billing, legal, or clinical advice.</span>
+  </figcaption>
+</figure>

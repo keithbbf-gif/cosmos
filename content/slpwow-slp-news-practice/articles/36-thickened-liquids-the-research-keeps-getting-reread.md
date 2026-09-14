@@ -19,6 +19,7 @@ citations:
 status: draft
 stage: draft
 voice_check: human
+featured_image: assets/thickened-liquids-the-research-keeps-getting-reread/thickened-liquids-evidence.svg
 ---
 
 **Disclaimer.** Educational news briefing for SLPWOW. Not billing advice, not legal advice, not a treatment protocol, and not medical advice. Rules change by contractor, state, and calendar year. Verify the current CMS, MAC, state, or ASHA page before you act. This series does not evaluate patients and does not publish worksheets.
@@ -54,3 +55,19 @@ It does not mean a protocol I will now list. It does not mean “water protocol�
 “Thicker often looks safer on a study. Pneumonia trials have not given us a clean win, and dehydration is not imaginary. I’m not going to pretend one paper ended the argument.” If a medical director wants the citations, they are in the bibliography. If they want a house algorithm, they want a committee and a date, not a blog.
 
 Essay 37 is the access headline behind the argument: FEES vs VFSS, not as a methods class, as a news story about who can get which look.
+
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/thickened-liquids-the-research-keeps-getting-reread/thickened-liquids-evidence.svg"
+    alt="Timeline schematic of recurring thickened-liquid research headlines in dysphagia news"
+    width="880"
+    height="420"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Thickened liquids evidence (schematic). Research cycles in headlines — not a home thickening protocol.
+    <span class="figure-credit">SLPWOW SLP News — practice pack — original editorial SVG. Not billing, legal, or clinical advice.</span>
+  </figcaption>
+</figure>

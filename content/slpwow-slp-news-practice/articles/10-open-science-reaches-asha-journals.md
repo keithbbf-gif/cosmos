@@ -20,6 +20,7 @@ citations:
 status: draft
 stage: draft
 voice_check: human
+featured_image: assets/open-science-reaches-asha-journals/open-science-badges.svg
 ---
 
 **Disclaimer.** Educational news briefing for SLPWOW. Not billing advice, not legal advice, not a treatment protocol, and not medical advice. Rules change by contractor, state, and calendar year. Verify the current CMS, MAC, state, or ASHA page before you act. This series does not evaluate patients and does not publish worksheets.
@@ -65,3 +66,19 @@ Ten pieces ago we started with a 6:41 a.m. PDF. The habits are small on purpose.
 None of that is a protocol. All of it is how you keep your integrity when the next abstract wants your Monday.
 
 The next wave leaves the journal. CMS does not offer badges. It offers transmittals, conversion factors, and a modifier people still call a cap. We will not file a claim. We will say what the public page said, in English.
+
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/open-science-reaches-asha-journals/open-science-badges.svg"
+    alt="Schematic of open-science policies and badges at ASHA journals"
+    width="880"
+    height="420"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Open science at ASHA journals (schematic). Data statements and badges describe transparency, not automatic truth.
+    <span class="figure-credit">SLPWOW SLP News — practice pack — original editorial SVG. Not billing, legal, or clinical advice.</span>
+  </figcaption>
+</figure>

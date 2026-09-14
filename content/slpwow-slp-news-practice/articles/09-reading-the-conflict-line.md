@@ -17,6 +17,7 @@ citations:
 status: draft
 stage: draft
 voice_check: human
+featured_image: assets/reading-the-conflict-line/coi-line-anatomy.svg
 ---
 
 **Disclaimer.** Educational news briefing for SLPWOW. Not billing advice, not legal advice, not a treatment protocol, and not medical advice. Rules change by contractor, state, and calendar year. Verify the current CMS, MAC, state, or ASHA page before you act. This series does not evaluate patients and does not publish worksheets.
@@ -62,3 +63,19 @@ In your own writing — a note, a blog, a talk — print yours. If you have none
 We will not run a ledger of which researcher is “safe.” We will not tell you to boycott a journal. We will not pretend SLPWOW has no interest in your attention. This is a news pack for a site that wants readers. That is a conflict of a sort. The counterweight is the bibliography and the refusal to sell you a protocol.
 
 Essay 10 closes the research-literacy wave with something the ASHA journals actually changed: open science as policy, not as a personality. Then we leave the PDF and walk into CMS, where the conflicts wear the names of statutes.
+
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/reading-the-conflict-line/coi-line-anatomy.svg"
+    alt="Schematic anatomy of a research conflict-of-interest disclosure line"
+    width="880"
+    height="420"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Conflict-of-interest line (schematic). Funding and employment context — not automatic fraud, but read methods slowly.
+    <span class="figure-credit">SLPWOW SLP News — practice pack — original editorial SVG. Not billing, legal, or clinical advice.</span>
+  </figcaption>
+</figure>

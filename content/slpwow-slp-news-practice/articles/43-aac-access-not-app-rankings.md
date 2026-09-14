@@ -17,6 +17,7 @@ citations:
 status: draft
 stage: draft
 voice_check: human
+featured_image: assets/aac-access-not-app-rankings/aac-access.svg
 ---
 
 **Disclaimer.** Educational news briefing for SLPWOW. Not billing advice, not legal advice, not a treatment protocol, and not medical advice. Rules change by contractor, state, and calendar year. Verify the current CMS, MAC, state, or ASHA page before you act. This series does not evaluate patients and does not publish worksheets.
@@ -54,3 +55,19 @@ Core-vocabulary lists to photocopy. Prompting hierarchies. “Monday through Fri
 Bilingual access is its own headline and still gets dropped from the listicles. A device that only speaks the school language is a half door. ASHA’s public bilingual pages and the NJC’s work both point at the obvious: the home language belongs on the system if the home is going to use it. That is not a feature-match cookbook. It is a reason to reject a ranking that never asked what the grandmother speaks. If your vendor demo is English-only and your caseload is not, the demo is the news.
 
 Essay 44 is the infection that put voice and swallow on the front page for people who had never met us: post-COVID communication, and what public agencies still actually say.
+
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/aac-access-not-app-rankings/aac-access.svg"
+    alt="Schematic prioritizing AAC access and funding over consumer app rankings in news"
+    width="880"
+    height="420"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> AAC access (schematic). Funding and team trials beat app-store rankings in the news.
+    <span class="figure-credit">SLPWOW SLP News — practice pack — original editorial SVG. Not billing, legal, or clinical advice.</span>
+  </figcaption>
+</figure>

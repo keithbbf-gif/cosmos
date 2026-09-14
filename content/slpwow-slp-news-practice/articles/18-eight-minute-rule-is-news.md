@@ -17,6 +17,7 @@ citations:
 status: draft
 stage: draft
 voice_check: human
+featured_image: assets/eight-minute-rule-is-news/eight-minute-rule.svg
 ---
 
 **Disclaimer.** Educational news briefing for SLPWOW. Not billing advice, not legal advice, not a treatment protocol, and not medical advice. Rules change by contractor, state, and calendar year. Verify the current CMS, MAC, state, or ASHA page before you act. This series does not evaluate patients and does not publish worksheets.
@@ -56,3 +57,19 @@ If you need the table, open the IOM or your MAC. If you need a department in-ser
 “Medicare timed codes aren’t ‘every 15 minutes, bill one,’ and they aren’t ‘seven and a half and you’re in.’ They add the day’s timed minutes, then hand out a limited number of units. Most of my codes aren’t in that pot.” If someone looks disappointed that you will not draw the grid on a napkin, they can have the First Coast URL. Napkins become policy. Policy should come from the manual.
 
 Essay 19 leaves the outpatient minute pot entirely. In a SNF, PDPM does not pay you for the minutes. It pays a component that was supposed to follow the person, not the clock. That was the whole point of the remodel. Whether the remodel felt like a raise is a different, local story.
+
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/eight-minute-rule-is-news/eight-minute-rule.svg"
+    alt="Schematic of Medicare eight-minute rule unit thresholds for timed therapy codes"
+    width="880"
+    height="420"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Eight-minute rule (schematic). Timed units from documented minutes — verify CMS guide, not a cheat sheet.
+    <span class="figure-credit">SLPWOW SLP News — practice pack — original editorial SVG. Not billing, legal, or clinical advice.</span>
+  </figcaption>
+</figure>

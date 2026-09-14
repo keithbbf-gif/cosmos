@@ -17,6 +17,7 @@ citations:
 status: draft
 stage: draft
 voice_check: human
+featured_image: assets/effect-sizes-and-p-values/p-value-vs-effect.svg
 ---
 
 **Disclaimer.** Educational news briefing for SLPWOW. Not billing advice, not legal advice, not a treatment protocol, and not medical advice. Rules change by contractor, state, and calendar year. Verify the current CMS, MAC, state, or ASHA page before you act. This series does not evaluate patients and does not publish worksheets.
@@ -68,3 +69,19 @@ You do not need to deliver a lecture on Neyman and Pearson. You can say: “What
 If the person who forwarded the abstract looks disappointed, that is all right. Disappointment is cheaper than a department-wide habit built on a star.
 
 Essay 01 asked you to start in Methods. Essay 02 asked you not to marry the abstract. This page asks you not to marry the asterisk. The next one is about the designs that do not even pretend to be a big trial — and why they still belong in a field that treats one person at a time.
+
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/effect-sizes-and-p-values/p-value-vs-effect.svg"
+    alt="Schematic: p-value does not measure effect size or clinical importance for SLP practice"
+    width="880"
+    height="420"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> p-value versus effect size (schematic). Statistical significance is not the size of a change on your caseload.
+    <span class="figure-credit">SLPWOW SLP News — practice pack — original editorial SVG. Not billing, legal, or clinical advice.</span>
+  </figcaption>
+</figure>

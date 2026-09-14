@@ -17,6 +17,7 @@ citations:
 status: draft
 stage: draft
 voice_check: human
+featured_image: assets/targeted-medical-review-three-thousand/tmr-threshold.svg
 ---
 
 **Disclaimer.** Educational news briefing for SLPWOW. Not billing advice, not legal advice, not a treatment protocol, and not medical advice. Rules change by contractor, state, and calendar year. Verify the current CMS, MAC, state, or ASHA page before you act. This series does not evaluate patients and does not publish worksheets.
@@ -56,3 +57,19 @@ ASHA points members to pages on manual medical review. Those pages change. This 
 If you want a political opinion about whether $3,000 is the right number, write your member of Congress. If you want the current number, write CMS’s Therapy Services URL on a sticky note and look at it once a year. In 2026 the sticky note still says three thousand, and still does not say cap.
 
 Contractors also review for reasons that never touch this line: a modifier pattern, a same-day pair that NCCI hates (essay 17), a complaint, a probe of a provider type. Teaching staff that “we’re safe under $3,000” is how thin notes survive until a different letter arrives. The dollar is a spotlight. It is not a bunker.
+
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/targeted-medical-review-three-thousand/tmr-threshold.svg"
+    alt="Schematic of Medicare targeted medical review threshold for outpatient therapy spending"
+    width="880"
+    height="420"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Targeted medical review threshold (schematic). Dollar line triggers review — verify current CMS transmittal.
+    <span class="figure-credit">SLPWOW SLP News — practice pack — original editorial SVG. Not billing, legal, or clinical advice.</span>
+  </figcaption>
+</figure>

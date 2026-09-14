@@ -18,6 +18,7 @@ citations:
 status: draft
 stage: draft
 voice_check: human
+featured_image: assets/fees-vs-vfss-access-headlines/fees-vfss-access.svg
 ---
 
 **Disclaimer.** Educational news briefing for SLPWOW. Not billing advice, not legal advice, not a treatment protocol, and not medical advice. Rules change by contractor, state, and calendar year. Verify the current CMS, MAC, state, or ASHA page before you act. This series does not evaluate patients and does not publish worksheets.
@@ -55,3 +56,19 @@ ASHA’s swallow pages describe both tools as part of a comprehensive look. Comp
 “I want the look that answers the question we have, in the building we have, on the day we have. I’m not going to fight a holy war about scopes versus fluoro, and I’m not going to write a protocol on a news site.” If a CFO asks why the wait list is a safety issue, that is a conversation worth having in English. If a vendor asks you to demo a scope on a mannequin for a reel, that is a different conversation.
 
 Essay 38 leaves the pharynx’s logistics and walks into a drug that became a voice habit: PPI for hoarseness, and the ENT guideline that said not from symptoms alone.
+
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/fees-vs-vfss-access-headlines/fees-vfss-access.svg"
+    alt="Schematic contrasting FEES and VFSS access and coverage headlines"
+    width="880"
+    height="420"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> FEES versus VFSS access (schematic). Setting and wait-time news — not a protocol ranking.
+    <span class="figure-credit">SLPWOW SLP News — practice pack — original editorial SVG. Not billing, legal, or clinical advice.</span>
+  </figcaption>
+</figure>

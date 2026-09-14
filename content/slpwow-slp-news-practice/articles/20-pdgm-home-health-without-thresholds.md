@@ -18,6 +18,7 @@ citations:
 status: draft
 stage: draft
 voice_check: human
+featured_image: assets/pdgm-home-health-without-thresholds/pdgm-no-thresholds.svg
 ---
 
 **Disclaimer.** Educational news briefing for SLPWOW. Not billing advice, not legal advice, not a treatment protocol, and not medical advice. Rules change by contractor, state, and calendar year. Verify the current CMS, MAC, state, or ASHA page before you act. This series does not evaluate patients and does not publish worksheets.
@@ -49,3 +50,19 @@ It is not outpatient Part B. A person who “graduates” from home health and w
 “Home health Medicare doesn’t pay us extra for hitting a visit count anymore. It pays a 30-day group based on why they’re home, how they function, and what else is wrong. Speech can still belong on the plan in any group. The diagnosis is not the plan.” If someone wants the 432-cell diagram, CMS already drew it. If someone wants a session outline, they can close this tab.
 
 Essay 21 leaves prospective payment and returns to a piece of paper a person signs when Medicare might not pay: the ABN. Different setting, same need for English.
+
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/pdgm-home-health-without-thresholds/pdgm-no-thresholds.svg"
+    alt="Schematic of home health PDGM payment without therapy visit thresholds"
+    width="880"
+    height="420"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> PDGM home health (schematic). Payment groups without visit-count cliffs — verify CMS HH policy.
+    <span class="figure-credit">SLPWOW SLP News — practice pack — original editorial SVG. Not billing, legal, or clinical advice.</span>
+  </figcaption>
+</figure>

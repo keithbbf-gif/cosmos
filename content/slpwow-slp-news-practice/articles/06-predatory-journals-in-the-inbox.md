@@ -17,6 +17,7 @@ citations:
 status: draft
 stage: draft
 voice_check: human
+featured_image: assets/predatory-journals-in-the-inbox/predatory-inbox-card.svg
 ---
 
 **Disclaimer.** Educational news briefing for SLPWOW. Not billing advice, not legal advice, not a treatment protocol, and not medical advice. Rules change by contractor, state, and calendar year. Verify the current CMS, MAC, state, or ASHA page before you act. This series does not evaluate patients and does not publish worksheets.
@@ -66,3 +67,19 @@ This is not a war on open access. Open access at a society journal or a universi
 It is permission to treat flattery as a diagnostic sign.
 
 Essay 07 is the cousin problem: papers that have not been reviewed yet, sitting on a preprint server with a DOI and a tweet. Those are not predatory. They are unfinished. Unfinished is a different kind of danger, and a different kind of use.
+
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/predatory-journals-in-the-inbox/predatory-inbox-card.svg"
+    alt="Schematic inbox card with predatory journal red flags for communication sciences authors"
+    width="880"
+    height="420"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Predatory journal invitation (schematic). Mimic names, rapid accept, APC before review — verify with a librarian.
+    <span class="figure-credit">SLPWOW SLP News — practice pack — original editorial SVG. Not billing, legal, or clinical advice.</span>
+  </figcaption>
+</figure>

@@ -18,6 +18,7 @@ citations:
 status: draft
 stage: draft
 voice_check: human
+featured_image: assets/guidelines-are-not-viral-threads/guideline-vs-thread.svg
 ---
 
 **Disclaimer.** Educational news briefing for SLPWOW. Not billing advice, not legal advice, not a treatment protocol, and not medical advice. Rules change by contractor, state, and calendar year. Verify the current CMS, MAC, state, or ASHA page before you act. This series does not evaluate patients and does not publish worksheets.
@@ -59,3 +60,19 @@ If your team’s actual rule is a hospital policy, say that too. Local policy ca
 We will name them when they are the news: hoarseness and PPI, IDDSI as a framework ASHA supports but does not mandate, ASHA’s refusal to set a national caseload number. We will not turn them into a how-to. If a sentence would let you skip an exam or start an exercise list, it does not belong here.
 
 The next essay is the line many guidelines print in 8-point type: who paid, who consulted, who owns the device. That line is not gossip. It is part of the methods.
+
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/guidelines-are-not-viral-threads/guideline-vs-thread.svg"
+    alt="Schematic contrasting clinical practice guidelines with viral social media summaries"
+    width="880"
+    height="420"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Clinical guideline versus viral thread (schematic). Panels rate evidence; threads cherry-pick headlines.
+    <span class="figure-credit">SLPWOW SLP News — practice pack — original editorial SVG. Not billing, legal, or clinical advice.</span>
+  </figcaption>
+</figure>

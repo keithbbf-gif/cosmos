@@ -18,6 +18,7 @@ citations:
 status: draft
 stage: draft
 voice_check: human
+featured_image: assets/kx-modifier-is-not-a-cap/kx-not-a-cap.svg
 ---
 
 **Disclaimer.** Educational news briefing for SLPWOW. Not billing advice, not legal advice, not a treatment protocol, and not medical advice. Rules change by contractor, state, and calendar year. Verify the current CMS, MAC, state, or ASHA page before you act. This series does not evaluate patients and does not publish worksheets.
@@ -59,3 +60,19 @@ Targeted medical review sits at $3,000 for PT+SLP combined (and $3,000 for OT) t
 If you need a number for a meeting in 2026, the public number is $2,480. If you need a process, close this tab and open your MAC. The letters K and X will still be there. They still will not mean “cap.”
 
 One more habit that keeps the ghost alive: calling the combined PT+SLP bucket “the speech cap remaining.” Speech never owned that bucket. A long PT episode can spend it. An honest weekly huddle names both disciplines when the number gets close. An honest family conversation does not blame the SLP for a PT month, or the PT for an SLP month. The statute combined them. We can at least combine the English.
+
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/kx-modifier-is-not-a-cap/kx-not-a-cap.svg"
+    alt="Schematic distinguishing KX modifier attestation from the repealed Medicare therapy cap"
+    width="880"
+    height="420"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> KX modifier is not a cap (schematic). Attestation above a threshold — verify CY CMS combined PT+SLP line.
+    <span class="figure-credit">SLPWOW SLP News — practice pack — original editorial SVG. Not billing, legal, or clinical advice.</span>
+  </figcaption>
+</figure>

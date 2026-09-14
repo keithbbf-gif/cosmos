@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 420" role="img" aria-labelledby="title desc">
+  <title id="title">Medicare SLP telehealth status (schematic)</title>
+  <desc id="desc">Timeline schematic of telehealth extensions and unsettled legislative status.</desc>
+  <defs>
+<style>
+.bg { fill: #FAF9F7; }
+.title { font-family: Georgia, serif; font-size: 16px; font-weight: 600; fill: #1E293B; }
+.dek { font-family: system-ui, sans-serif; font-size: 11px; fill: #64748B; }
+.label { font-family: system-ui, sans-serif; font-size: 11px; fill: #64748B; }
+.strong { font-family: system-ui, sans-serif; font-size: 12px; font-weight: 600; fill: #1E293B; }
+.card { fill: #FFFFFF; stroke: #CBD5E1; stroke-width: 1; }
+.band-teal { fill: #CCFBF1; }
+.band-amber { fill: #FEF3C7; }
+.band-indigo { fill: #E0E7FF; }
+.accent-teal { fill: #0F766E; }
+.accent-amber { fill: #B45309; }
+.arrow { stroke: #0F766E; stroke-width: 2; fill: none; marker-end: url(#arrowhead); }
+.note { font-family: system-ui, sans-serif; font-size: 10px; fill: #64748B; }
+</style>
+  <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#0F766E"/>
+  </marker>
+  </defs>
+  <rect class="bg" width="880" height="420"/>
+  <text x="40" y="36" class="title">Telehealth extended</text>
+  <text x="40" y="56" class="dek">Not settled law</text>
+  <rect class="card" x="40" y="76" width="800" height="300" rx="8"/>
+  <line x1="56" y1="200" x2="824" y2="200" stroke="#CBD5E1" stroke-width="2"/>
+  <circle cx="152" cy="200" r="6" class="accent-teal"/>
+  <text x="112" y="175" class="strong">PHE flexibilities</text>
+  <text x="112" y="230" class="label">Temporary expansions</text>
+  <circle cx="344" cy="200" r="6" class="accent-teal"/>
+  <text x="304" y="175" class="strong">Extensions</text>
+  <text x="304" y="230" class="label">Congressional renewals — check date</text>
+  <circle cx="536" cy="200" r="6" class="accent-teal"/>
+  <text x="496" y="175" class="strong">Geography &amp; site</text>
+  <text x="496" y="230" class="label">Rules differ by setting</text>
+  <circle cx="728" cy="200" r="6" class="accent-teal"/>
+  <text x="688" y="175" class="strong">Verify</text>
+  <text x="688" y="230" class="label">CMS telehealth list · ASHA</text>
+  <text x="40" y="404" class="note">SLPWOW original schematic — typography only. No AI-generated faces.</text>
+</svg>

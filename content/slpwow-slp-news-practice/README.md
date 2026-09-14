@@ -14,6 +14,7 @@ Start here:
 4. `articles/` — the drafts
 5. `BIBLIOGRAPHY.md` — public CMS, ASHA, ED, IDDSI, named papers
 6. `WP_IMPORT.md` — staging only
+7. `assets/` + `embeds/` + `GRAPHICS_INDEX.md` — original SVG explainers (`RIGHTS.md`, `PHOTO_NOTES.md`)
 
 Companion packs (do not merge calendars):
 

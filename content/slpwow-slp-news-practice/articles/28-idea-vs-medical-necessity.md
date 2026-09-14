@@ -18,6 +18,7 @@ citations:
 status: draft
 stage: draft
 voice_check: human
+featured_image: assets/idea-vs-medical-necessity/idea-medical-necessity.svg
 ---
 
 **Disclaimer.** Educational news briefing for SLPWOW. Not billing advice, not legal advice, not a treatment protocol, and not medical advice. Rules change by contractor, state, and calendar year. Verify the current CMS, MAC, state, or ASHA page before you act. This series does not evaluate patients and does not publish worksheets.
@@ -53,3 +54,19 @@ It raised the temperature of “some benefit.” It did not write a minute requi
 “IDEA need is about FAPE. Medical necessity is about a benefit manual. I can write both stories when both are true. I will not pretend one form fills the other.” If a parent wants a clinic after a school eval, they deserve an honest map of the two doors, not a promise. If a clinic wants school records, they deserve a consent path, not a rumor.
 
 Essay 30 is the physical version of this split: the school bell and the hospital clock, and why a person who works both jobs feels insane by Thursday.
+
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/idea-vs-medical-necessity/idea-medical-necessity.svg"
+    alt="Schematic contrasting IDEA educational need with payer medical necessity"
+    width="880"
+    height="420"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> IDEA need versus medical necessity (schematic). Educational FAPE language is not the payer's coverage test.
+    <span class="figure-credit">SLPWOW SLP News — practice pack — original editorial SVG. Not billing, legal, or clinical advice.</span>
+  </figcaption>
+</figure>

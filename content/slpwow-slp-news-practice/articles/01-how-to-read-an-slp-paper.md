@@ -18,6 +18,7 @@ citations:
 status: draft
 stage: draft
 voice_check: human
+featured_image: assets/how-to-read-an-slp-paper/paper-reading-path.svg
 ---
 
 **Disclaimer.** Educational news briefing for SLPWOW. Not billing advice, not legal advice, not a treatment protocol, and not medical advice. Rules change by contractor, state, and calendar year. Verify the current CMS, MAC, state, or ASHA page before you act. This series does not evaluate patients and does not publish worksheets.
@@ -67,3 +68,19 @@ The next nine pieces stay in the mailbox: abstracts, p-values, single-subject, r
 If a colleague wants a treatment recipe from a news URL, this series will disappoint them. If they want a way to keep their integrity when the PDF is flattering, that is the job.
 
 Print the methods. Write the five questions in the margin. Leave the abstract for last, the way some people leave the frosting. You will like it better when you know what it is sitting on.
+
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/how-to-read-an-slp-paper/paper-reading-path.svg"
+    alt="Schematic reading path for SLP research papers: methods before abstract, five verification questions, verify on primary source"
+    width="880"
+    height="420"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Reading path for an SLP paper (schematic). Start in Methods, ask five verification questions, read the abstract last, then verify on the journal PDF.
+    <span class="figure-credit">SLPWOW SLP News — practice pack — original editorial SVG. Not billing, legal, or clinical advice.</span>
+  </figcaption>
+</figure>

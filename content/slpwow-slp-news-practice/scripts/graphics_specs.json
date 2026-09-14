@@ -1,0 +1,1336 @@
+[
+  {
+    "slug": "how-to-read-an-slp-paper",
+    "filename": "paper-reading-path.svg",
+    "layout": "card",
+    "title": "How to read an SLP paper (schematic path)",
+    "desc": "Editorial reading order for communication-science PDFs: methods before abstract, five verification questions.",
+    "headline": "Reading path for SLP papers",
+    "subhead": "Methods first \u2014 who, dose, outcomes",
+    "bands": [
+      {
+        "strong": "Methods first",
+        "detail": "Who, dose, outcomes, comparison"
+      },
+      {
+        "strong": "Five sticky-note questions",
+        "detail": "Population \u00b7 intervention \u00b7 measure \u00b7 confounds \u00b7 COI"
+      },
+      {
+        "strong": "Abstract last",
+        "detail": "After you know what was actually done"
+      },
+      {
+        "strong": "Verify on source",
+        "detail": "Journal PDF \u00b7 EQUATOR checklist \u00b7 registered report"
+      }
+    ],
+    "alt": "Schematic reading path for SLP research papers: methods before abstract, five verification questions, verify on primary source",
+    "caption": "Reading path for an SLP paper (schematic). Start in Methods, ask five verification questions, read the abstract last, then verify on the journal PDF."
+  },
+  {
+    "slug": "abstracts-are-not-the-study",
+    "filename": "abstract-vs-body.svg",
+    "layout": "split",
+    "title": "Abstract versus full study (schematic)",
+    "desc": "Side-by-side schematic contrasting abstract claims with methods and data tables in the full paper.",
+    "headline": "Abstract vs full study",
+    "subhead": "Two columns \u2014 sales letter vs evidence",
+    "bands": [
+      {
+        "strong": "Abstract",
+        "detail": "Short \u00b7 selective \u00b7 often written last"
+      },
+      {
+        "strong": "Full paper",
+        "detail": "Methods \u00b7 raw outcomes \u00b7 limitations"
+      },
+      {
+        "strong": "Thread quote",
+        "detail": "Usually abstract-only"
+      },
+      {
+        "strong": "Your job",
+        "detail": "Read the middle before you forward"
+      }
+    ],
+    "alt": "Split schematic: abstract claims versus methods and outcomes in the full study",
+    "caption": "Abstract versus full study (schematic). The abstract is a summary; methods and outcomes live in the body."
+  },
+  {
+    "slug": "effect-sizes-and-p-values",
+    "filename": "p-value-vs-effect.svg",
+    "layout": "card",
+    "title": "p-value is not effect size (schematic)",
+    "desc": "Schematic separating statistical significance from clinical or caseload-sized effects.",
+    "headline": "Significance vs size",
+    "subhead": "What a p-value is not",
+    "bands": [
+      {
+        "strong": "p-value",
+        "detail": "Compatibility with null \u2014 not magnitude"
+      },
+      {
+        "strong": "Effect size / interval",
+        "detail": "How much changed \u2014 ask authors to print it"
+      },
+      {
+        "strong": "Monday caseload",
+        "detail": "One child is not the trial mean"
+      },
+      {
+        "strong": "Verify",
+        "detail": "ASA 2016 statement \u00b7 actual difference"
+      }
+    ],
+    "alt": "Schematic: p-value does not measure effect size or clinical importance for SLP practice",
+    "caption": "p-value versus effect size (schematic). Statistical significance is not the size of a change on your caseload."
+  },
+  {
+    "slug": "single-subject-designs-in-csd",
+    "filename": "single-subject-phases.svg",
+    "layout": "timeline",
+    "title": "Single-subject design phases (schematic)",
+    "desc": "Timeline schematic of baseline and intervention phases in single-case research.",
+    "headline": "Single-case phases",
+    "subhead": "Multiple-baseline logic",
+    "bands": [
+      {
+        "strong": "Baseline A",
+        "detail": "Stable pattern before change"
+      },
+      {
+        "strong": "Intervention B",
+        "detail": "Documented shift"
+      },
+      {
+        "strong": "Replication",
+        "detail": "Second behavior or setting"
+      },
+      {
+        "strong": "Do not grade as RCT",
+        "detail": "Different question \u00b7 different rules"
+      }
+    ],
+    "alt": "Timeline schematic of baseline and intervention phases in single-subject CSD research",
+    "caption": "Single-subject design phases (schematic). Baseline, intervention, and replication \u2014 not a failed RCT."
+  },
+  {
+    "slug": "when-a-review-is-just-a-list",
+    "filename": "systematic-vs-list.svg",
+    "layout": "split",
+    "title": "Systematic review vs literature list (schematic)",
+    "desc": "Schematic comparing PRISMA-style search and screening with an unscreened reference list.",
+    "headline": "Review quality signals",
+    "subhead": "PRISMA vs inbox pile",
+    "bands": [
+      {
+        "strong": "Systematic review",
+        "detail": "Search \u00b7 screen \u00b7 extract \u00b7 risk of bias"
+      },
+      {
+        "strong": "Literature list",
+        "detail": "Convenient citations \u00b7 hidden exclusions"
+      },
+      {
+        "strong": "Red flag",
+        "detail": "No search string \u00b7 no PRISMA flow"
+      },
+      {
+        "strong": "Verify",
+        "detail": "PRISMA checklist \u00b7 protocol registration"
+      }
+    ],
+    "alt": "Schematic comparing a systematic review with PRISMA flow to an unscreened literature list",
+    "caption": "Systematic review versus literature list (schematic). Search, screen, and extract \u2014 or it is homework, not synthesis."
+  },
+  {
+    "slug": "predatory-journals-in-the-inbox",
+    "filename": "predatory-inbox-card.svg",
+    "layout": "card",
+    "title": "Predatory journal invitation (schematic inbox card)",
+    "desc": "Schematic email card labeling predatory journal red flags for CSD authors.",
+    "headline": "Predatory inbox signals",
+    "subhead": "Before you pay the APC",
+    "bands": [
+      {
+        "strong": "Journal name mimicry",
+        "detail": "Sounds like a journal you know"
+      },
+      {
+        "strong": "Rapid accept \u00b7 APC upfront",
+        "detail": "Peer review as invoice"
+      },
+      {
+        "strong": "Missing index \u00b7 fake board",
+        "detail": "Check DOAJ \u00b7 Beall list successors"
+      },
+      {
+        "strong": "Verify",
+        "detail": "Institutional librarian \u00b7 mentor"
+      }
+    ],
+    "alt": "Schematic inbox card with predatory journal red flags for communication sciences authors",
+    "caption": "Predatory journal invitation (schematic). Mimic names, rapid accept, APC before review \u2014 verify with a librarian."
+  },
+  {
+    "slug": "preprints-on-monday-morning",
+    "filename": "preprint-pipeline.svg",
+    "layout": "flow",
+    "title": "Preprint to journal path (schematic)",
+    "desc": "Flow schematic from preprint server upload through peer review to version of record.",
+    "headline": "Preprint Monday path",
+    "subhead": "Not yet through review",
+    "bands": [
+      {
+        "strong": "Preprint posted",
+        "detail": "No volume number yet"
+      },
+      {
+        "strong": "Peer review",
+        "detail": "Methods challenged in public"
+      },
+      {
+        "strong": "Version of record",
+        "detail": "Citation anchor changes"
+      },
+      {
+        "strong": "Clinic use",
+        "detail": "Interesting \u00b7 not protocol yet"
+      }
+    ],
+    "alt": "Flow schematic from preprint upload through peer review to published version of record",
+    "caption": "Preprint to journal path (schematic). Posted early, reviewed later \u2014 not a finished clinical protocol."
+  },
+  {
+    "slug": "guidelines-are-not-viral-threads",
+    "filename": "guideline-vs-thread.svg",
+    "layout": "split",
+    "title": "Clinical guideline vs social thread (schematic)",
+    "desc": "Schematic contrasting evidence-rated guideline panels with viral social summaries.",
+    "headline": "Guideline vs thread",
+    "subhead": "Panel work vs screenshot",
+    "bands": [
+      {
+        "strong": "CPG / guideline",
+        "detail": "Panel \u00b7 search \u00b7 rate evidence \u00b7 dissent noted"
+      },
+      {
+        "strong": "Viral thread",
+        "detail": "Cherry-picked abstract \u00b7 no methods"
+      },
+      {
+        "strong": "SLP use",
+        "detail": "Quote the recommendation grade"
+      },
+      {
+        "strong": "Verify",
+        "detail": "ASHA CPG \u00b7 publisher PDF"
+      }
+    ],
+    "alt": "Schematic contrasting clinical practice guidelines with viral social media summaries",
+    "caption": "Clinical guideline versus viral thread (schematic). Panels rate evidence; threads cherry-pick headlines."
+  },
+  {
+    "slug": "reading-the-conflict-line",
+    "filename": "coi-line-anatomy.svg",
+    "layout": "card",
+    "title": "Conflict-of-interest line anatomy (schematic)",
+    "desc": "Schematic labeling funding, employment, and equity lines on a research disclosure.",
+    "headline": "COI line anatomy",
+    "subhead": "Walk slowly here",
+    "bands": [
+      {
+        "strong": "Funding",
+        "detail": "Grants \u00b7 thickeners \u00b7 devices \u00b7 pharma"
+      },
+      {
+        "strong": "Employment / advisory",
+        "detail": "Paid roles \u00b7 stock options"
+      },
+      {
+        "strong": "Not automatic fraud",
+        "detail": "Context for methods scrutiny"
+      },
+      {
+        "strong": "Verify",
+        "detail": "Full disclosure PDF \u00b7 trial registry"
+      }
+    ],
+    "alt": "Schematic anatomy of a research conflict-of-interest disclosure line",
+    "caption": "Conflict-of-interest line (schematic). Funding and employment context \u2014 not automatic fraud, but read methods slowly."
+  },
+  {
+    "slug": "open-science-reaches-asha-journals",
+    "filename": "open-science-badges.svg",
+    "layout": "card",
+    "title": "Open science at ASHA journals (schematic)",
+    "desc": "Schematic of data sharing, preregistration, and badge policies at ASHA journals.",
+    "headline": "ASHA open science",
+    "subhead": "House rules, not halo",
+    "bands": [
+      {
+        "strong": "Data & code statements",
+        "detail": "What authors must share"
+      },
+      {
+        "strong": "Registered reports",
+        "detail": "Methods reviewed before results"
+      },
+      {
+        "strong": "Badges",
+        "detail": "Transparency signal \u2014 not quality guarantee"
+      },
+      {
+        "strong": "Verify",
+        "detail": "Journal policy page \u00b7 specific paper"
+      }
+    ],
+    "alt": "Schematic of open-science policies and badges at ASHA journals",
+    "caption": "Open science at ASHA journals (schematic). Data statements and badges describe transparency, not automatic truth."
+  },
+  {
+    "slug": "the-therapy-cap-is-gone",
+    "filename": "therapy-cap-timeline.svg",
+    "layout": "timeline",
+    "title": "Medicare therapy cap repeal timeline (schematic)",
+    "desc": "Timeline schematic of therapy cap repeal and KX threshold news for outpatient SLP.",
+    "headline": "Therapy cap news",
+    "subhead": "Repealed \u2014 thresholds remain",
+    "bands": [
+      {
+        "strong": "BBA 2018",
+        "detail": "Hard cap repealed"
+      },
+      {
+        "strong": "KX threshold",
+        "detail": "Attestation line \u2014 verify CY year"
+      },
+      {
+        "strong": "MR / audits",
+        "detail": "Still watch totals"
+      },
+      {
+        "strong": "Verify",
+        "detail": "CMS therapy services page"
+      }
+    ],
+    "alt": "Timeline schematic of Medicare therapy cap repeal and remaining KX threshold policy",
+    "caption": "Medicare therapy cap repeal (schematic). Cap gone; KX attestation and review thresholds still matter \u2014 verify CMS."
+  },
+  {
+    "slug": "physician-fee-schedule-kitchen-table",
+    "filename": "pfs-kitchen-table.svg",
+    "layout": "flow",
+    "title": "Physician Fee Schedule flow (schematic)",
+    "desc": "Flow schematic from RVU through conversion factor to allowed amount \u2014 kitchen-table view.",
+    "headline": "PFS in one paragraph",
+    "subhead": "RVU to payment",
+    "bands": [
+      {
+        "strong": "Work RVU + PE + MP",
+        "detail": "Relative value units"
+      },
+      {
+        "strong": "Conversion factor",
+        "detail": "CY-specific \u2014 verify live"
+      },
+      {
+        "strong": "GPCI locality",
+        "detail": "Geographic adjustment"
+      },
+      {
+        "strong": "Verify",
+        "detail": "CMS PFS \u00b7 ASHA fee PDF"
+      }
+    ],
+    "alt": "Flow schematic from RVU components through conversion factor to Medicare allowed amount",
+    "caption": "Physician Fee Schedule (schematic). RVUs, conversion factor, and locality \u2014 verify the live CMS table."
+  },
+  {
+    "slug": "two-conversion-factors-2026",
+    "filename": "two-conversion-factors.svg",
+    "layout": "split",
+    "title": "Two Medicare conversion factors (schematic)",
+    "desc": "Schematic comparing facility and non-facility conversion factors relevant to SLP settings.",
+    "headline": "Two CFs",
+    "subhead": "Which setting uses which",
+    "bands": [
+      {
+        "strong": "Non-facility CF",
+        "detail": "Typical outpatient clinic"
+      },
+      {
+        "strong": "Facility CF",
+        "detail": "Hospital outpatient department"
+      },
+      {
+        "strong": "Same RVU \u00b7 different math",
+        "detail": "Do not mix without checking"
+      },
+      {
+        "strong": "Verify",
+        "detail": "CY CMS fee schedule"
+      }
+    ],
+    "alt": "Schematic comparing facility and non-facility Medicare conversion factors for SLP services",
+    "caption": "Two conversion factors (schematic). Outpatient clinic versus facility setting \u2014 verify CY CMS values."
+  },
+  {
+    "slug": "mppr-same-day-math",
+    "filename": "mppr-same-day.svg",
+    "layout": "card",
+    "title": "MPPR same-day schematic",
+    "desc": "Schematic of multiple procedure payment reduction on same-day therapy codes.",
+    "headline": "MPPR same-day",
+    "subhead": "Not a coding class",
+    "bands": [
+      {
+        "strong": "First code",
+        "detail": "Full therapy payment rate"
+      },
+      {
+        "strong": "Second code same day",
+        "detail": "Reduced percentage \u2014 policy rule"
+      },
+      {
+        "strong": "Not a moral judgment",
+        "detail": "Math on the claim"
+      },
+      {
+        "strong": "Verify",
+        "detail": "CMS MPPR table \u00b7 MAC article"
+      }
+    ],
+    "alt": "Schematic of Medicare multiple procedure payment reduction for same-day therapy codes",
+    "caption": "MPPR same-day math (schematic). Second code reduced per policy \u2014 verify CMS table, not a worksheet."
+  },
+  {
+    "slug": "kx-modifier-is-not-a-cap",
+    "filename": "kx-not-a-cap.svg",
+    "layout": "card",
+    "title": "KX modifier is not a therapy cap (schematic)",
+    "desc": "Schematic distinguishing KX attestation threshold from repealed therapy cap.",
+    "headline": "KX vs cap",
+    "subhead": "Attestation line",
+    "bands": [
+      {
+        "strong": "Old hard cap",
+        "detail": "Repealed 2018"
+      },
+      {
+        "strong": "KX threshold",
+        "detail": "Attest medical necessity above line"
+      },
+      {
+        "strong": "Not unlimited care",
+        "detail": "Medical necessity still documented"
+      },
+      {
+        "strong": "Verify",
+        "detail": "CY combined PT+SLP threshold"
+      }
+    ],
+    "alt": "Schematic distinguishing KX modifier attestation from the repealed Medicare therapy cap",
+    "caption": "KX modifier is not a cap (schematic). Attestation above a threshold \u2014 verify CY CMS combined PT+SLP line."
+  },
+  {
+    "slug": "targeted-medical-review-three-thousand",
+    "filename": "tmr-threshold.svg",
+    "layout": "card",
+    "title": "Targeted medical review threshold (schematic)",
+    "desc": "Schematic of targeted medical review dollar threshold for therapy services.",
+    "headline": "TMR threshold",
+    "subhead": "News about audits",
+    "bands": [
+      {
+        "strong": "Combined therapy spend",
+        "detail": "Track toward review threshold"
+      },
+      {
+        "strong": "$3,000 line (verify CY)",
+        "detail": "Trigger for targeted review \u2014 not denial"
+      },
+      {
+        "strong": "Documentation",
+        "detail": "Skilled narrative still matters"
+      },
+      {
+        "strong": "Verify",
+        "detail": "CMS transmittal \u00b7 MAC"
+      }
+    ],
+    "alt": "Schematic of Medicare targeted medical review threshold for outpatient therapy spending",
+    "caption": "Targeted medical review threshold (schematic). Dollar line triggers review \u2014 verify current CMS transmittal."
+  },
+  {
+    "slug": "ncci-when-two-codes-collide",
+    "filename": "ncci-edits.svg",
+    "layout": "split",
+    "title": "NCCI edits when two codes collide (schematic)",
+    "desc": "Schematic of National Correct Coding Initiative pairs that cannot bill together.",
+    "headline": "NCCI pairs",
+    "subhead": "Two codes \u00b7 one day",
+    "bands": [
+      {
+        "strong": "Column 1 / Column 2",
+        "detail": "Primary vs bundled code"
+      },
+      {
+        "strong": "Modifier indicators",
+        "detail": "When MAC allows override"
+      },
+      {
+        "strong": "Claim scrubber",
+        "detail": "Denial before you mail"
+      },
+      {
+        "strong": "Verify",
+        "detail": "NCCI PTP lookup \u00b7 MAC"
+      }
+    ],
+    "alt": "Schematic of NCCI procedure-to-procedure edits blocking same-day code pairs",
+    "caption": "NCCI edits (schematic). Some code pairs cannot sit together on one claim \u2014 verify NCCI lookup."
+  },
+  {
+    "slug": "eight-minute-rule-is-news",
+    "filename": "eight-minute-rule.svg",
+    "layout": "card",
+    "title": "Eight-minute rule schematic",
+    "desc": "Schematic of timed therapy units and eight-minute increments for Medicare news context.",
+    "headline": "8-minute rule",
+    "subhead": "News, not worksheet",
+    "bands": [
+      {
+        "strong": "Timed codes",
+        "detail": "Direct one-on-one minutes"
+      },
+      {
+        "strong": "Unit thresholds",
+        "detail": "8-minute increments \u2014 verify table"
+      },
+      {
+        "strong": "Not a productivity target",
+        "detail": "Documentation of time"
+      },
+      {
+        "strong": "Verify",
+        "detail": "CMS therapy billing guide"
+      }
+    ],
+    "alt": "Schematic of Medicare eight-minute rule unit thresholds for timed therapy codes",
+    "caption": "Eight-minute rule (schematic). Timed units from documented minutes \u2014 verify CMS guide, not a cheat sheet."
+  },
+  {
+    "slug": "pdpm-speech-is-a-component",
+    "filename": "pdpm-speech-component.svg",
+    "layout": "card",
+    "title": "PDPM speech component (schematic)",
+    "desc": "Schematic placing SLP-related PDPM case-mix components in SNF payment.",
+    "headline": "PDPM speech",
+    "subhead": "Component, not leftover",
+    "bands": [
+      {
+        "strong": "Clinical categories",
+        "detail": "Speech-related comorbidities"
+      },
+      {
+        "strong": "SLP comorbidity",
+        "detail": "Feeds case-mix group"
+      },
+      {
+        "strong": "Not minute banking",
+        "detail": "Different from outpatient RVUs"
+      },
+      {
+        "strong": "Verify",
+        "detail": "CMS PDPM fact sheet"
+      }
+    ],
+    "alt": "Schematic of speech-language pathology inputs to PDPM case-mix in skilled nursing",
+    "caption": "PDPM speech component (schematic). SLP inputs feed case-mix \u2014 not leftover outpatient minutes."
+  },
+  {
+    "slug": "pdgm-home-health-without-thresholds",
+    "filename": "pdgm-no-thresholds.svg",
+    "layout": "card",
+    "title": "PDGM home health schematic",
+    "desc": "Schematic of PDGM payment groups without legacy therapy visit thresholds.",
+    "headline": "PDGM home health",
+    "subhead": "Thresholds removed",
+    "bands": [
+      {
+        "strong": "30-day periods",
+        "detail": "Payment driven by group"
+      },
+      {
+        "strong": "No visit count cliff",
+        "detail": "Policy shift from thresholds"
+      },
+      {
+        "strong": "OASIS + coding",
+        "detail": "Documentation still audited"
+      },
+      {
+        "strong": "Verify",
+        "detail": "CMS HH PDGM page"
+      }
+    ],
+    "alt": "Schematic of home health PDGM payment without therapy visit thresholds",
+    "caption": "PDGM home health (schematic). Payment groups without visit-count cliffs \u2014 verify CMS HH policy."
+  },
+  {
+    "slug": "abn-when-medicare-may-not-pay",
+    "filename": "abn-patient-path.svg",
+    "layout": "flow",
+    "title": "Advance Beneficiary Notice path (schematic)",
+    "desc": "Flow schematic when Medicare may not pay and patient receives an ABN.",
+    "headline": "ABN path",
+    "subhead": "Patient hears the sentence",
+    "bands": [
+      {
+        "strong": "Non-covered service",
+        "detail": "Medicare may not pay"
+      },
+      {
+        "strong": "ABN offered",
+        "detail": "Written choice before service"
+      },
+      {
+        "strong": "Patient signature",
+        "detail": "Elect official vs self-pay"
+      },
+      {
+        "strong": "Verify",
+        "detail": "CMS ABN form \u00b7 MAC"
+      }
+    ],
+    "alt": "Flow schematic for Advance Beneficiary Notice when Medicare may not cover a service",
+    "caption": "ABN path (schematic). When Medicare may not pay \u2014 patient choice documented before service."
+  },
+  {
+    "slug": "lcd-vs-ncd-local-coverage",
+    "filename": "lcd-ncd-map.svg",
+    "layout": "split",
+    "title": "LCD vs NCD coverage (schematic)",
+    "desc": "Schematic contrasting National Coverage Determinations with Local Coverage Determinations.",
+    "headline": "LCD vs NCD",
+    "subhead": "National vs MAC local",
+    "bands": [
+      {
+        "strong": "NCD",
+        "detail": "National Medicare policy"
+      },
+      {
+        "strong": "LCD",
+        "detail": "MAC jurisdiction rules"
+      },
+      {
+        "strong": "Article / policy",
+        "detail": "Read your contractor's LCD"
+      },
+      {
+        "strong": "Verify",
+        "detail": "Medicare Coverage Database"
+      }
+    ],
+    "alt": "Schematic map of National versus Local Coverage Determinations for Medicare SLP services",
+    "caption": "LCD versus NCD (schematic). National policy versus MAC-local rules \u2014 verify Medicare Coverage Database."
+  },
+  {
+    "slug": "telehealth-extended-not-settled",
+    "filename": "telehealth-status.svg",
+    "layout": "timeline",
+    "title": "Medicare SLP telehealth status (schematic)",
+    "desc": "Timeline schematic of telehealth extensions and unsettled legislative status.",
+    "headline": "Telehealth extended",
+    "subhead": "Not settled law",
+    "bands": [
+      {
+        "strong": "PHE flexibilities",
+        "detail": "Temporary expansions"
+      },
+      {
+        "strong": "Extensions",
+        "detail": "Congressional renewals \u2014 check date"
+      },
+      {
+        "strong": "Geography & site",
+        "detail": "Rules differ by setting"
+      },
+      {
+        "strong": "Verify",
+        "detail": "CMS telehealth list \u00b7 ASHA"
+      }
+    ],
+    "alt": "Timeline schematic of Medicare telehealth extensions for speech-language pathology",
+    "caption": "Medicare SLP telehealth (schematic). Extended provisions with moving dates \u2014 verify CMS and ASHA."
+  },
+  {
+    "slug": "efficiency-adjustment-and-the-gpci-floor",
+    "filename": "gpci-efficiency.svg",
+    "layout": "card",
+    "title": "GPCI floor and efficiency adjustment (schematic)",
+    "desc": "Schematic of geographic practice cost index floor and efficiency adjustment on fees.",
+    "headline": "GPCI + efficiency",
+    "subhead": "Kitchen-table fee news",
+    "bands": [
+      {
+        "strong": "GPCI floor",
+        "detail": "Minimum locality adjustment"
+      },
+      {
+        "strong": "Efficiency adjustment",
+        "detail": "Budget neutrality on CF"
+      },
+      {
+        "strong": "Fee schedule impact",
+        "detail": "Verify printed CF annually"
+      },
+      {
+        "strong": "Verify",
+        "detail": "CMS PFS final rule"
+      }
+    ],
+    "alt": "Schematic of GPCI floor and efficiency adjustment affecting Medicare therapy fees",
+    "caption": "GPCI floor and efficiency adjustment (schematic). Locality and budget-neutrality on fees \u2014 verify CMS final rule."
+  },
+  {
+    "slug": "mips-most-slps-are-exempt",
+    "filename": "mips-exempt-card.svg",
+    "layout": "card",
+    "title": "MIPS exemption for most SLPs (schematic)",
+    "desc": "Schematic of MIPS participation thresholds showing most SLPs remain exempt.",
+    "headline": "MIPS exemption",
+    "subhead": "Most SLPs exempt",
+    "bands": [
+      {
+        "strong": "Low Medicare volume",
+        "detail": "Below participation threshold"
+      },
+      {
+        "strong": "QP / APM paths",
+        "detail": "Alternative models \u2014 rare in SLP"
+      },
+      {
+        "strong": "News when thresholds move",
+        "detail": "Check annually"
+      },
+      {
+        "strong": "Verify",
+        "detail": "CMS QPP \u00b7 ASHA MIPS page"
+      }
+    ],
+    "alt": "Schematic of MIPS participation thresholds showing most speech-language pathologists exempt",
+    "caption": "MIPS exemption (schematic). Most SLPs remain below participation thresholds \u2014 verify CMS QPP."
+  },
+  {
+    "slug": "school-medicaid-2023-guide",
+    "filename": "school-medicaid-guide.svg",
+    "layout": "flow",
+    "title": "School-based Medicaid guide (schematic)",
+    "desc": "Flow schematic of CMS 2023 school-based Medicaid billing and documentation themes.",
+    "headline": "School Medicaid 2023",
+    "subhead": "CMS guide in English",
+    "bands": [
+      {
+        "strong": "LEA + state plan",
+        "detail": "Who can bill what"
+      },
+      {
+        "strong": "Free care reversal",
+        "detail": "Related to 2014 letter"
+      },
+      {
+        "strong": "Documentation",
+        "detail": "Not a district cheat sheet"
+      },
+      {
+        "strong": "Verify",
+        "detail": "CMS SBMT guide PDF"
+      }
+    ],
+    "alt": "Flow schematic of themes in CMS 2023 school-based Medicaid guidance",
+    "caption": "School-based Medicaid guide (schematic). LEA billing and documentation \u2014 verify CMS SBMT PDF."
+  },
+  {
+    "slug": "free-care-policy-still-news",
+    "filename": "free-care-letter.svg",
+    "layout": "timeline",
+    "title": "Free care policy letter (schematic)",
+    "desc": "Timeline schematic of free-care policy reversal still shaping school Medicaid news.",
+    "headline": "Free care 2014",
+    "subhead": "Still in the news",
+    "bands": [
+      {
+        "strong": "2014 CMS letter",
+        "detail": "Medicaid pays for eligible students"
+      },
+      {
+        "strong": "State implementation",
+        "detail": "Varies \u2014 not automatic"
+      },
+      {
+        "strong": "IEP services",
+        "detail": "Still not billing worksheet"
+      },
+      {
+        "strong": "Verify",
+        "detail": "CMS \u00b7 state Medicaid"
+      }
+    ],
+    "alt": "Timeline schematic of CMS free-care policy reversal affecting school Medicaid",
+    "caption": "Free-care policy (schematic). 2014 letter still shapes who pays \u2014 verify state Medicaid guidance."
+  },
+  {
+    "slug": "idea-vs-medical-necessity",
+    "filename": "idea-medical-necessity.svg",
+    "layout": "split",
+    "title": "IDEA need vs medical necessity (schematic)",
+    "desc": "Schematic contrasting educational need under IDEA with payer medical necessity.",
+    "headline": "IDEA vs medical necessity",
+    "subhead": "Two sentences",
+    "bands": [
+      {
+        "strong": "IDEA educational need",
+        "detail": "FAPE \u00b7 IEP team"
+      },
+      {
+        "strong": "Medical necessity",
+        "detail": "Payer coverage rule"
+      },
+      {
+        "strong": "Same child \u00b7 two files",
+        "detail": "Do not merge casually"
+      },
+      {
+        "strong": "Verify",
+        "detail": "ED IDEA \u00b7 payer policy"
+      }
+    ],
+    "alt": "Schematic contrasting IDEA educational need with payer medical necessity",
+    "caption": "IDEA need versus medical necessity (schematic). Educational FAPE language is not the payer's coverage test."
+  },
+  {
+    "slug": "caseload-is-not-workload",
+    "filename": "caseload-workload.svg",
+    "layout": "split",
+    "title": "Caseload vs workload (schematic)",
+    "desc": "Schematic separating caseload counts from workload minutes and indirect time.",
+    "headline": "Caseload \u2260 workload",
+    "subhead": "ASHA survey theme",
+    "bands": [
+      {
+        "strong": "Caseload count",
+        "detail": "Names on your list"
+      },
+      {
+        "strong": "Workload",
+        "detail": "Evaluation \u00b7 treatment \u00b7 paperwork \u00b7 travel"
+      },
+      {
+        "strong": "Median gap",
+        "detail": "Survey shows manageable vs actual"
+      },
+      {
+        "strong": "Verify",
+        "detail": "ASHA schools survey PDF"
+      }
+    ],
+    "alt": "Schematic separating school SLP caseload counts from total workload",
+    "caption": "Caseload versus workload (schematic). Headcount is not minutes, paperwork, or travel \u2014 verify ASHA schools data."
+  },
+  {
+    "slug": "two-clocks-school-day-hospital-day",
+    "filename": "two-clocks.svg",
+    "layout": "split",
+    "title": "School day vs hospital day clocks (schematic)",
+    "desc": "Schematic of two documentation clocks for school and medical SLP settings.",
+    "headline": "Two clocks",
+    "subhead": "School day \u00b7 hospital day",
+    "bands": [
+      {
+        "strong": "School clock",
+        "detail": "IEP minutes \u00b7 session logs"
+      },
+      {
+        "strong": "Hospital clock",
+        "detail": "Medical record \u00b7 orders"
+      },
+      {
+        "strong": "Handoff",
+        "detail": "Records do not auto-sync"
+      },
+      {
+        "strong": "Verify",
+        "detail": "District policy \u00b7 facility bylaws"
+      }
+    ],
+    "alt": "Schematic of school-day versus hospital-day documentation clocks for SLPs",
+    "caption": "Two clocks (schematic). School IEP minutes and hospital medical records run on different timers."
+  },
+  {
+    "slug": "when-the-school-reads-a-swallow-study",
+    "filename": "swallow-study-handoff.svg",
+    "layout": "flow",
+    "title": "Swallow study school handoff (schematic)",
+    "desc": "Flow schematic from hospital swallow study report to school file review.",
+    "headline": "Swallow study handoff",
+    "subhead": "Hospital to school file",
+    "bands": [
+      {
+        "strong": "VFSS/FEES report",
+        "detail": "Hospital generates PDF"
+      },
+      {
+        "strong": "School receives",
+        "detail": "Diet texture \u00b7 precautions"
+      },
+      {
+        "strong": "Not a school protocol",
+        "detail": "Implement with team + orders"
+      },
+      {
+        "strong": "Verify",
+        "detail": "IDDSI \u00b7 physician orders"
+      }
+    ],
+    "alt": "Flow schematic from hospital swallow study report to school SLP file review",
+    "caption": "Swallow study handoff (schematic). Hospital report enters the school file \u2014 not a standalone school protocol."
+  },
+  {
+    "slug": "skilled-still-gets-audited",
+    "filename": "skilled-audit-card.svg",
+    "layout": "card",
+    "title": "Skilled documentation audit (schematic)",
+    "desc": "Schematic of skilled narrative elements auditors still collect in medical SLP.",
+    "headline": "Skilled audits",
+    "subhead": "Word still matters",
+    "bands": [
+      {
+        "strong": "Skilled definition",
+        "detail": "Complexity \u00b7 safety \u00b7 progression"
+      },
+      {
+        "strong": "Support in note",
+        "detail": "Not boilerplate alone"
+      },
+      {
+        "strong": "MAC / RAC",
+        "detail": "Post-payment review"
+      },
+      {
+        "strong": "Verify",
+        "detail": "MAC LCD \u00b7 CMS guidance"
+      }
+    ],
+    "alt": "Schematic of skilled therapy documentation elements subject to Medicare audit",
+    "caption": "Skilled documentation (schematic). Complexity and progression in the note \u2014 auditors still collect the word skilled."
+  },
+  {
+    "slug": "504-vs-iep-as-news",
+    "filename": "504-iep-compare.svg",
+    "layout": "split",
+    "title": "504 plan vs IEP (schematic)",
+    "desc": "Schematic comparing Section 504 accommodations with IDEA IEP services.",
+    "headline": "504 vs IEP",
+    "subhead": "News framing only",
+    "bands": [
+      {
+        "strong": "504 plan",
+        "detail": "Civil rights accommodations"
+      },
+      {
+        "strong": "IEP",
+        "detail": "Special education services"
+      },
+      {
+        "strong": "SLP on IEP",
+        "detail": "Related service when eligible"
+      },
+      {
+        "strong": "Verify",
+        "detail": "ED OCR \u00b7 state DOE"
+      }
+    ],
+    "alt": "Schematic comparing Section 504 accommodations with IDEA individualized education programs",
+    "caption": "504 versus IEP (schematic). Accommodations civil-rights frame versus special education services \u2014 verify ED guidance."
+  },
+  {
+    "slug": "related-services-who-pays",
+    "filename": "related-services-pay.svg",
+    "layout": "flow",
+    "title": "Related services who pays (schematic)",
+    "desc": "Flow schematic of who pays for IDEA related services including speech.",
+    "headline": "Who pays",
+    "subhead": "Related services news",
+    "bands": [
+      {
+        "strong": "IDEA child find",
+        "detail": "Evaluation rights"
+      },
+      {
+        "strong": "IEP service",
+        "detail": "School obligation when eligible"
+      },
+      {
+        "strong": "Private insurance",
+        "detail": "Separate file \u2014 coordination rules"
+      },
+      {
+        "strong": "Verify",
+        "detail": "ED IDEA \u00b7 district policy"
+      }
+    ],
+    "alt": "Flow schematic of payment responsibility for IDEA related services including speech-language pathology",
+    "caption": "Related services payment (schematic). School obligation when eligible \u2014 separate from private insurance files."
+  },
+  {
+    "slug": "iddsi-version-news",
+    "filename": "iddsi-framework.svg",
+    "layout": "card",
+    "title": "IDDSI framework news (schematic)",
+    "desc": "Schematic of IDDSI drink and food texture levels referenced in dysphagia headlines.",
+    "headline": "IDDSI news",
+    "subhead": "Texture framework",
+    "bands": [
+      {
+        "strong": "Drink levels",
+        "detail": "0\u20134 thickness labels"
+      },
+      {
+        "strong": "Food levels",
+        "detail": "3\u20137 texture labels"
+      },
+      {
+        "strong": "Testing methods",
+        "detail": "Syringe \u00b7 fork tests \u2014 not DIY"
+      },
+      {
+        "strong": "Verify",
+        "detail": "IDDSI.org PDF"
+      }
+    ],
+    "alt": "Schematic of IDDSI drink and food texture levels used in dysphagia news",
+    "caption": "IDDSI framework (schematic). Standard drink and food levels \u2014 verify IDDSI.org, not social shortcuts."
+  },
+  {
+    "slug": "thickened-liquids-the-research-keeps-getting-reread",
+    "filename": "thickened-liquids-evidence.svg",
+    "layout": "timeline",
+    "title": "Thickened liquids evidence timeline (schematic)",
+    "desc": "Timeline schematic of recurring thickened-liquid research headlines without protocol advice.",
+    "headline": "Thickened liquids headlines",
+    "subhead": "Research reread \u2014 not recipe",
+    "bands": [
+      {
+        "strong": "Older trials",
+        "detail": "Aspiration reduction debates"
+      },
+      {
+        "strong": "New reviews",
+        "detail": "Quality-of-life tradeoffs"
+      },
+      {
+        "strong": "Headline gap",
+        "detail": "Abstract \u2192 ward policy"
+      },
+      {
+        "strong": "Verify",
+        "detail": "Peer review \u00b7 IDDSI \u00b7 orders"
+      }
+    ],
+    "alt": "Timeline schematic of recurring thickened-liquid research headlines in dysphagia news",
+    "caption": "Thickened liquids evidence (schematic). Research cycles in headlines \u2014 not a home thickening protocol."
+  },
+  {
+    "slug": "fees-vs-vfss-access-headlines",
+    "filename": "fees-vfss-access.svg",
+    "layout": "split",
+    "title": "FEES vs VFSS access (schematic)",
+    "desc": "Schematic contrasting FEES and VFSS access and billing headlines without protocol ranking.",
+    "headline": "FEES vs VFSS access",
+    "subhead": "Access news",
+    "bands": [
+      {
+        "strong": "FEES",
+        "detail": "Bedside endoscopy access"
+      },
+      {
+        "strong": "VFSS",
+        "detail": "Radiology suite access"
+      },
+      {
+        "strong": "Headlines",
+        "detail": "Wait times \u00b7 coverage \u00b7 staffing"
+      },
+      {
+        "strong": "Verify",
+        "detail": "Facility policy \u00b7 payer LCD"
+      }
+    ],
+    "alt": "Schematic contrasting FEES and VFSS access and coverage headlines",
+    "caption": "FEES versus VFSS access (schematic). Setting and wait-time news \u2014 not a protocol ranking."
+  },
+  {
+    "slug": "voice-and-the-ppi-story",
+    "filename": "ppi-voice-headlines.svg",
+    "layout": "card",
+    "title": "PPI and voice headlines (schematic)",
+    "desc": "Schematic separating PPI reflux headlines from laryngeal voice evaluation pathways.",
+    "headline": "PPI voice story",
+    "subhead": "Headlines vs workup",
+    "bands": [
+      {
+        "strong": "PPI headlines",
+        "detail": "Population studies \u00b7 hoarseness"
+      },
+      {
+        "strong": "Voice clinic workup",
+        "detail": "Stroboscopy \u00b7 team assessment"
+      },
+      {
+        "strong": "Not DIY stop PPI",
+        "detail": "Medical management owns meds"
+      },
+      {
+        "strong": "Verify",
+        "detail": "ENT \u00b7 GI \u00b7 ASHA voice resources"
+      }
+    ],
+    "alt": "Schematic separating PPI reflux headlines from voice clinic evaluation pathways",
+    "caption": "PPI and voice headlines (schematic). Population news is not a directive to change a patient's reflux meds."
+  },
+  {
+    "slug": "teacher-voice-occupational-news",
+    "filename": "teacher-voice-occupational.svg",
+    "layout": "card",
+    "title": "Teacher voice occupational news (schematic)",
+    "desc": "Schematic of occupational voice injury news themes for teachers and SLP referral.",
+    "headline": "Teacher voice news",
+    "subhead": "Occupational frame",
+    "bands": [
+      {
+        "strong": "Classroom load",
+        "detail": "Projection \u00b7 hours \u00b7 acoustics"
+      },
+      {
+        "strong": "Occupational health",
+        "detail": "Workers comp \u00b7 ergonomics"
+      },
+      {
+        "strong": "SLP role",
+        "detail": "Voice therapy when referred"
+      },
+      {
+        "strong": "Verify",
+        "detail": "State workers comp \u00b7 ENT"
+      }
+    ],
+    "alt": "Schematic of occupational voice injury news themes for teachers",
+    "caption": "Teacher voice occupational news (schematic). Classroom load and referral pathways \u2014 not a vocal hygiene worksheet."
+  },
+  {
+    "slug": "fluency-old-advice-vs-public-guidance",
+    "filename": "fluency-guidance-shift.svg",
+    "layout": "split",
+    "title": "Fluency advice vs public guidance (schematic)",
+    "desc": "Schematic contrasting old do-not-mention fluency advice with current public guidance.",
+    "headline": "Fluency guidance shift",
+    "subhead": "Old advice vs today",
+    "bands": [
+      {
+        "strong": "Old bedside lore",
+        "detail": "Ignore stuttering \u00b7 wait"
+      },
+      {
+        "strong": "Public guidance",
+        "detail": "Early identification \u00b7 support"
+      },
+      {
+        "strong": "Media headline",
+        "detail": "Often lags guidelines"
+      },
+      {
+        "strong": "Verify",
+        "detail": "ASHA \u00b7 Stuttering Foundation"
+      }
+    ],
+    "alt": "Schematic contrasting outdated fluency advice with current public guidance",
+    "caption": "Fluency guidance shift (schematic). Old ignore-it lore versus current early-support guidance \u2014 verify ASHA."
+  },
+  {
+    "slug": "pediatric-feeding-shared-headlines",
+    "filename": "pediatric-feeding-headlines.svg",
+    "layout": "card",
+    "title": "Pediatric feeding shared headlines (schematic)",
+    "desc": "Schematic when AAP and ASHA share pediatric feeding headlines without merging roles.",
+    "headline": "Shared headlines",
+    "subhead": "AAP + ASHA news",
+    "bands": [
+      {
+        "strong": "AAP nutrition frame",
+        "detail": "Growth \u00b7 feeding safety"
+      },
+      {
+        "strong": "ASHA communication frame",
+        "detail": "Swallow \u00b7 oral function"
+      },
+      {
+        "strong": "Same headline \u00b7 two lenses",
+        "detail": "Read both primary pages"
+      },
+      {
+        "strong": "Verify",
+        "detail": "AAP \u00b7 ASHA policy"
+      }
+    ],
+    "alt": "Schematic when AAP and ASHA share pediatric feeding headlines with distinct professional lenses",
+    "caption": "Pediatric feeding headlines (schematic). Shared news with different professional lenses \u2014 verify both societies."
+  },
+  {
+    "slug": "childhood-apraxia-headlines",
+    "filename": "cas-headlines.svg",
+    "layout": "card",
+    "title": "Childhood apraxia headlines (schematic)",
+    "desc": "Schematic of CAS headline cycle versus wait-and-see scar in public discourse.",
+    "headline": "CAS headlines",
+    "subhead": "Wait-and-see scar",
+    "bands": [
+      {
+        "strong": "Label in headline",
+        "detail": "Often without assessment context"
+      },
+      {
+        "strong": "Wait-and-see",
+        "detail": "Harmful delay narrative"
+      },
+      {
+        "strong": "Assessment path",
+        "detail": "SLP + medical team"
+      },
+      {
+        "strong": "Verify",
+        "detail": "ASHA CAS resources \u00b7 primary sources"
+      }
+    ],
+    "alt": "Schematic of childhood apraxia of speech headlines versus assessment pathways",
+    "caption": "Childhood apraxia headlines (schematic). Labels in news are not assessments \u2014 verify clinical evaluation paths."
+  },
+  {
+    "slug": "aac-access-not-app-rankings",
+    "filename": "aac-access.svg",
+    "layout": "card",
+    "title": "AAC access not app rankings (schematic)",
+    "desc": "Schematic prioritizing AAC access, funding, and training over app store rankings.",
+    "headline": "AAC access news",
+    "subhead": "Not app rankings",
+    "bands": [
+      {
+        "strong": "Access",
+        "detail": "Device \u00b7 funding \u00b7 trials"
+      },
+      {
+        "strong": "Feature lists",
+        "detail": "Marketing \u2260 IEP need"
+      },
+      {
+        "strong": "Team decision",
+        "detail": "SLP \u00b7 OT \u00b7 family \u00b7 student"
+      },
+      {
+        "strong": "Verify",
+        "detail": "ASHA AAC \u00b7 state assistive tech"
+      }
+    ],
+    "alt": "Schematic prioritizing AAC access and funding over consumer app rankings in news",
+    "caption": "AAC access (schematic). Funding and team trials beat app-store rankings in the news."
+  },
+  {
+    "slug": "post-covid-voice-and-swallow",
+    "filename": "post-covid-voice-swallow.svg",
+    "layout": "card",
+    "title": "Post-COVID voice and swallow news (schematic)",
+    "desc": "Schematic of public agency statements on post-COVID voice and swallow sequelae.",
+    "headline": "Post-COVID sequelae",
+    "subhead": "Agency statements",
+    "bands": [
+      {
+        "strong": "Voice symptoms",
+        "detail": "Persistent hoarseness reports"
+      },
+      {
+        "strong": "Swallow symptoms",
+        "detail": "Dysphagia after acute phase"
+      },
+      {
+        "strong": "Agency pages",
+        "detail": "CDC \u00b7 NIH \u2014 not social cure"
+      },
+      {
+        "strong": "Verify",
+        "detail": "Primary agency guidance"
+      }
+    ],
+    "alt": "Schematic of public health agency statements on post-COVID voice and swallow symptoms",
+    "caption": "Post-COVID voice and swallow (schematic). Agency statements \u2014 not social-media treatment recipes."
+  },
+  {
+    "slug": "parkinsons-speech-in-the-headlines",
+    "filename": "parkinsons-speech-news.svg",
+    "layout": "card",
+    "title": "Parkinson speech headlines (schematic)",
+    "desc": "Schematic separating LSVT and device headlines from individualized Parkinson care.",
+    "headline": "Parkinson speech news",
+    "subhead": "Headlines vs plan",
+    "bands": [
+      {
+        "strong": "Therapy brands in news",
+        "detail": "LSVT LOUD \u00b7 devices"
+      },
+      {
+        "strong": "Individual plan",
+        "detail": "Neurology + SLP team"
+      },
+      {
+        "strong": "No miracle headline",
+        "detail": "Disease course varies"
+      },
+      {
+        "strong": "Verify",
+        "detail": "ASHA neurogenic \u00b7 movement disorders clinic"
+      }
+    ],
+    "alt": "Schematic separating branded Parkinson speech therapy headlines from individualized care plans",
+    "caption": "Parkinson speech headlines (schematic). Branded therapy news is not everyone's treatment plan."
+  },
+  {
+    "slug": "hnc-survivorship-communication-news",
+    "filename": "hnc-survivorship.svg",
+    "layout": "card",
+    "title": "HNC survivorship communication (schematic)",
+    "desc": "Schematic of head and neck cancer survivorship communication needs in public news.",
+    "headline": "HNC survivorship",
+    "subhead": "Communication news",
+    "bands": [
+      {
+        "strong": "Acute treatment news",
+        "detail": "Surgery \u00b7 chemoRT"
+      },
+      {
+        "strong": "Survivorship phase",
+        "detail": "Swallow \u00b7 voice \u00b7 cognition"
+      },
+      {
+        "strong": "Multidisciplinary",
+        "detail": "SLP in oncology team"
+      },
+      {
+        "strong": "Verify",
+        "detail": "ASCO survivorship \u00b7 ASHA oncology"
+      }
+    ],
+    "alt": "Schematic of head and neck cancer survivorship communication themes in news coverage",
+    "caption": "HNC survivorship communication (schematic). Survivorship swallow and voice needs \u2014 verify oncology and ASHA guidance."
+  }
+]

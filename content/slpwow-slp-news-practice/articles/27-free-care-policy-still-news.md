@@ -18,6 +18,7 @@ citations:
 status: draft
 stage: draft
 voice_check: human
+featured_image: assets/free-care-policy-still-news/free-care-letter.svg
 ---
 
 **Disclaimer.** Educational news briefing for SLPWOW. Not billing advice, not legal advice, not a treatment protocol, and not medical advice. Rules change by contractor, state, and calendar year. Verify the current CMS, MAC, state, or ASHA page before you act. This series does not evaluate patients and does not publish worksheets.
@@ -51,3 +52,19 @@ Vendors who sold IEP-only claiming software. Board attorneys who learned the old
 “The old ‘if it’s free you can’t bill Medicaid’ rule was withdrawn in 2014. The 2023 guide repeats that. Whether *our* state plan bills beyond the IEP is a different sentence. I’m not going to run a claim from a news brief.” If the superintendent wants the letter, it is two pages of federal English. If they want a new SPA, they want the Medicaid agency, not the booth.
 
 Essay 28 is the category error in the other direction: treating every IEP minute as if it were already medical necessity under Medicare’s religion. Two languages. Two clocks. One child.
+
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/free-care-policy-still-news/free-care-letter.svg"
+    alt="Timeline schematic of CMS free-care policy reversal affecting school Medicaid"
+    width="880"
+    height="420"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Free-care policy (schematic). 2014 letter still shapes who pays — verify state Medicaid guidance.
+    <span class="figure-credit">SLPWOW SLP News — practice pack — original editorial SVG. Not billing, legal, or clinical advice.</span>
+  </figcaption>
+</figure>
