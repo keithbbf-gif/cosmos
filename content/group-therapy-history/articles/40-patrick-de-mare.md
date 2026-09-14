@@ -9,7 +9,7 @@ tags:
   - Northfield
 type: figure
 order: 40
-portrait: none
+portrait: "plates/patrick-de-mare/plate.svg"
 citations:
   - "de Maré, Patrick, Robin Piper, and Sheila Thompson. Koinonia: From Hate, through Dialogue, to Culture in the Large Group. London: Karnac, 1991."
   - "de Maré, P. B. Perspectives in Group Psychotherapy. London: Allen & Unwin, 1972."
@@ -17,9 +17,30 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1916–2008"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: patrick-de-mare.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/patrick-de-mare/plate.svg"
+    alt="Typographic history plate for Patrick de Maré (1916–2008) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Patrick de Maré</strong> (1916–2008) — Patrick de Maré (1916–2008) left Northfield for median and large groups and, with Piper and Thompson, published Koinonia in 1991. Dialogue as history — not a large-group recipe.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/patrick-de-mare/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
+
+
 
 Patrick Baltzar de Maré was born in London in 1916 and died in 2008. In the last years of the Second World War he worked at the military neurosis centre at Hollymoor, Northfield, in the long second experiment that also holds S. H. Foulkes, Thomas Main, and Harold Bridger. After the uniforms came off he became a consultant psychotherapist at St George's and a builder of the civilian group-analytic institutions that still occupy London: the Group Analytic Practice, the Group Analytic Society, later the Institute of Group Analysis. His distinctive claim, written most fully in *Koinonia: From Hate, through Dialogue, to Culture in the Large Group* (Karnac, 1991), with Robin Piper and Sheila Thompson, was that the small analytic group was not the end of the method. Size changes the object. Dialogue in a larger room is not the same work as family transference in eight chairs.
 

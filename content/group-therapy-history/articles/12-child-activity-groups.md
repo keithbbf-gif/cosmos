@@ -17,9 +17,29 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+lead_asset: "assets/era/child-activity-groups/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: child-activity-groups.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/child-activity-groups/lead-timeline.svg"
+    alt="Editorial timeline for Children's activity groups."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Children's activity groups</strong> — Slavson's activity groups: children in a shop, not a talk hour.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
+
+
 
 In 1943 the Commonwealth Fund in New York published S. R. Slavson's *An Introduction to Group Therapy*, a 352-page book about a method the Jewish Board of Guardians had been using with children since 1934. The volume is about rooms with materials in them: wood, paint, tools, a chance to make something or wreck something without a lesson plan. It is not a book of children's inner monologues. Later American group psychotherapy would talk as if the circle had always been a conversation among adults. Slavson's first public monument was a children's shop.
 

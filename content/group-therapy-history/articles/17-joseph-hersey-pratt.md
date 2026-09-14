@@ -9,7 +9,7 @@ tags:
   - tuberculosis class
 type: figure
 order: 17
-portrait: none
+portrait: "plates/joseph-hersey-pratt/plate.svg"
 citations:
   - "Pratt, Joseph H. The Class Method of Treating Consumption in the Homes of the Poor. JAMA 49, no. 9 (1907): 755–759."
   - "Pratt, Joseph H. A Year with Osler, 1896–1897. Baltimore: Johns Hopkins Press, 1949."
@@ -17,9 +17,30 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1872–1956"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: joseph-hersey-pratt.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/joseph-hersey-pratt/plate.svg"
+    alt="Typographic history plate for Joseph Hersey Pratt (1872–1956) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Joseph Hersey Pratt</strong> (1872–1956) — Joseph Hersey Pratt (1872–1956) ran tuberculosis classes at Massachusetts General and Emmanuel Church and published the class method in JAMA in 1907. A life, not an origin myth.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/joseph-hersey-pratt/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
+
+
 
 The 31 August 1907 issue of *JAMA* carried a paper by Joseph Hersey Pratt whose title still refuses the later brochure: "The Class Method of Treating Consumption in the Homes of the Poor." He was an internist in the outpatient department of the Massachusetts General Hospital. The patients were poor, many of them Irish immigrants, and they had pulmonary tuberculosis. State sanatorium beds were scarce or priced out of reach. William Osler had already argued, in 1900, that most consumptives would have to be treated at home if they were to be treated at all. Pratt tried to build a home sanatorium in a tenement: rest, outdoor air, an hourly diary, a visitor, and a weekly class.
 

@@ -9,7 +9,7 @@ tags:
   - Stanford
 type: figure
 order: 29
-portrait: none
+portrait: "plates/irvin-yalom-group/plate.svg"
 citations:
   - "Yalom, Irvin D. The Theory and Practice of Group Psychotherapy. Basic Books, 1970 (later editions)."
   - "Yalom, Irvin D. Inpatient Group Psychotherapy. Basic Books, 1983."
@@ -17,9 +17,30 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "b. 1931"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: irvin-yalom-group.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/irvin-yalom-group/plate.svg"
+    alt="Typographic history plate for Irvin Yalom and the group book (b. 1931) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Irvin Yalom and the group book</strong> (b. 1931) — Irvin Yalom (b. 1931) wrote The Theory and Practice of Group Psychotherapy (1970), named therapeutic factors, and separated inpatient from outpatient group work. Group frame only.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/irvin-yalom-group/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
+
+
 
 *No licensed still. Type only: Irvin D. Yalom, b. 1931. Living as of 2026-09-14.*
 

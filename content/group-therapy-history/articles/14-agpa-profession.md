@@ -17,9 +17,29 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+lead_asset: "assets/era/agpa-profession/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: agpa-profession.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/agpa-profession/lead-timeline.svg"
+    alt="Editorial timeline for AGPA and group as a profession."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>AGPA and group as a profession</strong> — A luncheon that became a guild — profession and quarrel, not a pitch.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
+
+
 
 In February 1943, at the American Orthopsychiatric Association's annual meeting in New York, two sessions were given to group therapy. Lawson G. Lowrey chaired. S. R. Slavson, Nathan W. Ackerman, Harris B. Peck, and two clinical social workers, Helen Glauber and Dorothy Spiker, spoke. With Lowrey's approval, Slavson chalked a note on the registration-desk blackboard inviting anyone specifically interested in group therapy to a luncheon at the Hotel New Yorker, where the conference was being held. About fifty people came. It was decided, there, to create an organization. The logo later emblazoned 1942. The meetings the association's own historians can document were 1943.
 

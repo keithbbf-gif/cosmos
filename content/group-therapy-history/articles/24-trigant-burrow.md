@@ -9,7 +9,7 @@ tags:
   - Lifwynn
 type: figure
 order: 24
-portrait: none
+portrait: "plates/trigant-burrow/plate.svg"
 citations:
   - "Burrow, Trigant. The Social Basis of Consciousness. New York: Harcourt, Brace, 1927."
   - "Burrow, Trigant. The Group Method of Analysis. Psychoanalytic Review 14 (1927): 268–280."
@@ -17,9 +17,30 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1875–1950"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: trigant-burrow.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/trigant-burrow/plate.svg"
+    alt="Typographic history plate for Trigant Burrow (1875–1950) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Trigant Burrow</strong> (1875–1950) — Trigant Burrow (1875–1950), an American psychoanalyst, argued in The Social Basis of Consciousness (1927) that neurosis is social. Phyloanalysis and the Lifwynn Foundation — early theory, not a protocol.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/trigant-burrow/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
+
+
 
 In 1927 Harcourt, Brace in New York and Kegan Paul in London issued Trigant Burrow's *The Social Basis of Consciousness*. The book told the psychoanalytic century something it did not want to hear: that the trouble called neurosis was not only a private drama inside one person, and that the analytic pair was too small a sample of human life. The same year he published "The Group Method of Analysis" in *The Psychoanalytic Review*. He had already been president of the American Psychoanalytic Association. Within a few years the association would ask him to leave. `[VERIFY]` sources disagree on 1932 versus 1933 for the resignation-as-expulsion; the fact of the breach is not in doubt.
 

@@ -9,7 +9,7 @@ tags:
   - Argentina
 type: figure
 order: 39
-portrait: none
+portrait: "plates/enrique-pichon-riviere/plate.svg"
 citations:
   - "Pichon-Rivière, Enrique. El proceso grupal. Buenos Aires: Nueva Visión, collected editions (Spanish title on first mention)."
   - "Tubert-Oklander, Juan, and Reyna Hernández de Tubert. English-language introductions to the Argentine school (name the book if quoted)."
@@ -17,9 +17,30 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1907–1977"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: enrique-pichon-riviere.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/enrique-pichon-riviere/plate.svg"
+    alt="Typographic history plate for Enrique Pichon-Rivière (1907–1977) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Enrique Pichon-Rivière</strong> (1907–1977) — Enrique Pichon-Rivière (1907–1977), born in Switzerland and formed in Argentina, wrote El proceso grupal and named operative groups and the ECRO. An Argentine school — not a European copy.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/enrique-pichon-riviere/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
+
+
 
 Enrique Pichon-Rivière was born in Geneva on 25 June 1907 and died in Buenos Aires on 16 July 1977. The family crossed to Argentina when he was a small child and lived in the interior — the Chaco cotton country of the period, then other river towns — before he studied medicine in Buenos Aires. English textbooks that need a European origin for every method sometimes file him under "Klein in the Southern Cone" or "Bion with a Spanish accent." That filing is a failure of reading. He read European psychoanalysis. He also worked for years in Argentine asylums, helped found the Asociación Psicoanalítica Argentina, broke toward social psychology, and left a vocabulary — *grupo operativo*, *vínculo*, ECRO — that Argentine, Uruguayan, and later Spanish and Mexican schools still argue with as their own.
 

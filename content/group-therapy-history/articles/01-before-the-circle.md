@@ -17,9 +17,29 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+lead_asset: "assets/era/before-the-circle/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: before-the-circle.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/before-the-circle/lead-timeline.svg"
+    alt="Editorial timeline for Before the circle was a clinic."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Before the circle was a clinic</strong> — Circles of prayer, ward, settlement, and mutual aid before the group hour was billed.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
+
+
 
 A ring of chairs is older than a CPT code. People have sat in circles to pray, to drill, to mourn, to confess, to learn a trade, and to keep a sick neighbor from dying alone. The later profession of group psychotherapy needed those rooms the way a new language needs a throat. It did not invent the throat.
 

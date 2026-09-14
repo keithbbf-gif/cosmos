@@ -9,7 +9,7 @@ tags:
   - group dynamics
 type: figure
 order: 22
-portrait: confirm
+portrait: "plates/kurt-lewin/plate.svg"
 citations:
   - "Lewin, Kurt. Resolving Social Conflicts. New York: Harper, 1948."
   - "Bradford, Leland P., Jack R. Gibb, and Kenneth D. Benne, eds. T-Group Theory and Laboratory Method. New York: Wiley, 1964."
@@ -17,9 +17,30 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1890–1947"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: kurt-lewin.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/kurt-lewin/plate.svg"
+    alt="Typographic history plate for Kurt Lewin (1890–1947) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Kurt Lewin</strong> (1890–1947) — Kurt Lewin (1890–1947) took field theory from Berlin to Iowa and MIT, staffed the 1946 New Britain interracial workshop, and died in February 1947 before Bethel's first T-group summer.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/kurt-lewin/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
+
+
 
 In February 1947 Kurt Lewin died of a heart attack in Newtonville, Massachusetts. He was fifty-six. He was director of the Research Center for Group Dynamics at the Massachusetts Institute of Technology, and a consultant to the American Jewish Congress's Commission on Community Interrelations. He would not see the first summer of the National Training Laboratory for Group Development at Gould Academy in Bethel, Maine. Leland Bradford, Ronald Lippitt, and Kenneth Benne would. The T-group — training group — became an American export: a circle whose curriculum was its own behavior. Lewin's name went on the export. His body was already in Boston.
 

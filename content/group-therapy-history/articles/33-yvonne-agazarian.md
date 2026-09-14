@@ -9,7 +9,7 @@ tags:
   - AGPA
 type: figure
 order: 33
-portrait: none
+portrait: "plates/yvonne-agazarian/plate.svg"
 citations:
   - "Agazarian, Yvonne M. Systems-Centered Therapy for Groups. Guilford, 1997."
   - "Agazarian, Yvonne, and Richard Peters. The Visible and Invisible Group. 1981."
@@ -17,9 +17,30 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "living (verified 2026)"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: yvonne-agazarian.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/yvonne-agazarian/plate.svg"
+    alt="Typographic history plate for Yvonne Agazarian (living (verified 2026)) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Yvonne Agazarian</strong> (living (verified 2026)) — Yvonne Agazarian (1929–2017) built systems-centered therapy (SCT) for groups and published Systems-Centered Therapy for Groups in 1997. Living-system theory as history, not a training.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/yvonne-agazarian/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
+
+
 
 *No licensed still. Type only: Yvonne M. Agazarian, 1929–2017.*
 

@@ -9,7 +9,7 @@ tags:
   - Foulkes
 type: figure
 order: 41
-portrait: none
+portrait: "plates/malcolm-pines/plate.svg"
 citations:
   - "Pines, Malcolm, ed. The Evolution of Group Analysis. London: Routledge, 1983."
   - "Royal College of Physicians. Biographical memoir of Malcolm Irvin Manoah Pines."
@@ -17,9 +17,30 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1925–2021"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: malcolm-pines.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/malcolm-pines/plate.svg"
+    alt="Typographic history plate for Malcolm Pines (1925–2021) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Malcolm Pines</strong> (1925–2021) — Malcolm Pines (1925–2021) edited The Evolution of Group Analysis (1983) and spent a career interpreting S. H. Foulkes for a profession that had not sat at Northfield.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/malcolm-pines/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
+
+
 
 Routledge published *The Evolution of Group Analysis* in 1983, Malcolm Pines editing. The volume is an introduction to S. H. Foulkes and to the arguments that grew on his sentences: the group as matrix, the conductor rather than the star, analysis *through* the group. Pines (25 April 1925 – 3 July 2021) had been close enough to Foulkes to make the book more than a festschrift and late enough that the founder was already becoming a statue. His public job, for decades, was to keep the statue from replacing the practice — and, at the same time, to make a British school travel: Scandinavia, the European symposia, the journal *Group Analysis*, an International Library that put other people's books into English.
 

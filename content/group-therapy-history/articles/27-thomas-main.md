@@ -9,7 +9,7 @@ tags:
   - Northfield
 type: figure
 order: 27
-portrait: none
+portrait: "plates/thomas-main/plate.svg"
 citations:
   - "Main, T. F. The Hospital as a Therapeutic Institution. Bulletin of the Menninger Clinic, 1946."
   - "Main, T. F. The Ailment. British Journal of Medical Psychology, 1957."
@@ -17,9 +17,30 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1911–1990"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: thomas-main.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/thomas-main/plate.svg"
+    alt="Typographic history plate for Thomas Main (1911–1990) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Thomas Main</strong> (1911–1990) — Thomas Main (1911–1990) named the therapeutic community after Northfield, directed the Cassel, and in The Ailment (1957) studied how staff fall ill around a patient.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/thomas-main/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
+
+
 
 *No licensed still. Type only: Thomas Main, 1911–1990.*
 

@@ -17,9 +17,29 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+lead_asset: "assets/era/therapeutic-community-cmhc/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: therapeutic-community-cmhc.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/therapeutic-community-cmhc/lead-timeline.svg"
+    alt="Editorial timeline for Therapeutic community and CMHC."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Therapeutic community and CMHC</strong> — Jones, Main, and community mental health after the asylum.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
+
+
 
 On October 31, 1963, in the Cabinet Room of the White House, President John F. Kennedy signed Public Law 88-164, the Mental Retardation Facilities and Community Mental Health Centers Construction Act. Title II is the piece group historians still nickname the CMHC Act. Kennedy said custodial mental institutions would be replaced by therapeutic centers, and that the census of the big hospitals might fall by half in a decade or two. Three weeks later he was dead. The statute remained. So did the temptation it tried to kill: the warehouse.
 

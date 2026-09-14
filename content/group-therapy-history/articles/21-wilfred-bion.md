@@ -9,7 +9,7 @@ tags:
   - Tavistock
 type: figure
 order: 21
-portrait: none
+portrait: "plates/wilfred-bion/plate.svg"
 citations:
   - "Bion, W. R., and John Rickman. Intra-Group Tensions in Therapy. The Lancet, 1943."
   - "Bion, W. R. Experiences in Groups and Other Papers. London: Tavistock, 1961."
@@ -17,9 +17,30 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1897–1979"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: wilfred-bion.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/wilfred-bion/plate.svg"
+    alt="Typographic history plate for Wilfred Bion (1897–1979) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Wilfred Bion</strong> (1897–1979) — Wilfred Bion (1897–1979), a First World War tank officer, wrote the 1943 Lancet Northfield paper with Rickman and Experiences in Groups (1961). Basic assumptions as historical theory — not a diagnostic toy.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/wilfred-bion/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
+
+
 
 In November 1917, at Cambrai, a twenty-year-old officer in the British Tank Corps took a machine into battle and lived. Wilfred Ruprecht Bion was born on 8 September 1897 in Muttra (Mathura), then in British India, sent to England as a schoolboy, and given a war before he was given a profession. He received the Distinguished Service Order and the French Légion d'honneur. The later psychoanalytic fame can make the uniform look like a preface. It was a life. He wrote about it, decades afterward, in a memoir published after his death as *The Long Weekend*. Panic, in his telling, was not a metaphor. It was something that happened to a group of men in a field.
 

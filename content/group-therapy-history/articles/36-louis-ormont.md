@@ -9,7 +9,7 @@ tags:
   - New York
 type: figure
 order: 36
-portrait: none
+portrait: "plates/louis-ormont/plate.svg"
 citations:
   - "Ormont, Louis R. The Group Therapy Experience. New York: St. Martin's, 1992."
   - "Ormont, Louis R. The Technique of Group Treatment. Psychosocial Press, 2001 (collected papers)."
@@ -17,9 +17,30 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1918–2008"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: louis-ormont.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/louis-ormont/plate.svg"
+    alt="Typographic history plate for Louis Ormont (1918–2008) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Louis Ormont</strong> (1918–2008) — Louis R. Ormont (1918–2008) named modern analytic group work in New York and published The Group Therapy Experience in 1992. History of a school — not a bridging lesson.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/louis-ormont/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
+
+
 
 St. Martin's Press issued Louis R. Ormont's *The Group Therapy Experience* in 1992 with a subtitle that told the truth about the intended reader: *From Theory to Practice*. The book is a late-career summing-up by a New York psychologist and psychoanalyst (1918–2008) who had already spent decades running groups and teaching a method his students called modern analytic. American group psychotherapy already had Slavson, Wolf, Durkin, Yalom, and the Boston textbook line. Ormont's claim, in print, was that the group should not be an audience for serial individual work. Members were to talk to one another. He named one of his devices *bridging*. This essay uses that word as a historical term. It does not teach the device. It does not script a question to ask a neighbor in a circle.
 

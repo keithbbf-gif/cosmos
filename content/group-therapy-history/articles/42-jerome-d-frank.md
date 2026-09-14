@@ -9,7 +9,7 @@ tags:
   - persuasion and healing
 type: figure
 order: 42
-portrait: none
+portrait: "plates/jerome-d-frank/plate.svg"
 citations:
   - "Frank, Jerome D. Persuasion and Healing. Baltimore: Johns Hopkins Press, 1961 (later eds.)."
   - "Frank, Jerome D. Papers on cohesiveness and outpatient group psychotherapy, International Journal of Group Psychotherapy, 1950s."
@@ -17,9 +17,30 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1909–2005"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: jerome-d-frank.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/jerome-d-frank/plate.svg"
+    alt="Typographic history plate for Jerome D. Frank (1909–2005) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Jerome D. Frank</strong> (1909–2005) — Jerome D. Frank (1909–2005) of Johns Hopkins published Persuasion and Healing in 1961, studied outpatient groups, and named demoralization. Research history — not a how-to.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/jerome-d-frank/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
+
+
 
 Johns Hopkins Press published Jerome D. Frank's *Persuasion and Healing: A Comparative Study of Psychotherapy* in 1961. The book is not a group manual. It is an argument that healing practices — psychiatry, counseling, religious cure, the placebo of a ritual — share features that restore morale when a person has lost the sense that anything can be done. Frank (30 May 1909 – 14 March 2005) had already been running and studying outpatient groups at the Henry Phipps Psychiatric Clinic. The group papers and the 1961 book belong together historically: the circle was one of the rooms in which he watched persuasion work, fail, and drop people. This essay will not turn either object into a method you can follow at home.
 

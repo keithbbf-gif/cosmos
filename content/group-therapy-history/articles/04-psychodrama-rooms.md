@@ -17,9 +17,29 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+lead_asset: "assets/era/psychodrama-rooms/lead-period-object.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: psychodrama-rooms.lead-period-object -->
+<figure class="wow-figure wow-figure--era wow-figure--period-object">
+  <img
+    src="../assets/era/psychodrama-rooms/lead-period-object.svg"
+    alt="Typographic facsimile of the title page of Who Shall Survive?, Jacob L. Moreno, M.D., 1934 — public domain, no photograph."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Who Shall Survive?</strong> (1934) — Moreno's stage, audience, and the 1934 book that named sociometry.
+    <span class="figure-credit">PD period object (facsimile for staging). Staging facsimile — verify U.S. status before live publish. See <code>assets/era/psychodrama-rooms/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
+
+
 
 Jacob Levy Moreno liked a stage. He also liked a fight. In Vienna after the First World War he organized the Theatre of Spontaneity — evenings in which a scene was not rehearsed so much as dared. In the United States, after he arrived in 1925, he built Beacon, a small empire of journals, a sanitarium, and a method he named as if he had invented the human being: psychodrama, sociometry, group psychotherapy. He would spend decades insisting that S. R. Slavson's AGPA circle had stolen a word and missed a revolution.
 

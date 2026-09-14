@@ -9,7 +9,7 @@ tags:
   - social group work
 type: figure
 order: 38
-portrait: none
+portrait: "plates/william-schwartz/plate.svg"
 citations:
   - "Schwartz, William. \"The Social Worker in the Group.\" In New Perspectives on Services to Groups. NASW, 1961."
   - "Schwartz, William, and Serapio Zalba, eds. The Practice of Group Work. Columbia University Press, 1971."
@@ -17,9 +17,30 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1916–1982"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: william-schwartz.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/william-schwartz/plate.svg"
+    alt="Typographic history plate for William Schwartz (1916–1982) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>William Schwartz</strong> (1916–1982) — William Schwartz (1916–1982) called the group an enterprise in mutual aid in 'The Social Worker in the Group' (1961). Social-work theory — not AA, not a protocol.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/william-schwartz/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
+
+
 
 In 1961 the National Association of Social Workers issued a volume, *New Perspectives on Services to Groups*, that included William Schwartz's essay "The Social Worker in the Group." He was forty-five. He would die in 1982. The essay is short, cited past all proportion to its length, and easy to steal. Later textbooks boiled it into a slogan: the group as an enterprise in mutual aid. This pack keeps the phrase inside social-work theory, where he put it. It is not Alcoholics Anonymous. The fellowship of 1935 refused the name therapy and wrote a different literature. Historians may compare forms. The brand must not collapse them. Schwartz's mutual aid is also not a session protocol. No "all in the same boat" worksheet lives here.
 

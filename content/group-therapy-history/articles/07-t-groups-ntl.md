@@ -17,9 +17,29 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+lead_asset: "assets/era/t-groups-ntl/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: t-groups-ntl.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/t-groups-ntl/lead-timeline.svg"
+    alt="Editorial timeline for T-groups and Bethel."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>T-groups and Bethel</strong> — Lewin's field theory and the here-and-now training group at Bethel.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
+
+
 
 In the summer of 1946, in New Britain, Connecticut, Kurt Lewin helped staff a workshop the Connecticut Interracial Commission had asked for: train local people to work on racial and religious discrimination and on fair employment. The staff met at night to talk about what they had seen in the small groups. Participants asked to sit in. They contradicted the observers. The argument about the day became, in the later legend, more educational than the day.
 

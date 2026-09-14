@@ -9,7 +9,7 @@ tags:
   - body image
 type: figure
 order: 25
-portrait: confirm
+portrait: "plates/paul-schilder/plate.svg"
 citations:
   - "Schilder, Paul. Psychotherapy. New York: W. W. Norton, 1938."
   - "Schilder, Paul. The Image and Appearance of the Human Body. 1935."
@@ -17,9 +17,30 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1886–1940"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: paul-schilder.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/paul-schilder/plate.svg"
+    alt="Typographic history plate for Paul Schilder (1886–1940) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Paul Schilder</strong> (1886–1940) — Paul Schilder (1886–1940) brought Vienna neurology and psychoanalysis to Bellevue, wrote on body image, put hospital groups into Psychotherapy (1938), and died in 1940 — before the American guild finished electing…
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/paul-schilder/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
+
+
 
 In 1938 W. W. Norton published Paul Schilder's *Psychotherapy*. It is not a group-therapy textbook. It is a psychiatrist's book that happens to contain, among other rooms, the hospital group: a physician who begins with a topic — fear, a symptom, a hospital rule — and then lets the ward answer back. Schilder had already written the work he valued most among his later books, *The Image and Appearance of the Human Body* (1935). A group, for him, was not only cheaper than an hour. It was a place where the seen body and the spoken life could be argued with in public.
 

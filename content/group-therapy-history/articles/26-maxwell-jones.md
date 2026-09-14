@@ -9,7 +9,7 @@ tags:
   - Henderson Hospital
 type: figure
 order: 26
-portrait: none
+portrait: "plates/maxwell-jones/plate.svg"
 citations:
   - "Jones, Maxwell. The Therapeutic Community. Basic Books, 1953."
   - "Jones, Maxwell. Beyond the Therapeutic Community. Yale University Press, 1968."
@@ -17,9 +17,30 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1907–1990"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: maxwell-jones.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/maxwell-jones/plate.svg"
+    alt="Typographic history plate for Maxwell Jones (1907–1990) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Maxwell Jones</strong> (1907–1990) — Maxwell Jones (1907–1990) made Belmont's unit, later Henderson, a laboratory of social psychiatry. The Therapeutic Community (1953) is history, not a house-meeting recipe.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/maxwell-jones/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
+
+
 
 *No licensed still. Type only: Maxwell Jones, 1907–1990.*
 

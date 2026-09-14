@@ -15,8 +15,12 @@ Start here:
 | `BIBLIOGRAPHY.md` | Sources |
 | `PORTRAIT_SOURCES.md` | PD/CC or honest blank — **no fake faces** |
 | `PHOTO_NOTES.md` | Image rules |
+| `RIGHTS.md` | Pack-wide rights manifest |
+| `GRAPHICS_INDEX.md` | Lead SVG / plate register |
 | `WP_IMPORT.md` | Staging WordPress only |
+| `embeds/` | `<figure>` HTML templates |
 | `articles/` | The essays |
 | `check_pack.py` | Structural QA |
+| `graphics_pass.py` | Regenerate plates, era SVGs, figure SEO blocks |
 
 Educational only. Not medical advice. Not a group-therapy manual. No DIY treatment protocols. No patient PHI.

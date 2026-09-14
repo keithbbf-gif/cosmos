@@ -9,7 +9,7 @@ tags:
   - Balint groups
 type: figure
 order: 28
-portrait: none
+portrait: "plates/michael-balint/plate.svg"
 citations:
   - "Balint, Michael. The Doctor, His Patient and the Illness. Pitman / Tavistock, 1957."
   - "Balint, Enid, and Michael Balint. Later Tavistock papers; Six Minutes for the Patient, 1973 (Enid and colleagues after his death)."
@@ -17,9 +17,30 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1896–1970"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: michael-balint.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/michael-balint/plate.svg"
+    alt="Typographic history plate for Michael Balint (1896–1970) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Michael Balint</strong> (1896–1970) — Michael Balint (1896–1970), from Budapest to the Tavistock, wrote The Doctor, His Patient and the Illness (1957). Balint groups are a historical form — not a how-to.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/michael-balint/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
+
+
 
 *No licensed still. Type only: Michael Balint, 1896–1970.*
 

@@ -17,9 +17,29 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+lead_asset: "assets/era/feminist-consciousness-raising/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: feminist-consciousness-raising.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/feminist-consciousness-raising/lead-timeline.svg"
+    alt="Editorial timeline for Consciousness-raising and the political circle."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Consciousness-raising and the political circle</strong> — Political circles that were not billed as psychotherapy.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
+
+
 
 In February 1969, in Gainesville, Florida, Carol Hanisch wrote a memo to the women's caucus of the Southern Conference Educational Fund. She was a New York organizer on subsistence pay, scouting whether a women's liberation project could live in the South. Another staff member, Dottie Zellner, had argued that consciousness-raising looked like therapy and that the new independent women's liberation movement might not be "political." Hanisch's reply was originally titled as an answer to Dottie. When Shulamith Firestone and Anne Koedt printed it in *Notes from the Second Year: Women's Liberation* (1970), they put a different title on the piece: "The Personal Is Political." The slogan outran the memo. Historians still have to put it back in 1969 if they want the argument and not the bumper sticker.
 

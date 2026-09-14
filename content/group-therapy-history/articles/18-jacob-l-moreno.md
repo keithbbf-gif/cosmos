@@ -9,7 +9,7 @@ tags:
   - sociometry
 type: figure
 order: 18
-portrait: confirm
+portrait: "plates/jacob-l-moreno/plate.svg"
 citations:
   - "Moreno, J. L. Who Shall Survive? Washington, DC: Nervous and Mental Disease Publishing Co., 1934."
   - "Moreno, J. L. Psychodrama. Beacon, NY: Beacon House, from 1946."
@@ -17,9 +17,30 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1889–1974"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: jacob-l-moreno.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/jacob-l-moreno/plate.svg"
+    alt="Typographic history plate for Jacob L. Moreno (1889–1974) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Jacob L. Moreno</strong> (1889–1974) — Jacob L. Moreno (1889–1974) took the Theatre of Spontaneity from Vienna to Beacon, published Who Shall Survive? in 1934, and spent decades quarreling with S. R. Slavson. A life of psychodrama — not a workshop.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/jacob-l-moreno/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
+
+
 
 In 1934 the Nervous and Mental Disease Publishing Company in Washington issued a book with a question for a title and a diagram for an argument: J. L. Moreno's *Who Shall Survive?* It offered sociometry — a way of mapping who chooses whom — as if attraction and rejection could be drawn and then acted. The book is grandiose. It is also the object a historian can put on the table when the later legend starts talking about a man who invented the group. He did not invent the group. He named psychodrama and sociometry, built a small publishing empire at Beacon, New York, and spent decades insisting that S. R. Slavson's professional circle had stolen a word and missed a revolution.
 

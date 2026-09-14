@@ -9,7 +9,7 @@ tags:
   - group research
 type: figure
 order: 30
-portrait: none
+portrait: "plates/morton-a-lieberman/plate.svg"
 citations:
   - "Whitaker, Dorothy Stock, and Morton A. Lieberman. Psychotherapy through the Group Process. Atherton, 1964."
   - "Lieberman, Morton A., Irvin D. Yalom, and Matthew B. Miles. Encounter Groups: First Facts. Basic Books, 1973."
@@ -17,9 +17,30 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1931–2019/2022"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: morton-a-lieberman.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/morton-a-lieberman/plate.svg"
+    alt="Typographic history plate for Morton A. Lieberman (1931–2019/2022) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Morton A. Lieberman</strong> (1931–2019/2022) — Morton A. Lieberman (1931–2019/2022) coauthored Psychotherapy through the Group Process (1964) and Encounter Groups: First Facts (1973), the study that counted casualties.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/morton-a-lieberman/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
+
+
 
 *No licensed still. Type only: Morton A. Lieberman, 1931–2019.*
 

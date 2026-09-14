@@ -17,9 +17,29 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+lead_asset: "assets/era/telehealth-groups-history/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: telehealth-groups-history.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/telehealth-groups-history/lead-timeline.svg"
+    alt="Editorial timeline for Groups on a wire."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Groups on a wire</strong> — Therapy groups on telephone, forum, and video — history, not a how-to.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
+
+
 
 In 1993 *Social Work with Groups* published a paper by Lori S. Wiener, E. D. Spencer, R. Davidson, and C. Fair on national telephone support groups for HIV-infected children and their families. The groups had no waiting room and no parking lot. They had a conference line, a scheduled hour, and the particular American geography of an epidemic that had already taught clinics to think about distance, stigma, and who could not walk into a building. The paper is a dated object. It is not a script for a call.
 

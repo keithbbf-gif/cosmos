@@ -9,7 +9,7 @@ tags:
   - activity group therapy
 type: figure
 order: 23
-portrait: none
+portrait: "plates/samuel-r-slavson/plate.svg"
 citations:
   - "Slavson, S. R. An Introduction to Group Therapy. New York: Commonwealth Fund, 1943."
   - "Scheidlinger, Saul, and Gerald Schamess. Fifty Years of AGPA 1942–1992. International Journal of Group Psychotherapy 42 (1992): 1–22."
@@ -17,9 +17,30 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1890–1981"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: samuel-r-slavson.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/samuel-r-slavson/plate.svg"
+    alt="Typographic history plate for Samuel R. Slavson (1890–1981) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Samuel R. Slavson</strong> (1890–1981) — S. R. Slavson (1890–1981) directed activity group therapy at the Jewish Board of Guardians, published An Introduction to Group Therapy in 1943, and served as AGPA's founding president — in a long quarrel with Moreno.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/samuel-r-slavson/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
+
+
 
 In 1903 Samuel Richard Slavson, born in 1890 in Poltava, then in the Russian Empire, landed in New York with his parents and a younger brother. The family's name would split in English: Samuel Richard Slavson, and John Slawson, who later ran the Jewish Board of Guardians. The boy went to work. Evening school at Cooper Union gave him a B.S. in engineering. He was not a physician and never became one. By 1934 he was director of group therapy at the Board. By 1943 he was the first president of the American Group Therapy Association and the author of *An Introduction to Group Therapy*, the Commonwealth Fund book that made a children's shop look like a profession.
 

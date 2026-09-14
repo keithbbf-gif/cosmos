@@ -18,9 +18,29 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+lead_asset: "assets/era/group-research-factors/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: group-research-factors.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/group-research-factors/lead-timeline.svg"
+    alt="Editorial timeline for Factors, cohesion, and outcome arguments."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Factors, cohesion, and outcome arguments</strong> — How group research learned to count cohesion and outcomes.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
+
+
 
 In 1970 Basic Books published Irvin D. Yalom's *The Theory and Practice of Group Psychotherapy*. Residents who would never read Foulkes, Jones, or Slavson now had a thick American textbook that began, not with a founder myth, but with a list. Yalom called the list therapeutic factors — he had earlier used "curative factors" — and treated them as the elements of a complicated process, not as a recipe. The list traveled anyway. By the 1980s a student could recite hope, universality, cohesiveness, and catharsis as if they were organs. Reciting is not the same as measuring. The next decades were an argument about measurement.
 

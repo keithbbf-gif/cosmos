@@ -17,9 +17,29 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+lead_asset: "assets/era/encounter-boom/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: encounter-boom.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/encounter-boom/lead-timeline.svg"
+    alt="Editorial timeline for Encounter, Esalen, and First Facts."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Encounter, Esalen, and First Facts</strong> — Encounter weekends and the 1973 study that counted casualties.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
+
+
 
 By the late 1960s an American who wanted a group did not have to find a clinic. Weekend marathons, church basements, university extras, and the more famous addresses — Esalen Institute at Big Sur among them — offered encounter: a circle that would, the advertising implied, strip a false self in two days and return a truer one to the parking lot.
 

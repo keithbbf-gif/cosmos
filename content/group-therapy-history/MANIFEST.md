@@ -15,8 +15,13 @@ Do not write to live wowtherapies.com from this folder.
 | `BIBLIOGRAPHY.md` | Consolidated citations |
 | `PORTRAIT_SOURCES.md` | PD/CC or honest blank |
 | `PHOTO_NOTES.md` | Image rules; no fake faces |
+| `RIGHTS.md` | Pack-wide rights manifest |
+| `GRAPHICS_INDEX.md` | Lead SVG / plate register |
+| `embeds/` | `<figure>` HTML templates |
 | `WP_IMPORT.md` | Staging import only |
 | `README.md` | Door |
+| `check_pack.py` | Structural QA (figures, plates, banned phrases) |
+| `graphics_pass.py` | Regenerate CC0 SVGs and SEO `<figure>` blocks |
 
 ## Required YAML on each article
 

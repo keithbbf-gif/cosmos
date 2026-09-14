@@ -17,9 +17,29 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+lead_asset: "assets/era/structured-cbt-groups/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: structured-cbt-groups.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/structured-cbt-groups/lead-timeline.svg"
+    alt="Editorial timeline for When the manual entered the circle."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>When the manual entered the circle</strong> — Manuals and psychoeducation inside the circle from the 1970s–1990s.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
+
+
 
 In 1979 Guilford Press published Aaron T. Beck, A. John Rush, Brian F. Shaw, and Gary Emery's *Cognitive Therapy of Depression*. The book is an individual-hour object in the other WOW Therapies history pack. It belongs here only because, within a decade, photocopiers and then publishers were binding its habits — agenda, homework, a record of thoughts — into group manuals with session numbers on the cover. The circle acquired a syllabus. Some clinicians heard science. Some heard a class that had forgotten it was a group.
 

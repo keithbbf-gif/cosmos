@@ -17,9 +17,29 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+lead_asset: "assets/era/bion-tavistock/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: bion-tavistock.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/bion-tavistock/lead-timeline.svg"
+    alt="Editorial timeline for Basic assumptions: Bion and Tavistock."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Basic assumptions: Bion and Tavistock</strong> — Wilfred Bion's dependency, fight-flight, and pairing as historical theory.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
+
+
 
 Wilfred Ruprecht Bion published the essays that became *Experiences in Groups* in *Human Relations* from 1948, then as a book in 1961. Readers who meet him only as a poster of "basic assumptions" miss the hospital and the war. They also miss how little comfort he intended to give. He wrote as if a group were a creature that would rather not work, and as if the creature's excuses were interesting.
 

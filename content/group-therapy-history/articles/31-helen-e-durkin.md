@@ -9,7 +9,7 @@ tags:
   - psychoanalytic group
 type: figure
 order: 31
-portrait: none
+portrait: "plates/helen-e-durkin/plate.svg"
 citations:
   - "Durkin, Helen E. The Group in Depth. International Universities Press, 1964."
   - "Durkin, Helen E. General Systems Theory and Group Therapy: An Introduction. International Journal of Group Psychotherapy, 1972."
@@ -17,9 +17,30 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1901–1991"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: helen-e-durkin.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/helen-e-durkin/plate.svg"
+    alt="Typographic history plate for Helen E. Durkin (1901–1991) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Helen E. Durkin</strong> (1901–1991) — Helen E. Durkin (1901–1991) wrote The Group in Depth (1964), helped AGPA think about training standards, and treated psychoanalytic group theory as a comparative craft.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/helen-e-durkin/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
+
+
 
 *No licensed still. Type only: Helen E. Durkin, 1901–1991 `[VERIFY]`.*
 

@@ -9,7 +9,7 @@ tags:
   - University of Minnesota
 type: figure
 order: 37
-portrait: none
+portrait: "plates/gisela-konopka/plate.svg"
 citations:
   - "Konopka, Gisela. Social Group Work: A Helping Process. Englewood Cliffs, NJ: Prentice-Hall, 1963 (later eds.)."
   - "University of Minnesota Archives. Gisela Konopka papers (institutional chronology)."
@@ -17,9 +17,30 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1910–2003"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: gisela-konopka.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/gisela-konopka/plate.svg"
+    alt="Typographic history plate for Gisela Konopka (1910–2003) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Gisela Konopka</strong> (1910–2003) — Gisela Konopka (1910–2003), German-Jewish refugee and University of Minnesota social-work scholar, wrote Social Group Work: A Helping Process (1963). Youth work — not psychiatry.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/gisela-konopka/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
+
+
 
 Prentice-Hall published Gisela Konopka's *Social Group Work: A Helping Process* in 1963. The book is a social-work text. It is not a psychiatric manual and not a group-analytic primer. Konopka (1910–2003) taught at the University of Minnesota, directed its Center for Youth Development and Research, and spent a career insisting that a group of young people in a settlement, a club, a correctional cottage, or a community program was already a method of help — with its own profession, ethics, and failures. American psychotherapy would later borrow her circles and forget her guild. This essay puts the guild back.
 

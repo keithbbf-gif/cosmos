@@ -9,7 +9,7 @@ tags:
   - Northfield
 type: figure
 order: 20
-portrait: none
+portrait: "plates/s-h-foulkes/plate.svg"
 citations:
   - "Foulkes, S. H. Group Analysis in a Military Neurosis Centre. The Lancet, 1946."
   - "Foulkes, S. H. Introduction to Group-Analytic Psychotherapy. London: Heinemann, 1948."
@@ -17,9 +17,30 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1898–1976"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: s-h-foulkes.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/s-h-foulkes/plate.svg"
+    alt="Typographic history plate for S. H. Foulkes (1898–1976) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>S. H. Foulkes</strong> (1898–1976) — S. H. Foulkes (1898–1976), born Fuchs, took group analysis from Frankfurt exile through Northfield (1943) to a 1946 Lancet paper, a 1948 book, and the Group Analytic Society in 1952. Not Bion.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/s-h-foulkes/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
+
+
 
 In 1933 a German-Jewish psychoanalyst named Siegmund Heinrich Fuchs left Frankfurt. The Psychoanalytic Institute there had shared a building with the Institute for Social Research. Colleagues included Karl Landauer, Erich Fromm, Frieda Fromm-Reichmann. He had been director of the outpatient clinic. The sociologists upstairs — Max Horkheimer's circle — were not his trade, but the building was an argument that a person is already social. Norbert Elias was a friend. Trigant Burrow's papers on group analysis were among the things a Frankfurt analyst could already read. Then the new German state made the reading list secondary to a passport.
 

@@ -9,7 +9,7 @@ tags:
   - Boston
 type: figure
 order: 34
-portrait: none
+portrait: "plates/anne-alonso/plate.svg"
 citations:
   - "Alonso, Anne, and J. Scott Rutan. Papers in the International Journal of Group Psychotherapy and related journals, 1978–1996."
   - "Alonso, Anne. AGPA and the Village Well. International Journal of Group Psychotherapy, 1993 (1992 presidential address)."
@@ -17,9 +17,30 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1933–2007"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: anne-alonso.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/anne-alonso/plate.svg"
+    alt="Typographic history plate for Anne Alonso (1933–2007) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Anne Alonso</strong> (1933–2007) — Anne Alonso (1933–2007) taught group psychotherapy in Boston, led AGPA, and wrote public papers on training and supervision with J. Scott Rutan. Heritage, not a supervision manual.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/anne-alonso/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
+
+
 
 *No licensed still. Type only: Anne Alonso, 1933–2007.*
 

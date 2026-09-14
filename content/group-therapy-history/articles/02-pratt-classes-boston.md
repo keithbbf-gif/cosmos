@@ -17,9 +17,29 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+lead_asset: "assets/era/pratt-classes-boston/lead-period-object.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: pratt-classes-boston.lead-period-object -->
+<figure class="wow-figure wow-figure--era wow-figure--period-object">
+  <img
+    src="../assets/era/pratt-classes-boston/lead-period-object.svg"
+    alt="Typographic facsimile of the title page of The Class Method of Treating Consumption in the Homes of the Poor, Joseph H. Pratt, M.D., 1907 — public domain, no photograph."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>The Class Method of Treating Consumption in the Homes of the Poor</strong> (1907) — Massachusetts General and Emmanuel Church: medical regimen plus a weekly class.
+    <span class="figure-credit">PD period object (facsimile for staging). Public domain (U.S. publication 1907). See <code>assets/era/pratt-classes-boston/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
+
+
 
 In the outpatient department of the Massachusetts General Hospital, in the first years of the twentieth century, Joseph Hersey Pratt kept seeing new cases of pulmonary tuberculosis among people who could not buy a bed at a sanatorium. William Osler had already written, in 1900, about home care for consumptives who would never see Saranac or Rutland. Pratt, then a young internist who admired Osler the way a certain kind of American physician did, tried to build a home sanatorium in a tenement: rest, air, an hourly diary, a visitor, and a weekly class.
 

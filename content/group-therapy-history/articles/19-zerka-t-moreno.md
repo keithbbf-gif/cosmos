@@ -9,7 +9,7 @@ tags:
   - Beacon
 type: figure
 order: 19
-portrait: none
+portrait: "plates/zerka-t-moreno/plate.svg"
 citations:
   - "Moreno, Zerka T. To Dream Again: A Memoir. New York: Mental Health Resources, 2012."
   - "Moreno, J. L. Who Shall Survive? 1934."
@@ -17,9 +17,30 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1917–2016"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: zerka-t-moreno.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/zerka-t-moreno/plate.svg"
+    alt="Typographic history plate for Zerka T. Moreno (1917–2016) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Zerka T. Moreno</strong> (1917–2016) — Zerka T. Moreno (1917–2016) collaborated with J. L. Moreno from 1941, married him in 1949, and kept psychodrama teaching and writing after 1974. A life — not a workshop, not a footnote.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/zerka-t-moreno/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
+
+
 
 In 1941 a young Dutch woman named Celine Zerka Toeman brought an elder sister from wartime Europe to New York for psychiatric treatment and walked into J. L. Moreno's orbit. She had not come to found a method. She had come with a family emergency and a talent for work. Within a year she was a student, a secretary, and a collaborator in the sociometric and psychodramatic enterprises that used Beacon, New York, and Park Avenue letterheads. In 1949 she married him. When he died in 1974 she was fifty-seven. She had more than four decades left. She used them to keep psychodrama in circulation — teaching, editing, traveling — without turning this website into a director's manual.
 

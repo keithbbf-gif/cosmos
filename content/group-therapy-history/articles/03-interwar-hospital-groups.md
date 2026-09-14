@@ -17,9 +17,29 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+lead_asset: "assets/era/interwar-hospital-groups/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: interwar-hospital-groups.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/interwar-hospital-groups/lead-timeline.svg"
+    alt="Editorial timeline for Interwar hospital groups."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Interwar hospital groups</strong> — Full wards, revival meetings, and the first hospital group write-ups.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
+
+
 
 The years between the Armistice and the next mobilization were crowded with hospital experiments that later syllabi compress into a single slide: "precursors." The slide is lazy. A 1931 paper that compares a ward meeting to a revival is not the same object as a 1938 chapter that tries to do psychoanalysis with several people in the room. Both are group history. They do not want the same thing.
 

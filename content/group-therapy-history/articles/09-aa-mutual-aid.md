@@ -17,9 +17,29 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+lead_asset: "assets/era/aa-mutual-aid/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: aa-mutual-aid.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/aa-mutual-aid/lead-timeline.svg"
+    alt="Editorial timeline for AA and the fellowship that refused to be therapy."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>AA and the fellowship that refused to be therapy</strong> — Mutual aid that refused the name therapy — history, not a meeting manual.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
+
+
 
 In May 1935 a New York stockbroker named William Griffith Wilson sat in the lobby of the Mayflower Hotel in Akron, Ohio, after a business deal had gone sour. The bar was available. A church directory was available too. He telephoned a clergyman, the Rev. Walter Tunks, and was passed along to Henrietta Seiberling, who thought an Akron surgeon, Robert Holbrook Smith, might need to talk to another alcoholic. The two men met. On June 10, 1935 — the date the fellowship later treated as Dr. Bob's last drink — a story that would be told in church basements for the rest of the century acquired a calendar page.
 

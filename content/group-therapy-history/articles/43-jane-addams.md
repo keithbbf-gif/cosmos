@@ -9,7 +9,7 @@ tags:
   - social group work
 type: figure
 order: 43
-portrait: pd
+portrait: "plates/jane-addams/plate.svg"
 citations:
   - "Addams, Jane. Twenty Years at Hull-House. New York: Macmillan, 1910."
   - "Nobel Prize biographical note, Jane Addams, Peace Prize 1931."
@@ -17,9 +17,30 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1860–1935"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: jane-addams.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/jane-addams/plate.svg"
+    alt="Typographic history plate for Jane Addams (1860–1935) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Jane Addams</strong> (1860–1935) — Jane Addams (1860–1935) opened Hull-House in 1889 and wrote Twenty Years at Hull-House (1910). Settlement clubs as a social-group-work ancestor — she did not invent group therapy.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/jane-addams/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
+
+
 
 On 18 September 1889 Jane Addams and Ellen Gates Starr moved into the old Charles Hull mansion at Halsted and Polk Streets, in a crowded immigrant ward of Chicago. They had seen Toynbee Hall in London's East End. They wanted an American settlement: educated residents living among neighbors, running clubs, classes, a kindergarten, later a labor museum, a playground, a gymnasium, baths, a coffeehouse, investigations of factory and ward politics. Macmillan published Addams's *Twenty Years at Hull-House* in 1910. In 1931 she received the Nobel Peace Prize, sharing the award with Nicholas Murray Butler — the first American woman so named. She died in Chicago on 21 May 1935.
 

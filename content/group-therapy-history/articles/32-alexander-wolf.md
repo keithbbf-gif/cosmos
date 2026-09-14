@@ -9,7 +9,7 @@ tags:
   - alternate sessions
 type: figure
 order: 32
-portrait: none
+portrait: "plates/alexander-wolf/plate.svg"
 citations:
   - "Wolf, Alexander, and Emanuel K. Schwartz. Psychoanalysis in Groups. Grune & Stratton, 1962."
   - "Wolf, Alexander, and Emanuel K. Schwartz. Papers on the alternate meeting, including the 1958 congress text."
@@ -17,9 +17,30 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1907–1997/94"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: alexander-wolf.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/alexander-wolf/plate.svg"
+    alt="Typographic history plate for Alexander Wolf (1907–1997/94) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Alexander Wolf</strong> (1907–1997/94) — Alexander Wolf (1907–1997/94) practiced psychoanalysis in groups in New York, wrote with Emanuel Schwartz (1962), and argued for alternate sessions — history, not a method to copy.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/alexander-wolf/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
+
+
 
 *No licensed still. Type only: Alexander Wolf, 1907–1994 `[VERIFY]` (a New York Times paid notice dates his death to 25 September 1997).*
 
