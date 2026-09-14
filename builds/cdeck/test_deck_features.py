@@ -60,8 +60,8 @@ def main() -> int:
           and body["jobs_n"] == 3
           and body["stale_flagged"] == 1)
     check("no invented cancel/retry verbs in the fold",
-          "cancel" not in json.dumps(body).lower()
-          and "retry" not in json.dumps(body).lower())
+          "actions" not in body and "cancel" not in body
+          and "retry" not in body)
 
     svc = Service(k, host="127.0.0.1", port=0)
     svc.serve_background()

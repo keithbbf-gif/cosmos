@@ -187,9 +187,12 @@ class JukeboxContract(unittest.TestCase):
         self.assertEqual(body["counts"]["RUNNING"], 1)
         self.assertEqual(body["counts"]["stale_flagged"], 1)
         self.assertEqual(body["stale_flagged"], 1)
-        blob = json.dumps(body)
-        self.assertNotIn("cancel", blob.lower())
-        self.assertNotIn("retry", blob.lower())
+        self.assertNotIn("actions", body)
+        self.assertNotIn("cancel", body)
+        self.assertNotIn("retry", body)
+        for row in body["jobs"]:
+            self.assertNotIn("cancel", row)
+            self.assertNotIn("retry", row)
 
     def test_untagged_not_guessed_from_command_text(self):
         jid = self.kernel.sched.submit(

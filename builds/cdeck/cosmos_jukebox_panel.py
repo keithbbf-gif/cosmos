@@ -289,8 +289,8 @@ def _pack(tree_id: str, rows: list[dict], meta: dict, now: float) -> dict:
         },
         "note": (
             "Scheduler projection. Legal words: QUEUED RUNNING BROKE CLEAN "
-            "FINDINGS. stale is a flag, never a retry. GET does not mutate. "
-            "No cancel/hold/retry. Untagged product=UNATTRIBUTED stage=UNMEASURED."
+            "FINDINGS. stale is a flag (report-never-retry). GET does not "
+            "mutate. Untagged product=UNATTRIBUTED stage=UNMEASURED."
         ),
     }
     return body
