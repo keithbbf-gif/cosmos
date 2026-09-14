@@ -22,9 +22,27 @@ citations:
   - "NASW Delegate Assembly. Code of Ethics. 13 October 1960."
   - "NASW public Code of Ethics history page."
   - "Reamer. The Evolution of Social Work Ethics. 2014."
+lead_asset: "assets/era/1955-merger-1960-one-page/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: 1955-merger-1960-one-page.lead-timeline -->
+<figure class="wow-figure wow-figure--era wow-figure--code-lineage">
+  <img
+    src="../../assets/era/1955-merger-1960-one-page/lead-timeline.svg"
+    alt="Code ethics lineage timeline: NASW lineage — 1960 one page."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>NASW lineage — 1960 one page</strong> — Thirteen October 1960: fourteen first-person proclamations on one page.
+    <span class="figure-credit">Original editorial code-lineage timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 The National Association of Social Workers' Delegate Assembly approved the first NASW *Code of Ethics* on 13 October 1960. The document fit on one page. It set out fourteen proclamations in the first person: I respect privacy, I give professional responsibility precedence over personal interests, I offer appropriate service in public emergencies, I contribute knowledge to programs of human welfare — the list as later historians, including Frederic Reamer, have summarized it.
 

@@ -22,9 +22,27 @@ citations:
   - "1961 APGA commentary on ongoing education (secondary)."
   - "NASW 1996 value of competence."
   - "JISS 2019 commentary on APA vs. ACA qualification language."
+lead_asset: "assets/era/competence-and-the-edge-of-the-license/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: competence-and-the-edge-of-the-license.lead-timeline -->
+<figure class="wow-figure wow-figure--era wow-figure--code-lineage">
+  <img
+    src="../../assets/era/competence-and-the-edge-of-the-license/lead-timeline.svg"
+    alt="Code ethics lineage timeline: Competence at the license edge."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Competence at the license edge</strong> — License, degree, association code, and the weekend workshop as competing claims.
+    <span class="figure-credit">Original editorial code-lineage timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 Every code in this pack's spine talks about competence. The 1961 APGA pamphlet, in later summaries, already told guidance workers to keep learning. NASW put competence in the 1996 six. APA's principles and standards have said, in various years, that psychologists stay inside what they can actually do.
 

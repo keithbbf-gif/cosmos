@@ -23,9 +23,27 @@ citations:
   - "Hoffman, David H., et al. Report to the Special Committee. Sidley Austin, 2 July 2015; revised 4 September 2015."
   - "APA Council of Representatives vote, 7 August 2015."
   - "APA. Revision of Ethical Standard 3.04. American Psychologist 71:900 (2016). Effective 1 January 2017."
+lead_asset: "assets/era/hoffman-2015-and-standard-304/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: hoffman-2015-and-standard-304.lead-timeline -->
+<figure class="wow-figure wow-figure--era wow-figure--code-lineage">
+  <img
+    src="../../assets/era/hoffman-2015-and-standard-304/lead-timeline.svg"
+    alt="Code ethics lineage timeline: Hoffman report and Standard 3.04."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Hoffman report and Standard 3.04</strong> — July 2015 Sidley Austin report, Council action, and 2017 Standard 3.04 suture.
+    <span class="figure-credit">Original editorial code-lineage timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 David H. Hoffman and colleagues at Sidley Austin delivered an independent review to a special committee of the APA Board of Directors on 2 July 2015. The *New York Times* had the report, in leaked form, on 14 July. A revised text with an errata sheet followed on 4 September. Those are documentary dates. They are not a verdict this website is competent to retry.
 

@@ -22,9 +22,27 @@ last_verified: 2026-09-14
 citations:
   - "APA. Ethical Principles of Psychologists and Code of Conduct. American Psychologist, 1992."
   - "Nagy and later commentaries on the 1992 architecture."
+lead_asset: "assets/era/1992-principles-you-cannot-be-expelled-for/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: 1992-principles-you-cannot-be-expelled-for.lead-timeline -->
+<figure class="wow-figure wow-figure--era wow-figure--code-lineage">
+  <img
+    src="../../assets/era/1992-principles-you-cannot-be-expelled-for/lead-timeline.svg"
+    alt="Code ethics lineage timeline: APA 1992 — principles vs standards."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>APA 1992 — principles vs standards</strong> — Aspirational principles separated from enforceable standards in 1992.
+    <span class="figure-credit">Original editorial code-lineage timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 In 1992 the American Psychological Association published *Ethical Principles of Psychologists and Code of Conduct* in *American Psychologist* 47:1597–1611. The double title is the news. For the first time the association's public ethics book officially contained two kinds of sentences: General Principles that aspire, and Ethical Standards that bind.
 

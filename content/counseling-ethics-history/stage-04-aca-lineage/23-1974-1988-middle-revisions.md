@@ -24,9 +24,27 @@ citations:
   - "ACA Code of Ethics archive: 1974, 1981, 1988 editions."
   - "Tarasoff v. Regents, 1976, as neighboring legal weather."
   - "Virginia counselor licensure, 1976, as neighboring professional weather."
+lead_asset: "assets/era/1974-1988-middle-revisions/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: 1974-1988-middle-revisions.lead-timeline -->
+<figure class="wow-figure wow-figure--era wow-figure--code-lineage">
+  <img
+    src="../../assets/era/1974-1988-middle-revisions/lead-timeline.svg"
+    alt="Code ethics lineage timeline: ACA middle revisions."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>ACA middle revisions</strong> — Archive years between Tarasoff weather and the 1992 ACA rename.
+    <span class="figure-credit">Original editorial code-lineage timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 ACA's public archive names three codes between the 1961 pamphlet and the 1995 book: 1974, 1981, 1988. I have not produced a line-by-line commentary of those three texts for this draft. A later editor with the archive PDFs should. What this essay can honestly do is put the three years in their weather and refuse to skip them.
 

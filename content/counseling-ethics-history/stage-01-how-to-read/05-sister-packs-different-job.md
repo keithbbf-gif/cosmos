@@ -21,9 +21,27 @@ last_verified: 2026-09-14
 citations:
   - "content/wowtherapies-therapy-history/ (sister pack)."
   - "WOWTherapies.com homepage, last fetched 2026-09-14."
+lead_asset: "assets/era/sister-packs-different-job/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: sister-packs-different-job.lead-timeline -->
+<figure class="wow-figure wow-figure--era wow-figure--code-lineage">
+  <img
+    src="../../assets/era/sister-packs-different-job/lead-timeline.svg"
+    alt="Code ethics lineage timeline: Sister packs on wowtherapies.com."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Sister packs on wowtherapies.com</strong> — Ethics documents here; schools and figures elsewhere — do not merge the calendars.
+    <span class="figure-credit">Original editorial code-lineage timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 The sister pack at `content/wowtherapies-therapy-history/` opens on temples and melancholy and then walks a reader toward Pinel, Freud, Rogers, Beck, and Herman. That is a calendar of *rooms and people*. This folder is a calendar of *rules the guilds wrote about those rooms*. If you mix the two, you get a mush in which Carl Rogers appears to have authored the 2014 ACA code and the 1953 APA book appears to be a treatment manual.
 

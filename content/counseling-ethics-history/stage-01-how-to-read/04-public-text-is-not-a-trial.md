@@ -22,9 +22,27 @@ citations:
   - "APA Ethics Code prefatory language on adjudication of complaints by effective date."
   - "NASW 1979 preamble language on enforcement (historical)."
   - "State licensure as a separate legal object from membership."
+lead_asset: "assets/era/public-text-is-not-a-trial/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: public-text-is-not-a-trial.lead-timeline -->
+<figure class="wow-figure wow-figure--era wow-figure--code-lineage">
+  <img
+    src="../../assets/era/public-text-is-not-a-trial/lead-timeline.svg"
+    alt="Code ethics lineage timeline: Three rooms for ethics language."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Three rooms for ethics language</strong> — Association ethics, licensing boards, and courts are related but not interchangeable rooms.
+    <span class="figure-credit">Original editorial code-lineage timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 A person can download the APA ethics text from apa.org on a Tuesday afternoon and finish it before dinner. That download is not a trial. No one has filed. No one has answered. No one has sat in a room with a record. The PDF is a public instrument. The case, if there ever is a case, is a private machinery that this folder will not pretend to run.
 

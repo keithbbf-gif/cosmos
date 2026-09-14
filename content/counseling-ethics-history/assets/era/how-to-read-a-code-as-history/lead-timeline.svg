@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" role="img" aria-labelledby="t d">
+  <title id="t">Reading a code as history — code lineage timeline</title>
+  <desc id="d">Adoption, effective date, and amendment as separate historical events — not one blur.</desc>
+  <defs>
+    <style>
+      .paper { fill: #F7F2E8; }
+      .ink { fill: #1C1A17; font-family: Georgia, 'Palatino Linotype', serif; }
+      .muted { fill: #5C564C; font-family: Georgia, serif; }
+      .caps { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; }
+      .rule { stroke: #1C1A17; stroke-width: 1; fill: none; }
+      .tick { stroke: #1C1A17; }
+    </style>
+  </defs>
+  <rect class="paper" width="900" height="400"/>
+  <rect x="0" y="0" width="900" height="6" fill="#2D4A6B"/>
+  <text x="48" y="44" class="ink caps">WOW THERAPIES · COUNSELING ETHICS HISTORY</text>
+  <text x="48" y="74" class="ink" font-size="22" font-weight="bold">Reading a code as history</text>
+  <line class="rule" x1="80" y1="210" x2="820" y2="210"/>
+  <line class="tick" x1="80" y1="200" x2="80" y2="215" stroke-width="0.8"/>
+  <text x="80" y="190" text-anchor="middle" class="ink" font-size="13" font-weight="bold" fill="#1C1A17">draft</text>
+  <text x="80" y="240" text-anchor="middle" class="muted" font-size="11">Committee text</text>
+  <line class="tick" x1="327" y1="200" x2="327" y2="215" stroke-width="0.8"/>
+  <text x="327" y="190" text-anchor="middle" class="ink" font-size="13" font-weight="bold" fill="#1C1A17">vote</text>
+  <text x="327" y="240" text-anchor="middle" class="muted" font-size="11">Council / assembly</text>
+  <line class="tick" x1="573" y1="200" x2="573" y2="215" stroke-width="2.2"/>
+  <circle cx="573" cy="210" r="7" fill="none" stroke="#2D4A6B" stroke-width="2"/>
+  <text x="573" y="190" text-anchor="middle" class="ink" font-size="13" font-weight="bold" fill="#2D4A6B">adopt</text>
+  <text x="573" y="240" text-anchor="middle" class="muted" font-size="11">Association act</text>
+  <line class="tick" x1="820" y1="200" x2="820" y2="215" stroke-width="0.8"/>
+  <text x="820" y="190" text-anchor="middle" class="ink" font-size="13" font-weight="bold" fill="#1C1A17">effective</text>
+  <text x="820" y="240" text-anchor="middle" class="muted" font-size="11">Membership clock</text>
+  <rect x="40" y="300" width="820" height="80" fill="#FFF" stroke="#1C1A17" stroke-width="0.6" opacity="0.92"/>
+  <text x="52" y="322" class="muted caps">Figure SEO caption</text>
+  <text x="52" y="344" class="ink" font-size="12">Adoption, effective date, and amendment as separate historical events — not one blur.</text>
+  <text x="52" y="366" class="muted" font-size="11">Original SVG code-lineage timeline (CC0). Slug: how-to-read-a-code-as-history.</text>
+</svg>

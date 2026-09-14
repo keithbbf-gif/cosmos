@@ -22,9 +22,27 @@ citations:
   - "APA Task Force on Appropriate Therapeutic Responses to Sexual Orientation, 2009 (public report)."
   - "ACA public statements and 2014 values language as later climate."
   - "Bayer, Ronald. Homosexuality and American Psychiatry. 1981."
+lead_asset: "assets/era/conversion-practices-public-refusals/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: conversion-practices-public-refusals.lead-timeline -->
+<figure class="wow-figure wow-figure--era wow-figure--code-lineage">
+  <img
+    src="../../assets/era/conversion-practices-public-refusals/lead-timeline.svg"
+    alt="Code ethics lineage timeline: Public refusals in guild codes."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Public refusals in guild codes</strong> — Name the refusals in public codes — do not teach the method.
+    <span class="figure-credit">Original editorial code-lineage timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 American psychiatry removed homosexuality from its diagnostic manual in a 1973 fight that Ronald Bayer later wrote as institutional history. Counseling and psychology and social work spent the following decades arguing about practices that claimed to change sexual orientation or gender. APA's 2009 task force report on appropriate therapeutic responses to sexual orientation is a public document. ACA published statements and, in 2014, values-and-referral sentences that later teachers read as part of the same refusal climate. NASW's nondiscrimination namings (1967, 2008) and later statements sit in the same weather.
 

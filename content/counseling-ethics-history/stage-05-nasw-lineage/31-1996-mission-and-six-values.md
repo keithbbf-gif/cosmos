@@ -23,9 +23,27 @@ citations:
   - "NASW. Code of Ethics. Adopted August 1996."
   - "Reamer. Ethical Standards in Social Work (NASW Press)."
   - "NASW 1999 clarification on disclosing confidential information."
+lead_asset: "assets/era/1996-mission-and-six-values/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: 1996-mission-and-six-values.lead-timeline -->
+<figure class="wow-figure wow-figure--era wow-figure--code-lineage">
+  <img
+    src="../../assets/era/1996-mission-and-six-values/lead-timeline.svg"
+    alt="Code ethics lineage timeline: NASW 1996 — six values."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>NASW 1996 — six values</strong> — Service, social justice, dignity, relationships, integrity, competence — a 1996 distillation.
+    <span class="figure-credit">Original editorial code-lineage timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 In August 1996 NASW adopted a rebuilt *Code of Ethics*. The preamble named a mission — enhancing well-being, meeting basic needs, particular attention to people who are vulnerable, oppressed, and living in poverty — and six core values: service, social justice, dignity and worth of the person, importance of human relationships, integrity, competence.
 

@@ -20,9 +20,27 @@ status: draft
 last_verified: 2026-09-14
 citations:
   - "content/counseling-ethics-history/CITATIONS.md"
+lead_asset: "assets/era/what-we-opened/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: what-we-opened.lead-timeline -->
+<figure class="wow-figure wow-figure--era wow-figure--code-lineage">
+  <img
+    src="../../assets/era/what-we-opened/lead-timeline.svg"
+    alt="Code ethics lineage timeline: Bibliography as honesty list."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Bibliography as honesty list</strong> — Sources named in public — gaps marked instead of smoothed.
+    <span class="figure-credit">Original editorial code-lineage timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 A bibliography can be a performance. This one is a confession. `CITATIONS.md` is the working list. This essay is the voice-over: what I held, what I heard secondhand, what a later editor must reopen before anyone maps `status: draft` onto a staging site and calls it done.
 

@@ -21,9 +21,27 @@ status: draft
 last_verified: 2026-09-14
 citations:
   - "ACA public history: rename to AACD, 1983; rename to ACA, 1 July 1992."
+lead_asset: "assets/era/apga-aacd-aca-names/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: apga-aacd-aca-names.lead-timeline -->
+<figure class="wow-figure wow-figure--era wow-figure--code-lineage">
+  <img
+    src="../../assets/era/apga-aacd-aca-names/lead-timeline.svg"
+    alt="Code ethics lineage timeline: APGA → AACD → ACA names."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>APGA → AACD → ACA names</strong> — Letterhead renames as ethics history — not cosmetic rebranding only.
+    <span class="figure-credit">Original editorial code-lineage timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 On 1 July 1992 the American Association for Counseling and Development became the American Counseling Association. The association's own history page presents the change as a way to name the common bond and the unity of purpose. Nine years earlier, in 1983, APGA had already become AACD — personnel-and-guidance giving way to counseling-and-development.
 

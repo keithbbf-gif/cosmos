@@ -23,9 +23,27 @@ citations:
   - "APA. Ethical Principles of Psychologists. American Psychologist, 1981."
   - "APA. Provisions in the APA Ethics Codes That Address Conflicts Between Ethics and Law: A History."
   - "APA. Ethical Principles of Psychologists (Amended June 2, 1989). 1990."
+lead_asset: "assets/era/1981-and-the-law-sentence/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: 1981-and-the-law-sentence.lead-timeline -->
+<figure class="wow-figure wow-figure--era wow-figure--code-lineage">
+  <img
+    src="../../assets/era/1981-and-the-law-sentence/lead-timeline.svg"
+    alt="Code ethics lineage timeline: APA 1981 — ethics versus law."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>APA 1981 — ethics versus law</strong> — The 1981 sentence that put conflicts between ethics and law on the page.
+    <span class="figure-credit">Original editorial code-lineage timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 The 1981 APA text, published in *American Psychologist* 36:633–638, changed the title to *Ethical Principles of Psychologists* and, in the association's own later historical PDF, became the first code to put a specific principle or standard directly on the conflict between law and ethics. Earlier printings had talked about "Moral and Legal Standards." 1981 made the collision harder to skip.
 

@@ -23,9 +23,27 @@ citations:
   - "APA. A Little Recent History. 1952 (circulating quotation on the unwritten code)."
   - "Pope's public historical notes on the 1938 committee."
   - "Hobbs 1948 as the turn toward a written, empirical code."
+lead_asset: "assets/era/1938-apa-committee-without-a-book/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: 1938-apa-committee-without-a-book.lead-timeline -->
+<figure class="wow-figure wow-figure--era wow-figure--code-lineage">
+  <img
+    src="../../assets/era/1938-apa-committee-without-a-book/lead-timeline.svg"
+    alt="Code ethics lineage timeline: APA's unwritten 1938 committee."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>APA's unwritten 1938 committee</strong> — An ethics committee without a book — informal complaints before Hobbs's incidents.
+    <span class="figure-credit">Original editorial code-lineage timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 In 1938 the American Psychological Association created a Committee on Scientific and Professional Ethics and let it handle complaints on an informal basis. There was no book to hold up. There was a reputation, a network of men (mostly men) who knew one another, and a sense that some conduct was "not what we do."
 

@@ -24,9 +24,27 @@ citations:
   - "Parsons, Frank. Choosing a Vocation. 1909."
   - "American Personnel and Guidance Association. Ethical Standards. 1961."
   - "ACA public history of the 1952 merger."
+lead_asset: "assets/era/vocational-guidance-before-a-page/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: vocational-guidance-before-a-page.lead-timeline -->
+<figure class="wow-figure wow-figure--era wow-figure--code-lineage">
+  <img
+    src="../../assets/era/vocational-guidance-before-a-page/lead-timeline.svg"
+    alt="Code ethics lineage timeline: Guidance before APGA's pamphlet."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Guidance before APGA's pamphlet</strong> — Vocational guidance as a craft before counseling's first short ethics pamphlet.
+    <span class="figure-credit">Original editorial code-lineage timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 Frank Parsons opened a Vocation Bureau in Boston in 1908 and died the same year. *Choosing a Vocation* came out in 1909 without him. The sister pack already used that fact as a founding scene for counseling-as-a-job. This essay uses it as a founding scene for counseling-as-a-craft-without-a-code.
 

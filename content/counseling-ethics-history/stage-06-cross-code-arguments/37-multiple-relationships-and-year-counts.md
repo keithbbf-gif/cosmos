@@ -23,9 +23,27 @@ citations:
   - "Circulating APA two-year and ACA five-year post-termination comparisons `[VERIFY]` living texts."
   - "ACA 2005 Ethics Update Parts 2 and 3."
   - "NASW 1993 dual-relationship additions, as historical notes."
+lead_asset: "assets/era/multiple-relationships-and-year-counts/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: multiple-relationships-and-year-counts.lead-timeline -->
+<figure class="wow-figure wow-figure--era wow-figure--code-lineage">
+  <img
+    src="../../assets/era/multiple-relationships-and-year-counts/lead-timeline.svg"
+    alt="Code ethics lineage timeline: Multiple relationships in three codes."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Multiple relationships in three codes</strong> — Two-year rules, five-year rules, and the colleague in the checkout line.
+    <span class="figure-credit">Original editorial code-lineage timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 Public comparison charts used in counselor-education classrooms say the APA ethics text forbids a sexual relationship with a former client for at least two years after termination, and the ACA 2014 text uses five. I have not, for this draft, laid the two living PDFs side by side. `[VERIFY]` before a live caption. The circulating contrast is stable enough to treat as a teaching object, and unstable enough to forbid a tone of certainty.
 

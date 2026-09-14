@@ -22,9 +22,27 @@ citations:
   - "content/wowtherapies-therapy-history/"
   - "content/act-mindfulness-therapy-history/"
   - "content/cbt-history-deep/"
+lead_asset: "assets/era/map-to-the-sister-packs/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: map-to-the-sister-packs.lead-timeline -->
+<figure class="wow-figure wow-figure--era wow-figure--code-lineage">
+  <img
+    src="../../assets/era/map-to-the-sister-packs/lead-timeline.svg"
+    alt="Code ethics lineage timeline: Where to send the reader next."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Where to send the reader next</strong> — Ethics documents here; schools, mindfulness, and speech history in sister folders.
+    <span class="figure-credit">Original editorial code-lineage timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 If you came here for Freud, you are in the wrong folder. If you came here for Van Riper, you are in the wrong folder. If you came here for a breathing count, you are in a folder that will not help you and will not apologize.
 

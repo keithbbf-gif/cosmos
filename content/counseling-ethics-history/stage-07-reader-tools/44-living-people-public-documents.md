@@ -20,9 +20,27 @@ status: draft
 last_verified: 2026-09-14
 citations:
   - "This pack's PORTRAIT_SOURCES.md and GUARDRAILS.md."
+lead_asset: "assets/era/living-people-public-documents/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: living-people-public-documents.lead-timeline -->
+<figure class="wow-figure wow-figure--era wow-figure--code-lineage">
+  <img
+    src="../../assets/era/living-people-public-documents/lead-timeline.svg"
+    alt="Code ethics lineage timeline: Living people — public documents only."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Living people — public documents only</strong> — No health speculation — public books, lectures, and association pages only.
+    <span class="figure-credit">Original editorial code-lineage timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 The living chairs in this pack have public jobs and private lives. The jobs may be named. The lives may not. Frederic G. Reamer wrote the books that later students use to understand the 1996 NASW architecture. Perry Francis spoke on the record about the 2014 ACA revision. David H. Hoffman signed a 2015 report. Celia Fisher's task-force role is already a Stage 3 object; here she is only an example of the rule. As of 14 September 2026, those people were living. Living people are not public property.
 

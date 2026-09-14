@@ -24,9 +24,27 @@ citations:
   - "Flexner, Abraham. Is Social Work a Profession? 1915."
   - "Richmond, Mary E. Social Diagnosis. Russell Sage Foundation, 1917."
   - "NASW first code, 13 October 1960."
+lead_asset: "assets/era/flexner-richmond-casework/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: flexner-richmond-casework.lead-timeline -->
+<figure class="wow-figure wow-figure--era wow-figure--code-lineage">
+  <img
+    src="../../assets/era/flexner-richmond-casework/lead-timeline.svg"
+    alt="Code ethics lineage timeline: Social work before NASW's page."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Social work before NASW's page</strong> — Casework arguments and early social-work codes before NASW's 1960 one-pager.
+    <span class="figure-credit">Original editorial code-lineage timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 Abraham Flexner stood up in 1915 and asked whether social work was a profession. He had already remade American medical education with a famous report. He knew how to wound with a definition. A profession, in his mouth, had a learned knowledge base, a school, a kind of altruism, and a way of teaching the next cohort. Social work, he suggested, was still too much a pile of good will and other people's sciences.
 

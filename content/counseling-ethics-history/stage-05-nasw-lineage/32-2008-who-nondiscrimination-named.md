@@ -22,9 +22,27 @@ last_verified: 2026-09-14
 citations:
   - "NASW public history of the 2008 revision."
   - "1967 NASW nondiscrimination principle as the ancestor line."
+lead_asset: "assets/era/2008-who-nondiscrimination-named/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: 2008-who-nondiscrimination-named.lead-timeline -->
+<figure class="wow-figure wow-figure--era wow-figure--code-lineage">
+  <img
+    src="../../assets/era/2008-who-nondiscrimination-named/lead-timeline.svg"
+    alt="Code ethics lineage timeline: NASW 2008 nondiscrimination."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>NASW 2008 nondiscrimination</strong> — Gender identity, sexual orientation, and immigration status named in 2008.
+    <span class="figure-credit">Original editorial code-lineage timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 In 2008 NASW revised its code to put gender identity, sexual orientation, and immigration status into already existing nondiscrimination language. The association's later teaching materials describe the change as a revisiting, not as the invention of nondiscrimination. The 1967 fifteenth principle is the ancestor. 2008 is a naming.
 

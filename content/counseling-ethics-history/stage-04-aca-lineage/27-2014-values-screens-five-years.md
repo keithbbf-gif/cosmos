@@ -24,9 +24,27 @@ citations:
   - "Counseling Today archive. A Living Document of Ethical Guidance. May 2014."
   - "American Counseling Association. Code of Ethics. 2014."
   - "Kaplan and Martz on the 2011–2014 task-force process."
+lead_asset: "assets/era/2014-values-screens-five-years/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: 2014-values-screens-five-years.lead-timeline -->
+<figure class="wow-figure wow-figure--era wow-figure--code-lineage">
+  <img
+    src="../../assets/era/2014-values-screens-five-years/lead-timeline.svg"
+    alt="Code ethics lineage timeline: ACA 2014 — values and screens."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>ACA 2014 — values and screens</strong> — Task force, values-imposition arguments, and technology standards in 2014.
+    <span class="figure-credit">Original editorial code-lineage timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 At the end of March 2014 the American Counseling Association released a new *Code of Ethics*, replacing the 2005 book. *Counseling Today* later described three years of work: forty conference calls, face-to-face meetings, two convention town halls, and comments from more than a hundred members. Perry Francis, who coordinated a training clinic and sat on the Ethics Revision Task Force, is named in that account as a public voice of the revision.
 

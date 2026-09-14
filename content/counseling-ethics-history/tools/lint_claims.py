@@ -169,9 +169,16 @@ def lint_one(path: Path) -> list[str]:
     return errs
 
 
+FIGURE_BLOCK_RE = re.compile(
+    r"<!-- figure-id:.*?-->\s*<figure class=\"wow-figure.*?</figure>\s*",
+    re.S,
+)
+
+
 def first_sentence(body: str) -> str:
     parts = body.split("\n\n", 1)
     rest = parts[1] if len(parts) > 1 else body
+    rest = FIGURE_BLOCK_RE.sub("", rest)
     rest = re.sub(r"^#+\s+.*\n", "", rest).strip()
     # Keep initials (Edward C.) and hostnames (apa.org) from looking like a stop.
     dot = "\x00"

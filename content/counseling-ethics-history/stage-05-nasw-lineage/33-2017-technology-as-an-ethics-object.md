@@ -22,9 +22,27 @@ last_verified: 2026-09-14
 citations:
   - "NASW. 2017 technology-focused revisions (public history)."
   - "NASW notes on the 2014-era task force and the 1.05 title change."
+lead_asset: "assets/era/2017-technology-as-an-ethics-object/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: 2017-technology-as-an-ethics-object.lead-timeline -->
+<figure class="wow-figure wow-figure--era wow-figure--code-lineage">
+  <img
+    src="../../assets/era/2017-technology-as-an-ethics-object/lead-timeline.svg"
+    alt="Code ethics lineage timeline: NASW 2017 — technology."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>NASW 2017 — technology</strong> — Machines as an ethics object in NASW's revision cycle.
+    <span class="figure-credit">Original editorial code-lineage timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 In 2017 NASW published revisions that later official summaries describe as largely focused on the ethical use of technology. The work, those summaries say, followed almost three years of deliberation after a task force that dates to about 2014 — the same year ACA gave screens a whole section.
 

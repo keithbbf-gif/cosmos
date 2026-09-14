@@ -21,9 +21,27 @@ last_verified: 2026-09-14
 citations:
   - "WOWTherapies.com homepage, last fetched 2026-09-14."
   - "This pack's three-room distinction (association, board, court)."
+lead_asset: "assets/era/what-a-small-city-clinic-inherited/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: what-a-small-city-clinic-inherited.lead-timeline -->
+<figure class="wow-figure wow-figure--era wow-figure--code-lineage">
+  <img
+    src="../../assets/era/what-a-small-city-clinic-inherited/lead-timeline.svg"
+    alt="Code ethics lineage timeline: Inherited stack, not a Washington tablet."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Inherited stack, not a Washington tablet</strong> — What a Southeast Arkansas clinic inherits — a stack of texts, not one voice.
+    <span class="figure-credit">Original editorial code-lineage timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 WOW Therapies, on the homepage last fetched for this pack, offers occupational, physical, and speech services in Southeast Arkansas, with the body copy centered on speech-language pathology — early childhood, school age, adult neuro and swallow. That is the live clinic. These essays are furniture in an educational lane, not a quiet restaffing.
 

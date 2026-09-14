@@ -24,9 +24,27 @@ citations:
   - "Hobbs, Nicholas. The Development of a Code of Ethical Standards for Psychology. American Psychologist, 1948."
   - "American Psychological Association. Ethical Standards of Psychologists. 1953."
   - "Flanagan, John C. The Critical Incident Technique. Psychological Bulletin, 1954."
+lead_asset: "assets/era/hobbs-critical-incidents-1953/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: hobbs-critical-incidents-1953.lead-timeline -->
+<figure class="wow-figure wow-figure--era wow-figure--code-lineage">
+  <img
+    src="../../assets/era/hobbs-critical-incidents-1953/lead-timeline.svg"
+    alt="Code ethics lineage timeline: APA ethics lineage — critical incidents."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>APA ethics lineage — critical incidents</strong> — Nicholas Hobbs, critical incidents, and the 1953 book members would call too long.
+    <span class="figure-credit">Original editorial code-lineage timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 Nicholas Hobbs asked APA members to describe a situation they knew firsthand in which a psychologist made a decision with ethical implications, and to name the issue. More than a thousand such incidents came back. A committee read them for themes: patients, students, research participants, colleagues, the public. Drafts went to the membership. The association adopted a text in 1952 and published *Ethical Standards of Psychologists* in 1953.
 

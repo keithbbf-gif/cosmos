@@ -24,9 +24,27 @@ citations:
   - "Firmin et al. / JISS 2019 commentary on APA vs. ACA as distinct professions."
   - "ACA public history: APGA 1952; AACD 1983; ACA 1992."
   - "NASW founding 1955; first code 13 October 1960."
+lead_asset: "assets/era/three-professions-three-codes/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: three-professions-three-codes.lead-timeline -->
+<figure class="wow-figure wow-figure--era wow-figure--code-lineage">
+  <img
+    src="../../assets/era/three-professions-three-codes/lead-timeline.svg"
+    alt="Code ethics lineage timeline: Three codes, three printers."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Three codes, three printers</strong> — Psychology, social work, and counseling associations printed separate public ethics books.
+    <span class="figure-credit">Original editorial code-lineage timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 In American English a person can say "I saw a therapist" and mean a psychiatrist, a psychologist, a licensed counselor, a clinical social worker, a marriage-and-family therapist, or — on a site like this one — a speech-language pathologist who is doing something that also gets called therapy. The waiting-room word is a convenience. The guilds are not.
 

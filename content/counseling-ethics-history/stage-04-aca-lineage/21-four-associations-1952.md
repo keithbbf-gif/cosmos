@@ -22,9 +22,27 @@ last_verified: 2026-09-14
 citations:
   - "ACA public history of the 1952 merger and later names."
   - "Parsons 1909 as the older guidance climate, not as a 1952 source."
+lead_asset: "assets/era/four-associations-1952/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: four-associations-1952.lead-timeline -->
+<figure class="wow-figure wow-figure--era wow-figure--code-lineage">
+  <img
+    src="../../assets/era/four-associations-1952/lead-timeline.svg"
+    alt="Code ethics lineage timeline: ACA lineage — 1952 merger."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>ACA lineage — 1952 merger</strong> — Four guidance associations building the body that would print counseling's ethics codes.
+    <span class="figure-credit">Original editorial code-lineage timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 In 1952 four American guidance and student-personnel groups built a larger house and called it the American Personnel and Guidance Association. The four, in the association's later official telling, were the National Vocational Guidance Association, the National Association of Guidance and Counselor Trainers, the Student Personnel Association for Teacher Education, and the American College Personnel Association.
 

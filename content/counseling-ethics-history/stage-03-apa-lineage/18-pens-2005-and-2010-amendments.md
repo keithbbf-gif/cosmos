@@ -23,9 +23,27 @@ citations:
   - "APA Presidential Task Force on Psychological Ethics and National Security (PENS). Report, 26 June 2005."
   - "APA. 2010 amendments, American Psychologist 65:493. Effective 1 June 2010."
   - "Hoffman et al. Independent Review, 2 July 2015 (as later documentary weather)."
+lead_asset: "assets/era/pens-2005-and-2010-amendments/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: pens-2005-and-2010-amendments.lead-timeline -->
+<figure class="wow-figure wow-figure--era wow-figure--code-lineage">
+  <img
+    src="../../assets/era/pens-2005-and-2010-amendments/lead-timeline.svg"
+    alt="Code ethics lineage timeline: PENS and the 2010 suture."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>PENS and the 2010 suture</strong> — A 2005 policy report and later amendments to Standards 1.02 and 1.03.
+    <span class="figure-credit">Original editorial code-lineage timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 On 26 June 2005 the APA Presidential Task Force on Psychological Ethics and National Security — PENS, in the acronym that would not stay quiet — finished a report with twelve ethical guidelines about psychologists and national-security work. The Board of Directors adopted the report as association policy on an emergency calendar measured in days, not in the multi-year comment cycle Celia Fisher had run.
 

@@ -23,9 +23,27 @@ citations:
   - "Tarasoff v. Regents of the University of California, 17 Cal. 3d 425 (1976)."
   - "Jaffee v. Redmond, 518 U.S. 1 (1996)."
   - "HIPAA Privacy Rule, common compliance date 14 April 2003."
+lead_asset: "assets/era/confidentiality-privilege-tarasoff-jaffee/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: confidentiality-privilege-tarasoff-jaffee.lead-timeline -->
+<figure class="wow-figure wow-figure--era wow-figure--code-lineage">
+  <img
+    src="../../assets/era/confidentiality-privilege-tarasoff-jaffee/lead-timeline.svg"
+    alt="Code ethics lineage timeline: Confidentiality objects across rooms."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Confidentiality objects across rooms</strong> — Privilege, duty-to-warn debates, and HIPAA as separate historical objects.
+    <span class="figure-credit">Original editorial code-lineage timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 The California Supreme Court, in *Tarasoff v. Regents of the University of California* (1976), held that a therapist's duty can include protecting a foreseeable victim — a holding that sits on a 1974 opinion and then traveled, poorly and unevenly, into other states' statutes and cases. The U.S. Supreme Court, in *Jaffee v. Redmond* (1996), recognized a psychotherapist-patient privilege in federal courts. APA, ACA, and NASW, in various years, wrote confidentiality standards that are neither of those opinions.
 

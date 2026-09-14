@@ -24,9 +24,27 @@ citations:
   - "APA Division 16 notice of the December 2024 draft Ethics Code comment window (deadline 19 March 2025)."
   - "Society of Addiction Psychology note, 5 August 2025: ECTF reviewing 2,650+ comments from 66 groups."
   - "APA public code page, last checked in secondary sources 2026-09-14."
+lead_asset: "assets/era/ectf-after-2018/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: ectf-after-2018.lead-timeline -->
+<figure class="wow-figure wow-figure--era wow-figure--code-lineage">
+  <img
+    src="../../assets/era/ectf-after-2018/lead-timeline.svg"
+    alt="Code ethics lineage timeline: APA revision after 2018."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>APA revision after 2018</strong> — Ethics Code Task Force work — a charge document, not yet a printed successor code.
+    <span class="figure-credit">Original editorial code-lineage timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 APA seated an Ethics Code Task Force in 2018 and charged it, in the public language that state associations later quoted, with keeping what still served the public and the discipline and with drafting a "visionary and transformational" successor. The charge itself is a historical object. A successor code, as of this pack's last verification on 14 September 2026, had not replaced the 2002 book as amended in 2010 and 2016.
 

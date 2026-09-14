@@ -23,9 +23,27 @@ citations:
   - "ACA 2005 Ethics Update Part 9; 2014 Section H."
   - "NASW 2017 technology revisions."
   - "Fisher process notes on 2002 internet-mediated practice."
+lead_asset: "assets/era/distance-records-and-the-screen/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: distance-records-and-the-screen.lead-timeline -->
+<figure class="wow-figure wow-figure--era wow-figure--code-lineage">
+  <img
+    src="../../assets/era/distance-records-and-the-screen/lead-timeline.svg"
+    alt="Code ethics lineage timeline: Distance and records in codes."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Distance and records in codes</strong> — Dated inventories of machines — not a user manual for your EHR.
+    <span class="figure-credit">Original editorial code-lineage timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 Celia Fisher's 2002 process notes already listed internet-mediated research and practice as weather the APA book had to see. ACA's 2005 interview series spent a part on "ethical use of technology in counseling." ACA's 2014 code gave distance, technology, and social media their own section. NASW's 2017 revision made technology the cycle's main job.
 

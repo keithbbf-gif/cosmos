@@ -23,9 +23,27 @@ citations:
   - "Nuremberg Code, 1947."
   - "World Medical Association. Declaration of Helsinki, 1964."
   - "National Commission. The Belmont Report, 18 April 1979."
+lead_asset: "assets/era/nuremberg-helsinki-belmont/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: nuremberg-helsinki-belmont.lead-timeline -->
+<figure class="wow-figure wow-figure--era wow-figure--code-lineage">
+  <img
+    src="../../assets/era/nuremberg-helsinki-belmont/lead-timeline.svg"
+    alt="Code ethics lineage timeline: Research ethics leaking into practice."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Research ethics leaking into practice</strong> — Research-ethics documents that later shaped counseling and psychology practice language.
+    <span class="figure-credit">Original editorial code-lineage timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 Judges at Nuremberg, in 1947, appended a ten-point statement about permissible medical experiment to a verdict on Nazi physicians. The statement later traveled under the name Nuremberg Code. It is a court-adjacent document, not an APA pamphlet. It still sits in the weather of every later American research-ethics sentence about consent, coercion, and the right to quit.
 

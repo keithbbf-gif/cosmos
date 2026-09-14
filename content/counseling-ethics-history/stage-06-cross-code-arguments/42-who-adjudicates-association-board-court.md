@@ -22,9 +22,27 @@ citations:
   - "Draft 04 of this pack (public text is not a trial)."
   - "APA prefatory language on complaint calendars."
   - "State boards as separate legal objects; some adopt association codes by reference."
+lead_asset: "assets/era/who-adjudicates-association-board-court/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: who-adjudicates-association-board-court.lead-timeline -->
+<figure class="wow-figure wow-figure--era wow-figure--code-lineage">
+  <img
+    src="../../assets/era/who-adjudicates-association-board-court/lead-timeline.svg"
+    alt="Code ethics lineage timeline: Who adjudicates what."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Who adjudicates what</strong> — Association, board, and court — a blog post is not a fourth room.
+    <span class="figure-credit">Original editorial code-lineage timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 Draft 04 said a PDF is not a trial. This essay says the trial, when there is one, has an address. The address is almost never a website.
 

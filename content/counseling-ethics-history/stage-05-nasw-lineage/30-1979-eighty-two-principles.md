@@ -23,9 +23,27 @@ citations:
   - "NASW Code of Ethics, 1979 (effective 1 July 1980)."
   - "Reamer on the 1977 task force and Charles Levy."
   - "NASW historical notes on six sections and later counts of 82 principles."
+lead_asset: "assets/era/1979-eighty-two-principles/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: 1979-eighty-two-principles.lead-timeline -->
+<figure class="wow-figure wow-figure--era wow-figure--code-lineage">
+  <img
+    src="../../assets/era/1979-eighty-two-principles/lead-timeline.svg"
+    alt="Code ethics lineage timeline: NASW 1979 — eighty-two principles."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>NASW 1979 — eighty-two principles</strong> — Levy's task force and six sections — effective 1 July 1980.
+    <span class="figure-credit">Original editorial code-lineage timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 In 1977 the NASW Delegate Assembly created a task force to revise the code and make it more useful in practice. Charles Levy chaired it. The Assembly adopted the result in 1979. NASW's later historical notes say the 1979 revision went into effect on 1 July 1980.
 

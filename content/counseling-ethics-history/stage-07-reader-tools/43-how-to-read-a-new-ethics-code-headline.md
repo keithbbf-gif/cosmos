@@ -22,9 +22,27 @@ citations:
   - "APA 2002 adopted 21 August 2002, effective 1 June 2003."
   - "NASW 2021 FAQ on limited scope."
   - "ACA Nexus note on Fall 2026 (process, not a book)."
+lead_asset: "assets/era/how-to-read-a-new-ethics-code-headline/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: how-to-read-a-new-ethics-code-headline.lead-timeline -->
+<figure class="wow-figure wow-figure--era wow-figure--code-lineage">
+  <img
+    src="../../assets/era/how-to-read-a-new-ethics-code-headline/lead-timeline.svg"
+    alt="Code ethics lineage timeline: Headline versus adoption calendar."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Headline versus adoption calendar</strong> — Vote, adoption, effective date, and book versus suture — read the calendar.
+    <span class="figure-credit">Original editorial code-lineage timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 A headline that says "new ethics code" is usually selling a workshop. Sometimes it is also true. The difference is four questions.
 

@@ -14,7 +14,7 @@ or type. A face is almost never required.
 | Slug / subject | Person / object | Status | Object | Notes |
 | --- | --- | --- | --- | --- |
 | what-this-folder-refuses | — | `no-portrait` | Type | Ops essay |
-| 1947-tolman-committee | Edward C. Tolman | `confirm` | Hold; prefer 1948 Hobbs masthead | d. 1959; many photos © |
+| 1947-tolman-committee | Edward C. Tolman | `cc` | `plates/1947-tolman-committee/portrait.jpg` | Commons CC BY-SA 4.0; see plate `RIGHTS.md` |
 | hobbs-critical-incidents-1953 | Nicholas Hobbs | `confirm` | 1948 *American Psychologist* masthead safer | d. 1981 |
 | 2002-fisher-june-2003 | Celia B. Fisher | `no-portrait` | Type + 2002 *American Psychologist* masthead | Living |
 | pens-2005-and-2010-amendments | — | `no-portrait` | Type | Document essay |

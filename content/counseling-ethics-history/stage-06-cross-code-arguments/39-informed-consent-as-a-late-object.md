@@ -22,9 +22,27 @@ citations:
   - "Nuremberg Code, 1947; Belmont Report, 1979."
   - "Fisher process notes on 2002 and patient access to records."
   - "ACA 2014 public commentary on consent in distance work."
+lead_asset: "assets/era/informed-consent-as-a-late-object/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: informed-consent-as-a-late-object.lead-timeline -->
+<figure class="wow-figure wow-figure--era wow-figure--code-lineage">
+  <img
+    src="../../assets/era/informed-consent-as-a-late-object/lead-timeline.svg"
+    alt="Code ethics lineage timeline: Informed consent arrives late."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Informed consent arrives late</strong> — Research passport becomes practice form — a late object in ethics codes.
+    <span class="figure-credit">Original editorial code-lineage timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 "Informed consent" is a traveling phrase. In the Nuremberg Code (1947) and the *Belmont Report* (1979) it is a research protection. In later APA, ACA, and NASW practice standards it is a clinical ritual: fees, recordings, risks, the right to refuse, the special problem of a court-ordered evaluation. The phrase moved house. The furniture in the new house is a form.
 

@@ -20,9 +20,27 @@ status: draft
 last_verified: 2026-09-14
 citations:
   - "PHOTO_NOTES.md and PORTRAIT_SOURCES.md in this pack."
+lead_asset: "assets/era/portraits-we-will-not-fake/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: portraits-we-will-not-fake.lead-timeline -->
+<figure class="wow-figure wow-figure--era wow-figure--code-lineage">
+  <img
+    src="../../assets/era/portraits-we-will-not-fake/lead-timeline.svg"
+    alt="Code ethics lineage timeline: Portraits policy."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Portraits policy</strong> — Wikimedia Commons only with RIGHTS.md — never AI-generated historical faces.
+    <span class="figure-credit">Original editorial code-lineage timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 A graphics agent will arrive later and want a face. This essay is the refuse list written in prose so the refuse list gets read.
 

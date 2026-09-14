@@ -21,9 +21,27 @@ last_verified: 2026-09-14
 citations:
   - "NASW public notes that amendments go through Delegate Assembly review under the bylaws."
   - "1960, 1967, 1979, 1996, 2021 as Assembly-dated objects."
+lead_asset: "assets/era/delegate-assembly-as-a-machine/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: delegate-assembly-as-a-machine.lead-timeline -->
+<figure class="wow-figure wow-figure--era wow-figure--code-lineage">
+  <img
+    src="../../assets/era/delegate-assembly-as-a-machine/lead-timeline.svg"
+    alt="Code ethics lineage timeline: NASW Delegate Assembly tempo."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>NASW Delegate Assembly tempo</strong> — How NASW's assembly machinery turns proposals into a membership-facing code.
+    <span class="figure-credit">Original editorial code-lineage timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 NASW's code does not change because a staff writer had a good week. It changes when the Delegate Assembly, under the association's bylaws, says it changes. 13 October 1960, 11 April 1967, 1979, August 1996, the 2020 and 2021 amendment votes: those are parliamentary dates. A historian who writes "social work evolved its ethics" without the Assembly is writing folklore.
 

@@ -21,9 +21,27 @@ last_verified: 2026-09-14
 citations:
   - "Hippocratic Corpus, Oath (traditional attribution; dating contested)."
   - "Ellenberger 1970 and Scull 2015 as secondary on older care, not as code histories."
+lead_asset: "assets/era/oaths-older-than-associations/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: oaths-older-than-associations.lead-timeline -->
+<figure class="wow-figure wow-figure--era wow-figure--code-lineage">
+  <img
+    src="../../assets/era/oaths-older-than-associations/lead-timeline.svg"
+    alt="Code ethics lineage timeline: Oaths before association codes."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Oaths before association codes</strong> — Professional oaths and guild codes long predate APA's 1953 book.
+    <span class="figure-credit">Original editorial code-lineage timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 The Hippocratic Oath is a short Greek text that later physicians treated as a founding promise: do some kinds of harm, refuse others, keep some kinds of silence. Classicists argue about date, authorship, and whether a working ancient doctor ever spoke it. That argument is already the lesson. An oath is a literary object with a reception history. It is not a membership PDF with an effective date.
 

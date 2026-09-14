@@ -22,9 +22,27 @@ citations:
   - "American Psychological Association. 2002 Ethics Code, effective 1 June 2003."
   - "American Counseling Association. 2014 Code of Ethics (released March 2014)."
   - "National Association of Social Workers. 2021 amendments, effective 1 June 2021."
+lead_asset: "assets/era/how-to-read-a-code-as-history/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: how-to-read-a-code-as-history.lead-timeline -->
+<figure class="wow-figure wow-figure--era wow-figure--code-lineage">
+  <img
+    src="../../assets/era/how-to-read-a-code-as-history/lead-timeline.svg"
+    alt="Code ethics lineage timeline: Reading a code as history."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Reading a code as history</strong> — Adoption, effective date, and amendment as separate historical events — not one blur.
+    <span class="figure-credit">Original editorial code-lineage timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 The 2002 APA ethics text was adopted by the Council of Representatives on 21 August 2002 and did not govern new complaints until 1 June 2003. That gap is the first lesson. A code is not a feeling that arrives on the day a committee likes a sentence. It is a document with an adoption date, an effective date, and, later, an amendment date that does not always replace the whole book.
 

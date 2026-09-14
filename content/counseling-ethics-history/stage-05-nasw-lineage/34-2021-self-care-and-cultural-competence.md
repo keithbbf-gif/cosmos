@@ -24,9 +24,27 @@ citations:
   - "NASW. 2021 revisions, effective 1 June 2021."
   - "NASW FAQ: Purpose, Integrity principle, and Standard 1.05 only."
   - "NCORED recommendation on the 1.05 title, as NASW recounts it."
+lead_asset: "assets/era/2021-self-care-and-cultural-competence/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: 2021-self-care-and-cultural-competence.lead-timeline -->
+<figure class="wow-figure wow-figure--era wow-figure--code-lineage">
+  <img
+    src="../../assets/era/2021-self-care-and-cultural-competence/lead-timeline.svg"
+    alt="Code ethics lineage timeline: NASW 2021 suture."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>NASW 2021 suture</strong> — Limited 2021 amendments — self-care and cultural competence on the public record.
+    <span class="figure-credit">Original editorial code-lineage timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 On 1 June 2021 a set of NASW amendments took effect. The association's own FAQ is unusually precise about scope: the changes were limited to the Purpose of the Code, the Ethical Principles (specifically the value of Integrity), and Standard 1.05. Two weathers, one effective date. Self-care entered the Purpose and Integrity language. "Cultural Competence" returned as the title of 1.05, with language NASW described as more operational, on the recommendation of the National Committee on Racial and Ethnic Diversity.
 

@@ -23,9 +23,27 @@ citations:
   - "American Personnel and Guidance Association. Ethical Standards. 1961."
   - "PACA / later commentaries comparing 1961 length to the 2014 code."
   - "ACA ethics archive listing the 1961 edition."
+lead_asset: "assets/era/1961-five-pages/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: 1961-five-pages.lead-timeline -->
+<figure class="wow-figure wow-figure--era wow-figure--code-lineage">
+  <img
+    src="../../assets/era/1961-five-pages/lead-timeline.svg"
+    alt="Code ethics lineage timeline: ACA lineage — 1961 pamphlet."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>ACA lineage — 1961 pamphlet</strong> — APGA's 1961 *Ethical Standards* as a short public bet before longer books.
+    <span class="figure-credit">Original editorial code-lineage timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 The American Personnel and Guidance Association printed *Ethical Standards* in 1961. Later commentators, writing after the 2014 ACA code, like to say the first document was five pages and the later one was twenty-four with a fifty-word glossary. I have not laid a ruler on a library copy of the 1961 pamphlet for this draft. `[VERIFY]` the page count against ACA's archive scan before a live caption. The usable fact is the *bet*: short, public, already a house rule.
 

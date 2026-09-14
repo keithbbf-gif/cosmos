@@ -10,7 +10,7 @@ tags:
   - 1947
 type: document
 order: 12
-portrait: none
+portrait: "plates/1947-tolman-committee/portrait.jpg"
 stage: "03-apa-lineage"
 stage_name: "APA lineage"
 voice: essay
@@ -22,9 +22,43 @@ last_verified: 2026-09-14
 citations:
   - "Hobbs 1948, describing the committee's refusal of an armchair code."
   - "Fisher / Sage chapter on Tolman chairing the 1947 committee."
+lead_asset: "assets/era/1947-tolman-committee/lead-timeline.svg"
+portrait_status: commons-cleared
+figure_dates: "1886–1959"
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: 1947-tolman-committee.lead-timeline -->
+<figure class="wow-figure wow-figure--era wow-figure--code-lineage">
+  <img
+    src="../../assets/era/1947-tolman-committee/lead-timeline.svg"
+    alt="Code ethics lineage timeline: APA ethics lineage — Tolman chair."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>APA ethics lineage — Tolman chair</strong> — Edward C. Tolman's 1947 chairmanship as the opening move in APA's printed ethics lineage.
+    <span class="figure-credit">Original editorial code-lineage timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
+<!-- figure-id: 1947-tolman-committee.lead-portrait -->
+<figure class="wow-figure wow-figure--portrait">
+  <img
+    src="../../plates/1947-tolman-committee/portrait.jpg"
+    alt="Historical photograph of Edward C. Tolman (1886–1959), Wikimedia Commons."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Edward C. Tolman</strong> (1886–1959) — psychologist who chaired APA's 1947 Committee on Ethical Standards.
+    <span class="figure-credit">Wikimedia Commons (CC BY-SA 4.0). See <code>plates/1947-tolman-committee/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Edward C. Tolman chaired the American Psychological Association's first Committee on Ethical Standards for Psychologists in 1947. He was not an obvious ethics celebrity. He was a University of California psychologist whose rats had opinions about mazes, and whose name still sits on an undergraduate lecture about purposive behavior. APA put him at the head of the table anyway.
 

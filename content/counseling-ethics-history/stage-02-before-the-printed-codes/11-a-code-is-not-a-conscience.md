@@ -22,9 +22,27 @@ citations:
   - "Hobbs 1948 on a code meant to modify psychologists' behavior."
   - "Kitchener 1984 on principles as tools for evaluation, not as a substitute for judgment."
   - "APA prefatory remarks that the code is not a basis for civil liability (circulating)."
+lead_asset: "assets/era/a-code-is-not-a-conscience/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: a-code-is-not-a-conscience.lead-timeline -->
+<figure class="wow-figure wow-figure--era wow-figure--code-lineage">
+  <img
+    src="../../assets/era/a-code-is-not-a-conscience/lead-timeline.svg"
+    alt="Code ethics lineage timeline: Codes list fights; they do not sit in the grocery store."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Codes list fights; they do not sit in the grocery store</strong> — Association text versus the judgment a clinician carries between sessions.
+    <span class="figure-credit">Original editorial code-lineage timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 Nicholas Hobbs wrote in 1948 that a code should be "effective in modifying human behavior," and then joked, in the way of a mid-century psychologist, that the behavior in question was psychologists'. He did not write that a code would replace the person. He wanted a text that could be lived. Living still requires a liver.
 

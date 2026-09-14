@@ -22,9 +22,27 @@ last_verified: 2026-09-14
 citations:
   - "American Counseling Association. Code of Ethics. 2005."
   - "ACA Ethics Update interview series (ten parts) on the 2005 changes."
+lead_asset: "assets/era/2005-the-danger-sentence/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: 2005-the-danger-sentence.lead-timeline -->
+<figure class="wow-figure wow-figure--era wow-figure--code-lineage">
+  <img
+    src="../../assets/era/2005-the-danger-sentence/lead-timeline.svg"
+    alt="Code ethics lineage timeline: ACA 2005 — danger language."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>ACA 2005 — danger language</strong> — Ten-part interview map and retiring 'clear and imminent danger' phrasing.
+    <span class="figure-credit">Original editorial code-lineage timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 The American Counseling Association published a new *Code of Ethics* in 2005 and then did something associations rarely do well: it recorded a ten-part public interview series about what had changed. Part 1 is titled "The end of 'clear and imminent danger.'" The other nine parts, as the archive still lists them, walk romantic and sexual relationships, dual relationships, end-of-life care, cultural sensitivity, permission to refrain from a diagnosis, selection of interventions, transfer plans, technology, and confidentiality after death.
 

@@ -120,6 +120,8 @@ Human essay voice. `status: draft` on every file. The series is **staged** (seve
 ```text
 python3 content/counseling-ethics-history/tools/lint_claims.py
 python3 content/counseling-ethics-history/tools/lint_claims.py --write-manifest
+python3 content/counseling-ethics-history/graphics_pass.py
+python3 content/counseling-ethics-history/check_pack.py
 ```
 
 The linter checks count (≥40), frontmatter, word floor (800), uniqueness of openings, the claims box, legal-advice refusal, and a list of forbidden protocol and bot-voice patterns. It does not certify truth. It certifies that the fence is still standing in the places a machine can see.
@@ -135,5 +137,9 @@ The linter checks count (≥40), frontmatter, word floor (800), uniqueness of op
 | `CITATIONS.md` | Working bibliography |
 | `PHOTO_NOTES.md` | Image rules; never fake a face |
 | `PORTRAIT_SOURCES.md` | PD/CC or honest blank |
+| `RIGHTS.md` | Pack rights manifest (Commons rasters + CC0 SVG) |
+| `GRAPHICS_INDEX.md` | Code-lineage timelines and portrait plates |
 | `WP_IMPORT.md` | Staging WordPress only |
 | `MANIFEST.toml` | Machine inventory (generated) |
+| `graphics_pass.py` | Regenerate timelines, plates, and `<figure>` embeds |
+| `check_pack.py` | Structural QA for image + SEO pass |

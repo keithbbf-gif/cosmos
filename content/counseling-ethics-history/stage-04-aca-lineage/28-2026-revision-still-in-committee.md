@@ -24,9 +24,27 @@ citations:
   - "Pennsylvania Counseling Association public invite: comments on the draft 2026 code due 24 April 2026."
   - "ACA LinkedIn invitation to the same 24 April 2026 comment window."
   - "Circulating secondary notes (Northwestern, July 2026; CE vendors) naming September 2026 as a hoped-for adoption month. Treat as rumor until Nexus or ACA posts an adoption date."
+lead_asset: "assets/era/2026-revision-still-in-committee/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: 2026-revision-still-in-committee.lead-timeline -->
+<figure class="wow-figure wow-figure--era wow-figure--code-lineage">
+  <img
+    src="../../assets/era/2026-revision-still-in-committee/lead-timeline.svg"
+    alt="Code ethics lineage timeline: ACA revision calendar."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>ACA revision calendar</strong> — A withdrawn draft is not a code — committee tempo as of September 2026.
+    <span class="figure-credit">Original editorial code-lineage timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 In 2026 the American Counseling Association's Ethics Code Revision Task Force was, by the association's own Counseling Nexus note, reviewing submitted comments and preparing a final revised version. The draft was taken down while that work continued. The note promised publication of a final code on the Nexus and the ACA website in the Fall of 2026.
 
