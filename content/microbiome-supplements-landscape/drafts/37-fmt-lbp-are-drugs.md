@@ -16,7 +16,7 @@ citations:
   - "FDA. Early Clinical Trials With Live Biotherapeutic Products. June 2016"
   - "Su GL et al. Gastroenterology. 2020;159:267-280. PMID 32531291"
 status: draft
-voice_check: human
+voice_check: edited
 legal_frame: educational-research
 sources_notes: "Use FDA pages as primaries. Do not describe administration methods in how-to form. No DIY. Recurrent CDI is a disease — describe the regulatory fact only."
 ---

@@ -16,7 +16,7 @@ citations:
   - "Zheng J et al. Int J Syst Evol Microbiol. 2020;70:2782-2858. PMID 32293557"
   - "Binda S et al. Front Microbiol. 2020;11:1662. PMID 32793153"
 status: draft
-voice_check: human
+voice_check: edited
 legal_frame: educational-research
 sources_notes: "Sister pack has a general COA literacy piece. This one is live-organism specific. No unredacted real COAs."
 ---

@@ -16,7 +16,7 @@ citations:
   - "Pub. L. 103-417 (DSHEA)"
   - "Japan Consumer Affairs Agency / MHLW FOSHU system overview (dated)"
 status: draft
-voice_check: human
+voice_check: edited
 legal_frame: educational-research
 sources_notes: "Do not invent a single EFSA opinion number. Point at the wave. Italy MOH probiotic guidelines: [VERIFY] year if named."
 ---

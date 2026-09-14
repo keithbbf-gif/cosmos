@@ -14,7 +14,7 @@ citations:
   - "Hill C et al. Nat Rev Gastroenterol Hepatol. 2014;11:506-514. PMID 24912386"
   - "Depommier C et al. Nat Med. 2019;25:1096-1103. PMID 31263284"
 status: draft
-voice_check: human
+voice_check: edited
 legal_frame: educational-research
 sources_notes: "Salminen 2021 is the teaching definition. Metabolites-only products may not qualify — the paper's scope note matters."
 ---

@@ -15,7 +15,7 @@ citations:
   - "Gibson GR et al. Nat Rev Gastroenterol Hepatol. 2017;14:491-502. PMID 28611480"
   - "Hill C et al. Nat Rev Gastroenterol Hepatol. 2014;11:506-514. PMID 24912386"
 status: draft
-voice_check: human
+voice_check: edited
 legal_frame: educational-research
 sources_notes: "1995 coinage and 2017 ISAPP update. Do not list every commercial oligosaccharide as proven. Psyllium's FDA fiber claim is a different legal object — see sister pack if needed; keep this on the definition."
 ---

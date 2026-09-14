@@ -15,7 +15,7 @@ citations:
   - "Zheng J et al. Int J Syst Evol Microbiol. 2020;70:2782-2858. PMID 32293557"
   - "Hill C et al. Nat Rev Gastroenterol Hepatol. 2014;11:506-514. PMID 24912386"
 status: draft
-voice_check: human
+voice_check: edited
 legal_frame: educational-research
 sources_notes: "Gorbach 2000 for isolation folklore/history. Szajewska 2015 as an example review — describe, do not turn AAD into aisle copy. Later reviews may exist; flag [VERIFY] before SKU use."
 ---

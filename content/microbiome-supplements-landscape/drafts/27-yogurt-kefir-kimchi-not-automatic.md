@@ -14,7 +14,7 @@ citations:
   - "Metchnikoff E. The Prolongation of Life. 1907"
   - "FAO/WHO Expert Consultation, 2001"
 status: draft
-voice_check: human
+voice_check: edited
 legal_frame: educational-research
 sources_notes: "Hill 2014 explicitly carves undefined ferments out of the probiotic term. Live & Active Cultures is an industry seal — describe, do not treat as ISAPP."
 ---

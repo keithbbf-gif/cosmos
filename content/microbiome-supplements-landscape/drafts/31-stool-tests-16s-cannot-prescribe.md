@@ -15,7 +15,7 @@ citations:
   - "FTC Health Products Compliance Guidance, December 2022"
   - "21 U.S.C. § 321(g)(1)(B)"
 status: draft
-voice_check: human
+voice_check: edited
 legal_frame: educational-research
 sources_notes: "Keep brand names generic except uBiome in draft 32. FTC 2022 for the ad rule."
 ---

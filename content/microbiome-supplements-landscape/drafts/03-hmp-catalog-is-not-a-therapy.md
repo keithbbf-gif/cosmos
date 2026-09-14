@@ -16,7 +16,7 @@ citations:
   - "Qin J et al. Nature. 2010;464:59-65. PMID 20203603"
   - "Integrative HMP (iHMP) Research Network Consortium. Nature. 2019;569:641-648. PMID 31142853"
 status: draft
-voice_check: human
+voice_check: edited
 legal_frame: educational-research
 sources_notes: "HMP 2012 pair plus Qin 2010 MetaHIT. iHMP 2019 for the longitudinal/condition-specific follow-on. Do not invent participant counts if you have not opened the paper."
 ---

@@ -2,7 +2,7 @@
 
 Draft-only pack. Count target: **≥40**. This drop: **44**, written as evidence-careful longform (quality over quota). Staged in six waves (`INDEX.md`).
 
-Editor agent: QA against `STYLE_GUIDE.md` after this commit. Do not publish.
+Editor agent: QA against `STYLE_GUIDE.md` and `CLAIMS_GUARDRAILS.md`; record in `EDITOR_REPORT.md`. Do not publish.
 
 ## Ops (not posts)
 
@@ -11,7 +11,7 @@ Editor agent: QA against `STYLE_GUIDE.md` after this commit. Do not publish.
 | `README.md` | Pack door |
 | `INDEX.md` | Calendar, cadence, waves |
 | `MANIFEST.md` | This inventory |
-| `STYLE_GUIDE.md` | Voice bans + `voice_check: human` |
+| `STYLE_GUIDE.md` | Voice bans + `voice_check: edited` after editor pass |
 | `CLAIMS_GUARDRAILS.md` | On-site never-say list |
 | `BIBLIOGRAPHY.md` | Citations |
 | `WP_IMPORT.md` | Staging import only |
@@ -20,7 +20,7 @@ Editor agent: QA against `STYLE_GUIDE.md` after this commit. Do not publish.
 
 ## Drafts (44)
 
-Required YAML on each: `title`, `slug`, `meta_description`, `summary`, `tags`, `era_focus`, `wave`, `citations`, `sources_notes`, `status: draft`, `voice_check: human`, `legal_frame: educational-research`.
+Required YAML on each: `title`, `slug`, `meta_description`, `summary`, `tags`, `era_focus`, `wave`, `citations`, `sources_notes`, `status: draft`, `voice_check: edited` (post-editor), `legal_frame: educational-research`.
 
 Required body: DSHEA disclaimer (educational; not medical advice; not intended to diagnose/treat/cure/prevent disease). Photo/diagram slot.
 

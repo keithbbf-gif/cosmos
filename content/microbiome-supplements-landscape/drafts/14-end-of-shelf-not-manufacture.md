@@ -16,7 +16,7 @@ citations:
   - "Binda S et al. Front Microbiol. 2020;11:1662. PMID 32793153"
   - "ISO 19344 | IDF 232"
 status: draft
-voice_check: human
+voice_check: edited
 legal_frame: educational-research
 sources_notes: "Part 111 for the manufacturing rule. Hill/Binda for why end-of-shelf is the scientific dose. No invented log-loss numbers."
 ---

@@ -14,7 +14,7 @@ citations:
   - "Binda S et al. Front Microbiol. 2020;11:1662. PMID 32793153"
   - "21 CFR Part 111"
 status: draft
-voice_check: human
+voice_check: edited
 legal_frame: educational-research
 sources_notes: "No invented percent-survival figures. Treat acid-bath graphs as a class of evidence, not a named 2011 paper unless an editor attaches one."
 ---

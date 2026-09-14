@@ -15,7 +15,7 @@ citations:
   - "Gibson GR et al. Nat Rev Gastroenterol Hepatol. 2017;14:491-502. PMID 28611480"
   - "Salminen S et al. Nat Rev Gastroenterol Hepatol. 2021;18:649-667. PMID 33948025"
 status: draft
-voice_check: human
+voice_check: edited
 legal_frame: educational-research
 sources_notes: "Keep chemistry educational. No doses. Sonnenburg for MAC frame. Do not invent RS-type trial names."
 ---

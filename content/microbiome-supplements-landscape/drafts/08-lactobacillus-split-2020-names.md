@@ -15,7 +15,7 @@ citations:
   - "Hill C et al. Nat Rev Gastroenterol Hepatol. 2014;11:506-514. PMID 24912386"
   - "Binda S et al. Front Microbiol. 2020;11:1662. PMID 32793153"
 status: draft
-voice_check: human
+voice_check: edited
 legal_frame: educational-research
 sources_notes: "Zheng 2020 is the nomenclatural act. Pair with ISAPP communications on label updates. Do not invent a regulator's deadline that is not in hand."
 ---

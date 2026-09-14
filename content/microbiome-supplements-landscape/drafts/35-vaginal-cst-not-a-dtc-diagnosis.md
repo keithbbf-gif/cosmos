@@ -14,7 +14,7 @@ citations:
   - "Human Microbiome Project Consortium. Nature. 2012;486:207-214. PMID 22699610"
   - "Hill C et al. Nat Rev Gastroenterol Hepatol. 2014;11:506-514. PMID 24912386"
 status: draft
-voice_check: human
+voice_check: edited
 legal_frame: educational-research
 sources_notes: "Ravel 2011 is the teaching CST paper. No BV treatment talk. No product names. No sexual-health advice."
 ---

@@ -15,7 +15,7 @@ citations:
   - "Hill C et al. Nat Rev Gastroenterol Hepatol. 2014;11:506-514. PMID 24912386"
   - "Salminen S et al. Nat Rev Gastroenterol Hepatol. 2021;18:649-667. PMID 33948025"
 status: draft
-voice_check: human
+voice_check: edited
 legal_frame: educational-research
 sources_notes: "Depommier 2019 is a proof-of-concept exploratory study — say so. Do not reprint endpoints as consumer promises. Category (food, supplement, novel food) is jurisdiction-dated; flag [VERIFY]."
 ---

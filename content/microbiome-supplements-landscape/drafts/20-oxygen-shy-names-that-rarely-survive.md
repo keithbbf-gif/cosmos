@@ -15,7 +15,7 @@ citations:
   - "Hill C et al. Nat Rev Gastroenterol Hepatol. 2014;11:506-514. PMID 24912386"
   - "FDA. Early Clinical Trials With Live Biotherapeutic Products. June 2016"
 status: draft
-voice_check: human
+voice_check: edited
 legal_frame: educational-research
 sources_notes: "Sokol 2008 is the teaching association/mechanism paper. Do not convert Crohn's association into a claim. LBP guidance for the drug-shaped path some next-gen isolates actually need."
 ---

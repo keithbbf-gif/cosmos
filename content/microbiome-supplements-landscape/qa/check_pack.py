@@ -47,7 +47,13 @@ BANNED = re.compile(
 DISEASE_SKU = re.compile(
     r"prevents? (?:c\.?\s*diff|nec|ibd|cancer)|"
     r"cures? (?:depression|obesity|ibd)|"
-    r"treats? your (?:gut|ibs|anxiety)",
+    r"treats? your (?:gut|ibs|anxiety)|"
+    r"\bpsychobiotic\b[^.!?\n]{0,40}\b(?:treats?|for depression|for anxiety)\b|"
+    r"\b(?:take|start with)\s+\d+\s*(?:billion|million)?\s*cfu\b",
+    re.I,
+)
+READER_DOSE = re.compile(
+    r"\b(?:you should|you need to)\s+(?:take|start|swallow|dose)\b",
     re.I,
 )
 DISCLAIMER = re.compile(r"not medical advice", re.I)
@@ -85,8 +91,8 @@ def main() -> int:
         for key in FM_KEYS:
             if key not in fm:
                 errors.append(f"{path.name}: missing {key}")
-        if fm.get("voice_check") != "human":
-            errors.append(f"{path.name}: voice_check is not human")
+        if fm.get("voice_check") != "edited":
+            errors.append(f"{path.name}: voice_check is not edited")
         if fm.get("status") != "draft":
             errors.append(f"{path.name}: status is not draft")
         if fm.get("legal_frame") != "educational-research":
@@ -108,6 +114,9 @@ def main() -> int:
         bad = DISEASE_SKU.search(body)
         if bad:
             errors.append(f"{path.name}: disease-SKU pattern {bad.group(0)!r}")
+        dose = READER_DOSE.search(body)
+        if dose:
+            errors.append(f"{path.name}: reader-dose pattern {dose.group(0)!r}")
 
     seen: dict[str, str] = {}
     for slug, name in slugs:

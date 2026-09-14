@@ -15,7 +15,7 @@ citations:
   - "Qin J et al. Nature. 2010;464:59-65. PMID 20203603"
   - "Hill C et al. Nat Rev Gastroenterol Hepatol. 2014;11:506-514. PMID 24912386"
 status: draft
-voice_check: human
+voice_check: edited
 legal_frame: educational-research
 sources_notes: "Keep this at methods literacy. Consumer brand names other than the uBiome legal file (draft 32) stay generic unless a citation is in hand."
 ---

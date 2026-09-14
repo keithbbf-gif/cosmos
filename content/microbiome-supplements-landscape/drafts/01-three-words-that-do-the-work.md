@@ -16,7 +16,7 @@ citations:
   - "FAO/WHO Working Group guidelines, London, Ontario, 30 April-1 May 2002"
   - "Binda S et al. Front Microbiol. 2020;11:1662. PMID 32793153"
 status: draft
-voice_check: human
+voice_check: edited
 legal_frame: educational-research
 sources_notes: "Hill 2014 is the teaching text. FAO/WHO 2001/2002 for the older wording. Binda 2020 for the food-and-supplement criteria list."
 ---

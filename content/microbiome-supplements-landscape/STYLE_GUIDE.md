@@ -2,7 +2,7 @@
 
 Voice is the product. A clinician-curious reader or a founder who has to sit next to a COA should finish a piece and know what the paper actually measured. If it sounds like a wellness mill, it fails even when a PMID is real.
 
-`voice_check: human` means the draft was written against this file. It is not a byline.
+`voice_check: human` means the draft was written against this file. It is not a byline. After the editor pass (`EDITOR_REPORT.md`), flip to `voice_check: edited`; `qa/check_pack.py` requires `edited` on staged drafts.
 
 ## Who is speaking
 

@@ -15,7 +15,7 @@ citations:
   - "Gibson GR et al. Nat Rev Gastroenterol Hepatol. 2017;14:491-502. PMID 28611480"
   - "Hill C et al. Nat Rev Gastroenterol Hepatol. 2014;11:506-514. PMID 24912386"
 status: draft
-voice_check: human
+voice_check: edited
 legal_frame: educational-research
 sources_notes: "Bode 2012 for the milk-science frame. Adult trial citations should be named per SKU file or flagged [CITE NEEDED]. Infant formula regulation is a different room."
 ---

@@ -15,7 +15,7 @@ citations:
   - "Su GL et al. Gastroenterology. 2020;159:267-280. PMID 32531291"
   - "https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance"
 status: draft
-voice_check: human
+voice_check: edited
 legal_frame: educational-research
 sources_notes: "FTC 2022 for the advertising rule. Hill/Binda for the scientific object. AGA 2020 as an example of GRADE applied to named indications — describe, do not inherit."
 ---

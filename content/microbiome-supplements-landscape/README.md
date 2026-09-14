@@ -15,6 +15,9 @@ These essays teach how the *research* on human microbiota and on live dietary mi
 | `PHOTO_NOTES.md` | Diagrams; no fake lab |
 | `drafts/` | ≥40 longform essays |
 | `qa/check_pack.py` | Count, YAML, word floor, voice bans |
+| `EDITOR_REPORT.md` | Editor pass: claims fence + `voice_check: edited` |
+
+Draft YAML uses `voice_check: edited` after the editor pass; new authoring stays `human` until then (`STYLE_GUIDE.md`).
 
 A sister pack (`content/supplements-rd-blog/`, other branch) already has one strain-specificity piece. This folder is the deeper research-literacy set: methods, history, adjacent words (pre-/syn-/postbiotic), tests, live biotherapeutics as *drugs*, and label/QC files. Do not collapse it into "gut health tips."
 

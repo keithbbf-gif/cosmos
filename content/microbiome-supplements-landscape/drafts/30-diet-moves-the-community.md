@@ -14,7 +14,7 @@ citations:
   - "Sonnenburg ED, Sonnenburg JL. Cell Metab. 2014;20:779-786. PMID 25156449"
   - "Hill C et al. Nat Rev Gastroenterol Hepatol. 2014;11:506-514. PMID 24912386"
 status: draft
-voice_check: human
+voice_check: edited
 legal_frame: educational-research
 sources_notes: "David 2014 is the teaching human diet-swap. Do not turn it into a fad-diet endorsement. No meal plans."
 ---

@@ -17,7 +17,7 @@ citations:
   - "FDA. Early Clinical Trials With Live Biotherapeutic Products. June 2016"
   - "FTC Health Products Compliance Guidance, December 2022"
 status: draft
-voice_check: human
+voice_check: edited
 legal_frame: educational-research
 sources_notes: "Closing essay. Points back; does not invent new science. Empty seats for science/QA and counsel remain empty."
 ---

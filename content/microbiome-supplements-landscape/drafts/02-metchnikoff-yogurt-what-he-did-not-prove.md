@@ -16,7 +16,7 @@ citations:
   - "Hill C et al. Nat Rev Gastroenterol Hepatol. 2014;11:506-514. PMID 24912386"
   - "FAO/WHO Expert Consultation, Córdoba, 2001"
 status: draft
-voice_check: human
+voice_check: edited
 legal_frame: educational-research
 sources_notes: "Use a dated English edition of Prolongation of Life. Do not invent a CFU or a strain ID Metchnikoff did not have."
 ---

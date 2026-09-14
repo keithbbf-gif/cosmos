@@ -14,7 +14,7 @@ citations:
   - "Su GL et al. Gastroenterology. 2020;159:267-280. PMID 32531291"
   - "Hill C et al. Nat Rev Gastroenterol Hepatol. 2014;11:506-514. PMID 24912386"
 status: draft
-voice_check: human
+voice_check: edited
 legal_frame: educational-research
 sources_notes: "De Simone 2019 is a commentary on an unregulated market and a named combination. Do not pick a commercial winner. Do not recap litigation as gossip; use it as a file-identity lesson."
 ---

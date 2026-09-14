@@ -16,7 +16,7 @@ citations:
   - "Pub. L. 103-417 (DSHEA)"
   - "FDA. Early Clinical Trials With Live Biotherapeutic Products. June 2016"
 status: draft
-voice_check: human
+voice_check: edited
 legal_frame: educational-research
 sources_notes: "No invented NDI counts. NAC/NMN sister-pack stories are adjacent, not this file. Point at the statute, not at a rumor about a particular house."
 ---
@@ -49,7 +49,7 @@ If the sentences are disease sentences, GRAS/NDI will not save you. You are in d
 
 ## House style
 
-No "self-affirmed GRAS" as a halo without a dated notice you can point to. No "NDI pending" on a PDP. No century-of-use sentence for a 2018 isolate. Ask: what is the article, in which form, for which use, in which year. Draft 41 stays in the safety file: resistance genes, QPS, and the genome you should have sequenced before the photoshoot.
+No "self-affirmed GRAS" as a halo without a dated notice you can point to. No "NDI pending" on a PDP. No century-of-use sentence for a 2018 isolate. Ask: what is the article, in which form, for which use, in which year. Draft 41 stays in the safety file: resistance genes, QPS, and the genome the safety file should include before the photoshoot.
 
 <!-- expand -->
 ## Article of commerce, said slowly
@@ -64,7 +64,7 @@ A notified mix is not a license to swap (draft 22). A kill step can reset novelt
 
 ## A century-of-use sentence to delete
 
-"Lactobacilli have been eaten for centuries." After Zheng 2020, the genus word is a moving target. After Hill 2014, the unit is the strain. After draft 02, the century is Metchnikoff's beard. Ask: what is the article, in which form, for which use, in which year. Draft 41 is the genome you should have before the photoshoot.
+"Lactobacilli have been eaten for centuries." After Zheng 2020, the genus word is a moving target. After Hill 2014, the unit is the strain. After draft 02, the century is Metchnikoff's beard. Ask: what is the article, in which form, for which use, in which year. Draft 41 is the genome that should already be in the folder.
 
 <!-- expand2 -->
 ## A pre-listing desk check

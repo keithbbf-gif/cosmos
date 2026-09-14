@@ -14,7 +14,7 @@ citations:
   - "Hill C et al. Nat Rev Gastroenterol Hepatol. 2014;11:506-514. PMID 24912386"
   - "Gibson GR et al. Nat Rev Gastroenterol Hepatol. 2017;14:491-502. PMID 28611480"
 status: draft
-voice_check: human
+voice_check: edited
 legal_frame: educational-research
 sources_notes: "Swanson 2020 is the teaching text. Keep complementary vs synergistic distinct."
 ---

@@ -14,7 +14,7 @@ citations:
   - "U.S. Securities and Exchange Commission public filings regarding uBiome"
   - "Human Microbiome Project Consortium. Nature. 2012;486:207-214. PMID 22699610"
 status: draft
-voice_check: human
+voice_check: edited
 legal_frame: educational-research
 sources_notes: "Cite government PDFs by title and date when an editor attaches them. Do not invent dollar figures or quote sealed material. Do not diagnose the founders."
 ---

@@ -14,7 +14,7 @@ citations:
   - "Bode L. Glycobiology. 2012;22:1147-1162. PMID 22513036"
   - "Su GL et al. Gastroenterology. 2020;159:267-280. PMID 32531291"
 status: draft
-voice_check: human
+voice_check: edited
 legal_frame: educational-research
 sources_notes: "Keep infant ecology educational. No NEC or colic product advice. Bode 2012 for HMO context; draft 28 goes deeper on 2-FL."
 ---

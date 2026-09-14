@@ -16,7 +16,7 @@ citations:
   - "https://gastro.org/clinical-guidance/role-of-probiotics-in-the-management-of-gastrointestinal-disorders/"
   - "Hill C et al. Nat Rev Gastroenterol Hepatol. 2014;11:506-514. PMID 24912386"
 status: draft
-voice_check: human
+voice_check: edited
 legal_frame: educational-research
 sources_notes: "Public AGA page plus the two journal papers. ISAPP's contemporaneous note on species-level wording is discussed in the sister pack; keep this essay on GRADE vs aisle."
 ---

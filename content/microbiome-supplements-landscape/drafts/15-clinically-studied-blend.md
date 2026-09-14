@@ -15,7 +15,7 @@ citations:
   - "FTC Health Products Compliance Guidance, December 2022"
   - "21 CFR 101.93"
 status: draft
-voice_check: human
+voice_check: edited
 legal_frame: educational-research
 sources_notes: "No invented brand examples. Teach the pattern. FTC 2022 is the advertising rule."
 ---

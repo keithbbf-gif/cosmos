@@ -16,7 +16,7 @@ citations:
   - "Binda S et al. Front Microbiol. 2020;11:1662. PMID 32793153"
   - "21 CFR Part 111"
 status: draft
-voice_check: human
+voice_check: edited
 legal_frame: educational-research
 sources_notes: "Gupta 2020 for Weizmannia. Do not invent pathogenicity comparisons. Soil-based is treated as marketing language."
 ---

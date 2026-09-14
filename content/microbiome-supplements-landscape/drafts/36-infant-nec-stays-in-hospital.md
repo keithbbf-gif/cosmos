@@ -15,7 +15,7 @@ citations:
   - "Preidis GA et al. Gastroenterology. 2020;159:708-738.e4. PMID 32562718"
   - "Bode L. Glycobiology. 2012;22:1147-1162. PMID 22513036"
 status: draft
-voice_check: human
+voice_check: edited
 legal_frame: educational-research
 sources_notes: "Describe the existence of hospital research. Do not quote NEC prevention as a consumer takeaway. ESPGHAN/other society pages: [VERIFY] year if an editor adds a named row."
 ---

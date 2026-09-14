@@ -14,7 +14,7 @@ citations:
   - "Knights D et al. Cell Host Microbe. 2014;16:433-437. PMID 25299329"
   - "Costea PI et al. Nat Microbiol. 2018;3:8-16. PMID 29255284"
 status: draft
-voice_check: human
+voice_check: edited
 legal_frame: educational-research
 sources_notes: "Arumugam 2011 is the source paper. Knights 2014 is the rethink. Costea 2018 is a later community attempt to stabilize the idea."
 ---

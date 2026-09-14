@@ -15,7 +15,7 @@ citations:
   - "Arumugam M et al. Nature. 2011;473:174-180. PMID 21508958"
   - "FTC Health Products Compliance Guidance, December 2022"
 status: draft
-voice_check: human
+voice_check: edited
 legal_frame: educational-research
 sources_notes: "No weight-loss claims. No BMI advice. Turnbaugh as cage history; Depommier as thin human file."
 ---

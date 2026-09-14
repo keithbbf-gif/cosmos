@@ -14,7 +14,7 @@ citations:
   - "Hill C et al. Nat Rev Gastroenterol Hepatol. 2014;11:506-514. PMID 24912386"
   - "FTC Health Products Compliance Guidance, December 2022"
 status: draft
-voice_check: human
+voice_check: edited
 legal_frame: educational-research
 sources_notes: "Do not invent a percentage of positive industry trials. Point at GRADE's certainty language and at registration as the checkable objects."
 ---

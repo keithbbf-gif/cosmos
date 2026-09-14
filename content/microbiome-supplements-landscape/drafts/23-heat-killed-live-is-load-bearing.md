@@ -14,7 +14,7 @@ citations:
   - "Salminen S et al. Nat Rev Gastroenterol Hepatol. 2021;18:649-667. PMID 33948025"
   - "Depommier C et al. Nat Med. 2019;25:1096-1103. PMID 31263284"
 status: draft
-voice_check: human
+voice_check: edited
 legal_frame: educational-research
 sources_notes: "Salminen 2021 is the postbiotic teaching text — draft 26 goes longer. This essay is the live/dead fork."
 ---

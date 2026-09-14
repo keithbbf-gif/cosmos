@@ -14,7 +14,7 @@ citations:
   - "Su GL et al. Gastroenterology. 2020;159:267-280. PMID 32531291"
   - "Hill C et al. Nat Rev Gastroenterol Hepatol. 2014;11:506-514. PMID 24912386"
 status: draft
-voice_check: human
+voice_check: edited
 legal_frame: educational-research
 sources_notes: "Boulard isolation year is traditional trade history — treat as folklore-adjacent unless a primary 1920s paper is in the file. McFarland 2010 is a review of GI research, not a SKU indication."
 ---

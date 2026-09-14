@@ -1,6 +1,6 @@
 # Editorial calendar — microbiome / probiotic research literacy
 
-Forty-four drafts. Status: `draft`. Nothing here is cleared for a public product page. A later editor pass may flip `voice_check` to `edited`. Until then, keep `human`.
+Forty-four drafts. Status: `draft`. Nothing here is cleared for a public product page. Editor pass sets `voice_check: edited` after claims and voice QA (`EDITOR_REPORT.md`). Authoring drafts use `human` until that pass.
 
 Quality bar: evidence-careful longform — not a 40-count of SEO stubs. Target ≥1,000 words of body copy each. Staged waves below are the only import order (`WP_IMPORT.md`).
 
@@ -84,4 +84,5 @@ Start with 01 (the three load-bearing words), then 08 (the 2020 name split), the
 - `BIBLIOGRAPHY.md` — consolidated citations
 - `WP_IMPORT.md` — staging/import only
 - `PHOTO_NOTES.md` — diagrams/stock; no fake lab
+- `EDITOR_REPORT.md` — editor pass record (claims + voice)
 - `qa/check_pack.py` — pack QA

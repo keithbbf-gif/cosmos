@@ -14,7 +14,7 @@ citations:
   - "Shade A. ISME J. 2017;11:1-6. PMID 27482925"
   - "Ravel J et al. Proc Natl Acad Sci USA. 2011;108(Suppl 1):4680-4687. PMID 20534435"
 status: draft
-voice_check: human
+voice_check: edited
 legal_frame: educational-research
 sources_notes: "Shade 2017 for the 'diversity is the question' warning. Ravel 2011 for a low-diversity site that is not a failure. HMP 2012 for site differences."
 ---
