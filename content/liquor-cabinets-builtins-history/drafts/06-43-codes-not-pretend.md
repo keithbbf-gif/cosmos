@@ -13,6 +13,11 @@ topics: [shop, codes, gfci, limits]
 sequence_after: lcbh-06-42
 ---
 
+<figure>
+  <img src="../assets/gfci-outlet.jpg" alt="GFCI protected electrical outlet required near wet locations" width="1920" height="1336" loading="lazy" decoding="async" />
+  <figcaption>Local code and licensed trades beat a furniture essay—GFCI is the easy photograph. Tony Webster / <a href="https://commons.wikimedia.org/wiki/File:Ground_Fault_Circuit_Interrupter_(GFCI)_Electrical_Outlet_(29268945818).jpg">CC BY 2.0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 I am going to disappoint a certain kind of drawing.
 
 This shop makes furniture. We can make the jacket for a sink and a cold machine. We can cut a hole that matches a sheet. We can leave a chase. We cannot sign your permit. We cannot be your GFCI. We cannot tell you that a basement bar in your county is legal because a basement bar in a magazine was pretty.

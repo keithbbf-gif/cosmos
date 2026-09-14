@@ -13,6 +13,11 @@ topics: [frame, language, wet-bar, dry-bar, pantry]
 sequence_after: lcbh-00-03
 ---
 
+<figure>
+  <img src="../assets/butler-pantry-garfield.jpg" alt="Historic butler's pantry with sink, cabinets, and pass-through to dining service" width="1920" height="1280" loading="lazy" decoding="async" />
+  <figcaption>A butler’s pantry was a wet workroom—vocabulary matters before you call a cocktail wall a pantry. BC in Arizona / <a href="https://commons.wikimedia.org/wiki/File:Butler_pantry_-_Lawnfield_-_Garfield_House_Historic_Site_(30687623511).jpg">CC BY-SA 2.0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 I am going to take four words away from the catalog and give them back their jobs. If that sounds unfriendly, good. Friendly words are how a sink disappears from a drawing.
 
 *Wet bar.* Wet means water. Supply and waste. A basin you can rinse a glass in without walking to the kitchen. That is the whole definition. It is not a wood species. It is not a brass rail. It is not a television over a mirror. I have seen "wet bar" written on a plan that had no drain. That is not a wet bar. That is a dry cabinet with a wish.

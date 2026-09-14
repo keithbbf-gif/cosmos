@@ -13,6 +13,11 @@ topics: [victorian, sideboard, display, mass]
 sequence_after: lcbh-02-14
 ---
 
+<figure>
+  <img src="../assets/victorian-dining-room-delaware.jpg" alt="Ornate Victorian dining room interior with heavy furniture mass" width="1920" height="1440" loading="lazy" decoding="async" />
+  <figcaption>Victorian mass changed scale—coolers and sideboards grew with the room they served. National Park Service / <a href="https://commons.wikimedia.org/wiki/File:The_Dining_Room_at_219_North_Delaware_Street,_Another_View_(a12f94fc-1474-4d8e-bffb-de52f25bbd26).jpg">public domain</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 The nineteenth century did not retire the little cellar. It put a cathedral on top of it.
 
 A Victorian sideboard can be a wall. Mirror. Shelf. Carved grapes that nobody asked to eat. Pedestals that are really towers. A top that is a landscape of silver. And down in the base, if you open the right door, a partitioned well or a drawer that is still, in the old language, a cellarette. The job hid under the display. The display got the photograph.

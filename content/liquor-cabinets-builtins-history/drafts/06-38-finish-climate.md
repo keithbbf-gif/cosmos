@@ -13,6 +13,11 @@ topics: [shop, finish, alcohol, citrus]
 sequence_after: lcbh-06-37
 ---
 
+<figure>
+  <img src="../assets/met-sideboard.jpg" alt="Historic dining sideboard finish and wood figure in museum light" width="1920" height="1245" loading="lazy" decoding="async" />
+  <figcaption>Alcohol, citrus, and water attack film finishes—climate is a maintenance schedule, not a vibe. Metropolitan Museum of Art / <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 A dining table sees a meal. A bar sees a chemistry set.
 
 Ethanol. Citric acid. Sugar. Water. Ice that becomes water. A cleaner that is too proud. A ring from a glass that was cold and then sat. If I put a jewelry finish on that climate, I will get a white mark and a phone call.

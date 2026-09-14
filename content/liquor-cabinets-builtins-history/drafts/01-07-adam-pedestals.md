@@ -13,6 +13,11 @@ topics: [adam, pedestals, urns, sideboard]
 sequence_after: lcbh-01-06
 ---
 
+<figure>
+  <img src="../assets/otis-house-dining-room.jpg" alt="Federal era dining room with sideboard niche and classical woodwork" width="1920" height="1378" loading="lazy" decoding="async" />
+  <figcaption>Adam-era dining rooms hid storage in architecture—pedestals and urns before the fitted sideboard condensed the set. HABS / Library of Congress / <a href="https://commons.wikimedia.org/wiki/File:DINING_ROOM,_GENERAL_VIEW_-_Harrison_Gray_Otis_House_(second),_85_Mount_Vernon_Street,_Boston,_Suffolk_County,_MA_HABS_MASS,13-BOST,114-8.tif">public domain</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 Before the sideboard learned to hold bottles in its own belly, the fashionable dining room bought a little temple.
 
 Picture a side-table. Long. Handsome. Not much inside it. Flanking it, a pair of pedestals, the kind that look like they are waiting for a bust. On the pedestals, urns. Robert Adam's world, 1760s and 1770s, and every provincial shop that could read a plate. One pedestal is a plate-warmer — tin lining, a heater, racks. The other is storage. Sometimes a pot cupboard, which is a polite English way to say the dining room still had bodily facts. Sometimes a cellarette. The urns hold water for the butler, or knives. Sheraton will still be describing that set a generation later, because the set worked in a large room and looked like architecture.

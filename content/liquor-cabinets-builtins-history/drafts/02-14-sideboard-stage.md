@@ -13,6 +13,11 @@ topics: [sideboard, phyfe, empire, serving]
 sequence_after: lcbh-02-13
 ---
 
+<figure>
+  <img src="../assets/met-sideboard.jpg" alt="Sideboard with drawers and cupboard doors staged in a museum photo" width="1920" height="1245" loading="lazy" decoding="async" />
+  <figcaption>The sideboard is the dining room’s stage left—bottles, glass, and silver traffic through it. Metropolitan Museum of Art / <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 If the cellarette is the tool, the sideboard is the wall the tool hangs on.
 
 I say wall on purpose. A good sideboard is not a table. It is a piece of vertical furniture that organizes the end of a dining room: silver up, linen in, bottles below or in the wings, a surface for the things you do not want on the table yet. Hepplewhite already wrote that a dining room was incomplete without one. Americans believed him and then made them heavier.

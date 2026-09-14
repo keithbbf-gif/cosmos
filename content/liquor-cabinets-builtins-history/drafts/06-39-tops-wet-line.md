@@ -13,6 +13,11 @@ topics: [shop, tops, stone, wood]
 sequence_after: lcbh-06-38
 ---
 
+<figure>
+  <img src="../assets/met-wine-cooler-with-bottle.jpg" alt="Wine cooler with bottle showing the wet line at the top of the liner" width="1920" height="2618" loading="lazy" decoding="async" />
+  <figcaption>Stone and wood tops need an honest wet line—rings are physics, not betrayal. Metropolitan Museum of Art / <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 The top is not a lid. The lid we already honored on the cellarette. The top is a counter. People will set a bottle on it, and a glass, and a phone, and a lemon, and a bag, and a plant they swore they would not.
 
 Wood tops. I like wood. I make wood. A wood top on a dry cabinet is a furniture top with a harder life. Shop film. No raw. An edge you can wipe. A thickness that does not look like a door laid down. If the top is also a leaf that folds, it is two tops. Both faces.

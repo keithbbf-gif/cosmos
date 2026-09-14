@@ -13,6 +13,11 @@ topics: [bar-cart, mobility, hospitality]
 sequence_after: lcbh-04-22
 ---
 
+<figure>
+  <img src="../assets/four-seasons-serving-cart.jpg" alt="Silver service cart used for dining room beverage service" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption>The bar cart is the hospitality piece that stayed mobile—hotels first, houses later. Terry Fox Baum / <a href="https://commons.wikimedia.org/wiki/File:The_Four_Seasons_Serving_Cart_03.JPG">CC BY-SA 4.0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 The cellarette rolled to the table. The bar cart rolls to the conversation.
 
 That is not a new soul. It is a new silhouette. Two or three shelves. Handles. Wheels that may or may not be serious. Glass on the top if you are mid-century. Brass if you are a hotel. Wood if you are a shop like mine and you do not want the piece to sound like a tea trolley in a catalog.

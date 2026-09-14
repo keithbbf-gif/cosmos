@@ -13,6 +13,11 @@ topics: [shop, bottles, dimensions, interior]
 sequence_after: lcbh-05-33
 ---
 
+<figure>
+  <img src="../assets/schematic-bottle-clearances.svg" alt="Diagram of typical 750 milliliter bottle height and diameter clearances inside a cabinet bay" width="720" height="420" loading="lazy" decoding="async" />
+  <figcaption>Measure the client’s bottles—standard 750 ml heights and diameters are a starting point, not a mood board. Original schematic / <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a> (this repo).</figcaption>
+</figure>
+
 Put the bottles on the bench.
 
 I do not start with a door style. I start with the tallest bottle in the household and the fattest bottle in the household and the bottle they swear is ordinary and is not. A standard 750 milliliter wine or spirits bottle is often about eleven and a half to thirteen and a half inches tall and about three to three and a half inches through. Champagne is taller. A magnum is a different citizen. A boxed decanter is a liar. An extra-tall vodka from a duty-free is a practical joke.

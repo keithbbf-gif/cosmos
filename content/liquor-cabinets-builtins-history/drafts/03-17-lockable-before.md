@@ -13,6 +13,11 @@ topics: [pre-prohibition, locks, ordinary-furniture]
 sequence_after: lcbh-02-16
 ---
 
+<figure>
+  <img src="../assets/prohibition-speakeasy-door.jpg" alt="Locked speakeasy-style door with viewing slot in a museum exhibit" width="1920" height="2560" loading="lazy" decoding="async" />
+  <figcaption>Lockable drink storage predates Prohibition—the brief made concealment fashionable, not invented. Myotus / <a href="https://commons.wikimedia.org/wiki/File:Speakeasy_door,_American_Prohibition_Museum-011.jpg">CC BY 4.0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 Before I let the 1920s take over the story, I want to put a dull cabinet on the bench.
 
 A lockable case for bottles is ordinary furniture in 1890. It is ordinary in 1910. Hotels have them. Houses have them. Clubs have them. The lock is the Georgian lock in a new skin: inventory, staff, children, the cost of the bottle. Nobody needs a constitutional crisis to order a lock from a hardware catalog.

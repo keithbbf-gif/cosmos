@@ -13,6 +13,11 @@ topics: [sargent, mfa, visual-evidence, boston]
 sequence_after: lcbh-02-11
 ---
 
+<figure>
+  <img src="../assets/henry-sargent-dinner-party.jpg" alt="Henry Sargent oil painting of a gentlemen's dinner with wine cooler at the table" width="1280" height="1593" loading="lazy" decoding="async" />
+  <figcaption>Sargent’s 1821 <em>Dinner Party</em> (MFA Boston acc. 19.13) keeps the cellarette at work—not as decoration. Henry Sargent / <a href="https://commons.wikimedia.org/wiki/File:Henry_Sargent_-_The_Dinner_Party_-_19.13_-_Museum_of_Fine_Arts.jpg">public domain</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 Go to the Museum of Fine Arts in Boston, or go to the page if you cannot go to the room. Henry Sargent, *The Dinner Party*, about 1821. Accession 19.13. Oil on canvas, about five feet tall. Gift of Mrs. Horatio Appleton Lamb in memory of Mr. and Mrs. Winthrop Sargent. I am giving you the label so we do not treat the picture like a mood board.
 
 It is a gentlemen's dinner. The table is still in the fruit-and-nut end of the night. There is wine. There is a candle for cigars if you read it that way. And down at the table, in the front left if you are standing where the painter stood, there is a cellarette. A wine cooler. A little cellar that has come all the way up to the cloth.

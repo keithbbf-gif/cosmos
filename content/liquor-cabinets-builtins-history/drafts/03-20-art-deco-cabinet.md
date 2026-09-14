@@ -13,6 +13,11 @@ topics: [art-deco, cocktail-cabinet, interiors]
 sequence_after: lcbh-03-19
 ---
 
+<figure>
+  <img src="../assets/absinthe-house-back-bar.jpg" alt="Ornate mirrored back bar with wood cabinetry in a historic New Orleans barroom" width="1920" height="1440" loading="lazy" decoding="async" />
+  <figcaption>Art Deco cocktail cabinets borrowed commercial bar language—mirrors, lacquer, fitted interiors. Bmaurizi / <a href="https://commons.wikimedia.org/wiki/File:Absinthe_House_Back_Barroom_Espresso_Machine_Clock.JPG">CC BY-SA 3.0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 If the cellarette is a well, the cocktail cabinet is a toolkit.
 
 You open it and the piece stops being a box. A slide comes out. A leaf drops. A mirror throws your hands back at you. Chrome stems wait in a rack. Bottles stand in a row like a small orchestra. There is a place for bitters that is the size of bitters. That fittedness is the form. Art Deco did not invent mixing. It invented a piece of furniture that assumed mixing was a domestic job with an audience.

@@ -13,6 +13,11 @@ topics: [frame, shop, voice, evidence]
 sequence_after: lcbh-00-02
 ---
 
+<figure>
+  <img src="../assets/met-sideboard.jpg" alt="Early nineteenth-century American sideboard with drawers and cupboard doors" width="1920" height="1245" loading="lazy" decoding="async" />
+  <figcaption>Museum furniture we can name on camera: industry history with a catalog number, not a shop legend. Metropolitan Museum of Art / <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 I should tell you who is talking, because the internet will put a face on a script and call it a maker, and then the script will start claiming bars it never built.
 
 My name is on the door. Keith Fritz Fine Furniture. We started in 1999. The first shop was a storefront on Capitol Hill in Washington. I lived above it. I still live above the shop. The building changed. It is a nineteenth-century factory in Ferdinand, Indiana, about thirty-three thousand square feet, and the wood comes in the back and the finished work leaves the front on our own trucks. We make on the order of several hundred pieces a year. That number is a limit. It means we are not a factory that can eat a weekend of returns. It means a wet built-in that goes wrong is not a SKU. It is a week.

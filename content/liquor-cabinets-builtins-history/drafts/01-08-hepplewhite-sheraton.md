@@ -13,6 +13,11 @@ topics: [hepplewhite, sheraton, sideboard, pattern-books]
 sequence_after: lcbh-01-07
 ---
 
+<figure>
+  <img src="../assets/hepplewhite-sideboard-cape-ann.jpg" alt="Hepplewhite mahogany sideboard with inlay in a museum gallery" width="1920" height="1249" loading="lazy" decoding="async" />
+  <figcaption>Hepplewhite and Sheraton turned bottle wells and partitions into publishable drawings shops could repeat. Daderot / <a href="https://commons.wikimedia.org/wiki/File:Hepplewhite_sideboard,_North_Shore,_Massachusetts,_c._1790,_mahogany,_inlay_-_Cape_Ann_Museum_-_Gloucester,_MA_-_DSC01257.jpg">public domain</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 I like a pattern book because it is a shop drawing that survived.
 
 A. Hepplewhite and Company published *The Cabinet-Maker and Upholsterer's Guide* in London in 1788. The Met has a copy. There was a 1789 reissue and a fatter 1794 edition that dropped some of the cabriole-legged fashion. The book is not a novel. It is plates and letterpress for people who had to build Monday. On the sideboard plates he does something I still respect. He shows the insides.

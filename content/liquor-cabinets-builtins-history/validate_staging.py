@@ -37,6 +37,8 @@ ALLOWED_STAGE = {
 }
 MIN_DRAFTS = 40
 MIN_WORDS = 600
+REQUIRE_FIGURES = True
+ASSETS = ROOT / "assets"
 BANNED = (
     "in today's fast-paced",
     "in conclusion",
@@ -91,6 +93,7 @@ def main() -> int:
         except ValueError as exc:
             errors.append(str(exc))
             continue
+        text = path.read_text(encoding="utf-8")
         for key in REQUIRED:
             if not meta.get(key):
                 errors.append(f"{path.name}: missing {key}")
@@ -123,6 +126,22 @@ def main() -> int:
                 errors.append(f"{path.name}: banned phrase {phrase!r}")
         if "add to cart" in lower or "use code" in lower:
             errors.append(f"{path.name}: sales close")
+        if REQUIRE_FIGURES:
+            if "<figure>" not in text:
+                errors.append(f"{path.name}: missing <figure> (see INDEX.md)")
+            else:
+                m = re.search(
+                    r'<img\s+[^>]*src="\.\./assets/([^"]+)"[^>]*alt="([^"]+)"',
+                    text,
+                )
+                if not m:
+                    errors.append(f"{path.name}: figure missing assets src or alt")
+                else:
+                    asset_name, alt = m.group(1), m.group(2)
+                    if not (ASSETS / asset_name).is_file():
+                        errors.append(f"{path.name}: asset missing {asset_name}")
+                    if len(alt.strip()) < 24:
+                        errors.append(f"{path.name}: alt text too short for SEO")
         try:
             runtime = float(meta.get("runtime_min", "0"))
         except ValueError:

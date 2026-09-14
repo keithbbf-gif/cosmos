@@ -13,6 +13,11 @@ topics: [wet-bar, plumbing, sequence]
 sequence_after: lcbh-05-28
 ---
 
+<figure>
+  <img src="../assets/gfci-outlet.jpg" alt="Ground-fault circuit interrupter electrical outlet on a wall plate" width="1920" height="1336" loading="lazy" decoding="async" />
+  <figcaption>Wet bars touch code—GFCI protection is the photograph, not a furniture finish schedule. Tony Webster / <a href="https://commons.wikimedia.org/wiki/File:Ground_Fault_Circuit_Interrupter_(GFCI)_Electrical_Outlet_(29268945818).jpg">CC BY 2.0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 Draw the drain first.
 
 I say that to designers and I say it to myself. A wet bar is a sink. The sink has a waste that has to fall, or a pump that has to be admitted. It has a supply that will drip someday. It has a vent if the plumber is living in the same century as the code. The cabinet is the jacket. If I draw a pretty door and then ask the plumber to find a path, I have designed a conflict.

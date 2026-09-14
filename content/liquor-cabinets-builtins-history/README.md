@@ -47,6 +47,18 @@ Play them in filename order for the long narrative. Lift any `standalone: true` 
 
 This landing is **44 staged drafts**. Machine index: `MANIFEST.json`.
 
+## Images and SEO (round 1)
+
+Museum and Wikimedia Commons photographs live in `assets/` with provenance in `IMAGE_SOURCES.md` and `RIGHTS.md`. Each draft opens with one `<figure>` block (`alt`, `width`, `height`, `loading="lazy"`, licensed `figcaption`) for web export. Coverage map: `INDEX.md`.
+
+Re-embed after editing copy:
+
+```bash
+python3 content/liquor-cabinets-builtins-history/embed_figures.py
+```
+
+(Idempotent — skips drafts that already contain `<figure>`.)
+
 ## What this is not
 
 - Not a catalog of Keith Fritz Fine Furniture bars.

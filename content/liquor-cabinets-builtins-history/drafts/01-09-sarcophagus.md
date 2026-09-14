@@ -13,6 +13,11 @@ topics: [sarcophagus, regency, egyptian-revival, form]
 sequence_after: lcbh-01-08
 ---
 
+<figure>
+  <img src="../assets/met-wine-cooler-with-bottle.jpg" alt="Neoclassical wine cooler shaped like an urn with a bottle in place" width="1920" height="2618" loading="lazy" decoding="async" />
+  <figcaption>The sarcophagus and urn silhouettes dressed utility as antiquity—fashion, not a secret code. Metropolitan Museum of Art / <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 Sheraton says it in shop English. The cellaret is often a sarcophagus: "an imitation of the figure of ancient stone coffins." He is not being gothic for Halloween. He is being fashionable. Around 1800, if you wanted an object to look expensive and educated, you made it look like it had already been dead for a thousand years.
 
 The dining room had already borrowed Rome for its pedestals. It borrowed Egypt after Napoleon stumbled through the place and the pattern books followed. George Smith's 1808 collection gives you coolers that are hip baths and coolers that are graves. Rams' heads. Acroteria — the little horns on the corners. Fluted feet that Piranesi would have recognized as belonging to an altar. Sydney Living Museums will walk you through a mahogany case with ebonized rams and tell you it would sit fine in a mausoleum. They are not wrong. They are also not being mystical. The grave is a style.

@@ -13,6 +13,11 @@ topics: [pantry-revival, living-room, program]
 sequence_after: lcbh-05-30
 ---
 
+<figure>
+  <img src="../assets/butler-pantry-garfield.jpg" alt="Historic butler's pantry with sink and upper cabinets" width="1920" height="1280" loading="lazy" decoding="async" />
+  <figcaption>Today’s pantry revival often wants display; the historic pantry wanted throughput. BC in Arizona / <a href="https://commons.wikimedia.org/wiki/File:Butler_pantry_-_Lawnfield_-_Garfield_House_Historic_Site_(30687623511).jpg">CC BY-SA 2.0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 I already took the butler's name back once. I need to do it again, because the revival is a floor plan, not a caption.
 
 New houses and remodeled houses love a room between the kitchen and the dining room that they call a butler's pantry. Glass doors. Quartz. A second dishwasher. A wine fridge. A coffee machine that has its own plumbing. That room is a second kitchen, or it is a display corridor, or it is both. It can be a good room. It is a terrible living-room bar.

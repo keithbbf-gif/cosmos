@@ -13,6 +13,11 @@ topics: [shop, delivery, trucks, installation]
 sequence_after: lcbh-06-41
 ---
 
+<figure>
+  <img src="../assets/cleveland-sideboard-cellarette.jpg" alt="Movable sideboard and cellarette ensemble in a museum setting" width="1920" height="1287" loading="lazy" decoding="async" />
+  <figcaption>Furniture leaves on trucks; built-ins leave only when the house does. Cleveland Museum of Art / <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 We deliver our own furniture. That sentence is on the public about page and it is a shop religion. A piece that cannot survive a ride is not finished. A piece that cannot make a stair is not designed.
 
 I design liquor cabinets as furniture first. Finished sides. A back that can be seen if a room floats the piece. A structure that can rack a little on a lift gate and come back to square. Pads. Glass out. Doors locked or wrapped. A top that is split if the door in the house is smaller than the idea in the meeting.

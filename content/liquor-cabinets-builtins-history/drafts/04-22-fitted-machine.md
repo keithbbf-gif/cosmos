@@ -13,6 +13,11 @@ topics: [1930s, fitted-interior, cocktail]
 sequence_after: lcbh-03-21
 ---
 
+<figure>
+  <img src="../assets/absinthe-house-back-bar.jpg" alt="Back bar cabinetry with mirror and shelving for bottles and glass" width="1920" height="1440" loading="lazy" decoding="async" />
+  <figcaption>A fitted bar is a machine with a face—racks, mirrors, and landing zones in fixed order. Bmaurizi / <a href="https://commons.wikimedia.org/wiki/File:Absinthe_House_Back_Barroom_Espresso_Machine_Clock.JPG">CC BY-SA 3.0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 I want to stay inside the cabinet one more episode, because the 1930s are when the interior becomes the design.
 
 A chest of drawers is a stack of boxes. A cocktail cabinet is a small room. The room has stations. Bottles here. Tools there. Glass overhead or in a door. A well for ice that is trying not to be a Hepplewhite lead drawer and not always succeeding. A leaf that is the counter. A light that is the window. If you sketch only the outside, you have sketched a wardrobe.

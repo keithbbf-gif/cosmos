@@ -13,6 +13,11 @@ topics: [shop, hardware, slides, hinges]
 sequence_after: lcbh-06-36
 ---
 
+<figure>
+  <img src="../assets/met-cellaret-duncan-phyfe.jpg" alt="Brass hardware and banding on a historic cellaret" width="1920" height="1593" loading="lazy" decoding="async" />
+  <figcaption>Hardware is the ghost of the hand—rings, locks, and hinges outlive the party. Metropolitan Museum of Art / <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 Hardware is where a bar becomes honest or becomes a toy.
 
 A drop leaf that holds two bottles and an elbow is a table. It needs stays that do not creep. It needs a hinge that does not rely on a skin of wood. It needs a rail or a knowing edge so a glass does not walk. If I use jewelry hinges on a working leaf, the leaf will teach me.

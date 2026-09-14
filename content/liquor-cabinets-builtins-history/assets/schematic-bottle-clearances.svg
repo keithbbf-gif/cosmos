@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Typical 750 ml bottle clearances for bar casework</title>
+  <desc id="desc">Side elevation showing approximate bottle height near twelve inches, diameter near three and a half inches, and finger clearance above the neck.</desc>
+  <rect width="720" height="420" fill="#faf8f5"/>
+  <text x="24" y="36" font-family="system-ui,sans-serif" font-size="18" fill="#1a1a1a">Bar casework  bottle bay (shop reference, not a spec)</text>
+  <line x1="40" y1="360" x2="680" y2="360" stroke="#333" stroke-width="2"/>
+  <rect x="120" y="120" width="200" height="240" fill="none" stroke="#8b5a2b" stroke-width="3"/>
+  <text x="220" y="110" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" fill="#333">partition / carcase</text>
+  <rect x="200" y="150" width="56" height="180" rx="8" fill="#6b4423" opacity="0.85"/>
+  <text x="228" y="345" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#333">~12 in tall</text>
+  <line x1="256" y1="150" x2="320" y2="150" stroke="#c45" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="330" y="154" font-family="system-ui,sans-serif" font-size="13" fill="#333">clear height + fingers</text>
+  <line x1="200" y1="380" x2="256" y2="380" stroke="#333" stroke-width="1.5"/>
+  <text x="228" y="398" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#333">~33.5 in dia.</text>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#c45"/>
+    </marker>
+  </defs>
+</svg>

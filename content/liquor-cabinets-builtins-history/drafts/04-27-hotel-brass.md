@@ -13,6 +13,11 @@ topics: [commercial-bar, brass, rail, hospitality-parts]
 sequence_after: lcbh-04-26
 ---
 
+<figure>
+  <img src="../assets/sazerac-bar-mirror-nola.jpg" alt="Hotel bar mirror and brass rail above a wooden bar top in New Orleans" width="1920" height="1440" loading="lazy" decoding="async" />
+  <figcaption>Hotel brass and mirrored back bars leak into houses—restaurant parts, not cellarette DNA. Infrogmation of New Orleans / <a href="https://commons.wikimedia.org/wiki/File:SazeracBarMirrorJuly2009NOLA.JPG">CC BY-SA 3.0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 A commercial bar is a machine for selling drinks quickly to strangers. A house is a machine for living. When the house borrows the machine's parts, it borrows the machine's mess.
 
 Brass footrail. In a tavern it tells the body where to stand and it takes mud. In a house it tells the body this room is pretending. I can like a pretend. I want the client to know they will polish it or they will live with spots. Brass is honest about neglect. It spots. It can be lacquered, and then the lacquer wears in the one place a shoe hits, and the rail looks worse than honest brass.
