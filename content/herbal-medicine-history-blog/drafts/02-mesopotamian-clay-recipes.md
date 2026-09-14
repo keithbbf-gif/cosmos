@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "Recipes Baked in Clay"
 slug: mesopotamian-clay-recipes
 summary: "Akkadian and Sumerian tablets name plants, minerals, and ritual words in the same breath. A recipe that survives firing is not the same thing as a diagnosis we can rerun."
@@ -15,7 +15,7 @@ legal_frame: historical-educational
 
 The tablet later numbered among the Kuyunjik medical texts is not a hymn, though it sounds like one if you only hear the recitation. It lists plants, woods, fats, and beer. It tells the reader — a trained one, not a passerby — what to crush and what to say. The clay was written in Nineveh's libraries and baked by accident when the city burned. Fire, which ruins paper, made these prescriptions durable.
 
-We do not have the shops. We have the lists. Ashurbanipal's seventh-century libraries at Nineveh, excavated by Layard and Rassam and then catalogued in the British Museum's K series, are why we have so many of them. A royal library is not a village healer's bag. It is the bag as a palace wanted it copied.
+We do not have the shops. We have the lists. Ashurbanipal's seventh-century libraries at Nineveh, excavated by Layard and Rassam and then cataloged in the British Museum's K series, are why we have so many of them. A royal library is not a village healer's bag. It is the bag as a palace wanted it copied.
 
 > **Photo:** Cuneiform medical tablet (British Museum Kuyunjik collection or equivalent), recto, raking light.  
 > **Caption:** The wedges are the recipe. The plant behind each logogram is often an argument that has lasted longer than the empire.  

@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "Theriac, or How to Outlive a King"
 slug: theriac-mithridatium
 summary: "Mithridates VI of Pontus lent his name to a kitchen of antidotes. Theriac — viper flesh, opium, resins, dozens of other names — became the prestige compound of Mediterranean and European pharmacy until chemistry made it look like a museum."

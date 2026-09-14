@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "Vitamins: From Deficiency Diseases to Megadose Politics"
 slug: vitamins-deficiency-megadose
 summary: "Funk's 1912 'vitamine' named a class of deficiency diseases. Lind's older scurvy treatise, Eijkman's beriberi, Goldberger's pellagra — then Pauling, Proxmire, and the vitamin counter as a political object."

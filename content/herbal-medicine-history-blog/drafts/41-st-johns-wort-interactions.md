@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "St. John's Wort and the Interaction Problem"
 slug: st-johns-wort-interactions
 summary: "Hypericum perforatum is an old European wound-and-mood plant. In the 1990s it became a depression supplement — and then a textbook case of CYP3A4 and P-glycoprotein induction that can drop the levels of other drugs."

@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "Galen's Compounds and the Humoral Shop"
 slug: galen-humoral-pharmacy
 summary: "Galen of Pergamon turned pharmacy into a theory of qualities — hot, cold, wet, dry — and a practice of compounding. Europe and the Islamicate world spent a millennium arguing with him, which is a kind of victory."

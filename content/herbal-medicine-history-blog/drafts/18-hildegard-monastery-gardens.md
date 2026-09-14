@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "Hildegard, Physica, and the Cloister Plot"
 slug: hildegard-monastery-gardens
 summary: "Hildegard of Bingen's Physica puts Latin names to Rhine-valley plants and stones. The cloister garden around her was a pharmacy, a kitchen, and a theology. Twentieth-century 'Hildegard medicine' is often someone else's system."

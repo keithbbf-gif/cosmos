@@ -67,8 +67,9 @@ def main() -> int:
         for key in FM_KEYS:
             if key not in fm:
                 errors.append(f"{path.name}: missing {key}")
-        if fm.get("voice_check") != "human":
-            errors.append(f"{path.name}: voice_check is not human")
+        vc = fm.get("voice_check")
+        if vc not in ("human", "edited"):
+            errors.append(f"{path.name}: voice_check must be human or edited (got {vc!r})")
         if fm.get("legal_frame") != "historical-educational":
             errors.append(f"{path.name}: legal_frame not historical-educational")
         if "**Photo:**" not in body:

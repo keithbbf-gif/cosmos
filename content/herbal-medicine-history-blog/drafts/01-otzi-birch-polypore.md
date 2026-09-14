@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "The Ice Man's Two Mushrooms"
 slug: otzi-birch-polypore
 summary: "In 1991 a thaw on the Tisenjoch gave back a Copper Age man who had packed birch polypore on a leather thong. What that fungus can mean — fire-starter, anthelmintic, or just a useful lump — is still an argument, not a prescription."

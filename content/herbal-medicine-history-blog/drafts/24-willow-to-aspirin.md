@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "From Willow Bark to a Trademarked Powder"
 slug: willow-to-aspirin
 summary: "Willow and meadowsweet sat in fever-and-pain folk use for a long time. Edward Stone's 1763 letter, 19th-c. salicin chemistry, and Bayer's 1899 aspirin are not one parable. They are three economies."

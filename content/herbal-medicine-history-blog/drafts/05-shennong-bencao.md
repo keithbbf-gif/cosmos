@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "The Farmer Who Tasted Poisons"
 slug: shennong-bencao
 summary: "The Shen Nong Bencao Jing is a reconstructed classic attributed to a culture hero who tried plants on his own body. The useful history is the later bencao — Li Shizhen's 1596 encyclopedia especially — and the ranking of drugs by grade."

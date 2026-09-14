@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "Rauwolfia and the Blood-Pressure Alkaloid"
 slug: rauwolfia-reserpine
 summary: "Rauvolfia serpentina — sarpagandha — sits in Sanskrit medical lists and in 20th-century Indian bedside papers. Ciba's reserpine made a highland and lowland shrub into a global antihypertensive, with a psychiatric shadow."
@@ -29,7 +29,7 @@ Popular articles say "Ayurveda used rauwolfia for blood pressure for centuries."
 
 Vakil's 1949 paper is the kind of mid-century clinical report that looks modest now and was a bridge then: a Bombay physician, a series of hypertensive patients, a plant the Indian market already sold, a journal in London. He was not the first Indian doctor to take *sarpagandha* seriously in a modern ward; he was the one who got the metropolitan citation. Sen and Bose's earlier Calcutta work and the Chopra school's pharmacognosy sit in the same decade's Indian literature. Nationalist science wanted an Indian plant that could talk to mm Hg. It found one.
 
-Ciba's isolation of reserpine (Müller, Schlittler, Bein, the early 1950s papers) and the brand Serpasil is the kind of mid-century pharmaceutical story that looks inevitable now and was a choice then. India supplied the plant and the first modern clinical push. Switzerland supplied the factory and the crystal's passport. Benefit-sharing in the 1950s was not a phrase with a protocol. Osseo-Asare's questions about African plants apply here with different names. So does the older question from cinchona: who owns a root that a village already priced?
+Ciba's isolation of reserpine (Müller, Schlittler, Bein, the early 1950s papers) and the brand Serpasil are the kind of mid-century pharmaceutical story that looks inevitable now and was a choice then. India supplied the plant and the first modern clinical push. Switzerland supplied the factory and the crystal's passport. Benefit-sharing in the 1950s was not a phrase with a protocol. Osseo-Asare's questions about African plants apply here with different names. So does the older question from cinchona: who owns a root that a village already priced?
 
 ## Before the sphygmomanometer
 

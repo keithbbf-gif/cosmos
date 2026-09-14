@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "A Surgeon's Book for the March"
 slug: dioscorides-materia-medica
 summary: "Pedanius Dioscorides, a first-century Greek in Roman service, wrote De materia medica as a field-and-market guide. For fifteen centuries, if you wanted a plant's name and a use, you started there."

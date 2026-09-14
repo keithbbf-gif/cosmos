@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "Withering, the Foxglove, and a Shropshire Secret"
 slug: withering-foxglove
 summary: "In 1785 William Withering published An Account of the Foxglove, a rare thing: a physician admitting he took a country remedy, then trying to tame Digitalis with case notes. The plant was already known as a poison."
@@ -13,7 +13,7 @@ legal_frame: historical-educational
 
 # Withering, the Foxglove, and a Shropshire Secret
 
-William Withering was a Birmingham physician, a Linnaean botanist, and a man who did not like to be gulled. In the 1770s he heard of a Shropshire woman — sometimes called a wise woman, sometimes left unnamed — whose drop-sy brew included twenty herbs. He decided the only one that mattered was foxglove, *Digitalis purpurea*, a plant every farmer already knew could kill a sheep and a child. In 1785 he published *An Account of the Foxglove, and Some of Its Medical Uses: with Practical Remarks on Dropsy, and Other Diseases*.
+William Withering was a Birmingham physician, a Linnaean botanist, and a man who did not like to be gulled. In the 1770s he heard of a Shropshire woman — sometimes called a wise woman, sometimes left unnamed — whose dropsy brew included twenty herbs. He decided the only one that mattered was foxglove, *Digitalis purpurea*, a plant every farmer already knew could kill a sheep and a child. In 1785 he published *An Account of the Foxglove, and Some of Its Medical Uses: with Practical Remarks on Dropsy, and Other Diseases*.
 
 The book is famous because it is careful. It is careful because the plant is not. Withering had already published *A Botanical Arrangement* (1776), a Linnaean flora of Britain that made him a botanist in the eyes of men who did not care about his Birmingham patients. He belonged to the Lunar Society's orbit — Boulton, Watt, Priestley, the kind of Midlands network that treated nature as something you could take apart. Foxglove was not a moonlit mystery in that company. It was a vegetable with a reputation that needed cases.
 

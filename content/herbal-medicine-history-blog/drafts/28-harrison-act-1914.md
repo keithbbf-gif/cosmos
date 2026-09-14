@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "The Harrison Act and the Locked Cabinet"
 slug: harrison-act-1914
 summary: "The 1914 Harrison Narcotics Tax Act used the tax power to put opium and coca products into a federal paper system. What had been a grocery and a doctor's bag became a locked cabinet and a court."

@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "Coca Before the Isolate"
 slug: andean-coca-history
 summary: "Erythroxylum coca was a sacred and ordinary Andean leaf for centuries before Albert Niemann isolated cocaine in 1860. The leaf and the alkaloid have been confused on purpose ever since."

@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "Sertürner Isolates a Sleep"
 slug: sertuerner-morphine
 summary: "In a Westphalian apothecary, Friedrich Sertürner separated a crystalline 'principium somniferum' from opium. The years 1804–1817 are a dating squabble. The historical event is the alkaloid as a named, weighable object."

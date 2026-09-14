@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "African Pharmacopeias Without the Postcard"
 slug: african-pharmacopeias
 summary: "Africa is not one herbal. From Ethiopian written medicine to Yoruba ifá-associated plant knowledge to Cape simples and the long fight over who patents a root, the record is plural — and often extracted."
@@ -23,7 +23,7 @@ This essay will not survey fifty-four countries. It will refuse the postcard. It
 
 ## Books that are not European
 
-Ethiopia kept medical and magical-medical manuscripts in Ge'ez and later in Amharic: the *Mashafa mawar'et* and related recipe-prayer books, prescriptions, plant names that specialists still argue over. Stefan Strelcyn and later Ethiopianists catalogued more than a tourist wants to admit exists. That is a written pharmacopeia. Treating "African medicine" as purely oral is a way of not learning a script.
+Ethiopia kept medical and magical-medical manuscripts in Ge'ez and later in Amharic: the *Mashafa mawar'et* and related recipe-prayer books, prescriptions, plant names that specialists still argue over. Stefan Strelcyn and later Ethiopianists cataloged more than a tourist wants to admit exists. That is a written pharmacopeia. Treating "African medicine" as purely oral is a way of not learning a script.
 
 Along the Sahel and the Swahili coast, Arabic formularies and local plants met the same way Unani met the monsoon: trade plus a literate pharmacy. Timbuktu's medical manuscripts are not a TED-talk punchline; they are books with owners. In the Gold Coast and the Slave Coast, the literate layer was thinner and the market herbalist thicker; both are histories. None of these is a primitive Dioscorides. They are themselves.
 

@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "Saint Anthony's Fire to a Basel Alkaloid"
 slug: ergot-sandoz
 summary: "Claviceps purpurea, a fungus on rye, caused epidemic fire in medieval bodies. Midwives knew a different ergot as a labor tool. Sandoz, Stoll, and later Hofmann turned the sclerotium into a line of alkaloids — medicine, and then a cultural bomb."
@@ -33,7 +33,7 @@ Nineteenth-century chemists poked at the spur and got messes. Charles Tanret cry
 
 The cultural afterlife of 1943 is enormous and mostly off our beat. Hofmann's bicycle ride has been printed more times than Stoll's isolation paper. The historical beat is: **a fungal contaminant of bread became a line of named compounds.** Medicine kept some (ergometrine / ergonovine in obstetrics; ergotamine in neurology, later narrowed). Control statutes took others. The fungus remained a field problem for agronomists, who now treat *Claviceps* as a crop-loss and a toxin-limit question, not a saint.
 
-Sandoz's Basel is not a village oven. It is the same industrial-pharmacy city that later stories use for Hoffmann's aspirin and for a dozen dyes. Ergot is how a medieval hospital and a dye company share a plant pathology.
+Sandoz's Basel is not a village oven. It is a dye-and-alkaloid city — Stoll's ergot line, Hofmann's lysergic acid work, the same Basel that aspirin stories wrongly borrow from Elberfeld. Ergot is how a medieval hospital and a dye company share a plant pathology.
 
 ## Folklore, fire, and witch files
 

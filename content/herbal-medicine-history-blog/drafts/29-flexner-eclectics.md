@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "Flexner, the Eclectics, and a Vanishing Curriculum"
 slug: flexner-eclectics
 summary: "Abraham Flexner's 1910 report graded American medical schools for the Carnegie Foundation. Proprietary and botanic colleges — Thomsonian heirs, Eclectics, some homeopaths — took the hit. Herbal medicine in the U.S. lost a school more than it lost a plant."

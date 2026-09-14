@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "Kampo: From Tang Formulas to Health Insurance"
 slug: kampo-japan
 summary: "Kampo is Chinese formula medicine as Japan remade it — from Nara imports to Edo schools to a postwar insurance list. A covered decoction is a historical artifact, not a vibe."
@@ -15,7 +15,7 @@ legal_frame: historical-educational
 
 Kampo means, roughly, the Han method — Chinese medicine as Japan received and reworked it. The first imperial imports sit in the Nara period, when continental formulas, pulses, and books arrived with monks and envoys. The *Ishinpō* (984), compiled by Tamba Yasuyori, is an early Japanese monument: a medical encyclopedia that preserved Chinese passages later lost on the mainland. That fact alone should complicate any story in which Japan is only a student.
 
-Edo-period schools then fought, as schools do, about how much to trust the Song and Ming elaborations versus a return to older formula texts, especially Zhang Zhongjing's *Shanghan lun*. The *koho* (ancient-formula) physicians around Yoshimasu Todo wanted abdominal palpatation (*fukushin*) and blunt, older compounds. The *gosei* (later-generation) physicians kept more of the Jin-Yuan theory and a wider cabinet. The fight is technical. It produced a Japanese habit of **formulas as units** — *keishito*, *kakkonto*, *rikkunshito*, *shoseiryuto* — rather than a loose handful of "herbs." A unit can be printed, insured, and later granulated. A handful cannot.
+Edo-period schools then fought, as schools do, about how much to trust the Song and Ming elaborations versus a return to older formula texts, especially Zhang Zhongjing's *Shanghan lun*. The *koho* (ancient-formula) physicians around Yoshimasu Todo wanted abdominal palpation (*fukushin*) and blunt, older compounds. The *gosei* (later-generation) physicians kept more of the Jin-Yuan theory and a wider cabinet. The fight is technical. It produced a Japanese habit of **formulas as units** — *keishito*, *kakkonto*, *rikkunshito*, *shoseiryuto* — rather than a loose handful of "herbs." A unit can be printed, insured, and later granulated. A handful cannot.
 
 > **Photo:** An Edo *ukiyo-e* or woodblock of a medicine shop, or a page from a printed *Shanghan lun* commentary used in Japan.  
 > **Caption:** The formula is the product. The single plant is an ingredient.  

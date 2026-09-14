@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "The Poppy's Long Administrative Life"
 slug: opium-to-morphia
 summary: "Papaver somniferum has been a medicine, a tax, a war, and a schedule. From ancient latex to laudanum to morphine to treaties, the plant stayed itself. The paperwork changed."

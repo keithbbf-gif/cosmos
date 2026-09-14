@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "Garcia de Orta's Goa Conversations"
 slug: garcia-de-orta
 summary: "In 1563 a Jewish-Portuguese physician in Goa published Colóquios dos simples, a book of dialogues that argued with Europe about Asian drugs. It is one of the first printed works of tropical pharmacy — and a document of a colonial port."
@@ -32,8 +32,6 @@ When he says a European book is wrong about cinnamon, he is often right about th
 ## Opium, pepper, and the ordinary bazaar
 
 The *Colóquios* treat opium as a known Asian and European drug, pepper as a diet and a medicine, areca as a social habit the Portuguese had to learn not to moralize too quickly if they wanted to understand the room. Orta's tone is empirical in the Dioscorides way: look, taste, ask the merchant, compare the leaf. That tone later pleased historians who wanted a "scientific" Iberia. Fine. Also notice who gets to speak. Indian physicians appear, but the dialogue form gives Orta the last word.
-
-Clusius (Charles de l'Écluse) would Latinize and rearrange Orta for a northern public. The rearrangement is how Goa reached Leiden. Something always changes in that kind of shipping.
 
 ## The Inquisition's shadow
 

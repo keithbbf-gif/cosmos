@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "Paracelsus and the Argument About Dose"
 slug: paracelsus-dose
 summary: "The Swiss iconoclast Theophrastus von Hohenheim — Paracelsus — mocked Galenic compounds and preached minerals, chemistry, and a sentence everyone now quotes about dose. The quote is real. The uses it is put to are often not."

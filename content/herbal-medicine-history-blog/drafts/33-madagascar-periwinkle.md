@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "A Garden Flower and Two Cancer Alkaloids"
 slug: madagascar-periwinkle
 summary: "Catharanthus roseus, the Madagascar periwinkle, was a pretty plant with folk uses in several countries. In 1950s Ontario and then at Eli Lilly, it yielded vinblastine and vincristine — chemotherapy agents whose origin story still fails at benefit-sharing."

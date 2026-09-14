@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "Má huáng, Ephedrine, and a Federal Ban"
 slug: mahuang-ephedra
 summary: "Ephedra sinica — má huáng — is a classical Chinese simple. Nagai isolated ephedrine in 1885. American supplement marketers later sold the stimulant as a fat-burner. In 2004 the FDA banned ephedrine alkaloids in dietary supplements."

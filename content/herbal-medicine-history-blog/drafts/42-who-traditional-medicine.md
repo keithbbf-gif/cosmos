@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "WHO, Traditional Medicine, and the Evidence Fight"
 slug: who-traditional-medicine
 summary: "Since Alma-Ata (1978) the World Health Organization has tried to make 'traditional medicine' a health-systems object: countable, trainable, sometimes integrable. The monographs and the strategies are policy. They are not a meta-analysis of the planet's plants."

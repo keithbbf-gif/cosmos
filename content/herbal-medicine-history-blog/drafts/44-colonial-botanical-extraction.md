@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "Ships, Gardens, and the Botanical Ledger"
 slug: colonial-botanical-extraction
 summary: "Cinchona, tea, nutmeg, rubber, and a thousand lesser roots moved because empires built gardens, herbaria, and ledgers. Pharmacognosy is a science. It is also a shipping history."

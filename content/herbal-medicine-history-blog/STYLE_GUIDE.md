@@ -4,7 +4,7 @@ Write as if a patient editor at a serious monthly will read this aloud and stop 
 
 ## Voice check (non-negotiable)
 
-Every draft carries `voice_check: human` in the front matter. That is a promise, not a badge. If a paragraph could have been generated as "thought leadership," cut it.
+Every draft carries `voice_check: human` (writer) or `voice_check: edited` (after EDITOR pass) in the front matter. That is a promise, not a badge. If a paragraph could have been generated as "thought leadership," cut it.
 
 ### Banned furniture
 

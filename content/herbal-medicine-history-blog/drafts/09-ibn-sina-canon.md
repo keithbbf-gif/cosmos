@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "The Canon in a Thousand Rooms"
 slug: ibn-sina-canon
 summary: "Ibn Sīnā's al-Qānūn fī al-ṭibb organized Greek, Persian, and Indian medical goods into a book that Latin universities treated as law. The pharmacy books inside it are a map of what a Bundahishn-to-Baghdad world could buy."

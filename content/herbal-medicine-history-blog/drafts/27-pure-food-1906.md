@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "1906: When the Label Became a Law"
 slug: pure-food-1906
 summary: "The Pure Food and Drug Act did not outlaw nostrums. It made a federal lie on a label a crime. Harvey Wiley's poison squad, The Jungle, and a generation of muckrakers built the first U.S. national drug-label regime."
@@ -37,7 +37,7 @@ It could not require that a drug work. Efficacy as a legal demand arrives later,
 
 ## Cannabis on the list
 
-The 1906 list of discloseable ingredients includes *cannabis indica*. That is not the 1937 Marijuana Tax Act and not the 1970 schedule. It is a recognition that cannabis was an ordinary American pharmaceutical (tinctures, corn plasters, cough goods) that the buyer had a right to see named. The later criminal story (essay 37) is a change of political weather, not a botanical surprise.
+The 1906 list of disclosable ingredients includes *cannabis indica*. That is not the 1937 Marijuana Tax Act and not the 1970 schedule. It is a recognition that cannabis was an ordinary American pharmaceutical (tinctures, corn plasters, cough goods) that the buyer had a right to see named. The later criminal story (essay 37) is a change of political weather, not a botanical surprise.
 
 ## Why herbal history needs the statute
 

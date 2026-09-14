@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "An Aztec Herbal in a Colonial Hand"
 slug: badianus-manuscript
 summary: "In 1552, at the Colegio de Santa Cruz de Tlatelolco, Martín de la Cruz composed a Nahuatl herbal that Juan Badiano put into Latin. The little book is a masterpiece of paint and a document of conquest."

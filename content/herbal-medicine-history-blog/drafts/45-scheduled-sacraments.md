@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "Peyote, Ayahuasca, and the Scheduled Sacrament"
 slug: scheduled-sacraments
 summary: "Mescaline cacti and ayahuasca vines are Indigenous sacrament plants that U.S. law met as Schedule I objects — then carved religious exceptions. History is allowed. Ritual instruction and sourcing are not."

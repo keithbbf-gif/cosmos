@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "Shaker Farms and Lloyd's Crude Drugs"
 slug: lloyd-shakers
 summary: "The United Society of Believers grew medicinal herbs as a communal industry. In Cincinnati, John Uri Lloyd built extracts and a library around the American crude-drug trade. Between them sat a pharmacy that could still smell a root. New Lebanon's herb house and Cincinnati's extract hall are not one institution. They share a nineteenth-century American belief that a plant should be honest on the label and the same next year."

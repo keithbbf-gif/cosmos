@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "Padua, Chelsea, Kew: Gardens That Filled Bottles"
 slug: physic-gardens
 summary: "The university physic garden — Padua 1545, then a map of Europe — was a living catalog for medical students. Chelsea served London apothecaries. Kew served an empire. All three grew drugs as much as beauty."
@@ -41,6 +41,6 @@ When this pack talks about colonial extraction (essay 44), Kew is one of the add
 
 ## What a label does
 
-A painted pot with a Latin name is a small machine for reducing a living, variable plant to a filing word. Pharmacy needs that reduction. Ecology hates it. The physic garden is the place they shake hands and then wipe their hands on their coats. Students left these paths and went into practice still capable of buying the wrong bark. The garden was never a complete fix. It was a better habit than the unlabelled sack.
+A painted pot with a Latin name is a small machine for reducing a living, variable plant to a filing word. Pharmacy needs that reduction. Ecology hates it. The physic garden is the place they shake hands and then wipe their hands on their coats. Students left these paths and went into practice still capable of buying the wrong bark. The garden was never a complete fix. It was a better habit than the unlabeled sack.
 
 If you visit Chelsea on a weekday, skip the gift lavender and stand in front of a poisonous bed — aconite, henbane, foxglove. Those plants were not there for atmosphere. They were there because the shop sold them and the apprentice had to know the leaf from the neighbor's leaf. That is the whole idea, and it is still a good one.

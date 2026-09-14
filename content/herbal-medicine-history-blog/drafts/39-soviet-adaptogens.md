@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "How \"Adaptogen\" Left the Soviet Lab"
 slug: soviet-adaptogens
 summary: "N. V. Lazarev coined 'adaptogen' in the late 1940s. I. I. Brekhman promoted Eleutherococcus. The word then emigrated into American supplement copy, leaving most of the Soviet trial apparatus behind."

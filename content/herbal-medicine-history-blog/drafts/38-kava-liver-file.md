@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "Kava: Ceremony, Export, and the Liver File"
 slug: kava-liver-file
 summary: "Piper methysticum is a Pacific ceremonial drink before it is a German tablet. Around 2002, European regulators pulled or restricted kava on hepatotoxicity signals. The fight over peel, solvent, and tradition is still not a kitchen brief."

@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "Sowa Rigpa: Medicine on the High Road"
 slug: sowa-rigpa
 summary: "Tibetan medicine — Sowa Rigpa — compiled Indian, Chinese, and highland knowledge into the Four Tantras. Its pharmacy of pills, decoctions, and precious substances is a high-altitude craft, now caught between lineage, exile, and state recognition."

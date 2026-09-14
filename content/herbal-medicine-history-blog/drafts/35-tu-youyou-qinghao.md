@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "Tu Youyou, Qinghao, and a Cold Extraction"
 slug: tu-youyou-qinghao
 summary: "Project 523 was a Mao-era military-scientific hunt for a malaria drug. Tu Youyou read a 4th-century emergency formula, tried a lower-temperature extraction of qinghao, and isolated what became artemisinin. The Nobel in 2015 made a quiet chemist loud."

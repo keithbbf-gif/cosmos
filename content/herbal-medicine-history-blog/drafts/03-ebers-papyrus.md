@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "A Dining-Table Scroll from Luxor"
 slug: ebers-papyrus
 summary: "Georg Ebers bought a 20-meter hieratic scroll in Luxor in 1873. It remains the longest Egyptian medical book we have — and a lesson in how often we cannot name the plant."

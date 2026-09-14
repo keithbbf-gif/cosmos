@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "Cannabis In and Out of the Pharmacopeia"
 slug: cannabis-pharmacopeia
 summary: "Cannabis indica tincture was a USP drug. The 1937 tax act and the 1970 schedule took it out of the ordinary cabinet. The 2018 Farm Bill put hemp's CBD back into the grocery — under DSHEA-shaped fights, not under a 19th-century monograph."

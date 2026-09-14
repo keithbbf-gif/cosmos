@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "The Fever Tree and the Counting House"
 slug: cinchona-fever-tree
 summary: "Cinchona bark left the Andes as a Jesuit remedy and became the first great imperial antimalarial. The countess in the origin story is probably a fiction. The plantations in Java were not."

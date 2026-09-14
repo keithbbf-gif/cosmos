@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "Ibn al-Baytar's Walking Inventory"
 slug: ibn-al-baytar
 summary: "The Andalusian botanist Ibn al-Bayṭār spent the thirteenth century walking, asking, and compiling some 1,400 simples. His Jāmiʿ is what happens when Dioscorides is taken on the road instead of left on a lectern."

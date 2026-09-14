@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "The Pacific Yew and a Forest Argument"
 slug: pacific-yew-taxol
 summary: "NCI screeners found activity in Taxus brevifolia bark. Paclitaxel (Taxol) became an ovarian and breast cancer drug — and a 1990s fight about old-growth forest, Bristol-Myers Squibb, and whether a tree must die for a molecule."

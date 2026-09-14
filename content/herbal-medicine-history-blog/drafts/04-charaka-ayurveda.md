@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "Charaka's Warehouse of Plants"
 slug: charaka-ayurveda
 summary: "The Caraka Saṃhitā is not a spice rack with Sanskrit labels. It is a physician's compilation — redacted over centuries — in which taste, potency, and post-digestive effect sort the garden."

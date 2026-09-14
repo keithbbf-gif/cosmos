@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "Bottles, Almanacs, and the American Cure"
 slug: patent-medicines
 summary: "Nineteenth-century American patent medicines were not usually patented. They were branded, advertised, and full of alcohol, opium, or theater. The almanac was the internet."
