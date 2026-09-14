@@ -48,4 +48,11 @@ echo "[cosmos-install] tool versions:"
 echo "  ruff:   $(ruff --version)"
 echo "  pytest: $(pytest --version)"
 echo "  mypy:   $(mypy --version)"
+if [ -f .gitmodules ]; then
+  echo "[cosmos-install] initializing builds/cdeck submodule (needs repositoryDependencies)"
+  git submodule sync --recursive 2>/dev/null || true
+  git submodule update --init --depth 1 builds/cdeck 2>/dev/null || \
+    echo "[cosmos-install] WARN: builds/cdeck submodule unavailable; vendored ui/ may still be present"
+fi
+
 echo "[cosmos-install] done"
