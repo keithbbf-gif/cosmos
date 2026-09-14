@@ -30,6 +30,13 @@ zone: 8a
 ---
 Every few months somebody wants a natural eradicate. They have a knotted fig or a sand hole that used to be tomatoes, and they have a video. The video has cinnamon. Or molasses. Or a bleach math problem. Or a jug that says “nematode” the way a vitamin bottle says “immune.”
 
+
+<!-- orchard_slot: D:\FIGS\Greenhouse photos — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/nematodes/meloidogyne-usda-ars-cc-by.jpg" alt="Juvenile root-knot nematode entering a root — why most homeowner drenches miss the biology">
+<figcaption>Figure 1. Juvenile root-knot nematode entering a root — why most homeowner drenches miss the biology. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 I watched one of those videos on a tailgate in August. The tree behind us had already folded at noon. The pot was still heavy. The man had a spice jar and a look that said he would rather buy a feeling than knock a spare plant. I get that look. I have worn it. I still will not write him a yes.
 
 I am going to waste a whole draft on **no**, because the yes list is short and the no list is where people lose a year.

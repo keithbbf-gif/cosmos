@@ -30,6 +30,13 @@ zone: 8a
 ---
 A rust year ends in a pile you can still pick up in January. I have stepped over that pile because I was tired. Then May arrived and I acted surprised.
 
+
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/rust/cerotelium-fici-underside-cc0.jpg" alt="Rusty fig leaves — winter sanitation is next year's rust program">
+<figcaption>Figure 1. Rusty fig leaves — winter sanitation is next year's rust program. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 The tree stripped in August. I meant to bag the skirt. A rain flattened it into the grass. October threw a second spring. I cheered like a person who had not read the clinic note. January took the soft wood. March handed me a longer saw walk. The leaves I skipped were still in the crown, under the grass, in the pot saucers. LSU said that is next year’s starting lineup. I had voted for it with my feet.
 
 LSU: spores on fallen leaves. Do not compost them into the drip. UAEX: a late flush can take cold. Those two sentences are the winter program after rust. Rake what is left. Do not feed a second spring. Protect wood if the forecast is stupid. Do not build a plastic lodge.

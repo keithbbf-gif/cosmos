@@ -31,6 +31,13 @@ zone: 8a
 ---
 I have rusted more trees than I have cultured anthracnose. I still want the names so you do not copper a pink fruit rot or ignore a webby blight because the thumb was not orange. Rust is the loud 8a leaf. It is not the only fungus that can sit on a fig.
 
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/rust/cerotelium-fici-leaf-cc0.jpg" alt="Leaf spots on fig foliage — compare anthracnose and blight to rust before you treat">
+<figcaption>Figure 1. Leaf spots on fig foliage — compare anthracnose and blight to rust before you treat. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 TAMU’s handbook still earns a look for the names people mash.
 
 **Anthracnose** (*Glomerella* / *Colletotrichum*): fruit with a sunken discolored spot that grows a pink spore mass; immature fruit dried on the tree; leaves with a dark brown margin; drop. Sanitation. Get diseased fruit and leaves off the place.

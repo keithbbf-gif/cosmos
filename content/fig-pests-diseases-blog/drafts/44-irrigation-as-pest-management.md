@@ -31,6 +31,13 @@ zone: 8a
 ---
 I have blamed insects for a hose habit. I have also blamed a hose for insects. Both can be true. This page is the water chapter of the pest pack.
 
+
+<!-- orchard_slot: D:\FIGS\Outdoor — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/rust/cerotelium-fici-leaf-cc0.jpg" alt="Wet foliage and rust — why irrigation timing is pest management in 8a">
+<figcaption>Figure 1. Wet foliage and rust — why irrigation timing is pest management in 8a. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 Figs want a drink in **8a** heat. Virginia Tech and UGA talk an inch to an inch and a half a week as a starting rhyme, more in sand, less in clay. I will not turn that into a law. I will not invent a timer schedule and call it IPM. I will turn it into doors.
 
 The air here is already thick. A dusk overhead run is how you add a closet on purpose. The sand is already hungry. A daily sprinkle is how you grow a mat in the hottest occupied inch. The clay already holds a lake. A hose after a two-inch rain is how you write rot on top of weather.

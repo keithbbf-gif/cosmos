@@ -30,6 +30,13 @@ zone: 8a
 ---
 I flipped a pot in a 70-degree shop in January and the rim was sticky. Ants had a commute on the bench. The leaf looked dirty. The neighbor, looking at a phone photo in July, said mosaic. Mosaic does not smear off on a thumb. Sugar does. Then a fungus that eats sugar paints it black.
 
+
+<!-- orchard_slot: D:\FIGS\Greenhouse photos — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/diagnosis/fig-fruit-halved-reference.jpg" alt="Fig fruit reference — scale hides under bark flakes, not on the pulp">
+<figcaption>Figure 1. Fig fruit reference — scale hides under bark flakes, not on the pulp. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 The cuttings magazine pack already has a line I like: a 70-degree shop grows scale. It does not grow winter. I am writing the pest page under that line.
 
 Scale insects are bumps. They do not fly away when you blow. They sit on wood and on ribs of leaves and they leak sugar. The sugar grows sooty mold. The tree looks dirty and “diseased.” The disease is a film. The pest is a bump.

@@ -30,6 +30,13 @@ zone: 8a
 ---
 The little beetles in the eye are not the green June show-offs. They are nitidulids. UC IPM names *Carpophilus hemipterus*, the driedfruit beetle, and the vinegar flies that ride with them. They walk yeasts and bacteria into a ripe fig. The fig then does what fruit does in a warm wet week: it ferments on the tree.
 
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/diagnosis/fig-fruit-halved-reference.jpg" alt="Ripe fig cross-section — souring starts at the eye, not as a leaf disease">
+<figcaption>Figure 1. Ripe fig cross-section — souring starts at the eye, not as a leaf disease. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 That smell is the ID. Pink syrup at the ostiole. Gas. A necklace that hangs and sags and then paints the leaf underneath. People call it blight. It is a cafeteria.
 
 UC’s sour-rot chapter is the one I trust for the microbiology and the no. *Candida*, *Hanseniaspora*, *Pichia*, *Saccharomyces* — you do not need the Latin in the driveway. You need the sentence **no bactericide or yeasticide is recommended**. Prompt pick. Prompt cleanup. Air in the canopy so dropped fruit cooks in sun instead of sitting in a wet room.

@@ -30,6 +30,13 @@ zone: 8a
 ---
 I smelled the tree before I saw the necklace. Brewery. Pink jelly at the ostiole. A fig hanging like a rag, painting the leaf underneath. The neighbor wanted a blight spray. The tree wanted a bucket.
 
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/diagnosis/fig-fruit-halved-reference.jpg" alt="Split ripe fig interior — souring is yeast at the eye, not a leaf curse">
+<figcaption>Figure 1. Split ripe fig interior — souring is yeast at the eye, not a leaf curse. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 The FigRoots magazine pack already split split vs sour. I am not pasting it. I am writing the pest version: **souring has a taxi.**
 
 UC IPM: yeasts and bacteria, a sour odor, water-soaked flesh, rancid drip from the eye. Driedfruit beetles and vinegar flies carry the mess. **No bactericide or yeasticide is recommended.** Pick. Clean up. Let sun hit the ground under the tree.

@@ -30,6 +30,13 @@ zone: 8a
 ---
 I have a beetle draft that already said do not fog ripe fruit. This page is the rest of the yard. Dogs. Kids. A neighbor’s tomatoes. A breeze that does not read your intention.
 
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/beetles/japanese-beetle-cc-by.jpg" alt="Beetle on plants — do not fog ripe figs where kids and pets eat">
+<figcaption>Figure 1. Beetle on plants — do not fog ripe figs where kids and pets eat. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 Figs in **8a** sit in the same grass people live on. That is the point of a backyard tree. A child can reach the low fruit. A dog will eat what falls and then eat the grass it fell on. It is also why a “fruit tree spray” mood is a bad mood. The aisle sells farm feelings in a quart. Your yard is still a living room with a sky.
 
 I have watched a person pump a backpack while the figs were already soft and a plastic ball sat in the drip line. That is not IPM. That is a residue argument you will have with yourself at the table, and a drift argument you may have with a neighbor who did not sign up.

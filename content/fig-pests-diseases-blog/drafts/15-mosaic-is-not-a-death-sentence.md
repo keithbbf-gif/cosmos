@@ -31,6 +31,13 @@ zone: 8a
 ---
 I have thrown away more time worrying about mosaic than mosaic has thrown away fruit. The leaf looks like somebody spilled a map on it. Heat turns the volume up. A person who just learned the word *virus* wants a funeral.
 
+
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/mosaic/fig-mosaic-leaf-cc-by-sa.jpg" alt="Mosaic pattern on a fig leaf — oak-leaf yellowing is not always a pull-the-tree verdict">
+<figcaption>Figure 1. Mosaic pattern on a fig leaf — oak-leaf yellowing is not always a pull-the-tree verdict. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 UC IPM is calmer than the internet. Once a residential fig has mosaic, there is no practical control. If the tree is not performing, replace it. If it is performing, you already have your answer.
 
 Most old Southern wood carries this. Cuttings move it. A mite moves it. Seed does not. You cannot bleach it off a blade.

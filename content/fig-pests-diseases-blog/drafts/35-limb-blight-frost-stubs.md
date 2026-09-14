@@ -30,6 +30,13 @@ zone: 8a
 ---
 I have stood under a fig in March with a neighbor pointing at brown tips like they were a crime. He wanted a bottle. He wanted the wood green by Easter. The wood was dead. Dead wood does not drink copper.
 
+
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/diagnosis/fig-fruit-halved-reference.jpg" alt="Fig fruit on a stressed tree — limb blight often follows frost stubs and wet wood">
+<figcaption>Figure 1. Fig fruit on a stressed tree — limb blight often follows frost stubs and wet wood. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 Zone **8a** South Arkansas will write this scene most years. A night in the teens. A late freeze after the buds already moved. A rust year that flushed in October and then met January like a fool. Cold killed the tip. Then a fungus used the porch. The saw is the tool for both. The jug is a third chapter I will not write.
 
 TAMU listed dieback as physiological cold injury. Young twigs die. They do not have to steal the crop. They do give fungi a porch. The handbook says prune the dead.

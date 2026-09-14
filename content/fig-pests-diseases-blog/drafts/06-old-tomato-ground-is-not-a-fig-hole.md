@@ -31,6 +31,13 @@ zone: 8a
 ---
 People retire a vegetable corner and feel virtuous. The tomatoes got blight. The okra got tired. The kids left. The spot still gets sun. A fig is “easy.” They plant the fig in the same dirt that fed three crops a year for a decade.
 
+
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/nematodes/root-knot-nodules-pd.jpg" alt="Nematode galls — why old tomato and okra ground is a bad fig hole in zone 8a">
+<figcaption>Figure 1. Nematode galls — why old tomato and okra ground is a bad fig hole in zone 8a. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 I pulled a tomato for a neighbor in July so he could see what he was about to donate a fig to. The vine came up easy. The feeders were a string of beads. He had never looked. He had tilled that row every March and called it clean. He left the cafeteria open.
 
 LSU AgCenter’s 2025 fig disease note (Pub. 1802) is not poetry. It says choose a site where root-knot-susceptible plants such as **tomato, okra, or tobacco** have not been recently grown. That is a crop-history warning, not a vibe. *Meloidogyne* does not read your retirement announcement. The eggs are already in that hole.

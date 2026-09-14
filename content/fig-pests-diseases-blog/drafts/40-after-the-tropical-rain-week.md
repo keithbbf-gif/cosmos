@@ -30,6 +30,13 @@ zone: 8a
 ---
 8a sits in the kind of map that still gets a leftover tropical rain. Not every year. Often enough that I have a walk I trust when the sun comes back and the figs look like they went through a wash.
 
+
+<!-- orchard_slot: D:\FIGS\Figs-summer-23 — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/rust/cerotelium-fici-underside-cc0.jpg" alt="Rust after a wet week — humidity stacks beetle, rust, and souring problems">
+<figcaption>Figure 1. Rust after a wet week — humidity stacks beetle, rust, and souring problems. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 The canopy drips for a day after the radar goes quiet. Fruit that was a day from jam is split or swollen or already smelling like a still. Leaves that were only thinking about rust now have a splash pattern. Clay holds a lake. A pot saucer holds a swamp. Mosquitoes write their own calendar. A neighbor wants a storm spray. I want a bucket.
 
 I do not invent a storm spray. I close doors.

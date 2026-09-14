@@ -31,6 +31,13 @@ zone: 8a
 ---
 Most tired figs in this pack are rust, nematodes, wet feet, or a winter. Once in a while a tree dies like it was switched off in the heat. Leaves hang. The fruit stops. You water. You wait a day. The tree does not negotiate.
 
+
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/diagnosis/armillaria-rhizomorphs-cc-by-sa.jpg" alt="Armillaria rhizomorphs at a tree base — mushroom root rot kills standing figs">
+<figcaption>Figure 1. Armillaria rhizomorphs at a tree base — mushroom root rot kills standing figs. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 I have seen that look blamed on “the virus,” on beetles, on a fertilizer the neighbor swears by. I have also seen it blamed on root-knot because this folder talks about galls a lot. Galls are a years-long tired. This is a different funeral.
 
 UF’s older fig notes call that mushroom root rot — *Armillaria tabescens* in their wording. Peel bark at the soil line. A creamy white fungal skin. Mushrooms may not show before the tree is gone. All trunks may not die the same year. Dead trees must be totally removed — roots and soil. Do not replant. The fungus lives in leftover root.

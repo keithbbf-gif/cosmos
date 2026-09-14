@@ -31,6 +31,13 @@ zone: 8a
 ---
 Zone **8a** is a winter number. It is not a soil map. In South Arkansas I can walk from a clay puddle that holds a lake after a two-inch rain into a sand ridge that drinks a hose and forgets it. Root-knot nematodes like the second place. They will live in the first. They *win* in the second.
 
+
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/nematodes/root-knot-nodules-pd.jpg" alt="Root-knot nematode galls on feeder roots in sandy soil">
+<figcaption>Figure 1. Root-knot nematode galls on feeder roots in sandy soil. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 I did that walk last June after a night storm. The ditch side sucked at my boots. Fifty yards upslope the same rain had already vanished. I ran a hose on the ridge for a count of sixty. The water sat, then it was gone, and the surface looked thirsty again. That is the hole people call “perfect drainage.” It is also a hotel for *Meloidogyne*.
 
 Texas A&M’s fig notes, the ones we have been using on FigRoots, are blunt that **sandy ground** is where root-knot gets ugly. UF/IFAS says the same family of worms is severe on figs in Florida sand. NC State talks nematodes as a limit next to cold. University of Georgia’s *Home Garden Figs* (Krewer and Hendrix, C 945) is quieter on worms and louder on water and fertility — which is what a sand fig asks of you even when the roots are clean. None of those sentences need a new trial from me. They need a grower who stops planting a mailbox name in the old melon row because the spot “drains real good.”

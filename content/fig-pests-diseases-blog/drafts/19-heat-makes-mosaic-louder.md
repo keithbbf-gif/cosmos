@@ -31,6 +31,13 @@ zone: 8a
 ---
 PNW’s mosaic chapter said high summer temperatures can make symptoms worse. I did not need a handbook to see it. I needed a July.
 
+
+<!-- orchard_slot: D:\FIGS\Figs-summer-23 — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/mosaic/fig-mosaic-leaf-cc-by-sa.jpg" alt="Heat-stressed fig leaf showing mosaic pattern — August makes the paint job louder">
+<figcaption>Figure 1. Heat-stressed fig leaf showing mosaic pattern — August makes the paint job louder. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 A tree that looked “fine” at the first flush will wear a map after a string of 98° days. People date the infection to the heat wave. They want a spray that matches the date. The infection is older than the heat wave. The heat is a loudspeaker.
 
 Zone **8a** gives you those weeks for free. Humidity does not cancel them. A west pot on gravel will write the loudest leaf. An in-ground tree with rust plus heat plus a painted virus will look like the end of the world. It is often just July.

@@ -31,6 +31,13 @@ zone: 8a
 ---
 I am going to put three official sentences on the same table and not pick a favorite.
 
+
+<!-- orchard_slot: D:\FIGS\Figs-summer-23 — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/rust/cerotelium-fici-leaf-cc0.jpg" alt="Fig rust on leaves — any copper talk still has to match the label and the host">
+<figcaption>Figure 1. Fig rust on leaves — any copper talk still has to match the label and the host. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 LSU AgCenter Pub. 1802, 2025: fig diseases in Louisiana are managed with culture and variety **because no fungicides are currently labeled for use on figs in Louisiana**.
 
 UAEX Plant Health Clinic, fig rust note (Smith and Pavel): control depends on timing; **neutral copper** when the first leaves are full size in May or early June, again in three to four weeks.

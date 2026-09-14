@@ -31,6 +31,13 @@ zone: 8a
 ---
 I pinched a leaf in August and my thumb came away looking like I had been handling a cheap eyeshadow. The neighbor said the tree was dying. The tree was making rust.
 
+
+<!-- orchard_slot: D:\FIGS\Figs-summer-23 — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/rust/cerotelium-fici-underside-cc0.jpg" alt="Orange rust pustules on the underside of a fig leaf — Cerotelium fici in humid August air">
+<figcaption>Figure 1. Orange rust pustules on the underside of a fig leaf — Cerotelium fici in humid August air. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 It was a Sunday after church. The air had that South Arkansas weight you do not argue with. I walked into the canopy and the interior was still wet from a night rain even though the driveway was already steaming. I flipped a leaf that looked only a little tired on top. Underside was grit. Thumb went orange. That is the ID most people skip because they are looking at fruit.
 
 Fig rust is a leaf fungus with two hats in the paperwork. Texas and Louisiana mostly say ***Cerotelium fici***. Arkansas’s clinic note still says ***Physopella fici***. Same disease. Small angular yellow-green flecks. They go yellow, then rusty brown. The underside raises little blisters. Those blisters let go of brown or orange spores. Then a tree that can drop a canopy in two or three ugly weeks if the air stays thick.

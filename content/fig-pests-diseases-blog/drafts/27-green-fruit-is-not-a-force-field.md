@@ -30,6 +30,13 @@ zone: 8a
 ---
 I planted a yellow-green name one year because I was tired of a dark tree that advertised from the ditch. The first week of ripe fruit I still walked at dawn and found pecks. Not as many. Enough. The mockingbird had a job. Color was not a contract.
 
+
+<!-- orchard_slot: D:\FIGS\More Fig Pictures — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/diagnosis/fig-fruit-halved-reference.jpg" alt="Green-skinned ripe fig flesh — color fools people, not mockingbirds">
+<figcaption>Figure 1. Green-skinned ripe fig flesh — color fools people, not mockingbirds. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 [Pick The Right Fig](https://figroots.com/2025/07/02/pick-the-right-fig-for-you/) already spent the one-liner. If birds are thick, a green fig might get eaten less than a dark one. The cuttings magazine pack unpacked contrast. I am not pasting that essay. I am writing the sentence people add in their heads and should not: **so I planted green and I am done.**
 
 You are not done. You planted a quieter billboard. The neck still softens. The sugar still climbs. A mockingbird that works your yard like a job will learn the green names. A flock that hits in a migration week will not take a color theory exam.

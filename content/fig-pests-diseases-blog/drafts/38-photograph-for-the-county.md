@@ -30,6 +30,13 @@ zone: 8a
 ---
 I will look at a photo. I will not bless a jug from a photo. The county clinic is the grown-up version of both. They still want a sample. The pictures are how you do not waste their Monday.
 
+
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/mosaic/fig-mosaic-leaf-cc-by-sa.jpg" alt="Fig leaf symptoms — what to photograph before you mail the county clinic">
+<figcaption>Figure 1. Fig leaf symptoms — what to photograph before you mail the county clinic. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 A neighbor texts me a yellow leaf on a kitchen table and wants a product name before supper. I have been that neighbor in my own head. I have also mailed a bag and gotten a name that saved me a second bottle. The difference is not talent. The difference is five frames, a few words, and a zip bag that did not cook in a truck.
 
 **[VERIFY]** your clinic’s current intake — Arkansas’s plant health clinic, LSU, TAMU, UF, whoever you actually use. Hours change. Addresses change. What they will accept in summer heat changes. This is the shot list I wish came with the sad text message. It is not a substitute for their form.

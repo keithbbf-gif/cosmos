@@ -30,6 +30,13 @@ zone: 8a
 ---
 I bagged a child’s first fig on a pot by the porch with an organza party bag and a clothespin. The jay still found the rest of the tree. We ate that one fig over the sink. That is the honest size of this method.
 
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/diagnosis/fig-fruit-halved-reference.jpg" alt="Fig fruit cross-section — bagging a few figs beats fighting every bird on the tree">
+<figcaption>Figure 1. Fig fruit cross-section — bagging a few figs beats fighting every bird on the tree. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 A twenty-foot turkey does not get a hundred organza bags unless you have a different personality than I do. A young tree, a pot, a branch you can reach — those get bags in the loud week if I will not build a frame this year.
 
 Growers have used newspaper and clothespins. Organza party bags. Paper sleeves. The method is older than a blog. The rule is the same as netting: you are trading time for fruit, and you can trap heat or an insect if you forget to look.

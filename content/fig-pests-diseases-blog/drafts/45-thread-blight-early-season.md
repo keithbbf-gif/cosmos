@@ -31,6 +31,13 @@ zone: 8a
 ---
 An LSU foliage note I keep in the bibliography said the quiet calendar: thread blight early, fig rust late. Gardeners rarely spray, and the trees survive. Copper talk showed up on that page too — May and August in one version — which I will not turn into your hose law. I will turn the calendar into a sort.
 
+
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/rust/cerotelium-fici-leaf-cc0.jpg" alt="Early-season leaf spots — thread blight and rust are not the same spray decision">
+<figcaption>Figure 1. Early-season leaf spots — thread blight and rust are not the same spray decision. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 If the canopy is ugly in **May**, I do not write rust as the default. If it is ugly in **August** with orange grit, I do. Mash those months and you copper a paint job or you ignore a web.
 
 This pack started with buckets. It ends with time. I want the month on the leaf before I want a Latin name I did not culture.

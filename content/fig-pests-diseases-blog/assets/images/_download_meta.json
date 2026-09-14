@@ -1,0 +1,86 @@
+[
+  {
+    "commons": "Fig rust caused by Cerotelium fici.jpg",
+    "bytes": 946063,
+    "sha256": "78c1026f5008bc1218b696ff747e1c783b67dc5bfb1d3473bf3b9c9bbf0b8f36",
+    "path": "assets/images/shared/rust/cerotelium-fici-leaf-cc0.jpg"
+  },
+  {
+    "commons": "Fig rust, caused by Cerotelium fici - 15341424493.jpg",
+    "bytes": 839738,
+    "sha256": "2d59139dbd55c7eb7c008f356e98f6c63a0eade653d4d42712fb447a7517e355",
+    "path": "assets/images/shared/rust/cerotelium-fici-underside-cc0.jpg"
+  },
+  {
+    "commons": "Virus mosaico Higuera.jpg",
+    "bytes": 861472,
+    "sha256": "a8cb4aca36ff8d8dc14971a811ad22db82837d0f2af63f24856342e7366b7adb",
+    "path": "assets/images/shared/mosaic/fig-mosaic-leaf-cc-by-sa.jpg"
+  },
+  {
+    "commons": "Meloidogyne incognita on Solanum lycopersicum (11).jpg",
+    "bytes": 1075443,
+    "sha256": "06949da30f67e50bcbf29216541dd3293445d013b2cca0e2bf08a3110b0ebd8a",
+    "path": "assets/images/shared/nematodes/galled-roots-tomato-cc0.jpg"
+  },
+  {
+    "commons": "Nematode nodules.jpg",
+    "bytes": 30333,
+    "sha256": "536eb5acd5a86fcff2ab833808d8bfef21adc091f6c2b13a3421535ce944692f",
+    "path": "assets/images/shared/nematodes/root-knot-nodules-pd.jpg"
+  },
+  {
+    "commons": "A juvenile root-knot nematode (Meloidogyne incognita) penetrates a tomato root - USDA-ARS.jpg",
+    "bytes": 1175410,
+    "sha256": "187fcb0fbe1cc27ed3ca4cd0f9744790ef39b60bc428e74985cd46f71bffcc94",
+    "path": "assets/images/shared/nematodes/meloidogyne-usda-ars-cc-by.jpg"
+  },
+  {
+    "commons": "Green June Beetle (Cotinis nitida).jpg",
+    "bytes": 187688,
+    "sha256": "80e134bb470623dcc54a18e5af6e64b1331c01570a283a29872e0f988545383e",
+    "path": "assets/images/shared/beetles/green-june-beetle-cc-by-sa.jpg"
+  },
+  {
+    "commons": "Japanese beetle Popillia japonica.jpg",
+    "bytes": 469691,
+    "sha256": "eb127fd31c0d1b80fad20cbc0bb88838919536ac51297609b409e9cf64d52526",
+    "path": "assets/images/shared/beetles/japanese-beetle-cc-by.jpg"
+  },
+  {
+    "commons": "CSIRO ScienceImage 12 Tetranychus urticae Two Spotted Spider Mite.jpg",
+    "bytes": 3581937,
+    "sha256": "26ccf6ab24a81a9a493b88b0bdb52a9dd4f78e5c4b06ba2f5179cdd71b3dd813",
+    "path": "assets/images/shared/diagnosis/two-spotted-spider-mite-csiro.jpg"
+  },
+  {
+    "commons": "Ants collecting honeydew drops 01.jpg",
+    "bytes": 1477355,
+    "sha256": "1ae33f09828a8f177684f4f11b5c8ef293da3fd1d812b03933d9684e59abf668",
+    "path": "assets/images/shared/diagnosis/ants-honeydew-cc.jpg"
+  },
+  {
+    "commons": "Rhizomorphs (thick fungal threads) of Armillaria mellea - geograph.org.uk - 933530.jpg",
+    "bytes": 156641,
+    "sha256": "ab5af1d204323fdd567819a9d0bf4b1547a7268627061f8b3c6801406b1eb2c7",
+    "path": "assets/images/shared/diagnosis/armillaria-rhizomorphs-cc-by-sa.jpg"
+  },
+  {
+    "commons": "Bactrocera dorsalis.jpg",
+    "bytes": 543077,
+    "sha256": "31b71cd1b8ed055d857029d6c1202d01ce3f99dc8207c5ed5c4018aee930c09c",
+    "path": "assets/images/shared/biosecurity/oriental-fruit-fly-cc.jpg"
+  },
+  {
+    "commons": "Fig (Ficus carica) fruit halved.jpg",
+    "bytes": 695948,
+    "sha256": "223a7f25cac4540c9c1237c3bace4f00b68d0676a19ea6f87f2d28150f01bb2d",
+    "path": "assets/images/shared/diagnosis/fig-fruit-halved-reference.jpg"
+  },
+  {
+    "commons": "Mango fruit fly (Bactrocera dorsalis).jpg",
+    "bytes": 594552,
+    "sha256": "5d225419086a543ec37d849cac2ceb5df638e84a9de9b8cc0fb7987c91adb64b",
+    "path": "assets/images/shared/biosecurity/fruit-fly-on-fruit-cc.jpg"
+  }
+]

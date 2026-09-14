@@ -32,6 +32,13 @@ zone: 8a
 ---
 I walked out at first light after a loud fig night and the ground looked like a grocery bag had been dumped. Not a triangular peck. Not a green June sitting on a shoulder. Hands had been here. Half-eaten ripe fruit, a broken pot rim, a trail toward the woods. Zone **8a** woods-edge yards get shoppers. Birds commute. Mammals shop.
 
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/diagnosis/fig-fruit-halved-reference.jpg" alt="Ripe fig — mammals take fruit after birds teach them the tree">
+<figcaption>Figure 1. Ripe fig — mammals take fruit after birds teach them the tree. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 I will not write a poison. I will not write a live-trap sitcom as if it were a fig SOP. I will write what I have actually used and what extension already said in ordinary English. University of Tennessee named birds, squirrels, and raccoons in the same breath as netting and a timely pick. That is the size of the honest toolbox.
 
 ## Name the mouth before you buy a gadget

@@ -31,6 +31,13 @@ zone: 8a
 ---
 I have in-ground figs that are not clean. I also have names I will not put in that dirt. Those two facts can sit on the same place without a product in the middle.
 
+
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/nematodes/galled-roots-tomato-cc0.jpg" alt="Galled roots on a living tree — management is cultural, not a single soil drench">
+<figcaption>Figure 1. Galled roots on a living tree — management is cultural, not a single soil drench. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 Once root-knot is in a hole, the honest project is **tolerance**, not a funeral for every worm. LSU AgCenter Pub. 1802 says keep plants in good health, fertilizer as needed, moisture around the roots. TAMU’s handbook, after the stale fumigant aside I will not copy, says the same grown-up thing: if they were there at the start, the fig will meet them, and a well-started root system lives with it better. UF/IFAS (Noling, ENY-055) says young plants take the hit hardest. That split — baby versus established — is the whole management plan I actually run.
 
 I walked a keeper Celeste at 2 p.m. last August. The air had weight. The top had that slight sag you get when a tree is working damaged pipe and the sand has gone to oven. I put a finger in the mulch. Cooler than the bare patch I had left by the mower wheel. I ran water slow at the drip, not a spray on the leaves. I did not walk to the shed for a jug. There is no jug for this.

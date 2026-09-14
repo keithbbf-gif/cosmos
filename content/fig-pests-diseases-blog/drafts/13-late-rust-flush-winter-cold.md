@@ -30,6 +30,13 @@ zone: 8a
 ---
 Arkansas’s rust note has a sentence people treat as decoration. Defoliation may make the tree put on foliage late, and that growth goes into winter soft. Then cold has an easier job.
 
+
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/rust/cerotelium-fici-underside-cc0.jpg" alt="Late-season rust defoliation — soft winter flush is the zone 8a penalty">
+<figcaption>Figure 1. Late-season rust defoliation — soft winter flush is the zone 8a penalty. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 Zone **8a** is not a tropical fig joke. Average annual extreme in the teens. We still get nights that settle an argument with a variety that was bred for a milder parish. A rust year that strips in August and a warm October that feels like a gift can stack into a March dieback people will blame on “the virus” or “the beetles.”
 
 The virus did not do that. The beetles did not do that. The tree believed a second spring.

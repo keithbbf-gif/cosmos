@@ -31,6 +31,13 @@ zone: 8a
 ---
 Virginia Tech’s backyard fig guide (Burnett and Samtani, SPES-760P, 2026) said the quiet part in a list: rust shares a yellow look with sunburn, leaf spot, sooty mold, and mosaic. People still take one picture from the driveway and buy a “fruit tree” jug.
 
+
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/rust/cerotelium-fici-leaf-cc0.jpg" alt="Fig rust leaf spots next to healthy green — compare before you spray the wrong problem">
+<figcaption>Figure 1. Fig rust leaf spots next to healthy green — compare before you spray the wrong problem. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 I want four names you can use in 8a without a lab. If you cannot pick one, you mail the county. You do not spray a sampler pack.
 
 I did this walk with a neighbor at 4 p.m. on a west pot wall. The plastic was hot enough you would not leave a hand on it. He had one yellow leaf in his fingers and a bottle in the truck. We flipped ten leaves, not one. Two had grit. Three had oak-leaf paint and a clean thumb. Two were bleached on the face that took the afternoon. One had fine pepper and a little web in the dusty interior. He put the bottle back. That is the whole draft.

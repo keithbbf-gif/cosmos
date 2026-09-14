@@ -30,6 +30,13 @@ zone: 8a
 ---
 People hear humidity and think mites cannot live here. Then a south wind and a week without rain and a pot on hot gravel write a bronze leaf. I have walked a pot block in August after five dry days and the leaves looked tired in a way rust is not tired. Fine pepper on the top. Underside with tiny moving dots if you bring a loupe. No orange thumb. No brewery on the fruit.
 
+
+<!-- orchard_slot: D:\FIGS\Figs-summer-23 — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/diagnosis/two-spotted-spider-mite-csiro.jpg" alt="Two-spotted spider mite — dry August pots and dusty leaves in zone 8a">
+<figcaption>Figure 1. Two-spotted spider mite — dry August pots and dusty leaves in zone 8a. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 Two-spotted spider mites like dusty, dry, and still. We can make that room in zone **8a** without moving to Arizona. South Arkansas will hand you a sticky week and a dust-bowl week in the same month. The in-ground turkey in a still wet pocket rusts. The pot on the drive mites. That is why one word — blight — is useless.
 
 They are not *Aceria*. They do not carry mosaic. They do not rust your thumb orange. They stipple. They bronze. They web if you let a greenhouse go.

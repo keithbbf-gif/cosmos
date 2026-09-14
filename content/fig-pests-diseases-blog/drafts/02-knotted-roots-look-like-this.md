@@ -31,6 +31,13 @@ zone: 8a
 ---
 You do not meet a root-knot nematode. You meet a fig that drinks like it is working and still folds at noon. You meet a fertilizer bag you did not need. You meet roots that look like they swallowed birdshot.
 
+
+<!-- orchard_slot: D:\FIGS\Greenhouse photos — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/nematodes/galled-roots-tomato-cc0.jpg" alt="Swollen root knots from root-knot nematode on a susceptible host — same galling pattern on fig roots">
+<figcaption>Figure 1. Swollen root knots from root-knot nematode on a susceptible host — same galling pattern on fig roots. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 The worm itself is a thread you will not see without a microscope and a reason. *Meloidogyne* species live in the dirt and in the root. The female sets up a feeding site. The root swells around her. That swelling is the gall. Eggs wait in the soil for the next season. LSU AgCenter’s 2025 fig disease note (Pub. 1802) says the same thing in clinic English: poor growth, yellowing, low yield, poor fruit, **small galls on the roots**. Texas A&M’s *Texas Plant Disease Handbook* calls root-knot one of the common fig problems. UF/IFAS — J. W. Noling, *Nematodes of Backyard Deciduous Fruit and Nut Crops in Florida* (ENY-055) — puts figs on the list with peach and pecan for severe root-knot pressure in sand. NC State’s Dave Ritchie named nematodes next to cold as a limit on figs in North Carolina.
 
 I am not writing a parasitology lecture. I am writing what I want you to see before you decide the tree is “just hungry.”

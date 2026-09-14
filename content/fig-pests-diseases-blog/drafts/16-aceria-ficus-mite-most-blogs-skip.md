@@ -31,6 +31,13 @@ zone: 8a
 ---
 UC IPM describes a mite you will not see on a porch. Two pairs of legs up front. Wedge-shaped. Pale. A fraction of a millimeter. *Aceria fici* in their spelling, *Aceria ficus* in others. Same animal in the bud scales and around the eye.
 
+
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/mosaic/fig-mosaic-leaf-cc-by-sa.jpg" alt="Fig mosaic symptoms on foliage — Aceria fig mite is the piece most blogs skip">
+<figcaption>Figure 1. Fig mosaic symptoms on foliage — Aceria fig mite is the piece most blogs skip. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 They also say the sentence blogs skip: feeding by **one** infectious mite can move fig mosaic virus to a healthy seedling. The virus is not in the egg. The mite picks it up by eating and keeps it through molts. Cuttings and grafts move the virus without any mite at all.
 
 If you only remember one thing, remember the split. **Mite control is a spread story. It is not a cure story.**

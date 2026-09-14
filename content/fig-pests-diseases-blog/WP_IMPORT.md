@@ -21,6 +21,7 @@ This pack: `content/fig-pests-diseases-blog/`.
 7. **Status: Draft.** Save. Do not Publish.
 8. Body: copy from the first paragraph after `---` to the end. Restore H2s. Keep `[VERIFY]` visible in draft.
 9. Featured image: one still from that post’s `folder_pick`. Leave the post **Draft**.
+10. In-body images: paste the draft’s `<figure>` block(s). Keep `alt` and `<figcaption>`; swap `../assets/images/...` URLs to the WordPress media library after upload. Retire PD staging fills per `RIGHTS.md` when a `D:\FIGS` still is ready.
 
 ## What not to paste onto the live page
 

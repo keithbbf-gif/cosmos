@@ -29,6 +29,13 @@ zone: 8a
 ---
 I have stood under a tree at dusk and counted pecks I did not hear happen. The neck had been tight at lunch. At 7:15 the first hole was already dry at the edge. Zone **8a** fig week is also mockingbird week, starling week, jay week, sometimes a waxwing week if the calendar lines up. A ripe fig does not wait for your Saturday. A bird does not care that you work.
 
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/diagnosis/fig-fruit-halved-reference.jpg" alt="Ripe fig interior — birds write the harvest calendar on dark fruit first">
+<figcaption>Figure 1. Ripe fig interior — birds write the harvest calendar on dark fruit first. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 Jack already said it on The Fig Jam: after a dead tree, birds are the part of fig season he likes least. That is his harvest mouth. This page is mine. I will not mash the two pens. I will write the calendar they own.
 
 ## What I see that is birds, not beetles, not a raccoon

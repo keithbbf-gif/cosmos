@@ -30,6 +30,13 @@ zone: 8a
 ---
 UC IPM said obtain plants from a quality supplier and do not propagate from mosaic trees. That is the clean-stock sermon. I believe the sermon. I also live in a country where most fig wood is a cutting of a cutting of a yard tree.
 
+
+<!-- orchard_slot: D:\FIGS\Damaged Cuttings — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/mosaic/fig-mosaic-leaf-cc-by-sa.jpg" alt="Inherited mosaic pattern on fig leaves — why clean wood matters at purchase">
+<figcaption>Figure 1. Inherited mosaic pattern on fig leaves — why clean wood matters at purchase. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 Those two facts have to sit together or you will either lie in a listing or refuse to grow figs.
 
 I open boxes on the tailgate. I have opened pretty ones and dead ones. I have never opened a lab file. That is the country I am writing from.

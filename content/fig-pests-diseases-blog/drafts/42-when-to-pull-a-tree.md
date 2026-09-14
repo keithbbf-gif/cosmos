@@ -31,6 +31,13 @@ zone: 8a
 ---
 I keep trees too long. That is a personality. It is also how a hole stays occupied by a plant that does not pay rent. This page is the fire rule I want when I am being romantic.
 
+
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/nematodes/galled-roots-tomato-cc0.jpg" alt="Galled roots — one honest reason to pull a fig instead of buying another bottle">
+<figcaption>Figure 1. Galled roots — one honest reason to pull a fig instead of buying another bottle. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 A fig in **8a** can look tired for a dozen reasons this pack already named. Rust strips a canopy and the tree still leafs in April. Mosaic paints a leaf after a 98° week and the tree still finishes fruit. Birds write a harvest you refused to net. A beetle week takes a necklace you refused to pick. Winter kills tips and the stools push. None of those is automatically a funeral.
 
 Occupying is not earning. A live trunk in a sun patch you wanted for jam is still a decision.

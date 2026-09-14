@@ -32,6 +32,13 @@ zone: 8a
 ---
 Virginia Tech put a June beetle on a Brown Turkey in their backyard guide and I felt seen. We have loud green fliers in fig week. People call all of them fig beetles and then import a California orchard PDF onto a South Arkansas stool.
 
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/beetles/green-june-beetle-cc-by-sa.jpg" alt="Green June beetle — not the same insect as Japanese beetle on figs">
+<figcaption>Figure 1. Green June beetle — not the same insect as Japanese beetle on figs. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 Names matter because the **control stories are not the same**, and because one of these insects may not even live at your house.
 
 I have stood under a ripe tree with a neighbor who said “figeater” the way people say “blight.” He meant a loud green walnut with a clumsy landing. I meant *Cotinis nitida* if I was going to write it down. His cousin in Arizona meant a different *Cotinis*. A woman on a forum meant Japanese beetles because her roses were lace. We were having three conversations. The fruit was having one.

@@ -31,6 +31,13 @@ zone: 8a
 ---
 I have watched a person spray a sooty fig for rust because the leaf was black and they were tired. The black smeared on a thumb. Rust does not smear like that. Sugar grew a fungus that eats sugar. The leak was a bump or an aphid. The ants were employees.
 
+
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/diagnosis/ants-honeydew-cc.jpg" alt="Ants harvesting honeydew on leaves — a symptom of sap feeders, not a fig disease">
+<figcaption>Figure 1. Ants harvesting honeydew on leaves — a symptom of sap feeders, not a fig disease. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 This is a short bucket that saves a jug. I am still going to walk it, because the driveway conversation is never as short as the bucket.
 
 ## Two ant meetings

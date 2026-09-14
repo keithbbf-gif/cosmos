@@ -31,6 +31,13 @@ zone: 8a
 ---
 If your 8a county does not have Japanese beetles, skip this page and go pick figs. If it does, somebody will sell you a yellow bag and a lure and a feeling of doing something.
 
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/beetles/japanese-beetle-cc-by.jpg" alt="Japanese beetle — why yard traps attract more beetles than they save on figs">
+<figcaption>Figure 1. Japanese beetle — why yard traps attract more beetles than they save on figs. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 The lure is floral scent plus a sex attractant. It works. That is the problem. It works on beetles that were going to the neighbor’s roses, and then it works on the ones that miss the bag and sit on your fruit.
 
 I will not pretend I ran a university trap trial. I will tell you the extension habit I will not fight: **do not hang the trap next to the crop you care about.** Some agents say put it a long way downwind or skip it on a small lot. **[VERIFY]** your own county’s current sentence. I will give you mine: I will not buy the bag as fig control.

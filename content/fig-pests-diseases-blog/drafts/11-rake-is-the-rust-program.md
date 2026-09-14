@@ -30,6 +30,13 @@ zone: 8a
 ---
 LSU’s rust cycle is not a mystery. The fungus spends the off season on the leaves you left. Wind and rain put it back to work. You can talk copper until the truck rusts. If you leave a wet rust quilt under the tree, you already voted.
 
+
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/rust/cerotelium-fici-underside-cc0.jpg" alt="Rust pustules under a fig leaf — why raking litter beats fogging ripe fruit">
+<figcaption>Figure 1. Rust pustules under a fig leaf — why raking litter beats fogging ripe fruit. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 Ferrin and Overstreet (LSU AgCenter Pub. 3159) and the 2025 fig disease note (Pub. 1802) both keep the cultural sentence: collect and destroy diseased leaves. Do not compost them into the next crop of spots. UAEX’s clinic note is the other half of the same honesty: a canopy can go in two or three weeks, and a late flush can walk into an 8a winter soft.
 
 I like a rake. I like a tarp. I like a bag I will not open in the compost against the trunk. That is the program. It is not glamorous. It works in 8a because our trees actually drop those leaves, and they drop them early when rust is loud.

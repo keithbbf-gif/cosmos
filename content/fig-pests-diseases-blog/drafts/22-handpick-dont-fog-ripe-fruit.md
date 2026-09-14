@@ -31,6 +31,13 @@ zone: 8a
 ---
 I have watched a person oil up a backpack sprayer while the figs were already soft. That is not IPM. That is a residue you will argue with at the table.
 
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/beetles/green-june-beetle-cc-by-sa.jpg" alt="Green June beetle on fruit — hand-pick ripe figs instead of fogging the canopy">
+<figcaption>Figure 1. Green June beetle on fruit — hand-pick ripe figs instead of fogging the canopy. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 UC’s fig-beetle guideline did not recommend chemicals. Their sour-rot guideline did not recommend a yeasticide. NC State’s green June note is a turf-and-ornamental chapter, not a permission slip to carbaryl a jam crop. I will not name a fruit-tree cocktail. I will not write PHI math for a product I am not putting on this site.
 
 The honest tools in a backyard 8a week are ugly: your hands, a bucket, a morning alarm, a trash run.

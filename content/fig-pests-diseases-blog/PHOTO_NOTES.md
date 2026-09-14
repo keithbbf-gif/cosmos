@@ -30,3 +30,11 @@ These drafts are **staged**. Photos can wait. The captions in front matter are a
 ## Public-domain fills (last resort)
 
 USDA or Wikimedia Commons **PD / CC0** only. URL + license in the media caption. Prefer Scot Nelson rust / mosaic photos already credited on extension pages if license is clear — **[VERIFY]** before upload.
+
+## Graphics lane (PR #302)
+
+Staged rasters live in `assets/images/` with credits in **`RIGHTS.md`**. Each draft should carry a `<figure>` with SEO `alt` + `<figcaption>` plus an HTML comment:
+
+`<!-- orchard_slot: D:\FIGS\<folder_pick> — hero still before publish -->`
+
+**Order of operations:** walk `D:\FIGS` folders in the table above → drop Keith stills into WordPress → only then retire the Commons fill. Never caption a PD fruit photo as a named variety. Nematode tomato-root CC0 fills are intentional: same gall biology, not a rare fig name.

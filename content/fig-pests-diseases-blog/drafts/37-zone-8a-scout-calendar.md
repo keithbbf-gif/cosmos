@@ -29,6 +29,13 @@ zone: 8a
 ---
 This is a walk, not a spray card. If you came for copper every two weeks, the copper draft already told you no. If you came for a mosaic protocol, that draft told you no. This page is when I look, and what I refuse to mash.
 
+
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/rust/cerotelium-fici-leaf-cc0.jpg" alt="Fig rust in late summer — one line on an 8a scout calendar">
+<figcaption>Figure 1. Fig rust in late summer — one line on an 8a scout calendar. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 South Arkansas **8a**. Sticky August. A freezer that will still surprise a fig that rust-flushed in October. Clay in one hole and sand in the next. Your parish is allowed to be two weeks off. **[VERIFY]** your own frost dates. I am talking from this yard.
 
 I put names on months so I stop buying the wrong bottle in the wrong week. I do not put rates on months. LSU Pub. 1802 in 2025 said no fungicides labeled for figs in Louisiana. UAEX’s rust note still talks historic copper when first leaves are full size. Those sentences can sit on the same wall. They do not become a hose calendar.

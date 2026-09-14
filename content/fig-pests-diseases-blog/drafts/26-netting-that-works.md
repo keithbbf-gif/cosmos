@@ -32,6 +32,13 @@ zone: 8a
 ---
 I threw a cheap net over a young turkey one July and called it done. By the second morning a fig on the edge had a peck through the cloth. By the third I had a fold that held a lizard I did not mean to keep. I took the net off and built a frame. That is the whole sermon in one week.
 
+
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/diagnosis/fig-fruit-halved-reference.jpg" alt="Ripe fig — netting has to touch the ground, not just drape the shoulders">
+<figcaption>Figure 1. Ripe fig — netting has to touch the ground, not just drape the shoulders. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 Ferguson’s 2025 LSU note is the sentence I will not decorate. Scare tactics fade. **Bird netting is the most reliable way** to protect figs, blueberries, grapes. Frame is ideal. Net can rest on the plant if you accept losses on the outer fruit. Stake or weight every edge so birds do not walk under.
 
 Walter Reeves said the same in Georgia: pie pans rarely work; cover the plant; take the net off after fruiting.

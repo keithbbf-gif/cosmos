@@ -30,6 +30,13 @@ zone: 8a
 ---
 This page is for the search that wants a backyard war. Black fig fly: what it is, what we do from Arkansas. Not a Facebook rumor. Not a claim that it is in the county.
 
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/biosecurity/oriental-fruit-fly-cc.jpg" alt="Exotic fruit fly — why Arkansas readers should know Bactrocera reports">
+<figcaption>Figure 1. Exotic fruit fly — why Arkansas readers should know Bactrocera reports. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 I will say the hard sentence first, because search traffic likes a scare and I will not feed it.
 
 **I will not say Black fig fly (*Silba adipata*) is established in South Arkansas.** I will not say it is in my parish. I will not say it is “probably here” because a photo in a group looked dark and winged. If that status changes, a dated agency page should say so. **[VERIFY]** APHIS, your state department of agriculture, and the county before you tattoo a Latin name on a neighbor.

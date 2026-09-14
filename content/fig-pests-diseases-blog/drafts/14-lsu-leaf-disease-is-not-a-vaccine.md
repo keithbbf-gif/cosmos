@@ -30,6 +30,13 @@ zone: 8a
 ---
 The LSU fig program was built in air like ours. That matters. It does not mean a purple fruit is a fungicide.
 
+
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/rust/cerotelium-fici-leaf-cc0.jpg" alt="Rust on fig leaves — LSU resistance is relative, not immunity">
+<figcaption>Figure 1. Rust on fig leaves — LSU resistance is relative, not immunity. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 I like those names. I grow in the same sticky county class they were selected for. I will still rake under an LSU tree. I will still refuse the sentence “I planted Purple so I do not get rust.”
 
 I heard that sentence in a nursery aisle with a wet cardboard pot in my hand. The tag said improved. The clerk said LSU. The man behind me said he does not spray because he planted Purple. I put the pot in the cart anyway. I did not put his sentence in the cart. August would grade both of us.

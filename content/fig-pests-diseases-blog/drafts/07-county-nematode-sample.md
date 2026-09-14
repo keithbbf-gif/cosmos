@@ -31,6 +31,13 @@ zone: 8a
 ---
 I can tell you when a root is a necklace. I cannot tell you the species count in the next thirty feet of sand from a cropped photo. Those are different jobs. The first is a grower job. The second is a clinic job. Facebook will do both for free and be wrong about the one that matters for a whole row.
 
+
+<!-- orchard_slot: D:\FIGS\Greenhouse photos — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/nematodes/meloidogyne-usda-ars-cc-by.jpg" alt="Root-knot nematode on a root — what a county soil sample is actually looking for">
+<figcaption>Figure 1. Root-knot nematode on a root — what a county soil sample is actually looking for. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 UF/IFAS is clear that root-knot galls are a visual. LSU AgCenter Pub. 1802 is clear that eggs sit in soil and juveniles enter roots. A group thread is clear about nothing except that somebody’s uncle used cinnamon.
 
 If you are deciding whether to put a collection in a hole, I want a better witness than a stranger zooming in on your knuckle.

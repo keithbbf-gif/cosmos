@@ -32,6 +32,13 @@ zone: 8a
 ---
 I kicked a fruit dump last March and the dirt moved. Not worms. Fat white grubs the size of a thumb joint, on their backs, working a mattress of last August’s figs I had “fed the soil” with. Zone **8a** South Arkansas will grow a compost pile whether you mean to or not. A two-inch rain in late summer, then heat that steams the drip line, then a necklace you were too tired to pick — that is a nursery with a street address.
 
+
+<!-- orchard_slot: D:\FIGS\Outdoor — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/beetles/green-june-beetle-cc-by-sa.jpg" alt="Green June beetle adult — compost and organic matter feed the grub cycle">
+<figcaption>Figure 1. Green June beetle adult — compost and organic matter feed the grub cycle. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 NC State said green June beetle females like moist organic soil for eggs. UC said fig-beetle larvae eat organic matter on the surface and that a dry, hard surface makes adult life harder. Those are different species and different states. The backyard rhyme is the same: **a wet, sweet pile under the fig is a nursery.**
 
 I compost. I will not pretend I do not. I compost away from the drip line. I do not bury a necklace of sour figs against the trunk and call it feeding the tree.

@@ -30,6 +30,13 @@ zone: 8a
 ---
 I need this in one hard page because the algorithm will offer you a protocol.
 
+
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/mosaic/fig-mosaic-leaf-cc-by-sa.jpg" alt="Mosaic-affected fig leaf — viruses and mites do not rinse off with a hose">
+<figcaption>Figure 1. Mosaic-affected fig leaf — viruses and mites do not rinse off with a hose. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 There is no backyard spray that removes fig mosaic disease from a tree. Not neem. Not oil. Not a compost tea. Not a peroxide fog. Not a “systemic” jug from the fruit-tree shelf. Not a heat lamp over a pot. UC IPM wrote the residential rule: no practical control. Replace the tree if it will not perform.
 
 Florida’s older fig notes said there are no chemical recommendations for the virus. Oils may be talked about for mites. That is a different sentence.

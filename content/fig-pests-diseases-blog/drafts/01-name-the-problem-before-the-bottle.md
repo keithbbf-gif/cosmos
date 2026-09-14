@@ -33,6 +33,13 @@ zone: 8a
 ---
 I have stood in a driveway in August with a neighbor holding a yellow leaf like a warrant. He wanted a bottle. He had already bought one. The tree was still tired.
 
+
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/diagnosis/fig-fruit-halved-reference.jpg" alt="Halved common fig showing pulp and ostiole — start with the symptom, not the spray bottle">
+<figcaption>Figure 1. Halved common fig showing pulp and ostiole — start with the symptom, not the spray bottle. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 A fig in zone **8a** will hand you five different problems that look like “the tree is sick” if you only glance from the porch. Root-knot nematodes. Fig rust. Mosaic that has been in the wood since somebody’s grandmother. Beetles opening ripe fruit. Birds writing the harvest calendar in pecks. Wet feet will fake all of them. So will a late freeze stub. If you spray first, you spend money on the wrong animal.
 
 [Pick The Right Fig](https://figroots.com/2025/07/02/pick-the-right-fig-for-you/) already gave you the one-line version of the big ones. This piece is the habit I want before anyone walks into a farm store: **name it**.

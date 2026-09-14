@@ -32,6 +32,13 @@ zone: 8a
 ---
 The Panhandle extension piece I keep coming back to is not kind, which is why I trust it. *Fig Leaves Dropping Early?* — UF/IFAS, 18 September 2017. Warm humid weather. *Cerotelium fici*. Then the line growers skip: once you see those yellowish-green to reddish-brown spots, **it is too late to provide any control**.
 
+
+<!-- orchard_slot: D:\FIGS\Figs-summer-23 — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/rust/cerotelium-fici-leaf-cc0.jpg" alt="Yellow and rusty angular spots on fig foliage — fungicide is usually late once this is loud">
+<figcaption>Figure 1. Yellow and rusty angular spots on fig foliage — fungicide is usually late once this is loud. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 People hate that sentence. It makes a jug feel stupid. The jug was already stupid if the leaf is a map.
 
 I stood in a driveway in early September with a man who had just bought the jug. The canopy behind him was already a yellow-brown quilt. Fruit was sizing. He wanted a rescue. I asked him when he first saw flecks. He thought June. He had been watching the figs, not the undersides. The schedule was written in June. September was a receipt.
