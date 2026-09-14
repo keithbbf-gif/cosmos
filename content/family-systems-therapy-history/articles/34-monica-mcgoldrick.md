@@ -16,7 +16,7 @@ citations:
   - "Carter, Betty, and Monica McGoldrick, eds. The Changing Family Life Cycle. various editions."
   - "McGoldrick, Monica, ed. Revisioning Family Therapy. 1998."
 status: draft
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -63,14 +63,6 @@ The Multicultural Family Institute is a public address. Do not scrape its photog
 ## Portrait
 
 Type only. Living.
-
-## Week fourteen is a choice
-
-If she is in week fourteen and Bowen is in weeks one through six, you have told the truth about your map. Change the weeks or admit the map. 1982 ethnicity. 1985 genograms. Life cycle with Carter. Living 2026. No blank genogram on this page. No Institute scrape.
-
-Irish-American patterns in her public writing are public. They are not a personality profile. Unmarked ethnicity in the clinician is the habit to steal. Assigning a chapter to a person in the chair is the habit to refuse. Boyd-Franklin and Falicov are why a 1985 drawing still needs neighbors. Date the drawing. Erase it when the room changes.
-
-Pearce and Giordano share the 1982 cover. Gerson shares the 1985 cover. Carter shares the life-cycle spine. Four names, one living writer this pack will not reduce to a drawing. Living 2026. Change the syllabus weeks or admit the map. Erase the map when the room changes.
 
 ## Later editions; *Revisioning Family Therapy*, 1998
 

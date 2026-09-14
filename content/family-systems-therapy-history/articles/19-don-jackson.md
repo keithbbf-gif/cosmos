@@ -15,7 +15,7 @@ citations:
   - "Jackson, Don D., ed. The Etiology of Schizophrenia. 1960."
   - "Watzlawick, Paul, Janet Beavin Bavelas, and Don D. Jackson. Pragmatics of Human Communication. 1967."
 status: draft
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

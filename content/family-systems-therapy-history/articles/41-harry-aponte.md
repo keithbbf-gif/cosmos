@@ -16,7 +16,7 @@ citations:
   - "Aponte, Harry J. Bread & Spirit: Therapy with the New Poor. 1994."
   - "Aponte, Harry J., and Karni Kissil. The Person of the Therapist Training Model. 2016."
 status: draft
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -50,27 +50,11 @@ The usable inheritance is a refusal of the weightless boundary. Minuchin moved c
 
 The general psychotherapy pack does not give him a figure essay. The family-systems deep lane does, because Philadelphia without Aponte is a director and a Harvard book, and because the field's afterlife in community clinics needs a name that is not only Minuchin.
 
-Vital dates: confirm before live print `[VERIFY]`. The 1994 book is the date this draft will stand on.
-
-## 1994, Norton, bread and a spirit the clinic waited out
-
-Norton printed *Bread & Spirit* in a decade of manuals and managed care. Poverty and faith are unfashionable billing categories. He wrote them into a structural hour anyway. Philadelphia training is the payroll that made the book possible. Wiltwyck had known the street and written "slums." He wrote a present tense.
-
-Confirm vital dates before live print. Treat as no-scrape. No "inner city" stock. No sermon.
-
-The person of the therapist — hunger and spirit in the hour — is a public theme in his later writing. Public is allowed. A workshop about self-disclosure is not this pack's job. A small-city clinician can ask what a structural word costs in rent. That question is the 1994 remainder. WOW Therapies is not an Aponte franchise.
+Vital dates: confirm before live print `[VERIFY]`. The 1994 book is the date this draft will stand on. Norton printed *Bread & Spirit* in a decade of manuals and managed care — poverty and faith are unfashionable billing categories, and he wrote them into a structural hour anyway. What does a structural word cost in rent? That question is the 1994 remainder. Bread in the title is a grocery fact first.
 
 ## Portrait
 
 Type only.
-
-## 1994 in a decade of managed care
-
-Norton printed poverty and faith when billing preferred a code. Philadelphia training made the book possible. Wiltwyck had written "slums." He wrote a present tense. Confirm vital dates. No scrape. No inner-city stock. No sermon.
-
-What does a structural word cost in rent. That is the question. Self-disclosure workshops are not this pack. Bread is not a metaphor when a household is hungry. Spirit is not an embarrassment the clinic waits out. WOW Therapies is not a franchise. Type only.
-
-Norton 1994. Philadelphia payroll. Confirm vital dates before live print. Poverty is not a metaphor when the rent is due. Faith is not a wait-out. Structural words cost money. No scrape. No sermon. No inner-city stock. Bread in the title is a grocery fact first.
 
 ## 1976 *Family Process*; person-of-the-therapist as a later model
 
@@ -79,6 +63,14 @@ Aponte's "The Family-School Interview: An Eco-Structural Approach" appeared in *
 He was on staff at the Philadelphia Child Guidance Clinic in the Minuchin years and remained a Philadelphia teacher after the directorship changed. The clinic is the institutional ancestor. *Bread & Spirit* is not a second *Families of the Slums*. 1967 was Wiltwyck's sample in a Basic Books cloth. 1994 is a present-tense poor in a Norton cloth. Date both.
 
 Vital dates remain `[VERIFY]` until an authority file is checked. Treat as no-scrape. Living or recently living as of 2026-09-14. No institute phone number as if it were a 1961 GPO monograph. No inner-city stock.
+
+## Managed care, faith, and the person behind the boundary
+
+Norton printed poverty and faith when billing preferred a code. Philadelphia training made *Bread & Spirit* possible: a structural lineage that had already learned, at Wiltwyck, to write "slums" as a sample and then, in Palo Alto workshops, to write professional families as the portable case. Aponte is one of the clinicians who kept the first sample from becoming a career-starting story you leave behind.
+
+The person-of-the-therapist theme in his later writing — hunger and spirit in the hour — can be serious. It can also become a workshop about self-disclosure. This pack will not run the workshop. A small-city clinician can ask what a structural word costs in rent and what a welfare office visit costs in dignity. Spirit is not an embarrassment the clinic waits out. Bread is not a metaphor when a household is hungry.
+
+Feminist readers will ask who, in a poor household, is doing the organizing. The revolt essay still applies. Bread and spirit can be a woman's unpaid week. Boyd-Franklin, Falicov, and Hardy are neighbors on this calendar; do not collapse them into "diversity." Poverty is a class fact. Race is a race fact. Faith is a faith fact. His title named two of the three and implied the street.
 
 ## Sources
 

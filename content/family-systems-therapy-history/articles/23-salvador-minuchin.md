@@ -14,7 +14,7 @@ citations:
   - "Minuchin, Salvador. Families and Family Therapy. 1974."
   - "Minuchin, Salvador, Bernice L. Rosman, and Lester Baker. Psychosomatic Families. 1978."
 status: draft
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

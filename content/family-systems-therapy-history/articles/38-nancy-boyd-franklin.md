@@ -15,7 +15,7 @@ citations:
   - "Boyd-Franklin, Nancy, and Brenna Hafer Bry. Reaching Out in Family Therapy. 2000."
   - "Boyd-Franklin, Nancy. Black Families in Therapy. 2nd ed. 2003."
 status: draft
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

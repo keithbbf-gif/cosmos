@@ -17,7 +17,7 @@ citations:
   - "Watzlawick, Paul, John Weakland, and Richard Fisch. Change. 1974."
   - "Weakland, John, et al. Brief Therapy: Focused Problem Resolution. 1974."
 status: draft
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

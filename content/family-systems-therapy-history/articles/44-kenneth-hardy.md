@@ -14,7 +14,7 @@ citations:
   - "Hardy, Kenneth V., and Toby Bobes, eds. Culturally Sensitive Supervision and Training. 2016."
   - "McGoldrick, Monica, ed. Revisioning Family Therapy. 1998."
 status: draft
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -50,27 +50,11 @@ WOW Therapies is a Southeast Arkansas clinic. Heritage education here is not a c
 
 The general psychotherapy pack's liberation essay (Fanon, Martín-Baró) is a neighbor and a different lane. Do not reprint Fanon here. Hardy is a family-therapy-hour writer, not a substitution for a decolonial syllabus. Complementary packs should not steal each other's dead.
 
-Public books and lectures only. If a later editor cannot match a title to a catalogue, mark `[VERIFY]` and keep the sentence that does not depend on it: he made race a present-tense subject in a field that preferred a 1956 origin myth.
-
-## Public lectures, a present tense, no fake C.V.
-
-Drexel, the Eikenberg Institute, papers with Tracey Laszloffy, later books in catalogues — confirm each title and year before a live page grows a finished-looking list. This draft will not invent completeness. Living 2026. No scrape. No handshake stock.
-
-The unmarked clinician is the habit. "They" for the family and none for the self is the tell. Noticing is not a certificate. A race dialogue list is a protocol this series will not print.
-
-Fanon and Martín-Baró stay in the general psychotherapy pack. Hardy stays in the family hour. Complementary packs should not steal each other's dead. This calendar ends on a living writer on purpose. The argument is not archival. A heritage series that stops at 1978 Milan has chosen a comfort. Forty-four was the count. The last chair is not a diversity paragraph. It is a present tense.
+Public books and lectures only. If a later editor cannot match a title to a catalogue, mark `[VERIFY]` and keep the sentence that does not depend on it: he made race a present-tense subject in a field that preferred a 1956 origin myth. Fanon and Martín-Baró stay in the general psychotherapy pack; Hardy stays in the family hour. Complementary packs should not steal each other's dead.
 
 ## Portrait
 
 Type only. Living.
-
-## Confirm the catalogue, keep the present tense
-
-Laszloffy papers, later books, Drexel, Eikenberg — confirm each before a live list. Do not invent completeness. Living 2026. No scrape. No handshake. No race-question protocol.
-
-The unmarked self is the tell. Fanon stays in the other pack. Hardy stays in the hour. This calendar ends living on purpose. Forty-four was the count. The last chair is not a closing paragraph titled diversity. It is a refusal to let 1956 be the end of the argument.
-
-Confirm Drexel, Eikenberg, Laszloffy, later titles. Living 2026. Present tense. Unmarked self. No protocol list. Fanon stays in the other pack. This pack ends here on purpose. 1956 is a date. It is not a finish line. Type only.
 
 ## 2005 *Teens Who Hurt*; 2016 supervision book
 
@@ -78,7 +62,9 @@ Confirm Drexel, Eikenberg, Laszloffy, later titles. Living 2026. Present tense. 
 
 Chapters in McGoldrick's *Revisioning Family Therapy* (Guilford, 1998 and later) are the other stable citations. Confirm chapter titles against the edition on the desk. Drexel University's couple and family therapy program and the Eikenberg Academy for Social Justice are later public addresses; URLs move. Prefer a dated book.
 
-Living 2026. No fee scrape. No handshake stock. Fanon stays in the general psychotherapy pack. This calendar ends on a living family-hour writer on purpose. 1956 is a date. It is not a finish line.
+This calendar ends on a living writer on purpose. Forty-four was the count. The last chair is not a closing paragraph titled "diversity." It is a refusal to let 1956 be the finish line for an argument that is still in the room. Drexel, Eikenberg, Laszloffy collaborations, and later catalogue titles should be confirmed before a live page grows a finished-looking list; fake completeness is worse than an honest `[VERIFY]`. Living 2026. No fee scrape. No handshake stock. No race-dialogue protocol.
+
+Narrative therapy's cheaper version externalizes oppression as a cartoon character a person can outwit in four sessions. Hardy's public argument is one reason this pack told that version to sit down. A thin story about racism is still a thin story. The unmarked clinician is the habit: "they" for the family and none for the self. Noticing is not a certificate. A race-dialogue list is a protocol this series will not print. Public lectures are public; they are not this pack's worksheet. Confirm each catalogue title before live print.
 
 ## Sources
 

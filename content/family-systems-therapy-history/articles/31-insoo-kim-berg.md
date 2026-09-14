@@ -15,7 +15,7 @@ citations:
   - "De Jong, Peter, and Insoo Kim Berg. Interviewing for Solutions. 1998."
   - "Berg, Insoo Kim, and Therese Steiner. Children's Solution Work. 2003."
 status: draft
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

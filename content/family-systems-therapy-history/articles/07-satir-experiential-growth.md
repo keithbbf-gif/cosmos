@@ -15,7 +15,7 @@ citations:
   - "Satir, Virginia. Peoplemaking. 1972."
   - "Napier, Augustus Y., and Carl Whitaker. The Family Crucible. 1978."
 status: draft
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

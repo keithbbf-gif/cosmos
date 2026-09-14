@@ -16,7 +16,7 @@ citations:
   - "Bell, John Elderkin. Family Group Therapy. Public Health Monograph 64. 1961."
   - "Bowlby, John. The Study and Reduction of Group Tensions in the Family. 1949."
 status: draft
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

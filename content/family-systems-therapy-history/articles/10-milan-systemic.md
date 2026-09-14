@@ -14,7 +14,7 @@ citations:
   - "Selvini Palazzoli, Mara, Luigi Boscolo, Gianfranco Cecchin, and Giuliana Prata. Paradox and Counterparadox. 1978."
   - "Cecchin, Gianfranco. Hypothesizing, Circularity, and Neutrality Revisited. 1987."
 status: draft
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

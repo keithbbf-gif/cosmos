@@ -15,7 +15,7 @@ citations:
   - "Johnson, Susan M. The Practice of Emotionally Focused Couple Therapy. 1996."
   - "Johnson, Sue. Hold Me Tight. 2008."
 status: draft
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -49,27 +49,11 @@ The usable inheritance is a dated school, not a booking argument. WOW Therapies 
 
 Ottawa is not Palo Alto. The late century's research university is not MRI's nonprofit shop. Johnson's career is what happens when a field that began as a revolt against individual psychiatry starts filling out outcome forms. Filling out forms is not a sin. Forgetting why the revolt happened is.
 
-1947 `[VERIFY]`, EFT papers, 2008 book, living 2026. The rest stays off the page.
-
-## Ottawa, outcome tables, a 2008 bookstore book
-
-Emotionally focused couple therapy is a late-century university object: papers, manuals, a public book. Ottawa is not Palo Alto. Alliant and other training sites are later addresses. Confirm 1947 before live print. Living 2026. No hold-me-tight exercise on a heritage page.
-
-Bowlby is the ancestor; the general psychotherapy pack owns that life. This essay owns the couples-course event: attachment as a loop you could name in an hour without a Haley task. Naming a loop is not cute when someone is afraid to go home. If someone is in danger, call local emergency services.
-
-Portability and thinness arrived together, as they did for MST. A fidelity checklist can prevent freelance harm. It can also hide money, race, and a bruise behind a pursuer-withdrawer diagram. Date the papers. Do not rank the school as the official best couples therapy. WOW Therapies is not advertising it.
+A commonly printed birth year is 1947 `[VERIFY]`; EFT papers, the 2008 bookstore book, living 2026. The rest stays off the page. Portability and thinness arrived together, as they did for MST: a fidelity checklist can prevent freelance harm and can also hide money, race, and a bruise behind a pursuer-withdrawer diagram. Date the papers. Do not rank the school as the official best couples therapy.
 
 ## Portrait
 
 Type only. Living.
-
-## A couples course, not a 1956 reunion
-
-EFT is why a 2000s student met attachment in a couples hour. Bowlby's life stays in the other pack. Outcome papers are dated events, not a slogan that the method wins. *Hold Me Tight* (2008) is a bookstore book, not a clinic. Confirm 1947. Living 2026. No exercise. No scrape.
-
-Pursuer and withdrawer can describe a loop and hide a bruise. If someone is in danger, call local emergency services. Money and race can hide in the same loop. Hare-Mustin and Hardy are on the shelf. WOW Therapies is not advertising a couples program. History is not a menu.
-
-Ottawa papers first, bookstore 2008 second. Confirm 1947. Living 2026. Attachment as a couples loop is the course event. Bowlby's war nurseries stay in the other pack. No hold. No slogan that the method wins. No pairing with a booking keyword.
 
 ## 1988 Greenberg & Johnson; ICEEFT as a later institute
 
@@ -78,6 +62,14 @@ The couples model begins in print as Leslie S. Greenberg and Susan M. Johnson, *
 The International Centre for Excellence in Emotionally Focused Therapy (ICEEFT) later organized certified training. An institute is not a 1958 storefront and not a 1966 MRI brief center. This pack will say an institute exists. It will not print a 2026 fee schedule or a hold-me-tight exercise.
 
 Ottawa Couple and Family Institute is the earlier Canadian address. Alliant International University appears on later public academic pages; confirm a title before a live C.V. block. A commonly printed birth year is 1947 `[VERIFY]`. Living 2026. Attachment language here is a couples-course event. Bowlby's war nurseries stay in the general psychotherapy pack.
+
+## Ottawa, attachment loops, and what a diagram can hide
+
+Emotionally focused couple therapy is a late-century university object: papers, manuals, a public book. Ottawa is not Palo Alto. Johnson's career is what happens when a field that began as a revolt against individual psychiatry starts filling out outcome forms. Filling out forms is not a sin. Forgetting why the revolt happened is.
+
+Bowlby is the ancestor; the general psychotherapy pack owns that life. This essay owns the couples-course event: attachment as a loop you could name in an hour without a Haley task. Naming a loop is not cute when someone is afraid to go home. Pursuer and withdrawer can describe a pattern and hide a bruise. Hare-Mustin and Hardy are on the shelf for that reason. If someone is in danger, call local emergency services.
+
+*Hold Me Tight* (2008) is a bookstore book, not a clinic. This page will not print a hold-me-tight exercise. WOW Therapies is not advertising a couples program. History is not a menu. Outcome papers are dated events, not a slogan that the method wins.
 
 ## Sources
 

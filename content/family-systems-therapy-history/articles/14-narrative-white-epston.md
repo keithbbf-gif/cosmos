@@ -16,7 +16,7 @@ citations:
   - "White, Michael. Maps of Narrative Practice. 2007."
   - "Freeman, Jennifer, David Epston, and Dean Lobovits. Playful Approaches to Serious Problems. 1997."
 status: draft
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

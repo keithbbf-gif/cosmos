@@ -13,7 +13,7 @@ citations:
   - "Walters, Marianne, Betty Carter, Peggy Papp, and Olga Silverstein. The Invisible Web. 1988."
   - "Smith College. Betty Carter papers finding aid."
 status: draft
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

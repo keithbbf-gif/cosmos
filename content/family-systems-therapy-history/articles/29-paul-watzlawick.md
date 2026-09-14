@@ -14,7 +14,7 @@ citations:
   - "Watzlawick, Paul, Janet Beavin Bavelas, and Don D. Jackson. Pragmatics of Human Communication. 1967."
   - "Watzlawick, Paul, John Weakland, and Richard Fisch. Change. 1974."
 status: draft
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -58,15 +58,13 @@ Janet Beavin Bavelas later continued experimental work on communication that is 
 
 His dryness is an ethic if it serves accuracy. It is a cruelty if it serves being the smartest person behind glass. This pack will keep saying that, because MRI's failure mode is popular among people who liked his jokes. Jokes are not methods. Date 1967. Leave the dinner-table diagnosis.
 
+Beavin, Jackson, Weakland, and Fisch crowd his pages because the institute was crowded. "Watzlawick said" is a later flattening. Complementary-as-polite-patriarchy is the feminist remainder named in the revolt essay. Dryness-as-accuracy is the usable remainder. Dinner-table diagnosis is the refuse list.
+
+Irony in *Pragmatics* is a style. Irony in a one-way room can be a cruelty. Zürich is not a secret second career; it is a European education that included a school the general psychotherapy pack treats as a church. He left and kept the irony. Date 1960 as the MRI arrival, 1967 as the spine, 2007 as the Palo Alto death. Three names on the 1967 cover. Say them on the syllabus, not as a solo.
+
 ## Portrait
 
 Type only.
-
-## Jung Institute, then a refusal of the church
-
-Zürich is not a secret second career. It is a European education that included a school the general psychotherapy pack treats as a church. He left and kept the irony. Irony in *Pragmatics* is a style. Irony in a one-way room can be a cruelty. Date 1960 as the MRI arrival. Date 1967 as the spine. Date 2007 as the Palo Alto death.
-
-Beavin, Jackson, Weakland, Fisch — his pages are crowded with names. Crowded is accurate. "Watzlawick said" is a later flattening. Complementary-as-polite-patriarchy is the feminist remainder. Dryness-as-accuracy is the usable remainder. Dinner-table diagnosis is the refuse list. Villach, 1921. Three names on the 1967 cover. Keep them.
 
 ## Sources
 

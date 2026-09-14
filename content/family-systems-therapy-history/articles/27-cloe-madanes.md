@@ -12,7 +12,7 @@ portrait: none
 citations:
   - "Madanes, Cloé. Strategic Family Therapy. 1981."
 status: draft
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

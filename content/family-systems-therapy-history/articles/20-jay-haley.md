@@ -14,7 +14,7 @@ citations:
   - "Haley, Jay. Uncommon Therapy. 1973."
   - "Haley, Jay. Problem-Solving Therapy. 1976."
 status: draft
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

@@ -13,7 +13,7 @@ citations:
   - "Ackerman, Nathan W. The Psychodynamics of Family Life. 1958."
   - "Family Process 1, no. 1. 1962."
 status: draft
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

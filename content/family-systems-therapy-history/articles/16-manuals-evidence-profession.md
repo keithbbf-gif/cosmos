@@ -17,7 +17,7 @@ citations:
   - "Broderick, Carlfred B., and Sandra S. Schrader. AAMC to AAMFT institutional history."
   - "Johnson, Susan M. The Practice of Emotionally Focused Couple Therapy. later editions."
 status: draft
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

@@ -14,7 +14,7 @@ citations:
   - "Boszormenyi-Nagy, Ivan, and Geraldine M. Spark. Invisible Loyalties. 1973."
   - "Boszormenyi-Nagy, Ivan, and Barbara R. Krasner. Between Give and Take. 1986."
 status: draft
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

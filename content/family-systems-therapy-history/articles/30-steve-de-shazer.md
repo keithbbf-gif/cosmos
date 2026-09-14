@@ -16,7 +16,7 @@ citations:
   - "de Shazer, Steve. Words Were Originally Magic. 1994."
   - "de Shazer, Steve, et al. More Than Miracles. 2007."
 status: draft
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

@@ -14,7 +14,7 @@ citations:
   - "White, Michael, and David Epston. Narrative Means to Therapeutic Ends. 1990."
   - "Freeman, Jennifer, David Epston, and Dean Lobovits. Playful Approaches to Serious Problems. 1997."
 status: draft
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -48,29 +48,11 @@ The general psychotherapy pack does not give him a figure essay. This pack does,
 
 He has been, in public interviews, careful about not being the expert who owns the meaning. That care is easy to quote and hard to practice. Quoting it on a brand site as if the brand had achieved it would be a joke. WOW Therapies is hosting heritage education, not claiming a narrative program. Service pages are a different file.
 
-1944 `[VERIFY]`, Auckland, 1990 book, living 2026. The rest stays off the page until it is a public book.
-
-## Auckland, letters, a 1990 cover that has two names
-
-The Family Therapy Centre in Auckland is an address, not a suburb of Dulwich. Māori families' reasons to distrust a Pākehā clinic's story are a New Zealand fact this essay will not decorate and will not skip. Politics at the airport is the failure mode. Leave the motifs off the header.
-
-A commonly printed birth year is 1944. Confirm it. Living in 2026. Public books only. Do not mail a letter that is a performance. Do not scrape a photograph.
-
-The preposition is the ethic: documents *to* people, not only *about* them. Child guidance wrote about. He wrote to. A small-city clinician who never writes a "narrative letter" can still steal the preposition: if you write it down, could they hold it.
-
-White's 2008 death left him the living partner. Living partners get extra care, not extra myth. The 1990 book is the shared object. Later catalogues list later titles. Use the catalogues.
+A commonly printed birth year is 1944 `[VERIFY]`; confirm against a library authority file before a live page treats it as hard fact. Auckland, the 1990 book, living 2026. The rest stays off the page until it is a public book. White's 2008 death left Epston the living partner; living partners get extra care, not extra myth.
 
 ## Portrait
 
 Type only. Living.
-
-## Two names on a 1990 cloth, one living writer
-
-White and Epston, Norton, 1990. Auckland is not a suburb of Adelaide. Confirm 1944. Living 2026. Letters *to* people, not only *about* them. Do not mail a performance. Do not scrape a face. Do not decorate with motifs you cannot license.
-
-Māori families' distrust of a Pākehā clinic's story is a reason the politics stay in the hour. A white clinician's brand that uses the hour as spice has failed the 1990 book. Later catalogues list later titles; use them. The preposition is the remainder. Could they hold what you wrote.
-
-Confirm 1944 against an authority file. Living 2026. Family Therapy Centre, Auckland. Two names on the 1990 cloth. Letters to, not about. Māori distrust of a thin clinic story is a reason, not a motif. Paper a family can hold is the remainder. Performance in the mail is the refuse list.
 
 ## 1989 literate means; 1997 playful approaches
 
@@ -79,6 +61,14 @@ With White he issued *Literate Means to Therapeutic Ends* from Dulwich in 1989, 
 *Playful Approaches to Serious Problems: Narrative Therapy with Children and Their Families*, with Jennifer Freeman and Dean Lobovits (Norton, 1997), is the child-and-play wing most school counselors meet. Play in that book is not a license for a classroom skit named after a problem. The letters in the 1990s record were still documents a family could hold. Privacy statutes in later decades changed how letters travel. The ethic did not: write *to* people, not only *about* them, and do not mail a performance to someone who has not asked.
 
 Auckland's Family Therapy Centre remained his institutional address while White's was Dulwich in Adelaide. Two clinics, a Tasman between them, one 1990 cloth with two names. Later catalogues list further Epston titles; use the catalogues, not a workshop memory. A commonly printed birth year is 1944 `[VERIFY]`. Living at last verification, 2026. Public books only. No scrape.
+
+## Witness, audience, and the politics of a thin story
+
+Later narrative work asked communities to witness a person's preferred story. That move can be respectful when consent is real. It can also become a stage where a clinic performs reconciliation for an audience that was not in the room when the injury happened. The narrative-era essay in this pack names those ethics problems without running the room. Epston's name appears on some of the later training; history can say so and still refuse the franchise.
+
+The Family Therapy Centre in Auckland is an address, not a suburb of Dulwich. Māori families' reasons to distrust a Pākehā clinic's story are a New Zealand fact this essay will not decorate and will not skip. A white clinician's brand that uses the hour as spice has failed the 1990 book. Politics at the airport is the failure mode. Leave the motifs off the header.
+
+Students who cite "White, 1990" without Epston have not read the cover. Students who cite Epston without White have not read the partnership. Both errors show up on heritage pages that want a single hero. This pack keeps two names on one cloth and one living writer who still has a catalogue to update.
 
 ## Sources
 

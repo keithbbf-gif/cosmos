@@ -14,7 +14,7 @@ citations:
   - "Boss, Pauline. Loss, Trauma, and Resilience. 2006."
   - "Boss, Pauline. The Myth of Closure. 2021."
 status: draft
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -48,27 +48,11 @@ The usable inheritance is a permission not to close. Child guidance wanted a cau
 
 The general psychotherapy pack's trauma essay is a neighbor (Herman, shell shock, complex PTSD). Do not reprint it. Ambiguous loss is not only trauma, and trauma is not only ambiguous loss. Complementary packs should keep the nouns from eating each other.
 
-1934 `[VERIFY]`, 1999 book, living 2026. The rest stays off the page until it is a public book.
-
-## 1999, Harvard, a noun for an uncertified absence
-
-Harvard University Press, 1999: *Ambiguous Loss* is a university object a general reader can hold. Dementia, disappearance, migration, a missing soldier, a divorce that is not a death. Later talks applied the noun more widely. This page will not inventory every talk. It will not print a ritual.
-
-Confirm 1934 before live print. Living 2026. Minnesota and later addresses appear in public pages; confirm those too. No empty-chair stock.
-
-Nagy's ledger wants a fair account. Boss's noun wants you to stop demanding a death certificate the situation will not give. Both can be in one clinic. They are not the same homework. Do not force a last session on a family that cannot perform goodbye. The general-pack trauma essay is a neighbor, not a synonym.
+A commonly printed birth year is 1934 `[VERIFY]`; the 1999 Harvard book, living 2026. The rest stays off the page until it is a public book. Walsh's *Strengthening Family Resilience* (1998) sits one syllabus year before *Ambiguous Loss* — two refusals of a tidy last session. Nagy's ledger wants a fair account; Boss's noun wants you to stop demanding a death certificate the situation will not give. Do not force a last session on a family that cannot perform goodbye.
 
 ## Portrait
 
 Type only. Living.
-
-## 1999 next to 1998
-
-Walsh's resilience book is 1998. Boss's loss book is 1999. One syllabus year, two refusals of a tidy last session. Confirm 1934. Living 2026. No ritual. No empty-chair stock.
-
-Ambiguous loss is not only trauma, and trauma is not only ambiguous loss. The general-pack trauma essay is a neighbor. Nagy's ledger is a neighbor. Falicov's migration is a neighbor. Uncertified absence is this chair. Do not force goodbye. Do not assign forgiveness. If someone is in danger, call local emergency services.
-
-Harvard 1999. Confirm 1934. Living 2026. Dementia, disappearance, deportation, a missing person: uncertified absence. Walsh 1998 is next door. Herman stays in the other pack. No ritual from a blog. No forced last session. No death certificate the situation will not give.
 
 ## 2006, 2011, 2021 — the noun after 1999
 
@@ -77,6 +61,14 @@ Harvard 1999. Confirm 1934. Living 2026. Dementia, disappearance, deportation, a
 University of Minnesota is the long academic address. Earlier research on families of missing military members, and later public talks after disasters (including families after September 11), are in the public lecture record. Do not invent a sample size. Do not scrape a talk still.
 
 A commonly printed birth year is 1934 `[VERIFY]`. Living 2026. Walsh's *Strengthening Family Resilience* (1998) sits one year before *Ambiguous Loss*. One syllabus season, two refusals of tidy goodbye. Herman's trauma essay stays in the general psychotherapy pack. Uncertified absence is this chair.
+
+## Harvard 1999 and neighbors on the shelf
+
+Harvard University Press, 1999: *Ambiguous Loss* is a university object a general reader can hold. Dementia, disappearance, migration, a missing soldier, a divorce that is not a death — situations that refuse a death certificate the culture still demands. Later talks applied the noun more widely. This page will not inventory every talk. It will not print a ritual from a blog.
+
+Ambiguous loss is not only trauma, and trauma is not only ambiguous loss. Nagy's ledger is a neighbor. Falicov's migration is a neighbor. Walsh's resilience book is next door on the 1998–1999 syllabus. Do not force goodbye. Do not assign forgiveness. Confirm 1934 and Minnesota addresses before live print. No empty-chair stock photograph.
+
+Child guidance wanted a cause. Strategic therapy wanted a Tuesday task. Boss wanted a name for a situation that will not obey either wish. Naming is not fixing. This series is in the naming business. Fixing is a licensed hour.
 
 ## Sources
 

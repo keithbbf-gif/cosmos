@@ -16,7 +16,7 @@ citations:
   - "Bateson, Gregory, et al. A Note on the Double Bind — 1962. 1963."
   - "Bateson, Gregory. Steps to an Ecology of Mind. 1972."
 status: draft
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

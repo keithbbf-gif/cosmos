@@ -16,7 +16,7 @@ citations:
   - "Bowen, Murray. On the Differentiation of Self. Presented 1967."
   - "Kerr, Michael E., and Murray Bowen. Family Evaluation. 1988."
 status: draft
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

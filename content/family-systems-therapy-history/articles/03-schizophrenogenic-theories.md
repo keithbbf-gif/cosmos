@@ -18,7 +18,7 @@ citations:
   - "Bateson, Gregory, et al. Toward a Theory of Schizophrenia. 1956."
   - "Vaughn, Christine, and Julian Leff. Expressed-emotion papers, 1970s."
 status: draft
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

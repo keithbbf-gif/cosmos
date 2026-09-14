@@ -13,7 +13,7 @@ citations:
   - "Satir, Virginia. Conjoint Family Therapy. 1964."
   - "Satir, Virginia. Peoplemaking. 1972."
 status: draft
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

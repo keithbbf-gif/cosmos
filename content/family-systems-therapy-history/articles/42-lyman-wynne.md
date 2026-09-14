@@ -12,7 +12,7 @@ portrait: none
 citations:
   - "Wynne, Lyman C., Irving M. Ryckoff, Juliana Day, and Stanley I. Hirsch. Pseudo-Mutuality in the Family Relations of Schizophrenics. 1958."
 status: draft
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

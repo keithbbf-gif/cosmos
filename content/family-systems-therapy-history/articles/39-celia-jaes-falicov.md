@@ -15,7 +15,7 @@ citations:
   - "Falicov, Celia Jaes. Training to Think Culturally. Family Process. 1995."
   - "Falicov, Celia Jaes. Latino Families in Therapy. 1998."
 status: draft
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -49,27 +49,11 @@ The usable inheritance is a map that does not pretend to be unmarked. WOW Therap
 
 The general psychotherapy pack does not give her a figure essay. The family-systems deep lane does, because migration is this lane's unfinished business in any clinic that sits on a road people actually move along — including a Southeast Arkansas road.
 
-MECA is an acronym students underline. Underlining is not a method. The 1998 book is the method's history. Read the book. Do not run a MECA worksheet from a blog.
-
-## 1998, Guilford, migration as a reorganization
-
-*Latino Families in Therapy* is a 1998 spine with later editions. MECA is an acronym this page will not turn into a worksheet. Migration reorganizes who is present, who sends money, who is the parent on which side of a border. A child interpreter is a job and sometimes a burden. Structural words without that map will choose "parentified" and call it science.
-
-San Diego and other academic addresses appear in public pages. Confirm before a live C.V. block. Living 2026. No decorative motifs. No stock photograph.
-
-Szapocznik's Miami manuals are a different address: fundable, brief, strategic-structural. Falicov is a theorist of context. This pack needs both on the profession essay's shelf and only one in this chair. Keep them straight. WOW Therapies is not advertising a program.
+MECA is an acronym students underline. Underlining is not a method. The 1998 book is the method's history. Read the book. Do not run a MECA worksheet from a blog. A child who interprets for parents carries a fatigue that structural labels can misname; pay a translator who is not a child when the household can afford one.
 
 ## Portrait
 
 Type only. Living.
-
-## MECA is an acronym, 1998 is a book
-
-Migration, ecology, family organization, life cycle — four words students underline. Underlining is not a method. The 1998 book is the history. Later editions argue with a field that prefers a festival. Confirm academic addresses. Living 2026. No motifs. No stock photograph.
-
-A child interpreter is a job and a burden. "Parentified" without a migration map is a 1974 word doing 1998 work badly. Szapocznik is a manual address. Falicov is a theory address. Visitors admit they are visitors. That is Minuchin's better knowledge written for households the glass had already watched.
-
-Guilford 1998, later editions. Migration as reorganization, not adjustment. Confirm addresses. Living 2026. A child interpreter has a fatigue. Pay a translator who is not a child. Admit you are a visitor. Szapocznik remains a different, manual address.
 
 ## 1988 *Family Transitions*; 1995 *Family Process* essay
 
@@ -78,6 +62,14 @@ Before the 1998 Guilford spine she edited *Family Transitions: Continuity and Ch
 The second edition (Guilford, 2014) expanded migration and transnational households for a later decade. Cite the edition on the desk. San Diego — including public affiliations with the University of California, San Diego, in later years — is the geography most catalogues name. Confirm a title before a live C.V. block. Living 2026.
 
 José Szapocznik's Miami brief strategic family therapy remains a fundable neighbor, not a synonym. Boss's ambiguous loss is a cousin noun for absence; do not merge the authors. Immigration legal advice is a different profession. This page will not run a MECA worksheet.
+
+## Guilford 1998 and what "culture week" missed
+
+*Latino Families in Therapy* (Guilford, 1998) put migration, ecology, and family organization in the same spine as clinical theory. That sounds obvious after McGoldrick's 1982 ethnicity volume and Boyd-Franklin's 1989 multisystems book. In 1998 it was still possible to teach a whole program in which Latino households appeared only as a festival in week twelve. Falicov's argument is that the map was already cultural and did not say so.
+
+Minuchin's "enmeshment" and Bowen's "cutoff" can misread a kinship that sleeps closer and calls more, or a kinship stretched across a border. The after-the-mirror essay in this pack is where consent and staff become an ethic. This figure essay is where the misread gets a name and a migration map. Szapocznik's Miami manuals are fundable, brief, strategic-structural — a different address on the shelf. Falicov is a theorist of context. Keep the addresses straight.
+
+San Diego and other academic affiliations appear in public pages. Confirm a title before a live C.V. block. Living 2026. No decorative motifs. No stock "Latin family" photograph. WOW Therapies is not advertising a Latino-family program. Heritage education is not a service menu.
 
 ## Sources
 

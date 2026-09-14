@@ -16,7 +16,7 @@ citations:
   - "Haley, Jay. Problem-Solving Therapy. 1976."
   - "Madanes, Cloé. Strategic Family Therapy. 1981."
 status: draft
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

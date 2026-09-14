@@ -15,7 +15,7 @@ citations:
   - "Hoffman, Lynn. Exchanging Voices. 1993."
   - "Hoffman, Lynn. Family Therapy: An Intimate History. 2002."
 status: draft
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
