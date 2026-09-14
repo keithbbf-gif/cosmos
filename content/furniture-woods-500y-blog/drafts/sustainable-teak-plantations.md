@@ -73,4 +73,4 @@ On a 1960 Copenhagen sideboard: older supply, oil, a honey that has gone brown; 
 
 USDA FPL, *Wood Handbook*, FPL-GTR-190 (teak; plantation mention). Kukachka FPL-125. CITES Species+ (negative for *Tectona*; *Pericopsis*, *Dalbergia*, *Swietenia* for contrast). USDA APHIS Lacey Phase VII. FSC / PEFC chain-of-custody (private, not law). TRAFFIC / national Myanmar–Indonesia export notes `[CITE NEEDED]`. Dutch Java plantation history `[CITE NEEDED: a named forestry monograph]`.
 
-See: `teak-colonial-dockyards`, `teak-deck-and-garden`, `cites-dalbergia-2017`, `cites-swietenia-permits`, `conservation-today`, `iroko-teak-lookalikes`.
+See: `teak-colonial-dockyards`, `teak-deck-and-garden`, `cites-dalbergia-2017`, `cites-swietenia-permits`, `conservation-today`.

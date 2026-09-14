@@ -78,7 +78,7 @@ The U.S. Lacey Act as amended in 2008, and APHIS Phase VII (1 December 2024), si
 
 Smell in a kerf, weight, a violet streak, a veneer line at the lockboard, poplar or pine inside, a Belter-type laminated back that is several leaves, not a solid slab. On an ebonized Victorian suite: often a finish on a paler hardwood, not ebony and not rosewood. On a new “rosewood parlor set” from an unnamed exporter: walk away unless the papers are boringly complete.
 
-Arkansas does not grow *Dalbergia*. The local dark hard woods are walnut and locust. They will not be rosewood. They do not need to be. The series includes this hour so a buyer can enjoy an old piano and not commission a new one from a genus that is now a legal third rail.
+Arkansas does not grow *Dalbergia*. The local dark hard woods are walnut and locust. They will not be rosewood. They do not need to be. Enjoy the old piano. Do not commission a new one from a genus that is now a legal third rail.
 
 ## Sources
 

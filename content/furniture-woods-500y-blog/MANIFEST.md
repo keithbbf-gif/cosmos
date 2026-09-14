@@ -11,7 +11,7 @@ Body word counts are tokens matching `[A-Za-z0-9']+` after YAML frontmatter, exc
 Band: 1,400–2,200. All items `status: draft`, `voice_check: human`.
 Canonical files: `drafts/<slug>.md`. Slug list: `writer-slugs.json`.
 
-Counted: 46 drafts. Total body words: 76,435.
+Counted: 46 drafts. Total body words: 76,512.
 
 | # | slug | title | words | file |
 |---|------|-------|------:|------|
@@ -19,7 +19,7 @@ Counted: 46 drafts. Total body words: 76,435.
 | 2 | `glossary-grain-and-cut` | Grain, cut, and the words shops actually use | 1566 | `drafts/glossary-grain-and-cut.md` |
 | 3 | `baltic-oak-renaissance` | Baltic oak and the Renaissance panel | 1659 | `drafts/baltic-oak-renaissance.md` |
 | 4 | `english-oak-great-furniture` | English oak and the great furniture | 1579 | `drafts/english-oak-great-furniture.md` |
-| 5 | `dutch-golden-age-shipping` | Dutch shipping and Golden Age timber | 1468 | `drafts/dutch-golden-age-shipping.md` |
+| 5 | `dutch-golden-age-shipping` | Dutch shipping and Golden Age timber | 1577 | `drafts/dutch-golden-age-shipping.md` |
 | 6 | `navy-oak-reserves` | Navy oak and the reserved forest | 1544 | `drafts/navy-oak-reserves.md` |
 | 7 | `american-colonial-pine` | American colonial pine | 1559 | `drafts/american-colonial-pine.md` |
 | 8 | `white-pine-softwood-economy` | White pine and the softwood economy | 1600 | `drafts/white-pine-softwood-economy.md` |
@@ -28,8 +28,8 @@ Counted: 46 drafts. Total body words: 76,435.
 | 11 | `mahogany-chippendale` | Mahogany and the Chippendale shop | 1526 | `drafts/mahogany-chippendale.md` |
 | 12 | `mahogany-federal-america` | Mahogany in Federal America | 1858 | `drafts/mahogany-federal-america.md` |
 | 13 | `mahogany-regency-empire` | Mahogany in the Regency and Empire hours | 1867 | `drafts/mahogany-regency-empire.md` |
-| 14 | `rosewood-victorian` | Rosewood in the Victorian parlor | 1756 | `drafts/rosewood-victorian.md` |
-| 15 | `rosewood-gothic-revival` | Rosewood and the Gothic Revival parlor | 1722 | `drafts/rosewood-gothic-revival.md` |
+| 14 | `rosewood-victorian` | Rosewood in the Victorian parlor | 1747 | `drafts/rosewood-victorian.md` |
+| 15 | `rosewood-gothic-revival` | Rosewood and the Gothic Revival parlor | 1699 | `drafts/rosewood-gothic-revival.md` |
 | 16 | `teak-colonial-dockyards` | Teak in the colonial dockyards | 1701 | `drafts/teak-colonial-dockyards.md` |
 | 17 | `teak-deck-and-garden` | Teak on the deck and in the garden | 1642 | `drafts/teak-deck-and-garden.md` |
 | 18 | `ebony-inlay-keys` | Ebony, inlay, and the piano key | 1754 | `drafts/ebony-inlay-keys.md` |

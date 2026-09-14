@@ -82,4 +82,4 @@ Arkansas does not grow *Dalbergia*. Oak, walnut, and cherry will do the mid-cent
 
 Kukachka, FPL-125, *D. nigra* and *D. latifolia*. USDA FPL-GTR-190. Dean, *With Broadax and Firebrand*. Copenhagen Cabinetmakers’ Guild exhibition literature; Fiell, *Scandinavian Design*. V&A plywood history (Jalk / Eames contrast). CITES App. I *D. nigra*; *Dalbergia* App. II, 2 January 2017, Annotation #15; *S. macrophylla* App. II, 15 November 2003. USDA APHIS Lacey Phase VII. Bowett on the earlier mahogany lane (contrast).
 
-See: `indian-rosewood-exports`, `rosewood-victorian`, `danish-modern-woods`, `cites-dalbergia-2017`, `plywood-and-core-stock`.
+See: `indian-rosewood-exports`, `rosewood-victorian`, `teak-deck-and-garden`, `cites-dalbergia-2017`, `plywood-and-core-stock`.

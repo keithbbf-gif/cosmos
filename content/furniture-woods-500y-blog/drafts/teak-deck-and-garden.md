@@ -73,4 +73,4 @@ Arkansas does not grow teak. A designer who wants the outdoor manners in a domes
 
 USDA FPL, *Wood Handbook*, FPL-GTR-190 (teak). Kukachka FPL-125. Traditional caulking practice (oakum / paying) `[CITE NEEDED: a named boatbuilding manual if quoting a compound]`. Danish modern surveys (Fiell; museum collections). Iroko / afrormosia notes in the lookalike chapter. CITES (negative for *Tectona*; Appendix II for *Pericopsis elata*). USDA APHIS Lacey binomial rule.
 
-See: `teak-colonial-dockyards`, `sustainable-teak-plantations`, `iroko-teak-lookalikes`, `danish-modern-woods`, `intro-500-year-timber`.
+See: `teak-colonial-dockyards`, `sustainable-teak-plantations`, `padauk-modernist-accents`, `brazilian-rosewood-midcentury`, `intro-500-year-timber`.

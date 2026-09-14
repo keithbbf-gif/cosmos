@@ -67,6 +67,8 @@ Figure 1’s later milestones — mahogany after 1721, CITES in the twentieth ce
 
 When the Republic’s great shipping hour tightens after 1672, the furniture trade does not stop. It changes suppliers and tastes. Walnut and later mahogany enter the polite room. Oak stays in the *kast* that already stood in the house. That is the same two-room story Macquoid told for England, told from a quay instead of a country-house corridor.
 
+A Zaan mill’s sash saw set a balk on a carriage and took boards a Haarlem joiner could plane into a door stile. The *kast* that results can stand in a canal house with a still-life of lemons on the wall while its interior smells of deal and linen. Open the lower door. Shelf cleats are nailed. Backboards run horizontal, often unsmoothed. Iron lock plates and drop handles are the hardware of a merchant cupboard, not a church press. A small ebony string on a later cabinet in the same room is a tropical accent on a Baltic body. Do not let the string rename the *kast*.
+
 ## Conservation
 
 Boreal and Baltic forestry is a climate and old-growth argument. Antique *wagenschot* in a *kast* is reuse by definition. New “reclaimed Baltic oak” should have a story that is not a container of mixed hardwood. FSC and PEFC appear on Nordic pine for a reason; they are certificates, not a legal finding.
