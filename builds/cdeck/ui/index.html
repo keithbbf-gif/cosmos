@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>cDeck — COSMOS</title>
+<link rel="stylesheet" href="app.css">
+<link rel="stylesheet" href="header.css">
+<link rel="stylesheet" href="deck_more.css">
+</head>
+<body>
+
+<div class="deck-header"></div>
+
+<!-- cockpit: two-column grid — tab shell left, MESH right -->
+<div id="cdeck-cockpit">
+
+  <!-- extra-pane shell: one cockpit grid column -->
+  <div id="cdeck-more">
+    <nav class="tab-rail"></nav>
+    <div id="cdeck-pane-host"></div>
+  </div>
+
+  <!-- JACK'S MESH COMMAND — main scrollport -->
+  <main class="deck-stage" id="deck-stage"></main>
+
+</div>
+
+<script src="header.js"></script>
+<script src="app.js"></script>
+<script src="deck_studio.js"></script>
+<script src="deck_tabs.js"></script>
+<script src="kdash_native.js"></script>
+</body>
+</html>
