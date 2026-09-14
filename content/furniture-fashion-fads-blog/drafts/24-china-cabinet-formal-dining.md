@@ -2,10 +2,10 @@
 title: Grandmother’s Haviland and the Cabinet That Lost Its Room
 slug: china-cabinet-formal-dining
 status: draft
-voice_check: human
+voice_check: edited
 series: furniture-fashion-fads
 dek: When the great room ate the dining room, the breakfront went to Marketplace — and open shelves lost the argument with dust.
-word_count: 1463
+word_count: 1418
 ---
 
 The breakfront takes up a wall that no longer knows what it is for. Center bay forward, glass doors, a pediment that wants to be architecture, shelves set with Haviland that has not seen a holiday since the leaf of the table was last put in. A cup is turned so the mark shows: Haviland, Limoges, the green stamp that American brides collected when a formal dining room was still a room. The house around it has gone open-plan. The cabinet is still dressed for dinner. That is the whole problem, and it is not the china’s fault.

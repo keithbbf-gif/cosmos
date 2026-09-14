@@ -2,10 +2,10 @@
 title: The Sitcom House Came in a Catalog
 slug: pottery-barn-sitcom-house
 status: draft
-voice_check: human
+voice_check: edited
 series: furniture-fashion-fads
 dek: Pottery Barn did not invent the white sofa; it taught a generation that the whole room should match the sofa.
-word_count: 1621
+word_count: 1580
 ---
 
 The coffee table was square, the color of oatmeal, and it arrived with a drawer that stuck if you pulled it on a Tuesday. Around it sat a slipcovered sofa the exact white of a hotel towel that has never seen a child. On the wall, three black frames in a row, same mat, same print series, same distance from the ceiling. You did not have to live in Manhattan. You had to live within a UPS route and own a catalog thick enough to bruise a shin.

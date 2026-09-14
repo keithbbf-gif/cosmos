@@ -2,10 +2,10 @@
 title: The Sack That Could Not Be Repaired
 slug: beanbag-sacco-soft-seating
 status: draft
-voice_check: human
+voice_check: edited
 series: furniture-fashion-fads
 dek: Zanotta’s 1968 Sacco taught a room to sit on the floor — cheap cousins and foam pits still cannot be mended, only replaced.
-word_count: 1432
+word_count: 1388
 ---
 
 The leather has gone slack. It is a pear-shaped sack, stitched, filled with polystyrene beads that have the nervous rattle of a dry gourd. You drop into it and the beads flee, then settle, and for a minute you are in a chair that has no chair in it. This is Zanotta’s Sacco, or it is trying to be. The original, designed in 1968 by Piero Gatti, Cesare Paolini, and Franco Teodoro and made in Milan by Aurelio Zanotta’s firm, is in the V&A, in Cooper Hewitt, in the literature of Italian design as if a bag of pellets needed a museum to become serious. It did. The cheap beanbag in the dorm did not get a museum. It got a stain and a trash day.

@@ -2,10 +2,10 @@
 title: Old Furniture Got a Ticker
 slug: vintage-as-fashion-market
 status: draft
-voice_check: human
+voice_check: edited
 series: furniture-fashion-fads
 dek: Buying used was supposed to be the way out of fashion; then fashion learned to price the used.
-word_count: 1614
+word_count: 1561
 ---
 
 The listing said “Eames lounge, Herman Miller, original,” and the photographs said otherwise. The rosewood was a print. The seat angle was a cousin, not a sibling. The ottoman sat a little too high. In the comments — there are always comments — someone typed the serial-number lecture and someone else typed “Eames style is fine if you’re honest.” The price sat between a real one and a joke. That interval is the market now.
@@ -22,7 +22,7 @@ The authentic Eames lounge — Charles and Ray Eames, Herman Miller, 1956 — is
 
 Auction houses still do the old work: catalogs with condition reports, specialists who will tell you the marquetry is later, a hammer price that is public. Sotheby’s, Christie’s, Wright, Rago, the regional rooms that still print an estimate and a provenance paragraph — they are not saints. They have sold copies. They have also published the copy as a copy, which is more than a caption usually does. The Instagram dealer does a different work: narrative, scarcity, a story about a Palm Springs estate that may or may not have a bill of sale behind it. Some dealers are straight. Some are inventing provenance the way a catalog invents lifestyle. The feed rewards the story. The auction house, at its best, rewards the object. At its worst it rewards the same story with a lot number.
 
-The ticker has a few documented beats if you watched asking prices instead of mood boards. 2012 to 2015, teak and the broader “Danish” tag: sideboards, sewing tables pressed into consoles, chairs with paper-cord seats that were either original or a weekend re-wrap. 2016 to 2019, marble tops and brass stems, the tulip and the drinks cart, anything that could sit under a globe pendant and look like a hotel bar. 2020 to 2022, the pale wood and the blob chair, which is another essay, and a run on anything labeled “organic modern.” Mediterranean oak — heavier, browner, a carved or simply thick European case — is the maybe-next. Dealers are already writing “European oak” under American pieces that are only oak. The caption is doing the fashion. The wood is doing what wood does.
+The ticker has a few documented beats if you watched asking prices instead of mood boards. 2012 to 2015, teak and the broader “Danish” tag: sideboards, sewing tables pressed into consoles, chairs with paper-cord seats that were either original or a weekend re-wrap. 2016 to 2019, marble tops and brass stems, the tulip and the drinks cart, anything that could sit under a globe pendant and look like a hotel bar. 2020 to 2022, the pale wood and the blob chair, which is another essay, and a run on anything labeled “organic modern.” Dealers are already writing “European oak” under American pieces that are only oak. The caption is doing the fashion. The wood is doing what wood does.
 
 *Photo cue: FFF-37b — An authentic marked Herman Miller or Knoll piece (museum or documented private) beside an unmarked “style” piece of the same silhouette. Caption the difference in the wood, the joint, the hardware. Rights: museum or owner permission.*
 

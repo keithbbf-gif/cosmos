@@ -2,10 +2,10 @@
 title: Sleeping in the Lobby
 slug: hotel-home-boutique-bedroom
 status: draft
-voice_check: human
+voice_check: edited
 series: furniture-fashion-fads
 dek: Ian Schrager and Philippe Starck taught America a bedroom; Restoration Hardware later sold the stay as a catalog.
-word_count: 1488
+word_count: 1452
 ---
 
 The bed was a white field. Two giant Euro shams sat up like headstones, a row of smaller pillows in front of them in a graded march, a throw folded at the foot with a care that no one who has to catch a train would repeat on a Wednesday. A bench at the end of the bed held a tray that held nothing. Blackout drapes. A lamp that was a sculpture. The alarm clock, if it existed, had been hidden. You were at home. You were also, unmistakably, in a hotel that had been flattened into a floor plan.

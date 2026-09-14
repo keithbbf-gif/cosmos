@@ -2,19 +2,17 @@
 title: Cognac Leather and the Instant Study
 slug: leather-club-gentlemans-study
 status: draft
-voice_check: human
+voice_check: edited
 series: furniture-fashion-fads
 dek: A hide that has been sat in is not the same product as a hide that has been printed to look sat in.
-word_count: 1524
+word_count: 1449
 ---
 
 The Chesterfield arrives in American rooms as a finished argument: you are a person with a study, even if the room is a laptop and a candle. Deep buttons, arms as high as the back, a roll that says club. Cognac leather — that amber-brown the catalogs treat as a personality — does the rest. The trouble is not the form. The form is a sofa. The trouble is the story the form is asked to tell in a house that never had a club, and the material that is asked to fake the years.
 
 Start with the dispute, because the dispute is the honest part. Popular lore gives the sofa to Philip Stanhope, 4th Earl of Chesterfield (1694–1773), a commission for upright sitting that would not wreck a coat. Historians and makers have been looking for the paper trail for a long time. Paul Fleming of Fleming Howland, interviewed in *The Independent* (12 June 2011), said his shop had gone to museums and could not find a single document that explained the name. The word “chesterfield” as a sofa turns up in the nineteenth century and, in some dictionaries, around 1900; a James Roberts painting of Balmoral’s drawing room, 1857, shows buttoned sofas that later eyes call Chesterfields, in plaid rather than hide. Early examples were often velvet. The leather we now treat as inevitable is a later habit. In Canada the word became, for a long stretch, just the word for a sofa, any sofa, which is a useful reminder that names wander. Say the origin is disputed. Then sit down.
 
-The club itself is easier to locate than the earl. Victorian and Edwardian London rooms — the Reform, the Garrick, the rooms men used as a second address — kept buttoned, upright seating because the point was talk, not a nap. American men’s clubs borrowed the look. American living rooms borrowed the clubs. By the time a Pottery Barn catalog could sell a “man cave,” the furniture had traveled so far from St. James’s that the only remaining signal was the color of the hide and a nailhead the factory applied with a gun.
-
-Victorian London’s gentlemen’s clubs used the type, or something close to it, and that is the image American retail still sells: a room for men, a drink, a book not being read. Restoration Hardware and Timothy Oulton spent the 2000s and 2010s industrializing that image — distressed leather, nailheads, a finish that looked like a century of elbows. Pottery Barn’s “man cave” catalogs of the same years put a cognac club chair under a mounted something and called it a den. The chair did not need a den. It needed a caption.
+The club itself is easier to locate than the earl. Victorian and Edwardian London rooms — the Reform, the Garrick, the rooms men used as a second address — kept buttoned, upright seating because the point was talk, not a nap. American men’s clubs borrowed the look. American living rooms borrowed the clubs. By the time a Pottery Barn catalog could sell a “man cave,” the furniture had traveled so far from St. James’s that the only remaining signal was the color of the hide and a nailhead the factory applied with a gun. Restoration Hardware and Timothy Oulton spent the 2000s and 2010s industrializing that image — distressed leather, nailheads, a finish that looked like a century of elbows. Pottery Barn’s “man cave” catalogs of the same years put a cognac club chair under a mounted something and called it a den. The chair did not need a den. It needed a caption.
 
 *Photo cue: FFF-29a — A genuine worn leather club chair, unstaged, cracks at the flex points, no throw blanket. Rights: antique shop or private study with permission; daylight.*
 

@@ -2,10 +2,10 @@
 title: Ethan Allen and the Room That Came as a Package
 slug: ethan-allen-gallery-store
 status: draft
-voice_check: human
+voice_check: edited
 series: furniture-fashion-fads
 dek: The gallery store taught America that a period could be delivered as a coordinated set, with a designer attached.
-word_count: 1437
+word_count: 1394
 ---
 
 Ethan Allen’s real product was never a single Windsor chair. It was a room that arrived already decided: the table, the sideboard, the two armchairs, the finish that matched, and a person who would come to your house and tell you the decision was yours. Period reproduction as a product line. The in-home designer. The gallery store. For a long middle of the twentieth century, that package was how a certain American household learned what “colonial” looked like, and later what “formal” looked like, and later still what the company thought modern looked like. Other factories sold furniture. Ethan Allen sold a finished sentence.

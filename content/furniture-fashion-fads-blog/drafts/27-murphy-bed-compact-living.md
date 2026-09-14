@@ -2,10 +2,10 @@
 title: The Murphy Bed Returns Every Time the Rent Shrinks
 slug: murphy-bed-compact-living
 status: draft
-voice_check: human
+voice_check: edited
 series: furniture-fashion-fads
 dek: Clever hardware outlasts the finish on the cabinet that hides it.
-word_count: 1591
+word_count: 1557
 ---
 
 William Lawrence Murphy did not invent the wall bed in a New York walk-up, though New York is where the object became a rental feature and a punchline. He was working in San Francisco around 1900, in a one-room place on Bush Street, with a bed that folded into a closet so the room could pretend to be a parlor. Family stories later dressed that invention as courtship: a young woman of that decade was not supposed to enter a man’s bedroom, so the bedroom had to disappear. Treat the romance as legend. The hardware is the fact. In 1918 the Patent Office granted him a patent on a pivot bed; earlier filings sit around the first years of the century. In 1925 the Murphy Door Bed Company moved manufacturing to Suffolk County, New York — the court record in *Murphy Door Bed Co. v. Interior Sleep Systems*, 687 F. Supp. 754 (E.D.N.Y. 1988), is the cleanest public narrative of the move — and the name stuck to every bed that vanished into a wall, whether Murphy built it or not.

@@ -2,10 +2,10 @@
 title: The Wall Was the Fashion
 slug: faux-finish-1990s-surface
 status: draft
-voice_check: human
+voice_check: edited
 series: furniture-fashion-fads
 dek: Sponge, rag-roll, and Tuscan glaze taught a decade that the surface was the room — and that drywall could pretend to be a villa.
-word_count: 1506
+word_count: 1463
 ---
 
 The dining room had been new in 1998. By 2003 it was old Rome. Someone had rag-rolled a terracotta glaze over builder beige, dragged a darker umber through the corners, and stamped a few “fleur-de-lis” with a store-bought stencil that still had the plastic flash on the edges. The table below it was a softwood box with a painted faux-bois top: knots where no tree had put them, a grain that ran in two directions and met in a shrug. Candlelight was supposed to forgive all of it. Fluorescent lunch did not.

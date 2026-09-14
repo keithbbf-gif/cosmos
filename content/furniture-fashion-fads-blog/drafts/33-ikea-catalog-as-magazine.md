@@ -2,10 +2,10 @@
 title: The IKEA Catalog Was a Furniture Magazine with a Warehouse
 slug: ikea-catalog-as-magazine
 status: draft
-voice_check: human
+voice_check: edited
 series: furniture-fashion-fads
 dek: Kamprad’s book taught more rooms how to look than most magazines, and left a LACK table to prove the philosophy.
-word_count: 1467
+word_count: 1423
 ---
 
 For a few decades the most widely distributed furniture magazine in the world did not call itself a magazine. It called itself a catalog. Thick, free or cheap, dropped on a kitchen table in a typeface that made “BILLY” look like a person. You did not subscribe. You were assigned. The rooms inside were not editorial fantasies with a shopping list at the back. They were the shopping list, styled as rooms, with prices a person could survive. That is a different contract from *Architectural Digest*. It is also why so many apartments, from Stockholm to suburban Philadelphia, learned the same sofa-against-the-wall, the same birch-look, the same plant in the same corner.

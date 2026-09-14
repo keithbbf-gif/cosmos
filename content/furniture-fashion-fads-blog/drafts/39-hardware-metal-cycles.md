@@ -2,10 +2,10 @@
 title: The Knob Is a Calendar
 slug: hardware-metal-cycles
 status: draft
-voice_check: human
+voice_check: edited
 series: furniture-fashion-fads
 dek: Polished brass to matte black and back again: the cheapest way to re-date a cabinet is also the loudest way to date it.
-word_count: 1458
+word_count: 1416
 ---
 
 Open a junk drawer in a house that has been owned twice and you will find the last decade in metal. A polished-brass rosette from 1987. A satin-nickel bar from 2001. An oil-rubbed bronze orb that still has the fake wear in the crevices, applied at the factory. A brushed-gold cup pull that matched a 2014 faucet. A matte-black hex knob, 2018, the screw still in it. Someone kept them because hardware feels like money even when it cost four dollars. Someone will put one of them back on a cabinet “temporarily.” Temporarily is how rooms get dated.

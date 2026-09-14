@@ -2,10 +2,10 @@
 title: The Entertainment Wall Unit That Outlived the Set
 slug: entertainment-wall-unit
 status: draft
-voice_check: human
+voice_check: edited
 series: furniture-fashion-fads
 dek: A cathedral built for a 27-inch tube cannot swallow a 65-inch pane of glass.
-word_count: 1654
+word_count: 1618
 ---
 
 The opening is thirty-two inches wide, eighteen deep, and framed like a shrine. Oak-look laminate, a little gold on the pulls, a dusty ring where a VCR once sat on a shelf that no longer exists in any living room that still has a pulse. The television that was meant to live in that hole is gone. The hole remains. On bulk-trash morning the whole cathedral goes to the curb — piers, glass doors, the cubby that held the cable box as if cable were a mineral deposit — and the new set, a thin 65-inch rectangle, leans against a wall that was never designed to hold a picture that large.

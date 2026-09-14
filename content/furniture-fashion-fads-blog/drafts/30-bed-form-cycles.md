@@ -2,10 +2,10 @@
 title: The Bed Changes Clothes; the Frame Keeps the Room
 slug: bed-form-cycles
 status: draft
-voice_check: human
+voice_check: edited
 series: furniture-fashion-fads
 dek: Pillow-top and memory foam come and go; a hardwood frame is still a bed when the mattress type has a new name.
-word_count: 1478
+word_count: 1433
 ---
 
 A bed is two fashions sharing a floor. One is the mattress: pillow-top, pillow-top-on-pillow-top, memory foam, hybrid, the boxed thing that expands in the guest room like a science trick. The other is the frame — canopy, sleigh, iron, platform, a winged headboard the size of a small wall. The mattress leaves every eight to twelve years if the household is lucky, sooner if they believed the foam advertisement. The frame, if it is a frame, stays. Most of the drama in American bedrooms is people throwing away the lasting half because the temporary half changed shape.

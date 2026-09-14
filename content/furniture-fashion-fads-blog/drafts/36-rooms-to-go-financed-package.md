@@ -2,10 +2,10 @@
 title: The Whole Room Today, on a Card
 slug: rooms-to-go-financed-package
 status: draft
-voice_check: human
+voice_check: edited
 series: furniture-fashion-fads
 dek: Rooms To Go turned the living room into a five-piece product and taught America that furniture is a set, not a collection.
-word_count: 1458
+word_count: 1415
 ---
 
 The sectional was still in plastic when the television stand came off the truck. Two end tables, a coffee table with a glass insert, and a pair of lamps that had been photographed in the same lighting as the leather. The salesperson had walked the floor with a folder of room packages. One price. One delivery window. One financing offer that made the monthly number look like a phone bill. By evening the living room was finished in the way a showroom is finished: complete, matching, and already slightly too large for the wall.

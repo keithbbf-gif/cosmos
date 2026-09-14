@@ -2,10 +2,10 @@
 title: The Top That Dates the Kitchen
 slug: countertop-fashion
 status: draft
-voice_check: human
+voice_check: edited
 series: furniture-fashion-fads
 dek: Tile, Formica, Corian, granite, quartz, marble, butcher block: the kitchen announces its year at elbow height.
-word_count: 1449
+word_count: 1413
 ---
 
 You can date a kitchen without opening a cabinet. Stand at the sink and look down. Harvest-gold tile with a dark grout line, 1970s, maybe into the early 1980s if the owner was loyal. A laminate with a gold fleck or a woodgrain that never fooled anyone, still doing the job. A matte solid-surface in “cameo white,” the color of a dentist’s tray. A granite with a bullnose thick as a wrist, speckled like a parking garage, 2004. A quartz with a printed marble vein that repeats every eight feet if you know where to look. A true marble with etching around the lemon plate. A butcher-block island with a blackened knife scar. The backsplash lies. The top tells the truth.

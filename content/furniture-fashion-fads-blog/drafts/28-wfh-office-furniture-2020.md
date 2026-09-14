@@ -2,10 +2,10 @@
 title: The March 2020 Desk and What Stayed
 slug: wfh-office-furniture-2020
 status: draft
-voice_check: human
+voice_check: edited
 series: furniture-fashion-fads
 dek: A standing desk bought in a panic is not the same object as a table that still earns its floor.
-word_count: 1537
+word_count: 1496
 ---
 
 In the third week of March 2020 a lot of American dining tables became offices. The good ones — a solid oak top, a height meant for elbows and plates — did the job without complaint. The bad ones, glass and chrome from a 2004 package, trembled when anyone typed. Between those poles a new piece of furniture entered the house at speed: the standing desk, the converter, the folding banquet table from the garage, the chair that cost more than the table, the webcam ring that made a kitchen look like a broadcast. Nobody had time to be tasteful. The meeting was in ten minutes.

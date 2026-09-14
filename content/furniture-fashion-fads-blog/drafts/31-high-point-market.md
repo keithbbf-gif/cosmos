@@ -2,10 +2,10 @@
 title: High Point, Where the Sofa Arm Is Decided
 slug: high-point-market
 status: draft
-voice_check: human
+voice_check: edited
 series: furniture-fashion-fads
 dek: Twice a year a North Carolina town teaches American retail what a sofa arm should do next.
-word_count: 1495
+word_count: 1456
 ---
 
 High Point, North Carolina, is a small city that becomes, for two weeks a year, the place a sofa arm is chosen for the rest of the country. April and October. Buyers from Rooms To Go and from a one-room boutique in a town you have not heard of walk the same downtown, sit on the same samples, and decide, in a kind of wholesale weather, whether next season’s arm is a track, a roll, a shelter, or a kidney. The public does not get in. The public gets the result six months later, in a showroom that will swear the arm was inevitable.

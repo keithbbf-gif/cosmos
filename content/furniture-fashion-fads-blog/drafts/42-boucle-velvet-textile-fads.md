@@ -2,10 +2,10 @@
 title: The Chair Was Fine. The Fabric Was a Year.
 slug: boucle-velvet-textile-fads
 status: draft
-voice_check: human
+voice_check: edited
 series: furniture-fashion-fads
 dek: Cream bouclé blob chairs and crushed velvet both prove the same rule: cloth is the fastest date stamp a good frame can wear.
-word_count: 1481
+word_count: 1435
 ---
 
 The chair had a decent bone. You could feel it when you lifted one corner: a hardwood rail, a sprung seat, weight that was not all foam. Over the bone, a cream bouclé the color of a labradoodle. The loops had gone gray on the arms and shiny on the headrest. A single thread had pulled near the seam and started a run that no one would stop, because stopping it meant admitting the chair was already last year’s cloud. The frame could have taken another cloth. The cloth was the purchase people remembered.

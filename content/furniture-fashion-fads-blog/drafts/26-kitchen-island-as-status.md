@@ -2,10 +2,10 @@
 title: The Kitchen Island That Replaced the Table
 slug: kitchen-island-as-status
 status: draft
-voice_check: human
+voice_check: edited
 series: furniture-fashion-fads
 dek: When the worktable became a monument, the color of the slab started to date faster than the cooking.
-word_count: 1510
+word_count: 1471
 ---
 
 The first useful island in an American kitchen was not trying to be a peninsula of status. It was a table you could walk around, maple or oak on top, scars in the end grain, a place to joint a chicken and set a mixing bowl. Butcher-block tops of that kind can be resanded. They go gray, then honey, then gray again. A shop that sells solid-oak islands — the Ouachita, Appaloosa, and Pebble Creek types in Bradley Brand Furniture’s listings, built in Warren, Arkansas, under the company’s own copy that traces Bradley Lumber to 1902 and refuses particleboard — is still making that older object: a worktable with drawers, a slatted shelf, a top you oil. Call it a type. It is furniture that expects knife marks.

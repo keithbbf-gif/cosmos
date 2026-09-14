@@ -2,10 +2,10 @@
 title: The Waterbed Store and the Bedroom as Showroom
 slug: waterbed-soft-bedroom
 status: draft
-voice_check: human
+voice_check: edited
 series: furniture-fashion-fads
 dek: Hall’s heated vinyl mattress made a retail type — then left frames in garages when the fad collapsed.
-word_count: 1449
+word_count: 1410
 ---
 
 The bladder is gone. What is left in the garage is a pedestal frame in dark pine or a fake oak print, four sides, a drawer that sticks, a cavity the size of a small boat. If you did not grow up with one, you might think it was a planter. It is a waterbed frame, mid-1980s, bought in a store that sold nothing else, or almost nothing else: linens with a high thread-count pitch, a padded rail, a bottle of conditioner for the vinyl, a warranty that mentioned your floor joists. The bedroom was a hedonist showroom for a decade. Then the water left. The wood stayed.
@@ -24,7 +24,7 @@ The frame was the furniture. Early Hall beds sat on serious wood; knockoffs sat 
 
 *Photo cue: FFF-22b — Interior of a waterbed specialty store, 1970s–80s: neon, rows of pedestal beds, mirrored wall if period. Rights: archive or newspaper.*
 
-By the 1990s the fad had collapsed. Innersprings improved. Pillow-tops arrived. Futons had already taken the student dollar. Memory foam was coming. The waterbed store could not become a mattress store fast enough, and the mattress store did not want the insurance. What leftover was the frame: those pine pedestals, sometimes with bookcase headboards, sometimes with a padded rail in a dusty velour. They are awkward as daybeds. They are worse as planter boxes, though people try. The bladder, once drained, is a sticky relic you do not donate. The heater is an object that looks like medical equipment and is worth nothing to the next tenant.
+By the 1990s the fad had collapsed. Innersprings improved. Pillow-tops arrived. Futons had already taken the student dollar. Memory foam was coming. The waterbed store could not become a mattress store fast enough, and the mattress store did not want the insurance. What was left was the frame: those pine pedestals, sometimes with bookcase headboards, sometimes with a padded rail in a dusty velour. They are awkward as daybeds. They are worse as planter boxes, though people try. The bladder, once drained, is a sticky relic you do not donate. The heater is an object that looks like medical equipment and is worth nothing to the next tenant.
 
 Status was the point and the problem. A waterbed said you were modern about bodies. You had left the Puritan mattress. You had a heater and a warranty and a bedroom that was about sensation. That was a 1970s claim with 1980s financing. When the claim went out of fashion, the object could not retreat into “classic.” There is no classic waterbed in the way there is a classic four-poster. There is only a period. The motionless models, ironically, were the ones that most wanted to be ordinary beds. Ordinary beds won.
 
@@ -34,6 +34,6 @@ I have helped carry more of those empty frames than I have slept on a filled one
 
 The soft bedroom did not die. It changed filler. Today’s foam pits and cloud sofas are cousins of Hall’s original question: what if furniture yielded? The waterbed was the bedroom’s answer. It required a store, a heater, a landlord’s blessing, and a faith in vinyl. That is a lot of infrastructure for a night’s sleep. A hardwood frame requires a mattress and a willingness to replace the mattress when the industry invents another comfort. That is a smaller faith. It is also why the garage still holds the pedestal and not the bladder. The bladder was the fad. The frame was the furniture we forgot to stop making.
 
-If you find a Hall-era Innerspace bed with a story you can document, you have a design-history object. If you find an 1987 strip-mall suite with a wave-free decal, you have a Saturday for the curb. The bedroom as hedonist showroom was real. It was also, for a lot of households, just a place to sleep that sloshed. Both things can be true. The joists remember.
+If you find a Hall-era Innerspace bed with a story you can document, you have a design-history object. If you find a 1987 strip-mall suite with a wave-free decal, you have a Saturday for the curb. The bedroom as hedonist showroom was real. It was also, for a lot of households, just a place to sleep that sloshed. Both things can be true. The joists remember.
 
 *Photo cue: FFF-22c — A simple hardwood bed frame with a contemporary mattress, same room scale as the waterbed shot. No product logo required.*

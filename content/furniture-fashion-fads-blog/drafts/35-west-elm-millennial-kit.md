@@ -2,10 +2,10 @@
 title: The First-Apartment Kit Wore Midcentury Clothes
 slug: west-elm-millennial-kit
 status: draft
-voice_check: human
+voice_check: edited
 series: furniture-fashion-fads
 dek: West Elm sold a generation the silhouette of a Herman Miller office and the construction of a temporary lease.
-word_count: 1537
+word_count: 1498
 ---
 
 The credenza arrived in three boxes and a vocabulary. Walnut-look. Tapered legs. Brass cup pulls that were not brass. You assembled it on a rug with a geometric diamond, under a lamp that was a globe on a stick, next to a sofa that claimed midcentury without claiming a designer. The apartment was a 2014 one-bedroom with a stainless fridge the landlord had bought on sale. The room looked, for about fourteen months, like a catalog had moved in and paid half the rent.
@@ -16,7 +16,7 @@ West Elm launched in 2002 under Williams-Sonoma, the same parent that already ow
 
 The look had a shopping list. Reclaimed-look wood, or new wood printed and stained to suggest a factory floor. Midcentury-ish profiles: the low dresser, the hairpin or tapered leg, the chair that remembered a Saarinen without being one. Brass or brass-colored lamps. Geometric rugs — Moroccan diamonds, kilim knockoffs, anything that read as “collected” when it had been added to cart in one sitting. A ceramic table lamp in a glaze that looked handmade if you stood back. A throw in mustard or teal. Later, a pink. The kit was coherent. That was its talent and its tell.
 
-Quality complaints became a public genre. Not a survey I commissioned. A conversation you can still find in comment threads, return-counter stories, and the particular exhaustion of people who bought a $1,200 sofa and watched a seam open in the second year. West Elm’s name sits in that conversation the way a airline sits in a delay conversation: often enough that the brand became shorthand. Some pieces held. Some pieces did not. The catalog never showed the difference, because catalogs do not show the second year.
+Quality complaints became a public genre. Not a survey I commissioned. A conversation you can still find in comment threads, return-counter stories, and the particular exhaustion of people who bought a $1,200 sofa and watched a seam open in the second year. West Elm’s name sits in that conversation the way an airline sits in a delay conversation: often enough that the brand became shorthand. Some pieces held. Some pieces did not. The catalog never showed the difference, because catalogs do not show the second year.
 
 Call it what it was. Fast furniture wearing midcentury modern clothes. The clothes were good. The midcentury office — a real one, a 1960s Herman Miller or Knoll floor — used materials that were industrial in the honest sense: molded plywood, steel, wool, fiberglass, leather that could be replaced. Charles and Ray Eames designed for production, not for a feed. Florence Knoll’s planning was a discipline. Those companies still sell the descendants of those objects, at prices that make a first-apartment shopper laugh and then go back to the site with the brass lamp.
 
