@@ -3,7 +3,7 @@ id: d29
 title: A winter kit that is not a gadget drawer
 status: staged
 stage: wrap
-voice: human
+voice_check: edited
 focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: wrapping
@@ -79,4 +79,6 @@ home with cloth and a ball of twine. Rake leaves
 onto a tarp and put the tarp under the porch. That
 is a kit. You can buy wire next Saturday. You
 cannot buy last week's dry leaves next Saturday.
-I check the bin in September the way I check the flashlight drawer before a storm. Same instinct. Different plant.
+I check the bin in September the way I check the
+flashlight drawer before a storm. Same instinct.
+Different plant.

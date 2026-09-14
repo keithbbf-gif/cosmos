@@ -3,7 +3,7 @@ id: d21
 title: Three I would plant if I could only keep three
 status: staged
 stage: choose
-voice: human
+voice_check: edited
 focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: siting

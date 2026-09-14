@@ -3,7 +3,7 @@ id: d13
 title: LSU figs were bred for a wet South
 status: staged
 stage: choose
-voice: human
+voice_check: edited
 focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: siting

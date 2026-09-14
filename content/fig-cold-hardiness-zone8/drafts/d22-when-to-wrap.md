@@ -3,7 +3,7 @@ id: d22
 title: When to wrap — October is usually wrong
 status: staged
 stage: wrap
-voice: human
+voice_check: edited
 focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: wrapping

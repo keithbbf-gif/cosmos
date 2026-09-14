@@ -56,6 +56,8 @@ def main() -> int:
             errors.append(f"{path.name}: missing status: staged")
         if "focus: 8a" not in text:
             errors.append(f"{path.name}: missing focus: 8a")
+        if "voice_check: edited" not in text:
+            errors.append(f"{path.name}: missing voice_check: edited")
         stage = None
         for line in text.splitlines():
             if line.startswith("stage:"):

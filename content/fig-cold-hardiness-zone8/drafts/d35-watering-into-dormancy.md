@@ -3,7 +3,7 @@ id: d35
 title: Watering into dormancy, and the dry-root freeze
 status: staged
 stage: hold
-voice: human
+voice_check: edited
 focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: hardiness

@@ -3,7 +3,7 @@ id: d42
 title: Unwrapping and the late freeze
 status: staged
 stage: open
-voice: human
+voice_check: edited
 focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: spring

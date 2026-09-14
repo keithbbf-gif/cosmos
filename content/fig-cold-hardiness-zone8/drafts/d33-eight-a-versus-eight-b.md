@@ -3,7 +3,7 @@ id: d33
 title: 8a versus 8b — five degrees of attitude
 status: staged
 stage: wrap
-voice: human
+voice_check: edited
 focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: hardiness

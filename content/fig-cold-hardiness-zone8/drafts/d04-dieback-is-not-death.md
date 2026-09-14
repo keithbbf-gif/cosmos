@@ -3,7 +3,7 @@ id: d04
 title: Dieback is not death
 status: staged
 stage: ground
-voice: human
+voice_check: edited
 focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: hardiness

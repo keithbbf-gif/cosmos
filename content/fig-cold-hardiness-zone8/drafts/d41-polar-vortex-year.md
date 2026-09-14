@@ -3,7 +3,7 @@ id: d41
 title: The polar vortex year
 status: staged
 stage: hold
-voice: human
+voice_check: edited
 focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: hardiness
@@ -91,4 +91,6 @@ rebuilt and missed the season, keep it
 only if you like the flavor enough to
 accept empty years. Vortex years are
 honest. They are not the only years.
-If you did nothing and some stools lived, write that down too. Vortex years also teach what was already tough.
+
+If you did nothing and some stools lived, write that down
+too. Vortex years also teach what was already tough.

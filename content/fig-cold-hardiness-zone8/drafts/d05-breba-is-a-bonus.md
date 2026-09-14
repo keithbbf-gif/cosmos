@@ -3,7 +3,7 @@ id: d05
 title: Breba is a bonus you lose when wood dies
 status: staged
 stage: ground
-voice: human
+voice_check: edited
 focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: hardiness

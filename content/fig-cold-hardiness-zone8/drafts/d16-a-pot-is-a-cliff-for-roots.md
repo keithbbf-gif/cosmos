@@ -3,7 +3,7 @@ id: d16
 title: A pot is a cliff for roots
 status: staged
 stage: choose
-voice: human
+voice_check: edited
 focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: containers

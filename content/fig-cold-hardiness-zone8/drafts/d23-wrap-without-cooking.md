@@ -3,7 +3,7 @@ id: d23
 title: How to wrap an in-ground fig without cooking it
 status: staged
 stage: wrap
-voice: human
+voice_check: edited
 focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: wrapping

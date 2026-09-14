@@ -3,7 +3,7 @@ id: d25
 title: Tip and bury — when 8a still needs a Zone 6 trick
 status: staged
 stage: wrap
-voice: human
+voice_check: edited
 focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: wrapping
@@ -49,7 +49,8 @@ one winter, the one variety you refuse to lose.
 
 There is a lighter cousin — pinning canes to the ground
 and piling leaves, no full burial. That I will do more
-often. It is ugly. It works. The neighbors already think
+often. It is ugly. It can hold wood when the bend and the
+mound are right. The neighbors already think
 the leaf cage is a body. They can think this is two.
 
 I practiced the bend in October on a young

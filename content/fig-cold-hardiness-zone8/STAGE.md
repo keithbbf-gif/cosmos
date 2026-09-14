@@ -10,8 +10,11 @@ zones: [7, 8a, 8b, 9]
 cluster: hardiness | siting | wrapping | containers | spring
 ```
 
-`status: staged` means the piece has had a voice pass and is waiting on a human.
+`status: staged` means the piece is in the editorial pipeline, not live.
 It is not `published`. It is not `scratch`.
+
+After the editor pass, each draft carries `voice_check: edited` in YAML
+(writer staging used `voice: human`).
 
 ## Read order (if you want a winter, not a pile)
 

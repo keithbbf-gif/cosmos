@@ -3,7 +3,7 @@ id: d24
 title: The leaf-filled cage
 status: staged
 stage: wrap
-voice: human
+voice_check: edited
 focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: wrapping
@@ -18,13 +18,14 @@ like I am hiding a body. In Zone 7 it is how people keep
 two or three feet of wood. In 8a it is how I put a first-
 year plant to bed without inventing a new technology.
 
-Why it works: leaves are dead air. Dead air is the
+When it helps: leaves are dead air. Dead air is the
 insulation. The wire keeps the leaves from becoming a wet
 pile on the lawn. The hat keeps the rain from turning the
 dead air into soup. The open bottom keeps the soup from
-becoming a sealed jar.
+becoming a sealed jar. None of that is a promise on a
+vortex night. It is physics on a normal ugly night.
 
-Why it fails: wet leaves, no hat, no air, or a cage so
+When it fails: wet leaves, no hat, no air, or a cage so
 tight you have packed a tamale. Also mice. A leaf cage is
 a hotel. I do not bait the fig. I do not leave bird seed
 in the cylinder. If I have a mouse winter, I check for
@@ -50,7 +51,8 @@ Materials I will not use again: hay that was already
 heating, black plastic around the barrel, a cage I could
 not open without destroying the plant.
 
-If you have one fig and one Saturday, this is the wrap.
+If you have one fig and one Saturday, this is the wrap I
+reach for first — not the wrap that always wins.
 If you have twelve figs, this is how you learn which three
 actually needed it.
 

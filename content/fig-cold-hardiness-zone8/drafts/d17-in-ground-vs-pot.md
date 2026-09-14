@@ -3,7 +3,7 @@ id: d17
 title: In-ground versus pot is a decision, not a team
 status: staged
 stage: choose
-voice: human
+voice_check: edited
 focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: containers
@@ -55,8 +55,7 @@ guilty. Some figs are better as pots forever. Guilt is how you end
 up with a Mission in a windy corner and a broken back from a
 thirty-gallon tub you swore you would move "if it got bad."
 
-A decision tree I actually use on a plant in a nursery
-can:
+A decision tree I actually use while the plant is still in a nursery can:
 
 Do I know the clone and want it here in a decade? Ground.
 Is the name a shrug or a sulker? Pot.

@@ -3,7 +3,7 @@ id: d06
 title: Wet cold and dry cold are not the same winter
 status: staged
 stage: ground
-voice: human
+voice_check: edited
 focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: hardiness

@@ -3,7 +3,7 @@ id: d31
 title: Zone 7 extras that 8a people skip
 status: staged
 stage: wrap
-voice: human
+voice_check: edited
 focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: wrapping

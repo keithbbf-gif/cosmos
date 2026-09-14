@@ -3,7 +3,7 @@ id: d36
 title: The unheated garage protocol
 status: staged
 stage: hold
-voice: human
+voice_check: edited
 focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: containers
@@ -11,7 +11,8 @@ topics: [pots, garage]
 ---
 
 The garage is not a greenhouse. That is why it
-works. I want a place that stays mostly 30–45°F,
+can work for pots — not because the room saves
+wood, but because it stays dull. I want a place that stays mostly 30–45°F,
 dark or dim, quiet, and boring. A fig in that
 room goes to sleep and stays there. A fig in a
 sunroom at 65°F tries to be a houseplant and

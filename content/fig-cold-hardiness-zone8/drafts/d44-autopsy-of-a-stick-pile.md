@@ -3,7 +3,7 @@ id: d44
 title: Autopsy of a stick pile
 status: staged
 stage: open
-voice: human
+voice_check: edited
 focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: spring
