@@ -1,0 +1,308 @@
+# Staged draft manifest — fig cold hardiness, Zone 8a focus
+# status is editorial. stage is the winter sequence.
+
+set = "fig-cold-hardiness-zone8"
+status = "staged"
+focus = "8a"
+zones = ["7", "8a", "8b", "9"]
+count = 50
+
+[[draft]]
+id = "d01"
+file = "drafts/d01-zone-8a-is-the-in-between.md"
+stage = "ground"
+cluster = "hardiness"
+
+[[draft]]
+id = "d02"
+file = "drafts/d02-the-zone-is-an-average.md"
+stage = "ground"
+cluster = "hardiness"
+
+[[draft]]
+id = "d03"
+file = "drafts/d03-four-things-freeze.md"
+stage = "ground"
+cluster = "hardiness"
+
+[[draft]]
+id = "d04"
+file = "drafts/d04-dieback-is-not-death.md"
+stage = "ground"
+cluster = "hardiness"
+
+[[draft]]
+id = "d05"
+file = "drafts/d05-breba-is-a-bonus.md"
+stage = "ground"
+cluster = "hardiness"
+
+[[draft]]
+id = "d06"
+file = "drafts/d06-wet-cold-and-dry-cold.md"
+stage = "ground"
+cluster = "hardiness"
+
+[[draft]]
+id = "d07"
+file = "drafts/d07-wind-is-the-extra-zone.md"
+stage = "ground"
+cluster = "hardiness"
+
+[[draft]]
+id = "d08"
+file = "drafts/d08-duration-beats-the-low.md"
+stage = "ground"
+cluster = "hardiness"
+
+[[draft]]
+id = "d09"
+file = "drafts/d09-catalog-hardy-and-yard-hardy.md"
+stage = "choose"
+cluster = "siting"
+
+[[draft]]
+id = "d10"
+file = "drafts/d10-chicago-hardy-is-a-floor.md"
+stage = "choose"
+cluster = "siting"
+
+[[draft]]
+id = "d11"
+file = "drafts/d11-celeste-and-the-closed-eye.md"
+stage = "choose"
+cluster = "siting"
+
+[[draft]]
+id = "d12"
+file = "drafts/d12-brown-turkey-is-a-crowd.md"
+stage = "choose"
+cluster = "siting"
+
+[[draft]]
+id = "d13"
+file = "drafts/d13-lsu-figs-and-the-wet-south.md"
+stage = "choose"
+cluster = "siting"
+
+[[draft]]
+id = "d14"
+file = "drafts/d14-the-ones-that-sulk-in-8a.md"
+stage = "choose"
+cluster = "siting"
+
+[[draft]]
+id = "d15"
+file = "drafts/d15-in-ground-the-earth-is-the-blanket.md"
+stage = "choose"
+cluster = "siting"
+
+[[draft]]
+id = "d16"
+file = "drafts/d16-a-pot-is-a-cliff-for-roots.md"
+stage = "choose"
+cluster = "containers"
+
+[[draft]]
+id = "d17"
+file = "drafts/d17-in-ground-vs-pot.md"
+stage = "choose"
+cluster = "containers"
+
+[[draft]]
+id = "d18"
+file = "drafts/d18-first-year-has-not-earned-the-zone.md"
+stage = "choose"
+cluster = "siting"
+
+[[draft]]
+id = "d19"
+file = "drafts/d19-south-wall-and-stolen-degrees.md"
+stage = "choose"
+cluster = "siting"
+
+[[draft]]
+id = "d20"
+file = "drafts/d20-raised-beds-are-neither.md"
+stage = "choose"
+cluster = "siting"
+
+[[draft]]
+id = "d21"
+file = "drafts/d21-three-i-would-keep.md"
+stage = "choose"
+cluster = "siting"
+
+[[draft]]
+id = "d22"
+file = "drafts/d22-when-to-wrap.md"
+stage = "wrap"
+cluster = "wrapping"
+
+[[draft]]
+id = "d23"
+file = "drafts/d23-wrap-without-cooking.md"
+stage = "wrap"
+cluster = "wrapping"
+
+[[draft]]
+id = "d24"
+file = "drafts/d24-the-leaf-filled-cage.md"
+stage = "wrap"
+cluster = "wrapping"
+
+[[draft]]
+id = "d25"
+file = "drafts/d25-tip-and-bury.md"
+stage = "wrap"
+cluster = "wrapping"
+
+[[draft]]
+id = "d26"
+file = "drafts/d26-what-not-to-wrap-with.md"
+stage = "wrap"
+cluster = "wrapping"
+
+[[draft]]
+id = "d27"
+file = "drafts/d27-lights-and-heat-cables.md"
+stage = "wrap"
+cluster = "wrapping"
+
+[[draft]]
+id = "d28"
+file = "drafts/d28-what-actually-wraps.md"
+stage = "wrap"
+cluster = "wrapping"
+
+[[draft]]
+id = "d29"
+file = "drafts/d29-a-winter-kit.md"
+stage = "wrap"
+cluster = "wrapping"
+
+[[draft]]
+id = "d30"
+file = "drafts/d30-kids-dogs-and-runaway-wraps.md"
+stage = "wrap"
+cluster = "wrapping"
+
+[[draft]]
+id = "d31"
+file = "drafts/d31-zone-7-extras.md"
+stage = "wrap"
+cluster = "wrapping"
+
+[[draft]]
+id = "d32"
+file = "drafts/d32-zone-9-wrapping-as-injury.md"
+stage = "wrap"
+cluster = "wrapping"
+
+[[draft]]
+id = "d33"
+file = "drafts/d33-eight-a-versus-eight-b.md"
+stage = "wrap"
+cluster = "hardiness"
+
+[[draft]]
+id = "d34"
+file = "drafts/d34-midwinter-checks.md"
+stage = "hold"
+cluster = "wrapping"
+
+[[draft]]
+id = "d35"
+file = "drafts/d35-watering-into-dormancy.md"
+stage = "hold"
+cluster = "hardiness"
+
+[[draft]]
+id = "d36"
+file = "drafts/d36-garage-protocol.md"
+stage = "hold"
+cluster = "containers"
+
+[[draft]]
+id = "d37"
+file = "drafts/d37-burying-the-pot.md"
+stage = "hold"
+cluster = "containers"
+
+[[draft]]
+id = "d38"
+file = "drafts/d38-pot-size-and-freeze-through.md"
+stage = "hold"
+cluster = "containers"
+
+[[draft]]
+id = "d39"
+file = "drafts/d39-porch-dirt-concrete.md"
+stage = "hold"
+cluster = "containers"
+
+[[draft]]
+id = "d40"
+file = "drafts/d40-ice-snow-and-whether-snow-helps.md"
+stage = "hold"
+cluster = "hardiness"
+
+[[draft]]
+id = "d41"
+file = "drafts/d41-polar-vortex-year.md"
+stage = "hold"
+cluster = "hardiness"
+
+[[draft]]
+id = "d42"
+file = "drafts/d42-unwrapping-and-the-late-freeze.md"
+stage = "open"
+cluster = "spring"
+
+[[draft]]
+id = "d43"
+file = "drafts/d43-do-not-prune-on-panic.md"
+stage = "open"
+cluster = "spring"
+
+[[draft]]
+id = "d44"
+file = "drafts/d44-autopsy-of-a-stick-pile.md"
+stage = "open"
+cluster = "spring"
+
+[[draft]]
+id = "d45"
+file = "drafts/d45-late-frost-after-leaf-out.md"
+stage = "open"
+cluster = "spring"
+
+[[draft]]
+id = "d46"
+file = "drafts/d46-yard-fig-and-patio-fig.md"
+stage = "open"
+cluster = "containers"
+
+[[draft]]
+id = "d47"
+file = "drafts/d47-box-store-hardy-in-march.md"
+stage = "open"
+cluster = "siting"
+
+[[draft]]
+id = "d48"
+file = "drafts/d48-september-to-april.md"
+stage = "open"
+cluster = "spring"
+
+[[draft]]
+id = "d49"
+file = "drafts/d49-mulch-is-not-a-coat.md"
+stage = "open"
+cluster = "wrapping"
+
+[[draft]]
+id = "d50"
+file = "drafts/d50-did-last-years-wrap-help.md"
+stage = "open"
+cluster = "spring"
