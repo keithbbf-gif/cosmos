@@ -2,7 +2,8 @@
 title: Style Guide — Healthcare Institutional Furniture
 status: draft
 voice: BBF
-voice_check: written
+voice_check: edited
+voice_check_date: 2026-09-14
 series: healthcare-institutional-furniture
 audience: educational
 not: legal-advice
@@ -63,7 +64,7 @@ slug: kebab-case
 series: healthcare-institutional-furniture
 status: draft
 voice: BBF
-voice_check: written
+voice_check: edited
 reading_order: 12
 word_target: 1400-2200
 era: "1987–2015"

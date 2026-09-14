@@ -4,7 +4,8 @@ slug: resident-room-square-footage
 series: healthcare-institutional-furniture
 status: draft
 voice: BBF
-voice_check: written
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 7
 word_target: 1400-2200
 era: "1965–2023"

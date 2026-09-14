@@ -4,7 +4,8 @@ slug: resident-chairs-and-sit-to-stand
 series: healthcare-institutional-furniture
 status: draft
 voice: BBF
-voice_check: written
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 19
 word_target: 1400-2200
 era: "1987–2015"
@@ -85,7 +86,7 @@ Personal belongings are in F584 on purpose. The daughter’s chair from home is 
 
 ## Channel notes
 
-Medline-era vinyl programs were a binder of swatches that changed names every two years. Attic stock a bolt or stop pretending the chair is maple.
+Attic stock the bolt that matches the swatch, or stop pretending the chair is maple when the cover rips.
 
 A “residential collection” with a skirt is a lint trap. Matching the nightstand is not a tag. Height is. I have seen packages where the wardrobe, bedside, and headboard matched and the only chair was a stacking banquet chair from the dining room. Visitor comfort is in the guidance. The stacking chair is a tell.
 

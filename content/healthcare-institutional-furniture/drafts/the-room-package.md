@@ -4,7 +4,8 @@ slug: the-room-package
 series: healthcare-institutional-furniture
 status: draft
 voice: BBF
-voice_check: written
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 10
 word_target: 1400-2200
 era: "1995–2015"

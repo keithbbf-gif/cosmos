@@ -4,7 +4,8 @@ slug: privacy-curtains-and-cubicle-track
 series: healthcare-institutional-furniture
 status: draft
 voice: BBF
-voice_check: written
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 29
 word_target: 1400-2200
 era: "1950–2015"
@@ -91,9 +92,9 @@ Bradley Brand’s hardwood story belongs here only as a collision. A mill in War
 
 ## Channel notes
 
-Medline-era textiles were a core channel product — the company began in garments. A.L. Mills’s 1910 Chicago shop and the 1966 Mills brothers story are garment-and-hospital-supply before they are furniture. Curtains riding a medical distributor makes historical sense. The glove and the panel already shared a binder. The crime was a fabric page that never met the track page.
+Medline-era textiles rode the same binder as gloves — garment supply before furniture. The crime was a fabric page that never met the track page.
 
-A punchout can sell a color. It cannot sell a bend. I have seen houses that bought new panels and hung them on a track that had been dead since the last roof leak. I have seen houses that replaced track and reused panels that had been bleached into a rumor of 701. The channel was good at sameness: one print in twelve buildings. It was bad at the leftover ceiling, the same way it was bad at leftover square footage.
+A punchout can sell a color. It cannot sell a bend. I have seen new panels on a track dead since the last roof leak, and new track with panels bleached into a rumor of 701. The channel was good at one print in twelve buildings. It was bad at the leftover ceiling.
 
 Special-buys for a chain could freeze a print. Fine. Freeze the carrier type and the attic-stock count in the same buy. A print without carriers is a costume that will be zip-tied by Christmas.
 
@@ -112,8 +113,6 @@ That paragraph keeps a mill out of a flame book it does not own and in a collisi
 Pull the curtain through the bend. Does it stick? Can I hide a face? Is there mesh where the head is? Is the panel dated? Is there a spare? Does it catch the wardrobe? Does it hit a sprinkler? Can a person in the bed close it, or is it a staff-only wall? Is the return actually a return? Are the carriers stacked or jammed? Does the hem show a face when the bed is low?
 
 If I can see a roommate’s face at the toilet, the double is a ward.
-
-The curtain is the rare fabric that is also architecture. Treat it that way or you will buy a print and live in a row.
 
 ## Sources
 

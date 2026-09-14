@@ -4,7 +4,8 @@ slug: what-this-series-is-not
 series: healthcare-institutional-furniture
 status: draft
 voice: BBF
-voice_check: written
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 42
 word_target: 1400-2200
 era: "2026"
@@ -113,7 +114,7 @@ A room is a leftover. A bed is a system. A chair is a transfer. A wardrobe is a 
 
 If you can still see those objects after the cherry print fades, the series did the only job I will sign.
 
-The furniture will still be there in the morning. Whether you can see it is the only ending I have.
+Tomorrow the room will look the same from the hall. The test is whether you can still read the objects after the print fades.
 
 ## Sources
 

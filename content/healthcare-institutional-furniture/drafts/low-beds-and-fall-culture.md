@@ -4,7 +4,8 @@ slug: low-beds-and-fall-culture
 series: healthcare-institutional-furniture
 status: draft
 voice: BBF
-voice_check: written
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 14
 word_target: 1400-2200
 era: "1995–2015"
@@ -99,7 +100,7 @@ We can refuse a headboard that only looks right at one deck height.
 
 We cannot make a low bed safe with maple. Safety is the program. Wood is the neighborhood.
 
-Shop practice I will own: if the house is converting a wing to low, I want the furniture sheet revised, not “use existing case goods.” Existing case goods were measured against a different motor. A refinished top on a cliff is still a cliff. We can radius the corners at hip-and-shin height, keep open knee space so a seated person at a low deck can still reach a cup, and stop putting a decorative gallery rail on the nightstand as if a tiny wood rail were charming. It is a snag and a climb.
+Shop practice I will own: if the house is converting a wing to low, revise the furniture sheet — not “use existing case goods” measured against a different motor. Radius corners at hip-and-shin height, keep knee space at a low deck, and stop putting a decorative gallery rail on the nightstand. It is a snag and a climb.
 
 ## Channel: facing pages, mixed fleets
 
@@ -107,9 +108,9 @@ The punchout sold “low bed” and “homelike case goods” on facing pages an
 
 If you inherit that marriage, do not blame the resident for sliding. Measure the two heights. Write them on a scrap. If the scrap scares you, you are paying attention.
 
-Special-buys froze a nightstand height for a chain because the warehouse could stock a pull. Then the bed contract changed. The pull stayed. The cliff arrived. I will not invent a Medilodge purchase order. Beds arrived on one truck, wood on another, and a punch list discovered the height after the vinyl was down.
+Special-buys froze a nightstand height because the warehouse could stock a pull. Then the bed contract changed. The pull stayed. The cliff arrived. Beds and wood on different trucks; the punch list discovered the height after the vinyl was down.
 
-GPO language that bundled “fall package” usually meant a low frame, a mat, and an alarm. The chair and the bedside were on the furniture page. Fall packages that do not name those two objects are a motor and a hope. A used low frame with an unknown mattress and a residential nightstand is three programs in one room. The height still has to meet the chair you actually have.
+GPO “fall package” language usually meant a low frame, a mat, and an alarm — not the chair or bedside on the furniture page. A used low frame with an unknown mattress and a residential nightstand is three programs in one room.
 
 ## What to look for on a floor
 

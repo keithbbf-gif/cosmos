@@ -1,6 +1,6 @@
 # Staged for BBF SEO — healthcare-institutional-furniture
 
-**Status:** staged only. Every article is `status: draft`. Do not set WordPress publish dates. Do not paste these files onto a live domain until a photograph plan exists. Writer pass 2026-09-14 (`voice_check: written`). Editor has not sat.
+**Status:** staged only. Every article is `status: draft`. Do not set WordPress publish dates. Do not paste these files onto a live domain until a photograph plan exists. Writer pass 2026-09-14 (`voice_check: written`). Editor pass 2026-09-14 (`voice_check: edited`); see `EDITOR_REPORT.md`.
 
 ## What this pack is
 
@@ -17,6 +17,7 @@ Educational. Human voice (Keith BBF). Not legal advice. Not medical advice. Not 
 - `BIBLIOGRAPHY.md` — series sources
 - `PHOTO_CAPTIONS.md` — plates to shoot or license
 - `MANIFEST.md` — word counts
+- `EDITOR_REPORT.md` — editor pass log
 - `STAGING_README.md` — this file
 
 ## SEO rules

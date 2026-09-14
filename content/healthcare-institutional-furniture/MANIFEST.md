@@ -2,17 +2,18 @@
 title: Manifest — Healthcare Institutional Furniture
 status: draft
 voice: BBF
-voice_check: written
+voice_check: edited
+voice_check_date: 2026-09-14
 series: healthcare-institutional-furniture
 ---
 
 # Manifest
 
 Body word counts are tokens matching `[A-Za-z0-9']+` after YAML frontmatter, excluding the Sources section and See also.
-Target band: 1,400–2,200. All items `status: draft`, `voice_check: written`.
+Target band: 1,400–2,200. All items `status: draft`, `voice_check: edited`.
 Canonical files: `drafts/<slug>.md`. Slug list: `writer-slugs.json`.
 
-Counted: 42 drafts. Total body words: 75,656. Average: 1801.
+Counted: 42 drafts. Total body words: 75,101. Average: 1788.
 
 | # | slug | title | words | file |
 |---|------|-------|------:|------|
@@ -28,13 +29,13 @@ Counted: 42 drafts. Total body words: 75,656. Average: 1801.
 | 10 | `the-room-package` | The room package | 1557 | `drafts/the-room-package.md` |
 | 11 | `hospital-beds-are-not-residential` | Hospital beds are not residential | 1611 | `drafts/hospital-beds-are-not-residential.md` |
 | 12 | `seven-entrapment-zones` | Seven entrapment zones | 1670 | `drafts/seven-entrapment-zones.md` |
-| 13 | `side-rails-restraint-and-geometry` | Side rails, restraint, and geometry | 2200 | `drafts/side-rails-restraint-and-geometry.md` |
-| 14 | `low-beds-and-fall-culture` | Low beds and fall culture | 2185 | `drafts/low-beds-and-fall-culture.md` |
+| 13 | `side-rails-restraint-and-geometry` | Side rails, restraint, and geometry | 2090 | `drafts/side-rails-restraint-and-geometry.md` |
+| 14 | `low-beds-and-fall-culture` | Low beds and fall culture | 2105 | `drafts/low-beds-and-fall-culture.md` |
 | 15 | `mattress-fit-is-a-gap` | Mattress fit is a gap | 2099 | `drafts/mattress-fit-is-a-gap.md` |
 | 16 | `overbed-tables` | Overbed tables | 1952 | `drafts/overbed-tables.md` |
 | 17 | `bedside-cabinets` | Bedside cabinets | 1774 | `drafts/bedside-cabinets.md` |
 | 18 | `wardrobes-and-the-closet-rule` | Wardrobes and the closet rule | 1746 | `drafts/wardrobes-and-the-closet-rule.md` |
-| 19 | `resident-chairs-and-sit-to-stand` | Resident chairs and sit-to-stand | 1724 | `drafts/resident-chairs-and-sit-to-stand.md` |
+| 19 | `resident-chairs-and-sit-to-stand` | Resident chairs and sit-to-stand | 1717 | `drafts/resident-chairs-and-sit-to-stand.md` |
 | 20 | `geri-chairs-and-the-recliner` | Geri chairs and the recliner | 1901 | `drafts/geri-chairs-and-the-recliner.md` |
 | 21 | `dining-in-the-snf` | Dining in the SNF | 2095 | `drafts/dining-in-the-snf.md` |
 | 22 | `activity-and-day-room` | Activity and day room | 1873 | `drafts/activity-and-day-room.md` |
@@ -44,11 +45,11 @@ Counted: 42 drafts. Total body words: 75,656. Average: 1801.
 | 26 | `bleach-and-arkansas-hardwood` | Bleach and Arkansas hardwood | 1859 | `drafts/bleach-and-arkansas-hardwood.md` |
 | 27 | `cal-tb-117-and-nfpa-101` | CAL TB 117 and NFPA 101 | 1647 | `drafts/cal-tb-117-and-nfpa-101.md` |
 | 28 | `bifma-is-not-a-healthcare-stamp` | BIFMA is not a healthcare stamp | 1642 | `drafts/bifma-is-not-a-healthcare-stamp.md` |
-| 29 | `privacy-curtains-and-cubicle-track` | Privacy curtains and cubicle track | 2184 | `drafts/privacy-curtains-and-cubicle-track.md` |
-| 30 | `ada-in-the-resident-room` | ADA in the resident room | 2188 | `drafts/ada-in-the-resident-room.md` |
-| 31 | `memory-care-furniture` | Memory care furniture | 2133 | `drafts/memory-care-furniture.md` |
+| 29 | `privacy-curtains-and-cubicle-track` | Privacy curtains and cubicle track | 2092 | `drafts/privacy-curtains-and-cubicle-track.md` |
+| 30 | `ada-in-the-resident-room` | ADA in the resident room | 2109 | `drafts/ada-in-the-resident-room.md` |
+| 31 | `memory-care-furniture` | Memory care furniture | 2114 | `drafts/memory-care-furniture.md` |
 | 32 | `alf-vs-snf-the-residential-lie` | ALF vs SNF, the residential lie | 1946 | `drafts/alf-vs-snf-the-residential-lie.md` |
-| 33 | `channel-economics-gpo-freight-install` | Channel economics, GPO, freight, install | 2095 | `drafts/channel-economics-gpo-freight-install.md` |
+| 33 | `channel-economics-gpo-freight-install` | Channel economics, GPO, freight, install | 1923 | `drafts/channel-economics-gpo-freight-install.md` |
 | 34 | `replacement-cycles-and-capex` | Replacement cycles and CapEx | 1840 | `drafts/replacement-cycles-and-capex.md` |
 | 35 | `used-and-refurbished` | Used and refurbished | 1939 | `drafts/used-and-refurbished.md` |
 | 36 | `how-to-read-a-spec-sheet` | How to read a spec sheet | 2087 | `drafts/how-to-read-a-spec-sheet.md` |
@@ -57,7 +58,7 @@ Counted: 42 drafts. Total body words: 75,656. Average: 1801.
 | 39 | `headwalls-and-overbed-light` | Headwalls and overbed light | 1852 | `drafts/headwalls-and-overbed-light.md` |
 | 40 | `medline-catalog-vs-the-mill` | The Medline catalog vs the mill | 1542 | `drafts/medline-catalog-vs-the-mill.md` |
 | 41 | `common-myths` | Common myths | 1600 | `drafts/common-myths.md` |
-| 42 | `what-this-series-is-not` | What this series is not | 1563 | `drafts/what-this-series-is-not.md` |
+| 42 | `what-this-series-is-not` | What this series is not | 1567 | `drafts/what-this-series-is-not.md` |
 
 ## Series files (not in word band)
 
@@ -68,14 +69,15 @@ Counted: 42 drafts. Total body words: 75,656. Average: 1801.
 - `STAGING_README.md`
 - `writer-slugs.json` — 42 canonical slugs
 - `MANIFEST.md` — this file
+- `EDITOR_REPORT.md` — editor pass log
 
 ## QA notes
 
-- Independent recount 2026-09-14: all 42 inside 1,400–2,200. No missing drafts.
+- Editor recount 2026-09-14: all 42 inside 1,400–2,200. No missing drafts.
 - All `primary_keyword` values unique. All slugs unique. All `reading_order` values match `writer-slugs.json`.
 - Staged draft only. No WordPress publish dates.
 - No invented Medline SKUs, Medilodge POs, or client prices.
 - Locked public pins checked against public text this pass: FDA 2006 (691 / 413 / 120 / 158; 71 Fed. Reg. 12369); CMS 80 / 100 at 42 CFR 483.90(e)(1)(ii); MediLodge of Montrose 9317 W. Vienna Rd, CCN 235600, 121 certified beds (star ratings not frozen); Medline 1910 A.L. Mills lineage / 1966 Jim and Jon Mills, Evanston, later Northfield.
 - Later FDA hospital-bed pages carry a 1985–2013 pile (901 / 531). This series locks to the 2006 guidance numbers until a new artifact is cited.
 - Closing essay heading stripped of COSMOS / model-name talk (house style).
-- Writer pass 2026-09-14. Editor has not sat (`voice_check: written`).
+- Writer pass 2026-09-14 (`voice_check: written`). Editor pass 2026-09-14 (`voice_check: edited`); see `EDITOR_REPORT.md`.

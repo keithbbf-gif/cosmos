@@ -4,7 +4,8 @@ slug: memory-care-furniture
 series: healthcare-institutional-furniture
 status: draft
 voice: BBF
-voice_check: written
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 31
 word_target: 1400-2200
 era: "1995–2015"
@@ -105,7 +106,7 @@ Medline-era “memory collections” were often a standard package with a differ
 
 A punchout page cannot carry a care plan. It can carry a JPEG of a shadow box. The mill drawing can carry a pull that is not a rung and a rod a seated person can use. Use the drawing.
 
-Bradley Brand’s wood frames could take a new cover when the bird print died. That is a reason to build a frame that is a frame. A foam sculpture with a hidden latch is a landfill with a care plan frozen inside it. Write a way out of the latch on the same page that specifies it.
+Bradley Brand’s wood frames could take a new cover when the bird print died. A foam sculpture with a hidden latch is a landfill. Write a way out of the latch on the same page that specifies it.
 
 ## What I will not do
 

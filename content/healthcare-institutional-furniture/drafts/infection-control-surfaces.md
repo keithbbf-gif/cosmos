@@ -4,7 +4,8 @@ slug: infection-control-surfaces
 series: healthcare-institutional-furniture
 status: draft
 voice: BBF
-voice_check: written
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 25
 word_target: 1400-2200
 era: "2000–2015"

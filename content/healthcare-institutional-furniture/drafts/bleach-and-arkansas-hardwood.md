@@ -4,7 +4,8 @@ slug: bleach-and-arkansas-hardwood
 series: healthcare-institutional-furniture
 status: draft
 voice: BBF
-voice_check: written
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 26
 word_target: 1400-2200
 era: "1903–2015"
@@ -132,7 +133,7 @@ If the edge is raw, the sample already lied.
 
 ## Sources
 
-- Bradley Brand Furniture public history (1903; Warren, AR; healthcare FF&E; consumer-channel partners).
+- Bradley Brand Furniture public history (1903; Warren, AR; healthcare FF&E; retail channel faces on the public CV).
 - Keith Chambers public project list (geography of the wood).
 - Shop finish practice is mill knowledge, not an ASTM number. `[CITE NEEDED: a specific ASTM chemical-spot test if an editor wants a named method.]`
 - Infection-control chemistry: [Infection control surfaces](infection-control-surfaces.md).

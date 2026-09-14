@@ -4,7 +4,8 @@ slug: ada-in-the-resident-room
 series: healthcare-institutional-furniture
 status: draft
 voice: BBF
-voice_check: written
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 30
 word_target: 1400-2200
 era: "1990–2015"
@@ -93,15 +94,13 @@ A headboard that looks like a grab is worse than a headboard that looks like a h
 
 ## Channel notes
 
-Medline-era “ADA package” often meant a raised toilet seat and a hope. Sometimes it meant a wider door on two rooms and the same nightstand as the rest of the floor. Sometimes it meant a chair with a taller seat and a wardrobe with the same 68-inch rod as the marketing suite.
+Medline-era “ADA package” often meant a raised toilet seat and a hope — or a wider door on two rooms with the same nightstand as the rest of the floor, or a taller chair and the same 68-inch rod as the marketing suite.
 
-The punchout cannot carry a leftover. It can carry a finish name. That is why accessible rooms bought through replenishment look like standard rooms with one different object. One different object is not a type.
+The punchout cannot carry a leftover — only a finish name. Accessible rooms bought through replenishment look like standard rooms with one different object. One object is not a type.
 
-If you are buying an accessible room type, buy the **door, the toilet, the bed, the chair, the rod, and the leftover** as one type. A chair with a tall seat in a room that cannot turn is not a type. Break those rooms out of the standard package the way the room-package draft already told you to break memory care and bariatric.
+If you are buying an accessible room type, buy the **door, the toilet, the bed, the chair, the rod, and the leftover** as one type. Break those rooms out of the standard package the way the room-package draft already told you to break memory care and bariatric.
 
-Special-buys for a chain could freeze a pull. Freeze the rod height and the working-side leftover in the same buy. A pretty U-pull on a staff closet is a costume.
-
-A mill in Warren can cut a rod down and hang a second one. We cannot invent a turning circle in a double that spent its floor on two beds. Do not ask the hardwood to apologize for the envelope.
+Special-buys could freeze a pull — freeze the rod height and the working-side leftover in the same buy. A mill in Warren can cut a rod down; we cannot invent a turning circle in a double that spent its floor on two beds.
 
 ## What I write
 
@@ -109,13 +108,13 @@ A mill in Warren can cut a rod down and hang a second one. We cannot invent a tu
 
 That paragraph keeps a mill out of a lawsuit and in a reach.
 
-If the owner will not fill the blanks, you have a rendering. Renderings are how a 2010 book becomes a raised toilet seat and a hope.
+If the owner will not fill the blanks, you have a rendering — and a raised toilet seat with a hope.
 
 ## Walkthrough
 
-I sit in the chair I expect the resident to use. I reach for a hanger and a drawer pull. I look at the working side of the bed and ask whether a 30-by-48 ghost still fits. I open the door and ask whether the wardrobe is in the swing. I look at the toilet from the bed and ask whether the heights are one program.
+I sit in the chair I expect the resident to use. I reach for a hanger and a pull. I ask whether a 30-by-48 ghost still fits on the working side. I open the door and ask whether the wardrobe is in the swing. I look at the toilet from the bed and ask whether the heights are one program.
 
-If the only person who can use the closet is a CNA, the room is accessible for staff. Staff already had the room.
+If only staff can use the closet, the room is accessible for staff — not for the resident.
 
 ## Sources
 

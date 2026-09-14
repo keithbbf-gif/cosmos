@@ -4,7 +4,8 @@ slug: side-rails-restraint-and-geometry
 series: healthcare-institutional-furniture
 status: draft
 voice: BBF
-voice_check: written
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 13
 word_target: 1400-2200
 era: "1995–2015"
@@ -96,15 +97,15 @@ Furniture consequences of rail-free:
 
 If you take the steel down and leave a 28-inch-high bedside with a drawer pull like a rung, you have specified a wooden rail. Sit on the floor and look at the room the way a confused person looks at it at 3 a.m. The pulls will announce themselves.
 
-Rail-free is not a furniture style. It is a fall program that has relocated the hazard. Removing steel does not remove geometry. A half rail left “just for transfers” is still a rail at 2 a.m. if no one put it down. Intermediate, again.
+Rail-free is not a furniture style. It is a fall program that relocated the hazard. A half rail left “just for transfers” is still a rail at 2 a.m. if no one put it down.
 
 ## Channel: nicknames, pads, and the photograph
 
-Medline-era punchouts sold full, half, quarter, and assist as if they were comfort grades. They also sold pads — vinyl, foam, floral — as if cloth around steel were a dimension. A pad can spare a bruise. A pad can also change an opening and become a thicker hanger. The 2006 guidance’s accessory warning is the sentence the JPEG never printed.
+Medline-era punchouts sold full, half, quarter, and assist as comfort grades. Pads — vinyl, foam, floral — changed openings and became thicker hangers. The 2006 guidance’s accessory warning is the sentence the JPEG never printed.
 
-The channel liked a wood package next to a metal bed because the photograph looked like a bedroom. Coordination in that photograph is stain. Coordination in the room is whether the panel joins the system. I have cut a headboard return because it crowded a rail end. The cut is the specification the catalog did not write.
+The channel liked wood next to metal because the photograph looked like a bedroom. Coordination in the room is whether the panel joins the system. I have cut a headboard return because it crowded a rail end.
 
-Special-buy rail kits that arrived a year after the beds were a mixed-system problem wearing a matching paint. Paint is not a zone assessment. If the statement lists a bed from vendor A and a rail from a later year, ask who measured the openings after the kit went on. If the answer is a shrug, you have a photograph. Guidance is current thinking, not a stamp that travels with a carton. Facilities still use it because the death file was real.
+Special-buy rail kits that arrived a year after the beds were a mixed-system problem wearing matching paint. If vendor A’s bed and a later rail share a statement, ask who measured the openings after the kit went on.
 
 ## What I want written on a furniture sheet
 
@@ -112,7 +113,7 @@ Special-buy rail kits that arrived a year after the beds were a mixed-system pro
 
 That sentence will lose you a pretty SKU. It will keep you out of Zone 6.
 
-Also write: furniture heights and pulls on the bed side shall be reviewed for climb and snag if the room is rail-free or half-railed. That is not a standard. It is adult supervision. Write the rail type as a name the bed-maker uses, not as “assist,” and write that a wooden cap is an accessory.
+Also write: bed-side furniture heights and pulls shall be reviewed for climb and snag if the room is rail-free or half-railed. Write the rail type as the bed-maker names it, not as “assist,” and write that a wooden cap is an accessory.
 
 ## What to look for on a floor
 

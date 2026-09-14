@@ -4,7 +4,8 @@ slug: the-snf-room-as-a-product
 series: healthcare-institutional-furniture
 status: draft
 voice: BBF
-voice_check: written
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 3
 word_target: 1400-2200
 era: "1965–2015"

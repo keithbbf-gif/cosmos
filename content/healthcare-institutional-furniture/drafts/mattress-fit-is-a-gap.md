@@ -4,7 +4,8 @@ slug: mattress-fit-is-a-gap
 series: healthcare-institutional-furniture
 status: draft
 voice: BBF
-voice_check: written
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 15
 word_target: 1400-2200
 era: "2006–2015"

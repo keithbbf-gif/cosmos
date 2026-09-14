@@ -4,7 +4,8 @@ slug: channel-economics-gpo-freight-install
 series: healthcare-institutional-furniture
 status: draft
 voice: BBF
-voice_check: written
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 33
 word_target: 1400-2200
 era: "2008–2015"
@@ -29,11 +30,7 @@ I will not invent a multiplier. I will invent even less a Medline margin. I will
 
 ## The stack is older than the punchout
 
-Hospital purchasing learned to borrow volume before nursing homes had a catalog page. Group purchasing organizations grew up as a way for a house that is not a chain to buy like a chain: membership, a contract file, a fee someone pays, a vendor who agrees to live with the file. I am not writing a GPO history paper. I am naming the memory. The memory is the account number, the tier, the punchout, the sales rep who is in the building every Tuesday, the truck schedule, the ability to invoice a chair on the same statement as a mattress cover.
-
-Medline, as the Medline-as-a-channel draft already said, is a face: manufacturer and distributor, punchout and truck, the binder the DON already has open for gloves. Jim and Jon Mills in 1966, out of a garment-and-hospital-supply family that goes back to 1910, is enough public history. Furniture rode along because the customer was already on the account. Once a director of nursing can punch a nightstand the way she punches a case of wipes, the mill has a new kind of customer: a face that is not the mill.
-
-Bradley Brand got into that route as a possible page. Sometimes the page had a mill name. Sometimes it had a house name. I will not invent catalog numbers. I will say the educational fact: the DON saw the page. The mill saw the purchase order, if it was lucky, and the complaint, if it was not. Invisibility is how a lot of honest wood got into buildings that would never have found Warren, Arkansas on a map.
+Hospital purchasing learned to borrow volume before nursing homes had a catalog page. Group purchasing organizations grew up as a way for a house that is not a chain to buy like a chain: membership, a contract file, a fee someone pays, a vendor who agrees to live with the file. I am not writing a GPO history paper. I am naming the memory — account number, tier, punchout, Tuesday rep, truck that already carried gloves. The [Medline as a channel](medline-as-a-channel.md) draft is where that memory lives on a dock; this draft is where it becomes a price stack.
 
 The Medilodge-era lesson is not a price. It is a stack. Wood is the small part. Memory, truck, and Thursday’s two-inch cut are the rest. Medilodge of Montrose is a 121-bed house on Vienna Road. I will not invent what the stack cost there. I will say what any 121-bed Midwest SNF of that era was buying: a route, not a JPEG.
 
@@ -47,7 +44,7 @@ Educational use: when someone says “we have to use Medline,” they sometimes 
 
 I will not tell you to break a contract. I will not give you a secret mill-direct pitch. I will tell you that **a mill-direct quote and a punchout price are different animals.** One is wood and finish. The other is wood, finish, memory, truck, and someone to call when the drawer sticks. If you compare them as if they were the same number, you will pick the smaller one and then discover install, liftgate, after-hours, and a crushed crown.
 
-Compliance is a word purchasing uses to mean the file. A house that is “off contract” may still be allowed to buy a special-buy drawing. A house that is “on contract” may still be allowed to buy a mill drawing if the face opens the door. The politics are local. The statistic I will own is shop knowledge: **the worst drawings I ever saw came from a punchout screenshot forwarded as a spec.** A screenshot has no rod height and no freight sentence.
+Compliance is a word purchasing uses to mean the file. A house that is “off contract” may still be allowed to buy a special-buy drawing. A house that is “on contract” may still be allowed to buy a mill drawing if the face opens the door. The politics are local. The statistic I will own is shop knowledge: **a punchout screenshot forwarded as a spec is not a drawing.** It has no rod height, no freight sentence, and no liftgate plan.
 
 National accounts and corporate bids are cousins of the GPO. A chain that wants one vinyl in twelve buildings can get it. A chain that wants one vinyl and twelve leftovers cannot get the leftovers from the file. The file does not walk the room.
 
