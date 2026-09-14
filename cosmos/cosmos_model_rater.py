@@ -73,6 +73,7 @@ VIA_OPTIONS = (
     {"id": "oa-api", "label": "API · OpenAI", "kind": "API"},
     {"id": "sgh-api", "label": "API · xAI console", "kind": "API"},
     {"id": "cursor-api", "label": "API · Cursor", "kind": "API"},
+    {"id": "github-copilot", "label": "API · GitHub Copilot cloud", "kind": "API"},
     {"id": "dom", "label": "DOM · browser", "kind": "DOM"},
     {"id": "mcp", "label": "MCP · named server", "kind": "MCP"},
     {"id": "mcp:openwork", "label": "MCP · OpenWork", "kind": "MCP"},
@@ -1947,6 +1948,9 @@ def _selftest() -> int:
     check("MCP is a via kind",
           lambda: any(v["id"] == "mcp:openwork" and v["kind"] == "MCP"
                       for v in VIA_OPTIONS))
+    check("github-copilot is a Model Rater via (cloud agent, credit-metered)",
+          lambda: any(v["id"] == "github-copilot" and v["kind"] == "API"
+                      for v in VIA_OPTIONS))
     check("snapshot names MOTIF step 1 PROBLEM STATEMENT / STATED GOAL",
           lambda: snapshot(paths, limit=1).get("motif_step_1")
           == "PROBLEM STATEMENT / STATED GOAL")
@@ -1977,6 +1981,9 @@ def _selftest() -> int:
     check("add_adversary via=groq-api stores the rail, not a silent OpenRouter default",
           lambda: any(s["profile"] == "forge" and s.get("via") == "groq-api"
                       for s in groq["seats"]))
+    check("github-copilot is a Model Rater VIA (System rails paints GET /api/v1/rails)",
+          lambda: any(v["id"] == "github-copilot" and v["kind"] == "API"
+                      for v in VIA_OPTIONS))
     bad_via = False
     try:
         add_adversary(paths, via="openrouter/free")

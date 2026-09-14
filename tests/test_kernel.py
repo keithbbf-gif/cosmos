@@ -91,6 +91,12 @@ def main() -> int:
           lambda: all(getattr(k.adapters[lid], "spec", {}).get("dst") == "forge"
                       for lid in ("github-forge", "gitlab-forge")
                       if lid in k.adapters))
+    check("github-copilot compose row landed on writing boot",
+          lambda: "github-copilot" in composed)
+    check("github-copilot adapter is dst=code (cannot capture forge)",
+          lambda: "github-copilot" in k.adapters
+          and getattr(k.adapters["github-copilot"], "spec", {}).get("dst")
+          == "code")
 
     # ---- audit answers with measured state ----
     a = k.audit()

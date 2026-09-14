@@ -117,6 +117,11 @@ WIRED_NODES = (
     {"link_id": "gitlab-forge", "rail_type": "CLI", "src": "core",
      "dst": "forge", "family": "gitlab-cli", "module": None,
      "satellite": "gitlab-forge"},
+    # Copilot cloud agent. Credit-metered. Prove is GET /agents/tasks
+    # (never POST / `gh agent-task create`). dst=code, never forge.
+    {"link_id": "github-copilot", "rail_type": "API", "src": "core",
+     "dst": "code", "family": "github-copilot-cloud", "module": None,
+     "satellite": "github-copilot"},
 )
 
 CLI_RAILS = (
@@ -441,6 +446,31 @@ def _gitlab_forge_live_call(paths: CosmosPaths) -> dict:
     return _forge_live_call(paths, "gitlab-forge")
 
 
+def _copilot_live_call(paths: CosmosPaths) -> dict:
+    """Real GET /agents/tasks. Never POST. Never `gh agent-task create`.
+
+    The vendor names the rate-limit resource `mission_control` and the
+    documented actor is `copilot-swe-agent`. The constant is emitted ONLY
+    when the live header is present — a spec file cannot forge it.
+    """
+    from cosmos_copilot_rail import CopilotRail, key_path_for, load_spec, spec_path_for
+    sp = spec_path_for(paths)
+    spec = load_spec(sp if sp.exists() else None)
+    rail = CopilotRail(key_path_for(paths, spec), spec)
+    ok, detail = rail.probe()
+    ident = rail.last_identity() or {}
+    bound = str(ident.get("bound") or "")
+    live = bool(ok and bound)
+    body = (f"github-copilot GET /agents/tasks http={ident.get('http')} "
+            f"n={ident.get('n_tasks')} resource={ident.get('resource')} "
+            f"date={ident.get('date')}") if live else ""
+    return {"ok": live, "rc": 0 if live else 2, "body": body,
+            "body_bytes": len(body.encode("utf-8")),
+            "model": bound if live else "",
+            "model_source": "GET /agents/tasks x-ratelimit-resource=mission_control",
+            "detail": str(detail)[:300]}
+
+
 # satellite name -> (the rail module that speaks for it, its prove-shaped call).
 # ONE table: "which module IS this rail?" and "what do I call to prove it?" are
 # read off the same row, so the two answers cannot drift apart.
@@ -451,6 +481,7 @@ SATELLITES = {
     "playwright": ("cosmos_playwright_rail", _playwright_live_call),
     "github-forge": ("cosmos_forge_rail", _github_forge_live_call),
     "gitlab-forge": ("cosmos_forge_rail", _gitlab_forge_live_call),
+    "github-copilot": ("cosmos_copilot_rail", _copilot_live_call),
     "codex": ("cosmos_codex_rail", _codex_live_call),
 }
 
@@ -543,6 +574,12 @@ def _hands_configured(paths: CosmosPaths, spec: dict) -> bool:
         # REST call from poll_once(live=False) on every machine that has
         # the CLI.
         from cosmos_forge_rail import SPEC_NAME
+        return paths.config(SPEC_NAME).exists()
+    if sat == "github-copilot":
+        # Spec file is the configuration fact (same as forge/firecrawl).
+        # PATH of gh / GH_TOKEN in the environment is NOT enough — that
+        # would spend GET /agents/tasks from poll_once(live=False).
+        from cosmos_copilot_rail import SPEC_NAME
         return paths.config(SPEC_NAME).exists()
     if sat == "codex":
         # Existence only -- never a read. The rail itself reads the key at
