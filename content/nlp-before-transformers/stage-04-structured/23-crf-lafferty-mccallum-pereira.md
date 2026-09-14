@@ -9,6 +9,18 @@ publish: false
 novelty: public-record
 era: "2001"
 topics: [CRF, structured-prediction, sequence-labeling]
+  - linear-chain-crf
+  - linear-chain-crf
+portrait: null
+portrait_status: essay-only
+image_rights: documented
+image_pass: 2026-09-14
+figure_id: linear-chain-crf
+meta_description: "The conditional random field paper is short by modern standards and dense in the way a paper is dense when the authors know they are replacing a working…"
+figures:
+  - ../assets/crf-lafferty-mccallum-pereira/historical-timeline.svg
+  - ../assets/crf-lafferty-mccallum-pereira/concept-chart.svg
+  - linear-chain-crf
 ---
 
 # CRFs: Lafferty, McCallum, Pereira, 2001
@@ -21,6 +33,28 @@ defined a Markov random field over the output
 sequence, conditioned on the whole input. No
 generative story for the words. One partition function
 for the path.
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/crf-lafferty-mccallum-pereira/historical-timeline.svg" alt="Timeline of public milestones for CRFs: Lafferty, McCallum, Pereira, 2001: dated anchors from the published record, not scraped leaderboard data." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against the prose before print.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/crf-lafferty-mccallum-pereira/concept-chart.svg" alt="Concept chart for CRFs: Lafferty, McCallum, Pereira, 2001: schematic of the method or task shape (illustrative, not a copyrighted paper figure)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Schematic of the method or task — editorial diagram, not live scores.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure nlp-bt-figure--archival">
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Profile_Hidden_Markov_Model.png" alt="Chain-structured graphical model diagram." width="760" height="500" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Linear-chain graphical model plate for CRF essays. License: See Commons</figcaption>
+</figure>
+
 
 That last clause is the product. A CRF can look at any
 feature of the observation at any position — prefixes,

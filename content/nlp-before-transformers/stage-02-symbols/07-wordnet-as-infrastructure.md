@@ -9,6 +9,18 @@ publish: false
 novelty: public-record
 era: "1985-1995"
 topics: [WordNet, lexical-semantics, Miller]
+  - wordnet-hierarchy
+  - wordnet-hierarchy
+portrait: null
+portrait_status: essay-only
+image_rights: documented
+image_pass: 2026-09-14
+figure_id: wordnet-hierarchy
+meta_description: "George Miller's group at Princeton started WordNet in the mid-1980s. The public paper most people cite is the 1995 *Communications of the ACM* overview.…"
+figures:
+  - ../assets/wordnet-as-infrastructure/historical-timeline.svg
+  - ../assets/wordnet-as-infrastructure/concept-chart.svg
+  - wordnet-hierarchy
 ---
 
 # WordNet: a lexical database that became plumbing
@@ -20,6 +32,28 @@ than the paper. It grouped English words into synsets —
 near-synonym sets — and hung those sets on relations:
 hypernym, hyponym, meronym, antonym. A dictionary that
 admitted it was a graph.
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/wordnet-as-infrastructure/historical-timeline.svg" alt="Timeline of public milestones for WordNet: a lexical database that became plumbing: dated anchors from the published record, not scraped leaderboard data." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against the prose before print.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/wordnet-as-infrastructure/concept-chart.svg" alt="Concept chart for WordNet: a lexical database that became plumbing: schematic of the method or task shape (illustrative, not a copyrighted paper figure)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Schematic of the method or task — editorial diagram, not live scores.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure nlp-bt-figure--archival">
+<img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/WordNet.PNG" alt="WordNet hypernym hierarchy example as published on Wikimedia Commons." width="760" height="540" loading="lazy" decoding="async" />
+<figcaption>Figure 3. WordNet lexical hierarchy screenshot for nominative discussion of the database. License: Fair use / project screenshot; verify Commons file page before commercial print</figcaption>
+</figure>
+
 
 I used WordNet the way a carpenter uses a stud finder. Not
 as a theory of meaning. As a way to ask, in code, whether

@@ -9,6 +9,18 @@ publish: false
 novelty: public-record
 era: "1954-1957"
 topics: [distributional-hypothesis, Firth, Harris]
+  - collocation-grid
+  - collocation-grid
+portrait: null
+portrait_status: essay-only
+image_rights: documented
+image_pass: 2026-09-14
+figure_id: collocation-grid
+meta_description: "\"You shall know a word by the company it keeps.\" J. R. Firth said it in 1957, in a paper on collocation, and the sentence escaped. It is now the motto o…"
+figures:
+  - ../assets/firth-harris-and-the-company-a-word-keeps/historical-timeline.svg
+  - ../assets/firth-harris-and-the-company-a-word-keeps/concept-chart.svg
+  - collocation-grid
 ---
 
 # Firth, Harris, and the company a word keeps
@@ -24,6 +36,28 @@ pushed a harder version: distributional
 sameness is the usable notion of
 sameness. If two items occur in similar
 environments, treat them as similar.
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/firth-harris-and-the-company-a-word-keeps/historical-timeline.svg" alt="Timeline of public milestones for Firth, Harris, and the company a word keeps: dated anchors from the published record, not scraped leaderboard data." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against the prose before print.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/firth-harris-and-the-company-a-word-keeps/concept-chart.svg" alt="Concept chart for Firth, Harris, and the company a word keeps: schematic of the method or task shape (illustrative, not a copyrighted paper figure)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Schematic of the method or task — editorial diagram, not live scores.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure nlp-bt-figure--archival">
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Word_alignment.svg" alt="Aligned word pairs illustrating co-occurrence structure." width="760" height="480" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Token alignment diagram for collocation / PMI essays. License: See Commons</figcaption>
+</figure>
+
 
 I like both men better when they are
 not used as blessing-machines for a

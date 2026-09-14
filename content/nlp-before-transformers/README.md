@@ -33,6 +33,12 @@ content/nlp-before-transformers/
   README.md
   NOVELTY.md
   MANIFEST.md
+  RIGHTS.md
+  GRAPHICS_INDEX.md
+  PHOTO_NOTES.md
+  assets/<slug>/              historical-timeline.svg, concept-chart.svg
+  assets/figures/REGISTRY.toml  archival Commons plates (no portraits)
+  scripts/                    build, generate, inject, check
   stage-01-origins/           Shannon, Georgetown, ALPAC, ELIZA
   stage-02-symbols/           grammars, WordNet, FSTs, frames
   stage-03-counts-hmms/       corpora, HMMs, n-grams, IBM Models

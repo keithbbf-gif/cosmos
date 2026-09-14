@@ -9,6 +9,18 @@ publish: false
 novelty: public-record
 era: "2002"
 topics: [perceptron, structured-prediction, Collins]
+  - parse-tree-cfg
+  - parse-tree-cfg
+portrait: null
+portrait_status: essay-only
+image_rights: documented
+image_pass: 2026-09-14
+figure_id: parse-tree-cfg
+meta_description: "Michael Collins's 2002 paper on discriminative training methods for hidden Markov models — the structured perceptron in the form most NLP people met it …"
+figures:
+  - ../assets/collins-perceptron-and-search/historical-timeline.svg
+  - ../assets/collins-perceptron-and-search/concept-chart.svg
+  - parse-tree-cfg
 ---
 
 # Collins's perceptron: structure, search, and a weight vector
@@ -25,6 +37,28 @@ weights (or a good approximation).
 If it is not the gold, add the gold
 features and subtract the guessed
 ones. Repeat.
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/collins-perceptron-and-search/historical-timeline.svg" alt="Timeline of public milestones for Collins's perceptron: structure, search, and a weight vector: dated anchors from the published record, not scraped leaderboard data." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against the prose before print.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/collins-perceptron-and-search/concept-chart.svg" alt="Concept chart for Collins's perceptron: structure, search, and a weight vector: schematic of the method or task shape (illustrative, not a copyrighted paper figure)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Schematic of the method or task — editorial diagram, not live scores.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure nlp-bt-figure--archival">
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Syntax_tree.svg" alt="Context-free phrase structure tree diagram." width="760" height="520" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Phrase-structure tree used as CFG illustration. License: Public domain</figcaption>
+</figure>
+
 
 No partition function. No EM. The
 cost of training is the cost of

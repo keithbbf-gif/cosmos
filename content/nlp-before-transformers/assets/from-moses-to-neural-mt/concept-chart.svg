@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="460" viewBox="0 0 760 460" role="img" aria-labelledby="title desc">
+  <title id="title">From Pharaoh and Moses to neural MT: what actually got replaced — concept chart</title>
+  <desc id="desc">Schematic shape of the method or task. Illustrative, not live benchmark data.</desc>
+  <rect width="100%" height="100%" fill="#f7f5f0"/>
+  <text x="24" y="36" font-family="Source Serif 4, Georgia, serif" font-size="20" font-weight="600" fill="#1a2332">From Pharaoh and Moses to neural MT: what actually got replaced — concept ch</text>
+  <text x="24" y="58" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#5c6570">Schematic shape of the method or task. Illustrative, not live benchmark data.</text>
+  <defs><marker id="ah" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#2d5a8a"/></marker></defs>
+  <rect x="24" y="72" width="712" height="360" fill="#eceae4" stroke="#c8cdd4" rx="4"/>
+  <rect x="48" y="120" width="220" height="100" rx="6" fill="#f7f5f0" stroke="#c8cdd4"/>
+  <text x="158.0" y="175.0" text-anchor="middle" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#1a2332">encoder states</text>
+  <rect x="480" y="120" width="220" height="100" rx="6" fill="#f7f5f0" stroke="#c8cdd4"/>
+  <text x="590.0" y="175.0" text-anchor="middle" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#1a2332">decoder step</text>
+  <rect x="300" y="260" width="160" height="48" rx="6" fill="#2d5a8a" stroke="#c8cdd4"/>
+  <text x="380.0" y="289.0" text-anchor="middle" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#1a2332">soft alignment</text>
+  <line x1="270" y1="170" x2="300" y2="260" stroke="#2d5a8a" stroke-width="2" marker-end="url(#ah)"/>
+  <line x1="460" y1="170" x2="380" y2="260" stroke="#2d5a8a" stroke-width="2" marker-end="url(#ah)"/>
+  <text x="24" y="446" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" fill="#5c6570">Original staged diagram — not a paper figure scan. nlp-before-transformers.</text>
+</svg>

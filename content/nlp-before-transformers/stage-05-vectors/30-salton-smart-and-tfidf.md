@@ -9,6 +9,18 @@ publish: false
 novelty: public-record
 era: "1971-1988"
 topics: [Salton, SMART, TF-IDF, vector-space]
+  - vector-space-plot
+  - vector-space-plot
+portrait: null
+portrait_status: essay-only
+image_rights: documented
+image_pass: 2026-09-14
+figure_id: vector-space-plot
+meta_description: "Before embeddings were a lifestyle, Gerald Salton's SMART system treated documents and queries as vectors and ranked by cosine similarity. The work runs…"
+figures:
+  - ../assets/salton-smart-and-tfidf/historical-timeline.svg
+  - ../assets/salton-smart-and-tfidf/concept-chart.svg
+  - vector-space-plot
 ---
 
 # Salton's SMART: the vector space that search actually used
@@ -19,6 +31,28 @@ by cosine similarity. The work runs from the 1960s through
 the 1980s. TF-IDF weighting — term frequency times inverse
 document frequency — is the piece that escaped into every
 stack-overflow answer and every first lecture on IR.
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/salton-smart-and-tfidf/historical-timeline.svg" alt="Timeline of public milestones for Salton's SMART: the vector space that search actually used: dated anchors from the published record, not scraped leaderboard data." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against the prose before print.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/salton-smart-and-tfidf/concept-chart.svg" alt="Concept chart for Salton's SMART: the vector space that search actually used: schematic of the method or task shape (illustrative, not a copyrighted paper figure)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Schematic of the method or task — editorial diagram, not live scores.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure nlp-bt-figure--archival">
+<img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/WordNet.PNG" alt="WordNet hierarchy illustrating relational structure in a lexicon." width="760" height="540" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Lexical hierarchy as stand-in for vector-space organization. License: See Commons</figcaption>
+</figure>
+
 
 IDF is the taste. A word that appears in every document
 does not help you choose. A word that appears in two

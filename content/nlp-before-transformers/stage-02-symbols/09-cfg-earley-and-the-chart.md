@@ -9,6 +9,18 @@ publish: false
 novelty: public-record
 era: "1956-1970"
 topics: [CFG, Earley, CYK, chart-parsing]
+  - parse-tree-cfg
+  - parse-tree-cfg
+portrait: null
+portrait_status: essay-only
+image_rights: documented
+image_pass: 2026-09-14
+figure_id: parse-tree-cfg
+meta_description: "Chomsky's hierarchy put context-free grammars in a sweet spot. Expressive enough to be interesting, constrained enough to be computable. Jay Earley's 19…"
+figures:
+  - ../assets/cfg-earley-and-the-chart/historical-timeline.svg
+  - ../assets/cfg-earley-and-the-chart/concept-chart.svg
+  - parse-tree-cfg
 ---
 
 # CFGs, Earley, and the chart: parsing as bookkeeping
@@ -20,6 +32,28 @@ the slightly earlier Cocke–Younger–Kasami dynamic program,
 turned that spot into software. You fill a chart. Each
 cell is a span and a nonterminal. You do not wander the
 forest hoping a tree appears.
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/cfg-earley-and-the-chart/historical-timeline.svg" alt="Timeline of public milestones for CFGs, Earley, and the chart: parsing as bookkeeping: dated anchors from the published record, not scraped leaderboard data." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against the prose before print.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/cfg-earley-and-the-chart/concept-chart.svg" alt="Concept chart for CFGs, Earley, and the chart: parsing as bookkeeping: schematic of the method or task shape (illustrative, not a copyrighted paper figure)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Schematic of the method or task — editorial diagram, not live scores.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure nlp-bt-figure--archival">
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Syntax_tree.svg" alt="Context-free phrase structure tree diagram." width="760" height="520" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Phrase-structure tree used as CFG illustration. License: Public domain</figcaption>
+</figure>
+
 
 A chart parser is bookkeeping with a theory. The theory
 says a sentence is a tree. The bookkeeping says we will

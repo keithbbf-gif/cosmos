@@ -9,6 +9,18 @@ publish: false
 novelty: public-record
 era: "1953-1999"
 topics: [smoothing, Good-Turing, Kneser-Ney]
+  - ngram-count-table
+  - ngram-count-table
+portrait: null
+portrait_status: essay-only
+image_rights: documented
+image_pass: 2026-09-14
+figure_id: ngram-count-table
+meta_description: "Zipf's law is not a trivia item. It is the reason language modeling is a tail problem. A few words do most of the work. An endless list of words do almo…"
+figures:
+  - ../assets/smoothing-the-tail-is-the-job/historical-timeline.svg
+  - ../assets/smoothing-the-tail-is-the-job/concept-chart.svg
+  - ngram-count-table
 ---
 
 # Smoothing: Good–Turing, Kneser–Ney, and the dignity of the tail
@@ -18,6 +30,28 @@ language modeling is a tail problem. A few words
 do most of the work. An endless list of words do
 almost none, until the one time they do and your
 model assigns them nothing.
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/smoothing-the-tail-is-the-job/historical-timeline.svg" alt="Timeline of public milestones for Smoothing: Good–Turing, Kneser–Ney, and the dignity of the tail: dated anchors from the published record, not scraped leaderboard data." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against the prose before print.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/smoothing-the-tail-is-the-job/concept-chart.svg" alt="Concept chart for Smoothing: Good–Turing, Kneser–Ney, and the dignity of the tail: schematic of the method or task shape (illustrative, not a copyrighted paper figure)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Schematic of the method or task — editorial diagram, not live scores.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure nlp-bt-figure--archival">
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Shannon_communication_system.svg" alt="Information channel diagram tied to prediction and counting." width="760" height="400" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Shannon communication diagram as entropy / prediction visual. License: Public domain</figcaption>
+</figure>
+
 
 I. J. Good's 1953 twist on Turing's wartime
 thinking — Good–Turing frequency estimation —

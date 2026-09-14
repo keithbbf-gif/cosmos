@@ -9,6 +9,16 @@ publish: false
 novelty: public-record
 era: "1983-2003"
 topics: [FST, morphology, Karttunen, two-level]
+portrait: null
+portrait_status: essay-only
+image_rights: documented
+image_pass: 2026-09-14
+figure_id: fsm-diagram
+meta_description: "If you only read ACL anthologies from the neural years, you could miss the fact that a huge amount of language is morphology, and that morphology is a f…"
+figures:
+  - ../assets/finite-state-morphology/historical-timeline.svg
+  - ../assets/finite-state-morphology/concept-chart.svg
+  - fsm-diagram
 ---
 
 # Finite-state morphology: the unglamorous machine that worked
@@ -20,6 +30,28 @@ for a startling range of languages. Kimmo Koskenniemi's
 two-level morphology (1983) and the Xerox work associated
 with Lauri Karttunen, Ronald Kaplan, and later Kenneth
 Beesley gave that fact a toolkit.
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/finite-state-morphology/historical-timeline.svg" alt="Timeline of public milestones for Finite-state morphology: the unglamorous machine that worked: dated anchors from the published record, not scraped leaderboard data." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against the prose before print.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/finite-state-morphology/concept-chart.svg" alt="Concept chart for Finite-state morphology: the unglamorous machine that worked: schematic of the method or task shape (illustrative, not a copyrighted paper figure)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Schematic of the method or task — editorial diagram, not live scores.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure nlp-bt-figure--archival">
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Finite_state_machine_example_with_comments-bn.svg" alt="Finite-state machine diagram with labeled states and transitions." width="760" height="480" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Finite-state machine state diagram with transitions. License: CC BY-SA (verify on Commons)</figcaption>
+</figure>
+
 
 Two-level rules say: here is a lexical form, here is a
 surface form, here are constraints that must hold between

@@ -9,6 +9,16 @@ publish: false
 novelty: public-record
 era: "1948"
 topics: [information-theory, n-grams, language-models]
+portrait: null
+portrait_status: essay-only
+image_rights: documented
+image_pass: 2026-09-14
+figure_id: shannon-channel-diagram
+meta_description: "Most origin stories for natural language processing start with a demo or a linguist. I start with a Bell Labs paper that barely mentions meaning. Claude…"
+figures:
+  - ../assets/shannon-1948-language-as-a-channel/historical-timeline.svg
+  - ../assets/shannon-1948-language-as-a-channel/concept-chart.svg
+  - shannon-channel-diagram
 ---
 
 # Shannon 1948: language as a channel, not a mind
@@ -18,6 +28,28 @@ demo or a linguist. I start with a Bell Labs paper that barely
 mentions meaning. Claude Shannon's *A Mathematical Theory of
 Communication* (1948) treated English the way an engineer treats a
 noisy wire: symbols in, symbols out, uncertainty in the middle.
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/shannon-1948-language-as-a-channel/historical-timeline.svg" alt="Timeline of public milestones for Shannon 1948: language as a channel, not a mind: dated anchors from the published record, not scraped leaderboard data." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against the prose before print.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/shannon-1948-language-as-a-channel/concept-chart.svg" alt="Concept chart for Shannon 1948: language as a channel, not a mind: schematic of the method or task shape (illustrative, not a copyrighted paper figure)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Schematic of the method or task — editorial diagram, not live scores.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure nlp-bt-figure--archival">
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Shannon_communication_system.svg" alt="Block diagram of a communication channel with source, transmitter, channel, receiver, and destination." width="760" height="400" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Claude Shannon’s block diagram of a general communication system (Commons). License: Public domain</figcaption>
+</figure>
+
 
 That sounds cold. It was also the first time a serious technical
 community had a way to *measure* how surprising the next word is.

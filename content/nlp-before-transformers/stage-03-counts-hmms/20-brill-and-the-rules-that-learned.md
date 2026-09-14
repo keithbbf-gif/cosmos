@@ -9,6 +9,18 @@ publish: false
 novelty: public-record
 era: "1992-1995"
 topics: [Brill-tagger, transformation-based-learning, POS]
+  - pos-tag-example
+  - pos-tag-example
+portrait: null
+portrait_status: essay-only
+image_rights: documented
+image_pass: 2026-09-14
+figure_id: pos-tag-example
+meta_description: "Eric Brill's transformation-based tagger (papers in the early 1990s, the *Computational Linguistics* account in 1995) starts with a simple guess — most-…"
+figures:
+  - ../assets/brill-and-the-rules-that-learned/historical-timeline.svg
+  - ../assets/brill-and-the-rules-that-learned/concept-chart.svg
+  - pos-tag-example
 ---
 
 # Brill's tagger: rules that learned, and why that felt like a truce
@@ -22,6 +34,28 @@ rules. "Change NN to VB if the previous tag
 is TO." The rules are readable. You can argue
 with them. They also come from a greedy search
 over a training set, not from a committee.
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/brill-and-the-rules-that-learned/historical-timeline.svg" alt="Timeline of public milestones for Brill's tagger: rules that learned, and why that felt like a truce: dated anchors from the published record, not scraped leaderboard data." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against the prose before print.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/brill-and-the-rules-that-learned/concept-chart.svg" alt="Concept chart for Brill's tagger: rules that learned, and why that felt like a truce: schematic of the method or task shape (illustrative, not a copyrighted paper figure)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Schematic of the method or task — editorial diagram, not live scores.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure nlp-bt-figure--archival">
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Syntax_tree.svg" alt="Phrase-structure tree for tagging essays." width="760" height="520" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Tree diagram as visual shorthand for part-of-speech structure. License: Public domain</figcaption>
+</figure>
+
 
 That combination is why people who hated
 pure statistics and people who hated pure

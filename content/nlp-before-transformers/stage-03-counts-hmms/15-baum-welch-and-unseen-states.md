@@ -9,6 +9,18 @@ publish: false
 novelty: public-record
 era: "1970"
 topics: [Baum-Welch, EM, HMM-training]
+  - hmm-trellis
+  - hmm-trellis
+portrait: null
+portrait_status: essay-only
+image_rights: documented
+image_pass: 2026-09-14
+figure_id: hmm-trellis
+meta_description: "Supervised tagging is counting. You have words and gold tags, you tally transitions and emissions, you smooth, you decode. Life is kind. Speech and some…"
+figures:
+  - ../assets/baum-welch-and-unseen-states/historical-timeline.svg
+  - ../assets/baum-welch-and-unseen-states/concept-chart.svg
+  - hmm-trellis
 ---
 
 # Baum–Welch: learning when you cannot see the states
@@ -20,6 +32,28 @@ unsupervised NLP problems are not kind. You hear
 the frames. You do not hear the phone sequence. You
 need a way to guess the hidden path and update the
 parameters anyway.
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/baum-welch-and-unseen-states/historical-timeline.svg" alt="Timeline of public milestones for Baum–Welch: learning when you cannot see the states: dated anchors from the published record, not scraped leaderboard data." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against the prose before print.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/baum-welch-and-unseen-states/concept-chart.svg" alt="Concept chart for Baum–Welch: learning when you cannot see the states: schematic of the method or task shape (illustrative, not a copyrighted paper figure)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Schematic of the method or task — editorial diagram, not live scores.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure nlp-bt-figure--archival">
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Profile_Hidden_Markov_Model.png" alt="Hidden Markov model state and emission schematic." width="760" height="500" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Profile hidden Markov model diagram. License: CC BY-SA or PD (verify on Commons)</figcaption>
+</figure>
+
 
 Baum–Welch is expectation-maximization for HMMs.
 The E-step uses forward-backward to get soft counts:

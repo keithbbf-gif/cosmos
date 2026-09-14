@@ -9,6 +9,18 @@ publish: false
 novelty: public-record
 era: "1966"
 topics: [ELIZA, dialogue, Weizenbaum]
+  - teletype-epa
+  - teletype-epa
+portrait: null
+portrait_status: essay-only
+image_rights: documented
+image_pass: 2026-09-14
+figure_id: teletype-epa
+meta_description: "Joseph Weizenbaum wrote ELIZA at MIT in the mid-1960s. The famous script, DOCTOR, played a Rogerian psychotherapist. It looked for a keyword, applied a …"
+figures:
+  - ../assets/eliza-and-the-willingness-to-believe/historical-timeline.svg
+  - ../assets/eliza-and-the-willingness-to-believe/concept-chart.svg
+  - teletype-epa
 ---
 
 # ELIZA and the first users who wanted to believe
@@ -19,6 +31,28 @@ looked for a keyword, applied a transformation rule, and bounced
 your sentence back with a pronoun swap. "I am unhappy" became
 something like "How long have you been unhappy?" The program
 did not know what unhappy was. It knew a pattern.
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/eliza-and-the-willingness-to-believe/historical-timeline.svg" alt="Timeline of public milestones for ELIZA and the first users who wanted to believe: dated anchors from the published record, not scraped leaderboard data." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against the prose before print.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/eliza-and-the-willingness-to-believe/concept-chart.svg" alt="Concept chart for ELIZA and the first users who wanted to believe: schematic of the method or task shape (illustrative, not a copyrighted paper figure)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Schematic of the method or task — editorial diagram, not live scores.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure nlp-bt-figure--archival">
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Cyrillic_teletype_keyboard.jpg" alt="Teletype keyboard hardware associated with 1960s interactive text systems." width="760" height="570" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Teletype keyboard — hardware context for ELIZA-era dialogue systems. License: Public domain or CC-BY-SA (verify on Commons)</figcaption>
+</figure>
+
 
 Weizenbaum published the account in 1966 in the *Communications
 of the ACM*. He was already uneasy. Secretaries and colleagues

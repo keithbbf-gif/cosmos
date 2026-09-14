@@ -9,6 +9,18 @@ publish: false
 novelty: public-record
 era: "1992"
 topics: [Brown-clustering, word-classes, features]
+  - cluster-tree
+  - cluster-tree
+portrait: null
+portrait_status: essay-only
+image_rights: documented
+image_pass: 2026-09-14
+figure_id: cluster-tree
+meta_description: "Peter Brown and colleagues at IBM (1992) clustered words by a class-based n-gram criterion. Words that behave similarly in a language model get similar …"
+figures:
+  - ../assets/brown-clustering-the-unfashionable-cousin/historical-timeline.svg
+  - ../assets/brown-clustering-the-unfashionable-cousin/concept-chart.svg
+  - cluster-tree
 ---
 
 # Brown clustering: the unfashionable cousin that still worked
@@ -19,6 +31,28 @@ language model get similar bit-string prefixes. The output is
 a hierarchy, not a dense vector. You can cut the tree at
 different depths and get coarse or fine classes. Length 4 is
 a neighborhood. Length 12 is almost a word.
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/brown-clustering-the-unfashionable-cousin/historical-timeline.svg" alt="Timeline of public milestones for Brown clustering: the unfashionable cousin that still worked: dated anchors from the published record, not scraped leaderboard data." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against the prose before print.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/brown-clustering-the-unfashionable-cousin/concept-chart.svg" alt="Concept chart for Brown clustering: the unfashionable cousin that still worked: schematic of the method or task shape (illustrative, not a copyrighted paper figure)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Schematic of the method or task — editorial diagram, not live scores.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure nlp-bt-figure--archival">
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Syntax_tree.svg" alt="Tree structure diagram." width="760" height="520" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Tree diagram for hierarchical clustering essays. License: Public domain</figcaption>
+</figure>
+
 
 In the CRF years this was gold. A Brown cluster prefix of
 length 4 or 6 was a feature that said "these words play

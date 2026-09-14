@@ -9,6 +9,18 @@ publish: false
 novelty: public-record
 era: "1972-1990"
 topics: [Jelinek, speech, noisy-channel, IBM]
+  - speech-spectrogram-pd
+  - speech-spectrogram-pd
+portrait: null
+portrait_status: essay-only
+image_rights: documented
+image_pass: 2026-09-14
+figure_id: speech-spectrogram-pd
+meta_description: "Frederick Jelinek's group at IBM is one of the reasons NLP became an empirical engineering field instead of remaining a branch of computational philosop…"
+figures:
+  - ../assets/jelinek-and-the-speech-people/historical-timeline.svg
+  - ../assets/jelinek-and-the-speech-people/concept-chart.svg
+  - speech-spectrogram-pd
 ---
 
 # Jelinek's lab: the speech people who taught NLP to count
@@ -21,6 +33,28 @@ recognition is unforgiving. The audio does
 not care about your competence grammar. Word
 error rate is public. You either decode the
 utterance or you do not.
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/jelinek-and-the-speech-people/historical-timeline.svg" alt="Timeline of public milestones for Jelinek's lab: the speech people who taught NLP to count: dated anchors from the published record, not scraped leaderboard data." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against the prose before print.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/jelinek-and-the-speech-people/concept-chart.svg" alt="Concept chart for Jelinek's lab: the speech people who taught NLP to count: schematic of the method or task shape (illustrative, not a copyrighted paper figure)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Schematic of the method or task — editorial diagram, not live scores.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure nlp-bt-figure--archival">
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/c6/Short-window_reassigned_spectrogram_of_speech.png" alt="Reassigned spectrogram of a speech signal." width="760" height="400" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Speech spectrogram — acoustic evidence channel for HMM speech work. License: CC BY-SA (verify on Commons)</figcaption>
+</figure>
+
 
 The noisy-channel recipe they used — acoustic
 model times language model, pick the word

@@ -9,6 +9,18 @@ publish: false
 novelty: public-record
 era: "2003"
 topics: [LDA, topic-models, Blei]
+  - topic-mixture-plate
+  - topic-mixture-plate
+portrait: null
+portrait_status: essay-only
+image_rights: documented
+image_pass: 2026-09-14
+figure_id: topic-mixture-plate
+meta_description: "Latent Dirichlet Allocation (David Blei, Andrew Ng, Michael Jordan, *Journal of Machine Learning Research*, 2003) gave the 2000s a default way to say \"w…"
+figures:
+  - ../assets/lda-topics-as-mixtures/historical-timeline.svg
+  - ../assets/lda-topics-as-mixtures/concept-chart.svg
+  - topic-mixture-plate
 ---
 
 # LDA: Blei, Ng, Jordan, and topics as mixtures
@@ -20,6 +32,28 @@ document is a mixture of topics. A topic is a distribution over words.
 The Dirichlet priors keep the mixtures from going uniform and sloppy.
 You infer with variational methods or Gibbs sampling, then you stare
 at the top words.
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/lda-topics-as-mixtures/historical-timeline.svg" alt="Timeline of public milestones for LDA: Blei, Ng, Jordan, and topics as mixtures: dated anchors from the published record, not scraped leaderboard data." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against the prose before print.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/lda-topics-as-mixtures/concept-chart.svg" alt="Concept chart for LDA: Blei, Ng, Jordan, and topics as mixtures: schematic of the method or task shape (illustrative, not a copyrighted paper figure)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Schematic of the method or task — editorial diagram, not live scores.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure nlp-bt-figure--archival">
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Latent_Dirichlet_allocation.svg" alt="LDA plate model showing topics, words, and documents." width="760" height="480" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Latent Dirichlet allocation generative plate. License: See Commons</figcaption>
+</figure>
+
 
 I have stared at a lot of top words. Sometimes you get a clean
 "sports" column and a clean "finance" column. Sometimes you get a

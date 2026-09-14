@@ -9,6 +9,18 @@ publish: false
 novelty: public-record
 era: "2014"
 topics: [seq2seq, NMT, encoder-decoder]
+  - encoder-decoder
+  - encoder-decoder
+portrait: null
+portrait_status: essay-only
+image_rights: documented
+image_pass: 2026-09-14
+figure_id: encoder-decoder
+meta_description: "The NIPS 2014 paper \"Sequence to Sequence Learning with Neural Networks\" is a dare. Read a source sentence with an LSTM. Take the last hidden state. Gro…"
+figures:
+  - ../assets/sutskever-vinyals-le-2014/historical-timeline.svg
+  - ../assets/sutskever-vinyals-le-2014/concept-chart.svg
+  - encoder-decoder
 ---
 
 # Sutskever, Vinyals, Le 2014: sequence to sequence, no apology
@@ -20,6 +32,28 @@ sentence from that state, one token at a time, with
 another LSTM. Train it on a lot of bitext. Decode with
 a beam. No alignment table. No phrase pairs. No feature
 template that says "German verb goes to the end."
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/sutskever-vinyals-le-2014/historical-timeline.svg" alt="Timeline of public milestones for Sutskever, Vinyals, Le 2014: sequence to sequence, no apology: dated anchors from the published record, not scraped leaderboard data." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against the prose before print.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/sutskever-vinyals-le-2014/concept-chart.svg" alt="Concept chart for Sutskever, Vinyals, Le 2014: sequence to sequence, no apology: schematic of the method or task shape (illustrative, not a copyrighted paper figure)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Schematic of the method or task — editorial diagram, not live scores.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure nlp-bt-figure--archival">
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/T5_encoder-decoder_structure.svg" alt="Encoder-decoder transformer-style block diagram." width="760" height="480" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Encoder-decoder architecture for seq2seq essays. License: See Commons</figcaption>
+</figure>
+
 
 They reversed the source sentence. That detail is easy
 to treat as trivia. It is not trivia. Reversing

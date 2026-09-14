@@ -9,6 +9,18 @@ publish: false
 novelty: public-record
 era: "1966-1989"
 topics: [HMM, speech, POS-tagging, Rabiner]
+  - hmm-trellis
+  - hmm-trellis
+portrait: null
+portrait_status: essay-only
+image_rights: documented
+image_pass: 2026-09-14
+figure_id: hmm-trellis
+meta_description: "An HMM is a small story. There is a chain of hidden states. Each state emits an observation. You see the emissions. You do not see the chain. You guess …"
+figures:
+  - ../assets/hidden-markov-models-the-quiet-engine/historical-timeline.svg
+  - ../assets/hidden-markov-models-the-quiet-engine/concept-chart.svg
+  - hmm-trellis
 ---
 
 # Hidden Markov Models: the quiet engine under speech and tags
@@ -17,6 +29,28 @@ An HMM is a small story. There is a chain of hidden
 states. Each state emits an observation. You see the
 emissions. You do not see the chain. You guess the
 chain anyway, because the guess is useful.
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/hidden-markov-models-the-quiet-engine/historical-timeline.svg" alt="Timeline of public milestones for Hidden Markov Models: the quiet engine under speech and tags: dated anchors from the published record, not scraped leaderboard data." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against the prose before print.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/hidden-markov-models-the-quiet-engine/concept-chart.svg" alt="Concept chart for Hidden Markov Models: the quiet engine under speech and tags: schematic of the method or task shape (illustrative, not a copyrighted paper figure)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Schematic of the method or task — editorial diagram, not live scores.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure nlp-bt-figure--archival">
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Profile_Hidden_Markov_Model.png" alt="Hidden Markov model state and emission schematic." width="760" height="500" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Profile hidden Markov model diagram. License: CC BY-SA or PD (verify on Commons)</figcaption>
+</figure>
+
 
 Leonard E. Baum and colleagues developed the mathematics
 in the 1960s. Andrew Viterbi's 1967 decoding algorithm

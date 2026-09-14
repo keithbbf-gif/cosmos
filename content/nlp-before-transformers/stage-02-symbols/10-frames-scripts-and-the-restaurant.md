@@ -9,6 +9,18 @@ publish: false
 novelty: public-record
 era: "1974-1977"
 topics: [frames, scripts, Schank, Minsky, Fillmore]
+  - restaurant-script-schema
+  - restaurant-script-schema
+portrait: null
+portrait_status: essay-only
+image_rights: documented
+image_pass: 2026-09-14
+figure_id: restaurant-script-schema
+meta_description: "Two 1970s ideas tried to put common sense into a form a program could hold. Marvin Minsky's frame paper (1974) said an object or a situation comes with …"
+figures:
+  - ../assets/frames-scripts-and-the-restaurant/historical-timeline.svg
+  - ../assets/frames-scripts-and-the-restaurant/concept-chart.svg
+  - restaurant-script-schema
 ---
 
 # Frames, scripts, and the restaurant that stood for the world
@@ -21,6 +33,28 @@ defaults. Roger Schank and Robert Abelson's scripts
 stereotyped sequence: enter, sit, order, eat, pay,
 leave. Charles Fillmore's case frames and later FrameNet
 were a linguistic cousin: verbs come with roles.
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/frames-scripts-and-the-restaurant/historical-timeline.svg" alt="Timeline of public milestones for Frames, scripts, and the restaurant that stood for the world: dated anchors from the published record, not scraped leaderboard data." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against the prose before print.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/frames-scripts-and-the-restaurant/concept-chart.svg" alt="Concept chart for Frames, scripts, and the restaurant that stood for the world: schematic of the method or task shape (illustrative, not a copyrighted paper figure)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Schematic of the method or task — editorial diagram, not live scores.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure nlp-bt-figure--archival">
+<img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/WordNet.PNG" alt="Hierarchical lexical relations diagram." width="760" height="540" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Lexical hierarchy plate standing in for script-style knowledge organization. License: See Commons file page</figcaption>
+</figure>
+
 
 The restaurant script is the example that escaped the
 lab. It is easy to teach and easy to mock. Real

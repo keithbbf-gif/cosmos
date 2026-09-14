@@ -9,6 +9,16 @@ publish: false
 novelty: public-record
 era: "1977-2013"
 topics: [dialogue, slot-filling, POMDP, ATIS]
+portrait: null
+portrait_status: essay-only
+image_rights: documented
+image_pass: 2026-09-14
+figure_id: phone-ivr-flow
+meta_description: "Long before anyone trained a sequence model to chat, people talked to machines on the phone. The machines were not trying to be charming. They were tryi…"
+figures:
+  - ../assets/dialogue-before-seq2seq/historical-timeline.svg
+  - ../assets/dialogue-before-seq2seq/concept-chart.svg
+  - phone-ivr-flow
 ---
 
 # Dialogue before seq2seq: slots, states, and the phone tree
@@ -19,6 +29,28 @@ trying to be charming. They were trying to book a flight
 or reset a bill. ATIS (Airline Travel Information System)
 in the early 1990s gave the research version a corpus.
 Commercial IVR gave it a budget and a hold music.
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/dialogue-before-seq2seq/historical-timeline.svg" alt="Timeline of public milestones for Dialogue before seq2seq: slots, states, and the phone tree: dated anchors from the published record, not scraped leaderboard data." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against the prose before print.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/dialogue-before-seq2seq/concept-chart.svg" alt="Concept chart for Dialogue before seq2seq: slots, states, and the phone tree: schematic of the method or task shape (illustrative, not a copyrighted paper figure)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Schematic of the method or task — editorial diagram, not live scores.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure nlp-bt-figure--archival">
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Cyrillic_teletype_keyboard.jpg" alt="Teletype keyboard for text-based dialogue systems." width="760" height="570" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Teletype hardware as pre-smartphone dialogue infrastructure. License: See Commons</figcaption>
+</figure>
+
 
 The architecture that lasted is almost embarrassing to
 draw. You have an intent. You have slots. You have a

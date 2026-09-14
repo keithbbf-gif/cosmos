@@ -9,6 +9,18 @@ publish: false
 novelty: public-record
 era: "2008-2011"
 topics: [SENNA, Collobert, Weston, multitask]
+  - cnn-nlp-pipeline
+  - cnn-nlp-pipeline
+portrait: null
+portrait_status: essay-only
+image_rights: documented
+image_pass: 2026-09-14
+figure_id: cnn-nlp-pipeline
+meta_description: "Ronan Collobert and Jason Weston — with later coauthors on the 2011 *JMLR* version, including Léon Bottou, Michael Karlen, Koray Kavukcuoglu, and Pavel …"
+figures:
+  - ../assets/collobert-weston-senna/historical-timeline.svg
+  - ../assets/collobert-weston-senna/concept-chart.svg
+  - cnn-nlp-pipeline
 ---
 
 # Collobert and Weston: almost end-to-end NLP in 2011
@@ -22,6 +34,28 @@ The system that traveled was called SENNA. The attitude that traveled
 was more important. Stop handing the model a bag of engineered
 features. Hand it windows of words and let the lookup table absorb
 the lexicon.
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/collobert-weston-senna/historical-timeline.svg" alt="Timeline of public milestones for Collobert and Weston: almost end-to-end NLP in 2011: dated anchors from the published record, not scraped leaderboard data." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against the prose before print.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/collobert-weston-senna/concept-chart.svg" alt="Concept chart for Collobert and Weston: almost end-to-end NLP in 2011: schematic of the method or task shape (illustrative, not a copyrighted paper figure)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Schematic of the method or task — editorial diagram, not live scores.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure nlp-bt-figure--archival">
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/T5_encoder-decoder_structure.svg" alt="Deep neural encoder architecture schematic." width="760" height="480" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Neural pipeline diagram for convolutional NLP era essays. License: See Commons</figcaption>
+</figure>
+
 
 They used a ranking-style objective and a lot of unlabeled text to
 pretrain the embeddings. That sentence should sound familiar. It is

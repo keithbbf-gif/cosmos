@@ -9,6 +9,18 @@ publish: false
 novelty: public-record
 era: "1990"
 topics: [PMI, collocation, Church, Hanks]
+  - collocation-grid
+  - collocation-grid
+portrait: null
+portrait_status: essay-only
+image_rights: documented
+image_pass: 2026-09-14
+figure_id: collocation-grid
+meta_description: "Kenneth Church and Patrick Hanks, 1990, \"Word Association Norms, Mutual Information, and Lexicography.\" They took a simple information-theoretic score —…"
+figures:
+  - ../assets/pmi-church-and-hanks/historical-timeline.svg
+  - ../assets/pmi-church-and-hanks/concept-chart.svg
+  - collocation-grid
 ---
 
 # Church and Hanks: PMI and the collocation as a number
@@ -19,6 +31,28 @@ information-theoretic score — how much more do two words happen
 together than chance would allow — and used it as a
 lexicographer's tool. Pointwise mutual information. A number for
 "this pair is not an accident."
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/pmi-church-and-hanks/historical-timeline.svg" alt="Timeline of public milestones for Church and Hanks: PMI and the collocation as a number: dated anchors from the published record, not scraped leaderboard data." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against the prose before print.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/pmi-church-and-hanks/concept-chart.svg" alt="Concept chart for Church and Hanks: PMI and the collocation as a number: schematic of the method or task shape (illustrative, not a copyrighted paper figure)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Schematic of the method or task — editorial diagram, not live scores.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure nlp-bt-figure--archival">
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Word_alignment.svg" alt="Aligned word pairs illustrating co-occurrence structure." width="760" height="480" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Token alignment diagram for collocation / PMI essays. License: See Commons</figcaption>
+</figure>
+
 
 The formula is a log of a ratio: joint probability over the
 product of the marginals. If "San" and "Francisco" are almost

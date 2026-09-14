@@ -9,6 +9,18 @@ publish: false
 novelty: public-record
 era: "2016"
 topics: [seq2seq, limitations, pre-transformer]
+  - encoder-decoder
+  - encoder-decoder
+portrait: null
+portrait_status: essay-only
+image_rights: documented
+image_pass: 2026-09-14
+figure_id: encoder-decoder
+meta_description: "This is the last essay on purpose. It is not a transformer paper. It is a list of public bruises that attentional seq2seq still wore when *Attention Is …"
+figures:
+  - ../assets/what-seq2seq-still-could-not-do/historical-timeline.svg
+  - ../assets/what-seq2seq-still-could-not-do/concept-chart.svg
+  - encoder-decoder
 ---
 
 # What seq2seq still could not do in 2016
@@ -24,6 +36,28 @@ when *Attention Is
 All You Need* showed
 up on arXiv in June
 2017.
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/what-seq2seq-still-could-not-do/historical-timeline.svg" alt="Timeline of public milestones for What seq2seq still could not do in 2016: dated anchors from the published record, not scraped leaderboard data." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against the prose before print.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/what-seq2seq-still-could-not-do/concept-chart.svg" alt="Concept chart for What seq2seq still could not do in 2016: schematic of the method or task shape (illustrative, not a copyrighted paper figure)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Schematic of the method or task — editorial diagram, not live scores.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure nlp-bt-figure--archival">
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/T5_encoder-decoder_structure.svg" alt="Encoder-decoder transformer-style block diagram." width="760" height="480" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Encoder-decoder architecture for seq2seq essays. License: See Commons</figcaption>
+</figure>
+
 
 Long documents were
 awkward. Attention

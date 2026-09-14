@@ -9,6 +9,18 @@ publish: false
 novelty: public-record
 era: "1970-1972"
 topics: [SHRDLU, Winograd, grounded-language]
+  - blocks-micro-world
+  - blocks-micro-world
+portrait: null
+portrait_status: essay-only
+image_rights: documented
+image_pass: 2026-09-14
+figure_id: blocks-micro-world
+meta_description: "Terry Winograd's SHRDLU (roughly 1968–1972, MIT) lived in a world of blocks. You typed English. The program stacked, moved, and named things on a simula…"
+figures:
+  - ../assets/shrdlu-and-the-microworld-trap/historical-timeline.svg
+  - ../assets/shrdlu-and-the-microworld-trap/concept-chart.svg
+  - blocks-micro-world
 ---
 
 # SHRDLU and the microworld that looked like understanding
@@ -19,6 +31,28 @@ and named things on a simulated table. "Pick up a big red block."
 It did, or it told you why it could not. It remembered what
 "it" referred to. For a few minutes of transcript, it looks like
 the problem of language is solved.
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/shrdlu-and-the-microworld-trap/historical-timeline.svg" alt="Timeline of public milestones for SHRDLU and the microworld that looked like understanding: dated anchors from the published record, not scraped leaderboard data." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against the prose before print.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/shrdlu-and-the-microworld-trap/concept-chart.svg" alt="Concept chart for SHRDLU and the microworld that looked like understanding: schematic of the method or task shape (illustrative, not a copyrighted paper figure)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Schematic of the method or task — editorial diagram, not live scores.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure nlp-bt-figure--archival">
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Syntax_tree.svg" alt="Linguistic syntax tree diagram illustrating hierarchical structure." width="760" height="520" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Syntax tree diagram (Commons) used as a neutral structural sketch for microworld parsing essays. License: Public domain</figcaption>
+</figure>
+
 
 The trick is the table. The vocabulary is closed. The physics
 are fake but consistent. Every noun has a handle in the

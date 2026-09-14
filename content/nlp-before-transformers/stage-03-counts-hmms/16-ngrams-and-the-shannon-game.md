@@ -9,6 +9,16 @@ publish: false
 novelty: public-record
 era: "1980-2008"
 topics: [n-grams, language-models, perplexity]
+portrait: null
+portrait_status: essay-only
+image_rights: documented
+image_pass: 2026-09-14
+figure_id: shannon-channel-diagram
+meta_description: "An n-gram language model says the next word depends on the last n-1 words and, for everything else, shrugs. That shrug built dictation, translation, spe…"
+figures:
+  - ../assets/ngrams-and-the-shannon-game/historical-timeline.svg
+  - ../assets/ngrams-and-the-shannon-game/concept-chart.svg
+  - shannon-channel-diagram
 ---
 
 # N-grams: the Shannon game at industrial scale
@@ -18,6 +28,28 @@ on the last n-1 words and, for everything else,
 shrugs. That shrug built dictation, translation,
 spelling correction, and the first serious
 speech-to-text products.
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/ngrams-and-the-shannon-game/historical-timeline.svg" alt="Timeline of public milestones for N-grams: the Shannon game at industrial scale: dated anchors from the published record, not scraped leaderboard data." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against the prose before print.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/ngrams-and-the-shannon-game/concept-chart.svg" alt="Concept chart for N-grams: the Shannon game at industrial scale: schematic of the method or task shape (illustrative, not a copyrighted paper figure)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Schematic of the method or task — editorial diagram, not live scores.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure nlp-bt-figure--archival">
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Shannon_communication_system.svg" alt="Block diagram of a communication channel with source, transmitter, channel, receiver, and destination." width="760" height="400" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Claude Shannon’s block diagram of a general communication system (Commons). License: Public domain</figcaption>
+</figure>
+
 
 The industrial form is a table of counts, a
 smoothing recipe, and a backoff graph. Katz

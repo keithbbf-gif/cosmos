@@ -9,6 +9,18 @@ publish: false
 novelty: public-record
 era: "1993"
 topics: [Penn-Treebank, Marcus, annotation]
+  - penn-treebank-tree
+  - penn-treebank-tree
+portrait: null
+portrait_status: essay-only
+image_rights: documented
+image_pass: 2026-09-14
+figure_id: penn-treebank-tree
+meta_description: "Mitchell Marcus, Beatrice Santorini, and Mary Ann Marcinkiewicz's 1993 paper — *Building a Large Annotated Corpus of English: The Penn Treebank* — is a …"
+figures:
+  - ../assets/penn-treebank-gold-costs-money/historical-timeline.svg
+  - ../assets/penn-treebank-gold-costs-money/concept-chart.svg
+  - penn-treebank-tree
 ---
 
 # Penn Treebank: gold structure, and what it costs
@@ -19,6 +31,28 @@ Treebank* — is a budget document disguised as a resource paper. Wall
 Street Journal text, about a million words in the famous parsed slice,
 tagged and bracketed by people, with guidelines, with disagreements,
 with a tagset that became the air later students breathed.
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/penn-treebank-gold-costs-money/historical-timeline.svg" alt="Timeline of public milestones for Penn Treebank: gold structure, and what it costs: dated anchors from the published record, not scraped leaderboard data." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against the prose before print.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/penn-treebank-gold-costs-money/concept-chart.svg" alt="Concept chart for Penn Treebank: gold structure, and what it costs: schematic of the method or task shape (illustrative, not a copyrighted paper figure)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Schematic of the method or task — editorial diagram, not live scores.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure nlp-bt-figure--archival">
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Syntax_tree.svg" alt="Syntactic tree for gold-parse discussion." width="760" height="520" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Phrase-structure tree for treebank / parser essays. License: Public domain</figcaption>
+</figure>
+
 
 I insist on the labor. A treebank is not "data that exists." It is
 wages, training, reconciliation, a stylebook, and a decision about

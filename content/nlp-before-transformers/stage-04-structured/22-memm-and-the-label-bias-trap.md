@@ -9,6 +9,18 @@ publish: false
 novelty: public-record
 era: "2000-2001"
 topics: [MEMM, label-bias, McCallum]
+  - label-bias-sketch
+  - label-bias-sketch
+portrait: null
+portrait_status: essay-only
+image_rights: documented
+image_pass: 2026-09-14
+figure_id: label-bias-sketch
+meta_description: "A maximum-entropy Markov model is the obvious hybrid. You want HMM-like sequence structure. You want maxent-like features of the observation. So you mak…"
+figures:
+  - ../assets/memm-and-the-label-bias-trap/historical-timeline.svg
+  - ../assets/memm-and-the-label-bias-trap/concept-chart.svg
+  - label-bias-sketch
 ---
 
 # MEMMs and the label-bias trap
@@ -24,6 +36,28 @@ Andrew McCallum, Dayne Freitag, and
 Fernando Pereira described the setup
 around 2000. It worked. It also had a
 failure mode with a name.
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/memm-and-the-label-bias-trap/historical-timeline.svg" alt="Timeline of public milestones for MEMMs and the label-bias trap: dated anchors from the published record, not scraped leaderboard data." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against the prose before print.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/memm-and-the-label-bias-trap/concept-chart.svg" alt="Concept chart for MEMMs and the label-bias trap: schematic of the method or task shape (illustrative, not a copyrighted paper figure)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Schematic of the method or task — editorial diagram, not live scores.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure nlp-bt-figure--archival">
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/16/Hierarchical_hidden_Markov_model_%28diagram%29.png" alt="Hierarchical hidden Markov model schematic." width="760" height="500" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Hierarchical HMM diagram for transition-bias discussion. License: See Commons</figcaption>
+</figure>
+
 
 Label bias, as Lafferty, McCallum, and
 Pereira framed it in the 2001 CRF paper,

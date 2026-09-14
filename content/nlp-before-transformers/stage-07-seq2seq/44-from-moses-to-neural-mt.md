@@ -9,6 +9,18 @@ publish: false
 novelty: public-record
 era: "2003-2016"
 topics: [Moses, SMT, NMT, Koehn]
+  - phrase-table-grid
+  - phrase-table-grid
+portrait: null
+portrait_status: essay-only
+image_rights: documented
+image_pass: 2026-09-14
+figure_id: phrase-table-grid
+meta_description: "Philipp Koehn's Pharaoh decoder and then the Moses toolkit (with Hieu Hoang, Alexandra Birch, Chris Callison-Burch, and a long list of contributors) wer…"
+figures:
+  - ../assets/from-moses-to-neural-mt/historical-timeline.svg
+  - ../assets/from-moses-to-neural-mt/concept-chart.svg
+  - phrase-table-grid
 ---
 
 # From Pharaoh and Moses to neural MT: what actually got replaced
@@ -21,6 +33,28 @@ extracted phrase pairs. You built a target language model. You
 tuned weights, often with Franz Josef Och's MERT, later with
 kinder optimizers. You decoded. You shipped something a
 government or a company could run.
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/from-moses-to-neural-mt/historical-timeline.svg" alt="Timeline of public milestones for From Pharaoh and Moses to neural MT: what actually got replaced: dated anchors from the published record, not scraped leaderboard data." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against the prose before print.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/from-moses-to-neural-mt/concept-chart.svg" alt="Concept chart for From Pharaoh and Moses to neural MT: what actually got replaced: schematic of the method or task shape (illustrative, not a copyrighted paper figure)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Schematic of the method or task — editorial diagram, not live scores.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure nlp-bt-figure--archival">
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Word_alignment.svg" alt="Bilingual alignment diagram." width="760" height="480" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Phrase / word alignment for Moses-to-NMT essays. License: See Commons</figcaption>
+</figure>
+
 
 That factory had a smell. Phrase tables on disk. Tuning that
 could overfit a small development set. A hundred knobs. Also:

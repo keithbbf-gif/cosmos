@@ -9,6 +9,18 @@ publish: false
 novelty: public-record
 era: "1990"
 topics: [LSA, LSI, Deerwester, SVD]
+  - svd-matrix-sketch
+  - svd-matrix-sketch
+portrait: null
+portrait_status: essay-only
+image_rights: documented
+image_pass: 2026-09-14
+figure_id: svd-matrix-sketch
+meta_description: "Deerwester, Dumais, Furnas, Landauer, and Harshman, 1990, *Indexing by Latent Semantic Analysis*. The practical problem was retrieval. Query words and d…"
+figures:
+  - ../assets/lsa-when-svd-looked-like-meaning/historical-timeline.svg
+  - ../assets/lsa-when-svd-looked-like-meaning/concept-chart.svg
+  - svd-matrix-sketch
 ---
 
 # LSA: when SVD looked like meaning
@@ -18,6 +30,28 @@ Deerwester, Dumais, Furnas, Landauer, and Harshman, 1990,
 problem was retrieval. Query words and document words often
 refuse to match. A user says "car." The paper says
 "automobile." Exact term match shrugs.
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/lsa-when-svd-looked-like-meaning/historical-timeline.svg" alt="Timeline of public milestones for LSA: when SVD looked like meaning: dated anchors from the published record, not scraped leaderboard data." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against the prose before print.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/lsa-when-svd-looked-like-meaning/concept-chart.svg" alt="Concept chart for LSA: when SVD looked like meaning: schematic of the method or task shape (illustrative, not a copyrighted paper figure)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Schematic of the method or task — editorial diagram, not live scores.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure nlp-bt-figure--archival">
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Latent_Dirichlet_allocation.svg" alt="Generative plate diagram with latent factors and observations." width="760" height="480" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Plate reused as matrix-factorization metaphor (verify caption in essay). License: CC BY-SA (verify on Commons)</figcaption>
+</figure>
+
 
 Latent semantic analysis takes a term-document matrix,
 optionally weighted, and computes a truncated singular

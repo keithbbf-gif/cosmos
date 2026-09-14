@@ -9,6 +9,18 @@ publish: false
 novelty: public-record
 era: "2013"
 topics: [negative-sampling, Word2Vec, NCE]
+  - embedding-space-sketch
+  - embedding-space-sketch
+portrait: null
+portrait_status: essay-only
+image_rights: documented
+image_pass: 2026-09-14
+figure_id: embedding-space-sketch
+meta_description: "A language-model softmax over a large vocabulary is a bill. Every training step, you normalize over tens or hundreds of thousands of words. Hierarchical…"
+figures:
+  - ../assets/negative-sampling-the-cheap-contrast/historical-timeline.svg
+  - ../assets/negative-sampling-the-cheap-contrast/concept-chart.svg
+  - embedding-space-sketch
 ---
 
 # Negative sampling: the cheap contrast that made embeddings affordable
@@ -23,6 +35,28 @@ Huffman tree, a path of binary
 decisions. Negative sampling was
 the ruder dodge, and the one
 that traveled.
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/negative-sampling-the-cheap-contrast/historical-timeline.svg" alt="Timeline of public milestones for Negative sampling: the cheap contrast that made embeddings affordable: dated anchors from the published record, not scraped leaderboard data." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against the prose before print.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/negative-sampling-the-cheap-contrast/concept-chart.svg" alt="Concept chart for Negative sampling: the cheap contrast that made embeddings affordable: schematic of the method or task shape (illustrative, not a copyrighted paper figure)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Schematic of the method or task — editorial diagram, not live scores.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure nlp-bt-figure--archival">
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/T5_encoder-decoder_structure.svg" alt="Encoder-decoder neural architecture block diagram." width="760" height="480" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Encoder stack diagram as neural embedding-era hardware sketch. License: CC BY-SA (verify on Commons)</figcaption>
+</figure>
+
 
 Instead of asking the model to
 assign a proper probability to

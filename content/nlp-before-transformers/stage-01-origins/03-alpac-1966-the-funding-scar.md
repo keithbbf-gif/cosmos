@@ -9,6 +9,18 @@ publish: false
 novelty: public-record
 era: "1966"
 topics: [ALPAC, machine-translation, funding]
+  - alpac-report-page
+  - alpac-report-page
+portrait: null
+portrait_status: essay-only
+image_rights: documented
+image_pass: 2026-09-14
+figure_id: alpac-report-page
+meta_description: "The Automatic Language Processing Advisory Committee did not set out to become a ghost story. In 1964 the National Academy of Sciences convened a group …"
+figures:
+  - ../assets/alpac-1966-the-funding-scar/historical-timeline.svg
+  - ../assets/alpac-1966-the-funding-scar/concept-chart.svg
+  - alpac-report-page
 ---
 
 # ALPAC 1966: the report that sent MT into the wilderness
@@ -20,6 +32,28 @@ Pierce of Bell Labs as chair — to tell the US government whether
 machine translation and computational linguistics were worth the
 next round of checks. The report landed in 1966. The short
 version that circulated in labs: not yet, and stop pretending.
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/alpac-1966-the-funding-scar/historical-timeline.svg" alt="Timeline of public milestones for ALPAC 1966: the report that sent MT into the wilderness: dated anchors from the published record, not scraped leaderboard data." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against the prose before print.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/alpac-1966-the-funding-scar/concept-chart.svg" alt="Concept chart for ALPAC 1966: the report that sent MT into the wilderness: schematic of the method or task shape (illustrative, not a copyrighted paper figure)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Schematic of the method or task — editorial diagram, not live scores.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure nlp-bt-figure--archival">
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Cyrillic_teletype_keyboard.jpg" alt="Close view of a teletype keyboard used as archival hardware context for 1960s language technology." width="760" height="570" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Teletype keyboard hardware — stand-in plate for 1960s machine-translation policy era (not the ALPAC PDF). License: Public domain or CC-BY-SA (verify on Commons file page)</figcaption>
+</figure>
+
 
 ALPAC looked at cost, quality, and the existence of a cheaper
 human pipeline. Post-edited machine output, they argued, was not

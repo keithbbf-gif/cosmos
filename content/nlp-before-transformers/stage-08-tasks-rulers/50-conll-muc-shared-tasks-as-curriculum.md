@@ -9,6 +9,18 @@ publish: false
 novelty: public-record
 era: "1987-2003"
 topics: [MUC, ACE, CoNLL, shared-tasks]
+  - shared-task-timeline
+  - shared-task-timeline
+portrait: null
+portrait_status: essay-only
+image_rights: documented
+image_pass: 2026-09-14
+figure_id: shared-task-timeline
+meta_description: "If you want to know what pre-transformer NLP actually studied, do not start with a textbook chapter on meaning. Start with the shared tasks. MUC, the Me…"
+figures:
+  - ../assets/conll-muc-shared-tasks-as-curriculum/historical-timeline.svg
+  - ../assets/conll-muc-shared-tasks-as-curriculum/concept-chart.svg
+  - shared-task-timeline
 ---
 
 # MUC, ACE, CoNLL: shared tasks as the real curriculum
@@ -21,6 +33,28 @@ what in newswire and in terrorist-incident reports, with scoring
 that could make you wince. ACE later widened the entity and
 relation game. CoNLL, year after year, picked a task and a
 format and a deadline.
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/conll-muc-shared-tasks-as-curriculum/historical-timeline.svg" alt="Timeline of public milestones for MUC, ACE, CoNLL: shared tasks as the real curriculum: dated anchors from the published record, not scraped leaderboard data." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against the prose before print.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/conll-muc-shared-tasks-as-curriculum/concept-chart.svg" alt="Concept chart for MUC, ACE, CoNLL: shared tasks as the real curriculum: schematic of the method or task shape (illustrative, not a copyrighted paper figure)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Schematic of the method or task — editorial diagram, not live scores.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure nlp-bt-figure--archival">
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Shannon_communication_system.svg" alt="Block diagram of a measured communication pipeline." width="760" height="400" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Communication-system diagram as shared-task / evaluation pipeline metaphor. License: Public domain</figcaption>
+</figure>
+
 
 I am not romantic about competitions. They distort. They overfit.
 They turn a messy social problem into a column file. They also

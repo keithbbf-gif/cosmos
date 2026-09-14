@@ -9,6 +9,18 @@ publish: false
 novelty: public-record
 era: "2013"
 topics: [Word2Vec, CBOW, skip-gram]
+  - embedding-space-sketch
+  - embedding-space-sketch
+portrait: null
+portrait_status: essay-only
+image_rights: documented
+image_pass: 2026-09-14
+figure_id: embedding-space-sketch
+meta_description: "Continuous bag-of-words predicts a word from the average of its neighbors. Skip-gram predicts the neighbors from the word. That is the whole fork. The 2…"
+figures:
+  - ../assets/cbow-versus-skipgram/historical-timeline.svg
+  - ../assets/cbow-versus-skipgram/concept-chart.svg
+  - embedding-space-sketch
 ---
 
 # CBOW versus skip-gram: a practical fork, not a theology
@@ -20,6 +32,28 @@ neighbors from the word. That is
 the whole fork. The 2013 papers
 gave you both and then people
 developed tastes.
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/cbow-versus-skipgram/historical-timeline.svg" alt="Timeline of public milestones for CBOW versus skip-gram: a practical fork, not a theology: dated anchors from the published record, not scraped leaderboard data." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against the prose before print.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/cbow-versus-skipgram/concept-chart.svg" alt="Concept chart for CBOW versus skip-gram: a practical fork, not a theology: schematic of the method or task shape (illustrative, not a copyrighted paper figure)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Schematic of the method or task — editorial diagram, not live scores.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure nlp-bt-figure--archival">
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/T5_encoder-decoder_structure.svg" alt="Encoder-decoder neural architecture block diagram." width="760" height="480" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Encoder stack diagram as neural embedding-era hardware sketch. License: CC BY-SA (verify on Commons)</figcaption>
+</figure>
+
 
 CBOW is faster. It smooths. It
 tends to be decent on frequent

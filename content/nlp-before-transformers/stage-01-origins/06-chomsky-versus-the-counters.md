@@ -9,6 +9,18 @@ publish: false
 novelty: public-record
 era: "1957-1990"
 topics: [Chomsky, generative-grammar, empiricism]
+  - syntax-tree-example
+  - syntax-tree-example
+portrait: null
+portrait_status: essay-only
+image_rights: documented
+image_pass: 2026-09-14
+figure_id: syntax-tree-example
+meta_description: "*Syntactic Structures* came out in 1957. Noam Chomsky did not write it as a programming manual. Computational people read it as one anyway. Phrase-struc…"
+figures:
+  - ../assets/chomsky-versus-the-counters/historical-timeline.svg
+  - ../assets/chomsky-versus-the-counters/concept-chart.svg
+  - syntax-tree-example
 ---
 
 # Chomsky versus the counters: a forty-year argument
@@ -19,6 +31,28 @@ as one anyway. Phrase-structure rules, transformations, the
 idea that a grammar is a compact account of an infinite set of
 sentences — that looked implementable. For a while the field
 tried.
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/chomsky-versus-the-counters/historical-timeline.svg" alt="Timeline of public milestones for Chomsky versus the counters: a forty-year argument: dated anchors from the published record, not scraped leaderboard data." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against the prose before print.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/chomsky-versus-the-counters/concept-chart.svg" alt="Concept chart for Chomsky versus the counters: a forty-year argument: schematic of the method or task shape (illustrative, not a copyrighted paper figure)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Schematic of the method or task — editorial diagram, not live scores.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure nlp-bt-figure--archival">
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Syntax_tree.svg" alt="Syntax tree showing phrase structure branching." width="760" height="520" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Public-domain syntax tree illustration. License: Public domain</figcaption>
+</figure>
+
 
 Chomsky's other move mattered more in the long war. He argued
 that corpus frequencies were the wrong object. A native speaker

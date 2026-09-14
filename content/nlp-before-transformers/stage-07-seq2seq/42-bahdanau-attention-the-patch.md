@@ -9,6 +9,18 @@ publish: false
 novelty: public-record
 era: "2014-2015"
 topics: [attention, Bahdanau, NMT]
+  - attention-alignment
+  - attention-alignment
+portrait: null
+portrait_status: essay-only
+image_rights: documented
+image_pass: 2026-09-14
+figure_id: attention-alignment
+meta_description: "Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Bengio put the 2014/2015 paper on arXiv as \"Neural Machine Translation by Jointly Learning to Align and Tran…"
+figures:
+  - ../assets/bahdanau-attention-the-patch/historical-timeline.svg
+  - ../assets/bahdanau-attention-the-patch/concept-chart.svg
+  - attention-alignment
 ---
 
 # Bahdanau attention: the patch that became the point
@@ -20,6 +32,28 @@ longer had to cram a sentence into one vector. It produced
 a vector per source position. At each decoder step, a
 small net scored those positions, softmaxed the scores,
 and made a weighted sum. That sum was the context.
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/bahdanau-attention-the-patch/historical-timeline.svg" alt="Timeline of public milestones for Bahdanau attention: the patch that became the point: dated anchors from the published record, not scraped leaderboard data." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against the prose before print.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/bahdanau-attention-the-patch/concept-chart.svg" alt="Concept chart for Bahdanau attention: the patch that became the point: schematic of the method or task shape (illustrative, not a copyrighted paper figure)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Schematic of the method or task — editorial diagram, not live scores.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure nlp-bt-figure--archival">
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Seq2seq_RNN_encoder-decoder_with_attention_mechanism%2C_training.png" alt="Attention links between encoder states and decoder steps." width="760" height="480" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Attention mechanism in encoder-decoder training. License: See Commons</figcaption>
+</figure>
+
 
 They called it aligning. The field later called it
 attention. I try to keep both words. Aligning connects it

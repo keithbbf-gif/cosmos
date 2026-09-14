@@ -9,6 +9,18 @@ publish: false
 novelty: public-record
 era: "2015"
 topics: [Luong, attention, OpenNMT]
+  - attention-alignment
+  - attention-alignment
+portrait: null
+portrait_status: essay-only
+image_rights: documented
+image_pass: 2026-09-14
+figure_id: attention-alignment
+meta_description: "Minh-Thang Luong, Hieu Pham, and Christopher Manning's 2015 EMNLP paper is the one I hand people who want to implement attention without drowning in the…"
+figures:
+  - ../assets/luong-attention-and-the-module/historical-timeline.svg
+  - ../assets/luong-attention-and-the-module/concept-chart.svg
+  - attention-alignment
 ---
 
 # Luong attention: when looking became a module you could swap
@@ -21,6 +33,28 @@ general, concat. Global versus local is listed.
 Input-feeding — letting the previous attention context
 back into the next decoder state — is listed. The tone
 is "here is the kit."
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/luong-attention-and-the-module/historical-timeline.svg" alt="Timeline of public milestones for Luong attention: when looking became a module you could swap: dated anchors from the published record, not scraped leaderboard data." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against the prose before print.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/luong-attention-and-the-module/concept-chart.svg" alt="Concept chart for Luong attention: when looking became a module you could swap: schematic of the method or task shape (illustrative, not a copyrighted paper figure)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Schematic of the method or task — editorial diagram, not live scores.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure nlp-bt-figure--archival">
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Seq2seq_RNN_encoder-decoder_with_attention_mechanism%2C_training.png" alt="Attention links between encoder states and decoder steps." width="760" height="480" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Attention mechanism in encoder-decoder training. License: See Commons</figcaption>
+</figure>
+
 
 Local attention was an attempt to keep the cost from
 growing with source length: predict a pivot, look in a

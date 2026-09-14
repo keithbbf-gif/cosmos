@@ -9,6 +9,18 @@ publish: false
 novelty: public-record
 era: "2010-2012"
 topics: [RNNLM, Mikolov, language-models]
+  - rnn-unroll
+  - rnn-unroll
+portrait: null
+portrait_status: essay-only
+image_rights: documented
+image_pass: 2026-09-14
+figure_id: rnn-unroll
+meta_description: "Before Word2Vec, Tomas Mikolov’s name was already on a recurrent neural network language model and a piece of software called RNNLM. The papers around 2…"
+figures:
+  - ../assets/rnnlm-mikolov-at-home/historical-timeline.svg
+  - ../assets/rnnlm-mikolov-at-home/concept-chart.svg
+  - rnn-unroll
 ---
 
 # RNNLM: Mikolov’s recurrent language model you could train at home
@@ -19,6 +31,28 @@ The papers around 2010–2012, some with Kombrink, Burget, Černocký,
 and Khudanpur, showed perplexity gains over n-grams and, more
 importantly, a culture of interpolation: neural plus count model,
 because they fail differently.
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/rnnlm-mikolov-at-home/historical-timeline.svg" alt="Timeline of public milestones for RNNLM: Mikolov’s recurrent language model you could train at home: dated anchors from the published record, not scraped leaderboard data." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against the prose before print.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/rnnlm-mikolov-at-home/concept-chart.svg" alt="Concept chart for RNNLM: Mikolov’s recurrent language model you could train at home: schematic of the method or task shape (illustrative, not a copyrighted paper figure)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Schematic of the method or task — editorial diagram, not live scores.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure nlp-bt-figure--archival">
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Seq2seq_RNN_encoder-decoder_with_attention_mechanism%2C_training.png" alt="Sequence-to-sequence RNN encoder-decoder with attention during training." width="760" height="480" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Unrolled RNN encoder-decoder training diagram. License: See Commons</figcaption>
+</figure>
+
 
 The software mattered again. You could compile it. You could train
 on a reasonable corpus. You could dump probabilities into a speech

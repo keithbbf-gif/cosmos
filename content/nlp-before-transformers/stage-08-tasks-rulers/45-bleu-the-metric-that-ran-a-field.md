@@ -9,6 +9,18 @@ publish: false
 novelty: public-record
 era: "2002"
 topics: [BLEU, evaluation, Papineni]
+  - ngram-overlap-bleu
+  - ngram-overlap-bleu
+portrait: null
+portrait_status: essay-only
+image_rights: documented
+image_pass: 2026-09-14
+figure_id: ngram-overlap-bleu
+meta_description: "Kishore Papineni, Salim Roukos, Todd Ward, and Wei-Jing Zhu, ACL 2002. BLEU is a modified n-gram precision against one or more references, plus a brevit…"
+figures:
+  - ../assets/bleu-the-metric-that-ran-a-field/historical-timeline.svg
+  - ../assets/bleu-the-metric-that-ran-a-field/concept-chart.svg
+  - ngram-overlap-bleu
 ---
 
 # BLEU: Papineni 2002 and the metric that ran a field
@@ -19,6 +31,28 @@ more references, plus a brevity penalty so you cannot win by
 emitting nothing but safe unigrams. That is the whole object.
 It is cheap. It correlated decently with human judgments on
 the conditions they tested. It became a king.
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/bleu-the-metric-that-ran-a-field/historical-timeline.svg" alt="Timeline of public milestones for BLEU: Papineni 2002 and the metric that ran a field: dated anchors from the published record, not scraped leaderboard data." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against the prose before print.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/bleu-the-metric-that-ran-a-field/concept-chart.svg" alt="Concept chart for BLEU: Papineni 2002 and the metric that ran a field: schematic of the method or task shape (illustrative, not a copyrighted paper figure)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Schematic of the method or task — editorial diagram, not live scores.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure nlp-bt-figure--archival">
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Word_alignment.svg" alt="Aligned tokens illustrating n-gram overlap." width="760" height="480" loading="lazy" decoding="async" />
+<figcaption>Figure 3. N-gram overlap metaphor via aligned tokens. License: See Commons</figcaption>
+</figure>
+
 
 I have a split mind. Without a cheap automatic metric,
 statistical MT cannot tune. MERT needs a number. Shared

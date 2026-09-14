@@ -9,6 +9,18 @@ publish: false
 novelty: public-record
 era: "1996"
 topics: [maxent, logistic-regression, Berger]
+  - feature-template-grid
+  - feature-template-grid
+portrait: null
+portrait_status: essay-only
+image_rights: documented
+image_pass: 2026-09-14
+figure_id: feature-template-grid
+meta_description: "Adam Berger, Stephen Della Pietra, and Vincent Della Pietra's 1996 paper on maximum entropy models for natural language gave a lot of people permission …"
+figures:
+  - ../assets/maximum-entropy-features-not-stories/historical-timeline.svg
+  - ../assets/maximum-entropy-features-not-stories/concept-chart.svg
+  - feature-template-grid
 ---
 
 # Maximum entropy: features instead of stories
@@ -24,6 +36,28 @@ feature values and is otherwise as uniform
 as possible. The math has a name. The
 practice is logistic regression with a
 linguistic feature dump.
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/maximum-entropy-features-not-stories/historical-timeline.svg" alt="Timeline of public milestones for Maximum entropy: features instead of stories: dated anchors from the published record, not scraped leaderboard data." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against the prose before print.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/maximum-entropy-features-not-stories/concept-chart.svg" alt="Concept chart for Maximum entropy: features instead of stories: schematic of the method or task shape (illustrative, not a copyrighted paper figure)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Schematic of the method or task — editorial diagram, not live scores.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure nlp-bt-figure--archival">
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Word_alignment.svg" alt="Grid of aligned tokens illustrating structured decisions." width="760" height="480" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Alignment grid reused as feature-interaction sketch for structured prediction. License: See Commons</figcaption>
+</figure>
+
 
 That dump was the craft. Prefixes, suffixes,
 word shape, "is the previous tag DT,"

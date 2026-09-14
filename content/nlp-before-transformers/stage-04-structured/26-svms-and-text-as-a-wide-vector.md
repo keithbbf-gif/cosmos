@@ -9,6 +9,18 @@ publish: false
 novelty: public-record
 era: "1998"
 topics: [SVM, text-classification, Joachims, TF-IDF]
+  - bag-of-words-grid
+  - bag-of-words-grid
+portrait: null
+portrait_status: essay-only
+image_rights: documented
+image_pass: 2026-09-14
+figure_id: bag-of-words-grid
+meta_description: "Thorsten Joachims's late-1990s work on support vector machines for text categorization, and the SVM-Light software that traveled with it, gave the field…"
+figures:
+  - ../assets/svms-and-text-as-a-wide-vector/historical-timeline.svg
+  - ../assets/svms-and-text-as-a-wide-vector/concept-chart.svg
+  - bag-of-words-grid
 ---
 
 # Joachims and the wide vector: SVMs for text
@@ -20,6 +32,28 @@ about a decade. The document is a sparse vector. The
 dimensions are terms, maybe TF-IDF weighted, maybe with a
 sublinear tf. The SVM finds a hyperplane with a margin. It
 works.
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/svms-and-text-as-a-wide-vector/historical-timeline.svg" alt="Timeline of public milestones for Joachims and the wide vector: SVMs for text: dated anchors from the published record, not scraped leaderboard data." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against the prose before print.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/svms-and-text-as-a-wide-vector/concept-chart.svg" alt="Concept chart for Joachims and the wide vector: SVMs for text: schematic of the method or task shape (illustrative, not a copyrighted paper figure)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Schematic of the method or task — editorial diagram, not live scores.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure nlp-bt-figure--archival">
+<img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/WordNet.PNG" alt="Lexical relation hierarchy screenshot." width="760" height="540" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Lexical network plate for bag-of-words / vector essays. License: See Commons</figcaption>
+</figure>
+
 
 Why it worked was not a mystery even then. Text vectors are
 wide and sparse. A margin method with regularization is a

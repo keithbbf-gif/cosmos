@@ -9,6 +9,18 @@ publish: false
 novelty: public-record
 era: "2013"
 topics: [Word2Vec, Mikolov, embeddings]
+  - embedding-space-sketch
+  - embedding-space-sketch
+portrait: null
+portrait_status: essay-only
+image_rights: documented
+image_pass: 2026-09-14
+figure_id: embedding-space-sketch
+meta_description: "Tomas Mikolov and colleagues at Google published two short papers in 2013 that did not look like they would reorganize a field. Efficient estimation of …"
+figures:
+  - ../assets/word2vec-the-year-vectors-went-public/historical-timeline.svg
+  - ../assets/word2vec-the-year-vectors-went-public/concept-chart.svg
+  - embedding-space-sketch
 ---
 
 # Word2Vec, 2013: the year vectors left the lab
@@ -21,6 +33,28 @@ representations and analogical reasoning. The code went
 out. The Google News vectors went out. Suddenly a
 graduate student without a cluster had 300 numbers for
 "king" and a party trick about queens.
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/word2vec-the-year-vectors-went-public/historical-timeline.svg" alt="Timeline of public milestones for Word2Vec, 2013: the year vectors left the lab: dated anchors from the published record, not scraped leaderboard data." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against the prose before print.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/word2vec-the-year-vectors-went-public/concept-chart.svg" alt="Concept chart for Word2Vec, 2013: the year vectors left the lab: schematic of the method or task shape (illustrative, not a copyrighted paper figure)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Schematic of the method or task — editorial diagram, not live scores.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure nlp-bt-figure--archival">
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/T5_encoder-decoder_structure.svg" alt="Encoder-decoder neural architecture block diagram." width="760" height="480" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Encoder stack diagram as neural embedding-era hardware sketch. License: CC BY-SA (verify on Commons)</figcaption>
+</figure>
+
 
 The trick was not that words could be vectors. LSA had
 vectors. Collobert and Weston had vectors. Bengio's

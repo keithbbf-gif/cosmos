@@ -9,6 +9,18 @@ publish: false
 novelty: public-record
 era: "1967"
 topics: [Viterbi, decoding, dynamic-programming]
+  - hmm-trellis
+  - hmm-trellis
+portrait: null
+portrait_status: essay-only
+image_rights: documented
+image_pass: 2026-09-14
+figure_id: hmm-trellis
+meta_description: "Andrew Viterbi's 1967 paper was about convolutional codes. Computational linguistics borrowed the algorithm the way a kitchen borrows a knife: often, wi…"
+figures:
+  - ../assets/viterbi-as-a-workhorse/historical-timeline.svg
+  - ../assets/viterbi-as-a-workhorse/concept-chart.svg
+  - hmm-trellis
 ---
 
 # Viterbi as a workhorse, not a shrine
@@ -17,6 +29,28 @@ Andrew Viterbi's 1967 paper was about convolutional
 codes. Computational linguistics borrowed the
 algorithm the way a kitchen borrows a knife: often,
 without ceremony, sometimes on the wrong tomato.
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/viterbi-as-a-workhorse/historical-timeline.svg" alt="Timeline of public milestones for Viterbi as a workhorse, not a shrine: dated anchors from the published record, not scraped leaderboard data." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against the prose before print.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/viterbi-as-a-workhorse/concept-chart.svg" alt="Concept chart for Viterbi as a workhorse, not a shrine: schematic of the method or task shape (illustrative, not a copyrighted paper figure)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Schematic of the method or task — editorial diagram, not live scores.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure nlp-bt-figure--archival">
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Profile_Hidden_Markov_Model.png" alt="Hidden Markov model state and emission schematic." width="760" height="500" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Profile hidden Markov model diagram. License: CC BY-SA or PD (verify on Commons)</figcaption>
+</figure>
+
 
 The NLP version is easy to say and easy to implement
 wrong. You have a trellis. Time goes right. States

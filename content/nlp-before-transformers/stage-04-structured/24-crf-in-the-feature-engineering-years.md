@@ -9,6 +9,18 @@ publish: false
 novelty: public-record
 era: "2002-2015"
 topics: [CRF, NER, CoNLL, feature-templates]
+  - feature-template-grid
+  - feature-template-grid
+portrait: null
+portrait_status: essay-only
+image_rights: documented
+image_pass: 2026-09-14
+figure_id: feature-template-grid
+meta_description: "The CoNLL-2002 and CoNLL-2003 shared tasks on language-independent named entity recognition did more to standardize a workflow than a dozen theory paper…"
+figures:
+  - ../assets/crf-in-the-feature-engineering-years/historical-timeline.svg
+  - ../assets/crf-in-the-feature-engineering-years/concept-chart.svg
+  - feature-template-grid
 ---
 
 # CRFs in the wild: NER, segmentation, and the template years
@@ -23,6 +35,28 @@ sequence model. You report F1 on
 PER, LOC, ORG, MISC. Everyone can
 reproduce the split, which means
 everyone can overfit the split.
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/crf-in-the-feature-engineering-years/historical-timeline.svg" alt="Timeline of public milestones for CRFs in the wild: NER, segmentation, and the template years: dated anchors from the published record, not scraped leaderboard data." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against the prose before print.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/crf-in-the-feature-engineering-years/concept-chart.svg" alt="Concept chart for CRFs in the wild: NER, segmentation, and the template years: schematic of the method or task shape (illustrative, not a copyrighted paper figure)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Schematic of the method or task — editorial diagram, not live scores.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure nlp-bt-figure--archival">
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Word_alignment.svg" alt="Grid of aligned tokens illustrating structured decisions." width="760" height="480" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Alignment grid reused as feature-interaction sketch for structured prediction. License: See Commons</figcaption>
+</figure>
+
 
 CRFs won a lot of those years without
 being mystical. A person who had

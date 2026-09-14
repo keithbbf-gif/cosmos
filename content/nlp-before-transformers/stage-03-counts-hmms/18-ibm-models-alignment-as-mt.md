@@ -9,6 +9,18 @@ publish: false
 novelty: public-record
 era: "1988-1993"
 topics: [IBM-models, statistical-MT, alignment]
+  - word-alignment-grid
+  - word-alignment-grid
+portrait: null
+portrait_status: essay-only
+image_rights: documented
+image_pass: 2026-09-14
+figure_id: word-alignment-grid
+meta_description: "The Candide project at IBM, in the late 1980s and early 1990s, made a claim that still organizes the field. Translation is a noisy channel. You imagine …"
+figures:
+  - ../assets/ibm-models-alignment-as-mt/historical-timeline.svg
+  - ../assets/ibm-models-alignment-as-mt/concept-chart.svg
+  - word-alignment-grid
 ---
 
 # IBM Models 1–5: alignment as the first statistical MT
@@ -24,6 +36,28 @@ Pietra, Mercer, and colleagues wrote it down as a
 sequence of generative models now called IBM
 Models 1 through 5. The 1993 *Computational
 Linguistics* paper is the one to keep on the desk.
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/ibm-models-alignment-as-mt/historical-timeline.svg" alt="Timeline of public milestones for IBM Models 1–5: alignment as the first statistical MT: dated anchors from the published record, not scraped leaderboard data." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against the prose before print.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/ibm-models-alignment-as-mt/concept-chart.svg" alt="Concept chart for IBM Models 1–5: alignment as the first statistical MT: schematic of the method or task shape (illustrative, not a copyrighted paper figure)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Schematic of the method or task — editorial diagram, not live scores.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure nlp-bt-figure--archival">
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Word_alignment.svg" alt="Bilingual word alignment links between two token sequences." width="760" height="480" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Word alignment illustration for statistical machine translation. License: CC BY-SA (verify on Commons)</figcaption>
+</figure>
+
 
 Model 1 is almost a joke, and it is a useful
 joke. Every target word aligns to a source word

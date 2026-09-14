@@ -9,6 +9,18 @@ publish: false
 novelty: public-record
 era: "2016-2017"
 topics: [fastText, subword, Bojanowski, morphology]
+  - subword-segments
+  - subword-segments
+portrait: null
+portrait_status: essay-only
+image_rights: documented
+image_pass: 2026-09-14
+figure_id: subword-segments
+meta_description: "Piotr Bojanowski, Edouard Grave, Armand Joulin, and Tomas Mikolov put character n-grams inside a Word2Vec-style model and called the package fastText (a…"
+figures:
+  - ../assets/fasttext-subwords-before-the-break/historical-timeline.svg
+  - ../assets/fasttext-subwords-before-the-break/concept-chart.svg
+  - subword-segments
 ---
 
 # fastText: subwords sneak back in before the transformer break
@@ -19,6 +31,28 @@ package fastText (arXiv 2016, *TACL* 2017). A word vector is the
 sum of a vector for the word plus vectors for the pieces (`<wh`,
 `whe`, `her`, `ere`, `re>`). An unseen word is no longer a zero.
 It is a sum of pieces you have seen.
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/fasttext-subwords-before-the-break/historical-timeline.svg" alt="Timeline of public milestones for fastText: subwords sneak back in before the transformer break: dated anchors from the published record, not scraped leaderboard data." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against the prose before print.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/fasttext-subwords-before-the-break/concept-chart.svg" alt="Concept chart for fastText: subwords sneak back in before the transformer break: schematic of the method or task shape (illustrative, not a copyrighted paper figure)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Schematic of the method or task — editorial diagram, not live scores.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure nlp-bt-figure--archival">
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Finite_state_machine_example_with_comments-bn.svg" alt="Finite-state machine with states and arcs." width="760" height="480" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Finite-state diagram for subword / morphology essays. License: See Commons</figcaption>
+</figure>
+
 
 This is older wisdom with a new binary. Morphology people and
 spelling people had been saying for years that the atomic word is

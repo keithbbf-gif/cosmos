@@ -9,6 +9,16 @@ publish: false
 novelty: public-record
 era: "1997-2015"
 topics: [LSTM, Hochreiter, Schmidhuber, vanishing-gradient]
+portrait: null
+portrait_status: essay-only
+image_rights: documented
+image_pass: 2026-09-14
+figure_id: lstm-cell-diagram
+meta_description: "Sepp Hochreiter and Jürgen Schmidhuber published \"Long Short-Term Memory\" in 1997 in *Neural Computation*. The problem they named was already known: van…"
+figures:
+  - ../assets/lstm-1997-career-2010s/historical-timeline.svg
+  - ../assets/lstm-1997-career-2010s/concept-chart.svg
+  - lstm-cell-diagram
 ---
 
 # LSTM: a 1997 paper that got its career in the 2010s
@@ -22,6 +32,28 @@ time without being crushed at every step. Forget, input,
 output — the later standard trio — is a family, not a
 single diagram. The 1997 object already had the idea
 that a path through time should be allowed to stay open.
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/lstm-1997-career-2010s/historical-timeline.svg" alt="Timeline of public milestones for LSTM: a 1997 paper that got its career in the 2010s: dated anchors from the published record, not scraped leaderboard data." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against the prose before print.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/lstm-1997-career-2010s/concept-chart.svg" alt="Concept chart for LSTM: a 1997 paper that got its career in the 2010s: schematic of the method or task shape (illustrative, not a copyrighted paper figure)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Schematic of the method or task — editorial diagram, not live scores.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure nlp-bt-figure--archival">
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/56/LSTM_cell.svg" alt="Long short-term memory cell with gates and state." width="760" height="420" loading="lazy" decoding="async" />
+<figcaption>Figure 3. LSTM memory cell diagram. License: CC BY-SA (verify on Commons)</figcaption>
+</figure>
+
 
 For years this was a specialist's tool. Speech and
 handwriting groups (Alex Graves's line of work is the

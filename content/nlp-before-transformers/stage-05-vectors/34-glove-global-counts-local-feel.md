@@ -9,6 +9,18 @@ publish: false
 novelty: public-record
 era: "2014"
 topics: [GloVe, Pennington, embeddings]
+  - cooccurrence-matrix
+  - cooccurrence-matrix
+portrait: null
+portrait_status: essay-only
+image_rights: documented
+image_pass: 2026-09-14
+figure_id: cooccurrence-matrix
+meta_description: "Jeffrey Pennington, Richard Socher, and Christopher Manning released GloVe in 2014 from Stanford. The pitch was explicit. Word2Vec streams local windows…"
+figures:
+  - ../assets/glove-global-counts-local-feel/historical-timeline.svg
+  - ../assets/glove-global-counts-local-feel/concept-chart.svg
+  - cooccurrence-matrix
 ---
 
 # GloVe: global counts with a local-looking vector
@@ -20,6 +32,28 @@ co-occurrence matrix. Count models see the whole matrix and then
 often factorize it clumsily. GloVe would train on global counts
 with a weighted least-squares objective that paid more attention
 to reliable counts than to rare noise.
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/glove-global-counts-local-feel/historical-timeline.svg" alt="Timeline of public milestones for GloVe: global counts with a local-looking vector: dated anchors from the published record, not scraped leaderboard data." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against the prose before print.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/glove-global-counts-local-feel/concept-chart.svg" alt="Concept chart for GloVe: global counts with a local-looking vector: schematic of the method or task shape (illustrative, not a copyrighted paper figure)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Schematic of the method or task — editorial diagram, not live scores.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure nlp-bt-figure--archival">
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Word_alignment.svg" alt="Word alignment matrix between two sentences." width="760" height="480" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Alignment grid as co-occurrence visual metaphor. License: See Commons</figcaption>
+</figure>
+
 
 The object you download still looks like Word2Vec: a vector per
 word, analogies, nearest neighbors, a text file of floats. That

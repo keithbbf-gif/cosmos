@@ -1,0 +1,362 @@
+# Archival plates for nlp-before-transformers (Commons / PD diagrams).
+# No researcher portraits. No AI-generated faces. Verify license on file page before print.
+
+[plates.shannon-channel-diagram]
+src = "https://upload.wikimedia.org/wikipedia/commons/f/f3/Shannon_communication_system.svg"
+width = 760
+height = 400
+license = "Public domain"
+source_page = "https://commons.wikimedia.org/wiki/File:Shannon_communication_system.svg"
+credit = "Claude Shannon’s block diagram of a general communication system (Commons)."
+alt = "Block diagram of a communication channel with source, transmitter, channel, receiver, and destination."
+
+[plates.ibm-701-console]
+src = "https://upload.wikimedia.org/wikipedia/commons/b/b0/IBM_701_frame.jpg"
+width = 760
+height = 570
+license = "Public domain (U.S. federal work or expired copyright; verify on Commons)"
+source_page = "https://commons.wikimedia.org/wiki/File:IBM_701_frame.jpg"
+credit = "IBM 701 electronic data processing machine frame, archival photograph."
+alt = "IBM 701 computer hardware frame without a posed researcher portrait."
+
+[plates.alpac-report-page]
+src = "https://upload.wikimedia.org/wikipedia/commons/c/cf/Cyrillic_teletype_keyboard.jpg"
+width = 760
+height = 570
+license = "Public domain or CC-BY-SA (verify on Commons file page)"
+source_page = "https://commons.wikimedia.org/wiki/File:Cyrillic_teletype_keyboard.jpg"
+credit = "Teletype keyboard hardware — stand-in plate for 1960s machine-translation policy era (not the ALPAC PDF)."
+alt = "Close view of a teletype keyboard used as archival hardware context for 1960s language technology."
+
+[plates.teletype-epa]
+src = "https://upload.wikimedia.org/wikipedia/commons/c/cf/Cyrillic_teletype_keyboard.jpg"
+width = 760
+height = 570
+license = "Public domain or CC-BY-SA (verify on Commons)"
+source_page = "https://commons.wikimedia.org/wiki/File:Cyrillic_teletype_keyboard.jpg"
+credit = "Teletype keyboard — hardware context for ELIZA-era dialogue systems."
+alt = "Teletype keyboard hardware associated with 1960s interactive text systems."
+
+[plates.blocks-micro-world]
+src = "https://upload.wikimedia.org/wikipedia/commons/a/aa/Syntax_tree.svg"
+width = 760
+height = 520
+license = "Public domain"
+source_page = "https://commons.wikimedia.org/wiki/File:Syntax_tree.svg"
+credit = "Syntax tree diagram (Commons) used as a neutral structural sketch for microworld parsing essays."
+alt = "Linguistic syntax tree diagram illustrating hierarchical structure."
+
+[plates.syntax-tree-example]
+src = "https://upload.wikimedia.org/wikipedia/commons/a/aa/Syntax_tree.svg"
+width = 760
+height = 520
+license = "Public domain"
+source_page = "https://commons.wikimedia.org/wiki/File:Syntax_tree.svg"
+credit = "Public-domain syntax tree illustration."
+alt = "Syntax tree showing phrase structure branching."
+
+[plates.wordnet-hierarchy]
+src = "https://upload.wikimedia.org/wikipedia/commons/b/b8/WordNet.PNG"
+width = 760
+height = 540
+license = "Fair use / project screenshot; verify Commons file page before commercial print"
+source_page = "https://commons.wikimedia.org/wiki/File:WordNet.PNG"
+credit = "WordNet lexical hierarchy screenshot for nominative discussion of the database."
+alt = "WordNet hypernym hierarchy example as published on Wikimedia Commons."
+
+[plates.fsm-diagram]
+src = "https://upload.wikimedia.org/wikipedia/commons/c/cc/Finite_state_machine_example_with_comments-bn.svg"
+width = 760
+height = 480
+license = "CC BY-SA (verify on Commons)"
+source_page = "https://commons.wikimedia.org/wiki/File:Finite_state_machine_example_with_comments-bn.svg"
+credit = "Finite-state machine state diagram with transitions."
+alt = "Finite-state machine diagram with labeled states and transitions."
+
+[plates.parse-tree-cfg]
+src = "https://upload.wikimedia.org/wikipedia/commons/a/aa/Syntax_tree.svg"
+width = 760
+height = 520
+license = "Public domain"
+source_page = "https://commons.wikimedia.org/wiki/File:Syntax_tree.svg"
+credit = "Phrase-structure tree used as CFG illustration."
+alt = "Context-free phrase structure tree diagram."
+
+[plates.restaurant-script-schema]
+src = "https://upload.wikimedia.org/wikipedia/commons/b/b8/WordNet.PNG"
+width = 760
+height = 540
+license = "See Commons file page"
+source_page = "https://commons.wikimedia.org/wiki/File:WordNet.PNG"
+credit = "Lexical hierarchy plate standing in for script-style knowledge organization."
+alt = "Hierarchical lexical relations diagram."
+
+[plates.phone-ivr-flow]
+src = "https://upload.wikimedia.org/wikipedia/commons/c/cf/Cyrillic_teletype_keyboard.jpg"
+width = 760
+height = 570
+license = "See Commons"
+source_page = "https://commons.wikimedia.org/wiki/File:Cyrillic_teletype_keyboard.jpg"
+credit = "Teletype hardware as pre-smartphone dialogue infrastructure."
+alt = "Teletype keyboard for text-based dialogue systems."
+
+[plates.brown-corpus-tagset]
+src = "https://upload.wikimedia.org/wikipedia/commons/a/aa/Syntax_tree.svg"
+width = 760
+height = 520
+license = "Public domain"
+source_page = "https://commons.wikimedia.org/wiki/File:Syntax_tree.svg"
+credit = "Structural tree diagram as visual shorthand for tagged corpora essays."
+alt = "Linguistic tree diagram representing annotated structure."
+
+[plates.hmm-trellis]
+src = "https://upload.wikimedia.org/wikipedia/commons/e/e8/Profile_Hidden_Markov_Model.png"
+width = 760
+height = 500
+license = "CC BY-SA or PD (verify on Commons)"
+source_page = "https://commons.wikimedia.org/wiki/File:Profile_Hidden_Markov_Model.png"
+credit = "Profile hidden Markov model diagram."
+alt = "Hidden Markov model state and emission schematic."
+
+[plates.ngram-count-table]
+src = "https://upload.wikimedia.org/wikipedia/commons/f/f3/Shannon_communication_system.svg"
+width = 760
+height = 400
+license = "Public domain"
+source_page = "https://commons.wikimedia.org/wiki/File:Shannon_communication_system.svg"
+credit = "Shannon communication diagram as entropy / prediction visual."
+alt = "Information channel diagram tied to prediction and counting."
+
+[plates.word-alignment-grid]
+src = "https://upload.wikimedia.org/wikipedia/commons/7/7a/Word_alignment.svg"
+width = 760
+height = 480
+license = "CC BY-SA (verify on Commons)"
+source_page = "https://commons.wikimedia.org/wiki/File:Word_alignment.svg"
+credit = "Word alignment illustration for statistical machine translation."
+alt = "Bilingual word alignment links between two token sequences."
+
+[plates.speech-spectrogram-pd]
+src = "https://upload.wikimedia.org/wikipedia/commons/c/c6/Short-window_reassigned_spectrogram_of_speech.png"
+width = 760
+height = 400
+license = "CC BY-SA (verify on Commons)"
+source_page = "https://commons.wikimedia.org/wiki/File:Short-window_reassigned_spectrogram_of_speech.png"
+credit = "Speech spectrogram — acoustic evidence channel for HMM speech work."
+alt = "Reassigned spectrogram of a speech signal."
+
+[plates.pos-tag-example]
+src = "https://upload.wikimedia.org/wikipedia/commons/a/aa/Syntax_tree.svg"
+width = 760
+height = 520
+license = "Public domain"
+source_page = "https://commons.wikimedia.org/wiki/File:Syntax_tree.svg"
+credit = "Tree diagram as visual shorthand for part-of-speech structure."
+alt = "Phrase-structure tree for tagging essays."
+
+[plates.feature-template-grid]
+src = "https://upload.wikimedia.org/wikipedia/commons/7/7a/Word_alignment.svg"
+width = 760
+height = 480
+license = "See Commons"
+source_page = "https://commons.wikimedia.org/wiki/File:Word_alignment.svg"
+credit = "Alignment grid reused as feature-interaction sketch for structured prediction."
+alt = "Grid of aligned tokens illustrating structured decisions."
+
+[plates.label-bias-sketch]
+src = "https://upload.wikimedia.org/wikipedia/commons/1/16/Hierarchical_hidden_Markov_model_%28diagram%29.png"
+width = 760
+height = 500
+license = "See Commons"
+source_page = "https://commons.wikimedia.org/wiki/File:Hierarchical_hidden_Markov_model_(diagram).png"
+credit = "Hierarchical HMM diagram for transition-bias discussion."
+alt = "Hierarchical hidden Markov model schematic."
+
+[plates.linear-chain-crf]
+src = "https://upload.wikimedia.org/wikipedia/commons/e/e8/Profile_Hidden_Markov_Model.png"
+width = 760
+height = 500
+license = "See Commons"
+source_page = "https://commons.wikimedia.org/wiki/File:Profile_Hidden_Markov_Model.png"
+credit = "Linear-chain graphical model plate for CRF essays."
+alt = "Chain-structured graphical model diagram."
+
+[plates.bag-of-words-grid]
+src = "https://upload.wikimedia.org/wikipedia/commons/b/b8/WordNet.PNG"
+width = 760
+height = 540
+license = "See Commons"
+source_page = "https://commons.wikimedia.org/wiki/File:WordNet.PNG"
+credit = "Lexical network plate for bag-of-words / vector essays."
+alt = "Lexical relation hierarchy screenshot."
+
+[plates.collocation-grid]
+src = "https://upload.wikimedia.org/wikipedia/commons/7/7a/Word_alignment.svg"
+width = 760
+height = 480
+license = "See Commons"
+source_page = "https://commons.wikimedia.org/wiki/File:Word_alignment.svg"
+credit = "Token alignment diagram for collocation / PMI essays."
+alt = "Aligned word pairs illustrating co-occurrence structure."
+
+[plates.svd-matrix-sketch]
+src = "https://upload.wikimedia.org/wikipedia/commons/d/d3/Latent_Dirichlet_allocation.svg"
+width = 760
+height = 480
+license = "CC BY-SA (verify on Commons)"
+source_page = "https://commons.wikimedia.org/wiki/File:Latent_Dirichlet_allocation.svg"
+credit = "Plate reused as matrix-factorization metaphor (verify caption in essay)."
+alt = "Generative plate diagram with latent factors and observations."
+
+[plates.vector-space-plot]
+src = "https://upload.wikimedia.org/wikipedia/commons/b/b8/WordNet.PNG"
+width = 760
+height = 540
+license = "See Commons"
+source_page = "https://commons.wikimedia.org/wiki/File:WordNet.PNG"
+credit = "Lexical hierarchy as stand-in for vector-space organization."
+alt = "WordNet hierarchy illustrating relational structure in a lexicon."
+
+[plates.embedding-space-sketch]
+src = "https://upload.wikimedia.org/wikipedia/commons/c/c3/T5_encoder-decoder_structure.svg"
+width = 760
+height = 480
+license = "CC BY-SA (verify on Commons)"
+source_page = "https://commons.wikimedia.org/wiki/File:T5_encoder-decoder_structure.svg"
+credit = "Encoder stack diagram as neural embedding-era hardware sketch."
+alt = "Encoder-decoder neural architecture block diagram."
+
+[plates.cooccurrence-matrix]
+src = "https://upload.wikimedia.org/wikipedia/commons/7/7a/Word_alignment.svg"
+width = 760
+height = 480
+license = "See Commons"
+source_page = "https://commons.wikimedia.org/wiki/File:Word_alignment.svg"
+credit = "Alignment grid as co-occurrence visual metaphor."
+alt = "Word alignment matrix between two sentences."
+
+[plates.subword-segments]
+src = "https://upload.wikimedia.org/wikipedia/commons/c/cc/Finite_state_machine_example_with_comments-bn.svg"
+width = 760
+height = 480
+license = "See Commons"
+source_page = "https://commons.wikimedia.org/wiki/File:Finite_state_machine_example_with_comments-bn.svg"
+credit = "Finite-state diagram for subword / morphology essays."
+alt = "Finite-state machine with states and arcs."
+
+[plates.cluster-tree]
+src = "https://upload.wikimedia.org/wikipedia/commons/a/aa/Syntax_tree.svg"
+width = 760
+height = 520
+license = "Public domain"
+source_page = "https://commons.wikimedia.org/wiki/File:Syntax_tree.svg"
+credit = "Tree diagram for hierarchical clustering essays."
+alt = "Tree structure diagram."
+
+[plates.neural-lm-stack]
+src = "https://upload.wikimedia.org/wikipedia/commons/c/c3/T5_encoder-decoder_structure.svg"
+width = 760
+height = 480
+license = "See Commons"
+source_page = "https://commons.wikimedia.org/wiki/File:T5_encoder-decoder_structure.svg"
+credit = "Neural encoder stack illustration."
+alt = "Neural network encoder block diagram."
+
+[plates.cnn-nlp-pipeline]
+src = "https://upload.wikimedia.org/wikipedia/commons/c/c3/T5_encoder-decoder_structure.svg"
+width = 760
+height = 480
+license = "See Commons"
+source_page = "https://commons.wikimedia.org/wiki/File:T5_encoder-decoder_structure.svg"
+credit = "Neural pipeline diagram for convolutional NLP era essays."
+alt = "Deep neural encoder architecture schematic."
+
+[plates.lstm-cell-diagram]
+src = "https://upload.wikimedia.org/wikipedia/commons/5/56/LSTM_cell.svg"
+width = 760
+height = 420
+license = "CC BY-SA (verify on Commons)"
+source_page = "https://commons.wikimedia.org/wiki/File:LSTM_cell.svg"
+credit = "LSTM memory cell diagram."
+alt = "Long short-term memory cell with gates and state."
+
+[plates.rnn-unroll]
+src = "https://upload.wikimedia.org/wikipedia/commons/c/c7/Seq2seq_RNN_encoder-decoder_with_attention_mechanism%2C_training.png"
+width = 760
+height = 480
+license = "See Commons"
+source_page = "https://commons.wikimedia.org/wiki/File:Seq2seq_RNN_encoder-decoder_with_attention_mechanism,_training.png"
+credit = "Unrolled RNN encoder-decoder training diagram."
+alt = "Sequence-to-sequence RNN encoder-decoder with attention during training."
+
+[plates.encoder-decoder]
+src = "https://upload.wikimedia.org/wikipedia/commons/c/c3/T5_encoder-decoder_structure.svg"
+width = 760
+height = 480
+license = "See Commons"
+source_page = "https://commons.wikimedia.org/wiki/File:T5_encoder-decoder_structure.svg"
+credit = "Encoder-decoder architecture for seq2seq essays."
+alt = "Encoder-decoder transformer-style block diagram."
+
+[plates.attention-alignment]
+src = "https://upload.wikimedia.org/wikipedia/commons/c/c7/Seq2seq_RNN_encoder-decoder_with_attention_mechanism%2C_training.png"
+width = 760
+height = 480
+license = "See Commons"
+source_page = "https://commons.wikimedia.org/wiki/File:Seq2seq_RNN_encoder-decoder_with_attention_mechanism,_training.png"
+credit = "Attention mechanism in encoder-decoder training."
+alt = "Attention links between encoder states and decoder steps."
+
+[plates.phrase-table-grid]
+src = "https://upload.wikimedia.org/wikipedia/commons/7/7a/Word_alignment.svg"
+width = 760
+height = 480
+license = "See Commons"
+source_page = "https://commons.wikimedia.org/wiki/File:Word_alignment.svg"
+credit = "Phrase / word alignment for Moses-to-NMT essays."
+alt = "Bilingual alignment diagram."
+
+[plates.ngram-overlap-bleu]
+src = "https://upload.wikimedia.org/wikipedia/commons/7/7a/Word_alignment.svg"
+width = 760
+height = 480
+license = "See Commons"
+source_page = "https://commons.wikimedia.org/wiki/File:Word_alignment.svg"
+credit = "N-gram overlap metaphor via aligned tokens."
+alt = "Aligned tokens illustrating n-gram overlap."
+
+[plates.penn-treebank-tree]
+src = "https://upload.wikimedia.org/wikipedia/commons/a/aa/Syntax_tree.svg"
+width = 760
+height = 520
+license = "Public domain"
+source_page = "https://commons.wikimedia.org/wiki/File:Syntax_tree.svg"
+credit = "Phrase-structure tree for treebank / parser essays."
+alt = "Syntactic tree for gold-parse discussion."
+
+[plates.dependency-arcs]
+src = "https://upload.wikimedia.org/wikipedia/commons/a/aa/Syntax_tree.svg"
+width = 760
+height = 520
+license = "Public domain"
+source_page = "https://commons.wikimedia.org/wiki/File:Syntax_tree.svg"
+credit = "Tree diagram as dependency-parsing visual shorthand."
+alt = "Syntactic structure tree diagram."
+
+[plates.topic-mixture-plate]
+src = "https://upload.wikimedia.org/wikipedia/commons/d/d3/Latent_Dirichlet_allocation.svg"
+width = 760
+height = 480
+license = "See Commons"
+source_page = "https://commons.wikimedia.org/wiki/File:Latent_Dirichlet_allocation.svg"
+credit = "Latent Dirichlet allocation generative plate."
+alt = "LDA plate model showing topics, words, and documents."
+
+[plates.shared-task-timeline]
+src = "https://upload.wikimedia.org/wikipedia/commons/f/f3/Shannon_communication_system.svg"
+width = 760
+height = 400
+license = "Public domain"
+source_page = "https://commons.wikimedia.org/wiki/File:Shannon_communication_system.svg"
+credit = "Communication-system diagram as shared-task / evaluation pipeline metaphor."
+alt = "Block diagram of a measured communication pipeline."

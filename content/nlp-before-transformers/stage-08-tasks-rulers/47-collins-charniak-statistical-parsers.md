@@ -9,6 +9,18 @@ publish: false
 novelty: public-record
 era: "1996-2000"
 topics: [Collins, Charniak, PCFG, parsing]
+  - penn-treebank-tree
+  - penn-treebank-tree
+portrait: null
+portrait_status: essay-only
+image_rights: documented
+image_pass: 2026-09-14
+figure_id: penn-treebank-tree
+meta_description: "Once the Penn Treebank existed, parsing became a likelihood. Eugene Charniak and Michael Collins, in different styles through the late 1990s, built pars…"
+figures:
+  - ../assets/collins-charniak-statistical-parsers/historical-timeline.svg
+  - ../assets/collins-charniak-statistical-parsers/concept-chart.svg
+  - penn-treebank-tree
 ---
 
 # Collins and Charniak: the last great statistical parsers
@@ -19,6 +31,28 @@ Charniak and Michael Collins, in different styles through the late
 with carefully factored probabilities: head-word dependencies,
 lexicalized PCFGs, features that a pure context-free grammar would
 have called cheating.
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/collins-charniak-statistical-parsers/historical-timeline.svg" alt="Timeline of public milestones for Collins and Charniak: the last great statistical parsers: dated anchors from the published record, not scraped leaderboard data." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against the prose before print.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure">
+<img src="../assets/collins-charniak-statistical-parsers/concept-chart.svg" alt="Concept chart for Collins and Charniak: the last great statistical parsers: schematic of the method or task shape (illustrative, not a copyrighted paper figure)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Schematic of the method or task — editorial diagram, not live scores.</figcaption>
+</figure>
+
+<!-- graphics-pack:nlp-bt-v1 -->
+
+<figure class="nlp-bt-figure nlp-bt-figure--archival">
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Syntax_tree.svg" alt="Syntactic tree for gold-parse discussion." width="760" height="520" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Phrase-structure tree for treebank / parser essays. License: Public domain</figcaption>
+</figure>
+
 
 Lexicalization is the heart. A vanilla PCFG says an NP can expand
 to DT NN and does not care which NN. That is why vanilla PCFGs are
