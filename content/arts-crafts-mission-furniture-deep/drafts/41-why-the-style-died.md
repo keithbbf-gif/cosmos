@@ -4,7 +4,7 @@ slug: why-the-style-died
 chapter: 41
 series: American Arts and Crafts / Mission Furniture
 status: staged
-voice_check: human
+voice_check: edited
 lane: bbf-furniture
 period: 1914–1929
 regions: New York, Fayetteville, Grand Rapids

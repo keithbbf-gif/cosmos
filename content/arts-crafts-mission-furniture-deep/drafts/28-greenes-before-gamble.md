@@ -4,7 +4,7 @@ slug: greenes-before-gamble
 chapter: 28
 series: American Arts and Crafts / Mission Furniture
 status: staged
-voice_check: human
+voice_check: edited
 lane: bbf-furniture
 period: 1894–1907
 regions: Pasadena, California; Long Beach, California

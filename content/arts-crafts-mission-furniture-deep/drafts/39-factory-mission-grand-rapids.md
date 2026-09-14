@@ -4,7 +4,7 @@ slug: factory-mission-grand-rapids
 chapter: 39
 series: American Arts and Crafts / Mission Furniture
 status: staged
-voice_check: human
+voice_check: edited
 lane: bbf-furniture
 period: 1900–1916
 regions: Grand Rapids, Hastings, Holland

@@ -4,7 +4,7 @@ slug: mchugh-popular-shop
 chapter: 06
 series: American Arts and Crafts / Mission Furniture
 status: staged
-voice_check: human
+voice_check: edited
 lane: bbf-furniture
 period: 1878–1916
 regions: New York, Buffalo

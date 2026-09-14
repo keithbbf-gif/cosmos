@@ -4,7 +4,7 @@ slug: three-names-not-the-same
 chapter: 01
 series: American Arts and Crafts / Mission Furniture
 status: staged
-voice_check: human
+voice_check: edited
 lane: bbf-furniture
 period: 1894–1916
 regions: New York, California, Syracuse

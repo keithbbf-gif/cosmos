@@ -4,7 +4,7 @@ slug: quartersawn-white-oak
 chapter: 33
 series: American Arts and Crafts / Mission Furniture
 status: staged
-voice_check: human
+voice_check: edited
 lane: bbf-furniture
 period: 1900–1916
 regions: Midwest oak belt, Eastwood, Grand Rapids

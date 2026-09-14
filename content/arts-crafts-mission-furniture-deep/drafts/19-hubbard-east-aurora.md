@@ -4,7 +4,7 @@ slug: hubbard-east-aurora
 chapter: 19
 series: American Arts and Crafts / Mission Furniture
 status: staged
-voice_check: human
+voice_check: edited
 lane: bbf-furniture
 period: 1895–1915
 regions: East Aurora, New York

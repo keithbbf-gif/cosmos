@@ -4,7 +4,7 @@ slug: philadelphia-1876
 chapter: 04
 series: American Arts and Crafts / Mission Furniture
 status: staged
-voice_check: human
+voice_check: edited
 lane: bbf-furniture
 period: 1876
 regions: Philadelphia, New York, Japan (as exhibit), Britain (as exhibit)

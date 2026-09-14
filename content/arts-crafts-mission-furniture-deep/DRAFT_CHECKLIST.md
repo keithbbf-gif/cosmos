@@ -2,13 +2,13 @@
 title: Draft checklist
 series: American Arts and Crafts / Mission Furniture
 status: staged
-voice_check: human
+voice_check: edited
 lane: bbf-furniture
 ---
 
 # Draft checklist — BBF furniture lane (Arts & Crafts / Mission deep)
 
-Target: **≥40** staged magazine essays. **44** planned. `voice_check: human`. `status: staged`. `lane: bbf-furniture`. Body **1800–2600** words.
+Target: **≥40** staged magazine essays. **44** planned. Post–editor pass: `voice_check: edited`. `status: staged`. `lane: bbf-furniture`. Body **1800–2600** words. See `EDITOR_REPORT.md`.
 
 Run `python3 content/arts-crafts-mission-furniture-deep/validate_staging.py` from the repo root (or from this folder).
 

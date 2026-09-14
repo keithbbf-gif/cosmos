@@ -4,7 +4,7 @@ slug: american-morris-chair
 chapter: 36
 series: American Arts and Crafts / Mission Furniture
 status: staged
-voice_check: human
+voice_check: edited
 lane: bbf-furniture
 period: 1866–1912
 regions: London, Sussex, Eastwood, American trade

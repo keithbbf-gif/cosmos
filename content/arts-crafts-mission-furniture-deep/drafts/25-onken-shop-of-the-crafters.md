@@ -4,7 +4,7 @@ slug: onken-shop-of-the-crafters
 chapter: 25
 series: American Arts and Crafts / Mission Furniture
 status: staged
-voice_check: human
+voice_check: edited
 lane: bbf-furniture
 period: 1904–1920
 regions: Cincinnati, Ohio

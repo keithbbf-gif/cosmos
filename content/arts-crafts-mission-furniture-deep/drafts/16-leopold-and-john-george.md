@@ -4,7 +4,7 @@ slug: leopold-and-john-george
 chapter: 16
 series: American Arts and Crafts / Mission Furniture
 status: staged
-voice_check: human
+voice_check: edited
 lane: bbf-furniture
 period: 1902–1918
 regions: Fayetteville, New York

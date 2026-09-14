@@ -4,7 +4,7 @@ slug: hardwood-towns-still-speak
 chapter: 44
 series: American Arts and Crafts / Mission Furniture
 status: staged
-voice_check: human
+voice_check: edited
 lane: bbf-furniture
 period: 1901–present
 regions: Warren, southern hardwood towns, the shops that still cut oak
@@ -41,7 +41,7 @@ In the hardwood towns of southern Arkansas, shops that still cut oak in this gra
 
 ## Joints that outlasted the fashion
 
-The through-tenon (chapter 34) was never only Eastwood’s. It was a way to lock a rail into a post so a sitter could see the lock. Grand Rapids could fake it with a dowel and a applied end. Mail-order could pack it as a kit. A shop that still cuts the joint, keyed or pinned, is speaking a sentence the 1920s did not cancel. The 1920s canceled a finish color and a suite. They did not cancel the logic of a post-and-rail chair. Office oak, church oak, library oak kept the slat because the slat still made a strong back. A mill-town workroom that builds a settle for a living room is using the same logic without needing a red decal.
+The through-tenon (chapter 34) was never only Eastwood’s. It was a way to lock a rail into a post so a sitter could see the lock. Grand Rapids could fake it with a dowel and an applied end. Mail-order could pack it as a kit. A shop that still cuts the joint, keyed or pinned, is speaking a sentence the 1920s did not cancel. The 1920s canceled a finish color and a suite. They did not cancel the logic of a post-and-rail chair. Office oak, church oak, library oak kept the slat because the slat still made a strong back. A mill-town workroom that builds a settle for a living room is using the same logic without needing a red decal.
 
 Catalogs are the third residue. Stickley’s shop numbers, L. & J.G.’s Handcraft lists, Albert’s Quaint No. 30, Lifetime’s Cloister pages, Sears No. 124, Larkin’s February 1916 suite, Come-Packt’s Catalogue H, the 1989 Mission Oak Collection with its old numbers and new dates — the American movement is unusually well documented because it was a print culture as much as a wood culture. A shop that still works from a measured drawing, whether the drawing is 1904 or this morning, is in that print culture. A shop that only copies a silhouette from a photograph is in a thinner one. The difference is not purity. It is whether the post has a dimension.
 

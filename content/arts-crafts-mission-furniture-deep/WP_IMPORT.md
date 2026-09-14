@@ -2,7 +2,7 @@
 title: WordPress import notes
 series: American Arts and Crafts / Mission Furniture
 status: staged
-voice_check: human
+voice_check: edited
 lane: bbf-furniture
 ---
 
@@ -21,7 +21,7 @@ Nothing in this folder is cleared to `publish`. The series is staged Website-GC 
 | Author | to be assigned |
 | Featured image | none until a CC0 or licensed hero is chosen from `PHOTO_CAPTIONS.md` |
 | Excerpt | YAML `meta_description` |
-| Custom fields | `series`, `chapter`, `lane=bbf-furniture`, `voice_check=human`, `status=staged` |
+| Custom fields | `series`, `chapter`, `lane=bbf-furniture`, `voice_check=edited`, `status=staged` |
 
 ## Import order
 
@@ -42,7 +42,7 @@ Nothing in this folder is cleared to `publish`. The series is staged Website-GC 
 ## Staging checklist (per post)
 
 - [ ] Status is `draft` in WP / `staged` in YAML
-- [ ] `voice_check: human` preserved
+- [ ] `voice_check: edited` preserved (post editor pass)
 - [ ] Body word count 1800–2600 before notes
 - [ ] Figure plan 4–7, each with alt text
 - [ ] No product CTAs

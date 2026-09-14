@@ -4,7 +4,7 @@ slug: ammonia-and-the-brown
 chapter: 35
 series: American Arts and Crafts / Mission Furniture
 status: staged
-voice_check: human
+voice_check: edited
 lane: bbf-furniture
 period: 1901–1916
 regions: Eastwood, American trade

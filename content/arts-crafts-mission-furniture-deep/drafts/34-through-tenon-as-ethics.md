@@ -4,7 +4,7 @@ slug: through-tenon-as-ethics
 chapter: 34
 series: American Arts and Crafts / Mission Furniture
 status: staged
-voice_check: human
+voice_check: edited
 lane: bbf-furniture
 period: 1900–1916
 regions: Eastwood, Grand Rapids, American trade

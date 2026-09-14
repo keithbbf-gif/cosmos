@@ -4,7 +4,7 @@ slug: wright-dining-chair-as-wall
 chapter: 31
 series: American Arts and Crafts / Mission Furniture
 status: staged
-voice_check: human
+voice_check: edited
 lane: bbf-furniture
 period: 1895–1910
 regions: Chicago, Oak Park, Springfield

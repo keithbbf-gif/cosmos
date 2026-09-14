@@ -4,7 +4,7 @@ slug: settles-leather-hall
 chapter: 37
 series: American Arts and Crafts / Mission Furniture
 status: staged
-voice_check: human
+voice_check: edited
 lane: bbf-furniture
 period: 1901–1915
 regions: Eastwood, Fayetteville, American houses
@@ -54,7 +54,7 @@ The leather is not Spanish colonial. Mission as a trade name stole a church and 
 
 ## Drop-arm as a mechanism, not a mood
 
-The 263’s arms pivot or slant so the piece can read as a settee and then as a couch-length bench. Gustav’s 369 Morris chair also drop-arms (chapter 36); that is a chair changing posture. The settle changes function. Catalog language for the 210 does not need drop arms to claim sleep: it is “long enough to allow the body to recline at full length.” Eighty-four inches is a bed that still looks like a bench. The 263 gets the same result with a shorter length and movable arms.
+The 263’s arms pivot or slant so the piece can read as a settee and then as a couch-length bench. Gustav’s shop no. 369 Morris chair drops its arms too (chapter 36); that is a chair changing posture. The settle changes function. Catalog language for the 210 does not need drop arms to claim sleep: it is “long enough to allow the body to recline at full length.” Eighty-four inches is a bed that still looks like a bench. The 263 gets the same result with a shorter length and movable arms.
 
 Even-arm settles — arms that stay up — are the stricter hall version. Drop-arm settles admit a household might need a spare bed. The mechanism is not the Morris chair’s peg. It is a hinge and a pin, or a sliding arm, depending on the shop and the year `[VERIFY a specific shop number’s hardware from a dated catalog]`. People confuse the two because both change their minds. The chair changes for a spine. The settle changes for a length.
 

@@ -2,7 +2,7 @@
 title: Manifest
 series: American Arts and Crafts / Mission Furniture
 status: staged
-voice_check: human
+voice_check: edited
 lane: bbf-furniture
 note: Body word counts are words after YAML and before ## Notes. Target 1800–2600.
 ---
@@ -72,6 +72,7 @@ Recount: `python3 content/arts-crafts-mission-furniture-deep/validate_staging.py
 | `TIMELINE.md` | Dated spine |
 | `WP_IMPORT.md` | Staged import only |
 | `DRAFT_CHECKLIST.md` | File list |
+| `EDITOR_REPORT.md` | Editor QA sign-off (2026-09-14) |
 | `validate_staging.py` | Gate (PASS 2026-09-14) |
 | `MANIFEST.md` | This file |
 

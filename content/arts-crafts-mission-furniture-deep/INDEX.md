@@ -1,7 +1,7 @@
 ---
 title: Index — American Arts and Crafts / Mission Furniture
 status: staged
-voice_check: human
+voice_check: edited
 series: American Arts and Crafts / Mission Furniture
 lane: bbf-furniture
 ---

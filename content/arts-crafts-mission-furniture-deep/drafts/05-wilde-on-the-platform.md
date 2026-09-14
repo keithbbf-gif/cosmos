@@ -4,7 +4,7 @@ slug: wilde-on-the-platform
 chapter: 05
 series: American Arts and Crafts / Mission Furniture
 status: staged
-voice_check: human
+voice_check: edited
 lane: bbf-furniture
 period: 1882
 regions: New York, the lecture circuit, Leadville
@@ -63,7 +63,7 @@ Wheeler’s later writing on decoration, and the women’s decorative-art societ
 
 The reconstructed “Decorative Arts” lecture praises the craftsman who is allowed to invent, which is Ruskin in a lighter coat (chapter 2). It praises children’s art education. It attacks the American habit — as Wilde saw it — of stuffing a room with things that have no job. Newspaper transcripts vary. One night’s version leans on Greece; another on Morris; another on Japan. The variance is the archive. Do not quote a tidy paragraph as if it were a published essay. Do quote the job: an hour of paid speech that made making sound like a public subject.
 
-American manual-training schools were already making making a public subject. Calvin Woodward in St. Louis, the later Sloyd imports, the city school shops — Boris again, if the reader wants labor rather than lectures. Wilde’s tour did not found those schools. Teachers used the fashion of the tour when it helped a levy. That is reception. It is not authorship.
+American manual-training schools were already making a public subject. Calvin Woodward in St. Louis, the later Sloyd imports, the city school shops — Boris again, if the reader wants labor rather than lectures. Wilde’s tour did not found those schools. Teachers used the fashion of the tour when it helped a levy. That is reception. It is not authorship.
 
 Leadville remains useful because it refuses the idea that the tour was only Fifth Avenue. A mining town paid for a talk. The talk changed nothing about the mine. It added a night to the town’s record of visiting curiosities. American Arts and Crafts will always have that double audience: the decorator who can order a room, and the crowd that comes to look. Stickley’s magazine tried to merge them. Wilde’s hall kept them in their seats, then sent them out the same doors they came in.
 

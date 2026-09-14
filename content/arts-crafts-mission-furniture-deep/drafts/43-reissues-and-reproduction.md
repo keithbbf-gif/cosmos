@@ -4,7 +4,7 @@ slug: reissues-and-reproduction
 chapter: 43
 series: American Arts and Crafts / Mission Furniture
 status: staged
-voice_check: human
+voice_check: edited
 lane: bbf-furniture
 period: 1974–1990s
 regions: Fayetteville, Manlius, national shops
