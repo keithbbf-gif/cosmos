@@ -1,0 +1,179 @@
+#!/usr/bin/env python3
+"""One-shot downloader for staged Commons/LOC plates. Run from repo root."""
+from __future__ import annotations
+
+import json
+import urllib.parse
+import urllib.request
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent
+REGISTRY_PATH = ROOT / "registry.json"
+
+ASSETS: list[dict] = [
+    {
+        "id": "wsr-1859-colton-arkansas-railroads",
+        "commons": "File:1859 Colton Pocket Map of Arkansas ( Railroads ) - Geographicus - Arkansas-colton-1859.jpg",
+        "filename": "wsr-1859-colton-arkansas-railroads.jpg",
+        "license": "Public domain",
+        "credit": "J. H. Colton & Co., 1859; Geographicus / Wikimedia Commons",
+        "commons_url": "https://commons.wikimedia.org/wiki/File:1859_Colton_Pocket_Map_of_Arkansas_(%20Railroads_)_-_Geographicus_-_Arkansas-colton-1859.jpg",
+    },
+    {
+        "id": "wsr-cotton-pickers-pulaski-met",
+        "commons": "File:Cotton Pickers, Pulaski County, Arkansas MET DP165115.jpg",
+        "filename": "wsr-cotton-pickers-pulaski-met.jpg",
+        "license": "CC0 1.0",
+        "credit": "The Metropolitan Museum of Art / Wikimedia Commons",
+        "commons_url": "https://commons.wikimedia.org/wiki/File:Cotton_Pickers,_Pulaski_County,_Arkansas_MET_DP165115.jpg",
+    },
+    {
+        "id": "wsr-red-river-steamboat-blessing",
+        "commons": "File:Red river steamboat landing, by S. T. Blessing.jpg",
+        "filename": "wsr-red-river-steamboat-blessing.jpg",
+        "license": "Public domain",
+        "credit": "S. T. Blessing, c. 1873; Wikimedia Commons",
+        "commons_url": "https://commons.wikimedia.org/wiki/File:Red_river_steamboat_landing,_by_S._T._Blessing.jpg",
+    },
+    {
+        "id": "wsr-iron-mountain-railroad-map-loc",
+        "commons": "File:Map of the Chester, Iron Mountain & Western Railroad and its connections. LOC 98688618.jpg",
+        "filename": "wsr-iron-mountain-railroad-map-loc.jpg",
+        "license": "Public domain",
+        "credit": "Library of Congress, Geography and Map Division / Wikimedia Commons",
+        "commons_url": "https://commons.wikimedia.org/wiki/File:Map_of_the_Chester,_Iron_Mountain_%26_Western_Railroad_and_its_connections._LOC_98688618.jpg",
+    },
+    {
+        "id": "wsr-saline-river-ouachita-nf",
+        "commons": "File:Saline River in Ouachita National Forest.jpg",
+        "filename": "wsr-saline-river-ouachita-nf.jpg",
+        "license": "CC0 1.0",
+        "credit": "U.S. Forest Service / Wikimedia Commons",
+        "commons_url": "https://commons.wikimedia.org/wiki/File:Saline_River_in_Ouachita_National_Forest.jpg",
+    },
+    {
+        "id": "wsr-wilmar-high-school",
+        "commons": "File:Wilmar High School in Wilmar, AR.jpg",
+        "filename": "wsr-wilmar-high-school.jpg",
+        "license": "CC0 1.0",
+        "credit": "U.S. Government work / Wikimedia Commons",
+        "commons_url": "https://commons.wikimedia.org/wiki/File:Wilmar_High_School_in_Wilmar,_AR.jpg",
+    },
+    {
+        "id": "wsr-wpa-building-wilmar",
+        "commons": "File:WPA building in Wilmar, AR.jpg",
+        "filename": "wsr-wpa-building-wilmar.jpg",
+        "license": "CC0 1.0",
+        "credit": "U.S. Government work / Wikimedia Commons",
+        "commons_url": "https://commons.wikimedia.org/wiki/File:WPA_building_in_Wilmar,_AR.jpg",
+    },
+    {
+        "id": "wsr-lumber-survey-crew-1929",
+        "commons": "File:Survey crew at camp office, Long Bell Lumber Company, Ryderwood, ca 1929 (KINSEY 2387).jpg",
+        "filename": "wsr-lumber-survey-crew-1929.jpg",
+        "license": "Public domain",
+        "credit": "Kinsey Brothers Photography / Wikimedia Commons",
+        "commons_url": "https://commons.wikimedia.org/wiki/File:Survey_crew_at_camp_office,_Long_Bell_Lumber_Company,_Ryderwood,_ca_1929_(KINSEY_2387).jpg",
+    },
+    {
+        "id": "wsr-woods-crew-1929",
+        "commons": "File:Woods crew, Long Bell Lumber Company, Ryderwood, ca 1929 (KINSEY 2406).jpg",
+        "filename": "wsr-woods-crew-1929.jpg",
+        "license": "Public domain",
+        "credit": "Kinsey Brothers Photography / Wikimedia Commons",
+        "commons_url": "https://commons.wikimedia.org/wiki/File:Woods_crew,_Long_Bell_Lumber_Company,_Ryderwood,_ca_1929_(KINSEY_2406).jpg",
+    },
+    {
+        "id": "wsr-mopac-depot-charleston",
+        "commons": "File:Missouri Pacific Depot in Charleston.jpg",
+        "filename": "wsr-mopac-depot-charleston.jpg",
+        "license": "Public domain",
+        "credit": "Mississippi County Port Authority / Wikimedia Commons",
+        "commons_url": "https://commons.wikimedia.org/wiki/File:Missouri_Pacific_Depot_in_Charleston.jpg",
+    },
+    {
+        "id": "wsr-cotton-bale-warehouse-haer",
+        "commons": "File:GENERAL VIEW OF STORAGE (BALE) WAREHOUSE, LOOKING NORTHWEST - Bamberg Cotton Mill, Main Street, Bamberg, Bamberg County, SC HAER SC,5-BAMB,1-7.tif",
+        "filename": "wsr-cotton-bale-warehouse-haer.jpg",
+        "license": "Public domain",
+        "credit": "Historic American Engineering Record / Library of Congress / Wikimedia Commons",
+        "commons_url": "https://commons.wikimedia.org/wiki/File:GENERAL_VIEW_OF_STORAGE_(BALE)_WAREHOUSE,_LOOKING_NORTHWEST_-_Bamberg_Cotton_Mill,_Main_Street,_Bamberg,_Bamberg_County,_SC_HAER_SC,5-BAMB,1-7.tif",
+    },
+    {
+        "id": "wsr-mo-ark-map-nara",
+        "commons": "File:Map of Southeastern Missouri and a part of Northeastern Arkansas - NARA - 70652972 (page 1).jpg",
+        "filename": "wsr-mo-ark-map-nara.jpg",
+        "license": "Public domain",
+        "credit": "U.S. National Archives / Wikimedia Commons",
+        "commons_url": "https://commons.wikimedia.org/wiki/File:Map_of_Southeastern_Missouri_and_a_part_of_Northeastern_Arkansas_-_NARA_-_70652972_(page_1).jpg",
+    },
+    {
+        "id": "wsr-leland-giants-1910",
+        "commons": "File:1910 Leland Giants.png",
+        "filename": "wsr-leland-giants-1910.png",
+        "license": "Public domain",
+        "credit": "Wikimedia Commons",
+        "commons_url": "https://commons.wikimedia.org/wiki/File:1910_Leland_Giants.png",
+    },
+    {
+        "id": "wsr-general-order-3-juneteenth",
+        "commons": "File:General Order No. 3 - Juneteenth Memorial Monument - Austin Texas.jpg",
+        "filename": "wsr-general-order-3-juneteenth.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Larry D. Moore / Wikimedia Commons",
+        "commons_url": "https://commons.wikimedia.org/wiki/File:General_Order_No._3_-_Juneteenth_Memorial_Monument_-_Austin_Texas.jpg",
+    },
+    {
+        "id": "wsr-arkansas-review-1911",
+        "commons": "File:Historical review of Arkansas - its commerce, industry and modern affairs (1911) (14779643515).jpg",
+        "filename": "wsr-arkansas-review-1911.jpg",
+        "license": "No known restrictions (Internet Archive scan)",
+        "credit": "Internet Archive / Wikimedia Commons",
+        "commons_url": "https://commons.wikimedia.org/wiki/File:Historical_review_of_Arkansas_-_its_commerce,_industry_and_modern_affairs_(1911)_(14779643515).jpg",
+    },
+    {
+        "id": "wsr-freshwater-mussel",
+        "commons": "File:Group of Margaritifera margaritifera.jpg",
+        "filename": "wsr-freshwater-mussel.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "H. Krisp / Wikimedia Commons",
+        "commons_url": "https://commons.wikimedia.org/wiki/File:Group_of_Margaritifera_margaritifera.jpg",
+    },
+]
+
+
+def commons_thumb_url(title: str, width: int = 1280) -> tuple[str, int, int]:
+    url = "https://commons.wikimedia.org/w/api.php?" + urllib.parse.urlencode(
+        {
+            "action": "query",
+            "format": "json",
+            "titles": title,
+            "prop": "imageinfo",
+            "iiprop": "url|size",
+            "iiurlwidth": width,
+        }
+    )
+    req = urllib.request.Request(url, headers={"User-Agent": "COSMOS-wilmar-figures/1.0"})
+    with urllib.request.urlopen(req, timeout=60) as resp:
+        pages = json.load(resp)["query"]["pages"]
+    page = next(iter(pages.values()))
+    ii = page["imageinfo"][0]
+    return ii["thumburl"], ii["thumbwidth"], ii["thumbheight"]
+
+
+def main() -> None:
+    out: list[dict] = []
+    for row in ASSETS:
+        dest = ROOT / row["filename"]
+        thumb, w, h = commons_thumb_url(row["commons"])
+        print(f"fetch {row['id']} -> {dest.name}")
+        req = urllib.request.Request(thumb, headers={"User-Agent": "COSMOS-wilmar-figures/1.0"})
+        with urllib.request.urlopen(req, timeout=120) as resp:
+            dest.write_bytes(resp.read())
+        out.append({**row, "width": w, "height": h, "local": f"assets/photos/{row['filename']}"})
+    REGISTRY_PATH.write_text(json.dumps(out, indent=2) + "\n", encoding="utf-8")
+    print(f"wrote {REGISTRY_PATH}")
+
+
+if __name__ == "__main__":
+    main()
