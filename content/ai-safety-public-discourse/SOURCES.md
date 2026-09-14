@@ -5,6 +5,7 @@ series: ai-safety-public-discourse
 stage: draft
 status: staged
 voice: human
+voice_check: edited
 novelty: public-record-only
 audience: general-education
 created: 2026-09-14
@@ -64,8 +65,8 @@ This list does not include paywalled archives a general reader cannot open. Book
 
 ## 2023 letters
 
-- FLI open letter on pausing giant AI experiments — 22 March 2023.
-- Center for AI Safety, one-sentence extinction-risk statement — 30 May 2023.
+- [FLI open letter on pausing giant AI experiments](https://futureoflife.org/open-letter/pause-giant-ai-experiments/) — 22 March 2023.
+- [Center for AI Safety, statement on AI risk](https://www.safe.ai/statement-on-ai-risk) — 30 May 2023 (one-sentence extinction-risk framing).
 
 ## How to add a source later
 

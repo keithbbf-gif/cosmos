@@ -5,6 +5,7 @@ series: ai-safety-public-discourse
 stage: draft
 status: staged
 voice: human
+voice_check: edited
 novelty: public-record-only
 audience: general-education
 created: 2026-09-14
@@ -49,7 +50,7 @@ It is not a history of any private software project. It is not a vendor brief. I
 
 ## How to read
 
-Start with `00-how-to-read-this-set.md`, then follow the numbered files, or jump by era using `INDEX.md`. Public URLs live in `SOURCES.md`. The file list and word counts are in `MANIFEST.md`.
+Start with `00-how-to-read-this-set.md`, then follow the numbered files, or jump by era using `INDEX.md`. Public URLs live in `SOURCES.md`. The file list and word counts are in `MANIFEST.md`. After the 2026-09-14 editor pass, see `EDITOR_REPORT.md` and run `python3 check_pack.py` in this folder.
 
 ## File map
 

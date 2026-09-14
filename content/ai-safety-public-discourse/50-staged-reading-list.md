@@ -5,6 +5,7 @@ series: ai-safety-public-discourse
 stage: draft
 status: staged
 voice: human
+voice_check: edited
 novelty: public-record-only
 audience: general-education
 era: method

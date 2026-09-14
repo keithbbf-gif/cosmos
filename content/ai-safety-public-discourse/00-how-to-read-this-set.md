@@ -5,6 +5,7 @@ series: ai-safety-public-discourse
 stage: draft
 status: staged
 voice: human
+voice_check: edited
 novelty: public-record-only
 audience: general-education
 era: method
@@ -69,7 +70,7 @@ If you have one evening: `01`, `05`, `11`, `12`, `23`, `33`, `37`, `47`.
 
 If you have a weekend: read `01`–`40` in order, then the method pieces.
 
-If you are fact-checking: open `SOURCES.md` and the official URL before you trust a sentence of mine.
+If you are fact-checking: open `SOURCES.md` and the official URL before you trust a sentence in these drafts.
 
 ---
 

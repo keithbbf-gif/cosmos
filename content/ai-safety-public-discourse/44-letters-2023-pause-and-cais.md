@@ -5,11 +5,15 @@ series: ai-safety-public-discourse
 stage: draft
 status: staged
 voice: human
+voice_check: edited
 novelty: public-record-only
 audience: general-education
 era: neighboring
 sequence: "44"
 created: 2026-09-14
+sources:
+  - "https://futureoflife.org/open-letter/pause-giant-ai-experiments/"
+  - "https://www.safe.ai/statement-on-ai-risk"
 ---
 
 # 2023: two letters, two public temperatures

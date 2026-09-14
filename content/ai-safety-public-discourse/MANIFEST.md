@@ -5,6 +5,7 @@ series: ai-safety-public-discourse
 stage: draft
 status: staged
 voice: human
+voice_check: edited
 novelty: public-record-only
 audience: general-education
 created: 2026-09-14
@@ -24,10 +25,11 @@ This file is the staged inventory. Recount with a directory listing if you are r
 | Index | `INDEX.md` | Jump table |
 | Sources | `SOURCES.md` | Public pointers |
 | This file | `MANIFEST.md` | Counts |
+| Editor pass | `EDITOR_REPORT.md` | QA log for PR #396 |
 
 **Numbered essays:** 52 (`01`–`52`).  
 **Plus** `00`, `README.md`, `INDEX.md`, `SOURCES.md`, `MANIFEST.md`.  
-**Total markdown files in folder (intended):** 57.  
+**Total markdown files in folder (after editor pass):** 58 (`EDITOR_REPORT.md` + `check_pack.py` QA).  
 **Assignment floor:** 40 drafts.  
 **Stage on every file:** `draft`.  
 **Status on every file:** `staged`.  
@@ -51,6 +53,7 @@ This file is the staged inventory. Recount with a directory listing if you are r
 3. Host-repository or house-project names do not appear in the folder.
 4. Each numbered draft has `stage: draft` and a novelty footer.
 5. Dates that claim official force cite a public instrument (see `SOURCES.md`).
+6. `voice_check: edited` on every markdown file; `python3 check_pack.py` exits `OK` (see `EDITOR_REPORT.md`).
 
 ## Word counts
 

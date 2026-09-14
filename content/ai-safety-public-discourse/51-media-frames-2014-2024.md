@@ -5,6 +5,7 @@ series: ai-safety-public-discourse
 stage: draft
 status: staged
 voice: human
+voice_check: edited
 novelty: public-record-only
 audience: general-education
 era: method
@@ -40,11 +41,11 @@ A 2010s–2020s intra-researchers fight rendered as two teams. Real people often
 
 When you recognize a frame, write its name at the top of the clipping. Then ask what primary page, if any, the frame is attached to. A prophet piece attached to a real interview is still a frame, but it has a source. A race piece with no document is weather.
 
-## A seventh habit: the anniversary frame
+## A sixth habit: the anniversary frame
 
 "Ten years after *Superintelligence*," "fifty years after Asilomar," "one year after the pause letter." Anniversary pieces recycle the other frames with a calendar hook. They are useful as reception evidence and dangerous as history, because they imply a single clock. This folder's four spines do not share a birthday.
 
-This draft will not offer a new frame. Seven is already too many if you start to think they are laws of media. They are recurring habits in the 2014–2024 English-language pile this set sampled. If a clipping does not fit, do not force it. Forcing is how a method becomes a gimmick.
+This draft will not offer a new frame. Six is already too many if you start to think they are laws of media. They are recurring habits in the 2014–2024 English-language pile this set sampled. If a clipping does not fit, do not force it. Forcing is how a method becomes a gimmick.
 
 ---
 

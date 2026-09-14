@@ -5,6 +5,7 @@ series: ai-safety-public-discourse
 stage: draft
 status: staged
 voice: human
+voice_check: edited
 novelty: public-record-only
 audience: general-education
 era: openai-charter
@@ -34,7 +35,7 @@ It is not a claim that such a stand-down has happened. This draft knows of no pu
 
 ## How to teach it
 
-Give students the paragraph and ask them to list the **undefined predicates**: value-aligned, safety-conscious, close to building, better-than-even, success. Then ask who, on the page, is empowered to apply those predicates. The page says "we." That is the whole enforcement story.
+Give students the paragraph and ask them to list the **undefined predicates**: value-aligned, safety-conscious, close to building, better-than-even, success. Then ask who, on the page, may apply those predicates. The page says "we." That is the whole enforcement story.
 
 Compare the clause to Asilomar 5 and 23. Asilomar asked teams and, later, humanity. The Charter names a single organization's conditional behavior. That is more concrete and still not justiciable.
 

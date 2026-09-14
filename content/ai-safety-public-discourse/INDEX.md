@@ -5,6 +5,7 @@ series: ai-safety-public-discourse
 stage: draft
 status: staged
 voice: human
+voice_check: edited
 novelty: public-record-only
 audience: general-education
 created: 2026-09-14
@@ -22,6 +23,7 @@ All files are **staged drafts**. Read `00-how-to-read-this-set.md` first.
 | `00-how-to-read-this-set.md` | How to read this set without making a myth |
 | `SOURCES.md` | Public URLs used as pointers |
 | `MANIFEST.md` | File list and counts |
+| `EDITOR_REPORT.md` | Editor pass log (PR #396) |
 
 ## Asilomar lineage (`01`–`10`)
 
