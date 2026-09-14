@@ -1,0 +1,9 @@
+{
+  "name": "@ai-cluster/lmnator-site",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Marketing static site for LMNator (lmnator.com)",
+  "scripts": {
+    "serve": "python3 -m http.server 8782 --bind 127.0.0.1"
+  }
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Waitlist — LMNator</title>
+    <meta name="description" content="Join the LMNator waitlist for early access." />
+    <link rel="stylesheet" href="css/site.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="logo" href="index.html">LM<span>Nator</span></a>
+        <nav aria-label="Primary">
+          <ul class="site-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Product</a></li>
+            <li><a href="waitlist.html" aria-current="page">Waitlist</a></li>
+            <li><a href="privacy.html">Privacy</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main id="main" class="page-wrap">
+      <section class="hero">
+        <p class="hero-eyebrow">Early access</p>
+        <h1>Join the waitlist</h1>
+        <p class="hero-lead">
+          Get notified when LMNator opens to new workspaces. One list, occasional updates, easy opt-out.
+        </p>
+      </section>
+      <section class="section">
+        <div class="waitlist-panel">
+          <form data-waitlist-form data-storage-key="waitlist:lmnator.com" action="#" method="post">
+            <label for="email">Email address</label>
+            <input id="email" name="email" type="email" autocomplete="email" required placeholder="you@example.com" />
+            <button class="btn btn-primary" type="submit">Request invite</button>
+            <p class="form-note">
+              This preview stores your email only in your browser. Production will use a secure signup endpoint.
+            </p>
+          </form>
+          <div class="waitlist-success" data-waitlist-success role="status">
+            Thank you—you are on the list. We will reach out when invites open.
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p>&copy; LMNator. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="privacy.html">Privacy</a>
+          <a href="index.html">Home</a>
+        </div>
+      </div>
+    </footer>
+    <script src="../shared/waitlist.js" defer></script>
+  </body>
+</html>
