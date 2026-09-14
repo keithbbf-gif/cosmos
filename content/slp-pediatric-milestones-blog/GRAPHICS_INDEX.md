@@ -1,6 +1,6 @@
 # Graphics index — SLPWOW pediatric milestones
 
-_Auto-generated 2026-09-14 20:01 UTC. Run `python scripts/regenerate_graphics_index.py` to refresh._
+_Auto-generated 2026-09-14 20:07 UTC. Run `python scripts/regenerate_graphics_index.py` to refresh._
 
 | Slug | Asset | SVG title | Embed snippet |
 |------|-------|-----------|---------------|

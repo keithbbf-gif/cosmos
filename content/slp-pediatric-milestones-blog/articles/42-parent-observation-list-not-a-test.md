@@ -32,6 +32,21 @@ Write what you **saw this week**, not what you hope. Write the child’s age, wh
 
 If a box is empty, it is empty. It is not a fail.
 
+<figure class="slpwow-figure slpwow-figure--timeline" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/series-overview/birth-to-five-checklist-ages.svg"
+    alt="Schematic timeline of CDC Learn the Signs Act Early checklist ages from 2 months through 5 years, labeled as a surveillance tool not a diagnosis"
+    width="960"
+    height="300"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Checklist ages from birth through five (schematic). Pair this observation list with the official CDC page for your child’s well-child visit — not as a score.
+    <span class="figure-credit">SLPWOW pediatric milestones — original editorial SVG. Verify ages against the current CDC PDF before print.</span>
+  </figcaption>
+</figure>
+
 ## Looking and listening
 
 - What do they do when I walk in?
