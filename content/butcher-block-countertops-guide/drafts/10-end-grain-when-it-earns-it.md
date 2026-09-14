@@ -4,6 +4,7 @@ slug: end-grain-when-it-earns-it
 title: End grain, when it earns it
 stage: 3-construction
 status: staged
+voice_check: edited
 topics: [butcher-block, grain, care]
 ---
 

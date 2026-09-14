@@ -4,6 +4,7 @@ slug: when-to-resurface
 title: When to resurface
 stage: 4-care
 status: staged
+voice_check: edited
 topics: [care, butcher-block, history]
 ---
 

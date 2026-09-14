@@ -4,6 +4,7 @@ slug: wax-after-oil
 title: Wax after oil
 stage: 4-care
 status: staged
+voice_check: edited
 topics: [care, oil, butcher-block]
 ---
 

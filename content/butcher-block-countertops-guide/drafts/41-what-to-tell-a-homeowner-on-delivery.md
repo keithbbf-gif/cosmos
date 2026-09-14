@@ -4,6 +4,7 @@ slug: what-to-tell-a-homeowner-on-delivery
 title: What to tell a homeowner on delivery
 stage: 6-bradley
 status: staged
+voice_check: edited
 topics: [bradley, care, island-tops]
 ---
 

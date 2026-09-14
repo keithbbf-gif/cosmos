@@ -4,6 +4,7 @@ slug: maple-and-the-midwest-shop
 title: Maple and the Midwest shop
 stage: 2-history
 status: staged
+voice_check: edited
 topics: [history, butcher-block, species]
 ---
 

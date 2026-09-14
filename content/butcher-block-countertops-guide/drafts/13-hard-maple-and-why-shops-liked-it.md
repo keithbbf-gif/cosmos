@@ -4,6 +4,7 @@ slug: hard-maple-and-why-shops-liked-it
 title: Hard maple, and why shops liked it
 stage: 3-construction
 status: staged
+voice_check: edited
 topics: [species, butcher-block, history]
 ---
 

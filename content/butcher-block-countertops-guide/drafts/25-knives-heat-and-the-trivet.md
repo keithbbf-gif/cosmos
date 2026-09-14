@@ -4,6 +4,7 @@ slug: knives-heat-and-the-trivet
 title: Knives, heat, and the trivet
 stage: 4-care
 status: staged
+voice_check: edited
 topics: [care, butcher-block, island-tops]
 ---
 

@@ -4,11 +4,13 @@ slug: aftercare-card
 title: Tape the care card in the trash pull
 stage: 7-living
 status: staged
+voice_check: edited
 topics: [care, bradley, butcher-block]
 ---
 
-Tape the care card inside the trash pull. Future you,
-and the next owner, will thank the person who did.
+Tape the care card inside the trash pull. The next owner
+will not dig through a drawer of manuals. Thursday lives
+in the trash pull.
 
 The card is one page. It is not this series. It is the
 residue of the series that can survive a move.

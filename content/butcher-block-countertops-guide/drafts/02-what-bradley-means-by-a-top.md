@@ -4,6 +4,7 @@ slug: what-bradley-means-by-a-top
 title: What Bradley means by a top
 stage: 1-brief
 status: staged
+voice_check: edited
 topics: [bradley, island-tops, butcher-block, voice]
 ---
 

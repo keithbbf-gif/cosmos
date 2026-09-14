@@ -1,7 +1,7 @@
 ---
 title: Style Guide — Butcher-block countertops
 status: staged
-voice_check: human
+voice_check: edited
 series: butcher-block-countertops-guide
 ---
 
@@ -65,6 +65,7 @@ slug: kebab-case
 title: Plain title
 stage: 1-brief
 status: staged
+voice_check: edited
 topics: [history, care, island-tops, bradley]
 ---
 ```

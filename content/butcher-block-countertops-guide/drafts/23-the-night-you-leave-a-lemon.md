@@ -4,6 +4,7 @@ slug: the-night-you-leave-a-lemon
 title: The night you leave a lemon
 stage: 4-care
 status: staged
+voice_check: edited
 topics: [care, butcher-block, species]
 ---
 

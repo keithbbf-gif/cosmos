@@ -4,6 +4,7 @@ slug: the-first-year-of-oil
 title: The first year of oil
 stage: 7-living
 status: staged
+voice_check: edited
 topics: [care, oil, butcher-block]
 ---
 
@@ -19,10 +20,10 @@ still settling its mind.
 
 I tell households to look weekly for the first two
 months, then monthly. Pale and dry means now. A dark,
-sated field that still beads a drop can wait. There is
-no prize for a sticky surplus. There is a prize for
-not forgetting until Thanksgiving, when the stains and
-the thirst arrive together.
+sated field that still beads a drop can wait. A sticky
+surplus is dust glue, not protection. Forget the
+schedule until Thanksgiving and the stains and the thirst
+arrive together.
 
 Winter is the exam. If the top opens a hairline in
 January, oil will not close a movement gap, but it will

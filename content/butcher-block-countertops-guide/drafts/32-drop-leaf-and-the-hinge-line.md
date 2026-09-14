@@ -4,6 +4,7 @@ slug: drop-leaf-and-the-hinge-line
 title: Drop leaf, and the hinge line
 stage: 5-island-tops
 status: staged
+voice_check: edited
 topics: [island-tops, bradley, overhang]
 ---
 

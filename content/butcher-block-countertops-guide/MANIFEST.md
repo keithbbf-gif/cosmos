@@ -63,4 +63,6 @@ Required brief topics and where they live:
 | 47 | sequence-job-to-care-card | 7-living | Sequence: job, grain, species, finish, fasteners, card | 342 |
 | 48 | aftercare-card | 7-living | Tape the care card in the trash pull | 342 |
 
-Last `tools/check_butcher_block_drafts.py` pass: **48 drafts**, **18,032 words**, min **341**, max **432**, unique openings **48/48**, status `OK`.
+Last `tools/check_butcher_block_drafts.py` pass: **48 drafts**, **18,023 words**, min **341**, max **432**, unique openings **48/48**, `voice_check: edited` on every draft, status `OK`.
+
+Editor pass: `EDITOR_REPORT.md` (shop voice, 2026-09-14).

@@ -4,6 +4,7 @@ slug: walnut-cherry-oak-ash
 title: Walnut, cherry, oak, ash
 stage: 3-construction
 status: staged
+voice_check: edited
 topics: [species, bradley, island-tops]
 ---
 
@@ -47,8 +48,7 @@ not as a maple substitute for a cutting field.
 
 Janka is a ball test, not a kitchen test. It tells you
 about dents, not about water, heat, or a household. I
-read it, then I ask the three questions from the woods
-draft in the island guide and ask them again here: will
+read it, then I ask the three job questions again: will
 anyone cut without a board; is there a sink; do you want
 year-one color or year-ten color. The species is the
 answer to those questions, not the other way around.

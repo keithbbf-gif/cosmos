@@ -4,6 +4,7 @@ slug: the-block-was-a-tool
 title: The block was a tool
 stage: 2-history
 status: staged
+voice_check: edited
 topics: [history, butcher-block]
 ---
 

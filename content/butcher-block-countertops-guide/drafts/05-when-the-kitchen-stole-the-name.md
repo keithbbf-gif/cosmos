@@ -4,6 +4,7 @@ slug: when-the-kitchen-stole-the-name
 title: When the kitchen stole the name
 stage: 2-history
 status: staged
+voice_check: edited
 topics: [history, butcher-block, island-tops]
 ---
 

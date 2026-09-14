@@ -4,6 +4,7 @@ slug: how-the-top-gets-fastened
 title: How the top gets fastened
 stage: 3-construction
 status: staged
+voice_check: edited
 topics: [island-tops, butcher-block, bradley]
 ---
 

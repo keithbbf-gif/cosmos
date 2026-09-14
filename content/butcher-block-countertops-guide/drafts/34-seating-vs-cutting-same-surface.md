@@ -4,6 +4,7 @@ slug: seating-vs-cutting-same-surface
 title: Seating versus cutting, same surface
 stage: 5-island-tops
 status: staged
+voice_check: edited
 topics: [island-tops, care, butcher-block]
 ---
 

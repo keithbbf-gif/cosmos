@@ -4,6 +4,7 @@ slug: warren-shop-notes
 title: Warren shop notes
 stage: 6-bradley
 status: staged
+voice_check: edited
 topics: [bradley, history, butcher-block]
 ---
 

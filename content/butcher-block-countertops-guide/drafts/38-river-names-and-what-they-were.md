@@ -4,6 +4,7 @@ slug: river-names-and-what-they-were
 title: River names, and what they were
 stage: 6-bradley
 status: staged
+voice_check: edited
 topics: [bradley, history, island-tops]
 ---
 

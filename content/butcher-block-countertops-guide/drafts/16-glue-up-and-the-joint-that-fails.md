@@ -4,6 +4,7 @@ slug: glue-up-and-the-joint-that-fails
 title: Glue-up, and the joint that fails
 stage: 3-construction
 status: staged
+voice_check: edited
 topics: [butcher-block, care, construction]
 ---
 

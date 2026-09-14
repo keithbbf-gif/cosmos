@@ -4,6 +4,7 @@ slug: sycamore-gum-arkansas-mahogany
 title: Sycamore, gum, and Arkansas mahogany
 stage: 3-construction
 status: staged
+voice_check: edited
 topics: [species, bradley, history]
 ---
 

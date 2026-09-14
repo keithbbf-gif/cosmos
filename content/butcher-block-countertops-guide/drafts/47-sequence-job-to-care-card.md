@@ -4,6 +4,7 @@ slug: sequence-job-to-care-card
 title: "Sequence: job, grain, species, finish, fasteners, card"
 stage: 7-living
 status: staged
+voice_check: edited
 topics: [bradley, island-tops, care, butcher-block]
 ---
 

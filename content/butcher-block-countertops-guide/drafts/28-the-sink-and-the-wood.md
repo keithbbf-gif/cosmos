@@ -4,6 +4,7 @@ slug: the-sink-and-the-wood
 title: The sink and the wood
 stage: 4-care
 status: staged
+voice_check: edited
 topics: [care, island-tops, butcher-block]
 ---
 

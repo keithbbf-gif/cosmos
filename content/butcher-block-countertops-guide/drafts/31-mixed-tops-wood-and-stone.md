@@ -4,6 +4,7 @@ slug: mixed-tops-wood-and-stone
 title: Mixed tops, wood and stone
 stage: 5-island-tops
 status: staged
+voice_check: edited
 topics: [island-tops, butcher-block, care]
 ---
 

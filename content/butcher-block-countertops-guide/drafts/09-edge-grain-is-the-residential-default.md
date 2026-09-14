@@ -4,6 +4,7 @@ slug: edge-grain-is-the-residential-default
 title: Edge grain is the residential default
 stage: 3-construction
 status: staged
+voice_check: edited
 topics: [butcher-block, grain, island-tops]
 ---
 
@@ -15,9 +16,9 @@ island. You see a field of stripes, not cathedrals, not a
 checkerboard. Thickness in a decent shop is 1.25 to 2.5
 inches. Alternate the growth rings when you glue so the
 panel does not decide to become a trough. That last sentence
-is shop talk the fabricator already knows. What you need to
-know is that a cheap top glued in a hurry will cup, and that
-cupping on an island is a lid that rocks glasses.
+is shop talk the fabricator already knows. The part that
+bites you in the field is a cheap glue-up in a hurry: it
+cups, and cupping on an island is a lid that rocks glasses.
 
 Edge grain is the default because it balances three jobs.
 It is stable enough for a furniture box. It is hard enough

@@ -4,6 +4,7 @@ slug: weight-on-the-bradley-box
 title: Weight on the Bradley box
 stage: 5-island-tops
 status: staged
+voice_check: edited
 topics: [bradley, island-tops, butcher-block]
 ---
 

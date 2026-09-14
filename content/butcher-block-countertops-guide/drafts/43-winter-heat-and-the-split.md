@@ -4,6 +4,7 @@ slug: winter-heat-and-the-split
 title: Winter heat, and the split
 stage: 7-living
 status: staged
+voice_check: edited
 topics: [care, butcher-block, bradley]
 ---
 

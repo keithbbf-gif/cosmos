@@ -4,6 +4,7 @@ slug: thickness-is-structure
 title: Thickness is structure
 stage: 3-construction
 status: staged
+voice_check: edited
 topics: [butcher-block, island-tops, overhang]
 ---
 

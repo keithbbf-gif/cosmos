@@ -4,6 +4,7 @@ slug: two-tone-walnut-ash
 title: Two-tone walnut and ash
 stage: 6-bradley
 status: staged
+voice_check: edited
 topics: [bradley, species, island-tops]
 ---
 

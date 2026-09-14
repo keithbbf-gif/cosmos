@@ -4,6 +4,7 @@ slug: the-island-top-is-not-a-counter-run
 title: The island top is not a counter run
 stage: 5-island-tops
 status: staged
+voice_check: edited
 topics: [island-tops, butcher-block, bradley]
 ---
 

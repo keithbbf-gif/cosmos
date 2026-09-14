@@ -4,6 +4,7 @@ slug: what-to-tell-a-dealer
 title: What to tell a dealer
 stage: 6-bradley
 status: staged
+voice_check: edited
 topics: [bradley, island-tops, butcher-block]
 ---
 

@@ -4,6 +4,7 @@ slug: spec-sheet-for-a-wood-top
 title: A spec sheet for a wood top
 stage: 7-living
 status: staged
+voice_check: edited
 topics: [bradley, island-tops, butcher-block]
 ---
 

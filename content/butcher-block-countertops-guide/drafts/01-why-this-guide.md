@@ -4,6 +4,7 @@ slug: why-this-guide
 title: Why this guide exists
 stage: 1-brief
 status: staged
+voice_check: edited
 topics: [intro, bradley, butcher-block, voice]
 ---
 

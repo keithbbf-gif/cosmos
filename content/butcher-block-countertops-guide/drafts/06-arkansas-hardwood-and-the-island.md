@@ -4,6 +4,7 @@ slug: arkansas-hardwood-and-the-island
 title: Arkansas hardwood and the island
 stage: 2-history
 status: staged
+voice_check: edited
 topics: [history, bradley, species, island-tops]
 ---
 

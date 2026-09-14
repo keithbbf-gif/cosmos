@@ -4,6 +4,7 @@ slug: end-grain-mythology
 title: End-grain mythology
 stage: 2-history
 status: staged
+voice_check: edited
 topics: [history, butcher-block, grain]
 ---
 

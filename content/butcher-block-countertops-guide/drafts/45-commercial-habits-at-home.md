@@ -4,6 +4,7 @@ slug: commercial-habits-at-home
 title: Commercial habits at home
 stage: 7-living
 status: staged
+voice_check: edited
 topics: [care, history, butcher-block]
 ---
 

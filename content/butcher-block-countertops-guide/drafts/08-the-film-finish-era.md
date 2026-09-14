@@ -4,6 +4,7 @@ slug: the-film-finish-era
 title: The film-finish era
 stage: 2-history
 status: staged
+voice_check: edited
 topics: [history, care, butcher-block]
 ---
 

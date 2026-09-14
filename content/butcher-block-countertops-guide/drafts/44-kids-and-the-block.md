@@ -4,6 +4,7 @@ slug: kids-and-the-block
 title: Kids and the block
 stage: 7-living
 status: staged
+voice_check: edited
 topics: [care, island-tops, butcher-block]
 ---
 

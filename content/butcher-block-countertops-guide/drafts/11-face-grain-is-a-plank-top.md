@@ -4,6 +4,7 @@ slug: face-grain-is-a-plank-top
 title: Face grain is a plank top
 stage: 3-construction
 status: staged
+voice_check: edited
 topics: [butcher-block, grain, island-tops]
 ---
 

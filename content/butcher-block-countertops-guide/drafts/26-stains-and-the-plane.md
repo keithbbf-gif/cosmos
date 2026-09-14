@@ -4,6 +4,7 @@ slug: stains-and-the-plane
 title: Stains, and the plane
 stage: 4-care
 status: staged
+voice_check: edited
 topics: [care, butcher-block]
 ---
 

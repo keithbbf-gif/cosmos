@@ -4,6 +4,7 @@ slug: portable-vs-stationary
 title: Portable versus stationary
 stage: 5-island-tops
 status: staged
+voice_check: edited
 topics: [island-tops, bradley, butcher-block]
 ---
 
