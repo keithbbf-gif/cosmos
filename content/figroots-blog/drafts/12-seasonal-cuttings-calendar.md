@@ -32,7 +32,7 @@ The worst cuttings I have opened were not “bad varieties.” They were good wo
 
 The calendar is not the boss. The **wood** is the boss.
 
-Industry stick, again, because people skip it: **6–8 inches, three nodes**, lignified if you can get it. Pencil-thick or better for pops. That does not change when the month changes.
+Industry stick, because people skip it: **6–8 inches, three nodes**, lignified if you can get it. Pencil-thick or better for pops. That does not change when the month changes.
 
 ## Two seasons, not twelve
 
@@ -52,9 +52,11 @@ I will start where we actually live, then fan out.
 
 **Spring push.** Trees are moving. Wood you cut now may bleed. Semi-lignified. Root soon. I would not build a storage bag out of it.
 
-**Summer.** Heat. Storms. Green wood cooks in a truck. If you take a summer cutting, treat it like a perishable. Shade, moisture in the mix not around the bark, no fridge nap. Outdoor sticking in shade (the [Outdoor](https://figroots.com/outdoor/) pots and beds) is a real method when you have extra wood and you do not want a basement full of cups. Water weekly-ish, not a swamp. Separate at 7–10 leaves or wait for fall dormancy.
+**Summer.** Heat. Storms. Green wood cooks in a truck. If you take a summer cutting, treat it like a perishable. Shade, moisture in the mix not around the bark, no fridge nap. Outdoor sticking in shade (the [Outdoor](https://figroots.com/outdoor/) pots and beds) is a real method when you have extra wood and you do not want a basement full of cups. Water weekly-ish, not a swamp. Separate at 7–10 leaves or wait for fall dormancy. That wood is replaceable. A named stick from a mailbox is not. Do not mix those jobs.
 
 **Early fall.** Wood starts to harden. A semi-lignified stick can still root. Storage gets safer as they lignify and the nights drop. Do not ship a soft green bundle across the country in September and call it dormant because the calendar said fall.
+
+I would rather take extra dormant wood in January and fridge the surplus than invent a July shipping season because I ran out. The fridge draft is the delay. This page is which month even belongs in a bag.
 
 ## Other US regions (honest ranges, not frost tables)
 
@@ -76,11 +78,21 @@ I am not going to fake your last-frost date. I will tell you what the wood is do
 
 Every one of those lines is a **pattern**, not a NOAA station. [VERIFY] against your tree: leaf drop, sap, bark color.
 
+A zone number on a tag is not a cutting calendar. 8a here is not 8a on a West Coast slope. Look at the wood.
+
+## The day a box lands
+
+Open it that day. Shade. Inventory. Damaged sticks get documented — we already posted [Damaged Fig Cuttings](https://figroots.com/) for refunds and replacements. Then decide: stick or fridge. Not “I’ll deal with it Saturday” on a kitchen counter.
+
+Scratch one. Moist cream cambium: alive. Brown dust: firewood. Sap on the plastic: it was moving when they packed it. Treat it as non-dormant. Root soon. Wrinkled from a hot truck: soak, dry the bark, stick now. Do not file it for February.
+
+Unlabeled sticks are unknowns the minute you own them. Write “box 3, unlabeled.” Do not write a celebrity name in hope.
+
 ## Shipping without cooking the stick
 
-If I am sending wood, I send it **dormant**, packed so it cannot slosh, and I do not put it in a truck in a heat wave for fun. If I am receiving, I open the box the day it lands. Shade. Inventory. Damaged sticks get documented — we already posted [Damaged Fig Cuttings](https://figroots.com/) for refunds and replacements. Then I decide: stick or fridge. Not “I’ll deal with it Saturday” on a kitchen counter.
+If I am sending wood, I send it **dormant**, packed so it cannot slosh, and I do not put it in a truck in a heat wave for fun. A week in a hot box is not a storage method. Summer sticks are perishable. Winter sticks in a May mailbox are cooked wood with a tracking number.
 
-A week in a hot box is not a storage method.
+Parafilm, a dry seal, a label that survives the bag. The fridge draft is the hold. This page is: do not create a hold the weather will ruin.
 
 ## What I would put on the shop wall
 
