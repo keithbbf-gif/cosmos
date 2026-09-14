@@ -17,9 +17,21 @@ seo_intent: informational
 audience: educational
 not: legal-advice
 channel: medline-medilodge-era
+
+figure_id: plates.hospital-train-interior-1918
+image_rights: documented
+image_pass: 2026-09-14
+og_image_alt: "SNF dining furniture is wheelchair clearance, sit-to-stand, and a table that is not a tray line. Height, bases, and chairs."
 ---
 
 # Dining in the SNF
+
+<!-- hif-figure:v1 -->
+<figure class="hif-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Interior_View_of_A_Hospital_Train_Patient_Car%2C_1918.jpg" alt="Historical photograph of seating and tables inside a hospital train patient car" width="1200" height="1680" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Dining in a facility is furniture plus logistics — not a restaurant mood board. <em>Rights:</em> No restrictions; National Archives (via Wikimedia Commons); <a href="https://commons.wikimedia.org/wiki/File:Interior_View_of_A_Hospital_Train_Patient_Car,_1918.jpg">source</a>. Historical patient-car interior — dining/seating lineage.</figcaption>
+</figure>
+
 
 A nursing-home dining room is a restaurant that cannot fire its guests.
 

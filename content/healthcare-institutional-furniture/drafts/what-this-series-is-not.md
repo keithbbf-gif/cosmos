@@ -17,9 +17,21 @@ seo_intent: informational
 audience: educational
 not: legal-advice
 channel: medline-medilodge-era
+
+figure_id: plates.empty-ward-minneapolis
+image_rights: documented
+image_pass: 2026-09-14
+og_image_alt: "Limits of this staged BBF series: not a catalog, not legal advice, not a Medilodge case study, not a SKU list."
 ---
 
 # What this series is not
+
+<!-- hif-figure:v1 -->
+<figure class="hif-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Empty_Beds_in_Ward_of_Hospital%2C_Minneapolis_Health_Department.jpg" alt="Empty ward beds in a public health hospital photograph" width="1200" height="800" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Not a catalog, not legal advice, not a resident testimonial. <em>Rights:</em> CC BY 2.0; Minneapolis Health Department (via Wikimedia Commons); <a href="https://commons.wikimedia.org/wiki/File:Empty_Beds_in_Ward_of_Hospital,_Minneapolis_Health_Department.jpg">source</a>. Empty ward beds — no residents in frame.</figcaption>
+</figure>
+
 
 A series that will not say no will sell you a chair.
 

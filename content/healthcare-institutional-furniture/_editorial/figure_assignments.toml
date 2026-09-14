@@ -1,0 +1,211 @@
+# slug -> asset_key (diagrams.* or plates.*), alt, caption (before Rights line)
+
+[why-this-series-exists]
+asset = "plates.empty-ward-minneapolis"
+alt = "Empty hospital ward with multiple beds and no occupants visible"
+caption = "A leftover ward, not a bedroom — the series opens on empty geometry."
+
+[what-institutional-furniture-is]
+asset = "plates.patient-room-hospital-bed"
+alt = "Empty patient room with a hospital bed and no people"
+caption = "Institutional furniture is what survives bleach, lifts, and survey walk-throughs."
+
+[the-snf-room-as-a-product]
+asset = "diagrams.snf-double-room-plan"
+alt = "Plan schematic of a skilled nursing double bedroom with shared aisle"
+caption = "The SNF room is sold as a package; width punishes paired case goods."
+
+[from-ward-to-private-room]
+asset = "diagrams.ward-to-private-room"
+alt = "Comparison schematic of multi-bed ward row versus single private room"
+caption = "Reform moved density into one envelope — furniture followed the square footage."
+
+[obra-1987-and-homelike]
+asset = "plates.bedstead-met-dt2846"
+alt = "Historical wooden bedstead in the Metropolitan Museum collection"
+caption = "Homelike language arrived before homelike dimensions — the bedstead is the contrast."
+
+[cms-f584-f917-furniture-tags]
+asset = "diagrams.cms-f584-f917-tags"
+alt = "Educational schematic labeling CMS F584 and F917 survey themes"
+caption = "Belongings and accident hazards are where furniture shows up in survey language."
+
+[resident-room-square-footage]
+asset = "diagrams.snf-single-room-plan"
+alt = "Plan schematic of a notional 100 square foot SNF single with bed envelope and aisle"
+caption = "CMS writes area; the mill lives in the leftover rectangle."
+
+[medline-as-a-channel]
+asset = "diagrams.medline-channel-punchout"
+alt = "Flow schematic from mill cut list through catalog punchout to nursing home dock"
+caption = "The distributor face is a rectangle between the mill and the wipe-down."
+
+[medilodge-era-on-the-floor]
+asset = "plates.ashfield-nursing-home-exterior"
+alt = "Exterior photograph of a skilled nursing home building on a public street"
+caption = "Geography on the public record — not a testimonial facade."
+
+[the-room-package]
+asset = "diagrams.room-package-cutlist"
+alt = "Schematic linking bid tab quantities to shop cut list"
+caption = "A room package is a fiction that has to ship as matched case goods."
+
+[hospital-beds-are-not-residential]
+asset = "diagrams.hospital-vs-residential-bed"
+alt = "Plan comparison of residential twin width versus hospital bed envelope with rails"
+caption = "The SNF room is dimensioned for the bed machine, not the comforter set."
+
+[seven-entrapment-zones]
+asset = "diagrams.seven-entrapment-zones"
+alt = "Side elevation schematic labeling seven hospital bed entrapment zones"
+caption = "Seven named openings — four carry FDA dimensional limits in the 2006 guidance."
+
+[side-rails-restraint-and-geometry]
+asset = "diagrams.side-rail-geometry"
+alt = "Schematic comparing full, half, and intermediate side rail positions"
+caption = "A rail is geometry first; restraint paperwork is a different house."
+
+[low-beds-and-fall-culture]
+asset = "diagrams.low-bed-deck-height"
+alt = "Side elevation comparing standard and low hospital bed deck heights"
+caption = "Lower deck height changes reach to rails and nightstands — not a catalog toggle."
+
+[mattress-fit-is-a-gap]
+asset = "diagrams.mattress-zone3-gap"
+alt = "Schematic highlighting rail-to-mattress gap in Zone 3"
+caption = "Mattress mismatch manufactures Zone 3 after install day."
+
+[overbed-tables]
+asset = "diagrams.overbed-table-clearance"
+alt = "Side schematic of overbed table base relative to wheelchair footplate zone"
+caption = "The apron and base width are politics in the aisle."
+
+[bedside-cabinets]
+asset = "plates.three-drawer-cabinet"
+alt = "Wooden three-drawer cabinet with carved pull handles"
+caption = "The interior box and sealed top are the specification — not the catalog photo."
+
+[wardrobes-and-the-closet-rule]
+asset = "plates.drawer-organizer-kraftmaid"
+alt = "Open drawer showing wooden interior organizer dividers"
+caption = "Reach, rod height, and door swing — closet rules live in inches."
+
+[resident-chairs-and-sit-to-stand]
+asset = "plates.morris-recliner-met"
+alt = "Reclining Morris chair with exposed arm structure, Metropolitan Museum"
+caption = "Arm cap and front edge geometry — the sit-to-stand machine starts here."
+
+[geri-chairs-and-the-recliner]
+asset = "plates.morris-recliner-met"
+alt = "Reclining chair with high arms in museum collection photograph"
+caption = "The geri chair is a recliner with wipe-down upholstery and a weight rating."
+
+[dining-in-the-snf]
+asset = "plates.hospital-train-interior-1918"
+alt = "Historical photograph of seating and tables inside a hospital train patient car"
+caption = "Dining in a facility is furniture plus logistics — not a restaurant mood board."
+
+[activity-and-day-room]
+asset = "plates.ward-red-rover"
+alt = "Historical hospital ward interior with rows of beds"
+caption = "Day rooms inherited ward DNA — sightlines and egress still govern chairs."
+
+[nurses-station-millwork]
+asset = "diagrams.nurses-station-sightline"
+alt = "Elevation schematic of nurses station counter with seated sightline"
+caption = "Transaction-height millwork must answer a seated sightline question."
+
+[bariatric-furniture]
+asset = "diagrams.bariatric-bed-envelope"
+alt = "Plan schematic showing wider bariatric bed consuming aisle width"
+caption = "Bariatric upgrades steal aisle before they steal budget."
+
+[infection-control-surfaces]
+asset = "plates.mattress-store-worcestershire"
+alt = "Hospital mattress store and decontamination area photograph"
+caption = "Surfaces include what leaves the room — mattresses have a logistics life."
+
+[bleach-and-arkansas-hardwood]
+asset = "plates.wood-samples-cc0"
+alt = "Board showing sixteen labeled hardwood samples"
+caption = "Bleach-grade finish starts on the right species edge — samples lie without end grain."
+
+[cal-tb-117-and-nfpa-101]
+asset = "diagrams.fire-code-labels"
+alt = "Schematic contrasting California TB 117 furniture label and NFPA 101 adoption"
+caption = "A sticker is evidence; the life-safety program is adoption plus maintenance."
+
+[bifma-is-not-a-healthcare-stamp]
+asset = "diagrams.bifma-vs-bed-system"
+alt = "Schematic comparing office furniture testing to hospital bed system entrapment"
+caption = "BIFMA answers office cycles — not rail-to-mattress openings."
+
+[privacy-curtains-and-cubicle-track]
+asset = "diagrams.privacy-curtain-track"
+alt = "Plan schematic of curved cubicle track with sprinkler clearance"
+caption = "Privacy track is a washable wall — sprinkler and mesh rules still apply."
+
+[ada-in-the-resident-room]
+asset = "diagrams.ada-resident-room-turn"
+alt = "Plan schematic with notional wheelchair turning circle in resident room"
+caption = "Draw the turn before the wardrobe door swing — state books may exceed federal area."
+
+[memory-care-furniture]
+asset = "diagrams.memory-care-loop"
+alt = "Plan schematic of memory care circulation loop with anchored seating"
+caption = "Wander paths and anchored seating compete for the same footprint."
+
+[alf-vs-snf-the-residential-lie]
+asset = "plates.ashfield-nursing-home-exterior"
+alt = "Skilled nursing home building exterior on public road"
+caption = "Residential styling does not change the survey book on the shelf."
+
+[channel-economics-gpo-freight-install]
+asset = "plates.medical-warehouse-nara"
+alt = "Historical photograph of medical supplies stacked in a warehouse"
+caption = "GPO and distributor economics show up as pallets long before install day."
+
+[replacement-cycles-and-capex]
+asset = "plates.iwm-hospital-ward"
+alt = "Historical artwork of a hospital ward interior"
+caption = "CapEx cycles remember every surface a wipe-down touches."
+
+[used-and-refurbished]
+asset = "plates.poston-mattresses-nara"
+alt = "Mattresses and bedding moved outdoors for sterilization at wartime hospital"
+caption = "Refurbished supply chains are older than the punchout refresh date."
+
+[how-to-read-a-spec-sheet]
+asset = "diagrams.spec-sheet-anatomy"
+alt = "Schematic labeling sections of a healthcare casegood spec sheet"
+caption = "Read dimensions, fire materials, install, and bed adjacency on one line."
+
+[what-i-would-ask-a-don]
+asset = "plates.patient-room-hospital-bed"
+alt = "Empty hospital patient room with bed and no occupants"
+caption = "Start with the room you can walk — rails, gap, aisle, and parked overbed."
+
+[a-walk-through-a-real-snf-room]
+asset = "diagrams.room-walkthrough-sightline"
+alt = "Plan schematic from door to bed head showing staff sightline"
+caption = "Walk from the threshold — crash path before catalog finish."
+
+[headwalls-and-overbed-light]
+asset = "plates.hospital-bed-side-view"
+alt = "Hospital bed photographed without a patient"
+caption = "Headwall services and overbed light compete for the same reach zone."
+
+[medline-catalog-vs-the-mill]
+asset = "plates.drawer-organizer-kraftmaid"
+alt = "Drawer interior with wooden organizer next to catalog fit-out discussion"
+caption = "Two documents — punchout line and shop drawing — must marry."
+
+[common-myths]
+asset = "plates.hospital-bed-side-view"
+alt = "Adjustable hospital bed on empty floor"
+caption = "Myths die on measurement — rails, gaps, and mattress lines."
+
+[what-this-series-is-not]
+asset = "plates.empty-ward-minneapolis"
+alt = "Empty ward beds in a public health hospital photograph"
+caption = "Not a catalog, not legal advice, not a resident testimonial."

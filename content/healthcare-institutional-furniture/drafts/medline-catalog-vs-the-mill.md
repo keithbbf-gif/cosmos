@@ -19,9 +19,21 @@ seo_intent: informational
 audience: educational
 not: legal-advice
 channel: medline-medilodge-era
+
+figure_id: plates.drawer-organizer-kraftmaid
+image_rights: documented
+image_pass: 2026-09-14
+og_image_alt: "A punchout page is a rectangle. A mill drawing is a rod height. How to read both without confusing a logo for a factory."
 ---
 
 # The Medline catalog vs the mill
+
+<!-- hif-figure:v1 -->
+<figure class="hif-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/KraftMaid_Drawer_with_Wooden_Organizer.jpg" alt="Drawer interior with wooden organizer next to catalog fit-out discussion" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Two documents — punchout line and shop drawing — must marry. <em>Rights:</em> CC BY-SA 4.0; Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:KraftMaid_Drawer_with_Wooden_Organizer.jpg">source</a>. Drawer interior organization — mill vs. catalog fit-out.</figcaption>
+</figure>
+
 
 A catalog is a face. A mill is a smell.
 

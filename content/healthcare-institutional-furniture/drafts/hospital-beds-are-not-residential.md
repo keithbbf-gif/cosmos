@@ -17,9 +17,21 @@ seo_intent: informational
 audience: educational
 not: legal-advice
 channel: medline-medilodge-era
+
+figure_id: diagrams.hospital-vs-residential-bed
+image_rights: documented
+image_pass: 2026-09-14
+og_image_alt: "A hospital bed is a medical device with a deck, rails, and a height motor. A residential bed is a platform. Do not specify one with the other’s language."
 ---
 
 # Hospital beds are not residential
+
+<!-- hif-figure:v1 -->
+<figure class="hif-figure">
+  <img src="../assets/diagrams/hospital-vs-residential-bed.svg" alt="Plan comparison of residential twin width versus hospital bed envelope with rails" width="960" height="540" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> The SNF room is dimensioned for the bed machine, not the comforter set. <em>Rights:</em> CC0 1.0 (original schematic); BBF staging / original line art; <a href="https://creativecommons.org/publicdomain/zero/1.0/">source</a>. Hospital bed envelope vs. residential twin width (educational).</figcaption>
+</figure>
+
 
 A residential bed is a platform you trust with a night.
 

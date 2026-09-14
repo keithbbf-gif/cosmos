@@ -17,9 +17,21 @@ seo_intent: informational
 audience: educational
 not: legal-advice
 channel: medline-medilodge-era
+
+figure_id: diagrams.overbed-table-clearance
+image_rights: documented
+image_pass: 2026-09-14
+og_image_alt: "An overbed table is a rolling surface on a column. Bases, height ranges, and why it is not a dining program."
 ---
 
 # Overbed tables
+
+<!-- hif-figure:v1 -->
+<figure class="hif-figure">
+  <img src="../assets/diagrams/overbed-table-clearance.svg" alt="Side schematic of overbed table base relative to wheelchair footplate zone" width="960" height="540" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> The apron and base width are politics in the aisle. <em>Rights:</em> CC0 1.0 (original schematic); BBF staging / original line art; <a href="https://creativecommons.org/publicdomain/zero/1.0/">source</a>. Overbed base vs. footplate clearance schematic.</figcaption>
+</figure>
+
 
 An overbed table is a tray that learned to stand.
 

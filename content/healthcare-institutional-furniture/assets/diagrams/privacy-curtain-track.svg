@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Privacy curtain track schematic</title>
+  <desc id="desc">Plan view of curved cubicle track with sprinkler clearance callout.</desc>
+  <rect width="960" height="540" fill="#f6f5f2"/>
+
+  <text x="480" y="32" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" font-weight="600" fill="#2e2a26">Cubicle track bend + mesh at sprinkler (plan)</text>
+  <path d="M120 200 Q480 80 840 200" fill="none" stroke="#2e2a26" stroke-width="3"/>
+  <circle cx="480" cy="120" r="14" fill="#9a3b2e" stroke="#2e2a26"/>
+  <text x="500" y="125" font-family="system-ui,sans-serif" font-size="10" fill="#9a3b2e">Sprinkler</text>
+  <rect x="440" y="180" width="80" height="40" fill="none" stroke="#1a4d7a" stroke-width="2" stroke-dasharray="4 3"/>
+  <text x="480" y="250" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#7a746c">Mesh panel — laundry path, not a permanent wall.</text>
+
+</svg>

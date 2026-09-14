@@ -17,9 +17,21 @@ seo_intent: informational
 audience: educational
 not: legal-advice
 channel: medline-medilodge-era
+
+figure_id: diagrams.privacy-curtain-track
+image_rights: documented
+image_pass: 2026-09-14
+og_image_alt: "A cubicle curtain is a washable wall. Track, flame, and why a double without a working curtain is a ward."
 ---
 
 # Privacy curtains and cubicle track
+
+<!-- hif-figure:v1 -->
+<figure class="hif-figure">
+  <img src="../assets/diagrams/privacy-curtain-track.svg" alt="Plan schematic of curved cubicle track with sprinkler clearance" width="960" height="540" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Privacy track is a washable wall — sprinkler and mesh rules still apply. <em>Rights:</em> CC0 1.0 (original schematic); BBF staging / original line art; <a href="https://creativecommons.org/publicdomain/zero/1.0/">source</a>. Cubicle track bend with sprinkler clearance callout.</figcaption>
+</figure>
+
 
 A curtain is a wall that can go to the laundry.
 

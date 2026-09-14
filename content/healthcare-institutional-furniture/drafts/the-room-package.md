@@ -17,9 +17,21 @@ seo_intent: informational
 audience: educational
 not: legal-advice
 channel: medline-medilodge-era
+
+figure_id: diagrams.room-package-cutlist
+image_rights: documented
+image_pass: 2026-09-14
+og_image_alt: "How a resident-room package is assembled, bid, and broken — bed on one page, wood on another."
 ---
 
 # The room package
+
+<!-- hif-figure:v1 -->
+<figure class="hif-figure">
+  <img src="../assets/diagrams/room-package-cutlist.svg" alt="Schematic linking bid tab quantities to shop cut list" width="960" height="540" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> A room package is a fiction that has to ship as matched case goods. <em>Rights:</em> CC0 1.0 (original schematic); BBF staging / original line art; <a href="https://creativecommons.org/publicdomain/zero/1.0/">source</a>. Bid tab married to mill cut list.</figcaption>
+</figure>
+
 
 A room package is a fiction that ships.
 

@@ -17,9 +17,21 @@ seo_intent: informational
 audience: educational
 not: legal-advice
 channel: medline-medilodge-era
+
+figure_id: diagrams.bariatric-bed-envelope
+image_rights: documented
+image_pass: 2026-09-14
+og_image_alt: "Bariatric furniture is a capacity, a width, and a room. A plus sign on a catalog page is not a program."
 ---
 
 # Bariatric furniture
+
+<!-- hif-figure:v1 -->
+<figure class="hif-figure">
+  <img src="../assets/diagrams/bariatric-bed-envelope.svg" alt="Plan schematic showing wider bariatric bed consuming aisle width" width="960" height="540" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Bariatric upgrades steal aisle before they steal budget. <em>Rights:</em> CC0 1.0 (original schematic); BBF staging / original line art; <a href="https://creativecommons.org/publicdomain/zero/1.0/">source</a>. Wider bariatric deck consuming aisle width.</figcaption>
+</figure>
+
 
 A plus sign is not a test.
 

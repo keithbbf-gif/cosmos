@@ -18,9 +18,21 @@ seo_intent: informational
 audience: educational
 not: legal-advice
 channel: medline-medilodge-era
+
+figure_id: plates.three-drawer-cabinet
+image_rights: documented
+image_pass: 2026-09-14
+og_image_alt: "The SNF bedside is a shallow, wipeable, staff-used cabinet. Locks, sealed boxes, and why depth is an aisle."
 ---
 
 # Bedside cabinets
+
+<!-- hif-figure:v1 -->
+<figure class="hif-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/76/Three_drawer_wooden_cabinet_with_carve-out_handles.jpg" alt="Wooden three-drawer cabinet with carved pull handles" width="1200" height="1600" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> The interior box and sealed top are the specification — not the catalog photo. <em>Rights:</em> CC BY-SA 3.0; Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:Three_drawer_wooden_cabinet_with_carve-out_handles.jpg">source</a>. Drawer box and pulls — bedside cabinet interior proxy.</figcaption>
+</figure>
+
 
 The bedside is the object I have built the most of, and the object people notice the least until the drawer falls out.
 

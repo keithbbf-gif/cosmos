@@ -1,0 +1,344 @@
+# Healthcare institutional furniture — figure registry (diagrams + Commons plates).
+# Diagram src paths are relative to drafts/*.md. Plate src URLs omit utm params.
+
+[diagrams.snf-single-room-plan]
+src = "../assets/diagrams/snf-single-room-plan.svg"
+width = 960
+height = 540
+license = "CC0 1.0 (original schematic)"
+institution = "BBF staging / original line art"
+source_page = "https://creativecommons.org/publicdomain/zero/1.0/"
+credit = "Original SNF single-room plan schematic; not a surveyed floor plan."
+
+[diagrams.snf-double-room-plan]
+src = "../assets/diagrams/snf-double-room-plan.svg"
+width = 960
+height = 540
+license = "CC0 1.0 (original schematic)"
+institution = "BBF staging / original line art"
+source_page = "https://creativecommons.org/publicdomain/zero/1.0/"
+credit = "Original double-bedroom plan schematic for educational layout."
+
+[diagrams.seven-entrapment-zones]
+src = "../assets/diagrams/seven-entrapment-zones.svg"
+width = 960
+height = 540
+license = "CC0 1.0 (original schematic)"
+institution = "BBF staging / original line art"
+source_page = "https://creativecommons.org/publicdomain/zero/1.0/"
+credit = "Educational entrapment-zone overview — open FDA/HBSW drawings for assessment."
+
+[diagrams.side-rail-geometry]
+src = "../assets/diagrams/side-rail-geometry.svg"
+width = 960
+height = 540
+license = "CC0 1.0 (original schematic)"
+institution = "BBF staging / original line art"
+source_page = "https://creativecommons.org/publicdomain/zero/1.0/"
+credit = "Side-rail nickname vs. opening schematic; not restraint documentation."
+
+[diagrams.room-walkthrough-sightline]
+src = "../assets/diagrams/room-walkthrough-sightline.svg"
+width = 960
+height = 540
+license = "CC0 1.0 (original schematic)"
+institution = "BBF staging / original line art"
+source_page = "https://creativecommons.org/publicdomain/zero/1.0/"
+credit = "Door-to-bed walk-through sightline schematic."
+
+[diagrams.ada-resident-room-turn]
+src = "../assets/diagrams/ada-resident-room-turn.svg"
+width = 960
+height = 540
+license = "CC0 1.0 (original schematic)"
+institution = "BBF staging / original line art"
+source_page = "https://creativecommons.org/publicdomain/zero/1.0/"
+credit = "Notional wheelchair turning circle — verify against adopted ADA and state licensure."
+
+[diagrams.overbed-table-clearance]
+src = "../assets/diagrams/overbed-table-clearance.svg"
+width = 960
+height = 540
+license = "CC0 1.0 (original schematic)"
+institution = "BBF staging / original line art"
+source_page = "https://creativecommons.org/publicdomain/zero/1.0/"
+credit = "Overbed base vs. footplate clearance schematic."
+
+[diagrams.nurses-station-sightline]
+src = "../assets/diagrams/nurses-station-sightline.svg"
+width = 960
+height = 540
+license = "CC0 1.0 (original schematic)"
+institution = "BBF staging / original line art"
+source_page = "https://creativecommons.org/publicdomain/zero/1.0/"
+credit = "Seated sightline question at nurses' station millwork."
+
+[diagrams.mattress-zone3-gap]
+src = "../assets/diagrams/mattress-zone3-gap.svg"
+width = 960
+height = 540
+license = "CC0 1.0 (original schematic)"
+institution = "BBF staging / original line art"
+source_page = "https://creativecommons.org/publicdomain/zero/1.0/"
+credit = "Zone 3 rail-to-mattress gap when mattress does not match bed system."
+
+[diagrams.low-bed-deck-height]
+src = "../assets/diagrams/low-bed-deck-height.svg"
+width = 960
+height = 540
+license = "CC0 1.0 (original schematic)"
+institution = "BBF staging / original line art"
+source_page = "https://creativecommons.org/publicdomain/zero/1.0/"
+credit = "Low vs. standard deck height comparison (notional)."
+
+[diagrams.medline-channel-punchout]
+src = "../assets/diagrams/medline-channel-punchout.svg"
+width = 960
+height = 540
+license = "CC0 1.0 (original schematic)"
+institution = "BBF staging / original line art"
+source_page = "https://creativecommons.org/publicdomain/zero/1.0/"
+credit = "Distributor punchout channel schematic; no vendor logos."
+
+[diagrams.hospital-vs-residential-bed]
+src = "../assets/diagrams/hospital-vs-residential-bed.svg"
+width = 960
+height = 540
+license = "CC0 1.0 (original schematic)"
+institution = "BBF staging / original line art"
+source_page = "https://creativecommons.org/publicdomain/zero/1.0/"
+credit = "Hospital bed envelope vs. residential twin width (educational)."
+
+[diagrams.ward-to-private-room]
+src = "../assets/diagrams/ward-to-private-room.svg"
+width = 960
+height = 540
+license = "CC0 1.0 (original schematic)"
+institution = "BBF staging / original line art"
+source_page = "https://creativecommons.org/publicdomain/zero/1.0/"
+credit = "Ward row vs. private room footprint shift."
+
+[diagrams.privacy-curtain-track]
+src = "../assets/diagrams/privacy-curtain-track.svg"
+width = 960
+height = 540
+license = "CC0 1.0 (original schematic)"
+institution = "BBF staging / original line art"
+source_page = "https://creativecommons.org/publicdomain/zero/1.0/"
+credit = "Cubicle track bend with sprinkler clearance callout."
+
+[diagrams.spec-sheet-anatomy]
+src = "../assets/diagrams/spec-sheet-anatomy.svg"
+width = 960
+height = 540
+license = "CC0 1.0 (original schematic)"
+institution = "BBF staging / original line art"
+source_page = "https://creativecommons.org/publicdomain/zero/1.0/"
+credit = "Healthcare casegood spec sheet field map."
+
+[diagrams.bariatric-bed-envelope]
+src = "../assets/diagrams/bariatric-bed-envelope.svg"
+width = 960
+height = 540
+license = "CC0 1.0 (original schematic)"
+institution = "BBF staging / original line art"
+source_page = "https://creativecommons.org/publicdomain/zero/1.0/"
+credit = "Wider bariatric deck consuming aisle width."
+
+[diagrams.fire-code-labels]
+src = "../assets/diagrams/fire-code-labels.svg"
+width = 960
+height = 540
+license = "CC0 1.0 (original schematic)"
+institution = "BBF staging / original line art"
+source_page = "https://creativecommons.org/publicdomain/zero/1.0/"
+credit = "TB 117 label vs. NFPA 101 adoption context (educational)."
+
+[diagrams.bifma-vs-bed-system]
+src = "../assets/diagrams/bifma-vs-bed-system.svg"
+width = 960
+height = 540
+license = "CC0 1.0 (original schematic)"
+institution = "BBF staging / original line art"
+source_page = "https://creativecommons.org/publicdomain/zero/1.0/"
+credit = "Office furniture testing vs. hospital bed-system entrapment house."
+
+[diagrams.room-package-cutlist]
+src = "../assets/diagrams/room-package-cutlist.svg"
+width = 960
+height = 540
+license = "CC0 1.0 (original schematic)"
+institution = "BBF staging / original line art"
+source_page = "https://creativecommons.org/publicdomain/zero/1.0/"
+credit = "Bid tab married to mill cut list."
+
+[diagrams.memory-care-loop]
+src = "../assets/diagrams/memory-care-loop.svg"
+width = 960
+height = 540
+license = "CC0 1.0 (original schematic)"
+institution = "BBF staging / original line art"
+source_page = "https://creativecommons.org/publicdomain/zero/1.0/"
+credit = "Memory-care circulation loop with anchored seating."
+
+[diagrams.cms-f584-f917-tags]
+src = "../assets/diagrams/cms-f584-f917-tags.svg"
+width = 960
+height = 540
+license = "CC0 1.0 (original schematic)"
+institution = "BBF staging / original line art"
+source_page = "https://creativecommons.org/publicdomain/zero/1.0/"
+credit = "Survey tags that reference belongings and accident hazards."
+
+[plates.empty-ward-minneapolis]
+src = "https://upload.wikimedia.org/wikipedia/commons/e/e1/Empty_Beds_in_Ward_of_Hospital%2C_Minneapolis_Health_Department.jpg"
+width = 1200
+height = 800
+license = "CC BY 2.0"
+institution = "Minneapolis Health Department (via Wikimedia Commons)"
+source_page = "https://commons.wikimedia.org/wiki/File:Empty_Beds_in_Ward_of_Hospital,_Minneapolis_Health_Department.jpg"
+credit = "Empty ward beds — no residents in frame."
+
+[plates.patient-room-hospital-bed]
+src = "https://upload.wikimedia.org/wikipedia/commons/6/63/Patient_room_with_hospital_bed.jpg"
+width = 1200
+height = 1800
+license = "Public domain"
+institution = "Wikimedia Commons"
+source_page = "https://commons.wikimedia.org/wiki/File:Patient_room_with_hospital_bed.jpg"
+credit = "Empty patient room with hospital bed; educational interior."
+
+[plates.hospital-bed-side-view]
+src = "https://upload.wikimedia.org/wikipedia/commons/8/8a/Hospital_bed.jpg"
+width = 1200
+height = 900
+license = "CC BY-SA 4.0"
+institution = "Wikimedia Commons"
+source_page = "https://commons.wikimedia.org/wiki/File:Hospital_bed.jpg"
+credit = "Adjustable hospital bed without occupant."
+
+[plates.ward-red-rover]
+src = "https://upload.wikimedia.org/wikipedia/commons/c/cb/Hospital_ward_on_Red_Rover.jpg"
+width = 1200
+height = 941
+license = "Public domain"
+institution = "U.S. Navy / Wikimedia Commons"
+source_page = "https://commons.wikimedia.org/wiki/File:Hospital_ward_on_Red_Rover.jpg"
+credit = "Historical hospital ward photograph (public domain)."
+
+[plates.iwm-hospital-ward]
+src = "https://upload.wikimedia.org/wikipedia/commons/f/f2/Hospital_Ward_Art.IWMARTLD43.jpg"
+width = 1200
+height = 944
+license = "Public domain"
+institution = "Imperial War Museum (via Wikimedia Commons)"
+source_page = "https://commons.wikimedia.org/wiki/File:Hospital_Ward_Art.IWMARTLD43.jpg"
+credit = "Wartime hospital ward artwork — educational history plate."
+
+[plates.wellcome-womens-ward-beds]
+src = "https://upload.wikimedia.org/wikipedia/commons/1/1b/A_line_of_hospital_beds_in_the_Women%27s_Ward_Wellcome_L0038278.jpg"
+width = 1200
+height = 927
+license = "CC BY 4.0"
+institution = "Wellcome Collection (via Wikimedia Commons)"
+source_page = "https://commons.wikimedia.org/wiki/File:A_line_of_hospital_beds_in_the_Women%27s_Ward_Wellcome_L0038278.jpg"
+credit = "Historical women's ward bed row; verify crop for publish."
+
+[plates.ashfield-nursing-home-exterior]
+src = "https://upload.wikimedia.org/wikipedia/commons/8/88/Ashfield_Nursing_Home%2C_Wetherby_%2818th_July_2020%29.jpg"
+width = 1200
+height = 900
+license = "CC BY-SA 4.0"
+institution = "Wikimedia Commons (Geograph contributor)"
+source_page = "https://commons.wikimedia.org/wiki/File:Ashfield_Nursing_Home,_Wetherby_(18th_July_2020).jpg"
+credit = "Skilled care building exterior — geography, not endorsement."
+
+[plates.wood-samples-cc0]
+src = "https://upload.wikimedia.org/wikipedia/commons/4/4b/16_wood_samples.jpg"
+width = 1200
+height = 1477
+license = "CC0 1.0"
+institution = "Wikimedia Commons"
+source_page = "https://commons.wikimedia.org/wiki/File:16_wood_samples.jpg"
+credit = "Hardwood sample board for finish and bleach discussion."
+
+[plates.morris-recliner-met]
+src = "https://upload.wikimedia.org/wikipedia/commons/d/d6/Reclining_Morris_Chair_MET_235723.jpg"
+width = 1200
+height = 1357
+license = "CC0 1.0 (Met Open Access)"
+institution = "The Metropolitan Museum of Art"
+source_page = "https://commons.wikimedia.org/wiki/File:Reclining_Morris_Chair_MET_235723.jpg"
+credit = "Reclining chair form — arm and seat geometry reference, not a SNF geri chair."
+
+[plates.bedstead-met-dt2846]
+src = "https://upload.wikimedia.org/wikipedia/commons/b/ba/Bedstead_MET_DT2846.jpg"
+width = 1200
+height = 960
+license = "CC0 1.0 (Met Open Access)"
+institution = "The Metropolitan Museum of Art"
+source_page = "https://commons.wikimedia.org/wiki/File:Bedstead_MET_DT2846.jpg"
+credit = "Historical bedstead — homelike reform contrast plate."
+
+[plates.three-drawer-cabinet]
+src = "https://upload.wikimedia.org/wikipedia/commons/7/76/Three_drawer_wooden_cabinet_with_carve-out_handles.jpg"
+width = 1200
+height = 1600
+license = "CC BY-SA 3.0"
+institution = "Wikimedia Commons"
+source_page = "https://commons.wikimedia.org/wiki/File:Three_drawer_wooden_cabinet_with_carve-out_handles.jpg"
+credit = "Drawer box and pulls — bedside cabinet interior proxy."
+
+[plates.drawer-organizer-kraftmaid]
+src = "https://upload.wikimedia.org/wikipedia/commons/1/10/KraftMaid_Drawer_with_Wooden_Organizer.jpg"
+width = 1200
+height = 900
+license = "CC BY-SA 4.0"
+institution = "Wikimedia Commons"
+source_page = "https://commons.wikimedia.org/wiki/File:KraftMaid_Drawer_with_Wooden_Organizer.jpg"
+credit = "Drawer interior organization — mill vs. catalog fit-out."
+
+[plates.hospital-train-interior-1918]
+src = "https://upload.wikimedia.org/wikipedia/commons/e/eb/Interior_View_of_A_Hospital_Train_Patient_Car%2C_1918.jpg"
+width = 1200
+height = 1680
+license = "No restrictions"
+institution = "National Archives (via Wikimedia Commons)"
+source_page = "https://commons.wikimedia.org/wiki/File:Interior_View_of_A_Hospital_Train_Patient_Car,_1918.jpg"
+credit = "Historical patient-car interior — dining/seating lineage."
+
+[plates.mattress-store-worcestershire]
+src = "https://upload.wikimedia.org/wikipedia/commons/3/36/Worcestershire_Royal_Hospital_-_mattress_store_and_decontamination_-_geograph.org.uk_-_7250260.jpg"
+width = 1200
+height = 900
+license = "CC BY-SA 2.0"
+institution = "Geograph Britain and Ireland"
+source_page = "https://commons.wikimedia.org/wiki/File:Worcestershire_Royal_Hospital_-_mattress_store_and_decontamination_-_geograph.org.uk_-_7250260.jpg"
+credit = "Mattress store and decontamination — infection-control logistics."
+
+[plates.poston-mattresses-nara]
+src = "https://upload.wikimedia.org/wikipedia/commons/a/a6/Poston%2C_Arizona._Bedding_and_mattresses_are_moved_out_of_Ward_Three_in_the_Poston_General_Hospital_._._._-_NARA_-_539868.jpg"
+width = 1200
+height = 931
+license = "Public domain"
+institution = "U.S. National Archives"
+source_page = "https://commons.wikimedia.org/wiki/File:Poston,_Arizona._Bedding_and_mattresses_are_moved_out_of_Ward_Three_in_the_Poston_General_Hospital_._._._-_NARA_-_539868.jpg"
+credit = "Mattresses aired for sterilization — refurbished/used supply chain history."
+
+[plates.medical-warehouse-nara]
+src = "https://upload.wikimedia.org/wikipedia/commons/f/ff/MEDICAL_SUPPLIES_IN_WAREHOUSE_No._108-C%2C_Medical_Supply_Depot_No._2%2C_Near_Gievre%2C_Loire_et_Cher%2C_France_-_DPLA_-_66474414d9caf727e1c6b70ba6f6cb74.jpg"
+width = 1200
+height = 941
+license = "Public domain"
+institution = "U.S. National Archives / DPLA"
+source_page = "https://commons.wikimedia.org/wiki/File:MEDICAL_SUPPLIES_IN_WAREHOUSE_No._108-C,_Medical_Supply_Depot_No._2,_Near_Gievre,_Loire_et_Cher,_France_-_DPLA_-_66474414d9caf727e1c6b70ba6f6cb74.jpg"
+credit = "Medical supply warehouse — channel economics and freight."
+
+[plates.wheelchair-symbol]
+src = "https://upload.wikimedia.org/wikipedia/commons/7/76/Wheelchair.svg"
+width = 1200
+height = 1292
+license = "Public domain"
+institution = "Wikimedia Commons"
+source_page = "https://commons.wikimedia.org/wiki/File:Wheelchair.svg"
+credit = "International symbol of access — mobility context plate."

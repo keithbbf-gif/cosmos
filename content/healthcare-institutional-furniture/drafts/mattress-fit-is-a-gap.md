@@ -17,9 +17,21 @@ seo_intent: informational
 audience: educational
 not: legal-advice
 channel: medline-medilodge-era
+
+figure_id: diagrams.mattress-zone3-gap
+image_rights: documented
+image_pass: 2026-09-14
+og_image_alt: "A replacement mattress from a different page is how Zone 3 gets built after the bed leaves the factory."
 ---
 
 # Mattress fit is a gap
+
+<!-- hif-figure:v1 -->
+<figure class="hif-figure">
+  <img src="../assets/diagrams/mattress-zone3-gap.svg" alt="Schematic highlighting rail-to-mattress gap in Zone 3" width="960" height="540" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Mattress mismatch manufactures Zone 3 after install day. <em>Rights:</em> CC0 1.0 (original schematic); BBF staging / original line art; <a href="https://creativecommons.org/publicdomain/zero/1.0/">source</a>. Zone 3 rail-to-mattress gap when mattress does not match bed system.</figcaption>
+</figure>
+
 
 The cheapest way to build an entrapment zone is to buy a mattress on Tuesday that does not know the deck from Monday.
 

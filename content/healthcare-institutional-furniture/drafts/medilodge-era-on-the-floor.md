@@ -19,9 +19,21 @@ seo_intent: informational
 audience: educational
 not: legal-advice
 channel: medline-medilodge-era
+
+figure_id: plates.ashfield-nursing-home-exterior
+image_rights: documented
+image_pass: 2026-09-14
+og_image_alt: "What a Medline-era skilled-nursing floor actually looked like when the mill showed up with a tape."
 ---
 
 # Medilodge-era on the floor
+
+<!-- hif-figure:v1 -->
+<figure class="hif-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/8/88/Ashfield_Nursing_Home%2C_Wetherby_%2818th_July_2020%29.jpg" alt="Exterior photograph of a skilled nursing home building on a public street" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Geography on the public record — not a testimonial facade. <em>Rights:</em> CC BY-SA 4.0; Wikimedia Commons (Geograph contributor); <a href="https://commons.wikimedia.org/wiki/File:Ashfield_Nursing_Home,_Wetherby_(18th_July_2020).jpg">source</a>. Skilled care building exterior — geography, not endorsement.</figcaption>
+</figure>
+
 
 Medilodge of Montrose sits on West Vienna Road in a Genesee County village between Flint and Saginaw. The public record says a for-profit skilled-nursing house, Medicare-certified, on the order of **121** beds. Corporate MediLodge lists a Washington, Michigan address. I can say that because it is on the door and on CMS. I cannot say what the nightstand invoice was.
 

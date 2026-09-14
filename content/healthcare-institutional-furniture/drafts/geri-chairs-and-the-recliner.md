@@ -17,9 +17,21 @@ seo_intent: informational
 audience: educational
 not: legal-advice
 channel: medline-medilodge-era
+
+figure_id: plates.morris-recliner-met
+image_rights: documented
+image_pass: 2026-09-14
+og_image_alt: "A geri chair is a recliner that learned to be a bed and a transport. Why the nickname is not a specification."
 ---
 
 # Geri chairs and the recliner
+
+<!-- hif-figure:v1 -->
+<figure class="hif-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d6/Reclining_Morris_Chair_MET_235723.jpg" alt="Reclining chair with high arms in museum collection photograph" width="1200" height="1357" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> The geri chair is a recliner with wipe-down upholstery and a weight rating. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Reclining_Morris_Chair_MET_235723.jpg">source</a>. Reclining chair form — arm and seat geometry reference, not a SNF geri chair.</figcaption>
+</figure>
+
 
 “Geri chair” is a nickname that does too much work.
 

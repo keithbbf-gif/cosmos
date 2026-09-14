@@ -18,9 +18,21 @@ seo_intent: informational
 audience: educational
 not: legal-advice
 channel: medline-medilodge-era
+
+figure_id: plates.wood-samples-cc0
+image_rights: documented
+image_pass: 2026-09-14
+og_image_alt: "Southern hardwood can live in a SNF if the finish is a system. What bleach does to a pretty sample."
 ---
 
 # Bleach and Arkansas hardwood
+
+<!-- hif-figure:v1 -->
+<figure class="hif-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/16_wood_samples.jpg" alt="Board showing sixteen labeled hardwood samples" width="1200" height="1477" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Bleach-grade finish starts on the right species edge — samples lie without end grain. <em>Rights:</em> CC0 1.0; Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:16_wood_samples.jpg">source</a>. Hardwood sample board for finish and bleach discussion.</figcaption>
+</figure>
+
 
 Warren, Arkansas, is a mill town. Bradley Brand’s public story is solid hardwood furniture since 1903, and in the last decades a lot of that wood went into healthcare and hospitality, not only into a kitchen island on a Wayfair page. I can say that because it is on the company’s own record. I cannot say a bleach formula.
 

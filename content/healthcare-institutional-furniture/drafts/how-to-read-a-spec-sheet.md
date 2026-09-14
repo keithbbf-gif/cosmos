@@ -17,9 +17,21 @@ seo_intent: informational
 audience: educational
 not: legal-advice
 channel: medline-medilodge-era
+
+figure_id: diagrams.spec-sheet-anatomy
+image_rights: documented
+image_pass: 2026-09-14
+og_image_alt: "A healthcare furniture spec sheet is a list of tests, dimensions, and silences. How to read the silences."
 ---
 
 # How to read a spec sheet
+
+<!-- hif-figure:v1 -->
+<figure class="hif-figure">
+  <img src="../assets/diagrams/spec-sheet-anatomy.svg" alt="Schematic labeling sections of a healthcare casegood spec sheet" width="960" height="540" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Read dimensions, fire materials, install, and bed adjacency on one line. <em>Rights:</em> CC0 1.0 (original schematic); BBF staging / original line art; <a href="https://creativecommons.org/publicdomain/zero/1.0/">source</a>. Healthcare casegood spec sheet field map.</figcaption>
+</figure>
+
 
 A spec sheet is a short story with an agenda.
 

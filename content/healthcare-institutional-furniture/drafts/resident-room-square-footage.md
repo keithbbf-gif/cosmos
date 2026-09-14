@@ -17,9 +17,21 @@ seo_intent: informational
 audience: educational
 not: legal-advice
 channel: medline-medilodge-era
+
+figure_id: diagrams.snf-single-room-plan
+image_rights: documented
+image_pass: 2026-09-14
+og_image_alt: "80 square feet in a double, 100 in a single. What those CMS floors do to a nightstand and a chair."
 ---
 
 # Resident room square footage
+
+<!-- hif-figure:v1 -->
+<figure class="hif-figure">
+  <img src="../assets/diagrams/snf-single-room-plan.svg" alt="Plan schematic of a notional 100 square foot SNF single with bed envelope and aisle" width="960" height="540" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> CMS writes area; the mill lives in the leftover rectangle. <em>Rights:</em> CC0 1.0 (original schematic); BBF staging / original line art; <a href="https://creativecommons.org/publicdomain/zero/1.0/">source</a>. Original SNF single-room plan schematic; not a surveyed floor plan.</figcaption>
+</figure>
+
 
 Furniture is a volume that pretends to be a surface.
 

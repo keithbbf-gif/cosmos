@@ -17,9 +17,21 @@ seo_intent: informational
 audience: educational
 not: legal-advice
 channel: medline-medilodge-era
+
+figure_id: plates.ward-red-rover
+image_rights: documented
+image_pass: 2026-09-14
+og_image_alt: "The day room is a living room that has to wipe, stand, and survive bingo. Seating mix, tables, and television geometry."
 ---
 
 # Activity and day room
+
+<!-- hif-figure:v1 -->
+<figure class="hif-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Hospital_ward_on_Red_Rover.jpg" alt="Historical hospital ward interior with rows of beds" width="1200" height="941" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Day rooms inherited ward DNA — sightlines and egress still govern chairs. <em>Rights:</em> Public domain; U.S. Navy / Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:Hospital_ward_on_Red_Rover.jpg">source</a>. Historical hospital ward photograph (public domain).</figcaption>
+</figure>
+
 
 The day room is where a building pretends it has a living room.
 

@@ -17,9 +17,21 @@ seo_intent: informational
 audience: educational
 not: legal-advice
 channel: medline-medilodge-era
+
+figure_id: diagrams.side-rail-geometry
+image_rights: documented
+image_pass: 2026-09-14
+og_image_alt: "A bed rail is geometry first and a restraint only after someone uses it as one. Why the nickname does not change the opening."
 ---
 
 # Side rails, restraint, and geometry
+
+<!-- hif-figure:v1 -->
+<figure class="hif-figure">
+  <img src="../assets/diagrams/side-rail-geometry.svg" alt="Schematic comparing full, half, and intermediate side rail positions" width="960" height="540" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> A rail is geometry first; restraint paperwork is a different house. <em>Rights:</em> CC0 1.0 (original schematic); BBF staging / original line art; <a href="https://creativecommons.org/publicdomain/zero/1.0/">source</a>. Side-rail nickname vs. opening schematic; not restraint documentation.</figcaption>
+</figure>
+
 
 A rail is a piece of steel that can be a handhold, a barrier, a hanger for a urine bag, a restraint, or a gap. The word you pick does not change the opening.
 

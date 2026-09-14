@@ -17,9 +17,21 @@ seo_intent: informational
 audience: educational
 not: legal-advice
 channel: medline-medilodge-era
+
+figure_id: diagrams.bifma-vs-bed-system
+image_rights: documented
+image_pass: 2026-09-14
+og_image_alt: "BIFMA tests office furniture. A BIFMA pass is not a SNF occupancy approval, a fire rating, or a wipe chart."
 ---
 
 # BIFMA is not a healthcare stamp
+
+<!-- hif-figure:v1 -->
+<figure class="hif-figure">
+  <img src="../assets/diagrams/bifma-vs-bed-system.svg" alt="Schematic comparing office furniture testing to hospital bed system entrapment" width="960" height="540" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> BIFMA answers office cycles — not rail-to-mattress openings. <em>Rights:</em> CC0 1.0 (original schematic); BBF staging / original line art; <a href="https://creativecommons.org/publicdomain/zero/1.0/">source</a>. Office furniture testing vs. hospital bed-system entrapment house.</figcaption>
+</figure>
+
 
 BIFMA is a trade association with a test culture. That culture is mostly **office**. X5.1 for office chairs, X5.4 for lounge, X5.5 for desks, a durability language that a contract buyer already trusts.
 

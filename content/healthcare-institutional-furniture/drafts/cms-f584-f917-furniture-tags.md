@@ -17,9 +17,21 @@ seo_intent: informational
 audience: educational
 not: legal-advice
 channel: medline-medilodge-era
+
+figure_id: diagrams.cms-f584-f917-tags
+image_rights: documented
+image_pass: 2026-09-14
+og_image_alt: "How CMS survey tags F584 and F917 actually talk about chairs, closets, and a homelike room."
 ---
 
 # CMS F584 and F917, the furniture tags
+
+<!-- hif-figure:v1 -->
+<figure class="hif-figure">
+  <img src="../assets/diagrams/cms-f584-f917-tags.svg" alt="Educational schematic labeling CMS F584 and F917 survey themes" width="960" height="540" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Belongings and accident hazards are where furniture shows up in survey language. <em>Rights:</em> CC0 1.0 (original schematic); BBF staging / original line art; <a href="https://creativecommons.org/publicdomain/zero/1.0/">source</a>. Survey tags that reference belongings and accident hazards.</figcaption>
+</figure>
+
 
 Surveyors do not buy nightstands. They write numbers.
 

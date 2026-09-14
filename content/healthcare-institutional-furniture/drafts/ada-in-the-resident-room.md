@@ -17,9 +17,21 @@ seo_intent: informational
 audience: educational
 not: legal-advice
 channel: medline-medilodge-era
+
+figure_id: diagrams.ada-resident-room-turn
+image_rights: documented
+image_pass: 2026-09-14
+og_image_alt: "Accessibility in a SNF room is clearances, reach, and a chair you can leave. What the 2010 Standards do and do not tell a mill."
 ---
 
 # ADA in the resident room
+
+<!-- hif-figure:v1 -->
+<figure class="hif-figure">
+  <img src="../assets/diagrams/ada-resident-room-turn.svg" alt="Plan schematic with notional wheelchair turning circle in resident room" width="960" height="540" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Draw the turn before the wardrobe door swing — state books may exceed federal area. <em>Rights:</em> CC0 1.0 (original schematic); BBF staging / original line art; <a href="https://creativecommons.org/publicdomain/zero/1.0/">source</a>. Notional wheelchair turning circle — verify against adopted ADA and state licensure.</figcaption>
+</figure>
+
 
 The Americans with Disabilities Act is a civil-rights statute with a standards book. A nursing home is also a CMS building with a survey book. Those books do not always sit in the same chair.
 

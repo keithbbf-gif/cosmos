@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">SNF room package schematic</title>
+  <desc id="desc">Two documents: bid quantity tab and mill cut list linked for install.</desc>
+  <rect width="960" height="540" fill="#f6f5f2"/>
+
+  <text x="480" y="32" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" font-weight="600" fill="#2e2a26">Room package — bid tab meets cut list</text>
+  <rect x="100" y="90" width="360" height="300" fill="#fff" stroke="#7a746c"/>
+  <text x="280" y="120" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12">Bid tab (qty × room type)</text>
+  <rect x="500" y="90" width="360" height="300" fill="#fff" stroke="#2e2a26" stroke-width="2"/>
+  <text x="680" y="120" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12">Shop cut list</text>
+  <path d="M460 240 H500" stroke="#1d5c4a" stroke-width="3" marker-end="url(#arr)"/>
+  <text x="480" y="270" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#1d5c4a">One marriage</text>
+  <defs><marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#1d5c4a"/></marker></defs>
+
+</svg>

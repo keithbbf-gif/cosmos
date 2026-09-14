@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">CMS F584 and F917 furniture tags schematic</title>
+  <desc id="desc">Two-panel educational schematic for survey tags that reference resident belongings and hazards.</desc>
+  <rect width="960" height="540" fill="#f6f5f2"/>
+
+  <text x="480" y="32" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" font-weight="600" fill="#2e2a26">CMS tags that touch furniture — F584 · F917 (educational)</text>
+  <rect x="120" y="100" width="340" height="140" fill="#ebe6dd" stroke="#2e2a26"/>
+  <text x="290" y="150" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13">F584 — belongings / homelike</text>
+  <rect x="500" y="100" width="340" height="140" fill="#ebe6dd" stroke="#2e2a26"/>
+  <text x="670" y="150" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13">F917 — accident hazards</text>
+  <text x="480" y="320" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#7a746c">Open the current SOM — tag text moves; furniture shows up in the interpretive examples.</text>
+
+</svg>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Hospital bed vs residential twin schematic</title>
+  <desc id="desc">Plan-width comparison of residential twin versus hospital bed envelope.</desc>
+  <rect width="960" height="540" fill="#f6f5f2"/>
+
+  <text x="480" y="32" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" font-weight="600" fill="#2e2a26">Residential twin vs. hospital bed envelope</text>
+  <rect x="120" y="120" width="300" height="70" fill="#ebe6dd" stroke="#7a746c"/>
+  <text x="270" y="160" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12">Twin mattress (~39 in class)</text>
+  <rect x="540" y="100" width="360" height="110" fill="#cfc5b8" stroke="#2e2a26" stroke-width="2"/>
+  <text x="720" y="145" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12">Hospital deck + rails + articulation</text>
+  <text x="480" y="280" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#7a746c">The SNF room is dimensioned for the machine, not the comforter set.</text>
+
+</svg>

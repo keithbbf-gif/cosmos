@@ -17,9 +17,21 @@ seo_intent: informational
 audience: educational
 not: legal-advice
 channel: medline-medilodge-era
+
+figure_id: plates.patient-room-hospital-bed
+image_rights: documented
+image_pass: 2026-09-14
+og_image_alt: "Questions I would ask a director of nursing before freezing a Medline-era furniture drawing."
 ---
 
 # What I would ask a DON
+
+<!-- hif-figure:v1 -->
+<figure class="hif-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Patient_room_with_hospital_bed.jpg" alt="Empty hospital patient room with bed and no occupants" width="1200" height="1800" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Start with the room you can walk — rails, gap, aisle, and parked overbed. <em>Rights:</em> Public domain; Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:Patient_room_with_hospital_bed.jpg">source</a>. Empty patient room with hospital bed; educational interior.</figcaption>
+</figure>
+
 
 A director of nursing is not a designer. She is the person who will live with the drawer at 2 a.m.
 

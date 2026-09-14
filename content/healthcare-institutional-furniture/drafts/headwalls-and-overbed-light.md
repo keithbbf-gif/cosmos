@@ -17,9 +17,21 @@ seo_intent: informational
 audience: educational
 not: legal-advice
 channel: medline-medilodge-era
+
+figure_id: plates.hospital-bed-side-view
+image_rights: documented
+image_pass: 2026-09-14
+og_image_alt: "A headwall is a utilities panel that furniture keeps fighting. Outlets, oxygen, light, and the wardrobe that stole the plug."
 ---
 
 # Headwalls and overbed light
+
+<!-- hif-figure:v1 -->
+<figure class="hif-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Hospital_bed.jpg" alt="Hospital bed photographed without a patient" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Headwall services and overbed light compete for the same reach zone. <em>Rights:</em> CC BY-SA 4.0; Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:Hospital_bed.jpg">source</a>. Adjustable hospital bed without occupant.</figcaption>
+</figure>
+
 
 A headwall is not furniture. It is a **vertical dock** for oxygen, vacuum, power, nurse call, and a light that will glare on a glossy top.
 

@@ -16,8 +16,25 @@ Educational. Human voice (Keith BBF). Not legal advice. Not medical advice. Not 
 - `STYLE_GUIDE.md` — voice, citations, banned phrasing
 - `BIBLIOGRAPHY.md` — series sources
 - `PHOTO_CAPTIONS.md` — plates to shoot or license
+- `RIGHTS.md` — diagram CC0 + Commons credit ledger
+- `FIGURES_INDEX.md` — slug → figure map (image + SEO pass)
+- `assets/diagrams/` — original CC0 schematics
+- `assets/figures/REGISTRY.toml` — diagram + plate registry
+- `_editorial/embed_figures.py` / `check_figures.py` — lead figure embed + QA
 - `MANIFEST.md` — word counts
 - `STAGING_README.md` — this file
+
+## Figures (staged 2026-09-14)
+
+Lead figures are embedded in every draft (`hif-figure`). Hot-linked Commons plates have no binaries in git; SVG diagrams are CC0 originals. Run:
+
+```bash
+python3 content/healthcare-institutional-furniture/scripts/generate_svgs.py
+python3 content/healthcare-institutional-furniture/_editorial/embed_figures.py
+python3 content/healthcare-institutional-furniture/_editorial/check_figures.py
+```
+
+No AI art. No resident faces. See `RIGHTS.md`.
 
 ## SEO rules
 

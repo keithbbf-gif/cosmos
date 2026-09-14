@@ -17,9 +17,21 @@ seo_intent: informational
 audience: educational
 not: legal-advice
 channel: medline-medilodge-era
+
+figure_id: plates.mattress-store-worcestershire
+image_rights: documented
+image_pass: 2026-09-14
+og_image_alt: "A wipeable surface is a chemistry and a seam. Vinyl, laminate, copper stories, and what EVS can actually do."
 ---
 
 # Infection control surfaces
+
+<!-- hif-figure:v1 -->
+<figure class="hif-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Worcestershire_Royal_Hospital_-_mattress_store_and_decontamination_-_geograph.org.uk_-_7250260.jpg" alt="Hospital mattress store and decontamination area photograph" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Surfaces include what leaves the room — mattresses have a logistics life. <em>Rights:</em> CC BY-SA 2.0; Geograph Britain and Ireland; <a href="https://commons.wikimedia.org/wiki/File:Worcestershire_Royal_Hospital_-_mattress_store_and_decontamination_-_geograph.org.uk_-_7250260.jpg">source</a>. Mattress store and decontamination — infection-control logistics.</figcaption>
+</figure>
+
 
 Infection control does not buy furniture. Infection control **forbids** furniture, and then lives with what purchasing bought.
 

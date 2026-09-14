@@ -17,9 +17,21 @@ seo_intent: informational
 audience: educational
 not: legal-advice
 channel: medline-medilodge-era
+
+figure_id: diagrams.ward-to-private-room
+image_rights: documented
+image_pass: 2026-09-14
+og_image_alt: "How American nursing homes inherited the hospital ward and then tried to buy privacy by the piece."
 ---
 
 # From ward to private room
+
+<!-- hif-figure:v1 -->
+<figure class="hif-figure">
+  <img src="../assets/diagrams/ward-to-private-room.svg" alt="Comparison schematic of multi-bed ward row versus single private room" width="960" height="540" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Reform moved density into one envelope — furniture followed the square footage. <em>Rights:</em> CC0 1.0 (original schematic); BBF staging / original line art; <a href="https://creativecommons.org/publicdomain/zero/1.0/">source</a>. Ward row vs. private room footprint shift.</figcaption>
+</figure>
+
 
 The first nursing-home furniture I understood was not a chair. It was a **gap between beds**.
 

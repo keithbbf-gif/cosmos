@@ -17,9 +17,21 @@ seo_intent: informational
 audience: educational
 not: legal-advice
 channel: medline-medilodge-era
+
+figure_id: diagrams.low-bed-deck-height
+image_rights: documented
+image_pass: 2026-09-14
+og_image_alt: "Low beds are a fall program, not a furniture style. What they do to chairs, mats, and a mill’s heights."
 ---
 
 # Low beds and fall culture
+
+<!-- hif-figure:v1 -->
+<figure class="hif-figure">
+  <img src="../assets/diagrams/low-bed-deck-height.svg" alt="Side elevation comparing standard and low hospital bed deck heights" width="960" height="540" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Lower deck height changes reach to rails and nightstands — not a catalog toggle. <em>Rights:</em> CC0 1.0 (original schematic); BBF staging / original line art; <a href="https://creativecommons.org/publicdomain/zero/1.0/">source</a>. Low vs. standard deck height comparison (notional).</figcaption>
+</figure>
+
 
 A low bed is a decision about **where a body will hit**.
 

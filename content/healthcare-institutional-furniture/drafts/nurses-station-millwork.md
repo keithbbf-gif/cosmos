@@ -17,9 +17,21 @@ seo_intent: informational
 audience: educational
 not: legal-advice
 channel: medline-medilodge-era
+
+figure_id: diagrams.nurses-station-sightline
+image_rights: documented
+image_pass: 2026-09-14
+og_image_alt: "The nurses’ station is millwork that wants to be furniture. Sightlines, charting, and the bunker problem."
 ---
 
 # Nurses’ station millwork
+
+<!-- hif-figure:v1 -->
+<figure class="hif-figure">
+  <img src="../assets/diagrams/nurses-station-sightline.svg" alt="Elevation schematic of nurses station counter with seated sightline" width="960" height="540" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Transaction-height millwork must answer a seated sightline question. <em>Rights:</em> CC0 1.0 (original schematic); BBF staging / original line art; <a href="https://creativecommons.org/publicdomain/zero/1.0/">source</a>. Seated sightline question at nurses' station millwork.</figcaption>
+</figure>
+
 
 The nurses’ station is the last honest ward object in a building that wants to be a house.
 

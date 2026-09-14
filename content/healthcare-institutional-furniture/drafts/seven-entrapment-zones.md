@@ -17,9 +17,21 @@ seo_intent: informational
 audience: educational
 not: legal-advice
 channel: medline-medilodge-era
+
+figure_id: diagrams.seven-entrapment-zones
+image_rights: documented
+image_pass: 2026-09-14
+og_image_alt: "FDA’s 2006 guidance names seven bed-entrapment zones and puts numbers on four of them. How to see a gap."
 ---
 
 # Seven entrapment zones
+
+<!-- hif-figure:v1 -->
+<figure class="hif-figure">
+  <img src="../assets/diagrams/seven-entrapment-zones.svg" alt="Side elevation schematic labeling seven hospital bed entrapment zones" width="960" height="540" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Seven named openings — four carry FDA dimensional limits in the 2006 guidance. <em>Rights:</em> CC0 1.0 (original schematic); BBF staging / original line art; <a href="https://creativecommons.org/publicdomain/zero/1.0/">source</a>. Educational entrapment-zone overview — open FDA/HBSW drawings for assessment.</figcaption>
+</figure>
+
 
 A gap is a dimension that wants a body.
 

@@ -19,9 +19,21 @@ seo_intent: informational
 audience: educational
 not: legal-advice
 channel: medline-medilodge-era
+
+figure_id: diagrams.medline-channel-punchout
+image_rights: documented
+image_pass: 2026-09-14
+og_image_alt: "Medline was the face on the punchout. The mill was the wood. How a medical distributor became a furniture channel."
 ---
 
 # Medline as a channel
+
+<!-- hif-figure:v1 -->
+<figure class="hif-figure">
+  <img src="../assets/diagrams/medline-channel-punchout.svg" alt="Flow schematic from mill cut list through catalog punchout to nursing home dock" width="960" height="540" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> The distributor face is a rectangle between the mill and the wipe-down. <em>Rights:</em> CC0 1.0 (original schematic); BBF staging / original line art; <a href="https://creativecommons.org/publicdomain/zero/1.0/">source</a>. Distributor punchout channel schematic; no vendor logos.</figcaption>
+</figure>
+
 
 If you walked a skilled-nursing loading dock in the years I am writing about, you did not meet a mill first. You met a **truck with a logo the receiving clerk already knew**.
 

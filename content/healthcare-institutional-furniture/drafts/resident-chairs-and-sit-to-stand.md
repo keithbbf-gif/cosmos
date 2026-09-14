@@ -17,9 +17,21 @@ seo_intent: informational
 audience: educational
 not: legal-advice
 channel: medline-medilodge-era
+
+figure_id: plates.morris-recliner-met
+image_rights: documented
+image_pass: 2026-09-14
+og_image_alt: "A SNF chair is a sit-to-stand machine. Seat height, arms, vinyl, and why a 17-inch lounge seat is a trap."
 ---
 
 # Resident chairs and sit-to-stand
+
+<!-- hif-figure:v1 -->
+<figure class="hif-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d6/Reclining_Morris_Chair_MET_235723.jpg" alt="Reclining Morris chair with exposed arm structure, Metropolitan Museum" width="1200" height="1357" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Arm cap and front edge geometry — the sit-to-stand machine starts here. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Reclining_Morris_Chair_MET_235723.jpg">source</a>. Reclining chair form — arm and seat geometry reference, not a SNF geri chair.</figcaption>
+</figure>
+
 
 A chair is a transfer.
 

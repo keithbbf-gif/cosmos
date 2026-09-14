@@ -19,9 +19,21 @@ seo_intent: informational
 audience: educational
 not: legal-advice
 channel: medline-medilodge-era
+
+figure_id: diagrams.room-walkthrough-sightline
+image_rights: documented
+image_pass: 2026-09-14
+og_image_alt: "A composite walk through a Medline-era double: door, leftover, bed, curtain, rod, chair, and the two-inch cut."
 ---
 
 # A walk through a real SNF room
+
+<!-- hif-figure:v1 -->
+<figure class="hif-figure">
+  <img src="../assets/diagrams/room-walkthrough-sightline.svg" alt="Plan schematic from door to bed head showing staff sightline" width="960" height="540" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Walk from the threshold — crash path before catalog finish. <em>Rights:</em> CC0 1.0 (original schematic); BBF staging / original line art; <a href="https://creativecommons.org/publicdomain/zero/1.0/">source</a>. Door-to-bed walk-through sightline schematic.</figcaption>
+</figure>
+
 
 This is a composite. It is not Medilodge of Montrose’s room 12, and it is not Chenal Heights, and it is not a resident. It is the room I kept walking in the era: a double, a corridor, a package that almost fit.
 

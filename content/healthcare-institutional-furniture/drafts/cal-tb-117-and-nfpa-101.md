@@ -18,9 +18,21 @@ seo_intent: informational
 audience: educational
 not: legal-advice
 channel: medline-medilodge-era
+
+figure_id: diagrams.fire-code-labels
+image_rights: documented
+image_pass: 2026-09-14
+og_image_alt: "TB 117-2013 is a smolder test that became a federal floor. It is not NFPA 101, and it is not a healthcare occupancy stamp."
 ---
 
 # CAL TB 117 and NFPA 101
+
+<!-- hif-figure:v1 -->
+<figure class="hif-figure">
+  <img src="../assets/diagrams/fire-code-labels.svg" alt="Schematic contrasting California TB 117 furniture label and NFPA 101 adoption" width="960" height="540" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> A sticker is evidence; the life-safety program is adoption plus maintenance. <em>Rights:</em> CC0 1.0 (original schematic); BBF staging / original line art; <a href="https://creativecommons.org/publicdomain/zero/1.0/">source</a>. TB 117 label vs. NFPA 101 adoption context (educational).</figcaption>
+</figure>
+
 
 A flammability label is not a fire program.
 

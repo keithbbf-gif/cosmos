@@ -17,9 +17,21 @@ seo_intent: informational
 audience: educational
 not: legal-advice
 channel: medline-medilodge-era
+
+figure_id: plates.patient-room-hospital-bed
+image_rights: documented
+image_pass: 2026-09-14
+og_image_alt: "Institutional furniture is a density machine with a residential costume. How to tell a nursing-home object from a house object."
 ---
 
 # What institutional furniture is
+
+<!-- hif-figure:v1 -->
+<figure class="hif-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Patient_room_with_hospital_bed.jpg" alt="Empty patient room with a hospital bed and no people" width="1200" height="1800" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Institutional furniture is what survives bleach, lifts, and survey walk-throughs. <em>Rights:</em> Public domain; Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:Patient_room_with_hospital_bed.jpg">source</a>. Empty patient room with hospital bed; educational interior.</figcaption>
+</figure>
+
 
 Institutional furniture is not a style. It is a **job**.
 

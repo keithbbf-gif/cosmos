@@ -19,9 +19,21 @@ seo_intent: informational
 audience: educational
 not: legal-advice
 channel: medline-medilodge-era
+
+figure_id: plates.empty-ward-minneapolis
+image_rights: documented
+image_pass: 2026-09-14
+og_image_alt: "Why a mill that built nursing-home case goods is writing the history and specs of institutional furniture, not a catalog."
 ---
 
 # Why this series exists
+
+<!-- hif-figure:v1 -->
+<figure class="hif-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Empty_Beds_in_Ward_of_Hospital%2C_Minneapolis_Health_Department.jpg" alt="Empty hospital ward with multiple beds and no occupants visible" width="1200" height="800" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> A leftover ward, not a bedroom — the series opens on empty geometry. <em>Rights:</em> CC BY 2.0; Minneapolis Health Department (via Wikimedia Commons); <a href="https://commons.wikimedia.org/wiki/File:Empty_Beds_in_Ward_of_Hospital,_Minneapolis_Health_Department.jpg">source</a>. Empty ward beds — no residents in frame.</figcaption>
+</figure>
+
 
 I keep walking past the same object and watching people lie about it.
 

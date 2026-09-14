@@ -17,9 +17,21 @@ seo_intent: informational
 audience: educational
 not: legal-advice
 channel: medline-medilodge-era
+
+figure_id: plates.hospital-bed-side-view
+image_rights: documented
+image_pass: 2026-09-14
+og_image_alt: "Homelike is not a finish. BIFMA is not a SNF stamp. A plus sign is not a capacity. Twelve compressions the channel taught."
 ---
 
 # Common myths
+
+<!-- hif-figure:v1 -->
+<figure class="hif-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Hospital_bed.jpg" alt="Adjustable hospital bed on empty floor" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Myths die on measurement — rails, gaps, and mattress lines. <em>Rights:</em> CC BY-SA 4.0; Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:Hospital_bed.jpg">source</a>. Adjustable hospital bed without occupant.</figcaption>
+</figure>
+
 
 A myth in this trade is usually a compression that made a punchout easier.
 

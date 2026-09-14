@@ -17,9 +17,21 @@ seo_intent: informational
 audience: educational
 not: legal-advice
 channel: medline-medilodge-era
+
+figure_id: plates.iwm-hospital-ward
+image_rights: documented
+image_pass: 2026-09-14
+og_image_alt: "Vinyl dies before maple. Beds outlive nightstands or the reverse. How a SNF actually replaces a room."
 ---
 
 # Replacement cycles and CapEx
+
+<!-- hif-figure:v1 -->
+<figure class="hif-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Hospital_Ward_Art.IWMARTLD43.jpg" alt="Historical artwork of a hospital ward interior" width="1200" height="944" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> CapEx cycles remember every surface a wipe-down touches. <em>Rights:</em> Public domain; Imperial War Museum (via Wikimedia Commons); <a href="https://commons.wikimedia.org/wiki/File:Hospital_Ward_Art.IWMARTLD43.jpg">source</a>. Wartime hospital ward artwork — educational history plate.</figcaption>
+</figure>
+
 
 Furniture does not age as a set.
 

@@ -17,9 +17,21 @@ seo_intent: informational
 audience: educational
 not: legal-advice
 channel: medline-medilodge-era
+
+figure_id: plates.ashfield-nursing-home-exterior
+image_rights: documented
+image_pass: 2026-09-14
+og_image_alt: "Assisted living buys hotel furniture and then grows nursing-home hips. Why the residential look is a delayed SNF spec."
 ---
 
 # ALF vs SNF, the residential lie
+
+<!-- hif-figure:v1 -->
+<figure class="hif-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/8/88/Ashfield_Nursing_Home%2C_Wetherby_%2818th_July_2020%29.jpg" alt="Skilled nursing home building exterior on public road" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Residential styling does not change the survey book on the shelf. <em>Rights:</em> CC BY-SA 4.0; Wikimedia Commons (Geograph contributor); <a href="https://commons.wikimedia.org/wiki/File:Ashfield_Nursing_Home,_Wetherby_(18th_July_2020).jpg">source</a>. Skilled care building exterior — geography, not endorsement.</figcaption>
+</figure>
+
 
 Assisted living sold a hotel. Then the guests got old in it.
 

@@ -65,6 +65,8 @@ Counted: 42 drafts. Total body words: 75,656. Average: 1801.
 - `STYLE_GUIDE.md`
 - `BIBLIOGRAPHY.md`
 - `PHOTO_CAPTIONS.md`
+- `RIGHTS.md` — figure rights ledger
+- `FIGURES_INDEX.md` — slug → figure map
 - `STAGING_README.md`
 - `writer-slugs.json` — 42 canonical slugs
 - `MANIFEST.md` — this file
@@ -79,3 +81,4 @@ Counted: 42 drafts. Total body words: 75,656. Average: 1801.
 - Later FDA hospital-bed pages carry a 1985–2013 pile (901 / 531). This series locks to the 2006 guidance numbers until a new artifact is cited.
 - Closing essay heading stripped of COSMOS / model-name talk (house style).
 - Writer pass 2026-09-14. Editor has not sat (`voice_check: written`).
+- Image + SEO pass 2026-09-14: 42 lead figures (`hif-figure`), 21 CC0 SVG diagrams, Commons plates per `RIGHTS.md`; `check_figures.py` clean.

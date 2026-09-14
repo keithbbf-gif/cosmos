@@ -17,9 +17,21 @@ seo_intent: informational
 audience: educational
 not: legal-advice
 channel: medline-medilodge-era
+
+figure_id: diagrams.snf-double-room-plan
+image_rights: documented
+image_pass: 2026-09-14
+og_image_alt: "A skilled-nursing resident room is a product assembled from bed, case goods, chair, and track. How the package is sold."
 ---
 
 # The SNF room as a product
+
+<!-- hif-figure:v1 -->
+<figure class="hif-figure">
+  <img src="../assets/diagrams/snf-double-room-plan.svg" alt="Plan schematic of a skilled nursing double bedroom with shared aisle" width="960" height="540" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> The SNF room is sold as a package; width punishes paired case goods. <em>Rights:</em> CC0 1.0 (original schematic); BBF staging / original line art; <a href="https://creativecommons.org/publicdomain/zero/1.0/">source</a>. Original double-bedroom plan schematic for educational layout.</figcaption>
+</figure>
+
 
 A skilled-nursing resident room is sold like a kitchen.
 

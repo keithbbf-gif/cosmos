@@ -17,9 +17,21 @@ seo_intent: informational
 audience: educational
 not: legal-advice
 channel: medline-medilodge-era
+
+figure_id: plates.medical-warehouse-nara
+image_rights: documented
+image_pass: 2026-09-14
+og_image_alt: "The punchout price is not the mill rate. GPO tiers, LTL, liftgates, and why install is the real specification."
 ---
 
 # Channel economics, GPO, freight, install
+
+<!-- hif-figure:v1 -->
+<figure class="hif-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/MEDICAL_SUPPLIES_IN_WAREHOUSE_No._108-C%2C_Medical_Supply_Depot_No._2%2C_Near_Gievre%2C_Loire_et_Cher%2C_France_-_DPLA_-_66474414d9caf727e1c6b70ba6f6cb74.jpg" alt="Historical photograph of medical supplies stacked in a warehouse" width="1200" height="941" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> GPO and distributor economics show up as pallets long before install day. <em>Rights:</em> Public domain; U.S. National Archives / DPLA; <a href="https://commons.wikimedia.org/wiki/File:MEDICAL_SUPPLIES_IN_WAREHOUSE_No._108-C,_Medical_Supply_Depot_No._2,_Near_Gievre,_Loire_et_Cher,_France_-_DPLA_-_66474414d9caf727e1c6b70ba6f6cb74.jpg">source</a>. Medical supply warehouse — channel economics and freight.</figcaption>
+</figure>
+
 
 A nightstand has four prices, and only one of them is wood.
 

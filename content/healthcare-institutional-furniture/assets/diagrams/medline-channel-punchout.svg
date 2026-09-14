@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Medical distributor punchout channel schematic</title>
+  <desc id="desc">Flow from mill documentation through catalog punchout to facility receiving.</desc>
+  <rect width="960" height="540" fill="#f6f5f2"/>
+
+  <text x="480" y="32" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" font-weight="600" fill="#2e2a26">Distributor punchout — rectangle between mill and dock</text>
+  <rect x="80" y="100" width="180" height="80" fill="#ebe6dd" stroke="#7a746c"/>
+  <text x="170" y="145" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12">Mill cut list</text>
+  <rect x="380" y="90" width="200" height="100" fill="#cfc5b8" stroke="#2e2a26" stroke-width="2"/>
+  <text x="480" y="135" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13">Catalog / punchout</text>
+  <text x="480" y="155" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#7a746c">no logos in staging art</text>
+  <rect x="700" y="100" width="180" height="80" fill="#ebe6dd" stroke="#7a746c"/>
+  <text x="790" y="145" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12">SNF dock</text>
+  <path d="M260 140 H380" stroke="#1d5c4a" stroke-width="3" marker-end="url(#arr)"/>
+  <path d="M580 140 H700" stroke="#1d5c4a" stroke-width="3" marker-end="url(#arr)"/>
+  <defs><marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#1d5c4a"/></marker></defs>
+
+</svg>

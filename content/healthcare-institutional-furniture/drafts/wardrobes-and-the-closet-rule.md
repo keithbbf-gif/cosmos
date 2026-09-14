@@ -17,9 +17,21 @@ seo_intent: informational
 audience: educational
 not: legal-advice
 channel: medline-medilodge-era
+
+figure_id: plates.drawer-organizer-kraftmaid
+image_rights: documented
+image_pass: 2026-09-14
+og_image_alt: "CMS wants reachable hanging space that is not the roommate’s. How a wardrobe becomes a closet, or fails to."
 ---
 
 # Wardrobes and the closet rule
+
+<!-- hif-figure:v1 -->
+<figure class="hif-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/KraftMaid_Drawer_with_Wooden_Organizer.jpg" alt="Open drawer showing wooden interior organizer dividers" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Reach, rod height, and door swing — closet rules live in inches. <em>Rights:</em> CC BY-SA 4.0; Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:KraftMaid_Drawer_with_Wooden_Organizer.jpg">source</a>. Drawer interior organization — mill vs. catalog fit-out.</figcaption>
+</figure>
+
 
 A wardrobe is a closet the architect forgot, or a closet the value-engineer deleted, or a closet the 1968 plant never had.
 

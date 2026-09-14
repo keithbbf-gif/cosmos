@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Wheelchair turning clearance in resident room</title>
+  <desc id="desc">Plan view with notional 60-inch turning circle and bed footprint.</desc>
+  <rect width="960" height="540" fill="#f6f5f2"/>
+
+  <text x="480" y="32" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" font-weight="600" fill="#2e2a26">Wheelchair turning — resident room (educational, not ADA certification)</text>
+  <circle cx="480" cy="280" r="120" fill="none" stroke="#1a4d7a" stroke-width="2" stroke-dasharray="10 6"/>
+  <text x="480" y="285" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#1a4d7a">60 in circle (common clear floor)</text>
+  <rect x="120" y="120" width="740" height="320" fill="#fff" stroke="#7a746c" stroke-width="1"/>
+  <rect x="140" y="140" width="200" height="90" fill="#cfc5b8" stroke="#2e2a26"/>
+  <text x="240" y="190" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11">Bed</text>
+  <text x="480" y="430" font-family="system-ui,sans-serif" font-size="11" fill="#7a746c">Draw the turn before the wardrobe door swing — state licensure may exceed federal room area.</text>
+
+</svg>

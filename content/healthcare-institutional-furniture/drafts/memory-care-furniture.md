@@ -17,9 +17,21 @@ seo_intent: informational
 audience: educational
 not: legal-advice
 channel: medline-medilodge-era
+
+figure_id: diagrams.memory-care-loop
+image_rights: documented
+image_pass: 2026-09-14
+og_image_alt: "Memory-care furniture is contrast, a door that behaves, and nothing that invites a climb. Locks are a care plan, not a default."
 ---
 
 # Memory care furniture
+
+<!-- hif-figure:v1 -->
+<figure class="hif-figure">
+  <img src="../assets/diagrams/memory-care-loop.svg" alt="Plan schematic of memory care circulation loop with anchored seating" width="960" height="540" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Wander paths and anchored seating compete for the same footprint. <em>Rights:</em> CC0 1.0 (original schematic); BBF staging / original line art; <a href="https://creativecommons.org/publicdomain/zero/1.0/">source</a>. Memory-care circulation loop with anchored seating.</figcaption>
+</figure>
+
 
 A memory-care wing is not a SNF with floral vinyl.
 

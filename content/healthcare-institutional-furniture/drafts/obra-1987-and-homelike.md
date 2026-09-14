@@ -17,9 +17,21 @@ seo_intent: informational
 audience: educational
 not: legal-advice
 channel: medline-medilodge-era
+
+figure_id: plates.bedstead-met-dt2846
+image_rights: documented
+image_pass: 2026-09-14
+og_image_alt: "OBRA 1987 made “homelike” a federal word. What that did, and did not do, to nursing-home furniture."
 ---
 
 # OBRA 1987 and homelike
+
+<!-- hif-figure:v1 -->
+<figure class="hif-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Bedstead_MET_DT2846.jpg" alt="Historical wooden bedstead in the Metropolitan Museum collection" width="1200" height="960" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Homelike language arrived before homelike dimensions — the bedstead is the contrast. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Bedstead_MET_DT2846.jpg">source</a>. Historical bedstead — homelike reform contrast plate.</figcaption>
+</figure>
+
 
 In 1987 Congress told the American nursing home to stop being a warehouse.
 

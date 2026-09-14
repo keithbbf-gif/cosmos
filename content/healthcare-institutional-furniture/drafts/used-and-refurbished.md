@@ -17,9 +17,21 @@ seo_intent: informational
 audience: educational
 not: legal-advice
 channel: medline-medilodge-era
+
+figure_id: plates.poston-mattresses-nara
+image_rights: documented
+image_pass: 2026-09-14
+og_image_alt: "A used hospital bed is a system with a missing history. How to look at a secondhand nightstand without buying a gap."
 ---
 
 # Used and refurbished
+
+<!-- hif-figure:v1 -->
+<figure class="hif-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Poston%2C_Arizona._Bedding_and_mattresses_are_moved_out_of_Ward_Three_in_the_Poston_General_Hospital_._._._-_NARA_-_539868.jpg" alt="Mattresses and bedding moved outdoors for sterilization at wartime hospital" width="1200" height="931" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Refurbished supply chains are older than the punchout refresh date. <em>Rights:</em> Public domain; U.S. National Archives; <a href="https://commons.wikimedia.org/wiki/File:Poston,_Arizona._Bedding_and_mattresses_are_moved_out_of_Ward_Three_in_the_Poston_General_Hospital_._._._-_NARA_-_539868.jpg">source</a>. Mattresses aired for sterilization — refurbished/used supply chain history.</figcaption>
+</figure>
+
 
 The Facebook listing says “hospital bed, works great, rails included.” The rails are one. The mattress is a camping pad. The nightstand in the next photo is a residential three-drawer with a cup ring.
 
