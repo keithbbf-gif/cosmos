@@ -2,6 +2,7 @@
 // the single authority, not a second writer.
 
 import type { Config } from "./config.ts";
+import { escText } from "./esc.ts";
 import { refuse, scrub, SessionPluginRefusal } from "./refusals.ts";
 
 export const RECENTS_PATH = "/api/v1/recents";
@@ -66,7 +67,7 @@ export type ListResult = {
   kind: string;
   tree_id: unknown;
   available: boolean;
-  n: number;
+  n: number | null;
   /** Legal rows are omitted by Core. The plugin surfaces the count, never the row. */
   legal_omitted: unknown;
   rows: SessionRow[];
@@ -77,7 +78,12 @@ function rowsOf(body: Record<string, unknown>): SessionRow[] {
   if (!Array.isArray(raw)) return [];
   return raw
     .filter((r): r is Record<string, unknown> => !!r && typeof r === "object")
-    .map((r) => ({ id: r.id, date: r.date, stream: r.stream, title: r.title }));
+    .map((r) => ({
+      id: r.id,
+      date: r.date ?? null,
+      stream: r.stream ?? null,
+      title: escText(r.title),
+    }));
 }
 
 export async function listSessions(
@@ -93,13 +99,15 @@ export async function listSessions(
   }
   const available = body.available !== false && kind !== "NO_SOURCE";
   const rows = available ? rowsOf(body) : [];
+  const shown = typeof limit === "number" ? rows.slice(0, limit) : rows;
   return {
     kind: available ? "OK" : kind || "NO_SOURCE",
-    tree_id: body.tree_id,
+    tree_id: body.tree_id ?? null,
     available,
-    n: rows.length,
+    // Measured empty is 0. An unavailable feed is null — UNMEASURED never 0.
+    n: available ? shown.length : null,
     legal_omitted: body.n_omitted_legal ?? null,
-    rows: typeof limit === "number" ? rows.slice(0, limit) : rows,
+    rows: shown,
   };
 }
 
@@ -108,7 +116,7 @@ export type OpenResult = {
   id: unknown;
   opencode_id: unknown;
   title: unknown;
-  text: string;
+  text: string | null;
   openwork: unknown;
 };
 
@@ -128,8 +136,8 @@ export async function openSession(
     kind: kind || "OK",
     id: body.id ?? id,
     opencode_id: body.opencode_id ?? null,
-    title: body.title ?? null,
-    text: String(body.text || ""),
+    title: escText(body.title),
+    text: escText(body.text),
     openwork: body.openwork ?? null,
   };
 }

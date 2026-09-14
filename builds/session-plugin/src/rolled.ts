@@ -5,6 +5,7 @@
 // NO_SOURCE. It does not invent a timeline out of the transcript.
 
 import { readFileSync, statSync } from "node:fs";
+import { esc, escText } from "./esc.ts";
 import { refuse } from "./refusals.ts";
 
 export const ROLLED_SCHEMA = "rolled-event/1";
@@ -84,10 +85,11 @@ export function timeline(
     n_skipped: events.length - wanted.length,
     entries: kept.map((e) => ({
       seq: e.seq ?? null,
+      // Absent t stays null (UNMEASURED), never a guessed 0 / "now".
       t: e.t ?? null,
-      kind: String(e.kind || "unknown"),
-      actor: e.actor ?? null,
-      detail: e.detail ?? null,
+      kind: typeof e.kind === "string" ? esc(e.kind) : "unknown",
+      actor: escText(e.actor),
+      detail: typeof e.detail === "string" ? esc(e.detail) : (e.detail ?? null),
     })),
   };
 }
