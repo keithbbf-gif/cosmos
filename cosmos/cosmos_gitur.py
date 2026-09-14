@@ -28,6 +28,8 @@ LEGS = (
      "origin, PRs, Sonnet Gitur review (Anthropic-off exception). Not the live-tree writer."),
     ("gitlab-forge", "GitLab",
      "CI is the execute-the-gate. Sonnet Gitur review. Duo still proposes."),
+    ("gitlab-duo-com", "GitLab Duo COM",
+     "glab + trigger tokens. CI executes the gate. System rails / Model Rater via."),
 )
 # Keith 2026-09-11: Gitur default reviewer = Cursor Other Models Sonnet 5
 # (selectable agent under Cursor). Exception to ANTHROPIC_OFF — Gitur/Cursor

@@ -117,6 +117,9 @@ WIRED_NODES = (
     {"link_id": "gitlab-forge", "rail_type": "CLI", "src": "core",
      "dst": "forge", "family": "gitlab-cli", "module": None,
      "satellite": "gitlab-forge"},
+    {"link_id": "gitlab-duo-com", "rail_type": "CLI", "src": "core",
+     "dst": "com", "family": "gitlab-duo", "module": None,
+     "satellite": "gitlab-duo-com"},
 )
 
 CLI_RAILS = (
@@ -441,6 +444,11 @@ def _gitlab_forge_live_call(paths: CosmosPaths) -> dict:
     return _forge_live_call(paths, "gitlab-forge")
 
 
+def _gitlab_duo_com_live_call(paths: CosmosPaths) -> dict:
+    from cosmos_gitlab_duo_rail import live_call_shape
+    return live_call_shape(paths)
+
+
 # satellite name -> (the rail module that speaks for it, its prove-shaped call).
 # ONE table: "which module IS this rail?" and "what do I call to prove it?" are
 # read off the same row, so the two answers cannot drift apart.
@@ -451,6 +459,7 @@ SATELLITES = {
     "playwright": ("cosmos_playwright_rail", _playwright_live_call),
     "github-forge": ("cosmos_forge_rail", _github_forge_live_call),
     "gitlab-forge": ("cosmos_forge_rail", _gitlab_forge_live_call),
+    "gitlab-duo-com": ("cosmos_gitlab_duo_rail", _gitlab_duo_com_live_call),
     "codex": ("cosmos_codex_rail", _codex_live_call),
 }
 
@@ -544,6 +553,9 @@ def _hands_configured(paths: CosmosPaths, spec: dict) -> bool:
         # the CLI.
         from cosmos_forge_rail import SPEC_NAME
         return paths.config(SPEC_NAME).exists()
+    if sat == "gitlab-duo-com":
+        from cosmos_gitlab_duo_rail import hands_configured
+        return hands_configured(paths)
     if sat == "codex":
         # Existence only -- never a read. The rail itself reads the key at
         # dispatch time. A spec overlay is optional (load_spec handles None);
