@@ -1,0 +1,270 @@
+{
+  "version": 1,
+  "class": "hfrh-figure",
+  "drafts": {
+    "00-01-why-this-history.md": {
+      "file": "00-01-why-this-history.jpg",
+      "commons": "Berkey and Gay Furniture Company Factory -1.jpg",
+      "alt": "Historic Berkey and Gay furniture factory in Grand Rapids, Michigan, where American casegoods manufacturing shaped retail showrooms",
+      "figcaption": "Grand Rapids factories such as Berkey and Gay trained buyers to expect finished rooms and reliable lines long before online catalogs."
+    },
+    "00-02-who-is-talking.md": {
+      "file": "00-02-who-is-talking.jpg",
+      "commons": "Woodworking for beginners; a manual for amateurs (1900) (14760550006).jpg",
+      "alt": "1900 amateur woodworking manual illustration of bench tools and hand-cut joinery",
+      "figcaption": "This series speaks from a working bench—labor, lead time, and repeatability—not from a marketplace dashboard."
+    },
+    "00-03-four-doors.md": {
+      "file": "00-03-four-doors.jpg",
+      "commons": "20080602 Marshall Field & Company Building.JPG",
+      "alt": "Marshall Field and Company department store building on Chicago State Street, an early curated furniture retail door",
+      "figcaption": "Department stores were a fourth kind of door: edited rooms, trained buyers, and freight networks custom shops still inherit."
+    },
+    "00-04-stolen-words.md": {
+      "file": "00-04-stolen-words.jpg",
+      "commons": "Sign-1150774, Dingle, Co. Kerry, Ireland.jpg",
+      "alt": "Weathered handmade shop sign on a craft retail stall in Dingle, County Kerry, Ireland",
+      "figcaption": "Words like handmade and artisan once pointed at visible labor; retail copy now often uses them as mood lighting."
+    },
+    "01-05-america-house.md": {
+      "file": "01-05-america-house.jpg",
+      "commons": "Museum of Arts and Design (MAD) - NYC (51395616531).jpg",
+      "alt": "Museum of Arts and Design at Columbus Circle, New York, successor to the Museum of Contemporary Crafts era",
+      "figcaption": "America House and the Museum of Contemporary Crafts shared Aileen Osborn Webb’s impulse to teach craft and sell it in the same city."
+    },
+    "01-06-acc-fairs.md": {
+      "file": "01-06-acc-fairs.jpg",
+      "commons": "Craft fair 130504-N-WF272-063.jpg",
+      "alt": "Juried outdoor craft fair booth displaying handmade goods to passing buyers",
+      "figcaption": "ACC-era fairs turned handmade furniture retail into a portable city: booth fees, juries, and buyers with checks or wholesale orders."
+    },
+    "01-07-gallery-consignment.md": {
+      "file": "01-07-gallery-consignment.jpg",
+      "commons": "Furniture store interior.jpg",
+      "alt": "Furniture store interior with displayed seating and casegoods arranged for browsing",
+      "figcaption": "Consignment galleries sell access to a taught buyer; the split pays rent, editing, and the person who stays in the room."
+    },
+    "01-08-studio-furniture-as-art.md": {
+      "file": "01-08-studio-furniture-as-art.jpg",
+      "commons": "Wharton Esherick House & Studio, 1520 Horsehoe Trail, Malvern (Chester County, Pennsylvania).jpg",
+      "alt": "Wharton Esherick House and Studio in Malvern, Pennsylvania, a landmark of American studio furniture",
+      "figcaption": "Studio furniture makers such as Wharton Esherick blurred the line between usable tables and museum objects."
+    },
+    "01-09-table-as-bad-gallery-object.md": {
+      "file": "01-09-table-as-bad-gallery-object.jpg",
+      "commons": "Wright dining table - HNT.jpg",
+      "alt": "Frank Lloyd Wright dining table on display, furniture meant for daily meals rather than pedestal isolation",
+      "figcaption": "A dining table is a bad gallery object: it wants a house, not a white cube and a price tag on the wall."
+    },
+    "01-10-jury-and-booth.md": {
+      "file": "01-10-jury-and-booth.jpg",
+      "commons": "Display of handmade pottery and wooden items in a craft market.jpg",
+      "alt": "Handmade pottery and wooden craft items displayed at an outdoor market booth",
+      "figcaption": "Fair juries and booth fees decide who gets a weekend door to metropolitan buyers."
+    },
+    "01-11-what-galleries-taught.md": {
+      "file": "01-11-what-galleries-taught.jpg",
+      "commons": "Pottery and Art Gallery.jpg",
+      "alt": "Handmade pottery arranged on shelves in a small art gallery retail space",
+      "figcaption": "Galleries taught slow looking: spacing, light, and a person willing to explain why one bowl costs more."
+    },
+    "01-12-gallery-to-showroom-handoff.md": {
+      "file": "01-12-gallery-to-showroom-handoff.jpg",
+      "commons": "Character and individuality in decorations and furnishings. (1913) (14763841252).jpg",
+      "alt": "1913 interior design plate showing furnished rooms with coordinated decorations and furniture",
+      "figcaption": "The handoff from gallery to trade showroom trades the single object for lines, samples, and designer relationships."
+    },
+    "02-13-to-the-trade.md": {
+      "file": "02-13-to-the-trade.jpg",
+      "commons": "Character and individuality in decorations and furnishings. (1913) (14784034873).jpg",
+      "alt": "1913 trade interior illustration of a decorated room set for professional specification",
+      "figcaption": "To-the-trade showrooms sell through designers; the public price list is often a different document."
+    },
+    "02-14-design-centers.md": {
+      "file": "02-14-design-centers.jpg",
+      "commons": "Merchandise_Mart_Chicago.jpg",
+      "alt": "Merchandise Mart along the Chicago River, a major wholesale design and furniture trade center",
+      "figcaption": "Design centers such as Chicago’s Merchandise Mart concentrate wholesale showrooms the way cities concentrate banks."
+    },
+    "02-15-getting-the-line-in.md": {
+      "file": "02-15-getting-the-line-in.jpg",
+      "commons": "Stain samples.jpg",
+      "alt": "Wood stain finish samples laid out for furniture specification and showroom approval",
+      "figcaption": "Getting a line into a showroom starts with proof: samples, lead times, and photographs that match what the shop can build."
+    },
+    "02-16-territory-exclusivity.md": {
+      "file": "02-16-territory-exclusivity.jpg",
+      "commons": "Main Floor plan - Nims Ford Dealership, 116 North Main Street, Ekalaka, Carter County, MT HABS MT-115 (sheet 3 of 8).tif",
+      "alt": "Historic main-floor plan diagram zoning a retail showroom into distinct sales territories",
+      "figcaption": "Territory exclusivity maps a city to one showroom; the map only works if the room is actually selling."
+    },
+    "02-17-net-list-multiplier.md": {
+      "file": "02-17-net-list-multiplier.jpg",
+      "commons": "Retail price list of California bulbs (16375013340).jpg",
+      "alt": "Vintage printed retail price list with tiered numbers, a paper ancestor of trade net and list pricing",
+      "figcaption": "Net, list, and designer multipliers are how trade showrooms hide public price from casual browsers."
+    },
+    "02-18-sample-floor.md": {
+      "file": "02-18-sample-floor.jpg",
+      "commons": "Zemplín Museum in Michalovce - History permanent exhibition - Dining room - Overall view of the displayed 1910-1930 dining room furniture 01.jpg",
+      "alt": "Museum dining room furniture vignette with table and chairs arranged as a walk-around sample floor",
+      "figcaption": "A sample floor lets designers and clients believe a custom table before it exists in their room."
+    },
+    "02-19-paper-trail.md": {
+      "file": "02-19-paper-trail.jpg",
+      "commons": "Sears Wonder Book of Values, 1941 - Advertising Postcard (4342725077).jpg",
+      "alt": "1941 Sears advertising postcard promoting mailed retail values, part of the paper trail behind furniture orders",
+      "figcaption": "Showroom orders still ride on paper trails: acknowledgements, deposits, and change orders with signatures."
+    },
+    "02-20-cold-calling-designers.md": {
+      "file": "02-20-cold-calling-designers.jpg",
+      "commons": "Telefon BW 2012-02-18 13-44-32.JPG",
+      "alt": "Vintage rotary telephone on a desk, the tool behind cold-calling interior designers before CRM software",
+      "figcaption": "Cold-calling designers was the pre-internet CRM: a voice, two photographs, and a promise you could keep."
+    },
+    "02-21-own-trucks.md": {
+      "file": "02-21-own-trucks.jpg",
+      "commons": "Auto Delivery Moving Company (1911) (ADVERT 133).jpeg",
+      "alt": "1911 advertisement for a furniture and household goods delivery moving company truck service",
+      "figcaption": "Owning delivery trucks keeps the last mile in the shop’s hands when freight brokers treat a table like a carton."
+    },
+    "03-22-high-point.md": {
+      "file": "03-22-high-point.jpg",
+      "commons": "Southern Furniture Exhibition Building (High Point, North Carolina).jpg",
+      "alt": "Southern Furniture Exhibition Building in High Point, North Carolina, hub of the wholesale furniture market",
+      "figcaption": "High Point’s Southern Furniture Market dates to March 1909; twice a year the town becomes a wholesale city."
+    },
+    "03-23-market-order-vs-cart.md": {
+      "file": "03-23-market-order-vs-cart.jpg",
+      "commons": "Price list. (1897) (14753621256).jpg",
+      "alt": "1897 wholesale price list page with line items and quantities for market buyers",
+      "figcaption": "A market order assigns title and lead time; an e-commerce cart is a thinner promise with fewer signatures."
+    },
+    "03-24-tear-sheets.md": {
+      "file": "03-24-tear-sheets.jpg",
+      "commons": "Santa Claus in a 1920 furniture ad.jpg",
+      "alt": "1920s furniture advertisement with Santa Claus, an era when tear sheets sold rooms from printed pages",
+      "figcaption": "Tear sheets and mail-order catalogs trained buyers to decide from paper decades before lifestyle photography."
+    },
+    "04-25-ebay-yahoo.md": {
+      "file": "04-25-ebay-yahoo.jpg",
+      "commons": "Mch2022-computermuseum-corona.jpg",
+      "alt": "Vintage personal computer at a computer museum, stand-in for the first home-office online storefront era",
+      "figcaption": "eBay, Yahoo Stores, and early shop sites taught payments and photography before they solved furniture logistics."
+    },
+    "04-26-photography-as-showroom.md": {
+      "file": "04-26-photography-as-showroom.jpg",
+      "commons": "Studio Lighting Equipment WMDE IMG 3277 edit.jpg",
+      "alt": "Studio lighting equipment aimed at a product set, when the photograph replaced the physical showroom",
+      "figcaption": "When the photograph became the showroom, shops began shaping objects for thumbnails, not for daylight in a dining room."
+    },
+    "04-27-freight-is-not-shipping.md": {
+      "file": "04-27-freight-is-not-shipping.jpg",
+      "commons": "Trailer Truck 5.jpg",
+      "alt": "Semi-trailer truck on the road, typical LTL freight for bulky handmade furniture",
+      "figcaption": "Freight for furniture is dimensional weight, claims, and white-glove delivery—not the small-parcel logic of a cart checkout."
+    },
+    "05-28-etsy-2005.md": {
+      "file": "05-28-etsy-2005.jpg",
+      "commons": "Brooklyn Flea Market (11600999615).jpg",
+      "alt": "Brooklyn flea market stalls with vintage goods and handmade objects for sale",
+      "figcaption": "Etsy’s 2005 launch in Brooklyn rode the same handmade hunger visible in urban flea markets and craft booths."
+    },
+    "05-29-jewelry-economics.md": {
+      "file": "05-29-jewelry-economics.jpg",
+      "commons": "DFC 4162 A bustling outdoor market stall displays an array of handcrafted metal trinkets and keepsakes as a shopper examines items under soft evening lights.jpg",
+      "alt": "Outdoor market stall selling small handcrafted metal goods while a shopper browses in evening light",
+      "figcaption": "Marketplaces tuned for jewelry economics—small parcels, fast turns—strain furniture makers built for slow wood."
+    },
+    "05-30-handmade-wars.md": {
+      "file": "05-30-handmade-wars.jpg",
+      "commons": "Display of handmade pottery and wooden items in a craft market.jpg",
+      "alt": "Handmade pottery and wooden craft items crowded on a market table",
+      "figcaption": "Etsy’s handmade policy fights were really fights over factory help, disclosure, and who gets to use the word artisan."
+    },
+    "05-31-three-buckets.md": {
+      "file": "05-31-three-buckets.jpg",
+      "commons": "Antique_furniture.jpg",
+      "alt": "Antique wooden furniture grouped in a vintage resale setting",
+      "figcaption": "Etsy’s vintage, supplies, and handmade buckets let one storefront sell three different contracts under one brand."
+    },
+    "05-32-fees-and-ads.md": {
+      "file": "05-32-fees-and-ads.jpg",
+      "commons": "Old cash register 金銭登録機(きんせんとうろくき).jpg",
+      "alt": "Vintage shop cash register on a retail counter",
+      "figcaption": "Listing fees, payment processing, and off-site ads are the hidden rent in a marketplace that calls itself community."
+    },
+    "05-33-etsy-wholesale.md": {
+      "file": "05-33-etsy-wholesale.jpg",
+      "commons": "Sing Chong Company Inc. (3092846437).jpg",
+      "alt": "Historic wholesale import company storefront, a brick retail door online wholesale programs tried to reach",
+      "figcaption": "Etsy Wholesale tried to bridge online makers and brick retailers—a different door than the consumer cart."
+    },
+    "06-34-overstock-partners.md": {
+      "file": "06-34-overstock-partners.jpg",
+      "commons": "BLM Regional Seed Warehouse, Boise, ID (27159148551).jpg",
+      "alt": "Regional warehouse shelving stacked with palletized inventory awaiting partner fulfillment",
+      "figcaption": "Overstock’s partner model grew by listing other people’s inventory before owned closeouts dominated the story."
+    },
+    "06-35-csn-wayfair.md": {
+      "file": "06-35-csn-wayfair.jpg",
+      "commons": "Galveston, Houston & Henderson (GH&H) Freight Depot -- Galveston.jpg",
+      "alt": "Historic Galveston freight depot where railroad logistics moved goods toward distant retail catalogs",
+      "figcaption": "CSN Stores’ niche sites foreshadowed Wayfair: supplier-direct catalogs scaled by SEO and dropship logistics."
+    },
+    "06-36-dropship-job.md": {
+      "file": "06-36-dropship-job.jpg",
+      "commons": "Rulolu Akordiyon Konveyor.jpg",
+      "alt": "Accordion conveyor moving cartons through a warehouse packing line",
+      "figcaption": "Dropship assigns the website the relationship while the shop still builds, packs, and answers for the object."
+    },
+    "06-37-high-point-recruitment.md": {
+      "file": "06-37-high-point-recruitment.jpg",
+      "commons": "Exec Exhibition Hall - geograph.org.uk - 1030717.jpg",
+      "alt": "Large trade exhibition hall aisle with vendor booths and hanging signs",
+      "figcaption": "Platform buyers walked High Point like traditional retailers, asking family shops for catalogs to digitize."
+    },
+    "06-38-sku-flood.md": {
+      "file": "06-38-sku-flood.jpg",
+      "commons": "Package tracking barcode scanner.jpg",
+      "alt": "Handheld barcode scanner reading a package label in a fulfillment operation",
+      "figcaption": "SKU floods flatten a bench-made table into one row among thousands of look-alike listings."
+    },
+    "06-39-map-private-label.md": {
+      "file": "06-39-map-private-label.jpg",
+      "commons": "1972 Buick Centurion, Original Manufacturer's Suggested Retail Price window sticker, buick-centurion-sticker.jpg",
+      "alt": "Manufacturer’s suggested retail price window sticker showing published list pricing rules",
+      "figcaption": "MAP policies and private-label lines are how platforms and brands negotiate who controls the public price."
+    },
+    "06-40-returns-chargebacks.md": {
+      "file": "06-40-returns-chargebacks.jpg",
+      "commons": "EFTA00002256 - Stacked cardboard boxes fill the corner of a warehouse room with white doors and an exit sign above.jpg",
+      "alt": "Stacked returned shipping cartons filling a warehouse corner near an exit sign",
+      "figcaption": "Furniture return rates and card chargebacks punish shops when photographs promised a room the object cannot enter."
+    },
+    "06-41-walking-away.md": {
+      "file": "06-41-walking-away.jpg",
+      "commons": "Closed_shop.jpg",
+      "alt": "Closed retail shop front with shutters drawn down",
+      "figcaption": "Walking away from a platform pipe should finish open orders first—then reclaim photographs and specifications."
+    },
+    "07-42-four-prices.md": {
+      "file": "07-42-four-prices.jpg",
+      "commons": "Furnished Room, New England Furniture & Carpet Co. - DPLA - d93153dc1018aec4818900cddd84b1f2.jpg",
+      "alt": "Historic furnished room display from New England Furniture and Carpet Company retail photography",
+      "figcaption": "The same oak can carry four prices depending on door: gallery, wholesale, trade, or dropship markup."
+    },
+    "07-43-american-made.md": {
+      "file": "07-43-american-made.jpg",
+      "commons": "Made in USA label 03.jpg",
+      "alt": "Made in USA country-of-origin label sewn onto product packaging",
+      "figcaption": "American made shifted from shop-floor fact to marketing copy as imports and platforms scaled."
+    },
+    "07-44-series-close.md": {
+      "file": "07-44-series-close.jpg",
+      "commons": "Woodworking Tools at the Women's Woodshop in Minneapolis, MN.jpg",
+      "alt": "Woodworking tools on a bench at the Women's Woodshop in Minneapolis, Minnesota",
+      "figcaption": "The series closes back on the bench: touch the wood, ask which retail door you are standing in, and keep the words honest."
+    }
+  }
+}
