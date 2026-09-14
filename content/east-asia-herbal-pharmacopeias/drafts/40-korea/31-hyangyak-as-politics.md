@@ -10,9 +10,20 @@ jurisdictions: [korea]
 period: goryeo-joseon
 claims_guard: strict
 voice: essay
+meta_description: "Hyangyak as politics: local herbs, court budgets, and Joseon identity claims."
+figure_id: plates.donguibogam-cover
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Hyangyak: the local as a political category
+
+<!-- eahp-figure:v1 -->
+<figure class="eahp-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/77/Dongibogam.jpg" alt="Donguibogam Korean medical encyclopedia cover or opening" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Donguibogam cover — hyangyak policy begins as Joseon insistence on local names before this royal encyclopedia absorbs Chinese shelves. <em>Rights:</em> CC BY-SA 3.0; Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:Dongibogam.jpg">source</a>. Donguibogam (Tongui bogam) cover or opening.</figcaption>
+</figure>
+
 
 If you take one Korean word from this collection, take *hyangyak* 鄕藥. It does not mean “herb.” It means the drug that is *of the district* — local, as against the article that comes from China under a Tang or later prestige name. Soyoung Suh has already done the work I am not going to redo: the local is layered. It is made in lists, in vernacular names, in fiscal arguments, in the shame and pride of using a substitute. I am going to keep the word untranslated after this page so it cannot collapse into “Korean folk medicine.”
 

@@ -10,9 +10,20 @@ jurisdictions: [china]
 period: ming
 claims_guard: strict
 voice: essay
+meta_description: "Bencao gangmu as a machine for reading: gang, mu, sixteen bu, and slots for doubt."
+figure_id: plates.gangmu-mineral-panel
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Bencao gangmu as a machine for reading
+
+<!-- eahp-figure:v1 -->
+<figure class="eahp-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Mineral-drugs-from-Li-Shizhen-Bencao-Gangmu.png" alt="Mineral drugs illustrated in Bencao gangmu style panel" width="722" height="899" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Mineral panel from the Bencao gangmu reading-machine — sixteen departments and fixed inner slots on the page, pictured here as materia, not as instructions. <em>Rights:</em> Public domain; Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:Mineral-drugs-from-Li-Shizhen-Bencao-Gangmu.png">source</a>. Mineral-drug illustrations from Bencao gangmu tradition.</figcaption>
+</figure>
+
 
 The *Bencao gangmu* 本草綱目 is usually introduced as a pile of facts. I want to introduce it as a machine. *Gang* is the leading rope of a net. *Mu* are the eyes. The title says: we will give you a way to pull.
 

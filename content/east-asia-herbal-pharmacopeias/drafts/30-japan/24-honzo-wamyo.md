@@ -10,9 +10,20 @@ jurisdictions: [japan]
 period: heian
 claims_guard: strict
 voice: essay
+meta_description: "Honzō wamyō: Japan’s early pharmaceutical name-book in the Engi era."
+figure_id: plates.ishinpo-title
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Honzō wamyō: naming as local knowledge
+
+<!-- eahp-figure:v1 -->
+<figure class="eahp-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Isinnhou.jpg" alt="Ishinpō title page oldest extant Japanese medical encyclopedia tradition" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Ishinpō title page — Fukane no Sukehito’s Honzō wamyō (early tenth century) names drugs in Japanese before this 984 encyclopedia quotes Chinese bencao at length. <em>Rights:</em> Public domain; Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:Isinnhou.jpg">source</a>. Ishinpō (Heart of Medicine) title page, 984 compilation tradition.</figcaption>
+</figure>
+
 
 The oldest surviving Japanese pharmaceutical book, in the usual account, is not a recipe collection. It is a name-book. *Honzō wamyō* 本草和名, Japanese names for the *honzō*. The compiler is Fukane no Sukehito 深根輔仁 (also Fukae; also, in later nicknames, the author of “Sukehito honzō”). The order is an Engi-era (901–923) court order in the ordinary telling. The year you will see pinned is 918, Engi 18. I will say **Engi-era, conventionally 918**, because I have not read a colophon that forces the year.
 

@@ -10,9 +10,20 @@ jurisdictions: [china, japan]
 period: tang-to-modern
 claims_guard: strict
 voice: essay
+meta_description: "What survives of early Chinese imperial bencao: Japanese copies, Dunhuang fragments, and reconstruction limits."
+figure_id: plates.ishinpo-title
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # What survives: Dunhuang, Japan, reconstruction
+
+<!-- eahp-figure:v1 -->
+<figure class="eahp-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Isinnhou.jpg" alt="Title page of Ishinpō Heart of Medicine Japanese medical encyclopedia" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Title page from the Ishinpō (Heart of Medicine) tradition — Japan’s surviving witness to Tang materia medica that China often meets only through fragments and quotations. <em>Rights:</em> Public domain; Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:Isinnhou.jpg">source</a>. Ishinpō (Heart of Medicine) title page, 984 compilation tradition.</figcaption>
+</figure>
+
 
 The *Xinxiu bencao* is famous, and it is mostly not there. That is not a tragedy to perform. It is the ordinary condition of Tang books. What is less ordinary is *how* it is not there: gone as a circulating complete work in China by the Song, present as fragments in a cave, present as a copy tradition in Japan, present as quotation in books that were trying to be about something else.
 

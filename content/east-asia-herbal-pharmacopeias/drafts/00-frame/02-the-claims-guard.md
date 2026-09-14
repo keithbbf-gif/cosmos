@@ -10,9 +10,20 @@ jurisdictions: [east-asia]
 period: method
 claims_guard: strict
 voice: essay
+meta_description: "The claims guard for this collection: dates, attributions, UNESCO prose, and why historical use is not efficacy."
+figure_id: plates.acupuncture-prohibitions-wellcome
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # The claims guard
+
+<!-- eahp-figure:v1 -->
+<figure class="eahp-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Acupuncture_prohibitions%2C_Chinese_woodcut%2C_Ming_period_Wellcome_L0034738.jpg" alt="Ming woodcut listing acupuncture prohibitions in Chinese script" width="1200" height="1600" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Ming woodcut on acupuncture prohibitions — an example of how historical medical books encode caution in print. The image documents a text’s warnings, not safe practice for a modern reader. <em>Rights:</em> CC BY 4.0; Wellcome Collection; <a href="https://commons.wikimedia.org/wiki/File:Acupuncture_prohibitions,_Chinese_woodcut,_Ming_period_Wellcome_L0034738.jpg">source</a>. Ming woodcut on acupuncture prohibitions; Wellcome L0034738.</figcaption>
+</figure>
+
 
 This collection will fail in a familiar way if it is not watched: a cautious paragraph will end with a clean date, the clean date will be repeated, and by the third file the caution will have fallen off. I have seen it in my own notes. The guard is a set of habits against that gravity.
 

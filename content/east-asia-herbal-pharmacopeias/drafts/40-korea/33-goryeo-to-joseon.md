@@ -10,9 +10,20 @@ jurisdictions: [korea]
 period: late-goryeo-early-joseon
 claims_guard: strict
 voice: essay
+meta_description: "From Goryeo to Joseon: reprints, offices, and hyangyak continuities."
+figure_id: plates.donguibogam-page-en
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # From Goryeo lists to early Joseon compilations
+
+<!-- eahp-figure:v1 -->
+<figure class="eahp-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Donguibogam_%28one_page_of_one_book%29.jpg" alt="Printed page from Donguibogam Tongui bogam" width="1200" height="1600" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Printed Donguibogam page — Goryeo-to-Joseon shifts in materia medica are argued from office and reprint, not from a single illustration. <em>Rights:</em> CC BY-SA 4.0; Wikimedia Commons (contributor scan); <a href="https://commons.wikimedia.org/wiki/File:Donguibogam_(one_page_of_one_book).jpg">source</a>. Donguibogam printed page scan.</figcaption>
+</figure>
+
 
 A single emergency book does not make a policy. What happens after *Hyangyak gugeupbang*, in the late Goryeo and the first Joseon generation, is the claim that local drugs can carry a kingdom. I am reconstructing this from later historians (Shin, Suh, Ahn as cited in handbook chapters), not from a run of Goryeo manuscripts I have read. Several of the Goryeo titles survive only as names and as quotations inside early Joseon books. That is a *shiyi* situation. We meet the leftovers in the book that ate them.
 

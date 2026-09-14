@@ -10,9 +10,20 @@ jurisdictions: [east-asia]
 period: method
 claims_guard: strict
 voice: essay
+meta_description: "What this East Asian herbal pharmacopeia draft collection cannot do: clinical advice, efficacy, or complete bibliography."
+figure_id: plates.ming-contents-wellcome
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # What this collection cannot do
+
+<!-- eahp-figure:v1 -->
+<figure class="eahp-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Chinese_materia_medica_%28Ming%29%2C_.Contents_page_Wellcome_L0039454.jpg" alt="Ming materia medica contents page — limits of the collection" width="1200" height="1600" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Ming contents page — this draft collection stops at staged essays; the page marks a bookshelf door, not a finished history or clinical guide. <em>Rights:</em> CC BY 4.0; Wellcome Collection; <a href="https://commons.wikimedia.org/wiki/File:Chinese_materia_medica_(Ming),_.Contents_page_Wellcome_L0039454.jpg">source</a>. Ming materia medica contents page; Wellcome Collection L0039454.</figcaption>
+</figure>
+
 
 I have written forty-five drafts and I have not held most of the books. That is the first thing this file is for. A staged collection can be honest about its body. A finished-sounding history would have to hide the body. I will not hide it.
 

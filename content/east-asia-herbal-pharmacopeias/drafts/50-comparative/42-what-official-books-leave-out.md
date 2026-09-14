@@ -10,9 +10,20 @@ jurisdictions: [east-asia]
 period: comparative
 claims_guard: strict
 voice: essay
+meta_description: "What official pharmacopeias and materia medica books leave out of the record."
+figure_id: plates.acupuncture-prohibitions-wellcome
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # What official books leave out
+
+<!-- eahp-figure:v1 -->
+<figure class="eahp-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Acupuncture_prohibitions%2C_Chinese_woodcut%2C_Ming_period_Wellcome_L0034738.jpg" alt="Ming medical woodcut on prohibited practices" width="1200" height="1600" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Prohibitions woodcut — official books omit midwives, markets, and household practice; what survives in print is a filtered slice of pharmacopeia-shaped knowledge. <em>Rights:</em> CC BY 4.0; Wellcome Collection; <a href="https://commons.wikimedia.org/wiki/File:Acupuncture_prohibitions,_Chinese_woodcut,_Ming_period_Wellcome_L0034738.jpg">source</a>. Ming woodcut on acupuncture prohibitions; Wellcome L0034738.</figcaption>
+</figure>
+
 
 An official drug book is a portrait of a state’s willingness to speak. It is not a portrait of a country’s substances. I have been implying this since the *Bielu* (the annex as admission) and Chen Cangqi (the leftover as genre). Here I want the omissions named as omissions, without filling them with invented archives.
 

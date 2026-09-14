@@ -10,9 +10,20 @@ jurisdictions: [china]
 period: tang
 claims_guard: strict
 voice: essay
+meta_description: "Xinxiu bencao (659): the Tang state’s Newly Revised Materia Medica as government product and bibliographic event."
+figure_id: plates.gangmu-plate-insects
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Xinxiu bencao: the Tang state's book
+
+<!-- eahp-figure:v1 -->
+<figure class="eahp-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/Bencao_Gangmu_33-36.jpg" alt="Circa 1800 printed plate of insects and plants after Bencao gangmu" width="1200" height="1600" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Insect and plant plate from a circa-1800 copy after the Bencao gangmu — the Tang Xinxiu bencao’s lost color paintings survive only through later image traditions like this one. <em>Rights:</em> Public domain (PD-old); Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:Bencao_Gangmu_33-36.jpg">source</a>. Circa 1800 copy after Li Shizhen’s Bencao gangmu; insect and plant plate spread.</figcaption>
+</figure>
+
 
 In the fourth year of Xianqing, on a day the *Tang huiyao* is later said to record, a group of officials finished a book they had been ordered to make. The year, in the usual conversion, is 659. The title is *Xinxiu bencao* 新修本草, Newly Revised Materia Medica. People also call it *Tang bencao*, which is handy and a little lazy, as if the dynasty had only one. I will use *Xinxiu*.
 

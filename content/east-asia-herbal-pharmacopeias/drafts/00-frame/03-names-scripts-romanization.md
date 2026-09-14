@@ -10,9 +10,20 @@ jurisdictions: [east-asia]
 period: method
 claims_guard: strict
 voice: essay
+meta_description: "Names, scripts, and romanization for Chinese bencao, Japanese honzō, and Korean hyangyak titles in historical context."
+figure_id: plates.gangmu-1603-spread-2
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Names, scripts, romanization
+
+<!-- eahp-figure:v1 -->
+<figure class="eahp-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Compendium_of_Materia_Medica_%281603%29_2.jpg" alt="Second spread of 1603 Bencao gangmu woodblock pages with Chinese characters" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Facing pages from the 1603 Compendium of Materia Medica print show mixed scripts and repeated book titles — a reminder that romanization choices in these drafts are editorial, not stamped on the block. <em>Rights:</em> Public domain (PD-old); Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:Compendium_of_Materia_Medica_(1603)_2.jpg">source</a>. 1603 Compendium of Materia Medica woodblock pages.</figcaption>
+</figure>
+
 
 The books in this collection were written in a world that shared graphs and did not share speech. That is the first fact about their names. A clerk in Chang’an, a physician in Heian-kyō, and a compiler in Hanyang could look at 甘草 and know they were in the same written conversation. They did not say the same word. They did not necessarily mean the same plant. The graph is a treaty. Treaties get broken.
 

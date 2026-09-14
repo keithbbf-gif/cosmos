@@ -10,9 +10,20 @@ jurisdictions: [japan]
 period: heian
 claims_guard: strict
 voice: essay
+meta_description: "Ishinpō (984): Japan’s oldest surviving medical encyclopedia and its materia medica volume."
+figure_id: plates.ishinpo-ninnaji
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Ishinpō: an archive that looks like a medical book
+
+<!-- eahp-figure:v1 -->
+<figure class="eahp-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Ishinpo_Ninnaji.jpg" alt="Heian-period Ishinpō manuscript page Tokyo National Museum tradition" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Ninna-ji line Ishinpō page — Tanba Yasuyori’s 984 encyclopedia preserves Chinese materia medica quotations; vol. 30 is the honzō room this draft discusses. <em>Rights:</em> Public domain; Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:Ishinpo_Ninnaji.jpg">source</a>. Ishinpō manuscript page, Ninna-ji line.</figcaption>
+</figure>
+
 
 In 984 Tanba Yasuyori 丹波康頼 (you will also see Tamba) presented a thirty-*kan* medical encyclopedia. The title is *Ishinpō* 醫心方 — prescriptions from the heart of medicine, in the museum English. It is the oldest surviving Japanese medical book in the usual account. A Heian-period copy associated with the Nakarai (Nakarai/Nasei) family sits in the Tokyo National Museum and is a National Treasure. I have seen the museum description. I have not turned the scrolls.
 

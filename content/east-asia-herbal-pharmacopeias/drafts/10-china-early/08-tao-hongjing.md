@@ -10,9 +10,20 @@ jurisdictions: [china]
 period: six-dynasties
 claims_guard: strict
 voice: essay
+meta_description: "Tao Hongjing, the Bencao jing jizhu, and how Six Dynasties commentary shaped later imperial bencao."
+figure_id: plates.ming-huangqin-wellcome
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Tao Hongjing and the collected commentaries
+
+<!-- eahp-figure:v1 -->
+<figure class="eahp-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Chinese_Materia_Medica_illustration%2C_Ming%3B_Huangqin_Wellcome_L0039301.jpg" alt="Ming materia medica painting of huangqin (Scutellaria root)" width="1200" height="1600" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Ming painted plate for huangqin (Scutellaria) — the kind of image Tao Hongjing’s commentary tradition inherited and rearranged in red and black text layers. <em>Rights:</em> CC BY 4.0; Wellcome Collection; <a href="https://commons.wikimedia.org/wiki/File:Chinese_Materia_Medica_illustration,_Ming;_Huangqin_Wellcome_L0039301.jpg">source</a>. Ming illustration for huangqin (Scutellaria); Wellcome L0039301.</figcaption>
+</figure>
+
 
 Tao Hongjing 陶弘景 (456–536) is the first person in this collection I am willing to treat as an editor we can almost see. That is not a compliment in the modern professional sense. He was a Daoist polymath at the Liang court and in the mountains, a man who wrote on alchemy, maps, and the old drug books. The work that matters here is the *Bencao jing jizhu* 本草經集注 — collected commentaries on the *Bencao jing* — usually placed around the year 500. The original as a complete book is not sitting in a modern library in Tao’s hand. What we have, again, is a work that later official books swallowed and that scholars now pick back out.
 

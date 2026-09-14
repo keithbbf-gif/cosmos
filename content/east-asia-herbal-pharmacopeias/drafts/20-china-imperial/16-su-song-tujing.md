@@ -10,9 +10,20 @@ jurisdictions: [china]
 period: northern-song
 claims_guard: strict
 voice: essay
+meta_description: "Su Song’s Bencao tujing: prefectural pictures and the illustrated classic presented in 1061."
+figure_id: plates.gangmu-plate-insects
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Su Song and the illustrated classic
+
+<!-- eahp-figure:v1 -->
+<figure class="eahp-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/Bencao_Gangmu_33-36.jpg" alt="Printed herbal plate with insects and plants in Chinese materia medica style" width="1200" height="1600" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Prefectural illustration ambitions of Su Song’s Bencao tujing (1061) echo in later plates like this copy-chain insect spread — image-tradition, not a surviving 1061 painting. <em>Rights:</em> Public domain (PD-old); Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:Bencao_Gangmu_33-36.jpg">source</a>. Circa 1800 copy after Li Shizhen’s Bencao gangmu; insect and plant plate spread.</figcaption>
+</figure>
+
 
 Su Song 蘇頌 (1020–1101) is easier to meet as the man of the astronomical clock than as a *bencao* editor. That is a modern fame-sort. In this collection he matters because the court asked the prefectures to send pictures, and he was one of the men who had to make a book out of what came back.
 

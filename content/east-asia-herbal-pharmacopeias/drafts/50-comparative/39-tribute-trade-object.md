@@ -10,9 +10,20 @@ jurisdictions: [east-asia]
 period: comparative
 claims_guard: strict
 voice: essay
+meta_description: "Tribute, trade, and the object-life of drugs between Chinese, Japanese, and Korean books."
+figure_id: plates.ming-honey-wellcome
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Tribute, trade, and the drug as object
+
+<!-- eahp-figure:v1 -->
+<figure class="eahp-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Chinese_Materia_Medica_illustration%2C_Ming%3B_Sichuan_honey_Wellcome_L0039305.jpg" alt="Ming materia medica illustration of honey — tribute trade good" width="1200" height="1600" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Sichuan honey plate — tribute and trade moved materia medica names across East Asia; the picture is a commodity face, not proof of therapeutic effect. <em>Rights:</em> CC BY 4.0; Wellcome Collection; <a href="https://commons.wikimedia.org/wiki/File:Chinese_Materia_Medica_illustration,_Ming;_Sichuan_honey_Wellcome_L0039305.jpg">source</a>. Ming materia medica illustration, Sichuan honey; Wellcome L0039305.</figcaption>
+</figure>
+
 
 A *bencao* entry likes to sound like a plant. Often it is a cargo.
 

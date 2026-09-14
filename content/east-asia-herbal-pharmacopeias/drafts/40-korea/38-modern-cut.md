@@ -10,9 +10,20 @@ jurisdictions: [korea]
 period: 20c
 claims_guard: strict
 voice: essay
+meta_description: "Modern Korean pharmacopeias, KP/KHP, and the colonial rupture in hanui."
+figure_id: plates.donguibogam-page-en
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Modern Korean pharmacopeias and the colonial cut
+
+<!-- eahp-figure:v1 -->
+<figure class="eahp-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Donguibogam_%28one_page_of_one_book%29.jpg" alt="Donguibogam printed page as historical Korean medical book" width="1200" height="1600" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Donguibogam page — modern Korean Pharmacopeia (KP, from 1958) and colonial cuts are twentieth-century statutes, not extensions of this woodblock. <em>Rights:</em> CC BY-SA 4.0; Wikimedia Commons (contributor scan); <a href="https://commons.wikimedia.org/wiki/File:Donguibogam_(one_page_of_one_book).jpg">source</a>. Donguibogam printed page scan.</figcaption>
+</figure>
+
 
 The first *Korean Pharmacopoeia* (KP; then 대한약전, later 대한민국약전) is a 1958 book. That date sits in MFDS-facing literature and in comparative chapters on modern East Asian codes. It is five years after the PRC’s 1953 pharmacopeia and a long generation after Japan’s 1886 one. I will not turn the sequence into a race. I will turn it into a political fact: **Korea’s first modern national drug code is written after a colonial period in which “the official” had been Japanese.**
 

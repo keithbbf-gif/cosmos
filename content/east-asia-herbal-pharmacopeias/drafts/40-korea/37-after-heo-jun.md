@@ -10,9 +10,20 @@ jurisdictions: [korea]
 period: late-joseon
 claims_guard: strict
 voice: essay
+meta_description: "Korean materia medica after Heo Jun: reprints, commentaries, and colonial pressure."
+figure_id: plates.donguibogam-ko-page
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # After Heo Jun: vernacular, war, reprint
+
+<!-- eahp-figure:v1 -->
+<figure class="eahp-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/7d/%EB%8F%99%EC%9D%98%EB%B3%B4%EA%B0%90%28319-2%29.jpg" alt="Korean medical woodblock page after Heo Jun era" width="1200" height="1600" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Post–Heo Jun woodblock page — later Joseon readers inherit Donguibogam as a shelf, not as a single author’s notebook. <em>Rights:</em> CC BY-SA 4.0; Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:%EB%8F%99%EC%9D%98%EB%B3%B4%EA%B0%90(319-2).jpg">source</a>. Donguibogam woodblock page (Korean scan).</figcaption>
+</figure>
+
 
 A famous encyclopedia can freeze a timeline. I want the century after 1613 to stay a century. I do not have, in this pass, a second Korean *bencao* of *Gangmu* scale to put on the table. What I have is a set of pressures that later books and later politics will have to live with.
 

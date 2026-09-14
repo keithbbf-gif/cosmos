@@ -10,9 +10,20 @@ jurisdictions: [east-asia]
 period: 19c-20c
 claims_guard: strict
 voice: essay
+meta_description: "Three modern East Asian pharmacopeia codes: Republican China, Meiji Japan, and Korean KP."
+figure_id: plates.gangmu-1603-spread-2
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Three modern books and a shared ancestor they do not admit the same way
+
+<!-- eahp-figure:v1 -->
+<figure class="eahp-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Compendium_of_Materia_Medica_%281603%29_2.jpg" alt="East Asian woodblock materia medica pages beside modern ministry codes" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> 1603 gangmu spread — Zhonghua yaodian (1930/1931), Nihon yakkyokuhō, and Korean Pharmacopeia are ministry objects unlike this Ming book. <em>Rights:</em> Public domain (PD-old); Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:Compendium_of_Materia_Medica_(1603)_2.jpg">source</a>. 1603 Compendium of Materia Medica woodblock pages.</figcaption>
+</figure>
+
 
 By the late twentieth century a customs officer in Kobe, a tester in Shanghai, and a reviewer in Osong can all open a book that looks, to a USP reader, like the same genre: monographs, general chapters, a legal voice. The books are the Japanese Pharmacopoeia, the Pharmacopoeia of the People’s Republic of China, and the Korean Pharmacopoeia (with KHP beside it). They are not the same ancestor in a costume. They are three state decisions about what a drug-name is allowed to mean. This file is about those decisions, and about the older pages they sometimes house and sometimes refuse.
 

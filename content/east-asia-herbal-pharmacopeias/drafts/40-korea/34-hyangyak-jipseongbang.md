@@ -10,9 +10,20 @@ jurisdictions: [korea]
 period: joseon
 claims_guard: strict
 voice: essay
+meta_description: "Hyangyak jipseongbang (1433): early Joseon local-herb formulary in standard narratives."
+figure_id: plates.donguibogam-ko-page
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Hyangyak jipseongbang, 1433
+
+<!-- eahp-figure:v1 -->
+<figure class="eahp-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/7d/%EB%8F%99%EC%9D%98%EB%B3%B4%EA%B0%90%28319-2%29.jpg" alt="Korean materia medica woodblock page from Joseon encyclopedia tradition" width="1200" height="1600" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Joseon woodblock page — Hyangyak jipseongbang (1433) belongs to the same local-herb compilation century as surviving printed pages. <em>Rights:</em> CC BY-SA 4.0; Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:%EB%8F%99%EC%9D%98%EB%B3%B4%EA%B0%90(319-2).jpg">source</a>. Donguibogam woodblock page (Korean scan).</figcaption>
+</figure>
+
 
 Sejong’s court likes a big official book. The medical one that belongs in this collection is *Hyangyak jipseongbang* 鄕藥集成方 — collected and standardized prescriptions of local botanicals. The compilation is ordered in 1431, in the usual account, through Jiphyeonjeon names: Yu Hyotong 兪孝通, No Jungnye 盧重禮, Park Yundeok 朴允德. The print is 1433. Kwon Chae writes a preface. Jeolla and Gangwon are told to cut it. Reprints in 1478 and, later, 1633 (Hullyeon Dogam small type) appear in the encyclopedia record. I am following the Encyclopedia of Korean Culture. I have not collated the reprints.
 

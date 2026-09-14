@@ -10,9 +10,20 @@ jurisdictions: [china]
 period: tang
 claims_guard: strict
 voice: essay
+meta_description: "Chen Cangqi and Bencao shiyi: recovered fragments and Kaiyuan-era supplement literature."
+figure_id: plates.ming-cardamom-wellcome
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Chen Cangqi's supplements
+
+<!-- eahp-figure:v1 -->
+<figure class="eahp-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/Chinese_Materia_Medica_illustration%2C_Ming%3B_Cardamom_of_Yizhou_Wellcome_L0039306.jpg" alt="Ming illustration of Yizhou cardamom in Chinese materia medica" width="1200" height="1600" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Cardamom of Yizhou in a Ming materia medica plate — Chen Cangqi’s lost Bencao shiyi survives in quoted names and traces, not in a single intact Song print like this Ming set. <em>Rights:</em> CC BY 4.0; Wellcome Collection; <a href="https://commons.wikimedia.org/wiki/File:Chinese_Materia_Medica_illustration,_Ming;_Cardamom_of_Yizhou_Wellcome_L0039306.jpg">source</a>. Ming cardamom plate; Wellcome L0039306.</figcaption>
+</figure>
+
 
 The official book of 659 was not the only Tang *bencao*. It was the one a court could point at. Beside it, and soon after it, a man named Chen Cangqi 陳藏器 wrote a supplement that later people could not stop quoting. The title is *Bencao shiyi* 本草拾遺 — picking up what was left. The date you will see most often is Kaiyuan 27, 739. I will use it as the conventional date, not as a colophon I have read.
 

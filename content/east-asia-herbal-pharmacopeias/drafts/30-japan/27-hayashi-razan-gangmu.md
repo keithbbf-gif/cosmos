@@ -10,9 +10,20 @@ jurisdictions: [japan]
 period: edo
 claims_guard: strict
 voice: essay
+meta_description: "Hayashi Razan and the Bencao gangmu’s entry into Tokugawa scholarly reading."
+figure_id: plates.gangmu-1603-spread-2
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Hayashi Razan and the arrival of the Gangmu
+
+<!-- eahp-figure:v1 -->
+<figure class="eahp-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Compendium_of_Materia_Medica_%281603%29_2.jpg" alt="1603 Bencao gangmu pages imported into Japanese reading" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> 1603 gangmu pages — Hayashi Razan’s introduction of the Bencao gangmu to Japanese scholarly reading in 1607 sits in a print culture this spread represents. <em>Rights:</em> Public domain (PD-old); Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:Compendium_of_Materia_Medica_(1603)_2.jpg">source</a>. 1603 Compendium of Materia Medica woodblock pages.</figcaption>
+</figure>
+
 
 In 1607, in the ordinary telling, Hayashi Razan 林羅山 — Neo-Confucian fixer of the early Tokugawa world — is the name attached to the *Bencao gangmu*’s official introduction into Japan. I was not at the dock. Marcon’s account, which I trust more than a plaque, treats that year as the start of a **textual institution**: demand immediately outruns Ming imports, Kyoto printers begin to recut (Noda Yajiemon in 1637 is the first local reprint Marcon names), and then a cascade — 1653 with reading marks, 1659 with new pictures, Matsushita Kenrin 1669/1672, Kaibara associated with an edit, Inō Jakusui’s annotated version 1714, and a long tail of abridgements and glossaries, including Razan’s own *Tashikihen*.
 

@@ -10,9 +10,20 @@ jurisdictions: [china]
 period: ming
 claims_guard: strict
 voice: essay
+meta_description: "Jinling, Jiangxi, and the late-Ming print geography of Li Shizhen’s Bencao gangmu."
+figure_id: plates.gangmu-1603-spread-1
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Jinling, Jiangxi, and the 1596 story
+
+<!-- eahp-figure:v1 -->
+<figure class="eahp-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/65/Compendium_of_Materia_Medica_%281603%29_1.jpg" alt="Jinling and Jiangxi line Bencao gangmu 1603 woodblock spread" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> 1603 Jiangxi-line spread — Jinling (Wanli-era) and Jiangxi recuts are the edition fight this draft tracks; the page is evidence of print, not of clinical authority today. <em>Rights:</em> Public domain (PD-old; Ming woodblock); Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:Compendium_of_Materia_Medica_(1603)_1.jpg">source</a>. 1603 Jiangxi-line recut of Li Shizhen’s Bencao gangmu; digitized on Wikimedia Commons.</figcaption>
+</figure>
+
 
 English Wikipedia-prose and a hundred popular books will tell you the *Bencao gangmu* was “published in 1596.” That date has done a lot of work. It may still appear in this collection if I slip. The better story, the one Chinese bibliographic work and the Memory of the World file both point at, is a **first cut at Jinling in Wanli 21, 1593**, associated with the printer Hu Chenglong 胡承龍 (you will also see 胡成龍), and a **better-looking official recut in Jiangxi in Wanli 31, 1603**, associated with Xia Liangxin and Zhang Dingsi, after which most later editions run.
 

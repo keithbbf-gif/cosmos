@@ -10,9 +10,20 @@ jurisdictions: [east-asia]
 period: method
 claims_guard: strict
 voice: essay
+meta_description: "Why East Asian materia medica traditions are related in script and citation but not one pipeline from Shennong to modern pharmacopeias."
+figure_id: plates.ming-trifoliate-wellcome
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Tradition is not a pipeline
+
+<!-- eahp-figure:v1 -->
+<figure class="eahp-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Bencao_Gangmu_--_Ming_materia_medica%2C_Trifoliate_orange%2C_etc._Wellcome_L0039330.jpg" alt="Ming materia medica color illustration of trifoliate orange and related plants" width="1200" height="1600" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Ming plate in the Bencao gangmu illustration tradition (trifoliate orange and related items). Transmission between China, Japan, and Korea is argued in text, not assumed from a shared picture style. <em>Rights:</em> CC BY 4.0; Wellcome Collection; <a href="https://commons.wikimedia.org/wiki/File:Bencao_Gangmu_--_Ming_materia_medica,_Trifoliate_orange,_etc._Wellcome_L0039330.jpg">source</a>. Ming Bencao gangmu–line plate (trifoliate orange and related); Wellcome L0039330.</figcaption>
+</figure>
+
 
 The sentence I am trying to kill is this one: *Chinese medicine spread to Korea and Japan, where it was preserved and developed.* You can find a version of it in tourist museums and in papers that should know better. It has a direction, a substance, and a moral. Knowledge originates, travels, is kept, is improved. The books in this collection do not behave like that.
 

@@ -10,9 +10,20 @@ jurisdictions: [china]
 period: tang-adjacent
 claims_guard: strict
 voice: essay
+meta_description: "Food, tribute, and materia medica on the road to the Tang court’s pharmaceutical projects."
+figure_id: plates.wen-shu-copy-plate
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Food as drug, and the edge of the list
+
+<!-- eahp-figure:v1 -->
+<figure class="eahp-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Depictions_of_Metals%2C_Minerals%2C_Insects_and_Plants_WDL7117.jpg" alt="Qing painting copying metals, minerals, insects, and plants after materia medica models" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Wen Shu’s Jin shi kun chong cao mu zhuang (Library of Congress WDL) copies earlier materia medica models — evidence of how pictures travel as arguments across centuries. <em>Rights:</em> Public domain; Library of Congress (WDL) via Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:Depictions_of_Metals,_Minerals,_Insects_and_Plants_WDL7117.jpg">source</a>. Wen Shu, Jin shi kun chong cao mu zhuang (depictions after materia medica models); WDL.</figcaption>
+</figure>
+
 
 A *bencao* is never only herbs. Grain, fruit, meat, salt, water, a distilled liquor, a fermented paste — they keep walking into the list as if the list had no door. That is not a confusion. It is a theory of stuff. If the world is made of things with taste and qi, then supper and medicine share a metaphysics. The upper-grade fantasy in draft 07 (the thing you can live on) is a food fantasy wearing a pharmaceutical hat.
 

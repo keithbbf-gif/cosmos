@@ -10,9 +10,20 @@ jurisdictions: [china]
 period: song
 claims_guard: strict
 voice: essay
+meta_description: "Tang Shenwei and the Zhenglei bencao recensions that Ming readers actually opened."
+figure_id: plates.ming-trifoliate-wellcome
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Zhenglei bencao: a private encyclopedia the state later ate
+
+<!-- eahp-figure:v1 -->
+<figure class="eahp-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Bencao_Gangmu_--_Ming_materia_medica%2C_Trifoliate_orange%2C_etc._Wellcome_L0039330.jpg" alt="Ming color plate of trifoliate orange from Bencao gangmu illustration line" width="1200" height="1600" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Trifoliate orange plate from the Ming Bencao gangmu illustration line — Tang Shenwei’s Zhenglei bencao is the private encyclopedia that carried such pictures into everyday Ming use. <em>Rights:</em> CC BY 4.0; Wellcome Collection; <a href="https://commons.wikimedia.org/wiki/File:Bencao_Gangmu_--_Ming_materia_medica,_Trifoliate_orange,_etc._Wellcome_L0039330.jpg">source</a>. Ming Bencao gangmu–line plate (trifoliate orange and related); Wellcome L0039330.</figcaption>
+</figure>
+
 
 Tang Shenwei 唐慎微 was not, in the story that has come down, a court compiler. He was a physician, usually placed in Sichuan, who gathered other people’s books until his own book became the book. The title that later people shorten to *Zhenglei bencao* 證類本草 has longer official-looking skins — *Jingshi zhenglei beiji bencao* and the Daguan, Zhenghe, Shaoxing names that mark recensions and reigns. I will say *Zhenglei* for the family and name a recension when I am talking about a particular print.
 

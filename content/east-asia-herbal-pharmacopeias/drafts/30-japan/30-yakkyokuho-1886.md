@@ -10,9 +10,20 @@ jurisdictions: [japan]
 period: meiji-to-20c
 claims_guard: strict
 voice: essay
+meta_description: "Nihon yakkyokuhō (1886): Meiji Japan’s first legal pharmacopeia and the break from honzō books."
+figure_id: plates.gangmu-1603-spread-1
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # The Japanese Pharmacopoeia of 1886 and the long exile of Kampo
+
+<!-- eahp-figure:v1 -->
+<figure class="eahp-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/65/Compendium_of_Materia_Medica_%281603%29_1.jpg" alt="East Asian materia medica woodblock pages before Meiji pharmacopeia" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Pre-Meiji woodblock spread — the Nihon yakkyokuhō (1886) replaces this bookish world with a ministry monograph list; the image is the old object, not the 1886 statute. <em>Rights:</em> Public domain (PD-old; Ming woodblock); Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:Compendium_of_Materia_Medica_(1603)_1.jpg">source</a>. 1603 Jiangxi-line recut of Li Shizhen’s Bencao gangmu; digitized on Wikimedia Commons.</figcaption>
+</figure>
+
 
 On 25 June 1886 the Naimushō issued Ordinance No. 10 and published, as an official gazette extra, the first *Nihon yakkyokuhō* 日本薬局方. It took effect on 1 July 1887. The PMDA’s historical pamphlet and the older *Kotobank* legal-history entries agree on those bureaucratic dates. I will keep them. This is, at last, a pharmacopeia in the sense draft 01 started with: a legal standard a state can point at.
 

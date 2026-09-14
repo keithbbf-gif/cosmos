@@ -10,9 +10,20 @@ jurisdictions: [east-asia]
 period: comparative
 claims_guard: strict
 voice: essay
+meta_description: "Pictures that argue in bencao, tujing, and later pharmacopeia illustration traditions."
+figure_id: plates.gangmu-plate-insects
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Pictures that argue
+
+<!-- eahp-figure:v1 -->
+<figure class="eahp-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/Bencao_Gangmu_33-36.jpg" alt="Herbal picture plate where image argues for plant identity" width="1200" height="1600" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Picture plate from a bencao copy-chain — illustrations argue that a name has a visible form; they are claims that need citations, not substitutes for them. <em>Rights:</em> Public domain (PD-old); Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:Bencao_Gangmu_33-36.jpg">source</a>. Circa 1800 copy after Li Shizhen’s Bencao gangmu; insect and plant plate spread.</figcaption>
+</figure>
+
 
 I used to think of *bencao* pictures as illustrations, which is already a modern word: something that makes a text easier. The pictures in this collection are closer to **arguments**. They argue that a name has a face. They argue that the face can travel. They argue, sometimes, that the painter has seen the thing, and sometimes that the painter has seen the last painter.
 

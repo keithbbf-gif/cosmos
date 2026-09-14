@@ -10,9 +10,20 @@ jurisdictions: [east-asia]
 period: comparative
 claims_guard: strict
 voice: essay
+meta_description: "Poison, dose language, and upper/lower drugs in official East Asian materia medica."
+figure_id: plates.ming-cinnabar-wellcome
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Poison, dose, and the upper-drug problem
+
+<!-- eahp-figure:v1 -->
+<figure class="eahp-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/14/Chinese_Materia_Medica_illustration%2C_Ming%3B_Cinnabar_Wellcome_L0039300.jpg" alt="Ming illustration of cinnabar — toxic drug in historical literature" width="1200" height="1600" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Cinnabar plate — aconite and cinnabar appear in lower-grade and mineral chapters; historical presence documents textual classification, not safe use. <em>Rights:</em> CC BY 4.0; Wellcome Collection; <a href="https://commons.wikimedia.org/wiki/File:Chinese_Materia_Medica_illustration,_Ming;_Cinnabar_Wellcome_L0039300.jpg">source</a>. Ming illustration for cinnabar; Wellcome L0039300.</figcaption>
+</figure>
+
 
 The three-grade machine (draft 07) wants a world in which the highest things are almost food and the lowest things are almost weapons. Clinics, if the later literature is any guide, do not live in that world. They live in a world where a “low” drug is the one you need and a “high” drug can still ruin a body. I am not going to prove that with case records. I am going to say that **the books know about danger and they do not always put danger where the moral scale puts it**.
 

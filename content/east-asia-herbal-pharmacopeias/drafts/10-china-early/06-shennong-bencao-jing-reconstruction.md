@@ -10,9 +10,20 @@ jurisdictions: [china]
 period: han-to-reconstruction
 claims_guard: strict
 voice: essay
+meta_description: "Reconstructing the Shennong bencao jing from later quotations: what scholars can and cannot prove about a Han original."
+figure_id: plates.ming-cinnabar-wellcome
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # The Shennong bencao jing reconstruction problem
+
+<!-- eahp-figure:v1 -->
+<figure class="eahp-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/14/Chinese_Materia_Medica_illustration%2C_Ming%3B_Cinnabar_Wellcome_L0039300.jpg" alt="Ming illustration of cinnabar mineral drug in Chinese materia medica style" width="1200" height="1600" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Ming illustration for cinnabar (vermilion ore) in a materia medica set. Historical texts classified and depicted substances; they did not perform modern toxicology. <em>Rights:</em> CC BY 4.0; Wellcome Collection; <a href="https://commons.wikimedia.org/wiki/File:Chinese_Materia_Medica_illustration,_Ming;_Cinnabar_Wellcome_L0039300.jpg">source</a>. Ming illustration for cinnabar; Wellcome L0039300.</figcaption>
+</figure>
+
 
 There is no Han-period copy of the *Shennong bencao jing* 神農本草經 on anyone’s desk. What we have is a classic that later people assembled from other people’s quotations, and then printed, annotated, and taught as if the assembly were a recovery. I do not say that to be clever. I say it because almost every popular sentence about “the oldest Chinese pharmacopeia” is a sentence about this reconstructed object, and the reconstruction has a history of its own.
 

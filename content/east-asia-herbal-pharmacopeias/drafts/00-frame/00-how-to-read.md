@@ -10,9 +10,20 @@ jurisdictions: [east-asia]
 period: method
 claims_guard: strict
 voice: essay
+meta_description: "How to read the East Asian herbal pharmacopeia drafts: method, limits, and claims-guarded history of bencao, honzō, and hyangyak books."
+figure_id: plates.ming-contents-wellcome
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # How to read these drafts
+
+<!-- eahp-figure:v1 -->
+<figure class="eahp-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Chinese_materia_medica_%28Ming%29%2C_.Contents_page_Wellcome_L0039454.jpg" alt="Ming-era Chinese materia medica contents page in vertical script" width="1200" height="1600" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Contents page from a Ming materia medica manuscript in the Wellcome Collection — a map of how a pharmacopeia-shaped book announces its rooms before the reader reaches any single drug. <em>Rights:</em> CC BY 4.0; Wellcome Collection; <a href="https://commons.wikimedia.org/wiki/File:Chinese_materia_medica_(Ming),_.Contents_page_Wellcome_L0039454.jpg">source</a>. Ming materia medica contents page; Wellcome Collection L0039454.</figcaption>
+</figure>
+
 
 I would rather you put this file down after four pages than treat the folder as a closed history. The forty-five essays that follow are staged drafts. They argue. They guess in public. They leave joints visible. That is the point of staging them instead of polishing them into a single voice that sounds sure.
 

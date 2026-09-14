@@ -10,9 +10,20 @@ jurisdictions: [korea]
 period: joseon
 claims_guard: strict
 voice: essay
+meta_description: "Donguibogam: Heo Jun, Seonjo’s court, and the 1613 Naeuiwon print."
+figure_id: plates.donguibogam-cover
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Donguibogam: encyclopedia, not just a drug list
+
+<!-- eahp-figure:v1 -->
+<figure class="eahp-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/77/Dongibogam.jpg" alt="Donguibogam UNESCO Memory of the World Korean medical encyclopedia" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Donguibogam opening — Heo Jun’s royal commission (printed 1613) is a Joseon encyclopedia; UNESCO files document holdings, not clinical efficacy. <em>Rights:</em> CC BY-SA 3.0; Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:Dongibogam.jpg">source</a>. Donguibogam (Tongui bogam) cover or opening.</figcaption>
+</figure>
+
 
 *Donguibogam* 東醫寶鑑 is the Korean book the world has been asked to remember. UNESCO put it on the Memory of the World Register in 2009. The National Library of Korea holds a first printing. The Library of Congress has a record that says Seoul, Royal Hospital, 1613. The nomination file says Heo Jun 許浚 finished the editorial work in 1610 and the Naeuiwon printed it in 1613 with movable wooden type, twenty-five volumes, five parts after two contents volumes. I will use **compiled under royal order, completed about 1610, printed 1613**. I will treat UNESCO’s adjectives as adjectives.
 

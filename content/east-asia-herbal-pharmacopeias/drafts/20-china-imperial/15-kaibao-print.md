@@ -10,9 +10,20 @@ jurisdictions: [china]
 period: northern-song
 claims_guard: strict
 voice: essay
+meta_description: "Kaibao bencao and Song official printing of materia medica in the tenth century."
+figure_id: plates.gangmu-1603-spread-2
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Kaibao: print arrives
+
+<!-- eahp-figure:v1 -->
+<figure class="eahp-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Compendium_of_Materia_Medica_%281603%29_2.jpg" alt="1603 Bencao gangmu woodblock pages" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> 1603 printed pages from the Bencao gangmu line — the Kaibao bencao (973/974) began the Song official print story this spread continues as bibliography, not as the Kaibao itself. <em>Rights:</em> Public domain (PD-old); Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:Compendium_of_Materia_Medica_(1603)_2.jpg">source</a>. 1603 Compendium of Materia Medica woodblock pages.</figcaption>
+</figure>
+
 
 The Song does not find the Tang book and reprint it. The Song does something more arrogant and more useful: it orders a new official *bencao* and sends it to woodblocks. The reign-title in the name is Kaibao. The years in the usual story are 973 for the first cut and 974 for a revision. The men named around the work include the imperial physician Liu Han, the Daoist Ma Zhi, and a cluster of medical officials; a second-year pass adds more drugs and more reviewing names (Lu Duosun, Li Fang, and others in the handbook list). I am repeating a preface-tradition, not a payroll I have audited.
 

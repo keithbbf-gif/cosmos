@@ -10,9 +10,20 @@ jurisdictions: [china]
 period: ming
 claims_guard: strict
 voice: essay
+meta_description: "Li Shizhen without monument mythology: dates, family labor, and the Bencao gangmu as workshop encyclopedia."
+figure_id: plates.gangmu-1603-spread-1
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Li Shizhen without the statue
+
+<!-- eahp-figure:v1 -->
+<figure class="eahp-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/65/Compendium_of_Materia_Medica_%281603%29_1.jpg" alt="1603 Compendium of Materia Medica woodblock opening" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> 1603 opening spread of the Bencao gangmu — read Li Shizhen through the workshop colophon and print, not through a modern bronze statue. <em>Rights:</em> Public domain (PD-old; Ming woodblock); Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:Compendium_of_Materia_Medica_(1603)_1.jpg">source</a>. 1603 Jiangxi-line recut of Li Shizhen’s Bencao gangmu; digitized on Wikimedia Commons.</figcaption>
+</figure>
+
 
 There is a statue, and it has done damage. The man on it is Li Shizhen 李時珍, “the greatest physician-pharmacologist,” the one who walked the mountains and wrote the encyclopedia and died just as the blocks were cut. Needham’s praise sits behind some of the plaques. UNESCO’s file sits behind others. I am going to write about a person who is smaller and more interesting than the statue.
 

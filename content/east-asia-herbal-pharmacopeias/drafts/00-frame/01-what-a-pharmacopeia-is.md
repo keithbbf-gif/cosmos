@@ -10,9 +10,20 @@ jurisdictions: [east-asia]
 period: method
 claims_guard: strict
 voice: essay
+meta_description: "What counts as a pharmacopeia in East Asia: court bencao, private encyclopedias, and later ministry codes compared without clinical advice."
+figure_id: plates.gangmu-1603-spread-1
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # What a pharmacopeia is, and is not, in East Asia
+
+<!-- eahp-figure:v1 -->
+<figure class="eahp-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/65/Compendium_of_Materia_Medica_%281603%29_1.jpg" alt="1603 woodblock spread from the Compendium of Materia Medica (Bencao gangmu)" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Printed opening from a 1603 Jiangxi-line recut of Li Shizhen’s Bencao gangmu — a late-Ming state of the art in classified materia medica, not a modern legal pharmacopeia. <em>Rights:</em> Public domain (PD-old; Ming woodblock); Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:Compendium_of_Materia_Medica_(1603)_1.jpg">source</a>. 1603 Jiangxi-line recut of Li Shizhen’s Bencao gangmu; digitized on Wikimedia Commons.</figcaption>
+</figure>
+
 
 A modern pharmacopeia is a legal instrument. It tells a manufacturer, an inspector, and sometimes a court what a named article must be: identity, purity, assay, storage, a method that can fail. The Japanese *Nihon yakkyokuhō* of 1886 was built to be that kind of book. So were the Republican *Zhonghua yaodian* of 1930 and the later national codes in Beijing and Seoul. If you come to this collection from USP or Ph. Eur., those are the objects you already know.
 

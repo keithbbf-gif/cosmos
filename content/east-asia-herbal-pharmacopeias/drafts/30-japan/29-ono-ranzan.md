@@ -10,9 +10,20 @@ jurisdictions: [japan]
 period: edo
 claims_guard: strict
 voice: essay
+meta_description: "Ono Ranzan and late Edo honzō scholarship after Kaibara Ekiken."
+figure_id: plates.ming-plant-drugs-c17-wellcome
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Ono Ranzan and the field as commentary
+
+<!-- eahp-figure:v1 -->
+<figure class="eahp-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Chinese_Materia_medica%2C_C17%3B_Plant_drugs%2C_Wellcome_L0039345.jpg" alt="17th-century East Asian plant-drug illustration sheet" width="1200" height="1600" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Plant-drug sheet — Ono Ranzan’s Honzō kōmoku keimō (1803–1806) belongs to the same picture-heavy Edo moment as surviving illustrated materia medica pages. <em>Rights:</em> CC BY 4.0; Wellcome Collection; <a href="https://commons.wikimedia.org/wiki/File:Chinese_Materia_medica,_C17;_Plant_drugs,_Wellcome_L0039345.jpg">source</a>. 17th-century Chinese plant-drug sheet; Wellcome L0039345.</figcaption>
+</figure>
+
 
 Ono Ranzan 小野蘭山 (1729–1810), born Ono Motohiro, art-name Ranzan, is the Edo naturalist later people called “the Japanese Linnaeus.” I will use the comparison once, to retire it. Linnaeus is a Swedish professor with a naming system that wants to travel without a Chinese encyclopedia. Ranzan is a Kyoto-trained *honzō* man who ends up at the shogunate’s medical school in Edo and titles his life’s book *Honzō kōmoku keimō* 本草綱目啓蒙 — a clarification, dictated, of the *Gangmu*. The field, in his practice, is a way of commenting on a book. That is stranger and more interesting than a nickname.
 

@@ -10,9 +10,20 @@ jurisdictions: [china]
 period: ming
 claims_guard: strict
 voice: essay
+meta_description: "Bencao pinhui jingyao (1505): Ming official color herbal completed but not promulgated like a modern code."
+figure_id: plates.ming-plant-drugs-c17-wellcome
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # The Ming album that stayed in the palace
+
+<!-- eahp-figure:v1 -->
+<figure class="eahp-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Chinese_Materia_medica%2C_C17%3B_Plant_drugs%2C_Wellcome_L0039345.jpg" alt="17th-century Chinese plant-drug illustration sheet from Wellcome Collection" width="1200" height="1600" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Seventeenth-century plant-drug sheet — Liu Wentai’s Bencao pinhui jingyao (1505) was an official color herbal that court politics kept from wide print; later copies carry its visual ambition. <em>Rights:</em> CC BY 4.0; Wellcome Collection; <a href="https://commons.wikimedia.org/wiki/File:Chinese_Materia_medica,_C17;_Plant_drugs,_Wellcome_L0039345.jpg">source</a>. 17th-century Chinese plant-drug sheet; Wellcome L0039345.</figcaption>
+</figure>
+
 
 In 1505, the last year of the Hongzhi emperor, a team at the Imperial Academy of Medicine finished a book the court had ordered. The title is *Bencao pinhui jingyao* 本草品彙精要 — essentials of materia medica, arranged. The lead name is Liu Wentai 劉文泰. The painters include Wang Shichang and a small group of court hands. The book is large: forty-two *juan* in the usual description, on the order of 1,800 substances, well over a thousand color pictures. It is the only official Ming *bencao* in the ordinary telling, and the last official one of the imperial series before the modern codes. And then it does not print.
 

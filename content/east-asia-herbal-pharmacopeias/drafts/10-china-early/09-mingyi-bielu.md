@@ -10,9 +10,20 @@ jurisdictions: [china]
 period: six-dynasties
 claims_guard: strict
 voice: essay
+meta_description: "Mingyi bielu and supplementary drug literature outside the core Shennong list in early Chinese pharmaceutics."
+figure_id: plates.ming-mallow-wellcome
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Mingyi bielu and the extra drugs
+
+<!-- eahp-figure:v1 -->
+<figure class="eahp-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Chinese_Materia_Medica_illustration%2C_Ming%3B_Cluster_mallow_Wellcome_L0039309.jpg" alt="Ming illustration of cluster mallow plant in Chinese materia medica style" width="1200" height="1600" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Cluster mallow plate from a Ming materia medica set — an extra-drug world like the Mingyi bielu line lives in names and omissions as much as in a single picture. <em>Rights:</em> CC BY 4.0; Wellcome Collection; <a href="https://commons.wikimedia.org/wiki/File:Chinese_Materia_Medica_illustration,_Ming;_Cluster_mallow_Wellcome_L0039309.jpg">source</a>. Ming cluster mallow plate; Wellcome L0039309.</figcaption>
+</figure>
+
 
 Beside the short classic, the early *bencao* world had a second pile: extra records, later names, things “famous physicians” had used that the old list had not bothered to keep. The title that gathers that pile is *Mingyi bielu* 名醫別錄 — supplementary records of famous physicians. It is usually tied to Tao Hongjing’s workshop, sometimes described as a work he compiled, sometimes as a body of material he used. I am not going to pretend those are the same statement.
 

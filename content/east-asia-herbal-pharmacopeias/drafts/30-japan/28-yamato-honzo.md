@@ -10,9 +10,20 @@ jurisdictions: [japan]
 period: edo
 claims_guard: strict
 voice: essay
+meta_description: "Kaibara Ekiken’s Yamato honzō: local plants, Chinese titles, and Edo pictures."
+figure_id: plates.yamato-honzo-page
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Kaibara Ekiken's Yamato honzō
+
+<!-- eahp-figure:v1 -->
+<figure class="eahp-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Yamato_Honzo.jpg" alt="Yamato honzō printed page with Japanese plant names" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Yamato honzō page — Kaibara Ekiken’s text (1708/1709) and later picture volumes argue which items are Yamato honzō versus Chinese imports. <em>Rights:</em> Public domain; Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:Yamato_Honzo.jpg">source</a>. Page from Kaibara Ekiken’s Yamato honzō tradition.</figcaption>
+</figure>
+
 
 Kaibara Ekiken 貝原益軒 (1630–1714), Fukuoka domain, Zhu Xi Confucian, writer of too many books, is the name on *Yamato honzō* 大和本草. The text is finished, in the usual account, in Hōei 5 (1708) and printed in 1709; the picture *juan* wait until 1715. Kyoto University’s copy notes those years on the prefaces and on the plates. I will use **1709/1715** as the public life of the book.
 

@@ -10,9 +10,20 @@ jurisdictions: [korea]
 period: joseon
 claims_guard: strict
 voice: essay
+meta_description: "Uibang yuchwi (1445/1477): Joseon royal medical encyclopedia and collation politics."
+figure_id: plates.donguibogam-page-en
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Uibang yuchwi: the giant that waited
+
+<!-- eahp-figure:v1 -->
+<figure class="eahp-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Donguibogam_%28one_page_of_one_book%29.jpg" alt="Donguibogam encyclopedia page with Korean and Chinese medical text" width="1200" height="1600" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Donguibogam page — Uibang yuchwi (finished 1445) is the larger royal collation whose materia medica rooms this print culture later summarizes. <em>Rights:</em> CC BY-SA 4.0; Wikimedia Commons (contributor scan); <a href="https://commons.wikimedia.org/wiki/File:Donguibogam_(one_page_of_one_book).jpg">source</a>. Donguibogam printed page scan.</figcaption>
+</figure>
+
 
 In the same Sejong world that printed a local-herb standard, the court also built a monster that faced the other way. *Uibang yuchwi* 醫方類聚 — classified collection of medical prescriptions — is, in the usual account, finished in 1445 in hundreds of *gwon* (365 is the number that travels) and then not printed until 1477, after a collation so punitive that later historians mention seventy-odd officials punished and others rewarded. The printed shape is given as 266 *juan* in 87 sections. I have not audited either number. I have read the same story in more than one handbook. The story I trust is not the digits. It is the **wait**.
 

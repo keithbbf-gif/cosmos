@@ -10,9 +10,20 @@ jurisdictions: [japan]
 period: kamakura-muromachi
 claims_guard: strict
 voice: essay
+meta_description: "Medieval and early Edo honzō literature between Chinese citation and local naming."
+figure_id: plates.yamato-honzo-page
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Medieval honzō, temples, and the court
+
+<!-- eahp-figure:v1 -->
+<figure class="eahp-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Yamato_Honzo.jpg" alt="Printed page from Yamato honzō Japanese materia medica" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Page from the Yamato honzō line associated with Kaibara Ekiken — Edo readers compare Chinese faces on the page to plants on Japanese mountains. <em>Rights:</em> Public domain; Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:Yamato_Honzo.jpg">source</a>. Page from Kaibara Ekiken’s Yamato honzō tradition.</figcaption>
+</figure>
+
 
 Between *Ishinpō* and the Edo *Gangmu* factory there is a long stretch that popular timelines skip. I almost skipped it too. That would have been a pipeline trick: Heian classics, then Tokugawa science. The medieval centuries are thinner in the sources I had time to read, and I will not fill the thinness with atmosphere. I will name the problem of the stretch.
 

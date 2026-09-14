@@ -10,9 +10,20 @@ jurisdictions: [china]
 period: han-to-medieval
 claims_guard: strict
 voice: essay
+meta_description: "Upper, middle, and lower drug grades in early bencao as a classification machine, without dosing or treatment claims."
+figure_id: plates.gangmu-mineral-panel
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Upper, middle, lower: classification as a moral machine
+
+<!-- eahp-figure:v1 -->
+<figure class="eahp-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Mineral-drugs-from-Li-Shizhen-Bencao-Gangmu.png" alt="Mineral drug illustrations from the Bencao gangmu tradition" width="722" height="899" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Mineral-drug panel from the Bencao gangmu illustration tradition — upper, middle, and lower grades in the literature were moral and administrative categories, not modern safety tiers. <em>Rights:</em> Public domain; Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:Mineral-drugs-from-Li-Shizhen-Bencao-Gangmu.png">source</a>. Mineral-drug illustrations from Bencao gangmu tradition.</figcaption>
+</figure>
+
 
 The reconstructed *Shennong* text, and the books that grow out of it, do not open with chemistry. They open with a social metaphysic of stuff. Substances are *shangpin* 上品, *zhongpin* 中品, *xiapin* 下品 — upper, middle, lower. The usual gloss, the one that gets printed on museum cards, is roughly this: upper drugs nourish life and can be taken for a long time; middle drugs treat illness and have a double edge; lower drugs attack the disease hard and are not to be taken long. I am paraphrasing a later teaching voice, not quoting a Han manuscript. Even as paraphrase it is already a machine for ranking the world.
 

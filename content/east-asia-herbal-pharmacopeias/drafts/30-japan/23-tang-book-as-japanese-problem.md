@@ -10,9 +10,20 @@ jurisdictions: [japan]
 period: asuka-heian
 claims_guard: strict
 voice: essay
+meta_description: "Tang materia medica as a Japanese problem: citation, shortage, and kundoku reading."
+figure_id: plates.ishinpo-ninnaji
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # How a Tang book became a Japanese problem
+
+<!-- eahp-figure:v1 -->
+<figure class="eahp-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Ishinpo_Ninnaji.jpg" alt="Manuscript page from Ishinpō Ninna-ji line Japanese medical text" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Ishinpō manuscript page (Ninna-ji line) — Japan receives Tang materia medica as a foreign library problem before Edo naturalists rename plants locally. <em>Rights:</em> Public domain; Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:Ishinpo_Ninnaji.jpg">source</a>. Ishinpō manuscript page, Ninna-ji line.</figcaption>
+</figure>
+
 
 The first Japanese problem in this collection is not “how to invent a pharmacopeia.” It is **how to live with a Chinese official book that names drugs the islands may not grow**. That problem is older than the surviving Japanese titles. It is already there when Tang medical culture — people, texts, Buddhist networks, Korean intermediaries — becomes something a Japanese court office has to staff.
 

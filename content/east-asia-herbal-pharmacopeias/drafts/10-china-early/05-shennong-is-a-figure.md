@@ -10,9 +10,20 @@ jurisdictions: [china]
 period: legendary-to-han
 claims_guard: strict
 voice: essay
+meta_description: "Shennong as culture hero and legendary byline on the Shennong bencao jing, without treating myth as authorship."
+figure_id: plates.shennong-woodcut-wellcome
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Shennong is a figure, not a byline
+
+<!-- eahp-figure:v1 -->
+<figure class="eahp-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Chinese_woodcut%2C_Famous_medical_figures%3B_Shen_Nong_Wellcome_L0039313.jpg" alt="Ming woodcut of the culture hero Shen Nong from a pharmacopeia portrait series" width="1200" height="1600" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Legendary culture hero Shen Nong in a Ming-period woodcut from the Bencao mengquan portrait series — legendary attribution on a title page, not evidence of a Han author with a camera. <em>Rights:</em> Public domain mark (Wellcome); Wellcome Collection; <a href="https://commons.wikimedia.org/wiki/File:Chinese_woodcut,_Famous_medical_figures;_Shen_Nong_Wellcome_L0039313.jpg">source</a>. Ming-period woodcut of the culture hero Shen Nong from Bencao mengquan series; legendary attribution, not a portrait photograph.</figcaption>
+</figure>
+
 
 If you walk through a Chinese pharmacy museum you will meet a man with a horned brow and a handful of grasses. Labels will say he tasted a hundred herbs and gave medicine to the people, and that he lived in some round-numbered millennium BCE. The man is Shennong 神農, the Divine Farmer. He is one of the culture-heroes who make agriculture, fire, markets, or writing look like gifts instead of arguments. He is not a historical author. I need that sentence early, because a book titled *Shennong bencao jing* will otherwise start this collection as if a Bronze Age farmer had a desk.
 

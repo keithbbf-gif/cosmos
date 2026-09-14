@@ -10,9 +10,20 @@ jurisdictions: [china]
 period: qing
 claims_guard: strict
 voice: essay
+meta_description: "Zhao Xuemin and Bencao gangmu shiyi: Qing supplement literature after Li Shizhen’s encyclopedia."
+figure_id: plates.gangmu-plate-insects
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Zhao Xuemin and the leftover drugs
+
+<!-- eahp-figure:v1 -->
+<figure class="eahp-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/Bencao_Gangmu_33-36.jpg" alt="Later copy plate after Bencao gangmu with plants and insects" width="1200" height="1600" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Later copy plate — Zhao Xuemin’s Bencao gangmu shiyi (1765) picks up omissions from a book already circulating with pictures like this chain. <em>Rights:</em> Public domain (PD-old); Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:Bencao_Gangmu_33-36.jpg">source</a>. Circa 1800 copy after Li Shizhen’s Bencao gangmu; insect and plant plate spread.</figcaption>
+</figure>
+
 
 Li Shizhen’s machine was never going to be the last page. The title that admits this is again *shiyi* — a picking-up of what was left. Zhao Xuemin 趙學敏, a Qing figure usually dated by his activity in the later eighteenth century rather than by a tidy birth year, writes *Bencao gangmu shiyi* 本草綱目拾遺. The year you will see on the finished work is 1765. He Bian’s 2017 article is the reason I will not treat Zhao as a lone rustic who “added 900 drugs.”
 

@@ -10,9 +10,20 @@ jurisdictions: [china]
 period: northern-dynasties-to-tang
 claims_guard: strict
 voice: essay
+meta_description: "Food as drug in early Chinese materia medica and the road toward Tang court pharmacopeia projects."
+figure_id: plates.ming-honey-wellcome
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Why a court needed a book
+
+<!-- eahp-figure:v1 -->
+<figure class="eahp-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Chinese_Materia_Medica_illustration%2C_Ming%3B_Sichuan_honey_Wellcome_L0039305.jpg" alt="Ming illustration labeled Sichuan honey in a materia medica series" width="1200" height="1600" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Sichuan honey in a Ming materia medica illustration — food and drug share a shelf in many East Asian books; the image shows classification, not a nutrition recommendation. <em>Rights:</em> CC BY 4.0; Wellcome Collection; <a href="https://commons.wikimedia.org/wiki/File:Chinese_Materia_Medica_illustration,_Ming;_Sichuan_honey_Wellcome_L0039305.jpg">source</a>. Ming materia medica illustration, Sichuan honey; Wellcome L0039305.</figcaption>
+</figure>
+
 
 A private editor can live with a corrupt classic. A court that runs an Imperial Medical Office, a Palace Drug Service, and a tribute pipeline cannot — or tells itself it cannot. The road to the *Xinxiu bencao* of 659 starts before Su Jing’s memorial. It starts in the northern and southern dynasties’ habit of treating medicine as something a state already staffs.
 
