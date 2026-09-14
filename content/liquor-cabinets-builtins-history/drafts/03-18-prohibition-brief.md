@@ -13,6 +13,11 @@ topics: [prohibition, 1920, 1933, concealment]
 sequence_after: lcbh-03-17
 ---
 
+<figure>
+  <img src="../assets/prohibition-speakeasy-door.jpg" alt="Prohibition museum display of a speakeasy entrance door" width="1920" height="2560" loading="lazy" decoding="async" />
+  <figcaption>1920–1933 is a dated legal brief—furniture responded, but do not claim every bookcase hid bottles. Myotus / <a href="https://commons.wikimedia.org/wiki/File:Speakeasy_door,_American_Prohibition_Museum-011.jpg">CC BY 4.0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 January 17, 1920. The Eighteenth Amendment is at work. The Volstead Act is at work. Manufacture, sale, transportation of intoxicating liquor for beverage purposes — I am not your lawyer, I am giving you the civic weather. December 5, 1933. The Twenty-first Amendment is certified. Roosevelt proclaims the repeal that day. Thirteen years, give or take the last morning.
 
 What does that weather do to a cabinetmaker.

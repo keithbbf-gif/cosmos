@@ -13,6 +13,11 @@ topics: [shop, refrigeration, ventilation, ice]
 sequence_after: lcbh-06-39
 ---
 
+<figure>
+  <img src="../assets/hearst-castle-kitchen-builtins.jpg" alt="Integrated refrigerator surrounded by matching kitchen cabinetry" width="1920" height="1272" loading="lazy" decoding="async" />
+  <figcaption>Undercounter refrigeration is a ventilated appliance, not a drawer box—read the cut sheet. Scott Dexter / <a href="https://commons.wikimedia.org/wiki/File:Kitchen_Refrigerator_Cupboards_Counters_-_Hearst_Castle_South_Wing.jpg">CC BY-SA 2.0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 A fridge is not a drawer.
 
 It is a machine that moves heat. The heat has to go somewhere. If you hide the somewhere, the machine cooks itself and then the wood, and then the phone rings and my name is on the door.

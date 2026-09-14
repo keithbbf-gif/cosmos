@@ -13,6 +13,11 @@ topics: [repeal, 1933, cocktail-culture, hospitality]
 sequence_after: lcbh-03-20
 ---
 
+<figure>
+  <img src="../assets/four-seasons-serving-cart.jpg" alt="Restaurant serving cart with glass and bottles staged for table service" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption>After repeal, home mixing needed homework—mobile carts and fitted cases answered the same brief. Terry Fox Baum / <a href="https://commons.wikimedia.org/wiki/File:The_Four_Seasons_Serving_Cart_03.JPG">CC BY-SA 4.0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 December 5, 1933. The Twenty-first Amendment has the states it needs. Roosevelt puts it in a proclamation. The Eighteenth is gone. I am not going to do the movie version with a street full of jazz. I was not there. Neither were you. What I can do is name the furniture problem that starts the next morning.
 
 The bottle is allowed to be in the room again without a legal costume. The host is allowed to be seen mixing. Mixing is homework. It has tools. It has a sequence. It has an audience if the living room is the living room. The cocktail cabinet we just talked about is the furniture answer. So is a tray. So is a table you already owned. Not every house bought a Deco machine on December 6. A lot of houses bought ice.

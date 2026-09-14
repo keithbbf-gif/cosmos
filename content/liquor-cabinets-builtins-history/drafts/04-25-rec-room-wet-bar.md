@@ -13,6 +13,11 @@ topics: [rec-room, wet-bar, suburb, 1950s]
 sequence_after: lcbh-04-24
 ---
 
+<figure>
+  <img src="../assets/kitchen-standing-1973.jpg" alt="1970s kitchen interior with wood cabinets and standing figures" width="1920" height="2549" loading="lazy" decoding="async" />
+  <figcaption>Suburban wet bars often lived next to rec rooms—plumbing, paneling, and a counter, not only a cabinet. Infrogmation family photos / <a href="https://commons.wikimedia.org/wiki/File:Standing_in_the_Kitchen,_1973.jpg">CC BY-SA 4.0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 After the war, a lot of American houses grow a room that is not trying to be a dining room. Rec room. Rumpus room. Basement that got a ceiling. The furniture of that room is allowed to be informal. The bar that grows there is allowed to have a sink.
 
 That sink is the news. Not the paneling. Not the stools. The sink means the house committed water to hospitality downstairs, away from the kitchen. That is a built-in decision. Supply. Waste. A vent if the plumber is honest. A GFCI conversation if the electrician is honest. Wood around all of that if a cabinetmaker got invited.

@@ -13,6 +13,11 @@ topics: [locks, decanters, security, hardware]
 sequence_after: lcbh-01-09
 ---
 
+<figure>
+  <img src="../assets/prohibition-speakeasy-door.jpg" alt="Heavy wooden door with speakeasy slot and lock hardware in a museum display" width="1920" height="2560" loading="lazy" decoding="async" />
+  <figcaption>Locks on drink furniture controlled access—later concealment made the same habit louder. Myotus / <a href="https://commons.wikimedia.org/wiki/File:Speakeasy_door,_American_Prohibition_Museum-011.jpg">CC BY 4.0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 The MFA's Boston cooler has a brass lock marked "GR / PATENT." I like that stamp. It is not a novel. It is a hardware house telling you the lid was worth locking in a year when George was still on the coin.
 
 Wine was money. Imported, often. Taxed. Counted. A staffed house is a house with many hands. Some of those hands were trusted. Some of those hands were hungry. A lock on a cellarette is not a joke about husbands. It is inventory control. The same dining room locked the plate. Hepplewhite lines a drawer with green cloth for silver under a cover. Silver and wine are the two things a dining room could not shrug off if they walked.

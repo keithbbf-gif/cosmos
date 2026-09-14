@@ -13,6 +13,11 @@ topics: [american, dining-room, federal, performance]
 sequence_after: lcbh-01-10
 ---
 
+<figure>
+  <img src="../assets/victorian-dining-room-delaware.jpg" alt="Victorian dining room with table, sideboard, and patterned wall coverings" width="1920" height="1440" loading="lazy" decoding="async" />
+  <figcaption>The nineteenth-century dining room performed wealth—the sideboard and cooler are part of the set. National Park Service / <a href="https://commons.wikimedia.org/wiki/File:The_Dining_Room_at_219_North_Delaware_Street,_Another_View_(a12f94fc-1474-4d8e-bffb-de52f25bbd26).jpg">public domain</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 The English cellarette came to America in a crate, and then America did what it does. It made the dining room larger and asked the furniture to prove the room.
 
 In the early 1800s a fashionable American house is learning a new kind of dinner. Not just feeding people. Showing that you can feed people in a room that has been given to that purpose. Historians will talk about the dining room as a performance space. I will talk about it as a room that suddenly needed a lot of mahogany in one view: table, sideboard, cellarette, maybe knife boxes, maybe an urn that had never seen a butler.

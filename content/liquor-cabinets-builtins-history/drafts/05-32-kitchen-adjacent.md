@@ -13,6 +13,11 @@ topics: [kitchen, island, open-plan]
 sequence_after: lcbh-05-31
 ---
 
+<figure>
+  <img src="../assets/efta-kitchen-wine-rack.jpg" alt="Residential kitchen with wall-mounted wine rack and adjacent appliances" width="768" height="1152" loading="lazy" decoding="async" />
+  <figcaption>Kitchen-adjacent bars share traffic with cooking—storage height and landing space matter. U.S. federal exhibit photo / <a href="https://commons.wikimedia.org/wiki/File:EFTA00001443_-_Kitchen_with_cream_cabinets_a_white_refrigerator_a_blue_carpet_and_stainless_steel_appliances_featuring_a_glass_cart_and_a_wine_rack_on_the_wall.jpg">public domain</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 The dining room lost a lot of arguments. The kitchen was one of them.
 
 Open plan. Island. Stools. The sideboard's job — serving, parking, showing — moved onto a piece of kitchen. The cellarette's job — bottles close to the conversation — moved into a cubby next to the glasses, or onto the island next to the knives. Convenience won. Furniture lost a room.

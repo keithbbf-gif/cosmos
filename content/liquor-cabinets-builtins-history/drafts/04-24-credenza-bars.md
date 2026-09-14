@@ -13,6 +13,11 @@ topics: [credenza, mid-century, dry-bar]
 sequence_after: lcbh-04-23
 ---
 
+<figure>
+  <img src="../assets/met-sideboard.jpg" alt="Low dining storage piece with doors hiding interior bottle storage" width="1920" height="1245" loading="lazy" decoding="async" />
+  <figcaption>Mid-century credenza bars are sideboards with a job change—bottles behind doors, sometimes a drop front. Metropolitan Museum of Art / <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 A credenza is a long, low case. Doors. Sometimes drawers. A top that will collect mail if you let it. In the 1950s and 1960s it is how a living room stores the things it does not want to look at: records, linen, the good glasses, the bottles.
 
 When the doors open and the inside is a bar, the piece is doing Adam's old trick without the urns. Architecture on the outside — or at least calm. Work on the inside. No rail. No neon. A suburban parlor can stay a parlor until someone decides the evening has started.

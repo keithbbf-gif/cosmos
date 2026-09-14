@@ -13,6 +13,11 @@ topics: [frame, definition, channel-purpose]
 sequence_after:
 ---
 
+<figure>
+  <img src="../assets/met-cellaret-cabinet.jpg" alt="Mahogany cellaret cabinet with brass mounts photographed on a neutral museum background" width="1920" height="2400" loading="lazy" decoding="async" />
+  <figcaption>A Metropolitan Museum cellaret: the episode’s point is casework duty, not lifestyle styling. Metropolitan Museum of Art / <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 I'm not going to start with a party.
 
 If I start with a party, you will look at the bottles, and that is a pleasant way to waste an evening and a bad way to understand a piece of furniture. The bottles are the easy part. The hard part is the box. The box has to stand still, take weight, hide or show what you want, and not fall apart the first time someone sets a wet glass on it and walks away talking.

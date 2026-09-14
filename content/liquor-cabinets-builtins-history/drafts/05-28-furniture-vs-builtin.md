@@ -13,6 +13,11 @@ topics: [built-in, furniture, delivery, scribe]
 sequence_after: lcbh-04-27
 ---
 
+<figure>
+  <img src="../assets/hearst-castle-kitchen-builtins.jpg" alt="Built-in kitchen refrigerator and matching cabinetry in a historic estate kitchen" width="1920" height="1272" loading="lazy" decoding="async" />
+  <figcaption>Built-ins are scribed to the room—unfinished backs and site joints furniture does not carry. Scott Dexter / <a href="https://commons.wikimedia.org/wiki/File:Kitchen_Refrigerator_Cupboards_Counters_-_Hearst_Castle_South_Wing.jpg">CC BY-SA 2.0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 I can tell which object you want by asking who owns the gap.
 
 If the gap between the case and the wall is allowed to exist — a shadow line, a plinth that stops short, a piece you can pull out to get a dropped earring — you are in furniture. We finish the sides. We finish the back if the back might be seen, and even if it might not, we treat the back like part of an object. We put it on a truck. We set it down. We go home.

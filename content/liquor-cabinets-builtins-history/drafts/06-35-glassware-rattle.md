@@ -13,6 +13,11 @@ topics: [shop, glassware, rattle, racks]
 sequence_after: lcbh-06-34
 ---
 
+<figure>
+  <img src="../assets/efta-kitchen-wine-rack.jpg" alt="Kitchen wall wine rack holding bottles near glassware storage" width="768" height="1152" loading="lazy" decoding="async" />
+  <figcaption>Glass rattles when the carcase is thin—hanging stems steal headroom you still need for bottles. U.S. federal exhibit photo / <a href="https://commons.wikimedia.org/wiki/File:EFTA00001443_-_Kitchen_with_cream_cabinets_a_white_refrigerator_a_blue_carpet_and_stainless_steel_appliances_featuring_a_glass_cart_and_a_wine_rack_on_the_wall.jpg">public domain</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 The second collection is the glasses.
 
 People remember coupes from a movie and then they buy wine glasses that are eleven inches tall and wonder why the rack bites. Stemware got taller. Rocks glasses got heavier. A tasting glass is a different citizen from a highball. If I hang a rack under a shelf, I have stolen three or four inches from the bottles below and I have invented a chime.

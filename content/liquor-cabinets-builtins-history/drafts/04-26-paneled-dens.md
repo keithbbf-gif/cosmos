@@ -13,6 +13,11 @@ topics: [1970s, den, conversation-pit, built-in]
 sequence_after: lcbh-04-25
 ---
 
+<figure>
+  <img src="../assets/kitchen-standing-1973.jpg" alt="Wood-paneled kitchen cabinets in a 1970s home interior photograph" width="1920" height="2549" loading="lazy" decoding="async" />
+  <figcaption>Paneled dens and basement bars share a period flavor—dark wood, low light, fixed counters. Infrogmation family photos / <a href="https://commons.wikimedia.org/wiki/File:Standing_in_the_Kitchen,_1973.jpg">CC BY-SA 4.0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 The 1970s do not invent the home bar. They turn up the contrast.
 
 Dark paneling. Shag if the house had shag. A mirror that makes a small den feel like it has a twin. A bar that is no longer a credenza you open. It is a wall you stand at. Sometimes the floor drops. Conversation pit. Sunken lounge. The bar sits on the rim like a lifeboat. I say that with affection and with a limp I do not actually have. Steps in the dark next to glass are a design decision.

@@ -13,6 +13,11 @@ topics: [shop, climate, humidity, smell]
 sequence_after: lcbh-06-40
 ---
 
+<figure>
+  <img src="../assets/met-wine-bottle-cooler.jpg" alt="Enclosed porcelain wine cooler vessel in a museum case" width="1920" height="1921" loading="lazy" decoding="async" />
+  <figcaption>Closed volumes trap heat and light—wine cares more than most spirits, but neither likes a sauna. Metropolitan Museum of Art / <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 A little cellar was a climate on purpose. A closed liquor cabinet is a climate by accident.
 
 You shut the doors. You trap the last pour's smell. You trap the lemon. You trap the wet glass you meant to take to the kitchen. You trap a July. In a week the case has an opinion. In a year the opinion is a smell you cannot quite name and a white bloom in a corner.

@@ -13,6 +13,11 @@ topics: [dry-bar, casegoods, cabinet]
 sequence_after: lcbh-05-29
 ---
 
+<figure>
+  <img src="../assets/met-cellaret-cabinet.jpg" alt="Closed cellaret cabinet without sink or plumbing connections" width="1920" height="2400" loading="lazy" decoding="async" />
+  <figcaption>An honest dry bar is storage and landing space—no pretend sink, no stolen wet vocabulary. Metropolitan Museum of Art / <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 I want to praise a boring object.
 
 A dry liquor cabinet. Doors. A landing — a top, a slide, a pull-out. An interior that fits the bottles you actually own. Maybe a light. Maybe a lock. No basin. No drain. No footrail required. No neon. It can live in a dining room, a living room, a library, a bedroom if your house is that kind of house. It can leave on our truck. It can come back if you move.

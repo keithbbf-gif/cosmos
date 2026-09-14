@@ -13,6 +13,11 @@ topics: [cellarette, georgian, dining-room]
 sequence_after: lcbh-00-04
 ---
 
+<figure>
+  <img src="../assets/met-cellaret-duncan-phyfe.jpg" alt="Duncan Phyfe style cellaret with brass banding on a museum pedestal" width="1920" height="1593" loading="lazy" decoding="async" />
+  <figcaption>The cellarette brought the cellar upstairs: a little box with rings for servants and partitions for bottles. Metropolitan Museum of Art / <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 Cellarette. Little cellar. That is not poetry. That is a job description from a house that still had a real cellar, and a dining room that had grown tired of using it in the middle of a course.
 
 In the middle of the 1700s, in England first and then anywhere London fashion could ride a crate, a new piece of furniture learned to hold bottles in the room where they would be poured. Not in the ground. Not in a pantry twenty steps away. In the dining room, near the sideboard, sometimes literally in the opening under the sideboard's waist, sometimes on casters so a servant — or, later, a host who had dismissed the servants — could roll the evening to the table.

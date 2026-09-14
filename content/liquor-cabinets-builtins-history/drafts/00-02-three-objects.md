@@ -13,6 +13,11 @@ topics: [frame, typology, cellarette, cabinet, built-in]
 sequence_after: lcbh-00-01
 ---
 
+<figure>
+  <img src="../assets/cleveland-sideboard-cellarette.jpg" alt="Federal sideboard with matching cellarette in a museum gallery" width="1920" height="1287" loading="lazy" decoding="async" />
+  <figcaption>Sideboard and cellarette were often sold as one dining-room machine—two objects, one assignment. Cleveland Museum of Art / <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 I need three objects on the bench before we go any further, because the English language has a habit of calling all of them a bar.
 
 The first object is a *cellarette*. Little cellar. It is a lidded case, sometimes on wheels, sometimes made to sit in the mouth of a sideboard, built to hold bottles in the dining room so you did not send a servant down every time a glass went empty. The good ones were lined with metal so you could put cold water or ice against the glass. The Met has a New York example from about 1810 to 1820 that they will tell you was wheeled up to the table. That sentence is the whole form. It moves. It serves. It is furniture, not architecture.

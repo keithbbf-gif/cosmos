@@ -13,6 +13,11 @@ topics: [regional, new-york, boston, charleston]
 sequence_after: lcbh-02-12
 ---
 
+<figure>
+  <img src="../assets/dayton-american-sideboard-1810.jpg" alt="American Federal sideboard in mahogany with tapered legs" width="1920" height="1361" loading="lazy" decoding="async" />
+  <figcaption>Regional American sideboards share a vocabulary—Boston, New York, Charleston—without pretending one shop made them all. Dayton Art Institute / <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 I am not going to give you a fake Charleston cabinetmaker with a good last name. I am going to give you three weathers.
 
 New York, 1810 to 1820. The Met's cellaret is mahogany, white pine, tulip poplar. American shop guts under an English idea. The label says it stood in the sideboard's center opening and got wheeled to the table. That is a city with floors that could take a caster and dining rooms that wanted the dock-and-roll. New York is also Phyfe and Lannuier country — not because every cooler came from those benches, because those benches taught the city what a dining room was supposed to cost.

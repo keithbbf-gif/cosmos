@@ -13,6 +13,11 @@ topics: [contemporary, led, glass, stone, millwork]
 sequence_after: lcbh-05-32
 ---
 
+<figure>
+  <img src="../assets/hearst-castle-kitchen-builtins.jpg" alt="Large-scale fitted kitchen casework with integrated refrigeration" width="1920" height="1272" loading="lazy" decoding="async" />
+  <figcaption>Contemporary millwork bars are rooms in plywood—panels, fillers, and MEP coordination. Scott Dexter / <a href="https://commons.wikimedia.org/wiki/File:Kitchen_Refrigerator_Cupboards_Counters_-_Hearst_Castle_South_Wing.jpg">CC BY-SA 2.0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 The contemporary bar is a glow.
 
 Glass doors. A stone slab. A strip of light that makes the bottles look like they are on television. A fridge with a glass face. Sometimes a sink so small it is a jewel. Sometimes no sink and a lot of confidence. This is a built-in most of the time. The wall is the piece.

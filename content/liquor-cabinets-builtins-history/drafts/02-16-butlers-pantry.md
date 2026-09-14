@@ -13,6 +13,11 @@ topics: [butlers-pantry, service, wet-room, revival]
 sequence_after: lcbh-02-15
 ---
 
+<figure>
+  <img src="../assets/butler-pantry-garfield.jpg" alt="Butler's pantry counters and cabinets between kitchen and dining service" width="1920" height="1280" loading="lazy" decoding="async" />
+  <figcaption>The butler’s pantry is service infrastructure—sink, china, glass—not a cocktail stage. BC in Arizona / <a href="https://commons.wikimedia.org/wiki/File:Butler_pantry_-_Lawnfield_-_Garfield_House_Historic_Site_(30687623511).jpg">CC BY-SA 2.0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 If you want the ancestor of the wet bar that is not a tavern, do not look at the rec room first. Look at the pantry between the kitchen and the dining room.
 
 Butler's pantry. Service room. In a nineteenth-century or early-twentieth-century house it is where the work hid. A sink. Drainboards. Glass storage. China. Silver. Sometimes a pass window. Sometimes a locked closet. The dining room could look like nobody sweated. The pantry took the sweat.

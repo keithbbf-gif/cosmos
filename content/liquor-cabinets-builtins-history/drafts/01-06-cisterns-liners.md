@@ -13,6 +13,11 @@ topics: [cistern, liner, lead, ice, shop-safety]
 sequence_after: lcbh-01-05
 ---
 
+<figure>
+  <img src="../assets/met-wine-bottle-cooler.jpg" alt="Porcelain wine bottle cooler with gilt decoration in a museum display" width="1920" height="1921" loading="lazy" decoding="async" />
+  <figcaption>Historic coolers are wood or metal cases around a wet liner—here the liner is the lesson. Metropolitan Museum of Art / <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 If you only look at the mahogany, you will misunderstand the object.
 
 A cistern, a wine cooler, a cellarette with a well — those are wood jackets. The weather lives in the metal. Cold water. Ice when the house could get ice. Snow in a climate that still had it. In New South Wales they will tell you they used well water because ice was a rumor. Same machine. Different refrigerant.

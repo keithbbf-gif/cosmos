@@ -13,6 +13,11 @@ topics: [close, process, room, series]
 sequence_after: lcbh-06-43
 ---
 
+<figure>
+  <img src="../assets/otis-house-dining-room.jpg" alt="Historic dining room proportions with sideboard niche and windows" width="1920" height="1378" loading="lazy" decoding="async" />
+  <figcaption>Read the room before you draw a bar—architecture already decided where bottles may live. HABS / Library of Congress / <a href="https://commons.wikimedia.org/wiki/File:DINING_ROOM,_GENERAL_VIEW_-_Harrison_Gray_Otis_House_(second),_85_Mount_Vernon_Street,_Boston,_Suffolk_County,_MA_HABS_MASS,13-BOST,114-8.tif">public domain</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 Walk the room with a tape and the tallest bottle.
 
 I do not start at the computer. I start at the wall you think you want, and the wall you actually stand at, and the path from there to the kitchen. If those three places are not the same place, the drawing is already in trouble.

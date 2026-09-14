@@ -13,6 +13,11 @@ topics: [shop, lighting, led, uv]
 sequence_after: lcbh-06-35
 ---
 
+<figure>
+  <img src="../assets/met-cellaret-cabinet.jpg" alt="Closed liquor cabinet case photographed in museum lighting" width="1920" height="2400" loading="lazy" decoding="async" />
+  <figcaption>Interior lights heat a void—LED is habit; halogen is how you cook a label. Metropolitan Museum of Art / <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 The Deco cabinet wanted a light when the door opened. The contemporary millwork bar wants a light that never shuts up. Both are asking the same physics.
 
 Light is heat. Light is a spectrum. Wine is a snob about both. Spirits are less of a snob and still do not want to live in a tanning bed. Labels fade. Closures warm. A sealed cabinet with a hot lamp is an oven with glass.

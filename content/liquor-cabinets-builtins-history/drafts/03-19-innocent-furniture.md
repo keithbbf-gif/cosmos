@@ -13,6 +13,11 @@ topics: [bookcase, radio, concealment, silhouette]
 sequence_after: lcbh-03-18
 ---
 
+<figure>
+  <img src="../assets/otis-house-dining-room.jpg" alt="Federal dining room interior with built-in sideboard niche" width="1920" height="1378" loading="lazy" decoding="async" />
+  <figcaption>Respectable dining rooms already had drink furniture—the concealment era re-read the same objects. HABS / Library of Congress / <a href="https://commons.wikimedia.org/wiki/File:DINING_ROOM,_GENERAL_VIEW_-_Harrison_Gray_Otis_House_(second),_85_Mount_Vernon_Street,_Boston,_Suffolk_County,_MA_HABS_MASS,13-BOST,114-8.tif">public domain</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 Innocence is a silhouette.
 
 A bookcase is innocent. A radio is innocent. A sideboard is innocent if you do not open the pedestal. A window seat is innocent. A bar with a rail is not. If you are asked to hide bottles in a decade when bottles are a legal problem, you do not invent a new shape. You borrow a shape the room already forgave.
