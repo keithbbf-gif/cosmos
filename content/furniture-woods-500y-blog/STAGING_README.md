@@ -1,7 +1,8 @@
 # Staged graphics — furniture-woods-500y-blog
 
-**Status:** staged only (not wired to publish pipeline).
+**Status:** staged only (not on publish pipeline).
 
-- SVG figures live under `assets/<slug>/`.
-- Regenerate from `_staging/build_graphics.py` after editing data or layout.
-- Embed figures in drafts using snippets in `GRAPHICS_INDEX.md` (relative paths from each draft file).
+- **5** editorial SVG figures under `assets/<topic-slug>/`
+- **46** writer-matched embed files under `staged-embeds/<draft-slug>.md`
+- Slug list: `writer-slugs.json`
+- Regenerate: `_staging/build_graphics.py`
