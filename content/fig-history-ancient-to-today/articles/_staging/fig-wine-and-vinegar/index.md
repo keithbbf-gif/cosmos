@@ -32,133 +32,62 @@ sources_key:
 ---
 # What Was Left in the Jar
 
-A fig that will not make a clean dry tray still has sugar. Ferment it and you have a drink that wine people will not call wine unless they are being generous. Acidify it and you have vinegar. Classical and Byzantine estate books know both moves because estates hate waste. Columella and the *Geoponica* belong in this sentence as a class of text, not as a forged recipe with metric cups.
+August on a villa is a management problem before it is a taste. A fig that will not make a clean dry tray still holds sugar. Leave that sugar in a jar and microorganisms do what they always do: they ferment it, then, if you wait, they acidify it. Columella’s *De Re Rustica* is the Roman book that treats fruit as staff work — place the tree, keep the crop, do not throw a week away. The *Geoponica*, the tenth-century Constantinopolitan digest of older farm prose, belongs in the same class. Neither text is a tasting-room list. Neither is a blogger’s “Pliny’s fig wine” with metric cups.
 
-Pliny’s fig chapters are mostly names and morals. The preserve-and-must habit sits in the wider Roman kitchen literature. Do not print a “Pliny’s fig wine” formula that is a blogger’s guess. Do print the structural fact: figs were a second sugar in a world that did not have cheap cane.
+Pliny’s fig chapters in *Naturalis Historia* 15.19–20 are names and a Senate joke. They are not a cellar manual. The preserve-and-must habit sits in the wider Roman kitchen literature, next to grape must reduced to *sapa* and *defrutum*, next to fruit packed in leaves or in jars for a winter table. Figs were a second sugar in a world that did not yet have cheap Caribbean cane. That structural fact is enough. A forged formula is not.
 
-## Not a vintage
+## Estate accountancy, not a vintage
 
-Fig wine does not have a Bordeaux. It has a jar. Later Maghrebi and Levantine household vinegars, Italian *aceto di fichi*, and experimental modern bottlings are continuations of glut management. A restaurant menu that treats fig vinegar as a chef’s invention is late to the pantry.
+Wine people will sniff at a drink made from figs. They are allowed. The fruit does not have a Bordeaux. It has a lid. A kitchen will use the vinegar without asking whether the year was famous. That split — drink the neighbors will not toast, acid a cook will reach for — is why this article exists beside the paste essay. Paste takes dry meat: the flesh that survived the tray, later the factory sweet and the Newton. Wine and vinegar take juice and spoilage. Cousin technologies of the same glut. Different rooms.
 
 <!-- figure-id: shared.process-drying-sundry -->
 ![A branch toward the jar.](../../../assets/shared/svg/process-drying-sundry-flow.svg)
 
-*Figure 1. Fruit that fails the tray can still feed a ferment. Schematic.*
+*Figure 1. Fruit that fails the tray can still feed a ferment. Schematic; not a recipe card.*
 
+Later Maghrebi and Levantine household vinegars, and the Italian pantry name *aceto di fichi*, are continuations of that accountancy. They are not a denomination that maps a valley the way Aydın İnciri maps the Menderes. A restaurant bottle that treats fig vinegar as a chef’s invention is late to a problem Columella’s staff already had: too much fruit, not enough clean drying weather, a store-room that still needed something sour.
+
+Condit’s 1947 English book is the modern packing-house desk for the rest. He wrote curing yields and composition — how much water left, how much sweet stayed — because a California dryer had to know what culls cost. Fruit that would not layer on a tray still had sugar. The book does not invent a vintage. It admits a remainder.
+
+## What Pliny will not give you
+
+Readers who want a classical recipe hunt *NH* 15 and come away with Chalcis, Chios, Lydia, and a Carthage fig held up in the Senate. That is the catalog article and the Carthage article. This page’s job is to refuse a different theft: printing a modern home-ferment as if Rackham’s Loeb had a cup measure hiding in the Latin. If a later editor finds a numbered Columella or *Geoponica* chapter that actually walks fig must step by step, they can add the number. Until then the honest sentence is class-of-text. Estate books hate waste. They know sugar spoils. They know acid keeps.
 
 <!-- figure-id: shared.timeline-master -->
 ![Estate kitchen across eras.](../../../assets/shared/svg/timeline-fig-cultivation-master.svg)
 
-*Figure 2. The jar is older than the tasting room. Schematic.*
+*Figure 2. The jar is older than the tasting room. Schematic timeline; dates approximate.*
 
+Grape wine remains the prestige ferment of the same villas. Fig is the second fruit, the tree Cato already planted by soil in *De Agri Cultura* 8.1, the winter sweet when the tray cooperates. The hierarchy is social, not botanical. A syconium is a room full of sugar either way. What changes is whether a steward decides the week is a drying week or a jar week.
+
+## Hardship aisles and other late poverties
+
+Roasted-fig “coffee” shows up in modern hardship catalogues and health-food aisles, a chicory-cousin made from a fruit that can be browned and ground. It is a later poverty and a later wellness habit. It does not belong in Cato. Do not back-date a nineteenth- or twentieth-century substitute to a Republican farm book because both involve figs and disappointment. The drying diagram in this article grows a branch toward the jar. That is enough picture. A roasted-fig tin is a different shelf.
 
 <!-- figure-id: shared.schematic-orchard-irrigation -->
 ![Estate context.](../../../assets/shared/svg/schematic-ancient-orchard-irrigation.svg)
 
-*Figure 3. Villa surplus, not a winery monument. Schematic.*
+*Figure 3. Villa surplus, not a winery monument. Schematic plan — not a surveyed cellar.*
 
+The anti-romance of this series is not a named clone and not a quay stencil. It is a decision not to throw August away. A tasting room that discovers fig vinegar is late to the pantry. A writer who needs Pliny to have invented the drink is late to the Latin. Print the class of text. Leave the cups out.
 
-Coffee substitutes from roasted figs show up in modern hardship and health-food catalogues. They are a different, later poverty. Do not back-date them to Cato.
+## What a second sugar is for
 
+Grape remains the prestige ferment of the same villas that planted Cato’s soils. Reduced grape must — *sapa*, *defrutum* — is the other Roman sweet, a boil-down, not a fig recipe. Fig enters that pantry as the tree that already stood in the orchard for fresh fruit and a dry tray. When the tray fails, the steward still has sugar. Ferment is one answer. Acid is another. A third answer, in the paste essay, is to keep the flesh and ignore the juice. The three answers are not a vintage list. They are August triage.
 
-## Second sugar
+Byzantine estate prose in the *Geoponica* is a library of older farm sentences, some of them Greek, some of them late antique, compiled in a tenth-century court. Using it as a class of text means: the empire still thought surplus fruit was a management problem. It does not mean a Macedonian king left a cup measure. Ibn al-ʿAwwām, a Seville book the Andalusian essay holds, sits in the same weather from the other shore. Sicily could read both. None of those desks is a tasting room in Napa discovering “fig balsamic.”
 
-Before cheap cane, a fig glut was sugar that would spoil. Ferment or acidify. Estate books know this as waste management. A tasting room that discovers “fig vinegar” is late to Columella’s problem.
+A modern Italian household that keeps *aceto di fichi* is doing glut management with a name a grocer can print. A restaurant that carbonates the same idea is allowed to be late. Condit’s 1947 curing tables are the English place to send a skeptic who thinks packing houses only shipped the pretty layer. They shipped what they could. The rest went somewhere a book would rather call yield than romance.
 
+The winter-storage essay holds racks and *askades*. The industrial-dryer essay holds sulfur houses. This page holds the wet remainder. Print the class of text. Leave Pliny’s 15.19 as names. Leave the cups out.
 
-## Estate waste, not a vintage list
-
-Columella and the *Geoponica* treat surplus fruit as a management problem. A tray that will not dry clean still holds sugar. Ferment and you have a drink wine people will sniff at. Acidify and you have vinegar a kitchen will use. That is the class of text. A blogger’s “Pliny’s fig wine” with metric cups is not in *NH* 15.19. Do not print it.
-
-Later Maghrebi and Levantine household vinegars, Italian *aceto di fichi*, and restaurant bottles are continuations of glut management. They are not a Bordeaux of figs. They are jars. Roasted-fig coffee substitutes belong to modern hardship and health-food catalogues; they do not belong in Cato. Condit’s by-product notes are the English modern desk for what a packing house did with the rest.
-
-The jar is the anti-romance of this series: not a named clone, not a quay stencil, a decision not to throw August away.
-
-
-## Waste management with a lid
-
-Before cheap cane, a fig glut was sugar that would spoil. Ferment it and you
-have a drink wine people will sniff at. Acidify it and you have vinegar a
-kitchen will use. Columella and the *Geoponika* treat surplus fruit as a
-management problem, not as a vintage list. That is the class of text. A
-blogger’s “Pliny’s fig wine” with metric cups is not in *Naturalis Historia*
-15.19. Do not print it.
-
-Pliny’s fig chapters are mostly names and morals. The preserve-and-must
-habit sits in the wider Roman kitchen literature. Figs were a second sugar
-in a world that did not have a Caribbean. Estate books know this as
-accountancy. A tasting room that discovers “fig vinegar” is late to the
-pantry.
-
-## Jars, not a Bordeaux
-
-Later Maghrebi and Levantine household vinegars, Italian *aceto di fichi*,
-and experimental modern bottlings are continuations of glut management. They
-are not a Bordeaux of figs. They are jars. Condit’s 1947 by-product notes
-are the English modern desk for what a packing house did with fruit that
-would not layer. Paste takes dry meat (the confection essay). Wine and
-vinegar take juice and spoilage. Cousin technologies of August.
-
-Roasted-fig coffee substitutes belong to modern hardship and health-food
-catalogues. They do not belong in Cato. Do not back-date a chicory-aisle
-product to a villa. The drying diagram in this article grows a branch toward
-the jar. That is enough picture. The anti-romance of this series is not a
-named clone and not a quay stencil. It is a decision not to throw a week
-away.
-
-
-## Accountancy in a jar
-
-Columella and the *Geoponika* treat surplus as a management problem. Sugar
-that will not make a clean tray still ferments or acidifies. That is
-estate accountancy before cheap cane. Pliny’s 15.19 is names and morals,
-not a metric recipe. A blogger’s “Pliny’s fig wine” does not ship.
-Condit’s 1947 by-product notes are the English packing-house desk for the
-rest.
-
-Maghrebi and Levantine household vinegars, Italian *aceto di fichi*,
-restaurant bottles — jars, not a Bordeaux. Paste takes dry meat next door.
-Roasted-fig coffee substitutes belong to hardship catalogues and
-health-food aisles, not to Cato. The drying diagram’s branch toward the
-jar is enough picture. The anti-romance is a decision not to throw a week
-away. A tasting room that discovers fig vinegar is late to the pantry.
-
-
-## Must is a cousin of waste
-
-Roman kitchen literature knows must and preserve better than Pliny’s
-variety chapter knows a recipe. Do not print metric cups. Condit’s
-by-products are the modern English desk. Maghrebi vinegar and Italian
-*aceto di fichi* are jars. Roasted-fig “coffee” is a later poverty.
-Paste next door takes the dry meat. The jar is accountancy. A tasting
-room is late.
-
-
-## A Bordeaux of figs does not exist
-
-Jars exist. Estate books exist. Condit’s by-products exist. Blog
-recipes with metric cups and Pliny’s name do not. Must and vinegar are
-glut management. Roasted-fig coffee is a later aisle. The tasting room
-is late to Columella’s problem.
-
-
-## Second sugar before cane
-
-A fig glut was sugar that would spoil. Ferment or acidify. Estate
-books know the choice as accountancy. A menu that discovers fig
-vinegar is late. No Pliny formula. No Bordeaux. Jars.
-
-
-## Columella’s problem is still August
-
-Waste or a jar. Wine people will sniff. A kitchen will use the vinegar.
-Condit’s by-products are the English modern desk. No vintage list. No
-blogger’s Pliny cups.
+A tasting room that discovers fig vinegar is late to Columella’s staff. A blogger’s metric Pliny is not in *NH* 15.19. The jar is accountancy. Paste next door takes the dry meat. This page takes the wet remainder. Roasted-fig “coffee” stays in the chicory aisle.
 
 ## Sources for this piece
 
-- Columella; *Geoponica* — preservation class of texts.
-- Pliny *NH* 15 as context, not as a wine recipe.
-- Condit 1947 on by-products.
+- Columella, *De Re Rustica* — villa practice and preservation as a class of work.
+- *Geoponica* — Byzantine digest of older farm prose; same class, not a Macedonian diary.
+- Pliny *NH* 15.19–20 as context (names, Senate fig), not as a wine recipe.
+- Condit 1947 on curing yields and packing-house remainders.
 
 See `BIBLIOGRAPHY.md`.

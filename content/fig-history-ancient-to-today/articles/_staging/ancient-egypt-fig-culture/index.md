@@ -18,6 +18,9 @@ figures:
   - ancient-egypt.timeline
   - ancient-egypt.med-map
   - ancient-egypt.orchard-plan
+  - ancient-egypt.tomb-harvest
+  - ancient-egypt.nakht-ag
+  - ancient-egypt.nakht-east-wall
 categories:
   - History of the Fig
 tags:
@@ -77,40 +80,34 @@ The point of the garden image is ecological as much as pretty. Egypt’s fig sto
 <!-- BM-001 Nebamun garden: British Museum EA37983 through their image service. Not embedded pending licence. -->
 <!-- orchard_slot: ORCH-08 leaf only — palmate carica against a sycomore leaf if photographed -->
 
+## What a cleared wall can show
+
+Rights PR #275 cleared three Met facsimiles. None of them is Nebamun. None of them is a photograph of a living Theban orchard.
+
+The Tomb of Djari harvest drawing is **sycamore-fig** — *Ficus sycomorus* — men in a tree, gazelles at the trunk, fruit on the branches. The Commons file misspells the species as “Sicamore.” Caption the species anyway. This is the gashing tree, the timber tree, the goddess-body tree. It is not a Calimyrna basket and not Idu’s offering vessel. It fills the old pending ID `ancient-egypt.tomb-harvest` without scraping the British Museum.
+
+<!-- figure-id: ancient-egypt.tomb-harvest -->
+![Line drawing of men harvesting sycamore-figs in the Tomb of Djari.](../../../assets/images/ancient-egypt-fig-culture/djari-sycamore-fig-harvest.jpg)
+
+*Figure 4. Harvesting sycamore-figs, Tomb of Djari. Metropolitan Museum of Art facsimile (INST.1979.2.5). CC0. **Ficus sycomorus**, not *F. carica*. A drawing of a wall, not a photograph of a tree.*
+
+Nakht’s agricultural register (TT52; Davies, Met Graphic Expedition) is estate work: plough, herd, offering. It is **not** a fig-picking close-up. The east-wall facsimile of Nakht’s offering chapel (Met object 548438, CC0) is the same warning in another register — a wealthy dead man’s eternity, water already assumed. Use both as landscape. Do not relabel either as *carica* ID.
+
+<!-- figure-id: ancient-egypt.nakht-ag -->
+![Davies facsimile of agricultural scenes from the Tomb of Nakht.](../../../assets/images/ancient-egypt-fig-culture/nakht-agricultural-scenes.jpg)
+
+*Figure 5. Agricultural scenes, Tomb of Nakht (TT52). Norman de Garis Davies; Met Graphic Expedition. CC0. Estate context — not a fig harvest.*
+
+<!-- figure-id: ancient-egypt.nakht-east-wall -->
+![Davies facsimile of the east wall of Nakht’s offering chapel.](../../../assets/images/ancient-egypt-fig-culture/met-nakht-east-wall.jpg)
+
+*Figure 6. East wall, south side of Nakht’s offering chapel. Norman de Garis Davies, 1908–1910; original painting ca. 1410–1370 BCE. Met object 548438. CC0.*
+
 ## What we will not say
 
 We will not say the fig was “sacred to the Egyptians” as if that were a species-free fact. We will not put a Calimyrna on a mastaba. We will not date *carica* in the Nile Valley to a Predynastic romance without a find. The Predynastic “tree of life” language that attaches to sycomore in some catalogues is about *sycomorus*. Leave it there.
 
 The common fig’s Egyptian life is real: lists, baskets, a coastal crop that still makes sense on the Mediterranean fringe. It is a chapter, not the origin. The origin argument stays in the Jordan and in the genetics. Egypt is where two *Ficus* economies learned to share a river.
-
-
-## Two economies, one river
-
-Offering-list *carica* is an eastern guest on a tray. *Sycomorus* is timber, shade, goddess-body, gashing, a broken sexual cycle. Nebamun stays reserved (BM-001). A Calimyrna on a mastaba remains banned. The Nile accepted; it did not domesticate the common fig.
-
-
-## Offering-list *carica* is a guest on a tray
-
-Gad and colleagues (IJHTH 2020) walk the common fig through Old and New
-Kingdom offering lists and tomb scenes — Idu G 7102, Tehuti-Hetep, TT 40
-Huy, TT 112 Menkheperraseneb — as a fruit that can be painted and named
-without being the timber tree of the garden pool. Brewer, Redford, and
-Redford already warned that Egyptian art distinguishes two figs from the Old
-Kingdom. This series repeats the warning because English “fig” will not.
-
-*Ficus sycomorus* is the Nile’s own large fig: shade, timber, coffins,
-goddess-body (Nut, Hathor, sometimes Isis in the secondary literature), a
-fruit that had to be gashed because *Ceratosolen* left the northern range.
-Galil’s paper on the ancient ripening cut is the English place to send a
-skeptic. Circular marks on tomb fruit are a technique, not a decoration. The
-sexual cycle of the sycomore is broken in Egypt in a way the common fig’s
-cycle is not. Do not hang that sentence on *carica*.
-
-Nebamun’s garden (BM EA37983) stays reserved in this pack’s image ledger
-because the Museum’s service is often NC. Use the Trustees’ photograph when
-you have the licence. Do not scrape a postcard and call it a tomb. A
-Calimyrna on a mastaba remains banned. The Nile accepted the common fig as
-an eastern guest. It did not domesticate it.
 
 ## Two economies, one river
 
@@ -132,5 +129,6 @@ swallow.
 - Azzazy and Ezzat on the sycomore (texts, Nut/Hathor, Tell el-Dabʿa).
 - Galil, gashing technique (Purdue Hort 306 reprint).
 - 2019 *Vegetation History and Archaeobotany* synthesis.
+- Met facsimiles: Djari harvest INST.1979.2.5 (CC0); Nakht agricultural DT306954 (CC0); Nakht east wall object 548438 (CC0). Nebamun EA37983 stays reserved.
 
 See `BIBLIOGRAPHY.md`.

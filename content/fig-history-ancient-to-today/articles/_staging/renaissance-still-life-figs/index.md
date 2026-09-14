@@ -16,9 +16,10 @@ wp_status: draft
 figures:
   - renaissance.holtzbecher
   - renaissance.bimbi
+  - renaissance.melendez
+  - renaissance.nationalmuseum
   - shared.timeline-master
   - shared.chart-variety-regions
-  - shared.botanical-syconium
 categories:
   - History of the Fig
 tags:
@@ -71,98 +72,44 @@ Tissot’s Brooklyn watercolours are biblical reception, not still life; they li
 
 *Figure 5. Johannes Simon Holtzbecher, *Ficus carica*, Gottorfer Codex. Public domain. Northern court seeing of a southern tree.*
 
+<!-- figure-id: renaissance.melendez -->
+![Luis Meléndez still life with bread, a plate of figs, and cellar vessels.](../../../assets/images/renaissance-still-life-figs/melendez-still-life-figs-bread-nga.jpg)
 
-## Naming as a court sport
+*Figure 6. Luis Meléndez, *Still Life with Figs and Bread*, c. 1770. National Gallery of Art, Washington. CC0. A Spanish pantry cousin of MAN 8625: bread, pale and dark figs, a knife. Not a cultivar key.*
 
-Bimbi’s canvas is Pliny’s vice in Medici colors. Ehret is a prince’s flora. Holtzbecher is a northern wish. Herculaneum is a lunch. The art article’s job is to keep those registers from stealing each other’s captions. A plate is not a photograph. A still life is not a cultivar ID.
+<!-- figure-id: renaissance.nationalmuseum -->
+![Anonymous still life with figs, Nationalmuseum Stockholm.](../../../assets/images/renaissance-still-life-figs/nationalmuseum-still-life-with-figs.jpg)
 
+*Figure 7. *Still Life with Figs*, unknown artist. Nationalmuseum, Stockholm, inv. 17171. Public domain. Northern table fruit, not a harvest date.*
 
-## Registers that steal captions
-
-Bimbi 1696 is Pliny’s naming vice in Medici oil — public domain, a painting, not an order form. Ehret 1771 is a prince’s flora. Holtzbecher is a northern court wish. Le Moyne is Atlantic colonial watercolour. Köhler is pharmacy. MAN 8625 is lunch in ash. Casa del Frutteto is a serpent and a palmate outline. Tissot is biblical reception and belongs in the museum list, not as archaeology.
-
-Caption a plate as a plate. Caption a fresco photo with photographer and licence (ArchaiOptix, CC BY-SA 4.0, museum ask-on-commercial). Priapus stays off the thumbnail. Named fruit in oil is appetite. Two figs and a loaf is enough. Both are history.
-
-
-## A fig in oil is a season and a class
-
-Bartolomeo Bimbi’s 1696 Medici fruit portraits are not grocery ads. They are
-a court inventory painted as still life: named figs, named peaches, the
-grand-ducal garden made portable. When this article’s assets include the
-Bimbi fig plate, the caption should say *Medici documentation*, not *Tuscan
-farm*. The farm is elsewhere — in the estate books, in the *dottato* country
-this pack treats under Cilento.
-
-Holtzbecher’s *Ficus carica* (the other raster here) is the northern cabinet
-version of the same impulse: a plant portrait for a collector who might
-never own an orchard. The leaf is diagnostic; the fruit is a type. Neither
-painting is a photograph of a 1696 harvest. Ehret in Trew (1771), sitting in
-the syconium article’s assets, is a prince’s flora — the same seeing, a
-different court.
-
-## What the painters knew that the manuals also knew
-
-Renaissance and baroque painters put figs in bacchanals, in *natura morta*,
-in market scenes, because the fruit reads at a distance — a tear, a
-seed-mass, a leaf you cannot confuse with a grape leaf if the painter is any
-good. The same centuries produced printed herbals (Mattioli on Dioscorides,
-the later copperplate florilegia) that treated the fig as a medical and
-garden object. The still life and the herbal are not opposites. They are two
-ways a fig enters a room that is not an orchard.
-
-Bimbi’s canvas is Pliny’s vice in Medici colors: naming as a court sport.
-Herculaneum’s loaf and two figs is lunch. Keep those registers from stealing
-each other’s captions. A plate is not a photograph. A still life is not a
-cultivar ID, even when Bimbi writes names on the canvas. Those names are a
-court’s nouns. Matching them to Condit is a grief this pack will not fake
-in a caption.
 
 ## How to use these pictures without lying
 
-Do not write “this is how Renaissance Tuscany harvested.” Write “this is how
-a court, or a cabinet, wanted a fig to look.” Then send the reader to the
-Dottato GI essay for the living Campanian tree, and to Pliny for the older
-Latin variety list the painters were not illustrating one-to-one. The
-picture earns the page. It does not earn the harvest date.
+Bimbi’s 1696 canvas is a court inventory in oil — Medici documentation, not a Tuscan farm. Matching his nouns to Condit is a grief a caption must not fake. Holtzbecher’s Gottorfer plate is the northern cabinet: a leaf as diagnosis, a fruit as a type, a collector who might never own an orchard. Ehret in Trew (1771), in the syconium folder, is another prince’s flora. Le Moyne is the Atlantic colonial cousin. Köhler is pharmacy.
 
-Northern courts wanted the species when fruit was a rarity. Southern courts
-wanted the names when fruit was ordinary. Both hung pictures. Only one could
-eat the August that the picture remembered.
+Meléndez, about 1770, brings the lunch back: bread, a plate of pale and dark figs, cellar gear, a knife. It is the Spanish pantry cousin of MAN 8625, painted eighteen centuries later for a different table. The Nationalmuseum still life (inv. 17171) is anonymous northern table fruit. Neither painting is a harvest date.
 
+Do not write “this is how Renaissance Tuscany harvested.” Write “this is how a court, a cabinet, or a pantry wanted a fig to look.” Send the reader to Cilento for the living pale drier and to Pliny for the older Latin list. Painters put figs in *natura morta* because a torn fruit reads across a room. Mattioli’s printed Dioscorides put the same species in a pharmacy book. Southern courts named what was ordinary. Northern courts pictured what was rare. Only one could eat the August the picture remembered.
 
-## Two courts, one lunch
+Priapus stays off the thumbnail. Tissot stays in the biblical essays as reception, not as archaeology. A plate is not a photograph.
 
-Bimbi’s 1696 Medici canvas writes names on oil because a grand duke wanted
-an inventory he could hang. That is Pliny’s vice in Tuscan color. Holtzbecher’s
-Gottorfer plate is the northern cabinet: a collector who might never own an
-orchard, a leaf painted as diagnosis, a fruit as a type. Ehret in Trew, in
-the syconium folder, is another prince’s flora. Herculaneum’s loaf and two
-figs is lunch. Keep the registers. A court name is not Condit. A still life
-is not a harvest date. A plate is not a photograph of a 1696 tree.
+## A pantry is a different register
 
-Mattioli’s printed Dioscorides and the later florilegia put the same species
-in a pharmacy book. Painters put it in bacchanals because a torn fig reads
-across a room. Southern courts named what was ordinary. Northern courts
-pictured what was rare. Both hung pictures. Only one could eat the August
-the picture remembered. Send the reader to Cilento for the living pale
-drier, to Pliny for the older list, and do not write “this is how Tuscany
-harvested” under a Medici portrait.
+Meléndez’s bread and figs, about 1770, are closer to Herculaneum’s loaf than to Bimbi’s named inventory. The Spanish still life wants weight: a knife, a corked bottle, a barrel, fruit you could eat that afternoon. The Nationalmuseum picture wants the same ordinary table in a northern room. Neither painter is doing Pliny. Neither is doing Condit. They are doing lunch with better linen.
 
+That is why this article keeps so many registers on one page. A Medici name on oil is appetite as documentation. A Gottorfer leaf is diagnosis for a prince who might never taste August. A Wellcome or Köhler plate is a pharmacy seeing. A Fourth-Style pair of figs is a moral and breakfast. Caption theft happens when a writer wants one picture to do all four jobs. PR #275’s cleared rasters let the pantry sit next to the court without scraping a tourist snap.
 
-## A name on canvas is still a court’s noun
+Send the reader to Cilento for the living pale drier, to the syconium folder for Ehret, to Pompeii for the ash. Keep Priapus off the thumbnail. Keep Tissot in the biblical essays.
 
-Bimbi writes cultivars because the Medici paid for a memory that would
-outlast a season. Matching those nouns to Condit is a grief a caption
-must not fake. Holtzbecher’s leaf is a northern diagnosis. Ehret’s
-plate, in another folder, is a prince’s flora. Herculaneum is lunch.
-Mattioli’s printed simple is a pharmacy. Five rooms. One species. Do
-not let the prettiest room steal the harvest date from Cilento or the
-list from Pliny.
+Bimbi writes names because a grand duke wanted a memory that would outlast a season. Meléndez paints a plate because a pantry wanted weight. Holtzbecher paints a leaf because a northern cabinet wanted a diagnosis. The Nationalmuseum painter, whoever they were, wanted table fruit in a northern room. Four impulses. One species. Do not let the prettiest impulse steal a harvest date from Cilento or a list from Pliny.
+
+Luis Meléndez painted still lifes for a Spanish court that wanted pantry weight, not Medici names. The National Gallery of Art’s open-access file (NGA 111627) is how that pantry entered this pack: CC0, bread and mixed figs, cellar gear. It is the eighteenth-century cousin of the Herculaneum loaf, not a Tuscan harvest and not a cultivar key. Use it as lunch.
 
 ## Sources for this piece
 
 - Bimbi 1696, Villa di Poggio a Caiano (WC-007).
 - Ehret/Trew 1771 (WC-001); Holtzbecher; Le Moyne; Köhler.
+- Meléndez, NGA 111627 (CC0); Nationalmuseum inv. 17171.
 - MAN Naples 8625; Casa del Frutteto; Casa dei Cervi.
 
 See `BIBLIOGRAPHY.md`.

@@ -31,146 +31,71 @@ sources_key:
 ---
 # Motifs We Can Source
 
-This article is a police action. The fig attracts fake folklore the way a tray attracts wasps. A series that wants to be magazine-serious has to say which stories have texts.
+This article is a police action. The fig attracts fake folklore the way a tray attracts wasps. A series that wants to be magazine-serious has to say which stories have texts, and then stop talking as if the list were a religion.
 
-**Shade as peace.** 1 Kings 4:25, Micah 4:4 — under vine and fig tree. Political ordinary.
+Eight motifs have pages. A ban list has none. Folklore studies as a discipline can do more with oral tales than this pack will. If a later writer has an attested village story with a collector’s name and a year, it can enter a revision. Until then the bibliography is the fence.
 
-**Leaf as covering.** Genesis 3:7, then the European sculpture industry’s fig leaf. Reception, not botany.
+## Eight motifs with texts
 
-**Poultice.** 2 Kings 20:7. Kitchen medicine.
+**Shade as peace.** 1 Kings 4:25 and Micah 4:4 put a person under vine and fig tree. The image is political ordinary: a life that is not being raided. It only works where the tree is already a house fact, cheap enough to be assumed. That is why the belt map belongs on a folklore page. Proverbs cluster where fruit is not exotic.
 
-**Oath-pair.** Qurʾān 95:1, fig and olive. Do not over-read.
+**Leaf as covering.** Genesis 3:7 is a shame covering sewn from fig leaves. European sculpture later turned that verse into an industry — marble covered for a later public, a prudery campaign hung on a species. Reception, not botany. The culinary-wrap essay next door keeps the grill leaf in another paragraph. They share a palmate blade. They do not share a job.
 
-**Informer.** Plutarch’s sycophant story, disputed etymology. A motif about speech, not about export law we can inscribe.
+**Poultice.** 2 Kings 20:7 and Isaiah 38:21 apply a cake of figs to a boil. Later physicians will have opinions the verses do not owe them. The nutrition essay refuses to turn the cake into fiber. This page refuses to turn it into a miracle. Kitchen medicine is the motif. A wellness caption is not.
 
-**Modest food.** Herculaneum loaf and figs; Roman moral prose.
+**Oath-pair.** Qurʾān 95:1 swears by the fig and the olive (*wa-l-tīn wa-l-zaytūn*). The oath is the fact. Do not over-read a place-name into the fruit unless you are writing tafsīr and willing to show the exegetical chain.
 
-**Empty tree.** Mark 11; Luke 13. Parable trees.
+**Informer.** Plutarch, *Solon* 24.1, reports an oil-export rule and then, with caution, the story that fig export was also forbidden and that the informer was called a sycophant. The *Oxford English Dictionary* marks the fig etymology unsubstantiated. The hedge is the story. People have wanted the pun to be a law for a very long time. Keep it in the talk column, not the Archaic-statute column. The Athens essay holds the oil.
 
-**Two species.** Amos 7:14; Luke 19:4 — sycomore, not carica.
+**Modest food.** MAN Naples 8625 — a loaf and two figs on a Herculaneum wall — is lunch and a moral. Roman prose that praises poor food uses the same pair. Casa dei Cervi’s cupboard vignettes put dried fruit where a guest could see it. Those are inventory numbers, not ethnography.
 
-## Motifs we will not ship
+**Empty tree.** Mark 11 and Luke 13 are parable trees: a tree that would not fruit, a gardener who asks for another year. They are not nursery notes and not a California cull report.
 
-A named Greek fig goddess without a primary cult title. A “sacred Egyptian fig” that does not say *sycomorus*. A Chinese origin myth for *wúhuāguǒ* that is not in Flora of China or Laufer. A Templar fig. A Native American pre-contact *carica*. A forum “lost Roman fig” with a cultivar name Condit never saw.
+**Two species.** Amos 7:14 is a dresser of sycomore-figs. Luke 19:4 puts Zacchaeus in a *sykomorea*. Both are *Ficus sycomorus*, the gashing tree of the Egypt essay, not *F. carica*. English “sycamore” later wandered to maples and planes. The prophets did not.
 
 <!-- figure-id: shared.botanical-leaf-lobing -->
 ![The covering motif is a leaf.](../../../assets/shared/svg/botanical-leaf-lobing-plate.svg)
 
-*Figure 1. Genesis and the sculpture shop. Pack plate.*
+*Figure 1. Genesis and the sculpture shop share a blade with the grill wrap. Pack plate; not a cultivar ID.*
 
+## Motifs this pack will not ship
+
+A named Greek fig goddess without a primary cult title. A “sacred Egyptian fig” that will not say *sycomorus*. A Chinese origin myth for *wúhuāguǒ* that is not in *Flora of China* or Laufer. A Templar fig. A Native American pre-contact *carica*. A forum “lost Roman fig” with a cultivar name Condit never saw.
 
 <!-- figure-id: shared.map-med-belt -->
 ![Motifs cluster where the tree is ordinary.](../../../assets/shared/svg/map-mediterranean-fig-belt.svg)
 
-*Figure 2. Ordinary is the condition of proverb. Schematic.*
+*Figure 2. Ordinary is the condition of proverb. Schematic map; not to scale.*
 
+Fake goddesses are how a fruit series becomes a costume shop. Costume shops need rarity. Proverbs need a cheap tree. Micah’s shade is not a luxury caption.
+
+Tissot’s Brooklyn watercolours in the Hebrew Bible and New Testament essays are nineteenth-century reception. They show how a French painter saw Nathaniel and a vine-dresser. They are not Iron Age ethnography and not a tomb. MAN 8625 is a wall that survived a cloud. It is still lunch.
 
 <!-- figure-id: shared.timeline-master -->
 ![Texts at dates.](../../../assets/shared/svg/timeline-fig-cultivation-master.svg)
 
-*Figure 3. A motif without a date is a rumor. Schematic.*
+*Figure 3. A motif without a date is a rumor. Schematic timeline; dates approximate.*
 
+Oral-tale collectors may knock on the fence later with a village, a year, and a name. Until they do, this page is a sourced list and a ban list. The method is the fence, not a vibe.
 
-Folklore studies as a discipline can do more with oral tales than this pack will. If a later writer has an attested village story with a collector’s name and a year, it can enter a revision. Until then, the bibliography is the fence.
+## Reception is not ethnography
 
+The sculpture shop’s fig leaf is a European afterlife of Genesis 3:7. It tells you what a later public would not look at. It does not tell you how a Levantine household used a leaf in a kitchen, and it does not tell you lobe number. The culinary-wrap essay keeps that police. This page’s job is to keep the covering motif in the reception column: a verse, then a campaign of marble coverings, then a joke in every museum gift shop. A motif can travel and still have a first text.
 
-## The fence is the method
+Micah’s shade and Solomon’s peace (if 1 Kings 4:25 is read that way) only work as political ordinary because a reader already knows the tree as cheap. That is the opposite of a goddess who needs rarity. A named Greek fig cult without a primary title is how a costume shop restocks. Priapus, who shows up in Roman garden jokes with a fig more than once, is a fertility account the Pompeii photo notes already banned from the thumbnail. He is not a dinner guest you need on this page.
 
-Oral-tale collectors can add a dated village story later. Until they do, this page is a ban list and a sourced motif list. Fake goddesses are how a fruit series becomes a costume shop. The bibliography is not a vibe.
+The Athens essay holds Plutarch’s oil-export sentence and the sycophant hedge. Repeat only the hedge: the OED will not underwrite the pun as law. The Egypt essay holds why Amos and Luke’s sycomore cannot be hung on a *carica* orchard. Repeat only the species. Tissot’s Nathaniel and vine-dresser watercolours, in those biblical folders, show a French painter’s late seeing. They are licensed as reception. They are not Iron Age reportage.
 
+If an oral-tale collector arrives with a village, a year, and a name, the fence has a gate. Until then, eight motifs and a ban list are the whole folklore this pack will ship.
 
-## Sourced list, ban list
-
-Shade-as-peace, leaf-as-covering, poultice, oath-pair, disputed informer, modest food, empty tree, two species. Banned: unnamed Greek fig goddess, species-free “sacred Egyptian fig,” unsourced Chinese origin, Templar fig, pre-contact New World *carica*, forum “lost Roman” names. Oral collectors may add a dated village tale later. Until then the bibliography is the fence, not a vibe.
-
-
-## Eight motifs with texts
-
-Shade as peace: 1 Kings 4:25, Micah 4:4 — under vine and fig tree, a life
-that is not being raided. Leaf as covering: Genesis 3:7, then the European
-sculpture shop’s fig-leaf industry, reception rather than botany. Poultice:
-2 Kings 20:7 / Isaiah 38:21, a cake applied, later physicians with opinions
-the verse does not owe them. Oath-pair: Qurʾān 95:1, fig and olive; do not
-over-read a place-name into the fruit unless you are writing tafsīr.
-Informer: Plutarch *Solon* 24.1’s fig-shower story, OED unsubstantiated;
-a motif about speech, not an Archaic statute. Modest food: Herculaneum’s
-loaf and figs; Roman moral prose. Empty tree: Mark 11, Luke 13 — parable
-trees, not nursery notes. Two species: Amos 7:14 and Luke 19:4, sycomore,
-not *carica*.
-
-Those eight have pages. A series that wants more can wait for an oral-tale
-collector with a village, a year, and a name. Until then the bibliography
-is the fence.
-
-## Motifs this pack will not ship
-
-A named Greek fig goddess without a primary cult title. A “sacred Egyptian
-fig” that does not say *sycomorus*. A Chinese origin myth for *wúhuāguǒ*
-that is not in *Flora of China* or Laufer. A Templar fig. A Native American
-pre-contact *carica*. A forum “lost Roman fig” with a cultivar name Condit
-never saw. Fake goddesses are how a fruit series becomes a costume shop.
-
-The leaf plate in this article is Genesis and the sculpture shop, not a
-cultivar ID. The map is where the tree is ordinary — because ordinary is the
-condition of proverb. A motif without a date is a rumor. Folklore studies as
-a discipline can do more with oral tales than this pack will. The fence is
-the method, not a vibe.
-
-
-## Ordinary is the condition of proverb
-
-Micah’s shade only works where a person already knows the tree as a house
-fact, not as an exotic. That is why the teaching map belongs on a folklore
-page: motifs cluster where fruit is cheap. A named Greek fig goddess
-without a cult title, a “sacred Egyptian fig” that will not say
-*sycomorus*, a Templar clone, a pre-contact New World *carica*, a forum
-Roman Condit never saw — those are costume-shop sentences. Oral collectors
-may add a village, a year, and a name later. Until then the bibliography
-is the fence.
-
-The eight sourced motifs remain: shade-as-peace, leaf-as-covering,
-poultice, oath-pair, disputed informer, modest food, empty tree, two
-species. Plutarch’s hedge and the OED’s shrug keep the informer in the
-talk column, not the statute column. Tissot and MAN 8625 are reception and
-lunch, not ethnography. A motif without a date is a rumor. Folklore
-studies can do more than this pack will. The leaf plate here is Genesis
-and the sculpture shop, not an ID.
-
-
-## OED as a folklore source
-
-The sycophant entry’s shrug is a dated scholarly fact about a motif:
-people have wanted the pun to be a law for a very long time. Plutarch
-already hedged. That hedge is the story. Shade, leaf, cake, oath,
-modest food, empty tree, second species — the other seven have verses
-and inventory numbers. Costume-shop goddesses do not. A collector with
-a village and a year can knock on the fence later.
-
-
-## Costume shops need goddesses; this pack needs pages
-
-Eight motifs have texts. The ban list has none. Ordinary trees are why
-proverbs work. Tissot and MAN 8625 are pictures, not ethnography. A
-village tale needs a collector, a year, and a name. Until then the
-bibliography is the fence, not a vibe.
-
-
-## A proverb needs a cheap tree
-
-Shade-as-peace only works where fruit is ordinary. That is why the
-belt map belongs on this page. Costume-shop goddesses need rarity.
-This pack needs pages. Eight motifs have them. The ban list does not.
-
-
-## Informer is talk; modest food is a wall
-
-Plutarch hedged. The OED shrugged. MAN 8625 painted lunch. Those are
-sourced. A named Greek fig goddess is not. Keep the fence.
+Eight motifs have pages. The ban list has none. Ordinary trees are why proverbs work. A costume-shop goddess needs rarity. Micah’s shade needs a cheap tree. Keep the fence.
 
 ## Sources for this piece
 
-- The biblical, Qurʾānic, and Plutarch citations above.
-- MAN 8625 as the modest-food picture.
-- OED s.v. *sycophant*.
+- Hebrew Bible: Gen 3:7; 1 Kgs 4:25; Mic 4:4; 2 Kgs 20:7 / Isa 38:21; Amos 7:14.
+- Mark 11; Luke 13; Luke 19:4.
+- Qurʾān 95:1.
+- Plutarch *Solon* 24.1; OED s.v. *sycophant*.
+- MAN Naples inv. 8625 as the modest-food picture.
 
 See `BIBLIOGRAPHY.md`.

@@ -29,15 +29,19 @@ sources_key:
 ---
 # A Reader’s Glossary
 
-**Askada.** Kymi handling: doubled/paired dried figs. GI documentation, not a classical word in this pack.
+Jump from a word in an article to this list, then to `BIBLIOGRAPHY.md` if the word is a source. Do not treat the glossary as a place to smuggle new claims. If a term is not used in the series, it does not belong here. Feature length would be padding. This page is allowed to be shorter than a magazine essay.
 
-**Blastophaga psenes.** The fig wasp of *F. carica*.
+**Askada.** Kymi handling: doubled or paired dried figs. GI documentation, not a classical vase word.
 
-**Breba.** Early crop on old wood.
+**Blastophaga psenes.** The fig wasp of *Ficus carica*. Prefer **1899** (Howard and Swingle, Algeria) for successful California establishment, not “1890,” which is the blowpipe year.
 
-**Calimyrna.** California trade name for Sarılop / Smyrna-type drying fig.
+**Breba.** Early crop on last year’s wood.
 
-**Caprifig.** Pollen (and wasp-nursery) tree; horticultural “male.”
+**Brown Turkey.** A name-pile (English, Texas, Eastern, a dozen backyard trees). Not one clone until a number or a genotype says so.
+
+**Calimyrna.** California trade stitch for Sarılop / Smyrna-type drying fig. Passport, not a second species.
+
+**Caprifig.** Pollen tree and wasp nursery; horticultural “male.”
 
 **Caprification.** Hanging or placing caprifig fruit so wasps enter edible Smyrna-type figs.
 
@@ -45,137 +49,72 @@ sources_key:
 
 **Common type.** Parthenocarpic edible fig; persists without pollination.
 
-**Dottato.** Italian drying/eating clone; Cilento and Cosenza PDOs.
+**Diffuse domestication.** Khadari and colleagues (2025): three gene pools, not a crowned village.
 
-**Druplet / drupelet.** The hard bit inside a syconium; Kislev’s 313.
+**Dottato.** Italian drying and eating clone. Cilento (2006) and Cosenza (2011) are the stamps; the wood is shared.
 
-**Ficus sycomorus.** Sycomore-fig; Amos 7:14; Luke 19:4 *sykomorea*; Egyptian gashing tree.
+**Druplet / drupelet.** The hard bit inside a syconium. Kislev counted 313 at Gilgal I.
 
-**GIAHS.** FAO heritage-agriculture designation; Estahban file is living agronomy.
+**Ficus Ruminalis.** Civic fig of the Roman founding story (she-wolf, twins). Not Cato’s orchard list. RRC 235/1c is a coin, not a cultivar.
 
-**Mamme, profichi, mammoni.** Caprifig crop sequence (overwinter, spring pollen, summer).
+**Ficus sycomorus.** Sycomore-fig. Amos 7:14; Luke 19:4 *sykomorea*; Egyptian gashing tree. English “sycamore” later wandered.
 
-**Marisca.** Cato’s fig for chalky/open ground.
+**Filāḥa.** The agronomic bookshelf. Ibn al-ʿAwwām sits on a mix later readers describe as roughly a third Byzantine, a third Near Eastern, a third Andalusi.
 
-**Mission.** California black common fig named from the mission chain.
+**Foundress.** The female wasp who often dies in the room.
 
-**Ostiole.** The syconium’s mouth.
+**Geoponica / Geoponika.** Tenth-century Constantinopolitan digest of older farm prose. Not a Macedonian diary.
 
-**Parthenocarpy.** Fruit swell without fertilization; Common types; Gilgal’s argument.
+**GIAHS.** FAO heritage-agriculture designation. The Estahban file is living agronomy; its deep-time remarks are weaker.
 
-**PDO / GI.** Protected designation / geographical indication (Aydın, Kymi, Cilento, Cosenza, Djebba, Taounate).
+**Huerta / Aljarafe.** Irrigated hinterland. Seville’s rise, not a clone.
+
+**Ichijiku.** Japanese name for the common fig as a guest. Edo-consensus introduction; no invented temple origin.
+
+**Lerida / sardes / natural.** Aegean packing faces, not cultivar names.
+
+**Mamme, profichi, mammoni.** Caprifig crop sequence: overwinter, spring pollen, summer.
+
+**Marisca.** Cato’s fig for chalky or open ground (*De Agri Cultura* 8.1).
+
+**Mission.** California black common fig named from the mission chain (1769 corridor). Not a generic American fig.
+
+**ORCH-.** Optional living-tree photograph slots from `PHOTO_NOTES.md`. Not historical proof.
+
+**Ostiole.** The syconium’s mouth. A door, not a navel.
+
+**Parthenocarpy.** Fruit swell without fertilization. Common types; Gilgal’s 2006 argument.
+
+**PDO / GI.** Protected designation / geographical indication. Aydın İnciri, Xera Syka Kymis, Cilento, Cosenza, Djebba, Taounate Nabout.
+
+**PPNA.** Pre-Pottery Neolithic A. Gilgal I’s period word.
 
 **Profichi.** Spring caprifig crop hung in Smyrna orchards.
 
 **San Pedro type.** Persistent breba; main crop often needs pollination.
 
-**Sarılop (Sari Lop, Lob Injir).** Aegean drying clone; Aydın İnciri.
+**Sarılop (Sari Lop, Lob Injir, Loh Injir).** Aegean drying clone; Aydın İnciri. Same wood as Calimyrna.
 
-**Smyrna type.** Caducous edible fig; drops without pollination.
+**Smyrna.** First a port name (İzmir). Then a horticultural type (caducous edible fig; drops without pollination). Then a California advertisement.
 
-**Sporta / sporte.** Basket unit in Italian merchant manuals.
+**Sporta / sporte.** Basket unit in Italian merchant manuals (Pegolotti’s kind of noun).
 
 **Syconium.** The fig “fruit”: an inverted inflorescence, a room.
 
-**Sycophant.** Greek *sykophantēs*, malicious accuser; fig etymology disputed (Plutarch *Solon* 24.1; OED unsubstantiated).
+**Sycophant.** Greek *sykophantēs*, malicious accuser. Fig etymology disputed (Plutarch *Solon* 24.1; OED unsubstantiated).
 
-**Tīn / anjīr / wúhuāguǒ / ichijiku / anjeer.** Loan-names for *F. carica* in Arabic, Persian, Chinese, Japanese, South Asian languages.
+**Tīn / anjīr / wúhuāguǒ / ichijiku / anjeer.** Loan-names for *F. carica* in Arabic, Persian, Chinese, Japanese, and South Asian languages. *Wúhuāguǒ* saw the room (flowerless fruit). *Anjīr / anjeer* is a guest word on a *Ficus* continent.
 
-**Tittu.** Akkadian common fig (Postgate).
+**Tittu.** Akkadian common fig (Postgate 1987).
 
 <!-- figure-id: shared.botanical-syconium -->
 ![The room the glossary keeps naming.](../../../assets/shared/svg/botanical-syconium-morphology-plate.svg)
 
 *Figure 1. Pack plate.*
 
-
 <!-- figure-id: shared.caprification-cycle -->
 ![The year the glossary keeps naming.](../../../assets/shared/svg/caprification-wasp-cycle.svg)
 
-*Figure 2. Schematic.*
+*Figure 2. Schematic wasp year; not a folk tale.*
 
-
-See `BIBLIOGRAPHY.md` and `WRITER_STYLE_GUIDE.md`.
-
-
-## How to use this page
-
-Jump from a word in an article to this list, then to `BIBLIOGRAPHY.md` if the word is a source. Do not treat the glossary as a place to smuggle new claims. If a term is not in the series, it does not belong here. *Brown Turkey* stays marked as a pile. *Sycophant* stays marked as disputed. *Sycomorus* stays marked as not *carica*.
-
-
-## A jump page, not a smuggling page
-
-Use this list from an article word, then `BIBLIOGRAPHY.md` if the word is a source. New claims do not enter through a definition. *Brown Turkey* is a pile. *Sycophant* is disputed. *Sycomorus* is not *carica*. *Calimyrna* is a passport. *Sporta* is a unit. *Syconium* is a room. If the series did not earn the term, the glossary will not keep it.
-
-
-## How to use this page
-
-Jump from a word in an article to this list, then to `BIBLIOGRAPHY.md` if
-the word is a source. Do not treat the glossary as a place to smuggle new
-claims. If a term is not in the series, it does not belong here.
-
-**Brown Turkey** stays marked as a pile — English, Texas, Eastern, a dozen
-backyard trees. **Sycophant** stays marked as disputed (Plutarch’s hedge;
-OED unsubstantiated). **Sycomorus / sycomore** stays marked as not *carica*.
-**Calimyrna** is a trade stitch; **Sarılop** is the clone. **Smyrna** is a
-port name before it is a fruit name. **Mission** is a California market name
-with a 1769 corridor story, not a generic American fig. **Dottato** is the
-wood; Cilento and Cosenza are the stamps. **Caprification** is the act;
-*Blastophaga psenes* is the Mediterranean insect; 1899 is the California
-establishment year to prefer. **Breba** is the early crop; **profichi** are
-a wasp generation, not a poem. **Parthenocarpy** is Gilgal’s biology and a
-Common-type grocer’s ease. **GIAHS** is a FAO honor, not an origin myth.
-**PDO / GI** are fences. **Wúhuāguǒ** is a name that saw the room.
-**Anjīr / anjeer** is a guest word on a *Ficus* continent.
-
-If a later editor adds a term, they add a source. The glossary is a police
-action in alphabetical clothing.
-
-
-## A few more police entries
-
-**Askada** — Kymi’s paired dried figs; a GI habit, not a Bronze Age vase
-word. **Lerida / sardes / natural** — Aegean packing faces, not cultivar
-names. **Sporta** — a medieval unit two ports could share; Pegolotti’s
-kind of noun. **Huerta / Aljarafe** — irrigated hinterland; Seville’s rise,
-not a clone. **Filāḥa** — the agronomic bookshelf; Ibn al-ʿAwwām sits on
-thirds. **Geoponika / Geoponica** — a tenth-century library of older farm
-prose, not a Macedonian diary. **Ostiole** — the door, not a navel.
-**Foundress** — the female wasp who often dies in the room. **PPNA** —
-Pre-Pottery Neolithic A; Gilgal’s period word. **Diffuse domestication**
-— Khadari’s 2025 shape: pools, not a crowned village. **ORCH-** — optional
-living-tree slots, not historical proof.
-
-If a term is not used in the series, it does not belong here. Do not
-smuggle claims. Add a source when you add a word.
-
-
-## Crosswalk, not a hidden essay
-
-Use this page to jump, not to argue. **Sarılop / Calimyrna / Smyrna**
-stay three nouns with one wood and one port. **Mission** stays a
-market name. **Brown Turkey** stays a pile. **Sycomorus** stays out
-of *carica* orchards. **1899** stays the California wasp year.
-**Askada**, **sporta**, **lerida**, **huerta**, **ostiole**,
-**foundress**, **diffuse domestication** — defined in the series, not
-here for the first time. Add a source when you add a term. The
-glossary is allowed to be shorter than a feature. It is not allowed to
-smuggle a claim.
-
-
-## Allowed to be short
-
-This page is a reference tool. Feature length would be padding. Jump
-from an article word to a definition already used in the series, then
-to `BIBLIOGRAPHY.md`. **Brown Turkey** pile. **Sycophant** disputed.
-**Sycomorus** not *carica*. **1899** not 1890. **Calimyrna** stitch.
-**Smyrna** port. No smuggled claims. No new legends.
-
-
-## Still a tool
-
-If this page ran 1,200 words it would be padding. Keep it a
-crosswalk. Every term here already works in an article. **Askada**,
-**sporta**, **ostiole**, **foundress**, **1899**, **diffuse
-domestication**. No new claims. See `BIBLIOGRAPHY.md`.
-
+Add a source when you add a term. See `BIBLIOGRAPHY.md` and `WRITER_STYLE_GUIDE.md`.

@@ -30,117 +30,67 @@ sources_key:
 ---
 # An Island That Kept the Manuals
 
-Sicily’s Arab and then Norman-Arab garden culture is a real hinge: irrigation, citrus, sugar, a Mediterranean fruit list that already included fig from Roman centuries. The island did not need to discover *carica*. It needed to keep a huerta alive through changes of court language. Ibn al-ʿAwwām is a Seville book, not a Palermo book. The *Geoponica* is a Constantinopolitan book. Sicily read both weathers. Do not invent a lost Sicilian *filāḥa* and assign it a title.
+Roman Sicily already sat inside Pliny’s Italian appetite: sea-facing orchard country that did not need an Arab introduction to know *Ficus carica*. Cato’s soil logic and Pliny’s named places assume a peninsula and islands that already ate the fruit. The island’s job in this series is not origin. It is hinge.
 
-Modern Sicilian named figs (and the Dottato economy on the mainland) are later pomology. A magazine that back-dates a market name to Roger II is doing costume drama.
+What the ninth-to-twelfth-century courts added was not a species. It was a hydraulic and administrative habit — *qanāt* cousins, citrus, sugar, a huerta that could be taxed in more than one language. Norman kings who kept Muslim gardeners were keeping a working landscape, not staging a costume. Court language changed. The basin did not.
+
+## Two books, no forged third
+
+Ibn al-ʿAwwām’s *Kitāb al-Filāḥa* is a late-twelfth-century Seville / Aljarafe book. Later readers of the Filāḥa tradition describe its mix as roughly a third Byzantine, a third Near Eastern, a third Andalusi. The *Geoponica* is a Constantinopolitan digest of older farm prose. Sicily is the place that could read both weathers because it sat between them — Ifrīqiya to the south, the Italian peninsula to the north, Andalusi manuals in the same sea.
+
+A lost Palermo *filāḥa* would be a gift if a manuscript appeared. Inventing the title to fill a gap is how this series would earn a scar. The Andalusian-cultivar essay holds the Seville ink. The Byzantine-preserves essay holds the Constantinopolitan kitchen. This one holds the island that did not need a third title to keep canals running.
 
 <!-- figure-id: shared.map-med-belt -->
 ![The island in the belt.](../../../assets/shared/svg/map-mediterranean-fig-belt.svg)
 
-*Figure 1. Sicily as a hinge, not an origin. Schematic.*
+*Figure 1. Sicily as a hinge, not an origin. Schematic; not to scale.*
 
+Sugar and citrus were the loud introductions of those centuries. Fig was already ordinary. A magazine that needs Roger II to have planted the first Sicilian fig has left Pliny for a historical novel. A magazine that needs Roger II to have named Dottato has left the 2006 and 2011 regulations for the same novel.
+
+## Modern names stay modern
+
+Sicilian market figs, and the mainland Dottato PDOs of Cilento and Cosenza, are pomological and legal facts of the last two centuries. The Dottato essay holds the stamps. This essay’s job is to keep those stamps off a Norman charter. Irrigation continuity, court-language change, an ordinary tree that did not need a legend to stay planted — that is enough hinge for the geographic brief.
 
 <!-- figure-id: shared.schematic-orchard-irrigation -->
 ![Huerta habit.](../../../assets/shared/svg/schematic-ancient-orchard-irrigation.svg)
 
-*Figure 2. Canal and terrace as the long fact. Schematic.*
+*Figure 2. Canal and terrace as the long fact. Schematic; not a Palermo survey.*
 
+The Crusades essay next door refuses a Templar fig and a relic crate. This one refuses a royal cultivar. Cargo moved. Manuals moved. Gardeners stayed when kings changed the language of the tax roll. The tree was already there.
 
 <!-- figure-id: shared.chart-variety-regions -->
 ![Later named clones.](../../../assets/shared/svg/chart-variety-regions-comparative.svg)
 
 *Figure 3. Dottato lives in the Italian cell; Sicily shares the climate. Qualitative.*
 
+Do not skip the island and then fill the skip with a legend. Do not back-date a nursery tag to a Norman court. Print the hinge as hydraulic and administrative. Leave the clone names in their centuries.
 
-Norman-Arab is a political sentence. The tree is an ordinary sentence. This article exists so the geographic brief does not skip the island, and so no one fills the skip with a legend.
+## What a hinge looks like from the quay
 
+The Crusades essay holds cargo and manuals — Jacoby on Venetian practice, Pegolotti’s *sporte*, no Templar relic. Sicily sat on those sea roads whether a Norman king was listening or not. Dried figs moved as ordinary Levantine and western Mediterranean freight. The island did not need to invent the cargo. It needed to keep irrigation when the language of the register changed.
 
-## Hinge without a forged book
+Ibn Baṣṣāl’s Toledo–Seville garden, Ibn Ḥajjāj’s *al-Muqniʿ*, Abū l-Khayr al-Ishbīlī: the Andalusian essay names the agronomists. Sicily is not their colophon. It is the island that could use a *qanāt* cousin and a citrus tax without writing a new *filāḥa*. Sugar was loud because it was new money. Citrus was loud because it changed the smell of a garden. Fig was the tree a Roman villa had already planted by soil.
 
-Roman Sicily already had the tree. Arab-Norman irrigation kept huertas through a change of court language. Andalusi and Byzantine manuals are the learned weather, not a lost Palermo title. Modern named clones stay modern. Roger II does not get a cultivar.
+Modern Sicilian market names can be collected later with a nursery list and a year. They will still be modern. The Dottato PDOs are mainland stamps with elevation caps and sun-dry adjectives. They do not reach backward to Roger II. Print the hinge as hydraulic and administrative. Leave the clone in its century. Leave the forged Palermo title unwritten.
 
+## Ordinary is the island’s fig story
 
-## What an island remembers without a title
+Pliny’s Italian appetite already assumed Sicily as sea-facing orchard country. A magazine that needs an Arab “introduction” of *carica* has left the Latin for a conversion narrative. What changed in the ninth-to-twelfth centuries was who kept the gardeners and which language the canal spoke. Muslim gardeners under Norman kings are a labor fact, not a costume. Citrus and sugar are the loud guests because they remade tax and smell. Fig was the tree that did not need a ceremony.
 
-Roman Sicily already sat inside Pliny’s Italian appetite: a sea-facing orchard country that did not need an Arab introduction to know *carica*. What the ninth-to-twelfth-century courts added was not a species. It was a hydraulic and administrative habit — *qanāt* cousins, citrus, sugar, a huerta that could be taxed in more than one language. Norman kings who kept Muslim gardeners were keeping a working landscape, not staging a costume.
+The Filāḥa bookshelf — Ibn Waḥshiyya as a quoted traditional attribution, Ibn Baṣṣāl’s *Hāʾiṭ al-Sulṭān*, Ibn Ḥajjāj’s 1073 *al-Muqniʿ*, Abū l-Khayr, then Ibn al-ʿAwwām’s Seville synthesis — is Andalusi and Near Eastern weather the island could read. The *Geoponica* is Constantinopolitan weather the island could also read. A lost Palermo title would need a manuscript. This pack will not supply the title.
 
-Ibn al-ʿAwwām remains a Seville book. The *Geoponica* remains a Constantinopolitan digest. Sicily is the place that could read both weathers because it sat between them. A lost Palermo *filāḥa* would be a gift if a manuscript appeared. Inventing the title to fill a gap is how this series would earn a scar.
+Modern Sicilian named figs can enter a revision with a nursery list and a year. They will still be modern. The mainland Dottato stamps are 2006 and 2011. Roger II does not get a clone. The crusade-era cargo essays hold the quay. This essay holds the hinge: irrigation continuity, court-language change, an ordinary tree.
 
-Modern Sicilian market names — and the mainland Dottato PDOs — are pomological and legal facts of the last two centuries. A writer who prints “Roger II’s Dottato” has left the regulations and the farm books for a historical novel. The island’s job in the geographic brief is to be a hinge: irrigation continuity, court-language change, an ordinary tree that did not need a legend to stay planted.
+## Citrus loud, fig ordinary
 
+A Norman court that taxed sugar and planted citrus was changing the island’s books. A Norman court that kept fig trees was keeping a Roman ordinary. The difference matters because conversion narratives love a first fruit. Sicily already had the fruit. What it kept, through a change of court language, was a huerta that could be irrigated and taxed. *Qanāt* cousins and bilingual gardeners are the hinge. A royal clone is the novel.
 
-## A hinge that already had the tree
-
-Roman Sicily sat inside Pliny’s Italian appetite: sea-facing orchard country
-that did not need an Arab introduction to know *carica*. What the
-ninth-to-twelfth-century courts added was not a species. It was a hydraulic
-and administrative habit — *qanāt* cousins, citrus, sugar, a huerta that
-could be taxed in more than one language. Norman kings who kept Muslim
-gardeners were keeping a working landscape, not staging a costume.
-
-Ibn al-ʿAwwām remains a Seville book. The *Geoponika* remains a
-Constantinopolitan digest. Sicily is the place that could read both weathers
-because it sat between them. A lost Palermo *filāḥa* would be a gift if a
-manuscript appeared. Inventing the title to fill a gap is how this series
-would earn a scar.
-
-## Modern names stay modern
-
-Sicilian market figs and the mainland Dottato PDOs are pomological and legal
-facts of the last two centuries. A writer who prints “Roger II’s Dottato”
-has left the regulations for a historical novel. The island’s job in the
-geographic brief is to be a hinge: irrigation continuity, court-language
-change, an ordinary tree that did not need a legend to stay planted.
-
-The Mediterranean map puts Sicily in the belt, not at an origin. The
-orchard schematic is canal and terrace as the long fact. Do not back-date a
-nursery tag to a Norman court. Do not skip the island and then fill the skip
-with a royal cultivar.
-
-
-## Gardeners in a second language
-
-Norman kings who kept Muslim gardeners were keeping canals, citrus, sugar,
-and a taxable huerta — a landscape, not a costume. Roman Sicily already
-sat in Pliny’s Italian appetite. The ninth-to-twelfth-century courts did
-not introduce *carica*. They kept irrigation through a change of
-administrative language. *Qanāt* cousins and court bilingualism are the
-hinge. Ibn al-ʿAwwām is still a Seville book. The *Geoponika* is still a
-Constantinopolitan digest. Sicily could read both weathers.
-
-A lost Palermo *filāḥa* would be a gift with a manuscript. Inventing the
-title is a scar. Modern Sicilian market names and mainland Dottato PDOs
-are last-two-centuries facts. “Roger II’s Dottato” is a novel. The
-Mediterranean map puts the island in the belt, not at an origin. Do not
-skip Sicily and then fill the skip with a royal cultivar.
-
-
-## Sugar and citrus were the loud introductions
-
-Fig was already ordinary. The hinge is hydraulic and administrative:
-who kept the gardeners, who taxed the huerta, which language the
-canal spoke. Seville and Constantinople remain the learned books.
-Palermo does not get a forged title. Roger II does not get a clone.
-Modern market names stay modern.
-
-
-## Court language changed; the basin did not
-
-That is the hinge. Fig was Roman-ordinary. Citrus and sugar were the
-loud newcomers. Seville and Constantinople remain the books. No forged
-Palermo title. No Roger II clone. Modern names stay last-two-centuries
-facts.
-
-
-## The island read two weathers
-
-Seville’s farm book and Constantinople’s digest met in a huerta that
-already had the tree. That is enough hinge. No forged Palermo title.
-Sugar and citrus were the loud guests. Fig was ordinary.
+Norman-Arab is a political sentence. The tree is an ordinary sentence. This article exists so the geographic brief does not skip the island, and so no one fills the skip with a royal cultivar or a forged Palermo title. Canal and terrace are the long fact. Seville and Constantinople remain the learned books.
 
 ## Sources for this piece
 
-- Continuity from Roman Sicily (Pliny’s Italian list as context) plus Andalusi/Byzantine manuals as the learned weather.
+- Continuity from Roman Sicily (Pliny’s Italian list as context).
+- Ibn al-ʿAwwām and the *Geoponica* as the learned weather, not as Palermo titles.
 - Negative check: no invented royal cultivar.
 
 See `BIBLIOGRAPHY.md`.

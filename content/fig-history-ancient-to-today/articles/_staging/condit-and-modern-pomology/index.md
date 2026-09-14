@@ -16,7 +16,7 @@ wp_status: draft
 figures:
   - shared.chart-variety-regions
   - shared.timeline-master
-  - shared.botanical-syconium
+  - condit.usda-royal-black
 categories:
   - History of the Fig
 tags:
@@ -31,126 +31,64 @@ sources_key:
 ---
 # Seven Hundred Names
 
-Ira J. Condit wrote *The Fig* in 1947 and “Fig Varieties: A Monograph” in *Hilgardia* 23 (1955): 323–538. A 2024 *HortScience* paper pulled 717 cultivar attributes out of that monograph. Storey’s later handbook chapters and UC ANR circulars sit on the same desk. English-speaking fig people still live in Condit’s house even when they argue with the furniture.
+Ira J. Condit wrote *The Fig* in 1947 and “Fig Varieties: A Monograph” in *Hilgardia* 23 (1955): 323–538. The first book is readable. The monograph is a monster. UC Davis still hosts the PDF. A 2024 *HortScience* paper pulled 717 cultivar attributes out of that monster — a machine rereading of a mid-century desk. Storey’s later handbook chapters and UC ANR circulars sit on the same wood. English-speaking fig people still live in Condit’s house even when they slam the doors.
 
-He knew the matching grief: Pliny’s Livian, Bimbi’s court names, nursery aliases, a Brown Turkey pile. He still tried. The collector century after him — backyard exchanges, online forums, NCGR Davis — multiplied wood and mislabels. The 2022 *PLOS ONE* SSR re-evaluation of NCGR profiles is the corrective: Chicago Hardy ≈ Abruzzi, *palmata* mix-ups, the ordinary scandal of a label.
+He knew the matching grief: Pliny’s Livian, Bimbi’s court names, nursery aliases, a Brown Turkey pile. He still tried. The collector century after him — backyard exchanges, online forums, NCGR Davis — multiplied wood faster than anyone sequenced it. Forums invented “lost Roman” names he never saw. This series’ rule — if it is not in the bibliography, it does not ship — exists because of those forums.
 
-## Improvement is not a new species
+## The house measured, then scandalized
 
-Breeding after Condit (Storey and later programs) chased nematode resistance, persistence, ripening windows, a Calimyrna that might need less faith. This article will not print an unsourced “miracle cultivar.” It will say the printed hinge is 1955 and the living hinge is a collection that must be re-genotyped.
+The 2022 *PLOS ONE* re-evaluation of NCGR Davis SSR profiles is the scandal the house needed: mislabels, *Ficus palmata* mix-ups, Chicago Hardy sitting next to Abruzzi. A living collection must be re-genotyped. A grocery shelf will still sell five names. Both facts can sit in one paragraph.
+
+Storey’s breeding notes chased nematode resistance, persistence, ripening windows, a Calimyrna that might need less faith. This article will not print an unsourced “miracle cultivar.” It will say the printed hinge is 1955 and the living hinge is a laboratory plus a fruiting. Scripture is the wrong word for a monograph. A clone’s true name is not a PDF alone.
 
 <!-- figure-id: shared.chart-variety-regions -->
 ![Seven hundred vs five.](../../../assets/shared/svg/chart-variety-regions-comparative.svg)
 
 *Figure 1. The market used a handful. Condit wrote the rest. Qualitative.*
 
+UC ANR circulars taught a country that no longer leads the tonne board. That is why Mission and Kadota still arrive in other people’s nurseries. Extension English outlived the acreage. FAOSTAT’s recent first places are Türkiye and Egypt, not Fresno. Condit’s afterlife is the English house, not the world tonne.
 
 <!-- figure-id: shared.timeline-master -->
 ![1947/1955.](../../../assets/shared/svg/timeline-fig-cultivation-master.svg)
 
 *Figure 2. The printed word as a node, not an ending. Schematic.*
 
+## Watercolors before the monograph
 
-<!-- figure-id: shared.botanical-syconium -->
-![He wrote the room in English.](../../../assets/shared/svg/botanical-syconium-morphology-plate.svg)
+The USDA pomological watercolors in this pack — Calimyrna at Fresno in 1912, Celeste at Cape Charles in 1911, “Fig X1” at Wadesboro in 1910, Endgere from Roeding’s place in 1899 — are the naming habit Condit later tried to police. Elsie Lower Pomeroy’s 1910 “Royal Black,” painted in Washington, D.C., is one more courtly noun from a government desk. It is not Condit’s last word. It is the kind of card he had to sort.
 
-*Figure 3. Types, not only names. Pack plate.*
+<!-- figure-id: condit.usda-royal-black -->
+![USDA watercolor of a fig labeled Royal Black, 1910.](../../../assets/images/condit-and-modern-pomology/usda-pom-01045-royal-black.jpg)
 
+*Figure 3. Elsie Lower Pomeroy, “Royal Black,” Washington, D.C., 1910. USDA NAL Pomological Watercolor Collection. Public domain (U.S. government work). A name on a card, not a last identification.*
 
-Treat Condit as the last great printed word. Do not treat him as scripture. A clone’s true name is a laboratory and a fruiting, not a PDF alone.
+Improvement for a grocer is fewer names that ship. Improvement for a collector is the opposite. This series has to live in both rooms without lying about which room it is in. Treat 1955 as the last great printed word. Do not treat it as the last word.
 
+## What a collector century costs
 
-## House and scandal
+Backyard exchanges and online forums did a kind of work Condit’s PDF could not: they moved wood faster than anyone checked a label. “Lost Roman” tags, uncle’s-tree romances, a Brown Turkey in every climate — the house could not police that after 1955. The 2022 NCGR Davis paper is useful because it is rude. Chicago Hardy sitting next to Abruzzi is not a scandal a magazine invented. It is a laboratory sentence about a collection that had become a rumor with accession numbers.
 
-1947/1955 is the English house. 717 extracted attributes is the house measured. NCGR mislabels are the house’s later scandal. Storey’s breeding notes are the house’s workshop. Collectors multiplied wood. Grocery shelves did not. Scripture is the wrong word for a monograph.
+Storey’s handbook chapters are the workshop: nematodes, persistence, a Calimyrna that might need less faith. Cite the papers. Do not print a miracle from a nursery press release. Khadari’s 2025 diffuse-domestication shape — three pools, *colchica* and *rupestris* off *carica* s.s. — is the genetics desk Condit did not have. It does not retire 1955. It reminds a reader that a printed name is not a haplogroup.
 
-
-## The last great printed word
-
-*The Fig* (1947) is the readable book. *Hilgardia* 23 (1955) is the monster list. UC Davis still hosts the PDF. The 2024 *HortScience* extraction of 717 attributes is a machine rereading of that monster. Storey’s handbook chapters are the breeding desk that sat on Condit’s wood. English-speaking fig people argue inside that house even when they slam the doors.
-
-The 2022 *PLOS ONE* NCGR Davis re-evaluation is the scandal the house needed: mislabels, *palmata* mix-ups, Chicago Hardy sitting next to Abruzzi. Collectors multiplied cuttings faster than anyone sequenced them. Forums invented “lost Roman” names Condit never saw. This series’ rule — if it is not in the bibliography, it does not ship — exists because of those forums.
-
-Treat 1955 as the last great printed word. A living collection must be re-genotyped. A grocery shelf will still sell five names. Both facts can sit in one paragraph.
-
-
-## The house English still lives in
-
-*The Fig* (1947) is the readable book. “Fig Varieties: A Monograph”
-(*Hilgardia* 23, 1955, pages 323–538) is the monster list. UC Davis still
-hosts the PDF. The 2024 *HortScience* paper that extracted 717 cultivar
-attributes is a machine rereading of that monster. Storey’s handbook
-chapters are the breeding desk that sat on Condit’s wood. UC ANR circulars
-are the extension voice. English-speaking fig people argue inside that house
-even when they slam the doors.
-
-Condit knew the matching grief: Pliny’s Livian, Bimbi’s court names, nursery
-aliases, a Brown Turkey pile. He still tried. The collector century after
-him — backyard exchanges, online forums, NCGR Davis — multiplied wood faster
-than anyone sequenced it. Forums invented “lost Roman” names he never saw.
-This series’ rule — if it is not in the bibliography, it does not ship —
-exists because of those forums.
-
-## Scandal, workshop, grocery
-
-The 2022 *PLOS ONE* re-evaluation of NCGR Davis SSR profiles is the scandal
-the house needed: mislabels, *palmata* mix-ups, Chicago Hardy sitting next
-to Abruzzi. Storey’s later notes chased nematode resistance, persistence, a
-Calimyrna that might need less faith. This article will not print an
-unsourced “miracle cultivar.” It will say the printed hinge is 1955 and the
-living hinge is a collection that must be re-genotyped.
-
-Grocery shelves still sell a handful. Collectors exploded the list.
-Improvement for a grocer is fewer names that ship. Improvement for a
-collector is the opposite. Scripture is the wrong word for a monograph. A
-clone’s true name is a laboratory and a fruiting, not a PDF alone.
-
-
-## Forums invented Romans he never saw
-
-The rule that a name not in the bibliography does not ship exists because
-collectors and forums multiplied wood faster than anyone sequenced it.
-“Lost Roman” tags, uncle’s-tree romances, a Brown Turkey in every climate
-— Condit’s house could not police that after 1955. The 2022 NCGR Davis
-SSR paper is the scandal: mislabels, *palmata* mix-ups, Chicago Hardy next
-to Abruzzi. The 2024 *HortScience* extraction of 717 attributes is a
-machine rereading of the monster list UC Davis still hosts as a PDF.
-
-*The Fig* (1947) is the readable book. Storey’s handbook chapters are the
-workshop: nematodes, persistence, a Calimyrna that might need less faith.
-Cite papers. Do not print a miracle cultivar from a press release. Grocery
-shelves still sell a handful. Collectors still want the rest. Scripture is
-the wrong word. A living collection must be re-genotyped. A clone’s true
-name is a fruiting and a lab, not a PDF alone.
-
-
-## Extension English outlived the acreage
-
-UC ANR circulars taught a country that no longer leads the tonne
-board. That is why Mission and Kadota still arrive in other people’s
-nurseries. Storey bred on that wood. Forums invented Romans. NCGR
-mislabeled. 717 attributes later, the house is measured and still not
-scripture. Re-genotype. Do not print a miracle.
-
-
-## 323–538 is a monster
-
-*Hilgardia* 23 those pages are why English still lives in Condit’s
-house. 717 extracted attributes measure the monster. NCGR mislabels
-scandalize it. Storey works in the shop. Forums invent Romans. Shelves
-sell five names. Scripture remains the wrong word.
-
+Pomeroy’s “Royal Black” card is the naming habit in watercolor, painted in Washington in 1910, a generation before the monograph. The Calimyrna, Celeste, Endgere, and Fig X1 cards in other folders are the same habit in other towns. Condit’s job was to sort that habit into English. Grocery shelves still sell a handful. Collectors still want the rest. Re-genotype the living collection. Do not treat a PDF as scripture.
 
 ## English left the tonne board and kept the house
 
-ANR circulars still teach Mission and Kadota to countries that outgrow
-California. That is Condit’s afterlife. 1955 is the printed hinge. A
-lab is the living one. Forums are the scandal. No miracle cultivar.
+California no longer leads FAOSTAT. Türkiye and Egypt do, in the years the production essay will re-check. UC ANR circulars still teach Mission, Kadota, and a wasp bill to nurseries in countries that outgrow Fresno. That is Condit’s afterlife: extension English, a PDF at UC Davis, a 2024 machine rereading of 717 attributes, a 2022 laboratory rude enough to say Chicago Hardy ≈ Abruzzi.
+
+*The Fig* (1947) remains the readable book — history, culture, curing, composition. *Hilgardia* 23 (1955), pages 323–538, remains the monster list. Storey remains the workshop. Forums remain the scandal. Grocery shelves remain conservative because skin and shipping are conservative. Pomeroy’s 1910 “Royal Black” remains a card from the habit he sorted. A living collection must be re-genotyped. A clone’s true name is a fruiting and a lab. Scripture is the wrong word.
+
+## Eisen before the house, Storey in the shop
+
+Gustav Eisen’s 1901 USDA bulletin is the English book of the wasp decade — history, culture, curing, a catalogue — written by a man who had seen Mayer in Naples and fought Gasparrini in print. Condit’s 1947 book sits on that desk and widens it. The 1955 monograph is the widening that became a monster. Storey’s later handbook chapters are the breeding shop that tried to make the wood easier: nematodes, persistence, a Calimyrna that might need less faith. Cite those chapters. Do not print a miracle cultivar from a press release.
+
+Brown Turkey stays a pile in the glossary because Condit could not make it one clone and neither can a backyard tag. Mission stays a California market name with a 1769 corridor story. Calimyrna stays a stitch. Dottato stays wood with two stamps. The house English lives in is a sorting house. The tonne board moved. The PDF stayed.
 
 ## Sources for this piece
 
-- Condit 1947; *Hilgardia* 1955 (UC Davis PDF).
-- *HortScience* 2024 attribute database.
-- *PLOS ONE* 2022 NCGR re-evaluation; Storey 1975.
+- Condit 1947; *Hilgardia* 23 (1955): 323–538 (UC Davis PDF).
+- *HortScience* 2024 attribute database (717 cultivars extracted).
+- *PLOS ONE* 2022 NCGR Davis SSR re-evaluation; Storey 1975.
+- USDA NAL POM00001045 (Royal Black).
 
 See `BIBLIOGRAPHY.md`.

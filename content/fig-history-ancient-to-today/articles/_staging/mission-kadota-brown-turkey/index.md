@@ -15,8 +15,8 @@ wp_type: post
 wp_status: draft
 figures:
   - shared.chart-variety-regions
-  - shared.botanical-syconium
-  - shared.timeline-master
+  - mission-kadota.calimyrna-1912
+  - mission-kadota.celeste
 categories:
   - History of the Fig
 tags:
@@ -83,63 +83,34 @@ English Brown Turkey, Texas Brown Turkey, Eastern Brown Turkey, a dozen backyard
 
 Improvement for a grocery is fewer names that ship. Improvement for a collector is the opposite. This series has to live in both rooms. Condit wrote the house. The 2022 NCGR paper showed the labels inside it can still be wrong.
 
+Elsie Lower Pomeroy’s 1912 Calimyrna watercolor, painted in Fresno, is the wasp bill in government color: the same wood the Aydın essay calls Sarılop, already wearing the California stitch. Mary Daisy Arnold’s 1911 Celeste, painted at Cape Charles, Virginia, is the other American sentence — an Eastern Common type that never needed Algeria and never joined the California five. Two cards, two bills.
 
-## Five names against seven hundred
+<!-- figure-id: mission-kadota.calimyrna-1912 -->
+![USDA watercolor of Calimyrna figs, Fresno, 1912.](../../../assets/images/mission-kadota-brown-turkey/usda-pom-07440-calimyrna-1912.jpg)
 
-Ask an American nursery for a fig and you still get one of three sentences:
-Mission (black, rich, common type, a friar corridor), Kadota (honey,
-canning, the old commercial white), or Brown Turkey (a pile). Condit’s 1955
-*Hilgardia* monograph is the last great printed attempt to hold those
-sentences still. A 2024 *HortScience* paper extracted 717 cultivar
-attributes from it. The number is a warning. Mid-century California
-circulars clustered commercial life around Mission, Kadota, Calimyrna,
-Adriatic, and a Turkey that already needed adjectives.
+*Figure 2. Elsie Lower Pomeroy, Calimyrna, Fresno, 1912. USDA NAL POM00007440. Public domain. Same clone as Sarılop; the stitch is the name.*
 
-Calimyrna remains a wasp bill. Adriatic remains a name-pile that
-disappointed next to seeded Sarılop. Fresh retail later wrote Black Mission
-as a spelling of Mission and added a swarm of “Italian” and “French” tags
-that may or may not match Condit’s cards. English Brown Turkey, Texas Brown
-Turkey, Eastern Brown Turkey — this is not one clone. If a grower has a
-numbered selection, use the number. Kadota’s canning life is a factory
-preference: firm enough, pale enough. Mission’s dried life is a dark paste
-and a story about a chain of kitchens that could not wait on Algeria.
-Collectors exploded the list. Shelves did not. The 2022 NCGR paper showed
-the labels inside Condit’s house can still be wrong.
+<!-- figure-id: mission-kadota.celeste -->
+![USDA watercolor of Celeste figs, Cape Charles, Virginia, 1911.](../../../assets/images/mission-kadota-brown-turkey/usda-pom-07441-celeste.jpg)
+
+*Figure 3. Mary Daisy Arnold, Celeste, Cape Charles, Virginia, 1911. USDA NAL POM00007441. Public domain. An Eastern Common type, not a San Joaquin commercial five.*
 
 
-## Adriatic’s disappointment, Turkey’s pile
+Adriatic — pale, common-type, a drying hope — lost the tasting against seeded Sarılop and stayed a name-pile of its own. Celeste never joined that fight; it was an Atlantic backyard and a Virginia card. Fresh retail later wrote Black Mission as a spelling of Mission and added “Italian” and “French” tags that may not match Condit’s cards. Shelves wanted five names. Collectors wanted the rest. Condit wrote both rooms.
 
-Mid-century California circulars clustered commercial life around five
-sentences: Mission, Kadota, Calimyrna, Adriatic, and a Turkey that already
-needed adjectives. Adriatic — pale, common-type, a drying hope — lost the
-tasting against seeded Sarılop and stayed a name-pile. Calimyrna remains a
-wasp bill. Kadota’s canning life is a factory preference: firm, pale, a
-honey the retort would not ruin. Mission’s dried life is dark paste and a
-friar corridor that could not wait on Algeria.
+## Factory white, corridor black
 
-English Brown Turkey, Texas Brown Turkey, Eastern Brown Turkey, a backyard
-called Turkey because the fruit is brown — not one clone. Use a number if
-a grower has one. Fresh retail later wrote Black Mission as a spelling and
-added “Italian” and “French” tags that may not match Condit’s cards. The
-1955 monograph tried to hold the sentences still. The 2024 extraction of
-717 attributes is a machine counting the attempt. The 2022 NCGR paper
-showed labels inside the house can still be wrong. Shelves wanted five
-names. Collectors wanted the rest.
+Kadota’s canning life is a retort preference: firm enough, pale enough, a honey a factory could put in a cup next to a peach. It is a related conversation to Dottato and this pack will not finish the match in a grocery caption. Mission’s dried life is a dark paste and a friar corridor that could not wait on Algeria — Common type, 1769 story, later retail spelling Black Mission. Calimyrna’s life is a wasp, already painted in Fresno in 1912 as the stitch. Adriatic’s life is a pale drying hope that disappointed next to seeded Sarılop. Brown Turkey’s life is a pile.
 
+Celeste at Cape Charles in 1911 is the reminder that American fig culture was never only San Joaquin. Eastern dooryards grew Common types that never paid the Smyrna bill and never needed to. Collectors later exploded the list. Shelves did not. The 2024 extraction of 717 Condit attributes is a machine counting the printed rest. The 2022 NCGR paper showed the furniture can still be mislabeled. Improvement for a grocer is fewer names that ship.
 
-## Grocery conservatism is skin
-
-Shipping and color keep shelves at five names while collectors explode
-the list. Kadota is a retort preference. Mission is a dark paste and a
-corridor. Calimyrna is a wasp bill. Adriatic is a disappointment next
-to seed. Turkey is a pile. Improvement for a grocer is fewer names.
-Improvement for a collector is the opposite. Condit wrote both rooms.
-The NCGR paper showed the furniture can still be mislabeled.
+Celeste at Cape Charles, Virginia, in 1911 is the reminder that American fig culture was never only a San Joaquin circular. Eastern Common types paid a different bill: no wasp, no Calimyrna stitch, a backyard name that Condit still had to sort.
 
 ## Sources for this piece
 
 - Condit 1947; *Hilgardia* 1955.
 - *HortScience* 2024 Condit-attribute database (717).
 - UC circulars on the commercial five.
+- USDA NAL POM00007440 (Calimyrna); POM00007441 (Celeste).
 
 See `BIBLIOGRAPHY.md`.

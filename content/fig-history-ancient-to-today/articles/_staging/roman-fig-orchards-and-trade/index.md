@@ -19,6 +19,7 @@ figures:
   - roman-orchards.med-belt
   - roman-orchards.orchard
   - roman-orchards.maritime
+  - roman-orchards.ficus-ruminalis
 categories:
   - History of the Fig
 tags:
@@ -80,65 +81,32 @@ Columella’s preservation chapters belong next to the maritime schematic. A vil
 
 Do not invent a *collegium* of fig merchants. Do not print a price edict line you have not read. The Diocletianic prices, when a later editor wants them, can be added from the edict’s fruit chapter with a citation. Until then, the farm books are enough: Rome organized the fig by ground and by keepable surplus.
 
+## A civic tree is not a villa list
 
-## Soil first, sea second
+The Ficus Ruminalis on a 137 BCE denarius (RRC 235/1c, Sex. Pompeius Fostlus) is another Roman fig entirely: Faustulus, the she-wolf, the twins, a tree in the founding story. CNG’s photograph is CC BY-SA 2.5. Credit the photographer. The coin is not Cato’s marisca and not a Herculanean still life. It is a civic tree the city put on silver. PR #275 found no OA kylix with a documented fig-banquet subject; this denarius is the closest cleared ancient fig-tree object that pass shipped. Do not caption it as an orchard cultivar.
 
-Cato 8.1 via Pliny: marisca on chalk; African, Herculanean, Saguntine, winter, Telanian on richer ground. Columella: place, preserve, staff. Dried surplus shares holds with oil and wine. No invented *collegium*. No unsourced price-edict line until the edict’s fruit chapter is cited. Ostia and Puteoli needed space, not a fig fleet. Pliny’s afternoon splits into catalogue and Senate. Pompeii keeps the lunch.
+<!-- figure-id: roman-orchards.ficus-ruminalis -->
+![Silver denarius showing Roma and, on the reverse, the she-wolf, twins, and the Ficus Ruminalis.](../../../assets/images/roman-fig-orchards-and-trade/ficus-ruminalis-denarius-cng.jpg)
 
+*Figure 5. Sextus Pompeius Fostlus, AR denarius, Rome, 137 BCE (RRC 235/1c). Reverse: Faustulus, she-wolf and twins, Ficus Ruminalis behind. Photo: CNG. License: CC BY-SA 2.5. Civic myth, not a villa invoice.*
 
-## What a villa owes the year
+The Pompeii article keeps the lunch. The Pliny article keeps the list. The Carthage article keeps the joke. This one keeps the staff — and one coin that reminds a reader Rome also told a tree as origin, which is a different desk from Cato’s soils.
 
-Cato’s soils are a risk table. Columella’s year is a labor table. Pliny’s
-names are an appetite table. The sea is a remainder table: what the household
-cannot eat fresh leaves as dry. A *vilicus* who only managed August was a
-*vilicus* who would be blamed in February. Preservation chapters — drying,
-packing in leaves or jars, the winter table — are where the farm meets Ostia
-without needing a dedicated fig fleet.
+## What the farm books will not do
 
-Do not invent a *collegium* of fig merchants. Do not print a Diocletianic
-price until the edict’s fruit chapter is in the citation. The maritime
-schematic in this article is a teaching drawing. A real *navis* carried oil
-and wine first. Figs took space that was left, or space that a factor had
-already bought. That is ordinary coastal trade, not a romance of a sweet
-armada.
+Cato will not give you a wasp treatise. Six types and two soils are enough for a manager who needs to blame the ground. Columella will not give you Pliny’s twenty-nine names. He will give you a year of staff work and a reason not to waste August. Pliny will not give you a bill of lading. He will give you an afternoon of appetite and, in 15.20, a Senate with a Carthage fig.
 
-## Names that are already politics
+The Ficus Ruminalis coin sits outside those three desks. It is origin-as-story, a tree the city needed for twins and a wolf, struck in silver in 137 BCE. A villa *vilicus* who planted marisca on chalk was not planting that tree. A factor who bought space in a hold at Puteoli was not shipping that tree. Civic myth and surplus fruit shared a species and not a job.
 
-Saguntine fruit in Latium is a Spanish coast remembered as a flavor. African
-fruit is a soil class and, in 15.20, a political insult. Herculanean is a
-Bay of Naples name the ash will freeze in paint. Telanian on richer ground
-is a black, long-stalked bet. Marisca on chalk is the tree you plant when
-you will not manure. A manager who planted by those words could blame the
-ground instead of himself. That is why farm books last.
+Do not invent a *collegium* of fig merchants. Do not print a Diocletianic fruit price until the edict’s chapter is cited. The maritime schematic remains a teaching drawing. A real *navis* carried oil and wine first. Figs took space that was left, or space a factor had already bought. That is ordinary coastal trade. Rome organized a tree it did not invent.
 
-The Pompeii article keeps the lunch. The Pliny article keeps the list. The
-Carthage article keeps the joke. This one keeps the staff. Rome did not
-invent the fig. Rome organized it — by ground, by name, by the habit of
-making a fruit last until the next argument in the city.
-
-
-## Space in a hold, not a sweet armada
-
-Ostia and Puteoli did not launch a fig fleet. They launched ships that
-already carried oil and wine. Dried figs took space a factor had bought or
-space that was left. That is ordinary coastal trade. The maritime schematic
-in this article is a teaching drawing. A real *navis* did not sail a
-diagram. Do not invent a *collegium*. Do not print a Diocletianic fruit
-price until the edict’s chapter is cited.
-
-Cato’s soils remain a class system for blame: marisca on chalk so a failed
-crop can be the ground’s fault; African, Herculanean, Saguntine, winter,
-and long-stalked black Telanian on richer dirt. Columella’s year is staff
-and jars. A *vilicus* who only managed August was blamed in February.
-Saguntine fruit in Latium is a Spanish coast remembered as flavor. African
-fruit is a soil class and, an hour later in Pliny, an insult. The Pompeii
-article keeps lunch. The catalog article keeps names. Carthage keeps the
-joke. This one keeps the staff. Rome organized a tree it did not invent.
+The denarius is origin-as-story. Cato is soil-as-risk. Columella is staff-as-year. Pliny is appetite-as-afternoon. Four desks. One species. Do not let the wolf steal the villa.
 
 ## Sources for this piece
 
 - Cato, *De Agri Cultura* 8.1 (via Pliny 15.19).
 - Columella, *De Re Rustica* — villa practice and preservation.
 - Pliny, *NH* 15.19–20.
+- RRC 235/1c (Ficus Ruminalis denarius); photo CNG, CC BY-SA 2.5.
 
 See `BIBLIOGRAPHY.md`.

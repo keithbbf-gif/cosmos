@@ -32,125 +32,65 @@ sources_key:
 ---
 # From Humors to a Label
 
-Dioscorides and Ibn Sīnā organize the fig by effect and by humoral quality. Condit’s 1947 tables organize it by water, sugar, and the grim honesty of a drying yield. USDA FoodData Central organizes it by a serving and a nutrient list. These are three desks. A magazine that “updates” Avicenna with potassium is doing parlor magic.
+Dioscorides organizes the fig by effect. Ibn Sīnā, in the *Canon*’s book-2 monograph on *tīn*, organizes it by humoral quality — softening, heating, moistening — and he will give fresh and dried different sentences because a physician’s job was to place a food in a body already described as a balance. Condit’s 1947 tables organize the same fruit by water driven off and sugar that stayed, a drying yield that costs a grower. USDA FoodData Central organizes it by a serving and a nutrient list that the database revises.
 
-Dried figs are dense sugar and fiber and a mineral list that looks friendly on a panel. Fresh figs are mostly water and a shorter clock. That physics is why freight dried and why a wellness brand photographs fresh. Cite the data type and the access year. Do not say “superfood.” Do not say “ancient athletes.” (They ate. So did everyone.)
+These are three desks. A magazine that “updates” Avicenna with potassium is doing parlor magic. The medicine essays hold the trunk — simples, the Arabic physicians, what a label must not claim as efficacy. This page holds the police: do not convert the languages.
+
+## A serving is a modern invention
+
+FoodData Central’s dried-fig entry is a laboratory seeing of a tray: water gone, sugars concentrated, fiber remaining, a mineral list that looks friendly on a panel. The access year matters because the numbers move. A live WordPress import should print the data-type — SR Legacy, FNDDS, Foundation, or whatever the editor actually pulled — and the year of the pull. “USDA says” without those two facts is a vibe.
+
+Condit’s 1947 composition and curing tables are an older cousin of the same honesty. He wanted to know what a California dryer lost and what remained sweet enough to pack. Neither desk owes the *Canon* a milligram. A later editor who wants a table can print three columns — humoral note, Condit yield, USDA serving — and must refuse a fourth that pretends they convert.
 
 <!-- figure-id: shared.botanical-syconium -->
 ![What is being measured.](../../../assets/shared/svg/botanical-syconium-morphology-plate.svg)
 
 *Figure 1. Seeds, wall, water — the room as food. Pack plate.*
 
+Dried figs are dense sweet and fiber. Fresh figs are mostly water and a short clock. That physics is why freight dried for two millennia and why a wellness brand photographs dew on a split fruit. The sundrying and tunnel-dryer essays hold the how. This one holds the why a panel and a humoral degree cannot be added.
+
+## A cake is not a panel
+
+Hezekiah’s cake of figs (2 Kings 20:7 / Isaiah 38:21) is a poultice. The folklore essay keeps it in the sourced-motif list. A fiber claim is a nutrition panel. They do not translate. Ancient athletes ate what was there. So did ancient clerks, stevedores, and children. “Superfood of the ancients” is a cart without a horse. Do not say the word on this page except to bury it.
 
 <!-- figure-id: shared.process-drying-sundry -->
 ![Water leaves, sugars stay.](../../../assets/shared/svg/process-drying-sundry-flow.svg)
 
 *Figure 2. The label changes because the fruit changed state. Schematic.*
 
+Humoral language can put dried and fresh figs in different degrees. That is not a failed nutrition label. It is a different question: what does this food do in a body imagined as heat and moisture? The modern label asks what a serving contains. Condit’s dryer asked what a tray cost. All three questions are legitimate in their centuries. The failure is the sentence that treats “moist in the second degree” as a milligram of potassium wearing a toga.
 
 <!-- figure-id: shared.timeline-master -->
 ![Three desks.](../../../assets/shared/svg/timeline-fig-cultivation-master.svg)
 
-*Figure 3. Simple → monograph → circular → panel. Schematic.*
+*Figure 3. Simple, monograph, circular, panel. Schematic timeline; not a conversion chart.*
 
+If this pack ever prints a number from FoodData Central in a caption, the caption will carry the data-type and the year. Until that import, the modern desk is named, not quoted. Condit’s tables stay historical yield. Dioscorides and Ibn Sīnā stay effect. Three desks. No parlor trick.
 
-Hezekiah’s poultice is not a fiber claim. A fiber claim is not a poultice. Keep the sentences in their centuries.
+## Freight chose dry for a reason
 
+A fresh fig is a short clock: thin skin, high water, a bruise that becomes a rumor by the second morning. That is why a wellness photograph loves it and why a quay did not. Dried figs are what Pegolotti’s *sporte* and an İzmir stencil could move. The Venetian-cargo and İzmir-packing essays hold the units. This page holds the physics those units assume. Water leaves. Sugar stays. Fiber stays. A mineral list appears on a modern panel because a laboratory asked a modern question.
 
-## Three desks, no translation
+Condit’s 1947 tables are a grower’s cost dressed as composition. A dryer who does not know yield is a dryer who will lie to himself about a cull pile. FoodData Central is a serving dressed as a nutrient list. Ibn Sīnā is a degree dressed as an effect. The Greco-Roman and Islamic medicine essays will tell you what those physicians actually wrote. They will not tell you a milligram. This page’s only additional rule: if a live caption quotes USDA, it quotes a data-type and a year, or it does not quote.
 
-Humors organize effects. Condit’s tables organize water and sugar. FoodData Central organizes a serving. A sentence that turns “moist in the second degree” into potassium is a parlor trick. Dried vs fresh is physics. Superfood is advertising.
+Hezekiah’s cake remains in the folklore list as a poultice. A fiber claim remains a panel. Athletes and clerks ate what was there. “Superfood of the ancients” stays buried. Three columns if an editor insists on a table. No fourth.
 
+## What this page will not print
 
-## A serving is a modern invention
+It will not print a potassium number until an editor pulls FoodData Central and writes the data-type and year. It will not print “superfood.” It will not print “ancient athletes” as a marketing clause. It will not update the *Canon* with a milligram. It will not turn Hezekiah’s cake into fiber. It will not treat Condit’s 1947 yield as a wellness panel.
 
-USDA FoodData Central’s dried-fig entry is a laboratory seeing of a tray: water driven off, sugars concentrated, fiber remaining, a mineral list that looks friendly on a panel. The access year matters because the database revises. A live import should print the data-type (SR Legacy, FNDDS, or Foundation) and the year the editor pulled it. Condit’s 1947 tables are an older cousin of the same honesty: how much water left, how much sweet stayed, what a drying yield actually costs a grower. Neither desk owes Avicenna a milligram.
+It will print three desks and a physics: water leaves, sugar stays, freight chose dry, wellness photographs dew. The medicine essays hold Dioscorides and Ibn Sīnā as physicians. The drying essays hold the tray and the tunnel. This page holds the police between them. Three columns if a table is required. No fourth.
 
-Humoral language organizes *effects* — softening, heating, moistening — because the physician’s job was to place a food in a body already described as a balance. A dried fig and a fresh fig can sit in different degrees. That is not a failed nutrition label. It is a different question. The failure is the magazine sentence that “updates” the Canon with potassium and calls the update science.
+## Three businesses, not one science
 
-Hezekiah’s cake remains a poultice. A fiber claim remains a panel. Athletes in antiquity ate what was there. So did everyone else. “Superfood of the ancients” is a cart missing a horse.
+A packing house is a business of yield. Condit’s 1947 tables exist because a dryer who does not know what a cull pile costs will lie to himself. A regulator is a business of servings. FoodData Central exists because a label needs a number that can be revised. A physician in the *Canon* is a business of balance. Degrees exist because a body was already described as heat and moisture. Three businesses. One fruit. The failure is the magazine that pretends they merged.
 
-If a later revision wants a table, print three columns — humoral note, Condit yield, USDA serving — and refuse to add a fourth column that pretends they convert.
-
-
-## Three desks that do not convert
-
-Dioscorides and Ibn Sīnā organize fig by effect and by humoral quality — softening, heating, moistening, a different sentence for fresh and dried. Condit’s 1947 tables organize it by water driven off and sugar that stayed, a drying yield that costs a grower. USDA FoodData Central organizes it by a serving and a nutrient list that revises. Print the data-type and the access year on import. A magazine that “updates” the Canon with potassium is doing parlor magic.
-
-Dried figs are dense sweet and fiber. Fresh figs are mostly water and a short clock. That physics is why freight dried and why a wellness brand photographs dew on a split fruit. Hezekiah’s cake (2 Kings 20:7) is a poultice. A fiber claim is a panel. They do not translate. Ancient athletes ate what was there. So did ancient clerks. “Superfood of the ancients” is a cart without a horse.
-
-If a later editor wants a table, print three columns — humoral note, Condit yield, USDA serving — and refuse a fourth that pretends they convert. The medicine articles hold the trunk. This one holds the police.
-
-
-## Three desks that do not convert
-
-Dioscorides and Ibn Sīnā organize fig by effect and by humoral quality —
-softening, heating, moistening, a different sentence for fresh and dried.
-Condit’s 1947 tables organize it by water driven off and sugar that stayed,
-a drying yield that costs a grower. USDA FoodData Central organizes it by a
-serving and a nutrient list that revises. Print the data-type and the access
-year on import. A magazine that “updates” the Canon with potassium is doing
-parlor magic.
-
-Dried figs are dense sweet and fiber. Fresh figs are mostly water and a
-short clock. That physics is why freight dried and why a wellness brand
-photographs dew on a split fruit. Hezekiah’s cake (2 Kings 20:7) is a
-poultice. A fiber claim is a panel. They do not translate. Ancient athletes
-ate what was there. So did ancient clerks. “Superfood of the ancients” is a
-cart without a horse. If a later editor wants a table, print three columns —
-humoral note, Condit yield, USDA serving — and refuse a fourth that pretends
-they convert.
-
-
-## Potassium is not a humor
-
-“Moist in the second degree” does not become a milligram. Dioscorides and
-Ibn Sīnā organize effect. Condit 1947 organizes water driven off and sugar
-that stayed — a grower’s cost. FoodData Central organizes a serving that
-revises; print data-type and access year. A fourth column that pretends
-they convert is parlor magic.
-
-Dried is dense sweet and fiber. Fresh is water and a short clock. That is
-why freight dried and why a wellness brand photographs dew. Hezekiah’s
-cake is a poultice. A panel is a panel. Athletes and clerks ate what was
-there. “Superfood of the ancients” is a cart without a horse. Three
-columns if an editor wants a table. No fourth.
-
-
-## A serving revises; a humor does not
-
-FoodData Central will change a number. Ibn Sīnā will not become
-potassium. Condit’s drying yield will not become a wellness panel.
-Print access year on the modern desk. Dried versus fresh is physics.
-Superfood is a cart. Three columns if you must. The medicine essays
-hold the trunk. This page holds the police.
-
-
-## Fiber is a panel; a cake is a poultice
-
-They do not translate. Condit’s water-off table is a grower’s cost.
-FoodData Central is a serving that revises. Humors are degrees. Print
-three columns if an editor insists. Refuse the fourth. Superfood stays
-a cart.
-
-
-## Access year or do not print the serving
-
-FoodData Central revises. A magazine that cites “USDA” without a
-data-type and year is writing a vibe. Condit’s table is historical
-yield. Humors are not potassium. Three desks. No conversion.
-
-
-## Dried versus fresh is the only physics
-
-Water leaves. Sugar stays. Freight chose dry. Wellness photographs dew.
-That split is older than a panel and younger than no claim at all. Do
-not convert a humor into a milligram.
+Winter freight chose the dry face because water is heavy and rot is fast. A wellness photograph chooses the fresh face because dew looks like virtue. Neither choice is a humor. Neither choice is a milligram. Print the desk you are sitting at.
 
 ## Sources for this piece
 
-- Dioscorides; Ibn Sīnā — humoral/food-medicine.
-- Condit 1947 composition / curing yields.
-- USDA FoodData Central — access year on import.
+- Dioscorides, *De Materia Medica*; Ibn Sīnā, *al-Qānūn* book 2, fig monograph.
+- Condit 1947, composition and curing yields.
+- USDA FoodData Central — cite data-type and access year on any live number.
 
 See `BIBLIOGRAPHY.md`.

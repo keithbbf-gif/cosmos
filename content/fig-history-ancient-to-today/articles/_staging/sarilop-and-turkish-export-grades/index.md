@@ -17,7 +17,7 @@ wp_status: draft
 figures:
   - shared.map-med-belt
   - shared.process-drying-sundry
-  - shared.chart-variety-regions
+  - sarilop.calimyrna-ship-1912
 categories:
   - History of the Fig
 tags:
@@ -109,50 +109,22 @@ exists. Whether a supermarket in Düsseldorf honors the fence is a different
 police.
 
 
-## Ninety, pale, seeded — a law
+Elsie Lower Pomeroy painted the same wood after a refrigerated shipment in 1912 and labeled it Calimyrna. That is the freight face of Sarılop under the California stitch: what a lawyer in Aydın later wrote as thin-shelled and seeded, seen on a card after a cold ride. It is not the EU map. It is the clone leaving town.
 
-Not more than ninety fruits to the kilo. Whitish-yellow. Thin-shelled.
-Seeds filled. Southwest faces, 0–900 metres, a freight-book of Menderes
-towns. EU 17 February 2016; earlier Turkish GI in some national summaries;
-UK scheme 31 December 2020. Condit’s Calimyrna is this wood under another
-stitch. Without the wasp the crop drops. With it, the taste Europe learned
-to call Smyrna.
+<!-- figure-id: sarilop.calimyrna-ship-1912 -->
+![USDA watercolor of Calimyrna figs after refrigerated shipment, 1912.](../../../assets/images/sarilop-and-turkish-export-grades/usda-pom-07439-calimyrna-ship.jpg)
 
-Caria as etymology is a bow. Caria as unbroken orchard is tone.
-İncirliova is a place name. FAOSTAT’s Turkish first-place is a year
-(350,000 t in Helgi’s 2022 mirror; about 356,000 in 2023 compilations).
-The port was Smyrna. The legal name is the valley. Substitution is why the
-fence exists. A Düsseldorf box that ignores the fence is a different
-police.
+*Figure 4. Elsie Lower Pomeroy, Calimyrna after refrigerated shipment, 1912. USDA NAL POM00007439. Public domain. Freight face of Sarılop; not the Aydın specification map.*
 
+Whitish-yellow and thin-shelled are adjectives a lawyer can enforce and a substitution can fake. Seeds filled is the wasp’s signature — the same biology Heiges painted on Roeding’s Endgere card in 1899. Ninety to the kilo is a count. Southwest faces are a climate. Germencik to Tire in the specification is a freight-book of towns, not a tourist loop. Caria as etymology is a bow. Caria as unbroken orchard is tone. İncirliova — fig-plain — is a place name. Print the FAOSTAT year. Keep Smyrna for the quay. Keep the legal name for the valley.
 
-## Thin shell is a legal look
-
-Whitish-yellow and thin-shelled are adjectives a lawyer can enforce and
-a substitution can fake. Seeds filled is the wasp’s signature. Ninety
-to the kilo is a count. Southwest faces are a climate. The 2016
-registration is a date. Caria is a bow. İncirliova is a plain. Print
-the FAOSTAT year. Keep the port name off the variety label.
-
-
-## Lob Injir, Loh Injir, Sari Lop
-
-Condit’s aliases are the same wood under other spellings. Calimyrna is
-the stitch. The 2016 adjectives are the law. Ninety to the kilo is a
-count. Substitution is why the law exists. Print the FAOSTAT year. Keep
-Smyrna for the quay.
-
-
-## Germencik to Tire is a freight-book
-
-The specification’s town list is how a lawyer draws a valley. It is
-not a tourist loop. Ninety to the kilo, thin shell, seeded: the
-adjectives those towns must meet. Smyrna remains the quay word.
+Pomeroy’s refrigerated-shipment card is the clone after a cold ride, already wearing the California stitch. Aydın’s 2016 adjectives are the clone at home. Same wood. Two faces. Keep Smyrna for the quay.
 
 ## Sources for this piece
 
 - Aydın İnciri product specification (DEFRA/EU PDF); GOV.UK listing.
 - Condit, Calimyrna / Loh Injir notes.
 - FAOSTAT via Helgi 2022 / 2023 compilations (cite the year you print).
+- USDA NAL POM00007439 (Calimyrna after refrigerated shipment).
 
 See `BIBLIOGRAPHY.md`.
