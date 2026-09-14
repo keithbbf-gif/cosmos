@@ -16,7 +16,7 @@ citations:
   - "AWI / WI healthcare woodwork notes (cleanability, edges)."
   - "BBF lane: healthcare and hospitality FF&E as a millwork customer, not a brochure."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 

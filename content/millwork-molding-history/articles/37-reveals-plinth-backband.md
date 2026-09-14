@@ -16,7 +16,7 @@ citations:
   - "Period American plinth-block door casings."
   - "Shop drawings: backband as a second knife, not caulk."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 

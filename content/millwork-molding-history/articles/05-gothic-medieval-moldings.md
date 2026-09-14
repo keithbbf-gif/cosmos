@@ -16,7 +16,7 @@ citations:
   - "A. W. N. Pugin, The True Principles of Pointed or Christian Architecture (London, 1841)."
   - "James Newlands, The Carpenter’s Assistant (mid-19th c.)."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 

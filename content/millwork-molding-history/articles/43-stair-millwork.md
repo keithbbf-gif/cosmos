@@ -16,7 +16,7 @@ citations:
   - "AWI, stairs and railings."
   - "Shop practice: CNC newels, moulder nosing, site fit."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 

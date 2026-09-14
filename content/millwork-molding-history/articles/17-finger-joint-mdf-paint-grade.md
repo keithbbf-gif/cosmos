@@ -16,7 +16,7 @@ citations:
   - "WMMPA / industry practice on primed finger-joint moulding."
   - "Southern humidity and MDF swelling — shop practice, not a lab paper."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 

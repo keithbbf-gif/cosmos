@@ -16,7 +16,7 @@ citations:
   - "C. R. Tompkins, A History of the Planing-Mill (New York, 1889)."
   - "Encyclopedia of Arkansas, “Bradley County.”"
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 

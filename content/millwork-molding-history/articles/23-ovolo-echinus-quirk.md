@@ -16,7 +16,7 @@ citations:
   - "Calder Loth, quirked ovolo definition (ICAA)."
   - "1911 Britannica, ovolo / echinus."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 

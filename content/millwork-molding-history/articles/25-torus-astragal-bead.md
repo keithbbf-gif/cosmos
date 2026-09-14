@@ -16,7 +16,7 @@ citations:
   - "1911 Britannica, torus, astragal, bead-and-reel."
   - "Hatfield, American House Carpenter, bead/astragal."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 

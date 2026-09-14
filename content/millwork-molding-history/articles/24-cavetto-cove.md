@@ -16,7 +16,7 @@ citations:
   - "Classical Proportions, Victorian scotia variation."
   - "1911 Britannica, cavetto."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 
@@ -24,7 +24,7 @@ graphics_agent: v1
 
 Cavetto is a quarter hollow, the opposite of an ovolo. It ends in a point. It covers. It sheds. It will not look like it is holding a corona, because it is not. Cove is the shop word, and the shop word got stretched to mean any hollow, including a sprung ranch stick that replaced a whole cornice. The stretch is how rooms lost their hats.
 
-A large Egyptian gorge is a cavetto at architectural volume. A scotia is a deeper, darker hollow with a different job (separate, make night). Do not grind them as cousins just because both go in. Jobs first.
+A large Egyptian gorge is a cavetto at architectural volume. A scotia is a deeper, darker hollow with a different job (see the scotia essay — there the job is night). Do not grind them as cousins just because both go in. Jobs first.
 
 ## A point that must not carry
 

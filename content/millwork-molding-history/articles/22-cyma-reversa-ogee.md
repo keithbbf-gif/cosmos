@@ -16,7 +16,7 @@ citations:
   - "1911 Britannica, cyma-reversa / ogee."
   - "Jane Griswold Radocchia on Benjamin and falling water (2009)."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 

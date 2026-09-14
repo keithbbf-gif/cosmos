@@ -16,7 +16,7 @@ citations:
   - "Asher Benjamin, fillet and scotia as separators (1827)."
   - "Vignola / Gibbs plates of the Attic base."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 

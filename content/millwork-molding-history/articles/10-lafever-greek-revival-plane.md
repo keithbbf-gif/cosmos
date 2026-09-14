@@ -16,7 +16,7 @@ citations:
   - "Calder Loth, ICAA, on Glen Maury and Annandale mantels."
   - "William Strickland, Tennessee State Capitol (completed 1859)."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 

@@ -16,7 +16,7 @@ citations:
   - "R. G. Hatfield, The American House Carpenter, § mouldings."
   - "Andrea Palladio, I quattro libri dell'architettura (Venice, 1570)."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 

@@ -16,7 +16,7 @@ citations:
   - "Manufacturer crown/base install notes (nested, nail into framing)."
   - "Shop practice: leave extra length for scribes on stain-grade."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 

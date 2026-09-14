@@ -16,7 +16,7 @@ citations:
   - "VintageMachinery.org, short history of moulding machines."
   - "William Woodworth planer patent lineage (1828 and after)."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 

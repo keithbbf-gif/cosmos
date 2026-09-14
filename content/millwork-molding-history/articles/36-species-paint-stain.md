@@ -16,7 +16,7 @@ citations:
   - "Bradley Lumber postcard: mild-textured oak, Arkansas soft pine."
   - "Shop practice: paint-grade poplar vs stain-grade oak."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 

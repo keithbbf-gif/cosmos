@@ -16,7 +16,7 @@ citations:
   - "Period U.S. picture-rail practice, c. 1890–1930."
   - "Shop practice: chair height is not picture-rail height."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 

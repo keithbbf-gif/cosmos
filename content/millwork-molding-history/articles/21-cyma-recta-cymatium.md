@@ -16,7 +16,7 @@ citations:
   - "Asher Benjamin, covering members (1827)."
   - "Classical Proportions, cyma–corona–bedmould."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 

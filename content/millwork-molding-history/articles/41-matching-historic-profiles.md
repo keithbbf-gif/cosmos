@@ -16,7 +16,7 @@ citations:
   - "Custom knife shops: grind-to-sample."
   - "NPS / rehab notes on replacing wood features in kind [VERIFY] brief."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 

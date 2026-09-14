@@ -16,7 +16,7 @@ citations:
   - "William Chambers, Treatise on Civil Architecture, interior cornice bounds."
   - "U.S. postwar tract-house millwork practice (shop memory; [VERIFY] local code year)."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 

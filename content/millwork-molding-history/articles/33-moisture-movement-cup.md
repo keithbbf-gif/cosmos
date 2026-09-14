@@ -16,7 +16,7 @@ citations:
   - "Gene Wengert / Wood-Doctor practice on EMC."
   - "Shop practice: Southern acclimation before install."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 
@@ -24,7 +24,7 @@ graphics_agent: v1
 
 A profile is a weather report. You cut away one face more than the other, you cut across rings, you send the stick from a 7-percent kiln into an Arkansas jobsite that is thinking about 12. The stick cups toward the dry side or the wet side depending on who you ask and what the rings were doing. The FPL *Wood Handbook* is the desk science. Wengert’s EMC talk is the shop science. Our county is the weather.
 
-Interior target moisture is often talked as 6–8 percent. `[VERIFY]` against the job’s HVAC and the time of year. A June corridor with no air on is not 6–8. If you install to a winter kiln number in that corridor, winter will open the joints or summer will hump the long runs. Acclimate in the room, not in the truck.
+Interior target moisture is often cited as 6–8 percent. `[VERIFY]` against the job’s HVAC and the time of year. A June corridor with no air on is not 6–8. If you install to a winter kiln number in that corridor, winter will open the joints or summer will hump the long runs. Acclimate in the room, not in the truck.
 
 ## The kiln ticket is part of the profile
 

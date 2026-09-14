@@ -16,7 +16,7 @@ citations:
   - "William Chambers, interior cornice 1/15 to 1/20."
   - "Shop practice: landing on the outer ceiling edge."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 

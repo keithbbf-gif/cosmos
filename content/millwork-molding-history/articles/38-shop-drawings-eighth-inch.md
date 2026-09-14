@@ -16,7 +16,7 @@ citations:
   - "BBF lane: design-to-spec for linear millwork and CNC."
   - "Shop practice: field verify before grind."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 

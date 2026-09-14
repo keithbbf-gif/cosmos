@@ -16,7 +16,7 @@ citations:
   - "Bradley Lumber postcard: oak, pine millwork, furniture stock."
   - "Arkansas Democrat-Gazette, hardwood mill strain, 30 Nov 2008."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 

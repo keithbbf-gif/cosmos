@@ -2,7 +2,7 @@
 
 Forty-four staged shop essays under `articles/`, each with two captioned SVG figures (88 files in `assets/`). Cadence is for a future Website-GC / WordPress staging site, not live publish.
 
-Prose is filled. `voice_check: human`. `lane: bbf-millwork`. Status remains `draft` until Keith clears publish. Graphics markers and figure embeds stay aligned with the graphics pack (`graphics_agent: v1`).
+Prose is filled and editor-passed. `voice_check: edited`. `lane: bbf-millwork`. Status remains `draft` until Keith clears publish. Graphics markers and figure embeds stay aligned with the graphics pack (`graphics_agent: v1`).
 
 All files live under `content/millwork-molding-history/`.
 
@@ -25,6 +25,7 @@ python3 ../qa/check_pack.py
 - `DRAFT_CHECKLIST.md` — writer status per slug.
 - `BIBLIOGRAPHY.md` — sources named in the pack.
 - `WP_IMPORT.md` — staging-import notes.
+- `EDITOR_REPORT.md` — magazine-floor editor pass (PR #313).
 - `qa/check_pack.py` — figure-contract + voice + length checks.
 
 See `DRAFT_CHECKLIST.md` for the numbered file list.

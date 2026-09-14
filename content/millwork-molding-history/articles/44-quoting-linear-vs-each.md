@@ -16,7 +16,7 @@ citations:
   - "BBF lane: linear millwork vs CNC each-pricing."
   - "Knife grind lead time as a schedule item, not a surprise."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 

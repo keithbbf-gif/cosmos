@@ -16,7 +16,7 @@ citations:
   - "Description de l’Égypte (Paris, from 1809)."
   - "Asher Benjamin, on cavetto as a covering member (1827)."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 

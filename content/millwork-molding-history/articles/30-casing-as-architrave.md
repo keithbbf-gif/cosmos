@@ -16,7 +16,7 @@ citations:
   - "Asher Benjamin and Lafever door plates."
   - "Shop practice: reveal, plinth, backband."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 

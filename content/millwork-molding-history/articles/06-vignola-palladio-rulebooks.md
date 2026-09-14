@@ -16,7 +16,7 @@ citations:
   - "Andrea Palladio, I quattro libri dell'architettura (1570)."
   - "Isaac Ware, The Four Books of Andrea Palladio's Architecture (London, 1738)."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 

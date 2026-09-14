@@ -16,7 +16,7 @@ citations:
   - "Weinig / industrial moulder feed-rate literature."
   - "AWI, custom architectural woodwork vs stock millwork."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 

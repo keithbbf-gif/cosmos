@@ -16,7 +16,7 @@ citations:
   - "Asher Benjamin, fillet as separator."
   - "Gibbs, Tuscan cornice plates."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 

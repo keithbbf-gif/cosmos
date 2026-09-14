@@ -16,7 +16,7 @@ citations:
   - "Common U.S. spring angles 38° / 45° (stock)."
   - "Shop practice: cope inside, miter outside."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 

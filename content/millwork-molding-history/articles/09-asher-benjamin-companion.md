@@ -16,7 +16,7 @@ citations:
   - "Asher Benjamin, The American Builder's Companion (1806; 6th ed. 1827)."
   - "Minard Lafever, The Modern Builder's Guide (1833)."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 

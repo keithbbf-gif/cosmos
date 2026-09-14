@@ -16,7 +16,7 @@ citations:
   - "James Newlands, The Carpenter’s Assistant."
   - "Calder Loth, ICAA, on the change in panel treatment."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 

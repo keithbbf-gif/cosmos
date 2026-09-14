@@ -16,7 +16,7 @@ citations:
   - "Rachel Silva, Historic Downtown Warren tour script (AHPP, 2012)."
   - "McKim, Mead & White domestic interiors, 1880s–1910s."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 

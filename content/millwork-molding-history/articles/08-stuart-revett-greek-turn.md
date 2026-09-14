@@ -16,7 +16,7 @@ citations:
   - "Robert and James Adam, The Works in Architecture, vol. 1 (1778)."
   - "Julien-David Le Roy, Ruines des plus beaux monuments de la Grèce (1758)."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 

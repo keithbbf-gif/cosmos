@@ -16,7 +16,7 @@ citations:
   - "Rob Duve, grind angles ~23–25°, side clearance."
   - "Older jointing/balance notes, 6½ in circle, 5,000 rpm class."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 

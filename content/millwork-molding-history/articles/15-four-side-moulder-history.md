@@ -16,7 +16,7 @@ citations:
   - "WOOD TEC PEDIA, moulder history notes (Guilliet, Wadkin, Weinig)."
   - "Weinig company history; 35,000th moulder coverage (2013)."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 

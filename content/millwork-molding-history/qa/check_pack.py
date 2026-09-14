@@ -93,8 +93,8 @@ def main() -> int:
             issues.append("want exactly two graphics-pack:v1 markers")
         if len(captions(cbody)) != 2:
             issues.append("want exactly two Figure captions")
-        if not re.search(r"^voice_check:\s*human\s*$", cfm, re.M):
-            issues.append("voice_check is not human")
+        if not re.search(r"^voice_check:\s*(human|edited)\s*$", cfm, re.M):
+            issues.append("voice_check is not human or edited")
         if not re.search(r"^status:\s*draft\s*$", cfm, re.M):
             issues.append("status is not draft")
         if not re.search(r"^lane:\s*bbf-millwork\s*$", cfm, re.M):

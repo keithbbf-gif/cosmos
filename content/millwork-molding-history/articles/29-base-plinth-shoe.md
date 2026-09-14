@@ -16,7 +16,7 @@ citations:
   - "AWI, standing and running trim."
   - "Shop practice: shoe as floor scribe."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 

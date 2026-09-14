@@ -16,7 +16,7 @@ citations:
   - "Rex Nelson, “Pine trees, pink tomatoes,” Arkansas Democrat-Gazette (2026)."
   - "argenweb.net, Bradley Lumber Company postcard text."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 

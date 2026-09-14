@@ -16,7 +16,7 @@ citations:
   - "Healthcare/hospitality finish specs as a cleanability file."
   - "Shop practice: prefinish long runs, leave end-cut touch-up."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 

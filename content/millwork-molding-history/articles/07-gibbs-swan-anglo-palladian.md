@@ -16,7 +16,7 @@ citations:
   - "Abraham Swan, The British Architect (1745)."
   - "Calder Loth, ICAA, on Drayton Hall and Palladio Londinensis."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 

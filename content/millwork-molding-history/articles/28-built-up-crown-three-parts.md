@@ -16,7 +16,7 @@ citations:
   - "James Gibbs, order cornices."
   - "Shop practice: stacking stock WM / custom knives."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 

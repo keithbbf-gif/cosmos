@@ -16,7 +16,7 @@ citations:
   - "James Gibbs, Rules for Drawing (1732)."
   - "Classical Proportions, cornice methods 1–3."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 

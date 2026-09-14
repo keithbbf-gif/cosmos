@@ -16,7 +16,7 @@ citations:
   - "James Stuart and Nicholas Revett, The Antiquities of Athens, vol. 1 (London, 1762)."
   - "Asher Benjamin, The American Builder's Companion (1806; 1827)."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 
