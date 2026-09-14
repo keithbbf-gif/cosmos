@@ -44,14 +44,14 @@ Counted: 42 drafts.
 | 26 | `bleach-and-arkansas-hardwood` | Bleach and Arkansas hardwood | 1859 | `drafts/bleach-and-arkansas-hardwood.md` |
 | 27 | `cal-tb-117-and-nfpa-101` | CAL TB 117 and NFPA 101 | 1647 | `drafts/cal-tb-117-and-nfpa-101.md` |
 | 28 | `bifma-is-not-a-healthcare-stamp` | BIFMA is not a healthcare stamp | 1642 | `drafts/bifma-is-not-a-healthcare-stamp.md` |
-| 29 | `privacy-curtains-and-cubicle-track` | Privacy curtains and cubicle track | 670 | `drafts/privacy-curtains-and-cubicle-track.md` |
-| 30 | `ada-in-the-resident-room` | ADA in the resident room | 723 | `drafts/ada-in-the-resident-room.md` |
-| 31 | `memory-care-furniture` | Memory care furniture | 786 | `drafts/memory-care-furniture.md` |
-| 32 | `alf-vs-snf-the-residential-lie` | ALF vs SNF, the residential lie | 705 | `drafts/alf-vs-snf-the-residential-lie.md` |
-| 33 | `channel-economics-gpo-freight-install` | Channel economics, GPO, freight, install | 711 | `drafts/channel-economics-gpo-freight-install.md` |
-| 34 | `replacement-cycles-and-capex` | Replacement cycles and CapEx | 585 | `drafts/replacement-cycles-and-capex.md` |
-| 35 | `used-and-refurbished` | Used and refurbished | 573 | `drafts/used-and-refurbished.md` |
-| 36 | `how-to-read-a-spec-sheet` | How to read a spec sheet | 569 | `drafts/how-to-read-a-spec-sheet.md` |
+| 29 | `privacy-curtains-and-cubicle-track` | Privacy curtains and cubicle track | 2184 | `drafts/privacy-curtains-and-cubicle-track.md` |
+| 30 | `ada-in-the-resident-room` | ADA in the resident room | 2188 | `drafts/ada-in-the-resident-room.md` |
+| 31 | `memory-care-furniture` | Memory care furniture | 2133 | `drafts/memory-care-furniture.md` |
+| 32 | `alf-vs-snf-the-residential-lie` | ALF vs SNF, the residential lie | 1946 | `drafts/alf-vs-snf-the-residential-lie.md` |
+| 33 | `channel-economics-gpo-freight-install` | Channel economics, GPO, freight, install | 2095 | `drafts/channel-economics-gpo-freight-install.md` |
+| 34 | `replacement-cycles-and-capex` | Replacement cycles and CapEx | 1840 | `drafts/replacement-cycles-and-capex.md` |
+| 35 | `used-and-refurbished` | Used and refurbished | 1939 | `drafts/used-and-refurbished.md` |
+| 36 | `how-to-read-a-spec-sheet` | How to read a spec sheet | 2087 | `drafts/how-to-read-a-spec-sheet.md` |
 | 37 | `what-i-would-ask-a-don` | What I would ask a DON | 627 | `drafts/what-i-would-ask-a-don.md` |
 | 38 | `a-walk-through-a-real-snf-room` | A walk through a real SNF room | 721 | `drafts/a-walk-through-a-real-snf-room.md` |
 | 39 | `headwalls-and-overbed-light` | Headwalls and overbed light | 504 | `drafts/headwalls-and-overbed-light.md` |
