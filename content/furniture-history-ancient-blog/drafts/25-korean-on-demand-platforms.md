@@ -8,7 +8,7 @@ era: 300 BCE–600 CE
 focus: ondol antecedents
 status: draft
 graphics: complete
-voice_check: edited
+voice_check: citation_pass
 ---
 
 # Korean floor culture and portable platforms
@@ -31,23 +31,23 @@ voice_check: edited
 
 ## Evidence and argument
 
-Korean floor culture and **ondol** heating **300 BCE–600 CE** encourage low portable platforms and heated floors rather than high chairs. Archaeology for early platforms is sparse; later Joseon evidence is often projected backward cautiously.
+On the Korean peninsula **300 BCE–600 CE**, posture follows heat. Early **ondol** (*jjokgudeul*—partial floor heating along a wall flue) appears in Goguryeo fort barracks and commoner houses long before whole-room **onggudeul** becomes a Joseon default. Portable low tables and trays matter because the floor is often the primary sitting surface; high-backed chairs enter later aristocratic strata and should not be projected backward without evidence.
 
-Comparative Japan and China essays in this series provide context without merging traditions.
+Archaeology is concrete at **Goguryeo mountain forts** in present-day South Korea. Excavations at **Mt. Acha Fort 4** and related sites (published in the *Journal of Korean Art & Archaeology* and follow-up fortress studies) document rectangular buildings with **L-shaped or straight single-flue ondol** along walls—partial heating for soldiers and workers, sometimes with iron cauldrons still sitting on fireboxes. The National Research Institute of Cultural Heritage plans illustrate barracks, mills, and forges beside these flues; furniture is implied (sleeping along the warm edge) rather than recovered as joined wood.
 
-Typology: **heated floor**, **low tray table**, **portable lectern** for elites on mats.
+Korean cultural-history summaries (National History Museum “Story of Culture and Arts” series on ondol) trace *jjokgudeul* to northern traditions and quote Song envoy **Xu Jing’s** *Xuanhe fengshi gaoli* on Goryeo winter practice—textual evidence postdating this essay’s core centuries but confirming the long floor-sitting habit once heat moved underfoot. Scholarly articles on Goguryeo architecture (KCI portal, “Goguryeo architecture and dwelling culture”) note that floor heating spread among commoners early while palaces and temples adopted ondol more slowly—mixed chair and floor protocols by class.
 
-Timeline schematic across Three Kingdoms toward Unified Silla.
+Typology (Fig. 3): **heated floor strip**, **low tray table**, **portable lectern or book stand** for elites on mats—categories inferred from mural and later Joseon text, not from a warehouse of Three Kingdoms chairs. The timeline (Fig. 1) runs from early iron-age settlement through Three Kingdoms toward Unified Silla; the peninsula map (Fig. 2) is illustrative only.
 
-Peninsula map illustrative only.
-
-**Weak article flag:** sparse early furniture finds; argument relies on architectural parallels.
+Compare China’s flued platforms and Japan’s later *zashiki* in sibling essays; convergence in cold winters does not prove a single invention narrative. Goguryeo fort data is the strongest anchor here—use it before storytelling.
 
 ## Sources to consult
 
-- Excavation reports and corpus volumes for Korean peninsula (primary).
-- Museum catalog entries consulted as **textual descriptions**; figures in this article are redrawn schematics.
-- Cross-references in `GRAPHICS_INDEX.md` for asset paths and reuse policy.
+- National Museum of Korea, *Journal of Korean Art & Archaeology*, vol. 7, Goguryeo fort architecture (Mt. Acha Fort 4 plan and ondol captions).
+- Kim Seung-gyu et al., “The Structure and Characteristics of Goguryeo Fortresses in South Korea,” *Journal of Korean Ancient Art* 9.3 (2015)—ondol in fort dwellings.
+- National History Museum of Korea, “Ondol, Korea’s Underfloor Heating System” (Story of Culture and Arts; *jjokgudeul* vs *onggudeul*; Xu Jing quotation).
+- KCI: “Goguryeo architecture and dwelling culture” (floor vs chair mix by class).
+- Redrawn schematics: `GRAPHICS_INDEX.md`, `LICENSES.md`.
 
 ## Editorial note
 
