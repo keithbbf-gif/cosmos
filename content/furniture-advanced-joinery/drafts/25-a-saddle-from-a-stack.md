@@ -2,7 +2,7 @@
 title: "A Saddle from a Stack"
 slug: a-saddle-from-a-stack
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1508
 dek: "A stack-laminated seat is a block you carve into a saddle. The joints are the glue planes; the legs still need sockets that do not land on a starved stripe."
 series: furniture-advanced-joinery

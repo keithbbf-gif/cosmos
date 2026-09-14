@@ -2,7 +2,7 @@
 title: "A Barrel in the Apron"
 slug: a-barrel-in-the-apron
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1366
 dek: "A cross-dowel — a barrel nut — is a steel nut lying in a rail, waiting for a bolt from the leg. It is not a tenon. It is how a table comes apart without losing the idea of a table."
 series: furniture-advanced-joinery

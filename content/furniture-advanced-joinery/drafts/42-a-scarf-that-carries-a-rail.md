@@ -2,7 +2,7 @@
 title: "A Scarf That Carries a Rail"
 slug: a-scarf-that-carries-a-rail
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1377
 dek: "A furniture scarf is a long-grain splice you can take apart if you keyed it, or a permanent beam if you glued it. Either way it is not a butt joint with a prayer."
 series: furniture-advanced-joinery

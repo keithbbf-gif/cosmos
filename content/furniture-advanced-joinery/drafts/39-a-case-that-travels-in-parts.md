@@ -2,7 +2,7 @@
 title: "A Case That Travels in Parts"
 slug: a-case-that-travels-in-parts
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1424
 dek: "A modular case with sliding dovetails as knockdown is a shelf that comes out the back and a side that is still a side. The glue stays in a third — or it stays in the can."
 series: furniture-advanced-joinery

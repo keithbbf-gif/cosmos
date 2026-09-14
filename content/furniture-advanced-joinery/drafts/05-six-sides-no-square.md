@@ -2,7 +2,7 @@
 title: "Six Sides, No Square"
 slug: six-sides-no-square
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1347
 dek: "A hexagonal case is six miters in a hurry if you are lazy, and six compound dovetails if you want the drum to stay a drum when someone lifts it."
 series: furniture-advanced-joinery

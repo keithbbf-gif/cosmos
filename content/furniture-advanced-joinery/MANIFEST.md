@@ -1,6 +1,6 @@
 # Manifest — Furniture Advanced Joinery
 
-Body-copy word counts (front matter excluded). Recounted after quality rewrite (2026-09-14). All essays `status: draft`, `voice_check: human`. Recap `PACK-*` blocks and Shop-morning restatements removed; cores thickened with unique shop material.
+Body-copy word counts (front matter excluded). Recounted after editor pass (2026-09-14). All essays `status: draft`, `voice_check: edited`. Writer pass removed recap blocks; editor pass stripped pack-meta throat-clear and set shop case-study voice on knockdown essays.
 
 | # | slug | file | topic | words |
 |---|---|---|---|---|
@@ -18,7 +18,7 @@ Body-copy word counts (front matter excluded). Recounted after quality rewrite (
 | 12 | `the-chest-that-takes-a-hit` | `12-the-chest-that-takes-a-hit.md` | compound-dovetails | 1589 |
 | 13 | `staves-that-make-a-door` | `13-staves-that-make-a-door.md` | curved-work | 1746 |
 | 14 | `steam-still-in-the-rail` | `14-steam-still-in-the-rail.md` | curved-work | 1699 |
-| 15 | `a-lamination-into-a-leg` | `15-a-lamination-into-a-leg.md` | curved-work | 1731 |
+| 15 | `a-lamination-into-a-leg` | `15-a-lamination-into-a-leg.md` | curved-work | 1753 |
 | 16 | `bricks-then-a-gouge` | `16-bricks-then-a-gouge.md` | curved-work | 1638 |
 | 17 | `a-shoulder-that-is-not-square` | `17-a-shoulder-that-is-not-square.md` | curved-work | 1663 |
 | 18 | `bend-first-then-tenon` | `18-bend-first-then-tenon.md` | curved-work | 1544 |
@@ -36,20 +36,20 @@ Body-copy word counts (front matter excluded). Recounted after quality rewrite (
 | 30 | `a-pedestal-that-splits` | `30-a-pedestal-that-splits.md` | knockdown | 1342 |
 | 31 | `a-barrel-in-the-apron` | `31-a-barrel-in-the-apron.md` | knockdown | 1366 |
 | 32 | `threads-in-the-hardwood` | `32-threads-in-the-hardwood.md` | knockdown | 1380 |
-| 33 | `thirty-two-and-the-hole` | `33-thirty-two-and-the-hole.md` | knockdown | 1382 |
-| 34 | `a-cam-that-is-not-a-joint` | `34-a-cam-that-is-not-a-joint.md` | knockdown | 1379 |
+| 33 | `thirty-two-and-the-hole` | `33-thirty-two-and-the-hole.md` | knockdown | 1365 |
+| 34 | `a-cam-that-is-not-a-joint` | `34-a-cam-that-is-not-a-joint.md` | knockdown | 1378 |
 | 35 | `a-gate-that-has-to-stand` | `35-a-gate-that-has-to-stand.md` | knockdown | 1343 |
 | 36 | `a-stool-that-fits-in-a-trunk` | `36-a-stool-that-fits-in-a-trunk.md` | knockdown | 1686 |
 | 37 | `the-leaf-that-finds-the-line` | `37-the-leaf-that-finds-the-line.md` | knockdown | 1456 |
 | 38 | `a-pin-you-can-drive-back` | `38-a-pin-you-can-drive-back.md` | knockdown | 1489 |
 | 39 | `a-case-that-travels-in-parts` | `39-a-case-that-travels-in-parts.md` | knockdown | 1424 |
-| 40 | `iron-under-a-slab` | `40-iron-under-a-slab.md` | knockdown | 1429 |
-| 41 | `a-confirmat-in-ply` | `41-a-confirmat-in-ply.md` | knockdown | 1425 |
+| 40 | `iron-under-a-slab` | `40-iron-under-a-slab.md` | knockdown | 1424 |
+| 41 | `a-confirmat-in-ply` | `41-a-confirmat-in-ply.md` | knockdown | 1420 |
 | 42 | `a-scarf-that-carries-a-rail` | `42-a-scarf-that-carries-a-rail.md` | knockdown | 1377 |
 | 43 | `a-wedge-you-cannot-see` | `43-a-wedge-you-cannot-see.md` | hybrid | 1400 |
 | 44 | `a-bridle-on-a-compound-miter` | `44-a-bridle-on-a-compound-miter.md` | hybrid | 1374 |
 
-**Total:** 44 drafts, 65,940 words.
+**Total:** 44 drafts, 65,934 words.
 
 ## Pack files
 

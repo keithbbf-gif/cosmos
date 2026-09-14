@@ -2,7 +2,7 @@
 title: "Slats That Disappear"
 slug: slats-that-disappear
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1545
 dek: "A tambour is a curtain of slats glued to a canvas that has to run a track you cannot see. The joint is the slat edge, the cloth, and a channel that does not pinch in August."
 series: furniture-advanced-joinery

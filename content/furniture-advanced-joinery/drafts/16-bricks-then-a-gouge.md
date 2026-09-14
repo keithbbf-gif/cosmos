@@ -2,7 +2,7 @@
 title: "Bricks, Then a Gouge"
 slug: bricks-then-a-gouge
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1638
 dek: "A brick-laid pedestal is a stack you carve into a vase or a column. The joinery is the stack and whatever iron you hid to keep the vase from becoming a kebab."
 series: furniture-advanced-joinery

@@ -2,7 +2,7 @@
 title: "A Drawer That Bows"
 slug: a-drawer-that-bows
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1372
 dek: "A bow-front drawer is a curve you can see and a pair of dovetails that still have to meet a straight side. The front is coopered or bent. The pins do not get to pretend the world is square."
 series: furniture-advanced-joinery

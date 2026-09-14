@@ -2,7 +2,7 @@
 title: "Staves That Make a Door"
 slug: staves-that-make-a-door
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1746
 dek: "A coopered door is a barrel that learned to hang. The staves are the curve. The joints between them are long-grain, and the frame still has to let the barrel move."
 series: furniture-advanced-joinery

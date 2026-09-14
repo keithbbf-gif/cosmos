@@ -2,8 +2,8 @@
 title: "A Lamination into a Leg"
 slug: a-lamination-into-a-leg
 status: draft
-voice_check: human
-word_count: 1731
+voice_check: edited
+word_count: 1753
 dek: "A bent-laminated apron is a stack of thin truths. The tenon you cut in that stack is either a real tenon in long grain or a bundle of glue lines pretending to be one."
 series: furniture-advanced-joinery
 topic: curved-work
@@ -32,7 +32,7 @@ The apron came off the form as a single curve with stripes. Five leaves of oak, 
 
 <!-- PHOTO: fig-01 D:\BBF\BBF Photos — laminated apron on form, leaves visible (filename pending shop pull) -->
 
-Bent lamination is how a small shop gets a fair curve without a steam box and without a pile of broken crests. It is also how a small shop gets a joint that is secretly a glue test. This essay is the test.
+Bent lamination is how a small shop gets a fair curve without a steam box and without a pile of broken crests. It is also how a small shop gets a joint that is secretly a glue test. The mortise does not care that the rail was fair on the form. It cares whether the cheeks are still wood when someone sits on the corner.
 
 ## Leaves that can be a tenon
 

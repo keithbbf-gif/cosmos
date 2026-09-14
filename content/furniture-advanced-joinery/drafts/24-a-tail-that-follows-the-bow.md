@@ -2,7 +2,7 @@
 title: "A Tail That Follows the Bow"
 slug: a-tail-that-follows-the-bow
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1479
 dek: "A sliding dovetail that is not straight in plan — a bowed rail, a curved divider — is a socket you cannot run with a straight fence. The tail has to be fair, and so does the hole."
 series: furniture-advanced-joinery

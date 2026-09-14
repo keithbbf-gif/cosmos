@@ -2,7 +2,7 @@
 title: "Bend First, Then Tenon"
 slug: bend-first-then-tenon
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1544
 dek: "A laminated or steamed rail that is tenoned while it is still straight is a rail whose tenons will point at yesterday. Bend, wait, then cut."
 series: furniture-advanced-joinery

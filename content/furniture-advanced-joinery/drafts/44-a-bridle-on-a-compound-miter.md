@@ -2,7 +2,7 @@
 title: "A Bridle on a Compound Miter"
 slug: a-bridle-on-a-compound-miter
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1374
 dek: "A picture-frame table, a sloped rim, a hopper that wanted teeth: the bridle is an open mortise on an end that is not square. Two cheeks, a slot, and a miter that still has to shut."
 series: furniture-advanced-joinery

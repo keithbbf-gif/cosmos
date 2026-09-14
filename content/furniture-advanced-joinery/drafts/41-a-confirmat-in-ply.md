@@ -2,8 +2,8 @@
 title: "A Confirmat in Ply"
 slug: a-confirmat-in-ply
 status: draft
-voice_check: human
-word_count: 1425
+voice_check: edited
+word_count: 1420
 dek: "A confirmat is a fat screw with a thread that likes plywood. It is a knockdown if you can get it out. It is a joint if you piloted both pieces as if you meant them to meet again."
 series: furniture-advanced-joinery
 topic: knockdown
@@ -32,7 +32,7 @@ The confirmat went in with that waxy, slow bite that means the pilot was right, 
 
 <!-- PHOTO: fig-01 D:\BBF\BBF Photos — confirmat in plywood case corner, head seated (filename pending shop pull) -->
 
-This belongs next to the 32mm essay. Same world. A one-man shop will still build a ply case that has to come apart. Confirmats can be removed and driven again a few times if you did not wreck the edge. After a few times, the edge is a hole. Then you insert, or you dowel, or you admit the case is now permanent.
+Same world as a bored 32mm row: sheet goods, a hallway, a case that has to come apart. Confirmats can be removed and driven again a few times if you did not wreck the edge. After a few times, the edge is a hole. Then you insert, or you dowel, or you admit the case is now permanent.
 
 Ply is the native food. I will not confirmat a walnut solid case to save an afternoon. Solids get inserts or tails. The caption says ply and screw, or it does not get this screw.
 

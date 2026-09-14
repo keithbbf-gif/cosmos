@@ -2,7 +2,7 @@
 title: "Threads in the Hardwood"
 slug: threads-in-the-hardwood
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1380
 dek: "A threaded insert is a steel hole you give a rail so a machine screw can come and go. End grain without an insert is a hole that gets bigger every move."
 series: furniture-advanced-joinery

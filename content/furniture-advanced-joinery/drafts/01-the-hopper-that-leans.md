@@ -2,7 +2,7 @@
 title: "The Hopper That Leans"
 slug: the-hopper-that-leans
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1408
 dek: "A sloped-side box will not stand on a square dovetail. Compound tails, a bevel gauge that does not lie, and the first dry-fit that still wants to walk downhill."
 series: furniture-advanced-joinery

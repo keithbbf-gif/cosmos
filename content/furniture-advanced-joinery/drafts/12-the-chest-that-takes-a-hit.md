@@ -2,7 +2,7 @@
 title: "The Chest That Takes a Hit"
 slug: the-chest-that-takes-a-hit
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1589
 dek: "A thick-corner through-dovetail on a blanket chest is not the craft-pack drawer pin. It is layout at a scale that will rack when two people lift, and a lid that will wrack the rim if you treated it like a box."
 series: furniture-advanced-joinery

@@ -2,7 +2,7 @@
 title: "A Column from Staves"
 slug: a-column-from-staves
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1469
 dek: "A staved cylinder is a coopered door stood on end and asked to be a post. The joints are long-grain; the load is compression; the top still needs a block that is not a wish."
 series: furniture-advanced-joinery

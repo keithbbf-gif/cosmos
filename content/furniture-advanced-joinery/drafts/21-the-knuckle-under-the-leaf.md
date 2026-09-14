@@ -2,7 +2,7 @@
 title: "The Knuckle Under the Leaf"
 slug: the-knuckle-under-the-leaf
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1504
 dek: "A rule joint is a pair of matched profiles that hide a hinge. When the leaf drops, the knuckle stays in the dark. When the leaf lifts, the table is one top if you cut the cove to the pin."
 series: furniture-advanced-joinery

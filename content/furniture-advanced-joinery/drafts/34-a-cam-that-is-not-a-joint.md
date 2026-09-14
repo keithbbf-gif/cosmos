@@ -2,8 +2,8 @@
 title: "A Cam That Is Not a Joint"
 slug: a-cam-that-is-not-a-joint
 status: draft
-voice_check: human
-word_count: 1379
+voice_check: edited
+word_count: 1378
 dek: "A cam lock is a clamp you leave in the cabinet. It can be a legitimate knockdown. It cannot be the only sentence in a piece you called furniture."
 series: furniture-advanced-joinery
 topic: knockdown
@@ -32,7 +32,7 @@ The cam turned with that cheap, bright click everyone knows from a box that came
 
 <!-- PHOTO: fig-01 D:\BBF\BBF Photos — cam lock and dowel in a case corner, open (filename pending shop pull) -->
 
-This is the honest-knockdown essay the brief asked for. Not every knockdown is a tusk tenon. Some of it is hardware that a customer can turn with a screwdriver on a Sunday. The advanced part is knowing when that is enough.
+Not every knockdown is a tusk tenon. Some of it is hardware that a customer can turn with a screwdriver on a Sunday. The work is knowing when that click is enough — and when it is a confession in zinc.
 
 A ply closet that comes apart when the shop needs the floor for a table glue-up is a citizen. A rental cabinet that leaves no scars in a wall is a citizen. The click is allowed to be proud of that work. The click is not allowed to wear a dovetail’s clothes.
 
@@ -82,7 +82,7 @@ A rental move is a hallway test. The cabinet comes apart on a Sunday with one sc
 
 ## The sentence I will not write
 
-I will not write that cams are “just as strong as dovetails if installed correctly.” They are not the same sentence. They can be strong enough for a ply box. Enough is a word. As-strong-as is a caption that is doing sales. This pack does not do that caption.
+I will not write that cams are “just as strong as dovetails if installed correctly.” They are not the same sentence. They can be strong enough for a ply box. Enough is a word. As-strong-as is a caption that is doing sales. I will not write that caption.
 
 ## Failures I will own
 

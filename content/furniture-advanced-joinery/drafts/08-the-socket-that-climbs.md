@@ -2,7 +2,7 @@
 title: "The Socket That Climbs"
 slug: the-socket-that-climbs
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1718
 dek: "A compound sliding dovetail is a shelf or rail that does not meet the case at ninety. The socket climbs, the tail has two slopes, and a square bit is the wrong religion."
 series: furniture-advanced-joinery

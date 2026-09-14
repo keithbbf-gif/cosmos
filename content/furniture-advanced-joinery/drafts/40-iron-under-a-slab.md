@@ -2,8 +2,8 @@
 title: "Iron Under a Slab"
 slug: iron-under-a-slab
 status: draft
-voice_check: human
-word_count: 1429
+voice_check: edited
+word_count: 1424
 dek: "A live-edge slab on a steel base is a movement problem wearing a modern costume. Figure-eights, slotted C-channel, a KD base — the joint is how the slab is allowed to be a tree."
 series: furniture-advanced-joinery
 topic: knockdown
@@ -33,7 +33,7 @@ The slab had already moved. I could see it in the finish — a dull line where a
 
 <!-- PHOTO: fig-01 D:\BBF\BBF Photos — slab underside, figure-eights or slotted channel (filename pending shop pull) -->
 
-This pack is joinery, not a slab-fashion catalog. The knockdown is the base coming off so the slab can go up a stair. The joint is the allowance. Fasteners live in slots. A plate that wants to be glued to a face is a prison I will not build.
+I am not writing a slab-fashion catalog. The knockdown is the base coming off so the slab can go up a stair. The joint is the allowance. Fasteners live in slots. A plate that wants to be glued to a face is a prison I will not build.
 
 ## Three honest attachments
 
@@ -97,7 +97,7 @@ A glued prison is a split with a modern look. I have been asked to glue a slab t
 
 ## What I want from D:\BBF
 
-Underside: slots, screws in the middle of the slots, a hand for scale. The base on its own. The slab on horses. The Forstner fence with a figure-eight sitting in its recess, if that bench shot exists. No epoxy-river hero shot unless that is actually the piece, and the SEO map already said we do not romanticize that work if it is not the work. Do not invent the frame.
+Underside: slots, screws in the middle of the slots, a hand for scale. The base on its own. The slab on horses. The Forstner fence with a figure-eight sitting in its recess, if that bench shot exists. No epoxy-river hero shot unless that is actually the piece on the bench — I will not romanticize a fill I did not build. Do not invent the frame.
 
 ## The judgment
 

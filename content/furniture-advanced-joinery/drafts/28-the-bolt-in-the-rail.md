@@ -2,7 +2,7 @@
 title: "The Bolt in the Rail"
 slug: the-bolt-in-the-rail
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1344
 dek: "A bed bolt is a long iron in a rail that finds a nut in a post. The wood joint can be a stub tenon. The knockdown is the iron. If the nut spins, the bed is a hammock."
 series: furniture-advanced-joinery

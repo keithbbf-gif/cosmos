@@ -2,7 +2,7 @@
 title: "A Wedge You Cannot See"
 slug: a-wedge-you-cannot-see
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1400
 dek: "A fox-wedged tenon is a wedge you drive into a kerf as the tenon enters a stopped mortise. The joint swells in a hole you will not open again. On a splay, it is also a one-way decision."
 series: furniture-advanced-joinery

@@ -2,7 +2,7 @@
 title: "Bricks on a Corner"
 slug: bricks-on-a-corner
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1628
 dek: "A brick-laid curve that has to become a corner is two religions meeting. The bricks want a radius. The dovetail wants a board. You decide which one dies at the joint."
 series: furniture-advanced-joinery

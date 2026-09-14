@@ -2,7 +2,7 @@
 title: "A Tusk You Can Pull"
 slug: a-tusk-you-can-pull
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1514
 dek: "A tusk tenon is a through-tenon with a wedge you are supposed to remove. The trestle comes apart in a hallway. The joint is the wedge, the slot, and a shoulder that still shuts when you drive it home."
 series: furniture-advanced-joinery

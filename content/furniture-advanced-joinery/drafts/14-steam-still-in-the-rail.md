@@ -2,7 +2,7 @@
 title: "Steam Still in the Rail"
 slug: steam-still-in-the-rail
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1699
 dek: "A crest rail comes off the form wet and sure of itself. The mortises in the posts are already cut. Springback is the joint you have not met yet."
 series: furniture-advanced-joinery

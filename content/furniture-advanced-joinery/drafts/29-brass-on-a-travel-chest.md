@@ -2,7 +2,7 @@
 title: "Brass on a Travel Chest"
 slug: brass-on-a-travel-chest
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1412
 dek: "Campaign furniture is knockdown as a culture: corners you can replace, drawers that lock with a pin, brass that takes the hit so the dovetail does not have to."
 series: furniture-advanced-joinery

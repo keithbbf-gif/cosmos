@@ -2,7 +2,7 @@
 title: "A Stool That Fits in a Trunk"
 slug: a-stool-that-fits-in-a-trunk
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1686
 dek: "A campaign stool or a knockdown chair is a set of sticks and a seat that agree to be a chair again. The joint is a pin you can find in the dark."
 series: furniture-advanced-joinery

@@ -2,7 +2,7 @@
 title: "Kerfs That Must Stop"
 slug: kerfs-that-must-stop
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1544
 dek: "A kerf-bent case side is a board with a lot of saw cuts in its back, bent around a form. The joinery lives in the solid ends you did not kerf. If you kerf into a dovetail, you have a hinge you did not want."
 series: furniture-advanced-joinery

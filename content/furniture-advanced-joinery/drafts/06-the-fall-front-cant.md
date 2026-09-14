@@ -2,7 +2,7 @@
 title: "The Fall-Front Cant"
 slug: the-fall-front-cant
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1361
 dek: "A secretary with sloped sides is a drawer stack living in a hopper. The case dovetails are compound, the runners have to follow, and the fall front does not forgive a twist."
 series: furniture-advanced-joinery

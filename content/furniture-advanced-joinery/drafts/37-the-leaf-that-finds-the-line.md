@@ -2,7 +2,7 @@
 title: "The Leaf That Finds the Line"
 slug: the-leaf-that-finds-the-line
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1456
 dek: "A table extension is a pair of slides and a leaf that has to come home to a line you can feel with a fingernail. The joint is the slide, the alignment pins, and a top that is still allowed to move."
 series: furniture-advanced-joinery

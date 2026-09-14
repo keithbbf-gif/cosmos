@@ -2,7 +2,7 @@
 title: "A Shoulder That Is Not Square"
 slug: a-shoulder-that-is-not-square
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1663
 dek: "A curved rail into a straight post needs a scribed shoulder. The tenon can be ordinary. The shoulder is the joint the light will find."
 series: furniture-advanced-joinery

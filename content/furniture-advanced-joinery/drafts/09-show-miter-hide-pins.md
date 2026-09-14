@@ -2,7 +2,7 @@
 title: "Show Miter, Hide Pins"
 slug: show-miter-hide-pins
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1713
 dek: "A mitered-through dovetail shows a clean bevel on the top edge and still flashes pins on the side. The miter is a lid for the end grain. The pins are still the joint."
 series: furniture-advanced-joinery

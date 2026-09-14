@@ -2,7 +2,7 @@
 title: "A Tail on a Taper"
 slug: a-tail-on-a-taper
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1739
 dek: "A sliding dovetail into a tapered post, or a pin into a splayed leg, is a joint that changes its mind along its own length. The saw has to know which end is the fat one."
 series: furniture-advanced-joinery

@@ -2,7 +2,7 @@
 title: "Two Rows of Teeth"
 slug: two-rows-of-teeth
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1372
 dek: "A houndstooth dovetail is not decoration first. It is a second row of pins in the same corner, and the only reason to cut it is that the corner has the thickness and the load to use them."
 series: furniture-advanced-joinery
@@ -16,7 +16,7 @@ figures:
     status: needed
   - id: fig-02
     preferred: "D:\\BBF\\BBF Photos — houndstooth dry-fit, inner and outer pins showing (filename pending shop pull)"
-    caption: "The inner row is the one that actually surprises people. It also the one that blows if the chisel wanders."
+    caption: "The inner row is the one that actually surprises people. It is also the one that blows if the chisel wanders."
     credit: "Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled"
     license: "Owner clearance required."
     status: needed

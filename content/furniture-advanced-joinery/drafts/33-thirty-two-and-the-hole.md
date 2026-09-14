@@ -2,8 +2,8 @@
 title: "Thirty-Two and the Hole"
 slug: thirty-two-and-the-hole
 status: draft
-voice_check: human
-word_count: 1382
+voice_check: edited
+word_count: 1365
 dek: "The 32mm system is a grid of holes that lets a cabinet come apart and go back together. It is not handmade furniture. It is also not a sin. The sin is pretending a row of holes is a dovetail."
 series: furniture-advanced-joinery
 topic: knockdown
@@ -32,9 +32,9 @@ I drilled a test row in a scrap of maple ply, 32 millimeters on center, and the 
 
 <!-- PHOTO: fig-01 D:\BBF\BBF Photos — 32mm hole grid in a cabinet side, shop or sample (filename pending shop pull) -->
 
-This essay exists in an advanced-joinery pack because knockdown is the brief, and because a one-man shop in South Arkansas will still be asked for a run of cabinets that have to ship and hang. I will not pretend the grid is craft in the dovetail sense. I will pretend it is a joint, because it is: a coordinated set of holes that locates hinges, pins, and fasteners.
+A one-man shop in South Arkansas will still be asked for a run of cabinets that have to ship and hang. I will not pretend the grid is craft in the dovetail sense. I will treat it as a joint anyway: a coordinated set of holes that locates hinges, pins, and fasteners.
 
-A ply pantry that comes off a truck in parts and hangs square is a legitimate knockdown. The honesty is in the caption. Well-bored is a compliment. Dovetailed is a different compliment. This pack will not launder a grid into a tail.
+A ply pantry that comes off a truck in parts and hangs square is a legitimate knockdown. The honesty is in the caption. Well-bored is a compliment. Dovetailed is a different compliment. I will not call a true row a tail.
 
 ## What the number means
 
@@ -82,7 +82,7 @@ I moved the fence. The shelf leaned. I plugged the row, which in maple ply is a 
 
 I also hung Euro hinges on a solid door that cupped. The grid was fine. The door was wood. The system does not cancel seasons. Finish both sides. Keep doors in the same country as the case.
 
-Selling “handmade” on a 32mm kitchen without a single wooden joint is a caption problem. The kitchen can still be well made. The caption should not lie. This pack is not the place for that lie.
+Selling “handmade” on a 32mm kitchen without a single wooden joint is a caption problem. The kitchen can still be well made. The caption should not lie. I will not write that caption for a customer.
 
 I once bored a row from a story stick I had copied in a hurry, and the stick was 32 millimeters on the first six holes and then a little long because I had ticked the last marks from the last tick, not from the first. Compound error. The last pin leaned like a man on a porch. Now I tick every mark from the same end, or I use a manufactured spacing bar, and I test first and last before I call the row done.
 

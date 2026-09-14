@@ -2,7 +2,7 @@
 title: "An Ellipse from Segments"
 slug: an-ellipse-from-segments
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1530
 dek: "An elliptical frame is a ring of miters that are all a little different. A spline or a bridle keeps the ring from becoming a pile of pretty chords."
 series: furniture-advanced-joinery

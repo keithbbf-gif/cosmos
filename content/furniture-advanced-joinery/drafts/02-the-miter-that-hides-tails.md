@@ -2,7 +2,7 @@
 title: "The Miter That Hides Tails"
 slug: the-miter-that-hides-tails
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1449
 dek: "A secret-mitered dovetail is a box that looks like a picture-frame corner until you open it. The miter is the show. The tails are the reason it stays a box."
 series: furniture-advanced-joinery

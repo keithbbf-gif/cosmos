@@ -2,7 +2,7 @@
 title: "A Gate That Has to Stand"
 slug: a-gate-that-has-to-stand
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1343
 dek: "A gate-leg is a frame that swings to hold a leaf and then has to stand like a table, not like a door. The hinge is easy. The rack is the joint."
 series: furniture-advanced-joinery

@@ -2,7 +2,7 @@
 title: "A Socket in Green Wood"
 slug: a-socket-in-green-wood
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1524
 dek: "A Windsor-style bent stretcher in a green leg is a round tenon in a round hole that shrinks around it. The joint is the drying, if you did not bore a wish."
 series: furniture-advanced-joinery

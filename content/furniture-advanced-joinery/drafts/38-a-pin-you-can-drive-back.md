@@ -2,7 +2,7 @@
 title: "A Pin You Can Drive Back"
 slug: a-pin-you-can-drive-back
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1489
 dek: "A drawbore that is meant to come apart is a pin you did not glue and a hole you can get a punch into. The offset still pulls. The punch still finds the pin."
 series: furniture-advanced-joinery

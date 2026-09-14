@@ -2,7 +2,7 @@
 
 **Status:** staged writing. Every essay is `status: draft`. Photo slots stay `needed` until a real file is pulled from `D:\BBF`.
 
-**Count:** 44 case studies. Body words: 65,940 (range 1342–1746).
+**Count:** 44 case studies. Body words: 65,934 (range 1342–1753). Editor pass: `EDITOR_REPORT.md`; `voice_check: edited`.
 
 Folder: `content/furniture-advanced-joinery/`. This pack sits **beyond** `content/furniture-craft-blog/` — no retelling of square mortise-and-tenon, basic pins, hide-glue intro, or breadboard slots. Soft brand home is the same: a 65×15 shop in rural South Arkansas — Warren, Wilmar, Bradley County — usable later by Bradley Brand Furniture / Saline River Workshop. Optional footnotes only: [heritage](https://bradleybrandfurniture.com/heritage), [craft](https://bradleybrandfurniture.com/craft).
 
@@ -65,7 +65,7 @@ Read `STYLE_GUIDE.md` before editing. **Photos (staged):** `figures` in each dra
 - **[Steam Still in the Rail](drafts/14-steam-still-in-the-rail.md)** — `steam-still-in-the-rail` — 1699 words  
   A crest rail comes off the form wet and sure of itself. The mortises in the posts are already cut. Springback is the joint you have not met yet.
 
-- **[A Lamination into a Leg](drafts/15-a-lamination-into-a-leg.md)** — `a-lamination-into-a-leg` — 1731 words  
+- **[A Lamination into a Leg](drafts/15-a-lamination-into-a-leg.md)** — `a-lamination-into-a-leg` — 1753 words  
   A bent-laminated apron is a stack of thin truths. The tenon you cut in that stack is either a real tenon in long grain or a bundle of glue lines pretending to be one.
 
 - **[Bricks, Then a Gouge](drafts/16-bricks-then-a-gouge.md)** — `bricks-then-a-gouge` — 1638 words  
@@ -122,10 +122,10 @@ Read `STYLE_GUIDE.md` before editing. **Photos (staged):** `figures` in each dra
 - **[Threads in the Hardwood](drafts/32-threads-in-the-hardwood.md)** — `threads-in-the-hardwood` — 1380 words  
   A threaded insert is a steel hole you give a rail so a machine screw can come and go. End grain without an insert is a hole that gets bigger every move.
 
-- **[Thirty-Two and the Hole](drafts/33-thirty-two-and-the-hole.md)** — `thirty-two-and-the-hole` — 1382 words  
+- **[Thirty-Two and the Hole](drafts/33-thirty-two-and-the-hole.md)** — `thirty-two-and-the-hole` — 1365 words  
   The 32mm system is a grid of holes that lets a cabinet come apart and go back together. It is not handmade furniture. It is also not a sin. The sin is pretending a row of holes is a dovetail.
 
-- **[A Cam That Is Not a Joint](drafts/34-a-cam-that-is-not-a-joint.md)** — `a-cam-that-is-not-a-joint` — 1379 words  
+- **[A Cam That Is Not a Joint](drafts/34-a-cam-that-is-not-a-joint.md)** — `a-cam-that-is-not-a-joint` — 1378 words  
   A cam lock is a clamp you leave in the cabinet. It can be a legitimate knockdown. It cannot be the only sentence in a piece you called furniture.
 
 - **[A Gate That Has to Stand](drafts/35-a-gate-that-has-to-stand.md)** — `a-gate-that-has-to-stand` — 1343 words  
@@ -143,10 +143,10 @@ Read `STYLE_GUIDE.md` before editing. **Photos (staged):** `figures` in each dra
 - **[A Case That Travels in Parts](drafts/39-a-case-that-travels-in-parts.md)** — `a-case-that-travels-in-parts` — 1424 words  
   A modular case with sliding dovetails as knockdown is a shelf that comes out the back and a side that is still a side. The glue stays in a third — or it stays in the can.
 
-- **[Iron Under a Slab](drafts/40-iron-under-a-slab.md)** — `iron-under-a-slab` — 1429 words  
+- **[Iron Under a Slab](drafts/40-iron-under-a-slab.md)** — `iron-under-a-slab` — 1424 words  
   A live-edge slab on a steel base is a movement problem wearing a modern costume. Figure-eights, slotted C-channel, a KD base — the joint is how the slab is allowed to be a tree.
 
-- **[A Confirmat in Ply](drafts/41-a-confirmat-in-ply.md)** — `a-confirmat-in-ply` — 1425 words  
+- **[A Confirmat in Ply](drafts/41-a-confirmat-in-ply.md)** — `a-confirmat-in-ply` — 1420 words  
   A confirmat is a fat screw with a thread that likes plywood. It is a knockdown if you can get it out. It is a joint if you piloted both pieces as if you meant them to meet again.
 
 - **[A Scarf That Carries a Rail](drafts/42-a-scarf-that-carries-a-rail.md)** — `a-scarf-that-carries-a-rail` — 1377 words  

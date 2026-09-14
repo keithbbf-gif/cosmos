@@ -2,7 +2,7 @@
 title: "Half-Blind on a Slope"
 slug: half-blind-on-a-slope
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1598
 dek: "A sloped drawer front — knife edge, canted lip, a fall-front cousin — still wants half-blind pins. The sockets lean, and a square gauge line is a lie at one end."
 series: furniture-advanced-joinery

@@ -2,7 +2,7 @@
 title: "A Pedestal That Splits"
 slug: a-pedestal-that-splits
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1342
 dek: "A dining pedestal that comes apart is a block, a rod, and a set of feet that do not pretend they are a carved one-piece vase. The split is the feature."
 series: furniture-advanced-joinery
