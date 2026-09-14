@@ -3,7 +3,7 @@ title: Rosewood and the Gothic Revival parlor
 slug: rosewood-gothic-revival
 series: furniture-woods-500y
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 15
 word_target: 1650-2000
 species:
@@ -32,7 +32,7 @@ The Meeks firm’s labeled Gothic suites (the type associated with houses such a
 
 Do not invent a royal commission or a price for a Meeks suite. Museum labels and the surviving secondary woods are the evidence. Winterthur and the Met open-access records are the place to start `[CITE NEEDED: pin a specific Meeks object accession at publication]`.
 
-John Henry Belter’s laminated rosewood (patent 1858) is usually rococo, not Gothic — compound curves, roses, not quatrefoils. The V&A plywood history uses Belter as a moulded-ply milestone. A Gothic Revival chair is more often a joined or doweled frame with applied tracery and a veneered splat. If the back is several leaves in a mould, you may have a Belter-type process wearing pointed ornament. Look at the edge of the back. Laminate shows as layers. A solid splat shows as one thickness.
+John Henry Belter’s laminated rosewood (patent 1858) is usually rococo, not Gothic — compound curves, roses, not quatrefoils. The V&A plywood history uses Belter as a molded-ply milestone. A Gothic Revival chair is more often a joined or doweled frame with applied tracery and a veneered splat. If the back is several leaves in a mold, you may have a Belter-type process wearing pointed ornament. Look at the edge of the back. Laminate shows as layers. A solid splat shows as one thickness.
 
 ## The tree does not know it is Gothic
 
@@ -60,7 +60,7 @@ Southern American houses that bought New York Gothic — Natchez, the river town
 
 Rosewood dulls tools. Calcareous deposits in some *D. latifolia*, Kukachka notes, blunt edges rapidly. A 25-degree cutting angle helped him get a smooth plane surface on the Indian wood. Gothic piercing in a veneered splat is often fret-sawn through the leaf and the ground together, then filed. If the ground is poplar, the file meets a soft wood under a hard skin. The arris crumbles on the poplar side first. That is why so many Gothic chair backs show pale wounds at the points of the tracery.
 
-Finish is a high polish: filler in the coarse pore, French polish or a spirit varnish, a look like wet stone. Old pieces oxidize toward brown. The violet that catalogues praise is easier to see on a fresh scrape than on a hundred-year film. Do not sand a listed wood to find it.
+Finish is a high polish: filler in the coarse pore, French polish or a spirit varnish, a look like wet stone. Old pieces oxidize toward brown. The violet that catalogs praise is easier to see on a fresh scrape than on a hundred-year film. Do not sand a listed wood to find it.
 
 A side chair in this vocabulary is a light object with a heavy name. The back looks like a window. The seat is often a slip, upholstered, on a frame that is mahogany or a cheaper hardwood with a rosewood face on the show rails. Turn the chair. If the side rails are pale under the seat, you have the sandwich. If the legs are solid rosewood, the chair will surprise you when you lift it. Most parlor Gothic chairs are not that surprise. They are a picture of a cathedral glued to a pine idea of a chair.
 

@@ -3,7 +3,7 @@ title: Navy oak and the reserved forest
 slug: navy-oak-reserves
 series: furniture-woods-500y
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 6
 word_target: 1400-2200
 species:

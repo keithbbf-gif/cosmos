@@ -3,7 +3,7 @@ title: Boxwood stringing and the pale line
 slug: boxwood-inlay
 series: furniture-woods-500y
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 26
 word_target: 1400-2200
 species:
@@ -58,7 +58,7 @@ A pale hard line in walnut or ebony. A turned knob that feels like stone. An eng
 
 Arkansas does not grow *Buxus* as timber. A southern shop meets it as inlay stock. The local pale hard wood is maple. Different scale. Related job. The rule, the block, and the stringing line share a genus. They do not share a century. Name the tree. Then decide whether the job is a line, a knob, or a wish.
 
-Repairing a missing line is a small, slow job. Match the species if you can: box to box, holly to holly. A maple patch in a boxwood trellis will dent first and yellow differently. Cut the rebate to the old depth; do not widen it to make the work easier. Scrape, do not sand through the neighboring veneer. On a William-and-Mary oyster or a seaweed-marquetry box the pale line is part of a picture; replacing it with a fat commercial stringing from a catalogue is a different drawing. Keep the scale. A millimeter was the point.
+Repairing a missing line is a small, slow job. Match the species if you can: box to box, holly to holly. A maple patch in a boxwood trellis will dent first and yellow differently. Cut the rebate to the old depth; do not widen it to make the work easier. Scrape, do not sand through the neighboring veneer. On a William-and-Mary oyster or a seaweed-marquetry box the pale line is part of a picture; replacing it with a fat commercial stringing from a catalog is a different drawing. Keep the scale. A millimeter was the point.
 
 CITES officers meet boxwood’s neighbors more often than they meet box. A Sheraton table with rosewood banding and box stringing can need a *Dalbergia* paper to move across a border and no paper for the pale line. That asymmetry is the law, not a shop preference. Antique pieces already in the country are usually legal to own. They can be complicated to export if the dark neighbor is listed. Ask before you crate the table. The boxwood knob in your pocket is not the problem. The banding is.
 

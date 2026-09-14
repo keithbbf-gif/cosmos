@@ -3,7 +3,7 @@ title: Grain, cut, and the words shops actually use
 slug: glossary-grain-and-cut
 series: furniture-woods-500y
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 2
 word_target: 1400-2200
 species: []
@@ -22,7 +22,7 @@ A log is a cylinder of tubes. How you slice the cylinder decides the face you st
 
 Flatsawn (plain-sawn) boards are cut tangent to the rings. On the face you get arches — the cathedrals of oak and ash. The width of the board is mostly tangential grain. Tangential shrinkage is the large number in the *Wood Handbook* tables (FPL-GTR-190, ch. 4). A flatsawn white-oak board will move more in width, and it will cup so the rings try to flatten. That is not a defect. It is geometry.
 
-Quartersawn boards are cut so the rings run nearly perpendicular to the face. The face is radial. In oak, the medullary rays — ribbons of tissue that ran from pith to bark — show as flakes. English joiners and later Arts and Crafts catalogues called the look silver grain or tiger oak. Radial shrinkage is smaller. A quartersawn top still moves, but it stays flatter and wears its width change more evenly.
+Quartersawn boards are cut so the rings run nearly perpendicular to the face. The face is radial. In oak, the medullary rays — ribbons of tissue that ran from pith to bark — show as flakes. English joiners and later Arts and Crafts catalogs called the look silver grain or tiger oak. Radial shrinkage is smaller. A quartersawn top still moves, but it stays flatter and wears its width change more evenly.
 
 Riftsawn is the compromise: rings at about 30 to 60 degrees, straight stripe, fewer flakes. Chair shops like it for legs that must match. Yield is worse than flatsawing. A mill that sells “quartered and rift” as a mixed bundle is telling you to specify flake if you want flake.
 
@@ -84,7 +84,7 @@ Rotary veneer is the other conversion the figure does not draw. A log on a lathe
 
 Moisture content sits under every cut. FPL-GTR-190, chapter 4, is the handbook. Wood shrinks as it dries, more tangentially than radially, for most species about one-and-a-half to two times. A flatsawn panel in a heated apartment is the large number. A quartersawn stile next to glass is the small number. The moisture draft (`moisture-wood-movement`) walks a door through a winter. This page only needs the rule: name the cut before you name the finish.
 
-The later drafts — `quartersawn-arts-crafts`, `flatsawn-panel-figure`, `rift-cut-flooring`, `moisture-wood-movement` — take each cut into a room. This page is the vocabulary. Figure 3 is the picture. Keep both in your head when a catalogue says “solid oak” and the edge is 0.6 mm of something on a fiber core.
+The later drafts — `quartersawn-arts-crafts`, `flatsawn-panel-figure`, `rift-cut-flooring`, `moisture-wood-movement` — take each cut into a room. This page is the vocabulary. Figure 3 is the picture. Keep both in your head when a catalog says “solid oak” and the edge is 0.6 mm of something on a fiber core.
 
 ## Sources
 

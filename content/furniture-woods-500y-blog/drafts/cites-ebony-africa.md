@@ -3,7 +3,7 @@ title: African ebony and the listed black
 slug: cites-ebony-africa
 series: furniture-woods-500y
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 31
 word_target: 1650-2000
 species:
@@ -66,7 +66,7 @@ Arkansas does not grow *Diospyros* of the jet furniture kind. Persimmon (*D. vir
 
 Piano sharps were a volume market. A single keyboard is a handful of grams of jet heartwood, sawn, dyed if the sap streaked, glued to a pine or basswood carcass. Factories in the late 19th century ate *D. crassiflora* in those grams. They did not eat it as tables. When plastics took the sharps, the furniture and inlay trades remained the excuse to cut the tree. A 1 mm stringing line in a satinwood panel is the honest leftover of that trade. A “solid ebony console” on a website in 2024 is usually a stain, a hope, or a Lacey problem.
 
-Boulle’s counterpart to brass is turtle and ebony in the same Paris luxury. The Wallace Collection pieces are the place to see the black as a line, not as a slab. English Restoration cabinets used ebony as a ground for japanning and as a banding. Dutch and Antwerp ebony cabinets of the 17th century are a different, heavier claim; some of that black is stained pear even there. A lens on an unseen edge ends the argument better than a catalogue.
+Boulle’s counterpart to brass is turtle and ebony in the same Paris luxury. The Wallace Collection pieces are the place to see the black as a line, not as a slab. English Restoration cabinets used ebony as a ground for japanning and as a banding. Dutch and Antwerp ebony cabinets of the 17th century are a different, heavier claim; some of that black is stained pear even there. A lens on an unseen edge ends the argument better than a catalog.
 
 Macassar (*D. celebica*) is striped and Indonesian. It is the Art Deco face people mean when they say “ebony” and show brown lightning. It is not Gabon and not Madagascar. Do not file it under Annotation #5. Do not file Gabon under #5 either unless Species+ has moved. The 2013 listing is a population listing: Madagascar. The word ebony is not a population.
 

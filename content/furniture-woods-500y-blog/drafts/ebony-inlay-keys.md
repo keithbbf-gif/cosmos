@@ -3,7 +3,7 @@ title: Ebony, inlay, and the piano key
 slug: ebony-inlay-keys
 series: furniture-woods-500y
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 18
 word_target: 1650-2000
 species:
@@ -55,7 +55,7 @@ The piano case in rosewood or mahogany is veneer on a ground, as crotch mahogany
 
 Stringed-instrument fittings — tailpieces, frogs, tuning pegs, chinrests — are Kukachka’s “small parts” in another shop. A cello peg is a turning problem in a brittle, fine wood. A piano sharp is a planing problem in a short strip. Neither is a furniture carcase. The cabinet shop that keeps a bar of Gabon for stringing is closer to the ébéniste than to the piano factory. The scratch stock that cuts a one-millimeter groove in a mahogany rail is the Federal tool. The black line glued into that groove is this chapter. If the line is stained holly, say so on the repair ticket.
 
-Antwerp and Paris ebony cabinets of the 17th century — architectural pieces with ripple mouldings, often with painted or pietre-dure panels — are the large objects that seem to contradict the “no dining table” rule. Look again. Much of the black is veneer or a thin solid on a softwood carcase. The weight is still ugly. The show is a skin. Ripple mouldings are a separate small-wood problem, often in ebony or an ebonized fruitwood, cut against a rocking moulding plane or a dedicated engine. Do not invent a particular cabinet’s invoice. The Rijksmuseum and the V&A object records are the place to start.
+Antwerp and Paris ebony cabinets of the 17th century — architectural pieces with ripple moldings, often with painted or pietre-dure panels — are the large objects that seem to contradict the “no dining table” rule. Look again. Much of the black is veneer or a thin solid on a softwood carcase. The weight is still ugly. The show is a skin. Ripple moldings are a separate small-wood problem, often in ebony or an ebonized fruitwood, cut against a rocking molding plane or a dedicated engine. Do not invent a particular cabinet’s invoice. The Rijksmuseum and the V&A object records are the place to start.
 
 ## Workability: metal tools, chatter, a fine dust
 

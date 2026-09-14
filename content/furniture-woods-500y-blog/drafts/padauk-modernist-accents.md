@@ -3,7 +3,7 @@ title: Padauk as a modernist accent
 slug: padauk-modernist-accents
 series: furniture-woods-500y
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 27
 word_target: 1650-2000
 species:

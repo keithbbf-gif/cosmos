@@ -3,7 +3,7 @@ title: Indian rosewood and the export lane
 slug: indian-rosewood-exports
 series: furniture-woods-500y
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 43
 word_target: 1650-2000
 species:
@@ -47,7 +47,7 @@ The shake-prone core is a conversion fact. A sawyer who tries to get wide solid 
 
 Interlock means the plane will tear on the quartered stripe. Scraper. The 25-degree angle is his machine note; a hand plane with a tight mouth and a steep chipbreaker is the bench version. Calcareous specks — the “petrified” white flecks some boards show — are where a plane iron dies. Feel for them before you take a long finishing cut.
 
-As a face on a case, *D. latifolia* wants the same sandwich the Empire shop used for crotch mahogany: a sliced leaf on yellow-poplar, pine, or, later, plywood or particleboard. Hide glue, then synthetics. The leaf follows the ground. If the ground is a cheap void-core, the figure telegraphs. If the ground is Baltic birch or a decent hardwood ply, the door stays a rectangle. Molded ply versus solid is not this species’ famous hour — that is birch and the Eames-Aalto line — but a rosewood face can ride a molded shell (Jalk and others). The structure is still the laminate. The name on the catalogue is still the face.
+As a face on a case, *D. latifolia* wants the same sandwich the Empire shop used for crotch mahogany: a sliced leaf on yellow-poplar, pine, or, later, plywood or particleboard. Hide glue, then synthetics. The leaf follows the ground. If the ground is a cheap void-core, the figure telegraphs. If the ground is Baltic birch or a decent hardwood ply, the door stays a rectangle. Molded ply versus solid is not this species’ famous hour — that is birch and the Eames-Aalto line — but a rosewood face can ride a molded shell (Jalk and others). The structure is still the laminate. The name on the catalog is still the face.
 
 Piano cases in the Victorian hour used both rosewoods. Indian wood appears on instruments that are not Bahia-colored enough for the romantic caption. Smell and streak, not a dealer’s country, decide. Boulle work is ebony and brass, not this chapter.
 

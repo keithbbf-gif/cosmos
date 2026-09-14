@@ -3,7 +3,7 @@ title: Brazilian rosewood in the mid-century shop
 slug: brazilian-rosewood-midcentury
 series: furniture-woods-500y
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 42
 word_target: 1650-2000
 species:
@@ -14,7 +14,7 @@ era: "1945–1975"
 
 # Brazilian rosewood in the mid-century shop
 
-A Copenhagen sideboard of 1962 with a rosewood face is a smaller, sharper luxury than the teak dining set in the same catalogue. The magazines flattened Danish modern to a honey brown. The shops did not. Oak, teak, walnut, and rosewood were four different prices of the same grammar: visible joinery, a thin oil or a thin film, a case that shows the leaf. *Dalbergia nigra* — jacaranda da Bahia, Appendix I — is the name Americans recite. Much of the rosewood that actually left Danish factories was East Indian *D. latifolia* and related stock. Still a listed genus. Still a forest with a colonial ledger. The binomial on a vintage piece is often a guess until someone looks.
+A Copenhagen sideboard of 1962 with a rosewood face is a smaller, sharper luxury than the teak dining set in the same catalog. The magazines flattened Danish modern to a honey brown. The shops did not. Oak, teak, walnut, and rosewood were four different prices of the same grammar: visible joinery, a thin oil or a thin film, a case that shows the leaf. *Dalbergia nigra* — jacaranda da Bahia, Appendix I — is the name Americans recite. Much of the rosewood that actually left Danish factories was East Indian *D. latifolia* and related stock. Still a listed genus. Still a forest with a colonial ledger. The binomial on a vintage piece is often a guess until someone looks.
 
 ![Mean Janka hardness and oven-dry density for ten species that anchor this series (USDA FPL / Wood Database means).](../assets/species-comparison/core-species-properties.svg)
 
@@ -34,9 +34,9 @@ Mahogany, for scale, remains the carvable mid-density wood of Bowett’s 18th-ce
 
 ## Who used it, and how the joint changed
 
-Finn Juhl’s sculptural chairs are often teak or walnut; some production and some specials took rosewood. Arne Vodder’s cases, Ib Kofod-Larsen’s seating, a long list of factory sideboards from the Copenhagen and provincial plants — the rosewood pieces are the ones estate sales still photograph first. Hans Wegner’s named chairs are more often oak or walnut; rosewood appears in some production and in the market’s wish. Do not invent a particular Juhl invoice. Object records and the Guild exhibition catalogues are the evidence `[CITE NEEDED: pin one Guild-exhibition rosewood lot at publication]`.
+Finn Juhl’s sculptural chairs are often teak or walnut; some production and some specials took rosewood. Arne Vodder’s cases, Ib Kofod-Larsen’s seating, a long list of factory sideboards from the Copenhagen and provincial plants — the rosewood pieces are the ones estate sales still photograph first. Hans Wegner’s named chairs are more often oak or walnut; rosewood appears in some production and in the market’s wish. Do not invent a particular Juhl invoice. Object records and the Guild exhibition catalogs are the evidence `[CITE NEEDED: pin one Guild-exhibition rosewood lot at publication]`.
 
-Solid versus veneer is the joinery split. A solid rosewood chair seat or arm is a dense, oily member that wants sharp tools, a scraper, and a glue surface wiped of extractives. It moves less in width than a flatsawn oak seat of the same dimension, and it weighs more than the client expects when they lift the chair. A veneered case — the common sideboard — is a sliced face on a cheaper core: teak, oak, particleboard in the later cheaper lines, or a plywood that the catalogue hoped you would not ask about. The 18th-century ancestor of that sandwich is crotch mahogany on yellow-poplar (the Empire draft). The mid-century version may be a true *Dalbergia* leaf on a lauan or birch core. Look at the edge. Count plies. Weigh the door.
+Solid versus veneer is the joinery split. A solid rosewood chair seat or arm is a dense, oily member that wants sharp tools, a scraper, and a glue surface wiped of extractives. It moves less in width than a flatsawn oak seat of the same dimension, and it weighs more than the client expects when they lift the chair. A veneered case — the common sideboard — is a sliced face on a cheaper core: teak, oak, particleboard in the later cheaper lines, or a plywood that the catalog hoped you would not ask about. The 18th-century ancestor of that sandwich is crotch mahogany on yellow-poplar (the Empire draft). The mid-century version may be a true *Dalbergia* leaf on a lauan or birch core. Look at the edge. Count plies. Weigh the door.
 
 Molded ply versus solid is the other split. The V&A plywood history and the Eames DCM sit in the plywood draft; Aalto’s Paimio birch is not rosewood. Mid-century rosewood is rarely a compound-curved shell. It is a flat face or a solid sculpted member. Grete Jalk’s 1963 molded-ply chair (V&A exhibition lists) can wear a rosewood face; the structure is still laminate. Do not call a flat-faced Vodder sideboard an Eames problem. Call it a leaf-and-core problem.
 
@@ -54,7 +54,7 @@ Upholstered seating in rosewood — a frame that shows at the arm, a loose cushi
 
 Bowett’s mahogany statute (1721/1722) is not this supply. The Bahia forest and the Malabar-to-Java *Dalbergia* lane are. Enslaved and coerced labor sits in the older Brazilian extraction the way it sits in mahogany. Mid-century invoices are quieter about that. Dean’s Atlantic-forest book is still the background for *D. nigra*. Do not tell the sideboard as a Scandinavian object only.
 
-American and Italian factories ran the same darker luxury in the same years: a rosewood wall unit, a headboard, a dining table with a leaf that is too wide to be a honest solid without a price the catalogue would not print. Much of that is veneer on particleboard. The Copenhagen Guild pieces are the high end of a broader habit. A suburban “rosewood” suite of 1968 is more often the print or the cheap leaf. The mid-century draft in this series is not a license to baptize every brown wall unit *D. nigra*.
+American and Italian factories ran the same darker luxury in the same years: a rosewood wall unit, a headboard, a dining table with a leaf that is too wide to be a honest solid without a price the catalog would not print. Much of that is veneer on particleboard. The Copenhagen Guild pieces are the high end of a broader habit. A suburban “rosewood” suite of 1968 is more often the print or the cheap leaf. The mid-century draft in this series is not a license to baptize every brown wall unit *D. nigra*.
 
 ## Figure 5: Appendix I is not a style note
 

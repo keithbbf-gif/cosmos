@@ -3,7 +3,7 @@ title: Plantation teak and the papers
 slug: sustainable-teak-plantations
 series: furniture-woods-500y
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 32
 word_target: 1400-2200
 species:

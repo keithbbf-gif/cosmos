@@ -3,7 +3,7 @@ title: Teak on the deck and in the garden
 slug: teak-deck-and-garden
 series: furniture-woods-500y
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 17
 word_target: 1400-2200
 species:
@@ -29,7 +29,7 @@ A teak weather deck is a joinery problem before it is a luxury. Planks are laid 
 
 Figure 2 keeps the Indian Ocean lane in view. The garden bench of 1985 and the Bombay frigate of 1817 share a species and a port geography. They do not share a finish, a shop, or a labor system. Plantation teak from Africa and Latin America is a later supply on that same map (FPL already noted plantations). The plantation chapter (`sustainable-teak-plantations`) takes the papers. This hour is the wet face.
 
-Old Burma teak is the folklore grade: tight rings, dark, greasy. Plantation boards can be lighter, paler, wider-ringed, less oily. Both are *Tectona* if the anatomy agrees. Neither is “yacht grade” because a catalogue said so. Sapwood on a garden rail is the cheap cut; it will not last like heart. Look at the end grain. A wide pale band is a specification, not a surprise.
+Old Burma teak is the folklore grade: tight rings, dark, greasy. Plantation boards can be lighter, paler, wider-ringed, less oily. Both are *Tectona* if the anatomy agrees. Neither is “yacht grade” because a catalog said so. Sapwood on a garden rail is the cheap cut; it will not last like heart. Look at the end grain. A wide pale band is a specification, not a surprise.
 
 ## Caulking, camber, and a bench that holds water
 
@@ -47,7 +47,7 @@ American suburban “teak” of the 1960s includes true *Tectona*, and also prin
 
 Late-century garden furniture made plantation teak a patio staple. The grey bench is not neglected. It is the outdoor specification. Owners who want the honey color outdoors are choosing oil and a cloth, forever. Owners who want silver are choosing the weather. Both are honest if named. A film finish on a garden table will crack and hold water in the cracks. That is a finish failure, not a species failure.
 
-Steamer chairs and plantation chairs of the late nineteenth and early twentieth centuries sit between the campaign chest and the patio set. A steamer chair is a knockdown: slats, a sliding footrest, hardware that lets the piece fold for a deck. Some are teak, some are mahogany, some are painted beech pretending. The joint that matters is the pivot and the stop, not a glued carcase. Look at the hinge metal. Look at whether the slats can drain. A 1920s P&O-deck romance in a catalogue is not a named ship; it is a form. Do not invent a liner.
+Steamer chairs and plantation chairs of the late nineteenth and early twentieth centuries sit between the campaign chest and the patio set. A steamer chair is a knockdown: slats, a sliding footrest, hardware that lets the piece fold for a deck. Some are teak, some are mahogany, some are painted beech pretending. The joint that matters is the pivot and the stop, not a glued carcase. Look at the hinge metal. Look at whether the slats can drain. A 1920s P&O-deck romance in a catalog is not a named ship; it is a form. Do not invent a liner.
 
 Gluing and finishing may need the oil wiped back. Solvent on the joint faces, then the glue the shop trusts — often epoxy outdoors, hide or PVA indoors if the oil is cut. Silica still dulls edges. Sharp carbide. Collection of dust is not optional in a small shop. A caulking iron does not belong on a furniture seam unless you are actually laying a deck. Paying a garden-table joint with pitch is a confusion of contracts. Leave the furniture joints as joints. Leave the deck seams as seams.
 

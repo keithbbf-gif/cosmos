@@ -3,7 +3,7 @@ title: Dutch shipping and Golden Age timber
 slug: dutch-golden-age-shipping
 series: furniture-woods-500y
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 5
 word_target: 1400-2200
 species:
@@ -37,9 +37,9 @@ American white oak in the *Wood Handbook* (FPL-GTR-190, table 5–3a) is the mec
 
 ## What the Golden Age shop built
 
-The Dutch *kast* is the object to stand beside. Tall, framed, often with heavy cornice and cushioned frieze, doors on floating panels, interior of deal or oak, sometimes ebonized mouldings that are stained fruitwood or true ebony in small section. It is a linen and plate cupboard for a merchant house. The wood is tannic, ring-porous, radial on the better doors. A cheaper *kast* can be painted or grained. Graining is a skill and a disguise.
+The Dutch *kast* is the object to stand beside. Tall, framed, often with heavy cornice and cushioned frieze, doors on floating panels, interior of deal or oak, sometimes ebonized moldings that are stained fruitwood or true ebony in small section. It is a linen and plate cupboard for a merchant house. The wood is tannic, ring-porous, radial on the better doors. A cheaper *kast* can be painted or grained. Graining is a skill and a disguise.
 
-Joined stools, gateleg tables, boarded chests, and wall panelling use the same grammar as English work because the shops shared a North Sea joinery culture. Distinctions are in proportion, in the profile of a moulding, in the hardware — not in a different physics. A Haarlem panel and a Southwark panel can be the same Gdansk hinterland tree.
+Joined stools, gateleg tables, boarded chests, and wall paneling use the same grammar as English work because the shops shared a North Sea joinery culture. Distinctions are in proportion, in the profile of a molding, in the hardware — not in a different physics. A Haarlem panel and a Southwark panel can be the same Gdansk hinterland tree.
 
 After mid-century, French and Italian walnut taste and a veneer technology reach Amsterdam as they reach London. The walnut drafts take that hour. The Golden Age oak *kast* does not vanish. It becomes the conservative object in the same house that bought a veneered cabinet for the voorhuis.
 
@@ -79,7 +79,7 @@ Repair a *kast* door with quartered oak of similar ring. A wide-ringed American 
 
 ## What to look for
 
-A tall framed *kast* with floating panels, deal interiors, ebonized small mouldings, iron locks. Paint layers on a farm chest. A radial face on a door and a wilder ring on a hidden stile. A London bill that says wainscot or deal — the same words a Dutch auction used in another language.
+A tall framed *kast* with floating panels, deal interiors, ebonized small moldings, iron locks. Paint layers on a farm chest. A radial face on a door and a wilder ring on a hidden stile. A London bill that says wainscot or deal — the same words a Dutch auction used in another language.
 
 The Golden Age picture on the wall may be a calm sea. The furniture in the room paid a mill on the Zaan and a clerk at Helsingør.
 

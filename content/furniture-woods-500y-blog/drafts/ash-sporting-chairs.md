@@ -3,7 +3,7 @@ title: Ash, the hoop, and the sporting chair
 slug: ash-sporting-chairs
 series: furniture-woods-500y
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 24
 word_target: 1400-2200
 species:
@@ -44,7 +44,7 @@ Shaker tape seats are usually maple rails, not ash; the oval-box swallow-tail is
 
 Emerald ash borer (*Agrilus planipennis*) was identified in the Detroit area in 2002 (USDA / APHIS and Forest Service timelines). It has since killed ash across a huge part of the species’ North American range. The furniture implication is not that ash has left the earth. It is uneven salvage, a question over future clear wide stock, and a warning to designers who treated ash as infinite pale oak. Urban and woodland salvage has flooded some markets with dead standing timber of uneven quality. Metal in street trees ruins saws. Ask how long the tree stood dead, and whether anyone ran a detector.
 
-Europe has its own ash disaster: *Hymenoscyphus fraxineus*, ash dieback, a different organism, a similar thinning of *F. excelsior* (noted as a parallel introduced-pathogen story in the chestnut-blight review literature). English chair woods are not what they were. Use what is already down. Dry it. Do not sell stained poplar as ash. Planting and breeding programs exist. They are not a catalogue grade yet.
+Europe has its own ash disaster: *Hymenoscyphus fraxineus*, ash dieback, a different organism, a similar thinning of *F. excelsior* (noted as a parallel introduced-pathogen story in the chestnut-blight review literature). English chair woods are not what they were. Use what is already down. Dry it. Do not sell stained poplar as ash. Planting and breeding programs exist. They are not a catalog grade yet.
 
 *Fraxinus* species are not CITES furniture woods in the mahogany sense. The conservation issue is pest and disease. Street-tree furniture is a reasonable use if the wood is identified and dried. A pale ash table from domestic hardwood is still one of the more readable American buys: no appendix, anatomy you can see, a history in chairs that does not need a tropical port. The beetle makes that sentence sadder than it was in 1999. It does not make it false.
 
@@ -56,7 +56,7 @@ Through-tenons and pinned stretchers in Mission ash want the spring and the open
 
 ## What to look for
 
-Ring-porous, no big oak rays, spring in a thin member, a bend without a break. On a Windsor: the bow. On a 1900 “oak” rocker: maybe ash. On a 2010s table: sapwood that will yellow a little. On a tennis frame or a bat: handle grade, the same tree. On a new wide slab: the standing-dead question. On a stained factory chair: the end grain, not the catalogue word.
+Ring-porous, no big oak rays, spring in a thin member, a bend without a break. On a Windsor: the bow. On a 1900 “oak” rocker: maybe ash. On a 2010s table: sapwood that will yellow a little. On a tennis frame or a bat: handle grade, the same tree. On a new wide slab: the standing-dead question. On a stained factory chair: the end grain, not the catalog word.
 
 Arkansas is ash country in the same way it is oak country — mixed hardwood stands, white ash in the better soils. A shop that works it now is working a wood whose living future is being argued in extension bulletins. The boards already in stick are still boards. The hoop, the stretcher, and the sporting frame share a fiber. They do not share a century. Name the tree. Then decide whether the job is a radius, a pale top, or a salvage.
 

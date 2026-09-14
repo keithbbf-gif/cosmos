@@ -3,7 +3,7 @@ title: American colonial pine
 slug: american-colonial-pine
 series: furniture-woods-500y
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 7
 word_target: 1400-2200
 species:

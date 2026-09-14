@@ -3,7 +3,7 @@ title: Teak in the colonial dockyards
 slug: teak-colonial-dockyards
 series: furniture-woods-500y
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 16
 word_target: 1400-2200
 species:
@@ -45,7 +45,7 @@ Extraction is a political and military story as well as a forest one. Later sanc
 
 Campaign furniture is a military-administrative style: brass corners, flush handles, a chest that splits into two stacking cases, fittings that let a piece come apart for a march or a ship. Mahogany did a lot of this work in the Atlantic world. Teak did it on the Indian Ocean stations because the wood was already in the dockyard and because it would not sulk in a hold the way an under-dried oak or a soft deal carcase would. The knockdown is the joinery, not the romance. Screws, bolts, hooks, and interlocking battens — not glue as the primary contract — so a clerk or a batman could take the piece down without a bench. Recessed brass keeps the faces from tearing each other in a crate. A secret drawer is a period taste. A flush hinge is a survival habit.
 
-Nicholas Brawer’s survey of British campaign furniture is the modern catalogue habit `[CITE NEEDED: confirm edition and the teak-versus-mahogany split in the plates]`. Morgan & Sanders and later campaign shops sold the form to officers who were already living in a teak climate. Some chests are mahogany with teak slats; some are teak throughout; some are camphor or *Cedrela* cousins sold under a cedar word. A lens on an unseen rail ends the argument. The dockyard wood and the parlor wood share a binomial. They do not share a finish schedule.
+Nicholas Brawer’s survey of British campaign furniture is the modern catalog habit `[CITE NEEDED: confirm edition and the teak-versus-mahogany split in the plates]`. Morgan & Sanders and later campaign shops sold the form to officers who were already living in a teak climate. Some chests are mahogany with teak slats; some are teak throughout; some are camphor or *Cedrela* cousins sold under a cedar word. A lens on an unseen rail ends the argument. The dockyard wood and the parlor wood share a binomial. They do not share a finish schedule.
 
 Deck work taught the same manners. Teak planks on a weather deck are caulked: oakum driven into the seam with a caulking iron, then paid with pitch or marine glue. The oil in the heartwood and the silica that dulls a plane are the same facts that keep a seam from rotting out as fast as a softwood deck. The furniture chapter that follows (`teak-deck-and-garden`) takes the grey bench and the patio. The yard and the chest that left it are this hour’s objects.
 
@@ -69,6 +69,6 @@ Arkansas does not grow teak. A designer who wants the dockyard manners in a dome
 
 ## Sources
 
-Albion, *Forests and Sea Power*. USDA FPL, *Wood Handbook*, FPL-GTR-190 (teak / imported woods). Kukachka FPL-125. 1911 *Encyclopaedia Britannica*, “Teak” (Rangoon / Moulmein export snapshot). Mann, Malabar timber trade / EIC monopoly notes `[CITE NEEDED: full citation]`. Wadia / Bombay Dockyard accounts; *Trincomalee* museum history. Campaign-furniture catalogues `[CITE NEEDED]`. CITES (negative: not listed as *Dalbergia* is).
+Albion, *Forests and Sea Power*. USDA FPL, *Wood Handbook*, FPL-GTR-190 (teak / imported woods). Kukachka FPL-125. 1911 *Encyclopaedia Britannica*, “Teak” (Rangoon / Moulmein export snapshot). Mann, Malabar timber trade / EIC monopoly notes `[CITE NEEDED: full citation]`. Wadia / Bombay Dockyard accounts; *Trincomalee* museum history. Campaign-furniture catalogs `[CITE NEEDED]`. CITES (negative: not listed as *Dalbergia* is).
 
 See: `teak-deck-and-garden`, `sustainable-teak-plantations`, `navy-oak-reserves`, `mahogany-chippendale`, `intro-500-year-timber`.

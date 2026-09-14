@@ -3,7 +3,7 @@ title: Rosewood in the Victorian parlor
 slug: rosewood-victorian
 series: furniture-woods-500y
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 14
 word_target: 1650-2000
 species:
@@ -34,7 +34,7 @@ Mahogany, for scale, sits near 800 lbf and SG 0.45–0.50 (FPL imported-woods / 
 
 ## How the parlor ate a forest
 
-English Regency and French Empire already used rosewood as a show veneer and as banding on mahogany. The Victorian hour industrializes the appetite. Rococo-revival suites — laminated and carved backs, marble-top tables, étagères, whatnots — wanted a wood that took a high polish and read as luxury under gaslight. John Henry Belter’s New York patent of 1858 (the V&A plywood history flags it) is a moulded-laminate rosewood back: several leaves in a mould, carved after, produced in batches. That is plywood thinking inside a Victorian costume. The plywood draft in this series returns to Belter as a process. Here he is a consumer of *Dalbergia*.
+English Regency and French Empire already used rosewood as a show veneer and as banding on mahogany. The Victorian hour industrializes the appetite. Rococo-revival suites — laminated and carved backs, marble-top tables, étagères, whatnots — wanted a wood that took a high polish and read as luxury under gaslight. John Henry Belter’s New York patent of 1858 (the V&A plywood history flags it) is a molded-laminate rosewood back: several leaves in a mold, carved after, produced in batches. That is plywood thinking inside a Victorian costume. The plywood draft in this series returns to Belter as a process. Here he is a consumer of *Dalbergia*.
 
 Pianos ate more. Broadwood, Steinway, Chickering, a hundred provincial makers: a case is a large, stable box that must wear a figured skin and take a finish that looks like furniture, not like a crate. Rosewood veneer on a softwood or poplar ground is the standard sandwich. Hide glue, later animal-glue variants, then early synthetics. The fallboard and the lockboard are the places a restorer sees the leaf thickness. Do not belt through it. The finish is part of the object’s legal and market identity. Stripping an Appendix I case to “brighten the rosewood” is how a living-room piano becomes a lesser thing.
 
@@ -64,7 +64,7 @@ Bowett’s mahogany story is the earlier Atlantic luxury. By 1850 mahogany is st
 
 The factory multiplied the leaf. A London or New York cabinet shop of 1840 might veneer a single étagère with care. A Grand Rapids or High Wycombe plant of 1880 could put a rosewood photograph — still a real leaf, then later a print — on a carcase that left the line every hour. Marble tops, casters, tufted seats, a whatnot that is more air than wood: the silhouette is Victorian even when the face is a millimeter. Open the back. If the secondary is poplar or pine and the glue blocks are machine-cut, you are in the factory hour. If the secondary is oak and the blocks are hand-shaped, you may be earlier, or you may be a shop that kept older manners.
 
-Rococo-revival carving on a laminated back is not the same as carving on a solid Chippendale splat. Belter’s gouge meets a stack. A slip of the tool can pop a glue line. Repairs that inject hide glue and clamp in a mould are conservation. Repairs that screw a plywood patch behind a broken rose are a different object. Name the patch.
+Rococo-revival carving on a laminated back is not the same as carving on a solid Chippendale splat. Belter’s gouge meets a stack. A slip of the tool can pop a glue line. Repairs that inject hide glue and clamp in a mold are conservation. Repairs that screw a plywood patch behind a broken rose are a different object. Name the patch.
 
 ## The law that the 1880 piano did not know
 

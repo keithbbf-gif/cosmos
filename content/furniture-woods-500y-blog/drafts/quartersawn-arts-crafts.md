@@ -3,7 +3,7 @@ title: Quartersawn oak and Arts and Crafts
 slug: quartersawn-arts-crafts
 series: furniture-woods-500y
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 34
 word_target: 1400-2200
 species:
@@ -37,15 +37,15 @@ Haneca et al. (2005) and the Gdansk wainscot trade explain why a radial oak face
 
 ## Eastwood, Sapperton, East Aurora
 
-Eastwood made the American object most people mean by Mission: a settle or a library table in quartersawn white oak, through-tenons with visible pins, corbels under a top, a brown that photographed well. The mill was not a cottage. The catalogues are the proof: models, prices, a finish called fumed.
+Eastwood made the American object most people mean by Mission: a settle or a library table in quartersawn white oak, through-tenons with visible pins, corbels under a top, a brown that photographed well. The mill was not a cottage. The catalogs are the proof: models, prices, a finish called fumed.
 
-In the Cotswolds, Ernest Gimson and Sidney and Ernest Barnsley at Sapperton were closer to Morris and farther from a mail-order settle. English oak, visible joints, a finish that was not always a fume. C. F. A. Voysey’s designs — the owl suite is the postcard — used oak as a northern moral wood. Charles Limbert’s factory in Grand Rapids and then Holland, Michigan, cut cutouts into oak that was sometimes lighter, sometimes more Mackintosh than Eastwood. Elbert Hubbard’s Roycroft shops at East Aurora, New York, made a heavier, more hammered oak. The Prairie school overlapped: oak interiors that were architecture. Lesser Mission factories from Indiana to the Pacific coast flooded the catalogues after 1905. Collectors still sort by flake, by hardware, by the red decal on a drawer.
+In the Cotswolds, Ernest Gimson and Sidney and Ernest Barnsley at Sapperton were closer to Morris and farther from a mail-order settle. English oak, visible joints, a finish that was not always a fume. C. F. A. Voysey’s designs — the owl suite is the postcard — used oak as a northern moral wood. Charles Limbert’s factory in Grand Rapids and then Holland, Michigan, cut cutouts into oak that was sometimes lighter, sometimes more Mackintosh than Eastwood. Elbert Hubbard’s Roycroft shops at East Aurora, New York, made a heavier, more hammered oak. The Prairie school overlapped: oak interiors that were architecture. Lesser Mission factories from Indiana to the Pacific coast flooded the catalogs after 1905. Collectors still sort by flake, by hardware, by the red decal on a drawer.
 
 Golden oak of the 1890s — often quartersawn, often a yellow-brown varnish, pores filled — is a cousin, more factory, more Renaissance-revival leftover. Do not collapse it into Stickley. A filled golden-oak sideboard and a fumed 1910 settle are both oak. They are not the same finish religion.
 
 Museum holdings — the Art Institute of Chicago, the Dallas Museum of Art, Winterthur’s Mission pieces — are where an unstripped surface still teaches. A dealer’s “refinished Stickley” is often a darker, thicker thing than Eastwood shipped.
 
-Do not invent a catalogue price. *The Craftsman* printed them; quote a plate only with the issue in hand `[CITE NEEDED for any dollar figure]`.
+Do not invent a catalog price. *The Craftsman* printed them; quote a plate only with the issue in hand `[CITE NEEDED for any dollar figure]`.
 
 ## Joinery
 
@@ -67,7 +67,7 @@ A morning in that tent is a chemistry shift you can smell before you can see. Bo
 
 Not every brown oak chair is fumed. Many were stained and shellacked. A true fume has color in the wood. A scratch that stays pale is a stain. A scratch that stays brown is in the fiber — or a deep dye. Original finishes are thin. Restoration that pours polyurethane on a 1905 settle is a different object. The pore Stickley left open is a 1910 idea, against the filled golden-oak pore of 1892.
 
-Red oak pretending to be the 1905 catalogue is a common floor. The pore argues. The ray is quieter. The water-drop test on an unseen end still sits on white and sinks on red if the finish has not sealed the question.
+Red oak pretending to be the 1905 catalog is a common floor. The pore argues. The ray is quieter. The water-drop test on an unseen end still sits on white and sinks on red if the finish has not sealed the question.
 
 Printed “Mission oak” on a fiber core has no end-grain rings. Figure 3 cannot be faked by a photograph.
 
@@ -81,7 +81,7 @@ If you fume now, tell the client the color will keep moving. If you do not fume,
 
 ## What to look for
 
-Flake on a radial face, through-tenons, a pin that is wood, a brown that survives a scratch, thin original film, hammered hardware, a decal, a filled golden-oak cousin that is not the same religion. Morris supplied the English sentence. Stickley supplied the American mill. The ray was already in the tree when a Gdansk splitter sold wainscot. The tent made it a catalogue.
+Flake on a radial face, through-tenons, a pin that is wood, a brown that survives a scratch, thin original film, hammered hardware, a decal, a filled golden-oak cousin that is not the same religion. Morris supplied the English sentence. Stickley supplied the American mill. The ray was already in the tree when a Gdansk splitter sold wainscot. The tent made it a catalog.
 
 ## Sources
 

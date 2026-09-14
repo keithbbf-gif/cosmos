@@ -3,7 +3,7 @@ title: Density, freight, and a crate that argues
 slug: density-weight-shipping
 series: furniture-woods-500y
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 39
 word_target: 1650-2000
 species: []

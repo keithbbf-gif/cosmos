@@ -3,7 +3,7 @@ title: Reclaimed oak beams
 slug: reclaimed-oak-beams
 series: furniture-woods-500y
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 33
 word_target: 1400-2200
 species:

@@ -3,7 +3,7 @@ title: Flatsawn cathedrals and the floating panel
 slug: flatsawn-panel-figure
 series: furniture-woods-500y
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 35
 word_target: 1650-2000
 species: []
@@ -46,7 +46,7 @@ Draw-boring in oak likes riven or quartered stiles. A flatsawn stile will still 
 
 ## Fashion for the arch
 
-Matching cathedrals on a mahogany dining leaf were a pride mark. The two boards came from one flitch, opened like a book. Walnut oyster veneer is a different conversion: end-grain slices, not a flatsawn face, but the same appetite for a picture the tree did not draw as a quartered stripe. Golden-oak factory sideboards of the 1890s often showed loud flatsawn figure under a yellow varnish, pores filled. Stickley’s catalogues wanted the other face — flake — and charged for it. A flatsawn Mission chair is a cheaper cousin. Collectors still sort by the arch versus the ray.
+Matching cathedrals on a mahogany dining leaf were a pride mark. The two boards came from one flitch, opened like a book. Walnut oyster veneer is a different conversion: end-grain slices, not a flatsawn face, but the same appetite for a picture the tree did not draw as a quartered stripe. Golden-oak factory sideboards of the 1890s often showed loud flatsawn figure under a yellow varnish, pores filled. Stickley’s catalogs wanted the other face — flake — and charged for it. A flatsawn Mission chair is a cheaper cousin. Collectors still sort by the arch versus the ray.
 
 Paint hides species and cut. A pine cupboard with cathedrals under milk paint is still a flatsawn object; the panel still wants to float. Country shops knew. Some reproduction shops glue the panel “so it won’t rattle.” It will not rattle. It will split.
 
@@ -68,7 +68,7 @@ Matching cathedrals are a book-match in the solid. The sawyer opened a flitch an
 
 Rule joints on drop-leaf tables are the period answer for a flatsawn leaf that will shrink: a molded edge that hides a gap. A later factory that drops a straight butt and a metal hinge on a mahogany leaf will show a light line in winter. The 18th-century shop was not more moral. It had already lost arguments with heated rooms that were less dry than ours.
 
-Look at the groove. If the panel can move, the cathedral can stay. If the panel is a prisoner, the rings will open a crack and tell you so. Figure 3 is the picture. Keep it in your head when a catalogue says “solid oak” and the edge is 0.6 mm of something on a fiber core.
+Look at the groove. If the panel can move, the cathedral can stay. If the panel is a prisoner, the rings will open a crack and tell you so. Figure 3 is the picture. Keep it in your head when a catalog says “solid oak” and the edge is 0.6 mm of something on a fiber core.
 
 ## Sources
 

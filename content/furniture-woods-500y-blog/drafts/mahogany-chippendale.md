@@ -3,7 +3,7 @@ title: Mahogany and the Chippendale shop
 slug: mahogany-chippendale
 series: furniture-woods-500y
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 11
 word_target: 1400-2200
 species:
@@ -30,7 +30,7 @@ Adam Bowett’s thesis, *The English Mahogany Trade 1700–1793*, is the backbon
 
 Jamaica dominated the early furniture supply. Honduras “bay-wood” became a large, cheaper, often coarser supply later in the century. Cuban and Hispaniola woods had quality reputations and Spanish-imperial politics. Figure 2 puts that Atlantic lane beside Baltic oak and Indian Ocean teak. They are parallel, not a relay race.
 
-Gillow of Lancaster bought Jamaica wood as a provincial firm in a port world, not only as a London satellite (Bowett, Jamaica/Gillow paper). Twenty to forty percent of mahogany after about 1730 entered through out-ports, unlike walnut, which had been a London monopoly. Mahogany was a leveller. Provincial chairmakers could get it.
+Gillow of Lancaster bought Jamaica wood as a provincial firm in a port world, not only as a London satellite (Bowett, Jamaica/Gillow paper). Twenty to forty percent of mahogany after about 1730 entered through out-ports, unlike walnut, which had been a London monopoly. Mahogany was a leveler. Provincial chairmakers could get it.
 
 Harewood House paid Thomas Chippendale with money that sat on West Indian estates — Bowett’s opening image. The chair and the plantation are the same economy. Enslaved labor logged and milled. That belongs in the caption, not in a footnote the reader can skip.
 
@@ -54,7 +54,7 @@ Carcase work in this hour is often still oak or deal inside. The show wood is ma
 
 ## Workability and finish
 
-Mahogany planes, carves, and takes a moulding without oak’s trenches. Crotch and curl are the show veneers of the next hour (`mahogany-regency-empire`). Ribbon stripe appears when the grain interlocks and the board is quartered — more famous later in sapele than in all *Swietenia*.
+Mahogany planes, carves, and takes a molding without oak’s trenches. Crotch and curl are the show veneers of the next hour (`mahogany-regency-empire`). Ribbon stripe appears when the grain interlocks and the board is quartered — more famous later in sapele than in all *Swietenia*.
 
 It finishes like a gift: oil, wax, French polish, a film that looks deep. Old oxidized mahogany is brown. Refinishers who sand to pink and then dye fire-engine red are making a 1900s dining-room idea, not a 1760 one.
 
@@ -66,7 +66,7 @@ A carved knee on a cabriole is a cross-grain argument. The gouge works downhill 
 
 Pierced Gothic and Chinese plates in the third edition (1762) waste more wood than a solid splat. That waste is the duty cut made ordinary. A shop that could not afford to throw half a splat on the floor stayed with walnut or with a simpler back. When you see an openwork back in oak, look at the thickness. The member is usually fatter. The piercing is usually simpler. The fiber is the reason.
 
-Chippendale’s own *Director* plates are not a species catalogue. Plate after plate names the form — a “French chair,” a “Gothic chair,” a “breakfast table” — and leaves the timber to the shop. That silence is useful. The book sold a language of ornament that any timber able to take a gouge could speak. Mahogany won because it spoke that language at less risk than walnut. The plates that show pierced Gothic backs assume a wood that will hold a cusp after the fretsaw has removed half the splat. White oak can do that work if the member stays fat. Cherry can. Pine cannot. The *Director* is a joinery filter disguised as fashion.
+Chippendale’s own *Director* plates are not a species catalog. Plate after plate names the form — a “French chair,” a “Gothic chair,” a “breakfast table” — and leaves the timber to the shop. That silence is useful. The book sold a language of ornament that any timber able to take a gouge could speak. Mahogany won because it spoke that language at less risk than walnut. The plates that show pierced Gothic backs assume a wood that will hold a cusp after the fretsaw has removed half the splat. White oak can do that work if the member stays fat. Cherry can. Pine cannot. The *Director* is a joinery filter disguised as fashion.
 
 Country shops used the same imported boards for slats and stretchers without carving a leaf. Those chairs survive in greater numbers than the gilt pier tables, and they tell you more about how the timber actually entered ordinary rooms.
 

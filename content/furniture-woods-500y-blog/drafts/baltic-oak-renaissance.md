@@ -3,7 +3,7 @@ title: Baltic oak and the Renaissance panel
 slug: baltic-oak-renaissance
 series: furniture-woods-500y
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 3
 word_target: 1400-2200
 species:

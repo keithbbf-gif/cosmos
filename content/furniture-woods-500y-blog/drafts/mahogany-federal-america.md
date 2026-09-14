@@ -3,7 +3,7 @@ title: Mahogany in Federal America
 slug: mahogany-federal-america
 series: furniture-woods-500y
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 12
 word_target: 1650-2000
 species:
@@ -41,11 +41,11 @@ Enslaved labor logged and milled on the islands that filled those bills. That be
 
 The *Wood Handbook* (FPL-GTR-190, 2010) describes American mahogany as pale pink to dark reddish brown, generally straighter than African *Khaya*, easy to dry, dimensionally stable, durable, easy to work, a premier veneer wood. Janka is commonly cited near 800 lbf, specific gravity near 0.45–0.50 (imported-woods chapter / Kukachka FPL-125). Kukachka puts mahogany’s strength in the neighborhood of paper birch and black cherry. Figure 4 places that hardness among the series’ ten anchors. Softer than white oak (about 1,360 lbf, SG 0.68). Kinder than sugar maple. Strong enough, in the right section, for a square-tapered Federal leg that would look stingy in oak and glassy in hard maple.
 
-Federal chairs are often still mahogany in the solid: legs, rails, splat, a shoe. Carcases are another contract. Open a Philadelphia or New York secretary of 1795. The show surfaces are mahogany. The drawer sides, dustboards, and backboards are frequently yellow-poplar — *Liriodendron tulipifera*, FPL-GTR-190 at SG 0.42 and Janka 540 lbf — or, in New England, eastern white pine (about 380 lbf, SG 0.35). Charleston mixed pine and sometimes cypress. Hurst and Prown’s *Southern Furniture 1680–1830* and the Winterthur catalogues make that geography an attribution tool. A “Salem” piece with tulip-streaked poplar sides wants an argument.
+Federal chairs are often still mahogany in the solid: legs, rails, splat, a shoe. Carcases are another contract. Open a Philadelphia or New York secretary of 1795. The show surfaces are mahogany. The drawer sides, dustboards, and backboards are frequently yellow-poplar — *Liriodendron tulipifera*, FPL-GTR-190 at SG 0.42 and Janka 540 lbf — or, in New England, eastern white pine (about 380 lbf, SG 0.35). Charleston mixed pine and sometimes cypress. Hurst and Prown’s *Southern Furniture 1680–1830* and the Winterthur catalogs make that geography an attribution tool. A “Salem” piece with tulip-streaked poplar sides wants an argument.
 
 ## Joinery: the splat thins, then the face becomes a leaf
 
-The Chippendale splat was a carving problem. The Federal splat is a drawing problem. Shield, oval, and urn backs want a fiber that takes a fine piercing and a clean moulding without oak’s pore trenches. Mahogany’s diffuse-to-semi-ring texture is that fiber. Seat rails can be slighter than oak rails of the same span. The glue block in the front corner is still there. Stretchers often disappear on the high-style chair; they return on country cousins and on some painted Baltimore seating.
+The Chippendale splat was a carving problem. The Federal splat is a drawing problem. Shield, oval, and urn backs want a fiber that takes a fine piercing and a clean molding without oak’s pore trenches. Mahogany’s diffuse-to-semi-ring texture is that fiber. Seat rails can be slighter than oak rails of the same span. The glue block in the front corner is still there. Stretchers often disappear on the high-style chair; they return on country cousins and on some painted Baltimore seating.
 
 Inlay is the Federal tell that Chippendale shops used more sparingly. Holly and maple stringing, satinwood panels, ebony lines, bellflowers, eagle and urn paterae — a palette of pale and black against the red-brown ground. Much of that black is ebonized holly or a stained hardwood, not a bar of Gabon *Diospyros*. Look at a chip. The ebony draft in this series is the place for Boulle and piano keys. Here the black is usually a line a millimeter wide.
 
@@ -87,6 +87,6 @@ Arkansas does not grow *Swietenia*. A shop that wants Federal thinness in a dome
 
 ## Sources
 
-Bowett, *The English Mahogany Trade 1700–1793*; “Thomas Ripley…,” *Georgian Group Journal* 7 (1997); Jamaica/Gillow paper; RFS Naval Stores Act notes. Hepplewhite, *Guide*, 1788. Sheraton, *Drawing-Book*, 1793. Winterthur furniture catalogues; Hurst and Prown, *Southern Furniture 1680–1830*. USDA FPL-GTR-190; Kukachka FPL-125. CITES 2003 mahogany release; CoP17 *Dalbergia*; Annotation #15. USDA APHIS Lacey Phase VII.
+Bowett, *The English Mahogany Trade 1700–1793*; “Thomas Ripley…,” *Georgian Group Journal* 7 (1997); Jamaica/Gillow paper; RFS Naval Stores Act notes. Hepplewhite, *Guide*, 1788. Sheraton, *Drawing-Book*, 1793. Winterthur furniture catalogs; Hurst and Prown, *Southern Furniture 1680–1830*. USDA FPL-GTR-190; Kukachka FPL-125. CITES 2003 mahogany release; CoP17 *Dalbergia*; Annotation #15. USDA APHIS Lacey Phase VII.
 
 See: `mahogany-chippendale`, `mahogany-regency-empire`, `cites-swietenia-permits`, `intro-500-year-timber`.

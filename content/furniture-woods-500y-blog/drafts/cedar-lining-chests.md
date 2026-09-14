@@ -3,7 +3,7 @@ title: Cedar linings and the moth chest
 slug: cedar-lining-chests
 series: furniture-woods-500y
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 25
 word_target: 1400-2200
 species:
@@ -29,7 +29,7 @@ Whether the volatiles still deter moths in a forty-year-old chest with a worn su
 
 The wood is knotty. Clear grades are small. It is used for chests, closet lining, small boxes, pencils (the pencil trade also used incense-cedar, *Calocedrus decurrens*). It works easily, takes a polish, and will stain a damp shirt if the finish is thin. The shirt test is crude and useful: a damp cotton rag rubbed on unfinished juniper heart will often pick up color. Hoadley’s anatomy pages will show you a juniper, not a mahogany: no vessels, a distinct heart, a smell you can still get off a fresh shaving.
 
-American furniture: the cedar chest as a nineteenth- and twentieth-century factory object (Lane and others, Altavista, Virginia, and the catalogues that followed) is a cultural form — dowry, storage, a smell. Earlier, small southern and Mid-Atlantic boxes. Not a Chippendale wood. Chippendale never asked for it. A joiner making a small box in 1840 did. Closet lining nailed over pine studs is the same genus in a cheaper contract: aromatic slats, often knotty, a smell that fades.
+American furniture: the cedar chest as a nineteenth- and twentieth-century factory object (Lane and others, Altavista, Virginia, and the catalogs that followed) is a cultural form — dowry, storage, a smell. Earlier, small southern and Mid-Atlantic boxes. Not a Chippendale wood. Chippendale never asked for it. A joiner making a small box in 1840 did. Closet lining nailed over pine studs is the same genus in a cheaper contract: aromatic slats, often knotty, a smell that fades.
 
 Knots are not defects in this wood; they are the tree. Eastern redcedar on glades and old fields is often limby. Clear cuttings are short. A shop that wants a clean lid glue-up is selecting, not milling a forest sawlog. Shrinkage numbers in the handbook are modest for a wood of its density; the practical movement problem is not a table top — it is a lid that was flatsawn through a knot and then hung over a heat register `[CITE NEEDED: the exact radial/tangential pair from FPL table 4–3 or 5–3 if you quote them]`.
 

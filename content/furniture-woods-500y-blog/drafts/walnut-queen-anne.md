@@ -3,7 +3,7 @@ title: Walnut and the Queen Anne chair
 slug: walnut-queen-anne
 series: furniture-woods-500y
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 10
 word_target: 1400-2200
 species:
@@ -30,7 +30,7 @@ Connoisseurs liked a tidy prelude to mahogany: frost, overcutting, a “walnut f
 
 *Juglans nigra*: FPL-GTR-190, table 5–3a — specific gravity 0.55, Janka 1,010 lbf at 12 percent moisture. Softer than white oak (1,360 / 0.68), kinder than maple, strong enough in the right section for a cabriole that tapers to a pad. The handbook still calls it much valued for furniture. *J. regia* is the greyer, more streaked European cousin, often sliced. Figure 4 places *nigra* among the anchors. Figure 3 is the cut on a solid American leg: a cabriole wants rift or a careful selection so two faces do not flash a cathedral and two stay quiet. A veneered English seat rail can hide a deal core; the knee, if carved, wants solid wood.
 
-Walnut planes, carves, and takes a moulding without oak’s trenches. A shell on a knee is a gouge job. The splat — vase, solid, sometimes a simple piercing later in the run — is thinner than an oak splat and thicker than a Chippendale interlaced back. R. W. Symonds argued that mahogany’s strength let chairmakers go more slender still. Bowett quotes him and complicates the credit. The Queen Anne splat is already a walnut idea: a flat, shaped board tenoned into a shoe and a crest, not a joined gothic tracery.
+Walnut planes, carves, and takes a molding without oak’s trenches. A shell on a knee is a gouge job. The splat — vase, solid, sometimes a simple piercing later in the run — is thinner than an oak splat and thicker than a Chippendale interlaced back. R. W. Symonds argued that mahogany’s strength let chairmakers go more slender still. Bowett quotes him and complicates the credit. The Queen Anne splat is already a walnut idea: a flat, shaped board tenoned into a shoe and a crest, not a joined Gothic tracery.
 
 ## London veneer, American solid
 

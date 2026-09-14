@@ -3,7 +3,7 @@ title: Five hundred years of furniture timber
 slug: intro-500-year-timber
 series: furniture-woods-500y
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 1
 word_target: 1400-2200
 species: []

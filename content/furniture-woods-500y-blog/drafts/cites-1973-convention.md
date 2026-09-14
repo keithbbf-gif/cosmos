@@ -3,7 +3,7 @@ title: The 1973 Convention and a furniture crate
 slug: cites-1973-convention
 series: furniture-woods-500y
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 28
 word_target: 1650-2000
 species: []

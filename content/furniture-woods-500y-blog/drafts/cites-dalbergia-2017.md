@@ -3,7 +3,7 @@ title: Dalbergia, 2 January 2017
 slug: cites-dalbergia-2017
 series: furniture-woods-500y
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 29
 word_target: 1650-2000
 species:
@@ -56,7 +56,7 @@ Rosewoods are hard, dense, and often oily. They dull edges. They can starve a gl
 
 Figure 4’s scatter is the contrast. Honduran mahogany sits near 800 lbf and SG 0.45–0.50. White oak near 1,360 lbf and 0.68. *Dalbergia* is the other end of the rack: you lift a drawer and the drawer argues. That is useful when you are trying to decide whether a dark brown suite is rosewood or a photograph.
 
-Repair with the same species is a permit question when the patch is imported. Repair with walnut or dyed pear is how shops have always faked a missing moulding. Name the repair. Do not strip an Appendix I piano case over a weekend to “brighten the rosewood.” The finish is part of the object’s market and legal identity.
+Repair with the same species is a permit question when the patch is imported. Repair with walnut or dyed pear is how shops have always faked a missing molding. Name the repair. Do not strip an Appendix I piano case over a weekend to “brighten the rosewood.” The finish is part of the object’s market and legal identity.
 
 ## Lacey on top
 

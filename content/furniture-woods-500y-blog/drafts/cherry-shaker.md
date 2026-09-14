@@ -3,7 +3,7 @@ title: Cherry in the Shaker room
 slug: cherry-shaker
 series: furniture-woods-500y
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 20
 word_target: 1400-2200
 species:
@@ -15,7 +15,7 @@ era: "1790–present"
 
 # Cherry in the Shaker room
 
-Leave a newly planed board of American black cherry in a sunny shop for a month, half of it under a scrap of plywood. Take the scrap off. The exposed wood has gone toward russet. The masked wood is still the color of a peeled stick. Clients call the dark “cherry.” They mean the sunburn. Shaker communities put that wood on the pieces that faced the room: stands, some case fronts, the meetinghouse color that maple would not become. John Kassay’s measured plates and Rieman and Burks’s catalogue are the furniture fact. The theology of simplicity has been written to death.
+Leave a newly planed board of American black cherry in a sunny shop for a month, half of it under a scrap of plywood. Take the scrap off. The exposed wood has gone toward russet. The masked wood is still the color of a peeled stick. Clients call the dark “cherry.” They mean the sunburn. Shaker communities put that wood on the pieces that faced the room: stands, some case fronts, the meetinghouse color that maple would not become. John Kassay’s measured plates and Rieman and Burks’s catalog are the furniture fact. The theology of simplicity has been written to death.
 
 ![Mean Janka hardness and oven-dry density for ten species that anchor this series (USDA FPL / Wood Database means).](../assets/species-comparison/core-species-properties.svg)
 

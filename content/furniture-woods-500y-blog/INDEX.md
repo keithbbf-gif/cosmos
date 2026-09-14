@@ -11,7 +11,7 @@ A series for buyers, designers, and restorers. One species, trade hour, cut, or 
 
 Bradley Brand works Arkansas hardwoods. These drafts teach how woods behave. They do not sell chairs.
 
-Canonical slugs: `writer-slugs.json` (46). Drafts live in `drafts/`. Figures: `GRAPHICS_INDEX.md` and `assets/`. All articles: `status: draft`, `voice_check: human`. Timeline: `SERIES_MAP.md`. Voice: `STYLE_GUIDE.md`. Sources: `BIBLIOGRAPHY.md`. Images: `PHOTO_CAPTIONS.md`. Counts: `MANIFEST.md`. WordPress: `WP_IMPORT.xml` (draft only).
+Canonical slugs: `writer-slugs.json` (46). Drafts live in `drafts/`. Figures: `GRAPHICS_INDEX.md` and `assets/`. All articles: `status: draft`, `voice_check: edited`. Editor pass: `EDITOR_REPORT.md`. Timeline: `SERIES_MAP.md`. Voice: `STYLE_GUIDE.md`. Sources: `BIBLIOGRAPHY.md`. Images: `PHOTO_CAPTIONS.md`. Counts: `MANIFEST.md`. WordPress: `WP_IMPORT.xml` (draft only).
 
 ## How to read the series
 

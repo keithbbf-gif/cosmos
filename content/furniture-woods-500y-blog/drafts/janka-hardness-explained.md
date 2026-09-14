@@ -3,7 +3,7 @@ title: Janka hardness, a steel ball, 12 percent
 slug: janka-hardness-explained
 series: furniture-woods-500y
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 38
 word_target: 1650-2000
 species: []
@@ -73,7 +73,7 @@ Stand a pine tavern table next to a maple counter. Press a thumbnail into an uns
 
 Arkansas white oak, maple, hickory, cherry, and walnut cover most of the table. The number on the wall is FPL’s, at 12 percent, side hardness. Your board will vary. Specify the species and the job. Do not specify “hardwood” and hope the ball is on your side.
 
-Flooring catalogues made Janka a consumer word. Furniture catalogues mostly did not. That is why a client now asks whether a cherry table is “hard enough” and expects a single integer. Cherry at 950 lbf is a fine dining top if the house will accept a few marks. It is a poor shipping counter. Maple at 1,450 will still mark under a dropped can, because the ball is not a can edge. Hickory at 1,820 is the domestic top of Figure 4 and a wood that fights a plane. Specify the abuse, then pick the row.
+Flooring catalogs made Janka a consumer word. Furniture catalogs mostly did not. That is why a client now asks whether a cherry table is “hard enough” and expects a single integer. Cherry at 950 lbf is a fine dining top if the house will accept a few marks. It is a poor shipping counter. Maple at 1,450 will still mark under a dropped can, because the ball is not a can edge. Hickory at 1,820 is the domestic top of Figure 4 and a wood that fights a plane. Specify the abuse, then pick the row.
 
 End hardness, when FPL reports it, runs higher than side hardness. Do not borrow the end number to sell a top. A floor at 6 percent in January will dent a little less and gape a little more; at 14 percent it will dent more and cup. The table does not replace the moisture chapter.
 

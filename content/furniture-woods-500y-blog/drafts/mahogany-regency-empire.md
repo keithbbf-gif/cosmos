@@ -3,7 +3,7 @@ title: Mahogany in the Regency and Empire hours
 slug: mahogany-regency-empire
 series: furniture-woods-500y
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 13
 word_target: 1650-2000
 species:

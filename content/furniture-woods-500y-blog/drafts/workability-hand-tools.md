@@ -3,7 +3,7 @@ title: Workability, Hoadley, and the plane that chatters
 slug: workability-hand-tools
 series: furniture-woods-500y
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 40
 word_target: 1650-2000
 species: []
@@ -12,7 +12,7 @@ era: "1500–present"
 
 # Workability, Hoadley, and the plane that chatters
 
-The plane chatters on interlocked sapele. That is a shop observation, not a metaphor. R. Bruce Hoadley’s *Understanding Wood* is the book that puts a reason under the chatter: grain direction reversing in successive bands, a cutting angle that lifts instead of severs, an edge that was sharp enough for mahogany and is not sharp enough now. Janka on Figure 4 will tell you sapele is harder than *Swietenia*. It will not tell you the scraper is the next tool. This draft is workability as the furniture shop knows it — edge, glue, and the joint that assumes the fiber — not as a catalogue adjective.
+The plane chatters on interlocked sapele. That is a shop observation, not a metaphor. R. Bruce Hoadley’s *Understanding Wood* is the book that puts a reason under the chatter: grain direction reversing in successive bands, a cutting angle that lifts instead of severs, an edge that was sharp enough for mahogany and is not sharp enough now. Janka on Figure 4 will tell you sapele is harder than *Swietenia*. It will not tell you the scraper is the next tool. This draft is workability as the furniture shop knows it — edge, glue, and the joint that assumes the fiber — not as a catalog adjective.
 
 ![Mean Janka hardness and oven-dry density for ten species that anchor this series (USDA FPL / Wood Database means).](../assets/species-comparison/core-species-properties.svg)
 
@@ -26,13 +26,13 @@ The plane chatters on interlocked sapele. That is a shop observation, not a meta
 
 Hoadley treats wood as a material you cut, not as a finish photograph. Cutting angle, sharpness, moisture, and grain direction are the four variables that decide whether a plane leaves a surface or a tear. A high effective cutting angle — a tight mouth, a back-bevel, a scraper’s hook — handles interlock and figured faces. A low angle on a block plane loves end grain on a clean pine or mahogany. The same low angle on quartered sapele ribbon is a tearout machine. Figure 3 matters here: a flatsawn cathedral changes direction on one face. You plane “up the hill” of the arch and then you turn the board, or you scrape.
 
-Silica and other inclusions dull edges. Teak is the famous furniture case. The Janka is only moderate (~1,070 in imported notes). The edge dies anyway. Hone more often. Carbide on the machine side; a dedicated iron on the bench side. Oak tannin rusts planes if you leave the shavings. Cherry is kind until a gum pocket. Maple is fine-textured and hard; the plane must be sharp or the surface fuzzes and then polishes into blotch later. Mahogany, the *Wood Handbook*’s premier furniture tropical, planes, carves, and takes a moulding without oak’s trenches. That is why the splat got thin after 1722, once the duty was off (Bowett). The tool and the statute are the same story.
+Silica and other inclusions dull edges. Teak is the famous furniture case. The Janka is only moderate (~1,070 in imported notes). The edge dies anyway. Hone more often. Carbide on the machine side; a dedicated iron on the bench side. Oak tannin rusts planes if you leave the shavings. Cherry is kind until a gum pocket. Maple is fine-textured and hard; the plane must be sharp or the surface fuzzes and then polishes into blotch later. Mahogany, the *Wood Handbook*’s premier furniture tropical, planes, carves, and takes a molding without oak’s trenches. That is why the splat got thin after 1722, once the duty was off (Bowett). The tool and the statute are the same story.
 
 Moisture is a tool variable. Green wood cuts easier and then moves. Furniture-dry wood at 6 to 8 percent in a winter shop can crumble on end grain and burn on a saw. FPL chapter 4 is the moisture text. Hoadley is the reminder that the iron sees the moisture you actually have, not the 12 percent in the Janka table.
 
 ## Species as tool problems
 
-Ring-porous oaks and ashes: the earlywood is a trench. A moulding plane leaves a dotted line unless you fill or you accept the dotted line. Quartersawn oak is easier to keep flat under the plane; the ray flake can chip if the iron is steep and dull. Rift is the even stripe (Figure 3) and a friend to a run of legs.
+Ring-porous oaks and ashes: the earlywood is a trench. A molding plane leaves a dotted line unless you fill or you accept the dotted line. Quartersawn oak is easier to keep flat under the plane; the ray flake can chip if the iron is steep and dull. Rift is the even stripe (Figure 3) and a friend to a run of legs.
 
 Diffuse-porous cherry, maple, yellow-poplar, true mahogany: the plane can leave a surface that looks like light under glass. Interlock, when it appears in *Swietenia* or more often in *Khaya* and sapele, ends that gift. Scraper. Then a cabinet scraper. Then a sanding sequence that does not dish the ribbon.
 
@@ -68,7 +68,7 @@ CNC routers like MDF and even-textured hardwoods. They do not like silica, voids
 
 Arkansas oak, walnut, cherry, maple, and pine cover a useful workability band. Interlock is rare. Tannin in oak will still rust a plane. Cherry will still blotch if you skip a conditioner or a scraper. Domestic is not a synonym for easy. It is a synonym for a known iron.
 
-Look at the surface under raking light. Tearout is interlock or a dull iron or a cathedral planed the wrong way. A dotted moulding is oak earlywood. A polished, slightly wavy pine board is latewood bands. A checked crotch veneer is a ground that moved under hide glue that went glass. A scraper that burnishes before you glue will starve hide glue; stop while the pore is still slightly open. Figure 4 is hardness. Figure 3 is cut. The iron is the third axis. The split door is what happens when the iron was fine and the panel was glued.
+Look at the surface under raking light. Tearout is interlock or a dull iron or a cathedral planed the wrong way. A dotted molding is oak earlywood. A polished, slightly wavy pine board is latewood bands. A checked crotch veneer is a ground that moved under hide glue that went glass. A scraper that burnishes before you glue will starve hide glue; stop while the pore is still slightly open. Figure 4 is hardness. Figure 3 is cut. The iron is the third axis. The split door is what happens when the iron was fine and the panel was glued.
 
 ## Sources
 

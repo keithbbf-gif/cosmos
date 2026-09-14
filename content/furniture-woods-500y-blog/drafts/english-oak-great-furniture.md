@@ -3,7 +3,7 @@ title: English oak and the great furniture
 slug: english-oak-great-furniture
 series: furniture-woods-500y
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 4
 word_target: 1400-2200
 species:
@@ -30,7 +30,7 @@ English furniture oak is *Quercus robur* and *Q. petraea*, the same pair the Bal
 
 The USDA *Wood Handbook* (FPL-GTR-190, table 5–3a) puts American white oak near 1,360 lbf Janka and specific gravity 0.68, northern red oak near 1,290 lbf and 0.63. European oak sits in the same neighborhood; a single FPL-equivalent number for *Q. robur* is still a library errand `[CITE NEEDED]`. Figure 4 is the scatter. Figure 3 is the cut: flatsawn cathedrals, quartersawn flake, rift stripe. English joined work of 1550–1660 prefers riven or radial stock for stiles and panels. A wedge follows the rays. The board is naturally quartered. That is why a thin panel can be wide and still stay quiet.
 
-Ring-porous, tannic, hard enough to hold a pin. Iron and damp oak make black stains. Steam-bending is a historic use for boat frames and some chair bows; ash and hickory often took the extreme bends. Oak planes if the irons are sharp and the grain is straight. Quartersawn rays pick up. A wavy board tears no matter what the catalogue promised.
+Ring-porous, tannic, hard enough to hold a pin. Iron and damp oak make black stains. Steam-bending is a historic use for boat frames and some chair bows; ash and hickory often took the extreme bends. Oak planes if the irons are sharp and the grain is straight. Quartersawn rays pick up. A wavy board tears no matter what the catalog promised.
 
 John Evelyn’s *Sylva* (1664) is a planting book written as the fashionable rooms were already turning toward walnut. He wanted oaks for the navy and for the kingdom’s future timber. Furniture shops lived on what the yards and the tanbarks did not take, and on the imported boards the navy did not want for knees. Albion’s *Forests and Sea Power* is the strategic pair; the navy draft takes the reserved forest. The great furniture is the civilian half of the same trees.
 
@@ -48,7 +48,7 @@ Bowett’s later work on provincial woods matters even after 1700: Gillows could
 
 Draw-bored mortise and tenon first. The hole in the tenon is offset toward the shoulder by a fraction. The pin, often riven oak, pulls as it drives. Chinnery’s photographs of lozenged pins are the aging proof. Do not confuse this with a later factory dowel glued in a bored hole. The offset is the whole trick.
 
-Frame-and-panel is the carcase language. Stiles and rails mortised; panels grooved and free to shrink. Haunched tenons keep the mortise out of the end of a stile. A muntin splits a wide opening into two panels so no single board has to be heroic. Grooves are ploughed; a stuck moulding on the inner edge of a rail is cut in the solid, not planted, on better work.
+Frame-and-panel is the carcase language. Stiles and rails mortised; panels grooved and free to shrink. Haunched tenons keep the mortise out of the end of a stile. A muntin splits a wide opening into two panels so no single board has to be heroic. Grooves are plowed; a stuck molding on the inner edge of a rail is cut in the solid, not planted, on better work.
 
 The boarded chest is the other English grammar: six boards, nailed or pegged, sometimes a till, sometimes chip-carved. It is not a failed joined chest. It is a different contract — faster, cheaper, more willing to split along a board if the house dries. Both grammars run through the same century.
 
@@ -70,7 +70,7 @@ American joined oak exists in the seventeenth century — the so-called Pilgrim-
 
 Not CITES. Worm in sapwood is ordinary; heartwood holds. Iron stains at hinges are ordinary. A top that was a chest lid is ordinary. Strip a blackened church pew to “natural oak” and you have a 1960s taste, not a 1620 one. Original surfaces are thin oil, wax, soot, and hand. A thick polyurethane film is a different object.
 
-Replacement seats on stools are expected. Look at the rails and pins to know the stool. A “Jacobean” suite from a 1920s factory has machine-cut mouldings, even pins, and a stain that sits in the pores. The lozenged pin is the tell that time, not a distressing wheel, did the work.
+Replacement seats on stools are expected. Look at the rails and pins to know the stool. A “Jacobean” suite from a 1920s factory has machine-cut moldings, even pins, and a stain that sits in the pores. The lozenged pin is the tell that time, not a distressing wheel, did the work.
 
 Repair a loose shoulder by drawing a new pin if the old one is gone; do not flood the joint with PVA and call it saved. Keep the panel floating. If a flatsawn replacement panel is the only board you have, leave it room in the groove.
 

@@ -3,7 +3,7 @@ title: Swietenia, Annotation 6, and the mill permit
 slug: cites-swietenia-permits
 series: furniture-woods-500y
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 30
 word_target: 1650-2000
 species:

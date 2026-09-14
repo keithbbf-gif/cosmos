@@ -3,7 +3,7 @@ title: White pine and the softwood economy
 slug: white-pine-softwood-economy
 series: furniture-woods-500y
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 8
 word_target: 1400-2200
 species:
@@ -63,7 +63,7 @@ Walk a Saginaw or Muskegon mill town in the later nineteenth century and the pro
 
 A counting-house interior in Salem or Boston — shutters, a desk, a railing — can be white pine throughout, painted or grained to look like oak. Graining is a skill. It is also how a softwood economy imitated a hardwood room without paying Baltic wainscot freight. Scrape a shutter’s bottom edge in a house you own. The cream wood and the shy resin canal are the tell. Leave a museum shutter alone.
 
-Western pines enter later catalogues as “knotty pine” without a binomial. Ask. *P. strobus* is eastern. The handbook numbers above are for that species. A different pine is a different latewood.
+Western pines enter later catalogs as “knotty pine” without a binomial. Ask. *P. strobus* is eastern. The handbook numbers above are for that species. A different pine is a different latewood.
 
 ## Conservation
 

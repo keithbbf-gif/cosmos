@@ -3,7 +3,7 @@ title: Yew on the pole lathe
 slug: yew-medieval-turnery
 series: furniture-woods-500y
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 21
 word_target: 1400-2200
 species:
@@ -34,7 +34,7 @@ Medieval and early modern England used yew for small joined work, for inlay, and
 
 Italian *tasso* appears in inlay. French and Alpine work used yew in small doses. It was never mahogany. Inlay slips of yew in a walnut or oak ground are the small high-style use: a warm line, not a field. Boxwood is the pale cousin of that line; yew is the orange one. The boxwood draft takes the stringing rebate. This draft keeps the turn and the bend.
 
-Pacific yew (*T. brevifolia*) is a different history — a bow wood, a tool wood, then a taxol-bark story that had nothing to do with chairs. It was never a case-work supply. American furniture rarely shows *T. baccata*. A catalogue “yew” dining table is likely European yew veneer, or a stained impostor. Look at the edge.
+Pacific yew (*T. brevifolia*) is a different history — a bow wood, a tool wood, then a taxol-bark story that had nothing to do with chairs. It was never a case-work supply. American furniture rarely shows *T. baccata*. A catalog “yew” dining table is likely European yew veneer, or a stained impostor. Look at the edge.
 
 ## Steam-bend radii, the Windsor hoop, the Welsh arm
 
@@ -50,7 +50,7 @@ Churchyard trees and outdoor gates used the durability of the heart. Local felli
 
 The main furniture tradition after the medieval turnery is country seating from the eighteenth and nineteenth centuries: the yew-wood Windsor, prized now, vernacular then. The late twentieth century made a third object: yew burl veneer on boardroom desks and hotel case goods in Britain, a golden sliced surface that is not a stick chair and not a pole-lathe cup. That veneer can be handsome. It is a different object. Do not restore a 1980s pedestal desk as if it were a Welsh armchair.
 
-Fashion was always a minority taste. Price now is a collector’s taste. The romance of the churchyard tree is real and also a hazard. A 17th-century English table with yew inlay is using the tree correctly: a line or a small panel, not a field. A “yew suite” from a catalogue is using the word.
+Fashion was always a minority taste. Price now is a collector’s taste. The romance of the churchyard tree is real and also a hazard. A 17th-century English table with yew inlay is using the tree correctly: a line or a small panel, not a field. A “yew suite” from a catalog is using the word.
 
 The pole lathe is worth a paragraph because the furniture word “turnery” is not a factory lathe. A spring pole above, a cord around the work, a hook or a gouge in the rest: the work spins toward the tool on the downstroke and idles back. Green wood turns cleaner. Yew can be turned drier than alder or birch because it is dense and oily enough to take a polish off the tool. Medieval and early modern turners made the cups and the knobs this way; later wheel-lathes and then industrial lathes took the volume. A yew chessman or a Windsor pommel from a nineteenth-century shop may be wheel-lathe work. A museum cup with a hook-tool facet may be earlier. Do not date a piece by the wood alone. Date it by the tool mark if you can see one `[CITE NEEDED: a named treen or lathe monograph — MacGregor, or Cotton on chairs]`.
 

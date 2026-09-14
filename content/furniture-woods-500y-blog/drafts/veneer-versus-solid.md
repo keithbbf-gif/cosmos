@@ -3,7 +3,7 @@ title: Veneer, solid, and the ground that moved
 slug: veneer-versus-solid
 series: furniture-woods-500y
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 41
 word_target: 1650-2000
 species: []
@@ -60,7 +60,7 @@ Look at the failure. Checks in a crotch that follow no board joint: veneer on a 
 
 Specify: face species, cut of the face (crown, quarter, rift, rotary), thickness of the leaf, core species, glue, and whether the edges are solid. Or: solid *Quercus alba*, flatsawn, floating panels, slotted screws in the breadboard, hide glue if the piece should come apart in a hundred years. Those are different objects. “Walnut dining table” is not a specification.
 
-Arkansas shops meet veneer as imported faces on imported cores, and as domestic walnut and oak leaves on domestic ply or on yellow-poplar for paint-grade work. The solid side of that rack is the older contract. The useful sentence is the long one. The Eames DCM and a printed suburban suite share a century. They do not share a glue, a mould, or a noun.
+Arkansas shops meet veneer as imported faces on imported cores, and as domestic walnut and oak leaves on domestic ply or on yellow-poplar for paint-grade work. The solid side of that rack is the older contract. The useful sentence is the long one. The Eames DCM and a printed suburban suite share a century. They do not share a glue, a mold, or a noun.
 
 Oyster veneer — end-grain slices of walnut or laburnum, laid like overlapping coins — wastes less of a small figured stem than a solid board would. Movement in the oysters is a different geometry (end grain, not a long face). The failure is lifting at the edges, not a cathedral split. Seaweed marquetry is the cousin: two woods, a knife, a ground.
 

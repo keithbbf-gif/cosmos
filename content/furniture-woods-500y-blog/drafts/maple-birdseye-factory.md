@@ -3,7 +3,7 @@ title: Birdseye maple and the factory pale
 slug: maple-birdseye-factory
 series: furniture-woods-500y
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 19
 word_target: 1400-2200
 species:
@@ -14,7 +14,7 @@ era: "1700–present"
 
 # Birdseye maple and the factory pale
 
-A mill in the Great Lakes belt opens a sugar-maple log and finds a constellation. The leaves go to a veneer dryer, then to a factory that will glue them onto a cheaper ground for a Federal-revival card table, a radio cabinet, a 1940s bedroom suite whose catalogue says “maple” and means a color. The same genus turns a Windsor leg that takes a crisp bead, and it floors a bowling alley because the Janka number is 1,450 lbf and the fiber does not fuzz under feet. Figure is not a species. Factory pale is not a forest.
+A mill in the Great Lakes belt opens a sugar-maple log and finds a constellation. The leaves go to a veneer dryer, then to a factory that will glue them onto a cheaper ground for a Federal-revival card table, a radio cabinet, a 1940s bedroom suite whose catalog says “maple” and means a color. The same genus turns a Windsor leg that takes a crisp bead, and it floors a bowling alley because the Janka number is 1,450 lbf and the fiber does not fuzz under feet. Figure is not a species. Factory pale is not a forest.
 
 ![Mean Janka hardness and oven-dry density for ten species that anchor this series (USDA FPL / Wood Database means).](../assets/species-comparison/core-species-properties.svg)
 
@@ -50,7 +50,7 @@ Hard maple and nails are a fight. Predrill. Screws too. The wood has no tyloses 
 
 ## Factory blonde, gym floors, and the word on the tag
 
-The twentieth century split the name. School furniture and bowling alleys and gym floors kept using hard maple because the Janka number is not a metaphor. Factory catalogues used “maple” as a color. Colonial Revival suites pushed a red-orange toner. Mid-century blonde was often a clear finish on sapwood, sometimes a light toner — the pale dining room next to the teak that got the magazine covers. Blotch in stain is worse on soft maple. Dye and a finish that does not pretend the wood is walnut will treat you better.
+The twentieth century split the name. School furniture and bowling alleys and gym floors kept using hard maple because the Janka number is not a metaphor. Factory catalogs used “maple” as a color. Colonial Revival suites pushed a red-orange toner. Mid-century blonde was often a clear finish on sapwood, sometimes a light toner — the pale dining room next to the teak that got the magazine covers. Blotch in stain is worse on soft maple. Dye and a finish that does not pretend the wood is walnut will treat you better.
 
 The white sapwood yellows in UV. A “white maple” kitchen in a south window will cream. Water-white finishes slow this; they do not repeal it. Thermal darkening is a cherry trick more than a maple one; maple’s drama is figure and stain, not russet.
 

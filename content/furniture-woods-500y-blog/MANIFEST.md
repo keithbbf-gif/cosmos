@@ -8,7 +8,7 @@ series: furniture-woods-500y
 # Manifest
 
 Body word counts are tokens matching `[A-Za-z0-9']+` after YAML frontmatter, excluding figure markdown, figure captions, and the Sources section.
-Band: 1,400–2,200. All items `status: draft`, `voice_check: human`.
+Band: 1,400–2,200. All items `status: draft`. Draft articles: `voice_check: edited` (see `EDITOR_REPORT.md`).
 Canonical files: `drafts/<slug>.md`. Slug list: `writer-slugs.json`.
 
 Counted: 46 drafts. Total body words: 75,618.

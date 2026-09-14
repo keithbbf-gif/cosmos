@@ -3,7 +3,7 @@ title: Satinwood in the Adam room
 slug: satinwood-adam-style
 series: furniture-woods-500y
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 22
 word_target: 1400-2200
 species:

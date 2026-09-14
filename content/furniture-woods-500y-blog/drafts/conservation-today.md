@@ -3,7 +3,7 @@ title: Conservation as a crate, 2024
 slug: conservation-today
 series: furniture-woods-500y
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 46
 word_target: 1650-2000
 species: []
@@ -62,7 +62,7 @@ A crate that says only “wood” is a refusal. A salesperson who says “it’s
 
 Hide glue on a historic carcase can be reversed. Urea-formaldehyde on a particleboard carcase cannot. That is a conservation fact about objects, not about forests: repair culture is how a 1760 chair stays a chair. A cam-lock suite that swells under a sink is landfill. Design for a life that matches the glue. The engineered chapter takes the panel. This chapter takes the name on the panel.
 
-Plantation teak and certified *S. macrophylla* from outside the Neotropics are real supplies. They are not automatically innocent. Ask for the country and the papers. IUCN status is not a CITES appendix. A Forest Stewardship Council claim is not a Lacey finding. The three stamps can sit on one invoice. None of them replaces the others.
+Plantation teak and certified *S. macrophylla* from outside the Neotropics are real supplies. They are not automatically innocent. Ask for the country and the papers. IUCN status is not a CITES appendix. A Forest Stewardship Council claim is not a Lacey finding. The three stamps can sit on one invoice. None of them replaces the others. They do not need a sustainability sermon. They need a file.
 
 ## What this series will not do
 
@@ -81,8 +81,6 @@ On the drawing: *Quercus alba*, United States, quartersawn, floating panels, slo
 Walk a 2012 kitchen. The door may be walnut veneer on MDF, or a foil, or a solid frame-and-panel in white oak. The carcase is often particleboard. CARB / TSCA Title VI may be stamped on the edge tape. That stamp does not name a forest. The face, if it is *Juglans nigra*, still wants a harvest country if the leaf was imported. If the face is domestic, it still wants a mill that can say so. Phase VII is an import declaration. It is not a domestic chain-of-custody law. Lacey still reaches interstate commerce in plants taken in violation of state law. A walnut log stolen from a fencerow and sold across a state line is the example APHIS trainers use `[CITE NEEDED: a named APHIS or DOJ case, not a training-room memory]`. The Arkansas preference does not wash that log.
 
 Reclaimed oak beams and “barnwood” suites are a conservation fashion with their own lies. A beam can be a beam. A beam can be new oak beaten with a chain. Ask for the building and the date. The reclaimed-oak draft in this series takes that object. This chapter only says: old wood already in the country is usually the cleanest tropical look you can buy, and a new barnwood crate from an unnamed port is still a crate.
-
-Plantation teak (*Tectona grandis*) and plantation *S. macrophylla* outside the Neotropics are the supplies that let a specifier write a tropical name without pretending the 18th century is still in force. They need country, certificate, and a will to defend due care. They do not need a sermon about “sustainability.” They need a file.
 
 Look at the invoice the way you look at an end grain. Rings and a binomial are evidence. A color word is not. The interesting trees are in the other chapters. The dullness here is the point.
 

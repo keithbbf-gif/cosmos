@@ -3,7 +3,7 @@ title: Rift cut, matching legs, and a floor
 slug: rift-cut-flooring
 series: furniture-woods-500y
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 36
 word_target: 1650-2000
 species: []
@@ -24,7 +24,7 @@ Figure 3 is the cylinder. Flatsawn is tangent: arches, maximum tangential width,
 
 True quartering wastes the log. Rift wastes less than honest quartering and more than through-and-through. You get narrower boards and more offcuts than a flatsawn pile from the same diameter. That is why Baltic wainscot was dear, why Gillows in Lancaster could pay nearly mahogany prices for Danzig oak in 1740 (Bowett, provincial woods paper), and why rift white-oak flooring still costs more per foot than a plainsawn grade from the same kiln charge. The money is the waste and the extra handling. The product is a stripe that does not argue with its neighbor.
 
-White oak (*Quercus alba* and the white group) is the American furniture and floor wood that made rift famous in catalogues. European oak (*Q. robur*, *Q. petraea*) has the same anatomy. Red oak will rift; the flake you are avoiding is smaller anyway, and the pores are more open. A designer who wants Stickley’s silver grain and writes “rift oak” will get a quiet stripe and a disappointed client. A designer who wants a hotel corridor without flake and writes “QS oak” may get flake in the middle of the run. Say the face.
+White oak (*Quercus alba* and the white group) is the American furniture and floor wood that made rift famous in catalogs. European oak (*Q. robur*, *Q. petraea*) has the same anatomy. Red oak will rift; the flake you are avoiding is smaller anyway, and the pores are more open. A designer who wants Stickley’s silver grain and writes “rift oak” will get a quiet stripe and a disappointed client. A designer who wants a hotel corridor without flake and writes “QS oak” may get flake in the middle of the run. Say the face.
 
 ## Chair legs, door stiles, table aprons
 
@@ -70,6 +70,6 @@ A factory that grades rift by the face photograph, without an end-grain check, w
 
 ## Sources
 
-USDA FPL, *Wood Handbook*, FPL-GTR-190, ch. 4–5. Hoadley, *Understanding Wood*. Bowett, “Furniture woods in London and provincial furniture 1700–1800.” Haneca et al. 2005 (radial wainscot as the other historic premium). Stickley catalogues (flake versus the quiet stripe). NWFA / mill installation sheets (floors; verify the dated sheet you use).
+USDA FPL, *Wood Handbook*, FPL-GTR-190, ch. 4–5. Hoadley, *Understanding Wood*. Bowett, “Furniture woods in London and provincial furniture 1700–1800.” Haneca et al. 2005 (radial wainscot as the other historic premium). Stickley catalogs (flake versus the quiet stripe). NWFA / mill installation sheets (floors; verify the dated sheet you use).
 
 See: `glossary-grain-and-cut`, `flatsawn-panel-figure`, `quartersawn-arts-crafts`, `moisture-wood-movement`, `veneer-versus-solid`.

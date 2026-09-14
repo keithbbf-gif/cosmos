@@ -3,7 +3,7 @@ title: The tropical hardwood peak around 1900
 slug: tropical-hardwood-peak-1900
 series: furniture-woods-500y
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 45
 word_target: 1650-2000
 species:
@@ -30,7 +30,7 @@ By 1900 a Chicago or London factory could put Cuban mahogany, Bahia rosewood, Bu
 
 Not a single tonnage number I will invent. Peak means the last decades when piano factories, mail-order suites, world’s-fair displays, and city shops could still specify *Swietenia*, *Dalbergia*, *Tectona*, and *Diospyros* as ordinary luxury, while the source forests were already writing the shortage Kukachka would record in 1970. Pin a comparable import series at publication `[CITE NEEDED: a named UK or US tropical-hardwood import series, 1880–1914]`. The objects are evidence enough to start: rosewood parlor pianos, mahogany dining rooms still in the true genus, teak campaign leftovers, ebony stringing, satinwood revival desks.
 
-Bowett’s English mahogany story is the start of this crest, not the crest itself. The Naval Stores Act of 1721, in force 1722, took the duty off British West Indian timber. Ripley told the Admiralty the wood would undercut deal and wainscot (*Georgian Group Journal*, 1997). Jamaica dominated the early furniture supply; Honduras bay-wood grew as volume. Customs values jumped in the 1720s. That statute made a tropical hardwood cheap enough to carve in the solid. The 1900 factory made it cheap enough to veneer onto every sideboard in a catalogue. Same genus, different conversion, a thinner leaf on a larger production.
+Bowett’s English mahogany story is the start of this crest, not the crest itself. The Naval Stores Act of 1721, in force 1722, took the duty off British West Indian timber. Ripley told the Admiralty the wood would undercut deal and wainscot (*Georgian Group Journal*, 1997). Jamaica dominated the early furniture supply; Honduras bay-wood grew as volume. Customs values jumped in the 1720s. That statute made a tropical hardwood cheap enough to carve in the solid. The 1900 factory made it cheap enough to veneer onto every sideboard in a catalog. Same genus, different conversion, a thinner leaf on a larger production.
 
 Macquoid’s *Age of Mahogany* (to 1770) was already a periodization, not a law, when the Edwardian dining room still said mahogany and meant, if you were lucky, *S. macrophylla*. The Age had overflowed its dates. The tree had not overflowed its range.
 
@@ -54,7 +54,7 @@ Piano-case construction is the high-volume version of the Empire sandwich: a sta
 
 Screws, dowels, and machine-cut mortises replace draw-boring. The wood still moves. A glued-down breadboard on a mahogany top still splits it. Factories that forgot the 18th-century manners left a trail of cracked leaves.
 
-Carving quality is the other factory tell. A Chippendale splat of 1760 is a gouge in the solid, oxidized brown. A “Chippendale” dining chair of 1900 may still be *Swietenia*, machine-cut piercing, a redder film. The wood can be true and the hour still be the peak, not the statute. Bowett’s Jamaica chair and the 1900 catalogue chair share a genus and fight about the tool. Look at the back of the splat. Tear-out from a router is not a gouge.
+Carving quality is the other factory tell. A Chippendale splat of 1760 is a gouge in the solid, oxidized brown. A “Chippendale” dining chair of 1900 may still be *Swietenia*, machine-cut piercing, a redder film. The wood can be true and the hour still be the peak, not the statute. Bowett’s Jamaica chair and the 1900 catalog chair share a genus and fight about the tool. Look at the back of the splat. Tear-out from a router is not a gouge.
 
 ## Substitutes waiting in the yard
 
@@ -64,7 +64,7 @@ Satinwood revival desks of the 1890s–1910s may be *Chloroxylon swietenia* (Kuk
 
 Do not invent a world’s-fair prize or a price list. The genera on the invoice and the secondary wood in the drawer are enough.
 
-Grand Rapids, High Wycombe, the German bentwood towns, the Paris Faubourg, the New York piano loft: different clocks, the same tropical bills of lading. A mail-order suite of 1905 could offer “genuine mahogany” and mean *Swietenia*, or mean a hope. The surviving leaf is the test. A world’s fair display of 1893 or 1900 is a good place to see the names still attached to the trees — and to see the plywood and the composition ornaments already standing next to them. I will not invent a particular exhibit number. The catalogues exist; quote one at publication `[CITE NEEDED: a named 1893/1900 exposition furniture-wood catalogue page]`.
+Grand Rapids, High Wycombe, the German bentwood towns, the Paris Faubourg, the New York piano loft: different clocks, the same tropical bills of lading. A mail-order suite of 1905 could offer “genuine mahogany” and mean *Swietenia*, or mean a hope. The surviving leaf is the test. A world’s fair display of 1893 or 1900 is a good place to see the names still attached to the trees — and to see the plywood and the composition ornaments already standing next to them. I will not invent a particular exhibit number. The catalogs exist; quote one at publication `[CITE NEEDED: a named 1893/1900 exposition furniture-wood catalog page]`.
 
 Railroad and steamship freight made the crest possible. A Bahia log and a Rangoon teak balk could meet a Michigan carcase plant in the same season. That is not a romance of globalization. It is a freight ledger and a forest ledger written on the same crate. Enslaved labor is earlier in the mahogany and rosewood stories; wage and coerced colonial labor is the 1900 version. The dining table does not become innocent because the legal form of the labor changed.
 
@@ -78,7 +78,7 @@ A 1900 suite already in the country is usually legal to own. A new suite that bo
 
 A dining room of 1900: oxidized mahogany that may still be *Swietenia*, a rosewood piano, oak in the hall, pine or poplar inside the cases, maybe an ebony line. A dining room of 1925: the same words, a different chance of *Khaya* and a print. A dining room of 1965: teak, a rosewood sideboard that may be *D. latifolia*, ply cores. Open an edge. Weigh a leaf. Read the invoice if there is one.
 
-Arkansas was sending oak, gum, and pine into the same national catalogues. The tropical names on those pages were imports. A shop that works the domestic hardwoods now is not missing the peak. The peak was a matching of name and genus that lasted about two centuries after Bowett’s statute and then came apart. Name what you use.
+Arkansas was sending oak, gum, and pine into the same national catalogs. The tropical names on those pages were imports. A shop that works the domestic hardwoods now is not missing the peak. The peak was a matching of name and genus that lasted about two centuries after Bowett’s statute and then came apart. Name what you use.
 
 A 1900 hotel lobby — mahogany counters, a rosewood piano, teak chairs from a leftover campaign vocabulary, oak wainscot that is still Baltic or American — is the mixed room this series keeps asking you to see. Macquoid’s staircase does not describe it. The invoice, if you could find it, would. The woods are still themselves. The peak is the last decade when that sentence was cheap to say.
 
