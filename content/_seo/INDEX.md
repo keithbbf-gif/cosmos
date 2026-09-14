@@ -11,6 +11,7 @@ These files tell a writer *what to build next* on the public sites, in what orde
 | [`therapy-pillars.md`](therapy-pillars.md) | [slpwow.com](https://slpwow.com/) + [wowtherapies.com](https://wowtherapies.com/) | SLP profession + SE Arkansas clinic |
 | [`ai-public-pillars.md`](ai-public-pillars.md) | Public AI industry blog (domain TBD) | Industry comment + AI history. **No COSMOS.** |
 | [`supplements-pillars.md`](supplements-pillars.md) | R&D / herbal history blog (domain TBD) | Methods + history. **Claims-guarded.** |
+| [`../_ops/CROSS_LINKS.md`](../_ops/CROSS_LINKS.md) | All public properties | Staged **theme menus + footer** maps; optional GP/Ocean JSON import |
 
 Grounded in what the sites already say (fetched 2026-09-14), plus Keith and Jack’s public Fig Jam interview (2025-07-25). Where a URL or SKU is not live, the map says so. Do not invent a catalog to fill a cell.
 

@@ -1,0 +1,146 @@
+{
+  "$schema": "cosmos-staged-menu/v1",
+  "status": "staged",
+  "generated": "2026-09-14",
+  "notes": "Import manually into WordPress nav menus. GP = GeneratePress; Ocean = OceanWP. Replace gap URLs before production. See content/_ops/CROSS_LINKS.md.",
+  "properties": {
+    "figroots.com": {
+      "theme_notes": {
+        "generatepress": "Assign menus.primary to Primary Menu location; menus.footer to Footer Menu.",
+        "oceanwp": "Same locations; enable sticky header only if grow submenu stays ≤4 items."
+      },
+      "menus": {
+        "primary": [
+          { "order": 1, "title": "Home", "url": "/", "parent": null },
+          { "order": 2, "title": "Grow", "url": "/grow/", "parent": null, "gap": true },
+          { "order": 3, "title": "Rooting", "url": "/rooting/", "parent": "Grow" },
+          { "order": 4, "title": "Pests & disease", "url": "/pest-control/", "parent": "Grow" },
+          { "order": 5, "title": "Pick a fig", "url": "/2025/07/02/pick-the-right-fig-for-you/", "parent": "Grow" },
+          { "order": 6, "title": "History", "url": "/2025/02/20/history-of-figs/", "parent": null },
+          { "order": 7, "title": "About", "url": "/an-introduction-to-figs/", "parent": null }
+        ],
+        "footer": [
+          { "order": 1, "title": "Rooting", "url": "/rooting/", "group": "Grow" },
+          { "order": 2, "title": "Pest control", "url": "/pest-control/", "group": "Grow" },
+          { "order": 3, "title": "History of figs", "url": "/2025/02/20/history-of-figs/", "group": "History" },
+          { "order": 4, "title": "Types of figs", "url": "/2025/08/17/types-of-figs/", "group": "History" }
+        ],
+        "hub_related_max_2": {
+          "/rooting/": [
+            "/2026/02/28/sanitizing-hydrating-and-inoculating-fig-cuttings-prior-to-striking/",
+            "/grow/"
+          ],
+          "/pest-control/": []
+        }
+      }
+    },
+    "slpwow.com": {
+      "theme_notes": {
+        "generatepress": "Hide Forum menu item when forum is inactive.",
+        "oceanwp": "Do not add clinic phone to mobile menu header."
+      },
+      "menus": {
+        "primary": [
+          { "order": 1, "title": "Home", "url": "/", "parent": null },
+          { "order": 2, "title": "News", "url": "/blog/", "parent": null },
+          { "order": 3, "title": "Free resources", "url": "/free-slp-resources/", "parent": null },
+          { "order": 4, "title": "Report templates", "url": "/free-slp-resources/free-slp-report-templates/", "parent": "Free resources" }
+        ],
+        "footer": [
+          { "order": 1, "title": "Free resources", "url": "/free-slp-resources/", "group": "Tools" },
+          { "order": 2, "title": "Report templates", "url": "/free-slp-resources/free-slp-report-templates/", "group": "Tools" }
+        ],
+        "cross_lane_about_only": [
+          { "title": "WOW Therapies (clinic)", "url": "https://wowtherapies.com/", "max_instances": 1, "page": "about" }
+        ]
+      }
+    },
+    "wowtherapies.com": {
+      "theme_notes": {
+        "generatepress": "Services is a non-clickable parent until child hubs ship.",
+        "oceanwp": "Remove lorem testimonial widgets before menu publish."
+      },
+      "menus": {
+        "primary": [
+          { "order": 1, "title": "Home", "url": "/", "parent": null },
+          { "order": 2, "title": "Services", "url": "#", "parent": null, "gap": true },
+          { "order": 3, "title": "Early childhood", "url": "/early-childhood/", "parent": "Services", "gap": true },
+          { "order": 4, "title": "School age", "url": "/school-age/", "parent": "Services", "gap": true },
+          { "order": 5, "title": "Adults", "url": "/adults/", "parent": "Services", "gap": true },
+          { "order": 6, "title": "Do we need therapy?", "url": "/does-my-child-need-speech-therapy/", "parent": null, "gap": true },
+          { "order": 7, "title": "Contact", "url": "/contact/", "parent": null }
+        ],
+        "footer": [
+          { "order": 1, "title": "Early childhood", "url": "/early-childhood/", "group": "Services", "gap": true },
+          { "order": 2, "title": "Contact", "url": "/contact/", "group": "Services" }
+        ],
+        "forbidden_targets": ["supplements", "figroots", "cosmos", "ai-public-blog"]
+      }
+    },
+    "bbfur": {
+      "theme_notes": {
+        "generatepress": "Shop may point to Etsy until /shop/ is live.",
+        "oceanwp": "Keep primary ≤6 items."
+      },
+      "menus": {
+        "primary": [
+          { "order": 1, "title": "Home", "url": "/", "parent": null, "gap": true },
+          { "order": 2, "title": "Work", "url": "/work/", "parent": null, "gap": true },
+          { "order": 3, "title": "Woods", "url": "/woods/", "parent": null, "gap": true },
+          { "order": 4, "title": "Fashion", "url": "/fashion/", "parent": null, "gap": true },
+          { "order": 5, "title": "History", "url": "/history/", "parent": null, "gap": true },
+          { "order": 6, "title": "Shop", "url": "/shop/", "parent": null, "gap": true }
+        ],
+        "footer": [
+          { "order": 1, "title": "Work", "url": "/work/", "group": "Craft", "gap": true },
+          { "order": 2, "title": "Woods", "url": "/woods/", "group": "Craft", "gap": true }
+        ]
+      }
+    },
+    "ai-public": {
+      "theme_notes": {
+        "generatepress": "About must list refusals (no COSMOS).",
+        "oceanwp": "No social icons linking to private repos."
+      },
+      "menus": {
+        "primary": [
+          { "order": 1, "title": "Home", "url": "/", "parent": null, "gap": true },
+          { "order": 2, "title": "Industry", "url": "/industry/", "parent": null, "gap": true },
+          { "order": 3, "title": "History", "url": "/history/", "parent": null, "gap": true },
+          { "order": 4, "title": "About", "url": "/about/", "parent": null, "gap": true }
+        ],
+        "footer": [
+          { "order": 1, "title": "Industry", "url": "/industry/", "group": "Read", "gap": true },
+          { "order": 2, "title": "History", "url": "/history/", "group": "Read", "gap": true }
+        ],
+        "forbidden_url_patterns": [
+          "github.com/keithbbf-gif/cosmos",
+          "gitlab",
+          "/docs/",
+          "kdash",
+          "motif",
+          "crucible"
+        ]
+      }
+    },
+    "supplements-public": {
+      "theme_notes": {
+        "generatepress": "Claims guard paragraph on About and R&D hub.",
+        "oceanwp": "No product CTAs until counsel + SKU exist."
+      },
+      "menus": {
+        "primary": [
+          { "order": 1, "title": "Home", "url": "/", "parent": null, "gap": true },
+          { "order": 2, "title": "R&D", "url": "/rd/", "parent": null, "gap": true },
+          { "order": 3, "title": "Herbal history", "url": "/history/", "parent": null, "gap": true },
+          { "order": 4, "title": "About", "url": "/about/", "parent": null, "gap": true }
+        ],
+        "footer": [
+          { "order": 1, "title": "R&D", "url": "/rd/", "group": "Methods", "gap": true },
+          { "order": 2, "title": "Herbal history", "url": "/history/", "group": "History", "gap": true }
+        ],
+        "forbidden_targets": ["wowtherapies.com", "slpwow.com", "cosmos"]
+      }
+    }
+  }
+}
