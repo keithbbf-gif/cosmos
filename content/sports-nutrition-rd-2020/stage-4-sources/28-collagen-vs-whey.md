@@ -2,6 +2,7 @@
 title: "Collagen and whey are different jobs. Stop making them compete."
 slug: collagen-vs-whey
 status: draft
+voice_check: edited
 stage: 4
 series: sports-nutrition-rd-2020
 audience: coaches, athletes, sports RDs

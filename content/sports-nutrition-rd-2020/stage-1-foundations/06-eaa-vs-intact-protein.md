@@ -2,6 +2,7 @@
 title: "Free-form EAAs are a tool. Dinner is still dinner."
 slug: eaa-vs-intact-protein
 status: draft
+voice_check: edited
 stage: 1
 series: sports-nutrition-rd-2020
 audience: coaches, athletes, sports RDs

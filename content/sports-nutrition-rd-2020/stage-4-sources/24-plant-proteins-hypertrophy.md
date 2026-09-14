@@ -2,6 +2,7 @@
 title: "Plant patterns can grow muscle. They cannot grow it on 70 grams a day."
 slug: plant-proteins-hypertrophy
 status: draft
+voice_check: edited
 stage: 4
 series: sports-nutrition-rd-2020
 audience: coaches, athletes, sports RDs

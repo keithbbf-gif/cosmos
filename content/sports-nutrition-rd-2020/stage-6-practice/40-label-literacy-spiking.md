@@ -2,6 +2,7 @@
 title: "If the label needs a decoder, the protein is the last thing you know"
 slug: label-literacy-spiking
 status: draft
+voice_check: edited
 stage: 6
 series: sports-nutrition-rd-2020
 audience: coaches, athletes, sports RDs

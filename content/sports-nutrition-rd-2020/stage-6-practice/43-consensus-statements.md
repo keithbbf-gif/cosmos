@@ -2,6 +2,7 @@
 title: "What the letterheads actually agreed on"
 slug: consensus-statements
 status: draft
+voice_check: edited
 stage: 6
 series: sports-nutrition-rd-2020
 audience: coaches, athletes, sports RDs

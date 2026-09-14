@@ -2,6 +2,7 @@
 title: "BCAAs are a 20th-century answer to a 21st-century diet"
 slug: bcaa-when-diet-is-high
 status: draft
+voice_check: edited
 stage: 1
 series: sports-nutrition-rd-2020
 audience: coaches, athletes, sports RDs

@@ -2,6 +2,7 @@
 title: "Masters athletes need the meal to be bigger, not mythical"
 slug: masters-athletes
 status: draft
+voice_check: edited
 stage: 3
 series: sports-nutrition-rd-2020
 audience: coaches, athletes, sports RDs

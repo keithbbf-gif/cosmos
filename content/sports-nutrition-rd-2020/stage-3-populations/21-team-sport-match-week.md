@@ -2,6 +2,7 @@
 title: "Match week is a carbohydrate story with a protein bass line"
 slug: team-sport-match-week
 status: draft
+voice_check: edited
 stage: 3
 series: sports-nutrition-rd-2020
 audience: coaches, athletes, sports RDs
@@ -37,6 +38,10 @@ MD+1 is where the plan usually becomes pastry and coffee. UEFA already said glyc
 If the squad is mixed vegan and omnivore, I use Hevia-Larraín and Pinckaers as the calm voice: match the grams, watch the leucine, stop the mythology. If someone wants to ice the legs at 1 a.m. after a night match, that is a recovery-staff call. If they also want a hypertrophy block on MD+2, I put Fuchs 2020 on the table and let them choose the fight.
 
 Congested fixtures (Thursday–Sunday) are not a new protein target. They are a test of whether the 0.4 g/kg meals still exist when the bus is the dining room. Trommelen 2023 is my permission to make the post-match meal large. It is not permission to skip Saturday breakfast.
+
+## What this is not
+
+Match-week protein is fueling and remodeling, not illness prevention, injury treatment, or a substitute for medical staff when a player is unwell.
 
 ## Sources
 

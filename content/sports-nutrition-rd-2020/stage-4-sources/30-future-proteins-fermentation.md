@@ -2,6 +2,7 @@
 title: "Precision fermentation is a factory. It is not yet a literature."
 slug: future-proteins-fermentation
 status: draft
+voice_check: edited
 stage: 4
 series: sports-nutrition-rd-2020
 audience: coaches, athletes, sports RDs

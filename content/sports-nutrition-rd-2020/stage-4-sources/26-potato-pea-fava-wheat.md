@@ -2,6 +2,7 @@
 title: "The new isolates have names now: potato, pea, wheat, and the blend"
 slug: potato-pea-fava-wheat
 status: draft
+voice_check: edited
 stage: 4
 series: sports-nutrition-rd-2020
 audience: coaches, athletes, sports RDs

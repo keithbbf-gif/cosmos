@@ -2,6 +2,7 @@
 title: "Leucine is a trigger, not a religion"
 slug: leucine-and-quality-scores
 status: draft
+voice_check: edited
 stage: 1
 series: sports-nutrition-rd-2020
 audience: coaches, athletes, sports RDs

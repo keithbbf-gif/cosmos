@@ -2,6 +2,7 @@
 title: "The anabolic window moved. The session did not."
 slug: timing-around-training
 status: draft
+voice_check: edited
 stage: 1
 series: sports-nutrition-rd-2020
 audience: coaches, athletes, sports RDs

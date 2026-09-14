@@ -2,6 +2,7 @@
 title: "Soy survived the internet. The hormones talk did not."
 slug: soy-in-the-2020s
 status: draft
+voice_check: edited
 stage: 4
 series: sports-nutrition-rd-2020
 audience: coaches, athletes, sports RDs

@@ -2,6 +2,7 @@
 title: "The protein is only as clean as the factory"
 slug: contamination-batch-testing
 status: draft
+voice_check: edited
 stage: 6
 series: sports-nutrition-rd-2020
 audience: coaches, athletes, sports RDs

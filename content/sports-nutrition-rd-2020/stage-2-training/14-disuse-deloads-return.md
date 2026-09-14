@@ -2,6 +2,7 @@
 title: "When the work stops, the protein conversation changes"
 slug: disuse-deloads-return
 status: draft
+voice_check: edited
 stage: 2
 series: sports-nutrition-rd-2020
 audience: coaches, athletes, sports RDs

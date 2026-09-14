@@ -2,6 +2,7 @@
 title: "The eating window moved. The daily grams did not retire."
 slug: time-restricted-ramadan
 status: draft
+voice_check: edited
 stage: 5
 series: sports-nutrition-rd-2020
 audience: coaches, athletes, sports RDs

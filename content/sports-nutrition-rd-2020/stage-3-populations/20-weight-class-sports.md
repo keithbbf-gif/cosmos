@@ -2,6 +2,7 @@
 title: "Making weight is an energy problem that steals protein"
 slug: weight-class-sports
 status: draft
+voice_check: edited
 stage: 3
 series: sports-nutrition-rd-2020
 audience: coaches, athletes, sports RDs

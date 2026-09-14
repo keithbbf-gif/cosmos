@@ -2,6 +2,7 @@
 title: "Endurance protein is a repair bill, not a gel flavor"
 slug: protein-for-endurance-ultra
 status: draft
+voice_check: edited
 stage: 2
 series: sports-nutrition-rd-2020
 audience: coaches, athletes, sports RDs

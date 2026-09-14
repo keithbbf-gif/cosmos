@@ -2,6 +2,7 @@
 title: "Altitude steals appetite and rearranges the plate"
 slug: altitude-hypoxia
 status: draft
+voice_check: edited
 stage: 5
 series: sports-nutrition-rd-2020
 audience: coaches, athletes, sports RDs

@@ -2,6 +2,7 @@
 title: "Energy availability is the diagnosis lane. Protein is a passenger."
 slug: energy-availability-reds
 status: draft
+voice_check: edited
 stage: 5
 series: sports-nutrition-rd-2020
 audience: coaches, athletes, sports RDs

@@ -8,7 +8,7 @@ These are **not** a product, a meal plan, or medical advice. They are staged cop
 
 Start with `_editorial/CLAIMS_POLICY.md`. Then the source pack. Then any draft.
 
-Each draft file has YAML front matter (`status: draft`, `stage`, sources). Body copy is meant to sound like a person, not a supplement label.
+Each draft file has YAML front matter (`status: draft`, `voice_check: edited`, `claims: no-disease`, `stage`, sources). Body copy is meant to sound like a coach or sports RD, not a supplement label.
 
 | Stage | What it is | Count |
 | --- | --- | --- |
@@ -37,4 +37,4 @@ No disease claims. See `_editorial/CLAIMS_POLICY.md`.
 
 ## Status
 
-`draft` / Stage 1 copy. Human review required before any public use.
+`draft` — editor pass complete (`voice_check: edited`); credentialed reviewer still required before any public use. Re-run `python3 content/sports-nutrition-rd-2020/tools/lint_claims.py` after edits.

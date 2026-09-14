@@ -2,6 +2,7 @@
 title: "A cut changes the queue. Muscle is no longer first."
 slug: energy-deficit
 status: draft
+voice_check: edited
 stage: 5
 series: sports-nutrition-rd-2020
 audience: coaches, athletes, sports RDs

@@ -2,6 +2,7 @@
 title: "Two sessions, one amino-acid pool"
 slug: concurrent-training
 status: draft
+voice_check: edited
 stage: 2
 series: sports-nutrition-rd-2020
 audience: coaches, athletes, sports RDs

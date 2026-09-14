@@ -2,6 +2,7 @@
 title: "Heat asks for water and salt. Protein still asks for a plate."
 slug: heat-humidity
 status: draft
+voice_check: edited
 stage: 5
 series: sports-nutrition-rd-2020
 audience: coaches, athletes, sports RDs

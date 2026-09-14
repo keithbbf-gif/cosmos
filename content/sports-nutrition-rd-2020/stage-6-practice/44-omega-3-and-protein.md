@@ -2,6 +2,7 @@
 title: "Omega-3s sit next to protein. They are not a protein."
 slug: omega-3-and-protein
 status: draft
+voice_check: edited
 stage: 6
 series: sports-nutrition-rd-2020
 audience: coaches, athletes, sports RDs

@@ -2,6 +2,7 @@
 title: "Lifting is the program. Protein is the grocery list."
 slug: protein-for-strength-hypertrophy
 status: draft
+voice_check: edited
 stage: 2
 series: sports-nutrition-rd-2020
 audience: coaches, athletes, sports RDs

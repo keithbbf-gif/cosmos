@@ -2,6 +2,7 @@
 title: "Sleep is the long recovery session. Protein is not a sleep drug."
 slug: sleep-and-overnight-recovery
 status: draft
+voice_check: edited
 stage: 2
 series: sports-nutrition-rd-2020
 audience: coaches, athletes, sports RDs

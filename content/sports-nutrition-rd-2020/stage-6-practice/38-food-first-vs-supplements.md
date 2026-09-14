@@ -2,6 +2,7 @@
 title: "Food first is a budget, not a purity test"
 slug: food-first-vs-supplements
 status: draft
+voice_check: edited
 stage: 6
 series: sports-nutrition-rd-2020
 audience: coaches, athletes, sports RDs
@@ -30,6 +31,8 @@ Monteyne’s mycoprotein work is the reminder that a whole food can win an acute
 - Do not shame a vegan for using soy isolate. Hevia-Larraín’s vegans *needed* it to hit 1.6 g/kg in that design. Food-only vegan hypertrophy at a high dose is a different study, and we do not have the trained-woman version yet.
 
 A collagen latte is not dinner. A 25 g whey isolate after a hotel session is not a moral failure. Food first is a budget: spend food on the boring grams, spend powder on the constraint, spend nothing on a story.
+
+When powder is the right tool, it should be **batch-tested** for the athletes who need a clean label — see the contamination draft. That is still food-first thinking: you are buying reliability, not a second religion.
 
 ## Sources
 

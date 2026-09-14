@@ -2,6 +2,7 @@
 title: "The 20-gram ceiling was a 4-hour story"
 slug: per-meal-dose-trommelen
 status: draft
+voice_check: edited
 stage: 1
 series: sports-nutrition-rd-2020
 audience: coaches, athletes, sports RDs

@@ -2,6 +2,7 @@
 title: "Load carriage is not a split routine"
 slug: tactical-occupational
 status: draft
+voice_check: edited
 stage: 5
 series: sports-nutrition-rd-2020
 audience: coaches, athletes, sports RDs

@@ -2,6 +2,7 @@
 title: "What the labs are still arguing about in 2026"
 slug: open-questions-2026
 status: draft
+voice_check: edited
 stage: 6
 series: sports-nutrition-rd-2020
 audience: coaches, athletes, sports RDs

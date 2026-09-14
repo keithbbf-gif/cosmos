@@ -2,6 +2,7 @@
 title: "Female athletes are not small men — and they are not another species"
 slug: female-athletes
 status: draft
+voice_check: edited
 stage: 3
 series: sports-nutrition-rd-2020
 audience: coaches, athletes, sports RDs

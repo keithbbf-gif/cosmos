@@ -2,6 +2,7 @@
 title: "The daily number still does most of the work"
 slug: daily-protein-targets
 status: draft
+voice_check: edited
 stage: 1
 series: sports-nutrition-rd-2020
 audience: coaches, athletes, sports RDs

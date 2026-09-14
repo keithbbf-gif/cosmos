@@ -2,6 +2,7 @@
 title: "Mycoprotein is the fungal food that showed up with biopsies"
 slug: mycoprotein
 status: draft
+voice_check: edited
 stage: 4
 series: sports-nutrition-rd-2020
 audience: coaches, athletes, sports RDs

@@ -2,6 +2,7 @@
 title: "The ice bath can leave the shake on the table"
 slug: cold-water-and-protein
 status: draft
+voice_check: edited
 stage: 2
 series: sports-nutrition-rd-2020
 audience: coaches, athletes, sports RDs
