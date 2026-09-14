@@ -1,0 +1,284 @@
+# Staged draft manifest — fig harvest & preserving, Zone 8a focus
+# status is editorial. stage is pick | dry | freeze | jam.
+
+set = "fig-harvest-preserving"
+status = "staged"
+focus = "8a"
+zones = ["7", "8a", "8b", "9"]
+count = 46
+
+[[draft]]
+id = "d01"
+file = "drafts/d01-do-not-ripen-in-the-bowl.md"
+stage = "pick"
+cluster = "harvest"
+
+[[draft]]
+id = "d02"
+file = "drafts/d02-neck-droop-not-color.md"
+stage = "pick"
+cluster = "harvest"
+
+[[draft]]
+id = "d03"
+file = "drafts/d03-8a-harvest-calendar.md"
+stage = "pick"
+cluster = "harvest"
+
+[[draft]]
+id = "d04"
+file = "drafts/d04-breba-is-a-rumor.md"
+stage = "pick"
+cluster = "harvest"
+
+[[draft]]
+id = "d05"
+file = "drafts/d05-morning-pick-before-birds.md"
+stage = "pick"
+cluster = "harvest"
+
+[[draft]]
+id = "d06"
+file = "drafts/d06-rain-split-same-day.md"
+stage = "pick"
+cluster = "harvest"
+
+[[draft]]
+id = "d07"
+file = "drafts/d07-closed-eye-open-eye.md"
+stage = "pick"
+cluster = "harvest"
+
+[[draft]]
+id = "d08"
+file = "drafts/d08-variety-order-on-the-row.md"
+stage = "pick"
+cluster = "harvest"
+
+[[draft]]
+id = "d09"
+file = "drafts/d09-first-year-is-a-souvenir.md"
+stage = "pick"
+cluster = "harvest"
+
+[[draft]]
+id = "d10"
+file = "drafts/d10-pots-ripen-on-a-different-clock.md"
+stage = "pick"
+cluster = "harvest"
+
+[[draft]]
+id = "d11"
+file = "drafts/d11-when-you-stop-picking.md"
+stage = "pick"
+cluster = "harvest"
+
+[[draft]]
+id = "d12"
+file = "drafts/d12-latex-is-a-glove-problem.md"
+stage = "pick"
+cluster = "harvest"
+
+[[draft]]
+id = "d13"
+file = "drafts/d13-the-bowl-that-sat-overnight.md"
+stage = "pick"
+cluster = "harvest"
+
+[[draft]]
+id = "d14"
+file = "drafts/d14-birds-wasps-ants-the-race.md"
+stage = "pick"
+cluster = "harvest"
+
+[[draft]]
+id = "d15"
+file = "drafts/d15-sun-drying-is-a-california-sentence.md"
+stage = "dry"
+cluster = "drying"
+
+[[draft]]
+id = "d16"
+file = "drafts/d16-the-dehydrator-has-a-number.md"
+stage = "dry"
+cluster = "drying"
+
+[[draft]]
+id = "d17"
+file = "drafts/d17-oven-when-the-machine-is-in-a-catalog.md"
+stage = "dry"
+cluster = "drying"
+
+[[draft]]
+id = "d18"
+file = "drafts/d18-whole-halves-slices.md"
+stage = "dry"
+cluster = "drying"
+
+[[draft]]
+id = "d19"
+file = "drafts/d19-checking-whole-figs.md"
+stage = "dry"
+cluster = "drying"
+
+[[draft]]
+id = "d20"
+file = "drafts/d20-dry-enough-is-a-bend.md"
+stage = "dry"
+cluster = "drying"
+
+[[draft]]
+id = "d21"
+file = "drafts/d21-conditioning-the-jar.md"
+stage = "dry"
+cluster = "drying"
+
+[[draft]]
+id = "d22"
+file = "drafts/d22-which-names-dry.md"
+stage = "dry"
+cluster = "drying"
+
+[[draft]]
+id = "d23"
+file = "drafts/d23-pantry-jars-and-freezer-backup.md"
+stage = "dry"
+cluster = "drying"
+
+[[draft]]
+id = "d24"
+file = "drafts/d24-what-dried-figs-are-for.md"
+stage = "dry"
+cluster = "drying"
+
+[[draft]]
+id = "d25"
+file = "drafts/d25-pretreatments-that-are-not-theater.md"
+stage = "dry"
+cluster = "drying"
+
+[[draft]]
+id = "d26"
+file = "drafts/d26-the-august-tray-that-molded.md"
+stage = "dry"
+cluster = "drying"
+
+[[draft]]
+id = "d27"
+file = "drafts/d27-tray-freeze-then-bag.md"
+stage = "freeze"
+cluster = "freezing"
+
+[[draft]]
+id = "d28"
+file = "drafts/d28-whole-halved-puree.md"
+stage = "freeze"
+cluster = "freezing"
+
+[[draft]]
+id = "d29"
+file = "drafts/d29-sugar-pack-is-quality.md"
+stage = "freeze"
+cluster = "freezing"
+
+[[draft]]
+id = "d30"
+file = "drafts/d30-frozen-figs-are-for-cooking.md"
+stage = "freeze"
+cluster = "freezing"
+
+[[draft]]
+id = "d31"
+file = "drafts/d31-thawing-without-a-puddle.md"
+stage = "freeze"
+cluster = "freezing"
+
+[[draft]]
+id = "d32"
+file = "drafts/d32-how-long-they-keep.md"
+stage = "freeze"
+cluster = "freezing"
+
+[[draft]]
+id = "d33"
+file = "drafts/d33-flash-freeze-the-glut-week.md"
+stage = "freeze"
+cluster = "freezing"
+
+[[draft]]
+id = "d34"
+file = "drafts/d34-labels-and-the-august-dump.md"
+stage = "freeze"
+cluster = "freezing"
+
+[[draft]]
+id = "d35"
+file = "drafts/d35-freezer-jam-is-a-middle-path.md"
+stage = "freeze"
+cluster = "freezing"
+
+[[draft]]
+id = "d36"
+file = "drafts/d36-jam-is-how-8a-spends-a-glut.md"
+stage = "jam"
+cluster = "jam"
+
+[[draft]]
+id = "d37"
+file = "drafts/d37-lemon-juice-is-not-optional.md"
+stage = "jam"
+cluster = "jam"
+
+[[draft]]
+id = "d38"
+file = "drafts/d38-small-batch-fridge-jam.md"
+stage = "jam"
+cluster = "jam"
+
+[[draft]]
+id = "d39"
+file = "drafts/d39-nchfp-jam-cited-not-restaged.md"
+stage = "jam"
+cluster = "jam"
+
+[[draft]]
+id = "d40"
+file = "drafts/d40-pectin-vs-the-long-cook.md"
+stage = "jam"
+cluster = "jam"
+
+[[draft]]
+id = "d41"
+file = "drafts/d41-variety-flavor-in-the-pot.md"
+stage = "jam"
+cluster = "jam"
+
+[[draft]]
+id = "d42"
+file = "drafts/d42-the-plate-test.md"
+stage = "jam"
+cluster = "jam"
+
+[[draft]]
+id = "d43"
+file = "drafts/d43-butter-jam-conserve-preserves.md"
+stage = "jam"
+cluster = "jam"
+
+[[draft]]
+id = "d44"
+file = "drafts/d44-jar-failures.md"
+stage = "jam"
+cluster = "jam"
+
+[[draft]]
+id = "d45"
+file = "drafts/d45-a-september-saturday.md"
+stage = "jam"
+cluster = "jam"
+
+[[draft]]
+id = "d46"
+file = "drafts/d46-give-the-jar-not-a-sermon.md"
+stage = "jam"
+cluster = "jam"
