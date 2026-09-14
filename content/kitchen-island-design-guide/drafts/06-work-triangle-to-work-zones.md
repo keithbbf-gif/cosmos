@@ -4,7 +4,8 @@ slug: work-triangle-to-work-zones
 title: From work triangle to work zones
 stage: 2-history
 status: staged
-topics: [history, work-triangle, zones]figures:
+topics: [history, work-triangle, zones]
+figures:
   - ../assets/work-zones/triangle-to-zones.svg
 ---
 The work triangle is a 1940s idea that still earns its keep, and

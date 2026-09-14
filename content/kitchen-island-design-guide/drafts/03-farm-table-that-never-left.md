@@ -4,7 +4,8 @@ slug: farm-table-that-never-left
 title: The farm table that never left
 stage: 2-history
 status: staged
-topics: [history, worktable, butcher-block]figures:
+topics: [history, worktable, butcher-block]
+figures:
   - ../assets/historical-farm-kitchen/trump-lilly-farm-habs-kitchen.jpg
 ---
 Before anyone called it an island, it was a table you could walk

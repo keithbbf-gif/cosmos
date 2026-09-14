@@ -4,7 +4,8 @@ slug: three-heights
 title: Three heights, and why 36 usually wins
 stage: 3-proportions
 status: staged
-topics: [proportions, height, seating]figures:
+topics: [proportions, height, seating]
+figures:
   - ../assets/three-heights/counter-bar-table-heights.svg
 ---
 You get three honest heights.

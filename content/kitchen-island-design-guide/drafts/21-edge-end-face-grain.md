@@ -4,7 +4,8 @@ slug: edge-end-face-grain
 title: Edge grain, end grain, face grain
 stage: 4-materials
 status: staged
-topics: [materials, butcher-block, grain]figures:
+topics: [materials, butcher-block, grain]
+figures:
   - ../assets/wood-grain/edge-end-face-grain.svg
 ---
 Grain orientation is the difference between a counter

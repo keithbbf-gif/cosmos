@@ -4,7 +4,8 @@ slug: what-2023-nec-changed
 title: What the 2023 NEC actually changed
 stage: 6-electrical
 status: staged
-topics: [electrical, nec, outlets]figures:
+topics: [electrical, nec, outlets]
+figures:
   - ../assets/nec-island-outlets/nec-2023-island-outlets.svg
 ---
 A lot of island drawings are still living

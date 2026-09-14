@@ -4,7 +4,8 @@ slug: behind-the-stool
 title: "Behind the stool: 32, 36, 44"
 stage: 5-seating
 status: staged
-topics: [seating, clearances, aisles]figures:
+topics: [seating, clearances, aisles]
+figures:
   - ../assets/behind-stool-clearance/stool-traffic-behind.svg
 ---
 The overhang gets all the love. The space

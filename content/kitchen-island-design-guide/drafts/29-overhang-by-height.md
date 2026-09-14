@@ -4,7 +4,8 @@ slug: overhang-by-height
 title: Overhang by height
 stage: 5-seating
 status: staged
-topics: [seating, overhang, nkba]figures:
+topics: [seating, overhang, nkba]
+figures:
   - ../assets/overhang-heights/overhang-knee-space.svg
 ---
 Overhang is not a style. It is knee space, and

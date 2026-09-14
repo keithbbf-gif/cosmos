@@ -4,7 +4,8 @@ slug: why-this-guide
 title: Why this guide exists
 stage: 1-brief
 status: staged
-topics: [intro, bradley, voice]figures:
+topics: [intro, bradley, voice]
+figures:
   - ../assets/island-room-schematic/island-in-floor-plan.svg
 ---
 I have sat at more islands that do not work than I have at ones that do.

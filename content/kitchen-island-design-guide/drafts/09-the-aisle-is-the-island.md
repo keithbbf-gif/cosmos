@@ -4,7 +4,8 @@ slug: the-aisle-is-the-island
 title: The aisle is the island
 stage: 3-proportions
 status: staged
-topics: [proportions, aisles, nkba]figures:
+topics: [proportions, aisles, nkba]
+figures:
   - ../assets/aisle-clearances/nkba-aisle-dimensions.svg
 ---
 People think they are buying an island. They are buying the air

@@ -4,7 +4,8 @@ slug: what-butcher-shops-taught-us
 title: What butcher shops taught the kitchen
 stage: 2-history
 status: staged
-topics: [history, butcher-block, materials]figures:
+topics: [history, butcher-block, materials]
+figures:
   - ../assets/historical-butcher-block/ochs-reading-terminal-market-1910s.jpg
 ---
 A real butcher block is a tool. The residential island borrowed
