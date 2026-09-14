@@ -31,6 +31,8 @@ The flexible nasopharyngolaryngoscope was already in the ENT literature (Silberm
 
 The 2001 Thieme book, *Endoscopic Evaluation and Treatment of Swallowing Disorders*, is the thickening of the method. ASHA’s later portal language — SLP, physician, or both — is the political residue. Boston University and the VA appear on later institutional pages as her addresses. This pack will not write a travelogue. The 1988 note is the event.
 
+FEESS with the extra S is the title on the page. Later speech dropped a letter and gained a cottage of workshops. The workshops are not the paper. The paper is a VA answer to a travel problem: the fluoro room downstairs, the veteran who was not going. A founder slide that erases Schatz and Olsen is the same slide this pack already refuses for Logemann.
+
 DRS and ASHA honors came later. Honors are not the paper. The paper is four pages and a fight about a nose.
 
 Later institutional pages put her at Boston University and keep the VA in the biography. The 1988 paper is still a VA paper. That matters. The patients who could not travel were not a boutique clinic’s patients. They were the people a fiberscope could reach at two in the morning. Conference FEES courses that followed are a different object — training, politics, a cottage of workshops. This pack will not review the workshops. It will say they happened because four pages made a nose a swallow instrument.

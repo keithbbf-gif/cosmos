@@ -33,6 +33,8 @@ The voice-disorders pack meets Jackson from the knife and the professional-voice
 
 He trained generations of American endoscopists. He also trained a public. Newspapers liked a pin on a card. The public story made endoscopy look like a miracle extraction. The private story was hours of practice and a pile of deaths you do not put in the window.
 
+The voice-disorders pack already has him from the professional-voice and knife side. Hold the split. A later student who meets Jackson only as a cabinet of pins has missed the cancer rooms; a student who meets him only as a laryngologist has missed the children. This profile keeps the objects and the manuals. The 1938 autobiography will try to keep the legend. Use it as a source with a grain of Philadelphia on it.
+
 Philadelphia’s instrument makers and Jackson’s own designs are a side literature: tubes, forceps, a light that would not go out at the wrong second. He cared about the kit the way a later SLP would care about a cookie recipe — except his kit could kill you if it was wrong. Temple University’s later claim on him is real and also a city’s habit of keeping a famous old man. Jefferson has its own claim. This pack will not referee a plaque fight.
 
 ## What later people kept

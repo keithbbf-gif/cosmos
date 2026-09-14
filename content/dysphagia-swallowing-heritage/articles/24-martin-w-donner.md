@@ -27,6 +27,8 @@ The Baltimore *Sun*, 15 April 1992: Dr. Martin W. Donner died Monday at Hopkins 
 
 He had been director of radiology in the school and chief of radiology in the hospital since 1972. In 1981 he opened the Swallowing Center. In 1986 he became founding editor of *Dysphagia*. In 1987 he left the department posts to give the center and the journal his time. He left the center in 1990. Distinguished Professor, 1991. More than 160 publications. Placental blood-flow in monkeys sits on the same CV as the swallow. People are larger than a specialty.
 
+German-born, later an honorary member of the Deutsche Röntgengesellschaft in a reunited country — the GI-radiology memorials say so. This pack will not invent a childhood. It will say the Hopkins center was built by a man who already knew how to run a department, and who thought a swallow was worth leaving the department for.
+
 ## A meeting, not a medal
 
 The Walter B. Cannon Medal from the Society of Gastrointestinal Radiologists (1983) and the presidency of that society (1978–79) are GI-radiology facts. The center is the swallow fact. Memorials call it the first in the country, sometimes the first in the world. That is a colleague’s sentence. What he built, on the sentences we can defend, is a multidisciplinary research-and-clinical facility whose point was that radiology should ask other people in, not only answer a requisition.

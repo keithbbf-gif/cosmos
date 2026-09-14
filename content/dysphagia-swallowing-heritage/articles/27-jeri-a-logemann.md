@@ -33,6 +33,8 @@ She published as Jeri A. Logemann. This pack uses Jerilyn once, then Logemann.
 
 The physiology papers with Dodds, Kahrilas, and others keep her from being a lone-genius slide. Head-and-neck and neurologic caseloads keep her from being a cookie joke. Later maneuver worksheets that quote her without the physiology are not her fault and not this pack’s reprint job.
 
+Northwestern’s obituaries lead with the test that replaced a more stressful radiographic swallow. That is a clinic sentence, not a discovery claim. People had been pouring barium for decades. What she changed for SLP training was the *question* in the room: not “does the column reach the stomach” but “where does this meal fail, and can I write that down so Tuesday’s clinician can argue with me.” ASHA’s two presidencies sit on the same CV as the Faculty Senate chairs. They prove she could run a profession’s paperwork. They do not prove the 1983 book. The book proves itself by still being the spine people argue with.
+
 The obituaries mention a cousin, Ruth Fruland, and a request for gifts to a communication-sciences research group. No further family. No invented bedside.
 
 ## What later people kept

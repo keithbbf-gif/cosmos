@@ -31,6 +31,8 @@ Cannon entered Harvard’s medical world as a young man in a hurry to use the R�
 
 He became the kind of Harvard physiologist other societies name medals after. The Society of Gastrointestinal Radiologists’ Walter B. Cannon Medal is a later memory habit. Donner won it in 1983. The medal does not make Cannon a radiologist in the hospital sense. He was a physiologist who lent radiology a method.
 
+Prairie du Chien is an easy boyhood slide. Skip it unless you are writing a different magazine. The usable scene is Bowditch’s laboratory and a goose with a long neck, 1896–97, a student betting that Röntgen’s toy could draw a viscus in motion. The 1898 esophagus paper with Moser is the swallow shelf. Homeostasis is the fame that ate the shelf. This pack puts the shelf back.
+
 He wrote as a man who liked a clear sentence. *The Mechanical Factors of Digestion* is still readable if you can tolerate 1911 manners. The later fame — *Bodily Changes in Pain, Hunger, Fear and Rage*; the emergency theory of the adrenals — made him a public physiologist. GI radiology kept the student. Speech-language pathology, when it is honest, keeps the student too: the meal as a thing that can be stained.
 
 ## What later people kept
