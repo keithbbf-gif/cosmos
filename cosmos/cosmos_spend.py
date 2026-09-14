@@ -68,9 +68,16 @@ class SpendGate:
     # ---------------- the breaker ----------------
     def guarded_call(self, rail: str, worst_case_usd: float,
                      call: Callable[[], dict],
-                     ttl_s: float = 600) -> dict:
+                     ttl_s: float = 600, *,
+                     product: str | None = None,
+                     stage: str | None = None) -> dict:
         """RESERVE -> DENY-or-CALL -> SETTLE. The call receives nothing until the
         reservation exists; a failed reserve raises BEFORE any spend can happen."""
+        from cosmos_portfolio_attribution import AttributionError, optional_tags
+        try:
+            tag_fields = optional_tags(product=product, stage=stage)
+        except AttributionError as e:
+            raise SpendError("DENIED", str(e)) from e
         st = self._state()
         if rail not in st:
             raise SpendError("UNKNOWN_RAIL",
@@ -80,9 +87,10 @@ class SpendGate:
         # CRITIC B7 FIX (measured: an expired budget ALLOWED a call): an expired credit
         # cannot be spent - that is what expiry MEANS - and the denial is typed.
         if b.get("expires") and now >= b["expires"]:
-            self.ledger.append("SPEND_DENIED",
-                               {"rail": rail, "worst_case_usd": worst_case_usd,
-                                "detail": "BUDGET EXPIRED"})
+            deny = {"rail": rail, "worst_case_usd": worst_case_usd,
+                    "detail": "BUDGET EXPIRED"}
+            deny.update(tag_fields)
+            self.ledger.append("SPEND_DENIED", deny)
             raise SpendError("DENIED",
                              f"{rail}: budget expired "
                              f"{(now - b['expires'])/86400:.1f} days ago - an expired "
@@ -97,10 +105,11 @@ class SpendGate:
                 del b["reserved"][rid]
         outstanding = sum(r["usd"] for r in b["reserved"].values())
         if b["settled"] + outstanding + worst_case_usd > b["cap"]:
-            self.ledger.append("SPEND_DENIED",
-                               {"rail": rail, "worst_case_usd": worst_case_usd,
-                                "settled": b["settled"], "outstanding": outstanding,
-                                "cap": b["cap"]})
+            deny = {"rail": rail, "worst_case_usd": worst_case_usd,
+                    "settled": b["settled"], "outstanding": outstanding,
+                    "cap": b["cap"]}
+            deny.update(tag_fields)
+            self.ledger.append("SPEND_DENIED", deny)
             raise SpendError("DENIED",
                              f"{rail}: worst case ${worst_case_usd:.2f} would pass the "
                              f"cap (settled ${b['settled']:.2f} + reserved "
@@ -129,21 +138,24 @@ class SpendGate:
                     f"{rail}: worst case ${worst_case_usd:.2f} passes the cap under the "
                     f"lock (settled ${b2['settled']:.2f} + reserved ${out2:.2f} of "
                     f"${b2['cap']:.2f}) - denied atomically, no overlap slip")
-            return ("SPEND_RESERVED",
-                    {"rail": rail, "rid": rid, "worst_case_usd": worst_case_usd,
-                     "expires_epoch": now2 + ttl_s, "provenance": "estimate"})
+            payload = {"rail": rail, "rid": rid, "worst_case_usd": worst_case_usd,
+                       "expires_epoch": now2 + ttl_s, "provenance": "estimate"}
+            payload.update(tag_fields)
+            return ("SPEND_RESERVED", payload)
         self.ledger.append_guarded(_decide)
         try:
             result = call()
         except Exception:
-            self.ledger.append("SPEND_RELEASED", {"rail": rail, "rid": rid,
-                                                  "detail": "call raised - released"})
+            rel = {"rail": rail, "rid": rid, "detail": "call raised - released"}
+            rel.update(tag_fields)
+            self.ledger.append("SPEND_RELEASED", rel)
             raise
         measured = result.get("usd")            # None = UNPRICED, and that is a state
-        self.ledger.append("SPEND_SETTLED",
-                           {"rail": rail, "rid": rid,
-                            "measured_usd": measured,
-                            "provenance": "measured" if measured is not None else "UNPRICED"})
+        settled = {"rail": rail, "rid": rid,
+                 "measured_usd": measured,
+                 "provenance": "measured" if measured is not None else "UNPRICED"}
+        settled.update(tag_fields)
+        self.ledger.append("SPEND_SETTLED", settled)
         # Stamp the join keys this call just wrote (SPEND_RESERVED/SETTLED
         # already carry rid+rail). Callers that record a CONVO_TURN can
         # thread them without re-reading the chain. setdefault: a rail
@@ -152,6 +164,11 @@ class SpendGate:
         out.setdefault("rid", rid)
         out.setdefault("rail", rail)
         return out
+
+    def audit_by_product(self) -> dict:
+        """Per-product settled totals from tagged SPEND_SETTLED rows only."""
+        from cosmos_portfolio_attribution import fold_spend_by_product
+        return fold_spend_by_product(self.ledger.verify())
 
     # ---------------- both-direction audit ----------------
     def audit(self) -> dict:

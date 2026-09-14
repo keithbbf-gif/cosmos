@@ -57,15 +57,22 @@ class Scheduler:
 
     # ---------------- submit ----------------
     def submit(self, command: str, priority: str = "normal",
-               timeout_s: int = 1800, lane: str = "default") -> str:
+               timeout_s: int = 1800, lane: str = "default",
+               *, product: str | None = None, stage: str | None = None) -> str:
         if priority not in PRIORITIES:
             raise SchedError("BAD_PRIORITY",
                              f"{priority!r} not in {sorted(PRIORITIES)} - refusing "
                              f"rather than defaulting (a silently-normal critical job)")
+        from cosmos_portfolio_attribution import AttributionError, optional_tags
+        try:
+            tags = optional_tags(product=product, stage=stage)
+        except AttributionError as e:
+            raise SchedError("BAD_INPUT", str(e)) from e
         job_id = "%d-%s" % (int(self._clock() * 1000), uuid.uuid4().hex[:10])
         manifest = {"job_id": job_id, "command": command, "priority": priority,
                     "timeout_s": timeout_s, "lane": lane,
                     "submitter": self.worker, "submitted": self._clock()}
+        manifest.update(tags)
         mp = self.root / "manifests" / (job_id + ".json")
         mp.write_text(json.dumps(manifest, indent=1), encoding="utf-8")
         # manifest is immutable from here; the ledger event is what makes it REAL

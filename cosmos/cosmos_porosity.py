@@ -425,7 +425,18 @@ def record_pair(paths, model_a, model_b, *, axis="", disagree=True,
     a = _pin(model_a)
     b = _pin(model_b)
     lo, hi = _pair(a, b)
-    ax = _axis(axis, profile)
+    from cosmos_portfolio_attribution import (
+        AttributionError,
+        normalize_product,
+        normalize_stage,
+    )
+    try:
+        prof = normalize_product(str(profile or "forge").strip().lower())
+        st_raw = str(stage or "").strip().lower()
+        st_tag = normalize_stage(st_raw) if st_raw else ""
+    except AttributionError as e:
+        raise PorosityError("BAD_INPUT", str(e)) from e
+    ax = _axis(axis, prof)
     src = str(source or "local").strip().lower()
     if src not in SRC_OK:
         raise PorosityError("BAD_INPUT", f"unknown source {source!r}")
@@ -440,8 +451,9 @@ def record_pair(paths, model_a, model_b, *, axis="", disagree=True,
         "schema": SCHEMA,
         "at": _iso(),
         "trial_id": str(trial_id or "")[:120],
-        "profile": str(profile or "forge").strip().lower()[:40],
-        "stage": str(stage or "").strip().lower()[:40],
+        "profile": prof,
+        "product": prof,
+        "stage": (st_tag or "")[:40],
         "axis": ax,
         "model_a": a,
         "model_b": b,
