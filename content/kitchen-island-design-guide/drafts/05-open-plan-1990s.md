@@ -9,6 +9,11 @@ topics: [history, open-plan, furniture]
 
 The island became furniture when we knocked the wall down.
 
+<figure>
+  <img src="../assets/open-plan-kitchen-corinda-queensland.jpg" alt="Open-plan kitchen and living room with a long island facing the sofa" width="1800" height="830" loading="lazy" decoding="async" />
+  <figcaption>Open-plan living turned the island into room furniture—seating, homework, and traffic all share one sightline. Photo: Kgbo / <a href="https://commons.wikimedia.org/wiki/File:Open_plan_house;_kitchen_and_sitting_room_in_Corinda,_Queensland_01.jpg">CC BY-SA 4.0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 By the 1990s the great room had won. Kitchen, dining, and the TV
 were one volume, and something had to hold the middle so the cook
 was not facing a blank. The island did that work. It was a counter,

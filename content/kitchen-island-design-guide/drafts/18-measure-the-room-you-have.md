@@ -9,6 +9,11 @@ topics: [proportions, measuring, field]
 
 Drawings lie in small, friendly ways. The room does not.
 
+<figure>
+  <img src="../assets/schematic-aisle-clearances.svg" alt="Kitchen floor plan schematic for measuring clearances around a proposed island" width="720" height="420" loading="lazy" decoding="async" />
+  <figcaption>Measure finished floor to cabinet faces, then subtract aisles—the island size left over is the only size you can honestly sell. Schematic: Bradley island design guide (CC0).</figcaption>
+</figure>
+
 I measure finished floor to finished wall, then I measure
 again after the plasterer has added an eighth and the
 cabinet setter has found the hump. Islands land on the

@@ -12,6 +12,11 @@ stools, slab, boxes, then “we’ll
 make the aisles work” — is how
 you get a lie.
 
+<figure>
+  <img src="../assets/kitchen-tape-measure-prep.jpg" alt="Tape measure in a kitchen used to verify clearances before ordering an island" width="1800" height="1202" loading="lazy" decoding="async" />
+  <figcaption>Sequence starts with a tape: measure clearances, refuse bad fits, then size the top, power, and stools—in that order. Photo: Shixart1985 / <a href="https://commons.wikimedia.org/wiki/File:Measuring_a_green_apple_beside_fresh_juice_in_a_bright_kitchen_setting_during_a_healthy_lifestyle_moment.jpg">CC BY 2.0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 **1. Measure the room you have.**
 Tape, floor hump, door swings,
 slab path. Draft 18. If you

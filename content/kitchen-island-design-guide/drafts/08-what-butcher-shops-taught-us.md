@@ -11,6 +11,11 @@ A real butcher block is a tool. The residential island borrowed
 the name and sometimes the wood, and then asked the tool to be
 a dining table.
 
+<figure>
+  <img src="../assets/army-kitchen-fort-jesup.jpg" alt="Historic institutional kitchen with long wooden prep tables" width="1800" height="1200" loading="lazy" decoding="async" />
+  <figcaption>Commercial kitchens taught durability first: heavy tops, clear aisles, and surfaces that could take abuse—ideas that migrated to residential islands. Photo: Pat Austin / <a href="https://commons.wikimedia.org/wiki/File:Army_Kitchen_at_Fort_Jesup_State_Historic_Site.jpg">CC BY 2.0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 End-grain maple in a shop is thick — two, three, four inches —
 because knives are going to live there for decades. The fibers
 stand up. The edge of the knife slips between them instead of

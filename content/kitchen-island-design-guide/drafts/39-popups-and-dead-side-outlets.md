@@ -13,6 +13,11 @@ to put power on the island without
 building a backsplash that is 6 inches
 tall.
 
+<figure>
+  <img src="../assets/popup-electrical-outlet-island.jpg" alt="Listed pop-up electrical outlet installed in a kitchen island countertop" width="1800" height="1350" loading="lazy" decoding="async" />
+  <figcaption>Pop-up receptacles must be listed assemblies—this is the kind of in-counter outlet inspectors expect when the island face cannot host a plug. Photo: Stilfehler / <a href="https://commons.wikimedia.org/wiki/File:US_Pop-up_Electrical_Outlet_3.jpg">CC BY-SA 4.0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 Use an assembly listed for countertops
 or work surfaces. “Listed” is the word
 that keeps you out of a fight. A pretty

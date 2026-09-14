@@ -10,6 +10,11 @@ topics: [seating, overhang, nkba]
 Overhang is not a style. It is knee space, and
 knee space changes with how high you sit.
 
+<figure>
+  <img src="../assets/schematic-overhang-knee-space.svg" alt="Side view diagram of 36-inch counter with 15-inch seating overhang and 24-inch stool width" width="720" height="360" loading="lazy" decoding="async" />
+  <figcaption>Kitchen island overhang for counter-height seating: plan about 15 inches of knee depth and 24 inches of width per person at a 36-inch top. Schematic: Bradley island design guide (CC0).</figcaption>
+</figure>
+
 NKBA seating clearances, the ones I write on
 every Bradley island that claims to host:
 

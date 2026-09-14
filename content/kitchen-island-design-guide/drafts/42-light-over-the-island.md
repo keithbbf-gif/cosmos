@@ -11,6 +11,11 @@ Pendants are not a lighting plan.
 They are a jewelry decision that
 sometimes lights a roast.
 
+<figure>
+  <img src="../assets/hamptons-style-kitchen-island.jpg" alt="Kitchen island work surface under ceiling space reserved for pendant lighting" width="1600" height="1067" loading="lazy" decoding="async" />
+  <figcaption>Light over the island needs a layer plan—pendants or slots centered on the work surface, not the room centroid. Photo: JessofWoodnCo / <a href="https://commons.wikimedia.org/wiki/File:Hamptons_Kitchen_Design_1.jpg">CC BY-SA 4.0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 I want two layers over a Bradley
 island. One is the work light: even,
 high enough CRI that you can tell

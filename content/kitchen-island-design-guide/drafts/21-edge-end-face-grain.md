@@ -10,6 +10,11 @@ topics: [materials, butcher-block, grain]
 Grain orientation is the difference between a counter
 and a block, and between a block and a picture of wood.
 
+<figure>
+  <img src="../assets/end-grain-cutting-board.jpg" alt="Close view of end-grain wood cutting board with checkerboard pattern" width="1350" height="1800" loading="lazy" decoding="async" />
+  <figcaption>End-grain tops show their structure: hard species in end grain behave differently under knife marks than edge-grain planks. Photo: Hu Nhu / <a href="https://commons.wikimedia.org/wiki/File:End_grain_cutting_board.jpg">CC BY-SA 4.0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 Edge grain is the residential workhorse. Boards on
 edge, long lines running the length of the island,
 1.25 to 2.5 inches thick in most shops. It is stable

@@ -9,6 +9,11 @@ topics: [materials, butcher-block, stone]
 
 This is not a team sport. It is a job description.
 
+<figure>
+  <img src="../assets/mineral-oil-butcher-block.jpg" alt="Hand applying mineral oil to a wood butcher-block countertop" width="1224" height="1632" loading="lazy" decoding="async" />
+  <figcaption>Butcher block is a living surface: oil maintenance is part of the material choice, not an optional upgrade. Photo: Timtempleton / <a href="https://commons.wikimedia.org/wiki/File:Mineral_oil_treating_butcher_block.png">CC BY-SA 3.0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 If the island is where you will cut, knead, and drop a hot
 pan you were not supposed to drop, wood is in the fight.
 If the island is where you will park a wet bag of ice, a

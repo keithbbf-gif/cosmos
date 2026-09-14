@@ -12,6 +12,11 @@ Granite had a twenty-year run as the word for
 earned a lot of busy brown islands that look
 like airport floors.
 
+<figure>
+  <img src="../assets/granite-countertop-slab-display.jpg" alt="Polished granite slab used for kitchen countertop selection" width="1800" height="1350" loading="lazy" decoding="async" />
+  <figcaption>Granite brings heat tolerance and natural variation—sealing and slab selection matter as much as the edge profile. Photo: Stilfehler / <a href="https://commons.wikimedia.org/wiki/File:Granite_for_Countertops_12.jpg">CC BY-SA 4.0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 What granite still does better than quartz is
 heat, in most cases, and a kind of visual depth
 that resin cannot fake. You can set a hot pan

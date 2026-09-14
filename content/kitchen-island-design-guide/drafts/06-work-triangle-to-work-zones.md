@@ -10,6 +10,11 @@ topics: [history, work-triangle, zones]
 The work triangle is a 1940s idea that still earns its keep, and
 it is also the idea that makes people draw stupid islands.
 
+<figure>
+  <img src="../assets/schematic-work-zones.svg" alt="Diagram of prep, cook, and cleanup zones around a kitchen island" width="720" height="420" loading="lazy" decoding="async" />
+  <figcaption>Work zones replace the old triangle: the island often bridges prep and seating while cook and cleanup stay on their own runs. Schematic: Bradley island design guide (CC0).</figcaption>
+</figure>
+
 Sink, cooktop, refrigerator. Three points. NKBA still says the
 three traveled legs should add up to no more than 26 feet, with
 no single leg under 4 feet or over 9. No leg should cut through

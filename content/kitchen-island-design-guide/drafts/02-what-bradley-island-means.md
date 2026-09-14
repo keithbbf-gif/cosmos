@@ -13,6 +13,11 @@ arrives in three crates with an Allen key. I mean a run of full-access
 cabinet boxes, built in the U.S. or Canada, sized to the room, set
 on a finished floor, and capped with a top we chose on purpose.
 
+<figure>
+  <img src="../assets/sektion-island-bracket-junction-box.jpg" alt="Steel island support bracket with an electrical junction box for kitchen island power" width="1800" height="1350" loading="lazy" decoding="async" />
+  <figcaption>Bradley islands are cabinet boxes plus structure: a listed bracket carries countertop load and can host rough-in for island receptacles. Photo: Stilfehler / <a href="https://commons.wikimedia.org/wiki/File:Sektion_Kitchen_Island_Support_Bracket_with_Junction_Box.jpg">CC BY-SA 4.0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 Full-access is the old “frameless” story told without the accent.
 There is no face frame eating an inch of every opening. Drawers go
 wider. You feel it when you put a mixer away without turning it

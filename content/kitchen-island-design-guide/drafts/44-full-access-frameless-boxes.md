@@ -11,6 +11,11 @@ Full-access is the reason a Bradley
 island feels bigger than a face-frame
 island of the same outside measure.
 
+<figure>
+  <img src="../assets/frameless-cabinet-toe-kick-u-kitchen.jpg" alt="Frameless kitchen cabinet boxes in a U-shaped layout showing full-access construction" width="1800" height="1350" loading="lazy" decoding="async" />
+  <figcaption>Full-access frameless boxes are the island’s skeleton—wider drawers and adjustable legs show up before the top is templated. Photo: Stilfehler / <a href="https://commons.wikimedia.org/wiki/File:F%C3%B6rb%C3%A4ttra_Toe_Kick_U-Kitchen.jpg">CC BY-SA 4.0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 There is no rail of wood around every
 opening. The drawer is the opening.
 On an island, where every inch of

@@ -11,6 +11,11 @@ A prep island starts being an island at about 48 inches long and
 24 inches deep. That is a landing you can flour. Below that you
 have a cabinet in the way.
 
+<figure>
+  <img src="../assets/kitchen-with-island-new-orleans-2007.jpg" alt="Modest kitchen island size with clearance to open dishwasher and pass behind stools" width="1800" height="1197" loading="lazy" decoding="async" />
+  <figcaption>The smallest useful island still needs real aisles—this footprint works because circulation was solved before the top was ordered. Photo: MeRyan / <a href="https://commons.wikimedia.org/wiki/File:Kitchen_with_island,_New_Orleans_2007.jpg">CC BY 2.0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 I will build smaller if a client understands they are buying a
 staging perch: a place for the kettle, the mail, a bowl of
 fruit. I will not call it a work island. Names keep us honest.

@@ -10,6 +10,11 @@ topics: [history, worktable, butcher-block]
 Before anyone called it an island, it was a table you could walk
 around.
 
+<figure>
+  <img src="../assets/kennixton-farmhouse-kitchen-table.jpg" alt="Historic farmhouse kitchen with a large central wooden work table" width="1800" height="1204" loading="lazy" decoding="async" />
+  <figcaption>The island’s ancestor: a central table you could walk around while prep stayed in the middle of the room. Photo: Wolfgang Sauber / <a href="https://commons.wikimedia.org/wiki/File:SFHNM_-_Kennixton_Farm_4_K%C3%BCche_Tisch.jpg">CC BY-SA 3.0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 Farm kitchens in the 1800s put a heavy worktable in the middle of
 the room because the stove was a beast against the wall and the
 water was a pump or a pail. You needed a place to flour, cut, and

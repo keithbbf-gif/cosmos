@@ -10,6 +10,11 @@ topics: [history, peninsula, aisles]
 For a long stretch of the 20th century, the island was a peninsula
 and nobody was embarrassed about it.
 
+<figure>
+  <img src="../assets/modern-kitchen-gnangarra.jpg" alt="Modern L-shaped kitchen layout with peninsula counter and wall cabinets" width="1800" height="1174" loading="lazy" decoding="async" />
+  <figcaption>Before every room got a freestanding block, the peninsula did the island’s job along one wall. Photo: Gnangarra / <a href="https://commons.wikimedia.org/wiki/File:Modern_kitchen_gnangarra.JPG">CC BY 2.5 AU</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 Postwar American kitchens were U-shapes and L-shapes punched into
 small footprints. A peninsula gave you a second run of counter and
 a place to eat without asking the room to grow four aisles. One

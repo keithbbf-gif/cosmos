@@ -9,6 +9,11 @@ topics: [materials, butcher-block, finish]
 
 Finish is the contract.
 
+<figure>
+  <img src="../assets/mineral-oil-butcher-block.jpg" alt="Applying mineral oil finish to a wood butcher-block kitchen countertop" width="1224" height="1632" loading="lazy" decoding="async" />
+  <figcaption>Oil finishes stay in the cutting-board family: periodic mineral oil keeps a wood island top from drying out and checking. Photo: Timtempleton / <a href="https://commons.wikimedia.org/wiki/File:Mineral_oil_treating_butcher_block.png">CC BY-SA 3.0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 Oil — mineral oil, a wiping oil, a hardwax oil if
 we trust the product — stays in the family of a
 cutting board. You can cut. You can sand a scar

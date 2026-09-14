@@ -12,6 +12,11 @@ your life. If that sentence makes you happy,
 we can talk. If it makes you want a lawyer, buy
 quartz.
 
+<figure>
+  <img src="../assets/marble-countertop-slab-display.jpg" alt="White marble slab with gray veining for kitchen countertops" width="1600" height="1200" loading="lazy" decoding="async" />
+  <figcaption>Marble and soapstone reward honest clients: etching and patina are material behavior, not defects to hide in the spec. Photo: Stilfehler / <a href="https://commons.wikimedia.org/wiki/File:Marble_for_Countertops_03.jpg">CC BY-SA 4.0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 Etching is not staining. A lemon, a tomato, a
 vinegar-based anything will dull polished
 marble. Honed marble shows it less and still

@@ -9,6 +9,11 @@ topics: [proportions, depth, overhang]
 
 Depth is the measurement that makes people lie to themselves.
 
+<figure>
+  <img src="../assets/open-plan-kitchen-corinda-queensland.jpg" alt="Deep kitchen island facing a living area with one-sided counter seating" width="1800" height="830" loading="lazy" decoding="async" />
+  <figcaption>One-sided seating drives depth: the dining side needs overhang and knee room without stealing the cook’s landing zone on the back. Photo: Kgbo / <a href="https://commons.wikimedia.org/wiki/File:Open_plan_house;_kitchen_and_sitting_room_in_Corinda,_Queensland_01.jpg">CC BY-SA 4.0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 A working box is 24 inches deep. The top hangs a little past
 that — an inch, give or take, on the cook side — so you are
 in the 25-to-26 range before anyone sits down. That is a

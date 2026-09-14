@@ -9,6 +9,11 @@ topics: [proportions, height, seating]
 
 You get three honest heights.
 
+<figure>
+  <img src="../assets/hamptons-style-kitchen-island.jpg" alt="36-inch counter-height kitchen island with seating zone in a bright open kitchen" width="1600" height="1067" loading="lazy" decoding="async" />
+  <figcaption>Most Bradley islands land at 36-inch counter height—table and bar heights are exceptions you plan deliberately, not accidents from mixed stools. Photo: JessofWoodnCo / <a href="https://commons.wikimedia.org/wiki/File:Hamptons_Kitchen_Design_1.jpg">CC BY-SA 4.0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 Thirty inches is a table. Chairs, not stools. Kids can sit
 without a climb. The top will not line up with your wall
 counters, so the island becomes a piece of furniture that

@@ -12,6 +12,11 @@ treasure hunt. Six feet from a sink,
 countertop only, measure the door,
 argue about the fridge.
 
+<figure>
+  <img src="../assets/gfci-electrical-outlet.jpg" alt="Ground-fault circuit interrupter outlet required for kitchen countertop and island power" width="1800" height="1252" loading="lazy" decoding="async" />
+  <figcaption>GFCI the whole kitchen counter strategy—including island runs—so a single unprotected receptacle does not fail inspection. Photo: Tony Webster / <a href="https://commons.wikimedia.org/wiki/File:Ground_Fault_Circuit_Interrupter_(GFCI)_Electrical_Outlet_(29268945818).jpg">CC BY 2.0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 2023 widened 210.8(A)(6). The phrase
 that limited protection to receptacles
 serving countertops came out. The

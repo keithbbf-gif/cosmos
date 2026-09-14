@@ -10,6 +10,11 @@ topics: [intro, bradley, voice]
 I have sat at more islands that do not work than I have at ones that do.
 That is not a flex. It is the reason this folder exists.
 
+<figure>
+  <img src="../assets/kitchen-with-island-new-orleans-2007.jpg" alt="Residential kitchen with a central wood-top island and walking aisles on three sides" width="1800" height="1197" loading="lazy" decoding="async" />
+  <figcaption>A real kitchen island in a New Orleans home: the photograph shows finished aisles and a central work surface—details a brochure render often hides. Photo: MeRyan / <a href="https://commons.wikimedia.org/wiki/File:Kitchen_with_island,_New_Orleans_2007.jpg">CC BY 2.0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 A kitchen island is the most expensive piece of furniture most people
 will ever put in the middle of a room, and it is the piece they decide
 on from a photograph. The photograph does not show the dishwasher door

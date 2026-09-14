@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Kitchen work zones around an island</title>
+  <desc id="desc">Plan view labeling prep, cooking, and cleanup zones with an island bridging prep and seating.</desc>
+  <rect width="720" height="420" fill="#f8f7f4"/>
+  <rect x="30" y="50" width="660" height="320" fill="#ebe6de" stroke="#8a8278" stroke-width="2"/>
+  <rect x="250" y="140" width="220" height="140" fill="#d4cabb" stroke="#5c5348" stroke-width="2"/>
+  <text x="360" y="218" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#3d3832">Island</text>
+  <rect x="60" y="70" width="150" height="90" fill="#cfe3d4" stroke="#2f6f4e" stroke-width="1.5" rx="4"/>
+  <text x="135" y="118" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#1f4d32">Prep zone</text>
+  <rect x="60" y="260" width="150" height="90" fill="#f3d9c4" stroke="#a65c2a" stroke-width="1.5" rx="4"/>
+  <text x="135" y="308" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#6b3a12">Cook zone</text>
+  <rect x="510" y="260" width="150" height="90" fill="#d4e3f0" stroke="#1d5a8a" stroke-width="1.5" rx="4"/>
+  <text x="585" y="308" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#123f66">Cleanup</text>
+  <path d="M210 115 Q285 130 250 180" fill="none" stroke="#5c5348" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="360" y="390" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#5c5348">Zones overlap at the island; triangle legs are paths, not walls.</text>
+</svg>

@@ -11,6 +11,11 @@ Twenty-four inches is not a generous seat.
 It is the planning number that keeps two
 people from eating off the same plate.
 
+<figure>
+  <img src="../assets/showroom-bar-stools-counter-height.jpg" alt="Kitchen bar stools spaced along a counter-height island in a showroom" width="1800" height="1200" loading="lazy" decoding="async" />
+  <figcaption>Twenty-four inches of width per stool is the planning number—tighter spacing works for coffee, not for elbows at dinner. Photo: Lionel Allorge / <a href="https://commons.wikimedia.org/wiki/File:Castorama_aux_Ulis_le_19_avril_2017_-_47.jpg">CC BY-SA 3.0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 I have sat at 21-inch stations. You can do
 it if you like the person and the meal is
 short. You cannot do it for four adults

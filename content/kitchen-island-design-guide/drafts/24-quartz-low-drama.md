@@ -10,6 +10,11 @@ topics: [materials, stone, quartz]
 Quartz is the stone I spec when the household wants
 the argument to end.
 
+<figure>
+  <img src="../assets/quartz-worktop-gemini.jpg" alt="Engineered quartz kitchen countertop with uniform color and eased edge" width="1800" height="1195" loading="lazy" decoding="async" />
+  <figcaption>Engineered quartz trades drama for consistency—low porosity and predictable seams for clients who want a wipeable field around the sink. Photo: Oblackburn23 / <a href="https://commons.wikimedia.org/wiki/File:A_quartz_worktop_by_Gemini_Worktops.jpg">CC BY-SA 4.0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 It is not stone in the quarry sense. It is stone in
 the kitchen sense: a slab, cold, heavy, seamed by a
 fabricator, wiped with a cloth. The binder is resin.

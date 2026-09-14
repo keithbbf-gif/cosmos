@@ -12,6 +12,11 @@ in 2020. The 2023 National Electrical
 Code changed the story, and your town may
 or may not have adopted it.
 
+<figure>
+  <img src="../assets/gfci-electrical-outlet.jpg" alt="GFCI electrical outlet with test and reset buttons for kitchen island circuits" width="1800" height="1252" loading="lazy" decoding="async" />
+  <figcaption>NEC kitchen changes still ride on GFCI protection—island and peninsula receptacles must meet the edition your AHJ adopted. Photo: Tony Webster / <a href="https://commons.wikimedia.org/wiki/File:Ground_Fault_Circuit_Interrupter_(GFCI)_Electrical_Outlet_(29268945818).jpg">CC BY 2.0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 I am not your electrician. I am the person
 who will not spec a side outlet like it is
 still 2016. Confirm the edition with the

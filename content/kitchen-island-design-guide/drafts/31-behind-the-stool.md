@@ -11,6 +11,11 @@ The overhang gets all the love. The space
 behind the diner is where the kitchen
 keeps or loses its manners.
 
+<figure>
+  <img src="../assets/schematic-overhang-knee-space.svg" alt="Diagram showing clearance behind kitchen island stools and traffic path" width="720" height="360" loading="lazy" decoding="async" />
+  <figcaption>Behind-the-stool clearance (32, 36, or 44 inches) is what keeps diners from blocking the dishwasher or the cook aisle. Schematic: Bradley island design guide (CC0).</figcaption>
+</figure>
+
 NKBA, said so I can recite it in a
 showroom:
 

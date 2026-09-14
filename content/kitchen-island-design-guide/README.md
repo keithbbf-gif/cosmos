@@ -57,6 +57,13 @@ book before you quote a client.
 See `MANIFEST.md` for the full roster, word counts after the last pass,
 and the required-topic map.
 
+## Images (round 1)
+
+Licensed photographs and original schematics live in `assets/`. Each
+primary draft in `INDEX.md` embeds a `<figure>` with SEO alt text and a
+figcaption suitable for WordPress/WXR export. Provenance: `IMAGE_SOURCES.md`
+and `RIGHTS.md`.
+
 ## Provenance
 
 Researched against:

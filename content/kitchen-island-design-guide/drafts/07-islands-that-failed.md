@@ -9,6 +9,11 @@ topics: [history, failures, refusal]
 
 I keep a private list. Not names. Shapes.
 
+<figure>
+  <img src="../assets/humble-kitchen-tight-layout.jpg" alt="Small galley kitchen without space for a central island" width="1800" height="1350" loading="lazy" decoding="async" />
+  <figcaption>Islands fail when the room never had the aisle budget—a tight galley cannot absorb a 3-foot block and still clear appliance doors. Photo: Korman / <a href="https://commons.wikimedia.org/wiki/File:Humble_kitchen08.jpg">CC BY-SA 3.0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 The 1998 granite rectangle, 4 by 8, dropped into a kitchen that
 had been a comfortable U. Aisles went to 32 inches. The couple
 who cooked together stopped cooking together. They told friends

@@ -10,6 +10,11 @@ topics: [seating, overhang, stone, structure]
 Stone does not bounce to warn you. It
 cracks.
 
+<figure>
+  <img src="../assets/sektion-island-bracket-junction-box.jpg" alt="Metal bracket supporting a stone countertop overhang on a kitchen island" width="1800" height="1350" loading="lazy" decoding="async" />
+  <figcaption>Stone overhangs need steel or corbels—this bracket ties structure to the box before the fabricator sets the slab. Photo: Stilfehler / <a href="https://commons.wikimedia.org/wiki/File:Sektion_Kitchen_Island_Support_Bracket_with_Junction_Box.jpg">CC BY-SA 4.0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 Fabricators have rules of thumb and they
 do not all match. Mine, until the slab
 and the shop say otherwise:

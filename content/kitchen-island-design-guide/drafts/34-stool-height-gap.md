@@ -11,6 +11,11 @@ The gap is the comfort people cannot
 name. They say the island feels “off.”
 They mean their thighs.
 
+<figure>
+  <img src="../assets/showroom-bar-stools-counter-height.jpg" alt="Counter-height bar stools showing seat height relative to kitchen island top" width="1800" height="1200" loading="lazy" decoding="async" />
+  <figcaption>Stool height gap: match seat height to top—about 24-inch seats at 36-inch counters, with 10–12 inches of leg room to the underside. Photo: Lionel Allorge / <a href="https://commons.wikimedia.org/wiki/File:Castorama_aux_Ulis_le_19_avril_2017_-_47.jpg">CC BY-SA 3.0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 A useful rule: about 10 to 12 inches
 between the top of the seat and the
 underside of the top. Counter-height

@@ -10,6 +10,11 @@ topics: [proportions, aisles, nkba]
 People think they are buying an island. They are buying the air
 around it.
 
+<figure>
+  <img src="../assets/schematic-aisle-clearances.svg" alt="Top-down kitchen plan showing 42-inch walking aisles and a 48-inch work aisle around an island" width="720" height="420" loading="lazy" decoding="async" />
+  <figcaption>The aisle is the real dimension: plan 42-inch walking paths and a wider cook aisle before you lock island length and depth. Schematic: Bradley island design guide (CC0).</figcaption>
+</figure>
+
 NKBA wants a work aisle at least 42 inches wide for one cook and
 48 inches for more than one, measured between counter frontages,
 tall cabinets, and appliances. Walkways that are just walking

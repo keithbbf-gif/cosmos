@@ -11,6 +11,11 @@ A receptacle for a kettle is one
 story. A cooktop is another. Do not
 let them share a sentence.
 
+<figure>
+  <img src="../assets/sektion-island-bracket-junction-box.jpg" alt="Kitchen island junction box for dedicated appliance circuits" width="1800" height="1350" loading="lazy" decoding="async" />
+  <figcaption>Dedicated circuits start at rough-in: junction points at the island box for dishwasher drawers, warming, or future cooktops. Photo: Stilfehler / <a href="https://commons.wikimedia.org/wiki/File:Sektion_Kitchen_Island_Support_Bracket_with_Junction_Box.jpg">CC BY-SA 4.0</a> (Wikimedia Commons).</figcaption>
+</figure>
+
 Small-appliance branch circuits in a
 dwelling kitchen are a code family
 with their own manners. The island,
