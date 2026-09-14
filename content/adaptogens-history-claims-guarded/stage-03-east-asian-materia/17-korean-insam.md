@@ -8,6 +8,7 @@ voice: essay
 claims_posture: educational-ethnobotany
 audience: curious-reader
 status: draft
+voice_check: edited
 ---
 
 *Insam* is a better word to start with than *ginseng* if you want the Korean file and not the airport file.

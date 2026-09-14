@@ -8,6 +8,7 @@ voice: essay
 claims_posture: educational-ethnobotany
 audience: curious-reader
 status: draft
+voice_check: edited
 ---
 
 Not every plant in the adaptogen drawer is from a Soviet forest or a Sanskrit shelf. Some of them arrived by airport in the 1990s.

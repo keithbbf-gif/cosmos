@@ -8,6 +8,7 @@ voice: essay
 claims_posture: educational-ethnobotany
 audience: curious-reader
 status: draft
+voice_check: edited
 ---
 
 I keep meeting the sentence "FDA-recognized adaptogen" as if a clipboard in White Oak had a roll call.

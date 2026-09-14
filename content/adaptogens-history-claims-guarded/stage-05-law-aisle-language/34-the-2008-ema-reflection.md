@@ -8,6 +8,7 @@ voice: essay
 claims_posture: educational-ethnobotany
 audience: curious-reader
 status: draft
+voice_check: edited
 ---
 
 Most origin stories in this folder are cloudy. This one is a PDF.

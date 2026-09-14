@@ -8,6 +8,7 @@ voice: essay
 claims_posture: educational-ethnobotany
 audience: curious-reader
 status: draft
+voice_check: edited
 ---
 
 I like *Rhodiola rosea* L. more as a problem than as a mascot.

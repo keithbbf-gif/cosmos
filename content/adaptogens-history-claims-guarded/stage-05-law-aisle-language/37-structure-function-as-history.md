@@ -8,6 +8,7 @@ voice: essay
 claims_posture: educational-ethnobotany
 audience: curious-reader
 status: draft
+voice_check: edited
 ---
 
 "Supports healthy stress response" is not a sentence from the *Bencao Gangmu*. It is a grandchild of a statute.

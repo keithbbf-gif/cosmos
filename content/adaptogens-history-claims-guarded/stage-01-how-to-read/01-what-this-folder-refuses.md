@@ -8,6 +8,7 @@ voice: essay
 claims_posture: educational-ethnobotany
 audience: curious-reader
 status: draft
+voice_check: edited
 ---
 
 I am going to waste the first page on what we will not do. If that sounds like a lawyer got to the manuscript first, good. The word *adaptogen* has spent seventy years sliding off a laboratory bench and onto a bottle, and the slide is almost always greased with a disease name.

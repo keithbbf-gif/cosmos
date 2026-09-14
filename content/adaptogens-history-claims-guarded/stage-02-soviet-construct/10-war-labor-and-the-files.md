@@ -8,6 +8,7 @@ voice: essay
 claims_posture: educational-ethnobotany
 audience: curious-reader
 status: draft
+voice_check: edited
 ---
 
 The romance version of this history opens on a battlefield and closes on an Olympic podium. I do not have those files on my desk. I have later reviews that say wartime Soviet journals carried early schisandra work, that the 1960s turned adaptogen talk into a biomedical field in the USSR, and that the same reviews mention Arctic expeditions, factory floors, radio rooms, and sport as settings where preparations were given and work was measured.

@@ -8,6 +8,7 @@ voice: essay
 claims_posture: educational-ethnobotany
 audience: curious-reader
 status: draft
+voice_check: edited
 ---
 
 This is the draft the rest of the South Asian file depends on. If you let it fail, ashwagandha, tulsi, and shilajit will all fall into the same drawer by dinner.

@@ -8,6 +8,7 @@ voice: essay
 claims_posture: educational-ethnobotany
 audience: curious-reader
 status: draft
+voice_check: edited
 ---
 
 I do not hate journalists. I hate a shape that journalism, blogs, and "explainer" videos share when they meet this noun.

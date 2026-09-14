@@ -8,6 +8,7 @@ voice: essay
 claims_posture: educational-ethnobotany
 audience: curious-reader
 status: draft
+voice_check: edited
 ---
 
 A bibliography is usually a list that pretends to be complete. This one is a list that pretends to be honest.

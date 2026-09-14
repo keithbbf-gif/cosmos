@@ -8,6 +8,7 @@ voice: essay
 claims_posture: educational-ethnobotany
 audience: curious-reader
 status: draft
+voice_check: edited
 ---
 
 *Wu wei zi* (五味子) is a better teacher than most definitions, because the name is already an argument about the mouth.

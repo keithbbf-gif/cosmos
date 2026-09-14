@@ -8,6 +8,7 @@ voice: essay
 claims_posture: educational-ethnobotany
 audience: curious-reader
 status: draft
+voice_check: edited
 ---
 
 *Huangqi* (黄芪) — *Astragalus membranaceus* (Fisch.) Bunge and its close naming tangle, now often *A. mongholicus* in the botanical arguments — is a root that American wellness turned into a celebrity without asking the Soviet school for permission first.

@@ -8,6 +8,7 @@ voice: essay
 claims_posture: educational-ethnobotany
 audience: curious-reader
 status: draft
+voice_check: edited
 ---
 
 "Wild" on a ginseng label is doing the same job "ancient" does on an adaptogen label. It is selling you a scarcity story and hoping you will hear a potency story.

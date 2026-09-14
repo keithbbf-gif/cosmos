@@ -8,6 +8,7 @@ voice: essay
 claims_posture: educational-ethnobotany
 audience: curious-reader
 status: draft
+voice_check: edited
 ---
 
 If Lazarev is the name people hang a year on, Israel I. Brekhman is the name people hang a map on. The map is the Soviet Far East: ginseng country in the Chinese and Korean sense, eleuthero country in the later English sense, a coastline that looks at Japan and a hinterland that looks at taiga. Vladivostok is not a branding exercise. It is a city where a pharmacologist could take the resistance idea and walk it toward plants that already had Chinese and local names.

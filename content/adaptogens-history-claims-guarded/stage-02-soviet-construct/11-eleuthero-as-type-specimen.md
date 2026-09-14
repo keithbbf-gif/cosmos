@@ -8,6 +8,7 @@ voice: essay
 claims_posture: educational-ethnobotany
 audience: curious-reader
 status: draft
+voice_check: edited
 ---
 
 If the Soviet school needed a plant that could carry the noun *adaptogen* into quantity, it found a shrub.

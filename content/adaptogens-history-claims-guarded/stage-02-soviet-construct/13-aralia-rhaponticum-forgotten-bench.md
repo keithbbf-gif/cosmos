@@ -8,6 +8,7 @@ voice: essay
 claims_posture: educational-ethnobotany
 audience: curious-reader
 status: draft
+voice_check: edited
 ---
 
 The American shelf keeps a shortlist. The Soviet bench, if you believe the later English reviews, was longer.

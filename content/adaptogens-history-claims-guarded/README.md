@@ -20,7 +20,9 @@ If you only open one file besides the guardrails, open
 
 ## Voice and status
 
-Human essay voice. `status: draft` on every file. The series is **staged**
+Human essay voice. `status: draft` and `voice_check: edited` on every essay file
+after the 2026-09-14 editor pass (see [`EDITOR_REPORT.md`](EDITOR_REPORT.md)).
+The series is **staged**
 (six argument stages) and **git-staged** as a proposal, not published as
 canon and not wired into COSMOS Core.
 

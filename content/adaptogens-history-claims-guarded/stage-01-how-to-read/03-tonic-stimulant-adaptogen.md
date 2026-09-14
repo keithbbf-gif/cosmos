@@ -8,6 +8,7 @@ voice: essay
 claims_posture: educational-ethnobotany
 audience: curious-reader
 status: draft
+voice_check: edited
 ---
 
 Three words keep getting stacked as if they were synonyms you could shuffle for SEO. They are not. They come from different rooms, and if you let them collapse you will write a disease claim without meaning to.

@@ -8,6 +8,7 @@ voice: essay
 claims_posture: educational-ethnobotany
 audience: curious-reader
 status: draft
+voice_check: edited
 ---
 
 The plant later called *Panax ginseng* C.A. Mey. did not wait for a Soviet noun. It waited, if it waited for anything, for commentators.

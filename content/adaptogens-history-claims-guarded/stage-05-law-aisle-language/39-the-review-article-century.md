@@ -8,6 +8,7 @@ voice: essay
 claims_posture: educational-ethnobotany
 audience: curious-reader
 status: draft
+voice_check: edited
 ---
 
 The twentieth century did not give *adaptogen* a folk song. It gave the word a stack of reviews.

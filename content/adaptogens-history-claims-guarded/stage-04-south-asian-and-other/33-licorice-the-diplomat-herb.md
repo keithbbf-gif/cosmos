@@ -8,6 +8,7 @@ voice: essay
 claims_posture: educational-ethnobotany
 audience: curious-reader
 status: draft
+voice_check: edited
 ---
 
 If you want a plant that actually did travel through many systems without needing a 1960s passport, look at licorice.

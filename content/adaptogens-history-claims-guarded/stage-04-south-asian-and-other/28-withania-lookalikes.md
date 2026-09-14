@@ -8,6 +8,7 @@ voice: essay
 claims_posture: educational-ethnobotany
 audience: curious-reader
 status: draft
+voice_check: edited
 ---
 
 The most boring draft in the folder may be the most useful. Celebrity plants attract other people's powder.

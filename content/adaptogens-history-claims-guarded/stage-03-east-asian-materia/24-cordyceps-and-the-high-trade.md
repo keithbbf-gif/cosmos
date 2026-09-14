@@ -8,6 +8,7 @@ voice: essay
 claims_posture: educational-ethnobotany
 audience: curious-reader
 status: draft
+voice_check: edited
 ---
 
 A fungus that eats a moth larva on a high pasture is already a story. The story did not need a Soviet noun. It needed a landscape, a season, a pair of hands, and later a price that could wreck a hillside.

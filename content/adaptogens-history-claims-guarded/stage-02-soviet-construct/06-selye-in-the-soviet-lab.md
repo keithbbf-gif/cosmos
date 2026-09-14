@@ -8,6 +8,7 @@ voice: essay
 claims_posture: educational-ethnobotany
 audience: curious-reader
 status: draft
+voice_check: edited
 ---
 
 Hans Selye did not walk into Vladivostok with a suitcase of roots. His 1936 *Nature* note — a short, famous description of a syndrome produced by "diverse nocuous agents" — is an English-language object from Montreal. Later he built a public career on *stress* and on a three-phase picture that popular science still recites: alarm, resistance, exhaustion.

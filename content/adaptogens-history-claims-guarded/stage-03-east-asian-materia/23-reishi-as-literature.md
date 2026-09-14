@@ -8,6 +8,7 @@ voice: essay
 claims_posture: educational-ethnobotany
 audience: curious-reader
 status: draft
+voice_check: edited
 ---
 
 The immortality mushroom is a literary object that later learned to sit still in a bag.
@@ -18,7 +19,7 @@ This draft does not treat, cure, or prevent any disease. It is not medical advic
 
 Long-life talk in Chinese literature is not a trial endpoint. It is a cosmological and aesthetic vocabulary: peaches, cranes, mountains, a fungus that looks already varnished by time. If I take that vocabulary and say "therefore *Ganoderma* promotes longevity" as if I had a Kaplan–Meier curve, I have laundered a poem. This folder will not launder poems.
 
-The materia-medica file exists too. *Lingzhi* has entries, grades, color talk, a rarity story of its own. Rarity, as draft 16 said, is a political economy. Cultivated *Ganoderma* is now a crop. The crop can be a honest fungus farm. It cannot be the painted mountain, and it cannot be an adaptogen in the Brekhman sense just because an American page needed another ingredient.
+The materia-medica file exists too. *Lingzhi* has entries, grades, color talk, a rarity story of its own. Rarity, as draft 16 said, is a political economy. Cultivated *Ganoderma* is now a crop. The crop can be an honest fungus farm. It cannot be the painted mountain, and it cannot be an adaptogen in the Brekhman sense just because an American page needed another ingredient.
 
 Why did reishi get the noun?
 
