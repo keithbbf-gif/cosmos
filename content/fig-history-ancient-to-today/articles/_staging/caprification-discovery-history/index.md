@@ -82,6 +82,56 @@ Theophrastus wrote the swell. Villa books kept the hanging. Gasparrini denied th
 
 Theophrastus: insects from wild figs make cultivated fruit swell and hold. Villa books keep the hanging. Gasparrini denies; California plants Smyrna wood and watches it drop. 1899 imports the insect; 1900 proves the rumor of sterile Turkish wood false. Discovery is the wrong word. Recognition is the right one. The next article is the insect’s year. This one is the human argument.
 
+
+## A professor, a valley, and a practice that did not need either
+
+Guglielmo Gasparrini’s mid-nineteenth-century denial of caprification looked
+like laboratory courage. He had studied trees that set without a wasp —
+Common types — and issued a theory that spoiled flavor and wasted labor.
+Condit is patient and a little savage about the damage. California believed
+the denial long enough to plant Smyrna cuttings in 1881–82 and watch fruit
+drop for a decade. The rumor of sterile Turkish wood was a consolation. The
+consolation was wrong.
+
+1890 is the blowpipe year: hand pollen, a curiosity. 1899 is Howard and
+Swingle’s Algerian insects. 1900 is Schwarz on Roeding’s sixty-two acres,
+the first large seeded Smyrna crop in America. Eisen’s 1901 bulletin is the
+English book of the moment, written by a man who had already seen Mayer in
+Naples in 1896. Prefer 1899 for successful establishment. Older summaries
+that print 1890 have collapsed the curiosity into the insect.
+
+## Recognition is the right word
+
+Theophrastus already wrote the swell. Villa books already kept the hanging.
+Aegean yards already knew which trees needed wild fruit in the branches. The
+word *caprification* is late Latinizing. The act is older than the word and
+older than USDA. Nobody discovered it in 1899. An American industry
+discovered that a professor can be wrong.
+
+The next article is the insect’s year — pollen on a body, other wasps, other
+rooms. This one is the human argument: a Greek sentence, a Roman habit, an
+Italian denial, a Californian invoice. Keep them apart. Discovery is how a
+bulletin likes to talk. Recognition is how a history series should.
+
+
+## A calendar with Italian names
+
+*Mamme*, *profichi*, *mammoni* are not a poem. They are a year of wasp
+generations Aegean and southern Italian growers already timed when
+California still believed Gasparrini. Hang wild fruit in the tame tree, or
+plant caprifigs upwind, or do both and argue. Villa books kept the hanging.
+Theophrastus kept the swell. The word *caprification* arrived later, a
+Latinizing of a folk act. Use the word. Do not pretend the act waited.
+
+1890 remains the blowpipe. 1899 remains Howard and Swingle’s Algerian
+insects. 1900 remains Schwarz on Roeding’s sixty-two acres. Eisen’s 1901
+bulletin remains the English book, written after Naples. Prefer 1899 for
+establishment; 1890 is the curiosity. The rumor of sterile Turkish wood
+was consolation. The trees were the right clone and the wrong ecology. A
+professor who studied Common types issued a theory that cost a valley a
+decade. Recognition is the right word. Discovery is how a bulletin talks.
+The next article is the insect’s year. This one is the human argument.
+
 ## Sources for this piece
 
 - Theophrastus, *Historia Plantarum* (Hort).

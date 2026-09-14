@@ -71,6 +71,90 @@ Acre’s Venetian quarter is a legal and commercial fact. Jacoby’s unpublished
 
 Crusader states sat on a drying coast. Jacoby’s Acre — charters, quarters, manuals — is the ground. The *Racione* (Marciana It. XI.87) counts ports and duties. An Acre manual c. 1270 notes Alexandrian dates into Romania. Figs ride the same cargo class. Cuttings move with people in every war. No Templar cultivar. No Richard I clone. Pegolotti is the next clerk after the Frankish flags fade.
 
+
+## No Templar fig
+
+Search the bibliography for a “Templar fig variety” and you will not find
+one this series will print. What you will find are cargoes. David Jacoby’s
+work on Latin-east trade, the Venetian *Racione*, Pegolotti’s *Pratica della
+mercatura* — those are the documents. Figs move as *fichi*, as dried fruit
+in a list that also has raisins, nuts, and spices. The military orders owned
+land that grew fruit. That is not the same as a branded clone.
+
+Acre’s Venetian quarter is a legal and commercial fact. Jacoby’s charter
+trawl is how you add knowledge: one more document, one more duty. The
+*Racione* counts ports, not miracles. A crusader who planted a stick planted
+a stick. Call it exchange if you must. Call it a relic and you have left the
+manuals.
+
+## What a crusader port ate
+
+Acre, Tyre, Famagusta, later Venetian and Genoese Cyprus, all sat on
+landscapes that already grew figs. A Latin merchant did not introduce *Ficus
+carica* to the Levant. He inherited it, taxed it, and sometimes re-exported
+it. The interesting historical question is not “did crusaders discover the
+fig” (they did not). It is which grades and which ports the
+twelfth-to-fourteenth-century documents bother to name, and whether those
+names survive into the Ottoman custom-house.
+
+Usually they do not survive as the same words. That is the honest seam. A
+magazine can walk a reader from a *Racione* line to an İzmir packing house
+without claiming the box is the same. An unpublished Acre manual of about
+1270, in Jacoby’s notes, records Alexandrian dates into Romania. Figs ride
+the same class: dense, sweet, keepable.
+
+## Manuals on the move
+
+The other crusade-era fig is textual. Arabic *filāḥa* and the *Geoponika*
+tradition were copied in the same centuries Latin armies were in Syria. A
+manuscript can travel without a cutting. Ibn al-ʿAwwām’s later Andalusi
+compilation still carries eastern chapters. A history that only follows
+ships will miss the books; a history that only follows books will miss the
+custom-house. This essay keeps both in the paragraph and refuses a treaty
+that was never signed.
+
+After 1291 the communes re-routed — Crete, Negroponte, later Smyrna,
+Egyptian ports. Regional syntheses of thirteenth-to-fifteenth-century Aegean
+trade put Chian dried figs through Negroponte toward Thessaly. The flags
+changed. The sweet line-item did not die.
+
+
+## After Acre, the line-item lived
+
+1291 ended a Latin city, not a sweet. Communes re-routed to Crete,
+Negroponte, later Smyrna and Egyptian ports. Jacoby’s charters and the
+*Racione* still count duties. Pegolotti still has *fichi* among keepable
+goods. An unpublished Acre manual of about 1270, in Jacoby’s notes, already
+had Alexandrian dates into Romania; figs ride that class. Chian dried fruit
+through Negroponte toward Thessaly is the Aegean clerk’s continuation.
+
+No Templar clone. No relic. A military order that owned orchards owned
+orchards. A Latin merchant in Tyre or Famagusta inherited a landscape that
+already grew *carica*. He did not discover it. Names usually do not survive
+as the same words into the Ottoman custom-house. Walk a reader from a
+*Racione* line to an İzmir floor without claiming the box is the same.
+Books moved too: *filāḥa* and the *Geoponika* copied while armies were in
+Syria. Ships and manuscripts. No treaty.
+
+
+## Flags changed; the sweet did not need a relic
+
+Acre trained a habit. Crete and Negroponte inherited it. Smyrna and
+Egyptian ports later took the line-item. Jacoby’s duties and
+Pegolotti’s *fichi* are the documents. A stick planted by a crusader
+is a stick. Arabic and Greek farm books copied in the same centuries
+are the other movement. No Templar variety. No treaty. Walk the reader
+to İzmir without claiming the box.
+
+
+## Cyprus sat on someone else’s trees
+
+Famagusta and later Venetian Cyprus taxed landscapes that already knew
+*carica*. Latin rule did not plant the first stick. It inherited, billed,
+and sometimes re-exported. Jacoby’s unpublished-then-published manuals
+are how knowledge grows: one duty, one more port. No relic. No Templar
+tag. The sweet line-item outlived the flags.
+
 ## Sources for this piece
 
 - Jacoby on Venetian Acre and Levantine trade; Saletti on the *Racione de Alexandria*.

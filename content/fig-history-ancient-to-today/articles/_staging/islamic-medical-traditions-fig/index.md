@@ -78,6 +78,76 @@ Humoral degrees — hot, moist, changing with fresh and dried — organize diet 
 
 Ibn al-ʿAwwām remains the farmer in the next room. Rashīd al-Dīn’s Tabrīz note and Heravī’s color classes are court-and-garden seeing, not clinic seeing. Keep the desks apart and the tree can sit on all of them without becoming a miracle.
 
+
+## A library that expects you to recognize the trunk
+
+Ibn Sīnā’s *al-Qānūn*, book 2, places *tīn* among simples because the patient is already eating it. That is continuity with Dioscorides, not a new religion of fruit. Ibn al-Bayṭār’s *al-Jāmiʿ* entry stacks the Greek names and then the Arabic physicians. The stack is the method. You are not reading a private healer’s notebook. You are reading a desk that expects you to know the trunk.
+
+Humoral degrees — hot, moist, shifting with fresh and dried, ripe and unripe — organize diet for bodies described as balances. A Córdoba summer and a Maghrebi winter change the next sentence, not the species. Do not convert those degrees into milligrams. The nutrition article is the police for that conversion. This one is the relay.
+
+Ibn al-ʿAwwām remains next door in the farm book, a third of him Byzantine, a third Near Eastern, a third Andalusi. Do not make Avicenna a nurseryman. Rashīd al-Dīn’s Tabrīz fig and Heravī’s color classes are court-and-garden seeing. They share a tree with the clinic. They do not share a genre.
+
+The Köhler-type plate in this folder is later European pharmacy art. Caption it as such. It is not an autograph of the Canon. A hospital kitchen and a courtyard tree are the same plant. Islamic medical fig is not a rare herb. It is lunch the physician has to have an opinion about.
+
+
+## Continuity with a Greek trunk
+
+Ibn Sīnā’s *al-Qānūn*, book 2, places *tīn* among simples because the
+patient is already eating it. That is continuity with Dioscorides, not a
+new religion of fruit. Ibn al-Bayṭār’s *al-Jāmiʿ* entry stacks the Greek
+names and then the Arabic physicians. The stack is the method. You are not
+reading a private healer’s notebook. You are reading a desk that expects
+you to know the trunk.
+
+Humoral degrees — hot, moist, shifting with fresh and dried, ripe and
+unripe — organize diet for bodies described as balances. A Córdoba summer
+and a Maghrebi winter change the next sentence, not the species. Do not
+convert those degrees into milligrams. The nutrition article is the police
+for that conversion. Ibn al-ʿAwwām remains next door in the farm book. Do
+not make Avicenna a nurseryman. Rashīd al-Dīn’s Tabrīz fig and Heravī’s
+color classes are court-and-garden seeing. They share a tree with the
+clinic. They do not share a genre.
+
+The Köhler-type plate in this folder is later European pharmacy art.
+Caption it as such. It is not an autograph of the Canon. A hospital kitchen
+and a courtyard tree are the same plant. Islamic medical fig is not a rare
+herb. It is lunch the physician has to have an opinion about.
+
+
+## A stack, not a conversion
+
+Ibn al-Bayṭār stacks Greek names and then Arabic physicians. Ibn Sīnā
+places *tīn* in book 2 because the patient is already eating it. The method
+expects you to know Dioscorides. Humoral degrees shift with fresh and
+dried, ripe and unripe, Córdoba summer and Maghrebi winter — not with
+milligrams. The nutrition essay is the police against potassium magic. Ibn
+al-ʿAwwām is next door in the farm book. Rashīd al-Dīn and Heravī are
+court-and-garden. Same tree, different genre.
+
+The Köhler-type plate is later European pharmacy art, not an autograph of
+the Canon. Caption it that way. Islamic medical fig is lunch the physician
+must have an opinion about. It is not a rare herb and not a new religion of
+fruit. Continuity with a Greek trunk is the honest sentence. A hospital
+kitchen and a courtyard tree are the same plant.
+
+
+## Fresh and dried are different sentences
+
+Humoral degrees shift when the fruit dries. A Córdoba summer shifts
+them again. That is climate inside a clinic, not a new species. Ibn
+al-Bayṭār’s stack expects Dioscorides. Ibn Sīnā expects lunch. Do not
+make the Canon a nursery. Do not convert degrees. The Köhler plate
+remains later European art. Caption it. The farm book remains next
+door.
+
+
+## Maghrebi winter changes the next line
+
+The species does not change. The degree does. That is why a Córdoba
+monograph and a Maghrebi shelf can share a trunk and not share a
+sentence. Ibn al-Bayṭār stacks. Avicenna assumes lunch. The farm book
+stays next door. Milligrams stay out.
+
 ## Sources for this piece
 
 - Ibn Sīnā, *al-Qānūn* book 2, fig.

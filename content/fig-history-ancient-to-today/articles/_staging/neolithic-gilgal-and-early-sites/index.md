@@ -81,6 +81,43 @@ The gathering objection still stands. It should. A series that needs Gilgal to b
 
 Jericho’s fame is not Gilgal’s argument. Netiv Hagdud’s drupelets are an echo, not a vote. Fourth-millennium finds outside the wild zone are the later, cleaner signal of moved wood. The irrigation schematic in this article is a warning about distance, not a reconstruction.
 
+
+## Jericho’s fame is not Gilgal’s argument
+
+Jericho owns the tourist sentence about first walls and first towns. Gilgal I
+owns a box of carbonized figs that sat in museum quiet until Kislev looked at
+them. The two sites sit in the same Lower Jordan weather. They do not share a
+press release. A writer who says “figs were domesticated at Jericho” has
+stolen Gilgal’s argument and given it to a city that already had too many.
+
+Netiv Hagdud’s drupelets, when they appear in the same syntheses, are an echo
+— more fig material in the same Pre-Pottery neighborhood — not a vote. The
+2019 arboriculture paper that keeps collection from wild gallery woods on the
+table is doing the right work: it refuses to let a house full of fruit become
+a nursery invoice. Fourth-millennium finds outside the projected wild zone
+(southern Iran, the Nile Delta in the syntheses Fuller and colleagues walk)
+are the later, cleaner signal that someone is moving wood. Those finds do not
+crown Gilgal. They make Gilgal’s biology look less lonely.
+
+## What a Pre-Pottery house is allowed to prove
+
+Nine carbonized fruits and 313 drupelets is a store. A store is not a
+planting calendar. Kislev’s group read parthenocarpy and chose the stick.
+Lev-Yadun’s group read parthenocarpy and chose the gathering bag. Both
+readings use the same biology this pack’s type essay walks: a sterile soft
+fruit is what a Common-type grocer still sells. The argument is about human
+intention, not about whether the fruit was sweet.
+
+Tamar Noy’s excavation is the field season. The Israel Museum’s later ask is
+the second season. Bar-Yosef’s name on the 2006 paper is the bridge. A
+magazine that only prints “scientists found the first fig” has fired all
+three. Print the house, the boxes, the delay, the journal, the comment. Then
+stop before the crown.
+
+The irrigation schematic in this article is a warning about distance, not a
+reconstruction of a PPNA ditch. Gilgal did not need a canal to store fruit.
+Later orchards did. Do not back-draw the canal into the house.
+
 ## Sources for this piece
 
 - Kislev, Hartmann, and Bar-Yosef, *Science* 312 (2006); Lev-Yadun comment, *Science* 314 (2006).

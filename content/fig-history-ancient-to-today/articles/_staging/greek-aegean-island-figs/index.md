@@ -71,6 +71,68 @@ Xera Syka Kymis (ministerial 313420, 1994; later EU) fences Traganikó, sun, and
 
 Other islands dried for themselves and for the next port without ever getting a stamp. The PDO is not the crop. It is the crop that got a lawyer.
 
+
+## An island that chose handwriting
+
+Kymi on Euboea did not invent the dried fig. It invented, or at least documented, a way of making a small district visible: Traganikó, sun, the *askada* pairing, a national decision in 1994 (313420) and later an EU PDO. A doubled fruit is labor you can see in a box. Aydın competes on volume and a clone the world already named Smyrna. Kymi competes on a look. That is not folklore. That is a specification.
+
+The longer Aegean story is a clerk’s sea. Pliny already knew a Chian type — an island name worn as an Italian appetite. Later medieval syntheses put dried figs from Chios moving through Negroponte toward Thessaly. That is re-export, not a shrine. Other islands dried for the house and for the next caique without ever getting a lawyer. A magazine that says “Greek figs since Homer” has flattened three timescales into a souvenir.
+
+What the askada is not: a classical word this pack can hang on a vase. The GI documents a local habit. It does not excavate a Bronze Age pairing ritual. What the PDO is not: the crop. It is the crop that got a stamp. Walk the rest of Euboea and you will find trays that will never wear the name. That is how legal fruit works everywhere from Cilento to Taounate.
+
+The pack’s drying diagram puts doubling in a handling step. It is a teaching drawing, not a photograph of a Kymi yard. ORCH-05 can hold consented hands later. Until then, the honest picture is method plus a map that keeps Kymi off Aydın’s inland valleys. Port and island are different machines. The Aegean has always known that. Grocery language forgets it.
+
+
+## Three timescales, one chain
+
+Pliny already knew a Chian type — an island name worn as an Italian
+appetite. Later medieval syntheses put dried figs from Chios moving through
+Negroponte toward Thessaly. That is re-export, not a shrine. Kymi on Euboea
+did not invent the dried fig. It documented a way of making a small district
+visible: Traganikó, sun, the *askada* pairing, Greek decision 313420 (1994)
+and later an EU PDO. A doubled fruit is labor you can see in a box. Aydın
+competes on volume and a clone the world already named Smyrna. Kymi competes
+on a look. That is a specification, not folklore.
+
+What the *askada* is not: a classical word this pack can hang on a vase.
+The GI documents a local habit. It does not excavate a Bronze Age pairing
+ritual. What the PDO is not: the crop. It is the crop that got a stamp.
+Walk the rest of Euboea and you will find trays that will never wear the
+name. Other islands dried for the house and for the next caique without
+ever getting a lawyer.
+
+The pack’s drying diagram puts doubling in a handling step. It is a teaching
+drawing, not a photograph of a Kymi yard. Port and island are different
+machines. The Aegean has always known that. Grocery language forgets it. Do
+not flatten Homer, Pliny, and a 1994 stamp into “Greek figs since antiquity.”
+
+
+## A stamp is not the sea
+
+Decision 313420 (1994) and the later EU PDO made Kymi visible: Traganikó,
+sun, *askada* pairing, labor you can see in a box. Walk the rest of Euboea
+and you will find trays that will never wear the name. Other islands dried
+for the house and the next caique without a lawyer. Pliny’s Chian type is
+a Roman appetite. Medieval clerks sent Chian dried figs through Negroponte
+toward Thessaly — re-export, not a shrine. Three timescales. Grocery
+language flattens them into a souvenir.
+
+The *askada* is not a Bronze Age ritual this pack can hang on a vase. It is
+a local habit the GI wrote down. Aydın competes on volume and a clone the
+west already called Smyrna. Kymi competes on a look. Port and island are
+different machines. The drying diagram’s doubling step is a teaching
+drawing, not a yard photograph. Homer does not get a PDO ancestor clause.
+
+
+## Caiques without lawyers
+
+Most Aegean drying never got a stamp. House trays, next-boat trays,
+island names Pliny wore as Italian hunger, medieval re-export through
+Negroponte — those are the sea. Kymi is the district that wrote a look
+down. Aydın is the valley that wrote a volume down. Do not give Homer
+a GI. Do not hang *askada* on a vase. Port and island remain different
+machines.
+
 ## Sources for this piece
 
 - Xera Syka Kymis PDO / Greek ministerial decision 313420 (1994); EU listing.

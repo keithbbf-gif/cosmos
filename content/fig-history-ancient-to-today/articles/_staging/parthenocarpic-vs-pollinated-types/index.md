@@ -72,6 +72,77 @@ Bite a Mission and you may get jam without crunch. Bite a caprified Sarılop and
 
 San Pedro’s split year — persistent breba, needy main crop — is why nursery tags that say only “needs a pollinator” give up. Pruning arguments in every language are arguments about which crop you are buying. Caprifig *profichi* are the invoice Smyrna types owe in spring. Gasparrini studied the wrong bill. California paid in dropped fruit.
 
+
+## Four boxes, one bite
+
+Bite a backyard Mission and you may get jam without a seed’s announcement. Bite a caprified Sarılop and you get crunch that is not decoration — it is the record of a wasp’s visit and a flower that set. Condit nailed the English wall: Common (persists), Smyrna (drops without pollen), San Pedro (breba persists, main crop often will not), caprifig (nursery and pollen box). They are bills, not ranks, not morals.
+
+Gilgal’s 2006 argument is this biology in a Pre-Pottery house: a sterile soft fruit someone stored. Lev-Yadun’s gathering objection is the same biology read as harvest, not plantation. A grocer selling a Common type is selling the easy room. A packing house selling Aydın İnciri is selling the expensive room — legal adjectives include seeded.
+
+San Pedro exists because people wanted an early crop without hanging *profichi* and a later crop that still tasted “complete.” Nursery tags that say only “needs a pollinator” have given up on that split. Pruning fights in every language are fights about which crop you bought. Gasparrini studied Common-type behavior and issued a theory that cost California a decade of Smyrna wood. Theophrastus, who did not have a theory to defend, wrote the swell and left it.
+
+Breba versus main crop is the calendar inside the boxes. A tree can be Common and still throw a useless first crop, or a famous one. ORCH-02 waits for a photograph of both on one scaffold. Until then, write the bill before the brand.
+
+
+## Bills, not morals
+
+Bite a backyard Mission and you may get jam without a seed’s announcement.
+Bite a caprified Sarılop and you get crunch that is not decoration — it is
+the record of a wasp’s visit. Condit nailed the English wall: Common
+(persists), Smyrna (drops without pollen), San Pedro (breba persists, main
+crop often will not), caprifig (nursery and pollen box). They are bills, not
+ranks.
+
+Gilgal’s 2006 argument is this biology in a Pre-Pottery house. Lev-Yadun’s
+gathering objection is the same biology read as harvest, not plantation. A
+packing house selling Aydın İnciri is selling the expensive room — legal
+adjectives include seeded. San Pedro exists because people wanted an early
+crop without hanging *profichi* and a later crop that still tasted
+“complete.” Nursery tags that say only “needs a pollinator” have given up
+on that split.
+
+Gasparrini studied Common-type behavior and issued a theory that cost
+California a decade of Smyrna wood. Theophrastus, who did not have a theory
+to defend, wrote the swell and left it. Breba versus main crop is the
+calendar inside the boxes. A tree can be Common and still throw a useless
+first crop, or a famous one. Write the bill before the brand.
+
+
+## San Pedro is a compromise calendar
+
+People wanted an early crop without hanging *profichi* and a later crop
+that still tasted complete. San Pedro is that bargain: breba persists, main
+crop often will not. Nursery tags that say only “needs a pollinator” have
+given up on the split. A Common type can still throw a useless first crop
+or a famous one. A Smyrna type drops at about an inch without pollen —
+Condit’s Calimyrna note — and a PDO can require the seed that proves the
+visit.
+
+Gilgal’s sterile soft fruit is this biology in a Pre-Pottery house.
+Lev-Yadun reads harvest; Kislev reads stick. A grocer selling Mission is
+selling the easy room. Aydın selling legal Sarılop is selling the expensive
+one. Gasparrini studied the easy room and issued a theory that emptied a
+California row. Bills, not morals. Write the bill before the brand.
+ORCH-02 waits for both crops on one scaffold.
+
+
+## Persistence is a bill you can taste
+
+Jam without a seed’s announcement is the easy room. Crunch that is a
+wasp’s record is the expensive room. Aydın’s specification requires
+the expensive one. A backyard Mission sells the easy one. San Pedro
+splits the year. Gasparrini studied ease and emptied a Smyrna row.
+Gilgal’s fruit is this biology before the English names. Write the
+bill. ORCH-02 can show both crops later.
+
+
+## Drop at an inch is a specification’s cousin
+
+Condit’s Calimyrna note — fruit that falls without pollen — is the same
+biology Aydın later wrote as “seeds filled.” Persistence without a
+guest is Gilgal’s argument and a Mission grocer’s ease. San Pedro
+splits the calendar. Four boxes. One bite. Bills, not ranks.
+
 ## Sources for this piece
 
 - Condit 1947, four horticultural types.

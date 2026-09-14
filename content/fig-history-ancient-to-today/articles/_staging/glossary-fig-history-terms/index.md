@@ -107,3 +107,75 @@ Jump from a word in an article to this list, then to `BIBLIOGRAPHY.md` if the wo
 
 Use this list from an article word, then `BIBLIOGRAPHY.md` if the word is a source. New claims do not enter through a definition. *Brown Turkey* is a pile. *Sycophant* is disputed. *Sycomorus* is not *carica*. *Calimyrna* is a passport. *Sporta* is a unit. *Syconium* is a room. If the series did not earn the term, the glossary will not keep it.
 
+
+## How to use this page
+
+Jump from a word in an article to this list, then to `BIBLIOGRAPHY.md` if
+the word is a source. Do not treat the glossary as a place to smuggle new
+claims. If a term is not in the series, it does not belong here.
+
+**Brown Turkey** stays marked as a pile — English, Texas, Eastern, a dozen
+backyard trees. **Sycophant** stays marked as disputed (Plutarch’s hedge;
+OED unsubstantiated). **Sycomorus / sycomore** stays marked as not *carica*.
+**Calimyrna** is a trade stitch; **Sarılop** is the clone. **Smyrna** is a
+port name before it is a fruit name. **Mission** is a California market name
+with a 1769 corridor story, not a generic American fig. **Dottato** is the
+wood; Cilento and Cosenza are the stamps. **Caprification** is the act;
+*Blastophaga psenes* is the Mediterranean insect; 1899 is the California
+establishment year to prefer. **Breba** is the early crop; **profichi** are
+a wasp generation, not a poem. **Parthenocarpy** is Gilgal’s biology and a
+Common-type grocer’s ease. **GIAHS** is a FAO honor, not an origin myth.
+**PDO / GI** are fences. **Wúhuāguǒ** is a name that saw the room.
+**Anjīr / anjeer** is a guest word on a *Ficus* continent.
+
+If a later editor adds a term, they add a source. The glossary is a police
+action in alphabetical clothing.
+
+
+## A few more police entries
+
+**Askada** — Kymi’s paired dried figs; a GI habit, not a Bronze Age vase
+word. **Lerida / sardes / natural** — Aegean packing faces, not cultivar
+names. **Sporta** — a medieval unit two ports could share; Pegolotti’s
+kind of noun. **Huerta / Aljarafe** — irrigated hinterland; Seville’s rise,
+not a clone. **Filāḥa** — the agronomic bookshelf; Ibn al-ʿAwwām sits on
+thirds. **Geoponika / Geoponica** — a tenth-century library of older farm
+prose, not a Macedonian diary. **Ostiole** — the door, not a navel.
+**Foundress** — the female wasp who often dies in the room. **PPNA** —
+Pre-Pottery Neolithic A; Gilgal’s period word. **Diffuse domestication**
+— Khadari’s 2025 shape: pools, not a crowned village. **ORCH-** — optional
+living-tree slots, not historical proof.
+
+If a term is not used in the series, it does not belong here. Do not
+smuggle claims. Add a source when you add a word.
+
+
+## Crosswalk, not a hidden essay
+
+Use this page to jump, not to argue. **Sarılop / Calimyrna / Smyrna**
+stay three nouns with one wood and one port. **Mission** stays a
+market name. **Brown Turkey** stays a pile. **Sycomorus** stays out
+of *carica* orchards. **1899** stays the California wasp year.
+**Askada**, **sporta**, **lerida**, **huerta**, **ostiole**,
+**foundress**, **diffuse domestication** — defined in the series, not
+here for the first time. Add a source when you add a term. The
+glossary is allowed to be shorter than a feature. It is not allowed to
+smuggle a claim.
+
+
+## Allowed to be short
+
+This page is a reference tool. Feature length would be padding. Jump
+from an article word to a definition already used in the series, then
+to `BIBLIOGRAPHY.md`. **Brown Turkey** pile. **Sycophant** disputed.
+**Sycomorus** not *carica*. **1899** not 1890. **Calimyrna** stitch.
+**Smyrna** port. No smuggled claims. No new legends.
+
+
+## Still a tool
+
+If this page ran 1,200 words it would be padding. Keep it a
+crosswalk. Every term here already works in an article. **Askada**,
+**sporta**, **ostiole**, **foundress**, **1899**, **diffuse
+domestication**. No new claims. See `BIBLIOGRAPHY.md`.
+

@@ -73,6 +73,77 @@ Black Genoa’s fresh-market win in NSW is a climate-and-skin win: it travels be
 
 Cole 1873: 26 proven plus 9 unproven. Goodman lists thinning toward five names by 1934. Burnley / Neilson 1873–75: the dated import core; ~75 Society figs in later compiled inventories. MIA/Sunraysia Smyrna drying in the 1920s; 1950s import shock (NSW DPI). Black Genoa leading fresh; Preston Prolific a Victorian seedling. Native Moreton Bay / Port Jackson are not this crop. 2022 FAOSTAT-class 72 t is scale. A colony trying on clothes, keeping a few.
 
+
+## A library of wood, a decade of trays
+
+Victorian nurserymen after the gold rushes imported fruit wood as if
+uncertainty itself were a pest. Cole of Richmond’s 1873 list (26 proven, nine
+unproven) and Goodman’s thinning catalogues (29 names in 1910, five by 1934)
+are hope for sale, not a census. Burnley’s trial garden, George Neilson’s
+1873–75 reports, and the later compiled inventory of about 75 Society figs
+are the dated core. Scion wood went out to members. Who planted it, and what
+lived, is mostly lost. Soft fruit that would not ship to Britain lost the
+orchard argument after the First World War.
+
+NSW DPI’s *Fig growing in NSW* is the government desk for the next act:
+Murrumbidgee Irrigation Area (and the Sunraysia habit) dried Smyrna and
+Calimyrna in the 1920s. The 1950s import shock killed the box, not the
+trees. Commercial NSW culture today is mostly fresh. Black Genoa travels;
+the Agfact says so. Preston Prolific, thought a Victorian seedling of Black
+Genoa, is the rare Australian-origin name that is not just an import alias.
+San Pedro types are not a commercial story there; Adam (Dauphine) is the
+named exception in the same note.
+
+## Scale, and the other Ficus
+
+Helgi’s FAOSTAT compilation put Australia at 72.3 tonnes in 2022 — a
+rounding error next to Türkiye. Local orchards near Orange or in Victoria
+still pick for shops and jam. They are a chapter of colonial wanting, not a
+missing chapter of world production. Native Moreton Bay and Port Jackson
+figs are civic shade and a DPI opening warning. Do not illustrate this
+article with a banyan. The wasp lesson California learned in 1899 is why
+MIA Smyrna drying needed more than cuttings. The DPI note’s later rarity of
+those types is the lesson’s Australian echo.
+
+
+## Seventy-two tonnes is a sentence
+
+Helgi’s 2022 FAOSTAT-class 72.3 tonnes is the scale check. Türkiye’s
+350,000 is the other pole. Between them sits a colony that imported a
+library of wood (Cole 1873; Burnley / Neilson 1873–75; ~75 Society figs in
+later compilations), thinned the catalogues (Goodman toward five names by
+1934), dried Smyrna in the MIA in the 1920s, and lost the box to cheaper
+imports in the 1950s. The trees could still fruit. The freight could not
+compete.
+
+Black Genoa travels; DPI says so. Preston Prolific is the rare
+Australian-origin name, thought a Victorian seedling. Native Moreton Bay
+and Port Jackson figs are civic shade. Do not illustrate this article with
+a banyan. The wasp lesson is why MIA Smyrna needed more than cuttings. The
+later rarity of those types is the lesson’s echo. Local jam and shop fruit
+near Orange or in Victoria are colonial wanting kept. They are not a
+missing world chapter.
+
+
+## Soft fruit lost the argument
+
+After the First World War, fruit that would not ship to Britain lost
+orchard space. Figs were in that argument. Burnley’s library of wood
+thinned to a handful of names. MIA drying was a decade. 1950s imports
+won the box. Black Genoa kept a fresh job because skin travels. 72
+tonnes is the present scale. Native *Ficus* remain a warning in the
+DPI’s first paragraph. Do not use a Moreton Bay as a hero.
+
+
+## Orange and jam are the remainder
+
+Shop fruit near Orange, Victorian jam, a backyard Black Genoa — that is
+what the colony kept after the catalogues thinned and the MIA box lost.
+Neilson’s three reports remain the dated import core. FAOSTAT-class 72
+tonnes remains the scale. The wasp lesson remains why Smyrna drying was
+never only cuttings. Native figs remain someone else’s shade. A chapter
+of wanting, not of world volume.
+
 ## Sources for this piece
 
 - NSW DPI, *Fig growing in NSW* (Agfact PDF).

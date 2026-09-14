@@ -15,6 +15,7 @@ canonical_site: figroots.com
 wp_type: post
 wp_status: draft
 figures:
+  - monastic.st-gall-plan
   - shared.timeline-master
   - shared.map-med-belt
   - shared.schematic-orchard-irrigation
@@ -71,9 +72,80 @@ Later Cistercian and Benedictine customaries talk gardens more than they talk na
 English wall figs (Lambeth extra) are the long echo of the same wish: keep the Mediterranean on a brick.
 
 
-## Wish on parchment, climate on the ground
+## Two lists, one climate problem
 
-*Capitulare de villis* LXX: *ficus* among royal-estate trees. Plan of St. Gall c. 820: fig in the orchard-cemetery labels, thirteen trees around a cross, a drying house because winter is the point. Walahfrid’s *Hortulus*: twenty-four plants, no fig — do not invent the stanza. Southern houses ripened; Rhine houses tried. Lambeth walls are the long English echo. “Every monastery had a fig” is a lie the list tempts.
+The *Capitulare de villis* is a king’s pantry. Chapter LXX wants *ficus*
+among royal-estate trees the way it wants named apples and a walnut. A
+steward on the Loire and a steward on the Rhine receive the same wish. One
+may have eaten a fruit. The other may have buried a stick. Imperial lists
+flatten climate into obedience. That is how they work.
+
+The Plan of St. Gall is a monk’s map of holiness, drawn about 820 as an
+ideal complex, not a survey of the built abbey. Horn and Born and every
+later garden historian say so. The orchard-cemetery labels include fig
+among apple, pear, plum, quince, peach, almond, mulberry, walnut — thirteen
+trees around a cross. The drying house on the same parchment is the honest
+middle: someone expected stored fruit, not a miracle August.
+
+Walahfrid’s *Hortulus* names twenty-four close-work plants and does not name
+the fig. Do not invent the stanza. The orchard plan wanted the tree. The
+herb poem did not mention it. Both can be true on the same lake.
+
+## South of the list, north of ripening
+
+Monte Cassino’s wider world, Iberian houses, Provençal houses could treat
+the tree as ordinary and dry what they grew. Reichenau and St. Gall, if they
+kept a fig, kept a sheltered bet. Later Cistercian and Benedictine
+customaries talk gardens more than named clones. Do not harvest a “monastic
+Dottato” from that silence. English wall figs — Lambeth’s White Marseilles
+with its three dates — are the long echo of the same wish: keep the
+Mediterranean on a brick.
+
+“Every medieval monastery had a fig” is a lie the list tempts. Date a
+surviving Reichenau tree to Walahfrid and you have left the poem. Collapse
+royal estate and cloister and you have left the Latin. The fig sits on both
+pages because a Mediterranean tree had already become a Christian ordinary —
+in ink, if not always in fruit.
+
+
+## A sermon in thirteen trees
+
+The Plan of St. Gall’s orchard-cemetery is a cross surrounded by named
+fruit, fig among them, a drying house because winter is the point. Horn
+and Born and every later garden historian say the parchment is a model, not
+a survey. What it proves is desire. Chapter LXX of the *Capitulare de
+villis* proves a king’s desire on a different desk: *ficus* among royal
+estate trees, the same wish sent to the Loire and the Rhine. One steward
+may have eaten. The other may have buried a stick.
+
+Walahfrid named twenty-four close-work plants and not the fig. Do not
+invent the stanza. Southern houses ripened and dried. Rhine houses tried.
+Later customaries talk gardens more than clones; do not harvest a monastic
+Dottato from that silence. Lambeth’s White Marseilles, with its three
+dates, is the English brick echo. “Every monastery had a fig” is the lie
+the list tempts. Collapse fisc and cloister and you have left the Latin.
+The tree had already become a Christian ordinary in ink. Fruit was a
+climate problem the ink refused to admit.
+
+
+## Boseva’s trio, and the climate the ink denied
+
+Later plant-list scholarship (Boseva and Bosseva 2016 among the cloister
+surveys) treats the capitulary, the St. Gall plan, and Walahfrid as a
+trio that must be read against each other, not stacked as one orchard.
+The king wants *ficus*. The ideal abbey labels it. The herb poet, with
+dirt on his hands at Reichenau, does not name it. That disagreement is
+the ninth-century climate report the ordinance refused to file. A
+southern house could ignore the report. A Rhine house could not. The
+drying house on the parchment is the compromise: store what you can
+buy or what a warmer daughter-house sent. Do not date a living
+Reichenau trunk to 840.
+
+
+<!-- figure-id: monastic.st-gall-plan -->
+![Recto of the Plan of St. Gall, Codex Sangallensis 1092.](../../../assets/images/monastic-orchards-europe/codex-sangallensis-1092-recto.jpg)
+
+*Figure 4. Plan of St. Gall, Codex Sangallensis 1092 recto, c. 820. Public domain. An ideal Benedictine complex, not a surveyed orchard. The orchard-cemetery labels include fig among other fruit trees; this is the whole parchment, not a fig close-up. Pack file is a 2000 px reduction of the Commons original for weight.*
 
 ## Sources for this piece
 

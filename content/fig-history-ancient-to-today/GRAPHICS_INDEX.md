@@ -42,6 +42,8 @@ Register every publishable figure here **before** embedding in articles. Columns
 | `nt-parables.tissot-vinedresser` | `assets/images/new-testament-fig-parables/tissot-vine-dresser-fig.jpg` | painting | slug: `new-testament-fig-parables` | ready |
 | `greek-roman-medicine.wellcome` | `assets/images/figs-in-greek-roman-medicine/wellcome-v0044761.jpg` | historical plate | slug: `figs-in-greek-roman-medicine` | ready |
 | `islamic-medicine.kohler` | `assets/images/islamic-medical-traditions-fig/kohler-ficus-carica.jpg` | historical plate | slug: `islamic-medical-traditions-fig` | ready |
+| `pompeii.cervi` | `assets/images/pompeii-gardens-fig-trees/casa-dei-cervi-fruit-vignettes.jpg` | fresco repro | slug: `pompeii-gardens-fig-trees` | ready |
+| `monastic.st-gall-plan` | `assets/images/monastic-orchards-europe/codex-sangallensis-1092-recto.jpg` | manuscript plan | slug: `monastic-orchards-europe` | ready |
 
 ## Pending (writer / rights lane)
 

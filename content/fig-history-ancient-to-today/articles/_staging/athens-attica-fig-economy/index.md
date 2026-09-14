@@ -79,6 +79,56 @@ The later Euboea PDO is not Attica’s revenge. It is another district, another 
 
 Plutarch *Solon* 24.1: oil export allowed; fig-informer story reported with caution. OED: sycophant etymology unsubstantiated. Attica’s dry hills grow oil and household figs and still import grain. Fourth-century *sykophantēs* is a real pest of speech. Kymi’s later PDO is another district. No Solonian fig board. No reconstructed inscription. No modern English “flatterer” as if it were the Greek joke.
 
+
+## What a dry hill is allowed to export
+
+Attica’s agricultural quarrel in the scholarship — how bad the soil, how
+large the oil surplus, how much elite literature is lying — will not be
+settled here. What can be held without a new inscription: Athens imports
+grain because a navy cannot eat terraces. Oil is the surplus Plutarch’s
+Solon bothers to name. Figs sit in the leftover climate. They are cheap to
+plant and expensive to ignore if you are writing a countryside.
+
+Comedy’s fig is a diet fact. Oratory’s *sykophantēs* is a speech fact. The
+OED’s shrug at the fig etymology is a dictionary fact. Three desks. One
+city. A reconstructed Solonian fig board would be a fourth desk this pack
+refuses to build. If an Archaic inscription about fruit export turns up, it
+can enter a revision. Folk etymologies are historical facts about talk. They
+are not licences.
+
+## The later island is not a revenge
+
+Kymi’s PDO, Traganikó, the *askada* tray — those are Euboea’s lawyer
+sentences, two millennia later. They do not prove Classical Athens ran a
+drying export. They prove the Aegean never stopped knowing how to make a wet
+fruit keep. Pliny’s Chian type is a Roman appetite wearing an island. Three
+timescales. Do not flatten them into “Athens invented the dried fig.”
+
+Theophrastus’s place-notes on Attic and regional trees are the botanical
+weather, not a census. A philosopher under a fig is a later cliché that
+this series will not hang on Plato without a passage. A farmer drying a
+tray is the older, duller fact, and dullness is how you know it is not a
+romance.
+
+
+## Three desks, no board
+
+Comedy assumes the audience has eaten a fig. Fourth-century oratory uses
+*sykophantēs* as a man who lives by accusation. The OED shrugs at the fig
+etymology Plutarch reports with a hedge in *Solon* 24.1. Three desks. One
+city. A reconstructed Solonian fig board would be a fourth desk this pack
+will not build. Oil is the surplus the lawgiver’s later biographer bothers
+to name. Grain is the import that feeds a navy. Figs sit in the leftover
+climate — cheap to plant, expensive to ignore if you are writing a
+countryside.
+
+Kymi’s later PDO is Euboea’s lawyer sentence, not Athens’s revenge. Pliny’s
+Chian type is a Roman appetite wearing an island. Theophrastus’s
+place-notes are weather, not a census. Do not hang a philosopher under a
+fig on Plato without a passage. Do not use English “flatterer” as if it
+were the Greek joke. Folk etymologies are facts about talk. They are not
+export licences. Classical Athens ate figs and argued. That is enough.
+
 ## Sources for this piece
 
 - Plutarch, *Solon* 24.1.

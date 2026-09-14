@@ -96,6 +96,26 @@ The nine figs are still the right place to start a history, because they force t
 
 Khadari’s pools and Aradhya’s structure sit beside Kislev’s house. A single-village domestication press release dies on that evidence. The stick remains the technology. Gilgal remains an argument. The series starts there because the handhold is slippery, not because the crown is heavy.
 
+
+## Diffuse, and still a stick
+
+Khadari’s circle and the 2025 “diffuse domestication” argument — three
+pools, Moroccan–Algerian, northern Mediterranean, Levantine, with *carica*
+s.s. apart from *rupestris* and *colchica* — sit beside Kislev’s house.
+Aradhya’s 2010 *Genetica* structure is the earlier English warning that one
+village will not own the genome. A single-origin press release dies on that
+evidence. The stick remains the technology. Gilgal remains an argument. The
+series starts there because the handhold is slippery, not because the crown
+is heavy.
+
+Zohary, Hopf, and Weiss still give the fig a founder-fruit-tree chair next
+to olive, grape, and date. Cereals still own the textbook Neolithic.
+Calories own tax. The fig’s claim is that people could copy a tree before
+they could wait on a seed. Even if Gilgal is a gathering site, the biology
+that made the argument possible is the biology that made Mission fruit in a
+wasp-less California and made Smyrna fail there until 1899. Later chapters
+are footnotes to wood.
+
 ## Sources for this piece
 
 - Kislev, Hartmann, and Bar-Yosef, *Science* 312 (2006): 1372–74.

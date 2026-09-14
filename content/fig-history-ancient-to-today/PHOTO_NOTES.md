@@ -8,7 +8,7 @@ The series is **not** a fruit-catalog shoot. A reader should leave remembering a
 
 Museum open-access files and Wikimedia PD / CC reproductions of tomb and villa painting, botanical plates, historic maps and port views, later documentary photographs that are PD or CC.
 
-Every raster under `assets/images/<slug>/` is logged in `IMAGE_SOURCES.md`. If the license is not on the log, the image does not ship.
+Every raster under `assets/images/<slug>/` is logged in `IMAGE_SOURCES.md`. If the license is not on the log, the image does not ship. This wave adds Casa dei Cervi fruit vignettes (`pompeii.cervi`, PD-Art strip) and the Plan of St. Gall recto (`monastic.st-gall-plan`, PD; pack-resized). Still reserved: Nebamun EA37983, Met OA until accession+CC0.
 
 ### 2. Original pack graphics (`assets/shared/svg/`)
 

@@ -72,6 +72,71 @@ Condit’s leaf pages exist because fruit is gone seven months of the year. Palm
 
 The pack plate is a teaching set, not a key. Photograph the fruit in season. Sequence the tree when two names fight. The 2022 NCGR paper is the court for labels. Leaves were witnesses. They were not judges. Theophrastus already knew age-of-shoot and place change a leaf. Nurseries forgot because a leaf ships cheaper than a confession.
 
+
+## Why a winter tree still needs a name
+
+January is when a buyer shows up at a nursery gate with a photograph of a leaf and a story about an uncle’s tree. Condit filled pages for that buyer. He also warned that buyer. Palmate, usually three- to five-lobed, scabrous above, a sinus that deepens or shallows with water, shade, and the age of the shoot — those are characters. They are not a verdict.
+
+Theophrastus already treated leaf difference as a fact of place. A sucker leaf is not a fruiting-wood leaf. A tree in a wet year throws a different hand. “Brown Turkey by the sinus” is how mislabels are born. Panache, when it stripes, is one of the few clones a fruit will not let you miss, and even that fruit can be shy. Mission in deep shade can look polite. A Genoa name in a catalogue can mean Liguria, a California crate, or a hope.
+
+The pack’s lobing plate is a teaching set: deep, shallow, entire-leaning. Use it to train an eye. Then tell the eye it will be wrong. Photograph the fruit in August — ostiole, skin cracks, pulp color, seed crunch. Write the horticultural type (common, Smyrna, San Pedro, caprifig) before you write a romantic Italian name. When two names fight, the 2022 *PLOS ONE* re-evaluation of NCGR Davis SSR profiles is the kind of court that actually ends an argument: Chicago Hardy sitting next to Abruzzi, *palmata* mix-ups, the ordinary scandal of a tag.
+
+A history series uses leaves for a different reason than a nursery. Genesis 3:7 is a covering. Egyptian offering paintings distinguish *carica* from *sycomorus* in part by tree habit. Bimbi’s court canvas names fruit, not sinuses. The leaf article exists so no later caption treats a palmate outline as a cultivar ID. Winter still needs a name. It does not get to steal August’s.
+
+
+## August is the court; January is the waiting room
+
+A sucker leaf is not a fruiting-wood leaf. A wet year throws a different
+hand. Theophrastus already treated leaf difference as a fact of place.
+Condit filled pages for the January buyer and warned that buyer. Palmate,
+usually three- to five-lobed, scabrous above, a sinus that deepens or
+shallows with water and shade — those are characters. They are not a
+verdict. “Brown Turkey by the sinus” is how mislabels are born.
+
+Photograph the fruit in August: ostiole, skin cracks, pulp color, seed
+crunch. Write the horticultural type before you write a romantic Italian
+name. When two names fight, the 2022 *PLOS ONE* NCGR Davis SSR paper is the
+kind of court that ends an argument: Chicago Hardy next to Abruzzi,
+*palmata* mix-ups, the ordinary scandal of a tag. Panache, when it stripes,
+is one of the few clones a fruit will not let you miss, and even that fruit
+can be shy.
+
+A history series uses leaves for a different reason than a nursery. Genesis
+3:7 is a covering. Egyptian offering paintings distinguish *carica* from
+*sycomorus* in part by tree habit. Bimbi’s court canvas names fruit, not
+sinuses. The pack’s lobing plate is a teaching set. Use it to train an eye.
+Then tell the eye it will be wrong. Winter still needs a name. It does not
+get to steal August’s.
+
+
+## Two woods on one tree
+
+Sucker wood throws a different hand than fruiting wood. Shade shallows a
+sinus. Water deepens it. Age of the shoot lies. Condit knew all of that and
+still filled pages for the January buyer at the nursery gate. The pack’s
+lobing plate is a teaching set: deep, shallow, entire-leaning. Train the
+eye. Then tell the eye it will be wrong. Photograph August — ostiole, skin,
+pulp, seed. Write Common / Smyrna / San Pedro / caprifig before you write
+an Italian romance. Panache, when it stripes, is one of the few fruits that
+will not let you miss; even that fruit can be shy.
+
+The 2022 *PLOS ONE* NCGR Davis re-evaluation is the court for fighting
+tags: Chicago Hardy next to Abruzzi, *palmata* mix-ups. Genesis 3:7 is a
+covering, not an ID. Egyptian painters distinguished *carica* from
+*sycomorus* by habit. Bimbi named fruit, not sinuses. Winter still needs a
+name. It does not get to steal the harvest.
+
+
+## Mission in shade looks polite
+
+A black common-type leaf in deep shade can look like a polite Genoa
+hope. That is how backyard mislabels start. Photograph the fruit. If
+there is no fruit, write “unknown, winter, palmate, sinus X” and stop.
+DNA is for fighting tags, not for a January guess. The 2022 NCGR paper
+is the model of a fight that ended. Condit’s pages are the model of a
+fight that knew it would not end. History captions that treat a palmate
+outline as a cultivar have left both models.
+
 ## Sources for this piece
 
 - Condit 1955, leaf characters and warnings.

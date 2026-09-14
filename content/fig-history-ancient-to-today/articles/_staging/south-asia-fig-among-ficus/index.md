@@ -69,6 +69,81 @@ Pipal and banyan are not this crop. A writer who uses a Bodhi-tree photograph to
 
 Purandar and other Deccan commercial stories stay marked as local industry history of the early twentieth century until a gazetteer or a dated agricultural report is in the bibliography. Trade blogs are not that report.
 
+
+## A civilization of other figs
+
+Pipal (*Ficus religiosa*), banyan (*F. benghalensis*), cluster fig
+(*F. racemosa*) — South Asia’s *Ficus* flora is a religious and timber
+economy this series will not steal for *carica*. A writer who illustrates
+*anjeer* with a Bodhi tree has left the species. The common fig is a guest
+with a Persian-Arabic name in the drug and fruit books. That is already a
+full sentence.
+
+Laufer’s *Sino-Iranica* pages on fig names are a trail of sounds: Babylonian
+*tittu*, Iranian *anjīr*, forms that wander east. Alam’s Iranica article is
+the modern crosswalk. Dymock, Warden, and Hooper’s *Pharmacographia Indica*
+put *anjīr* in the Indian lexicon and repeat an older “Muslim introduction”
+line. Print the line as theirs. Print Iranica’s complications next to it. Do
+not pick a century to please a communal story.
+
+## Markets that also import
+
+Purandar (Maharashtra) and other Deccan commercial stories appear in trade
+writing as early-twentieth-century commercializations. This pack will not
+treat a blog date as a gazetteer. Local industry histories place commercial
+Purandar figs in the early twentieth century when that is all we have. A
+later agricultural report can replace that hedge.
+
+Medicine shops and sweet shops use dried imported fruit as often as local.
+That is allowed. It is also why a Mumbai box can be an Aegean fruit in a
+Marathi sentence. Admit the import. FAOSTAT’s India line, when it appears,
+is often quieter than the grocer’s *anjeer* jar. India as importer in some
+trade notes is the present tense of a guest crop. Do not crown a Vavilov
+center for *carica* on the Deccan. The native *Ficus* forest was already
+there. The guest arrived with a word.
+
+
+## A grocer’s jar can be an Aegean box
+
+Mumbai *anjeer* is often already dried and already from somewhere else.
+Admit it. FAOSTAT’s India line, when it appears, is usually quieter than
+the sweet-shop jar. India as importer in trade notes is the present tense
+of a guest. Purandar’s early-twentieth-century commercialization stays
+local industry history until a gazetteer or a dated agricultural report
+replaces the hedge. Trade blogs are not that report.
+
+Pipal, banyan, and cluster fig remain other civilizations. A Bodhi-tree
+photograph on an *anjeer* page is a species error. Laufer’s sounds and
+Alam’s crosswalk are word-history. Dymock’s “Muslim introduction” is a
+Victorian desk to quote, not a century to pick for a communal story.
+*Carica* is not native in the way *F. religiosa* is native. Do not crown a
+Vavilov center on the Deccan. The forest was already there. The guest
+arrived with a Persian-Arabic word and, often, with a crate.
+
+
+## Cluster fig is another economy
+
+*F. racemosa* has its own markets and medicines. It does not become
+*anjeer* because a grocer is in a hurry. Pipal and banyan keep their
+gods. Laufer and Alam keep the word-trail. Dymock keeps a Victorian
+line you quote. Purandar keeps a hedge. Import jars keep the Aegean
+in a Marathi sentence. Admit every desk. Crown none.
+
+
+## Anjeer is luggage
+
+Persian-Arabic word, Victorian drug book, Iranica crosswalk, Deccan
+industry hedge, Aegean jar in a sweet shop — that is the guest’s
+suitcase. Pipal keeps the gods. Do not crown the Deccan. Do not pick
+a century for a communal story. Admit the import.
+
+
+## Sweet shops import; forests do not
+
+A Mumbai jar can be Turkish fruit. A pipal grove cannot. Say both.
+Purandar stays hedged. Laufer stays a sound-trail. Dymock stays
+quoted, not crowned. Guest crop. Other *Ficus* continent.
+
 ## Sources for this piece
 
 - Laufer, *Sino-Iranica* 410–12; Alam, Iranica “Fig.”

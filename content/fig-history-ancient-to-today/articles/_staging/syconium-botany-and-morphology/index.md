@@ -95,6 +95,54 @@ A history that only photographs split fruit on linen has already left the struct
 
 Ostiole, long style, short style, four horticultural boxes, a leaf that lies. Ehret and the 1911 diagram are late seeings of the inversion. History that only photographs split pulp has left the structure that makes Gilgal, Theophrastus, and Roeding one story.
 
+
+## Kitchen fruit, lab room
+
+A fig is not a fruit in the grocery sense until you cut it. Outside: a
+closed room with an ostiole. Inside: a floor of flowers, long-styled in the
+edible fig, short-styled in the caprifig, male flowers near the door in the
+pollen crop. Ehret’s 1771 plate and the 1911 Britannica diagram in this
+folder are late seeings of that inversion — a prince’s flora and a stiff
+encyclopedia, both more honest than a split-pulp hero shot that never
+explains the room.
+
+History that only photographs jam has left the structure that makes Gilgal,
+Theophrastus, and Roeding one story. Parthenocarpy is a room that swells
+without a guest. Caprification is a guest that pays rent in pollen. The four
+horticultural boxes — Common, Smyrna, San Pedro, caprifig — are bills
+written on that architecture. The leaf plate is a winter lie you still need:
+lobing trains an eye and then the eye is wrong.
+
+Do not caption Ehret as a photograph of an eighteenth-century orchard. Do
+not caption the 1911 diagram as Condit’s last word. Use both as inversions
+you can hang on a wall when a camera will only give you dessert.
+
+
+## What a cook’s knife hides
+
+A cook halves a fig and sees dessert. The knife went through a wall, then
+through a crowd of flowers, then sometimes through a wasp that finished her
+work weeks earlier. The ostiole is not a belly button. It is a door with
+scales, a dress code, and a grave. Galil and Ne’eman’s 1977 paper is the
+English place to send anyone who still thinks the wasp “stings the fruit
+ripe.” Pollen rides a body. The room answers with hormones. Seed, when it
+happens, is a crunch a packing specification can require.
+
+The four horticultural boxes are architecture, not folklore. A Common type
+closes the room without a guest. A Smyrna type will not keep the room
+unless pollen arrived. A San Pedro type keeps the early room and often
+drops the late one. A caprifig is a nursery with a pollen ring near the
+door. Condit’s English names for those boxes are still the ones a nursery
+can say before breakfast. They are bills. They are not morals.
+
+Ehret’s 1771 plate and the 1911 Britannica diagram in this folder exist so
+a reader can hang the inversion on a wall. Neither is a photograph of a
+living eighteenth-century tree. The pack’s own line plate is a teaching
+drawing. ORCH-03, if Keith’s ostiole still later lands, is a living mouth,
+not a beauty shot. Until then, refuse the split-pulp hero that never
+explains the room. Gilgal’s sterile soft fruit, Theophrastus’s swell, and
+Roeding’s empty Smyrna trees are one structure told three times.
+
 ## Sources for this piece
 
 - Theophrastus, *Historia Plantarum* (Hort), propagation and wild/cultivated figs.

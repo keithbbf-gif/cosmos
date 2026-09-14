@@ -72,6 +72,75 @@ Eisen taught curing as if a valley could become a quay by reading. Sometimes it 
 
 Aksoy’s industry reviews (2017, 2021) are the modern Turkish desk for dried-export structure. Do not lift a brochure percentage. Do say the fame is a packing fame as much as a tree fame. Labor — seasonal, often women — is the unprinted majority. A grade is a set of eyes. Write the eyes or you have written a machine that never existed.
 
+
+## Where a slope becomes a number
+
+A drying yard makes a fruit keep. A packing house makes a fruit comparable. İzmir’s job, as Europeans and then Americans met it, was to turn a Menderes afternoon into a count: how many to the kilo, how pale, how full the seed, how clean the ostiole, how honest the layer. Eisen taught that job to a California valley that had the wrong type and the right ambition. Uygun Aksoy’s later industry reviews describe an export sector that still lives by the table even when a machine weighs the box. Do not lift a brochure percentage. Do use the idea: fame is packing fame as much as tree fame.
+
+The quay is water. The house is eyes. Seasonal labor — often women — is the majority the stencil does not print. A grade is a set of decisions about split skins and sugar spots. Substitution is the old police problem: cheaper fruit in a famous box. The Aydın PDO tries to drag the name inland. The ship still leaves from a port. Both sentences are true.
+
+What this article will not do is invent a 1620 invoice or a named forewoman this pack cannot source. What it will do is refuse the machine-without-hands picture. The drying diagram’s human gate is the minimum. The next article’s legal adjectives (ninety to the kilo, thin-shelled, seeded) are what those eyes were trained to see. Smyrna was the word the grocery already knew. İzmir is the water the word still needs.
+
+
+## Eyes as infrastructure
+
+A drying yard makes a fruit keep. A packing house makes a fruit comparable.
+İzmir’s job, as Europeans and then Americans met it, was to turn a Menderes
+afternoon into a count: how many to the kilo, how pale, how full the seed,
+how clean the ostiole, how honest the layer. Eisen taught that job to a
+California valley that had the wrong type and the right ambition. Uygun
+Aksoy’s later industry reviews describe an export sector that still lives by
+the table even when a machine weighs the box.
+
+The quay is water. The house is eyes. Seasonal labor — often women — is the
+majority the stencil does not print. A grade is a set of decisions about
+split skins and sugar spots. Substitution is the old police problem: cheaper
+fruit in a famous box. The Aydın PDO tries to drag the name inland. The ship
+still leaves from a port. Both sentences are true.
+
+Do not invent a 1620 invoice or a named forewoman this pack cannot source.
+Do refuse the machine-without-hands picture. The next article’s legal
+adjectives — ninety to the kilo, thin-shelled, seeded — are what those eyes
+were trained to see. Smyrna was the word the grocery already knew. İzmir is
+the water the word still needs.
+
+
+## A grade is a set of refusals
+
+How many to the kilo. How pale. How full the seed. How clean the ostiole.
+How honest the layer. Those refusals turn a Menderes afternoon into a
+number a Düsseldorf buyer can complain about. Aksoy’s industry reviews
+describe a sector that still lives by the table when a machine weighs the
+box. Do not lift a brochure percentage. Use the idea: fame is packing fame
+as much as tree fame.
+
+Substitution — cheaper fruit in a famous stencil — is the police problem
+the Aydın PDO tries to drag inland. The ship still leaves from a port.
+Seasonal eyes, often women’s, are the majority the stencil omits. Eisen
+taught the job to a valley that had the wrong type. Smyrna was the grocery
+word. İzmir is the water. Do not invent a 1620 invoice. Do refuse the
+empty-floor photograph. The legal adjectives (ninety to the kilo,
+thin-shelled, seeded) are what the eyes were trained to see.
+
+
+## The stencil and the inland drag
+
+PDO paperwork tries to pull “Smyrna” back to Menderes towns. The ship
+still needs water. Both sentences are true in one week. A Düsseldorf
+complaint about a layer is a packing-house sentence. Aksoy’s reviews
+are the modern industry desk. Eyes — often women’s — remain the
+majority. Do not print a brochure share. Do print the refusals that
+make a grade.
+
+
+## Comparable fruit is a human product
+
+A machine can weigh. It cannot yet decide a sugar spot the way a trained
+eye does. That is why packing fame outruns tree fame and why substitution
+is a police problem. Eisen translated the table for Fresno. Aksoy
+describes the table still. The PDO drags a name inland. Water keeps the
+name moving. Both are true.
+
 ## Sources for this piece
 
 - Aydın İnciri spec (grade language: count per kilo, color, seed).

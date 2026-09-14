@@ -73,6 +73,69 @@ Ronde de Bordeaux and Parisian in Porterville rows (Farmer’s Weekly’s Knoetz
 
 1652–62 introduction (Karsten / Godée Molsbergen). 1902/03 Cape import of 140 Smyrna and capri trees; *Blastophaga* later. 1946 DFB: 618,000 trees, 4.6 percent, jam and dry. 1960: ~73,000. California 1970/81, French 2001, SAFPA 2003, 222 ha (2019) then removals. Porterville–Paarl–Karoo geography; rust on the humid coast. Ronde de Bordeaux rows for Europe are a farm-scale 2000s bet. Not a FAOSTAT rival. A southern counterseason.
 
+
+## Three centuries of garden, one census of jam
+
+Karsten (1951), citing Godée Molsbergen, puts figs among plants introduced
+to the Cape between 1652 and 1662. For two and a half centuries after that
+the tree is a garden and farm-row fact: fresh for the house, dried and
+preserved for the year, not a board crop. The 1902/03 Cape Department import
+of 140 Smyrna and capri trees — Calimyrna, Kassaba, Bardajie, Capri Nos. 1–3
+— is the dated state act. *Blastophaga* came later under control because
+someone had read California’s lesson. Piet Cilliers of Wellington, in
+industry retellings, plants the first commercial orchard from Californian
+wood in the 1910s. Treat the hero-name as industry memory.
+
+The Deciduous Fruit Board census of 1946 counted over 618,000 fig trees,
+about 4.6 percent of South African fruit trees — drying and jam, green
+brebas for preserve. By 1960 the count had fallen to about 73,000 (0.4
+percent). California imports in 1970 and 1981, French fresh types in 2001,
+SAFPA in 2003, 222 hectares in 2019, then removals: that is the rebuild as
+fresh export, not as a jam forest.
+
+## Rust, Karoo, and a farm story
+
+Western Cape rust likes humidity. Pathology papers from 2021 note
+defoliation near Napier after wet spells. The Klein Karoo and Prince Albert
+sell dryness as a defense — which is why a drying White Genoa can still make
+sense in a town that also sells tourism. Porterville drip rows of Ronde de
+Bordeaux and Parisian (Farmer’s Weekly’s Knoetzen profile) are a 2000s
+European-fresh bet: prune low, fly to a winter supermarket. Ninety-five
+percent export in that one farm story is a farm story, not a national share.
+
+Do not print “one of the world’s biggest exporters” from a tourism page as
+if it were FAOSTAT. South Africa is a southern-hemisphere counterseason
+story, small on the world board, real on a European January shelf.
+
+
+## From a jam forest to a January shelf
+
+618,000 trees in 1946 (4.6 percent of the fruit count) is a preserve
+economy: drying, jam, green brebas. 73,000 by 1960 is a thinning. Less
+than 30 hectares in some early-2000s notes, then SAFPA (2003), then 222
+hectares in 2019, then removals — that is a fresh-export rebuild, not a
+return of the jam forest. The 1652–62 Cape garden introduction is three
+centuries of house fruit before any of those numbers. The 1902/03 state
+import of 140 Smyrna and capri trees is the dated attempt to learn
+California’s lesson. *Blastophaga* came later under control.
+
+Porterville’s Ronde de Bordeaux rows flying to a European winter are a
+farm-scale bet. Ninety-five percent export in one profile is that farm.
+Rust on the humid Overberg and dryness around Prince Albert (White Genoa
+still dried in local accounts) are the climate split. Tourism pages that
+say “biggest exporter” are not FAOSTAT. Counterseason is the honest
+English word. Small on the world board. Real on a January shelf.
+
+
+## Counterseason is the honest word
+
+A European January shelf can hold Porterville fruit without South
+Africa becoming Türkiye. The jam forest of 1946 is gone. The 222
+hectares of 2019 are a rebuild that also removes. Prince Albert’s
+White Genoa trays and Napier’s rust are the same country in two
+humidities. Treat Cilliers as industry memory. Treat 1902/03 as the
+dated state act. Treat tourism superlatives as tourism.
+
 ## Sources for this piece
 
 - Karsten 1951 / Godée Molsbergen (1652–62) as cited in later reviews.

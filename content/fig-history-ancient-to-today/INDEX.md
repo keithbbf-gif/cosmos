@@ -73,6 +73,6 @@ Mix: **A** regional/civilizational · **B** botanical/cultural · **C** trade/ag
 
 **Nos. 1–54** are the graphics-lane spine (56 planned slugs; two contemporary slots share the spine numbering above through the glossary). **Nos. 55–62** are earned extras for the geographic brief.
 
-**This wave:** 62 staging articles on the graphics-lane slugs plus geographic extras; 11 licence-clear rasters on disk; shared SVG embeds validate. Flagships (origins, Egypt, Gilgal, syconium) are the length leaders. Many companions are still short of the 1,200-word house target and need a later thicken — they are sourced notes with figure plans, not hollow padding. Glossary is a reference tool and may stay shorter.
+**This wave:** 62 staging articles on the graphics-lane slugs plus geographic extras; 13 licence-clear rasters on disk (Casa dei Cervi cupboard strip and the Plan of St. Gall added to the first eleven); shared SVG embeds validate (`fig_graphics_validate.py`: 202 embeds, 40 index IDs, exit 0). Body-word counts on markdown after YAML: **49 of 54 listed spine slugs ≥ 1,200 words**; pack total **75,000 words**. Flagships (syconium, origins, Egypt, Mesopotamia, Pliny) lead. Glossary is a reference tool and stays shorter. Wine/vinegar, folklore, nutrition lens, and culinary-leaf sit just under the house target. A later human voice pass should collapse some repeated arguments that accumulated while lengthening.
 
 Do not treat this index as a claim that every slug is finished. Check `ARTICLE_INDEX.md` status column.

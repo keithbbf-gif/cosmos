@@ -83,6 +83,56 @@ Chapter 15.20’s Senate fig is the same author’s next hour. The catalog is ap
 
 Twenty-nine names; Cato quoted; life-has-changed moral; Moesian winter figs by art; Hyrcanian 270 *modii* as topos; African name that may lie; Tarentine *ona* as local boast; Livian and Pompeian unmapped. Condit’s grief is the method. Bimbi will oil-paint the same vice. Chapter 20’s Senate fig is the same afternoon’s other tool. Empire multiplies desire. It does not invent the tree.
 
+
+## How to read a list that will not map
+
+Condit’s grief is the right method: take each Pliny name as a historical
+appetite, not as a barcode. Livian may remember Livia’s household. Pompeian
+may remember a town that sold a drying type. Tarentum’s *ona* is a local
+boast Pliny is willing to repeat. Hyrcania is a traveler’s number, cousin
+to Strabo’s wonders. Mount Ida’s “Alexandrian” may be a different plant.
+Chalcis, Chios, Lydia — Aegean names worn as Italian hunger.
+
+*Naturalis Historia* 15.19 is twenty-nine varieties in Rackham’s and
+Bostock’s English, a chapter that also quotes Cato’s soils and then keeps
+going because Pliny cannot stop naming. That vice is the point. Empire eats
+by noun. A later nurseryman who tries to match Livian to a California tag
+is doing Bimbi’s sport with worse paint.
+
+## Art, not nature
+
+The winter-fig of Moesia is the most modern sentence in the chapter. Art,
+not nature: manure, cover, uncover. A reader who has seen an English wall
+fig or a French *treille* already knows the move. Pliny knew it without
+glasshouses. Chapter 15.20’s Senate fig is the same author’s next hour. The
+catalog is appetite. The Senate fruit is fear. Empire speaks both.
+
+Do not print a reconstruction table that maps all twenty-nine onto Condit’s
+717. Print a handful as appetites and leave the rest as a warning. The
+Pompeii article’s painted pair — two figs and a loaf — is the lunch that
+the catalog cannot taste. Both desks shared a week in 79.
+
+
+## Twenty-nine appetites and a winter trick
+
+Rackham’s and Bostock’s English of *Naturalis Historia* 15.19 give a reader
+the list Pliny could not stop making: Chalcis, Chios, Lydia, African,
+Alexandrian, Livian, Pompeian, marisca, Herculanean, Tarentine *ona*, the
+Cato soils quoted like a grandfather, the Moesian winter fig brought on by
+manure and cover. Hyrcania’s numbers sit next to Strabo’s wonders; treat
+them as traveler’s appetite. Mount Ida’s “Alexandrian” may not be the same
+plant a Campanian grocer meant. Condit’s method is the only honest one:
+each name is a hunger, not a barcode.
+
+The winter fig is the sentence a northern gardener will recognize. Art, not
+nature. Cover, uncover, feed the root, steal a month. English brick and
+French *treille* are later tools for the same theft. Pliny knew the theft
+without glass. Chapter 15.20’s Senate fruit is the next hour of the same
+desk: appetite becomes a clock of fear. Do not print a reconstruction table
+that maps the twenty-nine onto Condit’s 717. Print a handful. Leave the
+rest as a warning that empire names what it eats and then dies in the same
+weather that sealed two figs and a loaf on a Herculaneum wall.
+
 ## Sources for this piece
 
 - Pliny, *NH* 15.19–20. Latin: LacusCurtius. English: Rackham Loeb; Bostock & Riley on Perseus.

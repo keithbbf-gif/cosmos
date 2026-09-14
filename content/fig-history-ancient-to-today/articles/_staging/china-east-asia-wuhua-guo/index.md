@@ -73,6 +73,73 @@ Laufer’s *a-ži* and Iranian pegs are word-history. They are not a Samarkand i
 
 *Wúhuāguǒ* — flowerless fruit — remains the best vernacular this series has for a syconium. The name saw the room.
 
+
+## Three dates and a name that saw the room
+
+*Wúhuāguǒ* — flowerless fruit — is the best vernacular this series has for a
+syconium. *Flora of China* 5:52 says introduction during the Tang (618–906)
+and cultivation especially in Xinjiang. Morton’s 1987 compilation says
+Chinese gardens by 1550. Wang Lianju and colleagues, in *Acta Horticulturae*
+605, treat commercial cultivation as recent and introduction as “about one
+thousand years.” Print all three. A timeline graphic that picks one to look
+clean has left the seam this series promised to keep.
+
+Laufer’s *a-ži* and Iranian pegs are word-history. They are not a Samarkand
+invoice and not a Tang imperial orchard you can book. Xinjiang cultivation
+makes dry-summer, irrigation-culture sense. It does not make Gilgal Chinese.
+Native East Asian *Ficus* are other crops and other religions. A pipal is
+not a *wúhuāguǒ*.
+
+## Commercial is not botanical
+
+Wang’s “recent” commercial is a twentieth-century desk. Flora’s Tang is a
+flora desk. Morton’s 1550 is a compilation desk. The three can live in one
+paragraph if no one is trying to win a map. Ishizaki Yūshi’s later Japanese
+plate (Japan–Korea article; WC-013, licence to re-check) is a seeing, not a
+Tang witness. Do not give the Tang a Smyrna industry. Do not write a
+Buddhist fig that is actually a pipal and call it *carica*. The silk-road
+map’s eastern fade is a fade for a reason.
+
+
+## Xinjiang is climate, not a crown
+
+Dry summers and irrigation cultures make *Ficus carica* a sensible guest
+in Xinjiang. *Flora of China* 5:52 says so as a cultivation note. It does
+not make Gilgal Chinese and does not give the Tang a Smyrna industry.
+Wang’s “recent” commercial is a twentieth-century desk. Morton’s 1550
+gardens are a compilation desk. Flora’s Tang is a flora desk. Print all
+three. A clean timeline that picks one has left the seam.
+
+Laufer’s *a-ži* is a sound, not a Samarkand invoice. Native East Asian
+*Ficus* are other religions. A pipal is not flowerless fruit. Ishizaki is
+a later Japanese seeing, licence to re-check. The silk-road map fades on
+purpose. Do not write a Buddhist *carica*. Do not book a walkable Tang
+orchard. *Wúhuāguǒ* remains the vernacular that saw the room.
+
+
+## A thousand years is already a hedge
+
+Wang’s “about one thousand years” is not Flora’s Tang and not
+Morton’s 1550. It is a third desk refusing precision. Print it as a
+hedge. Xinjiang remains climate. *Wúhuāguǒ* remains the room’s best
+name. The map’s fade remains a fade. No pipal. No walkable imperial
+orchard.
+
+
+## Three desks, one guest, no crown
+
+Tang flora. 1550 compilation. “About a thousand years” commercial
+hedge. Xinjiang climate. Laufer sound. Map fade. *Wúhuāguǒ* saw the
+room. A pipal is another religion. Gilgal is another valley. Print the
+seam.
+
+
+## Flowerless is the honest vernacular
+
+The name saw the syconium. The three dates did not agree. Xinjiang is
+climate. Laufer is a sound. The map fades. No Tang industry. No pipal
+substitution. Print the seam and move.
+
 ## Sources for this piece
 
 - *Flora of China* 5: 52, *F. carica*.

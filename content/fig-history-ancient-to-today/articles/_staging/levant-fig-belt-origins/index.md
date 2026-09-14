@@ -80,6 +80,56 @@ A Levantine village with twenty trees is not Aydın. Deuteronomy’s list is not
 
 Zohary’s wild belt and the Hebrew library agree on one thing: the fig is ordinary. Seven species, Eshcol, shade as peace, a poultice, a covering, Amos on another species. Phoenician/Punic westward movement carries a habit, not a new plant. Do not invent a Canaanite fig cult. Do not date a Hebron market clone to the Judges. Household, terrace, roof-dry. Aydın is a later specialist machine.
 
+
+## A terrace is not a crate
+
+The Levantine fig belt of the teaching map is a household geography: a
+village with twenty trees, a roof that can take a tray, a proverb about
+soldiers staying away. Deuteronomy’s seven species are a land list, not a
+packing grade. 1 Kings and Micah’s shade is political weather. None of those
+sentences is Aydın. Named clones are late. The habit is not.
+
+Zohary, Hopf, and Weiss still treat the fig as a founder fruit tree of this
+belt: woody, copied as wood, wild relatives you can still walk. Olive, grape,
+and date share the sentence. Cereals still own the Neolithic in the textbook
+because calories own tax. The fig’s claim is narrower. It is the tree a
+house can keep without a field.
+
+## What “origins” is allowed to mean here
+
+Gilgal is an argument in a house. The Levantine belt is the long afterward:
+Iron Age libraries, Roman villas on the same hills, Islamic agronomists who
+already knew the cuttings, Ottoman custom-houses that treated the dried fruit
+as ordinary. A writer who needs a single “Levantine origin clone” has
+confused a landscape with a nursery tag.
+
+Fourth-millennium finds outside the wild zone are the signal that wood
+moved. Finds inside the wild zone are the signal that people ate what grew.
+Both are Levantine facts. Only one is domestication. This article’s job is
+to keep the household tree visible after the Gilgal argument has used up its
+headlines. Stick, shade, roof-dry. Named fruit can wait.
+
+
+## The wild belt you can still walk
+
+Zohary, Hopf, and Weiss keep the fig in the founder-fruit-tree sentence
+with olive, grape, and date: woody, copied as wood, wild relatives still
+on the ground. Their maps are why this article can say “belt” without
+meaning a crate. A Levantine village with twenty trees, a roof that takes
+a tray, a proverb about soldiers staying away — that is the geography
+Deuteronomy’s land list sits on. It is not Aydın. Named clones are late.
+The habit is not.
+
+Gilgal is an argument in a house. Fourth-millennium finds outside the wild
+zone are the cleaner signal that wood moved. Finds inside the zone are
+people eating what grew. Both are Levantine facts. Only one is
+domestication. Iron Age libraries, Roman villas on the same hills, Islamic
+agronomists who already knew cuttings, Ottoman custom-houses that treated
+dried fruit as ordinary — those are the long afterward. A writer who needs
+a single “Levantine origin clone” has confused a landscape with a nursery
+tag. Stick, shade, roof-dry. The teaching map is a household map. Keep it
+that way.
+
 ## Sources for this piece
 
 - Hebrew Bible: Deut 8:8; Num 13:23; 1 Kgs 4:25; Mic 4:4; Amos 7:14; 2 Kgs 20:7; Gen 3:7.

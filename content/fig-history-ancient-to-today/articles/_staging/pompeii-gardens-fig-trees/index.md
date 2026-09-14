@@ -15,6 +15,7 @@ canonical_site: figroots.com
 wp_type: post
 wp_status: draft
 figures:
+  - pompeii.cervi
   - pompeii.frutteto
   - pompeii.man-8625
   - shared.timeline-master
@@ -83,9 +84,62 @@ Garden archaeology in the Bay of Naples has recovered planting pits and carboniz
 Two figs and a loaf is a moral the Fourth Style could afford. It is also breakfast. The explosion of named varieties in Pliny and the poverty of the painted pair can live in the same week. Empire’s catalogue and empire’s lunch are not the same desk.
 
 
-## Ash as a caption machine
+## A painted tree still needed a hole
 
-8625 is enough: bread, two figs, Fourth Style, a photographer’s CC BY-SA 4.0. Casa del Frutteto I.9.5 is a palmate tree and a serpent. Casa dei Cervi is a cupboard of dried fruit. Planting pits and pollen in Bay archaeology put holes under some paintings. Pliny’s Pompeian and Herculanean names will not map onto the walls. Priapus stays off the thumbnail. Empire’s catalogue and empire’s lunch shared a week and then a cloud.
+Garden archaeology in the Bay of Naples has recovered planting pits,
+carbonized woody bits, pollen. Figs appear among peristyle and *hortus*
+plants without needing to be a monoculture row. Jashemski’s garden work
+(the long English desk for Pompeian planting) puts fruit trees in courtyards
+that also held shade, ritual, and a place to eat. A Third-Style fresco of a
+palmate tree is not a nursery invoice. It is a wall that remembered a hole.
+
+Casa dei Cervi’s cupboard vignettes — peaches, dried figs, dates — are the
+winter pantry put where a guest could see it. That is not “fruit, generic.”
+It is a kitchen speaking in the only voice that survived. MAN 8625’s loaf
+and two figs is the modest moral and also breakfast. Pliny’s Pompeian and
+Herculanean names will not map onto those two fruits. Empire’s catalogue and
+empire’s lunch shared a week and then a cloud.
+
+## Captions that must not steal
+
+ArchaiOptix’s 2018 photograph is CC BY-SA 4.0; the wall is two millennia
+older; commercial reuse asks the museum. The Casa del Frutteto file is a
+PD-Art reproduction of a painting, not a photograph of a living orchard.
+Priapus in the Casa dei Vettii stays off the thumbnail. If an art editor
+wants that fresco, they can have a caption that does not wink.
+
+The eruption’s vulgar coincidence — Pliny dead in the same weather that
+sealed the still life — is why tourists remember the fruit. It is not why
+the fruit was painted. Someone chose a loaf and two figs because the room
+wanted that quiet. A history series can use the quiet without using the
+volcano as a punchline every time.
+
+
+## A cupboard, not a cultivar key
+
+The Casa dei Cervi strip in this folder is the winter pantry the still life
+of bread and two figs does not have to be. Three vignettes, a silver tray
+language, dried fruit among peaches and dates — a guest could read the
+house’s stores without walking the *hortus*. That is why the fresco earns
+a page next to MAN 8625. One painting is lunch. The other is February.
+
+Jashemski’s garden archaeology remains the English desk for the holes
+under some of these walls: planting pits, root cavities, pollen. Figs
+appear in peristyles as courtyard trees, not as a monoculture industry.
+Pliny’s Pompeian and Herculanean names will not map onto a tray of dried
+fruit any more than they map onto two fresh figs and a loaf. Empire’s
+catalogue and empire’s cupboard shared a week and then a cloud.
+
+The Commons file is a PD-Art scan (Andrew Dalby from Hannestad 1979 as
+tagged), 2003 × 571, a strip rather than a hero square. Caption it as a
+painting of a cupboard. Do not caption it as a photograph of a living
+orchard. Do not ID a clone. Priapus stays off the thumbnail. The volcano
+is a caption, not a punchline.
+
+<!-- figure-id: pompeii.cervi -->
+![Three Fourth-Style fruit vignettes from the Casa dei Cervi, Herculaneum.](../../../assets/images/pompeii-gardens-fig-trees/casa-dei-cervi-fruit-vignettes.jpg)
+
+*Figure 6. Casa dei Cervi (House of the Deer), Herculaneum: three fruit-cupboard vignettes, before 79 CE. PD-Art reproduction (Commons scan; Andrew Dalby from Hannestad 1979 as tagged). A winter pantry on a wall — peaches, dried figs, dates among the objects — not a photograph of a living orchard and not a cultivar ID.*
 
 ## Sources for this piece
 

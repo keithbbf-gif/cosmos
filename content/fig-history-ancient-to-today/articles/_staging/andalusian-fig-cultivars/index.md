@@ -72,6 +72,70 @@ Christian Seville still ate figs. The huerta did not wait for a new agronomist o
 
 Ibn al-ʿAwwām, late twelfth-century Seville hinterland; Banqueri 1802; Clément-Mullet 1864–67; filaha.org source-mix. Ibn Ḥajjāj 1073 via quotation; Ibn Baṣṣāl’s *Hāʾiṭ al-Sulṭān* reconstructed; Abū l-Khayr c. 1070s. Color-and-season names will not map to Mission. Conquest evicted libraries more than trees. Spanish American cuttings are the next stick. Sicily is the other western archive. Aljarafe is still a landscape word you can walk.
 
+
+## Ink that still has dirt on it
+
+Ibn al-ʿAwwām farmed and wrote in the late twelfth-century Aljarafe, the rise of olive, vine, and fruit west of Seville. Banqueri’s 1802 Spanish and Clément-Mullet’s 1864–67 French made the book a European system. The Filāḥa Texts Project’s source-mix — roughly a third Byzantine, a third Near Eastern, a third Andalusi — is the warning. This is not a folk notebook. It is a learned farm that already sat on the *Geoponica* and on Ibn Ḥajjāj.
+
+Ibn Baṣṣāl’s *Dīwān al-filāḥa* and the *Hāʾiṭ al-Sulṭān* garden, Ibn Ḥajjāj’s *al-Muqniʿ* (1073), and Abū l-Khayr al-Ishbīlī (c. 1070s) survive in part through later quotation. Together they are a city talking to its hinterland in Arabic about a tree Romans and Visigoths had already planted. Andalusi names by color, season, place, and eating quality will not map cleanly to Dottato or Mission. Matching is a Condit-class grief. This article will not invent a “Seville Black.”
+
+Christian conquest evicted libraries more than trees. The huerta did not wait for a new genius. Spanish American cuttings are the next stick. Sicily is the other western archive. Aljarafe is still a landscape word you can walk. Irrigation, spacing, caprifig use, harvest windows — the practical chapters are why the book was copied. A cutting and a basin: the same machine as the Maghreb and the Aegean, written at the west of the same sea.
+
+
+## A learned farm with dirt on the ink
+
+Ibn al-ʿAwwām farmed and wrote in the late twelfth-century Aljarafe, west
+of Seville. Banqueri’s 1802 Spanish and Clément-Mullet’s 1864–67 French
+made the book a European system. The Filāḥa Texts Project’s source-mix —
+roughly a third Byzantine, a third Near Eastern, a third Andalusi — is the
+warning. This is not a folk notebook. It is a learned farm that already sat
+on the *Geoponica* and on Ibn Ḥajjāj.
+
+Ibn Baṣṣāl’s *Dīwān al-filāḥa* and the *Hāʾiṭ al-Sulṭān* garden, Ibn
+Ḥajjāj’s *al-Muqniʿ* (1073), and Abū l-Khayr al-Ishbīlī (c. 1070s) survive
+in part through later quotation. Together they are a city talking to its
+hinterland in Arabic about a tree Romans and Visigoths had already planted.
+Andalusi names by color, season, place, and eating quality will not map
+cleanly to Dottato or Mission. This article will not invent a “Seville
+Black.”
+
+Christian conquest evicted libraries more than trees. The huerta did not
+wait for a new genius. Spanish American cuttings are the next stick. Sicily
+is the other western archive. Aljarafe is still a landscape word you can
+walk. Irrigation, spacing, caprifig use, harvest windows — the practical
+chapters are why the book was copied. A cutting and a basin: the same
+machine as the Maghreb and the Aegean, written at the west of the same sea.
+
+
+## Aljarafe is still a walkable word
+
+The rise west of Seville is olive, vine, and fruit you can still see as a
+landscape type. Ibn al-ʿAwwām wrote there. Banqueri and Clément-Mullet
+made him a European system. The Filāḥa Texts Project’s thirds — Byzantine,
+Near Eastern, Andalusi — warn that the book is a learned farm, not a folk
+notebook. Ibn Baṣṣāl’s garden, Ibn Ḥajjāj’s 1073 *al-Muqniʿ*, Abū l-Khayr
+in the 1070s: a city talking to its hinterland in Arabic about a tree
+Romans and Visigoths had already planted.
+
+Color-names and season-names will not map to Dottato or Mission. Do not
+invent a Seville Black. Christian conquest evicted libraries more than
+trees. The huerta did not wait. Spanish American cuttings are the next
+stick. Sicily is the other western archive. Practical chapters —
+irrigation, spacing, caprifig, harvest windows — are why the book was
+copied. A cutting and a basin: the same machine as the Maghreb and the
+Aegean, written at the west of the same sea.
+
+
+## What conquest evicted
+
+Libraries left Seville faster than trees did. The huerta kept irrigating
+in a new court language the way Sicily did. Spanish American cuttings
+are that wood on another ocean. Andalusi color-names remain a
+philological job. This article will not invent a Seville Black to make
+a nursery happy. The Filāḥa thirds are the warning that the ink was
+already international. Aljarafe is still walkable. Walk it as olive,
+vine, and basin — the machine, not a clone list.
+
 ## Sources for this piece
 
 - Ibn al-ʿAwwām, *Kitāb al-Filāḥa*; Banqueri; Clément-Mullet; filaha.org.

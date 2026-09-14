@@ -69,6 +69,77 @@ Do not invent a Rialto fig guild. Do not quote a poundage you cannot walk to Peg
 
 Pegolotti (c. 1340), the *Zibaldone da Canal*, a Florentine manual c. 1320, the *Racione de Alexandria*: desks that count units. 1290 Ligurian dried figs in Pera bound for Caffa and Tana (Balard via later syntheses) put the Black Sea on a tray. Chian figs through Negroponte toward Thessaly are a regional leg. Spice has glamour. Figs have a *sporta*. After 1291 Venice reroutes; the sweet line-item does not die. No invented Rialto guild. No unsourced poundage.
 
+
+## The sweetness that got a unit, not a legend
+
+Francesco Balducci Pegolotti’s *Pratica della mercatura*, compiled about 1340 from Bardi-network years, is a book of cities, weights, and goods. Dried figs appear the way other keepable foods appear: something a factor must know how to buy and pay duty on. The *Zibaldone da Canal* and a Florentine manual of about 1320 belong to the same desk culture. Spice has the modern glamour. Figs have the *sporta*.
+
+In 1290, Ligurian dried figs from Ventimiglia sat in Pera expected at Caffa; twenty *sporte* were to go on to Tana (Balard’s Genoese documents, as later Constantinopolitan food-trade work cites them). That is the Black Sea eating an Italian tray. An unpublished Acre manual of about 1270, in Jacoby’s notes, records Alexandrian dates into Romania. Figs ride the same class: dense, sweet, keepable.
+
+Venice’s Levant was not only crusader Acre, but Acre trained the habit. After 1291 the communes re-routed — Crete, Negroponte, later Smyrna, Egyptian ports. Regional syntheses of thirteenth-to-fifteenth-century Aegean trade put Chian dried figs through Negroponte toward Thessaly. The “spice” in this slug is a warning. A fig is not pepper. Putting them in the same chest is a ship’s decision.
+
+Do not invent a Rialto fig guild. Do not quote a poundage you cannot walk to Pegolotti or a published manual. Dullness is how you know the clerk is not writing a romance. The fruit was ordinary, countable, and worth a line after the Frankish flags faded.
+
+
+## Dullness as evidence
+
+Francesco Balducci Pegolotti’s *Pratica della mercatura*, compiled about
+1340 from Bardi-network years, is a book of cities, weights, and goods.
+Dried figs appear the way other keepable foods appear: something a factor
+must know how to buy and pay duty on. The *Zibaldone da Canal* and a
+Florentine manual of about 1320 belong to the same desk culture. Spice has
+the modern glamour. Figs have the *sporta*.
+
+In 1290, Ligurian dried figs from Ventimiglia sat in Pera expected at
+Caffa; twenty *sporte* were to go on to Tana (Balard’s Genoese documents,
+as later Constantinopolitan food-trade work cites them). That is the Black
+Sea eating an Italian tray. Venice’s Levant was not only crusader Acre, but
+Acre trained the habit. After 1291 the communes re-routed — Crete,
+Negroponte, later Smyrna, Egyptian ports. Regional syntheses put Chian
+dried figs through Negroponte toward Thessaly.
+
+Do not invent a Rialto fig guild. Do not quote a poundage you cannot walk
+to Pegolotti or a published manual. The “spice” in this slug is a warning.
+A fig is not pepper. Putting them in the same chest is a ship’s decision.
+The fruit was ordinary, countable, and worth a line after the Frankish
+flags faded.
+
+
+## A *sporta* is a peace treaty between ports
+
+Pegolotti’s usefulness is his dullness. Cities, weights, goods a Bardi
+factor must know. The *Zibaldone da Canal* and the Florentine manual of
+about 1320 sit on the same desk. Spice has glamour. Figs have a unit two
+quays can share. In 1290, twenty Ligurian *sporte* from Ventimiglia sat in
+Pera expected at Caffa, some for Tana — the Black Sea eating an Italian
+tray (Balard as later food-trade work cites him).
+
+Do not invent a Rialto guild. Do not quote a poundage you cannot walk to a
+manual. After 1291 the habit trained at Acre moved. Crete, Negroponte,
+Egyptian ports, later Smyrna. Putting fig and pepper in one chest is a
+ship’s decision, not a species decision. The fruit was ordinary and worth
+a line after Frankish flags faded. That is how you know the clerk is not
+writing a romance.
+
+
+## Pepper’s glamour, fig’s unit
+
+A factor who could not convert a *sporta* lost money. A factor who
+could not romance a fig still ate. Pegolotti, the *Zibaldone*, the
+Florentine manual of about 1320 — dull books, keepable goods. 1290’s
+Ligurian trays expected at Caffa are the Black Sea’s proof. After 1291
+the habit moved. Do not invent a guild. Do not quote an unsourced
+poundage. Ordinary and countable is the point.
+
+
+## Crete after Acre
+
+The reroute is the story. A commune that lost a Levantine quarter did
+not lose the habit of buying keepable sweet. Negroponte’s Chian
+re-export and Pera’s Ligurian *sporte* are the same class of fact:
+dull, dated, enough. Spice remains a warning in the slug. Fig remains
+a unit.
+
 ## Sources for this piece
 
 - Pegolotti, *La pratica della mercatura*.

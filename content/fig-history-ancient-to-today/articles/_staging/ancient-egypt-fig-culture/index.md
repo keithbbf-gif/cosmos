@@ -88,6 +88,43 @@ The common fig’s Egyptian life is real: lists, baskets, a coastal crop that st
 
 Offering-list *carica* is an eastern guest on a tray. *Sycomorus* is timber, shade, goddess-body, gashing, a broken sexual cycle. Nebamun stays reserved (BM-001). A Calimyrna on a mastaba remains banned. The Nile accepted; it did not domesticate the common fig.
 
+
+## Offering-list *carica* is a guest on a tray
+
+Gad and colleagues (IJHTH 2020) walk the common fig through Old and New
+Kingdom offering lists and tomb scenes — Idu G 7102, Tehuti-Hetep, TT 40
+Huy, TT 112 Menkheperraseneb — as a fruit that can be painted and named
+without being the timber tree of the garden pool. Brewer, Redford, and
+Redford already warned that Egyptian art distinguishes two figs from the Old
+Kingdom. This series repeats the warning because English “fig” will not.
+
+*Ficus sycomorus* is the Nile’s own large fig: shade, timber, coffins,
+goddess-body (Nut, Hathor, sometimes Isis in the secondary literature), a
+fruit that had to be gashed because *Ceratosolen* left the northern range.
+Galil’s paper on the ancient ripening cut is the English place to send a
+skeptic. Circular marks on tomb fruit are a technique, not a decoration. The
+sexual cycle of the sycomore is broken in Egypt in a way the common fig’s
+cycle is not. Do not hang that sentence on *carica*.
+
+Nebamun’s garden (BM EA37983) stays reserved in this pack’s image ledger
+because the Museum’s service is often NC. Use the Trustees’ photograph when
+you have the licence. Do not scrape a postcard and call it a tomb. A
+Calimyrna on a mastaba remains banned. The Nile accepted the common fig as
+an eastern guest. It did not domesticate it.
+
+## Two economies, one river
+
+The sycomore is infrastructure. The common fig is a tray. Garden-pool
+palynology (Tell el-Dabʿa in Azzazy and Ezzat’s sycomore paper) and offering
+paintings do related work: they put fruit in a landscape that already had
+water. A magazine that photographs only split *carica* pulp has left the
+tree that held up the sky in a coffin text.
+
+Keep Hathor’s sycomore out of a California variety caption. Keep Huy’s
+offering figs out of a “first farm” sentence. Egypt is a chapter about
+hospitality and about a second species this series will not let English
+swallow.
+
 ## Sources for this piece
 
 - Gad et al., *IJHTH* (2020), doi:10.21608/ijhth.2020.153621 — Idu G 7102, El-Bersheh, TT 40, TT 112.

@@ -81,6 +81,87 @@ Keep Luke 19 out of the *carica* orchard. Keep Mark 11 out of a nursery guide. K
 
 John 1:48: shade. Luke 19:4: *sykomorea*, street architecture, not *carica*. Mark 11 / Matt 21: leaves without fruit in a Passover week — horticultural maybe, narrative sure. Luke 13:6–9: dung and a year, Columella in a parable. Tissot’s vine-dresser (Brooklyn, PD) is reception of Luke 13. Homilies may merge “the fig tree of Israel.” This series will not. Amos 7:14 remains the older sycomore job.
 
+
+## Four scenes, four jobs
+
+John 1:48 is shade. The verse does not say what Nathanael was doing. Later
+midrash and Tissot will fill the shade with prayer. The text has a tree a
+person can sit under in a Levantine town. That is already a sentence.
+
+Luke 19:4 is architecture. Zacchaeus climbs a *sykomorea* — *Ficus
+sycomorus*, the street tree of the Jericho road. *Carica* is the wrong
+scaffold. English “sycamore” is one letter and two centuries of botany away
+from maple. The tax collector needed a public climbable trunk. The species
+name is the evidence.
+
+Mark 11 and Matthew 21 are a week in spring: leaves, no fruit, a curse, a
+withering. Horticulturally, a leafy fig in Passover week may be between
+crops. Theologically, the passage is doing other work. This series will not
+settle the theology. It will say the story assumes an audience that knows a
+fig can look ready and not be. Do not use the cursed tree as a cultivar
+note.
+
+Luke 13:6–9 is villa practice in a parable: three years without fruit, a
+vinedresser asking for dung and a year. Columella would recognize the labor.
+The mercy is the point of the telling. The dung is the point of the farming.
+Tissot’s Brooklyn vine-dresser is reception of this scene, not archaeology.
+
+## Do not mash “the fig tree of Israel”
+
+Homilies may merge the four into one symbol. This series will not. Keep Luke
+19 out of the *carica* orchard. Keep Mark 11 out of a nursery guide. Keep
+John 1:48 as shade. Amos 7:14 remains the older sycomore job. The Hebrew
+Bible article holds the household archive. This one holds the first-century
+uses of a tree the archive already knew.
+
+
+## Between crops is not a cultivar note
+
+A leafy fig in Passover week may be between breba and main crop. Mark 11
+and Matthew 21 assume an audience that knows a tree can look ready and not
+be. This series will not settle the temple theology. It will refuse a
+nursery caption on a cursed tree. Luke 13’s dung and a year is Columella
+in a parable; Tissot’s Brooklyn vine-dresser is reception of that scene.
+John 1:48 is shade later midrash filled with prayer. Luke 19:4 is
+*sykomorea* architecture on the Jericho road, not *carica*.
+
+Homilies may merge “the fig tree of Israel.” Keep the four jobs apart.
+Amos 7:14 remains the older sycomore work. English “sycamore” wandered
+toward maple; do not follow it. The Hebrew Bible essay holds the household
+archive. This one holds the first-century uses of a tree the archive
+already knew.
+
+
+## Jericho’s architecture is the other fig
+
+Zacchaeus needed a public climbable trunk. Luke wrote *sykomorea*.
+Hill-country *carica* is the wrong scaffold. Keep that species line as
+strictly as Amos 7:14. Mark’s leafy week is a horticultural maybe.
+Luke 13 is dung. John is shade. Tissot is Brooklyn reception. Do not
+mash a homily into a nursery guide. The older library sits next door.
+
+
+## Dung is the farming; mercy is the telling
+
+Luke 13 keeps both. Columella would recognize the labor. Homilies may
+merge the week. This series keeps four scenes. Zacchaeus’s tree stays
+*sykomorea*. Mark’s leaves stay a maybe. John’s shade stays shade.
+Tissot stays reception. Amos stays the older sycomore job.
+
+
+## Three weeks, still four trees
+
+Passover leaves, Jericho’s climbable sycomore, John’s shade, Luke’s
+dung: mash them and you have a sermon. Keep them and you have a
+landscape. Tissot remains paint. Amos remains the older other species.
+
+
+## English sycamore is a later wander
+
+Maple and plane stole a spelling. Luke’s *sykomorea* did not. Keep the
+Jericho trunk on the southern species. Keep *carica* in the hill-country
+shade and the vineyard parable.
+
 ## Sources for this piece
 
 - John 1:48; Luke 13:6–9; Luke 19:4; Mark 11:12–14, 20–21; Matt 21:18–19.

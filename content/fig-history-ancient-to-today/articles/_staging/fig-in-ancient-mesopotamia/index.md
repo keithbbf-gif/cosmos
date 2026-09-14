@@ -82,6 +82,60 @@ Uruk tree-lists and *tittu* rations are a school and a storehouse seeing a tree 
 
 Postgate 1987; Powell’s tree-list (date, vine, fig, apple); Akkadian *tittu*. School texts and rations, not yield hymns. Date is the alluvial monarch; fig is the courtyard second. Keep *sycomorus* out unless a wood ID puts it in. Laufer’s word-pegs are not a Babylonian export of every later *anjīr*. No invented goddess. Writing is a different first than Gilgal’s house.
 
+
+## A lexical orchard is still an orchard
+
+Postgate’s 1987 notes on fruit in the cuneiform sources remain the door.
+*Tittu* and its cousins sit in ration lists, lexical lists, and the tree
+lists that schoolboys copied because a civilization that writes trees
+expects to meet them again. Powell’s discussion of the Uruk III set — date,
+vine, fig, apple — is a school seeing a landscape, not a yield report
+dressed as a hymn.
+
+Date remains the alluvial monarch. Fig remains the courtyard second. That
+hierarchy is the honest Mesopotamian sentence. A writer who needs the fig
+to be first in Babylon has come to the wrong river. Dates feed cities. Figs
+feed houses and, when dried, a traveler. The lexical list does not invert
+that.
+
+## What the tablets will not do
+
+They will not give Condit a Babylonian variety key. They will not give this
+pack a goddess of the fig who is not already a goddess of something larger
+(Inanna’s orchard is not a cultivar trial). They will not give a tonne
+figure. Iranica’s later Persian *anjīr* trail starts after this chapter’s
+cuneiform desk. Laufer’s Babylonian peg is a word, useful in the South and
+East Asia essays, not a packing house.
+
+Miller and the 2019 arboriculture paper keep *F. carica* and *F. sycomorus*
+apart when the texts wander south. Do the same. A “Mesopotamian fig” caption
+on a sycomore timber scene is a species error. Stay near Postgate. If a
+later editor wants a specific tablet number, they can add it from a published
+hand copy. Until then, the class of text is enough: school, storehouse,
+courtyard tree, not a hymn about yield.
+
+
+## Date is the monarch; fig is the courtyard
+
+Alluvial Mesopotamia writes trees because it taxes them and teaches them.
+The Uruk III lexical set that Powell and others discuss — date, vine, fig,
+apple — is a school seeing a landscape it expects to meet again. Postgate
+1987 remains the door for *tittu* in ration and fruit notes. What the
+tablets will not do is invert the hierarchy. Date beer, date staple, date
+as the tree that makes a city possible — those are the monarch sentences.
+Fig is the courtyard second: a sweet, a shade, a dried traveler’s bite,
+not the calorie that builds a wall.
+
+Do not harvest a goddess of the fig from Inanna’s orchard. Do not print a
+tonne. Do not give Condit a Babylonian key. Iranica’s *anjīr* trail and
+Laufer’s Babylonian peg belong to later word-history, useful in the South
+and East Asia essays, useless as a packing house. When texts wander south,
+keep *F. carica* and *F. sycomorus* apart the way Miller’s 2019
+arboriculture paper does. A “Mesopotamian fig” caption on sycomore timber
+is a species error. Stay near Postgate. If a later editor wants a tablet
+number, they add it from a published hand copy. Until then the class is
+enough: school, storehouse, courtyard, not a hymn about yield.
+
 ## Sources for this piece
 
 - Postgate, “Notes on Fruit in the Cuneiform Sources,” *BSA* 3 (1987): 115–44.

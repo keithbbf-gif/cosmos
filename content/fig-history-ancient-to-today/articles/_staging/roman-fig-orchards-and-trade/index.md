@@ -85,6 +85,56 @@ Do not invent a *collegium* of fig merchants. Do not print a price edict line yo
 
 Cato 8.1 via Pliny: marisca on chalk; African, Herculanean, Saguntine, winter, Telanian on richer ground. Columella: place, preserve, staff. Dried surplus shares holds with oil and wine. No invented *collegium*. No unsourced price-edict line until the edict’s fruit chapter is cited. Ostia and Puteoli needed space, not a fig fleet. Pliny’s afternoon splits into catalogue and Senate. Pompeii keeps the lunch.
 
+
+## What a villa owes the year
+
+Cato’s soils are a risk table. Columella’s year is a labor table. Pliny’s
+names are an appetite table. The sea is a remainder table: what the household
+cannot eat fresh leaves as dry. A *vilicus* who only managed August was a
+*vilicus* who would be blamed in February. Preservation chapters — drying,
+packing in leaves or jars, the winter table — are where the farm meets Ostia
+without needing a dedicated fig fleet.
+
+Do not invent a *collegium* of fig merchants. Do not print a Diocletianic
+price until the edict’s fruit chapter is in the citation. The maritime
+schematic in this article is a teaching drawing. A real *navis* carried oil
+and wine first. Figs took space that was left, or space that a factor had
+already bought. That is ordinary coastal trade, not a romance of a sweet
+armada.
+
+## Names that are already politics
+
+Saguntine fruit in Latium is a Spanish coast remembered as a flavor. African
+fruit is a soil class and, in 15.20, a political insult. Herculanean is a
+Bay of Naples name the ash will freeze in paint. Telanian on richer ground
+is a black, long-stalked bet. Marisca on chalk is the tree you plant when
+you will not manure. A manager who planted by those words could blame the
+ground instead of himself. That is why farm books last.
+
+The Pompeii article keeps the lunch. The Pliny article keeps the list. The
+Carthage article keeps the joke. This one keeps the staff. Rome did not
+invent the fig. Rome organized it — by ground, by name, by the habit of
+making a fruit last until the next argument in the city.
+
+
+## Space in a hold, not a sweet armada
+
+Ostia and Puteoli did not launch a fig fleet. They launched ships that
+already carried oil and wine. Dried figs took space a factor had bought or
+space that was left. That is ordinary coastal trade. The maritime schematic
+in this article is a teaching drawing. A real *navis* did not sail a
+diagram. Do not invent a *collegium*. Do not print a Diocletianic fruit
+price until the edict’s chapter is cited.
+
+Cato’s soils remain a class system for blame: marisca on chalk so a failed
+crop can be the ground’s fault; African, Herculanean, Saguntine, winter,
+and long-stalked black Telanian on richer dirt. Columella’s year is staff
+and jars. A *vilicus* who only managed August was blamed in February.
+Saguntine fruit in Latium is a Spanish coast remembered as flavor. African
+fruit is a soil class and, an hour later in Pliny, an insult. The Pompeii
+article keeps lunch. The catalog article keeps names. Carthage keeps the
+joke. This one keeps the staff. Rome organized a tree it did not invent.
+
 ## Sources for this piece
 
 - Cato, *De Agri Cultura* 8.1 (via Pliny 15.19).

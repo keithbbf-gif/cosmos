@@ -87,6 +87,82 @@ Nebamun’s garden (BM EA37983) stays off this pack’s raster folder until the 
 
 Caption rule, again: a plate is not a photograph of a tree. A watercolour of Nathanael is not a photograph of a disciple. A still life is not a cultivar ID. Inventory numbers are the romance.
 
+
+## A walk with numbers
+
+Start at Naples. MAN inv. 8625: Fourth-Style still life, bread and two figs, Herculaneum. The photograph we hold is ArchaiOptix, 2018, CC BY-SA 4.0; the wall is two millennia older; commercial reuse asks the museum. Casa del Frutteto I.9.5: a palmate tree and a serpent, Third Style, PD-Art repro in this pack. Casa dei Cervi: cupboard vignettes, dried fruit among peaches and dates.
+
+Then a court. Bimbi, 1696, Poggio a Caiano: named figs, Pliny’s vice in oil. Ehret in Trew, 1771: a prince’s flora. Holtzbecher’s Gottorfer *Ficus carica*: northern wish. Le Moyne: Atlantic colonial watercolour, not a California mission. Köhler-type medicinal plate: pharmacy. Wellcome V0044761: stem and halved fruit, CC BY 4.0.
+
+Brooklyn: Tissot’s *Nathaniel Under the Fig Tree* and *The Vine Dresser and the Fig Tree* — reception, not archaeology. British Museum EA37983, Nebamun’s garden: reserved as BM-001; often NC; use the Museum’s service; credit the Trustees. Met Open Access fruit pages: reserved as MET-001 until an accession and a CC0 tag sit in the ledger.
+
+Caption rule, again: a plate is not a photograph of a tree. A watercolour of Nathanael is not a disciple. A still life is not a cultivar ID. Inventory numbers are the only romance this series fully trusts. Postcard theft is how a history pack becomes a costume shop.
+
+
+## A walk with numbers
+
+Start at Naples. MAN inv. 8625: Fourth-Style still life, bread and two
+figs, Herculaneum. The photograph we hold is ArchaiOptix, 2018, CC BY-SA
+4.0; the wall is two millennia older; commercial reuse asks the museum.
+Casa del Frutteto I.9.5: a palmate tree and a serpent, Third Style, PD-Art
+repro in this pack. Casa dei Cervi: cupboard vignettes, dried fruit among
+peaches and dates.
+
+Then a court. Bimbi, 1696, Poggio a Caiano: named figs, Pliny’s vice in
+oil. Ehret in Trew, 1771: a prince’s flora. Holtzbecher’s Gottorfer *Ficus
+carica*: northern wish. Le Moyne: Atlantic colonial watercolour, not a
+California mission. Köhler-type medicinal plate: pharmacy. Wellcome
+V0044761: stem and halved fruit, CC BY 4.0.
+
+Brooklyn: Tissot’s *Nathaniel Under the Fig Tree* and *The Vine Dresser and
+the Fig Tree* — reception, not archaeology. British Museum EA37983,
+Nebamun’s garden: reserved as BM-001; often NC; use the Museum’s service;
+credit the Trustees. Met Open Access fruit pages: reserved as MET-001 until
+an accession and a CC0 tag sit in the ledger. Inventory numbers are the
+only romance this series fully trusts. A plate is not a photograph of a
+tree. A still life is not a cultivar ID.
+
+
+## Reserved numbers are also a walk
+
+BM EA37983 (Nebamun’s garden) is reserved as BM-001: often NC, Trustees’
+service, not in `assets/images/`. Met Open Access fruit pages stay MET-001
+until an accession and a CC0 tag sit in `IMAGE_SOURCES.md`. Those refusals
+are part of the collection, not gaps to fill with a postcard.
+
+What we do hold: MAN 8625 (ArchaiOptix 2018, CC BY-SA 4.0); Casa del
+Frutteto I.9.5 (PD-Art); Bimbi 1696; Ehret 1771; Holtzbecher; Le Moyne;
+Köhler-type plate; Wellcome V0044761 (CC BY 4.0); Tissot’s two Brooklyn
+watercolours. Casa dei Cervi vignettes are named in captions and still
+await a cleared file if an editor wants them on disk. A plate is not a
+tree photograph. Tissot is not a disciple. Bimbi’s names are a court’s
+nouns. Inventory numbers are the romance this series trusts.
+
+
+## Postcard theft is a costume shop
+
+Hotlinking a reserved BM garden or a Met page without a CC0 accession
+is how a history pack becomes a souvenir stall. The ledger’s reserved
+rows are part of the walk. Hold what we cleared. Name what we will not
+scrape. Casa dei Cervi can join the disk when a file is cleared. Until
+then the cupboard lives in a sentence. Numbers first. Licence second.
+Caption third.
+
+
+## Commercial reuse is a second licence
+
+ArchaiOptix’s CC BY-SA 4.0 is the photograph. Naples may still want a
+conversation about the object. File notes say so. PD-Art fresco repros
+are paintings of paintings. Tissot is reception. Reserved BM and Met
+rows stay reserved. The walk is numbers, then permission, then caption.
+
+
+## Casa dei Cervi still waits on disk
+
+The cupboard vignettes are in the sentences. They are not yet in
+`assets/images/` as a cleared file. That is an honest hole. Name it.
+Do not fill it with a tourist snap. The walk already has numbers.
+
 ## Sources for this piece
 
 - File pages in `IMAGE_SOURCES.md` (WC-001–015, MAN-001, BM-001, MET-001).

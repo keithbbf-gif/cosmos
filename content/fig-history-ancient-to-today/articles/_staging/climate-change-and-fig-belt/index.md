@@ -72,6 +72,68 @@ San Joaquin figs already live inside a water account that almonds and cities als
 
 This pack’s belt drawing is schematic. Recoloring it as 2050 is a lie. A model needs a paper. Breeding for drought and nematodes (Storey and later) is one answer. Planting the stick where winter still comes is the older answer. Print both. Print no apocalypse sentence and no savior sentence.
 
+
+## A crop that already lives on someone else’s water
+
+The teaching map in this pack draws a Mediterranean horseshoe and stops. That is honest cartography for a history series. It is not a forecast. What a grower already knows, and what a historian can say without a climate model, is that commercial fig is a dry-summer specialist that became an irrigated specialist the moment a valley wanted volume.
+
+California’s San Joaquin figs did not wait for a twenty-first-century briefing to enter a water fight. They entered it when the valley decided Smyrna crates were worth a ditch. Almonds, cities, and environmental accounts now stand in the same queue. A fig orchard that looks “Mediterranean” on a real-estate flyer is, in that basin, a pump and a paper. Chile’s cadastre years already record retreat in some central regions while a few exporters still fly fruit north. Aydın’s slopes still have the dry month that made Sarılop legal; they also have tourism, wells, and a younger generation that may not want the tray. Estahban’s rainfed boast is a winter that has to arrive. If it fails two years running, GIAHS language will not wet the roots.
+
+Northern wall culture — Lambeth, English brick, Jefferson’s Virginia hope — may gain ripening weeks. That is not a gift without a loss. The romance of the rare fig in a cold city dies when the fruit is ordinary. Ordinary is what this series has argued the tree always wanted to be.
+
+Breeding desks (Storey and later California and Mediterranean programs) chase nematode resistance, persistence, a Calimyrna that needs less faith. Those are real papers when they are papers. This article will not name a “climate-ready” cultivar that lives only in a press release. The older answer remains the stick: plant where the winter still comes, dry where the summer still takes water, and do not recolor a schematic and call it 2050.
+
+What we will not print: figs will vanish by a round year; figs will save the desert; a pack map with new fill colors and no citation. Edges move. Accounts close. Bricks warm. The proverb about sitting under the tree assumes the tree still has a well.
+
+
+## Three edges, no recolored map
+
+Rainfed slopes lose if winter fails twice. Estahban’s GIAHS language will
+not wet the roots. Aydın’s southwest faces still have the dry month that
+made Sarılop legal; they also have wells, tourism, and children who may not
+want the tray. Irrigated flats lose if a water board says so. California’s
+San Joaquin figs entered that queue when the valley decided Smyrna crates
+were worth a ditch. Almonds and cities now stand in the same line. Chile’s
+cadastre years already record retreat in some central regions while a few
+exporters still fly fruit north.
+
+Northern walls — Lambeth, English brick, Jefferson’s Virginia hope — may
+gain ripening weeks. That is not a gift without a loss. The romance of the
+rare fig in a cold city dies when the fruit is ordinary. Ordinary is what
+this series has argued the tree always wanted to be.
+
+Breeding desks (Storey and later California and Mediterranean programs)
+chase nematode resistance, persistence, a Calimyrna that needs less faith.
+Those are real papers when they are papers. This article will not name a
+“climate-ready” cultivar that lives only in a press release. The older
+answer remains the stick: plant where the winter still comes, dry where the
+summer still takes water, and do not recolor a schematic and call it 2050.
+
+What we will not print: figs will vanish by a round year; figs will save the
+desert; a pack map with new fill colors and no citation. Edges move.
+Accounts close. Bricks warm. The proverb about sitting under the tree
+assumes the tree still has a well.
+
+
+## Competitors in the same ditch
+
+A fig orchard that looks Mediterranean on a flyer is, in the San Joaquin,
+a pump and a paper. Almonds, cities, and environmental accounts stand in
+the same queue the valley opened when it decided Smyrna crates were worth
+a ditch. Chile’s cadastre already records retreat in some central regions
+while a few exporters still fly fruit north — a niche leaving, not a belt
+arriving. Aydın’s legal dry month still exists; so do tourism wells and a
+generation that may not want the tray. Estahban’s rainfed boast is a
+winter that has to arrive. GIAHS language does not irrigate.
+
+Northern walls may gain weeks. That kills a romance: the rare fig in a
+cold city becomes ordinary, which is what the tree wanted. Storey’s desk
+and later programs chase nematodes and a Calimyrna that needs less faith.
+Cite papers. Do not name a “climate-ready” cultivar that lives in a press
+release. Do not recolor the pack map and call it 2050. Do not print a
+round-year extinction or a desert-saving fig. Edges move. Accounts close.
+The proverb about sitting under the tree assumes a well.
+
 ## Sources for this piece
 
 - Zohary, Hopf, and Weiss (2012), envelope.

@@ -72,6 +72,81 @@ Hezekiah’s cake remains a poultice. A fiber claim remains a panel. Athletes in
 
 If a later revision wants a table, print three columns — humoral note, Condit yield, USDA serving — and refuse to add a fourth column that pretends they convert.
 
+
+## Three desks that do not convert
+
+Dioscorides and Ibn Sīnā organize fig by effect and by humoral quality — softening, heating, moistening, a different sentence for fresh and dried. Condit’s 1947 tables organize it by water driven off and sugar that stayed, a drying yield that costs a grower. USDA FoodData Central organizes it by a serving and a nutrient list that revises. Print the data-type and the access year on import. A magazine that “updates” the Canon with potassium is doing parlor magic.
+
+Dried figs are dense sweet and fiber. Fresh figs are mostly water and a short clock. That physics is why freight dried and why a wellness brand photographs dew on a split fruit. Hezekiah’s cake (2 Kings 20:7) is a poultice. A fiber claim is a panel. They do not translate. Ancient athletes ate what was there. So did ancient clerks. “Superfood of the ancients” is a cart without a horse.
+
+If a later editor wants a table, print three columns — humoral note, Condit yield, USDA serving — and refuse a fourth that pretends they convert. The medicine articles hold the trunk. This one holds the police.
+
+
+## Three desks that do not convert
+
+Dioscorides and Ibn Sīnā organize fig by effect and by humoral quality —
+softening, heating, moistening, a different sentence for fresh and dried.
+Condit’s 1947 tables organize it by water driven off and sugar that stayed,
+a drying yield that costs a grower. USDA FoodData Central organizes it by a
+serving and a nutrient list that revises. Print the data-type and the access
+year on import. A magazine that “updates” the Canon with potassium is doing
+parlor magic.
+
+Dried figs are dense sweet and fiber. Fresh figs are mostly water and a
+short clock. That physics is why freight dried and why a wellness brand
+photographs dew on a split fruit. Hezekiah’s cake (2 Kings 20:7) is a
+poultice. A fiber claim is a panel. They do not translate. Ancient athletes
+ate what was there. So did ancient clerks. “Superfood of the ancients” is a
+cart without a horse. If a later editor wants a table, print three columns —
+humoral note, Condit yield, USDA serving — and refuse a fourth that pretends
+they convert.
+
+
+## Potassium is not a humor
+
+“Moist in the second degree” does not become a milligram. Dioscorides and
+Ibn Sīnā organize effect. Condit 1947 organizes water driven off and sugar
+that stayed — a grower’s cost. FoodData Central organizes a serving that
+revises; print data-type and access year. A fourth column that pretends
+they convert is parlor magic.
+
+Dried is dense sweet and fiber. Fresh is water and a short clock. That is
+why freight dried and why a wellness brand photographs dew. Hezekiah’s
+cake is a poultice. A panel is a panel. Athletes and clerks ate what was
+there. “Superfood of the ancients” is a cart without a horse. Three
+columns if an editor wants a table. No fourth.
+
+
+## A serving revises; a humor does not
+
+FoodData Central will change a number. Ibn Sīnā will not become
+potassium. Condit’s drying yield will not become a wellness panel.
+Print access year on the modern desk. Dried versus fresh is physics.
+Superfood is a cart. Three columns if you must. The medicine essays
+hold the trunk. This page holds the police.
+
+
+## Fiber is a panel; a cake is a poultice
+
+They do not translate. Condit’s water-off table is a grower’s cost.
+FoodData Central is a serving that revises. Humors are degrees. Print
+three columns if an editor insists. Refuse the fourth. Superfood stays
+a cart.
+
+
+## Access year or do not print the serving
+
+FoodData Central revises. A magazine that cites “USDA” without a
+data-type and year is writing a vibe. Condit’s table is historical
+yield. Humors are not potassium. Three desks. No conversion.
+
+
+## Dried versus fresh is the only physics
+
+Water leaves. Sugar stays. Freight chose dry. Wellness photographs dew.
+That split is older than a panel and younger than no claim at all. Do
+not convert a humor into a milligram.
+
 ## Sources for this piece
 
 - Dioscorides; Ibn Sīnā — humoral/food-medicine.
