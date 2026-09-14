@@ -47,4 +47,4 @@ Do not write a COSMOS job, a ledger event, or a fenced worker to publish these.
 
 ## Suggested first ship (if anyone actually publishes)
 
-01, 05, 09, 11 — API, ChatGPT, evals, law. Those four earn trust. Hold 14 and 18 until the computer-use and 2026-design pieces get a second date pass.
+01, 05, 09, 11 — API, ChatGPT, evals, law. Those four earn trust. Hold 14, 18, 26, and 42 until computer-use, 2026-design, the board week, and AGI-talk pieces get a second date pass. Do not import all 42 in one week.

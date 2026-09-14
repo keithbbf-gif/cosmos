@@ -104,6 +104,39 @@ A 2025 MIT-associated "95% of pilots fail" figure circulated in trade press. **[
 - Wikipedia *Llama (language model)* — useful for a date check, not a source of record.
 - Third-party "GPT-6" rumor posts — ignore. GPT-5's primary source is OpenAI, 7 Aug 2025.
 
+## Expansion set (drafts 19–42)
+
+| ID | Work | Date | URL |
+| --- | --- | --- | --- |
+| RADFORD2019 | OpenAI, *Better Language Models and Their Implications* (GPT-2) | 14 Feb 2019 | https://openai.com/index/better-language-models/ |
+| DEVLIN2018 | Devlin et al., BERT | 11 Oct 2018 | https://arxiv.org/abs/1810.04805 |
+| RAFFEL2020 | Raffel et al., T5 | 23 Oct 2019 | https://arxiv.org/abs/1910.10683 |
+| STIENNON2020 | Stiennon et al., Learning to summarize with human feedback | 2020 | https://arxiv.org/abs/2009.01325 |
+| FEDUS2021 | Fedus, Zoph, Shazeer, Switch Transformers | 11 Jan 2021 | https://arxiv.org/abs/2101.03961 |
+| LORA | Hu et al., LoRA | 17 Jun 2021 | https://arxiv.org/abs/2106.09685 |
+| QLORA | Dettmers et al., QLoRA | 23 May 2023 | https://arxiv.org/abs/2305.14314 |
+| VLLM | Kwon et al., vLLM / PagedAttention | 12 Sep 2023 | https://arxiv.org/abs/2309.06180 |
+| WEI2022 | Wei et al., Chain-of-Thought Prompting | 2022 | https://arxiv.org/abs/2201.11903 |
+| LIU2023 | Liu et al., Lost in the Middle | 2023 | https://arxiv.org/abs/2307.03172 |
+| WILLISON2022 | Willison, Prompt injection | 12 Sep 2022 | https://simonwillison.net/2022/Sep/12/prompt-injection/ |
+| SORA | OpenAI, Sora / video as world simulators | 15 Feb 2024 | https://openai.com/index/video-generation-models-as-world-simulators/ |
+| AF2 | Jumper et al., Highly accurate protein structure prediction with AlphaFold | Nature 2021 | https://www.nature.com/articles/s41586-021-03819-2 |
+| AF3 | Abramson et al., Accurate structure prediction of biomolecular interactions with AlphaFold 3 | Nature 8 May 2024 | https://www.nature.com/articles/s41586-024-07487-w |
+| OAI_BOARD | OpenAI, leadership transition | 17 Nov 2023 | https://openai.com/index/openai-announces-leadership-transition/ |
+| OAI_RETURN | OpenAI, Altman returns, new initial board | 29 Nov 2023 | https://openai.com/index/sam-altman-returns-as-ceo-openai-has-a-new-initial-board/ |
+| CHATGPT_MEM | OpenAI, Memory and new controls | 13 Feb 2024 | https://openai.com/index/memory-and-new-controls-for-chatgpt/ |
+| WWDC2024 | Apple, Introducing Apple Intelligence | 10 Jun 2024 | https://www.apple.com/newsroom/2024/06/introducing-apple-intelligence-for-the-iphone-ipad-and-mac/ |
+| PCC | Apple, Private Cloud Compute | 2024 | https://security.apple.com/blog/private-cloud-compute/ |
+| GEMINI15 | Google, Gemini 1.5 | 15 Feb 2024 | https://blog.google/technology/ai/google-gemini-next-generation-model-february-2024/ |
+| QWEN | Bai et al., Qwen Technical Report | Sep 2023 | https://arxiv.org/abs/2309.16609 |
+| SB1047 | California SB 1047 (vetoed 29 Sep 2024) | 2024 | https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB1047 |
+| CO_AI | Colorado SB24-205 | signed 17 May 2024 | https://leg.colorado.gov/bills/sb24-205 |
+| IEA2025 | IEA, Energy and AI | 2024–25 | https://www.iea.org/reports/energy-and-ai |
+| NVIDIA_H100 | NVIDIA Hopper / H100 announcement | 22 Mar 2022 | https://nvidianews.nvidia.com/news/nvidia-announces-hopper-architecture-the-next-generation-of-accelerated-computing |
+| OAI_CHARTER | OpenAI Charter | living page | https://openai.com/charter/ |
+| LIANG2023 | Liang et al., AI detectors / non-native writers | 2023 | https://arxiv.org/abs/2306.15666 |
+| OAI_INSTRUCT | OpenAI, Aligning language models to follow instructions | 4 Mar 2022 | https://openai.com/index/instruction-following/ |
+
 ## How drafts should cite
 
 Inline: author + year + what the document *is* ("the May 2020 GPT-3 paper", "Article 113 of Regulation (EU) 2024/1689").
