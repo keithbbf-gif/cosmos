@@ -16,7 +16,7 @@ Recount: `python3 content/arts-crafts-mission-furniture-deep/validate_staging.py
 | # | Slug | Body words | Target |
 | ---: | --- | ---: | --- |
 | 1 | `three-names-not-the-same` | 1831 | met |
-| 2 | `what-america-did-with-ruskin` | 1800 | met |
+| 2 | `what-america-did-with-ruskin` | 1897 | met |
 | 3 | `eastlake-american-parlor` | 1951 | met |
 | 4 | `philadelphia-1876` | 1902 | met |
 | 5 | `wilde-on-the-platform` | 1996 | met |
@@ -33,26 +33,26 @@ Recount: `python3 content/arts-crafts-mission-furniture-deep/validate_staging.py
 | 16 | `leopold-and-john-george` | 1924 | met |
 | 17 | `albert-in-grand-rapids` | 1866 | met |
 | 18 | `two-brothers-two-lists` | 1939 | met |
-| 19 | `hubbard-east-aurora` | 2337 | met |
-| 20 | `roycroft-orb-and-cross` | 1890 | met |
+| 19 | `hubbard-east-aurora` | 2336 | met |
+| 20 | `roycroft-orb-and-cross` | 2125 | met |
 | 21 | `dard-hunter-year` | 2075 | met |
 | 22 | `rohlfs-not-mission` | 1851 | met |
 | 23 | `limbert-cutouts` | 1865 | met |
 | 24 | `lifetime-grand-rapids-middle` | 1834 | met |
-| 25 | `onken-shop-of-the-crafters` | 1827 | met |
+| 25 | `onken-shop-of-the-crafters` | 1822 | met |
 | 26 | `byrdcliffe-benches` | 1825 | met |
 | 27 | `rose-valley-gothic-oak` | 1831 | met |
-| 28 | `greenes-before-gamble` | 1944 | met |
-| 29 | `gamble-dining-room` | 1832 | met |
+| 28 | `greenes-before-gamble` | 2342 | met |
+| 29 | `gamble-dining-room` | 2064 | met |
 | 30 | `hall-brothers-ebony` | 1884 | met |
-| 31 | `wright-dining-chair-as-wall` | 1829 | met |
-| 32 | `prairie-is-not-mission` | 1805 | met |
-| 33 | `quartersawn-white-oak` | 1842 | met |
-| 34 | `through-tenon-as-ethics` | 1807 | met |
-| 35 | `ammonia-and-the-brown` | 1812 | met |
-| 36 | `american-morris-chair` | 1802 | met |
-| 37 | `settles-leather-hall` | 1831 | met |
-| 38 | `spindles-against-slats` | 1826 | met |
+| 31 | `wright-dining-chair-as-wall` | 1881 | met |
+| 32 | `prairie-is-not-mission` | 1855 | met |
+| 33 | `quartersawn-white-oak` | 1831 | met |
+| 34 | `through-tenon-as-ethics` | 1839 | met |
+| 35 | `ammonia-and-the-brown` | 1895 | met |
+| 36 | `american-morris-chair` | 1861 | met |
+| 37 | `settles-leather-hall` | 2245 | met |
+| 38 | `spindles-against-slats` | 1860 | met |
 | 39 | `factory-mission-grand-rapids` | 2029 | met |
 | 40 | `mail-order-mission` | 2019 | met |
 | 41 | `why-the-style-died` | 1901 | met |
@@ -82,4 +82,6 @@ body = text after YAML fence, split at first ## Notes or ## Figure plan
 words = \b[\w’'-]+\b
 ```
 
-All forty-four essays are in the 1,800–2,600 body-word band. `status: staged`. A separate editor will QA grammar, spelling, and style.
+All forty-four essays are in the 1,800–2,600 body-word band. `status: staged`. Nothing is cleared to publish. A later editor may still QA grammar and photo rights.
+
+Total body words: 85,495.

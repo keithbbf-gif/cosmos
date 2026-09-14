@@ -10,7 +10,7 @@ period: 1900–1916
 regions: Eastwood, Grand Rapids, American trade
 word_target: 1800-2600
 figures: 5
-meta_description: "A wedged through-tenon on a settle arm is an ethic you can touch. Glue is not the enemy. Sham joinery in Grand Rapids is."
+meta_description: "A wedged through-tenon on a settle arm is a visible ethic you can touch with a fingernail. Glue is not the enemy; sham Grand Rapids joinery is."
 tags:
   - through-tenon
   - mission-furniture
@@ -48,6 +48,8 @@ Some factory Mission shows a real through-tenon, pinned, on a chair that is othe
 
 Albert Stickley’s Stickley Brothers in Grand Rapids sold Quaint furniture and English-looking oak that the city’s system already knew how to machine (chapter 17). Leopold and John George in Fayetteville sold Handcraft with its own marks (chapter 16). Neither factory is “Eastwood B.” Their best through-tenons are real. Their catalogs also had to meet a price. A price will ask a designer which joints stay public.
 
+McHugh’s Popular Shop had already sold a visible peg as part of a New York brand (chapter 6). Dudley’s rails can show construction. They can also hide a screw under a seat. Roycroft’s chairs run a similar range: a keyed tenon you can photograph next to a campus piece whose honesty is mostly a finish and an orb (chapter 20). Mail-order Mission printed the silhouette of a through-tenon because the silhouette sold (chapter 40). Once the joint was a picture, it could travel without the bench.
+
 ## Catalog D and the picture of structure
 
 Catalog D’s settle 210 is 36 inches high, 84 long, 34 deep, fumed oak, a cushion in canvas or leather so large the copy says only one hide in a hundred will cover it. It is the only piece the shop shipped knocked down. The tenons are pinned. The pins are decoration and also pins. That double sentence is the Craftsman habit at its least hypocritical. They liked a structure you could see, and they liked you to like seeing it.
@@ -74,15 +76,9 @@ It cannot make a style. A through-tenon on a Colonial Revival table in 1924 is a
 
 It cannot survive a religion of the unglued joint. Some later crafts talk treats any adhesive as a fall. Medieval furniture used glue. Japanese joinery, which American writers like to cite when they want purity, uses complex shoulders and also paste. The American factory argument was never “no glue.” It was “do not pretend.” A dowel that admits it is a dowel is cleaner than a plug that pretends to be a tenon. A glued through-tenon that you can see is cleaner than an unglued secret if the secret is a staple.
 
+A keyed tenon — a transverse wedge through a slot in the projecting tenon — is the same ethic with a different silhouette. Some early English and some American pieces use the key as a visible lock the sitter can name. Eastwood preferred the pin or the split wedge more often than a proud key, but the family is one family. The name on the joint matters less than whether the rail arrives. The key is a third piece. It can loosen. It can be replaced. It photographs well, which is why later reproductions love it. Photographing well is not a vice. It is a warning. The 1904 shop that left the key proud also left a shadow. A later shop that machines a key flush has kept the silhouette and lost the check. The ethic, if the word is still allowed, lives in the check, not in the silhouette. Grand Rapids could cut the silhouette by 1906. The check was slower. That is why two chairs can look related and still not be the same work.
+
 The residual fact is small enough to keep. On the settle arm, the wedge is a piece of oak standing across another piece of oak. If you can feel the wedge, the shop was willing to let you check the work. If you feel a flat plug that matches the stain too perfectly and meets no rail, the shop — or a later shop — was willing to let you believe. Belief is not a joint. The next essay is the brown that made those tenon-ends look like one wood: ammonia vapor on tannin, the 1904 color, and the refinish that strips the story without touching the wedge.
-
-A keyed tenon — a through-tenon with a wedge driven across the projecting end — is the settle’s loudest version of the same sentence. The key is a third piece. It can loosen. It can be replaced. It photographs well, which is why later reproductions love it. Photographing well is not a vice. It is a warning. The 1904 shop that left the key proud also left a shadow. A 1990s shop that machines a key flush with a router has kept the silhouette and lost the check. The ethic, if the word is still allowed, lives in the check, not in the silhouette. Grand Rapids could cut the silhouette by 1906. The check was slower and more expensive. That is why the two chairs can look related and still not be the same work.
-
-
-A keyed tenon on a settle arm is the loud version of the same check: a third piece driven across the projecting end, proud enough to cast a shadow. Grand Rapids could cut the silhouette by 1906. The shadow cost more. Later reproductions love the silhouette and mill the key flush. The ethic, if the word is still allowed, lives in the check.
-
-
-Pinned early Morris chairs (shop 2342) teach the same correspondence: the rail you sit above is the rail you can see in the post. Correspondence is the ethic. Pride of surface is optional.
 
 ## Notes
 

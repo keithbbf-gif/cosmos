@@ -57,6 +57,9 @@ Primary shop paper and the monographs the essays lean on. Popular price guides a
 - Randell L. Makinson, *Greene & Greene: Furniture and Related Designs* (Salt Lake City: Peregrine Smith, 1979).
 - Edward R. Bosley, *Greene and Greene: The Gamble House* (London: Phaidon / Gamble House literature).
 - Nancy E. Green et al., *Byrdcliffe: An American Arts and Crafts Colony* (Ithaca: Cornell / Herbert F. Johnson Museum, 2004).
+- Chipstone, *American Furniture* 2012, “William Lightfoot Price: His Furniture and Its Context.”
+- M. J. McCracken and W. Michael McCracken, *Oscar Onken and The Shop of the Crafters at Cincinnati* (2017).
+- Christian G. Carron, *Grand Rapids Furniture* (Grand Rapids: Grand Rapids Public Museum, 1998).
 - William Lee Carter / Rose Valley literature; *The Artsman* reprints.
 - David A. Hanks, *The Decorative Designs of Frank Lloyd Wright* (New York: Dutton, 1979).
 - Don Marek and Grand Rapids Public Museum literature on Limbert, Stickley Brothers, Lifetime.

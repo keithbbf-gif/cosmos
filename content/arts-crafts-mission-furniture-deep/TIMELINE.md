@@ -19,6 +19,7 @@ Dated spine for the series. Soft dates stay soft. A year in an essay that disagr
 | 1878 | McHugh, The Popular Shop begins | 01, 06 |
 | 1882 | Wilde’s American lecture tour | 05 |
 | 1883–84 | Stickley brothers, Susquehanna then Binghamton | 08 |
+| 1892 | Kelmscott Press prints *The Nature of Gothic* as a slim book | 02 |
 | 1893 | Stickley–Simonds, Eastwood | 08 |
 | 1894–95 | A. J. Forbes chairs, Swedenborgian Church, San Francisco | 07 |
 | mid-1890s | McHugh Mission line; Dudley | 01, 06 |
@@ -32,14 +33,17 @@ Dated spine for the series. Soft dates stay soft. A year in an essay that disagr
 | 1903–04 | Harvey Ellis at Eastwood; dies January 1904 | 12 |
 | 1904 | Shop of the Crafters, Cincinnati; L. & J.G. / Onondaga Shops about this year | 25, 16 |
 | 1904–09 | Craftsman house plans as a magazine program | 13 |
-| 1906 | Greenes’ Japan trip; “McHugh Mission Style” ads | 28, 06 |
+| 1906 | Greenes’ Japan trip; “McHugh Mission Style” ads; Roycroft furniture catalogs in circulation | 28, 06, 20 |
 | 1908–09 | Gamble House furniture | 29, 30 |
 | 1908–11 | Craftsman Farms log house | 14 |
+| 1911 | Grand Rapids Bookcase & Chair, *Life-Time Furniture: The Cloister Styles* | 24 |
 | 1913 | Manhattan Craftsman Building lease | 15 |
 | 1915 | Stickley bankruptcy, 24 March; Hubbard dies on the *Lusitania* | 15, 19 |
 | 1916 | Last *Craftsman* (December); McHugh dies | 15, 06 |
 | 1917 | Craftsman Farms sold | 14 |
 | 1918 | Brief Stickley brothers reunion notice in *Furniture World* | 18 |
 | 1920s | Colonial Revival displaces factory Mission | 41 |
-| 1970s–80s | Collector market; Cathers; Jordan-Volpe | 42 |
-| 1980s–90s | Craftsman-like reissues | 43 |
+| 1972 | Clark, *The Arts and Crafts Movement in America 1876–1916* (Princeton) | 26, 27, 42 |
+| 1977 | *The Magazine Antiques* American furniture issue: Cathers on Gustav Stickley | 42 |
+| late 1970s–80s | Jordan-Volpe and the wider collector market | 42 |
+| 1989 | L. & J.G. Stickley Mission Oak Collection tag (reissue, not 1904) | 43 |

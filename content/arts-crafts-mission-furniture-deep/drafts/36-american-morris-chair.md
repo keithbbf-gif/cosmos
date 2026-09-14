@@ -10,7 +10,7 @@ period: 1866–1912
 regions: London, Sussex, Eastwood, American trade
 word_target: 1800-2600
 figures: 6
-meta_description: "The American Morris chair is a Stickley shop number, not a Morris drawing. English reclining type, Eastwood oak, comfort against manifesto."
+meta_description: "The American Morris chair is a Stickley shop number, not a Morris drawing. English reclining type, Eastwood oak, and comfort against manifesto."
 tags:
   - morris-chair
   - stickley
@@ -42,11 +42,13 @@ It was not a through-tenon sermon. It was a comfortable chair the firm could sel
 
 Stickley’s 1898 English trip (chapter 9) is often told as a pilgrimage. It was also a shopping trip. He saw shops that had already priced a moral. The Morris adjustable chair was one of the types an American factory could translate into quartersawn white oak without importing bobbin turning or Utrecht velvet. The translation is heavier. The arms become flat boards of radial oak (chapter 33). The posts take through-tenons (chapter 34). The back slats become five horizontals, or, in later spindle versions, a cage. The cushion becomes leather or canvas over rope or springs.
 
-Shop 2342 is the early thick one. Dalton’s and other documented examples give the arm at about 36 inches, shorter than the later 332’s 38. The tenons stand proud. The seat is a rope grid. The red box decal with *Als ik kan* sits under the left arm. Christie’s has catalogued a 2342 at 38 inches high, 31 wide, 36 deep. Those inches are a sitting machine, not a dining wall (chapter 31).
+Shop 2342 is the early thick one. Documented examples give the arm at about 36 inches, shorter than the later 332’s 38. The rope foundation is not a primitive leftover; it is a seat that can be recaned or re-roped without touching the posts. A later spring seat is comfort of another shop. Either foundation still wants the loose cushion. The chair without the cushion is a frame. The manifesto photographers sometimes preferred the frame. Buyers preferred the cushion. The tenons stand proud. The seat is a rope grid. The red box decal with *Als ik kan* sits under the left arm. Christie’s has catalogued a 2342 at 38 inches high, 31 wide, 36 deep. Those inches are a sitting machine, not a dining wall (chapter 31).
 
 Shop 332 is the later flat-arm slat Morris, about 1904 onward, still Eastwood, still adjustable, a little longer in the arm, a little more catalog-regular. Shop 369, about 1905–12, is the drop-arm spindle Morris: sides of spindles instead of slats, arms that slant, a back that still reclines. Shop 367 is a related spindle Morris. Shop 346 appears in later lists. The numbers matter because they are how Eastwood thought. Morris & Co. thought in a firm style and a fabric name. Stickley thought in a shop number you could telegraph.
 
 L. & J.G. Stickley and Stickley Brothers made their own reclining chairs. Grand Rapids made “Morris chairs” by the carload, some with the rod-and-notch grammar, some with a cheap ratchet, some with a back that barely moves. Sears printed the name. Once the type was a type, the English letter in the V&A was nobody’s problem but a curator’s.
+
+American factories were already selling chairs they called Morris chairs in golden oak in the 1890s — carved, sometimes serpentine, a cushion and a hidden ratchet — before Eastwood numbered 2342. That earlier American type is a Victorian easy chair that borrowed a name. The Craftsman version rebuilt the English type in quartersawn oak and made the peg a public joint. Both are American. Only one is this chapter’s object.
 
 ## Comfort against manifesto
 
@@ -62,7 +64,7 @@ Wright put Morris-type armchairs in the Oak Park living room in the 1890s. The W
 
 It refuses bobbin turning, usually. It refuses the ebonized Japanism of the V&A’s black example, usually. It refuses a floral textile as the main event; the oak is the main event, the leather a second. It refuses, in the best Eastwood versions, a hidden ratchet in favor of a peg or a rod you can see — the through-tenon ethic applied to leisure. Cheap copies refuse nothing except expense: they will use a metal mechanism that fails, a stain that outlines the rays (chapter 35), a dowel where a tenon would have shown.
 
-It also refuses, in Stickley’s own copy, the word Mission more often than the market did. Customers called the recliner a Mission Morris. The plant called it a reclining armchair and a shop number. Chapter 1’s vocabulary fight is audible here. A search box in 2026 will still return “Mission Morris chair” and mean a brown oak recliner with slats. The search is honest about the look. It is careless about the invoice.
+It also refuses, in Stickley’s own copy, the word Mission more often than the market did. Customers called the recliner a Mission Morris. The plant called it a reclining armchair and a shop number. Chapter 1’s vocabulary fight is audible here. A later search box will still return “Mission Morris chair” and mean a brown oak recliner with slats. The search is honest about the look. It is careless about the invoice.
 
 Drop arms on the 369 confuse people who have just learned the drop-arm settle (chapter 37). The chair’s arms slant or drop as a posture; the settle’s arms drop as a conversion toward a bed. Different mechanisms, same appetite: the living hall wanted furniture that could change its mind in the afternoon.
 
@@ -74,14 +76,9 @@ L. & J.G. Stickley sold reclining chairs of their own, Handcraft-marked, with a 
 
 Shop 2342 remains the teaching chair: early, thick, pinned tenons, a back that moves on a visible rod or peg. Shop 332 is the later flat-arm most people mean. Shop 369 is the spindle drop-arm that will confuse the settle chapter. Three numbers, one English type, no Morris drawing. Patent histories of ratchets belong elsewhere. This chapter needs the peg you can see, the cushion that hides labor, and the American habit of putting Morris’s beard on an Eastwood invoice.
 
-The residual tension is the cushion. The manifesto can live in a rail. The reason anyone bought shop 2342 is that the back goes back and the body follows. Morris & Co. knew that in 1869. Eastwood knew it in 1902. The American contribution is the oak, the shop number, and a catalog that dared to price leisure in the same moral language as a settle. A history that treats the recliner as a footnote to honest posts has the footnote and the text reversed. The next essay is the other hall piece that people misname as a sofa: the drop-arm settle, leather, tacks, a bench that remembers it is a bench. A chair that cannot lean is a chair that borrowed the name and forgot the type. Colman would have recognized the lean before he recognized the oak.
+Shop 2342 is the early thick post. Shop 332 is the later flat arm. Shop 369 is the spindle drop. Three numbers keep Morris off the American payroll and keep the lean in the chair. Grand Rapids sold the lean without the sermon. Eastwood tried to sell both. The body ranked the angle. The 1970s market ranked the decal.
 
-
-Shop 2342 teaches the early thick post. Shop 332 teaches the later flat arm. Shop 369 teaches the spindle drop. Three numbers are enough to keep Morris off the payroll and the lean in the chair.
-
-<!-- word-floor:v1 -->
-
-Shop 2342 is the early thick post. Shop 332 is the later flat arm. Shop 369 is the spindle drop. Three numbers keep Morris off the American payroll and keep the lean in the chair. Grand Rapids sold the lean without the sermon. Eastwood tried to sell both. The body ranked the angle. The 1970s market ranked the decal. A chair that cannot lean borrowed the famous name and forgot the English type altogether. Colman would have seen the lean first.
+The residual tension is the cushion. The manifesto can live in a rail. The reason anyone bought shop 2342 is that the back goes back and the body follows. Morris & Co. knew that in 1869. Eastwood knew it in 1902. The American contribution is the oak, the shop number, and a catalog that dared to price leisure in the same moral language as a settle. A history that treats the recliner as a footnote to honest posts has the footnote and the text reversed. A chair that cannot lean borrowed the famous name and forgot the English type. Colman would have recognized the lean before he recognized the oak. The next essay is the other hall piece that people misname as a sofa: the drop-arm settle, leather, tacks, a bench that remembers it is a bench.
 
 ## Notes
 

@@ -69,12 +69,7 @@ The shop’s date range in museum lines — 1904 to about 1920 — is shorter th
 
 Shop of the Crafters furniture in a later auction is often cheaper than a Stickley decal and stranger than a Lifetime arch. That strangeness is the shop’s afterlife. The 1980s market that needed a wide Arts and Crafts wall could hang No. 326 next to an Ellis inlay chair and teach a true lesson about colored wood and a false lesson about a single American taste. There was not a single American taste. There was a Cincinnati businessman, a Hungarian designer who had done a world’s fair, a gold label with a lantern, and a catalog willing to say Mission and then decorate it.
 
-Onken lived until 1948. The shop’s furniture life, as museums date it, did not. A 1920 end-date on a museum line is not a bankruptcy headline; it is a factory that stopped issuing the gold label. The cabinet at LACMA is still the object that prevents the Ohio chapter from becoming a footnote to Grand Rapids. Inlay is a choice. So is refusing to name the nameless. The next essay leaves the factory label altogether for a colony on a Catskill shelf, where the benches were few and the factory never quite happened.
-
-No. 326’s Austrian woods are a customs fact as much as a design fact. Colored veneers crossed an ocean to sit on Cincinnati oak. That is not a Craftsman workshop story. It is a Midwestern importer’s story with a lantern on the gold label.
-
-
-Cincinnati’s German furniture trade is the floor under the lantern. Without that floor, Horti is a visiting name and the cabinet is a curiosity.
+Onken lived until 1948. The shop’s furniture life, as museums date it, did not. A 1920 end-date on a museum line is not a bankruptcy headline; it is a factory that stopped issuing the gold label. No. 326’s Austrian woods are a customs fact as much as a design fact: colored veneers crossed an ocean to sit on Cincinnati oak. That is a Midwestern importer’s story with a lantern on the gold label, not a Craftsman workshop story. Cincinnati’s German furniture trade is the floor under the lantern. Without that floor, Horti is a visiting name and the cabinet is a curiosity. The LACMA cabinet is still the object that keeps Ohio from becoming a footnote to Grand Rapids. Inlay is a choice. So is refusing to name the nameless. The next essay leaves the factory label altogether for a colony on a Catskill shelf, where the benches were few and the factory never quite happened.
 
 ## Notes
 

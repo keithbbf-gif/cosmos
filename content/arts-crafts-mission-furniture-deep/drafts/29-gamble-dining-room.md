@@ -10,116 +10,131 @@ period: 1908–1909
 regions: Pasadena, California
 word_target: 1800-2600
 figures: 6
-meta_description: "The Gamble dining table and chairs are mahogany, cloud lifts, and ebony pegs. They are not Mission oak. David and Mary’s winter house still holds them."
+meta_description: "The Gamble House dining table and chairs of 1908–09 are mahogany and teak, with cloud lifts and ebony pegs. The dining room is not Mission oak."
 tags:
   - gamble-house
   - greene-and-greene
   - dining-room
-  - arts-and-crafts
   - pasadena
+  - arts-and-crafts
+  - mahogany
 citations:
-  - "Edward R. Bosley, Greene and Greene: The Gamble House (London: Phaidon)."
+  - "Edward R. Bosley, Greene and Greene: The Gamble House (London: Phaidon / Gamble House literature)."
   - "Randell L. Makinson, Greene & Greene: Furniture and Related Designs (Salt Lake City: Peregrine Smith, 1979)."
-  - "The Gamble House, University of Southern California."
+  - "Edward R. Bosley, Greene & Greene (London: Phaidon, 2000)."
+  - "The Gamble House, USC; Huntington Library, Art Museum, and Botanical Gardens, Greene and Greene collection."
 ---
 
 # The Gamble Dining Room
 
-The table is mahogany and it is still in the room. So are the chairs: Honduras mahogany, ebony, leather or a later upholstered seat, unmarked, cataloged by the University of Southern California’s Greene & Greene digital files as dining-room furniture and nothing else. The table top, in a *Los Angeles Times* walk-through of 1994, is Santo Domingo mahogany and seats fourteen. Other house notes say the dining room is Honduras mahogany and the entry hall is Burma teak. The species fight is a later connoisseur’s fight `[VERIFY: Santo Domingo vs. Honduras on the dining table against a Gamble House / Bosley materials list]`. The visitor’s fight is simpler. Nothing in the room is the quartersawn white oak this series has been calling Mission. The posts do not read as slats. The joints are pegged in ebony, some of the pegs covering screws, many of them sitting in their own little mortises as if they pinned a tenon they do not pin. Cloud lifts — two arcs making a rise in a rail — run on furniture, on window mullions, on the glass in the doors from the hall. David Berry Gamble and Mary Huggins Gamble hired Charles and Henry Greene in May 1907 for a winter house. The house was built in 1908–09 at 4 Westmoreland Place, Pasadena. The dining room is on the west, terrace and garden on three sides. Bosley, who wrote the house book and ran the house, said the room was designed to offer nature to the indoors. The chairs, when they are not at the table, want the walls.
+The dining table in the Gamble House, 4 Westmoreland Place, Pasadena, is Santo Domingo mahogany with ebony. The year on the object notes is 1908. The corners of the top and of the expandable base are lobed — a tsuba outline, the Japanese sword-guard Charles Greene collected, not a Mission chamfer. The base is a problem Henry Mather Greene engineered for leaves. The chairs that belong to the table are mahogany too, with cloud lifts in the rails and square ebony pegs that do not pretend to be Stickley pins. The wood is not quartersawn white oak. The room is not a Craftsman catalog plate. Anyone who files this suite under Mission oak has not sat in it.
 
-This is not a Craftsman interior and not a McHugh suite. It is the American Arts and Crafts room that collectors most often misfile under Mission because the decade is right and the wood is dark. Chapter 1 already said the Gamble dining chairs are not Craftsman. This chapter has to say they are not oak, either, in the way the search box means oak.
+David Berry Gamble and Mary Huggins Gamble commissioned the house as a winter place, 1907–09, while their working life remained in Cincinnati with Procter & Gamble. The architects were Charles Sumner Greene (1868–1957) and Henry Mather Greene (1870–1954). Chapter 28 already refused to start here. Bandini’s courtyard and the Long Beach oak-and-ash pieces come first. This chapter starts on the table because the table is the object a later public uses to stand for the whole mature style, and because the style, at this table, is easiest to misname.
 
-## Cincinnati money, Pasadena winter
+## Who asked for the room
 
-David B. Gamble was a son of James Gamble of Procter & Gamble. The household that commissioned the house was a Cincinnati household that wintered in Pasadena, as other Midwestern money did, for a milder season and for a street that had already begun to show the Greenes’ timber. Mary Gamble’s taste is the one later tour stories keep: a complaint that the new electric light was hard, a Tiffany lamp set on a Honduras mahogany table to soften it, fixtures the Greenes designed to throw light up at the ceiling. The National Historic Landmark file talks about teak, mahogany, quartered oak, cedar, Port Orford cedar; about rectangular pegs covering brass screws; about Louis Comfort Tiffany glass in some of the lanterns, assembled with other glass in a western studio to a method the Greenes specified; about Emil Lange of Los Angeles and the live-oak leaded doors at the entry. Special carpets followed Charles’s drawings. The dining room is one room in that total. It is the room where a furniture series can stop walking and look at a table.
+The Gambles were not looking for a bungalow from a plan book. They were looking for a winter house on the Arroyo, with sleeping porches, a teak hall, and rooms that could take Cincinnati guests without looking like Cincinnati. Mary’s unmarried sister, Julia Huggins, came with the household and stayed in the house until 1943. The family never sold the place. In 1966 it passed to the City of Pasadena in an arrangement that put the University of Southern California’s School of Architecture in the rooms as steward. The house museum a visitor books now — USC and the Conservancy, the address still Westmoreland Place — is the reason the dining chairs can be discussed as furniture in a room rather than as orphans in a gallery.
 
-Cecil Gamble and Louise inherited. Mary’s sister Julia Huggins — Aunt Julia — lived on in the house. The later gift to the City of Pasadena and USC is why a reader can still stand where the chairs stand. Other Greene and Greene houses were stripped. This one, Bosley and every subsequent director have had to say, is the intact one. The Huntington holds drawings, photographs, and furniture from houses that did not stay whole. The two institutions are the paper and the room. Use both. Do not treat an auctioned Blacker chair as a substitute for this table.
+That in-situ fact is not a courtesy. Most Greene and Greene interiors were broken. Blacker’s table went to Detroit. Robinson’s dining furniture went to the Huntington. The Gamble dining room kept its table, its chairs, its built-in sideboard, its china cupboards, and the ceiling fixture Charles designed to hang over the mahogany. The walls are still the walls. A series that has spent many chapters on catalog oak needs one room that was never a catalog.
+
+The den, on the other side of the entry hall, is the control. David Gamble brought a rolltop desk, a Morris chair, and filing cabinets back and forth from Cincinnati. The den was paneled in oak and first furnished in Stickley. A Harvey Ellis cabinet is the piece of that first furniture that remains; friends of the house later filled gaps. So the same clients sat, in the same winter, in a Craftsman den and at a Greene dining table. They knew the slat. They ordered something else for dinner.
+
+## Mahogany, teak, and the wood the room is not
+
+The entry hall is paneled in Burmese teak, hand-rubbed, divided into modular frames, with a stair whose joinery is allowed to show. The dining room, opening off the southwest side of that hall, is a mahogany argument. The table is Santo Domingo mahogany and ebony. Related hall and living-room tables in the house are Honduras mahogany and ebony; the living-room chairs add oak where a seat or a hidden member asked for it. Teak and mahogany share the first floor. Quartersawn white oak does not furnish this dining room. Chapter 33 can take *Quercus alba* as a factory love. It is not this room’s species.
+
+Ebony is punctuation. Square pegs sit in posts and rails. On the table base they appear to cover pins through tenons; many of them are decorative, set in their own little mortises, a rhythm the eye can count. Chapter 30 will take the Hall shop’s X-rays and the difference between a peg that pins and a peg that lies a little. This chapter only needs what a diner sees: dark squares on a modeled brown, not the end grain of a through-tenon on a settle arm. A reader who scolds the room for “fake pegs” has brought Eastwood’s ethics to the wrong table.
+
+Cloud lifts do the other visible work. Two arcs and a plateau raise a rail or a stretcher. On a dining-room built-in the lift can be almost shy. On a living-room rocker in the next room it is bold. The Gamble House’s own furniture note — and Bosley’s Phaidon house book — treat the lift as a form reused and reimagined, not as a stencil. Chinese furniture historians call the chair version a humpback stretcher. The Greenes had already put it on the Robinson dining armchair (chapter 28). Here it belongs to a winter dining room that also thinks in tsuba: lobed pendants in the frieze, re-entrant corners on the light fixture, the table’s own outline. Charles collected sword-guards. Some of them still sit upstairs. The dining room is what happens when that collection is allowed to draw a table.
+
+The ceiling fixture is part of the furniture. Mahogany, ebony, metal, leather, leaded glass, 1908: a canopy and brackets with the same lobed corners, leather straps, a hanging body over the table. It is not a Tiffany leftover Mary packed from Ohio — she did bring a Tiffany reading lamp for the living room — and it is not a Roycroft electrolier. It is a Greene object made to the room, as the chairs were.
 
 ## What the chairs are doing
 
-A Gamble dining chair is a low, wide-seated side chair with a splat that is not a Stickley splat. Ebony pegs march on the stiles. The crest and the stretchers take the cloud lift at a scale smaller than the living-room rocker’s bold rise and larger than a Thorsen cabinet’s tiny one. The Gamble House’s own “Design Without Compromise” note uses those comparisons on purpose: the same motif, reimagined, never cut-and-paste. Popular Woodworking’s later detail essay, written by someone who had walked the house, adds a fact a tourist can test. The outline of the dining-table top itself remembers a *tsuba* — the Japanese sword-guard silhouette — and the same silhouette turns up on chair backs, switch plates, a lamp base. Ebony plugs on the table base look as if they pinned the joinery. Most of them are decorative. A few, on breadboard ends elsewhere in the house, do cover screws. The honesty here is not the Rose Valley honesty of a pin you can pull (chapter 27). It is an architect’s honesty about softness: every arris eased, every peg placed as if the wood had grown a punctuation mark.
+The chairs are not a slat set. High enough to hold a diner, low enough not to become Wright’s wall (chapter 31), they take the cloud lift in the rail and the ebony peg in the post and leave the splat as a Greene problem rather than a Mission one. Living-room side chairs in the same house — Honduras mahogany, ebony, oak, metal, wool, 1908 — share the family. How many dining chairs the Hall shop delivered, and whether any were later adapted from living-room patterns, is a count a house file should settle `[VERIFY chair count and whether any dining chairs repeat a living-room pattern]`. The argument does not wait on the count. These are site chairs. They were designed to stand in this room, against these cupboards, under this fixture. A Grand Rapids Mission suite was designed to stand in any room that had a freight door.
 
-The Hall brothers made the set. Peter Hall’s manufacturing shop, organized to handle the Greenes’ work from 1905, and John Hall’s cabinetmaking are the labor. Swedish-born, trained in the Midwest, working in Pasadena, they are the reason the drawings could ask for what they asked. Chapter 30 will stay in that shop. This chapter only needs the dining room as proof that the shop existed. Without it the Greenes, by their own later admission, could not get the furniture built.
+Peter Hall (1867–1939) was the contractor. John Hall (1864–1940) ran the mill and the cabinet bench. The 9 August 1909 letter Peter sent while Charles was in England — Gamble furniture “almost completed,” Blacker “well underway” — is in the Craftsman file at the Greene and Greene Library, Huntington. Chapter 30 will stay in that shop. This chapter only needs the names on the work. The Greenes drew. The Halls made. The dining room is a collaboration that still has a street address.
 
-How many chairs, whether they stood against the walls between meals as the Blacker set was designed to do — those are questions a house tour answers with a gesture and a monograph should answer with a number `[VERIFY: original complement of Gamble dining chairs and the wall-parking instruction in Bosley or the drawings]`. The USC digital library’s two side-chair records (Honduras mahogany and ebony; one leather, one upholstered) are enough to keep the wood story out of the oak bin. Teak is the hall: a banister visitors are allowed to touch, splined and pegged, a twelve-foot window seat on the landing that lifts for storage. The dining room is the mahogany room. A series that says “mahogany/teak” in one breath is describing the house. A series that says “Mission oak” is describing a different American product.
+Makinson’s *Furniture and Related Designs* (1979) is the older sequence. Bosley’s *Greene & Greene* (2000) and the Gamble House book are the later rooms. Cooke’s 1993 Chipstone essay is the joints. None of those books calls the table Mission oak. The later furniture-store phrase “Greene and Greene style,” applied to a cloud-lift decal on factory mahogany, is a theft this series will not complete. The style was a conversation between a drawing and a bench, one house at a time. The dining chairs are the conversation at dinner.
 
-## Cloud lifts, not through-tenons
+## The room around the table
 
-The structural idea in Syracuse was a through-tenon you could see from the sidewalk side of a settle. The structural idea in Pasadena is a joint you can feel with a thumb, covered or half-covered, in a wood that does not advertise its quarter-sawn fleck. Both ideas used Ruskin’s leftover sentence about honesty. They used it on opposite coasts and in opposite species. Greene and Greene’s dining chairs will fail a Mission checklist: no slat grid, no fumed *Quercus alba*, no shop number in a red decal, no McHugh brand. They will pass an Arts and Crafts checklist if the checklist is about a room designed as one object, a craftsman shop, a reform of the Victorian dining parlor. They will fail if the checklist is a color.
+A built-in sideboard runs the wall a visitor meets first. Above it a rose-patterned leaded screen is lit from a soffit — electricity was in the specification, with the heat and the bathrooms, not added as a later convenience. China cupboards flank the fireplace. The frieze is subdivided by those lobed pendants. Tile surrounds the firebox; the house literature names the surround, and a later replacement tile should not be allowed to become the 1908 fact `[VERIFY the original dining-room fireplace tile against a 1908–09 drawing or a period photograph]`. The butler’s pantry, maple, with sliding upper doors and a linen drawer fitted for a tablecloth roller, is the service sentence the dining room depends on and does not display.
 
-Mary Gamble’s Tiffany lamp on a mahogany table is the period contradiction the house does not bother to resolve. The Greenes designed fixtures; the household also owned Tiffany. The leaded entry oak tree is Lange working to Charles’s cartoon with glass that includes Tiffany sheets. A purist who wants only “honest” local wood is already in the wrong house. Burma teak and Santo Domingo or Honduras mahogany are imperial species in a California winter cottage. The cottage is three stories and a National Historic Landmark. Local redwood is on the living-room carvings and on the shakes outside. Douglas fir is in the rafter tails. The dining room chose the darker imported board. That choice is part of the object.
+The integration is the Greenes’ old claim, already visible at Tichenor and Reeve: house, furniture, lighting, grounds. Here the claim is intact. You cannot photograph the table without the fixture. You cannot photograph the chairs without the cupboards they were meant to stand against. Wright, in the next essays, will make a dining chair into a wall. The Greenes made a dining room into a single piece of millwork that happens to include freestanding chairs. The difference is not a taste war. It is two ways of refusing a catalog.
 
-Bosley’s house book and the Landmark nomination are the prose a reader can check. Makinson’s furniture volume is the plate book. The Gamble House / Huntington partnership — drawings at the library, chairs in the dining room — is the modern custody. A photograph in a magazine is not the room. The room is still the room. That is a rare American Arts and Crafts sentence.
+Ashbee, in 1909, praised walnut and lignum vitae, pegging, a feeling for material “quite up to the best of our English craftsmanship.” He was walking this California work in the year the Gambles could first use the house as a winter house. The praise is English and a little homesick. It is still better than the American habit of calling any brown wooden chair Mission. Mission, in this series, is a trade name and a look (chapter 1). It is McHugh’s brand and a Grand Rapids suite and a Sears page. It is not a Santo Domingo mahogany table with a tsuba corner in a teak hall.
 
-## Why the misfiling persists
+## Huntington, USC, and what left the house
 
-Mission, as chapter 1 defined it for this series, is a trade name and a slatted oak look. The Gamble dining room got pulled into the word because California, bungalow, 1908, and “Arts and Crafts” sat in the same later search. Robert Winter’s bungalow books and the Oakland / Abbeville California catalog were already trying to keep house-style and furniture-style apart. A Pasadena winter house with a courtyard cousin at Bandini (chapter 28) can wear a Craftsman-adjacent roof and still hold chairs that would look wrong in a Lifetime Cloister parlor. The 1970s–80s market hung them on the same wall anyway. The wall was educational. The label was lazy.
+The Huntington Library, Art Museum, and Botanical Gardens holds the Greene and Greene archive and a dining room that is not this one: Laurabelle Robinson’s Honduras mahogany, John Hall named as maker, a host chair and a sideboard a visitor can study when Westmoreland Place is sold out. The Robinson pieces are cousins, not substitutes. They share a shop and a year-cluster. They do not share David and Mary’s table. A responsible caption keeps the addresses apart. Huntington for paper, for Robinson, for the Bandini pergola fragment (chapter 28). Gamble House / USC for the dining room that is still a dining room.
 
-A second misfiling is “Craftsman.” Stickley’s word is a magazine, a mark, and a house-plan brand from Eastwood. The Gambles did not buy Eastwood. They bought a Pasadena practice at the height of its furniture crush, 1906–12, the years Charles would briefly leave for England in 1909 because the crush was a strain. Ashbee’s 1909 compliment — English-level pegging, walnut and lignum vitae in other rooms — is a European reformer recognizing a California shop, not a Syracuse endorsement. If the chairs need a family name, the name is Greene and Greene, or Hall, or Gamble. Not Gustav.
+What left other Greene houses is the warning. Blacker’s table is in Detroit; the lighting canopy is at LACMA. Thorsen’s dining built-ins remain in Berkeley, in a house that is not a public museum on the Gamble model. The Gamble chairs escaped that diaspora because the family stayed and then gave the building as a building. Cecil Gamble and the heirs who signed in 1966 `[VERIFY the exact grantors on the 1966 instrument]` are why a magazine essay can still point at a table and mean a room.
 
-A third misfiling is Japanese. Chapter 28 left that argument on San Pasqual Street and in Morse’s book. The dining room’s cloud lifts and *tsuba* silhouettes are Chinese as much as Japanese in the furniture-history sense — Ming humpback stretchers, sword guards — and they are Pasadena in the shop sense: ebony, eased edges, a table that must take fourteen winter guests. Calling the room “a Japanese interior” is the solvent again. It dissolves the Gambles, the Halls, and the mahogany invoice.
+The collector market of the 1970s and 1980s, which chapter 42 will treat as a market, wanted a Greene and Greene chair the way it wanted a Stickley settle: as a name that could stand in a gallery. A Gamble dining chair that is still in Pasadena frustrates that want and corrects it. The object’s job was never to tour. Its job was to hold a winter dinner under a leather-strapped canopy, in a house that also contained, a few steps away, a Morris chair David had seen no reason to throw out.
 
-## The residual setting
+## The leftover table
 
-When the meal is over, the table is still a column with the lighting above it — Blacker’s dining room made that column explicit; Gamble’s room, on the garden, makes the column a quieter fact. The chairs go back to the perimeter or they stay, depending on the tour and the rope. The teak hall waits on the other side of doors whose glass is already a cloud. A weekday visitor who is asked not to sit is meeting the furniture as architecture, which is how the Greenes drew it. David Gamble died in 1923, Mary in 1929. The house outlasted the style’s commercial death in the 1920s (chapter 41) because it was never a commercial suite. It was one family’s winter furniture, left in place.
+The leftover fact is the species list on one floor. Teak in the hall. Mahogany and ebony at dinner. Oak in the den, some of it Stickley’s. Three woods, three jobs, one winter. The dining table does not become Mission because the decade is right and the pegs are dark. It becomes a Greene and Greene dining table because the Halls could make the lift in the rail and the lobe in the top, and because the Gambles paid for a room that would not be repeated for a catalog.
 
-A reader who came from a Mission search has now stood in a room this series will not surrender to that search. The oak chapters remain. They are not this table. The next essay, if the route holds, goes into the Hall shop and treats a pegged cloud-lift rail as work, not as a decal. The dining room is the reason that rail matters. Without the room, the rail is a motif. With the room, it is a place setting.
+A reader who has come from East Aurora’s orb-and-cross, or from Eastwood’s shop numbers, is entitled to feel the expense. This was never the oak a clerk could mail. It was also never a Spanish colonial survival, never a Craftsman house-plan extra, never a Prairie wall of spindles. It was a Cincinnati household’s California dining room, 1908–09, still in its address, still refusing the word the trade wanted to put on every brown chair. The next essay leaves the table for the shop that cut the peg: Peter and John Hall, and a cloud-lift rail that is not a decal.
 
 ## Notes
 
-- Edward R. Bosley, *Greene and Greene: The Gamble House* (London: Phaidon) and *Greene & Greene* (Phaidon, 2000); dining room as “nature to the indoors”; west-wing terrace; cloud-glass doors from the hall.
-- Randell L. Makinson, *Greene & Greene: Furniture and Related Designs* (Peregrine Smith, 1979); *The Passion and the Legacy* (1998) as cited in DIA Blacker notes.
-- The Gamble House, University of Southern California: house museum; Details and Joinery tours; “Design Without Compromise” (Halls, 1906–12 span, cloud-lift and ebony-peg variations).
-- USC Greene & Greene digital library: dining-room side chairs, Honduras mahogany and ebony, leather or upholstered, unmarked.
-- *Los Angeles Times*, 29 July 1994, “A 1908 Wonder in Wood”: Santo Domingo dining table, seats 14; Honduras mahogany table with Tiffany lamp; teak banister and landing seat.
-- National Historic Landmark / NPS documentation: woods (teak, mahogany, oak, cedar, Port Orford cedar); pegs over screws; Tiffany glass; Emil Lange entry; integrated design.
-- Huntington Library, Art Museum, and Botanical Gardens: Greene & Greene drawings and furniture from other houses; use as the paper complement to the intact dining room.
-- Peter Hall Manufacturing Company, from 1905; John and Peter Hall as makers of the Gamble set.
-- Commission: hired May 1907; built 1908–09; David B. and Mary H. Gamble, Cincinnati / Pasadena winters.
-- Table mahogany species `[VERIFY Bosley / house conservation list]`. Original chair count and wall placement `[VERIFY]`.
+- The Gamble House, 4 Westmoreland Place, Pasadena; David Berry Gamble and Mary Huggins Gamble; winter house, construction 1907–09; dining table dated 1908 in the house object notes (Santo Domingo mahogany, ebony; expandable base).
+- Edward R. Bosley, *Greene and Greene: The Gamble House*; *Greene & Greene* (London: Phaidon, 2000).
+- Randell L. Makinson, *Greene & Greene: Furniture and Related Designs* (Salt Lake City: Peregrine Smith, 1979).
+- USC School of Architecture / City of Pasadena stewardship from 1966; Conservancy as later operating partner. Exact 1966 grantors `[VERIFY]`.
+- Huntington: Greene and Greene Library; Robinson dining host chair 000.121.1 and sideboard 000.122 (Honduras mahogany; John Hall named). Bandini pergola as teaching fragment, chapter 28.
+- Peter Hall to Charles Sumner Greene, 9 August 1909, Gamble House Craftsman file, Huntington: Gamble furniture “almost completed.”
+- Edward S. Cooke, Jr., *American Furniture* 1993, for Hall shop practice; chapter 30.
+- Dining chairs: mahogany, cloud lifts, ebony pegs; count and any living-room-pattern overlap `[VERIFY]`.
+- Den: original Stickley furnishings (Morris chair, rolltop, files); remaining Harvey Ellis cabinet; oak paneling. Use as the in-house control, not as a claim the dining room is Craftsman.
+- Ceiling fixture, 1908: mahogany, ebony, metal, leather, leaded glass. Mary Gamble’s Tiffany lamp is a living-room import, not the dining light.
+- Fireplace tile: do not assume a later maker’s name `[VERIFY against 1908–09 evidence]`.
 - Charles Robert Ashbee, 1909 visit, as quoted in Gamble House furniture essays.
-- Do not call the room Mission oak. Do not call the chairs Craftsman.
+- Do not call the dining suite Mission oak. Mission is a trade name (chapter 1). This room refused it.
 
 ## Figure plan
 
-**Fig. 1.** Dining table and chairs in situ, Gamble House, 1908–09.  
-Suggested file: `29-gamble-dining-room-in-situ.jpg`.  
-The Gamble House, USC. Mahogany, ebony, leather; lighting fixture above.  
-License: Gamble House / Huntington rights; not CC0.  
-Alt: Mahogany dining table and chairs in a paneled room opening to a terrace.  
-Caption: Still the room. Still not oak in the Mission sense.
+**Fig. 1.** Dining table, Gamble House, 1908.  
+Suggested file: `29-gamble-dining-table.jpg`.  
+The Gamble House (USC). Santo Domingo mahogany, ebony; expandable base.  
+License: Gamble House / reserved (see PHOTO_CAPTIONS.md).  
+Alt: Mahogany dining table with lobed corners and an ebony-detailed base.  
+Caption: Tsuba corners, not a Mission chamfer. The wood is not oak.
 
-**Fig. 2.** Dining side chair, Honduras mahogany and ebony.  
-Suggested file: `29-gamble-dining-chair.jpg`.  
-Gamble House; USC digital library. Leather or upholstered seat.  
-License: Gamble House terms.  
-Alt: Side chair with cloud-lift rails and a line of ebony pegs.  
-Caption: Unmarked. The house is the catalog.
+**Fig. 2.** Dining chairs at the table, 1908–09.  
+Suggested file: `29-gamble-dining-chairs.jpg`.  
+The Gamble House. Mahogany, ebony.  
+License: Gamble House / reserved.  
+Alt: Dining chairs with cloud-lift rails and square ebony pegs.  
+Caption: Site chairs for this room. A slat suite was for any freight door.
 
-**Fig. 3.** Dining-table top, *tsuba* silhouette, and ebony plugs at the base.  
-Suggested file: `29-gamble-table-tsuba-pegs.jpg`.  
-Detail in the house. Mahogany, ebony.  
-License: Gamble House terms.  
-Alt: Table-top outline and decorative ebony plugs on the trestle.  
-Caption: Some pegs hide screws. Many only look as if they did.
+**Fig. 3.** Cloud-lift rail and ebony peg, dining chair or table base.  
+Suggested file: `29-gamble-cloud-lift-peg.jpg`.  
+The Gamble House.  
+License: Gamble House / reserved.  
+Alt: Close view of a raised rail and a square ebony peg in mahogany.  
+Caption: The lift is cut in the rail. The peg is a period, not an Eastwood pin.
 
-**Fig. 4.** Doors from the hall, cloud-pattern glass.  
-Suggested file: `29-gamble-dining-doors.jpg`.  
-Gamble House, west dining-room entry. Wood, leaded glass.  
-License: Gamble House terms.  
-Alt: Pair of doors with cloud-lifted leaded glass between teak hall and mahogany room.  
-Caption: Anticipation, Bosley said. Then the table.
+**Fig. 4.** Built-in dining sideboard and rose leaded screen.  
+Suggested file: `29-gamble-sideboard.jpg`.  
+The Gamble House. Mahogany, leaded glass.  
+License: Gamble House / reserved.  
+Alt: Built-in sideboard with a rose-patterned glass screen above.  
+Caption: The table is not a loose suite. The wall was designed with it.
 
-**Fig. 5.** Entry hall, Burma teak stair and landing seat.  
-Suggested file: `29-gamble-teak-hall.jpg`.  
-Gamble House. Teak, mahogany pegs.  
-License: Gamble House terms.  
-Alt: Teak staircase with a long hinged window seat on the landing.  
-Caption: The other wood. Same house, different room, still not Cloister oak.
+**Fig. 5.** Dining-room ceiling fixture, 1908.  
+Suggested file: `29-gamble-dining-fixture.jpg`.  
+The Gamble House. Mahogany, ebony, metal, leather, leaded glass.  
+License: Gamble House / reserved.  
+Alt: Hanging canopy fixture with lobed corners over a dining table.  
+Caption: Leather straps and a tsuba outline. Not a catalog electrolier.
 
-**Fig. 6.** Charles Greene drawing for dining-room furniture or carpet.  
-Suggested file: `29-gamble-huntington-drawing.jpg`.  
-Huntington Library, Greene & Greene collection. Graphite / watercolor.  
-License: Huntington rights.  
-Alt: Working drawing of a chair or a table elevation.  
-Caption: The paper lives in San Marino. The chairs stayed on Westmoreland Place.
+**Fig. 6.** Robinson House dining host chair, for the Huntington comparison.  
+Suggested file: `29-huntington-robinson-host-chair.jpg`.  
+Huntington 000.121.1. Honduras mahogany; John Hall named.  
+License: Huntington reproduction terms.  
+Alt: Mahogany dining armchair from another Pasadena house of the same years.  
+Caption: A cousin at the Huntington. Not David and Mary’s table. Keep the addresses apart.

@@ -38,9 +38,9 @@ This is not a rewrite of “Red House and the Honest Joint.” Morris and Ruskin
 | 22 | Charles Rohlfs and the Desk That Is Not Mission | `rohlfs-not-mission` | 1898–1907 |
 | 23 | Limbert’s Cutouts and the Holland Plant | `limbert-cutouts` | 1902–10 |
 | 24 | Lifetime Furniture and the Grand Rapids Middle | `lifetime-grand-rapids-middle` | 1900s–10s |
-| 25 | Oscar Onken’s Shop of the Crafters | `onken-shop-of-the-crafters` | 1904– |
-| 26 | Byrdcliffe’s Benches | `byrdcliffe-benches` | 1902– |
-| 27 | Rose Valley’s Gothic Oak | `rose-valley-gothic-oak` | 1901– |
+| 25 | Oscar Onken’s Shop of the Crafters | `onken-shop-of-the-crafters` | 1904–20 |
+| 26 | Byrdcliffe’s Benches | `byrdcliffe-benches` | 1902–05 |
+| 27 | Rose Valley’s Gothic Oak | `rose-valley-gothic-oak` | 1901–06 |
 | 28 | The Greenes Before the Gambles | `greenes-before-gamble` | 1890s–1907 |
 | 29 | The Gamble Dining Room | `gamble-dining-room` | 1908–09 |
 | 30 | Hall Brothers, Ebony, Cloud Lift | `hall-brothers-ebony` | 1906–09 |

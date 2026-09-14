@@ -10,7 +10,7 @@ period: 1900–1916
 regions: Midwest oak belt, Eastwood, Grand Rapids
 word_target: 1800-2600
 figures: 5
-meta_description: "Quartersawn white oak, Quercus alba, shows medullary rays as fleck. Factories loved the figure and the stability. Start at the end grain."
+meta_description: "Quartersawn white oak, Quercus alba, shows medullary rays as fleck. Factories loved the figure and the stability. Begin at the arm’s end grain."
 tags:
   - quartersawn-oak
   - white-oak
@@ -70,12 +70,9 @@ It is not a California story. The missions did not invent radial sawing. It is n
 
 It is also not “the only correct wood.” Stickley used willow (Met 2008.572.2), maple, mahogany on occasion, and canvas. Roycroft used what the campus had. Rohlfs used oak and also woods that do not fleck. Limbert’s cutouts often show oak that is quartersawn and oak that is not, on the same piece, because a cutout table has parts that need width more than flake `[VERIFY a specific Limbert example]`. The movement’s moral attached itself to *Q. alba* because the photograph worked. Morals that attach to photographs travel.
 
-A contemporary shop that still quartersaws white oak is not, by that fact, making 1904 furniture. It is making a cut the 1904 factories already knew. Chapter 44 will be allowed to notice that the cut still has towns. Chapters 1–43 are not those towns’ advertisements. The end-grain on the arm is enough. The ray either shows or it does not. The next essay takes the place where the ray is allowed to come all the way through the post: the wedged through-tenon on a settle arm, which a Grand Rapids dowel can imitate only by lying.
+A flatsawn oak board can be honest and still refuse the fleck. Factories paid for the quarter cut because the fleck photographed and sold. The ray is a sawyer’s decision before it is a moral. Stickley did not invent *Quercus alba*. He inherited a mill practice that already knew how to show the medullary ray and a stain shop that already knew how to brown it. The Craftsman caption made the ray look like ethics. The mill made it look like money. Both captions can be true of the same arm. A later refinisher who sands through the fumed face (chapter 35) is sanding through both captions at once.
 
-
-A flatsawn oak board can be honest and still refuse the fleck. Factories paid for the quarter cut because the fleck photographed and sold. The ray is a sawyer’s decision before it is a moral. Stickley did not invent Quercus alba. He inherited a mill practice that already knew how to show the medullary ray and a stain shop that already knew how to brown it. The Craftsman caption made the ray look like ethics. The mill made it look like money. Both captions can be true of the same arm. A later refinisher who sands through the fumed face (chapter 35) is sanding through both captions at once.
-
-Southern white oak and northern white oak entered the same catalogs under one name. The furniture trade was not a botanist. It was a buyer of thickness, length, and figure. Chapter 44 will walk the towns that still cut that figure. This chapter only has to keep the saw path visible: through the radius, not tangent to the rings, so the rays come to the face as flakes. That path wastes more of the log. The waste is why the fleck cost more. The cost is why it became a class mark.
+Southern white oak and northern white oak entered the same catalogs under one name. The furniture trade was not a botanist. It was a buyer of thickness, length, and figure. A contemporary shop that still quartersaws white oak is not, by that fact, making 1904 furniture. It is making a cut the 1904 factories already knew. Chapter 44 will be allowed to notice that the cut still has towns. Chapters 1–43 are not those towns’ advertisements. This chapter only has to keep the saw path visible: through the radius, not tangent to the rings, so the rays come to the face as flakes. That path wastes more of the log. The waste is why the fleck cost more. The cost is why it became a class mark. The end-grain on the arm is enough. The ray either shows or it does not. The next essay takes the place where the ray is allowed to come all the way through the post: the wedged through-tenon on a settle arm, which a Grand Rapids dowel can imitate only by lying.
 
 ## Notes
 

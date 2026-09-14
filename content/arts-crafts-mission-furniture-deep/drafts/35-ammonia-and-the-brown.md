@@ -10,7 +10,7 @@ period: 1901–1916
 regions: Eastwood, American trade
 word_target: 1800-2600
 figures: 5
-meta_description: "Ammonia fuming colored 1904 oak through the ray. Pigment stain sits on the surface. A later refinish can erase the difference."
+meta_description: "Ammonia fuming colored the 1904 white oak brown through the ray itself. Pigment stain sits on the surface. A later refinish can erase that story."
 tags:
   - fumed-oak
   - ammonia-fuming
@@ -46,6 +46,8 @@ Original is a pile of coats. Vapor first — if vapor was used — then, in many
 
 Leather and canvas sit on top of the brown and age on their own clocks. A 1904 chair with replaced leather and intact film on the arms is still, in the wood, a 1904 color problem. A 1904 chair with original tacks and a 1978 “Mission oak” stain on sanded arms is a 1978 color problem that happens to have old tacks. Dealers blur these clocks because a single adjective is easier to price.
 
+The Eastwood plant did not begin as a fuming shop. The factory study that reads the 1901 inventory puts serious vapor work late that year. The January 1902 count is eighteen fumed pieces, all samples (chapter 11). That is a trial, not a medieval inheritance. Early color notes also mention gray-brown, green, and a darker gray — color-effects “largely from wood,” in the plant’s language. The brown of 1904 is what the trial became once the line thickened and the catalogs needed a word.
+
 ## What a stain is doing instead
 
 A pigment stain is particles in a binder. They catch in pores, scratches, and the soft earlywood. They sit on the ray as a thin, often reluctant film. The photograph is dramatic. The board looks “figured” even if the mill did not quartersaw carefully. That is why a factory that wanted the look without the chamber liked stain. It is also why a refinisher in 1960, facing a piece whose film had failed, reached for a can that said oak.
@@ -72,22 +74,17 @@ Greene and Greene mahogany, oiled and modeled in the Hall shop, is another brown
 
 Winterthur’s Stickley papers and the Dallas 2010 object entries are useful here because they sometimes say, in a curator’s short clause, whether a film is believed original. A raking light will do more than a caption. Fumed oak and stained oak can look related in a catalog photograph and disagree when the light rakes: the stain sits on the ray as a thin reluctance; the vapor goes with the tannin. A later oil finish on a stripped chair is a third brown, and it is the commonest brown in the 1980s market. Do not call that third brown original. Do not publish a shop method for making the first. Keep the chamber in the factory, in 1904, and out of any kitchen.
 
-The residual fact is the pair of panels. Left: ray and ground as kin, a cool brown, texture doing the work of outline. Right: ray as lightning, pores as ink. A museum armchair with an intact film will sit on the left even if a later cushion sits on the seat. A handsome “restored” settle on a showroom floor will often sit on the right and still be called original in a voice that has not looked. Collectors who sand to “fresh oak” are sanding off 1904. The next essay leaves color for comfort: the American Morris chair, a shop number that borrowed an English type and then had to decide whether a manifesto could recline. The kitchen is not a finishing room.
-
- The film is the story. The vapor is history. Leave both in the past tense.
-
-<!-- word-floor:v1 -->
-
-A raking light on an unstripped armchair is the only safe comparison. The factory chamber stays in 1904. No household method belongs in this chapter.
+The residual fact is the pair of panels. Left: ray and ground as kin, a cool brown, texture doing the work of outline. Right: ray as lightning, pores as ink. A museum armchair with an intact film will sit on the left even if a later cushion sits on the seat. A handsome “restored” settle on a showroom floor will often sit on the right and still be called original in a voice that has not looked. Collectors who sand to “fresh oak” are sanding off 1904. A raking light on an unstripped armchair is still the only comparison that does not lie for a camera. The film is the story; the vapor is a factory history; both stay in the past tense. Do not publish a household method. The kitchen is not a finishing room. The next essay leaves color for comfort: the American Morris chair, a shop number that borrowed an English type and then had to decide whether a manifesto could recline.
 
 ## Notes
 
 - Gustav Stickley, oak-finishing essay, *The Craftsman* (October 1905); reprinted in *Craftsman Homes* (1909). Cite the essay as evidence that he distinguished fuming from stain, and that he separated household advice from factory practice. Do not excerpt a procedure.
 - David Cathers, *Gustav Stickley* (London: Phaidon, 2003), on early finishes and later production changes.
 - Kevin W. Tucker et al., Dallas / Yale 2010 catalog, object entries that note original film versus later color.
+- January 1902 Eastwood inventory: eighteen fumed samples (Stickley Museum factory study; chapter 11). Do not treat the count as a recipe.
 - Chapter 33 for *Quercus alba*, rays, and why pigment outlines flake.
 - Conservation literature on fumed oak versus dye fade: mark specific papers when checked `[CITE NEEDED]`.
-- Safety for editors: this chapter must remain a comparison. No quantities, no chamber instructions, no “try this at home.”
+- Safety for editors: this chapter must remain a comparison. No quantities, no chamber instructions, no household method.
 
 ## Figure plan
 

@@ -10,7 +10,7 @@ period: 1905–1913
 regions: Pasadena
 word_target: 1800-2600
 figures: 6
-meta_description: "Peter and John Hall’s Pasadena shop made the Greene and Greene cloud-lift rail: ebony pegs, millwork, and a joint that is not a decal."
+meta_description: "Peter and John Hall’s Pasadena shop cut the Greene and Greene cloud-lift rail: ebony pegs, mill-floor practice, and a lift that is never a decal."
 tags:
   - greene-and-greene
   - hall-brothers

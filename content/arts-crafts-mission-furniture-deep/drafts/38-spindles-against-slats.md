@@ -6,18 +6,19 @@ series: American Arts and Crafts / Mission Furniture
 status: staged
 voice_check: human
 lane: bbf-furniture
-period: 1900–1914
-regions: Oak Park, Eastwood, Grand Rapids
+period: 1902–1912
+regions: Eastwood, Oak Park, Chicago
 word_target: 1800-2600
 figures: 5
-meta_description: "A spindle cube lets light through; a slat armchair stops it. Prairie and Mission share oak and refuse to share a back."
+meta_description: "Spindles filter light; slats make a wall of oak. An Eastwood Stickley cube chair and a slat armchair share a catalog and refuse the same job."
 tags:
-  - spindles
-  - slats
-  - prairie
-  - craftsman
+  - spindle-chair
+  - slat-armchair
+  - prairie-school
+  - stickley
   - mission-furniture
 citations:
+  - "Gustav Stickley, spindle cube chair, shop no. 391, c. 1905–09."
   - "Art Institute of Chicago, Frank Lloyd Wright, Spindle Cube Chair, 2007.79."
   - "David Cathers, Gustav Stickley (London: Phaidon, 2003)."
   - "David A. Hanks, The Decorative Designs of Frank Lloyd Wright (New York: Dutton, 1979)."
@@ -25,109 +26,106 @@ citations:
 
 # Spindles Against Slats
 
-Put two chairs in one room. On the left, the Art Institute’s Wright spindle cube, 2007.79: poplar, leather, twenty-nine inches, a cage of thin verticals you can see through. On the right, an Eastwood slat armchair with a shop mark: quartersawn oak, broad flats in the back, a plane that stops the eye. Both are dark. Both are straight. Both will be called Mission in a careless caption. This chapter exists so that caption has to work.
+Stand a Stickley spindle cube, shop number 391, next to a slat armchair from the same Eastwood catalogs. The cube is a cage of thin verticals. Light comes through. The slat chair is a fence of wide oak. Light stops. Both are Craftsman product. Only one of them is trying to be a wall.
 
-Chapter 32 already refused the names. This chapter takes the backs. A spindle is a thin turned or squared stick, repeated, with air between. A slat is a flat board, repeated, with less air. The difference is light. Prairie furniture, when it uses spindles, is trying to keep a room moving. Mission and Craftsman furniture, when they use slats, are trying to make a wall you can price.
+Chapter 32 kept the names apart: Prairie is not Mission. This chapter keeps the light apart. A spindle is a turned or squared stick, repeated, with air between. A slat is a board, repeated, with almost no air. The difference is not a taste war and not a recap of the last naming fight. It is a decision about whether a chair back is a screen or a plane.
 
-## What a slat is for
+## What the 391 is doing
 
-The slat is a plane. It photographs as a stripe. It takes a fumed finish as a field. It hides the sitter’s back from the room and gives the sitter a surface. Stickley’s early armchairs — the heavy ones before Ellis, the inlay ones that still keep a slat grammar — treat the back as a small piece of architecture. You are meant to see oak, not the wallpaper behind the chair.
+Shop 391, about 1905–09, is Gustav Stickley’s cube armchair with spindles on the sides and back: a box you sit in, posts at the corners, a leather seat, quartersawn oak if the mill was spending. Auction records keep the number attached to Eastwood examples from those years. A related 390 is a fixed-back spindle armchair that is not quite a cube. The 391 is the one that photographs as architecture even when it is a catalog chair.
 
-Grand Rapids learned the slat immediately. A matching suite in the *Record* (chapter 39) is a slat argument in four pieces. Mail-order Mission (chapter 40) is a slat argument in a crate. The slat ships well. It machines well. It looks “honest” even when the joint is a dowel. That last fact is why the slat cannot be an ethic by itself. Chapter 34’s through-tenon is an ethic. A slat is a board.
+Cathers places the spindle line after the heavy early slat work and beside the moment when Eastwood was willing to let air into the silhouette. Ellis was already dead (chapter 12). The spindles are not “Ellis inlay without the inlay.” They are a different product decision: less board, more repetition, a chair that weighs less to the eye. Freight weight is another matter; oak is still oak.
 
-Wide slats, few of them, read as Craftsman. Narrow slats, many of them, read as a factory trying to look lighter, or as a Prairie cousin. Count them if you want. Then look at the seat height and the mark. A twelve-slat back on a cheap armchair is not a Wright cube. It is a plant using more saw cuts to look expensive.
+Wright’s cube at the Art Institute (2007.79) is the Prairie cousin, poplar, 1902–06, twenty-nine inches on a side, a studio piece from the Oak Park home and studio. Chapter 32 used it as a naming problem. Here it is a light problem. You can see through it. Brandon K. Ruud’s 2008 museum note mentions Japanese reticulated interiors and Morris ladder-backs as the air in the design. Use those as comparisons with dates, not as a fog. The chair is a grid. A grid leaks. Provenance runs Home and Studio, Taliesin after 1911, Edgar Kaufmann, Jr., Sotheby’s in December 1989, then Chicago in 2007. That is a chair that traveled as an interior, not as a crate to a store.
 
-## What a spindle is for
+Stickley’s 391 leaks less than Wright’s cube because Eastwood’s spindles are often thicker and the oak darker. It still leaks. Set it in front of a window. The window remains a window. Set a five-slat armchair in front of the same window. The window becomes a slit.
 
-The spindle is air. Wright’s cube at the Art Institute is a lesson you can walk around: the chair occupies a volume without occupying a wall. Ruud’s 2008 museum note and Hanks’s 1979 book keep the object in the Oak Park studio, not in a Mission catalog. Poplar, not white oak, is already a refusal of the fleck thesis (chapter 33). Leather is a seat, not a manifesto.
+## What a slat armchair is doing
 
-Spindle cubes and spindle screens in Prairie houses make rooms inside rooms without closing the plan. Light from a ribbon window keeps traveling. A slat armchair in the same plan would park a dark rectangle where the architect wanted a continuation. That is not a taste war. It is a job war. The architect is designing the air. The catalog is designing a product.
+The slat armchair is the Craftsman sentence most people can draw from memory: posts, corbels under the arms, five verticals in the back, leather seat, through-tenons if the year is early enough. Shop numbers move — 324, 818, 353, a V-back 310 — and this chapter will not pretend one number is the type `[VERIFY a single catalog year in which one slat armchair is the plant’s standard]`. The job is stable. The back is a plane of oak broken into strips so the plane can be made and shipped. The strips are wide enough to carry fleck (chapter 33). They are wide enough to stop light.
 
-Stickley used spindles. Shop 369, the drop-arm Morris with spindles (chapter 36), and various tabourets and screens show that Eastwood knew the thinner stick. The magazine even printed rooms with a lighter vertical. Those rooms are not Prairie houses. They are Craftsman houses trying a different back. The spindle does not convert a shop number into a Wright.
+You are meant to see oak, not the wallpaper behind the chair. The slat photographs as a stripe. It takes a fumed finish as a field (chapter 35). It hides the sitter’s back from the room and gives the sitter a surface. Stickley’s early armchairs — the heavy ones before Ellis, the inlay ones that still keep a slat grammar — treat the back as a small piece of architecture you can price.
+
+Wright’s Robie dining chairs use slats as a wall (chapter 31). That is the slat at its most architectural: enclosure around a table. Eastwood’s slat armchair is enclosure around a body, at a lower height, for a living hall that already has walls. The slat is doing parlor-refusal work, not room-within-room work. You sit. You see oak. You do not see the sideboard through the back.
+
+Factory Mission fell in love with the slat because a slat is a machine problem Grand Rapids had already solved: rip, sand, space, glue. A matching suite in *The Furniture Record* (chapter 39) is a slat argument in four pieces. Mail-order Mission (chapter 40) is a slat argument in a crate. The slat ships well. It machines well. It looks “honest” even when the joint is a dowel. That last fact is why the slat cannot be an ethic by itself. Chapter 34’s through-tenon is an ethic. A slat is a board.
+
+A spindle is a second machine problem — a lathe or a very regular rip of thin stock — and a spacing problem. Thin stock breaks. A cheap spindle chair is a rattle. A cheap slat chair is merely heavy. That is one reason the mail-order page prefers slats. Light is expensive if light means more parts.
+
+Wide slats, few of them, read as Craftsman. Narrow slats, many of them, read as a factory trying to look lighter, or as a Prairie cousin that is not one. A twelve-slat back on a cheap armchair is not a Wright cube. It is a plant using more saw cuts to look expensive.
+
+## Light in a Prairie room, light in a catalog room
+
+A Prairie living room is a horizontal of glass, art glass, and continuous space. Furniture that blocks that horizontal has to be asked to. Wright’s dining slats are asked to. His studio cube is asked not to. Elmslie’s spindled chairs for Purcell houses keep the window’s grid going at sitting height. The chair is a piece of the fenestration that got up and walked to the rug. Hanks’s 1979 book is still the place that treats those backs as decorative designs, not as a line.
+
+A Craftsman living hall, in the magazine plates, wants a fire and a settle and a quieter light. Dark slats help. They make a back that photographs as a mass. *The Craftsman* is a monthly of masses: chimney, settle, table. Spindles appear when the plant wants a lighter line — the 369 Morris (chapter 36), the 391 cube, some tables with spindle stretchers. They never displace the slat as the house brand. The brand is a plane.
+
+L. & J.G.’s 1910 “Prairie” cube, wide-armed and solid, often reads as slat or panel more than as spindle. The catalog adjective is about mass, not about air. Fayetteville could print Prairie and still stop the light. That is useful. It proves the word on the cover and the gaps in the back are different decisions.
 
 Limbert’s cutouts (chapter 23) are a third way to let light through a plane: a hole in a slat, not a field of sticks. Do not fold cutouts into spindles. A void in a board is still a board. A spindle field is a grate.
 
-## Two chairs, one collector’s wall
+The Hall shop almost never had this argument (chapter 30). Greene and Greene backs are splats, clouds, modeled mahogany, not a Syracuse grill. When they want air, they use a lift or a cut, not a forest of spindles. Rohlfs, who is not Mission (chapter 22), carved voids that are neither slat nor spindle. If you find yourself sorting every vertical into this chapter’s binary, stop. The binary is a tool for two Eastwood chairs and their Prairie neighbor. It is not a key to the movement.
 
-The 1980s gallery that hung both chairs on one wall was not wrong about oak and a date range. It was wrong if the card under the cube said Mission. Kaplan’s 1987 MFA survey is still the book that lets Prairie furniture stay in the movement without handing it McHugh’s brand. Use it that way. Jordan-Volpe taught a generation to see a family. This series is trying to teach the same generation’s children to see a fight.
+## What the hand learns
 
-A bungalow can hold both. Winter’s California bungalow books already said the house-style and the furniture-style are not one inheritance. A Pasadena living room can have a slat settle and a reproduction spindle chair and still be a bungalow. The room is not a proof. The search box that returns both objects for “Mission chair” is a later machine doing 1906’s retail work: one adjective, many backs.
+Run a hand along a slat back. You get faces: flake, arris, a rhythm of five or seven. Run a hand along a spindle back. You get a grill. Dust lives in the grill. So does a child’s finger. So does a view of the wallpaper. Housekeepers in 1908 had opinions about spindles that do not appear in Irene Sargent’s essays. The opinions appear in later refinish stories: spindles snapped, glued, replaced with dowels that do not match. A slat splits along the ray and can be splined. Different failures.
 
-## Light, photography, and the later preference
+Photographs like slats. A plane reads in a small plate or a later JPEG. Spindles need a better picture or a walk-around. That is one reason Mission won cheap reproduction and Prairie furniture won the architecture monograph. It is not a reason to collapse them. Factory chairs that mix a slat crest with spindle sides are compromise objects. They exist. Grand Rapids was good at compromise. Call them mixed-back Mission if the catalog said Mission. Do not call them Prairie because a few sticks are thin.
 
-Photographs like slats. A plane reads in a small JPEG. Spindles need a better picture or a walk-around. That is one reason Mission won the internet and Prairie furniture won the architecture monograph. It is not a reason to collapse them. A designer who specifies “Mission spindles” on a purchase order has not read this chapter, or has read it and does not care, which is a different problem.
+A bungalow can hold both chairs. Robert Winter’s California bungalow books already said the house-style and the furniture-style are not one inheritance. A Pasadena living room can have a slat settle and a spindle cube and still be a bungalow. The room is not a proof that the backs are one job. Chapter 32 said the names are not synonyms. This chapter only needs the floor.
 
-Factory chairs that mix a slat crest with spindle sides are compromise objects. They exist. Grand Rapids was good at compromise. Call them mixed-back Mission if the catalog said Mission. Do not call them Prairie because a few sticks are thin.
+## Two chairs, one plant
 
-## The leftover air
+The 391 and the slat armchair were sold to the same households, sometimes in the same year, sometimes to the same address. A customer could want a cube by the window and a slat chair by the fire. That household was not confused. The plant was offering two tools. Later taste made them a war: spindles as “more Prairie,” slats as “more Mission,” one side winning in a 1980s gallery. The gallery needed a story. The catalog needed a number.
 
-Stand behind the slat armchair. You see oak. Stand behind the cube. You see the next gallery. That is the whole argument, cheap enough to keep. The next essays leave the backs and walk the plants that could cut either one by the carload: Grand Rapids suites, then the mail-order page that put a slat armchair in a crate and called it a lifestyle before the word existed.
+Do not award a winner. The slat chair is better at being oak. The spindle chair is better at being air. Wright’s dining slats are better at being a wall than either Eastwood chair, because they were designed as a wall. Stickley’s slats are better at being a product than Wright’s cube, because they were designed as a product. The 1980s wall that hung both was not wrong about oak and a date range. It was wrong if the card under the cube said Mission, or if the card under the slat armchair said Prairie.
 
-## How a slat gets cheap
+Stand behind the slat armchair. You see oak. Stand behind the cube. You see the next gallery, or the window, or the wallpaper. On a clear afternoon the 391 throws a striped shadow on the floor. The slat armchair throws a block. You can tell which chair is in the room without looking at the chair, if you look at the floor. Eastwood sold both shadows. Prairie architecture, when it used spindles, wanted the stripe. Mission furniture, when it used slats, wanted the block. A brown photograph in a book will hide the difference. The floor will not.
 
-A slat is a rip and a sand. A spindle, if it is turned, is a lathe and a diameter. If it is square, it is still more handling than a flat. Factories that wanted the Mission look without the air chose slats. Factories that wanted a “lighter Mission” ran narrower slats until the back began to flicker like a grate and still was not a cube. The *Record* is full of that flicker. It is not Prairie. It is a price.
+A tabouret with spindle stretchers, or a screen of spindles sold as a room divider, is the same air in a smaller invoice. Eastwood printed those too. They do not convert the slat armchair into a cube. They show that the plant could sell light by the piece when a customer asked for light.
 
-Eastwood’s heavier slat chairs of 1901–02 are almost architecture: posts that could be table legs, slats that could be door panels. The later, lighter chairs — Ellis-adjacent or just a shop answering competition — keep the slat and lose some mass (chapter 12). The spindle Morris 369 sits in that lighter weather. It is still a product. Wright’s cube is still a studio object that happened to survive into a museum number. Comparing their stick-counts without comparing their invoices is how the 1980s wall got built.
-
-Purcell and Elmslie sawed spindles into clocks and chairs that never went to a Grand Rapids buyer. Milwaukee and Minneapolis hold them. Those pieces are Prairie furniture in the architectural sense and not Mission in the trade sense. A sale title that dumps them into “American Arts and Crafts / Mission” is doing 1982 work. This chapter will not stop an auction house. It will stop a caption in this series.
-
-Photography is not innocent. A slat armchair against a white wall is an easy hero image for a Mission search. A spindle cube needs raking light and a second angle or it looks like a birdcage. SEO will prefer the slat. Magazine voice can prefer the argument. The argument is light. If the back stops the room, you are in a catalog grammar. If the back continues the room, you are in a house grammar. Both grammars used oak. Only one of them needed a through-tenon to finish the sentence.
-
-A mixed-back factory chair — slat crest, spindle sides — is worth a paragraph because it is common and because it tempts a teacher to say “transitional.” Transitional is fog. The plant wanted two looks on one SKU. Call it what the plate called it. Then sit in it. The crest will feel like Mission. The sides will let a draft through. The body will not care what school you name.
-
-## Residual: two jobs
-
-The leftover fact is still cheap. Behind the slat, oak. Behind the cube, the next gallery. A bungalow that owns both is not confused. A label that names both Mission is. Chapter 32 retired the names. This chapter retired the backs. Chapter 39 will show how fast a plant could copy the slat. The spindle was slower to steal, which is one reason it stayed expensive and architectural. Expense is not virtue. Slowness is not virtue. Air is just air, arranged on purpose.
-
-A last walk around the cube: twenty-nine inches of poplar, leather that may have been replaced, a museum number that is not a shop number. A last sit in the slat armchair: quartersawn fleck if the mill paid for it, a back that photographs like a door. Between them is not a spectrum. Between them is a decision about whether a chair should continue a plan or close a picture. Wright’s studio decided one way. Eastwood’s catalog decided the other. Grand Rapids decided to print both looks when it paid. McHugh decided to brand a rail. The backs do not care about the brands. The reader should.
-
-If a purchase order says “Mission spindles,” send the writer back to chapter 1 and to this one. If a gallery card says the same, send the card back. The cube will still let you see the next room. The slat armchair will still show you oak. That is not a taste. It is two jobs that happened to share a decade and a dark finish.
-
-
-Count slats if you must, then look at the invoice. A twelve-slat factory back is not a cube. A spindle tabouret from Eastwood is not Oak Park. Limbert cutouts are holes in a board, not a grate of sticks. Purcell and Elmslie sawed spindles for houses that never went to a Grand Rapids market. Milwaukee and Minneapolis still hold those pieces. Sale titles that dump them into Mission are doing 1982 work. This series will not. The slat ships well and photographs well. The spindle needs a walk-around. Search boxes prefer the slat. A reader who has stood behind both chairs does not need the search box. Oak on the left. The next gallery on the right. Two jobs. One decade. No synonym.
-
-A designer who writes Mission spindles on a purchase order has mixed the trade name with the air. Send the order back to chapter 1. The cube will still let you see the next room. The slat armchair will still show you oak. That is not a mood. It is how the backs were built, and it is why a single adjective cannot do both jobs in the same museum caption or the same search box.
-
-<!-- word-floor:v1 -->
-
-Oak on one side. The next gallery on the other. Two jobs in one decade. A caption that uses one adjective for both backs has already failed the room.
+Factory Mission in Grand Rapids, next, will take the slat and the block-shadow and print them as a suite. That is a different speed. It is not this pair of chairs.
 
 ## Notes
 
-- Art Institute of Chicago 2007.79, Wright, *Spindle Cube Chair*, c. 1902–06, poplar and leather; Brandon K. Ruud, *AIC Museum Studies* 34, no. 1 (2008).
-- David A. Hanks, *The Decorative Designs of Frank Lloyd Wright* (New York: Dutton, 1979).
-- Craftsman slat armchairs and shop 369 spindle Morris: Cathers 2003; dated catalogs.
+- Gustav Stickley, Craftsman Workshops, spindle cube chair, shop no. 391, c. 1905–09; related no. 390 fixed-back spindle armchair.
+- Art Institute of Chicago 2007.79, Frank Lloyd Wright, spindle cube, Oak Park, c. 1902–06, poplar and leather; 29 × 29 × 29 in.; Brandon K. Ruud, “Spindle Cube Chair,” *Art Institute of Chicago Museum Studies* 34, no. 1 (2008).
+- David Cathers, *Gustav Stickley* (London: Phaidon, 2003), on the spindle line after 1904.
+- Slat armchair shop numbers (324, 818, 353, 310) vary by year; cite a dated catalog page when a single standard is claimed `[VERIFY]`.
+- David A. Hanks, *The Decorative Designs of Frank Lloyd Wright* (1979), for Prairie seating as spatial tool.
+- L. & J.G. Stickley 1910 “Prairie” cube: mass more than air `[VERIFY plate]`.
 - Wendy Kaplan, *The Art that is Life* (Boston: MFA, 1987).
 - Robert W. Winter, *The California Bungalow* (Los Angeles: Hennessey & Ingalls, 1980).
+- Do not recap chapter 32’s naming argument except to point at light.
 
 ## Figure plan
 
-**Fig. 1.** Wright spindle cube, AIC 2007.79.  
-Art Institute of Chicago.  
-License: museum terms.  
-Alt: Cubic armchair of thin vertical spindles.  
-Caption: You can see through it. That is the job.
-
-**Fig. 2.** Stickley slat armchair, marked.  
-Met or a documented example.  
-License: Met CC0 if applicable.  
-Alt: Oak armchair with broad slats.  
-Caption: You see oak. That is the other job.
-
-**Fig. 3.** Both chairs in one gallery or a measured comparison plate.  
-Museum installation or a drawn plate.  
+**Fig. 1.** Gustav Stickley spindle cube, shop no. 391, c. 1905–09.  
+Documented Eastwood example.  
 License: confirm.  
-Alt: Spindle cube and slat armchair side by side.  
-Caption: Two backs. One careless word.
+Alt: Cubic oak armchair with a grid of spindles on three sides.  
+Caption: Light comes through. The catalog sold a cage.
 
-**Fig. 4.** Craftsman shop 369 or a spindle tabouret.  
-Catalog plate.  
-License: PD.  
-Alt: Spindle drop-arm or small table.  
-Caption: Eastwood knew the thinner stick. It did not become Oak Park.
+**Fig. 2.** Gustav Stickley slat armchair, oak, about 1905.  
+A shop-marked five-slat chair; avoid Met 2014.633 (chapter 12’s inlay object).  
+License: museum CC0 if available.  
+Alt: Oak armchair with wide vertical slats and a leather seat.  
+Caption: Light stops. The fleck has a billboard.
 
-**Fig. 5.** Grand Rapids mixed-back Mission chair.  
-*Furniture Record* cut.  
-License: PD.  
-Alt: Factory chair with slats and spindles.  
-Caption: Compromise is a plant skill. It is not a school.
+**Fig. 3.** The two chairs photographed together, or their shadows on a floor.  
+A studio comparison; or two catalog cuts on one page if Eastwood ever printed them facing.  
+License: confirm.  
+Alt: Spindle cube and slat armchair side by side, or striped shadow versus block shadow.  
+Caption: Same plant. Two jobs. The floor can tell them apart.
+
+**Fig. 4.** Wright spindle cube, Art Institute of Chicago 2007.79.  
+Poplar and leather, 29 × 29 × 29 in.  
+License: AIC terms.  
+Alt: Open cubic chair of thin spindles.  
+Caption: Prairie air, not a Mission plane. Poplar, not the catalog oak.
+
+**Fig. 5.** Stickley spindle Morris, shop no. 369, side view.  
+Catalog plate, c. 1906.  
+License: public domain.  
+Alt: Reclining chair with spindle sides and an adjustable back.  
+Caption: The plant put air on a recliner too. The slat armchair remained the house brand.

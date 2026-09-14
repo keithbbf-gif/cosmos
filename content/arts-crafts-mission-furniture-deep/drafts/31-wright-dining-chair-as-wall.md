@@ -10,7 +10,7 @@ period: 1895–1910
 regions: Chicago, Oak Park, Springfield
 word_target: 1800-2600
 figures: 6
-meta_description: "Wright’s Robie House dining chairs make a wall around the table. Hanks documented the set. Prairie oak is not Mission furniture."
+meta_description: "Wright’s Robie House dining chairs in Chicago make a wall around the table. Hanks documented the Smart Museum set. This is not Mission furniture."
 tags:
   - frank-lloyd-wright
   - prairie-school
@@ -70,12 +70,11 @@ The slats on the Robie back are closer, visually, to a Stickley slat than a Wrig
 
 The house itself has been emptied and refilled. Furniture was sold; windows were removed; demolition was discussed; the University of Chicago and later the National Trust and the Frank Lloyd Wright Trust kept the shell. Original pieces now live as a split identity: Smart numbers, house loans, a sofa that has been in New York since 1982. Hanks’s page 107 is a photograph of a completeness the house had to borrow back. The wall around the table is therefore partly a museum wall. That does not make the design Mission. It makes the design mortal.
 
-A bungalow in a later suburb can hold a dark slat armchair and a poster of Robie and still be a bungalow. The poster is not a chair. The chair in the dining room on Woodlawn was a wall for one family, at one table, under one set of lamps. The next essay puts that chair’s cousin — a spindle cube — next to a catalog slat armchair and asks the only question that matters once the photographs are put away: whose room is this?
+The table lamps are part of the same wall. Four piers rise from the Robie table and hold art-glass shades; Hanks’s in-situ plate (p. 107) is a room closed by chair backs and light. George Mann Niedecken’s Milwaukee shop executed much of the movable furniture; the chair design remains Wright’s `[VERIFY which Robie seating drawings are Wright’s hand and which are the shop’s in the Trust file]`. A store still cannot stock that enclosure.
 
 Dimensions help when adjectives fail. Hanks and the Smart Museum give the side chair about 52⅜ inches of height on a seat roughly 17 by 19¾. That is a wall a seated person disappears into. A Stickley dining chair of the same years is shorter in the back and willing to be pulled away from the table. Wright’s chair does not want to be pulled away. It wants the table to remain a room. The difference is not taste. It is a job, and the job is architectural rather than retail. A store cannot stock a wall.
 
-
-Woodlawn Avenue is a Chicago street. The dining chair is a wall on that street. A poster of the house is neither.
+A bungalow in a later suburb can hold a dark slat armchair and a poster of Robie and still be a bungalow. The poster is not a chair. The chair in the dining room on Woodlawn was a wall for one family, at one table, under one set of lamps. The next essay puts that chair’s cousin — a spindle cube — next to a catalog slat armchair and asks the only question that matters once the photographs are put away: whose room is this?
 
 ## Notes
 

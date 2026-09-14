@@ -10,7 +10,7 @@ period: 1900–1916
 regions: Chicago, Oak Park, Eastwood, Grand Rapids
 word_target: 1800-2600
 figures: 5
-meta_description: "A Prairie spindle cube and a Mission slat armchair can share a room. Architecture is not a catalog page. The names are not synonyms."
+meta_description: "A Prairie spindle cube and a Mission slat armchair can still share one room. Architecture is not a catalog page. The two names are not synonyms."
 tags:
   - prairie-school
   - mission-furniture
@@ -70,14 +70,13 @@ Call the Art Institute cube a Wright studio chair, Prairie furniture, architectu
 
 The living hall of a Craftsman house plan (chapter 13) and the living-dining continuum of a Prairie house are cousins in plan: partitions come out, a fire is a mass, furniture has to make rooms inside rooms. Cousins in plan are not one style of chair. Stickley’s answer was often a slat settle and a table that could take a meal. Wright’s answer was often a high-back or a spindle screen. The household that owns both is not confused. The caption that names them both Mission is.
 
-Stand in the Art Institute gallery and look through the cube. You can see the next gallery. That is the Prairie sentence: furniture as a continuation of space. Stand in front of a slat armchair and you see oak. That is the Mission and Craftsman sentence: furniture as a plane you can price. The next essay starts on the plane itself — the end grain of a white-oak arm, the medullary ray that factories loved — because once the names are pulled apart, the wood still has to be cut.
-
 A catalog that derives Wright from Mission, or Mission from Wright, has declined to do the work of a date. The Art Institute cube is 2007.79, poplar, twenty-nine inches, a documented Oak Park object. A Grand Rapids Mission suite in the *Record* is a cut with a price. Those two facts can sit in one paragraph without a causal arrow. If a designer in Holland, Michigan, saw a photograph of a Prairie interior, say so when the photograph is found. Until then, two chairs in one room are two jobs, not a lineage.
 
 Purcell and Elmslie, Griffin, Mahony — the Prairie furniture that is not Wright — deserve their own sentences in a longer architectural series. Here they are a warning: even “Prairie furniture” is already a bundle. Do not make the bundle bigger by stuffing McHugh into it. The spindle cube is enough object for one argument. The slat armchair is enough object for the other. The room that holds both is a later collector’s room, or a museum’s. It is not 1906 in a single shop, and it is not a proof that the names were ever the same.
 
+If a museum must hang both chairs on one wall, the label should say two jobs, two woods if it comes to that, and two ways of charging for a room. A Limbert cutout in Holland, Michigan, is a third job again: Grand Rapids system, a void in a board, a “Dutch” caption (chapter 23). It does not make the cube Mission. It does not make the slat armchair Prairie. The wall can hold three captions. It cannot hold one adjective.
 
-If a museum must hang both chairs on one wall, the label should say two jobs, two woods if it comes to that, and two ways of charging for a room.
+Stand in the Art Institute gallery and look through the cube. You can see the next gallery. That is the Prairie sentence: furniture as a continuation of space. Stand in front of a slat armchair and you see oak. That is the Mission and Craftsman sentence: furniture as a plane you can price. The next essay starts on the plane itself — the end grain of a white-oak arm, the medullary ray that factories loved — because once the names are pulled apart, the wood still has to be cut.
 
 ## Notes
 

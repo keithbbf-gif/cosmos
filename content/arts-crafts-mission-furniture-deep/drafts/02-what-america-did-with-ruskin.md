@@ -30,6 +30,8 @@ The sentence Americans liked was not a chair. It was a paragraph from the second
 
 This essay is not a life of Ruskin. The life is English, long, and already written. The American problem is smaller and ruder: which sentences crossed the Atlantic, who printed them, and what a factory in Eastwood or a society in Boston was willing to do with them once the oak was in the kiln.
 
+The paragraph also traveled as a book of its own. Morris’s Kelmscott Press printed *The Nature of Gothic* in 1892, a slim object American reformers could hold as a relic. Cheaper American houses had already been reprinting *The Stones of Venice* for students who would never see St. Mark’s `[VERIFY a specific New York or Boston reprint house and year before naming one on a caption]`. Furniture men did not need the relic. They needed a sentence that would fit a catalog. The relic stayed on the Boston side of the split. The sentence went to Syracuse.
+
 ## Norton, Boston, and a society with minutes
 
 Charles Eliot Norton, at Harvard, is the usual American door. He knew Ruskin, edited him for students, and helped a generation of New Englanders treat Gothic labor as an ethical subject and not only as an architectural style. The Society of Arts and Crafts, Boston, founded in 1897, is the institutional door. Kaplan’s *The Art that is Life* puts the society where it belongs: before Stickley’s magazine, after the Centennial shock, beside a group of people who thought an exhibition and a jury could reform the rooms of a city. Minutes and catalogs from those early years are full of metal, pottery, and printing. Furniture is there. It is not yet a slatted national product.
