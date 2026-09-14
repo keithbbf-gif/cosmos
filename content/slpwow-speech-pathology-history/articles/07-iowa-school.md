@@ -13,6 +13,19 @@ stage: draft
 
 # The Iowa School
 
+<figure class="slpwow-figure slpwow-figure--map">
+  <img
+    src="../assets/clinic-geography-schematic/us-clinic-network-schematic.svg"
+    alt="Schematic map of the continental United States with markers for university clinics, VA hospitals, school services, and community sites. Not geographically precise."
+    width="920"
+    height="420"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Figure 1.</strong> Clinic and training geography (schematic). Iowa City was one university hub among later VA, school, and community sites. Markers are types, not a census. <span class="figure-credit">SLPWOW History series — editorial graphic.</span>
+  </figcaption>
+</figure>
+
 Carl Seashore, dean of Iowa’s graduate college and a psychologist of music and hearing, wanted a scientific attack on speech disorders. He designed a course of study for a young man from a Nebraska sod house, Lee Edward Travis, and pushed him through a B.A. (1922), an M.A. (1923), and a Ph.D. in psychology (1924) in three consecutive years. Iowa’s own departmental history now says Travis was among the first people in the world to take a doctorate grounded in this new work. Wisconsin had already granted Stinchfield a Ph.D. in Speech in 1922. The two claims can both sit on the table: first in a speech department, first as a psychologist built on purpose for the disorders.
 
 Travis stayed. A National Research Council fellowship, then associate professor (1927), professor and director of the speech clinic (1928). For a decade Iowa City was the place you went if you stuttered and wanted a laboratory, or if you wanted a job teaching people who stuttered.

@@ -24,6 +24,8 @@ First psychologist at the National Veterans Aphasia Center, Framingham VA, 1951.
 
 With Fred Quadfasel he showed, in *Brain* (1954), that most left-handed people with aphasia still looked left-hemisphere dominant. The old assumption of right-hemisphere speech for left-handers took a hit. He spent the next decades on naming, category-specific lexical disorders, syntax, agrammatism. Over 130 papers, the obituaries say. Books: *Psycholinguistics and Aphasia* (with Sheila Blumstein), *The Assessment of Aphasia and Related Disorders* (with Edith Kaplan), *Understanding Aphasia*, *Anomia* (with Arthur Wingfield).
 
+The corridor mattered as much as the vita. Geschwind brought nineteenth-century disconnection back into English. Kaplan insisted on the *process* of the error. Helm-Estabrooks later took the same hallway into treatment manuals. Goodglass’s gift was to keep the argument on the page — scored, named, and still attached to a veteran in a chair — instead of letting it float as theory.
+
 ## The kitchen sink
 
 The Boston Diagnostic Aphasia Examination grew on the ward around 1960 and was published in 1972. Second edition 1983. Third, with Kaplan and Barbara Barresi, 2001. The cookie-theft picture is the thing strangers know. The scoring of fluency, repetition, comprehension, and naming is the thing students sweat. Kaplan’s name belongs on every mention. Goodglass did not pretend otherwise.

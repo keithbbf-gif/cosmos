@@ -28,7 +28,9 @@ Mayo’s institutional history puts Josephine Simonson, Darley, and Arnold Arons
 
 With Aronson and the neurologist Joe R. Brown he listened to seven neurologic groups, thirty-plus patients each, thirty-eight speech-and-voice dimensions, three judges, a seven-point scale. Flaccid, spastic, ataxic, hypokinetic, hyperkinetic, mixed. The claim: the ear can localize. Students still memorize the list. Duffy and others later said where the list holds and where it does not. Darley, the memorialists say, liked students who argued.
 
-He also named apraxia of speech as a thing apart (Johns and Darley, 1970) and carried the argument into childhood with Yoss (1974). He wrote on the efficacy of language rehabilitation in aphasia (*JSHD*, 1972) when that question was still being treated as rude.
+He also named apraxia of speech as a thing apart (Johns and Darley, 1970) and carried the argument into childhood with Yoss (1974). He wrote on the efficacy of language rehabilitation in aphasia (*JSHD*, 1972) when that question was still being treated as rude. Other Mayo papers from the same desk took the ear to multiple sclerosis (1972, with Brown and Norman Goldstein) and to Wilson’s disease (1974, with William Berry, Aronson, and Goldstein). The method was portable: if the disease was clean, the speech should cluster.
+
+Arnold Aronson’s later voice work and Joseph Duffy’s later textbook are the afterlife. Darley is the person who made “motor speech” a course title instead of a paragraph under “dysarthria, see also.”
 
 ## The person in the memorials
 

@@ -35,7 +35,7 @@ Two kinds:
 1. **Era / overview essays** — a thread with a beginning, a middle, and a present-tense residue. Not a Wikipedia dump.
 2. **Major-figure profiles** — one person, one life, the work that still sits on clinic shelves. The person is not a mascot for the brand.
 
-Target length: **900–1,400 words**. Cut padding. Keep a concrete ending.
+Target length: **550–1,200 words**. Era essays toward the long end; profiles can be tighter if every sentence earns its keep. Cut padding. Keep a concrete ending.
 
 ## Front matter (required)
 

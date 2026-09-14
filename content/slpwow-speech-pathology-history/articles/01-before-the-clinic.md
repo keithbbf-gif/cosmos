@@ -17,6 +17,19 @@ In 1692, a Swiss physician working in Haarlem published a short Latin book with 
 
 There was not yet a profession. There were pulpits, schoolrooms, and a few consulting rooms over shops. The people who worked on other people’s voices came from three trades that did not speak to one another.
 
+<figure class="slpwow-figure slpwow-figure--timeline">
+  <img
+    src="../assets/elocution-to-modern-slp/timeline-elocution-modern-slp.svg"
+    alt="Schematic timeline from eighteenth-century elocution through speech correction, wartime rehabilitation clinics, ASHA founding in 1925, and contemporary speech-language pathology scope."
+    width="920"
+    height="320"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Figure 1.</strong> From elocution to modern speech-language pathology (schematic). Dates in the bands are teaching anchors; the articles verify them against primary sources. <span class="figure-credit">SLPWOW History series — editorial graphic.</span>
+  </figcaption>
+</figure>
+
 ## The orator’s shop
 
 Elocution was a paying skill. In Edinburgh and London, men named Bell — Alexander Bell, then his son Alexander Melville Bell — sold the speaking voice to law students, clergymen, and anyone who stammered badly enough to pay. Melville Bell’s *Visible Speech* (1867) looks, to a modern clinician, like a phonetic alphabet drawn by an anatomist: hooks and bowls that stand for the lips, the tongue, the glottis. He meant it as a universal alphabet. He also meant it as a method. A stammerer, a foreigner, a deaf child — the same marks on the page were supposed to tell the mouth what to do.

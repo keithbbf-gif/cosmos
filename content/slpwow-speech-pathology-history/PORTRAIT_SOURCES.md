@@ -1,159 +1,116 @@
-# Portrait Sources and Hunt Log
+# Portrait Sources — License Ledger and Hunt Log
 
-Pack date: 14 September 2026. All downloaded files live under `assets/portraits/` unless noted.
+Pack date: 14 September 2026. Only files listed as **cleared** may be used as lead portraits. Never generate a historical face.
 
-**Rule.** If the license is not clearly public domain, CC, museum open access, or an equivalent government open license, the file is **not** in this repo. Hunt rows stay open.
+Filename convention: `assets/portraits/<portrait_id>.<ext>`.
 
-Recommended on-page credit is the short line after each downloaded file. Full legal page: the Commons or collection URL.
+| portrait_id | figure | file | license / terms | source URL | credit line | cleared |
+|-------------|--------|------|-----------------|------------|-------------|---------|
+| alexander-graham-bell | Alexander Graham Bell | `assets/portraits/alexander-graham-bell.jpg` | CC0 1.0 | https://commons.wikimedia.org/wiki/File:Alexander_Graham_Bell_1895_NPG_77_363.jpg | Photograph of Alexander Graham Bell, 1895. Photographer unknown. Smithsonian National Portrait Gallery, NPG 77.363. CC0. | yes |
+| alexander-melville-bell | Alexander Melville Bell | `assets/portraits/alexander-melville-bell.jpg` | Public domain (U.S.) | https://commons.wikimedia.org/wiki/File:Alexander_Melville_Bell,_1819-1905.jpg | Alexander Melville Bell. Photograph by Frances Benjamin Johnston. Library of Congress. Public domain. | yes |
+| paul-broca | Paul Broca | `assets/portraits/paul-broca.jpg` | Public domain | https://commons.wikimedia.org/wiki/File:Paul_Broca.jpg | Paul Broca. Photograph by Pierre Petit. Wellcome Collection / Wikimedia Commons. Public domain. | yes |
+| carl-wernicke | Carl Wernicke | `assets/portraits/carl-wernicke.jpg` | Public domain | https://commons.wikimedia.org/wiki/File:C._Wernicke.jpg | Carl Wernicke. Photographer unknown; published by J. F. Lehmann. NLM Images from the History of Medicine. Public domain. | yes |
+| hermann-gutzmann | Hermann Gutzmann Sr. | `assets/portraits/hermann-gutzmann.jpg` | Public domain | https://commons.wikimedia.org/wiki/File:Hermann_Gutzmann_sen._(1865-1922).JPG | Hermann Gutzmann Sr. (1865–1922). Published by Adolf Eckstein. Wikimedia Commons. Public domain. | yes |
+| edward-wheeler-scripture | Edward Wheeler Scripture | `assets/portraits/edward-wheeler-scripture.jpg` | Licence Ouverte | https://commons.wikimedia.org/wiki/File:Scripture,_Edward_Wheeler_CIPA0438.jpg | Edward Wheeler Scripture. Bibliothèque interuniversitaire de santé, Paris (CIPA0438). Licence Ouverte. | yes |
+| elsie-fogerty | Elsie Fogerty | `assets/portraits/elsie-fogerty.png` | Public domain | https://commons.wikimedia.org/wiki/File:Anne_Elizabeth_Fogerty_(1865%E2%80%931945).png | Elsie Fogerty. *The Sketch*, 21 September 1898. Lafayette studio. Public domain. | yes |
+| aleksandr-luria | Aleksandr R. Luria | `assets/portraits/aleksandr-luria.jpg` | Commons-stated PD (photographer unknown, c. 1940s) | https://commons.wikimedia.org/wiki/File:Alexander_Luria.jpg | Aleksandr R. Luria, c. 1940s. Photographer unknown. Wikimedia Commons (stated public domain; see caution). | caution |
+| charles-michel-de-lepee | Charles-Michel de l’Épée | `assets/portraits/charles-michel-de-lepee.jpg` | Public domain | https://commons.wikimedia.org/wiki/File:Charles-Michel_de_L%27%C3%89p%C3%A9e.jpg | Charles-Michel de l’Épée. Engraving after Claude-André Deseine. Public domain. | yes (essay illustration) |
+| samuel-heinicke | Samuel Heinicke | `assets/portraits/samuel-heinicke.jpg` | Public domain (small) | https://commons.wikimedia.org/wiki/File:Samuel_Heinicke.jpg | Samuel Heinicke. Historical likeness via Wikimedia Commons. Public domain. | yes (not hero) |
+| johann-conrad-amman | Johann Conrad Amman | `assets/portraits/johann-conrad-amman.jpg` | Public domain (tiny) | https://commons.wikimedia.org/wiki/File:Amman_J_C.jpg | Low-res historical reproduction. Not a lead portrait. | no (quality) |
+| van-riper-charles | Charles Van Riper | — | — | ASHA pioneers exhibit; WMU | Pending plate | no |
+| travis-lee-edward | Lee Edward Travis | — | — | ASHA founding exhibit | Pending plate | no |
+| johnson-wendell | Wendell Johnson | — | — | ASHA / Iowa | Pending plate | no |
+
+Until `cleared = yes`, embeds must use the pending plate: *Portrait pending — rights not cleared.*
 
 ---
 
-## Downloaded (redistribution allowed)
+## Downloaded files (detail)
 
 ### Alexander Graham Bell — `alexander-graham-bell.jpg`
 
-- **Commons file:** [File:Alexander Graham Bell 1895 NPG 77 363.jpg](https://commons.wikimedia.org/wiki/File:Alexander_Graham_Bell_1895_NPG_77_363.jpg)
-- **Source collection:** Smithsonian National Portrait Gallery, NPG 77.363
-- **Date:** 1895
-- **Author:** unknown
-- **License:** CC0 1.0
-- **License URL:** https://creativecommons.org/publicdomain/zero/1.0/
-- **Local treatment:** Original Commons upload is a very large scan (4,726 × 7,001). Local file is a 945 × 1,400 JPEG derivative for repo size.
-- **Recommended credit:** Photograph of Alexander Graham Bell, 1895. Photographer unknown. Smithsonian National Portrait Gallery, NPG 77.363. CC0.
+- Commons: [File:Alexander Graham Bell 1895 NPG 77 363.jpg](https://commons.wikimedia.org/wiki/File:Alexander_Graham_Bell_1895_NPG_77_363.jpg)
+- Smithsonian National Portrait Gallery, NPG 77.363, 1895, photographer unknown
+- License: CC0 1.0
+- Local file is a 945 × 1,400 JPEG derived from a 4,726 × 7,001 scan
 
 ### Alexander Melville Bell — `alexander-melville-bell.jpg`
 
-- **Commons file:** [File:Alexander Melville Bell, 1819-1905.jpg](https://commons.wikimedia.org/wiki/File:Alexander_Melville_Bell,_1819-1905.jpg)
-- **Source collection:** Library of Congress, LC-USZ62-119798 / LCCN 2002697461
-- **Author:** Frances Benjamin Johnston (1864–1952)
-- **License:** Public domain (U.S.)
-- **Recommended credit:** Alexander Melville Bell. Photograph by Frances Benjamin Johnston. Library of Congress. Public domain.
+- Commons: [File:Alexander Melville Bell, 1819-1905.jpg](https://commons.wikimedia.org/wiki/File:Alexander_Melville_Bell,_1819-1905.jpg)
+- Frances Benjamin Johnston; Library of Congress LCCN 2002697461
+- License: Public domain (U.S.)
 
 ### Paul Broca — `paul-broca.jpg`
 
-- **Commons file:** [File:Paul Broca.jpg](https://commons.wikimedia.org/wiki/File:Paul_Broca.jpg)
-- **Author:** Pierre Petit (1831–1909)
-- **Credit on Commons:** Wellcome Library
-- **License:** Public domain
-- **Recommended credit:** Paul Broca. Photograph by Pierre Petit. Wellcome Collection / Wikimedia Commons. Public domain.
+- Pierre Petit; Wellcome / Commons. Public domain.
 
 ### Carl Wernicke — `carl-wernicke.jpg`
 
-- **Commons file:** [File:C. Wernicke.jpg](https://commons.wikimedia.org/wiki/File:C._Wernicke.jpg)
-- **Publisher:** J. F. Lehmann, Munich
-- **Credit on Commons:** U.S. National Library of Medicine, Images from the History of Medicine
-- **License:** Public domain (also marked Public Domain Mark 1.0 on Commons)
-- **Recommended credit:** Carl Wernicke. Photographer unknown; published by J. F. Lehmann. NLM Images from the History of Medicine. Public domain.
+- Publisher J. F. Lehmann, Munich; NLM Images from the History of Medicine. Public domain.
 
 ### Hermann Gutzmann Sr. — `hermann-gutzmann.jpg`
 
-- **Commons file:** [File:Hermann Gutzmann sen. (1865-1922).JPG](https://commons.wikimedia.org/wiki/File:Hermann_Gutzmann_sen._(1865-1922).JPG)
-- **Author / publisher:** Adolf Eckstein, publisher (1857–1935), Bamberg
-- **License:** Public domain
-- **Recommended credit:** Hermann Gutzmann Sr. (1865–1922). Published by Adolf Eckstein. Wikimedia Commons. Public domain.
+- Adolf Eckstein publisher (1857–1935). Public domain.
 
 ### Edward Wheeler Scripture — `edward-wheeler-scripture.jpg`
 
-- **Commons file:** [File:Scripture, Edward Wheeler CIPA0438.jpg](https://commons.wikimedia.org/wiki/File:Scripture,_Edward_Wheeler_CIPA0438.jpg)
-- **Collection:** Bibliothèque interuniversitaire de santé (Paris), CIPA0438
-- **License:** Licence Ouverte / Open Licence (Etalab) — allows redistribution with attribution
-- **License URL:** https://www.etalab.gouv.fr/licence-ouverte-open-licence
-- **Recommended credit:** Edward Wheeler Scripture. Bibliothèque interuniversitaire de santé, Paris (CIPA0438). Licence Ouverte.
+- Bibliothèque interuniversitaire de santé, CIPA0438. Licence Ouverte (Etalab).
 
 ### Elsie Fogerty — `elsie-fogerty.png`
 
-- **Commons file:** [File:Anne Elizabeth Fogerty (1865–1945).png](https://commons.wikimedia.org/wiki/File:Anne_Elizabeth_Fogerty_(1865%E2%80%931945).png)
-- **Publication:** *The Sketch*, vol. XXIII, no. 295 (21 September 1898), p. 379
-- **Studio:** Lafayette (no individual photographer credited on the file page)
-- **License:** Public domain
-- **Recommended credit:** Elsie Fogerty. *The Sketch*, 21 September 1898. Lafayette studio. Public domain.
+- *The Sketch*, 21 September 1898, Lafayette studio. Public domain.
 
 ### Aleksandr R. Luria — `aleksandr-luria.jpg`
 
-- **Commons file:** [File:Alexander Luria.jpg](https://commons.wikimedia.org/wiki/File:Alexander_Luria.jpg)
-- **Author:** unknown; Commons description: picture taken around the 1940s
-- **Credit on Commons:** UCSD Luria homepage
-- **License as stated on Commons:** Public domain
-- **Caution:** A 1940s photograph of a man who died in 1977 may still have an unidentified photographer’s copyright in some jurisdictions. The pack follows the Commons file-page claim and flags it. If a rights holder appears, pull the file.
-- **Recommended credit:** Aleksandr R. Luria, c. 1940s. Photographer unknown. Wikimedia Commons (stated public domain; see hunt caution).
+- Commons-stated public domain, unknown photographer, c. 1940s, credit UCSD Luria homepage.
+- **Caution:** a 1940s photograph of a man who died in 1977 may still have an unidentified photographer’s copyright. If a rights holder appears, pull the file.
 
-### Charles-Michel de l’Épée — `charles-michel-de-lepee.jpg`
+### Essay illustrations
 
-- **Commons file:** [File:Charles-Michel de L'Épée.jpg](https://commons.wikimedia.org/wiki/File:Charles-Michel_de_L%27%C3%89p%C3%A9e.jpg)
-- **Authors:** Claude-André Deseine (portrait); James Posselwhite (stipple engraving)
-- **License:** Public domain
-- **Use:** Essay 01 / global essay, not a modern SLP profile.
-- **Recommended credit:** Charles-Michel de l’Épée. Engraving after Claude-André Deseine. Public domain.
-
-### Samuel Heinicke — `samuel-heinicke.jpg`
-
-- **Commons file:** [File:Samuel Heinicke.jpg](https://commons.wikimedia.org/wiki/File:Samuel_Heinicke.jpg)
-- **Credit:** *BI Handlexikon*, vol. 1, VEB Bibliographisches Institut, Leipzig, 1982 (reproduction of an older likeness)
-- **License:** Public domain (as stated on Commons)
-- **Quality:** Small file (184 × 248). Use as a document illustration, not a hero.
-- **Recommended credit:** Samuel Heinicke. Historical likeness via Wikimedia Commons. Public domain. Small reproduction.
-
-### Johann Conrad Amman — `johann-conrad-amman.jpg`
-
-- **Commons file:** [File:Amman J C.jpg](https://commons.wikimedia.org/wiki/File:Amman_J_C.jpg)
-- **Credit on Commons:** reproduction from Judy Duchan’s history site
-- **License:** Public domain (as stated)
-- **Quality:** 113 × 149 px — **not suitable as a lead portrait.** Kept as a source crumb. Prefer a better engraving on the next hunt.
-
-### Visible Speech chart (not a portrait) — `../visible-speech-english-chart.png`
-
-- **Commons file:** [File:VisibleSpeech-Englishchart.png](https://commons.wikimedia.org/wiki/File:VisibleSpeech-Englishchart.png)
-- **Author:** Alexander Graham Bell / Melville Bell tradition; chart from *On the Nature and Use of Visible Speech*
-- **License:** Public domain
-- **Recommended credit:** English Visible Speech chart. Public domain. Wikimedia Commons.
+- Charles-Michel de l’Épée: engraving after Claude-André Deseine. Public domain. Not a modern SLP profile.
+- Samuel Heinicke: small (184 × 248). Document illustration only.
+- Johann Conrad Amman: 113 × 149. Source crumb only.
+- Visible Speech chart: `assets/visible-speech-english-chart.png`. Public domain.
 
 ---
 
-## Open hunts (placeholder in article)
+## Open hunts
 
-Rights not clear for redistribution in this repo. Viewable sources are listed so a later editor can write a permission letter.
+| Person | Viewable lead | Next ask |
+|--------|---------------|----------|
+| Emil Fröschels | No Commons file, 2026-09-14 | Wien Geschichte Wiki; IALP; Mount Sinai |
+| Smiley Blanton | UT Knoxville Blanton Papers | University of Tennessee Special Collections |
+| Sara Stinchfield Hawk | ASHA Archives 1939 president photo; UB family photos | ASHA (written grant); UW–Madison |
+| Robert West | ASHA founding exhibit | ASHA; UW–Madison |
+| Lee Edward Travis | ASHA founding exhibit | ASHA; Iowa; Fuller Seminary |
+| Wendell Johnson | ASHA / Iowa | Iowa; ASHA |
+| Charles Van Riper | ASHA pioneers; WMU | Western Michigan University Archives |
+| H. Harlan Bloomer | No Commons file | Michigan Bentley Library |
+| Jon Eisenson | *ASHA Leader* 2001 | Stanford Medical History Center |
+| Eugene T. McDonald | No Commons file | Penn State Archives |
+| Hildred Schuell | VA / Tesak & Code | Minnesota; VA |
+| Mildred C. Templin | SRCD / ICD | University of Minnesota Archives |
+| Frederic L. Darley | Mayo / *Aphasiology* 2001 | Mayo Clinic Archives |
+| Harold Goodglass | BU obituaries | Boston University; VA Boston |
+| Muriel E. Morley | RCSLT / ODNB (paywalled image) | RCSLT; Newcastle |
+| Margaret Greene | RCSLT | RCSLT |
+| Robert H. Brookshire | Plural author page | Minnesota; Minneapolis VA; ANCDS |
+| Grant Fairbanks | Illinois AHS | University of Illinois Archives |
+| Edith Kaplan | Boston process photos | Boston VA / BU |
 
-| Person | Viewable lead | Why not downloaded | Next ask |
-|--------|---------------|--------------------|----------|
-| Emil Fröschels | No Commons portrait found, 2026-09-14 | — | Wien Geschichte Wiki; Mount Sinai / New York Society for Speech and Voice Therapy; IALP |
-| Smiley Blanton | UT Knoxville Blanton Papers | Archival photos, rights not granted here | University of Tennessee Special Collections |
-| Sara Stinchfield Hawk | ASHA Archives, president photo, dated 1939 (items/show/9); family photos on Duchan/UB site | ASHA omeka ≠ redistribution license; UB family photos are published, not cleared for this repo | ASHA Archives; UW–Madison CSD |
-| Robert West | ASHA founding exhibit | Same | ASHA; UW–Madison |
-| Lee Edward Travis | ASHA founding exhibit | Same | ASHA; University of Iowa; Fuller Seminary archives |
-| Wendell Johnson | ASHA pioneers exhibit; Iowa portraits | Same | University of Iowa; ASHA |
-| Charles Van Riper | ASHA pioneers exhibit; WMU / Kuster pages | Mid-century photos almost certainly in copyright | Western Michigan University Archives; ASHA |
-| H. Harlan Bloomer | Michigan publications; no Commons file | — | University of Michigan Bentley Historical Library |
-| Jon Eisenson | Stanford / *ASHA Leader* 2001 obituary may hold a photo | Press photo | Stanford Medical History Center; ASHA Leader |
-| Eugene T. McDonald | No Commons file | — | Penn State University Archives |
-| Hildred Schuell | Minneapolis VA / Tesak & Code reproductions | — | University of Minnesota; VA |
-| Mildred C. Templin | SRCD / Minnesota Institute of Child Development | — | University of Minnesota Archives; K-State Templin Archive (research photos, not necessarily a portrait grant) |
-| Frederic L. Darley | Mayo / *Aphasiology* 2001 memorial | — | Mayo Clinic Archives |
-| Harold Goodglass | BU obituaries; Aphasia Research Center pages | — | Boston University; VA Boston |
-| Muriel E. Morley | RCSLT / ODNB (ODNB image paywalled) | — | RCSLT; Newcastle University |
-| Margaret Greene | RCSLT fellowship era | Essay 11; no file | RCSLT |
-| Robert H. Brookshire | Plural author page (no reusable still) | — | University of Minnesota; Minneapolis VA; ANCDS |
-| Grant Fairbanks | Illinois AHS remembrance | Essay 15 | University of Illinois Archives |
-| Edith Kaplan | Boston process photographs | Essay 13 | Boston VA / BU |
-
-### ASHA Archives note
-
-The 1939 Stinchfield Hawk photograph and other president portraits are the obvious leads. They are **published on ashaarchives.omeka.net**. Publication on an exhibit site is not a CC grant. Do not scrape them into `assets/portraits/` until ASHA says yes in writing.
-
----
+ASHA omeka publication is **not** a redistribution license. Do not scrape president photographs until ASHA says yes in writing.
 
 ## Refused
 
-- Any model-generated “historical portrait.”
-- Cropping a group photo of a living descendant and labeling it as the historical figure.
-- Downloading Getty / Alamy thumbs (Gutzmann appears on Alamy; the Commons Adolf Eckstein file is the one used).
+- AI-generated “historical portraits”
+- Family snapshots treated as cleared
+- Getty / Alamy thumbs (Gutzmann appears on Alamy; the Commons Eckstein file is the one used)
 
----
+## Importer cheat-sheet
 
-## License cheat-sheet for the importer
-
-| License in this pack | Attribution required? | Commercial WP use? |
-|----------------------|----------------------|--------------------|
-| Public domain / CC0 | Credit is still good practice | Yes |
-| Licence Ouverte (Scripture) | Yes | Yes, with attribution |
+| License in this pack | Attribution | Commercial WP use |
+|----------------------|-------------|-------------------|
+| Public domain / CC0 | Credit still good practice | Yes |
+| Licence Ouverte (Scripture) | Required | Yes, with attribution |
 | Commons-stated PD, photographer unknown (Luria) | Credit + caution | Editor’s risk call |
-| ASHA omeka (not downloaded) | N/A until permission | No |
+| ASHA omeka (not downloaded) | N/A | No until permission |

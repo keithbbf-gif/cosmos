@@ -15,6 +15,19 @@ stage: draft
 
 Charles Van Riper’s *Speech Correction: Principles and Methods* landed in 1939. The title is a period photograph. A person has a defect. A trained worker corrects it. The book went through ten editions and outlived the word on its spine. By the last ones, Robert Erickson was helping keep Van Riper’s sentences while the profession around them changed clothes.
 
+<figure class="slpwow-figure slpwow-figure--chart">
+  <img
+    src="../assets/method-schools-compared/method-schools-chart.svg"
+    alt="Comparison chart of historical method schools including motor articulatory, fluency, auditory oralism legacy, and neurologic medical orientations."
+    width="900"
+    height="360"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Figure 1.</strong> Selected method schools compared (teaching schematic). Rows are textbook groupings, not cages. Swallowing as an SLP staple is later than the 1939 title. <span class="figure-credit">SLPWOW History series — editorial graphic.</span>
+  </figcaption>
+</figure>
+
 The clothes had new labels. Speech pathology. Speech and hearing science. Communication disorders. Communication sciences and disorders. Each label is a small act of embarrassment about the last one.
 
 ## Science as a lab, not a slogan

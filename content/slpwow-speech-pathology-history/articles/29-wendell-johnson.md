@@ -14,7 +14,18 @@ stage: draft
 
 # Wendell Johnson
 
-> **Portrait placeholder.** ASHA and the University of Iowa hold photographs. Rights not cleared for this repo. See `PORTRAIT_SOURCES.md`. Do not invent or generate a substitute likeness.
+<figure class="slpwow-figure slpwow-figure--portrait slpwow-figure--portrait-pending">
+  <img
+    src="../assets/wendell-johnson/portrait-plate-pending.svg"
+    alt="Portrait pending — rights not cleared for Wendell Johnson."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Wendell Johnson</strong> (1906–1965). <em>Portrait pending — rights not cleared.</em> See `PORTRAIT_SOURCES.md`. Do not generate a substitute likeness.
+  </figcaption>
+</figure>
 
 Wendell Johnson arrived in Iowa City in 1926, twenty years old, valedictorian from Roxbury, Kansas, a stutter so severe the *Times Magazine* later called it grotesque. He had come to study English. He left a psychologist and speech pathologist, and he never really left. He died in Iowa City on 29 August 1965, fifty-nine, after a heart attack in 1955 had already taken most of his titles.
 

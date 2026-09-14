@@ -26,6 +26,8 @@ He was born 15 May 1848 in Tarnowitz, Upper Silesia. He studied medicine in Bres
 
 The drawing is the most successful diagram in the field’s prehistory. It is also a bet: that language is a set of centers plus the wires between them. Hughlings Jackson and Goldstein spent careers saying the bet was too simple. Geschwind, in Boston, spent a career saying the wires were due for a revival. Both arguments need Wernicke’s pamphlet.
 
+Wernicke did not work from a single celebrity patient the way Broca’s “Tan” story travels. He worked from a *complex* — a pattern of symptoms that should travel together if the anatomy was right. That is why later test batteries feel like his grandchildren: they still ask whether fluency, comprehension, and repetition fall as a set. When they do not, the diagram has failed in a useful way.
+
 ## The rest of the career
 
 He held posts in Berlin and then a chair in psychiatry at Breslau, later Halle. He wrote a textbook of psychiatry, described other neurologic syndromes (the encephalopathy that still carries his name is a different, later story, tied to thiamine), and trained a generation of German psychiatrists. He was not running a speech clinic. He was running a university service in which aphasia was one chapter.

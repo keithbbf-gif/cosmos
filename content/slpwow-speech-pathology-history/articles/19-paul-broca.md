@@ -26,6 +26,8 @@ He was born 28 June 1824 at Sainte-Foy-la-Grande. He trained in Paris, became a 
 
 He had predecessors. Gall, Bouillaud, Auburtin. Broca had the specimen and the society. Medicine rewards the person who brings the brain to the meeting.
 
+Leborgne had been at Bicêtre for years with a right hemiplegia and almost no speech. Broca’s second famous case, Lazare Lelong, was an elderly man who could say a handful of words. The two autopsies, read together, let Broca argue that the third frontal convolution was not a curiosity. Later writers have gone back to the specimens — still preserved — and argued about the exact extent of the damage. The 1861 paper remains the public event. The jars remain the private argument.
+
 ## The other laboratory
 
 The same career includes the Société d’Anthropologie de Paris (he founded it in 1859), a flood of cranial measurements, and racial rankings that later science discarded and later ethics condemned. The man who gave the field a frontal convolution also gave the nineteenth century a scientific vocabulary for hierarchy. A profile that prints only the convolution is doing public relations for a lecture slide.

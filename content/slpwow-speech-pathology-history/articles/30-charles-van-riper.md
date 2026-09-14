@@ -14,7 +14,18 @@ stage: draft
 
 # Charles Van Riper
 
-> **Portrait placeholder.** ASHA’s pioneers exhibit and Western Michigan University hold photographs. Mid-century portraits are almost certainly in copyright. See `PORTRAIT_SOURCES.md`. Do not invent or generate a substitute likeness.
+<figure class="slpwow-figure slpwow-figure--portrait slpwow-figure--portrait-pending">
+  <img
+    src="../assets/charles-van-riper/portrait-plate-pending.svg"
+    alt="Portrait pending — rights not cleared for Charles Van Riper."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Charles Van Riper</strong> (1905–1994). <em>Portrait pending — rights not cleared.</em> ASHA and Western Michigan hold photographs; mid-century stills are almost certainly in copyright. See `PORTRAIT_SOURCES.md`. Do not generate a substitute likeness.
+  </figcaption>
+</figure>
 
 Charles Gage Van Riper was born 1 December 1905 in Champion, Michigan, on the Upper Peninsula, son of the town physician. He began to stutter at two. He died at home in Kalamazoo on 25 September 1994. (A few directories print the 26th. Memorials written by people who knew him use the 25th.) He wrote under his own name and, as Cully Gage, wrote about the U.P. The speech books are the reason he is here. The U.P. books are the reason the speech books have a voice.
 

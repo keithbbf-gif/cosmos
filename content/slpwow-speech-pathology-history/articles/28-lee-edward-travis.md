@@ -14,7 +14,18 @@ stage: draft
 
 # Lee Edward Travis
 
-> **Portrait placeholder.** ASHA Archives hold a founding biography with photographs. Rights not cleared here. See `PORTRAIT_SOURCES.md`. Do not invent or generate a substitute likeness.
+<figure class="slpwow-figure slpwow-figure--portrait slpwow-figure--portrait-pending">
+  <img
+    src="../assets/lee-edward-travis/portrait-plate-pending.svg"
+    alt="Portrait pending — rights not cleared for Lee Edward Travis."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Lee Edward Travis</strong> (1896–1987). <em>Portrait pending — rights not cleared.</em> See `PORTRAIT_SOURCES.md`. Do not generate a substitute likeness.
+  </figcaption>
+</figure>
 
 Lee Edward Travis was born in 1896 in Imperial, Nebraska, one of twelve children in a sod house, parents teaching at a local academy. All twelve went to college. He died 10 October 1987. ASHA’s founding exhibit quotes a tribute that is almost embarrassing in its size: seldom had one man carried so much of a field. For once the velvet is close to the enrollment lists.
 

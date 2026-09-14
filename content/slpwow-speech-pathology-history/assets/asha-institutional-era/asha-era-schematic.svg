@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 400" role="img" aria-labelledby="title desc">
+  <title id="title">ASHA-era institutional schematic</title>
+  <desc id="desc">Diagram of relationships among professional association, university training programs, clinical sites, and certification pathways in mid-twentieth-century speech-language pathology.</desc>
+  <defs>
+    <style>
+      .bg { fill: #FAF9F7; }
+      .box { fill: #FFFFFF; stroke: #CBD5E1; stroke-width: 1.5; }
+      .box-core { fill: #CCFBF1; stroke: #0F766E; stroke-width: 2; }
+      .title { font-family: Georgia, serif; font-size: 16px; font-weight: 600; fill: #1E293B; }
+      .h { font-family: system-ui, sans-serif; font-size: 13px; font-weight: 600; fill: #1E293B; }
+      .p { font-family: system-ui, sans-serif; font-size: 11px; fill: #64748B; }
+      .arrow { stroke: #64748B; stroke-width: 1.5; fill: none; marker-end: url(#m); }
+    </style>
+    <marker id="m" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#64748B"/>
+    </marker>
+  </defs>
+  <rect class="bg" width="880" height="400"/>
+  <text x="40" y="36" class="title">Institutional ecosystem (ASHA era, schematic)</text>
+  <text x="40" y="56" class="p">How training, practice sites, and governance interlocked  -  simplified for overview articles.</text>
+
+  <rect class="box-core" x="320" y="88" width="240" height="88" rx="6"/>
+  <text x="340" y="118" class="h">ASHA</text>
+  <text x="340" y="138" class="p">Standards, ethics, membership</text>
+  <text x="340" y="154" class="p">Certification &amp; scope guidance</text>
+
+  <rect class="box" x="80" y="220" width="200" height="100" rx="6"/>
+  <text x="100" y="250" class="h">Universities</text>
+  <text x="100" y="270" class="p">MA/MS programs</text>
+  <text x="100" y="286" class="p">Clinic practicum</text>
+
+  <rect class="box" x="340" y="220" width="200" height="100" rx="6"/>
+  <text x="360" y="250" class="h">Clinical sites</text>
+  <text x="360" y="270" class="p">Schools, hospitals, VA</text>
+  <text x="360" y="286" class="p">Private practice</text>
+
+  <rect class="box" x="600" y="220" width="200" height="100" rx="6"/>
+  <text x="620" y="250" class="h">Public programs</text>
+  <text x="620" y="270" class="p">IDEA / education law</text>
+  <text x="620" y="286" class="p">Community services</text>
+
+  <rect class="box" x="340" y="340" width="200" height="44" rx="6"/>
+  <text x="360" y="368" class="h">Practitioner</text>
+
+  <path class="arrow" d="M440 176 L440 220"/>
+  <path class="arrow" d="M180 220 L380 176"/>
+  <path class="arrow" d="M440 220 L440 176"/>
+  <path class="arrow" d="M700 220 L500 176"/>
+  <path class="arrow" d="M180 320 L400 340"/>
+  <path class="arrow" d="M440 320 L440 340"/>
+  <path class="arrow" d="M700 320 L480 340"/>
+
+  <text x="40" y="392" class="p">Figure: SLPWOW History series  -  not an official ASHA diagram.</text>
+</svg>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" role="img" aria-labelledby="title desc">
+  <title id="title">Comparison of historical method schools in speech correction</title>
+  <desc id="desc">Table-style chart comparing orientations, primary goals, typical settings, and hallmark techniques for selected historical schools of speech therapy.</desc>
+  <defs>
+    <style>
+      .bg { fill: #FAF9F7; }
+      .head { fill: #0F766E; }
+      .row-a { fill: #FFFFFF; }
+      .row-b { fill: #F8FAFC; }
+      .cell { stroke: #CBD5E1; stroke-width: 1; fill: none; }
+      .title { font-family: Georgia, serif; font-size: 16px; font-weight: 600; fill: #1E293B; }
+      .th { font-family: system-ui, sans-serif; font-size: 11px; font-weight: 600; fill: #FFFFFF; }
+      .td { font-family: system-ui, sans-serif; font-size: 11px; fill: #1E293B; }
+      .sub { font-family: system-ui, sans-serif; font-size: 10px; fill: #64748B; }
+    </style>
+  </defs>
+  <rect class="bg" width="900" height="360"/>
+  <text x="32" y="32" class="title">Method schools compared (teaching schematic)</text>
+  <text x="32" y="50" class="sub">Rows summarize common textbook groupings; article text should nuance individual clinicians.</text>
+
+  <!-- header -->
+  <rect class="head" x="32" y="68" width="836" height="28" rx="4"/>
+  <text x="44" y="86" class="th">School / orientation</text>
+  <text x="220" y="86" class="th">Primary aim</text>
+  <text x="400" y="86" class="th">Typical setting</text>
+  <text x="620" y="86" class="th">Hallmark techniques</text>
+
+  <!-- row 1 -->
+  <rect class="row-a" x="32" y="96" width="836" height="52"/>
+  <rect class="cell" x="32" y="96" width="836" height="52"/>
+  <line class="cell" x1="200" y1="96" x2="200" y2="148"/>
+  <line class="cell" x1="380" y1="96" x2="380" y2="148"/>
+  <line class="cell" x1="600" y1="96" x2="600" y2="148"/>
+  <text x="44" y="118" class="td">Motor / articulatory</text>
+  <text x="44" y="132" class="sub">Placement &amp; habit</text>
+  <text x="212" y="124" class="td">Intelligible speech production</text>
+  <text x="392" y="124" class="td">Clinic, schools</text>
+  <text x="612" y="118" class="td">Drill, modeling, feedback</text>
+
+  <!-- row 2 -->
+  <rect class="row-b" x="32" y="148" width="836" height="52"/>
+  <rect class="cell" x="32" y="148" width="836" height="52"/>
+  <line class="cell" x1="200" y1="148" x2="200" y2="200"/>
+  <line class="cell" x1="380" y1="148" x2="380" y2="200"/>
+  <line class="cell" x1="600" y1="148" x2="600" y2="200"/>
+  <text x="44" y="170" class="td">Fluency / stuttering</text>
+  <text x="44" y="184" class="sub">Van Riper tradition</text>
+  <text x="212" y="176" class="td">Modify stuttering moments</text>
+  <text x="392" y="176" class="td">University clinics</text>
+  <text x="612" y="170" class="td">Cancellation, pull-out, prep.</text>
+
+  <!-- row 3 -->
+  <rect class="row-a" x="32" y="200" width="836" height="52"/>
+  <rect class="cell" x="32" y="200" width="836" height="52"/>
+  <line class="cell" x1="200" y1="200" x2="200" y2="252"/>
+  <line class="cell" x1="380" y1="200" x2="380" y2="252"/>
+  <line class="cell" x1="600" y1="200" x2="600" y2="252"/>
+  <text x="44" y="222" class="td">Auditory / oralism legacy</text>
+  <text x="44" y="236" class="sub">Deaf education overlap</text>
+  <text x="212" y="228" class="td">Speech reception &amp; production</text>
+  <text x="392" y="228" class="td">Residential programs</text>
+  <text x="612" y="222" class="td">Listening, speechreading</text>
+
+  <!-- row 4 -->
+  <rect class="row-b" x="32" y="252" width="836" height="52"/>
+  <rect class="cell" x="32" y="252" width="836" height="52"/>
+  <line class="cell" x1="200" y1="252" x2="200" y2="304"/>
+  <line class="cell" x1="380" y1="252" x2="380" y2="304"/>
+  <line class="cell" x1="600" y1="252" x2="600" y2="304"/>
+  <text x="44" y="274" class="td">Neurologic / medical</text>
+  <text x="44" y="288" class="sub">Post-war rehab</text>
+  <text x="212" y="280" class="td">Restore communication</text>
+  <text x="392" y="280" class="td">Hospitals, VA</text>
+  <text x="612" y="274" class="td">Dysphagia, aphasia teams</text>
+
+  <text x="32" y="336" class="sub">Figure: SLPWOW History series  -  comparison for classroom use; cite primary literature in article.</text>
+</svg>

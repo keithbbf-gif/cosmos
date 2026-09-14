@@ -15,6 +15,19 @@ stage: draft
 
 The 1925 academy could fit in a hotel room. The 1978 association needed a building and a legal name long enough to hold three jobs. Between those dates the group renamed itself four times and acquired the habits that still run the American field: a journal with teeth, a certificate, a code, a national office.
 
+<figure class="slpwow-figure slpwow-figure--schematic">
+  <img
+    src="../assets/asha-institutional-era/asha-era-schematic.svg"
+    alt="Schematic of relationships among ASHA, university programs, clinical sites, and public programs in the mid-to-late twentieth century."
+    width="880"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Figure 1.</strong> Institutional ecosystem in the later ASHA era (schematic, not an official ASHA diagram). IDEA (1975) belongs to the late band, not the 1925 hotel. <span class="figure-credit">SLPWOW History series — editorial graphic.</span>
+  </figcaption>
+</figure>
+
 ## The names, again, because the names are the plot
 
 - 1925 — American Academy of Speech Correction
