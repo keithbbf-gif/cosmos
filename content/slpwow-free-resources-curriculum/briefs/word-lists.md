@@ -84,7 +84,7 @@ These seeds are **ours**. Use them as the first `WL` pages or as quarries for `W
 
 **Register:** child / mixed.
 
-`book · cup · door · feet · gate · hat · leaf · map · net · pen · rain · sun · tape · van · web · zip · bell · kite · lake · moon`
+`bell · boat · coat · game · home · jump · kite · lamp · nest · park · ring · sand · tent · van · wind · zip · gate · leaf · map · pen`
 
 (Writer: when you set type, **do not** subtitle this “the /b/ list” unless the clinician header is a blank: `Initial sound I am using today: ______`.)
 
