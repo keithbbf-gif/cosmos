@@ -10,6 +10,7 @@ topic: [dye, stain, color]
 audience: shop
 safety: shop-safe
 voice: human
+voice_check: edited
 ---
 
 # Dye, stain, and the finish that has to live on top

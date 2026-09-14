@@ -10,6 +10,7 @@ topic: [index]
 audience: shop
 safety: shop-safe
 voice: human
+voice_check: human
 ---
 
 # Manifest

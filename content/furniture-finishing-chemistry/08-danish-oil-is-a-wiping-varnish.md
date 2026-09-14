@@ -10,6 +10,7 @@ topic: [danish-oil, wiping-varnish, oil]
 audience: shop
 safety: shop-safe
 voice: human
+voice_check: edited
 ---
 
 # Danish oil is a wiping varnish with a nickname

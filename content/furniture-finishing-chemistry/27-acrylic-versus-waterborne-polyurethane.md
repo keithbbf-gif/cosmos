@@ -10,6 +10,7 @@ topic: [waterborne, acrylic, polyurethane]
 audience: shop
 safety: shop-safe
 voice: human
+voice_check: edited
 ---
 
 # Acrylic waterborne vs waterborne polyurethane

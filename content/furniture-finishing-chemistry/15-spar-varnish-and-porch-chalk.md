@@ -10,6 +10,7 @@ topic: [spar, varnish, UV]
 audience: shop
 safety: shop-safe
 voice: human
+voice_check: edited
 ---
 
 # Spar varnish and why porch chairs go chalky

@@ -10,6 +10,7 @@ topic: [waterborne, application, foam]
 audience: shop
 safety: shop-safe
 voice: human
+voice_check: edited
 ---
 
 # Foam, leveling, and the cheap applicator

@@ -10,6 +10,7 @@ topic: [milk-paint, topcoat]
 audience: shop
 safety: shop-safe
 voice: human
+voice_check: edited
 ---
 
 # Topcoating milk paint without killing the chalk

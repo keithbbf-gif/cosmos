@@ -10,6 +10,7 @@ topic: [shellac, resin]
 audience: shop
 safety: shop-safe
 voice: human
+voice_check: edited
 ---
 
 # Shellac is a bug resin. That is the whole romance.

@@ -10,6 +10,7 @@ topic: [shellac, limits]
 audience: shop
 safety: shop-safe
 voice: human
+voice_check: edited
 ---
 
 # What shellac cannot survive

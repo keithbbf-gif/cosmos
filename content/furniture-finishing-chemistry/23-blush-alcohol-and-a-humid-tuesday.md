@@ -10,6 +10,7 @@ topic: [shellac, blush, humidity]
 audience: shop
 safety: shop-safe
 voice: human
+voice_check: edited
 ---
 
 # Blush, alcohol, and a humid Tuesday

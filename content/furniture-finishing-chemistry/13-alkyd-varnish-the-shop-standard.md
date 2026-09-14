@@ -10,6 +10,7 @@ topic: [alkyd, varnish]
 audience: shop
 safety: shop-safe
 voice: human
+voice_check: edited
 ---
 
 # Alkyd varnish — the shop standard that still works

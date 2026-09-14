@@ -10,6 +10,7 @@ topic: [milk-paint, casein]
 audience: shop
 safety: shop-safe
 voice: human
+voice_check: edited
 ---
 
 # Milk paint is casein and lime, not nostalgia

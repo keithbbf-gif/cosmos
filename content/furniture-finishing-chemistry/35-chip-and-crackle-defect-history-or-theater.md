@@ -10,6 +10,7 @@ topic: [milk-paint, chip, crackle]
 audience: shop
 safety: shop-safe
 voice: human
+voice_check: edited
 ---
 
 # Chip and crackle: defect, history, or theater

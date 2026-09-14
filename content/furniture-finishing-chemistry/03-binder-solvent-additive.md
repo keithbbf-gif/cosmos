@@ -10,6 +10,7 @@ topic: [can, binder, solvent]
 audience: shop
 safety: shop-safe
 voice: human
+voice_check: edited
 ---
 
 # Binder, solvent, additive

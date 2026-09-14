@@ -10,6 +10,7 @@ topic: [sanding, practice]
 audience: shop
 safety: shop-safe
 voice: human
+voice_check: edited
 ---
 
 # Sanding decides the film before the can opens

@@ -10,6 +10,7 @@ topic: [shellac, cut, dewaxed]
 audience: shop
 safety: shop-safe
 voice: human
+voice_check: edited
 ---
 
 # Cuts, flakes, and why dewaxed exists

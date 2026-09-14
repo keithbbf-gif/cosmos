@@ -10,6 +10,7 @@ topic: [waterborne, oil, stacking]
 audience: shop
 safety: shop-safe
 voice: human
+voice_check: edited
 ---
 
 # Waterborne over oil — the honest sequence

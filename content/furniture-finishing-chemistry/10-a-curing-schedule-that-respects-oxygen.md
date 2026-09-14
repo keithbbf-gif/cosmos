@@ -10,6 +10,7 @@ topic: [oil, cure, schedule]
 audience: shop
 safety: shop-safe
 voice: human
+voice_check: edited
 ---
 
 # A curing schedule that respects oxygen

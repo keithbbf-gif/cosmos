@@ -10,6 +10,7 @@ topic: [wood, extractives, oily-woods]
 audience: shop
 safety: shop-safe
 voice: human
+voice_check: edited
 ---
 
 # Why some woods drink and some spit
@@ -90,7 +91,7 @@ neighbors. It will not.
 
 ## A working habit
 
-Before a new species becomes a paying job, cut a offcut. Sand
+Before a new species becomes a paying job, cut an offcut. Sand
 it like the job. Wipe it with the carrier you plan to use —
 mineral spirits, water, alcohol — and watch. If the rag comes
 away colored, you have extractives. If the surface goes dull

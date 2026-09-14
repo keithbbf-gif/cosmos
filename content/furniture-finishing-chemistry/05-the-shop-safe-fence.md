@@ -10,6 +10,7 @@ topic: [safety, shop-safe, fence]
 audience: shop
 safety: shop-safe
 voice: human
+voice_check: edited
 ---
 
 # The shop-safe fence

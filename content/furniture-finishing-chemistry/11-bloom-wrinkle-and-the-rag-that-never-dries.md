@@ -10,6 +10,7 @@ topic: [oil, defects, bloom]
 audience: shop
 safety: shop-safe
 voice: human
+voice_check: edited
 ---
 
 # Bloom, wrinkle, and the rag that never dries

@@ -10,6 +10,7 @@ topic: [food-contact, safety]
 audience: shop
 safety: shop-safe
 voice: human
+voice_check: edited
 ---
 
 # "Food safe" is a sentence, not a halo

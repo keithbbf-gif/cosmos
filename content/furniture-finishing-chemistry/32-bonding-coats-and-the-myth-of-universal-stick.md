@@ -10,6 +10,7 @@ topic: [milk-paint, bonding]
 audience: shop
 safety: shop-safe
 voice: human
+voice_check: edited
 ---
 
 # Bonding coats and the myth of universal stick

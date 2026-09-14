@@ -10,6 +10,7 @@ topic: [compatibility]
 audience: shop
 safety: shop-safe
 voice: human
+voice_check: edited
 ---
 
 # Compatibility in prose, not a poster

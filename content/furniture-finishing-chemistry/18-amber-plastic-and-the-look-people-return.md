@@ -10,6 +10,7 @@ topic: [appearance, varnish, sheen]
 audience: shop
 safety: shop-safe
 voice: human
+voice_check: edited
 ---
 
 # Amber, plastic, and the look people return

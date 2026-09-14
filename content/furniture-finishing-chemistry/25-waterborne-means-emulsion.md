@@ -10,6 +10,7 @@ topic: [waterborne, emulsion]
 audience: shop
 safety: shop-safe
 voice: human
+voice_check: edited
 ---
 
 # Waterborne means emulsion, not "water paint"

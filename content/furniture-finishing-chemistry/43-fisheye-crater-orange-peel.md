@@ -10,6 +10,7 @@ topic: [defects]
 audience: shop
 safety: shop-safe
 voice: human
+voice_check: edited
 ---
 
 # Fish-eye, crater, orange peel — reading the film

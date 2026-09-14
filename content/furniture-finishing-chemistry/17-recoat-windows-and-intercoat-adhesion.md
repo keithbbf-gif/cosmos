@@ -10,6 +10,7 @@ topic: [recoat, adhesion, varnish]
 audience: shop
 safety: shop-safe
 voice: human
+voice_check: edited
 ---
 
 # Recoat windows, sanding dust, and intercoat adhesion

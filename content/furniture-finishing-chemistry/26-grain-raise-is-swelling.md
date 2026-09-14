@@ -10,6 +10,7 @@ topic: [waterborne, grain-raise]
 audience: shop
 safety: shop-safe
 voice: human
+voice_check: edited
 ---
 
 # Grain raise is swelling. Sanding is the apology.

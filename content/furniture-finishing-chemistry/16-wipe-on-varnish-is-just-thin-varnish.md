@@ -10,6 +10,7 @@ topic: [wipe-on, varnish]
 audience: shop
 safety: shop-safe
 voice: human
+voice_check: edited
 ---
 
 # Wipe-on varnish is just thin varnish

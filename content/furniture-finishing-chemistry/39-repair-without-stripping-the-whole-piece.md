@@ -10,6 +10,7 @@ topic: [repair]
 audience: shop
 safety: shop-safe
 voice: human
+voice_check: edited
 ---
 
 # Repair without stripping the whole piece

@@ -10,6 +10,7 @@ topic: [schedule, practice, table]
 audience: shop
 safety: shop-safe
 voice: human
+voice_check: edited
 ---
 
 # A staged dining-table schedule

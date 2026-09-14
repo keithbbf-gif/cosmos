@@ -10,6 +10,7 @@ topic: [oily-woods, teak, rosewood, oil]
 audience: shop
 safety: shop-safe
 voice: human
+voice_check: edited
 ---
 
 # Oil on teak, rosewood, and other greasy citizens

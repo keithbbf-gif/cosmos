@@ -10,6 +10,7 @@ topic: [linseed, oil, cure]
 audience: shop
 safety: shop-safe
 voice: human
+voice_check: edited
 ---
 
 # Linseed oil polymerizes. It does not "dry."

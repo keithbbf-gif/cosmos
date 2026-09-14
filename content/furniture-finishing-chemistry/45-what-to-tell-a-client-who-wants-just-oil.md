@@ -10,6 +10,7 @@ topic: [client, oil, practice]
 audience: shop
 safety: shop-safe
 voice: human
+voice_check: edited
 ---
 
 # What to tell a client who wants "just oil"

@@ -10,6 +10,7 @@ topic: [hardwax, oil, wax]
 audience: shop
 safety: shop-safe
 voice: human
+voice_check: edited
 ---
 
 # Hardwax oil — the wax is the last coat, not the magic

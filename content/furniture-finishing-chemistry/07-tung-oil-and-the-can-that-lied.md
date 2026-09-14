@@ -10,6 +10,7 @@ topic: [tung, oil, labeling]
 audience: shop
 safety: shop-safe
 voice: human
+voice_check: edited
 ---
 
 # Tung oil, and the can that lied

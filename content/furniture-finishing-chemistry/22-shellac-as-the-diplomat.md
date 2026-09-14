@@ -10,6 +10,7 @@ topic: [shellac, sealer, compatibility]
 audience: shop
 safety: shop-safe
 voice: human
+voice_check: edited
 ---
 
 # Shellac as the diplomat

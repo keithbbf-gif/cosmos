@@ -10,6 +10,7 @@ topic: [safety, rags, ventilation]
 audience: shop
 safety: shop-safe
 voice: human
+voice_check: edited
 ---
 
 # Rags, air, and the fire you do not see coming

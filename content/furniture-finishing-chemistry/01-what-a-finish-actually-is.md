@@ -10,6 +10,7 @@ topic: [film, binder, shop]
 audience: shop
 safety: shop-safe
 voice: human
+voice_check: edited
 ---
 
 # What a finish actually is
