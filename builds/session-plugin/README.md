@@ -4,7 +4,7 @@ Open Sessions reached from **inside** OpenWork — and from any other MCP host. 
 not CORE. Same Core endpoints, same `cosmos-transcript/1` files, no second kernel and no second
 writer.
 
-**Stage: SKELETON.** ARCH: `docs/arch/SESSION_PLUGIN_ARCH.md`. Product: `builds/open_sessions/`.
+**Stage: fixture-bound.** ARCH: `docs/arch/SESSION_PLUGIN_ARCH.md`. Product: `builds/open_sessions/`.
 Suite: `builds/session-tools/`.
 
 ## Tools
@@ -18,21 +18,39 @@ Suite: `builds/session-tools/`.
 | `session.timeline` | `session_timeline` | `rolled-event/1` projection (**feed not emitted yet**) |
 
 Every call returns one `cosmos-session-plugin-result/1` envelope — `{schema, tool, ok, kind, gate,
-legal_omitted}`. A refusal is a typed `kind`, not a thrown string: `NO_SOURCE`, `NOT_FOUND`,
-`LEGAL_OMITTED`, `LEN_MISMATCH`, `HASH_MISMATCH`, `SCHEMA_UNKNOWN`, `NO_TOKEN`,
-`CORE_UNREACHABLE`, `HTTP_<code>`, `BAD_ARGS`, `UNMEASURED`.
+legal_omitted}`. A refusal is a typed `kind`, not a thrown string.
+
+**Empty is explicit.** A measured-empty feed is `n: 0` and empty `rows`. A missing source is a
+typed refusal, never an empty list dressed as "no sessions". **UNMEASURED is `null`, never `0`.**
+Data text (titles, turn text, excerpts) goes through `esc()` before it enters a result.
+
+## Refusal kinds
+
+| Kind | When |
+|---|---|
+| `NO_SOURCE` | Transcript dir / rolled feed unset or unreadable. No guessed root. |
+| `NOT_FOUND` | Unknown tool, session id, or timeline id. |
+| `LEGAL_OMITTED` | Legal session omitted (Core kind, or `head.legal` on disk). |
+| `LEN_MISMATCH` | Transcript bytes disagree with sidecar `len` — refused before parse. |
+| `HASH_MISMATCH` | Transcript bytes disagree with sidecar `sha` — refused before parse. |
+| `SCHEMA_UNKNOWN` | Body / head schema is not the exact pinned string. |
+| `NO_TOKEN` | Non-loopback Core with no bearer, or empty `COSMOS_API_TOKEN_FILE`. |
+| `CORE_UNREACHABLE` | Core socket failed. Not an empty list. |
+| `HTTP_<code>` | Core returned a non-200. Bearer material is scrubbed from the detail. |
+| `BAD_ARGS` | Required argument missing. |
+| `UNMEASURED` | Failure that was not a typed refusal. Never used as a count of `0`. |
 
 ## Configuration — host environment only
 
 No credential is in this repo and none is cached to disk.
 
-| Env | Meaning |
-|---|---|
-| `COSMOS_CORE_URL` | Core base URL (default `http://127.0.0.1:8770`) |
-| `COSMOS_API_TOKEN` | bearer value |
-| `COSMOS_API_TOKEN_FILE` | path to `live\config\api_token.txt`, read at call time |
-| `COSMOS_TRANSCRIPT_DIR` | canonical `*.ctr.jsonl` store; unset is `NO_SOURCE`, never a guess |
-| `COSMOS_ROLLED_FEED` | `rolled-event/1` JSONL; unset is `NO_SOURCE` |
+| Env | Meaning | Default |
+|---|---|---|
+| `COSMOS_CORE_URL` | Core base URL | `http://127.0.0.1:8770` |
+| `COSMOS_API_TOKEN` | bearer value | unset |
+| `COSMOS_API_TOKEN_FILE` | path to `live\config\api_token.txt`, read at call time | unset |
+| `COSMOS_TRANSCRIPT_DIR` | canonical `*.ctr.jsonl` store; unset is `NO_SOURCE`, never a guess | unset |
+| `COSMOS_ROLLED_FEED` | `rolled-event/1` JSONL; unset is `NO_SOURCE` | unset |
 
 Core lets a loopback peer skip the bearer. A **non-loopback** `COSMOS_CORE_URL` with no token is
 refused `NO_TOKEN` before the socket opens, and the token value never reaches a result or an
@@ -54,6 +72,8 @@ loopback and reads the transcript store it is pointed at.
 
 `mcpListTools()` / `mcpCallTool()` in `src/tools.ts` are the `tools/list` + `tools/call` shapes.
 Host ids are underscored because some hosts reject `.` in a tool name; both spellings resolve.
+`tools/call` always wraps a `cosmos-session-plugin-result/1` envelope and sets `isError` on a
+typed refusal.
 
 ## Tests
 
@@ -70,4 +90,4 @@ tools are pinned against a throwaway loopback HTTP server, so the URL, the query
 **No dependencies.** Zero `node_modules`, no npm install on the host, no vendor SDK import: Node
 runs the TypeScript by stripping types. The one dependency this would ever want is
 `@opencode-ai/plugin`, and only if OpenWork starts requiring zod-typed tool args instead of JSON
-Schema — it is not needed for the skeleton, so it is not here.
+Schema — it is not needed here, so it is not here.
