@@ -1,0 +1,296 @@
+# Staged draft manifest — fig soil, drainage, mulch, irrigation, container media
+# status is editorial. stage is the dirt-and-hose sequence.
+
+set = "fig-soil-irrigation"
+status = "staged"
+focus = "8a"
+zones = ["7", "8a", "8b", "9"]
+count = 48
+
+[[draft]]
+id = "d01"
+file = "drafts/d01-figs-want-air-not-rich-dirt.md"
+stage = "read"
+cluster = "soil"
+
+[[draft]]
+id = "d02"
+file = "drafts/d02-clay-is-a-pantry-until-it-is-a-bowl.md"
+stage = "read"
+cluster = "soil"
+
+[[draft]]
+id = "d03"
+file = "drafts/d03-sand-is-a-sieve-and-a-hotel.md"
+stage = "read"
+cluster = "soil"
+
+[[draft]]
+id = "d04"
+file = "drafts/d04-ribbon-test-and-the-jar.md"
+stage = "read"
+cluster = "soil"
+
+[[draft]]
+id = "d05"
+file = "drafts/d05-ph-is-a-window-not-a-religion.md"
+stage = "read"
+cluster = "soil"
+
+[[draft]]
+id = "d06"
+file = "drafts/d06-dig-fill-come-back-in-the-morning.md"
+stage = "read"
+cluster = "drainage"
+
+[[draft]]
+id = "d07"
+file = "drafts/d07-salt-boron-and-the-well.md"
+stage = "read"
+cluster = "soil"
+
+[[draft]]
+id = "d08"
+file = "drafts/d08-what-a-soil-test-is-worth.md"
+stage = "read"
+cluster = "soil"
+
+[[draft]]
+id = "d09"
+file = "drafts/d09-compaction-is-a-soil-type-you-made.md"
+stage = "read"
+cluster = "soil"
+
+[[draft]]
+id = "d10"
+file = "drafts/d10-what-the-top-two-inches-already-say.md"
+stage = "read"
+cluster = "soil"
+
+[[draft]]
+id = "d11"
+file = "drafts/d11-plant-high-clay-is-the-wall.md"
+stage = "fix"
+cluster = "drainage"
+
+[[draft]]
+id = "d12"
+file = "drafts/d12-a-berm-is-not-a-raised-bed.md"
+stage = "fix"
+cluster = "drainage"
+
+[[draft]]
+id = "d13"
+file = "drafts/d13-the-pretty-hole-is-a-bathtub.md"
+stage = "fix"
+cluster = "drainage"
+
+[[draft]]
+id = "d14"
+file = "drafts/d14-planting-depth-tamus-inches-and-the-berm.md"
+stage = "fix"
+cluster = "drainage"
+
+[[draft]]
+id = "d15"
+file = "drafts/d15-hardpan-and-the-first-two-feet.md"
+stage = "fix"
+cluster = "drainage"
+
+[[draft]]
+id = "d16"
+file = "drafts/d16-when-a-french-drain-is-overkill.md"
+stage = "fix"
+cluster = "drainage"
+
+[[draft]]
+id = "d17"
+file = "drafts/d17-do-not-add-sand-to-clay.md"
+stage = "fix"
+cluster = "drainage"
+
+[[draft]]
+id = "d18"
+file = "drafts/d18-gypsum-will-not-drain-a-puddle.md"
+stage = "fix"
+cluster = "drainage"
+
+[[draft]]
+id = "d19"
+file = "drafts/d19-compost-as-a-topping-not-a-burial.md"
+stage = "fix"
+cluster = "soil"
+
+[[draft]]
+id = "d20"
+file = "drafts/d20-first-two-summers-in-the-hole.md"
+stage = "fix"
+cluster = "irrigation"
+
+[[draft]]
+id = "d21"
+file = "drafts/d21-shallow-roots-a-blanket-they-can-breathe.md"
+stage = "cover"
+cluster = "mulch"
+
+[[draft]]
+id = "d22"
+file = "drafts/d22-chips-hay-straw-leaves.md"
+stage = "cover"
+cluster = "mulch"
+
+[[draft]]
+id = "d23"
+file = "drafts/d23-keep-mulch-off-the-trunk.md"
+stage = "cover"
+cluster = "mulch"
+
+[[draft]]
+id = "d24"
+file = "drafts/d24-landscape-fabric-under-mulch.md"
+stage = "cover"
+cluster = "mulch"
+
+[[draft]]
+id = "d25"
+file = "drafts/d25-grass-is-a-competitor.md"
+stage = "cover"
+cluster = "mulch"
+
+[[draft]]
+id = "d26"
+file = "drafts/d26-compost-twice-mulch-all-year.md"
+stage = "cover"
+cluster = "mulch"
+
+[[draft]]
+id = "d27"
+file = "drafts/d27-rust-leaves-are-not-a-gift.md"
+stage = "cover"
+cluster = "mulch"
+
+[[draft]]
+id = "d28"
+file = "drafts/d28-mulch-changes-the-irrigation-clock.md"
+stage = "cover"
+cluster = "mulch"
+
+[[draft]]
+id = "d29"
+file = "drafts/d29-deep-and-infrequent-once-it-has-a-county.md"
+stage = "water"
+cluster = "irrigation"
+
+[[draft]]
+id = "d30"
+file = "drafts/d30-year-one-water-is-a-different-job.md"
+stage = "water"
+cluster = "irrigation"
+
+[[draft]]
+id = "d31"
+file = "drafts/d31-finger-not-tuesday.md"
+stage = "water"
+cluster = "irrigation"
+
+[[draft]]
+id = "d32"
+file = "drafts/d32-fruit-swell-is-not-the-drought-week.md"
+stage = "water"
+cluster = "irrigation"
+
+[[draft]]
+id = "d33"
+file = "drafts/d33-split-after-the-drought-then-storm.md"
+stage = "water"
+cluster = "irrigation"
+
+[[draft]]
+id = "d34"
+file = "drafts/d34-overhead-water-and-rust.md"
+stage = "water"
+cluster = "irrigation"
+
+[[draft]]
+id = "d35"
+file = "drafts/d35-drip-soaker-hose-and-a-count.md"
+stage = "water"
+cluster = "irrigation"
+
+[[draft]]
+id = "d36"
+file = "drafts/d36-afternoon-wilt-is-not-always-a-cry.md"
+stage = "water"
+cluster = "irrigation"
+
+[[draft]]
+id = "d37"
+file = "drafts/d37-cut-water-to-ripen-the-california-argument.md"
+stage = "water"
+cluster = "irrigation"
+
+[[draft]]
+id = "d38"
+file = "drafts/d38-rain-souring-skip-a-cycle.md"
+stage = "water"
+cluster = "irrigation"
+
+[[draft]]
+id = "d39"
+file = "drafts/d39-water-before-a-hard-freeze.md"
+stage = "water"
+cluster = "irrigation"
+
+[[draft]]
+id = "d40"
+file = "drafts/d40-yellow-leaves-wet-dry-or-occupied.md"
+stage = "water"
+cluster = "trouble"
+
+[[draft]]
+id = "d41"
+file = "drafts/d41-yard-dirt-in-a-can-is-a-brick.md"
+stage = "pot"
+cluster = "media"
+
+[[draft]]
+id = "d42"
+file = "drafts/d42-if-water-stands-on-top-the-pot-is-lying.md"
+stage = "pot"
+cluster = "media"
+
+[[draft]]
+id = "d43"
+file = "drafts/d43-promix-hp-and-the-seventy-percent-feel.md"
+stage = "pot"
+cluster = "media"
+
+[[draft]]
+id = "d44"
+file = "drafts/d44-moisture-control-mix-is-a-drowning-kit.md"
+stage = "pot"
+cluster = "media"
+
+[[draft]]
+id = "d45"
+file = "drafts/d45-coir-is-a-cup-language.md"
+stage = "pot"
+cluster = "media"
+
+[[draft]]
+id = "d46"
+file = "drafts/d46-perlite-you-can-see.md"
+stage = "pot"
+cluster = "media"
+
+[[draft]]
+id = "d47"
+file = "drafts/d47-lift-the-pot-and-what-the-pot-is.md"
+stage = "pot"
+cluster = "media"
+
+[[draft]]
+id = "d48"
+file = "drafts/d48-saucers-collapse-and-pots-that-water-themselves.md"
+stage = "pot"
+cluster = "media"
