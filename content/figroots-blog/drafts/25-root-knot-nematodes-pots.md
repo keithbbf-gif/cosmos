@@ -25,7 +25,7 @@ images:
   source: ours
   folder_pick: Damaged Cuttings
 status: draft
-voice_check: human
+voice_check: edited
 pillar: culture
 priority: 25
 figures:

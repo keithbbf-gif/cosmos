@@ -27,7 +27,7 @@ images:
   source: ours
   folder_pick: Malta_Black_Fig
 status: draft
-voice_check: human
+voice_check: edited
 pillar: fruit
 priority: 2
 figures:

@@ -26,7 +26,7 @@ images:
   source: ours
   folder_pick: FigRoots
 status: draft
-voice_check: human
+voice_check: edited
 pillar: propagation
 priority: 6
 figures:

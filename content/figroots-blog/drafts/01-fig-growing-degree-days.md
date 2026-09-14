@@ -26,7 +26,7 @@ images:
   source: ours
   folder_pick: Figs 2020
 status: draft
-voice_check: human
+voice_check: edited
 pillar: climate
 priority: 1
 figures:

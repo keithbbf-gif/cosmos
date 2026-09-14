@@ -20,11 +20,11 @@ images:
   source: ours
   folder_pick: Bulk Cuttings
 - path: D:\FIGS\FigRoots
-  caption: Site stills from the damaged-cuttings post if we already shot the signs.
+  caption: Onsite stills from the damaged-cuttings post if we already shot the signs.
   source: ours
   folder_pick: FigRoots
 status: draft
-voice_check: human
+voice_check: edited
 pillar: propagation
 priority: 33
 figures:

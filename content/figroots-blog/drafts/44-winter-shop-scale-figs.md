@@ -22,11 +22,11 @@ images:
   source: ours
   folder_pick: Fig Jam Article
 - path: D:\FIGS\FigRoots
-  caption: Any winter-protection stills already on the site. Barely moist. Not 70°F.
+  caption: Winter-protection stills already on the site if we shot them. Barely moist. Not 70°F.
   source: ours
   folder_pick: FigRoots
 status: draft
-voice_check: human
+voice_check: edited
 pillar: culture
 priority: 44
 figures:

@@ -24,7 +24,7 @@ images:
   source: ours
   folder_pick: Greenhouse photos
 status: draft
-voice_check: human
+voice_check: edited
 pillar: climate
 priority: 39
 figures:

@@ -25,7 +25,7 @@ images:
   source: ours
   folder_pick: Figs-summer-23
 status: draft
-voice_check: human
+voice_check: edited
 pillar: culture
 priority: 16
 figures:

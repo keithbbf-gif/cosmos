@@ -26,7 +26,7 @@ images:
   source: ours
   folder_pick: Figs
 status: draft
-voice_check: human
+voice_check: edited
 pillar: culture
 priority: 3
 figures:

@@ -23,7 +23,7 @@ images:
   source: ours
   folder_pick: Fig Jam Article
 status: draft
-voice_check: human
+voice_check: edited
 pillar: identity
 priority: 38
 figures:

@@ -25,7 +25,7 @@ images:
   source: ours
   folder_pick: Greenhouse photos
 status: draft
-voice_check: human
+voice_check: edited
 pillar: propagation
 priority: 43
 figures:
@@ -63,7 +63,7 @@ I do not fertigate a row of sticks. Feed the plant after it exists. A stick in d
 
 If I would be sad to lose every stick in the bed, I used the wrong wood. Replaceable is a Turkey type, extra laterals, a donor I already decided is a donor. The dessert names keep their shoots. That is the prune card again. Outdoor bulk is not a second chance to hat-rack a berry tree because the cups were dirty.
 
-I count sticks for the bed the way I count cups: what I will tend, not what fits in a grocery bag. Extra wood in a forgotten trough is a Damaged Cuttings photo with dirt on it.
+I count sticks for the bed the way I count cups: what I will tend, not what fits in a grocery bag. Extra wood in a forgotten trough becomes a Damaged Cuttings still with dirt on it.
 
 ## Two clocks. Do not mix them.
 

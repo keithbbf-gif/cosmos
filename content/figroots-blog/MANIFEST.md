@@ -1,6 +1,6 @@
 # FigRoots draft MANIFEST
 
-Status: **draft** (do not publish live). Voice: `voice_check: human`. Photos: `PHOTO_NOTES.md` + `PHOTO_MANIFEST.md` (`D:\\FIGS` first). Sources: `BIBLIOGRAPHY.md`. Graphics: `GRAPHICS_INDEX.md`.
+Status: **draft** (do not publish live). Voice: `voice_check: edited` (45 drafts; editor pass #2 on 41–45). Photos: `PHOTO_NOTES.md` + `PHOTO_MANIFEST.md` (`D:\\FIGS` first). Sources: `BIBLIOGRAPHY.md`. Graphics: `GRAPHICS_INDEX.md`.
 
 Scope: `content/figroots-blog/` only.
 

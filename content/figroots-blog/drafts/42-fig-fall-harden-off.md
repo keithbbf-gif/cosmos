@@ -26,7 +26,7 @@ images:
   source: ours
   folder_pick: Figs
 status: draft
-voice_check: human
+voice_check: edited
 pillar: climate
 priority: 42
 figures:
@@ -72,7 +72,7 @@ If a pot is still pushing in November because the shop is a sauna, I did not fai
 
 I still water a dry week. I still pick fruit if a late fig finishes. I still roll pots before a hard night. I still take dormant cuttings when the wood is actually dormant — the calendar draft — instead of cutting soft green in October and filing it in the crisper.
 
-I do not start a late air layer on an in-ground tree in a cooling zone because I got inspired. The fall-layer page already said that. Inspiration is a bad calendar. Harden-off is the same sentence in dirt.
+I do not start a late air layer on an in-ground tree in a cooling zone because I got inspired. The air-layer draft already said that. Inspiration is a bad calendar. Harden-off is the same sentence in dirt.
 
 ## A September walk
 

@@ -26,7 +26,7 @@ images:
   source: ours
   folder_pick: Fig Labels
 status: draft
-voice_check: human
+voice_check: edited
 pillar: propagation
 priority: 41
 figures:
@@ -52,7 +52,7 @@ Industry stick, because people skip it: **6–8 inches, three nodes**, lignified
 
 I will not buy summer wood shipped across a hot country and called a “cutting season.” The calendar draft is the rest. If they ship in a heat wave, they are gambling your mailbox against their cash flow. I have opened those boxes. The Damaged Cuttings folder exists for a reason.
 
-Dormant lignified, packed so it cannot slosh, labeled, in weather that will not cook the truck — that is a sale I understand. A “while supplies last” leafy bundle in August is a now drill they are making *your* problem.
+Dormant lignified, packed so it cannot slosh, labeled, in weather that will not cook the truck — that is a sale I understand. A “while supplies last” leafy bundle in August is a now-or-never drill they are making *your* problem.
 
 ## The name is louder than the source
 
