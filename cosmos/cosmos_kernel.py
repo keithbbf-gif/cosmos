@@ -126,7 +126,8 @@ class Kernel:
         # TOML catalog through add(), which is idempotent per id.
         self.makers = MakerMap(self.ledger, clock=clock, seed=not read_only)
         # Storage surfaces: same pattern. Writing boot seeds cosmos-live
-        # (runtime root) so GET /api/v1/surfaces is a measured catalog, not 404.
+        # (runtime root) plus the ODX claim so GET /api/v1/surfaces is a
+        # catalog, not 404. ODX stays unmeasured until a dest is named.
         self.surfaces = Surfaces(self.ledger, clock=clock)
         if not read_only:
             seed_host_surfaces(self.surfaces, self.paths.root)

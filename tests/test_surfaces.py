@@ -11,7 +11,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "cosmos"))
 from cosmos_ledger import Ledger
-from cosmos_surfaces import Surfaces, SurfaceError
+from cosmos_surfaces import Surfaces, SurfaceError, odx_dest_from_config, ODX_ID, ODX_UNCONFIGURED
 from cosmos_kernel import Kernel, install
 from cosmos_service import Service
 
@@ -125,7 +125,37 @@ def main() -> int:
     k = Kernel(root, worker="core")
     check("writing kernel seeds cosmos-live surface",
           lambda: "cosmos-live" in k.surfaces.state()
-          and k.surfaces.report()[0]["reachable"] is True)
+          and {r["id"]: r for r in k.surfaces.report()}["cosmos-live"]["reachable"] is True)
+    odx_row = {r["id"]: r for r in k.surfaces.report()}.get(ODX_ID)
+    check("ODX claim is seeded with canon id ODX (cDeck canonId match)",
+          lambda: odx_row is not None and odx_row["id"] == "ODX"
+          and odx_row["kind"] == "CLOUD" and odx_row["role"] == "ARCHIVE"
+          and odx_row.get("write") == "cow" and odx_row.get("cop") == "metadata")
+    check("ODX without dest stays UNMEASURED (reachable/free_gb/age_s/qualified null, never 0)",
+          lambda: odx_row["reachable"] is None and odx_row["free_gb"] is None
+          and odx_row["age_s"] is None and odx_row["qualified"] is None
+          and odx_row["path_or_url"] == ODX_UNCONFIGURED)
+    check("odx_dest_from_config is None when backup_targets.json is absent",
+          lambda: odx_dest_from_config(root) is None)
+
+    dest_root = install(td / "live-odx-dest", tree_id="surf-odx-dest")
+    dest_dir = td / "onedrive-archive"
+    dest_dir.mkdir()
+    (dest_root / "config" / "backup_targets.json").write_text(json.dumps({
+        "schema": "cosmos-backup-targets/1",
+        "targets": {"odx": {"dest": str(dest_dir.resolve())}},
+    }), encoding="utf-8")
+    k_dest = Kernel(dest_root, worker="core")
+    dest_row = {r["id"]: r for r in k_dest.surfaces.report()}[ODX_ID]
+    check("ODX with named dest is measured from a real probe (not invented)",
+          lambda: dest_row["reachable"] is True
+          and dest_row["free_gb"] is not None
+          and dest_row["age_s"] is not None
+          and dest_row["qualified"] is True
+          and dest_row["path_or_url"] == str(dest_dir.resolve()))
+    check("odx_dest_from_config returns the operator dest only",
+          lambda: odx_dest_from_config(dest_root) == dest_dir.resolve())
+
     head_before = k.ledger.head_seq()
     kr = Kernel(root, worker="reader", read_only=True)
     check("read-only kernel COMPOSES surfaces and does not reseed",
@@ -147,12 +177,18 @@ def main() -> int:
 
     code, body = get("/api/v1/surfaces")
     check("GET /surfaces without a token -> 200 on loopback",
-          lambda: code == 200 and {s["id"] for s in body["surfaces"]} == {"cosmos-live"})
+          lambda: code == 200
+          and {"cosmos-live", "ODX"} <= {s["id"] for s in body["surfaces"]})
     code, body = get("/api/v1/surfaces", svc.token)
+    wire = {s["id"]: s for s in body["surfaces"]}
     check("GET /surfaces serves measured cosmos-live over the wire",
-          lambda: code == 200 and body["surfaces"][0]["id"] == "cosmos-live"
-          and body["surfaces"][0]["reachable"] is True
-          and body["surfaces"][0]["free_gb"] is not None)
+          lambda: code == 200 and wire["cosmos-live"]["reachable"] is True
+          and wire["cosmos-live"]["free_gb"] is not None)
+    check("GET /surfaces ODX unconfigured is null not 0",
+          lambda: wire["ODX"]["reachable"] is None
+          and wire["ODX"]["free_gb"] is None
+          and wire["ODX"]["age_s"] is None
+          and wire["ODX"]["qualified"] is None)
     check("GET /surfaces carries served_at + measured_at",
           lambda: body.get("served_at") and body.get("measured_at"))
     check("GET /surfaces is a read - ledger head did not move",

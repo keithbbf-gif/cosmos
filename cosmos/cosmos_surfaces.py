@@ -27,12 +27,18 @@ SCARS THIS CLOSES:
 """
 from __future__ import annotations
 
+import json
 import shutil
 import time
 from pathlib import Path
 from typing import Callable, Optional
 
 from cosmos_ledger import Ledger
+
+# Canon pane id (cDeck CANON_SURFACES). Claim only until a dest is named.
+ODX_ID = "ODX"
+ODX_UNCONFIGURED = "onedrive:"
+BACKUP_TARGETS_NAME = "backup_targets.json"
 
 # A surface's PHYSICAL/reach class - where the bytes actually live and whether reaching
 # them leaves this machine. LOCAL never leaves; LAN/CLOUD do; PUBLISH is a read mirror.
@@ -82,9 +88,13 @@ class Surfaces:
         self._probes: dict[str, Probe] = {}
 
     # ---------------- claims ----------------
-    def register(self, surface_id: str, kind: str, path_or_url: str, role: str) -> None:
+    def register(self, surface_id: str, kind: str, path_or_url: str, role: str,
+                 extras: Optional[dict] = None) -> None:
         """Record the CLAIM that a surface exists, with its reach class and its intended
-        job. This asserts nothing about reachability - registration is not reachability."""
+        job. This asserts nothing about reachability - registration is not reachability.
+
+        extras may carry write/cop policy (ODX: CoW write, CoP metadata-only).
+        Those are claim labels, not measurements."""
         if kind not in SURFACE_KINDS:
             raise SurfaceError(
                 "UNQUALIFIED",
@@ -102,10 +112,13 @@ class Surfaces:
                 "DUPLICATE",
                 f"{surface_id!r} already registered - two entries for one surface let a "
                 f"stale claim shadow a live one; update by measuring, not by re-registering")
-        self.ledger.append(
-            "SURFACE_REGISTERED",
-            {"surface_id": surface_id, "kind": kind, "path_or_url": path_or_url,
-             "role": role})
+        payload = {"surface_id": surface_id, "kind": kind, "path_or_url": path_or_url,
+                   "role": role}
+        if extras:
+            for key in ("write", "cop"):
+                if extras.get(key) is not None:
+                    payload[key] = extras[key]
+        self.ledger.append("SURFACE_REGISTERED", payload)
 
     def attach_probe(self, surface_id: str, fn: Probe) -> None:
         """A probe is a runnable reachability+capacity check: () -> (reachable, free_bytes
@@ -217,7 +230,7 @@ class Surfaces:
         rows = []
         for sid, v in sorted(self.state().items()):
             m = v["measurement"]
-            rows.append({
+            row = {
                 "id": sid,
                 "kind": v["claim"]["kind"],
                 "role": v["claim"]["role"],
@@ -228,7 +241,12 @@ class Surfaces:
                 "age_s": ((now - m["t"]) if m else None),
                 "qualified": v["qualified"],
                 "detail": (m["detail"] if m else None),
-            })
+            }
+            if v["claim"].get("write") is not None:
+                row["write"] = v["claim"]["write"]
+            if v["claim"].get("cop") is not None:
+                row["cop"] = v["claim"]["cop"]
+            rows.append(row)
         return rows
 
 
@@ -248,12 +266,64 @@ def local_disk_probe(path: str) -> Probe:
     return _probe
 
 
-def seed_host_surfaces(sf: "Surfaces", root: Path | str) -> list[str]:
-    """Idempotent: register + probe + measure the COSMOS runtime root.
+def odx_dest_from_config(live_root: Path | str) -> Optional[Path]:
+    """Operator ODX dest from live/config/backup_targets.json, or None.
 
-    One LOCAL SCRATCH surface so GET /api/v1/surfaces is never an empty
-    catalog on a writing boot. Extra volumes are claims the operator
-    registers; this seed does not invent V:\\ / P:\\ rows in tests.
+    Never invents C:\\Users\\…\\OneDrive or any well-known letter. Empty /
+    missing / relative dest is unconfigured — registration is not reachability.
+    """
+    cfg = Path(live_root) / "config" / BACKUP_TARGETS_NAME
+    if not cfg.is_file():
+        return None
+    try:
+        obj = json.loads(cfg.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return None
+    if not isinstance(obj, dict):
+        return None
+    targets = obj.get("targets")
+    if not isinstance(targets, dict):
+        return None
+    row = targets.get("odx")
+    if not isinstance(row, dict):
+        return None
+    raw = row.get("dest")
+    if not isinstance(raw, str) or not raw.strip():
+        return None
+    p = Path(raw.strip())
+    if not p.is_absolute():
+        return None
+    return p
+
+
+def _seed_odx(sf: "Surfaces", root: Path | str) -> str:
+    """Claim ODX (OneDrive cold archive). Measure only when Keith named a dest.
+
+    CoW write / CoP metadata-only are claim policy, not a probe result.
+    Unconfigured dest → reachable=None (UNMEASURED), never 0 or False-from-guess.
+    """
+    dest = odx_dest_from_config(root)
+    path_or_url = str(dest) if dest is not None else ODX_UNCONFIGURED
+    if ODX_ID not in sf.state():
+        sf.register(
+            ODX_ID, "CLOUD", path_or_url, "ARCHIVE",
+            extras={"write": "cow", "cop": "metadata"},
+        )
+    if dest is None:
+        return ODX_ID
+    sf.attach_probe(ODX_ID, local_disk_probe(str(dest)))
+    if sf.state().get(ODX_ID, {}).get("measurement") is None:
+        sf.measure(ODX_ID)
+        sf.qualify_backup_target(ODX_ID, min_free_bytes=1, require_offmachine=True)
+    return ODX_ID
+
+
+def seed_host_surfaces(sf: "Surfaces", root: Path | str) -> list[str]:
+    """Idempotent: register + probe + measure host-known storage surfaces.
+
+    Seeds cosmos-live (runtime root) and ODX (OneDrive cold archive claim).
+    ODX is measured only when targets.odx.dest is an absolute path Keith named;
+    otherwise reachable stays null. Does not invent V:\\ / P:\\ / OneDrive rows.
     """
     sid = "cosmos-live"
     root_s = str(Path(root))
@@ -262,4 +332,5 @@ def seed_host_surfaces(sf: "Surfaces", root: Path | str) -> list[str]:
     sf.attach_probe(sid, local_disk_probe(root_s))
     if sf.state().get(sid, {}).get("measurement") is None:
         sf.measure(sid)
-    return [sid]
+    seeded = [sid, _seed_odx(sf, root)]
+    return seeded
