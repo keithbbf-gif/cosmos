@@ -1,0 +1,41 @@
+{
+  "series": "transformers-public-history",
+  "assets": [
+    {
+      "id": "tph-fig-01",
+      "path": "staged/graphics/fig-01-first-public-timeline.svg",
+      "sha256": "379c8559601004cc8bf259b634902248afcfec2ae021333ff8b5a11179ffb676",
+      "kind": "timeline"
+    },
+    {
+      "id": "tph-fig-02",
+      "path": "staged/graphics/fig-02-transformer-stack-2017.svg",
+      "sha256": "a00505e080eb5360f5c2ed82beb57f9ce476e94ce5f7471a55d680e4ea1184a3",
+      "kind": "architecture"
+    },
+    {
+      "id": "tph-fig-03",
+      "path": "staged/graphics/fig-03-attention-compute-flow.svg",
+      "sha256": "805123c1bceae3a1e71307e24840ea19e538f43d41b4687d59300cced4a73319",
+      "kind": "architecture"
+    },
+    {
+      "id": "tph-fig-04",
+      "path": "staged/graphics/fig-04-three-topologies-2018.svg",
+      "sha256": "cd7acbf1511fde6e6615b96d85c899b502636375a8241d8c058584eccbb3d281",
+      "kind": "architecture"
+    },
+    {
+      "id": "tph-fig-05",
+      "path": "staged/graphics/fig-05-context-mechanisms-timeline.svg",
+      "sha256": "cd03408d79e2bec2be62acf91c81c2b17e1db408b3761a3d0b2c970c4fc2abff",
+      "kind": "timeline"
+    },
+    {
+      "id": "tph-fig-06",
+      "path": "staged/graphics/fig-06-sparse-hybrid-landscape.svg",
+      "sha256": "20e74546d437fb88c7782b20b28c007b00ef32b2707293c908d82fc02d19a5c3",
+      "kind": "diagram"
+    }
+  ]
+}

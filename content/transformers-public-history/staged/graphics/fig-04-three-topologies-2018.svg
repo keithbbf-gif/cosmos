@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 480" role="img" aria-labelledby="tphfig04-title tphfig04-desc">
+  <title id="tphfig04-title">Fig. 4 - Three public transformer topologies after the 2018 fork</title>
+  <desc id="tphfig04-desc">Side-by-side schematic of encoder-decoder, decoder-only causal, and encoder-only bidirectional stacks with first-public dates.</desc>
+  <defs>
+    <style>
+      .bg { fill: #F8FAFC; }
+      .title { font-family: 'Segoe UI', system-ui, sans-serif; font-size: 20px; font-weight: 700; fill: #0F172A; }
+      .col-title { font-family: 'Segoe UI', system-ui, sans-serif; font-size: 15px; font-weight: 600; fill: #0F172A; }
+      .note { font-family: 'Segoe UI', system-ui, sans-serif; font-size: 11px; fill: #64748B; }
+      .date { font-family: 'Segoe UI', system-ui, sans-serif; font-size: 11px; font-weight: 700; fill: #0369A1; }
+      .panel { fill: #FFFFFF; stroke: #CBD5E1; stroke-width: 1.2; }
+      .layer { fill: #E0F2FE; stroke: #0284C7; stroke-width: 1; }
+      .layer-g { fill: #DCFCE7; stroke: #16A34A; stroke-width: 1; }
+      .layer-b { fill: #EDE9FE; stroke: #7C3AED; stroke-width: 1; }
+      .mask { fill: #FEF9C3; stroke: #CA8A04; stroke-width: 1; stroke-dasharray: 4 3; }
+    </style>
+  </defs>
+  <rect class="bg" width="1100" height="480"/>
+  <text x="40" y="42" class="title">Three topologies - same 2017 layer, different attention masks &amp; objectives</text>
+  <text x="40" y="66" class="note">Taxonomy card tph-09; dates are first public appearance in this pack.</text>
+
+  <rect x="40" y="100" width="320" height="340" class="panel" rx="6"/>
+  <text x="56" y="132" class="col-title">Encoder-decoder</text>
+  <text x="56" y="152" class="date">2017-06-12 � seq2seq</text>
+  <rect x="70" y="180" width="260" height="44" class="layer" rx="3"/>
+  <text x="86" y="206" class="note" fill="#0F172A">Encoder self-attn (full)</text>
+  <rect x="70" y="240" width="260" height="44" class="layer" rx="3"/>
+  <text x="86" y="266" class="note" fill="#0F172A">Decoder masked + cross</text>
+  <text x="56" y="400" class="note">Type case: original Transformer</text>
+
+  <rect x="390" y="100" width="320" height="340" class="panel" rx="6"/>
+  <text x="406" y="132" class="col-title">Decoder-only</text>
+  <text x="406" y="152" class="date">2018-06-11 � next-token LM</text>
+  <rect x="420" y="180" width="260" height="44" class="layer-g" rx="3"/>
+  <text x="436" y="206" class="note" fill="#0F172A">Causal self-attention</text>
+  <rect x="420" y="240" width="260" height="36" class="mask" rx="3"/>
+  <text x="436" y="262" class="note" fill="#713F12">Lower-triangular mask</text>
+  <text x="406" y="400" class="note">Type case: GPT-1 public stack</text>
+
+  <rect x="740" y="100" width="320" height="340" class="panel" rx="6"/>
+  <text x="756" y="132" class="col-title">Encoder-only</text>
+  <text x="756" y="152" class="date">2018-10-11 � MLM / denoise</text>
+  <rect x="770" y="180" width="260" height="44" class="layer-b" rx="3"/>
+  <text x="786" y="206" class="note" fill="#0F172A">Bidirectional self-attn</text>
+  <text x="756" y="260" class="note">No autoregressive decode block</text>
+  <text x="756" y="400" class="note">Type case: BERT public stack</text>
+</svg>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" role="img" aria-labelledby="tphfig05-title tphfig05-desc">
+  <title id="tphfig05-title">Fig. 5 - Public mechanisms on the length and memory axis</title>
+  <desc id="tphfig05-desc">Timeline of sparse attention, linear approximations, KV-cache sharing, and IO-aware exact attention with first-public dates from cited papers.</desc>
+  <defs>
+    <style>
+      .bg { fill: #FFFBEB; }
+      .ink { fill: #1C1917; font-family: 'Segoe UI', system-ui, sans-serif; }
+      .muted { fill: #57534E; font-family: 'Segoe UI', system-ui, sans-serif; font-size: 11px; }
+      .axis { stroke: #1C1917; stroke-width: 1.4; }
+      .tick { stroke: #78716C; stroke-width: 1; }
+      .pill-sparse { fill: #FDE68A; stroke: #D97706; stroke-width: 1; }
+      .pill-kv { fill: #BFDBFE; stroke: #2563EB; stroke-width: 1; }
+      .pill-io { fill: #BBF7D0; stroke: #059669; stroke-width: 1; }
+      .yr { font-size: 11px; font-weight: 700; fill: #B45309; }
+      .lbl { font-size: 12px; font-weight: 600; }
+    </style>
+    <marker id="ax" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#1C1917"/>
+    </marker>
+  </defs>
+  <rect class="bg" width="1200" height="500"/>
+  <text x="44" y="44" class="ink" font-size="22" font-weight="bold">Length &amp; memory - public mechanism axis</text>
+  <text x="44" y="68" class="muted">Not a context-window marketing chart; each label ties to a dated public artifact in this series.</text>
+
+  <line x1="60" y1="260" x2="1140" y2="260" class="axis" marker-end="url(#ax)"/>
+
+  <g transform="translate(120,200)">
+    <rect x="0" y="0" width="150" height="52" class="pill-sparse" rx="6"/>
+    <text x="12" y="22" class="yr">2019-04-23</text>
+    <text x="12" y="42" class="lbl">Sparse Transformer</text>
+  </g>
+  <g transform="translate(300,120)">
+    <rect x="0" y="0" width="150" height="52" class="pill-sparse" rx="6"/>
+    <text x="12" y="22" class="yr">2020-04-10</text>
+    <text x="12" y="42" class="lbl">Longformer</text>
+  </g>
+  <g transform="translate(480,300)">
+    <rect x="0" y="0" width="150" height="52" class="pill-kv" rx="6"/>
+    <text x="12" y="22" class="yr">2019-11-06</text>
+    <text x="12" y="42" class="lbl">Multi-query attn</text>
+  </g>
+  <g transform="translate(660,180)">
+    <rect x="0" y="0" width="150" height="52" class="pill-io" rx="6"/>
+    <text x="12" y="22" class="yr">2022-05-27</text>
+    <text x="12" y="42" class="lbl">FlashAttention</text>
+  </g>
+  <g transform="translate(840,280)">
+    <rect x="0" y="0" width="150" height="52" class="pill-kv" rx="6"/>
+    <text x="12" y="22" class="yr">2023-05-22</text>
+    <text x="12" y="42" class="lbl">Grouped-query attn</text>
+  </g>
+  <g transform="translate(1000,140)">
+    <rect x="0" y="0" width="140" height="52" class="pill-sparse" rx="6"/>
+    <text x="12" y="22" class="yr">2023-09-27</text>
+    <text x="12" y="42" class="lbl">Sliding-window ship</text>
+  </g>
+
+  <text x="44" y="440" class="muted">FlashAttention changes the baseline exact-attention implementations must beat; sparse patterns trade fidelity for FLOPs.</text>
+</svg>

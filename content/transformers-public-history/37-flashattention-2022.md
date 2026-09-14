@@ -23,6 +23,13 @@ leads_to: ["tph-45", "tph-48"]
 **Primary source:** Dao, Fu, Ermon, Rudra, Ré, *FlashAttention: Fast and Memory-Efficient
 Exact Attention with IO-Awareness*, arXiv:2205.14135.
 
+<figure class="tph-figure tph-figure--spread">
+  <img src="content/transformers-public-history/staged/graphics/fig-05-context-mechanisms-timeline.svg"
+       alt="Timeline of public sparse attention KV-cache and IO-aware attention mechanisms from 2019 to 2023"
+       width="1200" height="500" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Public mechanisms on the length and memory axis preceding and surrounding FlashAttention (27 May 2022). Not a vendor context-window chart.</figcaption>
+</figure>
+
 ## The claim
 
 FlashAttention is the paper that told the 2019–2021 efficient-Transformer wave that **the

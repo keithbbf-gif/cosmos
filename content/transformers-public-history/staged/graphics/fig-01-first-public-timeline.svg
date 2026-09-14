@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="tphfig01-title tphfig01-desc">
+  <title id="tphfig01-title">Fig. 1 - Selected first-public transformer architecture milestones (2017-2026)</title>
+  <desc id="tphfig01-desc">Editorial timeline of arXiv v1 and official release dates for landmark public blocks; not a vendor product roadmap.</desc>
+  <defs>
+    <style>
+      .paper { fill: #F3F4F6; }
+      .ink { fill: #111827; font-family: 'Segoe UI', system-ui, sans-serif; }
+      .muted { fill: #4B5563; font-family: 'Segoe UI', system-ui, sans-serif; }
+      .caps { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; }
+      .label { font-size: 13px; font-weight: 600; }
+      .note { font-size: 11px; }
+      .year { font-size: 12px; font-weight: 700; fill: #1D4ED8; }
+      .band-core { fill: #DBEAFE; }
+      .band-fork { fill: #E0E7FF; }
+      .band-cost { fill: #D1FAE5; }
+      .band-sys { fill: #FEF3C7; }
+      .rule { stroke: #111827; stroke-width: 1.2; fill: none; }
+      .tick { stroke: #6B7280; stroke-width: 1; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#111827"/>
+    </marker>
+  </defs>
+  <rect class="paper" width="1200" height="520"/>
+  <rect x="0" y="0" width="1200" height="5" fill="#1D4ED8"/>
+  <text x="48" y="40" class="ink caps">Fig. 01</text>
+  <text x="48" y="68" class="ink" font-size="24" font-weight="bold">First public appearance - selected milestones</text>
+  <text x="48" y="94" class="muted note">Dates are arXiv v1 or official release class cited in this pack. Venue years and leaderboard hype are not the clock.</text>
+  <line x1="48" y1="112" x2="1152" y2="112" class="rule" stroke-width="0.5" opacity="0.3"/>
+
+  <rect x="60" y="128" width="260" height="30" class="band-core" rx="3"/>
+  <text x="70" y="148" class="muted caps" font-size="10">2017 core block</text>
+  <rect x="330" y="128" width="240" height="30" class="band-fork" rx="3"/>
+  <text x="340" y="148" class="muted caps" font-size="10">2018 objective fork</text>
+  <rect x="580" y="128" width="280" height="30" class="band-cost" rx="3"/>
+  <text x="590" y="148" class="muted caps" font-size="10">2019-2022 length &amp; memory</text>
+  <rect x="870" y="128" width="270" height="30" class="band-sys" rx="3"/>
+  <text x="880" y="148" class="muted caps" font-size="10">2022-2026 systems &amp; hybrids</text>
+
+  <line x1="72" y1="280" x2="1128" y2="280" class="rule" marker-end="url(#arrow)"/>
+
+  <line x1="100" y1="268" x2="100" y2="292" class="tick"/>
+  <text x="88" y="318" class="year">2017-06-12</text>
+  <text x="56" y="338" class="label">Transformer</text>
+  <text x="56" y="356" class="muted note">arXiv:1706.03762</text>
+
+  <line x1="280" y1="268" x2="280" y2="292" class="tick"/>
+  <text x="252" y="318" class="year">2018-06-11</text>
+  <text x="220" y="338" class="label">GPT-1 decoder-only</text>
+
+  <line x1="420" y1="268" x2="420" y2="292" class="tick"/>
+  <text x="392" y="318" class="year">2018-10-11</text>
+  <text x="360" y="338" class="label">BERT encoder-only</text>
+
+  <line x1="560" y1="268" x2="560" y2="292" class="tick"/>
+  <text x="540" y="318" class="year">2019-11-06</text>
+  <text x="500" y="338" class="label">Multi-query attn</text>
+
+  <line x1="700" y1="268" x2="700" y2="292" class="tick"/>
+  <text x="678" y="318" class="year">2020-04-10</text>
+  <text x="648" y="338" class="label">Longformer sparse</text>
+
+  <line x1="840" y1="268" x2="840" y2="292" class="tick"/>
+  <text x="818" y="318" class="year">2022-05-27</text>
+  <text x="788" y="338" class="label">FlashAttention</text>
+
+  <line x1="980" y1="268" x2="980" y2="292" class="tick"/>
+  <text x="958" y="318" class="year">2023-05-22</text>
+  <text x="928" y="338" class="label">Grouped-query attn</text>
+
+  <line x1="1100" y1="268" x2="1100" y2="292" class="tick"/>
+  <text x="1070" y="318" class="year">2024+</text>
+  <text x="1040" y="338" class="label">Public hybrid cards</text>
+
+  <text x="48" y="460" class="muted note">Editorial schematic - see draft cards for full source lines and -does not claim- fences.</text>
+</svg>

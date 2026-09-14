@@ -22,6 +22,13 @@ leads_to: ["tph-16", "tph-23"]
 **First public appearance:** 11 October 2018 as a completed fork (`taxonomy-after-bert`).
 **Primary source:** the three papers already dated in `tph-01`, `tph-07`, `tph-08`.
 
+<figure class="tph-figure tph-figure--architecture">
+  <img src="content/transformers-public-history/staged/graphics/fig-04-three-topologies-2018.svg"
+       alt="Comparison of encoder-decoder decoder-only and encoder-only transformer topologies with first-public dates"
+       width="1100" height="480" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Three incompatible ways to stack the 2017 layer after the October 2018 fork (taxonomy card tph-09). Masks and training objectives differ; the word “transformer” does not.</figcaption>
+</figure>
+
 ## The claim
 
 By 11 October 2018 the public record contains three incompatible ways to stack the 2017
