@@ -8,11 +8,24 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+portrait: null
+figures:
+  - ../assets/45-what-a-flop-stopped-meaning/historical-timeline.svg
+  - ../assets/45-what-a-flop-stopped-meaning/architecture-diagram.svg
 ---
-
 # What a FLOP stopped meaning
 
 The GeForce 256 launch talked about gigaflops and a Cray. The DGX-1 launch talked about 170 teraflops of FP16. The Hopper slides talk about petaflops-ish numbers that only exist in FP8 on a good day with the wind from the right library. The word FLOP stayed. The unit drifted until a responsible sentence looks like a legal disclaimer: sparse or dense, which format, which accumulation, which sparsity pattern, which clock, which neighbor chips you are allowed to count.
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/45-what-a-flop-stopped-meaning/historical-timeline.svg" alt="Timeline of public milestones for What a FLOP stopped meaning: dated anchors from press releases, papers, and product records — not live benchmark scores." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Calendar anchors for this piece. Years follow the essay; verify against Sources before publication.</figcaption>
+</figure>
+
 
 This is not only NVIDIA. Google’s TPU v1 paper uses TOPS, tera-operations per second, because 8-bit integer MACs are not floating-point. The industry then spent years mixing TOPS and FLOPS as if the letters were decoration. A TOP is not a FLOP. A sparse FLOP is not a dense FLOP. A TF32 FLOP is not an FP64 FLOP. If you add them, you are writing advertising.
 
@@ -28,6 +41,18 @@ A closing that is not a sermon: the flop did not become meaningless because we g
 
 Read the rest of the issue if you want the machines. This piece is only about the yardstick. The yardstick bent. We kept using it because the alternative was to say, every time, what we actually measured. We should say what we actually measured.
 
+
+
+
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/45-what-a-flop-stopped-meaning/architecture-diagram.svg" alt="Architecture diagram for What a FLOP stopped meaning: illustrative GPU or datacenter shape from the public record, not an official vendor block diagram." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Illustrative system shape for the argument — protocol and architecture, not scraped silicon photography unless noted.</figcaption>
+</figure>
 ## Sources
 
 - NVIDIA GeForce 256 launch flop language (1999).

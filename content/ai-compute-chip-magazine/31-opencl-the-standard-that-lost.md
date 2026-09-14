@@ -8,11 +8,24 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+portrait: null
+figures:
+  - ../assets/31-opencl-the-standard-that-lost/historical-timeline.svg
+  - ../assets/31-opencl-the-standard-that-lost/architecture-diagram.svg
 ---
-
 # OpenCL: the standard that arrived on time and still lost
 
 On December 9, 2008, at SIGGRAPH Asia in Singapore, the Khronos Group announced that OpenCL 1.0 was ratified and public. The press release is a roll call: Apple had proposed a draft six months earlier; AMD, NVIDIA, Intel, IBM, ARM, and a long list of others had sat on the working group. Neil Trevett bragged, in contemporary coverage, that they had done in six months what some standards bodies take five years to do. Apple wanted it for Snow Leopard. AMD said it would evolve the ATI Stream SDK to comply. The industry, on paper, had a portable, royalty-free way to write data-parallel C for CPUs, GPUs, and other odd processors.
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/31-opencl-the-standard-that-lost/historical-timeline.svg" alt="Timeline of public milestones for OpenCL: the standard that arrived on time and still lost: dated anchors from press releases, papers, and product records — not live benchmark scores." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Calendar anchors for this piece. Years follow the essay; verify against Sources before publication.</figcaption>
+</figure>
+
 
 CUDA was two years old as a named product and already a habit in the labs that had adopted it. OpenCL was cleaner as a committee artifact and clumsier as a thing you taught on a Tuesday. The host API was verbose. The kernel language was C with restrictions. The portability was real at the level of “it compiles” and fictional at the level of “it is fast.” Performance portability is the polite phrase. The impolite phrase is that every vendor’s OpenCL was a different machine with a common spelling.
 
@@ -26,6 +39,18 @@ If you want a physical object, the Khronos OpenCL 1.0 specification PDF is enoug
 
 A standalone article should not turn this into a morality play about open versus closed. OpenCL was open and late in the only way that mattered: late to the wetland. CUDA was closed and early to the wetland. The wetland won. That sentence is enough.
 
+
+
+
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/31-opencl-the-standard-that-lost/architecture-diagram.svg" alt="Architecture diagram for OpenCL: the standard that arrived on time and still lost: illustrative GPU or datacenter shape from the public record, not an official vendor block diagram." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Illustrative system shape for the argument — protocol and architecture, not scraped silicon photography unless noted.</figcaption>
+</figure>
 ## Sources
 
 - Khronos Group, “The Khronos Group Releases OpenCL 1.0 Specification,” December 9, 2008.

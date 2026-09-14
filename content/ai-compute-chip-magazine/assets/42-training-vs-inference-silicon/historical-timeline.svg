@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="460" viewBox="0 0 760 460" role="img" aria-labelledby="title desc">
+  <title id="title">Training silicon and inference silicon are different animals — timeline</title>
+  <desc id="desc">Dated anchors from the public record. Verify years in the essay Sources.</desc>
+  <rect width="100%" height="100%" fill="#f4f1ea"/>
+  <text x="24" y="36" font-family="Source Serif 4, Georgia, serif" font-size="20" font-weight="600" fill="#1c2430">Training silicon and inference silicon are different animals — timeline</text>
+  <text x="24" y="58" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#5a6470">Dated anchors from the public record. Verify years in the essay Sources.</text>
+  <rect x="24" y="80" width="96" height="28" rx="4" fill="#1a5f7a" stroke="#c5c9cf"/>
+  <text x="72" y="99" text-anchor="middle" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" font-weight="600" fill="#f4f1ea">2017</text>
+  <text x="136" y="94" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="14" font-weight="600" fill="#1c2430">Training silicon and inference silicon are different enters public rec</text>
+  <text x="136" y="112" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#5a6470">Not a live benchmark — calendar spine only.</text>
+  <line x1="118" y1="108" x2="118" y2="166" stroke="#c5c9cf" stroke-width="2"/>
+  <rect x="24" y="158" width="96" height="28" rx="4" fill="#e8e4dc" stroke="#c5c9cf"/>
+  <text x="72" y="177" text-anchor="middle" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" font-weight="600" fill="#1c2430">era</text>
+  <text x="136" y="172" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="14" font-weight="600" fill="#1c2430">Verify milestone years in prose</text>
+  <text x="136" y="190" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#5a6470">Not a live benchmark — calendar spine only.</text>
+  <line x1="118" y1="186" x2="118" y2="244" stroke="#c5c9cf" stroke-width="2"/>
+  <rect x="24" y="236" width="96" height="28" rx="4" fill="#1a5f7a" stroke="#c5c9cf"/>
+  <text x="72" y="255" text-anchor="middle" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" font-weight="600" fill="#f4f1ea">now</text>
+  <text x="136" y="250" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="14" font-weight="600" fill="#1c2430">Cross-check dates in essay Sources</text>
+  <text x="136" y="268" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#5a6470">Not a live benchmark — calendar spine only.</text>
+  <text x="24" y="446" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" fill="#5a6470">Original magazine illustration — public facts only. ai-compute-chip-magazine, staged.</text>
+</svg>

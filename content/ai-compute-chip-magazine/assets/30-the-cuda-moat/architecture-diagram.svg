@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="460" viewBox="0 0 760 460" role="img" aria-labelledby="title desc">
+  <title id="title">The CUDA moat: lock-in, libraries, and habit — diagram</title>
+  <desc id="desc">Illustrative architecture shape for this article. Not a vendor block diagram.</desc>
+  <rect width="100%" height="100%" fill="#f4f1ea"/>
+  <text x="24" y="36" font-family="Source Serif 4, Georgia, serif" font-size="20" font-weight="600" fill="#1c2430">The CUDA moat: lock-in, libraries, and habit — diagram</text>
+  <text x="24" y="58" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#5a6470">Illustrative architecture shape for this article. Not a vendor block diagram.</text>
+  <defs><marker id="ah" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#1a5f7a"/></marker></defs>
+  <rect x="24" y="72" width="712" height="360" fill="#e8e4dc" stroke="#c5c9cf" rx="4"/>
+  <rect x="48" y="100" width="620" height="40" rx="6" fill="#1a5f7a" stroke="#c5c9cf"/>
+  <text x="358.0" y="125.0" text-anchor="middle" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#1c2430">CUDA</text>
+  <rect x="48" y="152" width="620" height="40" rx="6" fill="#e8e4dc" stroke="#c5c9cf"/>
+  <text x="358.0" y="177.0" text-anchor="middle" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#1c2430">cuBLAS</text>
+  <rect x="48" y="204" width="620" height="40" rx="6" fill="#e8e4dc" stroke="#c5c9cf"/>
+  <text x="358.0" y="229.0" text-anchor="middle" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#1c2430">cuDNN</text>
+  <rect x="48" y="256" width="620" height="40" rx="6" fill="#e8e4dc" stroke="#c5c9cf"/>
+  <text x="358.0" y="281.0" text-anchor="middle" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#1c2430">NCCL</text>
+  <rect x="48" y="308" width="620" height="40" rx="6" fill="#e8e4dc" stroke="#c5c9cf"/>
+  <text x="358.0" y="333.0" text-anchor="middle" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#1c2430">apps</text>
+  <text x="24" y="446" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" fill="#5a6470">Original magazine illustration — public facts only. ai-compute-chip-magazine, staged.</text>
+</svg>

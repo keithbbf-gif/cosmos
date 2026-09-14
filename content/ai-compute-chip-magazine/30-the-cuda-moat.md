@@ -8,11 +8,24 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+portrait: null
+figures:
+  - ../assets/30-the-cuda-moat/historical-timeline.svg
+  - ../assets/30-the-cuda-moat/architecture-diagram.svg
 ---
-
 # The CUDA moat: lock-in, libraries, and habit
 
 People say “CUDA moat” as if it were a single alligator. It is a wetland. The C++ dialect is one patch. The compiler is another. cuDNN, cuBLAS, cuFFT, NCCL, TensorRT, the profilers, the containers, the cloud images, the Stack Overflow answers, the course notes, the hiring filters that say “CUDA experience” — those are the water. You can port a kernel. You cannot port a wetland in a quarter.
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/30-the-cuda-moat/historical-timeline.svg" alt="Timeline of public milestones for The CUDA moat: lock-in, libraries, and habit: dated anchors from press releases, papers, and product records — not live benchmark scores." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Calendar anchors for this piece. Years follow the essay; verify against Sources before publication.</figcaption>
+</figure>
+
 
 This is not a secret NVIDIA leaked. It is the ordinary economics of a successful platform, visible from outside. Intel had it with x86. Microsoft had it with Windows. The interesting CUDA-specific fact is that the wetland grew during years when the hardware was also a gaming card, so the developer base could recruit from a consumer market. Students had GeForce. Labs had Tesla. The same nouns worked. That double market is the part competitors keep having to reconstruct.
 
@@ -28,6 +41,18 @@ If you want a physical object, a shelf of CUDA programming guides from 2.0 to 12
 
 This article names no unfiled inventions and no private stacks. It names a public business fact: NVIDIA’s compute advantage, as of the mid-2020s, is still easier to describe as software gravity than as a single transistor trick. The transistors matter. The gravity is why a faster transistor from someone else does not immediately get a training job.
 
+
+
+
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/30-the-cuda-moat/architecture-diagram.svg" alt="Architecture diagram for The CUDA moat: lock-in, libraries, and habit: illustrative GPU or datacenter shape from the public record, not an official vendor block diagram." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Illustrative system shape for the argument — protocol and architecture, not scraped silicon photography unless noted.</figcaption>
+</figure>
 ## Sources
 
 - Public NVIDIA library catalog: CUDA Toolkit, cuDNN, cuBLAS, NCCL, TensorRT.

@@ -8,11 +8,24 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+portrait: null
+figures:
+  - ../assets/11-supercomputers-notice-the-gpu/historical-timeline.svg
+  - ../assets/11-supercomputers-notice-the-gpu/architecture-diagram.svg
 ---
-
 # Supercomputers notice the graphics card
 
 There is a version of GPU history that starts in a Toronto bedroom in 2012. It is a good story. It is not the first time a national machine treated a graphics architecture as a compute node. The public TOP500 lists of the late 2000s and early 2010s are full of NVIDIA Tesla boards in cabinets that did not care about frame rate.
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/11-supercomputers-notice-the-gpu/historical-timeline.svg" alt="Timeline of public milestones for Supercomputers notice the graphics card: dated anchors from press releases, papers, and product records — not live benchmark scores." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Calendar anchors for this piece. Years follow the essay; verify against Sources before publication.</figcaption>
+</figure>
+
 
 China’s Tianhe-1A, announced as a TOP500 number one in November 2010, mixed Intel CPUs with NVIDIA Fermi GPUs. The United States’ Titan at Oak Ridge, which took the top spot in November 2012, paired AMD Opteron CPUs with NVIDIA Tesla K20X GPUs. Those dates sit on either side of AlexNet like bookends that a lot of AI retellings forget. The labs were already buying the cards, writing CUDA into climate and materials codes, and arguing about MPI plus kernels.
 
@@ -30,6 +43,18 @@ If you want a physical object, you probably cannot have Titan’s cabinets. You 
 
 The lesson for later AI clusters is not mystical. It is that the GPU entered the datacenter as an HPC guest and stayed as a landlord. The guest years are this article. The landlord years are every article after 2016.
 
+
+
+
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/11-supercomputers-notice-the-gpu/architecture-diagram.svg" alt="Architecture diagram for Supercomputers notice the graphics card: illustrative GPU or datacenter shape from the public record, not an official vendor block diagram." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Illustrative system shape for the argument — protocol and architecture, not scraped silicon photography unless noted.</figcaption>
+</figure>
 ## Sources
 
 - TOP500, November 2010: Tianhe-1A (NUDT; Intel CPUs + NVIDIA Fermi GPUs).

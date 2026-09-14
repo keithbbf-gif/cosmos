@@ -8,11 +8,24 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+portrait: null
+figures:
+  - ../assets/41-power-water-building-as-limit/historical-timeline.svg
+  - ../assets/41-power-water-building-as-limit/architecture-diagram.svg
 ---
-
 # Power, water, and the building as the limit
 
 The DGX-1’s 3200 watts in 3U was already a facility joke in 2016. A modern NVIDIA rack, as sold in 2024 public slides, is a number you discuss with an electrician and a mechanical engineer before you discuss it with a researcher. Google’s TPU pods, from the first public photos, have the pipes in the shot on purpose. The pipes are not decoration. They are how a systolic array stays a systolic array.
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/41-power-water-building-as-limit/historical-timeline.svg" alt="Timeline of public milestones for Power, water, and the building as the limit: dated anchors from press releases, papers, and product records — not live benchmark scores." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Calendar anchors for this piece. Years follow the essay; verify against Sources before publication.</figcaption>
+</figure>
+
 
 This is a chip-history article because the chips asked for it. TDP on a Tesla C870 was about 170 watts. TDP on a later SXM GPU is a multiple of that, and the node has eight of them, and the rack has several nodes, and the row has a PDU story. At some point “we will just add GPUs” becomes “we will add a building.” Hyperscalers said that out loud in earnings calls. National labs said it in environmental assessments. Newspapers said it next to pictures of data centers in dry places.
 
@@ -28,6 +41,18 @@ If you want a physical object, a flow meter on a cooling loop is more honest tha
 
 This piece will not give you a megawatt number for a secret cluster. It will say that after 2016, a serious article about compute chips that ignores power and water is a product brochure. The building is the last layer of the machine. The last layer is starting to show up in the first slide. That is the history.
 
+
+
+
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/41-power-water-building-as-limit/architecture-diagram.svg" alt="Architecture diagram for Power, water, and the building as the limit: illustrative GPU or datacenter shape from the public record, not an official vendor block diagram." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Illustrative system shape for the argument — protocol and architecture, not scraped silicon photography unless noted.</figcaption>
+</figure>
 ## Sources
 
 - NVIDIA DGX-1 launch spec: 3200 W, 3U (2016).

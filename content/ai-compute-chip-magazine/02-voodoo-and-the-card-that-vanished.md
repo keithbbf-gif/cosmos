@@ -8,11 +8,25 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+portrait: null
+figures:
+  - ../assets/02-voodoo-and-the-card-that-vanished/historical-timeline.svg
+  - ../assets/02-voodoo-and-the-card-that-vanished/architecture-diagram.svg
+  - ../assets/02-voodoo-and-the-card-that-vanished/3dfx-voodoo2.jpg
 ---
-
 # The 3D card that taught a generation, then vanished
 
 Before anyone argued about CUDA cores, a lot of people learned what a 3D card was by installing a 3dfx Voodoo. The original Voodoo Graphics, 1996, was not a GPU in the later job-title sense. It was a pass-through 2D-plus-3D sandwich. You plugged your VGA card into the Voodoo, and the Voodoo plugged into the monitor. When a Glide game ran, the 3D board took the screen. When it didn’t, the 2D card showed Windows again. The kludge was the product. It taught a generation that 3D was a separate machine you added, not a feature your motherboard grew.
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/02-voodoo-and-the-card-that-vanished/historical-timeline.svg" alt="Timeline of public milestones for The 3D card that taught a generation, then vanished: dated anchors from press releases, papers, and product records — not live benchmark scores." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Calendar anchors for this piece. Years follow the essay; verify against Sources before publication.</figcaption>
+</figure>
+
 
 Glide was the private language. 3dfx’s API was simpler than the contemporary Direct3D and less of a committee than OpenGL felt to a game shop on a deadline. Titles that spoke Glide looked better on Voodoo than they had any right to. That is not nostalgia talking; it is how a lock-in starts. Developers wrote to the card that kids actually bought. Kids bought the card that ran the games. For a couple of Christmas seasons the loop held.
 
@@ -30,6 +44,26 @@ A standalone magazine piece should resist the eulogy that makes 3dfx the “true
 
 If you want a physical object, find a Voodoo2 with the pass-through VGA cables still in the bag. The cables are the thesis. For a few years, 3D was something you inserted between the computer and the screen. Then the computer swallowed it, named it GPU, and eventually asked it to do linear algebra for a living.
 
+
+
+
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure chip-figure-photo">
+<img src="../assets/02-voodoo-and-the-card-that-vanished/3dfx-voodoo2.jpg" alt="Historical product photograph for The 3D card that taught a generation, then vanished: licensed hardware image, no generated faces. See RIGHTS.md for attribution." width="760" height="507" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Licensed product photograph (hardware only). Attribution and license: RIGHTS.md.</figcaption>
+</figure>
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/02-voodoo-and-the-card-that-vanished/architecture-diagram.svg" alt="Architecture diagram for The 3D card that taught a generation, then vanished: illustrative GPU or datacenter shape from the public record, not an official vendor block diagram." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Illustrative system shape for the argument — protocol and architecture, not scraped silicon photography unless noted.</figcaption>
+</figure>
 ## Sources
 
 - Contemporary 3dfx product record: Voodoo Graphics (1996), Voodoo2 (1998), Voodoo3 (1999), Voodoo5 (2000).

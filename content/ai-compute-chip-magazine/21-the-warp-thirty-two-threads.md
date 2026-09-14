@@ -8,11 +8,24 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+portrait: null
+figures:
+  - ../assets/21-the-warp-thirty-two-threads/historical-timeline.svg
+  - ../assets/21-the-warp-thirty-two-threads/architecture-diagram.svg
 ---
-
 # The warp: thirty-two threads that live or die together
 
 CUDA’s public hierarchy is grids, blocks, and threads. The hardware’s favorite unit is hiding one layer down: the warp. On NVIDIA GPUs, for a long public stretch of generations, a warp is thirty-two threads that share an instruction stream. They march together. If they disagree about where to go — a branch, a divergence — the machine has to take both roads and mask off the loiterers. That fact has been in the programming guides and the architecture whitepapers for as long as people have been writing serious CUDA. It is not a secret. It is a tax that beginners meet as “why is my kernel slow.”
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/21-the-warp-thirty-two-threads/historical-timeline.svg" alt="Timeline of public milestones for The warp: thirty-two threads that live or die together: dated anchors from press releases, papers, and product records — not live benchmark scores." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Calendar anchors for this piece. Years follow the essay; verify against Sources before publication.</figcaption>
+</figure>
+
 
 SIMT is the name NVIDIA put on this: single instruction, multiple threads. It is SIMD with a friendlier story and a per-thread register file. The friendliness is real. You write scalar code. The unfriendliness is also real. Thirty-two is not a metaphor. A block of thirty-three threads wastes a slot. A warp that splits on `if (threadIdx.x > 16)` pays for both sides. A warp that gathers from random addresses turns a beautiful memory pipe into a drizzle.
 
@@ -26,6 +39,18 @@ If you want a physical object, you will not find a warp in a box. You will find 
 
 This piece is not a how-to on avoiding divergence. The public guides already do that. It is a history of a constant. Few constants in computing last twenty years in volume hardware. This one did. Respect it, then ask, when a new vendor arrives, what their constant is — and whether your software can forgive a different one.
 
+
+
+
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/21-the-warp-thirty-two-threads/architecture-diagram.svg" alt="Architecture diagram for The warp: thirty-two threads that live or die together: illustrative GPU or datacenter shape from the public record, not an official vendor block diagram." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Illustrative system shape for the argument — protocol and architecture, not scraped silicon photography unless noted.</figcaption>
+</figure>
 ## Sources
 
 - NVIDIA CUDA C Programming Guide: warps, SIMT, divergence.

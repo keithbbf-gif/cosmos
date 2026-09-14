@@ -8,11 +8,24 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+portrait: null
+figures:
+  - ../assets/32-amd-firestream-rocm-hip/historical-timeline.svg
+  - ../assets/32-amd-firestream-rocm-hip/architecture-diagram.svg
 ---
-
 # AMD's long compute detour
 
 AMD’s GPU-compute story is a sequence of doors. Close-to-Metal was an early, low-level ATI door that developers treated like a live wire. The Stream SDK tried to be a product. OpenCL, which AMD publicly championed in 2008, tried to be a standard. ROCm, announced in 2016, tried to be an open Linux compute stack you could put on a cluster without asking NVIDIA’s permission. HIP, the Heterogeneous-compute Interface for Portability, tried to be CUDA with the serial numbers filed off — a C++ dialect close enough that a tool, HIPIFY, could rewrite a lot of the source and leave you to fight the rest.
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/32-amd-firestream-rocm-hip/historical-timeline.svg" alt="Timeline of public milestones for AMD's long compute detour: dated anchors from press releases, papers, and product records — not live benchmark scores." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Calendar anchors for this piece. Years follow the essay; verify against Sources before publication.</figcaption>
+</figure>
+
 
 None of these doors is a joke. People shipped codes through all of them. The reason the story feels like a detour is the destination. The destination, for most of the 2010s, was “run the thing the NVIDIA people already run.” That is a brutal product requirement. It means your success metric is compatibility with someone else’s wetland, plus performance on your own memory system and wavefront width. HIPIFY’s own documentation is honest about the leftovers: libraries with no twin, kernels tuned for the wrong machine, the last mile that is always manual.
 
@@ -26,6 +39,18 @@ If you want a physical object, an Instinct MI250X or MI300 board is the late-per
 
 This article is not a prediction about who wins 2027. It is a record of a company that never left the aisle, never owned the default language, and still put accelerators into the fastest public supercomputers on earth. That combination is allowed. History is not a single-elimination bracket.
 
+
+
+
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/32-amd-firestream-rocm-hip/architecture-diagram.svg" alt="Architecture diagram for AMD's long compute detour: illustrative GPU or datacenter shape from the public record, not an official vendor block diagram." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Illustrative system shape for the argument — protocol and architecture, not scraped silicon photography unless noted.</figcaption>
+</figure>
 ## Sources
 
 - Khronos OpenCL 1.0 release (2008) and AMD’s public Stream-SDK commitment.

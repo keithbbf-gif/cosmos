@@ -8,11 +8,24 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+portrait: null
+figures:
+  - ../assets/17-ampere-a100-mig/historical-timeline.svg
+  - ../assets/17-ampere-a100-mig/architecture-diagram.svg
 ---
-
 # Ampere A100 and the sliced GPU
 
 The A100, Ampere generation, 2020, is easy to file under “more.” More HBM2e. More Tensor Core throughput. A 40 GB then 80 GB memory story. TF32 as a format that let people keep writing FP32 in the framework and still hit a tensor path. All of that is on the public slides. The idea that is easier to miss is MIG: Multi-Instance GPU. One physical A100 can be partitioned into smaller, isolated GPU instances, each with its own memory slice and SM slice, suitable for inference or for the kind of shared cluster where seven teams want a piece of the expensive board.
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/17-ampere-a100-mig/historical-timeline.svg" alt="Timeline of public milestones for Ampere A100 and the sliced GPU: dated anchors from press releases, papers, and product records — not live benchmark scores." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Calendar anchors for this piece. Years follow the essay; verify against Sources before publication.</figcaption>
+</figure>
+
 
 MIG is a cloud idea that arrived in silicon. Hyperscalers had already been time-slicing and MIG-less sharing with various levels of pain. NVIDIA’s bet was that a hard partition, done in the device, would be something a scheduler could treat like a smaller SKU. The docs read like an operations manual because they are one: instance profiles, memory sizes, how many you can have at once, what you cannot do while partitioned. That prose is the opposite of a keynote. It is also how you know the customer is a platform team, not a single researcher with a box.
 
@@ -26,6 +39,18 @@ If you want a physical object, an A100 80 GB SXM is the one that still shows up 
 
 This piece does not follow Hopper. Hopper will add a transformer-specific story and a different scale. A100 is the last NVIDIA training GPU a lot of institutions bought before the prices went lunar. It is also the first one that wanted to be several GPUs when you asked.
 
+
+
+
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/17-ampere-a100-mig/architecture-diagram.svg" alt="Architecture diagram for Ampere A100 and the sliced GPU: illustrative GPU or datacenter shape from the public record, not an official vendor block diagram." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Illustrative system shape for the argument — protocol and architecture, not scraped silicon photography unless noted.</figcaption>
+</figure>
 ## Sources
 
 - NVIDIA A100 Tensor Core GPU architecture whitepaper (2020): TF32, HBM2e, MIG overview.

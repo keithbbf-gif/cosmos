@@ -8,11 +8,24 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+portrait: null
+figures:
+  - ../assets/33-intel-third-chair/historical-timeline.svg
+  - ../assets/33-intel-third-chair/architecture-diagram.svg
 ---
-
 # Intel's third chair
 
 Intel’s relationship to the GPU is a long story about a company that owned the default computer and then watched the default computer’s hot work move to someone else’s die. The public chapters have different names. Larrabee was a many-core x86 graphics bet that became a cautionary talk. Intel Xe is a branding of GPU efforts that includes integrated graphics and datacenter parts. Ponte Vecchio, the Xe HPC GPU in the Aurora supercomputer at Argonne, is a mosaic of tiles and EMIB and a statement that Intel still belongs in TOP500 photographs. Habana’s Gaudi line, which Intel bought, is an AI training NIC-and-accelerator story that does not look like a GeForce and does not want to.
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/33-intel-third-chair/historical-timeline.svg" alt="Timeline of public milestones for Intel's third chair: dated anchors from press releases, papers, and product records — not live benchmark scores." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Calendar anchors for this piece. Years follow the essay; verify against Sources before publication.</figcaption>
+</figure>
+
 
 The third chair is a structural fact, not an insult. NVIDIA has the wetland. AMD has the other house and, at times, the fastest public machine. Intel has the CPU, the server account, the compiler people, and a need not to watch the acceleration budget walk out of the socket. Every few years they put a product in the chair and the internet decides whether to laugh. Sometimes the laugh is fair (the launch is late, the software is thin). Sometimes the laugh is just the wetland talking.
 
@@ -26,6 +39,18 @@ If you want a physical object, a Ponte Vecchio OAM or a Gaudi board is the datac
 
 This piece stays public and stays kind enough to be accurate. Intel did not “fail at AI chips” in a single cinematic year. Intel has been sitting down, standing up, and sitting down again while the table was being rebuilt around a different default processor. The third chair is still there. People still sit in it. The check, most nights, still goes to the first chair.
 
+
+
+
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/33-intel-third-chair/architecture-diagram.svg" alt="Architecture diagram for Intel's third chair: illustrative GPU or datacenter shape from the public record, not an official vendor block diagram." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Illustrative system shape for the argument — protocol and architecture, not scraped silicon photography unless noted.</figcaption>
+</figure>
 ## Sources
 
 - Public Larrabee history (Intel many-core graphics bet; cancellation / retargeting as documented in contemporary press).

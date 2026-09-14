@@ -8,11 +8,25 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+portrait: null
+figures:
+  - ../assets/34-tpu-v1-board-in-a-datacenter/historical-timeline.svg
+  - ../assets/34-tpu-v1-board-in-a-datacenter/architecture-diagram.svg
+  - ../assets/34-tpu-v1-board-in-a-datacenter/tpu-v4.png
 ---
-
 # A board in a Google datacenter
 
 Norm Jouppi walked on stage at Google I/O on May 18, 2016, and described a chip Google had already been using. The Tensor Processing Unit, TPU, was a custom ASIC for machine learning, tailored for TensorFlow, running in Google’s datacenters for more than a year. The blog post that day says the board fits in a hard-disk slot. It says first silicon to production applications took twenty-two days. It says an order of magnitude better performance per watt for ML, “roughly equivalent to fast-forwarding technology about seven years.” Those are Google’s sentences. They are marketing and they are also the first public description of a machine that had already been answering queries.
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/34-tpu-v1-board-in-a-datacenter/historical-timeline.svg" alt="Timeline of public milestones for A board in a Google datacenter: dated anchors from press releases, papers, and product records — not live benchmark scores." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Calendar anchors for this piece. Years follow the essay; verify against Sources before publication.</figcaption>
+</figure>
+
 
 The later paper is the one you should trust for the numbers. “In-Datacenter Performance Analysis of a Tensor Processing Unit,” Jouppi and dozens of co-authors, ISCA 2017, arXiv 1704.04760. The TPU had been deployed since 2015 for inference. The heart of the chip is a 256×256 array of 8-bit multiply-accumulates: 65,536 MACs, 92 tera-ops per second peak, 28 MiB of software-managed on-chip memory. The comparison machines, in the same datacenters, were a Haswell CPU server and an NVIDIA K80. The production workload mix — MLPs, CNNs, LSTMs — was, they said, 95 percent of their datacenter NN inference demand. Average speedup about 15–30×, TOPS per watt about 30–80×. A sentence in the abstract still stings if you love GPUs: the TPU’s deterministic execution matched 99th-percentile latency better than the time-varying tricks CPUs and GPUs use to help average throughput.
 
@@ -26,6 +40,26 @@ If you want a physical object, you want the photograph Google published of the T
 
 This piece stays with v1 on purpose. The v1 paper is one of the cleanest public documents we have about why a company would build its own chip: they knew the workload, they knew the SLO, they knew the power bill, and they were willing to delete generality. Everything after is scale. The deletion is the origin.
 
+
+
+
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure chip-figure-photo">
+<img src="../assets/34-tpu-v1-board-in-a-datacenter/tpu-v4.png" alt="Historical product photograph for A board in a Google datacenter: licensed hardware image, no generated faces. See RIGHTS.md for attribution." width="760" height="507" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Licensed product photograph (hardware only). Attribution and license: RIGHTS.md.</figcaption>
+</figure>
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/34-tpu-v1-board-in-a-datacenter/architecture-diagram.svg" alt="Architecture diagram for A board in a Google datacenter: illustrative GPU or datacenter shape from the public record, not an official vendor block diagram." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Illustrative system shape for the argument — protocol and architecture, not scraped silicon photography unless noted.</figcaption>
+</figure>
 ## Sources
 
 - Norm Jouppi, Google Cloud Blog, “Google supercharges machine learning tasks with TPU custom chip,” May 18, 2016 (I/O announcement; disk-slot board; 22 days; >1 year in production).

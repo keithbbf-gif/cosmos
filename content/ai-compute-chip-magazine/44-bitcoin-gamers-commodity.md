@@ -8,11 +8,24 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+portrait: null
+figures:
+  - ../assets/44-bitcoin-gamers-commodity/historical-timeline.svg
+  - ../assets/44-bitcoin-gamers-commodity/architecture-diagram.svg
 ---
-
 # Bitcoin, gamers, and the GPU as a commodity
 
 The first time a lot of non-specialists learned that a GPU was more than a game toy, it was not AlexNet. It was a mining rig. Bitcoin, in its GPU era (roughly 2010–2013, before ASICs ate that particular hash), and then Ethereum, for a much longer and louder stretch, turned GeForce and Radeon cards into cash-flow objects you bolted to a wooden frame. Newegg sold out. eBay prices detached from MSRP. Gamers wrote essays. NVIDIA and AMD issued statements about mining-specific SKUs and hash-rate limiters that people immediately treated as a puzzle.
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/44-bitcoin-gamers-commodity/historical-timeline.svg" alt="Timeline of public milestones for Bitcoin, gamers, and the GPU as a commodity: dated anchors from press releases, papers, and product records — not live benchmark scores." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Calendar anchors for this piece. Years follow the essay; verify against Sources before publication.</figcaption>
+</figure>
+
 
 This is compute-chip history because it taught the supply chain a lesson the 2023 H100 shortage would teach again: when a new buyer appears with a simple, parallel, profitable workload, the consumer SKU is not a consumer SKU anymore. It is a commodity with a hash rate or, later, a token rate. The packaging, the LHR firmware, the “CMP” mining cards — those are public product responses to a public frenzy. They belong in the record next to DGX-1, not in a footnote of shame.
 
@@ -26,6 +39,18 @@ If you want a physical object, an open-air mining frame with eight leftover rise
 
 This piece stays away from how-to. No algorithms, no “best card,” no current profitability. Those are other magazines and they age badly. The fact that remains is the commodity lesson. A programmable parallel chip with a consumer price will be bought by whoever has the most desperate parallel loop. In 2011 that loop was a hash. In 2012 it was also, in a bedroom, a convnet. In 2023 it was a transformer. The loop changes. The commodity behavior rhymes.
 
+
+
+
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/44-bitcoin-gamers-commodity/architecture-diagram.svg" alt="Architecture diagram for Bitcoin, gamers, and the GPU as a commodity: illustrative GPU or datacenter shape from the public record, not an official vendor block diagram." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Illustrative system shape for the argument — protocol and architecture, not scraped silicon photography unless noted.</figcaption>
+</figure>
 ## Sources
 
 - Period public record of Bitcoin GPU mining and the later ASIC shift (2010–2013).

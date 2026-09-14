@@ -8,11 +8,25 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+portrait: null
+figures:
+  - ../assets/07-november-8-2006-cuda-gets-a-name/historical-timeline.svg
+  - ../assets/07-november-8-2006-cuda-gets-a-name/architecture-diagram.svg
+  - ../assets/07-november-8-2006-cuda-gets-a-name/geforce-8800-gtx-board.jpg
 ---
-
 # November 8, 2006: CUDA gets a name
 
 Santa Clara, November 8, 2006. NVIDIA put two stories on the same calendar day. One was a graphics story: GeForce 8800, DirectX 10, Crysis in the demo room, nForce 680i for Intel’s new quad-cores, a San Jose unveiling aimed at people who still bought PCs to play games. The other was a computing story: CUDA, “a fundamentally new architecture for computing” on NVIDIA GPUs, and “the industry’s first C-compiler development environment for the GPU.”
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/07-november-8-2006-cuda-gets-a-name/historical-timeline.svg" alt="Timeline of public milestones for November 8, 2006: CUDA gets a name: dated anchors from press releases, papers, and product records — not live benchmark scores." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Calendar anchors for this piece. Years follow the essay; verify against Sources before publication.</figcaption>
+</figure>
+
 
 The computing press release is the one this article is about. It says CUDA was available that day on the new GeForce 8800 and would come to Quadro. It says the new architecture let GPU cores communicate, synchronize, and share data, which — NVIDIA claimed — earlier stream computing on GPUs could not do. InfoWorld’s write-up the same day translated the pitch for people who did not live in SIGGRAPH: you could do numerical work on a graphics chip instead of relying on a standard processor.
 
@@ -28,6 +42,26 @@ A later habit is to treat 2006 as Year Zero of AI chips. That is sloppy. 2006 is
 
 If you want a physical object, find a GeForce 8800 GTX: two slots, two six-pin power plugs, the fan that taught a generation of cases about airflow. It is a gaming card. It is also the first card whose box could, without lying, be associated with the word CUDA. The word is the event. The silicon is the reason the word was allowed to exist.
 
+
+
+
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure chip-figure-photo">
+<img src="../assets/07-november-8-2006-cuda-gets-a-name/geforce-8800-gtx-board.jpg" alt="Historical product photograph for November 8, 2006: CUDA gets a name: licensed hardware image, no generated faces. See RIGHTS.md for attribution." width="760" height="507" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Licensed product photograph (hardware only). Attribution and license: RIGHTS.md.</figcaption>
+</figure>
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/07-november-8-2006-cuda-gets-a-name/architecture-diagram.svg" alt="Architecture diagram for November 8, 2006: CUDA gets a name: illustrative GPU or datacenter shape from the public record, not an official vendor block diagram." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Illustrative system shape for the argument — protocol and architecture, not scraped silicon photography unless noted.</figcaption>
+</figure>
 ## Sources
 
 - NVIDIA, “NVIDIA Unveils CUDA — The GPU Computing Revolution Begins,” November 8, 2006 (archived).

@@ -8,11 +8,24 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+portrait: null
+figures:
+  - ../assets/14-pascal-p100-hbm2-nvlink/historical-timeline.svg
+  - ../assets/14-pascal-p100-hbm2-nvlink/architecture-diagram.svg
 ---
-
 # Pascal P100: stacked memory and a new wire
 
 The Tesla P100, Pascal generation, 2016, is the first NVIDIA compute GPU a lot of people remember as a different species from a gaming card. Not because it refused a monitor — Tesla had been doing that since 2007 — but because the package changed. High Bandwidth Memory sat on the same interposer as the GPU. NVLink, a proprietary high-speed interconnect, sat next to PCI Express and made “how the cards talk to each other” a first-class spec. The DGX-1 announcement in April 2016 is eight of those cards in one box. The P100 is the reason the box is not just a thicker PC.
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/14-pascal-p100-hbm2-nvlink/historical-timeline.svg" alt="Timeline of public milestones for Pascal P100: stacked memory and a new wire: dated anchors from press releases, papers, and product records — not live benchmark scores." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Calendar anchors for this piece. Years follow the essay; verify against Sources before publication.</figcaption>
+</figure>
+
 
 HBM2 is the quieter revolution. For a decade the GPU’s appetite had been growing faster than GDDR could politely feed it. Stacking DRAM and putting it closer to the die is how you buy bandwidth without another fifty watts of I/O theater. AMD had already shipped HBM on a consumer Fiji GPU in 2015. NVIDIA’s P100 brought stacked memory into the Tesla line at the moment deep learning was turning from papers into purchase orders. The 16 GB figure in the first DGX-1 spec is a memory figure, not a core figure. That is the tell.
 
@@ -28,6 +41,18 @@ If you want a physical object, an SXM P100 on a removed DGX-1 baseboard is the o
 
 Pascal is not a personality. It is a generation where memory and interconnect stopped being “and also” bullets. After P100 you cannot write a compute-GPU story that is only about SM count. The people who tried, in 2016, were still writing 2010 reviews.
 
+
+
+
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/14-pascal-p100-hbm2-nvlink/architecture-diagram.svg" alt="Architecture diagram for Pascal P100: stacked memory and a new wire: illustrative GPU or datacenter shape from the public record, not an official vendor block diagram." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Illustrative system shape for the argument — protocol and architecture, not scraped silicon photography unless noted.</figcaption>
+</figure>
 ## Sources
 
 - NVIDIA DGX-1 launch, April 5, 2016: eight Tesla P100, 16 GB each, NVLink hybrid cube mesh, up to 170 FP16 teraflops.

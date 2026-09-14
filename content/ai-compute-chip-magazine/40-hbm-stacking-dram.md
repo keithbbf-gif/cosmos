@@ -8,11 +8,24 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+portrait: null
+figures:
+  - ../assets/40-hbm-stacking-dram/historical-timeline.svg
+  - ../assets/40-hbm-stacking-dram/architecture-diagram.svg
 ---
-
 # HBM: stacking DRAM until the package screamed
 
 GDDR, the memory of gaming cards, is a set of chips around a GPU, talking over a wide, fast, power-hungry interface on a PCB. High Bandwidth Memory, HBM, is a stack of DRAM dies with through-silicon vias, sitting on an interposer next to the GPU (or the TPU, or the Instinct, or the Xe HPC tile), talking a shorter, wider, calmer-looking talk. JEDEC standardized it. SK Hynix, Samsung, and Micron shipped it. AMD put it on the Fiji consumer GPU in 2015 and made a lot of people stare at a package. NVIDIA put it on the Tesla P100 in 2016 and made a lot of people reorder their datacenters. The later letters — HBM2, HBM2e, HBM3, HBM3e — are the same idea with more speed and more heat arguments.
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/40-hbm-stacking-dram/historical-timeline.svg" alt="Timeline of public milestones for HBM: stacking DRAM until the package screamed: dated anchors from press releases, papers, and product records — not live benchmark scores." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Calendar anchors for this piece. Years follow the essay; verify against Sources before publication.</figcaption>
+</figure>
+
 
 The magazine image is a cross-section. Dies like a club sandwich. Vias like elevators. An interposer like a city block. The GPU is the expensive building on the block. The stacks are the apartment towers that exist only to feed it. When a keynote says “8 TB/s,” that number is this sandwich plus physics plus a lot of yield anxiety.
 
@@ -28,6 +41,18 @@ If you want a physical object, a delidded P100 or MI-series package in a lab pho
 
 This article is not a JEDEC spec recitation. It is the reason Pascal looked different, the reason A100 80 GB meant something, the reason a TPU pod’s per-chip memory is a sentence in a cloud doc. Stacked DRAM is how the decade answered the decade’s boss. The scream in the title is thermal and economic. Both were audible.
 
+
+
+
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/40-hbm-stacking-dram/architecture-diagram.svg" alt="Architecture diagram for HBM: stacking DRAM until the package screamed: illustrative GPU or datacenter shape from the public record, not an official vendor block diagram." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Illustrative system shape for the argument — protocol and architecture, not scraped silicon photography unless noted.</figcaption>
+</figure>
 ## Sources
 
 - JEDEC HBM/HBM2/HBM3 public standard announcements.

@@ -8,11 +8,24 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+portrait: null
+figures:
+  - ../assets/06-ian-buck-walks-into-santa-clara/historical-timeline.svg
+  - ../assets/06-ian-buck-walks-into-santa-clara/architecture-diagram.svg
 ---
-
 # Ian Buck walks into Santa Clara
 
 Ian Buck’s public résumé from the Stanford years is almost too tidy. BrookGPU. Advisor: Pat Hanrahan. A GPU Gems chapter on computation on GPUs. A summer at Microsoft Research. Then NVIDIA, GPU computing software, the CUDA toolkit, compiler, libraries, driver, tools. The tidy version is also the documented version. The interesting part is what he has said, in talks anyone can watch, about the choices inside that job.
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/06-ian-buck-walks-into-santa-clara/historical-timeline.svg" alt="Timeline of public milestones for Ian Buck walks into Santa Clara: dated anchors from press releases, papers, and product records — not live benchmark scores." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Calendar anchors for this piece. Years follow the essay; verify against Sources before publication.</figcaption>
+</figure>
+
 
 He finished the thesis work around 2004 and went to NVIDIA to turn a research project into a commercial solution. Internally they worked for more than two years. The thing that shipped was not Brook with a logo. It was CUDA: C on the GPU, a few keywords, a compiler, a runtime, a claim that you could learn it in a session and beat your CPU code. Buck has told that story in those words. It is a product story, not a myth about a lone inventor. NVIDIA is a company. Companies ship platforms.
 
@@ -28,6 +41,18 @@ If you want drama, the walk into Santa Clara is enough. A student who had compil
 
 What this article is not: a biography, a personality study, or a claim that CUDA “is” Brook. Brook is a published language. CUDA is a product stack. The walk between them is a hire. Hires are how ideas change address without changing the fact that they were already public.
 
+
+
+
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/06-ian-buck-walks-into-santa-clara/architecture-diagram.svg" alt="Architecture diagram for Ian Buck walks into Santa Clara: illustrative GPU or datacenter shape from the public record, not an official vendor block diagram." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Illustrative system shape for the argument — protocol and architecture, not scraped silicon photography unless noted.</figcaption>
+</figure>
 ## Sources
 
 - Ian Buck, Stanford public résumé / BrookGPU and SIGGRAPH 2004 authorship.

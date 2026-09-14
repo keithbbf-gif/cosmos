@@ -8,11 +8,25 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+portrait: null
+figures:
+  - ../assets/29-dgx-1-eight-gpus/historical-timeline.svg
+  - ../assets/29-dgx-1-eight-gpus/architecture-diagram.svg
+  - ../assets/29-dgx-1-eight-gpus/nvidia-dgx-front.jpg
 ---
-
 # DGX-1: eight GPUs and a category
 
 On April 5, 2016, at GTC, NVIDIA unveiled the DGX-1. The press release used the phrase “world’s first deep learning supercomputer” and the phrase “supercomputer in a box,” which is the kind of language that makes HPC people wince and buyers reach for a purchase order. The spec that mattered was concrete: eight Tesla P100 GPUs, 16 GB each, NVLink in a hybrid cube-mesh, dual 10GbE plus four 100Gb InfiniBand ports, 7 TB of SSD cache, a 3U chassis, 3200 watts, up to 170 FP16 teraflops. General availability in the U.S. was listed as June.
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/29-dgx-1-eight-gpus/historical-timeline.svg" alt="Timeline of public milestones for DGX-1: eight GPUs and a category: dated anchors from press releases, papers, and product records — not live benchmark scores." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Calendar anchors for this piece. Years follow the essay; verify against Sources before publication.</figcaption>
+</figure>
+
 
 The category invention is more important than any one number. Before DGX, you could build an eight-GPU server. People did. After DGX, you could buy a SKU that meant “the NVIDIA-shaped way to do that,” with a software image, a support story, and a price that was public enough for journalists to repeat: on the order of $129,000 in contemporary coverage. OEMs would spend the next decade cloning the idea with more or less NVLink fidelity. The clone-and-original market is the success metric.
 
@@ -28,6 +42,26 @@ If you want a physical object, a DGX-1 bezel — the face with the name that bec
 
 This article does not follow the DGX line through A100 and H100. Those are sequels. 2016 is the year NVIDIA decided the node was something they would brand. Everything in the rack-scale story after that is a louder version of the same decision.
 
+
+
+
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure chip-figure-photo">
+<img src="../assets/29-dgx-1-eight-gpus/nvidia-dgx-front.jpg" alt="Historical product photograph for DGX-1: eight GPUs and a category: licensed hardware image, no generated faces. See RIGHTS.md for attribution." width="760" height="507" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Licensed product photograph (hardware only). Attribution and license: RIGHTS.md.</figcaption>
+</figure>
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/29-dgx-1-eight-gpus/architecture-diagram.svg" alt="Architecture diagram for DGX-1: eight GPUs and a category: illustrative GPU or datacenter shape from the public record, not an official vendor block diagram." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Illustrative system shape for the argument — protocol and architecture, not scraped silicon photography unless noted.</figcaption>
+</figure>
 ## Sources
 
 - NVIDIA, “NVIDIA Launches World's First Deep Learning Supercomputer,” April 5, 2016.

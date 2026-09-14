@@ -8,11 +8,25 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+portrait: null
+figures:
+  - ../assets/08-g80-the-unified-shader/historical-timeline.svg
+  - ../assets/08-g80-the-unified-shader/architecture-diagram.svg
+  - ../assets/08-g80-the-unified-shader/geforce-8800-gtx-board.jpg
 ---
-
 # G80: the unified shader that made compute possible
 
 The GeForce 8800 is remembered as a gaming card. The silicon inside it, G80, is remembered by a smaller group of people as the first NVIDIA GPU that could honestly host a C compiler. Those two memories are the same chip. The reason is a graphics-API decision that had nothing to do with science.
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/08-g80-the-unified-shader/historical-timeline.svg" alt="Timeline of public milestones for G80: the unified shader that made compute possible: dated anchors from press releases, papers, and product records — not live benchmark scores." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Calendar anchors for this piece. Years follow the essay; verify against Sources before publication.</figcaption>
+</figure>
+
 
 DirectX 10, shipping with Windows Vista, wanted a unified shader model. Vertex shaders and pixel shaders would no longer be separate piles of specialized hardware that sat idle when the scene was the wrong shape. One pool of processors would run whichever stage the frame needed. NVIDIA’s answer was G80: hundreds of scalar thread processors, a new memory subsystem, and a driver stack that had to schedule real programs, not just fixed-function turns.
 
@@ -30,6 +44,26 @@ If you want a physical object, the 8800 GTX is the obvious one. A nerdier object
 
 G80 is not a romantic chip. It ran hot. It was huge for its day. It made cases louder. It also made a sentence true that had been a wish in the Brook paper: you can compile C-like work onto a GPU that ships in volume. The volume part is the unsung requirement. A research compiler on a rare board is a paper. A compiler on the card that sold out at Newegg is a platform.
 
+
+
+
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure chip-figure-photo">
+<img src="../assets/08-g80-the-unified-shader/geforce-8800-gtx-board.jpg" alt="Historical product photograph for G80: the unified shader that made compute possible: licensed hardware image, no generated faces. See RIGHTS.md for attribution." width="760" height="507" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Licensed product photograph (hardware only). Attribution and license: RIGHTS.md.</figcaption>
+</figure>
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/08-g80-the-unified-shader/architecture-diagram.svg" alt="Architecture diagram for G80: the unified shader that made compute possible: illustrative GPU or datacenter shape from the public record, not an official vendor block diagram." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Illustrative system shape for the argument — protocol and architecture, not scraped silicon photography unless noted.</figcaption>
+</figure>
 ## Sources
 
 - NVIDIA GeForce 8800 launch, November 8, 2006; G80 as DirectX 10 unified-shader GPU.

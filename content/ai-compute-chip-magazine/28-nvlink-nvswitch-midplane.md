@@ -8,11 +8,24 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+portrait: null
+figures:
+  - ../assets/28-nvlink-nvswitch-midplane/historical-timeline.svg
+  - ../assets/28-nvlink-nvswitch-midplane/architecture-diagram.svg
 ---
-
 # NVLink and NVSwitch: the midplane
 
 PCI Express is a miracle of compatibility and a bottleneck if you pretend eight GPUs are one machine. NVIDIA’s NVLink, first shipped with Pascal in 2016, is a proprietary high-speed link between GPUs (and later, in some systems, between CPU and GPU). NVSwitch, arriving with the V100 generation’s DGX-2 era and then becoming a regular in HGX designs, is the chip that turns those links into a fabric. Together they are why a “GPU node” in a modern rack has a midplane, not just a PCIe riser.
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/28-nvlink-nvswitch-midplane/historical-timeline.svg" alt="Timeline of public milestones for NVLink and NVSwitch: the midplane: dated anchors from press releases, papers, and product records — not live benchmark scores." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Calendar anchors for this piece. Years follow the essay; verify against Sources before publication.</figcaption>
+</figure>
+
 
 The first public topology a lot of people learned was the DGX-1 hybrid cube-mesh: not fully connected, but much friendlier than eight cards shouting through a CPU root complex. Then DGX-2 used NVSwitch to make a flatter world: more pairs at full-ish bandwidth. Later HGX boards made the switch a default photograph. You can see the NVSwitch chips on the baseboard like little cities. The GPUs are the suburbs.
 
@@ -28,6 +41,18 @@ If you want a physical object, an HGX baseboard with NVSwitch chips and empty SX
 
 PCIe did not die. Host traffic, NICs, and a million ordinary servers still live there. NVLink is for the family inside the node. Keeping those two buses in your head is the difference between a cluster diagram and a wish.
 
+
+
+
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/28-nvlink-nvswitch-midplane/architecture-diagram.svg" alt="Architecture diagram for NVLink and NVSwitch: the midplane: illustrative GPU or datacenter shape from the public record, not an official vendor block diagram." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Illustrative system shape for the argument — protocol and architecture, not scraped silicon photography unless noted.</figcaption>
+</figure>
 ## Sources
 
 - NVIDIA Pascal NVLink public architecture notes; DGX-1 hybrid cube-mesh (2016).

@@ -8,11 +8,24 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+portrait: null
+figures:
+  - ../assets/10-fermi-caches-and-ecc/historical-timeline.svg
+  - ../assets/10-fermi-caches-and-ecc/architecture-diagram.svg
 ---
-
 # Fermi: caches, error correction, and a grown-up GPU
 
 G80 proved a compiler could live on a graphics chip. Fermi, the GF100 generation announced for 2010, tried to prove a lab could live with the result. The public whitepaper and the Tesla C2050/C2070 datasheets read like a list of complaints from the first three CUDA years: irregular memory access, silent bit flips, double precision that was a second-class citizen, a C++ story that felt bolted on.
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/10-fermi-caches-and-ecc/historical-timeline.svg" alt="Timeline of public milestones for Fermi: caches, error correction, and a grown-up GPU: dated anchors from press releases, papers, and product records — not live benchmark scores." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Calendar anchors for this piece. Years follow the essay; verify against Sources before publication.</figcaption>
+</figure>
+
 
 Start with the caches. Each streaming multiprocessor on GF100 got 64 KB of on-chip memory you could split: 48 KB shared plus 16 KB L1, or the other way around. A 768 KB unified L2 sat in the middle and served loads, stores, and textures. NVIDIA’s own words in the GF100 paper are about algorithms whose addresses you do not know ahead of time — physics, ray tracing, sparse structure. Shared memory had already taught people to stage data on purpose. L1 and L2 said: we will also catch the accidents.
 
@@ -28,6 +41,18 @@ Fermi also changed how people wrote kernels. Caches forgive some alignment sins.
 
 If you want a physical object, a Tesla C2070 is the one: 6 GB, ECC in the datasheet, no romance, a fan that sounds like a server. Hold the GF100 whitepaper next to it. The paper is trying to be a CPU without giving up the throughput. That ambition is Fermi. The later chips will add tensor units and faster wires. They will still ship ECC on the expensive SKU, because Fermi taught NVIDIA which checkbox the lab will not waive.
 
+
+
+
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/10-fermi-caches-and-ecc/architecture-diagram.svg" alt="Architecture diagram for Fermi: caches, error correction, and a grown-up GPU: illustrative GPU or datacenter shape from the public record, not an official vendor block diagram." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Illustrative system shape for the argument — protocol and architecture, not scraped silicon photography unless noted.</figcaption>
+</figure>
 ## Sources
 
 - NVIDIA GF100 whitepaper (Fermi architecture): SM on-chip 64 KB configurable L1/shared; 768 KB L2; cache rationale.

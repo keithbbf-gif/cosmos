@@ -8,11 +8,25 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+portrait: null
+figures:
+  - ../assets/09-tesla-compute-without-a-monitor/historical-timeline.svg
+  - ../assets/09-tesla-compute-without-a-monitor/architecture-diagram.svg
+  - ../assets/09-tesla-compute-without-a-monitor/tesla-gpu-cluster.jpg
 ---
-
 # Tesla: compute without a monitor
 
 The Tesla C870 board specification is a dry PDF with a loud idea. Physical dimensions, two six-pin power plugs, 1.5 GB of GDDR3, 170 watts, and a line that should be framed: display output is not supported. The SLI edge connectors are on the PCB and unused. The board is a full-length dual-slot PCI Express card that will not light a monitor. In 2007 that was a statement. NVIDIA was willing to ship the GeForce 8 architecture as a calculator.
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/09-tesla-compute-without-a-monitor/historical-timeline.svg" alt="Timeline of public milestones for Tesla: compute without a monitor: dated anchors from press releases, papers, and product records — not live benchmark scores." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Calendar anchors for this piece. Years follow the essay; verify against Sources before publication.</figcaption>
+</figure>
+
 
 The June 2007 Tesla product overview names three shapes. C870: one GPU in a workstation. D870: a deskside box with two GPUs, quiet enough, they said, for an office, cabled to a host. S870: a 1U server with four GPUs. The language is high-performance computing, not gaming, not “AI.” Over 500 gigaflops per GPU. 128 thread processors. Windows and Linux. The buyer in mind is a lab that already has a dual-socket Xeon and a problem that looks like a grid.
 
@@ -28,6 +42,26 @@ A skeptical reading is also fair. For years you could buy a GeForce that was the
 
 If you want a physical object, a C870 in a dusty 1U or in a workstation that still smells like 2008 is perfect. Look at the bracket. No DVI. No VGA. That blank metal is the start of the datacenter GPU as a category you could photograph.
 
+
+
+
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure chip-figure-photo">
+<img src="../assets/09-tesla-compute-without-a-monitor/tesla-gpu-cluster.jpg" alt="Historical product photograph for Tesla: compute without a monitor: licensed hardware image, no generated faces. See RIGHTS.md for attribution." width="760" height="507" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Licensed product photograph (hardware only). Attribution and license: RIGHTS.md.</figcaption>
+</figure>
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/09-tesla-compute-without-a-monitor/architecture-diagram.svg" alt="Architecture diagram for Tesla: compute without a monitor: illustrative GPU or datacenter shape from the public record, not an official vendor block diagram." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Illustrative system shape for the argument — protocol and architecture, not scraped silicon photography unless noted.</figcaption>
+</figure>
 ## Sources
 
 - NVIDIA, Tesla C870 GPU Computing Board specification, revisions 2007–2008.

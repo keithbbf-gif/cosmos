@@ -8,11 +8,24 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+portrait: null
+figures:
+  - ../assets/18-hopper-transformer-factory/historical-timeline.svg
+  - ../assets/18-hopper-transformer-factory/architecture-diagram.svg
 ---
-
 # Hopper: the transformer as a product requirement
 
 By the time NVIDIA announced Hopper and the H100 in 2022, the transformer was no longer a paper from 2017. It was the training workload that ate clusters. NVIDIA’s public Hopper materials talk about a Transformer Engine: hardware and software that mix precisions, including FP8, along a transformer-shaped path. That is a different sentence from “we made Tensor Cores faster.” It is a sentence that names the model family on the tin.
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/18-hopper-transformer-factory/historical-timeline.svg" alt="Timeline of public milestones for Hopper: the transformer as a product requirement: dated anchors from press releases, papers, and product records — not live benchmark scores." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Calendar anchors for this piece. Years follow the essay; verify against Sources before publication.</figcaption>
+</figure>
+
 
 FP8 is the headline format. Smaller numbers, more of them per second, more of them per byte of HBM. The bargain is familiar: if the training recipe can stand the rounding, the chip will look twice as clever in a slide. Hopper’s software story — cuDNN, Transformer Engine libraries, later FlashAttention-class kernels that may or may not sit in NVIDIA’s tree — is about making that bargain default for the models people were actually running. GPT-class training is matrix math plus a memory-system problem. Hopper is aimed at both.
 
@@ -28,6 +41,18 @@ If you want a physical object, an H100 SXM in a tray next to its NVSwitch backpl
 
 This is not a review of whether FP8 training “works.” It works when the recipe is written for it, and it does not when it isn’t. The historical event is the naming. A GPU vendor put the dominant model architecture into the product name of a feature. That is how you know the workload is no longer a guest.
 
+
+
+
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/18-hopper-transformer-factory/architecture-diagram.svg" alt="Architecture diagram for Hopper: the transformer as a product requirement: illustrative GPU or datacenter shape from the public record, not an official vendor block diagram." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Illustrative system shape for the argument — protocol and architecture, not scraped silicon photography unless noted.</figcaption>
+</figure>
 ## Sources
 
 - NVIDIA Hopper architecture / H100 public whitepapers and GTC 2022 launch materials (Transformer Engine, FP8).

@@ -8,11 +8,24 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+portrait: null
+figures:
+  - ../assets/23-shared-memory-scratchpad/historical-timeline.svg
+  - ../assets/23-shared-memory-scratchpad/architecture-diagram.svg
 ---
-
 # Shared memory: the scratchpad that taught a generation
 
 Every CUDA course eventually draws a square. The square is a tile of a matrix. Threads cooperate to pull the tile from slow memory into a fast scratchpad, `__shared__`, then reuse it. The scratchpad is scoped to the block. A barrier keeps the neighbors honest. That exercise, usually a matrix multiply, has trained more GPU programmers than any whitepaper. It is also a picture of what G80-era hardware wanted you to do: if you care about bandwidth, do not ask the DRAM twice.
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/23-shared-memory-scratchpad/historical-timeline.svg" alt="Timeline of public milestones for Shared memory: the scratchpad that taught a generation: dated anchors from press releases, papers, and product records — not live benchmark scores." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Calendar anchors for this piece. Years follow the essay; verify against Sources before publication.</figcaption>
+</figure>
+
 
 Shared memory is not a cache you do not understand. It is a cache you address. That distinction is why the first CUDA generations could beat a CPU on problems that look like textbooks. You, the programmer, became the prefetcher. Fermi later added a real L1 you could steal space from, configurable against the scratchpad. The scratchpad did not go away. It remained the thing you used when you knew the reuse pattern and did not want to hope.
 
@@ -28,6 +41,18 @@ If you want a physical object, print a 16×16 tile of numbers and a picture of 2
 
 The scratchpad taught a generation that memory, not arithmetic, was the boss. That lesson outlived the keyword. You can see it in every later argument about HBM, about cache line sizes, about why a transformer is an I/O problem. Shared memory was the first place CUDA people met the boss on purpose.
 
+
+
+
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/23-shared-memory-scratchpad/architecture-diagram.svg" alt="Architecture diagram for Shared memory: the scratchpad that taught a generation: illustrative GPU or datacenter shape from the public record, not an official vendor block diagram." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Illustrative system shape for the argument — protocol and architecture, not scraped silicon photography unless noted.</figcaption>
+</figure>
 ## Sources
 
 - NVIDIA CUDA C Programming Guide: shared memory, `__syncthreads`, bank conflicts.

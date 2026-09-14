@@ -8,11 +8,24 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+portrait: null
+figures:
+  - ../assets/43-the-sku-wall/historical-timeline.svg
+  - ../assets/43-the-sku-wall/architecture-diagram.svg
 ---
-
 # The SKU wall: GeForce, Quadro, Tesla, then Data Center
 
 NVIDIA has always been a company that sells the same idea at several counters. GeForce is the gamer counter. Quadro (then RTX professional) is the CAD-and-DCC counter. Tesla, then “NVIDIA Data Center GPU,” is the lab-and-cloud counter. Titan, for a while, was a weird expensive enthusiast counter that labs used anyway. The silicon under those stickers often shared a generation and sometimes shared a lot more than a generation. The drivers, the warranty, the ECC, the memory size, the presence of a display output, the license in the EULA — those were the wall.
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/43-the-sku-wall/historical-timeline.svg" alt="Timeline of public milestones for The SKU wall: GeForce, Quadro, Tesla, then Data Center: dated anchors from press releases, papers, and product records — not live benchmark scores." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Calendar anchors for this piece. Years follow the essay; verify against Sources before publication.</figcaption>
+</figure>
+
 
 The wall is easy to moralize. Gamers did, for years: the 3090 versus the A6000 versus the A100 is a folk-economics problem. Researchers did: why does ECC cost that much. NVIDIA did not invent market segmentation. They practiced it with unusual visibility because the CUDA stack made the cards interchangeable enough that the remaining differences felt like policy. When a driver refuses a datacenter workload on a GeForce, or a cloud ToS refuses a GeForce, that is the wall as software.
 
@@ -28,6 +41,18 @@ If you want a physical object, a GeForce and a Tesla of the same generation side
 
 This article is not a buyer’s guide. It is a reminder that “the GPU” is a marketing umbrella over a permission structure. CUDA made the umbrella feel like one machine. The SKUs made sure it was several businesses. Both facts are the history. People who only quote the architecture name are leaving out the cash register.
 
+
+
+
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/43-the-sku-wall/architecture-diagram.svg" alt="Architecture diagram for The SKU wall: GeForce, Quadro, Tesla, then Data Center: illustrative GPU or datacenter shape from the public record, not an official vendor block diagram." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Illustrative system shape for the argument — protocol and architecture, not scraped silicon photography unless noted.</figcaption>
+</figure>
 ## Sources
 
 - NVIDIA public product families: GeForce, Quadro/RTX professional, Tesla / Data Center (C870 through H100).

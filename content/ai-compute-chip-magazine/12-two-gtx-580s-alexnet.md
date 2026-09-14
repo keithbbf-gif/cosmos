@@ -8,11 +8,25 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+portrait: null
+figures:
+  - ../assets/12-two-gtx-580s-alexnet/historical-timeline.svg
+  - ../assets/12-two-gtx-580s-alexnet/architecture-diagram.svg
+  - ../assets/12-two-gtx-580s-alexnet/gtx-580-die.jpg
 ---
-
 # Two GTX 580s in a bedroom
 
 The paper is eight pages and it does not waste them. “Our network takes between five and six days to train on two GTX 580 3GB GPUs.” That is Alex Krizhevsky, Ilya Sutskever, and Geoffrey Hinton, 2012, ImageNet classification with a deep convolutional network. The cards are consumer Fermi-generation GeForce parts. The time is a work week. The dataset is ILSVRC’s 1.2 million labeled images. The error rate that mattered in the contest, after they averaged models, was 15.3 percent top-5 against a second place at 26.2. Computer vision as a field changed its mind in public.
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/12-two-gtx-580s-alexnet/historical-timeline.svg" alt="Timeline of public milestones for Two GTX 580s in a bedroom: dated anchors from press releases, papers, and product records — not live benchmark scores." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Calendar anchors for this piece. Years follow the essay; verify against Sources before publication.</figcaption>
+</figure>
+
 
 The Computer History Museum later released the original source and said the training happened on a computer with two NVIDIA cards in Krizhevsky’s bedroom at his parents’ house. Hinton, talking to the museum, summarized the division of labor with a line that is already too famous and still accurate enough: Ilya thought they should do it, Alex made it work. The museum’s write-up also notes the precursor, cuda-convnet, trained on CIFAR-10, and Dan Cireşan’s earlier GPU convnets that won smaller contests. AlexNet is not the first convolutional net on a GPU. It is the one that hit a dataset the field already respected and won by a humiliating margin.
 
@@ -30,6 +44,26 @@ If you want a physical object, a GTX 580 with the 3 GB tag on the box is enough.
 
 The afterlife of the paper is an industry. This article stops at the week of training and the contest number. Those are the facts that do not need a sequel to be complete.
 
+
+
+
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure chip-figure-photo">
+<img src="../assets/12-two-gtx-580s-alexnet/gtx-580-die.jpg" alt="Historical product photograph for Two GTX 580s in a bedroom: licensed hardware image, no generated faces. See RIGHTS.md for attribution." width="760" height="507" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Licensed product photograph (hardware only). Attribution and license: RIGHTS.md.</figcaption>
+</figure>
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/12-two-gtx-580s-alexnet/architecture-diagram.svg" alt="Architecture diagram for Two GTX 580s in a bedroom: illustrative GPU or datacenter shape from the public record, not an official vendor block diagram." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Illustrative system shape for the argument — protocol and architecture, not scraped silicon photography unless noted.</figcaption>
+</figure>
 ## Sources
 
 - Krizhevsky, Sutskever, Hinton, “ImageNet Classification with Deep Convolutional Neural Networks,” NeurIPS 2012.

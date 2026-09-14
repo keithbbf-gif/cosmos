@@ -8,11 +8,24 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+portrait: null
+figures:
+  - ../assets/22-occupancy-is-not-performance/historical-timeline.svg
+  - ../assets/22-occupancy-is-not-performance/architecture-diagram.svg
 ---
-
 # Occupancy is not performance
 
 Occupancy, in NVIDIA’s public vocabulary, is the fraction of a multiprocessor’s possible warps that you actually keep resident. The occupancy calculator — a spreadsheet, then a GUI, then a section of the profiler — taught a generation to hunt a percentage. High occupancy means the machine has other warps to run when one warp is waiting on memory. That sentence is true. The next sentence, the one people invented, is not: therefore higher occupancy is faster.
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/22-occupancy-is-not-performance/historical-timeline.svg" alt="Timeline of public milestones for Occupancy is not performance: dated anchors from press releases, papers, and product records — not live benchmark scores." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Calendar anchors for this piece. Years follow the essay; verify against Sources before publication.</figcaption>
+</figure>
+
 
 The programming guides eventually said so, in the tired tone of a parent who has had the conversation too many times. Occupancy is a latency-hiding tool. If you are compute-bound, extra warps do not help. If you bought occupancy by cutting registers until the compiler spilled, you lost. If you bought occupancy by shrinking the block until shared-memory tiling died, you lost. If you are waiting on a PCIe copy, you are not even having the conversation.
 
@@ -30,6 +43,18 @@ If you want a physical object, the old CUDA Occupancy Calculator spreadsheet is 
 
 This article exists because magazine history is not only chips. It is the ideas that clustered around chips and became folklore. Occupancy folklore is one of CUDA’s longest-lived pieces of folklore. The hardware changed. The misunderstanding shipped forward, version after version, on slides with the same bar chart.
 
+
+
+
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/22-occupancy-is-not-performance/architecture-diagram.svg" alt="Architecture diagram for Occupancy is not performance: illustrative GPU or datacenter shape from the public record, not an official vendor block diagram." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Illustrative system shape for the argument — protocol and architecture, not scraped silicon photography unless noted.</figcaption>
+</figure>
 ## Sources
 
 - NVIDIA CUDA C Best Practices Guide and Programming Guide sections on occupancy and latency hiding.

@@ -8,11 +8,24 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+portrait: null
+figures:
+  - ../assets/25-cuda-graphs-launch-tax/historical-timeline.svg
+  - ../assets/25-cuda-graphs-launch-tax/architecture-diagram.svg
 ---
-
 # CUDA Graphs and the tax of launching a kernel
 
 A CUDA kernel launch is a small miracle that started to cost too much. You build a parameter buffer, you talk to the driver, you wake a work distributor, you do this thousands of times per second if your model is a soup of small ops. As the GPU got wider, a short kernel became a rounding error of compute and a real error of control. NVIDIA’s public answer, in the CUDA 10 era (2018), was CUDA Graphs: record a graph of launches and memory ops, then replay the graph with less per-kernel bureaucracy.
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/25-cuda-graphs-launch-tax/historical-timeline.svg" alt="Timeline of public milestones for CUDA Graphs and the tax of launching a kernel: dated anchors from press releases, papers, and product records — not live benchmark scores." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Calendar anchors for this piece. Years follow the essay; verify against Sources before publication.</figcaption>
+</figure>
+
 
 The documentation is frank about the problem. Launch overhead is a thing. If your workload is one fat GEMM, you do not care. If your workload is a deep-learning step that used to be a Python loop of little kernels, you care. Frameworks cared first. They had already been fusing ops and writing custom engines. Graphs gave them a driver-level way to say “this whole step is one object.”
 
@@ -28,6 +41,18 @@ Hopper and Blackwell generations make the tax more important, not less, because 
 
 This is not a how-to. The programming guide will outlive any recipe I could type. It is a marker: by 2018, NVIDIA admitted in an API that the CPU telling the GPU what to do had become a first-class performance problem. Admitting that is a historical event. The GPU was no longer only a throughput machine. It was a machine whose doorbell needed redesigning.
 
+
+
+
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/25-cuda-graphs-launch-tax/architecture-diagram.svg" alt="Architecture diagram for CUDA Graphs and the tax of launching a kernel: illustrative GPU or datacenter shape from the public record, not an official vendor block diagram." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Illustrative system shape for the argument — protocol and architecture, not scraped silicon photography unless noted.</figcaption>
+</figure>
 ## Sources
 
 - NVIDIA CUDA 10 release materials and Programming Guide: CUDA Graphs, capture, replay.

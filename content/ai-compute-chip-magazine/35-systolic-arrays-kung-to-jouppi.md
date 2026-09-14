@@ -8,11 +8,24 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+portrait: null
+figures:
+  - ../assets/35-systolic-arrays-kung-to-jouppi/historical-timeline.svg
+  - ../assets/35-systolic-arrays-kung-to-jouppi/architecture-diagram.svg
 ---
-
 # Systolic arrays: an old idea Google shipped
 
 H. T. Kung and Charles Leiserson’s systolic-array papers from the late 1970s describe a way to push data through a regular grid of simple cells so that a lot of arithmetic happens without a lot of instruction traffic. The metaphor is a heartbeat. Each cell does a little, passes the blood along, and the array as a whole finishes a matrix problem. Architects loved it. Then, for a long time, they loved other things more: caches, out-of-order CPUs, the flexibility of a GPU’s SIMT story. The idea stayed in textbooks and in occasional DSP and crypto chips.
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/35-systolic-arrays-kung-to-jouppi/historical-timeline.svg" alt="Timeline of public milestones for Systolic arrays: an old idea Google shipped: dated anchors from press releases, papers, and product records — not live benchmark scores." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Calendar anchors for this piece. Years follow the essay; verify against Sources before publication.</figcaption>
+</figure>
+
 
 The TPU v1 paper is explicit about the inheritance. The matrix multiply unit is a 256×256 systolic array of 8-bit MACs. Weights can be held. Activations stream. The on-chip memory is software-managed, not a heroic cache hierarchy. Determinism is a feature. The authors cite earlier systolic matrix multipliers, including 1990s machines, because they are doing their related-work job. A magazine reader should hear that citation as a bell. Google did not invent the grid. Google shipped the grid at datacenter volume for a workload that looks like the textbook example: dense matrix multiplies, over and over, with forgiving precision.
 
@@ -26,6 +39,18 @@ If you want a physical object, print figure-and-caption from Kung/Leiserson and 
 
 This article stays with the idea, not with later TPU generations. The later generations add more memory, more chips, more networking, more training. They still feed arrays. The array is the constant. The constant is older than the company that shipped it.
 
+
+
+
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/35-systolic-arrays-kung-to-jouppi/architecture-diagram.svg" alt="Architecture diagram for Systolic arrays: an old idea Google shipped: illustrative GPU or datacenter shape from the public record, not an official vendor block diagram." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Illustrative system shape for the argument — protocol and architecture, not scraped silicon photography unless noted.</figcaption>
+</figure>
 ## Sources
 
 - H. T. Kung and C. E. Leiserson, systolic-array papers (late 1970s; see also later textbook treatments).

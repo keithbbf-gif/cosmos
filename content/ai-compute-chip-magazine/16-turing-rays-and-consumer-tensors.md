@@ -8,11 +8,24 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+portrait: null
+figures:
+  - ../assets/16-turing-rays-and-consumer-tensors/historical-timeline.svg
+  - ../assets/16-turing-rays-and-consumer-tensors/architecture-diagram.svg
 ---
-
 # Turing: real-time rays and the consumer tensor
 
 Turing, 2018, is a consumer architecture with two new nouns on the box: RT Cores and Tensor Cores. The first noun is for games that want hardware help tracing rays. The second is the Volta idea, trimmed and shipped in a GeForce. DLSS, NVIDIA’s deep-learning upscaler, is the public reason a gamer would care about a tensor unit. The quieter reason is that NVIDIA no longer wanted the specialized multiply hardware to live only in Tesla SKUs.
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/16-turing-rays-and-consumer-tensors/historical-timeline.svg" alt="Timeline of public milestones for Turing: real-time rays and the consumer tensor: dated anchors from press releases, papers, and product records — not live benchmark scores." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Calendar anchors for this piece. Years follow the essay; verify against Sources before publication.</figcaption>
+</figure>
+
 
 This article is not a game review. It is about a boundary moving. For ten years the compute features that made a lab happy — ECC, big memory, lately Tensor Cores — were sold upstairs. GeForce got the shader count and the RGB. Turing put a datacenter idea into a card you could buy next to a case and a PSU, then wrapped it in a game feature so the card still had a Saturday-night job.
 
@@ -26,6 +39,18 @@ If you want a physical object, a Founders Edition 2080 Ti is the Turing totem: i
 
 Turing’s descendants — Ampere’s consumer 30-series, Ada’s 40-series — keep the two specialized units and keep arguing with gamers about upscalers. This piece stays in 2018 because that is when the consumer GPU openly became a mixed-function part: raster, rays, tensors. The datacenter GPU had already become mixed-function. Turing is the year the aisle at the PC shop caught up, loudly, and at a price that made forums glow.
 
+
+
+
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/16-turing-rays-and-consumer-tensors/architecture-diagram.svg" alt="Architecture diagram for Turing: real-time rays and the consumer tensor: illustrative GPU or datacenter shape from the public record, not an official vendor block diagram." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Illustrative system shape for the argument — protocol and architecture, not scraped silicon photography unless noted.</figcaption>
+</figure>
 ## Sources
 
 - NVIDIA GeForce RTX 20-series / Turing launch materials, 2018 (RT Cores, Tensor Cores, DLSS).

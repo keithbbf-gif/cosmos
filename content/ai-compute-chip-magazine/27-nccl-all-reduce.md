@@ -8,11 +8,24 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+portrait: null
+figures:
+  - ../assets/27-nccl-all-reduce/historical-timeline.svg
+  - ../assets/27-nccl-all-reduce/architecture-diagram.svg
 ---
-
 # NCCL: all-reduce as industrial plumbing
 
 If you train a model on more than one GPU and you are doing the ordinary thing — each GPU sees a different batch, then they average the gradients — you are performing an all-reduce. The math is old. MPI had it. Supercomputers lived on it. What NVIDIA’s NCCL, the NVIDIA Collective Communications Library, did was make that collective fast on a tangle of NVLink, NVSwitch, PCIe, and Ethernet or InfiniBand, and then become the thing every framework calls.
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/27-nccl-all-reduce/historical-timeline.svg" alt="Timeline of public milestones for NCCL: all-reduce as industrial plumbing: dated anchors from press releases, papers, and product records — not live benchmark scores." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Calendar anchors for this piece. Years follow the essay; verify against Sources before publication.</figcaption>
+</figure>
+
 
 NCCL’s public documentation is a catalog of collectives: all-reduce, all-gather, reduce-scatter, broadcast, send/recv. The interesting pages are the ones about topology. The library wants to know how your GPUs are wired. It will sniff NVLink meshes, it will notice a switch, it will pick a ring or a tree. People who have watched `NCCL_DEBUG=INFO` scroll past at two in the morning have seen a personality: a library that believes the machine room is its business.
 
@@ -30,6 +43,18 @@ A second object is a stack of Ethernet or InfiniBand cables behind a GPU node. N
 
 NCCL will keep growing new protocols for new NVLink generations and new NIC offloads. This article does not freeze a version. It freezes the role. Once gradient averaging became the heartbeat of the industry, the library that implements the heartbeat became part of the chip story — even though it is software — because the chip’s wires only matter if something knows how to use them.
 
+
+
+
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/27-nccl-all-reduce/architecture-diagram.svg" alt="Architecture diagram for NCCL: all-reduce as industrial plumbing: illustrative GPU or datacenter shape from the public record, not an official vendor block diagram." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Illustrative system shape for the argument — protocol and architecture, not scraped silicon photography unless noted.</figcaption>
+</figure>
 ## Sources
 
 - NVIDIA NCCL documentation and GitHub public repository (collectives, topology).

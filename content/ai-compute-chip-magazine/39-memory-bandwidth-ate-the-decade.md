@@ -8,11 +8,24 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+portrait: null
+figures:
+  - ../assets/39-memory-bandwidth-ate-the-decade/historical-timeline.svg
+  - ../assets/39-memory-bandwidth-ate-the-decade/architecture-diagram.svg
 ---
-
 # Memory bandwidth ate the decade
 
 There is a slide, and then there is a profiler. The slide says teraflops. The profiler says the pipes were hungry and the arithmetic units were polite. For most of the 2010s and the early 2020s, the honest GPU and TPU conversation was about memory: how fast you could feed the array, how often you reused a weight, how much HBM you could afford, how badly a stray materialization punished you. Roofline models — Williams, Waterman, Patterson, 2009 — were already public when CUDA was a toddler. The industry spent a decade rediscovering them every time a new model family arrived.
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/39-memory-bandwidth-ate-the-decade/historical-timeline.svg" alt="Timeline of public milestones for Memory bandwidth ate the decade: dated anchors from press releases, papers, and product records — not live benchmark scores." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Calendar anchors for this piece. Years follow the essay; verify against Sources before publication.</figcaption>
+</figure>
+
 
 Transformers made the rediscovery fashionable. Attention, in the naive form, is a memory-traffic event with a softmax in the middle. FlashAttention-class papers, public and widely implemented, are bandwidth essays. Mixture-of-experts is a routing-and-capacity essay. KV caches at decode time are a memory-capacity essay. None of that is a secret architecture. It is the roofline wearing a 2023 hoodie.
 
@@ -30,6 +43,18 @@ A practical test for any new accelerator announcement: hide the FLOPS line with 
 
 This article is standalone on purpose. You do not need a later-architecture piece to understand a roofline. You need a peak operation number, a peak bandwidth number, and an honest arithmetic intensity. The rest of the decade was commentary.
 
+
+
+
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/39-memory-bandwidth-ate-the-decade/architecture-diagram.svg" alt="Architecture diagram for Memory bandwidth ate the decade: illustrative GPU or datacenter shape from the public record, not an official vendor block diagram." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Illustrative system shape for the argument — protocol and architecture, not scraped silicon photography unless noted.</figcaption>
+</figure>
 ## Sources
 
 - Williams, Waterman, Patterson, “Roofline: An Insightful Visual Performance Model,” CACM 2009.

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="460" viewBox="0 0 760 460" role="img" aria-labelledby="title desc">
+  <title id="title">NCCL: all-reduce as industrial plumbing — diagram</title>
+  <desc id="desc">Illustrative architecture shape for this article. Not a vendor block diagram.</desc>
+  <rect width="100%" height="100%" fill="#f4f1ea"/>
+  <text x="24" y="36" font-family="Source Serif 4, Georgia, serif" font-size="20" font-weight="600" fill="#1c2430">NCCL: all-reduce as industrial plumbing — diagram</text>
+  <text x="24" y="58" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#5a6470">Illustrative architecture shape for this article. Not a vendor block diagram.</text>
+  <defs><marker id="ah" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#1a5f7a"/></marker></defs>
+  <rect x="24" y="72" width="712" height="360" fill="#e8e4dc" stroke="#c5c9cf" rx="4"/>
+  <rect x="70" y="176" width="100" height="48" rx="6" fill="#e8e4dc" stroke="#c5c9cf"/>
+  <text x="120.0" y="205.0" text-anchor="middle" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#1c2430">rank 0</text>
+  <rect x="270" y="96" width="100" height="48" rx="6" fill="#e8e4dc" stroke="#c5c9cf"/>
+  <text x="320.0" y="125.0" text-anchor="middle" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#1c2430">rank 1</text>
+  <rect x="470" y="176" width="100" height="48" rx="6" fill="#e8e4dc" stroke="#c5c9cf"/>
+  <text x="520.0" y="205.0" text-anchor="middle" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#1c2430">rank 2</text>
+  <rect x="270" y="256" width="100" height="48" rx="6" fill="#e8e4dc" stroke="#c5c9cf"/>
+  <text x="320.0" y="285.0" text-anchor="middle" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#1c2430">rank 3</text>
+  <line x1="160" y1="200" x2="280" y2="120" stroke="#1a5f7a" stroke-width="2" marker-end="url(#ah)"/>
+  <line x1="360" y1="120" x2="480" y2="200" stroke="#1a5f7a" stroke-width="2" marker-end="url(#ah)"/>
+  <line x1="560" y1="200" x2="280" y2="280" stroke="#1a5f7a" stroke-width="2" marker-end="url(#ah)"/>
+  <line x1="360" y1="280" x2="80" y2="200" stroke="#1a5f7a" stroke-width="2" marker-end="url(#ah)"/>
+  <rect x="260" y="300" width="240" height="40" rx="6" fill="#f4f1ea" stroke="#c5c9cf"/>
+  <text x="380.0" y="325.0" text-anchor="middle" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#1c2430">all-reduce</text>
+  <text x="24" y="446" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" fill="#5a6470">Original magazine illustration — public facts only. ai-compute-chip-magazine, staged.</text>
+</svg>

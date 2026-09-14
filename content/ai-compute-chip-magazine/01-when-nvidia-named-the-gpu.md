@@ -8,11 +8,25 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+portrait: null
+figures:
+  - ../assets/01-when-nvidia-named-the-gpu/historical-timeline.svg
+  - ../assets/01-when-nvidia-named-the-gpu/architecture-diagram.svg
+  - ../assets/01-when-nvidia-named-the-gpu/geforce-256.jpg
 ---
-
 # When a graphics chip got a new job title
 
 The press release is dated August 31, 1999, Palm Springs. NVIDIA called the GeForce 256 “the world’s first graphics processing unit.” That sentence is marketing. It is also, twenty-seven years later, still how a lot of people date the birth of the GPU. The honest version is less cinematic and more useful: a company that already sold 3D chips decided the next chip deserved a new job title, then defined the title so that only their chip fit.
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/01-when-nvidia-named-the-gpu/historical-timeline.svg" alt="Timeline of public milestones for When a graphics chip got a new job title: dated anchors from press releases, papers, and product records — not live benchmark scores." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Calendar anchors for this piece. Years follow the essay; verify against Sources before publication.</figcaption>
+</figure>
+
 
 NVIDIA’s own definition, printed in the launch materials and later quoted everywhere, was a single-chip processor with integrated transform, lighting, triangle setup and clipping, and rendering — and a floor of ten million polygons a second. Hardware transform and lighting was the actual product. The CPU had been doing that geometry work. Moving it onto the card meant the host processor could stop grinding vertices and the frame rate could stop stuttering when a scene got busy. CNN’s write-up the same day put it in plainer English: the main processor would no longer have to share the job of making the picture.
 
@@ -30,6 +44,26 @@ A careful reader should keep two facts in the same hand. First: 3D hardware exis
 
 If you want a physical object, find a GeForce 256 SDR card with the big heatsink and the AGP tab. It will not run a modern driver. It will not speak CUDA. It will sit there looking like a graphics card, which is what it was. The job title is the part that survived.
 
+
+
+
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure chip-figure-photo">
+<img src="../assets/01-when-nvidia-named-the-gpu/geforce-256.jpg" alt="Historical product photograph for When a graphics chip got a new job title: licensed hardware image, no generated faces. See RIGHTS.md for attribution." width="760" height="507" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Licensed product photograph (hardware only). Attribution and license: RIGHTS.md.</figcaption>
+</figure>
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/01-when-nvidia-named-the-gpu/architecture-diagram.svg" alt="Architecture diagram for When a graphics chip got a new job title: illustrative GPU or datacenter shape from the public record, not an official vendor block diagram." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Illustrative system shape for the argument — protocol and architecture, not scraped silicon photography unless noted.</figcaption>
+</figure>
 ## Sources
 
 - NVIDIA, “NVIDIA Launches the World's First Graphics Processing Unit: GeForce 256,” August 31, 1999 (archived press release).

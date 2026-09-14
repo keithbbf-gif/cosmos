@@ -8,11 +8,24 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+portrait: null
+figures:
+  - ../assets/36-tpu-pods-the-network-is-the-machine/historical-timeline.svg
+  - ../assets/36-tpu-pods-the-network-is-the-machine/architecture-diagram.svg
 ---
-
 # TPU pods: when the network is the machine
 
 TPU v1 was an inference sled. The next public generations — v2 and v3, announced as Cloud TPUs and described in Google papers and cloud docs — are training machines, and they come in pods. A pod is not a cute name for a server. It is a number of TPU chips wired with a custom interconnect so that a model can be sharded across a room without pretending Ethernet is the native tongue. Google’s published v2/v3 paper (“A Domain-Specific Supercomputer for Training Deep Neural Networks,” among other public write-ups) and the Cloud TPU documentation are the sources. The details of the torus-like topology and the exact chip counts per pod generation are in those documents; if you cite a number, cite them, not a keynote gif.
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/36-tpu-pods-the-network-is-the-machine/historical-timeline.svg" alt="Timeline of public milestones for TPU pods: when the network is the machine: dated anchors from press releases, papers, and product records — not live benchmark scores." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Calendar anchors for this piece. Years follow the essay; verify against Sources before publication.</figcaption>
+</figure>
+
 
 The conceptual move is the one NVIDIA would later make with NVSwitch racks: the network is part of the computer. On a TPU pod, the interesting failure is often a link or a scheduling constraint, not a single MXU. The interesting success is a batch that would not have fit, or a time-to-train that makes a research idea cheap enough to try. Google’s own translations, search, and later large-language-model work were trained on this class of machine. That is public. The exact internal cluster maps are not, and do not belong here.
 
@@ -26,6 +39,18 @@ If you want a physical object, you probably want a photograph of a TPU pod aisle
 
 I have written “the network is the machine” about too many systems. Here it is literal. The TPU without the pod network is a fast matrix unit. The TPU with the pod network is how Google chose to train at a size that made the rest of the industry buy NVIDIA rooms to keep up. That last clause is not a diss. It is the 2017–2024 plot.
 
+
+
+
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/36-tpu-pods-the-network-is-the-machine/architecture-diagram.svg" alt="Architecture diagram for TPU pods: when the network is the machine: illustrative GPU or datacenter shape from the public record, not an official vendor block diagram." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Illustrative system shape for the argument — protocol and architecture, not scraped silicon photography unless noted.</figcaption>
+</figure>
 ## Sources
 
 - Google Cloud TPU documentation (v2/v3/v4/v5 public product pages; pod topologies as published).

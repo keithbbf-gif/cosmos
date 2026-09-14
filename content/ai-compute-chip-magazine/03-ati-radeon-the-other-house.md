@@ -8,11 +8,25 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+portrait: null
+figures:
+  - ../assets/03-ati-radeon-the-other-house/historical-timeline.svg
+  - ../assets/03-ati-radeon-the-other-house/architecture-diagram.svg
+  - ../assets/03-ati-radeon-the-other-house/ati-radeon-9700-pro.png
 ---
-
 # The other house on the board: ATI, then AMD
 
 Walk into a PC shop in 2002 and the graphics wall was not a monologue. ATI’s Radeon 9700 Pro sat next to NVIDIA’s GeForce 4, then GeForce FX, and the arguments were about DirectX 9, anisotropic filtering, and which driver would crash Unreal Tournament less often. ATI had come out of Toronto with the Rage line and then, with Radeon, a name that stuck. The 9700 was the card that made a lot of people say the other house had the better chip that year. That sentence is allowed. It does not require a later morality play.
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/03-ati-radeon-the-other-house/historical-timeline.svg" alt="Timeline of public milestones for The other house on the board: ATI, then AMD: dated anchors from press releases, papers, and product records — not live benchmark scores." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Calendar anchors for this piece. Years follow the essay; verify against Sources before publication.</figcaption>
+</figure>
+
 
 ATI’s public story is a company that could win a generation and still not own the platform. They shipped the Radeon 8500 into the DirectX 8 fight, then the 9700 into DirectX 9, then a long Radeon X and HD sequence after AMD announced in 2006 that it would buy ATI. The deal closed that October. From then on the graphics house was a division inside a CPU company that needed a discrete GPU story and, later, an APU story, and, still later, a datacenter GPU story.
 
@@ -28,6 +42,26 @@ The other house is easy to flatten into “the OpenCL company” or “the conso
 
 If you want a physical object, find a Radeon 9700 Pro with the copper-colored cooler. Hold it next to a GeForce 4 Ti 4600. Those two cards are the argument this article is about. Neither is a TPU. Neither speaks CUDA. Both are why “GPU” became a category people could shop, return, and review — a two-vendor aisle, not a single inventor’s monument.
 
+
+
+
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure chip-figure-photo">
+<img src="../assets/03-ati-radeon-the-other-house/ati-radeon-9700-pro.png" alt="Historical product photograph for The other house on the board: ATI, then AMD: licensed hardware image, no generated faces. See RIGHTS.md for attribution." width="760" height="507" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Licensed product photograph (hardware only). Attribution and license: RIGHTS.md.</figcaption>
+</figure>
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/03-ati-radeon-the-other-house/architecture-diagram.svg" alt="Architecture diagram for The other house on the board: ATI, then AMD: illustrative GPU or datacenter shape from the public record, not an official vendor block diagram." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Illustrative system shape for the argument — protocol and architecture, not scraped silicon photography unless noted.</figcaption>
+</figure>
 ## Sources
 
 - Public ATI Radeon product record, especially Radeon 8500 (2001) and Radeon 9700 (2002).

@@ -8,11 +8,24 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+portrait: null
+figures:
+  - ../assets/42-training-vs-inference-silicon/historical-timeline.svg
+  - ../assets/42-training-vs-inference-silicon/architecture-diagram.svg
 ---
-
 # Training silicon and inference silicon are different animals
 
 TPU v1 was an inference chip. The ISCA paper is not shy. The job is the forward pass, the SLO is a tail latency, the precision is 8-bit, the comparison is a K80 that was trying to be a general computer. TPU v2 and v3, and NVIDIA’s V100/A100/H100 line as people actually bought them, are training animals: they want capacity, they want all-reduce, they want a backward pass that materializes gradients, they want to run for a week without a jitter story. Those are different animals. The industry kept putting them in the same zoo sign: AI chip.
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/42-training-vs-inference-silicon/historical-timeline.svg" alt="Timeline of public milestones for Training silicon and inference silicon are different animals: dated anchors from press releases, papers, and product records — not live benchmark scores." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Calendar anchors for this piece. Years follow the essay; verify against Sources before publication.</figcaption>
+</figure>
+
 
 The differences are public and mechanical. Training wants high-bandwidth links between chips because the batch is split and the gradients must meet. Inference can often live on one chip, or on a small pipeline, and cares about the 99th percentile and the tokens per watt. Training wants enough memory to hold activations (or a rematerialization strategy). Inference wants enough memory to hold weights and a KV cache. Training can hide a compiler’s first-run cost. Inference cannot hide a 200-millisecond surprise.
 
@@ -28,6 +41,18 @@ If you want a physical object, put a T4 next to a V100. Same era, same vendor, d
 
 This article does not pick a winner in the inference-ASIC gold rush. It says the gold rush exists because the animals diverged in public, and because the combined slide became embarrassing. After 2017 you can still say “GPU.” You should not say “AI chip” without a clause.
 
+
+
+
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/42-training-vs-inference-silicon/architecture-diagram.svg" alt="Architecture diagram for Training silicon and inference silicon are different animals: illustrative GPU or datacenter shape from the public record, not an official vendor block diagram." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Illustrative system shape for the argument — protocol and architecture, not scraped silicon photography unless noted.</figcaption>
+</figure>
 ## Sources
 
 - Jouppi et al., ISCA 2017: TPU v1 as inference, tail-latency argument.

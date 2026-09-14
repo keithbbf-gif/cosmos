@@ -15,6 +15,7 @@ This is an issue of separate pieces, not one essay cut into files. You can read 
 - Front matter on each file marks `status: staged` and `kind: standalone-article`.
 - Sources sit at the bottom of each piece. Prefer the original paper or the original press release over a later retelling.
 - Dates are calendar facts, not mythology. When a company later rewrote its own origin story, the article says so.
+- **Graphics:** each article can ship original SVG timeline + diagram figures (`GRAPHICS_INDEX.md`). Licensed product photos are listed in `RIGHTS.md`. Regenerate via `scripts/` — no AI faces, no vendor logo sheets.
 
 ---
 

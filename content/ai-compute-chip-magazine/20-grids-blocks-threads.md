@@ -8,11 +8,24 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+portrait: null
+figures:
+  - ../assets/20-grids-blocks-threads/historical-timeline.svg
+  - ../assets/20-grids-blocks-threads/architecture-diagram.svg
 ---
-
 # Grids, blocks, threads: CUDA's street map
 
 Open a CUDA programming guide from any year after 2007 and you will meet the same cartoon: a grid of blocks, each block a bundle of threads, each thread a scalar program with an index. The cartoon is the product. Hardware generations changed under it. The street map mostly did not. That stability is why a researcher in 2015 and a researcher in 2025 can still share a mental model even when the chips no longer share a transistor.
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/20-grids-blocks-threads/historical-timeline.svg" alt="Timeline of public milestones for Grids, blocks, threads: CUDA's street map: dated anchors from press releases, papers, and product records — not live benchmark scores." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Calendar anchors for this piece. Years follow the essay; verify against Sources before publication.</figcaption>
+</figure>
+
 
 A thread in CUDA is not a pthread. It is cheap, it is numbered, and it is supposed to do the same thing as its neighbors with a different index. A block is the unit that shares a scratchpad and a barrier. A grid is the launch: how many blocks you threw at the problem. The triple is a way to say “data parallel” without making people pass a qualifying exam in computer architecture.
 
@@ -28,6 +41,18 @@ If you want a physical object, there isn’t one. The object is a slide with thr
 
 This article is not a tutorial. It will not give you a kernel. It will say that NVIDIA’s longest-lived compute invention might not be a chip. It might be a picture of a chip that survived twenty years of chips.
 
+
+
+
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/20-grids-blocks-threads/architecture-diagram.svg" alt="Architecture diagram for Grids, blocks, threads: CUDA's street map: illustrative GPU or datacenter shape from the public record, not an official vendor block diagram." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Illustrative system shape for the argument — protocol and architecture, not scraped silicon photography unless noted.</figcaption>
+</figure>
 ## Sources
 
 - NVIDIA CUDA C Programming Guide (any dated edition 2007–2025): thread hierarchy chapters.

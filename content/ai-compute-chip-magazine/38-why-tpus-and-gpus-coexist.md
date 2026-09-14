@@ -8,11 +8,24 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+portrait: null
+figures:
+  - ../assets/38-why-tpus-and-gpus-coexist/historical-timeline.svg
+  - ../assets/38-why-tpus-and-gpus-coexist/architecture-diagram.svg
 ---
-
 # Why TPUs and GPUs kept not replacing each other
 
 Every year or so someone writes that the GPU is done because the TPU exists, or that the TPU is a Google curiosity because the GPU exists. The public record of 2016–2026 is ruder than those obituaries. Google trained and served on TPUs and also bought GPUs. Everyone else trained mostly on GPUs and sometimes rented TPUs. NVIDIA’s data-center business grew into a monster. Google’s TPU generations kept shipping. Coexistence is the fact. The explanations are a pile, not a slogan.
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/38-why-tpus-and-gpus-coexist/historical-timeline.svg" alt="Timeline of public milestones for Why TPUs and GPUs kept not replacing each other: dated anchors from press releases, papers, and product records — not live benchmark scores." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Calendar anchors for this piece. Years follow the essay; verify against Sources before publication.</figcaption>
+</figure>
+
 
 Start with the buyer. NVIDIA sells to anyone with money and a PCIe slot or a rack contract. Google sells TPU hours to cloud customers and, first, to itself. Those are different markets even when the workload looks the same. A startup can buy eight used A100s and own them. A startup cannot own a TPU pod in the same way. Ownership versus rental is not a footnote. It is why CUDA kept a hobbyist-to-HPC pipeline that the TPU never fully copied.
 
@@ -28,6 +41,18 @@ If you want a physical object, put a TPU board photo next to an H100 SXM photo. 
 
 A standalone article should not pick a winner for 2030. It should scold the obituaries. The GPU did not die in 2016 when Jouppi went on stage. The TPU did not die in 2023 when every startup deck said “NVIDIA.” What died, over and over, was the fantasy that one architecture gets to be the last architecture.
 
+
+
+
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/38-why-tpus-and-gpus-coexist/architecture-diagram.svg" alt="Architecture diagram for Why TPUs and GPUs kept not replacing each other: illustrative GPU or datacenter shape from the public record, not an official vendor block diagram." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Illustrative system shape for the argument — protocol and architecture, not scraped silicon photography unless noted.</figcaption>
+</figure>
 ## Sources
 
 - TPU v1 ISCA 2017 paper (Google still using CPUs and GPUs for other ML as of that writing).

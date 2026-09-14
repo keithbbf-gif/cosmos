@@ -8,11 +8,24 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+portrait: null
+figures:
+  - ../assets/05-brook-for-gpus/historical-timeline.svg
+  - ../assets/05-brook-for-gpus/architecture-diagram.svg
 ---
-
 # Brook for GPUs: a language for a machine that was still a toy
 
 SIGGRAPH 2004, Los Angeles. The paper is “Brook for GPUs: Stream Computing on Graphics Hardware.” The authors are Ian Buck, Tim Foley, Daniel Horn, Jeremy Sugerman, Kayvon Fatahalian, Mike Houston, and Pat Hanrahan. If you have heard of CUDA and not Brook, that is not because Brook was secret. It is because academic languages often die of success: the idea gets a job in industry and stops using its campus name.
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/05-brook-for-gpus/historical-timeline.svg" alt="Timeline of public milestones for Brook for GPUs: a language for a machine that was still a toy: dated anchors from press releases, papers, and product records — not live benchmark scores." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Calendar anchors for this piece. Years follow the essay; verify against Sources before publication.</figcaption>
+</figure>
+
 
 Brook was a C-like stream language. You wrote kernels over streams of data. The compiler and runtime, BrookGPU, mapped that onto the GPUs you could actually buy — NVIDIA and ATI — by speaking OpenGL and DirectX. The hardware still thought it was drawing. The programmer could almost forget that. “Almost” is doing a lot of work. Anyone who compiled Brook in anger still met the graphics driver’s opinions.
 
@@ -30,6 +43,18 @@ If you go looking for the project today you will find the old Stanford graphics 
 
 A physical object for this one is not a card. It is a SIGGRAPH proceedings CD, or a printed stack of the 2004 papers, with Brook in the GPU track. The machine it targeted was a toy if you were used to a Cray. The paper treated the toy as if it might grow up. It did. The name on the grown-up was different.
 
+
+
+
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/05-brook-for-gpus/architecture-diagram.svg" alt="Architecture diagram for Brook for GPUs: a language for a machine that was still a toy: illustrative GPU or datacenter shape from the public record, not an official vendor block diagram." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Illustrative system shape for the argument — protocol and architecture, not scraped silicon photography unless noted.</figcaption>
+</figure>
 ## Sources
 
 - Ian Buck et al., “Brook for GPUs: Stream Computing on Graphics Hardware,” SIGGRAPH 2004.

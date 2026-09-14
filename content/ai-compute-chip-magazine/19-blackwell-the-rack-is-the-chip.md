@@ -8,11 +8,24 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+portrait: null
+figures:
+  - ../assets/19-blackwell-the-rack-is-the-chip/historical-timeline.svg
+  - ../assets/19-blackwell-the-rack-is-the-chip/architecture-diagram.svg
 ---
-
 # Blackwell: when the rack is the chip
 
 NVIDIA’s Blackwell generation, announced at GTC in March 2024, is public enough to write about and new enough that a staged magazine draft should keep its voice modest. The slides will change. The SKUs will rename. What is already safe to say is the shape of the claim: the unit of compute is no longer a GPU you could mistake for a thick graphics card. It is a pair of dies, a pile of HBM, a scale-up fabric, and a rack story that includes networking, cooling, and a software stack that assumes you bought the whole sentence.
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/19-blackwell-the-rack-is-the-chip/historical-timeline.svg" alt="Timeline of public milestones for Blackwell: when the rack is the chip: dated anchors from press releases, papers, and product records — not live benchmark scores." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Calendar anchors for this piece. Years follow the essay; verify against Sources before publication.</figcaption>
+</figure>
+
 
 B200, GB200, NVL72 — the strings in the keynote are easy to get wrong if you transcribe from memory. A careful draft names the event (GTC 2024, Blackwell architecture) and the idea (multi-die GPU, Grace-Blackwell superchip pairings, rack-scale NVLink domains) without inventing a spec table from a livestream. NVIDIA published whitepapers and product pages. Those are the sources. If a number is not in them, it does not belong in this article.
 
@@ -28,6 +41,18 @@ If you want a physical object, you probably want a photograph of a GB200 NVL rac
 
 This article will age. That is allowed. Magazine drafts about living product lines should admit the calendar. What should not age is the observation that the GPU industry, as of 2024, is willing to define a generation by the machine room it requires. The 1999 GeForce 256 was a chip you added to a PC. The 2024 Blackwell pitch is a room you add to a building.
 
+
+
+
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/19-blackwell-the-rack-is-the-chip/architecture-diagram.svg" alt="Architecture diagram for Blackwell: when the rack is the chip: illustrative GPU or datacenter shape from the public record, not an official vendor block diagram." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Illustrative system shape for the argument — protocol and architecture, not scraped silicon photography unless noted.</figcaption>
+</figure>
 ## Sources
 
 - NVIDIA GTC 2024 keynote and Blackwell architecture posts / product pages (B200, GB200, NVL-class rack systems).

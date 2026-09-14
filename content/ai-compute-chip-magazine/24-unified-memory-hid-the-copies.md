@@ -8,11 +8,24 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+portrait: null
+figures:
+  - ../assets/24-unified-memory-hid-the-copies/historical-timeline.svg
+  - ../assets/24-unified-memory-hid-the-copies/architecture-diagram.svg
 ---
-
 # Unified memory: the API that hid the copies
 
 Early CUDA is a religion of copies. Allocate on the host, allocate on the device, `cudaMemcpy` there, launch, `cudaMemcpy` back, do not confuse the pointers. The religion produced bugs and also produced speed, because at least you could see the bus. Unified memory, `cudaMallocManaged`, arriving in the CUDA 6 era and growing through Pascal’s page-migration hardware, offered a different religion: one pointer, the system will move the pages.
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/24-unified-memory-hid-the-copies/historical-timeline.svg" alt="Timeline of public milestones for Unified memory: the API that hid the copies: dated anchors from press releases, papers, and product records — not live benchmark scores." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Calendar anchors for this piece. Years follow the essay; verify against Sources before publication.</figcaption>
+</figure>
+
 
 The sales pitch was correctness and approachability. Students could write a kernel without a memcpy liturgy. Legacy CPU codes could be sprinkled with managed allocations and, sometimes, run. The hardware pitch, especially from Pascal forward, was that the GPU and CPU could fault on a page and migrate it, even over NVLink in the fancier boxes. NVIDIA’s programming guides describe the rules, the hints (`cudaMemAdvise`, prefetch), and the cases where the convenient path is the slow path.
 
@@ -28,6 +41,18 @@ If you want a physical object, there isn’t one. The object is a trace with a g
 
 A magazine history of CUDA that only celebrates explicit copies is macho and incomplete. A history that only celebrates unified memory is a tutorial from 2014 that never met a profiler. The copies were always there. For a while NVIDIA let you stop looking at them. Looking remains optional. Paying for them does not.
 
+
+
+
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/24-unified-memory-hid-the-copies/architecture-diagram.svg" alt="Architecture diagram for Unified memory: the API that hid the copies: illustrative GPU or datacenter shape from the public record, not an official vendor block diagram." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Illustrative system shape for the argument — protocol and architecture, not scraped silicon photography unless noted.</figcaption>
+</figure>
 ## Sources
 
 - NVIDIA CUDA Programming Guide: unified memory, `cudaMallocManaged`, `cudaMemAdvise`, prefetch.

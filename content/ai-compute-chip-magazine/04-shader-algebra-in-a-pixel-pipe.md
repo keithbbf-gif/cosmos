@@ -8,11 +8,24 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+portrait: null
+figures:
+  - ../assets/04-shader-algebra-in-a-pixel-pipe/historical-timeline.svg
+  - ../assets/04-shader-algebra-in-a-pixel-pipe/architecture-diagram.svg
 ---
-
 # Doing algebra in a pixel pipe
 
 The first time I saw someone multiply matrices on a graphics card, they were talking about textures. Not as pictures — as arrays. You uploaded a grid of floats dressed as an image, ran a pixel shader that pretended to shade a quad, and read the “color” back as an answer. The hardware was a GeForce or a Radeon from the programmable-shader years. The API was OpenGL or Direct3D. The paper trail is the GPGPU workshop literature and the GPU Gems chapters, not a product launch.
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/04-shader-algebra-in-a-pixel-pipe/historical-timeline.svg" alt="Timeline of public milestones for Doing algebra in a pixel pipe: dated anchors from press releases, papers, and product records — not live benchmark scores." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Calendar anchors for this piece. Years follow the essay; verify against Sources before publication.</figcaption>
+</figure>
+
 
 This is easy to mythologize. It was also, as anyone who did it will tell you, miserable. You had no integers you could trust. You had no scatter writes that felt like a normal memory store. You had four-wide vectors because a pixel is rgba. You had a graphics driver that could decide your “compute job” was a frame and evict it. Debugging meant looking at a picture of your residual and hoping the pink pixels were a NaN and not a viewport.
 
@@ -30,6 +43,18 @@ If you want to feel the era without romanticizing it, read a GPGPU paper’s lim
 
 A standalone article should not turn this into a moral about software layers. The moral, if there is one, is smaller. When a machine is fast at the wrong language, the users will lie to it. They will call a matrix a texture. They will call a kernel a shader. They will call a scientific application a game so the driver keeps the clocks up. That is not cleverness for its own sake. That is what a platform looks like the year before it admits it is a platform.
 
+
+
+
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/04-shader-algebra-in-a-pixel-pipe/architecture-diagram.svg" alt="Architecture diagram for Doing algebra in a pixel pipe: illustrative GPU or datacenter shape from the public record, not an official vendor block diagram." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Illustrative system shape for the argument — protocol and architecture, not scraped silicon photography unless noted.</figcaption>
+</figure>
 ## Sources
 
 - GPU Gems (2004), Chapter 37, Ian Buck and Tim Purcell, “A Toolkit for Computation on GPUs.”

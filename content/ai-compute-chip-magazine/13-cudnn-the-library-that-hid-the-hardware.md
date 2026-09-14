@@ -8,11 +8,24 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+portrait: null
+figures:
+  - ../assets/13-cudnn-the-library-that-hid-the-hardware/historical-timeline.svg
+  - ../assets/13-cudnn-the-library-that-hid-the-hardware/architecture-diagram.svg
 ---
-
 # cuDNN: the library that hid the hardware
 
 AlexNet’s speed came from a convolution a student wrote. That sentence is heroic and it does not scale. By 2014 every framework group was reinventing the same kernels, missing the same win conditions, and shipping slightly different footguns. NVIDIA’s answer was cuDNN, the CUDA Deep Neural Network library, announced that year as a set of primitives: convolution, pooling, normalization, activation, later attention-adjacent ops as the field moved. The point of a primitive library is not beauty. It is so Theano, then Caffe, then Torch, then TensorFlow, then PyTorch can stop arguing with the memory manager in public.
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/13-cudnn-the-library-that-hid-the-hardware/historical-timeline.svg" alt="Timeline of public milestones for cuDNN: the library that hid the hardware: dated anchors from press releases, papers, and product records — not live benchmark scores." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Calendar anchors for this piece. Years follow the essay; verify against Sources before publication.</figcaption>
+</figure>
+
 
 cuDNN is easy to under-describe because it sits under the thing people screenshot. You do not demo cuDNN. You demo a notebook. The notebook is slow or fast because of a version pin you will forget to print. Entire folklore religions grew up around “cuDNN 7 versus 8,” workspace sizes, deterministic algorithms, and the day a framework upgrade silently picked a slower conv. That folklore is public, in GitHub issues and NVIDIA release notes. It is also the sound of a platform succeeding. People fight over library versions when the library is the road.
 
@@ -28,6 +41,18 @@ If you want a physical object, there isn’t one. cuDNN is a `.so` and a header.
 
 This piece stays in the library layer on purpose. Tensor Cores will arrive in 2017 and cuDNN will grow paths to use them. That is a later article. 2014 is the year the hardware hid behind a function signature, and the function signature became the industry.
 
+
+
+
+
+
+
+<!-- chip-magazine-graphics:v1 -->
+
+<figure class="chip-figure">
+<img src="../assets/13-cudnn-the-library-that-hid-the-hardware/architecture-diagram.svg" alt="Architecture diagram for cuDNN: the library that hid the hardware: illustrative GPU or datacenter shape from the public record, not an official vendor block diagram." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Illustrative system shape for the argument — protocol and architecture, not scraped silicon photography unless noted.</figcaption>
+</figure>
 ## Sources
 
 - NVIDIA cuDNN announcement and developer documentation (2014 onward); public release notes.
