@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 240" role="img" aria-labelledby="t4">
+  <title id="t4">Two engines: llama.cpp and vLLM</title>
+  <rect width="960" height="240" fill="#f7f4ee"/>
+  <text x="24" y="28" font-family="Georgia, serif" font-size="16" fill="#222">Two jobs, two engines</text>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#222">
+    <rect x="40" y="56" width="420" height="150" fill="#fff" stroke="#222"/>
+    <text x="250" y="84" text-anchor="middle" font-weight="600">llama.cpp / GGUF</text>
+    <text x="250" y="116" text-anchor="middle">C/C++, mmap, one box</text>
+    <text x="250" y="140" text-anchor="middle">quantized file you can copy</text>
+    <text x="250" y="164" text-anchor="middle">laptop, shop machine, offline</text>
+    <rect x="500" y="56" width="420" height="150" fill="#fff" stroke="#222"/>
+    <text x="710" y="84" text-anchor="middle" font-weight="600">vLLM / PagedAttention</text>
+    <text x="710" y="116" text-anchor="middle">Python serving, GPU batch</text>
+    <text x="710" y="140" text-anchor="middle">KV cache as pages</text>
+    <text x="710" y="164" text-anchor="middle">many concurrent requests</text>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 240" role="img" aria-labelledby="t5">
+  <title id="t5">What a model card is asked to carry</title>
+  <rect width="960" height="240" fill="#f7f4ee"/>
+  <text x="24" y="28" font-family="Georgia, serif" font-size="16" fill="#222">A Hub card is a crate label</text>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#222">
+    <rect x="80" y="56" width="800" height="150" fill="#fff" stroke="#222"/>
+    <text x="120" y="92">org / name</text>
+    <text x="120" y="118">license string (read the file)</text>
+    <text x="120" y="144">base model + fine-tune recipe, if named</text>
+    <text x="120" y="170">files: safetensors, GGUF, tokenizer.json</text>
+    <text x="520" y="92">pipeline tag / library_name</text>
+    <text x="520" y="118">gated download? accept form?</text>
+    <text x="520" y="144">eval tables (vendor or third party)</text>
+    <text x="520" y="170">what it will not say: training data dump</text>
+  </g>
+</svg>

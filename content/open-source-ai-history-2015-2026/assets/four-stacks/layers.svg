@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 280" role="img" aria-labelledby="t2">
+  <title id="t2">Four public layers of the open stack</title>
+  <rect width="960" height="280" fill="#f7f4ee"/>
+  <text x="24" y="28" font-family="Georgia, serif" font-size="16" fill="#222">Four public layers, not one product</text>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#222">
+    <rect x="24" y="56" width="210" height="170" fill="#fff" stroke="#222"/>
+    <text x="129" y="84" text-anchor="middle" font-weight="600">Framework</text>
+    <text x="129" y="120" text-anchor="middle">TensorFlow</text>
+    <text x="129" y="142" text-anchor="middle">PyTorch</text>
+    <text x="129" y="164" text-anchor="middle">JAX / Keras 3</text>
+    <rect x="258" y="56" width="210" height="170" fill="#fff" stroke="#222"/>
+    <text x="363" y="84" text-anchor="middle" font-weight="600">Hub</text>
+    <text x="363" y="120" text-anchor="middle">transformers</text>
+    <text x="363" y="142" text-anchor="middle">model cards</text>
+    <text x="363" y="164" text-anchor="middle">datasets</text>
+    <rect x="492" y="56" width="210" height="170" fill="#fff" stroke="#222"/>
+    <text x="597" y="84" text-anchor="middle" font-weight="600">Weights</text>
+    <text x="597" y="120" text-anchor="middle">Llama family</text>
+    <text x="597" y="142" text-anchor="middle">Mistral / Qwen</text>
+    <text x="597" y="164" text-anchor="middle">DeepSeek / oss</text>
+    <rect x="726" y="56" width="210" height="170" fill="#fff" stroke="#222"/>
+    <text x="831" y="84" text-anchor="middle" font-weight="600">Run</text>
+    <text x="831" y="120" text-anchor="middle">llama.cpp</text>
+    <text x="831" y="142" text-anchor="middle">vLLM</text>
+    <text x="831" y="164" text-anchor="middle">Ollama / MLX</text>
+  </g>
+</svg>

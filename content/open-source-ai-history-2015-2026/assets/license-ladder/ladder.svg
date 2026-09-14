@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 260" role="img" aria-labelledby="t3">
+  <title id="t3">License ladder from research-only to OSI-approved</title>
+  <rect width="960" height="260" fill="#f7f4ee"/>
+  <text x="24" y="28" font-family="Georgia, serif" font-size="16" fill="#222">A ladder, not a compliment</text>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#222">
+    <rect x="80" y="180" width="800" height="40" fill="#fff" stroke="#222"/>
+    <text x="480" y="205" text-anchor="middle">Research / non-commercial grant (LLaMA 1, some early cards)</text>
+    <rect x="80" y="128" width="800" height="40" fill="#efe8d8" stroke="#222"/>
+    <text x="480" y="153" text-anchor="middle">Community / acceptable-use (Llama 24, Gemma 13 Terms)</text>
+    <rect x="80" y="76" width="800" height="40" fill="#dce8dc" stroke="#222"/>
+    <text x="480" y="101" text-anchor="middle">OSI-shaped licenses on weights and code (Apache 2.0, MIT: TF, PT, Mixtral, R1, gpt-oss, Gemma 4)</text>
+  </g>
+  <text x="24" y="244" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#555">Placement is illustrative. Read the named license file, not this drawing.</text>
+</svg>
