@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 380" role="img" aria-labelledby="title desc">
+  <title id="title">Where speech-language pathologists practice (schematic map)</title>
+  <desc id="desc">Stylized United States map with labeled practice setting hubs — schools, hospitals, outpatient, early intervention, private practice.</desc>
+  <defs><style>.bg { fill: #FAF9F7; }
+.title { font-family: Georgia, serif; font-size: 16px; font-weight: 600; fill: #1E293B; }
+.dek { font-family: system-ui, sans-serif; font-size: 11px; fill: #64748B; }
+.label { font-family: system-ui, sans-serif; font-size: 11px; fill: #64748B; }
+.strong { font-family: system-ui, sans-serif; font-size: 12px; font-weight: 600; fill: #1E293B; }
+.card { fill: #FFFFFF; stroke: #CBD5E1; stroke-width: 1; }
+.band-teal { fill: #CCFBF1; }
+.band-amber { fill: #FEF3C7; }
+.band-indigo { fill: #E0E7FF; }
+.accent-teal { fill: #0F766E; }
+.accent-amber { fill: #B45309; }
+.spine { stroke: #1E293B; stroke-width: 2; fill: none; }
+.note { font-family: system-ui, sans-serif; font-size: 10px; fill: #64748B; }</style></defs>
+  <rect class="bg" width="880" height="380"/>
+
+  <text x="40" y="36" class="title">Practice settings (schematic U.S.)</text>
+  <text x="40" y="56" class="dek">One profession; different rooms and payers.</text>
+  <rect class="band-indigo" x="200" y="90" width="480" height="240" rx="12"/>
+  <text x="420" y="130" class="strong" text-anchor="middle">Continental schematic</text>
+  <rect class="card" x="240" y="150" width="120" height="48" rx="4"/><text x="252" y="178" class="label">Schools</text>
+  <rect class="card" x="380" y="150" width="120" height="48" rx="4"/><text x="392" y="178" class="label">Hospitals</text>
+  <rect class="card" x="520" y="150" width="120" height="48" rx="4"/><text x="532" y="178" class="label">Outpatient</text>
+  <rect class="card" x="300" y="220" width="140" height="48" rx="4"/><text x="312" y="248" class="label">Early intervention</text>
+  <rect class="card" x="460" y="220" width="140" height="48" rx="4"/><text x="472" y="248" class="label">Private practice</text>
+  <text x="40" y="350" class="note">When a headline says “SLPs,” ask which room and which payer.</text>
+</svg>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-labelledby="title desc">
+  <title id="title">School caseload news card (schematic)</title>
+  <desc id="desc">Editorial news card layout for caseload ratio stories with verify and scope notes.</desc>
+  <defs><style>.bg { fill: #FAF9F7; }
+.title { font-family: Georgia, serif; font-size: 16px; font-weight: 600; fill: #1E293B; }
+.dek { font-family: system-ui, sans-serif; font-size: 11px; fill: #64748B; }
+.label { font-family: system-ui, sans-serif; font-size: 11px; fill: #64748B; }
+.strong { font-family: system-ui, sans-serif; font-size: 12px; font-weight: 600; fill: #1E293B; }
+.card { fill: #FFFFFF; stroke: #CBD5E1; stroke-width: 1; }
+.band-teal { fill: #CCFBF1; }
+.band-amber { fill: #FEF3C7; }
+.band-indigo { fill: #E0E7FF; }
+.accent-teal { fill: #0F766E; }
+.accent-amber { fill: #B45309; }
+.spine { stroke: #1E293B; stroke-width: 2; fill: none; }
+.note { font-family: system-ui, sans-serif; font-size: 10px; fill: #64748B; }</style></defs>
+  <rect class="bg" width="720" height="400"/>
+
+  <text x="40" y="36" class="title">News card — school caseloads</text>
+  <rect class="card" x="40" y="60" width="640" height="300" rx="8"/>
+  <text x="56" y="92" class="strong">Claim in the headline</text>
+  <text x="56" y="112" class="label">“Ratio bill passes” vs “district hiring freeze”</text>
+  <line x1="56" y1="128" x2="664" y2="128" stroke="#CBD5E1"/>
+  <text x="56" y="156" class="strong">Check the statute or board rule</text>
+  <text x="56" y="176" class="label">Students per SLP · service minutes · evaluation timelines</text>
+  <text x="56" y="212" class="strong">Local context</text>
+  <text x="56" y="232" class="label">Vacancy · contract SLPs · telepractice mix</text>
+  <text x="56" y="268" class="strong">Not in this card</text>
+  <text x="56" y="288" class="label">Medical swallowing coverage · private pay rates</text>
+  <text x="40" y="384" class="note">Educational explainer only — not union or legal advice.</text>
+</svg>

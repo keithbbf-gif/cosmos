@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 300" role="img" aria-labelledby="title desc">
+  <title id="title">CDC milestone headlines in context (schematic timeline)</title>
+  <desc id="desc">Timeline schematic from early parent checklists through 2022 revision and ongoing ASHA commentary, for news literacy.</desc>
+  <defs><style>.bg { fill: #FAF9F7; }
+.title { font-family: Georgia, serif; font-size: 16px; font-weight: 600; fill: #1E293B; }
+.dek { font-family: system-ui, sans-serif; font-size: 11px; fill: #64748B; }
+.label { font-family: system-ui, sans-serif; font-size: 11px; fill: #64748B; }
+.strong { font-family: system-ui, sans-serif; font-size: 12px; font-weight: 600; fill: #1E293B; }
+.card { fill: #FFFFFF; stroke: #CBD5E1; stroke-width: 1; }
+.band-teal { fill: #CCFBF1; }
+.band-amber { fill: #FEF3C7; }
+.band-indigo { fill: #E0E7FF; }
+.accent-teal { fill: #0F766E; }
+.accent-amber { fill: #B45309; }
+.spine { stroke: #1E293B; stroke-width: 2; fill: none; }
+.note { font-family: system-ui, sans-serif; font-size: 10px; fill: #64748B; }</style></defs>
+  <rect class="bg" width="920" height="300"/>
+
+  <text x="40" y="36" class="title">Milestone headlines — timeline (schematic)</text>
+  <text x="40" y="56" class="dek">News spikes; primary documents move more slowly.</text>
+  <line class="spine" x1="60" y1="200" x2="860" y2="200"/>
+  <circle class="accent-amber" cx="120" cy="200" r="6"/>
+  <text x="80" y="168" class="strong">Earlier lists</text>
+  <text x="80" y="184" class="label">50th-percentile habits</text>
+  <circle class="accent-teal" cx="320" cy="200" r="6"/>
+  <text x="280" y="140" class="strong">2022 revision</text>
+  <text x="280" y="156" class="label">75% placement rule</text>
+  <circle class="accent-teal" cx="520" cy="200" r="6"/>
+  <text x="480" y="168" class="strong">AAP well-child map</text>
+  <text x="480" y="184" class="label">15- &amp; 30-mo pages</text>
+  <circle class="accent-amber" cx="720" cy="200" r="6"/>
+  <text x="680" y="140" class="strong">ASHA response</text>
+  <text x="680" y="156" class="label">screening vs surveillance</text>
+  <text x="40" y="268" class="note">Pair news articles with the CDC PDF and ASHA practice comments — not social summaries alone.</text>
+</svg>

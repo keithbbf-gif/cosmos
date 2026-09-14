@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 320" role="img" aria-labelledby="title desc">
+  <title id="title">SLPWOW news desk series map (schematic)</title>
+  <desc id="desc">Overview schematic linking policy, workforce, pediatrics, and ethics briefs in the SLP News pack.</desc>
+  <defs><style>.bg { fill: #FAF9F7; }
+.title { font-family: Georgia, serif; font-size: 16px; font-weight: 600; fill: #1E293B; }
+.dek { font-family: system-ui, sans-serif; font-size: 11px; fill: #64748B; }
+.label { font-family: system-ui, sans-serif; font-size: 11px; fill: #64748B; }
+.strong { font-family: system-ui, sans-serif; font-size: 12px; font-weight: 600; fill: #1E293B; }
+.card { fill: #FFFFFF; stroke: #CBD5E1; stroke-width: 1; }
+.band-teal { fill: #CCFBF1; }
+.band-amber { fill: #FEF3C7; }
+.band-indigo { fill: #E0E7FF; }
+.accent-teal { fill: #0F766E; }
+.accent-amber { fill: #B45309; }
+.spine { stroke: #1E293B; stroke-width: 2; fill: none; }
+.note { font-family: system-ui, sans-serif; font-size: 10px; fill: #64748B; }</style></defs>
+  <rect class="bg" width="960" height="320"/>
+
+  <text x="40" y="36" class="title">SLPWOW news desk — series map</text>
+  <rect class="band-teal" x="40" y="72" width="200" height="200" rx="6"/><text x="52" y="100" class="strong">Policy &amp; payers</text>
+  <rect class="band-indigo" x="260" y="72" width="200" height="200" rx="6"/><text x="272" y="100" class="strong">Workforce</text>
+  <rect class="band-amber" x="480" y="72" width="200" height="200" rx="6"/><text x="492" y="100" class="strong">Pediatrics</text>
+  <rect class="band-teal" x="700" y="72" width="220" height="200" rx="6"/><text x="712" y="100" class="strong">Documentation</text>
+  <text x="52" y="128" class="label">CMS · Medicaid</text>
+  <text x="272" y="128" class="label">Caseloads · compacts</text>
+  <text x="492" y="128" class="label">CDC · EI</text>
+  <text x="712" y="128" class="label">AI scribes · HIPAA</text>
+  <text x="40" y="300" class="note">Companion packs: pediatric milestones &amp; history — different editors, shared verify habit.</text>
+</svg>

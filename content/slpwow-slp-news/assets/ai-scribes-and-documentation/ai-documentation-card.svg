@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-labelledby="title desc">
+  <title id="title">AI documentation news card (schematic)</title>
+  <desc id="desc">News card schematic for AI scribes and clinical documentation with ethics and verify prompts.</desc>
+  <defs><style>.bg { fill: #FAF9F7; }
+.title { font-family: Georgia, serif; font-size: 16px; font-weight: 600; fill: #1E293B; }
+.dek { font-family: system-ui, sans-serif; font-size: 11px; fill: #64748B; }
+.label { font-family: system-ui, sans-serif; font-size: 11px; fill: #64748B; }
+.strong { font-family: system-ui, sans-serif; font-size: 12px; font-weight: 600; fill: #1E293B; }
+.card { fill: #FFFFFF; stroke: #CBD5E1; stroke-width: 1; }
+.band-teal { fill: #CCFBF1; }
+.band-amber { fill: #FEF3C7; }
+.band-indigo { fill: #E0E7FF; }
+.accent-teal { fill: #0F766E; }
+.accent-amber { fill: #B45309; }
+.spine { stroke: #1E293B; stroke-width: 2; fill: none; }
+.note { font-family: system-ui, sans-serif; font-size: 10px; fill: #64748B; }</style></defs>
+  <rect class="bg" width="720" height="400"/>
+
+  <text x="40" y="36" class="title">News card — AI scribes &amp; notes</text>
+  <rect class="card" x="40" y="60" width="640" height="300" rx="8"/>
+  <text x="56" y="92" class="strong">Headline heat</text>
+  <text x="56" y="112" class="label">“AI writes your SOAP note in seconds”</text>
+  <text x="56" y="148" class="strong">Verify</text>
+  <text x="56" y="168" class="label">BAA · retention · edit trail · who signs</text>
+  <text x="56" y="204" class="strong">Clinical ethics</text>
+  <text x="56" y="224" class="label">Consent · accuracy · scope · billing integrity</text>
+  <text x="56" y="260" class="strong">Not replaced by this card</text>
+  <text x="56" y="280" class="label">Treatment decisions · diagnoses · caregiver messaging</text>
+</svg>
