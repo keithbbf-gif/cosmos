@@ -12,7 +12,7 @@ Gates this suite holds, each earned from a named failure class:
   * ADDITIVE: cDeck's Sessions route and UI allowlist are still intact, and
     nothing in cosmos/ or builds/session-tools/ depends on this app.
 
-Run:  py -3.14 tests/test_sessions_app.py
+Run:  py -3.14 tests/test_sessions_app.py  (or: pytest tests/test_sessions_app.py -q)
 """
 from __future__ import annotations
 
