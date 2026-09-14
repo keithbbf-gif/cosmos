@@ -279,7 +279,13 @@ def parse_order(raw) -> dict:
     if not isinstance(ts, str) or not ts.strip():
         raise OrderError("BAD_INPUT", "Timestamp is required")
     output = parse_output(raw["Output"])
+    from cosmos_portfolio_attribution import AttributionError, parse_work_order_tags
+    try:
+        tags = parse_work_order_tags(raw)
+    except AttributionError as e:
+        raise OrderError("BAD_INPUT", str(e)) from e
     rec = dict(raw)
+    rec.update(tags)
     rec["_schema"] = SCHEMA
     rec["_agent"] = agent
     rec["_context"] = context
@@ -520,6 +526,9 @@ def public_order_row(raw: dict, folder: str) -> dict:
         "output_filename": filename,
         "output_exists": exists,
         "product": filename if exists else None,
+        "portfolio_product": raw.get("portfolio_product"),
+        "portfolio_stage": raw.get("portfolio_stage"),
+        "attribution": raw.get("attribution") or "UNATTRIBUTED",
         "timestamp": str(raw.get("Timestamp") or ""),
         "dropped_at": raw.get("dropped_at"),
         "picked_at": raw.get("picked_at"),

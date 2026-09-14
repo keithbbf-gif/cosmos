@@ -67,6 +67,9 @@ def _work_orders(paths) -> dict:
             "agent": row.get("agent"),
             "task": str(row.get("task") or "")[:160],
             "product": row.get("product") or row.get("output_filename"),
+            "portfolio_product": row.get("portfolio_product"),
+            "portfolio_stage": row.get("portfolio_stage"),
+            "attribution": row.get("attribution") or "UNATTRIBUTED",
             "output_head": str(row.get("output_head") or row.get("output") or "")[:240] or None,
             "mtime": row.get("timestamp") or row.get("dropped_at"),
         })
@@ -154,12 +157,15 @@ def _voice(kernel) -> dict:
 def _spend(kernel) -> dict:
     spend = getattr(kernel, "spend", None)
     rails = {}
+    by_product = None
     kind = "NO_SOURCE"
     if spend is not None:
         try:
             aud = spend.audit()
             rails = aud.get("rails") or {}
             kind = "OK"
+            if hasattr(spend, "audit_by_product"):
+                by_product = spend.audit_by_product()
         except Exception as e:  # noqa: BLE001
             kind = f"{type(e).__name__}: {e}"[:160]
     meters = []
@@ -186,13 +192,49 @@ def _spend(kernel) -> dict:
             guard = g.audit()
         except Exception:  # noqa: BLE001
             guard = None
+    if by_product is None:
+        from cosmos_portfolio_attribution import empty_product_spend_totals
+        by_product = {
+            "schema": "cosmos-portfolio-attribution/1",
+            "products": empty_product_spend_totals(),
+            "kind": "UNMEASURED",
+            "note": "No spend gate composed — per-product totals are UNMEASURED.",
+        }
     return {
         "kind": kind,
         "meters": meters,
         "guard": guard,
+        "by_product": by_product,
         "note": ("Cost is spend.audit() per rail (the key stays on the rail). "
-                 "Token counts are UNMEASURED unless a later meter writes them."),
+                 "Per-product totals use tagged SPEND_SETTLED only; untagged "
+                 "history stays UNATTRIBUTED. Token counts are UNMEASURED unless "
+                 "a later meter writes them."),
     }
+
+
+def _scheduler_jobs(kernel) -> dict:
+    sched = getattr(kernel, "sched", None)
+    if sched is None:
+        return {"kind": "NO_SOURCE", "jobs": []}
+    try:
+        from cosmos_portfolio_attribution import read_tags
+        st = sched._state()
+        jobs = []
+        for jid, row in st.items():
+            m = row.get("m") or {}
+            tags = read_tags(m)
+            jobs.append({
+                "job_id": jid,
+                "state": row.get("st"),
+                "priority": m.get("priority"),
+                "lane": m.get("lane"),
+                "portfolio_product": tags["product"],
+                "portfolio_stage": tags["stage"],
+                "attribution": tags["attribution"],
+            })
+        return {"kind": "OK", "jobs": jobs[:24], "n_total": len(jobs)}
+    except Exception as e:  # noqa: BLE001
+        return {"kind": "BROKE", "detail": f"{type(e).__name__}: {e}"[:200]}
 
 
 def snapshot(kernel) -> dict:
@@ -249,13 +291,15 @@ def snapshot(kernel) -> dict:
         "gitur": gitur_pub,
         "products": (orders.get("recent") if isinstance(orders, dict) else []),
         "spend": _spend(kernel),
+        "scheduler_jobs": _scheduler_jobs(kernel),
         "mesh": {
             "note": ("Activity feed is GET /events on the Runs EVENTS column — "
                      "the same ledger tail JACK'S MESH paints. Not a second feed."),
         },
         "note": (
             "Fold of heartbeats, recents, work_orders, gitur, spend. "
-            "Does not poll vendors. Token counts stay UNMEASURED until a meter writes them."
+            "Does not poll vendors. Token counts stay UNMEASURED until a meter writes them. "
+            "Per-product spend totals are UNMEASURED unless tagged SPEND_SETTLED exists."
         ),
     }
 
@@ -288,12 +332,19 @@ def _selftest() -> int:
     check("spend tokens stay UNMEASURED when no meter wrote them",
           lambda: rec["spend"]["kind"] == "NO_SOURCE"
           and "UNMEASURED" in rec["note"])
+    check("per-product spend totals are UNMEASURED not zero without gate",
+          lambda: rec["spend"]["by_product"]["kind"] == "UNMEASURED"
+          and all(p["settled_usd"] is None
+                  for p in rec["spend"]["by_product"]["products"]))
+    check("scheduler_jobs fold present without inventing tags",
+          lambda: rec["scheduler_jobs"]["kind"] == "NO_SOURCE"
+          and rec["scheduler_jobs"]["jobs"] == [])
     check("does not invent GitHub PR lists",
           lambda: "Does not poll vendors" in rec["note"])
     check("fold names watchdog clocks streams voice gitur spend products mesh",
           lambda: all(k in rec for k in (
               "watchdog", "clocks", "work_orders", "streams",
-              "voice", "gitur", "products", "spend", "mesh"))
+              "voice", "gitur", "products", "spend", "mesh", "scheduler_jobs"))
           and rec["voice"].get("sgh_voice_loop") is False
           and rec["spend"]["meters"] == []
           and rec["spend"]["kind"] == "NO_SOURCE")

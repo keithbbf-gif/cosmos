@@ -420,12 +420,21 @@ def _rebuild_sqlite(paths, rows: list[dict]) -> None:
 def record_pair(paths, model_a, model_b, *, axis="", disagree=True,
                 error_mag=None, profile="forge", stage="", trial_id="",
                 tokens_a=None, tokens_b=None, who_erred="", source="local",
-                authority="", action="", note="") -> dict:
-    """Append one pair observation. Does not invent a score."""
+                authority="", action="", note="", product=None) -> dict:
+    """Append one pair observation. Does not invent a score.
+
+    Portfolio product/stage tags are stamped only when both ends validate
+    against the closed catalogs (explicit ``product`` or a canon profile
+    plus a MOTIF ``stage``). Untagged rows stay UNATTRIBUTED when read.
+    """
     a = _pin(model_a)
     b = _pin(model_b)
     lo, hi = _pair(a, b)
-    ax = _axis(axis, profile)
+    prof = str(profile or "forge").strip().lower()[:40]
+    st = str(stage or "").strip().lower()[:40]
+    from cosmos_portfolio_attribution import porosity_optional_tags
+    tags = porosity_optional_tags(profile=prof, stage=st, product=product)
+    ax = _axis(axis, prof)
     src = str(source or "local").strip().lower()
     if src not in SRC_OK:
         raise PorosityError("BAD_INPUT", f"unknown source {source!r}")
@@ -440,8 +449,8 @@ def record_pair(paths, model_a, model_b, *, axis="", disagree=True,
         "schema": SCHEMA,
         "at": _iso(),
         "trial_id": str(trial_id or "")[:120],
-        "profile": str(profile or "forge").strip().lower()[:40],
-        "stage": str(stage or "").strip().lower()[:40],
+        "profile": prof,
+        "stage": st,
         "axis": ax,
         "model_a": a,
         "model_b": b,
@@ -457,6 +466,7 @@ def record_pair(paths, model_a, model_b, *, axis="", disagree=True,
         "action": str(action or "ballot")[:40],
         "note": str(note or "")[:240],
     }
+    rec.update(tags)
     d = store_dir(paths)
     d.mkdir(parents=True, exist_ok=True)
     with obs_path(paths).open("a", encoding="utf-8") as fh:

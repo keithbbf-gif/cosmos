@@ -1990,7 +1990,9 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                     return
                 try:
                     d = json.loads(body.decode("utf-8"))
-                    jid = kernel.sched.submit(d["command"], d.get("priority", "normal"))
+                    jid = kernel.sched.submit(
+                        d["command"], d.get("priority", "normal"),
+                        product=d.get("product"), stage=d.get("stage"))
                 except Exception as e:                                # noqa: BLE001
                     return self._send(400, {"error": "BAD_REQUEST", "detail": str(e)[:200]})
                 return self._send(201, {"job_id": jid})
