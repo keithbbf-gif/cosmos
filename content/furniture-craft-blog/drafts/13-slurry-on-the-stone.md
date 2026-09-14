@@ -2,8 +2,8 @@
 title: "Slurry on the Stone"
 slug: slurry-on-the-stone
 status: draft
-voice_check: human
-word_count: 1282
+voice_check: edited
+word_count: 1182
 dek: "Sharpening is not a personality. It is the five minutes that decide whether the next hour is woodwork or an argument with a dull iron."
 series: furniture-craft
 topic: tools
@@ -71,12 +71,6 @@ Flatten the stones. A dished stone rounds the iron. A rounded iron is a dull iro
 The state has a stone in its name, in the older catalogs — Washita, Arkansas stone, the white and the black. [VERIFY] any shop claim that “we still use true Arkansas” against what is actually on the bench. A lot of those stones are in drawers as inheritance. They still cut if you oil them and you are patient. They are not magic. The magic was always the habit.
 
 A mill’s knife room is the grown-up version of this essay. They do not run a molder with a dull head because the profile goes to hell and the motor works too hard and the finish comes out burnished and burned. Furniture benches forget they are the same industry. The iron in a No. 4 is a tiny knife.
-
-## A dished stone
-
-I polished a bevel prettily on a hollowed stone and I left the last of the edge dull at the corners. The plane tracked. I scribble pencil on the stone and I flatten until the pencil goes. Boring. The whole game.
-
-A dull smoother is a scraper with a tote. I keep a coarse diamond in the apron for a nick and the stones on a board that is not buried. If I have to excavate them, I will not excavate them. The mill’s knife room already knows this. The No. 4 is a tiny knife.
 
 ## The test I trust
 

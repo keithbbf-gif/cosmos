@@ -2,8 +2,8 @@
 title: "The First Line"
 slug: the-first-line
 status: draft
-voice_check: human
-word_count: 1247
+voice_check: edited
+word_count: 1254
 dek: "A cutting gauge from the face side. Layout is not prep. Layout is the joint, drawn before the saw is invited."
 series: furniture-craft
 topic: tools

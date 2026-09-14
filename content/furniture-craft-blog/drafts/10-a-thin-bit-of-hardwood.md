@@ -2,8 +2,8 @@
 title: "A Thin Bit of Hardwood"
 slug: a-thin-bit-of-hardwood
 status: draft
-voice_check: human
-word_count: 1244
+voice_check: edited
+word_count: 1239
 dek: "Miters want to open. A spline is the small piece that keeps a box a box when the glue line is mostly end grain."
 series: furniture-craft
 topic: joinery

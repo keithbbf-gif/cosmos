@@ -2,8 +2,8 @@
 title: "The Pot on the Hot Plate"
 slug: the-pot-on-the-hot-plate
 status: draft
-voice_check: human
-word_count: 1247
+voice_check: edited
+word_count: 1239
 dek: "Hide glue, the smell you either know or will, and why a joint you can take apart is sometimes the more serious joint."
 series: furniture-craft
 topic: joinery

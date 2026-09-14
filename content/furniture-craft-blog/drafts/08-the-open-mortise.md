@@ -2,8 +2,8 @@
 title: "The Open Mortise"
 slug: the-open-mortise
 status: draft
-voice_check: human
-word_count: 1327
+voice_check: edited
+word_count: 1321
 dek: "Bridle joints at the corner of a frame: two cheeks, an open slot, and a joint that is stronger than it looks in a catalog thumbnail."
 series: furniture-craft
 topic: joinery

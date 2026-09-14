@@ -2,8 +2,8 @@
 title: "The Pin That Still Slides"
 slug: the-pin-that-still-slides
 status: draft
-voice_check: human
-word_count: 1277
+voice_check: edited
+word_count: 1276
 dek: "A breadboard end in winter light: the center is glued, the outer pins live in slots, and the top is allowed to be wood."
 series: furniture-craft
 topic: joinery
@@ -56,7 +56,7 @@ Screws from underneath in holes that are not slotted. The screw becomes a pin th
 
 ## Cutting it so the winter line is the only line
 
-I mill the panel flat and I let it sit. If it stills moves after a week in the shop, it will move in the house. The tongue is centered if I can help it, or biased to the underside if the design wants a crisp top shoulder and a hidden underside rabbet. Shoulders must be even. A high shoulder on one face is a breadboard that rocks.
+I mill the panel flat and I let it sit. If it still moves after a week in the shop, it will move in the house. The tongue is centered if I can help it, or biased to the underside if the design wants a crisp top shoulder and a hidden underside rabbet. Shoulders must be even. A high shoulder on one face is a breadboard that rocks.
 
 Dry-fit the breadboard. Mark the center. Glue only what you marked. I like a tight tongue — tap, not pound — because slop here becomes a breadboard that is not in the same plane as the top.
 

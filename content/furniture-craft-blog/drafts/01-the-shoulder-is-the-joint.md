@@ -2,8 +2,8 @@
 title: "The Shoulder Is the Joint"
 slug: the-shoulder-is-the-joint
 status: draft
-voice_check: human
-word_count: 1495
+voice_check: edited
+word_count: 1481
 dek: "A dry-fit apron tenon in a Wilmar shop light, and why a pair of shoulders still outlasts a cluster of dowels when the piece is meant to stay in the room."
 series: furniture-craft
 topic: joinery
@@ -61,11 +61,11 @@ On production work the hollow-chisel mortiser or a slot mortiser does the holes;
 
 ## When I still reach for dowels
 
-I dowel a tabletop leaf alignment, a breadboard dry-run that will get pegs later, a jig, a battens on the back of a slab that is already held by screws in slots. I will dowel a light mirror frame if the customer is buying a frame, not an heirloom, and the shop rate says so. I will not dowel the front rail of a side chair and then talk about generations.
+I dowel a tabletop leaf alignment, a breadboard dry-run that will get pegs later, a jig, a batten on the back of a slab that is already held by screws in slots. I will dowel a light mirror frame if the customer is buying a frame, not an heirloom, and the shop rate says so. I will not dowel the front rail of a side chair and then talk about generations.
 
 There is a class of knockdown work — bed rails with hooks, trestles with bolts — where the mechanical fastener is the joint and the wood is the bearing. That is a different honesty. A hidden dowel pretending to be joinery is the one that bothers me.
 
-Southern shops have been boring dowel holes since the machines showed up. Warren’s mill century made furniture stock and millwork for people who already knew both methods. [VERIFY] mid-century plant practice before anyone writes “they always tenoned.” The point is not nostalgia. The point is that a county that cut oak for a hundred years still has to decide, on a Tuesday, whether this rail gets cheeks or cylinders.
+Southern shops have been boring dowel holes since the machines showed up. Warren’s century of mill work made furniture stock and millwork for people who already knew both methods. [VERIFY] mid-century plant practice before anyone writes “they always tenoned.” The point is not nostalgia. The point is that a county that cut oak for a hundred years still has to decide, on a Tuesday, whether this rail gets cheeks or cylinders.
 
 ## Glue is not a personality
 

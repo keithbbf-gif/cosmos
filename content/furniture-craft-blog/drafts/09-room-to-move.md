@@ -2,8 +2,8 @@
 title: "Room to Move"
 slug: room-to-move
 status: draft
-voice_check: human
-word_count: 1293
+voice_check: edited
+word_count: 1185
 dek: "A panel rattles, faintly, in its frame in January. That rattle is the door still being a door in August."
 series: furniture-craft
 topic: joinery
@@ -67,12 +67,6 @@ Pins or a spot of glue at the *top center* of a panel, sometimes, to keep a rais
 South Arkansas will test a glued panel before the invoice is paid. Air conditioning helps the house and lies to the shop if the shop is a metal building that swings twenty grains of moisture in a week. We stack doors on sticks. We do not crate them from the press to the truck in the same afternoon if the panels were just glued up as frames. The glue in the *frame* needs time. The panel needs to have already been a panel for a while.
 
 A mill that sells raised-panel doors in quantity already knows this or they have a returns aisle. Architectural millwork standards exist for a reason; they are tedious and they keep lawyers out of the finish room. [VERIFY] any quoted tolerance against the AWI edition on the shelf.
-
-## A silent January oak door
-
-A solid oak panel that did not talk in January had been glued or swollen to a press fit. I put it down carefully and I did not praise it. August would have been the split. A bumper in the groove is not glue. If it acts like glue, the treaty is broken.
-
-I finish panel edges before they go in so the winter stripe is not raw wood. Both faces of the panel, or a cup in slow motion. A plywood panel in a “solid wood” tag is a conversation I will have.
 
 ## What I look for on a door I did not make
 

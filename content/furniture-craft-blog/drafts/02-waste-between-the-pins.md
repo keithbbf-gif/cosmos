@@ -2,8 +2,8 @@
 title: "Waste Between the Pins"
 slug: waste-between-the-pins
 status: draft
-voice_check: human
-word_count: 1453
+voice_check: edited
+word_count: 1436
 dek: "A marking gauge on a drawer side, and the particular quiet of chopping waste when the pins are laid out by hand."
 series: furniture-craft
 topic: joinery
