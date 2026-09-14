@@ -9,19 +9,23 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "cosmos"))
 
 from cosmos_profiles import _selftest  # noqa: E402
+import unittest  # noqa: E402
 
 
-def test_profiles_selftest():
-    assert _selftest() == 0
+class TestProfiles(unittest.TestCase):
+    def test_profiles_selftest(self):
+        self.assertEqual(_selftest(), 0)
 
-
-def test_service_declares_profiles_routes():
-    src = (ROOT / "cosmos" / "cosmos_service.py").read_text(encoding="utf-8")
-    assert 'parsed.path == "/api/v1/profiles"' in src
-    assert "profiles_save" in src
-    assert "Does not start MOTIF" in src
-    assert "Does not publish" in src
+    def test_service_declares_profiles_routes(self):
+        src = (ROOT / "cosmos" / "cosmos_service.py").read_text(encoding="utf-8")
+        self.assertIn('parsed.path == "/api/v1/profiles"', src)
+        self.assertIn("profiles_save", src)
+        self.assertIn("Does not start MOTIF", src)
+        self.assertIn("Does not publish", src)
+        self.assertIn("kernel=kernel", src)
+        prof = (ROOT / "cosmos" / "cosmos_profiles.py").read_text(encoding="utf-8")
+        self.assertIn("PROFILE_MOTIF_STAGE_TRANSITION", prof)
 
 
 if __name__ == "__main__":
-    raise SystemExit(_selftest())
+    raise SystemExit(unittest.main())

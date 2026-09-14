@@ -5,7 +5,8 @@
 Each profile owns a MOTIF 9-stage skin. Stage 1 is PROBLEM STATEMENT /
 STATED GOAL. Stage 8 is IMPLEMENT (was IMPROVE). Write dest depends on
 the running profile. GET never mutates and never mkdir. POST does not
-start MOTIF and does not publish.
+start MOTIF and does not publish. Optional ``transition`` on POST advances
+``motif_cursor`` with ledger evidence (Core writer only); it never queues jobs.
 
     py -3.14 cosmos\\\\cosmos_profiles.py --selftest
 """
@@ -19,11 +20,15 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-SCHEMA = "cosmos-profiles/1"
+SCHEMA = "cosmos-profiles/2"
 ENGINE_NAME = "engine.json"
 MAX_TEXT = 80_000
 MAX_NOTE = 4_000
 MAX_PATH = 400
+MAX_KEITH_DECISION = 2_000
+
+LEGAL_KINDS = frozenset({"legal", "deal", "ip", "medical"})
+MEASURED_STAGES = frozenset({"build", "critics"})
 
 # Pack key `define` is on-disk. Display is PROBLEM STATEMENT / STATED GOAL.
 MOTIF_STAGES = (
@@ -47,6 +52,8 @@ MOTIF_STAGES = (
      "hint": "Return to PROBLEM STATEMENT / STATED GOAL. Runtime-binding, not a green log."},
 )
 STAGE_IDS = frozenset(s["id"] for s in MOTIF_STAGES)
+STAGE_ORDER = [s["id"] for s in MOTIF_STAGES]
+STAGE_INDEX = {sid: i for i, sid in enumerate(STAGE_ORDER)}
 
 FORGE_DEST = (
     ("local", "Local file"),
@@ -208,6 +215,36 @@ def default_step_setup() -> dict:
     return out
 
 
+def default_motif_cursor(*, stage: str = "define") -> dict:
+    sid = str(stage or "define").strip().lower()
+    if sid not in STAGE_IDS:
+        sid = "define"
+    return {
+        "stage": sid,
+        "version": 0,
+        "entered_at": None,
+        "ledger_seq": None,
+    }
+
+
+def _public_motif_cursor(raw, *, fallback_stage: str = "define") -> dict:
+    base = default_motif_cursor(stage=fallback_stage)
+    src = raw if isinstance(raw, dict) else {}
+    stage = str(src.get("stage") or base["stage"]).strip().lower()
+    if stage not in STAGE_IDS:
+        stage = base["stage"]
+    try:
+        version = int(src.get("version") if src.get("version") is not None else base["version"])
+    except (TypeError, ValueError):
+        version = base["version"]
+    return {
+        "stage": stage,
+        "version": max(0, version),
+        "entered_at": src.get("entered_at"),
+        "ledger_seq": src.get("ledger_seq"),
+    }
+
+
 def default_engine(profile_id: str = DEFAULT_PROFILE) -> dict:
     row = _profile(profile_id)
     notes = {s["id"]: "" for s in MOTIF_STAGES}
@@ -219,11 +256,13 @@ def default_engine(profile_id: str = DEFAULT_PROFILE) -> dict:
         "stages": notes,
         "step_setup": default_step_setup(),
         "dest": default_dest(row),
+        "motif_cursor": default_motif_cursor(),
         "saved_at": None,
         "kind": "NO_SOURCE",
         "note": (
             "MOTIF engine skin for this profile. SAVE does not start MOTIF. "
-            "IMPLEMENT dest is profile-specific. Publish is Keith's click."
+            "IMPLEMENT dest is profile-specific. Publish is Keith's click. "
+            "Optional transition on POST advances motif_cursor with ledger evidence."
         ),
     }
 
@@ -308,13 +347,190 @@ def load_engine(paths, profile_id: str) -> dict:
         "stages": stages,
         "step_setup": _public_step_setup(rec.get("step_setup")),
         "dest": dest,
+        "motif_cursor": _public_motif_cursor(rec.get("motif_cursor")),
         "saved_at": rec.get("saved_at"),
         "kind": "OK",
         "note": base["note"],
     }
 
 
-def save_engine(paths, body: dict) -> dict:
+def _is_legal_adjacent(row: dict, *, to_stage: str, dest: dict) -> bool:
+    if row.get("kind") in LEGAL_KINDS:
+        return True
+    if row["id"] == "website" and to_stage == "improve":
+        return str((dest or {}).get("kind") or "").strip().lower() == "publish"
+    return False
+
+
+def _keith_decision_ok(raw) -> dict | None:
+    if not isinstance(raw, dict):
+        return None
+    if raw.get("approved") is not True:
+        return None
+    text = str(raw.get("text") or "").strip()
+    if not text or len(text) > MAX_KEITH_DECISION:
+        return None
+    return {
+        "approved": True,
+        "text": text,
+        "saved_at": str(raw.get("saved_at") or _iso_now()),
+    }
+
+
+def _try_ledger_refuse(kernel, payload: dict) -> None:
+    try:
+        kernel.ledger.append("PROFILE_MOTIF_STAGE_REFUSED", payload)
+    except Exception:  # noqa: BLE001
+        pass
+
+
+def _run_transition_gates(kernel, paths, row: dict, cur: dict, body: dict) -> None:
+    tr = body.get("transition") if isinstance(body.get("transition"), dict) else {}
+    tid = str(body.get("tree_id") or tr.get("tree_id") or "").strip()
+    if tid and tid != paths.sentinel.tree_id:
+        raise ProfileError(
+            "REFUSED",
+            f"tree gate: tree_id {tid!r} != {paths.sentinel.tree_id!r}",
+        )
+    from cosmos_health import HealthBoard
+
+    board = HealthBoard(kernel).run()
+    if board.get("verdict") != "GREEN":
+        raise ProfileError("REFUSED", f"health gate RED: {board.get('verdict')}")
+    spend = getattr(kernel, "spend", None)
+    if spend is None:
+        raise ProfileError("REFUSED", "spend gate: SPEND_NOT_COMPOSED")
+    try:
+        spend.audit()
+    except Exception as e:  # noqa: BLE001
+        raise ProfileError("REFUSED", f"spend gate unreadable: {type(e).__name__}") from e
+    dest = cur.get("dest") or {}
+    if row["id"] == "website" and str(dest.get("kind") or "") == "publish":
+        raise ProfileError(
+            "REFUSED",
+            "product gate: Website GC publish dest is Keith's click — not a transition target",
+        )
+
+
+def _apply_stage_transition(kernel, paths, row: dict, cur: dict, tr: dict, body: dict) -> dict:
+    """Optimistic MOTIF stage move. Ledger evidence only — does not queue MOTIF jobs."""
+    if not isinstance(tr, dict):
+        raise ProfileError("BAD_INPUT", "transition must be an object")
+    to_stage = str(tr.get("to") or tr.get("stage") or "").strip().lower()
+    if to_stage not in STAGE_IDS:
+        raise ProfileError("BAD_INPUT", f"unknown MOTIF stage {to_stage!r}")
+    cursor = _public_motif_cursor(cur.get("motif_cursor"))
+    from_stage = cursor["stage"]
+    if from_stage == to_stage:
+        raise ProfileError("REFUSED", "transition is a no-op")
+    try:
+        expect_ver = int(tr.get("expect_engine_version"))
+    except (TypeError, ValueError):
+        raise ProfileError("BAD_INPUT", "transition.expect_engine_version is required")
+    if expect_ver != cursor["version"]:
+        raise ProfileError(
+            "REFUSED",
+            f"stale engine: expect_engine_version {expect_ver} != {cursor['version']}",
+        )
+    try:
+        expect_head = int(tr.get("expect_ledger_seq"))
+    except (TypeError, ValueError):
+        raise ProfileError("BAD_INPUT", "transition.expect_ledger_seq is required")
+    start_head = kernel.ledger.head_seq()
+    if expect_head != start_head:
+        raise ProfileError(
+            "REFUSED",
+            f"stale ledger: expect_ledger_seq {expect_head} != head {start_head}",
+        )
+
+    from_i = STAGE_INDEX[from_stage]
+    to_i = STAGE_INDEX[to_stage]
+    if to_i < from_i:
+        raise ProfileError("REFUSED", f"backward transition {from_stage!r} -> {to_stage!r}")
+    keith = _keith_decision_ok(tr.get("keith_decision"))
+    legal_adj = _is_legal_adjacent(row, to_stage=to_stage, dest=cur.get("dest"))
+    if legal_adj and keith is None:
+        raise ProfileError(
+            "REFUSED",
+            "legal-adjacent transition requires keith_decision {approved:true, text}",
+        )
+    if to_i > from_i + 1 and keith is None:
+        raise ProfileError(
+            "REFUSED",
+            f"skipped stages: {from_stage!r} -> {to_stage!r} requires keith_decision",
+        )
+
+    _run_transition_gates(kernel, paths, row, cur, body)
+    append_head = kernel.ledger.head_seq()
+
+    if from_stage == "define" and to_i > from_i:
+        if not str((cur.get("define") or {}).get("text") or "").strip():
+            raise ProfileError("REFUSED", "PROBLEM STATEMENT empty — cannot leave DEFINE")
+
+    if to_stage in MEASURED_STAGES:
+        from cosmos_porosity import snapshot as porosity_snapshot
+
+        ps = porosity_snapshot(paths, profile=row["id"])
+        if ps.get("kind") == "UNMEASURED" and int(ps.get("n_obs") or 0) == 0:
+            raise ProfileError(
+                "REFUSED",
+                f"porosity UNMEASURED — {to_stage.upper()} transition blocked",
+            )
+
+    if to_stage in ("build", "critics"):
+        from cosmos_motif_define import frozen_statement, require_frozen_statement
+
+        require_frozen_statement(to_stage, frozen_statement(paths, profile=row["id"]))
+
+    payload = {
+        "profile": row["id"],
+        "profile_kind": row.get("kind"),
+        "from_stage": from_stage,
+        "to_stage": to_stage,
+        "engine_version_before": cursor["version"],
+        "engine_version_after": cursor["version"] + 1,
+        "tree_id": paths.sentinel.tree_id,
+        "keith_decision": keith,
+        "skipped": to_i > from_i + 1,
+    }
+    from cosmos_ledger import LedgerError
+
+    try:
+        rec = kernel.ledger.append(
+            "PROFILE_MOTIF_STAGE_TRANSITION",
+            payload,
+            expect_head_seq=append_head,
+        )
+    except LedgerError as e:
+        if e.kind == "STALE_HEAD":
+            _try_ledger_refuse(kernel, {**payload, "refused": "STALE_HEAD"})
+            raise ProfileError("REFUSED", str(e)[:300]) from e
+        raise ProfileError("REFUSED", f"ledger: {e}") from e
+    except ProfileError:
+        raise
+    except Exception as e:  # noqa: BLE001
+        _try_ledger_refuse(kernel, {**payload, "refused": type(e).__name__})
+        raise ProfileError("REFUSED", f"ledger append failed: {type(e).__name__}") from e
+
+    cur["motif_cursor"] = {
+        "stage": to_stage,
+        "version": cursor["version"] + 1,
+        "entered_at": _iso_now(),
+        "ledger_seq": rec.get("seq"),
+    }
+    return {
+        "ok": True,
+        "from": from_stage,
+        "to": to_stage,
+        "ledger_seq": rec.get("seq"),
+        "ledger_event": rec.get("event"),
+        "keith_decision": keith,
+        "does_not_start_motif": True,
+        "does_not_queue_jobs": True,
+    }
+
+
+def save_engine(paths, body: dict, *, kernel=None) -> dict:
     if not isinstance(body, dict):
         raise ProfileError("BAD_INPUT", "body must be a JSON object")
     row = _profile(body.get("profile") or DEFAULT_PROFILE)
@@ -342,6 +558,16 @@ def save_engine(paths, body: dict) -> dict:
         cur["dest"] = _public_dest(body["dest"], row)
     if "step_setup" in body:
         cur["step_setup"] = _public_step_setup(body["step_setup"])
+    cur["motif_cursor"] = _public_motif_cursor(cur.get("motif_cursor"))
+    transition_proof = None
+    tr_raw = body.get("transition")
+    if tr_raw is not None:
+        if kernel is None:
+            raise ProfileError(
+                "REFUSED",
+                "ungated: stage transition requires Core kernel (ledger writer)",
+            )
+        transition_proof = _apply_stage_transition(kernel, paths, row, cur, tr_raw, body)
     cur["saved_at"] = _iso_now()
     cur["kind"] = "OK"
     d = dir_for(paths, row["id"])
@@ -354,13 +580,17 @@ def save_engine(paths, body: dict) -> dict:
         "stages": cur["stages"],
         "step_setup": cur.get("step_setup") or default_step_setup(),
         "dest": cur["dest"],
+        "motif_cursor": cur["motif_cursor"],
         "saved_at": cur["saved_at"],
         "note": cur["note"],
     }
     engine_path(paths, row["id"]).write_text(
         json.dumps(out, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     out["kind"] = "OK"
-    return snapshot(paths, profile=row["id"], rec=out)
+    snap = snapshot(paths, profile=row["id"], rec=out)
+    if transition_proof:
+        snap["transition"] = transition_proof
+    return snap
 
 
 def _bg_fold(paths, profile_id: str) -> dict:
@@ -520,6 +750,40 @@ def _selftest() -> int:
     check("Website GC skin left tabs are the 9 MOTIF stages",
           lambda: web_tabs[0] == "define" and web_tabs[-1] == "iterate"
           and len(web_tabs) == 9)
+
+    from cosmos_kernel import Kernel
+
+    k = Kernel(root, worker="profiles-selftest")
+    save_engine(paths, {
+        "profile": "website",
+        "define": {"text": "WHAT: transition test. WHY: selftest."},
+    })
+    head = k.ledger.head_seq()
+    ungated = False
+    try:
+        save_engine(paths, {
+            "profile": "website",
+            "transition": {"to": "research", "expect_engine_version": 0,
+                            "expect_ledger_seq": head},
+        })
+    except ProfileError as e:
+        ungated = e.kind == "REFUSED" and "kernel" in str(e).lower()
+    check("transition without Core kernel is REFUSED (ungated)",
+          lambda: ungated)
+    moved = save_engine(paths, {
+        "profile": "website",
+        "transition": {"to": "research", "expect_engine_version": 0,
+                       "expect_ledger_seq": head},
+    }, kernel=k)
+    ev = [r for r in k.ledger.verify()
+          if r.get("event") == "PROFILE_MOTIF_STAGE_TRANSITION"]
+    check("optimistic transition persists cursor + ledger evidence",
+          lambda: moved.get("transition", {}).get("to") == "research"
+          and moved["engine"]["motif_cursor"]["stage"] == "research"
+          and moved["engine"]["motif_cursor"]["version"] == 1
+          and len(ev) >= 1
+          and moved["transition"].get("does_not_queue_jobs") is True
+          and moved["does_not_start_motif"] is True)
 
     failed = [(l, e) for l, ok, e in results if not ok]
     for label, ok, err in results:

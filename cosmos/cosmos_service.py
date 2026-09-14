@@ -106,6 +106,8 @@ that omits what it serves is an undocumented surface, not a short one):
     POST /api/v1/studio    - save DEFINE and/or RESEARCH config. Does not
                            start MOTIF. Keys stay on the named via.
     POST /api/v1/profiles  - save a profile MOTIF skin (problem + dest + stage notes).
+                           Optional transition advances motif_cursor with ledger
+                           evidence. Does not start MOTIF or queue jobs.
     POST /api/v1/profiles/bg - Forge RESEARCH→CONSENSUS background free CLI. Not IMPLEMENT.
                            Does not start MOTIF. Does not publish.
     POST /api/v1/session_kit - save COS/autosave/resession config. Does not
@@ -1860,7 +1862,7 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                     return self._send(400, {"error": "BAD_REQUEST",
                                             "detail": str(e)[:200]})
                 try:
-                    rec = profiles_save(kernel.paths, d)
+                    rec = profiles_save(kernel.paths, d, kernel=kernel)
                 except ProfileError as e:
                     return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
                 rec["tree_id"] = kernel.paths.sentinel.tree_id
