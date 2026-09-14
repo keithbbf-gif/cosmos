@@ -87,7 +87,7 @@ WIRED_NODES = (
     {"link_id": "sgh-api", "rail_type": "API", "src": "core", "dst": "models",
      "family": "g46-grok", "module": "bts_sgh"},
     {"link_id": "gem-api", "rail_type": "API", "src": "core", "dst": "models",
-     "family": "gem-vertex", "module": "bts_gem"},
+     "family": "gem-vertex", "module": None, "satellite": "vertex"},
     {"link_id": "gw-api", "rail_type": "API", "src": "core", "dst": "models",
      "family": "gw-grok-build", "module": "bts_gw"},
     {"link_id": "oa-api", "rail_type": "API", "src": "core", "dst": "models",
@@ -412,6 +412,29 @@ def _forge_live_call(paths: CosmosPaths, link_id: str) -> dict:
             "detail": str(detail)[:300]}
 
 
+def _vertex_live_call(paths: CosmosPaths) -> dict:
+    """Real Vertex Express generateContent (cosmos_vertex_rail).
+
+    The vendor names the model in the response; that name is the proof's
+    `model`, not a config default standing in for a live call.
+    """
+    from cosmos_vertex_rail import VertexRailError, rail_for
+    try:
+        rail = rail_for(paths)
+        rec = rail.dispatch({
+            "prompt": LIVE_PROMPT,
+            "model": rail.spec.get("default_model"),
+        })
+    except VertexRailError as e:
+        return {"ok": False, "rc": 2, "body": "", "body_bytes": 0,
+                "model": "", "detail": f"{e.kind}: {e}", "kind": e.kind}
+    out = _norm_proof(rec)
+    out["model_source"] = "generateContent response model"
+    if rec.get("kind") not in (None, "API", "OK"):
+        out["detail"] = str(rec.get("detail") or rec.get("kind") or "")[:300]
+    return out
+
+
 def _groq_live_call(paths: CosmosPaths) -> dict:
     """GET /models; bind openai/gpt-oss-20b in the vendor id list."""
     from cosmos_groq_rail import (
@@ -452,6 +475,7 @@ SATELLITES = {
     "github-forge": ("cosmos_forge_rail", _github_forge_live_call),
     "gitlab-forge": ("cosmos_forge_rail", _gitlab_forge_live_call),
     "codex": ("cosmos_codex_rail", _codex_live_call),
+    "vertex": ("cosmos_vertex_rail", _vertex_live_call),
 }
 
 
@@ -550,6 +574,10 @@ def _hands_configured(paths: CosmosPaths, spec: dict) -> bool:
         # the key file is the configuration fact.
         from cosmos_codex_rail import KEY_NAME
         return paths.config(KEY_NAME).exists()
+    if sat == "vertex":
+        from cosmos_vertex_rail import KEY_NAME, SPEC_NAME
+        return (paths.config(KEY_NAME).exists()
+                or paths.config(SPEC_NAME).exists())
     return _claude_configured(paths)
 
 

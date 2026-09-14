@@ -306,6 +306,25 @@ class Registry:
                          "age_s": (now - v["last_probe"]) if v["last_probe"] else None})
         return rows
 
+    def projection_view(self, max_age_s: float | None = PROOF_TTL_S) -> dict:
+        """Fresh proven-live rows + stale rows for GET /rails and cDeck panes.
+
+        Does not write disk. `verified: True` only on fresh proofs with a
+        vendor-emitted model; stale rows carry verified=False and proof_state.
+        """
+        live = self.live_nodes(max_age_s)
+        stale = self.stale_nodes(max_age_s)
+        return {
+            "schema": RUNTIME_SCHEMA,
+            "measured_at": self._clock(),
+            "proof_ttl_s": max_age_s,
+            "count": len(live),
+            "nodes": sorted(live),
+            "matrix": [live[k] for k in sorted(live)],
+            "stale_count": len(stale),
+            "stale": [stale[k] for k in sorted(stale)],
+        }
+
     def route(self, src: str, dst: str,
               max_age_s: float | None = PROOF_TTL_S) -> list[dict]:
         """Candidate links for a route, DOM-first by policy_rank then rail preference.

@@ -451,20 +451,53 @@ def _nodemap_overlay_kernel(kernel, body: dict) -> dict:
     if kr is None:
         return body
     try:
-        mx = kr.matrix()
+        view = kr.projection_view()
     except Exception:  # noqa: BLE001
         return body
-    if not mx:
+    mx = view.get("matrix") or []
+    stale = view.get("stale") or []
+    source = "kernel.projection_view"
+    if not mx and not stale:
+        try:
+            mx = kr.matrix()
+        except Exception:  # noqa: BLE001
+            mx = []
+        source = "kernel.matrix"
+    if not mx and not stale:
         return body
     meta = dict(reg)
     meta["available"] = True
-    meta["source"] = "kernel.matrix"
-    meta["schema"] = meta.get("schema") or "cosmos-registry/1"
+    meta["source"] = source
+    meta["schema"] = view.get("schema") or "cosmos-registry/1"
     meta["matrix"] = mx
-    meta["composed"] = len(mx)
-    meta["count"] = sum(1 for r in mx if r.get("verified") is True)
+    meta["stale"] = stale
+    meta["stale_count"] = view.get("stale_count")
+    meta["proof_ttl_s"] = view.get("proof_ttl_s")
+    meta["composed"] = len(mx) + len(stale)
+    meta["count"] = view.get("count")
     out = dict(body)
     out["registry"] = meta
+    try:
+        import importlib
+        import sys
+        from pathlib import Path as _P
+        d = str((_P(__file__).resolve().parent.parent / "builds" / "cdeck").resolve())
+        if d not in sys.path:
+            sys.path.append(d)
+        nm = importlib.import_module("cosmos_nodemap_panel")
+        topo_nodes = []
+        for m in mx + stale:
+            lid = m.get("link_id") or ""
+            if lid:
+                topo_nodes.append(nm._enrich_node(lid, m))
+        if topo_nodes:
+            topo = dict(out.get("topology") or {})
+            topo["nodes"] = topo_nodes
+            out["topology"] = topo
+        if nm.NODE_CATALOG:
+            meta["catalog"] = nm.NODE_CATALOG
+    except Exception:  # noqa: BLE001
+        pass
     return out
 
 
@@ -879,8 +912,15 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                                             "detail": "kernel has no registry - this is "
                                                       "a composition fault, not an empty "
                                                       "rails matrix"})
-                return self._send(200, {"measured_at": time.time(),
-                                        "matrix": reg.matrix()})
+                view = reg.projection_view()
+                return self._send(200, {
+                    "measured_at": view.get("measured_at"),
+                    "proof_ttl_s": view.get("proof_ttl_s"),
+                    "count": view.get("count"),
+                    "matrix": view.get("matrix") or [],
+                    "stale_count": view.get("stale_count"),
+                    "stale": view.get("stale") or [],
+                })
             if parsed.path == "/api/v1/surfaces":
                 sf = getattr(kernel, "surfaces", None)
                 if sf is None:
