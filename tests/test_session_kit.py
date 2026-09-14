@@ -24,7 +24,15 @@ def test_service_names_routes():
     src = (ROOT / "cosmos" / "cosmos_service.py").read_text(encoding="utf-8")
     assert 'parsed.path == "/api/v1/backup"' in src
     assert 'parsed.path == "/api/v1/session_kit"' in src
+    assert 'parsed.path == "/api/v1/session_tools"' in src
     assert "session_kit_save" in src
+    assert "session_tools_run" in src
+
+
+def test_session_tools_kit_selftest():
+    from cosmos_session_tools_kit import _selftest  # noqa: E402
+
+    assert _selftest() == 0
 
 
 if __name__ == "__main__":
