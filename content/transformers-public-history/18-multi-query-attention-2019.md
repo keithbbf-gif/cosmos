@@ -11,6 +11,8 @@ arxiv: "1911.02150"
 venue_later: ""
 novelty_lane: "public-prior-art-only"
 private_systems: "excluded"
+voice_check: "edited"
+voice_check_date: "2026-09-14"
 depends_on: ["tph-03"]
 leads_to: ["tph-42", "tph-47"]
 ---
@@ -54,9 +56,9 @@ when longer contexts and larger batches made the cache the bill. That lag is the
 ## Immediate lineage
 
 PaLM (5 April 2022 arXiv) is a prominent later public model that uses MQA. GQA (Ainslie et
-al., 2023) interpolates: \(g\) KV groups, typically \(g \in \{1, 8, h\}\), and — crucially —
-an **uptraining** recipe from existing MHA checkpoints. Llama 2 70B is a widely cited GQA
-adopter. DeepSeek-V2 MLA is a different compression (low-rank latent KV), 7 May 2024.
+al., 2023) interpolates: \(g\) KV groups, typically \(g \in \{1, 8, h\}\), and ships an
+**uptraining** recipe from existing MHA checkpoints — the part labs actually copied. Llama 2
+70B is a widely cited GQA adopter. DeepSeek-V2 MLA is a different compression (low-rank latent KV), 7 May 2024.
 
 ## What this draft does not claim
 

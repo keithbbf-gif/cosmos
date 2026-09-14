@@ -11,6 +11,8 @@ arxiv: "2310.06825"
 venue_later: "arXiv v1 2023-10-10; mistral.ai announcement 2023-09-27"
 novelty_lane: "public-prior-art-only"
 private_systems: "excluded"
+voice_check: "edited"
+voice_check_date: "2026-09-14"
 depends_on: ["tph-20", "tph-42"]
 leads_to: ["tph-45", "tph-48"]
 ---

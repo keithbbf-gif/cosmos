@@ -11,6 +11,8 @@ arxiv: "2305.18290"
 venue_later: "DPO 2023-05-29; Mixtral announcement 2023-12-11; Mixtral paper 2024-01-08"
 novelty_lane: "public-prior-art-only"
 private_systems: "excluded"
+voice_check: "edited"
+voice_check_date: "2026-09-14"
 depends_on: ["tph-27", "tph-34"]
 leads_to: ["tph-47"]
 ---
@@ -42,7 +44,7 @@ choices). This is Switch/GShard's family, finally as a widely run open-weight ch
 
 DPO: the Bradley-Terry derivation, the closed-form policy loss, experiments vs PPO-class
 baselines on the paper's setups. Mixtral: 8 experts, top-2, sliding window / GQA inherited
-from the 7B family, multilingual + code claims, author-reported evals. A 8×22B sibling
+from the 7B family, multilingual + code claims, author-reported evals. An 8×22B sibling
 appears later and is not this stamp.
 
 ## What it displaced

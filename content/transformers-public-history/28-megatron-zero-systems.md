@@ -11,6 +11,8 @@ arxiv: "1909.08053"
 venue_later: "ZeRO arXiv:1910.02054 on 2019-10-04"
 novelty_lane: "public-prior-art-only"
 private_systems: "excluded"
+voice_check: "edited"
+voice_check_date: "2026-09-14"
 depends_on: ["tph-10"]
 leads_to: ["tph-23", "tph-36"]
 ---

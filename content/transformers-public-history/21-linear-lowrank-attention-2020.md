@@ -11,6 +11,8 @@ arxiv: "2006.04768"
 venue_later: "Linformer 2020-06-08; linear attention Katharopoulos et al. 2020-06-29"
 novelty_lane: "public-prior-art-only"
 private_systems: "excluded"
+voice_check: "edited"
+voice_check_date: "2026-09-14"
 depends_on: ["tph-02", "tph-19"]
 leads_to: ["tph-22", "tph-46"]
 ---

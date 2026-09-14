@@ -11,6 +11,8 @@ arxiv: "2203.02155"
 venue_later: "arXiv v1 2022-03-04; OpenAI blog 2022-01-27"
 novelty_lane: "public-prior-art-only"
 private_systems: "excluded"
+voice_check: "edited"
+voice_check_date: "2026-09-14"
 depends_on: ["tph-23"]
 leads_to: ["tph-44", "tph-49"]
 ---

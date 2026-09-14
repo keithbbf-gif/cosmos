@@ -11,6 +11,8 @@ arxiv: "1910.07467"
 venue_later: "Xiong Pre-LN analysis 2020-02-12; Shazeer GLU variants 2020-02-12"
 novelty_lane: "public-prior-art-only"
 private_systems: "excluded"
+voice_check: "edited"
+voice_check_date: "2026-09-14"
 depends_on: ["tph-05"]
 leads_to: ["tph-41"]
 ---

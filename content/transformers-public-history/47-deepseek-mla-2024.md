@@ -11,6 +11,8 @@ arxiv: "2405.04434"
 venue_later: "DeepSeek-V3 report 2024-12-27 continues the block"
 novelty_lane: "public-prior-art-only"
 private_systems: "excluded"
+voice_check: "edited"
+voice_check_date: "2026-09-14"
 depends_on: ["tph-42", "tph-30"]
 leads_to: ["tph-48"]
 ---
@@ -29,8 +31,8 @@ Multi-head Latent Attention (MLA) compresses keys and values into a **low-rank l
 that is what you cache, then up-projects per head. RoPE does not commute happily with that
 compression, so V2 keeps a **decoupled RoPE channel** of small dimension. The paper reports
 large KV-cache reductions and decode-throughput gains as author-measured figures (the
-abstract's 93.3% cache reduction / 5.76× throughput are theirs, not this series'
-re-benchmark).
+abstract's 93.3% cache reduction / 5.76× throughput are author-reported; this pack does
+not re-benchmark them).
 
 This is not GQA. GQA still stores a vector per KV head per token. MLA stores a latent plus
 a small RoPE piece. Different compression, 2024 date.

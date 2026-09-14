@@ -48,6 +48,10 @@ back-applied.
 `MANIFEST.toml` is the inventory (56 staged drafts in this revision). `validate.py` is the
 mechanical check (count, frontmatter, minimum length, source lines, novelty-fence terms).
 
+After an editor pass, numbered drafts carry `voice_check: edited` and `voice_check_date`
+(ISO date) in frontmatter. That flag means copy/voice review only — not publication, not a
+novelty opinion, and not a factual re-audit of every arXiv stamp.
+
 ## Draft index
 
 See `MANIFEST.toml` for the authoritative list. The series is grouped by era, not by vendor.

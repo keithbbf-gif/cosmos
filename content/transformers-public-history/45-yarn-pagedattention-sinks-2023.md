@@ -11,6 +11,8 @@ arxiv: "2306.15595"
 venue_later: "A six-month cluster; see body for per-item stamps"
 novelty_lane: "public-prior-art-only"
 private_systems: "excluded"
+voice_check: "edited"
+voice_check_date: "2026-09-14"
 depends_on: ["tph-30", "tph-37", "tph-43"]
 leads_to: ["tph-48"]
 ---

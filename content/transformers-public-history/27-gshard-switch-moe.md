@@ -11,6 +11,8 @@ arxiv: "2006.16668"
 venue_later: "Switch Transformer arXiv:2101.03961 on 2021-01-11"
 novelty_lane: "public-prior-art-only"
 private_systems: "excluded"
+voice_check: "edited"
+voice_check_date: "2026-09-14"
 depends_on: ["tph-05"]
 leads_to: ["tph-44"]
 ---

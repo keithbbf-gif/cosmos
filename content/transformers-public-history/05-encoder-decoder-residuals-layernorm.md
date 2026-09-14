@@ -11,6 +11,8 @@ arxiv: "1706.03762"
 venue_later: "NeurIPS 2017"
 novelty_lane: public-prior-art-only
 private_systems: excluded
+voice_check: edited
+voice_check_date: 2026-09-14
 depends_on: ["tph-01"]
 leads_to: ["tph-09", "tph-32"]
 ---

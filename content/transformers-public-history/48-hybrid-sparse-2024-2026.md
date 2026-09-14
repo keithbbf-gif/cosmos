@@ -11,6 +11,8 @@ arxiv: "2408.00118"
 venue_later: "A moving argument; stamps in the table"
 novelty_lane: "public-prior-art-only"
 private_systems: "excluded"
+voice_check: "edited"
+voice_check_date: "2026-09-14"
 depends_on: ["tph-43", "tph-46", "tph-47"]
 leads_to: ["tph-49"]
 ---

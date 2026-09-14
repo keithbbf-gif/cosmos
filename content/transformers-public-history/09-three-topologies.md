@@ -11,6 +11,8 @@ arxiv: ""
 venue_later: "Taxonomy card; dates belong to the three source papers"
 novelty_lane: "public-prior-art-only"
 private_systems: "excluded"
+voice_check: "edited"
+voice_check_date: "2026-09-14"
 depends_on: ["tph-01", "tph-07", "tph-08"]
 leads_to: ["tph-16", "tph-23"]
 ---

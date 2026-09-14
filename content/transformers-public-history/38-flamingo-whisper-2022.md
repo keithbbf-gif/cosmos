@@ -11,6 +11,8 @@ arxiv: "2204.14198"
 venue_later: "Whisper arXiv:2212.04356 on 2022-12-06"
 novelty_lane: "public-prior-art-only"
 private_systems: "excluded"
+voice_check: "edited"
+voice_check_date: "2026-09-14"
 depends_on: ["tph-29", "tph-16"]
 leads_to: ["tph-41"]
 ---

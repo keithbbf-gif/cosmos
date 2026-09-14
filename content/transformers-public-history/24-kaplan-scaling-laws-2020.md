@@ -11,6 +11,8 @@ arxiv: "2001.08361"
 venue_later: ""
 novelty_lane: "public-prior-art-only"
 private_systems: "excluded"
+voice_check: "edited"
+voice_check_date: "2026-09-14"
 depends_on: ["tph-10"]
 leads_to: ["tph-23", "tph-35"]
 ---

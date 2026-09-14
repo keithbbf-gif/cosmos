@@ -11,6 +11,8 @@ arxiv: "2312.00752"
 venue_later: "S4 predecessor 2021-10-31 is cited, not this stamp"
 novelty_lane: "public-prior-art-only"
 private_systems: "excluded"
+voice_check: "edited"
+voice_check_date: "2026-09-14"
 depends_on: ["tph-21"]
 leads_to: ["tph-48"]
 ---
