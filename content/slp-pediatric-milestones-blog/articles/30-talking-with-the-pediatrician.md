@@ -18,7 +18,7 @@ citations:
   - "https://www.asha.org/profind/"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. A well-child visit is short. This page is about using the minutes. It is not a script that forces a referral.
@@ -35,7 +35,7 @@ CDC built the checklists to be **taken in**. The “other important things to sh
 
 **The page.** Print the CDC checklist for the age you are actually in, plus the one below if you want. Mark yes / not sure / not yet. You are not scoring a test. You are showing your work.
 
-**The screen dates.** AAP wants general developmental screening at 9, 18, and 30 months, and autism-specific screening at 18 and 24 months or whenever you or the clinician is concerned (Lipkin & Macias, 2020). Write whether those happened. Ask for the **name of the tool**. “It was fine” fades. “We did the [name]; no follow-up” can travel to the next clinic.
+**The screen dates.** AAP wants general developmental screening at 9, 18, and 30 months, and autism-specific screening at 18 and 24 months or whenever you or the clinician is concerned (Lipkin & Macias, 2020). Write down whether those happened. Ask for the **name of the tool**. “It was fine” fades. “We did the [name]; no follow-up” can travel to the next clinic.
 
 ## Sentences that fit in a visit
 

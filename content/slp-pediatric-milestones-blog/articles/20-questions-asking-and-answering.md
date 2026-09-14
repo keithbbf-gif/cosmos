@@ -17,7 +17,7 @@ citations:
   - "https://www.asha.org/public/developmental-milestones/communication-milestones/"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Not a language sample scored for question types and not a diagnosis.

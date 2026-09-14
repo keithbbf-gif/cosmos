@@ -17,7 +17,7 @@ citations:
   - "https://www.healthychildren.org/English/family-life/work-play/Pages/The-Power-of-Play.aspx"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Not a play-based therapy protocol and not a diagnosis. Play is how children rehearse being people. You can join it without turning it into homework.
@@ -30,7 +30,7 @@ The doll gets a block for dinner. CDC put that on the 30-month cognitive line: u
 
 **Cause and effect.** Button, something happens. CDC’s 2-year tips like those toys because problems get solved. Words later name the button.
 
-**Combining objects.** Block in cup at 12 months (cognitive). Dump and fill at 9 months in the tips. Combining objects and combining words like to grow in the same season. Not a law. A rhyme.
+**Combining objects.** Block in cup at 12 months (cognitive). Dump and fill at 9 months in the tips. Combining objects and combining words tend to grow in the same season. Not a law. A rhyme.
 
 **Pretend with things.** Cup used as cup, then block used as cup, then a stick as a horse. The further from the real object, the more the child must hold a *symbol*. Words are symbols. You can see why SLPs watch this.
 

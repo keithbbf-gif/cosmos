@@ -19,7 +19,7 @@ citations:
   - "https://identifythesigns.org/signs-of-speech-and-language-disorders/"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. This page is about a habit, not about your child’s future. Nobody here will tell you that waiting “caused” a disorder.
@@ -81,6 +81,6 @@ EI number called: yes / not yet
 Two ordinary things we will keep doing (talk about what they look at; read three pages): ______  
 What would make us call sooner (lost skill; your gut): ______
 
-That is a plan. “She’s a girl, they’ll talk” is not. Zubler et al. (2022) and Abercrombie et al. (2022) were trying to put something like this receipt into the culture. You can write it even if the culture at your table has not read *Pediatrics*.
+That is a plan. “He’s a boy; they’ll talk” is not. Zubler et al. (2022) and Abercrombie et al. (2022) were trying to put something like this receipt into the culture. You can write it even if the culture at your table has not read *Pediatrics*.
 
 ASHA’s 2022 comment on the CDC lists is your ally if someone says “the new chart means you should wait longer.” The new chart meant a missed item should be *clearer*, not quieter. If it got quieter in your house, that is a misread. Correct the misread. Keep the date.

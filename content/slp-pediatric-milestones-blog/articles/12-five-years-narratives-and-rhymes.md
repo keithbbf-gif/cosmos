@@ -19,7 +19,7 @@ citations:
   - "https://doi.org/10.1044/2018_AJSLP-17-0100"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Not a kindergarten entrance exam and not a diagnosis. Rhymes and stories are skills with ranges.

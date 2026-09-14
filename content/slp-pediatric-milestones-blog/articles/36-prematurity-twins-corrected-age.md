@@ -18,7 +18,7 @@ citations:
   - "https://sites.ed.gov/idea/"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not neonatology and not a diagnosis. Corrected age is something to confirm with your child’s doctor. Twins are two children. This page will not invent a delay because there are two.

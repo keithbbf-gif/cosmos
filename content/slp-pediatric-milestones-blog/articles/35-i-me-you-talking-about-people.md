@@ -17,7 +17,7 @@ citations:
   - "https://www.asha.org/public/developmental-milestones/communication-milestones/"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not a grammar diagnosis. Pronouns are slippery on purpose. This page will not tell you a child has a disorder because they said *me do it*.

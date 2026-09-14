@@ -19,7 +19,7 @@ citations:
   - "https://identifythesigns.org/signs-of-speech-and-language-disorders/"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Not a screen and not a diagnosis. Two words together is a surveillance item. It is not a grammar exam and not a label.
@@ -62,7 +62,7 @@ If a parent is worried about “social communication,” this is where blogs get
 
 CDC’s 2-year tip: if they say “or nana,” you say “You want more banana.” You put the combination in their ear without making them perform it.
 
-Play is still side-by-side more than together. Show sharing with your body. Pretend starts to flicker — dress-up shoes, a cup used as a cup. Essay 19.
+Play is still side-by-side rather than together. Show sharing with your body. Pretend starts to flicker — dress-up shoes, a cup used as a cup. Essay 19.
 
 Screens: still not the teacher. Under 2, AAP’s *Media and Young Minds* (2016) is about video chat as the exception and people as the curriculum.
 

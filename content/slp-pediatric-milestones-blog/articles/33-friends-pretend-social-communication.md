@@ -18,7 +18,7 @@ citations:
   - "https://identifythesigns.org/signs-of-speech-and-language-disorders/"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not an autism screen and not a diagnosis. Social communication is a real domain. Naming a condition is a clinician’s job. This page will describe what CDC printed and how to talk about it without a label.

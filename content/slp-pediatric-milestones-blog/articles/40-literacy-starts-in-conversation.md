@@ -18,7 +18,7 @@ citations:
   - "https://www.asha.org/about/press-room/articles/what-to-expect-your-childs-communication-development/"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not a reading curriculum and not a learning-disability diagnosis. Kindergarten has many doors. This page will not tell you a child has dyslexia because rhyme is hard.

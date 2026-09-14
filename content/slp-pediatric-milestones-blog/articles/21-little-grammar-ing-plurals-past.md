@@ -18,7 +18,7 @@ citations:
   - "https://www.nidcd.nih.gov/health/speech-and-language"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Not a grammar test and not a diagnosis. *I goed* is a famous ordinary error. It is not a disorder you can name from a blog.

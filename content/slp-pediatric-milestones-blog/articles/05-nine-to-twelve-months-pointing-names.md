@@ -18,7 +18,7 @@ citations:
   - "https://identifythesigns.org/signs-of-speech-and-language-disorders/"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Not a screen and not a diagnosis. A first name-word is not a vocabulary count. If gestures or looking are missing, or a skill disappeared, talk with your child’s doctor.
@@ -29,7 +29,7 @@ CDC’s 12-month language line wants three things, and only one of them is a wor
 
 Notice what the lists will not do. They will not demand a ten-word vocabulary. They will not demand a clear consonant. *Mama* can be messy. The job is: a name that means a person, used on purpose.
 
-## A wave is not cute extra. It is the sentence.
+## A wave is not a cute extra — it is the sentence
 
 Bye-bye is a social script. It has a moment (someone is leaving), a body shape, and often a word from you. CDC put it on the communication line because it is a symbol. The baby is referring to an event, not just grabbing a cookie.
 

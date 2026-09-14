@@ -19,7 +19,7 @@ citations:
   - "https://www.jcih.org/"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Not a screening tool and not a diagnosis. Newborns vary. If something worries you — especially hearing or a skill that disappeared — talk with your child’s doctor.

@@ -18,7 +18,7 @@ citations:
   - "https://doi.org/10.1542/peds.2019-3449"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Not a screen and not a diagnosis. “About 50 words” is a CDC 30-month surveillance item. It is not a precise test score.

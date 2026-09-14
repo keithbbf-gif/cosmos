@@ -19,7 +19,7 @@ citations:
   - "https://identifythesigns.org/signs-of-speech-and-language-disorders/"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Not a screening tool and not a diagnosis. This essay explains how researchers used the phrase “late talking.” It does not apply that phrase to your child.

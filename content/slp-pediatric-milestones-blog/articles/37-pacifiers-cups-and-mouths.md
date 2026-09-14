@@ -17,7 +17,7 @@ citations:
   - "https://www.healthychildren.org/English/ages-stages/baby/crying-colic/Pages/Pacifiers-and-Thumb-Sucking.aspx"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not dental advice, not sleep advice, and not a diagnosis. This page will not tell you a pacifier caused a speech disorder. It will not tell you to yank one tonight if sleep would collapse.
@@ -53,7 +53,7 @@ If speech is the worry, mention the habit **as context**, the way you mention tw
 ## What not to do
 
 Do not shame a child who needs the plug to settle.  
-Do not promise that quitting will unlock sentences next week.  
+Do not promise that quitting will produce full sentences next week.  
 Do not ignore a dentist’s concern about a bite at four.  
 Do not ignore a feeding-safety concern because this essay said speech is a separate house.
 

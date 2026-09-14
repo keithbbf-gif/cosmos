@@ -19,7 +19,7 @@ citations:
   - "https://www.cdc.gov/act-early/media/pdfs/2025/10/cdc-milestone-checklists-ltsae-english-508.pdf"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Not an articulation test and not a diagnosis. Sound charts describe groups of children. They do not name a disorder for yours.

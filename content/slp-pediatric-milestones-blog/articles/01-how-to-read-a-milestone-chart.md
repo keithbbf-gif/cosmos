@@ -21,7 +21,7 @@ citations:
   - "https://doi.org/10.1542/peds.2019-3449"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Not a developmental screening tool and not a diagnosis. Milestone charts describe what many children can do by an age. They do not name what is “wrong” with your child. If you have questions, talk with your child’s doctor or a licensed speech-language pathologist.
@@ -54,7 +54,7 @@ If you remember only one triangle from this series, remember that one.
 
 Read the age you are actually in, then glance at the age below and the age above. ASHA says that out loud because skills do not clock in on a birthday. A child who turned two last Tuesday is not “behind” because the 30-month page has more words.
 
-Read the communication line *and* the social line. A point, a show, a look when you call a name — those sit in different boxes on the CDC sheets and they are still language. Essay 17 and essay 18 stay with that.
+Read the communication line *and* the social line. A point, a show, a look when you call a name — those sit in different boxes on the CDC sheets and they are still language. Essays 17 and 18 stay with that.
 
 Read the footer. Every CDC page repeats it: this checklist is not a substitute for a standardized, validated screen. Most children (75 percent or more) can do these things by this age. Subject-matter experts chose the items from data and consensus. If you skip the footer you will turn a surveillance tool into a verdict.
 

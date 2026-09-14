@@ -18,7 +18,7 @@ citations:
   - "https://pubmed.ncbi.nlm.nih.gov/1883521/"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not a reading curriculum and not a diagnosis. You cannot fail bedtime.

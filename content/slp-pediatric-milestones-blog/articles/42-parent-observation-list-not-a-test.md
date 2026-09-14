@@ -19,7 +19,7 @@ citations:
   - "https://doi.org/10.1542/peds.2019-3449"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not a screening instrument, not a standardized test, and not a diagnosis. If you check boxes here, you are making notes for a conversation. You are not scoring your child.
