@@ -1,0 +1,137 @@
+{
+  "infographic-context-window-literacy": {
+    "file": "infographic-context-window.svg",
+    "alt": "Schematic breakdown of context window budget: system, user, retrieval, and output",
+    "caption": "Advertised context is a budget across roles — not a single block of usable reasoning space."
+  },
+  "infographic-training-inference-cost": {
+    "file": "infographic-training-inference.svg",
+    "alt": "Schematic of training versus inference costs in a model lifecycle",
+    "caption": "Training capex and serving opex dominate different parts of the lifecycle. <em>Illustrative.</em>"
+  },
+  "infographic-data-flywheel": {
+    "file": "infographic-data-flywheel.svg",
+    "alt": "Generic product data flywheel from deployment to next training mix",
+    "caption": "Usage can feed future models when consent, retention, and law allow — not automatically."
+  },
+  "comparison-era-capability-2020-2023-2026": {
+    "file": "fig-02-era-comparison.svg",
+    "alt": "Side-by-side schematic of 2020, 2023, and 2026 capability framing",
+    "caption": "How buyers talked about “good enough” shifted by era — not interchangeable benchmark scores."
+  },
+  "flowchart-safety-evals-release": {
+    "file": "fig-02-safety-evals-flow.svg",
+    "alt": "Generic safety evaluation flow before model release",
+    "caption": "Safety programs combine policy specs, automated probes, human review, and regression harnesses."
+  },
+  "diagram-red-team-vs-eval-harness": {
+    "file": "fig-02-red-team-eval.svg",
+    "alt": "Red team exercises versus fixed eval harness loops",
+    "caption": "Red teams hunt unknown failures; harnesses guard against regressions on known tests."
+  },
+  "topology-open-vs-closed-deployment": {
+    "file": "infographic-topology.svg",
+    "alt": "Open-weight file deployment versus closed API topology",
+    "caption": "Open weights shift spend to your hardware; closed APIs shift it to vendor meters — controls can be shared."
+  },
+  "diagram-multimodal-pipeline": {
+    "file": "fig-02-multimodal-pipeline.svg",
+    "alt": "Generic multimodal fusion pipeline across text, vision, and audio",
+    "caption": "Multimodal products align encoders, fuse in a shared core, then decode to text or media."
+  },
+  "swimlane-agent-orchestration": {
+    "file": "fig-02-agent-swimlanes.svg",
+    "alt": "Swimlane diagram of user, orchestrator, tools, and policy in agent workflows",
+    "caption": "Agent products split planning, tool execution, and policy across coordinated lanes."
+  },
+  "decision-tree-ai-compliance": {
+    "file": "decision-tree-compliance.svg",
+    "alt": "High-level AI compliance decision tree",
+    "caption": "Compliance paths depend on risk tier and sector — confirm with counsel, not this schematic."
+  },
+  "callout-inference-cost-drivers": {
+    "file": "callout-cost-drivers.svg",
+    "alt": "Illustrative callout on inference cost drivers",
+    "caption": "Inference bills track tokens, width, utilization, and region more than parameter counts alone. <em>Illustrative.</em>"
+  },
+  "diagram-rag-vs-long-context": {
+    "file": "fig-02-rag-vs-context.svg",
+    "alt": "When to use RAG versus long context versus hybrid designs",
+    "caption": "Long context and retrieval solve different freshness and citation problems — hybrids are common."
+  },
+  "infographic-moe-routing": {
+    "file": "infographic-moe.svg",
+    "alt": "Schematic mixture-of-experts router activating a subset of experts per token",
+    "caption": "MoE models activate a fraction of parameters per token; serving needs expert-aware infrastructure."
+  },
+  "flowchart-prompt-injection-defenses": {
+    "file": "fig-02-prompt-injection.svg",
+    "alt": "Layered prompt injection defenses from sanitization to human gates",
+    "caption": "Untrusted text in context requires isolation, tool limits, policy, and human gates — not one filter."
+  },
+  "industry-milestones-2020-2026": {
+    "file": "timeline.svg",
+    "alt": "Public AI industry milestones from 2020 to 2026",
+    "caption": "Selected milestones in research, products, and policy. <em>Not exhaustive.</em>"
+  },
+  "compute-and-scaling-2020-2026": {
+    "file": "timeline.svg",
+    "alt": "Compute and scaling narrative from 2020 to 2026",
+    "caption": "Training scale, hardware cycles, and serving economics entered mainstream discourse."
+  },
+  "open-weights-epochs-2020-2026": {
+    "file": "timeline.svg",
+    "alt": "Open model weights epochs from 2020 to 2026",
+    "caption": "Public weight releases expanded who could fine-tune and deploy outside hosted APIs."
+  },
+  "architecture-rag-pipeline": {
+    "file": "diagram.svg",
+    "alt": "Generic retrieval-augmented generation pipeline",
+    "caption": "Embed the query, fetch ranked passages, then condition generation on cited context."
+  },
+  "architecture-fine-tuning-stages": {
+    "file": "diagram.svg",
+    "alt": "Generic fine-tuning stages from base model to deployment",
+    "caption": "Common post-training path: supervised fine-tuning, preferences, and adapters before release."
+  },
+  "architecture-agent-tool-loop": {
+    "file": "diagram.svg",
+    "alt": "Conceptual agent plan-act-observe loop with tools",
+    "caption": "Agents plan, call tools, observe results, and iterate until a final answer."
+  },
+  "eval-harness-pipeline": {
+    "file": "explainer.svg",
+    "alt": "Generic evaluation harness pipeline",
+    "caption": "Reproducible evals version prompts, fix decoding, score outputs, and publish provenance."
+  },
+  "eval-leaderboard-caveats": {
+    "file": "explainer.svg",
+    "alt": "Caveats when reading AI leaderboards",
+    "caption": "Ask about contamination, prompt sensitivity, judge bias, and checkpoint versioning."
+  },
+  "eval-benchmark-families": {
+    "file": "explainer.svg",
+    "alt": "Families of public AI benchmarks",
+    "caption": "Leaderboard suites cluster by task type — scores are not interchangeable."
+  },
+  "regulation-eu-ai-act": {
+    "file": "timeline.svg",
+    "alt": "EU AI Act public implementation timeline",
+    "caption": "Staggered EU obligations as commonly summarized — verify against EUR-Lex."
+  },
+  "regulation-us-federal-2023-2026": {
+    "file": "timeline.svg",
+    "alt": "Selected U.S. federal AI policy milestones",
+    "caption": "Selected federal milestones. <em>Not legal advice.</em>"
+  },
+  "regulation-global-snapshot-2026": {
+    "file": "timeline.svg",
+    "alt": "Illustrative global AI governance timeline",
+    "caption": "Parallel policy tracks explain fragmented cross-border obligations."
+  },
+  "architecture-inference-stack": {
+    "file": "diagram.svg",
+    "alt": "Generic LLM inference serving stack",
+    "caption": "Client request through gateway, scheduler, and workers to streamed tokens."
+  }
+}

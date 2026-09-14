@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 580" width="1000" height="580" role="img" aria-labelledby="title desc">
+  <title id="title">AI compliance decision tree (high level)</title>
+  <desc id="desc">Editorial diagram for the AI industry blog. Generic public concepts only.</desc>
+  <defs>
+    <style>
+      .t-title { font: 600 26px Georgia, 'Times New Roman', serif; fill: #141414; }
+      .t-sub { font: 400 14px system-ui, -apple-system, 'Segoe UI', sans-serif; fill: #5C574F; }
+      .t-year { font: 700 13px system-ui, sans-serif; fill: #1E4D6B; }
+      .t-label { font: 600 12px system-ui, sans-serif; fill: #141414; }
+      .t-body { font: 400 11.5px system-ui, sans-serif; fill: #5C574F; }
+      .t-small { font: 400 10px system-ui, sans-serif; fill: #8A847A; }
+      .t-card-title { font: 600 13px system-ui, sans-serif; fill: #141414; }
+    </style>
+    <filter id="shadow" x="-4%" y="-4%" width="108%" height="108%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#141414" flood-opacity="0.08"/>
+    </filter>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#1E4D6B"/>
+    </marker>
+  </defs>
+  <rect width="100%" height="100%" fill="#FAF8F5"/>
+  <text x="48" y="38" class="t-title">AI compliance decision tree (high level)</text>
+  <text x="48" y="62" class="t-sub">Illustrative gates — confirm with counsel and primary law</text>
+  <line x1="48" y1="74" x2="952" y2="74" stroke="#E3DDD4"/>
+  <line x1="500" y1="130" x2="500" y2="180" stroke="#1E4D6B" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="500" y1="220" x2="320" y2="290" stroke="#1E4D6B" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="410.0" y="255.0" text-anchor="middle" class="t-small">yes</text>
+  <line x1="500" y1="220" x2="680" y2="290" stroke="#1E4D6B" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="590.0" y="255.0" text-anchor="middle" class="t-small">no</text>
+  <line x1="320" y1="330" x2="320" y2="410" stroke="#1E4D6B" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="320.0" y="370.0" text-anchor="middle" class="t-small">yes</text>
+  <line x1="320" y1="330" x2="500" y2="410" stroke="#1E4D6B" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="410.0" y="370.0" text-anchor="middle" class="t-small">no</text>
+  <line x1="680" y1="330" x2="500" y2="410" stroke="#1E4D6B" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="320" y1="450" x2="500" y2="410" stroke="#1E4D6B" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="440.0" y="92" width="120" height="36" rx="6" fill="#FFFFFF" stroke="#E3DDD4" filter="url(#shadow)"/>
+  <text x="500" y="114" text-anchor="middle" class="t-label">New AI feature</text>
+  <polygon points="500,178 570,200 500,222 430,200" fill="#FFFFFF" stroke="#B85C38" filter="url(#shadow)"/>
+  <text x="500" y="204" text-anchor="middle" class="t-label">High-risk use?</text>
+  <polygon points="320,288 390,310 320,332 250,310" fill="#FFFFFF" stroke="#B85C38" filter="url(#shadow)"/>
+  <text x="320" y="314" text-anchor="middle" class="t-label">Sector rules?</text>
+  <rect x="620.0" y="292" width="120" height="36" rx="6" fill="#FFFFFF" stroke="#E3DDD4" filter="url(#shadow)"/>
+  <text x="680" y="314" text-anchor="middle" class="t-label">Document + assess</text>
+  <rect x="440.0" y="412" width="120" height="36" rx="6" fill="#FFFFFF" stroke="#E3DDD4" filter="url(#shadow)"/>
+  <text x="500" y="434" text-anchor="middle" class="t-label">Ship with controls</text>
+  <rect x="260.0" y="412" width="120" height="36" rx="6" fill="#FFFFFF" stroke="#E3DDD4" filter="url(#shadow)"/>
+  <text x="320" y="434" text-anchor="middle" class="t-label">Enhanced audit trail</text>
+  <text x="48" y="556" class="t-small">Not legal advice; jurisdictions define “high risk” differently.</text>
+</svg>

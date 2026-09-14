@@ -454,7 +454,502 @@ def main() -> None:
         ),
     )
 
+    render_wave2()
     print(f"Wrote assets under {ASSETS}")
+
+
+def three_column_comparison(
+    title: str,
+    subtitle: str,
+    columns: list[tuple[str, list[str]]],
+    footnote: str,
+    w: int = 1200,
+    h: int = 560,
+) -> str:
+    """columns: (era label, bullet lines) — schematic capability framing, not benchmarks."""
+    parts = [svg_open(w, h, title)]
+    parts.append(
+        f'  <text x="56" y="40" class="t-title">{esc(title)}</text>\n'
+        f'  <text x="56" y="66" class="t-sub">{esc(subtitle)}</text>\n'
+        f'  <line x1="56" y1="78" x2="{w - 56}" y2="78" stroke="{LINE}"/>\n'
+    )
+    col_w = (w - 56 * 2 - 48) // 3
+    tops = [ACCENT_SOFT, "#EDE8E0", ACCENT_SOFT]
+    for i, (label, bullets) in enumerate(columns[:3]):
+        x = 56 + i * (col_w + 24)
+        y = 110
+        parts.append(
+            f'  <rect x="{x}" y="{y}" width="{col_w}" height="{h - 170}" rx="10" fill="{CARD}" stroke="{LINE}" filter="url(#shadow)"/>\n'
+            f'  <rect x="{x}" y="{y}" width="{col_w}" height="8" rx="10" fill="{tops[i % len(tops)]}"/>\n'
+            f'  <text x="{x + col_w/2}" y="{y + 36}" text-anchor="middle" class="t-year">{esc(label)}</text>\n'
+        )
+        by = y + 58
+        for b in bullets[:6]:
+            for j, line in enumerate(textwrap.wrap(b, width=int(col_w / 7))[:2]):
+                parts.append(
+                    f'  <text x="{x + 20}" y="{by + j * 14}" class="t-body">• {esc(line)}</text>\n'
+                )
+            by += 28 if len(textwrap.wrap(b, width=int(col_w / 7))) > 1 else 22
+    parts.append(f'  <text x="56" y="{h - 28}" class="t-small">{esc(footnote)}</text>\n')
+    parts.append(svg_close())
+    return "".join(parts)
+
+
+def swimlane_diagram(
+    title: str,
+    subtitle: str,
+    lanes: list[tuple[str, list[str]]],
+    footnote: str,
+    w: int = 1100,
+    h: int = 520,
+) -> str:
+    """lanes: (lane name, step labels left-to-right)."""
+    parts = [svg_open(w, h, title)]
+    parts.append(
+        f'  <text x="48" y="38" class="t-title">{esc(title)}</text>\n'
+        f'  <text x="48" y="62" class="t-sub">{esc(subtitle)}</text>\n'
+        f'  <line x1="48" y1="74" x2="{w - 48}" y2="74" stroke="{LINE}"/>\n'
+    )
+    lane_h = min(100, (h - 130) // max(len(lanes), 1))
+    y0 = 92
+    label_w = 140
+    for i, (lane, steps) in enumerate(lanes):
+        y = y0 + i * lane_h
+        parts.append(
+            f'  <rect x="48" y="{y}" width="{label_w}" height="{lane_h - 8}" rx="6" fill="{ACCENT_SOFT}" stroke="{LINE}"/>\n'
+            f'  <text x="{48 + label_w/2}" y="{y + lane_h/2}" text-anchor="middle" class="t-label">{esc(lane)}</text>\n'
+            f'  <line x1="{48 + label_w + 12}" y1="{y + lane_h/2 - 4}" x2="{w - 48}" y2="{y + lane_h/2 - 4}" stroke="{LINE}" stroke-dasharray="4 4"/>\n'
+        )
+        n = max(len(steps), 1)
+        step_w = (w - 48 - label_w - 80) // n
+        for j, step in enumerate(steps[:5]):
+            bx = 48 + label_w + 24 + j * step_w
+            parts.append(
+                f'  <rect x="{bx}" y="{y + 12}" width="{step_w - 16}" height="{lane_h - 32}" rx="6" fill="{CARD}" stroke="{LINE}" filter="url(#shadow)"/>\n'
+                f'  <text x="{bx + (step_w-16)/2}" y="{y + lane_h/2 + 4}" text-anchor="middle" class="t-body">{esc(step)}</text>\n'
+            )
+            if j < len(steps) - 1:
+                parts.append(
+                    f'  <line x1="{bx + step_w - 16}" y1="{y + lane_h/2}" x2="{bx + step_w - 4}" y2="{y + lane_h/2}" stroke="{ACCENT}" marker-end="url(#arrow)"/>\n'
+                )
+    parts.append(f'  <text x="48" y="{h - 24}" class="t-small">{esc(footnote)}</text>\n')
+    parts.append(svg_close())
+    return "".join(parts)
+
+
+def decision_tree_svg(
+    title: str,
+    subtitle: str,
+    nodes: list[tuple[str, str, float, float]],
+    edges: list[tuple[int, int, str]],
+    footnote: str,
+    w: int = 1000,
+    h: int = 580,
+) -> str:
+    """nodes: (label, kind box|diamond, x, y). edges: (from_idx, to_idx, edge label)."""
+    parts = [svg_open(w, h, title)]
+    parts.append(
+        f'  <text x="48" y="38" class="t-title">{esc(title)}</text>\n'
+        f'  <text x="48" y="62" class="t-sub">{esc(subtitle)}</text>\n'
+        f'  <line x1="48" y1="74" x2="{w - 48}" y2="74" stroke="{LINE}"/>\n'
+    )
+    for i, j, lbl in edges:
+        x1, y1 = nodes[i][2], nodes[i][3]
+        x2, y2 = nodes[j][2], nodes[j][3]
+        parts.append(
+            f'  <line x1="{x1}" y1="{y1 + 20}" x2="{x2}" y2="{y2 - 20}" stroke="{ACCENT}" stroke-width="1.5" marker-end="url(#arrow)"/>\n'
+        )
+        if lbl:
+            mx, my = (x1 + x2) / 2, (y1 + y2) / 2
+            parts.append(f'  <text x="{mx}" y="{my}" text-anchor="middle" class="t-small">{esc(lbl)}</text>\n')
+    for label, kind, x, y in nodes:
+        if kind == "diamond":
+            parts.append(
+                f'  <polygon points="{x},{y-22} {x+70},{y} {x},{y+22} {x-70},{y}" fill="{CARD}" stroke="{ACCENT_WARM}" filter="url(#shadow)"/>\n'
+            )
+            parts.append(
+                f'  <text x="{x}" y="{y + 4}" text-anchor="middle" class="t-label">{esc(label)}</text>\n'
+            )
+        else:
+            lw = max(120, len(label) * 5)
+            parts.append(
+                f'  <rect x="{x - lw/2}" y="{y - 18}" width="{lw}" height="36" rx="6" fill="{CARD}" stroke="{LINE}" filter="url(#shadow)"/>\n'
+                f'  <text x="{x}" y="{y + 4}" text-anchor="middle" class="t-label">{esc(label)}</text>\n'
+            )
+    parts.append(f'  <text x="48" y="{h - 24}" class="t-small">{esc(footnote)}</text>\n')
+    parts.append(svg_close())
+    return "".join(parts)
+
+
+def callout_plate(
+    title: str,
+    subtitle: str,
+    quote: str,
+    attribution: str,
+    footnote: str,
+    w: int = 900,
+    h: int = 320,
+) -> str:
+    parts = [svg_open(w, h, title)]
+    parts.append(
+        f'  <text x="48" y="38" class="t-title">{esc(title)}</text>\n'
+        f'  <text x="48" y="62" class="t-sub">{esc(subtitle)}</text>\n'
+        f'  <line x1="48" y1="74" x2="{w - 48}" y2="74" stroke="{LINE}"/>\n'
+        f'  <rect x="72" y="110" width="{w - 144}" height="{h - 180}" rx="10" fill="{CARD}" stroke="{ACCENT_WARM}" stroke-width="2" filter="url(#shadow)"/>\n'
+        f'  <rect x="72" y="110" width="6" height="{h - 180}" rx="3" fill="{ACCENT_WARM}"/>\n'
+    )
+    qy = 150
+    for line in textwrap.wrap(quote, width=58)[:5]:
+        parts.append(f'  <text x="96" y="{qy}" class="t-label">{esc(line)}</text>\n')
+        qy += 22
+    parts.append(f'  <text x="96" y="{h - 72}" class="t-body">{esc(attribution)}</text>\n')
+    parts.append(f'  <text x="48" y="{h - 28}" class="t-small">{esc(footnote)}</text>\n')
+    parts.append(svg_close())
+    return "".join(parts)
+
+
+def render_wave2() -> None:
+    """Wave 2 infographics — new filenames; do not overwrite wave 1 assets."""
+    write(
+        ASSETS / "infographic-context-window-literacy" / "infographic-context-window.svg",
+        box_diagram(
+            "Context window literacy",
+            "What the advertised token budget actually buys in product design",
+            [
+                ("System + tools", "Policies, schemas, tool defs", 60, 130, 190, 72),
+                ("User message", "Latest turn", 290, 130, 170, 72),
+                ("Retrieved docs", "RAG chunks or uploads", 500, 110, 200, 90),
+                ("Model reasoning", "Hidden chain if enabled", 500, 240, 200, 72),
+                ("Output budget", "Answer + citations", 740, 130, 200, 72),
+                ("Remaining headroom", "Unused tokens ≠ free quality", 740, 260, 200, 72),
+            ],
+            [
+                (250, 166, 290, 166),
+                (460, 166, 500, 145),
+                (600, 200, 600, 240),
+                (700, 166, 740, 166),
+                (840, 202, 840, 260),
+            ],
+            "Schematic budget stack; real products interleave roles differently.",
+            w=1000,
+            h=420,
+        ),
+    )
+
+    write(
+        ASSETS / "infographic-training-inference-cost" / "infographic-training-inference.svg",
+        box_diagram(
+            "Training vs inference spend (schematic)",
+            "Where capex and opex show up in a generic model lifecycle",
+            [
+                ("Data + curation", "One-time corpus cost", 70, 150, 180, 78),
+                ("Cluster training", "Large upfront GPU block", 290, 120, 200, 90),
+                ("Alignment passes", "SFT, prefs, safety", 290, 260, 200, 78),
+                ("Checkpoint storage", "Versioned weights", 530, 120, 190, 78),
+                ("Serving fleet", "Per-token opex", 530, 260, 190, 78),
+                ("Eval + monitoring", "Continuous harness runs", 760, 190, 200, 78),
+            ],
+            [
+                (250, 189, 290, 165),
+                (250, 189, 290, 299),
+                (490, 159, 530, 159),
+                (490, 299, 530, 299),
+                (720, 230, 760, 230),
+            ],
+            "Illustrative economics — not vendor pricing or benchmark totals.",
+            w=1020,
+            h=420,
+        ),
+    )
+
+    write(
+        ASSETS / "infographic-data-flywheel" / "infographic-data-flywheel.svg",
+        box_diagram(
+            "Product data flywheel (generic)",
+            "How usage can feed the next model generation — when policy allows",
+            [
+                ("Deployed model", "API or on-prem", 120, 140, 180, 72),
+                ("User interactions", "Logs, edits, thumbs", 360, 140, 190, 72),
+                ("Filtering + consent", "Retention rules", 600, 120, 200, 90),
+                ("Labeling / curation", "Human or model judges", 600, 260, 200, 72),
+                ("Training mix", "Blended with public data", 840, 190, 180, 72),
+            ],
+            [
+                (300, 176, 360, 176),
+                (550, 176, 600, 155),
+                (700, 210, 700, 260),
+                (800, 230, 840, 230),
+                (210, 212, 210, 260),
+                (210, 260, 600, 296),
+            ],
+            "Legal and contractual constraints vary; diagram is not a compliance guide.",
+        ),
+    )
+
+    write(
+        ASSETS / "comparison-era-capability-2020-2023-2026" / "fig-02-era-comparison.svg",
+        three_column_comparison(
+            "Capability framing by era (schematic)",
+            "How buyers described “good enough” — not benchmark scores",
+            [
+                (
+                    "2020",
+                    [
+                        "Research demos & APIs",
+                        "Few-shot without fine-tune",
+                        "Safety mostly offline",
+                    ],
+                ),
+                (
+                    "2023",
+                    [
+                        "Chat UX as default",
+                        "RAG + plugins in prod",
+                        "Eval suites on slide decks",
+                    ],
+                ),
+                (
+                    "2026",
+                    [
+                        "Agents + long context SKUs",
+                        "Governance in contracts",
+                        "Hybrid open + closed stacks",
+                    ],
+                ),
+            ],
+            "Qualitative framing for editorial context; verify claims against your workload.",
+        ),
+    )
+
+    write(
+        ASSETS / "flowchart-safety-evals-release" / "fig-02-safety-evals-flow.svg",
+        box_diagram(
+            "Safety evals before release (generic)",
+            "Parallel tracks that gate a public model or API tier",
+            [
+                ("Policy spec", "Refusals, PII, abuse", 80, 120, 190, 78),
+                ("Automated probes", "Red-team suites", 320, 120, 200, 78),
+                ("Human review", "Spot checks + escalations", 560, 120, 200, 78),
+                ("Regression harness", "Compare to prior build", 320, 260, 200, 78),
+                ("Ship / hold", "Risk acceptance", 800, 190, 180, 78),
+            ],
+            [
+                (270, 159, 320, 159),
+                (520, 159, 560, 159),
+                (660, 198, 800, 210),
+                (420, 198, 420, 260),
+                (520, 299, 800, 230),
+            ],
+            "Real programs add jurisdiction-specific obligations and bug bounty loops.",
+            w=1020,
+            h=420,
+        ),
+    )
+
+    write(
+        ASSETS / "diagram-red-team-vs-eval-harness" / "fig-02-red-team-eval.svg",
+        box_diagram(
+            "Red team vs eval harness",
+            "Complementary loops — not interchangeable scoreboards",
+            [
+                ("Eval harness", "Fixed prompts, metrics", 80, 150, 220, 90),
+                ("Red team", "Adaptive adversaries", 80, 290, 220, 90),
+                ("Model build", "Candidate checkpoint", 400, 220, 200, 90),
+                ("Issue tracker", "Severity + repro", 680, 150, 220, 90),
+                ("Release notes", "Known limitations", 680, 290, 220, 90),
+            ],
+            [
+                (300, 195, 400, 250),
+                (300, 335, 400, 280),
+                (600, 250, 680, 195),
+                (600, 280, 680, 335),
+            ],
+            "Red teams find unknowns; harnesses track regressions on known tests.",
+            w=960,
+            h=440,
+        ),
+    )
+
+    write(
+        ASSETS / "topology-open-vs-closed-deployment" / "infographic-topology.svg",
+        box_diagram(
+            "Open-weight vs closed API topology",
+            "Generic deployment patterns — not a vendor map",
+            [
+                ("Closed API", "Vendor-hosted weights", 60, 110, 200, 80),
+                ("Your app", "Gateway + policies", 320, 110, 180, 80),
+                ("Open weights file", "Downloaded checkpoint", 60, 260, 200, 80),
+                ("Your GPU cluster", "Self-managed serving", 320, 260, 180, 80),
+                ("Shared controls", "Auth, logging, eval hooks", 560, 185, 220, 90),
+                ("User / tenant data", "Stays in your boundary", 820, 185, 200, 90),
+            ],
+            [
+                (260, 150, 320, 150),
+                (260, 300, 320, 300),
+                (500, 150, 560, 210),
+                (500, 300, 560, 240),
+                (780, 230, 820, 230),
+            ],
+            "Hybrid setups (VPC endpoints + local adapters) are common in enterprise.",
+        ),
+    )
+
+    write(
+        ASSETS / "diagram-multimodal-pipeline" / "fig-02-multimodal-pipeline.svg",
+        box_diagram(
+            "Multimodal pipeline (generic)",
+            "Align encoders, fuse tokens, decode text or media",
+            [
+                ("Text tokenizer", "Subword units", 70, 130, 170, 72),
+                ("Vision encoder", "Patches or tiles", 70, 260, 170, 72),
+                ("Audio / speech", "Frames or codes", 280, 260, 170, 72),
+                ("Fusion layer", "Cross-attention", 490, 190, 190, 90),
+                ("Language core", "Shared transformer", 720, 190, 180, 90),
+                ("Output head", "Text, image, or speech", 940, 190, 150, 90),
+            ],
+            [
+                (240, 166, 490, 210),
+                (240, 296, 490, 240),
+                (450, 296, 490, 250),
+                (680, 235, 720, 235),
+                (900, 235, 940, 235),
+            ],
+            "Production stacks add routing, caching, and modality-specific safety filters.",
+            w=1120,
+            h=420,
+        ),
+    )
+
+    write(
+        ASSETS / "swimlane-agent-orchestration" / "fig-02-agent-swimlanes.svg",
+        swimlane_diagram(
+            "Agent orchestration swimlanes",
+            "Who does what in a multi-step workflow (conceptual)",
+            [
+                ("User", ["Goal", "Approve"]),
+                ("Orchestrator", ["Plan", "Route", "Summarize"]),
+                ("Tools", ["Search", "Code", "CRM"]),
+                ("Policy", ["Allow", "Log", "Block"]),
+            ],
+            "Add human-in-the-loop gates for high-risk tool calls.",
+        ),
+    )
+
+    write(
+        ASSETS / "decision-tree-ai-compliance" / "decision-tree-compliance.svg",
+        decision_tree_svg(
+            "AI compliance decision tree (high level)",
+            "Illustrative gates — confirm with counsel and primary law",
+            [
+                ("New AI feature", "box", 500, 110),
+                ("High-risk use?", "diamond", 500, 200),
+                ("Sector rules?", "diamond", 320, 310),
+                ("Document + assess", "box", 680, 310),
+                ("Ship with controls", "box", 500, 430),
+                ("Enhanced audit trail", "box", 320, 430),
+            ],
+            [
+                (0, 1, ""),
+                (1, 2, "yes"),
+                (1, 3, "no"),
+                (2, 5, "yes"),
+                (2, 4, "no"),
+                (3, 4, ""),
+                (5, 4, ""),
+            ],
+            "Not legal advice; jurisdictions define “high risk” differently.",
+        ),
+    )
+
+    write(
+        ASSETS / "callout-inference-cost-drivers" / "callout-cost-drivers.svg",
+        callout_plate(
+            "Inference cost drivers",
+            "Illustrative framing for finance conversations",
+            "Serving cost scales with tokens in and out, model width, batch utilization, and region — not headline parameter counts alone.",
+            "Conceptual summary; cite your vendor invoice for numbers.",
+            "Illustrative callout — not sourced statistics.",
+        ),
+    )
+
+    write(
+        ASSETS / "diagram-rag-vs-long-context" / "fig-02-rag-vs-context.svg",
+        box_diagram(
+            "RAG vs long context (when to use which)",
+            "Hybrid designs are common in 2026 production stacks",
+            [
+                ("Large corpus", "Many docs, updates", 80, 120, 200, 78),
+                ("Long context", "Whole binder in prompt", 80, 260, 200, 78),
+                ("RAG retrieve", "Rank + cite spans", 360, 120, 200, 78),
+                ("Cache prefix", "Amortize repeated binders", 360, 260, 200, 78),
+                ("Hybrid", "Retrieve then fill window", 640, 190, 220, 90),
+                ("Eval both", "Needle + citation tests", 900, 190, 170, 90),
+            ],
+            [
+                (280, 159, 360, 159),
+                (280, 299, 360, 299),
+                (560, 159, 640, 220),
+                (560, 299, 640, 250),
+                (860, 235, 900, 235),
+            ],
+            "Pick based on freshness, citeability, and measured middle-context behavior.",
+            w=1100,
+            h=420,
+        ),
+    )
+
+    write(
+        ASSETS / "infographic-moe-routing" / "infographic-moe.svg",
+        box_diagram(
+            "Mixture-of-experts routing (schematic)",
+            "Sparse activation — not every parameter runs each token",
+            [
+                ("Input token", "One position", 100, 200, 160, 70),
+                ("Router", "Top-k expert pick", 320, 200, 170, 70),
+                ("Expert A", "FFN block", 540, 120, 150, 70),
+                ("Expert B", "FFN block", 540, 200, 150, 70),
+                ("Expert C", "FFN block", 540, 280, 150, 70),
+                ("Combine", "Weighted sum", 760, 200, 160, 70),
+                ("Output", "Next layer input", 960, 200, 140, 70),
+            ],
+            [
+                (260, 235, 320, 235),
+                (490, 155, 540, 155),
+                (490, 235, 540, 235),
+                (490, 315, 540, 315),
+                (690, 155, 760, 220),
+                (690, 235, 760, 235),
+                (690, 315, 760, 280),
+                (920, 235, 960, 235),
+            ],
+            "Serving MoE requires expert parallelism; diagram omits hardware mapping.",
+        ),
+    )
+
+    write(
+        ASSETS / "flowchart-prompt-injection-defenses" / "fig-02-prompt-injection.svg",
+        box_diagram(
+            "Prompt injection defenses (layered)",
+            "No single filter fixes untrusted text in the context",
+            [
+                ("Untrusted input", "Email, web, user paste", 70, 170, 190, 78),
+                ("Sanitize + isolate", "Separate channels", 300, 120, 200, 78),
+                ("Tool allowlists", "Least privilege", 300, 260, 200, 78),
+                ("Model policy", "Refuse override attempts", 540, 170, 200, 78),
+                ("Human gate", "High-impact actions", 780, 170, 190, 78),
+            ],
+            [
+                (260, 209, 300, 159),
+                (260, 209, 300, 299),
+                (500, 159, 540, 190),
+                (500, 299, 540, 210),
+                (740, 209, 780, 209),
+            ],
+            "Assume attackers read your system prompt; design for containment.",
+            w=1020,
+            h=400,
+        ),
+    )
 
 
 def _caveats_svg() -> str:

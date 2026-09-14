@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 420" width="1000" height="420" role="img" aria-labelledby="title desc">
+  <title id="title">Context window literacy</title>
+  <desc id="desc">Editorial diagram for the AI industry blog. Generic public concepts only.</desc>
+  <defs>
+    <style>
+      .t-title { font: 600 26px Georgia, 'Times New Roman', serif; fill: #141414; }
+      .t-sub { font: 400 14px system-ui, -apple-system, 'Segoe UI', sans-serif; fill: #5C574F; }
+      .t-year { font: 700 13px system-ui, sans-serif; fill: #1E4D6B; }
+      .t-label { font: 600 12px system-ui, sans-serif; fill: #141414; }
+      .t-body { font: 400 11.5px system-ui, sans-serif; fill: #5C574F; }
+      .t-small { font: 400 10px system-ui, sans-serif; fill: #8A847A; }
+      .t-card-title { font: 600 13px system-ui, sans-serif; fill: #141414; }
+    </style>
+    <filter id="shadow" x="-4%" y="-4%" width="108%" height="108%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#141414" flood-opacity="0.08"/>
+    </filter>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#1E4D6B"/>
+    </marker>
+  </defs>
+  <rect width="100%" height="100%" fill="#FAF8F5"/>
+  <text x="48" y="38" class="t-title">Context window literacy</text>
+  <text x="48" y="62" class="t-sub">What the advertised token budget actually buys in product design</text>
+  <line x1="48" y1="74" x2="952" y2="74" stroke="#E3DDD4"/>
+  <line x1="250" y1="166" x2="290" y2="166" stroke="#1E4D6B" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="460" y1="166" x2="500" y2="145" stroke="#1E4D6B" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="600" y1="200" x2="600" y2="240" stroke="#1E4D6B" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="700" y1="166" x2="740" y2="166" stroke="#1E4D6B" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="840" y1="202" x2="840" y2="260" stroke="#1E4D6B" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="60" y="130" width="190" height="72" rx="8" fill="#FFFFFF" stroke="#E3DDD4" filter="url(#shadow)"/>
+  <rect x="60" y="130" width="190" height="6" rx="8" fill="#D4E4ED"/>
+  <text x="155.0" y="158" text-anchor="middle" class="t-card-title">System + tools</text>
+  <text x="155.0" y="178" text-anchor="middle" class="t-body">Policies, schemas, tool defs</text>
+  <rect x="290" y="130" width="170" height="72" rx="8" fill="#FFFFFF" stroke="#E3DDD4" filter="url(#shadow)"/>
+  <rect x="290" y="130" width="170" height="6" rx="8" fill="#D4E4ED"/>
+  <text x="375.0" y="158" text-anchor="middle" class="t-card-title">User message</text>
+  <text x="375.0" y="178" text-anchor="middle" class="t-body">Latest turn</text>
+  <rect x="500" y="110" width="200" height="90" rx="8" fill="#FFFFFF" stroke="#E3DDD4" filter="url(#shadow)"/>
+  <rect x="500" y="110" width="200" height="6" rx="8" fill="#D4E4ED"/>
+  <text x="600.0" y="138" text-anchor="middle" class="t-card-title">Retrieved docs</text>
+  <text x="600.0" y="158" text-anchor="middle" class="t-body">RAG chunks or uploads</text>
+  <rect x="500" y="240" width="200" height="72" rx="8" fill="#FFFFFF" stroke="#E3DDD4" filter="url(#shadow)"/>
+  <rect x="500" y="240" width="200" height="6" rx="8" fill="#D4E4ED"/>
+  <text x="600.0" y="268" text-anchor="middle" class="t-card-title">Model reasoning</text>
+  <text x="600.0" y="288" text-anchor="middle" class="t-body">Hidden chain if enabled</text>
+  <rect x="740" y="130" width="200" height="72" rx="8" fill="#FFFFFF" stroke="#E3DDD4" filter="url(#shadow)"/>
+  <rect x="740" y="130" width="200" height="6" rx="8" fill="#D4E4ED"/>
+  <text x="840.0" y="158" text-anchor="middle" class="t-card-title">Output budget</text>
+  <text x="840.0" y="178" text-anchor="middle" class="t-body">Answer + citations</text>
+  <rect x="740" y="260" width="200" height="72" rx="8" fill="#FFFFFF" stroke="#E3DDD4" filter="url(#shadow)"/>
+  <rect x="740" y="260" width="200" height="6" rx="8" fill="#D4E4ED"/>
+  <text x="840.0" y="288" text-anchor="middle" class="t-card-title">Remaining headroom</text>
+  <text x="840.0" y="308" text-anchor="middle" class="t-body">Unused tokens ≠ free quality</text>
+  <text x="48" y="396" class="t-small">Schematic budget stack; real products interleave roles differently.</text>
+</svg>

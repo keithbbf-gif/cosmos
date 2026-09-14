@@ -83,3 +83,30 @@ Optional front-matter tags for discoverability:
 - Timelines cite **widely reported** public events; footnotes remind readers to verify primary sources (especially law).
 - Diagrams are **schematics**, not implementations.
 - Update copy in `render_graphics.py` and re-run the renderer when dates or labels need revision.
+
+---
+
+## Wave 2 — infographics & flowcharts (2026-09-14)
+
+**14 new asset slugs** (does not replace wave-1 filenames). Regenerate via `render_wave2()` in `scripts/render_graphics.py`.
+
+| Slug | File | Use when |
+|------|------|----------|
+| `infographic-context-window-literacy` | `assets/.../infographic-context-window.svg` | Token budget, system vs user vs RAG |
+| `infographic-training-inference-cost` | `assets/.../infographic-training-inference.svg` | Capex training vs opex serving |
+| `infographic-data-flywheel` | `assets/.../infographic-data-flywheel.svg` | Product data loops, synthetic data |
+| `comparison-era-capability-2020-2023-2026` | `assets/.../fig-02-era-comparison.svg` | Era framing without fake scores |
+| `flowchart-safety-evals-release` | `assets/.../fig-02-safety-evals-flow.svg` | Pre-release safety gates |
+| `diagram-red-team-vs-eval-harness` | `assets/.../fig-02-red-team-eval.svg` | Red team vs regression harness |
+| `topology-open-vs-closed-deployment` | `assets/.../infographic-topology.svg` | Open weights vs API topology |
+| `diagram-multimodal-pipeline` | `assets/.../fig-02-multimodal-pipeline.svg` | Vision/audio/text fusion |
+| `swimlane-agent-orchestration` | `assets/.../fig-02-agent-swimlanes.svg` | Multi-party agent workflows |
+| `decision-tree-ai-compliance` | `assets/.../decision-tree-compliance.svg` | High-level compliance branching |
+| `callout-inference-cost-drivers` | `assets/.../callout-cost-drivers.svg` | Pull-quote plate (**illustrative**) |
+| `diagram-rag-vs-long-context` | `assets/.../fig-02-rag-vs-context.svg` | RAG vs long-context vs hybrid |
+| `infographic-moe-routing` | `assets/.../infographic-moe.svg` | MoE router schematic |
+| `flowchart-prompt-injection-defenses` | `assets/.../fig-02-prompt-injection.svg` | Layered injection defenses |
+
+**Draft embeds:** all `drafts/01–42` include wave-1 + wave-2 figures via `scripts/embed_wave2_figures.py` (see `staged/wave2_draft_figure_plan.json`).
+
+**Style reference:** [`GRAPHICS_STYLE.md`](GRAPHICS_STYLE.md) · **Checklist:** [`staged/WAVE2_CHECKLIST.md`](staged/WAVE2_CHECKLIST.md)

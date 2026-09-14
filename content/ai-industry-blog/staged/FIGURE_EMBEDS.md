@@ -143,3 +143,18 @@ Paths assume the draft file sits in `content/ai-industry-blog/drafts/`. Each blo
   <figcaption><strong>Figure.</strong> Parallel policy tracks across regions illustrate why cross-border AI products face fragmented obligations.</figcaption>
 </figure>
 ```
+
+---
+
+## Wave 2 (infographics — see `GRAPHICS_INDEX.md`)
+
+Copy-paste blocks for all wave-2 slugs match `staged/asset_catalog_wave2.json`. Example — context window literacy:
+
+```html
+<figure class="blog-figure">
+  <img src="../assets/infographic-context-window-literacy/infographic-context-window.svg" alt="Schematic breakdown of context window budget: system, user, retrieval, and output" width="1200" loading="lazy" />
+  <figcaption><strong>Figure.</strong> Advertised context is a budget across roles — not a single block of usable reasoning space.</figcaption>
+</figure>
+```
+
+Automated embed for pack drafts: `python3 content/ai-industry-blog/scripts/embed_wave2_figures.py`.

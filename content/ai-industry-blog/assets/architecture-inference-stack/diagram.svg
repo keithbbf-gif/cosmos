@@ -15,14 +15,14 @@
     <filter id="shadow" x="-4%" y="-4%" width="108%" height="108%">
       <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#141414" flood-opacity="0.08"/>
     </filter>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#1E4D6B"/>
+    </marker>
   </defs>
   <rect width="100%" height="100%" fill="#FAF8F5"/>
   <text x="48" y="38" class="t-title">Inference serving stack</text>
   <text x="48" y="62" class="t-sub">Request path from client to generated tokens</text>
   <line x1="48" y1="74" x2="1052" y2="74" stroke="#E3DDD4"/>
-  <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
-      <path d="M0,0 L6,3 L0,6 Z" fill="#1E4D6B"/>
-    </marker>
   <line x1="210" y1="205" x2="250" y2="205" stroke="#1E4D6B" stroke-width="2" marker-end="url(#arrow)"/>
   <line x1="420" y1="205" x2="460" y2="155" stroke="#1E4D6B" stroke-width="2" marker-end="url(#arrow)"/>
   <line x1="420" y1="205" x2="460" y2="275" stroke="#1E4D6B" stroke-width="2" marker-end="url(#arrow)"/>

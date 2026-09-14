@@ -1,0 +1,175 @@
+{
+  "01-gpt-3-and-the-api-economy.md": [
+    "comparison-era-capability-2020-2023-2026",
+    "infographic-training-inference-cost"
+  ],
+  "02-scaling-laws-and-the-compute-race.md": [
+    "compute-and-scaling-2020-2026",
+    "infographic-training-inference-cost"
+  ],
+  "03-from-copilot-to-coding-agents.md": [
+    "swimlane-agent-orchestration",
+    "architecture-agent-tool-loop"
+  ],
+  "04-diffusion-and-the-image-models.md": [
+    "diagram-multimodal-pipeline",
+    "comparison-era-capability-2020-2023-2026"
+  ],
+  "05-the-chatgpt-moment.md": [
+    "industry-milestones-2020-2026",
+    "comparison-era-capability-2020-2023-2026"
+  ],
+  "06-multimodal-models-arrive.md": [
+    "diagram-multimodal-pipeline",
+    "architecture-inference-stack"
+  ],
+  "07-open-weights-versus-closed.md": [
+    "topology-open-vs-closed-deployment",
+    "open-weights-epochs-2020-2026"
+  ],
+  "08-rag-tools-and-early-agents.md": [
+    "architecture-rag-pipeline",
+    "diagram-rag-vs-long-context",
+    "architecture-agent-tool-loop"
+  ],
+  "09-the-evaluation-crisis.md": [
+    "eval-harness-pipeline",
+    "eval-leaderboard-caveats",
+    "diagram-red-team-vs-eval-harness"
+  ],
+  "10-safety-alignment-red-teaming.md": [
+    "flowchart-safety-evals-release",
+    "diagram-red-team-vs-eval-harness"
+  ],
+  "11-regulation-eu-ai-act-us-nist.md": [
+    "decision-tree-ai-compliance",
+    "regulation-eu-ai-act",
+    "regulation-us-federal-2023-2026"
+  ],
+  "12-small-models-on-device.md": [
+    "topology-open-vs-closed-deployment",
+    "infographic-moe-routing"
+  ],
+  "13-voice-and-realtime-multimodal.md": [
+    "diagram-multimodal-pipeline",
+    "architecture-inference-stack"
+  ],
+  "14-agents-and-computer-use.md": [
+    "swimlane-agent-orchestration",
+    "architecture-agent-tool-loop",
+    "flowchart-prompt-injection-defenses"
+  ],
+  "15-synthetic-data-and-copyright.md": [
+    "infographic-data-flywheel",
+    "infographic-training-inference-cost"
+  ],
+  "16-enterprise-adoption-and-roi.md": [
+    "callout-inference-cost-drivers",
+    "topology-open-vs-closed-deployment"
+  ],
+  "17-deepfakes-and-media-authenticity.md": [
+    "diagram-multimodal-pipeline",
+    "flowchart-prompt-injection-defenses"
+  ],
+  "18-good-ai-product-design-2026.md": [
+    "comparison-era-capability-2020-2023-2026",
+    "diagram-rag-vs-long-context"
+  ],
+  "19-the-2020-hangover-from-gpt-2.md": [
+    "comparison-era-capability-2020-2023-2026",
+    "industry-milestones-2020-2026"
+  ],
+  "20-instructgpt-the-assistant-gets-a-job.md": [
+    "architecture-fine-tuning-stages",
+    "infographic-data-flywheel"
+  ],
+  "21-nvidia-and-the-gpu-year.md": [
+    "compute-and-scaling-2020-2026",
+    "infographic-training-inference-cost"
+  ],
+  "22-context-windows-2k-to-a-million.md": [
+    "infographic-context-window-literacy",
+    "diagram-rag-vs-long-context"
+  ],
+  "23-mixture-of-experts-switch-to-llama-4.md": [
+    "infographic-moe-routing",
+    "compute-and-scaling-2020-2026"
+  ],
+  "24-reasoning-models-and-test-time-compute.md": [
+    "eval-harness-pipeline",
+    "infographic-training-inference-cost"
+  ],
+  "25-deepseek-qwen-and-the-china-labs.md": [
+    "topology-open-vs-closed-deployment",
+    "open-weights-epochs-2020-2026"
+  ],
+  "26-the-openai-board-week.md": [
+    "industry-milestones-2020-2026",
+    "comparison-era-capability-2020-2023-2026"
+  ],
+  "27-anthropic-the-other-lab.md": [
+    "topology-open-vs-closed-deployment",
+    "flowchart-safety-evals-release"
+  ],
+  "28-search-vs-chat.md": [
+    "architecture-rag-pipeline",
+    "diagram-rag-vs-long-context"
+  ],
+  "29-prompt-injection-without-a-cookbook.md": [
+    "flowchart-prompt-injection-defenses",
+    "architecture-agent-tool-loop"
+  ],
+  "30-hallucinations-are-a-product-defect.md": [
+    "eval-leaderboard-caveats",
+    "architecture-rag-pipeline"
+  ],
+  "31-token-prices-and-inference-economics.md": [
+    "callout-inference-cost-drivers",
+    "infographic-training-inference-cost",
+    "architecture-inference-stack"
+  ],
+  "32-video-after-sora.md": [
+    "diagram-multimodal-pipeline",
+    "industry-milestones-2020-2026"
+  ],
+  "33-alphafold-and-scientific-ai.md": [
+    "infographic-data-flywheel",
+    "comparison-era-capability-2020-2023-2026"
+  ],
+  "34-the-open-tooling-stack.md": [
+    "topology-open-vs-closed-deployment",
+    "open-weights-epochs-2020-2026"
+  ],
+  "35-lora-and-the-adapter-economy.md": [
+    "architecture-fine-tuning-stages",
+    "infographic-moe-routing"
+  ],
+  "36-labor-after-the-strikes.md": [
+    "comparison-era-capability-2020-2023-2026",
+    "infographic-data-flywheel"
+  ],
+  "37-data-centers-power-and-water.md": [
+    "infographic-training-inference-cost",
+    "compute-and-scaling-2020-2026"
+  ],
+  "38-state-ai-laws-after-federal-whiplash.md": [
+    "decision-tree-ai-compliance",
+    "regulation-global-snapshot-2026"
+  ],
+  "39-apple-intelligence-and-the-os.md": [
+    "topology-open-vs-closed-deployment",
+    "diagram-multimodal-pipeline"
+  ],
+  "40-memory-and-the-privacy-hangover.md": [
+    "decision-tree-ai-compliance",
+    "flowchart-prompt-injection-defenses"
+  ],
+  "41-school-after-chatgpt.md": [
+    "comparison-era-capability-2020-2023-2026",
+    "industry-milestones-2020-2026"
+  ],
+  "42-agi-talk-and-product-roadmaps.md": [
+    "comparison-era-capability-2020-2023-2026",
+    "eval-benchmark-families"
+  ]
+}
