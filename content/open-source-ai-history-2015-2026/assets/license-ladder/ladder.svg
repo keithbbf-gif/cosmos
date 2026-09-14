@@ -6,7 +6,7 @@
     <rect x="80" y="180" width="800" height="40" fill="#fff" stroke="#222"/>
     <text x="480" y="205" text-anchor="middle">Research / non-commercial grant (LLaMA 1, some early cards)</text>
     <rect x="80" y="128" width="800" height="40" fill="#efe8d8" stroke="#222"/>
-    <text x="480" y="153" text-anchor="middle">Community / acceptable-use (Llama 24, Gemma 13 Terms)</text>
+    <text x="480" y="153" text-anchor="middle">Community / acceptable-use (Llama 2-4, Gemma 1-3 Terms)</text>
     <rect x="80" y="76" width="800" height="40" fill="#dce8dc" stroke="#222"/>
     <text x="480" y="101" text-anchor="middle">OSI-shaped licenses on weights and code (Apache 2.0, MIT: TF, PT, Mixtral, R1, gpt-oss, Gemma 4)</text>
   </g>
