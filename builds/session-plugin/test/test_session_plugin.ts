@@ -283,7 +283,7 @@ async function main(): Promise<number> {
         env: { COSMOS_CORE_URL: url, COSMOS_API_TOKEN: token },
         fetchImpl: async () => ({
           status: 401,
-          json: async () => ({ error: "UNAUTHORIZED", detail: `bad bearer ${token}` }),
+          json: async () => ({ error: `bad bearer ${token}` }),
           text: async () => "",
         }),
       });
