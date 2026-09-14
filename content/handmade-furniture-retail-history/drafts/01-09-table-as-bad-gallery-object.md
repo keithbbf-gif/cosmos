@@ -13,6 +13,11 @@ topics: [galleries, dining-tables, freight, scale]
 sequence_after: hfrh-01-08
 ---
 
+<figure>
+<img src="../images/hfrh-01-09-wendell-castle-studio-furniture.jpg" alt="Wendell Castle studio furniture coffee table photographed in Rochester, New York, 1967" width="1200" loading="lazy">
+<figcaption>When a table becomes a gallery object, the buyer must decide whether to eat on it or admire it — studio furniture lives in that tension.</figcaption>
+</figure>
+
 I make dining tables for a living. I say that without romance, because a dining table is a problem in almost every room except a dining room.
 
 A gallery that learned its manners on jewelry, fiber, and pots is not stupid for struggling with us. The object is rude.

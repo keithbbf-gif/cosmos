@@ -13,6 +13,11 @@ topics: [American-made, labor, captions, 1999]
 sequence_after: hfrh-07-42
 ---
 
+<figure>
+<img src="../images/hfrh-07-43-american-made-label-retail.jpg" alt="Made in USA label on consumer goods, a retail claim tied to sourcing and showroom language" width="1200" loading="lazy">
+<figcaption>American made meant traceable labor and domestic supply chains before the word became a filter checkbox.</figcaption>
+</figure>
+
 When we opened in 1999, "American made" was not a caption. It was a map.
 
 There was a building. There were people on a clock. There was a dock. The wood might have come from farther than the building — wood has always traveled — but the decisions that made it furniture happened in a place you could drive to. Southern Indiana has been that kind of place for a long time. So has a lot of North Carolina. So has Grand Rapids in its chapters. The map had holes. The map was still a map.

@@ -13,6 +13,11 @@ topics: [overstock, dropship, wholesale, 1999]
 sequence_after: hfrh-05-33
 ---
 
+<figure>
+<img src="../images/hfrh-06-34-closeout-warehouse-inventory.jpg" alt="Cluttered warehouse with stacked boxes under industrial lighting, evoking closeout and overstock inventory partnerships" width="1200" loading="lazy">
+<figcaption>Overstock-era partners moved closeout and fulfillment inventory — a different risk assignment than consignment on a gallery wall.</figcaption>
+</figure>
+
 1999 is a hinge year for this shop and for this website, and I do not want that coincidence to become a myth. We opened a custom shop. A Utah company that had been D2-Discounts Direct, then Deals.com, took the name Overstock.com. They were not thinking about our tables. They were thinking about closeouts.
 
 Closeout is an old trade. Somebody made too much. Somebody cancelled. A jobber moves the pile. The civilian gets a bargain and a story about a deal. Patrick Byrne's group looked at that pile and put it on a transactional website. The SEC paperwork from the 2002 offering is the dry version: inconsistent quantities, fragmented supply, the internet as a way to gather both sides.

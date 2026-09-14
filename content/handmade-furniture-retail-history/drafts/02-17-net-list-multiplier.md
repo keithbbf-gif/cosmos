@@ -13,6 +13,11 @@ topics: [showrooms, pricing, net, list]
 sequence_after: hfrh-02-16
 ---
 
+<figure>
+<img src="../images/hfrh-02-17-wholesale-net-list-price-sheet.jpg" alt="Victorian printed price list page for furniture and barber chairs showing list and net pricing columns" width="1200" loading="lazy">
+<figcaption>Net, list, and multiplier arithmetic on paper — the hidden math behind handmade furniture quoted to designers at trade price.</figcaption>
+</figure>
+
 I am going to talk about money in the least sexy way I can, because sexy money talk is how people get robbed.
 
 List is a number on a piece of paper. Sometimes it is a number on a website. It is the published retail, the sticker, the thing a civilian is shown so that a discount can later appear and feel like a gift.

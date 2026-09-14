@@ -13,6 +13,11 @@ topics: [galleries, consignment, pricing]
 sequence_after: hfrh-01-06
 ---
 
+<figure>
+<img src="../images/hfrh-01-07-craft-gallery-showroom-interior.jpg" alt="Interior of the De Groot furniture showroom in Rushcutters Bay, a historic gallery-style retail room" width="1200" loading="lazy">
+<figcaption>Gallery consignment keeps title with the maker; the showroom split pays for editing, rent, and the talk that teaches a buyer to trust the wall.</figcaption>
+</figure>
+
 A gallery is not a place that hangs things. A gallery is a place that decides what is worth hanging, and then stands next to it until a stranger agrees.
 
 In American studio craft, the common contract was consignment. Door one. You keep title. The gallery keeps the key. When the piece sells, you split. People say fifty percent the way they say homemade. It is a habit you will meet often enough that you should budget for it, and it is not a statute. Some rooms take less. Some take more. Some buy outright, which is wholesale, door two, and those rooms are rarer because they have to believe in you with cash.

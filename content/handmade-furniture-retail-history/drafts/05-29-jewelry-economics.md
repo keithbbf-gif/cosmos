@@ -13,6 +13,11 @@ topics: [etsy, furniture, fees, freight]
 sequence_after: hfrh-05-28
 ---
 
+<figure>
+<img src="../images/hfrh-05-29-handmade-craft-furniture-shaker.jpg" alt="Shaker handmade furniture example showing craft construction and proportion" width="1200" loading="lazy">
+<figcaption>Jewelry economics on Etsy trained buyers to compare hours and materials; furniture makers imported those expectations at a loss.</figcaption>
+</figure>
+
 A pair of earrings can absorb a listing fee. A dining table can too, if you only list one. The problem is not the twenty cents. The problem is the whole weather system that grew around the twenty cents.
 
 Jewelry — I am using jewelry as a type, not an insult — has traits a marketplace loves.

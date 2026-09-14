@@ -13,6 +13,11 @@ topics: [early-web, photography, showrooms, looking]
 sequence_after: hfrh-04-25
 ---
 
+<figure>
+<img src="../images/hfrh-04-26-showroom-window-display-photography.jpg" alt="Kitchen and furniture showroom window display photographed from the street" width="1200" loading="lazy">
+<figcaption>When the photograph becomes the showroom, handmade furniture competes on light, crop, and honesty about scale.</figcaption>
+</figure>
+
 I said a sample is how we manufacture belief. The web said a picture is cheaper.
 
 Both can be true. Only one of them lets you sit.

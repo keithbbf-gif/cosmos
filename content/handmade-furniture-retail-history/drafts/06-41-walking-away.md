@@ -13,6 +13,11 @@ topics: [dropship, showrooms, capacity, walking-away]
 sequence_after: hfrh-06-40
 ---
 
+<figure>
+<img src="../images/hfrh-06-41-empty-showroom-walking-away.jpg" alt="Historic De Groot furniture showroom interior, a quiet room after the platform contract ends" width="1200" loading="lazy">
+<figcaption>Walking away from a portal contract often means rebuilding showroom relationships the gallery door once held open.</figcaption>
+</figure>
+
 I am not going to tell a morality play where the shop refuses the internet and the heavens open.
 
 Walking away from a portal is a budget.

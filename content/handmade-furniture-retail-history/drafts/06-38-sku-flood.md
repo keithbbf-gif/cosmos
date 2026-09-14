@@ -13,6 +13,11 @@ topics: [wayfair, SKUs, editing, looking]
 sequence_after: hfrh-06-37
 ---
 
+<figure>
+<img src="../images/hfrh-06-38-sku-flood-warehouse-shelves.jpg" alt="Warehouse shelves stocked with cartons, visual metaphor for SKU flood on marketplace catalogs" width="1200" loading="lazy">
+<figcaption>Millions of SKUs turned handmade lines into rows in a database; discovery replaced the taught buyer in the gallery.</figcaption>
+</figure>
+
 A gallery hangs twelve things so you can see one.
 
 A showroom puts a sample in a conversation with six neighbors.

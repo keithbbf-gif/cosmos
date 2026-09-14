@@ -13,6 +13,11 @@ topics: [markets, wholesale, carts, risk]
 sequence_after: hfrh-03-22
 ---
 
+<figure>
+<img src="../images/hfrh-03-23-wholesale-market-order-factory-scale.jpg" alt="Pocket directory of southern furniture manufacturers, a wholesale reference book for market buyers" width="1200" loading="lazy">
+<figcaption>A market order once moved title and risk with ink; a website cart is a thinner document with fewer witnesses.</figcaption>
+</figure>
+
 Write this on the inside of your catalog: a cart is not an order in the old sense.
 
 A market order, when door two was healthy, was a bet between adults.

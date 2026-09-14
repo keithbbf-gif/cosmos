@@ -13,6 +13,11 @@ topics: [frame, retail-history, channel-purpose]
 sequence_after:
 ---
 
+<figure>
+<img src="../images/hfrh-00-01-grand-rapids-furniture-factory-1924.jpg" alt="Aerial view of the Berkey and Gay furniture factory in Grand Rapids, Michigan, circa 1924, representing the industrial scale behind American casegoods and handmade furniture retail history" width="1200" loading="lazy">
+<figcaption>Grand Rapids became a furniture capital generations before online marketplaces; factory scale and showroom doors learned different languages early.</figcaption>
+</figure>
+
 I'm not going to start with a table.
 
 If I start with a table, you will look at the wood, and that is a good way to spend an afternoon and a bad way to understand a century of retail. The wood is the easy part. The hard part is the door the wood walked through to meet a person who would pay for it.

@@ -13,6 +13,11 @@ topics: [galleries, ACC, craft-fairs, wholesale]
 sequence_after: hfrh-01-05
 ---
 
+<figure>
+<img src="../images/hfrh-01-06-acc-craft-fair-booth-market.jpg" alt="Cover or title page of an official New York State Fair exhibition catalog listing crafts and goods on display" width="1200" loading="lazy">
+<figcaption>State fair catalogs turned handmade retail into a portable gallery: jury, booth fee, public buyers, and store buyers with wholesale notebooks.</figcaption>
+</figure>
+
 A fair is a gallery that you have to assemble with a screwdriver before the doors open.
 
 The American Craft Council did not invent selling under a tent. It did professionalize a circuit that American makers still use as a mental model, even when they have never applied. The Northeast fair starts in the mid-sixties — Stowe in 1966, then Mount Snow, Bennington, Rhinebeck in 1973, West Springfield later. Baltimore's Winter Market put hundreds of craftspeople in the Civic Center and told the East Coast that January could be a buying season. Those names are not nostalgia. They are infrastructure.

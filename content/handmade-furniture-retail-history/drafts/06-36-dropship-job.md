@@ -13,6 +13,11 @@ topics: [dropship, wholesale, risk, customer]
 sequence_after: hfrh-06-35
 ---
 
+<figure>
+<img src="../images/hfrh-06-36-dropship-warehouse-shelving.jpg" alt="Organized warehouse shelving with packages ready for shipment, illustrating dropship fulfillment" width="1200" loading="lazy">
+<figcaption>Dropship assigns the customer relationship to a platform while the shop keeps production — door four with door two's paperwork.</figcaption>
+</figure>
+
 I am going to describe dropship as if I were hiring you for it, because that is the only way the word gets its job back.
 
 You will keep the object until we tell you to move it.

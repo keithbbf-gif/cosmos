@@ -13,6 +13,11 @@ topics: [galleries, America House, ACC, consignment]
 sequence_after: hfrh-00-04
 ---
 
+<figure>
+<img src="../images/hfrh-01-05-aileen-osborn-webb-craft-league.jpg" alt="Historical photograph related to Aileen Osborn Webb and the American craft cooperative retail movement that opened America House in 1940" width="1200" loading="lazy">
+<figcaption>America House and the Handcraft Cooperative League gave rural makers a metropolitan gallery door — the ancestor of serious American craft retail.</figcaption>
+</figure>
+
 If you think handmade retail starts with a URL, you are starting sixty-five years late, and you are starting in the wrong city.
 
 In 1940, a group around Aileen Osborn Webb opened a shop in New York called America House. The first address was 7 East 54th Street. It was not a hobby closet. It was a cooperative retail door for affiliated craft organizations. Rural makers — the people who actually had the material and the hours — could not reach a metropolitan buyer without someone in the city willing to keep a room, keep hours, and do the talking. That is the whole problem of handmade retail in one sentence. The work is made where the quiet is. The money is often where the noise is.

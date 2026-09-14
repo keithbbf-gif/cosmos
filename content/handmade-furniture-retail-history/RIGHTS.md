@@ -1,0 +1,70 @@
+# Image rights — handmade furniture retail history
+
+All hero images for this staging set are **historical, museum, or documentary** sources. **No AI-generated images. No synthetic faces.** Files live in `images/`; drafts embed them with `<figure>`, descriptive `alt` text, and SEO `figcaption` captions.
+
+Use this file as the credit ledger for publication. When a license requires attribution, reproduce the **Credit** line on the same page as the image.
+
+| Draft ID | Local file | License | Source | Credit / artist |
+| --- | --- | --- | --- | --- |
+| `hfrh-00-01` | `hfrh-00-01-grand-rapids-furniture-factory-1924.jpg` | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Berkey_and_Gay_Furniture_Company_Factory%2C_aerial_view%2C_1924.jpg) | Grand Rapids Public Library |
+| `hfrh-00-02` | `hfrh-00-02-historic-furniture-store-interior.jpg` | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Furniture_store_interior_LCCN2011634378.tif) | Library of Congress  Catalog: http://lccn.loc.gov/2011634378 Image download: https://cdn.loc.gov/master/pnp/highsm/16100/16185a.tif Original url: http://hdl.loc.gov/loc.pnp/highsm.16185 |
+| `hfrh-00-03` | `hfrh-00-03-oak-furniture-catalog-1920.jpg` | No restrictions | [Commons](https://commons.wikimedia.org/wiki/File:A_history_of_oak_furniture_%281920%29_%2814593664349%29.jpg) | https://www.flickr.com/photos/internetarchivebookimages/14593664349/  Source book page: https://archive.org/stream/historyofoakfurn00roefuoft/historyofoakfurn00roefuoft#page/n98/mode/1up |
+| `hfrh-00-04` | `hfrh-00-04-vintage-furniture-price-list-1884.jpg` | No restrictions | [Commons](https://commons.wikimedia.org/wiki/File:Price_list_and_barbers%27_purchasing_guide_of_barbers%27_chairs%2C_furniture%2C_and_barbers%27_supplies_%281884%29_%2814597488498%29.jpg) | https://www.flickr.com/photos/internetarchivebookimages/14597488498/  Source book page: https://archive.org/stream/pricelistbarbers00koch/pricelistbarbers00koch#page/n60/mode/1up |
+| `hfrh-01-05` | `hfrh-01-05-aileen-osborn-webb-craft-league.jpg` | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Craftsman%27s_World_Aileen_Webb-42.jpg) | "The Craftsman's World: Third Annual Conference of American Craftsmen, June 19 - 21, 1959." New York: American Craftsmen's Council, 1959. https://digital.craftcouncil.org/digital/collection/p15785coll5/id/4203/rec/1  Copyright not renewed. |
+| `hfrh-01-06` | `hfrh-01-06-acc-craft-fair-booth-market.jpg` | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Craft_fair_130504-N-WF272-063.jpg) | https://www.dvidshub.net/image/1044511 |
+| `hfrh-01-07` | `hfrh-01-07-craft-gallery-showroom-interior.jpg` | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:De_Groot_showroom%2C_Rushcutters_Bay.jpg) | National Library of Australia |
+| `hfrh-01-08` | `hfrh-01-08-wharton-esherick-studio-house.jpg` | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Wharton_Esherick_House_%26_Studio%2C_1520_Horsehoe_Trail%2C_Malvern_%28Chester_County%2C_Pennsylvania%29.jpg) | http://memory.loc.gov/cgi-bin/displayPhoto.pl?path=/pnp/habshaer/pa/pa2900/pa2987/photos&amp;topImages=357904pr.jpg&amp;topLinks=357904pv.jpg,357904pu.tif&amp;title=HABS%20PA,15-MALV,1-2&amp;displayProfile=0 |
+| `hfrh-01-09` | `hfrh-01-09-wendell-castle-studio-furniture.jpg` | CC BY 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Wendell_castle%2C_tavolino_da_caff%C3%A8%2C_rochester_NY_1967.jpg) | Own work |
+| `hfrh-01-10` | `hfrh-01-10-jury-booth-market-hall.jpg` | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:06_10_016049Southern_Furniture_Exposition_Building%2C_High_Point%2C_N._C._%285811465873%29.jpg) | 06_10_016049Southern Furniture Exposition Building, High Point, N. C. |
+| `hfrh-01-11` | `hfrh-01-11-museum-of-arts-and-design-craft.jpg` | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Museum_of_Arts_and_Design_Midtown.jpg) | Own work |
+| `hfrh-01-12` | `hfrh-01-12-grand-rapids-furniture-sales-room.jpg` | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Crop_from_Berkey_%26_Gay_Furniture_Co.%27s_sales_rooms%2C_Grand_Rapids%2C_Michigan_%28NYPL_NYPG90-F390-G90F390_012B%29.jpg) | Own work |
+| `hfrh-02-13` | `hfrh-02-13-merchandise-mart-chicago-trade.png` | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Night_View_of_the_Merchandise_Mart%2C_Chicago_-_Front.png) | Digital scan of a postcard from a personal collection |
+| `hfrh-02-14` | `hfrh-02-14-merchandise-mart-design-center.jpg` | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Merchandise_Mart_080405.jpg) | Own work |
+| `hfrh-02-15` | `hfrh-02-15-to-the-trade-showroom-floor.jpg` | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Furniture_store_interior_LCCN2011634378.tif) | Library of Congress  Catalog: http://lccn.loc.gov/2011634378 Image download: https://cdn.loc.gov/master/pnp/highsm/16100/16185a.tif Original url: http://hdl.loc.gov/loc.pnp/highsm.16185 |
+| `hfrh-02-16` | `hfrh-02-16-furniture-showcase-factory-territory.jpg` | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Grand_Rapids_Showcase_Company_Factory_06.jpg) | Own work |
+| `hfrh-02-17` | `hfrh-02-17-wholesale-net-list-price-sheet.jpg` | No restrictions | [Commons](https://commons.wikimedia.org/wiki/File:Price_list_and_barbers%27_purchasing_guide_of_barbers%27_chairs%2C_furniture%2C_and_barbers%27_supplies_%281884%29_%2814781018521%29.jpg) | https://www.flickr.com/photos/internetarchivebookimages/14781018521/  Source book page: https://archive.org/stream/pricelistbarbers00koch/pricelistbarbers00koch#page/n72/mode/1up |
+| `hfrh-02-18` | `hfrh-02-18-high-point-market-showplace-sample.jpg` | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Showplace%2C_High_Point_Market%2C_North_Carolina.jpg) | Own work |
+| `hfrh-02-19` | `hfrh-02-19-trade-paper-price-trail-1884.jpg` | No restrictions | [Commons](https://commons.wikimedia.org/wiki/File:Price_list_and_barbers%27_purchasing_guide_of_barbers%27_chairs%2C_furniture%2C_and_barbers%27_supplies_%281884%29_%2814597488498%29.jpg) | https://www.flickr.com/photos/internetarchivebookimages/14597488498/  Source book page: https://archive.org/stream/pricelistbarbers00koch/pricelistbarbers00koch#page/n60/mode/1up |
+| `hfrh-02-20` | `hfrh-02-20-telephone-office-outreach-era.jpg` | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Line_Changes_Being_Made_in_the_Installation_of_the_Dial_System._Enrollees_Working_Under_Supervision_of_Telephone_Linemen_from_Billings_District_Office._-_DPLA_-_7617cfdcd7671be40c0ef4c7abf6d4c7.jpg) | This file was contributed to Wikimedia Commons by National Archives and Records Administration as part of a cooperation project. The donation was facilitated by the Digital Public Library of America, via its partner Digital Public Library of America. Record in source catalog DPLA identifier: 7617cfdcd7671be40c0ef4c7abf6d4c7 National Archives Identifier: 32204779 |
+| `hfrh-02-21` | `hfrh-02-21-furniture-delivery-truck-1911.jpg` | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Auto_Delivery_Moving_Company_%281911%29_%28ADVERT_133%29.jpeg) | Early Advertising of the West Collection |
+| `hfrh-03-22` | `hfrh-03-22-southern-furniture-exposition-high-point.jpg` | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:06_10_016049Southern_Furniture_Exposition_Building%2C_High_Point%2C_N._C._%285811465873%29.jpg) | 06_10_016049Southern Furniture Exposition Building, High Point, N. C. |
+| `hfrh-03-23` | `hfrh-03-23-wholesale-market-order-factory-scale.jpg` | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Berkey_and_Gay_Furniture_Company_Factory%2C_aerial_view%2C_1924.jpg) | Grand Rapids Public Library |
+| `hfrh-03-24` | `hfrh-03-24-furniture-tear-sheet-catalog-page.jpg` | No restrictions | [Commons](https://commons.wikimedia.org/wiki/File:A_history_of_oak_furniture_%281920%29_%2814593824658%29.jpg) | https://www.flickr.com/photos/internetarchivebookimages/14593824658/  Source book page: https://archive.org/stream/historyofoakfurn00roefuoft/historyofoakfurn00roefuoft#page/n124/mode/1up |
+| `hfrh-04-25` | `hfrh-04-25-ebay-early-marketplace-logo.svg` | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:EBay_former_logo.svg) | Transferred from en.wikipedia to Commons using CommonsHelper. |
+| `hfrh-04-26` | `hfrh-04-26-showroom-window-display-photography.jpg` | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:0252_kitchen_showroom_window_%289959104154%29.jpg) | 0252 kitchen showroom window |
+| `hfrh-04-27` | `hfrh-04-27-freight-warehouse-crates-boxes.jpg` | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:EFTA00002265_-_Cluttered_warehouse_with_stacked_boxes_a_fan_and_shelves_filled_with_supplies_under_industrial_lighting.jpg) | https://www.justice.gov/epstein/doj-disclosures |
+| `hfrh-05-28` | `hfrh-05-28-etsy-brooklyn-headquarters-2005-era.jpg` | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Etsy_Brooklyn_Headquarters_%28the_clocktower%29.jpg) | https://www.flickr.com/photos/generated/2868568752/ |
+| `hfrh-05-29` | `hfrh-05-29-handmade-craft-furniture-shaker.jpg` | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Shaker-Furniture.jpg) | Own work |
+| `hfrh-05-30` | `hfrh-05-30-handmade-furniture-authenticity-craft.jpg` | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Shaker_ladder_chairs.jpg) | Own work |
+| `hfrh-05-31` | `hfrh-05-31-craft-fair-handmade-market-booth.jpg` | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Craft_fair_130504-N-WF272-063.jpg) | https://www.dvidshub.net/image/1044511 |
+| `hfrh-05-32` | `hfrh-05-32-catalog-listing-fees-ads-era.jpg` | No restrictions | [Commons](https://commons.wikimedia.org/wiki/File:A_history_of_oak_furniture_%281920%29_%2814777817264%29.jpg) | https://www.flickr.com/photos/internetarchivebookimages/14777817264/  Source book page: https://archive.org/stream/historyofoakfurn00roefuoft/historyofoakfurn00roefuoft#page/n15/mode/1up |
+| `hfrh-05-33` | `hfrh-05-33-etsy-wholesale-showroom-catalog.jpg` | CC0 | [Commons](https://commons.wikimedia.org/wiki/File:Crop_from_Berkey_%26_Gay_Furniture_Co.%27s_sales_rooms%2C_Grand_Rapids%2C_Michigan_%28NYPL_NYPG90-F390-G90F390_012B%29.jpg) | Own work |
+| `hfrh-06-34` | `hfrh-06-34-closeout-warehouse-inventory.jpg` | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:EFTA00002281_-_Large_white_mattress_rests_on_the_floor_in_a_dimly_lit_warehouse_with_shelves_stacked_high_with_boxes_and_supplies.jpg) | https://www.justice.gov/epstein/doj-disclosures |
+| `hfrh-06-35` | `hfrh-06-35-ecommerce-catalog-hub-chicago.jpg` | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Merchandise_Mart%2C_Chicago%2C_Illinois_%289181646666%29.jpg) | Merchandise Mart, Chicago, Illinois |
+| `hfrh-06-36` | `hfrh-06-36-dropship-warehouse-shelving.jpg` | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Warehouse_interior_showcasing_organized_shelving_and_packages.jpg) | Own work |
+| `hfrh-06-37` | `hfrh-06-37-high-point-market-recruitment-floor.jpg` | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:Showplace%2C_High_Point_Market%2C_North_Carolina.jpg) | Own work |
+| `hfrh-06-38` | `hfrh-06-38-sku-flood-warehouse-shelves.jpg` | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Shelves_stocked_with_boxes_and_carts_in_a_spacious_warehouse_environment_during_daylight_hours.jpg) | Own work |
+| `hfrh-06-39` | `hfrh-06-39-map-private-label-made-in-usa.jpg` | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Made_in_USA_label_01.jpg) | Own work |
+| `hfrh-06-40` | `hfrh-06-40-returns-warehouse-logistics.jpg` | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:EFTA00002265_-_Cluttered_warehouse_with_stacked_boxes_a_fan_and_shelves_filled_with_supplies_under_industrial_lighting.jpg) | https://www.justice.gov/epstein/doj-disclosures |
+| `hfrh-06-41` | `hfrh-06-41-empty-showroom-walking-away.jpg` | Public domain | [Commons](https://commons.wikimedia.org/wiki/File:De_Groot_showroom%2C_Rushcutters_Bay.jpg) | National Library of Australia |
+| `hfrh-07-42` | `hfrh-07-42-four-prices-furniture-tags.jpg` | No restrictions | [Commons](https://commons.wikimedia.org/wiki/File:Price_list_and_barbers%27_purchasing_guide_of_barbers%27_chairs%2C_furniture%2C_and_barbers%27_supplies_%281884%29_%2814781776084%29.jpg) | https://www.flickr.com/photos/internetarchivebookimages/14781776084/  Source book page: https://archive.org/stream/pricelistbarbers00koch/pricelistbarbers00koch#page/n59/mode/1up |
+| `hfrh-07-43` | `hfrh-07-43-american-made-label-retail.jpg` | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Made_in_USA_label_02.jpg) | Own work |
+| `hfrh-07-44` | `hfrh-07-44-handmade-furniture-shop-tradition.jpg` | CC BY-SA 3.0 | [Commons](https://commons.wikimedia.org/wiki/File:Berkey_and_Gay_Furniture_Company_Factory_-1.jpg) | Own work |
+
+## License notes
+
+- **Public domain** and **CC0** files may be used without permission; credit is still good practice for museum and library scans.
+- **CC BY**, **CC BY-SA**, and similar Creative Commons licenses require **attribution** and may require **ShareAlike** when adapting. Read the linked Commons file page before crop or remix.
+- **No restrictions** (Flickr Commons / institution marks) still have institutional terms; follow the Commons file page.
+- Trademarks (e.g. historic eBay logo) are used here for **editorial education** about retail history, not as endorsement.
+
+## Verification
+
+```bash
+python3 content/handmade-furniture-retail-history/scripts/fetch_images.py
+python3 content/handmade-furniture-retail-history/scripts/embed_figures.py
+python3 content/handmade-furniture-retail-history/validate_staging.py
+python3 content/handmade-furniture-retail-history/validate_images.py
+```
+
+Re-fetch only when swapping a Commons file in `scripts/fetch_images.py`.

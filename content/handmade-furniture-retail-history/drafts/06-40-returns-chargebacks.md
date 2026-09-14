@@ -13,6 +13,11 @@ topics: [returns, chargebacks, freight, dropship]
 sequence_after: hfrh-06-39
 ---
 
+<figure>
+<img src="../images/hfrh-06-40-returns-warehouse-logistics.jpg" alt="Industrial warehouse with stacked product boxes, suggesting returns processing and reverse logistics load" width="1200" loading="lazy">
+<figcaption>Returns and chargebacks push risk back to the maker while the platform keeps the customer — consignment without the wall.</figcaption>
+</figure>
+
 A return policy is a feeling. A returned table is a project.
 
 I want to separate those so we can talk like adults.

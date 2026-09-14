@@ -13,6 +13,11 @@ topics: [galleries, studio-furniture, Nakashima, Maloof, Castle]
 sequence_after: hfrh-01-07
 ---
 
+<figure>
+<img src="../images/hfrh-01-08-wharton-esherick-studio-house.jpg" alt="Wharton Esherick House and Studio in Pennsylvania, a landmark of studio furniture treated as art" width="1200" loading="lazy">
+<figcaption>Studio furniture climbed toward art in rooms like Wharton Esherick's — handmade tables and chairs with a museum shadow still meant for living.</figcaption>
+</figure>
+
 There is a fork in handmade furniture that a lot of websites flatten, and I need you to see it or the rest of the history will feel like snobbery.
 
 One path is the useful beautiful object. You sit. You eat. You put socks in the drawer. The making is serious. The destiny is a house.

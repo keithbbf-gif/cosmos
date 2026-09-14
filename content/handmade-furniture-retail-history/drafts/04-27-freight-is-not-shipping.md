@@ -13,6 +13,11 @@ topics: [early-web, freight, delivery, returns]
 sequence_after: hfrh-04-26
 ---
 
+<figure>
+<img src="../images/hfrh-04-27-freight-warehouse-crates-boxes.jpg" alt="Warehouse interior with stacked boxes and shelving, illustrating freight and fulfillment separate from small-parcel shipping" width="1200" loading="lazy">
+<figcaption>Freight is not shipping: crates, blankets, and lift gates — the vocabulary platforms blur when they promise free delivery.</figcaption>
+</figure>
+
 A book ships. A table is moved.
 
 If you take nothing else from the early-web stage, take that.

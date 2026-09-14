@@ -13,6 +13,11 @@ topics: [frame, consignment, wholesale, trade, dropship]
 sequence_after: hfrh-00-02
 ---
 
+<figure>
+<img src="../images/hfrh-00-03-oak-furniture-catalog-1920.jpg" alt="Page from a 1920 illustrated history of oak furniture showing catalog engravings of handmade and manufactured pieces" width="1200" loading="lazy">
+<figcaption>Oak furniture catalog plates from 1920: four doors — consignment, wholesale, to-the-trade, dropship — all eventually fight over the same stolen words.</figcaption>
+</figure>
+
 Before the history, I want four doors in your head. If you keep these straight, the rest of the series will click. If you do not, every episode will sound like I am complaining about the internet.
 
 Door one. Consignment.

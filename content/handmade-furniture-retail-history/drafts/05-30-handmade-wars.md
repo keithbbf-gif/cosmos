@@ -13,6 +13,11 @@ topics: [etsy, handmade, 2013, policy]
 sequence_after: hfrh-05-29
 ---
 
+<figure>
+<img src="../images/hfrh-05-30-handmade-furniture-authenticity-craft.jpg" alt="Shaker ladder-back chairs exemplifying authentic handmade furniture construction" width="1200" loading="lazy">
+<figcaption>Handmade wars were fights over definitions — who made it, who designed it, and whether the platform would enforce the word.</figcaption>
+</figure>
+
 October 2013. Etsy told a million sellers, on a webcast, that the rules were changing.
 
 You could hire people who did not live in your house.

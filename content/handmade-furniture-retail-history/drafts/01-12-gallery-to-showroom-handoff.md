@@ -13,6 +13,11 @@ topics: [galleries, showrooms, handoff, designers]
 sequence_after: hfrh-01-11
 ---
 
+<figure>
+<img src="../images/hfrh-01-12-grand-rapids-furniture-sales-room.jpg" alt="Berkey and Gay Furniture Company sales room in Grand Rapids, Michigan, a wholesale showroom floor" width="1200" loading="lazy">
+<figcaption>The handoff from gallery wall to trade showroom: casegoods lines on a sample floor, net pricing, and buyers who already speak wholesale.</figcaption>
+</figure>
+
 This is the hinge inside the hinge.
 
 By the time a shop like ours is making dining tables for houses that have architects, the gallery door starts to feel like a beautiful hallway to the wrong building.

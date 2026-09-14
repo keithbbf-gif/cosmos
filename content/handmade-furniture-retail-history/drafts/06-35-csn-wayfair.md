@@ -13,6 +13,11 @@ topics: [wayfair, CSN, dropship, 2002]
 sequence_after: hfrh-06-34
 ---
 
+<figure>
+<img src="../images/hfrh-06-35-ecommerce-catalog-hub-chicago.jpg" alt="Merchandise Mart interior corridor in Chicago, a hub where catalog companies met physical trade infrastructure" width="1200" loading="lazy">
+<figcaption>CSN Stores grew from niche sites into Wayfair — supplier-direct dropship catalogs assembled in the same trade cities as showrooms.</figcaption>
+</figure>
+
 August 29, 2002. RacksAndStands.com. Television stands and speaker stands. Orders the same day.
 
 That is not a cute founder story for our purposes. That is a thesis: if you pick a narrow noun and a photograph and a supplier who will ship, you can take money before you own a warehouse of stands. Niraj Shah and Steve Conine built a forest of those nouns. AllBarstools. Bedroomfurniture. Hundreds of sites, the S-1 later said, bootstrapped through 2011, hundreds of millions in revenue before they decided the forest was a problem.

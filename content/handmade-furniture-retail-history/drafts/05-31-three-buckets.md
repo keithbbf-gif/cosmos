@@ -13,6 +13,11 @@ topics: [etsy, vintage, supplies, handmade]
 sequence_after: hfrh-05-30
 ---
 
+<figure>
+<img src="../images/hfrh-05-31-craft-fair-handmade-market-booth.jpg" alt="Outdoor craft fair booths displaying handmade goods without a permanent gallery lease" width="1200" loading="lazy">
+<figcaption>Three buckets on one storefront — handmade, vintage, supplies — one URL hiding different contracts behind a single search bar.</figcaption>
+</figure>
+
 Etsy's clean public sentence, the one in the filings, was that goods should be handmade, vintage, or craft supplies.
 
 Three buckets. One search bar. That is a hard architecture.

@@ -13,6 +13,11 @@ topics: [etsy, wholesale, retailers]
 sequence_after: hfrh-05-32
 ---
 
+<figure>
+<img src="../images/hfrh-05-33-etsy-wholesale-showroom-catalog.jpg" alt="Wholesale furniture catalog promising goods for home, office, and hotel trade buyers" width="1200" loading="lazy">
+<figcaption>Etsy Wholesale tried to connect growing handmade sellers to brick retailers — gallery consignment logic at spreadsheet scale.</figcaption>
+</figure>
+
 There was a moment, in the mid-2010s, when Etsy tried to build door two on purpose.
 
 Etsy Wholesale. The idea was clean enough to be attractive: a seller who had outgrown the cart could meet a store that wanted a line. Not a dropship portal dressed as a partner. A retailer. A buyer with a shop. The old ACC wholesale aisle, software.

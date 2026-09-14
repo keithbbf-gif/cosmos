@@ -13,6 +13,11 @@ topics: [showrooms, samples, custom]
 sequence_after: hfrh-02-17
 ---
 
+<figure>
+<img src="../images/hfrh-02-18-high-point-market-showplace-sample.jpg" alt="Showplace building at High Point Market, North Carolina, a trade destination for furniture buyers" width="1200" loading="lazy">
+<figcaption>Sample floors at market and in design centers let buyers compare handmade lines beside casegoods under one roof.</figcaption>
+</figure>
+
 There is a table in a city I am not standing in.
 
 Somebody is putting a hand on it right now, or nobody is, and it is doing its job either way. It is a sample. We made it. We shipped it. We hope they have not parked a coffee on it. It may never go to a house. It exists so a different table can go to a house without being a rumor.

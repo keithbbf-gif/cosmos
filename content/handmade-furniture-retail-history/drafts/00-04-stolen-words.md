@@ -13,6 +13,11 @@ topics: [frame, language, handmade, custom, wholesale]
 sequence_after: hfrh-00-03
 ---
 
+<figure>
+<img src="../images/hfrh-00-04-vintage-furniture-price-list-1884.jpg" alt="Victorian-era printed price list for barber chairs and furniture illustrating how retail vocabulary and list prices were published" width="1200" loading="lazy">
+<figcaption>Printed price lists trained buyers to treat list price as fiction; handmade, custom, wholesale, and artisan drifted when the paper stopped matching the shop.</figcaption>
+</figure>
+
 I need to take four words to the bench and mill them flat. If we do not, the history will sound like taste, and it is not taste. It is vocabulary doing cover work.
 
 Handmade.

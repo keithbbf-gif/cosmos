@@ -13,6 +13,11 @@ topics: [showrooms, D&D, design-centers]
 sequence_after: hfrh-02-13
 ---
 
+<figure>
+<img src="../images/hfrh-02-14-merchandise-mart-design-center.jpg" alt="Exterior of the Merchandise Mart, Chicago, a major design center for furniture and interiors professionals" width="1200" loading="lazy">
+<figcaption>Design centers from Chicago to New York are not malls and not High Point Market — they are permanent cities for the trade.</figcaption>
+</figure>
+
 979 Third Avenue. The Decoration and Design Building. People in the trade just say the D&D.
 
 It has been the type specimen since 1965. Eighteen floors, more than a hundred showrooms, thousands of lines if you believe the building's own counting. Fabric, furniture, lighting, carpet, the things a room is made of when money is serious. Albert Hadley called it the center of their lives, and whether or not you like Hadley, that sentence tells you the building's job. It is where the profession goes to work.

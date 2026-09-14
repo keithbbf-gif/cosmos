@@ -13,6 +13,11 @@ topics: [galleries, juries, craft-fairs, selection]
 sequence_after: hfrh-01-09
 ---
 
+<figure>
+<img src="../images/hfrh-01-10-jury-booth-market-hall.jpg" alt="Historic Jamestown furniture exposition catalog promising authentic photographs of booths and exhibits" width="1200" loading="lazy">
+<figcaption>Jury, booth rent, and a hall full of competitors: craft fair economics mirror gallery consignment with worse weather and better foot traffic.</figcaption>
+</figure>
+
 I want to say something kind about rejection, and I do not want it to sound like a poster.
 
 When a fair jury or a gallery says no, they have done you a favor if the room was never going to be able to sell you. They have done you a harm if the no is fashion dressed up as quality. You will not always know which one you got. That uncertainty is the job.

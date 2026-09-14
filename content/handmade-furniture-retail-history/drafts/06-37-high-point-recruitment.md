@@ -13,6 +13,11 @@ topics: [wayfair, High Point, catalogs, suppliers]
 sequence_after: hfrh-06-36
 ---
 
+<figure>
+<img src="../images/hfrh-06-37-high-point-market-recruitment-floor.jpg" alt="Showplace at High Point Market where platform buyers recruited family shops for online catalogs" width="1200" loading="lazy">
+<figcaption>Recruiters with badges walked High Point halls asking small shops for SKUs — wholesale geography repurposed for catalog flood.</figcaption>
+</figure>
+
 Picture a family casegoods line that has been going to High Point since before the people in the booth were born.
 
 They know how to talk to a store. They know a cutoff date. They know a finish list. They have a binder. They have a dock. They are door two in their sleep.

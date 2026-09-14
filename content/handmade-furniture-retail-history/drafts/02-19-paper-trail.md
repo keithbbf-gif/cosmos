@@ -13,6 +13,11 @@ topics: [showrooms, paperwork, commissions]
 sequence_after: hfrh-02-18
 ---
 
+<figure>
+<img src="../images/hfrh-02-19-trade-paper-price-trail-1884.jpg" alt="1916 spring trade list catalog cover aimed at florists and dealers, an example of paper wholesale trails" width="1200" loading="lazy">
+<figcaption>The paper trail — tear sheets, line sheets, signed acknowledgments — once carried more legal weight than a shopping cart.</figcaption>
+</figure>
+
 I am still a pen-and-paper person. The company is not. Both of those sentences are true, and the second one saved us from becoming a myth.
 
 A custom table has too many names.

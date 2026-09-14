@@ -13,6 +13,11 @@ topics: [frame, shop, showrooms, voice]
 sequence_after: hfrh-00-01
 ---
 
+<figure>
+<img src="../images/hfrh-00-02-historic-furniture-store-interior.jpg" alt="Historic photograph of an American furniture store interior with displayed casegoods and seating" width="1200" loading="lazy">
+<figcaption>A furniture store interior from the photographic record — not a gallery, not a website — a room where buyers learned to read display as promise.</figcaption>
+</figure>
+
 I should tell you who is talking, because the internet has a habit of putting a face on a script and calling it a maker.
 
 My name is on the door. Keith Fritz Fine Furniture. We started in 1999. The first shop was a storefront on Capitol Hill in Washington. I lived above it. I still live above the shop. The building is different. It is a nineteenth-century factory in Ferdinand, Indiana, about thirty-three thousand square feet, and the wood comes in the back and the finished work leaves the front on our own trucks. We make on the order of several hundred pieces a year. That number matters. It means we are not a factory that can eat a weekend of returns. It means we are not a one-man Instagram. It means every bad door we walk through costs a real bench.

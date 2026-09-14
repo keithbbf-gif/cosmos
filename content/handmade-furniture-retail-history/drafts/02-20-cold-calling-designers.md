@@ -13,6 +13,11 @@ topics: [showrooms, cold-calls, DC, origin]
 sequence_after: hfrh-02-19
 ---
 
+<figure>
+<img src="../images/hfrh-02-20-telephone-office-outreach-era.jpg" alt="Historic photograph of telephone line installation, evoking the era of cold-calling designers from a shop desk" width="1200" loading="lazy">
+<figcaption>Cold-calling designers was door-to-door work with a dial tone: persistence, samples, and a finish story that survived hang-ups.</figcaption>
+</figure>
+
 I opened a woodshop in Washington. Storefront. Apartment above it. A few other people. A phone.
 
 The phone is the part the photographs leave out.

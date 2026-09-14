@@ -13,6 +13,11 @@ topics: [pricing, doors, showrooms, platforms]
 sequence_after: hfrh-06-41
 ---
 
+<figure>
+<img src="../images/hfrh-07-42-four-prices-furniture-tags.jpg" alt="Victorian furniture and barber-chair price list page showing multiple published price columns" width="1200" loading="lazy">
+<figcaption>Four prices for one handmade piece — gallery, designer net, showroom, and your floor — each honest only if calculated on purpose.</figcaption>
+</figure>
+
 Take a table. Walnut. A length. A base. A leaf story. Hold it in your mind as if it were one object.
 
 Now put it through four doors. The number will move. The object may not.

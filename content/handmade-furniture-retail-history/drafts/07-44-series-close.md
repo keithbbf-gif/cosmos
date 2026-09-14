@@ -13,6 +13,11 @@ topics: [frame, channel-purpose, close]
 sequence_after: hfrh-07-43
 ---
 
+<figure>
+<img src="../images/hfrh-07-44-handmade-furniture-shop-tradition.jpg" alt="Berkey and Gay furniture factory complex, closing image tying factory, showroom, and handmade tradition" width="1200" loading="lazy">
+<figcaption>The series closes where it opened: shops, markets, and platforms change; handmade furniture still lives between price, proof, and delivery.</figcaption>
+</figure>
+
 I said at the beginning I would not start with a table. I will end with a house.
 
 A house, in the way I mean it, is a shop that is still working while the weather changes. Galleries thinned in some towns and thickened in others. Showrooms still stand. Markets still open in April. Etsy still uses a word it had to redefine. Overstock and Wayfair still know how to be a storefront on other people's docks, even as their own mixes change. A shop that evacuates itself every time the weather shifts is not a shop. It is a mood.

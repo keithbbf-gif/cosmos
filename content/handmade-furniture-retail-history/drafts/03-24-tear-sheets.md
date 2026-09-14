@@ -13,6 +13,11 @@ topics: [markets, catalogs, photography, tear-sheets]
 sequence_after: hfrh-03-23
 ---
 
+<figure>
+<img src="../images/hfrh-03-24-furniture-tear-sheet-catalog-page.jpg" alt="Illustrated catalog page from a 1920 history of oak furniture used as a tear sheet for buyers" width="1200" loading="lazy">
+<figcaption>Tear sheets were portable memory — finish codes, dimensions, and the line rep's handwriting between market and showroom.</figcaption>
+</figure>
+
 Before there was a product page, there was a page.
 
 A catalog. A binder. A tear sheet — a single page a salesperson could pull and leave on a designer's desk like a calling card. Front: a picture. Back: sizes, woods, a finish list, a note that said "see shop for custom." That page is the ancestor of every furniture website, and I want the ancestor to get credit so the websites stop acting like they invented looking.

@@ -13,6 +13,11 @@ topics: [showrooms, to-the-trade, designers]
 sequence_after: hfrh-01-12
 ---
 
+<figure>
+<img src="../images/hfrh-02-13-merchandise-mart-chicago-trade.png" alt="Night view of the Merchandise Mart in Chicago, a landmark to-the-trade design and furniture center" width="1200" loading="lazy">
+<figcaption>To-the-trade showrooms: browse and buy are different acts. The Merchandise Mart is the scale model of door two for Midwest designers.</figcaption>
+</figure>
+
 "To the trade" is a phrase that makes ordinary people feel insulted, and I understand why. It sounds like a club. Sometimes it behaves like a club. The educational version is drier, and more useful.
 
 To the trade means the account is a working designer or architect. The showroom's paperwork, pricing, samples, and apology calls are built for that person. You, the homeowner, may walk the hall. In many buildings you may walk into the room. You will usually not be the name on the order. The restriction is on buying, not on looking. People get that backward and then write a paragraph about elitism. Looking is allowed more often than the myth says. Buying is the professional act.

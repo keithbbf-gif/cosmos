@@ -13,6 +13,11 @@ topics: [galleries, buyers, education, looking]
 sequence_after: hfrh-01-10
 ---
 
+<figure>
+<img src="../images/hfrh-01-11-museum-of-arts-and-design-craft.jpg" alt="Museum of Arts and Design building in Midtown Manhattan, successor institution to the craft teaching impulse behind America House" width="1200" loading="lazy">
+<figcaption>What galleries taught — editing, patience, price as a taught decision — still lives in institutions that curate handmade furniture as culture.</figcaption>
+</figure>
+
 I keep saying education like a schoolteacher. I mean something more physical than a lecture.
 
 A good gallery taught a buyer how to look at an object in time.

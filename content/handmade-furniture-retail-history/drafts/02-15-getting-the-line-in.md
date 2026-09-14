@@ -13,6 +13,11 @@ topics: [showrooms, representation, lead-times]
 sequence_after: hfrh-02-14
 ---
 
+<figure>
+<img src="../images/hfrh-02-15-to-the-trade-showroom-floor.jpg" alt="Historic furniture store interior showing arranged seating and casegoods on a showroom floor" width="1200" loading="lazy">
+<figcaption>Getting the line in means earning square feet on a sample floor where a designer can touch finishes, not just scroll photographs.</figcaption>
+</figure>
+
 People imagine a showroom door opening because the work is beautiful.
 
 Sometimes. Beauty is the cover charge. The room is deciding whether you are a reliable adult.

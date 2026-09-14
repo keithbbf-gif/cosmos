@@ -13,6 +13,11 @@ topics: [etsy, ads, fees, discovery]
 sequence_after: hfrh-05-31
 ---
 
+<figure>
+<img src="../images/hfrh-05-32-catalog-listing-fees-ads-era.jpg" alt="1920 oak furniture catalog plate showing how listings and illustrated ads presented casegoods to buyers" width="1200" loading="lazy">
+<figcaption>Fees and promoted listings turned craft retail into media buying; the split still looked like a gallery cut without the gallerist.</figcaption>
+</figure>
+
 A twenty-cent listing is a booth fee I will respect.
 
 It is legible. It is small. It says: you may stand in the room. Whether anyone walks to you is a different question, and in the early years that question was answered by search, by hearts, by the odd editorial feature, by luck. Luck is unfair and cheap.

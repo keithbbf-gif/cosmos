@@ -13,6 +13,11 @@ topics: [early-web, eBay, Yahoo, storefronts]
 sequence_after: hfrh-03-24
 ---
 
+<figure>
+<img src="../images/hfrh-04-25-ebay-early-marketplace-logo.svg" alt="Early eBay logo from the marketplace's first web era, representing auction-era online furniture retail experiments" width="1200" loading="lazy">
+<figcaption>Before Etsy, auction sites and Yahoo storefronts taught makers that photography and freight were half the product.</figcaption>
+</figure>
+
 The internet did not arrive as Wayfair. It arrived as a messy row of doors that looked like classifieds.
 
 eBay taught America that a stranger would send money for an object they had not held. That is a civilizational change. It is also a change that works better for a coin than for a sideboard. The auction format trained price as sport. Sport is a bad mood for a dining table. You do not want the person who "won" you. You want the person who understood you.

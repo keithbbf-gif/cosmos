@@ -13,6 +13,11 @@ topics: [showrooms, delivery, freight, service]
 sequence_after: hfrh-02-20
 ---
 
+<figure>
+<img src="../images/hfrh-02-21-furniture-delivery-truck-1911.jpg" alt="1911 advertisement for an auto delivery moving company, illustrating furniture delivery by truck" width="1200" loading="lazy">
+<figcaption>Own trucks mean the shop keeps the last mile — handmade furniture retail trust is often won or lost on the front step.</figcaption>
+</figure>
+
 A table is not finished when it leaves the finishing room.
 
 It is finished when it is sitting in the house at the height we promised, with the leaves in the place we promised, and nobody's doorway has a new scar. Everything between those two sentences is a chance to undo the year.

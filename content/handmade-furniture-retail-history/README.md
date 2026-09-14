@@ -54,8 +54,28 @@ This landing is **44 staged drafts**, about 31,000 spoken words. Machine index: 
 - Not legal advice, pricing advice, or a wholesale how-to.
 - Not COSMOS kernel work. This folder is channel copy sitting in the repo so the drafts have a git home and a PR.
 
+## Images and SEO captions
+
+Each draft includes one **historical hero image** (public domain, Creative Commons, or museum scan — **no AI art**) embedded as:
+
+```html
+<figure>
+<img src="../images/…" alt="…" width="1200" loading="lazy">
+<figcaption>…</figcaption>
+</figure>
+```
+
+`alt` and `figcaption` carry natural search phrases (handmade furniture, High Point Market, gallery consignment, etc.) for web republication. Credits and licenses: **`RIGHTS.md`**. Binaries: **`images/`**. To refresh assets:
+
+```bash
+python3 content/handmade-furniture-retail-history/scripts/fetch_images.py
+python3 content/handmade-furniture-retail-history/scripts/embed_figures.py
+python3 content/handmade-furniture-retail-history/scripts/generate_rights.py
+```
+
 ## Check the set
 
 ```bash
 python3 content/handmade-furniture-retail-history/validate_staging.py
+python3 content/handmade-furniture-retail-history/validate_images.py
 ```

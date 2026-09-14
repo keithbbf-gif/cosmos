@@ -13,6 +13,11 @@ topics: [showrooms, territory, exclusivity]
 sequence_after: hfrh-02-15
 ---
 
+<figure>
+<img src="../images/hfrh-02-16-furniture-showcase-factory-territory.jpg" alt="Grand Rapids Showcase Company factory exterior, representing regional furniture manufacturing and territory" width="1200" loading="lazy">
+<figcaption>Territory and exclusivity were map problems before they were portal checkboxes — factories and showrooms shared zip codes and reps.</figcaption>
+</figure>
+
 If two rooms in the same city sell the same table, they will eventually hate each other, and they will be right.
 
 A showroom spends money to make your name feel inevitable. They train staff. They put your sample in the light. They take a designer to lunch and say, this is the one. If the designer can walk down the hall and buy the same name from a rival who did none of that work, the first room will stop doing the work. That is not pettiness. That is arithmetic.

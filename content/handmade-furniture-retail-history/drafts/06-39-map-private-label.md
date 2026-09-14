@@ -13,6 +13,11 @@ topics: [MAP, private-label, branding, showrooms]
 sequence_after: hfrh-06-38
 ---
 
+<figure>
+<img src="../images/hfrh-06-39-map-private-label-made-in-usa.jpg" alt="Made in USA retail label sewn into goods, relevant to MAP policies and private-label listings" width="1200" loading="lazy">
+<figcaption>MAP fights and private-label listings traded on country-of-origin language — American made as marketing before audit.</figcaption>
+</figure>
+
 A name is a tool.
 
 On a showroom floor, our name is how a designer finds the cousin of a sample they sat at last year. The name is a memory device. It is also a promise: this building, these people, this truck.
