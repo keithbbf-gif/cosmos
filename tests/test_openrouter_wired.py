@@ -79,6 +79,17 @@ def main() -> int:
                   paths, _Reg(), row, live=True, ttl_s=P.NODE_PROOF_TTL_S)
               is False)
 
+        live_fn = getattr(P, "_openrouter_live_call", None)
+        check("_openrouter_live_call exists on the prober (the prove-shaped path)",
+              lambda: callable(live_fn))
+        # No key file, no env. The rail returns typed 401 — never a vendor GET.
+        rec = live_fn(paths) if callable(live_fn) else {
+            "ok": None, "detail": "ABSENT: no _openrouter_live_call"}
+        check("missing key is not a green proof (NO_KEY, empty model+body)",
+              lambda: rec.get("ok") is False
+              and not rec.get("model")
+              and not rec.get("body"))
+
         paths.config(OR.KEY_NAME).write_text(
             "PLACEHOLDER-NOT-A-KEY\n", encoding="utf-8")
         check("openrouter_api_key.txt existing (unread) configures the satellite",
@@ -103,19 +114,8 @@ def main() -> int:
               lambda: all(r.get("verified") is not True
                           for r in k.registry.matrix()
                           if r.get("link_id") == "openrouter-api"))
-
-        live_fn = getattr(P, "_openrouter_live_call", None)
-        check("_openrouter_live_call exists on the prober (the prove-shaped path)",
-              lambda: callable(live_fn))
-        rec = live_fn(paths) if callable(live_fn) else {
-            "ok": None, "detail": "ABSENT: no _openrouter_live_call"}
-        dumped = json.dumps(rec)
-        check("missing/invalid key is not a green proof",
-              lambda: rec.get("ok") is False
-              and not rec.get("model")
-              and not rec.get("body"))
         check("_openrouter_live_call never puts key material in the proof record",
-              lambda: "PLACEHOLDER-NOT-A-KEY" not in dumped)
+              lambda: "PLACEHOLDER-NOT-A-KEY" not in json.dumps(rec))
 
         real = OR.OpenRouterRail
 
