@@ -6,6 +6,7 @@ status: staged
 stage: ship
 lane: buyfigs
 voice: human
+voice_check: edited
 cluster: ship
 topics: [transit, cuttings, pots, shipping]
 author: Jack Chambers

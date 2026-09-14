@@ -6,6 +6,7 @@ status: staged
 stage: take
 lane: buyfigs
 voice: human
+voice_check: edited
 cluster: harvest
 topics: [dormant, timing, lignified, season]
 author: Jack Chambers
@@ -17,7 +18,7 @@ about a tree. The thing in the bag is a stick that either went to sleep
 or did not.
 
 Dormant, here, is not a calendar page. It is sap down and leaves gone.
-Jack already wrote the test on FigRoots: a new cut should not milk, and
+I already wrote the test on FigRoots: a new cut should not milk, and
 the bag should not be painted with dried sap. Lignified is the other
 half — brown, gray, blackish bark, not a green herbaceous wand. You can
 have lignified wood that is still moving. You can have a green stick

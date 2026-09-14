@@ -6,6 +6,7 @@ status: staged
 stage: take
 lane: buyfigs
 voice: human
+voice_check: edited
 cluster: harvest
 topics: [mother-block, identity, true-to-type, maps]
 author: PapaFig

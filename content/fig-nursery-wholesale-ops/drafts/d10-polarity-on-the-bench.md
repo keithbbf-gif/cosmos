@@ -6,6 +6,7 @@ status: staged
 stage: take
 lane: buyfigs
 voice: human
+voice_check: edited
 cluster: harvest
 topics: [polarity, basal, pack, labeling]
 author: Jack Chambers
@@ -38,7 +39,7 @@ junk or a piece of two-year wood that forgot how to be obvious.
 I do not put mysterious sticks in a wholesale band. I put them
 in my own cup, marked “which way?” and I learn.
 
-Jack’s read-a-cutting draft on FigRoots is the receiver’s version
+My read-a-cutting draft on FigRoots is the receiver’s version
 of this. This is the sender’s version. If I mark polarity here,
 they do not have to guess in a garage in Michigan with a kid
 asking when dinner is. That is not extra service. That is the

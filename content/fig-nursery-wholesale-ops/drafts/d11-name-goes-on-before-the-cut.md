@@ -6,6 +6,7 @@ status: staged
 stage: mark
 lane: buyfigs
 voice: human
+voice_check: edited
 cluster: label
 topics: [labeling, identity, mother-block]
 author: Jack Chambers
@@ -39,7 +40,7 @@ If I am cutting two plants of the same variety, they can share a
 tote. If I am cutting two plants I *believe* are the same, they
 get two totes until the fruit agrees. Belief is not a merger.
 
-Jack’s FigRoots labeling instinct is three times — cutting, pot,
+My FigRoots labeling habit is three times — cutting, pot,
 and the one you will still read in July. This folder starts one
 step earlier: the tote that carries the wood from the plant to
 the bench. That tote card is the fourth label people skip. Skip

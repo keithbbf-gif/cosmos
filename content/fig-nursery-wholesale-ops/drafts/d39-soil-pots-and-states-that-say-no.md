@@ -6,6 +6,7 @@ status: staged
 stage: ship
 lane: buyfigs
 voice: human
+voice_check: edited
 cluster: compliance
 topics: [soil, states, quarantine, shipping]
 author: PapaFig

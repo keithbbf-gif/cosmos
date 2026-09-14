@@ -6,6 +6,7 @@ status: staged
 stage: mark
 lane: buyfigs
 voice: human
+voice_check: edited
 cluster: label
 topics: [unknown, identity, honesty, wholesale]
 author: PapaFig

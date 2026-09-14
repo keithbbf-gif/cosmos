@@ -6,6 +6,7 @@ status: staged
 stage: ship
 lane: buyfigs
 voice: human
+voice_check: edited
 cluster: compliance
 topics: [phytosanitary, compliance, shipping, inspector]
 author: PapaFig

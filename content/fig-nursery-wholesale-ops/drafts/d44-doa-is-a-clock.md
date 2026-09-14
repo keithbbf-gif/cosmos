@@ -6,6 +6,7 @@ status: staged
 stage: land
 lane: buyfigs
 voice: human
+voice_check: edited
 cluster: receive
 topics: [doa, claims, photo, shipping]
 author: Jack Chambers
@@ -35,7 +36,7 @@ I do not refund a style. If you wanted longer wood,
 that is a grade conversation before ship, not a DOA.
 
 If you stuck the wood and then it failed, we are in
-rooting-failure country. Jack already wrote that for
+rooting-failure country. I already wrote that for
 growers on FigRoots. This lane will still listen if
 the wood looked wrong *before* the cup. After the cup,
 we are sharing a problem. Sharing is not the same as

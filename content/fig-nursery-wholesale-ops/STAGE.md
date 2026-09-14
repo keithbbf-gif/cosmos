@@ -7,6 +7,7 @@ status: staged
 stage: take | mark | pack | hold | ship | land
 lane: buyfigs
 voice: human
+voice_check: edited   # set by editor pass; writer drafts ship as voice: human until edited
 cluster: harvest | label | pack | dormant | ship | receive | compliance
 ```
 

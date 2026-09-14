@@ -6,6 +6,7 @@ status: staged
 stage: take
 lane: buyfigs
 voice: human
+voice_check: edited
 cluster: harvest
 topics: [inventory, cooler, dormant, cut-to-order]
 author: Jack Chambers

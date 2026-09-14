@@ -6,6 +6,7 @@ status: staged
 stage: land
 lane: buyfigs
 voice: human
+voice_check: edited
 cluster: receive
 topics: [receiving, photo, packing-slip, wholesale]
 author: Jack Chambers

@@ -6,6 +6,7 @@ status: staged
 stage: land
 lane: buyfigs
 voice: human
+voice_check: edited
 cluster: receive
 topics: [calendar, dormant, shipping, season]
 author: Jack Chambers
@@ -47,7 +48,7 @@ fruit so next December has a factory.
 I will not run a “year-round cutting shop” as a
 personality. Year-round is how you mail salads and
 call them lumber. There is summer work: pots, liners,
-the proof row. There is not a honest dormant wholesale
+the proof row. There is not an honest dormant wholesale
 in July in 8a.
 
 Keith hangs the stage list under the calendar: take,

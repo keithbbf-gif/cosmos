@@ -6,6 +6,7 @@ status: staged
 stage: pack
 lane: buyfigs
 voice: human
+voice_check: edited
 cluster: pack
 topics: [packing, wholesale, retail, grade]
 author: Jack Chambers

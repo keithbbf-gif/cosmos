@@ -6,6 +6,7 @@ status: staged
 stage: hold
 lane: buyfigs
 voice: human
+voice_check: edited
 cluster: dormant
 topics: [cooler, temperature, dormant, storage]
 author: Jack Chambers

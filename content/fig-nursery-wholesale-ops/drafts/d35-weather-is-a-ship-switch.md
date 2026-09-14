@@ -6,6 +6,7 @@ status: staged
 stage: ship
 lane: buyfigs
 voice: human
+voice_check: edited
 cluster: ship
 topics: [shipping, weather, no-ship, forecast]
 author: Jack Chambers

@@ -6,6 +6,7 @@ status: staged
 stage: take
 lane: buyfigs
 voice: human
+voice_check: edited
 cluster: harvest
 topics: [grade, cull, wholesale, honesty]
 author: Jack Chambers
@@ -19,7 +20,7 @@ bag was expensive. That is a costume.
 
 On this bench a **standard** cutting is the FigRoots unit: 6–8 inches,
 three nodes, lignified, dormant if it will wait, caliper you could
-mistake for a pencil. An **long** or **liner** grade is longer wood,
+mistake for a pencil. A **long** or **liner** grade is longer wood,
 called on the slip, same soundness. A **short** is honest: two nodes,
 or a little under the band, priced like a short, never mixed into a
 standard fifty. A **cull** is not a grade we sell. It is a pile.

@@ -6,6 +6,7 @@ status: staged
 stage: mark
 lane: buyfigs
 voice: human
+voice_check: edited
 cluster: label
 topics: [labeling, lot-code, packing-slip, identity]
 author: Jack Chambers
@@ -39,7 +40,7 @@ the same name in three places. That photo is their DOA clock and
 my reputation. If my only name is on a packing list in an email
 they have to scroll for, I asked them to do my job.
 
-Jack’s grower post about labels that stay is about pots in a
+My grower post about labels that stay is about pots in an
 Arkansas summer. This is the winter cousin. Rain in a box, crush,
 a week in a truck. Paper pulp is not a label. Cheap ink that
 smears when it hits condensation is not a label. I like pencil

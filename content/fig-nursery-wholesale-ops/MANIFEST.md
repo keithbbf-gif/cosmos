@@ -13,4 +13,4 @@ All files live in `drafts/`. Status on every file is `staged`. Lane is `buyfigs`
 
 Keep if the set is cut: `d12` three labels, `d19` damp is not wet, `d35` weather switch, `d45` not a pharmacy.
 
-Last `validate.py` pass: **46 drafts**, unique openings **46/46**, every body ≥520 words, all six stages present, no slop/medical needles.
+Last `validate.py` pass: **46 drafts**, unique openings **46/46**, every body ≥520 words, all six stages present, no slop/medical needles. Editor pass: **`voice_check: edited`** on all drafts (see `EDITOR_REPORT.md`).

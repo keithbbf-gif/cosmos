@@ -6,6 +6,7 @@ status: staged
 stage: hold
 lane: buyfigs
 voice: human
+voice_check: edited
 cluster: dormant
 topics: [cooler, dormant, storage, cull]
 author: Jack Chambers
@@ -21,7 +22,7 @@ wood was unnamed, the cooler is a mystery timer. If the
 bag is wet, the cooler is a mushroom house with a nice
 door. I do not use the door as a blessing.
 
-Jack’s fridge post on FigRoots is the grower version:
+My fridge post on FigRoots is the grower version:
 dormant, lignified, wash, dry, parafilm for a long hold,
 double-bag, crisper, no free water, thermometer. The
 nursery version is the same physics with more totes and
