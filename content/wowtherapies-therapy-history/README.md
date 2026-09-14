@@ -14,3 +14,6 @@ artifacts live under `staged/` only** until a release pass moves them forward.
 **Portrait policy:** plates never ship AI-generated or invented historical faces. Plates
 use typographic monograms until a verified public-domain (or licensed) photograph is
 embedded and credited per `pipeline/portrait_sources.yaml`.
+
+**Builder lane:** Keith 2026-09-14 — WOWTherapies graphics work uses **Composer 2.5**
+(see `pipeline/GRAPHICS_PIPELINE.md`).
