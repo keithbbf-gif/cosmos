@@ -117,6 +117,9 @@ WIRED_NODES = (
     {"link_id": "gitlab-forge", "rail_type": "CLI", "src": "core",
      "dst": "forge", "family": "gitlab-cli", "module": None,
      "satellite": "gitlab-forge"},
+    {"link_id": "gdx-drive", "rail_type": "API", "src": "core",
+     "dst": "drive", "family": "gdrive-pydrive2", "module": None,
+     "satellite": "gdx-drive"},
 )
 
 CLI_RAILS = (
@@ -441,6 +444,35 @@ def _gitlab_forge_live_call(paths: CosmosPaths) -> dict:
     return _forge_live_call(paths, "gitlab-forge")
 
 
+def _gdx_drive_live_call(paths: CosmosPaths) -> dict:
+    """Real Drive about.get via PyDrive2.
+
+    The vendor NAMES what answered (`about.user.emailAddress`). A missing
+    field yields an empty model and the proof fails. Testing-consent
+    `invalid_grant` is AUTH_REQUIRED, never GREEN. Token bytes never enter
+    the authority ledger.
+    """
+    from cosmos_gdx_drive_rail import (
+        GdxDriveRail, client_secrets_path_for, key_path_for, load_spec,
+        spec_path_for,
+    )
+    spec = load_spec(spec_path_for(paths))
+    rail = GdxDriveRail(
+        key_path_for(paths, spec), spec,
+        client_secrets_path=client_secrets_path_for(paths))
+    rec = rail.dispatch({})
+    out = _norm_proof(rec)
+    out["model_source"] = rec.get("model_source") or ""
+    detail = rec.get("detail") or out.get("detail")
+    kind = rec.get("kind") or ""
+    if kind in ("NO_KEY", "UNREACHABLE", "BROKE", "REFUSED", "AUTH_REQUIRED"):
+        out["detail"] = f"{kind}: {detail}".strip(": ")
+        out["kind"] = kind
+    else:
+        out["detail"] = str(detail or "")[:300]
+    return out
+
+
 # satellite name -> (the rail module that speaks for it, its prove-shaped call).
 # ONE table: "which module IS this rail?" and "what do I call to prove it?" are
 # read off the same row, so the two answers cannot drift apart.
@@ -452,6 +484,7 @@ SATELLITES = {
     "github-forge": ("cosmos_forge_rail", _github_forge_live_call),
     "gitlab-forge": ("cosmos_forge_rail", _gitlab_forge_live_call),
     "codex": ("cosmos_codex_rail", _codex_live_call),
+    "gdx-drive": ("cosmos_gdx_drive_rail", _gdx_drive_live_call),
 }
 
 
@@ -550,6 +583,13 @@ def _hands_configured(paths: CosmosPaths, spec: dict) -> bool:
         # the key file is the configuration fact.
         from cosmos_codex_rail import KEY_NAME
         return paths.config(KEY_NAME).exists()
+    if sat == "gdx-drive":
+        # Existence only -- never a read. The refresh-token file is the
+        # configuration fact. Client secrets are required to refresh at
+        # probe time; their absence is the rail's typed NO_KEY, not a
+        # hands-configured lie. Testing consent: remint every 7 days.
+        from cosmos_gdx_drive_rail import CREDENTIALS_NAME
+        return paths.config(CREDENTIALS_NAME).exists()
     return _claude_configured(paths)
 
 

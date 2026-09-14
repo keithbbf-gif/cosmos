@@ -45,7 +45,9 @@ REPO = HERE.parents[1]
 sys.path.insert(0, str(REPO / "cosmos"))
 
 from cosmos_paths import CosmosPaths, CosmosPathError            # noqa: E402
-from cosmos_rails_prober import NODE_PROOF_TTL_S, WIRED_NODES    # noqa: E402
+from cosmos_rails_prober import (  # noqa: E402
+    NODE_PROOF_TTL_S, WIRED_NODES, probe_module_for,
+)
 
 WIRED = {w["link_id"]: w for w in WIRED_NODES}
 # Ordered SPECIFIC CAUSE first, generic wrapper last. Rails nest their refusals
@@ -86,7 +88,7 @@ def rows() -> list[dict]:
     """The wired four (from the prober's own table) + the rails it never asks."""
     out = []
     for w in WIRED_NODES:
-        out.append(dict(w, probe_with=w.get("module") or "cosmos_claude_rail",
+        out.append(dict(w, probe_with=probe_module_for(w),
                         route=f"{w['src']}->{w['dst']}", note=NOTES.get(w["link_id"])))
     # A rail that has since been WIRED must leave the unasked list, or rows()
     # reports it twice in contradictory states -- once wired, once "no prove()
@@ -159,6 +161,28 @@ def probe_http_rail(paths, which_mod: str) -> dict:
                          "base": spec.get("base"), "identity": rail.last_identity()}}
 
 
+def probe_gdx_drive(paths) -> dict:
+    """Drive about.get via the rail's own probe. Never lists or writes files."""
+    import cosmos_gdx_drive_rail as m
+    spec = m.load_spec(m.spec_path_for(paths) if m.spec_path_for(paths).exists()
+                       else None)
+    keyp = m.key_path_for(paths, spec)
+    secrets = m.client_secrets_path_for(paths)
+    ev = {"credentials_present": keyp.exists(),
+          "client_secrets_present": secrets.exists(),
+          "consent_mode": m.CONSENT_MODE, "refresh_ttl_s": m.REFRESH_TTL_S}
+    if not keyp.exists():
+        return {"ok": False, "kind": "UNMEASURED", "evidence": ev,
+                "detail": "UNMEASURED: gdx_drive_credentials.json absent "
+                          "(Testing consent refresh every 7 days)"}
+    rail = m.GdxDriveRail(keyp, spec, client_secrets_path=secrets)
+    ok, detail = rail.probe()
+    ident = rail.last_identity() or {}
+    ev["email_present"] = bool(ident.get("email"))
+    ev["permissionId"] = ident.get("permissionId")
+    return {"ok": ok, "detail": detail, "evidence": ev}
+
+
 def probe_playwright(paths, deep: bool) -> dict:
     """tools/list over the MCP server. Spawns npx, so it is --deep only."""
     import cosmos_playwright_rail as m
@@ -189,6 +213,8 @@ def measure(paths, row: dict, *, deep: bool) -> dict:
             return probe_playwright(paths, deep)
         if mod in ("cosmos_cursor_rail", "cosmos_firecrawl_rail"):
             return probe_http_rail(paths, mod)
+        if mod == "cosmos_gdx_drive_rail":
+            return probe_gdx_drive(paths)
         return probe_binary_rail(paths, mod)
     except Exception as e:                                        # noqa: BLE001
         # This tool's own failure is reported as this tool's own failure.

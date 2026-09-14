@@ -64,6 +64,8 @@ SECRET_FIELDS = (
     "cursor_api_key", "CURSOR_API_KEY",
     "firecrawl_api_key", "FIRECRAWL_API_KEY",
     "groq_api_key", "GROQ_API_KEY",
+    "refresh_token", "access_token", "client_secret",
+    "gdx_drive_credentials", "gdx_oauth",
 )
 
 

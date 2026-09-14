@@ -85,6 +85,11 @@ def main() -> int:
     check("gem-api native vertex adapter composed on writing boot",
           lambda: "gem-api" in composed
           and getattr(k, "gem_rail", None) is not None)
+    check("gdx-drive compose row landed on writing boot (adapter, not proven)",
+          lambda: "gdx-drive" in composed and "gdx-drive" in k.adapters)
+    check("gdx-drive adapter is dst=drive (cannot capture core->models)",
+          lambda: getattr(k.adapters.get("gdx-drive"), "spec", {}).get("dst")
+          == "drive")
     check("forge adapters attached (github-forge + gitlab-forge)",
           lambda: {"github-forge", "gitlab-forge"} <= set(k.adapters))
     check("forge adapters are dst=forge (cannot capture core->code)",

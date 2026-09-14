@@ -210,6 +210,9 @@ class Kernel:
             # F-30 WAVE A1/A2: gh/glab as one table-driven rail, two link_ids.
             # dst=forge so a proven forge cannot capture core->code.
             ("forge-rails", "cosmos_forge_rail", "attach_to_kernel", True),
+            # GDX Drive com rail (PyDrive2). Compose adapter only — never
+            # invoke about.get at boot. Prove is --live / request+permission.
+            ("gdx-drive", "cosmos_gdx_drive_rail", "attach_to_kernel", True),
             ("claude-cli", "cosmos_claude_rail", "attach_to_kernel", True),
             # F-29: tools/ surface. Not a rail — attach binds kernel.tools
             # and does not invoke, spend, or LINK_REGISTER. A bad row is
