@@ -36,14 +36,15 @@
       "icons/icon.ico"
     ],
     "externalBin": ["binaries/sessions-app-sidecar"],
-    "resources": [
-      "../sessions_app.py",
-      "../sessions_core.py",
-      "../sessions_recents.py",
-      "../sessions_timeline.py",
-      "../sessions_verbs.py",
-      "../sessions_refusals.py"
-    ]
+    "resources": {
+      "../sessions_app.py": "sessions_app.py",
+      "../sessions_core.py": "sessions_core.py",
+      "../sessions_recents.py": "sessions_recents.py",
+      "../sessions_timeline.py": "sessions_timeline.py",
+      "../sessions_verbs.py": "sessions_verbs.py",
+      "../sessions_refusals.py": "sessions_refusals.py",
+      "../ui": "ui"
+    }
   },
   "plugins": {
     "singleInstance": {

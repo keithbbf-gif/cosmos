@@ -453,15 +453,41 @@ def t_tauri_config_and_sidecar_wiring():
     win = conf["app"]["windows"][0]
     dist = conf["build"]["frontendDist"]
     ext = conf["bundle"]["externalBin"]
+    rust = (tauri / "src" / "lib.rs").read_text(encoding="utf-8")
+    caps = json.loads((tauri / "capabilities" / "default.json").read_text(encoding="utf-8"))
     sidecar_linux = tauri / "binaries" / "sessions-app-sidecar-x86_64-unknown-linux-gnu"
     sidecar_win = tauri / "binaries" / "sessions-app-sidecar-x86_64-pc-windows-msvc.bat"
     pkg = json.loads((APP / "package.json").read_text(encoding="utf-8"))
+    py_names = ("sessions_app.py", "sessions_core.py", "sessions_recents.py",
+                "sessions_timeline.py", "sessions_verbs.py", "sessions_refusals.py")
+    res = conf["bundle"]["resources"]
+    res_vals = list(res.values()) if isinstance(res, dict) else list(res)
+    res_ok = all(any(n in str(v) for v in res_vals) for n in py_names) and any(
+        str(v).rstrip("/").endswith("ui") for v in res_vals)
+    cap_sidecar = any(
+        isinstance(p, dict) and p.get("identifier") == "shell:allow-spawn"
+        and any(a.get("name") == "sessions-app-sidecar" and a.get("sidecar")
+                for a in (p.get("allow") or []))
+        for p in caps.get("permissions") or [])
     return (win["title"] == "COSMOS Sessions"
+            and win.get("label") == "main"
+            and win.get("create") is False
+            and conf.get("productName") == "sessions-app"
+            and conf.get("identifier") == "cosmos.sessions-app"
             and conf.get("plugins", {}).get("singleInstance") is not None
+            and 'title("COSMOS Sessions")' in rust
+            and 'sidecar("sessions-app-sidecar")' in rust
+            and "tauri_plugin_single_instance" in rust
+            and "SESSIONS_APP_ROOT" in rust
+            and "invoke(" not in rust
+            and cap_sidecar
+            and res_ok
             and dist == "../dist"
             and ext == ["binaries/sessions-app-sidecar"]
             and sidecar_linux.is_file() and sidecar_win.is_file()
             and "sessions_app.py" in sidecar_linux.read_text(encoding="utf-8")
+            and "SESSIONS_APP_ROOT" in sidecar_linux.read_text(encoding="utf-8")
+            and "SESSIONS_APP_ROOT" in sidecar_win.read_text(encoding="utf-8")
             and "tauri:build" in (pkg.get("scripts") or {})
             and "prepare:dist" in (pkg.get("scripts") or {}).get("tauri:build", ""))
 

@@ -24,17 +24,22 @@ fn wait_for_loopback(timeout: Duration) -> bool {
 }
 
 fn spawn_backend(app: &AppHandle) -> CommandChild {
-    let sidecar = app
+    // One bridge: the Python sidecar. Resource dir is passed so the script
+    // finds sessions_app.py + ui/ when bundled (not only in the source tree).
+    let mut sidecar = app
         .shell()
         .sidecar("sessions-app-sidecar")
-        .expect("sessions-app-sidecar must be declared in tauri.conf.json externalBin")
-        .args([
-            "serve",
-            "--host",
-            HOST,
-            "--port",
-            &PORT.to_string(),
-        ]);
+        .expect("sessions-app-sidecar must be declared in tauri.conf.json externalBin");
+    if let Ok(dir) = app.path().resource_dir() {
+        sidecar = sidecar.env("SESSIONS_APP_ROOT", dir);
+    }
+    let sidecar = sidecar.args([
+        "serve",
+        "--host",
+        HOST,
+        "--port",
+        &PORT.to_string(),
+    ]);
     let (mut rx, child) = sidecar.spawn().expect("sidecar spawn failed");
     tauri::async_runtime::spawn(async move {
         while let Some(event) = rx.recv().await {

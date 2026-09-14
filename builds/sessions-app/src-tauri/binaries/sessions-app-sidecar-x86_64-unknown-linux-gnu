@@ -2,7 +2,9 @@
 # Tauri externalBin sidecar: runs the Sessions Python backend (loopback serve).
 set -euo pipefail
 BIN_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-if [[ -f "$BIN_DIR/../../../sessions_app.py" ]]; then
+if [[ -n "${SESSIONS_APP_ROOT:-}" && -f "${SESSIONS_APP_ROOT}/sessions_app.py" ]]; then
+  APP_ROOT="$SESSIONS_APP_ROOT"
+elif [[ -f "$BIN_DIR/../../../sessions_app.py" ]]; then
   APP_ROOT="$(cd "$BIN_DIR/../../.." && pwd)"
 elif [[ -f "$BIN_DIR/../resources/sessions_app.py" ]]; then
   APP_ROOT="$(cd "$BIN_DIR/../resources" && pwd)"
