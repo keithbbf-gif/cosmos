@@ -4,6 +4,7 @@ dek: The GPU got faster. The act of telling it to start did not. Graphs are a re
 slug: 25-cuda-graphs-launch-tax
 series: AI Compute Chip Magazine
 status: staged
+voice_check: edited
 kind: standalone-article
 scope: public-history
 novelty: public-record-only

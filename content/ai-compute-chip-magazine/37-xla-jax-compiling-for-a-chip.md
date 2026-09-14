@@ -4,6 +4,7 @@ dek: Google's TPU stack is a compiler culture. The chip is what the compiler fee
 slug: 37-xla-jax-compiling-for-a-chip
 series: AI Compute Chip Magazine
 status: staged
+voice_check: edited
 kind: standalone-article
 scope: public-history
 novelty: public-record-only

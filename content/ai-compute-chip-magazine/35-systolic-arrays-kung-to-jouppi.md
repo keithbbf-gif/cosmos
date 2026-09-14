@@ -4,6 +4,7 @@ dek: Kung and Leiserson described a pulse of data through a grid in 1979. The TP
 slug: 35-systolic-arrays-kung-to-jouppi
 series: AI Compute Chip Magazine
 status: staged
+voice_check: edited
 kind: standalone-article
 scope: public-history
 novelty: public-record-only

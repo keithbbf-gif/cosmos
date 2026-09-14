@@ -4,6 +4,7 @@ dek: GTC 2024 sold a generation whose interesting number is not a core count. It
 slug: 19-blackwell-the-rack-is-the-chip
 series: AI Compute Chip Magazine
 status: staged
+voice_check: edited
 kind: standalone-article
 scope: public-history
 novelty: public-record-only

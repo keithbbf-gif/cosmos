@@ -4,6 +4,7 @@ dek: FP16, BF16, TF32, FP8 — the chip got faster every time we agreed the extr
 slug: 26-mixed-precision-bargain
 series: AI Compute Chip Magazine
 status: staged
+voice_check: edited
 kind: standalone-article
 scope: public-history
 novelty: public-record-only

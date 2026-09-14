@@ -4,6 +4,7 @@ dek: After v1, Google's public TPU story stops being a board in a disk slot and 
 slug: 36-tpu-pods-the-network-is-the-machine
 series: AI Compute Chip Magazine
 status: staged
+voice_check: edited
 kind: standalone-article
 scope: public-history
 novelty: public-record-only

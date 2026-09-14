@@ -4,6 +4,7 @@ dek: Peak floating-point was a useful lie, then a marketing unit, then a number 
 slug: 45-what-a-flop-stopped-meaning
 series: AI Compute Chip Magazine
 status: staged
+voice_check: edited
 kind: standalone-article
 scope: public-history
 novelty: public-record-only

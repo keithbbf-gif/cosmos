@@ -4,6 +4,7 @@ dek: In 2010 NVIDIA added the things a lab asks for after the demo: L1, L2, ECC,
 slug: 10-fermi-caches-and-ecc
 series: AI Compute Chip Magazine
 status: staged
+voice_check: edited
 kind: standalone-article
 scope: public-history
 novelty: public-record-only

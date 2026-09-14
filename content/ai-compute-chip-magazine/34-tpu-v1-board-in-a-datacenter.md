@@ -4,6 +4,7 @@ dek: In May 2016 Google told I/O it had already been running a custom ASIC for a
 slug: 34-tpu-v1-board-in-a-datacenter
 series: AI Compute Chip Magazine
 status: staged
+voice_check: edited
 kind: standalone-article
 scope: public-history
 novelty: public-record-only

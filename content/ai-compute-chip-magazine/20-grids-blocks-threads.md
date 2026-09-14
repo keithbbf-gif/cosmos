@@ -4,6 +4,7 @@ dek: The hierarchy is not a metaphor. It is how NVIDIA told millions of people t
 slug: 20-grids-blocks-threads
 series: AI Compute Chip Magazine
 status: staged
+voice_check: edited
 kind: standalone-article
 scope: public-history
 novelty: public-record-only

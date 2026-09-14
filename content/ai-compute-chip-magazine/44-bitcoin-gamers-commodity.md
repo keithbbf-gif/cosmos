@@ -4,6 +4,7 @@ dek: Before the training boom, a different boom taught everyone that a GeForce w
 slug: 44-bitcoin-gamers-commodity
 series: AI Compute Chip Magazine
 status: staged
+voice_check: edited
 kind: standalone-article
 scope: public-history
 novelty: public-record-only

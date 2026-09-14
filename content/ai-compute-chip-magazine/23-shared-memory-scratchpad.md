@@ -4,6 +4,7 @@ dek: CUDA's block-local RAM is a small idea that became a rite of passage. Tilin
 slug: 23-shared-memory-scratchpad
 series: AI Compute Chip Magazine
 status: staged
+voice_check: edited
 kind: standalone-article
 scope: public-history
 novelty: public-record-only

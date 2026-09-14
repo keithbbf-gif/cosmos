@@ -4,6 +4,7 @@ dek: High Bandwidth Memory is a plumbing story: through-silicon vias, interposer
 slug: 40-hbm-stacking-dram
 series: AI Compute Chip Magazine
 status: staged
+voice_check: edited
 kind: standalone-article
 scope: public-history
 novelty: public-record-only

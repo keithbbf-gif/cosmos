@@ -4,6 +4,7 @@ dek: 3dfx shipped the feeling of a dedicated 3D pipe. NVIDIA bought what was lef
 slug: 02-voodoo-and-the-card-that-vanished
 series: AI Compute Chip Magazine
 status: staged
+voice_check: edited
 kind: standalone-article
 scope: public-history
 novelty: public-record-only

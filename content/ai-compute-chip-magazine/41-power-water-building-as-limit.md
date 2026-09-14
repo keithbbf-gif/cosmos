@@ -4,6 +4,7 @@ dek: After a point the chip is fine. The substation and the cooling loop are the
 slug: 41-power-water-building-as-limit
 series: AI Compute Chip Magazine
 status: staged
+voice_check: edited
 kind: standalone-article
 scope: public-history
 novelty: public-record-only

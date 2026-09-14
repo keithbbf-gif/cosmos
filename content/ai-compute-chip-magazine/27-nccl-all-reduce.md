@@ -4,6 +4,7 @@ dek: Data-parallel training is a reduction in a trench coat. NVIDIA's library ma
 slug: 27-nccl-all-reduce
 series: AI Compute Chip Magazine
 status: staged
+voice_check: edited
 kind: standalone-article
 scope: public-history
 novelty: public-record-only

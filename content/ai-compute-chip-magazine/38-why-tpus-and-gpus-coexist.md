@@ -4,6 +4,7 @@ dek: For a decade the obituaries were written in both directions. Both machines 
 slug: 38-why-tpus-and-gpus-coexist
 series: AI Compute Chip Magazine
 status: staged
+voice_check: edited
 kind: standalone-article
 scope: public-history
 novelty: public-record-only

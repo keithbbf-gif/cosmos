@@ -4,6 +4,7 @@ dek: cudaMallocManaged promised one pointer. The bus did not go away. The debugg
 slug: 24-unified-memory-hid-the-copies
 series: AI Compute Chip Magazine
 status: staged
+voice_check: edited
 kind: standalone-article
 scope: public-history
 novelty: public-record-only

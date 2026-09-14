@@ -4,6 +4,7 @@ dek: PCI Express was a driveway. NVIDIA built a highway, then a cloverleaf, then
 slug: 28-nvlink-nvswitch-midplane
 series: AI Compute Chip Magazine
 status: staged
+voice_check: edited
 kind: standalone-article
 scope: public-history
 novelty: public-record-only

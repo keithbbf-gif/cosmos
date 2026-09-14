@@ -4,6 +4,7 @@ dek: The ImageNet paper says five to six days, two consumer cards, 3 GB each. Th
 slug: 12-two-gtx-580s-alexnet
 series: AI Compute Chip Magazine
 status: staged
+voice_check: edited
 kind: standalone-article
 scope: public-history
 novelty: public-record-only

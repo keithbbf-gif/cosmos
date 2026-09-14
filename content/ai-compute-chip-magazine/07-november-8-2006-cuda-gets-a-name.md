@@ -4,6 +4,7 @@ dek: The architecture, the compiler, and the GeForce 8800 were announced the sam
 slug: 07-november-8-2006-cuda-gets-a-name
 series: AI Compute Chip Magazine
 status: staged
+voice_check: edited
 kind: standalone-article
 scope: public-history
 novelty: public-record-only

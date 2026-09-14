@@ -4,6 +4,7 @@ dek: In August 1999 NVIDIA did not invent 3D. It invented a word that would outl
 slug: 01-when-nvidia-named-the-gpu
 series: AI Compute Chip Magazine
 status: staged
+voice_check: edited
 kind: standalone-article
 scope: public-history
 novelty: public-record-only

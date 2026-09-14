@@ -4,6 +4,7 @@ dek: In 2007 NVIDIA sold a graphics architecture in a board that refused to be a
 slug: 09-tesla-compute-without-a-monitor
 series: AI Compute Chip Magazine
 status: staged
+voice_check: edited
 kind: standalone-article
 scope: public-history
 novelty: public-record-only

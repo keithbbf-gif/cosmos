@@ -4,6 +4,7 @@ dek: Larrabee, Xe, Ponte Vecchio, Gaudi — the CPU company kept pulling up a se
 slug: 33-intel-third-chair
 series: AI Compute Chip Magazine
 status: staged
+voice_check: edited
 kind: standalone-article
 scope: public-history
 novelty: public-record-only

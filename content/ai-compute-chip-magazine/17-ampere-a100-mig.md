@@ -4,6 +4,7 @@ dek: In 2020 NVIDIA shipped a training monster that could also be carved into sm
 slug: 17-ampere-a100-mig
 series: AI Compute Chip Magazine
 status: staged
+voice_check: edited
 kind: standalone-article
 scope: public-history
 novelty: public-record-only

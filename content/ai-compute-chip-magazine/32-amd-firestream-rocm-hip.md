@@ -4,6 +4,7 @@ dek: Close-to-Metal, Stream, OpenCL, ROCm, HIP — the other house kept building
 slug: 32-amd-firestream-rocm-hip
 series: AI Compute Chip Magazine
 status: staged
+voice_check: edited
 kind: standalone-article
 scope: public-history
 novelty: public-record-only

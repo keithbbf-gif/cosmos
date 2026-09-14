@@ -4,6 +4,7 @@ dek: April 2016: NVIDIA sold a 3U box as a supercomputer. The first one went to 
 slug: 29-dgx-1-eight-gpus
 series: AI Compute Chip Magazine
 status: staged
+voice_check: edited
 kind: standalone-article
 scope: public-history
 novelty: public-record-only

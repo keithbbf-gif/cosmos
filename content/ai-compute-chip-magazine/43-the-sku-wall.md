@@ -4,6 +4,7 @@ dek: Same architecture, different license, different cooler, different permissio
 slug: 43-the-sku-wall
 series: AI Compute Chip Magazine
 status: staged
+voice_check: edited
 kind: standalone-article
 scope: public-history
 novelty: public-record-only

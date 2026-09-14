@@ -4,6 +4,7 @@ dek: Before CUDA, people hid linear algebra inside colors. The trick worked. It 
 slug: 04-shader-algebra-in-a-pixel-pipe
 series: AI Compute Chip Magazine
 status: staged
+voice_check: edited
 kind: standalone-article
 scope: public-history
 novelty: public-record-only

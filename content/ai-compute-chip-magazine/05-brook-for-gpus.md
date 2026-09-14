@@ -4,6 +4,7 @@ dek: Stanford wrote C-like streams, compiled them onto OpenGL and DirectX, and p
 slug: 05-brook-for-gpus
 series: AI Compute Chip Magazine
 status: staged
+voice_check: edited
 kind: standalone-article
 scope: public-history
 novelty: public-record-only

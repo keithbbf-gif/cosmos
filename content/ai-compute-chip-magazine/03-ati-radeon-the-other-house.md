@@ -4,6 +4,7 @@ dek: GPU history is often told as an NVIDIA monologue. The other house shipped c
 slug: 03-ati-radeon-the-other-house
 series: AI Compute Chip Magazine
 status: staged
+voice_check: edited
 kind: standalone-article
 scope: public-history
 novelty: public-record-only

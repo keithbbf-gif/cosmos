@@ -4,6 +4,7 @@ dek: DirectX 10 demanded one kind of core for vertices and pixels. CUDA borrowed
 slug: 08-g80-the-unified-shader
 series: AI Compute Chip Magazine
 status: staged
+voice_check: edited
 kind: standalone-article
 scope: public-history
 novelty: public-record-only
@@ -22,7 +23,7 @@ G80 is also where “CUDA core” as a counting unit begins its long, confusing 
 
 What G80 changed for people who had been stuffing algebra into pixel shaders was the feeling of a machine that knew it was running a grid of threads. Shared memory, as CUDA taught it, is a G80-era idea made into a programming rule: a block of threads gets a scratchpad. Barriers exist. You can write a reduction that is not a graphics trick. It is still a small machine by later standards. It is the first NVIDIA machine where the programming model and the hardware generation share a birthday.
 
-ATI had its own unified-shader story in the same DirectX 10 window. This article is not a scoreboard. It is a reminder that CUDA did not land on a random card. It landed on the card NVIDIA built to survive Vista. Companies do not always get to choose the order of their revolutions. Sometimes the API vendor in Redmond chooses for them.
+ATI had its own unified-shader story in the same DirectX 10 window. This article is not a scoreboard. It is a reminder that CUDA did not land on a random card. It landed on the card NVIDIA built to survive Vista. Companies do not always get to choose the order of their turns. Sometimes the API vendor in Redmond chooses for them.
 
 A lot of G80’s public documentation is gamer-facing: shader model 4.0, HDR, anti-aliasing modes, the two-slot cooler. The compute documentation from 2007 is drier: thread hierarchy, memory spaces, the compiler. Reading both is how you avoid the later myth that NVIDIA “pivoted to AI” in one heroic fiscal year. In 2006 they pivoted to a unified processor because Microsoft asked, and then they sold C on that processor because the labs were already asking.
 

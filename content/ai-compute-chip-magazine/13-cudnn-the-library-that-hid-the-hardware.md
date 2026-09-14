@@ -4,6 +4,7 @@ dek: In 2014 NVIDIA shipped a convolution library. Frameworks stopped being priv
 slug: 13-cudnn-the-library-that-hid-the-hardware
 series: AI Compute Chip Magazine
 status: staged
+voice_check: edited
 kind: standalone-article
 scope: public-history
 novelty: public-record-only

@@ -4,6 +4,7 @@ dek: The moat is not a kernel language. It is a twenty-year pile of things peopl
 slug: 30-the-cuda-moat
 series: AI Compute Chip Magazine
 status: staged
+voice_check: edited
 kind: standalone-article
 scope: public-history
 novelty: public-record-only

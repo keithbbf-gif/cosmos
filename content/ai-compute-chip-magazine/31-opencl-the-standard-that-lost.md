@@ -4,6 +4,7 @@ dek: Khronos ratified a portable GPU compute API in December 2008. CUDA kept the
 slug: 31-opencl-the-standard-that-lost
 series: AI Compute Chip Magazine
 status: staged
+voice_check: edited
 kind: standalone-article
 scope: public-history
 novelty: public-record-only

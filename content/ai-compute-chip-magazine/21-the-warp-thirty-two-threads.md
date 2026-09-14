@@ -4,6 +4,7 @@ dek: NVIDIA's SIMT bet is a number you can count on your fingers if you have eno
 slug: 21-the-warp-thirty-two-threads
 series: AI Compute Chip Magazine
 status: staged
+voice_check: edited
 kind: standalone-article
 scope: public-history
 novelty: public-record-only

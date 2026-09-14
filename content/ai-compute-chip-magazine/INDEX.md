@@ -12,7 +12,8 @@ This is an issue of separate pieces, not one essay cut into files. You can read 
 ## How to use this folder
 
 - One article per file. One hook per article.
-- Front matter on each file marks `status: staged` and `kind: standalone-article`.
+- Front matter on each file marks `status: staged`, `kind: standalone-article`, and after editor pass `voice_check: edited`.
+- Editor pass (2026-09-14): see [EDITOR_REPORT.md](EDITOR_REPORT.md). Style: [STYLE_GUIDE.md](STYLE_GUIDE.md). QA: `python3 check_pack.py`.
 - Sources sit at the bottom of each piece. Prefer the original paper or the original press release over a later retelling.
 - Dates are calendar facts, not mythology. When a company later rewrote its own origin story, the article says so.
 
@@ -117,8 +118,8 @@ This is an issue of separate pieces, not one essay cut into files. You can read 
 - Not a history of any private operating system or mesh.
 - Not a claim chart, novelty opinion, or prior-art search.
 - Not one essay packet. If two articles share a decade, they still do not share a thesis.
-- Not ready to publish. Staged means staged: facts can still be tightened, voice can still be cut, sources can still be swapped for better originals.
+- Not ready to publish. Staged means staged: citations can still be pinned, facts tightened; voice pass complete for this issue (`voice_check: edited` on all drafts).
 
 ---
 
-*Masthead date: 2026-09-14. Staged for review.*
+*Masthead date: 2026-09-14. Staged for review. Editor pass recorded in EDITOR_REPORT.md (PR #404).*

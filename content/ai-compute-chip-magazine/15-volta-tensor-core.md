@@ -4,6 +4,7 @@ dek: V100 did not invent matrix math. It put a dedicated unit on the slide and m
 slug: 15-volta-tensor-core
 series: AI Compute Chip Magazine
 status: staged
+voice_check: edited
 kind: standalone-article
 scope: public-history
 novelty: public-record-only

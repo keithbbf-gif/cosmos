@@ -4,6 +4,7 @@ dek: In 2018 NVIDIA put RT Cores on a GeForce and Tensor Cores in a living room.
 slug: 16-turing-rays-and-consumer-tensors
 series: AI Compute Chip Magazine
 status: staged
+voice_check: edited
 kind: standalone-article
 scope: public-history
 novelty: public-record-only

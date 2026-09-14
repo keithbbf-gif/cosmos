@@ -4,6 +4,7 @@ dek: H100 did not invent attention. It is the first NVIDIA GPU that behaves as i
 slug: 18-hopper-transformer-factory
 series: AI Compute Chip Magazine
 status: staged
+voice_check: edited
 kind: standalone-article
 scope: public-history
 novelty: public-record-only

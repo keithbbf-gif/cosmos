@@ -4,6 +4,7 @@ dek: The FLOPS slides kept going up. The useful ones were about bytes per second
 slug: 39-memory-bandwidth-ate-the-decade
 series: AI Compute Chip Magazine
 status: staged
+voice_check: edited
 kind: standalone-article
 scope: public-history
 novelty: public-record-only

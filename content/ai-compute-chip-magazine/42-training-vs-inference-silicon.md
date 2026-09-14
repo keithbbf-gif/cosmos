@@ -4,6 +4,7 @@ dek: The industry kept saying "AI chip" as if the forward pass and the backward 
 slug: 42-training-vs-inference-silicon
 series: AI Compute Chip Magazine
 status: staged
+voice_check: edited
 kind: standalone-article
 scope: public-history
 novelty: public-record-only

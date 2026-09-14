@@ -4,6 +4,7 @@ dek: A generation of CUDA programmers maximized a percentage and then wondered w
 slug: 22-occupancy-is-not-performance
 series: AI Compute Chip Magazine
 status: staged
+voice_check: edited
 kind: standalone-article
 scope: public-history
 novelty: public-record-only

@@ -4,6 +4,7 @@ dek: A Stanford student took a stream language into a graphics company. The prod
 slug: 06-ian-buck-walks-into-santa-clara
 series: AI Compute Chip Magazine
 status: staged
+voice_check: edited
 kind: standalone-article
 scope: public-history
 novelty: public-record-only
@@ -16,7 +17,7 @@ Ian Buck’s public résumé from the Stanford years is almost too tidy. BrookGP
 
 He finished the thesis work around 2004 and went to NVIDIA to turn a research project into a commercial solution. Internally they worked for more than two years. The thing that shipped was not Brook with a logo. It was CUDA: C on the GPU, a few keywords, a compiler, a runtime, a claim that you could learn it in a session and beat your CPU code. Buck has told that story in those words. It is a product story, not a myth about a lone inventor. NVIDIA is a company. Companies ship platforms.
 
-The choice he emphasizes is the conservative one. They could have invented a brand-new parallel language. They could have extended OpenGL until compute looked like a graphics extension. Customers, he said, did not want a new language and did not want to hire game programmers to unlock a card they already knew was fast. So CUDA was C, on purpose, as a sales and teaching decision as much as a compiler decision.
+The choice he emphasizes is the conservative one. They could have invented a brand-new parallel language. They could have extended OpenGL until compute looked like a graphics extension. Customers, he said, did not want a new language and did not want to hire game programmers just to drive a card they already knew was fast. So CUDA was C, on purpose, as a sales and teaching decision as much as a compiler decision.
 
 That is the part later commentators skip when they treat CUDA as destiny. Destiny does not choose keywords. People do. In the mid-2000s the people with money and codes were scientific and engineering groups who spoke C, Fortran, and MATLAB. They did not speak HLSL. Giving them a dialect of C was how you got a beachhead. The later libraries — BLAS, FFT, then the deep-learning stack — stood on that beachhead.
 

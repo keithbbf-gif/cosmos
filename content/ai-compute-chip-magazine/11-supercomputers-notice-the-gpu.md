@@ -4,6 +4,7 @@ dek: Before ImageNet, the TOP500 already had NVIDIA in the cabinet. Tianhe and T
 slug: 11-supercomputers-notice-the-gpu
 series: AI Compute Chip Magazine
 status: staged
+voice_check: edited
 kind: standalone-article
 scope: public-history
 novelty: public-record-only
