@@ -16,7 +16,11 @@ Editor agent: QA against `STYLE_GUIDE.md` after this commit. Do not publish.
 | `BIBLIOGRAPHY.md` | Citations |
 | `WP_IMPORT.md` | Staging import only |
 | `PHOTO_NOTES.md` | Figure rules |
+| `RIGHTS.md` | Licenses; no AI faces |
+| `GRAPHICS_INDEX.md` | Wired SVG inventory |
+| `IMAGE_SEO.md` | `<figure>` and alt-text contract |
 | `qa/check_pack.py` | Count / YAML / word floor / bans |
+| `qa/verify_graphics.py` | Figure asset paths and SVG titles |
 
 ## Drafts (44)
 

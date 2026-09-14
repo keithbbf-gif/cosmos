@@ -17,6 +17,8 @@ citations:
 status: draft
 voice_check: human
 legal_frame: educational-research
+featured_image: "assets/sixteen-s-vs-shotgun/amplicon-vs-shotgun.svg"
+figure_alt: "Schematic contrast of 16S ribosomal amplicon sequencing versus shotgun metagenomics"
 sources_notes: "Keep this at methods literacy. Consumer brand names other than the uBiome legal file (draft 32) stay generic unless a citation is in hand."
 ---
 
@@ -27,6 +29,12 @@ A consumer stool kit is usually a 16S rRNA amplicon assay wearing a wellness das
 > **Photo:** Two-panel schematic: one gene region versus many fragments.
 > **Caption:** What the machine saw, not a ranking of products.
 > **License note:** Original, `assets/sixteen-s-vs-shotgun/amplicon-vs-shotgun.svg`.
+
+
+<figure class="blog-figure">
+  <img src="../assets/sixteen-s-vs-shotgun/amplicon-vs-shotgun.svg" alt="Schematic contrast of 16S ribosomal amplicon sequencing versus shotgun metagenomics" width="720" height="260" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure.</strong> What the sequencing machine saw in each method — not a ranking of products or a prescription. <em>Original schematic; not clinical data or a product claim.</em></figcaption>
+</figure>
 
 ## What 16S can say
 

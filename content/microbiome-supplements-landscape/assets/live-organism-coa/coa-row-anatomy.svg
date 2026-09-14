@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="t d">
+  <title id="t">Live-organism COA row anatomy</title>
+  <desc id="d">Fictional certificate rows for identity, potency with unit and time point, and contaminants. Bracket placeholders only; not a real lot.</desc>
+  <rect width="720" height="360" fill="#f6f1e8"/>
+  <text x="24" y="32" font-family="Georgia, serif" font-size="17" fill="#2c2416">Finished-product COA rows (fictional schematic)</text>
+  <rect x="24" y="52" width="672" height="88" fill="#e8d9c0" stroke="#5a4a32"/>
+  <text x="36" y="78" font-family="Georgia, serif" font-size="16" fill="#2c2416">Identity</text>
+  <text x="36" y="100" font-family="ui-sans-serif, sans-serif" font-size="13" fill="#3d3426">Genus species [strain] | method [16S / WGS / deposit]</text>
+  <text x="36" y="122" font-family="ui-sans-serif, sans-serif" font-size="12" fill="#6a5b45">Mix: each line separable or the spec is a story</text>
+  <rect x="24" y="148" width="672" height="88" fill="#d5e0d6" stroke="#3a4a3c"/>
+  <text x="36" y="174" font-family="Georgia, serif" font-size="16" fill="#2c2416">Potency</text>
+  <text x="36" y="196" font-family="ui-sans-serif, sans-serif" font-size="13" fill="#3d3426">[CFU or AFU] | method | time point [end of shelf]</text>
+  <text x="36" y="218" font-family="ui-sans-serif, sans-serif" font-size="12" fill="#6a5b45">Genome copies are a different object (not interchangeable)</text>
+  <rect x="24" y="244" width="672" height="88" fill="#e4d0d0" stroke="#5a3232"/>
+  <text x="36" y="270" font-family="Georgia, serif" font-size="16" fill="#2c2416">Contaminants and quiet rows</text>
+  <text x="36" y="292" font-family="ui-sans-serif, sans-serif" font-size="13" fill="#3d3426">Objectionable organisms | water activity | lab name | lot [XXXX]</text>
+  <text x="36" y="314" font-family="ui-sans-serif, sans-serif" font-size="12" fill="#6a5b45">"Pathogen free" without method and limit is a slogan</text>
+  <text x="24" y="348" font-family="ui-sans-serif, sans-serif" font-size="12" fill="#6a5b45">Original typeset. No real supplier letterhead or lot numbers.</text>
+</svg>

@@ -19,6 +19,8 @@ citations:
 status: draft
 voice_check: human
 legal_frame: educational-research
+featured_image: "assets/buyers-eight-questions/eight-questions.svg"
+figure_alt: "Checklist schematic of eight questions before a live-microbe SKU file"
 sources_notes: "Closing essay. Points back; does not invent new science. Empty seats for science/QA and counsel remain empty."
 ---
 
@@ -29,6 +31,12 @@ Forty-three drafts in this folder have been a refusal to let a prefix do a fileâ
 > **Photo:** The eight-question schematic.
 > **Caption:** A file. Not a seal, not a grade, not a protocol.
 > **License note:** `assets/buyers-eight-questions/eight-questions.svg`
+
+
+<figure class="blog-figure">
+  <img src="../assets/buyers-eight-questions/eight-questions.svg" alt="Checklist schematic of eight questions before a live-microbe SKU file" width="720" height="340" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure.</strong> A buyer file, not a certification mark, grade, or medical recommendation. <em>Original schematic; not clinical data or a product claim.</em></figcaption>
+</figure>
 
 ## 1. Genus, species, strain designation?
 

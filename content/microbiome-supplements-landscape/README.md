@@ -13,6 +13,9 @@ These essays teach how the *research* on human microbiota and on live dietary mi
 | `BIBLIOGRAPHY.md` | Consolidated sources |
 | `WP_IMPORT.md` | Staging import only |
 | `PHOTO_NOTES.md` | Diagrams; no fake lab |
+| `RIGHTS.md` | Original SVG rights; no photographs in this pass |
+| `GRAPHICS_INDEX.md` | Wired figure inventory |
+| `IMAGE_SEO.md` | `<figure>` SEO contract |
 | `drafts/` | ≥40 longform essays |
 | `qa/check_pack.py` | Count, YAML, word floor, voice bans |
 

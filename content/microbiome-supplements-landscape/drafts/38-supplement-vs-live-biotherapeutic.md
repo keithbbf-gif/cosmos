@@ -19,6 +19,8 @@ citations:
 status: draft
 voice_check: human
 legal_frame: educational-research
+featured_image: "assets/supplement-vs-lbp/category-boxes.svg"
+figure_alt: "Schematic of US dietary supplement versus live biotherapeutic product regulatory boxes"
 sources_notes: "Statute plus 2016 LBP guidance. Approvals stay in draft 37. This is the box-picking essay."
 ---
 
@@ -29,6 +31,12 @@ A live microbe does not arrive at the border with a passport that says probiotic
 > **Photo:** The two-box schematic.
 > **Caption:** Intended use is the border agent.
 > **License note:** `assets/supplement-vs-lbp/category-boxes.svg`
+
+
+<figure class="blog-figure">
+  <img src="../assets/supplement-vs-lbp/category-boxes.svg" alt="Schematic of US dietary supplement versus live biotherapeutic product regulatory boxes" width="720" height="280" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure.</strong> Intended use picks the box — educational schematic, not legal advice. <em>Original schematic; not clinical data or a product claim.</em></figcaption>
+</figure>
 
 ## What the supplement box actually is
 

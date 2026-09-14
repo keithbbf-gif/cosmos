@@ -18,6 +18,8 @@ citations:
 status: draft
 voice_check: human
 legal_frame: educational-research
+featured_image: "assets/aga-grade-rows/grade-vs-aisle.svg"
+figure_alt: "Two-column schematic contrasting a GRADE guideline row with generic gut-health aisle copy"
 sources_notes: "Public AGA page plus the two journal papers. ISAPP's contemporaneous note on species-level wording is discussed in the sister pack; keep this essay on GRADE vs aisle."
 ---
 
@@ -28,6 +30,12 @@ In June 2020 the American Gastroenterological Association published a clinical p
 > **Photo:** Two columns — "guideline row (disease, population, named organisms)" versus "aisle sentence (gut health, proprietary blend)."
 > **Caption:** Same four syllables in the headline. Different documents.
 > **License note:** Original table. Do not reproduce AGA artwork.
+
+
+<figure class="blog-figure">
+  <img src="../assets/aga-grade-rows/grade-vs-aisle.svg" alt="Two-column schematic contrasting a GRADE guideline row with generic gut-health aisle copy" width="720" height="300" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure.</strong> Same four syllables in a headline; different legal and clinical documents. Not AGA artwork. <em>Original schematic; not clinical data or a product claim.</em></figcaption>
+</figure>
 
 ## What GRADE is doing here
 

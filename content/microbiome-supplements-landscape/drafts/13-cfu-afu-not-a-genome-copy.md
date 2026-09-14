@@ -18,6 +18,8 @@ citations:
 status: draft
 voice_check: human
 legal_frame: educational-research
+featured_image: "assets/cfu-afu-units/cfu-afu-genome.svg"
+figure_alt: "Schematic of CFU plate count, ISO 19344 AFU, and qPCR genome copies marked as not equal"
 sources_notes: "ISO 19344 is the AFU teaching text. Do not invent equivalence factors between CFU and AFU."
 ---
 
@@ -28,6 +30,12 @@ sources_notes: "ISO 19344 is the AFU teaching text. Do not invent equivalence fa
 > **Photo:** Three boxes — colony on a plate / fluorescence event / PCR amplicon — with "not equal" between them.
 > **Caption:** Three answers. One number on the tub is a choice.
 > **License note:** Original schematic.
+
+
+<figure class="blog-figure">
+  <img src="../assets/cfu-afu-units/cfu-afu-genome.svg" alt="Schematic of CFU plate count, ISO 19344 AFU, and qPCR genome copies marked as not equal" width="720" height="260" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure.</strong> Three measurement objects; one integer on the tub is a method choice, not interchangeable units. <em>Original schematic; not clinical data or a product claim.</em></figcaption>
+</figure>
 
 ## CFU: useful, moody, still the trial's language
 

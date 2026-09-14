@@ -17,6 +17,8 @@ citations:
 status: draft
 voice_check: human
 legal_frame: educational-research
+featured_image: "assets/probiotic-rct-methods/rct-eight-lines.svg"
+figure_alt: "Checklist schematic of eight methods lines to find in a live-microbe randomized trial"
 sources_notes: "FTC 2022 for the advertising rule. Hill/Binda for the scientific object. AGA 2020 as an example of GRADE applied to named indications — describe, do not inherit."
 ---
 
@@ -27,6 +29,12 @@ A randomized trial of a live microbe is easy to over-read. The abstract says "pr
 > **Photo:** A marked-up methods box: strain, CFU, matrix, weeks, endpoint, n.
 > **Caption:** If a line is blank, the paper is about something else than your bottle.
 > **License note:** Original typeset. No fake data.
+
+
+<figure class="blog-figure">
+  <img src="../assets/probiotic-rct-methods/rct-eight-lines.svg" alt="Checklist schematic of eight methods lines to find in a live-microbe randomized trial" width="720" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure.</strong> If a line is blank in the paper, the trial is not about the bottle on the shelf. <em>Original schematic; not clinical data or a product claim.</em></figcaption>
+</figure>
 
 ## Eight lines that have to exist
 

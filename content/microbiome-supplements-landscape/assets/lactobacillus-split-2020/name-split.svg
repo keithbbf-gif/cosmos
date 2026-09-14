@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" role="img" aria-labelledby="t d">
+  <title id="t">2020 Lactobacillus genus split: old binomial to new genus</title>
+  <desc id="d">Teaching table after Zheng et al. 2020. Strain deposit unchanged; genus word moved. Nomenclature schematic, not a label approval.</desc>
+  <rect width="720" height="320" fill="#f6f1e8"/>
+  <text x="24" y="32" font-family="Georgia, serif" font-size="17" fill="#2c2416">Name split after Zheng et al., 2020 (teaching rows)</text>
+  <text x="180" y="68" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#2c2416">Old binomial (label dialect)</text>
+  <text x="540" y="68" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#2c2416">2020 combination</text>
+  <line x1="24" y1="78" x2="696" y2="78" stroke="#5a4a32"/>
+  <text x="180" y="108" text-anchor="middle" font-family="ui-monospace, monospace" font-size="12" fill="#3d3426">L. rhamnosus</text>
+  <text x="540" y="108" text-anchor="middle" font-family="ui-monospace, monospace" font-size="12" fill="#3d3426">Lacticaseibacillus rhamnosus</text>
+  <text x="180" y="142" text-anchor="middle" font-family="ui-monospace, monospace" font-size="12" fill="#3d3426">L. plantarum</text>
+  <text x="540" y="142" text-anchor="middle" font-family="ui-monospace, monospace" font-size="12" fill="#3d3426">Lactiplantibacillus plantarum</text>
+  <text x="180" y="176" text-anchor="middle" font-family="ui-monospace, monospace" font-size="12" fill="#3d3426">L. reuteri</text>
+  <text x="540" y="176" text-anchor="middle" font-family="ui-monospace, monospace" font-size="12" fill="#3d3426">Limosilactobacillus reuteri</text>
+  <text x="180" y="210" text-anchor="middle" font-family="ui-monospace, monospace" font-size="12" fill="#3d3426">L. brevis</text>
+  <text x="540" y="210" text-anchor="middle" font-family="ui-monospace, monospace" font-size="12" fill="#3d3426">Levilactobacillus brevis</text>
+  <rect x="24" y="232" width="672" height="48" fill="#e8d9c0" stroke="#5a4a32"/>
+  <text x="360" y="262" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="13" fill="#2c2416">Strain designation and deposit number unchanged  species rename is not a new trial</text>
+  <text x="24" y="308" font-family="ui-sans-serif, sans-serif" font-size="12" fill="#6a5b45">Cite Zheng J et al., Int J Syst Evol Microbiol. 2020;70:2782-2858. PMID 32293557.</text>
+</svg>

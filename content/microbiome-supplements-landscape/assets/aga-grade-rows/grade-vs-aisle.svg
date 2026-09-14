@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-labelledby="t d">
+  <title id="t">Clinical guideline row versus aisle marketing sentence</title>
+  <desc id="d">Two-column contrast: GRADE-style clinician document versus generic gut-health copy. Educational schematic, not AGA artwork.</desc>
+  <rect width="720" height="300" fill="#f6f1e8"/>
+  <text x="24" y="32" font-family="Georgia, serif" font-size="17" fill="#2c2416">Same headline word, different documents (schematic)</text>
+  <rect x="24" y="52" width="330" height="220" fill="#d5e0d6" stroke="#3a4a3c"/>
+  <rect x="366" y="52" width="330" height="220" fill="#e4d0d0" stroke="#5a3232"/>
+  <text x="189" y="84" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#2c2416">Guideline row</text>
+  <text x="531" y="84" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#2c2416">Aisle sentence</text>
+  <text x="189" y="118" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="12" fill="#3d3426">Named disease question</text>
+  <text x="531" y="118" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="12" fill="#3d3426">"Gut health" / "immune"</text>
+  <text x="189" y="148" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="12" fill="#3d3426">Hospital or clinic population</text>
+  <text x="531" y="148" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="12" fill="#3d3426">Proprietary blend</text>
+  <text x="189" y="178" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="12" fill="#3d3426">Named organisms where panel agreed</text>
+  <text x="531" y="178" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="12" fill="#3d3426">Strain count as decoration</text>
+  <text x="189" y="208" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="12" fill="#3d3426">GRADE certainty language</text>
+  <text x="531" y="208" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="12" fill="#3d3426">No indication, no dose file</text>
+  <text x="189" y="248" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="11" fill="#6a5b45">Clinician practice document</text>
+  <text x="531" y="248" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="11" fill="#6a5b45">Not a DTC supplement claim</text>
+  <text x="360" y="288" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="12" fill="#6a5b45">Su et al., Gastroenterology 2020, described as research  not inherited by a SKU.</text>
+</svg>

@@ -18,6 +18,8 @@ citations:
 status: draft
 voice_check: human
 legal_frame: educational-research
+featured_image: "assets/definitions-three-words/three-words.svg"
+figure_alt: "Schematic of Hill 2014 load-bearing words: live microorganisms, adequate dose, and a named host benefit"
 sources_notes: "Hill 2014 is the teaching text. FAO/WHO 2001/2002 for the older wording. Binda 2020 for the food-and-supplement criteria list."
 ---
 
@@ -28,6 +30,12 @@ In October 2013, ISAPP sat a panel in a room and asked whether the FAO/WHO sente
 > **Photo:** Stacked label: live / adequate / benefit.
 > **Caption:** Schematic of the load-bearing words. Not a product seal.
 > **License note:** Original, `assets/definitions-three-words/three-words.svg`.
+
+
+<figure class="blog-figure">
+  <img src="../assets/definitions-three-words/three-words.svg" alt="Schematic of Hill 2014 load-bearing words: live microorganisms, adequate dose, and a named host benefit" width="720" height="280" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure.</strong> Stacked schematic of the three load-bearing words in the scientific probiotic definition. Not a product seal. <em>Original schematic; not clinical data or a product claim.</em></figcaption>
+</figure>
 
 ## The 2001 sentence, and the 2002 working rules
 

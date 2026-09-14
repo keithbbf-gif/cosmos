@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="t d">
+  <title id="t">Eight lines to find in a probiotic RCT methods section</title>
+  <desc id="d">Educational checklist: strain, dose, matrix, population, endpoint, duration, registration, and SKU identity. Fictional schematic, not trial data.</desc>
+  <rect width="720" height="420" fill="#f6f1e8"/>
+  <text x="24" y="32" font-family="Georgia, serif" font-size="17" fill="#2c2416">Probiotic RCT methods box (schematic)</text>
+  <text x="24" y="54" font-family="ui-sans-serif, sans-serif" font-size="12" fill="#6a5b45">If a line is blank, the paper is not about your bottle.</text>
+  <rect x="24" y="68" width="672" height="32" fill="#e8d9c0" stroke="#5a4a32"/>
+  <text x="36" y="89" font-family="ui-sans-serif, sans-serif" font-size="14" fill="#2c2416">1. Strain designation (not species alone)</text>
+  <rect x="24" y="106" width="672" height="32" fill="#fff" stroke="#5a4a32"/>
+  <text x="36" y="127" font-family="ui-sans-serif, sans-serif" font-size="14" fill="#2c2416">2. Viable count as administered (CFU or named AFU)</text>
+  <rect x="24" y="144" width="672" height="32" fill="#e8d9c0" stroke="#5a4a32"/>
+  <text x="36" y="165" font-family="ui-sans-serif, sans-serif" font-size="14" fill="#2c2416">3. Matrix (capsule, milk, sachet, gummy)</text>
+  <rect x="24" y="182" width="672" height="32" fill="#fff" stroke="#5a4a32"/>
+  <text x="36" y="203" font-family="ui-sans-serif, sans-serif" font-size="14" fill="#2c2416">4. Population (age, health, drugs, geography)</text>
+  <rect x="24" y="220" width="672" height="32" fill="#e8d9c0" stroke="#5a4a32"/>
+  <text x="36" y="241" font-family="ui-sans-serif, sans-serif" font-size="14" fill="#2c2416">5. Primary endpoint (named, pre-specified)</text>
+  <rect x="24" y="258" width="672" height="32" fill="#fff" stroke="#5a4a32"/>
+  <text x="36" y="279" font-family="ui-sans-serif, sans-serif" font-size="14" fill="#2c2416">6. Duration and follow-up</text>
+  <rect x="24" y="296" width="672" height="32" fill="#e8d9c0" stroke="#5a4a32"/>
+  <text x="36" y="317" font-family="ui-sans-serif, sans-serif" font-size="14" fill="#2c2416">7. Trial registration and analysis plan</text>
+  <rect x="24" y="334" width="672" height="32" fill="#fff" stroke="#5a4a32"/>
+  <text x="36" y="355" font-family="ui-sans-serif, sans-serif" font-size="14" fill="#2c2416">8. Same isolate, dose, matrix as the SKU (or it is a cousin)</text>
+  <text x="24" y="400" font-family="ui-sans-serif, sans-serif" font-size="12" fill="#6a5b45">Original typeset diagram. Not a substitute for reading the paper.</text>
+</svg>

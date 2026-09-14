@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 260" role="img" aria-labelledby="t d">
+  <title id="t">CFU, AFU, and genome copies are different count objects</title>
+  <desc id="d">Three schematic panels for plate count, flow cytometry AFU, and qPCR genome copies with not-equal markers. Not potency data.</desc>
+  <rect width="720" height="260" fill="#f6f1e8"/>
+  <text x="24" y="32" font-family="Georgia, serif" font-size="17" fill="#2c2416">Three answers to "how many?" (schematic)</text>
+  <rect x="24" y="52" width="200" height="140" fill="#e8d9c0" stroke="#5a4a32"/>
+  <rect x="260" y="52" width="200" height="140" fill="#d5e0d6" stroke="#3a4a3c"/>
+  <rect x="496" y="52" width="200" height="140" fill="#e4d0d0" stroke="#5a3232"/>
+  <text x="124" y="88" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#2c2416">CFU</text>
+  <text x="360" y="88" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#2c2416">AFU</text>
+  <text x="596" y="88" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#2c2416">Genome copies</text>
+  <text x="124" y="118" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="12" fill="#3d3426">colony on plate</text>
+  <text x="360" y="118" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="12" fill="#3d3426">ISO 19344 event</text>
+  <text x="596" y="118" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="12" fill="#3d3426">qPCR target</text>
+  <text x="124" y="148" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="11" fill="#6a5b45">live growth</text>
+  <text x="360" y="148" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="11" fill="#6a5b45">stain-defined</text>
+  <text x="596" y="148" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="11" fill="#6a5b45">DNA, live or dead</text>
+  <text x="232" y="112" font-family="Georgia, serif" font-size="22" fill="#5a4a32">`</text>
+  <text x="468" y="112" font-family="Georgia, serif" font-size="22" fill="#5a4a32">`</text>
+  <text x="24" y="228" font-family="ui-sans-serif, sans-serif" font-size="12" fill="#6a5b45">One integer on the tub is a method choice. Do not invent CFU-to-AFU multipliers without a paired study.</text>
+</svg>

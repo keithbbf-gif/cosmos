@@ -17,6 +17,8 @@ citations:
 status: draft
 voice_check: human
 legal_frame: educational-research
+featured_image: "assets/supplement-label/blend-study-overlap.svg"
+figure_alt: "Venn schematic showing small overlap between what was studied in a trial and what is in the hopper"
 sources_notes: "No invented brand examples. Teach the pattern. FTC 2022 is the advertising rule."
 ---
 
@@ -27,6 +29,12 @@ The phrase is doing three jobs at once. It wants the prestige of a trial. It wan
 > **Photo:** A Venn diagram with almost no overlap: "what was studied" / "what is in the hopper this month."
 > **Caption:** The overlap is the only region the adjective can live in.
 > **License note:** Original schematic.
+
+
+<figure class="blog-figure">
+  <img src="../assets/supplement-label/blend-study-overlap.svg" alt="Venn schematic showing small overlap between what was studied in a trial and what is in the hopper" width="720" height="280" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure.</strong> The overlap region is the only place the adjective clinically studied can live without misleading a reasonable consumer. <em>Original schematic; not clinical data or a product claim.</em></figcaption>
+</figure>
 
 ## The neighbor's isolate
 

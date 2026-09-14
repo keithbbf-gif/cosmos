@@ -2,7 +2,7 @@
   <title id="t">Dietary supplement versus live biotherapeutic product</title>
   <desc id="d">US category boxes. Educational schematic, not legal advice.</desc>
   <rect width="720" height="280" fill="#f6f1e8"/>
-  <text x="24" y="32" font-family="Georgia, serif" font-size="17" fill="#2c2416">US categories (schematic)  intended use decides the box</text>
+  <text x="24" y="32" font-family="Georgia, serif" font-size="17" fill="#2c2416">US categories (schematic) — intended use decides the box</text>
   <rect x="24" y="56" width="330" height="196" fill="#e8d9c0" stroke="#5a4a32"/>
   <rect x="366" y="56" width="330" height="196" fill="#e4d0d0" stroke="#5a3232"/>
   <text x="189" y="88" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#2c2416">dietary supplement</text>

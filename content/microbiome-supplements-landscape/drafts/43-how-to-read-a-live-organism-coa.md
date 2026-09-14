@@ -18,6 +18,8 @@ citations:
 status: draft
 voice_check: human
 legal_frame: educational-research
+featured_image: "assets/live-organism-coa/coa-row-anatomy.svg"
+figure_alt: "Fictional finished-product COA rows for identity, potency with time point, and contaminants"
 sources_notes: "Sister pack has a general COA literacy piece. This one is live-organism specific. No unredacted real COAs."
 ---
 
@@ -28,6 +30,12 @@ A certificate of analysis is a lot’s report card. For a vitamin, the interesti
 > **Photo:** A redacted row list: identity / potency (unit + method + time point) / objectionable organisms / water activity.
 > **Caption:** If a row is missing, the card is a brochure.
 > **License note:** Typeset mock. No real lot numbers. No third-party letterhead you do not own.
+
+
+<figure class="blog-figure">
+  <img src="../assets/live-organism-coa/coa-row-anatomy.svg" alt="Fictional finished-product COA rows for identity, potency with time point, and contaminants" width="720" height="360" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure.</strong> Bracket placeholders only; if a row is missing on a real PDF, the card is a brochure. <em>Original schematic; not clinical data or a product claim.</em></figcaption>
+</figure>
 
 ## Identity
 

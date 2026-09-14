@@ -19,6 +19,8 @@ Markdown drafts with YAML front matter under `drafts/`. Forty-four posts plus th
 | `tags` | post tags. Create if missing. Do not add "wellness," "immune boosting," "leaky gut," "psychobiotic cure." |
 | `era_focus` | custom field `era_focus` (string year) |
 | `wave` | custom field `wave` (integer 1–6). Use for menus, not for "part 1 of a protocol." |
+| `featured_image` | optional. Repo-relative SVG path for wired drafts (`IMAGE_SEO.md`). |
+| `figure_alt` | optional. Matches `<img alt>` for importers. |
 | `citations` | custom field `citations`. Also paste into a closed HTML comment or footnote block. |
 | `status: draft` | **Draft.** Never map to `publish` or `future`. |
 | `voice_check: human` | custom field. Internal QA flag. Not a displayed byline. |
@@ -37,7 +39,7 @@ Hospital/drug pieces (10, 36, 37, 38) need a second line in that block: this ess
 1. Copy the repo folder onto a machine that can reach staging WP. Do not paste drafts into a live editor over email.
 2. Convert MD → Gutenberg with a tool that preserves headings and tables. Test one post (`01`) first.
 3. Set author to a holding user (`editorial-drafts`), not a made-up PhD or "our microbiome team."
-4. Featured image: follow `PHOTO_NOTES.md`. No stock "scientist holding a glowing gut."
+4. Featured image: use `featured_image` YAML when present; else follow `PHOTO_NOTES.md`. No stock "scientist holding a glowing gut." No AI faces.
 5. Disable "related products" / WooCommerce upsells on these posts until claims review.
 6. `noindex, nofollow` on staging. Confirm robots and site visibility.
 

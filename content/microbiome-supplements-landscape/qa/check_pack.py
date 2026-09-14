@@ -18,7 +18,11 @@ REQUIRED_ROOT = [
     "PHOTO_NOTES.md",
     "WP_IMPORT.md",
     "README.md",
+    "RIGHTS.md",
+    "GRAPHICS_INDEX.md",
+    "IMAGE_SEO.md",
 ]
+FIGURE = re.compile(r'<figure[^>]*>.*?<img\s+src="(\.\./assets/[^"]+)"', re.S)
 FM_KEYS = [
     "voice_check",
     "title",
@@ -108,6 +112,10 @@ def main() -> int:
         bad = DISEASE_SKU.search(body)
         if bad:
             errors.append(f"{path.name}: disease-SKU pattern {bad.group(0)!r}")
+        for rel in FIGURE.findall(body):
+            asset = (path.parent / rel).resolve()
+            if not asset.is_file():
+                errors.append(f"{path.name}: figure asset missing {rel}")
 
     seen: dict[str, str] = {}
     for slug, name in slugs:

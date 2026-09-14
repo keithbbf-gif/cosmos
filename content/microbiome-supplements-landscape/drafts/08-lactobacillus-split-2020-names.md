@@ -17,6 +17,8 @@ citations:
 status: draft
 voice_check: human
 legal_frame: educational-research
+featured_image: "assets/lactobacillus-split-2020/name-split.svg"
+figure_alt: "Teaching table of old Lactobacillus binomials mapped to 2020 genus combinations after Zheng et al."
 sources_notes: "Zheng 2020 is the nomenclatural act. Pair with ISAPP communications on label updates. Do not invent a regulator's deadline that is not in hand."
 ---
 
@@ -27,6 +29,12 @@ In April 2020, Zheng, Wittouck, Salvetti, and a long author list published a tax
 > **Photo:** Two-column: old binomial → 2020 binomial for four teaching species, plus "strain ID unchanged."
 > **Caption:** The deposit number is the rail. The genus word moved.
 > **License note:** Typeset table. Cite Zheng 2020 in the caption.
+
+
+<figure class="blog-figure">
+  <img src="../assets/lactobacillus-split-2020/name-split.svg" alt="Teaching table of old Lactobacillus binomials mapped to 2020 genus combinations after Zheng et al." width="720" height="320" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure.</strong> The deposit number is the rail; the genus word moved (Zheng J et al., 2020; PMID 32293557). <em>Original schematic; not clinical data or a product claim.</em></figcaption>
+</figure>
 
 ## Why they split it
 

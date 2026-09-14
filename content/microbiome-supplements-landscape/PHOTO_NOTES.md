@@ -28,10 +28,16 @@ Pack SVGs (illustrative, not data):
 
 - `assets/definitions-three-words/three-words.svg`
 - `assets/sixteen-s-vs-shotgun/amplicon-vs-shotgun.svg`
+- `assets/lactobacillus-split-2020/name-split.svg`
+- `assets/probiotic-rct-methods/rct-eight-lines.svg`
+- `assets/aga-grade-rows/grade-vs-aisle.svg`
+- `assets/cfu-afu-units/cfu-afu-genome.svg`
+- `assets/supplement-label/blend-study-overlap.svg`
 - `assets/supplement-vs-lbp/category-boxes.svg`
+- `assets/live-organism-coa/coa-row-anatomy.svg`
 - `assets/buyers-eight-questions/eight-questions.svg`
 
-Captions say schematic / qualitative. Do not add fake effect-size bars.
+Wired drafts use `<figure class="blog-figure">` per `IMAGE_SEO.md`. Rights: `RIGHTS.md`.
 
 ## Banned
 
