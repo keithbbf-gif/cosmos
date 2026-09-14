@@ -1,0 +1,37 @@
+{
+  "lang": "en",
+  "locale": "en_US",
+  "url": "https://example.com/therapy",
+  "title": "Harborview Therapy Collective",
+  "shortName": "Harborview Therapy",
+  "description": "Outpatient mental health and counseling practice marketing shell — education and service overview only. Not a patient portal.",
+  "defaultOgImage": "/assets/og-default.svg",
+  "ogImageAlt": "Harborview Therapy Collective",
+  "footerNotice": "This site provides general information only. No diagnoses, intake forms, or protected health information are collected here.",
+  "nav": [
+    { "label": "Home", "url": "/" },
+    { "label": "Approach", "url": "/approach/" },
+    { "label": "Articles", "url": "/articles/" },
+    { "label": "About", "url": "/about/" },
+    { "label": "Contact", "url": "/contact/" }
+  ],
+  "organization": {
+    "name": "Harborview Therapy Collective",
+    "description": "Licensed outpatient therapy for individuals and families.",
+    "telephone": "+1-555-0199",
+    "telephoneTel": "+15550199",
+    "email": "care@example.com",
+    "priceRange": "$$",
+    "areaServed": "Example County",
+    "addressLocality": "Example City",
+    "addressRegion": "ST",
+    "addressCountry": "US",
+    "knowsAbout": [
+      "Individual therapy",
+      "Family counseling",
+      "Trauma-informed care",
+      "Anxiety and mood support"
+    ],
+    "sameAs": []
+  }
+}

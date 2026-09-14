@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default('en') }}">
+<head>
+  {% include "partials/head-meta.njk" %}
+  {% include "partials/jsonld-professional-service.njk" %}
+</head>
+<body>
+  {% include "partials/site-header.njk" %}
+  <main id="main" class="site-main" tabindex="-1">
+    {{ content | safe }}
+  </main>
+  {% include "partials/site-footer.njk" %}
+</body>
+</html>

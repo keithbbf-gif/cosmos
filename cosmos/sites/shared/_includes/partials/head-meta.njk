@@ -1,0 +1,33 @@
+{# Core document meta + Open Graph + Twitter. Front-matter `title` / `description` override site defaults. #}
+{% set metaTitle = title | default(site.title) %}
+{% set metaDesc = description | default(site.description) %}
+{% set canonical = page.url | absoluteUrl(site.url) %}
+{% set ogType = ogType | default("website") %}
+{% set ogImage = defaultOgImage | default(site.defaultOgImage) | absoluteUrl(site.url) %}
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page.url == "/" %}{{ metaTitle }}{% else %}{{ metaTitle }} · {{ site.shortName }}{% endif %}</title>
+<meta name="description" content="{{ metaDesc }}">
+<link rel="canonical" href="{{ canonical }}">
+<meta name="robots" content="index, follow">
+
+<meta property="og:locale" content="{{ site.locale | default('en_US') }}">
+<meta property="og:site_name" content="{{ site.shortName }}">
+<meta property="og:title" content="{{ metaTitle }}">
+<meta property="og:description" content="{{ metaDesc }}">
+<meta property="og:type" content="{{ ogType }}">
+<meta property="og:url" content="{{ canonical }}">
+{% if ogImage %}
+<meta property="og:image" content="{{ ogImage }}">
+<meta property="og:image:alt" content="{{ ogImageAlt | default(site.ogImageAlt) }}">
+{% endif %}
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ metaTitle }}">
+<meta name="twitter:description" content="{{ metaDesc }}">
+{% if ogImage %}
+<meta name="twitter:image" content="{{ ogImage }}">
+{% endif %}
+
+<link rel="stylesheet" href="{{ '/assets/site.css' | url }}">

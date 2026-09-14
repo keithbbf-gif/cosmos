@@ -1,0 +1,27 @@
+{# Placeholder ProfessionalService — replace org fields before production publish. No PHI. #}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "@id": {{ (site.url ~ "#organization") | dump | safe }},
+  "name": {{ site.organization.name | dump | safe }},
+  "url": {{ site.url | dump | safe }},
+  "description": {{ site.organization.description | dump | safe }},
+  "image": {{ (site.defaultOgImage | absoluteUrl(site.url)) | dump | safe }},
+  "telephone": {{ site.organization.telephone | dump | safe }},
+  "email": {{ site.organization.email | dump | safe }},
+  "priceRange": {{ site.organization.priceRange | dump | safe }},
+  "areaServed": {
+    "@type": "AdministrativeArea",
+    "name": {{ site.organization.areaServed | dump | safe }}
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": {{ site.organization.addressLocality | dump | safe }},
+    "addressRegion": {{ site.organization.addressRegion | dump | safe }},
+    "addressCountry": {{ site.organization.addressCountry | dump | safe }}
+  },
+  "knowsAbout": {{ site.organization.knowsAbout | dump | safe }},
+  "sameAs": {{ site.organization.sameAs | dump | safe }}
+}
+</script>

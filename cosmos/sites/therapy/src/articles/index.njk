@@ -1,0 +1,22 @@
+---
+layout: layouts/base.njk
+title: Articles
+description: Educational articles on mental wellness and therapy topics from Harborview clinicians.
+permalink: /articles/
+---
+<section class="section" aria-labelledby="articles-heading">
+  <h1 id="articles-heading">Articles</h1>
+  <p>General education — not a substitute for therapy or crisis care.</p>
+  {% if collections.articles.length %}
+  <ul class="article-list">
+    {% for post in collections.articles %}
+    <li>
+      <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+      <p>{{ post.data.description }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <p>No articles published yet.</p>
+  {% endif %}
+</section>

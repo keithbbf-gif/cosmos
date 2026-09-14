@@ -1,0 +1,25 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ metaTitle | dump | safe }},
+  "description": {{ metaDesc | dump | safe }},
+  "datePublished": {{ page.date | date('yyyy-MM-dd') | dump | safe }},
+  "dateModified": {{ (page.updated | default(page.date)) | date('yyyy-MM-dd') | dump | safe }},
+  "author": {
+    "@type": "Organization",
+    "name": {{ site.organization.name | dump | safe }},
+    "url": {{ site.url | dump | safe }}
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": {{ site.organization.name | dump | safe }},
+    "url": {{ site.url | dump | safe }}
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": {{ canonical | dump | safe }}
+  },
+  "url": {{ canonical | dump | safe }}
+}
+</script>

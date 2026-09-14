@@ -1,0 +1,23 @@
+---
+layout: layouts/base.njk
+ogType: article
+---
+{% set metaTitle = title | default(site.title) %}
+{% set metaDesc = description | default(site.description) %}
+{% set canonical = page.url | absoluteUrl(site.url) %}
+{% include "partials/jsonld-article.njk" %}
+<article class="article" itemscope itemtype="https://schema.org/BlogPosting">
+  <header class="article__header">
+    <p class="article__eyebrow"><a href="{{ '/articles/' | url }}">Articles</a></p>
+    <h1 itemprop="headline">{{ metaTitle }}</h1>
+    <p class="article__meta">
+      <time datetime="{{ page.date | date('yyyy-MM-dd') }}" itemprop="datePublished">{{ page.date | date('MMMM d, yyyy') }}</time>
+      {% if readingTime %}
+      · <span>{{ readingTime }} min read</span>
+      {% endif %}
+    </p>
+  </header>
+  <div class="article__body" itemprop="articleBody">
+    {{ content | safe }}
+  </div>
+</article>

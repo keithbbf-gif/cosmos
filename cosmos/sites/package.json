@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "name": "@cosmos/site-shells",
+  "private": true,
+  "description": "Eleventy marketing shells for SLPWOW and therapy sites (no PHI forms)",
+  "scripts": {
+    "build": "npm run build:slpwow && npm run build:therapy",
+    "build:slpwow": "eleventy --config=slpwow/eleventy.config.js",
+    "build:therapy": "eleventy --config=therapy/eleventy.config.js",
+    "clean": "rm -rf slpwow/_site therapy/_site"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}

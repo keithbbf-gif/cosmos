@@ -1,0 +1,37 @@
+{
+  "lang": "en",
+  "locale": "en_US",
+  "url": "https://example.com/slpwow",
+  "title": "SLPWOW Speech & Language Services",
+  "shortName": "SLPWOW",
+  "description": "Speech-language pathology practice marketing shell — general information about communication therapy services. Not a patient portal.",
+  "defaultOgImage": "/assets/og-default.svg",
+  "ogImageAlt": "SLPWOW — speech and language services",
+  "footerNotice": "This site is a public information shell only. It does not collect protected health information. For clinical care, contact the practice directly.",
+  "nav": [
+    { "label": "Home", "url": "/" },
+    { "label": "Services", "url": "/services/" },
+    { "label": "Articles", "url": "/articles/" },
+    { "label": "About", "url": "/about/" },
+    { "label": "Contact", "url": "/contact/" }
+  ],
+  "organization": {
+    "name": "SLPWOW Speech & Language Services",
+    "description": "Outpatient speech-language pathology services for children and adults.",
+    "telephone": "+1-555-0100",
+    "telephoneTel": "+15550100",
+    "email": "hello@example.com",
+    "priceRange": "$$",
+    "areaServed": "Example Metro Area",
+    "addressLocality": "Example City",
+    "addressRegion": "ST",
+    "addressCountry": "US",
+    "knowsAbout": [
+      "Speech-language pathology",
+      "Articulation therapy",
+      "Language development",
+      "Fluency support"
+    ],
+    "sameAs": []
+  }
+}
