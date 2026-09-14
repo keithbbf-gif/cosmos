@@ -80,6 +80,10 @@ Withanone DNA-adduct work (2021, PMC8320610) is mechanistic, in vitro / chemical
 
 *Figure 2. Marker percent without HPTLC/HPLC reference is a sales number, not a release spec.*
 
+![Callout contrasting withanolide percentage claims with missing analytical methods.](../assets/ashwagandha-adaptogen-rcts-quality/withanolide-method-note.svg)
+
+*Figure 2. Marker percent without HPTLC/HPLC reference is a sales number, not a release spec.*
+
 
 - **Leaf vs root.** Leaf is cheaper and can be high in withaferin A. If the trial was root, and the drum is leaf, you have a different product and a different tox guess.
 - **Withanolide assay theater.** A single HPLC number without a chromatogram or a method ID is how you buy spiked marker.

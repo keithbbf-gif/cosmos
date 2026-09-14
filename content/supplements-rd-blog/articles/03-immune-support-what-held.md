@@ -94,6 +94,10 @@ VITAL's vitamin D arm (see piece 04) was not a COVID trial. Do not recruit it as
 
 *Figure 2. Roster themes from Bautista et al. (PMC7528445); the violation was intended use, not the nutrient itself.*
 
+![Table of ingredient classes commonly listed in early COVID warning-letter rosters.](../assets/immune-support-held-vs-hype/letter-ingredients.svg)
+
+*Figure 2. Roster themes from Bautista et al. (PMC7528445); the violation was intended use, not the nutrient itself.*
+
 
 Held, in the boring sense:
 
