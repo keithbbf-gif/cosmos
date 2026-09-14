@@ -36,12 +36,12 @@ Real sources used in the drafts. If a draft needed a number we could not pin, th
 
 ## Vitamin D, zinc, vitamin C, omega-3
 
-- Manson JE, et al. Vitamin D supplements and prevention of cancer and cardiovascular disease (VITAL). *N Engl J Med.* 2019;380:33-44. PMID 31173679.
-- Manson JE, et al. Marine n-3 fatty acids and prevention of CVD and cancer (VITAL). *N Engl J Med.* 2019;381:1540-1551. PMID 30415628.
+- Manson JE, et al. Vitamin D supplements and prevention of cancer and cardiovascular disease (VITAL). *N Engl J Med.* 2019;380:33-44. PMID 30415629.
+- Manson JE, et al. Marine n-3 fatty acids and prevention of CVD and cancer (VITAL). *N Engl J Med.* 2019;381:1540-1551. PMID 30415637.
 - Manson JE, et al. Principal results of VITAL and updated meta-analyses. PMC7089819.
 - VITAL protocol / status. ClinicalTrials.gov NCT01169259.
 - Nicholls SJ, et al. STRENGTH. *JAMA.* 2020;324(22):2268-2280. PMID 33190147. PMC7667577.
-- Bhatt DL, et al. REDUCE-IT. *N Engl J Med.* 2019;380:11-22. PMID 30415637.
+- Bhatt DL, et al. REDUCE-IT. *N Engl J Med.* 2019;380:11-22. PMID 30415628.
 - Thomas S, et al. COVID A to Z (zinc gluconate / ascorbic acid). *JAMA Netw Open.* 2021;4(2):e210369. PMID 33576820.
 - Jolliffe DA, et al. CORONAVIT. *BMJ.* 2022;378:e071230. PMID 36215226. PMC9449358.
 - Martineau AR, et al. Vitamin D supplementation to prevent acute respiratory tract infections: systematic review and meta-analysis. *BMJ.* 2017;356:i6583. (Pre-window; cited as the paper brands misused in 2020.)

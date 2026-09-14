@@ -33,7 +33,7 @@ Sports nutrition is where supplement evidence looks most like sports nutrition a
 *Figure 1. Cited anchor from the sports literature — not individualized training or medical advice.*
 
 
-Morton, Murphy, McKellar et al., *BJSM* 2018 (PMID 28698222). 49 RCTs, 1,863 participants. Protein supplementation during resistance training added a little: ~2.5 kg on 1RM, ~0.30 kg fat-free mass, some fiber CSA. Meta-regression: **no further FFM gain past a total daily protein of about 1.62 g/kg/day.** The authors noted a pragmatic ceiling near ~2.2 g/kg for people who want margin. Trained lifters gained more from powder than untrained. Older adults gained less.
+Morton, Murphy, McKellar et al., *BJSM* 2018 (PMID 28698222). 49 RCTs, 1,863 participants. Protein supplementation during resistance training added a little: ~2.5 kg on 1RM, ~0.30 kg fat-free mass, some muscle-fiber CSA. Meta-regression: **no further FFM gain past a total daily protein of about 1.62 g/kg/day.** The authors noted a pragmatic ceiling near ~2.2 g/kg for people who want margin. Trained lifters gained more from powder than untrained. Older adults gained less.
 
 That paper is pre-2020. It is still the one a serious formulator should be able to quote from memory. The post-2020 argument has been about peri-workout timing (mostly overrated once daily totals are hit), vegan vs whey (totals and leucine, not a moral category), and whether very high intakes do anything except raise grocery bills. I will not invent a 2024 meta to settle timing. `[CITE NEEDED]` if you want a specific new number.
 

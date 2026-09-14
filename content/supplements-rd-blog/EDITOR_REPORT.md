@@ -1,8 +1,9 @@
 # Editor report — supplements R&D blog pack
 
-**Branch:** `cursor/supplements-rd-blog-ee57` (PR #230)  
+**Branch:** `cursor/supplements-rd-blog-editor-b6b8` (PR #245, reconciled 2026-09-14)  
 **Editor pass date:** 2026-09-14  
-**Base:** post–≥1,000-word expansion (`35b8b1b`). **Not** PR #245.  
+**Base:** post–≥1,000-word expansion on `main` (`76c76ff` lineage from PR #230 writer work).  
+**Cleanup log:** `content/_ops/DIRTY_PR_NOTES.md`  
 **Graphics:** PR #240 SVG embeds preserved (`<!-- graphics-pack:v1 -->` + `../assets/...` paths unchanged).
 
 ## Scope
@@ -64,7 +65,8 @@ Pieces **04–14, 16–19, 22–24, 26–28, 30, 32–37, 39** received the same
 
 1. `662bbc5` — line-edit articles 01–20  
 2. `a4ff78e` — line-edit articles 21–40  
-3. *(pending)* — `EDITOR_REPORT.md` + manifest/import flag updates  
+3. `76c76ff` — `EDITOR_REPORT.md` + manifest/import flag updates  
+4. PR #245 cleanup — VITAL/REDUCE-IT PMID fixes; stub fork (`9c98817`) not merged  
 
 ## Remaining for human QA / counsel
 
@@ -74,4 +76,4 @@ Pieces **04–14, 16–19, 22–24, 26–28, 30, 32–37, 39** received the same
 
 ## Sign-off
 
-Editor agent: **pass** for voice, grammar, figure embeds, DSHEA, and word floor. Ready for science/QA partner review on PR #230.
+Editor agent: **pass** for voice, grammar, figure embeds, DSHEA, and word floor. Pack is **publish-ready for staging import** (`WP_IMPORT.md`); counsel still owns `[VERIFY]` / `[CITE NEEDED]` flags.

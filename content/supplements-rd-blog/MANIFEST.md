@@ -11,7 +11,8 @@ Editor agent: QA against `STYLE_GUIDE.md` after this commit. Do not publish.
 | `INDEX.md` | Calendar, cadence, waves |
 | `MANIFEST.md` | This inventory |
 | `STYLE_GUIDE.md` | Voice bans + `voice_check: human` → `edited` after editor |
-| `EDITOR_REPORT.md` | Editor QA sign-off (PR #230) |
+| `EDITOR_REPORT.md` | Editor QA sign-off (PR #245) |
+| `../_ops/DIRTY_PR_NOTES.md` | PR #245 reconcile / stub-removal log |
 | `CLAIMS_GUARDRAILS.md` | On-site never-say list |
 | `BIBLIOGRAPHY.md` | Citations |
 | `WP_IMPORT.md` | Staging import only |

@@ -912,7 +912,7 @@ def generate_wave2():
             "STRENGTH / REDUCE-IT 4 g drugs",
             "A MACE HR on a 300 mg softgel",
         ],
-        "PMID 30415628 / 33190147 / 30415637 — article 38",
+        "PMID 30415637 / 33190147 / 30415628 — article 38",
     )
 
     two_column_compare(

@@ -45,7 +45,7 @@ These conversions are chemistry, not marketing. A spreadsheet that multiplies D3
 
 "Suggested use: 6 capsules." The %DV is per serving. A buyer who takes 2 because the bottle is expensive is not on your studied dose. A buyer who takes 6 of a 2-capsule study product is on 3×. Gummies: "2 gummies" next to a bowl of them is how MMWR gets rows (piece 34).
 
-Proprietary blends: you can hide amounts of everything except the blend total. That is legal and usually contemptible. Sports buyers and clinicians will not take you seriously. ISSN-shaped SKUs print milligrams (piece 06, piece 32).
+Proprietary blends: you can hide amounts of everything except the blend total. That is legal and usually contemptible. Sports buyers and clinicians will not take you seriously. ISSN-shaped SKUs print milligrams (piece 06, piece 10).
 
 A "clinically studied 600 mg extract" on a 6-capsule serving that delivers 50 mg per capsule is a math problem, not a clinical problem.
 

@@ -40,7 +40,7 @@ If your 2026 PDP still has "defense against seasonal threats" with a virus icon,
 
 **COVID A to Z** (Thomas et al., *JAMA Network Open*, 12 February 2021; PMID 33576820). Outpatients with PCR-positive SARS-CoV-2. Open-label. Four arms: ascorbic acid 8,000 mg/day, zinc gluconate 50 mg at bedtime, both, or usual care. Planned ~520; stopped early for futility after 214. High-dose zinc, ascorbic acid, or both did **not** shorten symptom duration versus usual care.
 
-That is one trial, one health system, high doses that also produce GI adverse events, not blinded. It is still the best US outpatient RCT we got for the two SKUs that emptied. It does not support a COVID-treatment claim. It also does not say a person with a documented zinc deficiency should stay deficient. Those are different sentences.
+That is one trial, one health system, open-label, with high doses that also produced GI adverse events. It is still the best US outpatient RCT we got for the two SKUs that emptied. It does not support a COVID-treatment claim. It also does not say a person with a documented zinc deficiency should stay deficient. Those are different sentences.
 
 NIH ODS zinc and vitamin C fact sheets remain the adult baseline: zinc deficiency impairs immune function; excess zinc (≥40 mg/day UL for adults, and much higher acute doses) can cause copper deficiency and GI effects; vitamin C deficiency is scurvy; routine megadose C for community infections is not a settled prevention strategy. `[VERIFY]` any numeric UL you print against the current ODS page — they do edit.
 

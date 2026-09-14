@@ -10,11 +10,11 @@ tags:
   - strength
 era_focus: 2022
 citations:
-  - "Manson JE et al. N Engl J Med. 2019;380:33-44. PMID 31173679 (VITAL vitamin D)"
-  - "Manson JE et al. N Engl J Med. 2019;381:1540-1551. PMID 30415628 (VITAL omega-3)"
+  - "Manson JE et al. N Engl J Med. 2019;380:33-44. PMID 30415629 (VITAL vitamin D)"
+  - "Manson JE et al. N Engl J Med. 2019;381:1540-1551. PMID 30415637 (VITAL omega-3)"
   - "https://pmc.ncbi.nlm.nih.gov/articles/PMC7089819/"
   - "Nicholls SJ et al. JAMA. 2020;324(22):2268-2280. PMID 33190147 (STRENGTH)"
-  - "Bhatt DL et al. N Engl J Med. 2019;380:11-22. PMID 30415637 (REDUCE-IT)"
+  - "Bhatt DL et al. N Engl J Med. 2019;380:11-22. PMID 30415628 (REDUCE-IT)"
   - "Thomas S et al. JAMA Netw Open. 2021;4(2):e210369. PMID 33576820"
   - "Jolliffe DA et al. BMJ. 2022;378:e071230. PMID 36215226"
   - "https://clinicaltrials.gov/study/NCT01169259"
@@ -38,7 +38,7 @@ Three ingredients did more retail volume after 2020 than almost anything else th
 *Figure 1. Illustrative VITAL-style factorial — see NEJM methods for the published design. No hazard ratios drawn.*
 
 
-**VITAL** (Manson et al., *NEJM* 2019; PMID 31173679; n = 25,871 US adults, men ≥50, women ≥55). Factorial: vitamin D3 2,000 IU/day and/or marine omega-3 1 g/day. Median intervention 5.3 years. Vitamin D did **not** significantly reduce invasive cancer (HR 0.96, 95% CI 0.88–1.06) or major CVD events (HR 0.97, 95% CI 0.85–1.12). All-cause mortality HR 0.99 (0.87–1.12).
+**VITAL** (Manson et al., *NEJM* 2019; PMID 30415629; n = 25,871 US adults, men ≥50, women ≥55). Factorial: vitamin D3 2,000 IU/day and/or marine omega-3 1 g/day. Median intervention 5.3 years. Vitamin D did **not** significantly reduce invasive cancer (HR 0.96, 95% CI 0.88–1.06) or major CVD events (HR 0.97, 95% CI 0.85–1.12). All-cause mortality HR 0.99 (0.87–1.12).
 
 A later writeup (Manson et al., PMC7089819) flagged a possible cancer-*mortality* signal after excluding early follow-up (HR 0.75, 0.59–0.96 when the first two years were dropped). That is a secondary, latency-sensitive analysis. It is not a license to put "cuts cancer deaths" on a 2,000 IU softgel. VITAL observational follow-up is listed on ClinicalTrials.gov through 2026 (`NCT01169259`). Wait for those papers before you update this paragraph.
 
@@ -67,11 +67,11 @@ Adult UL is 40 mg elemental zinc/day from all sources (ODS). A 50 mg gluconate t
 
 Three large objects get mashed together in marketing. They are not the same product.
 
-**VITAL omega-3 arm** (Manson et al., *NEJM* 2019; PMID 30415628). 1 g/day Omacor-type fish oil (840 mg EPA+DHA: 460/380). Primary CVD composite: no significant reduction. Invasive cancer: no significant reduction. Some secondary coronary signals were discussed in the paper; they are not the primary endpoint.
+**VITAL omega-3 arm** (Manson et al., *NEJM* 2019; PMID 30415637). 1 g/day Omacor-type fish oil (840 mg EPA+DHA: 460/380). Primary CVD composite: no significant reduction. Invasive cancer: no significant reduction. Some secondary coronary signals were discussed in the paper; they are not the primary endpoint.
 
 **STRENGTH** (Nicholls et al., *JAMA* 2020; PMID 33190147). 13,078 statin-treated high-risk patients. 4 g/day omega-3 carboxylic acids (EPA+DHA) vs corn oil. Stopped for futility (DMC, January 2020; last visit May 2020). Primary MACE HR 0.99 (0.90–1.09). More atrial fibrillation and more GI events on the omega-3 side. This is a *drug-dose* mixed EPA/DHA carboxylic acid, not a 300 mg supermarket softgel.
 
-**REDUCE-IT** (Bhatt et al., *NEJM* 2019; PMID 30415637). Icosapent ethyl 4 g/day (purified EPA, prescription Vascepa) vs mineral oil in statin-treated patients with elevated triglycerides. Primary endpoint hit. That product is a drug. The comparator (mineral oil) has been argued about since the day the paper published. Neither fact turns a mixed-triglyceride fish oil supplement into Vascepa.
+**REDUCE-IT** (Bhatt et al., *NEJM* 2019; PMID 30415628). Icosapent ethyl 4 g/day (purified EPA, prescription Vascepa) vs mineral oil in statin-treated patients with elevated triglycerides. Primary endpoint hit. That product is a drug. The comparator (mineral oil) has been argued about since the day the paper published. Neither fact turns a mixed-triglyceride fish oil supplement into Vascepa.
 
 **How to talk about this on a supplement site.** You can talk about EPA and DHA as fats people under-eat if they do not eat fish. You can talk about triglyceride structure/function *carefully*, with the file and the disclaimer. You cannot take REDUCE-IT's hazard ratio and drop it under a 1 g softgel. You cannot ignore STRENGTH and VITAL when a buyer asks "does fish oil stop heart attacks."
 

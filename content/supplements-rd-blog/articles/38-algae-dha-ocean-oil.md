@@ -9,9 +9,9 @@ tags:
   - supply-chain
 era_focus: 2022
 citations:
-  - "Manson JE et al. N Engl J Med. 2019. PMID 30415628 (VITAL fish oil)"
+  - "Manson JE et al. N Engl J Med. 2019. PMID 30415637 (VITAL fish oil)"
   - "Nicholls SJ et al. JAMA. 2020. PMID 33190147 (STRENGTH)"
-  - "Bhatt DL et al. N Engl J Med. 2019. PMID 30415637 (REDUCE-IT — drug EPA)"
+  - "Bhatt DL et al. N Engl J Med. 2019. PMID 30415628 (REDUCE-IT — drug EPA)"
   - "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/"
   - "GOED Voluntary Monograph (unflavored EPA/DHA oils: PV ≤5 meq/kg, p-AV ≤20, TOTOX ≤26) — [VERIFY] live version"
 status: draft
