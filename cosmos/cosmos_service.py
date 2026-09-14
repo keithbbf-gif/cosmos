@@ -51,7 +51,8 @@ that omits what it serves is an undocumented surface, not a short one):
                            GET never mutates and never mkdir.
     GET /api/v1/studio     - MOTIF DEFINE text + RESEARCH models/targets (pack).
                            GET never mutates. Does not start MOTIF.
-    GET /api/v1/profiles   - occupancy skins + per-profile MOTIF engine.
+    GET /api/v1/profiles   - occupancy skins + per-profile MOTIF engine +
+                           seven-product Portfolio Studio live projection.
                            ?profile=website. GET never mutates. Does not start MOTIF.
     GET /api/v1/backup     - backup clock fold (heartbeat + verified names).
                            GET never runs a backup and never mkdir.
@@ -68,7 +69,7 @@ that omits what it serves is an undocumented surface, not a short one):
     GET /api/v1/orc        - ORC BootUP inspect (SEED vs running pointer).
                            GET never mkdir. Does not spawn OpenWork.
     GET /api/v1/runs_ops   - Runs ops fold: watchdog, clocks, work orders,
-                           streams, gitur, spend. GET never mutates.
+                           streams, gitur, spend, portfolio. GET never mutates.
     GET /api/v1/review     - HITL: spend approvals, blockers, required logins,
                            work-product catalog (day/week/month/90). GET never mutates.
     POST /api/v1/model_rater/refresh - pull models/rates from OpenRouter (TTL 24h)
@@ -991,6 +992,7 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                     rec = profiles_snapshot(
                         kernel.paths,
                         profile=(q.get("profile") or [""])[0],
+                        ledger=getattr(kernel, "ledger", None),
                     )
                 except ProfileError as e:
                     return self._send(400, {"error": e.kind, "detail": str(e)[:300]})

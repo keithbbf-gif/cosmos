@@ -12,6 +12,7 @@ start MOTIF and does not publish.
 from __future__ import annotations
 
 import json
+import re
 import sys
 import time
 from datetime import datetime, timezone
@@ -94,6 +95,18 @@ PROFILES = (
 )
 PROFILE_IDS = frozenset(p["id"] for p in PROFILES)
 DEFAULT_PROFILE = "website"
+
+# Portfolio Studio — seven canonical occupancy products (docs/PROFILES.md).
+PORTFOLIO_SCHEMA = "cosmos-portfolio-studio/1"
+PORTFOLIO_PRODUCT_IDS = tuple(p["id"] for p in PROFILES)
+# Tracker slug hints; absent slug → tracker evidence stays NO_SOURCE for that product.
+PRODUCT_TRACKER_SLUG = {
+    "website": "cdeck",
+}
+SLUG_TO_PRODUCT = {v: k for k, v in PRODUCT_TRACKER_SLUG.items()}
+_MOTIF_TOKEN_RE = re.compile(r"motif_([a-z0-9]+)_s(\d+)", re.I)
+_STAGE_NINE_RE = re.compile(
+    r"(?:\bstage[_\s-]?|motif[_\s-]?|s)(\d{1,2})\b", re.I)
 
 # Per-profile left-tab skin. MOTIF 9 is the default; Coding keeps tools on
 # the left and the 9-stage sequence on top, each step its own setup pane.
@@ -363,6 +376,387 @@ def save_engine(paths, body: dict) -> dict:
     return snapshot(paths, profile=row["id"], rec=out)
 
 
+def _stage_nine_meta(n: int | None) -> dict:
+    if n is None or n < 1 or n > 9:
+        return {"n": None, "id": None, "name": None}
+    row = MOTIF_STAGES[n - 1]
+    return {"n": row["n"], "id": row["id"], "name": row["name"]}
+
+
+def _evidence_shell(source: str, *, kind: str = "NO_SOURCE",
+                    seq: int | None = None, t: float | None = None,
+                    stage_n: int | None = None,
+                    detail: str | None = None) -> dict:
+    return {
+        "source": source,
+        "kind": kind,
+        "ledger_seq": seq,
+        "ledger_t": t,
+        "stage_n": stage_n,
+        "detail": None if not detail else str(detail)[:240],
+    }
+
+
+def _fold_text_hits(text: str, product_id: str) -> bool:
+    folded = re.sub(r"[^a-z0-9]+", "", str(text or "").lower())
+    pid = re.sub(r"[^a-z0-9]+", "", product_id.lower())
+    if not pid or pid not in folded:
+        return False
+    if product_id == "ups" and "upsjudge" in folded.replace("ups", "", 1):
+        return True
+    return pid in folded
+
+
+def _tracker_evidence(paths, repo, product_id: str) -> dict:
+    slug = PRODUCT_TRACKER_SLUG.get(product_id)
+    if not slug:
+        return _evidence_shell("tracker", kind="NO_SOURCE",
+                             detail="no tracker slug for this product")
+    dest = paths.state("motif_tracker.json")
+    if not dest.is_file():
+        return _evidence_shell("tracker", kind="NO_SOURCE",
+                             detail="motif_tracker.json absent")
+    try:
+        body = json.loads(dest.read_text(encoding="utf-8"))
+    except (OSError, ValueError) as e:
+        return _evidence_shell("tracker", kind="BROKE", detail=str(e)[:160])
+    rows = body.get("rows") if isinstance(body, dict) else None
+    if not isinstance(rows, list):
+        return _evidence_shell("tracker", kind="BROKE", detail="rows missing")
+    row = next((r for r in rows if isinstance(r, dict) and r.get("slug") == slug), None)
+    if not row:
+        return _evidence_shell("tracker", kind="NO_SOURCE",
+                             detail=f"slug {slug!r} not in projection")
+    cur = row.get("current_stage")
+    try:
+        n = int(cur) if cur is not None else None
+    except (TypeError, ValueError):
+        n = None
+    if n is None or n < 1:
+        return _evidence_shell(
+            "tracker", kind="UNMEASURED",
+            t=float(body.get("generated_epoch") or 0) or None,
+            detail="current_stage not an integer",
+        )
+    meta = _stage_nine_meta(min(n, 9))
+    gen = body.get("generated_epoch")
+    return _evidence_shell(
+        "tracker", kind="MEASURED",
+        t=float(gen) if gen is not None else None,
+        stage_n=meta["n"],
+        detail="tracker current_stage=%s id=%s" % (meta["n"], meta["id"]),
+    )
+
+
+def _ledger_evidence(ledger, product_id: str) -> dict:
+    if ledger is None:
+        return _evidence_shell("ledger", kind="NO_SOURCE", detail="ledger not composed")
+    best = None
+    try:
+        recs = list(ledger.verify())
+    except Exception as e:  # noqa: BLE001
+        return _evidence_shell("ledger", kind="BROKE", detail=str(e)[:160])
+    for rec in recs:
+        payload = rec.get("payload") if isinstance(rec, dict) else None
+        if not isinstance(payload, dict):
+            payload = {}
+        blob = json.dumps(payload, sort_keys=True, default=str)
+        prof = str(payload.get("profile") or payload.get("product") or "").strip().lower()
+        attributed = prof == product_id or _fold_text_hits(blob, product_id)
+        if not attributed:
+            continue
+        stage_n = payload.get("stage_n") or payload.get("motif_stage")
+        stage_id = str(payload.get("stage") or payload.get("stage_id") or "").strip().lower()
+        if stage_id in STAGE_IDS:
+            stage_n = MOTIF_STAGES[[s["id"] for s in MOTIF_STAGES].index(stage_id)]["n"]
+        if stage_n is None:
+            m = _MOTIF_TOKEN_RE.search(blob)
+            if m and SLUG_TO_PRODUCT.get(m.group(1).lower()) == product_id:
+                stage_n = int(m.group(2))
+            else:
+                m2 = _STAGE_NINE_RE.search(blob)
+                if m2:
+                    stage_n = int(m2.group(1))
+        try:
+            stage_n = int(stage_n) if stage_n is not None else None
+        except (TypeError, ValueError):
+            stage_n = None
+        if stage_n is None or stage_n < 1 or stage_n > 9:
+            kind = "UNATTRIBUTED" if prof != product_id else "UNMEASURED"
+            cand = {
+                "kind": kind,
+                "seq": rec.get("seq"),
+                "t": rec.get("t"),
+                "event": rec.get("event"),
+                "stage_n": None,
+            }
+        else:
+            cand = {
+                "kind": "MEASURED",
+                "seq": rec.get("seq"),
+                "t": rec.get("t"),
+                "event": rec.get("event"),
+                "stage_n": stage_n,
+            }
+        if best is None or int(cand.get("seq") or 0) >= int(best.get("seq") or 0):
+            best = cand
+    if not best:
+        return _evidence_shell("ledger", kind="NO_SOURCE",
+                             detail="no ledger row names this product")
+    meta = _stage_nine_meta(best.get("stage_n"))
+    return _evidence_shell(
+        "ledger", kind=best["kind"],
+        seq=int(best["seq"]) if best.get("seq") is not None else None,
+        t=float(best["t"]) if best.get("t") is not None else None,
+        stage_n=meta["n"] if best["kind"] == "MEASURED" else None,
+        detail=(
+            None if best["kind"] != "MEASURED"
+            else "event=%s stage n=%s id=%s" % (
+                best.get("event"), meta["n"], meta["id"])
+        ),
+    )
+
+
+def _work_order_evidence(paths, product_id: str) -> dict:
+    try:
+        from cosmos_work_order import fold_work_orders
+        rec = fold_work_orders(paths, limit=64)
+    except Exception as e:  # noqa: BLE001
+        return _evidence_shell("work_order", kind="BROKE", detail=str(e)[:160])
+    tagged = []
+    untagged = 0
+    for row in rec.get("rows") or []:
+        if not isinstance(row, dict):
+            continue
+        blob = " ".join(str(row.get(k) or "") for k in (
+            "order_id", "task", "agent", "product", "output_head"))
+        if _fold_text_hits(blob, product_id):
+            tagged.append(row)
+        elif blob.strip():
+            untagged += 1
+    if not tagged:
+        kind = "UNATTRIBUTED" if untagged else "NO_SOURCE"
+        return _evidence_shell(
+            "work_order", kind=kind,
+            detail=(
+                "no work order tags this product"
+                if kind == "NO_SOURCE"
+                else "work orders present but none tag this product"
+            ),
+        )
+    last = sorted(tagged, key=lambda r: str(r.get("sort") or ""))[-1]
+    blob = json.dumps(last, sort_keys=True, default=str)
+    stage_n = None
+    m = _MOTIF_TOKEN_RE.search(blob)
+    if m and SLUG_TO_PRODUCT.get(m.group(1).lower()) == product_id:
+        stage_n = int(m.group(2))
+    else:
+        m2 = _STAGE_NINE_RE.search(blob)
+        if m2:
+            stage_n = int(m2.group(1))
+    if stage_n is None or stage_n < 1 or stage_n > 9:
+        return _evidence_shell(
+            "work_order", kind="UNATTRIBUTED",
+            detail="order %s tags product but not stage"
+            % (last.get("order_id") or last.get("id")),
+        )
+    meta = _stage_nine_meta(stage_n)
+    ts = last.get("mtime") or last.get("timestamp")
+    return _evidence_shell(
+        "work_order", kind="MEASURED",
+        stage_n=meta["n"],
+        detail="order=%s stage n=%s id=%s at %s" % (
+            last.get("order_id"), meta["n"], meta["id"], ts),
+    )
+
+
+def _lease_evidence(paths, product_id: str) -> dict:
+    try:
+        from cosmos_ccr import read_lease
+        lease = read_lease(paths)
+    except Exception as e:  # noqa: BLE001
+        return _evidence_shell("lease", kind="BROKE", detail=str(e)[:160])
+    if not lease:
+        return _evidence_shell("lease", kind="NO_SOURCE", detail="CCR.lease absent")
+    stream = str(lease.get("stream") or "").strip()
+    if product_id == "forge":
+        return _evidence_shell(
+            "lease", kind="MEASURED",
+            t=float(lease.get("taken_at") or 0) or None,
+            detail="CCR held stream=%s sid=%s" % (stream, lease.get("sid")),
+        )
+    return _evidence_shell(
+        "lease", kind="UNATTRIBUTED",
+        t=float(lease.get("taken_at") or 0) or None,
+        detail="lease names forge/CCr not %s" % product_id,
+    )
+
+
+def _scheduler_evidence(paths, product_id: str) -> dict:
+    assigned_p = paths.state("watchdog2", "assigned.json")
+    inflight_p = paths.state("inflight.jsonl")
+    detail_parts = []
+    stage_n = None
+    source_t = None
+    if assigned_p.is_file():
+        try:
+            assigned = json.loads(assigned_p.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            assigned = None
+        if isinstance(assigned, dict):
+            blob = json.dumps(assigned, sort_keys=True, default=str)
+            if _fold_text_hits(blob, product_id):
+                detail_parts.append("assigned.json names product")
+                m = _STAGE_NINE_RE.search(blob)
+                if m:
+                    stage_n = int(m.group(1))
+            source_t = float(assigned.get("updated_at") or assigned.get("t") or 0) or source_t
+    if inflight_p.is_file():
+        try:
+            from cosmos_inflight import Inflight
+            active = Inflight(inflight_p).active()
+        except Exception:  # noqa: BLE001
+            active = {}
+        for token, rec in active.items():
+            m = _MOTIF_TOKEN_RE.match(str(token))
+            if not m:
+                continue
+            slug = m.group(1).lower()
+            if SLUG_TO_PRODUCT.get(slug) != product_id:
+                continue
+            stage_n = int(m.group(2))
+            source_t = float(rec.get("at") or 0) or source_t
+            detail_parts.append("inflight %s" % token)
+    if not detail_parts:
+        return _evidence_shell("scheduler", kind="NO_SOURCE",
+                             detail="assigned/inflight silent for product")
+    if stage_n is None or stage_n < 1 or stage_n > 9:
+        return _evidence_shell(
+            "scheduler", kind="UNATTRIBUTED", t=source_t,
+            detail="; ".join(detail_parts),
+        )
+    meta = _stage_nine_meta(stage_n)
+    return _evidence_shell(
+        "scheduler", kind="MEASURED", t=source_t,
+        stage_n=meta["n"],
+        detail="; ".join(detail_parts) + " stage n=%s id=%s" % (meta["n"], meta["id"]),
+    )
+
+
+def _pick_stage_fold(evidence: list[dict]) -> dict:
+    """Prefer measured stage evidence; never invent n=0."""
+    order = ("ledger", "work_order", "scheduler", "tracker", "lease")
+    for src in order:
+        ev = next((e for e in evidence if e.get("source") == src), None)
+        if not ev or ev.get("kind") != "MEASURED":
+            continue
+        try:
+            n = int(ev.get("stage_n"))
+        except (TypeError, ValueError):
+            continue
+        if n < 1 or n > 9:
+            continue
+        meta = _stage_nine_meta(n)
+        return {
+            "kind": "MEASURED",
+            "contract": "motif-9",
+            "n": meta["n"],
+            "id": meta["id"],
+            "name": meta["name"],
+            "source": src,
+            "ledger_seq": ev.get("ledger_seq"),
+            "ledger_t": ev.get("ledger_t") or ev.get("t"),
+        }
+    # typed non-measurement
+    for src in order:
+        ev = next((e for e in evidence if e.get("source") == src), None)
+        if ev and ev.get("kind") in ("UNATTRIBUTED", "UNMEASURED", "BROKE"):
+            return {
+                "kind": ev["kind"],
+                "contract": "motif-9",
+                "n": None,
+                "id": None,
+                "name": None,
+                "source": src,
+                "ledger_seq": ev.get("ledger_seq"),
+                "ledger_t": ev.get("ledger_t") or ev.get("t"),
+            }
+    return {
+        "kind": "UNMEASURED",
+        "contract": "motif-9",
+        "n": None,
+        "id": None,
+        "name": None,
+        "source": None,
+        "ledger_seq": None,
+        "ledger_t": None,
+    }
+
+
+def _occupant_fold(paths, product_id: str, *, lease_ev: dict) -> dict:
+    if lease_ev.get("source") == "lease" and lease_ev.get("kind") == "MEASURED":
+        if product_id == "forge":
+            return {
+                "kind": "MEASURED",
+                "profile": product_id,
+                "source": "lease",
+                "ledger_seq": lease_ev.get("ledger_seq"),
+                "ledger_t": lease_ev.get("ledger_t") or lease_ev.get("t"),
+                "detail": lease_ev.get("detail"),
+            }
+    return {
+        "kind": "UNMEASURED",
+        "profile": product_id,
+        "source": None,
+        "ledger_seq": None,
+        "ledger_t": None,
+        "detail": "one occupant per profile; only CCr lease names forge",
+    }
+
+
+def portfolio_projection(paths, *, ledger=None, repo=None) -> dict:
+    """Seven-product live fold. GET never mkdir. No second store."""
+    repo_p = repo if repo is not None else Path(__file__).resolve().parent.parent
+    products = []
+    for pid in PORTFOLIO_PRODUCT_IDS:
+        row = next(p for p in PROFILES if p["id"] == pid)
+        tracker_ev = _tracker_evidence(paths, repo_p, pid)
+        ledger_ev = _ledger_evidence(ledger, pid)
+        wo_ev = _work_order_evidence(paths, pid)
+        lease_ev = _lease_evidence(paths, pid)
+        sched_ev = _scheduler_evidence(paths, pid)
+        evidence = [tracker_ev, ledger_ev, sched_ev, lease_ev, wo_ev]
+        stage = _pick_stage_fold(evidence)
+        occupant = _occupant_fold(paths, pid, lease_ev=lease_ev)
+        refuse = {
+            "ledger_seq": stage.get("ledger_seq"),
+            "ledger_t": stage.get("ledger_t"),
+            "source": stage.get("source"),
+            "stage_kind": stage.get("kind"),
+        }
+        products.append({
+            "id": pid,
+            "label": row["label"],
+            "profile": pid,
+            "stage": stage,
+            "occupant": occupant,
+            "evidence": evidence,
+            "refuse_inference_after": refuse,
+        })
+    return {
+        "schema": PORTFOLIO_SCHEMA,
+        "stage_contract": "motif-9",
+        "n_products": len(products),
+        "products": products,
+        "note": (
+            "Portfolio Studio live projection from tracker, ledger, scheduler, "
+            "lease, and work-order evidence only. Untagged orders are "
+            "UNATTRIBUTED. Absent fields are UNMEASURED — never 0. Client "
+            "must refuse inference past refuse_inference_after."
+        ),
+    }
+
+
 def _bg_fold(paths, profile_id: str) -> dict:
     if profile_id != "forge":
         return {"kind": "SKIP"}
@@ -373,16 +767,20 @@ def _bg_fold(paths, profile_id: str) -> dict:
         return {"kind": "BROKE", "detail": f"{type(e).__name__}: {e}"[:200]}
 
 
-def snapshot(paths, *, profile: str = "", rec=None) -> dict:
+def snapshot(paths, *, profile: str = "", rec=None, ledger=None) -> dict:
     pid = str(profile or "").strip().lower() or DEFAULT_PROFILE
     row = _profile(pid)
     engine = rec if rec is not None else load_engine(paths, row["id"])
+    portfolio = portfolio_projection(paths, ledger=ledger)
+    active = next((p for p in portfolio["products"] if p["id"] == row["id"]), None)
     return {
         "schema": SCHEMA,
         "ok": True,
         "profile": row["id"],
         "label": row["label"],
         "kind": engine.get("kind") or "NO_SOURCE",
+        "portfolio": portfolio,
+        "portfolio_product": active,
         "profiles": catalog(),
         "stages": [dict(s) for s in MOTIF_STAGES],
         "dest_catalog": [{"id": i, "label": lab} for i, lab in row["dest"]],
@@ -520,6 +918,26 @@ def _selftest() -> int:
     check("Website GC skin left tabs are the 9 MOTIF stages",
           lambda: web_tabs[0] == "define" and web_tabs[-1] == "iterate"
           and len(web_tabs) == 9)
+    pf = snap.get("portfolio") or {}
+    check("portfolio projection lists seven canonical products UNMEASURED",
+          lambda: pf.get("n_products") == 7
+          and pf.get("stage_contract") == "motif-9"
+          and {p["id"] for p in (pf.get("products") or [])} == set(PORTFOLIO_PRODUCT_IDS)
+          and all(p["stage"]["kind"] == "UNMEASURED" and p["stage"]["n"] is None
+                  for p in (pf.get("products") or [])))
+    from cosmos_kernel import Kernel
+    k = Kernel(root, worker="profiles-selftest")
+    k.ledger.append("MOTIF_STAGE", {
+        "profile": "forge", "stage": "research", "stage_n": 2,
+    })
+    pf2 = portfolio_projection(paths, ledger=k.ledger)
+    forge_row = next(p for p in pf2["products"] if p["id"] == "forge")
+    check("ledger-bound stage fold is measured with seq/time for client refuse",
+          lambda: forge_row["stage"]["kind"] == "MEASURED"
+          and forge_row["stage"]["n"] == 2
+          and forge_row["stage"]["id"] == "research"
+          and forge_row["refuse_inference_after"]["ledger_seq"] is not None
+          and forge_row["refuse_inference_after"]["ledger_t"] is not None)
 
     failed = [(l, e) for l, ok, e in results if not ok]
     for label, ok, err in results:
