@@ -13,11 +13,27 @@ citations:
   - "DEEPSEEK2025 https://arxiv.org/abs/2501.12948"
 status: draft
 voice_check: edited
+figures:
+  - topology-open-vs-closed-deployment
+  - open-weights-epochs-2020-2026
 ---
 
 On 24 February 2023, Meta began issuing LLaMA weights to researchers. The paper (Touvron et al., arXiv 27 February) described 7B–65B models trained on public data, competitive with much larger closed systems on a slice of academic checks. Within days the weights were on BitTorrent. Meta's "research access" posture lasted about as long as a polite email.
 
 That leak — and Meta's later choice to lean into it — is the start of the modern open-weight market. Not "open source" in the OSI sense, not always. Open *weight*: you can run the file. The license may still ban your use case, your user count, or your politics.
+
+<!-- ai-blog-figures:begin -->
+<figure class="blog-figure">
+  <img src="../assets/topology-open-vs-closed-deployment/infographic-topology.svg" alt="Open-weight file deployment versus closed API topology" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Open weights shift spend to your hardware; closed APIs shift it to vendor meters — controls can be shared.</figcaption>
+</figure>
+
+<figure class="blog-figure">
+  <img src="../assets/open-weights-epochs-2020-2026/timeline.svg" alt="Open model weights epochs from 2020 to 2026" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Public weight releases expanded who could fine-tune and deploy outside hosted APIs.</figcaption>
+</figure>
+
+<!-- ai-blog-figures:end -->
 
 ## The year the file came back
 

@@ -11,11 +11,27 @@ citations:
   - "OpenAI provenance help https://help.openai.com/en/articles/8912793-c2pa-in-images"
 status: draft
 voice_check: edited
+figures:
+  - diagram-multimodal-pipeline
+  - flowchart-prompt-injection-defenses
 ---
 
 In 2022 the Coalition for Content Provenance and Authenticity published a technical specification for what it now calls Content Credentials: a signed manifest that can travel with a file and say who captured it, what edited it, and whether a generator was in the path. Adobe, Microsoft, the BBC, later Google, and a list of newsrooms and camera makers sat on the coalition. This is not a startup pitch. It is a standards fight.
 
 The 2024 election year in several countries turned the fight into a consumer problem. A clipped audio, a face on a body, a still that was never a photograph. Most of the damage was old-fashioned cheapfakes: crop, caption, speed-up. The new tools made the expensive fakes cheaper. The authenticity stack we have is incomplete on purpose. It tells you a story about a file. It does not tell you whether the story in the file is true.
+
+<!-- ai-blog-figures:begin -->
+<figure class="blog-figure">
+  <img src="../assets/diagram-multimodal-pipeline/fig-02-multimodal-pipeline.svg" alt="Generic multimodal fusion pipeline across text, vision, and audio" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Multimodal products align encoders, fuse in a shared core, then decode to text or media.</figcaption>
+</figure>
+
+<figure class="blog-figure">
+  <img src="../assets/flowchart-prompt-injection-defenses/fig-02-prompt-injection.svg" alt="Layered prompt injection defenses from sanitization to human gates" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Untrusted text in context requires isolation, tool limits, policy, and human gates — not one filter.</figcaption>
+</figure>
+
+<!-- ai-blog-figures:end -->
 
 ## Credentials, not oracles
 

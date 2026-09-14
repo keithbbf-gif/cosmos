@@ -10,11 +10,33 @@ citations:
   - "GPT5 https://openai.com/index/introducing-gpt-5-for-developers/"
 status: draft
 voice_check: edited
+figures:
+  - callout-inference-cost-drivers
+  - infographic-training-inference-cost
+  - architecture-inference-stack
 ---
 
 When GPT-4 launched on 14 March 2023, the 8K model was $0.03 per 1K input tokens and $0.06 per 1K output. That is $30 / $60 per million, in the units the industry later standardized on. GPT-3 davinci, in the 2020–21 era, had been sold per thousand in a way that made a chatty prompt a finance surprise. On 6 November 2023, DevDay, GPT-4 Turbo arrived cheaper and with 128K context. By 7 August 2025, OpenAI's GPT-5 developer post listed $1.25 / $10 per million for `gpt-5`, with mini and nano an order of magnitude down. The exact rows will move again. The direction did not.
 
 This is not a price list. It is why 2024–26 applications exist that would have been a Series A burn in 2023.
+
+<!-- ai-blog-figures:begin -->
+<figure class="blog-figure">
+  <img src="../assets/callout-inference-cost-drivers/callout-cost-drivers.svg" alt="Illustrative callout on inference cost drivers" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Inference bills track tokens, width, utilization, and region more than parameter counts alone. <em>Illustrative.</em></figcaption>
+</figure>
+
+<figure class="blog-figure">
+  <img src="../assets/infographic-training-inference-cost/infographic-training-inference.svg" alt="Schematic of training versus inference costs in a model lifecycle" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Training capex and serving opex dominate different parts of the lifecycle. <em>Illustrative.</em></figcaption>
+</figure>
+
+<figure class="blog-figure">
+  <img src="../assets/architecture-inference-stack/diagram.svg" alt="Generic LLM inference serving stack" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 3.</strong> Client request through gateway, scheduler, and workers to streamed tokens.</figcaption>
+</figure>
+
+<!-- ai-blog-figures:end -->
 
 ## Why the meter fell
 

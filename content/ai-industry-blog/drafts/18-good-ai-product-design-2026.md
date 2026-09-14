@@ -10,6 +10,9 @@ citations:
   - "CHATGPT2022 https://openai.com/index/chatgpt/"
 status: draft
 voice_check: edited
+figures:
+  - comparison-era-capability-2020-2023-2026
+  - diagram-rag-vs-long-context
 ---
 
 On 2 August 2026, the European Commission's timeline says the majority of the AI Act's remaining rules apply — transparency among them. This pack is being written five weeks later. If your "AI product design" still means a chat pane and a sparkle icon, the calendar already disagrees with you.
@@ -17,6 +20,19 @@ On 2 August 2026, the European Commission's timeline says the majority of the AI
 Good design in 2026 is not a look. It is a set of decisions about uncertainty. The model will be wrong. The user will believe it anyway. Your job is to make the wrongness expensive to miss and cheap to fix.
 
 No proprietary stack here. No internal brand diagrams. Just what a sharp team can see from the public decade.
+
+<!-- ai-blog-figures:begin -->
+<figure class="blog-figure">
+  <img src="../assets/comparison-era-capability-2020-2023-2026/fig-02-era-comparison.svg" alt="Side-by-side schematic of 2020, 2023, and 2026 capability framing" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> How buyers talked about “good enough” shifted by era — not interchangeable benchmark scores.</figcaption>
+</figure>
+
+<figure class="blog-figure">
+  <img src="../assets/diagram-rag-vs-long-context/fig-02-rag-vs-context.svg" alt="When to use RAG versus long context versus hybrid designs" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Long context and retrieval solve different freshness and citation problems — hybrids are common.</figcaption>
+</figure>
+
+<!-- ai-blog-figures:end -->
 
 ## Put the model in a job, not in a portal
 

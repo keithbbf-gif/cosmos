@@ -10,11 +10,27 @@ citations:
   - "KAPLAN2020 https://arxiv.org/abs/2001.08361"
 status: draft
 voice_check: edited
+figures:
+  - comparison-era-capability-2020-2023-2026
+  - infographic-training-inference-cost
 ---
 
 On 28 May 2020, Brown and thirty-plus co-authors put a 72-page paper on arXiv: *Language Models are Few-Shot Learners*. The headline number was 175 billion parameters. The useful claim sat one layer down. You could specify a task in English, optionally with a handful of examples, and get usable output without a fine-tune.
 
 Three weeks later, on 11 June, OpenAI opened an HTTP API. The paper was the science. The API was the product. That split — weights stay home, tokens leave the building — is the shape most of the industry still ships.
+
+<!-- ai-blog-figures:begin -->
+<figure class="blog-figure">
+  <img src="../assets/comparison-era-capability-2020-2023-2026/fig-02-era-comparison.svg" alt="Side-by-side schematic of 2020, 2023, and 2026 capability framing" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> How buyers talked about “good enough” shifted by era — not interchangeable benchmark scores.</figcaption>
+</figure>
+
+<figure class="blog-figure">
+  <img src="../assets/infographic-training-inference-cost/infographic-training-inference.svg" alt="Schematic of training versus inference costs in a model lifecycle" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Training capex and serving opex dominate different parts of the lifecycle. <em>Illustrative.</em></figcaption>
+</figure>
+
+<!-- ai-blog-figures:end -->
 
 ## What actually shipped
 

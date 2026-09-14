@@ -11,6 +11,9 @@ citations:
   - "NIST_RMF https://doi.org/10.6028/NIST.AI.100-1"
 status: draft
 voice_check: edited
+figures:
+  - flowchart-safety-evals-release
+  - diagram-red-team-vs-eval-harness
 ---
 
 On 4 March 2022, Ouyang et al. posted the InstructGPT paper. The opening is the whole field in one line: making the model bigger does not make it follow a user's intent. A 1.3B model trained with human feedback beat 175B GPT-3 on labeler preference. Helpfulness went up. Toxicity, on their measurements, went down a bit. The model still made "simple mistakes."
@@ -18,6 +21,19 @@ On 4 March 2022, Ouyang et al. posted the InstructGPT paper. The opening is the 
 That paper is the industrial safety stack, year one: demonstrate the behavior you want, rank the alternatives, reinforce. Everything after — constitutions, RLAIF, refusal taxonomies, bug bounties — is a variation on who writes the preference and how expensive they are.
 
 This piece stays at that altitude. No exploit recipes. No "how to jailbreak." Those do not belong in a public education pack.
+
+<!-- ai-blog-figures:begin -->
+<figure class="blog-figure">
+  <img src="../assets/flowchart-safety-evals-release/fig-02-safety-evals-flow.svg" alt="Generic safety evaluation flow before model release" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Safety programs combine policy specs, automated probes, human review, and regression harnesses.</figcaption>
+</figure>
+
+<figure class="blog-figure">
+  <img src="../assets/diagram-red-team-vs-eval-harness/fig-02-red-team-eval.svg" alt="Red team exercises versus fixed eval harness loops" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Red teams hunt unknown failures; harnesses guard against regressions on known tests.</figcaption>
+</figure>
+
+<!-- ai-blog-figures:end -->
 
 ## RLHF, said without incense
 

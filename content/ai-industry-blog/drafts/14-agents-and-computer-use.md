@@ -10,11 +10,33 @@ citations:
   - "OPERATOR https://openai.com/index/introducing-operator/"
 status: draft
 voice_check: edited
+figures:
+  - swimlane-agent-orchestration
+  - architecture-agent-tool-loop
+  - flowchart-prompt-injection-defenses
 ---
 
 On 22 October 2024, Anthropic announced that Claude 3.5 Sonnet could use a computer: look at a screenshot, move a cursor, click, type. The research note is plain. They trained on a small set of apps (a calculator, a text editor), kept the model off the open internet during that training for safety reasons, and watched it generalize to software it had not been taught as a tool API. The interface is the human interface.
 
 That is the shift. For three years we made tools fit the model — JSON schemas, custom functions, tidy MCP-style catalogs. Computer-use makes the model fit the tools that already exist, including the ugly ones with no API.
+
+<!-- ai-blog-figures:begin -->
+<figure class="blog-figure">
+  <img src="../assets/swimlane-agent-orchestration/fig-02-agent-swimlanes.svg" alt="Swimlane diagram of user, orchestrator, tools, and policy in agent workflows" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Agent products split planning, tool execution, and policy across coordinated lanes.</figcaption>
+</figure>
+
+<figure class="blog-figure">
+  <img src="../assets/architecture-agent-tool-loop/diagram.svg" alt="Conceptual agent plan-act-observe loop with tools" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Agents plan, call tools, observe results, and iterate until a final answer.</figcaption>
+</figure>
+
+<figure class="blog-figure">
+  <img src="../assets/flowchart-prompt-injection-defenses/fig-02-prompt-injection.svg" alt="Layered prompt injection defenses from sanitization to human gates" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 3.</strong> Untrusted text in context requires isolation, tool limits, policy, and human gates — not one filter.</figcaption>
+</figure>
+
+<!-- ai-blog-figures:end -->
 
 ## Two product shapes, immediately
 

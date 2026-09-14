@@ -10,11 +10,27 @@ citations:
   - "NIST_RMF https://doi.org/10.6028/NIST.AI.100-1"
 status: draft
 voice_check: edited
+figures:
+  - decision-tree-ai-compliance
+  - flowchart-prompt-injection-defenses
 ---
 
 On 13 February 2024, OpenAI posted *Memory and new controls for ChatGPT*. The model would remember facts you told it — a child's name, a preferred stack, a diet — and use them later, with a UI to see and delete. Users who had been pasting "remember that I like…" into every thread got a product. Privacy people got a retention graph. Both were correct.
 
 Every lab shipped a cousin: "personalized Gems / GPTs," project folders, Claude's project knowledge, Gemini's saved info, the 2025–26 "it knows my life" features. The 2022 box was stateless on purpose (plus a thread). The 2024 box wanted to be a companion. Companions have GDPR problems.
+
+<!-- ai-blog-figures:begin -->
+<figure class="blog-figure">
+  <img src="../assets/decision-tree-ai-compliance/decision-tree-compliance.svg" alt="High-level AI compliance decision tree" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Compliance paths depend on risk tier and sector — confirm with counsel, not this schematic.</figcaption>
+</figure>
+
+<figure class="blog-figure">
+  <img src="../assets/flowchart-prompt-injection-defenses/fig-02-prompt-injection.svg" alt="Layered prompt injection defenses from sanitization to human gates" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Untrusted text in context requires isolation, tool limits, policy, and human gates — not one filter.</figcaption>
+</figure>
+
+<!-- ai-blog-figures:end -->
 
 ## Two memories, often mashed
 

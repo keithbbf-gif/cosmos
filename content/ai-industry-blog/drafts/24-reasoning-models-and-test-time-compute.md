@@ -10,11 +10,27 @@ citations:
   - "GPT5 https://openai.com/index/introducing-gpt-5/"
 status: draft
 voice_check: edited
+figures:
+  - eval-harness-pipeline
+  - infographic-training-inference-cost
 ---
 
 On 12 September 2024, OpenAI posted *Introducing OpenAI o1-preview*. The claim was not a bigger pretrain. It was a model trained to spend more time "thinking" before it answers — hidden chain-of-thought, reinforcement learning, better scores on math, code, and science slices. Rate limits at launch were tiny (the 17 September update: 50 o1-preview queries per week on the Plus tier, in their post). People used the fifty. Screenshots of the "thought" UI leaked a culture: wait longer, pay more, get a better integral.
 
 On 20 January 2025, DeepSeek-R1 landed with weights and a paper that was more specific about the RL stage than OpenAI had been. Hugging Face's Open-R1 write-up (28 January 2025) called the week what it was: a closed recipe, partially opened, immediately cloned. Equity markets noticed. This pack is not a trading desk. The engineering notice is enough. Test-time compute was no longer a single vendor's SKU.
+
+<!-- ai-blog-figures:begin -->
+<figure class="blog-figure">
+  <img src="../assets/eval-harness-pipeline/explainer.svg" alt="Generic evaluation harness pipeline" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Reproducible evals version prompts, fix decoding, score outputs, and publish provenance.</figcaption>
+</figure>
+
+<figure class="blog-figure">
+  <img src="../assets/infographic-training-inference-cost/infographic-training-inference.svg" alt="Schematic of training versus inference costs in a model lifecycle" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Training capex and serving opex dominate different parts of the lifecycle. <em>Illustrative.</em></figcaption>
+</figure>
+
+<!-- ai-blog-figures:end -->
 
 ## What "thinking" is, publicly
 

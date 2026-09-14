@@ -10,11 +10,27 @@ citations:
   - "O1 https://openai.com/index/introducing-openai-o1-preview/"
 status: draft
 voice_check: edited
+figures:
+  - comparison-era-capability-2020-2023-2026
+  - eval-benchmark-families
 ---
 
 OpenAI's charter (the public one, updated over the years; the page still live) names "highly autonomous systems that outperform humans at most economically valuable work" as the AGI destination and says the company will stop competing on that object if a later-stage project needs to. That sentence is why a chat company has a nonprofit parent and why November 2023's board week (see that draft) sounded like theology. GPT-4's 14 March 2023 post was more careful in the body — "less capable than humans in many real-world scenarios" — and less careful in the culture it fed. Bar-exam clips do that.
 
 This piece is not a bet on a date. It is about what the *word* did to people who ship software.
+
+<!-- ai-blog-figures:begin -->
+<figure class="blog-figure">
+  <img src="../assets/comparison-era-capability-2020-2023-2026/fig-02-era-comparison.svg" alt="Side-by-side schematic of 2020, 2023, and 2026 capability framing" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> How buyers talked about “good enough” shifted by era — not interchangeable benchmark scores.</figcaption>
+</figure>
+
+<figure class="blog-figure">
+  <img src="../assets/eval-benchmark-families/explainer.svg" alt="Families of public AI benchmarks" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Leaderboard suites cluster by task type — scores are not interchangeable.</figcaption>
+</figure>
+
+<!-- ai-blog-figures:end -->
 
 ## What the word bought
 

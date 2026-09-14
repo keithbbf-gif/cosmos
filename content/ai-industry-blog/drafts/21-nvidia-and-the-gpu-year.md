@@ -10,11 +10,27 @@ citations:
   - "HOFFMANN2022 https://arxiv.org/abs/2203.15556"
 status: draft
 voice_check: edited
+figures:
+  - compute-and-scaling-2020-2026
+  - infographic-training-inference-cost
 ---
 
 On 22 March 2022, NVIDIA announced the Hopper architecture and the H100. Training-scale buyers did not get piles of them that spring. They got waitlists, and then, through 2023, a market where "we have H100 allocation" was a Series B slide. Kaplan's January 2020 power law had predicted that dollars of compute would keep buying loss. It had not predicted that one company's SKU would become the unit of strategy.
 
 This is not a stock tip. It is a systems story. The models in this pack — GPT-4, Llama 3, Gemini, DeepSeek-V3 — all sat on some mix of NVIDIA (and, at Google, TPU) iron. The 2023–24 "AI boom" that CFOs felt was often a capex boom with a model name on the press release.
+
+<!-- ai-blog-figures:begin -->
+<figure class="blog-figure">
+  <img src="../assets/compute-and-scaling-2020-2026/timeline.svg" alt="Compute and scaling narrative from 2020 to 2026" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Training scale, hardware cycles, and serving economics entered mainstream discourse.</figcaption>
+</figure>
+
+<figure class="blog-figure">
+  <img src="../assets/infographic-training-inference-cost/infographic-training-inference.svg" alt="Schematic of training versus inference costs in a model lifecycle" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Training capex and serving opex dominate different parts of the lifecycle. <em>Illustrative.</em></figcaption>
+</figure>
+
+<!-- ai-blog-figures:end -->
 
 ## What the H100 changed, technically
 

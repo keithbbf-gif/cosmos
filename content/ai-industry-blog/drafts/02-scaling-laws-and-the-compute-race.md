@@ -10,11 +10,27 @@ citations:
   - "BROWN2020 https://arxiv.org/abs/2005.14165"
 status: draft
 voice_check: edited
+figures:
+  - compute-and-scaling-2020-2026
+  - infographic-training-inference-cost
 ---
 
 On 23 January 2020, Kaplan, McCandlish, and eight colleagues posted a paper that reads like condensed-matter physics wearing an LM badge. Cross-entropy loss, they said, falls as a power law with model size, dataset size, and training compute. Some of the fits ran over seven orders of magnitude. Width and depth, inside a wide band, barely mattered.
 
 That is a stronger claim than "bigger is better." It says the next dollar of compute has a predictable return, and that most of the architectural fiddling of 2018–19 was inside the noise. Labs that believed it started shopping for clusters. Labs that did not still ended up shopping, because the believers published GPT-3 five months later.
+
+<!-- ai-blog-figures:begin -->
+<figure class="blog-figure">
+  <img src="../assets/compute-and-scaling-2020-2026/timeline.svg" alt="Compute and scaling narrative from 2020 to 2026" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Training scale, hardware cycles, and serving economics entered mainstream discourse.</figcaption>
+</figure>
+
+<figure class="blog-figure">
+  <img src="../assets/infographic-training-inference-cost/infographic-training-inference.svg" alt="Schematic of training versus inference costs in a model lifecycle" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Training capex and serving opex dominate different parts of the lifecycle. <em>Illustrative.</em></figcaption>
+</figure>
+
+<!-- ai-blog-figures:end -->
 
 ## What the Kaplan fit actually said
 

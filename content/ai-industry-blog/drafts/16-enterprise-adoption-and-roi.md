@@ -9,6 +9,9 @@ citations:
   - "MCK_AI https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai"
 status: draft
 voice_check: edited
+figures:
+  - callout-inference-cost-drivers
+  - topology-open-vs-closed-deployment
 ---
 
 On 1 November 2023, Microsoft 365 Copilot went generally available. The list price that stuck in every CFO chat was $30 per user per month on top of the existing Office seat. Ten thousand seats, $3.6 million a year, before anyone measured a minute saved. Jared Spataro's product story was conservative in one respect: the model drafts, the employee keeps the send button. That is the right shape. It is also why "we bought Copilot" is not the same sentence as "we changed the work."
@@ -16,6 +19,19 @@ On 1 November 2023, Microsoft 365 Copilot went generally available. The list pri
 Eighteen months later the pattern was boring enough to be true. Lots of experiments. Some daily habits (summarize the thread, first draft the deck). Few process redesigns. A smaller set of firms with a measured line on a P&L. McKinsey's annual *State of AI* surveys have documented the gap between "we use generative AI somewhere" and "we can show EBIT." Quote the latest PDF when you publish; do not quote a blog that quotes McKinsey. **[CITE NEEDED]** for any 2025 percentage you want to put in a customer memo.
 
 A 2025 MIT-associated figure about most pilots showing no return made the trade-press rounds. Same rule: no primary PDF, no number in this draft.
+
+<!-- ai-blog-figures:begin -->
+<figure class="blog-figure">
+  <img src="../assets/callout-inference-cost-drivers/callout-cost-drivers.svg" alt="Illustrative callout on inference cost drivers" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Inference bills track tokens, width, utilization, and region more than parameter counts alone. <em>Illustrative.</em></figcaption>
+</figure>
+
+<figure class="blog-figure">
+  <img src="../assets/topology-open-vs-closed-deployment/infographic-topology.svg" alt="Open-weight file deployment versus closed API topology" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Open weights shift spend to your hardware; closed APIs shift it to vendor meters — controls can be shared.</figcaption>
+</figure>
+
+<!-- ai-blog-figures:end -->
 
 ## What enterprises actually bought
 

@@ -10,6 +10,9 @@ citations:
   - "ABDIN2024 https://arxiv.org/abs/2404.14219"
 status: draft
 voice_check: edited
+figures:
+  - infographic-data-flywheel
+  - infographic-training-inference-cost
 ---
 
 On 27 December 2023, The New York Times Company filed a copyright complaint in the Southern District of New York against OpenAI and Microsoft. The public PDF is 30-plus megabytes of allegation: training copies, memorized output, Bing-adjacent display, a request for statutory damages and (in the ask that made engineers sit up) destruction of datasets. It is a complaint. It is not a verdict.
@@ -17,6 +20,19 @@ On 27 December 2023, The New York Times Company filed a copyright complaint in t
 The filing is still the cleanest public artifact of the fight the whole industry had been having in private: is training a fair use, a license event, or a mass infringement? And when a model emits a near-copy, is that a second wrong or the same one?
 
 This piece will not pick a winner. Courts will. As of the last primary-adjacent check (Judge Stein denying key dismissal arguments in 2025; case ongoing), the core infringement theory was still alive. `[CITE NEEDED]` PACER opinion if you quote holdings.
+
+<!-- ai-blog-figures:begin -->
+<figure class="blog-figure">
+  <img src="../assets/infographic-data-flywheel/infographic-data-flywheel.svg" alt="Generic product data flywheel from deployment to next training mix" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Usage can feed future models when consent, retention, and law allow — not automatically.</figcaption>
+</figure>
+
+<figure class="blog-figure">
+  <img src="../assets/infographic-training-inference-cost/infographic-training-inference.svg" alt="Schematic of training versus inference costs in a model lifecycle" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Training capex and serving opex dominate different parts of the lifecycle. <em>Illustrative.</em></figcaption>
+</figure>
+
+<!-- ai-blog-figures:end -->
 
 ## Two copies, often confused
 

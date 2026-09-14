@@ -11,11 +11,27 @@ citations:
   - "KAPLAN2020 https://arxiv.org/abs/2001.08361"
 status: draft
 voice_check: edited
+figures:
+  - comparison-era-capability-2020-2023-2026
+  - industry-milestones-2020-2026
 ---
 
 On 14 February 2019, OpenAI posted *Better Language Models and Their Implications* and held back the 1.5-billion-parameter GPT-2 checkpoint. They released a 124-million-parameter tease, then larger slices through the year, and the full model in November 2019. The stated reason was misuse: fluent propaganda, spam, impersonation. The stated method was "staged release." By 1 January 2020 that experiment was already a year old, and the field was already split about whether it had taught anyone anything.
 
 This pack starts on that date on purpose. The transformer breakout did not begin with ChatGPT. It began with a pile of 2018–19 papers that 2020 then industrialized.
+
+<!-- ai-blog-figures:begin -->
+<figure class="blog-figure">
+  <img src="../assets/comparison-era-capability-2020-2023-2026/fig-02-era-comparison.svg" alt="Side-by-side schematic of 2020, 2023, and 2026 capability framing" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> How buyers talked about “good enough” shifted by era — not interchangeable benchmark scores.</figcaption>
+</figure>
+
+<figure class="blog-figure">
+  <img src="../assets/industry-milestones-2020-2026/timeline.svg" alt="Public AI industry milestones from 2020 to 2026" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Selected milestones in research, products, and policy. <em>Not exhaustive.</em></figcaption>
+</figure>
+
+<!-- ai-blog-figures:end -->
 
 ## What was already on disk
 

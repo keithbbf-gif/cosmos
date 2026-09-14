@@ -13,11 +13,33 @@ citations:
   - "AIACT_TL https://ai-act-service-desk.ec.europa.eu/en/ai-act/timeline/timeline-implementation-eu-ai-act"
 status: draft
 voice_check: edited
+figures:
+  - decision-tree-ai-compliance
+  - regulation-eu-ai-act
+  - regulation-us-federal-2023-2026
 ---
 
 On 26 January 2023, NIST published the AI Risk Management Framework 1.0 (NIST AI 100-1). It is voluntary. It is also the closest thing the United States has had, through two administrations, to a shared vocabulary: map, measure, manage, govern. If your US "AI governance" deck does not mention it, the deck is cosplay.
 
 On 1 August 2024, Regulation (EU) 2024/1689 — the AI Act — entered into force. That is a different animal. It is law. It applies on a staggered calendar set out in Article 113, and the Commission's own service desk now warns that a Digital Omnibus on AI has moved some later dates. If you ship in Europe, you read the regulation and the current timeline, not a 2024 explainer thread.
+
+<!-- ai-blog-figures:begin -->
+<figure class="blog-figure">
+  <img src="../assets/decision-tree-ai-compliance/decision-tree-compliance.svg" alt="High-level AI compliance decision tree" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Compliance paths depend on risk tier and sector — confirm with counsel, not this schematic.</figcaption>
+</figure>
+
+<figure class="blog-figure">
+  <img src="../assets/regulation-eu-ai-act/timeline.svg" alt="EU AI Act public implementation timeline" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Staggered EU obligations as commonly summarized — verify against EUR-Lex.</figcaption>
+</figure>
+
+<figure class="blog-figure">
+  <img src="../assets/regulation-us-federal-2023-2026/timeline.svg" alt="Selected U.S. federal AI policy milestones" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 3.</strong> Selected federal milestones. <em>Not legal advice.</em></figcaption>
+</figure>
+
+<!-- ai-blog-figures:end -->
 
 ## NIST, the document people can actually use
 

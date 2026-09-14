@@ -11,11 +11,27 @@ citations:
   - "DALLE2 https://openai.com/index/dall-e-2/"
 status: draft
 voice_check: edited
+figures:
+  - diagram-multimodal-pipeline
+  - comparison-era-capability-2020-2023-2026
 ---
 
 On 5 January 2021, OpenAI showed DALL·E: a 12-billion-parameter transformer that turned a caption into a picture. The name was a bad pun. The demo was not. "An armchair in the shape of an avocado" stopped being a joke about dataset trivia and became a product category.
 
 DALL·E was not yet the diffusion stack the world standardized on. It was a discrete VAE plus a transformer over image tokens, in the GPT family. The public saw samples, not weights. Researchers saw a research blog and a later paper. The pattern matched GPT-3: capability first, access later, files never.
+
+<!-- ai-blog-figures:begin -->
+<figure class="blog-figure">
+  <img src="../assets/diagram-multimodal-pipeline/fig-02-multimodal-pipeline.svg" alt="Generic multimodal fusion pipeline across text, vision, and audio" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Multimodal products align encoders, fuse in a shared core, then decode to text or media.</figcaption>
+</figure>
+
+<figure class="blog-figure">
+  <img src="../assets/comparison-era-capability-2020-2023-2026/fig-02-era-comparison.svg" alt="Side-by-side schematic of 2020, 2023, and 2026 capability framing" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> How buyers talked about “good enough” shifted by era — not interchangeable benchmark scores.</figcaption>
+</figure>
+
+<!-- ai-blog-figures:end -->
 
 ## The method that actually spread
 

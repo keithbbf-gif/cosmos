@@ -10,11 +10,27 @@ citations:
   - "LORA https://arxiv.org/abs/2106.09685"
 status: draft
 voice_check: edited
+figures:
+  - topology-open-vs-closed-deployment
+  - open-weights-epochs-2020-2026
 ---
 
 In March 2023, Georgi Gerganov released `llama.cpp`: a C/C++ port that ran Llama-class models on a Mac CPU, then on Apple silicon, then everywhere, with quantization that made a 7B fit in RAM that a PyTorch bf16 run would not. The same year, Kwon et al. posted vLLM (*Efficient Memory Management for Large Language Model Serving*, 12 September 2023; OSDI-era follow-through): paged attention, a KV-cache story that made GPU serving stop wasting half the card on fragmentation. Hugging Face's `transformers` (2018–) and `diffusers` plus the Hub were already the distribution layer. Together these objects are why "open weights" is a product sentence and not a torrent joke.
 
 Llama 2 (18 July 2023) is the file. This draft is the wrench.
+
+<!-- ai-blog-figures:begin -->
+<figure class="blog-figure">
+  <img src="../assets/topology-open-vs-closed-deployment/infographic-topology.svg" alt="Open-weight file deployment versus closed API topology" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Open weights shift spend to your hardware; closed APIs shift it to vendor meters — controls can be shared.</figcaption>
+</figure>
+
+<figure class="blog-figure">
+  <img src="../assets/open-weights-epochs-2020-2026/timeline.svg" alt="Open model weights epochs from 2020 to 2026" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Public weight releases expanded who could fine-tune and deploy outside hosted APIs.</figcaption>
+</figure>
+
+<!-- ai-blog-figures:end -->
 
 ## Three layers, not a religion
 

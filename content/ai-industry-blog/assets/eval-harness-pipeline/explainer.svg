@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 400" width="1100" height="400" role="img" aria-labelledby="title desc">
+  <title id="title">Evaluation harness (generic)</title>
+  <desc id="desc">Editorial diagram for the AI industry blog. Generic public concepts only.</desc>
+  <defs>
+    <style>
+      .t-title { font: 600 26px Georgia, 'Times New Roman', serif; fill: #141414; }
+      .t-sub { font: 400 14px system-ui, -apple-system, 'Segoe UI', sans-serif; fill: #5C574F; }
+      .t-year { font: 700 13px system-ui, sans-serif; fill: #1E4D6B; }
+      .t-label { font: 600 12px system-ui, sans-serif; fill: #141414; }
+      .t-body { font: 400 11.5px system-ui, sans-serif; fill: #5C574F; }
+      .t-small { font: 400 10px system-ui, sans-serif; fill: #8A847A; }
+      .t-card-title { font: 600 13px system-ui, sans-serif; fill: #141414; }
+    </style>
+    <filter id="shadow" x="-4%" y="-4%" width="108%" height="108%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#141414" flood-opacity="0.08"/>
+    </filter>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#1E4D6B"/>
+    </marker>
+  </defs>
+  <rect width="100%" height="100%" fill="#FAF8F5"/>
+  <text x="48" y="38" class="t-title">Evaluation harness (generic)</text>
+  <text x="48" y="62" class="t-sub">Repeatable runs from prompt set to reported metrics</text>
+  <line x1="48" y1="74" x2="1052" y2="74" stroke="#E3DDD4"/>
+  <line x1="240" y1="197" x2="280" y2="197" stroke="#1E4D6B" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="430" y1="197" x2="470" y2="197" stroke="#1E4D6B" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="640" y1="197" x2="680" y2="197" stroke="#1E4D6B" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="860" y1="197" x2="900" y2="197" stroke="#1E4D6B" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="70" y="160" width="170" height="75" rx="8" fill="#FFFFFF" stroke="#E3DDD4" filter="url(#shadow)"/>
+  <rect x="70" y="160" width="170" height="6" rx="8" fill="#D4E4ED"/>
+  <text x="155.0" y="188" text-anchor="middle" class="t-card-title">Prompt set</text>
+  <text x="155.0" y="208" text-anchor="middle" class="t-body">Fixed items + rubric</text>
+  <rect x="280" y="160" width="150" height="75" rx="8" fill="#FFFFFF" stroke="#E3DDD4" filter="url(#shadow)"/>
+  <rect x="280" y="160" width="150" height="6" rx="8" fill="#D4E4ED"/>
+  <text x="355.0" y="188" text-anchor="middle" class="t-card-title">Runner</text>
+  <text x="355.0" y="208" text-anchor="middle" class="t-body">Temperature, seeds</text>
+  <rect x="470" y="160" width="170" height="75" rx="8" fill="#FFFFFF" stroke="#E3DDD4" filter="url(#shadow)"/>
+  <rect x="470" y="160" width="170" height="6" rx="8" fill="#D4E4ED"/>
+  <text x="555.0" y="188" text-anchor="middle" class="t-card-title">Model endpoint</text>
+  <text x="555.0" y="208" text-anchor="middle" class="t-body">Same build each run</text>
+  <rect x="680" y="160" width="180" height="75" rx="8" fill="#FFFFFF" stroke="#E3DDD4" filter="url(#shadow)"/>
+  <rect x="680" y="160" width="180" height="6" rx="8" fill="#D4E4ED"/>
+  <text x="770.0" y="188" text-anchor="middle" class="t-card-title">Scoring</text>
+  <text x="770.0" y="208" text-anchor="middle" class="t-body">Exact match, judges, code</text>
+  <text x="770.0" y="222" text-anchor="middle" class="t-body">exec</text>
+  <rect x="900" y="160" width="170" height="75" rx="8" fill="#FFFFFF" stroke="#E3DDD4" filter="url(#shadow)"/>
+  <rect x="900" y="160" width="170" height="6" rx="8" fill="#D4E4ED"/>
+  <text x="985.0" y="188" text-anchor="middle" class="t-card-title">Report</text>
+  <text x="985.0" y="208" text-anchor="middle" class="t-body">Tables + confidence notes</text>
+  <text x="48" y="376" class="t-small">Good harnesses version data, log prompts, and document judge models.</text>
+</svg>

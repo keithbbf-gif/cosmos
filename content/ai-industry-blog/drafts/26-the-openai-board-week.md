@@ -10,11 +10,27 @@ citations:
   - "GPT4 https://openai.com/index/gpt-4-research/"
 status: draft
 voice_check: edited
+figures:
+  - industry-milestones-2020-2026
+  - comparison-era-capability-2020-2023-2026
 ---
 
 On 17 November 2023, OpenAI's nonprofit board posted that Sam Altman would "depart as CEO" and leave the board. Mira Murati was interim CEO. The sentence that mattered: the board had concluded he was "not consistently candid," and it no longer had confidence in his leadership. Ilya Sutskever, Adam D'Angelo, Tasha McCauley, and Helen Toner were the directors named on that post. Greg Brockman was stripped of the chair and then, within hours, left too.
 
 By 21 November, Altman was CEO again, the board was being rebuilt, and Microsoft — already the capital and Azure partner — had spent a weekend looking like the lifeboat (Satya Nadella's public "we are on their side" and the offer to hire the team). The primary posts are the 17 November announcement and the 29 November "Sam Altman returns… new initial board" note. Almost everything else is reporting. Use it as reporting.
+
+<!-- ai-blog-figures:begin -->
+<figure class="blog-figure">
+  <img src="../assets/industry-milestones-2020-2026/timeline.svg" alt="Public AI industry milestones from 2020 to 2026" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Selected milestones in research, products, and policy. <em>Not exhaustive.</em></figcaption>
+</figure>
+
+<figure class="blog-figure">
+  <img src="../assets/comparison-era-capability-2020-2023-2026/fig-02-era-comparison.svg" alt="Side-by-side schematic of 2020, 2023, and 2026 capability framing" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> How buyers talked about “good enough” shifted by era — not interchangeable benchmark scores.</figcaption>
+</figure>
+
+<!-- ai-blog-figures:end -->
 
 ## What the structure was
 

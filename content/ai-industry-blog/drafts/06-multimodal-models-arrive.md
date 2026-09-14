@@ -11,11 +11,27 @@ citations:
   - "CLAUDE3 https://www.anthropic.com/news/claude-3-family"
 status: draft
 voice_check: edited
+figures:
+  - diagram-multimodal-pipeline
+  - architecture-inference-stack
 ---
 
 On 14 March 2023, OpenAI posted the GPT-4 research announcement. The first sentence called it a large multimodal model: image and text in, text out. The text-only endpoint opened first. Image inputs sat in a limited alpha. The bar-exam clip (GPT-4 around the top 10% on a simulated exam; GPT-3.5 around the bottom 10%) ate the press cycle. The multimodal clause was the longer-lived change.
 
 If GPT-3 taught people to type at a model, GPT-4 started teaching them to *show* it things. A photo of a fridge. A screenshot of a failing UI. A handwritten homework set. That is a different product than a chat box, even when the chat box is the shell.
+
+<!-- ai-blog-figures:begin -->
+<figure class="blog-figure">
+  <img src="../assets/diagram-multimodal-pipeline/fig-02-multimodal-pipeline.svg" alt="Generic multimodal fusion pipeline across text, vision, and audio" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Multimodal products align encoders, fuse in a shared core, then decode to text or media.</figcaption>
+</figure>
+
+<figure class="blog-figure">
+  <img src="../assets/architecture-inference-stack/diagram.svg" alt="Generic LLM inference serving stack" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Client request through gateway, scheduler, and workers to streamed tokens.</figcaption>
+</figure>
+
+<!-- ai-blog-figures:end -->
 
 ## What "multimodal" meant in 2023
 

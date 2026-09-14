@@ -10,11 +10,27 @@ citations:
   - "CHEN2021 https://arxiv.org/abs/2107.03374"
 status: draft
 voice_check: edited
+figures:
+  - comparison-era-capability-2020-2023-2026
+  - infographic-data-flywheel
 ---
 
 On 2 May 2023, the Writers Guild of America went on strike. AI was not the only item (residuals, staffing, mini-rooms). It was the item this pack can name with a straight face: who gets credit when a model drafts a scene, and can a studio use a writer's work to train the thing that replaces the room. The strike ended 27 September 2023 with a contract that put fences around AI use — human credit, limits on treating model output as "literary material," notice. Read the current MBA, not a tweet, before you brief a room. `[CITE NEEDED]` if you quote a clause number; they get restated.
 
 On 14 July 2023, SAG-AFTRA struck. Likeness, voice, "synthetic performers," background-actor scans. The deal (9 November 2023, with later 2024–26 riders in other corners of the industry) is the first mass-market contract language a lot of lawyers copied. This is not Hollywood trivia. It is the template every other trade will steal.
+
+<!-- ai-blog-figures:begin -->
+<figure class="blog-figure">
+  <img src="../assets/comparison-era-capability-2020-2023-2026/fig-02-era-comparison.svg" alt="Side-by-side schematic of 2020, 2023, and 2026 capability framing" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> How buyers talked about “good enough” shifted by era — not interchangeable benchmark scores.</figcaption>
+</figure>
+
+<figure class="blog-figure">
+  <img src="../assets/infographic-data-flywheel/infographic-data-flywheel.svg" alt="Generic product data flywheel from deployment to next training mix" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Usage can feed future models when consent, retention, and law allow — not automatically.</figcaption>
+</figure>
+
+<!-- ai-blog-figures:end -->
 
 ## What the contracts actually did
 

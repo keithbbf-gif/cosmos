@@ -10,6 +10,9 @@ citations:
   - "HOFFMANN2022 https://arxiv.org/abs/2203.15556"
 status: draft
 voice_check: edited
+figures:
+  - topology-open-vs-closed-deployment
+  - open-weights-epochs-2020-2026
 ---
 
 In August 2023, Alibaba's Qwen team put 7B-class weights on the public internet (paper trail: Bai et al., *Qwen Technical Report*, September 2023). The models were good. The Western press mostly missed them because Llama 2 had already soaked the narrative. Through 2024–25 the Qwen line (2, 2.5, later 3-class releases — check the card) became a default teacher for a lot of fine-tunes you have already downloaded without reading the model card.
@@ -17,6 +20,19 @@ In August 2023, Alibaba's Qwen team put 7B-class weights on the public internet 
 On 20 January 2025, DeepSeek-R1 did not get missed. A 671B-class MoE stack (V3 as the base, R1 as the reasoner), a paper that named GRPO, a reported train bill that made Western CFOs twitch, and weights you could pull. Hugging Face's Open-R1 post (28 January) is a decent primary-adjacent chronicle of what was and was not released (weights yes; full data and code no).
 
 This piece is not a geopolitical pamphlet. It is a catalog and a constraint.
+
+<!-- ai-blog-figures:begin -->
+<figure class="blog-figure">
+  <img src="../assets/topology-open-vs-closed-deployment/infographic-topology.svg" alt="Open-weight file deployment versus closed API topology" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Open weights shift spend to your hardware; closed APIs shift it to vendor meters — controls can be shared.</figcaption>
+</figure>
+
+<figure class="blog-figure">
+  <img src="../assets/open-weights-epochs-2020-2026/timeline.svg" alt="Open model weights epochs from 2020 to 2026" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Public weight releases expanded who could fine-tune and deploy outside hosted APIs.</figcaption>
+</figure>
+
+<!-- ai-blog-figures:end -->
 
 ## The catalog, named
 

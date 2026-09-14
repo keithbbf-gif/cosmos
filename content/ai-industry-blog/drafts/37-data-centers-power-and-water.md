@@ -10,11 +10,27 @@ citations:
   - "HOFFMANN2022 https://arxiv.org/abs/2203.15556"
 status: draft
 voice_check: edited
+figures:
+  - infographic-training-inference-cost
+  - compute-and-scaling-2020-2026
 ---
 
 The International Energy Agency's *Energy and AI* work (2024–25 editions; the 2025 report is the one to pull when you publish) put data-center electricity on a curve that finance people could not shrug off. Exact TWh figures move between editions. **[CITE NEEDED]** the page number you intend to quote. The direction is not in dispute: training and especially *serving* large models is now a grid story, not a laptop story.
 
 Kaplan (23 January 2020) treated compute as a scalar. A scalar that has to live in a county with a substation, a water permit, and a neighbor who can see the steam. 2023–26 is when that scalar grew a ZIP code.
+
+<!-- ai-blog-figures:begin -->
+<figure class="blog-figure">
+  <img src="../assets/infographic-training-inference-cost/infographic-training-inference.svg" alt="Schematic of training versus inference costs in a model lifecycle" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Training capex and serving opex dominate different parts of the lifecycle. <em>Illustrative.</em></figcaption>
+</figure>
+
+<figure class="blog-figure">
+  <img src="../assets/compute-and-scaling-2020-2026/timeline.svg" alt="Compute and scaling narrative from 2020 to 2026" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Training scale, hardware cycles, and serving economics entered mainstream discourse.</figcaption>
+</figure>
+
+<!-- ai-blog-figures:end -->
 
 ## Training vs serving
 

@@ -10,11 +10,27 @@ citations:
   - "GPT5 https://openai.com/index/introducing-gpt-5-for-developers/"
 status: draft
 voice_check: edited
+figures:
+  - swimlane-agent-orchestration
+  - architecture-agent-tool-loop
 ---
 
 On 29 June 2021, Nat Friedman wrote that GitHub was putting an "AI pair programmer" inside Visual Studio Code. The preview suggested whole lines and whole functions from the file you were already in. The model was OpenAI Codex. The product name, Copilot, stuck harder than the model name.
 
 A week later, on 7 July, Chen et al. posted *Evaluating Large Language Models Trained on Code*. Codex was a GPT-style model fine-tuned on public GitHub. On a new set they called HumanEval — 164 Python problems with unit tests — the model solved 28.8% with one sample. GPT-3, on the same docstring-to-code task, solved 0%. Sample 100 times and pick a pass, and Codex reached 70.2%. That second number is the one product people should have tattooed on a monitor. Coding models get better if you let them try again against a test.
+
+<!-- ai-blog-figures:begin -->
+<figure class="blog-figure">
+  <img src="../assets/swimlane-agent-orchestration/fig-02-agent-swimlanes.svg" alt="Swimlane diagram of user, orchestrator, tools, and policy in agent workflows" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Agent products split planning, tool execution, and policy across coordinated lanes.</figcaption>
+</figure>
+
+<figure class="blog-figure">
+  <img src="../assets/architecture-agent-tool-loop/diagram.svg" alt="Conceptual agent plan-act-observe loop with tools" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Agents plan, call tools, observe results, and iterate until a final answer.</figcaption>
+</figure>
+
+<!-- ai-blog-figures:end -->
 
 ## Autocomplete was the right first product
 

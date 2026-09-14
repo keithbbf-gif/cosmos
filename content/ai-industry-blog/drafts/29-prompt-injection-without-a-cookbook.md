@@ -10,11 +10,27 @@ citations:
   - "NIST_RMF https://doi.org/10.6028/NIST.AI.100-1"
 status: draft
 voice_check: edited
+figures:
+  - flowchart-prompt-injection-defenses
+  - architecture-agent-tool-loop
 ---
 
 On 12 September 2022, Simon Willison published a note that gave a messy family of bugs a name: prompt injection. Riley Goodside's public examples that same season showed a model treating a pasted string as a higher-priority instruction than the developer's system prompt. The pattern is older than the name (anyone who stuffed untrusted HTML into a page already knew the shape). The name is what let security people and LM people share a ticket.
 
 This draft will not show a payload. It will not walk a bypass. Those do not belong in an education pack, and they rot in a week anyway. The useful object is the *confused deputy*: your model has your tools and your credentials, and it reads text you did not write.
+
+<!-- ai-blog-figures:begin -->
+<figure class="blog-figure">
+  <img src="../assets/flowchart-prompt-injection-defenses/fig-02-prompt-injection.svg" alt="Layered prompt injection defenses from sanitization to human gates" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Untrusted text in context requires isolation, tool limits, policy, and human gates — not one filter.</figcaption>
+</figure>
+
+<figure class="blog-figure">
+  <img src="../assets/architecture-agent-tool-loop/diagram.svg" alt="Conceptual agent plan-act-observe loop with tools" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Agents plan, call tools, observe results, and iterate until a final answer.</figcaption>
+</figure>
+
+<!-- ai-blog-figures:end -->
 
 ## The shape, not the spell
 

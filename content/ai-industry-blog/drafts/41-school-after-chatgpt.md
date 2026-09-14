@@ -10,11 +10,27 @@ citations:
   - "LIANG2023 https://arxiv.org/abs/2306.15666"
 status: draft
 voice_check: edited
+figures:
+  - comparison-era-capability-2020-2023-2026
+  - industry-milestones-2020-2026
 ---
 
 In December 2022 and January 2023, school districts and a few universities banned ChatGPT on the network. New York City's public-school block (announced in early January 2023, later walked back toward "teach it") was the emblem. Teachers had spent the winter break grading essays that were fluent and empty. Students had spent it discovering that InstructGPT's helpfulness (March 2022) plus a chat box (30 November) was a homework machine.
 
 Detectors arrived: GPTZero, Turnitin's AI score, OpenAI's own classifier (launched 31 January 2023, shut down 20 July 2023 as unreliable). Liang et al. (2023) and a pile of follow-ups documented the failure mode everyone felt: non-native English writers got flagged more; a student who edited a draft could dodge; a teacher who trusted a percentage was doing numerology. OpenAI's shutdown post is the rare vendor sentence worth framing. They could not defend the tool.
+
+<!-- ai-blog-figures:begin -->
+<figure class="blog-figure">
+  <img src="../assets/comparison-era-capability-2020-2023-2026/fig-02-era-comparison.svg" alt="Side-by-side schematic of 2020, 2023, and 2026 capability framing" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> How buyers talked about “good enough” shifted by era — not interchangeable benchmark scores.</figcaption>
+</figure>
+
+<figure class="blog-figure">
+  <img src="../assets/industry-milestones-2020-2026/timeline.svg" alt="Public AI industry milestones from 2020 to 2026" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Selected milestones in research, products, and policy. <em>Not exhaustive.</em></figcaption>
+</figure>
+
+<!-- ai-blog-figures:end -->
 
 ## What the bans got right and wrong
 

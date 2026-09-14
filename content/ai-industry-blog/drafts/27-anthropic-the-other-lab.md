@@ -10,11 +10,27 @@ citations:
   - "COMPUSE https://www.anthropic.com/news/3-5-models-and-computer-use"
 status: draft
 voice_check: edited
+figures:
+  - topology-open-vs-closed-deployment
+  - flowchart-safety-evals-release
 ---
 
 On 14 March 2023 — the same week as GPT-4 — Anthropic put Claude in a waitlist chat. The company was the 2021 OpenAI diaspora (Amodei et al.) plus a research program that had already published *Constitutional AI* (Bai et al., 15 December 2022). Claude 2 arrived 11 July 2023 with a 100K context that was, for a few months, the thing you used when GPT-4's 8K felt like a closet. Claude 3 (4 March 2024) shipped Haiku, Sonnet, and Opus as a priced ladder. Sonnet 3.5 (June 2024, then October) became the default coding model for a lot of people who would not have said "I am an Anthropic customer" a year earlier.
 
 This pack already has a safety piece and a computer-use piece. This one is the lab as a product company.
+
+<!-- ai-blog-figures:begin -->
+<figure class="blog-figure">
+  <img src="../assets/topology-open-vs-closed-deployment/infographic-topology.svg" alt="Open-weight file deployment versus closed API topology" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Open weights shift spend to your hardware; closed APIs shift it to vendor meters — controls can be shared.</figcaption>
+</figure>
+
+<figure class="blog-figure">
+  <img src="../assets/flowchart-safety-evals-release/fig-02-safety-evals-flow.svg" alt="Generic safety evaluation flow before model release" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Safety programs combine policy specs, automated probes, human review, and regression harnesses.</figcaption>
+</figure>
+
+<!-- ai-blog-figures:end -->
 
 ## What they sold that OpenAI did not, at first
 

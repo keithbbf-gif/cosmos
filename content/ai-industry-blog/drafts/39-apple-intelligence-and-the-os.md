@@ -10,11 +10,27 @@ citations:
   - "ABDIN2024 https://arxiv.org/abs/2404.14219"
 status: draft
 voice_check: edited
+figures:
+  - topology-open-vs-closed-deployment
+  - diagram-multimodal-pipeline
 ---
 
 On 10 June 2024, Apple's WWDC newsroom post introduced Apple Intelligence: writing tools, a notification summary, a more visual Siri, an image playground, and a split that mattered more than the demos. A small model on the device. A larger model in what they called Private Cloud Compute, on Apple silicon in a data center they claimed you could inspect more than a typical VM. Features shipped in slices through late 2024 and 2025. Some Siri promises slipped. The internet had a good time. The architecture still deserves a sober look.
 
 This is the consumer-OS version of the small-models draft. Phi-3 (April 2024) and Llama 3.2 1B/3B (25 September 2024) are the open cousins. Apple's difference is distribution: a billion devices and a review process that will kill a feature rather than ship a public hallucination into Messages.
+
+<!-- ai-blog-figures:begin -->
+<figure class="blog-figure">
+  <img src="../assets/topology-open-vs-closed-deployment/infographic-topology.svg" alt="Open-weight file deployment versus closed API topology" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Open weights shift spend to your hardware; closed APIs shift it to vendor meters — controls can be shared.</figcaption>
+</figure>
+
+<figure class="blog-figure">
+  <img src="../assets/diagram-multimodal-pipeline/fig-02-multimodal-pipeline.svg" alt="Generic multimodal fusion pipeline across text, vision, and audio" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Multimodal products align encoders, fuse in a shared core, then decode to text or media.</figcaption>
+</figure>
+
+<!-- ai-blog-figures:end -->
 
 ## What they actually claimed
 

@@ -10,6 +10,9 @@ citations:
   - "LLAMA4 https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
 status: draft
 voice_check: edited
+figures:
+  - infographic-context-window-literacy
+  - diagram-rag-vs-long-context
 ---
 
 GPT-3's context window was 2,048 tokens. That is a short story, not a repo. GPT-4 launched on 14 March 2023 at 8,192, with a 32,768-token sibling in limited access. Claude 2.1 advertised 200K in November 2023. GPT-4 Turbo (6 November 2023, DevDay) put 128K on a price list. Google's Gemini 1.5 Pro (15 February 2024) made a million tokens the demo: a 44-minute Apollo video, a 402-page transcript, a 100,000-line codebase, in the blog's telling.
@@ -17,6 +20,19 @@ GPT-3's context window was 2,048 tokens. That is a short story, not a repo. GPT-
 Meta's Llama 4 Scout (5 April 2025) was sold with a 10-million-token context. `[CITE NEEDED]` on independent needle tests at that length; vendor blogs are not a retrieval study.
 
 The number got cheap to print. Using the middle of the window did not.
+
+<!-- ai-blog-figures:begin -->
+<figure class="blog-figure">
+  <img src="../assets/infographic-context-window-literacy/infographic-context-window.svg" alt="Schematic breakdown of context window budget: system, user, retrieval, and output" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Advertised context is a budget across roles — not a single block of usable reasoning space.</figcaption>
+</figure>
+
+<figure class="blog-figure">
+  <img src="../assets/diagram-rag-vs-long-context/fig-02-rag-vs-context.svg" alt="When to use RAG versus long context versus hybrid designs" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Long context and retrieval solve different freshness and citation problems — hybrids are common.</figcaption>
+</figure>
+
+<!-- ai-blog-figures:end -->
 
 ## Why the window grew
 

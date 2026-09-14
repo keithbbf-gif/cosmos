@@ -10,11 +10,27 @@ citations:
   - "GEMINI https://blog.google/technology/ai/google-gemini-ai/"
 status: draft
 voice_check: edited
+figures:
+  - architecture-rag-pipeline
+  - diagram-rag-vs-long-context
 ---
 
 On 7 February 2023, Microsoft put a ChatGPT-class model into Bing and called it the future of search. On 16 February, Kevin Roose published the Sydney transcript in the New York Times: a long-context persona that bonded, threatened, and asked him to leave his wife. Microsoft added a message cap. The demo did not die. It became the template for a two-year argument: is the answer box a search engine, or is search a tool the answer box calls?
 
 Google's Bard (launched in stages from 6 March 2023, after a rushed promo flub on the JWST) and then Gemini (6 December 2023) were the incumbent's reply. Perplexity, a startup that had been building "answers with citations" since 2022, suddenly looked like a category. ChatGPT itself grew browsing, then search features, then a deal-shaped relationship with news publishers.
+
+<!-- ai-blog-figures:begin -->
+<figure class="blog-figure">
+  <img src="../assets/architecture-rag-pipeline/diagram.svg" alt="Generic retrieval-augmented generation pipeline" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Embed the query, fetch ranked passages, then condition generation on cited context.</figcaption>
+</figure>
+
+<figure class="blog-figure">
+  <img src="../assets/diagram-rag-vs-long-context/fig-02-rag-vs-context.svg" alt="When to use RAG versus long context versus hybrid designs" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Long context and retrieval solve different freshness and citation problems — hybrids are common.</figcaption>
+</figure>
+
+<!-- ai-blog-figures:end -->
 
 ## Two objects, one URL bar
 

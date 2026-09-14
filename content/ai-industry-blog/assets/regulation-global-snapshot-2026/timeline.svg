@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" width="1200" height="640" role="img" aria-labelledby="title desc">
+  <title id="title">Global governance snapshot</title>
+  <desc id="desc">Editorial diagram for the AI industry blog. Generic public concepts only.</desc>
+  <defs>
+    <style>
+      .t-title { font: 600 26px Georgia, 'Times New Roman', serif; fill: #141414; }
+      .t-sub { font: 400 14px system-ui, -apple-system, 'Segoe UI', sans-serif; fill: #5C574F; }
+      .t-year { font: 700 13px system-ui, sans-serif; fill: #1E4D6B; }
+      .t-label { font: 600 12px system-ui, sans-serif; fill: #141414; }
+      .t-body { font: 400 11.5px system-ui, sans-serif; fill: #5C574F; }
+      .t-small { font: 400 10px system-ui, sans-serif; fill: #8A847A; }
+      .t-card-title { font: 600 13px system-ui, sans-serif; fill: #141414; }
+    </style>
+    <filter id="shadow" x="-4%" y="-4%" width="108%" height="108%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#141414" flood-opacity="0.08"/>
+    </filter>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#1E4D6B"/>
+    </marker>
+  </defs>
+  <rect width="100%" height="100%" fill="#FAF8F5"/>
+  <text x="56" y="40" class="t-title">Global governance snapshot</text>
+  <text x="56" y="66" class="t-sub">Parallel policy tracks (illustrative, 2020–2026)</text>
+  <line x1="56" y1="78" x2="1144" y2="78" stroke="#E3DDD4"/>
+  <line x1="100" y1="120" x2="1100" y2="120" stroke="#1E4D6B" stroke-width="3" stroke-linecap="round"/>
+  <line x1="100.0" y1="112" x2="100.0" y2="128" stroke="#1E4D6B" stroke-width="2"/>
+  <text x="100.0" y="148" text-anchor="middle" class="t-year">2020</text>
+  <line x1="266.7" y1="112" x2="266.7" y2="128" stroke="#1E4D6B" stroke-width="2"/>
+  <text x="266.7" y="148" text-anchor="middle" class="t-year">2021</text>
+  <line x1="433.3" y1="112" x2="433.3" y2="128" stroke="#1E4D6B" stroke-width="2"/>
+  <text x="433.3" y="148" text-anchor="middle" class="t-year">2022</text>
+  <line x1="600.0" y1="112" x2="600.0" y2="128" stroke="#1E4D6B" stroke-width="2"/>
+  <text x="600.0" y="148" text-anchor="middle" class="t-year">2023</text>
+  <line x1="766.7" y1="112" x2="766.7" y2="128" stroke="#1E4D6B" stroke-width="2"/>
+  <text x="766.7" y="148" text-anchor="middle" class="t-year">2024</text>
+  <line x1="933.3" y1="112" x2="933.3" y2="128" stroke="#1E4D6B" stroke-width="2"/>
+  <text x="933.3" y="148" text-anchor="middle" class="t-year">2025</text>
+  <line x1="1100.0" y1="112" x2="1100.0" y2="128" stroke="#1E4D6B" stroke-width="2"/>
+  <text x="1100.0" y="148" text-anchor="middle" class="t-year">2026</text>
+  <circle cx="266.7" cy="120" r="6" fill="#B85C38" stroke="#FAF8F5" stroke-width="2"/>
+  <line x1="266.7" y1="120" x2="266.7" y2="50" stroke="#E3DDD4" stroke-width="1.5"/>
+  <rect x="148.7" y="-12" width="236" height="52" rx="6" fill="#FFFFFF" filter="url(#shadow)"/>
+  <text x="266.7" y="10" text-anchor="middle" class="t-label">Ethics principles</text>
+  <text x="266.7" y="24" text-anchor="middle" class="t-body">Multilateral AI ethics statements</text>
+  <circle cx="433.3" cy="120" r="6" fill="#B85C38" stroke="#FAF8F5" stroke-width="2"/>
+  <line x1="433.3" y1="120" x2="433.3" y2="172" stroke="#E3DDD4" stroke-width="1.5"/>
+  <rect x="315.3" y="172" width="236" height="52" rx="6" fill="#FFFFFF" filter="url(#shadow)"/>
+  <text x="433.3" y="194" text-anchor="middle" class="t-label">China measures</text>
+  <text x="433.3" y="208" text-anchor="middle" class="t-body">Algorithm recommendation rules</text>
+  <circle cx="600.0" cy="120" r="6" fill="#B85C38" stroke="#FAF8F5" stroke-width="2"/>
+  <line x1="600.0" y1="120" x2="600.0" y2="50" stroke="#E3DDD4" stroke-width="1.5"/>
+  <rect x="482.0" y="-12" width="236" height="52" rx="6" fill="#FFFFFF" filter="url(#shadow)"/>
+  <text x="600.0" y="10" text-anchor="middle" class="t-label">UK approach</text>
+  <text x="600.0" y="24" text-anchor="middle" class="t-body">Pro-innovation regulator-led model</text>
+  <circle cx="766.7" cy="120" r="6" fill="#B85C38" stroke="#FAF8F5" stroke-width="2"/>
+  <line x1="766.7" y1="120" x2="766.7" y2="172" stroke="#E3DDD4" stroke-width="1.5"/>
+  <rect x="648.7" y="172" width="236" height="52" rx="6" fill="#FFFFFF" filter="url(#shadow)"/>
+  <text x="766.7" y="194" text-anchor="middle" class="t-label">EU AI Act</text>
+  <text x="766.7" y="208" text-anchor="middle" class="t-body">Comprehensive horizontal regulation</text>
+  <circle cx="933.3" cy="120" r="6" fill="#B85C38" stroke="#FAF8F5" stroke-width="2"/>
+  <line x1="933.3" y1="120" x2="933.3" y2="50" stroke="#E3DDD4" stroke-width="1.5"/>
+  <rect x="815.3" y="-12" width="236" height="52" rx="6" fill="#FFFFFF" filter="url(#shadow)"/>
+  <text x="933.3" y="10" text-anchor="middle" class="t-label">Standards bodies</text>
+  <text x="933.3" y="24" text-anchor="middle" class="t-body">ISO/IEC work on AI management</text>
+  <circle cx="1100.0" cy="120" r="6" fill="#B85C38" stroke="#FAF8F5" stroke-width="2"/>
+  <line x1="1100.0" y1="120" x2="1100.0" y2="172" stroke="#E3DDD4" stroke-width="1.5"/>
+  <rect x="908.0" y="172" width="236" height="52" rx="6" fill="#FFFFFF" filter="url(#shadow)"/>
+  <text x="1100.0" y="194" text-anchor="middle" class="t-label">Cross-border</text>
+  <text x="1100.0" y="208" text-anchor="middle" class="t-body">Data flow + model export questions</text>
+  <text x="56" y="612" class="t-small">High-level map for readers; jurisdictions differ in scope and enforcement.</text>
+</svg>

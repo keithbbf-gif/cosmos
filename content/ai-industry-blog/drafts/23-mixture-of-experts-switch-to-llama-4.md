@@ -11,11 +11,27 @@ citations:
   - "LLAMA4 https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
 status: draft
 voice_check: edited
+figures:
+  - infographic-moe-routing
+  - compute-and-scaling-2020-2026
 ---
 
 On 11 January 2021, Fedus, Zoph, and Shazeer posted *Switch Transformers*. The idea is older (Shazeer's 2017 mixture-of-experts work). The 2021 paper made it a trillion-parameter language-model story: replace a dense feed-forward with a set of experts, route each token to one, keep FLOPs per token closer to a smaller dense model. They reported a 1.6T-parameter Switch-C trained on a TPU pod. Most of the industry treated this as a Google curiosity. Dense GPT-3-class models were the SKU.
 
 On 11 December 2023, Mistral shipped Mixtral 8×7B. Same idea, a file you could serve, Apache-shaped openness, quality that embarrassed denser 70B-class chat models on a slice of public checks. Sparse MoE left the paper and entered `vLLM`.
+
+<!-- ai-blog-figures:begin -->
+<figure class="blog-figure">
+  <img src="../assets/infographic-moe-routing/infographic-moe.svg" alt="Schematic mixture-of-experts router activating a subset of experts per token" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> MoE models activate a fraction of parameters per token; serving needs expert-aware infrastructure.</figcaption>
+</figure>
+
+<figure class="blog-figure">
+  <img src="../assets/compute-and-scaling-2020-2026/timeline.svg" alt="Compute and scaling narrative from 2020 to 2026" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Training scale, hardware cycles, and serving economics entered mainstream discourse.</figcaption>
+</figure>
+
+<!-- ai-blog-figures:end -->
 
 ## What sparse actually buys
 

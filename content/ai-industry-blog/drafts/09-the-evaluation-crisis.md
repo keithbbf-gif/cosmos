@@ -11,11 +11,33 @@ citations:
   - "CHEN2021 https://arxiv.org/abs/2107.03374"
 status: draft
 voice_check: edited
+figures:
+  - eval-harness-pipeline
+  - eval-leaderboard-caveats
+  - diagram-red-team-vs-eval-harness
 ---
 
 On 3 May 2023, LMSYS posted *Chatbot Arena: Benchmarking LLMs in the Wild with Elo Ratings*. The live experiment had started in the last week of April: two anonymous models, one prompt, a human vote, a chess-style rating. The first public table had Vicuna-13B at the top of a short list of open chat models. Closed giants were not yet the whole story. The method was.
 
 A year earlier, HELM (Liang et al., 16 November 2022) had tried to be the grown-up: many scenarios, many metrics, a documented prompt, a refusal to reduce a model to one number. Both projects were correct. Both were immediately gamed. That is the crisis. Not that evals exist. That we used them as if they were physics.
+
+<!-- ai-blog-figures:begin -->
+<figure class="blog-figure">
+  <img src="../assets/eval-harness-pipeline/explainer.svg" alt="Generic evaluation harness pipeline" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Reproducible evals version prompts, fix decoding, score outputs, and publish provenance.</figcaption>
+</figure>
+
+<figure class="blog-figure">
+  <img src="../assets/eval-leaderboard-caveats/explainer.svg" alt="Caveats when reading AI leaderboards" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Ask about contamination, prompt sensitivity, judge bias, and checkpoint versioning.</figcaption>
+</figure>
+
+<figure class="blog-figure">
+  <img src="../assets/diagram-red-team-vs-eval-harness/fig-02-red-team-eval.svg" alt="Red team exercises versus fixed eval harness loops" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 3.</strong> Red teams hunt unknown failures; harnesses guard against regressions on known tests.</figcaption>
+</figure>
+
+<!-- ai-blog-figures:end -->
 
 ## The benches we inherited
 

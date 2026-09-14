@@ -9,11 +9,27 @@ citations:
   - "GPT4 https://openai.com/index/gpt-4-research/"
 status: draft
 voice_check: edited
+figures:
+  - diagram-multimodal-pipeline
+  - architecture-inference-stack
 ---
 
 On 13 May 2024, OpenAI's GPT-4o demo did a thing live video calls had not done: the model took interruption, changed tone, and talked about what the camera saw without a "please wait while I transcribe" beat you could drive a truck through. The blog post promised an advanced voice mode in alpha, Plus first. The internet promised that every app would feel like that by Christmas.
 
 Christmas was quieter. The expectation stayed.
+
+<!-- ai-blog-figures:begin -->
+<figure class="blog-figure">
+  <img src="../assets/diagram-multimodal-pipeline/fig-02-multimodal-pipeline.svg" alt="Generic multimodal fusion pipeline across text, vision, and audio" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Multimodal products align encoders, fuse in a shared core, then decode to text or media.</figcaption>
+</figure>
+
+<figure class="blog-figure">
+  <img src="../assets/architecture-inference-stack/diagram.svg" alt="Generic LLM inference serving stack" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Client request through gateway, scheduler, and workers to streamed tokens.</figcaption>
+</figure>
+
+<!-- ai-blog-figures:end -->
 
 ## Cascades, and why you can hear them
 

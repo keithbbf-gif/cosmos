@@ -10,11 +10,27 @@ citations:
   - "TOUVRON2023B https://arxiv.org/abs/2307.09288"
 status: draft
 voice_check: edited
+figures:
+  - architecture-fine-tuning-stages
+  - infographic-moe-routing
 ---
 
 On 17 June 2021, Hu et al. posted *LoRA: Low-Rank Adaptation of Large Language Models*. Freeze the base. Train two small matrices whose product is a rank-r update to selected weights (usually attention projections). At serve time, merge them or keep them as a hot-swappable add-on. The paper's GPT-3 experiments were the point: you do not need to store a second 175B. You need a few megabytes and a recipe.
 
 In May 2023, Dettmers et al. posted QLoRA: 4-bit frozen bases plus LoRA, a 65B-class finetune on a single 48GB GPU in their telling. Combined with Llama (February) and Llama 2 (July), that paper is why every 2023 Discord had a "train your own boyfriend model" era, and why a few companies had a real on-tenant adaptation story.
+
+<!-- ai-blog-figures:begin -->
+<figure class="blog-figure">
+  <img src="../assets/architecture-fine-tuning-stages/diagram.svg" alt="Generic fine-tuning stages from base model to deployment" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Common post-training path: supervised fine-tuning, preferences, and adapters before release.</figcaption>
+</figure>
+
+<figure class="blog-figure">
+  <img src="../assets/infographic-moe-routing/infographic-moe.svg" alt="Schematic mixture-of-experts router activating a subset of experts per token" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> MoE models activate a fraction of parameters per token; serving needs expert-aware infrastructure.</figcaption>
+</figure>
+
+<!-- ai-blog-figures:end -->
 
 ## What adapters actually are
 

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" width="1000" height="520" role="img" aria-labelledby="title desc">
+  <title id="title">Leaderboard caveats</title>
+  <desc id="desc">Editorial diagram for the AI industry blog. Generic public concepts only.</desc>
+  <defs>
+    <style>
+      .t-title { font: 600 26px Georgia, 'Times New Roman', serif; fill: #141414; }
+      .t-sub { font: 400 14px system-ui, -apple-system, 'Segoe UI', sans-serif; fill: #5C574F; }
+      .t-year { font: 700 13px system-ui, sans-serif; fill: #1E4D6B; }
+      .t-label { font: 600 12px system-ui, sans-serif; fill: #141414; }
+      .t-body { font: 400 11.5px system-ui, sans-serif; fill: #5C574F; }
+      .t-small { font: 400 10px system-ui, sans-serif; fill: #8A847A; }
+      .t-card-title { font: 600 13px system-ui, sans-serif; fill: #141414; }
+    </style>
+    <filter id="shadow" x="-4%" y="-4%" width="108%" height="108%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#141414" flood-opacity="0.08"/>
+    </filter>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#1E4D6B"/>
+    </marker>
+  </defs>
+  <rect width="100%" height="100%" fill="#FAF8F5"/>
+  <text x="48" y="38" class="t-title">Reading leaderboards critically</text>
+  <text x="48" y="62" class="t-sub">Questions to ask before comparing headline numbers</text>
+  <line x1="48" y1="74" x2="952" y2="74" stroke="#E3DDD4"/>
+  <rect x="48" y="100" width="440" height="108" rx="8" fill="#FFFFFF" stroke="#E3DDD4" filter="url(#shadow)"/>
+  <circle cx="70" cy="128" r="10" fill="#B85C38"/>
+  <text x="90" y="132" class="t-label">Train vs eval overlap</text>
+  <text x="90" y="154" class="t-body">Benchmark items may appear in training corpora.</text>
+  <rect x="512" y="100" width="440" height="108" rx="8" fill="#FFFFFF" stroke="#E3DDD4" filter="url(#shadow)"/>
+  <circle cx="534" cy="128" r="10" fill="#B85C38"/>
+  <text x="554" y="132" class="t-label">Prompt sensitivity</text>
+  <text x="554" y="154" class="t-body">Small wording changes swing scores.</text>
+  <rect x="48" y="230" width="440" height="108" rx="8" fill="#FFFFFF" stroke="#E3DDD4" filter="url(#shadow)"/>
+  <circle cx="70" cy="258" r="10" fill="#B85C38"/>
+  <text x="90" y="262" class="t-label">Judge bias</text>
+  <text x="90" y="284" class="t-body">LLM-as-judge favors verbose or branded styles.</text>
+  <rect x="512" y="230" width="440" height="108" rx="8" fill="#FFFFFF" stroke="#E3DDD4" filter="url(#shadow)"/>
+  <circle cx="534" cy="258" r="10" fill="#B85C38"/>
+  <text x="554" y="262" class="t-label">Contamination</text>
+  <text x="554" y="284" class="t-body">Public tests leak via web crawls.</text>
+  <rect x="48" y="360" width="440" height="108" rx="8" fill="#FFFFFF" stroke="#E3DDD4" filter="url(#shadow)"/>
+  <circle cx="70" cy="388" r="10" fill="#B85C38"/>
+  <text x="90" y="392" class="t-label">Cherry-picked subsets</text>
+  <text x="90" y="414" class="t-body">Leaderboards highlight favorable slices.</text>
+  <rect x="512" y="360" width="440" height="108" rx="8" fill="#FFFFFF" stroke="#E3DDD4" filter="url(#shadow)"/>
+  <circle cx="534" cy="388" r="10" fill="#B85C38"/>
+  <text x="554" y="392" class="t-label">Version drift</text>
+  <text x="554" y="414" class="t-body">Model updates without frozen checkpoints.</text>
+  <text x="48" y="496" class="t-small">Use alongside ablations, not as sole purchase criteria.</text>
+</svg>

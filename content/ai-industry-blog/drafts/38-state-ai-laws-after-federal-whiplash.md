@@ -11,6 +11,9 @@ citations:
   - "NIST_RMF https://doi.org/10.6028/NIST.AI.100-1"
 status: draft
 voice_check: edited
+figures:
+  - decision-tree-ai-compliance
+  - regulation-global-snapshot-2026
 ---
 
 On 17 May 2024, Colorado's governor signed SB24-205, a consumer-protection-shaped law on "high-risk" AI systems: disclosures, reasonable care, a duty around algorithmic discrimination in covered decisions (employment, credit, housing, and neighbors). The effective date was written as 1 February 2026, with the usual amendment chatter after. Pull the current C.R.S. cite before you brief a customer. `[CITE NEEDED]` if the legislature moved the date again.
@@ -18,6 +21,19 @@ On 17 May 2024, Colorado's governor signed SB24-205, a consumer-protection-shape
 On 29 September 2024, California Governor Gavin Newsom vetoed SB 1047 (Wiener), the frontier-model bill that would have tied duties to training-compute thresholds and a "covered model" definition the labs hated. The veto message is public: he wanted a risk-and-deployment approach, not a size-only approach, and said California would keep going by other means. Later 2025 California bills (transparency, training-data, companion laws — the numbers rotate) should be taken from LegInfo the week you publish. This draft treats the veto as the load-bearing 2024 fact.
 
 On 23 January 2025, EO 14179 revoked EO 14110. The federal "one checklist" story ended. States did not get the memo that they should stop. See the EU/NIST draft for the federal and European objects. This one is the fifty-state remainder.
+
+<!-- ai-blog-figures:begin -->
+<figure class="blog-figure">
+  <img src="../assets/decision-tree-ai-compliance/decision-tree-compliance.svg" alt="High-level AI compliance decision tree" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Compliance paths depend on risk tier and sector — confirm with counsel, not this schematic.</figcaption>
+</figure>
+
+<figure class="blog-figure">
+  <img src="../assets/regulation-global-snapshot-2026/timeline.svg" alt="Illustrative global AI governance timeline" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Parallel policy tracks explain fragmented cross-border obligations.</figcaption>
+</figure>
+
+<!-- ai-blog-figures:end -->
 
 ## Three US objects, not one
 

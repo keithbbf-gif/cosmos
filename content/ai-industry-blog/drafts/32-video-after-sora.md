@@ -10,11 +10,27 @@ citations:
   - "HO2020 https://arxiv.org/abs/2006.11239"
 status: draft
 voice_check: edited
+figures:
+  - diagram-multimodal-pipeline
+  - industry-milestones-2020-2026
 ---
 
 On 15 February 2024, OpenAI posted *Video generation models as world simulators* and a reel. Sora, a diffusion transformer over spacetime patches, produced up to a minute of video from text. The Tokyo walk, the paper planes, the "it almost understands objects" claim. The research post is more honest than the reel: glass does not shatter right, food does not change state when eaten, objects appear because the sampler needed them. Red-teamers and a few artists got access first. A product you could type into came later, in stages, under safety and likeness rules that kept moving.
 
 Runway (Gen-2, then Gen-3), Pika, Luma, Kling, and a 2024–25 pile of open and semi-open video models made the category a market before Sora was a SKU. The image-diffusion drop of 22 August 2022 had already taught the industry that a closed reel does not stay closed if the paper is close. Video is heavier — data, compute, legal — so the open file lagged. It did not fail to arrive.
+
+<!-- ai-blog-figures:begin -->
+<figure class="blog-figure">
+  <img src="../assets/diagram-multimodal-pipeline/fig-02-multimodal-pipeline.svg" alt="Generic multimodal fusion pipeline across text, vision, and audio" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Multimodal products align encoders, fuse in a shared core, then decode to text or media.</figcaption>
+</figure>
+
+<figure class="blog-figure">
+  <img src="../assets/industry-milestones-2020-2026/timeline.svg" alt="Public AI industry milestones from 2020 to 2026" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Selected milestones in research, products, and policy. <em>Not exhaustive.</em></figcaption>
+</figure>
+
+<!-- ai-blog-figures:end -->
 
 ## What the model is
 

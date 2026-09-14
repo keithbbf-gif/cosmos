@@ -10,11 +10,27 @@ citations:
   - "LEWIS2020 https://arxiv.org/abs/2005.11401"
 status: draft
 voice_check: edited
+figures:
+  - eval-leaderboard-caveats
+  - architecture-rag-pipeline
 ---
 
 The GPT-3 paper (28 May 2020) already said the model would invent plausible news. Human raters had trouble telling the samples from journalism in a controlled test. That was a research warning. On 30 November 2022 it became a homework-and-legal-brief warning. A New York lawyer filed ChatGPT-invented case citations in *Mata v. Avianca* (sanctions, June 2023). The model was not "lying." It was doing the only job it has: sampling a fluent continuation. The product had presented that continuation as a research assistant.
 
 Call it a hallucination if you want. Call it a fabrication. The engineering name is: **uncalibrated next-token output, displayed as an answer.** That is a defect when the UI implies a fact.
+
+<!-- ai-blog-figures:begin -->
+<figure class="blog-figure">
+  <img src="../assets/eval-leaderboard-caveats/explainer.svg" alt="Caveats when reading AI leaderboards" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Ask about contamination, prompt sensitivity, judge bias, and checkpoint versioning.</figcaption>
+</figure>
+
+<figure class="blog-figure">
+  <img src="../assets/architecture-rag-pipeline/diagram.svg" alt="Generic retrieval-augmented generation pipeline" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 2.</strong> Embed the query, fetch ranked passages, then condition generation on cited context.</figcaption>
+</figure>
+
+<!-- ai-blog-figures:end -->
 
 ## Why it happens, without mysticism
 
