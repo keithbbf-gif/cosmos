@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sessions — COSMOS</title>
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<header>
+  <h1>SESSIONS <span>·</span> <small>a product on COSMOS</small></h1>
+  <div class="bar">
+    <span id="src" class="src">source —</span>
+    <span id="tree" class="pill">tree —</span>
+    <button id="btnReload">RELOAD</button>
+  </div>
+</header>
+
+<div class="grid">
+  <section class="panel" id="p-sessions">
+    <div class="panel-hd">
+      <h2>OPEN SESSIONS</h2>
+      <span class="count" id="c-sessions">—</span>
+    </div>
+    <div class="panel-bd">
+      <div class="note" id="omission">legal omission —</div>
+      <div id="rows"><div class="empty">not read yet</div></div>
+    </div>
+  </section>
+
+  <section class="panel" id="p-verbs">
+    <div class="panel-hd">
+      <h2>VERBS</h2>
+      <span class="count" id="c-verbs">—</span>
+    </div>
+    <div class="panel-bd">
+      <div class="note" id="engine">engine —</div>
+      <div id="verbs"><div class="empty">not read yet</div></div>
+      <div class="sep"></div>
+      <div class="row-hd">scan <button id="btnScan">RUN</button></div>
+      <div id="scan"><div class="empty">the declared store is scanned here</div></div>
+    </div>
+  </section>
+
+  <section class="panel" id="p-timeline">
+    <div class="panel-hd">
+      <h2>ROLLED TIMELINE</h2>
+      <span class="count" id="c-timeline">—</span>
+    </div>
+    <div class="panel-bd">
+      <div class="note" id="feedsrc">rolled-event/1 —</div>
+      <div id="timeline"><div class="empty">not read yet</div></div>
+    </div>
+  </section>
+</div>
+
+<section class="panel wide" id="p-detail">
+  <div class="panel-hd">
+    <h2>SESSION</h2>
+    <span class="count" id="c-detail">—</span>
+  </div>
+  <div class="panel-bd">
+    <div id="detail"><div class="empty">pick a session on the left</div></div>
+  </div>
+</section>
+
+<footer>
+  Core is the authority. This shell reads one projection —
+  <code>GET /api/v1/recents</code> — the same one the cDeck Sessions tab renders.
+  Nothing here writes the live tree.
+</footer>
+<script src="app.js"></script>
+</body>
+</html>

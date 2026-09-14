@@ -1,0 +1,91 @@
+/* Deck skin. Tokens mirror the in-repo deck (kdash/index.html :root) — cDeck's
+   ui/app.css lives in a different repo (builds/cdeck is a gitlink), so this is a
+   mirror, not a copy. */
+:root{
+  --bg:#0b0e12;
+  --panel:#12161c;
+  --panel-edge:#1f2630;
+  --ink:#c8d2dc;
+  --ink-dim:#7a8694;
+  --ink-faint:#4a545f;
+  --green:#3fd68f;
+  --amber:#e6b450;
+  --red:#e5534b;
+  --cyan:#56b6c2;
+  --head:#e2e8ee;
+  --mono:"Consolas","Cascadia Mono","Courier New",monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:var(--bg);color:var(--ink);font-family:var(--mono);font-size:13px;line-height:1.45}
+body{padding:10px 14px 20px}
+
+header{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-bottom:10px}
+header h1{font-size:15px;color:var(--head);letter-spacing:2px;font-weight:700;margin-right:6px}
+header h1 span{color:var(--cyan)}
+header h1 small{color:var(--ink-faint);font-size:10px;letter-spacing:1px;font-weight:400}
+.bar{display:flex;align-items:center;gap:8px;flex:1;justify-content:flex-end;flex-wrap:wrap}
+.src{color:var(--ink-faint);font-size:11px}
+.pill{font-size:11px;padding:3px 8px;border-radius:3px;border:1px solid var(--panel-edge);color:var(--ink-dim);white-space:nowrap}
+.pill.ok{color:var(--green);border-color:var(--green)}
+.pill.bad{color:var(--red);border-color:var(--red)}
+button{
+  background:#182029;border:1px solid #2a3542;color:var(--ink);
+  font-family:var(--mono);font-size:12px;padding:4px 12px;border-radius:3px;cursor:pointer;
+}
+button:hover{border-color:var(--cyan);color:var(--head)}
+button:active{background:#11161c}
+button:disabled{opacity:.45;cursor:default}
+
+.grid{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:10px}
+@media(max-width:980px){.grid{grid-template-columns:1fr}}
+
+.panel{
+  background:var(--panel);border:1px solid var(--panel-edge);border-radius:4px;
+  padding:0 0 8px;min-height:170px;display:flex;flex-direction:column;
+}
+.panel.wide{margin-top:10px}
+.panel-hd{
+  display:flex;align-items:baseline;justify-content:space-between;
+  padding:7px 10px 6px;border-bottom:1px solid var(--panel-edge);margin-bottom:8px;
+}
+.panel-hd h2{font-size:12px;letter-spacing:2px;color:var(--head);font-weight:700}
+.count{font-size:11px;color:var(--green)}
+.count.unmeasured{color:var(--amber)}
+.count.unmeasured::after{content:" UNMEASURED"}
+.panel-bd{padding:0 10px;flex:1;overflow:auto;max-height:52vh}
+
+.empty{color:var(--ink-faint);font-style:italic;padding:4px 0}
+.note{color:var(--ink-dim);font-size:11px;padding:0 0 6px}
+.sep{border-top:1px solid var(--panel-edge);margin:8px 0 6px}
+.row-hd{display:flex;align-items:center;gap:8px;color:var(--head);font-size:11px;letter-spacing:1px;margin-bottom:6px}
+
+.srow{
+  display:grid;grid-template-columns:11em 6.5em 1fr;gap:6px;align-items:baseline;
+  border-left:2px solid var(--panel-edge);padding:3px 0 3px 8px;cursor:pointer;
+}
+.srow:hover{border-left-color:var(--cyan);background:#0e1116}
+.srow.sel{border-left-color:var(--cyan)}
+.srow .sid{color:var(--cyan);overflow:hidden;text-overflow:ellipsis}
+.srow .sdate{color:var(--ink-faint);font-size:11px}
+.srow .stitle{color:var(--ink);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.srow .sstream{color:var(--ink-dim);font-size:10px;letter-spacing:1px}
+
+.vrow{display:grid;grid-template-columns:5.5em 6em 1fr;gap:6px;padding:2px 0}
+.vrow .vst{font-size:10px;letter-spacing:1px;font-weight:700}
+.vrow .vst.BOUND{color:var(--green)}
+.vrow .vst.DECLARED{color:var(--ink-faint)}
+.vrow .vname{color:var(--head)}
+.vrow .vdoes{color:var(--ink-dim);font-size:11px}
+
+.trow{display:grid;grid-template-columns:11em 5em 6em 1fr;gap:6px;padding:2px 0;border-left:2px solid var(--panel-edge);padding-left:8px}
+.trow .tt{color:var(--ink-faint);font-size:11px}
+.trow .tseat{color:var(--cyan);font-size:11px}
+.trow .tkind{color:var(--amber);font-size:10px;letter-spacing:1px}
+.trow .ttitle{color:var(--ink)}
+.trow .tref{color:var(--ink-faint);font-size:10px}
+
+.refusal{border-left:2px solid var(--red);padding-left:8px;color:var(--amber)}
+.refusal .rkind{color:var(--red);font-weight:700;letter-spacing:1px}
+pre{font-family:var(--mono);font-size:11px;white-space:pre-wrap;word-break:break-word;color:var(--ink)}
+footer{margin-top:12px;color:var(--ink-faint);font-size:11px}
+footer code{color:var(--ink-dim)}
