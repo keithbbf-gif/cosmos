@@ -19,6 +19,19 @@ def check(label: str, ok: bool, detail: str = "") -> None:
     RESULTS.append((label, bool(ok), detail[:240]))
 
 
+def _timeline_parse_pin() -> bool:
+    """Parse rolled-event/1 lines directly from COSMOS_ROLLED_FEED; order (t, seq)."""
+    try:
+        from cosmos_rolled import _selftest, parse_feed_text
+    except ImportError:
+        sys.path.insert(0, str(REPO / "cosmos"))
+        from cosmos_rolled import _selftest, parse_feed_text  # noqa: E402
+    empty = parse_feed_text("")
+    if empty != []:
+        return False
+    return _selftest() == 0
+
+
 def _read(*names: str) -> str:
     parts = []
     for n in names:
@@ -118,6 +131,26 @@ def main() -> int:
         and "ensureSessionsHosts" in tabs
         and 'recents: "recents"' in tabs,
         "pane host inject",
+    )
+
+    check(
+        "SESSIONS: list/open/verbs/timeline buttons + esc on data text",
+        'data-sessions-act="list"' in more
+        and 'data-sessions-act="open"' in more
+        and 'data-sessions-act="timeline"' in more
+        and "function esc(" in skit
+        and "function esc(" in appjs
+        and "LEGAL_OMITTED" in appjs
+        and "UNMEASURED" in appjs
+        and "isLoopbackBase" in appjs
+        and "UNRESOLVED" in skit,
+        "every button + esc + legal count",
+    )
+
+    check(
+        "SESSIONS: timeline parse pin — COSMOS_ROLLED_FEED (t, seq) + UNRESOLVED",
+        _timeline_parse_pin(),
+        "parse rolled-event/1",
     )
 
     failed = [r for r in RESULTS if not r[1]]

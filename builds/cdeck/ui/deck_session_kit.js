@@ -139,6 +139,12 @@
     apiGet("/api/v1/rolled").then(function (d) {
       d = d || {};
       var events = Array.isArray(d.events) ? d.events : [];
+      events = events.slice().sort(function (a, b) {
+        var ta = String((a && a.t) || "");
+        var tb = String((b && b.t) || "");
+        if (ta !== tb) return ta < tb ? -1 : 1;
+        return (Number((a && a.seq) || 0) - Number((b && b.seq) || 0));
+      });
       var available = !!d.available;
       var kind = String(d.kind || "");
       if (!available || events.length === 0) {
@@ -147,19 +153,23 @@
               ? "ROLLED.md not present — no milestones recorded yet"
               : "ROLLED.md unavailable (" + kind + ")")
           : "ROLLED.md present but contains no rolled-event/1 lines"; /* schema rolled-event/1 */
-        host.innerHTML = '<div class="tl-empty">' + esc(why) + "</div>";
+        host.innerHTML = '<div class="tl-empty explicit-empty">' + esc(why) + "</div>";
         return;
       }
       var hdr = '<div class="tl-hdr"><span>TIME</span><span>SEAT</span><span>KIND</span>' +
         "<span>TITLE</span><span>REF</span></div>";
       var rows = events.map(function (ev) {
         var kCls = _tlKindCls(ev.kind);
+        var rawRef = ev && ev.ref != null ? String(ev.ref) : "";
+        var unresolved = (ev && ev.ref_status === "UNRESOLVED") || !rawRef || rawRef === "UNRESOLVED";
+        var refShow = unresolved ? "UNRESOLVED" : rawRef;
         return '<div class="tl-row">' +
           '<span class="tl-t">' + esc(ev.t || "—") + "</span>" +
           '<span class="tl-seat">' + esc(ev.seat || "—") + "</span>" +
           '<span class="tl-kind ' + kCls + '">' + esc(ev.kind || "—") + "</span>" +
           '<span class="tl-title">' + esc(ev.title || "—") + "</span>" +
-          '<span class="tl-ref">' + esc(ev.ref || "") + "</span></div>";
+          '<span class="tl-ref' + (unresolved ? " unresolved" : "") + '">' +
+          esc(refShow) + "</span></div>";
       }).join("");
       host.innerHTML = hdr + '<div class="tl-body">' + rows + "</div>";
     }).catch(function (e) {
@@ -180,6 +190,18 @@
   }
 
   window.__cdeck_bootSessionKit = boot;
+  window.__cdeck_fillTab = window.__cdeck_fillTab || {};
+  window.__cdeck_fillTab.timeline = function () {
+    paintRolledTimeline($("panel-rolled-timeline"));
+  };
+
+  document.addEventListener("click", function (e) {
+    var act = e.target && e.target.closest ? e.target.closest("[data-sessions-act]") : null;
+    if (!act) return;
+    if (act.getAttribute("data-sessions-act") === "timeline") {
+      paintRolledTimeline($("panel-rolled-timeline"));
+    }
+  });
 
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", boot);

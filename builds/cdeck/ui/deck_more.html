@@ -1,5 +1,10 @@
 <!-- deck_more.html — Sessions / Recents pane hosts (injected into #cdeck-pane-host) -->
 <section id="pane-sessions-recents" class="pane-sessions">
+  <div class="sessions-actions" role="toolbar" aria-label="Sessions verbs">
+    <button type="button" data-sessions-act="list">LIST</button>
+    <button type="button" data-sessions-act="open">OPEN</button>
+    <button type="button" data-sessions-act="timeline">TIMELINE</button>
+  </div>
   <div id="panel-recents-list" class="panel-recents-list"></div>
   <div id="recents-opened-card" class="recents-opened-card" hidden></div>
   <div id="panel-session-kit"></div>

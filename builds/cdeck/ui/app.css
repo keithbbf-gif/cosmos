@@ -81,6 +81,17 @@ html, body {
   font: inherit;
 }
 .recents-row:hover { border-color: var(--panel-edge); background: #161b22; }
+.recents-row.selected { border-color: var(--cyan); color: var(--cyan); }
+.sessions-actions { display: flex; flex-wrap: wrap; gap: 6px; }
+.sessions-actions button {
+  background: var(--panel);
+  border: 1px solid var(--panel-edge);
+  color: var(--ink);
+  font: inherit;
+  padding: 4px 10px;
+  cursor: pointer;
+}
+.sessions-actions button:hover { border-color: var(--cyan); }
 .recents-empty, .explicit-empty { color: var(--ink-dim); font-style: italic; padding: 8px 0; }
 .recents-omitted { margin-top: 6px; }
 
@@ -162,3 +173,4 @@ html, body {
   text-overflow: ellipsis;
   max-width: 12em;
 }
+.tl-ref.unresolved { color: var(--amber); }

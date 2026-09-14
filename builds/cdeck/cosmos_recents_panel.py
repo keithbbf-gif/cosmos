@@ -72,6 +72,37 @@ def _load_rows(paths) -> tuple[dict | None, list]:
     return rec, rows if isinstance(rows, list) else []
 
 
+def _is_legal_row(row: dict) -> bool:
+    return str(row.get("stream") or "").strip().lower() == "legal"
+
+
+def _public_rows(rows: list) -> tuple[list, int]:
+    """Drop legal rows. Count-not-content: titles/text never leave."""
+    kept: list = []
+    leaked = 0
+    for r in rows:
+        if not isinstance(r, dict):
+            continue
+        if _is_legal_row(r):
+            leaked += 1
+            continue
+        kept.append(r)
+    return kept, leaked
+
+
+def _omitted_out(file_omitted, leaked: int):
+    """UNMEASURED is JSON null, never a fabricated 0."""
+    if file_omitted is None and leaked == 0:
+        return None
+    try:
+        base = int(file_omitted)
+    except (TypeError, ValueError):
+        base = 0 if leaked else None
+        if base is None:
+            return None
+    return base + leaked
+
+
 def _find_row(rows: list, sid: str) -> dict | None:
     want = sid.strip()
     for r in rows:
@@ -134,10 +165,26 @@ def handle_get(
             return 404, body
         return 200, body
 
-    omitted = file_rec.get("n_omitted_legal")
+    rows, leaked = _public_rows(rows)
+    omitted = _omitted_out(file_rec.get("n_omitted_legal"), leaked)
     if str(open_q) == "1" and sid_q:
         row = _find_row(rows, sid_q)
         if row is None:
+            raw_hit = _find_row(
+                file_rec.get("rows") if isinstance(file_rec.get("rows"), list) else [],
+                sid_q,
+            )
+            if isinstance(raw_hit, dict) and _is_legal_row(raw_hit):
+                return 403, {
+                    "schema": SCHEMA,
+                    "ok": False,
+                    "kind": "LEGAL_OMITTED",
+                    "id": sid_q,
+                    "http": 403,
+                    "n_omitted_legal": omitted,
+                    "tree_id": tid,
+                    "measured_at": time.time(),
+                }
             return 404, {
                 "schema": SCHEMA,
                 "ok": False,

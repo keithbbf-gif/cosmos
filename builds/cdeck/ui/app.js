@@ -12,15 +12,30 @@
 
   var _state = {
     lastOpenResult: null,
-    lastRecentsBody: null
+    lastRecentsBody: null,
+    selectedId: null
   };
+
+  function isLoopbackBase(base) {
+    var h = "";
+    try { h = String(new URL(base).hostname || "").toLowerCase(); }
+    catch (_) {
+      var m = String(base || "").match(/^https?:\/\/(\[::1\]|[^/:]+)/i);
+      h = m ? String(m[1]).toLowerCase() : "";
+    }
+    return h === "127.0.0.1" || h === "localhost" || h === "[::1]" || h === "::1";
+  }
 
   function apiCall(path, opts) {
     var method = (opts && opts.method) || "GET";
     var ctl = new AbortController();
     var timer = setTimeout(function () { ctl.abort(); }, FETCH_TO_MS);
     var url = cfg.base.replace(/\/+$/, "") + path;
-    var headers = cfg.token ? { "Authorization": "Bearer " + cfg.token } : {};
+    /* live Core :8770 — loopback skip, bearer non-loopback */
+    var headers = {};
+    if (cfg.token && !isLoopbackBase(cfg.base)) {
+      headers["Authorization"] = "Bearer " + cfg.token;
+    }
     var init = { method: method, headers: headers, signal: ctl.signal, cache: "no-store" };
     if (opts && opts.body !== undefined) {
       headers["Content-Type"] = "application/json";
@@ -106,27 +121,48 @@
       return;
     }
     var rows = Array.isArray(rec.rows) ? rec.rows : [];
+    var leaked = 0;
+    rows = rows.filter(function (row) {
+      if (String((row && row.stream) || "").toLowerCase() === "legal") {
+        leaked += 1;
+        return false;
+      }
+      return true;
+    });
     if (rows.length === 0) {
-      host.innerHTML = '<div class="recents-empty explicit-empty">No session rows — explicit empty</div>';
+      host.innerHTML = '<div class="recents-empty explicit-empty">No session rows — explicit empty</div>' +
+        _legalOmittedHtml(rec.n_omitted_legal, leaked);
       return;
     }
     var html = '<ul class="recents-rows">';
     rows.forEach(function (row) {
       var id = row.id || row.session_id || "—";
-      html += '<li><button type="button" class="recents-row" data-recents-id="' + esc(id) + '">' +
+      var sel = (_state.selectedId && _state.selectedId === id) ? " selected" : "";
+      html += '<li><button type="button" class="recents-row' + sel + '" data-recents-id="' + esc(id) + '">' +
         esc(id) + " · " + esc(row.title || "") + "</button></li>";
     });
     html += "</ul>";
-    if (rec.n_omitted_legal) {
-      html += '<div class="recents-omitted dim tiny">' +
-        esc(String(rec.n_omitted_legal)) + " legal session(s) omitted.</div>";
-    }
+    html += _legalOmittedHtml(rec.n_omitted_legal, leaked);
     host.innerHTML = html;
     host.querySelectorAll(".recents-row").forEach(function (btn) {
       btn.addEventListener("click", function () {
-        openRecentsId(btn.getAttribute("data-recents-id"));
+        _state.selectedId = btn.getAttribute("data-recents-id");
+        host.querySelectorAll(".recents-row").forEach(function (b) { b.classList.remove("selected"); });
+        btn.classList.add("selected");
+        openRecentsId(_state.selectedId);
       });
     });
+  }
+
+  function _legalOmittedHtml(n, leaked) {
+    var count = n;
+    if (count == null && leaked) count = leaked;
+    else if (typeof count === "number") count = count + (leaked || 0);
+    if (count == null) {
+      return '<div class="recents-omitted dim tiny">legal omitted: UNMEASURED</div>';
+    }
+    return '<div class="recents-omitted dim tiny">' +
+      esc(String(count)) + " legal session(s) omitted.</div>";
   }
 
   /* paintCoworkRecents — OPENED card (title + transcript head) above the list. */
@@ -143,6 +179,20 @@
     paintCoworkRecents(_state.lastRecentsBody);
   }
 
+  function openSelected() {
+    var id = _state.selectedId;
+    var card = document.getElementById("recents-opened-card");
+    if (!id) {
+      if (card) {
+        card.hidden = false;
+        card.innerHTML = '<div class="recents-empty explicit-empty">' +
+          esc("no session selected — pick a LIST row") + "</div>";
+      }
+      return;
+    }
+    openRecentsId(id);
+  }
+
   function openRecentsId(id) {
     if (!id) return;
     var q = "/api/v1/recents?open=1&id=" + encodeURIComponent(id);
@@ -153,7 +203,12 @@
         var card = document.getElementById("recents-opened-card");
         if (card) {
           card.hidden = false;
-          card.textContent = String(rec.kind || rec.error || "open failed");
+          if (rec.kind === "LEGAL_OMITTED") {
+            card.innerHTML = '<div class="recents-empty explicit-empty">' +
+              esc("LEGAL_OMITTED — count-not-content") + "</div>";
+          } else {
+            card.textContent = String(rec.kind || rec.error || "open failed");
+          }
         }
       }
     }).catch(function (e) {
@@ -161,7 +216,13 @@
       var card = document.getElementById("recents-opened-card");
       if (card) {
         card.hidden = false;
-        card.textContent = String((e && e.message) || e);
+        var kind = (e && e.json && e.json.kind) || "";
+        if (kind === "LEGAL_OMITTED") {
+          card.innerHTML = '<div class="recents-empty explicit-empty">' +
+            esc("LEGAL_OMITTED — count-not-content") + "</div>";
+        } else {
+          card.textContent = String((e && e.message) || e);
+        }
       }
     });
   }
@@ -180,10 +241,18 @@
 
   window.clearOpenResult = clearOpenResult;
   window.paintCoworkRecents = paintCoworkRecents;
+  window.__cdeck_openSelected = openSelected;
   window.__cdeck_fillTab = window.__cdeck_fillTab || {};
   window.__cdeck_fillTab.recents = paintRecentsTab;
 
   document.addEventListener("click", function (e) {
+    var act = e.target && e.target.closest ? e.target.closest("[data-sessions-act]") : null;
+    if (act) {
+      var verb = act.getAttribute("data-sessions-act");
+      if (verb === "list") paintRecentsTab();
+      else if (verb === "open") openSelected();
+      return;
+    }
     var btn = e.target && e.target.closest ? e.target.closest(".tab-btn[data-tab]") : null;
     if (!btn) return;
     if (btn.getAttribute("data-tab") === "recents") paintRecentsTab();
