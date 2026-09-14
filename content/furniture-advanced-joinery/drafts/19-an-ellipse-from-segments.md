@@ -7,6 +7,12 @@ word_count: 1530
 dek: "An elliptical frame is a ring of miters that are all a little different. A spline or a bridle keeps the ring from becoming a pile of pretty chords."
 series: furniture-advanced-joinery
 topic: curved-work
+graphics:
+  - id: fig-sch-01
+    path: assets/an-ellipse-from-segments/joinery-diagram.svg
+    alt: "Splined or bridled joints closing an elliptical ring"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — elliptical frame dry-fit, segment joints visible (filename pending shop pull)"
@@ -30,7 +36,21 @@ verify:
 
 I had six segments on the bench, each a little trapezoid with a belly, and none of the miters were the same angle. An ellipse is like that. A circle lets you repeat one setting. An ellipse makes you treat every joint as a local problem. I dry-fit the ring and there was a gap at the last meeting the width of a nickel. Cumulative error. The ellipse does not forgive a nickel.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — elliptical frame dry-fit, segment joints visible (filename pending shop pull) -->
+<figure class="faj-figure">
+  <img src="../assets/an-ellipse-from-segments/joinery-diagram.svg" alt="Splined or bridled joints closing an elliptical ring" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Elliptical frame from segments. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-museum">
+  <img src="../assets/museum/eb1911-joints-plate.jpg" alt="1911 joinery joints illustration plate" width="169" height="659" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 2.</strong> Elliptical frames are segmented joinery; historical plates name splines and bridles without stock photos. (<a href="https://commons.wikimedia.org/wiki/File%3AEB1911_Joinery_-_Fig._12.%E2%80%94Joints.jpg">Wikimedia Commons</a> — Public domain).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Each miter is a local decision. The ellipse is the sum, if the sum closes." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> Each miter is a local decision. The ellipse is the sum, if the sum closes. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — elliptical frame dry-fit, segment joints visible (filename pending shop pull)</figcaption>
+</figure>
+
 
 This is a table rim, a mirror, a clock, a glass top’s wooden eye. It is not a brick-laid solid. Segments are long-grain following the curve as chords, then faired. The joinery between chords is the subject.
 
@@ -46,7 +66,11 @@ A bare miter on an ellipse is a picture frame. Picture frames hang. Table rims g
 
 The spline should be cross-grain to the miter so it is long-grain across the joint. A spline that follows the rim is a veneer in a slot. I have cut both. I keep the first.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — splined or bridled segment joint on an ellipse (filename pending shop pull) -->
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The spline crosses the miter. Without it, the ring is glue and hope." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 4 (pending).</strong> The spline crosses the miter. Without it, the ring is glue and hope. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — splined or bridled segment joint on an ellipse (filename pending shop pull)</figcaption>
+</figure>
+
 
 Dovetails on an ellipse: possible, mean, and usually a vanity unless the rim is a box you lift. I will not cut them on a table rim to prove a point. The point is a ring that stays a ring.
 

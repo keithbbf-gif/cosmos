@@ -7,6 +7,12 @@ word_count: 1699
 dek: "A crest rail comes off the form wet and sure of itself. The mortises in the posts are already cut. Springback is the joint you have not met yet."
 series: furniture-advanced-joinery
 topic: curved-work
+graphics:
+  - id: fig-sch-01
+    path: assets/steam-still-in-the-rail/joinery-diagram.svg
+    alt: "Curved rail entering a mortise while still releasing moisture"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — steam-bent crest rail on form, still wet (filename pending shop pull)"
@@ -31,7 +37,21 @@ verify:
 
 The rail came off the form with steam still in it, a little ghost of water on the oak, the strap mark a stripe I would plane later. It looked like the drawing. It would not look like the drawing in the morning. Springback is not a surprise. It is the wood remembering a straighter life. If I had cut tenons the night I bent it, I would have cut tenons for a chair that exists for one evening.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — steam-bent crest rail on form, still wet (filename pending shop pull) -->
+<figure class="faj-figure">
+  <img src="../assets/steam-still-in-the-rail/joinery-diagram.svg" alt="Curved rail entering a mortise while still releasing moisture" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Steam-bent crest rail to post. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-museum">
+  <img src="../assets/museum/vasa-oak-sample.jpg" alt="Oak timber sample from the Swedish ship Vasa" width="1280" height="853" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 2.</strong> Bent work starts with species and moisture — oak that moved on a ship is a sober reminder. (<a href="https://commons.wikimedia.org/wiki/File%3APiece_of_oak_wood_from_the_ship_Vasa_4.jpg">Wikimedia Commons</a> — CC BY-SA 4.0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The strap is tight. The rail is hotter than your patience. Do not cut tenons in this mood." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> The strap is tight. The rail is hotter than your patience. Do not cut tenons in this mood. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — steam-bent crest rail on form, still wet (filename pending shop pull)</figcaption>
+</figure>
+
 
 The craft pack already walked a spokeshave around a curve and a steam-bent slat in the materials pile. This is the joinery: a bent rail that has to enter two mortises in two posts, level, with shoulders that shut on a post that is not curved. The curve is in the rail. The posts are the square world. The tenon is the translator.
 
@@ -49,7 +69,11 @@ The posts can be straight or they can have a little rake. The mortise is usually
 
 Depth: the rail is already a little angry. A shallow mortise that the tenon bottoms in will push the posts apart. I leave a gap at the bottom of the mortise, the usual furniture habit, more important here because the rail may still move a hair as it finishes drying.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — bent crest dry-fit into post mortises (filename pending shop pull) -->
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The tenon was cut after the rail finished moving. The mortise was waiting. That is the only kind order." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 4 (pending).</strong> The tenon was cut after the rail finished moving. The mortise was waiting. That is the only kind order. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — bent crest dry-fit into post mortises (filename pending shop pull)</figcaption>
+</figure>
+
 
 ## Shoulders on a curve
 

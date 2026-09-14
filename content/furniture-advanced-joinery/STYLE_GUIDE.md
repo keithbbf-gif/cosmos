@@ -4,7 +4,7 @@ This pack sits **beyond** `content/furniture-craft-blog/`. That pack already tau
 
 **Status:** staged writing. Every essay stays `status: draft`. Photo slots stay `needed` until a real file is pulled from `D:\BBF`. Soft brand home is the same as the craft pack: a 65×15 shop in rural South Arkansas — Warren, Wilmar, Bradley County — usable later by Bradley Brand Furniture / Saline River Workshop / the mill-heritage story. The writing stands without the brand.
 
-Read this file before editing. Slug list + counts: `MANIFEST.md`. Photos: `PHOTO_CAPTIONS.md`, `PHOTO_MANIFEST.md`. WordPress: `WP_IMPORT.md`.
+Read this file before editing. Slug list + counts: `MANIFEST.md`. Photos: `PHOTO_CAPTIONS.md`, `PHOTO_MANIFEST.md`, `PHOTO_NOTES.md`. Graphics: `GRAPHICS_INDEX.md`, `RIGHTS.md`, `SEO_MAP.md`. WordPress: `WP_IMPORT.md`.
 
 ## What a piece is
 
@@ -104,9 +104,15 @@ verify: list of claims still open
 
 ## Figures
 
-This pack is **photo-slot first**. Shop photographs from `D:\BBF` are the figures. Diagrams may be added later; do not paste stock art or invent SVG paths that are not in the tree.
+Each draft ships **four** `<figure>` blocks (IMAGE + SEO pass):
 
-A `<!-- PHOTO: ... -->` HTML comment may sit in the body where the frame should land, matching the front-matter `id`. That is a pull instruction, not a published image.
+1. **Figure 1** — pack schematic: `assets/<slug>/joinery-diagram.svg` (`graphics[]` in front matter, class `faj-figure`).
+2. **Figure 2** — museum or Commons plate where assigned (`faj-figure faj-museum`). Rights in `RIGHTS.md`.
+3. **Photos 3–4** — shop slots from `D:\BBF` (`figures[]`, class `faj-figure faj-shop-pending` until a real file exists).
+
+Keep `<img alt="…">`, `width`, `height`, `loading="lazy"`, and `<figcaption>` together. Alt-text rules: `SEO_MAP.md`. Do not paste stock art or invent SVG paths that are not in the tree. No AI-generated images.
+
+Legacy `<!-- PHOTO: fig-0N … -->` comments were converted to figures; new shop pulls replace only the pending shop `<img>` src and `figures[].status`.
 
 ## WordPress
 

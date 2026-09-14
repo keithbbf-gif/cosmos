@@ -7,6 +7,12 @@ word_count: 1746
 dek: "A coopered door is a barrel that learned to hang. The staves are the curve. The joints between them are long-grain, and the frame still has to let the barrel move."
 series: furniture-advanced-joinery
 topic: curved-work
+graphics:
+  - id: fig-sch-01
+    path: assets/staves-that-make-a-door/joinery-diagram.svg
+    alt: "Beveled staves dry-fit on a form before hinge stile"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — coopered door dry-fit on form, stave joints showing (filename pending shop pull)"
@@ -30,7 +36,21 @@ verify:
 
 The stave was a sliver with two bevels. Alone it looked like a mistake. On the form, next to its sisters, it was a piece of a barrel. I had eight of them for a small cabinet door, white oak, the hollow facing the inside so the show was a shallow belly. A coopered door is not a bent lamination and it is not a brick stack. It is a set of long-grain joints standing in a circle that you then cut into a rectangle and hang.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — coopered door dry-fit on form, stave joints showing (filename pending shop pull) -->
+<figure class="faj-figure">
+  <img src="../assets/staves-that-make-a-door/joinery-diagram.svg" alt="Beveled staves dry-fit on a form before hinge stile" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Coopered door stave joints. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-museum">
+  <img src="../assets/museum/modern-cabinet-work-plate.jpg" alt="1910 cabinet-making plate from Modern Cabinet Work" width="1280" height="1925" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 2.</strong> Coopered doors appear in historical cabinet texts before they appear on your form — plate for type context. (<a href="https://commons.wikimedia.org/wiki/File%3AModern_cabinet_work%2C_furniture_and_fitments%3B_an_account_of_the_theory_and_practice_in_the_production_of_all_kinds_of_cabinet_work_and_furniture_with_chapters_on_the_growth_and_progress_of_design_and_%2814593727998%29.jpg">Wikimedia Commons</a> — No restrictions).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Each stave is a little trapezoid. Together they are a skin. The form is the only square in the room." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> Each stave is a little trapezoid. Together they are a skin. The form is the only square in the room. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — coopered door dry-fit on form, stave joints showing (filename pending shop pull)</figcaption>
+</figure>
+
 
 People think the hard part is the curve. The hard part is the *frame*: hinges want a straight stile, the latch wants a straight stile, and the barrel wants to keep being a barrel when the seasons change. If you glue a coopered skin into a rigid square like a prisoner, you have built a drum that will split a stave to get out.
 
@@ -48,7 +68,11 @@ I tape the outside, or I use a strap, or I use the form as a caul with a matchin
 
 Once it is a skin, I dress the inside and the outside with a compass plane or a curved scraper and a lot of checking with a batten. Fair is the only word. A flat in a coopered door is a stave that is proud or shy. You will see it after finish in the glass-wall light.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — coopered door in frame, hinge stile, inside hollow (filename pending shop pull) -->
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The hollow is the inside of the barrel. The hinge stile is still a board that has to be straight." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 4 (pending).</strong> The hollow is the inside of the barrel. The hinge stile is still a board that has to be straight. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — coopered door in frame, hinge stile, inside hollow (filename pending shop pull)</figcaption>
+</figure>
+
 
 ## How it becomes a door
 

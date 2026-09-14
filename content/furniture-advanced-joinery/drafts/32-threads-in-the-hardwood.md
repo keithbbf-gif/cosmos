@@ -7,6 +7,12 @@ word_count: 1380
 dek: "A threaded insert is a steel hole you give a rail so a machine screw can come and go. End grain without an insert is a hole that gets bigger every move."
 series: furniture-advanced-joinery
 topic: knockdown
+graphics:
+  - id: fig-sch-01
+    path: assets/threads-in-the-hardwood/joinery-diagram.svg
+    alt: "Brass insert in end grain versus long grain"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — threaded insert in hardwood apron or block (filename pending shop pull)"
@@ -30,7 +36,21 @@ verify:
 
 The screw came out with the insert still on it, a little steel owl in the threads, the hole in the oak suddenly a cave. I had put the insert in end grain because the rail ended at the leg and I was in a hurry. End grain will hold an insert the way a fist holds water if you did not give it a collar or a cross. I plugged, I glued a long-grain block inside the corner, I set a new insert, and I wrote it on the wall of my head.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — threaded insert in hardwood apron or block (filename pending shop pull) -->
+<figure class="faj-figure">
+  <img src="../assets/threads-in-the-hardwood/joinery-diagram.svg" alt="Brass insert in end grain versus long grain" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Threaded insert in hardwood. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-museum">
+  <img src="../assets/museum/eb1911-joints-plate.jpg" alt="Wood joints reference illustration" width="169" height="659" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 2.</strong> Threaded inserts sit in grain you must read — reference plate for grain-aware hardware. (<a href="https://commons.wikimedia.org/wiki/File%3AEB1911_Joinery_-_Fig._12.%E2%80%94Joints.jpg">Wikimedia Commons</a> — Public domain).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The insert is flush or a hair under. The screw should not bottom on the insert’s lip." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> The insert is flush or a hair under. The screw should not bottom on the insert’s lip. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — threaded insert in hardwood apron or block (filename pending shop pull)</figcaption>
+</figure>
+
 
 Inserts are how a one-man shop makes knockdown without a barrel if the geometry is a simple screw from a plate or a leg bolt from a known face. They are not magic. They are a thread in a piece of steel that is itself threaded into wood. The wood is still the weak story.
 
@@ -40,7 +60,11 @@ I set inserts in long grain whenever I can: the inside of an apron, a block grai
 
 If the design forces end grain, I add a cross-grain plug or a pin through the insert’s body, or I use a T-nut on the hidden face, or I change the design. A T-nut is ugly and honest. An insert in naked end grain is pretty and a liar.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — insert in end grain vs long grain, two samples (filename pending shop pull) -->
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Long grain holds an insert. End grain holds one if you help it. Helping is a cross-pin or a better block." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 4 (pending).</strong> Long grain holds an insert. End grain holds one if you help it. Helping is a cross-pin or a better block. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — insert in end grain vs long grain, two samples (filename pending shop pull)</figcaption>
+</figure>
+
 
 ## Installation is a joinery step
 

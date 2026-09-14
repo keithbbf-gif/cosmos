@@ -7,6 +7,12 @@ word_count: 1372
 dek: "A bow-front drawer is a curve you can see and a pair of dovetails that still have to meet a straight side. The front is coopered or bent. The pins do not get to pretend the world is square."
 series: furniture-advanced-joinery
 topic: compound-dovetails
+graphics:
+  - id: fig-sch-01
+    path: assets/a-drawer-that-bows/joinery-diagram.svg
+    alt: "Curved show front meeting a straight side at half-blind sockets"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — bow-front drawer, curved front meeting straight side, half-blind pins (filename pending shop pull)"
@@ -30,7 +36,21 @@ verify:
 
 The drawer front was a smile. Not a cartoon smile — a shallow bow, maybe three-eighths out of flat on a 16-inch width, enough that a straightedge rocked and a square lied at both ends. The sides were still straight boards. They always are. Runners, grooves, a back that wants to be a rectangle: the carcase is a square world. The front is the only piece that left. The pins have to meet that leaving.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — bow-front drawer, curved front meeting straight side, half-blind pins (filename pending shop pull) -->
+<figure class="faj-figure">
+  <img src="../assets/a-drawer-that-bows/joinery-diagram.svg" alt="Curved show front meeting a straight side at half-blind sockets" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Bow-front drawer half-blind pins. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-museum">
+  <img src="../assets/museum/finished-dovetail-shop.jpg" alt="Photograph of finished through-dovetails on a drawer corner" width="1280" height="960" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 2.</strong> A bow front still ends in pins — this shop photo shows how tight pins read on a curved meeting. (<a href="https://commons.wikimedia.org/wiki/File%3AFinished_dovetail.jpg">Wikimedia Commons</a> — CC BY-SA 3.0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The front leaves the square world. The side does not. The pins live in the argument between them." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> The front leaves the square world. The side does not. The pins live in the argument between them. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — bow-front drawer, curved front meeting straight side, half-blind pins (filename pending shop pull)</figcaption>
+</figure>
+
 
 I will not start with a history of bombé chests. Those are another shop’s religion. I start with a sideboard drawer that needs to echo a curved apron, or a jewelry-chest drawer that would look dead if it were flat. The joinery problem is the same at every scale: half-blind dovetails in a front whose show face is not the plane your marking gauge expects.
 
@@ -46,7 +66,11 @@ Three honest ways:
 
 **Laminated.** Thin leaves on a form. Stable. Kind. The ends are easier to square. The look is a little quieter than a solid board that grew the curve. I like it for kitchen work. I like solid for a piece that will be opened in a sitting room.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — curved drawer front on form, or coopered staves before pins (filename pending shop pull) -->
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Make the curve true before you invite the saw. A wandering front makes wandering sockets." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 4 (pending).</strong> Make the curve true before you invite the saw. A wandering front makes wandering sockets. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — curved drawer front on form, or coopered staves before pins (filename pending shop pull)</figcaption>
+</figure>
+
 
 Do not mark tails until the front is at thickness and the curve is fair. A fair curve is one a batten likes. If the batten shows a flat in the middle, you will see it after finish, and you will also have a baseline that changes its mind.
 

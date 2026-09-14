@@ -7,6 +7,12 @@ word_count: 1400
 dek: "A fox-wedged tenon is a wedge you drive into a kerf as the tenon enters a stopped mortise. The joint swells in a hole you will not open again. On a splay, it is also a one-way decision."
 series: furniture-advanced-joinery
 topic: hybrid
+graphics:
+  - id: fig-sch-01
+    path: assets/a-wedge-you-cannot-see/joinery-diagram.svg
+    alt: "Kerfed tenon and hidden wedge in a stopped mortise"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — fox-wedged tenon, kerf and wedge before assembly (filename pending shop pull)"
@@ -30,7 +36,21 @@ verify:
 
 The wedge disappeared. That is the point and the danger. I had a stopped mortise in a chair leg, a tenon with a kerf, a little wedge standing in the kerf, and one chance to drive the rail home so the wedge hit the bottom of the mortise and spread the tenon like a fist. If the wedge was long, the shoulder would not shut. If the wedge was short, the fist would not clench. I would not know which until the glue had grabbed. That is why this joint is not a knockdown. It is the opposite. I put it in this pack because it shows up on splayed chairs next to joints that *do* travel, and people confuse the two.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — fox-wedged tenon, kerf and wedge before assembly (filename pending shop pull) -->
+<figure class="faj-figure">
+  <img src="../assets/a-wedge-you-cannot-see/joinery-diagram.svg" alt="Kerfed tenon and hidden wedge in a stopped mortise" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Fox-wedged tenon. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-museum">
+  <img src="../assets/museum/eb1911-joints-plate.jpg" alt="1911 wood joints plate" width="169" height="659" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 2.</strong> Fox wedges hide inside mortises — joints plate for readers mapping stopped joints. (<a href="https://commons.wikimedia.org/wiki/File%3AEB1911_Joinery_-_Fig._12.%E2%80%94Joints.jpg">Wikimedia Commons</a> — Public domain).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The wedge is shorter than your optimism. If it bottoms before the shoulder, you have a gap and a secret." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> The wedge is shorter than your optimism. If it bottoms before the shoulder, you have a gap and a secret. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — fox-wedged tenon, kerf and wedge before assembly (filename pending shop pull)</figcaption>
+</figure>
+
 
 The craft pack showed a wedge you can see. This is the cousin you bury. Fox is stay. Tusk is go. Mixing the names is how a chair arrives in a crate that will not open without a saw.
 
@@ -40,7 +60,11 @@ Depth of the mortise, length of the tenon, length of the wedge, depth of the ker
 
 Dry-fit without the wedge until the shoulder shuts. Then I mark, then I cut the fox, then I glue and I go. Hide is kind if I have to get back in, and getting back in is a saw through a chair rail. Plan the first time.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — splayed chair rail, stopped mortise, dry-fit without wedge (filename pending shop pull) -->
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Dry-fit without the fox. The fox is a last act, not a first guess." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 4 (pending).</strong> Dry-fit without the fox. The fox is a last act, not a first guess. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — splayed chair rail, stopped mortise, dry-fit without wedge (filename pending shop pull)</figcaption>
+</figure>
+
 
 ## The depth stick that hangs on the chisel
 

@@ -7,6 +7,12 @@ word_count: 1524
 dek: "A Windsor-style bent stretcher in a green leg is a round tenon in a round hole that shrinks around it. The joint is the drying, if you did not bore a wish."
 series: furniture-advanced-joinery
 topic: curved-work
+graphics:
+  - id: fig-sch-01
+    path: assets/a-socket-in-green-wood/joinery-diagram.svg
+    alt: "Bored socket in a green leg receiving a dry stretcher tenon"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — green leg, bored socket, dry stretcher tenon (filename pending shop pull)"
@@ -30,7 +36,21 @@ verify:
 
 The shaving came off the tenon long and wet-looking even though the stretcher had been drying in the rafters. The leg was still green — not dripping, just heavier than it would be in a month, the hole I had just bored a little fuzzy. This joint does not pretend kiln-dried oak is the only furniture. It uses a wet socket and a drier tenon so the hole can shrink onto the pin. That shrink is the clamp. Glue is optional and, in the old habit, sometimes rude.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — green leg, bored socket, dry stretcher tenon (filename pending shop pull) -->
+<figure class="faj-figure">
+  <img src="../assets/a-socket-in-green-wood/joinery-diagram.svg" alt="Bored socket in a green leg receiving a dry stretcher tenon" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Green-wood socket and dry tenon. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-museum">
+  <img src="../assets/museum/vasa-oak-sample.jpg" alt="Oak timber sample" width="1280" height="853" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 2.</strong> Green-wood sockets shrink — species and moisture context without inventing a chair photo. (<a href="https://commons.wikimedia.org/wiki/File%3APiece_of_oak_wood_from_the_ship_Vasa_4.jpg">Wikimedia Commons</a> — CC BY-SA 4.0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Wet hole, dry pin. The shrinkage is the clamp you cannot buy." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> Wet hole, dry pin. The shrinkage is the clamp you cannot buy. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — green leg, bored socket, dry stretcher tenon (filename pending shop pull)</figcaption>
+</figure>
+
 
 I will not claim the Wilmar floor is a Windsor shop unless that is true. [VERIFY]. I will write the joint as it is practiced, because a bent stretcher in a socket is curved work that a lot of “fine furniture” people skip and then wonder why their chairs rack.
 
@@ -44,7 +64,11 @@ A wedge in the tenon, driven from the show face of a seat, is the through-tenon 
 
 I shave to a gauge, or I use a hollow auger, or I use a tenon cutter that I trust that day. Round is the point. An oval tenon in a round hole is a joint that is tight on two meridians and loose on the others. It will rack toward the loose.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — steam-bent stretcher, shaved tenon, chair underway (filename pending shop pull) -->
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The bend is the line. The tenon is a cylinder you shaved to a gauge." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 4 (pending).</strong> The bend is the line. The tenon is a cylinder you shaved to a gauge. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — steam-bent stretcher, shaved tenon, chair underway (filename pending shop pull)</figcaption>
+</figure>
+
 
 The stretcher may be steam-bent. Bend first, then tenon — the sequence essay still applies. A bent stretcher whose tenons were cut while straight will enter the sockets as a frown.
 

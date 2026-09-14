@@ -7,6 +7,12 @@ word_count: 1342
 dek: "A dining pedestal that comes apart is a block, a rod, and a set of feet that do not pretend they are a carved one-piece vase. The split is the feature."
 series: furniture-advanced-joinery
 topic: knockdown
+graphics:
+  - id: fig-sch-01
+    path: assets/a-pedestal-that-splits/joinery-diagram.svg
+    alt: "Column, spider, and rod that lets the base travel in parts"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — pedestal table base apart: block, column, feet (filename pending shop pull)"
@@ -30,7 +36,21 @@ verify:
 
 The table was a dining top and a vase and a set of feet, and it would not go through the door as a vase. I had built the column as a brick-laid pretty thing and I had glued the feet as if the house would never move. The house moved. I cut the column free, I put a rod through, and I learned a cheaper lesson than building the second table: a pedestal that splits is a pedestal you can deliver.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — pedestal table base apart: block, column, feet (filename pending shop pull) -->
+<figure class="faj-figure">
+  <img src="../assets/a-pedestal-that-splits/joinery-diagram.svg" alt="Column, spider, and rod that lets the base travel in parts" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Pedestal base on a center rod. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-museum">
+  <img src="../assets/museum/met-gateleg-dt235356.jpg" alt="Gate-leg table with pedestal and leaf geometry, Metropolitan Museum of Art" width="1280" height="1024" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 2.</strong> Pedestal tables split for travel — gate-leg and pedestal families share center-column thinking in period work. (<a href="https://commons.wikimedia.org/wiki/File%3AGate-leg_table_MET_DT235356.jpg">Wikimedia Commons</a> — CC0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Three piles. If you cannot make three piles, you built a statue." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> Three piles. If you cannot make three piles, you built a statue. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — pedestal table base apart: block, column, feet (filename pending shop pull)</figcaption>
+</figure>
+
 
 The brick-and-gouge essay was the curve. This is the iron.
 
@@ -44,7 +64,11 @@ The brick-and-gouge essay was the curve. This is the iron.
 
 The rod ties 1 to 3 through 2. Nuts you can reach. If you cannot reach a nut after the top is on, you have designed a museum piece. Dining tables are not museum pieces. They live in rooms that get new rugs.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — rod and nut in pedestal block, access (filename pending shop pull) -->
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The nut you can reach is the nut you will tighten in five years." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 4 (pending).</strong> The nut you can reach is the nut you will tighten in five years. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — rod and nut in pedestal block, access (filename pending shop pull)</figcaption>
+</figure>
+
 
 ## Feet that are joints
 

@@ -7,6 +7,12 @@ word_count: 1718
 dek: "A compound sliding dovetail is a shelf or rail that does not meet the case at ninety. The socket climbs, the tail has two slopes, and a square bit is the wrong religion."
 series: furniture-advanced-joinery
 topic: compound-dovetails
+graphics:
+  - id: fig-sch-01
+    path: assets/the-socket-that-climbs/joinery-diagram.svg
+    alt: "Shelf tail with dovetail slope plus case rake in one socket"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — sloped case with climbing sliding-dovetail socket (filename pending shop pull)"
@@ -30,7 +36,21 @@ verify:
 
 The shelf wanted to be level. The case side wanted to lean, a shallow cant I had already committed to on the drawing. A square sliding dovetail would have put the shelf on a slope or the socket through the show face at one end. I needed a socket that climbed — the same depth from the inside face, the same tail angle, and a path that was not square to the side’s edge. That is a compound sliding dovetail. It is also a good way to spend a morning on a jig you will use once.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — sloped case with climbing sliding-dovetail socket (filename pending shop pull) -->
+<figure class="faj-figure">
+  <img src="../assets/the-socket-that-climbs/joinery-diagram.svg" alt="Shelf tail with dovetail slope plus case rake in one socket" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Climbing sliding-dovetail socket. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-museum">
+  <img src="../assets/museum/dovetail-joint-diagram.png" alt="Diagram of a dovetail joint with labeled pins and tails" width="389" height="569" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 2.</strong> A climbing socket is still a dovetail with a second slope — diagram for readers who have not cut one yet. (<a href="https://commons.wikimedia.org/wiki/File%3ADovetail_joint.png">Wikimedia Commons</a> — CC BY-SA 3.0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The shelf is level. The side is not. The socket has to be a little staircase." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> The shelf is level. The side is not. The socket has to be a little staircase. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — sloped case with climbing sliding-dovetail socket (filename pending shop pull)</figcaption>
+</figure>
+
 
 The basic sliding dovetail is already in the craft pack: shelf from the back, glue the third, stop the show edge. This piece assumes you can cut that joint in your sleep and then someone asks for a magazine rack, a lectern, a sloped bookcase, a hopper cabinet with a level shelf. The shelf is still a beam. The side is still a board that moves. The meeting is no longer a right angle.
 
@@ -48,7 +68,11 @@ Everything else — the path of the socket across the side, the shape of the she
 
 A router wants a fence. The fence for a climbing socket is a board clamped so its edge is parallel to the *shelf*, not to the case edge. I make a plywood saddle that references the inside face and the level line, and I run the bit in that saddle. The first pass is shallow. The last pass is the one that scares you at the thin end of a cant.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — compound tail on shelf end, two slopes visible (filename pending shop pull) -->
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="One slope is the dovetail. The other is the case. Miss either and the shelf sits on two different floors." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 4 (pending).</strong> One slope is the dovetail. The other is the case. Miss either and the shelf sits on two different floors. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — compound tail on shelf end, two slopes visible (filename pending shop pull)</figcaption>
+</figure>
+
 
 Hand-cut: you can saw the socket walls if you are patient and the shelf is not a production run. Two lines, two slopes. I have done one by hand for a lectern. I would not do a bookcase of them by hand unless the week had nowhere to be.
 

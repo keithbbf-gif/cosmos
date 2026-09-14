@@ -7,6 +7,12 @@ word_count: 1412
 dek: "Campaign furniture is knockdown as a culture: corners you can replace, drawers that lock with a pin, brass that takes the hit so the dovetail does not have to."
 series: furniture-advanced-joinery
 topic: knockdown
+graphics:
+  - id: fig-sch-01
+    path: assets/brass-on-a-travel-chest/joinery-diagram.svg
+    alt: "Brass strap and cap on a knockdown campaign corner"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — campaign chest corner, brass strap or cap (filename pending shop pull)"
@@ -31,7 +37,21 @@ verify:
 
 The corner wore brass like a shoe wears a heel plate. Under it, if the chest was built, there were still tails. Campaign work is not “brass instead of joinery.” It is joinery plus ironmongery that expects a crate, a wagon, a porch, a move. The knockdown is the stack of drawers that become a tower, the screws you can reach, the pulls that do not catch a strap.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — campaign chest corner, brass strap or cap (filename pending shop pull) -->
+<figure class="faj-figure">
+  <img src="../assets/brass-on-a-travel-chest/joinery-diagram.svg" alt="Brass strap and cap on a knockdown campaign corner" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Campaign chest corner hardware. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-museum">
+  <img src="../assets/museum/modern-cabinet-work-plate.jpg" alt="Cabinet work plate showing case hardware context" width="1280" height="1925" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 2.</strong> Campaign brass is hardware on a knockdown case — historical cabinet plate until a rights-cleared campaign chest photo lands. (<a href="https://commons.wikimedia.org/wiki/File%3AModern_cabinet_work%2C_furniture_and_fitments%3B_an_account_of_the_theory_and_practice_in_the_production_of_all_kinds_of_cabinet_work_and_furniture_with_chapters_on_the_growth_and_progress_of_design_and_%2814593727998%29.jpg">Wikimedia Commons</a> — No restrictions).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The brass is the bumper. The dovetail is still under it, if you built one." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> The brass is the bumper. The dovetail is still under it, if you built one. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — campaign chest corner, brass strap or cap (filename pending shop pull)</figcaption>
+</figure>
+
 
 I will not invent a colonial romance. The form is useful in a shop that ships. A chest of drawers that is also two or three boxes with aligning pins will go up a stair that a tall chest will not. That is the joint: boxes that stack, pins that find holes, and corners that can take a hit.
 
@@ -51,7 +71,11 @@ Some chests bolt through. That is a bed-bolt idea standing up. I like it when th
 
 Four pins, four holes, one story stick. I do not lay out the upper box from a tape I re-read after finish. Finish changes what I think I see. The stick does not. I check the stack on a flat bench with a straightedge across the lips. A proud lip is a pin I laid out after finish with a tape. I recut the hole. I do not sand the lip into a slope and call the slope a chamfer.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — campaign drawer, flush pulls, locking pin or flush stay (filename pending shop pull) -->
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Nothing proud. A proud pull is a pull that will not survive a crate." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 4 (pending).</strong> Nothing proud. A proud pull is a pull that will not survive a crate. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — campaign drawer, flush pulls, locking pin or flush stay (filename pending shop pull)</figcaption>
+</figure>
+
 
 ## Drawers that do not catch a strap
 

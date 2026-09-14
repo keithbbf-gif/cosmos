@@ -7,6 +7,12 @@ word_count: 1544
 dek: "A kerf-bent case side is a board with a lot of saw cuts in its back, bent around a form. The joinery lives in the solid ends you did not kerf. If you kerf into a dovetail, you have a hinge you did not want."
 series: furniture-advanced-joinery
 topic: curved-work
+graphics:
+  - id: fig-sch-01
+    path: assets/kerfs-that-must-stop/joinery-diagram.svg
+    alt: "Kerfs on the hollow face stopping before tail layout"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — kerf-bent panel on form, kerfs showing on the hollow (filename pending shop pull)"
@@ -30,7 +36,21 @@ verify:
 
 I counted the kerfs because I always do, and then I counted the uncut inches at the end because that is the number that matters. The board would bend around a plywood rib into a gentle quarter, a case side for a small cabinet that wanted a soft corner without a stave meeting. Kerf-bending is a trick. It is a good trick. It is also a board you have turned into a hinge for most of its length. The joint has to live where you did not cut the hinges.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — kerf-bent panel on form, kerfs showing on the hollow (filename pending shop pull) -->
+<figure class="faj-figure">
+  <img src="../assets/kerfs-that-must-stop/joinery-diagram.svg" alt="Kerfs on the hollow face stopping before tail layout" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Kerf-bent panel with solid end. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-museum">
+  <img src="../assets/museum/eb1911-joints-plate.jpg" alt="Historical wood joints plate" width="169" height="659" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 2.</strong> Kerf bending meets solid ends for joinery — general joints plate as classroom anchor. (<a href="https://commons.wikimedia.org/wiki/File%3AEB1911_Joinery_-_Fig._12.%E2%80%94Joints.jpg">Wikimedia Commons</a> — Public domain).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The kerfs are the bend. They stop before the end that has to be a joint." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> The kerfs are the bend. They stop before the end that has to be a joint. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — kerf-bent panel on form, kerfs showing on the hollow (filename pending shop pull)</figcaption>
+</figure>
+
 
 This is not coopering. Coopering is many boards. This is one board, sawn almost through, over and over, so it can take a radius. The show face stays mostly whole. The back is a comb.
 
@@ -42,7 +62,11 @@ Depth of kerf: almost through, not through. A hair of face is the hinge. Too lit
 
 Spacing: even, or a little tighter on the inside of a tighter radius. I use a story stick. I do not freehand a comb I have to live with.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — solid end of a kerfed side, tails or tenon laid out (filename pending shop pull) -->
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Solid country. This is where the saw is allowed to mean joinery." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 4 (pending).</strong> Solid country. This is where the saw is allowed to mean joinery. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — solid end of a kerfed side, tails or tenon laid out (filename pending shop pull)</figcaption>
+</figure>
+
 
 ## Glue in the comb — or not
 

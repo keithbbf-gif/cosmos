@@ -7,6 +7,12 @@ word_count: 1408
 dek: "A sloped-side box will not stand on a square dovetail. Compound tails, a bevel gauge that does not lie, and the first dry-fit that still wants to walk downhill."
 series: furniture-advanced-joinery
 topic: compound-dovetails
+graphics:
+  - id: fig-sch-01
+    path: assets/the-hopper-that-leans/joinery-diagram.svg
+    alt: "End grain parallelogram with tails sawn to the hopper bevel, not plumb to the bench"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — hopper box dry-fit, sloped sides, tails showing (filename pending shop pull)"
@@ -31,7 +37,21 @@ verify:
 
 The bevel gauge would not stay where I left it. The hopper side was already a parallelogram in elevation, and every time I set the stock on the bench the blade pointed at a different story. I locked it to the actual side — the board I had already planed to thickness — and I carried that angle to the end grain like it was a secret. A square dovetail on this box is a joint that only exists on paper. The sides lean. The tails have to lean with them.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — hopper box dry-fit, sloped sides, tails showing (filename pending shop pull) -->
+<figure class="faj-figure">
+  <img src="../assets/the-hopper-that-leans/joinery-diagram.svg" alt="End grain parallelogram with tails sawn to the hopper bevel, not plumb to the bench" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Compound dovetail on a sloped hopper side. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-museum">
+  <img src="../assets/museum/eb1911-dovetails.jpg" alt="1911 encyclopedia plate of dovetail types including angled and compound forms" width="507" height="213" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 2.</strong> Historical plate of dovetail variants — useful for naming compound slopes before you cut a hopper side. (<a href="https://commons.wikimedia.org/wiki/File%3AEB1911_Joinery_-_Fig._3.%E2%80%94Dovetails.jpg">Wikimedia Commons</a> — Public domain).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The sides lean. The tails have to lean with them or the shoulder is a wedge you did not mean." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> The sides lean. The tails have to lean with them or the shoulder is a wedge you did not mean. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — hopper box dry-fit, sloped sides, tails showing (filename pending shop pull)</figcaption>
+</figure>
+
 
 I am not talking about a planter you hide behind the shop with a plastic liner. I am talking about a magazine box, a coal scuttle cousin, a wastebasket a customer will pick up by the rim. The moment you pick it up, the rim is a hoop in tension and the base is trying to stay a rectangle. If the joinery is square and the sides are not, the shoulders become wedges. Wedges open.
 
@@ -47,7 +67,11 @@ Some people call this a “hopper joint” and leave it. The name is not the wor
 
 I do not start with “twelve degrees” unless the drawing already earned it. I start with the board width, the finished height, and how much the rim is larger than the base. A story stick is kinder than a calculator when the shop is loud. Mark the outside face of each side. Mark the top. If you flip a side and keep cutting, you will cut a left-hand slope on a right-hand board and the box will twist like a bad stair.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — bevel gauge locked on hopper side, gauge line on end grain (filename pending shop pull) -->
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Lock the bevel to the side, not to a remembered number. The end grain is the only honest map." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 4 (pending).</strong> Lock the bevel to the side, not to a remembered number. The end grain is the only honest map. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — bevel gauge locked on hopper side, gauge line on end grain (filename pending shop pull)</figcaption>
+</figure>
+
 
 Transfer the slope to the end with the bevel. Then set the marking gauge from the *inside* face or the *outside* — again, pick one — and scribe the baseline so it is the same distance from the rim all the way around. On a hopper the “end” is already a slope, so a gauge that rides the end grain will walk. Ride the face. Pare the end square to the face first if the board came off the saw with a little roll. You cannot lay out a compound joint on a drunk end.
 

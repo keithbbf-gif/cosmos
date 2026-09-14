@@ -7,6 +7,12 @@ word_count: 1713
 dek: "A mitered-through dovetail shows a clean bevel on the top edge and still flashes pins on the side. The miter is a lid for the end grain. The pins are still the joint."
 series: furniture-advanced-joinery
 topic: compound-dovetails
+graphics:
+  - id: fig-sch-01
+    path: assets/show-miter-hide-pins/joinery-diagram.svg
+    alt: "Top-edge miter closed while pins remain visible on the side"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — mitered-through dovetail, top edge closed, pins on side (filename pending shop pull)"
@@ -30,7 +36,21 @@ verify:
 
 From above, the chest corner was a miter. From the side, it was still a row of pins. I like that honesty. You get the clean line the lid will sit against — no end grain flashing a checkerboard at the rim — and you still get teeth a person can read when they walk past. It is not a secret miter. The secret miter hides everything. This joint hides the *top* of the end grain and leaves the side to tell the truth.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — mitered-through dovetail, top edge closed, pins on side (filename pending shop pull) -->
+<figure class="faj-figure">
+  <img src="../assets/show-miter-hide-pins/joinery-diagram.svg" alt="Top-edge miter closed while pins remain visible on the side" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Mitered-through dovetail. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-museum">
+  <img src="../assets/museum/mitre-joint-square.png" alt="Mitre joint diagram on square stock" width="603" height="724" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 2.</strong> Mitered-through dovetails marry this show miter with pins you still have to lay out on the end. (<a href="https://commons.wikimedia.org/wiki/File%3AMitre_joint_square.png">Wikimedia Commons</a> — Public domain).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="From above, a miter. From the side, teeth. Two stories, one corner." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> From above, a miter. From the side, teeth. Two stories, one corner. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — mitered-through dovetail, top edge closed, pins on side (filename pending shop pull)</figcaption>
+</figure>
+
 
 Cabinetmakers call it a mitered-through dovetail, or a dovetail with mitered ends, or a “mitered pin” if they are in a hurry. The work is: the first pin (or the half-pin at the rim) is replaced by a miter that runs across the thickness at the top edge only. Below that, through-dovetails as usual. A blanket chest, a tool chest, a box whose lid wants a clean landing.
 
@@ -44,7 +64,11 @@ Why not a full secret miter? Because the side of a chest is a place I still want
 
 I lay out the through-dovetails first, including a half-pin at the top. Then I convert that half-pin into a miter. The miter line runs 45 across the thickness at the rim, and it dies before it eats the first full pin. If your first full pin is too close to the rim, you do not have room. Move the pin down or thicken the stock. A 1/2-inch side with a 3/8-inch pin starting right at the top has no place for a miter. This is a joint for 5/8 and up, happier at 3/4.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — layout of mitered ends on through-dovetail pins (filename pending shop pull) -->
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The miter stops at the first pin. If it eats the pin, you have a secret joint you did not mean." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 4 (pending).</strong> The miter stops at the first pin. If it eats the pin, you have a secret joint you did not mean. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — layout of mitered ends on through-dovetail pins (filename pending shop pull)</figcaption>
+</figure>
+
 
 Both boards get the miter. That is obvious and still the place people forget, because they are thinking about tails and pins and the bevel feels like a third guest. Mark both. Saw both. Dry-fit the miter as if it were a picture frame that also has teeth below.
 

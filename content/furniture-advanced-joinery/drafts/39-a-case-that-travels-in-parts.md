@@ -7,6 +7,12 @@ word_count: 1424
 dek: "A modular case with sliding dovetails as knockdown is a shelf that comes out the back and a side that is still a side. The glue stays in a third — or it stays in the can."
 series: furniture-advanced-joinery
 topic: knockdown
+graphics:
+  - id: fig-sch-01
+    path: assets/a-case-that-travels-in-parts/joinery-diagram.svg
+    alt: "Tails on shelves engaging sockets in sides for travel knockdown"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — case sides and shelves apart, sliding-dovetail tails visible (filename pending shop pull)"
@@ -30,7 +36,21 @@ verify:
 
 The shelf came out the back talking, the same rising friction as always, and then it was in my hands and the case was two sides and a top. I had not glued the tails. I had waxed them. The customer wanted a bookcase that could leave an apartment without leaving the apartment in the stairwell. A sliding dovetail can be that joint if you design it to be done twice. Most of them are designed to be done once, which is why they seize.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — case sides and shelves apart, sliding-dovetail tails visible (filename pending shop pull) -->
+<figure class="faj-figure">
+  <img src="../assets/a-case-that-travels-in-parts/joinery-diagram.svg" alt="Tails on shelves engaging sockets in sides for travel knockdown" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Sliding-dovetail case sides. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-museum">
+  <img src="../assets/museum/dovetail-joint-diagram.png" alt="Dovetail joint labeled diagram" width="389" height="569" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 2.</strong> Sliding-dovetail cases travel in parts — diagram for the tail/socket vocabulary. (<a href="https://commons.wikimedia.org/wiki/File%3ADovetail_joint.png">Wikimedia Commons</a> — CC BY-SA 3.0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Parts. The tails are a little proud of pretty. They have to slide again." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> Parts. The tails are a little proud of pretty. They have to slide again. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — case sides and shelves apart, sliding-dovetail tails visible (filename pending shop pull)</figcaption>
+</figure>
+
 
 The craft pack taught the glued third. This is the unglued, or lightly glued, modular cousin. The structural idea is the same. The politics are not. On a travel case I glue a third — one shelf, or a top rail that is allowed to marry — or I glue nothing and I stay out of the can. An inch of “just because” on every tail is how a knockdown becomes a house case in June.
 
@@ -40,7 +60,11 @@ I cut the tail a hair easier than a permanent joint. I ease the arrises. I wax. 
 
 A stopped socket still keeps the show edge clean. The stop takes a beating on every teardown. I leave a little extra meat at the stop, or I put a small hardwood shoe in the stop if the case will travel often. Soft stop, blown corner, dark hole from the sofa.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — same case assembled, show edge clean (filename pending shop pull) -->
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Together, the show edge should not tell on the travel." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 4 (pending).</strong> Together, the show edge should not tell on the travel. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — same case assembled, show edge clean (filename pending shop pull)</figcaption>
+</figure>
+
 
 ## The sled that keeps the bit honest
 

@@ -7,6 +7,12 @@ word_count: 1686
 dek: "A campaign stool or a knockdown chair is a set of sticks and a seat that agree to be a chair again. The joint is a pin you can find in the dark."
 series: furniture-advanced-joinery
 topic: knockdown
+graphics:
+  - id: fig-sch-01
+    path: assets/a-stool-that-fits-in-a-trunk/joinery-diagram.svg
+    alt: "Legs and stretchers that nest with a removable pin"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — knockdown stool apart, parts labeled or nested (filename pending shop pull)"
@@ -30,7 +36,21 @@ verify:
 
 The stool was four legs, two stretchers, a seat, and a handful of pins, and it fit in a canvas bag I would not be ashamed to put in a truck. Assembled, it had to take a hip. That is the test. A knockdown stool that only holds a coat is a coat rack. I sat on it in the shop before I liked it. The first version racked. The pins were pretty brass and they bent. I replaced them with steel that looked less like jewelry and more like a chair.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — knockdown stool apart, parts labeled or nested (filename pending shop pull) -->
+<figure class="faj-figure">
+  <img src="../assets/a-stool-that-fits-in-a-trunk/joinery-diagram.svg" alt="Legs and stretchers that nest with a removable pin" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Knockdown stool through-pin. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-museum">
+  <img src="../assets/museum/met-trestle-table.jpg" alt="Knockdown-friendly trestle table form in museum collection" width="1280" height="926" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 2.</strong> Knockdown stools and trestle tables share take-apart logic — museum form, shop hardware. (<a href="https://commons.wikimedia.org/wiki/File%3ATrestle_Table_MET_97190.jpg">Wikimedia Commons</a> — CC0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="A pile that is still a chair if the pins match." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> A pile that is still a chair if the pins match. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — knockdown stool apart, parts labeled or nested (filename pending shop pull)</figcaption>
+</figure>
+
 
 This is travel furniture without the chest. Same culture: nothing proud that will catch, joints you can do again, parts you can replace.
 
@@ -40,7 +60,11 @@ Through-pins, tusked stretchers at this small scale, or a bolt with a captured n
 
 The seat can be a slab with four housings, or a piece of canvas, or leather. A slab seat wants to locate on the legs so it cannot skate. A canvas seat is a sling; the frame then is the whole chair and must not rack. Sling stools fail at the frame, not at the cloth.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — stool assembled, through-pin or brass fitting (filename pending shop pull) -->
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Assembled, it has to take a hip. Pretty fittings that bend are not a hip joint." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 4 (pending).</strong> Assembled, it has to take a hip. Pretty fittings that bend are not a hip joint. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — stool assembled, through-pin or brass fitting (filename pending shop pull)</figcaption>
+</figure>
+
 
 ## The pairing jig that makes holes agree
 

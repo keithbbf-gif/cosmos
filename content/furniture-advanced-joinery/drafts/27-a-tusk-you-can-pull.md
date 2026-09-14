@@ -7,6 +7,12 @@ word_count: 1514
 dek: "A tusk tenon is a through-tenon with a wedge you are supposed to remove. The trestle comes apart in a hallway. The joint is the wedge, the slot, and a shoulder that still shuts when you drive it home."
 series: furniture-advanced-joinery
 topic: knockdown
+graphics:
+  - id: fig-sch-01
+    path: assets/a-tusk-you-can-pull/joinery-diagram.svg
+    alt: "Through-tenon slot, wedge, and shoulder that shuts for knockdown"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — tusk-tenon trestle, wedge driven, shoulder shut (filename pending shop pull)"
@@ -30,7 +36,21 @@ verify:
 
 The wedge came out with two fingers and a tap. That is the compliment. A tusk tenon that needs a dead-blow and a prayer is not a knockdown joint. It is a through-tenon that forgot the point. I had the trestle in two piles on the porch: a pair of uprights, a stretcher, two tusks, and a top that would ride on cleats. A hallway will not take a six-foot assembled base. The joint exists because houses have doors.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — tusk-tenon trestle, wedge driven, shoulder shut (filename pending shop pull) -->
+<figure class="faj-figure">
+  <img src="../assets/a-tusk-you-can-pull/joinery-diagram.svg" alt="Through-tenon slot, wedge, and shoulder that shuts for knockdown" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Tusk tenon and removable wedge. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-museum">
+  <img src="../assets/museum/met-trestle-table.jpg" alt="Trestle table, Metropolitan Museum of Art Open Access" width="1280" height="926" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 2.</strong> Tusk tenons serve knockdown trestles — historical trestle form for type context (hardware differs by piece). (<a href="https://commons.wikimedia.org/wiki/File%3ATrestle_Table_MET_97190.jpg">Wikimedia Commons</a> — CC0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The wedge is proud enough to hit. The shoulder is shut. That is the assembled sentence." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> The wedge is proud enough to hit. The shoulder is shut. That is the assembled sentence. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — tusk-tenon trestle, wedge driven, shoulder shut (filename pending shop pull)</figcaption>
+</figure>
+
 
 The craft pack already argued a wedge you can see on a through-tenon you do not plan to take apart. This is the cousin you *do* take apart. The slot is longer. The wedge is a tool. The shoulder still has to shut, or the trestle walks. A fox wedge is a stay: you drive it and you mean to lose it in the tenon. A tusk is a go: you drive it and you mean to find it again on a porch.
 
@@ -44,7 +64,11 @@ I chalk the outside face of the upright onto the tenon while the shoulder is hom
 
 The wedge has a slope. I like a shallow slope so it holds by friction and so a bump does not launch it. A steep wedge holds like a nail and comes out like a nail — which is to say, badly. A little soap or wax on the unused faces keeps the tusk from becoming furniture.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — tusk tenon apart, slot and wedge on the bench (filename pending shop pull) -->
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Apart. If you need a hammer and a curse, the slot was not a knockdown slot." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 4 (pending).</strong> Apart. If you need a hammer and a curse, the slot was not a knockdown slot. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — tusk tenon apart, slot and wedge on the bench (filename pending shop pull)</figcaption>
+</figure>
+
 
 ## Wood that can be a tusk
 

@@ -7,6 +7,12 @@ word_count: 1508
 dek: "A stack-laminated seat is a block you carve into a saddle. The joints are the glue planes; the legs still need sockets that do not land on a starved stripe."
 series: furniture-advanced-joinery
 topic: curved-work
+graphics:
+  - id: fig-sch-01
+    path: assets/a-saddle-from-a-stack/joinery-diagram.svg
+    alt: "Laminated blank carved to seat with leg sockets off glue lines"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — stack-laminated seat blank, layers visible (filename pending shop pull)"
@@ -30,7 +36,21 @@ verify:
 
 The blank was a loaf of walnut and a lighter wood I will not name as a house brand, stacked to three inches, the edges still square. I drew the saddle — the dish, the pommel, the place a sit-bone would land — and I knew the gouge would cross glue lines like a plow crossing fences. That is fine if the fences are sound. It is not fine if a leg socket lands on a starved stripe. The stack is the curve. The socket is the joint that keeps the curve off the floor.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — stack-laminated seat blank, layers visible (filename pending shop pull) -->
+<figure class="faj-figure">
+  <img src="../assets/a-saddle-from-a-stack/joinery-diagram.svg" alt="Laminated blank carved to seat with leg sockets off glue lines" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Stack-laminated saddle seat. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-museum">
+  <img src="../assets/museum/eb1911-joints-plate.jpg" alt="1911 joinery reference plate" width="169" height="659" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 2.</strong> Stack-lam seats are glue-line layout first; reference plate for joint vocabulary. (<a href="https://commons.wikimedia.org/wiki/File%3AEB1911_Joinery_-_Fig._12.%E2%80%94Joints.jpg">Wikimedia Commons</a> — Public domain).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="A block of leaves. The saddle is still in there. So are the glue planes." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> A block of leaves. The saddle is still in there. So are the glue planes. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — stack-laminated seat blank, layers visible (filename pending shop pull)</figcaption>
+</figure>
+
 
 A plank seat is simpler. A plank seat also cups and it is only as thick as the plank. Stacking is how a small shop gets a deep saddle without a 16-quarter slab it does not have. It is also how a small shop builds a seat that is secretly a glue test, like the laminated apron, only people sit on this one.
 
@@ -44,7 +64,11 @@ Glue: even pressure, no starved middle. A seat is wide. The middle of a wide glu
 
 I like to bore the sockets while the blank still has a flat I can reference, then carve, being careful not to wander into a hole. Or I carve almost all the way, then bore from a jig that finds the carved face. Both work. Mixing them — carving past your marks, then guessing a bore — is how you get a rake you did not draw.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — carved saddle seat, leg sockets marked off glue lines (filename pending shop pull) -->
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Bore where the leaf is a leaf, not where the stripe is a stripe." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 4 (pending).</strong> Bore where the leaf is a leaf, not where the stripe is a stripe. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — carved saddle seat, leg sockets marked off glue lines (filename pending shop pull)</figcaption>
+</figure>
+
 
 The saddle is fair if a hand likes it and if the stripes do not stand up as ridges. A ridge on a glue line is a starved joint or a hard glue line. Scrape. If the ridge is a step, the leaf shifted. You will sit on that step. I have.
 

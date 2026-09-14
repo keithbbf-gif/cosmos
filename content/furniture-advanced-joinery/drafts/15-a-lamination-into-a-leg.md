@@ -7,6 +7,12 @@ word_count: 1731
 dek: "A bent-laminated apron is a stack of thin truths. The tenon you cut in that stack is either a real tenon in long grain or a bundle of glue lines pretending to be one."
 series: furniture-advanced-joinery
 topic: curved-work
+graphics:
+  - id: fig-sch-01
+    path: assets/a-lamination-into-a-leg/joinery-diagram.svg
+    alt: "Bent lamination tenon entering a turned or tapered leg"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — laminated apron on form, leaves visible (filename pending shop pull)"
@@ -30,7 +36,21 @@ verify:
 
 The apron came off the form as a single curve with stripes. Five leaves of oak, a little over 1/8 each, the glue a dark hair if I had been messy and invisible if I had been clean. I needed that apron to enter a tapered leg as if it were a solid rail. A tenon sawed across a glue stack can be a tenon. It can also be five veneers in a hole, waiting to delaminate the first time someone sits on the corner of the table.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — laminated apron on form, leaves visible (filename pending shop pull) -->
+<figure class="faj-figure">
+  <img src="../assets/a-lamination-into-a-leg/joinery-diagram.svg" alt="Bent lamination tenon entering a turned or tapered leg" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Laminated apron into a leg. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-museum">
+  <img src="../assets/museum/vasa-oak-sample.jpg" alt="Oak wood sample showing grain" width="1280" height="853" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 2.</strong> Laminated aprons follow grain and glue-line discipline — oak sample for species context only. (<a href="https://commons.wikimedia.org/wiki/File%3APiece_of_oak_wood_from_the_ship_Vasa_4.jpg">Wikimedia Commons</a> — CC BY-SA 4.0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Thin leaves, thick glue discipline. The form is the apron’s memory." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> Thin leaves, thick glue discipline. The form is the apron’s memory. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — laminated apron on form, leaves visible (filename pending shop pull)</figcaption>
+</figure>
+
 
 Bent lamination is how a small shop gets a fair curve without a steam box and without a pile of broken crests. It is also how a small shop gets a joint that is secretly a glue test. This essay is the test.
 
@@ -46,7 +66,11 @@ The form: two cauls, the curve I want plus a little for springback (laminations 
 
 The leg may be round. The apron is a ribbon. The shoulder of the tenon is scribed to the turn, or the mortise is in a flat you left on the leg for this purpose. I like a flat. A flat is a place a shoulder can shut without a compass dance. If the design forbids a flat, scribe and be quiet about how long it took.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — laminated apron tenon entering a turned or tapered leg (filename pending shop pull) -->
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The tenon should live in leaves, not in a glue plane. Offset the stack if you have to." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 4 (pending).</strong> The tenon should live in leaves, not in a glue plane. Offset the stack if you have to. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — laminated apron tenon entering a turned or tapered leg (filename pending shop pull)</figcaption>
+</figure>
+
 
 Depth and tightness: same as a solid rail, except I dry-fit more nervously. A fat tenon in a lamination is how you start a delamination. Pare. Do not pound. A dead-blow on a laminated tenon is a request for a split between leaves that you will not see until finish.
 

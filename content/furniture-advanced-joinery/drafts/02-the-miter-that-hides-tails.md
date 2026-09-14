@@ -7,6 +7,12 @@ word_count: 1449
 dek: "A secret-mitered dovetail is a box that looks like a picture-frame corner until you open it. The miter is the show. The tails are the reason it stays a box."
 series: furniture-advanced-joinery
 topic: compound-dovetails
+graphics:
+  - id: fig-sch-01
+    path: assets/the-miter-that-hides-tails/joinery-diagram.svg
+    alt: "Miter show face with tails living inside the miter line"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — secret mitered dovetail dry-fit, miter closed, tails hidden (filename pending shop pull)"
@@ -30,7 +36,21 @@ verify:
 
 The corner looked like a miter. That was the point. I had the box on the bench under the glass wall, late light, and you could not see a pin or a tail from three feet. You could see a hairline if you got rude with a thumbnail. I got rude. The hairline was on the inside arris, where I had been shy with the chisel, and it would close when the glue swelled the miter a little. The outside was already a single line. That is the only compliment this joint wants.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — secret mitered dovetail dry-fit, miter closed, tails hidden (filename pending shop pull) -->
+<figure class="faj-figure">
+  <img src="../assets/the-miter-that-hides-tails/joinery-diagram.svg" alt="Miter show face with tails living inside the miter line" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Secret mitered dovetail section. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-museum">
+  <img src="../assets/museum/mitre-joint-square.png" alt="Public-domain mitre joint diagram on a square section" width="603" height="724" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 2.</strong> A miter is a show line; the secret dovetail lives behind it — the plate names the geometry the case study cuts. (<a href="https://commons.wikimedia.org/wiki/File%3AMitre_joint_square.png">Wikimedia Commons</a> — Public domain).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="From the outside it is a miter. From the end it is still a dovetail, if you left the meat." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> From the outside it is a miter. From the end it is still a dovetail, if you left the meat. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — secret mitered dovetail dry-fit, miter closed, tails hidden (filename pending shop pull)</figcaption>
+</figure>
+
 
 A square through-dovetail is honest. It says *box*. A secret miter says *I know you can see the corner and I still will not show you the teeth*. Jewelry boxes, document boxes, a tea caddy that will sit on a mantel. It is not a blanket-chest joint. It is not a job you cut on a Friday because the saw was already out.
 
@@ -46,7 +66,11 @@ There is a cousin — the secret *lap* dovetail — where one face still shows a
 
 Square the ends. Then mark the miter around the four show edges — the two faces and the two edges — so you know what must remain a clean bevel. Everything that holds lives *inside* that fence. If a tail tip breaks the miter line, you will see a dark triangle on the outside forever. That triangle is not charming. It is a tell.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — secret miter layout on box side, tails marked inside the miter line (filename pending shop pull) -->
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The miter line is a fence. Everything that holds lives inside it." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 4 (pending).</strong> The miter line is a fence. Everything that holds lives inside it. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — secret miter layout on box side, tails marked inside the miter line (filename pending shop pull)</figcaption>
+</figure>
+
 
 I mark the tail sockets on the inside face first, then carry them to the end, then confirm they die before the miter. A cutting gauge set to the tail length (shorter than a through-dovetail — you are not going through) keeps me from getting greedy. Greedy tails blow the miter. Shy tails hold less. The middle is a judgment, not a formula I will print as law.
 

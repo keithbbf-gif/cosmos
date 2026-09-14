@@ -7,6 +7,12 @@ word_count: 1628
 dek: "A brick-laid curve that has to become a corner is two religions meeting. The bricks want a radius. The dovetail wants a board. You decide which one dies at the joint."
 series: furniture-advanced-joinery
 topic: hybrid
+graphics:
+  - id: fig-sch-01
+    path: assets/bricks-on-a-corner/joinery-diagram.svg
+    alt: "Segmented curve meeting a square dovetail or miter corner"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — brick-laid curve meeting a square corner or dovetail (filename pending shop pull)"
@@ -30,7 +36,21 @@ verify:
 
 The blank was a staircase of short boards, glued into a quarter-circle, the brick-laid trick you use when a solid would be a propeller and a thin lamination would be a veneer of a curve. I had a corner to make: this radius had to meet a straight case side. People try to dovetail the last brick as if it were a drawer side. Sometimes that works. Sometimes the last brick is 7/8 of end grain and a glue line, and the tail you cut is a wish.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — brick-laid curve meeting a square corner or dovetail (filename pending shop pull) -->
+<figure class="faj-figure">
+  <img src="../assets/bricks-on-a-corner/joinery-diagram.svg" alt="Segmented curve meeting a square dovetail or miter corner" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Brick-laid curve to square corner. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-museum">
+  <img src="../assets/museum/eb1911-joints-plate.jpg" alt="1911 encyclopedia plate of wood joints" width="169" height="659" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 2.</strong> Brick-laid curves meet square joinery; a joints plate is the honest classroom before the gouge. (<a href="https://commons.wikimedia.org/wiki/File%3AEB1911_Joinery_-_Fig._12.%E2%80%94Joints.jpg">Wikimedia Commons</a> — Public domain).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The radius is a stack of bricks. The corner is still a board if you left one." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> The radius is a stack of bricks. The corner is still a board if you left one. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — brick-laid curve meeting a square corner or dovetail (filename pending shop pull)</figcaption>
+</figure>
+
 
 Brick-laying is curved-work religion. I put this essay in the hybrid pile because the *failure* I care about is the corner: where the stack has to become joinery, not just a shape you carve.
 
@@ -46,7 +66,11 @@ If the curve must dovetail to a straight side, I start the stack with a longer b
 
 If you carve first and join second, you will be cutting pins in a surface that is already a sculpture. Sculpture does not sit well against a marking gauge.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — bricklaid blank before carving, corner stock left long (filename pending shop pull) -->
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Leave a brick that can be a pin board. Do not carve the joint away and then look surprised." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 4 (pending).</strong> Leave a brick that can be a pin board. Do not carve the joint away and then look surprised. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — bricklaid blank before carving, corner stock left long (filename pending shop pull)</figcaption>
+</figure>
+
 
 A sliding dovetail into the end of a brick stack is ruder. You may be sliding into glue lines. I prefer a floating tenon or a real mortise in that leftover long-grain brick, or I hide a spline in a saw kerf that crosses several bricks and I call it a millwork corner. Dovetails want a board. Give them one.
 

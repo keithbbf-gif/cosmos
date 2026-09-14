@@ -7,6 +7,12 @@ word_count: 1347
 dek: "A hexagonal case is six miters in a hurry if you are lazy, and six compound dovetails if you want the drum to stay a drum when someone lifts it."
 series: furniture-advanced-joinery
 topic: compound-dovetails
+graphics:
+  - id: fig-sch-01
+    path: assets/six-sides-no-square/joinery-diagram.svg
+    alt: "120-degree plan angle with compound tail slope on a six-sided drum"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — hexagonal box or drum case dry-fit (filename pending shop pull)"
@@ -30,7 +36,21 @@ verify:
 
 I set a combination square on the first corner and the blade hung in the air like it had been insulted. One hundred twenty degrees. The hex does not care about your square. It cares about six boards that each think they are the important one, and about a bottom that will only drop in if the drum closed true. People spline these. People biscuit these. I have. A jewelry drum that gets lifted by the lid ring will still ask the corners a ruder question than a spline likes.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — hexagonal box or drum case dry-fit (filename pending shop pull) -->
+<figure class="faj-figure">
+  <img src="../assets/six-sides-no-square/joinery-diagram.svg" alt="120-degree plan angle with compound tail slope on a six-sided drum" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Hexagonal case corner. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-museum">
+  <img src="../assets/museum/eb1911-joints-plate.jpg" alt="1911 joinery plate of miscellaneous wood joints" width="169" height="659" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 2.</strong> Hex cases are plan-angle work; a general joints plate keeps you from pretending only 90° corners exist. (<a href="https://commons.wikimedia.org/wiki/File%3AEB1911_Joinery_-_Fig._12.%E2%80%94Joints.jpg">Wikimedia Commons</a> — Public domain).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Every corner is 120 in plan. Your square is a guest, not the boss." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> Every corner is 120 in plan. Your square is a guest, not the boss. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — hexagonal box or drum case dry-fit (filename pending shop pull)</figcaption>
+</figure>
+
 
 This is not a hopper. The sides can be plumb. The compound lives in the *plan*: each joint is 120, so the end of each board is not a 90 meeting. If you cut 90-degree dovetails and then force the drum together, you have built a spring. Springs open. If you miter only, you have six pretty lines and six end-grain glue joints in a circle. Circles rack into ovals when you pick them up.
 
@@ -44,7 +64,11 @@ Octagons are the same family, meaner by two corners. I will say hex and you can 
 
 You can through-dovetail a hex. The tails are sawn at the plan angle so the cheeks land on the adjoining inside face. The baseline is still parallel to the rim if the sides are plumb. That part is kind. The unkind part is the acute and obtuse corners on each pin: one side of the pin is a knife, the other is a wide hall. You will overchop the knife. Everyone does. Pare it last, with the board held so the knife is supported.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — 120-degree dovetail layout on hex side (filename pending shop pull) -->
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The bevel is locked to the plan angle. The tails still need a slope of their own." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 4 (pending).</strong> The bevel is locked to the plan angle. The tails still need a slope of their own. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — 120-degree dovetail layout on hex side (filename pending shop pull)</figcaption>
+</figure>
+
 
 I cut tails on every other board and pins on the others, like a square box, so I can sneak. If you cut all tails, you are a hero in a video and a coward at the dry-fit.
 

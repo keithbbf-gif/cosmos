@@ -7,6 +7,12 @@ word_count: 1598
 dek: "A sloped drawer front — knife edge, canted lip, a fall-front cousin — still wants half-blind pins. The sockets lean, and a square gauge line is a lie at one end."
 series: furniture-advanced-joinery
 topic: compound-dovetails
+graphics:
+  - id: fig-sch-01
+    path: assets/half-blind-on-a-slope/joinery-diagram.svg
+    alt: "Socket depth mapped from the inside face on a canted front"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — sloped or canted drawer front, half-blind pins (filename pending shop pull)"
@@ -30,7 +36,21 @@ verify:
 
 The drawer front was a wedge. Thick at the bottom, a knife at the top, the old lip that throws a shadow on the rail. Pretty. Also a thickness map that changes while you are trying to chop a half-blind socket of one depth. I have blown the knife edge from the inside. The show face grew a dark crescent where a pin wanted out. There is no dignified repair for a crescent on a knife.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — sloped or canted drawer front, half-blind pins (filename pending shop pull) -->
+<figure class="faj-figure">
+  <img src="../assets/half-blind-on-a-slope/joinery-diagram.svg" alt="Socket depth mapped from the inside face on a canted front" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Half-blind pins on a sloped drawer front. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-museum">
+  <img src="../assets/museum/finished-dovetail-shop.jpg" alt="Finished dovetail corner on drawer stock" width="1280" height="960" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 2.</strong> Half-blind pins on a slope still have to die before the thin edge — a tight corner for comparison. (<a href="https://commons.wikimedia.org/wiki/File%3AFinished_dovetail.jpg">Wikimedia Commons</a> — CC BY-SA 3.0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The front is a wedge in section. The sockets have to die before they find the thin edge." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> The front is a wedge in section. The sockets have to die before they find the thin edge. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — sloped or canted drawer front, half-blind pins (filename pending shop pull)</figcaption>
+</figure>
+
 
 This is not the bow-front. The bow bends in plan. This front slants in section: a canted lip, a knife-edge drawer, a sloped fall that is still a drawer and not a desk. The sides are square. The pins are half-blind. The danger is depth.
 
@@ -40,7 +60,11 @@ Mark the finished slope. Measure thickness at the top of the socket zone and at 
 
 Depth is from the inside face, consistent, the same as a bow-front. The show face will have more meat at the bottom and almost none at the top. That is the design. Do not “average” a depth. Averages blow knives.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — thickness map on sloped drawer front, socket depth marked (filename pending shop pull) -->
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Depth from the inside face. The show edge can be a knife. The knife is not a pin wall." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 4 (pending).</strong> Depth from the inside face. The show edge can be a knife. The knife is not a pin wall. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — thickness map on sloped drawer front, socket depth marked (filename pending shop pull)</figcaption>
+</figure>
+
 
 ## Transfer with the lip in the way
 

@@ -7,6 +7,12 @@ word_count: 1489
 dek: "A drawbore that is meant to come apart is a pin you did not glue and a hole you can get a punch into. The offset still pulls. The punch still finds the pin."
 series: furniture-advanced-joinery
 topic: knockdown
+graphics:
+  - id: fig-sch-01
+    path: assets/a-pin-you-can-drive-back/joinery-diagram.svg
+    alt: "Offset hole and pin you can drive back out for service"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — drawbored rail, pin proud enough to punch (filename pending shop pull)"
@@ -30,7 +36,21 @@ verify:
 
 The pin moved. I had a punch on the exit side and a backer on the show, and the oak peg came out in two pieces because I had glued it “for insurance” five years earlier. Insurance is how a knockdown becomes a demolition. A drawbore that is supposed to travel is a dry pin in an offset hole, proud enough to hit, ugly enough to admit it might leave.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — drawbored rail, pin proud enough to punch (filename pending shop pull) -->
+<figure class="faj-figure">
+  <img src="../assets/a-pin-you-can-drive-back/joinery-diagram.svg" alt="Offset hole and pin you can drive back out for service" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Drawbored through-pin. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-museum">
+  <img src="../assets/museum/finished-dovetail-shop.jpg" alt="Tight dovetail corner where pins are fully seated" width="1280" height="960" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 2.</strong> Drawbore pins are service pins — dovetail corners show how proud pins ought to look before you drive them home. (<a href="https://commons.wikimedia.org/wiki/File%3AFinished_dovetail.jpg">Wikimedia Commons</a> — CC BY-SA 3.0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Proud on the exit. A flush pin is a pin you will wreck to remove." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> Proud on the exit. A flush pin is a pin you will wreck to remove. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — drawbored rail, pin proud enough to punch (filename pending shop pull)</figcaption>
+</figure>
+
 
 The craft pack already taught drawbore-then-drive for joints that stay. This is the reversible cousin: trestle stretchers, a bed rail you do not want to bolt, a knock-down bench. The offset still cams the shoulder home. The glue stays in the tenon cheeks if you want it — or it stays out if the whole frame must open. The pin itself stays dry. That is the sentence this joint will not survive if you break it.
 
@@ -40,7 +60,11 @@ I bore the mortise walls first, assemble dry, mark the tenon through those holes
 
 The pin is straight-grained, a little tapered if I am kind, or a steel pin if the piece will be taken apart often. Oak pins in oak are traditional and they can weld themselves with time and humidity even without glue. A little wax helps them remain pins.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — pin driven out, tenon and offset hole visible (filename pending shop pull) -->
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The offset is still there. The joint still knows how to pull the next time." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 4 (pending).</strong> The offset is still there. The joint still knows how to pull the next time. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — pin driven out, tenon and offset hole visible (filename pending shop pull)</figcaption>
+</figure>
+
 
 ## The taper board and the punch that lives with the spare
 

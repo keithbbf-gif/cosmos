@@ -7,6 +7,12 @@ word_count: 1456
 dek: "A table extension is a pair of slides and a leaf that has to come home to a line you can feel with a fingernail. The joint is the slide, the alignment pins, and a top that is still allowed to move."
 series: furniture-advanced-joinery
 topic: knockdown
+graphics:
+  - id: fig-sch-01
+    path: assets/the-leaf-that-finds-the-line/joinery-diagram.svg
+    alt: "Equalizer or wooden slides registering a dining leaf"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — table slides extended, leaf in, alignment pins (filename pending shop pull)"
@@ -30,7 +36,21 @@ verify:
 
 The leaf sat a hair high on one end and a hair low on the other, a line you could catch with a nail. I had spent the week on the top’s finish and five minutes on the pins. The pins were the joint. Everything else was furniture. I pulled the leaf, recut the holes, and I stopped treating alignment as a hardware afterthought.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — table slides extended, leaf in, alignment pins (filename pending shop pull) -->
+<figure class="faj-figure">
+  <img src="../assets/the-leaf-that-finds-the-line/joinery-diagram.svg" alt="Equalizer or wooden slides registering a dining leaf" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Table slides and alignment pins. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-museum">
+  <img src="../assets/museum/met-gateleg-detail-97191.jpg" alt="Drop-leaf table hinge and rail detail" width="1280" height="1044" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 2.</strong> Table slides and alignment pins extend the gate-leg/drop-leaf hinge family — Met construction detail. (<a href="https://commons.wikimedia.org/wiki/File%3AGate-leg_Drop-leaf_Table_MET_97191.jpg">Wikimedia Commons</a> — CC0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The pins find the holes. The slides carry the weight. The line is the test." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> The pins find the holes. The slides carry the weight. The line is the test. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — table slides extended, leaf in, alignment pins (filename pending shop pull)</figcaption>
+</figure>
+
 
 An extension table is knockdown you do every holiday. The slides (wooden or metal), the equalizer if you have one, the pins or biscuits or loose tenons that find the leaf, and the aprons that have to part and meet without looking ashamed.
 
@@ -40,7 +60,11 @@ Two slides that do not run together will rack the top into a parallelogram. Wood
 
 The slides attach to the top in a way that lets the top move across its width. Screwing a solid top hard to a pair of slides is a breadboard argument. Slot, or buttons, or a center fix and freedom at the ends.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — equalizer or wooden slides underside (filename pending shop pull) -->
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="If one slide runs and the other sticks, the top becomes a parallelogram." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 4 (pending).</strong> If one slide runs and the other sticks, the top becomes a parallelogram. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — equalizer or wooden slides underside (filename pending shop pull)</figcaption>
+</figure>
+
 
 ## A pin-boring fence that spans both halves
 

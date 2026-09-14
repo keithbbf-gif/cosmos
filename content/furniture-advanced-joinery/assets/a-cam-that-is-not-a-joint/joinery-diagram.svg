@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-labelledby="title desc">
+  <title id="title">Cam lock and dowel</title>
+  <desc id="desc">Euro cam pulling a case corner — clamp, not structure</desc>
+  <rect width="100%" height="100%" fill="#F7F3E8"/>
+  <text x="32" y="44" fill="#1A1A1A" font-family="Georgia, serif" font-size="20" font-weight="600">Cam lock and dowel</text>
+  <rect x="24" y="64" width="592" height="332" fill="none" stroke="#D4C9B0" stroke-width="1"/>
+
+  <rect x="240" y="220" width="80" height="80" fill="none" stroke="#1A1A1A" stroke-width="2"/>
+  <rect x="320" y="220" width="80" height="80" fill="none" stroke="#1A1A1A" stroke-width="2"/>
+  <circle cx="280" cy="300" r="12" fill="none" stroke="#C9A227" stroke-width="2"/>
+  <line x1="280" y1="300" x2="300" y2="280" stroke="#6B4423" stroke-width="2"/>
+</svg>

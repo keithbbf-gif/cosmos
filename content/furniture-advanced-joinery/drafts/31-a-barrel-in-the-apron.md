@@ -7,6 +7,12 @@ word_count: 1366
 dek: "A cross-dowel — a barrel nut — is a steel nut lying in a rail, waiting for a bolt from the leg. It is not a tenon. It is how a table comes apart without losing the idea of a table."
 series: furniture-advanced-joinery
 topic: knockdown
+graphics:
+  - id: fig-sch-01
+    path: assets/a-barrel-in-the-apron/joinery-diagram.svg
+    alt: "Cross-bolt into a barrel nut captured in the apron"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — barrel nut in apron, bolt from leg (filename pending shop pull)"
@@ -30,7 +36,21 @@ verify:
 
 The bolt stopped, half an inch short of tight, with a gritty feel I have learned to respect. The barrel was a degree off. The bolt was cutting a thread in the steel and a slot in the wood. I backed out, opened the apron, turned the barrel with a screwdriver in its slot, and I tried again. This time it went home. A cross-dowel is a meeting of two holes that have no right to miss. When they miss, the joint still “works” in the shop and then walks in the dining room.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — barrel nut in apron, bolt from leg (filename pending shop pull) -->
+<figure class="faj-figure">
+  <img src="../assets/a-barrel-in-the-apron/joinery-diagram.svg" alt="Cross-bolt into a barrel nut captured in the apron" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Barrel nut in apron. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-museum">
+  <img src="../assets/museum/eb1911-joints-plate.jpg" alt="1911 joinery joints plate" width="169" height="659" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 2.</strong> Barrel nuts are hardware, not joinery — joints plate keeps the essay anchored in structure. (<a href="https://commons.wikimedia.org/wiki/File%3AEB1911_Joinery_-_Fig._12.%E2%80%94Joints.jpg">Wikimedia Commons</a> — Public domain).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The barrel is across the grain. The bolt is along the rail. They have to meet as if you meant it." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> The barrel is across the grain. The bolt is along the rail. They have to meet as if you meant it. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — barrel nut in apron, bolt from leg (filename pending shop pull)</figcaption>
+</figure>
+
 
 I use these on tables that have to ship, on legs that are too pretty to glue forever, on a knock-down that is not a trestle. A stub tenon or a loose tenon still locates if I can have one. The barrel is the clamp. If I cannot have a tenon, I use two bolts, because a single bolt is a pivot.
 
@@ -40,7 +60,11 @@ Locate in wood if you can. Clamp in iron. A barrel without a tenon is still a cl
 
 I make a jig. Not a personality — a block that holds the apron and the leg in the relationship they will live in, with bushings for the two bores. The barrel hole is across the apron, at a depth that leaves meat on both faces. The bolt hole comes from the leg, through the tenon if there is one, and meets the barrel’s thread.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — jig or story stick for barrel-nut alignment (filename pending shop pull) -->
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="If the holes miss, you are cutting a slot with a bolt. That slot will grow." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 4 (pending).</strong> If the holes miss, you are cutting a slot with a bolt. That slot will grow. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — jig or story stick for barrel-nut alignment (filename pending shop pull)</figcaption>
+</figure>
+
 
 A story stick will do for a one-off if you are patient. A one-off without a stick is how you get the gritty stop.
 

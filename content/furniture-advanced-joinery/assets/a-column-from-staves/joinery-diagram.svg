@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-labelledby="title desc">
+  <title id="title">Staved column cylinder</title>
+  <desc id="desc">Beveled staves closing a hollow column with top block</desc>
+  <rect width="100%" height="100%" fill="#F7F3E8"/>
+  <text x="32" y="44" fill="#1A1A1A" font-family="Georgia, serif" font-size="20" font-weight="600">Staved column cylinder</text>
+  <rect x="24" y="64" width="592" height="332" fill="none" stroke="#D4C9B0" stroke-width="1"/>
+
+  <ellipse cx="320" cy="260" rx="60" ry="100" fill="none" stroke="#1A1A1A" stroke-width="2"/>
+  <line x1="280" y1="200" x2="300" y2="320" stroke="#8B4513" stroke-width="1.5"/>
+  <line x1="320" y1="160" x2="320" y2="360" stroke="#8B4513" stroke-width="1.5"/>
+  <line x1="360" y1="200" x2="340" y2="320" stroke="#8B4513" stroke-width="1.5"/>
+</svg>

@@ -1,0 +1,276 @@
+files:
+  eb1911-dovetails:
+    url: https://upload.wikimedia.org/wikipedia/commons/1/1f/EB1911_Joinery_-_Fig._3.%E2%80%94Dovetails.jpg
+    save_as: eb1911-dovetails.jpg
+    license: Public domain
+    width: 507
+    height: 213
+    commons_page: https://commons.wikimedia.org/wiki/File%3AEB1911_Joinery_-_Fig._3.%E2%80%94Dovetails.jpg
+    credit: Encyclopædia Britannica, 11th ed. (1911), Joinery plate — dovetail types
+  eb1911-joints-plate:
+    url: https://upload.wikimedia.org/wikipedia/commons/e/e6/EB1911_Joinery_-_Fig._12.%E2%80%94Joints.jpg
+    save_as: eb1911-joints-plate.jpg
+    license: Public domain
+    width: 169
+    height: 659
+    commons_page: https://commons.wikimedia.org/wiki/File%3AEB1911_Joinery_-_Fig._12.%E2%80%94Joints.jpg
+    credit: Encyclopædia Britannica, 11th ed. (1911), Joinery — general joints plate
+  mitre-joint-square:
+    url: https://upload.wikimedia.org/wikipedia/commons/4/43/Mitre_joint_square.png
+    save_as: mitre-joint-square.png
+    license: Public domain
+    width: 603
+    height: 724
+    commons_page: https://commons.wikimedia.org/wiki/File%3AMitre_joint_square.png
+    credit: Mitre joint (square section), public-domain diagram
+  scarf-joint-psf:
+    url: https://upload.wikimedia.org/wikipedia/commons/7/7a/Scarf_joint_%28PSF%29.png
+    save_as: scarf-joint-psf.png
+    license: Public domain
+    width: 2032
+    height: 393
+    commons_page: https://commons.wikimedia.org/wiki/File%3AScarf_joint_%28PSF%29.png
+    credit: Scarf joint (Public Schools of the United States plate)
+  met-gateleg-dt235356:
+    url: https://upload.wikimedia.org/wikipedia/commons/f/fd/Gate-leg_table_MET_DT235356.jpg
+    save_as: met-gateleg-dt235356.jpg
+    license: CC0
+    width: 3811
+    height: 3049
+    commons_page: https://commons.wikimedia.org/wiki/File%3AGate-leg_table_MET_DT235356.jpg
+    credit: Gate-leg table, Metropolitan Museum of Art (Open Access)
+  met-gateleg-detail-97191:
+    url: https://upload.wikimedia.org/wikipedia/commons/4/4d/Gate-leg_Drop-leaf_Table_MET_97191.jpg
+    save_as: met-gateleg-detail-97191.jpg
+    license: CC0
+    width: 2328
+    height: 1899
+    commons_page: https://commons.wikimedia.org/wiki/File%3AGate-leg_Drop-leaf_Table_MET_97191.jpg
+    credit: Gate-leg drop-leaf table (detail), Metropolitan Museum of Art (Open Access)
+  met-fall-front-secretary:
+    url: https://upload.wikimedia.org/wikipedia/commons/d/dd/Fall-front_Secretary_MET_DT5342.jpg
+    save_as: met-fall-front-secretary.jpg
+    license: CC0
+    width: 3200
+    height: 4000
+    commons_page: https://commons.wikimedia.org/wiki/File%3AFall-front_Secretary_MET_DT5342.jpg
+    credit: Fall-front secretary, Metropolitan Museum of Art (Open Access)
+  met-trestle-table:
+    url: https://upload.wikimedia.org/wikipedia/commons/5/5c/Trestle_Table_MET_97190.jpg
+    save_as: met-trestle-table.jpg
+    license: CC0
+    width: 2200
+    height: 1592
+    commons_page: https://commons.wikimedia.org/wiki/File%3ATrestle_Table_MET_97190.jpg
+    credit: Trestle table, Metropolitan Museum of Art (Open Access)
+  dovetail-joint-diagram:
+    url: https://upload.wikimedia.org/wikipedia/commons/2/2a/Dovetail_joint.png
+    save_as: dovetail-joint-diagram.png
+    license: CC BY-SA 3.0
+    width: 389
+    height: 569
+    commons_page: https://commons.wikimedia.org/wiki/File%3ADovetail_joint.png
+    credit: Dovetail joint diagram — Wikimedia Commons (CC BY-SA 3.0)
+  finished-dovetail-shop:
+    url: https://upload.wikimedia.org/wikipedia/commons/2/2f/Finished_dovetail.jpg
+    save_as: finished-dovetail-shop.jpg
+    license: CC BY-SA 3.0
+    width: 2272
+    height: 1704
+    commons_page: https://commons.wikimedia.org/wiki/File%3AFinished_dovetail.jpg
+    credit: Finished through-dovetails — Wikimedia Commons (CC BY-SA 3.0)
+  vasa-oak-sample:
+    url: https://upload.wikimedia.org/wikipedia/commons/5/52/Piece_of_oak_wood_from_the_ship_Vasa_4.jpg
+    save_as: vasa-oak-sample.jpg
+    license: CC BY-SA 4.0
+    width: 5152
+    height: 3435
+    commons_page: https://commons.wikimedia.org/wiki/File%3APiece_of_oak_wood_from_the_ship_Vasa_4.jpg
+    credit: Oak sample from Vasa — Wikimedia Commons (CC BY-SA 4.0)
+  modern-cabinet-work-plate:
+    url: https://upload.wikimedia.org/wikipedia/commons/3/35/Modern_cabinet_work%2C_furniture_and_fitments%3B_an_account_of_the_theory_and_practice_in_the_production_of_all_kinds_of_cabinet_work_and_furniture_with_chapters_on_the_growth_and_progress_of_design_and_%2814593727998%29.jpg
+    save_as: modern-cabinet-work-plate.jpg
+    license: No restrictions
+    width: 1998
+    height: 3006
+    commons_page: https://commons.wikimedia.org/wiki/File%3AModern_cabinet_work%2C_furniture_and_fitments%3B_an_account_of_the_theory_and_practice_in_the_production_of_all_kinds_of_cabinet_work_and_furniture_with_chapters_on_the_growth_and_progress_of_design_and_%2814593727998%29.jpg
+    credit: Modern Cabinet Work (1910) plate — Internet Archive scan
+assignments:
+  the-hopper-that-leans:
+    file: eb1911-dovetails
+    alt: 1911 encyclopedia plate of dovetail types including angled and compound forms
+    caption: Historical plate of dovetail variants — useful for naming compound slopes before you cut a hopper side.
+  the-miter-that-hides-tails:
+    file: mitre-joint-square
+    alt: Public-domain mitre joint diagram on a square section
+    caption: A miter is a show line; the secret dovetail lives behind it — the plate names the geometry the case study cuts.
+  two-rows-of-teeth:
+    file: eb1911-dovetails
+    alt: 1911 dovetail types plate showing multiple pin rows
+    caption: Houndstooth is a second row in the same corner; the 1911 plate reminds you both rows need thickness.
+  a-drawer-that-bows:
+    file: finished-dovetail-shop
+    alt: Photograph of finished through-dovetails on a drawer corner
+    caption: A bow front still ends in pins — this shop photo shows how tight pins read on a curved meeting.
+  six-sides-no-square:
+    file: eb1911-joints-plate
+    alt: 1911 joinery plate of miscellaneous wood joints
+    caption: Hex cases are plan-angle work; a general joints plate keeps you from pretending only 90° corners exist.
+  the-fall-front-cant:
+    file: met-fall-front-secretary
+    alt: Fall-front secretary in the Metropolitan Museum of Art collection
+    caption: A canted secretary is a fall front on a sloped case — Met Open Access object for the furniture type.
+  a-tail-on-a-taper:
+    file: eb1911-joints-plate
+    alt: Historical woodworking joints reference plate
+    caption: Tapered posts change socket depth; reference plates help you explain the joint to a client without a slogan.
+  the-socket-that-climbs:
+    file: dovetail-joint-diagram
+    alt: Diagram of a dovetail joint with labeled pins and tails
+    caption: A climbing socket is still a dovetail with a second slope — diagram for readers who have not cut one yet.
+  show-miter-hide-pins:
+    file: mitre-joint-square
+    alt: Mitre joint diagram on square stock
+    caption: Mitered-through dovetails marry this show miter with pins you still have to lay out on the end.
+  half-blind-on-a-slope:
+    file: finished-dovetail-shop
+    alt: Finished dovetail corner on drawer stock
+    caption: Half-blind pins on a slope still have to die before the thin edge — a tight corner for comparison.
+  bricks-on-a-corner:
+    file: eb1911-joints-plate
+    alt: 1911 encyclopedia plate of wood joints
+    caption: Brick-laid curves meet square joinery; a joints plate is the honest classroom before the gouge.
+  the-chest-that-takes-a-hit:
+    file: finished-dovetail-shop
+    alt: Through-dovetail corner on thick drawer or carcase stock
+    caption: Blanket-chest corners are through dovetails sized for lift — pins you can see and test.
+  staves-that-make-a-door:
+    file: modern-cabinet-work-plate
+    alt: 1910 cabinet-making plate from Modern Cabinet Work
+    caption: Coopered doors appear in historical cabinet texts before they appear on your form — plate for type context.
+  steam-still-in-the-rail:
+    file: vasa-oak-sample
+    alt: Oak timber sample from the Swedish ship Vasa
+    caption: Bent work starts with species and moisture — oak that moved on a ship is a sober reminder.
+  a-lamination-into-a-leg:
+    file: vasa-oak-sample
+    alt: Oak wood sample showing grain
+    caption: Laminated aprons follow grain and glue-line discipline — oak sample for species context only.
+  bricks-then-a-gouge:
+    file: eb1911-joints-plate
+    alt: 1911 wood joints reference plate
+    caption: Segmented pedestals sit between brick-laid curves and carved show surfaces.
+  a-shoulder-that-is-not-square:
+    file: eb1911-joints-plate
+    alt: Historical joinery joints plate
+    caption: Scribed shoulders are layout work; reference joints keep the essay from sounding like magic.
+  bend-first-then-tenon:
+    file: vasa-oak-sample
+    alt: Oak sample with visible grain
+    caption: Bend first, tenon second — moisture and species still govern whether the bend stays.
+  an-ellipse-from-segments:
+    file: eb1911-joints-plate
+    alt: 1911 joinery joints illustration plate
+    caption: Elliptical frames are segmented joinery; historical plates name splines and bridles without stock photos.
+  slats-that-disappear:
+    file: modern-cabinet-work-plate
+    alt: Early twentieth-century cabinet work illustration
+    caption: Tambour desks belong to cabinet-fitment history — plate context, not a romantic stock desk.
+  the-knuckle-under-the-leaf:
+    file: met-gateleg-detail-97191
+    alt: Gate-leg drop-leaf table construction detail, Metropolitan Museum of Art
+    caption: Rule joints and gate-legs share hinge thinking — Met detail of rails, hinges, and leaf support.
+  a-column-from-staves:
+    file: eb1911-joints-plate
+    alt: 1911 woodworking joints plate
+    caption: Staved columns are segmented cylinders; joint plates keep the vocabulary honest.
+  a-socket-in-green-wood:
+    file: vasa-oak-sample
+    alt: Oak timber sample
+    caption: Green-wood sockets shrink — species and moisture context without inventing a chair photo.
+  a-tail-that-follows-the-bow:
+    file: dovetail-joint-diagram
+    alt: Dovetail joint schematic
+    caption: A curved sliding dovetail is still a tail in a socket — diagram for readers new to the family.
+  a-saddle-from-a-stack:
+    file: eb1911-joints-plate
+    alt: 1911 joinery reference plate
+    caption: Stack-lam seats are glue-line layout first; reference plate for joint vocabulary.
+  kerfs-that-must-stop:
+    file: eb1911-joints-plate
+    alt: Historical wood joints plate
+    caption: Kerf bending meets solid ends for joinery — general joints plate as classroom anchor.
+  a-tusk-you-can-pull:
+    file: met-trestle-table
+    alt: Trestle table, Metropolitan Museum of Art Open Access
+    caption: Tusk tenons serve knockdown trestles — historical trestle form for type context (hardware differs by piece).
+  the-bolt-in-the-rail:
+    file: met-trestle-table
+    alt: Trestle table with rail and post joinery visible in collection photography
+    caption: Bed bolts solve a different knockdown problem than a museum trestle, but the rail/post language matches.
+  brass-on-a-travel-chest:
+    file: modern-cabinet-work-plate
+    alt: Cabinet work plate showing case hardware context
+    caption: Campaign brass is hardware on a knockdown case — historical cabinet plate until a rights-cleared campaign chest
+      photo lands.
+  a-pedestal-that-splits:
+    file: met-gateleg-dt235356
+    alt: Gate-leg table with pedestal and leaf geometry, Metropolitan Museum of Art
+    caption: Pedestal tables split for travel — gate-leg and pedestal families share center-column thinking in period work.
+  a-barrel-in-the-apron:
+    file: eb1911-joints-plate
+    alt: 1911 joinery joints plate
+    caption: Barrel nuts are hardware, not joinery — joints plate keeps the essay anchored in structure.
+  threads-in-the-hardwood:
+    file: eb1911-joints-plate
+    alt: Wood joints reference illustration
+    caption: Threaded inserts sit in grain you must read — reference plate for grain-aware hardware.
+  thirty-two-and-the-hole:
+    file: modern-cabinet-work-plate
+    alt: Modern Cabinet Work illustration plate
+    caption: System holes are factory grammar — historical cabinet plate reminds readers this pack still cares about case
+      geometry.
+  a-cam-that-is-not-a-joint:
+    file: modern-cabinet-work-plate
+    alt: Cabinet-making reference plate
+    caption: Cam locks clamp cases — not a joint. Period cabinet plates keep the distinction visible.
+  a-gate-that-has-to-stand:
+    file: met-gateleg-dt235356
+    alt: American gate-leg table, Metropolitan Museum of Art
+    caption: A gate-leg table with the gate open — the load path this essay names.
+  a-stool-that-fits-in-a-trunk:
+    file: met-trestle-table
+    alt: Knockdown-friendly trestle table form in museum collection
+    caption: Knockdown stools and trestle tables share take-apart logic — museum form, shop hardware.
+  the-leaf-that-finds-the-line:
+    file: met-gateleg-detail-97191
+    alt: Drop-leaf table hinge and rail detail
+    caption: Table slides and alignment pins extend the gate-leg/drop-leaf hinge family — Met construction detail.
+  a-pin-you-can-drive-back:
+    file: finished-dovetail-shop
+    alt: Tight dovetail corner where pins are fully seated
+    caption: Drawbore pins are service pins — dovetail corners show how proud pins ought to look before you drive them home.
+  a-case-that-travels-in-parts:
+    file: dovetail-joint-diagram
+    alt: Dovetail joint labeled diagram
+    caption: Sliding-dovetail cases travel in parts — diagram for the tail/socket vocabulary.
+  iron-under-a-slab:
+    file: vasa-oak-sample
+    alt: Oak wood grain sample
+    caption: Live-edge slabs move on figure-eights — oak grain sample for movement context (not a river-table hero shot).
+  a-confirmat-in-ply:
+    file: modern-cabinet-work-plate
+    alt: Cabinet work reference plate
+    caption: Confirmats are plywood case hardware — period cabinet plate until shop ply photos land from D:\BBF.
+  a-scarf-that-carries-a-rail:
+    file: scarf-joint-psf
+    alt: Public-domain scarf joint diagram
+    caption: Scarf joints in long rails — public-domain scarf plate matching the essay geometry.
+  a-wedge-you-cannot-see:
+    file: eb1911-joints-plate
+    alt: 1911 wood joints plate
+    caption: Fox wedges hide inside mortises — joints plate for readers mapping stopped joints.
+  a-bridle-on-a-compound-miter:
+    file: mitre-joint-square
+    alt: Mitre joint on square stock diagram
+    caption: A compound-miter bridle starts from miter thinking — diagram before the open slot is cut.

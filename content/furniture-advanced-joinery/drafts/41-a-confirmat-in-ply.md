@@ -7,6 +7,12 @@ word_count: 1425
 dek: "A confirmat is a fat screw with a thread that likes plywood. It is a knockdown if you can get it out. It is a joint if you piloted both pieces as if you meant them to meet again."
 series: furniture-advanced-joinery
 topic: knockdown
+graphics:
+  - id: fig-sch-01
+    path: assets/a-confirmat-in-ply/joinery-diagram.svg
+    alt: "Step-drilled pilot and confirmat head seated in melamine or ply"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — confirmat in plywood case corner, head seated (filename pending shop pull)"
@@ -30,7 +36,21 @@ verify:
 
 The confirmat went in with that waxy, slow bite that means the pilot was right, and the ply edge did not mushroom. I have also gone in with a single stab from a drill that was “close enough” and watched the face veneer lift like a scab. A confirmat is not a drywall screw with a European passport. It is a two-diameter fastener. Treat it like a small bolt you cut the nut for in the wood.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — confirmat in plywood case corner, head seated (filename pending shop pull) -->
+<figure class="faj-figure">
+  <img src="../assets/a-confirmat-in-ply/joinery-diagram.svg" alt="Step-drilled pilot and confirmat head seated in melamine or ply" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Confirmat in plywood case. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-museum">
+  <img src="../assets/museum/modern-cabinet-work-plate.jpg" alt="Cabinet work reference plate" width="1280" height="1925" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 2.</strong> Confirmats are plywood case hardware — period cabinet plate until shop ply photos land from D:\BBF. (<a href="https://commons.wikimedia.org/wiki/File%3AModern_cabinet_work%2C_furniture_and_fitments%3B_an_account_of_the_theory_and_practice_in_the_production_of_all_kinds_of_cabinet_work_and_furniture_with_chapters_on_the_growth_and_progress_of_design_and_%2814593727998%29.jpg">Wikimedia Commons</a> — No restrictions).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The head sits. The thread is in the edge. The edge was piloted." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> The head sits. The thread is in the edge. The edge was piloted. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — confirmat in plywood case corner, head seated (filename pending shop pull)</figcaption>
+</figure>
+
 
 This belongs next to the 32mm essay. Same world. A one-man shop will still build a ply case that has to come apart. Confirmats can be removed and driven again a few times if you did not wreck the edge. After a few times, the edge is a hole. Then you insert, or you dowel, or you admit the case is now permanent.
 
@@ -40,7 +60,11 @@ Ply is the native food. I will not confirmat a walnut solid case to save an afte
 
 The face panel gets a clearance hole for the shank. The edge gets a smaller hole for the thread. Special step-drills exist because this is not optional. I mark a fence so the confirmat lands in the middle of the edge, not a hair toward the show face where it will telegraph.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — confirmat step-drill or two-diameter pilot (filename pending shop pull) -->
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Two diameters. One hole for the shank, one for the thread. A single stab is how you split a panel." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 4 (pending).</strong> Two diameters. One hole for the shank, one for the thread. A single stab is how you split a panel. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — confirmat step-drill or two-diameter pilot (filename pending shop pull)</figcaption>
+</figure>
+
 
 Clamps while you drive. A confirmat will walk a panel if the panel is free. The walk is a case that is out of square and a screw that is now a clamp on a diagonal.
 

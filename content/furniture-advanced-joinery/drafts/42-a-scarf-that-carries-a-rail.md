@@ -7,6 +7,12 @@ word_count: 1377
 dek: "A furniture scarf is a long-grain splice you can take apart if you keyed it, or a permanent beam if you glued it. Either way it is not a butt joint with a prayer."
 series: furniture-advanced-joinery
 topic: knockdown
+graphics:
+  - id: fig-sch-01
+    path: assets/a-scarf-that-carries-a-rail/joinery-diagram.svg
+    alt: "Angled scarf with key or bolt carrying bending load"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — scarf joint in a rail or a long apron, dry-fit (filename pending shop pull)"
@@ -31,7 +37,21 @@ verify:
 
 The rail was longer than the shop was honest about. I could have joined two boards with a butt and a pair of dowels and called it a day. I cut a scarf instead — a long slope, two faces that wanted to be one beam — and I dry-fit it on the bench until the line was a hair I could live with. A scarf is how you make length without pretending a butt joint is a beam. It can also be how you pack a beam in two pieces if you key it.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — scarf joint in a rail or a long apron, dry-fit (filename pending shop pull) -->
+<figure class="faj-figure">
+  <img src="../assets/a-scarf-that-carries-a-rail/joinery-diagram.svg" alt="Angled scarf with key or bolt carrying bending load" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Scarf joint in a long rail. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-museum">
+  <img src="../assets/museum/scarf-joint-psf.png" alt="Public-domain scarf joint diagram" width="1280" height="247" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 2.</strong> Scarf joints in long rails — public-domain scarf plate matching the essay geometry. (<a href="https://commons.wikimedia.org/wiki/File%3AScarf_joint_%28PSF%29.png">Wikimedia Commons</a> — Public domain).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The slope is the glue surface. A steep scarf is a butt joint in a costume." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> The slope is the glue surface. A steep scarf is a butt joint in a costume. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — scarf joint in a rail or a long apron, dry-fit (filename pending shop pull)</figcaption>
+</figure>
+
 
 I will not put on a kanawa-tsugi costume and pretend this shop is a temple carpenter. Those joints are real and they are a life. This is a furniture scarf: a slope, a key or a pair of bolts if it must travel, glue if it must stay.
 
@@ -41,7 +61,11 @@ A short, steep scarf is a butt with a bevel. I want length in the glue face — 
 
 Grain: both halves should agree. A scarf between a wild board and a quiet board is a hinge at the line.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — keyed or bolted scarf, hardware visible (filename pending shop pull) -->
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="A key or a pair of bolts makes the splice a knockdown. Glue alone makes it a beam." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 4 (pending).</strong> A key or a pair of bolts makes the splice a knockdown. Glue alone makes it a beam. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — keyed or bolted scarf, hardware visible (filename pending shop pull)</figcaption>
+</figure>
+
 
 ## The slope stick and the pair of cauls
 

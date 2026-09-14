@@ -7,6 +7,12 @@ word_count: 1589
 dek: "A thick-corner through-dovetail on a blanket chest is not the craft-pack drawer pin. It is layout at a scale that will rack when two people lift, and a lid that will wrack the rim if you treated it like a box."
 series: furniture-advanced-joinery
 topic: compound-dovetails
+graphics:
+  - id: fig-sch-01
+    path: assets/the-chest-that-takes-a-hit/joinery-diagram.svg
+    alt: "Thick corner pins and tails sized for lift and rim load"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — thick blanket-chest corner, through-dovetails, lid off (filename pending shop pull)"
@@ -30,7 +36,21 @@ verify:
 
 The pin was an inch and a quarter at the baseline. I had been cutting drawer pins all week and my hands still wanted that little jewelry spacing. A blanket chest in 4/4 oak is not a drawer. Two people will lift it by the ends. The bottom will be full of wool or tools or the stuff a family calls “the chest.” The corner has to be a beam. If you cut pretty little tails here, you have made a lace beam. Lace beams open.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — thick blanket-chest corner, through-dovetails, lid off (filename pending shop pull) -->
+<figure class="faj-figure">
+  <img src="../assets/the-chest-that-takes-a-hit/joinery-diagram.svg" alt="Thick corner pins and tails sized for lift and rim load" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Through-dovetail blanket chest corner. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-museum">
+  <img src="../assets/museum/finished-dovetail-shop.jpg" alt="Through-dovetail corner on thick drawer or carcase stock" width="1280" height="960" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 2.</strong> Blanket-chest corners are through dovetails sized for lift — pins you can see and test. (<a href="https://commons.wikimedia.org/wiki/File%3AFinished_dovetail.jpg">Wikimedia Commons</a> — CC BY-SA 3.0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Big pins. Big waste. The corner is a small beam, not a jewelry box." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> Big pins. Big waste. The corner is a small beam, not a jewelry box. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — thick blanket-chest corner, through-dovetails, lid off (filename pending shop pull)</figcaption>
+</figure>
+
 
 The craft pack already taught waste between the pins and why a shoulder is a shoulder. This is the scale-up, and the scale-up is where shops get cute. Cute is a gap after the first move across a porch.
 
@@ -48,7 +68,11 @@ Chopping waste at this scale is a different body. A big chisel, a mallet you are
 
 A chest without a proper bottom is a picture frame you store blankets in. The bottom board (or a framed panel) ties the four sides. If you only nail a plywood afterthought into a rebate, the corners will still loft into a diamond when two people lift the ends. I let the bottom into a groove or a rebate that has glue on the long grain and room on the cross, or I frame a panel and I treat the frame as the rail the dovetails were waiting for.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — two people dry-lifting a chest carcase, watching the rim (filename pending shop pull) -->
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="If it lozenges now, the lid will not save it. The lid may make it worse." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 4 (pending).</strong> If it lozenges now, the lid will not save it. The lid may make it worse. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — two people dry-lifting a chest carcase, watching the rim (filename pending shop pull)</figcaption>
+</figure>
+
 
 Dry-lift the empty carcase. If the rim lozenges, fix it now. A lid will hide the lozenge until the hinges bind.
 

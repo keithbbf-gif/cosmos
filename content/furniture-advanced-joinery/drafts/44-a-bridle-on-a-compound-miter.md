@@ -7,6 +7,12 @@ word_count: 1374
 dek: "A picture-frame table, a sloped rim, a hopper that wanted teeth: the bridle is an open mortise on an end that is not square. Two cheeks, a slot, and a miter that still has to shut."
 series: furniture-advanced-joinery
 topic: hybrid
+graphics:
+  - id: fig-sch-01
+    path: assets/a-bridle-on-a-compound-miter/joinery-diagram.svg
+    alt: "Open slot on a compound-mitered end with matching cheeks"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — compound-mitered bridle dry-fit, cheeks and slot (filename pending shop pull)"
@@ -30,7 +36,21 @@ verify:
 
 The corner was a miter you could see from the sofa and a bridle you could see if you got under the rim. I like that split. The craft pack already argued an open mortise on a square frame. This is the same mouth on an end that has two angles: a picture-frame table with a sloped rim, a hopper that wanted more meat than a dovetail in thin stock, an elliptical segment too thick for a spline and too proud for a secret miter.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — compound-mitered bridle dry-fit, cheeks and slot (filename pending shop pull) -->
+<figure class="faj-figure">
+  <img src="../assets/a-bridle-on-a-compound-miter/joinery-diagram.svg" alt="Open slot on a compound-mitered end with matching cheeks" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Compound-miter bridle joint. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-museum">
+  <img src="../assets/museum/mitre-joint-square.png" alt="Mitre joint on square stock diagram" width="603" height="724" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 2.</strong> A compound-miter bridle starts from miter thinking — diagram before the open slot is cut. (<a href="https://commons.wikimedia.org/wiki/File%3AMitre_joint_square.png">Wikimedia Commons</a> — Public domain).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The slot is open. The miter is the show. Both have to sit down." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> The slot is open. The miter is the show. Both have to sit down. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — compound-mitered bridle dry-fit, cheeks and slot (filename pending shop pull)</figcaption>
+</figure>
+
 
 A bridle is two cheeks and a slot. On a square, you saw the slot in one piece and the tenon in the other, shoulders square. On a compound, the shoulders are miters (or a miter plus a slope), and the slot walls have to follow. If you saw the slot plumb to the bench, you have built a spring again.
 
@@ -38,7 +58,11 @@ A bridle is two cheeks and a slot. On a square, you saw the slot in one piece an
 
 I lock the bevels to the actual rim — plan angle and elevation — the way I did on the hopper and the hex. I mark the miter around the show. I mark the bridle *inside* that fence if the miter is the show, or I let the bridle show on the underside if the underside is allowed to be teeth.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — layout of bridle on a compound end, bevel gauge (filename pending shop pull) -->
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The bevel is locked to the life of the rim. The saw follows both stories." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 4 (pending).</strong> The bevel is locked to the life of the rim. The saw follows both stories. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — layout of bridle on a compound end, bevel gauge (filename pending shop pull)</figcaption>
+</figure>
+
 
 ## The cradle that makes one cut plumb
 

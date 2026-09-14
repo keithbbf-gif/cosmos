@@ -7,6 +7,12 @@ word_count: 1663
 dek: "A curved rail into a straight post needs a scribed shoulder. The tenon can be ordinary. The shoulder is the joint the light will find."
 series: furniture-advanced-joinery
 topic: curved-work
+graphics:
+  - id: fig-sch-01
+    path: assets/a-shoulder-that-is-not-square/joinery-diagram.svg
+    alt: "Knife line following a turned post, not a square shoulder"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — scribed shoulder on a curved rail, dry-fit to a post (filename pending shop pull)"
@@ -30,7 +36,21 @@ verify:
 
 Light showed under the shoulder in a thin moon. The rail was fair. The post was turned and honest. The tenon went home. The shoulder, cut square on the table saw because I was in a hurry, did not know the post was a cylinder. A square shoulder on a round post is a pair of tangent points and a lot of air. Glue will fill the air for a month. The month after that, the moon comes back.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — scribed shoulder on a curved rail, dry-fit to a post (filename pending shop pull) -->
+<figure class="faj-figure">
+  <img src="../assets/a-shoulder-that-is-not-square/joinery-diagram.svg" alt="Knife line following a turned post, not a square shoulder" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Scribed rail shoulder on a curve. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-museum">
+  <img src="../assets/museum/eb1911-joints-plate.jpg" alt="Historical joinery joints plate" width="169" height="659" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 2.</strong> Scribed shoulders are layout work; reference joints keep the essay from sounding like magic. (<a href="https://commons.wikimedia.org/wiki/File%3AEB1911_Joinery_-_Fig._12.%E2%80%94Joints.jpg">Wikimedia Commons</a> — Public domain).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The gap follows the radius until the knife line. After the knife, it should not exist." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> The gap follows the radius until the knife line. After the knife, it should not exist. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — scribed shoulder on a curved rail, dry-fit to a post (filename pending shop pull)</figcaption>
+</figure>
+
 
 This is the quiet curved joint. No steam in the sentence, no stave. The rail may be sawn from wide stock, or laminated, or even straight in plan and only curved in elevation — a bowed stretcher, an arched apron, a chair rail that lifts. The tenon can be as ordinary as the craft pack. The shoulder cannot.
 
@@ -38,7 +58,11 @@ This is the quiet curved joint. No steam in the sentence, no stave. The rail may
 
 I fit the tenon first, a little tight, so the rail sits where it will live. Then I set a compass to the largest gap I can find between shoulder and post, and I walk the scribe around, knife if I can, pencil if I must and then knife. The line is the new shoulder. Everything proud of that line is waste.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — compass and knife scribing a rail to a turned leg (filename pending shop pull) -->
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The compass is set to the proud. The knife is the shoulder you will keep." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 4 (pending).</strong> The compass is set to the proud. The knife is the shoulder you will keep. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — compass and knife scribing a rail to a turned leg (filename pending shop pull)</figcaption>
+</figure>
+
 
 A chisel, a shoulder plane, a scraper. I do not sand a scribe. Sanding rounds the only line that has to be sharp against a cylinder.
 

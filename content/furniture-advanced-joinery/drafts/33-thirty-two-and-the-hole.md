@@ -7,6 +7,12 @@ word_count: 1382
 dek: "The 32mm system is a grid of holes that lets a cabinet come apart and go back together. It is not handmade furniture. It is also not a sin. The sin is pretending a row of holes is a dovetail."
 series: furniture-advanced-joinery
 topic: knockdown
+graphics:
+  - id: fig-sch-01
+    path: assets/thirty-two-and-the-hole/joinery-diagram.svg
+    alt: "Row of 5 mm holes on 32 mm centers for hinges and pins"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — 32mm hole grid in a cabinet side, shop or sample (filename pending shop pull)"
@@ -30,7 +36,21 @@ verify:
 
 I drilled a test row in a scrap of maple ply, 32 millimeters on center, and the third hole was already a hair off because I had moved the fence to “improve” it. The fourth hole made a shelf pin lean. The 32mm system is not a vibe. It is a grid. If you will not honor the grid, do not use the language. Use a sliding dovetail and a face frame and be a different shop.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — 32mm hole grid in a cabinet side, shop or sample (filename pending shop pull) -->
+<figure class="faj-figure">
+  <img src="../assets/thirty-two-and-the-hole/joinery-diagram.svg" alt="Row of 5 mm holes on 32 mm centers for hinges and pins" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> 32 mm system hole grid. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-museum">
+  <img src="../assets/museum/modern-cabinet-work-plate.jpg" alt="Modern Cabinet Work illustration plate" width="1280" height="1925" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 2.</strong> System holes are factory grammar — historical cabinet plate reminds readers this pack still cares about case geometry. (<a href="https://commons.wikimedia.org/wiki/File%3AModern_cabinet_work%2C_furniture_and_fitments%3B_an_account_of_the_theory_and_practice_in_the_production_of_all_kinds_of_cabinet_work_and_furniture_with_chapters_on_the_growth_and_progress_of_design_and_%2814593727998%29.jpg">Wikimedia Commons</a> — No restrictions).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The grid is the joint. If the grid is drunk, every shelf is drunk." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> The grid is the joint. If the grid is drunk, every shelf is drunk. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — 32mm hole grid in a cabinet side, shop or sample (filename pending shop pull)</figcaption>
+</figure>
+
 
 This essay exists in an advanced-joinery pack because knockdown is the brief, and because a one-man shop in South Arkansas will still be asked for a run of cabinets that have to ship and hang. I will not pretend the grid is craft in the dovetail sense. I will pretend it is a joint, because it is: a coordinated set of holes that locates hinges, pins, and fasteners.
 
@@ -42,7 +62,11 @@ Thirty-two millimeters is the spacing. The system assumes a line of holes, inset
 
 Plywood and sheet goods are the native food. Solid wood moves and the grid becomes oval. I will use the grid in ply. I will not use it as the only structure in a solid-wood case that also wants to be a chest.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — Euro hinge cup and mounting plate, or a shelf pin in the grid (filename pending shop pull) -->
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Hinges and pins live on the same map. That is the point of the map." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 4 (pending).</strong> Hinges and pins live on the same map. That is the point of the map. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — Euro hinge cup and mounting plate, or a shelf pin in the grid (filename pending shop pull)</figcaption>
+</figure>
+
 
 ## Accuracy is respect
 

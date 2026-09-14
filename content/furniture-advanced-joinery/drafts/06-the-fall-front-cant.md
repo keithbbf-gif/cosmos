@@ -7,6 +7,12 @@ word_count: 1361
 dek: "A secretary with sloped sides is a drawer stack living in a hopper. The case dovetails are compound, the runners have to follow, and the fall front does not forgive a twist."
 series: furniture-advanced-joinery
 topic: compound-dovetails
+graphics:
+  - id: fig-sch-01
+    path: assets/the-fall-front-cant/joinery-diagram.svg
+    alt: "Sloped case side with compound tails at the fall-front rail"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — canted case side, compound dovetails at top or bottom (filename pending shop pull)"
@@ -30,7 +36,21 @@ verify:
 
 The side was a tall hopper. Not a box you set on a hearth — a case side, four feet of oak, wider at the floor than at the cornice, the old secretary posture. I had the top rail dry-fit and the tails were already arguing with the slope. A square pin board on a canted side is a wedge. The cornice would show it. The fall front would show it worse, because a fall front is a door that becomes a desk and then a door again, and it will find every twist you left in the case.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — canted case side, compound dovetails at top or bottom (filename pending shop pull) -->
+<figure class="faj-figure">
+  <img src="../assets/the-fall-front-cant/joinery-diagram.svg" alt="Sloped case side with compound tails at the fall-front rail" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Canted secretary case dovetails. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-museum">
+  <img src="../assets/museum/met-fall-front-secretary.jpg" alt="Fall-front secretary in the Metropolitan Museum of Art collection" width="1280" height="1600" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 2.</strong> A canted secretary is a fall front on a sloped case — Met Open Access object for the furniture type. (<a href="https://commons.wikimedia.org/wiki/File%3AFall-front_Secretary_MET_DT5342.jpg">Wikimedia Commons</a> — CC0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The side leans. The dovetails at the top rail still have to close on a shoulder the lid will see." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> The side leans. The dovetails at the top rail still have to close on a shoulder the lid will see. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — canted case side, compound dovetails at top or bottom (filename pending shop pull)</figcaption>
+</figure>
+
 
 I am not writing a museum paper on antique secretaries. I am writing about the cant: two case sides that are not parallel in elevation, joined to top and bottom (or to rails) with dovetails that know about the lean. Drawers in that case get narrower as they go up, or they sit in a square interior you built behind the cant. Those are two different shops. Pick one on the drawing, not at the bench.
 
@@ -50,7 +70,11 @@ Lock the bevel to the side. Carry it to the top end and the bottom end as if the
 
 Tails on the sides, pins on the top and bottom boards, is the usual chest logic and it still works. The pins are then cut on boards that may be square in plan. Good. One less compound. The tails carry the slope.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — fall front dry-fit on canted case, hinges and stays (filename pending shop pull) -->
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="If the case is in wind, the fall front becomes a propeller. Fix the case first." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 4 (pending).</strong> If the case is in wind, the fall front becomes a propeller. Fix the case first. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — fall front dry-fit on canted case, hinges and stays (filename pending shop pull)</figcaption>
+</figure>
+
 
 ## Runners that follow
 

@@ -58,6 +58,13 @@ Body-copy word counts (front matter excluded). Recounted after quality rewrite (
 - `BIBLIOGRAPHY.md`
 - `PHOTO_CAPTIONS.md`
 - `PHOTO_MANIFEST.md`
+- `PHOTO_NOTES.md`
+- `GRAPHICS_INDEX.md`
+- `RIGHTS.md`
+- `SEO_MAP.md`
+- `STAGING_README.md`
+- `assets/` (schematics, museum rasters, placeholders)
+- `scripts/` (generate, fetch, inject, validate)
 - `WP_IMPORT.md`
 - `MANIFEST.md`
 - `drafts/01`–`drafts/44`

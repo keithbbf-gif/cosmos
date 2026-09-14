@@ -7,6 +7,12 @@ word_count: 1379
 dek: "A cam lock is a clamp you leave in the cabinet. It can be a legitimate knockdown. It cannot be the only sentence in a piece you called furniture."
 series: furniture-advanced-joinery
 topic: knockdown
+graphics:
+  - id: fig-sch-01
+    path: assets/a-cam-that-is-not-a-joint/joinery-diagram.svg
+    alt: "Euro cam pulling a case corner — clamp, not structure"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — cam lock and dowel in a case corner, open (filename pending shop pull)"
@@ -30,7 +36,21 @@ verify:
 
 The cam turned with that cheap, bright click everyone knows from a box that came in a flat pack. I was using one in a shop cabinet of ply, a jig closet, and I was not ashamed. I would have been ashamed if I had put the same cam in a walnut case I had already dovetailed on three corners and then “simplified” the fourth. A cam lock is a clamp you leave behind. It is not a pin, not a tail, not a shoulder. If you need a clamp in the piece, say so. If you need a joint, cut one.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — cam lock and dowel in a case corner, open (filename pending shop pull) -->
+<figure class="faj-figure">
+  <img src="../assets/a-cam-that-is-not-a-joint/joinery-diagram.svg" alt="Euro cam pulling a case corner — clamp, not structure" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Cam lock and dowel. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-museum">
+  <img src="../assets/museum/modern-cabinet-work-plate.jpg" alt="Cabinet-making reference plate" width="1280" height="1925" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 2.</strong> Cam locks clamp cases — not a joint. Period cabinet plates keep the distinction visible. (<a href="https://commons.wikimedia.org/wiki/File%3AModern_cabinet_work%2C_furniture_and_fitments%3B_an_account_of_the_theory_and_practice_in_the_production_of_all_kinds_of_cabinet_work_and_furniture_with_chapters_on_the_growth_and_progress_of_design_and_%2814593727998%29.jpg">Wikimedia Commons</a> — No restrictions).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The dowel locates. The cam clamps. Alone, the cam is a hook in particleboard." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> The dowel locates. The cam clamps. Alone, the cam is a hook in particleboard. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — cam lock and dowel in a case corner, open (filename pending shop pull)</figcaption>
+</figure>
+
 
 This is the honest-knockdown essay the brief asked for. Not every knockdown is a tusk tenon. Some of it is hardware that a customer can turn with a screwdriver on a Sunday. The advanced part is knowing when that is enough.
 
@@ -50,7 +70,11 @@ I will use cams in:
 
 I will not use cams as the four corners of a piece I called a chest.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — cam lock after a rack, or a clean one next to a chewed one (filename pending shop pull) -->
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The chewed cam is the joint telling you it was the only sentence." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 4 (pending).</strong> The chewed cam is the joint telling you it was the only sentence. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — cam lock after a rack, or a clean one next to a chewed one (filename pending shop pull)</figcaption>
+</figure>
+
 
 ## A jig closet that earned a cam
 

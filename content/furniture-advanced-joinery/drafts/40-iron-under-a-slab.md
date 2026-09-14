@@ -7,6 +7,12 @@ word_count: 1429
 dek: "A live-edge slab on a steel base is a movement problem wearing a modern costume. Figure-eights, slotted C-channel, a KD base — the joint is how the slab is allowed to be a tree."
 series: furniture-advanced-joinery
 topic: knockdown
+graphics:
+  - id: fig-sch-01
+    path: assets/iron-under-a-slab/joinery-diagram.svg
+    alt: "Slotted metal fastener letting a live-edge slab move on steel"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — slab underside, figure-eights or slotted channel (filename pending shop pull)"
@@ -31,7 +37,21 @@ verify:
 
 The slab had already moved. I could see it in the finish — a dull line where a fastener had held a winter width against a summer want. The steel base was still a perfect rectangle. Steel does not care. Wood cares. I pulled every screw that had been driven into a round hole in a strap, I slotted the strap, I put the screws back in the middle of the slots, and I waited to see if the line would be the last one.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — slab underside, figure-eights or slotted channel (filename pending shop pull) -->
+<figure class="faj-figure">
+  <img src="../assets/iron-under-a-slab/joinery-diagram.svg" alt="Slotted metal fastener letting a live-edge slab move on steel" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Figure-eight under a slab top. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-museum">
+  <img src="../assets/museum/vasa-oak-sample.jpg" alt="Oak wood grain sample" width="1280" height="853" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 2.</strong> Live-edge slabs move on figure-eights — oak grain sample for movement context (not a river-table hero shot). (<a href="https://commons.wikimedia.org/wiki/File%3APiece_of_oak_wood_from_the_ship_Vasa_4.jpg">Wikimedia Commons</a> — CC BY-SA 4.0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The fasteners sit in slots. The slab can still breathe. That is the joint." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> The fasteners sit in slots. The slab can still breathe. That is the joint. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — slab underside, figure-eights or slotted channel (filename pending shop pull)</figcaption>
+</figure>
+
 
 This pack is joinery, not a slab-fashion catalog. The knockdown is the base coming off so the slab can go up a stair. The joint is the allowance. Fasteners live in slots. A plate that wants to be glued to a face is a prison I will not build.
 
@@ -43,7 +63,11 @@ This pack is joinery, not a slab-fashion catalog. The knockdown is the base comi
 
 **Sliding dovetail battens**, glued at the center, free at the ends — the craft-pack cousin, still good under a slab if you do not also steel it into a prison.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — steel base detached, slab on horses (filename pending shop pull) -->
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Two piles. The stair will thank you. The slab will not crack if you slotted the iron." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 4 (pending).</strong> Two piles. The stair will thank you. The slab will not crack if you slotted the iron. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — steel base detached, slab on horses (filename pending shop pull)</figcaption>
+</figure>
+
 
 ## The Forstner jig and the slotting file
 

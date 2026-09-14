@@ -7,6 +7,12 @@ word_count: 1479
 dek: "A sliding dovetail that is not straight in plan — a bowed rail, a curved divider — is a socket you cannot run with a straight fence. The tail has to be fair, and so does the hole."
 series: furniture-advanced-joinery
 topic: curved-work
+graphics:
+  - id: fig-sch-01
+    path: assets/a-tail-that-follows-the-bow/joinery-diagram.svg
+    alt: "Bow-shaped tail matching a curved socket in a rail or case"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — curved sliding-dovetail socket in a case or rail (filename pending shop pull)"
@@ -30,7 +36,21 @@ verify:
 
 The rail was a shallow bow, a stretcher that had to sit in a case side and also look like it had been drawn with a batten. A straight sliding dovetail would have flattened the smile at the joint, or it would have hung the rail on two points and a gap. I needed a socket that followed the bow — a curved sliding dovetail. I also needed a reason, because this joint is a good way to spend a day proving you own a jigsaw and a chisel.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — curved sliding-dovetail socket in a case or rail (filename pending shop pull) -->
+<figure class="faj-figure">
+  <img src="../assets/a-tail-that-follows-the-bow/joinery-diagram.svg" alt="Bow-shaped tail matching a curved socket in a rail or case" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Curved sliding dovetail. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-museum">
+  <img src="../assets/museum/dovetail-joint-diagram.png" alt="Dovetail joint schematic" width="389" height="569" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 2.</strong> A curved sliding dovetail is still a tail in a socket — diagram for readers new to the family. (<a href="https://commons.wikimedia.org/wiki/File%3ADovetail_joint.png">Wikimedia Commons</a> — CC BY-SA 3.0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The socket is a smile. A straight bit in a straight fence will not cut a smile." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> The socket is a smile. A straight bit in a straight fence will not cut a smile. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — curved sliding-dovetail socket in a case or rail (filename pending shop pull)</figcaption>
+</figure>
+
 
 The climbing socket in this pack is a straight tail in a leaning side. This is a curved tail in (usually) a straight side. Do not mix the names. The work is different.
 
@@ -44,7 +64,11 @@ A router on a trammel, if the bow is a true radius. A template with a guide bush
 
 Depth still follows the thin-face rule. Stopped at the show edge. Glue in a third, because the side still moves. None of that is cancelled by the smile.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — bowed rail with matching tail, dry-slide (filename pending shop pull) -->
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The tail is as fair as the rail. If it is not, the slide is a jam at the fat of the bow." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 4 (pending).</strong> The tail is as fair as the rail. If it is not, the slide is a jam at the fat of the bow. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — bowed rail with matching tail, dry-slide (filename pending shop pull)</figcaption>
+</figure>
+
 
 ## The tail is the rail’s edge
 

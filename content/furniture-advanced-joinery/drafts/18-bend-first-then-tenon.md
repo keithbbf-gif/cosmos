@@ -7,6 +7,12 @@ word_count: 1544
 dek: "A laminated or steamed rail that is tenoned while it is still straight is a rail whose tenons will point at yesterday. Bend, wait, then cut."
 series: furniture-advanced-joinery
 topic: curved-work
+graphics:
+  - id: fig-sch-01
+    path: assets/bend-first-then-tenon/joinery-diagram.svg
+    alt: "Curved rail with tenons cut only after the bend is dry"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — curved rail blank after bend, ends still long, no tenons yet (filename pending shop pull)"
@@ -30,7 +36,21 @@ verify:
 
 I used to tenon first because the sliding compound saw is happier with a straight stick. I would cut pretty shoulders, then I would steam or laminate, and then I would stand in front of two posts holding a rail whose tenons had rotated into a polite fiction. You can sneak a little. You cannot sneak a tenon that now wants to enter a mortise from a week ago.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — curved rail blank after bend, ends still long, no tenons yet (filename pending shop pull) -->
+<figure class="faj-figure">
+  <img src="../assets/bend-first-then-tenon/joinery-diagram.svg" alt="Curved rail with tenons cut only after the bend is dry" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Bend first, tenon second. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-museum">
+  <img src="../assets/museum/vasa-oak-sample.jpg" alt="Oak sample with visible grain" width="1280" height="853" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 2.</strong> Bend first, tenon second — moisture and species still govern whether the bend stays. (<a href="https://commons.wikimedia.org/wiki/File%3APiece_of_oak_wood_from_the_ship_Vasa_4.jpg">Wikimedia Commons</a> — CC BY-SA 4.0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Long ends. No shoulders. The rail is allowed to finish its argument with the form." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> Long ends. No shoulders. The rail is allowed to finish its argument with the form. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — curved rail blank after bend, ends still long, no tenons yet (filename pending shop pull)</figcaption>
+</figure>
+
 
 This is the sequence essay. The steam-crest piece and the lamination-into-a-leg piece assume it. I am writing it anyway because the sequence is the joint. Shops that skip it spend their time making the wood look like the drawing instead of letting the drawing follow the wood.
 
@@ -46,7 +66,11 @@ Long. A little wide. No cheeks, no shoulders. I may cut a shallow horn or a dog 
 
 After the bend and the wait — meter in the same country as the posts — I put the rail against the posts, or against a story frame, and I mark the shoulders from the life in front of me. Then I saw.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — same rail after drying, tenons cut to posts (filename pending shop pull) -->
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Now the ends know where they live. The saw is invited." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 4 (pending).</strong> Now the ends know where they live. The saw is invited. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — same rail after drying, tenons cut to posts (filename pending shop pull)</figcaption>
+</figure>
+
 
 A tenon jig or a table-saw sled can still help, but the rail is now a curve and it will not lie on a sled the way a stick will. I support it. I do not force it flat. Forcing a bent rail flat to cut a tenon is how you cut a tenon for a rail that will spring back into a different chair.
 

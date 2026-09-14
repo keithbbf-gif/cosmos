@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-labelledby="title desc">
+  <title id="title">Secret mitered dovetail section</title>
+  <desc id="desc">Miter show face with tails living inside the miter line</desc>
+  <rect width="100%" height="100%" fill="#F7F3E8"/>
+  <text x="32" y="44" fill="#1A1A1A" font-family="Georgia, serif" font-size="20" font-weight="600">Secret mitered dovetail section</text>
+  <rect x="24" y="64" width="592" height="332" fill="none" stroke="#D4C9B0" stroke-width="1"/>
+
+  <polygon points="180,300 320,160 460,300" fill="none" stroke="#1A1A1A" stroke-width="2"/>
+  <text x="300" y="150" fill="#4A4A4A" font-family="sans-serif" font-size="11">miter show</text>
+  <polygon points="240,280 270,250 300,280" fill="none" stroke="#8B4513" stroke-width="2"/>
+  <text x="248" y="268" fill="#8B4513" font-family="sans-serif" font-size="10">tails inside</text>
+</svg>

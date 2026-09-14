@@ -7,6 +7,12 @@ word_count: 1504
 dek: "A rule joint is a pair of matched profiles that hide a hinge. When the leaf drops, the knuckle stays in the dark. When the leaf lifts, the table is one top if you cut the cove to the pin."
 series: furniture-advanced-joinery
 topic: curved-work
+graphics:
+  - id: fig-sch-01
+    path: assets/the-knuckle-under-the-leaf/joinery-diagram.svg
+    alt: "Matched arcs on table top and drop leaf with hidden knuckle"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — rule joint on a drop-leaf table, leaf up (filename pending shop pull)"
@@ -30,7 +36,21 @@ verify:
 
 The leaf hung, and the iron disappeared. That is the whole magic trick, and it is also the whole way to ruin a dining top. A rule joint is a cove on the fixed top and a thumb on the leaf, married so that when the leaf drops the hinge knuckle lives inside the cove, and when the leaf comes up the two profiles shut into a single plane. If the pin is a quarter-inch off, you see a hinge. If the profiles do not match, you see a ditch. People notice ditches at dinner.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — rule joint on a drop-leaf table, leaf up (filename pending shop pull) -->
+<figure class="faj-figure">
+  <img src="../assets/the-knuckle-under-the-leaf/joinery-diagram.svg" alt="Matched arcs on table top and drop leaf with hidden knuckle" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Rule joint knuckle. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-museum">
+  <img src="../assets/museum/met-gateleg-detail-97191.jpg" alt="Gate-leg drop-leaf table construction detail, Metropolitan Museum of Art" width="1280" height="1044" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 2.</strong> Rule joints and gate-legs share hinge thinking — Met detail of rails, hinges, and leaf support. (<a href="https://commons.wikimedia.org/wiki/File%3AGate-leg_Drop-leaf_Table_MET_97191.jpg">Wikimedia Commons</a> — CC0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Up, it should read as one top. The line is a shadow, not a ditch." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> Up, it should read as one top. The line is a shadow, not a ditch. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — rule joint on a drop-leaf table, leaf up (filename pending shop pull)</figcaption>
+</figure>
+
 
 This is curved work in section, not in plan. The curve is a knife in a cutter head, or a pair of planes, or a router bit set that was sold as “rule joint” and still needs a human.
 
@@ -40,7 +60,11 @@ I lay out from the hinge pin. The center of the cove radius is the pin, or a ver
 
 If you cut the cove first and then guess the hinge, you will guess wrong. Mortise the hinges on a pair of scraps, swing them, and then cut the profiles on the scraps until the scrap joint shuts. Then you may touch the real top.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — rule joint, leaf down, hinge knuckle hidden (filename pending shop pull) -->
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Down, the cove eats the hinge. If you see iron, the pin is in the wrong country." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 4 (pending).</strong> Down, the cove eats the hinge. If you see iron, the pin is in the wrong country. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — rule joint, leaf down, hinge knuckle hidden (filename pending shop pull)</figcaption>
+</figure>
+
 
 ## Cove and thumb
 

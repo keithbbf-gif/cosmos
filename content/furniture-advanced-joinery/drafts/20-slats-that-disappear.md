@@ -7,6 +7,12 @@ word_count: 1545
 dek: "A tambour is a curtain of slats glued to a canvas that has to run a track you cannot see. The joint is the slat edge, the cloth, and a channel that does not pinch in August."
 series: furniture-advanced-joinery
 topic: curved-work
+graphics:
+  - id: fig-sch-01
+    path: assets/slats-that-disappear/joinery-diagram.svg
+    alt: "Canvas-backed slats turning a corner into a desk cylinder"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — tambour slats on canvas, inside face (filename pending shop pull)"
@@ -31,7 +37,21 @@ verify:
 
 The slats looked like bacon on the bench, a row of little faces, the canvas on the back still smelling like whoever glued it. I lifted one end and the curtain rolled. That roll is the joint. A tambour is not a door you hang. It is a door you *feed* into a track, and the track is a pair of grooves that have to remain a pair when the case moves.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — tambour slats on canvas, inside face (filename pending shop pull) -->
+<figure class="faj-figure">
+  <img src="../assets/slats-that-disappear/joinery-diagram.svg" alt="Canvas-backed slats turning a corner into a desk cylinder" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Tambour slats in track. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-museum">
+  <img src="../assets/museum/modern-cabinet-work-plate.jpg" alt="Early twentieth-century cabinet work illustration" width="1280" height="1925" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 2.</strong> Tambour desks belong to cabinet-fitment history — plate context, not a romantic stock desk. (<a href="https://commons.wikimedia.org/wiki/File%3AModern_cabinet_work%2C_furniture_and_fitments%3B_an_account_of_the_theory_and_practice_in_the_production_of_all_kinds_of_cabinet_work_and_furniture_with_chapters_on_the_growth_and_progress_of_design_and_%2814593727998%29.jpg">Wikimedia Commons</a> — No restrictions).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The cloth is the hinge. The slats are only as kind as the gap you left between them." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> The cloth is the hinge. The slats are only as kind as the gap you left between them. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — tambour slats on canvas, inside face (filename pending shop pull)</figcaption>
+</figure>
+
 
 I will not write a museum note on cylinder desks. I will write about slats, cloth, and a channel. A breadbox, a small cabinet, a desk if the commission is real. [VERIFY] before this becomes a house claim.
 
@@ -49,7 +69,11 @@ Adhesive: [VERIFY]. A glue that stays flexible is the point. A glue that dries l
 
 Two grooves, parallel, a consistent distance apart, running the path: straight, then a curve, then straight. The curve is where tambours go to die. If the radius is tighter than the slat thickness will allow, the slats climb out or they jam. I make a test curtain of three slats and I run it in a test block of the radius before I cut the case.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — tambour in its track, cylinder desk or cabinet (filename pending shop pull) -->
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The track is a pair of grooves that must stay a pair. A pinch is a tambour that stops being a door." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 4 (pending).</strong> The track is a pair of grooves that must stay a pair. A pinch is a tambour that stops being a door. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — tambour in its track, cylinder desk or cabinet (filename pending shop pull)</figcaption>
+</figure>
+
 
 The groove width is the slat thickness plus a little for humidity and finish. Too tight in June is a door that will not open. Too loose is a tambour that rattles and leaves the track at the curve. I finish the slats *before* they go in if I can, at least a sealer, so they do not swell into a raw-wood surprise.
 

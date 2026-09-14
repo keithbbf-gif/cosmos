@@ -7,6 +7,12 @@ word_count: 1344
 dek: "A bed bolt is a long iron in a rail that finds a nut in a post. The wood joint can be a stub tenon. The knockdown is the iron. If the nut spins, the bed is a hammock."
 series: furniture-advanced-joinery
 topic: knockdown
+graphics:
+  - id: fig-sch-01
+    path: assets/the-bolt-in-the-rail/joinery-diagram.svg
+    alt: "Hook rail, bolt hole, and nut pocket in a bed post"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — bed rail, bolt hole, post mortise (filename pending shop pull)"
@@ -30,7 +36,21 @@ verify:
 
 The wrench slipped and the nut turned with the bolt. I could feel it — the polite nothing of threads that are no longer biting a fixed hex. The rail stayed loose. A bed that is loose is not a rustic feature. It is a noise at 2 a.m. and a rack that will oval the bolt hole until the iron is a rattle. I pulled the post, recut the nut seat, and I put a square nut in a square hole the way I should have the first time.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — bed rail, bolt hole, post mortise (filename pending shop pull) -->
+<figure class="faj-figure">
+  <img src="../assets/the-bolt-in-the-rail/joinery-diagram.svg" alt="Hook rail, bolt hole, and nut pocket in a bed post" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Bed bolt through rail and post. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-museum">
+  <img src="../assets/museum/met-trestle-table.jpg" alt="Trestle table with rail and post joinery visible in collection photography" width="1280" height="926" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 2.</strong> Bed bolts solve a different knockdown problem than a museum trestle, but the rail/post language matches. (<a href="https://commons.wikimedia.org/wiki/File%3ATrestle_Table_MET_97190.jpg">Wikimedia Commons</a> — CC0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The stub tenon locates. The bolt works. Two jobs, two parts." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> The stub tenon locates. The bolt works. Two jobs, two parts. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — bed rail, bolt hole, post mortise (filename pending shop pull)</figcaption>
+</figure>
+
 
 Beds have to come apart. That is not a style. That is a mattress and a stair. The joint is how you admit it.
 
@@ -42,7 +62,11 @@ Locate in wood. Clamp in iron. That sentence is this whole essay. A bed is a rac
 
 Hooked rails — the iron hook that drops into a plate in the post — are the factory cousin. They are fast. They also rattle if the plate is thin and the hook is proud. I will use them on a utility bed. I will not use them on a post I spent a week turning unless the plate is serious and the hook is fitted to a seat that does not clack.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — bed-bolt nut in post, access hole or square nut seated (filename pending shop pull) -->
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The nut has to sit. If it spins in the hole, you are tightening air." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 4 (pending).</strong> The nut has to sit. If it spins in the hole, you are tightening air. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — bed-bolt nut in post, access hole or square nut seated (filename pending shop pull)</figcaption>
+</figure>
+
 
 ## The nut has to be a nut
 

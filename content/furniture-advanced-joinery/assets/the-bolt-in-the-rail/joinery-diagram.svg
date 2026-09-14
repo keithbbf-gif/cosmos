@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-labelledby="title desc">
+  <title id="title">Bed bolt through rail and post</title>
+  <desc id="desc">Hook rail, bolt hole, and nut pocket in a bed post</desc>
+  <rect width="100%" height="100%" fill="#F7F3E8"/>
+  <text x="32" y="44" fill="#1A1A1A" font-family="Georgia, serif" font-size="20" font-weight="600">Bed bolt through rail and post</text>
+  <rect x="24" y="64" width="592" height="332" fill="none" stroke="#D4C9B0" stroke-width="1"/>
+
+  <rect x="220" y="220" width="40" height="120" fill="none" stroke="#1A1A1A" stroke-width="2"/>
+  <rect x="260" y="260" width="200" height="25" fill="none" stroke="#1A1A1A" stroke-width="2"/>
+  <line x1="280" y1="272" x2="420" y2="272" stroke="#6B4423" stroke-width="3"/>
+  <circle cx="235" cy="280" r="10" fill="none" stroke="#8B4513" stroke-width="2"/>
+</svg>

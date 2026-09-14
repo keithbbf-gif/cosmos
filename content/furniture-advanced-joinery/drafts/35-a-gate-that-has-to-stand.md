@@ -7,6 +7,12 @@ word_count: 1343
 dek: "A gate-leg is a frame that swings to hold a leaf and then has to stand like a table, not like a door. The hinge is easy. The rack is the joint."
 series: furniture-advanced-joinery
 topic: knockdown
+graphics:
+  - id: fig-sch-01
+    path: assets/a-gate-that-has-to-stand/joinery-diagram.svg
+    alt: "Hinged gate under a leaf with latch geometry"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — gate-leg table, gate open, leaf up (filename pending shop pull)"
@@ -30,7 +36,21 @@ verify:
 
 The leaf was up and the gate was out, and I could rock the table with a finger at the corner of the leaf. The gate was a pretty little frame — mortised, even — and it was hinged like a cabinet door. A door is allowed to be a parallelogram if the catch holds it. A table is not. The leaf had become a ramp. Dinner on a ramp is a story people tell without kindness.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — gate-leg table, gate open, leaf up (filename pending shop pull) -->
+<figure class="faj-figure">
+  <img src="../assets/a-gate-that-has-to-stand/joinery-diagram.svg" alt="Hinged gate under a leaf with latch geometry" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Gate-leg table support. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-museum">
+  <img src="../assets/museum/met-gateleg-dt235356.jpg" alt="American gate-leg table, Metropolitan Museum of Art" width="1280" height="1024" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 2.</strong> A gate-leg table with the gate open — the load path this essay names. (<a href="https://commons.wikimedia.org/wiki/File%3AGate-leg_table_MET_DT235356.jpg">Wikimedia Commons</a> — CC0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The gate is a leg frame. If it racks, the leaf becomes a ramp." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> The gate is a leg frame. If it racks, the leaf becomes a ramp. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — gate-leg table, gate open, leaf up (filename pending shop pull)</figcaption>
+</figure>
+
 
 A gate-leg is knockdown in spirit: the table halves its footprint. The joint is the gate’s *frame* and the way that frame locks when it is a table.
 
@@ -40,7 +60,11 @@ Two legs, two rails, real tenons, a stretcher if you have the room. I drawbore o
 
 The hinge: a pair of hinges on a center that is plumb. If the axis leans, the gate rises or drops as it swings and then the leaf is not at the plane of the top. I hang the gate after the main frame is true. I do not hang it from a frame that is already in wind.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — gate hinge and latch, underside (filename pending shop pull) -->
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The hinge wants to be a door hinge. The latch is what makes it a table." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 4 (pending).</strong> The hinge wants to be a door hinge. The latch is what makes it a table. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — gate hinge and latch, underside (filename pending shop pull)</figcaption>
+</figure>
+
 
 ## The latch is the second joint
 

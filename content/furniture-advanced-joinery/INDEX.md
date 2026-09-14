@@ -6,7 +6,7 @@
 
 Folder: `content/furniture-advanced-joinery/`. This pack sits **beyond** `content/furniture-craft-blog/` — no retelling of square mortise-and-tenon, basic pins, hide-glue intro, or breadboard slots. Soft brand home is the same: a 65×15 shop in rural South Arkansas — Warren, Wilmar, Bradley County — usable later by Bradley Brand Furniture / Saline River Workshop. Optional footnotes only: [heritage](https://bradleybrandfurniture.com/heritage), [craft](https://bradleybrandfurniture.com/craft).
 
-Read `STYLE_GUIDE.md` before editing. **Photos (staged):** `figures` in each draft, `PHOTO_CAPTIONS.md`, `PHOTO_MANIFEST.md` → `D:\BBF`. WordPress: `WP_IMPORT.md` (draft-only). Slug list + counts: `MANIFEST.md`.
+Read `STYLE_GUIDE.md` before editing. **Graphics:** `GRAPHICS_INDEX.md` (44 CC0 schematics + museum plates), `RIGHTS.md`, `SEO_MAP.md`. **Photos (staged):** `figures` in each draft, `PHOTO_CAPTIONS.md`, `PHOTO_MANIFEST.md`, `PHOTO_NOTES.md` → `D:\BBF`. WordPress: `WP_IMPORT.md` (draft-only). Slug list + counts: `MANIFEST.md`.
 
 
 ## Compound dovetails

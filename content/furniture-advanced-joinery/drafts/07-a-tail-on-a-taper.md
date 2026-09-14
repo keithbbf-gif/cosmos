@@ -7,6 +7,12 @@ word_count: 1739
 dek: "A sliding dovetail into a tapered post, or a pin into a splayed leg, is a joint that changes its mind along its own length. The saw has to know which end is the fat one."
 series: furniture-advanced-joinery
 topic: compound-dovetails
+graphics:
+  - id: fig-sch-01
+    path: assets/a-tail-on-a-taper/joinery-diagram.svg
+    alt: "Socket that follows taper so the tail does not split the show face"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — tapered post with sliding dovetail socket or splayed-leg pin (filename pending shop pull)"
@@ -30,7 +36,21 @@ verify:
 
 The post was thinner at the top. I knew that; I had cut the taper. I still laid out the sliding-dovetail socket as if the post were a box side of one thickness. The bit came through the show face at the top, a dark smile in a place a customer would polish with a sleeve. I plugged it. I still know where it is. A taper is not a decoration you add after the joinery. A taper is a thickness map, and the joint has to read the map.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — tapered post with sliding dovetail socket or splayed-leg pin (filename pending shop pull) -->
+<figure class="faj-figure">
+  <img src="../assets/a-tail-on-a-taper/joinery-diagram.svg" alt="Socket that follows taper so the tail does not split the show face" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Sliding dovetail on a tapered post. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-museum">
+  <img src="../assets/museum/eb1911-joints-plate.jpg" alt="Historical woodworking joints reference plate" width="169" height="659" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 2.</strong> Tapered posts change socket depth; reference plates help you explain the joint to a client without a slogan. (<a href="https://commons.wikimedia.org/wiki/File%3AEB1911_Joinery_-_Fig._12.%E2%80%94Joints.jpg">Wikimedia Commons</a> — Public domain).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The post gets thinner as it rises. The socket that ignores that is a socket that splits the show face." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> The post gets thinner as it rises. The socket that ignores that is a socket that splits the show face. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — tapered post with sliding dovetail socket or splayed-leg pin (filename pending shop pull)</figcaption>
+</figure>
+
 
 Two cousins live here. A **sliding dovetail** that hangs a rail or a shelf in a tapered post — a hall table, a pedestal cousin, a trestle upright that gets prettier as it rises. And a **dovetailed pin** (or a tapered through-tenon that you are calling a tail) into a **splayed** leg, where the angle is in plan as well as in the thickness. I will stay mostly with the first and touch the second. They share a rule: the fat end of the wood is the only end that can afford a deep socket.
 
@@ -40,7 +60,11 @@ Mark the finished taper on the post. Then mark the socket location. Then measure
 
 A through sliding dovetail on a taper is a show-off and a risk. I stop the socket. I stop it at the show edge if the rail comes from the back, the same as a square case, and I also stop it before I run out of thickness. Two stops. Write them on the post.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — layout on tapered post, gauge riding the taper (filename pending shop pull) -->
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Ride the face you mean. A gauge that assumes a parallel post will walk you into a split." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 4 (pending).</strong> Ride the face you mean. A gauge that assumes a parallel post will walk you into a split. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — layout on tapered post, gauge riding the taper (filename pending shop pull)</figcaption>
+</figure>
+
 
 ## The gauge walks
 

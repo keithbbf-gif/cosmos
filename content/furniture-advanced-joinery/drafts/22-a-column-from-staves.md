@@ -7,6 +7,12 @@ word_count: 1469
 dek: "A staved cylinder is a coopered door stood on end and asked to be a post. The joints are long-grain; the load is compression; the top still needs a block that is not a wish."
 series: furniture-advanced-joinery
 topic: curved-work
+graphics:
+  - id: fig-sch-01
+    path: assets/a-column-from-staves/joinery-diagram.svg
+    alt: "Beveled staves closing a hollow column with top block"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — staved cylinder dry-fit, inside hollow (filename pending shop pull)"
@@ -30,7 +36,21 @@ verify:
 
 The cylinder stood on the bench, a hollow oak drum, eight staves, the inside still showing clamp marks. It looked like a post. It was a post only if I gave it a way to carry a top. A ring of long-grain glue joints is strong in compression if the load is even. A tabletop is not an even load. Someone will sit on a corner. The drum will then try to become an oval, and an oval stave joint is a split.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — staved cylinder dry-fit, inside hollow (filename pending shop pull) -->
+<figure class="faj-figure">
+  <img src="../assets/a-column-from-staves/joinery-diagram.svg" alt="Beveled staves closing a hollow column with top block" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Staved column cylinder. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-museum">
+  <img src="../assets/museum/eb1911-joints-plate.jpg" alt="1911 woodworking joints plate" width="169" height="659" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 2.</strong> Staved columns are segmented cylinders; joint plates keep the vocabulary honest. (<a href="https://commons.wikimedia.org/wiki/File%3AEB1911_Joinery_-_Fig._12.%E2%80%94Joints.jpg">Wikimedia Commons</a> — Public domain).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="A hollow post. The staves take the ring. Something else has to take the table." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> A hollow post. The staves take the ring. Something else has to take the table. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — staved cylinder dry-fit, inside hollow (filename pending shop pull)</figcaption>
+</figure>
+
 
 A coopered door hangs. A coopered column stands. Same bevels, same form, different politics. I will not repeat the stave-plane lecture. I will talk about the block.
 
@@ -40,7 +60,11 @@ I treat a staved column as a sleeve around a structure: a solid core, a steel tu
 
 A hollow drum glued to a top with screws into stave end grain is a wobble. End grain of a stave is also a glue line’s end. I will not screw a top to that and call it furniture.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — staved column with top block or iron plate (filename pending shop pull) -->
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The block is the joint. The cylinder is the dress." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 4 (pending).</strong> The block is the joint. The cylinder is the dress. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — staved column with top block or iron plate (filename pending shop pull)</figcaption>
+</figure>
+
 
 **Top block.** A round or polygonal block, grain chosen so it can take screws or a tenon, let into the drum or sitting on a rabbet I cut after the drum closed. The block can be brick-laid if it is wide. It can be solid if it is not a propeller.
 

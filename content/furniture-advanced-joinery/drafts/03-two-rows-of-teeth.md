@@ -7,6 +7,12 @@ word_count: 1372
 dek: "A houndstooth dovetail is not decoration first. It is a second row of pins in the same corner, and the only reason to cut it is that the corner has the thickness and the load to use them."
 series: furniture-advanced-joinery
 topic: compound-dovetails
+graphics:
+  - id: fig-sch-01
+    path: assets/two-rows-of-teeth/joinery-diagram.svg
+    alt: "Inner and outer pin rows in one thick carcase corner"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — houndstooth or double dovetail layout on thick carcase corner (filename pending shop pull)"
@@ -30,7 +36,21 @@ verify:
 
 I marked two baselines on the same end. That is the whole trick, and it is also the whole way to ruin a thick corner. The outer line was the usual tail length. The inner line was a second, shorter set of pins sitting in the meat you usually leave as a single socket. Houndstooth. Double dovetail. The names wander. The work does not: you are cutting two rows of teeth in one corner because the stock is thick enough to hold them and the load is rude enough to ask.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — houndstooth or double dovetail layout on thick carcase corner (filename pending shop pull) -->
+<figure class="faj-figure">
+  <img src="../assets/two-rows-of-teeth/joinery-diagram.svg" alt="Inner and outer pin rows in one thick carcase corner" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Houndstooth dovetail corner. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-museum">
+  <img src="../assets/museum/eb1911-dovetails.jpg" alt="1911 dovetail types plate showing multiple pin rows" width="507" height="213" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 2.</strong> Houndstooth is a second row in the same corner; the 1911 plate reminds you both rows need thickness. (<a href="https://commons.wikimedia.org/wiki/File%3AEB1911_Joinery_-_Fig._3.%E2%80%94Dovetails.jpg">Wikimedia Commons</a> — Public domain).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Two baselines. If you only have one thickness, you only have one row. Do not fake the second." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> Two baselines. If you only have one thickness, you only have one row. Do not fake the second. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — houndstooth or double dovetail layout on thick carcase corner (filename pending shop pull)</figcaption>
+</figure>
+
 
 This is not a blanket-chest through-dovetail with extra pins for prettiness. Extra pins on a 3/4-inch board are just more sawing. Houndstooth wants 4/4 and change, or a laminated corner, or a tool-chest wall that is really a small beam. If you cut it in thin stock you have made lace. Lace does not carry a chest full of iron.
 
@@ -46,7 +66,11 @@ I draw the outer tails first, the way I would on any chest. Then I mark the inne
 
 The inner baseline is shorter. If you make it the same length as the outer, you have cut through-dovetails twice and you have no wall left at the inside arris. Leave meat. The inside of a chest still gets a finger.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — houndstooth dry-fit, inner and outer pins showing (filename pending shop pull) -->
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The inner row is the one that actually surprises people. It also the one that blows if the chisel wanders." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 4 (pending).</strong> The inner row is the one that actually surprises people. It also the one that blows if the chisel wanders. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — houndstooth dry-fit, inner and outer pins showing (filename pending shop pull)</figcaption>
+</figure>
+
 
 Transfer carefully. A mistake on the inner row is a hole in a pin you cannot hide. I use a knife, not a pencil, on the inner work. Pencil is a blur at that scale.
 

@@ -7,6 +7,12 @@ word_count: 1638
 dek: "A brick-laid pedestal is a stack you carve into a vase or a column. The joinery is the stack and whatever iron you hid to keep the vase from becoming a kebab."
 series: furniture-advanced-joinery
 topic: curved-work
+graphics:
+  - id: fig-sch-01
+    path: assets/bricks-then-a-gouge/joinery-diagram.svg
+    alt: "Segmented pedestal blank before gouge and hidden bolt"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — brick-laid pedestal blank on the bench, gouge work started (filename pending shop pull)"
@@ -30,7 +36,21 @@ verify:
 
 I had an octagon the size of a small ham, glued from bricks, sitting in the vise. The gouge took the first facet off and the stack showed itself: short grain, long grain, a glue line like a river. That is the moment you either keep going or you admit you should have turned a solid. I kept going. A dining pedestal in a radius that a solid would have checked is why bricks exist. The gouge is how they become furniture instead of a model of a chimney.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — brick-laid pedestal blank on the bench, gouge work started (filename pending shop pull) -->
+<figure class="faj-figure">
+  <img src="../assets/bricks-then-a-gouge/joinery-diagram.svg" alt="Segmented pedestal blank before gouge and hidden bolt" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Brick-laid pedestal to block. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-museum">
+  <img src="../assets/museum/eb1911-joints-plate.jpg" alt="1911 wood joints reference plate" width="169" height="659" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 2.</strong> Segmented pedestals sit between brick-laid curves and carved show surfaces. (<a href="https://commons.wikimedia.org/wiki/File%3AEB1911_Joinery_-_Fig._12.%E2%80%94Joints.jpg">Wikimedia Commons</a> — Public domain).</figcaption>
+</figure>
+
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The octagon is a lie you tell the gouge. Under it, bricks." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> The octagon is a lie you tell the gouge. Under it, bricks. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — brick-laid pedestal blank on the bench, gouge work started (filename pending shop pull)</figcaption>
+</figure>
+
 
 The corner essay in this pack was about meeting a straight case. This one is the pedestal itself: a curved upright, carved or turned, that has to carry a top and sit on a foot without becoming a kebab of loose voussoirs.
 
@@ -48,7 +68,11 @@ A lathe will turn a brick stack if the stack is sound and the speed is not a dar
 
 Stop before you cut into the joint you need at the top and the bottom. Leave a tenon, or leave a flat for a plate, or leave a hole for a rod. The pretty waist is not the joint.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — pedestal to block connection, hidden bolt or tenon (filename pending shop pull) -->
+<figure class="faj-figure faj-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The pretty waist is not the joint. The joint is the iron or the tenon into the block." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 4 (pending).</strong> The pretty waist is not the joint. The joint is the iron or the tenon into the block. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — pedestal to block connection, hidden bolt or tenon (filename pending shop pull)</figcaption>
+</figure>
+
 
 ## How it meets the top and the foot
 

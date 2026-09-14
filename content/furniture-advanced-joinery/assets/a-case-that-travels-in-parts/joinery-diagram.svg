@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-labelledby="title desc">
+  <title id="title">Sliding-dovetail case sides</title>
+  <desc id="desc">Tails on shelves engaging sockets in sides for travel knockdown</desc>
+  <rect width="100%" height="100%" fill="#F7F3E8"/>
+  <text x="32" y="44" fill="#1A1A1A" font-family="Georgia, serif" font-size="20" font-weight="600">Sliding-dovetail case sides</text>
+  <rect x="24" y="64" width="592" height="332" fill="none" stroke="#D4C9B0" stroke-width="1"/>
+
+  <rect x="220" y="200" width="30" height="140" fill="none" stroke="#1A1A1A" stroke-width="2"/>
+  <rect x="390" y="200" width="30" height="140" fill="none" stroke="#1A1A1A" stroke-width="2"/>
+  <polygon points="250,240 370,240 360,260 260,260" fill="none" stroke="#8B4513" stroke-width="2"/>
+</svg>
