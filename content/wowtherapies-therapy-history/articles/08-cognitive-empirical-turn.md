@@ -73,6 +73,10 @@ WOW Therapies does not, in these pages, sell a protocol. If a later service page
 
 The figure essays on Beck and Ellis stay with the men. Linehan's essay shows what happened when a behaviorist who had been a suicidal patient wrote a manual the trial could see. The story is not "science arrived." The story is: a certain kind of science arrived, and the rest of the field had to answer it.
 
+The National Institute of Mental Health's depression trials of the 1980s, including the Treatment of Depression Collaborative Research Program, put interpersonal therapy (Klerman and Weissman) on the same graph as CBT and medication. A third school on a federal graph is a political fact. It is also a reminder that "the empirical turn" was never only Beck's.
+
+Managed care in the 1990s did not invent the thought record. It recognized a cousin it could authorize in six sessions. University clinics that had spent the 1970s arguing about manuals spent the 1990s arguing about how many sessions a depression trial needed. Rural counties arrived to that argument late, with comorbidity and a two-hour drive. A history that treats the Penn manuals as the whole country has repeated the slide deck's error.
+
 ## Sources
 
 Beck 1967, 1976, 1979; Ellis 1957, 1962; Decker 2013; APA DSM-III (1980). For the wider "empirically supported treatments" lists of the 1990s, see the Society of Clinical Psychology (APA Division 12) documents of that decade — as history, not as a shopping list.

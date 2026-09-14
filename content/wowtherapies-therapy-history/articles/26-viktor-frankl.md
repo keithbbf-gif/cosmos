@@ -48,7 +48,13 @@ He practiced as a neurologist as well as a psychiatrist. The medical identity ma
 
 Because clients already arrive with his paperback. Because existential therapy (May, Yalom) is unintelligible without the European conversation he was part of. Because a counseling site that talks about "purpose" without history will sound like a coaching brand.
 
-No camp photographs as decoration. No generated face. Type is the portrait.
+The Vienna Polyclinic neurology job kept him a physician while the later English title made him a paperback saint. He had not asked for the sainthood.
+
+He directed the Vienna Polyclinic's neurological department after the war and kept a medical identity while the paperback traveled. American pastoral counseling borrowed him because purpose could be spoken in a pulpit and a clinic with the same vocabulary. Empirical psychology mostly nodded and went back to trials.
+
+He lectured in the United States often enough that a generation of pastoral counselors met him as a live voice, not only as a paperback. The International Society for Logotherapy and Existential Analysis and various institute letterheads kept a school. Schools that outlive a bestseller have to decide whether the paperback is the method. It is not. The 1930s papers and the medical identity are the method's spine. The 1946 testimony is a document that must not be used to grade the dead.
+
+This pack will not reprint paradoxical intention or dereflection as something a reader should try. Those names belong in a trained clinic if they belong anywhere. The historical claim is enough: a Viennese physician put purpose in the hour before the camps, and after them he refused to let the camps become the only seminar. No camp photographs as decoration. Type is the only honest portrait.
 
 ## Sources
 

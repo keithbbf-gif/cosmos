@@ -48,9 +48,15 @@ You also do not tell a client that their panic is only imperialism. Martín-Bar�
 
 The surviving writings are essays and talks, not a systematic textbook. That fragmentariness is part of the murder: a project stopped. Later liberation psychologists (including North American readers who met him only in 1994) have had to build programs he did not get to finish. Building is not the same as quoting. Quoting is the cheaper act.
 
-No photographs of the murders as featured images. Type only. The UCA and Jesuit archives are not a stock library.
+## Portrait
+
+No photographs of the murders as featured images. Type only. The UCA and Jesuit archives are not a stock library. He was born in Valladolid in 1942, took vows, and made San Salvador the workplace. The UCA murders included Elba Ramos and Celina Ramos. A history that mourns only the professors has learned nothing from the work. English clinicians met the essays after the fact, in Aron and Corne's 1994 collection. The collection is a rescue, not a completion. He had trained in Europe and at the University of Chicago, a fact North American readers like because it makes him "ours." The surveys were Salvadoran questions. The death was a Salvadoran military act. The 1994 English book is a later hospitality, not a second life he got to edit.
 
 If a North American clinic names him in a staff bio, the test is whether any research question in that clinic has changed. If the name is only décor, take it down. The UCA murders were meant to end questions. Using the name as décor agrees with the soldiers.
+
+IUOP — the university opinion institute — published numbers the army did not want in the newspaper. Fear, legitimacy, the war's meaning among ordinary Salvadorans: those were research questions that could get a campus killed. Ellacuría's UCA had already chosen a side the state called subversive. Psychology, in Martín-Baró's hands, was either part of that choice or décor. The 16 November murders were meant to end the questions. Later readers who meet him only in the 1994 English collection are meeting a project stopped in mid-sentence.
+
+A North American counselor can take one empirical habit without theft: ask whose question your intake form is answering. Then do the assessment anyway. He wanted better questions, not slogans that skip a risk.
 
 ## Sources
 

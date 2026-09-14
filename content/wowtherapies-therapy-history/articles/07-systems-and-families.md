@@ -64,6 +64,12 @@ Do not use systems language to tell a woman she caused her child's psychosis. Do
 
 Satir liked to say that the problem was not the problem; coping was. Like most aphorisms, it is true until it is not. A violent home is the problem. A hungry home is the problem. Theory is for the hour after those facts are named.
 
+Whitaker could empty a chair or fill it. The hour either woke or wandered.
+
+Carl Whitaker's experiential family work — unpredictable, sometimes theatrical — sat near Satir and far from MRI's cooler paradox. Trainees either found a living hour or found a license to be chaotic. History's job is to keep those outcomes from being confused.
+
+Murray Bowen's Georgetown decades produced the diagrams that still cover whiteboards: triangles, cutoff, differentiation of self. The 1978 *Family Therapy in Clinical Practice* collected papers that had already been circulating among trainees. Bowen's own family-of-origin research included a famous, uneasy return to his family of origin — a move later teachers either mythologized or warned against. This pack will not assign that move. It will say: a theory of anxiety moving through generations can help a clinician see a room. It can also become a family curse drawn in marker. Use the diagram as a hypothesis. Date it. Be willing to erase it.
+
 ## Sources
 
 Satir 1964, 1972; Minuchin 1967, 1974; Bateson et al. 1956; de Shazer 1985; White and Epston 1990. On MRI's opening years, Jackson's 1958–59 institutional papers and later MRI histories. On the afterlife of the double bind, see later statements by the Palo Alto group and the critiques in the schizophrenia family-research literature. For Milan, Selvini Palazzoli and colleagues' 1970s papers as history, not as a script.

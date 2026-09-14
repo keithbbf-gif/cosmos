@@ -34,14 +34,17 @@ Last pass: 2026-09-14.
 - Freud, Sigmund, and Josef Breuer. *Studien über Hysterie*. Leipzig: Deuticke, 1895.
 - Freud, Sigmund. *Die Traumdeutung*. Leipzig: Deuticke, 1900.
 - Freud, Sigmund. *Zur Geschichte der psychoanalytischen Bewegung*. 1914.
+- Freud, Sigmund. *Die Frage der Laienanalyse*. 1926. (*The Question of Lay Analysis*.)
 - Janet, Pierre. *L'Automatisme psychologique*. Paris: Alcan, 1889.
 - Shamdasani, Sonu. *Jung and the Making of Modern Psychology: The Dream of a Science*. Cambridge: Cambridge University Press, 2003.
 - Spielrein, Sabina. "Die Destruktion als Ursache des Werdens." *Jahrbuch für psychoanalytische und psychopathologische Forschungen* 4 (1912): 465–503. Read her as a theorist, not as a subplot.
 - Jung, C. G. *Wandlungen und Symbole der Libido*. 1912. Later *Symbols of Transformation*.
 - Adler, Alfred. *Über den nervösen Charakter*. Wiesbaden: Bergmann, 1912. (*The Neurotic Constitution*.)
 - Adler, Alfred. *Menschenkenntnis*. 1927. (*Understanding Human Nature*.)
+- Adler, Alfred. *What Life Should Mean to You*. Boston: Little, Brown, 1931.
 - Freud, Anna. *The Ego and the Mechanisms of Defence*. London: Hogarth, 1936 (German 1936).
 - Klein, Melanie. *The Psycho-Analysis of Children*. London: Hogarth, 1932.
+- Klein, Melanie. *Envy and Gratitude*. London: Tavistock, 1957.
 - King, Pearl, and Riccardo Steiner, eds. *The Freud–Klein Controversies 1941–45*. London: Routledge, 1991.
 - Horney, Karen. *The Neurotic Personality of Our Time*. New York: Norton, 1937.
 - Horney, Karen. *New Ways in Psychoanalysis*. New York: Norton, 1939.
@@ -49,6 +52,8 @@ Last pass: 2026-09-14.
 - Ferenczi, Sándor. "Confusion of Tongues Between Adults and the Child." (1932 lecture; English 1949, *International Journal of Psycho-Analysis*.)
 - Winnicott, D. W. "Transitional Objects and Transitional Phenomena." *International Journal of Psycho-Analysis* 34 (1953): 89–97.
 - Winnicott, D. W. *The Maturational Processes and the Facilitating Environment*. London: Hogarth, 1965.
+- Winnicott, D. W. *Playing and Reality*. London: Tavistock, 1971.
+- Winnicott, D. W. "Hate in the Counter-Transference." *International Journal of Psycho-Analysis* 30 (1949): 69–74.
 - Gay, Peter. *Freud: A Life for Our Time*. New York: Norton, 1988. Use as biography, not as the last word on theory.
 - Roazen, Paul. *Freud and His Followers*. New York: Knopf, 1975.
 - Indian Psychoanalytical Society. *Bose–Freud Correspondence*. Calcutta: IPS, 1964; reprinted as *The Beginnings of Psychoanalysis in India*, 1999. Letters dated May 1921–October 1937.
@@ -68,6 +73,7 @@ Last pass: 2026-09-14.
 - Skinner, B. F. *Science and Human Behavior*. New York: Macmillan, 1953.
 - Ellis, Albert. "Rational Psychotherapy and Individual Psychology." *Journal of Individual Psychology* 13 (1957): 38–44. (REBT practiced from 1955.)
 - Ellis, Albert. *Reason and Emotion in Psychotherapy*. New York: Lyle Stuart, 1962.
+- Ellis, Albert, and Robert A. Harper. *A Guide to Rational Living*. Englewood Cliffs, NJ: Prentice-Hall, 1961.
 - Beck, Aaron T. *Depression: Clinical, Experimental, and Theoretical Aspects*. New York: Hoeber, 1967. Later *Depression: Causes and Treatment*.
 - Beck, Aaron T. *Cognitive Therapy and the Emotional Disorders*. New York: International Universities Press, 1976.
 - Beck, Aaron T., A. John Rush, Brian F. Shaw, and Gary Emery. *Cognitive Therapy of Depression*. New York: Guilford, 1979.
@@ -90,11 +96,13 @@ Last pass: 2026-09-14.
 - Yalom, Irvin D. *Existential Psychotherapy*. New York: Basic Books, 1980.
 - May, Rollo. *The Meaning of Anxiety*. New York: Ronald Press, 1950.
 - May, Rollo, Ernest Angel, and Henri F. Ellenberger, eds. *Existence*. New York: Basic Books, 1958.
+- Bugental, James F. T. *The Search for Authenticity*. New York: Holt, Rinehart and Winston, 1965.
 
 ## Attachment, development
 
 - Bowlby, John. "Forty-Four Juvenile Thieves: Their Characters and Home-Life." *International Journal of Psycho-Analysis* 25 (1944): 19–53, 107–128.
 - Bowlby, John. *Maternal Care and Mental Health*. Geneva: WHO, 1951.
+- Bowlby, John. "The Nature of the Child's Tie to His Mother." *International Journal of Psycho-Analysis* 39 (1958): 350–373.
 - Bowlby, John. *Attachment and Loss*. 3 vols. London: Hogarth, 1969, 1973, 1980.
 - van Dijken, Suzan. *John Bowlby: His Early Life*. London: Free Association, 1998.
 - Ainsworth, Mary D. S. *Infancy in Uganda: Infant Care and the Growth of Love*. Baltimore: Johns Hopkins Press, 1967.
@@ -105,6 +113,8 @@ Last pass: 2026-09-14.
 
 - Satir, Virginia. *Conjoint Family Therapy*. Palo Alto: Science and Behavior Books, 1964.
 - Satir, Virginia. *Peoplemaking*. Palo Alto: Science and Behavior Books, 1972.
+- Bowen, Murray. *Family Therapy in Clinical Practice*. New York: Aronson, 1978.
+- Minuchin, Salvador, and Michael P. Nichols. *Family Healing*. New York: Free Press, 1993.
 - Minuchin, Salvador, et al. *Families of the Slums*. New York: Basic Books, 1967.
 - Minuchin, Salvador. *Families and Family Therapy*. Cambridge, MA: Harvard University Press, 1974.
 - Bateson, Gregory, Don D. Jackson, Jay Haley, and John Weakland. "Toward a Theory of Schizophrenia." *Behavioral Science* 1, no. 4 (1956): 251–264. (Historical; do not revive the double-bind as family blame.)

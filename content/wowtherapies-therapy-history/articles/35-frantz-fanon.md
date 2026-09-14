@@ -51,9 +51,15 @@ He treated, among others, torturers and the tortured. That fact should make a re
 
 Macey's biography is long because the life was short and crowded: Martinique, France, Algeria, Tunis, a death in an American hospital. A counseling essay that uses only *Wretched* as a quote farm has not met the psychiatrist. Meet the psychiatrist first.
 
+Blida-Joinville was a large colonial hospital. Institutional psychotherapy, in the Tosquelles line, wanted the institution itself treated as a sick organism. Fanon tried forms of that unmaking — social therapy, a refusal of the racist instrument — then left because a war had made the building an annex of the occupation. The resignation letter is part of the clinical file. So is the later work in Tunis, still as a physician, still writing.
+
+*A Dying Colonialism* (1959) still thinks like a hospital doctor: the radio, the medicine, a technique that changes sides in a war. Readers who only know the last chapter of *Wretched* miss that clinician. The Blida-Joinville resignation is the hinge between those two books: a colonial medicine that served the occupation could not be patched with occupational therapy, and he said so by leaving the post.
+
+A counseling site in a peaceful county does not become Fanon by quotation. The honest use is smaller: notice when your "universal" subject was already a racial position, and when a jail has become the local ward. Do not use him to romanticize a client's rage or to pathologize a politics. He treated torturers and the tortured. That fact should slow a reader down.
+
 ## Portrait
 
-Photographs circulate with unclear authors. Status `confirm` in `PORTRAIT_SOURCES.md`. Type is safer. No war images as a headshot.
+Photographs circulate with unclear authors. Status `confirm` in `PORTRAIT_SOURCES.md`. Type is safer. No war images as a headshot, and no generated likeness of a thirty-six-year-old psychiatrist.
 
 ## Sources
 

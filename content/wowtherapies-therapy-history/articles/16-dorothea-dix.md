@@ -55,6 +55,10 @@ Most clients will never sleep in a state hospital. The system that decides who d
 
 She is not a psychotherapist. She belongs in this pack because the talking cure grew up in the shadow of the institutions she built and the institutions she emptied of their worst excuses.
 
+## Trenton, and a reformer who moved in
+
+The New Jersey State Lunatic Asylum at Trenton (opened 1848) is one hospital she could point to as a building that existed because she had walked and written. She later lived there in old age, a reformer housed by her own monument. The fact is almost too neat for a magazine. It is also a warning: the building that rescues you can become the building that holds you. She died in 1887, still sure the next hospital could keep its promise if the legislature would only listen.
+
 ## Portrait
 
 Samuel B. Waugh, 1868, National Portrait Gallery, CC0. Credit that line. Do not substitute a generated "Victorian reformer."

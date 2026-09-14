@@ -52,6 +52,16 @@ No list of modules. No acronym homework. No "try opposite action tonight." Those
 
 Linehan's place in this pack is historical: she is the hinge of the third-wave essay, the person who made a despised diagnosis into a researchable treatment, and a reminder that "evidence-based" can come from someone the old wards had given up on.
 
+## A workforce, and the word "informed"
+
+Behavioral Tech and later training companies made DBT a workforce. Workforces drift. "DBT-informed" on a clinic website often means a skills group without a consultation team. She has been clear, in public talks, that the team is not optional décor. This series will not list the modules those companies sell. It will say: a 1991 trial and a 1993 book named a staffing pattern for work that is too hot for a lone hero. Hospitals that buy the brand and cut the team have bought a word.
+
+A consultation team that watches the therapists is the least glamorous part of the 1993 design, and the one administrators most often cut.
+
+Biosocial theory remains a hypothesis about temperament meeting an invalidating environment. Used badly, it revives mother-blame with new adjectives. Used well, it keeps a clinician from treating chronic suicidality as a problem of will. This page will not turn the hypothesis into a family verdict.
+
+She is living as of last verification. No health speculation. No origin-story cartoon that makes the 2011 interview a destiny. The inheritance is a stance — accept and insist — and a reminder that "evidence-based" can come from someone the old wards had already filed under impossible.
+
 ## Portrait
 
 Living. Type only. No workshop photos, no generated likeness.

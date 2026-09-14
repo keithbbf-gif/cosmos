@@ -53,6 +53,14 @@ Because testing, child development, and a neighborhood clinic *are* clinical her
 
 She was a clinician-administrator, not a founder of a psychotherapy school. The pack includes her for the same reason it includes Dix and Beers: the room in which counseling happens was built by people who changed law, hospitals, and the definition of whose child counts.
 
+Harlem Youth Opportunities Unlimited (1962) is the civic cousin of Northside: a refusal to treat a Black child's trouble as a private defect. Markowitz and Rosner stay the book-length history of the center. Kenneth became the name white institutions could invite. She stayed with the clinic until 1980. That division of labor is a fact, not a law. This essay's job is to refuse the law.
+
+Howard first, Columbia second, Harlem for the rest of the working life. The Supreme Court sentence is the famous one. Northside is the longer one.
+
+The 1939 paper grew from the Howard master's; the 1950 paper is the one *Brown*'s footnote 11 sits nearer. Methodological re-runs and critiques are real. They do not erase the historical event: a social-science citation in a constitutional case about children's schools. The doll photographs are not automatically free. Do not use them as thumbnails.
+
+A WOW Therapies reader in Southeast Arkansas does not need a myth about a visiting lecturer. The birthplace is Hot Springs. The doctorate is Columbia, 1943. The work is a neighborhood clinic and a footnote that changed a constitutional case. Testing, child development, and a waiting room that took Harlem children seriously *are* clinical heritage. Guthrie had to write a textbook so students would meet her. This pack names her so an Arkansas site cannot name Dix and skip Clark.
+
 ## Portrait
 
 No clean licensed photograph. Type only. Do not scrape APA or family photos. Do not generate a face.

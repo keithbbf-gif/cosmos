@@ -59,6 +59,8 @@ What did not usefully enter: a method you can download; a racial psychology; a s
 
 Jungians still train, still analyze, still argue. They are a minority current in American licensed counseling. They are a majority current in the gift shop. History's job is to keep those two facts from being confused.
 
+The 1925 seminar notes and the later English *Analytical Psychology* volumes are the teaching record. Küsnacht, the tower at Bollingen, the stone — tourists photograph those. A counseling site does not need the tower. It needs the Burghölzli years and the 1930s file, held in the same hand.
+
 ## Portrait
 
 Commons `File:CGJung.jpg` is tagged public domain with an unknown author — status `confirm` in `PORTRAIT_SOURCES.md`. Do not feature it until a person re-reads the file page. Type, or a 1912 title page, is safer. No generated "wise Swiss."

@@ -53,6 +53,16 @@ The WHO assignment came because postwar Europe was full of children who had been
 
 The Robertsons' hospital films and Bowlby's volumes belong on the same shelf. Policy changed because someone showed a child's face after a parent left the ward, not because a theory was elegant. Elegance came after, in three books, for readers who needed a science as well as a film.
 
+## What WHO asked for, and what the market sold
+
+The World Health Organization did not ask him for a parenting brand. It asked for a survey of children who had lost continuous care after a war. *Maternal Care and Mental Health* (1951) is that survey, uneven as science and loud as policy. The later trilogy is the repair: attachment as a primary system, grief as a sequence, a theory that could stand next to ethology without becoming a commandment against women's wages.
+
+Forty-four cases, a war behind them, a psychiatrist already unwilling to call the boys a character type.
+
+The 1944 paper on forty-four juvenile thieves is the ancestor of the 1951 monograph: a broken affectional bond as a better first hypothesis than a broken character. Institutes that wanted a drive story heard a social worker. He kept writing as if they were wrong.
+
+He died in 1990 on Skye. Popular "attachment parenting" and adult-style quizzes used his prestige. Neither is his book. A historically literate clinician can say so without sneering at a parent who wants to sleep in a hospital room. That nearness was the policy target. The quiz was someone else's product.
+
 ## Portrait
 
 No clean licensed photograph. Type only. Do not assume a WHO cover is free to reproduce.

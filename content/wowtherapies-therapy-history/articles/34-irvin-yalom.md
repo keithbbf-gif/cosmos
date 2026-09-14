@@ -52,6 +52,14 @@ Yalom's place here is the American hinge of the humanistic-existential essay: th
 
 Group factors and ultimate concerns are easy to memorize and hard to host. Hosting is the job, week after week, with people who did not come for a lecture. The books describe it. They do not replace the supervisor who watches you miss the quiet person in the circle, or the hour when death is not a chapter title but a phone call.
 
+Group therapy as a hospital solution — one psychiatrist, eight beds, a cheaper hour — is older than his textbook. What the 1970 book did was refuse to let cheapness be the whole theory. Named factors made a resident able to say why a silent member mattered. Later editions kept the book on the shelf while short-stay units made year-long process groups a memory. The gap between the book and the census is now part of the history.
+
+The story collections made him a public writer. The 1970 and 1980 textbooks made him a required one.
+
+*Love's Executioner* taught a public that psychiatrists have inner lives. Humanizing, and a boundary problem if a reader thinks the published case licenses a local clinician to write the same way. His prefaces wrestle with disguise. Wrestling is the ethical remainder.
+
+*The Gift of Therapy* (2002) is the late advice book. This series will not turn it into a listicle. Copyright sits on it. So does a boundary: a published case is not a license for a local clinician to write similarly without consent. Yalom's prefaces wrestle with disguise. Wrestling is the point.
+
 ## Portrait
 
 Living. Type only.

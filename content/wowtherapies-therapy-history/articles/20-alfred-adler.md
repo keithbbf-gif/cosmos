@@ -48,6 +48,14 @@ If Rogers is the American name for respect in the hour, Adler is an older Europe
 
 He died on 28 May 1937, in Aberdeen, during a British lecture tour. The date is a European fact: a Jewish physician already living between continents, a movement that would have to survive without its founder just as the continent closed. Individual-psychology societies in the United States and elsewhere kept the teaching. They did not keep Vienna's municipal clinics. A counseling history that treats Adler as a personality-quiz ancestor has skipped the closed clinics and the dead founder on a Scottish lecture platform.
 
+## Clinics that closed, a book that stayed
+
+Vienna's child-guidance clinics of the 1920s sat in a municipal socialist experiment that the later decade destroyed. Teachers in the room were not a gimmick. They were the point: a psychology that could not enter a school was, in Adler's judgment, a hobby. When those clinics closed, the teaching emigrated as lectures and as Dreikurs. American individual-psychology societies kept a journal and a training path smaller than the analytic institutes and louder in classrooms.
+
+He lectured constantly in the United States in the 1920s and 1930s. Individual psychology became a training path of its own, smaller than psychoanalysis, stubborn in classrooms. Ellis later read him. Family therapists who never cite him still ask what a symptom is doing in a room.
+
+*What Life Should Mean to You* (1931) is the popular English book people still find in used shops. It is earnest and of its time. The clinic remnant is not the title. It is the habit of asking what a symptom is *for* in a family, and whether encouragement can interrupt a style without humiliating the person who built it.
+
 ## Portrait
 
 Confirm any Commons photograph before featuring (`PORTRAIT_SOURCES.md`). The 1912 title page is a safer lead than an unconfirmed face.

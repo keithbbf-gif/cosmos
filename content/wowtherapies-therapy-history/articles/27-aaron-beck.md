@@ -53,6 +53,14 @@ A rural clinic that uses a thought record is in his building. A rural clinic tha
 
 Obituaries in 2021 reached for "grandfather of CBT." This style guide usually bans that kinship. In his case the nickname at least names a lineage that now includes people who have never read the 1967 depression book. Reading it is still the better honor.
 
+## An institute, and a death in 2021
+
+The Beck Institute for Cognitive Behavior Therapy, founded with Judith S. Beck, is the late institutional object: a training shop that outlived the founder and has to decide how much of his curiosity it can keep once the worksheets have a barcode. He kept publishing on anxiety, personality, and later schizophrenia with mixed reception. The depression wall still holds. The extensions are a founder who could not stop founding.
+
+Penn's psychiatry department was the long workplace. Yale and the Philadelphia analytic institutes were the training he left. The leaving is the origin: an analyst who grew tired of waiting for insight to lift a score he could write down.
+
+He died on 1 November 2021. Obituaries reached for kinship titles this style guide usually bans. The better honor is to read the 1967 book and to notice when a rural hour uses a thought record *instead of* a relationship. The 1957 Rogers paper and the 1979 manual were never a forced choice. A living hour may need both. A slide deck rarely says so.
+
 ## Portrait
 
 No clean licensed photograph. Type: "Aaron T. Beck, 1921–2021." Do not scrape Penn or Beck Institute images.

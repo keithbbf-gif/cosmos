@@ -62,6 +62,8 @@ That privacy made a new cruelty possible (the analyst who is never contradicted 
 
 This series will not teach hypnosis. It will not offer a script for "getting the story out." The historical fact is narrower and stranger: for a few decades, European medicine believed that a symptom could be talked into movement, and then the believers split over what the talk was moving.
 
+Charcot's photographers — Albert Londe at the Salpêtrière — made hysteria into a visual science. The plates taught later students what an attack "looked like." A body that has been photographed for a Tuesday lesson is not a free narrator. The talking cure's privacy was, among other things, a refusal of that camera. Counseling inherited the refusal and then, in the age of the training tape, invited a quieter camera back in. Rogers's recordings and Minuchin's mirror are descendants. They are not Charcot's amphitheater. They still need a consent that Tuesday did not ask.
+
 ## Sources
 
 Ellenberger 1970; Makari 2008; Breuer and Freud 1895; Janet 1889. On the 1784 Franklin/Lavoisier commission, see the published *Rapport des commissaires* and the discussion in Porter and Scull. Brouillet's 1887 painting is PD as a nineteenth-century work; it is a picture of a hierarchy, not a protocol.

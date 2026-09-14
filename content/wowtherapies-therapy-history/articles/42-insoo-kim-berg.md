@@ -50,9 +50,17 @@ School counselors and community agencies still use exception questions without n
 
 No SFBT worksheet on this page. If a clinic uses the model, that is a training and consent issue, not a blog download.
 
+The Solution-Focused Brief Therapy Association and later trainings carried questions into schools and child-protection offices that had never heard of Milwaukee. Coaching and corporate rooms then carried the vocabulary out of confidentiality. That second carrying is not her method. The historical object remains BFTC, 1978, a Korean-American social worker and a Midwestern clinic that asked what was already working.
+
+Born 25 July 1934 in Korea; died 10 January 2007 in Milwaukee, Wisconsin. The two dates bookend a migration the family-therapy canon still prefers to tell as a line of men.
+
+Ewha Womans University, a pharmacy degree, then American social work: a side door the profession did not design. Milwaukee Family Services and child-protection consults make more sense of solution-focused work than a seminar on epistemology. If the hour is short and the client may not return, noticing what already works is a moral form, not a cheer.
+
+She died on 10 January 2007. De Shazer had died in 2005. The school had to survive both. A history that lists only his titles is the old habit this last figure essay exists to interrupt. No miracle-question script on this page. If a clinic uses the model, that is training and consent, not a blog download.
+
 ## Portrait
 
-Died 2007. No clean licensed photograph in this pack. Type only. Do not scrape SFBTA workshop photos.
+Died 2007. No clean licensed photograph in this pack. Type only. Do not scrape SFBTA or Brief Family Therapy Center workshop photos.
 
 ## Sources
 

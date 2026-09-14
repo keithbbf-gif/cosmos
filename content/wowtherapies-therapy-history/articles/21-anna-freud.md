@@ -52,6 +52,14 @@ The 1938 flight from Vienna is not only a famous son's story. Anna Freud organiz
 
 Every school counselor who thinks about defense mechanisms, every child clinician who refuses to treat a seven-year-old as a miniature neurotic, every ethics code that would now forbid analyzing your own child — all of that touches her file. So does a certain conservatism: the ego must adapt. The 1960s would call that adaptation a problem. She had already buried her father and a continent.
 
+## Maresfield Gardens, and a journal of looking
+
+Maresfield Gardens became a house of papers and a clinic neighborhood. The Hampstead Child Therapy Course trained people who would take child analysis back to cities that had only read her father. *The Psychoanalytic Study of the Child*, which she helped to found in 1945, is a mid-century monument of case reports and developmental charts. Attachment research later said the looking had been too indoor. The looking still happened, in a war, with children who were not symbols.
+
+Dorothy Burlingham's name belongs on the nursery reports and on the household that made Hampstead possible. A history that is nosy about that household and thin about the clinic has the proportions wrong. The looking was shared work.
+
+She received honors late — a CBE, a reputation as the conservative pole — and kept writing about the ego as a working surface. A school counselor who says "that's a defense" without sneering is in her vocabulary. A child clinician who refuses to treat a seven-year-old as a miniature neurotic is in her argument with Klein. An ethics code that now forbids analyzing your own child is the correction her century needed and did not have.
+
 ## Portrait
 
 No clean licensed photograph (`PORTRAIT_SOURCES.md`). Type only. The Freud Museum's images are not free by default.

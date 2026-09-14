@@ -62,6 +62,14 @@ Every textbook chapter on trauma now includes a paragraph about how the field "f
 
 A counselor in a small American city meets all three lineages in one week and may have been trained in only one. History does not finish the training. It tells you why the chart you inherited is shaped like a soldier even when the person in the chair is not.
 
+Rivers treated officers whose muteness had no lesion a surgeon would sign.
+
+W. H. R. Rivers at Craiglockhart, and the literary afterlife of those war hospitals, belong next to Myers's 1915 paper. Poetry is not a diagnosis. It is how a later public remembered that a hospital had once treated speechlessness as an injury rather than as cowardice.
+
+Abram Kardiner's 1941 "physioneurosis" already knew the body stays on watch. After 1945 the diagnosis went quiet in civilian American psychiatry, then returned with new names. That forgetting is not a mystery of science. It is a mystery of who was allowed to be injured in public. Combat pensions required a word. Incest did not. Colonial torture, except where a hospital sat next to a war, waited longer than either. A chart that still leads with a combat vignette is that history, printed in a template.
+
+ISTSS (the society that took that name in the mid-1980s) and the *Journal of Traumatic Stress* made a field out of what had been a scatter of war papers and feminist clinics. Fields have conferences. They also have gatekeeping. Herman's complex trauma sat at that gate for decades before ICD-11 opened a door DSM had left shut.
+
 ## Sources
 
 Myers 1915; Janet 1889; Ferenczi 1932/1949; Kardiner 1941; Horowitz 1976; Herman 1981, 1992; Figley 1985; WHO ICD-11 on complex PTSD. DSM-III (1980) PTSD criteria as a historical object.

@@ -51,9 +51,17 @@ Do not use him to tell an anxious person to accept their way out of a medical em
 
 English readers can start with a dated introduction (Reynolds) and then go looking for Japanese clinical papers and for the 2024 socio-historical work cited above. The second trip is the one that keeps 1919 from becoming a mindfulness slogan.
 
+Shūzō Kure's generation had told Japanese students that psychotherapy was a medical problem, not a leftover of temples. Morita's house was one answer to that assignment. Later Morita wards in Japanese hospitals kept a residential form this page will not specify as homework. Outpatient and "modified" Morita therapies shortened the stay. English-language introductions in the 1970s, including Reynolds, sometimes folded him into constructive living. Historians of the Japanese clinic ask readers to keep 1919 and the later export distinct.
+
+Jikei University School of Medicine kept the teaching after the house closed as a home clinic. Japanese hospitals that still run Morita wards are living clinics, not museums of the 1919 experiment.
+
+Sugamo Hospital under Kure's generation, then a professor's house as a ward: meals as treatment, a garden as the place a person learns the next necessary thing while palpitations are still present. He had been a young man with a heavy head that internal medicine did not cure. That biographical fact is in the Japanese literature. It is not a reason to romanticize the method or to run it in a kitchen.
+
+He died in 1938. *Arugamama* — feelings may stay while a person does the next necessary thing — is the attitude later acceptance therapies would recognize without always citing Tokyo. Recognition is not a protocol. Do not tell an anxious reader to accept their way out of a medical emergency, and do not collapse 1919 Tokyo into a mindfulness slogan.
+
 ## Portrait
 
-Confirm any Commons photograph (died 1938; US publication status may be thin). Type is acceptable.
+Confirm any Commons photograph (died 1938; US publication status may be thin). Type is acceptable. Do not invent a Meiji-era face.
 
 ## Sources
 

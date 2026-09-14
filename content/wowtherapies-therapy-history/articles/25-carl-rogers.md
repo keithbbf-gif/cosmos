@@ -55,9 +55,17 @@ Licensure exams list him because the conditions are teachable as ethics even whe
 
 He did not invent respect. He specified it in a way a graduate program could grade, and he left tapes. In a field that mythologizes founders, the tapes are the least mythical thing about him.
 
+## La Jolla, and what the tapes still ask
+
+La Jolla and the Center for Studies of the Person are the late address. Students still make pilgrimages. The recordings remain the least mythical object he left. A graduate program that grades "empathy" as a microskill and never plays a tape has kept the exam and lost the method. Motivational interviewing later cited a debt. Some trauma clinicians did too, quietly, when the manual was not enough heat-tolerance.
+
+Ohio State, Chicago, Wisconsin, then California: four university addresses, one stubborn hypothesis. The Chicago Counseling Center remains the factory that made a non-physician hour theoretically unashamed. The relationship, under named conditions, is the mechanism of change.
+
+He died in 1987. The 1957 paper is still the spine. Wisconsin is still the bruise. The Gloria film is still a classroom object that needs a sentence about consent. Person-centered work, done as a discipline rather than as a vibe, is the usable remainder: do not steal the hour for your cleverness, and do not call that refusal a lack of theory.
+
 ## Portrait
 
-No clean licensed photograph. Type only. Do not scrape a university portrait.
+No clean licensed photograph. Type only. Do not scrape a university portrait or a Center for Studies of the Person still.
 
 ## Sources
 

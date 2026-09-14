@@ -49,6 +49,14 @@ Every clinician who asks "who is in charge of bedtime" is speaking his dialect. 
 
 He never became a household name like Rogers. In family-therapy training he is still a mountain. This pack puts him next to Satir so a reader can see the two temperatures of the same revolution: growth theater and structural engineering, both aimed at a unit larger than one.
 
+## After Philadelphia
+
+After Philadelphia he taught in New York and kept revising. Late interviews sound less sure that a 1974 nuclear hierarchy is a universal map. The self-criticism is part of the file. *Family Healing* (1993), written with Michael Nichols, is a later public book; the 1967 and 1974 volumes remain the historical spine. Anorexia tapes from the Child Guidance years are training objects, not a blog recipe. Eating disorders are medical. Chair movement is not a treatment.
+
+Braulio Montalvo and the Wiltwyck colleagues belong on the early title pages. A lone Argentine genius is a later myth. The 1967 book is a team book about poor families treated as systems with competence, not only as deficit — dated in language, still rare in attention.
+
+He died in 2017. Family-therapy programs still assign the maps. Feminist and narrative therapists still write the objections. Both assignments are correct. A clinician who asks who is in charge of bedtime is speaking his dialect. A clinician who uses "enmeshment" as a polite word for a closeness they have not earned the right to judge is abusing the dialect.
+
 ## Portrait
 
 No clean licensed photograph. Type only.

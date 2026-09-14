@@ -72,6 +72,12 @@ Existential inheritance, quieter:
 
 None of this is a reason to skip assessment, or to treat psychosis as a growth opportunity, or to refuse a hospital when a hospital is the safer room. Humanistic therapy's worst students used "authenticity" as an alibi. The better ones used it as a standard that made them sweat.
 
+Bugental's later teaching kept "presence" as a demand you could fail in a single minute of unused cleverness.
+
+James Bugental's *The Search for Authenticity* (1965) is another American door into the same revolt: presence as a technical demand, not a mood. It aged less publicly than Rogers and May. It still belongs on the shelf that refused two reductions.
+
+The *Journal of Humanistic Psychology* (from 1961) and the later person-centered networks in Europe (Britain and the Netherlands especially) kept a literature when American graduate programs drifted toward manuals. That literature can sound earnest. It also kept the 1957 conditions from becoming only an exam item. A counselor who still tapes an hour and asks whether the client *felt* understood is doing the research Rogers wanted, even when the citation on the syllabus is CBT.
+
 ## Sources
 
 Rogers 1957, 1951, 1961; Kirschenbaum 2007. May 1950; May, Angel, and Ellenberger 1958. Frankl 1946 and the 1930s logotherapy papers. Yalom 1970, 1980.

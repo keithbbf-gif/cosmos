@@ -50,6 +50,8 @@ BANNED = [
 
 DISCLAIMER_NEEDLE = "not a treatment plan"
 MIN_WORDS = 700
+MIN_WORDS_ERA = 1200
+MIN_WORDS_FIGURE = 1000
 TARGET_ARTICLES = 42
 
 FRONT_RE = re.compile(r"^---\n(.*?)\n---\n", re.S)
@@ -103,8 +105,9 @@ def main() -> int:
         if DISCLAIMER_NEEDLE not in text.lower():
             errors.append(f"{path.name}: missing educational note")
         n = body_words(text)
-        if n < MIN_WORDS:
-            errors.append(f"{path.name}: {n} words < {MIN_WORDS}")
+        floor = MIN_WORDS_ERA if fm.get("type") == "era" else MIN_WORDS_FIGURE if fm.get("type") == "figure" else MIN_WORDS
+        if n < floor:
+            errors.append(f"{path.name}: {n} words < {floor} ({fm.get('type') or 'unknown'} target)")
         low = text.lower()
         # skip YAML / style-guide mentions of banned words inside citations of the ban
         for pat in BANNED:

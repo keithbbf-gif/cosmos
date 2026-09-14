@@ -49,9 +49,17 @@ Because the chronology will not allow it. The thesis is 1921. The society is 192
 
 Sudhir Kakar and later Indian analysts are a different generation. They are not substitutes for Bose. They are proof the argument continued.
 
+*Samiksha* (from 1947) and Lumbini Park are the institutional remainder after the founding tea at Parsi Bagan Lane. A society that publishes and houses patients is not a correspondence club. Freud's 29 May 1921 letter praised the thesis and did not convert. Sixteen years of polite stubbornness followed. Opposite wishes, a doubt about castration as master key, a logo that put Ardhanarishvara on a psychoanalytic letterhead — these are arguments, not souvenirs.
+
+The first doctorate of its kind at Calcutta University, then a 1921 letter to Vienna that did not ask permission to found a society.
+
+He took the Calcutta medical degree in 1910 and the D.Sc. in 1921. The Indian Psychoanalytical Society's own page has given 1886 as a birth year; scholarly reference usually keeps 31 January 1887. This pack prints the disagreement rather than washing it. Fifteen original members met at 14 Parsi Bagan Lane. Owen Berkeley-Hill of Ranchi was in that mixed imperial room. Bose stayed in the chair until 1953.
+
+Sudhir Kakar and later Indian analysts are another generation. They do not replace Bose. They prove the argument continued after 1953. An American counseling syllabus that can name Jung and not Bose is still telling the export story this pack refuses.
+
 ## Portrait
 
-No confirmed web-licensed photograph. Type, or a 1921 title page if a library scan is truly public domain. Do not scrape the IPS without a license.
+No confirmed web-licensed photograph. Type, or a 1921 title page if a library scan is truly public domain. Do not scrape the Indian Psychoanalytical Society without a written license.
 
 ## Sources
 

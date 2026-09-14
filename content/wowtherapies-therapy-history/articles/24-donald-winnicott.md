@@ -54,6 +54,16 @@ Do not sell "attachment parenting" under his name. Do not tell a mother she must
 
 Do use him, if you are a clinician, when a patient cannot play, cannot be alone in a room, or cannot treat you as a person who survives their anger. That is his territory. It is not a worksheet.
 
+## Play, and a sentence too clear to leave alone
+
+*Playing and Reality* (1971) collected the transitional-object line and the essays on play as the place culture lives. He died the same year. The BBC talks, later gathered, remain documents of a pediatrician who believed ordinary devotion was more interesting than a clever interpretation. A feminist reader will mark the idealizing of the home. A clinician will mark the permission to notice hate without dumping it — "Hate in the Counter-Transference" (1949) — and the warning that "good-enough" is not a way to end a conversation about neglect.
+
+Clare Britton became Clare Winnicott; the wartime evacuations were her caseload before they were his theory.
+
+Clare Winnicott's social-work papers on deprived children belong on the same shelf as the transitional-object essay. He held babies on Wednesdays. She moved children through a war's bureaucracy. The "good-enough" sentence is cheaper if you forget that shelf.
+
+The Independent group in London was a location, not a brand. Winnicott sat there between Klein and Anna Freud without becoming a diplomat. His sentences escaped into parenting culture because they were clear. Clarity is not a license. This pack keeps the pediatric clinic in view so the greeting card cannot steal the hour.
+
 ## Portrait
 
 No clean licensed photograph. Type: "D. W. Winnicott, 1896–1971."

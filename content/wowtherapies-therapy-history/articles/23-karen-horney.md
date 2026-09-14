@@ -55,6 +55,16 @@ The Association for the Advancement of Psychoanalysis and the American Institute
 
 She is not a protocol. She is a hinge between classical analysis and the feminist-relational essay in this pack.
 
+## The late book, and readers the institutes did not claim
+
+*Neurosis and Human Growth* (1950) is the late book: the idealized self, the tyranny of the should, the pride that will not let a person be ordinary. Cognitive therapists later heard a cousin of the "must." They did not always cite her. She had already written, in English a social worker could finish, that a culture of winning manufactures a person who cannot rest.
+
+She taught at the New School as well as in institute rooms. The two audiences were not the same, and she wrote for both.
+
+The New School lectures and the English books reached social workers who would never be APsaA candidates. That public is counseling's public. A triad taught without the 1941 walkout is a personality cartoon.
+
+She died in 1952. The American Institute for Psychoanalysis and *The American Journal of Psychoanalysis* continued. So did a public readership that had found her in bookstores rather than in institutes. Counseling, as a later licensed job, inherited those readers. A triad of moving toward, against, or away is not a quiz. It is a map of cost under basic anxiety. Date the map. Do not tattoo it on a client.
+
 ## Portrait
 
 Confirm any Commons file before use. Type is acceptable.

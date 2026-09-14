@@ -75,6 +75,10 @@ Relational and intersubjective analysts in the United States (Stephen Mitchell a
 
 The psychoanalytic century did not end because it was "disproven" in a single paper. It ended as a monopoly. The rest of this series is what grew in the space that monopoly left — and what had been growing all along in rooms that never subscribed to *Imago*.
 
+The 1926 pamphlet did not settle American medicine. It named the fight.
+
+Lay analysis was a fight inside the family. Freud's *The Question of Lay Analysis* (1926) defended Theodor Reik and a non-physician practice. American institutes, for decades, said no. Psychologists and social workers built other rooms — counseling rooms among them — while waiting. The later opening of institute doors did not return those decades. A profession that now shares "psychodynamic" language across licenses is living in the settlement, not in Freud's 1926 pamphlet.
+
 ## Sources
 
 Makari 2008; Hale 1995; King and Steiner 1991; Hartnack 2001; IPS *Bose–Freud Correspondence* (1964/1999). Freud 1900 and 1914. For Ferenczi's 1932 lecture, the 1949 English of "Confusion of Tongues."

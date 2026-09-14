@@ -54,9 +54,17 @@ Occupational and expressive therapies, the idea that a museum can be a clinical 
 
 English readers can start with the museum's site and with *Imagens do inconsciente*. Portuguese is the language of the work. That fact is part of the history: the talking cure's library was never only German and English.
 
+The museum's collection grew into the hundreds of thousands of items because she treated images as documents the hospital was not allowed to bin. Adelina Gomes, Fernando Diniz, Carlos Pertuis, Emygdio de Barros — the names are authors. English-language art-therapy histories that use "Nise" as a saint of creativity and skip the fight with electroshock have kept the cats and lost the corridor.
+
+Maceió in Alagoas, then Bahia, then Engenho de Dentro: a northeastern woman physician in a Rio institution that had already decided the back ward was finished with persons.
+
+She graduated in medicine from Bahia among the first women of that faculty, then met Rio's psychiatric city. The 1930s political arrest is not a side quest. A physician who had already been a prisoner did not arrive at Engenho de Dentro as a naive reformer.
+
+Brazilian psychiatric reform does not need Basaglia as a start date. Casa das Palmeiras (1956) is an outpatient ancestor that still operates. Portuguese is the language of the work. That fact belongs in a pack written in English: the talking cure's library was never only German and English.
+
 ## Portrait
 
-No confirmed free likeness in this pack. Type only, unless the museum or a Brazilian public archive releases a photo with a written license.
+No confirmed free likeness in this pack. Type only, unless the museum or a Brazilian public archive releases a photo of Nise with a written license.
 
 ## Sources
 

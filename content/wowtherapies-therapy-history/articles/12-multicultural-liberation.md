@@ -62,6 +62,12 @@ A 2020s literature uses "decolonize therapy" as a title. Some of it is serious (
 
 Do not use this history to skip a suicide assessment. Do not use it to tell a client their only problem is America. Liberation psychology's own warning, in Martín-Baró, is that a psychology can serve the occupier *or* the *pueblo*. It does not become virtuous by quotation.
 
+Ignacio Martín-Baró's English readers arrived late, in 1994. Fanon's English readers arrived earlier and often skipped the hospital. This pack's figure essays exist so neither man is only a syllabus week. A competencies checklist that never mentions Blida or the UCA has kept the certificate and lost the war next to the ward.
+
+Robert Guthrie's *Even the Rat Was White* (1976; second edition 1998) is the curriculum object that made omission itself a subject. Before that book, a great many programs could assign Wundt and Watson and never mention the Clarks except as a *Brown* footnote. After it, the excuse got thinner. Thin excuses still circulate. This pack's Arkansas hinge — Mamie Phipps Clark born in Hot Springs — is a local refusal of that excuse, not a tourism sentence.
+
+APA's multicultural guidelines (2002, then later revisions) are the guild's official aftertaste of the 1992 counseling-competencies paper. Guidelines can be a floor. They can also be a certificate framed in a waiting room while the hour stays generic. History's job is to keep the floor from being confused with the work.
+
 ## Sources
 
 Fanon 1952, 1961; Macey 2000; Martín-Baró 1994; Whitfield 1994; Sue, Arredondo, and McDavis 1992; Clark and Clark 1939, 1950; *Brown* 347 U.S. 483 (1954); Guthrie 1998; Lambo's Aro papers (1960s). Morita and Bose: see their figure essays.

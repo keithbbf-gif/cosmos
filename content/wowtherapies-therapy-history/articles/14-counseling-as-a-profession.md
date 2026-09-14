@@ -63,6 +63,14 @@ People deserve to know whether they are seeing someone who can prescribe, someon
 
 The figure essays that follow are people. The profession essay is the building they did not all agree to share.
 
+The Bureau outlived the lawyer who opened it. Guidance kept his match-the-person-to-the-work sentence and later had to decide whether a match was still the job.
+
+Frank Parsons died in 1908, the year the Vocation Bureau opened. The book came out in 1909 without him. Founding documents often outlive founders. Counseling's later clinical turn — DSM on the master's desk, insurance panels, the same thought record a psychologist might use — did not abolish the guidance origin. It layered over it. Clients still meet both layers in one hour.
+
+The American Counseling Association's 2014 *Code of Ethics* (and its revisions) is a dated object a historian can read as a profession talking to itself about distance counseling, social media, and values conflicts. Tarasoff remains a California line that other states rewrote. Conversion-practice bans and "conscience clauses" are 2010s–2020s statutes that sit on top of Bayer's 1973 story. A counselor in Arkansas practices inside that stack: ACA code, state board, compact if the legislature joined it, and a caseload that does not care about the org chart.
+
+NBCC's National Certified Counselor credential (from 1982) and the later state licenses are not the same thing. Clients mix them up. History should not. A certificate on a wall may be a national exam. A license is a state permission to practice. The difference matters when something goes wrong.
+
 ## Sources
 
 Parsons 1909; Witmer 1907; ACA/APGA institutional histories; CACREP 1981; Sue, Arredondo, and McDavis 1992; Bayer 1981. For Tarasoff, the California Supreme Court opinions (1974/1976) as legal history, not as a national rule.

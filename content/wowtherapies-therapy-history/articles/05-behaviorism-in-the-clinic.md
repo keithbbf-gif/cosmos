@@ -64,6 +64,10 @@ A clinician who helps someone approach a feared doorway, who notices that an arg
 
 Mary Cover Jones lived long enough to be called, late, the "mother of behavior therapy." The nickname is the kind this style guide usually bans. In her case it is a correction. The laboratory that built fear had a man's name on it. The laboratory that tried to take fear apart had hers.
 
+Ogden Lindsley's early operant work and the first token-economy wards are the institutional cousins of Wolpe's clinic: countable, controversial, easy to abuse when the person cannot consent. This pack names them as history, not as a staffing plan.
+
+Temple University, where Wolpe later taught, and the Association for Advancement of Behavior Therapy (founded 1966; later ABCT) are the guild half of this story. A therapy that began as a dare about fear became a conference with posters and a journal. Exposure, in later manuals, grew more careful about consent than Watson had been about Albert. That care is the only tribute this pack will pay the 1920 paper: you may study how fear is learned. You may not treat a child as a proof.
+
 ## Sources
 
 Watson and Rayner 1920; Jones 1924; Wolpe 1958; Skinner 1953. On Albert's later historiography, see the scholarly debate summarized in Harris and in subsequent *American Psychologist* exchanges — do not treat a blog identification as settled. On behavior therapy and sexual orientation, Bayer 1981.

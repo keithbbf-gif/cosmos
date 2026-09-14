@@ -73,6 +73,10 @@ The origin is not a lab. It is a century that separated children from caregivers
 
 When a pediatric hospital now lets a parent sleep in the room, that is this argument, won in furniture. When a therapy office treats missed sessions only as resistance and never as protest, that is this argument, lost in a smaller room.
 
+John Bowlby's 1958 paper "The Nature of the Child's Tie to His Mother" is the theoretical hinge between the WHO survey and the trilogy: proximity-seeking as a primary motivational system, not a sequel to feeding or to oral pleasure. Analysts heard a biologist. Ethologists heard a clinician. The paper is still assignable. It is not a parenting blog, and it is not a law against a mother who earns a wage.
+
+Mary Main, Carol George, and Nancy Kaplan's Adult Attachment Interview (the mid-1980s papers) moved the research from a twenty-minute room with a stranger to an hour of adult speech about early care. The AAI is a research instrument with a training that takes weeks. It is not a quiz you download. Clinicians who say "her AAI would be dismissing" after one intake have borrowed a prestige they have not earned. The historical gift of that work is smaller and better: adult narrative can carry infant strategy, and the carrying is researchable if anyone bothers to train. Cite the paper, not a podcast.
+
 ## Sources
 
 Bowlby 1951, 1969–1980; van Dijken 1998; Ainsworth 1967; Ainsworth et al. 1978; Karen 1994. For Main and the AAI, see the 1985 and later papers — cite the paper, not a podcast.

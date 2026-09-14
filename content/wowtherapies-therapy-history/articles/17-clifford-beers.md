@@ -50,6 +50,14 @@ Every later tradition that asks a patient to write — the recovery memoir, the 
 
 A counselor who recommends a memoir as if it were a manual repeats a Beers-shaped mistake: one life becomes a policy. A counselor who refuses to believe a patient's account of a ward repeats the mistake Beers wrote against.
 
+## James's letter, and a letterhead that outlived him
+
+The 1908 Longmans edition carried a letter from William James that later printings liked to quote. James's praise helped a patient-author past the doubt a superintendent could raise. It also tied the book to a Harvard name. Mental hygiene's later posters — warning signs, "the child who is different" — used a public-health visual language that Beers had invited and could not edit. The National Committee became, after mergers and a century, part of what Americans now meet as Mental Health America. The letterhead changed. The first-person origin did not.
+
+Clifford Beers's later recurrences are in Dain's biography: the narrator who had "found" a mind did not stay found on a simple curve. The book ends on purpose. A life does not. Hygiene posters that taught families to watch for warning signs used that public invitation and added a new shame — the family that failed to prevent.
+
+He died in 1943. The movement outlived the narrator, as movements do. A counselor who hands a client a memoir as if it were a map is still in his building. A counselor who treats a ward story as a lie until a physician confirms it is in the building he wrote against.
+
 ## Portrait
 
 No clean licensed photograph is listed in `PORTRAIT_SOURCES.md`. Use the 1908 title page (US public domain as a 1908 publication) or type. Do not generate a face.

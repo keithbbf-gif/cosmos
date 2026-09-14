@@ -49,6 +49,14 @@ A clinician who asks "where is the must?" is using him. A clinician who mocks a 
 
 A Friday-night demonstration in Manhattan is not a rural Arkansas hour. The transplant problem is real: a method that lived as theater can become, in a quieter room, either a relief (someone finally names the demand) or a new shame (the patient who cannot stand the volume). Training is the difference. This page is not the training.
 
+He began as a sexologist and a writer of advice the 1940s and 1950s found improper. The early career matters: he was already in a fight with American respectability before he named REBT in 1955. The therapy's bluntness is not only a technique. It is a temperament that had already decided the culture's "musts" were the problem. The Albert Ellis Institute's late board fight is a New York story about money and control. The demand he named does not require the address.
+
+## A public book, and a quieter remainder
+
+He wrote *A Guide to Rational Living* (with Robert Harper, 1961) for a public that would never see East 65th Street. The public book made REBT sound easy. The Friday-night demonstrations made it sound like a roast. Between those two distortions sat a clinician who could hear a demand pretending to be a fact. Stoic copybooks and Adler sit behind that ear. So does a New York that rewarded volume.
+
+The later CBT mainstream took Beck's manners and some of Ellis's targets. Named REBT remained smaller, stubborn, still training. A rural hour that asks "where is the must?" is using him. A rural hour that mocks a patient in order to feel like a founder is not. This page will not reprint an ABC worksheet. The historical object is the 1955 naming and the 1962 book — a noisy American clinic built from imported timber.
+
 ## Portrait
 
 No clean licensed photograph. Type only.

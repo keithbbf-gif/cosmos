@@ -54,6 +54,14 @@ No health speculation. No lecture-circuit photography. No "Herman says you shoul
 
 She belongs next to Janet and Myers in the trauma-era essay, and next to the feminist-relational essay, because she refused to let those be two shelves.
 
+Cambridge Hospital and Harvard Medical School are the letterhead. The Women's Mental Health Collective in Somerville is the earlier room where incest was already present tense. *Father–Daughter Incest* (1981) still reads harder than the 1992 public book because it will not let a household crime become a combat story with better lighting. DSM's refusal of complex PTSD and ICD-11's later adoption are a bureaucratic echo of that hardness.
+
+The *New York Times* treated the 1992 book as a psychiatric event. DSM did not add the diagnosis. The lag is the history: who may name an injury, and how long the name takes to become billable.
+
+Safety, remembrance, reconnection were a social sequence in 1992, not three billing codes. A person who is not safe cannot "process" on a worksheet. A person who only processes and never reconnects is stuck in a private museum of injury. Those are historical claims about what the book was doing. They are not a protocol this page will run.
+
+She is living as of last verification. No lecture-circuit photography. No "Herman says you should" protocol. The 2023 book returns justice to the clinical vocabulary: acknowledgment is not a billing code. A counseling site can note that without becoming a court.
+
 ## Portrait
 
 Living. Type only.

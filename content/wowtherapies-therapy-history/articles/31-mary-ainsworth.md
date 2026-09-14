@@ -57,9 +57,19 @@ She was often the second name in a citation that began with Bowlby. This pack gi
 
 If this pack had to keep only one attachment document besides the WHO monograph, it would be *Infancy in Uganda*. The Strange Situation is the famous twenty minutes. Uganda is the reason the famous twenty minutes are not the whole science.
 
+## Two chairs, and a cheap scale
+
+Johns Hopkins and then the University of Virginia were the American chairs. Students remember severity about sloppy coding and a career that had not been easy to fund. Attachment observation is expensive in hours. Self-report scales are cheap. This pack prefers her economy. Mary Main's later work on disorganized behavior and the AAI is a student-generation that still starts from Ainsworth's leftovers — the tapes that would not fit three letters.
+
+Toronto first, London second, Kampala third, Baltimore last: that order is the observational science. The later internet quiz reversed it and sold the letters as a dating personality.
+
+William Blatz's security theory in Toronto is the Canadian preface. She did not arrive in London as Bowlby's blank assistant. She arrived already sure that "security" was a researchable word. Uganda then forced the word into a multi-caregiver world.
+
+She died in 1999 in Charlottesville. "I'm an avoidant" is not a finding she would have recognized as hers. She studied infants in a procedure, in a context, with reliability checks. She watched Ganda babies before she watched Baltimore ones. A series that claims global threads and then skips *Infancy in Uganda* (1967) is performing the skip it pretends to correct. Everett Waters and Mary Blehar remain on the 1978 title page for a reason: the letters were a team's work.
+
 ## Portrait
 
-No clean licensed photograph. Type only. Do not reproduce study photographs of children.
+No clean licensed photograph. Type only. Do not reproduce study photographs of Ganda or Baltimore children, and do not invent a face.
 
 ## Sources
 

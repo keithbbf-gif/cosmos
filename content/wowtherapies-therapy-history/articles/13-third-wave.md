@@ -65,6 +65,12 @@ No breathing script. No "wise mind" handout. No values card sort. If WOW Therapi
 
 The figure essay on Linehan is the human center of this wave. Beck and Ellis remain the second-wave parents. Rogers, oddly, is a grandparent: the third wave needed a relationship that could stand the heat, and some of that heat-tolerance was person-centered even when the citation was Zen.
 
+Two manuals, one decade, a market already hungry for something a hospital could staff.
+
+Marsha Linehan's 1993 Guilford volume and Hayes's 1999 book arrived in the same decade as managed care's hunger for manuals. That coincidence is not a conspiracy. It is a market recognizing a cousin. The cousin can be a team that holds suicidality. It can also be an app that says "notice that" and ends the session.
+
+Behavioral activation (Neil Jacobson and colleagues in the 1990s–2000s) sat beside the third wave as a reminder that some of the older behavioral house still worked when you stripped the cognitive furniture. The family fight — how much "cognition" a treatment needs — is not a branding problem. It is a question about what a depressed person can stand to do on a Tuesday. This page will not assign the activity schedule. It will say: the third wave did not abolish the first. It argued with it in public, in trials, and then on apps that had never read the trials.
+
 ## Sources
 
 Linehan et al. 1991; Linehan 1993; Carey, *NYT*, 23 June 2011; Hayes, Strosahl, and Wilson 1999; Segal, Williams, and Teasdale 2002; Kabat-Zinn 1990.

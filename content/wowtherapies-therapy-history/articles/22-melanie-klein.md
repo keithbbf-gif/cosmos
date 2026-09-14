@@ -52,6 +52,14 @@ Klein is easy to parody and easy to use as a hammer on mothers. She wrote about 
 
 She belongs in a counseling heritage series because adult psychotherapy — especially work with personality disorder, with envy in the transference, with the patient who cannot keep a good thing good — still speaks a dialect she coined. It does not belong as a protocol on a family blog.
 
+## Envy, and a language that is not a manual
+
+*Envy and Gratitude* (1957) is the late book that still splits rooms. Envy as an attack on the good because it is good: the sentence has been used to pathologize reasonable anger at a withholding institution. It has also named the hour in which praise cannot be taken. Hanna Segal and Herbert Rosenfeld carried the clinical work with psychosis; Wilfred Bion carried it toward groups and toward thinking. Those are other careers. Klein remains the origin of a dialect in which the infant's inner world is not a cute preface.
+
+Ernest Jones invited her to London in 1926. The invitation is a British Society fact, not a courtesy. Vienna and Berlin had already previewed the fight with Anna Freud. London made it a wartime custody battle with minutes.
+
+She died in 1960 in London. The British Society's three trains outlived her. A counseling site does not need to pick a train. It needs to know that adult work with splitting, with a good thing that cannot stay good, still speaks a language she coined — and that the language is not a parenting manual.
+
 ## Portrait
 
 No clean licensed photograph. Type only.

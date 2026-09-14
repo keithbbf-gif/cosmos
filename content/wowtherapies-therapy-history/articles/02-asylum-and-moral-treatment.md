@@ -63,6 +63,8 @@ The inheritance for a contemporary counselor is double. First: the profession's 
 
 When a clinic now writes a safety policy, fights an insurance denial, or decides whether a person can be seen outpatient, it is still in a conversation that the asylum started. The furniture is nicer. The question — who is free to leave — has not gone away.
 
+Deinstitutionalization in the United States — the Community Mental Health Act of 1963, then the emptying that followed without equivalent street care — is an argument *with* Dix and Kirkbride, not a sequel that makes them unnecessary. Jails filled again. Emergency rooms became wards. A counselor who has never walked a state-hospital campus still works in the shadow of that emptying. The 1908 Beers book and the 1963 statute are two attempts to move the story off the hill. Neither finished the move.
+
 ## Sources
 
 Weiner 1979 (PMID 382874) and Weiner 1994 on the Pinel myth and Pussin. Pinel, *Traité médico-philosophique* (1801). Scull 2015. Gollaher 1995 on Dix. Beers 1908; Dain 1980.
