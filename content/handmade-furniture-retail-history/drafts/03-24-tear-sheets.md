@@ -12,8 +12,13 @@ educational_claim: Trade catalogs and tear sheets taught the industry to sell fr
 topics: [markets, catalogs, photography, tear-sheets]
 sequence_after: hfrh-03-23
 ---
-
 Before there was a product page, there was a page.
+<figure class="hfrh-figure">
+  <img src="../images/03-24-tear-sheets.jpg" alt="1920s furniture advertisement with Santa Claus, an era when tear sheets sold rooms from printed pages" width="960" loading="lazy" decoding="async" />
+  <figcaption>Tear sheets and mail-order catalogs trained buyers to decide from paper decades before lifestyle photography.</figcaption>
+</figure>
+
+
 
 A catalog. A binder. A tear sheet — a single page a salesperson could pull and leave on a designer's desk like a calling card. Front: a picture. Back: sizes, woods, a finish list, a note that said "see shop for custom." That page is the ancestor of every furniture website, and I want the ancestor to get credit so the websites stop acting like they invented looking.
 

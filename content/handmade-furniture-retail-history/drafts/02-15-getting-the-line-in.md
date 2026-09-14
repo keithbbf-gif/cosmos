@@ -12,8 +12,13 @@ educational_claim: Representation is a capacity deal. The showroom needs a line 
 topics: [showrooms, representation, lead-times]
 sequence_after: hfrh-02-14
 ---
-
 People imagine a showroom door opening because the work is beautiful.
+<figure class="hfrh-figure">
+  <img src="../images/02-15-getting-the-line-in.jpg" alt="Wood stain finish samples laid out for furniture specification and showroom approval" width="960" loading="lazy" decoding="async" />
+  <figcaption>Getting a line into a showroom starts with proof: samples, lead times, and photographs that match what the shop can build.</figcaption>
+</figure>
+
+
 
 Sometimes. Beauty is the cover charge. The room is deciding whether you are a reliable adult.
 

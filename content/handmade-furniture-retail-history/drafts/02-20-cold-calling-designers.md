@@ -12,8 +12,13 @@ educational_claim: Before a showroom list, a custom shop finds work by talking t
 topics: [showrooms, cold-calls, DC, origin]
 sequence_after: hfrh-02-19
 ---
-
 I opened a woodshop in Washington. Storefront. Apartment above it. A few other people. A phone.
+<figure class="hfrh-figure">
+  <img src="../images/02-20-cold-calling-designers.jpg" alt="Vintage rotary telephone on a desk, the tool behind cold-calling interior designers before CRM software" width="960" loading="lazy" decoding="async" />
+  <figcaption>Cold-calling designers was the pre-internet CRM: a voice, two photographs, and a promise you could keep.</figcaption>
+</figure>
+
+
 
 The phone is the part the photographs leave out.
 

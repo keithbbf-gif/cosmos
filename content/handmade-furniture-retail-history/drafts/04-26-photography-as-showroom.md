@@ -12,8 +12,13 @@ educational_claim: Once the picture could take money, shops started building for
 topics: [early-web, photography, showrooms, looking]
 sequence_after: hfrh-04-25
 ---
-
 I said a sample is how we manufacture belief. The web said a picture is cheaper.
+<figure class="hfrh-figure">
+  <img src="../images/04-26-photography-as-showroom.jpg" alt="Studio lighting equipment aimed at a product set, when the photograph replaced the physical showroom" width="960" loading="lazy" decoding="async" />
+  <figcaption>When the photograph became the showroom, shops began shaping objects for thumbnails, not for daylight in a dining room.</figcaption>
+</figure>
+
+
 
 Both can be true. Only one of them lets you sit.
 

@@ -12,8 +12,13 @@ educational_claim: Etsy's fee structure, shipping culture, and browsing habit we
 topics: [etsy, furniture, fees, freight]
 sequence_after: hfrh-05-28
 ---
-
 A pair of earrings can absorb a listing fee. A dining table can too, if you only list one. The problem is not the twenty cents. The problem is the whole weather system that grew around the twenty cents.
+<figure class="hfrh-figure">
+  <img src="../images/05-29-jewelry-economics.jpg" alt="Outdoor market stall selling small handcrafted metal goods while a shopper browses in evening light" width="960" loading="lazy" decoding="async" />
+  <figcaption>Marketplaces tuned for jewelry economics—small parcels, fast turns—strain furniture makers built for slow wood.</figcaption>
+</figure>
+
+
 
 Jewelry — I am using jewelry as a type, not an insult — has traits a marketplace loves.
 

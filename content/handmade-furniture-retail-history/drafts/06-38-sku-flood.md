@@ -12,8 +12,13 @@ educational_claim: An edited floor teaches by exclusion. A seven-million-SKU cat
 topics: [wayfair, SKUs, editing, looking]
 sequence_after: hfrh-06-37
 ---
-
 A gallery hangs twelve things so you can see one.
+<figure class="hfrh-figure">
+  <img src="../images/06-38-sku-flood.jpg" alt="Handheld barcode scanner reading a package label in a fulfillment operation" width="960" loading="lazy" decoding="async" />
+  <figcaption>SKU floods flatten a bench-made table into one row among thousands of look-alike listings.</figcaption>
+</figure>
+
+
 
 A showroom puts a sample in a conversation with six neighbors.
 

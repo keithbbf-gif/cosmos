@@ -12,8 +12,13 @@ educational_claim: A listing fee is rent. Promoted listings are an auction for o
 topics: [etsy, ads, fees, discovery]
 sequence_after: hfrh-05-31
 ---
-
 A twenty-cent listing is a booth fee I will respect.
+<figure class="hfrh-figure">
+  <img src="../images/05-32-fees-and-ads.jpg" alt="Vintage shop cash register on a retail counter" width="960" loading="lazy" decoding="async" />
+  <figcaption>Listing fees, payment processing, and off-site ads are the hidden rent in a marketplace that calls itself community.</figcaption>
+</figure>
+
+
 
 It is legible. It is small. It says: you may stand in the room. Whether anyone walks to you is a different question, and in the early years that question was answered by search, by hearts, by the odd editorial feature, by luck. Luck is unfair and cheap.
 

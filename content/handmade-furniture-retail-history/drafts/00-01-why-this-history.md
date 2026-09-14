@@ -12,8 +12,13 @@ educational_claim: Handmade furniture did not jump from a workbench to a website
 topics: [frame, retail-history, channel-purpose]
 sequence_after:
 ---
-
 I'm not going to start with a table.
+<figure class="hfrh-figure">
+  <img src="../images/00-01-why-this-history.jpg" alt="Historic Berkey and Gay furniture factory in Grand Rapids, Michigan, where American casegoods manufacturing shaped retail showrooms" width="960" loading="lazy" decoding="async" />
+  <figcaption>Grand Rapids factories such as Berkey and Gay trained buyers to expect finished rooms and reliable lines long before online catalogs.</figcaption>
+</figure>
+
+
 
 If I start with a table, you will look at the wood, and that is a good way to spend an afternoon and a bad way to understand a century of retail. The wood is the easy part. The hard part is the door the wood walked through to meet a person who would pay for it.
 

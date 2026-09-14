@@ -12,8 +12,13 @@ educational_claim: Etsy's public contract was three allowed kinds of goods. Furn
 topics: [etsy, vintage, supplies, handmade]
 sequence_after: hfrh-05-30
 ---
-
 Etsy's clean public sentence, the one in the filings, was that goods should be handmade, vintage, or craft supplies.
+<figure class="hfrh-figure">
+  <img src="../images/05-31-three-buckets.jpg" alt="Antique wooden furniture grouped in a vintage resale setting" width="960" loading="lazy" decoding="async" />
+  <figcaption>Etsy’s vintage, supplies, and handmade buckets let one storefront sell three different contracts under one brand.</figcaption>
+</figure>
+
+
 
 Three buckets. One search bar. That is a hard architecture.
 

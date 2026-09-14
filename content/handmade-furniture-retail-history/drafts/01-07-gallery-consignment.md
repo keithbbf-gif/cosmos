@@ -12,8 +12,13 @@ educational_claim: A craft gallery sells access to a taught buyer. Consignment k
 topics: [galleries, consignment, pricing]
 sequence_after: hfrh-01-06
 ---
-
 A gallery is not a place that hangs things. A gallery is a place that decides what is worth hanging, and then stands next to it until a stranger agrees.
+<figure class="hfrh-figure">
+  <img src="../images/01-07-gallery-consignment.jpg" alt="Furniture store interior with displayed seating and casegoods arranged for browsing" width="960" loading="lazy" decoding="async" />
+  <figcaption>Consignment galleries sell access to a taught buyer; the split pays rent, editing, and the person who stays in the room.</figcaption>
+</figure>
+
+
 
 In American studio craft, the common contract was consignment. Door one. You keep title. The gallery keeps the key. When the piece sells, you split. People say fifty percent the way they say homemade. It is a habit you will meet often enough that you should budget for it, and it is not a statute. Some rooms take less. Some take more. Some buy outright, which is wholesale, door two, and those rooms are rarer because they have to believe in you with cash.
 

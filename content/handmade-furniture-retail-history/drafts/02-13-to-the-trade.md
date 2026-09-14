@@ -12,8 +12,13 @@ educational_claim: To-the-trade means the professional is the customer. The rest
 topics: [showrooms, to-the-trade, designers]
 sequence_after: hfrh-01-12
 ---
-
 "To the trade" is a phrase that makes ordinary people feel insulted, and I understand why. It sounds like a club. Sometimes it behaves like a club. The educational version is drier, and more useful.
+<figure class="hfrh-figure">
+  <img src="../images/02-13-to-the-trade.jpg" alt="1913 trade interior illustration of a decorated room set for professional specification" width="960" loading="lazy" decoding="async" />
+  <figcaption>To-the-trade showrooms sell through designers; the public price list is often a different document.</figcaption>
+</figure>
+
+
 
 To the trade means the account is a working designer or architect. The showroom's paperwork, pricing, samples, and apology calls are built for that person. You, the homeowner, may walk the hall. In many buildings you may walk into the room. You will usually not be the name on the order. The restriction is on buying, not on looking. People get that backward and then write a paragraph about elitism. Looking is allowed more often than the myth says. Buying is the professional act.
 

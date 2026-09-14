@@ -12,8 +12,13 @@ educational_claim: Mid-century studio furniture taught America that a chair coul
 topics: [galleries, studio-furniture, Nakashima, Maloof, Castle]
 sequence_after: hfrh-01-07
 ---
-
 There is a fork in handmade furniture that a lot of websites flatten, and I need you to see it or the rest of the history will feel like snobbery.
+<figure class="hfrh-figure">
+  <img src="../images/01-08-studio-furniture-as-art.jpg" alt="Wharton Esherick House and Studio in Malvern, Pennsylvania, a landmark of American studio furniture" width="960" loading="lazy" decoding="async" />
+  <figcaption>Studio furniture makers such as Wharton Esherick blurred the line between usable tables and museum objects.</figcaption>
+</figure>
+
+
 
 One path is the useful beautiful object. You sit. You eat. You put socks in the drawer. The making is serious. The destiny is a house.
 

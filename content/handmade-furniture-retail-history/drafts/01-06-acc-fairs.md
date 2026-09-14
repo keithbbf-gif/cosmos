@@ -12,8 +12,13 @@ educational_claim: The American Craft Council fairs turned handmade retail into 
 topics: [galleries, ACC, craft-fairs, wholesale]
 sequence_after: hfrh-01-05
 ---
-
 A fair is a gallery that you have to assemble with a screwdriver before the doors open.
+<figure class="hfrh-figure">
+  <img src="../images/01-06-acc-fairs.jpg" alt="Juried outdoor craft fair booth displaying handmade goods to passing buyers" width="960" loading="lazy" decoding="async" />
+  <figcaption>ACC-era fairs turned handmade furniture retail into a portable city: booth fees, juries, and buyers with checks or wholesale orders.</figcaption>
+</figure>
+
+
 
 The American Craft Council did not invent selling under a tent. It did professionalize a circuit that American makers still use as a mental model, even when they have never applied. The Northeast fair starts in the mid-sixties — Stowe in 1966, then Mount Snow, Bennington, Rhinebeck in 1973, West Springfield later. Baltimore's Winter Market put hundreds of craftspeople in the Civic Center and told the East Coast that January could be a buying season. Those names are not nostalgia. They are infrastructure.
 

@@ -54,6 +54,21 @@ This landing is **44 staged drafts**, about 31,000 spoken words. Machine index: 
 - Not legal advice, pricing advice, or a wholesale how-to.
 - Not COSMOS kernel work. This folder is channel copy sitting in the repo so the drafts have a git home and a PR.
 
+## Historical images (web / SEO)
+
+Each staged draft includes one **Wikimedia Commons** photograph wired with semantic HTML:
+
+- `<figure class="hfrh-figure">`, `<img alt="…">`, and `<figcaption>` (natural SEO captions, not keyword stuffing).
+- Files live in `images/`; provenance and licenses are in `RIGHTS.md`.
+- No AI-generated imagery; avoid identifiable portrait crops in hero frames.
+
+```bash
+python3 content/handmade-furniture-retail-history/fetch_commons_images.py   # refresh downloads from registry
+python3 content/handmade-furniture-retail-history/wire_figures.py           # sync figure blocks from registry
+python3 content/handmade-furniture-retail-history/validate_images.py
+python3 content/handmade-furniture-retail-history/validate_staging.py
+```
+
 ## Check the set
 
 ```bash

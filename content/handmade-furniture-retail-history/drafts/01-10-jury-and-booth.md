@@ -12,8 +12,13 @@ educational_claim: Juries and booth fees are rationing systems. A no can be info
 topics: [galleries, juries, craft-fairs, selection]
 sequence_after: hfrh-01-09
 ---
-
 I want to say something kind about rejection, and I do not want it to sound like a poster.
+<figure class="hfrh-figure">
+  <img src="../images/01-10-jury-and-booth.jpg" alt="Handmade pottery and wooden craft items displayed at an outdoor market booth" width="960" loading="lazy" decoding="async" />
+  <figcaption>Fair juries and booth fees decide who gets a weekend door to metropolitan buyers.</figcaption>
+</figure>
+
+
 
 When a fair jury or a gallery says no, they have done you a favor if the room was never going to be able to sell you. They have done you a harm if the no is fashion dressed up as quality. You will not always know which one you got. That uncertainty is the job.
 

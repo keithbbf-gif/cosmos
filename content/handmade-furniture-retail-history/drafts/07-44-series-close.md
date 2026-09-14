@@ -12,8 +12,13 @@ educational_claim: The history is a tool. Use it to read a door, keep a shop ali
 topics: [frame, channel-purpose, close]
 sequence_after: hfrh-07-43
 ---
-
 I said at the beginning I would not start with a table. I will end with a house.
+<figure class="hfrh-figure">
+  <img src="../images/07-44-series-close.jpg" alt="Woodworking tools on a bench at the Women's Woodshop in Minneapolis, Minnesota" width="960" loading="lazy" decoding="async" />
+  <figcaption>The series closes back on the bench: touch the wood, ask which retail door you are standing in, and keep the words honest.</figcaption>
+</figure>
+
+
 
 A house, in the way I mean it, is a shop that is still working while the weather changes. Galleries thinned in some towns and thickened in others. Showrooms still stand. Markets still open in April. Etsy still uses a word it had to redefine. Overstock and Wayfair still know how to be a storefront on other people's docks, even as their own mixes change. A shop that evacuates itself every time the weather shifts is not a shop. It is a mood.
 

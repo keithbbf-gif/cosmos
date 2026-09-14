@@ -12,8 +12,13 @@ educational_claim: Overstock began as an online closeout shop (D2, 1997; Oversto
 topics: [overstock, dropship, wholesale, 1999]
 sequence_after: hfrh-05-33
 ---
-
 1999 is a hinge year for this shop and for this website, and I do not want that coincidence to become a myth. We opened a custom shop. A Utah company that had been D2-Discounts Direct, then Deals.com, took the name Overstock.com. They were not thinking about our tables. They were thinking about closeouts.
+<figure class="hfrh-figure">
+  <img src="../images/06-34-overstock-partners.jpg" alt="Regional warehouse shelving stacked with palletized inventory awaiting partner fulfillment" width="960" loading="lazy" decoding="async" />
+  <figcaption>Overstock’s partner model grew by listing other people’s inventory before owned closeouts dominated the story.</figcaption>
+</figure>
+
+
 
 Closeout is an old trade. Somebody made too much. Somebody cancelled. A jobber moves the pile. The civilian gets a bargain and a story about a deal. Patrick Byrne's group looked at that pile and put it on a transactional website. The SEC paperwork from the 2002 offering is the dry version: inconsistent quantities, fragmented supply, the internet as a way to gather both sides.
 

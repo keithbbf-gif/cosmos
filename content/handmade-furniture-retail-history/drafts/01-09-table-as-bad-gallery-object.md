@@ -12,8 +12,13 @@ educational_claim: Scale, freight, sit-testing, and the time a table occupies a 
 topics: [galleries, dining-tables, freight, scale]
 sequence_after: hfrh-01-08
 ---
-
 I make dining tables for a living. I say that without romance, because a dining table is a problem in almost every room except a dining room.
+<figure class="hfrh-figure">
+  <img src="../images/01-09-table-as-bad-gallery-object.jpg" alt="Frank Lloyd Wright dining table on display, furniture meant for daily meals rather than pedestal isolation" width="960" loading="lazy" decoding="async" />
+  <figcaption>A dining table is a bad gallery object: it wants a house, not a white cube and a price tag on the wall.</figcaption>
+</figure>
+
+
 
 A gallery that learned its manners on jewelry, fiber, and pots is not stupid for struggling with us. The object is rude.
 

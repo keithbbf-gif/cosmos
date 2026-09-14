@@ -12,8 +12,13 @@ educational_claim: Trade paperwork exists because a commission has too many peop
 topics: [showrooms, paperwork, commissions]
 sequence_after: hfrh-02-18
 ---
-
 I am still a pen-and-paper person. The company is not. Both of those sentences are true, and the second one saved us from becoming a myth.
+<figure class="hfrh-figure">
+  <img src="../images/02-19-paper-trail.jpg" alt="1941 Sears advertising postcard promoting mailed retail values, part of the paper trail behind furniture orders" width="960" loading="lazy" decoding="async" />
+  <figcaption>Showroom orders still ride on paper trails: acknowledgements, deposits, and change orders with signatures.</figcaption>
+</figure>
+
+
 
 A custom table has too many names.
 

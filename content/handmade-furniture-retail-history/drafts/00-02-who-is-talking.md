@@ -12,8 +12,13 @@ educational_claim: A custom furniture shop that sells through trade showrooms is
 topics: [frame, shop, showrooms, voice]
 sequence_after: hfrh-00-01
 ---
-
 I should tell you who is talking, because the internet has a habit of putting a face on a script and calling it a maker.
+<figure class="hfrh-figure">
+  <img src="../images/00-02-who-is-talking.jpg" alt="1900 amateur woodworking manual illustration of bench tools and hand-cut joinery" width="960" loading="lazy" decoding="async" />
+  <figcaption>This series speaks from a working bench—labor, lead time, and repeatability—not from a marketplace dashboard.</figcaption>
+</figure>
+
+
 
 My name is on the door. Keith Fritz Fine Furniture. We started in 1999. The first shop was a storefront on Capitol Hill in Washington. I lived above it. I still live above the shop. The building is different. It is a nineteenth-century factory in Ferdinand, Indiana, about thirty-three thousand square feet, and the wood comes in the back and the finished work leaves the front on our own trucks. We make on the order of several hundred pieces a year. That number matters. It means we are not a factory that can eat a weekend of returns. It means we are not a one-man Instagram. It means every bad door we walk through costs a real bench.
 

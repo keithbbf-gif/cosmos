@@ -12,8 +12,13 @@ educational_claim: As interior design professionalized, large handmade furniture
 topics: [galleries, showrooms, handoff, designers]
 sequence_after: hfrh-01-11
 ---
-
 This is the hinge inside the hinge.
+<figure class="hfrh-figure">
+  <img src="../images/01-12-gallery-to-showroom-handoff.jpg" alt="1913 interior design plate showing furnished rooms with coordinated decorations and furniture" width="960" loading="lazy" decoding="async" />
+  <figcaption>The handoff from gallery to trade showroom trades the single object for lines, samples, and designer relationships.</figcaption>
+</figure>
+
+
 
 By the time a shop like ours is making dining tables for houses that have architects, the gallery door starts to feel like a beautiful hallway to the wrong building.
 

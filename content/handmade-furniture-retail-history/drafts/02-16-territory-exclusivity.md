@@ -12,8 +12,13 @@ educational_claim: Showroom exclusivity is a tool for protecting sales effort. I
 topics: [showrooms, territory, exclusivity]
 sequence_after: hfrh-02-15
 ---
-
 If two rooms in the same city sell the same table, they will eventually hate each other, and they will be right.
+<figure class="hfrh-figure">
+  <img src="../images/02-16-territory-exclusivity.jpg" alt="Historic main-floor plan diagram zoning a retail showroom into distinct sales territories" width="960" loading="lazy" decoding="async" />
+  <figcaption>Territory exclusivity maps a city to one showroom; the map only works if the room is actually selling.</figcaption>
+</figure>
+
+
 
 A showroom spends money to make your name feel inevitable. They train staff. They put your sample in the light. They take a designer to lunch and say, this is the one. If the designer can walk down the hall and buy the same name from a rival who did none of that work, the first room will stop doing the work. That is not pettiness. That is arithmetic.
 

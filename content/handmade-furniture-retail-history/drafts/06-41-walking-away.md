@@ -12,8 +12,13 @@ educational_claim: Leaving a platform pipe is a capacity decision. It costs orde
 topics: [dropship, showrooms, capacity, walking-away]
 sequence_after: hfrh-06-40
 ---
-
 I am not going to tell a morality play where the shop refuses the internet and the heavens open.
+<figure class="hfrh-figure">
+  <img src="../images/06-41-walking-away.jpg" alt="Closed retail shop front with shutters drawn down" width="960" loading="lazy" decoding="async" />
+  <figcaption>Walking away from a platform pipe should finish open orders first—then reclaim photographs and specifications.</figcaption>
+</figure>
+
+
 
 Walking away from a portal is a budget.
 

@@ -12,8 +12,13 @@ educational_claim: Dropship assigns the customer to the website and the object t
 topics: [dropship, wholesale, risk, customer]
 sequence_after: hfrh-06-35
 ---
-
 I am going to describe dropship as if I were hiring you for it, because that is the only way the word gets its job back.
+<figure class="hfrh-figure">
+  <img src="../images/06-36-dropship-job.jpg" alt="Accordion conveyor moving cartons through a warehouse packing line" width="960" loading="lazy" decoding="async" />
+  <figcaption>Dropship assigns the website the relationship while the shop still builds, packs, and answers for the object.</figcaption>
+</figure>
+
+
 
 You will keep the object until we tell you to move it.
 You will photograph it to our taste, or we will photograph it and you will live with the lie.

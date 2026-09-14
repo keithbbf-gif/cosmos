@@ -12,8 +12,13 @@ educational_claim: Platforms filled millions of SKUs by walking the old wholesal
 topics: [wayfair, High Point, catalogs, suppliers]
 sequence_after: hfrh-06-36
 ---
-
 Picture a family casegoods line that has been going to High Point since before the people in the booth were born.
+<figure class="hfrh-figure">
+  <img src="../images/06-37-high-point-recruitment.jpg" alt="Large trade exhibition hall aisle with vendor booths and hanging signs" width="960" loading="lazy" decoding="async" />
+  <figcaption>Platform buyers walked High Point like traditional retailers, asking family shops for catalogs to digitize.</figcaption>
+</figure>
+
+
 
 They know how to talk to a store. They know a cutoff date. They know a finish list. They have a binder. They have a dock. They are door two in their sleep.
 

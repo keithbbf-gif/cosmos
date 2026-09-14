@@ -12,8 +12,13 @@ educational_claim: High Point Market, begun as the Southern Furniture Market in 
 topics: [markets, High Point, wholesale]
 sequence_after: hfrh-02-21
 ---
-
 Twice a year, a town in North Carolina becomes a city that only the trade can see.
+<figure class="hfrh-figure">
+  <img src="../images/03-22-high-point.jpg" alt="Southern Furniture Exhibition Building in High Point, North Carolina, hub of the wholesale furniture market" width="960" loading="lazy" decoding="async" />
+  <figcaption>High Point’s Southern Furniture Market dates to March 1909; twice a year the town becomes a wholesale city.</figcaption>
+</figure>
+
+
 
 High Point Market. It started as the Southern Furniture Market, first formal edition March 1 through 15, 1909. Two local exposition companies joined up because they wanted a southern answer to New York, Chicago, and Grand Rapids. Attendance was modest. They kept at it. The Southern Furniture Exposition Building opened in 1921. The names changed — International Home Furnishings Market in 1989, then High Point Market — and the calendar settled on April and October. The public does not get to treat it like a weekend mall. That is not a snub. It is a wholesale floor.
 

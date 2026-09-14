@@ -12,8 +12,13 @@ educational_claim: The same object can carry four honest prices depending on doo
 topics: [pricing, doors, showrooms, platforms]
 sequence_after: hfrh-06-41
 ---
-
 Take a table. Walnut. A length. A base. A leaf story. Hold it in your mind as if it were one object.
+<figure class="hfrh-figure">
+  <img src="../images/07-42-four-prices.jpg" alt="Historic furnished room display from New England Furniture and Carpet Company retail photography" width="960" loading="lazy" decoding="async" />
+  <figcaption>The same oak can carry four prices depending on door: gallery, wholesale, trade, or dropship markup.</figcaption>
+</figure>
+
+
 
 Now put it through four doors. The number will move. The object may not.
 

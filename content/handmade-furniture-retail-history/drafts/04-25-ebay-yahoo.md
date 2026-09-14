@@ -12,8 +12,13 @@ educational_claim: Before Etsy and Wayfair, makers used eBay, Yahoo stores, and 
 topics: [early-web, eBay, Yahoo, storefronts]
 sequence_after: hfrh-03-24
 ---
-
 The internet did not arrive as Wayfair. It arrived as a messy row of doors that looked like classifieds.
+<figure class="hfrh-figure">
+  <img src="../images/04-25-ebay-yahoo.jpg" alt="Vintage personal computer at a computer museum, stand-in for the first home-office online storefront era" width="960" loading="lazy" decoding="async" />
+  <figcaption>eBay, Yahoo Stores, and early shop sites taught payments and photography before they solved furniture logistics.</figcaption>
+</figure>
+
+
 
 eBay taught America that a stranger would send money for an object they had not held. That is a civilizational change. It is also a change that works better for a coin than for a sideboard. The auction format trained price as sport. Sport is a bad mood for a dining table. You do not want the person who "won" you. You want the person who understood you.
 

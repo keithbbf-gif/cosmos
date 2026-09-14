@@ -12,8 +12,13 @@ educational_claim: Minimum advertised price and private label decide whether a s
 topics: [MAP, private-label, branding, showrooms]
 sequence_after: hfrh-06-38
 ---
-
 A name is a tool.
+<figure class="hfrh-figure">
+  <img src="../images/06-39-map-private-label.jpg" alt="Manufacturer’s suggested retail price window sticker showing published list pricing rules" width="960" loading="lazy" decoding="async" />
+  <figcaption>MAP policies and private-label lines are how platforms and brands negotiate who controls the public price.</figcaption>
+</figure>
+
+
 
 On a showroom floor, our name is how a designer finds the cousin of a sample they sat at last year. The name is a memory device. It is also a promise: this building, these people, this truck.
 

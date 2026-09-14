@@ -12,8 +12,13 @@ educational_claim: Wayfair began in 2002 as CSN Stores, a forest of niche sites,
 topics: [wayfair, CSN, dropship, 2002]
 sequence_after: hfrh-06-34
 ---
-
 August 29, 2002. RacksAndStands.com. Television stands and speaker stands. Orders the same day.
+<figure class="hfrh-figure">
+  <img src="../images/06-35-csn-wayfair.jpg" alt="Historic Galveston freight depot where railroad logistics moved goods toward distant retail catalogs" width="960" loading="lazy" decoding="async" />
+  <figcaption>CSN Stores’ niche sites foreshadowed Wayfair: supplier-direct catalogs scaled by SEO and dropship logistics.</figcaption>
+</figure>
+
+
 
 That is not a cute founder story for our purposes. That is a thesis: if you pick a narrow noun and a photograph and a supplier who will ship, you can take money before you own a warehouse of stands. Niraj Shah and Steve Conine built a forest of those nouns. AllBarstools. Bedroomfurniture. Hundreds of sites, the S-1 later said, bootstrapped through 2011, hundreds of millions in revenue before they decided the forest was a problem.
 

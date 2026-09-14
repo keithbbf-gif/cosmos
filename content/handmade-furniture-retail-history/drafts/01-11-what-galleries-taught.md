@@ -12,8 +12,13 @@ educational_claim: Galleries taught looking, comparison, patience, and the right
 topics: [galleries, buyers, education, looking]
 sequence_after: hfrh-01-10
 ---
-
 I keep saying education like a schoolteacher. I mean something more physical than a lecture.
+<figure class="hfrh-figure">
+  <img src="../images/01-11-what-galleries-taught.jpg" alt="Handmade pottery arranged on shelves in a small art gallery retail space" width="960" loading="lazy" decoding="async" />
+  <figcaption>Galleries taught slow looking: spacing, light, and a person willing to explain why one bowl costs more.</figcaption>
+</figure>
+
+
 
 A good gallery taught a buyer how to look at an object in time.
 

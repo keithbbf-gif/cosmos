@@ -12,8 +12,13 @@ educational_claim: List is a published number. Net is the professional price. Th
 topics: [showrooms, pricing, net, list]
 sequence_after: hfrh-02-16
 ---
-
 I am going to talk about money in the least sexy way I can, because sexy money talk is how people get robbed.
+<figure class="hfrh-figure">
+  <img src="../images/02-17-net-list-multiplier.jpg" alt="Vintage printed retail price list with tiered numbers, a paper ancestor of trade net and list pricing" width="960" loading="lazy" decoding="async" />
+  <figcaption>Net, list, and designer multipliers are how trade showrooms hide public price from casual browsers.</figcaption>
+</figure>
+
+
 
 List is a number on a piece of paper. Sometimes it is a number on a website. It is the published retail, the sticker, the thing a civilian is shown so that a discount can later appear and feel like a gift.
 

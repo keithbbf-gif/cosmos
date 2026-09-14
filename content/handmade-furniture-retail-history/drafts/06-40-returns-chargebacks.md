@@ -12,8 +12,13 @@ educational_claim: Furniture returns are a second making. Chargebacks are a thir
 topics: [returns, chargebacks, freight, dropship]
 sequence_after: hfrh-06-39
 ---
-
 A return policy is a feeling. A returned table is a project.
+<figure class="hfrh-figure">
+  <img src="../images/06-40-returns-chargebacks.jpg" alt="Stacked returned shipping cartons filling a warehouse corner near an exit sign" width="960" loading="lazy" decoding="async" />
+  <figcaption>Furniture return rates and card chargebacks punish shops when photographs promised a room the object cannot enter.</figcaption>
+</figure>
+
+
 
 I want to separate those so we can talk like adults.
 

@@ -12,8 +12,13 @@ educational_claim: Retail language drifted on purpose. Handmade, custom, wholesa
 topics: [frame, language, handmade, custom, wholesale]
 sequence_after: hfrh-00-03
 ---
-
 I need to take four words to the bench and mill them flat. If we do not, the history will sound like taste, and it is not taste. It is vocabulary doing cover work.
+<figure class="hfrh-figure">
+  <img src="../images/00-04-stolen-words.jpg" alt="Weathered handmade shop sign on a craft retail stall in Dingle, County Kerry, Ireland" width="960" loading="lazy" decoding="async" />
+  <figcaption>Words like handmade and artisan once pointed at visible labor; retail copy now often uses them as mood lighting.</figcaption>
+</figure>
+
+
 
 Handmade.
 

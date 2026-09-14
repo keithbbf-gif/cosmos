@@ -12,8 +12,13 @@ educational_claim: Parcel shipping and furniture freight are different industrie
 topics: [early-web, freight, delivery, returns]
 sequence_after: hfrh-04-26
 ---
-
 A book ships. A table is moved.
+<figure class="hfrh-figure">
+  <img src="../images/04-27-freight-is-not-shipping.jpg" alt="Semi-trailer truck on the road, typical LTL freight for bulky handmade furniture" width="960" loading="lazy" decoding="async" />
+  <figcaption>Freight for furniture is dimensional weight, claims, and white-glove delivery—not the small-parcel logic of a cart checkout.</figcaption>
+</figure>
+
+
 
 If you take nothing else from the early-web stage, take that.
 

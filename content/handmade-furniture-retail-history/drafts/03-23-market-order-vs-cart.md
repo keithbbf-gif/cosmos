@@ -12,8 +12,13 @@ educational_claim: A traditional market order moved title, terms, and a season's
 topics: [markets, wholesale, carts, risk]
 sequence_after: hfrh-03-22
 ---
-
 Write this on the inside of your catalog: a cart is not an order in the old sense.
+<figure class="hfrh-figure">
+  <img src="../images/03-23-market-order-vs-cart.jpg" alt="1897 wholesale price list page with line items and quantities for market buyers" width="960" loading="lazy" decoding="async" />
+  <figcaption>A market order assigns title and lead time; an e-commerce cart is a thinner promise with fewer signatures.</figcaption>
+</figure>
+
+
 
 A market order, when door two was healthy, was a bet between adults.
 

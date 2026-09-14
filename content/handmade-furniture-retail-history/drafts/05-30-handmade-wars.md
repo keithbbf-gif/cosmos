@@ -12,8 +12,13 @@ educational_claim: In October 2013 Etsy allowed sellers to hire and to apply to 
 topics: [etsy, handmade, 2013, policy]
 sequence_after: hfrh-05-29
 ---
-
 October 2013. Etsy told a million sellers, on a webcast, that the rules were changing.
+<figure class="hfrh-figure">
+  <img src="../images/05-30-handmade-wars.jpg" alt="Handmade pottery and wooden craft items crowded on a market table" width="960" loading="lazy" decoding="async" />
+  <figcaption>Etsy’s handmade policy fights were really fights over factory help, disclosure, and who gets to use the word artisan.</figcaption>
+</figure>
+
+
 
 You could hire people who did not live in your house.
 You could apply to have work made by a manufacturer if you were still the author of the design and you disclosed the partnership.

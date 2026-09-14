@@ -12,8 +12,13 @@ educational_claim: Etsy Wholesale tried to connect growing sellers to retailers.
 topics: [etsy, wholesale, retailers]
 sequence_after: hfrh-05-32
 ---
-
 There was a moment, in the mid-2010s, when Etsy tried to build door two on purpose.
+<figure class="hfrh-figure">
+  <img src="../images/05-33-etsy-wholesale.jpg" alt="Historic wholesale import company storefront, a brick retail door online wholesale programs tried to reach" width="960" loading="lazy" decoding="async" />
+  <figcaption>Etsy Wholesale tried to bridge online makers and brick retailers—a different door than the consumer cart.</figcaption>
+</figure>
+
+
 
 Etsy Wholesale. The idea was clean enough to be attractive: a seller who had outgrown the cart could meet a store that wanted a line. Not a dropship portal dressed as a partner. A retailer. A buyer with a shop. The old ACC wholesale aisle, software.
 

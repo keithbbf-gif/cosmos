@@ -12,8 +12,13 @@ educational_claim: Consignment, wholesale, to-the-trade, and dropship are four d
 topics: [frame, consignment, wholesale, trade, dropship]
 sequence_after: hfrh-00-02
 ---
-
 Before the history, I want four doors in your head. If you keep these straight, the rest of the series will click. If you do not, every episode will sound like I am complaining about the internet.
+<figure class="hfrh-figure">
+  <img src="../images/00-03-four-doors.jpg" alt="Marshall Field and Company department store building on Chicago State Street, an early curated furniture retail door" width="960" loading="lazy" decoding="async" />
+  <figcaption>Department stores were a fourth kind of door: edited rooms, trained buyers, and freight networks custom shops still inherit.</figcaption>
+</figure>
+
+
 
 Door one. Consignment.
 

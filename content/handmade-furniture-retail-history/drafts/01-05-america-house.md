@@ -12,8 +12,13 @@ educational_claim: Before websites, American craft built a cooperative city shop
 topics: [galleries, America House, ACC, consignment]
 sequence_after: hfrh-00-04
 ---
-
 If you think handmade retail starts with a URL, you are starting sixty-five years late, and you are starting in the wrong city.
+<figure class="hfrh-figure">
+  <img src="../images/01-05-america-house.jpg" alt="Museum of Arts and Design at Columbus Circle, New York, successor to the Museum of Contemporary Crafts era" width="960" loading="lazy" decoding="async" />
+  <figcaption>America House and the Museum of Contemporary Crafts shared Aileen Osborn Webb’s impulse to teach craft and sell it in the same city.</figcaption>
+</figure>
+
+
 
 In 1940, a group around Aileen Osborn Webb opened a shop in New York called America House. The first address was 7 East 54th Street. It was not a hobby closet. It was a cooperative retail door for affiliated craft organizations. Rural makers — the people who actually had the material and the hours — could not reach a metropolitan buyer without someone in the city willing to keep a room, keep hours, and do the talking. That is the whole problem of handmade retail in one sentence. The work is made where the quiet is. The money is often where the noise is.
 

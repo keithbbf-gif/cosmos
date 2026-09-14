@@ -12,8 +12,13 @@ educational_claim: A design center is a cluster of wholesale showrooms for profe
 topics: [showrooms, D&D, design-centers]
 sequence_after: hfrh-02-13
 ---
-
 979 Third Avenue. The Decoration and Design Building. People in the trade just say the D&D.
+<figure class="hfrh-figure">
+  <img src="../images/02-14-design-centers.jpg" alt="Merchandise Mart along the Chicago River, a major wholesale design and furniture trade center" width="960" loading="lazy" decoding="async" />
+  <figcaption>Design centers such as Chicago’s Merchandise Mart concentrate wholesale showrooms the way cities concentrate banks.</figcaption>
+</figure>
+
+
 
 It has been the type specimen since 1965. Eighteen floors, more than a hundred showrooms, thousands of lines if you believe the building's own counting. Fabric, furniture, lighting, carpet, the things a room is made of when money is serious. Albert Hadley called it the center of their lives, and whether or not you like Hadley, that sentence tells you the building's job. It is where the profession goes to work.
 

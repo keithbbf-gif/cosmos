@@ -12,8 +12,13 @@ educational_claim: Freight is where handmade furniture is most often ruined. A s
 topics: [showrooms, delivery, freight, service]
 sequence_after: hfrh-02-20
 ---
-
 A table is not finished when it leaves the finishing room.
+<figure class="hfrh-figure">
+  <img src="../images/02-21-own-trucks.jpg" alt="1911 advertisement for a furniture and household goods delivery moving company truck service" width="960" loading="lazy" decoding="async" />
+  <figcaption>Owning delivery trucks keeps the last mile in the shop’s hands when freight brokers treat a table like a carton.</figcaption>
+</figure>
+
+
 
 It is finished when it is sitting in the house at the height we promised, with the leaves in the place we promised, and nobody's doorway has a new scar. Everything between those two sentences is a chance to undo the year.
 

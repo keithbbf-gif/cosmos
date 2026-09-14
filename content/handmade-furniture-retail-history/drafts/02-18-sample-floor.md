@@ -12,8 +12,13 @@ educational_claim: A showroom sample is a working argument, not inventory. It co
 topics: [showrooms, samples, custom]
 sequence_after: hfrh-02-17
 ---
-
 There is a table in a city I am not standing in.
+<figure class="hfrh-figure">
+  <img src="../images/02-18-sample-floor.jpg" alt="Museum dining room furniture vignette with table and chairs arranged as a walk-around sample floor" width="960" loading="lazy" decoding="async" />
+  <figcaption>A sample floor lets designers and clients believe a custom table before it exists in their room.</figcaption>
+</figure>
+
+
 
 Somebody is putting a hand on it right now, or nobody is, and it is doing its job either way. It is a sample. We made it. We shipped it. We hope they have not parked a coffee on it. It may never go to a house. It exists so a different table can go to a house without being a rumor.
 
