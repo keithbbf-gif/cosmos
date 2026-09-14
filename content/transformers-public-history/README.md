@@ -48,6 +48,10 @@ back-applied.
 `MANIFEST.toml` is the inventory (56 staged drafts in this revision). `validate.py` is the
 mechanical check (count, frontmatter, minimum length, source lines, novelty-fence terms).
 
+**Graphics (IMAGE+SEO):** original SVG timelines and architecture schematics under
+`staged/graphics/`; rights in `RIGHTS.md`; HTML embed patterns in `staged/FIGURE_EMBEDS.md`;
+index in `GRAPHICS_INDEX.md`. Verify with `pipeline/verify_staged_graphics.py`.
+
 ## Draft index
 
 See `MANIFEST.toml` for the authoritative list. The series is grouped by era, not by vendor.

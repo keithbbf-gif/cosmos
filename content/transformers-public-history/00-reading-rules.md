@@ -22,6 +22,13 @@ leads_to: ["tph-01"]
 **First public appearance of the series object:** 12 June 2017 (arXiv v1 of *Attention Is All You Need*).
 **Primary source:** this card states method; later cards cite artifacts.
 
+<figure class="tph-figure tph-figure--spread">
+  <img src="content/transformers-public-history/staged/graphics/fig-01-first-public-timeline.svg"
+       alt="Timeline of selected first-public transformer architecture milestones from 2017 to 2026"
+       width="1200" height="520" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Selected first-public milestones for blocks covered in this pack (editorial schematic). Dates follow arXiv v1 or official release classes — not conference program years.</figcaption>
+</figure>
+
 ## The claim
 
 A history of transformer architecture that uses conference years, press-release metaphors, or

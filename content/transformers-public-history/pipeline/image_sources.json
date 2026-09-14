@@ -1,0 +1,47 @@
+{
+  "images": [],
+  "svg": [
+    {
+      "id": "tph-fig-01",
+      "file": "staged/graphics/fig-01-first-public-timeline.svg",
+      "kind": "timeline",
+      "draft_slug": "reading-rules",
+      "license": "Original schematic (series editorial, 2026)"
+    },
+    {
+      "id": "tph-fig-02",
+      "file": "staged/graphics/fig-02-transformer-stack-2017.svg",
+      "kind": "architecture",
+      "draft_slug": "attention-is-all-you-need-2017",
+      "license": "Original schematic (series editorial, 2026)"
+    },
+    {
+      "id": "tph-fig-03",
+      "file": "staged/graphics/fig-03-attention-compute-flow.svg",
+      "kind": "architecture",
+      "draft_slug": "scaled-dot-product-attention",
+      "license": "Original schematic (series editorial, 2026)"
+    },
+    {
+      "id": "tph-fig-04",
+      "file": "staged/graphics/fig-04-three-topologies-2018.svg",
+      "kind": "architecture",
+      "draft_slug": "three-topologies",
+      "license": "Original schematic (series editorial, 2026)"
+    },
+    {
+      "id": "tph-fig-05",
+      "file": "staged/graphics/fig-05-context-mechanisms-timeline.svg",
+      "kind": "timeline",
+      "draft_slug": "flashattention-2022",
+      "license": "Original schematic (series editorial, 2026)"
+    },
+    {
+      "id": "tph-fig-06",
+      "file": "staged/graphics/fig-06-sparse-hybrid-landscape.svg",
+      "kind": "diagram",
+      "draft_slug": "hybrid-sparse-2024-2026",
+      "license": "Original schematic (series editorial, 2026)"
+    }
+  ]
+}

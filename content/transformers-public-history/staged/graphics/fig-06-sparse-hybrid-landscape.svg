@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" role="img" aria-labelledby="tphfig06-title tphfig06-desc">
+  <title id="tphfig06-title">Fig. 6 - Public sparse, hybrid, and linear-attention landscape (2024-2026 cards)</title>
+  <desc id="tphfig06-desc">Concept map of public model cards and papers that combine attention blocks with state-space or sparse routing; editorial summary only.</desc>
+  <defs>
+    <style>
+      .bg { fill: #F1F5F9; }
+      .hub { fill: #1E293B; }
+      .hub-t { fill: #FFFFFF; font-family: 'Segoe UI', system-ui, sans-serif; font-size: 14px; font-weight: 600; }
+      .node-a { fill: #DBEAFE; stroke: #1D4ED8; stroke-width: 1.3; }
+      .node-b { fill: #FCE7F3; stroke: #BE185D; stroke-width: 1.3; }
+      .node-c { fill: #D1FAE5; stroke: #047857; stroke-width: 1.3; }
+      .t { font-family: 'Segoe UI', system-ui, sans-serif; font-size: 12px; fill: #0F172A; }
+      .note { font-family: 'Segoe UI', system-ui, sans-serif; font-size: 11px; fill: #64748B; }
+      .link { stroke: #94A3B8; stroke-width: 1.2; fill: none; }
+    </style>
+  </defs>
+  <rect class="bg" width="1000" height="520"/>
+  <text x="36" y="40" class="t" font-size="20" font-weight="bold">Sparse / hybrid public cards (schematic map)</text>
+  <text x="36" y="64" class="note">Draft tph-48 territory - names label public artifacts only; no private routing speculation.</text>
+
+  <circle cx="500" cy="260" r="56" class="hub"/>
+  <text x="468" y="256" class="hub-t">2017</text>
+  <text x="452" y="276" class="hub-t">attention block</text>
+
+  <rect x="80" y="100" width="200" height="64" class="node-a" rx="8"/>
+  <text x="96" y="128" class="t" font-weight="600">Sparse patterns</text>
+  <text x="96" y="148" class="note">local + global tokens</text>
+  <line class="link" x1="280" y1="132" x2="444" y2="230"/>
+
+  <rect x="720" y="100" width="200" height="64" class="node-b" rx="8"/>
+  <text x="736" y="128" class="t" font-weight="600">State-space hybrids</text>
+  <text x="736" y="148" class="note">Mamba-class public papers</text>
+  <line class="link" x1="720" y1="132" x2="556" y2="230"/>
+
+  <rect x="80" y="360" width="200" height="64" class="node-c" rx="8"/>
+  <text x="96" y="388" class="t" font-weight="600">KV compression</text>
+  <text x="96" y="408" class="note">MLA / low-rank public cards</text>
+  <line class="link" x1="280" y1="392" x2="444" y2="290"/>
+
+  <rect x="720" y="360" width="200" height="64" class="node-a" rx="8"/>
+  <text x="736" y="388" class="t" font-weight="600">MoE routing</text>
+  <text x="736" y="408" class="note">public Switch / Mixtral lineage</text>
+  <line class="link" x1="720" y1="392" x2="556" y2="290"/>
+
+  <text x="36" y="490" class="note">Read individual cards for arXiv ids, config fields, and explicit withhold fences.</text>
+</svg>

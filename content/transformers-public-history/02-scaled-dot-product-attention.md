@@ -22,6 +22,13 @@ leads_to: ["tph-03", "tph-18", "tph-21", "tph-37"]
 **First public appearance:** 12 June 2017 (`arxiv-v1`), §3.2.1 of arXiv:1706.03762.
 **Primary source:** Vaswani et al., *Attention Is All You Need*.
 
+<figure class="tph-figure tph-figure--architecture">
+  <img src="content/transformers-public-history/staged/graphics/fig-03-attention-compute-flow.svg"
+       alt="Flowchart of scaled dot-product attention from Q K and V through softmax to output"
+       width="900" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Dataflow for scaled dot-product attention (§3.2.1, arXiv:1706.03762). Shows the public equation form used throughout the series.</figcaption>
+</figure>
+
 ## The claim
 
 The 2017 paper did not merely say "use attention." It specified a particular bilinear form and a

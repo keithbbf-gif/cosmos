@@ -23,6 +23,13 @@ leads_to: ["tph-02", "tph-03", "tph-04", "tph-05"]
 **Primary source:** Vaswani, Shazeer, Parmar, Uszkoreit, Jones, Gomez, Kaiser, Polosukhin,
 arXiv:1706.03762.
 
+<figure class="tph-figure tph-figure--architecture">
+  <img src="content/transformers-public-history/staged/graphics/fig-02-transformer-stack-2017.svg"
+       alt="Schematic diagram of the 2017 Transformer encoder and decoder stacks with attention and feed-forward sublayers"
+       width="960" height="640" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Encoder–decoder stack as publicly specified in <em>Attention Is All You Need</em> (12 June 2017). Editorial schematic — not a scan of the paper figure panel.</figcaption>
+</figure>
+
 ## The claim
 
 On 12 June 2017 the first public draft of *Attention Is All You Need* described a sequence

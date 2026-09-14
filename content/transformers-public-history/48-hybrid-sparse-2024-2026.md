@@ -23,6 +23,13 @@ leads_to: ["tph-49"]
 interleaving boring; the fight continues through 2026.
 **Primary sources:** per row below. Prefer `config.json` over marketing when they disagree.
 
+<figure class="tph-figure tph-figure--architecture">
+  <img src="content/transformers-public-history/staged/graphics/fig-06-sparse-hybrid-landscape.svg"
+       alt="Concept map of public sparse hybrid state-space and MoE routes from the 2017 attention block"
+       width="1000" height="520" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Editorial map of public sparse, hybrid, and routing cards in the 2024–2026 band (draft tph-48). Names label cited artifacts only.</figcaption>
+</figure>
+
 ## The claim
 
 Once windows, linear states, and full softmax all exist, labs **mix them**, then publicly
