@@ -9,6 +9,8 @@ Gates this suite holds, each earned from a named failure class:
   * No fake ids - a blank/duplicate/mismatched row id is ID_UNSTABLE.
   * One BOUND verb reports a real gate; the other seven refuse VERB_NOT_BOUND.
   * The shell is an exact-match allowlist - unknown and traversal are 404.
+  * Declared Content-Length over MAX_RESPONSE_BYTES is TOO_LARGE before read.
+  * Open projects a turn page only - full text never re-serialized.
   * ADDITIVE: cDeck's Sessions route and UI allowlist are still intact, and
     nothing in cosmos/ or builds/session-tools/ depends on this app.
 
@@ -200,7 +202,8 @@ def t_open_legal_is_counted_not_opened():
     return (rec["ok"] is False and rec["kind"] == "LEGAL_OMITTED"
             and rec["omission"]["opened"] == 0
             and rec["omission"]["counted"] == 1
-            and rec["text"] is None and rec["text_len"] is None)
+            and rec["text"] is None and rec["text_len"] is None
+            and rec["turns"] == [] and rec["n_turns"] == 0)
 
 
 def t_core_error_body_keeps_null_count():
@@ -233,6 +236,55 @@ def t_token_absent_is_none_not_a_crash():
     return (core.read_token(td) is None
             and core.read_token(None) is None
             and core.read_token(td, "abc") == "abc")
+
+
+def t_declared_oversize_refuses_before_read():
+    """Content-Length over MAX_RESPONSE_BYTES is TOO_LARGE with size+cap, and
+    read() is never called on the response."""
+    oversized = core.MAX_RESPONSE_BYTES + 1
+
+    class FakeResp:
+        def __init__(self):
+            self.headers = {"Content-Length": str(oversized)}
+            self.read_calls = 0
+            self.closed = False
+
+        def read(self, n=-1):
+            self.read_calls += 1
+            return b"x" * (n if n > 0 else oversized)
+
+        def close(self):
+            self.closed = True
+
+    fake = FakeResp()
+    try:
+        core._read_capped(fake)
+        return False
+    except SessionsAppRefusal as e:
+        return (e.kind == "TOO_LARGE"
+                and e.fields.get("size") == oversized
+                and e.fields.get("cap") == core.MAX_RESPONSE_BYTES
+                and fake.read_calls == 0
+                and fake.closed is True)
+
+
+def t_open_paginates_turn_range():
+    """Only the requested half-open turn range is projected; full text stays off
+    the wire (text is null, text_len/n_turns remain measured)."""
+    body = {
+        "ok": True, "kind": "OPENED", "id": "cow-abc",
+        "opencode_id": "ses_cow_abc", "title": "clocks",
+        "text": "turn-zero\n\nturn-one\n\nturn-two\n\nturn-three",
+    }
+    rec = recents.project_open(200, body, "cow-abc", "stub",
+                               turn_from=1, turn_to=3)
+    return (rec["ok"] is True
+            and rec["text"] is None
+            and rec["text_len"] == len(body["text"])
+            and rec["n_turns"] == 4
+            and rec["turn_from"] == 1 and rec["turn_to"] == 3
+            and [t["text"] for t in rec["turns"]] == ["turn-one", "turn-two"]
+            and [t["seq"] for t in rec["turns"]] == [1, 2])
 
 
 # ------------------------------------------------------------------- verbs
@@ -364,7 +416,11 @@ def t_shell_and_api_end_to_end():
         orec = json.loads(raw)
         opened_ok = (code == 200 and orec["id"] == "cow-abc"
                      and orec["opencode_id"] == "ses_cow_abc"
-                     and orec["text_len"] == len(orec["text"]))
+                     and orec["text"] is None
+                     and isinstance(orec["text_len"], int) and orec["text_len"] > 0
+                     and orec["turn_from"] == 0
+                     and isinstance(orec["turns"], list) and len(orec["turns"]) >= 1
+                     and orec["n_turns"] >= len(orec["turns"]))
 
         code, _h, raw = _get(a.port, "/api/sessions/open?id=../etc/passwd")
         bad_id = code == 400 and json.loads(raw)["error"] == "BAD_ID"
@@ -474,6 +530,8 @@ CHECKS = (
     ("Core down is CORE_UNREACHABLE", t_core_down_is_unreachable_not_empty),
     ("Core 401 is CORE_REFUSED", t_core_401_is_refused),
     ("absent token is None", t_token_absent_is_none_not_a_crash),
+    ("declared oversize is TOO_LARGE + size", t_declared_oversize_refuses_before_read),
+    ("open paginates turn range", t_open_paginates_turn_range),
     ("registry names all 8 verbs, 1 bound", t_registry_names_the_whole_set),
     ("DECLARED verbs refuse", t_declared_verbs_refuse),
     ("scan BOUND end-to-end on the fixture", t_scan_is_bound_end_to_end),
