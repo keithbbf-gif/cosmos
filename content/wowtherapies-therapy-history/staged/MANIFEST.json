@@ -2,32 +2,32 @@
   "figures": [
     {
       "file": "staged/graphics/fig-01-timeline-psychotherapy.svg",
-      "sha256": "77276996a508f2b66fb0db5c75ae899e59c14a6842faf7c0cd52668f0dd77c4a",
+      "sha256": "e52d9f0f60659ef9bd0d012e836b9cf026ec62616e0d1c1f530475e30f5385d1",
       "viewBox": "0 0 1200 520"
     },
     {
       "file": "staged/graphics/fig-02-schools-of-thought.svg",
-      "sha256": "11858c1724fd12e65e881774401e13fec301c31eef200a52238c5bbc388b780a",
+      "sha256": "a79b899d1a5324e3f002f5949c52e4fe2e100f9ea002a16b50bcfc792afd559d",
       "viewBox": "0 0 1200 640"
     },
     {
       "file": "staged/graphics/fig-03-portrait-plate-freud.svg",
-      "sha256": "d2898dd48858f85a4551b8349d8c10711266d2212c89647e34a033d214ab8deb",
+      "sha256": "6c9d0632dea8e3b5191cc62b870209eb505dca5d508bd6b88e62223cd574bba6",
       "viewBox": "0 0 960 720"
     },
     {
       "file": "staged/graphics/fig-04-portrait-plate-rogers.svg",
-      "sha256": "02c172cf009376dc0ab2953319ecd2f213db55b4956889ef90db73bc2eddcfcb",
+      "sha256": "6aeffd87df99ef83c4039c54b111ccd97231e219a011336c3c5f6a2732a9949b",
       "viewBox": "0 0 960 720"
     },
     {
       "file": "staged/graphics/fig-05-portrait-plate-beck.svg",
-      "sha256": "dffd6615feb70d5de4b9a6011eb3f0773b8cd5423c3e949c67b4016f2601ff4b",
+      "sha256": "929b0434ff7c676a8022d707d9844cb2347cac0b5e0b1104e75e8c16023e167c",
       "viewBox": "0 0 960 720"
     },
     {
       "file": "staged/graphics/fig-06-portrait-plate-ellis.svg",
-      "sha256": "dafc7826311939f141d5a52196986f3f999e6b0ae9d1425903f559a82657e97f",
+      "sha256": "f44fa1a396589a044fe38ffad1ab5975ea771fbbf45492bcf07bae4c0cc494cf",
       "viewBox": "0 0 960 720"
     }
   ]

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="fig01-title fig01-desc">
-  <title id="fig01-title">Fig. 1  Landmarks in psychotherapy and counseling (1850present)</title>
+  <title id="fig01-title">Fig. 1 - Landmarks in psychotherapy and counseling (1850-present)</title>
   <desc id="fig01-desc">Horizontal timeline from moral treatment and hypnotism through psychoanalysis, behavior and cognitive therapies, humanistic approaches, and integrative third-wave models.</desc>
   <defs>
     <style>
@@ -27,7 +27,7 @@
   <rect x="0" y="0" width="1200" height="6" fill="#6B2D3E"/>
   <text x="48" y="42" class="ink caps">Fig. 01</text>
   <text x="48" y="72" class="ink" font-size="26" font-weight="bold">Psychotherapy on a timeline</text>
-  <text x="48" y="98" class="muted note">Selected landmarks  not exhaustive. Dates mark first influential publication or founding clinic where noted.</text>
+  <text x="48" y="98" class="muted note">Selected landmarks - not exhaustive. Dates mark first influential publication or founding clinic where noted.</text>
   <line x1="48" y1="118" x2="1152" y2="118" class="rule" stroke-width="0.6" opacity="0.35"/>
 
   <!-- Era bands -->
@@ -46,7 +46,7 @@
 
   <!-- Main axis -->
   <line x1="80" y1="280" x2="1120" y2="280" class="rule" marker-end="url(#arrow)"/>
-  <text x="80" y="268" class="muted caps">Time -</text>
+  <text x="80" y="268" class="muted caps">Time</text>
 
   <!-- Year scale -->
   <g class="tick">
@@ -65,7 +65,7 @@
     <line x1="140" y1="280" x2="140" y2="220" class="tick"/>
     <circle cx="140" cy="214" r="5" fill="#6B2D3E"/>
     <text x="148" y="210" class="label ink">Moral treatment</text>
-    <text x="148" y="226" class="note muted">Pinel - Tuke - ~1790s1850s</text>
+    <text x="148" y="226" class="note muted">Pinel - Tuke - ~1790s-1850s</text>
 
     <line x1="260" y1="280" x2="260" y2="330" class="tick"/>
     <circle cx="260" cy="336" r="5" fill="#6B2D3E"/>
@@ -75,7 +75,7 @@
     <line x1="400" y1="280" x2="400" y2="220" class="tick"/>
     <circle cx="400" cy="214" r="5" fill="#6B2D3E"/>
     <text x="320" y="200" class="label ink">Jung - Adler - Klein</text>
-    <text x="320" y="216" class="note muted">Analytic schools branch - 1910s1930s</text>
+    <text x="320" y="216" class="note muted">Analytic schools branch - 1910s-1930s</text>
 
     <line x1="520" y1="280" x2="520" y2="330" class="tick"/>
     <circle cx="520" cy="336" r="5" fill="#4A6741"/>
