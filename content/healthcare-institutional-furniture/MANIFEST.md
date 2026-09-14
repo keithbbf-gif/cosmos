@@ -9,10 +9,10 @@ series: healthcare-institutional-furniture
 # Manifest
 
 Body word counts are tokens matching `[A-Za-z0-9']+` after YAML frontmatter, excluding the Sources section and See also.
-Target band: 1,400–2,200 (writer pass still lengthening short items). All items `status: draft`, `voice_check: written`.
+Target band: 1,400–2,200. All items `status: draft`, `voice_check: written`.
 Canonical files: `drafts/<slug>.md`. Slug list: `writer-slugs.json`.
 
-Counted: 42 drafts.
+Counted: 42 drafts. Total body words: 75,656. Average: 1801.
 
 | # | slug | title | words | file |
 |---|------|-------|------:|------|
@@ -57,7 +57,7 @@ Counted: 42 drafts.
 | 39 | `headwalls-and-overbed-light` | Headwalls and overbed light | 1852 | `drafts/headwalls-and-overbed-light.md` |
 | 40 | `medline-catalog-vs-the-mill` | The Medline catalog vs the mill | 1542 | `drafts/medline-catalog-vs-the-mill.md` |
 | 41 | `common-myths` | Common myths | 1600 | `drafts/common-myths.md` |
-| 42 | `what-this-series-is-not` | What this series is not | 1567 | `drafts/what-this-series-is-not.md` |
+| 42 | `what-this-series-is-not` | What this series is not | 1563 | `drafts/what-this-series-is-not.md` |
 
 ## Series files (not in word band)
 
@@ -71,8 +71,11 @@ Counted: 42 drafts.
 
 ## QA notes
 
-- All `primary_keyword` values unique. All slugs unique.
+- Independent recount 2026-09-14: all 42 inside 1,400–2,200. No missing drafts.
+- All `primary_keyword` values unique. All slugs unique. All `reading_order` values match `writer-slugs.json`.
 - Staged draft only. No WordPress publish dates.
 - No invented Medline SKUs, Medilodge POs, or client prices.
-- FDA 2006 counts (691 / 413 / 120 / 158) and CMS 80 / 100 / 71–81 locked to public text.
+- Locked public pins checked against public text this pass: FDA 2006 (691 / 413 / 120 / 158; 71 Fed. Reg. 12369); CMS 80 / 100 at 42 CFR 483.90(e)(1)(ii); MediLodge of Montrose 9317 W. Vienna Rd, CCN 235600, 121 certified beds (star ratings not frozen); Medline 1910 A.L. Mills lineage / 1966 Jim and Jon Mills, Evanston, later Northfield.
+- Later FDA hospital-bed pages carry a 1985–2013 pile (901 / 531). This series locks to the 2006 guidance numbers until a new artifact is cited.
+- Closing essay heading stripped of COSMOS / model-name talk (house style).
 - Writer pass 2026-09-14. Editor has not sat (`voice_check: written`).

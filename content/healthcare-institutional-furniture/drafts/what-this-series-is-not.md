@@ -81,7 +81,7 @@ If you came here to budget a wing, hire the person who walks your leftover and n
 
 If plates get shot for this pack, they are empty rooms, agency diagrams, shop wood, labels, a dock with no faces. A resident’s face turns a leftover into a testimonial. A testimonial is a different job. Catalog interiors and Medline product photography stay out. I will not steal a JPEG to look like I was more in the room than I was.
 
-## Not COSMOS, not AI, not a process story
+## Not a process story
 
 No other folder in this tree belongs in these sentences. No model names. No “how this was drafted.” If you can hear a machine, I failed the voice and an editor should cut.
 
