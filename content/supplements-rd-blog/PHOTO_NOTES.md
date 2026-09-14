@@ -24,6 +24,12 @@ These drafts are text-first. Images, if any, are diagrams or clearly labeled sto
 | 10 | What a finished-product COA lists | Redacted specimen you own | Unredacted third-party COA |
 | 12 | Structure/function vs disease-claim split | Original two-column | Gavel + bottle |
 | 16 | Identity / potency / contaminants / method stack | Original | Clipboard hero |
+| 18 | COSMOS *nutrition trial* factorial (MVM × cocoa) — say the long name | Redraw from AJCN methods | Software-logo confusion |
+| 19 | Melatonin assay vs label (table) | Typeset Cohen 2023 ranges | Sleeping cartoon child |
+| 23 | Lead chromate vs curcuminoid (schematic) | Original | Golden-milk steam |
+| 32 | "Not a dietary ingredient" list | Typeset | Gym-bro hero |
+| 35 | IU ↔ mcg D3 conversion | Typeset | Sunrise vitamin |
+| 40 | Four-gate audit | Original flowchart | Clipboard / gold seal |
 
 NIH ODS fact sheets and PubChem have public-domain structures. USP and NSF marks are trademarks — use only if the SKU is actually in the program, and follow their artwork rules.
 

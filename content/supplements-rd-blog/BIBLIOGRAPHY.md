@@ -106,6 +106,45 @@ Real sources used in the drafts. If a draft needed a number we could not pin, th
 - NSF Certified for Sport. https://www.nsfsport.com/
 - Informed-Sport (LGC). https://sport.wetestyoutrust.com/
 
+## Multivitamin / COSMOS nutrition trial (not this repo)
+
+- Sesso HD, et al. Multivitamins in the prevention of cancer and CVD: COSMOS. *Am J Clin Nutr.* 2022. PMID 35294969. NCT02422745.
+- Baker LD, et al. COSMOS-Mind. *Alzheimers Dement.* 2022. PMID 36102337.
+- Gaziano JM, et al. PHS II multivitamin. *JAMA.* 2012. PMID 23162860.
+
+## Melatonin / pediatrics
+
+- Cohen PA, Avula B, Wang YH, Katragunta K, Khan I. Quantity of melatonin and CBD in melatonin gummies sold in the US. *JAMA.* 2023. PMC10130950.
+- Lelak K, Vohra V, Neuman MI, Toce MS, Canning J. Pediatric melatonin ingestions. *MMWR.* 2022;71:725-729. PMID 35737571.
+- NIH ODS. Melatonin fact sheet. https://ods.od.nih.gov/factsheets/Melatonin-HealthProfessional/
+
+## NAC / NDI / FTC 2023 / SARMs
+
+- FDA. Policy Regarding N-acetyl-L-cysteine (final guidance PDF). https://www.fda.gov/media/157784/download
+- 21 U.S.C. § 350b (NDI notifications).
+- FDA. Draft guidance: NDI notifications and related issues; 2024 NDIN master-files slice. https://www.fda.gov/regulatory-information/search-fda-guidance-documents/draft-guidance-industry-new-dietary-ingredient-notifications-and-related-issues
+- 16 CFR Part 255 (Endorsement Guides), FR 2023-14795 (26 July 2023).
+- FTC. ~700 penalty-offense notices (13 April 2023). https://www.ftc.gov/news-events/news/press-releases/2023/04/ftc-warns-almost-700-marketing-companies-they-could-face-civil-penalties-if-they-cant-back-their
+- FDA. Warrior Labz SARMS warning letter 655280 (12 June 2023). https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/warrior-labz-sarms-655280-06122023
+- DoD Operation Supplement Safety. https://www.opss.org/
+
+## Botanicals / liver / fiber / men's
+
+- LiverTox. Green Tea. NCBI Bookshelf NBK547925.
+- EFSA ANS Panel. EGCG / green tea catechins. *EFSA Journal* 2018;16(4):5239.
+- Gibson GR, et al. ISAPP prebiotic consensus. *Nat Rev Gastroenterol Hepatol.* 2017. PMID 28611380.
+- Swanson KS, et al. ISAPP synbiotic consensus. *Nat Rev Gastroenterol Hepatol.* 2020. PMID 32810439.
+- Tacklind J, et al. Saw palmetto for BPH. *Cochrane Database Syst Rev.* 2012;12:CD001423.
+- Yin J, Xing H, Ye J. Berberine in type 2 diabetes (early RCT). *Metabolism.* 2008;57:712-717.
+- Proksch E, et al. Collagen peptides and skin. *Skin Pharmacol Physiol.* 2014;27:47-55.
+- Choi FD, et al. Oral collagen and skin (review). *J Drugs Dermatol.* 2019.
+- USP <467> Residual Solvents.
+- FDA tainted-supplements page. https://www.fda.gov/food/dietary-supplement-products-ingredients/tainted-products-marketed-dietary-supplements
+- FASTER Act (sesame as ninth major allergen, labeling 2023).
+- 21 CFR 101.36 (supplement facts); 21 CFR 101.9; 21 CFR 101.81 (psyllium soluble-fiber claim — exact wording if used).
+- CDC / state turmeric-lead investigations (multiple MMWR/state notices 2017–2024; `[VERIFY]` the specific notice before quoting a ppm).
+- NIH ODS fact sheets: Folate; Iron; Calcium; Vitamin K; Potassium; Sodium; Protein.
+
 ## Secondary legal notes (not primary, used to locate PDFs)
 
 - NutraIngredients, Nutritional Outlook, Foley & Lardner, SupplySide — used to find FDA letter dates; drafts prefer the FDA/FTC PDF when the claim is legal status.
