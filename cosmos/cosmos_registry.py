@@ -306,6 +306,58 @@ class Registry:
                          "age_s": (now - v["last_probe"]) if v["last_probe"] else None})
         return rows
 
+    def matrix_view(self, max_age_s: float | None = PROOF_TTL_S) -> dict:
+        """API-facing rails snapshot: vendor model + freshness, fail-closed.
+
+        `verified` is True only on a FRESH runtime proof (rc==0, body, model).
+        Stale proofs stay visible with proof_state STALE and verified False so
+        panes can render RED without treating age as green.
+        """
+        now = self._clock()
+        live = self.live_nodes(max_age_s)
+        stale = self.stale_nodes(max_age_s)
+        rows: list[dict] = []
+        for lid, v in sorted(self.state().items()):
+            c = v["claim"]
+            base = {
+                "link_id": lid,
+                "rail_type": c["rail_type"],
+                "route": f"{c['src']}->{c['dst']}",
+                "age_s": (now - v["last_probe"]) if v["last_probe"] else None,
+            }
+            if lid in live:
+                row = {**base, **live[lid]}
+                row["verified"] = True
+                row["proof_state"] = "FRESH"
+            elif lid in stale:
+                row = {**base, **stale[lid]}
+                row["verified"] = False
+                row["proof_state"] = "STALE"
+            else:
+                model = str(v.get("model") or "")
+                ok = v.get("ok")
+                if ok is None:
+                    proof_state = "UNMEASURED"
+                    verified = None
+                else:
+                    proof_state = "FAILED"
+                    verified = False
+                row = {
+                    **base,
+                    "model": model,
+                    "rc": v.get("rc"),
+                    "body_bytes": v.get("body_bytes"),
+                    "verified": verified,
+                    "proof_state": proof_state,
+                }
+            rows.append(row)
+        return {
+            "measured_at": now,
+            "proof_ttl_s": max_age_s,
+            "matrix": rows,
+            "stale": [stale[k] for k in sorted(stale)],
+        }
+
     def route(self, src: str, dst: str,
               max_age_s: float | None = PROOF_TTL_S) -> list[dict]:
         """Candidate links for a route, DOM-first by policy_rank then rail preference.

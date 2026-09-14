@@ -192,6 +192,7 @@ from __future__ import annotations
 import hmac
 import json
 import os
+import sys
 import threading
 import time
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
@@ -438,8 +439,8 @@ def _cdeck_panel_invoke(hg, root, *, expected_tree_id, query=None):
 
 def _nodemap_overlay_kernel(kernel, body: dict) -> dict:
     """Disk rails.json is proven-live only (often count 0). GET /nodemap is
-    served while Kernel is up, so overlay registry.matrix() — the same rows
-    GET /rails already returns — when the disk projection has no rows.
+    served while Kernel is up, so overlay registry.matrix_view() — the same
+    snapshot GET /rails returns — when the disk projection has no rows.
     Does not rewrite the file; ledger stays authority."""
     if not isinstance(body, dict) or body.get("ok") is False:
         return body
@@ -451,20 +452,32 @@ def _nodemap_overlay_kernel(kernel, body: dict) -> dict:
     if kr is None:
         return body
     try:
-        mx = kr.matrix()
+        import importlib
+        from pathlib import Path as _P
+        d = str((_P(__file__).resolve().parent.parent / "builds" / "cdeck").resolve())
+        if d not in sys.path:
+            sys.path.insert(0, d)
+        nmp = importlib.import_module("cosmos_nodemap_panel")
+        view = kr.matrix_view()
     except Exception:  # noqa: BLE001
         return body
-    if not mx:
+    mx = view.get("matrix") or []
+    stale = view.get("stale") or []
+    if not mx and not stale:
         return body
+    by_link = nmp._index_matrix(mx, stale)
     meta = dict(reg)
     meta["available"] = True
-    meta["source"] = "kernel.matrix"
+    meta["source"] = "kernel.matrix_view"
     meta["schema"] = meta.get("schema") or "cosmos-registry/1"
     meta["matrix"] = mx
+    meta["stale"] = stale
+    meta["proof_ttl_s"] = view.get("proof_ttl_s")
     meta["composed"] = len(mx)
     meta["count"] = sum(1 for r in mx if r.get("verified") is True)
     out = dict(body)
     out["registry"] = meta
+    out["topology"] = {"nodes": nmp._merge_routing_nodes(by_link), "edges": []}
     return out
 
 
@@ -879,8 +892,8 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                                             "detail": "kernel has no registry - this is "
                                                       "a composition fault, not an empty "
                                                       "rails matrix"})
-                return self._send(200, {"measured_at": time.time(),
-                                        "matrix": reg.matrix()})
+                view = reg.matrix_view()
+                return self._send(200, view)
             if parsed.path == "/api/v1/surfaces":
                 sf = getattr(kernel, "surfaces", None)
                 if sf is None:
