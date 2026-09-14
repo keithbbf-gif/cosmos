@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" role="img" aria-labelledby="title desc">
+  <title id="title">Schematic: trauma-specific treatment versus trauma-informed organizational care</title>
+  <desc id="desc">Two-column comparison of billed trauma treatment methods and organization-wide trauma-informed practices. Educational only.</desc>
+  <defs>
+    <style>
+      .paper { fill: #F7F2E8; }
+      .col-t { fill: #E9D4DC; stroke: #6B2D3E; stroke-width: 1.5; }
+      .col-o { fill: #EDE6F2; stroke: #4338CA; stroke-width: 1.5; }
+      .h { font-family: Georgia, serif; font-size: 15px; font-weight: bold; fill: #1C1A17; }
+      .p { font-family: system-ui, sans-serif; font-size: 11px; fill: #5C564C; }
+      .title { font-family: Georgia, serif; font-size: 18px; font-weight: bold; fill: #1C1A17; }
+    </style>
+  </defs>
+  <rect class="paper" width="800" height="440"/>
+  <text x="40" y="36" class="title">Two jobs that share a word (schematic)</text>
+  <text x="40" y="58" class="p">Do not collapse trauma-specific treatment with trauma-informed organizational work.</text>
+  <rect class="col-t" x="40" y="80" width="340" height="280" rx="6"/>
+  <text x="56" y="108" class="h">Trauma-specific treatment</text>
+  <text x="56" y="132" class="p">Billed clinical encounter for a diagnosed injury</text>
+  <text x="56" y="152" class="p">Manuals, training institutes, research files</text>
+  <text x="56" y="172" class="p">Named in this series as arrivals  not taught here</text>
+  <text x="56" y="200" class="p" style="font-style:italic">Examples cited historically: PE, CPT, EMDR&</text>
+  <rect class="col-o" x="420" y="80" width="340" height="280" rx="6"/>
+  <text x="436" y="108" class="h">Trauma-informed care (systems)</text>
+  <text x="436" y="132" class="p">Claim about an organization or program</text>
+  <text x="436" y="152" class="p">Policies, intake, staffing, physical environment</text>
+  <text x="436" y="172" class="p">SAMHSA four Rs; Harris &amp; Fallot values</text>
+  <text x="436" y="200" class="p">A speech-language office may change seating or</text>
+  <text x="436" y="216" class="p">explanation style  that is still not PTSD treatment</text>
+  <text x="40" y="400" class="p">WOW Therapies educational history  original schematic. Not a service menu.</text>
+</svg>

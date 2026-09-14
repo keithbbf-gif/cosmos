@@ -20,5 +20,8 @@ Start here:
 | `WP_IMPORT.md` | Staging WordPress only |
 | `articles/` | The essays (`status: staging`) |
 | `check_pack.py` | Structural QA |
+| `GRAPHICS_INDEX.md` / `assets/` / `embeds/` | Original SVG figures + `<figure>` snippets |
+| `RIGHTS.md` | Credits; optional PD raster research notes |
+| `AGENTS_GRAPHICS.md` | Graphics agent contract |
 
 Educational only. Not medical advice. No DIY treatment protocols. No patient PHI.

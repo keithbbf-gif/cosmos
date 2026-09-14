@@ -7,7 +7,7 @@ Staged wave, 2026-09-14. Writer pass. `voice_check: human`. `status: staging`.
 | Era / institution essays | 24 |
 | Figure essays | 21 |
 | **Articles** | **45** |
-| Ops files | 10 (`README`, `INDEX`, `MANIFEST`, `STYLE_GUIDE`, `CLAIMS_GUARDRAILS`, `BIBLIOGRAPHY`, `PORTRAIT_SOURCES`, `PHOTO_NOTES`, `WP_IMPORT`, `check_pack.py`) |
+| Ops files | 15 (`README`, `INDEX`, `MANIFEST`, `STYLE_GUIDE`, `CLAIMS_GUARDRAILS`, `BIBLIOGRAPHY`, `PORTRAIT_SOURCES`, `PHOTO_NOTES`, `WP_IMPORT`, `check_pack.py`, `RIGHTS.md`, `GRAPHICS_INDEX.md`, `AGENTS_GRAPHICS.md`, `assets/`, `embeds/`) |
 
 ## Complementary (do not duplicate)
 

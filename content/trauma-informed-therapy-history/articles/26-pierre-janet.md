@@ -25,6 +25,21 @@ Pierre Janet was born in Paris in 1859 and died there in 1947, having outlived C
 
 The era essay in this pack stays with the 1889 claim. This figure stays with the life that claim had to survive.
 
+<figure class="wt-figure wt-figure--portrait" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/pierre-janet/portrait-plate-pj.svg"
+    alt="Portrait plate for Pierre Janet with monogram PJ; no embedded photograph"
+    width="720"
+    height="540"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Fig. 1.</strong> Pierre Janet (1859–1947), dissociation and automatism. Monogram plate pending credited photograph if editors add one.
+    <span class="figure-credit">WOW Therapies — no AI likeness.</span>
+  </figcaption>
+</figure>
+
 ## Le Havre, then the Salpêtrière, then the Collège
 
 Before Paris finished making him famous, Janet had already been watching patients at Le Havre. The provincial years matter. He was not only a student of Charcot’s displays. He was a philosopher who had decided that consciousness could be studied in pieces. The Salpêtrière gave him cases and a public. Charcot’s death in 1893 gave him a colder city. He taught at the Collège de France. He kept writing after *hysteria* had become an embarrassment.

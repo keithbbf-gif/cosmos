@@ -25,6 +25,21 @@ William Halse Rivers Rivers was born in 1864 and died, suddenly, in 1922. He had
 
 The era essay on shell shock stays with pensions and forgetting. This figure stays with the man who tried, in a military hospital, to treat speechlessness and terror without always reaching for electricity.
 
+<figure class="wt-figure wt-figure--portrait" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/w-h-r-rivers/portrait-plate-whr.svg"
+    alt="Portrait plate for W. H. R. Rivers with monogram WHR; no embedded photograph"
+    width="720"
+    height="540"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Fig. 1.</strong> W. H. R. Rivers (1864–1922), shell-shock work at Craiglockhart and after. Monogram plate — photograph embed only with logged license.
+    <span class="figure-credit">WOW Therapies educational history.</span>
+  </figcaption>
+</figure>
+
 ## Before the war, and why it matters
 
 Rivers was not invented by 1916. He had already worked on the nervous system, on vision, on kinship. The anthropological years are easy to romanticize and easy to indict. This essay will do neither at length. It will say that he arrived at Craiglockhart as a person who already believed that what people say, and what they cannot say, is data. That habit made him useful to men whose dreams were the war and whose waking life was a board that wanted them back in the line.

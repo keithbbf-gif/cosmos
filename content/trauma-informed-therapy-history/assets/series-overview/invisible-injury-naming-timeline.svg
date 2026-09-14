@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Schematic timeline: naming invisible injury from railway spine to trauma-informed systems</title>
+  <desc id="desc">Selected historical landmarks from nineteenth-century railway injury debates through PTSD diagnosis and federal trauma-informed organizational guidance. Not exhaustive.</desc>
+  <defs>
+    <style>
+      .paper { fill: #F7F2E8; }
+      .ink { fill: #1C1A17; font-family: Georgia, serif; }
+      .muted { fill: #5C564C; font-family: system-ui, sans-serif; font-size: 11px; }
+      .caps { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; }
+      .year { font-size: 12px; font-weight: bold; fill: #6B2D3E; }
+      .label { font-size: 12px; fill: #1C1A17; font-family: system-ui, sans-serif; }
+      .spine { stroke: #1C1A17; stroke-width: 2; fill: none; }
+      .band-a { fill: #E8DCC8; }
+      .band-b { fill: #D8E0EB; }
+      .band-c { fill: #D4E3D0; }
+      .band-d { fill: #EDE6F2; }
+      .dot { fill: #6B2D3E; }
+    </style>
+  </defs>
+  <rect class="paper" width="1200" height="520"/>
+  <rect x="0" y="0" width="1200" height="6" fill="#6B2D3E"/>
+  <text x="48" y="42" class="ink caps">Fig. 01  Schematic timeline</text>
+  <text x="48" y="72" class="ink" font-size="24" font-weight="bold">Invisible injury, public names</text>
+  <text x="48" y="98" class="muted">Selected landmarks  not a complete history. Dates mark publications or policy objects cited in this pack.</text>
+  <rect class="band-a" x="48" y="120" width="220" height="32" rx="2"/><text x="58" y="140" class="muted" style="font-weight:600">Industrial / courtroom</text>
+  <rect class="band-b" x="268" y="120" width="280" height="32" rx="2"/><text x="278" y="140" class="muted" style="font-weight:600">War &amp; official diagnosis</text>
+  <rect class="band-c" x="548" y="120" width="240" height="32" rx="2"/><text x="558" y="140" class="muted" style="font-weight:600">Civilian naming</text>
+  <rect class="band-d" x="788" y="120" width="364" height="32" rx="2"/><text x="798" y="140" class="muted" style="font-weight:600">Systems / trauma-informed orgs</text>
+  <line class="spine" x1="60" y1="280" x2="1140" y2="280"/>
+  <circle class="dot" cx="120" cy="280" r="6"/><text x="95" y="304" class="year">1866</text><text x="70" y="220" class="label">Erichsen,</text><text x="70" y="236" class="muted">railway spine</text>
+  <circle class="dot" cx="280" cy="280" r="6"/><text x="255" y="304" class="year">1915</text><text x="230" y="220" class="label">Shell shock</text><text x="230" y="236" class="muted">papers</text>
+  <circle class="dot" cx="420" cy="280" r="6"/><text x="395" y="304" class="year">1980</text><text x="370" y="220" class="label">PTSD in</text><text x="370" y="236" class="muted">DSM-III</text>
+  <circle class="dot" cx="560" cy="280" r="6"/><text x="535" y="304" class="year">1974</text><text x="500" y="220" class="label">Rape trauma</text><text x="500" y="236" class="muted">syndrome</text>
+  <circle class="dot" cx="700" cy="280" r="6"/><text x="675" y="304" class="year">2001</text><text x="650" y="220" class="label">Harris &amp;</text><text x="650" y="236" class="muted">Fallot systems</text>
+  <circle class="dot" cx="860" cy="280" r="6"/><text x="835" y="304" class="year">2014</text><text x="810" y="220" class="label">SAMHSA</text><text x="810" y="236" class="muted">SMA 14-4884</text>
+  <circle class="dot" cx="1020" cy="280" r="6"/><text x="995" y="304" class="year">2018</text><text x="970" y="220" class="label">ICD-11</text><text x="970" y="236" class="muted">CPTSD</text>
+  <text x="48" y="360" class="muted">Trauma-specific treatments (PE, CPT, EMDR, etc.) are not plotted here  this line is naming and systems history.</text>
+  <text x="48" y="380" class="muted">Educational schematic for WOW Therapies heritage series. Not medical advice.</text>
+</svg>

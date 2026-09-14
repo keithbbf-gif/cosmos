@@ -22,6 +22,21 @@ last_verified: 2026-09-14
 
 John Eric Erichsen was born in Copenhagen in 1818, trained in London, and died there in 1896 as a knighted surgeon whose name still sits on a generation of surgical textbooks. Trauma-informed care does not descend from him. What descends is a problem he could not leave in the operating theatre: a passenger who walks away from a collision and then, days later, cannot, with no wound a coroner admires.
 
+<figure class="wt-figure wt-figure--portrait" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/john-eric-erichsen/portrait-plate-jee.svg"
+    alt="Portrait plate for John Eric Erichsen with monogram JEE; no embedded photograph or AI likeness"
+    width="720"
+    height="540"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Fig. 1.</strong> John Eric Erichsen (1818–1896), surgeon associated with “railway spine” debates. Monogram editorial plate — embed a verified public-domain photograph at publish only; credit per <code>PORTRAIT_SOURCES.md</code>.
+    <span class="figure-credit">WOW Therapies — no synthetic likeness.</span>
+  </figcaption>
+</figure>
+
 The 1866 lectures published as *On Railway and Other Injuries of the Nervous System* are the reason he is in this pack. The era essay on railway spine stays with the system — steel, insurance, a lesion you could argue about. This figure stays with the surgeon who made the argument from a hospital that taught University College students how to see.
 
 ## A surgeon in a new machine’s decade

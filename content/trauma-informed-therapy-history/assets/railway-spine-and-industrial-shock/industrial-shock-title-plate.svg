@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img" aria-labelledby="title desc">
+  <title id="title">Typographic plate evoking Erichsen 1866 railway injury lectures  not a book scan</title>
+  <desc id="desc">Editorial title plate with period-style typography referencing On Railway and Other Injuries of the Nervous System. No photograph of patients or accidents.</desc>
+  <defs>
+    <style>
+      .paper { fill: #F7F2E8; }
+      .frame { fill: none; stroke: #1C1A17; stroke-width: 2; }
+      .inner { fill: #E8DCC8; stroke: #6B2D3E; stroke-width: 1; }
+      .title { font-family: Georgia, 'Times New Roman', serif; font-size: 22px; font-weight: bold; fill: #1C1A17; }
+      .sub { font-family: Georgia, serif; font-size: 14px; fill: #5C564C; }
+      .year { font-family: Georgia, serif; font-size: 48px; fill: #6B2D3E; font-weight: bold; }
+      .note { font-family: system-ui, sans-serif; font-size: 10px; fill: #5C564C; }
+      .rule { stroke: #1C1A17; stroke-width: 0.8; }
+    </style>
+  </defs>
+  <rect class="paper" width="720" height="480"/>
+  <rect class="frame" x="40" y="40" width="640" height="360" rx="2"/>
+  <rect class="inner" x="56" y="56" width="608" height="120" rx="2"/>
+  <text x="360" y="100" text-anchor="middle" class="year">1866</text>
+  <text x="360" y="140" text-anchor="middle" class="sub">University College Hospital lectures</text>
+  <line class="rule" x1="120" y1="200" x2="600" y2="200"/>
+  <text x="360" y="240" text-anchor="middle" class="title">On Railway and Other Injuries</text>
+  <text x="360" y="268" text-anchor="middle" class="title">of the Nervous System</text>
+  <text x="360" y="304" text-anchor="middle" class="sub">John Eric Erichsen  surgeons name for invisible injury</text>
+  <text x="360" y="340" text-anchor="middle" class="note">Editorial typographic plate  not a reproduction of the 1866 title page</text>
+  <text x="40" y="430" class="note">Use with essay on railway spine and industrial shock. No locomotive wreck photography; optional PD engravings require a row in RIGHTS.md before embed.</text>
+  <text x="40" y="448" class="note">WOW Therapies trauma-informed care history series.</text>
+</svg>

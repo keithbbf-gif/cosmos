@@ -28,6 +28,21 @@ That quarrel is the subject of this series. The counseling-heritage pack already
 
 ## Two jobs that share a word
 
+<figure class="wt-figure wt-figure--diagram" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/what-trauma-informed-is-not/treatment-vs-trauma-informed-systems.svg"
+    alt="Schematic two-column comparison of trauma-specific clinical treatment versus trauma-informed organizational care"
+    width="800"
+    height="440"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Fig. 1.</strong> Trauma-specific treatment and trauma-informed organizational work are different jobs (schematic). Confusing them is how a federal pamphlet phrase becomes advertising.
+    <span class="figure-credit">WOW Therapies — original schematic. Heritage education, not a service menu.</span>
+  </figcaption>
+</figure>
+
 **Trauma-specific treatment** is a billed encounter aimed at a diagnosed injury. Prolonged exposure, cognitive processing therapy, EMDR, and a dozen other schools belong to that job. They have manuals, training institutes, and argumentative research files. This series will name them as *arrivals*. It will not teach them.
 
 **Trauma-informed care** (Harris and Fallot also wrote “trauma-informed service system”) is a claim about an organization. SAMHSA’s 2014 pamphlet — HHS Publication SMA 14-4884, *SAMHSA’s Concept of Trauma and Guidance for a Trauma-Informed Approach* — boiled the claim into four assumptions the pamphlet called the four R’s. A program, organization, or system that is trauma-informed *realizes* the widespread impact of trauma and possible paths for recovery; *recognizes* signs in clients, families, staff, and others; *responds* by putting that knowledge into policies, procedures, and practices; and seeks to *resist* re-traumatization.

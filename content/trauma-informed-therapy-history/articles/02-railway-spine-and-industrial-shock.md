@@ -22,7 +22,22 @@ last_verified: 2026-09-14
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
 
-In 1866 the London surgeon John Eric Erichsen published *On Railway and Other Injuries of the Nervous System*, lectures he had given at University College Hospital. Trains were no longer a novelty. They were a system that could stop a body without leaving a wound a coroner admired. Passengers walked away from collisions and then, days later, could not. Erichsen gave the trouble a name the newspapers could spell: railway spine.
+In 1866 the London surgeon John Eric Erichsen published *On Railway and Other Injuries of the Nervous System*, lectures he had given at University College Hospital. Trains were no longer a novelty.
+
+<figure class="wt-figure wt-figure--document" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/railway-spine-and-industrial-shock/industrial-shock-title-plate.svg"
+    alt="Typographic editorial plate referencing Erichsen 1866 lectures On Railway and Other Injuries of the Nervous System, not a book scan"
+    width="720"
+    height="480"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Fig. 1.</strong> Erichsen’s 1866 lectures as a historical object (editorial typographic plate — not a reproduction of the title page). No wreck photography; optional PD engravings require <code>RIGHTS.md</code> clearance.
+    <span class="figure-credit">WOW Therapies — original SVG.</span>
+  </figcaption>
+</figure> They were a system that could stop a body without leaving a wound a coroner admired. Passengers walked away from collisions and then, days later, could not. Erichsen gave the trouble a name the newspapers could spell: railway spine.
 
 He was not writing a trauma-informed pamphlet. He was writing as a surgeon in a country that had invented both the passenger railway and the personal-injury bar. The book is a door into a problem this whole series keeps meeting: a person is injured in a way a spectator cannot see, and an institution has to decide whether the person is a patient, a malingerer, or a bill.
 

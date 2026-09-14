@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" role="img" aria-labelledby="title desc">
+  <title id="title">Schematic: SAMHSA four Rs and six principles from SMA 14-4884</title>
+  <desc id="desc">Organizational assumptions and principle list paraphrased from SAMHSA 2014 trauma-informed guidance. Federal pamphlet structure, not a therapy protocol.</desc>
+  <defs>
+    <style>
+      .paper { fill: #F7F2E8; }
+      .box { fill: #FFFFFF; stroke: #6B2D3E; stroke-width: 1.2; }
+      .h { font-family: Georgia, serif; font-size: 14px; font-weight: bold; fill: #1C1A17; }
+      .p { font-family: system-ui, sans-serif; font-size: 10px; fill: #5C564C; }
+      .title { font-family: Georgia, serif; font-size: 17px; font-weight: bold; }
+      .r { fill: #EDE6F2; stroke: #6B2D3E; stroke-width: 1; }
+    </style>
+  </defs>
+  <rect class="paper" width="900" height="500"/>
+  <text x="36" y="34" class="title">SAMHSA framework (schematic paraphrase)</text>
+  <text x="36" y="54" class="p">HHS Publication SMA 14-4884 (2014)  organizational guidance, not a treatment manual.</text>
+  <text x="36" y="88" class="h">Four assumptions (the four Rs)</text>
+  <rect class="r" x="36" y="100" width="200" height="72" rx="4"/><text x="48" y="122" class="p" style="font-weight:700">Realize</text><text x="48" y="138" class="p">widespread impact &amp; paths</text><text x="48" y="154" class="p">for recovery</text>
+  <rect class="r" x="248" y="100" width="200" height="72" rx="4"/><text x="260" y="122" class="p" style="font-weight:700">Recognize</text><text x="260" y="138" class="p">signs in clients, families,</text><text x="260" y="154" class="p">staff, others</text>
+  <rect class="r" x="460" y="100" width="200" height="72" rx="4"/><text x="472" y="122" class="p" style="font-weight:700">Respond</text><text x="472" y="138" class="p">integrate knowledge into</text><text x="472" y="154" class="p">policies &amp; practices</text>
+  <rect class="r" x="672" y="100" width="200" height="72" rx="4"/><text x="684" y="122" class="p" style="font-weight:700">Resist</text><text x="684" y="138" class="p">re-traumatization</text>
+  <rect class="box" x="36" y="200" width="836" height="240" rx="6"/>
+  <text x="52" y="228" class="h">Six principles (2014 list)</text>
+  <text x="52" y="252" class="p">1. Safety</text>
+  <text x="52" y="268" class="p">2. Trustworthiness and Transparency</text>
+  <text x="52" y="284" class="p">3. Peer Support</text>
+  <text x="52" y="300" class="p">4. Collaboration and Mutuality</text>
+  <text x="52" y="316" class="p">5. Empowerment, Voice and Choice (proper title)</text>
+  <text x="52" y="332" class="p">6. Cultural, Historical, and Gender Issues</text>
+  <text x="52" y="360" class="p">Harris &amp; Fallot (2001) named five system values earlier; the pamphlet accumulates  it does not replace the book.</text>
+  <text x="36" y="472" class="p">Verify wording against the PDF before print. WOW Therapies  original layout; government text is cited in article prose.</text>
+</svg>
