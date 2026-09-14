@@ -1,0 +1,70 @@
+---
+id: nlp-bt-19
+title: "Jelinek's lab: the speech people who taught NLP to count"
+slug: jelinek-and-the-speech-people
+series: nlp-before-transformers
+stage: draft
+status: staged
+publish: false
+novelty: public-record
+era: "1972-1990"
+topics: [Jelinek, speech, noisy-channel, IBM]
+---
+
+# Jelinek's lab: the speech people who taught NLP to count
+
+Frederick Jelinek's group at IBM is one of the
+reasons NLP became an empirical engineering
+field instead of remaining a branch of
+computational philosophy. Automatic speech
+recognition is unforgiving. The audio does
+not care about your competence grammar. Word
+error rate is public. You either decode the
+utterance or you do not.
+
+The noisy-channel recipe they used — acoustic
+model times language model, pick the word
+string that makes the observation likely —
+migrated into tagging, translation, and
+optical character recognition. It is the same
+recipe. Change the emission. Keep the prior.
+
+Jelinek's reputation in linguistic circles is
+the fired-linguist joke. I will not polish it
+into something kinder than it was. It named a
+real tension. Feature intuitions from
+syntax did not always move WER. Counts from
+more audio and a better n-gram often did.
+A lab that lives on WER will follow WER. That
+can look like contempt. It can also look like
+an obligation to the user who is dictating a
+letter.
+
+The technical objects that left the lab are
+ordinary now. N-gram language models with
+serious smoothing. HMMs for acoustics.
+Discriminative training later on. A culture
+of held-out sets. None of that was ordinary
+when they started in the 1970s.
+
+I also want the other IBM in the picture: the
+MT people in the same corporate weather. They
+shared the channel metaphor and the comfort
+with EM. A student reading only ACL might
+think statistical NLP was born at a
+university in 1993. A lot of it was born
+where there were reels of speech and a
+mandate to productize.
+
+When you see a 1990s ACL paper that writes
+P(tags) P(words|tags) and shrugs at deep
+structure, you are seeing Jelinek's weather
+system. The shrug is the point. Deep
+structure can wait if the error rate is
+moving.
+
+This is not an argument against linguistics.
+It is an argument about loss functions. Speech
+gave NLP a loss function that a sponsor could
+understand. The rest of the field borrowed it,
+sometimes too eagerly, sometimes just in time.
