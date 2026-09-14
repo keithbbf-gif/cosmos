@@ -39,6 +39,8 @@ B. F. Skinner's *Science and Human Behavior* (1953) and the later applied-behavi
 
 Token economies, exposure without the psychoanalytic story, and the first behavioral treatments of phobia and of some sexual problems (the last of these shaded, in too many hands, into coercive "reorientation" — name the harm, do not teach the protocol) all claimed this lineage. The 1973 removal of homosexuality from DSM-II as a disorder is part of the same decade's fight over what a behavior was *for*.
 
+Applied behavior analysis with people who cannot consent remains a live ethics argument, especially in autism services. This pack will not settle it. It will say: a school that began by conditioning an infant without a plan to reverse the fear has a duty to keep that origin in view whenever it talks about "the science of behavior." Jones is the corrective ancestor. Watson is the warning.
+
 ## Why analysts heard an insult
 
 Behavior therapy said, in effect: you do not need the childhood novel to change a habit. For a mid-century analyst, that was not a technical disagreement. It was a downgrade of meaning. For a patient who had spent years in an institute waiting list, it could be a relief.

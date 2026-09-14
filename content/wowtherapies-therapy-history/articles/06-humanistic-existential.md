@@ -43,6 +43,8 @@ Viktor Frankl's logotherapy is often flattened into a Holocaust parable. The fla
 
 Irvin Yalom, decades later, wrote the textbook that made existential therapy teachable in American residencies: *Existential Psychotherapy* (1980), after *The Theory and Practice of Group Psychotherapy* (1970) had already made him the group therapist's novelist-professor. Death, freedom, isolation, meaninglessness — he called them ultimate concerns. He wrote case stories that are literature. He did not write a protocol this essay will excerpt.
 
+Maslow's later writing on eupsychian management and on "self-actualizing" people is weaker than the revolt that made him useful. The hierarchy poster is a classroom object. The clinic kept a smaller claim: address a person as if choice were possible, even when it is currently not. That claim has to live next to assessment. A psychotic emergency is not a growth opportunity. Rogers and May both knew hospitals. Their worst students forgot.
+
 ## Encounter, and the hangover
 
 The same years produced encounter groups, Esalen, and a faith that a weekend of honesty could do what a year of analysis had not. Some people were helped. Some were stripped of defenses in a room that did not have to see them on Monday. The humanistic movement's shadow is not "feelings." It is the unregulated workshop as a substitute for a profession.
