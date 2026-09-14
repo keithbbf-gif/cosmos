@@ -11,6 +11,7 @@ type: figure
 order: 40
 portrait: none
 citations:
+  - "Kendall, Philip C. Journal of Consulting and Clinical Psychology, 1994."
   - "Kendall, Philip C. Coping Cat / child anxiety manuals, 1990s."
   - "Chambless, Dianne L., and Steven D. Hollon. Journal of Consulting and Clinical Psychology, 1998."
 status: publishable
@@ -50,19 +51,17 @@ Colleagues and students on later trials are easy to drop. Do not turn this plaqu
 
 If a later editor wants a specific first-manual year on the bibliography, verify the edition and add it. Do not guess a year we have not opened. The 1990s as a decade is the honest mark until then.
 
-## A smaller chair, a 1990s sequence
+## 1994, a child-anxiety trial the lists could see
 
-Children were not the 1979 object's first waiting room. Someone had to write hours for a smaller chair. Coping Cat is the name trainees remember. This pack remembers a decade, a Temple shop, and many hands. Manual families are not lone geniuses. Learn 1979's lesson again.
+Kendall published "Treating Anxiety Disorders in Children: Results of a Randomized Clinical Trial" in the *Journal of Consulting and Clinical Psychology* in 1994. Coping Cat is the name American trainees remember for the manual family around that work. This page will not reprint steps, a child's worksheet, or a drawn cat as art. Cute is the risk. His better pages refuse cute. Slide decks that keep the cat and drop the refusal are not his best students. PHOTO_NOTES already banned child-in-lab thumbnails. Type is enough: a 1990s manual family, a Temple address, a literature.
 
-Living child-anxiety researcher, extra care. No steps. No child's worksheet. No child photograph. No booking button on a young person's suffering. School and court systems already ask clinics to fix children. History pages must not join the ask. A cute title is a risk. His better pages refuse cute. Slide decks that keep the cat and drop the refusal are not his best students.
+Children had not been the 1979 depression manual's first waiting room. Someone had to write hours for a smaller chair. He did that writing, with colleagues and students this page will not turn into a directory. Manual families are shops. Shops have many hands. This pack has already learned that lesson from 1979. Learn it again. Teachability is again the virtue. A supervisor can watch a tape. A trial can name a package. Division 12's lists could smile on a specified problem and a specified treatment. Smiles fund training clinics. They also risk treating a child as a small adult with a cute title.
 
-Computer-assisted cousins and later editions are product history. Do not recommend a living storefront. If a later editor opens a first-manual edition with a year, add it. Until then, 1990s as a decade is the honest mark. Rural clinics that see a child are not therefore running his sequence. Do not imply they are. Implication is how service sneaks into heritage.
+A 1998 training clinic that put a cat on a binder and a child in a protocol was meeting filmability's gift and its risk. Gift: a younger hour could be watched. Risk: cute eats refusal. Later adaptations and computer-assisted cousins are a publishing and product history. Quote the year you mean. Do not name a current child app as a recommendation. Living storefronts are advertisements. If a later editor opens a first-manual edition with a year, add it. Until a colophon is opened, "1990s" remains an honest decade mark beside the 1994 trial.
 
-A 1998 training clinic that put a cat on a binder and a child in a protocol was meeting filmability's gift and its risk. Gift: a younger hour could be watched. Risk: cute eats refusal. This plaque keeps the refusal. Living, extra care: no steps, no child photo, no school-fix ask. Many hands. 1990s decade until an edition is opened. Rural child hour is not therefore his sequence. Do not imply.
+"CBT" on a family website often means a child's hour. A rural clinic that sees a child is not therefore running Coping Cat. Implication is how service pages sneak into heritage URLs. The critiques still apply. A child's "distortion" may be a description of a house. Schools and courts already ask clinics to fix children. History pages must not join that ask. This URL names a 1990s object. It does not offer a fix.
 
-A 1990s binder with a drawn cat is a guild object this page will not reproduce as art. Cute is the risk. Refusal is the better page. Living extra care: no steps, no child image, no fix-ask from school or court joined here. Temple shop, many hands. Filmability gift. Implication ban: seeing a child is not running his sequence. Edition year when opened. Computer cousins not recommended. Extra refuse: no booking, no invented child vignette, no lab thumbnail, decade mark honest, stop.
-
-Leave the cat on a binder we will not draw. Leave the child off the thumbnail. Leave the school-fix ask unanswered. Temple is a shop of many hands. A rural child hour is another shop. Implication is a sneak. Decade mark until a colophon is opened.
+Living child-anxiety researcher, public professional objects only. No booking button on a young person's suffering. No invented child vignette. No protocol. WOW Therapies does not inherit Coping Cat. A small-city reader who heard the name in a school meeting has met a guild object. Guild objects are dates. 1994. Temple. A cat that became a brand. Brands flatten. Years prevent the flatten if we keep them.
 
 ## Portrait
 

@@ -11,6 +11,8 @@ order: 24
 portrait: none
 citations:
   - "Kelly, George A. The Psychology of Personal Constructs. 1955."
+  - "Bannister, Don. Acta Psychologica, 1962 (British experimental neighbor; [VERIFY] volume/pages before print)."
+  - "Bannister, Don, and Fay Fransella. Inquiring Man. 1971."
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
@@ -48,17 +50,17 @@ A rural reader who has never heard his name has still met the weather: the idea 
 
 He wrote other papers; the two volumes are the object this pack will keep naming. Later PCP handbooks are a guild's afterlife. Afterlives are allowed. They are not 1955. Date the book. Refuse the handout.
 
-## 1905–1967, a life that missed the list-world
+## 1962, British work while he was still teaching
 
-He was born before Ellis, died the year Beck's depression book appeared, and never saw DSM-III or Division 12's tables. A psychology of anticipation did not apply for those later tickets. Later courtesy filed him as precursor. Courtesy is not what he asked. He asked for two volumes and a person treated as a scientist of their own forecasts.
+Don Bannister was already publishing British experimental work in Kelly's language in the early 1960s, while Kelly was still at Ohio State. The conventional first-year in later construct bibliographies is Bannister's 1962 *Acta Psychologica* paper; a later editor should open that issue before the volume is printed as gospel. The historical claim does not depend on one page number. Personal construct psychology had a transatlantic life before DSM-III, before Division 12's tables, and before anyone needed a 1979-shaped manual. Ohio State is a quiet address. Quiet addresses are easy to skip when a family story wants a parlor or a ward.
 
-Bannister and Fransella's British afterlife is the proof that 1955 did not need Penn in order to stay alive. IAPT did not staff him. Occupational psychologists did. "CBT" as an administrative category arrived after he was gone and did not invite the two volumes to the procurement meeting. This plaque is the invitation a procurement meeting will not send. Come for the year. Do not leave with a grid.
+He died in 1967, the same year Hoeber issued Beck's *Depression*. The coincidence is a historian's convenience, not a succession. Kelly did not hand Beck a baton. He missed the decade that would have asked him to film a sequence a camera could see. Whether he would have written one is a parlor game this pack will not play. What he left is two Norton volumes that treat a person as a scientist of their own forecasts, and a Role Construct Repertory Test that escaped the theory the way inventories always escape.
 
-Ohio State remains the working address this pack will print. Other campus years, if a later editor verifies them, may be added. Do not invent a parlor he did not run. He ran a department and a book. Departments are quieter than East 65th Street. Quiet is not absence.
+Bannister and Fay Fransella's later British books — *Inquiring Man* appeared in 1971, after he was gone — are the afterlife American textbooks under-file. IAPT did not staff that afterlife. Occupational psychologists and a construct society did. "CBT" as an administrative category arrived later and did not invite the two volumes to the procurement meeting. Filing him as a courtesy precursor is a later courtesy. He asked for a psychology. This URL reprints the ask.
 
-A 1960 doctoral student at Ohio State who underlined "range of convenience" and never ran a trial is the 1955 book's real first audience. Audiences like that do not make lists. They make a society that outlived him in Britain. This plaque is for that audience, not for a procurement meeting. Two volumes. A quiet department. No parlor. No grid.
+A 1955 Norton invoice for two volumes is a comic object and a serious one. Someone had to pay for a psychology that would not pamphlet. Payments like that do not impress list-makers. They impress this pack. Identity as a draft was a philosophical dare in those pages, not a week of homework. Constructs in pairs were a theory of anticipation, not a quiz. This page will not print a grid. Type is enough: George A. Kelly, 1905–1967.
 
-A 1955 Norton invoice for two volumes is a comic historical object and a serious one: someone had to pay for a psychology that would not pamphlet. Payments like that do not impress list-makers. They impress this pack. Quiet department. Dead in 1967. British afterlife. No grid on this URL. Eight more sentences of refusal: identity as a draft is a dare, not a week-long homework; constructs in pairs are a theory, not a quiz; Ohio State is an address, not a brand; courtesy precursor is a later filing; he did not apply; we will not apply for him; type only; stop.
+A rural reader who has never heard his name has still met the weather — the idea that a person might be wrong in a patterned way, and that the pattern might be testable. Beck wrote that weather down as data. Ellis shouted at it as a demand. Kelly wrote it as a system. 1955 is crowded if you look. Looking is this plaque's job. Date the book. Leave the handout in the century that wanted one.
 
 ## Portrait
 

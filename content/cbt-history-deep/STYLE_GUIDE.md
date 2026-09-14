@@ -54,7 +54,7 @@ Also drop the cousins: "navigate," "tapestry," "plethora," "utilize," "harness,"
 4. Mark uncertainty. `[CITE NEEDED]` or a plain "historians disagree" beats a clean falsehood.
 5. Put Beck, Ellis, and the later names in their decade. Do not offer them as current treatment manuals.
 6. Give women, British, South African, and later international work full essays, not a closing paragraph titled "also."
-7. Stop when the piece has said the thing. Target 1,000–1,800 words for figures, 1,200–2,000 for era essays. Cut the recap paragraph if it only restates the headings. `check_pack.py` fails an era under 1,200 words or a figure under 1,000. Deepen with dated scenes, not with recap.
+7. Stop when the piece has said the thing. Target 1,000–1,800 words for figures, 1,200–2,000 for era essays. Cut the recap paragraph if it only restates the headings. `check_pack.py` fails an era under 1,200 words or a figure under 1,000. Deepen with a new dated object — a paper, a shop, a second book — not with recap and not with telegram fragments ("Living extra care: no face, no form, stop."). If the last section only restates the first three, rewrite it.
 
 ## Claims posture
 

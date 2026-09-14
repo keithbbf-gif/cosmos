@@ -12,6 +12,7 @@ order: 38
 portrait: none
 citations:
   - "Burns, David D. Feeling Good: The New Mood Therapy. 1980."
+  - "Burns, David D. The Feeling Good Handbook. 1989."
   - "Beck, Aaron T., et al. Cognitive Therapy of Depression. 1979."
   - "Beck, Aaron T. Depression. 1967."
 status: publishable
@@ -51,19 +52,17 @@ He later argued, in public professional settings, about empathy and about what p
 
 If a later editor opens a specific dated paper of his from the 1980s Penn orbit, add it. Do not invent a trial to dignify a bookstore book. The book is already historical. Dignity is the year, not a p-value we do not have on this page.
 
-## A bookstore, a kitchen table, a limit
+## 1989, a handbook that is still not the 1979 manual
 
-1980 put a grandchild of Penn where uncles could point. Pointing is access. Pointing is also a parlor game of "distortions" that is hard on a sentence that is a description. The critiques essay holds the charge. This plaque holds the table.
+Morrow issued *Feeling Good: The New Mood Therapy* in 1980. Plume issued *The Feeling Good Handbook* in 1989. The second object is a later public book this page will also not assign. Two bookstore years do not make a Guilford workforce manual. The 1979 Beck, Rush, Shaw, and Emery volume remains a different social class of object. The 1967 Hoeber *Depression* remains a colleague's volume above both. Confusing the classes is how a brochure writes "Beck" on a paperback Burns wrote.
 
-Living popularizer, extra care. No exercises. No jacket as free art. He had been in the Beck household. Households produce public books. Ellis had produced one in 1961 in a louder weather. Burns produced one in a medical-school quiet after the manual and at the start of the checklist decade. Two public books. Two Americas. Keep both.
+He had worked in the Beck household. Households produce popularizers. Popularizers are easy to sneer at from a seminar and easy to over-trust from a waiting room. This pack will do neither. 1980 is a date when cognitive therapy found a mass audience. Mass audiences change a school. They fund it. They flatten it. Both happened. A 1981 book-group of nonclinicians who argued about a "distortion" list was that audience arriving. Vocabulary travel is a historical fact. Travel is how a hospital language becomes a kitchen-table language. Kitchen tables are not clinics. Parlor games of "distortions" are hard on people whose sentence is a description. The critiques essay holds that charge. This figure holds the object that carried the vocabulary into living rooms.
 
-Later podcasts and workbooks are afterlives. Quote 1980 when you mean 1980. A book is not a therapist — the limit this series exists to keep printing. Rural readers who entered through this paperback entered a door. Name it as a door. Do not staff it as a clinic. Do not invent a p-value to dignify a Morrow object. The year is the dignity.
+Ellis had already written a public book in 1961. Burns's 1980 book is a different weather: post-manual, post-the-start-of-the-checklist-decade, friendlier to a medical-school quiet than to a roast. Two public books, two Americas. Keep both. He later argued, in public professional settings, about empathy and about what popular CBT had dropped. Late arguments are allowed. They do not cancel 1980. They are a popularizer looking back at a flattening he helped make possible.
 
-A 1981 book-group of nonclinicians who argued about a "distortion" list was the mass audience arriving. Audiences fund and flatten. This plaque dates the arrival. Living, extra care: no exercises, no p-value costume, 1961 Ellis public book as a different weather. Uncle-pointing is access. Kitchen-table games are hard on descriptions. Limit stands: a Morrow book is not a therapist. 1980 is the dignity.
+If a later editor opens a specific dated paper of his from the 1980s Penn orbit, add it. Do not invent a trial to dignify a bookstore book. The book is already historical. Dignity is the year, not a p-value we do not have on this page. Later editions, workbooks, and a podcast afterlife are a publishing history. Quote the year you mean. Do not use a 2020s storefront as a 1980 fact.
 
-A 1980 remainder table at a chain store is how a hospital language reached a kitchen. Reaching is access and flatten. Living extra care: no chapter assigned, no jacket free, no trial costume. 1961 Ellis different weather. 1967 Hoeber above. 1979 manual beside. 1980 table. Uncle pointing. Distortion parlor game. Description injured. Limit: book not therapist. Later podcast afterlife dated if mentioned. Dignity is the year. Extra refuse: no CTA, no 'feeling good' service adjective, no p-value, no halo, kitchen not clinic, stop.
-
-Set 1980 on a chain-store table and leave it there. Uncles may point. Clinics may not assign. Hoeber stays above. Guilford 1979 stays beside. Ellis 1961 stays a different weather. No jacket. No CTA. Kitchen language is a historical fact, not a care plan.
+Living popularizer, public book only. No chapter assigned. No jacket as free art. No "feeling good" call to book. A rural reader who met cognitive therapy first through the 1980 paperback has met a real door. The door is not the 1967 book and not a licensed hour. Name it as a door. Do not staff it as a clinic. A book is not a therapist. That limit is the reason this series exists.
 
 ## Portrait
 
@@ -71,6 +70,6 @@ Type only. Jacket ©.
 
 ## Sources
 
-Burns 1980; Beck et al. 1979; Beck 1967 as the class above the bookstore. Era: `depression-manual-1979`.
+Burns 1980 and 1989; Beck et al. 1979; Beck 1967 as the class above the bookstore. Era: `depression-manual-1979`.
 
 *WOW Therapies educational series. This pack deepens the CBT lane of the therapy-history calendar; it is complementary to the SLPWOW speech-pathology history pack.*

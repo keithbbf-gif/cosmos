@@ -57,7 +57,7 @@ The Institute's own history says clinical hours dominated the first years and tr
 
 Living people get extra care. We have the book, the 1994 founding, the public role as president. We do not have a right to a photograph, a health story, or a fake supervision relationship with WOW Therapies. If she publishes a dated memoir, add it. Until then, the portable hardback and the shop are enough. Second generation is a job, not a sentiment. She did the job. Date it.
 
-A 1996 student who put *Basics and Beyond* in a bag and left Philadelphia without meeting him is the reason the 1995 book exists. Bags are a social fact. This plaque honors the bag without turning it into a form-only memory. She kept writing the look-up into chapters a slide can skip. Do not skip them on this site either. Living, extra care: book, 1994 shop, public presidency. Nothing else.
+A 1996 student who put *Basics and Beyond* in a bag and left Philadelphia without meeting him is the reason the 1995 book exists. Bags are a social fact. This plaque honors the bag without turning it into a form-only memory. She kept writing the look-up into chapters a slide can skip. Do not skip them on this site either. Public objects only: the book, the 1994 shop, the public presidency. Nothing else.
 
 ## Portrait
 

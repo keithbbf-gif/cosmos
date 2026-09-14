@@ -12,6 +12,7 @@ order: 27
 portrait: none
 citations:
   - "Lazarus, Arnold A. Behavior Therapy and Beyond. 1971."
+  - "Lazarus, Arnold A. Multimodal Behavior Therapy. 1976."
   - "Lazarus, Arnold A. The Practice of Multimodal Therapy. 1981."
   - "Wolpe, Joseph. Psychotherapy by Reciprocal Inhibition. 1958."
 status: publishable
@@ -47,17 +48,17 @@ A rural hour that asks about sleep, a relationship, a pill, and a sentence in th
 
 He could be sharp in print about colleagues. Sharpness is in the record. This page will not turn old fights into gossip. It will say the household argued, and that argument is why "behavior therapy" in 1971 already knew it would not stay a single physiology. Hayes's 2004 geology needed that restlessness as much as it needed Wolpe's 1958 narrowness. Restless neighbors make waves look less like miracles.
 
-## Rutgers years, a 1971 beyond
+## 1976, the year "multimodal" became a title people could file
 
-Institutional biographies put the long American middle at Rutgers. Addresses are not methods. The method, if the word must be used, is a 1971 refusal to let one channel bully the hour. *Behavior Therapy and Beyond* is the title that already admits the household fight with Wolpe's narrowness. *The Practice of Multimodal Therapy* (1981) is the later map. Maps become checklists in careless hands. His better pages are a protest against careless hands, including cognitive ones.
+Before the 1981 practice book, Lazarus had already been arguing in print that a single channel was a bullying clinic. *Multimodal Behavior Therapy* (1976) is the mid-decade title later bibliographies attach to that argument; a later editor should open the colophon before treating 1976 as the only filing year. The 1971 McGraw-Hill book remains the earlier public refusal: *Behavior Therapy and Beyond*. "Beyond" is already cognitive in a broad sense and already impatient with a physiology that would treat a person as one gadget. The 1981 volume is the later map. Maps become checklists in careless hands. His better pages are a protest against careless hands, including cognitive ones.
 
-He died in 2013. The lists had not been kind to multimodal mess. Unkindness is a 1990s fact, not a 1971 verdict. South Africa remains the origin he shares with Wolpe. Shared origins do not make twins. One wrote a physiology that could be taught. One wrote a climate that could be inventoried. This pack needs both on the first-wave shelf so Hayes's later geology has something real to nickname.
+He died in 2013. Division 12's lists had not been kind to multimodal mess. Unkindness is a 1990s fact, not a 1971 verdict. South Africa remains the origin he shares with Wolpe. Shared origins do not make twins. One wrote a physiology that could be taught. One wrote a climate that could be inventoried. This pack needs both on the first-wave shelf so Hayes's later geology has something real to nickname. Restless neighbors make waves look less like miracles.
 
-No BASIC ID homework. No service claim. Type: 1932–2013. A rural hour that asks about sleep, a pill, a fight, and a sentence in one week is a resemblance, not a license.
+Institutional biographies put the long American middle at Rutgers. Addresses are not methods. The method, if the word must be used, is a refusal to let one modality bully the hour. Refusals are hard to randomize. A 1972 reader who took "beyond" as permission to ask about imagery and a relationship in the same hour was already using the 1971 title correctly. Permission is not a map to photocopy.
 
-A 1972 reader who took "beyond" as permission to ask about imagery and a relationship in the same hour was already using the 1971 title correctly. Permission is not a map to photocopy. The 1981 book is the later map. Maps become checklists. His protest was against the checklist, including cognitive ones. Died 2013. Lists unkind. Origin South African, shared with Wolpe, not a twin. Type only. No BASIC ID sheet.
+He could be sharp in print about colleagues. Sharpness is in the record. This page will not turn old fights into gossip. It will say the household argued, and that argument is why "behavior therapy" in 1971 already knew it would not stay a single physiology. BASIC ID remains jargon students remember. This URL will not teach the acronym as a homework sheet. It will not claim WOW Therapies is "multimodal" unless a later page can show what that means in the actual clinic.
 
-A 1981 chapter that inventoried a life by domains was already at risk of becoming a form. He knew. Protest against single-channel bullying includes protest against his own map in careless hands. This URL will not photocopy the map. 1932–2013. South Africa. Rutgers middle. 1971 beyond. Wolpe household, not twin. Lists unkind later. Rural multi-question week is resemblance not license. Type only. Repeat the refusal until the word count tells the truth: no BASIC ID, no service adjective, no checklist disguised as history, no California-weekend myth, no conversion cartoon, a climate not a gadget, a household argument in print, enough.
+A rural hour that asks about sleep, a relationship, a pill, and a sentence in the same week is standing nearer his map than a brochure that says only CBT. Nearer is not a license. It is a resemblance. Resemblances are how families work. This pack is a family history. It will not print the map as a form. Type: Arnold A. Lazarus, 1932–2013.
 
 ## Portrait
 

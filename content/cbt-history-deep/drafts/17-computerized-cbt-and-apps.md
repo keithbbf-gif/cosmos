@@ -67,6 +67,8 @@ A 2012 procurement meeting that compared a login to a waiting list was asking a 
 
 A 2003 waiting-list arm in a computerized trial is the dignity of a paper. Later taps kept the prestige and dropped the arm. This URL will not restore the tap. It will restore the distinction.
 
+Proudfoot and colleagues' mid-2000s *Beating the Blues* papers — including a 2004 *British Journal of Psychiatry* primary-care report — are the kind of dated product-and-paper cluster this pack will name and will not advertise. A trialled clinic desktop is a historical object. A living storefront is an advertisement. Keep them from sharing a halo.
+
 ## Portrait
 
 Type only. No avatars. No screenshots you do not own.

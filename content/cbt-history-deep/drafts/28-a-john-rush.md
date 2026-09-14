@@ -11,6 +11,7 @@ type: figure
 order: 28
 portrait: none
 citations:
+  - "Rush, A. T. Beck, M. Kovacs, and S. Hollon. Cognitive Therapy and Research, 1977."
   - "Beck, Aaron T., A. John Rush, Brian F. Shaw, and Gary Emery. Cognitive Therapy of Depression. 1979."
   - "Rush, A. John, et al. American Journal of Psychiatry, 2006 (STAR*D)."
   - "Elkin, Irene, et al. Archives of General Psychiatry, 1989."
@@ -51,17 +52,17 @@ A rural clinic that offers both a talking hour and a referral for medication is 
 
 Dallas and other later addresses appear in institutional biographies. Addresses are not this page's map. The spine is. Keep the spine.
 
-## A ward graph, a 2006 sequel appetite
+## 1977, a comparison paper before the brown Guilford jacket
 
-Living trialists get extra care. We have the 1979 spine and the STAR*D reports, including 2006. We do not have a right to a photograph or a dosing paragraph. This page will not tell a reader to ask a doctor about a drug. It will say a psychiatrist's chair at a talking-manual table is why "response" could sound like a word a ward already knew.
+Two years before *Cognitive Therapy of Depression*, Rush, Beck, Maria Kovacs, and Steven Hollon published a comparison of cognitive therapy and pharmacotherapy for depressed outpatients in the first volume of *Cognitive Therapy and Research* (1977). The 1979 manual is a workforce object. The 1977 paper is an earlier handshake: a psychiatrist and cognitive therapists arguing about the same weeks in a journal a ward could respect. Later popular histories that say "Beck wrote the manual" have dropped three 1979 names and, often, this 1977 neighbor. Dropping Rush drops the pill-graph colleague. This deepen pack will not drop him.
 
-Dallas and other later addresses appear in public biographies. Verify if you print one. The spine travels without the address. Four names traveled. Obituaries that drop three names unteach the handshake. This plaque puts the pharmacologist back so pills and talk cannot be written as a conversion war. They were colleagues and rivals on the same Tuesdays. TDCRP put them on one graph. He had already put his name on the talking column's book.
+STAR*D, including a 2006 *American Journal of Psychiatry* report among others, is a later federal object with his name on it. It is not a CBT trial. It is a sequenced antidepressant program with a controversy about how remission was counted. It belongs here as a reminder that the shared graph did not end in 1979. The appetite to sequence, to step, to define response, continued. IAPT stepped care is a British cousin. STAR*D is an American pill-side cousin. This page will not re-litigate STAR*D's critics and will not turn the graph into a shopping list. A graph that starts argument is doing a 1980s–2000s job. A website that turns the graph into a brochure is doing a brochure's job.
 
-A rural clinic that offers an hour and a referral is in the handshake. Conversion stories are for slide one. Handshakes are for the week. Prefer the week. Prefer the four names. Prefer no shopping list from STAR*D.
+A 1980 ward meeting that used "response" for a pill and a talking sequence in the same sentence was already living inside the 1977–1979 handshake. Sentences like that are why this pack will not write a conversion war. Pharmacologists and cognitive therapists were colleagues and rivals on the same Tuesdays. TDCRP (Elkin 1989) later put imipramine on the same page as CBT and IPT. Rush's name on 1977 and 1979 is earlier furniture for that page. Enemies make better copy. Colleagues make better history.
 
-A 1980 ward meeting that used "response" for a pill and a talking sequence in the same sentence was already living inside his 1979 handshake. Sentences like that are why this pack will not write a conversion war. Living, extra care: spine, STAR*D as a later appetite, no dosing, no face. Four names. Dropping three unteaches the week. Prefer the week.
+Dallas and other later addresses appear in public biographies. Verify if you print one. The spine travels without the address. Four names on 1979 traveled. Obituaries that drop three names unteach the handshake. Living trialists get papers and books, not a photograph and not a sentence a reader could take as dosing advice. This page will not tell anyone to ask a doctor about a drug.
 
-A 1979 galley with four names in a typeface a ward could respect is the object obituaries flatten. Unflatten it. Living extra care: no drug sentence that a reader could take as advice, no STAR*D shopping list, no face. Handshake not conversion. TDCRP neighbor. Sequenced appetite later. Rural hour-plus-referral resemblance. Four names or it is a myth. Prefer the week. Prefer the graph that starts argument. Prefer no halo on a pill or a talking column. Dallas later if verified. Spine first. Always the spine.
+A rural clinic that offers a talking hour and a referral for medication is standing in the handshake, not in a conversion story. Conversion stories are for slide one. Handshakes are for the actual week. This pack prefers the week. Prefer the four names. Prefer no halo on a pill or a talking column.
 
 ## Portrait
 
@@ -69,6 +70,6 @@ Type only.
 
 ## Sources
 
-Beck, Rush, Shaw, and Emery 1979; Rush et al. 2006; Elkin et al. 1989. Era: `depression-manual-1979`.
+Rush, Beck, Kovacs, and Hollon 1977; Beck, Rush, Shaw, and Emery 1979; Rush et al. 2006; Elkin et al. 1989. Era: `depression-manual-1979`.
 
 *WOW Therapies educational series. This pack deepens the CBT lane of the therapy-history calendar; it is complementary to the SLPWOW speech-pathology history pack.*

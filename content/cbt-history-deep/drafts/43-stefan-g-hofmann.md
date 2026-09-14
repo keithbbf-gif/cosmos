@@ -12,6 +12,7 @@ order: 43
 portrait: none
 citations:
   - "Hofmann, Stefan G., and Gordon J. G. Asmundson. Clinical Psychology Review, 2008."
+  - "Hofmann, Stefan G., A. Asnaani, I. J. J. Vonk, A. T. Sawyer, and A. Fang. Cognitive Therapy and Research, 2012."
   - "Hayes, Steven C., and Stefan G. Hofmann, eds. Process-Based CBT. 2018."
   - "Hayes, Steven C. Behavior Therapy, 2004."
 status: publishable
@@ -47,25 +48,21 @@ Portrait: living. Type only.
 
 WOW Therapies does not inherit a Boston or Marburg address (institutional biographies move; verify if you print one). A rural hour that has never heard his name may already be asking what is keeping a life stuck this week, not which church the stuckness belongs to. That ask is the 2018 book's better mood. Moods are not manuals.
 
-If a later paper changes the slogan, date the change. Do not treat 2018 as the end. This pack's only stop is a hold.
+If a later paper changes the slogan, date the change. Do not treat 2018 as the end of the argument.
 
 German-born, American-working — the transatlantic fact is in the public record and belongs beside Clark and Eysenck as a reminder that this family's arguments are not only Mid-Atlantic American. Do not make a personality of the passport. Make a year of the review.
 
-## Asmundson, 2008, then a 2018 catalog
+## 2012, a meta-review between the ask and the catalog
 
-Two authors asked whether the wave was old hat. Ten years later one of them shared a spine with the namer. Intra-family reviews are not Twitter wars. This pack will not flatten 2008 into a takedown. The question remains good. A practice site does not need a champion. It needs the fight's years.
+Hofmann, Anu Asnaani, Imke J. J. Vonk, Alice T. Sawyer, and Angela Fang published "The Efficacy of Cognitive Behavioral Therapy: A Review of Meta-analyses" in *Cognitive Therapy and Research* in 2012. It sits in the interval this plaque exists to keep visible: four years after "New Wave or Old Hat?" with Gordon Asmundson (*Clinical Psychology Review*, 2008) and six years before *Process-Based CBT* with Hayes (Context Press / New Harbinger, 2018). Brochures hate intervals. A 2009 journal club that assigned "old hat" as if it ended a wave was already flattening a review. Reviews ask. The 2008 question is still a good question: how much of "acceptance" is a new school and how much is a second-wave shop in new clothes? A practice site does not need to pick a champion. It needs to know the fight exists.
 
-Living researcher, extra care. No process menu. No Venn-as-science. Anxiety trials are a day job. Day jobs keep cartoons from sticking. German-born, American-working is a public fact beside Clark and Eysenck: the family's arguments are not only Mid-Atlantic American. Do not make a personality of a passport. Make a year of a review.
+Asmundson's name is easy to drop from 2008. The 2012 co-authors are easy to drop from a "Hofmann review." Do not drop them. Later Hofmann branding is a career. Careers are not 2008. His day job includes anxiety research in a Barlow-adjacent city of labs. Day jobs keep list-makers and wave-namers honest. A man who runs trials and also writes "old hat" is harder to cartoon as a reactionary. Cartooning is for slide one.
 
-New Harbinger is not Guilford. Publishing address is meaning. Processes can become a new church. He knows. The 2018 book is still a syllabus. Syllabi are allowed. Rural hours that ask what keeps a life stuck, not which church owns the stuckness, are in the book's better mood. Moods are not manuals. If a later slogan changes, date it. Do not end the argument.
+Sharing a 2018 catalog with Hayes is the historical surprise. Surprises like that are how you know a family is still a family. The book tried to retire brand-name churches in favor of processes. Processes can become a new church. He knows that; the book is still a syllabus, not a revelation. Syllabi are allowed. Homework is not. New Harbinger is not Guilford. The publishing address is part of the meaning: a contextual house and a broader CBT house agreeing to share chapters.
 
-A 2009 journal club that assigned "old hat" as if it ended a wave was already flattening a review. Reviews ask. This plaque keeps the ask and the 2018 surprise. Living, extra care: no process menu, no passport personality, Asmundson stays. Day-job trials. Shared catalog later. Processes can church. He knows. Rural stuckness-question is a mood, not a brand. Date later slogans.
+German-born, American-working — the transatlantic fact is in the public record and belongs beside Clark and Eysenck as a reminder that this family's arguments are not only Mid-Atlantic American. Do not make a personality of the passport. Make a year of the review. Institutional biographies move among Boston and other addresses; verify if you print one.
 
-A 2018 colophon that puts Hayes and Hofmann on one line is the surprise object. Surprises are family tests. Living extra care: no menu, no Venn, no passport story. 2008 ask with Asmundson. Day-job anxiety. Processes church-prone. Rural stuckness mood. Date later slogans. Extra refuse: no champion for a homepage, no old-hat flatten, no New Harbinger as revelation, catalog not church, stop.
-
-Keep Asmundson on 2008. Keep Hayes on 2018. Keep the ask from becoming a takedown. Keep the catalog from becoming a church. Keep the passport off the personality. Marburg or Boston, verify if printed. Processes are a mood. Moods are not menus on this site.
-
-Hofmann and Asmundson, 2008. Hayes and Hofmann, 2018. Ask, then catalog. No menu for a waiting room.
+Living wave skeptic, public papers and the 2018 volume only. No process menu. No Venn diagram as science. No downloaded face. WOW Therapies does not inherit a campus clinic. A rural hour that has never heard his name may already be asking what is keeping a life stuck this week, not which church the stuckness belongs to. That ask is the 2018 book's better mood. Moods are not manuals. If a later paper changes the slogan, date the change. Do not treat 2018 as the end of the argument.
 
 ## Portrait
 

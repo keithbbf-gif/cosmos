@@ -23,7 +23,7 @@ Wave the import (staging only — `WP_IMPORT.md`):
 
 Hold any piece that still carries `[CITE NEEDED]` or `[VERIFY]` on a date you would print.
 
-`check_pack.py` fails an era under 1,200 words or a figure under 1,000. Deepen with sources, not recap.
+`check_pack.py` fails an era under 1,200 words or a figure under 1,000. Deepen with sources, not recap, and not with telegram padding.
 
 ## Calendar
 

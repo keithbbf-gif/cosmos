@@ -58,6 +58,16 @@ DIY = [
     r"homework:? write down",
 ]
 
+# Word-count padding that reads as notes, not magazine prose.
+TELEGRAM = [
+    r"living extra care",
+    r"extra refuse",
+    r"stop shopping",
+    r"eight more sentences of refusal",
+    r"extra sentences so the figure meets",
+    r"repeat the refusal until the word count",
+]
+
 DISCLAIMER_NEEDLE = "not a treatment plan"
 MIN_WORDS = 700
 MIN_WORDS_ERA = 1200
@@ -121,7 +131,7 @@ def main() -> int:
                 f"{path.name}: {n} words < {floor} ({fm.get('type') or 'unknown'} target)"
             )
         low = text.lower()
-        for pat in BANNED + DIY:
+        for pat in BANNED + DIY + TELEGRAM:
             if re.search(pat, low):
                 errors.append(f"{path.name}: banned phrase /{pat}/")
         slug = fm.get("slug", "")

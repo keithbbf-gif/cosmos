@@ -51,7 +51,7 @@ Hofmann's anxiety work and Hayes's ACT work remain their day jobs. The 2018 co-e
 
 The critiques essay still applies. A process is not culture-free because you called it a process. "Psychological flexibility" can be medicine. It can also be a polite word for adjusting to a wage. The 2018 book does not settle that. A small-city history page should not pretend it does.
 
-If a later edition or a later Hayes–Hofmann paper changes the slogan, date the change. Do not treat 2018 as the end of the argument. This pack's only stop is a hold, not a finish line. The argument is still the profession talking to itself. Our job is to keep the talk from becoming a handout.
+If a later edition or a later Hayes–Hofmann paper changes the slogan, date the change. Do not treat 2018 as the end of the argument. The argument is still the profession talking to itself. A history page keeps the talk from becoming a handout.
 
 ## 2008 to 2018, ten years of a last name
 
@@ -67,9 +67,7 @@ A 2019 conference hallway that said "processes, not packages" as if the sentence
 
 A 2018 table of contents that assigned chapters across former churches is the peace treaty's real document. Documents are not revelations. They are how a generation files exhaustion. File it. Do not staff it as a service name.
 
-Exhaustion with initials is a 2010s mood. Moods are not New Harbinger subtitles on a service page. File 2018. Staff a person.
-
-Initials tired a generation. A shared 2018 catalog filed the tiredness. Filing is not a clinic verb on this page.
+Hofmann's 2012 review of CBT meta-analyses — with Asnaani, Vonk, Sawyer, and Fang, in *Cognitive Therapy and Research* — sits in the interval this era exists to keep visible. Four years after "old hat," six years before the shared catalog, a day-job anxiety researcher was still counting what the second-wave house could show. Counting is not a Venn diagram. It is a reminder that the fight about last names never replaced the older fight about graphs. This URL will not turn either fight into a service adjective.
 
 ## Portrait
 

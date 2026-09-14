@@ -12,6 +12,7 @@ order: 29
 portrait: none
 citations:
   - "Clark, David M. Behaviour Research and Therapy, 1986."
+  - "Clark, David M., et al. British Journal of Psychiatry, 1994."
   - "LSE. The Depression Report. 2006."
   - "Clark, David M. Annual Review of Clinical Psychology, 2018."
 status: publishable
@@ -47,21 +48,17 @@ WOW Therapies does not inherit NICE. Prestige crossed the ocean. The budget did 
 
 Anxiolytic medication and talking hours were colleagues in his world too. This page will not dose. It will say the British cognitive house, like Rush's American ward, sat beside a graph. Graphs are furniture. People are not.
 
-## 1986, then a Sunday paper
+## 1994, a panic trial that is still not a drawing
 
-Living British public figures get extra care. We have a 1986 journal article, a 2006 pamphlet, a 2008 opening, a 2018 review. We do not have a protocol for panic or a right to a King's College headshot. NICE is a dialect he could speak. Layard is the economist who could cost the misery. The *Observer* is how a Sunday met a policy group.
+Eight years after "A Cognitive Approach to Panic," Clark and colleagues published a comparison of cognitive therapy, applied relaxation, and imipramine for panic disorder in the *British Journal of Psychiatry* (1994). The 1986 paper is a model. The 1994 paper is a trial a later government could point at when the misery was panic. This pack will not reprint the model as a drawing and will not walk the 1994 sequence. Drawings become homework. Homework is banned. The historical claim is that British cognitive work on anxiety in those years had a reputation for models that could be tested, and that Clark became one of the people who could later speak that reputation in Whitehall English.
 
-Arkansas is not Newham. Prestige crossed. The budget did not. A small-city site that says "IAPT-style" is lying about a treasury it does not have. This plaque says 1986 so the 2008 industrial tool cannot eat the paper that made specificity a virtue. Virtues become tools. Tools drop clauses. Keep the paper.
+Layard could cost untreated anxiety and depression. Clark could name a therapy the costing might purchase. *The Depression Report* (LSE, June 2006) is their shared public object. The *Observer* stuffed it into a Sunday. Demonstration services in Doncaster and Newham opened in late summer 2006. The first full IAPT services opened in September 2008. The 2018 *Annual Review* paper is a participant-historian's account. Builders' histories are partial. Partial is not the same as false. Read him as a participant. Read the IAPT critiques as neighbors. Arkansas is not the judge of a British program.
 
-He chose to build. Builders' histories are partial. Read him as a participant. Read the IAPT critiques as neighbors. Do not let a practice homepage referee a British argument it will not staff. The panic paper remains a drawing this URL will not reprint. Drawings become homework. Homework is banned.
+A 2006 reader who found the *Observer* pamphlet beside the television listings met policy as a Sunday object. Sundays are not trials. They are how a treasury argument leaves Whitehall. Prestige crossed the ocean. The budget did not. A small-city site that says "IAPT-style" is lying about a treasury it does not have. NICE is a dialect he could speak. Dialects need speakers. He became one. This plaque keeps 1986 audible so the 2008 industrial tool cannot eat the paper that made specificity a virtue. Virtues become tools. Tools drop clauses. History puts clauses back without putting a worksheet back.
 
-A 2006 reader who found the *Observer* pamphlet beside the television listings met policy as a Sunday object. Sundays are not trials. They are how a treasury argument leaves Whitehall. 1986 remains the paper. 2008 remains the door. Living, extra care: no panic homework, no "IAPT-style" lie on an Arkansas page. Specificity was a virtue. Industry was a tool. Keep both dated.
+Living British public figures get papers and policy documents, not an Oxford or King's headshot and not a panic homework. Anxiolytic medication and talking hours were colleagues in his world too. This page will not dose. It will say the British cognitive house, like Rush's American ward, sat beside a graph. Graphs are furniture. People are not.
 
-A 1986 offprint mailed to a colleague is a smaller object than a national program and the right one to keep under the program so industry cannot eat virtue. Living extra care: no panic drawing, no NICE cosplay on an Arkansas homepage, no face. Layard costs. Clark names. Observer Sunday. Doncaster and Newham watched. National dirtier. Participant-historian 2018. Critiques neighbor. Keep 1986 audible. Specificity then tool. Tool drops clauses. History puts clauses back without putting a worksheet back.
-
-Mail the 1986 offprint in the mind before you name 2008. Whitehall is weather. Arkansas is not a treasury. No drawing. No Sunday pamphlet as a local promise. King's is an address, not a halo. Specificity remains a virtue only if industry cannot eat it whole on this URL.
-
-Offprint, pamphlet, door: 1986, 2006, 2008. Keep that order when a brochure tries to start at the door.
+Mail the 1986 offprint in the mind before you name 2008. Keep 1994 in the interval so industry cannot pretend the Sunday pamphlet was the first object. Whitehall is weather. Arkansas is not a treasury. Specificity remains a virtue only if a heritage URL will not let a brochure start at the door.
 
 ## Portrait
 

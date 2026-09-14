@@ -11,6 +11,7 @@ type: figure
 order: 44
 portrait: none
 citations:
+  - "Wells, Adrian, and Gerald Matthews. Attention and Emotion. 1994."
   - "Wells, Adrian. Metacognitive Therapy for Anxiety and Depression. 2009."
   - "Beck, Aaron T. Cognitive Therapy and the Emotional Disorders. 1976."
   - "Hayes, Steven C. Behavior Therapy, 2004."
@@ -47,23 +48,21 @@ Portrait: living. Type only.
 
 WOW Therapies does not inherit a Manchester clinic. A rural hour that notices a person is stuck in a loop *about* looping is standing in cousin-weather. Noticing is not this page's homework. The educational note stays.
 
-He sits, on this calendar, as the last figure: not a closer, a reminder that the family kept growing rooms after Beck's 1979 sequence and after Hayes's 2004 last name. Rooms are not a finish line. Keith's only stop is a hold. This pack stops at forty-four plaques because forty-four is a shelf, not because the house is complete.
+He sits, on this calendar, as the last figure: not a closer, a reminder that the family kept growing rooms after Beck's 1979 sequence and after Hayes's 2004 last name. Rooms are not a finish line. This pack stops at forty-four plaques because forty-four is a shelf, not because the house is complete.
 
 If 2009 later gets a second edition, date it. Living documents change. Last verification: 2026-09-14.
 
 A small-city reader who has never heard "metacognitive" has still met a loop. Loops are older than 2009. 2009 is a year a guild gave a loop a school. Schools are allowed. Handouts are not.
 
-## 1990s papers, a 2009 Guilford object
+## 1994, a book about attention before the 2009 school
 
-The object shifted from the thought to the thinking about the thought. That sentence is the plaque. Lists of metacognitive beliefs are homework and will not be printed. Earlier 1990s papers wait for a later editor who opens a volume and page. Until then the honest mark is a decade plus a 2009 book.
+Wells and Gerald Matthews published *Attention and Emotion: A Clinical Perspective* in 1994. Later 1990s papers treated worry and rumination as problems of how a person relates to thinking, not only of what the thought says. *Metacognitive Therapy for Anxiety and Depression* (Guilford, 2009) is the landmark named-school book. A later editor who opens a specific 1990s journal article with volume and page should add it. Until then, 1994 plus a 2009 spine is a more honest mark than a fake first-year. The shift of object is why he belongs in a deepen pack about waves: he is sometimes waved into the third crest and sometimes left in the hall. Halls are interesting.
 
-Living researcher, extra care. No attention-training task. No Manchester photograph. Hayes's weather sometimes claims him. He is also a named school with his own spine. Cousins make geology look less clean. Good. IAPT menus did not always include MCT. Absence from a menu is not absence from a family.
+Beck's second-wave shop treated a sentence as data you might test. Ellis attacked a demand. Wells asked about beliefs a person holds *about* thinking and about the processes that keep a loop running. This page will not list those beliefs. Lists become homework. Hayes's 2004 nickname emphasized relationship to thoughts. Wells's object is cousin-weather without being ACT. A 2009 Guilford index that does not say ACT on the title page is the independence this hall-figure needs. Cousins make geology look less clean. This pack likes the mess. Hofmann's later process-talk would try to file such cousins as processes. Filing is a 2018 mood. 2009 is still a named therapy with a Guilford spine.
 
-Manchester trains students. Students make initials. Initials get procured or ignored. A rural hour that notices a loop about looping is in cousin-weather. Noticing is not homework. This pack stops at forty-four plaques because a shelf has a size, not because the house is complete. The only stop is a hold. 2009 is a room the family added after 1979 and after 2004. Rooms keep being added. Handouts do not belong on the added rooms either.
+Manchester is the address many institutional pages attach to his working life. Addresses train students. Students make "MCT" an initial. Initials get procured or ignored. IAPT-style systems had their own menus; MCT was not always on them. Absence from a menu is not absence from a family. A 2010 British seminar that treated the new Guilford book as a school rather than a slide in someone else's geology was using 2009 correctly. Schools may sit in halls.
 
-A 2010 British seminar that treated the new Guilford book as a school rather than a slide in someone else's geology was using 2009 correctly. Schools may sit in halls. Halls are interesting. This plaque likes the hall. Living, extra care: no attention task, no face. 1990s papers wait for a volume. Menus omitted him sometimes. Omission is not exile. Forty-four is a shelf size. The house is not complete. Hold, do not finish. No handout on the new room either.
-
-A 2009 Guilford index that does not say ACT on the title page is the independence this hall-figure needs. Cousin weather, own spine. Living extra care: no task, no face. 1990s papers wait. Menus omit. Omission not exile. Forty-four is a shelf. House incomplete. Hold. Extra refuse: no loop homework, no geology absorption, no Manchester pilgrimage, noticing not assigned, last plaque not a finish line, stop.
+Living researcher, public book and the fact of earlier 1990s papers only. No attention-training task. No metacognitive experiment. No Manchester scrape. A rural hour that notices a person is stuck in a loop *about* looping is standing in cousin-weather. Noticing is not this page's homework. He sits, on this calendar, as the last figure: not a closer, a reminder that the family kept growing rooms after Beck's 1979 sequence and after Hayes's 2004 last name. Rooms are not a finish line. Forty-four plaques is a shelf size. The house is not complete. Handouts do not belong on the added rooms either.
 
 ## Portrait
 

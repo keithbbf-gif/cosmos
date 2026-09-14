@@ -11,6 +11,7 @@ type: figure
 order: 34
 portrait: none
 citations:
+  - "Kabat-Zinn, Jon. General Hospital Psychiatry, 1982."
   - "Kabat-Zinn, Jon. Full Catastrophe Living. 1990."
   - "Segal, Zindel V., J. Mark G. Williams, and John D. Teasdale. Mindfulness-Based Cognitive Therapy for Depression. 2002."
 status: publishable
@@ -48,21 +49,17 @@ If a later editor needs the exact 1979 clinic name as the hospital now prints it
 
 A small-city reader who met "mindfulness" first as an app has met the afterlife, not the 1979 room. This URL exists so the room can still be named. Naming is not a sitting lesson. The educational note stays.
 
-## 1979 walls, a 1990 paperback
+## 1982, a hospital paper before the 1990 paperback
 
-A medical-center clinic has walls, a graph, and patients who will not be well on a surgical schedule. Putting a sitting practice inside those walls was a bet that attention could be offered without conversion. The 1990 book carried the bet to a public. The afterlife carried it to yogurt. Afterlives are not 1979. This plaque is 1979 and 1990.
+Kabat-Zinn published "An Outpatient Program in Behavioral Medicine for Chronic Pain Patients Based on the Practice of Mindfulness Meditation" in *General Hospital Psychiatry* in 1982. The 1979 clinic at the University of Massachusetts Medical Center is the room. The 1982 paper is how a hospital journal heard the room. *Full Catastrophe Living* (Delacorte, 1990) is how a public heard it. A 2016 icon is how a commute heard a word. Those are four objects. This plaque will not let the fourth eat the first.
 
-Living founder, extra care. No body scan. No UMass photograph. Buddhist teachers' opinions remain in the paragraph that admits the debt. A county group is not a sangha. A phone is not a hospital. Segal, Williams, and Teasdale remain the borrowers who tried to keep a problem attached. Hayes remains a later nickname. CBT borrowed a cushion. File the lender.
+A medical center already speaks graphs. It already has patients who will not be well in the way a surgical schedule wants. Putting a sitting practice in that room was a 1979 bet: attention might be something a hospital could offer without calling it insight. The bet traveled. Travel is how a hospital program becomes a paper, then a book, then a workshop industry, then a word on yogurt. He has written as a person who wanted the hospital to be able to say "mindfulness" without saying "convert." Wanting is not the same as controlling the afterlife.
 
-If the hospital later reprints the clinic's name differently, verify on upload day. Institutions rename. Last verification 2026-09-14. A small-city reader who met the word as an app has met the afterlife. Name the room. Do not teach the sit.
+Buddhist teachers have had opinions. Some are grateful. Some see ethics stripped for a medical market. A counseling history can admit the debt without pretending a county-clinic group, or a phone, is a sangha. Segal, Williams, and Teasdale remain the borrowers who tried, in 2000 and 2002, to keep a relapse problem attached to the cushion. Hayes remains a 2004 nickname. CBT borrowed a cushion. File the lender.
 
-A 1982 medical-center patient who was offered a sitting group because surgery had no remaining schedule was meeting the 1979 bet in a hallway, not a sangha. Hallways are the origin. Yogurt is the afterlife. This plaque keeps the hallway. Living, extra care: no body scan, no workshop face. Borrowers named. CBT filed the lender. Verify clinic name on upload day.
+A 1982 medical-center patient who was offered a sitting group because surgery had no remaining schedule was meeting the 1979 bet in a hallway, not a sangha. Hallways are the origin. Yogurt is the afterlife. If the hospital later reprints the clinic's name differently, verify on upload day. Institutions rename. Last verification: 2026-09-14. A small-city reader who met the word as an app has met the afterlife, not the 1979 room. This URL exists so the room can still be named.
 
-A 1979 clinic logbook — if it existed as paper — would be a better relic than a 2016 icon. We do not have the logbook. We have a year and a 1990 paperback. Living extra care: no scan, no face, no sangha cosplay. Teachers' opinions stay. Borrowers named. Yogurt afterlife named. Hospital walls first. Verify the printed clinic name on upload day. Small-city app-first readers get the room named, not a lesson. Educational note remains the only clinical claim.
-
-Log the year 1979 as walls. Bind 1990 as paper. Leave 2016 as an afterlife we will not recommend. UMass is a hospital weather. A commute is not that weather. Teachers may object. Let them. We admitted the debt. We will not teach the sit.
-
-Walls in 1979. Paper in 1990. Afterlife later. We will not staff the afterlife from a heritage URL.
+Living clinic founder, public book and dated clinic history only. No body scan. No lotus header. No UMass scrape. The phrase "full catastrophe" is a borrowed literary shrug, not a diagnosis. Do not turn it into a brand on a service page. Do not pair it with a booking button. The 1990 book may sit on a clinician's shelf as a historical object. Shelves are not homework. Naming is not a sitting lesson. The educational note stays.
 
 ## Portrait
 

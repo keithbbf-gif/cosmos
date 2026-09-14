@@ -11,6 +11,7 @@ type: figure
 order: 36
 portrait: none
 citations:
+  - "Jacobson, Neil S., and Gayla Margolin. Marital Therapy. 1979."
   - "Jacobson, Neil S., et al. Journal of Consulting and Clinical Psychology, 1996."
   - "Dimidjian, Sona, et al. Journal of Consulting and Clinical Psychology, 2006."
   - "Beck, Aaron T., et al. Cognitive Therapy of Depression. 1979."
@@ -51,21 +52,17 @@ Behavioral-couples work is a second door on his career. This CBT deepen pack wil
 
 If a later editor wants a specific couples paper on the bibliography, add it with a year. Do not expand this essay into a second pack.
 
-## 1949–2003, a question left on a table
+## 1979, a couples book the same year as the depression manual
 
-He died before Dimidjian's 2006 trial and before BA's later life as a cheaper step in some public systems. Questions that get trials after the asker is gone are a known shape. Do not make a saint of the shape. Date 1996. Date 2003. Let 2006 be a debt, not a relic.
+Jacobson and Gayla Margolin published *Marital Therapy: Strategies Based on Social Learning and Behavior Exchange Principles* in 1979 — the same year Guilford issued *Cognitive Therapy of Depression*. This CBT deepen pack will not become a couples-therapy history. It will say the same man who later asked how much cognitive furniture a depression treatment needs had already been living in a literature about partners. Literatures leak. Leakage is not a protocol. If a later editor wants that 1979 couples title on a specialist bibliography, it is already a dated object. Do not expand this essay into a second pack.
 
-Couples literature is a second door. This pack will not become that history. It will say the same man lived in both rooms. Component analyses are group papers. Keep the et al. Seattle is a local room where a question stayed a question before JCCP made it national. National questions become products. Keep 1996 as a dismantling.
+The 1996 *Journal of Consulting and Clinical Psychology* component analysis, with colleagues, is the load-bearing public object here. A behavioral-activation piece was compared with a fuller cognitive package. The paper asked how much furniture the room needed. He was not vandalizing Beck. He was doing what an empirical school had promised: test its own gadgets. Slide decks that treat BA as an insult to cognition have missed the loyalty. Component analyses are group objects. Keep the et al. Seattle is a local room where a question stayed a question before JCCP made it national. National questions become products. Keep 1996 as a dismantling.
 
-No activity grid. No insult that thinking work is a luxury. Loyalty to an empirical promise is the temperament. He tested furniture. Testing is not vandalism. Slide decks that hear insult have missed the loyalty. Type: 1949–2003. No campus photograph. No embroidery of the death.
+He died in 2003. He did not live to see Dimidjian and colleagues' 2006 trial, or the later public-system life of behavioral activation as a cheaper step in some stepped-care designs. Questions that get trials after the asker is gone are a known historical shape. This pack will not turn that shape into a saint's story. Date 1996. Date 2003. Let 2006 be someone else's object with a debt. Obituaries exist. This page will not mine them for color. Public professional facts: the years, the 1996 paper, the couples-and-depression address. Enough.
 
-A 1996 Friday in Seattle that ended with a disagreement about which component did the work is the local room this plaque prefers to the later brand. Local rooms keep questions. Brands sell answers. He died in 2003 with the question still on the table. No saint. No grid. No embroidery. Et al. stays. Couples door mentioned, not entered. Loyalty, not vandalism.
+A 1996 Friday in Seattle that ended with a disagreement about which component did the work is the local room this plaque prefers to the later brand. Local rooms keep questions. Brands sell answers. He died with the question still on the table. No activity grid. No insult that thinking work is a luxury. Those are insults dressed as science. The historical useful sentence is smaller: inside the CBT house, some of the best empirical work was a willingness to take the house apart.
 
-A 2003 departmental notice that a colleague had died is not this page's color. Years are enough. 1949. 1996. 2003. 2006 debt. Living people around him get care too: do not gossip a lab. Component et al. Couples door closed for this pack. No grid. No saint. No thinking-as-luxury insult. Seattle local. JCCP national. Brand later. Question first. Extra clauses for length with new furniture: Friday disagreement; methods appendix; cheaper-step weather after he was gone; loyalty to a promise to test gadgets; gadgets are not people; people are Tuesdays; titles are guilds; we prefer Tuesdays.
-
-Leave 2003 as a year, not a scene. Leave 1996 as a Friday argument about components. Leave 2006 as a debt. Do not invent a departmental notice's wording. Do not sell a grid. Prefer Tuesdays to titles. Prefer et al. to a lone plaque that lies.
-
-1949, 1996, 2003. A debt in 2006. No scene we did not earn. No grid. Et al. stays on the 1996 line.
+WOW Therapies does not inherit a Seattle lab. A rural hour that helps a person do one thing they had stopped doing is standing in a building older than 1979 and named, in 1996, as a component. Names are for guilds. Tuesdays are for people. This series will not confuse them. Type: Neil S. Jacobson, 1949–2003. No campus photograph. No embroidery of the death.
 
 ## Portrait
 

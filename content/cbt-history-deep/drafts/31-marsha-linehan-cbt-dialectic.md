@@ -13,6 +13,7 @@ portrait: none
 citations:
   - "Linehan, Marsha M., et al. Archives of General Psychiatry, 1991."
   - "Linehan, Marsha M. Cognitive-Behavioral Treatment of Borderline Personality Disorder. 1993."
+  - "Linehan, Marsha M. Skills Training Manual for Treating Borderline Personality Disorder. 1993 (cite as history; do not reprint)."
   - "Carey, Benedict. New York Times, 23 June 2011."
   - "Hayes, Steven C. Behavior Therapy, 2004."
 status: publishable
@@ -54,17 +55,17 @@ A rural clinic that cannot staff a team and still uses a word from her book is i
 
 The consultation-team idea — therapists meeting so the work does not eat them — is easy to drop from a brochure. Do not drop it from a history. Staffing is the point. Skills without staffing are a product. She built a pattern. Products followed. This URL prefers the pattern's year.
 
-## 23 June 2011, a newspaper she chose
+## 1993, a second book the brochures drop
 
-Living people who choose a venue may be quoted as having chosen it. She chose the *New York Times*. This pack will not embroider the interview. It will say the 1991 paper and the 1993 book were already thirteen and eighteen years old when the public got a story it had not been owed. Public stories do not authorize a skills list on a history page.
+Guilford issued two Linehan objects in 1993: *Cognitive-Behavioral Treatment of Borderline Personality Disorder* and a skills-training manual. Brochures remember the second and forget the first's staffing pattern. This URL will not reprint either. The skills book is copyrighted, trained, and easy to parody. A history site that reprints it would be a legal mistake and a clinical one. The treatment book is the object that still judges cheaper cousins: skills groups without a consultation team, a phone idea administrators would fund or gut, an individual hour asked to do a hospital's work alone.
 
-The consultation team remains the piece brochures drop. Staffing is the point. Skills without staffing are a product. She built a pattern: group, individual, team, a phone idea administrators would fund or gut. Managed care funded the cheaper cousin. Honesty about the cousin is allowed. A laminated card is not.
+She chose the *New York Times* on 23 June 2011. Living people who choose a venue may be quoted as having chosen it. This pack will not embroider the interview. It will say the 1991 *Archives of General Psychiatry* paper and the 1993 books were already thirteen and eighteen years old when the public got a story it had not been owed. Public stories do not authorize a skills list on a history page.
 
-Hayes put her in a wave in 2004. The 1991 paper did not ask. Two asks. Print both. No generated face. No diagnosis CTA. If you are in danger, call local emergency services. That is the only crisis line this series will print. The rest belongs in a licensed room with a team, or it does not belong to the 1993 object at all.
+A 1994 hospital that hired a skills group and skipped the consultation team was already speaking the cheaper dialect. Managed care liked the cheaper cousin. Markets like cheaper cousins. Honesty about that is allowed. A laminated card is not. The 1991 methods table that listed who was in the sample is the paper's honesty. Honesty is not a skills card. Hayes put her in a wave in 2004. The 1991 paper did not ask for a geology. Two asks. Print both.
 
-A 1994 hospital that hired a skills group and skipped the consultation team was already speaking the cheaper dialect. 1993 judges the dialect. This plaque keeps the team on the sentence that names her. Living, extra care: 1991, 1993, 2011 newspaper she chose, no modules, no face, emergency services only if in danger. Pattern of people, not a card. Wave nickname later. Paper first.
+Crisis belongs to emergency services. If you are in danger, call local emergency services. That is the only crisis line this series will print. The rest belongs in a licensed room with a team, or it does not belong to the 1993 object at all. A rural clinic that cannot staff a team and still uses a word from her book is in the cheaper-cousin problem. Honesty about that is better than a vibe. Honesty is not a protocol either. It is a sentence this history page is allowed: the 1993 object was a pattern of people, not a card.
 
-A 1991 methods table that listed who was in the sample is the paper's honesty. Honesty is not a skills card. Living extra care: 23 June 2011 chosen venue, no embroidery, no modules, no face, emergency services only if in danger. Team dropped by brochures, restored here. Cheaper cousin judged by 1993. Wave later. Pattern of people. Rural word-without-team problem named, not solved. Solved lives in staffing, not on a heritage URL.
+She trained as a behaviorist. The dialectic in the title is a clinical stance, not a philosophy seminar: accept the person as they are *and* insist that they change, because either half alone had been failing. Zen practice entered her thinking as a discipline of attention, not as décor. This essay will not list modules. Later adaptations — adolescents, other diagnoses — are second chapters. The historical core remains 1991–1993 and the 2011 newspaper she chose. Type only. No generated face. No diagnosis button.
 
 ## Portrait
 

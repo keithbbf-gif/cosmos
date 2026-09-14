@@ -13,6 +13,8 @@ This list deepens the "Behavior, cognition, third wave" section of `content/wowt
 - Adler, Alfred. *Über den nervösen Charakter*. Wiesbaden: Bergmann, 1912.
 - Adler, Alfred. *What Life Should Mean to You*. Boston: Little, Brown, 1931.
 - Kelly, George A. *The Psychology of Personal Constructs*. 2 vols. New York: Norton, 1955.
+- Bannister, Don. "Personal Construct Theory: A Summary and Experimental Paradigm." *Acta Psychologica* 20 (1962): 97–117. [VERIFY] volume/pages against the issue before a printed footnote treats this line as gospel.
+- Bannister, Don, and Fay Fransella. *Inquiring Man: The Theory of Personal Constructs*. Harmondsworth: Penguin, 1971. British afterlife; after Kelly's death.
 
 ## First-wave behavior, gauntlets
 
@@ -22,6 +24,7 @@ This list deepens the "Behavior, cognition, third wave" section of `content/wowt
 - Wolpe, Joseph. *Psychotherapy by Reciprocal Inhibition*. Stanford: Stanford University Press, 1958.
 - Skinner, B. F. *Science and Human Behavior*. New York: Macmillan, 1953.
 - Lazarus, Arnold A. *Behavior Therapy and Beyond*. New York: McGraw-Hill, 1971.
+- Lazarus, Arnold A. *Multimodal Behavior Therapy*. New York: Springer, 1976.
 - Lazarus, Arnold A. *The Practice of Multimodal Therapy*. New York: McGraw-Hill, 1981.
 
 ## Ellis / REBT
@@ -48,8 +51,12 @@ This list deepens the "Behavior, cognition, third wave" section of `content/wowt
 ## Neighbors on the same graph
 
 - Meichenbaum, Donald. *Cognitive-Behavior Modification: An Integrative Approach*. New York: Plenum, 1977.
+- Meichenbaum, Donald. *Stress Inoculation Training*. New York: Pergamon, 1985. Named later method; cite, do not teach.
+- Rush, A. John, Aaron T. Beck, Maria Kovacs, and Steven Hollon. "Comparative Efficacy of Cognitive Therapy and Pharmacotherapy in the Treatment of Depressed Outpatients." *Cognitive Therapy and Research* 1 (1977): 17–37.
 - Burns, David D. *Feeling Good: The New Mood Therapy*. New York: Morrow, 1980. Public book; not the 1979 Guilford manual.
+- Burns, David D. *The Feeling Good Handbook*. New York: Plume, 1989. Later public book; still not a treatment plan.
 - Greenberger, Dennis, and Christine A. Padesky. *Mind Over Mood*. New York: Guilford, 1995.
+- Padesky, Christine A. "Socratic Questioning: Changing Minds or Guiding Discovery?" Address, European Congress of Behavioural and Cognitive Therapies, London, 1993. Unpublished teaching object; not a worksheet.
 - Elkin, Irene, et al. "National Institute of Mental Health Treatment of Depression Collaborative Research Program: General Effectiveness of Treatments." *Archives of General Psychiatry* 46, no. 11 (1989): 971–982.
 - Klerman, Gerald L., and Myrna M. Weissman. Interpersonal psychotherapy of depression — named here as the third school on the TDCRP graph, not as a CBT manual.
 - Rush, A. John, et al. STAR*D reports, including *American Journal of Psychiatry* 163, no. 11 (2006): 1905–1917. A graph and a controversy, not a shopping list.
@@ -58,7 +65,7 @@ This list deepens the "Behavior, cognition, third wave" section of `content/wowt
 
 ## Lists, managed care, IAPT
 
-- Chambless, Dianne L., et al. Society of Clinical Psychology (APA Division 12) Task Force reports on empirically supported treatments, mid-1990s. Cite as professional-history objects.
+- Chambless, Dianne L., et al. Society of Clinical Psychology (APA Division 12) Task Force reports on empirically supported treatments, mid-1990s, including pieces in *The Clinical Psychologist* (1995 training-and-dissemination; 1996 update). Cite as professional-history objects; open the issue before a footnote.
 - Chambless, Dianne L., and Steven D. Hollon. "Defining Empirically Supported Therapies." *Journal of Consulting and Clinical Psychology* 66, no. 1 (1998): 7–18.
 - London School of Economics, Centre for Economic Performance, Mental Health Policy Group. *The Depression Report: A New Deal for Depression and Anxiety Disorders*. London: LSE, June 2006. (Layard, chair; Clark among authors.)
 - Clark, David M., Richard Layard, and Rachel Smithies. "Improving Access to Psychological Therapy: Initial Evaluation of the Two Demonstration Sites." CEP Discussion Paper 897, November 2008. Doncaster and Newham opened late summer 2006.
@@ -68,28 +75,40 @@ This list deepens the "Behavior, cognition, third wave" section of `content/wowt
 ## Anxiety, trauma, children (as history)
 
 - Clark, David M. "A Cognitive Approach to Panic." *Behaviour Research and Therapy* 24, no. 4 (1986): 461–470.
+- Clark, David M., et al. "A Comparison of Cognitive Therapy, Applied Relaxation and Imipramine in the Treatment of Panic Disorder." *British Journal of Psychiatry* 164 (1994): 759–769.
 - Barlow, David H. *Anxiety and Its Disorders*. New York: Guilford, 1988 (2nd ed. 2002).
+- Center for Anxiety and Related Disorders, Boston University. Institutional founding weather, mid-1990s (CARD conventionally 1996). Verify the center's own dated sentence before print.
 - Barlow, David H., et al. Unified Protocol volumes, 2011 onward — late transdiagnostic object.
 - Foa, Edna B., and Michael J. Kozak. "Emotional Processing of Fear: Exposure to Corrective Information." *Psychological Bulletin* 99, no. 1 (1986): 20–35.
+- Foa, Edna B., Barbara Olasov Rothbaum, David S. Riggs, and Constance B. Murdock. "Treatment of Posttraumatic Stress Disorder in Rape Victims: A Comparison between Cognitive-Behavioral Procedures and Counseling." *Journal of Consulting and Clinical Psychology* 59, no. 5 (1991): 715–723.
 - Foa, Edna B., et al. Prolonged exposure manuals — copyrighted training objects; cite as history, do not reprint.
-- Resick, Patricia A., and Monica K. Schnicke. Cognitive processing therapy papers of the early 1990s; later Guilford manuals.
+- Resick, Patricia A., and Monica K. Schnicke. "Cognitive Processing Therapy for Sexual Assault Victims." *Journal of Consulting and Clinical Psychology* 60, no. 5 (1992): 748–756. Later Guilford manuals; cite, do not reprint.
+- Kendall, Philip C. "Treating Anxiety Disorders in Children: Results of a Randomized Clinical Trial." *Journal of Consulting and Clinical Psychology* 62, no. 1 (1994): 100–110.
 - Kendall, Philip C. Coping Cat / child anxiety manuals, 1990s. Copyrighted; cite, do not reprint.
 
 ## Third wave and the argument about waves
 
 - Linehan, Marsha M., et al. "Cognitive-Behavioral Treatment of Chronically Parasuicidal Borderline Patients." *Archives of General Psychiatry* 48, no. 12 (1991): 1060–1064.
 - Linehan, Marsha M. *Cognitive-Behavioral Treatment of Borderline Personality Disorder*. New York: Guilford, 1993.
+- Linehan, Marsha M. *Skills Training Manual for Treating Borderline Personality Disorder*. New York: Guilford, 1993. Second 1993 object; cite as history, do not reprint modules.
 - Carey, Benedict. "Expert on Mental Illness Reveals Her Own Fight." *New York Times*, 23 June 2011.
 - Hayes, Steven C., Kirk D. Strosahl, and Kelly G. Wilson. *Acceptance and Commitment Therapy*. New York: Guilford, 1999.
 - Hayes, Steven C. "Acceptance and Commitment Therapy, Relational Frame Theory, and the Third Wave of Behavioral and Cognitive Therapies." *Behavior Therapy* 35 (2004): 639–665.
 - Hayes, Steven C., Victoria M. Follette, and Marsha M. Linehan, eds. *Mindfulness and Acceptance: Expanding the Cognitive-Behavioral Tradition*. New York: Guilford, 2004.
+- Association for Contextual Behavioral Science. Founded 2005. Institutional history; not a protocol.
+- Teasdale, John D., Zindel V. Segal, J. Mark G. Williams, et al. "Prevention of Relapse/Recurrence in Major Depression by Mindfulness-Based Cognitive Therapy." *Journal of Consulting and Clinical Psychology* 68, no. 4 (2000): 615–623.
 - Segal, Zindel V., J. Mark G. Williams, and John D. Teasdale. *Mindfulness-Based Cognitive Therapy for Depression*. New York: Guilford, 2002.
+- Kabat-Zinn, Jon. "An Outpatient Program in Behavioral Medicine for Chronic Pain Patients Based on the Practice of Mindfulness Meditation." *General Hospital Psychiatry* 4, no. 1 (1982): 33–47.
 - Kabat-Zinn, Jon. *Full Catastrophe Living*. New York: Delacorte, 1990. Clinic-adjacent; not a psychotherapy school by itself. MBSR clinic: University of Massachusetts Medical Center, 1979.
+- Jacobson, Neil S., and Gayla Margolin. *Marital Therapy: Strategies Based on Social Learning and Behavior Exchange Principles*. New York: Brunner/Mazel, 1979. Neighbor door on the same year as the depression manual; not this pack's couples history.
 - Jacobson, Neil S., et al. "A Component Analysis of Cognitive-Behavioral Treatment for Depression." *Journal of Consulting and Clinical Psychology* 64, no. 2 (1996): 295–304.
 - Dimidjian, Sona, et al. "Randomized Trial of Behavioral Activation, Cognitive Therapy, and Antidepressant Medication in the Acute Treatment of Adults with Major Depression." *Journal of Consulting and Clinical Psychology* 74, no. 4 (2006): 658–670.
+- Young, Jeffrey E. *Cognitive Therapy for Personality Disorders: A Schema-Focused Approach*. Sarasota: Professional Resource Exchange, 1990 (rev. 1994). Earlier professional book; 2003 is the later practitioner's guide.
 - Young, Jeffrey E., Janet S. Klosko, and Marjorie E. Weishaar. *Schema Therapy: A Practitioner's Guide*. New York: Guilford, 2003.
+- Wells, Adrian, and Gerald Matthews. *Attention and Emotion: A Clinical Perspective*. Hove: Erlbaum, 1994.
 - Wells, Adrian. *Metacognitive Therapy for Anxiety and Depression*. New York: Guilford, 2009. Earlier metacognitive papers from the 1990s.
 - Hofmann, Stefan G., and Gordon J. G. Asmundson. "Acceptance and Mindfulness-Based Therapy: New Wave or Old Hat?" *Clinical Psychology Review* 28, no. 1 (2008): 1–16.
+- Hofmann, Stefan G., Anu Asnaani, Imke J. J. Vonk, Alice T. Sawyer, and Angela Fang. "The Efficacy of Cognitive Behavioral Therapy: A Review of Meta-analyses." *Cognitive Therapy and Research* 36, no. 5 (2012): 427–440. Interval object between 2008 and 2018; not a shopping list.
 - Hayes, Steven C., and Stefan G. Hofmann, eds. *Process-Based CBT*. Oakland: Context Press / New Harbinger, 2018.
 
 ## Critiques and context
