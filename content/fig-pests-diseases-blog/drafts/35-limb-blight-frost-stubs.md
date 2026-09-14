@@ -23,7 +23,7 @@ images:
   source: ours
   folder_pick: Damaged Cuttings
 status: draft
-voice_check: human
+voice_check: edited
 pillar: cultural
 priority: 35
 zone: 8a
@@ -106,7 +106,7 @@ Rust strips in August. Warm October feels like a gift. The tree throws lime-gree
 
 A late freeze after budbreak is the cruel one. The tissue that moved is the tissue that dies. The wood that had not moved may still be fine. Wait. Then cut. Do not take the whole bush because the first leaves fried.
 
-Clay that holds a lake at the collar is a different funeral. Sand that never drinks is a nematode wilt if the roots are already knotted. Those are not limb blight. Scrape the collar if the whole tree failed in heat. That is the Armillaria draft.
+Clay that holds a lake at the collar is a different funeral. Sand that never drinks is a nematode wilt if the roots are already knotted. Those are not limb blight. Scrape the collar if the whole tree failed in heat. That is the Armillaria page.
 
 ## The saw is sanitation
 

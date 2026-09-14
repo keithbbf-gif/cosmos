@@ -24,7 +24,7 @@ images:
   source: ours
   folder_pick: Fig Fruit
 status: draft
-voice_check: human
+voice_check: edited
 pillar: mosaic
 priority: 15
 zone: 8a
@@ -63,7 +63,7 @@ A west pot on gravel writes the loudest page. An in-ground stool in afternoon sh
 
 Black Mission, in UC’s older agriculture note, takes mosaic harder than some California names. Kadota and Calimyrna were called less affected. That is their orchard, not your unnamed turkey. I will not import a California ranking onto a South Arkansas stool. I will say: **variety matters, and I will not guess yours from a photo.**
 
-PNW’s handbook said high summer temperatures can make symptoms worse. I did not need a handbook to see it. I needed a July. The heat draft in this folder unpacks the week. This page only needs you to stop dating the infection to the heat wave.
+PNW’s handbook said high summer temperatures can make symptoms worse. I did not need a handbook to see it. I needed a July. The heat-and-mosaic page unpacks the week. This page only needs you to stop dating the infection to the heat wave.
 
 ## The mite, in one honest chunk
 

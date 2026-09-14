@@ -24,7 +24,7 @@ images:
   source: ours
   folder_pick: Outdoor
 status: draft
-voice_check: human
+voice_check: edited
 pillar: beetles
 priority: 23
 zone: 8a
@@ -93,7 +93,7 @@ I will not hang one over the jam tree to “draw them off the fruit.” That sen
 
 It does not replace a morning pick.
 
-It does not keep sap beetles out of an open eye. Different insect. Different draft.
+It does not keep sap beetles out of an open eye. Different insect. Different page.
 
 It does not cure mosaic, rust, or a wilted top. People will still try to make one purchase do four jobs.
 

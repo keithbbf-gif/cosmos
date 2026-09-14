@@ -23,7 +23,7 @@ images:
   source: ours
   folder_pick: Fig Labels
 status: draft
-voice_check: human
+voice_check: edited
 pillar: diagnosis
 priority: 31
 zone: 8a
@@ -44,7 +44,7 @@ Black film that smears. Sooty mold. Wipe it. The leaf underneath may be fine. Th
 
 Bumps that scrape. Armored scale looks like a little lid. Soft scale looks like a flattened drop. I use a fingernail on wood I can spare. A 10× loupe if I have it in the pocket. I am not a museum.
 
-Ants commuting. Ants farm the leak. They are a clue, not the root. The ants draft is next door. This page is the bump.
+Ants commuting. Ants farm the leak. They are a clue, not the root. The ants page is next door. This page is the bump.
 
 A shop plant that never got cold. Outdoor 8a wood with real winter — we do get nights that remind you zone 8a is a winter number, 10–15°F average annual extreme, not a beach — often comes cleaner than a pot that lived next to a water heater.
 

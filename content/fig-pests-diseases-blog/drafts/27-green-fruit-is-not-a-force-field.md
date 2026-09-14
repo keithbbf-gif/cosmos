@@ -23,7 +23,7 @@ images:
   source: ours
   folder_pick: Fig Fruit
 status: draft
-voice_check: human
+voice_check: edited
 pillar: birds
 priority: 27
 zone: 8a
@@ -98,7 +98,7 @@ Rust can strip leaves and suddenly the remaining fruit is more visible. Mosaic p
 
 ## If you want a force field
 
-Build a frame. Stake the net. Check it daily for trapped wildlife. Ferguson already named the tool. Loose mesh on fruit still loses the edge figs and can trap a snake. That is the netting draft.
+Build a frame. Stake the net. Check it daily for trapped wildlife. Ferguson already named the tool. Loose mesh on fruit still loses the edge figs and can trap a snake. That is the netting page.
 
 If you want a cheaper billboard, plant green and keep your alarm set. Both can be true. Only one of them is a contract, and it is not the color.
 

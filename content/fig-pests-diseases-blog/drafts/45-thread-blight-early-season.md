@@ -24,7 +24,7 @@ images:
   source: ours
   folder_pick: More Fig Pictures
 status: draft
-voice_check: human
+voice_check: edited
 pillar: rust
 priority: 45
 zone: 8a
@@ -33,7 +33,7 @@ An LSU foliage note I keep in the bibliography said the quiet calendar: thread b
 
 If the canopy is ugly in **May**, I do not write rust as the default. If it is ugly in **August** with orange grit, I do. Mash those months and you copper a paint job or you ignore a web.
 
-This pack started with buckets. It ends with time. I want the month on the leaf before I want a Latin name I did not culture.
+This series started with buckets. It ends with time. I want the month on the leaf before I want a Latin name I did not culture.
 
 ## What I mean by thread blight here
 
@@ -49,7 +49,7 @@ Pyzner’s LSU fig production note sits in the bibliography with rust / thread b
 
 ## Rust stays the August thumb
 
-You already have that draft. Small yellow-green flecks that go rusty. Underside feels like fine grit. Thumb comes away stained. Then a strip in a couple of ugly weeks. *Cerotelium fici*, older papers *Physopella fici*. Fruit is not the host. The crop suffers because the factory walked off.
+You already have the rust page. Small yellow-green flecks that go rusty. Underside feels like fine grit. Thumb comes away stained. Then a strip in a couple of ugly weeks. *Cerotelium fici*, older papers *Physopella fici*. Fruit is not the host. The crop suffers because the factory walked off.
 
 Once the spots are obvious, UF/IFAS said chemical talk is late. Rake. Do not compost the quilt against the trunk. Do not feed a second spring in October. UAEX already told you that flush takes cold.
 
@@ -59,7 +59,7 @@ I flip ten leaves, not one. Rust pustules live on the underside. A web is a web.
 
 ## What May can be instead
 
-Winter damage that is just now showing. Frost stubs wilt in spring and people call it blight. Brown from the tip. A line if you scrape. The saw draft owns that. Wait for green. Cut to live. Do not copper a dead tip.
+Winter damage that is just now showing. Frost stubs wilt in spring and people call it blight. Brown from the tip. A line if you scrape. The saw-and-prune page owns that. Wait for green. Cut to live. Do not copper a dead tip.
 
 *Botrytis* limb blight on a frost-hurt fruit leftover. LSU’s 2025 PDF: fungus into the shoot, spring wilt, buff spores, cut below the canker, clean the pruners. That is a point-wilt on wood, not an orange thumb on a leaf. I still date it. I still do not mash it into rust.
 
@@ -69,17 +69,17 @@ Sunburn on a west wall after you opened a canopy. Not a fungus. Move the pot or 
 
 A drowned pot after a spring rain week. The top looks tired. The leaf may yellow without a pretty pattern. Dump the saucer. That is a dish.
 
-If I cannot sort it and the tree is failing, I bag a leaf for the clinic. Whole tree photo, both sides, coin, county, rain that week. The photo draft is the shot list. I do not invent a weekly fungicide because I learned a third Latin name.
+If I cannot sort it and the tree is failing, I bag a leaf for the clinic. Whole tree photo, both sides, coin, county, rain that week. The county photo page is the shot list. I do not invent a weekly fungicide because I learned a third Latin name.
 
 ## Copper pages that name both
 
 Some LSU prose said two copper applications, May and August, keep foliage diseases from being too destructive, and also said people rarely spray and trees live. I will hold the second sentence tighter than the first.
 
-Pub. 1802 in 2025 said no fungicides labeled for figs in Louisiana. That is a newer, harder line. Cultural only. **[VERIFY]** which document your parish is standing on this year. I will not flatten 2025 and an older copper mention into one hose recipe so this last draft looks complete.
+Pub. 1802 in 2025 said no fungicides labeled for figs in Louisiana. That is a newer, harder line. Cultural only. **[VERIFY]** which document your parish is standing on this year. I will not flatten 2025 and an older copper mention into one hose recipe so this last page looks complete.
 
 Arkansas clinic copper was rust-timed to first full leaves, then three to four weeks. That is May-ish, not a thread-blight personality, not an August rescue. UF’s older edible-fig notes said no EPA-approved fungicides for edible figs in Florida in that document.
 
-Those sentences can be true at the same time. A blog that turns them into “copper twice, thread blight and rust, you are covered” is selling an apple habit. We do not grow apples in this folder.
+Those sentences can be true at the same time. A blog that turns them into “copper twice, thread blight and rust, you are covered” is selling an apple habit. We do not grow apples in this series.
 
 I will not write a two-disease spray card. I will not name a brand. I will not write a rate. Label is law, and the label is state-specific. If fig is not on it, you do not have a fig use. If you even have a legal use, TAMU’s fruit-residue warning still sits on the necklace you will eat.
 
@@ -95,17 +95,17 @@ I photograph both sides in sun. I write the month in the filename if I am being 
 
 I rake what is down. I do not till it in. I do not mow it into the crown.
 
-I do not fog. Kids and dogs use this grass. The safety draft already refused the plume. A May web is not a reason to change that.
+I do not fog. Kids and dogs use this grass. The kids-and-dogs page already refused the plume. A May web is not a reason to change that.
 
-I give a child tree in a still wet pocket air at the next prune, not a jug this week. Morning sun on the interior. Water on the dirt. The irrigation draft is the hose half of this fungus.
+I give a child tree in a still wet pocket air at the next prune, not a jug this week. Morning sun on the interior. Water on the dirt. The irrigation page is the hose half of this fungus.
 
 If the tree is a pot, I move it out of a swamp saucer and out of a closed huddle of fifty pots that never dry.
 
 If the tree is failing and I cannot sort it, I mail the county. I do not start a group thread. I do not buy a bottle on the drive home.
 
-## Why the last draft is a calendar
+## Why the thread-blight page is a calendar
 
-The scout calendar in this pack is a walk, not a spray card. Thread blight versus rust is why that walk has months.
+The scout calendar in this series is a walk, not a spray card. Thread blight versus rust is why that walk has months.
 
 Early fungus. Late fungus. Heat-loud virus. Beetle week. Bird week. Winter saw. Rain week that opens every door. A summer crash at the collar that is not a leaf story at all.
 

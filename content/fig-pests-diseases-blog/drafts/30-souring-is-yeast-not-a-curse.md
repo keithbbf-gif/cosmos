@@ -23,7 +23,7 @@ images:
   source: ours
   folder_pick: Figs-summer-23
 status: draft
-voice_check: human
+voice_check: edited
 pillar: beetles
 priority: 30
 zone: 8a
@@ -70,7 +70,7 @@ Plant closed-eye names for the trees you will not babysit.
 
 Pick the open-eye names like they are milk.
 
-Take the necklace off the same day. They do not stay as “maybe jam.” They are beetle bait. Trash or a hot compost that is **not** under the tree. Last year’s fruit dump is next year’s chafer room. That is a different draft. Same walk.
+Take the necklace off the same day. They do not stay as “maybe jam.” They are beetle bait. Trash or a hot compost that is **not** under the tree. Last year’s fruit dump is next year’s chafer room. That is the compost page. Same walk.
 
 Do not leave peaches and tomatoes to rot in the same garden as if beetles read crop labels. UC said remove fallen and overripe fruit of any kind.
 

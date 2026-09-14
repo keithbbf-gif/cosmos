@@ -22,12 +22,12 @@ images:
   source: ours
   folder_pick: Greenhouse photos
 status: draft
-voice_check: human
+voice_check: edited
 pillar: calendar
 priority: 37
 zone: 8a
 ---
-This is a walk, not a spray card. If you came for copper every two weeks, the copper draft already told you no. If you came for a mosaic protocol, that draft told you no. This page is when I look, and what I refuse to mash.
+This is a walk, not a spray card. If you came for copper every two weeks, the copper-and-label page already told you no. If you came for a mosaic protocol, that mosaic page told you no. This page is when I look, and what I refuse to mash.
 
 South Arkansas **8a**. Sticky August. A freezer that will still surprise a fig that rust-flushed in October. Clay in one hole and sand in the next. Your parish is allowed to be two weeks off. **[VERIFY]** your own frost dates. I am talking from this yard.
 
@@ -35,7 +35,7 @@ I put names on months so I stop buying the wrong bottle in the wrong week. I do 
 
 ## January–February
 
-Outdoor wood: dead tips, leftover mummies, a rust quilt I stepped over in November. I do not sculpt until I see live buds. The saw draft owns the cut. This month owns the look.
+Outdoor wood: dead tips, leftover mummies, a rust quilt I stepped over in November. I do not sculpt until I see live buds. The saw-and-prune page owns the cut. This month owns the look.
 
 Pots that wintered warm: scale, spider mites in a dry room, a saucer that grew a swamp. I do not oil a heat-stressed leaf because I am bored. I do not carry yard gravel into the shop “for weight.”
 
@@ -57,7 +57,7 @@ I still rake last year’s litter if I missed it. LSU: spores on fallen leaves.
 
 If you are in a state with a historic copper sentence and a label that still says fig, this is the chapter UAEX meant — first leaves full size — not August. I still do not invent a jug. **[VERIFY]** the paper in your hand this year. If you are in Louisiana as Pub. 1802 described it, you have a rake.
 
-Thread blight, in the LSU calendar sense, is an early foliage fungus. If the canopy is ugly in April or May with a webby underside and no orange grit, I do not write rust as the default. I date the leaf. I rake it either way. That sort is the last draft in this pack. It is not a copper card.
+Thread blight, in the LSU calendar sense, is an early foliage fungus. If the canopy is ugly in April or May with a webby underside and no orange grit, I do not write rust as the default. I date the leaf. I rake it either way. That sort is the thread-blight page. It is not a copper card.
 
 ## May
 
@@ -75,7 +75,7 @@ I water dirt. Morning if I go overhead. Dusk overhead is a fungus lease.
 
 ## July
 
-Main crop loud. Green June beetles loud. Birds loud. Heat turns mosaic into theater. That paint is not a new infection. The heat draft already said so. I do not spray a virus. I do not cut a working tree because a leaf looks oak-leaf yellow after a 98° week.
+Main crop loud. Green June beetles loud. Birds loud. Heat turns mosaic into theater. That paint is not a new infection. The heat-and-mosaic page already said so. I do not spray a virus. I do not cut a working tree because a leaf looks oak-leaf yellow after a 98° week.
 
 Rust may start its map in a wet year. I flip leaves. Underside. Thumb. If I see grit, I am in the rust bucket. Fruit is not the rust host. I do not spray a vinegar fig for a leaf fungus.
 
@@ -89,7 +89,7 @@ Steam. Rust grit on a thumb. Necklaces. Sap beetles. Afternoon wilt on sand. Thi
 
 Once the spots are obvious, I am late for chemistry even in a state that still talks copper. UF/IFAS said that quiet part. I rake. I do not compost a rust blanket against the trunk.
 
-Fruit trouble is a different walk the same morning. Sour, split, Green June, birds. I pick. I take the wrecks off. A tropical leftover rain week gets its own draft. Close doors. Do not invent a storm spray. Kids and dogs live in this grass. I will not fog the yard because a leaf is ugly.
+Fruit trouble is a different walk the same morning. Sour, split, Green June, birds. I pick. I take the wrecks off. A tropical leftover rain week gets its own post. Close doors. Do not invent a storm spray. Kids and dogs live in this grass. I will not fog the yard because a leaf is ugly.
 
 ## September
 
@@ -109,7 +109,7 @@ I am sorting buckets by month so I stop mashing them.
 
 Early canopy trouble is not automatically rust. Late orange grit is. Heat-loud paint is mosaic we already own. June and July fruit is beetles and birds and yeast. A summer crash with white skin at the collar is a different funeral. A noon wilt on wet dirt is not a virus.
 
-Thread blight versus rust is a calendar sort. That is why this page exists next to the last draft. It is not why a copper card exists.
+Thread blight versus rust is a calendar sort. That is why this page exists next to the thread-blight page. It is not why a copper card exists.
 
 ## What never gets a month
 

@@ -23,18 +23,16 @@ images:
   source: ours
   folder_pick: Damaged Cuttings
 status: draft
-voice_check: human
+voice_check: edited
 pillar: mosaic
 priority: 17
 zone: 8a
 ---
-I need this in one hard page because the algorithm will offer you a protocol.
-
-There is no backyard spray that removes fig mosaic disease from a tree. Not neem. Not oil. Not a compost tea. Not a peroxide fog. Not a “systemic” jug from the fruit-tree shelf. Not a heat lamp over a pot. UC IPM wrote the residential rule: no practical control. Replace the tree if it will not perform.
+A neighbor shows up at 9 p.m. with a printout: three sprays, a tea, a miticide by name. There is no backyard spray that removes fig mosaic disease from a tree. Not neem. Not oil. Not a compost tea. Not a peroxide fog. Not a “systemic” jug from the fruit-tree shelf. Not a heat lamp over a pot. UC IPM wrote the residential rule: no practical control. Replace the tree if it will not perform.
 
 Florida’s older fig notes said there are no chemical recommendations for the virus. Oils may be talked about for mites. That is a different sentence.
 
-If you take nothing else from this pack, take that split.
+If you take nothing else from this series, take that split.
 
 I have watched the protocol arrive in a group chat at 9 p.m. Three sprays. A tea. A full moon if the poster is feeling poetic. By 9:12 somebody has named a miticide. By 9:15 somebody has promised their tree “cleared.” I close the phone and go look at a painted stool that has fed me since before that thread existed.
 

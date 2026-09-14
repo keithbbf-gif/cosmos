@@ -23,7 +23,7 @@ images:
   source: ours
   folder_pick: Outdoor
 status: draft
-voice_check: human
+voice_check: edited
 pillar: rust
 priority: 43
 zone: 8a
@@ -58,7 +58,7 @@ I take what I already know is a mummy twig. I take a strap that broke in a storm
 
 If October flushed, I do not wrap that flush like a gift. UAEX warned that rust defoliation can push tender foliage into winter. Zone **8a** still sees teens. That wood is a bill. Breathable wrap if I wrap at all — the other pack already wrote Arkansas winter. Plastic sweats. Sweat plus a wound is a fungus porch. I will not build a sweat lodge and then act shocked at a canker.
 
-I do not fertilize in October or November “to help them recover.” Recovery is lignified wood and a quiet top. Lawn food is a tender tip. The late-flush draft already said that. A rust year needs that sentence more, not less.
+I do not fertilize in October or November “to help them recover.” Recovery is lignified wood and a quiet top. Lawn food is a tender tip. The late-flush page already said that. A rust year needs that sentence more, not less.
 
 Mulch after the soil cools, off the trunk. Two to four inches of what I have. A volcano is how you hide a collar problem and invite rot. Armillaria is a different funeral. Ordinary wet collar is enough. I want to see the flare.
 
@@ -72,7 +72,7 @@ I do not carry a gravel of yard dirt into the shop “for weight.” That is nem
 
 I do not oil a heat-stressed leaf because I am bored in January. I do not write a mosaic worry because the paint is quiet. Leave it.
 
-Saucers that held a rain week still get dumped. A shop swamp is not a drought. The irrigation draft owns the hose. This page owns the door.
+Saucers that held a rain week still get dumped. A shop swamp is not a drought. The irrigation page owns the hose. This page owns the door.
 
 A collection is not an excuse to skip the look. Two hundred pots is two hundred chances to gift the room a farm. The kids-and-dogs page said I will not fog a property because I have a lot of labels. The winter look is the other half of that sentence.
 
@@ -86,11 +86,11 @@ A bleach walk. A lime dust. A sulfur bomb. Those are how you write a different p
 
 A mosaic protocol. The paint is quiet. There is no kitchen heat-therapy. UC IPM already closed that door.
 
-A nematode drench because I read a forum in the dark. Cinnamon, molasses, dish soap, a weekend jug — this pack will not write them. Established galled trees do not get a homeowner chemical reset from this site.
+A nematode drench because I read a forum in the dark. Cinnamon, molasses, dish soap, a weekend jug — this series will not write them. Established galled trees do not get a homeowner chemical reset from this site.
 
 A plastic wrap on a late flush. A tar paint on every cut I have not even made yet.
 
-A January funeral for a multi-stool bush that has not shown green. Wait. Then cut. Then decide if the hole still earns. The pull draft is for a bucket you can name. Brown tips after a rust year are often weather, not a grave.
+A January funeral for a multi-stool bush that has not shown green. Wait. Then cut. Then decide if the hole still earns. The when-to-pull page is for a bucket you can name. Brown tips after a rust year are often weather, not a grave.
 
 ## The point of the winter walk
 

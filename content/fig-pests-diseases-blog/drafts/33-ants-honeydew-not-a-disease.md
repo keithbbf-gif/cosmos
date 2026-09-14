@@ -24,7 +24,7 @@ images:
   source: ours
   folder_pick: Fig Fruit
 status: draft
-voice_check: human
+voice_check: edited
 pillar: diagnosis
 priority: 33
 zone: 8a
@@ -51,7 +51,7 @@ Green fruit is not a force field against ants. Soft necks still drip. Contrast i
 
 I follow the line. Trunk. Branch. Underside. Pot rim. In a 70-degree shop in January the line is easy. On an in-ground turkey in August the line can hide in grass you should not have piled as a mattress.
 
-I scrape or pick the leak I can reach. Toothbrush on a pot. Fingernail on a twig I can spare. The scale draft is the bump chapter. This page is the commute.
+I scrape or pick the leak I can reach. Toothbrush on a pot. Fingernail on a twig I can spare. The scale page is the bump chapter. This page is the commute.
 
 I wipe soot if I need to see the leaf. I do not copper the soot. Sooty mold is a sugar fungus. It is not *Cerotelium*. LSU Pub. 1802 (2025) said no fungicides labeled for figs in Louisiana in that document. Other states have historic copper talk aimed at rust, not at a smear. **[VERIFY]**. A contact metal will not evict a bump.
 

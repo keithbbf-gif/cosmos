@@ -25,7 +25,7 @@ images:
   source: ours
   folder_pick: Fig Fruit
 status: draft
-voice_check: human
+voice_check: edited
 pillar: birds
 priority: 26
 zone: 8a
@@ -88,7 +88,7 @@ Netting that stops a mockingbird may not stop a squirrel. They cut. They get stu
 
 I have cinched net and found a hole the next morning. I have also had weeks squirrels ignored a tree because a pecan was louder. I do not forecast squirrels. I forecast whether the tree is a ladder.
 
-Bagging individual fruit is the small-tree version. Next draft. A twenty-foot turkey does not get a hundred organza bags unless you have a different personality than I do.
+Bagging individual fruit is the small-tree version. See the bagging page. A twenty-foot turkey does not get a hundred organza bags unless you have a different personality than I do.
 
 Raccoons test a loose skirt at night. Deer do not care about mesh on a short tree they can browse through if the frame is a suggestion. Mammals grab. Birds peck. Sap beetles walk. Name the mouth before you buy more cloth.
 

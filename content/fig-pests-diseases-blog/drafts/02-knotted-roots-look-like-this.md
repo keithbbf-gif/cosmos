@@ -24,7 +24,7 @@ images:
   source: ours
   folder_pick: Figs
 status: draft
-voice_check: human
+voice_check: edited
 pillar: nematodes
 priority: 2
 zone: 8a

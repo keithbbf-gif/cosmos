@@ -23,7 +23,7 @@ images:
   source: ours
   folder_pick: Damaged Cuttings
 status: draft
-voice_check: human
+voice_check: edited
 pillar: nematodes
 priority: 4
 zone: 8a
@@ -58,7 +58,7 @@ A neighbor once asked if a hot-water dump from a kettle would “cook the worms�
 
 ## The garden-center jug
 
-There are real nematicides in the world. They live behind licenses, setbacks, and labels that change. They are not a weekend fig-roots.com recipe. I will not name a product as if I am your applicator. I will not copy Vapam out of a handbook that also says do not use it around living plants.
+There are real nematicides in the world. They live behind licenses, setbacks, and labels that change. They are not a weekend figroots.com recipe. I will not name a product as if I am your applicator. I will not copy Vapam out of a handbook that also says do not use it around living plants.
 
 “Beneficial nematodes” in a refrigerator box are a different animal — insect-attacking species sold for grub stories. People hear “nematode” and pour them on a fig as if they eat *Meloidogyne*. That is a language trick. **[VERIFY]** the species on the box if you buy them for turf grubs. Do not buy them as a fig root-knot cure. I have not seen an extension fig chapter that says they will.
 

@@ -23,7 +23,7 @@ images:
   source: ours
   folder_pick: Fig Labels
 status: draft
-voice_check: human
+voice_check: edited
 pillar: rust
 priority: 14
 zone: 8a
@@ -38,7 +38,7 @@ I heard that sentence in a nursery aisle with a wet cardboard pot in my hand. Th
 
 LSU’s variety writeups have said **LSU Purple** has some resistance to leaf diseases, bears young, and is colder-sensitive — better thought of as a Gulf plant than a northern-Louisiana bet. Other LSU pages talk a heavy main crop and a late crop that can run long.
 
-“Some resistance to leaf diseases” is a pile of foliage troubles, not a rust medal you can hang on a fence. Thread blight lives in this folder as its own early-season chapter. Rust is the late-summer orange one. Mosaic is a virus paint job and is not a leaf *disease* in the breeding sense people want it to be. Do not hear “leaf disease” and cash it in as “my Purple will not paint, rust, blight, or drop.”
+“Some resistance to leaf diseases” is a pile of foliage troubles, not a rust medal you can hang on a fence. Thread blight lives in this series as its own early-season chapter. Rust is the late-summer orange one. Mosaic is a virus paint job and is not a leaf *disease* in the breeding sense people want it to be. Do not hear “leaf disease” and cash it in as “my Purple will not paint, rust, blight, or drop.”
 
 The breeding-history page said **LSU Gold** has **moderate** resistance to fig leaf rust and is recommended for the Gulf Coast. Moderate is a breeder’s shrug. It is not a number. It is not a year. Gold’s own writeups also talk a partially open eye and cracking after rain. That is a souring-and-pick sentence. It is not a rust sentence. Do not trade one for the other.
 
@@ -68,7 +68,7 @@ Zone 8a is a winter number — average annual extreme about 10 to 15°F. It is n
 
 I have a pot of Purple I can walk to a wall. I have an in-ground stool I cannot. The tag did not change. The wagon did.
 
-If October grows a second spring on a rust-stripped Purple, I do not feed it. That is the late-flush draft. I mention it here because people shop LSU names as if the pedigree includes a winter waiver. It does not.
+If October grows a second spring on a rust-stripped Purple, I do not feed it. That is the late-flush page. I mention it here because people shop LSU names as if the pedigree includes a winter waiver. It does not.
 
 ## What I tell a person shopping “disease-resistant figs”
 

@@ -22,14 +22,14 @@ images:
   source: ours
   folder_pick: More Fig Pictures
 status: draft
-voice_check: human
+voice_check: edited
 pillar: birds
 priority: 25
 zone: 8a
 ---
 I have stood under a tree at dusk and counted pecks I did not hear happen. The neck had been tight at lunch. At 7:15 the first hole was already dry at the edge. Zone **8a** fig week is also mockingbird week, starling week, jay week, sometimes a waxwing week if the calendar lines up. A ripe fig does not wait for your Saturday. A bird does not care that you work.
 
-Jack already said it on The Fig Jam: after a dead tree, birds are the part of fig season he likes least. That is his harvest mouth. This page is mine. I will not mash the two pens. I will write the calendar they own.
+Jack already said it on The Fig Jam: after a dead tree, birds are the part of fig season he likes least. That is his harvest mouth. This page is mine. I will not mash the two pens. I will write the calendar birds own.
 
 ## What I see that is birds, not beetles, not a raccoon
 
@@ -71,7 +71,7 @@ We have resident mockingbirds that learn a tree like a job. One pair can work a 
 
 Starlings show up as a committee. Jays are loud about it. A cedar waxwing week, when it happens, is a strip. You do not negotiate with a strip. You pick what you can and you net what you refuse to share, or you make jam off the low branches and stop writing a war.
 
-Heat makes the neck drop faster. A 98° afternoon after a wet night will finish fruit you thought had two days. The bird already read the gloss. Green fruit hides better in the canopy. It is not a force field. Hungry mockingbirds still read a soft neck. That is the next draft. This one is the clock.
+Heat makes the neck drop faster. A 98° afternoon after a wet night will finish fruit you thought had two days. The bird already read the gloss. Green fruit hides better in the canopy. It is not a force field. Hungry mockingbirds still read a soft neck. That is the green-fruit page. This one is the clock.
 
 ## What I will not do
 

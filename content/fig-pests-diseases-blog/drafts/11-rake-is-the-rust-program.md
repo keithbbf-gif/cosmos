@@ -23,7 +23,7 @@ images:
   source: ours
   folder_pick: Outdoor
 status: draft
-voice_check: human
+voice_check: edited
 pillar: rust
 priority: 11
 zone: 8a
@@ -68,7 +68,7 @@ Winter sanitation is the same job with a coat on. A tree that stripped in August
 
 A rake without a hole in the canopy is a man cleaning a closet he will not open. Prune so morning sun hits the interior. John R. Pyzner’s LSU fig production note (Pub. 1529) and the Johnson / Louisiana talk we have used on FigRoots wanted space and a center that is not a wet room. I want that too.
 
-I do not butcher a fig in August to “let it breathe” and steal a crop that is two weeks from jam. I take the dead wood. I wait for the prune I already owed the variety. Breba people and main-crop people argue the calendar. **[VERIFY]** your own wood. The rust draft is not a license to chainsaw a July tree.
+I do not butcher a fig in August to “let it breathe” and steal a crop that is two weeks from jam. I take the dead wood. I wait for the prune I already owed the variety. Breba people and main-crop people argue the calendar. **[VERIFY]** your own wood. The rust-rake page is not a license to chainsaw a July tree.
 
 Water on the dirt. Morning if overhead. That is sanitation you do with a hose. UF/IFAS Panhandle said the chemical chapter is late once spots are obvious. The hose chapter is not late. It is just earlier in the day than people like.
 

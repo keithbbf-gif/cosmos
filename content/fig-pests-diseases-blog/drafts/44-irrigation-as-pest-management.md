@@ -24,7 +24,7 @@ images:
   source: ours
   folder_pick: Figs-summer-23
 status: draft
-voice_check: human
+voice_check: edited
 pillar: cultural
 priority: 44
 zone: 8a
@@ -35,7 +35,7 @@ Figs want a drink in **8a** heat. Virginia Tech and UGA talk an inch to an inch 
 
 The air here is already thick. A dusk overhead run is how you add a closet on purpose. The sand is already hungry. A daily sprinkle is how you grow a mat in the hottest occupied inch. The clay already holds a lake. A hose after a two-inch rain is how you write rot on top of weather.
 
-[Outdoor](https://figroots.com/outdoor/) already talks pots, beds, shade, water. This folder unpacks the pest half of that hose.
+[Outdoor](https://figroots.com/outdoor/) already talks pots, beds, shade, water. The pest posts unpack the other half of that hose.
 
 ## Rust door: the wet leaf at night
 
@@ -77,7 +77,7 @@ A dry windy pot block grows spider mites. Fine pepper on the top of a leaf in a 
 
 You can also overwater a shop plant in winter and grow fungus. Season is part of the hose. January is not July. A warm room and a weekly swamp is how you write rot and fungus gnats and a sad stick. A warm room and bone-dry mix is how you write mites. Weight the pot. Do not water the calendar.
 
-*Aceria* in the bud is a different mite and a different draft. A hose will not evict a virus. Oils may bother mites. They do not evict Fig mosaic virus. Do not invent a mist protocol.
+*Aceria* in the bud is a different mite and a different page. A hose will not evict a virus. Oils may bother mites. They do not evict Fig mosaic virus. Do not invent a mist protocol.
 
 ## Beetle door: the fruit you watered into a split
 
@@ -85,7 +85,7 @@ A drought then a two-inch rain plus a heavy hand on the hose will split skins. S
 
 I do not chase a perfect moisture curve. I do try not to invent a flood after I forgot the plants for ten days. Even water through a dry spell is boring and correct. A guilt flood on a Friday is how you write a necklace of wrecks and a Saturday of sap beetles.
 
-I do not fog those wrecks. I pick them. The beetle draft and the kids-and-dogs draft already refused the plume. The hose is allowed to be the mistake. The backpack does not get to “fix” it.
+I do not fog those wrecks. I pick them. The handpick-beetles and kids-and-dogs pages already refused the plume. The hose is allowed to be the mistake. The backpack does not get to “fix” it.
 
 Birds will find a splitter. So will you. Dawn walk. The hose does not replace the bucket.
 
@@ -101,7 +101,7 @@ I will not mist mosaic off a leaf.
 
 I will not run a dusk sprinkler as a “cool down” and then buy copper in August.
 
-I will not leave a timer on vacation settings through a tropical rain week. The rain draft said dump the saucer. The timer does not read radar unless you do.
+I will not leave a timer on vacation settings through a tropical rain week. The after-rain page said dump the saucer. The timer does not read radar unless you do.
 
 ## The boring setting
 
@@ -111,6 +111,6 @@ That is pest management. It does not look like a product. It looks like a person
 
 On sand I water slower and deeper than my impatience wants. On clay I wait. In pots I lift. In the shop I remember the month. After rust I do not feed a second spring. After a storm I do not add a lake.
 
-8a will keep you honest. The air is already thick. Do not add a night-wet leaf on purpose. The sand is already hungry. Do not add a lake on purpose. The hose is allowed to be the smartest tool in this folder. It is also allowed to be the dumbest. Pick which day it is.
+8a will keep you honest. The air is already thick. Do not add a night-wet leaf on purpose. The sand is already hungry. Do not add a lake on purpose. The hose is allowed to be the smartest tool in this series. It is also allowed to be the dumbest. Pick which day it is.
 
 I have written rust on a pot block with a 9 p.m. habit. I have written rot with a saucer I forgot. I have written a noon wilt on galled sand by sipping the surface. I have also kept a tool tree alive in a hot July with a slow drink and mulch off the trunk. Same hose. Different door. Name the door before you turn the valve.

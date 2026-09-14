@@ -23,7 +23,7 @@ images:
   source: ours
   folder_pick: Figs
 status: draft
-voice_check: human
+voice_check: edited
 pillar: mosaic
 priority: 18
 zone: 8a
@@ -78,7 +78,7 @@ Flavor I want. A tree that earns. I assume the paint job comes along.
 
 I do not take cuttings from a plant that never grew up and tell myself the babies will be different. The virus is in the wood. The weak growth may be virus plus a bad root plus a bad hole. I do not need to clone the whole pile.
 
-Jack’s cutting specs live on FigRoots already — length, nodes, lignified wood. This draft is not that. This draft is: **the wood has a medical history even when the leaf is quiet.**
+Jack’s cutting specs live on FigRoots already — length, nodes, lignified wood. This page is not that. This page is: **the wood has a medical history even when the leaf is quiet.**
 
 I take wood in the season we already teach, not in a July panic because the leaf got loud. Loud July is heat on a file you already own. Quiet January wood is still that file.
 

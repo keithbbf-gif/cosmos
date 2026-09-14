@@ -24,7 +24,7 @@ images:
   source: ours
   folder_pick: Greenhouse photos
 status: draft
-voice_check: human
+voice_check: edited
 pillar: nematodes
 priority: 5
 zone: 8a
@@ -79,7 +79,7 @@ Use a pot that does not explode into the soil. Raise it on a brick if you are pa
 
 [Outdoor](https://figroots.com/outdoor/) is how we already talk pots and beds. I am only adding the fence rule: the pot is a fence if you keep the dirt on the two sides from becoming one dirt.
 
-Pot culture has its own pests — winter scale in a warm shop, salt, a pot that cooks on black plastic in a 98° week. Those are different drafts. They are still better problems than donating a name to a necklace of galls.
+Pot culture has its own pests — winter scale in a warm shop, salt, a pot that cooks on black plastic in a 98° week. Those are different pages. They are still better problems than donating a name to a necklace of galls.
 
 ## What living with it looks like in August
 

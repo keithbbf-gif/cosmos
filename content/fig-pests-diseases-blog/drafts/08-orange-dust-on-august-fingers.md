@@ -24,7 +24,7 @@ images:
   source: ours
   folder_pick: More Fig Pictures
 status: draft
-voice_check: human
+voice_check: edited
 pillar: rust
 priority: 8
 zone: 8a
@@ -79,7 +79,7 @@ I water the dirt. If I have to water overhead, I do it in the morning so leaves 
 
 I do not fog a canopy of already-orange leaves and call it a cure. UF/IFAS in the Panhandle (*Fig Leaves Dropping Early?*, 18 Sept 2017) said once those spots are obvious, you are late for chemistry. Sanitation and next year are the chapter you still own.
 
-Copper talk is a different draft because the states do not agree, and a label is not a blog. LSU 2025: no fungicides labeled for figs in Louisiana. UAEX: historic neutral copper when first leaves are full size. UF’s older edible-fig notes: no EPA-approved fungicides for edible figs in Florida in that document. I will not hose-reconcile that here. **[VERIFY]** your own label.
+Copper talk is a different page because the states do not agree, and a label is not a blog. LSU 2025: no fungicides labeled for figs in Louisiana. UAEX: historic neutral copper when first leaves are full size. UF’s older edible-fig notes: no EPA-approved fungicides for edible figs in Florida in that document. I will not hose-reconcile that here. **[VERIFY]** your own label.
 
 ## A walk I will keep taking
 

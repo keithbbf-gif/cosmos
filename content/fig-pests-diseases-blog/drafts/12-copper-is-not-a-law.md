@@ -24,7 +24,7 @@ images:
   source: ours
   folder_pick: Greenhouse photos
 status: draft
-voice_check: human
+voice_check: edited
 pillar: rust
 priority: 12
 zone: 8a
@@ -107,4 +107,4 @@ May on this place can still hold a night rain in the canopy at breakfast. That i
 
 **Copper is a legal object, not a personality.** If fig is not on the label in your state, the rust program is a rake. If fig is on the label, the rust program is still a rake, plus a narrow early window you might use.
 
-Anyone who sells you a summer-long copper calendar for figs is selling you a habit from apples. We do not grow apples in this folder.
+Anyone who sells you a summer-long copper calendar for figs is selling you a habit from apples. We do not grow apples in this series.

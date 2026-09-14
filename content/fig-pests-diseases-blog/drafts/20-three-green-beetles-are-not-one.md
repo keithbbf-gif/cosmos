@@ -25,7 +25,7 @@ images:
   source: ours
   folder_pick: More Fig Pictures
 status: draft
-voice_check: human
+voice_check: edited
 pillar: beetles
 priority: 20
 zone: 8a
@@ -68,7 +68,7 @@ I will not write one *Cotinis* for the whole country in a caption. That is how a
 
 **Japanese beetle**, *Popillia japonica*. Smaller. Copper wings. Metallic green head and thorax. White tufts along the abdomen. They skeletonize leaves. They will eat fruit. They come in committees.
 
-Traps baited with floral scent plus a sex lure **pull more beetles into a yard** than they remove if the neighbors still have roses. I will not sell you a trap as fig control. That is the next-but-one draft.
+Traps baited with floral scent plus a sex lure **pull more beetles into a yard** than they remove if the neighbors still have roses. I will not sell you a trap as fig control. That is the Japanese-beetle-trap page.
 
 Range is still moving. Some 8a counties have them thick. Some do not. A chewed leaf is not an ID. The beetle is the ID. If you have not held one, do not hang a lure “just in case.” You are mailing an invitation.
 

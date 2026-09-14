@@ -24,14 +24,14 @@ images:
   source: ours
   folder_pick: Outdoor
 status: draft
-voice_check: human
+voice_check: edited
 pillar: cultural
 priority: 42
 zone: 8a
 ---
 I keep trees too long. That is a personality. It is also how a hole stays occupied by a plant that does not pay rent. This page is the fire rule I want when I am being romantic.
 
-A fig in **8a** can look tired for a dozen reasons this pack already named. Rust strips a canopy and the tree still leafs in April. Mosaic paints a leaf after a 98° week and the tree still finishes fruit. Birds write a harvest you refused to net. A beetle week takes a necklace you refused to pick. Winter kills tips and the stools push. None of those is automatically a funeral.
+A fig in **8a** can look tired for a dozen reasons this series already named. Rust strips a canopy and the tree still leafs in April. Mosaic paints a leaf after a 98° week and the tree still finishes fruit. Birds write a harvest you refused to net. A beetle week takes a necklace you refused to pick. Winter kills tips and the stools push. None of those is automatically a funeral.
 
 Occupying is not earning. A live trunk in a sun patch you wanted for jam is still a decision.
 
@@ -43,7 +43,7 @@ Rust in a steam-bath year on a tree that leafs in April. LSU’s cycle is leaves
 
 A beetle week. Green June on a ripe shoulder is a bucket. Sap beetles in a sour eye are sanitation. They are not a reason to take the tree unless you have already decided you will never pick.
 
-Birds on a dark name you refuse to net. That is a you problem. LSU’s Mary Helen Ferguson said netting is the reliable tool. Scare tape habituates. I will not pull a tree to satisfy a mockingbird, and I will not blame the variety for a frame I would not build. Green fruit is contrast, not a force field. The bird drafts already said that.
+Birds on a dark name you refuse to net. That is a you problem. LSU’s Mary Helen Ferguson said netting is the reliable tool. Scare tape habituates. I will not pull a tree to satisfy a mockingbird, and I will not blame the variety for a frame I would not build. Green fruit is contrast, not a force field. The green-fruit and netting pages already said that.
 
 One bad winter on a multi-stool bush that is already pushing. Virginia Tech said Southeast figs often live as bushes because trunks get hurt. Cut the dead when you can see green. Keep the stools. Do not hold a funeral in January.
 
@@ -57,7 +57,7 @@ One split week after a leftover tropical rain. Tight-eye names still split if th
 
 White fungal skin at the collar and a summer crash. The hole is retired. UF said remove the tree and the roots, and do not replant that spoonful. I believe them. I will not write a drench. I will not put a rare name in the grave. That is a site funeral, not a variety funeral.
 
-A young rare name on galled sand that stall-yellowed two seasons. Lift it. Do not “toughen” it. UF said young plants take the hit hardest. NC State’s honest line, as we use it, is that established infested figs do not get a homeowner chemical reset. A baby is not established. A baby in last year’s okra sand was a donation. [Pick The Right Fig](https://figroots.com/2025/07/02/pick-the-right-fig-for-you/) already said pots if nematodes. This is the divorce when you ignored that sentence.
+A young rare name on galled sand that stalled and yellowed two seasons. Lift it. Do not “toughen” it. UF said young plants take the hit hardest. NC State’s honest line, as we use it, is that established infested figs do not get a homeowner chemical reset. A baby is not established. A baby in last year’s okra sand was a donation. [Pick The Right Fig](https://figroots.com/2025/07/02/pick-the-right-fig-for-you/) already said pots if nematodes. This is the divorce when you ignored that sentence.
 
 Three years of no crop on a name you planted to eat, after weather you can name, after you actually picked on time. The name is a tourist. I have kept tourists. They steal sun. They steal a hole. They steal the morning I owe a tree that works.
 

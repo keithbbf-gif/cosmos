@@ -24,7 +24,7 @@ images:
   source: ours
   folder_pick: More Fig Pictures
 status: draft
-voice_check: human
+voice_check: edited
 pillar: mosaic
 priority: 16
 zone: 8a
@@ -33,7 +33,7 @@ UC IPM describes a mite you will not see on a porch. Two pairs of legs up front.
 
 They also say the sentence blogs skip: feeding by **one** infectious mite can move fig mosaic virus to a healthy seedling. The virus is not in the egg. The mite picks it up by eating and keeps it through molts. Cuttings and grafts move the virus without any mite at all.
 
-If you only remember one thing, remember the split. **Mite control is a spread story. It is not a cure story.**
+**Mite control is a spread story. It is not a cure story.**
 
 I keep a cheap 20× loupe in the greenhouse on a nail. I do not keep a mosaic jug. The nail is the more honest tool.
 
@@ -45,7 +45,7 @@ I am looking for russet, a faint bronze, a stunted interior flush. I am also loo
 
 If I cannot find a mite and the leaf is a painted oak-leaf, I still have mosaic. The virus does not require a visible mite convention on the day I walked out.
 
-If I find a lot of bud-mite trouble and I am trying to keep a clean seedling clean, that is the only chapter where mite talk earns a product conversation. Product means **label**. I will not write Forbid, or a brand oil, as a FigRoots recipe. SEO notes in our own pillar list mentioned those names. This pack will not upgrade a mention into a spray card. **[VERIFY]** with a county agent if a collection in a greenhouse is getting eaten alive. A backyard Celeste with old mosaic does not become a pesticide project because I bought a lens.
+If I find a lot of bud-mite trouble and I am trying to keep a clean seedling clean, that is the only chapter where mite talk earns a product conversation. Product means **label**. I will not write Forbid, or a brand oil, as a FigRoots recipe. SEO notes in our own pillar list mentioned those names. This series will not upgrade a mention into a spray card. **[VERIFY]** with a county agent if a collection in a greenhouse is getting eaten alive. A backyard Celeste with old mosaic does not become a pesticide project because I bought a lens.
 
 I will not name a miticide as “what we use.” Labels move. Fig as a crop is a paperwork orphan. If fig (or the right group) is not on the label in this state in this year, it is not a fig spray.
 
@@ -63,7 +63,7 @@ If I take budwood off a painted tree on purpose, I have already agreed to the fi
 
 Horticultural oil on mites is a real tool in a lot of fruit books. Figs you will eat still need fig (or the right group) on the label. Oil in 8a heat is how you cook a leaf. Soap on a painted leaf you already live with is how you feel busy.
 
-I will oil a scale problem in a winter shop on a pot I can move — different pest, different draft — and I will still read the label. I will not oil a July in-ground tree as a mosaic rite.
+I will oil a scale problem in a winter shop on a pot I can move — different pest, different page — and I will still read the label. I will not oil a July in-ground tree as a mosaic rite.
 
 A 98° afternoon and a “dormant” oil you found in the shed is how you write a cooked canopy and then blame the virus for the brown.
 
@@ -79,7 +79,7 @@ It does not explain a wilted top over wet dirt. Knock a spare plant.
 
 It does not explain a vinegar necklace. Pick the fruit.
 
-It does not explain winter-killed tips after a rust strip and a late flush. That is the October draft.
+It does not explain winter-killed tips after a rust strip and a late flush. That is the late-flush page.
 
 Spider mites are a different animal — fine pepper on the top in a hot, dry spell. We get those in 8a even in a humid county. They are not *Aceria*. Do not run one program for both because the word mite felt efficient.
 

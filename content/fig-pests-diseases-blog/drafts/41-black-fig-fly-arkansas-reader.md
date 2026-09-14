@@ -23,14 +23,16 @@ images:
   source: ours
   folder_pick: Fig Labels
 status: draft
-voice_check: human
+voice_check: edited
 pillar: biosecurity
 priority: 41
 zone: 8a
 ---
-This page is for the search that wants a backyard war. Black fig fly: what it is, what we do from Arkansas. Not a Facebook rumor. Not a claim that it is in the county.
+Last August a firm fig hit the ground with a mined inside — not a bird peck, not a vinegar necklace. The photo went to a group thread before it went to a bag. That is how a backyard war starts on a phone.
 
-I will say the hard sentence first, because search traffic likes a scare and I will not feed it.
+Black fig fly: what it is, what we do from Arkansas. Not a Facebook rumor. Not a claim that it is in the county.
+
+I will say the hard sentence next, because search traffic likes a scare and I will not feed it.
 
 **I will not say Black fig fly (*Silba adipata*) is established in South Arkansas.** I will not say it is in my parish. I will not say it is “probably here” because a photo in a group looked dark and winged. If that status changes, a dated agency page should say so. **[VERIFY]** APHIS, your state department of agriculture, and the county before you tattoo a Latin name on a neighbor.
 
@@ -58,7 +60,7 @@ Unusual, for the purpose of this page: fruit coming off while it is still firm, 
 
 I do not need you to be a taxonomist. I need you to stop guessing in public.
 
-Photograph it. Whole tree, fruit on the ground, fruit opened, a coin for scale. The photo draft is the shot list. Do not filter it. Do not crop out the ground.
+Photograph it. Whole tree, fruit on the ground, fruit opened, a coin for scale. The county photo page is the shot list. Do not filter it. Do not crop out the ground.
 
 Bag fruit the clinic will accept. **[VERIFY]** their intake this week. Heat cooks a sample. Follow their shipping note.
 
@@ -112,6 +114,6 @@ Rust will still be the loud August. Mosaic will still paint a leaf after a 98° 
 
 Because a scared search will land here and I want the first sentence to be honest. A real pest. A real agency. A not-proven yard. The habit that already protects you from nematodes and scale — clean stock, dirty soil stays dirty, unusual things get a bag — is the habit that protects you from the next insect with a press release.
 
-If you want drama, the rust will provide it in August. If you want a federal name, wait for a federal sentence. I will update this draft when a dated page makes me. Until then, pick the necklace you already have and do not mail a pot of dirt across a desert for fun.
+If you want drama, the rust will provide it in August. If you want a federal name, wait for a federal sentence. I will update this post when a dated page makes me. Until then, pick the necklace you already have and do not mail a pot of dirt across a desert for fun.
 
 I will not close this with a checklist that looks like a detection program. I will close it with the only 8a move I trust: **name the bucket you actually have. If you cannot, mail the county. Do not invent an establishment story so the search engine feels current.**

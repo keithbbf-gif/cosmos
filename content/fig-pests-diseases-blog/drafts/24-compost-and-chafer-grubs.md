@@ -25,7 +25,7 @@ images:
   source: ours
   folder_pick: Figs
 status: draft
-voice_check: human
+voice_check: edited
 pillar: beetles
 priority: 24
 zone: 8a
@@ -98,7 +98,7 @@ A clean drip line will not stop a green June that flew from the neighbor’s man
 
 Bird pecks, mammal grabs, and sap-beetle holes are different doors. A mockingbird leaves a triangular punch. A squirrel wastes green fruit on the ground. A raccoon shops at night and takes a lot. The little nitidulids walk into an open eye and bring yeast. The chafer is the clumsy green one on a ripe shoulder. Do not write one “bug spray” for all four. The pile is only the grub vote.
 
-A frame of bird netting can keep some of the big fliers off a crop tree. It will not keep a 3-millimeter sap beetle off if the mesh is bird mesh. It will not forgive a fruit dump at the skirt. Check the net daily if you use one. Wildlife in a fold is your problem. That is the netting draft. This draft is the dirt under it.
+A frame of bird netting can keep some of the big fliers off a crop tree. It will not keep a 3-millimeter sap beetle off if the mesh is bird mesh. It will not forgive a fruit dump at the skirt. Check the net daily if you use one. Wildlife in a fold is your problem. That is the netting page. This page is the dirt under it.
 
 ## What I will not write
 

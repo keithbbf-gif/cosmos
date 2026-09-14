@@ -23,7 +23,7 @@ images:
   source: ours
   folder_pick: Figs
 status: draft
-voice_check: human
+voice_check: edited
 pillar: diagnosis
 priority: 32
 zone: 8a
@@ -86,7 +86,7 @@ Night that drops into the 60s after a 98° day does not cancel a dust pad. The p
 
 ## What I will not mash
 
-I will not copper a bronze stipple. Copper talk in this pack is a rust-and-label conversation, and LSU 2025 already said Louisiana has no labeled fig fungicide in that document. A metal on a mite is busy and wrong.
+I will not copper a bronze stipple. Copper talk in this series is a rust-and-label conversation, and LSU 2025 already said Louisiana has no labeled fig fungicide in that document. A metal on a mite is busy and wrong.
 
 I will not blame mosaic for a web.
 

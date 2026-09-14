@@ -25,7 +25,7 @@ images:
   source: ours
   folder_pick: Fig Fruit
 status: draft
-voice_check: human
+voice_check: edited
 pillar: rust
 priority: 10
 zone: 8a
@@ -68,7 +68,7 @@ Pick the sour ones so beetles do not join the week. That is a different bucket. 
 
 UAEX said a tree that replaces a canopy late can go into winter tender and take cold. That is an 8a sentence. We still see teens. A fig that thinks October is a second spring will pay in March.
 
-I do not force a late fertilizer bump to “grow the leaves back.” I let the tree shut up. I rake. I protect wood I still want if an arctic blast is on the map — that is a winter draft, not a rust spray.
+I do not force a late fertilizer bump to “grow the leaves back.” I let the tree shut up. I rake. I protect wood I still want if an arctic blast is on the map — that is the winter-cold page, not a rust spray.
 
 I have watched a tree push a pretty October skirt after an August strip. It looked like hope. It looked like a target when the temperature forgot its manners in March.
 

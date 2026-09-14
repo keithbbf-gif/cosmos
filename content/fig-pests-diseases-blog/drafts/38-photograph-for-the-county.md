@@ -23,7 +23,7 @@ images:
   source: ours
   folder_pick: Fig Fruit
 status: draft
-voice_check: human
+voice_check: edited
 pillar: diagnosis
 priority: 38
 zone: 8a
@@ -48,7 +48,7 @@ Step back. If you only shoot the pretty side, you hid the dead stool. If you onl
 
 **4. The fruit, if fruit exists.** Eye. Drip. Peck. Pink powder. Split. A coin for scale. Souring smells like a brewery — you cannot photograph a smell, so write it. A sunken spot with a pink crumb is not brewery syrup. Anthracnose and souring are different photos. Birds leave a peck. Beetles chew a shoulder. A firm fruit on the ground with a mined inside is a different email than a vinegar necklace. Do not mash them.
 
-**5. The root or collar only if you already had a reason to look.** A tool plant. A pot-up. A corpse. Do not rip a rare name for content. Galls, if they are there, are not subtle once you have seen them. A creamy white skin under bark at the soil line is the Armillaria draft. A brown mushy pot root is a dish. Photograph what you already exposed. Do not invent a surgery.
+**5. The root or collar only if you already had a reason to look.** A tool plant. A pot-up. A corpse. Do not rip a rare name for content. Galls, if they are there, are not subtle once you have seen them. A creamy white skin under bark at the soil line is the Armillaria page. A brown mushy pot root is a dish. Photograph what you already exposed. Do not invent a surgery.
 
 A ruler or a coin in one frame. “Small spots” means nothing. I have called a rust pustule small and a scale bump small and meant two different animals.
 
@@ -58,19 +58,19 @@ When it started. Not “a while.” A week, a month, last August and again this 
 
 Rain that week. A tropical leftover. A dry wind. Irrigation you added after you forgot them for ten days.
 
-Whether fruit is involved. Leaf only is one bucket. Fruit only is another. Both is a week, not one Latin name.
+**Fruit in the story or not.** Leaf only is one bucket. Fruit only is another. Both is a week, not one Latin name.
 
 Age of the tree. First year in the hole is not a twenty-year Celeste.
 
 Pot or ground. Mix you bought or dirt you inherited. Last year’s tomatoes, okra, tobacco. LSU already said that ground is a root-knot conversation.
 
-Whether you already sprayed, and what. Clinics hate guessing under a film. Oil, soap, a “fruit tree” jug, a copper you cannot name — say it. Date it.
+**Spray history.** What you used — oil, soap, a “fruit tree” jug, a copper you cannot name — and when. Clinics hate guessing under a film.
 
 Variety if you believe the tag. County. 8a is not a site. Your sand or clay is a site. Shade from a metal building is a site. A pot block on gravel is a site.
 
-Do not write “blight.” Write dust, paint, syrup, wilt, beads, web, peck, split. Those words sort buckets. Blight is how this folder got too many wrong bottles.
+Do not write “blight.” Write dust, paint, syrup, wilt, beads, web, peck, split. Those words sort buckets. Blight is how growers end up with the wrong bottle.
 
-If the drop is unusual — fruit still firm, inside mined, not a bird, not a vinegar necklace — write that without decorating it. Photograph it. Bag it. That is clinic territory, and if a desk wants a federal desk, they will say so. I will not let a group thread name a federal pest for fun. The black-fig-fly draft is the biosecurity version. It is not a Facebook caption.
+If the drop is unusual — fruit still firm, inside mined, not a bird, not a vinegar necklace — write that without decorating it. Photograph it. Bag it. That is clinic territory, and if a desk wants a federal desk, they will say so. I will not let a group thread name a federal pest for fun. The black fig fly reader page is the biosecurity version. It is not a Facebook caption.
 
 ## What I do not want
 
@@ -96,7 +96,7 @@ Heat in a mailbox cooks a sample. Follow their shipping note. I will not invent 
 
 I do not stuff a wet leaf in a sealed bag and leave it on a dashboard. That is soup. Soup cultures itself. The clinic then IDs the soup.
 
-Roots and soil for a nematode sample are a different bag and a different draft. Do not mail a rare plant’s whole root ball because a leaf was yellow. Do not mail a corpse collar in a grocery sack without asking. Ask. Then follow what they said.
+Roots and soil for a nematode sample are a different bag and a different post — see the county nematode sample piece. Do not mail a rare plant’s whole root ball because a leaf was yellow. Do not mail a corpse collar in a grocery sack without asking. Ask. Then follow what they said.
 
 I like a loupe in the yard. Twenty times on a bud scale is how you see a mite the blogs skip. I like a clinic on the week the tree is stripping and I am about to do something expensive. Facebook will still offer cinnamon. Send the bag anyway.
 
@@ -106,7 +106,7 @@ Write that it is humid. Write that it has been 98°. Write that the tree rust-st
 
 Those sentences change which bucket a stranger reaches for. They are not extra. They are the weather the fungus already used. They are the dirt the nematodes already used. They are the reason a California orchard PDF and a Louisiana 2025 disease note can disagree about copper and both be documenting their own rules.
 
-I will not flatten your caption into “fig blight, what spray.” I will not flatten it from here either. If I cannot put the scene in a bucket, I will say I cannot. That is the first draft in this pack. The name comes before the bottle.
+I will not flatten your caption into “fig blight, what spray.” I will not flatten it from here either. If I cannot put the scene in a bucket, I will say I cannot. That is the name-before-bottle page. The name comes before the bottle.
 
 ## What a good photo still cannot do
 

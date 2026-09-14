@@ -24,7 +24,7 @@ images:
   source: ours
   folder_pick: Outdoor
 status: draft
-voice_check: human
+voice_check: edited
 pillar: beetles
 priority: 22
 zone: 8a
@@ -41,7 +41,7 @@ He had the tank mixed before I finished saying the fruit was ripe. Green June be
 
 Green June beetles and a lot of chafers are slower when it is cool. I walk then anyway because the fruit is cooler and the birds have already clocked in. A beetle in the hand goes in soapy water. I do not make a speech about it.
 
-Japanese beetles — if your county has *Popillia japonica* — go in the same bucket. Different insect. Same hands. Confirm the white tufts before you write the name. Do not hang a lure bag over the tree you are about to pick. That is a later draft and a bad neighbor move.
+Japanese beetles — if your county has *Popillia japonica* — go in the same bucket. Different insect. Same hands. Confirm the white tufts before you write the name. Do not hang a lure bag over the tree you are about to pick. That is the Japanese-beetle-trap page and a bad neighbor move.
 
 A twenty-foot turkey laughs at a bucket. Then the method is a ladder you will actually use, or a net, or a decision that the top third is bird rent. I have paid bird rent. I have also lowered a tree over years so I could pick it. That is a prune chapter. It is also beetle control.
 
@@ -87,7 +87,7 @@ Bird rent on the top third is a sentence I will say out loud. Jack already said 
 
 ## Kids, dogs, and the tailgate jug
 
-I have a separate draft for the backyard fog. The short version belongs here: if the fruit is ripe, the animal you are protecting it from is not the only animal on the property. A jug that says “fruit trees” is still a poison if the crop is not on the list or the timing is a lie.
+I have a separate page for the backyard fog. The short version belongs here: if the fruit is ripe, the animal you are protecting it from is not the only animal on the property. A jug that says “fruit trees” is still a poison if the crop is not on the list or the timing is a lie.
 
 I will not write “safe for kids and pets” next to any pesticide talk. That sentence is how people stop reading labels.
 

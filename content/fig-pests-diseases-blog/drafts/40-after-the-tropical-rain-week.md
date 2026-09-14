@@ -23,7 +23,7 @@ images:
   source: ours
   folder_pick: Figs
 status: draft
-voice_check: human
+voice_check: edited
 pillar: cultural
 priority: 40
 zone: 8a
@@ -44,7 +44,7 @@ Tight-eye names still split if the week was stupid. They just do it less. Celest
 
 Open-eye names I already knew were a rain risk. LSU Gold’s open eye and cracking talk lives in their variety pages. I do not upgrade that to a curse. I pick earlier if I have to. I finish them on the counter. I have done it. I will not turn it into a law.
 
-Green June beetles will find the ferment. Driedfruit beetles and vinegar flies will carry yeast into the next ostiole. That is not a new animal the storm invented. That is the beetle drafts in this pack, louder. Morning walk. Bucket. Trash. I do not fog ripe fruit I will eat tonight. I do not fog it because kids and dogs use this grass.
+Green June beetles will find the ferment. Driedfruit beetles and vinegar flies will carry yeast into the next ostiole. That is not a new animal the storm invented. That is the beetle posts in this series, louder. Morning walk. Bucket. Trash. I do not fog ripe fruit I will eat tonight. I do not fog it because kids and dogs use this grass.
 
 Birds will find splitters. A dark ripe fig with a crack is a billboard. Dawn is still the harvest. A plastic owl did not get smarter in the rain.
 
@@ -66,7 +66,7 @@ Clay that holds a lake: I do not add more hose. I do not till. I let it breathe.
 
 I do not fertilize a tree standing in a lake “to help it recover.” Recovery is air in the pore space, not a nitrogen bump into a late flush if we are already near fall.
 
-Sand that flushed and then baked: the opposite week comes fast. The sun returns. The surface turns to crust. Knotted roots will tell on you at noon. The storm did not invent the galls. It invented the wilt on damaged pipe. Water when the lake is gone. Depth, not a daily sprinkle. The irrigation draft owns the hose. This page owns the week the hose has to shut up, then speak again.
+Sand that flushed and then baked: the opposite week comes fast. The sun returns. The surface turns to crust. Knotted roots will tell on you at noon. The storm did not invent the galls. It invented the wilt on damaged pipe. Water when the lake is gone. Depth, not a daily sprinkle. The irrigation page owns the hose. This page owns the week the hose has to shut up, then speak again.
 
 I do not bleach-irrigate a hole because I am angry at the sky.
 
@@ -82,13 +82,13 @@ Ants will farm whatever still leaks sugar. I follow them. I do not fog the colum
 
 ## What I will not do
 
-A bleach walk. A hydrogen peroxide “soil drench.” A cinnamon line. Those are how this pack defines a fake cure.
+A bleach walk. A hydrogen peroxide “soil drench.” A cinnamon line. Those are how these posts define a fake cure.
 
 A “fungicide just in case.” Just in case is how you write residue on fruit you will eat, drift on a toy, and a use fig may not even be on. Label is law. The rain did not print a new one.
 
 A fertilizer bump to “help them recover” into a late flush if we are already near fall. UAEX already told you a rust strip plus a second spring is a winter bill. A rain week in September is not a reason to feed.
 
-A Facebook ID from a muddy leaf. Photograph it when it dries enough to show the underside. Bag it if the tree is failing. The photo draft is the shot list.
+A Facebook ID from a muddy leaf. Photograph it when it dries enough to show the underside. Bag it if the tree is failing. The county photo page is the shot list.
 
 A storm exception for a backyard bait, a fruit-tree cocktail, or a copper personality. The kids-and-dogs page still applies when the grass is wet. Especially then. Kids play in it.
 
@@ -102,11 +102,11 @@ Leaves third — flip, do not fog. Note rust, paint, web, sunburn. Rake what is 
 
 Notes fourth — which name split, which name held, which pot drowned, which hole ponded. That note is next year’s variety talk and next year’s site talk. It is not a hex. It is how a tight-eye name earns another hole, and how an open-eye name stays a pot if I will not pick twice a day.
 
-Wood fifth, if a limb broke. Clean cut when I can see what I am doing. Do not leave a torn hanging strap as a porch. The saw draft owns the rest. I do not sculpt in mud.
+Wood fifth, if a limb broke. Clean cut when I can see what I am doing. Do not leave a torn hanging strap as a porch. The saw-and-prune page owns the rest. I do not sculpt in mud.
 
 ## What the week actually was
 
-Storms are allowed. They are not a new disease. They are a week that opens every door this pack already named — split, sour, rust splash, drowned roots, beetles on ferment, birds on a crack.
+Storms are allowed. They are not a new disease. They are a week that opens every door these posts already named — split, sour, rust splash, drowned roots, beetles on ferment, birds on a crack.
 
 Close the ones with a bucket. Leave the jug in the shed. The sun will come back. The necklace will not, if you picked it.
 

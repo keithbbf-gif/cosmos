@@ -24,12 +24,12 @@ images:
   source: ours
   folder_pick: Damaged Cuttings
 status: draft
-voice_check: human
+voice_check: edited
 pillar: diagnosis
 priority: 36
 zone: 8a
 ---
-Most tired figs in this pack are rust, nematodes, wet feet, or a winter. Once in a while a tree dies like it was switched off in the heat. Leaves hang. The fruit stops. You water. You wait a day. The tree does not negotiate.
+Most tired figs in this series are rust, nematodes, wet feet, or a winter. Once in a while a tree dies like it was switched off in the heat. Leaves hang. The fruit stops. You water. You wait a day. The tree does not negotiate.
 
 I have seen that look blamed on “the virus,” on beetles, on a fertilizer the neighbor swears by. I have also seen it blamed on root-knot because this folder talks about galls a lot. Galls are a years-long tired. This is a different funeral.
 
@@ -45,7 +45,7 @@ I scrape the collar before I invent a story. I do it on a tree that already fail
 
 **Wet feet.** A lake after a two-inch rain. Clay that smells sour. Roots brown and mushy, not webbed in a white sheet. A pot without a hole, or a saucer you forgot. Dump the dish. Ordinary root rot from water is ugly. It is still not Armillaria until the collar says so.
 
-**Cold.** Brown wood from the tips. A line. Spring that tells the truth. Limb blight and a frost stub share a zip code with each other, not with a collar fungus. The saw draft owns that walk.
+**Cold.** Brown wood from the tips. A line. Spring that tells the truth. Limb blight and a frost stub share a zip code with each other, not with a collar fungus. The saw-and-prune page owns that walk.
 
 **Planted too deep.** A girdling root collar, mulch volcano, trunk buried to the first scaffold. The tree can wilt in heat like it was switched off. Scrape anyway. Look for the flare that should be at grade and is not. I have killed a fig with kindness and a shovel deeper than the nursery line. That funeral is my fault. It is not a mushroom drench.
 

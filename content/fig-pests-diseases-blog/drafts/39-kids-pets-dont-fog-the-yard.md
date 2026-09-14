@@ -23,12 +23,12 @@ images:
   source: ours
   folder_pick: Greenhouse photos
 status: draft
-voice_check: human
+voice_check: edited
 pillar: cultural
 priority: 39
 zone: 8a
 ---
-I have a beetle draft that already said do not fog ripe fruit. This page is the rest of the yard. Dogs. Kids. A neighbor’s tomatoes. A breeze that does not read your intention.
+The handpick-beetles page already said do not fog ripe fruit. This page is the rest of the yard. Dogs. Kids. A neighbor’s tomatoes. A breeze that does not read your intention.
 
 Figs in **8a** sit in the same grass people live on. That is the point of a backyard tree. A child can reach the low fruit. A dog will eat what falls and then eat the grass it fell on. It is also why a “fruit tree spray” mood is a bad mood. The aisle sells farm feelings in a quart. Your yard is still a living room with a sky.
 
@@ -36,7 +36,7 @@ I have watched a person pump a backpack while the figs were already soft and a p
 
 ## The sentences I will not print
 
-“Safe for kids and pets” next to a pesticide. That pairing is on the ban list for this pack. I will not launder it with the word organic. I will not launder it with a smile.
+“Safe for kids and pets” next to a pesticide. That pairing is on the ban list for this series. I will not launder it with the word organic. I will not launder it with a smile.
 
 A mix-and-match cocktail. A little of this, a little of that, a rate you heard on a podcast, a fruit-tree concentrate plus dish soap plus oil because a video said they “work together.” That is how you write a mess nobody’s label covers.
 
@@ -46,7 +46,7 @@ A fog because rust is ugly in August. Once the spots are loud, UF/IFAS already s
 
 Organic as a synonym for harmless. Copper is a metal. Oil burns. Soap in eyes is a person problem. Rotenone is not a bedtime story. Neem is not a rust vaccine and not a free pass around a label. I will not write a nostalgia poison. I will not write “natural” as if the dog can read it.
 
-I will not write carbaryl or malathion or a fruit-tree cocktail on ripe figs you intend to eat as casual backyard advice. The beetle draft already refused that. This page refuses it for the same fruit at kid height.
+I will not write carbaryl or malathion or a fruit-tree cocktail on ripe figs you intend to eat as casual backyard advice. The handpick-beetles page already refused that. This page refuses it for the same fruit at kid height.
 
 ## What the label is
 
@@ -68,7 +68,7 @@ I have been proud of a clean spray pattern in my head and sloppy on the ground. 
 
 I would rather pick a necklace and pay bird rent than write a clever plume.
 
-Netting that pools on fruit traps wildlife. Frame it, stake it, check it. That is a safety claim this pack will make. A fog is not a substitute for a frame. A fog is not a substitute for a morning pick.
+Netting that pools on fruit traps wildlife. Frame it, stake it, check it. That is a safety claim this series will make. A fog is not a substitute for a frame. A fog is not a substitute for a morning pick.
 
 I do not leave bait piles for wildlife. I do not write poison, glue, or illegal take. Migratory birds are not a pesticide label. Scare tape habituates. LSU’s Mary Helen Ferguson said netting is the reliable tool. I will stand on that and not on a pie pan.
 
@@ -78,13 +78,13 @@ Handpick beetles in the cool. Bucket. Soapy water. No speech.
 
 Rake rust leaves. Bag them. Do not compost them against the trunk. LSU already said the cycle.
 
-Net the tree I actually want to eat from. Frame. Stake. Check. The bird drafts own the build. This page owns the reason I will not replace the net with a smell.
+Net the tree I actually want to eat from. Frame. Stake. Check. The bird pages own the build. This page owns the reason I will not replace the net with a smell.
 
 Move a pot. Quarantine a shop plant. Trash a crusted cheap one. Scale and mites are room problems. The FigRoots shop-scale line exists because warm rooms grow insects. The answer is the room.
 
 Water dirt. Morning if overhead. Dump saucers. A drowned pot is not a reason to fog.
 
-Cull a tree that will not work. Three bad years, galled sand on a baby, a white collar and a summer crash — those are pull reasons. Mosaic paint is not. The pull draft is in this folder.
+Cull a tree that will not work. Three bad years, galled sand on a baby, a white collar and a summer crash — those are pull reasons. Mosaic paint is not. The when-to-pull page is in this series.
 
 Talk to the county if a collection in a closed greenhouse is a true mite carpet. That is a desk, not a weekend personality.
 
@@ -120,4 +120,4 @@ That mix is why a dusk overhead watering is a fungus lease, and why a dusk fog i
 
 I will live with some rust. I will live with some bird rent. I will live with mosaic paint on a tree that still works. I will not live with a sentence that says the yard is safe because the bottle was green.
 
-A child will remember the fig. They do not need to remember a smell you were proud of. Lose the necklace. Keep the afternoon. The walk in this pack — rake, pick, net, pot, cull — is the program I will run while people I love are in the grass.
+A child will remember the fig. They do not need to remember a smell you were proud of. Lose the necklace. Keep the afternoon. The walk in this series — rake, pick, net, pot, cull — is the program I will run while people I love are in the grass.

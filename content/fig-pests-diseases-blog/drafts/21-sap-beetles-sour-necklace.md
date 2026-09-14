@@ -23,7 +23,7 @@ images:
   source: ours
   folder_pick: Figs-summer-23
 status: draft
-voice_check: human
+voice_check: edited
 pillar: beetles
 priority: 21
 zone: 8a
@@ -82,7 +82,7 @@ A west pot on gravel can split fruit from heat and then invite the same taxi. Wa
 
 Air in the canopy matters. A hedge of figs that never saw a saw is a wet room. Dropped fruit sits. Yeast sits. I open a window with a limb I should have taken in winter, not with a jug in August.
 
-After a tropical rain week — we have a later draft for that — I walk sooner, not later. Splitters do not wait for your Saturday.
+After a tropical rain week — we have a later post for that — I walk sooner, not later. Splitters do not wait for your Saturday.
 
 ## Closed eye is time, not a miracle
 
