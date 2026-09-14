@@ -1,0 +1,372 @@
+# Machine-readable index for content/creatine-research-landscape/
+# Generated to match draft front matter. Educational; claims = none.
+
+series = "creatine-research-landscape"
+kind = "educational-landscape"
+claims = "none"
+min_drafts = 40
+
+[[draft]]
+id = "CRL-01"
+stage = 0
+slug = "series-map"
+file = "draft-01-series-map.md"
+title = "The creatine research landscape in one map"
+
+[[draft]]
+id = "CRL-02"
+stage = 0
+slug = "educational-guardrails"
+file = "draft-02-educational-guardrails.md"
+title = "Educational guardrails: what this series will not claim"
+
+[[draft]]
+id = "CRL-03"
+stage = 0
+slug = "how-to-read-a-creatine-paper"
+file = "draft-03-how-to-read-a-creatine-paper.md"
+title = "How to read a creatine paper"
+
+[[draft]]
+id = "CRL-04"
+stage = 0
+slug = "glossary"
+file = "draft-04-glossary.md"
+title = "Glossary for reading the creatine literature"
+
+[[draft]]
+id = "CRL-05"
+stage = 1
+slug = "chemistry-of-creatine"
+file = "draft-05-chemistry-of-creatine.md"
+title = "What creatine is, chemically"
+
+[[draft]]
+id = "CRL-06"
+stage = 1
+slug = "endogenous-synthesis"
+file = "draft-06-endogenous-synthesis.md"
+title = "Endogenous synthesis: AGAT, GAMT, and a methyl group"
+
+[[draft]]
+id = "CRL-07"
+stage = 1
+slug = "dietary-sources"
+file = "draft-07-dietary-sources.md"
+title = "Dietary creatine: flesh, not plants"
+
+[[draft]]
+id = "CRL-08"
+stage = 1
+slug = "discovery-history"
+file = "draft-08-discovery-history.md"
+title = "From meat crystal to muscle metabolite: a short history"
+
+[[draft]]
+id = "CRL-09"
+stage = 1
+slug = "1990s-inflection"
+file = "draft-09-1990s-inflection.md"
+title = "The 1990s inflection: Harris, Greenhaff, Hultman, Green"
+
+[[draft]]
+id = "CRL-10"
+stage = 1
+slug = "phosphagen-and-ck"
+file = "draft-10-phosphagen-and-ck.md"
+title = "The phosphagen system and creatine kinase"
+
+[[draft]]
+id = "CRL-11"
+stage = 2
+slug = "tissue-pools"
+file = "draft-11-tissue-pools.md"
+title = "Where the creatine pool sits"
+
+[[draft]]
+id = "CRL-12"
+stage = 2
+slug = "creatine-transporter-protein"
+file = "draft-12-creatine-transporter-protein.md"
+title = "SLC6A8 as a membrane protein, not a story about conditions"
+
+[[draft]]
+id = "CRL-13"
+stage = 2
+slug = "ck-shuttle"
+file = "draft-13-ck-shuttle.md"
+title = "The creatine kinase shuttle as a working hypothesis"
+
+[[draft]]
+id = "CRL-14"
+stage = 2
+slug = "muscle-biopsy-methods"
+file = "draft-14-muscle-biopsy-methods.md"
+title = "How researchers measure muscle creatine: the needle biopsy"
+
+[[draft]]
+id = "CRL-15"
+stage = 2
+slug = "31p-mrs"
+file = "draft-15-31p-mrs.md"
+title = "31P-MRS: watching phosphocreatine without a needle"
+
+[[draft]]
+id = "CRL-16"
+stage = 2
+slug = "plasma-urine-creatinine-signals"
+file = "draft-16-plasma-urine-creatinine-signals.md"
+title = "Plasma creatine, urine creatine, and creatinine as research signals"
+
+[[draft]]
+id = "CRL-17"
+stage = 2
+slug = "turnover-and-body-pool"
+file = "draft-17-turnover-and-body-pool.md"
+title = "Turnover: a pool that leaks creatinine"
+
+[[draft]]
+id = "CRL-18"
+stage = 3
+slug = "oral-crm-what-trials-give"
+file = "draft-18-oral-crm-what-trials-give.md"
+title = "What human trials actually put in the bottle"
+
+[[draft]]
+id = "CRL-19"
+stage = 3
+slug = "loading-vs-slow-accumulation"
+file = "draft-19-loading-vs-slow-accumulation.md"
+title = "Two schedules, one pool: Hultman 1996 as methods history"
+
+[[draft]]
+id = "CRL-20"
+stage = 3
+slug = "maintenance-in-design"
+file = "draft-20-maintenance-in-design.md"
+title = "Maintenance doses as a design choice, not a lifestyle"
+
+[[draft]]
+id = "CRL-21"
+stage = 3
+slug = "cho-protein-coingestion"
+file = "draft-21-cho-protein-coingestion.md"
+title = "Carbohydrate and protein drinks as retention maneuvers"
+
+[[draft]]
+id = "CRL-22"
+stage = 3
+slug = "washout-crossover"
+file = "draft-22-washout-crossover.md"
+title = "Washout, crossover, and the month-long tail"
+
+[[draft]]
+id = "CRL-23"
+stage = 3
+slug = "responders-baseline"
+file = "draft-23-responders-baseline.md"
+title = "Responders, non-responders, and the starting store"
+
+[[draft]]
+id = "CRL-24"
+stage = 3
+slug = "body-mass-water"
+file = "draft-24-body-mass-water.md"
+title = "Body mass, water, and what a scale cannot tell you"
+
+[[draft]]
+id = "CRL-25"
+stage = 3
+slug = "timing-relative-to-training"
+file = "draft-25-timing-relative-to-training.md"
+title = "Timing relative to training: what designs can isolate"
+
+[[draft]]
+id = "CRL-26"
+stage = 4
+slug = "exercise-literature-map"
+file = "draft-26-exercise-literature-map.md"
+title = "A map of the exercise literature by task, not by slogan"
+
+[[draft]]
+id = "CRL-27"
+stage = 4
+slug = "repeated-high-intensity"
+file = "draft-27-repeated-high-intensity.md"
+title = "Repeated high-intensity tasks: the phosphagen-shaped file"
+
+[[draft]]
+id = "CRL-28"
+stage = 4
+slug = "resistance-training-outcomes"
+file = "draft-28-resistance-training-outcomes.md"
+title = "Resistance-training studies: strength and mass as outcomes"
+
+[[draft]]
+id = "CRL-29"
+stage = 4
+slug = "endurance-mixed-sport"
+file = "draft-29-endurance-mixed-sport.md"
+title = "Endurance and mixed-sport papers: where the signal thins"
+
+[[draft]]
+id = "CRL-30"
+stage = 4
+slug = "meta-analyses"
+file = "draft-30-meta-analyses.md"
+title = "Meta-analyses: what pooling hides and what it shows"
+
+[[draft]]
+id = "CRL-31"
+stage = 4
+slug = "placebo-blinding-water"
+file = "draft-31-placebo-blinding-water.md"
+title = "Placebo, blinding, and the water-weight tell"
+
+[[draft]]
+id = "CRL-32"
+stage = 4
+slug = "position-stands"
+file = "draft-32-position-stands.md"
+title = "Position stands as secondary literature"
+
+[[draft]]
+id = "CRL-33"
+stage = 5
+slug = "habitual-diet"
+file = "draft-33-habitual-diet.md"
+title = "Habitual diet as a baseline machine"
+
+[[draft]]
+id = "CRL-34"
+stage = 5
+slug = "sex-as-design-variable"
+file = "draft-34-sex-as-design-variable.md"
+title = "Sex as a design variable and the evidence gap"
+
+[[draft]]
+id = "CRL-35"
+stage = 5
+slug = "age-bands-performance"
+file = "draft-35-age-bands-performance.md"
+title = "Age bands in performance research"
+
+[[draft]]
+id = "CRL-36"
+stage = 5
+slug = "training-status"
+file = "draft-36-training-status.md"
+title = "Training status and sport type as moderators"
+
+[[draft]]
+id = "CRL-37"
+stage = 5
+slug = "heat-hydration-environment"
+file = "draft-37-heat-hydration-environment.md"
+title = "Heat, hydration, and environmental study designs"
+
+[[draft]]
+id = "CRL-38"
+stage = 5
+slug = "caffeine-co-use"
+file = "draft-38-caffeine-co-use.md"
+title = "Caffeine in the same week: Vandenberghe and the mixed follow-ups"
+
+[[draft]]
+id = "CRL-39"
+stage = 6
+slug = "monohydrate-vs-other-salts"
+file = "draft-39-monohydrate-vs-other-salts.md"
+title = "Monohydrate versus other salts and esters"
+
+[[draft]]
+id = "CRL-40"
+stage = 6
+slug = "stability-degradation"
+file = "draft-40-stability-degradation.md"
+title = "Stability: creatine in a bottle becomes creatinine in a glass"
+
+[[draft]]
+id = "CRL-41"
+stage = 6
+slug = "supplement-quality"
+file = "draft-41-supplement-quality.md"
+title = "Labels, assays, and the powder that is not the paper"
+
+[[draft]]
+id = "CRL-42"
+stage = 6
+slug = "regulatory-category"
+file = "draft-42-regulatory-category.md"
+title = "Statute category: supplement speech is not drug speech"
+
+[[draft]]
+id = "CRL-43"
+stage = 6
+slug = "safety-literature-healthy-volunteers"
+file = "draft-43-safety-literature-healthy-volunteers.md"
+title = "What healthy-volunteer safety papers actually measured"
+
+[[draft]]
+id = "CRL-44"
+stage = 7
+slug = "brain-creatine-as-pool"
+file = "draft-44-brain-creatine-as-pool.md"
+title = "Brain creatine as a measured pool, not a treatment chapter"
+
+[[draft]]
+id = "CRL-45"
+stage = 7
+slug = "cognitive-task-designs"
+file = "draft-45-cognitive-task-designs.md"
+title = "Cognitive-task and sleep-restriction designs (methods only)"
+
+[[draft]]
+id = "CRL-46"
+stage = 7
+slug = "occupational-military-map"
+file = "draft-46-occupational-military-map.md"
+title = "Occupational and military performance papers as a map"
+
+[[draft]]
+id = "CRL-47"
+stage = 8
+slug = "open-questions"
+file = "draft-47-open-questions.md"
+title = "Open questions and underpowered corners"
+
+[[draft]]
+id = "CRL-48"
+stage = 8
+slug = "newcomer-reading-path"
+file = "draft-48-newcomer-reading-path.md"
+title = "A staged reading path for a newcomer"
+
+[[draft]]
+id = "CRL-49"
+stage = 8
+slug = "landmark-timeline"
+file = "draft-49-landmark-timeline.md"
+title = "Annotated timeline of landmark papers"
+
+[[draft]]
+id = "CRL-50"
+stage = 8
+slug = "methods-misconceptions"
+file = "draft-50-methods-misconceptions.md"
+title = "Misconceptions that are research-methods errors"
+
+[[draft]]
+id = "CRL-51"
+stage = 8
+slug = "funding-and-corpus"
+file = "draft-51-funding-and-corpus.md"
+title = "Funding, affiliation, and how the corpus gets its shape"
+
+[[draft]]
+id = "CRL-52"
+stage = 8
+slug = "one-page-responsible-summary"
+file = "draft-52-one-page-responsible-summary.md"
+title = "What a responsible educational summary can say in one page"
+
