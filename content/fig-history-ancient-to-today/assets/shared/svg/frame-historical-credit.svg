@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Historical image credit frame template</title>
+  <desc id="desc">Empty frame for placing cleared historical raster with consistent caption bar</desc>
+  <rect width="800" height="520" fill="#f5f0e8"/>
+  <rect x="40" y="40" width="720" height="400" fill="#fff" stroke="#2c2416" stroke-width="2"/>
+  <rect x="40" y="400" width="720" height="60" fill="#e8dfd0" stroke="#2c2416" stroke-width="2"/>
+  <text x="400" y="200" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="14" fill="#5c4a32">[ Place cleared raster here  -  PNG/WebP ]</text>
+  <text x="400" y="230" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="11" fill="#5c4a32">Export at >=1600 px width  register in IMAGE_SOURCES.md</text>
+  <text x="50" y="430" font-family="Segoe UI, system-ui, sans-serif" font-size="11" fill="#2c2416">Credit: Institution / Photographer. License: (e.g. CC BY-SA 4.0). Source URL.</text>
+  <text x="50" y="450" font-family="Segoe UI, system-ui, sans-serif" font-size="10" fill="#5c4a32">Figure n. Caption sentence matching article body.</text>
+  <text x="400" y="505" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="11" fill="#5c4a32">Template  `shared.frame-historical-credit`</text>
+</svg>
