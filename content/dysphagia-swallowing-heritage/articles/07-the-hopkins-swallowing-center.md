@@ -12,7 +12,7 @@ tags:
 meta_description: In 1981 Martin Donner opened a multidisciplinary swallowing center at Johns Hopkins and then a journal, Dysphagia. Colleagues called it the first. A census was never the point.
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -22,7 +22,7 @@ last_verified: 2026-09-14
 
 *Educational history for SLPWOW. Not a treatment plan and not a substitute for evaluation by a licensed clinician.*
 
-Martin W. Donner became director of radiology at Johns Hopkins in 1972. In 1981 he opened what colleagues would later call the country’s first swallowing center — some memorials say the first in the world. In 1986 he became founding editor of a new Springer journal, *Dysphagia*. In 1987 he left the department chair to give the center and the journal his days. He stepped down from the center in 1990, was named Distinguished Professor in 1991, and died at Hopkins Hospital on 13 April 1992, of complications after a heart transplant that March. He was seventy-one. The Baltimore *Sun* ran the obituary two days later. Birth day is not forced in this pack.
+Martin W. Donner became director of radiology at Johns Hopkins in 1972. In 1981 he opened what colleagues would later call the country’s first swallowing center — some memorials say the first in the world. In 1986 he became founding editor of a new Springer journal, *Dysphagia*. In 1987 he left the department chair to give the center and the journal his days. He stepped down from the center in 1990, was named Distinguished Professor in 1991, and died at Hopkins Hospital on 13 April 1992, of complications after a heart transplant that March. He was seventy-one. The Baltimore *Sun* ran the obituary two days later. Birth day is not forced in these drafts.
 
 “First in the world” is a colleague’s sentence, not a census of every GI fluoroscopy service on earth. What Donner actually built is enough without the prize: a room where radiology was supposed to *ask* the other specialties, not only answer their requisitions.
 
@@ -48,6 +48,6 @@ Speech-language pathologists were entering this hallway in the same decade — L
 
 Every later hospital that prints “Swallowing Center” on a glass door is quoting this decade, whether or not the door opens onto Donner’s idea. Some doors open onto a single SLP and a shared fluoro slot. Some open onto a meeting. The residue of 1981 is the meeting: a radiologist who thought the question was larger than a film.
 
-Donner gets a life in this pack. Jones gets one. The journal still arrives. That is a residue you can hold.
+Donner has a dedicated profile in this series. Jones gets one. The journal still arrives. That is a residue you can hold.
 
 **Further in this series.** Donner (profile 24). Jones (25). The 1983 book (essay 09). What a swallow study became (essay 16).

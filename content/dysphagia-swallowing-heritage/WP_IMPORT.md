@@ -54,7 +54,7 @@ Do not hang these under `/services/` or `/dysphagia/` or `/swallowing-therapy/ex
 | `audience: slpwow` | unused publicly |
 | `meta_description` | Excerpt |
 
-Strip the YAML before the post body. Do not print `voice_check: human` on the site.
+Strip the YAML before the post body. Do not print `voice_check` (writer `human` or editor `edited`) on the site.
 
 Keep the italic educational line under the title. It is not optional.
 

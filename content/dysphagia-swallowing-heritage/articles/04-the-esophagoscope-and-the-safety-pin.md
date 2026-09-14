@@ -13,7 +13,7 @@ tags:
 meta_description: Killian’s 1897 bronchoscopy and Chevalier Jackson’s American clinic made the swallowed object a public case, not a household rumor. The safety pin is the mascot. The child is the point.
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -23,7 +23,7 @@ last_verified: 2026-09-14
 
 *Educational history for SLPWOW. Not a treatment plan and not a substitute for evaluation by a licensed clinician.*
 
-In 1897, in Freiburg, Gustav Killian used a rigid tube and a light to take a foreign body out of a living airway. The date is a national sport in the endoscopy histories; the published removal is the fact this pack will carry. Direct bronchoscopy — looking *down*, not guessing from a chest sound — turned the swallowed or inhaled object from a household catastrophe into a case you could teach.
+In 1897, in Freiburg, Gustav Killian used a rigid tube and a light to take a foreign body out of a living airway. The date is a national sport in the endoscopy histories; the published removal is the fact this essay will carry. Direct bronchoscopy — looking *down*, not guessing from a chest sound — turned the swallowed or inhaled object from a household catastrophe into a case you could teach.
 
 On the other side of the Atlantic, Chevalier Jackson made that case into a life’s work. Pittsburgh, then Philadelphia. Jefferson, then Temple. A clinic that collected open safety pins the way another man collects stamps. The pins are what tourists remember. The children are what the clinic was for.
 
@@ -39,7 +39,7 @@ Choking that did not resolve. Coins. Bones. The open safety pin, which Jackson u
 
 Two or three institutions, not twelve: Killian’s German university theater; Jackson’s Philadelphia clinic and the bronchoesophagology meetings that grew around him; the published plate — a pin, a coin, a denture — as proof you had been there.
 
-Harris Peyton Mosher at Harvard is in the next rooms of this pack. He is the anatomy-and-esophagus man, the Semon lecturer of 1929, not the pin collector. The hallway is already splitting: endoscopy as extraction, endoscopy as physiology, radiology as a picture without a tube.
+Harris Peyton Mosher at Harvard is in the next rooms of this series. He is the anatomy-and-esophagus man, the Semon lecturer of 1929, not the pin collector. The hallway is already splitting: endoscopy as extraction, endoscopy as physiology, radiology as a picture without a tube.
 
 ## Who was left out
 
@@ -51,6 +51,6 @@ Jackson’s autobiography (1938) is a primary source and a performance. He liked
 
 A modern FEES is not a Jackson esophagoscopy. The fiberscope is flexible, the patient is often upright, the question is often residue and aspiration rather than a pin. Saying they are “the same” is a conference slide. Saying they are unrelated is a different lie. Both are arguments that the dark crossing of food and air should be looked at, not guessed.
 
-Killian gets a life in this pack. Jackson gets a longer one. The residue of the safety-pin era is a glass case of objects and a permission: the swallow can hide a thing, and the thing can be retrieved if someone has practiced.
+Killian has a dedicated profile in this series. Jackson gets a longer one. The residue of the safety-pin era is a glass case of objects and a permission: the swallow can hide a thing, and the thing can be retrieved if someone has practiced.
 
 **Further in this series.** Killian (profile 19). Jackson (20). Mosher (21). A scope through the nose, much later (essay 10).

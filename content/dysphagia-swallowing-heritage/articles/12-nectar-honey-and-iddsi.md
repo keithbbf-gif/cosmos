@@ -13,7 +13,7 @@ tags:
 meta_description: American nectar-and-honey labels were a local dialect. IDDSI, from 2013, tried to make texture a shared measurement. History of a vocabulary, not a household diet.
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -25,7 +25,7 @@ last_verified: 2026-09-14
 
 For a generation of American hospitals the swallow meal came in a folk dialect: thin, nectar, honey, pudding. The National Dysphagia Diet Task Force published *National Dysphagia Diet: Standardization for Optimal Care* with the American Dietetic Association in 2002 and tried to make the dialect official. Anyone who has stood in two kitchens knows how official a word like “nectar” is. One hospital’s nectar is another’s rumor. A third hospital uses a brand thickener and a laminated card. The patient drinks whatever arrives.
 
-In 2013 an international group convened as the International Dysphagia Diet Standardisation Initiative. The framework papers — Cichero and colleagues, *Dysphagia* and allied journals, 2016–17 — tried to replace the dialect with levels and with tests you can do to a liquid or a solid without asking it to taste like a flower. Catriona Steele’s Toronto group is one of the laboratories that treated thin liquid as a measurable object rather than a vibe. Both get lives in this pack.
+In 2013 an international group convened as the International Dysphagia Diet Standardisation Initiative. The framework papers — Cichero and colleagues, *Dysphagia* and allied journals, 2016–17 — tried to replace the dialect with levels and with tests you can do to a liquid or a solid without asking it to taste like a flower. Catriona Steele’s Toronto group is one of the laboratories that treated thin liquid as a measurable object rather than a vibe. Both get lives in this series.
 
 This essay is about the vocabulary. It is not a chart for a refrigerator.
 
@@ -51,6 +51,6 @@ Infants, again, live on a different shelf. Pediatric textures have their own fig
 
 ## Residue
 
-The residue is a number on a tray ticket and a set of syringes and forks in a training video this pack will not reprint as instructions. Readers who want to know what their parent should drink will not be answered here. They will be told that the words on the ticket have a history, that the history includes a 2002 American diet and a 2013 international committee, and that a licensed clinician still has to attach those words to a person.
+The residue is a number on a tray ticket and a set of syringes and forks in a training video this essay will not reprint as instructions. Readers who want to know what their parent should drink will not be answered here. They will be told that the words on the ticket have a history, that the history includes a 2002 American diet and a 2013 international committee, and that a licensed clinician still has to attach those words to a person.
 
 **Further in this series.** Cichero (profile 37). Steele (38). The cup in the nursing home (essay 15).

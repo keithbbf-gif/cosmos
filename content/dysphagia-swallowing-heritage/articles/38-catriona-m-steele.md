@@ -13,7 +13,7 @@ figure_dates: "living at pack date"
 meta_description: Catriona Steele’s Toronto laboratory treated thin liquid as a measurable object. IDDSI’s science neighbor, not a brand ambassador, and not a kitchen coach.
 portrait: null
 portrait_status: note
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -23,7 +23,7 @@ last_verified: 2026-09-14
 
 *Educational history for SLPWOW. Not a treatment plan and not a substitute for evaluation by a licensed clinician.*
 
-Thin liquid is a slogan until someone measures it. Catriona M. Steele’s Toronto career — University of Toronto, KITE/Toronto Rehabilitation Institute — is the instrumentation neighborhood this pack puts beside Cichero’s framework papers. Bolus, viscosity, swallow physiology as numbers rather than nectar-words. She was living when this pack was staged. Published papers only.
+Thin liquid is a slogan until someone measures it. Catriona M. Steele’s Toronto career — University of Toronto, KITE/Toronto Rehabilitation Institute — is the instrumentation neighborhood this profile puts beside Cichero’s framework papers. Bolus, viscosity, swallow physiology as numbers rather than nectar-words. She was living when these drafts were staged (September 2026). Published papers only.
 
 ## A lab that made “thin” expensive
 
@@ -33,7 +33,7 @@ This magazine will not tell a reader which liquid to pour. It will say that Toro
 
 KITE/TRI is a rehabilitation-research address, not a kitchen. Steele’s papers treat that difference as a virtue: if you cannot measure the liquid, you cannot compare the ward to the trial. Thinness as an SI argument is also a political argument. Kitchens will still pour what they pour. The lab’s job was to make “thin” expensive enough that a paper had to say what it meant.
 
-Toronto as a city in this pack already holds Martino’s screen. Do not merge a gate and a rheometer because they share a subway. Toronto is large enough for two jobs. This pack will keep them in two rooms. A screen sorts a ward. A rheometer interrogates a cup. Confusing the two is how a city becomes a slogan. Leave the slogan. Keep the measurement, and keep the measurement expensive enough that a methods section has to say what “thin” weighed.
+Toronto as a city in this series already holds Martino’s screen. Do not merge a gate and a rheometer because they share a subway. Toronto is large enough for two jobs. This profile will keep them in two rooms. A screen sorts a ward. A rheometer interrogates a cup. Confusing the two is how a city becomes a slogan. Leave the slogan. Keep the measurement, and keep the measurement expensive enough that a methods section has to say what “thin” weighed.
 
 ## What later people kept
 
@@ -43,7 +43,7 @@ What they had to argue with: clinic culture that wanted a laminated flavor name 
 
 Living — no family, no home. Portrait: placeholder.
 
-SI units will not make a meal kind. They will make a paper honest. Steele’s Toronto lab is in this pack for the honesty, not for a pouring instruction.
+SI units will not make a meal kind. They will make a paper honest. Steele’s Toronto lab is in this series for the honesty, not for a pouring instruction.
 
 ## Residue
 

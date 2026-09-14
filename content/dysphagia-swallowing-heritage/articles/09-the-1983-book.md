@@ -12,7 +12,7 @@ tags:
 meta_description: Jeri Logemann’s 1983 Evaluation and Treatment of Swallowing Disorders put a physiology and a cookie into American SLP training. The book is the event. The maneuvers are later arguments.
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -28,7 +28,7 @@ A second edition appeared from Pro-Ed in 1998. Students who met the later printi
 
 ## A cookie, not a legend
 
-Clinic folklore calls her method the cookie swallow. The dignified name is the modified barium swallow, or a videofluoroscopic swallow study done with measured textures rather than a GI “drink this jug.” The folklore is not wrong about the object. A cookie is a solid you can see fail. It is also a joke a later patient can hear as a dismissal. Logemann’s papers and the book are more careful than the nickname. This pack will use the nickname once, as folklore, and then return to the method as a recorded, radio-opaque meal in motion.
+Clinic folklore calls her method the cookie swallow. The dignified name is the modified barium swallow, or a videofluoroscopic swallow study done with measured textures rather than a GI “drink this jug.” The folklore is not wrong about the object. A cookie is a solid you can see fail. It is also a joke a later patient can hear as a dismissal. Logemann’s papers and the book are more careful than the nickname. This essay will use the nickname once, as folklore, and then return to the method as a recorded, radio-opaque meal in motion.
 
 What the 1983 text did, besides name a study, was teach SLPs to talk about swallow physiology in a sequence they could write down: a stage, a failure, a hypothesized biomechanical reason. Later readers will fight about whether the maneuvers that grew around that physiology were over-taught. That fight is a later chapter. The 1983 event is a *shared note*. Another clinician could read what you thought you saw.
 
@@ -48,6 +48,6 @@ European cine radiology (Ekberg’s Lund, Donner's Hopkins) was already looking 
 
 ## Residue
 
-The residue is a generation of clinicians who can say “oral transit” without blushing and a generation of arguments about whether they were taught to see a swallow or to perform one. This pack will not reprint a maneuver list. It will say that the lists came from a book that was trying to make a job teachable. Logemann died on 19 June 2014, in her seventy-third year. The book is still on the shelf. That is not an endorsement of every later worksheet that quoted it.
+The residue is a generation of clinicians who can say “oral transit” without blushing and a generation of arguments about whether they were taught to see a swallow or to perform one. This essay will not reprint a maneuver list. It will say that the lists came from a book that was trying to make a job teachable. Logemann died on 19 June 2014, in her seventy-third year. The book is still on the shelf. That is not an endorsement of every later worksheet that quoted it.
 
 **Further in this series.** Logemann as a life (profile 27). Dodds (26). Silent aspiration (essay 11). What a swallow study became (essay 16).

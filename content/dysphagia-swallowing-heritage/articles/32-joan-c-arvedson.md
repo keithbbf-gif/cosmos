@@ -12,7 +12,7 @@ figure_dates: "living at pack date"
 meta_description: Joan C. Arvedson’s Pediatric Swallowing and Feeding made the children’s-hospital team a portable curriculum. A textbook life, not a home pacing plan.
 portrait: null
 portrait_status: note
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -22,13 +22,13 @@ last_verified: 2026-09-14
 
 *Educational history for SLPWOW. Not a treatment plan and not a substitute for evaluation by a licensed clinician.*
 
-Children’s Hospital of Wisconsin. *Pediatric Swallowing and Feeding* — first with Linda Brodsky, later editions that bring Maureen Lefton-Greif more fully onto the spine. Joan C. Arvedson is the name a generation of SLP students met when the adult cookie book ran out of infants. She was living when this pack was staged. DRS Gold Medal (shared, 2025, on the society’s awards page) is a footnote. Published textbooks and papers only.
+Children’s Hospital of Wisconsin. *Pediatric Swallowing and Feeding* — first with Linda Brodsky, later editions that bring Maureen Lefton-Greif more fully onto the spine. Joan C. Arvedson is the name a generation of SLP students met when the adult cookie book ran out of infants. She was living when these drafts were staged (September 2026). DRS Gold Medal (shared, 2025, on the society’s awards page) is a footnote. Published textbooks and papers only.
 
 ## A portable team
 
 A feeding team is a hallway. A textbook is a hallway you can mail. Arvedson’s project collected GI, nutrition, airway, and swallow into a pediatric object that programs without a children’s hospital could still assign. That is editorial work as much as clinic work. Bosma’s atlas is anatomy. Arvedson’s book is what a meeting does with anatomy when a parent is in the room.
 
-This pack will not reprint positioning charts or bottle-flow advice. The historical fact is that pediatric dysphagia became assignable. Assignable is how a job survives a single charismatic NICU.
+This profile will not reprint positioning charts or bottle-flow advice. The historical fact is that pediatric dysphagia became assignable. Assignable is how a job survives a single charismatic NICU.
 
 Singular, then Plural, then later houses: the imprint trail is how you date a pediatric textbook in the wild. Early editions carry Brodsky’s ENT name beside Arvedson’s SLP name — a printed truce. Later editions make room for Lefton-Greif. A student who only knows the newest cover has missed the hallway politics bound into the older ones. Read the title pages. They are minutes.
 

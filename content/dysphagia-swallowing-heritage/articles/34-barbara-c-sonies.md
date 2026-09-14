@@ -13,7 +13,7 @@ figure_dates: "living at pack date"
 meta_description: Barbara C. Sonies used ultrasound at NIH to watch a swallow without a lead apron. A third picture, quieter than fluoro or FEES, and not a home gadget.
 portrait: null
 portrait_status: note
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -23,11 +23,11 @@ last_verified: 2026-09-14
 
 *Educational history for SLPWOW. Not a treatment plan and not a substitute for evaluation by a licensed clinician.*
 
-Not every swallow picture is barium or a nose. Barbara C. Sonies’s NIH career put ultrasound on the tongue and hyoid and asked what you could see without a lead apron or a cart of scopes. Aging, saliva, the oral stage as a visible motion — papers that sit beside Robbins and beside the older Bosma cine without being either. She was living or recently retired when this pack was staged. Published work and NIH pages only.
+Not every swallow picture is barium or a nose. Barbara C. Sonies’s NIH career put ultrasound on the tongue and hyoid and asked what you could see without a lead apron or a cart of scopes. Aging, saliva, the oral stage as a visible motion — papers that sit beside Robbins and beside the older Bosma cine without being either. She was living or recently retired when these drafts were staged (September 2026). Published work and NIH pages only.
 
 ## A quieter instrument
 
-Ultrasound is not a replacement VFSS. It is blind to things fluoro sees and sees things a scope in the pharynx does not care about. Sonies’s bet was that an SLP-run laboratory at the Clinical Center could treat the oral swallow as an image without borrowing the radiologist’s entire room. The later portable-ultrasound fashion in conference halls is a descendant and, sometimes, a gadget. This pack will not print a probe placement guide.
+Ultrasound is not a replacement VFSS. It is blind to things fluoro sees and sees things a scope in the pharynx does not care about. Sonies’s bet was that an SLP-run laboratory at the Clinical Center could treat the oral swallow as an image without borrowing the radiologist’s entire room. The later portable-ultrasound fashion in conference halls is a descendant and, sometimes, a gadget. This profile will not print a probe placement guide.
 
 NIH as a workplace matters. So does the fact that a speech-language pathologist could hold a principal line there on swallow physiology. Bosma had already made Bethesda a swallow address. Sonies kept a different instrument in the same zip code.
 

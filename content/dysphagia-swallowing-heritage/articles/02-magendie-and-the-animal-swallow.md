@@ -11,7 +11,7 @@ tags:
 meta_description: Before anyone filmed a swallow, Magendie’s Paris laboratory treated deglutition as a reflex you could interrupt in an animal and then argue about.
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -51,7 +51,7 @@ None of that is a protocol. It is a map.
 
 Women in Magendie’s Paris did the feeding. Hospital nurses, mothers, servants. They do not appear as authors of deglutition. Patients with stroke, tumor, or caustic injury appear as clinical asides in other men’s books, not as the center of a laboratory. Infants appear hardly at all. The experimental swallow is an adult mammalian swallow, often a dog’s. The later Bosma films of a human infant will look like a different science because they are.
 
-British and German physiologists ran their own tables. Magendie is the name this pack uses because the French textbook traveled, and because later GI historians still trip over him on the way to Cannon. A “first” is a historian’s prize. What he actually left was a permission: you may take the swallow apart.
+British and German physiologists ran their own tables. Magendie is the name this essay uses because the French textbook traveled, and because later GI historians still trip over him on the way to Cannon. A “first” is a historian’s prize. What he actually left was a permission: you may take the swallow apart.
 
 ## Residue
 

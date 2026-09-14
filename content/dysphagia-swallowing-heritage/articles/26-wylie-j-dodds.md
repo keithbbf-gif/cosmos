@@ -13,7 +13,7 @@ figure_dates: "1934–1992"
 meta_description: Wylie J. “Jerry” Dodds (1934–1992) of the Medical College of Wisconsin joined manometry to a barium picture. The birth year is inferred from memorial age. The papers are not.
 portrait: null
 portrait_status: note
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -37,7 +37,7 @@ The feline esophagus paper from the fellowship years is the origin story the mot
 
 The combined picture: pressure plus barium. The idea that an SLP’s swallow question could be a GI physiologist’s question. A research award with his name on it, and a DRS lecture named Dodds–Donner — two men, one year.
 
-What they discarded: the hope that one laboratory style would settle every argument about the UES. What this pack will not do is turn a manometry tracing into a home program.
+What they discarded: the hope that one laboratory style would settle every argument about the UES. What this profile will not do is turn a manometry tracing into a home program.
 
 ## Residue
 

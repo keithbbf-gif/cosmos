@@ -13,7 +13,7 @@ figure_dates: "living at pack date"
 meta_description: Olle Ekberg’s Lund cine radiology is the reminder that the filmed pharynx is not an American SLP invention. European pictures, same crossing.
 portrait: null
 portrait_status: note
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -23,17 +23,17 @@ last_verified: 2026-09-14
 
 *Educational history for SLPWOW. Not a treatment plan and not a substitute for evaluation by a licensed clinician.*
 
-American training myths like a 1983 start date. Olle Ekberg’s Lund career — swallowing radiology, cine of the pharynx, papers that sit in *Dysphagia* and the European radiology journals — is the reminder that people were filming the crossing while American SLPs were still arguing their way into the suite. He was living or recently active when this pack was staged. Published work only.
+American training myths like a 1983 start date. Olle Ekberg’s Lund career — swallowing radiology, cine of the pharynx, papers that sit in *Dysphagia* and the European radiology journals — is the reminder that people were filming the crossing while American SLPs were still arguing their way into the suite. He was living or recently active when these drafts were staged (September 2026). Published work only.
 
 ## A European picture
 
-Donner’s Hopkins center and Ekberg’s Swedish rooms are cousins, not copies. Both treated the pharynx as a radiology problem that happens to be fast. Both wrote into the same journal Donner founded. The difference that matters for this pack is geographic honesty. A cookie in Evanston is not the first time a human swallow was recorded. Cannon’s plate was already a rumor of motion. European cine made the rumor a loop.
+Donner’s Hopkins center and Ekberg’s Swedish rooms are cousins, not copies. Both treated the pharynx as a radiology problem that happens to be fast. Both wrote into the same journal Donner founded. The difference that matters for this series is geographic honesty. A cookie in Evanston is not the first time a human swallow was recorded. Cannon’s plate was already a rumor of motion. European cine made the rumor a loop.
 
-Ekberg’s later editorial and textbook work — swallowing imaging as something you can assign in more than one language — is the continuation. This pack will not inventory every chapter. The point is the address: Lund, not only Chicago and Baltimore.
+Ekberg’s later editorial and textbook work — swallowing imaging as something you can assign in more than one language — is the continuation. This profile will not inventory every chapter. The point is the address: Lund, not only Chicago and Baltimore.
 
 Lund’s radiology is a European cine address the way Hopkins is an American one. Ekberg’s papers in Donner’s journal are the proof the journal was not a house organ. A Swedish loop in a New York spine. Later textbooks he edited or contributed to made swallowing imaging assignable in more than one language. Students who meet VFSS only as an ASHA competency have not been assigned those chapters. Assign them. The pause button had other parents. Lund is one. A syllabus that cannot name Lund is still telling a national story and calling it a science.
 
-The filmed pharynx has several birth certificates. This pack will keep more than one on file.
+The filmed pharynx has several birth certificates. This profile will keep more than one on file.
 
 ## What later people kept
 
@@ -41,9 +41,7 @@ A filmed pharynx that does not require an SLP origin story. A European shelf.
 
 What they had to argue with: North American syllabi that treat VFSS as a national invention.
 
-Living — no family, no home. Portrait: placeholder.
-
-Several birth certificates for the filmed pharynx can sit in one folder. Lund’s is one. Evanston’s is another. 1898 Boston is older than both. This pack will not let a 1983 spine retire the others.
+Living — no family, no home. Portrait: placeholder. Lund’s loop belongs in the same folder as Evanston’s cookie and Cannon’s stained plate — not as a winner, as a second birth certificate the North American syllabus still forgets.
 
 ## Residue
 

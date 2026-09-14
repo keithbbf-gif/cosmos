@@ -13,7 +13,7 @@ tags:
 meta_description: NPO, thickened cups, and “risk feeding” grew up in nursing homes and ethics papers, not only in fluoro suites. Paula Leslie’s literature is a map of the argument, not a decision for a reader.
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -25,13 +25,13 @@ last_verified: 2026-09-14
 
 A paper cup of thickened liquid on a nursing-home overbed table is a historical object. It is also a moral one. Someone decided that this person should drink this stuff, or that they should drink nothing by mouth, or that a tube in the abdomen would count as care. Speech-language pathologists walked into that decision late and then, in some buildings, were asked to own it. The fluoro room can show residue. It cannot tell you what a life is for.
 
-Paula Leslie’s essays and talks — Pittsburgh for a long stretch, then a UK address — are the literature this pack uses for the argument. “Risk feeding,” end-of-life swallowing, the difference between a hazard and a harm: those are her neighborhood. JoAnne Robbins’s Wisconsin aging-swallow work is the physiology neighborhood. They are not the same job. This essay stays with the cup.
+Paula Leslie’s essays and talks — Pittsburgh for a long stretch, then a UK address — are the literature this essay uses for the argument. “Risk feeding,” end-of-life swallowing, the difference between a hazard and a harm: those are her neighborhood. JoAnne Robbins’s Wisconsin aging-swallow work is the physiology neighborhood. They are not the same job. This essay stays with the cup.
 
 ## NPO as a word that got too large
 
 *Nil per os* is a preoperative instruction. In the long-term building it became a status, sometimes a punishment, sometimes a fear of surveyors. Families heard “nothing by mouth” as “we have given up” or as “we are protecting you.” Both hearings can be wrong. Both happened.
 
-Published water protocols — Frazier Free Water is the name that leaked into hallway folklore from a Kentucky rehabilitation hospital — were attempts to put *some* liquid back in a life under specified conditions. This pack will not specify the conditions. The historical fact is that clinicians argued, in print, about whether dryness was a greater harm than a wet lung in some residents. The argument is unfinished. A magazine that finishes it for a stranger has left heritage.
+Published water protocols — Frazier Free Water is the name that leaked into hallway folklore from a Kentucky rehabilitation hospital — were attempts to put *some* liquid back in a life under specified conditions. This essay will not specify the conditions. The historical fact is that clinicians argued, in print, about whether dryness was a greater harm than a wet lung in some residents. The argument is unfinished. A magazine that finishes it for a stranger has left heritage.
 
 PEG tubes belong in this paragraph as a 1980s–90s object, not as advice. A stomach could be fed while a mouth was declared closed. Families heard that as mercy or as a postponement. The ethics papers Leslie and others wrote are, in part, a record of those hearings. Surveyors heard something simpler: a tag you could hang on a building.
 

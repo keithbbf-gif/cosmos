@@ -12,7 +12,7 @@ tags:
 meta_description: James Bosma’s NIH and Karolinska cine made the infant mouth a research object — cry, suck, swallow, airway — years before “pediatric feeding team” was a hallway phrase.
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -44,7 +44,7 @@ Two or three institutions, not twelve: Karolinska in the cry years; NIDR/NIH for
 
 Mothers, again, except as historians of the night feed. Speech pathologists are scarce in the early cine credits. Occupational therapists who would later own “feeding” in some American hospitals are not yet in this sentence. The official story of pediatric dysphagia sometimes starts with a 1990s textbook. The films are older. Say so.
 
-Bosma also sat, after NIH, with the Johns Hopkins Swallowing Center — a pediatric physiologist in a building that Martin Donner had opened for adults and anyone else who needed a meeting. The infant and the stroke patient share a crossing. They do not share a protocol. This pack will not invent one.
+Bosma also sat, after NIH, with the Johns Hopkins Swallowing Center — a pediatric physiologist in a building that Martin Donner had opened for adults and anyone else who needed a meeting. The infant and the stroke patient share a crossing. They do not share a protocol. This essay will not invent one.
 
 ## Residue
 

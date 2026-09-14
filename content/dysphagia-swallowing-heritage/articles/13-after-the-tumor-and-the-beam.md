@@ -12,7 +12,7 @@ tags:
 meta_description: Head-and-neck cancer taught swallow clinicians a second clock — the surgical defect and, later, the radiation that keeps working after the beam stops. History, not a pathway.
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -24,7 +24,7 @@ last_verified: 2026-09-14
 
 Chevalier Jackson’s clinic already knew cancer as a reason to look down a tube. The late-twentieth-century swallow clinic knew cancer as a reason the meal changed *twice*: once when the surgeon took a piece of a tongue, a jaw, a larynx; again when the radiation oncologist treated what was left. The second change is slower. Fibrosis does not keep a discharge date. A person can leave the hospital swallowing and return six months later with a mouth that no longer wants to be a mouth.
 
-Jeri Logemann’s research list, in the Northwestern obituaries, puts treated head-and-neck patients next to the neurologic ones. Cathy Lazarus’s later tongue and HNC papers sit on that shelf. Katherine Hutcheson’s MD Anderson line is a twenty-first-century residue, not a profile in this pack. The era is older than any one lab.
+Jeri Logemann’s research list, in the Northwestern obituaries, puts treated head-and-neck patients next to the neurologic ones. Cathy Lazarus’s later tongue and HNC papers sit on that shelf. Katherine Hutcheson’s MD Anderson line is a twenty-first-century residue, not a profile in this series. The era is older than any one lab.
 
 ## Two clocks
 

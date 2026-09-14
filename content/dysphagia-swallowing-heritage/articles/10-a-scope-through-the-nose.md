@@ -12,7 +12,7 @@ tags:
 meta_description: Langmore, Schatz, and Olsen’s 1988 Dysphagia paper described FEESS — later FEES — as a way to look at a swallow when the fluoro room was the wrong room.
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -48,6 +48,6 @@ Children appear later in the FEES literature and remain a consent-and-anatomy ar
 
 ## Residue
 
-Every later argument about “FEES versus VFSS” is a descendant of these four pages plus the 1983 book. The honest residue is not a winner. It is two pictures of two parts of one act, each blind to something the other can see. Langmore gets a life in this pack. The extra S in FEESS is the kind of small fact a magazine should keep. Acronyms get cleaned. Papers keep their titles.
+Every later argument about “FEES versus VFSS” is a descendant of these four pages plus the 1983 book. The honest residue is not a winner. It is two pictures of two parts of one act, each blind to something the other can see. Langmore has a dedicated profile in this series. The extra S in FEESS is the kind of small fact a magazine should keep. Acronyms get cleaned. Papers keep their titles.
 
 **Further in this series.** Langmore (profile 28). What a swallow study became (essay 16). Coyle, later, on who is looking (profile 43).

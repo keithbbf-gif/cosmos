@@ -13,7 +13,7 @@ figure_dates: "living at pack date"
 meta_description: JoAnne Robbins’s Wisconsin and Madison VA work made the aging swallow a research object. Lingual strengthening is a literature, not a magazine workout.
 portrait: null
 portrait_status: note
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -23,7 +23,7 @@ last_verified: 2026-09-14
 
 *Educational history for SLPWOW. Not a treatment plan and not a substitute for evaluation by a licensed clinician.*
 
-The aging swallow is not a 25-year-old swallow with wrinkles. JoAnne Robbins’s career at the University of Wisconsin–Madison and the William S. Middleton Memorial Veterans Hospital is the American research line this pack uses for that sentence. She was living when this pack was staged. Published papers and institutional pages only. DRS later put her among Gold Medal names; honors are a footnote.
+The aging swallow is not a 25-year-old swallow with wrinkles. JoAnne Robbins’s career at the University of Wisconsin–Madison and the William S. Middleton Memorial Veterans Hospital is the American research line this profile uses for that sentence. She was living when these drafts were staged (September 2026). Published papers and institutional pages only. DRS later put her among Gold Medal names; honors are a footnote.
 
 ## Presbyphagia as a word that can be misused
 
@@ -33,7 +33,7 @@ The misuse is part of the heritage. “Presbyphagia” became, in some buildings
 
 The Madison VA pairing is an institutional fact with a swallow shape. A university lab can measure a tongue. A VA can supply the aging veterans whose meals are not theoretical. Robbins’s papers sit in that pairing. Later device culture — IOPI and its cousins in hallway talk — is a descendant some of her literature fed and some of it did not ask for. This magazine will not name a pressure target. It will say that a number on a tongue became, for a while, an American fashion.
 
-DRS Gold Medal (2022, shared with Rebecca Leonard on the society’s page) is a late ribbon. Leonard’s UC Davis cine work is another American radiology-adjacent line this pack leaves in a sentence.
+DRS Gold Medal (2022, shared with Rebecca Leonard on the society’s page) is a late ribbon. Leonard’s UC Davis cine work is another American radiology-adjacent line this profile leaves in a sentence.
 
 ## What later people kept
 
@@ -43,7 +43,7 @@ What they had to argue with: the nursing-home cup that quoted them without readi
 
 Living — no family, no home, no health. Portrait: placeholder.
 
-Aging research can be used to humble a protocol or to excuse one. Robbins’s papers are easier to quote than to live with. This pack will keep the measurement and leave the tray ticket to someone licensed to write one.
+Aging research can be used to humble a protocol or to excuse one. Robbins’s papers are easier to quote than to live with. This profile will keep the measurement and leave the tray ticket to someone licensed to write one.
 
 ## Residue
 

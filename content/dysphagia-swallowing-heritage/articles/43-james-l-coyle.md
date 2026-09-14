@@ -13,7 +13,7 @@ figure_dates: "living at pack date"
 meta_description: James L. Coyle’s Pittsburgh work is the dark-room conscience — recording quality, claims after twenty seconds of fluoro, who is looking. Not a how-to.
 portrait: null
 portrait_status: note
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -23,13 +23,13 @@ last_verified: 2026-09-14
 
 *Educational history for SLPWOW. Not a treatment plan and not a substitute for evaluation by a licensed clinician.*
 
-A swallow study is a culture: a slot, a code, a person standing in a dark room. James L. Coyle’s University of Pittsburgh career is the American conscience this pack uses for that culture — instrumentation, image quality, what you may claim after a short loop, who is qualified to look. He was living when this pack was staged. Published papers and teaching pages only.
+A swallow study is a culture: a slot, a code, a person standing in a dark room. James L. Coyle’s University of Pittsburgh career is the American conscience this profile uses for that culture — instrumentation, image quality, what you may claim after a short loop, who is qualified to look. He was living when these drafts were staged (September 2026). Published papers and teaching pages only.
 
 ## The file is for someone
 
 Coyle’s neighborhood is the unromantic half of Martin-Harris’s dialect project. If you are going to score a film, the film has to be a film. Pulse rate, contrast, a view that actually includes the crossing — details conference slides skip and lawsuits do not. Professional ethics sits next to the knobs. An SLP who cannot say what the file is *for* is not saved by a good cookie.
 
-Pittsburgh as a city habit: Leslie on the cup, Coyle on the room. Two consciences. This pack will not merge them.
+Pittsburgh as a city habit: Leslie on the cup, Coyle on the room. Two consciences. This profile will not merge them.
 
 Pittsburgh’s communication-science habit is older than Coyle — the sibling profession pack has its own Western Pennsylvania names. His swallow work is the dark-room half of that habit: if you are going to claim a finding, the recording has to be a recording. Pulse rate, contrast, a view that includes the crossing. Details that sound like engineering until a file is subpoenaed.
 

@@ -12,7 +12,7 @@ tags:
 meta_description: Pediatric feeding teams grew from infant cine, NICUs, and textbooks by Arvedson, Brodsky, and Lefton-Greif. A hallway history, not a home feeding plan.
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -30,7 +30,7 @@ This essay is the team as a historical object. It is not a pacing recipe.
 
 A team is a truce, like Donner’s adult center, with different toys. The infant cannot describe residue. The parent *can*, and will, and will be treated as historian or as obstacle depending on the room. Videofluoroscopy in a small body is a radiation argument. FEES in a small nose is a consent argument. Many children on these caseloads never see either picture. They see a scale, a diary, and a set of adults who do not agree.
 
-Justine Joan Sheppard’s developmental-disability feeding work is a parallel American line this pack will not stretch into a forty-fifth profile. Mention her as a reminder that “pediatric” is not only the NICU graduate. School-aged children with lifelong disability were being fed, or not fed, while the NICU literature got the cameras. So were children with cardiac lesions, with tracheostomies, with nothing on a scan and a scale that would not rise.
+Justine Joan Sheppard’s developmental-disability feeding work is a parallel American line this essay will not stretch into a forty-fifth profile. Mention her as a reminder that “pediatric” is not only the NICU graduate. School-aged children with lifelong disability were being fed, or not fed, while the NICU literature got the cameras. So were children with cardiac lesions, with tracheostomies, with nothing on a scan and a scale that would not rise.
 
 The 1990s textbooks arrive after the cine and after the NICU survival curve had already changed the census. Arvedson and Brodsky did not invent hunger. They made a meeting assignable. Lefton-Greif’s Hopkins reviews did the same for a building that already had Donner’s adult fame. Two addresses, one hallway phrase.
 

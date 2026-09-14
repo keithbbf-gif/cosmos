@@ -13,7 +13,7 @@ figure_dates: "living at pack date"
 meta_description: Bonnie Martin-Harris’s MBSImP papers, from 2008 on, tried to make two strangers score the same swallow film. A dialect project, not a treatment pad.
 portrait: null
 portrait_status: note
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -23,11 +23,11 @@ last_verified: 2026-09-14
 
 *Educational history for SLPWOW. Not a treatment plan and not a substitute for evaluation by a licensed clinician.*
 
-One clinician’s “mild residue” is another’s shrug. Bonnie Martin-Harris’s MBSImP papers (*Dysphagia*, 2008 and after) are an attempt to make the videofluoroscopic swallow a dialect two strangers can share. Medical University of South Carolina, later Northwestern — the public addresses moved. The project is the scoring of a look, not a magazine how-to. She was living when this pack was staged. Published work only. DRS Gold Medal, 2023, is a footnote.
+One clinician’s “mild residue” is another’s shrug. Bonnie Martin-Harris’s MBSImP papers (*Dysphagia*, 2008 and after) are an attempt to make the videofluoroscopic swallow a dialect two strangers can share. Medical University of South Carolina, later Northwestern — the public addresses moved. The project is the scoring of a look, not a magazine how-to. She was living when these drafts were staged (September 2026). Published work only. DRS Gold Medal, 2023, is a footnote.
 
 ## Standardization as a mood
 
-Training programs were sending out people who had seen a dozen swallows and a DVD. Martin-Harris’s bet was that a named protocol for *looking* could be taught, reliability-checked, and used in research so that “improved” meant something besides a vibe. A named protocol for looking is not a named protocol for treating. This pack will not print the component list.
+Training programs were sending out people who had seen a dozen swallows and a DVD. Martin-Harris’s bet was that a named protocol for *looking* could be taught, reliability-checked, and used in research so that “improved” meant something besides a vibe. A named protocol for looking is not a named protocol for treating. This profile will not print the component list.
 
 The project also pulled radiology and SLP back into the same sentence: the film is a shared object. Donner would have recognized the wish even if he would not have recognized the acronym.
 

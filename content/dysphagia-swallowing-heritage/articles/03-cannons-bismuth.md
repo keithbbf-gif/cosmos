@@ -12,7 +12,7 @@ tags:
 meta_description: In 1896–98 Walter Cannon put bismuth in a meal and asked Röntgen’s new rays to draw a swallow. The picture, not the later barium brand, is the event.
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -30,7 +30,7 @@ The swallow had been a reflex argument. It was now a shadow that two people coul
 
 Later clinic speech says “barium swallow” the way it says “Kleenex.” Cannon’s first meals were bismuth. Barium sulfate as the ordinary opaque meal is a later, safer, cheaper habit. A sentence that makes Cannon the inventor of the modified barium swallow is a category error. He invented the *idea* that a radio-opaque meal plus a living subject plus a plate could turn motility into a public fact.
 
-He also did not invent a speech-language pathology service. The 1898 papers are physiology. The audience is Bowditch’s world, not a rehabilitation ward. Cannon’s later fame — homeostasis, fight-or-flight, *The Wisdom of the Body* — would bury the goose. This pack digs the goose back up.
+He also did not invent a speech-language pathology service. The 1898 papers are physiology. The audience is Bowditch’s world, not a rehabilitation ward. Cannon’s later fame — homeostasis, fight-or-flight, *The Wisdom of the Body* — would bury the goose. This essay digs the goose back up.
 
 ## What the decade thought it was solving
 

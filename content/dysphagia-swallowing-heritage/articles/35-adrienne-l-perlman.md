@@ -13,7 +13,7 @@ figure_dates: "living at pack date"
 meta_description: Adrienne L. Perlman’s Iowa and Illinois line treated the swallow as physiology you could wire — EMG, timing, the unromantic traces behind a clinic adjective.
 portrait: null
 portrait_status: note
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -23,7 +23,7 @@ last_verified: 2026-09-14
 
 *Educational history for SLPWOW. Not a treatment plan and not a substitute for evaluation by a licensed clinician.*
 
-A clinic adjective — “weak,” “delayed,” “incomplete” — is a story. Adrienne L. Perlman’s career (Iowa, Illinois, the physiology papers that put EMG and timing on an SLP shelf) is the American line this pack uses for the unromantic traces behind the story. She was living when this pack was staged. DRS Gold Medal, 2024, on the society’s page, is a footnote. Published work only. BCS-S after the credential existed; do not back-date a board onto a younger paper.
+A clinic adjective — “weak,” “delayed,” “incomplete” — is a story. Adrienne L. Perlman’s career (Iowa, Illinois, the physiology papers that put EMG and timing on an SLP shelf) is the American line this profile uses for the unromantic traces behind the story. She was living when these drafts were staged (September 2026). DRS Gold Medal, 2024, on the society’s page, is a footnote. Published work only. BCS-S after the credential existed; do not back-date a board onto a younger paper.
 
 ## Wires, not worksheets
 

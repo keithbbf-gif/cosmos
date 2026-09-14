@@ -12,7 +12,7 @@ tags:
 meta_description: In the 1970s and early 1980s American speech pathologists walked into radiology and cancer wards already owned by other trades. They did not invent the swallow. They made it a job.
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -34,7 +34,7 @@ ASHA would spend the next fifteen years deciding what a competency looked like �
 
 Radiology already had the picture. ENT already had the tube. Nursing already had the tray. The speech pathologist who entered that room entered as a guest who could talk about the oral stage with a teacher’s patience and, increasingly, as a person who wanted the fluoro slot. Guests who want slots start fights. The fights are part of the heritage. They are not a morality play. Radiologists who thought a cookie was a silly object and SLPs who thought a radiologist could not hear a wet voice were both, sometimes, right and tiresome.
 
-Michael Groher’s textbooks, from the mid-1980s onward, are the other American shelf: diagnosis and management as an SLP-edited object, VA lineage showing through the bindings. He gets a life in this pack. Do not make him a sidekick to Logemann or the reverse. Two books can open the same decade.
+Michael Groher’s textbooks, from the mid-1980s onward, are the other American shelf: diagnosis and management as an SLP-edited object, VA lineage showing through the bindings. He has a dedicated profile in this series. Do not make him a sidekick to Logemann or the reverse. Two books can open the same decade.
 
 ## What the decade thought it was solving
 

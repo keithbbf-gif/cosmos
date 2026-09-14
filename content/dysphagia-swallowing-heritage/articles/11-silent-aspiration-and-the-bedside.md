@@ -13,7 +13,7 @@ tags:
 meta_description: Silent aspiration made the bedside chat look thin. Daniels, Martino, and others turned that fear into screening literature — history of an argument, not a how-to.
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -29,11 +29,11 @@ This essay is the argument, not a screen you can run from a magazine.
 
 ## Indicators, not a verdict
 
-Stephanie K. Daniels and colleagues, writing from VA and academic stroke services in the 1990s and after, published clinical-indicator papers: clusters of signs that raised the chance a later instrumental exam would show dysphagia or aspiration. The papers are careful in ways the hallway slogan is not. A cluster is not a diagnosis. A missing cough is not permission to stop looking. Daniels gets a life in this pack. Do not reduce her to a checklist in a pocket.
+Stephanie K. Daniels and colleagues, writing from VA and academic stroke services in the 1990s and after, published clinical-indicator papers: clusters of signs that raised the chance a later instrumental exam would show dysphagia or aspiration. The papers are careful in ways the hallway slogan is not. A cluster is not a diagnosis. A missing cough is not permission to stop looking. Daniels has a dedicated profile in this series. Do not reduce her to a checklist in a pocket.
 
-Rosemary Martino’s TOR-BSST line — Toronto, later validation papers, *Stroke* and after — is the other famous North American attempt to make screening a *procedure* rather than a vibe. Screening, in this literature, is not evaluation. The distinction is the whole ethical object. A screen sorts. An SLP or a physician still has to own the next sentence. Martino gets a life. This essay will not print the items.
+Rosemary Martino’s TOR-BSST line — Toronto, later validation papers, *Stroke* and after — is the other famous North American attempt to make screening a *procedure* rather than a vibe. Screening, in this literature, is not evaluation. The distinction is the whole ethical object. A screen sorts. An SLP or a physician still has to own the next sentence. Martino has a dedicated profile. This essay will not print the items.
 
-Logemann’s 1986 *Dysphagia* piece on aspiration — volume 1 of Donner’s journal — is already in this argument before the indicator papers. The fluoro room had been surprising people. What the 1990s added was an attempt to say, in public, which bedside observations were worth the walk downstairs. Pulse oximetry fads, water tests, cough-reflex gadgets: each had a season. This pack will not rank them. It will say that the seasons happened because a clean voice had been treated as a visa.
+Logemann’s 1986 *Dysphagia* piece on aspiration — volume 1 of Donner’s journal — is already in this argument before the indicator papers. The fluoro room had been surprising people. What the 1990s added was an attempt to say, in public, which bedside observations were worth the walk downstairs. Pulse oximetry fads, water tests, cough-reflex gadgets: each had a season. This essay will not rank them. It will say that the seasons happened because a clean voice had been treated as a visa.
 
 The nursing-home and stroke-unit reality underneath both lines is ordinary and grim: people were being fed, or not fed, on the basis of a chat and a sip of water. Silent aspiration is the name for the chat’s failure mode. Pneumonia is the name everyone wanted to hang on that failure. The causal chain is messier than the posters — oral flora, mobility, the teeth that are still there, the teeth that are not. Good papers say so. Hallway posters often do not.
 

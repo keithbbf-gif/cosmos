@@ -12,7 +12,7 @@ figure_dates: "1783–1855"
 meta_description: François Magendie (1783–1855) made deglutition a reflex you could interrupt. A physiology life, not a swallow clinic.
 portrait: null
 portrait_status: note
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -22,7 +22,7 @@ last_verified: 2026-09-14
 
 *Educational history for SLPWOW. Not a treatment plan and not a substitute for evaluation by a licensed clinician.*
 
-The *Précis élémentaire de physiologie* is a thick French textbook, not a clinic manual. Deglutition lives in it the way urine and breath live in it: as an act you can take apart. François Magendie, born in Bordeaux on 6 October 1783 and dead in Paris on 7 October 1855, is in this pack because later swallow science still uses his permission. He is not in it because he was a speech-language pathologist. The credential would have baffled him.
+The *Précis élémentaire de physiologie* is a thick French textbook, not a clinic manual. Deglutition lives in it the way urine and breath live in it: as an act you can take apart. François Magendie, born in Bordeaux on 6 October 1783 and dead in Paris on 7 October 1855, is in this series because later swallow science still uses his permission. He is not in it because he was a speech-language pathologist. The credential would have baffled him.
 
 ## Bordeaux, Paris, the table
 

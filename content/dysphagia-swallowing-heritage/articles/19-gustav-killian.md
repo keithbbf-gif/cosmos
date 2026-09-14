@@ -12,7 +12,7 @@ figure_dates: "1860–1921"
 meta_description: Gustav Killian (1860–1921) removed a foreign body through a rigid bronchoscope in 1897. The triangle that later writers attach to Zenker is the quieter residue.
 portrait: null
 portrait_status: note
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -22,7 +22,7 @@ last_verified: 2026-09-14
 
 *Educational history for SLPWOW. Not a treatment plan and not a substitute for evaluation by a licensed clinician.*
 
-Mainz, 2 June 1860. Death, 24 February 1921. Freiburg is the 1897 city in the story American endoscopy textbooks still tell: a rigid tube, a light, a living airway, a foreign body that came out instead of staying in a grave. Priority fights around “who first looked down a bronchus” are a national sport. This pack will carry the published removal and leave the minute-by-minute reconstruction to people holding the German primary.
+Mainz, 2 June 1860. Death, 24 February 1921. Freiburg is the 1897 city in the story American endoscopy textbooks still tell: a rigid tube, a light, a living airway, a foreign body that came out instead of staying in a grave. Priority fights around “who first looked down a bronchus” are a national sport. This profile will carry the published removal and leave the minute-by-minute reconstruction to people holding the German primary.
 
 ## A laryngologist who went lower
 
@@ -30,7 +30,7 @@ Killian’s training is the German university ladder of the late nineteenth cent
 
 Killian’s triangle — the hypopharyngeal weak spot later attached to Zenker’s diverticulum — is the quieter residue for a swallow audience. You can spend a career talking about pouches without saying his name. The name is still on the anatomy.
 
-Berlin and Freiburg sit on different versions of the CV depending on which memorial you open. This pack will not invent a tidy ladder. What is stable is the 1897 removal and the later teaching that made direct endoscopy a German export. American visitors came. Jackson is the American who made the export a clinic. Killian is the door they walked through, or said they walked through. National origin stories will always add a flag.
+Berlin and Freiburg sit on different versions of the CV depending on which memorial you open. This profile will not invent a tidy ladder. What is stable is the 1897 removal and the later teaching that made direct endoscopy a German export. American visitors came. Jackson is the American who made the export a clinic. Killian is the door they walked through, or said they walked through. National origin stories will always add a flag.
 
 ## What later people kept
 

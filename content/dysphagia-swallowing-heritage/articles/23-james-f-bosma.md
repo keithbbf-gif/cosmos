@@ -13,7 +13,7 @@ figure_dates: "1916–2001"
 meta_description: James F. Bosma (1916–2001) filmed infant cry and swallow, then spent twenty years at NIH making the infant head an atlas. The 1986 book is the object you can still hold.
 portrait: null
 portrait_status: note
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -23,7 +23,7 @@ last_verified: 2026-09-14
 
 *Educational history for SLPWOW. Not a treatment plan and not a substitute for evaluation by a licensed clinician.*
 
-1916. Death on Friday, 22 June 2001, of heart failure, at the University of Maryland Medical Center. The Baltimore *Sun* printed the obituary on the 28th. He was eighty-five. Birth day is not forced in this pack. James F. Bosma is here because pediatric dysphagia has a cine-and-atlas ancestor, and because the ancestor sat, later, in Martin Donner’s adult swallowing center as if the crossing of air and food did not care about your age.
+1916. Death on Friday, 22 June 2001, of heart failure, at the University of Maryland Medical Center. The Baltimore *Sun* printed the obituary on the 28th. He was eighty-five. Birth day is not forced in these drafts. James F. Bosma is here because pediatric dysphagia has a cine-and-atlas ancestor, and because the ancestor sat, later, in Martin Donner’s adult swallowing center as if the crossing of air and food did not care about your age.
 
 ## Stockholm, then Bethesda
 
@@ -39,7 +39,7 @@ The Baltimore *Sun* obituary is careful about the late appointments: Hopkins Swa
 
 Suck–swallow–breathe as a coordination you can film. The atlas habit. The idea that a congenital shape problem is a swallow problem.
 
-What they discarded: some of the older positional folklore that attached itself to his name in hallway talk. What this pack will not do is reprint a prone-feeding recipe from a 1960 *Acta* paper as if it were advice. History of a publication is allowed. A magazine instruction is not.
+What they discarded: some of the older positional folklore that attached itself to his name in hallway talk. What this profile will not do is reprint a prone-feeding recipe from a 1960 *Acta* paper as if it were advice. History of a publication is allowed. A magazine instruction is not.
 
 ## Residue
 

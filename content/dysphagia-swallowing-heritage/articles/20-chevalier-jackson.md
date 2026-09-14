@@ -13,7 +13,7 @@ figure_dates: "1865–1958"
 meta_description: Chevalier Jackson (1865–1958) built American bronchoesophagology around a clinic of pins, coins, and children. The autobiography is a source and a performance.
 portrait: null
 portrait_status: note
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -25,7 +25,7 @@ last_verified: 2026-09-14
 
 4 November 1865, western Pennsylvania. 16 August 1958. Ninety-two years, most of them spent teaching other people to look down a rigid tube without killing the person attached to it. Pittsburgh first, then Philadelphia — Jefferson, later Temple. The College of Physicians still knows his name as a cabinet of objects. Tourists remember the open safety pins. The clinic was for the children who had swallowed them.
 
-The voice-disorders pack meets Jackson from the knife and the professional-voice side. This pack meets the foreign-body man.
+The sibling voice-disorders heritage series meets Jackson from the knife and the professional-voice side. This profile meets the foreign-body man.
 
 ## A manual and a legend
 
@@ -33,9 +33,9 @@ The voice-disorders pack meets Jackson from the knife and the professional-voice
 
 He trained generations of American endoscopists. He also trained a public. Newspapers liked a pin on a card. The public story made endoscopy look like a miracle extraction. The private story was hours of practice and a pile of deaths you do not put in the window.
 
-The voice-disorders pack already has him from the professional-voice and knife side. Hold the split. A later student who meets Jackson only as a cabinet of pins has missed the cancer rooms; a student who meets him only as a laryngologist has missed the children. This profile keeps the objects and the manuals. The 1938 autobiography will try to keep the legend. Use it as a source with a grain of Philadelphia on it.
+That sibling series already has him from the professional-voice and knife side. Hold the split. A later student who meets Jackson only as a cabinet of pins has missed the cancer rooms; a student who meets him only as a laryngologist has missed the children. This profile keeps the objects and the manuals. The 1938 autobiography will try to keep the legend. Use it as a source with a grain of Philadelphia on it.
 
-Philadelphia’s instrument makers and Jackson’s own designs are a side literature: tubes, forceps, a light that would not go out at the wrong second. He cared about the kit the way a later SLP would care about a cookie recipe — except his kit could kill you if it was wrong. Temple University’s later claim on him is real and also a city’s habit of keeping a famous old man. Jefferson has its own claim. This pack will not referee a plaque fight.
+Philadelphia’s instrument makers and Jackson’s own designs are a side literature: tubes, forceps, a light that would not go out at the wrong second. He cared about the kit the way a later SLP would care about a cookie recipe — except his kit could kill you if it was wrong. Temple University’s later claim on him is real and also a city’s habit of keeping a famous old man. Jefferson has its own claim. This profile will not referee a plaque fight.
 
 ## What later people kept
 

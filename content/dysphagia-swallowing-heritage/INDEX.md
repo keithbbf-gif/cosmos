@@ -4,7 +4,7 @@ Staged series for **SLPWOW.com**. Pack path: `content/dysphagia-swallowing-herit
 
 **Host note.** SLPWOW is Keith’s wife’s speech-language pathology brand (WOW Therapies). These essays and profiles are magazine copy for a later WordPress import. See `WP_IMPORT.md`.
 
-**Voice check.** Every article carries `voice_check: human`. House rules: `STYLE_GUIDE.md`. Guardrails: `CLAIMS_GUARDRAILS.md`.
+**Voice check.** Every article carries `voice_check: edited` after the editor pass. Writer drafts used `human`. House rules: `STYLE_GUIDE.md`. Guardrails: `CLAIMS_GUARDRAILS.md`. Editor log: `EDITOR_REPORT.md`.
 
 **Sibling packs.** General speech-language pathology history (McAlpin, Iowa, ASHA names) is `content/slpwow-speech-pathology-history/`. Voice and larynx are `content/voice-disorders-heritage/`. This calendar is the swallowing lane.
 

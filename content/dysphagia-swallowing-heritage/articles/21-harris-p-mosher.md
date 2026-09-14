@@ -13,7 +13,7 @@ figure_dates: "1867–1954"
 meta_description: Harris Peyton Mosher (1867–1954) was Harvard’s first full-time professor of laryngology and otology, and a man of the lower esophagus. The Mosher Course outlived him.
 portrait: null
 portrait_status: note
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -23,9 +23,9 @@ last_verified: 2026-09-14
 
 *Educational history for SLPWOW. Not a treatment plan and not a substitute for evaluation by a licensed clinician.*
 
-Maine, 1867. Death in 1954. Day dates are not forced in this pack; the *Annals of Otology, Rhinology & Laryngology* and the *Archives of Otolaryngology* both ran memorials that year and the next. Harris Peyton Mosher became the first person Harvard Medical School hired to teach laryngology and otology as a dedicated, full-time professorial job. The Mosher Course — a postgraduate grind through head-and-neck anatomy — is the object his department still mentions when it tells its own story.
+Maine, 1867. Death in 1954. Day dates are not forced in these drafts; the *Annals of Otology, Rhinology & Laryngology* and the *Archives of Otolaryngology* both ran memorials that year and the next. Harris Peyton Mosher became the first person Harvard Medical School hired to teach laryngology and otology as a dedicated, full-time professorial job. The Mosher Course — a postgraduate grind through head-and-neck anatomy — is the object his department still mentions when it tells its own story.
 
-This pack wants the esophagus man.
+This profile wants the esophagus man.
 
 ## The lower end
 
