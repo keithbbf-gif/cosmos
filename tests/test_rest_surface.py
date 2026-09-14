@@ -10,7 +10,7 @@ TOKEN_MISSING (never invented); (3) submit parse keeps priority words that
 belong to the command inside the command; (4) POST /api/v1/backup with no
 sources is BACKUP_REFUSED + reason (socket lives; never a transport error)."""
 from __future__ import annotations
-import json, sys, tempfile, urllib.error, urllib.request
+import json, sys, tempfile, unittest, urllib.error, urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -55,6 +55,7 @@ def _http(svc, method, path, obj=None, token=None):
 
 
 def main() -> int:
+    RESULTS.clear()
     td = Path(tempfile.mkdtemp(prefix="cosmos_rest_"))
 
     # ================= TOKEN =================
@@ -363,8 +364,9 @@ def main() -> int:
     return 0 if not bad else 1
 
 
-def test_rest_surface():
-    assert main() == 0
+class TestRestSurface(unittest.TestCase):
+    def test_rest_surface(self):
+        self.assertEqual(main(), 0)
 
 
 if __name__ == "__main__":
