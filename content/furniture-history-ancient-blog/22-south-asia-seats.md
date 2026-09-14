@@ -65,6 +65,13 @@ Ivory was a South Asian furniture skin long before Vizagapatam cut bellflowers f
 
 What this chapter will not do is fill the monsoon gap with a reconstructed Mauryan suite. Stone lions, a painted platform, a rope bed, a silver howdah of 1900, an ivory table of the 1780s: those are the objects that still exist. The lost Peacock Throne can stay lost. The charpoy is still being strung.
 
+
+## Export chairs, village tape, a throne that should stay on the page
+
+Vizagapatam and other coastal shops made ivory-inlaid seats for a European order. They are sometimes labeled “typical Indian furniture.” They are a port answering a pattern book. Keep them in the export sentence. The charpoy Ibn Battuta described — four legs, staves, a plait of silk or cotton — is the type that did not need a dynasty. V&A IS.763-1883, a painted Delhi leg bought for two shillings and threepence, is the economic fact that belongs next to any jeweled seat.
+
+The Peacock Throne remains a lost object with a loud afterlife. Use a painted throne that still exists on a *Padshahnama* folio, or a measured later palace seat (the Nelson-Atkins Dungarpur pair, 2013.10.2), dated 1911 and honest about it. Do not draw Shah Jahan’s hall from rumor.
+
 ## Notes
 
 - Amin Jaffer, *Furniture from British India and Ceylon* (London: V&A, 2001) — for later export shops.

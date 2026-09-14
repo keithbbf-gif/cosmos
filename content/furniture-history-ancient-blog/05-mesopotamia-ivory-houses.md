@@ -79,6 +79,15 @@ The next chapter is a storeroom: Fort Shalmaneser, Room SW7, nineteen furniture 
 
 A reader coming from Giza will want a reconstructed chair. Ur will not give one. What it gives is the habit of sheathing, the administrative list, the plaque with dowel holes, the later Assyrian couch in relief. Those are enough if the chapter refuses to draw a throne for Puabi and call the drawing evidence. The next room — SW7 — is the first time we can count backs. This room is the trade that made those backs possible: tusks, cedars, a floodplain that eats joinery and keeps clay words.
 
+
+## A plaque with holes, a statue with a box throne
+
+Loud’s Megiddo plaques still have dowel holes. The holes are the furniture. Without them a carved ivory is jewelry. With them it is a skin that once had a wooden body in a Late Bronze palace that looked toward Egypt and toward the rivers. Samaria’s later hoard (Crowfoot and Crowfoot, 1938) is the Israelite chapter of the same trade. Ahab’s ivory house in the Book of Kings is a neighbor of those plaques, not a photograph of them.
+
+Gudea’s cubic seat (Louvre seated statues, AO numbers to be confirmed in layout) is the public face of sitting in stone. It may remember a wooden box throne. It may be stone thinking about stone. Either way, the carpenter is not named. Behind the statue, reed mats and clay benches did the daily work. A furniture history that only chases tusk will miss the majority sitters.
+
+Cedar boasts in royal inscriptions are not metaphors. Logs floated. A temple beam and a bed rail may travel on the same water. The difference is scale and finish. The floodplain keeps the words on clay and eats the joints. That is why this chapter can outline a trade and cannot reconstruct Puabi’s chair. SW7, next, is the first time we can count backs.
+
 ## Notes
 
 - C. Leonard Woolley, *Ur Excavations*, vol. II, *The Royal Cemetery* (London and Philadelphia, 1934).

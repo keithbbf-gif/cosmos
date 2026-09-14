@@ -32,7 +32,8 @@ A working list for the draft series. It is not complete. Museum collection pages
 ## Monographs and standard references
 
 - Anderson, Jennifer L. *Mahogany: The Costs of Luxury in Early America*. Cambridge, MA: Harvard University Press, 2012.
-- Baarsen, Reinier. *17th-Century Cabinets*. Amsterdam: Rijksmuseum, various.
+- Baarsen, Reinier. *17th-Century Cabinets*. Trans. John Rudge. Amsterdam: Rijksmuseum / Zwolle: Waanders, 2000.
+- Fabri, Ria. *De 17de-eeuwse Antwerpse Kunstkast*. 2 vols. Brussels: Koninklijke Academie, 1991–93.
 - Baskins, Cristelle L. *Cassone Painting, Humanism, and Gender in Early Modern Italy*. Cambridge: Cambridge University Press, 1998.
 - Billcliffe, Roger. *Charles Rennie Mackintosh: The Complete Furniture*. Various eds.
 - Briant, Pierre. *From Cyrus to Alexander*. Winona Lake: Eisenbrauns, 2002.
@@ -44,7 +45,9 @@ A working list for the draft series. It is not complete. Museum collection pages
 - Dunbabin, Katherine M. D. *The Roman Banquet*. Cambridge: Cambridge University Press, 2003.
 - Eames, Penelope. *Furniture in England, France and the Netherlands from the Twelfth to the Fifteenth Century*. London: Furniture History Society, 1977.
 - Edwards, Clive. *Victorian Furniture: Technology and Design*. Manchester: Manchester University Press, 1993.
+- Gilbert, Christopher. “Thomas Chippendale at Dumfries House.” *The Burlington Magazine* 111 (1969).
 - Gilbert, Christopher. *The Life and Work of Thomas Chippendale*. London: Studio Vista / Christie’s, 1978.
+- Harris, Eileen. *The Genius of Robert Adam*. New Haven: Yale, 2001.
 - Handler, Sarah. *Austere Luminosity of Chinese Classical Furniture*. Berkeley: University of California Press, 2001.
 - Haynes, Sybille. *Etruscan Civilization*. Los Angeles: Getty, 2000.
 - Heineken, Ty, and Kiyoko Heineken. *Tansu*. New York: Weatherhill, 1981.
@@ -92,6 +95,8 @@ A working list for the draft series. It is not complete. Museum collection pages
 
 ## Museum collection pages (check live)
 
-Metropolitan Museum of Art Open Access (CC0 unless noted): 12.182.28, 12.182.49, 36.3.152, 10.218, 1997.92, 1975.1.1940, 1982.60.82, 42.16, 1994.189, 2014.633, 1984.566, 59.107.1, 1979.206.263.
+Metropolitan Museum of Art Open Access (CC0 unless noted): 12.182.28, 12.182.49, 36.3.152, 10.218, 1997.92, 1975.1.1940, 1982.60.82, 42.16, 1994.189, 2014.633, 1984.566, 59.107.1, 1979.206.263, 2011.181, 18.110.4, 60.4.1.
+
+Rijksmuseum: BK-NM-11906-1, BK-NM-4789, BK-NM-5669 (Antwerp cabinets).
 
 MAK Vienna H 2762 (Thonet No. 14). MoMA 487.1953 (Rietveld). V&A CIRC.288-1960 (Sussex), W.21:1,2-1958 (klismos), W.61-1923 (Antwerp cabinet), W.17-1989 (LCW). Grand Egyptian Museum / Cairo JE 62028, JE 53263. Wallace Collection F16.

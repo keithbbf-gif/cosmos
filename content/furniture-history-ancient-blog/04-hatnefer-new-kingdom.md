@@ -85,6 +85,13 @@ Harry Burton’s photographs of Carter 91, still under Griffith Institute contro
 
 The next chapters leave the Nile for ivory in the Tigris and a storeroom at Nimrud. The Egyptian lesson to take along is technical: mortise, peg, glue, a seat of cord, a leg that is an animal, a back that can be an amulet or a throne. Skara Brae’s dresser did not need those sentences. Giza’s gold remembered them. Thebes still has the wood.
 
+
+## A threshold chair, and the stools the gold did not invent
+
+Lansing and Hayes found the chair outside an intact chamber. That sentence is already in the excavation *Bulletin*. What it still does not license is a reconstructed rite. The linen cord, the pegs, the Bes row: those are the facts a reader can take home. The gold throne in Cairo (Carter 91) remains a different class of object — sheet gold, glass, a pictorial program of kingship. Putting the two in one essay is a claim about a period’s joiners, not about every household.
+
+Killen’s stool atlas is the ordinary end of the same century: lattice, folding X, three legs. The Met’s 12.182.49 is a frame a visitor can walk around. JE 62046, the footrest under Carter 91, is the palace version of a type that appears, plainer, under officials in paint. Height tracks scene and rank as much as sex. A banquet’s low chair is not a law of gender. It is a painter’s grammar the Met’s label already treats with caution.
+
 ## Notes
 
 - Metropolitan Museum of Art, “Hatnefer’s Chair,” 36.3.152; “Chair for a Woman,” 12.182.28; “Folding stool,” 12.182.49. Catalog texts as of 2026.

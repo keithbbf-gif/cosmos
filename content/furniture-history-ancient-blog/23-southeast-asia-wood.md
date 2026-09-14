@@ -69,6 +69,13 @@ Thai, Burmese, Khmer, Malay, Minangkabau, Javanese, Balinese: seven words alread
 
 The next chapter is a stool that must not be sat upon. The step from a Balinese empty throne to an Asante golden one is not a diffusion story. It is a reader’s path through two societies that gave a seat the work of holding a people, or a god, rather than a diner. Southeast Asia’s everyday answer remains simpler and easier to miss: a platform, a mat, a box for the book, a forest that knew teak before a shipyard named it.
 
+
+## Boat joints, colonial chairs, a kitchen rack the palace catalogs skip
+
+House-building and boat-building share timbers and joints with chests. A Malay or Javanese chest may be closer to a hull plank than to an Antwerp cabinet. Dutch, Spanish, and later French inventories add chairs and armoires that local shops copy and alter. The hybrid is the history. Waterson’s *The Living House* (1990) treats the piled house as a social object; the inner platform is a rank marker of a few inches, not a high-backed throne.
+
+Ethnographic stools accessioned in 1912 are 1912 documents of living shops, not tenth-century survivals. Court gilding in Bangkok or Mandalay is architecture as much as furniture. Kitchen racks and rattan work rarely enter those catalogs. An essay that only climbs palace stairs has not been in the house. Teak’s later career as a colonial veranda wood belongs in chapter 41 as a tree. Here the tree is still a house.
+
 ## Notes
 
 - Regional museum catalogs: Bangkok National Museum; National Museum of Indonesia; Asian Civilisations Museum, Singapore; National Museum, Yangon.

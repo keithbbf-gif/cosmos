@@ -127,6 +127,10 @@ Alt text is written for a reader who cannot see the image, not as SEO stuffing.
 | 26.1 | Cassone | Met 1975.1.1940 | CONF (Lehman) | Carved walnut chest | Read “additions” on the label twice. |
 | 26.3 | Gubbio Studiolo | Met 39.153 | RES | Intarsia room | A piece of furniture you walk into. |
 | 27.1 | Antwerp cabinet | V&A W.61-1923 | V&A | Ebony cabinet, painted panels | The stand may be later. |
+| 27.6 | Peace allegory cabinet | Rijksmuseum BK-NM-11906-1 | CONF | Ebony cabinet, Rubens-school doors | Mid-century Antwerp; the lock still matters. |
+| 27.7 | Doomer cabinet | Met 2011.181 | CC0 | Ebony ripple-molded Amsterdam cabinet | Not Antwerp. Same ebony, a different port. |
+| 29.2 | Cressent commode | Met 1982.60.56 | CONF | Bombé commode, monkey-on-rope mounts | Crowned-C tax mark, 1745–49. |
+| 31.4 | Philadelphia high chest | Met 18.110.4 | CC0 | Mahogany high chest, scrolled pediment | London plates, a Philadelphia carver. |
 | 28.1 | Boulle cabinet | Wallace F16 | RES | Floral cabinet, caryatids | Flowers in wood; metal already in the frieze. |
 | 28.2 | Boulle commode | Met 1982.60.82 | CONF | Brass and tortoiseshell commode | Linsky bedroom architecture. |
 | 30.3 | Latrobe chair | Met 1994.189 | CC0 | Painted Philadelphia klismos | An architect’s antique in American woods. |

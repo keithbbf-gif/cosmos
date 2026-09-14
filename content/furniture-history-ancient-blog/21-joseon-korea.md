@@ -67,6 +67,13 @@ Papered floors scratch. Short feet and a smooth underside are therefore a finish
 
 The next chapter leaves the ondol for a rope bed and a howdah. The Korean lesson to take along is small: a table can be a tray with legs, and a cupboard can be a door that falls toward you. High sitting is not the only way a room ranks its people. On a warm floor, rank is which chest you own and which side of the room you are allowed to unfold it in.
 
+
+## Ondol, a tray, a hinge that tells the budget
+
+An *ondol* floor is furniture the way tatami is: a heated plane that decides the height of every table. Dinner arrives on a *soban*, one sitter at a time, and leaves again. A tall dining table would be the wrong object. Wright and Pai (1984) remain the English handbook; later Korean scholarship has refined regions without replacing the floor.
+
+Open a *bandaji* flap and the inner face may be unfinished. That is a budget, not a defect. Hinges are where a cheap shop saves and a good shop spends. Zelkova fronts and pine sides pair because the show face and the unseen carcase have different jobs. Colonial-period photographs (1910–45) froze some wedding sets for buyers already in the market. Use the photograph as a document of taste. Do not treat a 1930s plate as a fifteenth-century room.
+
 ## Notes
 
 - Edward Reynolds Wright and Man Sill Pai, *Korean Furniture: Elegance and Tradition* (Tokyo and New York: Kodansha, 1984).

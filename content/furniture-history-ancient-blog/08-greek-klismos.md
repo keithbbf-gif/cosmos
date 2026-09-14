@@ -81,6 +81,15 @@ Richter’s plates are still the place to learn the types before looking at a va
 
 Richter’s plates remain the first homework. A student who can tell a *diphros* from a *klismos* from a *thronos* from a *kline* has the grammar. The *andron*’s off-center door and the grave stele’s servant with a box are the sentences. Experimental reconstructions in museums are modern joinery and should be labeled as such. The Meidias hydria’s afterlife in Hamilton’s library is how this grammar leaked into 1810 painted chairs and 1808 Philadelphia. Chapter 30 will pick up that leak. This chapter leaves the leak as a warning: we see Greek furniture through painters, then through modern makers who trusted the painters.
 
+
+## Hegeso’s marble, a theatre’s front row
+
+The Hegeso stele — a woman in a klismos, a servant with a box — is the best three-dimensional “drawing” of the backrest’s curve we have, because the chisel is less given to flourishes than the brush. Richter collected the painted examples. Furniture historians have traced profiles from stelai more than from pots. Both are still representations. South Italian vases of the fourth century pile pillows until the kline is a stage. Useful for types, dangerous for scale.
+
+The *andron* is designed around couches, not chairs: off-center door, klinai along the walls, a small table per couch. The klismos in indoor scenes is a comfortable exception in a culture that specialized in stools and reclining. The folding *diphros okladias* is the Egyptian traveler’s stool after a long Mediterranean life; Rome will call a descendant *sella curulis*. Public sitting in Athens is benches and, later, marble prohedria. Wood in the early theatre was temporary and famous for collapsing. Stone seats are the expensive decision: sitting as a civic fact.
+
+Literary woods (Theophrastus) are richer than finds. Maple, oak, box, olive, imported ebony for luxury: the shop is known from dedications more than from a named maker of klismoi. `[CITE NEEDED: an Agora inscription that specifies chairs.]` The eighteenth century will sit on this absence (chapter 30). Here the honest sentence is still Richter’s: we have types, not a warehouse.
+
 ## Notes
 
 - Gisela M. A. Richter, *The Furniture of the Greeks, Etruscans and Romans* (London: Phaidon, 1966).

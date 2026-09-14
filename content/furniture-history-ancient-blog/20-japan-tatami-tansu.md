@@ -73,6 +73,13 @@ Meiji export furniture and the later *mingei* movement belong to chapters 35 and
 
 What the break does not erase is the carpenter’s habit. A *kaidan-dansu* in Brooklyn, a miniature tansu Freer bought in 1911, a nanban cabinet the Irvings gave in 2015: three dates of collecting, one refusal to treat Japan as a country that waited for a chair. The floor was the furniture. The box moved. The screen made a room inside the room. Anyone who needs a “Japanese chair” for a modernist parable can find a *zaisu* and miss the house.
 
+
+## Temple chairs, castle floors, a department-store afterlife
+
+Abbots’ chairs (*kyokuroku*) and castle audience seats are the high exceptions in a floor culture. They are ranked objects, few in a province, easy to photograph as proof that “Japan had chairs all along.” They prove the opposite: a chair was a mark. The farmhouse and the merchant house kept the mat.
+
+Meiji imports and department-store catalogs then add Western chairs at speed. The older logic does not vanish; it retreats to tea, to inns counted in tatami, to *tansu* that still travel. Unsigned chests acquire optimistic “Edo” dates in the trade. Trust hardware and wood. The Freer miniature (F1911.147) and Brooklyn’s stair chest (77.142) remain the public teachers: one a collector’s toy, one a piece of a house that can, in theory, be carried out of the house. *Nanban* export cabinets (Met 2015.500.2.29) learned European locks without teaching the home floor to stand up.
+
 ## Notes
 
 - Ty Heineken and Kiyoko Heineken, *Tansu: Traditional Japanese Cabinetry* (New York: Weatherhill, 1981).

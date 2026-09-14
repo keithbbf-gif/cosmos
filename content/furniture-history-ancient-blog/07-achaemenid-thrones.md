@@ -77,6 +77,15 @@ Parasol, stool, back, attendants: the king’s body is framed so that it does no
 
 Stone stairs at Persepolis were a publishing medium. Delegations climb in registers; the king’s seat is the punctuation. Margaret Cool Root’s reading of kingship as a program still holds for the furniture: the throne is how the program sits down. A parasol-bearer is not décor. A footstool is not a comfort accessory. Together they make a body that does not share a floor. Greek vase-painters who needed a “Persian king” invented their own chairs for him. Inventory Persepolis from Schmidt’s plates, not from a krater.
 
+
+## Distance reading, and the stool that completes the throne
+
+The Apadana stair is designed so that the throne reads from below: high back, footstool, canopy. Three signs. Margaret Cool Root’s *The King and Kingship in Achaemenid Art* (1979) treats that silhouette as grammar, not décor. The Treasury reliefs — the audience scene whose original location scholars still argue — keep the same two-piece seat. The king’s feet do not hang. Egyptian enemies on JE 62046 are louder; the Persian stool is quieter and just as strict.
+
+Greek writers noticed the canopy and the luxury and mixed autopsy with moralizing. A parasol-bearer is a job. A throne that travels with a tent is a logistics problem the Fortification tablets, which are mostly rations, have not yet been made to answer. `[CITE NEEDED: any tablet that lists throne parts.]` Athenian red-figure “Persian” kings sit on theatre seats. Use them as Athenian ideas. Do not inventory Susa from a krater.
+
+Lycian stone klinai and later Macedonian couches quote satrapal and Ionian woodwork without being shop drawings. After Alexander, Hellenistic courts inherited the displayed throne and mixed it with Macedonian habit. The Achaemenid chair as an idea outlived the Achaemenid shop. A full wood reconstruction of Darius’s seat would be a guess. This essay will not commission one. The stone already did the political work. The carpenter’s name is still missing.
+
 ## Notes
 
 - Margaret Cool Root, *The King and Kingship in Achaemenid Art* (Leiden: Brill, 1979).

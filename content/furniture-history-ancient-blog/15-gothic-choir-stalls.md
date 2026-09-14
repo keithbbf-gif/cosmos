@@ -73,6 +73,9 @@ English late sets — Ripon, Beverley, Manchester — keep the misericord as a l
 
 Domestic Gothic borrows the tracery and the canopy at a lower budget: a box chair, a tester bed, a cupboard with pierced doors. Survivals at the V&A, Cluny, and the Germanisches Nationalmuseum are the ones to trust; nineteenth-century “Gothick” beds are often Pugin or a dealer. A stall still in daily use is a living object. The wear on a misericord is a use-wear study anyone can see. Fire remains the usual death. So does a later taste that recuts a canopy. The next chapter’s minbar, ordered in Córdoba in 1137, shares only the problem: a raised wooden place for a voice, worked until the wood is a text. It does not share a theology. Adjacent chapters are a reader’s convenience.
 
+
+Wear on a misericord is a use-wear study anyone can see without a laboratory. Fire remains the usual death; so does a later taste that recuts a canopy and then dates the stall by the new profile.
+
 ## Notes
 
 - Charles Tracy, *English Gothic Choir-Stalls, 1200–1400* (Woodbridge: Boydell, 1987); *English Gothic Choir-Stalls, 1400–1540* (1990).

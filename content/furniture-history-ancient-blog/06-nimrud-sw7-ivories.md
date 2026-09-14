@@ -79,6 +79,15 @@ The fire that preserved the arrangement also calcined much of the ivory. British
 
 For this series, SW7 is the first time we can count backs and say “nineteen.” Egypt gave us whole chairs. Assyria gave us a storeroom of faces. Both are furniture. Only one still has its linen seat.
 
+
+## A storeroom, not a dining room
+
+Fort Shalmaneser was palace and arsenal. The SW7 stack is a reserve of prestige seating — or of seating taken from somewhere else and not yet reissued. We do not know who sat. We know the pieces were stored and not carried out in 612. Winter’s North Syrian faces (oval, high forehead, blossom-holders) point toward workshops from the Hatay to the upper Euphrates. The carvers may have worked at home, the plaques traveling as tribute; they may have worked in Assyria from imported tusks. The royal inscriptions allow both. They do not allow an Assyrian relief sculptor moonlighting in ivory. Different trades.
+
+Layard’s popular books made the ivories famous before they could be mended. Barnett’s 1957 catalog (second edition 1975) is a work of un-mixing: Layard, Loftus, and strays that were never Nimrud. Herrmann’s corpus volumes then spent decades giving fragments back to groups and, where possible, to rooms. A plaque without a room is jewelry. A plaque in SW7 is a chair. The difference is archaeological.
+
+Construction was mixed-media: ivory on a wooden chassis, moldings that once alternated materials now restored in wood. The Met’s tree-pattern panel (59.107.1) has a curved top that originally was not only ivory. Museum ivories are a bleach of that object. Some of the chair is in London, some in New York, some still in Baghdad. A chair that was one chair is now a diaspora of plaques. Egypt gave us whole chairs. Assyria gave us a storeroom of faces. Both are furniture. Only one still has its linen seat.
+
 ## Notes
 
 - Irene J. Winter, “Carved Ivory Furniture Panels from Nimrud: A Coherent Subgroup of the North Syrian Style,” *Metropolitan Museum Journal* 11 (1976): 25–54.

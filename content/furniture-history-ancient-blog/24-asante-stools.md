@@ -65,6 +65,9 @@ Reproduction stools — tourist carvings, state gifts, studio copies — are par
 
 The Golden Stool remains in Ghana. That sentence is the residual fact. Met 1979.206.263 can teach a crescent and a strip of metal. It cannot sit in for a nation. A furniture series that wanted a photograph of the *Sika Dwa Kofi* would be asking for the same category mistake Hodgson made, with better lighting. The stools that can be photographed are the ones that left. Their captions owe the leaving.
 
+
+A tourist stool can carry Cole and Ross’s crocodile and still not be a stool with an office. Caption the difference. The Golden Stool remains in Ghana; this series will not pretend a gallery piece is its stand-in.
+
 ## Notes
 
 - Peter Sarpong, *The Sacred Stools of the Akan* (Accra-Tema: Ghana Publishing, 1971).
