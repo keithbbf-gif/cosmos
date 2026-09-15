@@ -20,6 +20,8 @@ efficiency and error discovery.
 JSONL is the observation log (authority for this measurement). SQLite is
 a rebuildable projection, never authority. GET never mkdir. GET never
 invents a score. UNMEASURED until observed. Rotators refused.
+Judge is one axis: the same dest pair re-scored by Luna vs G46 vs GLM is
+two (or more) vectors, not one smear. Fold key includes the judge pin.
 
     py -3.14 cosmos\\cosmos_porosity.py --selftest
 """
@@ -43,7 +45,7 @@ ROTATING = frozenset({
     "openrouter/pareto-code",
 })
 PROFILE_AXES = {
-    "forge": ("coding", "spec", "security", "tests", "tool_use"),
+    "forge": ("coding", "spec", "security", "tests", "tool_use", "judge"),
     "crucible": ("law", "facts", "procedure"),
     "diligence": ("bull", "bear", "risk"),
     "differentiator": ("diagnosis", "plan"),
@@ -157,6 +159,24 @@ def _axis(axis, profile: str) -> str:
     return a[:80]
 
 
+def _judge_pin(authority) -> str:
+    """Named judge pin. Empty = UNMEASURED judge (unstamped row)."""
+    return str(authority or "").strip()[:80]
+
+
+def _axis_slot(axis: str, judge: str) -> str:
+    """Task axis stays the axis name. Judge pin is part of the cell.
+
+    Unstamped rows keep axis='coding' so existing GET/selftest hold.
+    Stamped rows are coding@luna vs coding@ccr:g46 — different vectors.
+    """
+    a = str(axis or "task")
+    j = str(judge or "")
+    if not j:
+        return a
+    return ("%s@%s" % (a, j))[:80]
+
+
 def empty_snapshot() -> dict:
     return {
         "schema": SCHEMA,
@@ -178,6 +198,7 @@ def empty_snapshot() -> dict:
         ),
         "tensors": {},
         "tensors_shape": "tensors[agent][vs][axis]",
+        "judge_axis": "judge is one named axis; fold also splits task axes by judge pin so Luna vs G46 are different vectors",
         "last_obs": {},
     }
 
@@ -204,8 +225,8 @@ def load_obs(paths) -> list[dict]:
     return out
 
 
-def _fold_rows(rows: list[dict]) -> dict[tuple[str, str, str], dict]:
-    acc: dict[tuple[str, str, str], dict] = {}
+def _fold_rows(rows: list[dict]) -> dict[tuple[str, str, str, str], dict]:
+    acc: dict[tuple[str, str, str, str], dict] = {}
     for o in rows:
         a = str(o.get("model_a") or "")
         b = str(o.get("model_b") or "")
@@ -213,7 +234,8 @@ def _fold_rows(rows: list[dict]) -> dict[tuple[str, str, str], dict]:
             continue
         lo, hi = (a, b) if a.lower() <= b.lower() else (b, a)
         axis = str(o.get("axis") or "task")
-        key = (lo, hi, axis)
+        judge = _judge_pin(o.get("authority"))
+        key = (lo, hi, axis, judge)
         slot = acc.get(key)
         if slot is None:
             slot = {"n": 0, "disagree_n": 0, "err_sum": 0.0, "err_n": 0,
@@ -275,6 +297,8 @@ def _fold_rows(rows: list[dict]) -> dict[tuple[str, str, str], dict]:
         ckind = "UNMEASURED" if scored == 0 else "MEASURED"
         out[key] = {
             "model_a": key[0], "model_b": key[1], "axis": key[2],
+            "judge": key[3],
+            "axis_slot": _axis_slot(key[2], key[3]),
             "n": n,
             "disagree_n": s["disagree_n"],
             "freq": freq,
@@ -296,10 +320,16 @@ def _fold_rows(rows: list[dict]) -> dict[tuple[str, str, str], dict]:
 
 
 def _directed_tensors(folds: dict) -> dict:
-    """Each agent -> vs -> axis -> parameter set. Does not invent."""
+    """Each agent -> vs -> axis -> parameter set. Does not invent.
+
+    Axis slot is the named axis, or axis@judge when a judge pin is present.
+    Same pair, Luna vs G46, is two vectors. Occupancy shape string stays
+    tensors[agent][vs][axis] — the axis key carries the judge.
+    """
     tensors: dict = {}
     for f in folds.values():
-        lo, hi, axis = f["model_a"], f["model_b"], f["axis"]
+        lo, hi = f["model_a"], f["model_b"]
+        axis = f.get("axis_slot") or _axis_slot(f["axis"], f.get("judge") or "")
         cells = (
             (lo, hi, f.get("rescue_hi_given_lo")),
             (hi, lo, f.get("rescue_lo_given_hi")),
@@ -316,6 +346,7 @@ def _directed_tensors(folds: dict) -> dict:
                 "orthogonality": f.get("orthogonality"),
                 "kind": f["kind"],
                 "complement_kind": f["complement_kind"],
+                "judge": f.get("judge") or "",
             }
             tensors.setdefault(agent, {}).setdefault(vs, {})[axis] = params
     return tensors
@@ -337,17 +368,18 @@ def _rebuild_sqlite(paths, rows: list[dict]) -> None:
             "who_erred TEXT, source TEXT, authority TEXT, action TEXT, note TEXT)"
         )
         con.execute(
-            "CREATE INDEX idx_pair_axis ON obs(pair_lo, pair_hi, axis)")
+            "CREATE INDEX idx_pair_axis ON obs(pair_lo, pair_hi, axis, authority)")
         con.execute("DROP TABLE IF EXISTS pair_fold")
         con.execute(
             "CREATE TABLE pair_fold ("
             "pair_lo TEXT NOT NULL, pair_hi TEXT NOT NULL, axis TEXT NOT NULL,"
+            "judge TEXT NOT NULL,"
             "n INTEGER, disagree_n INTEGER, freq REAL, mean_err REAL, mag REAL,"
             "kind TEXT,"
             "scored_n INTEGER, rescue_hi_given_lo REAL, rescue_lo_given_hi REAL,"
             "cofail REAL, xor_err REAL, style_fight REAL, signed REAL,"
             "orthogonality REAL, complement_kind TEXT,"
-            "PRIMARY KEY (pair_lo, pair_hi, axis))"
+            "PRIMARY KEY (pair_lo, pair_hi, axis, judge))"
         )
         con.execute("DROP TABLE IF EXISTS agent_tensor")
         con.execute(
@@ -384,13 +416,14 @@ def _rebuild_sqlite(paths, rows: list[dict]) -> None:
         folds = _fold_rows(rows)
         for f in folds.values():
             con.execute(
-                "INSERT INTO pair_fold (pair_lo, pair_hi, axis, n, disagree_n, "
+                "INSERT INTO pair_fold (pair_lo, pair_hi, axis, judge, n, disagree_n, "
                 "freq, mean_err, mag, kind, scored_n, rescue_hi_given_lo, "
                 "rescue_lo_given_hi, cofail, xor_err, style_fight, signed, "
                 "orthogonality, complement_kind) "
-                "VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+                "VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
                 (
-                    f["model_a"], f["model_b"], f["axis"], f["n"],
+                    f["model_a"], f["model_b"], f["axis"], f.get("judge") or "",
+                    f["n"],
                     f["disagree_n"], f["freq"], f["mean_err"], f["mag"],
                     f["kind"], f["scored_n"], f["rescue_hi_given_lo"],
                     f["rescue_lo_given_hi"], f["cofail"], f["xor_err"],
@@ -465,7 +498,7 @@ def record_pair(paths, model_a, model_b, *, axis="", disagree=True,
     _rebuild_sqlite(paths, rows)
     snap = snapshot(paths, profile=rec["profile"])
     snap["last"] = rec
-    key = (lo, hi, ax)
+    key = (lo, hi, ax, _judge_pin(rec.get("authority")))
     snap["fold"] = _fold_rows(rows).get(key)
     return snap
 
@@ -567,6 +600,15 @@ def _rescue_of(f: dict, candidate: str, seated: str):
     return None
 
 
+def _folds_for(folds, lo, hi, ax) -> list[dict]:
+    """All judge slices for one pair × task axis. Does not smear judges."""
+    out = []
+    for key, f in folds.items():
+        if key[0] == lo and key[1] == hi and key[2] == ax:
+            out.append(f)
+    return out
+
+
 def recommend(paths, seated, candidates, *, axes=None, costs=None,
               profile="forge", mode="complement") -> list[dict]:
     """Rank candidates by complement (rescue − co-fail) per token, else |v|.
@@ -593,30 +635,30 @@ def recommend(paths, seated, candidates, *, axes=None, costs=None,
                 continue
             lo, hi = (c, s) if c.lower() <= s.lower() else (s, c)
             for ax in want:
-                f = folds.get((lo, hi, ax))
-                if not f:
-                    continue
-                if use_c and f.get("complement_kind") == "MEASURED":
-                    rsc = _rescue_of(f, c, s)
-                    cf = f.get("cofail")
-                    if rsc is None and cf is None:
+                for f in _folds_for(folds, lo, hi, ax):
+                    if not f:
                         continue
-                    w = f.get("mean_err")
-                    if w is None:
-                        w = 1.0
-                    term = ((0.0 if rsc is None else rsc) - (0.0 if cf is None else cf)) * w
+                    if use_c and f.get("complement_kind") == "MEASURED":
+                        rsc = _rescue_of(f, c, s)
+                        cf = f.get("cofail")
+                        if rsc is None and cf is None:
+                            continue
+                        w = f.get("mean_err")
+                        if w is None:
+                            w = 1.0
+                        term = ((0.0 if rsc is None else rsc) - (0.0 if cf is None else cf)) * w
+                        unmeasured = False
+                        score += term
+                        n_term += 1
+                        used = "complement"
+                        continue
+                    if f.get("mag") is None:
+                        continue
                     unmeasured = False
-                    score += term
+                    score += float(f["mag"])
                     n_term += 1
-                    used = "complement"
-                    continue
-                if f.get("mag") is None:
-                    continue
-                unmeasured = False
-                score += float(f["mag"])
-                n_term += 1
-                if used == "none":
-                    used = "mag"
+                    if used == "none":
+                        used = "mag"
         cost = _f(costs.get(c))
         if cost is not None and cost > 0 and n_term:
             per = score / cost
@@ -663,12 +705,12 @@ def pair_matrix(paths, agents, *, profile="") -> list[dict]:
         for j in range(i + 1, len(pins)):
             lo, hi = _pair(pins[i], pins[j])
             for ax in axes:
-                f = folds.get((lo, hi, ax))
-                if f:
-                    rows.append(dict(f))
+                found = _folds_for(folds, lo, hi, ax)
+                if found:
+                    rows.extend(dict(f) for f in found)
                     continue
                 rows.append({
-                    "model_a": lo, "model_b": hi, "axis": ax,
+                    "model_a": lo, "model_b": hi, "axis": ax, "judge": "",
                     "n": 0, "disagree_n": 0, "freq": None,
                     "mean_err": None, "mag": None, "orthogonality": None,
                     "mean_tokens": None, "kind": "UNMEASURED",
@@ -720,12 +762,39 @@ def coverage(paths, agents, *, profile="", costs=None, incumbent="") -> dict:
         ),
         "agents": pins,
         "order": seated,
+        "seated": seated,
         "steps": steps,
         "n_pairs": len(pairs),
         "n_measured": n_meas,
         "pairs": pairs,
         "profile": str(profile or ""),
         "axes": list(axes_for(profile)),
+    }
+
+
+def recommend_team(paths, candidates, *, k=2, axes=None, costs=None,
+                   profile="forge", incumbent="") -> dict:
+    """Greedy team of k. First pin, then recommend() vs seated. UNMEASURED last."""
+    pins = _agent_pins(candidates)
+    want = max(1, int(k or 2))
+    if not pins:
+        return {
+            "schema": SCHEMA, "ok": True, "k": want, "team": [],
+            "steps": [], "kind": "UNMEASURED",
+        }
+    cov = coverage(
+        paths, pins, profile=profile, costs=costs,
+        incumbent=incumbent or pins[0])
+    order = list(cov.get("order") or [])
+    take = min(want, len(order))
+    return {
+        "schema": SCHEMA,
+        "ok": True,
+        "k": take,
+        "team": order[:take],
+        "steps": list(cov.get("steps") or [])[: max(0, take - 1)],
+        "kind": cov.get("kind") or "UNMEASURED",
+        "goal": cov.get("goal"),
     }
 
 
@@ -755,6 +824,9 @@ def snapshot(paths, *, profile: str = "", agents=None) -> dict:
             "kind": pack["kind"],
             "agents": pack["agents"],
             "coverage": pack,
+            "team": recommend_team(
+                paths, pins, k=min(3, len(pins)), profile=profile,
+                incumbent=pins[0]),
             "pairs": pack["pairs"],
             "n_pairs": pack["n_pairs"],
             "n_obs": len(rows),
@@ -772,11 +844,12 @@ def snapshot(paths, *, profile: str = "", agents=None) -> dict:
     complement: dict[str, dict] = {}
     for f in pairs:
         pk = "%s|%s" % (f["model_a"], f["model_b"])
-        tensor.setdefault(pk, {})[f["axis"]] = {
+        slot = f.get("axis_slot") or f["axis"]
+        tensor.setdefault(pk, {})[slot] = {
             "n": f["n"], "freq": f["freq"], "mean_err": f["mean_err"],
-            "mag": f["mag"], "kind": f["kind"],
+            "mag": f["mag"], "kind": f["kind"], "judge": f.get("judge") or "",
         }
-        complement.setdefault(pk, {})[f["axis"]] = {
+        complement.setdefault(pk, {})[slot] = {
             "scored_n": f["scored_n"],
             "rescue_hi_given_lo": f["rescue_hi_given_lo"],
             "rescue_lo_given_hi": f["rescue_lo_given_hi"],
@@ -991,6 +1064,10 @@ def _selftest() -> int:
           and set(cov["agents"]) == {a, b, c}
           and cov["n_pairs"] == len(mat)
           and "error-discovery" in cov["goal"])
+    team = recommend_team(paths, [a, b, c], k=2, profile="forge", incumbent=a)
+    check("recommend_team k=2 is incumbent plus first recommend, UNMEASURED last",
+          lambda: team["team"][0] == a and len(team["team"]) == 2
+          and team["k"] == 2)
     snap_a = snapshot(paths, profile="forge", agents=[a, b, c])
     check("GET snapshot with agents returns coverage pack, GET never mkdir",
           lambda: snap_a.get("coverage") and snap_a["coverage"]["order"][0] == a
@@ -1005,6 +1082,27 @@ def _selftest() -> int:
     check("GET snapshot last_obs carries Irbe stamps",
           lambda: snap_a.get("last_obs", {}).get("action") == "facilitate"
           and snap_a["last_obs"].get("authority") == "crew:forge")
+
+    record_pair(
+        paths, a, b, axis="coding", disagree=True, error_mag=4, who_erred="a",
+        authority="luna", action="ballot",
+    )
+    record_pair(
+        paths, a, b, axis="coding", disagree=True, error_mag=9, who_erred="b",
+        authority="ccr:g46", action="ballot",
+    )
+    folds_j = _fold_rows(load_obs(paths))
+    snap_j = snapshot(paths)
+    check("same pair × coding, two judges, two vectors — no smear",
+          lambda: (lo := (a, b) if a.lower() <= b.lower() else (b, a))
+          and folds_j.get((lo[0], lo[1], "coding", "luna"), {}).get("mean_err") == 4
+          and folds_j.get((lo[0], lo[1], "coding", "ccr:g46"), {}).get("mean_err") == 9
+          and "coding@luna" in (snap_j.get("tensors") or {}).get(a, {}).get(b, {})
+          and "coding@ccr:g46" in (snap_j.get("tensors") or {}).get(a, {}).get(b, {})
+          and snap_j["tensors"][a][b]["coding@luna"]["mag"]
+          != snap_j["tensors"][a][b]["coding@ccr:g46"]["mag"])
+    check("forge axes name judge as an axis",
+          lambda: "judge" in axes_for("forge"))
 
     failed = [(l, e) for l, ok, e in results if not ok]
     for label, ok, err in results:
