@@ -1,0 +1,67 @@
+# CONTRACTS — PROFILE_STAGE_TRANSITION (cosmos/cosmos_profiles.py)
+#
+# Portfolio Studio PS-05: optimistic Keith-approved adjacent stage transitions
+# extend POST /api/v1/profiles. The ledger event is the authority; the engine
+# cursor is a rebuildable projection. Transition never starts MOTIF, never
+# publishes, and never queues a job.
+
+schema = "cosmos-contracts/1"
+subsystem = "profile_stage_transition"
+
+[[contract]]
+id = "profiles.transition.legal_adjacent_needs_keith"
+statement = """
+Only the nine MOTIF adjacent edges may advance. Every legal adjacent transition
+requires an explicit Keith decision (approved=true, decided_by=keith) and emits
+a PROFILE_STAGE_TRANSITION ledger record before the engine cursor moves."""
+severity = "high"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_profiles.py"
+  must_contain = "TRANSITION_EVENT = \"PROFILE_STAGE_TRANSITION\""
+  why = "event name is pinned"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_profiles.py"
+  must_contain = "requires_keith\": True"
+  why = "every catalog edge requires Keith"
+
+  [[contract.evidence]]
+  kind = "test"
+  file = "tests/test_portfolio_transitions.py"
+  must_contain = "test_legal_adjacent_requires_keith_and_ledger"
+
+[[contract]]
+id = "profiles.transition.refuse_without_queue"
+statement = """
+Stale (version/tree fencing), skipped (non-adjacent), RED (health), UNMEASURED
+(product/spend/stage), or UNGATED (missing Keith decision or gates) requests
+REFUSE as typed ProfileError kinds and never submit a scheduler job."""
+severity = "high"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_profiles.py"
+  must_contain = "job_started\": False"
+  why = "transition payload records no job start"
+
+  [[contract.evidence]]
+  kind = "test"
+  file = "tests/test_portfolio_transitions.py"
+  must_contain = "test_refusals_do_not_queue_work"
+
+[[contract]]
+id = "profiles.transition.event_schema"
+statement = """
+PROFILE_STAGE_TRANSITION payload schema is cosmos-profile-stage-transition/1 with
+fields: schema, profile, edge_id, from_stage, to_stage, version, keith_decision,
+gates, starts_motif, publishes, job_started, node."""
+severity = "medium"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_profiles.py"
+  must_contain = "TRANSITION_EVENT_SCHEMA = \"cosmos-profile-stage-transition/1\""
+  why = "payload schema id is pinned"
