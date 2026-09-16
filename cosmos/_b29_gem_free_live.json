@@ -1,0 +1,8 @@
+{
+  "ok": false,
+  "tree_id": "KMesh-COSMOS-live-probe",
+  "link_id": "gem-free",
+  "measured": "UNMEASURED",
+  "billing_429_note": "AI Studio free tier DEAD (HTTP 429 / RESOURCE_EXHAUSTED) \u2014 typical when billing is linked or daily quota is exhausted; not GREEN.",
+  "detail": "NO_KEY: google_api_key.txt absent at /tmp/tmpeddscv88/live/config/google_api_key.txt"
+}

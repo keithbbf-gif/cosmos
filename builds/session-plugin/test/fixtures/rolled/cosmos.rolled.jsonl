@@ -1,0 +1,3 @@
+{"schema":"rolled-event/1","id":"cow-abc","seq":2,"t":1757000100.0,"kind":"session.turn","actor":"open-sessions","detail":{"turn":1}}
+{"schema":"rolled-event/1","id":"cow-abc","seq":1,"t":1757000000.0,"kind":"session.opened","actor":"open-sessions","detail":{}}
+{"schema":"rolled-event/1","id":"grok-aaaa1111-bbbb-cccc-dddd-eeeeeeeeeeee","seq":1,"t":1757000050.0,"kind":"session.opened","actor":"cdeck","detail":{}}
