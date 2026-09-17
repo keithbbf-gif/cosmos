@@ -341,9 +341,20 @@ class CAS:
     sha pointer. Idempotent by construction (name == content hash), MAX_PATH-safe, and
     self-checking on read."""
 
-    def __init__(self, root: str | os.PathLike):
+    def __init__(self, root: str | os.PathLike, *, mkdir: bool = True):
+        """`mkdir=True` is the PUT/install path. GET uses mkdir=False: an
+        absent store is NOT_FOUND and the directory is never created."""
         self._root = Path(root)
-        os.makedirs(extended(self._root), exist_ok=True)
+        if mkdir:
+            os.makedirs(extended(self._root), exist_ok=True)
+            return
+        if not os.path.exists(extended(self._root)):
+            raise LedgerError(
+                "NOT_FOUND",
+                "CAS store %s is not present (GET never mkdir)" % self._root)
+        if not os.path.isdir(extended(self._root)):
+            raise LedgerError(
+                "UNREADABLE", "CAS store %s is not a directory" % self._root)
 
     def _blob_path(self, sha: str) -> Path:
         return self._root / (sha + ".blob")
