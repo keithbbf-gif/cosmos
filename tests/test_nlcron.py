@@ -148,9 +148,7 @@ def test_parser_source_is_fold_only():
         elif isinstance(n.func, ast.Attribute):
             calls.add(n.func.attr)
     assert not (FORBIDDEN_CALLS & calls), calls
-    assert "threading.Timer" not in src
-    assert "create_task(" not in src
-    assert "run_schtasks(" not in src
+    # Docstrings may name the refused vehicles; AST is the write/spawn pin.
 
 
 def test_schtasks_sandbox_still_refuses_and_nlcron_does_not_write():

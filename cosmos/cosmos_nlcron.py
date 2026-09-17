@@ -4,9 +4,9 @@
 
 Maps a natural-language cadence onto the COSMOS Windows-clock vehicles
 already owned by schtasks + WD2. Parser only. Does not create tasks,
-does not spawn schtasks.exe, does not start a detached daemon, does not
-add threading.Timer / asyncio sleep-loop / in-process cron / a Core
-thread / an HTTP route.
+does not spawn the native scheduler binary, does not start a detached
+daemon, and does not add an in-process timer, sleep-loop, cron, Core
+thread, or HTTP route.
 
     schtasks floor is 1 minute. Anything faster is detached_daemon
     (the --loop process + 1-min self-heal + onlogon relaunch live in
@@ -460,17 +460,29 @@ def _selftest() -> int:
 
     check("plan_create / tr_cmdline accept returned field shapes", _plan_shapes)
 
+    import ast
     from pathlib import Path as _Path
 
-    src = _Path(__file__).read_text(encoding="utf-8")
-    src_ok = (
-        "threading.Timer" not in src
-        and "asyncio" not in src
-        and "create_task(" not in src
-        and "run_schtasks(" not in src
-        and "spawn_detached(" not in src
-        and "subprocess" not in src
-    )
+    tree = ast.parse(_Path(__file__).read_text(encoding="utf-8"))
+    imports = set()
+    calls = set()
+    for n in ast.walk(tree):
+        if isinstance(n, ast.Import):
+            for alias in n.names:
+                imports.add(alias.name.split(".", 1)[0])
+        elif isinstance(n, ast.ImportFrom) and n.module:
+            imports.add(n.module.split(".", 1)[0])
+        elif isinstance(n, ast.Call):
+            if isinstance(n.func, ast.Name):
+                calls.add(n.func.id)
+            elif isinstance(n.func, ast.Attribute):
+                calls.add(n.func.attr)
+    banned_imp = {"subprocess", "asyncio", "threading", "sched"}
+    banned_call = {
+        "create_task", "run_schtasks", "spawn_detached", "spawn_wmi",
+        "Popen", "system", "Timer",
+    }
+    src_ok = not (imports & banned_imp) and not (calls & banned_call)
     check("source is parser-only (no spawn / timer / schtasks write)",
           lambda: src_ok)
 
