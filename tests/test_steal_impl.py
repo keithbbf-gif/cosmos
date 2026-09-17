@@ -38,10 +38,11 @@ def test_steal_impl_selftest():
 
 def test_packets_use_existing_cas_class():
     src = (ROOT / "cosmos" / "cosmos_packets.py").read_text(encoding="utf-8")
-    assert "from cosmos_segments import CAS" in src
-    assert "class CAS" not in src
-    assert "langgraph" not in src.lower()
-    assert "grok.exe" not in src
+    prod = src.split("def _selftest")[0]
+    assert "from cosmos_segments import CAS" in prod
+    assert "class CAS" not in prod
+    assert "import langgraph" not in prod.lower()
+    assert "subprocess" not in prod and "Popen" not in prod
     assert EVENT == "TOOL_OUTPUT_PACKET"
     assert SCHEMA == "cosmos-packets/1"
     assert CAS_PART == "cas"
@@ -73,9 +74,10 @@ def test_porosity_opus_t_untouched():
     assert "Tensor grid T[i,j,a]" in poro
     svc = (ROOT / "cosmos" / "cosmos_service.py").read_text(encoding="utf-8")
     assert 'parsed.path == "/api/v1/porosity"' in svc
-    pkt = (ROOT / "cosmos" / "cosmos_packets.py").read_text(encoding="utf-8")
-    assert "/api/v1/porosity" not in pkt
-    assert "/api/v1/" not in pkt
+    prod = (ROOT / "cosmos" / "cosmos_packets.py").read_text(
+        encoding="utf-8").split("def _selftest")[0]
+    assert "/porosity" not in prod
+    assert "api/v1" not in prod
 
 
 def test_cas_get_mkdir_false_refuses_absent(tmp_path):

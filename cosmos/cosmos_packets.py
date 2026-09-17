@@ -214,20 +214,21 @@ def _selftest() -> int:
             results.append((label, False, f"{type(e).__name__}: {e}"))
 
     src = SRC.read_text(encoding="utf-8")
+    prod = src.split("def _selftest")[0]
     check("named module uses existing cosmos_segments.CAS",
-          lambda: "from cosmos_segments import CAS" in src)
+          lambda: "from cosmos_segments import CAS" in prod)
     check("named module uses existing cosmos_ledger.Ledger",
-          lambda: "from cosmos_ledger import Ledger" in src)
+          lambda: "from cosmos_ledger import Ledger" in prod)
     check("no second store class",
-          lambda: "class CAS" not in src)
+          lambda: "class CAS" not in prod)
     check("LangGraph is refused, not imported",
-          lambda: "import langgraph" not in src.lower()
-          and "No LangGraph" in src)
+          lambda: "import langgraph" not in prod.lower()
+          and "No LangGraph" in prod)
     check("does not spawn grok.exe",
-          lambda: "subprocess" not in src and "Popen" not in src
-          and "No extra grok.exe" in src)
+          lambda: "subprocess" not in prod and "Popen" not in prod
+          and "No extra grok.exe" in prod)
     check("does not invent an HTTP route",
-          lambda: "/api/v1/" not in src)
+          lambda: "/api/v1/" not in prod)
 
     tree = ast.parse(src)
     get_fns = {}
