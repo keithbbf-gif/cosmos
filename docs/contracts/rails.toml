@@ -83,3 +83,43 @@ severity = "medium"
   file = "cosmos/cosmos_firecrawl_rail.py"
   must_contain = "set(k.registry.state()) == _before"
   why = "asserts the property (nothing new registered), not an empty-registry assumption"
+
+[[contract]]
+id = "rails.stagehand_under_playwright_not_second_core"
+statement = """
+Stagehand is a preferred-rail DOM adapter UNDER playwright-dom. It does not
+replace playwright-dom, does not attach at Kernel compose_rails (no second
+Core), does not become a scheduler, denies browser_run_code_unsafe, GET
+never mkdir, and kernel_attached is false unless boot_compose=True."""
+severity = "high"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_stagehand_rail.py"
+  must_contain = "_ledger_is_authority(kernel) and not boot_compose"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_stagehand_rail.py"
+  must_contain = "GET never mkdir"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_stagehand_rail.py"
+  must_contain = 'spec["kernel_attached"] = False'
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_kernel.py"
+  must_not_contain = "cosmos_stagehand_rail"
+  why = "Kernel compose_rails must not attach stagehand (no second Core)"
+
+  [[contract.evidence]]
+  kind = "test"
+  file = "tests/test_stagehand_rail.py"
+  must_contain = "GET snapshot_cache mkdir'd"
+
+  [[contract.evidence]]
+  kind = "test"
+  file = "tests/test_stagehand_rail.py"
+  must_contain = "browser_run_code_unsafe"

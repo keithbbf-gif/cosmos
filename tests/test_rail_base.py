@@ -87,7 +87,8 @@ MISSING = object()
 
 # helper -> the rails REQUIRED to expose it (see the module docstring).
 SHELLS_OUT = ("codex", "claude", "forge")
-ALL_RAILS = ("codex", "cursor", "firecrawl", "playwright", "claude", "forge")
+ALL_RAILS = ("codex", "cursor", "firecrawl", "playwright", "claude", "forge",
+             "stagehand")
 REQUIRED = {
     "_ledger_is_authority": ALL_RAILS,
     "write_probe_record": ALL_RAILS,
@@ -107,9 +108,11 @@ def main() -> int:
     import cosmos_firecrawl_rail as firecrawl
     import cosmos_forge_rail as forge
     import cosmos_playwright_rail as playwright
+    import cosmos_stagehand_rail as stagehand
 
     rails = {"codex": codex, "cursor": cursor, "firecrawl": firecrawl,
-             "playwright": playwright, "claude": claude, "forge": forge}
+             "playwright": playwright, "claude": claude, "forge": forge,
+             "stagehand": stagehand}
 
     results = []
     forked = []
