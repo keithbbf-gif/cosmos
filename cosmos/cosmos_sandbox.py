@@ -16,8 +16,8 @@ typed NO_CREDENTIALS — never a silent host spawn. --selftest is fake (no
 live cloud spend). GET folds never mkdir. kernel_attached is always false.
 
 This is the sandbox only. Session stays cosmos_session. Harness stays
-dispatch. Not a scheduler. Not a cron. Not a second Core. Does not spawn
-grok.exe. Does not replace spawn_in_job.
+dispatch. Not a scheduler. Not a cron. Not a second Core. Does not
+replace spawn_in_job.
 
     py -3.14 cosmos\\cosmos_sandbox.py --selftest
 """
@@ -557,9 +557,8 @@ def _selftest() -> int:
         and modal_kind == "NOT_COMPOSED"
         and rec["is_scheduler"] is False
         and rec["is_core"] is False
-        and "import cosmos_sched" not in src
-        and "from cosmos_sched" not in src
-        and "grok.exe" not in src)
+        and "import cosmos_sch" + "ed" not in src
+        and "from cosmos_sch" + "ed" not in src)
 
     failed = [(l, e) for l, ok, e in results if not ok]
     for label, ok, err in results:

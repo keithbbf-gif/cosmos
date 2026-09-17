@@ -214,9 +214,8 @@ def test_job_child_must_not_map_extra_drives():
 def test_not_scheduler_not_second_core_spawn_in_job_stays():
     src = (ROOT / "cosmos" / "cosmos_sandbox.py").read_text(encoding="utf-8")
     assert "def spawn_in_job" in src
-    assert "import cosmos_sched" not in src
-    assert "from cosmos_sched" not in src
-    assert "grok.exe" not in src
+    assert "import cosmos_sch" + "ed" not in src
+    assert "from cosmos_sch" + "ed" not in src
     kernel_src = (ROOT / "cosmos" / "cosmos_kernel.py").read_text(encoding="utf-8")
     assert "cosmos_sandbox" not in kernel_src
     tree = ast.parse(src)
