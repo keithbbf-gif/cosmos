@@ -146,9 +146,17 @@ CONTROL CHANNEL + SPEND BREAKER (2026-08-25, cosmos_control/cosmos_spendguard):
                                         reduce capability); an optional
                                         config/kill_token.txt gates it when
                                         present (?token= / {"token"}).
-    POST /api/v1/control/resume       - clears the flags AND resets the local
-                                        spend counters (bearer-authed: OFF is
-                                        cheap by design, ON is deliberate)
+    POST /api/v1/control/resume       - clears the flags. Does NOT reset the
+                                        day spend cap (SpendGuard.clear
+                                        reset_day=False). Session/rate lanes
+                                        may clear; the day lane stays.
+                                        Bearer-authed: OFF is cheap by design,
+                                        ON is deliberate. Loopback CSRF:
+                                        config/loopback_trust.txt is
+                                        guarded|legacy|off (code default
+                                        guarded). Keith's machine uses
+                                        legacy — open loopback is intentional.
+                                        Valid bearer always passes.
     /api/v1/voice is HARDENED: control flags refuse fast (zero spend); an
     identical (client_id, utterance) inside ~15s is dropped as a duplicate
     (zero spend); the SpendGuard breaker (session/day USD caps + rate limit)
@@ -195,12 +203,17 @@ import os
 import threading
 import time
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
+from urllib.parse import urlparse
 
 from cosmos_kernel import Kernel
 
 # Loopback binds may mint a token (zero-friction local use). A remote bind must
 # never invent one - a silently minted secret on 0.0.0.0 is an open door.
 _LOOPBACK_HOSTS = frozenset({"127.0.0.1", "localhost", "::1"})
+LOOPBACK_TRUST_MODES = frozenset({"guarded", "legacy", "off"})
+DEFAULT_LOOPBACK_TRUST = "guarded"
+LOOPBACK_TRUST_NAME = "loopback_trust.txt"
+_SAFE_FETCH_SITES = frozenset({"same-origin", "same-site", "none"})
 
 # Per-request body cap for every POST endpoint. All v1 POST bodies are small
 # JSON control messages; 1 MiB is generous. An uncapped Content-Length is an
@@ -523,20 +536,128 @@ def _is_loopback_peer(addr: str) -> bool:
     return False
 
 
-def _request_authed(peer: str, authorization: str, token: str,
-                    open_access: bool = False) -> bool:
-    """Bearer gate. Loopback DT auto-connects; Tailscale/phone/LAN still need it.
+def parse_loopback_trust(text: str) -> str:
+    """First non-comment token of config/loopback_trust.txt.
 
-    open_access is loopback-bind only (Service refuses REMOTE_OPEN_ACCESS).
-    Wrong bearer on loopback still passes — the peer is this machine.
+    guarded (code default): Host/Origin/JSON/Sec-Fetch-Site on mutating
+    loopback requests. GET still DT auto-connects. Valid bearer always
+    passes.
+    legacy: open loopback (Keith's machine — intentional).
+    off: no loopback trust; bearer required even on 127.0.0.1.
+    Unknown or empty -> guarded (fail closed).
     """
-    if open_access:
+    for raw in (text or "").splitlines():
+        line = raw.strip()
+        if not line or line.startswith("#"):
+            continue
+        mode = line.split()[0].strip().lower()
+        if mode in LOOPBACK_TRUST_MODES:
+            return mode
+        return DEFAULT_LOOPBACK_TRUST
+    return DEFAULT_LOOPBACK_TRUST
+
+
+def _header_get(headers, name: str) -> str:
+    if headers is None:
+        return ""
+    getter = getattr(headers, "get", None)
+    if callable(getter):
+        return str(getter(name) or getter(name.lower()) or "")
+    return ""
+
+
+def _host_header_is_loopback(host: str) -> bool:
+    h = (host or "").strip().lower()
+    if not h:
+        return False
+    if h.startswith("["):
+        end = h.find("]")
+        if end != -1:
+            h = h[1:end]
+    elif h.count(":") == 1:
+        h = h.rsplit(":", 1)[0]
+    return _is_loopback_peer(h)
+
+
+def _origin_is_loopback(origin: str) -> bool:
+    o = (origin or "").strip()
+    if not o or o.lower() == "null":
+        return False
+    host = (urlparse(o).hostname or "").strip().lower()
+    return _is_loopback_peer(host)
+
+
+def _content_type_is_json(ctype: str) -> bool:
+    return (ctype or "").split(";", 1)[0].strip().lower() == "application/json"
+
+
+def _sec_fetch_site_ok(value: str) -> bool:
+    v = (value or "").strip().lower()
+    if not v:
         return True
-    if _is_loopback_peer(peer):
-        return True
+    return v in _SAFE_FETCH_SITES
+
+
+def _csrf_headers_ok(headers) -> bool:
+    """Host + Origin + JSON Content-Type + Sec-Fetch-Site.
+
+    Missing Origin is allowed (curl / native). Present Origin must be
+    loopback. Missing Sec-Fetch-Site is allowed; cross-site is refused.
+    Present Content-Type must be application/json (HTML form posts are
+    the classic CSRF). Missing Content-Type is allowed for native
+    clients that did not set one.
+    """
+    if not _host_header_is_loopback(_header_get(headers, "Host")):
+        return False
+    origin = _header_get(headers, "Origin")
+    if origin and not _origin_is_loopback(origin):
+        return False
+    ctype = _header_get(headers, "Content-Type")
+    if ctype and not _content_type_is_json(ctype):
+        return False
+    if not _sec_fetch_site_ok(_header_get(headers, "Sec-Fetch-Site")):
+        return False
+    return True
+
+
+def _bearer_matches(authorization: str, token: str) -> bool:
+    if not token:
+        return False
     got = authorization or ""
     return hmac.compare_digest(
         got.encode("utf-8"), ("Bearer " + token).encode("utf-8"))
+
+
+def _request_authed(peer: str, authorization: str, token: str,
+                    open_access: bool = False,
+                    method: str = "GET",
+                    headers=None,
+                    trust: str = DEFAULT_LOOPBACK_TRUST) -> bool:
+    """Bearer gate + loopback CSRF (Host/Origin/JSON/Sec-Fetch-Site).
+
+    Valid bearer always passes (every trust mode).
+    open_access is loopback-bind only (Service refuses REMOTE_OPEN_ACCESS).
+    trust=legacy: open loopback (Keith's machine — intentional).
+    trust=off: bearer required even on loopback.
+    trust=guarded (code default): GET/HEAD on loopback still auto-connect;
+    mutating loopback requests need CSRF headers. Wrong bearer on loopback
+    GET still passes — the peer is this machine (legacy DT).
+    """
+    if open_access:
+        return True
+    if _bearer_matches(authorization, token):
+        return True
+    mode = parse_loopback_trust(trust)
+    if mode == "off":
+        return False
+    if not _is_loopback_peer(peer):
+        return False
+    if mode == "legacy":
+        return True
+    verb = (method or "GET").upper()
+    if verb in ("GET", "HEAD"):
+        return True
+    return _csrf_headers_ok(headers)
 
 
 def _write_private(path, data: bytes) -> None:
@@ -669,9 +790,22 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
             self.end_headers()
             self.wfile.write(body)
 
+        def _loopback_trust_mode(self) -> str:
+            try:
+                p = kernel.paths.config(LOOPBACK_TRUST_NAME)
+                if not p.exists():
+                    return DEFAULT_LOOPBACK_TRUST
+                return parse_loopback_trust(p.read_text(encoding="utf-8"))
+            except Exception:  # noqa: BLE001
+                return DEFAULT_LOOPBACK_TRUST
+
         def _authed(self) -> bool:
             # Keith 2026-09-04: DT cDeck auto-connects. Peer on 127.0.0.1/::1
             # skips the bearer; Tailscale/phone/LAN still need it.
+            # Opus P0: guarded CSRF on mutating loopback unless a valid
+            # bearer is presented. config/loopback_trust.txt = guarded|
+            # legacy|off. Code default guarded; Keith's machine uses
+            # legacy (open loopback is intentional).
             peer = ""
             try:
                 peer = self.client_address[0]
@@ -679,7 +813,10 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                 peer = ""
             return _request_authed(
                 peer, self.headers.get("Authorization", "") or "",
-                token, open_access)
+                token, open_access,
+                method=getattr(self, "command", "GET") or "GET",
+                headers=self.headers,
+                trust=self._loopback_trust_mode())
 
         def _drain_body(self, cap: int = _MAX_BODY_BYTES) -> None:
             """Discard a pending request body before an early refusal.
@@ -1141,10 +1278,11 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                 self._drain_body()
                 return self._send(401, {"error": "UNAUTHORIZED"})
             if self.path == "/api/v1/control/resume":
-                # the explicit road back: clears the control flags AND resets
-                # the local spend counters ("say 'resume' or clear it on the
-                # desktop"). Bearer-authed: OFF is cheap by design, ON is a
-                # deliberate act.
+                # the explicit road back: clears the control flags. Does
+                # NOT reset the day spend cap (reset_day=False) — resume
+                # is unmute, not a second wallet. Session/rate lanes may
+                # still clear. Bearer-authed: OFF is cheap by design, ON
+                # is a deliberate act.
                 body = self._read_body()
                 if body is None:
                     return
@@ -1155,7 +1293,7 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                                             "detail": str(e)[:200]})
                 cid = str(d.get("client_id") or "") or None
                 st = _ctrl.resume(cid)
-                cleared = _guard.clear(cid)
+                cleared = _guard.clear(cid, reset_day=False)
                 return self._send(200, {"resumed": True, "client_id": cid,
                                         "spend_counters_cleared": cleared,
                                         "control": st})
