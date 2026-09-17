@@ -39,6 +39,8 @@ that omits what it serves is an undocumented surface, not a short one):
                            tensor C (rescue / co-failure / XOR-error). Directed
                            grid tensors[agent][vs][axis] (agent_tensor). GET never
                            mkdir. UNMEASURED until a pair is observed. Does not invent.
+    GET /api/v1/recall     - carry-over fold (SEED hint, collector tail, index).
+                           Projection refreshed by clock id 27. GET never mkdir.
     GET /api/v1/usage    - OpenRouter usage accounting fold (tokens/cost/cache).
                            GET never mkdir. UNMEASURED until a dispatch is recorded.
     GET /api/v1/gitur      - GitHub + GitLab + Cursor projection (rails + probe, no vendor poll)
@@ -1226,6 +1228,12 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                     profile=(q.get("profile") or [""])[0],
                     agents=agents or None,
                 )
+                rec["measured_at"] = time.time()
+                rec["tree_id"] = kernel.paths.sentinel.tree_id
+                return self._send(200, rec)
+            if parsed.path == "/api/v1/recall":
+                from cosmos_recall import snapshot as recall_snapshot
+                rec = recall_snapshot(kernel.paths)
                 rec["measured_at"] = time.time()
                 rec["tree_id"] = kernel.paths.sentinel.tree_id
                 return self._send(200, rec)

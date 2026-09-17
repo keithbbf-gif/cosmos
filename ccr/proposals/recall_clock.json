@@ -1,0 +1,60 @@
+{
+  "schema": "cosmos-agent-proposal/1",
+  "agent": "Cursor | Grok 4.6",
+  "route": "CURSOR",
+  "p10": "PROPOSE — CCr disposes to live tree; Keith runs schtasks on host",
+  "job": "ccr/recall-clock",
+  "timestamp": "2026-09-17T21:20:00Z",
+  "rationale": "Native Windows clock id 27 refreshes the rebuildable recall projection every 15 minutes. GET /api/v1/recall stays read-only and never mkdir. Not an in-process cron; not a second kernel scheduler.",
+  "clock": {
+    "id": 27,
+    "name": "COSMOS Recall Refresh",
+    "script": "cosmos/cosmos_recall_clock.py",
+    "cadence": "schtasks /sc minute /mo 15 --once",
+    "root": "V:\\A\\Ai\\COSMOS\\live",
+    "invocation": "py -3.14 cosmos\\cosmos_recall_clock.py --root V:\\A\\Ai\\COSMOS\\live --once",
+    "heartbeat": "live/logs/recall_clock_heartbeat.json",
+    "projection": "live/state/recall/pack.json"
+  },
+  "proposals": [
+    {
+      "target_path": "cosmos/cosmos_recall.py",
+      "action": "create",
+      "rationale": "Recall projection refresh + GET snapshot (never mkdir on GET)."
+    },
+    {
+      "target_path": "cosmos/cosmos_recall_clock.py",
+      "action": "create",
+      "rationale": "15-minute schtasks --once satellite; heartbeat writer."
+    },
+    {
+      "target_path": "cosmos/cosmos_own_clocks.py",
+      "action": "edit",
+      "rationale": "Register CLOCKS id 27 and recall standup delegate."
+    },
+    {
+      "target_path": "cosmos/cosmos_service.py",
+      "action": "edit",
+      "rationale": "Wire GET /api/v1/recall to cosmos_recall.snapshot."
+    },
+    {
+      "target_path": "tests/test_recall_clock.py",
+      "action": "create",
+      "rationale": "Hermetic never-mkdir + matrix row pins."
+    }
+  ],
+  "keith_host_actions": [
+    "After merge: py -3.14 cosmos\\cosmos_recall_clock.py --root V:\\A\\Ai\\COSMOS\\live --standup",
+    "Or elevated: schtasks from --plan-task output if create_task needs elevation"
+  ],
+  "runtime_binding_gate": [
+    "GET /api/v1/recall returns kind UNMEASURED before first tick, without creating state/recall/",
+    "After --once: live/logs/recall_clock_heartbeat.json last_run_epoch advances",
+    "GET /api/v1/recall kind MEASURED when SEED or collector tail present"
+  ],
+  "out_of_scope": [
+    "No grok.exe spawn",
+    "No kernel/ledger/sched second scheduler",
+    "No live tree write from this agent session (GitHub PR only)"
+  ]
+}

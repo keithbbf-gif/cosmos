@@ -254,6 +254,14 @@ CLOCKS = (
         "heartbeat": "sgh_drop_ingest_heartbeat.json",
         "standup": "sgh_drop_ingest",
     },
+    {
+        "id": 27, "clock": "COSMOS Recall Refresh",
+        "cadence": "15m", "script": "cosmos_recall_clock.py",
+        "task": "COSMOS Recall Refresh", "logon": None,
+        "vehicle": "schtasks /sc minute /mo 15 --once",
+        "heartbeat": "recall_clock_heartbeat.json",
+        "standup": "recall",
+    },
 )
 
 
@@ -382,6 +390,9 @@ def _call_standup(name: str, root: str) -> dict:
         if name == "sgh_drop_ingest":
             from cosmos_sgh_drop_ingest import standup, DEFAULT_INTERVAL_S as _sgh
             return standup(root, _sgh)
+        if name == "recall":
+            from cosmos_recall_clock import standup
+            return standup(root)
         if name == "cvm_dt":
             # Emit-only. cvm_dt_clock.register never runs schtasks
             # (Keith elevated host action). Do not import the worker:
