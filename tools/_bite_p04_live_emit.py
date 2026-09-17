@@ -11,7 +11,7 @@ import sys
 import tempfile
 from pathlib import Path
 
-HERE = Path(__file__).resolve().parent
+HERE = Path(__file__).resolve().parent.parent / "cosmos"
 sys.path.insert(0, str(HERE))
 
 from cosmos_live_emit import LiveEmitError, quote_tree_id, require_live_emit  # noqa: E402

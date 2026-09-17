@@ -20,7 +20,7 @@ import tempfile
 import time
 from pathlib import Path
 
-HERE = Path(__file__).resolve().parent
+HERE = Path(__file__).resolve().parent.parent / "cosmos"
 REPO = HERE.parent
 OLD_DIR = REPO / "_delme" / "predispose_f53_parallel_20260831T161219Z"
 OLD = OLD_DIR / "cosmos_prepaid_orch.py"

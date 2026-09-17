@@ -14,7 +14,7 @@ import sys
 import tempfile
 from pathlib import Path
 
-HERE = Path(__file__).resolve().parent
+HERE = Path(__file__).resolve().parent.parent / "cosmos"
 REPO = HERE.parent
 OLD_DIR = REPO / "_delme" / "predispose_f43_secrets_clock_20260831T102247Z"
 OLD_CLOCK = OLD_DIR / "cosmos_backup_clock.py"

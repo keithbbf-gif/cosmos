@@ -24,7 +24,7 @@ import sys
 import tempfile
 from pathlib import Path
 
-HERE = Path(__file__).resolve().parent
+HERE = Path(__file__).resolve().parent.parent / "cosmos"
 
 OLD_WIRED = '''# Wired hands (not a static registry). Each row is probed live; fail-closed.
 WIRED_NODES = (

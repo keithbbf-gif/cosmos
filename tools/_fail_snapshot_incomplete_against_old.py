@@ -15,7 +15,7 @@ import tempfile
 from pathlib import Path
 from unittest import mock
 
-HERE = Path(__file__).resolve().parent
+HERE = Path(__file__).resolve().parent.parent / "cosmos"
 REPO = HERE.parent
 OLD = (REPO / "_delme" / "predispose_cosmos_backup_20260831T012245"
        / "cosmos_backup_clock.py")

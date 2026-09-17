@@ -16,7 +16,7 @@ import tempfile
 import urllib.request
 from pathlib import Path
 
-HERE = Path(__file__).resolve().parent
+HERE = Path(__file__).resolve().parent.parent / "cosmos"
 sys.path.insert(0, str(HERE))
 
 from cosmos_kernel import Kernel, install  # noqa: E402

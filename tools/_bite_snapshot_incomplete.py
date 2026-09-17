@@ -20,7 +20,7 @@ import sys
 import tempfile
 from pathlib import Path
 
-HERE = Path(__file__).resolve().parent
+HERE = Path(__file__).resolve().parent.parent / "cosmos"
 REPO = HERE.parent
 OLD = (REPO / "_delme" / "predispose_cosmos_backup_20260831T012245"
        / "cosmos_backup_clock.py")

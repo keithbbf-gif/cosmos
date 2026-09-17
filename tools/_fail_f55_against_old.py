@@ -18,7 +18,7 @@ import sys
 import tempfile
 from pathlib import Path
 
-HERE = Path(__file__).resolve().parent
+HERE = Path(__file__).resolve().parent.parent / "cosmos"
 OLD = HERE.parent / "_delme" / "predispose_cosmos_mail_f55_20260831T124826Z" / "cosmos_mail.py"
 GENESIS = "0" * 64
 

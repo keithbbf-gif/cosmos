@@ -15,7 +15,7 @@ import sys
 import tempfile
 from pathlib import Path
 
-HERE = Path(__file__).resolve().parent
+HERE = Path(__file__).resolve().parent.parent / "cosmos"
 sys.path.insert(0, str(HERE))
 
 from cosmos_paths import CosmosPathError, CosmosPaths, SENTINEL_NAME, write_sentinel  # noqa: E402

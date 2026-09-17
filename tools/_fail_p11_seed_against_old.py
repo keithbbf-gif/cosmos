@@ -15,7 +15,7 @@ import json
 import tempfile
 from pathlib import Path
 
-HERE = Path(__file__).resolve().parent
+HERE = Path(__file__).resolve().parent.parent / "cosmos"
 OUT = HERE / "_fail_p11_seed_against_old.json"
 
 
