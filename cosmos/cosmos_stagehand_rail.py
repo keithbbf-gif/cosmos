@@ -11,6 +11,10 @@ Core), and does NOT spawn grok.exe.
 Cursor-rail shape. kind=DOM. attach_to_kernel refuses authority unless
 boot_compose=True. browser_run_code_unsafe stays client-denied (same pin as
 playwright-dom / cosmos_mcp_client.DEFAULT_DENY). GET folds never mkdir.
+Locator-shaped act (click/goto/type/fill/press) dispatches through the
+composed playwright-dom adapter; uncomposed stays fail-open
+("locator deferred to playwright-dom"). eval/javascript/document.cookie
+refused. Page text is UNTRUSTED.
 
     py -3.14 cosmos\\cosmos_stagehand_rail.py --selftest
     py -3.14 cosmos\\cosmos_stagehand_rail.py --root V:\\A\\Ai\\COSMOS\\live --gate
@@ -21,6 +25,7 @@ import argparse
 import hashlib
 import json
 import os
+import re
 import sys
 from datetime import datetime
 from pathlib import Path
@@ -48,6 +53,8 @@ SRC = "core"
 DST = "interact"
 PROBE_TOOLS = ("act", "extract", "observe")
 UNSAFE_TOOL = "browser_run_code_unsafe"
+LOCATOR_OPS = frozenset({"click", "goto", "type", "fill", "press"})
+DEFERRED_NOTE = "locator deferred to playwright-dom"
 DEFAULT_ALLOW = frozenset({
     "act", "extract", "observe",
     "browser_navigate", "browser_snapshot",
@@ -365,6 +372,141 @@ class ActionCache:
         return rec
 
 
+def refused_act(text, payload=None) -> bool:
+    """act() refuses eval / javascript / document.cookie (fail-closed)."""
+    payload = payload if isinstance(payload, dict) else {}
+    blob = " ".join([
+        str(text or ""),
+        str(payload.get("instruction") or ""),
+        str(payload.get("prompt") or ""),
+        str(payload.get("url") or ""),
+        str(payload.get("op") or ""),
+        str(payload.get("action") or ""),
+        str(payload.get("code") or ""),
+        str(payload.get("selector") or ""),
+    ]).lower()
+    if "document.cookie" in blob:
+        return True
+    if "javascript:" in blob:
+        return True
+    if re.search(r"(?<![\w])javascript(?![\w])", blob):
+        return True
+    if "eval(" in blob or re.search(r"(?<![\w])eval(?![\w])", blob):
+        return True
+    return False
+
+
+def parse_locator_intent(instruction, payload=None):
+    """Locator-shaped intent: click / goto / type / fill / press.
+
+    Structured payload.op wins. Else the first word of the instruction.
+    Returns None when the instruction is NL Stagehand act (not a locator).
+    """
+    payload = payload if isinstance(payload, dict) else {}
+    op = str(payload.get("op") or payload.get("action")
+             or payload.get("locator_op") or "").strip().lower()
+    if op == "navigate":
+        op = "goto"
+    text = str(instruction or payload.get("instruction")
+               or payload.get("prompt") or "").strip()
+    if op in LOCATOR_OPS:
+        return _intent_from_payload(op, payload, text)
+    if not text:
+        return None
+    m = re.match(r"^(click|goto|navigate|type|fill|press)\b(.*)$", text, re.I)
+    if not m:
+        return None
+    raw_op = m.group(1).lower()
+    if raw_op == "navigate":
+        raw_op = "goto"
+    return _intent_from_text(raw_op, (m.group(2) or "").strip(), payload)
+
+
+def _intent_from_payload(op: str, payload: dict, instruction: str) -> dict:
+    rec = {"op": op}
+    if payload.get("selector"):
+        rec["selector"] = str(payload["selector"])
+    if payload.get("url"):
+        rec["url"] = str(payload["url"])
+    elif op == "goto" and instruction and not instruction.lower().startswith("goto"):
+        rec["url"] = instruction
+    if payload.get("element"):
+        rec["element"] = str(payload["element"])
+    if payload.get("ref"):
+        rec["ref"] = str(payload["ref"])
+    if op in ("type", "fill"):
+        if payload.get("text") is not None:
+            rec["text"] = str(payload["text"])
+        elif payload.get("value") is not None:
+            rec["text"] = str(payload["value"])
+    if op == "press" and payload.get("key"):
+        rec["key"] = str(payload["key"])
+    if op == "goto" and "url" not in rec:
+        rec["url"] = str(payload.get("url") or instruction or "")
+    return rec
+
+
+def _intent_from_text(op: str, rest: str, payload: dict) -> dict:
+    rec = {"op": op}
+    if op == "goto":
+        rec["url"] = rest or str(payload.get("url") or "")
+        return rec
+    if op == "press":
+        rec["key"] = rest.split()[0] if rest else str(payload.get("key") or "")
+        return rec
+    if op == "click":
+        rec["selector"] = rest or str(payload.get("selector") or "")
+        rec["element"] = rec["selector"]
+        return rec
+    if op == "type":
+        m = re.match(r"^(.*?)(?:\s+into\s+(.+))$", rest, re.I)
+        if m:
+            rec["text"] = m.group(1).strip().strip("'\"")
+            rec["selector"] = m.group(2).strip()
+        else:
+            rec["text"] = rest.strip().strip("'\"")
+            if payload.get("selector"):
+                rec["selector"] = str(payload["selector"])
+        return rec
+    if op == "fill":
+        m = re.match(r"^(\S+)(?:\s+with\s+(.+))?$", rest, re.I)
+        if m:
+            rec["selector"] = m.group(1)
+            if m.group(2):
+                rec["text"] = m.group(2).strip().strip("'\"")
+        elif rest:
+            rec["selector"] = rest
+        if payload.get("text") is not None and "text" not in rec:
+            rec["text"] = str(payload["text"])
+        return rec
+    return rec
+
+
+def locator_tool_args(intent: dict) -> dict:
+    """Map a locator intent onto Playwright MCP tool arguments."""
+    op = intent.get("op")
+    selector = str(intent.get("selector") or intent.get("element") or "")
+    ref = str(intent.get("ref") or selector)
+    if op == "goto":
+        return {"url": str(intent.get("url") or "")}
+    if op == "click":
+        return {"element": selector or ref, "ref": ref or selector}
+    if op == "type":
+        return {"element": selector or ref, "ref": ref or selector,
+                "text": str(intent.get("text") or "")}
+    if op == "fill":
+        value = str(intent.get("text") or intent.get("value") or "")
+        return {"fields": [{
+            "name": selector or "field",
+            "type": "textbox",
+            "ref": ref or selector,
+            "value": value,
+        }]}
+    if op == "press":
+        return {"key": str(intent.get("key") or "")}
+    return {k: v for k, v in intent.items() if k != "op"}
+
+
 class StagehandRail:
     """Dispatcher adapter. kind=DOM. Preferred for act/extract/observe.
 
@@ -375,7 +517,8 @@ class StagehandRail:
     kind = "DOM"
 
     def __init__(self, spec: dict | None = None, *, output_dir: Path | None = None,
-                 client_factory=None, timeout_s: float | None = None):
+                 client_factory=None, timeout_s: float | None = None,
+                 underlay=None):
         self.spec = merge_spec(spec)
         self.metered_usd = float(self.spec.get("metered_usd") or 0.0)
         self.link_id = self.spec["link_id"]
@@ -384,7 +527,16 @@ class StagehandRail:
         self._timeout = float(timeout_s or self.spec.get("timeout_s") or DISPATCH_TIMEOUT_S)
         self._last = None
         self._client = None
+        self._underlay = underlay
         self.cache = ActionCache()
+
+    def compose_underlay(self, adapter):
+        """Bind the existing playwright-dom adapter. Does not spawn a second stack."""
+        self._underlay = adapter
+        return adapter
+
+    def underlay_composed(self) -> bool:
+        return self._underlay is not None
 
     def last_identity(self):
         return self._last
@@ -490,28 +642,149 @@ class StagehandRail:
             return {"ok": False, "kind": "UNREACHABLE",
                     "detail": f"{type(e).__name__}: {e}", "node": self.link_id}
 
+    def act(self, instruction: str = "", payload: dict | None = None, **extra) -> dict:
+        """Preferred act. Locator-shaped intents go through playwright-dom.
+
+        Uncomposed underlay stays fail-open: ok + note
+        'locator deferred to playwright-dom'. Does not invent a second DOM
+        stack. eval / javascript / document.cookie are DENIED. Page text
+        is UNTRUSTED.
+        """
+        payload = dict(payload or {})
+        payload.update(extra)
+        text = str(instruction or payload.get("instruction")
+                   or payload.get("prompt") or payload.get("text") or "")
+        payload.setdefault("instruction", text)
+        if refused_act(text, payload):
+            return {
+                "ok": False, "kind": "DENIED",
+                "detail": "act refuses eval/javascript/document.cookie",
+                "node": self.link_id, "verb": "act",
+                "dom_is_untrusted": True, "text_trust": "UNTRUSTED",
+                "kernel_attached": False, "underlay": UNDERLAY,
+                "locator_dispatched": False,
+            }
+        intent = parse_locator_intent(text, payload)
+        if intent is not None:
+            return self._act_locator(intent, text)
+        rec = {
+            "ok": True, "kind": "DOM", "node": self.link_id,
+            "verb": "act", "underlay": UNDERLAY, "usd": 0.0,
+            "dom_is_untrusted": True, "kernel_attached": False,
+            "text_trust": "UNTRUSTED", "cached": False,
+            "locator_dispatched": False,
+            "underlay_composed": self.underlay_composed(),
+        }
+        hit = self.cache.get(text)
+        if hit is not None:
+            rec["cached"] = True
+            rec["text"] = str(hit.get("text") or hit.get("action") or "cached-act")[:4000]
+            rec["action"] = hit
+            return rec
+        tmo = float(payload.get("timeout_s") or self._timeout)
+        client = self._ensure(tmo)
+        client.timeout_s = tmo
+        out = self._call(client, "act", {"instruction": str(text)})
+        stored = self.cache.put(text, {"text": _text_of(out), "action": "act"})
+        rec["text"] = _text_of(out)[:8000]
+        rec["action"] = stored
+        rec["cached"] = False
+        return rec
+
+    def _act_locator(self, intent: dict, instruction: str) -> dict:
+        rec = {
+            "ok": True, "kind": "DOM", "node": self.link_id,
+            "verb": "act", "op": intent.get("op"),
+            "underlay": UNDERLAY, "usd": 0.0,
+            "dom_is_untrusted": True, "kernel_attached": False,
+            "text_trust": "UNTRUSTED",
+            "locator_shaped": True,
+            "locator_dispatched": False,
+            "underlay_composed": self.underlay_composed(),
+            "instruction": str(instruction)[:400],
+        }
+        underlay = self._underlay
+        if underlay is None:
+            rec["note"] = DEFERRED_NOTE
+            rec["action"] = {"op": intent.get("op"), "deferred": True}
+            return rec
+        runner = getattr(underlay, "run_locator", None)
+        if callable(runner):
+            try:
+                out = runner(intent.get("op"), locator_tool_args(intent))
+            except Exception as e:  # noqa: BLE001
+                rec["ok"] = False
+                rec["kind"] = "BROKE"
+                rec["detail"] = f"{type(e).__name__}: {e}"
+                rec["note"] = DEFERRED_NOTE
+                return rec
+            if not isinstance(out, dict):
+                out = {"ok": True, "text": str(out)[:8000]}
+            rec["locator_dispatched"] = True
+            rec["underlay_node"] = out.get("node") or UNDERLAY
+            rec["tool"] = out.get("tool")
+            rec["text"] = str(out.get("text") or "")[:8000]
+            rec["text_trust"] = "UNTRUSTED"
+            rec["dom_is_untrusted"] = True
+            rec["ok"] = bool(out.get("ok", True))
+            rec["kind"] = out.get("kind") or "DOM"
+            if out.get("detail"):
+                rec["detail"] = out["detail"]
+            rec["action"] = {"op": intent.get("op"), "tool": out.get("tool"),
+                             "via": UNDERLAY}
+            return rec
+        if (intent.get("op") == "goto" and hasattr(underlay, "dispatch")
+                and intent.get("url")):
+            out = underlay.dispatch({"url": intent["url"]}) or {}
+            rec["locator_dispatched"] = True
+            rec["underlay_node"] = out.get("node") or UNDERLAY
+            rec["text"] = str(out.get("text") or "")[:8000]
+            rec["text_trust"] = "UNTRUSTED"
+            rec["ok"] = bool(out.get("ok"))
+            rec["kind"] = out.get("kind") or "DOM"
+            rec["action"] = {"op": "goto", "via": UNDERLAY}
+            if out.get("detail"):
+                rec["detail"] = out["detail"]
+            return rec
+        rec["note"] = DEFERRED_NOTE
+        rec["action"] = {
+            "op": intent.get("op"), "deferred": True,
+            "reason": "underlay has no run_locator",
+        }
+        return rec
+
+    def extract(self, instruction: str = "", schema=None,
+                payload: dict | None = None, **extra) -> dict:
+        """Schema-validated projection. GET/extract never mkdir. DOM untrusted."""
+        payload = dict(payload or {})
+        payload.update(extra)
+        payload["verb"] = "extract"
+        payload["instruction"] = (
+            instruction or payload.get("instruction") or payload.get("prompt") or "")
+        if schema is not None:
+            payload["schema"] = schema
+        return self.dispatch(payload)
+
+    def observe(self, instruction: str = "", payload: dict | None = None,
+                **extra) -> dict:
+        """Candidates only. GET/observe never mkdir. DOM untrusted."""
+        payload = dict(payload or {})
+        payload.update(extra)
+        payload["verb"] = "observe"
+        payload["instruction"] = (
+            instruction or payload.get("instruction") or payload.get("prompt") or "")
+        return self.dispatch(payload)
+
     def _dispatch_stagehand(self, client: McpClient, verb: str, payload: dict) -> dict:
         instruction = payload.get("instruction") or payload.get("prompt") or payload.get("text") or ""
         rec = {
             "ok": True, "kind": "DOM", "node": self.link_id,
             "verb": verb, "underlay": UNDERLAY, "usd": 0.0,
             "dom_is_untrusted": True, "kernel_attached": False,
-            "cached": False,
+            "cached": False, "text_trust": "UNTRUSTED",
         }
         if verb == "act":
-            hit = self.cache.get(instruction)
-            if hit is not None:
-                rec["cached"] = True
-                rec["text"] = str(hit.get("text") or hit.get("action") or "cached-act")[:4000]
-                rec["action"] = hit
-                return rec
-            out = self._call(client, "act", {"instruction": str(instruction)})
-            text = _text_of(out)
-            stored = self.cache.put(instruction, {"text": text, "action": "act"})
-            rec["text"] = text[:8000]
-            rec["action"] = stored
-            rec["cached"] = False
-            return rec
+            return self.act(instruction, payload=payload)
         if verb == "observe":
             out = self._call(client, "observe", {"instruction": str(instruction)})
             rec["text"] = _text_of(out)[:8000]
@@ -577,8 +850,9 @@ def register_stagehand_rail(registry, adapters: dict, spend_gate=None,
     spec = _pin_origin(spec)
     if output_dir is None and paths is not None:
         output_dir = paths.role("work", "stagehand_rail")
+    underlay = adapters.get(UNDERLAY) if adapters else None
     rail = StagehandRail(spec, output_dir=output_dir,
-                         client_factory=client_factory)
+                         client_factory=client_factory, underlay=underlay)
     lid = rail.link_id
     if lid == UNDERLAY:
         raise StagehandRailError("BAD_SPEC", "refusing to occupy playwright-dom")
@@ -596,7 +870,12 @@ def register_stagehand_rail(registry, adapters: dict, spend_gate=None,
         "underlay": UNDERLAY,
         "kernel_attached": False,
         "output_dir": str(output_dir) if output_dir is not None else None,
+        "underlay_composed": rail.underlay_composed(),
     }
+
+
+# Public face named in the KEEP_STAGEHAND work order. Same rail.
+StagehandAdapter = StagehandRail
 
 
 def attach_to_kernel(kernel, adapters: dict | None = None,
@@ -1032,14 +1311,88 @@ def _selftest() -> int:
         noschema = e.kind == "BROKE"
     check("extract without schema is BROKE", lambda: noschema)
 
-    act1 = rail.dispatch({"verb": "act", "instruction": "click the marker"})
-    act2 = rail.dispatch({"verb": "act", "instruction": "click the marker"})
+    act1 = rail.dispatch({"verb": "act", "instruction": "dismiss the modal"})
+    act2 = rail.dispatch({"verb": "act", "instruction": "dismiss the modal"})
     check("act caches the second identical instruction",
           lambda: act1["ok"] and act2["ok"] and act2.get("cached") is True
           and act1.get("cached") is False)
     obs = rail.dispatch({"verb": "observe", "instruction": "find the marker"})
     check("observe returns candidates, not raw-DOM authority",
-          lambda: obs["ok"] and obs.get("raw_dom_authority") is False)
+          lambda: obs["ok"] and obs.get("raw_dom_authority") is False
+          and obs.get("text_trust") == "UNTRUSTED")
+    check("extract page text stays UNTRUSTED",
+          lambda: ext.get("text_trust") == "UNTRUSTED"
+          and ext.get("dom_is_untrusted") is True)
+
+    uncomp = rail.act("click #tree")
+    check("uncomposed locator act is fail-open deferred (no second DOM stack)",
+          lambda: uncomp["ok"] is True
+          and uncomp.get("note") == DEFERRED_NOTE
+          and uncomp.get("locator_dispatched") is False
+          and uncomp.get("underlay_composed") is False
+          and uncomp.get("text_trust") == "UNTRUSTED"
+          and uncomp.get("dom_is_untrusted") is True
+          and rail._underlay is None)
+    typed_u = rail.act("type hello into #q")
+    filled_u = rail.act("fill #email with a@b.c")
+    pressed_u = rail.act("press Enter")
+    gone_u = rail.act("goto http://127.0.0.1:9/")
+    check("uncomposed type/fill/press/goto stay deferred",
+          lambda: all(r.get("note") == DEFERRED_NOTE and r["ok"]
+                      and r.get("locator_dispatched") is False
+                      for r in (typed_u, filled_u, pressed_u, gone_u)))
+
+    from cosmos_playwright_rail import (
+        PlaywrightRail, default_spec as _pw_default_spec,
+        _fake_factory as _pw_fake_factory,
+    )
+    pw = PlaywrightRail(
+        _pw_default_spec(), output_dir=td / "pw-under",
+        client_factory=_pw_fake_factory(paths.sentinel.tree_id))
+    composed = StagehandAdapter(
+        spec, output_dir=td / "shc", client_factory=factory, underlay=pw)
+    clicked = composed.act("click #tree")
+    check("composed locator act dispatches through playwright-dom",
+          lambda: clicked["ok"] and clicked.get("locator_dispatched") is True
+          and clicked.get("underlay_composed") is True
+          and clicked.get("underlay_node") == "playwright-dom"
+          and clicked.get("tool") == "browser_click"
+          and clicked.get("text_trust") == "UNTRUSTED"
+          and clicked.get("dom_is_untrusted") is True)
+    gone = composed.act("goto http://127.0.0.1:9/")
+    typed = composed.act("type hello into #q")
+    filled = composed.act("fill #email with a@b.c")
+    pressed = composed.act("press Enter")
+    check("composed goto/type/fill/press map to playwright tools",
+          lambda: gone.get("tool") == "browser_navigate"
+          and typed.get("tool") == "browser_type"
+          and filled.get("tool") == "browser_fill_form"
+          and pressed.get("tool") == "browser_press_key"
+          and all(r.get("locator_dispatched") is True
+                  for r in (gone, typed, filled, pressed)))
+    for label, instr in (
+        ("eval", "eval(document.body)"),
+        ("javascript", "javascript:alert(1)"),
+        ("document.cookie", "document.cookie"),
+    ):
+        denied_act = rail.act(instr)
+        check("act refuses %s" % label,
+              lambda d=denied_act: (not d["ok"]) and d["kind"] == "DENIED")
+    check("StagehandAdapter is the rail face (act/extract/observe)",
+          lambda: StagehandAdapter is StagehandRail
+          and callable(StagehandAdapter.act)
+          and callable(StagehandAdapter.extract)
+          and callable(StagehandAdapter.observe))
+    via_obs = rail.observe("find the marker")
+    via_ext = rail.extract("extract gate marker", schema=schema)
+    check("observe/extract methods keep text UNTRUSTED and do not mkdir",
+          lambda: via_obs["ok"] and via_ext["ok"]
+          and via_obs.get("text_trust") == "UNTRUSTED"
+          and via_ext.get("text_trust") == "UNTRUSTED"
+          and via_ext["data"]["tree_id"] == paths.sentinel.tree_id
+          and not cache_dir(paths).exists())
+    composed.close()
+    pw.close()
 
     file_d = rail.dispatch({"url": "file:///C:/nope.html"})
     check("file:// underlay is BROKE",
@@ -1076,7 +1429,24 @@ def _selftest() -> int:
           lambda: rec["spec"]["rail_type"] == "DOM" and rec["dst"] == DST
           and rec["underlay"] == UNDERLAY and rec["kernel_attached"] is False)
     check("register does not occupy playwright-dom",
-          lambda: rec["link_id"] == LINK_ID and UNDERLAY not in adapters)
+          lambda: rec["link_id"] == LINK_ID and UNDERLAY not in adapters
+          and rec.get("underlay_composed") is False)
+    bound = {
+        UNDERLAY: PlaywrightRail(
+            _pw_default_spec(), output_dir=td / "pw-reg",
+            client_factory=_pw_fake_factory(paths.sentinel.tree_id)),
+    }
+    rec_composed = register_stagehand_rail(
+        Registry(Ledger(td / "n2.jsonl", b"k2", "core")),
+        bound, spend_gate=SpendGate(led), spec=spec,
+        output_dir=td / "sh3", client_factory=factory)
+    check("register binds composed playwright-dom underlay when present",
+          lambda: rec_composed["rail"].underlay_composed() is True
+          and rec_composed.get("underlay_composed") is True
+          and rec_composed["link_id"] == LINK_ID
+          and UNDERLAY in bound and LINK_ID in bound)
+    rec_composed["rail"].close()
+    bound[UNDERLAY].close()
     reg.probe_all()
     disp = Dispatcher(reg, adapters, led, spend=SpendGate(led))
     routed = disp.dispatch(SRC, DST, {

@@ -123,3 +123,14 @@ severity = "high"
   kind = "test"
   file = "tests/test_stagehand_rail.py"
   must_contain = "browser_run_code_unsafe"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_stagehand_rail.py"
+  must_contain = "locator deferred to playwright-dom"
+  why = "uncomposed locator act stays fail-open; no second DOM stack"
+
+  [[contract.evidence]]
+  kind = "test"
+  file = "tests/test_stagehand_rail.py"
+  must_contain = "locator_dispatched"
