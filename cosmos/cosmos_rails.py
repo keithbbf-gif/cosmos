@@ -22,7 +22,8 @@ from cosmos_spend import SpendError
 
 
 class RailError(RuntimeError):
-    """kind in {NO_LIVE_LINK, RAIL_FAILED, NOT_PERMITTED}."""
+    """kind in {NO_LIVE_LINK, RAIL_FAILED, NOT_PERMITTED,
+    UNPRICED_METERED, UNGATED_METERED}."""
 
     def __init__(self, kind: str, detail: str):
         self.kind = kind
@@ -99,6 +100,43 @@ class Dispatcher:
         self.spend = spend
         self._clock = clock
 
+    def _adapter_wallet(self, adapter, payload: dict | None = None) -> str:
+        """wallet=api is metered overflow. payload overrides adapter/spec."""
+        raw = None
+        if isinstance(payload, dict) and payload.get("wallet") is not None:
+            raw = payload.get("wallet")
+        elif getattr(adapter, "wallet", None) is not None:
+            raw = adapter.wallet
+        else:
+            spec = getattr(adapter, "spec", None)
+            if isinstance(spec, dict):
+                raw = spec.get("wallet")
+        return str(raw or "").strip().lower()
+
+    def _call_price(self, adapter, payload: dict | None = None):
+        """Positive USD estimate for a metered call, or None if unpriced.
+
+        Order: payload.estimate_usd, adapter.estimate_usd, payload.metered_usd,
+        adapter.metered_usd. wallet=api with no positive price is unpriced
+        (UNPRICED_METERED) — never treated as $0.
+        """
+        payload = payload if isinstance(payload, dict) else {}
+        for src in (
+            payload.get("estimate_usd"),
+            getattr(adapter, "estimate_usd", None),
+            payload.get("metered_usd"),
+            getattr(adapter, "metered_usd", None),
+        ):
+            if src is None:
+                continue
+            try:
+                price = float(src)
+            except (TypeError, ValueError):
+                continue
+            if price > 0:
+                return price
+        return None
+
     def dispatch(self, src: str, dst: str, payload: dict) -> dict:
         candidates = self.registry.route(src, dst)   # live, DOM-first
         if not candidates:
@@ -122,10 +160,33 @@ class Dispatcher:
             # else is the rail. Both still raise RailError - only the `kind` and the
             # recorded reason change - and the kinds stay literal at the raise sites
             # because cosmos_refusals reads them out of the AST.
-            if self.spend and getattr(adapter, "metered_usd", 0):
+            #
+            # wallet=api is metered even when metered_usd is 0. Missing
+            # estimate_usd -> UNPRICED_METERED. Missing spend gate ->
+            # UNGATED_METERED. Both refuse BEFORE the call.
+            price = self._call_price(adapter, payload)
+            wallet = self._adapter_wallet(adapter, payload)
+            if wallet == "api":
+                if price is None:
+                    self.ledger.append("RAIL_RESULT",
+                                       {"link_id": lid, "ok": False,
+                                        "detail": "UNPRICED_METERED"})
+                    raise RailError(
+                        "UNPRICED_METERED",
+                        f"{lid}: wallet=api is metered but estimate_usd/"
+                        "metered_usd is missing or 0 — refused BEFORE the call")
+                if self.spend is None:
+                    self.ledger.append("RAIL_RESULT",
+                                       {"link_id": lid, "ok": False,
+                                        "detail": "UNGATED_METERED"})
+                    raise RailError(
+                        "UNGATED_METERED",
+                        f"{lid}: wallet=api is metered but no spend gate is "
+                        "composed — refused BEFORE the call")
+            if self.spend and price:
                 try:
                     result = self.spend.guarded_call(
-                        lid, adapter.metered_usd, lambda: adapter.dispatch(payload))
+                        lid, price, lambda: adapter.dispatch(payload))
                 except SpendError as e:
                     # The gate said no. The call never ran; nothing was spent.
                     self.ledger.append("RAIL_RESULT",

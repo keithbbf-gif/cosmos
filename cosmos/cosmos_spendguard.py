@@ -215,13 +215,17 @@ class SpendGuard:
         except Exception:                                         # noqa: BLE001
             return False
 
-    def clear(self, session_id: Optional[str] = None) -> bool:
+    def clear(self, session_id: Optional[str] = None,
+              reset_day: bool = True) -> bool:
         """The human reset ('resume'). One session, or everything: session
-        totals, the rate window, and the day lane - in ledger mode via a
-        day_credit offset (the chain is never rewritten). A corrupt counter
-        file is RECOVERED here to a fresh state - clear() is the explicit
-        human reset, and leaving voice bricked behind bad JSON would be
-        friction; check() alone stays strictly fail-closed."""
+        totals and the rate window. reset_day=True (default, explicit
+        admin reset) also clears the day lane — in ledger mode via a
+        day_credit offset (the chain is never rewritten). POST
+        /control/resume MUST pass reset_day=False: unmute is not a
+        second wallet. A corrupt counter file is RECOVERED here to a
+        fresh state - clear() is the explicit human reset, and leaving
+        voice bricked behind bad JSON would be friction; check() alone
+        stays strictly fail-closed."""
         try:
             with self._lock:
                 try:
@@ -233,11 +237,12 @@ class SpendGuard:
                 else:
                     st["sessions"] = {}
                     st["req_epochs"] = []
-                    st["day_usd"] = 0.0
-                    if self._ledger is not None:
-                        st["day_credit_usd"] = self._ledger_day_usd()
-                    else:
-                        st["day_credit_usd"] = 0.0
+                    if reset_day:
+                        st["day_usd"] = 0.0
+                        if self._ledger is not None:
+                            st["day_credit_usd"] = self._ledger_day_usd()
+                        else:
+                            st["day_credit_usd"] = 0.0
                 self._save(st)
                 return True
         except Exception:                                         # noqa: BLE001

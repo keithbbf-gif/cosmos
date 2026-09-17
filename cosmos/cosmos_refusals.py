@@ -521,7 +521,8 @@ def selftest() -> int:
           lambda: sv["classes"]["cosmos_codex_rail.CodexRailError"]["shape"])
     check("the Dispatcher's kinds are read from its raise sites",
           lambda: set(sv["classes"]["cosmos_rails.RailError"]["raises"])
-          == {"NO_LIVE_LINK", "RAIL_FAILED", "NOT_PERMITTED"})
+          == {"NO_LIVE_LINK", "RAIL_FAILED", "NOT_PERMITTED",
+              "UNPRICED_METERED", "UNGATED_METERED"})
     check("CosmosPathError's OTHER docstring convention is read too",
           lambda: "IDENTITY_MISMATCH"
           in sv["classes"]["cosmos_paths.CosmosPathError"]["doc_kinds"])
