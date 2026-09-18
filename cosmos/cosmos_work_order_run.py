@@ -363,6 +363,13 @@ def process_one(paths, drop: Path, *, run_fn=None, repo_tree=None,
     rec["_argv"] = argv
     rec["_prompt"] = prompt
     rec["_live_root"] = str(paths.root)
+    blob = " ".join(str(x) for x in argv).lower()
+    if "grok" in blob or "--single" in argv:
+        from cosmos_warn import warn3
+        warn3("GROK_EXE_SCAR", "WO worker grok --single — Gitur/GAC; WD2 drives MOTIF")
+        return file_done(paths, rec, run_rec={
+            "rc": 2, "err": "GROK_EXE_SCAR", "argv": argv, "elapsed_s": 0,
+        }, check_rails=check_rails)
     t0 = time.time()
     if run_fn is not None:
         run = run_fn(argv, cwd=str(ws), output=outp)
