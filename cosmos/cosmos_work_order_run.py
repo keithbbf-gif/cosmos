@@ -22,6 +22,8 @@ stamps). COMPLETED is COW --accept only.
 Does not open live/ledger/. After pickup_order the daemon POSTs Core
 WORK_ORDER_PICKED (Core is the writer). No bts_* import.
 Does not edit cosmos_dispatch.py grok/claude/cursor job templates.
+apply() runs before any model argv. Extra grok.exe / grok --single as a
+WO worker is refuse + fail_xfer (not a second scheduler).
 """
 from __future__ import annotations
 
@@ -48,6 +50,9 @@ from cosmos_clock import (  # noqa: E402
     write_heartbeat,
 )
 from cosmos_paths import CosmosPaths, CosmosPathError, write_sentinel  # noqa: E402
+from cosmos_spawn import (  # noqa: E402
+    SpawnError, apply_order, fail_xfer, refuse,
+)
 from cosmos_work_order import (  # noqa: E402
     DEFAULT_CORE_URL, OrderError, SPEC_FIELDS, accept_order, build_argv,
     compose_prompt, drop_order, file_done, infer_repo_tree, notify_core_picked,
@@ -358,6 +363,18 @@ def process_one(paths, drop: Path, *, run_fn=None, repo_tree=None,
     ws = Path(rec["_workspace"])
     outp = Path(rec["_output_path"])
     refuse_tree_cwd(ws, paths.root, repo_tree=repo)
+    try:
+        spec = apply_order(rec)
+    except SpawnError as e:
+        return fail_xfer(paths, rec, e.kind, e.detail)
+    rec["_spawn"] = spec.to_dict()
+    _persist_picked(paths, rec)
+    routed = route_agent(rec["_agent"])
+    if run_fn is None and routed["rail"] == "grok":
+        try:
+            refuse(["grok", "--single"])
+        except SpawnError as e:
+            return fail_xfer(paths, rec, e.kind, e.detail)
     prompt = compose_prompt(rec, workspace=ws, output=outp)
     argv = build_argv(rec, ws, prompt=prompt, output=outp)
     rec["_argv"] = argv
@@ -372,13 +389,16 @@ def process_one(paths, drop: Path, *, run_fn=None, repo_tree=None,
         run["cwd"] = str(ws)
         run.setdefault("elapsed_s", round(time.time() - t0, 3))
         return file_done(paths, rec, run_rec=run, check_rails=check_rails)
-    routed = route_agent(rec["_agent"])
     if routed["rail"] == "gemini":
         run = _invoke(rec, argv, ws, prompt, timeout_s)
         run["argv"] = argv
         run["cwd"] = str(ws)
         run.setdefault("elapsed_s", round(time.time() - t0, 3))
         return file_done(paths, rec, run_rec=run, check_rails=check_rails)
+    try:
+        refuse(argv)
+    except SpawnError as e:
+        return fail_xfer(paths, rec, e.kind, e.detail)
     log_path = Path(ws) / "run.log"
     spawned = spawn_detached(argv, str(ws), log_path)
     rec["_argv"] = argv
@@ -853,6 +873,31 @@ def _selftest() -> int:
     check("grok --cwd is the workspace",
           lambda: gargv[gargv.index("--cwd") + 1] == str(ws))
 
+    from cosmos_spawn import apply, require_context_list, SpawnSpec
+    filled = apply(SpawnSpec())
+    check("spawn apply missing role fills default CODER",
+          lambda: filled.role == "CODER" and "role" in filled.filled)
+    concat_ok = False
+    try:
+        require_context_list("docs/A.md · docs/B.md")
+    except SpawnError as e:
+        concat_ok = e.kind == "NO_CONTEXT"
+    check("spawn concat CTX refuses NO_CONTEXT", lambda: concat_ok)
+    grok_refused = False
+    try:
+        refuse(["grok", "--single", "task"])
+    except SpawnError as e:
+        grok_refused = e.kind == "REFUSED"
+    check("spawn grok argv refuses", lambda: grok_refused)
+
+    drop_refuse = drop_order(paths, grok_raw, order_id="wo-grok-refuse")
+    rec_refuse = process_one(paths, drop_refuse, repo_tree=repo)
+    check("runner grok spawn is refuse + fail_xfer (no grok.exe)",
+          lambda: rec_refuse.get("state") == "FAILED"
+          and rec_refuse.get("fail_kind") == "REFUSED"
+          and "grok" in str(rec_refuse.get("fail_detail") or "").lower()
+          and rec_refuse.get("_spawn", {}).get("role") == "CODER")
+
     claude_order = parse_order({
         **grok_raw,
         "Agent": "Anthropic | Sonnet | sonnet-5",
@@ -1173,6 +1218,7 @@ def _selftest() -> int:
         HERE / "cosmos_work_order.py",
         HERE / "cosmos_workspace.py",
         HERE / "cosmos_work_order_checks.py",
+        HERE / "cosmos_spawn.py",
     )
     import re as _re
     bts = _re.compile(r"^\s*(?:from|import)\s+bts_\w+", _re.M)

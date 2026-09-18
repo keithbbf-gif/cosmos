@@ -1,0 +1,6 @@
+# WRAP/CCR — Chief Coder Agent Roles preload (session f47bad79).
+role = CCR
+session = f47bad79
+one_writer = true
+pen = V:\\A
+note = Tag CCr f47bad79 as default Agent Roles preload. One CCr at a time.
