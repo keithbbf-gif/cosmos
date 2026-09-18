@@ -537,8 +537,8 @@ def _selftest() -> int:
     def kind_of(fn) -> Optional[str]:
         try:
             fn()
-        except LedgerError as e:
-            return e.kind
+        except Exception as e:                                            # noqa: BLE001
+            return getattr(e, "kind", None)
         return None
 
     key = b"mac2-selftest-key-0123456789abcd"
@@ -573,7 +573,8 @@ def _selftest() -> int:
         line = json.dumps(rec, sort_keys=True, separators=(",", ":"))
         lines.append(line)
         prev = hashlib.sha256(line.encode()).hexdigest()
-    lg.write_text("\n".join(lines) + "\n", encoding="utf-8", newline="")
+    with open(lg, "w", encoding="utf-8", newline="") as fh:
+        fh.write("\n".join(lines) + "\n")
     ll = Ledger(lg, key, "new")
     ll.append("NEW", {"n": 3})
     check("legacy line still loads; chain continues with mac_v 2",
