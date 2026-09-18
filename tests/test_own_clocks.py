@@ -50,6 +50,7 @@ NEW_MODULES = (
     "cosmos_newai_scout.py",
     "cosmos_prepaid_orch.py",
     "cosmos_sgh_drop_ingest.py",
+    "cosmos_learn_clock.py",
 )
 
 
@@ -113,6 +114,13 @@ def main() -> int:
                       and c.get("script") == "cosmos_sgh_drop_ingest.py"
                       and c.get("heartbeat") == "sgh_drop_ingest_heartbeat.json"
                       and c.get("logon") == "COSMOS SGH Drop Ingest Logon"
+                      for c in CLOCKS))
+    check("clock 28 is COSMOS Learn Style",
+          lambda: any(c.get("id") == 28
+                      and c.get("task") == "COSMOS Learn Style"
+                      and c.get("script") == "cosmos_learn_clock.py"
+                      and c.get("heartbeat") == "learn_clock_heartbeat.json"
+                      and c.get("vehicle") == "schtasks /sc minute /mo 15 --once"
                       for c in CLOCKS))
 
     wd = Watchdog2(str(root))
