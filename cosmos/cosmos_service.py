@@ -1278,11 +1278,12 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                 self._drain_body()
                 return self._send(401, {"error": "UNAUTHORIZED"})
             if self.path == "/api/v1/control/resume":
-                # the explicit road back: clears the control flags. Does
-                # NOT reset the day spend cap (reset_day=False) — resume
-                # is unmute, not a second wallet. Session/rate lanes may
-                # still clear. Bearer-authed: OFF is cheap by design, ON
-                # is a deliberate act.
+                # the explicit road back: clears kill/pause + session/rate
+                # throttles. Does NOT reset the day spend cap
+                # (reset_day=False) — resume is unmute, not a second
+                # wallet. More budget is spend-admin BUDGET_SET, not
+                # resume. Bearer-authed: OFF is cheap by design, ON is a
+                # deliberate act.
                 body = self._read_body()
                 if body is None:
                     return
@@ -1296,6 +1297,7 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                 cleared = _guard.clear(cid, reset_day=False)
                 return self._send(200, {"resumed": True, "client_id": cid,
                                         "spend_counters_cleared": cleared,
+                                        "day_lane_reset": False,
                                         "control": st})
             if self.path == "/api/v1/spend":
                 # F-03: the WRITE side of the money surface. GET /spend showed
