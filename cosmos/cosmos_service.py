@@ -24,7 +24,8 @@ that omits what it serves is an undocumented surface, not a short one):
     GET /api/v1/jobs     - job states from the scheduler projection
     GET /api/v1/rails    - the rails matrix with verification AGE per link
                            (/api/v1/nodes is the SAME route under its older name)
-    GET /api/v1/makers   - the maker map (where agents/tools/connectors/skills are made)
+    GET /api/v1/makers   - the maker map (AGENT/TOOL/CONNECTOR/SKILL/ROLE/WRAPPER).
+                           GET never mkdir. Known-but-empty kind is UNMEASURED-as-empty.
     GET /api/v1/surfaces - storage surfaces (measured reachability + free_gb + age)
     GET /api/v1/surfaces_kit - storage + addable types + channels + tools.
                            GET never mutates, never mkdir, never disk_usage.
@@ -1069,6 +1070,9 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                 tag = q.get("tag", [None])[0]
                 text = q.get("text", [None])[0]
                 try:
+                    # GET is a read: find() filters the projection. Never mkdir.
+                    # kind=ROLE / kind=WRAPPER with no rows is 200 makers=[]
+                    # (UNMEASURED-as-empty), not a composition fault.
                     rows = mm.find(tag=tag, kind=kind, text=text)
                 except MakerError as e:
                     return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
