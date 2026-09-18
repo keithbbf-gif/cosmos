@@ -257,6 +257,48 @@ def prompt_cache_prefix(ctx) -> dict:
             }}
 
 
+def pen_disables_other_writers(ctx) -> dict:
+    """P12: pen grant → exclusive occupancy first, then write."""
+    ccr = _read(REPO / "docs" / "CCR.md")
+    bounds = _read(REPO / "docs" / "AGENT_BOUNDARIES.md")
+    claude = _read(REPO / "CLAUDE.md")
+    ok = (
+        "DISABLE OTHER WRITERS FIRST" in ccr.upper()
+        and "assert_pen" in ccr
+        and "Pen grant disables other writers first" in bounds
+        and "disable other writers first" in claude.lower()
+    )
+    return {"status": PASS if ok else FAIL,
+            "evidence": {
+                "ccr_first_acts": "DISABLE OTHER WRITERS FIRST" in ccr.upper(),
+                "boundaries_18": "Pen grant disables other writers first" in bounds,
+                "claude_md": "disable other writers first" in claude.lower(),
+            }}
+
+
+def gitur_then_judge(ctx) -> dict:
+    """P13: do not go around Gitur; do not bypass the judge (WOMBAT SOP)."""
+    ccr = _read(REPO / "docs" / "CCR.md")
+    bounds = _read(REPO / "docs" / "AGENT_BOUNDARIES.md")
+    claude = _read(REPO / "CLAUDE.md")
+    ok = (
+        "Do not go around Gitur" in bounds
+        and "bypass the judge" in bounds.lower()
+        and "save for the judge" in bounds.lower()
+        and "rerun on the hot cache" in bounds.lower()
+        and "Do not bypass the judge" in ccr
+        and "saved for the judge" in claude.lower()
+    )
+    return {"status": PASS if ok else FAIL,
+            "evidence": {
+                "boundaries_19": "Do not go around Gitur" in bounds,
+                "wombat_save": "save for the judge" in bounds.lower(),
+                "wombat_rerun": "rerun on the hot cache" in bounds.lower(),
+                "ccr": "Do not bypass the judge" in ccr,
+                "claude_md": "saved for the judge" in claude.lower(),
+            }}
+
+
 CHECKS = {
     "activity_clock_15s": activity_clock_15s,
     "orchestrator_only": orchestrator_only,
@@ -269,6 +311,8 @@ CHECKS = {
     "keep_afloat": keep_afloat,
     "improvement_not_bloat": improvement_not_bloat,
     "prompt_cache_prefix": prompt_cache_prefix,
+    "pen_disables_other_writers": pen_disables_other_writers,
+    "gitur_then_judge": gitur_then_judge,
 }
 
 
