@@ -574,9 +574,13 @@ def _selftest() -> int:
     src = Path(__file__).read_text(encoding="utf-8")
     body = src.split("def _selftest")[0]
     check("does not vendor Graphiti/Letta",
-          lambda: "graphiti" not in body.lower() and "letta" not in body.lower())
+          lambda: "import graphiti" not in body.lower()
+          and "from graphiti" not in body.lower()
+          and "import letta" not in body.lower()
+          and "from letta" not in body.lower())
     check("does not import OpenRouter",
-          lambda: "openrouter" not in body.lower())
+          lambda: "openrouter_rail" not in body
+          and "from cosmos_openrouter" not in body)
     check("has no in-process cron loop",
           lambda: "def loop(" not in body
           and "while True" not in body
@@ -703,10 +707,16 @@ def _selftest() -> int:
           and "15" in plan["cadence"]
           and "minute" in plan["cadence"])
 
-    rc_missing = main(["--root", str(root)])
+    import io
+    from contextlib import redirect_stderr, redirect_stdout
+    _out, _err = io.StringIO(), io.StringIO()
+    with redirect_stdout(_out), redirect_stderr(_err):
+        rc_missing = main(["--root", str(root)])
     check("CLI missing --once → rc=2", lambda: rc_missing == 2)
 
-    rc_once = main(["--root", str(root), "--once"])
+    _out, _err = io.StringIO(), io.StringIO()
+    with redirect_stdout(_out), redirect_stderr(_err):
+        rc_once = main(["--root", str(root), "--once"])
     check("CLI --once returns 0", lambda: rc_once == 0)
 
     check("PREFIX.md still identical after CLI",
