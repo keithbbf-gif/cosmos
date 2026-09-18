@@ -147,7 +147,7 @@ class Recall:
             for row in con.execute("SELECT sid, role, seq, t, text FROM turns "
                                    "ORDER BY t, sid, seq"):
                 h.update(json.dumps(row, separators=(",", ":")).encode("utf-8"))
-            for row in con.execute("SELECT sid, owner, title FROM sessions ORDER BY sid"):
+            for row in con.execute("SELECT sid, owner, title, opened FROM sessions ORDER BY sid"):
                 h.update(json.dumps(row, separators=(",", ":")).encode("utf-8"))
             return h.hexdigest()
         finally:
