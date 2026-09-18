@@ -66,8 +66,10 @@ class Kernel:
         # creates role dirs; status/audit on a live root finds them already there.
         if not read_only:
             self.paths.ledger().mkdir(parents=True, exist_ok=True)
+        # #6: signed head anchor so a removed tail is TRUNCATED at open,
+        # not a clean shorter history. Sidecar is authority.jsonl.head.json.
         self.ledger = Ledger(self.paths.ledger("authority.jsonl"), key,
-                             worker, clock)
+                             worker, clock, head_anchor=True)
 
         # 4 - the boot is itself an event - but ONLY for a writing kernel (B1)
         if not read_only:
