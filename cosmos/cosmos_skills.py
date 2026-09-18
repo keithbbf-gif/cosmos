@@ -32,6 +32,8 @@ import time
 from pathlib import Path
 from typing import Optional
 
+from cosmos_ccr import CcrError, held, read_lease
+
 SCHEMA = "cosmos-skills/1"
 NAME_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 MAX_NAME, MAX_DESC, MAX_BODY = 64, 1024, 64 * 1024
@@ -82,6 +84,15 @@ def _command_lines(body: str) -> list[str]:
         if fence or s.startswith(("$ ", "> ", "PS> ")):
             out.append(s.lstrip("$> ").removeprefix("PS> ").strip())
     return [c for c in out if c]
+
+
+def assert_pen(paths, *, sid: str) -> None:
+    rec = read_lease(paths)
+    if rec is None or not held(paths):
+        raise CcrError("CCR_NO_LEASE", "no live CCR.lease")
+    if str(rec.get("sid")) != str(sid):
+        raise CcrError("CCR_SID_MISMATCH",
+                       f"held sid={rec.get('sid')!r} pen sid={sid!r}")
 
 
 class SkillRegistry:
@@ -147,7 +158,6 @@ class SkillRegistry:
         return p
 
     def accept(self, sha: str, *, ccr_sid: str) -> dict:
-        from cosmos_ccr import CcrError, assert_pen
         from cosmos_lock import StagedArtifact
         p = self._proposal(sha)
         try:
@@ -188,7 +198,6 @@ class SkillRegistry:
                 "version": self._state()["active"][p["name"]]["version"]}
 
     def reject(self, sha: str, *, ccr_sid: str, reason: str = "") -> None:
-        from cosmos_ccr import CcrError, assert_pen
         self._proposal(sha)
         try:
             assert_pen(self.paths, sid=ccr_sid)
