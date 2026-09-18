@@ -23,6 +23,24 @@ def warn3(kind: str, detail: str = "", *, stream: TextIO | None = None) -> str:
     return msg
 
 
+def warn_if_two_heads(repo) -> int:
+    """WARN ×3 if origin/main..HEAD is not empty. Does not refuse serve."""
+    import subprocess
+    from pathlib import Path
+    root = Path(repo)
+    if not (root / ".git").exists() and (root.parent / ".git").exists():
+        root = root.parent
+    try:
+        n = int(subprocess.check_output(
+            ["git", "rev-list", "--count", "origin/main..HEAD"],
+            cwd=str(root), stderr=subprocess.DEVNULL, text=True).strip() or "0")
+    except (OSError, subprocess.CalledProcessError, ValueError):
+        return -1
+    if n > 0:
+        warn3("TWO_HEADS", "origin/main..HEAD has %d commits — do not join-commit; Gitur only" % n)
+    return n
+
+
 class WarnRefuse(Exception):
     def __init__(self, kind: str, detail: str = "") -> None:
         self.kind = kind
@@ -44,7 +62,9 @@ def _selftest() -> None:
     except WarnRefuse as e:
         assert e.kind == "NO_CONTEXT"
         assert WARN_LINE in str(e)
-    print("warn3 selftest 2/2 (printed ×3)")
+    n = warn_if_two_heads(".")
+    assert isinstance(n, int)
+    print("warn3 selftest 3/3 (printed ×3 + two-heads fold)")
 
 
 if __name__ == "__main__":
