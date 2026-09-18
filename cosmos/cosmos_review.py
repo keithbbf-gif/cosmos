@@ -136,6 +136,71 @@ def _spend_approvals(kernel) -> dict:
     }
 
 
+def _hitl_fold(s: dict, rec: dict) -> dict:
+    """Newest STUDIO_HITL_WAIT per wait id (OSS_BORROW ADAPT 1 bind)."""
+    if rec.get("event") != "STUDIO_HITL_WAIT":
+        return s
+    p = rec.get("payload") or {}
+    wid = str(p.get("id") or "")
+    if wid:
+        s[wid] = {"seq": rec.get("seq"), "event": rec.get("event")}
+    return s
+
+
+def _hitl_artifact(kernel, wait_id: str) -> dict | None:
+    """The ledger event that names this HITL wait, or None (fail closed).
+
+    fold_cached is the incremental house fold (one walk, then delta); a
+    ledger without it gets a full verify() walk. Any failure is None:
+    unreadable is not bound, and unbound refuses (P04).
+    """
+    ledger = getattr(kernel, "ledger", None)
+    if ledger is None:
+        return None
+    try:
+        if hasattr(ledger, "fold_cached"):
+            st = ledger.fold_cached("cosmos_review.hitl.v1", _hitl_fold,
+                                    lambda: {})
+        else:
+            st = {}
+            for rec in ledger.verify():
+                _hitl_fold(st, rec)
+    except Exception:  # noqa: BLE001
+        return None
+    hit = st.get(str(wait_id))
+    return hit if isinstance(hit, dict) else None
+
+
+def _hitl_row(kernel, wait: dict) -> dict:
+    """One studio HITL wait, ledger-bound or refused (OSS_BORROW ADAPT 1).
+
+    docs/arch/OSS_BORROW_ARCH.md ADAPT 1: a FINDINGS/Review wait is not
+    done until a ledger event names it. pack.json alone is a claim —
+    the row refuses with MISSING_HITL_ARTIFACT (P04) instead of painting
+    a green HITL chip.
+    """
+    art = _hitl_artifact(kernel, str(wait.get("id") or ""))
+    if art is not None:
+        return {
+            "kind": "studio",
+            "id": wait.get("id"),
+            "state": "HITL",
+            "why": wait.get("why"),
+            "source": "ledger",
+            "seq": art.get("seq"),
+            "event": art.get("event"),
+        }
+    return {
+        "kind": "MISSING_HITL_ARTIFACT",
+        "id": wait.get("id"),
+        "state": "MISSING_HITL_ARTIFACT",
+        "why": (str(wait.get("why") or "") + " — no ledger "
+                "STUDIO_HITL_WAIT names this wait (pack.json claim only); "
+                "refused per P04, not a green HITL chip. Re-save via "
+                "POST /studio to bind it."),
+    }
+
+
 def _blockers(kernel) -> dict:
     rows = []
     try:
@@ -166,24 +231,10 @@ def _blockers(kernel) -> dict:
     except Exception as e:  # noqa: BLE001
         rows.append({"kind": "BROKE", "detail": f"jukebox {type(e).__name__}: {e}"[:160]})
     try:
-        from cosmos_studio import snapshot as studio_snapshot
+        from cosmos_studio import hitl_waits, snapshot as studio_snapshot
         pack = studio_snapshot(kernel.paths)
-        cons = pack.get("consensus") or {}
-        if cons.get("arch_choice") == "hitl" and not cons.get("chosen_id"):
-            rows.append({
-                "kind": "studio",
-                "id": "consensus.arch",
-                "state": "HITL",
-                "why": "CONSENSUS HITL — architecture not chosen",
-            })
-        critics = pack.get("critics") or {}
-        if critics.get("continue_when") == "hitl":
-            rows.append({
-                "kind": "studio",
-                "id": "critics.continue",
-                "state": "HITL",
-                "why": "CRITICS continuation is HITL — CCr continues",
-            })
+        for wait in hitl_waits(pack):
+            rows.append(_hitl_row(kernel, wait))
     except Exception:  # noqa: BLE001
         pass
     try:
@@ -204,7 +255,9 @@ def _blockers(kernel) -> dict:
     return {
         "kind": "OK",
         "rows": rows[:24],
-        "note": "Decisions that block a process: FINDINGS, HITL, stale RUNNING, work-order piles.",
+        "note": ("Decisions that block a process: FINDINGS, HITL "
+                 "(ledger-bound, or MISSING_HITL_ARTIFACT refused per P04), "
+                 "stale RUNNING, work-order piles."),
     }
 
 
@@ -245,12 +298,35 @@ def _logins(kernel) -> dict:
                     "link_id": p.get("link_id"),
                     "kind": "AUTH_REQUIRED",
                 })
+    needed = []
+    try:
+        from cosmos_cred_kit import snapshot as cred_snapshot
+        cred = cred_snapshot(kernel.paths)
+        for src in cred.get("sources") or []:
+            if not isinstance(src, dict):
+                continue
+            if src.get("led") == "NO_SOURCE":
+                needed.append({
+                    "id": src.get("id"),
+                    "label": src.get("label") or src.get("id"),
+                    "kind": src.get("kind"),
+                    "docs": src.get("docs"),
+                    "led": "NO_SOURCE",
+                    "why": (
+                        "NO_SOURCE — paste the key on Gitur / Settings. "
+                        "Keith pastes. This TUI does not open billing."
+                    ),
+                })
+    except Exception:  # noqa: BLE001
+        pass
     return {
-        "kind": "OK" if rows or auth_ev or reg is not None else "NO_SOURCE",
+        "kind": "OK" if rows or auth_ev or needed or reg is not None else "NO_SOURCE",
         "rails": rows[:24],
         "events": auth_ev[:12],
+        "needed": needed[:24],
         "note": ("Required logins are Keith's click. Core never automates AUTH. "
-                 "Unverified rails and AUTH_REQUIRED probe events are the list."),
+                 "Unverified rails and AUTH_REQUIRED probe events are the list. "
+                 "Needed keys (NO_SOURCE) are listed here for Keith to paste."),
     }
 
 
@@ -446,6 +522,41 @@ def _selftest() -> int:
           or "OpenWork grant" in str(rec["catalog"].get("gfo") or {}))
     check("spend widen is fail-closed, not a silent pile",
           lambda: "WIDEN_REQUIRES_CONFIRM" in rec["spend_approvals"]["note"])
+    check("logins fold names needed keys for Keith to paste",
+          lambda: "needed" in rec["logins"]
+          and "paste" in rec["logins"]["note"].lower())
+
+    from cosmos_studio import save_pack as studio_save
+    studio_save(paths, {"consensus": {"arch_choice": "hitl"}})
+    claim_rows = snapshot(
+        SimpleNamespace(paths=paths, spend=None, control=None,
+                        registry=None, ledger=None),
+        window="week")["blockers"]["rows"]
+    arch_claim = next(
+        (r for r in claim_rows if r.get("id") == "consensus.arch"), {})
+    check("HITL wait with no ledger artifact is MISSING_HITL_ARTIFACT (P04 refuse)",
+          lambda: arch_claim.get("kind") == "MISSING_HITL_ARTIFACT"
+          and arch_claim.get("state") == "MISSING_HITL_ARTIFACT"
+          and "no ledger" in str(arch_claim.get("why")))
+
+    from cosmos_ledger import Ledger
+    led = Ledger(paths.ledger("authority.jsonl"),
+                 (root / "config" / "install_key.bin").read_bytes(),
+                 "review-selftest")
+    studio_save(paths, {"consensus": {"arch_choice": "hitl"}}, ledger=led)
+    bound_rows = snapshot(
+        SimpleNamespace(paths=paths, spend=None, control=None,
+                        registry=None, ledger=led),
+        window="week")["blockers"]["rows"]
+    arch_bound = next(
+        (r for r in bound_rows if r.get("id") == "consensus.arch"), {})
+    check("ledger STUDIO_HITL_WAIT binds the HITL row (source, seq, event)",
+          lambda: arch_bound.get("kind") == "studio"
+          and arch_bound.get("state") == "HITL"
+          and arch_bound.get("source") == "ledger"
+          and isinstance(arch_bound.get("seq"), int)
+          and arch_bound.get("seq", 0) >= 1
+          and arch_bound.get("event") == "STUDIO_HITL_WAIT")
 
     failed = [(l, e) for l, ok, e in results if not ok]
     for label, ok, err in results:
