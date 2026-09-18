@@ -15,6 +15,15 @@ the same way. Full addendum: `docs/AGENT_BOUNDARIES.md` items 12–14. Principle
 
 An empty lease file is not “no pen.” CCr **takes** the lease. A second CCr REFUSES. GrokBot still does not write `V:\A`. OpenWork still does not write COSMOS.
 
+**Keith 2026-09-18: IF I SAY YOU HAVE THE PEN, DISABLE OTHER WRITERS FIRST.**
+Never write the tree as a second occupant. First acts, in order:
+
+1. **Exclusive lease** — `acquire` / `assert_pen` on `CCR.lease`. If another sid holds it, **stop**. Do not steal a live writer. Do not write beside them.
+2. **Disable other writers** — SOL/Codex off unless Keith names a reset. No second `grok.exe` writing this tree. Orch does **not** `git push` / `git pull` / checkout this repo. No GitHub contents-API (or other) second write path around `git` / Gitur.
+3. **Then** Gitur (one job, one branch, one PR) and CCr dispose. Do not bypass the judge: good farm output is **saved for the judge**; bad output is **rerun on the hot cache** before it goes cold, or on another agent (WOMBAT SOP).
+
+LiT is **`origin/main`**. Unique-head `8b5ad84e` is **dead** — do not restore it. cDeck **#320** HOLD.
+
 **Keith 2026-09-07:** Grok quota — full reset available today; remaining about **75%**. Burn at about **twice** the current rate for a week. Use Grok (this TUI, grok-4.6, SGH) for remaining FILE / BUILD. Do not hoard.
 
 **Keith 2026-09-05:** Captain = Keith. ORC = wheel and rudder. OpenWork = wheelhouse. This TUI = designer / engineer / builder. **This tree is the engine room.** CCr writes CORE here. ORC does not.
