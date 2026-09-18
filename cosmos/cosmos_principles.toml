@@ -108,3 +108,21 @@ source    = "Keith 2026-09-08"
 canon     = "docs/PROMPT_CACHE.md; docs/AGENT_BOUNDARIES.md item 15; work_orders/ccr/CREW/IN/PREFIX.md; work_orders/ccr/CREW/IN/CACHE_RULE.md"
 check     = "prompt_cache_prefix"
 severity  = "high"
+
+[[principle]]
+id        = "P12"
+name      = "pen-disables-other-writers"
+statement = "When Keith grants the COSMOS pen, the first act is exclusive occupancy: CCR.lease assert_pen, other writers disabled (SOL/Codex off unless he names a reset, no second grok.exe writing this tree, orch does not git push/pull/checkout this repo, no contents-API around Gitur). Only then does CCr write. A pen claim beside a live second writer is the two-writer scar."
+source    = "Keith 2026-09-18"
+canon     = "docs/CCR.md; docs/AGENT_BOUNDARIES.md; CLAUDE.md"
+check     = "pen_disables_other_writers"
+severity  = "high"
+
+[[principle]]
+id        = "P13"
+name      = "gitur-then-judge"
+statement = "Do not go around Gitur. BUILD is one job, one branch, one PR; CCr reviews then disposes. Do not PUT onto main by a second API. Do not bypass the judge. WOMBAT SOP: check output to be graded; good saves for the judge; bad reruns on the hot cache before it goes cold, or on another agent."
+source    = "Keith 2026-09-18"
+canon     = "docs/CCR.md; docs/AGENT_BOUNDARIES.md; CLAUDE.md"
+check     = "gitur_then_judge"
+severity  = "high"
