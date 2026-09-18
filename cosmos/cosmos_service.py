@@ -40,6 +40,11 @@ that omits what it serves is an undocumented surface, not a short one):
                            tensor C (rescue / co-failure / XOR-error). Directed
                            grid tensors[agent][vs][axis] (agent_tensor). GET never
                            mkdir. UNMEASURED until a pair is observed. Does not invent.
+    GET /api/v1/womb/seat - DEFINE pair: high orth_sketch, low pair mag on
+                           ?axis= (default coding) under GAC (completion
+                           USD/1M ≤ $1). Reads T /5; does not rewrite math.
+                           GET never mkdir. 404 UNMEASURED if no pair.
+                           Never invents. SOL and non-flex Luna excluded.
     GET /api/v1/usage    - OpenRouter usage accounting fold (tokens/cost/cache).
                            GET never mkdir. UNMEASURED until a dispatch is recorded.
     GET /api/v1/gitur      - GitHub + GitLab + Cursor projection (rails + probe, no vendor poll)
@@ -1232,6 +1237,29 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                 )
                 rec["measured_at"] = time.time()
                 rec["tree_id"] = kernel.paths.sentinel.tree_id
+                return self._send(200, rec)
+            if parsed.path == "/api/v1/womb/seat":
+                from urllib.parse import parse_qs as _womb_qs
+                from cosmos_womb import WombError, seat as womb_seat
+                q = _womb_qs(parsed.query)
+                axis = (q.get("axis") or ["coding"])[0] or "coding"
+                raw_budget = (q.get("budget_out") or ["1.0"])[0]
+                try:
+                    budget_out = float(raw_budget)
+                except (TypeError, ValueError):
+                    return self._send(400, {
+                        "error": "BAD_INPUT",
+                        "detail": f"budget_out must be a number, got {raw_budget!r}",
+                    })
+                try:
+                    rec = womb_seat(
+                        kernel.paths, axis=axis, budget_out=budget_out)
+                except WombError as e:
+                    return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
+                rec["measured_at"] = time.time()
+                rec["tree_id"] = kernel.paths.sentinel.tree_id
+                if rec.get("kind") != "MEASURED":
+                    return self._send(404, rec)
                 return self._send(200, rec)
             if parsed.path == "/api/v1/usage":
                 from cosmos_openrouter_rail import snapshot_usage
