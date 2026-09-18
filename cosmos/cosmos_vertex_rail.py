@@ -494,6 +494,18 @@ class VertexRail:
         }
 
     def dispatch(self, payload: dict) -> dict:
+        payload = payload if isinstance(payload, dict) else {}
+        if str(payload.get("kind") or "") in ("shell", "git", "file_write",
+                                              "file_delete", "install"):
+            led = getattr(self, "ledger", None)
+            if led is not None:
+                from cosmos_rail_guard import maybe_guard
+                return maybe_guard(
+                    led, payload, lambda: self._dispatch_body(payload),
+                    principal="worker:vertex")
+        return self._dispatch_body(payload)
+
+    def _dispatch_body(self, payload: dict) -> dict:
         prompt = (payload or {}).get("prompt") or ""
         kwargs = (payload or {}).get("kwargs") if isinstance(
             (payload or {}).get("kwargs"), dict) else {}
@@ -502,10 +514,11 @@ class VertexRail:
         usd = r.get("cost_usd")
         if r.get("ok") and usd is None:
             usd = price_usd(r.get("tokens"), len(str(prompt)))
-        return {
+        text = r.get("text") or ""
+        rec = {
             "ok": bool(r.get("ok")),
             "kind": "API" if r.get("ok") else (r.get("reason") or "BROKE"),
-            "text": r.get("text") or "",
+            "text": text[:4000] if len(text) > 4000 else text,
             "model": r.get("model"),
             "via": "vertex",
             "usd": usd,
@@ -515,6 +528,17 @@ class VertexRail:
             "node": "vertex",
             "tokens": r.get("tokens"),
         }
+        if len(text) > 8000:
+            dest = None
+            paths = payload.get("paths") or getattr(self, "paths", None)
+            if paths is not None:
+                try:
+                    from cosmos_packet import cas_dir, packetize
+                    dest = cas_dir(paths)
+                    rec["text_packet"] = packetize(text, dest_dir=dest)
+                except Exception:  # noqa: BLE001
+                    rec["text_packet"] = {"kind": "UNMEASURED", "n_bytes": len(text)}
+        return rec
 
 
 def rail_for(paths, *, http=None, env=None) -> VertexRail:
@@ -803,6 +827,47 @@ def _selftest() -> int:
           lambda: dispatched.get("via") == "vertex"
           and dispatched.get("ok") is True
           and dispatched.get("kind") == "API")
+
+    from cosmos_approval import ApprovalError
+    from cosmos_ledger import Ledger
+
+    def _body_hits(r):
+        hits = []
+        orig = r._dispatch_body
+
+        def wrapped(payload, *a, **k):
+            hits.append(payload)
+            return orig(payload, *a, **k)
+
+        r._dispatch_body = wrapped
+        return hits, orig
+
+    guard_led = Ledger(td / "vx-guard.jsonl", b"vx-rail-guard-selftest-key", "core")
+    hits, orig_body = _body_hits(rail)
+    rail.ledger = guard_led
+    hard_kind = None
+    try:
+        rail.dispatch({"kind": "shell", "command": "rm -rf /", "prompt": "x"})
+    except ApprovalError as e:
+        hard_kind = e.kind
+    check("kind=shell HARDLINE does not call _dispatch_body",
+          lambda: hard_kind == "HARDLINE" and hits == [])
+    rail._dispatch_body = orig_body
+
+    hits, orig_body = _body_hits(rail)
+    gated_chat = rail.dispatch({"prompt": "PONG", "model": "gemini-2.5-flash"})
+    check("kind omitted still reaches _dispatch_body",
+          lambda: hits and gated_chat.get("ok") is True)
+    rail._dispatch_body = orig_body
+
+    rail.ledger = None
+    hits, orig_body = _body_hits(rail)
+    skipped = rail.dispatch(
+        {"kind": "shell", "command": "rm -rf /", "prompt": "x"})
+    check("ledger absent skips guard and reaches _dispatch_body",
+          lambda: bool(hits))
+    rail._dispatch_body = orig_body
+    del rail.ledger
 
     import re as _re
     src = Path(__file__).read_text(encoding="utf-8")

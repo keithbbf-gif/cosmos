@@ -50,18 +50,21 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
+from cosmos_packet import LARGE_N, cas_dir, packetize  # noqa: E402
+
 SCHEMA = "cosmos-openrouter-rail/1"
 WORKER = "cosmos-openrouter-rail"
 LINK_ID = "openrouter-api"
 BASE = "https://openrouter.ai/api/v1"
+BATCH_BASE = "https://openrouter.ai/api/beta"
 KEY_NAME = "openrouter_api_key.txt"
 SPEC_NAME = "openrouter_rail.json"
 PROBE_NAME = "openrouter_rail_probe.json"
 SRC = "core"
 DST = "models"
 DEFAULT_MODEL = "google/gemma-4-26b-a4b-it:free"
+GEMMA_26B_PAID = "google/gemma-4-26b-a4b-it"
 GEMMA_31B = "google/gemma-4-31b-it:free"
-PINNED_FREE = frozenset({DEFAULT_MODEL, GEMMA_31B})
 # Live GET /api/v1/model_rater 2026-09-07: coding 71.5, $0.075 / $0.250 per 1M.
 # Different family from Grok / Gemini / Claude. Not the rotator.
 VALUE_CODER = "z-ai/glm-5.3-flash"
@@ -71,6 +74,29 @@ DEEPSEEK_V4_FLASH = "deepseek/deepseek-v4-flash-0731"
 DEEPSEEK_V4_FLASH_0423 = "deepseek/deepseek-v4-flash"
 SOLAR_PRO4 = "upstage/solar-pro4"
 LING_FLASH = "inclusionai/ling-3.0-flash"
+LING_FLASH_VL = "inclusionai/ling-3.0-flash-vl"
+# Keith 2026-09-11: Ling is free. Named :free pin, not openrouter/free rotator.
+LING_FLASH_VL_FREE = "inclusionai/ling-3.0-flash-vl:free"
+INKLING_SMALL_FREE = "thinkingmachines/inkling-small:free"
+# Keith 2026-09-16: full Inkling :free. Distinct from inkling-small:free.
+INKLING_FREE = "thinkingmachines/inkling:free"
+NEMOTRON_ULTRA_FREE = "nvidia/nemotron-3-ultra-550b-a55b:free"
+NEMOTRON_LIGHTNING_FREE = "nvidia/nemotron-3.5-lightning:free"
+# Keith 2026-09-16: Cohere North Mini Code :free. Live GET /models.
+NORTH_MINI_CODE_FREE = "cohere/north-mini-code:free"
+# Keith 2026-09-16: try these named pins (catalog live).
+NEMOTRON_SUPER_FREE = "nvidia/nemotron-3-super-120b-a12b:free"
+NEMOTRON_NANO_OMNI_FREE = "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
+NEX_N25_MINI_FREE = "nex-agi/nex-n2.5-mini:free"
+NEX_N25_PRO_FREE = "nex-agi/nex-n2.5-pro:free"
+QWEN35_9B = "qwen/qwen3.5-9b"
+GPT_OSS_20B = "openai/gpt-oss-20b"
+PINNED_FREE = frozenset({
+    DEFAULT_MODEL, GEMMA_31B, LING_FLASH_VL_FREE,
+    INKLING_SMALL_FREE, INKLING_FREE, NEMOTRON_ULTRA_FREE, NEMOTRON_LIGHTNING_FREE,
+    NORTH_MINI_CODE_FREE, NEMOTRON_SUPER_FREE, NEMOTRON_NANO_OMNI_FREE,
+    NEX_N25_MINI_FREE, NEX_N25_PRO_FREE,
+})
 # Keith 2026-09-10: try Qwen3 / Nemotron / Mistral as extra cheap families.
 # Named pins only. Not :free. Not ~latest. Not Qwen3.8 Max. Not Devstral ($0.40/$2).
 QWEN38_FLASH = "qwen/qwen3.8-flash"
@@ -79,7 +105,34 @@ MISTRAL_CODESTRAL = "mistralai/codestral-2508"
 # Keith 2026-09-10: Meta Llama. Paid Maverick, not llama-4-scout:free (rotator refuse).
 LLAMA4_MAVERICK = "meta-llama/llama-4-maverick"
 MUSE_SPARK_12C = "meta/muse-spark-1.2-contributor"
+# Keith named Muse Spark 1.1. 1.2 Contributor measured HTTP 404. Farm probes.
+MUSE_SPARK_11C = "meta/muse-spark-1.1-contributor"
+MUSE_SPARK_13C = "meta/muse-spark-1.3-contributor"
+MUSE_SPARK_12 = "meta/muse-spark-1.2"
+GEMINI_36_FLASH = "google/gemini-3.6-flash"
+GEMINI_38_FLASH_OR = "google/gemini-3.8-flash"
+DEEPSEEK_V4_PRO = "deepseek/deepseek-v4-pro-0813"
+GROK_46_OR = "x-ai/grok-4.6"
 GPT_OSS_120B = "openai/gpt-oss-120b"
+# Cheaper-than-Luna Flex $0.225/M (75/25). Named pins so WO pairs are not REFUSED.
+SEED_20_MINI = "bytedance-seed/seed-2.0-mini"
+MINISTRAL_8B = "mistralai/ministral-8b-2512"
+LLAMA4_SCOUT = "meta-llama/llama-4-scout"
+LLAMA33_70B = "meta-llama/llama-3.3-70b-instruct"
+QWEN3_8B = "qwen/qwen3-8b"
+QWEN3_30B = "qwen/qwen3-30b-a3b"
+QWEN3_VL_8B = "qwen/qwen3-vl-8b-instruct"
+QWEN3_VL_32B = "qwen/qwen3-vl-32b-instruct"
+MIMO_V25 = "xiaomi/mimo-v2.5"
+# Keith 2026-09-10: GLM 5.2 + 5.3 full + 5.3-flash:batch, Qwen3.8 27B, Hy3 preview.
+# Not ~glm-flash-latest rotator. glm-5.3-flash stays VALUE_CODER.
+GLM52 = "z-ai/glm-5.2"
+GLM53 = "z-ai/glm-5.3"
+GLM53_FLASH_BATCH = "z-ai/glm-5.3-flash:batch"
+QWEN38_27B = "qwen/qwen3.8-27b"
+# Keith 2026-09-16: Qwen3.8 Max as coding judge. Live GET /models.
+QWEN38_MAX = "qwen/qwen3.8-max-0902"
+HY3_PREVIEW = "tencent/hy3-preview"
 GPT56_TERRA = "openai/gpt-5.6-terra"
 GPT56_LUNA = "openai/gpt-5.6-luna"
 GPT56_LUNA_PRO = "openai/gpt-5.6-luna-pro"
@@ -107,11 +160,19 @@ TERRA_PROVIDERS = FLEX_PROVIDERS
 PROMPT_CACHE_POLICY = "v2"
 # Named cheap-coder roster. Not :free. Not the rotator. Not ~latest aliases.
 # Keith 2026-09-08 word: pin Solar Pro4 + Ling 3.0 Flash (bound cheap pings).
-CHEAP_CODERS = (VALUE_CODER, DEEPSEEK_V4_FLASH, DEEPSEEK_V4_FLASH_0423,
-                QWEN38_FLASH, NEMOTRON_LIGHTNING, MISTRAL_CODESTRAL,
-                LLAMA4_MAVERICK, MUSE_SPARK_12C, GPT_OSS_120B,
-                SOLAR_PRO4, LING_FLASH)
-PINNED_VALUE = frozenset(CHEAP_CODERS) | FLEX_MODELS | {GPT56_SOL}
+CHEAP_CODERS = (VALUE_CODER, GLM52, GLM53, GLM53_FLASH_BATCH,
+                DEEPSEEK_V4_FLASH, DEEPSEEK_V4_FLASH_0423,
+                QWEN38_FLASH, QWEN38_27B, QWEN38_MAX, NEMOTRON_LIGHTNING, MISTRAL_CODESTRAL,
+                LLAMA4_MAVERICK, MUSE_SPARK_12C, MUSE_SPARK_11C, MUSE_SPARK_13C,
+                GPT_OSS_120B, HY3_PREVIEW,
+                SOLAR_PRO4, LING_FLASH, LING_FLASH_VL,
+                SEED_20_MINI, MINISTRAL_8B, LLAMA4_SCOUT, LLAMA33_70B,
+                QWEN3_8B, QWEN3_30B, QWEN3_VL_8B, QWEN3_VL_32B,
+                QWEN35_9B, GPT_OSS_20B, GEMMA_26B_PAID)
+PINNED_VALUE = frozenset(CHEAP_CODERS) | FLEX_MODELS | {
+    GPT56_SOL, MUSE_SPARK_12, GEMINI_36_FLASH, GEMINI_38_FLASH_OR,
+    DEEPSEEK_V4_PRO, GROK_46_OR,
+}
 PINNED = PINNED_FREE | PINNED_VALUE
 CHAT_PATH = "/chat/completions"
 MODELS_PATH = "/models"
@@ -489,7 +550,8 @@ def usage_path(paths) -> Path:
     return usage_dir(paths) / USAGE_OBS
 
 
-def record_usage(paths, fold: dict, *, model="", stage="", profile="") -> dict:
+def record_usage(paths, fold: dict, *, model="", stage="", profile="",
+                 text_packet=None) -> dict:
     """Append one observed usage row. Does not invent. POST-path only."""
     row = dict(fold) if isinstance(fold, dict) else fold_usage({})
     row["schema"] = SCHEMA
@@ -497,6 +559,13 @@ def record_usage(paths, fold: dict, *, model="", stage="", profile="") -> dict:
     row["model"] = str(model or "")[:160]
     row["stage"] = str(stage or "")[:40]
     row["profile"] = str(profile or "")[:40]
+    if isinstance(text_packet, dict) and text_packet:
+        row["text_packet"] = {
+            "kind": text_packet.get("kind"),
+            "sha256": text_packet.get("sha256"),
+            "n_bytes": text_packet.get("n_bytes"),
+            "preview": text_packet.get("preview"),
+        }
     d = usage_dir(paths)
     d.mkdir(parents=True, exist_ok=True)
     with usage_path(paths).open("a", encoding="utf-8") as fh:
@@ -663,6 +732,32 @@ class OpenRouterRail:
         return _real_http(method, url, body, self._headers(key),
                           float(self.spec["timeout_s"]))
 
+    def _call_abs(self, method: str, url: str, body=None):
+        if self._http is not None:
+            path = url[len(BATCH_BASE):] if url.startswith(BATCH_BASE) else url
+            return self._http(method, path, body)
+        key = read_key(self.key_path)
+        if not key:
+            return 401, {}, {"error": {"message": "NO_KEY", "code": "invalid_api_key"}}
+        return _real_http(method, url, body, self._headers(key),
+                          float(self.spec["timeout_s"]))
+
+    def submit_batch(self, model: str, requests: list, *,
+                     endpoint: str = "/v1/chat/completions") -> tuple:
+        """POST /api/beta/batches. endpoint+model before requests (stream parse)."""
+        if not requests:
+            return 400, {}, {"error": {"message": "empty requests"}}
+        body = {
+            "endpoint": endpoint,
+            "model": str(model),
+            "requests": requests,
+        }
+        return self._call_abs("POST", BATCH_BASE + "/batches", body)
+
+    def get_batch(self, batch_id: str) -> tuple:
+        bid = urllib.parse.quote(str(batch_id or ""), safe="")
+        return self._call_abs("GET", BATCH_BASE + "/batches/" + bid)
+
     def probe(self):
         status, hdrs, body = self._call("GET", MODELS_PATH)
         ids = []
@@ -692,6 +787,19 @@ class OpenRouterRail:
         return ok, rec["detail"]
 
     def dispatch(self, payload: dict, *, paths=None) -> dict:
+        payload = payload if isinstance(payload, dict) else {}
+        if str(payload.get("kind") or "") in ("shell", "git", "file_write",
+                                              "file_delete", "install"):
+            led = getattr(self, "ledger", None)
+            if led is not None:
+                from cosmos_rail_guard import maybe_guard
+                return maybe_guard(
+                    led, payload,
+                    lambda: self._dispatch_body(payload, paths=paths),
+                    principal="worker:openrouter")
+        return self._dispatch_body(payload, paths=paths)
+
+    def _dispatch_body(self, payload: dict, *, paths=None) -> dict:
         payload = payload if isinstance(payload, dict) else {}
         model = str(payload.get("model") or self.spec["default_model"]).strip()
         why = model_refused(model)
@@ -776,11 +884,21 @@ class OpenRouterRail:
         }
         if not ok and rec["kind"] is None:
             rec["kind"] = "BROKE"
+        # Large dumps → CAS packet. rec['text'] stays a string (farm mouths).
+        if len(content) > LARGE_N:
+            dest = None
+            if paths is not None:
+                try:
+                    dest = cas_dir(paths)
+                except Exception:  # noqa: BLE001
+                    dest = None
+            rec["text_packet"] = packetize(content, dest_dir=dest)
         if ok and paths is not None:
             try:
                 record_usage(paths, usage_fold, model=str(response_model or model),
                              stage=str(payload.get("stage") or ""),
-                             profile=str(payload.get("profile") or ""))
+                             profile=str(payload.get("profile") or ""),
+                             text_packet=rec.get("text_packet"))
             except Exception:  # noqa: BLE001
                 rec["usage_record"] = "BROKE"
         self._last = rec
@@ -1009,6 +1127,7 @@ def gate(root: str | os.PathLike, *, http=None) -> dict:
 
 def _selftest() -> int:
     import tempfile
+    from cosmos_approval import ApprovalError
     from cosmos_kernel import install, Kernel
     from cosmos_ledger import Ledger
     from cosmos_registry import Registry
@@ -1182,6 +1301,15 @@ def _selftest() -> int:
     qwen = rail.dispatch({"model": QWEN38_FLASH, "text": "x"})
     check("cheap coder qwen3.8-flash is a named pin",
           lambda: qwen["ok"] and qwen["model"] == QWEN38_FLASH)
+    q27 = rail.dispatch({"model": QWEN38_27B, "text": "x"})
+    check("cheap coder qwen3.8-27b is a named pin",
+          lambda: q27["ok"] and q27["model"] == QWEN38_27B)
+    hy = rail.dispatch({"model": HY3_PREVIEW, "text": "x"})
+    check("cheap coder hy3-preview is a named pin",
+          lambda: hy["ok"] and hy["model"] == HY3_PREVIEW)
+    g52 = rail.dispatch({"model": GLM52, "text": "x"})
+    check("cheap coder glm-5.2 is a named pin",
+          lambda: g52["ok"] and g52["model"] == GLM52)
     nemo = rail.dispatch({"model": NEMOTRON_LIGHTNING, "text": "x"})
     check("cheap coder nemotron-3.5-lightning is a named pin (not :free)",
           lambda: nemo["ok"] and nemo["model"] == NEMOTRON_LIGHTNING)
@@ -1195,6 +1323,10 @@ def _selftest() -> int:
     check("cheap coder muse-spark-1.2-contributor is a named pin",
           lambda: muse["ok"] and muse["model"] == MUSE_SPARK_12C)
     oss = rail.dispatch({"model": GPT_OSS_120B, "text": "x"})
+    check("cheap coder seed-2.0-mini is a named pin (blend under Luna Flex)",
+          lambda: SEED_20_MINI in PINNED)
+    check("cheap coder llama-4-scout paid is a named pin (not :free rotator)",
+          lambda: LLAMA4_SCOUT in PINNED and "llama-4-scout:free" not in PINNED)
     check("cheap coder gpt-oss-120b is a named pin",
           lambda: oss["ok"] and oss["model"] == GPT_OSS_120B)
     solar = rail.dispatch({"model": SOLAR_PRO4, "text": "x"})
@@ -1282,6 +1414,45 @@ def _selftest() -> int:
     alias = rail.dispatch({"model": "~deepseek/deepseek-v4-flash-latest", "text": "x"})
     check("~latest alias is REFUSED",
           lambda: (not alias["ok"]) and alias["kind"] == "REFUSED")
+
+    def _body_hits(r):
+        hits = []
+        orig = r._dispatch_body
+
+        def wrapped(payload, *a, **k):
+            hits.append(payload)
+            return orig(payload, *a, **k)
+
+        r._dispatch_body = wrapped
+        return hits, orig
+
+    guard_led = Ledger(td / "or-guard.jsonl", b"or-rail-guard-selftest-key", "core")
+    hits, orig_body = _body_hits(rail)
+    rail.ledger = guard_led
+    hard_kind = None
+    try:
+        rail.dispatch({"kind": "shell", "command": "rm -rf /", "text": "x"},
+                      paths=paths)
+    except ApprovalError as e:
+        hard_kind = e.kind
+    check("kind=shell HARDLINE does not call _dispatch_body",
+          lambda: hard_kind == "HARDLINE" and hits == [])
+    rail._dispatch_body = orig_body
+
+    hits, orig_body = _body_hits(rail)
+    gated_chat = rail.dispatch({"text": "ping"}, paths=paths)
+    check("kind omitted still reaches _dispatch_body",
+          lambda: hits and gated_chat.get("ok") is True)
+    rail._dispatch_body = orig_body
+
+    rail.ledger = None
+    hits, orig_body = _body_hits(rail)
+    skipped = rail.dispatch(
+        {"kind": "shell", "command": "rm -rf /", "text": "x"}, paths=paths)
+    check("ledger absent skips guard and reaches _dispatch_body",
+          lambda: hits and skipped.get("ok") is True)
+    rail._dispatch_body = orig_body
+    del rail.ledger
 
     led = Ledger(td / "n.jsonl", b"k", "core")
     reg = Registry(led)
