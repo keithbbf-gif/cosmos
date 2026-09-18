@@ -395,6 +395,11 @@ class PlaywrightRail:
                     args = step.get("arguments") or step.get("args") or {}
                     if not tool:
                         continue
+                    if str(tool) in DEFAULT_DENY:
+                        raise McpClientError(
+                            "DENIED",
+                            f"tool {tool!r} is client-denied "
+                            "(opt-in required; RCE-equivalent)")
                     step_out.append({
                         "tool": tool,
                         "result_head": _text_of(client.tools_call(str(tool), args))[:400],
@@ -419,6 +424,69 @@ class PlaywrightRail:
             rec["kind"] = "BROKE"
             rec["detail"] = f"snapshot missing expect={expect!r}"
         return rec
+
+    def run_locator(self, op: str, args: dict | None = None) -> dict:
+        """One locator-shaped step on THIS composed client. No second DOM.
+
+        Stagehand act() calls this when playwright-dom is already composed.
+        Does not mkdir. Page text is UNTRUSTED.
+        """
+        args = dict(args or {})
+        name = str(op or "").strip().lower()
+        tool = {
+            "click": "browser_click",
+            "goto": "browser_navigate",
+            "navigate": "browser_navigate",
+            "type": "browser_type",
+            "fill": "browser_fill_form",
+            "press": "browser_press_key",
+        }.get(name)
+        if tool is None and str(name).startswith("browser_"):
+            tool = name
+        if not tool:
+            return {"ok": False, "kind": "BROKE",
+                    "detail": f"unknown locator op {op!r}",
+                    "node": self.link_id, "text_trust": "UNTRUSTED",
+                    "dom_is_untrusted": True}
+        if tool == "browser_run_code_unsafe" or tool in DEFAULT_DENY:
+            return {"ok": False, "kind": "DENIED",
+                    "detail": "unsafe tool denied",
+                    "node": self.link_id, "tool": tool,
+                    "text_trust": "UNTRUSTED", "dom_is_untrusted": True}
+        url = str(args.get("url") or "")
+        if tool == "browser_navigate":
+            low = url.lower()
+            if low.startswith("file:"):
+                return {"ok": False, "kind": "BROKE",
+                        "detail": "file:// refused (gate is loopback HTTP)",
+                        "node": self.link_id, "tool": tool,
+                        "text_trust": "UNTRUSTED", "dom_is_untrusted": True}
+            if low.startswith("javascript:"):
+                return {"ok": False, "kind": "DENIED",
+                        "detail": "javascript: refused",
+                        "node": self.link_id, "tool": tool,
+                        "text_trust": "UNTRUSTED", "dom_is_untrusted": True}
+        try:
+            client = self._ensure(self._timeout)
+            out = client.tools_call(tool, args)
+            text = _text_of(out)
+        except McpClientError as e:
+            return {"ok": False, "kind": e.kind, "detail": str(e),
+                    "node": self.link_id, "tool": tool,
+                    "text_trust": "UNTRUSTED", "dom_is_untrusted": True}
+        except Exception as e:  # noqa: BLE001
+            return {"ok": False, "kind": "UNREACHABLE",
+                    "detail": f"{type(e).__name__}: {e}",
+                    "node": self.link_id, "tool": tool,
+                    "text_trust": "UNTRUSTED", "dom_is_untrusted": True}
+        return {
+            "ok": True, "kind": "DOM", "node": self.link_id,
+            "op": name, "tool": tool,
+            "text": text[:8000],
+            "text_trust": "UNTRUSTED",
+            "dom_is_untrusted": True,
+            "usd": 0.0,
+        }
 
 
 def spec_path_for(paths) -> Path:
@@ -842,6 +910,12 @@ def _selftest() -> int:
     except McpClientError as e:
         denied = e.kind == "DENIED"
     check("dispatch path DENIED unsafe", lambda: denied)
+    unsafe_step = rail.dispatch({
+        "url": "http://127.0.0.1:9/",
+        "steps": [{"tool": "browser_run_code_unsafe", "args": {"code": "1"}}],
+    })
+    check("dispatch DENIED unsafe step (does not skip)",
+          lambda: (not unsafe_step["ok"]) and unsafe_step["kind"] == "DENIED")
 
     file_d = rail.dispatch({"url": "file:///C:/nope.html"})
     check("file:// dispatch is BROKE",
