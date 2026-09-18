@@ -30,6 +30,7 @@ from cosmos_model_rater import (  # noqa: E402
 )
 
 SCHEMA = "cosmos-studio/1"
+STUDIO_HITL_WAIT = "STUDIO_HITL_WAIT"
 PACK_NAME = "pack.json"
 MAX_RESEARCH = 12
 MAX_DEFINE = 80_000
@@ -69,11 +70,84 @@ DEST_KINDS = (
 )
 DEST_IDS = frozenset(d[0] for d in DEST_KINDS)
 GITUR_DESTS = frozenset({"github", "gitlab"})
+GRAPH_KINDS = frozenset({"stage", "lane", "seat", "custom"})
+MAX_GRAPH_NODES = 24
+MAX_GRAPH_LABEL = 80
+MOTIF_GRAPH = (
+    ("define", 1, "PROBLEM / GOAL"),
+    ("research", 2, "RESEARCH"),
+    ("arch", 3, "ARCH"),
+    ("consensus1", 4, "CONSENSUS"),
+    ("build", 5, "BUILD"),
+    ("critics", 6, "CRITICS"),
+    ("consensus2", 7, "CONSENSUS"),
+    ("improve", 8, "IMPLEMENT"),
+    ("iterate", 9, "ITERATE"),
+)
 
 
 def dest_via_gitur(kind: str) -> bool:
     """GitHub/GitLab: Gitur first, then CCr may write the live tree."""
     return str(kind or "").strip().lower() in GITUR_DESTS
+
+
+def default_graph() -> dict:
+    """9 MOTIF stages on a 3-column board. Not a linear dump."""
+    nodes = []
+    for i, (sid, n, name) in enumerate(MOTIF_GRAPH):
+        nodes.append({
+            "id": sid,
+            "kind": "stage",
+            "n": n,
+            "label": name,
+            "x": (i % 3) * 200,
+            "y": (i // 3) * 140,
+        })
+    return {"nodes": nodes, "saved_at": None}
+
+
+def _public_graph(raw) -> dict:
+    src = raw if isinstance(raw, dict) else {}
+    nodes = []
+    seen = set()
+    incoming = src.get("nodes") if isinstance(src.get("nodes"), list) else []
+    for i, row in enumerate(incoming):
+        if not isinstance(row, dict):
+            continue
+        nid = str(row.get("id") or "").strip()[:40]
+        kind = str(row.get("kind") or "custom").strip().lower()
+        if kind not in GRAPH_KINDS:
+            kind = "custom"
+        if not nid:
+            nid = "%s_%s" % (kind, i)
+        if nid in seen:
+            continue
+        seen.add(nid)
+        try:
+            x = int(row.get("x") if row.get("x") not in (None, "") else 0)
+        except (TypeError, ValueError):
+            x = 0
+        try:
+            y = int(row.get("y") if row.get("y") not in (None, "") else 0)
+        except (TypeError, ValueError):
+            y = 0
+        try:
+            n = int(row["n"]) if row.get("n") not in (None, "") else None
+        except (TypeError, ValueError):
+            n = None
+        nodes.append({
+            "id": nid,
+            "kind": kind,
+            "n": n,
+            "label": str(row.get("label") or nid)[:MAX_GRAPH_LABEL],
+            "x": max(0, min(x, 4000)),
+            "y": max(0, min(y, 4000)),
+        })
+        if len(nodes) >= MAX_GRAPH_NODES:
+            break
+    if not nodes:
+        return default_graph()
+    return {"nodes": nodes, "saved_at": src.get("saved_at")}
 
 BARS = (
     ("plurality", "Plurality — the most votes wins"),
@@ -103,7 +177,7 @@ TARGET_IDS = frozenset(t[0] for t in TARGETS)
 
 
 class StudioError(RuntimeError):
-    """kind in {BAD_INPUT, REFUSED, BROKE}."""
+    """kind in {BAD_INPUT, REFUSED, BROKE, HITL_BIND_FAILED}."""
 
     def __init__(self, kind: str, detail: str):
         self.kind = kind
@@ -346,7 +420,10 @@ def bar_met(winner: int, n: int, bar: str, second: int = 0) -> bool:
 
 
 def default_research_models() -> list[dict]:
-    """MOTIF RESEARCH search agents. SGH + GEM first; Perplexity/Bing/ChatGPT named."""
+    """MOTIF RESEARCH search agents. SGH + GEM first.
+    Perplexity is the optional search seat (step 2): GPT-5.6-Luna on DOM,
+    OpenRouter API fallback. Vendor DeepSearchQA 2026-08-18 named that pair
+    as the cheap search config — not a COSMOS-invented score."""
     return [
         {
             "id": "r_1",
@@ -370,13 +447,23 @@ def default_research_models() -> list[dict]:
         },
         {
             "id": "r_3",
-            "label": "Perplexity",
-            "model": "",
+            "label": "Perplexity (search, optional)",
+            "model": "openai/gpt-5.6-luna",
             "via": "dom",
-            "fallback_model": "",
+            "fallback_model": "openai/gpt-5.6-luna",
             "fallback_via": "openrouter-api",
             "fallback_model_2": "",
             "fallback_via_2": "",
+            "optional": True,
+            "note": (
+                "Optional MOTIF RESEARCH search. OpenRouter DeepSearchQA "
+                "(vendor page, last benchmark 2026-08-18): Perplexity + "
+                "GPT-5.6-Luna 25-turn high ~73.2% / ~$0.03 per question. "
+                "Not a COSMOS score. Winning vendor config was Parallel + "
+                "Claude Opus 5 High 77% / $0.10 — not the COSMOS coding path "
+                "(ANTHROPIC_OFF). DOM first; OpenRouter API fallback. Keith "
+                "does credentials. Core does not fetch."
+            ),
         },
         {
             "id": "r_4",
@@ -417,6 +504,7 @@ def empty_pack() -> dict:
         "dest": default_dest(),
         "implement": default_implement(),
         "iterate": default_iterate(),
+        "graph": default_graph(),
         "updated_at": None,
         "available": False,
         "kind": "NO_SOURCE",
@@ -466,6 +554,8 @@ def _public_model(raw: dict, idx: int, prefix: str = "r") -> dict:
         "fallback_via_2": fb_via_2,
         "effort": effort,
         "budget_usd": cap_n,
+        "optional": bool(raw.get("optional")),
+        "note": str(raw.get("note") or "")[:400],
     }
 
 
@@ -636,6 +726,17 @@ def load_pack(paths) -> dict:
             break
     if not models:
         models = default_research_models()
+    else:
+        # GET view only: empty Perplexity seat inherits the optional Luna pin.
+        # Does not rewrite pack.json until SAVE RESEARCH.
+        pin = {m["id"]: m for m in default_research_models()}.get("r_3") or {}
+        for m in models:
+            if m.get("id") == "r_3" and not m.get("model"):
+                m["model"] = pin.get("model") or m.get("model")
+                m["fallback_model"] = pin.get("fallback_model") or m.get("fallback_model")
+                m["optional"] = True
+                if not m.get("note"):
+                    m["note"] = pin.get("note") or ""
     targets = default_targets()
     incoming = research.get("targets") if isinstance(research.get("targets"), dict) else {}
     for tid in TARGET_IDS:
@@ -670,6 +771,7 @@ def load_pack(paths) -> dict:
         iterate = _public_iterate(rec.get("iterate"))
     except StudioError:
         iterate = default_iterate()
+    graph = _public_graph(rec.get("graph"))
     return {
         "schema": SCHEMA,
         "define": {
@@ -684,6 +786,7 @@ def load_pack(paths) -> dict:
         "dest": dest,
         "implement": implement,
         "iterate": iterate,
+        "graph": graph,
         "updated_at": rec.get("updated_at"),
         "available": True,
         "kind": "OK",
@@ -698,8 +801,15 @@ def load_pack(paths) -> dict:
     }
 
 
-def save_pack(paths, body: dict) -> dict:
-    """POST. Merges onto current pack. Does not start MOTIF."""
+def save_pack(paths, body: dict, ledger=None) -> dict:
+    """POST. Merges onto current pack. Does not start MOTIF.
+
+    An optional ``ledger`` (the service passes ``kernel.ledger``) appends
+    one STUDIO_HITL_WAIT event per active HITL wait so the Review fold
+    can bind the wait to a ledger seq (docs/arch/OSS_BORROW_ARCH.md
+    ADAPT 1). Without a ledger the save stays hermetic — pack.json only,
+    no ledger write, no event.
+    """
     if not isinstance(body, dict):
         raise StudioError("BAD_INPUT", "body must be an object")
     cur = load_pack(paths)
@@ -862,6 +972,13 @@ def save_pack(paths, body: dict) -> dict:
         merged.update(it)
         iterate = _public_iterate(merged)
         iterate["saved_at"] = _iso_now()
+    graph = _public_graph(cur.get("graph"))
+    if "graph" in body:
+        g = body["graph"]
+        if not isinstance(g, dict):
+            raise StudioError("BAD_INPUT", "graph must be an object")
+        graph = _public_graph(g)
+        graph["saved_at"] = _iso_now()
     rec = {
         "schema": SCHEMA,
         "define": define,
@@ -873,6 +990,7 @@ def save_pack(paths, body: dict) -> dict:
         "dest": dest,
         "implement": implement,
         "iterate": iterate,
+        "graph": graph,
         "updated_at": _iso_now(),
         "available": True,
         "kind": "OK",
@@ -885,7 +1003,45 @@ def save_pack(paths, body: dict) -> dict:
     tmp.replace(p)
     out = load_pack(paths)
     out["measured_at"] = time.time()
+    # Wait is not done until the ledger names it. Pack has already landed
+    # (a failed save never gets an event). POST only; GET never appends.
+    if ledger is not None:
+        try:
+            for wait in hitl_waits(out):
+                ledger.append(STUDIO_HITL_WAIT, {
+                    "schema": SCHEMA,
+                    "id": wait["id"],
+                    "why": wait["why"],
+                    "saved_at": rec.get("updated_at"),
+                })
+        except Exception as e:  # noqa: BLE001
+            raise StudioError(
+                "HITL_BIND_FAILED",
+                f"pack saved but the ledger did not name the HITL wait "
+                f"({type(e).__name__}: {e}) — re-save to bind; the wait "
+                f"refuses in Review until then") from e
     return out
+
+
+def hitl_waits(pack: dict) -> list[dict]:
+    """Active HITL waits in a studio pack (OSS_BORROW ADAPT 1).
+
+    One definition shared by the writer (save_pack appends one
+    STUDIO_HITL_WAIT per wait) and the Review fold (bind or refuse). A
+    wait is studio config that parks the MOTIF route on a human; Review
+    must not paint it green until a ledger event names it (P04).
+    """
+    src = pack if isinstance(pack, dict) else {}
+    cons = src.get("consensus") if isinstance(src.get("consensus"), dict) else {}
+    critics = src.get("critics") if isinstance(src.get("critics"), dict) else {}
+    waits = []
+    if cons.get("arch_choice") == "hitl" and not cons.get("chosen_id"):
+        waits.append({"id": "consensus.arch",
+                     "why": "CONSENSUS HITL — architecture not chosen"})
+    if critics.get("continue_when") == "hitl":
+        waits.append({"id": "critics.continue",
+                     "why": "CRITICS continuation is HITL — CCr continues"})
+    return waits
 
 
 def snapshot(paths) -> dict:
@@ -906,7 +1062,9 @@ def snapshot(paths) -> dict:
         "Write target is a local file, GitHub, GitLab, or cloud drive. "
         "GitHub/GitLab runs through Gitur before any live-tree write. "
         "IMPLEMENT is CCr apply once continuation is met. "
-        "This POST does not start MOTIF. Keys stay on the named via."
+        "This POST does not start MOTIF. Keys stay on the named via. "
+        "graph is the Profile Studio board (drag/drop MOTIF nodes). "
+        "Does not invent an occupancy profile id."
     )
     return rec
 
@@ -936,6 +1094,13 @@ def _selftest() -> int:
           lambda: any(v.get("id") == "cli:grok" for v in (empty.get("via_options") or []))
           and any(t.get("id") == "uspto" for t in (empty.get("target_catalog") or []))
           and any(t.get("id") == "gov_local" for t in (empty.get("target_catalog") or [])))
+    ppl = [m for m in (empty.get("research") or {}).get("models") or []
+           if m.get("id") == "r_3"]
+    check("Perplexity RESEARCH seat is optional search + GPT-5.6-Luna",
+          lambda: ppl and ppl[0].get("optional") is True
+          and ppl[0].get("model") == "openai/gpt-5.6-luna"
+          and ppl[0].get("via") == "dom"
+          and ppl[0].get("fallback_via") == "openrouter-api")
     saved = save_pack(paths, {"define": {"text": "WHAT: pane. WHY: live."}})
     check("POST DEFINE persists verbatim",
           lambda: saved["define"]["text"] == "WHAT: pane. WHY: live."
@@ -1112,6 +1277,42 @@ def _selftest() -> int:
           and empty["dest"]["via_gitur"] is True
           and empty["iterate"]["until"] == "rounds"
           and empty["iterate"]["max_rounds"] == 1)
+    check("GET missing pack still names a 9-node MOTIF graph",
+          lambda: len((empty.get("graph") or {}).get("nodes") or []) == 9
+          and (empty["graph"]["nodes"][0]["id"] == "define"))
+    g = save_pack(paths, {"graph": {"nodes": [
+        {"id": "define", "kind": "stage", "n": 1, "label": "PROBLEM / GOAL",
+         "x": 16, "y": 32},
+        {"id": "lane_a", "kind": "lane", "label": "Lane A", "x": 216, "y": 32},
+    ]}})
+    check("POST graph persists positions; does not start MOTIF",
+          lambda: g["graph"]["nodes"][0]["x"] == 16
+          and g["graph"]["nodes"][1]["kind"] == "lane"
+          and g["graph"]["saved_at"])
+    again_g = load_pack(paths)
+    check("GET after POST graph returns the same board",
+          lambda: again_g["graph"]["nodes"][0]["x"] == 16
+          and again_g["graph"]["nodes"][1]["id"] == "lane_a")
+
+    from cosmos_ledger import Ledger
+    led = Ledger(paths.ledger("authority.jsonl"),
+                 (root / "config" / "install_key.bin").read_bytes(),
+                 "studio-selftest")
+    save_pack(paths, {"consensus": {"arch_choice": "hitl"},
+                      "critics": {"continue_when": "hitl"}}, ledger=led)
+    waits_ev = [r for r in led.verify()
+                if r.get("event") == STUDIO_HITL_WAIT]
+    check("save_pack with a ledger appends one STUDIO_HITL_WAIT per active wait",
+          lambda: [r["payload"].get("id") for r in waits_ev]
+          == ["consensus.arch", "critics.continue"]
+          and all(isinstance(r.get("seq"), int) for r in waits_ev))
+    cleared = save_pack(paths, {"consensus": {"arch_choice": "auto"},
+                                "critics": {"continue_when": "bar"}},
+                        ledger=led)
+    waits_after = [r for r in led.verify()
+                   if r.get("event") == STUDIO_HITL_WAIT]
+    check("a save with no active wait appends no STUDIO_HITL_WAIT",
+          lambda: hitl_waits(cleared) == [] and len(waits_after) == 2)
 
     bad_out = [(l, e) for l, ok, e in results if not ok]
     for label, ok, err in results:
