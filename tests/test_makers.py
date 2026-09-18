@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Selftest: cosmos_makers (the maker map). WHERE agents/tools/connectors/skills can
-be made. Refusals BY KIND; seed catalog loaded through the ledger (each add is an
-event; state is a projection); unknown kind REFUSES rather than returning empty;
-GET is a read (B1); POSITIVE and NEGATIVE controls on the same axes."""
+"""Selftest: cosmos_makers (the maker map). WHERE agents/tools/connectors/skills
+plus ROLE/WRAPPER can be made. Refusals BY KIND; seed catalog loaded through
+the ledger (each add is an event; state is a projection); unknown kind REFUSES
+rather than returning empty (FOO still UNKNOWN_KIND); GET is a read (B1) and
+never mkdir; known-but-empty kind is UNMEASURED-as-empty; POSITIVE and NEGATIVE
+controls on the same axes."""
 from __future__ import annotations
 import json, sys, tempfile, urllib.error, urllib.request
 from pathlib import Path
@@ -98,6 +100,13 @@ def main() -> int:
           lambda: [r["location"] for r in mm.list("CONNECTOR")] == ["mcp-registry"])
     check("list(kind=SKILL) is save_skill",
           lambda: [r["location"] for r in mm.list("SKILL")] == ["save_skill"])
+    check("MAKER_KINDS keeps the original four first, then ROLE, WRAPPER",
+          lambda: MAKER_KINDS == (
+              "AGENT", "TOOL", "CONNECTOR", "SKILL", "ROLE", "WRAPPER"))
+    check("list(kind=ROLE) is empty (UNMEASURED-as-empty, not a refusal)",
+          lambda: mm.list("ROLE") == [])
+    check("list(kind=WRAPPER) is empty (UNMEASURED-as-empty, not a refusal)",
+          lambda: mm.list("WRAPPER") == [])
     check("find(tag='mcp') hits the connector",
           lambda: [r["id"] for r in mm.find(tag="mcp")] == ["mcp-registry"])
     check("find(text='Cursor Cloud') hits the cloud agent",
@@ -133,10 +142,45 @@ def main() -> int:
     check("unknown kind on add -> UNKNOWN_KIND (the planted refusal)",
           expect(MakerError, "UNKNOWN_KIND")(
               lambda: mm.add({**GOOD_ENTRY, "id": "telepath", "kind": "TELEPATHY"})))
+    check("unknown kind FOO on add -> UNKNOWN_KIND (closed set still refuses)",
+          expect(MakerError, "UNKNOWN_KIND")(
+              lambda: mm.add({**GOOD_ENTRY, "id": "foo-kind", "kind": "FOO"})))
     check("list() of an unknown kind REFUSES - empty would hide the typo",
           expect(MakerError, "UNKNOWN_KIND")(lambda: mm.list("TELEPATHY")))
+    check("list(kind=FOO) -> UNKNOWN_KIND",
+          expect(MakerError, "UNKNOWN_KIND")(lambda: mm.list("FOO")))
     check("find(kind=unknown) REFUSES the same way",
           expect(MakerError, "UNKNOWN_KIND")(lambda: mm.find(kind="VIBES")))
+    check("find(kind=FOO) -> UNKNOWN_KIND",
+          expect(MakerError, "UNKNOWN_KIND")(lambda: mm.find(kind="FOO")))
+
+    # ROLE / WRAPPER are first-class kinds: add is accepted, not UNKNOWN_KIND.
+    role_led = Ledger(td / "role.jsonl", KEY, "F5")
+    role_mm = MakerMap(role_led, seed=False)
+    role_rec = role_mm.add({
+        "id": "wombat-role",
+        "kind": "ROLE",
+        "location": "WOMB",
+        "function": "WOMBAT occupancy role",
+        "access": "WOMB CREATE",
+        "potential_sources": ["womb"],
+        "tags": ["role"],
+    })
+    wrap_rec = role_mm.add({
+        "id": "wrap-md",
+        "kind": "WRAPPER",
+        "location": "WOMB",
+        "function": "WRAP md / STYLE append",
+        "access": "WOMB CREATE",
+        "potential_sources": ["womb"],
+        "tags": ["wrapper"],
+    })
+    check("add ROLE is accepted (WOMB WOMBAT/CODER/JUDGE)",
+          lambda: role_rec["kind"] == "ROLE" and role_mm.list("ROLE")[0]["id"]
+          == "wombat-role")
+    check("add WRAPPER is accepted (WRAP md / STYLE append)",
+          lambda: wrap_rec["kind"] == "WRAPPER"
+          and role_mm.list("WRAPPER")[0]["id"] == "wrap-md")
     check("duplicate add -> DUPLICATE (a second declaration is a drift)",
           expect(MakerError, "DUPLICATE")(lambda: mm.add(GOOD_ENTRY)))
     check("duplicate of a seed id -> DUPLICATE",
@@ -262,6 +306,22 @@ def main() -> int:
     code, body = get("/api/v1/makers?kind=TELEPATHY", svc.token)
     check("GET /makers?kind=TELEPATHY -> 400 UNKNOWN_KIND",
           lambda: code == 400 and body.get("error") == "UNKNOWN_KIND")
+    code, body = get("/api/v1/makers?kind=FOO", svc.token)
+    check("GET /makers?kind=FOO -> 400 UNKNOWN_KIND",
+          lambda: code == 400 and body.get("error") == "UNKNOWN_KIND")
+
+    before_dirs = {p for p in root.rglob("*") if p.is_dir()}
+    code, body = get("/api/v1/makers?kind=ROLE", svc.token)
+    after_dirs = {p for p in root.rglob("*") if p.is_dir()}
+    check("GET /makers?kind=ROLE is 200 empty (UNMEASURED-as-empty)",
+          lambda: code == 200 and body.get("makers") == [])
+    check("GET /makers?kind=ROLE never mkdir",
+          lambda: after_dirs == before_dirs
+          and not any((root / name).exists()
+                      for name in ("ROLE", "WRAPPER", "role", "wrapper")))
+    code, body = get("/api/v1/makers?kind=WRAPPER", svc.token)
+    check("GET /makers?kind=WRAPPER is 200 empty (UNMEASURED-as-empty)",
+          lambda: code == 200 and body.get("makers") == [])
 
     held = k.makers
     k.makers = None

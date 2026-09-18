@@ -12,7 +12,9 @@ current state is a projection. makers.toml is the known starting catalog and is 
 by writing those entries through add() so the ledger is the sole authority. A second
 declaration of the same id is a drift, not an update. There is no delete.
 
-Kinds are a closed set: AGENT | TOOL | CONNECTOR | SKILL. An unknown kind REFUSES.
+Kinds are a closed set: AGENT | TOOL | CONNECTOR | SKILL | ROLE | WRAPPER.
+An unknown kind REFUSES. GET /makers?kind= of a known-but-empty kind returns
+[] (UNMEASURED-as-empty) and never mkdir.
 """
 from __future__ import annotations
 
@@ -22,7 +24,11 @@ from typing import Iterable, Optional
 
 from cosmos_ledger import Ledger
 
-MAKER_KINDS = ("AGENT", "TOOL", "CONNECTOR", "SKILL")
+# Occupancy: cDeck CREATE_KINDS must match MAKER_KINDS (test_create_panel.py).
+# Fold that equality on the cDeck PR - do not edit cDeck in this makers change.
+# WOMB needs ROLE (WOMBAT/CODER/JUDGE) and WRAPPER (WRAP md / STYLE append)
+# after the original four. Tuple order is stable: existing four first.
+MAKER_KINDS = ("AGENT", "TOOL", "CONNECTOR", "SKILL", "ROLE", "WRAPPER")
 REQUIRED_FIELDS = ("id", "kind", "location", "function", "access",
                    "potential_sources", "tags")
 DEFAULT_TOML = Path(__file__).resolve().with_name("makers.toml")
@@ -177,7 +183,9 @@ class MakerMap:
 
     def list(self, kind: Optional[str] = None) -> list[dict]:
         """All makers, optionally filtered by kind. An unknown kind REFUSES rather
-        than returning empty - empty would hide a typo as 'none of those exist'."""
+        than returning empty - empty would hide a typo as 'none of those exist'.
+        A known kind with no rows (ROLE, WRAPPER until WOMB registers them) is
+        UNMEASURED-as-empty: return []. GET never mkdir."""
         if kind is not None and kind not in MAKER_KINDS:
             raise MakerError("UNKNOWN_KIND", f"{kind!r} not in {list(MAKER_KINDS)}")
         rows = [dict(v) for _, v in sorted(self.state().items())]
