@@ -1,0 +1,5 @@
+# WRAP/CODER — default work-order role when role is missing.
+role = CODER
+propose_only = true
+pen = none
+note = P10 propose; CCr disposes. Missing role fills this wrapper.
