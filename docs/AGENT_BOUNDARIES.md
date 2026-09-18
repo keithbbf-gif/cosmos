@@ -129,6 +129,18 @@ Nothing written here is authority until COW files it into the tree.
     (`NOW.md` living). Chat is not the scratch. Compaction is not TidyUP.
     Do not copy unfiled patent packet bodies here. GrokBot still does not
     write `V:\A`.
+18. **Pen grant disables other writers first (Keith 2026-09-18).** When Keith
+    says this chair has the pen, the **first** act is exclusive occupancy:
+    `CCR.lease` `assert_pen`, SOL/Codex off unless he names a reset, no second
+    `grok.exe` writing this tree, orch does not `git push`/`pull`/checkout this
+    repo, no contents-API (or other) write path around Gitur. **Then** write.
+    A social “I have the pen” with another writer still live is the two-writer
+    scar. Canon: `docs/CCR.md`. Principle **P12**.
+19. **Do not go around Gitur. Do not bypass the judge (Keith 2026-09-18).**
+    BUILD is one job, one branch, one PR. CCr reviews then disposes. Do not
+    PUT files onto `main` by a second API. WOMBAT SOP: check output to be
+    graded; **good → save for the judge**; **bad → rerun on the hot cache**
+    before it goes cold, or on another agent. Do not skip the judge. Principle **P13**.
 
 ## Enforcement (hard-wired)
 The dispatcher (`cosmos_dispatcher_daemon` / `cosmos_dispatch`) auto-attaches this addendum to every

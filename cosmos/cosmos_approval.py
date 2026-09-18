@@ -29,6 +29,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+from pathlib import Path
 import re
 import secrets
 import time
@@ -167,7 +168,7 @@ def content_scan(a: dict) -> list[str]:
 
 
 def _is_under_delme(path: str) -> bool:
-    parts = re.split(r"[\\/]+", path.strip())
+    parts = Path(path).resolve(strict=False).parts
     return any(p.lower() == "_delme" for p in parts)
 
 
