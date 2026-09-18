@@ -169,6 +169,13 @@ def parse_context_source(value) -> list:
     """[read*] only. Write-mode context is REFUSED. Missing path is BAD_INPUT."""
     if value is None:
         raise OrderError("BAD_INPUT", "Context source is required")
+    if isinstance(value, str) and " · " in value:
+        try:
+            from cosmos_warn import warn3
+            warn3("NO_CONTEXT", "Context source must be a list, not a middle-dot string")
+        except Exception:  # noqa: BLE001
+            pass
+        raise OrderError("NO_CONTEXT", "Context source must be a list")
     if isinstance(value, (str, dict)):
         items = [value]
     elif isinstance(value, list):

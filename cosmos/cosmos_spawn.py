@@ -39,6 +39,12 @@ class SpawnError(RuntimeError):
     def __init__(self, kind: str, detail: str):
         self.kind = kind
         self.detail = detail
+        if kind in ("REFUSED", "NO_CONTEXT", "MISSING_LAYER"):
+            try:
+                from cosmos_warn import warn3
+                warn3(kind, detail)
+            except Exception:  # noqa: BLE001
+                pass
         super().__init__(f"[{kind}] {detail}")
 
 

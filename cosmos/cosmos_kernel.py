@@ -270,6 +270,12 @@ class Kernel:
 
         _try("dispatcher", _disp)
         _try("prove_nodes", _prove)
+
+        def _heads():
+            from cosmos_warn import warn_if_two_heads
+            warn_if_two_heads(self.paths.root)
+
+        _try("two_heads_warn", _heads)
         return report
 
     def open_session(self, session_id: str, stream: str):
