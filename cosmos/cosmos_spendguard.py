@@ -217,15 +217,18 @@ class SpendGuard:
 
     def clear(self, session_id: Optional[str] = None,
               reset_day: bool = True) -> bool:
-        """The human reset ('resume'). One session, or everything: session
-        totals and the rate window. reset_day=True (default, explicit
+        """Clear kill-adjacent session/rate lanes. One session, or
+        everything: session totals and the rate window.
+        reset_day=True (default, kept for other callers / explicit
         admin reset) also clears the day lane — in ledger mode via a
-        day_credit offset (the chain is never rewritten). POST
-        /control/resume MUST pass reset_day=False: unmute is not a
-        second wallet. A corrupt counter file is RECOVERED here to a
-        fresh state - clear() is the explicit human reset, and leaving
-        voice bricked behind bad JSON would be friction; check() alone
-        stays strictly fail-closed."""
+        day_credit offset equal to today's ledger spend (the chain is
+        never rewritten). POST /control/resume MUST pass
+        reset_day=False: unmute is not a second DAY_CAP_USD. More
+        budget is spend-admin BUDGET_SET, not clear(). A corrupt
+        counter file is RECOVERED here to a fresh state - clear() is
+        the explicit human reset, and leaving voice bricked behind
+        bad JSON would be friction; check() alone stays strictly
+        fail-closed."""
         try:
             with self._lock:
                 try:
