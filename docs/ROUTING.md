@@ -76,7 +76,7 @@ Anthropic-agent surface outside this name).
 |---|---|---|---|
 | **GitHub** | origin `keithbbf-gif/cosmos` | Issues, PRs, SGH drop path. Review is GLM other-family, not Cursor Other Models. | live-tree writer |
 | **GitLab** | `keithbbf-gif/cosmos` | **CI is the execute-the-gate**. Review is GLM. Duo may still propose. | a third brain |
-| **Cursor** | Cloud Agents `cursor-api` | Lane B **BUILD** = **grok-4.6** native Cursor Models pool (7% used). Composer 2.5 if named. | Other Models (73%); Auto; on-demand; COSMOS `claude -p` |
+| **Cursor** | Cloud Agents `cursor-api` | Lane B **BUILD** = **grok-4.6**. **REVIEW default = Composer 2.5** (Keith 2026-09-19). | Auto; on-demand; COSMOS `claude -p` |
 
 P10: Gitur **proposes**. CCr **disposes** and writes CORE. `ANTHROPIC_OFF` stays for
 COSMOS dispatch. Do not merge PRs #30 #32 #36 #37 #38 this occupancy.

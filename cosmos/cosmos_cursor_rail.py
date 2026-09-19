@@ -77,8 +77,9 @@ def pin_cursor_model(raw, *, review: bool = False) -> str:
     """Pin Cloud Agent to the Cursor Models pool.
 
     Default coding: grok-4.6. Composer 2.5 stays Composer.
-    Gitur review=True: Other Models selectable — Sonnet 5 default,
-    Opus 5 / Fable 5.1 select. Coding launches still coerce Sonnet→Grok.
+    Gitur review=True: Composer 2.5 default (Keith 2026-09-19).
+    Named Other Models (Sonnet/Opus/Fable) still select. Coding
+    launches still coerce unnamed Claude → Grok.
     """
     low = str(raw or "").strip().lower()
     if "composer" in low:
@@ -90,7 +91,9 @@ def pin_cursor_model(raw, *, review: bool = False) -> str:
             return "claude-opus-5"
         if "sonnet" in low or low.startswith("claude"):
             return CURSOR_SONNET
-        return CURSOR_SONNET
+        if low in _CURSOR_GROK_IDS or low == "grok":
+            return CURSOR_GROK
+        return CURSOR_COMPOSER
     return CURSOR_GROK
 
 
@@ -916,8 +919,10 @@ def _selftest() -> int:
           and pin_cursor_model("auto") == CURSOR_GROK
           and pin_cursor_model("composer-2.5") == CURSOR_COMPOSER
           and pin_cursor_model("grok-4.6") == CURSOR_GROK)
-    check("Gitur review=True unlocks Cursor Other Models Sonnet/Opus/Fable",
-          lambda: pin_cursor_model("claude-sonnet-5", review=True) == CURSOR_SONNET
+    check("Gitur review=True defaults Composer 2.5; named Other Models still select",
+          lambda: pin_cursor_model("", review=True) == CURSOR_COMPOSER
+          and pin_cursor_model("auto", review=True) == CURSOR_COMPOSER
+          and pin_cursor_model("claude-sonnet-5", review=True) == CURSOR_SONNET
           and pin_cursor_model("claude-opus-5", review=True) == "claude-opus-5"
           and pin_cursor_model("claude-fable-5.1", review=True) == "claude-fable-5.1")
 
