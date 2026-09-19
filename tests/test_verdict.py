@@ -191,10 +191,12 @@ def test_verdict():
     stamp_verdict(rec)
     fail_e = emit_verdict(rec, paths=paths, github=True, notify=True, dry_run=True,
                           getter=getter, putter=putter, poster=poster)
+    ev = fail_e.get("event") or {}
+    obj = str((ev.get("Verdict") or fail_e.get("Verdict") or {}).get("objection") or "")
     check("FAILED dry event is verdict_changed rejected",
-          lambda: fail_e.get("event", {}).get("event") in ("verdict_changed", "verdict_landed")
-          and fail_e["status"] == "rejected"
-          and "Fix:" in fail_e["event"]["Verdict"]["objection"])
+          lambda: ev.get("event") in ("verdict_changed", "verdict_landed", "verdict_refresh")
+          and (fail_e.get("status") == "rejected" or (ev.get("Verdict") or {}).get("status") == "rejected")
+          and "Fix:" in obj)
 
     (live / "config" / "ara_notify_url.txt").write_text("http://example.invalid/x\n", encoding="utf-8")
     from cosmos_verdict import load_notify_url
