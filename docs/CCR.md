@@ -50,8 +50,8 @@ BUILD) — that mouth is effective; do not move CREW coding orch onto Grok
 Bot. OpenWork remains GFO. **Trial 2026-09-09:** Grok Bot on a **cDeck tab
 overhaul** — propose only (`work_orders/ccr/GROKBOT_TAB_OVERHAUL.md`). CCr
 still the one writer. Gitur callable other-family reviewer stays
-**GLM**. Cursor Cloud Agents stay **grok-4.6** on Cursor Models (7%).
-Other Models 73% — do not park Sonnet/Opus there. Claude is optional
+**GLM**. Cursor Cloud Agents: **BUILD grok-4.6**, **REVIEW default Composer 2.5**
+(Keith 2026-09-19). Named Other Models still select. Claude is optional
 diversity, not required.
 
 **Keith 2026-09-09 (field):** specialized cheap models, **orthogonal**, can
@@ -62,8 +62,8 @@ equal or exceed a frontier. CREW is that bet (GLM + Ling + DS Flash + GF38
 orders, you run github/cursor/gitlab, you review/refine the code and write to
 the COSMOS live tree.* **Gitur (Keith 2026-09-05) = GitHub + GitLab + Cursor.**
 That triad is what CCr **runs**. Coding = GitHub Copilot / Cursor Cloud Agent
-(Opus 5 / Sonnet, never Composer 2.5) / GitLab Duo + dropped Grok 4.6 work-order
-sessions. Dispose = CCr after review. P10 still: Gitur PROPOSE; CCr writes.
+**BUILD grok-4.6** / GitLab Duo. **Cursor review default Composer 2.5.**
+Dispose = CCr after review. P10 still: Gitur PROPOSE; CCr writes.
 Gitur is not a pen and not a fourth writer. Map: `docs/ROUTING.md`.
 
 **Keith 2026-09-05:** the **entire COSMOS build** runs **through Gitur** so we get **branched trees**. That includes **side jobs / products**, not only CORE kernel: **Open Sessions** (`builds/open_sessions/`), **cowork_to_openwork**, session-tools, cDeck. Stage-4 BUILD lands on a GitHub/GitLab branch + PR (Cursor lane and/or Grok CLI `--cwd` that branch/worktree). CCr **reviews** then disposes onto the live tree. Do **not** author `builds/` / `cosmos/` / product CLIs straight onto `main` in this TUI as the default path. Open Sessions stays LIVE — iterate on a branch; do not rebuild it in place. `cowork_to_openwork` is not ORC recode; if CCr changes it, that is still a Gitur branch.
