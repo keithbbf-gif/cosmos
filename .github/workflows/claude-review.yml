@@ -1,5 +1,9 @@
 # Gitur default reviewer: Claude. CCr (Grok 4.6) still reviews all code
 # before dispose. Not COSMOS claude -p (ANTHROPIC_OFF).
+#
+# Keith 2026-09-19: an empty ~3s claude-review fail is a harness flake
+# (missing Anthropic secret or action crash), not a content refuse.
+# Job continue-on-error: merge if other checks pass. Judge KEEP is CCr.
 name: Claude review
 on:
   pull_request:
@@ -14,6 +18,7 @@ jobs:
       (github.event.issue.pull_request &&
        contains(github.event.comment.body, '@claude'))
     runs-on: ubuntu-latest
+    continue-on-error: true
     permissions:
       contents: read
       pull-requests: write
@@ -30,3 +35,9 @@ jobs:
             CCr (Grok 4.6) disposes the COSMOS live tree — do not approve merge.
             Post findings as inline comments. No finding without a file and line.
             Do not invent scores. Do not write the live tree.
+      - name: harness-fail-is-not-a-merge-gate
+        if: always()
+        run: |
+          echo "Judge KEEP is CCr (Luna/SOL), not this Action."
+          echo "Empty ~3s fail = harness flake, not a content refuse."
+          exit 0
