@@ -25,21 +25,25 @@ LEGS = (
     ("cursor-api", "Cursor",
      "Lane B BUILD grok-4.6 native pool. Probe is GET /v1/me."),
     ("github-forge", "GitHub",
-     "origin, PRs, Sonnet Gitur review (Anthropic-off exception). Not the live-tree writer."),
+     "origin, PRs, Composer 2.5 Gitur review default. Not the live-tree writer."),
     ("gitlab-forge", "GitLab",
-     "CI is the execute-the-gate. Sonnet Gitur review. Duo still proposes."),
+     "CI is the execute-the-gate. Composer 2.5 Gitur review default. Duo still proposes."),
 )
-# Keith 2026-09-11: Gitur default reviewer = Cursor Other Models Sonnet 5
-# (selectable agent under Cursor). Exception to ANTHROPIC_OFF — Gitur/Cursor
-# only. Not COSMOS claude -p. Coding Cloud Agents stay grok-4.6.
-DEFAULT_REVIEWER = "sonnet"
+# Keith 2026-09-19: Gitur default Cursor review agent = Composer 2.5
+# (Cursor Models pool). Named Other Models (Sonnet/Opus/Fable) still select.
+# Coding Cloud Agents stay grok-4.6. Not COSMOS claude -p.
+DEFAULT_REVIEWER = "composer"
 DEFAULT_REVIEW_VIA = "cursor"
-DEFAULT_REVIEW_MODEL = "claude-sonnet-5"
-DEFAULT_REVIEW_TRIGGER = "gitur-cursor-other-sonnet"
+DEFAULT_REVIEW_MODEL = "composer-2.5"
+DEFAULT_REVIEW_TRIGGER = "gitur-cursor-composer"
 SELECT_REVIEWERS = {
+    "composer": {
+        "model": "composer-2.5", "via": "cursor",
+        "when": "default Gitur review — Cursor Models Composer 2.5",
+    },
     "sonnet": {
         "model": "claude-sonnet-5", "via": "cursor",
-        "when": "default Gitur — Cursor Other Models selectable agent",
+        "when": "select review; Cursor Other Models",
     },
     "opus5": {
         "model": "claude-opus-5", "via": "cursor",
@@ -124,7 +128,7 @@ def _reviewer_spec(name: str | None) -> dict:
 def request_default_review(repo: str, number, *, run=None, kind: str = "pr",
                            reviewer: str | None = None,
                            launch=None, root=None) -> dict:
-    """Gitur default: Cursor Other Models Sonnet 5 (selectable under Cursor).
+    """Gitur default: Cursor Composer 2.5 review agent.
 
     ANTHROPIC_OFF still holds for COSMOS dispatch / ``claude -p``.
     Coding Cloud Agents stay grok-4.6. ``launch`` injects tests. Does not merge.
@@ -148,7 +152,7 @@ def request_default_review(repo: str, number, *, run=None, kind: str = "pr",
     prompt = (
         "REVIEW ONLY. You are a Gitur reviewer: "
         f"{spec['name']} ({spec['model']}) via {spec['via']}. "
-        "Cursor Other Models selectable agent (Sonnet 5 default). "
+        "Cursor review agent (Composer 2.5 default). "
         "Not COSMOS claude -p. Coding agents stay Grok 4.6. "
         "Do not merge. Do not write V:\\A. "
         f"Target: {url}. Post findings with file and line. "
@@ -160,7 +164,7 @@ def request_default_review(repo: str, number, *, run=None, kind: str = "pr",
         "auto_create_pr": False,
         "repo_url": gh_url,
         "poll": False,
-        "name": f"gitur-sonnet-{kind}-{n}"[:100],
+        "name": f"gitur-{spec['name']}-{kind}-{n}"[:100],
     }
     if launch is not None:
         rec = launch(prompt, extra)
@@ -874,8 +878,8 @@ def _snapshot_uncached(kernel) -> dict:
                 {"id": k, "model": v["model"], "via": v["via"], "when": v["when"]}
                 for k, v in SELECT_REVIEWERS.items()
             ],
-            "note": ("Default Gitur reviewer is Cursor Other Models Sonnet 5. "
-                     "Select: Opus 5, Fable 5.1, Gemini Flash 3.8. "
+            "note": ("Default Gitur Cursor review is Composer 2.5. "
+                     "Select: Sonnet 5, Opus 5, Fable 5.1, Gemini Flash 3.8. "
                      "Coding Cloud Agents stay grok-4.6. CCr disposes."),
         },
         "legs": legs,
