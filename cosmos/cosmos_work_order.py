@@ -633,7 +633,9 @@ def fold_work_orders(paths, *, order_id: str = "", state: str = "",
 
     st = str(state or "").strip().upper()
     rows = list(by_id.values())
-    if st and st != "ALL":
+    if not st or st == "ALL":
+        rows = [r for r in rows if r.get("folder") in ("bucket", "picked")]
+    else:
         folder_alias = {
             "BUCKET": "bucket", "DROPPED": "bucket",
             "PICKED": "picked", "PICKED_UP": "picked",
@@ -653,6 +655,7 @@ def fold_work_orders(paths, *, order_id: str = "", state: str = "",
         item.pop("_task_full", None)
         shown.append(item)
     n_all = sum(counts.values())
+    n_board = int(counts.get("bucket") or 0) + int(counts.get("picked") or 0)
     return {
         "ok": True,
         "available": base.is_dir(),
@@ -660,16 +663,18 @@ def fold_work_orders(paths, *, order_id: str = "", state: str = "",
         "schema": "cosmos-work-orders/1",
         "rows": shown,
         "n_shown": len(shown),
-        "n_total": n_all,
+        "n_total": n_board,
+        "n_board": n_board,
+        "n_archive": n_all - n_board,
         "truncated": len(rows) > lim,
         "counts": counts,
         "unreadable": unreadable,
         "limit": lim,
         "state": st or "ALL",
         "note": (
-            "timestamped live list from state/work_orders/{bucket,picked,"
-            "assigned,completed,failed}. Folders are not the ledger. "
-            "GET ?id= returns work product head. No argv/prompt."
+            "WOMB surface is bucket+picked (n_total=n_board). "
+            "failed/ is autopsy archive (n_archive). "
+            "?state=FAILED lists corpses. GET never mkdir. No argv/prompt."
         ),
     }
 
@@ -890,17 +895,16 @@ def file_done(paths, order: dict, *, run_rec: dict | None = None,
             emit_ok = False
             emit_err = LiveEmitError("MISSING_EMIT", f"{type(e).__name__}: {e}"[:200])
     if not exists:
-        rec["state"] = "FAILED"
-        rec["fail_kind"] = "FAILED"
-        rec["fail_detail"] = "Output file missing or empty (rc is not the predicate)"
-        dest = order_file(dirs["failed"], oid)
+        from cosmos_spawn import fail_xfer
+        return fail_xfer(
+            paths, rec, "FAILED",
+            "Output file missing or empty (rc is not the predicate)")
     elif runtime_bind and not emit_ok:
-        rec["state"] = "FAILED"
-        rec["fail_kind"] = emit_err.kind if emit_err else "MISSING_EMIT"
-        rec["fail_detail"] = (
-            emit_err.detail if emit_err else "live emit missing (runtime_bind)"
-        )[:240]
-        dest = order_file(dirs["failed"], oid)
+        from cosmos_spawn import fail_xfer
+        return fail_xfer(
+            paths, rec,
+            emit_err.kind if emit_err else "MISSING_EMIT",
+            (emit_err.detail if emit_err else "live emit missing (runtime_bind)")[:240])
     else:
         rec["state"] = "DONE"
         dest = order_file(dirs["assigned"], oid)

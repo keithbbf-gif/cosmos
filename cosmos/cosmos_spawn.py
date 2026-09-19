@@ -9,6 +9,7 @@ skip. Work-order runner calls apply() before any model argv. Extra grok.exe
     from cosmos_spawn import (
         SpawnSpec, SpawnError, defaults, apply, apply_order,
         preflight_session, refuse, require_context_list, fail_xfer,
+        wo_partner, record_attempt,
     )
     py -3.14 cosmos\\cosmos_spawn.py --selftest
 """
@@ -296,8 +297,103 @@ def refuse(argv) -> None:
             "grok --single as WO worker")
 
 
+def wo_partner(paths, rec: dict) -> dict:
+    """Silent-fail partner: same pair_id, stamp-minute, or Task prefix.
+
+    Returns MEASURED {partner_id, partner_state} or UNMEASURED. GET never mkdir.
+    """
+    from cosmos_work_order import work_order_dirs_ro
+
+    oid = str((rec or {}).get("order_id") or "")
+    pair_id = str((rec or {}).get("pair_id") or "")
+    task = str((rec or {}).get("Task") or "")
+    prefix = task[:80]
+    ts = str((rec or {}).get("Timestamp") or rec.get("dropped_at") or "")
+    minute = ts[:16]
+    dirs = work_order_dirs_ro(paths)
+    found = None
+    for folder, d in dirs.items():
+        if not d.is_dir():
+            continue
+        try:
+            names = list(d.iterdir())
+        except OSError:
+            continue
+        for p in names:
+            if not p.is_file() or p.suffix.lower() != ".json":
+                continue
+            try:
+                raw = json.loads(p.read_text(encoding="utf-8"))
+            except (OSError, ValueError, UnicodeDecodeError):
+                continue
+            if not isinstance(raw, dict):
+                continue
+            other = str(raw.get("order_id") or p.stem)
+            if other == oid:
+                continue
+            hit = False
+            if pair_id and str(raw.get("pair_id") or "") == pair_id:
+                hit = True
+            elif minute and str(raw.get("Timestamp") or raw.get("dropped_at") or "")[:16] == minute:
+                hit = True
+            elif prefix and str(raw.get("Task") or "").startswith(prefix):
+                hit = True
+            if hit:
+                found = {
+                    "kind": "MEASURED",
+                    "partner_id": other,
+                    "partner_state": str(raw.get("state") or folder),
+                    "folder": folder,
+                }
+                break
+        if found:
+            break
+    if found:
+        return found
+    return {"kind": "UNMEASURED", "partner_id": None, "partner_state": None}
+
+
+def _xfer_for(kind: str, rec: dict) -> str:
+    task = str((rec or {}).get("Task") or "")
+    if task.startswith("Drive the MOTIF route"):
+        return "superseded"
+    if kind in ("NO_CONTEXT", "REFUSED"):
+        return "restate"
+    return "autopsy"
+
+
+def record_attempt(paths, rec: dict, *, attempt: int = 1) -> Path:
+    """Append cosmos-score-attempt/1. Regrade = new line. Never UPDATE."""
+    from datetime import datetime, timezone
+
+    live = Path(getattr(paths, "root", paths))
+    dest = live / "state" / "attempts" / "attempts.jsonl"
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    row = {
+        "schema": "cosmos-score-attempt/1",
+        "job": str((rec or {}).get("order_id") or ""),
+        "chair": "WOMBAT",
+        "model": str((rec or {}).get("Agent") or ""),
+        "attempt": int(attempt),
+        "parent_attempt": None if attempt <= 1 else attempt - 1,
+        "verdict": str((rec or {}).get("fail_kind") or rec.get("state") or "FAILED"),
+        "xfer": str((rec or {}).get("xfer") or ""),
+        "partner_id": (rec or {}).get("partner_id"),
+        "partner_state": (rec or {}).get("partner_state"),
+        "fail_kind": (rec or {}).get("fail_kind"),
+        "fail_detail": str((rec or {}).get("fail_detail") or "")[:240],
+        "ts": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+    }
+    with dest.open("a", encoding="utf-8") as fh:
+        fh.write(json.dumps(row, default=str) + "\n")
+    return dest
+
+
 def fail_xfer(paths, rec: dict, kind: str, detail: str) -> dict:
-    """Move a work order to failed/. Not a second scheduler."""
+    """FAIL → JSONL attempt + partner autopsy + xfer. Failed/ is archive.
+
+    Not a second scheduler: does not spawn GAC. Board surface is bucket+picked.
+    """
     from cosmos_work_order import order_file, work_order_dirs
 
     dirs = work_order_dirs(paths)
@@ -306,6 +402,11 @@ def fail_xfer(paths, rec: dict, kind: str, detail: str) -> dict:
     out["state"] = "FAILED"
     out["fail_kind"] = kind
     out["fail_detail"] = detail
+    partner = wo_partner(paths, out)
+    out["partner_id"] = partner.get("partner_id")
+    out["partner_state"] = partner.get("partner_state")
+    out["partner_kind"] = partner.get("kind")
+    out["xfer"] = _xfer_for(kind, out)
     dest = order_file(dirs["failed"], oid)
     dest.parent.mkdir(parents=True, exist_ok=True)
     tmp = dest.with_name(dest.name + ".tmp")
@@ -318,6 +419,7 @@ def fail_xfer(paths, rec: dict, kind: str, detail: str) -> dict:
                 stale.unlink()
             except OSError:
                 pass
+    record_attempt(paths, out, attempt=int(out.get("attempt") or 1))
     return out
 
 

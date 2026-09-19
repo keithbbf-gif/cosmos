@@ -81,9 +81,14 @@ def main() -> int:
                      check_rails=False)
 
     folded = fold_work_orders(paths)
-    row = (folded.get("rows") or [None])[0]
-    check("fold lists DONE order with agent and product, no argv/prompt",
-          lambda: folded.get("ok") and folded.get("counts", {}).get("assigned") == 1
+    assigned = fold_work_orders(paths, state="ASSIGNED")
+    row = (assigned.get("rows") or [None])[0]
+    check("default fold is bucket+picked; assigned is archive",
+          lambda: folded.get("ok") and folded.get("n_total") == 0
+          and folded.get("n_board") == 0
+          and folded.get("counts", {}).get("assigned") == 1)
+    check("fold ?state=ASSIGNED lists DONE order with agent and product, no argv/prompt",
+          lambda: assigned.get("ok") and assigned.get("counts", {}).get("assigned") == 1
           and row and row.get("order_id") == "wo-fold-1"
           and "Grok" in row.get("agent", "")
           and row.get("product") == "result.md"
