@@ -789,7 +789,9 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                                     "control": st})
 
         def _send(self, code: int, obj: dict):
-            body = json.dumps({"served_at": time.time(), **obj}, indent=1).encode("utf-8")
+            body = json.dumps(
+                {"served_at": time.time(), **obj}, indent=1, default=str,
+            ).encode("utf-8")
             self.send_response(code)
             self.send_header("Content-Type", "application/json; charset=utf-8")
             self.send_header("Content-Length", str(len(body)))
@@ -903,6 +905,19 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
             self.end_headers()
 
         def do_GET(self):                                             # noqa: N802
+            try:
+                return self._do_GET()
+            except Exception as e:  # noqa: BLE001 — a handler bug must return JSON
+                try:
+                    return self._send(500, {
+                        "error": "HANDLER",
+                        "kind": type(e).__name__,
+                        "detail": str(e)[:300],
+                    })
+                except Exception:
+                    return
+
+        def _do_GET(self):
             # Static app shell FIRST, without the bearer (see _STATIC_ROUTES
             # and _CDECK_ROUTES: fixed files, no data, no token). Everything
             # below this line keeps requiring the bearer exactly as before.

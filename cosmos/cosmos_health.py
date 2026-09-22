@@ -115,3 +115,8 @@ class HealthBoard:
                                               "control_red": control_ok,
                                               "node": self.k.paths.sentinel.system})
         return board
+
+
+def snapshot(kernel, clock=time.time) -> dict:
+    """GET /api/v1/health. The route imports this name; the board is HealthBoard.run."""
+    return HealthBoard(kernel, clock).run()
