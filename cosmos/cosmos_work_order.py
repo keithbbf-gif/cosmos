@@ -915,6 +915,17 @@ def file_done(paths, order: dict, *, run_rec: dict | None = None,
     if rec.get("state") == "DONE" and check_rails is not False:
         from cosmos_work_order_checks import apply_done_checks
         rec = apply_done_checks(paths, rec, rails=check_rails, persist=True)
+        try:
+            from cosmos_crew_pipe import attach_pipe
+            rec = attach_pipe(paths, rec)
+        except Exception as e:  # noqa: BLE001 — a pipe miss must not un-DONE
+            rec["crew_pipe_error"] = f"{type(e).__name__}: {e}"[:200]
+    elif rec.get("state") == "FAILED":
+        try:
+            from cosmos_crew_pipe import note_failed
+            rec = note_failed(paths, rec)
+        except Exception as e:  # noqa: BLE001
+            rec["crew_pipe_error"] = f"{type(e).__name__}: {e}"[:200]
     return rec
 
 
