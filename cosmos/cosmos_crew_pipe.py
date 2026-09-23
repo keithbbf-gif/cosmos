@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""CCrew reply pipe — saved reply → code checks → Judge inbox → Gitur → CCr.
+"""CCrew reply pipe — saved reply → CPU checks → WOMBAT → Judge at 40 → Gitur.
 
 Legacy CHECKED rails (github / cursor / gitlab) stamp CI. They do not read
 the saved file. This module reads the reply, runs form checks on the bytes,
@@ -148,25 +148,48 @@ def wombat_action(rec: dict, *, reaches_judge: bool) -> str:
 
 
 def attach_pipe(paths, rec: dict) -> dict:
-    """File one pipe event for a saved DONE reply. Judge inbox only on pass."""
+    """py_compile, ruff, mypy, pytest, then WOMBAT. The Judge waits for 40."""
     rec = dict(rec)
     if rec.get("state") != "DONE":
         return rec
     text = _read_reply(rec)
-    fname = Path(str(rec.get("_output_path") or "reply.txt")).name
-    local = local_code_checks(text, filename=fname)
+    local = local_code_checks(text, filename=Path(str(rec.get("_output_path") or "reply.txt")).name)
     rails = legacy_rail_view(rec)
-    reaches = _local_pass(local) and not _rail_blocks(rails)
-    action = wombat_action(rec, reaches_judge=reaches)
+    from cosmos_code_checks import fails_of, run_code_checks
+    from cosmos_duds import DudsError, on_saved_reply
+    code_rows = run_code_checks(paths, rec, text)
+    blocked = [r for r in rails if r.get("status") in ("FAIL", "ERROR")]
+    force = "; ".join(
+        part for part in (
+            fails_of(code_rows),
+            "; ".join(f"{r['name']}: {r.get('detail') or ''}" for r in blocked),
+        ) if part
+    )
+    try:
+        filed = on_saved_reply(paths, rec, text, force_error=force)
+        crew = dict(filed.get("crew_pipe") or {})
+    except DudsError as e:
+        crew = {
+            "reaches_judge": False,
+            "wombat": "session_busy",
+            "stage": "refused",
+            "detail": f"{e.kind}: {e.detail}",
+        }
+    crew["local"] = local
+    crew["code_checks"] = [
+        {"tool": r["tool"], "status": r["status"], "returncode": r["returncode"]}
+        for r in code_rows
+    ]
+    crew["legacy_rails"] = rails
     event = {
         "schema": SCHEMA,
         "at": _iso_now(),
         "order_id": rec.get("order_id"),
-        "stage": "judge_inbox" if reaches else "checked",
-        "reaches_judge": reaches,
+        "stage": crew.get("stage"),
+        "reaches_judge": False,
         "local": local,
         "legacy_rails": rails,
-        "wombat": action,
+        "wombat": crew.get("wombat"),
         "output_path": rec.get("_output_path"),
     }
     root = pipe_root(paths)
@@ -175,31 +198,11 @@ def attach_pipe(paths, rec: dict) -> dict:
         "schema": SCHEMA,
         "at": event["at"],
         "order_id": event["order_id"],
-        "action": action,
-        "reaches_judge": reaches,
-        "note": _wombat_note(action),
+        "action": crew.get("wombat"),
+        "reaches_judge": False,
+        "note": _wombat_note(str(crew.get("wombat") or "")),
     })
-    if reaches:
-        oid = str(rec.get("order_id") or "unknown")
-        inbox = {
-            "schema": SCHEMA,
-            "order_id": oid,
-            "stage": "judge",
-            "reply_path": rec.get("_output_path"),
-            "local": local,
-            "legacy_rails": rails,
-            "instruction": (
-                "Judge grades, corrects, and saves. "
-                "Do not write LiT. Corrected text goes to Gitur next."
-            ),
-        }
-        (root / "judge_inbox" / f"{oid}.json").write_text(
-            json.dumps(inbox, indent=1), encoding="utf-8")
-    rec["crew_pipe"] = {
-        "reaches_judge": reaches,
-        "wombat": action,
-        "stage": event["stage"],
-    }
+    rec["crew_pipe"] = crew
     _persist_assigned(paths, rec)
     return rec
 
@@ -232,7 +235,10 @@ def note_failed(paths, rec: dict) -> dict:
 
 
 def file_judge_correction(paths, order_id: str, corrected: str, *, grade: str) -> dict:
-    """Judge save. Only KEEP/corrected text moves to the Gitur inbox."""
+    """Judge save. Refuses unless WOMBAT has seated the Judge at 40."""
+    from cosmos_duds import DudsError, _judge_seat
+    if not _judge_seat(paths).get("seated"):
+        raise DudsError("JUDGE_UNSEATED", "WOMBAT summons the Judge at 40")
     grade_u = str(grade or "").strip().upper()
     root = pipe_root(paths)
     src = root / "judge_inbox" / f"{order_id}.json"
@@ -368,34 +374,27 @@ def _selftest() -> int:
             },
         }
         out = attach_pipe(paths, rec)
-        check("parseable python reaches judge",
-              out["crew_pipe"]["reaches_judge"] is True)
-        check("judge inbox file exists",
-              (pipe_root(paths) / "judge_inbox" / "wo-pipe-1.json").is_file())
+        check("cpu pass is a candidate and does not seat the Judge",
+              out["crew_pipe"]["stage"] == "candidate"
+              and out["crew_pipe"]["reaches_judge"] is False)
+        check("judge inbox stays empty under 40",
+              not (pipe_root(paths) / "judge_inbox" / "wo-pipe-1.json").is_file())
         bad = dict(rec)
         bad["order_id"] = "wo-pipe-bad"
         bad["_output_path"] = str(reply)
         reply.write_text("def ping(\n", encoding="utf-8")
         held = attach_pipe(paths, bad)
-        check("syntax fail does not reach judge",
+        check("syntax fail does not reach the Judge",
               held["crew_pipe"]["reaches_judge"] is False)
-        check("wombat holds a failed check",
-              held["crew_pipe"]["wombat"] == "hold_for_fix")
-        reply.write_text("def ping():\n    return 1\n", encoding="utf-8")
-        rec2 = dict(rec)
-        rec2["order_id"] = "wo-pipe-2"
-        attach_pipe(paths, rec2)
-        file_judge_correction(paths, "wo-pipe-2", "def ping():\n    return 2\n", grade="KEEP")
-        check("KEEP lands in gitur inbox",
-              (pipe_root(paths) / "gitur_inbox" / "wo-pipe-2.json").is_file())
-        file_gitur_result(paths, "wo-pipe-2", status="PASS", detail="composer")
-        check("Gitur PASS lands in ccr inbox",
-              (pipe_root(paths) / "ccr_inbox" / "wo-pipe-2.json").is_file())
-        drop = file_judge_correction(paths, "wo-pipe-1", "", grade="DROP")
-        check("Judge DROP tells WOMBAT to reassign",
-              drop.get("wombat") == "reassign")
-        lines = (pipe_root(paths) / "wombat_board.jsonl").read_text(encoding="utf-8").strip().splitlines()
-        check("WOMBAT board has a row per transition", len(lines) >= 4)
+        check("wombat xFORMs the same session",
+              held["crew_pipe"]["wombat"] == "reprompt_session"
+              and held["crew_pipe"]["session_id"])
+        unseated = False
+        try:
+            file_judge_correction(paths, "wo-pipe-1", "", grade="KEEP")
+        except Exception as e:
+            unseated = type(e).__name__ == "DudsError"
+        check("an unseated Judge cannot file Gitur", unseated)
     return 0 if ok else 1
 
 
