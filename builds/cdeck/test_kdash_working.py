@@ -193,6 +193,7 @@ def main() -> int:
         and "talk-grid" in tabsjs
         and "data-talk-fr" in tabsjs
         and "4fr" in css
+        and "grid-column: 1 / -1" in css
         and "calc(160em / 14)" in css
         and "cdeckReapplyPaneGeom" in tabsjs
         and 'tabId === "talk"' in tabsjs

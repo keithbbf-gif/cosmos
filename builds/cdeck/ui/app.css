@@ -19,7 +19,11 @@ body[data-orch-mode="home"] #orch-home { display: block; }
   align-content: start;
 }
 .deck-panel { min-height: 0; }
-.deck-panel[data-tab="talk"] { width: auto; height: auto; }
+.deck-panel[data-tab="talk"] {
+  width: auto;
+  height: auto;
+  grid-column: 1 / -1;
+}
 .talk-grid {
   display: grid;
   grid-template-columns: 4fr minmax(8em, 1fr);
