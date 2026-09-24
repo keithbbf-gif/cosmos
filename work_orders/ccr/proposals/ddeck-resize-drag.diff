@@ -1,0 +1,31 @@
+diff --git a/builds/cdeck/ui/app.js b/builds/cdeck/ui/app.js
+--- a/builds/cdeck/ui/app.js
++++ b/builds/cdeck/ui/app.js
+@@ -7028,5 +7028,12 @@
+   function panelGeomNodes() {
+-    return document.querySelectorAll(
+-      ".home-card[id], .orch-code[id], #home-nav, #orch-home, #orch-east, .advanced, .panel[id]"
+-    );
++    var all = document.querySelectorAll(
++      ".home-card[id], .orch-code[id], #home-nav, #orch-home, #orch-east, .advanced, .panel[id]"
++    );
++    var out = [];
++    Array.prototype.forEach.call(all, function (el) {
++      if (el.closest && el.closest("#cdeck-more")) return;
++      out.push(el);
++    });
++    return out;
+   }
+
+diff --git a/builds/cdeck/ui/header.css b/builds/cdeck/ui/header.css
+--- a/builds/cdeck/ui/header.css
++++ b/builds/cdeck/ui/header.css
+@@ -374,4 +374,4 @@
+-#cdeck-more .pane-rh{position:absolute;z-index:3;background:transparent}
+-#cdeck-more .pane-rh-se{width:14px;height:14px;right:0;bottom:0;cursor:nwse-resize}
+-#cdeck-more .pane-rh-e{top:12px;bottom:14px;right:0;width:8px;cursor:ew-resize}
+-#cdeck-more .pane-rh-s{left:12px;right:14px;bottom:0;height:8px;cursor:ns-resize}
++#cdeck-more .pane-rh{position:absolute;z-index:3;touch-action:none;user-select:none;background:transparent}
++#cdeck-more .pane-rh-se{width:14px;height:14px;right:0;bottom:0;cursor:nwse-resize;background:linear-gradient(135deg,transparent 46%,#8a5a2b 46% 54%,transparent 54% 66%,#8a5a2b 66% 74%,transparent 74%)}
++#cdeck-more .pane-rh-e{top:12px;bottom:14px;right:0;width:8px;cursor:ew-resize;background:linear-gradient(to left,#8a5a2b 0 1px,transparent 1px)}
++#cdeck-more .pane-rh-s{left:12px;right:14px;bottom:0;height:8px;cursor:ns-resize;background:linear-gradient(to top,#8a5a2b 0 1px,transparent 1px)}

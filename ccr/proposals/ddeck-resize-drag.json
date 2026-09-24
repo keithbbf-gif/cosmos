@@ -1,0 +1,74 @@
+{
+  "schema": "cosmos-agent-proposal/1",
+  "agent": "xAI | Grok | grok-4.6",
+  "route": "CURSOR",
+  "p10": "PROPOSE — CCr disposes to the cdeck ui tree; this chair does not hold that pen",
+  "job": "phase1-p2-ddeck-resize-drag",
+  "title": "D-deck resize / drag — keep one persist, paint the live grips",
+  "intent": "D-deck extra panes already resize and drag. Quote the live handles. Patch only the leftover hole: app.js panelGeom must not bind #cdeck-more tiles (second persist), and pane-rh must not stay invisible.",
+  "live_quotes": {
+    "index.html": [
+      ".win{position:fixed;top:0;left:0;width:100%;height:100%;min-width:360px;min-height:48px;",
+      " display:flex;flex-direction:column;overflow:hidden;resize:both}",
+      "      I wrote FOUR generations of overrides (v3, v4, v5, v6) against `.grid` — a selector that does",
+      "      not exist in this document. Every one of them was dead CSS.",
+      " /* (v3-v6 override blocks deleted 2026-07-13 — they all targeted `.grid`, which does not exist in",
+      "     this document, so every one of them was dead CSS. The single live rule is `.body` above.) */",
+      "bar.addEventListener(\"pointerdown\",e=>{if(e.target.classList.contains(\"wbtn\")||e.target.tagName===\"INPUT\"||e.target.tagName===\"BUTTON\")return;dr=true;bar.classList.add(\"drag\");dx=e.clientX-win.offsetLeft;dy=e.clientY-win.offsetTop;bar.setPointerCapture(e.pointerId)});",
+      "  core.addEventListener(\"pointerdown\", e=>{",
+      "    const g=e.target.closest(\"[data-drag]\"); if(!g) return;"
+    ],
+    "app.js": [
+      "  function panelGeomNodes() {",
+      "    return document.querySelectorAll(",
+      "      \".home-card[id], .orch-code[id], #home-nav, #orch-home, #orch-east, .advanced, .panel[id]\"",
+      "    );",
+      "  }",
+      "  function ensureRh(el) {",
+      "    else h.className = \"rh\";",
+      "    h.title = \"drag to resize\";",
+      "  function bindPanelResize() {",
+      "        _rhDrag = { el: el, x: e.clientX, y: e.clientY, w: r.width, h: r.height, mode: rhKind(el) };",
+      "    deck.panelGeom = deck.panelGeom || {};"
+    ],
+    "already_present_not_this_hole": [
+      "index.html .win resize:both + #bar pointer move + SVG [data-drag] node move",
+      "v3-v6 .grid overrides are comments only; live MESH rule is .body",
+      "header.js fetch(deck_more.html) then deck_tabs.js + initDeckTabs()",
+      "deck_tabs.js GEOM_KEY cdeckPaneBoard:v4; ensureHandles pane-rh se/e/s + pane-drag; bindBoard snap 16",
+      "header.css #cdeck-more .pane-rh / .pane-tile / .pane-board already exist",
+      "app.js ensureRh + col-grip + panelGeom + Talk 4fr applyOrchTracks — orch home, not D-deck"
+    ]
+  },
+  "still_missing": [
+    "app.js panelGeomNodes matches .panel[id] / .home-card[id] inside #cdeck-more, so bindPanelResize writes a second persist (panelGeom) on tiles that already use cdeckPaneBoard:v4",
+    "header.css #cdeck-more .pane-rh is background:transparent so the live D-deck grips look gone"
+  ],
+  "diff": "work_orders/ccr/proposals/ddeck-resize-drag.diff",
+  "proposals": [
+    {
+      "target_path": "builds/cdeck/ui/app.js",
+      "action": "edit",
+      "rationale": "panelGeomNodes skips #cdeck-more. One persist. No new layout engine. No second Core."
+    },
+    {
+      "target_path": "builds/cdeck/ui/header.css",
+      "action": "edit",
+      "rationale": "Paint pane-rh-se/e/s with the existing #8a5a2b grip language from the pane-board grid. Same store."
+    }
+  ],
+  "out_of_scope": [
+    "No new layout engine",
+    "No second Core",
+    "No second persist key",
+    "No rewrite of .body / v3-v6 comments",
+    "No orch-home invention in the scarred index.html",
+    "No grok.exe",
+    "No merge"
+  ],
+  "verify": [
+    "VERIFY live: index.html has resize:both on .win, #bar pointer drag, [data-drag] on core, v3-v6 comments only",
+    "VERIFY live: app.js ensureRh/bindPanelResize/panelGeom and deck_tabs pane-rh/cdeckPaneBoard:v4 already exist",
+    "VERIFY patch: panelGeomNodes excludes #cdeck-more; pane-rh-se/e/s use #8a5a2b; no new GEOM_KEY"
+  ]
+}
