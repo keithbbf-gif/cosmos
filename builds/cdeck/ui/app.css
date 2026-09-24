@@ -1,0 +1,55 @@
+.mesh-fold { padding: 8px; display: grid; gap: 8px; }
+.panel { border: 1px solid #ccc; border-radius: 6px; padding: 8px; background: #faf8f5; }
+.launch-pad h2 { margin: 0 0 6px; font-size: 13px; }
+.launch-copy { margin: 0; font-size: 12px; line-height: 1.35; color: #333; }
+.dim.tiny { font-size: 11px; color: #555; }
+body.cdeck-type-s { font-size: 12px; }
+body.cdeck-type-m { font-size: 14px; }
+body.cdeck-type-l { font-size: 16px; }
+body[data-orch-mode="code"] #orch-home { display: none; }
+body[data-orch-mode="home"] #orch-home { display: block; }
+.model-rater-drawer { position: fixed; right: 0; top: 48px; width: min(420px, 95vw); height: calc(100% - 48px); background: #fff; border-left: 1px solid #ccc; overflow: auto; z-index: 20; }
+.model-rater-drawer.hidden { display: none; }
+
+.deck-stage {
+  display: grid;
+  /* 160px at type-size M (14px). S/M/L scales the snap cell; do not lock px. */
+  grid-template-columns: repeat(auto-fill, minmax(calc(160em / 14), 1fr));
+  gap: 8px;
+  align-content: start;
+}
+.deck-panel { min-height: 0; }
+.deck-panel[data-tab="talk"] { width: auto; height: auto; }
+.talk-grid {
+  display: grid;
+  grid-template-columns: 4fr minmax(8em, 1fr);
+  gap: 8px;
+  min-height: 0;
+}
+.talk-main, .talk-side {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 6px;
+  min-width: 0;
+}
+.sys-grid { display: grid; gap: 8px; }
+.sys-block { border: 1px solid #ddd; border-radius: 4px; padding: 6px; font-size: 12px; }
+.sys-hd { margin: 0 0 4px; font-size: 13px; }
+.sys-err { color: #a00; font-weight: 600; }
+.sys-list { margin: 4px 0 0; padding-left: 18px; }
+.verdict.red { color: #a00; font-weight: 700; }
+.verdict.green { color: #080; font-weight: 700; }
+.dot.g { color: #080; }
+.dot.r { color: #a00; }
+.ncrow .dot.r { color: #a00; }
+.nclabel { font-size: 10px; color: #a00; font-weight: 700; }
+.empty { color: #666; font-style: italic; }
+.kv { margin: 4px 0; }
+.kv dt { font-weight: 600; }
+.twrap { overflow-x: auto; }
+.twrap table { width: 100%; border-collapse: collapse; font-size: 11px; }
+.twrap th, .twrap td { border-bottom: 1px solid #eee; padding: 2px 4px; text-align: left; }
+tr.stale-red td, .sys-list li.bad { color: #a00; font-weight: 700; }
+.ok { color: #080; }
+.bad { color: #a00; }
+.warn { color: #a60; }
