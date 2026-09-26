@@ -26,8 +26,9 @@ only because Keith asked.
 
 POST https://openrouter.ai/api/v1/chat/completions
 GET  https://openrouter.ai/api/v1/models
-Key: live/config/openrouter_api_key.txt (never printed). OPENROUTER_API_KEY
-env is a fallback, not a second store.
+Key: fill_first across live/config/openrouter_api_key.txt, _2, and _3
+(never printed). Sticks on the first present file until 402, or until a
+second 429. OPENROUTER_API_KEY env is a fallback, not a second store.
 
 Runtime binding = response.model, not the request. allow_fallbacks=false.
 Do not send openrouter/free or openrouter/auto.
@@ -89,13 +90,19 @@ NEMOTRON_SUPER_FREE = "nvidia/nemotron-3-super-120b-a12b:free"
 NEMOTRON_NANO_OMNI_FREE = "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
 NEX_N25_MINI_FREE = "nex-agi/nex-n2.5-mini:free"
 NEX_N25_PRO_FREE = "nex-agi/nex-n2.5-pro:free"
+QWEN38_27B_FREE = "qwen/qwen3.8-27b:free"
 QWEN35_9B = "qwen/qwen3.5-9b"
 GPT_OSS_20B = "openai/gpt-oss-20b"
+SPACE_BUNNY_ALPHA = "stealth/space-bunny-alpha"
+LAGUNA_S_FREE = "poolside/laguna-s-2.1:free"
+LAGUNA_XS_FREE = "poolside/laguna-xs-2.1:free"
+DOTS3_FREE = "dots-studio/dots-3-note-preview:free"  # catalog id; dots3-note 400
 PINNED_FREE = frozenset({
     DEFAULT_MODEL, GEMMA_31B, LING_FLASH_VL_FREE,
     INKLING_SMALL_FREE, INKLING_FREE, NEMOTRON_ULTRA_FREE, NEMOTRON_LIGHTNING_FREE,
     NORTH_MINI_CODE_FREE, NEMOTRON_SUPER_FREE, NEMOTRON_NANO_OMNI_FREE,
-    NEX_N25_MINI_FREE, NEX_N25_PRO_FREE,
+    NEX_N25_MINI_FREE, NEX_N25_PRO_FREE, QWEN38_27B_FREE,
+    SPACE_BUNNY_ALPHA, LAGUNA_S_FREE, LAGUNA_XS_FREE, DOTS3_FREE,
 })
 # Keith 2026-09-10: try Qwen3 / Nemotron / Mistral as extra cheap families.
 # Named pins only. Not :free. Not ~latest. Not Qwen3.8 Max. Not Devstral ($0.40/$2).
@@ -168,10 +175,24 @@ CHEAP_CODERS = (VALUE_CODER, GLM52, GLM53, GLM53_FLASH_BATCH,
                 SOLAR_PRO4, LING_FLASH, LING_FLASH_VL,
                 SEED_20_MINI, MINISTRAL_8B, LLAMA4_SCOUT, LLAMA33_70B,
                 QWEN3_8B, QWEN3_30B, QWEN3_VL_8B, QWEN3_VL_32B,
-                QWEN35_9B, GPT_OSS_20B, GEMMA_26B_PAID)
+                QWEN35_9B, GPT_OSS_20B, GEMMA_26B_PAID, MIMO_V25)
+GPT6_LUNA = "openai/gpt-6-luna"
+GPT6_LUNA_PRO = "openai/gpt-6-luna-pro"
+QWEN37_FLASH = "qwen/qwen3.7-flash"
+LAGUNA_S = "poolside/laguna-s-2.1"
+LAGUNA_XS = "poolside/laguna-xs-2.1"
+BONSAI_27B = "prism-ml/ternary-bonsai-2-27b"
+DS41_FLASH = "deepseek/deepseek-v4.1-flash"
+GEMMA_31B_PAID = "google/gemma-4-31b-it"
+SOLAR_MINI4 = "upstage/solar-mini4"
 PINNED_VALUE = frozenset(CHEAP_CODERS) | FLEX_MODELS | {
     GPT56_SOL, MUSE_SPARK_12, GEMINI_36_FLASH, GEMINI_38_FLASH_OR,
-    DEEPSEEK_V4_PRO, GROK_46_OR,
+    DEEPSEEK_V4_PRO, GROK_46_OR, GPT6_LUNA, GPT6_LUNA_PRO,
+    QWEN37_FLASH, LAGUNA_S, LAGUNA_XS, BONSAI_27B, DS41_FLASH,
+    GEMMA_31B_PAID, SOLAR_MINI4,
+    "thinkingmachines/inkling",
+    "qwen/qwen3.6-35b-a3b",
+    "nvidia/nemotron-3-ultra-550b-a55b",
 }
 PINNED = PINNED_FREE | PINNED_VALUE
 CHAT_PATH = "/chat/completions"
@@ -233,13 +254,19 @@ def model_refused(model: str) -> str | None:
     m = (model or "").strip()
     if not m:
         return "empty model"
-    ml = m.lower()
-    if ml in _ROTATING or (ml.endswith("/free") and "gemma-4" not in ml):
+    from cosmos_route_variant import RouteVariantError, catalog_id
+    try:
+        cid = catalog_id(m)
+    except RouteVariantError as e:
+        return f"{e.kind}: {e}"
+    ml = cid.lower()
+    if ml in _ROTATING or m.lower() in _ROTATING or (
+            ml.endswith("/free") and "gemma-4" not in ml):
         return f"rotating/unpinned OpenRouter id {m!r} (H3 silent swap — named pin only)"
-    if m.startswith("~") or ml.endswith("-latest"):
-        return f"alias/latest id {m!r} is not a named pin"
-    if m not in PINNED:
-        return f"not a pinned OpenRouter id {m!r}; want {sorted(PINNED)}"
+    if cid.startswith("~") or ml.endswith("-latest"):
+        return f"alias/latest id {cid!r} is not a named pin"
+    if cid not in PINNED:
+        return f"not a pinned OpenRouter id {cid!r}; want {sorted(PINNED)}"
     return None
 
 
@@ -419,18 +446,40 @@ def redact_key(key: str) -> str:
     return "sk-or-…????"
 
 
+def read_key_file(key_path: Path | None) -> str | None:
+    """File text only. No env fallback. Empty and whitespace are absent."""
+    if key_path is None:
+        return None
+    p = Path(key_path)
+    if not p.is_file():
+        return None
+    try:
+        text = p.read_text(encoding="utf-8").strip()
+    except OSError:
+        return None
+    return text or None
+
+
 def read_key(key_path: Path | None) -> str | None:
-    if key_path is not None:
-        p = Path(key_path)
-        if p.exists():
-            try:
-                text = p.read_text(encoding="utf-8").strip()
-            except OSError:
-                text = ""
-            if text:
-                return text
+    text = read_key_file(key_path)
+    if text:
+        return text
     env = (os.environ.get("OPENROUTER_API_KEY") or "").strip()
     return env or None
+
+
+def _sticky_session(cache_key: str, key_name: str | None) -> str | None:
+    """Same key file keeps one session id. A rotate changes it once.
+
+    The filename is not a secret. Key bytes never enter this string.
+    """
+    name = (key_name or "").strip()
+    ck = (cache_key or "").strip()
+    if name and ck:
+        return ck + ":" + name
+    if name:
+        return name
+    return ck or None
 
 
 def _http_kind(status: int) -> str:
@@ -701,16 +750,44 @@ class OpenRouterRail:
     kind = "API"
 
     def __init__(self, key_path: Path | str | None, spec: dict | None = None,
-                 http=None):
+                 http=None, *, paths=None):
         self.spec = merge_spec(spec)
         self.key_path = Path(key_path) if key_path is not None else None
         self.metered_usd = float(self.spec.get("metered_usd") or 0.0)
         self._http = http
+        self.paths = paths
+        self._fill = None
         self.link_id = self.spec["link_id"]
         self._last = None
 
     def last_identity(self) -> dict | None:
         return self._last
+
+    def _fill_choose(self) -> dict:
+        from cosmos_or_fill_first import pick, view
+        chosen = pick(self.paths)
+        self._fill = view(chosen)
+        return chosen
+
+    def _fill_key(self) -> str | None:
+        """pick() once per live HTTP call. A chosen file does not fall through to env."""
+        if self.paths is not None:
+            name = self._fill_choose().get("key_name")
+            if name:
+                return read_key_file(self.paths.config(name))
+        return read_key(self.key_path)
+
+    def _fill_note(self, status: int) -> None:
+        """402 rotates now. First 429 stays so the next call retries that key."""
+        if self.paths is None or int(status) < 0:
+            return
+        from cosmos_or_fill_first import FillFirstError, note_status, view
+        try:
+            noted = note_status(
+                self.paths, int(status), retry=(int(status) == 429))
+        except FillFirstError:
+            return
+        self._fill = view(noted)
 
     def _headers(self, key: str) -> dict:
         return {
@@ -725,22 +802,26 @@ class OpenRouterRail:
     def _call(self, method: str, path: str, body=None):
         if self._http is not None:
             return self._http(method, path, body)
-        key = read_key(self.key_path)
+        key = self._fill_key()
         if not key:
             return 401, {}, {"error": {"message": "NO_KEY", "code": "invalid_api_key"}}
         url = self.spec["base"] + path
-        return _real_http(method, url, body, self._headers(key),
-                          float(self.spec["timeout_s"]))
+        status, hdrs, obj = _real_http(method, url, body, self._headers(key),
+                                       float(self.spec["timeout_s"]))
+        self._fill_note(status)
+        return status, hdrs, obj
 
     def _call_abs(self, method: str, url: str, body=None):
         if self._http is not None:
             path = url[len(BATCH_BASE):] if url.startswith(BATCH_BASE) else url
             return self._http(method, path, body)
-        key = read_key(self.key_path)
+        key = self._fill_key()
         if not key:
             return 401, {}, {"error": {"message": "NO_KEY", "code": "invalid_api_key"}}
-        return _real_http(method, url, body, self._headers(key),
-                          float(self.spec["timeout_s"]))
+        status, hdrs, obj = _real_http(method, url, body, self._headers(key),
+                                       float(self.spec["timeout_s"]))
+        self._fill_note(status)
+        return status, hdrs, obj
 
     def submit_batch(self, model: str, requests: list, *,
                      endpoint: str = "/v1/chat/completions") -> tuple:
@@ -800,8 +881,18 @@ class OpenRouterRail:
         return self._dispatch_body(payload, paths=paths)
 
     def _dispatch_body(self, payload: dict, *, paths=None) -> dict:
+        if paths is not None and self.paths is None:
+            self.paths = paths
         payload = payload if isinstance(payload, dict) else {}
-        model = str(payload.get("model") or self.spec["default_model"]).strip()
+        raw_model = str(payload.get("model") or self.spec["default_model"]).strip()
+        from cosmos_route_variant import RouteVariantError, request_model
+        try:
+            model = request_model(
+                raw_model, paths=paths, priority=payload.get("routing"),
+            )
+        except RouteVariantError as e:
+            return {"ok": False, "kind": e.kind, "detail": str(e),
+                    "model_requested": raw_model, "link_id": self.link_id}
         why = model_refused(model)
         if why:
             return {"ok": False, "kind": "REFUSED", "detail": why,
@@ -848,24 +939,51 @@ class OpenRouterRail:
         pck = str(payload.get("prompt_cache_key") or "").strip()
         if not pck and flex:
             pck = cache_family(model=model)
+        key_name = None
+        if self.paths is not None:
+            key_name = self._fill_choose().get("key_name")
+        sid = _sticky_session(pck, key_name)
         if pck:
             body["prompt_cache_key"] = pck
-            body["session_id"] = pck
+        explicit_sid = str(payload.get("session_id") or "").strip()
+        if explicit_sid:
+            body["session_id"] = explicit_sid[:256]
+        elif sid:
+            body["session_id"] = sid
+        trace = payload.get("trace")
+        if isinstance(trace, dict) and trace:
+            body["trace"] = trace
         if flex:
             body["prompt_cache_options"] = {"mode": "explicit", "ttl": "30m"}
+        rsn = payload.get("reasoning")
+        if isinstance(rsn, dict) and rsn:
+            body["reasoning"] = rsn
         tools = payload.get("tools")
         if isinstance(tools, list) and tools:
             body["tools"] = tools
+        choice = payload.get("tool_choice")
+        if choice:
+            body["tool_choice"] = choice
+        if payload.get("parallel_tool_calls") is False:
+            body["parallel_tool_calls"] = False
+        if payload.get("tools") and payload.get("require_tool_provider"):
+            prov["require_parameters"] = True
         # Cookbook: usage is always in the response. Do not send the
         # deprecated usage.include / stream_options.include_usage flags.
         status, hdrs, obj = self._call("POST", CHAT_PATH, body)
         usage = obj.get("usage") if isinstance(obj, dict) else None
+        err = obj.get("error") if isinstance(obj, dict) else None
+        err_msg = ""
+        if isinstance(err, dict):
+            err_msg = str(err.get("message") or err.get("code") or err)[:400]
+        elif isinstance(err, str):
+            err_msg = err[:400]
         response_model = obj.get("model") if isinstance(obj, dict) else None
         content = _message_text(obj if isinstance(obj, dict) else {})
         bound_ok = bool(response_model) and (
             str(response_model) == model or str(response_model).startswith(model.split(":")[0])
         )
-        ok = status == 200 and bound_ok
+        ok = status == 200 and bound_ok and not err_msg
         usage_fold = fold_usage(obj if isinstance(obj, dict) else {})
         rec = {
             "ok": ok,
@@ -880,7 +998,10 @@ class OpenRouterRail:
             "id": obj.get("id") if isinstance(obj, dict) else None,
             "provider_tag": (prov.get("only") or [None])[0],
             "link_id": self.link_id,
-            "detail": f"http={status} response_model={response_model!r}",
+            "detail": (
+                f"http={status} error={err_msg!r}" if err_msg
+                else f"http={status} response_model={response_model!r}"
+            ),
         }
         if not ok and rec["kind"] is None:
             rec["kind"] = "BROKE"
@@ -901,6 +1022,16 @@ class OpenRouterRail:
                              text_packet=rec.get("text_packet"))
             except Exception:  # noqa: BLE001
                 rec["usage_record"] = "BROKE"
+        fill = self._fill if isinstance(self._fill, dict) else None
+        if fill and (fill.get("rotated") or fill.get("last_status") in (402, 429)):
+            rec["fill_first"] = {
+                "kind": fill.get("kind"),
+                "key_name": fill.get("key_name"),
+                "rotated": bool(fill.get("rotated")),
+                "retries": fill.get("retries"),
+                "last_status": fill.get("last_status"),
+                "note": fill.get("note"),
+            }
         self._last = rec
         return rec
 
@@ -984,7 +1115,8 @@ def register_openrouter_rail(registry, adapters: dict, spend_gate=None,
     spec = _pin_origin(spec)
     if key_path is None and paths is not None:
         key_path = key_path_for(paths, spec)
-    rail = OpenRouterRail(key_path, spec, http=http)
+    rail = OpenRouterRail(key_path, spec, http=http, paths=paths)
+    rail.paths = paths
     lid = rail.link_id
     if lid not in registry.state():
         registry.register(lid, spec["rail_type"], spec["src"], spec["dst"],
@@ -1509,7 +1641,7 @@ def main() -> int:
             from cosmos_paths import CosmosPaths
             paths = CosmosPaths(a.root)
             spec = load_spec(spec_path_for(paths))
-            rail = OpenRouterRail(key_path_for(paths, spec), spec)
+            rail = OpenRouterRail(key_path_for(paths, spec), spec, paths=paths)
             ok, detail = rail.probe()
             ident = rail.last_identity() or {}
             print(json.dumps({

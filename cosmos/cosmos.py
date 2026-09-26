@@ -76,9 +76,20 @@ def main() -> int:
     p_start.add_argument("--root", required=True)
     sub.add_parser("deck",
                    help="Launch native cDeck (DT process window, not a browser)")
+    p_xt = sub.add_parser(
+        "xtalk",
+        help="XTalk stream. Same wire as GET/POST /api/v1/xtalk. Does not boot a Kernel.",
+    )
+    p_xt.add_argument("xtalk_args", nargs=argparse.REMAINDER)
 
     a = ap.parse_args()
 
+    if a.cmd == "xtalk":
+        from cosmos_xtalk import _cli
+        argv = list(a.xtalk_args or [])
+        if argv[:1] == ["--"]:
+            argv = argv[1:]
+        return _cli(argv)
     if a.cmd == "deck":
         from cosmos_cdeck_launch import launch_cdeck
         rec = launch_cdeck()

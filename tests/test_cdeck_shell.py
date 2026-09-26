@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """Gated tests for F-11: Core serves builds/cdeck/ui/ on its own origin.
 
 PARITY_AUDIT K-2: a browser deck is cross-origin to Core unless Core itself
@@ -29,7 +28,7 @@ REPO = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 sys.path.insert(0, str(REPO / "cosmos"))
 
-from cosmos_kernel import Kernel, install  # noqa: E402
+from cosmos_kernel import Kernel, install
 
 EVIDENCE = REPO / "cosmos" / "_f11_test_cdeck_shell.json"
 PRECHANGE_PY = (
@@ -52,6 +51,10 @@ NAMED = (
     "header_js_bytes",
     "deck_more_html_bytes",
     "deck_tabs_js_bytes",
+    "deck_pilot_js_bytes",
+    "deck_womb_js_bytes",
+    "gitur_launch_js_bytes",
+    "deck_sessions_page_js_bytes",
     "kdash_name_not_cdeck",
     "tab_smoke_fill",
 )
@@ -108,23 +111,25 @@ def run_named_checks(svc) -> list:
     port = svc.port
     disk = {n: (UI / n).read_bytes() for n in (
         "index.html", "app.js", "app.css", "cdeck.webmanifest", "sw.js",
-        "header.js", "deck_more.html", "deck_tabs.js")}
+        "header.js", "deck_more.html", "deck_tabs.js",
+        "deck_pilot.js", "deck_womb.js", "gitur_launch.js",
+        "deck_sessions_page.js")}
 
     code, hdrs, body = _raw_get(port, "/cdeck")
     rec("slashless_redirect",
         code == 302 and hdrs.get("location") == "/cdeck/",
-        "status=%s location=%s" % (code, hdrs.get("location")))
+        "status={} location={}".format(code, hdrs.get("location")))
 
     code, hdrs, body = _raw_get(port, "/cdeck/")
     rec("index_bytes",
         code == 200 and body == disk["index.html"]
         and (hdrs.get("content-type") or "").startswith("text/html"),
-        "status=%s bytes=%s disk=%s ctype=%s" % (
+        "status={} bytes={} disk={} ctype={}".format(
             code, len(body), len(disk["index.html"]),
             hdrs.get("content-type")))
     rec("no_cross_origin_header",
         code == 200 and "access-control-allow-origin" not in hdrs,
-        "status=%s has_acao=%s" % (
+        "status={} has_acao={}".format(
             code, "access-control-allow-origin" in hdrs))
 
     for name, path, key in (
@@ -134,39 +139,45 @@ def run_named_checks(svc) -> list:
             ("sw_bytes", "/cdeck/sw.js", "sw.js"),
             ("header_js_bytes", "/cdeck/header.js", "header.js"),
             ("deck_more_html_bytes", "/cdeck/deck_more.html", "deck_more.html"),
-            ("deck_tabs_js_bytes", "/cdeck/deck_tabs.js", "deck_tabs.js")):
-        c, h, b = _raw_get(port, path)
+            ("deck_tabs_js_bytes", "/cdeck/deck_tabs.js", "deck_tabs.js"),
+            ("deck_pilot_js_bytes", "/cdeck/deck_pilot.js", "deck_pilot.js"),
+            ("deck_womb_js_bytes", "/cdeck/deck_womb.js", "deck_womb.js"),
+            ("gitur_launch_js_bytes", "/cdeck/gitur_launch.js", "gitur_launch.js"),
+            ("deck_sessions_page_js_bytes", "/cdeck/deck_sessions_page.js",
+             "deck_sessions_page.js")):
+        c, _h, b = _raw_get(port, path)
         rec(name,
             c == 200 and b == disk[key],
-            "status=%s bytes=%s disk=%s" % (c, len(b), len(disk[key])))
+            f"status={c} bytes={len(b)} disk={len(disk[key])}")
 
     code, hdrs, body = _raw_get(port, "/api/v1/status")
     rec("api_loopback_open",
         code == 200 and b'"ready"' in body,
-        "status=%s" % code)
+        f"status={code}")
 
     code, hdrs, body = _raw_get(port, "/cdeck/manifest.webmanifest")
     rec("kdash_name_not_cdeck",
         code in (401, 404) and body != disk["cdeck.webmanifest"],
-        "status=%s" % code)
+        f"status={code}")
 
     tabs = disk["deck_tabs.js"].decode("utf-8", errors="replace")
     fill = tabs.split("FILL_TABS = {")[1].split("};")[0] if "FILL_TABS = {" in tabs else ""
     rec("tab_smoke_fill",
-        all(n + ":" in fill for n in (
-            "studio", "runs", "orders", "gitur", "forge", "crucible")),
-        "fill=%s" % fill[:120])
+        all(n + ":" in fill or ('"' + n + '":') in fill for n in (
+            "studio", "runs", "orders", "gitur", "forge", "crucible",
+            "orc-chat", "womb")),
+        f"fill={fill[:120]}")
 
     code, hdrs, body = _raw_get(port, "/cdeck/nope")
     rec("unknown_cdeck_not_served",
         code in (401, 404) and body != disk["index.html"],
-        "status=%s" % code)
+        f"status={code}")
 
     code, hdrs, body = _raw_get(port, "/cdeck/../cosmos/cosmos_service.py")
     py = (REPO / "cosmos" / "cosmos_service.py").read_bytes()
     rec("traversal_is_not_a_file",
         body != py and code in (401, 404, 400),
-        "status=%s body_len=%s" % (code, len(body)))
+        f"status={code} body_len={len(body)}")
     return out
 
 
@@ -195,18 +206,17 @@ def run_against(service_py: Path | None, tag: str) -> dict:
 
 
 def _print_run(title, run):
-    print("== %s ==" % title)
-    print("  loaded: %s" % run.get("loaded"))
+    print(f"== {title} ==")
+    print("  loaded: {}".format(run.get("loaded")))
     for c in run.get("checks") or []:
-        print("  %s  %s  %s" % (
+        print("  {}  {}  {}".format(
             "OK  " if c["ok"] else "FAIL", c["name"], c.get("detail") or ""))
-    print("  %d/%d passed" % (run.get("tests_passed", 0),
-                              run.get("tests_run", 0)))
+    print(f"  {run.get('tests_passed', 0)}/{run.get('tests_run', 0)} passed")
 
 
 def main() -> int:
     if not PRECHANGE_PY.is_file():
-        print("REFUSING: pre-F-11 service not staged at %s" % PRECHANGE_PY)
+        print(f"REFUSING: pre-F-11 service not staged at {PRECHANGE_PY}")
         return 1
     pre = run_against(PRECHANGE_PY, "pre")
     if not pre.get("discriminating_failed"):
@@ -230,12 +240,13 @@ def main() -> int:
     EVIDENCE.write_text(json.dumps(evidence, indent=1), encoding="utf-8")
     _print_run("PRECHANGE (discriminating MUST fail)", pre)
     _print_run("CURRENT (all named MUST pass)", cur)
-    print("EVIDENCE %s" % EVIDENCE)
-    print("SELFTEST %s - %d checks current, %d passed; prechange discriminating "
-          "failed=%s"
-          % ("PASS" if evidence["ok"] else "FAIL",
-             cur["tests_run"], cur["tests_passed"],
-             pre.get("discriminating_failed")))
+    print(f"EVIDENCE {EVIDENCE}")
+    verdict = "PASS" if evidence["ok"] else "FAIL"
+    print(
+        f"SELFTEST {verdict} - {cur['tests_run']} checks current, "
+        f"{cur['tests_passed']} passed; prechange discriminating "
+        f"failed={pre.get('discriminating_failed')}"
+    )
     return 0 if evidence["ok"] else 1
 
 

@@ -1,0 +1,3 @@
+[submodule "builds/cdeck"]
+	path = builds/cdeck
+	url = https://github.com/keithbbf-gif/cdeck.git
