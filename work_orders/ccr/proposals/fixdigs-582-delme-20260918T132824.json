@@ -1,0 +1,15 @@
+{
+ "id": "582-delme",
+ "pr": 582,
+ "digs": "reused V:\\A\\Ai\\COSMOS\\live\\work\\codex\\hero\\582-delme e42c29f0",
+ "file_exists": true,
+ "ok": false,
+ "done": false,
+ "model": null,
+ "n_diff": 0,
+ "diff": "",
+ "last": "",
+ "usage": null,
+ "done_why": "rc=2",
+ "stderr_tail": "error: unexpected argument '--full-auto' found\n\n  tip: to pass '--full-auto' as a value, use '-- --full-auto'\n\nUsage: codex exec [OPTIONS] [PROMPT]\n       codex exec [OPTIONS] <COMMAND> [ARGS]\n\nFor more information, try '--help'.\n"
+}

@@ -1,0 +1,46 @@
+{
+ "wallet": "Kelly vertex-coding $57 left (Keith 2026-09-18)",
+ "pr": 587,
+ "prefix_chars": 39068,
+ "item_chars": 2353,
+ "calls": [
+  {
+   "n": 1,
+   "tag": "miss",
+   "ok": true,
+   "reason": "OK",
+   "model": "gemini-3.8-flash",
+   "via": "vertex",
+   "account": "orders.ggn@gmail.com",
+   "project": "project-10b3a132-ec5b-41e9-a2c",
+   "tokens": {
+    "in": 13143,
+    "out": 42,
+    "thinking": 621,
+    "cached": 0
+   },
+   "cost_usd_rail": 0.0056,
+   "detail": "",
+   "text": "KEEP\nCodifies Keith's 2026-09-18 pen mandate, receipt sequence, and Gitur-to-LiT pipeline requirements into the referenced canon document.\n\nNONE"
+  },
+  {
+   "n": 2,
+   "tag": "reload",
+   "ok": true,
+   "reason": "OK",
+   "model": "gemini-3.8-flash",
+   "via": "vertex",
+   "account": "orders.ggn@gmail.com",
+   "project": "project-10b3a132-ec5b-41e9-a2c",
+   "tokens": {
+    "in": 13143,
+    "out": 42,
+    "thinking": 692,
+    "cached": 0
+   },
+   "cost_usd_rail": 0.005778,
+   "detail": "",
+   "text": "KEEP\nThis document accurately codifies Keith's 2026-09-18 pen grant orthodoxy, the single write pipe, and WOMBAT judge staging referenced across existing canon.\n\nNONE"
+  }
+ ]
+}

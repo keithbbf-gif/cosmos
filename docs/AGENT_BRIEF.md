@@ -70,12 +70,9 @@ Coding sessions are **discrete dropped jobs**. You receive the work order (DHx +
 assignment + bounds), not the orch transcript. Stay inside that job. Do not pull COW's
 window into yours. That is how coder context stays small too.
 
-**Resession SOP** (`docs/RESESSION_SOP.md`, Keith 2026-09-10): at ~70% pack; on TidyUP /
-"resession now" / "write BUcr" — TidyUP + TU2 + **BUcr.toml** + pointer
-`BOOTUP_PASTE.md` into a **new** `--session-id` via `--prompt-file` (5a, exits)
-then `cmd /c start … grok.exe … -r <same uuid>` (5b TUI). **Both steps. Do not
-forget.** Skip 5b → vanished TUI (`f5132f97`). Skip 5a → empty TUI. Then summary
-+ END OF SESSION ×3 as the last output. Do not invent another close.
+**Resession is by surface** (`docs/RESESSION_BY_SURFACE.md`). Grok TUI uses
+`docs/RESESSION_SOP.md` (5a then 5b, both). OpenWork uses `docs/OW_RESESSION_SOP.md`
+(`session.create`, no grok spawn). Do not cross them. Do not invent a third close.
 
 ## Cursor lane — LIVE, free, COSMOS has its own key
 - **COSMOS's own key:** `Cursor COSMOS 2` (Admin, never-expires). Read the token from

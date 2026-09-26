@@ -43,7 +43,12 @@ OpenWork may hold a pen on **its grant tree**. CORE/COSMOS/live-tree changes fro
 or OW are **queued for the next Cm / CCr**. **No two streams share a root** (COSMOS,
 LEGAL, plumbing, UPS, … each own a tree). A new session will not respect a social rule —
 protect by **folder grant + `CCR.lease`**, not a hidden overwrite. Contract: `docs/CCR.md`.
-Encoded: `docs/AGENT_BOUNDARIES.md` items 9, 12–14.
+Encoded: `docs/AGENT_BOUNDARIES.md` items 9, 12–14, **18–19**.
+
+**Keith 2026-09-18:** If he says you have the pen, **disable other writers first**
+(exclusive `CCR.lease`, SOL off, no second grok writer, orch does not git this tree,
+no API around Gitur). **Then** Gitur. Do not bypass the judge: good output is saved for the judge; bad is rerun on the hot cache or another agent (WOMBAT SOP). LiT is
+`origin/main`. Unique-head is dead.
 
 **Post-ban (Keith 2026-09-04):** this Cm pass is a **re-architecture of occupancy**, not a
 second Core. Anthropic off the route. Grok-based mesh, OpenWork-agnostic products,
@@ -67,6 +72,7 @@ connector (OAuth persists). The full, dated list lives in the ROLD
 (`V:\Ai\00_ROLD_COMMANDS_TidyUp_BootUp.md`, GENERAL ASK).
 
 Then read, in order: `BUCm.toml` (live session pointer) → this file →
+`docs/RESESSION_BY_SURFACE.md` (which close matches this TUI, model, or app) →
 `docs/FINAL_ARCHITECTURE.md` (ratified) and `docs/COSMOS_PIPELINE.md` (governance). The
 stream is **`Cm`**. Confirm date and `git` state with **host-side ground-truth tools** —
 a bash-sandbox read is not evidence (see hazards).

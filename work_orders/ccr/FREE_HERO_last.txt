@@ -1,0 +1,8 @@
+Here's a thinking process:
+
+1.  **Analyze User Input:**
+   - **Role:** CODER
+   - **First line requirement:** "NONE or diff --git"
+   - **Mission requirement:** 
+     - First line exactly "NONE"
+     - Second line "HERO_OK"

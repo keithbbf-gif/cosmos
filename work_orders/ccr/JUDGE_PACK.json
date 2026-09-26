@@ -1,0 +1,899 @@
+{
+ "wrap": "What is the intent, and the best execution of this intent?",
+ "lit_head": "4ebc4efd9327e1ae0c29ca5d530a1a8903efd937",
+ "unique_head_killed": "8b5ad84e",
+ "n_unique_commits": 37,
+ "unique_commits": [
+  "8b5ad84e occupancy: keep GitHub synced; cDeck is native window not Chrome.",
+  "80a4c395 CCr: merge GitHub main 3ae8470 (keep synced). Unique apk 172MB stays local.",
+  "67f2dae1 CCr: ours-join published 223a7dd (stop this pass). Keep local unique history; apk blob stays local-only.",
+  "b8624da1 CCr: COSMOS 2 recents live; untrack debug apk; stop this pass.",
+  "21598ea8 CCr: join GitHub Open Sessions",
+  "8580132a Open Sessions: first COSMOS product (list/open)",
+  "34b6f670 CCr: join GitHub open-sessions",
+  "b9c10b81 CCr: GET recents?open=1 wires cowork_to_openwork into DISPLAY",
+  "fdc02322 CCr: join GitHub recents route",
+  "2716f52e CCr: wire GET /api/v1/recents; pin cdeck d2ef4d5",
+  "690f405a CCr: join GitHub cDeck recents",
+  "c45df2bf CCr: join GitHub backup mode-000 refuse",
+  "c67cbba4 CCr: backup REFUSES mode 000 even as root",
+  "c51c5e65 CCr: join GitHub session-tools + backup CI",
+  "3d936cf1 CCr: session-tools suite MOTIF-1; GitLab backup unreadable as root",
+  "42bab009 CCr: join GitHub askmine tempfile fix",
+  "90929bc7 CCr: askmine sandbox is /tmp/file only, not CI tempdirs",
+  "d11768c8 CCr: join GitHub askmine squash; local history kept",
+  "ac44107f CCr: squash GitLab askmine 64/66; restart MOTIF 1-8",
+  "69e35b32 CCr: join GitHub live-tree sync; local history kept",
+  "56cf49ac CCr: park APK draft; close origin-47 hitch; restore occupancy",
+  "087a3b55 CCr: join GitHub main history; live tree stays engine room + harvested drops",
+  "bae0372a CCr: harvest origin/main 47 — apply drops/docs, table stale daemon",
+  "ebd5e248 F-70 fence: photograph the running COSMOS tree (2026-09-05)",
+  "8ff2757e GBW race hour: F-60 closed, R2 on the nightly clock, builds/ reaches offsite",
+  "9009c59a GBW hour 5: max-turns classifier, kdash safety assertion, ABSENT reaches zero",
+  "e9e2eb67 GBW hour 4: CLOCKS 20-23 promoted, PARTIAL sweeps, freshness detector finds two stale artifacts",
+  "4b22290f GBW hour 3: cdeck reds cleared structurally, F-29 closed, tools/ composed",
+  "7745d71f GBW hour 2: FEATURE_MASTER re-audit, BLOCKED_ITEMS, F-25/F-29/F-54 progress",
+  "dbaf2ef4 GBW build hour: F-54 offsite preflight, cDeck + infra backlog progress",
+  "10b2034d GBW build hour: spend POST + tests, cDeck shell (F-11), registry freshness filter (F-25), tools surface (F-29)",
+  "c5e8e756 docs: changelog through the GBW engine addition",
+  "8ffeb975 cc_driver: add GBW (Grok Build Worker) as a second engine",
+  "3f5bae3c docs: BACKLOG and WISHLIST touched during the repair pass",
+  "eebd5118 COSMOS repair pass: fix eight signals that reported what they did not measure",
+  "56fa423c cosmos: deploy voice safety guards + grounded Opus brain (spendguard caps+fail-closed, control/kill channel, cosmos_brain claude -p + Grok fallback)",
+  "4f889536 cosmos v1.10: voice ASKS the mesh (spend-gated ask verb -> Grok/GEM/OA, spoken answers) + trial flags (--no-auth, --insecure-http)"
+ ],
+ "local_only": [
+  {
+   "file": "cosmos_action_chain.py",
+   "n_bytes": 4816,
+   "head": "#!/usr/bin/env python3\n# -*- coding: utf-8 -*-\n\"\"\"Action-level hash chain + SoD (rkchoudary/hermes + OpenFang, COSMOS-shaped).\n\nLedger already chains state transitions. After the wipe we also chain ACTIONS.\ncreator ≠ reviewer ≠ approver. No"
+  },
+  {
+   "file": "cosmos_approval.py",
+   "n_bytes": 18072,
+   "head": "#!/usr/bin/env python3\n# -*- coding: utf-8 -*-\n\"\"\"cosmos_approval - the ACTION approval gate (COSMOS_next, 2026-09-17).\n\nBorrowed from Hermes Agent's tools/approval.py (dangerous-pattern detection + content\nscan + approve/deny through a gat"
+  },
+  {
+   "file": "cosmos_chamber.py",
+   "n_bytes": 4500,
+   "head": "#!/usr/bin/env python3\n# -*- coding: utf-8 -*-\n\"\"\"Chamber presence — rooms/boards as a ledger projection.\n\nAgent Chamber + agent-comms mechanisms. Not a second scheduler.\nCOW orchestrates (P9). Agents propose; CCr disposes (P10).\nGET never "
+  },
+  {
+   "file": "cosmos_crew_roster.py",
+   "n_bytes": 1715,
+   "head": "#!/usr/bin/env python3\n# -*- coding: utf-8 -*-\n\"\"\"Crew roster JSONL — Gitur tab paints this. GET never mkdir.\n\nAuthority: live/state/crew/roster.jsonl append-only. Projection is GET.\nCanon: 10-min CCr reports and coder output belong on the "
+  },
+  {
+   "file": "cosmos_delegate.py",
+   "n_bytes": 8919,
+   "head": "#!/usr/bin/env python3\n# -*- coding: utf-8 -*-\n\"\"\"cosmos_delegate - delegation limits as code (COSMOS_next, 2026-09-17).\n\nBorrowed from Hermes Agent's tools/delegate_tool.py (children get a fresh context,\nblocked tools, a depth limit, a con"
+  },
+  {
+   "file": "cosmos_packets.py",
+   "n_bytes": 13494,
+   "head": "#!/usr/bin/env python3\n# -*- coding: utf-8 -*-\n\"\"\"cosmos_packets - tool-output packets through the EXISTING CAS.\n\nSGH steal: KEEP_PACKETS. A tool output packet is content-addressed\n(filename = hash) in cosmos_segments.CAS. The ledger holds "
+  },
+  {
+   "file": "cosmos_porosity_v6.py",
+   "n_bytes": 41260,
+   "head": "#!/usr/bin/env python3\n# -*- coding: utf-8 -*-\n\"\"\"cosmos_porosity_v6 - DRAFT FOR REVIEW. Not occupancy. Not wired into Core.\n\nPorosity, orthogonality and team coverage measured from ADJUDICATED ITEMS.\nCompanion write-up: 02_POROSITY_ORTHOGO"
+  },
+  {
+   "file": "cosmos_recall.py",
+   "n_bytes": 8433,
+   "head": "#!/usr/bin/env python3\n# -*- coding: utf-8 -*-\n\"\"\"cosmos_recall - cross-session recall over the authority ledger (COSMOS_next).\n\nBorrowed from Hermes Agent's SessionDB (SQLite WAL + FTS5 search across past sessions)\nand re-shaped for COSMOS"
+  },
+  {
+   "file": "cosmos_recall_clock.py",
+   "n_bytes": 2954,
+   "head": "#!/usr/bin/env python3\n# -*- coding: utf-8 -*-\n\"\"\"Native-clock recall refresh. Not an agent loop.\n\n    py -3.14 cosmos\\\\cosmos_recall_clock.py --root V:\\\\A\\\\Ai\\\\COSMOS\\\\live --once\n\"\"\"\nfrom __future__ import annotations\n\nimport argparse\nimp"
+  },
+  {
+   "file": "cosmos_research_call.py",
+   "n_bytes": 8254,
+   "head": "#!/usr/bin/env python3\n# -*- coding: utf-8 -*-\n\"\"\"cosmos_research_call — MOTIF RESEARCH envelope for a chat research function.\n\nPerplexity (this chat) can search_web / fetch_url and return JSON. It cannot\nbe a second Core. COSMOS files the "
+  },
+  {
+   "file": "cosmos_sandbox.py",
+   "n_bytes": 15942,
+   "head": "#!/usr/bin/env python3\n# -*- coding: utf-8 -*-\n\"\"\"Attempt sandbox — OpenHands split, COSMOS-shaped.\n\nSession (ledger) / harness (this) / sandbox (Job-Object child).\nWorkers run under live/work/attempts/<id>, never on host pens.\nJob-Object i"
+  },
+  {
+   "file": "cosmos_seat.py",
+   "n_bytes": 32291,
+   "head": "#!/usr/bin/env python3\n# -*- coding: utf-8 -*-\n\"\"\"cosmos_seat - DRAFT FOR REVIEW. The Seat Bus behind the cDeck ORC CHAT page.\n\nOne chat pane in cDeck can seat the ORC on any of three lanes - native (a Core\nrail, e.g. GLM Flash named pin), "
+  },
+  {
+   "file": "cosmos_session_ideas.py",
+   "n_bytes": 5490,
+   "head": "#!/usr/bin/env python3\n# -*- coding: utf-8 -*-\n\"\"\"Session-ideas gather — COSMOS OS (and COSMOS2 profiles on the same Core).\n\nKeith: SAPRS / session-strip ideas belong in the OS, not a GrokBot mailbox\ninto V:\\\\Ai\\\\ROLD. CCr does not write V:"
+  },
+  {
+   "file": "cosmos_session_tools_kit.py",
+   "n_bytes": 13246,
+   "head": "#!/usr/bin/env python3\n# -*- coding: utf-8 -*-\n\"\"\"GET fold for Open Sessions + session-tools verbs.\n\nList/open stays GET /recents (Open Sessions). This fold NAMES the leftover\nsuite verbs from docs/arch/SESSION_TOOLS_ARCH.md H2. GET never m"
+  },
+  {
+   "file": "cosmos_skills.py",
+   "n_bytes": 12334,
+   "head": "#!/usr/bin/env python3\n# -*- coding: utf-8 -*-\n\"\"\"cosmos_skills - agent skills that COSMOS can learn WITHOUT a second writer (COSMOS_next).\n\nBorrowed from Hermes Agent's skills system (procedural memory an agent creates after a\nhard task, S"
+  },
+  {
+   "file": "cosmos_temporal_fold.py",
+   "n_bytes": 4094,
+   "head": "#!/usr/bin/env python3\n# -*- coding: utf-8 -*-\n\"\"\"Temporal graph fold — Graphiti mechanism, ledger authority.\n\nEntities/edges with valid_at / invalid_at. Invalidate, never delete\n(same ethic as _delme). Rebuildable projection. Not Letta Ser"
+  }
+ ],
+ "n_inbox": 107,
+ "inbox": [
+  {
+   "file": "wo-20260902T114530.json",
+   "agent": "xAI|Grok|grok-4.6",
+   "ts": "2026-09-02T11:45:30-05:00",
+   "task": "Resolve the five federation blockers so peer meshes can go live. Each blocker must be addressed with a concrete fix or an explicit deferral with reason.",
+   "output": "proposals/federation-blockers.json"
+  },
+  {
+   "file": "wo-20260902T170800.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-02T17:08:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Keith 2026-09-02: we can run GitHub agents locally and save quota (SGH). Desktop clones are already at V:\\GitHub\\{cosmos,cdeck,cdm,cosmos-android,bts-mesh}; cosmos checkout recovered at eb7c1fc. Host already has Copilot CLI (copilot.ps1 on PATH) and gh 2.97.0 (`gh copilot`). Do NOT use Copilot cloud coding agent",
+   "output": "proposals | github-agents-local.json"
+  },
+  {
+   "file": "wo-20260902T171500.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-02T17:15:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Keith 2026-09-02: he sees no cDeck improvements and says resize is gone. Header now has RELOAD (btnReload, cdeck-shell-v11) — do not rewind that. Native CSS resize:both is already on .home-card,.orch-code,.panel,#orch-home,#orch-east,#home-nav in app.css and panelGeom persist exists in app.js, but CSS grid/flex ",
+   "output": "proposals | cdeck-resize-handles.json"
+  },
+  {
+   "file": "wo-20260902T174000.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-02T17:40:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Keith 2026-09-02: new OpenAI and other Work products are out and coming. Propose docs/research/WORK_AGENTS_HANDS.md — a competitor map of the Work-agent class as of live sources (cite URLs, dated). Must cover at least: OpenAI ChatGPT Work (2026-07-09) and Codex-in-ChatGPT desktop (Chat/Work/Codex switcher), Anth",
+   "output": "proposals | work-agents-hands.json"
+  },
+  {
+   "file": "wo-20260902T175700.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-02T17:57:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Keith 2026-09-02: close the runtime-binding gate from stage 7 of docs/COSMOS_PIPELINE.md. The gate is not a review — it is proof that the artifact the machine executes is the new tree, proven by a field only the new tree can emit (e.g. last_run_epoch in the heartbeat). Produce a proposal covering: (1) the exact ",
+   "output": "proposals | runtime-binding-gate.json"
+  },
+  {
+   "file": "wo-20260902T175900.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-02T17:59:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Close the runtime-binding gate from stage 7 of docs/COSMOS_PIPELINE.md. The gate is not a review — it is proof that the artifact the machine executes is the new tree, proven by a field only the new tree can emit (e.g. last_run_epoch in the heartbeat). Produce a proposal covering: (1) the exact checklist of five ",
+   "output": "proposals | runtime-binding-gate.json"
+  },
+  {
+   "file": "wo-20260902T180200.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-02T18:02:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Part 1 of 3 for closing the runtime-binding gate: the Windows service wrapper. Produce a proposal for registering cosmos_daemon.py as a native Windows service (or equivalent persistent process) with automatic restart on failure, proper logging to the live logs dir, and a heartbeat that emits a new-tree-only mark",
+   "output": "proposals | runtime-binding-service.json"
+  },
+  {
+   "file": "wo-20260902T180210.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-02T18:02:10-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Part 2 of 3 for closing the runtime-binding gate: the watchdog and scheduler. Produce a proposal for a watchdog that monitors the daemon heartbeat (alert if older than 3 minutes) and the external timer/task that wakes the daemon (Task Scheduler every minute or equivalent). Include the exact schedule definition, ",
+   "output": "proposals | runtime-binding-watchdog.json"
+  },
+  {
+   "file": "wo-20260902T180220.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-02T18:02:20-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Part 3 of 3 for closing the runtime-binding gate: the integration harness and rollback rehearsal. Produce a proposal covering the full end-to-end test (drop a test order, confirm it moves bucket -> picked -> done with state DONE), the five-check gate checklist from stage 7, the rehearsed rollback procedure, and ",
+   "output": "proposals | runtime-binding-integration.json"
+  },
+  {
+   "file": "wo-20260902T184600.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-02T18:46:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Part 1 of 3 for closing the runtime-binding gate: the Windows service wrapper. Produce a proposal for registering cosmos_daemon.py as a native Windows service (or equivalent persistent process) with automatic restart on failure, proper logging to the live logs dir, and a heartbeat that emits a new-tree-only mark",
+   "output": "proposals | runtime-binding-service.json"
+  },
+  {
+   "file": "wo-20260902T184610.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-02T18:46:10-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Part 2 of 3 for closing the runtime-binding gate: the watchdog and scheduler. Produce a proposal for a watchdog that monitors the daemon heartbeat (alert if older than 3 minutes) and the external timer/task that wakes the daemon (Task Scheduler every minute or equivalent). Include the exact schedule definition, ",
+   "output": "proposals | runtime-binding-watchdog.json"
+  },
+  {
+   "file": "wo-20260902T184620.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-02T18:46:20-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Part 3 of 3 for closing the runtime-binding gate: the integration harness and rollback rehearsal. Produce a proposal covering the full end-to-end test (drop a test order, confirm it moves bucket -> picked -> done with state DONE), the five-check gate checklist from stage 7, the rehearsed rollback procedure, and ",
+   "output": "proposals | runtime-binding-integration.json"
+  },
+  {
+   "file": "wo-20260902T190500.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-02T19:05:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Add the git-commit-and-push step to the daemon pipeline so every write the mesh produces is staged, committed, and pushed to the GitHub repo under a dedicated bot identity (author field reads Cosmos / the mesh, not Keith). Include: the exact git config for the bot identity, the commit message convention, the pus",
+   "output": "proposals | runtime-binding-git-commit.json"
+  },
+  {
+   "file": "wo-20260902T191500.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-02T19:15:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Keith 2026-09-02: close the stage-7 runtime-binding gate. COW filed tests/runtime_bind_echo.py and proved a child bind_digest against a planted nonce (ok, nonce_match, bind_digest_match, tree_id=KMesh-COSMOS-live). wo-20260902T175900 is COMPLETED. The gate is still OPEN: C2 machine 1-min names are mostly unregis",
+   "output": "proposals | test-runtime-binding.json"
+  },
+  {
+   "file": "wo-20260902T193000.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-02T19:30:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Extend the existing cosmos_daemon.py (single daemon, no second process) to also handle the query channel: poll queries/ for new q-*.json files, route each directly to the orchestrator (no sub-agent spawn), collect the reply, write it to queries/replies/ as q-<stamp>-reply.json with status open/answered, and flip",
+   "output": "proposals | daemon-query-extension.json"
+  },
+  {
+   "file": "wo-20260902T194500.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-02T19:45:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Design the query-handling addition to the existing single cosmos_daemon.py (no second process, no new window, no GUI flash). The daemon must poll queries/ for q-*.json, route each directly to the orchestrator without spawning sub-agents, write replies to queries/replies/ as q-<stamp>-reply.json, and flip status ",
+   "output": "proposals | query-daemon-design.json"
+  },
+  {
+   "file": "wo-20260902T195000.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-02T19:50:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Design the canonical three-channel communication loop for the mesh: (1) query channel — direct orchestrator query, no sub-agent spawn, reply to queries/replies/ with status flip; (2) work-order channel — propose-only task dispatch through work_orders/drop; (3) orchestration/build channel — Grok Build executes ap",
+   "output": "proposals | three-channel-loop.json"
+  },
+  {
+   "file": "wo-20260902T201500.json",
+   "agent": null,
+   "ts": null,
+   "task": "",
+   "output": null
+  },
+  {
+   "file": "wo-20260902T202000.json",
+   "agent": null,
+   "ts": null,
+   "task": "",
+   "output": null
+  },
+  {
+   "file": "wo-20260902T203000.json",
+   "agent": null,
+   "ts": null,
+   "task": "",
+   "output": null
+  },
+  {
+   "file": "wo-20260904T031200.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-04T03:12:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only on the Grok lane. Route: CURSOR. Keith 2026-09-04: build the live Crucible critic set on Cursor Cloud Agents (claude-opus-5, NOT Composer 2.5/Auto) and have Cursor agents check it. Independent clone of github.com/keithbbf-gif/cosmos main. Do not peek at any Grok proposal or local uncommitted tree. ANTHROPIC_OFF stays: no claude -p, no Clau",
+   "output": "proposals | crucible-three-family.json"
+  },
+  {
+   "file": "wo-20260904T120000.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-04T12:00:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Route: CURSOR. Keith 2026-09-04: GitHub critics must see all 26 CLOCKS (cosmos/cosmos_own_clocks.py CLOCKS + each satellite .py) and PROPOSE the right process topology. Do not peek at any Grok/COW collapse text. Independent clone of github.com/keithbbf-gif/cosmos main. ANTHROPIC_OFF stays. Cursor Ultra Opus 5 (NOT Composer 2.5/Auto). PROB",
+   "output": "proposals | clocks-topology.md"
+  },
+  {
+   "file": "wo-20260904T124800.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-04T12:48:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: CURSOR. Keith 2026-09-04: this TUI does not code — it writes work orders, runs GitHub/Cursor/GitLab, reviews/refines, CCr writes. You are Lane A (Grok 4.6 work-order session) on CLOCKS collapse BUILD. Independent of Lane B. Do not peek at Cursor PR #32. ANTHROPIC_OFF stays. Opus 5 / Sonnet for review; Com",
+   "output": "proposals | clocks-pulse-build.md"
+  },
+  {
+   "file": "wo-20260904T125500.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-04T12:55:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: CURSOR. Keith 2026-09-04: this TUI does not code. Cooking is COSMOS self-build + cDeck. Voice refine TABLED (SGH Voice + Grok Voice Think Fast 2.0 fills the phone endpoint). You are Lane B on cDeck P7. Spec: builds/cdeck/ORCH_HOME_SPEC.md P7 — GEM on home opens Gemini in Chrome side panel on Keith BBF Pro",
+   "output": "proposals | cdeck-p7.md"
+  },
+  {
+   "file": "wo-20260905T120000.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-05T12:00:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: CURSOR. Keith 2026-09-05: keep coding COSMOS. Incoming company GCloud $300 + API key for the coding/reasoning Vertex rail (live/config/vertex_coding.json + vertex_coding_key.txt). Until those exist, coding falls back to Joanna gem-api. After the key is live, Joanna moves to OpenWork — do not paste Joanna ",
+   "output": "proposals | vertex-coding-callers.md"
+  },
+  {
+   "file": "wo-20260905T152800.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-05T15:28:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: CURSOR. Pin Claude Opus 5. Refuse Composer 2.5 / Auto. Independent clone of github.com/keithbbf-gif/cosmos default branch. Do not peek at local uncommitted COSMOS tree or Grok proposals. Do not merge PRs #30 #32 #36 #37 #38. ANTHROPIC_OFF stays for COSMOS claude -p. BUILD: remaining cDeck operator-home fe",
+   "output": "proposals | RESULT.json"
+  },
+  {
+   "file": "wo-20260905T204200.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-05T20:42:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: CURSOR. Pin Claude Opus 5. Refuse Composer 2.5 / Auto. MOTIF stage-2 ARCHITECTURE only for the session-tools suite. Open Sessions is LIVE on GET /api/v1/recents — do not rebuild. Do not re-ingest 666. Do not recode cowork_to_openwork. Do not merge PRs #30 #32 #36 #37 #38. ANTHROPIC_OFF. Independently pick",
+   "output": "proposals | session_tools_arch.json"
+  },
+  {
+   "file": "wo-20260905T220000.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-05T22:00:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. RESEARCH only. How should COSMOS and OpenWork integrate without cloning each other? Follow docs/research/OPENWORK_INTEGRATE_Q.md. Do not answer from PR #45. Do not iframe. Do not open legal transcripts. Do not merge PRs #30 #32 #36 #37 #38. Route: CURSOR already dispatched Lane B. This drop is the desk record.",
+   "output": "proposals | OPENWORK_INTEGRATE_LANE_A.md"
+  },
+  {
+   "file": "wo-20260905T221100.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-05T22:11:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: GITUR. Pin Claude Opus 5 on Cursor. Refuse Composer 2.5. MOTIF on ONE job: CLOCKS collapse observe-only. Pulse P0 already live (26/26 resident.keep, dispatch=false, claim=false). Do not shrink CLOCKS. Do not schtasks /delete. Do not take Core :8770 down. Do not merge PRs #30 #32 #36 #37 #38. One branch cc",
+   "output": "proposals | clocks-observe.json"
+  },
+  {
+   "file": "wo-20260905T221200.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-05T22:12:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: GITUR. One job: remaining cDeck BACKLOG rows that are BACKLOG not BLOCKED/DO-NOT. Not C1 ConPTY. Not OpenWork iframe. Not Legal. Do not merge PRs #30 #32 #36 #37 #38. Branch ccr/cdeck-backlog.",
+   "output": "proposals | cdeck-backlog.json"
+  },
+  {
+   "file": "wo-20260905T221300.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-05T22:13:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: GITUR. MOTIF: AUTOMATED RESESSION — next measurement only, not a spawn, not a second Core. SOP already exists. Do not fire cosmos_resession spawn. Do not merge PRs #30 #32 #36 #37 #38. Branch ccr/auto-resession-next.",
+   "output": "proposals | auto-resession-next.md"
+  },
+  {
+   "file": "wo-20260905T221400.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-05T22:14:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: GITUR. MOTIF: ORCHESTRATOR PROFILES — one occupant per profile (GFO, this TUI, GrokBot, later federation). Do not share pens. Do not sit Legal from this TUI. Do not merge PRs #30 #32 #36 #37 #38. Branch ccr/orch-profiles.",
+   "output": "proposals | orch-profiles.md"
+  },
+  {
+   "file": "wo-20260905T221500.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-05T22:15:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: GITUR. MOTIF continue SESSION TOOLS: CCr PR #43 is Slices 1-4; CLI PR #44 is Slice-1 lane. Dispose/compare; HOLD migrate/recents-grok until named. Do not re-ingest 666. Do not recode cowork_to_openwork as ORC. Do not merge PRs #30 #32 #36 #37 #38. Branch stays ccr/session-tools.",
+   "output": "proposals | session-tools-next.json"
+  },
+  {
+   "file": "wo-20260905T221600.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-05T22:16:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: GITUR. Pin Claude Opus 5 on Cursor. Refuse Composer 2.5. Do not merge PRs #30 #32 #36 #37 #38. Do not iframe OpenWork. Do not sit Legal. Do not lift ANTHROPIC_OFF. Do not re-ingest 666. Do not take Core :8770 down. One job, one branch, one PR. MOTIF: HEALTH WATCHDOG + free heartbeat + COW-escalation-on-ex",
+   "output": "proposals | health-watchdog.md"
+  },
+  {
+   "file": "wo-20260905T221700.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-05T22:17:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: GITUR. Pin Claude Opus 5 on Cursor. Refuse Composer 2.5. Do not merge PRs #30 #32 #36 #37 #38. Do not iframe OpenWork. Do not sit Legal. Do not lift ANTHROPIC_OFF. Do not re-ingest 666. Do not take Core :8770 down. One job, one branch, one PR. MOTIF: BULLETPROOF BACKUP (P0). Verified per-file hash, rehear",
+   "output": "proposals | bulletproof-backup.md"
+  },
+  {
+   "file": "wo-20260905T221800.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-05T22:18:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: GITUR. Pin Claude Opus 5 on Cursor. Refuse Composer 2.5. Do not merge PRs #30 #32 #36 #37 #38. Do not iframe OpenWork. Do not sit Legal. Do not lift ANTHROPIC_OFF. Do not re-ingest 666. Do not take Core :8770 down. One job, one branch, one PR. MOTIF: FIX DIFFERENT-FAMILY CRITIQUE. GEM and OA critique rail",
+   "output": "proposals | diff-family-critique.md"
+  },
+  {
+   "file": "wo-20260905T221900.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-05T22:19:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: GITUR. Pin Claude Opus 5 on Cursor. Refuse Composer 2.5. Do not merge PRs #30 #32 #36 #37 #38. Do not iframe OpenWork. Do not sit Legal. Do not lift ANTHROPIC_OFF. Do not re-ingest 666. Do not take Core :8770 down. One job, one branch, one PR. MOTIF: INTER-ORCHESTRATOR COMMS (P1). Write-locked mailbox so ",
+   "output": "proposals | orch-mailbox.md"
+  },
+  {
+   "file": "wo-20260905T222000.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-05T22:20:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: GITUR. Pin Claude Opus 5 on Cursor. Refuse Composer 2.5. Do not merge PRs #30 #32 #36 #37 #38. Do not iframe OpenWork. Do not sit Legal. Do not lift ANTHROPIC_OFF. Do not re-ingest 666. Do not take Core :8770 down. One job, one branch, one PR. MOTIF: SECOND / PARALLEL ORCHESTRATOR (P1). Prepaid independen",
+   "output": "proposals | parallel-orch.md"
+  },
+  {
+   "file": "wo-20260905T222100.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-05T22:21:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: GITUR. Pin Claude Opus 5 on Cursor. Refuse Composer 2.5. Do not merge PRs #30 #32 #36 #37 #38. Do not iframe OpenWork. Do not sit Legal. Do not lift ANTHROPIC_OFF. Do not re-ingest 666. Do not take Core :8770 down. One job, one branch, one PR. MOTIF: WIRE THE MESH. Five unproven composed rails: codex-cli,",
+   "output": "proposals | wire-mesh.md"
+  },
+  {
+   "file": "wo-20260905T222200.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-05T22:22:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: GITUR. Pin Claude Opus 5 on Cursor. Refuse Composer 2.5. Do not merge PRs #30 #32 #36 #37 #38. Do not iframe OpenWork. Do not sit Legal. Do not lift ANTHROPIC_OFF. Do not re-ingest 666. Do not take Core :8770 down. One job, one branch, one PR. MOTIF: cosmos_dispatch / cosmos_collector critique close. Hear",
+   "output": "proposals | dispatch-collector.md"
+  },
+  {
+   "file": "wo-20260905T222300.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-05T22:23:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: GITUR. Pin Claude Opus 5 on Cursor. Refuse Composer 2.5. Do not merge PRs #30 #32 #36 #37 #38. Do not iframe OpenWork. Do not sit Legal. Do not lift ANTHROPIC_OFF. Do not re-ingest 666. Do not take Core :8770 down. One job, one branch, one PR. MOTIF: Maker + gcloud sweeps next = ARCH which to wire. WAVE A",
+   "output": "proposals | maker-hands-arch.md"
+  },
+  {
+   "file": "wo-20260905T222400.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-05T22:24:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: GITUR. Pin Claude Opus 5 on Cursor. Refuse Composer 2.5. Do not merge PRs #30 #32 #36 #37 #38. Do not iframe OpenWork. Do not sit Legal. Do not lift ANTHROPIC_OFF. Do not re-ingest 666. Do not take Core :8770 down. One job, one branch, one PR. MOTIF: NEW-AI DISCOVERY scout. Open-ended finder of new AI pro",
+   "output": "proposals | new-ai-discovery.md"
+  },
+  {
+   "file": "wo-20260905T222500.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-05T22:25:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: GITUR. Pin Claude Opus 5 on Cursor. Refuse Composer 2.5. Do not merge PRs #30 #32 #36 #37 #38. Do not iframe OpenWork. Do not sit Legal. Do not lift ANTHROPIC_OFF. Do not re-ingest 666. Do not take Core :8770 down. One job, one branch, one PR. MOTIF: Competency hierarchy. SGH researches + rated skills mat",
+   "output": "proposals | competency.md"
+  },
+  {
+   "file": "wo-20260905T222600.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-05T22:26:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: GITUR. Pin Claude Opus 5 on Cursor. Refuse Composer 2.5. Do not merge PRs #30 #32 #36 #37 #38. Do not iframe OpenWork. Do not sit Legal. Do not lift ANTHROPIC_OFF. Do not re-ingest 666. Do not take Core :8770 down. One job, one branch, one PR. MOTIF: META + AMAZON extra judges for Crucible stage-5. Llama ",
+   "output": "proposals | crucible-extra-judges.md"
+  },
+  {
+   "file": "wo-20260905T222700.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-05T22:27:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: GITUR. Pin Claude Opus 5 on Cursor. Refuse Composer 2.5. Do not merge PRs #30 #32 #36 #37 #38. Do not iframe OpenWork. Do not sit Legal. Do not lift ANTHROPIC_OFF. Do not re-ingest 666. Do not take Core :8770 down. One job, one branch, one PR. MOTIF: GITHUB AGENTS LOCAL. Run Copilot agents on desktop clon",
+   "output": "proposals | github-agents-local.md"
+  },
+  {
+   "file": "wo-20260905T222800.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-05T22:28:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: GITUR. Pin Claude Opus 5 on Cursor. Refuse Composer 2.5. Do not merge PRs #30 #32 #36 #37 #38. Do not iframe OpenWork. Do not sit Legal. Do not lift ANTHROPIC_OFF. Do not re-ingest 666. Do not take Core :8770 down. One job, one branch, one PR. MOTIF: FEDERATION spec only. Grayson soon: his PC, his account",
+   "output": "proposals | federation-spec.md"
+  },
+  {
+   "file": "wo-20260905T222900.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-05T22:29:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: GITUR. Pin Claude Opus 5 on Cursor. Refuse Composer 2.5. Do not merge PRs #30 #32 #36 #37 #38. Do not iframe OpenWork. Do not sit Legal. Do not lift ANTHROPIC_OFF. Do not re-ingest 666. Do not take Core :8770 down. One job, one branch, one PR. MOTIF: R2 running properly for trees V:\\Research4, V:\\Ai, V:\\A",
+   "output": "proposals | r2-trees.md"
+  },
+  {
+   "file": "wo-20260905T223000.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-05T22:30:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: GITUR. Pin Claude Opus 5 on Cursor. Refuse Composer 2.5. Do not merge PRs #30 #32 #36 #37 #38. Do not iframe OpenWork. Do not sit Legal. Do not lift ANTHROPIC_OFF. Do not re-ingest 666. Do not take Core :8770 down. One job, one branch, one PR. MOTIF: Grok and GEM node workers (own buckets). Native Windows",
+   "output": "proposals | node-workers.md"
+  },
+  {
+   "file": "wo-20260905T223100.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-05T22:31:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: GITUR. Pin Claude Opus 5 on Cursor. Refuse Composer 2.5. Do not merge PRs #30 #32 #36 #37 #38. Do not iframe OpenWork. Do not sit Legal. Do not lift ANTHROPIC_OFF. Do not re-ingest 666. Do not take Core :8770 down. One job, one branch, one PR. MOTIF: Auto-context dispatch. COW drops tag+assignment; native",
+   "output": "proposals | auto-context-dispatch.md"
+  },
+  {
+   "file": "wo-20260905T223200.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-05T22:32:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: GITUR. Pin Claude Opus 5 on Cursor. Refuse Composer 2.5. Do not merge PRs #30 #32 #36 #37 #38. Do not iframe OpenWork. Do not sit Legal. Do not lift ANTHROPIC_OFF. Do not re-ingest 666. Do not take Core :8770 down. One job, one branch, one PR. MOTIF RESEARCH only (future): SGH DRIVE HANDS. SuperGrok Heavy",
+   "output": "proposals | sgh-drive-hands.md"
+  },
+  {
+   "file": "wo-20260905T223300.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-05T22:33:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: GITUR. Pin Claude Opus 5 on Cursor. Refuse Composer 2.5. Do not merge PRs #30 #32 #36 #37 #38. Do not iframe OpenWork. Do not sit Legal. Do not lift ANTHROPIC_OFF. Do not re-ingest 666. Do not take Core :8770 down. One job, one branch, one PR. MOTIF RESEARCH only (future): CHROME EXTENSION / PLUGIN FOR GR",
+   "output": "proposals | chrome-extension.md"
+  },
+  {
+   "file": "wo-20260905T223400.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-05T22:34:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: GITUR. Pin Claude Opus 5 on Cursor. Refuse Composer 2.5. Do not merge PRs #30 #32 #36 #37 #38. Do not iframe OpenWork. Do not sit Legal. Do not lift ANTHROPIC_OFF. Do not re-ingest 666. Do not take Core :8770 down. One job, one branch, one PR. MOTIF RESEARCH: WORK AGENTS CLASS table. Keep the named-as-of ",
+   "output": "proposals | work-agents-class.md"
+  },
+  {
+   "file": "wo-20260905T223500.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-05T22:35:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: GITUR. Pin Claude Opus 5 on Cursor. Refuse Composer 2.5. Do not merge PRs #30 #32 #36 #37 #38. Do not iframe OpenWork. Do not sit Legal. Do not lift ANTHROPIC_OFF. Do not re-ingest 666. Do not take Core :8770 down. One job, one branch, one PR. MOTIF: CDM and gbridge — carry each to the runtime-binding gat",
+   "output": "proposals | cdm-gbridge-status.md"
+  },
+  {
+   "file": "wo-20260905T223600.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-05T22:36:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: GITUR. Pin Claude Opus 5 on Cursor. Refuse Composer 2.5. Do not merge PRs #30 #32 #36 #37 #38. Do not iframe OpenWork. Do not sit Legal. Do not lift ANTHROPIC_OFF. Do not re-ingest 666. Do not take Core :8770 down. One job, one branch, one PR. MOTIF: Tool migration UNDECIDED cards. 27 apply-ready judgemen",
+   "output": "proposals | tool-migration.md"
+  },
+  {
+   "file": "wo-20260905T223700.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-05T22:37:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: GITUR. Pin Claude Opus 5 on Cursor. Refuse Composer 2.5. Do not merge PRs #30 #32 #36 #37 #38. Do not iframe OpenWork. Do not sit Legal. Do not lift ANTHROPIC_OFF. Do not re-ingest 666. Do not take Core :8770 down. One job, one branch, one PR. MOTIF: WRITE THE MISSING TOOLS. For every capability we need a",
+   "output": "proposals | missing-tools.md"
+  },
+  {
+   "file": "wo-20260905T223800.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-05T22:38:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: GITUR. Pin Claude Opus 5 on Cursor. Refuse Composer 2.5. Do not merge PRs #30 #32 #36 #37 #38. Do not iframe OpenWork. Do not sit Legal. Do not lift ANTHROPIC_OFF. Do not re-ingest 666. Do not take Core :8770 down. One job, one branch, one PR. MOTIF: READ EVERY MANUAL + MAP EVERY PRODUCT into docs/COMPETE",
+   "output": "proposals | map-products.md"
+  },
+  {
+   "file": "wo-20260905T223900.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-05T22:39:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: GITUR. Pin Claude Opus 5 on Cursor. Refuse Composer 2.5. Do not merge PRs #30 #32 #36 #37 #38. Do not iframe OpenWork. Do not sit Legal. Do not lift ANTHROPIC_OFF. Do not re-ingest 666. Do not take Core :8770 down. One job, one branch, one PR. MOTIF: ADD HANDS + PUBLIC AIs and HANDS FOR THE OTHER AIs. Fin",
+   "output": "proposals | add-hands.md"
+  },
+  {
+   "file": "wo-20260905T224000.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-05T22:40:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: GITUR. Pin Claude Opus 5 on Cursor. Refuse Composer 2.5. Do not merge PRs #30 #32 #36 #37 #38. Do not iframe OpenWork. Do not sit Legal. Do not lift ANTHROPIC_OFF. Do not re-ingest 666. Do not take Core :8770 down. One job, one branch, one PR. MOTIF: Master description re-render. Agent (not this TUI) rege",
+   "output": "proposals | master-description.md"
+  },
+  {
+   "file": "wo-20260905T234800.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-05T23:48:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: CURSOR. Pin Claude Opus 5. Refuse Composer 2.5 / Auto. Independent clone of github.com/keithbbf-gif/cosmos default branch (now 59e2711 live tree). Do not peek local uncommitted COSMOS. Do not merge PRs #30 #32 #36 #37 #38. ANTHROPIC_OFF stays for COSMOS claude -p. MOTIF 1-8 on TWO items: (1) CLOCKS collap",
+   "output": "proposals | RESULT.json"
+  },
+  {
+   "file": "wo-20260906T164700.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-06T16:47:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Split keithbbf-gif/cosmos into a public proof surface and a private runtime surface. Public repo keeps only dated artifacts that prove priority and execution: commit timestamps, rail_check logs, spend ledgers, findings reports, runtime-binding outputs, and a short README stating the method category (adversarial ",
+   "output": "proposals | WO-SPLIT-PUBLIC-PRIVATE.md"
+  },
+  {
+   "file": "wo-20260906T165000.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-06T16:50:00-05:00",
+   "task": "SUPERSEDES AND CANCELS wo-20260906T164700.json. That work order is a DRAFT ONLY. Do NOT execute it. Do NOT split the repo, do NOT move files to a private repository, do NOT delete or relocate dispatch code, critic-selection logic, prompt templates, COMPETENCY.toml, work/ bundles, or any runtime files. Cursor and GitHub are actively building Cosmos 2 in this public repo right now; the split would break the live build.",
+   "output": "none | cancelled-draft-record"
+  },
+  {
+   "file": "wo-20260907T152629.json",
+   "agent": "xAI | Grok | grok-4.1-fast-reasoning",
+   "ts": "2026-09-07T15:26:29-05:00",
+   "task": "FIRST read work_orders/ccr/DEFINE_CHATBOT_PHONE.md. That file is the frozen DEFINE. Do not paraphrase. MOTIF stage 2 RESEARCH only (DOM rails). P10: PROPOSE only. Never write the live tree. Write returns covering: (1) competing free forever / you-pick-the-model phone chat apps vs Claude mobile; (2) current OpenRouter named :free roster with latency notes — named ids only, never openrouter/free rotator; (3) desktop ch",
+   "output": "work_orders/ccr/CREW/OUT/CHATBOT_PHONE | R1_CHATBOT_PHONE.md"
+  },
+  {
+   "file": "wo-20260908T180000.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-08T18:00:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Running leftover list from this CCr session and prior Keith asks — follow up each, do not invent: (1) ChatBot phone freemium DEFINE_CHATBOT_PHONE — named :free picker, FREE FOREVER YOU PICK THE MODEL, vendor 20 RPM / 50 RPD / $10→1000 RPD; (2) OSS code borrow DEFINE_OSS_BORROW — borrow/adapt, do not vendor LangG",
+   "output": "proposals | LEFTOVER_CDECK_QUEUE.json"
+  },
+  {
+   "file": "wo-20260909T181800.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-09T18:18:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md (DHx) and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Deliver the last 10-minute CCr update: a timestamped status of what CCr has done in the last ten minutes — active work, decisions, leases touched, Gitur activity, blockers, and next step. Write it as a fresh markdown file named CCR_UPDATE.md to Google Drive at https://drive.google.com/drive/folders/1lWXQbz",
+   "output": "proposals | CCR_UPDATE.md"
+  },
+  {
+   "file": "wo-20260917T161200.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-17T16:12:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: CURSOR. Stand up native-clock recall refresh: cosmos_own_clocks id 27 task COSMOS Recall Refresh, schtasks /sc minute /mo 15 --once wrapping cosmos_recall_clock.py --root V:\\A\\Ai\\COSMOS\\live --once. Not an in-process cron. GET /api/v1/recall stays never-mkdir. Heartbeat live/logs/recall_clock_heartbeat.js",
+   "output": "proposals | recall_clock.json"
+  },
+  {
+   "file": "wo-20260917T163833.json",
+   "agent": "Google | Gemini | gemini-3.8-flash",
+   "ts": "2026-09-17T16:38:33-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. You are WOMBAT GF38. Write a fat-cache coding ITEM tail from wo-20260917T181010 (Daytona/E2B sandbox) for SOL. Do not repeat PREFIX. Do not spawn grok.exe. Do not USPTO.",
+   "output": "proposals | WOMBAT_DAYTONA.md"
+  },
+  {
+   "file": "wo-20260917T163834.json",
+   "agent": "Google | Gemini | gemini-3.8-flash",
+   "ts": "2026-09-17T16:38:33-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. You are WOMBAT GF38. Write a fat-cache coding ITEM tail from wo-20260917T181020 (skill fenced-activate) for GLM 5.3. Do not repeat PREFIX. Do not spawn grok.exe. Do not USPTO.",
+   "output": "proposals | WOMBAT_SKILL.md"
+  },
+  {
+   "file": "wo-20260917T163835.json",
+   "agent": "Google | Gemini | gemini-3.8-flash",
+   "ts": "2026-09-17T16:38:33-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. You are WOMBAT GF38. Write a fat-cache coding ITEM tail from wo-20260917T181050 (plugin-waist) for GLM 5.3 Flash. Do not repeat PREFIX. Do not spawn grok.exe. Do not USPTO.",
+   "output": "proposals | WOMBAT_PLUGIN.md"
+  },
+  {
+   "file": "wo-20260917T163836.json",
+   "agent": "Google | Gemini | gemini-3.8-flash",
+   "ts": "2026-09-17T16:38:33-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. You are WOMBAT GF38. Write a fat-cache coding ITEM tail from wo-20260917T181100 (chamber ORC) for Muse Spark 1.1. Do not repeat PREFIX. Do not spawn grok.exe. Do not USPTO.",
+   "output": "proposals | WOMBAT_CHAMBER.md"
+  },
+  {
+   "file": "wo-20260917T163837.json",
+   "agent": "Google | Gemini | gemini-3.8-flash",
+   "ts": "2026-09-17T16:38:33-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. You are WOMBAT GF38. Write a fat-cache DOM RESEARCH ITEM tail from wo-20260917T181040 (DeerFlow). Route: DOM. Skip Gitur. Do not spawn grok.exe. Do not USPTO.",
+   "output": "proposals | WOMBAT_DEERFLOW.md"
+  },
+  {
+   "file": "wo-20260917T163838.json",
+   "agent": "Google | Gemini | gemini-3.8-flash",
+   "ts": "2026-09-17T16:38:33-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. You are WOMBAT GF38. Write a fat-cache coding ITEM tail from wo-20260917T181030 (recall clock). Cursor BUILD already launched — write the ITEM, do not re-dispatch Cursor. Do not spawn grok.exe. Do not USPTO.",
+   "output": "proposals | WOMBAT_RECALL.md"
+  },
+  {
+   "file": "wo-20260917T163839.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-17T16:38:33-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. You are SOL (openai/gpt-5.6-sol) coding against G46/GLM. Daytona/E2B backends behind cosmos_sandbox.py. Fat cache. Unified diff first. Do not write the live tree. Do not spawn grok.exe.",
+   "output": "proposals | SOL_DAYTONA.diff"
+  },
+  {
+   "file": "wo-20260917T163840.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-17T16:38:33-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. You are GLM 5.3 (z-ai/glm-5.3) coding against G46/SOL. Fenced-activate verification-before-completion. Fat cache. Unified diff first. Do not write the live tree. Do not spawn grok.exe.",
+   "output": "proposals | GLM53_SKILL.diff"
+  },
+  {
+   "file": "wo-20260917T163841.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-17T16:38:33-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. You are GLM 5.3 Flash (z-ai/glm-5.3-flash) coding against G46/SOL. Plugin-ize _fail_/_bite_ waist into tools/ with shims. Fat cache. Unified diff first. Never delete. Do not spawn grok.exe.",
+   "output": "proposals | GLM_PLUGIN.diff"
+  },
+  {
+   "file": "wo-20260917T163842.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-17T16:38:33-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. You are Muse Spark 1.1 coding against G46/SOL/GLM. Chamber JOIN paint on ORC from GET /api/v1/chamber. House pack (no patent). Unified diff first. No iframe. Occupancy 163+. Do not spawn grok.exe.",
+   "output": "proposals | MUSE_CHAMBER.diff"
+  },
+  {
+   "file": "wo-20260917T163843.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-17T16:38:33-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. You are SOL coding against G46/GLM. Running leftover list wo-20260908T180000 — one bite, unified diff first, empty if already works. Fat cache. Do not spawn grok.exe. Do not USPTO.",
+   "output": "proposals | SOL_LEFTOVER.diff"
+  },
+  {
+   "file": "wo-20260917T163844.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-17T16:38:34-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. You are GLM 5.3 coding against G46/SOL. Same leftover list wo-20260908T180000, independent mouth (no shared context with SOL). Fat cache. Unified diff first. Do not spawn grok.exe.",
+   "output": "proposals | GLM53_LEFTOVER.diff"
+  },
+  {
+   "file": "wo-20260917T163845.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-17T16:38:34-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. You are JUDGE Qwen 3.8 Max 0902. Fat cache. Grade farm coder pairs (SOL vs GLM 5.3 vs GLM Flash vs Muse vs G46) on steal-map WOs. Citation-bound. who_erred a|b|both|none|unknown. Do not write the tree. Do not spawn grok.exe. Do not change Opus T.",
+   "output": "proposals | QWENMAX_JUDGE.md"
+  },
+  {
+   "file": "wo-20260917T165800-keep-hitl.json",
+   "agent": "Google | Gemini | gemini-3.8-flash",
+   "ts": "2026-09-17T16:58:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10 PROPOSE. WOMBAT GF38. Write fat-cache ITEM tail for HITL bind on cosmos_review.py (ledger-named FINDINGS). SGH_VET KEEP. No LangGraph. No grok.exe.",
+   "output": "proposals | KEEP_HITL.md"
+  },
+  {
+   "file": "wo-20260917T165801-keep-stagehand.json",
+   "agent": "Google | Gemini | gemini-3.8-flash",
+   "ts": "2026-09-17T16:58:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10 PROPOSE. WOMBAT GF38. Write fat-cache ITEM tail for Stagehand act/extract on existing playwright-dom. SGH_VET KEEP. No second DOM. No grok.exe.",
+   "output": "proposals | KEEP_STAGEHAND.md"
+  },
+  {
+   "file": "wo-20260917T165802-keep-packets.json",
+   "agent": "Google | Gemini | gemini-3.8-flash",
+   "ts": "2026-09-17T16:58:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10 PROPOSE. WOMBAT GF38. Write fat-cache ITEM tail for tool-output packets via existing CAS. SGH_VET KEEP. No second store. No grok.exe.",
+   "output": "proposals | KEEP_PACKETS.md"
+  },
+  {
+   "file": "wo-20260917T181010.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-17T18:10:10-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: CURSOR. Compose Daytona and E2B as named backends behind cosmos_sandbox.py so attempt sandboxes cannot reach V:\\ (host pens V:\\Ai, repo tree, V:\\OPENWORK). Job-Object local backend already selftests 5/5 — keep it. OpenHands split (session/harness/sandbox) already exists; do not install OpenHands as a sche",
+   "output": "proposals | DAYTONA_SANDBOX.json"
+  },
+  {
+   "file": "wo-20260917T181020.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-17T18:10:20-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: CURSOR. Fenced-activate ONE Superpowers skill already on disk: verification-before-completion (work_orders/ccr/skills/verification-before-completion/SKILL.md). Path is SkillRegistry.propose then SkillRegistry.accept with CCr pen (assert_pen + arbiter fenced_commit on skill:<name>). Propose-only pack is no",
+   "output": "proposals | SKILL_ACTIVATE.json"
+  },
+  {
+   "file": "wo-20260917T181030.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-17T18:10:30-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: CURSOR. Stand up native-clock recall refresh: cosmos_own_clocks CLOCKS id 27, task COSMOS Recall Refresh, vehicle schtasks /sc minute /mo 15 wrapping cosmos_recall_clock.py --root <live> --once. Script already exists; standup() does not; _call_standup('recall') currently returns unknown standup. Native Wi",
+   "output": "proposals | RECALL_CLOCK.json"
+  },
+  {
+   "file": "wo-20260917T181040.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-17T18:10:40-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: DOM. MOTIF RESEARCH only: DeerFlow research pack on existing BTS/COSMOS Chrome path (chrome-bridge / Chrome MCP / Chrome CLI / playwright-dom, no window). PhD and legal research shape only. Children through cosmos_delegate.py (depth/concurrency/iteration policy; blocked tools; report never retry). Not Cor",
+   "output": "proposals | R1_DEERFLOW_DOM.md"
+  },
+  {
+   "file": "wo-20260917T181050.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-17T18:10:50-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: CURSOR. Plugin-ize lanes (DeepSeek Harness waist): thin Core, lanes as plugins. Subtract cosmos/_fail_* and cosmos/_bite_* scratch from the hot package — move to tools/ behind shims so py -3.14 cosmos/_bite_*.py still runs. Never delete; stage leftovers to _delme after CCr accepts. Improvement-not-bloat: ",
+   "output": "proposals | PLUGIN_WAIST.json"
+  },
+  {
+   "file": "wo-20260917T181100.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-17T18:11:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: CURSOR. Chamber JOIN from ORC CHAT pane. GET /api/v1/chamber already 200 UNMEASURED — paint presence from that GET; do not invent a second GET. JOIN calls cosmos_chamber.join (ledger CHAMBER_JOIN); if Core has no POST on the same path, propose POST /api/v1/chamber on that path only. legal room STREAM_REFU",
+   "output": "proposals | CHAMBER_ORC.json"
+  },
+  {
+   "file": "wo-20260917T210153-womb-seat.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-17T21:01:53-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. Route: CURSOR. P10 PROPOSE. WOMB pick_pair. See work_orders/ccr/GITUR_WOMB_SEAT.md. Do not pull unique HEAD. Pen f47bad79 disposes LiT.",
+   "output": "proposals | WOMB-SEAT.md"
+  },
+  {
+   "file": "wo-20260917T210154-makers-role.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-17T21:01:53-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. Route: CURSOR. P10 PROPOSE. makers ROLE WRAPPER. See work_orders/ccr/GITUR_MAKERS_ROLE_WRAPPER.md. Do not pull unique HEAD. Pen f47bad79 disposes LiT.",
+   "output": "proposals | MAKERS-ROLE.md"
+  },
+  {
+   "file": "wo-20260917T210155-learn-clock.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-17T21:01:53-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. Route: CURSOR. P10 PROPOSE. learn-style clock. See work_orders/ccr/GITUR_LEARN_CLOCK.md. Do not pull unique HEAD. Pen f47bad79 disposes LiT.",
+   "output": "proposals | LEARN-CLOCK.md"
+  },
+  {
+   "file": "wo-20260917T210156-cdeck-create.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-17T21:01:53-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. Route: CURSOR. P10 PROPOSE. CREATE ROLE WRAPPER. See work_orders/ccr/GITUR_CDECK_CREATE_ROLE.md. Do not pull unique HEAD. Pen f47bad79 disposes LiT.",
+   "output": "proposals | CDECK-CREATE.md"
+  },
+  {
+   "file": "wo-20260917T212414-opus-ledger.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-17T21:24:14-05:00",
+   "task": "Route: CURSOR. P10. Opus AM pack first. See work_orders/ccr/GITUR_OPUS_LEDGER.md. CCr f47bad79 disposes LiT.",
+   "output": "proposals | opus-ledger.md"
+  },
+  {
+   "file": "wo-20260917T212414-opus-resume.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-17T21:24:14-05:00",
+   "task": "Route: CURSOR. P10. Opus AM pack first. See work_orders/ccr/GITUR_OPUS_SPEND_RESUME.md. CCr f47bad79 disposes LiT.",
+   "output": "proposals | opus-resume.md"
+  },
+  {
+   "file": "wo-20260917T213847-fail-xfer.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-17T21:38:47-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. Route: CURSOR. P10. FIFO after old Gitur pile. fail_xfer: FAIL is not terminal. JSONL cosmos-score-attempt/1 + partner autopsy + GAC re-seat or superseded. Stage failed/ to _delme after rows. WOMB shows bucket+picked only. No grok.exe spawn. Files: cosmos_womb.py or cosmos_work_order_run.py. Expected: unified diff + 3 VERIFY. Pen f47bad79 LiT.",
+   "output": "proposals | FAIL-XFER.md"
+  },
+  {
+   "file": "wo-20260917T213847-judge-idle.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-17T21:38:47-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. Route: CURSOR. P10. FIFO after old Gitur pile. judge_idle_gate(n_board, cache_alive): if bucket+picked < 20 AND cache expired, LEAVE the chair empty. Sit when 20-40 WOs are on the board (or cache still alive and a pair exists). Token economy. Files: cosmos_womb.py or cosmos_work_order_run.py. Expected: unified diff + 3 VERIFY. Pen f47bad79 LiT.",
+   "output": "proposals | JUDGE-IDLE.md"
+  },
+  {
+   "file": "wo-20260917T213847-judge-run.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-17T21:38:47-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. Route: CURSOR. P10. FIFO after old Gitur pile. judge_run: ONE Judge model and ONE fat prefix for the whole run. Regrades are attempt 2/3 on THAT cache. Do not spawn a new Judge because TTL expired. Qwen Max 907k write at 16:55 is dead (5m TTL); do not rewrite it. Files: cosmos_womb.py or cosmos_work_order_run.py. Expected: unified diff + 3 VERIFY. Pen f47ba",
+   "output": "proposals | JUDGE-RUN.md"
+  },
+  {
+   "file": "wo-20260917T213847-wo-partner.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-17T21:38:47-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. Route: CURSOR. P10. FIFO after old Gitur pile. wo_partner(order) returns partner_id+state or UNMEASURED. Same pair_id / stamp-minute / Task prefix. Silent fail of A always autopsies B. 118 failed had no partner; 24 failed had a succeeding partner — those 24 were never judged. Files: cosmos_womb.py or cosmos_work_order_run.py. Expected: unified diff + 3 VERI",
+   "output": "proposals | WO-PARTNER.md"
+  },
+  {
+   "file": "wo-20260917T215011-restate-profiles.json",
+   "agent": "Google | Gemini | gemini-3.8-flash",
+   "ts": "2026-09-17T21:50:11-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. WOMBAT ITEM then pair GLM Flash + Luna Flex. Restate: one occupant per orch profile (tree grant + CCR.lease), not a second live copy. Expected coder form: NONE if cosmos_profiles.py already enforces one occupant, else one-file diff. VERIFY 3 lines. No grok.exe. FIFO after Gitur 563.",
+   "output": "proposals | restate-profiles.md"
+  },
+  {
+   "file": "wo-20260917T215011-restate-session-tools.json",
+   "agent": "Google | Gemini | gemini-3.8-flash",
+   "ts": "2026-09-17T21:50:11-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. WOMBAT ITEM then pair DS Flash paid + GLM Flash. Restate: SESSION TOOLS next bite only (CCr PR 43 slices 1-4 already). One file. NONE if done. VERIFY 3. No grok.exe. FIFO after old Gitur pile.",
+   "output": "proposals | restate-session-tools.md"
+  },
+  {
+   "file": "wo-20260917T220523-canon-spawn.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-17T22:05:23-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. Route: CURSOR. P10. Tag CCr f47bad79 preload default Role/Wrapper/Skills. ENCODE spawn FORM: Role, Role[Model] Wrapper, Skills, Tools, Parameters. Apply on every agent/subagent spawn including defaults. BU/session preload/resume check first. cDeck page + Core. Tag CCr preload defaults. See docs/CANON_SPAWN.md. FIFO after old Gitur pile unless this is the ca",
+   "output": "proposals | canon-spawn.md"
+  },
+  {
+   "file": "wo-20260917T220523-scar-1-problem.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-17T22:05:23-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. Route: CURSOR. P10. Tag CCr f47bad79 preload default Role/Wrapper/Skills. Never 112x MOTIF-driver WOs. One wish one six-field bite. WD2 drives MOTIF. Empty Output class 1 stating-the-problem. See docs/CANON_SPAWN.md. FIFO after old Gitur pile unless this is the canon-spawn encode.",
+   "output": "proposals | scar-1-problem.md"
+  },
+  {
+   "file": "wo-20260917T220523-scar-2-agent.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-17T22:05:23-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. Route: CURSOR. P10. Tag CCr f47bad79 preload default Role/Wrapper/Skills. Never grok.exe / grok --single as WO worker. Coding Gitur/GAC. Judge one fat prefix. Daemon WD2. Extra grok refuse. See docs/CANON_SPAWN.md. FIFO after old Gitur pile unless this is the canon-spawn encode.",
+   "output": "proposals | scar-2-agent.md"
+  },
+  {
+   "file": "wo-20260917T220523-scar-3-prompt.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-17T22:05:23-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. Route: CURSOR. P10. Tag CCr f47bad79 preload default Role/Wrapper/Skills. Context source MUST be a list of existing [read*] files. First line NONE or diff --git. STYLE append. No concat middle-dot string. See docs/CANON_SPAWN.md. FIFO after old Gitur pile unless this is the canon-spawn encode.",
+   "output": "proposals | scar-3-prompt.md"
+  },
+  {
+   "file": "wo-20260917T220523-scar-4-followup.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-17T22:05:23-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. Route: CURSOR. P10. Tag CCr f47bad79 preload default Role/Wrapper/Skills. FAIL -> JSONL attempt + wo_partner + restate or superseded. Board bucket+picked only. File corpses away, never throw away. See docs/CANON_SPAWN.md. FIFO after old Gitur pile unless this is the canon-spawn encode.",
+   "output": "proposals | scar-4-followup.md"
+  },
+  {
+   "file": "wo-20260917T220523-scar-5-judge-idle.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-17T22:05:23-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. Route: CURSOR. P10. Tag CCr f47bad79 preload default Role/Wrapper/Skills. One Judge per run. If cache dead and n_board < 20, leave chair empty until 20-40 WOs. See docs/CANON_SPAWN.md. FIFO after old Gitur pile unless this is the canon-spawn encode.",
+   "output": "proposals | scar-5-judge-idle.md"
+  },
+  {
+   "file": "wo-20260917T223500-one-head-gate.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-17T22:35:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. Route: CURSOR. P10. AFTER CCr reset --hard origin/main and FIFO 563. Add cosmos_head_gate: git rev-list --count origin/main..HEAD must be 0 or refuse 'synced'. Principle/audit check. starting_ref stays main. Tag CCr f47bad79. Do not invent a join commit.",
+   "output": "proposals | HEAD_GATE.md"
+  },
+  {
+   "file": "wo-20260918T120000-warn-before-error.json",
+   "agent": "xAI | Grok | grok-4.6",
+   "ts": "2026-09-18T12:00:00-05:00",
+   "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. Route: CURSOR. P10. Wish: WARN BEFORE ERROR x3. Humans are distracted. See danger, print WARN BEFORE ERROR: {kind} three times, then refuse. Partial on main: cosmos_warn.warn3 + grok --single WO refuse (#578). Remaining: (1) head-gate origin/main..HEAD != 0 warn x3 (2) concat CTX warn x3 (3) Judge idle n_board<20 warn x3 (4) Gitur squash that deletes more t",
+   "output": "proposals | WARN3.md"
+  }
+ ],
+ "prior_orc_grades": {
+  "cosmos_sandbox.py": "KEEP thin Gitur",
+  "cosmos_skills.py": "KEEP thin Gitur",
+  "cosmos_approval.py": "KEEP thin Gitur",
+  "cosmos_delegate.py": "KEEP thin Gitur",
+  "cosmos_recall.py": "KEEP thin Gitur",
+  "cosmos_recall_clock.py": "KEEP thin Gitur",
+  "cosmos_chamber.py": "KEEP or HOLD (cDeck #320 HOLD)",
+  "cosmos_action_chain.py": "KEEP or HOLD",
+  "cosmos_temporal_fold.py": "KEEP or HOLD",
+  "cosmos_nlcron.py": "DROP local; Gitur #567 merged",
+  "cosmos_packets.py": "DROP; cosmos_packet.py on main",
+  "cosmos_porosity_v6.py": "HOLD tensor /5 frozen",
+  "cosmos_seat.py": "HOLD",
+  "cosmos_crew_roster.py": "HOLD",
+  "cosmos_research_call.py": "HOLD",
+  "cosmos_session_ideas.py": "HOLD",
+  "cosmos_session_tools_kit.py": "HOLD"
+ },
+ "rule": "37 occupancy commits are reverted. Do not re-apply onto LiT. Grade leftovers + inbox. Then Gitur one thin PR from origin/main. Families: not Grok."
+}

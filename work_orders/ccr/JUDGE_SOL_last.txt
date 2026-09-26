@@ -1,0 +1,3 @@
+DROP
+
+HIGH `live/work/phase1/P2/north/attempt2/mouth.txt:26` — the `NONE` arm asserts eight missing requirements and begins a draft patch at `live/work/phase1/P2/north/attempt2/mouth.txt:43`, so drop that arm; the remaining canonical NO_CODE arms and `live/work/phase2/gem_ping.json:2` are keepable.

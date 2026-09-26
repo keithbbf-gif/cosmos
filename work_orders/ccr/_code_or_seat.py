@@ -44,6 +44,26 @@ SEATS = {
     "llama": "meta-llama/llama-4-maverick",
     "muse": "meta/muse-spark-1.2-contributor",
     "oss": "openai/gpt-oss-120b",
+    "hy3preview": "tencent/hy3-preview",
+    "nemo35f": "nvidia/nemotron-3.5-lightning:free",
+    "northmini": "cohere/north-mini-code:free",
+    "lagunaxs": "poolside/laguna-xs-2.1:free",
+    "dots3": "dots-studio/dots3-note-preview:free",
+    "luna6": "openai/gpt-6-luna",
+    "nexmini": "nex-agi/nex-n2.5-mini",
+    "lingvl": "inclusionai/ling-3.0-flash-vl:free",
+    "qwen37": "qwen/qwen3.7-flash",
+    "nanoomni": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+    "qwen3635b": "qwen/qwen3.6-35b-a3b",
+    "gemma426b": "google/gemma-4-26b-a4b:free",
+    "qwen27f": "qwen/qwen3.8-27b:free",
+    "lagunas": "poolside/laguna-s-2.1:free",
+    "hy3": "tencent/hy3",
+    "qwenomni": "qwen/qwen3.8-omni-flash",
+    "solarpro4": "upstage/solar-pro-4",
+    "inklingf": "thinkingmachines/inkling:free",
+    "mimo25": "xiaomi/mimo-v2.5",
+    "gemma431b": "google/gemma-4-31b",
 }
 SEAT_TAG = {
     "luna": "You are lane **Luna Flex** (`openai/gpt-5.6-luna`, 1.1M). Full patent-ideas preload. Not Ling. Not Solar.",
@@ -128,7 +148,7 @@ def main(argv: list[str] | None = None) -> int:
     tail = "\n\n".join((
         "--- TASK ---",
         item,
-        SEAT_TAG[ns.seat],
+        SEAT_TAG.get(ns.seat, f"You are lane **{ns.seat}** (`{model}`). Full patent-ideas preload. Not Ling. Not Solar."),
         "PROPOSE only. Unified diff first. Do not write the live tree.",
     ))
     # Last cached user part gets the Flex breakpoint (P11: static then tail).

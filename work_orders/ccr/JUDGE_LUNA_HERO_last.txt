@@ -1,0 +1,7 @@
+DROP — The standalone run path can mark code edits done without oracle verification.
+- `cosmos_code/__main__.py:171` — High: The CLI never sets `nontrivial` or `oracle_argv`; edits therefore take the `skipped_trivial` path in `cosmos_code/loop.py:292` and can reach DONE without an oracle.
+- `cosmos_code/loop.py:451` — High: Archiving a deletion does not run the oracle, mark the attempt edited, or add the path to the diff; a nontrivial deletion can be treated as unchanged.
+- `cosmos_code/loop.py:64` — Medium: The mouth receives no frozen prefix; `OpenAIMouth` keeps its own prefix (`cosmos_code/mouth.py:188`), so the prompt sent to the model can differ from the prefix hash recorded by the loop.
+- `cosmos_code/verify/stop_gate.py:116` — Medium: The stop gate checks the command and artifact hashes but never binds `oracle_id` to the caller’s oracle; the bundle can carry an arbitrary oracle label.
+- `cosmos_code/__main__.py:162` — Medium: The CLI checks for an API key before `run()` checks for a prior DONE stamp; without a key, it writes REFUSE and removes the existing DONE stamp.
+- `cosmos_code/loop.py:167` — Medium: `readline()` loads a whole line before the byte limit truncates it, so a single huge line can exceed the reader’s intended memory bound.

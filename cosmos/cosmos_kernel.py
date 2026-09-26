@@ -272,8 +272,21 @@ class Kernel:
         _try("prove_nodes", _prove)
 
         def _heads():
-            from cosmos_warn import warn_if_two_heads
-            warn_if_two_heads(self.paths.root)
+            from cosmos_head_gate import head_gate
+            from cosmos_warn import WarnRefuse
+            try:
+                rec = head_gate(self.paths.root)
+            except WarnRefuse as e:
+                report["head_gate"] = {
+                    "schema": "cosmos-head-gate/1",
+                    "synced": False,
+                    "kind": e.kind,
+                    "detail": e.detail,
+                }
+                report["synced"] = False
+                raise
+            report["head_gate"] = rec
+            report["synced"] = True
 
         _try("two_heads_warn", _heads)
         return report

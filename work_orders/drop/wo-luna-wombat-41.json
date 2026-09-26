@@ -1,0 +1,63 @@
+{
+  "order_id": "wish-41-womb",
+  "Agent": "OpenRouter | Nex | nex-agi/nex-n2.5-mini:free",
+  "Context source": [
+    "V:\\A\\Ai\\COSMOS\\docs\\AGENT_BRIEF.md",
+    "V:\\A\\Ai\\COSMOS\\docs\\AGENT_BOUNDARIES.md",
+    "V:\\A\\Ai\\COSMOS\\docs\\WISHLIST.md"
+  ],
+  "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. WISH: SECOND / PARALLEL ORCHESTRATOR (P1 \u2014 top of the build wave; \"the promotion\"). Stand up a\n      backup/parallel orchestrator on a PREPAID model (from the SGH+GEM orchestrator research already\n      in flight \u2014 dispose its ranked shortlist, pick the winner, BUILD + wire it) so COW is not a\n      single point of failure AND the Claude quota is freed for Legal/Physics/F5. Two orchestrators\n      running in parallel = resilient + free. This is the goal that unlocks every other goal cheaply.\n      **ALSO REQUIRES persistent saved ORCHESTRATOR STATE** \u2014 the live orchestration state (route\n      position, in-flight assignments, pending decisions) continuously persisted to disk (extend the\n      SEED / carry-over mechanism) so ANY orchestrator can crash / reinstall / resession and resume\n      from exactly where it left off with ZERO loss \u2014 surviving EVERY failure class: a session crash, a\n      Windows crash, an AI-app crash, AND a total COSMOS/tree DELETION (the BTS-MESH scar \u2014 the\n      predecessor tree was deleted once). So the state is persisted REDUNDANTLY, off-tree and\n      OFF-MACHINE (the bulletproof-backup targets \u2014 local ES.3 + GDX + ODX + R2), never only in the\n      live tree, and is RESTORABLE from any of them. Extra reason for the second orchestrator: the\n      Claude DT app crashed TWICE (see the in-app-browser scar) \u2014 orchestration must not die with the\n      app; a prepaid, INDEPENDENT orchestrator + persisted state survives it.",
+  "Target & scope": "proposals under Output only; never kernel/ledger/sched/service; never LiT; never grok.exe",
+  "Timestamp": "2026-09-24T08:15:55-05:00",
+  "Output": "proposals | out.json",
+  "output_what": "python",
+  "OPTIMUM_tokens": "float",
+  "MAX_tokens": 209600,
+  "crew": [
+    {
+      "seat": 1,
+      "Agent": "OpenRouter | Nex | nex-agi/nex-n2.5-mini:free",
+      "tier": "free",
+      "context_window_tokens": 262000,
+      "cache_floor_tokens": 1024,
+      "cache_ttl": "30m",
+      "cache_prefix": "legend+WRAP+STYLE+SKILL",
+      "timeout_s": 900,
+      "tps": 49,
+      "pack": "work_orders/ccr/hero_coders/13_nexmini",
+      "output_what": "python",
+      "OPTIMUM_tokens": "float",
+      "MAX_tokens": 209600
+    },
+    {
+      "seat": 2,
+      "Agent": "OpenRouter | North | cohere/north-mini-code:free",
+      "tier": "free",
+      "context_window_tokens": 256000,
+      "cache_floor_tokens": 1024,
+      "cache_ttl": "30m",
+      "cache_prefix": "legend+WRAP+STYLE+SKILL",
+      "timeout_s": 900,
+      "tps": 58,
+      "pack": "work_orders/ccr/hero_coders/09_northmini",
+      "output_what": "python",
+      "OPTIMUM_tokens": "float",
+      "MAX_tokens": 204800
+    },
+    {
+      "seat": 3,
+      "Agent": "OpenRouter | Hy3 | tencent/hy3-preview",
+      "tier": "paid-low",
+      "context_window_tokens": 262000,
+      "cache_floor_tokens": 1024,
+      "cache_ttl": "30m",
+      "cache_prefix": "legend+WRAP+STYLE+SKILL",
+      "timeout_s": 900,
+      "tps": 69,
+      "pack": "work_orders/ccr/hero_coders/07_hy3preview",
+      "output_what": "python",
+      "OPTIMUM_tokens": "float",
+      "MAX_tokens": 209600
+    }
+  ]
+}

@@ -50,6 +50,10 @@ def default_kit() -> dict:
             "context_tokens": 0,
             "on_compaction": True,
             "on_token_count": True,
+            "warn_pct": 0.65,
+            "window_tokens": 200000,
+            "warn_tokens": 130000,
+            "warn_persistent": True,
         },
         "updated_at": None,
         "available": False,
@@ -87,7 +91,17 @@ def _public(rec: dict) -> dict:
         "context_tokens": _clamp_int(rs.get("context_tokens"), 0, 2_000_000, 0),
         "on_compaction": bool(rs["on_compaction"]) if "on_compaction" in rs else True,
         "on_token_count": bool(rs["on_token_count"]) if "on_token_count" in rs else True,
+        "warn_pct": 0.65,
+        "window_tokens": _clamp_int(rs.get("window_tokens"), 1, 2_000_000, 200000),
+        "warn_tokens": _clamp_int(rs.get("warn_tokens"), 0, 2_000_000, 130000),
+        "warn_persistent": bool(rs["warn_persistent"]) if "warn_persistent" in rs else True,
     }
+    if "warn_pct" in rs:
+        try:
+            wp = float(rs["warn_pct"])
+        except (TypeError, ValueError):
+            wp = 0.65
+        resession["warn_pct"] = max(0.0, min(1.0, wp))
     return {
         "schema": SCHEMA,
         "cos": cos,
@@ -219,6 +233,11 @@ def _selftest() -> int:
           and saved["cos"]["rold"] is True
           and saved["resession"]["time_s"] == 900
           and saved["resession"]["context_tokens"] == 100000)
+    check("Grok warn is 65 percent of 200k persistent",
+          lambda: saved["resession"]["warn_pct"] == 0.65
+          and saved["resession"]["window_tokens"] == 200000
+          and saved["resession"]["warn_tokens"] == 130000
+          and saved["resession"]["warn_persistent"] is True)
     bad = False
     try:
         save_kit(paths, {"autosave_min": 7})

@@ -1,0 +1,2 @@
+NONE
+HERO_OK dots-studio/dots-3-note-preview:free

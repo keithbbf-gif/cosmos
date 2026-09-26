@@ -1,0 +1,23 @@
+{
+ "_schema": "cosmos-work-order/1",
+ "order_id": "wo-20260919T010600-restate-orch-profiles",
+ "Agent": "Gitur Cursor grok-4.6 BUILD + GLM Flash",
+ "Context source": [
+  "docs/AGENT_BRIEF.md [read*]",
+  "docs/AGENT_BOUNDARIES.md [read*]",
+  "docs/CANON_SPAWN.md [read*]",
+  "docs/HARNESS.md [read*]",
+  "work_orders/ccr/DEFINE_WOMB.md [read*]",
+  "work_orders/ccr/WOMB_PILE_400.json [read*]",
+  "work_orders/ccr/FULFILL_OR_RESTATE.md [read*]"
+ ],
+ "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. ONE bite: ORCHESTRATOR PROFILES \u2014 one occupant per profile (tree grant + CCR.lease), not a second live copy. Expected: NONE or diff --git + 3 VERIFY. No grok.exe. No extra GFO spawn.",
+ "Target & scope": "Route GITUR. Isolated proposal only. Never LiT. Never extra grok.exe. Never USPTO. FIFO after existing GITUR_* packs.",
+ "Timestamp": "2026-09-19T01:06:00-05:00",
+ "Output": "proposals | orch_profiles.diff",
+ "_womb": {
+  "from": "157-failed + _delme wo-json unique restate",
+  "pile": "work_orders/ccr/WOMB_PILE_400.json",
+  "attempt": 2
+ }
+}

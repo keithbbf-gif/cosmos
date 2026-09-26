@@ -1,0 +1,7 @@
+{"name": "luna6", "model": "openai/gpt-6-luna", "rc": 0, "ok": true, "kind": null, "first_line": "NONE", "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\DOC_LUNA6_last.txt", "hero_ok": true}
+{"name": "lunapro", "model": "openai/gpt-6-luna-pro:floor", "rc": 2, "ok": false, "kind": "BROKE", "first_line": "http=200 response_model=None", "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\DOC_LUNAPRO_last.txt", "hero_ok": false}
+{"name": "muse13", "model": "meta/muse-spark-1.3-contributor", "rc": 0, "ok": true, "kind": null, "first_line": "NONE", "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\DOC_MUSE13_last.txt", "hero_ok": true}
+{"name": "muse12", "model": "meta/muse-spark-1.2-contributor", "rc": 0, "ok": true, "kind": null, "first_line": "NONE", "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\DOC_MUSE12_last.txt", "hero_ok": true}
+{"name": "dots3", "model": "dots-studio/dots3-note-preview:free", "rc": 2, "ok": false, "kind": "BROKE", "first_line": "http=400 response_model=None", "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\DOC_DOTS3_last.txt", "hero_ok": false}
+{"name": "gemma26p", "model": "google/gemma-4-26b-a4b-it", "rc": 0, "ok": true, "kind": null, "first_line": "NONE", "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\DOC_GEMMA26P_last.txt", "hero_ok": true}
+{"name": "qwen27p", "model": "qwen/qwen3.8-27b", "rc": 0, "ok": true, "kind": null, "first_line": "NONE", "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\DOC_QWEN27P_last.txt", "hero_ok": true}

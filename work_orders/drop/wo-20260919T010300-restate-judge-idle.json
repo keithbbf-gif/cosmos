@@ -1,0 +1,23 @@
+{
+ "_schema": "cosmos-work-order/1",
+ "order_id": "wo-20260919T010300-restate-judge-idle",
+ "Agent": "Gitur Cursor grok-4.6 BUILD + GLM Flash",
+ "Context source": [
+  "docs/AGENT_BRIEF.md [read*]",
+  "docs/AGENT_BOUNDARIES.md [read*]",
+  "docs/CANON_SPAWN.md [read*]",
+  "docs/HARNESS.md [read*]",
+  "work_orders/ccr/DEFINE_WOMB.md [read*]",
+  "work_orders/ccr/WOMB_PILE_400.json [read*]",
+  "work_orders/ccr/FULFILL_OR_RESTATE.md [read*]"
+ ],
+ "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. ONE bite: judge_idle_gate(n_board, cache_alive): if bucket+picked < 20 AND cache expired, LEAVE the chair empty. Sit when 20-40 or cache alive. Unified diff first. NONE if done. VERIFY 3. No grok.exe.",
+ "Target & scope": "Route GITUR. Isolated proposal only. Never LiT. Never extra grok.exe. Never USPTO. FIFO after existing GITUR_* packs.",
+ "Timestamp": "2026-09-19T01:03:00-05:00",
+ "Output": "proposals | judge_idle_gate.diff",
+ "_womb": {
+  "from": "157-failed + _delme wo-json unique restate",
+  "pile": "work_orders/ccr/WOMB_PILE_400.json",
+  "attempt": 2
+ }
+}

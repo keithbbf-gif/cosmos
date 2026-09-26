@@ -1,0 +1,2 @@
+NONE
+HERO_OK nex-n2.5-mini:free

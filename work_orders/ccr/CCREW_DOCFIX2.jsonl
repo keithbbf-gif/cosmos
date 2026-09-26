@@ -1,0 +1,6 @@
+{"name": "dots3fix", "model": "dots-studio/dots-3-note-preview:free", "ok": true, "kind": null, "first_line": "NONE", "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\FIX2_DOTS3FIX_last.txt", "hero_ok": true}
+{"name": "inklingp", "model": "thinkingmachines/inkling", "ok": true, "kind": null, "first_line": "NONE", "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\FIX2_INKLINGP_last.txt", "hero_ok": true}
+{"name": "nanoomni", "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free", "ok": false, "kind": "BROKE", "first_line": "http=200 response_model=None", "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\FIX2_NANOOMNI_last.txt", "hero_ok": false}
+{"name": "ultrafree", "model": "nvidia/nemotron-3-ultra-550b-a55b:free", "ok": false, "kind": "BROKE", "first_line": "http=200 response_model=None", "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\FIX2_ULTRAFREE_last.txt", "hero_ok": false}
+{"name": "ultrap", "model": "nvidia/nemotron-3-ultra-550b-a55b", "ok": false, "kind": "BROKE", "first_line": "http=429 response_model=None", "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\FIX2_ULTRAP_last.txt", "hero_ok": false}
+{"name": "qwen36", "model": "qwen/qwen3.6-35b-a3b", "ok": true, "kind": null, "first_line": "NONE", "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\FIX2_QWEN36_last.txt", "hero_ok": true}

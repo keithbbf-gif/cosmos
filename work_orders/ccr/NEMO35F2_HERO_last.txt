@@ -1,0 +1,22 @@
+Here's a thinking process:
+
+1.  **Analyze User Input:**
+   - User says: "# AGENTS.md — CODER nvidia/nemotron-3.5-lightning:free. No dates. No WO ids."
+   - Then there's a long system prompt about being a CODER agent, with various rules, styles, and a mission section.
+   - The mission section at the very end says:
+     ```
+     # Mission ping
+
+     Reply with exactly two lines:
+     NONE
+     HERO_OK nvidia/nemotron-3.5-lightning:free
+     ```
+   - The user also mentions "No dates. No WO ids." at the top, which seems to be a constraint.
+
+2.  **Identify the Core Task:**
+   - The explicit mission is at the bottom: "Reply with exactly two lines: NONE\nHERO_OK nvidia/nemotron-3.5-lightning:free"
+   - The system prompt has many rules, but the mission is clear and specific.
+   - I need to output exactly those two lines, no more, no less, no markdown, no extra text.
+
+3.  **Check Constraints:**
+   - "Output MUST match the Mission schema. If

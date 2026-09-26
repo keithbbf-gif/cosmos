@@ -136,7 +136,18 @@ def _input_pack(seat: str, tab: str) -> dict:
 
 def main() -> int:
     paths = CosmosPaths(str(LIVE))
-    require_bootup(paths, stream="Cm")
+    try:
+        require_bootup(paths)
+    except Exception as e:
+        print(f"BOOTUP refused: {e}", flush=True)
+        return 0
+    try:
+        raw = json.loads((paths.root / "state" / "control" / "PAUSE.flag").read_text(encoding="utf-8"))
+        if raw.get("state") == "PAUSED" and raw.get("mode") == "hold":
+            print("PAUSED hold - pair save idle", flush=True)
+            return 0
+    except (OSError, ValueError):
+        pass
     store = paths.role("state", "porosity")
     tdir = store / "trials"
     tdir.mkdir(parents=True, exist_ok=True)

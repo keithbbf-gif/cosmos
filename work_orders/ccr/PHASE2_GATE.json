@@ -1,0 +1,36 @@
+{
+  "schema": "cosmos-orch-phases/1",
+  "phase1": {
+    "n": 4,
+    "status": "sit-4cs",
+    "run": "3-coder sets sit; gitur FINISHED; no Judge",
+    "sit": "live/work/phase1/SIT.json",
+    "cs4": "live/work/phase1/CS4.json",
+    "out": "live/work/phase1/"
+  },
+  "phase2": {
+    "file": "work_orders/ccr/PHASE2_100.jsonl",
+    "n": 100,
+    "womb_n": [501, 600],
+    "status": "unique-KEEP-sit",
+    "sit": "live/work/phase2/SIT.json",
+    "done": ["524", "506", "553", "554", "555", "557", "558", "567"],
+    "partial": [],
+    "skip": ["501-503", "504-cluster", "507", "509", "530-552", "562-cdeck-gbw", "568-592", "593-600-dup"],
+    "nex_pin": "nex-agi/nex-n2.5-mini:free",
+    "north_coder": false,
+    "grok_exe": false,
+    "judge": "DROP P2-north; KEEP remaining NONE sets + 524",
+    "unique_est": "15-25"
+  },
+  "phase3": {
+    "file": "work_orders/ccr/PHASE3_100.jsonl",
+    "n": 100,
+    "womb_n": [601, 700],
+    "status": "staged-waiting",
+    "vet": "work_orders/ccr/VET_PHASE3_100.md",
+    "after": "phase2-review",
+    "unique_est": "25-30"
+  },
+  "phase4": {"status": "gated", "after": "phase3-review"}
+}

@@ -1,0 +1,21 @@
+{
+ "id": "581-imports",
+ "pr": 581,
+ "digs": "reused V:\\A\\Ai\\COSMOS\\live\\work\\codex\\hero\\581-imports 4b0e041f",
+ "file_exists": true,
+ "ok": false,
+ "done": false,
+ "model": null,
+ "n_diff": 0,
+ "diff": "",
+ "last": "I could not save the file because this session has a read-only filesystem and writes are blocked by the current approval settings.\n\nThe intended change in [cosmos/cosmos_skills.py](</V:/A/Ai/COSMOS/live/work/codex/hero/581-imports/cosmos/cosmos_skills.py>) is:\n\n```python\nfrom cosmos_approval import ApprovalGate\nfrom cosmos_ccr import CcrError, assert_pen\n```\n\nadded to the top import block, with the redundant local imports removed from `accept`, `reject`, and `open_registry`.",
+ "usage": {
+  "input_tokens": 74712,
+  "cached_input_tokens": 64384,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 2561,
+  "reasoning_output_tokens": 1212
+ },
+ "done_why": "missing real model field",
+ "stderr_tail": "Reading additional input from stdin...\n2026-09-18T18:26:01.597815Z ERROR codex_models_manager::manager: failed to load models cache: missing field `supports_parallel_tool_calls` at line 89 column 5\n2026-09-18T18:26:30.518595Z ERROR codex_core::tools::router: error=patch rejected: writing is blocked by read-only sandbox; rejected by user approval settings\n"
+}

@@ -1,0 +1,182 @@
+[
+ {
+  "ok": true,
+  "kind": null,
+  "model": "tencent/hy3-preview",
+  "first_line": "We are given a set of instructions: AGENTS.md, WRAP.md, STYLE.md, SKILL.md, TASK",
+  "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\hero_pings\\07_hy3preview_last.txt",
+  "hero_ok": false,
+  "dir": "07_hy3preview",
+  "try_model": "tencent/hy3-preview"
+ },
+ {
+  "ok": true,
+  "kind": null,
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "first_line": "Here's a thinking process:",
+  "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\hero_pings\\08_nemo35f_last.txt",
+  "hero_ok": false,
+  "dir": "08_nemo35f",
+  "try_model": "nvidia/nemotron-3.5-lightning:free"
+ },
+ {
+  "ok": true,
+  "kind": null,
+  "model": "cohere/north-mini-code:free",
+  "first_line": "NONE",
+  "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\hero_pings\\09_northmini_last.txt",
+  "hero_ok": true,
+  "dir": "09_northmini",
+  "try_model": "cohere/north-mini-code:free"
+ },
+ {
+  "ok": false,
+  "kind": "REFUSED",
+  "model": "poolside/laguna-xs-2.1:free:floor",
+  "first_line": "not a pinned OpenRouter id 'poolside/laguna-xs-2.1:free'; want ['bytedance-seed/",
+  "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\hero_pings\\10_lagunaxs_last.txt",
+  "hero_ok": false,
+  "dir": "10_lagunaxs",
+  "try_model": "poolside/laguna-xs-2.1:free"
+ },
+ {
+  "ok": false,
+  "kind": "REFUSED",
+  "model": "dots-studio/dots3-note-preview:free:floor",
+  "first_line": "not a pinned OpenRouter id 'dots-studio/dots3-note-preview:free'; want ['bytedan",
+  "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\hero_pings\\11_dots3_last.txt",
+  "hero_ok": false,
+  "dir": "11_dots3",
+  "try_model": "dots-studio/dots3-note-preview:free"
+ },
+ {
+  "ok": false,
+  "kind": "BROKE",
+  "model": "inclusionai/ling-3.0-flash-vl:free:floor",
+  "first_line": "http=404 response_model=None",
+  "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\hero_pings\\14_lingvl_last.txt",
+  "hero_ok": false,
+  "dir": "14_lingvl",
+  "try_model": "inclusionai/ling-3.0-flash-vl:free"
+ },
+ {
+  "ok": false,
+  "kind": "REFUSED",
+  "model": "qwen/qwen3.7-flash:floor",
+  "first_line": "not a pinned OpenRouter id 'qwen/qwen3.7-flash'; want ['bytedance-seed/seed-2.0-",
+  "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\hero_pings\\15_qwen37_last.txt",
+  "hero_ok": false,
+  "dir": "15_qwen37",
+  "try_model": "qwen/qwen3.7-flash"
+ },
+ {
+  "ok": false,
+  "kind": "BROKE",
+  "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free:floor",
+  "first_line": "http=200 response_model=None",
+  "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\hero_pings\\16_nanoomni_last.txt",
+  "hero_ok": false,
+  "dir": "16_nanoomni",
+  "try_model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
+ },
+ {
+  "ok": false,
+  "kind": "REFUSED",
+  "model": "qwen/qwen3.6-35b-a3b:floor",
+  "first_line": "not a pinned OpenRouter id 'qwen/qwen3.6-35b-a3b'; want ['bytedance-seed/seed-2.",
+  "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\hero_pings\\17_qwen3635b_last.txt",
+  "hero_ok": false,
+  "dir": "17_qwen3635b",
+  "try_model": "qwen/qwen3.6-35b-a3b"
+ },
+ {
+  "ok": false,
+  "kind": "BROKE",
+  "model": "google/gemma-4-26b-a4b-it:free:floor",
+  "first_line": "http=429 response_model=None",
+  "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\hero_pings\\18_gemma426b_last.txt",
+  "hero_ok": false,
+  "dir": "18_gemma426b",
+  "try_model": "google/gemma-4-26b-a4b-it:free"
+ },
+ {
+  "ok": false,
+  "kind": "BROKE",
+  "model": "qwen/qwen3.8-27b:free:floor",
+  "first_line": "http=429 response_model=None",
+  "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\hero_pings\\19_qwen27f_last.txt",
+  "hero_ok": false,
+  "dir": "19_qwen27f",
+  "try_model": "qwen/qwen3.8-27b:free"
+ },
+ {
+  "ok": false,
+  "kind": "REFUSED",
+  "model": "poolside/laguna-s-2.1:free:floor",
+  "first_line": "not a pinned OpenRouter id 'poolside/laguna-s-2.1:free'; want ['bytedance-seed/s",
+  "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\hero_pings\\20_lagunas_last.txt",
+  "hero_ok": false,
+  "dir": "20_lagunas",
+  "try_model": "poolside/laguna-s-2.1:free"
+ },
+ {
+  "ok": false,
+  "kind": "REFUSED",
+  "model": "tencent/hy3:floor",
+  "first_line": "not a pinned OpenRouter id 'tencent/hy3'; want ['bytedance-seed/seed-2.0-mini', ",
+  "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\hero_pings\\21_hy3_last.txt",
+  "hero_ok": false,
+  "dir": "21_hy3",
+  "try_model": "tencent/hy3"
+ },
+ {
+  "ok": false,
+  "kind": "REFUSED",
+  "model": "qwen/qwen3.8-omni-flash:floor",
+  "first_line": "not a pinned OpenRouter id 'qwen/qwen3.8-omni-flash'; want ['bytedance-seed/seed",
+  "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\hero_pings\\22_qwenomni_last.txt",
+  "hero_ok": false,
+  "dir": "22_qwenomni",
+  "try_model": "qwen/qwen3.8-omni-flash"
+ },
+ {
+  "ok": false,
+  "kind": "REFUSED",
+  "model": "upstage/solar-pro-4:floor",
+  "first_line": "not a pinned OpenRouter id 'upstage/solar-pro-4'; want ['bytedance-seed/seed-2.0",
+  "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\hero_pings\\23_solarpro4_last.txt",
+  "hero_ok": false,
+  "dir": "23_solarpro4",
+  "try_model": "upstage/solar-pro-4"
+ },
+ {
+  "ok": false,
+  "kind": "AUTH_REQUIRED",
+  "model": "thinkingmachines/inkling:free:floor",
+  "first_line": "http=403 response_model=None",
+  "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\hero_pings\\24_inklingf_last.txt",
+  "hero_ok": false,
+  "dir": "24_inklingf",
+  "try_model": "thinkingmachines/inkling:free"
+ },
+ {
+  "ok": false,
+  "kind": "REFUSED",
+  "model": "xiaomi/mimo-v2.5:floor",
+  "first_line": "not a pinned OpenRouter id 'xiaomi/mimo-v2.5'; want ['bytedance-seed/seed-2.0-mi",
+  "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\hero_pings\\25_mimo25_last.txt",
+  "hero_ok": false,
+  "dir": "25_mimo25",
+  "try_model": "xiaomi/mimo-v2.5"
+ },
+ {
+  "ok": false,
+  "kind": "BROKE",
+  "model": "google/gemma-4-31b-it:free:floor",
+  "first_line": "http=429 response_model=None",
+  "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\hero_pings\\26_gemma431b_last.txt",
+  "hero_ok": false,
+  "dir": "26_gemma431b",
+  "try_model": "google/gemma-4-31b-it:free"
+ }
+]

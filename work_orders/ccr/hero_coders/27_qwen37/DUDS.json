@@ -1,0 +1,31 @@
+{
+ "session_id": "wish18-qwen37",
+ "area": "wish-18",
+ "legend": {
+  "l1_role": "CODER",
+  "l2_model": "qwen/qwen3.7-flash",
+  "l3_harness": "openrouter",
+  "l4_wrapper_path": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\hero_coders\\_CODER_WRAP.md",
+  "l5_skills": [
+   "python-only"
+  ],
+  "l6_tools": {
+   "allow": [
+    "read"
+   ],
+   "forbid": [
+    "git_push",
+    "LiT write",
+    "grok.exe"
+   ]
+  },
+  "l7_environment": {
+   "cwd": "V:\\A\\Ai\\COSMOS\\live\\work",
+   "what": "python",
+   "optimum": "float"
+  }
+ },
+ "tail": {
+  "l8_mission": "Output is python only. The entire reply is the source of one module. No diff header. No markdown fence. No sentence before the code. First line is a python statement or a module docstring.\nModule: cosmos_autocontext.py. Function pull_and_file(tag, assignment) stores tag, assignment, and an ISO timestamp. Do not import cosmos_ledger, cosmos_sched, or cosmos_service. Spec read for the bite, not copied into the reply: docs/DISPATCH_AUTOCONTEXT.md."
+ }
+}

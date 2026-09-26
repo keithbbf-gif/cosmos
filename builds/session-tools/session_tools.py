@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""session-tools — scan load convert diff check anonymize crash-recover migrate.
+"""session-tools — scan load convert diff check anonymize crash-recover migrate rebind.
 
     py -3.14 builds/session-tools/session_tools.py scan --family cowork --store <dir>
     py -3.14 builds/session-tools/session_tools.py load --id cow-abc --store <dir>
@@ -141,6 +141,14 @@ def cmd_migrate(rec_id: str, store: Path, workspace_id: str | None,
     return _result("migrate", kind, gate)
 
 
+def cmd_rebind(ses_id: str, directory: Path, workspace_id: str | None,
+               out: Path | None, dry_run: bool) -> dict:
+    gate = verbs.rebind(ses_id, directory, workspace_id,
+                        dry_run=dry_run, out_dir=out)
+    kind = "DRY_RUN" if dry_run else "OK"
+    return _result("rebind", kind, gate)
+
+
 def main(argv: list[str] | None = None) -> int:
     p = argparse.ArgumentParser(prog="session_tools.py")
     p.add_argument("--root", default=None, help="COSMOS live root (required if no --store)")
@@ -180,6 +188,12 @@ def main(argv: list[str] | None = None) -> int:
     mg.add_argument("--directory", required=True)
     mg.add_argument("--out", default=None)
     mg.add_argument("--dry-run", action="store_true")
+    rb = sub.add_parser("rebind")
+    rb.add_argument("--id", required=True, help="ses_* (not ses_cow_*)")
+    rb.add_argument("--workspace-id", required=True)
+    rb.add_argument("--directory", required=True)
+    rb.add_argument("--out", default=None)
+    rb.add_argument("--dry-run", action="store_true")
     a = p.parse_args(argv)
     store = Path(a.store) if getattr(a, "store", None) else None
     try:
@@ -199,6 +213,10 @@ def main(argv: list[str] | None = None) -> int:
         elif a.cmd == "migrate":
             rec = cmd_migrate(
                 a.id, Path(a.store), a.workspace_id, Path(a.directory),
+                Path(a.out) if a.out else None, a.dry_run)
+        elif a.cmd == "rebind":
+            rec = cmd_rebind(
+                a.id, Path(a.directory), a.workspace_id,
                 Path(a.out) if a.out else None, a.dry_run)
         else:
             rec = cmd_crash_recover(Path(a.target), Path(a.bak) if a.bak else None, Path(a.stage))

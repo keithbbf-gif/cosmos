@@ -1,0 +1,39 @@
+{"name": "nexmini", "model": "nex-agi/nex-n2.5-mini:free", "ok": true, "kind": null, "first_line": "NONE", "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\POKE_NEXMINI_last.txt", "hero_ok": true}
+{"name": "nexpro", "model": "nex-agi/nex-n2.5-pro:free", "ok": true, "kind": null, "first_line": "NONE", "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\POKE_NEXPRO_last.txt", "hero_ok": true}
+{"name": "north", "model": "cohere/north-mini-code:free", "ok": true, "kind": null, "first_line": "NONE", "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\POKE_NORTH_last.txt", "hero_ok": true}
+{"name": "lagunaxs", "model": "poolside/laguna-xs-2.1:free", "ok": false, "kind": "BROKE", "first_line": "http=429 error='Provider returned error'", "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\POKE_LAGUNAXS_last.txt", "hero_ok": false}
+{"name": "lagunasf", "model": "poolside/laguna-s-2.1:free", "ok": false, "kind": "BROKE", "first_line": "http=429 error='Provider returned error'", "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\POKE_LAGUNASF_last.txt", "hero_ok": false}
+{"name": "dots3", "model": "dots-studio/dots-3-note-preview:free", "ok": true, "kind": null, "first_line": "NONE", "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\POKE_DOTS3_last.txt", "hero_ok": true}
+{"name": "nanoomni", "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free", "ok": false, "kind": "BROKE", "first_line": "http=200 error='Upstream error from Nvidia: ResourceExhausted: Worker local tota", "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\POKE_NANOOMNI_last.txt", "hero_ok": false}
+{"name": "ultra", "model": "nvidia/nemotron-3-ultra-550b-a55b:free", "ok": true, "kind": null, "first_line": "NONE", "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\POKE_ULTRA_last.txt", "hero_ok": true}
+{"name": "nemo35", "model": "nvidia/nemotron-3.5-lightning:free", "ok": true, "kind": null, "first_line": "NONE", "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\POKE_NEMO35_last.txt", "hero_ok": true}
+{"name": "nemosuper", "model": "nvidia/nemotron-3-super-120b-a12b:free", "ok": true, "kind": null, "first_line": "NONE", "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\POKE_NEMOSUPER_last.txt", "hero_ok": true}
+{"name": "bunny", "model": "stealth/space-bunny-alpha", "ok": true, "kind": null, "first_line": "NONE", "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\POKE_BUNNY_last.txt", "hero_ok": true}
+{"name": "hy3p", "model": "tencent/hy3-preview", "ok": true, "kind": null, "first_line": "HERO_OK tencent/hy3-preview", "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\POKE_HY3P_last.txt", "hero_ok": false}
+{"name": "qwen37", "model": "qwen/qwen3.7-flash", "ok": false, "kind": "BROKE", "first_line": "http=429 error='Provider returned error'", "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\POKE_QWEN37_last.txt", "hero_ok": false}
+{"name": "qwen38f", "model": "qwen/qwen3.8-flash", "ok": true, "kind": null, "first_line": "NONE", "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\POKE_QWEN38F_last.txt", "hero_ok": true}
+{"name": "qwen36", "model": "qwen/qwen3.6-35b-a3b", "ok": true, "kind": null, "first_line": "NONE", "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\POKE_QWEN36_last.txt", "hero_ok": true}
+{"name": "qwen27p", "model": "qwen/qwen3.8-27b", "ok": true, "kind": null, "first_line": "NONE", "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\POKE_QWEN27P_last.txt", "hero_ok": true}
+{"name": "gemma26p", "model": "google/gemma-4-26b-a4b-it", "ok": true, "kind": null, "first_line": "NONE", "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\POKE_GEMMA26P_last.txt", "hero_ok": true}
+{"name": "gemma31p", "model": "google/gemma-4-31b-it", "ok": true, "kind": null, "first_line": "NONE", "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\POKE_GEMMA31P_last.txt", "hero_ok": true}
+{"name": "glm", "model": "z-ai/glm-5.3-flash", "ok": true, "kind": null, "first_line": "I received your ping, but I can't play it straight for a couple of reasons:", "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\POKE_GLM_last.txt", "hero_ok": false}
+{"name": "ds0731", "model": "deepseek/deepseek-v4-flash-0731", "ok": true, "kind": null, "first_line": "NONE", "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\POKE_DS0731_last.txt", "hero_ok": true}
+{"name": "ds0423", "model": "deepseek/deepseek-v4-flash", "ok": true, "kind": null, "first_line": "NONE", "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\POKE_DS0423_last.txt", "hero_ok": true}
+{"name": "ds41", "model": "deepseek/deepseek-v4.1-flash", "ok": true, "kind": null, "first_line": "NONE", "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\POKE_DS41_last.txt", "hero_ok": true}
+{"name": "solarpro", "model": "upstage/solar-pro4", "ok": true, "kind": null, "first_line": "NONE", "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\POKE_SOLARPRO_last.txt", "hero_ok": true}
+{"name": "solarmini", "model": "upstage/solar-mini4", "ok": true, "kind": null, "first_line": "NONE", "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\POKE_SOLARMINI_last.txt", "hero_ok": true}
+{"name": "lingvl", "model": "inclusionai/ling-3.0-flash-vl", "ok": true, "kind": null, "first_line": "NONE", "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\POKE_LINGVL_last.txt", "hero_ok": true}
+{"name": "mimo", "model": "xiaomi/mimo-v2.5", "ok": true, "kind": null, "first_line": "NONE", "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\POKE_MIMO_last.txt", "hero_ok": true}
+{"name": "muse13", "model": "meta/muse-spark-1.3-contributor", "ok": true, "kind": null, "first_line": "NONE", "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\POKE_MUSE13_last.txt", "hero_ok": true}
+{"name": "muse12", "model": "meta/muse-spark-1.2-contributor", "ok": true, "kind": null, "first_line": "NONE", "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\POKE_MUSE12_last.txt", "hero_ok": true}
+{"name": "bonsai", "model": "prism-ml/ternary-bonsai-2-27b", "ok": false, "kind": "BROKE", "first_line": "http=429 error='Provider returned error'", "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\POKE_BONSAI_last.txt", "hero_ok": false}
+{"name": "inklingp", "model": "thinkingmachines/inkling", "ok": true, "kind": null, "first_line": "NONE", "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\POKE_INKLINGP_last.txt", "hero_ok": true}
+{"name": "lagunasp", "model": "poolside/laguna-s-2.1", "ok": true, "kind": null, "first_line": "NONE", "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\POKE_LAGUNASP_last.txt", "hero_ok": true}
+{"name": "seed", "model": "bytedance-seed/seed-2.0-mini", "ok": true, "kind": null, "first_line": "NONE", "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\POKE_SEED_last.txt", "hero_ok": true}
+{"name": "oss20", "model": "openai/gpt-oss-20b", "ok": true, "kind": null, "first_line": "NONE", "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\POKE_OSS20_last.txt", "hero_ok": true}
+{"name": "codestral", "model": "mistralai/codestral-2508", "ok": true, "kind": null, "first_line": "NONE", "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\POKE_CODESTRAL_last.txt", "hero_ok": true}
+{"name": "ministral", "model": "mistralai/ministral-8b-2512", "ok": true, "kind": null, "first_line": "NONE", "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\POKE_MINISTRAL_last.txt", "hero_ok": true}
+{"name": "gf38", "model": "google/gemini-3.8-flash", "ok": true, "kind": null, "first_line": "NONE", "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\POKE_GF38_last.txt", "hero_ok": true}
+{"name": "qwenomni", "model": "qwen/qwen3.8-omni-flash", "ok": false, "kind": "REFUSED", "first_line": "not a pinned OpenRouter id 'qwen/qwen3.8-omni-flash'; want ['bytedance-seed/seed", "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\POKE_QWENOMNI_last.txt", "hero_ok": false}
+{"name": "luna6or", "model": "openai/gpt-6-luna", "ok": true, "kind": null, "first_line": "NONE", "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\POKE_LUNA6OR_last.txt", "hero_ok": true}
+{"name": "lunapro", "model": "openai/gpt-6-luna-pro", "ok": true, "kind": null, "first_line": "NONE", "out": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\POKE_LUNAPRO_last.txt", "hero_ok": true}

@@ -41,8 +41,29 @@ def _live_seats() -> int:
         return 0
 
 
+def _paused() -> bool:
+    try:
+        raw = json.loads((ROOT / "live" / "state" / "control" / "PAUSE.flag").read_text(encoding="utf-8"))
+        return raw.get("state") == "PAUSED" and raw.get("mode") == "hold"
+    except (OSError, ValueError):
+        return False
+
+
 def main() -> int:
-    require_bootup(CosmosPaths(str(ROOT / "live")), stream="Cm")
+    try:
+        require_bootup(CosmosPaths(str(ROOT / "live")))
+    except Exception as e:
+        hhmm = datetime.now(timezone.utc).strftime("%H:%MZ")
+        print(f"TICK {hhmm} n=NO_BOOTUP luna=SKIP $ gitur=pending refill=no bootup_refused={e}", flush=True)
+        print(f"BOOTUP_GATE_REFUSED {e}", flush=True)
+        return 0
+    if _paused():
+        hhmm = datetime.now(timezone.utc).strftime("%H:%MZ")
+        tick = f"TICK {hhmm} n=PAUSED luna=SKIP $ gitur=pending refill=no paused=hold"
+        print(tick, flush=True)
+        print("1 FETCH skipped (PAUSED hold)", flush=True)
+        print(tick, flush=True)
+        return 0
     log = []
     n0 = _live_seats()
     refill = n0 < 40
@@ -71,6 +92,8 @@ def main() -> int:
     log.append(gitur_out[-400:])
     log.append("6b PAIR I/O+judge save")
     log.append(_run([PY, str(ROOT / "work_orders" / "ccr" / "_porosity_pair_save.py")])[-400:])
+    log.append("6c TRACER + 4Cs auto-harvest")
+    log.append(_run([PY, str(ROOT / "work_orders" / "ccr" / "_tracer.py")])[-400:])
     log.append("7-9 IMPLEMENT=merge; SYNC=gh; REPEAT=1-min scheduler")
     log.append("SOL queued not fired")
     gitur = "none"

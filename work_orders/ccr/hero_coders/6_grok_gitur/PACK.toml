@@ -1,0 +1,39 @@
+# CODER 6 — Grok 4.6 via local grok.exe CLI (SuperGrokHeavy quota).
+# Cursor credits reserved for Gitur only — NOT for CCrew coding. NOT CCr pen.
+
+[legend]
+role = "CODER"
+model = "grok-4.6"
+harness_kind = "coding"
+harness_via = "cli:grok"
+wrapper = "work_orders/ccr/hero_coders/_CODER_WRAP.md"
+style = "STYLES/_TEMPLATE"
+skills = ["none-extra"]
+
+[legend.tools]
+allow = ["grok_cli"]
+forbid = ["cursor_cloud_agent", "composer_build", "git_push", "LiT write"]
+sandbox = "isolated-worktree"
+
+[legend.enviro]
+wallet = "SuperGrokHeavy"           # SuperGrokHeavy quota. Cursor credits are Gitur-only!
+pack = "house"
+context_window_tokens = 131072
+keep_in_tokens_under = 100000
+
+[legend.output]
+what = "python"
+size_mode = "max_minus_margin"
+window_margin_frac = 0.20
+optimum = "float"
+
+[mission]
+id = "at-summon"
+item = "Written at summon. The reply is python."
+
+[mission.output]
+where = ["live/work/orders/<order_id>/out/"]
+what = "python"
+size_mode = "max_minus_margin"
+window_margin_frac = 0.20
+optimum = "float"

@@ -88,13 +88,34 @@ class ControlChannel:
                                f"but cannot be read: {type(e).__name__}: {e}")
         return st
 
-    def _save(self, st: dict) -> None:
-        # prune to the most recently touched clients - a note, not a log
+    @staticmethod
+    def _prune(st: dict) -> None:
+        """Keep the file a note, never a log - WITHOUT ever lifting a kill.
+
+        Pruning by recency alone let 100 unauthenticated /kill?client_id=junkN
+        calls evict a real client's mic_off row. All-clear rows go first;
+        if live kills/pauses still overflow, fold oldest into a GLOBAL kill.
+        """
         cl = st.get("clients", {})
+        if len(cl) <= MAX_CLIENTS:
+            return
+
+        def live(k):
+            r = cl[k]
+            return bool(r.get("pause") or r.get("mic_off"))
+
+        by_age = sorted(cl, key=lambda k: cl[k].get("updated_epoch", 0.0))
+        for k in [k for k in by_age if not live(k)][:len(cl) - MAX_CLIENTS]:
+            del cl[k]
         if len(cl) > MAX_CLIENTS:
-            keep = sorted(cl, key=lambda k: cl[k].get("updated_epoch", 0.0),
-                          reverse=True)[:MAX_CLIENTS]
-            st["clients"] = {k: cl[k] for k in keep}
+            g = st.setdefault("global", _clear_flags(0.0))
+            for k in [k for k in by_age if k in cl][:len(cl) - MAX_CLIENTS]:
+                for f in FLAGS:
+                    g[f] = bool(g.get(f)) or bool(cl[k].get(f))
+                del cl[k]
+
+    def _save(self, st: dict) -> None:
+        self._prune(st)
         body = json.dumps(st, indent=1)
         tmp = self._state_file.with_suffix(".tmp")
         try:

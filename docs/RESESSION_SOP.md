@@ -14,6 +14,7 @@ stops.
 - Step 5b **must** open the **same** id: `cmd /c start "COSMOS-CCr" /D <repo> grok.exe --cwd <repo> --fullscreen -r <uuid>`. First quoted token is the **window title**. Do **not** quote `grok.exe`.
 
 ## Watermark
+- **65% persistent warn** — Grok window **200k**; warn at **130000** tokens. `RESESSION_WARN.flag` never self-clears. Does not pack or spawn.
 - **~70%** — pack only. TU2 snapshot, `live/state/session_saves/<stamp>/`. Do **not** close. Do **not** spawn.
 - **Keith says TidyUP / resession now / write BUcr** — full SOP below.
 

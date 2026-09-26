@@ -1,0 +1,21 @@
+{
+ "id": "584-opened",
+ "pr": 584,
+ "digs": "reused V:\\A\\Ai\\COSMOS\\live\\work\\codex\\hero\\584-opened aedc8869",
+ "file_exists": true,
+ "ok": false,
+ "done": false,
+ "model": null,
+ "n_diff": 0,
+ "diff": "",
+ "last": "I could not save the requested change because this workspace is mounted read-only and approvals are disabled, so writes are blocked.\n\nThe only edit needed in [cosmos/cosmos_recall.py](/abs/path/V:/A/Ai/COSMOS/live/work/codex/hero/584-opened/cosmos/cosmos_recall.py) is in `state_sha()`:\n```python\nfor row in con.execute(\"SELECT sid, owner, title, opened FROM sessions ORDER BY sid\"):\n```\n\nNo files were modified.",
+ "usage": {
+  "input_tokens": 49828,
+  "cached_input_tokens": 45568,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 887,
+  "reasoning_output_tokens": 251
+ },
+ "done_why": "missing real model field",
+ "stderr_tail": "Reading additional input from stdin...\n2026-09-18T18:25:40.065781Z ERROR codex_models_manager::manager: failed to load models cache: missing field `supports_parallel_tool_calls` at line 89 column 5\n2026-09-18T18:25:53.592067Z ERROR codex_core::tools::router: error=patch rejected: writing is blocked by read-only sandbox; rejected by user approval settings\n"
+}

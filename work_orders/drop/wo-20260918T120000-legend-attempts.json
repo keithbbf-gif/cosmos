@@ -1,0 +1,16 @@
+{
+  "Agent": "Gitur | HOLD do not fire",
+  "Context source": [
+    "docs/CANON_SPAWN.md [read*]",
+    "docs/arch/STUDENT_RECORD.md [read*]",
+    "work_orders/ccr/DEFINE_LEGEND.md [read*]",
+    "work_orders/ccr/DEFINE_STUDENT_RECORD.md [read*]",
+    "work_orders/ccr/GITUR_STUDENT_RECORD.md [read*]",
+    "work_orders/ccr/GITUR_HARNESS_SEAT.md [read*]",
+    "work_orders/ccr/CCR_ORC_NOW.md [read*]"
+  ],
+  "Task": "HOLD. Do not launch Cursor/Gitur/grok.exe. Keith: WOs written not fired. FIFO after cosmos PRs 580-586. Two later jobs: (1) legend = seven spawn layers on every agent and subagent, brief is the tail; (2) student record live/state/attempts JSONL + sqlite projection, schema cosmos-score-attempt/1, not porosity.sqlite, not TOML. SOL Codex vet must write a row or it did not happen.",
+  "Target & scope": "docs + later PR origin/main; never V:\\Ai; never extra grok.exe; do not fire now",
+  "Timestamp": "2026-09-18T12:00:00-05:00",
+  "Output": "HOLD | DEFINE_LEGEND.md | DEFINE_STUDENT_RECORD.md | GITUR_STUDENT_RECORD.md"
+}

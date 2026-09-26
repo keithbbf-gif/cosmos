@@ -1,0 +1,44 @@
+{
+ "schema": "cosmos-live-emit/1",
+ "ok": false,
+ "tree_id": "KMesh-COSMOS-live",
+ "porosity_kind": "MEASURED",
+ "n_obs": 619,
+ "checks": [
+  {
+   "name": "LIVE status 200 ready tree_id",
+   "ok": true,
+   "detail": "status=200 tree=KMesh-COSMOS-live"
+  },
+  {
+   "name": "helper quote_tree_id matches live status",
+   "ok": true,
+   "detail": "quoted=KMesh-COSMOS-live"
+  },
+  {
+   "name": "LIVE porosity UNMEASURED n_obs=0 (no invented pair)",
+   "ok": false,
+   "detail": "kind=MEASURED n_obs=619"
+  },
+  {
+   "name": "LIVE PWA cdeck.webmanifest 200",
+   "ok": true,
+   "detail": "status=200 ctype=application/manifest+json"
+  },
+  {
+   "name": "LIVE PWA leftover: KDash name 404 under /cdeck/",
+   "ok": true,
+   "detail": "status=404"
+  },
+  {
+   "name": "LIVE tab smoke FILL_TABS from Core bytes",
+   "ok": true,
+   "detail": "status=200"
+  },
+  {
+   "name": "LIVE GET /forge and GET /crucible 404 occupancy-correct",
+   "ok": true,
+   "detail": "forge=404 crucible=404"
+  }
+ ]
+}

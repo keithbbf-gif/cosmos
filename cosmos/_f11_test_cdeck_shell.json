@@ -13,7 +13,7 @@
    {
     "name": "index_bytes",
     "ok": false,
-    "detail": "status=401 bytes=62 disk=35750 ctype=application/json; charset=utf-8"
+    "detail": "status=401 bytes=62 disk=269161 ctype=application/json; charset=utf-8"
    },
    {
     "name": "no_cross_origin_header",
@@ -23,27 +23,72 @@
    {
     "name": "app_js_bytes",
     "ok": false,
-    "detail": "status=401 bytes=62 disk=227667"
+    "detail": "status=401 bytes=62 disk=280255"
    },
    {
     "name": "app_css_bytes",
     "ok": false,
-    "detail": "status=401 bytes=62 disk=41815"
+    "detail": "status=401 bytes=62 disk=49666"
    },
    {
     "name": "manifest_bytes",
     "ok": false,
-    "detail": "status=401 bytes=62 disk=3436"
+    "detail": "status=401 bytes=61 disk=3436"
    },
    {
     "name": "sw_bytes",
     "ok": false,
-    "detail": "status=401 bytes=62 disk=8057"
+    "detail": "status=401 bytes=62 disk=8658"
+   },
+   {
+    "name": "header_js_bytes",
+    "ok": false,
+    "detail": "status=401 bytes=62 disk=37475"
+   },
+   {
+    "name": "deck_more_html_bytes",
+    "ok": false,
+    "detail": "status=401 bytes=61 disk=122553"
+   },
+   {
+    "name": "deck_tabs_js_bytes",
+    "ok": false,
+    "detail": "status=401 bytes=62 disk=30439"
+   },
+   {
+    "name": "deck_pilot_js_bytes",
+    "ok": false,
+    "detail": "status=401 bytes=62 disk=4804"
+   },
+   {
+    "name": "deck_womb_js_bytes",
+    "ok": false,
+    "detail": "status=401 bytes=61 disk=4335"
+   },
+   {
+    "name": "gitur_launch_js_bytes",
+    "ok": false,
+    "detail": "status=401 bytes=62 disk=2533"
+   },
+   {
+    "name": "deck_sessions_page_js_bytes",
+    "ok": false,
+    "detail": "status=401 bytes=61 disk=4881"
    },
    {
     "name": "api_loopback_open",
     "ok": false,
     "detail": "status=401"
+   },
+   {
+    "name": "kdash_name_not_cdeck",
+    "ok": true,
+    "detail": "status=401"
+   },
+   {
+    "name": "tab_smoke_fill",
+    "ok": true,
+    "detail": "fill= forge: 1, studio: 1, review: 1,\r\n                    models: 1, surfaces: 1, recents: 1,\r\n                    voice: 1,"
    },
    {
     "name": "unknown_cdeck_not_served",
@@ -53,11 +98,11 @@
    {
     "name": "traversal_is_not_a_file",
     "ok": true,
-    "detail": "status=401 body_len=61"
+    "detail": "status=401 body_len=62"
    }
   ],
-  "tests_run": 10,
-  "tests_passed": 2,
+  "tests_run": 19,
+  "tests_passed": 4,
   "all_named_pass": false,
   "discriminating_failed": true
  },
@@ -72,7 +117,7 @@
    {
     "name": "index_bytes",
     "ok": true,
-    "detail": "status=200 bytes=35750 disk=35750 ctype=text/html; charset=utf-8"
+    "detail": "status=200 bytes=269161 disk=269161 ctype=text/html; charset=utf-8"
    },
    {
     "name": "no_cross_origin_header",
@@ -82,12 +127,12 @@
    {
     "name": "app_js_bytes",
     "ok": true,
-    "detail": "status=200 bytes=227667 disk=227667"
+    "detail": "status=200 bytes=280255 disk=280255"
    },
    {
     "name": "app_css_bytes",
     "ok": true,
-    "detail": "status=200 bytes=41815 disk=41815"
+    "detail": "status=200 bytes=49666 disk=49666"
    },
    {
     "name": "manifest_bytes",
@@ -97,12 +142,57 @@
    {
     "name": "sw_bytes",
     "ok": true,
-    "detail": "status=200 bytes=8057 disk=8057"
+    "detail": "status=200 bytes=8658 disk=8658"
+   },
+   {
+    "name": "header_js_bytes",
+    "ok": true,
+    "detail": "status=200 bytes=37475 disk=37475"
+   },
+   {
+    "name": "deck_more_html_bytes",
+    "ok": true,
+    "detail": "status=200 bytes=122553 disk=122553"
+   },
+   {
+    "name": "deck_tabs_js_bytes",
+    "ok": true,
+    "detail": "status=200 bytes=30439 disk=30439"
+   },
+   {
+    "name": "deck_pilot_js_bytes",
+    "ok": true,
+    "detail": "status=200 bytes=4804 disk=4804"
+   },
+   {
+    "name": "deck_womb_js_bytes",
+    "ok": true,
+    "detail": "status=200 bytes=4335 disk=4335"
+   },
+   {
+    "name": "gitur_launch_js_bytes",
+    "ok": true,
+    "detail": "status=200 bytes=2533 disk=2533"
+   },
+   {
+    "name": "deck_sessions_page_js_bytes",
+    "ok": true,
+    "detail": "status=200 bytes=4881 disk=4881"
    },
    {
     "name": "api_loopback_open",
     "ok": true,
     "detail": "status=200"
+   },
+   {
+    "name": "kdash_name_not_cdeck",
+    "ok": true,
+    "detail": "status=404"
+   },
+   {
+    "name": "tab_smoke_fill",
+    "ok": true,
+    "detail": "fill= forge: 1, studio: 1, review: 1,\r\n                    models: 1, surfaces: 1, recents: 1,\r\n                    voice: 1,"
    },
    {
     "name": "unknown_cdeck_not_served",
@@ -112,19 +202,19 @@
    {
     "name": "traversal_is_not_a_file",
     "ok": true,
-    "detail": "status=404 body_len=106"
+    "detail": "status=404 body_len=105"
    }
   ],
-  "tests_run": 10,
-  "tests_passed": 10,
+  "tests_run": 19,
+  "tests_passed": 19,
   "all_named_pass": true,
   "discriminating_failed": false
  },
  "ui_files": {
-  "index.html": 35750,
-  "app.js": 227667,
-  "app.css": 41815,
+  "index.html": 269161,
+  "app.js": 280255,
+  "app.css": 49666,
   "cdeck.webmanifest": 3436,
-  "sw.js": 8057
+  "sw.js": 8658
  }
 }

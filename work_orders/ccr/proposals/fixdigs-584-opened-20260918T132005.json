@@ -1,0 +1,21 @@
+{
+ "id": "584-opened",
+ "pr": 584,
+ "digs": "worktree V:\\A\\Ai\\COSMOS\\live\\work\\codex\\hero\\584-opened aedc8869",
+ "file_exists": true,
+ "ok": false,
+ "done": false,
+ "model": null,
+ "n_diff": 0,
+ "diff": "",
+ "last": "1. Low: [CLAUDE.md](/V:/A/Ai/COSMOS/live/work/codex/hero/584-opened/CLAUDE.md:199) adds `P11` as bare shorthand, but this repo already uses `P11` for two different things: prompt-cache canon calls it **Principle P11** ([docs/PROMPT_CACHE.md](/V:/A/Ai/COSMOS/live/work/codex/hero/584-opened/docs/PROMPT_CACHE.md:61), [docs/AGENT_BOUNDARIES.md](/V:/A/Ai/COSMOS/live/work/codex/hero/584-opened/docs/AGENT_BOUNDARIES.md:121)), while the docket docs use `P11` for **SEED / signed session close** ([docs/research/docket/SESSION_20260909_PATENT_NOTES.md](/V:/A/Ai/COSMOS/live/work/codex/hero/584-opened/docs/research/docket/SESSION_20260909_PATENT_NOTES.md:15), [docs/research/docket/VETTING.md](/V:/A/Ai/COSMOS/live/work/codex/hero/584-opened/docs/research/docket/VETTING.md:28)). Because `CLAUDE.md` is th",
+ "usage": {
+  "input_tokens": 198400,
+  "cached_input_tokens": 162816,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 3689,
+  "reasoning_output_tokens": 2039
+ },
+ "done_why": "missing real model field",
+ "stderr_tail": "Reading additional input from stdin...\n2026-09-18T18:21:17.312833Z ERROR codex_models_manager::manager: failed to load models cache: missing field `supports_parallel_tool_calls` at line 89 column 5\n2026-09-18T18:21:32.047320Z ERROR codex_core::tools::router: error=`\"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\" -Command 'Get-ChildItem -Recurse -File docs | Where-Object { $_.Name -match '\"'PROMPT_CACHE|AGENT_BOUNDARIES' } | Select-Object -ExpandProperty FullName\"` rejected: blocked by policy\n2026-09-18T18:21:37.580020Z ERROR codex_core::tools::router: error=Exit code: 1\nWall time: 0.2 seconds\nOutput:\nrg: regex parse error:\n    (?:id\\s*=\\s*\\)\n    ^\nerror: unclosed group\n\n"
+}

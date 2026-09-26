@@ -1,0 +1,63 @@
+{
+  "order_id": "wish-08-womb",
+  "Agent": "OpenRouter | Nex | nex-agi/nex-n2.5-mini:free",
+  "Context source": [
+    "V:\\A\\Ai\\COSMOS\\docs\\AGENT_BRIEF.md",
+    "V:\\A\\Ai\\COSMOS\\docs\\AGENT_BOUNDARIES.md",
+    "V:\\A\\Ai\\COSMOS\\docs\\WISHLIST.md"
+  ],
+  "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. WISH: ORCHESTRATOR PROFILES (Keith 2026-09-02). Different profiles for different \u00b7 WATCHDOG2 ASSIGNED 2026-09-02T19:17:28.847086-05:00 cm/g46_grok_motif_orchestrator_profiles_keith_20_ef5579fc__t1800.py\n      orchestrators \u2014 at least **Cowork**, **Grok Code** (this TUI), **GrokBot**, and later\n      prepaid / federated (Jack, Grant, Christina, Grayson, \u2026). One occupant per profile.\n      A profile names: pen (which trees), mailbox `writer_id`, allowed hands (drive\n      read/write, connectors, schedule), Chrome profile (never Keith\u2019s daily), extension\n      channel, live vs dark. Do not share a Chrome profile, a cookie jar, or a folder-grant\n      set across occupants. Do not invent GrokBot\u2019s Chrome name. Current live: Grok Code =\n      `V:\\A` / COSMOS; GrokBot = `V:\\Ai`; Cowork = dark. Spec before code; identity table\n      grows (`NO_HOST` / dark until Keith names it).\n      **Keith 2026-09-04:** **skin goes with profile; profile goes with product**\n      (Crucible, medical differentiator, Cm, \u2026). Do not mix skins across products.",
+  "Target & scope": "proposals under Output only; never kernel/ledger/sched/service; never LiT; never grok.exe",
+  "Timestamp": "2026-09-24T08:15:55-05:00",
+  "Output": "proposals | out.json",
+  "output_what": "python",
+  "OPTIMUM_tokens": "float",
+  "MAX_tokens": 209600,
+  "crew": [
+    {
+      "seat": 1,
+      "Agent": "OpenRouter | Nex | nex-agi/nex-n2.5-mini:free",
+      "tier": "free",
+      "context_window_tokens": 262000,
+      "cache_floor_tokens": 1024,
+      "cache_ttl": "30m",
+      "cache_prefix": "legend+WRAP+STYLE+SKILL",
+      "timeout_s": 900,
+      "tps": 49,
+      "pack": "work_orders/ccr/hero_coders/13_nexmini",
+      "output_what": "python",
+      "OPTIMUM_tokens": "float",
+      "MAX_tokens": 209600
+    },
+    {
+      "seat": 2,
+      "Agent": "OpenRouter | North | cohere/north-mini-code:free",
+      "tier": "free",
+      "context_window_tokens": 256000,
+      "cache_floor_tokens": 1024,
+      "cache_ttl": "30m",
+      "cache_prefix": "legend+WRAP+STYLE+SKILL",
+      "timeout_s": 900,
+      "tps": 58,
+      "pack": "work_orders/ccr/hero_coders/09_northmini",
+      "output_what": "python",
+      "OPTIMUM_tokens": "float",
+      "MAX_tokens": 204800
+    },
+    {
+      "seat": 3,
+      "Agent": "OpenRouter | Hy3 | tencent/hy3-preview",
+      "tier": "paid-low",
+      "context_window_tokens": 262000,
+      "cache_floor_tokens": 1024,
+      "cache_ttl": "30m",
+      "cache_prefix": "legend+WRAP+STYLE+SKILL",
+      "timeout_s": 900,
+      "tps": 69,
+      "pack": "work_orders/ccr/hero_coders/07_hy3preview",
+      "output_what": "python",
+      "OPTIMUM_tokens": "float",
+      "MAX_tokens": 209600
+    }
+  ]
+}

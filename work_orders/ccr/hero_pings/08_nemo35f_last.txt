@@ -1,0 +1,18 @@
+Here's a thinking process:
+
+1.  **Analyze User Input:**
+   - User says: "Reply with exactly two lines: NONE HERO_OK nvidia/nemotron-3.5-lightning:free"
+   - There's a lot of system prompt text, but the actual instruction at the very end is clear: "Reply with exactly two lines: NONE HERO_OK nvidia/nemotron-3.5-lightning:free"
+   - The output format specified: exactly two lines
+   - Line 1: "NONE"
+   - Line 2: "HERO_OK nvidia/nemotron-3.5-lightning:free"
+
+2.  **Check Constraints:**
+   - "First line NONE or diff --git" - matches "NONE"
+   - "No essay. No grok.exe." - I'm just outputting the required lines
+   - "Reply with exactly two lines" - I need to output exactly that
+   - The format should be strict: two lines, no markdown, no extra text
+
+3.  **Formulate Output:**
+   Line 1: NONE
+   Line 2: HERO_OK nvidia/nemotron-3.5-lightning:

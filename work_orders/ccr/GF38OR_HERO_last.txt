@@ -1,0 +1,2 @@
+NONE
+HERO_OK gemini-3.8-flash

@@ -1,0 +1,36 @@
+# CODER 27 — Qwen3.7 Flash. Drafted 2026-09-25 to replace nex after 3 fails.
+# Via = OpenRouter harness _summon_or_hero.py. Not extra grok.exe. Not CCr pen.
+
+[legend]
+role = "CODER"
+model = "qwen/qwen3.7-flash"
+family = "qwen"
+harness_kind = "coding"
+harness_via = "openrouter"
+wrapper = "work_orders/ccr/hero_coders/_CODER_WRAP.md"
+style = "STYLES/_TEMPLATE"
+skills = ["python-only"]
+
+[legend.tools]
+allow = ["read"]
+forbid = ["git_push", "LiT write", "grok.exe"]
+
+[legend.enviro]
+wallet = "openrouter"
+pack = "house"
+context_window_tokens = 1000000
+in_usd_per_m = 0.03
+out_usd_per_m = 0.13
+tps_measured = 44
+window_margin_frac = 0.20
+cwd = "V:/A/Ai/COSMOS/live/work"
+
+[legend.output]
+what = "python"
+size_mode = "max_minus_margin"
+window_margin_frac = 0.20
+optimum = "float"
+
+[mission]
+id = "wish-18"
+item = "pull_and_file stores tag, assignment, and an ISO timestamp. Python only."

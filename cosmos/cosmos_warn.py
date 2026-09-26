@@ -24,7 +24,11 @@ def warn3(kind: str, detail: str = "", *, stream: TextIO | None = None) -> str:
 
 
 def warn_if_two_heads(repo) -> int:
-    """WARN ×3 if origin/main..HEAD is not empty. Does not refuse serve."""
+    """WARN ×3 if origin/main..HEAD is not empty. Does not refuse serve.
+
+    Claiming synced is cosmos_head_gate.head_gate. Non-zero or unmeasured
+    refuses. This fold stays warn-only so a boot can still come up.
+    """
     import subprocess
     from pathlib import Path
     root = Path(repo)

@@ -1,0 +1,75 @@
+{
+ "slim": {
+  "pr": 580,
+  "probe": "codex-cli live binary=C:\\Users\\Papa\\AppData\\Roaming\\npm\\codex.CMD version=codex-cli 0.147.0 key=sk-\u20265A8A",
+  "ok": true,
+  "done": true,
+  "kind": "CLI",
+  "model": "gpt-5-codex",
+  "model_requested": "gpt-5.4",
+  "verdict": "request-changes",
+  "summary": "One functional issue blocks configured Daytona/E2B backends entirely, and one test assertion is permissive enough to miss incorrect failure modes.",
+  "n_findings": 2,
+  "findings": [
+   {
+    "severity": "high",
+    "path": "cosmos/cosmos_sandbox.py",
+    "line": 171,
+    "message": "Configured remote backends can never reach the intended `UNMEASURED` stub path. After credentials are present, `spawn_remote()` unconditionally calls `assert_no_host_map(..., listing=(\"V:\\\\\", r\"V:\\Ai\", r\"V:\\OPENWORK\"))`, and `_is_v_volume()` immediately raises `BACKEND_ISOLATION` on those hard-coded values. In practice, adding Daytona/E2B credentials makes every remote spawn fail as an isolation violation before any vendor transport is attempted."
+   },
+   {
+    "severity": "low",
+    "path": "tests/test_cosmos_sandbox.py",
+    "line": 132,
+    "message": "This assertion is too weak: `assert raised in (... ) or raised` passes for any truthy exception name, including unrelated failures. The test therefore does not actually pin the expected refusal kinds for `assert_sandbox_cwd(live / \"state\", ...)`, which can hide regressions."
+   }
+  ],
+  "done_why": "ok",
+  "detail": null,
+  "usage": {
+   "input_tokens": 53158,
+   "cached_input_tokens": 34560,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 6800,
+   "reasoning_output_tokens": 6318
+  },
+  "rc": 0,
+  "last_head": "{\"verdict\":\"request-changes\",\"findings\":[{\"severity\":\"high\",\"path\":\"cosmos/cosmos_sandbox.py\",\"line\":171,\"message\":\"Configured remote backends can never reach the intended `UNMEASURED` stub path. After credentials are present, `spawn_remote()` unconditionally calls `assert_no_host_map(..., listing=(\\\"V:\\\\\\\\\\\", r\\\"V:\\\\Ai\\\", r\\\"V:\\\\OPENWORK\\\"))`, and `_is_v_volume()` immediately raises `BACKEND_ISOL",
+  "stderr_tail": "Reading additional input from stdin...\n2026-09-18T17:38:40.264473Z ERROR codex_models_manager::manager: failed to load models cache: missing field `supports_parallel_tool_calls` at line 89 column 5\n2026-09-18T17:38:48.060070Z ERROR codex_core::tools::router: error=Exit code: 1\nWall time: 0.7 seconds\nOutput:\nrg: cosmos: The system cannot find the file specified. (os error 2)\nrg: tests: The system cannot find the file specified. (os error 2)\n\n",
+  "stdout_tail": "etter_schema.json\\r\\n\\r\\n\\r\\n\",\"exit_code\":0,\"status\":\"completed\"}}\n{\"type\":\"item.completed\",\"item\":{\"id\":\"item_3\",\"type\":\"agent_message\",\"text\":\"{\\\"verdict\\\":\\\"request-changes\\\",\\\"findings\\\":[{\\\"severity\\\":\\\"high\\\",\\\"path\\\":\\\"cosmos/cosmos_sandbox.py\\\",\\\"line\\\":171,\\\"message\\\":\\\"Configured remote backends can never reach the intended `UNMEASURED` stub path. After credentials are present, `spawn_remote()` unconditionally calls `assert_no_host_map(..., listing=(\\\\\\\"V:\\\\\\\\\\\\\\\\\\\\\\\", r\\\\\\\"V:\\\\\\\\Ai\\\\\\\", r\\\\\\\"V:\\\\\\\\OPENWORK\\\\\\\"))`, and `_is_v_volume()` immediately raises `BACKEND_ISOLATION` on those hard-coded values. In practice, adding Daytona/E2B credentials makes every remote spawn fail as an isolation violation before any vendor transport is attempted.\\\"},{\\\"severity\\\":\\\"low\\\",\\\"path\\\":\\\"tests/test_cosmos_sandbox.py\\\",\\\"line\\\":132,\\\"message\\\":\\\"This assertion is too weak: `assert raised in (... ) or raised` passes for any truthy exception name, including unrelated failures. The test therefore does not actually pin the expected refusal kinds for `assert_sandbox_cwd(live / \\\\\\\"state\\\\\\\", ...)`, which can hide regressions.\\\"}],\\\"model\\\":\\\"gpt-5-codex\\\",\\\"summary\\\":\\\"One functional issue blocks configured Daytona/E2B backends entirely, and one test assertion is permissive enough to miss incorrect failure modes.\\\"}\"}}\n{\"type\":\"turn.completed\",\"usage\":{\"input_tokens\":53158,\"cached_input_tokens\":34560,\"cache_write_input_tokens\":0,\"output_tokens\":6800,\"reasoning_output_tokens\":6318}}\n",
+  "wallet": "oa-api Platform key (ChatGPT Free too small; MS365 is not ChatGPT Pro)"
+ },
+ "rec_keys": [
+  "argv_head",
+  "done",
+  "done_why",
+  "findings",
+  "gateway",
+  "kind",
+  "last_message",
+  "last_message_path",
+  "last_message_truncated",
+  "mode",
+  "model",
+  "model_source",
+  "node",
+  "ok",
+  "pr_url",
+  "provenance",
+  "rc",
+  "sandbox",
+  "schema_path",
+  "secs",
+  "stderr_tail",
+  "stdout_tail",
+  "summary",
+  "text",
+  "thread_id",
+  "timed_out",
+  "usage",
+  "usd",
+  "verdict",
+  "vetter_parse",
+  "workspace"
+ ]
+}

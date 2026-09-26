@@ -1,0 +1,44 @@
+# GOOGLE AGENTS TEMPLATE — Gemini CLI HERO seat (draft, P10 propose)
+# Keith 2026-09-20: "Gemini CLI reserved for Google Agents template."
+# Binary: C:\Users\Papa\AppData\Roaming\npm\gemini.cmd v0.52.0 (headless OK).
+# Docs: https://geminicli.com/docs/ (headless: -p, --output-format json, exit 0/1/42/53)
+
+[legend]
+role = "CODER"
+model = "gemini-3.8-flash"
+harness_kind = "coding"
+harness_via = "cli:gemini"
+gemini_bin = "C:\\Users\\Papa\\AppData\\Roaming\\npm\\gemini.cmd"
+gemini_output = "json"          # response + stats (token usage) + error
+wrapper = "work_orders/ccr/hero_gemini_cli/L4_WRAPPER.md"
+style = "STYLES/_TEMPLATE"
+skills = ["gemini-headless-diff"]
+
+[legend.tools]
+allow = ["read", "bash", "powershell", "edit", "write", "grep", "find", "ls"]
+forbid = ["git_push", "git_merge", "grok.exe"]
+sandbox = "worktree"
+
+[legend.enviro]
+pack = "house"
+wallet = "medicineman"   # VERIFIED 2026-09-20: GOOGLE_CLOUD_PROJECT=project-cc5302c9-190c-4cdf-87d + vertex_medicineman_key.txt -> PONG. Agent Platform API enabled there.
+budget_out_usd_per_m = 3.75   # Gemini 3.8 Flash Vertex rate (Kelly-class); free-tier if AI Studio key
+context_window_tokens = 1048576
+
+[legend.output]
+what = "python"
+size_mode = "max_minus_margin"
+window_margin_frac = 0.20
+optimum = "float"
+
+[mission]
+id = "unseated"
+item = "filled per Gitur WO"
+spawn = "gemini.cmd -p \"<mission>\" -m gemini-3.8-flash --output-format json"
+
+[mission.output]
+where = ["work_orders/ccr/proposals/"]
+what = "python"
+size_mode = "max_minus_margin"
+window_margin_frac = 0.20
+optimum = "float"

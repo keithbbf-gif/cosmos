@@ -1,0 +1,31 @@
+# CODER 18 — Gemma 4 26B A4B (free). Sharp outfit.
+# Via = OpenRouter chat (OR rail). Not extra grok.exe. Not CCr pen.
+
+[legend]
+role = "CODER"
+model = "google/gemma-4-26b-a4b-it:free"
+family = "google"
+harness_kind = "coding"
+harness_via = "openrouter"
+wrapper = "work_orders/ccr/hero_coders/_CODER_WRAP.md"
+style = "STYLES/_TEMPLATE"
+skills = ["none-extra"]
+
+[legend.enviro]
+wallet = "openrouter"
+pack = "house"
+context_window_tokens = 1000000
+in_usd_per_m = 0.0
+out_usd_per_m = 0.0
+tps_measured = 35
+window_margin_frac = 0.20
+
+[legend.output]
+what = "python"
+size_mode = "max_minus_margin"
+window_margin_frac = 0.20
+optimum = "float"
+
+[mission]
+id = "at-summon"
+item = "Written at summon. The reply is python."

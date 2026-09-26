@@ -297,15 +297,36 @@ def refuse(argv) -> None:
 
 
 def fail_xfer(paths, rec: dict, kind: str, detail: str) -> dict:
-    """Move a work order to failed/. Not a second scheduler."""
+    """Move a work order to failed/. Append the attempt. Do not spawn.
+
+    Partner autopsy is recorded on the corpse. A miss is UNMEASURED.
+    GAC_RESEAT drops one follow-up JSON. It does not start a scheduler.
+    The corpse is copied to the attempt archive and left in failed/.
+    """
     from cosmos_work_order import order_file, work_order_dirs
 
     dirs = work_order_dirs(paths)
     oid = str((rec or {}).get("order_id") or "order")
     out = dict(rec or {})
+    out["order_id"] = oid
     out["state"] = "FAILED"
     out["fail_kind"] = kind
     out["fail_detail"] = detail
+    try:
+        from cosmos_judge_run import autopsy_fail
+        out.update(autopsy_fail(paths, out, kind, detail))
+    except Exception as e:  # noqa: BLE001 — the move still happens
+        out["wo_partner"] = {
+            "partner_id": None,
+            "partner_state": "UNMEASURED",
+            "kind": "UNMEASURED",
+        }
+        out["partner_id"] = None
+        out["partner_state"] = "UNMEASURED"
+        out["xfer"] = "superseded"
+        out["follow_up_oid"] = None
+        out["attempt_kind"] = "UNMEASURED"
+        out["autopsy_error"] = "%s: %s" % (type(e).__name__, e)[:200]
     dest = order_file(dirs["failed"], oid)
     dest.parent.mkdir(parents=True, exist_ok=True)
     tmp = dest.with_name(dest.name + ".tmp")
@@ -318,6 +339,11 @@ def fail_xfer(paths, rec: dict, kind: str, detail: str) -> dict:
                 stale.unlink()
             except OSError:
                 pass
+    try:
+        from cosmos_judge_run import archive_corpse
+        out["archive"] = archive_corpse(paths, out)
+    except Exception as e:  # noqa: BLE001
+        out["archive"] = {"ok": False, "kind": type(e).__name__, "detail": str(e)[:200]}
     return out
 
 

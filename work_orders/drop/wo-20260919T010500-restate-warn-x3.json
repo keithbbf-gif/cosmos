@@ -1,0 +1,23 @@
+{
+ "_schema": "cosmos-work-order/1",
+ "order_id": "wo-20260919T010500-restate-warn-x3",
+ "Agent": "Gitur Cursor grok-4.6 BUILD + DS Flash",
+ "Context source": [
+  "docs/AGENT_BRIEF.md [read*]",
+  "docs/AGENT_BOUNDARIES.md [read*]",
+  "docs/CANON_SPAWN.md [read*]",
+  "docs/HARNESS.md [read*]",
+  "work_orders/ccr/DEFINE_WOMB.md [read*]",
+  "work_orders/ccr/WOMB_PILE_400.json [read*]",
+  "work_orders/ccr/FULFILL_OR_RESTATE.md [read*]"
+ ],
+ "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. ONE bite: WARN BEFORE ERROR x3. See danger, print WARN BEFORE ERROR: {kind} three times, then refuse. Partial on main \u2014 finish one file. Unified diff first. NONE if already 3x. VERIFY 3. No grok.exe.",
+ "Target & scope": "Route GITUR. Isolated proposal only. Never LiT. Never extra grok.exe. Never USPTO. FIFO after existing GITUR_* packs.",
+ "Timestamp": "2026-09-19T01:05:00-05:00",
+ "Output": "proposals | warn_before_error.diff",
+ "_womb": {
+  "from": "157-failed + _delme wo-json unique restate",
+  "pile": "work_orders/ccr/WOMB_PILE_400.json",
+  "attempt": 2
+ }
+}

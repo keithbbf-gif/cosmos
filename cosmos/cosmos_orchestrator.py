@@ -157,15 +157,18 @@ TOOLS_SCHEMA = [
             "required": ["query"]}}},
 ]
 
-# NEXT TOOLS - extension points, named so the composer knows what is coming
-# and the reader knows what is deliberately absent. NOT registered, NOT
-# schema'd: an unbuilt tool the model can see is an invitation to call it.
+from cosmos_orch_hands import hand_schema, make_hands  # noqa: E402
+
+TOOLS_SCHEMA.extend(hand_schema(False))
+
+# Hands live in cosmos_orch_hands. Consequential ones refuse unless
+# confirm=true. Coding verbs are opt-in via code_root, never the live tree.
 PLANNED_TOOLS = (
     ("get_session", "read a convo session projection (owner-scoped)"),
-    ("select_project", "pick the working project/stream for the session"),
-    ("invoke_bootup", "run the BootUP checklist (confirm-flow, consequential)"),
-    ("dispatch_job", "drop a queue job for the native runner (spend+confirm)"),
-    ("dispatch_grokbot", "task GBt with a plumbing job (spend+confirm)"),
+    ("select_project", "pick the working project/stream; confirm required"),
+    ("invoke_bootup", "run the BootUP checklist; confirm required"),
+    ("dispatch_job", "drop a queue job; confirm required; no spawn"),
+    ("dispatch_grokbot", "mailbox GBt; confirm required; grok.exe refused"),
 )
 
 
@@ -327,14 +330,22 @@ def make_search_itc(itc) -> Callable:
     return search_itc
 
 
-def build_tools(roots: Optional[list] = None, itc=None) -> dict:
-    """The standard read-only registry: {name -> callable}. The matching
-    schemas are TOOLS_SCHEMA. NEXT tools (PLANNED_TOOLS) are deliberately
-    absent until built."""
-    return {
+def build_tools(roots: Optional[list] = None, itc=None, *,
+                sessions=None, drop_fn=None, boot_fn=None, select_fn=None,
+                code_root=None) -> dict:
+    """Read-only search plus fail-closed hands.
+
+    Coding verbs are included only when code_root is set. They are not
+    pointed at the live tree by default.
+    """
+    tools = {
         "search_files": make_search_files(roots or []),
         "search_itc": make_search_itc(itc),
     }
+    tools.update(make_hands(
+        sessions=sessions, drop_fn=drop_fn, boot_fn=boot_fn,
+        select_fn=select_fn, code_root=code_root))
+    return tools
 
 
 # ----------------------------------------------------------- the loop ----

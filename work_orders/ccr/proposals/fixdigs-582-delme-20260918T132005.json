@@ -1,0 +1,21 @@
+{
+ "id": "582-delme",
+ "pr": 582,
+ "digs": "worktree V:\\A\\Ai\\COSMOS\\live\\work\\codex\\hero\\582-delme e42c29f0",
+ "file_exists": true,
+ "ok": false,
+ "done": false,
+ "model": null,
+ "n_diff": 0,
+ "diff": "",
+ "last": "No findings.\n\nThe only change in [CLAUDE.md](/V:/A/Ai/COSMOS/live/work/codex/hero/582-delme/CLAUDE.md:192) adds a prompt-cache canon paragraph, and it is consistent with the existing source material in [docs/PROMPT_CACHE.md](/V:/A/Ai/COSMOS/live/work/codex/hero/582-delme/docs/PROMPT_CACHE.md:3), [docs/AGENT_BOUNDARIES.md](/V:/A/Ai/COSMOS/live/work/codex/hero/582-delme/docs/AGENT_BOUNDARIES.md:109), and [cosmos_principles.toml](/V:/A/Ai/COSMOS/live/work/codex/hero/582-delme/cosmos/cosmos_principles.toml:104). It looks like a shortened restatement of already-established repo policy, not a new or conflicting rule.\n\nResidual risk: this is documentation-only, so there\u2019s no executable validation tied to the edit itself. I did not find a behavioral regression or a contradiction in the documented ",
+ "usage": {
+  "input_tokens": 211614,
+  "cached_input_tokens": 171264,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 1966,
+  "reasoning_output_tokens": 556
+ },
+ "done_why": "missing real model field",
+ "stderr_tail": "Reading additional input from stdin...\n2026-09-18T18:20:46.182104Z ERROR codex_models_manager::manager: failed to load models cache: missing field `supports_parallel_tool_calls` at line 89 column 5\n2026-09-18T18:20:52.398924Z ERROR codex_core::tools::router: error=`\"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\" -Command 'git rev-parse --show-toplevel'` rejected: blocked by policy\n2026-09-18T18:20:57.643705Z ERROR codex_core::tools::router: error=`\"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\" -Command 'Get-ChildItem -Path docs -Recurse -File | Where-Object { $_.Name -match '\"'PROMPT_CACHE|CACHE_RULE|PREFIX' } | Select-Object -ExpandProperty FullName\"` rejected: blocked by policy\n"
+}

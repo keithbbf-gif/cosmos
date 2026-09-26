@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Slice-2/3/4 verbs: convert, diff, check, anonymize, crash-recover, migrate."""
+"""Slice-2/3/4 verbs: convert, diff, check, anonymize, crash-recover, migrate, rebind."""
 from __future__ import annotations
 
 import json
@@ -382,6 +382,93 @@ def migrate(load_fn, rec_id: str, store: Path, workspace_id: str | None,
         proof.write_text(json.dumps({
             "schema": "cosmos-session-tools-result/1",
             "verb": "migrate",
+            "kind": "OK",
+            "gate": gate,
+        }, indent=2) + "\n", encoding="utf-8")
+        gate["proof"] = str(proof)
+    return gate
+
+
+def rebind(ses_id: str, directory: Path, workspace_id: str, *,
+           dry_run: bool = False, out_dir: Path | None = None) -> dict:
+    """Point an existing ses_* at a new workspace id/path. Never re-ingest 666."""
+    sid = str(ses_id or "").strip()
+    if not sid:
+        raise SessionToolsRefusal("BAD_INPUT", "ses_id required")
+    if sid.startswith("ses_cow_") or sid.startswith("cow-") or sid.startswith("ow-ses_cow_"):
+        raise SessionToolsRefusal("DO_NOT_REINGEST", sid)
+    if sid.startswith("ow-"):
+        sid = sid[3:]
+    if not workspace_id:
+        raise SessionToolsRefusal("WORKSPACE_UNKNOWN", "--workspace-id required")
+    if directory is None:
+        raise SessionToolsRefusal("WORKSPACE_UNKNOWN", "--directory required")
+    ws = Path(directory)
+    if not ws.is_dir():
+        raise SessionToolsRefusal("WORKSPACE_UNKNOWN", str(ws))
+    db = ws / "opencode.db"
+    plan = {
+        "ses_id": sid,
+        "workspace_id": workspace_id,
+        "directory": str(ws),
+        "db": str(db),
+    }
+    if dry_run:
+        return plan | {"kind": "DRY_RUN", "dry_run": True}
+    if not db.is_file():
+        raise SessionToolsRefusal("NO_BAK", f"no opencode.db in {ws}")
+    stage = REPO / "_delme" / "session-tools" / "rebind" / time.strftime("%Y%m%dT%H%M%S")
+    stage.mkdir(parents=True, exist_ok=True)
+    bak = stage / "opencode.db"
+    try:
+        shutil.copy2(db, bak)
+    except OSError as e:
+        raise SessionToolsRefusal("NO_BAK", str(e)) from e
+    now = _now_ms()
+    con = sqlite3.connect(str(db))
+    try:
+        row = con.execute(
+            "SELECT id, workspace_id, directory FROM session WHERE id=?",
+            (sid,)).fetchone()
+        if row is None:
+            raise SessionToolsRefusal("NOT_FOUND", sid)
+        prev_ws, prev_dir = row[1], row[2]
+        con.execute(
+            "UPDATE session SET workspace_id=?, directory=?, time_updated=? WHERE id=?",
+            (workspace_id, str(ws), now, sid),
+        )
+        con.commit()
+    except SessionToolsRefusal:
+        con.close()
+        raise
+    except sqlite3.Error as e:
+        con.rollback()
+        con.close()
+        shutil.copy2(bak, db)
+        raise SessionToolsRefusal("RESTORE_FAILED", str(e)) from e
+    con.close()
+    con = sqlite3.connect(str(db))
+    got = con.execute(
+        "SELECT workspace_id, directory FROM session WHERE id=?", (sid,)).fetchone()
+    con.close()
+    if not got or got[0] != workspace_id:
+        shutil.copy2(bak, db)
+        raise SessionToolsRefusal("VERIFY_MISMATCH", sid)
+    gate = {
+        "ses_id": sid,
+        "workspace_id": workspace_id,
+        "prev_workspace_id": prev_ws,
+        "prev_directory": prev_dir,
+        "directory": str(ws),
+        "bak_path": str(bak),
+    }
+    if out_dir is not None:
+        out_dir = Path(out_dir)
+        out_dir.mkdir(parents=True, exist_ok=True)
+        proof = out_dir / f"rebind_{sid}.json"
+        proof.write_text(json.dumps({
+            "schema": "cosmos-session-tools-result/1",
+            "verb": "rebind",
             "kind": "OK",
             "gate": gate,
         }, indent=2) + "\n", encoding="utf-8")

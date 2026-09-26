@@ -189,7 +189,7 @@ def reap_picked(paths, rec: dict, *, timeout_s: float,
         "pid": pid_i or None,
         "via": rec.get("via") or (rec.get("run") or {}).get("via"),
     }
-    return file_done(paths, rec, run_rec=run, check_rails=check_rails)
+    return bind_verdict(paths, file_done(paths, rec, run_rec=run, check_rails=check_rails))
 
 
 def _real_run(argv: list, *, cwd: Path | str, timeout_s: float,
@@ -314,6 +314,65 @@ def _invoke(rec: dict, argv: list, workspace: Path, prompt: str,
     return _real_run(argv, cwd=workspace, timeout_s=timeout_s, env=env)
 
 
+def bind_github_source(rec: dict, repo_tree) -> bool:
+    """Set source only when that drop file is already in the repo.
+
+    Does not invent a GitHub path for a local-only order.
+    """
+    if not isinstance(rec, dict) or rec.get("source"):
+        return False
+    oid = str(rec.get("order_id") or "").strip()
+    if not oid or repo_tree is None:
+        return False
+    rel = "work_orders/drop/%s.json" % oid
+    path = Path(repo_tree) / rel
+    if not path.is_file():
+        return False
+    rec["source"] = "github:keithbbf-gif/cosmos/" + rel
+    return True
+
+
+def bind_verdict(paths, rec: dict) -> dict:
+    """Stamp Verdict and write the local jsonl. Does not page Ara.
+
+    A stamp miss is recorded. It does not un-file the order.
+    GitHub PUT runs only when source is a real drop file. Selftest trees
+    still skip the network inside emit_verdict.
+    """
+    if not isinstance(rec, dict) or not rec.get("order_id"):
+        return rec
+    try:
+        from cosmos_verdict import emit_verdict
+        from cosmos_work_order import infer_repo_tree
+        bind_github_source(rec, infer_repo_tree(paths.root))
+        rec["verdict_writeback"] = emit_verdict(
+            rec, paths=paths, github=True, notify=False)
+    except Exception as e:  # noqa: BLE001
+        rec["verdict_error"] = "%s: %s" % (type(e).__name__, e)[:200]
+        return rec
+    _rewrite_order(paths, rec)
+    return rec
+
+
+def _rewrite_order(paths, rec: dict) -> None:
+    from cosmos_work_order import order_file, work_order_dirs
+
+    folder = {
+        "FAILED": "failed",
+        "DONE": "assigned",
+        "PICKED_UP": "picked",
+        "COMPLETED": "completed",
+        "DROPPED": "bucket",
+    }.get(rec.get("state"))
+    if folder is None:
+        return
+    dest = order_file(work_order_dirs(paths)[folder], rec["order_id"])
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    tmp = dest.with_name(dest.name + ".tmp")
+    tmp.write_text(json.dumps(rec, indent=1, default=str), encoding="utf-8")
+    tmp.replace(dest)
+
+
 def _fail_drop(paths, drop: Path, kind: str, detail: str) -> dict:
     dirs = work_order_dirs(paths)
     try:
@@ -328,6 +387,14 @@ def _fail_drop(paths, drop: Path, kind: str, detail: str) -> dict:
     rec["state"] = "FAILED"
     rec["fail_kind"] = kind
     rec["fail_detail"] = detail
+    try:
+        from cosmos_judge_run import autopsy_fail
+        rec.update(autopsy_fail(paths, rec, kind, detail))
+    except Exception as e:  # noqa: BLE001
+        rec["partner_state"] = "UNMEASURED"
+        rec["attempt_kind"] = "UNMEASURED"
+        rec["xfer"] = "superseded"
+        rec["autopsy_error"] = "%s: %s" % (type(e).__name__, e)[:200]
     dest = dirs["failed"] / f"{oid}.json"
     dest.parent.mkdir(parents=True, exist_ok=True)
     tmp = dest.with_name(dest.name + ".tmp")
@@ -337,7 +404,7 @@ def _fail_drop(paths, drop: Path, kind: str, detail: str) -> dict:
         Path(drop).unlink()
     except OSError:
         pass
-    return rec
+    return bind_verdict(paths, rec)
 
 
 def _daemon_core_url() -> str:
@@ -366,7 +433,7 @@ def process_one(paths, drop: Path, *, run_fn=None, repo_tree=None,
     try:
         spec = apply_order(rec)
     except SpawnError as e:
-        return fail_xfer(paths, rec, e.kind, e.detail)
+        return bind_verdict(paths, fail_xfer(paths, rec, e.kind, e.detail))
     rec["_spawn"] = spec.to_dict()
     _persist_picked(paths, rec)
     routed = route_agent(rec["_agent"])
@@ -374,19 +441,20 @@ def process_one(paths, drop: Path, *, run_fn=None, repo_tree=None,
         try:
             refuse(["grok", "--single"])
         except SpawnError as e:
-            return fail_xfer(paths, rec, e.kind, e.detail)
+            return bind_verdict(paths, fail_xfer(paths, rec, e.kind, e.detail))
     prompt = compose_prompt(rec, workspace=ws, output=outp)
     argv = build_argv(rec, ws, prompt=prompt, output=outp)
     rec["_argv"] = argv
     rec["_prompt"] = prompt
     rec["_live_root"] = str(paths.root)
     blob = " ".join(str(x) for x in argv).lower()
-    if "grok" in blob or "--single" in argv:
+    # Injected run_fn is the test seam. The scar refuses a live grok.exe spawn.
+    if run_fn is None and ("grok" in blob or "--single" in argv):
         from cosmos_warn import warn3
         warn3("GROK_EXE_SCAR", "WO worker grok --single — Gitur/GAC; WD2 drives MOTIF")
-        return file_done(paths, rec, run_rec={
+        return bind_verdict(paths, file_done(paths, rec, run_rec={
             "rc": 2, "err": "GROK_EXE_SCAR", "argv": argv, "elapsed_s": 0,
-        }, check_rails=check_rails)
+        }, check_rails=check_rails))
     t0 = time.time()
     if run_fn is not None:
         run = run_fn(argv, cwd=str(ws), output=outp)
@@ -395,17 +463,17 @@ def process_one(paths, drop: Path, *, run_fn=None, repo_tree=None,
         run["argv"] = argv
         run["cwd"] = str(ws)
         run.setdefault("elapsed_s", round(time.time() - t0, 3))
-        return file_done(paths, rec, run_rec=run, check_rails=check_rails)
+        return bind_verdict(paths, file_done(paths, rec, run_rec=run, check_rails=check_rails))
     if routed["rail"] == "gemini":
         run = _invoke(rec, argv, ws, prompt, timeout_s)
         run["argv"] = argv
         run["cwd"] = str(ws)
         run.setdefault("elapsed_s", round(time.time() - t0, 3))
-        return file_done(paths, rec, run_rec=run, check_rails=check_rails)
+        return bind_verdict(paths, file_done(paths, rec, run_rec=run, check_rails=check_rails))
     try:
         refuse(argv)
     except SpawnError as e:
-        return fail_xfer(paths, rec, e.kind, e.detail)
+        return bind_verdict(paths, fail_xfer(paths, rec, e.kind, e.detail))
     log_path = Path(ws) / "run.log"
     spawned = spawn_detached(argv, str(ws), log_path)
     rec["_argv"] = argv
@@ -419,7 +487,7 @@ def process_one(paths, drop: Path, *, run_fn=None, repo_tree=None,
     _persist_picked(paths, rec)
     rec["spawned"] = True
     rec["spawn_ok"] = bool(spawned.get("ok"))
-    return rec
+    return bind_verdict(paths, rec)
 
 
 def poll_once(root: str, polls: int = 0, interval_s: float | None = None,
@@ -982,6 +1050,8 @@ def _selftest() -> int:
     check("runner files DONE in assigned-tasks",
           lambda: rec.get("state") == "DONE"
           and (dirs["assigned"] / "wo-done-1.json").is_file())
+    check("DONE stamps a pending Verdict",
+          lambda: (rec.get("Verdict") or {}).get("status") == "pending")
     check("no core_url → CORE_NOT_COMPOSED (selftest never hits live :8770)",
           lambda: (rec.get("core_picked") or {}).get("kind") == "CORE_NOT_COMPOSED")
 
@@ -1051,6 +1121,8 @@ def _selftest() -> int:
     check("missing output is FAILED",
           lambda: missed.get("state") == "FAILED"
           and (dirs["failed"] / "wo-empty-1.json").is_file())
+    check("FAILED stamps a rejected Verdict",
+          lambda: (missed.get("Verdict") or {}).get("status") == "rejected")
 
     def _accept_failed():
         try:
@@ -1239,9 +1311,18 @@ def _selftest() -> int:
     check("no bts_ import in the new modules", _no_bts)
 
     bad = [(l, e) for l, ok, e in results if not ok]
+    enc = getattr(sys.stdout, "encoding", None) or "utf-8"
+
+    def _say(line: str) -> None:
+        try:
+            print(line)
+        except UnicodeEncodeError:
+            sys.stdout.buffer.write((line + "\n").encode(enc, errors="replace"))
+            sys.stdout.buffer.flush()
+
     for l, ok, e in results:
-        print(("  OK  " if ok else "  FAIL") + f" {l}" + (f"  {e}" if e else ""))
-    print(f"{len(results) - len(bad)}/{len(results)} passed")
+        _say(("  OK  " if ok else "  FAIL") + f" {l}" + (f"  {e}" if e else ""))
+    _say(f"{len(results) - len(bad)}/{len(results)} passed")
     return 1 if bad else 0
 
 
@@ -1274,7 +1355,8 @@ def main() -> int:
         print(json.dumps(r, indent=1, default=str))
         return 0 if (r.get("proof") or {}).get("ok") else 2
     if a.accept:
-        rec = accept_order(a.root, a.accept, note=a.note)
+        paths = CosmosPaths(a.root)
+        rec = bind_verdict(paths, accept_order(a.root, a.accept, note=a.note, paths=paths))
         print(json.dumps({
             "ok": rec.get("state") == "COMPLETED",
             "order_id": rec.get("order_id"),
@@ -1287,7 +1369,8 @@ def main() -> int:
         }, indent=1, default=str))
         return 0 if rec.get("state") == "COMPLETED" else 2
     if a.reject:
-        rec = reject_order(a.root, a.reject, note=a.note)
+        paths = CosmosPaths(a.root)
+        rec = bind_verdict(paths, reject_order(a.root, a.reject, note=a.note, paths=paths))
         print(json.dumps({
             "ok": rec.get("state") == "DONE" and rec.get("rejected"),
             "order_id": rec.get("order_id"),

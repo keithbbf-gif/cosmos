@@ -1,0 +1,63 @@
+{
+  "order_id": "wish-07-womb",
+  "Agent": "OpenRouter | Nex | nex-agi/nex-n2.5-mini:free",
+  "Context source": [
+    "V:\\A\\Ai\\COSMOS\\docs\\AGENT_BRIEF.md",
+    "V:\\A\\Ai\\COSMOS\\docs\\AGENT_BOUNDARIES.md",
+    "V:\\A\\Ai\\COSMOS\\docs\\WISHLIST.md"
+  ],
+  "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. WISH: GROK COWORK SURFACE \u2014 Keith 2026-08-31: build the tools/interface Claude Cowork has, so Grok can compete and win. **cDeck = Orchestration. Grok TUI = hardcore coding, as a pane in cDeck** (Keith 8/31 evening: *I LOVE YOU TUI. You are for coding.*). Folder grants, connectors, scheduled tasks, dispatch-from-phone, permission modes, finished deliverables on the deck. Do not clone Claude. Do not replace the TUI.\n      **Agenda (Keith 2026-09-02):** pick the **most capable Grok \u2014 GrokBot** \u2014 and enable it\n      to compete with Claude Cowork, **starting with the orchestration tools we need most**\n      (drive read + write / folder grants, connectors, schedule, dispatch-from-phone,\n      permission modes, deliverables on cDeck). Two-pen split still holds until Keith\n      widens GrokBot\u2019s pen: GrokBot writes `V:\\Ai`; COSMOS `V:\\A` is mailbox / lease first.\n      **Sequence (Keith 2026-09-02):** finish the house **with this Grok Code TUI (COW)**\n      first, **then** empower GrokBot. Not an endpoint \u2014 a **handoff gate:** work-order\n      DONE\u2192`--accept`\u2192COMPLETED actually applies; COW\u21c4GrokBot mailbox proven; cDeck orch\n      home usable (RELOAD live; resize still owed). Until that gate, GrokBot may grow\n      hands **on `V:\\Ai` only**. Do not give it a COSMOS pen or SGH drive-write on `V:\\A`\n      first \u2014 that is the two-writer scar.\n      **Compete against the whole Work-agent class, not only Claude Cowork** (see WORK\n      AGENTS agenda). Claude is one occupant. OpenAI/Microsoft/Google shipped peers.\n      **OpenWork Labs (Keith 2026-09-04):** A-tier file-work harness. **cDeck main\n      left; default Grok 4 Fast; pen = its folder grant, not COSMOS.** **This Grok\n      TUI (4.6) = main right: oversees.** **CCr** (one at a time) writes the COSMOS\n      live tree. Orch/OW queue CORE for the next Cm. Streams do not share a root.\n      Coding brains = Grok 4.6 + Opus 5. Almost everything else = Llama, Grok 4 Fast,\n      Gemini 3 Flash. **Supervisor:** A-tier / Fast `grok -p` worker; not a second\n      COW. `docs/CCR.md`. Spec: `builds/cdeck/ORCH_HOME_SPEC.md` \u00a75.",
+  "Target & scope": "proposals under Output only; never kernel/ledger/sched/service; never LiT; never grok.exe",
+  "Timestamp": "2026-09-24T08:15:55-05:00",
+  "Output": "proposals | out.json",
+  "output_what": "python",
+  "OPTIMUM_tokens": "float",
+  "MAX_tokens": 209600,
+  "crew": [
+    {
+      "seat": 1,
+      "Agent": "OpenRouter | Nex | nex-agi/nex-n2.5-mini:free",
+      "tier": "free",
+      "context_window_tokens": 262000,
+      "cache_floor_tokens": 1024,
+      "cache_ttl": "30m",
+      "cache_prefix": "legend+WRAP+STYLE+SKILL",
+      "timeout_s": 900,
+      "tps": 49,
+      "pack": "work_orders/ccr/hero_coders/13_nexmini",
+      "output_what": "python",
+      "OPTIMUM_tokens": "float",
+      "MAX_tokens": 209600
+    },
+    {
+      "seat": 2,
+      "Agent": "OpenRouter | North | cohere/north-mini-code:free",
+      "tier": "free",
+      "context_window_tokens": 256000,
+      "cache_floor_tokens": 1024,
+      "cache_ttl": "30m",
+      "cache_prefix": "legend+WRAP+STYLE+SKILL",
+      "timeout_s": 900,
+      "tps": 58,
+      "pack": "work_orders/ccr/hero_coders/09_northmini",
+      "output_what": "python",
+      "OPTIMUM_tokens": "float",
+      "MAX_tokens": 204800
+    },
+    {
+      "seat": 3,
+      "Agent": "OpenRouter | Hy3 | tencent/hy3-preview",
+      "tier": "paid-low",
+      "context_window_tokens": 262000,
+      "cache_floor_tokens": 1024,
+      "cache_ttl": "30m",
+      "cache_prefix": "legend+WRAP+STYLE+SKILL",
+      "timeout_s": 900,
+      "tps": 69,
+      "pack": "work_orders/ccr/hero_coders/07_hy3preview",
+      "output_what": "python",
+      "OPTIMUM_tokens": "float",
+      "MAX_tokens": 209600
+    }
+  ]
+}

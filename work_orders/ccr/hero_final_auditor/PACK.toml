@@ -1,0 +1,31 @@
+# Seat pack: Final Auditor (COSMOS Layer 8 Specification)
+schema         = "cosmos-pack/2"
+station        = "final_auditor"
+tier           = "audit"
+axis           = "final_quality_gate"
+catch_bin_size = 30                 # summon when Gitur deposits >= 30 judged keeps
+idle_timeout_m = 30                 # close 30m after bin dry; write TidyUP + BUchk.json
+ephemeral      = true               # temporary seat; does not persist across droughts
+
+[model]
+primary        = "grok-4.7"
+family         = "xai"              # MUST differ from Judge family (Judge: openai gpt-6-luna)
+via            = "grok-cli"         # local grok.exe, NOT the API lane
+harness        = "grok --single --prompt-file --output-format json"
+context_window = 131072
+temperature    = 0.1
+effort         = "high"             # --reasoning-effort high on the CLI
+
+[summon]
+rule           = "bucket-full-only" # NEVER call except when catch bin >= 30
+bin            = "live/queue/audit_bins/final/ (or GitHub PRs)"
+bin_size       = 30
+
+[pipeline]
+upstream       = "gitur"            # reads Gitur deposit inbox / GitHub PRs
+downstream     = "scribe"           # ACCEPT patches -> Scribe staging inbox
+fences         = ["NO_LIVE_TREE_WRITE", "NO_GIT_PUSH", "NO_PEN"]
+
+[canon]
+reads          = ["docs/CANON_AGENT_CALLS.md", "docs/CANON_4C_JUDGE.md"]
+verdict_first_line = "KEEP | DROP | NONE | HOLD | UNMEASURED"

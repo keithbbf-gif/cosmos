@@ -1,0 +1,47 @@
+# GF38 Kelly JUDGE DUD — same Mission #587. Not Medicine Man. Not ADC.
+
+[legend]
+role = "JUDGE"
+model = "gemini-3.8-flash"
+harness_kind = "review"
+harness_via = "vertex-coding"
+service_tier = ""
+wrapper = "work_orders/ccr/hero_gf38/L4_WRAPPER.md"
+style = "STYLES/_TEMPLATE"
+skills = []
+
+[legend.tools]
+allow = []
+forbid = ["apply_patch", "git_push", "grok.exe", "thinkingLevel.HIGH"]
+sandbox = "none"
+
+[legend.enviro]
+cwd = "V:\\A\\Ai\\COSMOS"
+pack = "house"
+wallet = "kelly-vertex-coding"
+location = "global"
+auth = "apikey"
+budget_out_usd_per_m = 3.75
+context_window_tokens = 1048576
+credit_left_usd = 57
+
+[legend.output]
+what = "text"
+size_mode = "max_minus_margin"
+window_margin_frac = 0.20
+optimum = "float"
+
+[mission]
+id = "gitur-pr-587"
+item = "docs/CANON_PEN.md"
+author = "orch-716fbaea"
+
+[mission.output]
+where = [
+  "work_orders/ccr/JUDGE_GF38_PR587.json",
+  "live/state/attempts/attempts.jsonl",
+]
+what = "text"
+size_mode = "max_minus_margin"
+window_margin_frac = 0.20
+optimum = "float"

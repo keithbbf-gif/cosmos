@@ -1,0 +1,2 @@
+ITEM
+{"hero_skill_added":true,"hero_skill_path":"V:\\A\\Ai\\COSMOS\\live\\work\\codex\\hero-wombat-luna\\.agents\\skills\\wombat-womb-board\\SKILL.md","system_skills":["skill-creator","skill-installer","openai-docs","imagegen","plugin-creator","review-agent"],"replaced_system":false,"model":"UNMEASURED"}

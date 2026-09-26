@@ -1,0 +1,14 @@
+{
+  "Agent": "OpenRouter | Hy3 | tencent/hy3-preview",
+  "Context source": [
+    "docs/AGENT_BRIEF.md [read*]",
+    "docs/AGENT_BOUNDARIES.md [read*]",
+    "cosmos/cosmos_tools.py [read*]",
+    "live/work/phase2/TASK_567.md [read*]"
+  ],
+  "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. ONE bite: coding tools leftover vs Read/Write/Edit/Glob/Grep/Bash. First line NONE or diff --git. NONE if cosmos_tools.py already is the contract. No grok.exe.",
+  "Target & scope": "proposals under Output only; What=python; never kernel/ledger/sched/service",
+  "Timestamp": "2026-09-24T16:40:00-05:00",
+  "Output": "proposals | tools_parity.diff",
+  "womb_n": 567
+}

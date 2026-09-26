@@ -1,0 +1,38 @@
+{
+ "ok": true,
+ "done": true,
+ "kind": "CLI",
+ "model": "gpt-5-codex",
+ "verdict": "request-changes",
+ "summary": "The new file is close, but the PR is incomplete and currently misreports some failure modes: the recall standup is not wired into the existing own-clocks dispatcher, `--standup` exits successfully on elevation refusal, and the `--once` path leaves several expected setup/ledger failures uncaught.",
+ "findings": [
+  {
+   "severity": "high",
+   "path": "cosmos/cosmos_own_clocks.py",
+   "line": 413,
+   "message": "This change adds `cosmos_recall_clock.standup()`, but `_call_standup()` still has no `if name == \"recall\"` branch. The existing own-clocks entrypoint therefore continues to return `{\"ok\": false, \"error\": \"unknown standup recall\"}`, so the new standup code is unreachable from the central launcher/matrix path the work order targets."
+  },
+  {
+   "severity": "med",
+   "path": "cosmos/cosmos_recall_clock.py",
+   "line": 72,
+   "message": "`main()` returns exit code 0 when `needs_elevation` is true, even though `standup()` has already set `ok=False` and `registered=False` for that case. Any automation that keys off process status will treat an unregistered task as successfully installed and skip the manual elevation step."
+  },
+  {
+   "severity": "med",
+   "path": "cosmos/cosmos_recall_clock.py",
+   "line": 78,
+   "message": "The `--once` path only handles `RecallError`. `CosmosPaths(root)`, `install_key.bin.read_bytes()`, and `Ledger(...)` can all fail with other exceptions (for example `CosmosPathError`, `FileNotFoundError`, or `LedgerError`), which will currently surface as an uncaught traceback from the scheduled task instead of a typed refusal/JSON result like the other clock entrypoints."
+  }
+ ],
+ "done_why": "ok",
+ "detail": null,
+ "usage": {
+  "input_tokens": 827987,
+  "cached_input_tokens": 718848,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 8352,
+  "reasoning_output_tokens": 3951
+ },
+ "last_message": "{\"verdict\":\"request-changes\",\"findings\":[{\"severity\":\"high\",\"path\":\"cosmos/cosmos_own_clocks.py\",\"line\":413,\"message\":\"This change adds `cosmos_recall_clock.standup()`, but `_call_standup()` still has no `if name == \\\"recall\\\"` branch. The existing own-clocks entrypoint therefore continues to return `{\\\"ok\\\": false, \\\"error\\\": \\\"unknown standup recall\\\"}`, so the new standup code is unreachable from the central launcher/matrix path the work order targets.\"},{\"severity\":\"med\",\"path\":\"cosmos/cosmos_recall_clock.py\",\"line\":72,\"message\":\"`main()` returns exit code 0 when `needs_elevation` is true, even though `standup()` has already set `ok=False` and `registered=False` for that case. Any automation that keys off process status will treat an unregistered task as successfully installed and skip the manual elevation step.\"},{\"severity\":\"med\",\"path\":\"cosmos/cosmos_recall_clock.py\",\"line\":78,\"message\":\"The `--once` path only handles `RecallError`. `CosmosPaths(root)`, `install_key.bin.read_bytes()`, and `Ledger(...)` can all fail with other exceptions (for example `CosmosPathError`, `FileNotFoundError`, or `LedgerError`), which will currently surface as an uncaught traceback from the scheduled task instead of a typed refusal/JSON result like the other clock entrypoints.\"}],\"model\":\"gpt-5-codex\",\"summary\":\"The new file is close, but the PR is incomplete and currently misreports some failure modes: the recall standup is not wired into the existing own-clocks dispatcher, `--standup` exits successfully on elevation refusal, and the `--once` path leaves several expected setup/ledger failures uncaught.\"}"
+}

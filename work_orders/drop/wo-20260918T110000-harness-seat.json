@@ -1,0 +1,16 @@
+{
+  "Agent": "Gitur | Cursor | grok-4.6",
+  "Context source": [
+    "docs/AGENT_BRIEF.md [read*]",
+    "docs/AGENT_BOUNDARIES.md [read*]",
+    "docs/CANON_SPAWN.md [read*]",
+    "docs/ROUTING.md [read*]",
+    "work_orders/ccr/DEFINE_HARNESS_SEAT.md [read*]",
+    "work_orders/ccr/GITUR_HARNESS_SEAT.md [read*]",
+    "work_orders/ccr/CCR_ORC_NOW.md [read*]"
+  ],
+  "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10 PROPOSE. Keith: EVERY agent is a harness, including ORC. Kind follows Role: ORC=orch (OpenWork/GFO, no COSMOS grant, no extra grok.exe), WOMBAT=board, JUDGE=review (read-only), CODER=coding (native family via), CCR=dispose, DAEMON=not an LLM. Only code-related roles get a coding harness. Same WRAPPER + skills set + toolbox travel with every seat. Spawn: Role → Model → Harness(kind+via) → Wrapper → Skills → Tools → Enviro. Degenerate mouth:* only if native via unbound; warn3 then refuse if bound. Do not install Ori. Do not sit ORC in Grok Build/Cursor/Codex. One branch ccr/harness-seat from origin/main. Unified diff + 3 VERIFY. FIFO after CCR_ORC_NOW Luna KEEP thin PRs unless Keith names this first. No USPTO. No unique-head.",
+  "Target & scope": "PR origin/main keithbbf-gif/cosmos; cosmos spawn + canon only; never V:\\Ai; never extra grok.exe; never Ori",
+  "Timestamp": "2026-09-18T11:00:00-05:00",
+  "Output": "proposals | GITUR_HARNESS_SEAT.md"
+}

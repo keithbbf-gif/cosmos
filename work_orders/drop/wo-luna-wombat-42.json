@@ -1,0 +1,63 @@
+{
+  "order_id": "wish-42-womb",
+  "Agent": "OpenRouter | Nex | nex-agi/nex-n2.5-mini:free",
+  "Context source": [
+    "V:\\A\\Ai\\COSMOS\\docs\\AGENT_BRIEF.md",
+    "V:\\A\\Ai\\COSMOS\\docs\\AGENT_BOUNDARIES.md",
+    "V:\\A\\Ai\\COSMOS\\docs\\WISHLIST.md"
+  ],
+  "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. WISH: INTER-ORCHESTRATOR COMMS (COW \u21c4 GrokBot) \u2014 write-locked shared mailbox (P1). Give the two\n      orchestrators a way to TALK: a shared drop-note / mailbox on disk (file-based IPC \u2014 hash-chained\n      append, each note signed with the writer id) so COW and GrokBot hand off, claim who owns what,\n      and coordinate \u2014 under STRICT write-locking (the `cosmos_lock` mutex + fencing tokens, ONE\n      writer at a time, leases). The BTS-MESH deletion was a WRITE CONFLICT from Claude(Opus) +\n      GrokBot writing in parallel with NO arbiter \u2014 COSMOS's lease arbiter + single-writer ledger is\n      exactly that fix. Claude is the better orchestrator but currently CAN'T talk to GrokBot; this\n      channel + the lock closes the gap and makes parallel orchestration safe (append, never clobber).\n      **2026-09-01 split is in force (they do not share a tree):** GrokBot pen = `V:\\Ai` (BTS+LEGAL);\n      Grok Code pen = `V:\\A` + COSMOS; GrokBot writes nowhere else until Keith permits. Mailbox is\n      required **before** they share a tree \u2014 not required to run the split. Encoded\n      `docs/AGENT_BOUNDARIES.md` item 9.",
+  "Target & scope": "proposals under Output only; never kernel/ledger/sched/service; never LiT; never grok.exe",
+  "Timestamp": "2026-09-24T08:15:55-05:00",
+  "Output": "proposals | out.json",
+  "output_what": "python",
+  "OPTIMUM_tokens": "float",
+  "MAX_tokens": 209600,
+  "crew": [
+    {
+      "seat": 1,
+      "Agent": "OpenRouter | Nex | nex-agi/nex-n2.5-mini:free",
+      "tier": "free",
+      "context_window_tokens": 262000,
+      "cache_floor_tokens": 1024,
+      "cache_ttl": "30m",
+      "cache_prefix": "legend+WRAP+STYLE+SKILL",
+      "timeout_s": 900,
+      "tps": 49,
+      "pack": "work_orders/ccr/hero_coders/13_nexmini",
+      "output_what": "python",
+      "OPTIMUM_tokens": "float",
+      "MAX_tokens": 209600
+    },
+    {
+      "seat": 2,
+      "Agent": "OpenRouter | North | cohere/north-mini-code:free",
+      "tier": "free",
+      "context_window_tokens": 256000,
+      "cache_floor_tokens": 1024,
+      "cache_ttl": "30m",
+      "cache_prefix": "legend+WRAP+STYLE+SKILL",
+      "timeout_s": 900,
+      "tps": 58,
+      "pack": "work_orders/ccr/hero_coders/09_northmini",
+      "output_what": "python",
+      "OPTIMUM_tokens": "float",
+      "MAX_tokens": 204800
+    },
+    {
+      "seat": 3,
+      "Agent": "OpenRouter | Hy3 | tencent/hy3-preview",
+      "tier": "paid-low",
+      "context_window_tokens": 262000,
+      "cache_floor_tokens": 1024,
+      "cache_ttl": "30m",
+      "cache_prefix": "legend+WRAP+STYLE+SKILL",
+      "timeout_s": 900,
+      "tps": 69,
+      "pack": "work_orders/ccr/hero_coders/07_hy3preview",
+      "output_what": "python",
+      "OPTIMUM_tokens": "float",
+      "MAX_tokens": 209600
+    }
+  ]
+}

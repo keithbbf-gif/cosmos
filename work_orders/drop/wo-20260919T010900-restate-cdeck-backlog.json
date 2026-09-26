@@ -1,0 +1,23 @@
+{
+ "_schema": "cosmos-work-order/1",
+ "order_id": "wo-20260919T010900-restate-cdeck-backlog",
+ "Agent": "Gitur Cursor grok-4.6 BUILD (cdeck repo) + GLM Flash",
+ "Context source": [
+  "docs/AGENT_BRIEF.md [read*]",
+  "docs/AGENT_BOUNDARIES.md [read*]",
+  "docs/CANON_SPAWN.md [read*]",
+  "docs/HARNESS.md [read*]",
+  "work_orders/ccr/DEFINE_WOMB.md [read*]",
+  "work_orders/ccr/WOMB_PILE_400.json [read*]",
+  "work_orders/ccr/FULFILL_OR_RESTATE.md [read*]"
+ ],
+ "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. ONE bite: remaining cDeck BACKLOG rows that are BACKLOG not BLOCKED/DO-NOT. Not C1 ConPTY. Not OpenWork iframe. One row. Unified diff first. NONE if empty. VERIFY 3. Repo keithbbf-gif/cdeck. No grok.exe.",
+ "Target & scope": "Route GITUR. Isolated proposal only. Never LiT. Never extra grok.exe. Never USPTO. FIFO after existing GITUR_* packs.",
+ "Timestamp": "2026-09-19T01:09:00-05:00",
+ "Output": "proposals | cdeck_backlog.diff",
+ "_womb": {
+  "from": "157-failed + _delme wo-json unique restate",
+  "pile": "work_orders/ccr/WOMB_PILE_400.json",
+  "attempt": 2
+ }
+}

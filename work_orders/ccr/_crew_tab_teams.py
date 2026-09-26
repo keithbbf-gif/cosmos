@@ -61,7 +61,14 @@ def _spawn(py: Path, extra: list[str], dest: Path, log: Path) -> dict:
 
 
 def main() -> int:
-    require_bootup(CosmosPaths(str(ROOT / "live")), stream="Cm")
+    require_bootup(CosmosPaths(str(ROOT / "live")))
+    try:
+        raw = json.loads((ROOT / "live" / "state" / "control" / "PAUSE.flag").read_text(encoding="utf-8"))
+        if raw.get("state") == "PAUSED" and raw.get("mode") == "hold":
+            print("PAUSED hold - no seats spawned", flush=True)
+            return 0
+    except (OSError, ValueError):
+        pass
     launched = []
     for tab, a, b in TABS:
         item = ITEMS / f"{tab}.md"

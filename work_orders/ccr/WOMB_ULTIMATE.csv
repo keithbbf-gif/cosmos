@@ -1,0 +1,267 @@
+n,hop,io,field,typ,sample,rule
+1,0 origin,need,requester,text,Keith,Human origin. Mesh does not invent wishes.
+2,0 origin,need,wish_checkbox,enum,- [ ],"Open. Flips [x] only after gate, never after DONE."
+3,0 origin,need,wish_verbatim,text,"AUTO-RESESSION — continue across the context boundary, zero / minimal user disturbance.",Full WISHLIST line. Not a stub. Not a paraphrase.
+4,0 origin,need,wish_path,path,V:\A\Ai\COSMOS\docs\WISHLIST.md,Abs path.
+5,0 origin,need,wish_line,int,128,Checkable line.
+6,0 origin,need,wish_why,text,Layer B orch dies when the window fills; Layer A clocks keep running. Need a satellite that spawns a FRESH orch from SEED/BU with zero or one human turn. --continue replays the full window and fails the wish.,Keith gives WHAT+WHY. Mesh decides HOW.
+7,0 origin,need,backlog_verbatim,text,AUTO-RESESSION — COSMOS continues its own route across the context boundary with zero / minimal user disturbance.,Same wish if also on BACKLOG.
+8,0 origin,need,feature_id,text,F-51,FEATURE_MASTER id if any.
+9,0 origin,need,origin_surface,enum,WISHLIST-open,wishlist|backlog|voice|email|cdeck-create|daemon|chat. FIFO by Timestamp not by surface.
+10,0 origin,invariant,fifo,bool,True,Always. Chat silos join this queue. No priority jump.
+11,0 origin,invariant,one_wish_one_bite,bool,True,Never 112x Drive the MOTIF. WD2 already drives MOTIF.
+12,1 problem,need,motif_stage,enum,1 PROBLEM STATEMENT,1..9. RESEARCH does not start until frozen file exists.
+13,1 problem,need,frozen_what,text,"Acquire RE-SESSION automatically without user intervention, or with minimal disturbance.",Stage-1 WHAT.
+14,1 problem,need,frozen_why,text,Context-full stops Layer B. Layer A schtasks keep humming. Human must BootUP.,Stage-1 WHY.
+15,1 problem,need,frozen_acceptance,text,Fresh window not replay; seeded from SEED.json+BUCm.toml+BACKLOG; no/one human turn; schtasks logged-on; one orch lease; fail-closed.,R1–R8.
+16,1 problem,need,frozen_off_limits,text,Not --continue of dying window. Not extra grok.exe as product. Not USPTO. Not second Core. Not ONSTART (V: is user-session).,Refuse if Task violates these.
+17,1 problem,need,frozen_live_emit,text,live/state/control/RESESSION.json + live/logs/resession_heartbeat.json + clock 18 tick,Gate names the live-tree field now.
+18,1 problem,need,negative_control,text,Same sid --continue; ONSTART task; second orch without lease; spawn that needs a click.,What would prove the wish failed.
+19,1 problem,produce,frozen_statement_path,path,V:\A\Ai\COSMOS\docs\research\AUTO_RESESSION.md,This file IS Task for every later lane. Do not paraphrase per model.
+20,1 problem,produce,bootup_prompt_path,path,V:\A\Ai\COSMOS\docs\AUTO_RESESSION_PROMPT.md,Fire-time prompt. Do not edit at fire.
+21,1 problem,produce,bootup_prompt_sha,hash,5d10d8ff510503a00b01d6a2b1efca7941ca92a10efc3aa1c6ed59082cfca8db,Measured F-51.
+22,1 problem,need,already_on_lit,text,cosmos/cosmos_resession.py CLOCK_ID=18; tests/test_resession.py; --install-task still operator.,"If full, fulfill path (1) not a new coding WO."
+23,1 problem,need,layer_split,text,A=clocks survive; B=orch session dies,Do not conflate.
+24,2 translate,need,sop_six,text,Agent | Context source | Task | Target & scope | Timestamp | Output,All required. Missing any = not a WO.
+25,2 translate,produce,order_id,text,wish-13-womb,Stable idempotency key.
+26,2 translate,produce,windows_filename,text,wo-luna-wombat-13.json,"No : * ? "" < > | \. TZ not in name."
+27,2 translate,produce,Agent,text,OpenRouter | Nex | nex-agi/nex-n2.5-mini:free,Family | Clade | Version. Not Cursor. Not Claude. Not grok.exe.
+28,2 translate,produce,Context source,list,V:\A\Ai\COSMOS\docs\AGENT_BRIEF.md | V:\A\Ai\COSMOS\docs\AGENT_BOUNDARIES.md | V:\A\Ai\COSMOS\docs\WISHLIST.md | V:\A\Ai\COSMOS\docs\research\AUTO_RESESSION.md | V:\A\Ai\COSMOS\docs\AUTO_RESESSION_PROMPT.md,LIST of existing abs paths. Concat middle-dot = NO_CONTEXT scar.
+29,2 translate,invariant,ctx_is_list,bool,True,Refuse concat.
+30,2 translate,produce,Task,text,FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Frozen statement is docs/research/AUTO_RESESSION.md (WHAT/WHY/acceptance/off-limits/live emit). Bite: satellite spawn of a FRESH orch at ~70% pack; SOP docs/RESESSION_SOP.md; 5a grok --prompt-file then 5b WMI grok --cwd --fullscreen -r <uuid>. Not -c of the dying window. First line NONE or diff --git.,Complete translation. Thin title-only Task is class-1 empty Output.
+31,2 translate,produce,task_thin_was,text,"FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. WISH: AUTO-RESESSION — continue across the context boundary, zero / minimal user disturbance.",What latch wrote. Gap vs Task above.
+32,2 translate,produce,Target & scope,text,proposals under Output only; never kernel/ledger/sched/service; never LiT; never grok.exe,Fence. Models drop this.
+33,2 translate,produce,Timestamp,text,2026-09-23T18:41:41-05:00,ISO+offset. Product field. Not PREFIX.
+34,2 translate,produce,Output,text,proposals | out.json,folder | filename RELATIVE. No V:\ no / no ..
+35,2 translate,produce,output_what,enum,python,text|python|no_prose. Coder=python. WOMBAT product=no_prose.
+36,2 translate,produce,expected_form,text,NONE or diff --git then unified diff in Output,Name the form or class-3 miss.
+37,2 translate,produce,verify_1,text,First line is NONE or diff --git,FULFILL: 3 VERIFY.
+38,2 translate,produce,verify_2,text,Output file exists at write_path and hashes,VERIFY.
+39,2 translate,produce,verify_3,text,Does not write LiT; no grok.exe worker,VERIFY.
+40,2 translate,produce,item_repo,text,keithbbf-gif/cosmos,ITEM Repo.
+41,2 translate,produce,item_do,text,Satellite spawn of fresh orch; not resume of dying window.,One behavior.
+42,2 translate,produce,item_must_not,text,ballot; extra grok.exe worker; --continue dying sid; USPTO; second Core; LiT write; 112x MOTIF,Must not.
+43,2 translate,produce,item_return,text,unified diff first,Return shape.
+44,2 translate,produce,route,enum,coding,coding|CURSOR|DOM. Cursor is Task route not Agent. Research=DOM not Gitur.
+45,2 translate,invariant,agent_forbids,text,"Cursor, Claude, Sonnet, grok.exe, prepaid-orch flood",SOP + class 2.
+46,2 translate,produce,set_id,text,wish-13-womb,Shared prompt set for the crew.
+47,2 translate,produce,kind,enum,wish,wish|resurrect|heroab|create|voice|email|restate.
+48,2 translate,produce,n,int,13,Board index.
+49,3 drop,produce,wo_path,path,V:\A\Ai\COSMOS\work_orders\drop\wo-luna-wombat-13.json,Inbox.
+50,3 drop,produce,write_path,path,V:\A\Ai\COSMOS\live\work\orders\wish-13-womb\out\proposals\out.json,Only write surface.
+51,3 drop,produce,state,enum,PENDING,PENDING→DROPPED→PICKED→DONE→CHECKED→COMPLETED. Never collapse DONE into COMPLETED.
+52,3 drop,produce,folder,enum,drop,drop|bucket|picked|assigned|failed|completed.
+53,3 drop,produce,fifo_ts,text,2026-09-23T18:41:41-05:00,Sort key.
+54,3 drop,need,PAUSE.flag,enum,RUNNING,"If PAUSED, runner does not pick."
+55,3 drop,need,tree_id,text,KMesh-COSMOS-live,Occupancy.
+56,4 ingest,produce,state_after_ingest,enum,DROPPED,Bucket record.
+57,4 ingest,produce,bucket_path,path,V:\A\Ai\COSMOS\live\state\work_orders\bucket,Live inbox.
+58,5 spawn,need,role,text,You write a proposed patch (unified diff). You do not merge. You do not hold the COSMOS live-tree pen. First line is NONE or a diff --git hunk.,Layer 1 sentence. Empty enum after defaults = refuse.
+59,5 spawn,need,role_enum,enum,CODER,ORC|WOMBAT|CODER|JUDGE|CCR|DAEMON.
+60,5 spawn,need,model,text,nex-agi/nex-n2.5-mini:free,Layer 2. Empty = refuse.
+61,5 spawn,need,family,text,OpenRouter,Agent part 1. Swiss cheese: crew families must differ enough to punch different holes.
+62,5 spawn,need,clade,text,Nex,Agent part 2.
+63,5 spawn,need,version,text,nex-agi/nex-n2.5-mini:free,Named pin.
+64,5 spawn,need,harness_kind,enum,coding,orch|board|review|coding|dispose.
+65,5 spawn,need,harness_via,text,OpenRouterRail.dispatch named pin,"Full command line, not a nickname. Not extra grok.exe."
+66,5 spawn,need,wrapper,text,"role=CODER; pen=none; propose_only=true; merge=false; first_line=NONE|diff --git; wrap=What is the intent, and the best execution of this intent?; isolated_worktree=true","Layer 4 FULL text, not a path."
+67,5 spawn,need,skill,text,None extra.,Layer 5. The sentence is the value.
+68,5 spawn,need,tools_allow,text,"Read, Glob, Grep, Bash in worktree",Layer 6 then kind-gate.
+69,5 spawn,need,tools_forbid,text,"git_push, git_merge, grok.exe, LiT write, USPTO, CCR.lease, apply_patch on LiT",Kind-gate.
+70,5 spawn,need,cwd,path,V:\A\Ai\COSMOS\live\work\openrouter\hero-coder-nexmini,Isolated worktree.
+71,5 spawn,need,sandbox,enum,worktree,WRITE-PRIVATE. Requested policy.
+72,5 spawn,produce,sandbox_measured,text,UNMEASURED,"Codex 0.147 Windows may stamp read-only anyway. Measure, don't assume argv."
+73,5 spawn,need,wallet,path,V:\A\Ai\COSMOS\live\config\openrouter_api_key.txt,Path only. Never print key.
+74,5 spawn,need,hero_pack,path,V:\A\Ai\COSMOS\work_orders\ccr\hero_coders\13_nexmini,No DUD = no HERO = no spawn.
+75,5 spawn,need,hero_pack_ref,text,13_nexmini,Short id.
+76,5 spawn,need,pen,enum,none,CCr holds LiT pen.
+77,5 spawn,need,propose_only,bool,True,P10 by mechanism.
+78,5 spawn,need,merge,bool,False,Do not merge.
+79,5 spawn,need,lit_write,bool,False,Boxes only until CCr.
+80,5 spawn,need,write_private,bool,True,Physically only Output.
+81,5 spawn,need,isolated_worktree,bool,True,Not LiT main.
+82,5 spawn,need,service_tier,enum,flex,Luna :floor. Do not retap SOL/non-flex.
+83,5 spawn,need,ephemeral,bool,True,Codex: --ephemeral. Do not resume old thread.
+84,5 spawn,need,ignore_user_config,bool,False,Codex 0.147: never --ignore-user-config.
+85,5 spawn,need,thinking,text,n/a this seat,GF38: medium never HIGH.
+86,5 spawn,need,pack,enum,house,house if ctx<400k else fat. Fat only if EVERY seat can take it.
+87,5 spawn,produce,state_after_pickup,enum,PICKED,Runner created the agent.
+88,5 spawn,produce,session_id,text,UNMEASURED,New sid per spawn.
+89,5 spawn,produce,legend_hash,hash,2d7703fe8ba92a525c2d0c5a94a45526a60e9f896e7a0dbf9349a19922988dd6,Seven layers as applied.
+90,5 spawn,produce,sku_bound,text,UNMEASURED,"If runtime SKU ≠ model field, stop."
+91,5 spawn,need,pin_status,enum,PINNED,REFUSED before HTTP if not in PINNED.
+92,5 spawn,invariant,subagent_new_legend,bool,True,Child gets full 7 layers. Not a thinner copy.
+93,5 spawn,invariant,warn3,text,grok.exe; concat CTX; two heads; Judge on empty WOMB,×3 then refuse.
+94,6 preload,need,prefix_path,path,V:\A\Ai\COSMOS\docs\PROMPT_CACHE.md,"Static first. CREW/IN/PREFIX.md named, missing on disk."
+95,6 preload,need,cache_rule_path,path,,"Named in SOP. Missing = empty cell, not a fake path."
+96,6 preload,need,frozen_in_prefix,bool,True,PREFIX + CACHE_RULE + frozen statement. Stage instruction is tail.
+97,6 preload,need,naked_first,bool,False,Naked first query is out of SOP.
+98,6 preload,need,P11_no_dates,bool,True,"No dates, UUIDs, WO ids, timestamps in PREFIX."
+99,6 preload,need,cache_prefix,text,legend+WRAP+STYLE+SKILL,Not WOMBAT notes. Not scars. Not Task.
+100,6 preload,need,cache_ttl_s,int,1800,30m sliding. Bad output: rerun on hot cache before it dies.
+101,6 preload,need,cache_floor_tokens,int,1024,Luna 1024. GF38 4096. Ling 262144 never CACHE_FAT.
+102,6 preload,need,prompt_cache_key,text,policy:v2,Routing affinity only. Never request id.
+103,6 preload,produce,prefix_hash,hash,809e3387b3a7e6111c2660faa68a17ecdefdd0fce08f3157f4045ccb06536f64,Exact bytes. Similarity does not cache.
+104,6 preload,produce,cached_tokens,tokens,0,Measure. Claimed hit without this is fabricated.
+105,6 preload,produce,cache_write_tokens,tokens,0,When vendor sends it.
+106,6 preload,produce,prompt_tokens,tokens,0,"After preload, before MAX."
+107,6 preload,produce,prompt_sha,hash,3b6130b1ca7bf4b353fc3c5dcc2374ddd2ec4376bf7d82700c28582c6d5ec5ff,sha256 of Task. Stable stage-1.
+108,6 preload,produce,prompt_hash,hash,b1cd835c76337ac4c3339357ad09cd32f26e524c60217ee23e3c3408a3ce6422,sha256 of drop file.
+109,6 preload,need,item_tail,text,Frozen AUTO_RESESSION bite: satellite fresh orch; not -c dying window.,Volatile only.
+110,7 size,need,window_tokens,tokens,262000,Seat window.
+111,7 size,need,margin_frac,float,0.2,Thinking + error.
+112,7 size,produce,MAX_tokens,tokens,209600,window-(cache+prompts)-0.20*window. Never 0. Never float. <=0 refuse.
+113,7 size,produce,OPTIMUM_tokens,text,float,Aim. Expected+headroom or float. Never 0. Shoot OPTIMUM; obey MAX.
+114,7 size,produce,cap_tokens,tokens,209600,API max_tokens = MAX every spawn. Never bake 2k/4k/8k.
+115,7 size,need,keep_in_tokens_under,tokens,200000,xAI 2× surcharge above 200k. Cheaper new session.
+116,7 size,need,budget_out_usd_per_m,money,0.1,GAC: Luna Flex 0.10/0.60 and under unless Keith names quality.
+117,7 size,invariant,size_after_preload,bool,True,"Write preload FIRST, then MAX, then spawn."
+118,8 crew,need,CREW_SIZE,int,3,This desk: 3. Swiss cheese: different families.
+119,8 crew,need,crew_mix,text,2 :free + 1 paid-low,Not free-vs-free only.
+120,8 crew,need,crew1.Agent,text,OpenRouter | Nex | nex-agi/nex-n2.5-mini:free,Seat 1.
+121,8 crew,need,crew1.tier,enum,free,free|paid-low.
+122,8 crew,need,crew1.window,tokens,262000,Number.
+123,8 crew,need,crew1.MAX,tokens,209600,Number.
+124,8 crew,need,crew1.OPTIMUM,text,float,Never 0.
+125,8 crew,need,crew1.tps,float,49,Measured.
+126,8 crew,need,crew1.latency_s,float,0.864,Measured.
+127,8 crew,need,crew1.in_usd_per_m,money,0.025,Number.
+128,8 crew,need,crew1.out_usd_per_m,money,0.1,Number.
+129,8 crew,need,crew1.timeout_s,int,900,Number.
+130,8 crew,need,crew1.pack_path,path,V:\A\Ai\COSMOS\work_orders\ccr\hero_coders\13_nexmini,Abs.
+131,8 crew,need,crew1.pin_status,enum,PINNED,ACTIVE.
+132,8 crew,need,crew1.mouth_form_ok,bool,True,Ping first line NONE.
+133,8 crew,need,crew2.Agent,text,OpenRouter | North | cohere/north-mini-code:free,Seat 2.
+134,8 crew,need,crew2.tier,enum,free,Second :free; mix saved by seat 3.
+135,8 crew,need,crew2.window,tokens,256000,Number.
+136,8 crew,need,crew2.MAX,tokens,204800,Number.
+137,8 crew,need,crew2.OPTIMUM,text,float,Never 0.
+138,8 crew,need,crew2.tps,float,58,Measured.
+139,8 crew,need,crew2.latency_s,float,0.617,Measured.
+140,8 crew,need,crew2.in_usd_per_m,money,0.0,Number.
+141,8 crew,need,crew2.out_usd_per_m,money,0.0,Number.
+142,8 crew,need,crew2.timeout_s,int,900,Number.
+143,8 crew,need,crew2.pack_path,path,V:\A\Ai\COSMOS\work_orders\ccr\hero_coders\09_northmini,Abs.
+144,8 crew,need,crew2.pin_status,enum,PINNED,ACTIVE.
+145,8 crew,need,crew2.mouth_form_ok,bool,True,Full-pack ping NONE.
+146,8 crew,need,crew3.Agent,text,OpenRouter | Hy3 | tencent/hy3-preview,paid-low. Not tencent/hy3.
+147,8 crew,need,crew3.tier,enum,paid-low,Required mix.
+148,8 crew,need,crew3.window,tokens,262000,Number.
+149,8 crew,need,crew3.MAX,tokens,209600,Number.
+150,8 crew,need,crew3.OPTIMUM,text,float,Never 0.
+151,8 crew,need,crew3.tps,float,69,Measured.
+152,8 crew,need,crew3.latency_s,float,4.3,Measured.
+153,8 crew,need,crew3.in_usd_per_m,money,0.18,Number.
+154,8 crew,need,crew3.out_usd_per_m,money,0.6,Number.
+155,8 crew,need,crew3.timeout_s,int,900,Number.
+156,8 crew,need,crew3.pack_path,path,V:\A\Ai\COSMOS\work_orders\ccr\hero_coders\07_hy3preview,Abs.
+157,8 crew,need,crew3.pin_status,enum,PINNED,hy3-preview pinned; tencent/hy3 REFUSED.
+158,8 crew,need,crew3.mouth_form_ok,bool,False,"S-156 class 6: 200+SKU, preamble not NONE. Not coder-ACTIVE."
+159,8 crew,need,first_line,enum,NONE | diff --git,Coder. WOMBAT=ITEM|NONE. Judge=KEEP|DROP|NONE|HOLD|UNMEASURED.
+160,8 crew,need,axis,text,coding,Pair-pick axis. Stations also quality_per_cost.
+161,8 crew,need,gac_line,text,Luna Flex 0.10/0.60 and under,Unless Keith names quality.
+162,8 crew,invariant,same_task_no_peek,bool,True,Crew shares Task text. No shared context between mouths.
+163,9 product,produce,mouth_bytes,text,UNMEASURED,Until run.
+164,9 product,produce,first_line_ok,bool,UNMEASURED,Must match expected_form.
+165,9 product,produce,spend,money,UNMEASURED,Ledger after call. Never quote the pre-run estimate.
+166,9 product,produce,DONE,bool,False,Output file exists. Not COMPLETED.
+167,9 product,produce,output_path,path,UNMEASURED,Abs after write.
+168,9 product,produce,output_hash,hash,UNMEASURED,sha256 of Output. Fat = path+hash not 2MB cell.
+169,9 product,produce,empty_output_class,enum,UNMEASURED,1 stating-the-problem | 2 choosing-the-agent | 3 prompt | 4 follow-up.
+170,9 product,invariant,empty_output_is_wombat,bool,True,Not 'the model failed'. Classify 1–4. Do not as-is retry.
+171,10 4Cs,produce,cpu_py_compile,enum,UNMEASURED,PASS|FAIL|MISSING|NO_CODE.
+172,10 4Cs,produce,cpu_ruff,enum,UNMEASURED,PASS|FAIL|MISSING|NO_CODE.
+173,10 4Cs,produce,cpu_mypy,enum,UNMEASURED,PASS|FAIL|MISSING|NO_CODE.
+174,10 4Cs,produce,cpu_pytest,enum,UNMEASURED,PASS|FAIL|NO_TESTS.
+175,10 4Cs,produce,4C,enum,UNMEASURED,Blocks Judge on FAIL/MISSING.
+176,10 4Cs,need,split_diffs,bool,True,"Check each file body, not the unified diff as reply.py."
+177,11 gitur,need,lane_b,text,CURSOR in Task not Agent,"Parallel builder, same Task, no peek. Composer 2.5 refused."
+178,11 gitur,need,one_job_one_pr,bool,True,From origin/main. autoCreatePR. Must commit.
+179,11 gitur,need,unique_head_gate,bool,True,Gitur proposes on main; do not restore unique-head.
+180,11 gitur,produce,gitur_pr,text,UNMEASURED,Open PR. Do not merge.
+181,11 gitur,produce,checks.github,enum,UNMEASURED,Missing rail never fake green.
+182,11 gitur,produce,checks.gitlab,enum,UNMEASURED,CI is the gate runner.
+183,11 gitur,need,skip_gitur_if,enum,not BUILD,RESEARCH = DOM rails. Skip Gitur.
+184,12 judge,need,JUDGE_FLOOR,int,30,30 complete 4C sets. n_board<20 do not sit.
+185,12 judge,need,n_board,int,44,Latched drops now.
+186,12 judge,need,judge_first_line,enum,KEEP | DROP | NONE | HOLD | UNMEASURED,Not coder form.
+187,12 judge,need,one_judge_per_run,bool,True,One fat prefix for the whole run.
+188,12 judge,need,judge_family_differs,bool,True,Judge family ≠ coder family when possible.
+189,12 judge,produce,verdict,enum,UNMEASURED,KEEP|DROP|NONE|HOLD|UNMEASURED.
+190,12 judge,produce,judge_score_hero,float,UNMEASURED,Do not invent 0.
+191,12 judge,produce,judge_score_base,float,UNMEASURED,AB only.
+192,12 judge,produce,judge_winner,enum,PENDING,hero|base|tie only when recorded.
+193,12 judge,need,ab_pair_id,text,,Empty unless AB.
+194,12 judge,need,arm,enum,,hero|base or empty.
+195,12 judge,need,FINAL_FLOOR,int,10,Final auditor after 10 KEEPs.
+196,12 judge,need,needs_second_judge,bool,False,Default one Judge.
+197,13 verdict,produce,Verdict.status,enum,pending,"applied|rejected|pending. One, overwrite."
+198,13 verdict,produce,Verdict.reason,text,UNMEASURED,One line.
+199,13 verdict,produce,Verdict.objection,text,UNMEASURED,Rejected: file+line+fix. Voice-correctable.
+200,13 verdict,produce,Verdict.timestamp,text,UNMEASURED,ISO.
+201,13 verdict,produce,Comparison,text,UNMEASURED,Optional. Does not replace Lane B.
+202,14 fail,need,hot_cache_ttl_s,int,1800,Rerun bad on hot cache or partner. Do not burn a new prefix if warm.
+203,14 fail,produce,wo_partner,text,UNMEASURED,Silent fail of A always autopsies B.
+204,14 fail,produce,follow_up_oid,text,UNMEASURED,"New six-field, new prompt. Never corpse retry."
+205,14 fail,produce,xfer,enum,UNMEASURED,superseded|partner|gitur|GAC|superseded_wd2.
+206,14 fail,produce,xform,text,UNMEASURED,Reprompt TAIL only. Do not rewrite PREFIX.
+207,14 fail,produce,STYLE_append,text,UNMEASURED,Model quirk tail. Not PREFIX. Not WOMBAT notes copied onto coder.
+208,14 fail,produce,reattempt,bool,False,N+1 never UPDATE.
+209,14 fail,produce,rejected,bool,False,Student.
+210,14 fail,produce,fail_kind,text,,Empty until FAIL.
+211,14 fail,produce,corpse_on_womb,bool,False,Board = bucket+picked only.
+212,14 fail,produce,fulfill_or_restate,enum,UNMEASURED,(1) prove full GET/test/file+line or (2) restate + two GAC + new prompt.
+213,14 fail,need,HOLD_never_self_clears,bool,True,PAUSE/HOLD is human.
+214,15 student,need,job,text,AUTO-RESESSION,Short name.
+215,15 student,need,chair,enum,WOMBAT,WOMBAT|CODER|JUDGE|ORC|CCR.
+216,15 student,produce,attempt,int,0,N. Regrade N+1 never UPDATE.
+217,15 student,produce,parent_attempt,text,UNMEASURED,Prior id.
+218,15 student,produce,preload_hash,hash,UNMEASURED,Prefix as applied this spawn.
+219,15 student,produce,grader,text,UNMEASURED,model + chair. CCr does not grade.
+220,15 student,produce,verdict_score,float,UNMEASURED,Not 0 for missing.
+221,15 student,produce,stamps,text,UNMEASURED,Not a verified badge instead of content.
+222,15 student,need,attempt_store,path,V:\A\Ai\COSMOS\live\state\attempts\attempts.jsonl,Not porosity.sqlite. Not TOML.
+223,16 porosity,need,axis_tensor,text,coding,"Read T, do not rewrite."
+224,16 porosity,produce,n_obs,int,UNMEASURED,Empty store n=0 kind=UNMEASURED.
+225,16 porosity,produce,orth_sketch,float,UNMEASURED,(xor-cofail)*mean_err. Missing ≠ 0. Pick pair max orth min mag.
+226,16 porosity,produce,mag,float,UNMEASURED,freq*mean_err. kind=UNMEASURED until mag exists.
+227,16 porosity,produce,disagree,float,UNMEASURED,disagree_n/n.
+228,16 porosity,produce,error_mag,float,UNMEASURED,mean 1–10 hole.
+229,16 porosity,produce,cofail,float,UNMEASURED,P both wrong.
+230,16 porosity,produce,xor_err,float,UNMEASURED,P exactly one wrong.
+231,16 porosity,produce,rescue,float,UNMEASURED,P(j right | i wrong).
+232,16 porosity,produce,T_ija,text,UNMEASURED,tensors[agent][vs][axis].
+233,16 porosity,produce,C_ija,text,UNMEASURED,Complement. UNMEASURED until who_erred.
+234,16 porosity,produce,porosity_kind,enum,UNMEASURED,MEASURED|UNMEASURED.
+235,16 porosity,invariant,unmeasured_not_zero,bool,True,Never zero-fill mag/orth.
+236,17 CCr,need,pen_holder,enum,CCR,One writer. Lease.
+237,17 CCr,need,lease_name,text,CCR.lease,Presence is the write token. Not a spawn grant.
+238,17 CCr,produce,COMPLETED,bool,False,CCr accept after Judge. Agents never mark COMPLETED.
+239,17 CCr,produce,lit_applied,bool,False,Only after KEEP + accept.
+240,17 CCr,invariant,boxes_not_lit,text,"drop, ccr, proposals, attempts, live/work, _delme, open PR",Until CCr.
+241,17 CCr,invariant,USPTO,bool,False,Never from this chair.
+242,18 gate,need,gate_named,text,RESESSION.json + resession_heartbeat.json + clock 18,Copied from frozen_live_emit.
+243,18 gate,produce,gate_value,text,UNMEASURED,Quote the live-tree field. Never rc=0. Never green log.
+244,18 gate,produce,clock_18,text,COSMOS Resession cosmos_resession.py,F-51. --install-task still operator.
+245,18 gate,need,schtasks_logged_on,bool,True,V: is user-session volume. Not ONSTART.
+246,18 gate,need,one_orch_lease,bool,True,Satellite. Fail-closed.
+247,18 gate,need,resession_at_pack_frac,float,0.7,~70% pack. 90% or 'resession now' = end of session SOP.
+248,18 gate,need,resumed_from,text,UNMEASURED,RESESSION.json.resumed_from. Never earlier. Do not re-dispatch SEED.inflight.
+249,19 close,need,gate_pass,bool,False,Until live emit.
+250,19 close,produce,wish_checkbox_after,enum,- [ ],Flips [x] only after gate.
+251,19 close,produce,next_outcome,enum,UNMEASURED,follow_up|superseded|judge|partner|closed.
+252,19 close,need,iteration,int,1,MOTIF 9 returns to stage 1. Not 6→9.
+253,19 close,need,contested,bool,False,"Consensus: both positions, one line to Keith. No third model auto-resolves."
+254,WOMBAT only,need,wombat.first_line,enum,ITEM | NONE,Not KEEP/DROP. Not diff.
+255,WOMBAT only,need,wombat.output_what,enum,no_prose,JSON board rows.
+256,WOMBAT only,need,wombat.window,tokens,1100000,Luna 6.
+257,WOMBAT only,need,wombat.MAX_ceiling,tokens,880000,0.8*window if cache+prompt 0.
+258,WOMBAT only,need,nex.prompting_notes,text,First line NONE or diff --git. Named pin. Pair :free with paid-low.,When writing Task. Not crew cell. Not cache_prefix.
+259,WOMBAT only,need,nex.scar,text,S-156 this slug ACTIVE. Gemma/Qwen :free 429 is upstream pool not our cap.,Authoring.
+260,WOMBAT only,need,north.prompting_notes,text,First line NONE or diff --git. Full-pack ping returned NONE.,Authoring.
+261,WOMBAT only,need,north.scar,text,S-156 ACTIVE. Same 429-class split.,Authoring.
+262,WOMBAT only,need,hy3.prompting_notes,text,First line MUST be NONE. Mouth prepends CoT. Slug hy3-preview not hy3.,Authoring.
+263,WOMBAT only,need,hy3.scar,text,S-156 class 6 mouth form. Class 2 pin hole is tencent/hy3.,Authoring.
+264,WOMBAT only,invariant,pointer_as_cell,bool,False,<pointer> [read*] see docs n/a UNASSIGNED verified-stamp = empty.
+265,WOMBAT only,invariant,content_type_stamp,bool,False,Do not stamp content_type as a fake cell.
+266,WOMBAT only,invariant,notes_not_coder_prefix,bool,True,WOMBAT notes/scars never enter coder AGENTS/STYLE/cache_prefix.

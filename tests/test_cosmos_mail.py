@@ -214,6 +214,19 @@ def f55_checks(td: Path) -> None:
     LIVE_VALUE["fenced_events"] = ev
     LIVE_VALUE["chain_head"] = by[y]["msg_sha256"]
 
+    split_ok = False
+    try:
+        Mailbox(Path(r"V:\A\Ai\COSMOS\live\state\mail"), "gbot")
+    except MailError as e:
+        split_ok = e.kind == "SHARED_TREE"
+    except OSError:
+        split_ok = False
+    check("gbot writer on COSMOS live -> SHARED_TREE (split before share)",
+          lambda: split_ok)
+    tmp_gbot = Mailbox(td, "gbot")
+    check("gbot writer on a temp root is allowed (not COSMOS live)",
+          lambda: tmp_gbot.me == "gbot")
+
 
 def test_cosmos_mail():
     assert main() == 0

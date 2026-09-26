@@ -1,0 +1,98 @@
+[
+ {
+  "pr": 581,
+  "ok": true,
+  "done": true,
+  "model": "gpt-5-codex",
+  "verdict": "request-changes",
+  "summary": "Two hard failures make the feature unusable as submitted: the new module imports a nonexistent `cosmos_approval` module on startup, and both `accept()` and `reject()` import an undefined `assert_pen` symbol from `cosmos_ccr`. There is also a state-machine bug where reproposing the same content-addressed SHA resets it to `PROPOSED`, defeating the intended one-decision-per-SHA behavior.",
+  "n_findings": 3,
+  "usage": {
+   "input_tokens": 380676,
+   "cached_input_tokens": 290688,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 9350,
+   "reasoning_output_tokens": 7505
+  }
+ },
+ {
+  "pr": 582,
+  "ok": true,
+  "done": true,
+  "model": "gpt-5",
+  "verdict": "request-changes",
+  "summary": "Two hardline-policy bypasses are present: path traversal escapes the `_delme` delete exception, and `http` exfiltration of key material is not recognized as HARDLINE.",
+  "n_findings": 2,
+  "usage": {
+   "input_tokens": 135926,
+   "cached_input_tokens": 124928,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 5332,
+   "reasoning_output_tokens": 4389
+  }
+ },
+ {
+  "pr": 583,
+  "ok": true,
+  "done": true,
+  "model": "gpt-5-codex",
+  "verdict": "request-changes",
+  "summary": "The new module captures delegation facts in the ledger, but the key limits are not actually enforced on child execution, and there are two concurrency bugs around reservation/grant timing. `sweep_stale()` also has broader side effects than its API suggests.",
+  "n_findings": 4,
+  "usage": {
+   "input_tokens": 400367,
+   "cached_input_tokens": 342400,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 7879,
+   "reasoning_output_tokens": 4514
+  }
+ },
+ {
+  "pr": 584,
+  "ok": true,
+  "done": true,
+  "model": "gpt-5",
+  "verdict": "request-changes",
+  "summary": "The recall index is not yet safe to ship: it currently indexes conversation records that the authoritative convo fold would reject, and its rebuild hash does not cover all stored session fields.",
+  "n_findings": 2,
+  "usage": {
+   "input_tokens": 303479,
+   "cached_input_tokens": 236800,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 7470,
+   "reasoning_output_tokens": 5765
+  }
+ },
+ {
+  "pr": 585,
+  "ok": true,
+  "done": true,
+  "model": "gpt-5-codex",
+  "verdict": "request-changes",
+  "summary": "The new file is close, but the PR is incomplete and currently misreports some failure modes: the recall standup is not wired into the existing own-clocks dispatcher, `--standup` exits successfully on elevation refusal, and the `--once` path leaves several expected setup/ledger failures uncaught.",
+  "n_findings": 3,
+  "usage": {
+   "input_tokens": 827987,
+   "cached_input_tokens": 718848,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 8352,
+   "reasoning_output_tokens": 3951
+  }
+ },
+ {
+  "pr": 586,
+  "ok": true,
+  "done": true,
+  "model": "gpt-5-codex",
+  "verdict": "request-changes",
+  "summary": "The new module has a real atomicity bug around `prev_action_sha`, plus two verification-path gaps: GET refusal handling is incomplete, and SoD is only enforced on write, not on verification.",
+  "n_findings": 3,
+  "usage": {
+   "input_tokens": 474147,
+   "cached_input_tokens": 390272,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 6770,
+   "reasoning_output_tokens": 4553
+  }
+ }
+]

@@ -188,7 +188,7 @@ def test_verdict():
     rec["fail_kind"] = "FAILED"
     rec["fail_detail"] = "Output file missing or empty"
     rec["output_exists"] = False
-    stamp_verdict(rec)
+    # emit_verdict stamps. A pre-stamp would hide the pending→rejected change.
     fail_e = emit_verdict(rec, paths=paths, github=True, notify=True, dry_run=True,
                           getter=getter, putter=putter, poster=poster)
     check("FAILED dry event is verdict_changed rejected",

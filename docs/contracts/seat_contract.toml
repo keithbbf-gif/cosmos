@@ -1,0 +1,148 @@
+# CONTRACTS — seat bus (cDeck ORC CHAT)  —  DRAFT
+#
+# Same shape as docs/contracts/*.toml. Each invariant exists because its absence
+# already cost COSMOS something: Cowork coding the live tree while it held the
+# orch seat (docs/ORCH_SEAT.md "What broke"), the BTS two-writer deletion scar,
+# and dual-lane builders reading each other before submitting.
+# Evidence paths point at the DRAFT module in this folder. On adoption they move
+# to cosmos/cosmos_seat.py and tests/test_seat.py.
+
+schema = "cosmos-contracts/1"
+subsystem = "seat"
+
+[[contract]]
+id = "seat.orc_has_no_pen"
+statement = """
+An ORC seat - native, OpenWork or Cowork - never writes the COSMOS live tree.
+The only write it can request is a work-order proposal inside its own lane
+namespace (work_orders/ccr/{stream}/{lane}/), confirmed with a single-use nonce.
+CCr disposes. P9/P10, AGENT_BOUNDARIES items 1, 2, 12."""
+severity = "high"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos_seat_draft.py"
+  must_contain = "PEN_REFUSED"
+
+  [[contract.evidence]]
+  kind = "test"
+  file = "cosmos_seat_draft.py"
+  must_contain = "ORC seat has no pen: cosmos/ target REFUSES"
+
+[[contract]]
+id = "seat.every_lane_is_a_lease"
+statement = """
+A lane is seated only while it holds an Arbiter lease seat:{stream}:{lane} with a
+TTL and a monotonic fencing token. A reply carrying a superseded token is
+refused. A dead occupant stops blocking when its lease expires - no cleanup
+discipline, no permanent wedge."""
+severity = "high"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos_seat_draft.py"
+  must_contain = "self.arbiter.acquire(f\"seat:{stream}:{lane}\""
+
+  [[contract.evidence]]
+  kind = "test"
+  file = "cosmos_seat_draft.py"
+  must_contain = "a reply with a stale token REFUSES"
+
+[[contract]]
+id = "seat.parallel_replies_are_sealed"
+statement = """
+In PARALLEL mode no lane sees another lane's answer before submitting its own.
+Replies are sealed until every target has answered or the deadline passes, then
+revealed together; a missing lane is typed NO_REPLY. Lane conversations are
+owner-scoped. docs/ADVERSARIAL_LOOP.md: neither lane may read the other's output
+before submitting its own."""
+severity = "high"
+
+  [[contract.evidence]]
+  kind = "test"
+  file = "cosmos_seat_draft.py"
+  must_contain = "compare before OpenWork answers is SEALED"
+
+  [[contract.evidence]]
+  kind = "test"
+  file = "cosmos_seat_draft.py"
+  must_contain = "OpenWork cannot read the native lane"
+
+[[contract]]
+id = "seat.no_silent_fallback"
+statement = """
+A turn aimed at a lane that is unseated, expired, or has no live host is a typed
+refusal on THAT lane, recorded on the ledger. It is never quietly re-routed to
+another vendor. Re-routing is an explicit Captain act."""
+severity = "high"
+
+  [[contract.evidence]]
+  kind = "test"
+  file = "cosmos_seat_draft.py"
+  must_contain = "dead OpenWork: typed NO_HOST on that lane, no silent fallback"
+
+[[contract]]
+id = "seat.reply_names_the_model_that_answered"
+statement = """
+Every assistant reply records the model named in the vendor's own response, not
+the model that was requested. A reply without one is refused. Runtime binding on
+the chat's own mouth - CLAUDE.md "No fabricated compliance"."""
+severity = "high"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos_seat_draft.py"
+  must_contain = "reply must name the model that answered"
+
+[[contract]]
+id = "seat.cowork_is_dark_by_default"
+statement = """
+The Cowork lane ships disabled. Enabling it is a Captain policy change, because
+Cowork-return is a contingency (AGENT_BOUNDARIES item 10) and Core dispatch stays
+ANTHROPIC_OFF. The lane never calls a vendor API itself: Cowork, if enabled,
+reaches COSMOS through MCP tools under its own folder grant."""
+severity = "medium"
+
+  [[contract.evidence]]
+  kind = "test"
+  file = "cosmos_seat_draft.py"
+  must_contain = "Cowork is dark by default (LANE_DISABLED)"
+
+[[contract]]
+id = "seat.legal_not_on_this_deck"
+statement = """
+The legal stream never renders or routes on the Cm deck. It stays with GFO and
+the Captain. One stream, one root."""
+severity = "high"
+
+  [[contract.evidence]]
+  kind = "test"
+  file = "cosmos_seat_draft.py"
+  must_contain = "legal is not on this deck (STREAM_REFUSED)"
+
+[[contract]]
+id = "seat.consequential_needs_confirm"
+statement = """
+Mode changes and work-order proposals require a server-issued, single-use,
+short-lived nonce. Only its sha256 is on the ledger. A replayed nonce refuses."""
+severity = "medium"
+
+  [[contract.evidence]]
+  kind = "test"
+  file = "cosmos_seat_draft.py"
+  must_contain = "a used nonce cannot be replayed (BAD_CONFIRM)"
+
+[[contract]]
+id = "seat.loopback_is_not_identity"
+statement = """
+PREREQUISITE, not implemented by the draft: the chat routes must not ship until
+Core stops treating any 127.0.0.1 peer as authenticated
+(REVIEW_NOTES.md finding #1). A web page in the Captain's browser must not be
+able to seat a lane, change a mode, or propose a work order."""
+severity = "high"
+
+  [[contract.evidence]]
+  kind = "prose"
+  file = "../../COSMOS_CLAUDE_REVIEW_2026-09-17/cosmos/cosmos_service.py"
+  must_not_contain = "if _is_loopback_peer(peer):\n        return True"
+  why = "the loopback bypass that makes every POST reachable by CSRF"
