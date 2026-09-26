@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>XTalk</title>
+  <link rel="stylesheet" href="xtalk.css"/>
+</head>
+<body>
+  <div class="xt-page" id="xtalk-standalone">
+    <header class="xt-hd">
+      <h1>XTALK</h1>
+      <span class="unmeasured" id="xtHonesty">UNMEASURED</span>
+      <span class="tiny dim" id="xtAge">GET /api/v1/xtalk · GET never mkdir</span>
+      <select id="xtBind" title="stream bind">
+        <option value="">local Core</option>
+        <option value="openwork">OpenWork (read-only)</option>
+      </select>
+    </header>
+    <div class="xt-bd">
+      <div class="xt-roles" id="xtRoles">roles unread</div>
+      <div class="tiny dim" id="xtVerify"></div>
+      <div class="xt-log" id="xtLog" role="log">
+        <div class="empty" id="xtEmpty">
+          <div>UNMEASURED</div>
+          <div class="hint">Standalone page. Same Core as cDeck. No iframe. Transport A is NOT_COMPOSED.</div>
+        </div>
+      </div>
+    </div>
+    <footer class="xt-composer">
+      <input id="xtFrom" value="captain" placeholder="from"/>
+      <select id="xtTo" title="target role from the fence">
+        <option value="orc">orc</option>
+      </select>
+      <textarea id="xtBody" maxlength="8000" placeholder="Message · Ctrl+Enter sends · POST /api/v1/xtalk"></textarea>
+      <button type="button" id="xtSend">Send</button>
+      <div class="xt-err" id="xtErr"></div>
+    </footer>
+  </div>
+  <script src="xtalk.js"></script>
+  <script>window.initXTalkStandalone();</script>
+</body>
+</html>

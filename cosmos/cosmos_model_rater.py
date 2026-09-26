@@ -154,7 +154,7 @@ LOCKED_SEATS = frozenset(
 SORT_KEYS = frozenset({
     "price", "blended", "intelligence", "coding", "agentic", "quality", "q",
     "intelligence_per_cost", "coding_per_cost", "agentic_per_cost",
-    "quality_per_cost", "porosity",
+    "quality_per_cost", "V", "porosity",
     "reasoning", "speed", "stability", "office", "file",
     "popularity", "recency", "created", "latency", "math",
     "gpqa", "hle", "ifbench", "tau2", "lcr", "gdpval", "critpt",
@@ -630,6 +630,8 @@ def _stamp_blend(row: dict) -> dict:
     row["blended_per_m"] = blend
     for axis in RATIO_AXES:
         row[f"{axis}_per_cost"] = _per_cost(row.get(axis), blend)
+    # Display only. V = Q/cost. Not an axis. Free/UNMEASURED Q → None.
+    row["V"] = row.get("quality_per_cost")
     return row
 
 
@@ -805,6 +807,8 @@ def save_catalog(paths, rec: dict) -> dict:
     d.mkdir(parents=True, exist_ok=True)
     catalog_path(paths).write_text(
         json.dumps(rec, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    from cosmos_run_spend import store_price_table
+    store_price_table(paths, rec)
     return rec
 
 
@@ -817,7 +821,7 @@ def refresh(paths, *, http=None) -> dict:
     keyp = key_path_for(paths, spec)
     if http is None and not read_key(keyp):
         raise ModelRaterError("NO_KEY", f"OpenRouter key missing at {keyp.name}")
-    rail = OpenRouterRail(keyp, spec, http=http)
+    rail = OpenRouterRail(keyp, spec, http=http, paths=paths)
     status, _hdrs, body = rail._call("GET", MODELS_PATH)
     if status in (401, 403):
         raise ModelRaterError("AUTH_REQUIRED", f"OpenRouter GET /models http={status}")
@@ -879,7 +883,7 @@ _AXIS_SORT = frozenset({
     "intelligence", "coding", "agentic", "quality", "q", "reasoning",
     "speed", "stability", "office", "file", "math", "popularity", "latency",
     "intelligence_per_cost", "coding_per_cost", "agentic_per_cost",
-    "quality_per_cost", "porosity",
+    "quality_per_cost", "V", "porosity",
     "gpqa", "hle", "ifbench", "tau2", "lcr", "gdpval", "critpt",
     "scicode", "terminal_bench", "omniscience", "omniscience_nh",
 })
@@ -1143,6 +1147,29 @@ def _unmeasured_complement() -> dict:
         "last_obs": {},
         "complement_kind": "UNMEASURED",
     }
+
+
+def _compare_pack(paths) -> dict:
+    """Vector comparison for seating. Does not invent. GET never mkdir."""
+    from cosmos_porosity import (
+        COMPARE_SCHEMA, SURFACE_AXES, compare_pack, obs_path,
+    )
+    if not obs_path(paths).is_file():
+        return {
+            "schema": COMPARE_SCHEMA,
+            "kind": "UNMEASURED",
+            "n_obs": 0,
+            "n_cells": 0,
+            "n_measured": 0,
+            "tensors_shape": (
+                "compare[i][j][axis][judge][mistake][size][complexity][difficulty]"
+            ),
+            "surface_axes": list(SURFACE_AXES),
+            "recommend_pair": {"kind": "UNMEASURED", "call": []},
+            "recommend_three": {"kind": "UNMEASURED", "call": []},
+            "top_pairs": [],
+        }
+    return compare_pack(paths)
 
 
 def complement_pack(paths) -> dict:
@@ -1654,6 +1681,7 @@ def snapshot(paths, *, sort="price", desc=False, type_name="", q="",
         "blend": {"in": BLEND_IN, "out": BLEND_OUT},
         "porosity": poro.get("federation") or default_porosity()["federation"],
         "complement": complement_pack(paths),
+        "compare": _compare_pack(paths),
         "bench_defs": [dict(a) for a in AXES_META if a.get("def")],
         "bench_cite": "openrouter.ai model Benchmarks tab · Artificial Analysis",
         "usage_cookbook": (
@@ -1902,6 +1930,9 @@ def _selftest() -> int:
           and office.get("intelligence_per_cost") == _per_cost(90.0, blend)
           and gem_free.get("blended_per_m") == 0
           and gem_free.get("quality_per_cost") is None)
+    check("V is Q/cost display, same as quality_per_cost; free stays UNMEASURED",
+          lambda: office.get("V") == office.get("quality_per_cost")
+          and gem_free.get("V") is None)
     check("porosity is UNMEASURED until an observation is recorded",
           lambda: snapshot(paths, limit=80)["models"][0].get("porosity") is None
           and snapshot(paths, limit=1)["porosity"]["kind"] == "NO_HOST")
@@ -1927,6 +1958,19 @@ def _selftest() -> int:
         )
     check("empty pair store is UNMEASURED and catalog GET does not mkdir",
           _empty_complement_ok)
+    def _empty_compare_ok():
+        rec = snapshot(paths, limit=1)
+        c = rec.get("compare") or {}
+        return (
+            c.get("kind") == "UNMEASURED"
+            and c.get("n_obs") == 0
+            and c.get("n_cells") == 0
+            and c.get("recommend_pair", {}).get("kind") == "UNMEASURED"
+            and c.get("recommend_three", {}).get("call") == []
+            and not (rec.get("complement") or {}).get("n_obs")
+        )
+    check("empty compare pack is UNMEASURED; judge stays an axis not a pool",
+          _empty_compare_ok)
     por = record_porosity(paths, "anthropic/claude-opus-5", 2.0, 10)
     check("porosity = loc_per_100 * severity; federation does not invent",
           lambda: por["last"]["porosity"] == 20.0

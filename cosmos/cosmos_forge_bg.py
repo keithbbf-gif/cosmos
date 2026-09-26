@@ -272,7 +272,7 @@ def worker_main(argv: list[str]) -> int:
     else:
         prompt = Path(ns.prompt).read_text(encoding="utf-8", errors="replace")
         paths = CosmosPaths(ns.root)
-        rail = OpenRouterRail(paths.config(KEY_NAME))
+        rail = OpenRouterRail(paths.config(KEY_NAME), paths=paths)
         ans = rail.dispatch(
             {"model": ns.model, "text": prompt, "max_tokens": 800,
              "stage": ns.stage, "profile": "forge"},
@@ -291,6 +291,8 @@ def worker_main(argv: list[str]) -> int:
             "tokens": usage.get("total_tokens"),
             "usage": usage,
         })
+        if isinstance(ans.get("fill_first"), dict):
+            rec["fill_first"] = ans["fill_first"]
     Path(ns.out).write_text(json.dumps(rec, indent=2) + "\n", encoding="utf-8")
     return 0 if rec.get("ok") else 1
 

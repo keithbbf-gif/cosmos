@@ -566,13 +566,15 @@ try:
     paths = CosmosPaths(ROOT)
     spec_p = paths.config("openrouter_rail.json")
     spec = load_spec(spec_p if spec_p.is_file() else None)
-    rail = OpenRouterRail(paths.config(KEY_NAME), spec)
+    rail = OpenRouterRail(paths.config(KEY_NAME), spec, paths=paths)
     rec = rail.dispatch({{
         "prompt": TASK,
         "model": MODEL,
         "max_tokens": 1024,
-    }})
+    }}, paths=paths)
     out["ok"] = bool(rec.get("ok"))
+    if isinstance(rec.get("fill_first"), dict):
+        out["fill_first"] = rec["fill_first"]
     out["http"] = rec.get("http")
     out["model"] = rec.get("model")
     out["text"] = rec.get("text") or ""

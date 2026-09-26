@@ -36,15 +36,21 @@ that omits what it serves is an undocumented surface, not a short one):
     GET /api/v1/model_rater - OpenRouter catalog + seat assignments (local cache)
                            ?type=docs = text out, text/file/image in (cards cut).
     GET /api/v1/model_rater/roles - named COSMOS roles (ORC, CCr, MOTIF, Crucible)
+    GET /api/v1/stations - wish depth, station seats, Judge rotation
+    GET /api/v1/ccr/duty - Gitur vs CCr steps, sync counts, next action. No merge.
+    GET /api/v1/openrouter/routing - saved :floor / :nitro / :exacto priority
+    GET /api/v1/head - chosen head and who owns each overlapping feature
     GET /api/v1/porosity - pairwise orthogonal porosity tensor T plus complement
                            tensor C (rescue / co-failure / XOR-error). Directed
                            grid tensors[agent][vs][axis] (agent_tensor). GET never
                            mkdir. UNMEASURED until a pair is observed. Does not invent.
-    GET /api/v1/womb/seat - DEFINE pair: high orth_sketch, low pair mag on
+    GET /api/v1/womb/seat - DEFINE pair: high orthogonality (alias
+                           orth_sketch / signed), low pair mag on
                            ?axis= (default coding) under GAC (completion
                            USD/1M ≤ $1). Reads T /5; does not rewrite math.
                            GET never mkdir. 404 UNMEASURED if no pair.
                            Never invents. SOL and non-flex Luna excluded.
+                           NaN/inf/negative budget_out is 400 BAD_INPUT.
     GET /api/v1/usage    - OpenRouter usage accounting fold (tokens/cost/cache).
                            GET never mkdir. UNMEASURED until a dispatch is recorded.
     GET /api/v1/gitur      - GitHub + GitLab + Cursor projection (rails + probe, no vendor poll)
@@ -73,11 +79,26 @@ that omits what it serves is an undocumented surface, not a short one):
                            fetches. Core does not call Perplexity API.
     GET /api/v1/orc        - ORC BootUP inspect (SEED vs running pointer).
                            GET never mkdir. Does not spawn OpenWork.
+    GET/POST /api/v1/pilot - Pilot transcript. GET never mkdir. POST appends
+                           one turn. Does not call a model. Does not write
+                           cosmos/ or the ledger tree (PEN_REFUSED).
+    GET /api/v1/womb/board - WOMB floor tail. GET never mkdir. Missing file
+                           is 200 UNMEASURED. Does not replace /womb/seat.
+    GET/POST /api/v1/seats /approvals /chamber /skills /temporal /sandbox
+                           /delegate /recall - 501 UNMEASURED. Not composed.
+    GET /api/v1/xtalk      - append-only agent stream fold (xtalk.jsonl).
+                           GET never mkdir. Missing file = UNMEASURED.
+                           Inbox is peek-only (?role=). ?bind=openwork reads
+                           the OpenWork research stream read-only. ?verify=1
+                           walks the hash chain. Not a second ledger.
     GET /api/v1/runs_ops   - Runs ops fold: watchdog, clocks, work orders,
                            streams, gitur, spend. GET never mutates.
     GET /api/v1/review     - HITL: spend approvals, blockers, required logins,
                            work-product catalog (day/week/month/90). GET never mutates.
     POST /api/v1/model_rater/refresh - pull models/rates from OpenRouter (TTL 24h)
+    POST /api/v1/stations - ORC wish append, seat from the rater, full board, CCrew release
+    POST /api/v1/openrouter/routing - set provider sort: off, floor, nitro, exacto
+    POST /api/v1/head - choose the head: cosmos, openwork, cowork, hermes, cursor
     POST /api/v1/model_rater/seat    - assign DEFAULT + fallbacks, via, effort, budget to a role
     POST /api/v1/model_rater/policy  - favored / banned models and families
                                        action=add|remove for N parallel adversarial coders
@@ -119,8 +140,11 @@ that omits what it serves is an undocumented surface, not a short one):
     POST /api/v1/session_tools - Sessions verbs (scan/load/convert/diff/check/
                            anonymize/crash-recover/strip/doi). Legal OMITTED.
                            GET never mutates. Original stays.
-    POST /api/v1/voice_loop - action=new_sop. Files a Voice DROP SOP name.
-                           GET never mutates.
+    POST /api/v1/voice_loop - action=new_sop files a Voice DROP SOP name.
+                           action=drop files one work order (parse_order +
+                           drop_order) from mouth android|voice|sgh. Does not
+                           run the agent. Does not delete GitHub. GET never
+                           mutates.
     POST /api/v1/research_call - action=call files the envelope; action=ingest
                            accepts the research-function JSON. Does not fetch.
     POST /api/v1/surfaces  - add/remove operator catalog rows (R2, Drive,
@@ -131,6 +155,10 @@ that omits what it serves is an undocumented surface, not a short one):
                            GET never runs a backup.
     POST /api/v1/orc       - {stream} TidyUP/TU2 recovery if partial, then
                            session start. Temp/Recovery closes. Does not spawn OpenWork.exe.
+    POST /api/v1/xtalk     - {from, to, body} Transport B append. Nonce is
+                           idempotent. Transport A (harness inject) is 501
+                           NOT_COMPOSED. Does not fake inject. Does not
+                           overwrite POST /api/v1/orc.
     POST /api/v1/makers  - add a maker entry (unknown kind REFUSES)
     POST /api/v1/command - the voice/frontend seam: text in, kernel action out
     POST /api/v1/voice   - the spoken turn (hardened + spend-gated; see below)
@@ -183,6 +211,11 @@ STATIC APP SHELL (PWA, no bearer - see _STATIC_ROUTES):
     GET / , /m , /mobile - the phone-first page (mobile is the road default)
     GET /dash            - the desktop KDash page
     GET /kdash_manifest.webmanifest , /kdash_sw.js - installability shell
+XTALK SHELL (standalone page, no bearer - see _XTALK_ROUTES):
+    GET /xtalk/          - builds/xtalk/index.html
+    GET /xtalk/xtalk.js  - page logic (same Core API as the cDeck tab)
+    GET /xtalk/xtalk.css
+
 CDECK SHELL (F-11, no bearer - see _CDECK_ROUTES):
     GET /cdeck           - 302 to /cdeck/ (so relative app.css/app.js resolve)
     GET /cdeck/          - builds/cdeck/ui/index.html
@@ -393,8 +426,14 @@ _CDECK_UI_FILES = (
     ("deck_studio.js", _CT_JS),
     ("deck_forge.js", _CT_JS),
     ("deck_gitur.js", _CT_JS),
+    ("deck_xtalk.js", _CT_JS),
+    ("deck_orc.js", _CT_JS),
+    ("deck_pilot.js", _CT_JS),
+    ("deck_womb.js", _CT_JS),
+    ("gitur_launch.js", _CT_JS),
     ("deck_backup.js", _CT_JS),
     ("deck_session_kit.js", _CT_JS),
+    ("deck_sessions_page.js", _CT_JS),
     ("deck_orders.js", _CT_JS),
     ("deck_sfx.js", _CT_JS),
     ("openwork.svg", _CT_SVG),
@@ -417,6 +456,17 @@ _CDECK_UI_NAMES = frozenset(n for n, _ct in _CDECK_UI_FILES)
 _CDECK_ROUTES = {"/cdeck/": ("index.html", _CT_HTML)}
 for _n, _ct in _CDECK_UI_FILES:
     _CDECK_ROUTES["/cdeck/" + _n] = (_n, _ct)
+
+# Standalone XTalk page (not cDeck chrome). Exact-match, no traversal.
+_XTALK_UI_FILES = (
+    ("index.html", _CT_HTML),
+    ("xtalk.js", _CT_JS),
+    ("xtalk.css", _CT_CSS),
+)
+_XTALK_UI_NAMES = frozenset(n for n, _ct in _XTALK_UI_FILES)
+_XTALK_ROUTES = {"/xtalk/": ("index.html", _CT_HTML)}
+for _n, _ct in _XTALK_UI_FILES:
+    _XTALK_ROUTES["/xtalk/" + _n] = (_n, _ct)
 
 
 _CDECK_PANEL_MOD = {
@@ -495,6 +545,21 @@ def _cdeck_file(name: str):
     from pathlib import Path as _P
     here = _P(__file__).resolve().parent
     ui = (here.parent / "builds" / "cdeck" / "ui").resolve()
+    cand = (ui / name).resolve()
+    try:
+        cand.relative_to(ui)
+    except ValueError:
+        return None
+    return cand if cand.is_file() else None
+
+
+def _xtalk_file(name: str):
+    """Resolve one allowlisted file under builds/xtalk/."""
+    if name not in _XTALK_UI_NAMES:
+        return None
+    from pathlib import Path as _P
+    here = _P(__file__).resolve().parent
+    ui = (here.parent / "builds" / "xtalk").resolve()
     cand = (ui / name).resolve()
     try:
         cand.relative_to(ui)
@@ -715,6 +780,33 @@ def _crucible_dispatchers(kernel, names) -> dict | None:
     return out or None
 
 
+# deck_orc.js already polls these. Typed absence, not a bare 404 and not a mkdir.
+_ORC_UNMEASURED = {
+    "/api/v1/seats": "SEATS_NOT_COMPOSED",
+    "/api/v1/approvals/pending": "APPROVALS_NOT_COMPOSED",
+    "/api/v1/approvals/grant": "APPROVALS_NOT_COMPOSED",
+    "/api/v1/approvals/deny": "APPROVALS_NOT_COMPOSED",
+    "/api/v1/chamber": "CHAMBER_NOT_COMPOSED",
+    "/api/v1/skills": "SKILLS_NOT_COMPOSED",
+    "/api/v1/temporal": "TEMPORAL_NOT_COMPOSED",
+    "/api/v1/sandbox": "SANDBOX_NOT_COMPOSED",
+    "/api/v1/delegate": "DELEGATE_NOT_COMPOSED",
+    "/api/v1/recall": "RECALL_NOT_COMPOSED",
+}
+
+
+def _orc_unmeasured(path: str) -> dict | None:
+    kind = _ORC_UNMEASURED.get(path)
+    if not kind:
+        return None
+    return {
+        "kind": "UNMEASURED",
+        "error": kind,
+        "path": path,
+        "note": "typed absence. GET never mkdir. Not CONN_CLOSED.",
+    }
+
+
 def make_handler(kernel: Kernel, token: str, open_access: bool = False):
     # ---- the safety seams, ONE instance each per handler class (2026-08-25).
     # State lives in config/ JSON files, so a restarted service keeps a kill
@@ -927,12 +1019,17 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
             if parsed.path == "/cdeck":
                 # trailing slash so relative href="app.css" stays under /cdeck/
                 return self._redirect("/cdeck/")
+            if parsed.path == "/xtalk":
+                return self._redirect("/xtalk/")
             route = _STATIC_ROUTES.get(parsed.path)
             if route is not None:
                 return self._send_static(*route)
             route = _CDECK_ROUTES.get(parsed.path)
             if route is not None:
                 return self._send_static(*route, finder=_cdeck_file)
+            route = _XTALK_ROUTES.get(parsed.path)
+            if route is not None:
+                return self._send_static(*route, finder=_xtalk_file)
             if parsed.path == "/kill":
                 # the browser-convenience OFF-SWITCH: no bearer (it can only
                 # reduce capability); the optional kill token still gates it.
@@ -966,8 +1063,8 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                 return self._send(200, {"measured_at": time.time(),
                                         "jobs": {j: v["st"] for j, v in st.items()}})
             if self.path == "/api/v1/health":
-                from cosmos_health import snapshot as health_snapshot
-                return self._send(200, health_snapshot(kernel))
+                from cosmos_health import HealthBoard
+                return self._send(200, HealthBoard(kernel).run())
             if self.path == "/api/v1/spend":
                 return self._send(200, kernel.spend.audit())
             if self.path == "/api/v1/tools":
@@ -1179,6 +1276,41 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                 rec["measured_at"] = time.time()
                 rec["tree_id"] = kernel.paths.sentinel.tree_id
                 return self._send(200, rec)
+            if parsed.path == "/api/v1/pilot":
+                from urllib.parse import parse_qs as _pilot_qs
+                from cosmos_pilot import PilotError, snapshot as pilot_snapshot
+                q = _pilot_qs(parsed.query)
+                try:
+                    rec = pilot_snapshot(
+                        kernel.paths,
+                        stream=(q.get("stream") or ["Cm"])[0],
+                        tail=int((q.get("tail") or ["80"])[0] or 80),
+                    )
+                except PilotError as e:
+                    return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
+                except ValueError as e:
+                    return self._send(400, {"error": "BAD_TAIL", "detail": str(e)[:200]})
+                rec["measured_at"] = time.time()
+                rec["tree_id"] = kernel.paths.sentinel.tree_id
+                return self._send(200, rec)
+            if parsed.path == "/api/v1/xtalk":
+                from urllib.parse import parse_qs as _xt_qs
+                from cosmos_xtalk import XTalkError, snapshot as xtalk_snapshot
+                q = _xt_qs(parsed.query)
+                try:
+                    rec = xtalk_snapshot(
+                        kernel.paths,
+                        role=(q.get("role") or [""])[0],
+                        tail=(q.get("tail") or ["40"])[0],
+                        bind=(q.get("bind") or [""])[0],
+                        verify=(q.get("verify") or [""])[0].lower() in (
+                            "1", "true", "yes"),
+                    )
+                except XTalkError as e:
+                    return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
+                rec["measured_at"] = time.time()
+                rec["tree_id"] = kernel.paths.sentinel.tree_id
+                return self._send(200, rec)
             if parsed.path == "/api/v1/runs_ops":
                 from cosmos_runs_ops import snapshot as runs_ops_snapshot
                 rec = runs_ops_snapshot(kernel)
@@ -1204,6 +1336,35 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                     )
                 except OrderError as e:
                     return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
+                rec["measured_at"] = time.time()
+                rec["tree_id"] = kernel.paths.sentinel.tree_id
+                return self._send(200, rec)
+            if parsed.path == "/api/v1/ccr/duty":
+                from cosmos_ccr_duty import report as ccr_duty_report
+                from cosmos_gitur import snapshot as gitur_snapshot
+                try:
+                    snap = gitur_snapshot(kernel)
+                except Exception:  # noqa: BLE001
+                    snap = None
+                rec = ccr_duty_report(kernel.paths, kernel.paths.root, gitur=snap)
+                rec["measured_at"] = time.time()
+                rec["tree_id"] = kernel.paths.sentinel.tree_id
+                return self._send(200, rec)
+            if parsed.path == "/api/v1/stations":
+                from cosmos_stations import snapshot as stations_snapshot
+                rec = stations_snapshot(kernel.paths)
+                rec["measured_at"] = time.time()
+                rec["tree_id"] = kernel.paths.sentinel.tree_id
+                return self._send(200, rec)
+            if parsed.path == "/api/v1/head":
+                from cosmos_head import load_head
+                rec = load_head(kernel.paths)
+                rec["measured_at"] = time.time()
+                rec["tree_id"] = kernel.paths.sentinel.tree_id
+                return self._send(200, rec)
+            if parsed.path == "/api/v1/openrouter/routing":
+                from cosmos_route_variant import load_routing
+                rec = load_routing(kernel.paths)
                 rec["measured_at"] = time.time()
                 rec["tree_id"] = kernel.paths.sentinel.tree_id
                 return self._send(200, rec)
@@ -1276,6 +1437,22 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                 if rec.get("kind") != "MEASURED":
                     return self._send(404, rec)
                 return self._send(200, rec)
+            if parsed.path == "/api/v1/womb/board":
+                from urllib.parse import parse_qs as _wb_qs
+                from cosmos_womb_board import WombBoardError, snapshot as womb_board_snapshot
+                q = _wb_qs(parsed.query)
+                try:
+                    rec = womb_board_snapshot(
+                        kernel.paths,
+                        tail=int((q.get("tail") or ["40"])[0] or 40),
+                    )
+                except WombBoardError as e:
+                    return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
+                except ValueError as e:
+                    return self._send(400, {"error": "BAD_TAIL", "detail": str(e)[:200]})
+                rec["measured_at"] = time.time()
+                rec["tree_id"] = kernel.paths.sentinel.tree_id
+                return self._send(200, rec)
             if parsed.path == "/api/v1/usage":
                 from cosmos_openrouter_rail import snapshot_usage
                 rec = snapshot_usage(kernel.paths)
@@ -1299,6 +1476,9 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                         "BAD_SNAPSHOT") else 500
                     return self._send(code, {"error": e.kind,
                                             "detail": str(e)[:300]})
+            stub = _orc_unmeasured(parsed.path)
+            if stub is not None:
+                return self._send(501, stub)
             return self._send(404, {"error": "NOT_FOUND", "path": self.path})
 
         def do_POST(self):                                            # noqa: N802
@@ -1929,7 +2109,8 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                     return self._send(400, {"error": "BAD_INPUT",
                                             "detail": "action=generation {id}"})
                 try:
-                    rail = OpenRouterRail(kernel.paths.config(KEY_NAME))
+                    rail = OpenRouterRail(
+                        kernel.paths.config(KEY_NAME), paths=kernel.paths)
                     rec = rail.fetch_generation(d.get("id") or d.get("generation_id") or "")
                     if rec.get("ok") and rec.get("usage_fold"):
                         record_usage(
@@ -2070,6 +2251,24 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                 except OrcBootError as e:
                     return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
                 rec["tree_id"] = kernel.paths.sentinel.tree_id
+                return self._send(200, rec)
+            if _wo_urlparse(self.path).path == "/api/v1/xtalk":
+                from cosmos_xtalk import XTalkError, send as xtalk_send
+                body = self._read_body()
+                if body is None:
+                    return
+                try:
+                    d = json.loads(body.decode("utf-8")) if body.strip() else {}
+                except Exception as e:  # noqa: BLE001
+                    return self._send(400, {"error": "BAD_REQUEST",
+                                            "detail": str(e)[:200]})
+                try:
+                    rec = xtalk_send(kernel.paths, d)
+                except XTalkError as e:
+                    code = 501 if e.kind == "NOT_COMPOSED" else 400
+                    return self._send(code, {"error": e.kind, "detail": str(e)[:300]})
+                rec["tree_id"] = kernel.paths.sentinel.tree_id
+                rec["measured_at"] = time.time()
                 return self._send(200, rec)
             if _wo_urlparse(self.path).path == "/api/v1/surfaces":
                 from cosmos_surfaces_kit import SurfacesKitError, save_surface
@@ -2230,6 +2429,65 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                     return self._send(400, {"error": "BAD_REQUEST",
                                             "detail": str(e)[:200]})
             _mr = _cvm_urlparse(self.path).path
+            if _mr in ("/api/v1/stations", "/api/v1/openrouter/routing",
+                       "/api/v1/head"):
+                body = self._read_body()
+                if body is None:
+                    return
+                try:
+                    d = json.loads(body.decode("utf-8")) if body.strip() else {}
+                except Exception as e:  # noqa: BLE001
+                    return self._send(400, {"error": "BAD_REQUEST",
+                                            "detail": str(e)[:200]})
+                if not isinstance(d, dict):
+                    return self._send(400, {"error": "BAD_REQUEST",
+                                            "detail": "body must be a JSON object"})
+                from cosmos_route_variant import RouteVariantError, set_routing
+                from cosmos_head import HeadError, set_head
+                from cosmos_stations import (
+                    StationError, append_wish, choose_ccrew, choose_station,
+                    file_board, pile_audit, release_ccrew, set_floors, set_rotation,
+                    set_wish_floor,
+                )
+                try:
+                    if _mr == "/api/v1/head":
+                        rec = set_head(kernel.paths, d.get("head") or "")
+                        return self._send(200, rec)
+                    if _mr == "/api/v1/openrouter/routing":
+                        rec = set_routing(kernel.paths, d.get("priority") or "")
+                        return self._send(200, rec)
+                    act = str(d.get("action") or "seat").strip().lower()
+                    if act == "wish":
+                        rec = append_wish(kernel.paths, d.get("wish") or "",
+                                          source=d.get("source") or "orc")
+                    elif act == "ccrew":
+                        rec = choose_ccrew(kernel.paths, models=d.get("models"),
+                                           routing=d.get("routing") or "")
+                    elif act == "board":
+                        rec = file_board(kernel.paths, d.get("board") or d)
+                    elif act == "release":
+                        rec = release_ccrew(kernel.paths, d.get("set_id") or "")
+                    elif act == "floor":
+                        rec = set_wish_floor(kernel.paths, d.get("wish_floor"))
+                    elif act == "rotation":
+                        rec = set_rotation(kernel.paths, d.get("models") or [])
+                    elif act == "floors":
+                        rec = set_floors(kernel.paths, d.get("floors") or d)
+                    elif act == "audit":
+                        rec = pile_audit(kernel.paths)
+                    else:
+                        rec = choose_station(
+                            kernel.paths, d.get("station") or "",
+                            model=d.get("model"),
+                            source=d.get("source") or "model_rater",
+                            routing=d.get("routing") or "",
+                        )
+                    return self._send(200, rec)
+                except (StationError, RouteVariantError, HeadError) as e:
+                    return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
+                except Exception as e:  # noqa: BLE001
+                    return self._send(400, {"error": "BAD_REQUEST",
+                                            "detail": str(e)[:200]})
             if _mr in ("/api/v1/model_rater/refresh",
                        "/api/v1/model_rater/seat",
                        "/api/v1/model_rater/cap",
@@ -2372,6 +2630,34 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                 except CredError as e:
                     return self._send(400, {"error": e.kind,
                                             "detail": str(e)[:300]})
+            stub = _orc_unmeasured(_cvm_urlparse(self.path).path)
+            if stub is not None:
+                return self._send(501, stub)
+            if _cvm_urlparse(self.path).path == "/api/v1/pilot":
+                from cosmos_pilot import PilotError, post_turn as pilot_post
+                body = self._read_body()
+                if body is None:
+                    return
+                try:
+                    d = json.loads(body.decode("utf-8")) if body.strip() else {}
+                except Exception as e:  # noqa: BLE001
+                    return self._send(400, {"error": "BAD_REQUEST",
+                                            "detail": str(e)[:200]})
+                if not isinstance(d, dict):
+                    return self._send(400, {"error": "BAD_REQUEST",
+                                            "detail": "body must be a JSON object"})
+                # HTTP is the captain seat. role=orc is not a body field.
+                d["role"] = "captain"
+                if not str(d.get("principal") or "").strip():
+                    d["principal"] = "captain:cdeck"
+                try:
+                    rec = pilot_post(kernel, d)
+                except PilotError as e:
+                    code = 403 if e.kind == "PEN_REFUSED" else 400
+                    return self._send(code, {"error": e.kind, "detail": str(e)[:300]})
+                rec["tree_id"] = kernel.paths.sentinel.tree_id
+                rec["measured_at"] = time.time()
+                return self._send(200, rec)
             return self._send(404, {"error": "NOT_FOUND", "path": self.path})
 
         def log_message(self, *a):                                    # quiet server
@@ -2563,7 +2849,9 @@ class Service:
             except Exception:
                 self.httpd.server_close()
                 raise
-            self.httpd.socket = ctx.wrap_socket(self.httpd.socket, server_side=True)
+            self.httpd.socket = ctx.wrap_socket(
+                self.httpd.socket, server_side=True,
+                do_handshake_on_connect=False)
             self.scheme = "https"
             self.cert_source = "provided"
         elif tls:
@@ -2572,7 +2860,9 @@ class Service:
                 import ssl
                 ctx = ssl.SSLContext(ssl.PROTOCOL_TLS_SERVER)
                 ctx.load_cert_chain(certfile=pair[0], keyfile=pair[1])
-                self.httpd.socket = ctx.wrap_socket(self.httpd.socket, server_side=True)
+                self.httpd.socket = ctx.wrap_socket(
+                    self.httpd.socket, server_side=True,
+                    do_handshake_on_connect=False)
                 self.scheme = "https"
                 self.cert_source = "self-signed"
             # else: stayed http; self.scheme records the honest truth
