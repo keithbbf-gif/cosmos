@@ -1,0 +1,10 @@
+HOLD
+
+- Keep the core, but Job 1 is not ready to accept. The terminal command supports stdin and `--script`; no window is involved.
+- `cosmos_code/loop.py:203` handles `done` before its tool calls, so a turn containing both `write` and `done` can skip the write and still finish.
+- `cosmos_code/loop.py:230` checks bundle completeness but not artifact hashes; it never calls `StopGate.accept_done` at `cosmos_code/verify/stop_gate.py:126`.
+- `cosmos_code/mouth.py:178` ignores API `finish_reason`, so a `length` response with parseable tool arguments may run. At `cosmos_code/mouth.py:206`, it also hides the reported model when it matches the adapter’s pin, preventing the loop from catching a mismatch with the spec pin.
+- `cosmos_code/loop.py:323` treats missing or ambiguous edit errors as recoverable tool errors, contrary to `ARCHITECTURE.md:75`, which says they refuse.
+- `cosmos_code/loop.py:424` writes free-form refusal detail despite the hashes-and-codes-only stamp contract; `cosmos_code/__main__.py:69` prints a summary, not the stamp.
+- Stop is not idempotent: `cosmos_code/loop.py:441` creates a fresh runner on each invocation, so a repeated call after Done can act again instead of returning the prior result.
+- Static review only: no code or tests run, no `live/` writes, merge, push, or `grok.exe` spawn.

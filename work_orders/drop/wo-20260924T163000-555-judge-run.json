@@ -1,0 +1,15 @@
+{
+  "Agent": "Google | Flash | gemini-3.8-flash",
+  "Context source": [
+    "docs/AGENT_BRIEF.md [read*]",
+    "docs/AGENT_BOUNDARIES.md [read*]",
+    "docs/CANON_SPAWN.md [read*]",
+    "live/work/phase2/TASK_555.md [read*]"
+  ],
+  "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. ONE bite: judge_run — ONE Judge model and ONE fat prefix for the whole run. Regrades attempt 2/3 on THAT cache. First line NONE or diff --git. NONE if CANON_SPAWN already encodes it in code. VERIFY 3. No grok.exe.",
+  "Target & scope": "proposals under Output only; What=python; never kernel/ledger/sched/service",
+  "Timestamp": "2026-09-24T16:30:00-05:00",
+  "Output": "proposals | judge_run.diff",
+  "ab_pair_id": "ab-555-judge-run",
+  "womb_n": 555
+}

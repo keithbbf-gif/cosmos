@@ -1,0 +1,81 @@
+{
+ "slim": {
+  "pr": 585,
+  "probe": "codex-cli live binary=C:\\Users\\Papa\\AppData\\Roaming\\npm\\codex.CMD version=codex-cli 0.147.0 key=sk-\u20265A8A",
+  "ok": true,
+  "done": true,
+  "kind": "CLI",
+  "model": "gpt-5-codex",
+  "model_requested": "gpt-5.4",
+  "verdict": "request-changes",
+  "summary": "The new file is close, but the PR is incomplete and currently misreports some failure modes: the recall standup is not wired into the existing own-clocks dispatcher, `--standup` exits successfully on elevation refusal, and the `--once` path leaves several expected setup/ledger failures uncaught.",
+  "n_findings": 3,
+  "findings": [
+   {
+    "severity": "high",
+    "path": "cosmos/cosmos_own_clocks.py",
+    "line": 413,
+    "message": "This change adds `cosmos_recall_clock.standup()`, but `_call_standup()` still has no `if name == \"recall\"` branch. The existing own-clocks entrypoint therefore continues to return `{\"ok\": false, \"error\": \"unknown standup recall\"}`, so the new standup code is unreachable from the central launcher/matrix path the work order targets."
+   },
+   {
+    "severity": "med",
+    "path": "cosmos/cosmos_recall_clock.py",
+    "line": 72,
+    "message": "`main()` returns exit code 0 when `needs_elevation` is true, even though `standup()` has already set `ok=False` and `registered=False` for that case. Any automation that keys off process status will treat an unregistered task as successfully installed and skip the manual elevation step."
+   },
+   {
+    "severity": "med",
+    "path": "cosmos/cosmos_recall_clock.py",
+    "line": 78,
+    "message": "The `--once` path only handles `RecallError`. `CosmosPaths(root)`, `install_key.bin.read_bytes()`, and `Ledger(...)` can all fail with other exceptions (for example `CosmosPathError`, `FileNotFoundError`, or `LedgerError`), which will currently surface as an uncaught traceback from the scheduled task instead of a typed refusal/JSON result like the other clock entrypoints."
+   }
+  ],
+  "done_why": "ok",
+  "detail": null,
+  "usage": {
+   "input_tokens": 827987,
+   "cached_input_tokens": 718848,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 8352,
+   "reasoning_output_tokens": 3951
+  },
+  "rc": 0,
+  "last_head": "{\"verdict\":\"request-changes\",\"findings\":[{\"severity\":\"high\",\"path\":\"cosmos/cosmos_own_clocks.py\",\"line\":413,\"message\":\"This change adds `cosmos_recall_clock.standup()`, but `_call_standup()` still has no `if name == \\\"recall\\\"` branch. The existing own-clocks entrypoint therefore continues to return `{\\\"ok\\\": false, \\\"error\\\": \\\"unknown standup recall\\\"}`, so the new standup code is unreachable fr",
+  "stderr_tail": "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : ReadError: (V:\\A\\Ai\\COSMOS\\...7b3b33_bucket_4:String) [Get-ChildItem], DirectoryNotFound \n   Exception\n    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand\n \nGet-ChildItem : Could not find a part of the path 'V:\\A\\Ai\\COSMOS\\live\\work\\grok\\g46_grok_motif_cdm_s6_you_are_g46_grok\n_build_1f2bf4b0__t1800\\clone\\builds\\cdm\\app\\build\\intermediates\\desugar_graph\\debug\\dexBuilderDebug\\out\\currentProject\\\njar_deb9b3eb5723e8743ad0d5fb0cd392f3f211cbedf19e7101420c483c497b3b33_bucket_5'.\nAt line:2 char:1\n+ Get-ChildItem ..\\..\\..\\.. -Recurse -Filter *recall*.py\n+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : ReadError: (V:\\A\\Ai\\COSMOS\\...7b3b33_bucket_5:String) [Get-ChildItem], DirectoryNotFound \n   Exception\n    + FullyQualifiedErrorId : DirIOError,Microsoft.PowerShell.Commands.GetChildItemCommand\n \n\n2026-09-18T17:57:15.299487Z ERROR codex_core::tools::router: error=Exit code: 1\nWall time: 0.4 seconds\nOutput:\nSelect-String : A parameter cannot be found that matches parameter name 'Recurse'.\nAt line:2 char:104\n+ ...  \"recall_clock_heartbeat|COSMOS Recall Refresh|recall-clock\" -Recurse\n+                                                                  ~~~~~~~~\n    + CategoryInfo          : InvalidArgument: (:) [Select-String], ParameterBindingException\n    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.Commands.SelectStringCommand\n \n\n",
+  "stdout_tail": "\\\\\"unknown standup recall\\\\\\\"}`, so the new standup code is unreachable from the central launcher/matrix path the work order targets.\\\"},{\\\"severity\\\":\\\"med\\\",\\\"path\\\":\\\"cosmos/cosmos_recall_clock.py\\\",\\\"line\\\":72,\\\"message\\\":\\\"`main()` returns exit code 0 when `needs_elevation` is true, even though `standup()` has already set `ok=False` and `registered=False` for that case. Any automation that keys off process status will treat an unregistered task as successfully installed and skip the manual elevation step.\\\"},{\\\"severity\\\":\\\"med\\\",\\\"path\\\":\\\"cosmos/cosmos_recall_clock.py\\\",\\\"line\\\":78,\\\"message\\\":\\\"The `--once` path only handles `RecallError`. `CosmosPaths(root)`, `install_key.bin.read_bytes()`, and `Ledger(...)` can all fail with other exceptions (for example `CosmosPathError`, `FileNotFoundError`, or `LedgerError`), which will currently surface as an uncaught traceback from the scheduled task instead of a typed refusal/JSON result like the other clock entrypoints.\\\"}],\\\"model\\\":\\\"gpt-5-codex\\\",\\\"summary\\\":\\\"The new file is close, but the PR is incomplete and currently misreports some failure modes: the recall standup is not wired into the existing own-clocks dispatcher, `--standup` exits successfully on elevation refusal, and the `--once` path leaves several expected setup/ledger failures uncaught.\\\"}\"}}\n{\"type\":\"turn.completed\",\"usage\":{\"input_tokens\":827987,\"cached_input_tokens\":718848,\"cache_write_input_tokens\":0,\"output_tokens\":8352,\"reasoning_output_tokens\":3951}}\n",
+  "wallet": "oa-api Platform key (ChatGPT Free too small; MS365 is not ChatGPT Pro)"
+ },
+ "rec_keys": [
+  "argv_head",
+  "done",
+  "done_why",
+  "findings",
+  "gateway",
+  "kind",
+  "last_message",
+  "last_message_path",
+  "last_message_truncated",
+  "mode",
+  "model",
+  "model_source",
+  "node",
+  "ok",
+  "pr_url",
+  "provenance",
+  "rc",
+  "sandbox",
+  "schema_path",
+  "secs",
+  "stderr_tail",
+  "stdout_tail",
+  "summary",
+  "text",
+  "thread_id",
+  "timed_out",
+  "usage",
+  "usd",
+  "verdict",
+  "vetter_parse",
+  "workspace"
+ ]
+}

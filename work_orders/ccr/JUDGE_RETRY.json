@@ -1,0 +1,31 @@
+[
+ {
+  "seat": "glm53-flash-retry",
+  "ok": false,
+  "http": 429,
+  "model": null,
+  "n_chars": 0,
+  "cached_tokens": null,
+  "err": {
+   "message": "Provider returned error",
+   "code": 429,
+   "metadata": {
+    "raw": "z-ai/glm-5.3-flash is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations",
+    "provider_name": "DeepInfra",
+    "is_byok": false,
+    "provider_error_code": "engine_overloaded",
+    "limit_source": "upstream_provider_shared_pool",
+    "remedy_hint": "Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing"
+   }
+  }
+ },
+ {
+  "seat": "gf38-or",
+  "ok": true,
+  "http": 200,
+  "model": "google/gemini-3.8-flash",
+  "n_chars": 747,
+  "cached_tokens": 0,
+  "err": null
+ }
+]

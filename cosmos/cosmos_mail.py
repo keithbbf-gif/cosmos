@@ -37,11 +37,29 @@ from cosmos_lock import Arbiter, StagedArtifact
 GENESIS_HASH = "0" * 64
 LEASE_TTL_S = 30.0
 _SIG_EXCLUDED = ("msg_sha256", "writer_sig", "signed", "fence_token")
+_GBOT = frozenset({"gbot", "grokbot"})
+
+
+def assert_split_tree(writer_id: str, mail_root) -> None:
+    """GrokBot pen is V:\\Ai. Mailbox on COSMOS live is a shared tree — refuse.
+
+    AGENT_BOUNDARIES item 9: mailbox before they share a tree. A gbot writer
+    on V:\\A\\Ai\\COSMOS is the share, not the channel.
+    """
+    w = str(writer_id or "").strip().lower()
+    if w not in _GBOT:
+        return
+    root = str(Path(mail_root).resolve()).replace("/", "\\").lower()
+    if "\\a\\ai\\cosmos" in root:
+        raise MailError(
+            "SHARED_TREE",
+            "GrokBot mailbox must not sit on V:\\A COSMOS live — split first",
+        )
 
 
 class MailError(RuntimeError):
     """kind in {MAILBOX_MISSING, UNREADABLE, TORN_MESSAGE, SELF_SEND,
-    CHAIN_BREAK, FORGED_MESSAGE}."""
+    CHAIN_BREAK, FORGED_MESSAGE, SHARED_TREE}."""
 
     def __init__(self, kind: str, detail: str):
         self.kind = kind
@@ -103,6 +121,7 @@ class Mailbox:
         self.arbiter = arbiter
         self.key = key
         self._lease_ttl_s = lease_ttl_s
+        assert_split_tree(worker_id, self.root)
 
     def _inbox(self, worker: str) -> Path:
         return self.root / worker / "inbox"

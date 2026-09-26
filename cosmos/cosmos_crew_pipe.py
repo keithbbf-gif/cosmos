@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""CCrew reply pipe — saved reply → CPU checks → WOMBAT → Judge at 40 → Gitur.
+"""CCrew reply pipe — saved reply → CPU checks → WOMBAT → Judge at 30 sets → Gitur.
 
 Legacy CHECKED rails (github / cursor / gitlab) stamp CI. They do not read
 the saved file. This module reads the reply, runs form checks on the bytes,
@@ -90,7 +90,7 @@ def local_code_checks(text: str, *, filename: str = "reply.py") -> list[dict]:
             "name": "coder_first_line", "status": "PASS",
             "detail": stripped.splitlines()[0][:80],
         })
-    elif filename.endswith(".py") or stripped.startswith(("def ", "class ", "import ", "from ")):
+    elif stripped.startswith(("def ", "class ", "import ", "from ")):
         try:
             ast.parse(body, filename=filename)
             rows.append({"name": "py_parse", "status": "PASS", "detail": "ast.parse ok"})
@@ -101,8 +101,8 @@ def local_code_checks(text: str, *, filename: str = "reply.py") -> list[dict]:
             })
     else:
         rows.append({
-            "name": "form", "status": "PASS",
-            "detail": "prose reply; no py/json/diff form required",
+            "name": "form", "status": "FAIL",
+            "detail": "coder first line must be NONE or diff --git (prose never reaches Judge)",
         })
     return rows
 
@@ -148,7 +148,7 @@ def wombat_action(rec: dict, *, reaches_judge: bool) -> str:
 
 
 def attach_pipe(paths, rec: dict) -> dict:
-    """py_compile, ruff, mypy, pytest, then WOMBAT. The Judge waits for 40."""
+    """py_compile, ruff, mypy, pytest, then WOMBAT. The Judge waits for 30 complete sets."""
     rec = dict(rec)
     if rec.get("state") != "DONE":
         return rec
@@ -235,10 +235,13 @@ def note_failed(paths, rec: dict) -> dict:
 
 
 def file_judge_correction(paths, order_id: str, corrected: str, *, grade: str) -> dict:
-    """Judge save. Refuses unless WOMBAT has seated the Judge at 40."""
-    from cosmos_duds import DudsError, _judge_seat
+    """Judge save. Refuses unless WOMBAT has seated the Judge at 30 complete sets."""
+    from cosmos_duds import JUDGE_FLOOR, DudsError, _judge_seat
     if not _judge_seat(paths).get("seated"):
-        raise DudsError("JUDGE_UNSEATED", "WOMBAT summons the Judge at 40")
+        raise DudsError(
+            "JUDGE_UNSEATED",
+            f"WOMBAT summons the Judge at {JUDGE_FLOOR} complete sets",
+        )
     grade_u = str(grade or "").strip().upper()
     root = pipe_root(paths)
     src = root / "judge_inbox" / f"{order_id}.json"
@@ -264,8 +267,8 @@ def file_judge_correction(paths, order_id: str, corrected: str, *, grade: str) -
         "grade": grade_u,
         "corrected": corrected,
         "instruction": (
-            "Gitur check: Cursor Composer 2.5 on this corrected text. "
-            "CCr (Grok 4.7) writes the local tree only after that check passes."
+            "Gitur: open the GitHub PR, the GitLab MR, and the Composer 2.5 check. "
+            "Do not write V:\\ and do not merge."
         ),
     }
     dest.write_text(json.dumps(body, indent=1), encoding="utf-8")
@@ -279,6 +282,18 @@ def file_judge_correction(paths, order_id: str, corrected: str, *, grade: str) -
         "action": "watch", "reaches_judge": True, "note": _wombat_note("watch"),
     })
     return event
+
+
+def file_judge_keep(paths, order_id: str, *, body: dict) -> dict:
+    """One Gitur inbox: the pipe row the Composer result and CCr duty read."""
+    root = pipe_root(paths)
+    dest = root / "gitur_inbox" / f"{order_id}.json"
+    row = dict(body)
+    row["schema"] = row.get("schema") or SCHEMA
+    row["order_id"] = order_id
+    row["stage"] = "gitur"
+    dest.write_text(json.dumps(row, indent=1), encoding="utf-8")
+    return row
 
 
 def file_gitur_result(paths, order_id: str, *, status: str, detail: str = "") -> dict:
@@ -307,7 +322,8 @@ def file_gitur_result(paths, order_id: str, *, status: str, detail: str = "") ->
     packed["gitur_status"] = "PASS"
     packed["gitur_detail"] = detail[:240]
     packed["instruction"] = (
-        "CCr Grok 4.7 final review, then write the local tree, then sync origin/main."
+        "CCr: Gitur legs smooth, then this PASS. "
+        "Squash-merge that one PR and fast-forward V:\\. Do not re-run Composer."
     )
     dest.write_text(json.dumps(packed, indent=1), encoding="utf-8")
     event = {
@@ -377,7 +393,7 @@ def _selftest() -> int:
         check("cpu pass is a candidate and does not seat the Judge",
               out["crew_pipe"]["stage"] == "candidate"
               and out["crew_pipe"]["reaches_judge"] is False)
-        check("judge inbox stays empty under 40",
+        check("one reply does not open the judge inbox",
               not (pipe_root(paths) / "judge_inbox" / "wo-pipe-1.json").is_file())
         bad = dict(rec)
         bad["order_id"] = "wo-pipe-bad"

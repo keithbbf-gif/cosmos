@@ -1,0 +1,15 @@
+{
+  "Agent": "OpenRouter | GLM | z-ai/glm-5.3-flash",
+  "Context source": [
+    "docs/AGENT_BRIEF.md [read*]",
+    "docs/AGENT_BOUNDARIES.md [read*]",
+    "cosmos/cosmos_spawn.py [read*]",
+    "live/work/phase2/TASK_554.md [read*]"
+  ],
+  "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. ONE bite: wo_partner(order) returns partner_id+state or UNMEASURED. Same pair_id / stamp-minute / Task prefix. Silent fail = UNMEASURED. First line NONE or diff --git. NONE if done. VERIFY 3. No grok.exe.",
+  "Target & scope": "proposals under Output only; What=python; never kernel/ledger/sched/service",
+  "Timestamp": "2026-09-24T16:30:00-05:00",
+  "Output": "proposals | wo_partner.diff",
+  "ab_pair_id": "ab-554-wo-partner",
+  "womb_n": 554
+}

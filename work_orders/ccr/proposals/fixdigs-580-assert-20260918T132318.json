@@ -1,0 +1,21 @@
+{
+ "id": "580-assert",
+ "pr": 580,
+ "digs": "reused V:\\A\\Ai\\COSMOS\\live\\work\\codex\\hero\\580-assert d962a615",
+ "file_exists": true,
+ "ok": false,
+ "done": false,
+ "model": null,
+ "n_diff": 0,
+ "diff": "",
+ "last": "Acknowledged. Operating as `CODER` in the Codex harness for coding tasks in the current workspace.",
+ "usage": {
+  "input_tokens": 10810,
+  "cached_input_tokens": 10624,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 63,
+  "reasoning_output_tokens": 35
+ },
+ "done_why": "missing real model field",
+ "stderr_tail": "Reading additional input from stdin...\n2026-09-18T18:23:20.174608Z ERROR codex_models_manager::manager: failed to load models cache: missing field `supports_parallel_tool_calls` at line 89 column 5\n"
+}

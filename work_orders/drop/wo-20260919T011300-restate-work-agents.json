@@ -1,0 +1,23 @@
+{
+ "_schema": "cosmos-work-order/1",
+ "order_id": "wo-20260919T011300-restate-work-agents",
+ "Agent": "Luna Flex + GLM Flash",
+ "Context source": [
+  "docs/AGENT_BRIEF.md [read*]",
+  "docs/AGENT_BOUNDARIES.md [read*]",
+  "docs/CANON_SPAWN.md [read*]",
+  "docs/HARNESS.md [read*]",
+  "work_orders/ccr/DEFINE_WOMB.md [read*]",
+  "work_orders/ccr/WOMB_PILE_400.json [read*]",
+  "work_orders/ccr/FULFILL_OR_RESTATE.md [read*]"
+ ],
+ "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. RESEARCH: new OpenAI and other Work products. Propose docs/research/WORK_AGENTS_HANDS.md. ITEM or NONE. No grok.exe. No install.",
+ "Target & scope": "Route DOM. Isolated proposal only. Never LiT. Never extra grok.exe. Never USPTO. FIFO after existing GITUR_* packs.",
+ "Timestamp": "2026-09-19T01:13:00-05:00",
+ "Output": "proposals | WORK_AGENTS_HANDS.md",
+ "_womb": {
+  "from": "157-failed + _delme wo-json unique restate",
+  "pile": "work_orders/ccr/WOMB_PILE_400.json",
+  "attempt": 2
+ }
+}

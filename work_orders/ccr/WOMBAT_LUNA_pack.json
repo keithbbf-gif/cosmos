@@ -1,0 +1,30 @@
+{
+  "ok": true,
+  "kind": "MEASURED",
+  "first_line": "ITEM",
+  "line_ok": true,
+  "sku": "openai/gpt-6-luna:floor",
+  "sku_ok": true,
+  "effort": "max",
+  "effort_ok": true,
+  "provider": "openrouter",
+  "cwd": "V:\\A\\Ai\\COSMOS\\live\\work\\codex\\hero-wombat-luna",
+  "cwd_ok": true,
+  "pack_missing": [],
+  "hero_skill_added": true,
+  "hero_skill": "V:\\A\\Ai\\COSMOS\\live\\work\\codex\\hero-wombat-luna\\.agents\\skills\\wombat-womb-board\\SKILL.md",
+  "codex_system_intact": true,
+  "codex_system_skills": [
+    "imagegen",
+    "openai-docs",
+    "plugin-creator",
+    "review-agent",
+    "skill-creator",
+    "skill-installer"
+  ],
+  "replaced_system": false,
+  "rollout": "V:\\A\\Ai\\COSMOS\\live\\work\\codex\\hero-wombat-luna\\.codex-home\\sessions\\2026\\09\\24\\rollout-2026-09-24T11-23-03-01a0d43a-4555-7ac3-b244-9b242d99aee5.jsonl",
+  "stale_rollout": false,
+  "expected_model": "openai/gpt-6-luna:floor",
+  "hero_pack": "V:\\A\\Ai\\COSMOS\\live\\work\\codex\\hero-wombat-luna"
+}

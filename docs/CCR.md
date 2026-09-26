@@ -116,7 +116,9 @@ That is the two-writer **deletion** scar: work vanishes with no ledger event.
    drops `work_orders/drop/` and `work_orders/ccr/`.
 3. **CCr close** = TidyUP + TU2 + **BUcr.toml** + pointer paste **5a inject
    (`--prompt-file`, exits) + 5b `grok -r` TUI same UUID** + lease drop + END OF
-   SESSION. SOP: `docs/RESESSION_SOP.md`. Both spawn steps, every time. Queued
+   SESSION. Pick the SOP from `docs/RESESSION_BY_SURFACE.md`. A Grok TUI close is
+   `docs/RESESSION_SOP.md` (5a then 5b, both). An OpenWork close is
+   `docs/OW_RESESSION_SOP.md`. Do not cross them. Queued
    CORE changes from orch/OW wait for the next CCr. Publish is fenced commit,
    not robocopy-over-main.
 4. If public tree is dirty from a rogue: **stage unexpected paths to `_delme\ccr-quarantine\<sid>\`**,

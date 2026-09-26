@@ -1,0 +1,21 @@
+{
+ "id": "580-assert",
+ "pr": 580,
+ "digs": "reused V:\\A\\Ai\\COSMOS\\live\\work\\codex\\hero\\580-assert d962a615",
+ "file_exists": true,
+ "ok": false,
+ "done": false,
+ "model": null,
+ "n_diff": 0,
+ "diff": "",
+ "last": "I could not save the required edit because this workspace is mounted read-only and approvals are disabled, so writes are blocked.\n\nThe intended one-line change in [tests/test_cosmos_sandbox.py](/V:/A/Ai/COSMOS/live/work/codex/hero/580-assert/tests/test_cosmos_sandbox.py) is:\n\n```python\nassert raised in (\"HOST_PEN\", \"LIVE_TREE\", \"REFUSED\")\n```\n\nNo other files were touched.",
+ "usage": {
+  "input_tokens": 62792,
+  "cached_input_tokens": 58240,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 845,
+  "reasoning_output_tokens": 233
+ },
+ "done_why": "missing real model field",
+ "stderr_tail": "Reading additional input from stdin...\n2026-09-18T18:25:01.571799Z ERROR codex_models_manager::manager: failed to load models cache: missing field `supports_parallel_tool_calls` at line 89 column 5\n2026-09-18T18:25:10.510931Z ERROR codex_core::tools::router: error=`\"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\" -Command \"Select-String -Path tests/test_cosmos_sandbox.py -Pattern 'assert raised in \\\\(\\\"HOST_PEN\\\", \\\"LIVE_TREE\\\", \\\"REFUSED\\\"\\\\) or raised' -Context 2,2\"` rejected: blocked by policy\n2026-09-18T18:25:13.627120Z ERROR codex_core::tools::router: error=patch rejected: writing is blocked by read-only sandbox; rejected by user approval settings\n"
+}

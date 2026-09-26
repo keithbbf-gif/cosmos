@@ -9,11 +9,16 @@ The daemon writes the eight layers on the WOMB, then summons one session
 of that model in the harness the DUDs name. WOMBAT watches the spawn and
 the saved reply. Three CPU checks read the reply before any model grades
 it: py_compile, fence, tokenize. A fail is a scar plus an xFORM back to
-that same session. Five fails, or a server / deprecated error, closes the
-session and files a new HERO only when its DUDs are complete. At 40
-CPU-passing sets WOMBAT summons the Judge HERO. The Judge records the
-card and files Gitur. An empty pile retires the Judge. ORC does not file
-Gitur.
+that same session. The xFORM is a separate tail. The stage-1 prompt
+bytes stay the set identity (`prompt_sha`, `attempt_n`). Three fails,
+or a server / deprecated error, closes the
+session and files a new HERO only when its DUDs are complete. Fifty wishes
+summon WOMBAT. Forty fully written work orders make WOMBAT summon the
+CCrew in HERO mode. Thirty complete sets summon the Judge. A session idle
+for 30 minutes closes, except ORC and CCr. WOMBAT and the Judge leave
+TidyUP, TidyUP2, and BUwbt or BUjdg, and each role keeps its own scars.
+The Judge records the card and files Gitur. An empty pile retires the
+Judge. ORC does not file Gitur.
 
     py -3.14 cosmos\\cosmos_duds.py --selftest
 """
@@ -24,14 +29,18 @@ import io
 import json
 import re
 import tokenize
-from datetime import datetime
+from datetime import datetime, timedelta
+from hashlib import sha256
 from pathlib import Path
 
+from cosmos_stations import FINAL_FLOOR, JUDGE_FLOOR
+
 SCHEMA = "cosmos-duds/1"
-JUDGE_FLOOR = 40
-ATTEMPT_CAP = 5
-ROLES = ("ORC", "WOMBAT", "CODER", "JUDGE", "CCR", "DAEMON")
-HERO_ROLES = ("WOMBAT", "CODER", "JUDGE", "CCR")
+IDLE_MINUTES = 30
+STAY_SEATED = frozenset({"ORC", "CCR"})
+ATTEMPT_CAP = 3
+ROLES = ("ORC", "WOMBAT", "CODER", "JUDGE", "FINAL", "CCR", "DAEMON")
+HERO_ROLES = ("WOMBAT", "CODER", "JUDGE", "FINAL", "CCR")
 WHAT = ("text", "python", "no_prose")
 PLACEHOLDER_MISSION = ("filled per gitur wo", "unseated", "tbd")
 BTS_IMPORT = re.compile(r"^\s*(?:from|import)\s+bts_\w+", re.M)
@@ -238,14 +247,298 @@ def cpu_pass(rows: list[dict]) -> bool:
 
 
 def xform(initial_prompt: str, error: str, attempt: int) -> str:
-    """output/input. initial prompt + checker error → the next prompt. CPU only."""
+    """Correction tail only. The stage-1 prompt bytes are not rewritten."""
+    del initial_prompt
     n = int(attempt or 1)
     return (
-        str(initial_prompt or "").rstrip()
-        + f"\n\n[xFORM attempt {n} — correct this output. Checker error:\n"
+        f"[xFORM attempt {n} — correct this output. Checker error:\n"
         + str(error or "").strip()
         + "\nReturn only the corrected output.]\n"
     )
+
+
+def _scar(paths, role: str, rec: dict) -> None:
+    role_u = str(role or "CODER").strip().upper() or "CODER"
+    rec = dict(rec)
+    rec["schema"] = SCHEMA
+    rec["role"] = role_u
+    rec.setdefault("at", _iso_now())
+    _append(womb_root(paths) / "scars" / f"{role_u}.jsonl", rec)
+
+
+def _prompt_sha(text: str) -> str:
+    return sha256(str(text or "").encode("utf-8")).hexdigest()[:16]
+
+
+def score_problems(row: dict) -> list:
+    """A candidate is scoreable only when the reply is on disk and the CPU rows passed."""
+    problems = []
+    if not isinstance(row, dict):
+        return ["row"]
+    if not str(row.get("set_id") or "").strip():
+        problems.append("set_id")
+    if not str(row.get("model") or "").strip():
+        problems.append("model")
+    sha = str(row.get("prompt_sha") or "")
+    if len(sha) != 16:
+        problems.append("prompt_sha")
+    reply = str(row.get("reply_path") or "").strip()
+    if not reply:
+        problems.append("reply_path")
+    else:
+        path = Path(reply)
+        if not path.is_file() or path.stat().st_size <= 0:
+            problems.append("reply_missing")
+    cpu = row.get("cpu")
+    if not isinstance(cpu, list) or not cpu:
+        problems.append("cpu")
+    else:
+        for item in cpu:
+            if not isinstance(item, dict) or item.get("status") != "PASS":
+                problems.append("cpu")
+                break
+    return problems
+
+
+def judge_audit(paths) -> dict:
+    rows = _candidates(paths)
+    ready = 0
+    rejected = []
+    ready_rows = []
+    for row in rows:
+        problems = score_problems(row)
+        if problems:
+            rejected.append({
+                "order_id": (row or {}).get("order_id") if isinstance(row, dict) else "",
+                "problems": problems,
+            })
+        else:
+            ready += 1
+            ready_rows.append(row)
+    return {
+        "rows": len(rows),
+        "ready_rows": ready,
+        "ready_sets": gradable_sets(ready_rows),
+        "rejected": rejected[:12],
+    }
+
+
+def gradable_sets(rows: list) -> int:
+    """A set is gradable when three or more ready replies share one prompt hash."""
+    groups: dict[str, list] = {}
+    for row in rows or []:
+        if not isinstance(row, dict):
+            continue
+        if score_problems(row):
+            continue
+        sid = str(row.get("set_id") or "")
+        if not sid:
+            continue
+        groups.setdefault(sid, []).append(row)
+    n = 0
+    for group in groups.values():
+        models = {str(r.get("model") or "") for r in group if r.get("model")}
+        shas = {str(r.get("prompt_sha") or "") for r in group}
+        if len(models) >= 3 and len(shas) == 1 and "" not in shas:
+            n += 1
+    return n
+
+
+def _parse_at(text) -> datetime | None:
+    try:
+        return datetime.fromisoformat(str(text))
+    except (TypeError, ValueError):
+        return None
+
+
+def _touch(session: dict) -> None:
+    session["touched_at"] = _iso_now()
+
+
+def write_succession(paths, role: str, session: dict) -> dict:
+    """TidyUP, TidyUP2, and the role BU. Does not close ORC or CCr."""
+    role_u = str(role or "").strip().upper()
+    bu_names = {"WOMBAT": "BUwbt.json", "JUDGE": "BUjdg.json", "FINAL": "BUchk.json"}
+    if role_u not in bu_names:
+        raise DudsError("NO_HANDOFF", role_u)
+    root = womb_root(paths) / "rold" / role_u
+    root.mkdir(parents=True, exist_ok=True)
+    bu_name = bu_names[role_u]
+    scar_rel = f"scars/{role_u}.jsonl"
+    tidy = {
+        "schema": SCHEMA,
+        "kind": "TidyUP",
+        "role": role_u,
+        "at": _iso_now(),
+        "session_id": session.get("session_id"),
+        "model": session.get("model") or "",
+        "reason": session.get("closed_reason") or "idle_30m",
+        "scars": scar_rel,
+        "read_next": bu_name,
+    }
+    from cosmos_stations import order_count, wish_depth
+    measured = {
+        "wishes": wish_depth(paths),
+        "orders": order_count(paths),
+        "sets": gradable_sets(_candidates(paths)),
+        "scar_file": (womb_root(paths) / "scars" / f"{role_u}.jsonl").is_file(),
+    }
+    tu2 = {
+        "schema": SCHEMA,
+        "kind": "TidyUP2",
+        "role": role_u,
+        "at": _iso_now(),
+        "tidy_session_id": tidy["session_id"],
+        "measured": measured,
+        "agrees": tidy["session_id"] == session.get("session_id") and measured["scar_file"],
+    }
+    bu = {
+        "schema": SCHEMA,
+        "role": role_u,
+        "at": _iso_now(),
+        "successor": "Read TidyUP, then TidyUP2, then this file.",
+        "session_closed": session.get("session_id"),
+        "scars": scar_rel,
+        "stay_seated": sorted(STAY_SEATED),
+        "tidy": str(root / "TidyUP.json"),
+        "tidy2": str(root / "TidyUP2.json"),
+    }
+    _write_json(root / "TidyUP.json", tidy)
+    _write_json(root / "TidyUP2.json", tu2)
+    _write_json(womb_root(paths) / "rold" / bu_name, bu)
+    return {"tidy": tidy, "tidy2": tu2, "bu": bu_name}
+
+
+def _queue_depth(paths, role: str) -> int:
+    """Work still in front of this role. Zero means the queue has run dry."""
+    role_u = str(role or "").upper()
+    if role_u == "JUDGE":
+        return len(_candidates(paths))
+    if role_u == "FINAL":
+        inbox = paths.state("crew_pipe") / "gitur_inbox"
+        return len(list(inbox.glob("*.json"))) if inbox.is_dir() else 0
+    if role_u == "WOMBAT":
+        from cosmos_stations import order_count, wish_depth
+        return max(0, wish_depth(paths) - order_count(paths))
+    return 0
+
+
+def sweep_idle(paths, *, now: datetime | None = None) -> list:
+    """ORC and CCr stay. A queued role stays until the queue is dry, then 30 minutes."""
+    now = now or datetime.now().astimezone()
+    limit = timedelta(minutes=IDLE_MINUTES)
+    queued = {"WOMBAT", "JUDGE", "FINAL"}
+    board = _sessions(paths)
+    closed = []
+    changed = False
+    for model, cur in list(board.items()):
+        if not isinstance(cur, dict) or cur.get("state") != "open":
+            continue
+        role = str(cur.get("role") or "CODER").strip().upper() or "CODER"
+        if role in STAY_SEATED:
+            continue
+        if role in queued:
+            depth = _queue_depth(paths, role)
+            if depth > 0:
+                if cur.get("queue_dry_at"):
+                    cur.pop("queue_dry_at", None)
+                    board[model] = cur
+                    changed = True
+                continue
+            dry = _parse_at(cur.get("queue_dry_at"))
+            if dry is None:
+                cur["queue_dry_at"] = _iso_now()
+                board[model] = cur
+                changed = True
+                continue
+            if now - dry < limit:
+                continue
+        else:
+            touched = _parse_at(cur.get("touched_at"))
+            if touched is None:
+                cur["touched_at"] = _iso_now()
+                board[model] = cur
+                changed = True
+                continue
+            if now - touched < limit:
+                continue
+        cur["state"] = "closed"
+        cur["busy"] = False
+        cur["closed_reason"] = "queue_dry_30m" if role in queued else "idle_30m"
+        cur["model"] = model
+        board[model] = cur
+        changed = True
+        _scar(paths, role, {
+            "model": model,
+            "session_id": cur.get("session_id"),
+            "error": f"idle {IDLE_MINUTES}m",
+            "closed_reason": "idle_30m",
+        })
+        if role in ("WOMBAT", "JUDGE", "FINAL"):
+            write_succession(paths, role, cur)
+        if role == "JUDGE":
+            seat = _judge_seat(paths)
+            seat["seated"] = False
+            seat["retired_at"] = _iso_now()
+            seat["closed_reason"] = "idle_30m"
+            _write_json(womb_root(paths) / "judge_seat.json", seat)
+        closed.append({"model": model, "role": role, "session_id": cur.get("session_id")})
+    if changed:
+        _save_sessions(paths, board)
+    return closed
+
+
+def note_ccrew_summon(paths) -> dict:
+    """WOMBAT summons the CCrew in HERO mode. Does not exec a model."""
+    from cosmos_stations import ORDER_FLOOR, load_state, order_count
+    flag = womb_root(paths) / "ccrew_summon.json"
+    if flag.is_file():
+        saved = _read_json(flag, {})
+        if isinstance(saved, dict) and saved.get("action") == "summon_ccrew":
+            return saved
+    rec = {
+        "schema": SCHEMA,
+        "at": _iso_now(),
+        "action": "summon_ccrew",
+        "by": "WOMBAT",
+        "mode": "HERO",
+        "orders": order_count(paths),
+        "order_floor": int(load_state(paths).get("order_floor") or ORDER_FLOOR),
+        "exec": False,
+    }
+    _write_json(flag, rec)
+    _append(womb_root(paths) / "wombat.jsonl", rec)
+    return rec
+
+
+def note_final_summon(paths) -> dict:
+    """The Judge's KEEP pile summons the final checker. Does not exec a model."""
+    flag = womb_root(paths) / "final_summon.json"
+    if flag.is_file():
+        saved = _read_json(flag, {})
+        if isinstance(saved, dict) and saved.get("action") == "summon_final":
+            return saved
+    from cosmos_stations import load_state, pick_audit
+    inbox = paths.state("crew_pipe") / "gitur_inbox"
+    n = len(list(inbox.glob("*.json"))) if inbox.is_dir() else 0
+    picked = pick_audit(paths)
+    rec = {
+        "schema": SCHEMA,
+        "at": _iso_now(),
+        "action": "summon_final",
+        "role": "Final Audit",
+        "by": "JUDGE",
+        "mode": "HERO",
+        "keeps": n,
+        "final_floor": int(load_state(paths).get("final_floor") or FINAL_FLOOR),
+        "model": picked.get("model") or "",
+        "family": picked.get("family") or "",
+        "caution": picked.get("caution") or "",
+        "exec": False,
+    }
+    _write_json(flag, rec)
+    _append(womb_root(paths) / "wombat.jsonl", rec)
+    return rec
 
 
 def _sessions(paths) -> dict:
@@ -338,6 +631,7 @@ def summon_hero(paths, rec: dict, *, repo: Path | None = None) -> dict:
         "role": role,
         "harness": duds["l3_harness"],
     }
+    _touch(board[model])
     _save_sessions(paths, board)
     spawn = {
         "schema": SCHEMA, "session_id": session_id,
@@ -381,8 +675,9 @@ def _close_for_new_hero(paths, model: str, session: dict, reason: str) -> dict:
 
 
 def on_saved_reply(paths, rec: dict, text: str, *, force_error: str = "") -> dict:
-    """CPU trio, then WOMBAT. Judge stays unseated under 40 passing sets."""
+    """CPU checks, then WOMBAT. The Judge stays unseated under 30 complete sets."""
     rec = rec or {}
+    sweep_idle(paths)
     duds = None
     if isinstance(rec.get("legend"), dict) or isinstance(rec.get("duds"), dict):
         try:
@@ -413,6 +708,8 @@ def on_saved_reply(paths, rec: dict, text: str, *, force_error: str = "") -> dic
             "harness": (duds or {}).get("l3_harness") or "",
         }
     cur["area"] = area or cur.get("area") or ""
+    _touch(cur)
+    role = str(cur.get("role") or "CODER").upper()
     fname = Path(str(rec.get("_output_path") or "reply.py")).name
     rows = cpu_first_pass(text, filename=fname)
     if force_error:
@@ -431,6 +728,12 @@ def on_saved_reply(paths, rec: dict, text: str, *, force_error: str = "") -> dic
         "model": model,
         "cpu": rows,
     }
+    from cosmos_run_spend import quote_run
+    usage = rec.get("usage") if isinstance(rec.get("usage"), dict) else None
+    crew["spend"] = quote_run(
+        paths, model, _initial_prompt(rec, duds), text or "",
+        usage=usage, order_id=oid,
+    )
     if server or (not passed and int(cur.get("attempts") or 0) + 1 >= ATTEMPT_CAP):
         if not passed:
             cur["attempts"] = int(cur.get("attempts") or 0) + 1
@@ -439,9 +742,8 @@ def on_saved_reply(paths, rec: dict, text: str, *, force_error: str = "") -> dic
             err = "; ".join(
                 f"{r['name']}: {r['detail']}" for r in rows if r["status"] != "PASS"
             )
-            _append(root / "scars.jsonl", {
-                "schema": SCHEMA, "at": _iso_now(), "order_id": oid,
-                "model": model, "session_id": session_id,
+            _scar(paths, role, {
+                "order_id": oid, "model": model, "session_id": session_id,
                 "attempt": cur["attempts"], "error": err[:500],
             })
         closed = _close_for_new_hero(paths, model, cur, reason)
@@ -455,6 +757,7 @@ def on_saved_reply(paths, rec: dict, text: str, *, force_error: str = "") -> dic
             "schema": SCHEMA, "at": _iso_now(), "order_id": oid,
             "action": closed["action"], "model": model,
             "session_id": session_id, "note": closed["detail"],
+            "spend": crew.get("spend"),
         })
         return {"crew_pipe": crew}
 
@@ -464,11 +767,13 @@ def on_saved_reply(paths, rec: dict, text: str, *, force_error: str = "") -> dic
         err = "; ".join(
             f"{r['name']}: {r['detail']}" for r in rows if r["status"] != "PASS"
         )
-        prompt = xform(_initial_prompt(rec, duds), err, cur["attempts"])
-        _append(root / "scars.jsonl", {
-            "schema": SCHEMA, "at": _iso_now(), "order_id": oid,
-            "model": model, "session_id": session_id,
-            "attempt": cur["attempts"], "error": err[:500],
+        stage1 = _initial_prompt(rec, duds)
+        prompt_sha = _prompt_sha(stage1)
+        tail = xform(stage1, err, cur["attempts"])
+        _scar(paths, role, {
+            "order_id": oid, "model": model, "session_id": session_id,
+            "attempt": cur["attempts"], "attempt_n": cur["attempts"],
+            "prompt_sha": prompt_sha, "error": err[:500],
         })
         _write_json(root / "reprompt" / f"{oid}.json", {
             "schema": SCHEMA,
@@ -476,7 +781,10 @@ def on_saved_reply(paths, rec: dict, text: str, *, force_error: str = "") -> dic
             "session_id": session_id,
             "model": model,
             "attempt": cur["attempts"],
-            "xform": prompt,
+            "attempt_n": cur["attempts"],
+            "stage1": stage1,
+            "prompt_sha": prompt_sha,
+            "xform": tail,
         })
         board[model] = cur
         _save_sessions(paths, board)
@@ -484,52 +792,73 @@ def on_saved_reply(paths, rec: dict, text: str, *, force_error: str = "") -> dic
             "wombat": "reprompt_session",
             "stage": "reprompt",
             "attempt": cur["attempts"],
-            "xform": prompt,
+            "attempt_n": cur["attempts"],
+            "stage1": stage1,
+            "prompt_sha": prompt_sha,
+            "xform": tail,
         })
         _append(root / "wombat.jsonl", {
             "schema": SCHEMA, "at": _iso_now(), "order_id": oid,
             "action": "reprompt_session", "model": model,
             "session_id": session_id, "attempt": cur["attempts"],
+            "spend": crew.get("spend"),
         })
         return {"crew_pipe": crew}
 
+    attempt_n = int(cur.get("attempts") or 0)
     cur["attempts"] = 0
     cur["state"] = "open"
     board[model] = cur
     _save_sessions(paths, board)
+    prompt_text = _initial_prompt(rec, duds)
     pile = _candidates(paths)
     pile.append({
         "order_id": oid,
+        "set_id": str(rec.get("set_id") or ""),
         "model": model,
         "session_id": session_id,
         "area": cur.get("area") or "",
-        "question": _initial_prompt(rec, duds)[:500],
+        "question": prompt_text[:500],
+        "prompt_sha": _prompt_sha(prompt_text),
+        "attempt_n": attempt_n,
+        "reattempt": attempt_n > 0,
         "reply_path": rec.get("_output_path"),
         "cpu": rows,
+        "spend": crew.get("spend"),
     })
     _save_candidates(paths, pile)
-    crew.update({"wombat": "candidate", "stage": "candidate", "pile": len(pile)})
+    sets = gradable_sets(pile)
+    crew.update({
+        "wombat": "candidate", "stage": "candidate",
+        "pile": len(pile), "sets": sets,
+    })
     _append(root / "wombat.jsonl", {
         "schema": SCHEMA, "at": _iso_now(), "order_id": oid,
-        "action": "candidate", "model": model, "session_id": session_id,
+        "action": "candidate", "model": model,         "session_id": session_id,
         "pile": len(pile),
+        "spend": crew.get("spend"),
     })
-    if len(pile) >= JUDGE_FLOOR and not _judge_seat(paths).get("seated"):
+    if sets >= JUDGE_FLOOR and not _judge_seat(paths).get("seated"):
         crew["wombat"] = "summon_judge"
         crew["stage"] = "judge_waiting_duds"
     return {"crew_pipe": crew}
 
 
 def summon_judge(paths, judge_rec: dict, *, repo: Path | None = None) -> dict:
-    """WOMBAT summons the Judge HERO once 40 sets are waiting. No model exec."""
+    """WOMBAT summons the Judge HERO once 30 complete sets are waiting. No model exec."""
+    from cosmos_stations import load_state
     pile = _candidates(paths)
-    if len(pile) < JUDGE_FLOOR:
-        raise DudsError("JUDGE_NOT_DUE", f"pile={len(pile)} floor={JUDGE_FLOOR}")
+    sets = gradable_sets(pile)
+    floor = int(load_state(paths).get("judge_floor") or JUDGE_FLOOR)
+    if sets < floor:
+        raise DudsError("JUDGE_NOT_DUE", f"sets={sets} floor={floor}")
     if _judge_seat(paths).get("seated"):
         raise DudsError("JUDGE_SEATED", "retire the open Judge before a second summon")
     duds = require_duds(judge_rec, repo=repo)
     if duds["l1_role"] != "JUDGE":
         raise DudsError("NOT_A_JUDGE", duds["l1_role"])
+    from cosmos_stations import family_caution, note_judge_seated
+    caution = family_caution(paths, duds["l2_model"])
     opened = summon_hero(paths, judge_rec, repo=repo)
     seat = {
         "schema": SCHEMA,
@@ -540,7 +869,10 @@ def summon_judge(paths, judge_rec: dict, *, repo: Path | None = None) -> dict:
         "session_id": opened["session_id"],
         "pile": len(pile),
     }
+    if caution:
+        seat["caution"] = caution
     _write_json(womb_root(paths) / "judge_seat.json", seat)
+    note_judge_seated(paths, duds["l2_model"])
     _append(womb_root(paths) / "wombat.jsonl", {
         "schema": SCHEMA, "at": seat["at"], "action": "summon_judge",
         "model": duds["l2_model"], "harness": duds["l3_harness"],
@@ -556,7 +888,7 @@ def grade_pile(paths, *, best_order_id: str, corrected: str, comment: str,
         raise DudsError("ORC_NO_GITUR", "the Judge files Gitur")
     seat = _judge_seat(paths)
     if not seat.get("seated"):
-        raise DudsError("JUDGE_UNSEATED", "WOMBAT summons the Judge at 40")
+        raise DudsError("JUDGE_UNSEATED", f"WOMBAT summons the Judge at {JUDGE_FLOOR} complete sets")
     pile = _candidates(paths)
     ids = {row.get("order_id") for row in pile}
     if best_order_id not in ids:
@@ -580,32 +912,42 @@ def grade_pile(paths, *, best_order_id: str, corrected: str, comment: str,
     }
     root = womb_root(paths)
     _append(root / "judge_records.jsonl", card)
-    _write_json(root / "gitur_inbox" / f"{best_order_id}.json", {
+    keep = {
         "schema": SCHEMA,
         "order_id": best_order_id,
         "stage": "gitur",
         "filed_by": "JUDGE",
         "who": seat.get("model"),
+        "grade": "KEEP",
         "corrected": corrected,
         "comment": card["comment"],
-    })
+        "instruction": (
+            "Gitur: open the GitHub PR, the GitLab MR, and the Composer 2.5 check. "
+            "Do not write V:\\ and do not merge."
+        ),
+    }
+    _write_json(root / "gitur_inbox" / f"{best_order_id}.json", keep)
+    from cosmos_crew_pipe import file_judge_keep
+    file_judge_keep(paths, best_order_id, body=keep)
+    inbox = paths.state("crew_pipe") / "gitur_inbox"
+    keeps = len(list(inbox.glob("*.json"))) if inbox.is_dir() else 0
+    if keeps >= FINAL_FLOOR:
+        note_final_summon(paths)
     rest = [row for row in pile if row.get("order_id") != best_order_id]
     _save_candidates(paths, rest)
     retired = False
     if not rest:
-        seat["seated"] = False
-        seat["retired_at"] = _iso_now()
-        _write_json(root / "judge_seat.json", seat)
         model = str(seat.get("model") or "")
         board = _sessions(paths)
-        if model in board:
-            board[model]["state"] = "closed"
-            board[model]["closed_reason"] = "pile_zero"
+        cur = board.get(model) if isinstance(board.get(model), dict) else None
+        if cur is not None and not cur.get("queue_dry_at"):
+            cur["queue_dry_at"] = _iso_now()
+            cur["role"] = "JUDGE"
+            board[model] = cur
             _save_sessions(paths, board)
-        retired = True
         _append(root / "wombat.jsonl", {
-            "schema": SCHEMA, "at": seat["retired_at"],
-            "action": "judge_retire", "model": model,
+            "schema": SCHEMA, "at": _iso_now(),
+            "action": "queue_dry", "model": model, "role": "JUDGE",
         })
     return {"card": card, "retired": retired, "pile": len(rest)}
 
@@ -683,10 +1025,13 @@ def _selftest() -> int:
         check("syntax fail xFORMs the same session",
               held["crew_pipe"]["wombat"] == "reprompt_session"
               and held["crew_pipe"]["session_id"] == "glm-1"
-              and "write ping" in held["crew_pipe"]["xform"]
+              and held["crew_pipe"]["stage1"] == "write ping"
+              and held["crew_pipe"]["prompt_sha"] == _prompt_sha("write ping")
+              and held["crew_pipe"]["attempt_n"] == 1
+              and held["crew_pipe"]["xform"].startswith("[xFORM")
               and "syntax" in held["crew_pipe"]["xform"])
         check("scar recorded",
-              (womb_root(paths) / "scars.jsonl").is_file())
+              (womb_root(paths) / "scars" / "CODER.jsonl").is_file())
         other = False
         try:
             on_saved_reply(paths, dict(reply, session_id="glm-2"), good)
@@ -694,10 +1039,9 @@ def _selftest() -> int:
             other = e.kind == "SESSION_BUSY"
         check("a second model session is not opened", other)
 
-        for n in range(2, 5):
-            on_saved_reply(paths, dict(reply, order_id=f"wo-bad-{n}"), "def ping(\n")
-        closed = on_saved_reply(paths, dict(reply, order_id="wo-bad-5"), "def ping(\n")
-        check("fifth fail closes the session and files a new HERO",
+        on_saved_reply(paths, dict(reply, order_id="wo-bad-2"), "def ping(\n")
+        closed = on_saved_reply(paths, dict(reply, order_id="wo-bad-3"), "def ping(\n")
+        check("third fail closes the session and files a new HERO",
               closed["crew_pipe"]["wombat"] == "spawn_new_hero")
 
         ds = _sample_duds(pack, role="CODER", model="deepseek-v4-flash",
@@ -715,38 +1059,82 @@ def _selftest() -> int:
               server["crew_pipe"]["wombat"] == "spawn_new_hero")
 
         sid = _sessions(paths)["glm-5.3-flash"]["session_id"]
-        for i in range(JUDGE_FLOOR):
-            on_saved_reply(
-                paths,
-                dict(reply, order_id=f"wo-ok-{i}", session_id=sid),
-                good,
-            )
-        check("40 candidates wait until WOMBAT summons the Judge",
-              len(_candidates(paths)) == JUDGE_FLOOR
+        ds_sid = _sessions(paths)["deepseek-v4-flash"]["session_id"]
+        gem = _sample_duds(pack, role="CODER", model="gemini-3.8-flash",
+                           harness="vertex", mission="write ping")
+        gem["session_id"] = "gem-1"
+        summon_hero(paths, gem)
+        seats = {
+            "glm-5.3-flash": sid,
+            "deepseek-v4-flash": ds_sid,
+            "gemini-3.8-flash": "gem-1",
+        }
+        reply_py = pack / "ping.py"
+        reply_py.write_text(good, encoding="utf-8")
+        def _one(model, i):
+            on_saved_reply(paths, {
+                "order_id": f"set-{i}-{model}",
+                "set_id": f"set-{i}",
+                "session_id": seats[model],
+                "model": model,
+                "prompt": "write ping",
+                "_output_path": str(reply_py),
+            }, good)
+        for i in range(JUDGE_FLOOR - 1):
+            for model in seats:
+                _one(model, i)
+        check("29 complete sets wait",
+              gradable_sets(_candidates(paths)) == JUDGE_FLOOR - 1
+              and not _judge_seat(paths).get("seated"))
+        sample = _candidates(paths)[0]
+        check("a missing reply is not ready to score",
+              "reply_missing" in score_problems(
+                  dict(sample, reply_path=str(pack / "missing.py"))))
+        check("candidate keeps the stage-1 hash and attempt_n",
+              sample.get("prompt_sha") == _prompt_sha("write ping")
+              and sample.get("attempt_n") == 0
+              and sample.get("reattempt") is False)
+        held = None
+        for model in seats:
+            held = on_saved_reply(paths, {
+                "order_id": f"set-last-{model}",
+                "set_id": "set-last",
+                "session_id": seats[model],
+                "model": model,
+                "prompt": "write ping",
+                "_output_path": str(reply_py),
+            }, good)
+        check("30 complete sets wait until WOMBAT summons the Judge",
+              gradable_sets(_candidates(paths)) == JUDGE_FLOOR
+              and held["crew_pipe"]["wombat"] == "summon_judge"
               and not _judge_seat(paths).get("seated"))
         judge = _sample_duds(pack, role="JUDGE", model="gpt-5.6-luna",
                              harness="codex exec", mission="grade the pile")
         judge["session_id"] = "luna-1"
         seat = summon_judge(paths, judge)
-        check("40 sets summon the Judge in its harness",
+        check("30 sets summon the Judge in its harness",
               seat["seated"] is True and seat["harness"] == "codex exec"
               and seat["model"] == "gpt-5.6-luna")
         orc = False
         try:
             grade_pile(
-                paths, best_order_id="wo-ok-0", corrected=good,
-                comment="fine", scores={"wo-ok-0": 1}, role="ORC",
+                paths, best_order_id="set-0-glm-5.3-flash", corrected=good,
+                comment="fine", scores={"set-0-glm-5.3-flash": 1}, role="ORC",
             )
         except DudsError as e:
             orc = e.kind == "ORC_NO_GITUR"
         check("ORC does not file Gitur", orc)
         graded = grade_pile(
-            paths, best_order_id="wo-ok-0", corrected=good,
-            comment="best of the pile", scores={"wo-ok-0": 1}, role="JUDGE",
+            paths, best_order_id="set-0-glm-5.3-flash", corrected=good,
+            comment="best of the pile", scores={"set-0-glm-5.3-flash": 1}, role="JUDGE",
         )
+        before = JUDGE_FLOOR * 3
+        check("one KEEP does not summon the final checker",
+              not (womb_root(paths) / "final_summon.json").is_file())
         check("Judge files Gitur and records who judged",
-              graded["pile"] == JUDGE_FLOOR - 1
-              and (womb_root(paths) / "gitur_inbox" / "wo-ok-0.json").is_file()
+              graded["pile"] == before - 1
+              and (womb_root(paths) / "gitur_inbox" / "set-0-glm-5.3-flash.json").is_file()
+              and (paths.state("crew_pipe") / "gitur_inbox" / "set-0-glm-5.3-flash.json").is_file()
               and "gpt-5.6-luna" in (womb_root(paths) / "judge_records.jsonl").read_text(encoding="utf-8"))
         # Drain the rest without a second grade API loop: mark remaining judged.
         rest_ids = [row["order_id"] for row in _candidates(paths)]
@@ -755,9 +1143,64 @@ def _selftest() -> int:
                 paths, best_order_id=oid, corrected=good,
                 comment="accepted", scores={oid: 1}, role="JUDGE",
             )
-        check("empty pile retires the Judge",
-              _judge_seat(paths).get("seated") is False
-              and _candidates(paths) == [])
+        check("a batch of KEEPs summons the final checker without exec",
+              (womb_root(paths) / "final_summon.json").is_file()
+              and _read_json(womb_root(paths) / "final_summon.json", {}).get("exec") is False)
+        check("an empty pile keeps the Judge seated and starts the dry clock",
+              _judge_seat(paths).get("seated") is True
+              and _candidates(paths) == []
+              and _sessions(paths).get("gpt-5.6-luna", {}).get("queue_dry_at"))
+        old = (datetime.now().astimezone() - timedelta(minutes=31)).isoformat(timespec="seconds")
+        board = _sessions(paths)
+        board["idle-coder"] = {
+            "session_id": "coder-old", "state": "open", "role": "CODER",
+            "touched_at": old,
+        }
+        board["idle-wombat"] = {
+            "session_id": "wombat-old", "state": "open", "role": "WOMBAT",
+            "touched_at": old, "queue_dry_at": old,
+        }
+        board["idle-judge"] = {
+            "session_id": "judge-old", "state": "open", "role": "JUDGE",
+            "touched_at": old, "queue_dry_at": old,
+        }
+        board["idle-final"] = {
+            "session_id": "final-old", "state": "open", "role": "FINAL",
+            "touched_at": old, "queue_dry_at": old,
+        }
+        board["fresh-dry"] = {
+            "session_id": "wombat-fresh", "state": "open", "role": "WOMBAT",
+            "touched_at": old,
+        }
+        board["stay-orc"] = {
+            "session_id": "orc-1", "state": "open", "role": "ORC",
+            "touched_at": old,
+        }
+        board["stay-ccr"] = {
+            "session_id": "ccr-1", "state": "open", "role": "CCR",
+            "touched_at": old,
+        }
+        _save_sessions(paths, board)
+        gone = {row["role"] for row in sweep_idle(paths)}
+        left = _sessions(paths)
+        rold = womb_root(paths) / "rold"
+        check("a dry queue for 30 minutes ends the role; a fresh dry clock does not",
+              {"CODER", "WOMBAT", "JUDGE"} <= gone
+              and left["fresh-dry"]["state"] == "open"
+              and left["fresh-dry"].get("queue_dry_at")
+              and left["stay-orc"]["state"] == "open"
+              and left["stay-ccr"]["state"] == "open"
+              and left["idle-final"]["state"] == "open")
+        check("WOMBAT and the Judge leave a handoff and their own scars",
+              (rold / "WOMBAT" / "TidyUP.json").is_file()
+              and (rold / "WOMBAT" / "TidyUP2.json").is_file()
+              and (rold / "BUwbt.json").is_file()
+              and (rold / "JUDGE" / "TidyUP.json").is_file()
+              and (rold / "JUDGE" / "TidyUP2.json").is_file()
+              and (rold / "BUjdg.json").is_file()
+              and (womb_root(paths) / "scars" / "WOMBAT.jsonl").is_file()
+              and (womb_root(paths) / "scars" / "JUDGE.jsonl").is_file()
+              and (womb_root(paths) / "scars" / "CODER.jsonl").is_file())
     return 0 if ok else 1
 
 

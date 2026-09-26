@@ -1,0 +1,27 @@
+{
+ "sol": {
+  "id": "582-delme-resolve",
+  "family": "SOL-codex",
+  "ok": true,
+  "done": true,
+  "model": "gpt-5",
+  "verdict": "approve",
+  "summary": "KEEP\n```diff\n--- a/cosmos/cosmos_approval.py\n+++ b/cosmos/cosmos_approval.py\n@@\n def _is_under_delme(path: Path) -> bool:\n-    return \"_delme\" in path.parts\n+    resolved = path.resolve(strict=False)\n+    return \"_delme\" in resolved.parts\n```",
+  "findings": [],
+  "cached": 10624,
+  "input": 11031,
+  "write": 0,
+  "output": 521,
+  "stderr_tail": "Reading additional input from stdin...\n2026-09-18T18:11:29.464861Z ERROR codex_models_manager::manager: failed to load models cache: missing field `supports_parallel_tool_calls` at line 89 column 5\n"
+ },
+ "glm": {
+  "id": "582-delme-resolve",
+  "family": "GLM-flash",
+  "http": 200,
+  "ok": true,
+  "model": "z-ai/glm-5.3-flash",
+  "text": "HOLD The `_delme` check runs on the raw relative path, so `..` segments escape the quarantine check; resolve first.\n\n```diff\n--- a/cosmos/cosmos_approval.py\n+++ b/cosmos/cosmos_approval.py\n@@\n def _is_under_delme(rel: str) -> bool:\n-    rel_path = PurePosixPath(rel)\n-    for part in rel_path.parts:\n-        if part == \"_delme\":\n+    resolved = PurePosixPath(rel).resolve()\n+    for part in resolved.parts:\n+        if part == \"_delme\":\n             return True\n     return False\n```\n\nNote: this is the minimal one-function fix; if `rel` is not absolute, `resolve()` may behave OS-dependently \u2014 resolve against the workspace root if the caller has one available (e.g. `root.joinpath(rel).resolve()`), but the ordering requirement (resolve before the `_delme` comparison) is the fix. Findings: severity=high / cosmos/cosmos_approval.py / `..` bypass of HARDLINE `_delme` delete guard.",
+  "cached": 0,
+  "err": null
+ }
+}

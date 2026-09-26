@@ -1,0 +1,182 @@
+[
+  {
+    "n": 5,
+    "disposition": "restate",
+    "why": "cDeck backlog rows BACKLOG-not-BLOCKED; not ConPTY; not OpenWork iframe",
+    "src": "failed",
+    "oid": "wo-20260905T221200",
+    "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: GITUR. One job: remaining cDeck BACKLOG rows that are BACKLOG not BLOCKED/DO-NOT. Not C1 ConPTY. Not OpenWork iframe. Not Legal. Do not merge PRs #30 #32 #36 #37 #38. Branch ccr/cdeck-backlog.",
+    "fail": "NO_CONTEXT"
+  },
+  {
+    "n": 5,
+    "disposition": "restate",
+    "why": "one occupant per orch profile (grant + CCR.lease)",
+    "src": "failed",
+    "oid": "wo-20260905T221400",
+    "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: GITUR. MOTIF: ORCHESTRATOR PROFILES \u2014 one occupant per profile (GFO, this TUI, GrokBot, later federation). Do not share pens. Do not sit Legal from this TUI. Do not merge PRs #30 #32 #36 #37 #38. Branch ccr/orch-profiles.",
+    "fail": "NO_CONTEXT"
+  },
+  {
+    "n": 5,
+    "disposition": "restate",
+    "why": "SESSION TOOLS next bite only; one file; NONE if done",
+    "src": "failed",
+    "oid": "wo-20260905T221500",
+    "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: GITUR. MOTIF continue SESSION TOOLS: CCr PR #43 is Slices 1-4; CLI PR #44 is Slice-1 lane. Dispose/compare; HOLD migrate/recents-grok until named. Do not re-ingest 666. Do not recode cowork_to_openwork as ORC. Do not merge PRs #30 #32 #36 #37 #38. Branch stays ccr/session-tools.",
+    "fail": "NO_CONTEXT"
+  },
+  {
+    "n": 5,
+    "disposition": "restate",
+    "why": "RESEARCH DOM rails (SGH / DeerFlow) \u2014 not Gitur",
+    "src": "delme",
+    "oid": "wo-20260905T222400.json",
+    "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: DOM. SGH; free Gemini/Google search; ChatGPT chatbot; Perplexity; Bing. Not Gitur. Not this TUI. Not APIs. Do not merge PRs #30 #32 #36 #37 #38. Do not iframe OpenWork. Do not sit Legal. Do not lift ANTHROPIC_OFF. Do not re-ingest 666. Do not take Core :8770 down. One job, one branch, one PR. MOTIF: NEW-AI DISCOVERY scout. Open-ended finder of new AI products/models/agents (not just ",
+    "fail": ""
+  },
+  {
+    "n": 4,
+    "disposition": "restate",
+    "why": "RESEARCH: query channel / three-channel mesh (DOM, not code)",
+    "src": "failed",
+    "oid": "wo-20260902T193000",
+    "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Extend the existing cosmos_daemon.py (single daemon, no second process) to also handle the query channel: poll queries/ for new q-*.json files, route each directly to the orchestrator (no sub-agent spawn), collect the reply, write it to queries/replies/ as q-<stamp>-reply.json with status open/answered, and flip the status field. Keep the existing work-order polling, heartbeat, and spend-ga",
+    "fail": "NO_CONTEXT"
+  },
+  {
+    "n": 4,
+    "disposition": "restate",
+    "why": "RESEARCH: query channel / three-channel mesh (DOM, not code)",
+    "src": "failed",
+    "oid": "wo-20260902T194500",
+    "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Design the query-handling addition to the existing single cosmos_daemon.py (no second process, no new window, no GUI flash). The daemon must poll queries/ for q-*.json, route each directly to the orchestrator without spawning sub-agents, write replies to queries/replies/ as q-<stamp>-reply.json, and flip status open/answered. Include a completion flag and timestamp. Then evaluate whether se",
+    "fail": "NO_CONTEXT"
+  },
+  {
+    "n": 4,
+    "disposition": "restate",
+    "why": "RESEARCH: query channel / three-channel mesh (DOM, not code)",
+    "src": "failed",
+    "oid": "wo-20260902T195000",
+    "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Design the canonical three-channel communication loop for the mesh: (1) query channel \u2014 direct orchestrator query, no sub-agent spawn, reply to queries/replies/ with status flip; (2) work-order channel \u2014 propose-only task dispatch through work_orders/drop; (3) orchestration/build channel \u2014 Grok Build executes approved proposals into the tree. The return path is a single append-only log file",
+    "fail": "NO_CONTEXT"
+  },
+  {
+    "n": 4,
+    "disposition": "review",
+    "why": "unique leftover \u2014 human/orch DEFINE",
+    "src": "failed",
+    "oid": "wo-20260904T125500",
+    "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: CURSOR. Keith 2026-09-04: this TUI does not code. Cooking is COSMOS self-build + cDeck. Voice refine TABLED (SGH Voice + Grok Voice Think Fast 2.0 fills the phone endpoint). You are Lane B on cDeck P7. Spec: builds/cdeck/ORCH_HOME_SPEC.md P7 \u2014 GEM on home opens Gemini in Chrome side panel on Keith BBF Profile 2 (Alt+G). Not gemini.google.com/app. Not Vertex. Not C1 ConPTY (later). Do",
+    "fail": "NO_CONTEXT"
+  },
+  {
+    "n": 4,
+    "disposition": "restate",
+    "why": "auto-resession measurement only; not a second Core",
+    "src": "failed",
+    "oid": "wo-20260905T221300",
+    "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: GITUR. MOTIF: AUTOMATED RESESSION \u2014 next measurement only, not a spawn, not a second Core. SOP already exists. Do not fire cosmos_resession spawn. Do not merge PRs #30 #32 #36 #37 #38. Branch ccr/auto-resession-next.",
+    "fail": "NO_CONTEXT"
+  },
+  {
+    "n": 3,
+    "disposition": "restate",
+    "why": "RESEARCH DOM rails (SGH / DeerFlow) \u2014 not Gitur",
+    "src": "failed",
+    "oid": "wo-20260917T163837",
+    "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. You are WOMBAT GF38. Write a fat-cache DOM RESEARCH ITEM tail from wo-20260917T181040 (DeerFlow). Route: DOM. Skip Gitur. Do not spawn grok.exe. Do not USPTO.",
+    "fail": "NO_CONTEXT"
+  },
+  {
+    "n": 2,
+    "disposition": "restate",
+    "why": "RESEARCH: five federation blockers \u2014 fix or explicit deferral",
+    "src": "delme",
+    "oid": "wo-20260902T114530.json",
+    "task": "Resolve the five federation blockers so peer meshes can go live. Each blocker must be addressed with a concrete fix or an explicit deferral with reason.",
+    "fail": ""
+  },
+  {
+    "n": 2,
+    "disposition": "restate",
+    "why": "RESEARCH DOM: run GitHub agents locally (SGH) save quota",
+    "src": "delme",
+    "oid": "wo-20260902T170800.json",
+    "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Keith 2026-09-02: we can run GitHub agents locally and save quota (SGH). Desktop clones are already at V:\\GitHub\\{cosmos,cdeck,cdm,cosmos-android,bts-mesh}; cosmos checkout recovered at eb7c1fc. Host already has Copilot CLI (copilot.ps1 on PATH) and gh 2.97.0 (`gh copilot`). Do NOT use Copilot cloud coding agent, GitHub-hosted Actions runners, Cursor Cloud POST /v1/agents, or a colon filena",
+    "fail": ""
+  },
+  {
+    "n": 2,
+    "disposition": "restate",
+    "why": "cDeck backlog rows BACKLOG-not-BLOCKED; not ConPTY; not OpenWork iframe",
+    "src": "delme",
+    "oid": "wo-20260902T171500.json",
+    "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Keith 2026-09-02: he sees no cDeck improvements and says resize is gone. Header now has RELOAD (btnReload, cdeck-shell-v11) \u2014 do not rewind that. Native CSS resize:both is already on .home-card,.orch-code,.panel,#orch-home,#orch-east,#home-nav in app.css and panelGeom persist exists in app.js, but CSS grid/flex on the orch home swallows the native handle so it looks gone. Propose real point",
+    "fail": ""
+  },
+  {
+    "n": 2,
+    "disposition": "restate",
+    "why": "RESEARCH: new vendor Work agents; docs/research/WORK_AGENTS_HANDS",
+    "src": "delme",
+    "oid": "wo-20260902T174000.json",
+    "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Keith 2026-09-02: new OpenAI and other Work products are out and coming. Propose docs/research/WORK_AGENTS_HANDS.md \u2014 a competitor map of the Work-agent class as of live sources (cite URLs, dated). Must cover at least: OpenAI ChatGPT Work (2026-07-09) and Codex-in-ChatGPT desktop (Chat/Work/Codex switcher), Anthropic Claude Cowork (web+mobile), Microsoft Copilot Cowork + Scout, Google Gemin",
+    "fail": ""
+  },
+  {
+    "n": 2,
+    "disposition": "review",
+    "why": "unique leftover \u2014 human/orch DEFINE",
+    "src": "delme",
+    "oid": "wo-20260909T181800.json",
+    "task": "FIRST read docs/AGENT_BRIEF.md (DHx) and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Deliver the last 10-minute CCr update: a timestamped status of what CCr has done in the last ten minutes \u2014 active work, decisions, leases touched, Gitur activity, blockers, and next step. Write it as a fresh markdown file named CCR_UPDATE.md to Google Drive at https://drive.google.com/drive/folders/1lWXQbz-8Utej9aKI7o2dMDpaG-LKkblY (the COSMOS/cdm folder). Overwrite if a file of that ",
+    "fail": ""
+  },
+  {
+    "n": 1,
+    "disposition": "restate",
+    "why": "auto-resession measurement only; not a second Core",
+    "src": "delme",
+    "oid": "wo-20260905T221300.json",
+    "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: DOM. SGH; free Gemini/Google search; ChatGPT chatbot; Perplexity; Bing. Not Gitur. Not this TUI. Not APIs. MOTIF: AUTOMATED RESESSION \u2014 next measurement only, not a spawn, not a second Core. SOP already exists. Do not fire cosmos_resession spawn. Do not merge PRs #30 #32 #36 #37 #38. Branch ccr/auto-resession-next.",
+    "fail": ""
+  },
+  {
+    "n": 1,
+    "disposition": "restate",
+    "why": "RESEARCH DOM rails (SGH / DeerFlow) \u2014 not Gitur",
+    "src": "delme",
+    "oid": "wo-20260917T181040.json",
+    "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: DOM. MOTIF RESEARCH only: DeerFlow research pack on existing BTS/COSMOS Chrome path (chrome-bridge / Chrome MCP / Chrome CLI / playwright-dom, no window). PhD and legal research shape only. Children through cosmos_delegate.py (depth/concurrency/iteration policy; blocked tools; report never retry). Not Core. Not Gitur. Skip Gitur on RESEARCH. Do not install DeerFlow as a second OS, La",
+    "fail": ""
+  },
+  {
+    "n": 1,
+    "disposition": "restate_gitur",
+    "why": "work_orders/ccr/GITUR_WOMB_SEAT.md",
+    "src": "delme",
+    "oid": "wo-20260917T210153-womb-seat.json",
+    "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. Route: CURSOR. P10 PROPOSE. WOMB pick_pair. See work_orders/ccr/GITUR_WOMB_SEAT.md. Do not pull unique HEAD. Pen f47bad79 disposes LiT.",
+    "fail": ""
+  },
+  {
+    "n": 1,
+    "disposition": "restate_gitur",
+    "why": "work_orders/ccr/GITUR_MAKERS_ROLE_WRAPPER.md",
+    "src": "delme",
+    "oid": "wo-20260917T210154-makers-role.json",
+    "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. Route: CURSOR. P10 PROPOSE. makers ROLE WRAPPER. See work_orders/ccr/GITUR_MAKERS_ROLE_WRAPPER.md. Do not pull unique HEAD. Pen f47bad79 disposes LiT.",
+    "fail": ""
+  },
+  {
+    "n": 1,
+    "disposition": "restate_gitur",
+    "why": "work_orders/ccr/GITUR_LEARN_CLOCK.md",
+    "src": "delme",
+    "oid": "wo-20260917T210155-learn-clock.json",
+    "task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. Route: CURSOR. P10 PROPOSE. learn-style clock. See work_orders/ccr/GITUR_LEARN_CLOCK.md. Do not pull unique HEAD. Pen f47bad79 disposes LiT.",
+    "fail": ""
+  }
+]

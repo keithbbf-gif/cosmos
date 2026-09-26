@@ -1,0 +1,21 @@
+{
+ "id": "580-assert",
+ "pr": 580,
+ "digs": "worktree V:\\A\\Ai\\COSMOS\\live\\work\\codex\\hero\\580-assert d962a615",
+ "file_exists": true,
+ "ok": false,
+ "done": false,
+ "model": null,
+ "n_diff": 0,
+ "diff": "",
+ "last": "No findings.\n\nThe new section in [CLAUDE.md](</V:/A/Ai/COSMOS/live/work/codex/hero/580-assert/CLAUDE.md:192>) is consistent with the existing canon in `docs/PROMPT_CACHE.md`, `docs/AGENT_BOUNDARIES.md` item 15, and the broader briefing docs. I did not find a broken reference, contradiction, or behavioral regression in the added wording.\n\nResidual risk is documentation drift: this is now another summary of the prompt-cache SOP, so future edits to the canonical docs will need to keep this copy aligned. No tests were run because the change is documentation-only.",
+ "usage": {
+  "input_tokens": 130434,
+  "cached_input_tokens": 68480,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 2418,
+  "reasoning_output_tokens": 1240
+ },
+ "done_why": "missing real model field",
+ "stderr_tail": "Reading additional input from stdin...\n2026-09-18T18:20:09.474857Z ERROR codex_models_manager::manager: failed to load models cache: missing field `supports_parallel_tool_calls` at line 89 column 5\n2026-09-18T18:20:20.831050Z ERROR codex_core::tools::router: error=`\"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\" -Command 'if (Test-Path docs/PROMPT_CACHE.md) { Get-Content docs/PROMPT_CACHE.md }'` rejected: blocked by policy\n2026-09-18T18:20:20.833114Z ERROR codex_core::tools::router: error=`\"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\" -Command 'if (Test-Path docs/AGENT_BOUNDARIES.md) { Get-Content docs/AGENT_BOUNDARIES.md }'` rejected: blocked by policy\n"
+}

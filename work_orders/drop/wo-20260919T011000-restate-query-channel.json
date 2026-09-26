@@ -1,0 +1,23 @@
+{
+ "_schema": "cosmos-work-order/1",
+ "order_id": "wo-20260919T011000-restate-query-channel",
+ "Agent": "Luna Flex JUDGE-research + GLM Flash",
+ "Context source": [
+  "docs/AGENT_BRIEF.md [read*]",
+  "docs/AGENT_BOUNDARIES.md [read*]",
+  "docs/CANON_SPAWN.md [read*]",
+  "docs/HARNESS.md [read*]",
+  "work_orders/ccr/DEFINE_WOMB.md [read*]",
+  "work_orders/ccr/WOMB_PILE_400.json [read*]",
+  "work_orders/ccr/FULFILL_OR_RESTATE.md [read*]"
+ ],
+ "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. RESEARCH only (not code): query channel / three-channel mesh \u2014 (1) query (2) drop (3) return. DOM first. One ITEM: ITEM or NONE. No grok.exe. No second daemon.",
+ "Target & scope": "Route DOM. Isolated proposal only. Never LiT. Never extra grok.exe. Never USPTO. FIFO after existing GITUR_* packs.",
+ "Timestamp": "2026-09-19T01:10:00-05:00",
+ "Output": "proposals | QUERY_CHANNEL.md",
+ "_womb": {
+  "from": "157-failed + _delme wo-json unique restate",
+  "pile": "work_orders/ccr/WOMB_PILE_400.json",
+  "attempt": 2
+ }
+}

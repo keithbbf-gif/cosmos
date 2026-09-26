@@ -24,6 +24,10 @@ This file is read automatically by Copilot, Cursor Bugbot, and any native GitHub
 4. Federation — peer mesh blockers.
 5. Panel resize + drag-to-move with grid snap on the D-deck.
 
+## Resession
+
+Pick the close from `docs/RESESSION_BY_SURFACE.md`. Grok TUI and OpenWork do not share a spawn. Do not invent one.
+
 ## Do not
 
 - Write the live tree from a proposal. Propose only; COW applies.

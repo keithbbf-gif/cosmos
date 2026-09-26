@@ -1,0 +1,38 @@
+{
+ "sol": {
+  "id": "581-import-pen",
+  "family": "SOL-codex",
+  "ok": true,
+  "done": true,
+  "model": "gpt-5",
+  "verdict": "approve",
+  "summary": "KEEP\n```diff\n--- a/cosmos/cosmos_skills.py\n+++ b/cosmos/cosmos_skills.py\n@@\n+from .cosmos_approval import cosmos_approval\n+from .pen import assert_pen\n```",
+  "findings": [],
+  "cached": 10624,
+  "input": 10997,
+  "write": 0,
+  "output": 465,
+  "stderr_tail": "Reading additional input from stdin...\n2026-09-18T18:12:40.373420Z ERROR codex_models_manager::manager: failed to load models cache: missing field `supports_parallel_tool_calls` at line 89 column 5\n"
+ },
+ "glm": {
+  "id": "581-import-pen",
+  "family": "GLM-flash",
+  "http": 429,
+  "ok": false,
+  "model": null,
+  "text": "",
+  "cached": null,
+  "err": {
+   "message": "Provider returned error",
+   "code": 429,
+   "metadata": {
+    "raw": "z-ai/glm-5.3-flash is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations",
+    "provider_name": "DeepInfra",
+    "is_byok": false,
+    "provider_error_code": "engine_overloaded",
+    "limit_source": "upstream_provider_shared_pool",
+    "remedy_hint": "Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing"
+   }
+  }
+ }
+}

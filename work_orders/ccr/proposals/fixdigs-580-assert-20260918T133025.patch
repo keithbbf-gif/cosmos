@@ -1,0 +1,13 @@
+diff --git a/tests/test_cosmos_sandbox.py b/tests/test_cosmos_sandbox.py
+index 532a221d..df8f38d2 100644
+--- a/tests/test_cosmos_sandbox.py
++++ b/tests/test_cosmos_sandbox.py
+@@ -138,7 +138,7 @@ def test_host_pen_job_object_does_not_refuse_whole_v():
+         raised = None
+     except (SandboxError, WorkspaceError) as e:
+         raised = getattr(e, "kind", type(e).__name__)
+-    assert raised in ("HOST_PEN", "LIVE_TREE", "REFUSED") or raised
++    assert raised in ("HOST_PEN", "LIVE_TREE", "REFUSED")
+ 
+ 
+ def test_remote_listing_v_is_isolation():

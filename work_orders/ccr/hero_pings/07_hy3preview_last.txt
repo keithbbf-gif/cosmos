@@ -1,0 +1,16 @@
+We are given a set of instructions: AGENTS.md, WRAP.md, STYLE.md, SKILL.md, TASK.md (the mission is at the end). The mission says:
+
+--- MISSION ---
+
+# Mission ping
+
+Reply with exactly two lines:
+NONE
+HERO_OK tencent/hy3-preview
+
+We must follow the rules. The role is CODER, first line NONE or diff --git. The mission asks to reply with exactly two lines: NONE and HERO_OK tencent/hy3-preview. The STYLE says: "First line NONE or diff --git. No essay. No grok.exe." So we should output exactly:
+
+NONE
+HERO_OK tencent/hy3-preview
+
+No extra text, no markdown fences, because the mission says "Reply with exactly two lines". The wrapper says: "If the Mission asks for a unified diff, first line is NONE or a diff --git hunk." But here it's not a diff, it's just two lines. Also the wrapper says: "Output MUST match the Mission schema. If the Mission asks for JSON, emit strictly valid JSON... If the Mission asks for a unified diff, first line is N

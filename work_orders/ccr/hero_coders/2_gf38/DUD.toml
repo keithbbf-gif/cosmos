@@ -1,0 +1,41 @@
+# CODER 2 — GF38 Kelly. DUDs = sharp outfit.
+
+[legend]
+role = "CODER"
+model = "gemini-3.8-flash"
+harness_kind = "coding"
+harness_via = "vertex-coding"
+wrapper = "work_orders/ccr/hero_coders/_CODER_WRAP.md"
+style = "STYLES/_TEMPLATE"
+skills = ["none-extra"]
+
+[legend.tools]
+allow = []
+forbid = ["git_push", "grok.exe", "thinkingLevel.HIGH", "_fire_gf38"]
+sandbox = "none"
+
+[legend.enviro]
+wallet = "kelly-vertex-coding"
+location = "global"
+auth = "apikey"
+pack = "house"
+budget_out_usd_per_m = 3.75
+context_window_tokens = 1048576
+credit_left_usd = 57
+
+[legend.output]
+what = "python"
+size_mode = "max_minus_margin"
+window_margin_frac = 0.20
+optimum = "float"
+
+[mission]
+id = "at-summon"
+item = "Written at summon. The reply is python."
+
+[mission.output]
+where = ["work_orders/ccr/proposals/"]
+what = "python"
+size_mode = "max_minus_margin"
+window_margin_frac = 0.20
+optimum = "float"

@@ -1,0 +1,38 @@
+{
+ "ok": true,
+ "done": true,
+ "kind": "CLI",
+ "model": "gpt-5-codex",
+ "verdict": "request-changes",
+ "summary": "Two hard failures make the feature unusable as submitted: the new module imports a nonexistent `cosmos_approval` module on startup, and both `accept()` and `reject()` import an undefined `assert_pen` symbol from `cosmos_ccr`. There is also a state-machine bug where reproposing the same content-addressed SHA resets it to `PROPOSED`, defeating the intended one-decision-per-SHA behavior.",
+ "findings": [
+  {
+   "severity": "high",
+   "path": "cosmos/cosmos_skills.py",
+   "line": 226,
+   "message": "`open_registry()` imports `ApprovalGate` from `cosmos_approval`, but that module is not present in the current tree. As written, every CLI subcommand (`propose`, `accept`, `list`) and any programmatic call through `open_registry()` will fail with `ModuleNotFoundError` before the registry can be used."
+  },
+  {
+   "severity": "high",
+   "path": "cosmos/cosmos_skills.py",
+   "line": 150,
+   "message": "`accept()` imports `assert_pen` from `cosmos_ccr`, but `cosmos_ccr.py` does not define that symbol. The same bad import is repeated in `reject()` at line 194. Both decision paths therefore raise `ImportError` immediately, so no proposal can ever be accepted or rejected."
+  },
+  {
+   "severity": "med",
+   "path": "cosmos/cosmos_skills.py",
+   "line": 101,
+   "message": "The fold logic reopens an already-decided proposal whenever the same SKILL.md is proposed again. Because `SKILL_PROPOSED` unconditionally overwrites `s[\"proposed\"][sha]` back to `state=\"PROPOSED\"`, resubmitting identical content bypasses the `ALREADY_DECIDED` guard in `_proposal()`. That lets a previously rejected SHA be reconsidered and lets an already accepted SHA be re-accepted to bump the active version without any content change."
+  }
+ ],
+ "done_why": "ok",
+ "detail": null,
+ "usage": {
+  "input_tokens": 380676,
+  "cached_input_tokens": 290688,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 9350,
+  "reasoning_output_tokens": 7505
+ },
+ "last_message": "{\"verdict\":\"request-changes\",\"findings\":[{\"severity\":\"high\",\"path\":\"cosmos/cosmos_skills.py\",\"line\":226,\"message\":\"`open_registry()` imports `ApprovalGate` from `cosmos_approval`, but that module is not present in the current tree. As written, every CLI subcommand (`propose`, `accept`, `list`) and any programmatic call through `open_registry()` will fail with `ModuleNotFoundError` before the registry can be used.\"},{\"severity\":\"high\",\"path\":\"cosmos/cosmos_skills.py\",\"line\":150,\"message\":\"`accept()` imports `assert_pen` from `cosmos_ccr`, but `cosmos_ccr.py` does not define that symbol. The same bad import is repeated in `reject()` at line 194. Both decision paths therefore raise `ImportError` immediately, so no proposal can ever be accepted or rejected.\"},{\"severity\":\"med\",\"path\":\"cosmos/cosmos_skills.py\",\"line\":101,\"message\":\"The fold logic reopens an already-decided proposal whenever the same SKILL.md is proposed again. Because `SKILL_PROPOSED` unconditionally overwrites `s[\\\"proposed\\\"][sha]` back to `state=\\\"PROPOSED\\\"`, resubmitting identical content bypasses the `ALREADY_DECIDED` guard in `_proposal()`. That lets a previously rejected SHA be reconsidered and lets an already accepted SHA be re-accepted to bump the active version without any content change.\"}],\"model\":\"gpt-5-codex\",\"summary\":\"Two hard failures make the feature unusable as submitted: the new module imports a nonexistent `cosmos_approval` module on startup, and both `accept()` and `reject()` import an undefined `assert_pen` symbol from `cosmos_ccr`. There is also a state-machine bug where reproposing the same content-addressed SHA resets it to `PROPOSED`, defeating the intended one-decision-per-SHA behavior.\"}"
+}

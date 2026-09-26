@@ -1,0 +1,16 @@
+{
+  "role": "WOMBAT",
+  "model": "openai/gpt-6-luna:floor",
+  "effort": "max",
+  "harness": "Codex CLI, isolated CODEX_HOME, OpenRouter",
+  "wrapper_role": "WOMBAT",
+  "skill": "wombat-womb-board",
+  "tools_allow": [
+    "rg",
+    "read_file",
+    "list_dir"
+  ],
+  "cwd": "V:\\A\\Ai\\COSMOS\\live\\work\\codex\\hero-wombat-luna",
+  "wrap_first_line": "# WRAP/WOMBAT \u2014 Work Order Main Board. Kind board.",
+  "style_model": "gpt-6-luna"
+}

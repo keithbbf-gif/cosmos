@@ -1,0 +1,42 @@
+# CODER 5 — Ling 3.0 Flash. DUDs = sharp outfit.
+# Via = OpenCode headless (Ling has no first-party harness). Not Hermes. Not extra grok.exe.
+
+[legend]
+role = "CODER"
+model = "inclusionai/ling-3.0-flash"
+harness_kind = "coding"
+harness_via = "cli:opencode"
+opencode_model = "openrouter/inclusionai/ling-3.0-flash"
+opencode_home = "V:\\A\\Ai\\COSMOS\\live\\work\\opencode-home"
+wrapper = "work_orders/ccr/hero_coders/_CODER_WRAP.md"
+style = "STYLES/_TEMPLATE"
+skills = ["none-extra"]
+
+[legend.tools]
+allow = []  # OpenCode built-in kind-gated in worktree
+forbid = ["git_push", "git_merge", "grok.exe"]
+sandbox = "worktree"
+
+[legend.enviro]
+wallet = "openrouter"  # OPENROUTER_API_KEY. Native ANT_LING_API_KEY if Keith drops it.
+pack = "house"
+budget_out_usd_per_m = 0.063
+context_window_tokens = 262144
+
+[legend.output]
+what = "python"
+size_mode = "max_minus_margin"
+window_margin_frac = 0.20
+optimum = "float"
+
+[mission]
+id = "at-summon"
+item = "Written at summon. The reply is python."
+spawn = "opencode run --dir WORKTREE -m openrouter/inclusionai/ling-3.0-flash"
+
+[mission.output]
+where = ["work_orders/ccr/proposals/"]
+what = "python"
+size_mode = "max_minus_margin"
+window_margin_frac = 0.20
+optimum = "float"

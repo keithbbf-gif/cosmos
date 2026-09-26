@@ -26,6 +26,9 @@ credentials*.json
 # Shipping these is how a peer install inherits somebody else's history and believes it.
 BUCm.toml
 BUcr.toml
+BUhar.toml
+BUorc.toml
+live/ledger/
 *_ledger.jsonl
 *_heartbeat*.json
 *_state/

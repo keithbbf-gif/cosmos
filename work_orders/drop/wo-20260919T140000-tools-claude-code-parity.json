@@ -1,0 +1,15 @@
+{
+ "_schema": "cosmos-work-order/1",
+ "order_id": "wo-20260919T140000-tools-claude-code-parity",
+ "Agent": "xAI | Grok | grok-4.6",
+ "Context source": [
+  "V:\\A\\Ai\\COSMOS\\docs\\AGENT_BRIEF.md [read*]",
+  "V:\\A\\Ai\\COSMOS\\docs\\AGENT_BOUNDARIES.md [read*]",
+  "V:\\A\\Ai\\COSMOS\\docs\\CANON_SPAWN.md [read*]",
+  "V:\\A\\Ai\\COSMOS\\docs\\HARNESS.md [read*]"
+ ],
+ "Task": "FIRST read AGENT_BRIEF and AGENT_BOUNDARIES. P10 propose only.\n\nONE bite: COSMOS coding tools modeled on Claude Code: Read, Write, Edit, Glob, Grep, Bash, WebFetch, WebSearch, Skill, TodoWrite, Task (child = new full legend), AskUserQuestion, NotebookEdit=n/a unless Mission names a notebook.\n\nKind-gate stays: Judge = Read/Glob/Grep/WebFetch/Skill/AskUserQuestion only. Coder = full set minus git_push, git_merge, grok.exe, LiT. WOMBAT = drop files only.\n\nIf a HERO via (pi, dsh, opencode, codex, Cursor) already exposes the tool, document the mapping. If missing, propose the COSMOS wrapper (one file). Unified diff first. NONE if already mapped. VERIFY 3. No grok.exe. No LiT.",
+ "Target & scope": "Route GITUR. Isolated proposal. Never extra grok.exe. Never USPTO.",
+ "Timestamp": "2026-09-19T14:00:00-05:00",
+ "Output": "proposals | tools_claude_code_parity.diff"
+}

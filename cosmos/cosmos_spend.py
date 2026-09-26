@@ -11,10 +11,23 @@ estimate | measured | billed.
 """
 from __future__ import annotations
 
+import math
 import time
 from typing import Callable, Optional
 
 from cosmos_ledger import Ledger
+
+
+def _usd(v) -> Optional[float]:
+    """A finite, non-negative dollar amount, else None. NaN compared False to
+    the cap (never denied); a negative 'measured' cost refilled the wallet."""
+    if v is None or isinstance(v, bool):
+        return None
+    try:
+        x = float(v)
+    except (TypeError, ValueError):
+        return None
+    return x if math.isfinite(x) and x >= 0 else None
 
 
 class SpendError(RuntimeError):
@@ -50,16 +63,26 @@ class SpendGate:
                     s[p["rail"]]["expires"] = p.get("expires_epoch")
                 else:
                     s[p["rail"]] = {"cap": p["cap_usd"], "expires": p.get("expires_epoch"),
-                                    "reserved": {}, "settled": 0.0, "unpriced": 0}
+                                    "reserved": {}, "settled": 0.0, "unpriced": 0,
+                                    "unpriced_usd": 0.0}
+                s[p["rail"]].setdefault("unpriced_usd", 0.0)
             elif e == "SPEND_RESERVED" and p["rail"] in s:
                 s[p["rail"]]["reserved"][p["rid"]] = {"usd": p["worst_case_usd"],
                                                       "expires": p["expires_epoch"]}
             elif e == "SPEND_SETTLED" and p["rail"] in s:
-                s[p["rail"]]["reserved"].pop(p["rid"], None)
-                if p["measured_usd"] is None:
+                res = s[p["rail"]]["reserved"].pop(p["rid"], None)
+                s[p["rail"]].setdefault("unpriced_usd", 0.0)
+                measured = _usd(p.get("measured_usd"))
+                if measured is None:
+                    # UNPRICED is never zero: the call happened and its cost is
+                    # unknown, so its worst case stays held against the cap.
                     s[p["rail"]]["unpriced"] += 1
+                    held = _usd(p.get("worst_case_usd"))
+                    if held is None and res is not None:
+                        held = _usd(res.get("usd"))
+                    s[p["rail"]]["unpriced_usd"] += held or 0.0
                 else:
-                    s[p["rail"]]["settled"] += p["measured_usd"]
+                    s[p["rail"]]["settled"] += measured
             elif e == "SPEND_RELEASED" and p["rail"] in s:
                 s[p["rail"]]["reserved"].pop(p["rid"], None)
             return s
@@ -71,6 +94,12 @@ class SpendGate:
                      ttl_s: float = 600) -> dict:
         """RESERVE -> DENY-or-CALL -> SETTLE. The call receives nothing until the
         reservation exists; a failed reserve raises BEFORE any spend can happen."""
+        wc = _usd(worst_case_usd)
+        if wc is None:
+            raise SpendError("DENIED", f"{rail}: worst case {worst_case_usd!r} is not a "
+                                       f"finite dollar amount >= 0 - an unboundable "
+                                       f"call is not allowed")
+        worst_case_usd = wc
         st = self._state()
         if rail not in st:
             raise SpendError("UNKNOWN_RAIL",
@@ -95,7 +124,8 @@ class SpendGate:
                                    {"rail": rail, "rid": rid,
                                     "detail": "reservation expired unsettled - swept"})
                 del b["reserved"][rid]
-        outstanding = sum(r["usd"] for r in b["reserved"].values())
+        outstanding = (sum(r["usd"] for r in b["reserved"].values())
+                       + b.get("unpriced_usd", 0.0))
         if b["settled"] + outstanding + worst_case_usd > b["cap"]:
             self.ledger.append("SPEND_DENIED",
                                {"rail": rail, "worst_case_usd": worst_case_usd,
@@ -122,7 +152,8 @@ class SpendGate:
             for r2id, r2 in list(b2["reserved"].items()):
                 if now2 >= r2["expires"]:
                     b2["reserved"].pop(r2id, None)
-            out2 = sum(r["usd"] for r in b2["reserved"].values())
+            out2 = (sum(r["usd"] for r in b2["reserved"].values())
+                    + b2.get("unpriced_usd", 0.0))
             if b2["settled"] + out2 + worst_case_usd > b2["cap"]:
                 raise SpendError(
                     "DENIED",
@@ -139,10 +170,11 @@ class SpendGate:
             self.ledger.append("SPEND_RELEASED", {"rail": rail, "rid": rid,
                                                   "detail": "call raised - released"})
             raise
-        measured = result.get("usd")            # None = UNPRICED, and that is a state
+        measured = _usd(result.get("usd")) if isinstance(result, dict) else None
         self.ledger.append("SPEND_SETTLED",
                            {"rail": rail, "rid": rid,
                             "measured_usd": measured,
+                            "worst_case_usd": worst_case_usd,
                             "provenance": "measured" if measured is not None else "UNPRICED"})
         # Stamp the join keys this call just wrote (SPEND_RESERVED/SETTLED
         # already carry rid+rail). Callers that record a CONVO_TURN can
@@ -160,11 +192,13 @@ class SpendGate:
         out = {"measured_at_epoch": now, "rails": {}}
         for rail, b in self._state().items():
             reserved = sum(r["usd"] for r in b["reserved"].values())
+            held = b.get("unpriced_usd", 0.0)
             row = {"cap_usd": b["cap"], "settled_usd": round(b["settled"], 6),
                    "reserved_usd": round(reserved, 6),
                    "unpriced_calls": b["unpriced"],
+                   "unpriced_held_usd": round(held, 6),
                    # CRITIC B7: headroom that ignores reservations lies toward spending.
-                   "headroom_usd": round(b["cap"] - b["settled"] - reserved, 6)}
+                   "headroom_usd": round(b["cap"] - b["settled"] - held - reserved, 6)}
             if b["expires"]:
                 days = (b["expires"] - now) / 86400
                 burn_needed = b["cap"] - b["settled"]

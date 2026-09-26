@@ -1,0 +1,63 @@
+{
+  "order_id": "wish-04-womb",
+  "Agent": "OpenRouter | Nex | nex-agi/nex-n2.5-mini:free",
+  "Context source": [
+    "V:\\A\\Ai\\COSMOS\\docs\\AGENT_BRIEF.md",
+    "V:\\A\\Ai\\COSMOS\\docs\\AGENT_BOUNDARIES.md",
+    "V:\\A\\Ai\\COSMOS\\docs\\WISHLIST.md"
+  ],
+  "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. WISH: CDECK PARALLEL INSTANCES (Keith 2026-09-07). cDeck runs parallel profile windows the way Grok.com + OpenWork already sit in parallel: one instance **Forge**, one instance **Crucible** (later Diligence / Docket / UPS). Same Core `:8770` is two clients, not two Cores. Federation-minded: each window is a skin bound to `{profile, core_base, tree_id}`; a peer Core stays `NO_HOST` until Keith names it (Grayson = Crucible skin on *his* Core). Do not mix skins. Do not share trees. Do not iframe Grok.com or OpenWork. Do not invent hostnames.",
+  "Target & scope": "proposals under Output only; never kernel/ledger/sched/service; never LiT; never grok.exe",
+  "Timestamp": "2026-09-24T10:47:56-05:00",
+  "Output": "proposals | out.json",
+  "output_what": "python",
+  "OPTIMUM_tokens": "float",
+  "MAX_tokens": 209600,
+  "crew": [
+    {
+      "seat": 1,
+      "Agent": "OpenRouter | Nex | nex-agi/nex-n2.5-mini:free",
+      "tier": "free",
+      "context_window_tokens": 262000,
+      "cache_floor_tokens": 1024,
+      "cache_ttl": "30m",
+      "cache_prefix": "legend+WRAP+STYLE+SKILL",
+      "timeout_s": 900,
+      "tps": 49,
+      "pack": "work_orders/ccr/hero_coders/13_nexmini",
+      "output_what": "python",
+      "OPTIMUM_tokens": "float",
+      "MAX_tokens": 209600
+    },
+    {
+      "seat": 2,
+      "Agent": "OpenRouter | North | cohere/north-mini-code:free",
+      "tier": "free",
+      "context_window_tokens": 256000,
+      "cache_floor_tokens": 1024,
+      "cache_ttl": "30m",
+      "cache_prefix": "legend+WRAP+STYLE+SKILL",
+      "timeout_s": 900,
+      "tps": 58,
+      "pack": "work_orders/ccr/hero_coders/09_northmini",
+      "output_what": "python",
+      "OPTIMUM_tokens": "float",
+      "MAX_tokens": 204800
+    },
+    {
+      "seat": 3,
+      "Agent": "OpenRouter | Hy3 | tencent/hy3-preview",
+      "tier": "paid-low",
+      "context_window_tokens": 262000,
+      "cache_floor_tokens": 1024,
+      "cache_ttl": "30m",
+      "cache_prefix": "legend+WRAP+STYLE+SKILL",
+      "timeout_s": 900,
+      "tps": 69,
+      "pack": "work_orders/ccr/hero_coders/07_hy3preview",
+      "output_what": "python",
+      "OPTIMUM_tokens": "float",
+      "MAX_tokens": 209600
+    }
+  ]
+}

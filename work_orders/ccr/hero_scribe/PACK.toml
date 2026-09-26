@@ -1,0 +1,23 @@
+# Seat pack: Scribe (COSMOS Layer 8 Specification)
+schema         = "cosmos-pack/2"
+station        = "scribe"
+tier           = "writer"
+axis           = "single_writer_pen"
+durable        = true               # persistent seat; survives queue droughts
+resession_at   = 0.75               # resession at 75% context window, carry manifest
+catch_source   = "live/queue/scribe_inbox/"   # ACCEPT batches from Final Auditor
+
+[model]
+primary        = "meta/muse-spark-1.3-contributor"
+family         = "meta"               # orthogonal: Judge openai, Auditor xai, Scribe meta
+via            = "openrouter-api"     # free on OpenCode/OpenWork per stations note
+harness        = "direct"
+context_window = 1048576
+resession_ceiling = 786432            # 75% of 1M — carry manifest + cycle
+
+[estates]
+writes         = ["V:\\A\\Ai\\COSMOS (live tree)", "github origin/main", "gitlab main", "V:\\"]
+rule           = "all four current and synced, every commit, atomic with ledger"
+
+fences         = ["ONE_WRITER — second Scribe REFUSES (CCR.lease)", "NO_BTS", "NO_DELETES — stage to _delme"]
+reads          = ["docs/CANON_AGENT_CALLS.md", "docs/CANON_4C_JUDGE.md"]

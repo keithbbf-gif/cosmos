@@ -1,0 +1,44 @@
+# CODER 1 — GLM 5.3 Flash. DUDs = sharp outfit.
+# Via = Pi (Z.AI documented terminal harness). Not ZCode desktop. Not extra grok.exe.
+
+[legend]
+role = "CODER"
+model = "glm-5.3-flash"
+harness_kind = "coding"
+harness_via = "cli:pi"
+pi_provider = "zai"
+pi_fallback_provider = "openrouter"
+pi_fallback_model = "z-ai/glm-5.3-flash"
+pi_home = "V:\\A\\Ai\\COSMOS\\live\\work\\pi-home"
+wrapper = "work_orders/ccr/hero_coders/_CODER_WRAP.md"
+style = "STYLES/_TEMPLATE"
+skills = ["none-extra"]
+
+[legend.tools]
+allow = ["read", "bash", "powershell", "edit", "write", "grep", "find", "ls"]
+forbid = ["git_push", "git_merge", "grok.exe"]
+sandbox = "worktree"
+
+[legend.enviro]
+pack = "house"
+wallet = "zai"  # ZAI_API_KEY. Fallback OPENROUTER_API_KEY + provider openrouter.
+budget_out_usd_per_m = 0.25
+context_window_tokens = 1000000  # OpenRouter catalog 2026-09-18: 1.0M / max-out 131.1K
+
+[legend.output]
+what = "python"
+size_mode = "max_minus_margin"
+window_margin_frac = 0.20
+optimum = "float"
+
+[mission]
+id = "at-summon"
+item = "Written at summon. The reply is python."
+spawn = "pi -p --provider zai --model glm-5.3-flash --exclude-tools ask_question"
+
+[mission.output]
+where = ["work_orders/ccr/proposals/"]
+what = "python"
+size_mode = "max_minus_margin"
+window_margin_frac = 0.20
+optimum = "float"

@@ -1,0 +1,15 @@
+{
+ "id": "580-assert",
+ "pr": 580,
+ "digs": "reused V:\\A\\Ai\\COSMOS\\live\\work\\codex\\hero\\580-assert d962a615",
+ "file_exists": true,
+ "ok": true,
+ "done": true,
+ "model": null,
+ "n_diff": 553,
+ "diff": "diff --git a/tests/test_cosmos_sandbox.py b/tests/test_cosmos_sandbox.py\nindex 532a221d..df8f38d2 100644\n--- a/tests/test_cosmos_sandbox.py\n+++ b/tests/test_cosmos_sandbox.py\n@@ -138,7 +138,7 @@ def test_host_pen_job_object_does_not_refuse_whole_v():\n         raised = None\n     except (SandboxError, WorkspaceError) as e:\n         raised = getattr(e, \"kind\", type(e).__name__)\n-    assert raised in (\"HOST_PEN\", \"LIVE_TREE\", \"REFUSED\") or raised\n+    assert raised in (\"HOST_PEN\", \"LIVE_TREE\", \"REFUSED\")\n \n \n def test_remote_listing_v_is_isolation():\n",
+ "last": "Updated [tests/test_cosmos_sandbox.py](V:/A/Ai/COSMOS/live/work/codex/hero/580-assert/tests/test_cosmos_sandbox.py) to remove the fallback `or raised` from the final assertion in `test_host_pen_job_object_does_not_refuse_whole_v`.",
+ "usage": null,
+ "done_why": "rc=0",
+ "stderr_tail": "Reading additional input from stdin...\n2026-09-18T18:30:28.004449Z ERROR codex_models_manager::manager: failed to load models cache: missing field `supports_parallel_tool_calls` at line 89 column 5\n2026-09-18T18:30:28.223076Z ERROR codex_models_manager::manager: failed to load models cache: missing field `supports_parallel_tool_calls` at line 89 column 5\n2026-09-18T18:30:39.987271Z ERROR codex_core::tools::router: error=Exit code: 1\nWall time: 0.2 seconds\nOutput:\nrg: \\LIVE_TREE\\,: The system cannot find the path specified. (os error 3)\nrg: \\REFUSED\\\\): The system cannot find the path specified. (os error 3)\nrg: or: The system cannot find the file specified. (os error 2)\nrg: raised|test_host_pen_job_object_does_not_refuse_whole_v tests/test_cosmos_sandbox.py: The filename, directory name, or volume label syntax is incorrect. (os error 123)\n\n2026-09-18T18:30:41.581887Z ERROR codex_models_manager::manager: failed to load models cache: missing field `supports_parallel_tool_calls` at line 89 column 5\n2026-09-18T18:30:45.754263Z ERROR codex_models_manager::manager: failed to load models cache: missing field `supports_parallel_tool_calls` at line 89 column 5\n2026-09-18T18:30:45.783325Z ERROR codex_models_manager::manager: failed to load models cache: missing field `supports_parallel_tool_calls` at line 89 column 5\n"
+}

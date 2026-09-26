@@ -16,6 +16,9 @@ pretending, so verify() REFUSES rather than skipping.
 Scar lineage: a claim nobody can probe is indistinguishable from a claim that is false
 (the dead phone, the health row that could never go red). Every row in report() carries
 its measurement AGE; a never-verified tool reports verified=None (UNKNOWN), never True.
+
+The six coding verbs (Read / Write / Edit / Glob / Grep / Bash) are not this
+registry. They are cosmos_code_tools.CodeTools, allowlisted, shell=False.
 """
 from __future__ import annotations
 

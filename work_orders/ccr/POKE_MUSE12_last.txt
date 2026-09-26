@@ -1,0 +1,2 @@
+NONE
+HERO_OK meta/muse-spark-1.2-contributor

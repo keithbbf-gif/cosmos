@@ -1,0 +1,63 @@
+{
+  "order_id": "wish-17-womb",
+  "Agent": "OpenRouter | Nex | nex-agi/nex-n2.5-mini:free",
+  "Context source": [
+    "V:\\A\\Ai\\COSMOS\\docs\\AGENT_BRIEF.md",
+    "V:\\A\\Ai\\COSMOS\\docs\\AGENT_BOUNDARIES.md",
+    "V:\\A\\Ai\\COSMOS\\docs\\WISHLIST.md"
+  ],
+  "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. WISH: Grok & GEM node workers (own buckets) \u2014 native Windows Python daemons: each polls its own \u00b7 WATCHDOG2 ASSIGNED 2026-08-31T19:45:12.264797-05:00 cm/g46_grok_motif_grok_gem_node_workers_own_buck_2f7997c3__t1800.py\n      bucket, picks up tasks, executes via its rail (Grok\u2192sgh/gw, GEM\u2192gem), and writes results\n      DIRECTLY to the designated folder \u2014 **V:\\ is best**, GDX (Google Drive) and ODX (OneDrive) as\n      alternates. Mirror cosmos_runner/collector (heartbeat, PAUSE-aware, schtasks self-heal). No BTS.",
+  "Target & scope": "proposals under Output only; never kernel/ledger/sched/service; never LiT; never grok.exe",
+  "Timestamp": "2026-09-24T08:15:55-05:00",
+  "Output": "proposals | out.json",
+  "output_what": "python",
+  "OPTIMUM_tokens": "float",
+  "MAX_tokens": 209600,
+  "crew": [
+    {
+      "seat": 1,
+      "Agent": "OpenRouter | Nex | nex-agi/nex-n2.5-mini:free",
+      "tier": "free",
+      "context_window_tokens": 262000,
+      "cache_floor_tokens": 1024,
+      "cache_ttl": "30m",
+      "cache_prefix": "legend+WRAP+STYLE+SKILL",
+      "timeout_s": 900,
+      "tps": 49,
+      "pack": "work_orders/ccr/hero_coders/13_nexmini",
+      "output_what": "python",
+      "OPTIMUM_tokens": "float",
+      "MAX_tokens": 209600
+    },
+    {
+      "seat": 2,
+      "Agent": "OpenRouter | North | cohere/north-mini-code:free",
+      "tier": "free",
+      "context_window_tokens": 256000,
+      "cache_floor_tokens": 1024,
+      "cache_ttl": "30m",
+      "cache_prefix": "legend+WRAP+STYLE+SKILL",
+      "timeout_s": 900,
+      "tps": 58,
+      "pack": "work_orders/ccr/hero_coders/09_northmini",
+      "output_what": "python",
+      "OPTIMUM_tokens": "float",
+      "MAX_tokens": 204800
+    },
+    {
+      "seat": 3,
+      "Agent": "OpenRouter | Hy3 | tencent/hy3-preview",
+      "tier": "paid-low",
+      "context_window_tokens": 262000,
+      "cache_floor_tokens": 1024,
+      "cache_ttl": "30m",
+      "cache_prefix": "legend+WRAP+STYLE+SKILL",
+      "timeout_s": 900,
+      "tps": 69,
+      "pack": "work_orders/ccr/hero_coders/07_hy3preview",
+      "output_what": "python",
+      "OPTIMUM_tokens": "float",
+      "MAX_tokens": 209600
+    }
+  ]
+}

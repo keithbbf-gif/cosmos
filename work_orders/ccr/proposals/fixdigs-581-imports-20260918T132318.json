@@ -1,0 +1,21 @@
+{
+ "id": "581-imports",
+ "pr": 581,
+ "digs": "reused V:\\A\\Ai\\COSMOS\\live\\work\\codex\\hero\\581-imports 4b0e041f",
+ "file_exists": true,
+ "ok": false,
+ "done": false,
+ "model": null,
+ "n_diff": 0,
+ "diff": "",
+ "last": "Standing by as `CODER` in the Codex harness. Send the coding task.",
+ "usage": {
+  "input_tokens": 10810,
+  "cached_input_tokens": 2432,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 60,
+  "reasoning_output_tokens": 36
+ },
+ "done_why": "missing real model field",
+ "stderr_tail": "Reading additional input from stdin...\n2026-09-18T18:23:43.555122Z ERROR codex_models_manager::manager: failed to load models cache: missing field `supports_parallel_tool_calls` at line 89 column 5\n"
+}

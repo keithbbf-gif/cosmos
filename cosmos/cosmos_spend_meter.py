@@ -66,6 +66,15 @@ def poll_once(root: str) -> dict:
                       "detail": f"{type(e).__name__}: {e}"[:400]})
     extra["elapsed_s"] = round(time.time() - t0, 3)
     hb = write_heartbeat(logs / HEARTBEAT_NAME, WORKER, extra=extra)
+    rails = audit.get("rails") or {}
+    settled = 0.0
+    held = 0.0
+    for row in rails.values():
+        if not isinstance(row, dict):
+            continue
+        settled += float(row.get("settled_usd") or 0)
+        held += float(row.get("unpriced_held_usd") or 0)
+    usd_kind = "MEASURED" if extra.get("ok") and rails else "UNMEASURED"
     projection = {
         "schema": SCHEMA,
         "measured_at": hb["last_run"],
@@ -75,6 +84,16 @@ def poll_once(root: str) -> dict:
         "state": extra.get("state"),
         "audit": audit,
         "elapsed_s": extra["elapsed_s"],
+        # cDeck header strip. Tokens are UNMEASURED until a rail reports them.
+        # Day/week USD are UNMEASURED (ledger has no day fold here). Do not invent 0.
+        "tokens": {"in": None, "out": None, "kind": "UNMEASURED"},
+        "usd": {
+            "settled": round(settled, 6) if usd_kind == "MEASURED" else None,
+            "unpriced_held": round(held, 6) if usd_kind == "MEASURED" else None,
+            "day": None,
+            "week": None,
+            "kind": usd_kind,
+        },
     }
     atomic_json(dest, projection)
     return {"ok": bool(extra.get("ok")), "heartbeat": hb,

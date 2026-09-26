@@ -1,0 +1,63 @@
+{
+  "order_id": "wish-37-womb",
+  "Agent": "OpenRouter | Nex | nex-agi/nex-n2.5-mini:free",
+  "Context source": [
+    "V:\\A\\Ai\\COSMOS\\docs\\AGENT_BRIEF.md",
+    "V:\\A\\Ai\\COSMOS\\docs\\AGENT_BOUNDARIES.md",
+    "V:\\A\\Ai\\COSMOS\\docs\\WISHLIST.md"
+  ],
+  "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. WISH: Claude Desktop on Amazon Bedrock \u2014 Keith paste 2026-09-02 (AWS 21 APR 2026, updated\n      June 2026). Official AWS rail: Chat + Cowork + Claude Code through Bedrock in-account\n      inference; consumption billing; no Anthropic seat license. Per-surface policy keys.\n      History stays on-device. **Not included:** Claude Design, Computer Use, Skills Marketplace\n      (Anthropic-hosted). MDM/GPO sets model ID + inference profile + IAM or Bedrock API keys;\n      optional LLM gateway URL. **Does not lift ANTHROPIC_OFF** until Keith says so. Never COW\n      *today*. This is one of the two **Cowork-return** paths (see next item). File HANDS; do\n      not wire a live Claude path now.",
+  "Target & scope": "proposals under Output only; never kernel/ledger/sched/service; never LiT; never grok.exe",
+  "Timestamp": "2026-09-24T08:15:55-05:00",
+  "Output": "proposals | out.json",
+  "output_what": "python",
+  "OPTIMUM_tokens": "float",
+  "MAX_tokens": 209600,
+  "crew": [
+    {
+      "seat": 1,
+      "Agent": "OpenRouter | Nex | nex-agi/nex-n2.5-mini:free",
+      "tier": "free",
+      "context_window_tokens": 262000,
+      "cache_floor_tokens": 1024,
+      "cache_ttl": "30m",
+      "cache_prefix": "legend+WRAP+STYLE+SKILL",
+      "timeout_s": 900,
+      "tps": 49,
+      "pack": "work_orders/ccr/hero_coders/13_nexmini",
+      "output_what": "python",
+      "OPTIMUM_tokens": "float",
+      "MAX_tokens": 209600
+    },
+    {
+      "seat": 2,
+      "Agent": "OpenRouter | North | cohere/north-mini-code:free",
+      "tier": "free",
+      "context_window_tokens": 256000,
+      "cache_floor_tokens": 1024,
+      "cache_ttl": "30m",
+      "cache_prefix": "legend+WRAP+STYLE+SKILL",
+      "timeout_s": 900,
+      "tps": 58,
+      "pack": "work_orders/ccr/hero_coders/09_northmini",
+      "output_what": "python",
+      "OPTIMUM_tokens": "float",
+      "MAX_tokens": 204800
+    },
+    {
+      "seat": 3,
+      "Agent": "OpenRouter | Hy3 | tencent/hy3-preview",
+      "tier": "paid-low",
+      "context_window_tokens": 262000,
+      "cache_floor_tokens": 1024,
+      "cache_ttl": "30m",
+      "cache_prefix": "legend+WRAP+STYLE+SKILL",
+      "timeout_s": 900,
+      "tps": 69,
+      "pack": "work_orders/ccr/hero_coders/07_hy3preview",
+      "output_what": "python",
+      "OPTIMUM_tokens": "float",
+      "MAX_tokens": 209600
+    }
+  ]
+}

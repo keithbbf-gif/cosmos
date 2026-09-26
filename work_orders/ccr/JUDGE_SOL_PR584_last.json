@@ -1,0 +1,32 @@
+{
+ "ok": true,
+ "done": true,
+ "kind": "CLI",
+ "model": "gpt-5",
+ "verdict": "request-changes",
+ "summary": "The recall index is not yet safe to ship: it currently indexes conversation records that the authoritative convo fold would reject, and its rebuild hash does not cover all stored session fields.",
+ "findings": [
+  {
+   "severity": "high",
+   "path": "cosmos/cosmos_recall.py",
+   "line": 111,
+   "message": "`refresh()` indexes raw `CONVO_OPENED` and `CONVO_TURN` records without applying the same fold rules as `ConvoStore`. A signed-but-invalid record that `cosmos_convo` would ignore (duplicate/malformed open, turn on a closed session, non-contiguous `seq`, etc.) still gets inserted into `sessions`/`turns` here and can later be returned by `search()`. That violates the stated 'projection, never authority' contract and can surface text that is not part of the authoritative conversation state."
+  },
+  {
+   "severity": "med",
+   "path": "cosmos/cosmos_recall.py",
+   "line": 157,
+   "message": "`state_sha()` is supposed to prove rebuild parity, but the hash omits the `opened` column from the `sessions` table. If `refresh()` ever writes the wrong session-open timestamp, `rebuild()` will still report the same `state_sha`, so this drift check does not actually cover all persisted rows."
+  }
+ ],
+ "done_why": "ok",
+ "detail": null,
+ "usage": {
+  "input_tokens": 303479,
+  "cached_input_tokens": 236800,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 7470,
+  "reasoning_output_tokens": 5765
+ },
+ "last_message": "{\"verdict\":\"request-changes\",\"findings\":[{\"severity\":\"high\",\"path\":\"cosmos/cosmos_recall.py\",\"line\":111,\"message\":\"`refresh()` indexes raw `CONVO_OPENED` and `CONVO_TURN` records without applying the same fold rules as `ConvoStore`. A signed-but-invalid record that `cosmos_convo` would ignore (duplicate/malformed open, turn on a closed session, non-contiguous `seq`, etc.) still gets inserted into `sessions`/`turns` here and can later be returned by `search()`. That violates the stated 'projection, never authority' contract and can surface text that is not part of the authoritative conversation state.\"},{\"severity\":\"med\",\"path\":\"cosmos/cosmos_recall.py\",\"line\":157,\"message\":\"`state_sha()` is supposed to prove rebuild parity, but the hash omits the `opened` column from the `sessions` table. If `refresh()` ever writes the wrong session-open timestamp, `rebuild()` will still report the same `state_sha`, so this drift check does not actually cover all persisted rows.\"}],\"model\":\"gpt-5\",\"summary\":\"The recall index is not yet safe to ship: it currently indexes conversation records that the authoritative convo fold would reject, and its rebuild hash does not cover all stored session fields.\"}"
+}

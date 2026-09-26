@@ -1,0 +1,15 @@
+{
+ "id": "582-delme",
+ "pr": 582,
+ "digs": "reused V:\\A\\Ai\\COSMOS\\live\\work\\codex\\hero\\582-delme e42c29f0",
+ "file_exists": true,
+ "ok": true,
+ "done": true,
+ "model": null,
+ "n_diff": 575,
+ "diff": "diff --git a/cosmos/cosmos_approval.py b/cosmos/cosmos_approval.py\nindex 319b28c2..3af3bde1 100644\n--- a/cosmos/cosmos_approval.py\n+++ b/cosmos/cosmos_approval.py\n@@ -29,6 +29,7 @@ from __future__ import annotations\n \n import hashlib\n import json\n+from pathlib import Path\n import re\n import secrets\n import time\n@@ -167,7 +168,7 @@ def content_scan(a: dict) -> list[str]:\n \n \n def _is_under_delme(path: str) -> bool:\n-    parts = re.split(r\"[\\\\/]+\", path.strip())\n+    parts = Path(path).resolve(strict=False).parts\n     return any(p.lower() == \"_delme\" for p in parts)\n \n \n",
+ "last": "Updated [cosmos/cosmos_approval.py](/abs/path/V:/A/Ai/COSMOS/live/work/codex/hero/582-delme/cosmos/cosmos_approval.py) so `_is_under_delme` resolves the path with `strict=False` before checking its parts. No other files were touched.",
+ "usage": null,
+ "done_why": "rc=0",
+ "stderr_tail": "Reading additional input from stdin...\n2026-09-18T18:30:53.090343Z ERROR codex_models_manager::manager: failed to load models cache: missing field `supports_parallel_tool_calls` at line 89 column 5\n2026-09-18T18:30:53.284694Z ERROR codex_models_manager::manager: failed to load models cache: missing field `supports_parallel_tool_calls` at line 89 column 5\n2026-09-18T18:31:04.318449Z ERROR codex_models_manager::manager: failed to load models cache: missing field `supports_parallel_tool_calls` at line 89 column 5\n"
+}

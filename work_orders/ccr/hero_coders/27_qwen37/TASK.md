@@ -1,0 +1,2 @@
+Output is python only. The entire reply is the source of one module. No diff header. No markdown fence. No sentence before the code. First line is a python statement or a module docstring.
+Module: cosmos_autocontext.py. Function pull_and_file(tag, assignment) stores tag, assignment, and an ISO timestamp. Do not import cosmos_ledger, cosmos_sched, or cosmos_service. Spec read for the bite, not copied into the reply: docs/DISPATCH_AUTOCONTEXT.md.

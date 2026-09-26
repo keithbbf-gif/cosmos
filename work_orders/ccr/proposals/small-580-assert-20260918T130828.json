@@ -1,0 +1,21 @@
+[
+ {
+  "ok": true,
+  "model": "gpt-5.4-2026-03-05",
+  "id": "resp_0480a83edf3de6a6016aad7e1a008487d1a8c86598bb67936f",
+  "usage": {
+   "input_tokens": 269,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 79,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 348
+  },
+  "service_tier": "default",
+  "text": "KEEP tighten the assertion so the test only accepts the expected refusal reasons.\n\n--- a/tests/test_cosmos_sandbox.py\n+++ b/tests/test_cosmos_sandbox.py\n@@\n-    assert raised in (\"HOST_PEN\", \"LIVE_TREE\", \"REFUSED\") or raised\n+    assert raised in (\"HOST_PEN\", \"LIVE_TREE\", \"REFUSED\")"
+ }
+]

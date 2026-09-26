@@ -1,0 +1,78 @@
+{
+  "schema": "cosmos-wo/womb-crew3/1",
+  "note": "MIN STANDARD. Latch VALUES only. A pointer, [read*], n/a, UNASSIGNED, or a 'verified' stamp is a label — not a value. Task = full wish text. Crew window/tps/MAX = numbers. Timestamp = ISO. Agent = Family | Clade | Version. Context source = absolute existing paths (openable). If you cannot check the cell without following a link, it is empty.",
+  "example": {
+    "order_id": "wish-13-womb",
+    "Context source": [
+      "V:\\A\\Ai\\COSMOS\\docs\\AGENT_BRIEF.md",
+      "V:\\A\\Ai\\COSMOS\\docs\\AGENT_BOUNDARIES.md",
+      "V:\\A\\Ai\\COSMOS\\docs\\WISHLIST.md"
+    ],
+    "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. WISH: AUTO-RESESSION — continue across the context boundary, zero / minimal user disturbance.",
+    "Target & scope": "proposals under Output only; never kernel/ledger/sched/service; never LiT; never grok.exe",
+    "Timestamp": "2026-09-23T18:00:00-05:00",
+    "Output": "proposals | out.json",
+    "output_what": "python",
+    "OPTIMUM_tokens": "float",
+    "MAX_tokens": 209600,
+    "crew": [
+      {
+        "seat": 1,
+        "Agent": "OpenRouter | Nex | nex-agi/nex-n2.5-mini:free",
+        "tier": "free",
+        "context_window_tokens": 262000,
+        "cache_floor_tokens": 1024,
+        "cache_ttl": "30m",
+        "cache_prefix": "legend+WRAP+STYLE+SKILL",
+        "timeout_s": 900,
+        "tps": 49,
+        "pack": "work_orders/ccr/hero_coders/13_nexmini",
+        "output_what": "python",
+        "OPTIMUM_tokens": "float",
+        "MAX_tokens": 209600
+      },
+      {
+        "seat": 2,
+        "Agent": "OpenRouter | North | cohere/north-mini-code:free",
+        "tier": "free",
+        "context_window_tokens": 256000,
+        "cache_floor_tokens": 1024,
+        "cache_ttl": "30m",
+        "cache_prefix": "legend+WRAP+STYLE+SKILL",
+        "timeout_s": 900,
+        "tps": 58,
+        "pack": "work_orders/ccr/hero_coders/09_northmini",
+        "output_what": "python",
+        "OPTIMUM_tokens": "float",
+        "MAX_tokens": 204800
+      },
+      {
+        "seat": 3,
+        "Agent": "OpenRouter | Hy3 | tencent/hy3-preview",
+        "tier": "paid-low",
+        "context_window_tokens": 262000,
+        "cache_floor_tokens": 1024,
+        "cache_ttl": "30m",
+        "cache_prefix": "legend+WRAP+STYLE+SKILL",
+        "timeout_s": 900,
+        "tps": 69,
+        "pack": "work_orders/ccr/hero_coders/07_hy3preview",
+        "output_what": "python",
+        "OPTIMUM_tokens": "float",
+        "MAX_tokens": 209600
+      }
+    ]
+  },
+  "types": {
+    "order_id": "wish-<nn>-womb",
+    "Context source": "list of absolute existing file paths (openable; not [read*] labels)",
+    "Task": "FIRST read AGENT_BRIEF + BOUNDARIES; then full wish verbatim",
+    "Target & scope": "fence only",
+    "Timestamp": "ISO-8601 with offset (product field, not PREFIX)",
+    "Output": "folder | filename relative",
+    "output_what": "text | python | no_prose",
+    "OPTIMUM_tokens": "float or positive int, never 0",
+    "MAX_tokens": "positive int = window-(cache+prompts)-0.20*window; ceiling 0.8*window if cache+prompt 0",
+    "crew": "exactly 3 objects; mix paid-low vs :free; each Agent three-part; each has context_window_tokens, cache_floor_tokens, cache_ttl, cache_prefix, timeout_s, tps, pack, tier"
+  }
+}

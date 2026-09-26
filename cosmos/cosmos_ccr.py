@@ -98,6 +98,18 @@ def held(paths: CosmosPaths, clock=time.time) -> bool:
     return not _expired(cur, float(clock()))
 
 
+def assert_pen(paths: CosmosPaths, *, sid: str, clock=time.time) -> None:
+    """SkillRegistry.accept / reject: live lease must match this sid."""
+    rec = read_lease(paths)
+    if rec is None or not held(paths, clock=clock):
+        raise CcrError("CCR_NO_LEASE", "no live CCR.lease")
+    if str(rec.get("sid")) != str(sid):
+        raise CcrError(
+            "CCR_SID_MISMATCH",
+            f"held sid={rec.get('sid')!r} pen sid={sid!r}",
+        )
+
+
 def acquire(paths: CosmosPaths, *, sid: str, pid: int, stream: str = "Cm",
             ttl: float | None = None, clock=time.time) -> dict:
     """Take the CCr lease via Arbiter. REFUSES if one is already live.

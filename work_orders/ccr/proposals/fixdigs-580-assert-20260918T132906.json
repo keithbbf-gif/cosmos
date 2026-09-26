@@ -1,0 +1,15 @@
+{
+ "id": "580-assert",
+ "pr": 580,
+ "digs": "reused V:\\A\\Ai\\COSMOS\\live\\work\\codex\\hero\\580-assert d962a615",
+ "file_exists": true,
+ "ok": false,
+ "done": false,
+ "model": null,
+ "n_diff": 0,
+ "diff": "",
+ "last": "",
+ "usage": null,
+ "done_why": "rc=2",
+ "stderr_tail": "error: the argument '--sandbox <SANDBOX_MODE>' cannot be used with '--approve-for-me'\n\nUsage: codex exec [OPTIONS] [PROMPT]\n       codex exec [OPTIONS] <COMMAND> [ARGS]\n\nFor more information, try '--help'.\n"
+}

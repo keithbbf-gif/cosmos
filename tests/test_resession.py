@@ -23,12 +23,15 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "cosmos"))
 
 from cosmos_kernel import install                                     # noqa: E402
+from cosmos_paths import CosmosPaths                                  # noqa: E402
 from cosmos_own_clocks import CLOCKS                                  # noqa: E402
 from cosmos_resession import (                                        # noqa: E402
-    CLOCK_ID, CONTEXT_CLOSE_PCT, CONTEXT_PACK_PCT, HEARTBEAT_NAME,
+    CLOCK_ID, CONTEXT_CLOSE_PCT, CONTEXT_PACK_PCT, CONTEXT_WARN_PCT,
+    GROK_WARN_TOKENS, HEARTBEAT_NAME,
     PROJECTION_NAME, ResessionRefusal, TASK_NAME, arm_gate_flag,
-    classify_pause, close_banner, cosmos_tu2, decide, plan_task_argv,
-    poll_once, precheck_seed, render_running_session, resume_plan,
+    classify_pause, close_banner, cosmos_tu2, decide, latch_warn,
+    plan_task_argv, poll_once, precheck_seed, read_warn_latched,
+    render_running_session, resume_plan,
     spawn_argv, spawn_auto_resession, spawn_inject_argv, spawn_tui_argv,
     transcript_path, watermark,
 )
@@ -246,6 +249,31 @@ def main() -> int:
     check("70% context is W2-pack: pack True, fire False",
           lambda: pack70["pack"] is True and pack70["fire"] is False
           and pack70["reason"] == "pack")
+    warn65 = watermark({"spawned_at_epoch": 9e8, "last_act_epoch": 9e8,
+                        "turn_n": 1, "context_pct": CONTEXT_WARN_PCT}, 9e8,
+                       pid_is_alive=True)
+    check("65% context is W2-warn: warn True, pack False, fire False",
+          lambda: warn65["warn"] is True and warn65["pack"] is False
+          and warn65["fire"] is False and warn65["reason"] == "warn")
+    check("Grok 130k tokens is 65% of 200k",
+          lambda: GROK_WARN_TOKENS == 130000)
+    check("decide at 65% is WARN, not PACKING",
+          lambda: decide(pause=None, seed=ok_seed(),
+                         cow_hb={"spawned_at_epoch": 9e8, "last_act_epoch": 9e8,
+                                 "turn_n": 1, "context_pct": 0.65},
+                         pid_alive=True, now=9e8, prompt_sha="p", rail="grok",
+                         lease_held_by=None)["state"] == "WARN")
+    check("latched warn stays after context drops",
+          lambda: decide(pause=None, seed=ok_seed(),
+                         cow_hb={"spawned_at_epoch": 9e8, "last_act_epoch": 9e8,
+                                 "turn_n": 1, "context_pct": 0.10},
+                         pid_alive=True, now=9e8, prompt_sha="p", rail="grok",
+                         lease_held_by=None, warn_latched=True)["state"] == "WARN"
+          and decide(pause=None, seed=ok_seed(),
+                     cow_hb={"spawned_at_epoch": 9e8, "last_act_epoch": 9e8,
+                             "turn_n": 1, "context_pct": 0.10},
+                     pid_alive=True, now=9e8, prompt_sha="p", rail="grok",
+                     lease_held_by=None, warn_latched=True)["warn"] is True)
     close90 = watermark({"spawned_at_epoch": 9e8, "last_act_epoch": 9e8,
                          "turn_n": 1, "context_pct": CONTEXT_CLOSE_PCT}, 9e8,
                         pid_is_alive=True)
@@ -342,6 +370,17 @@ def main() -> int:
               proj_path.read_text(encoding="utf-8")).get("state") == "IDLE")
     check("poll_once clock_id matches CLOCKS",
           lambda: rec.get("clock_id") == CLOCK_ID == 18)
+
+    warn_root = install(tmp / "warn", tree_id="spike-resession-warn")
+    wpaths = CosmosPaths(warn_root)
+    first_warn = latch_warn(wpaths, context_pct=0.65, clock=lambda: 1.0)
+    drop_warn = latch_warn(wpaths, context_pct=0.10, clock=lambda: 2.0)
+    check("RESESSION_WARN.flag never self-clears when context drops",
+          lambda: first_warn["state"] == "WARN"
+          and drop_warn["persistent"] is True
+          and drop_warn["state"] == "WARN"
+          and read_warn_latched(wpaths) is True
+          and drop_warn.get("latched_at") == first_warn.get("latched_at"))
 
     dry_root = install(tmp / "dry", tree_id="spike-resession-dry")
     dry = poll_once(str(dry_root), str(ROOT), dry_run=True)

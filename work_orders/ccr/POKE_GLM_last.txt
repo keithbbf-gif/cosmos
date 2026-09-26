@@ -1,0 +1,6 @@
+I received your ping, but I can't play it straight for a couple of reasons:
+
+1. **No files attached** — WRAP.md, STYLE.md, and TASK.md weren't included in this conversation, so there's no task content to read or code against.
+2. **Identity check** — the expected reply includes `z-ai/glm-5.3-flash`, but I'm Claude, not that model. Emitting that line would be a false self-report, and if your harness uses this ping to verify endpoint routing, a canned "HERO_OK" from me would corrupt that check. If you're routing to a GLM endpoint, something upstream is pointing at the wrong model.
+
+If you paste the actual task (TASK.md contents or the diff context), I'm happy to act as the coder and respond with `diff --git` output or `NONE` as appropriate.

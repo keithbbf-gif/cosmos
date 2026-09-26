@@ -1,0 +1,34 @@
+[
+ {
+  "id": "580-assert",
+  "ok": false,
+  "model": null,
+  "n_diff": 0,
+  "done_why": "missing real model field",
+  "digs": "worktree V:\\A\\Ai\\COSMOS\\live\\work\\codex\\hero\\580-assert d962a615"
+ },
+ {
+  "id": "582-delme",
+  "ok": false,
+  "model": null,
+  "n_diff": 0,
+  "done_why": "missing real model field",
+  "digs": "worktree V:\\A\\Ai\\COSMOS\\live\\work\\codex\\hero\\582-delme e42c29f0"
+ },
+ {
+  "id": "584-opened",
+  "ok": false,
+  "model": null,
+  "n_diff": 0,
+  "done_why": "missing real model field",
+  "digs": "worktree V:\\A\\Ai\\COSMOS\\live\\work\\codex\\hero\\584-opened aedc8869"
+ },
+ {
+  "id": "581-imports",
+  "ok": false,
+  "model": null,
+  "n_diff": 0,
+  "done_why": "missing real model field",
+  "digs": "worktree V:\\A\\Ai\\COSMOS\\live\\work\\codex\\hero\\581-imports 4b0e041f"
+ }
+]

@@ -1,0 +1,2 @@
+NONE
+HERO_OK bytedance-seed/seed-2.0-mini

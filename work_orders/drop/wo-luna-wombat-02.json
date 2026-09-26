@@ -1,0 +1,66 @@
+{
+  "schema": "cosmos-wo/womb-crew3/1",
+  "order_id": "wish-02-womb",
+  "Agent": "OpenRouter | Nex | nex-agi/nex-n2.5-mini:free",
+  "Context source": [
+    "V:\\A\\Ai\\COSMOS\\docs\\AGENT_BRIEF.md",
+    "V:\\A\\Ai\\COSMOS\\docs\\AGENT_BOUNDARIES.md",
+    "V:\\A\\Ai\\COSMOS\\docs\\WISHLIST.md",
+    "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\DEFINE_CHATBOT_PHONE.md",
+    "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\DEFINE_THINKFAST_DROP.md"
+  ],
+  "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. WISH: CHATBOT PHONE \u2014 FREEMIUM (Keith 2026-09-07). *Follow the Freemium model.* *You can include adversarial AI over remote (terminal OR phone).* Phone ChatBot = **free forever** front door of the ThinkFast drop-box loop. Mouth = OpenRouter **named** `:free` models (low latency). Human **picks the model** \u2014 not `openrouter/free` rotator. Pitch: **FREE FOREVER \u2014 YOU PICK THE MODEL**. **Free** = real single-model chat, no trial. **Install (free)** = Desktop ChatBot. **Premium** = optional (paid models, desktop hands, later P06). **Adversarial over remote:** P05 occupancy (N isolated seats, different-family, one disposer) seated from a **terminal** or the **phone** through the same GitHub drop \u2014 not a second Core, not a shared-transcript crew on the device. Phone never mounts `live/`. Terminal is a mouth, not a second writer. DEFINE: `DEFINE_CHATBOT_PHONE.md` + `DEFINE_THINKFAST_DROP.md`. P13/P05 embodiment, not a 14th $65 slot. Do not publish. Do not file USPTO. \u00b7 WATCHDOG2 ASSIGNED 2026-09-07T15:25:58.004404-05:00 cm/g46_grok_motif_chatbot_phone_free_forever_you_9ac84727__t1800.py",
+  "Target & scope": "Propose only; write only under Output; never kernel/ledger/sched/service or LiT/live tree; do not publish or file USPTO; do not merge, push, or spawn grok.exe.",
+  "Timestamp": "2026-09-24T10:26:30-05:00",
+  "Output": "proposals | out.json",
+  "output_what": "no_prose",
+  "OPTIMUM_tokens": "float",
+  "MAX_tokens": 209600,
+  "crew": [
+    {
+      "seat": 1,
+      "Agent": "OpenRouter | Nex | nex-agi/nex-n2.5-mini:free",
+      "tier": "free",
+      "context_window_tokens": 262000,
+      "cache_floor_tokens": 1024,
+      "cache_ttl": "30m",
+      "cache_prefix": "legend+WRAP+STYLE+SKILL",
+      "timeout_s": 900,
+      "tps": 49,
+      "pack": "work_orders/ccr/hero_coders/13_nexmini",
+      "output_what": "no_prose",
+      "OPTIMUM_tokens": "float",
+      "MAX_tokens": 209600
+    },
+    {
+      "seat": 2,
+      "Agent": "OpenRouter | North | cohere/north-mini-code:free",
+      "tier": "free",
+      "context_window_tokens": 256000,
+      "cache_floor_tokens": 1024,
+      "cache_ttl": "30m",
+      "cache_prefix": "legend+WRAP+STYLE+SKILL",
+      "timeout_s": 900,
+      "tps": 58,
+      "pack": "work_orders/ccr/hero_coders/09_northmini",
+      "output_what": "no_prose",
+      "OPTIMUM_tokens": "float",
+      "MAX_tokens": 204800
+    },
+    {
+      "seat": 3,
+      "Agent": "OpenRouter | Hy3 | tencent/hy3-preview",
+      "tier": "paid-low",
+      "context_window_tokens": 262000,
+      "cache_floor_tokens": 1024,
+      "cache_ttl": "30m",
+      "cache_prefix": "legend+WRAP+STYLE+SKILL",
+      "timeout_s": 900,
+      "tps": 69,
+      "pack": "work_orders/ccr/hero_coders/07_hy3preview",
+      "output_what": "no_prose",
+      "OPTIMUM_tokens": "float",
+      "MAX_tokens": 209600
+    }
+  ]
+}

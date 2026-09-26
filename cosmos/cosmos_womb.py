@@ -15,6 +15,7 @@ Luna Flex (openai/gpt-5.6-luna) is IN if its measured rate ≤ budget.
 """
 from __future__ import annotations
 
+import math
 import sys
 from pathlib import Path
 
@@ -49,9 +50,12 @@ def _f(v):
     if isinstance(v, str) and v.strip().upper() == "UNMEASURED":
         return None
     try:
-        return float(v)
+        x = float(v)
     except (TypeError, ValueError):
         return None
+    # NaN compares False both ways: a NaN cell could never be displaced as
+    # "best" and a NaN budget let every price through. Not a measurement.
+    return x if math.isfinite(x) else None
 
 
 def is_sol(slug: str) -> bool:
@@ -163,14 +167,21 @@ def _pair_slugs(cell: dict) -> tuple[str, str] | None:
 
 
 def _orth(cell: dict):
-    """Read T. Prefer orth_sketch; else xor_err − cofail. Do not invent."""
-    sketch = _f(cell.get("orth_sketch"))
-    if sketch is not None:
-        return sketch
+    """Read T. orth_sketch = (xor_err − cofail) × mean_err (POROSITY_MATH.md).
+
+    Porosity emits the sketch as `orthogonality` (alias `signed`); read it
+    before recomputing, so /womb/seat and /porosity rank on the same number.
+    Recompute only from raw xor/cofail, weighted by mean_err when present
+    (else 1, as porosity does). Do not invent."""
+    for key in ("orthogonality", "orth_sketch", "signed"):
+        sketch = _f(cell.get(key))
+        if sketch is not None:
+            return sketch
     xor_err = _f(cell.get("xor_err"))
     cofail = _f(cell.get("cofail"))
     if xor_err is not None and cofail is not None:
-        return xor_err - cofail
+        w = _f(cell.get("mean_err"))
+        return (xor_err - cofail) * (1.0 if w is None else w)
     return None
 
 
@@ -232,16 +243,16 @@ def _iter_cells(porosity_fold):
 
 def pick_pair(porosity_fold, rater_rows, *, axis: str,
               budget_out: float = DEFAULT_BUDGET_OUT) -> dict:
-    """Pick the measured pair with max orth_sketch, then min mag, under GAC.
+    """Pick the measured pair with max orthogonality, then min mag, under GAC.
 
     Missing pair×axis cell is UNMEASURED (skip). UNMEASURED rate is skip,
     not $0. SOL and non-flex Luna are refused. Never invents a score.
     """
     ax = str(axis or "").strip().lower() or DEFAULT_AXIS
-    try:
-        cap = float(budget_out)
-    except (TypeError, ValueError):
-        raise WombError("BAD_INPUT", f"budget_out must be a number, got {budget_out!r}")
+    cap = _f(budget_out)
+    if cap is None or cap < 0:
+        raise WombError("BAD_INPUT",
+                        f"budget_out must be a finite number >= 0, got {budget_out!r}")
     allowed = eligible_rows(rater_rows, cap)
     if not allowed:
         return _unmeasured(
@@ -322,7 +333,7 @@ def seat(paths, *, axis: str = DEFAULT_AXIS,
     rec = pick_pair(fold, rows, axis=axis, budget_out=budget_out)
     rec["n_obs"] = fold.get("n_obs") if isinstance(fold, dict) else 0
     rec["n_catalog"] = cat.get("n") or len(rows)
-    rec["gac_budget_out"] = float(budget_out)
+    rec["gac_budget_out"] = _f(budget_out)
     return rec
 
 
@@ -421,7 +432,7 @@ def _selftest() -> int:
         ]
     }
     xor_pick = pick_pair(xor_fold, rows, axis="coding")
-    check("orth_sketch fallback is xor_err − cofail (T sketch, not rewritten)",
+    check("xor/cofail fallback is (xor_err - cofail) * mean_err-or-1 (T sketch, not rewritten)",
           lambda: xor_pick["kind"] == "MEASURED"
           and abs(xor_pick["orth"] - 0.65) < 1e-9
           and xor_pick["mag"] == 2.0)
@@ -474,6 +485,29 @@ def _selftest() -> int:
     check("Luna Flex IN when completion USD/1M ≤ budget",
           lambda: flex_in["kind"] == "MEASURED"
           and luna in {flex_in["a"], flex_in["b"]})
+
+    # Porosity's own fold emits `orthogonality` (the weighted sketch), never
+    # orth_sketch. WOMB must rank on it, as /porosity does.
+    weighted = pick_pair(
+        {"pairs": [
+            {"model_a": glm, "model_b": ds, "axis": "coding", "mag": 1.0,
+             "xor_err": 0.6, "cofail": 0.1, "mean_err": 4.0, "orthogonality": 2.0},
+            {"model_a": luna, "model_b": glm, "axis": "coding", "mag": 1.0,
+             "xor_err": 0.7, "cofail": 0.1, "mean_err": 1.0, "orthogonality": 0.6},
+        ]},
+        rows, axis="coding")
+    check("reads porosity's weighted orthogonality, not unweighted xor − cofail",
+          lambda: weighted["kind"] == "MEASURED"
+          and {weighted["a"], weighted["b"]} == {glm, ds}
+          and weighted["orth"] == 2.0)
+    bad_budget = []
+    for raw in ("nan", "inf", -1):
+        try:
+            pick_pair(fold, rows, axis="coding", budget_out=raw)
+        except WombError as e:
+            bad_budget.append(e.kind)
+    check("NaN / inf / negative budget is BAD_INPUT (GAC cannot be switched off)",
+          lambda: bad_budget == ["BAD_INPUT"] * 3)
 
     td = Path(tempfile.mkdtemp(prefix="cosmos_womb_"))
     root = install(td / "live", tree_id="spike-womb")

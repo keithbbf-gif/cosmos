@@ -1,0 +1,21 @@
+{
+ "id": "581-imports",
+ "pr": 581,
+ "digs": "worktree V:\\A\\Ai\\COSMOS\\live\\work\\codex\\hero\\581-imports 4b0e041f",
+ "file_exists": true,
+ "ok": false,
+ "done": false,
+ "model": null,
+ "n_diff": 0,
+ "diff": "",
+ "last": "No findings.\n\nThe `CLAUDE.md` addition at [CLAUDE.md](/V:/A/Ai/COSMOS/live/work/codex/hero/581-imports/CLAUDE.md:192) matches the existing prompt-cache canon in [docs/PROMPT_CACHE.md](/V:/A/Ai/COSMOS/live/work/codex/hero/581-imports/docs/PROMPT_CACHE.md:3), and its `P11` / `Boundaries 15` references are consistent with [docs/AGENT_BOUNDARIES.md](/V:/A/Ai/COSMOS/live/work/codex/hero/581-imports/docs/AGENT_BOUNDARIES.md:110) and [docs/AGENT_BRIEF.md](/V:/A/Ai/COSMOS/live/work/codex/hero/581-imports/docs/AGENT_BRIEF.md:23).\n\nResidual risk: this is documentation-only, so there\u2019s no executable validation here; the only mild ambiguity is that `PREFIX.md` / `CACHE_RULE.md` are referenced generically rather than by their concrete `work_orders/...` paths, but that wording already exists in the cano",
+ "usage": {
+  "input_tokens": 114340,
+  "cached_input_tokens": 94464,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 2036,
+  "reasoning_output_tokens": 551
+ },
+ "done_why": "missing real model field",
+ "stderr_tail": "Reading additional input from stdin...\n2026-09-18T18:22:10.954563Z ERROR codex_models_manager::manager: failed to load models cache: missing field `supports_parallel_tool_calls` at line 89 column 5\n2026-09-18T18:22:25.629731Z ERROR codex_core::tools::router: error=`\"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\" -Command 'Get-Content -Path docs/AGENT_BOUNDARIES.md | Select-Object -Index (104..122)'` rejected: blocked by policy\n2026-09-18T18:22:25.637810Z ERROR codex_core::tools::router: error=`\"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\" -Command 'Get-Content -Path docs/AGENT_BRIEF.md | Select-Object -Index (18..28)'` rejected: blocked by policy\n"
+}

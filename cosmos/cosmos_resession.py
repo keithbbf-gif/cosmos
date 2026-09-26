@@ -90,8 +90,13 @@ SESSION_AGE_WATERMARK_S = 2700.0  # 45 min: fire while the window still has room
 TURN_WATERMARK = 40               # dispatch caps at 60; 20 turns reserved for TidyUP
 HEARTBEAT_STALE_S = 180.0         # COW quiet -> W3 backstop, never the engine
 COW_LEASE_TTL_S = 600.0
+CONTEXT_WARN_PCT = 0.65           # Keith 2026-09-23: persistent warning; never self-clears
 CONTEXT_PACK_PCT = 0.70           # Keith 2026-09-01: start TU/TU2/BU packing
 CONTEXT_CLOSE_PCT = 0.90          # hard close + fresh Grok TUI spawn
+GROK_WINDOW_TOKENS = 200_000      # Grok surcharge window; 65% = 130000
+GROK_WARN_TOKENS = int(GROK_WINDOW_TOKENS * CONTEXT_WARN_PCT)
+WARN_NAME = "RESESSION_WARN.flag"
+WARN_SCHEMA = "cosmos-resession-warn/1"
 RUNNING_SESSION_NAME = "running_session_file.toml"
 SESSION_SAVES_DIR = "session_saves"
 
@@ -204,9 +209,9 @@ def watermark(cow_hb: dict | None, now: float,
     waits for them has not implemented the wish, only survived it.
     """
     det = {"w1_age": False, "w1_turns": False, "w2_context": False,
-           "w2_pack": False, "w2_close": False,
+           "w2_warn": False, "w2_pack": False, "w2_close": False,
            "w3_quiet": False, "w3_dead": False}
-    empty = {"fire": False, "pack": False, "detectors": det,
+    empty = {"fire": False, "pack": False, "warn": False, "detectors": det,
              "reason": None, "why": "no COW heartbeat"}
     if cow_hb is None:
         empty["fire"] = bool(pid_is_alive is False)
@@ -224,28 +229,90 @@ def watermark(cow_hb: dict | None, now: float,
         det["w1_turns"] = True
     pct = cow_hb.get("context_pct")
     if isinstance(pct, (int, float)):
+        if float(pct) >= CONTEXT_WARN_PCT:
+            det["w2_warn"] = True
         if float(pct) >= CONTEXT_PACK_PCT:
             det["w2_pack"] = True
         if float(pct) >= CONTEXT_CLOSE_PCT:
             det["w2_close"] = True
             det["w2_context"] = True  # close is the old W2 fire line
+    tok = cow_hb.get("tokens_in")
+    if isinstance(tok, (int, float)) and float(tok) >= GROK_WARN_TOKENS:
+        det["w2_warn"] = True
     last = float(cow_hb.get("last_act_epoch") or 0)
     if last and (now - last) >= stale_s:
         det["w3_quiet"] = True
     if alive is False:
         det["w3_dead"] = True
 
+    warn = bool(det["w2_warn"])
     if alive is not False and (det["w1_age"] or det["w1_turns"] or det["w2_close"]):
-        return {"fire": True, "pack": True, "reason": "watermark", "detectors": det,
+        return {"fire": True, "pack": True, "warn": True, "reason": "watermark",
+                "detectors": det,
                 "why": "boundary detected while the window still has room"}
     if alive is not False and det["w2_pack"]:
-        return {"fire": False, "pack": True, "reason": "pack", "detectors": det,
+        return {"fire": False, "pack": True, "warn": True, "reason": "pack",
+                "detectors": det,
                 "why": "W2-pack: start TU/TU2/BU at ~70%, do not spawn yet"}
+    if alive is not False and warn:
+        return {"fire": False, "pack": False, "warn": True, "reason": "warn",
+                "detectors": det,
+                "why": "W2-warn: persistent resession warning at 65% of Grok "
+                       "200k window (130000 tokens); do not spawn"}
     if det["w3_dead"] or det["w3_quiet"]:
-        return {"fire": True, "pack": True, "reason": "quiet", "detectors": det,
+        return {"fire": True, "pack": True, "warn": warn, "reason": "quiet",
+                "detectors": det,
                 "why": "backstop: orchestrator gone or silent"}
-    return {"fire": False, "pack": False, "reason": None, "detectors": det,
-            "why": "in window"}
+    return {"fire": False, "pack": False, "warn": False, "reason": None,
+            "detectors": det, "why": "in window"}
+
+
+def warn_flag_path(paths: CosmosPaths) -> Path:
+    return paths.role("state", "control", WARN_NAME)
+
+
+def read_warn_latched(paths: CosmosPaths) -> bool:
+    rec = read_json(warn_flag_path(paths))
+    return bool(isinstance(rec, dict) and rec.get("state") == "WARN"
+                and rec.get("persistent") is True)
+
+
+def latch_warn(paths: CosmosPaths, *, sid: str | None = None,
+               context_pct=None, tokens_in=None, clock=time.time) -> dict:
+    """Write RESESSION_WARN.flag once. Never self-clears (PAUSE-hold class)."""
+    p = warn_flag_path(paths)
+    now = float(clock())
+    cur = read_json(p)
+    if isinstance(cur, dict) and cur.get("persistent") is True and cur.get("state") == "WARN":
+        out = dict(cur)
+        out["last_seen"] = now
+        if context_pct is not None:
+            out["context_pct"] = context_pct
+        if tokens_in is not None:
+            out["tokens_in"] = tokens_in
+        atomic_json(p, out)
+        return out
+    rec = {
+        "schema": WARN_SCHEMA,
+        "state": "WARN",
+        "persistent": True,
+        "mode": "hold",
+        "pct": CONTEXT_WARN_PCT,
+        "window_tokens": GROK_WINDOW_TOKENS,
+        "warn_tokens": GROK_WARN_TOKENS,
+        "rail": "grok",
+        "sid": sid,
+        "context_pct": context_pct,
+        "tokens_in": tokens_in,
+        "latched_at": now,
+        "last_seen": now,
+        "reason": "context >= 65% of Grok 200k window (130000 tokens). "
+                  "Pack at 70%. Close at 90% or Keith says resession.",
+        "clear": "Never self-clears. New session / TidyUP close / Keith.",
+    }
+    atomic_json(p, rec)
+    back = read_json(p)
+    return back if isinstance(back, dict) else rec
 
 
 def mint_session_id() -> str:
@@ -552,7 +619,8 @@ def arm_gate_flag(prev: dict | None, now_dt: datetime,
 
 def decide(*, pause: dict | None, seed: dict, cow_hb: dict | None,
            pid_alive: bool | None, now: float, prompt_sha: str | None,
-           rail: str, lease_held_by: str | None) -> dict:
+           rail: str, lease_held_by: str | None,
+           warn_latched: bool = False) -> dict:
     """The whole state machine, pure and testable. Returns the RESESSION projection.
 
     Order is mandatory (H8 verify-then-spawn): HOLD wins over everything; a bad
@@ -567,7 +635,7 @@ def decide(*, pause: dict | None, seed: dict, cow_hb: dict | None,
            "seed_thin": seed.get("thin") if isinstance(seed, dict) else None,
            "resumed_from": (seed.get("cursor") if isinstance(seed, dict) else None),
            "prompt_sha": prompt_sha,
-           "detectors": {}, "why": "", "pack": False}
+           "detectors": {}, "why": "", "pack": False, "warn": False}
 
     if not isinstance(seed, dict):
         seed = {"ok": False, "kind": "BAD_SEED", "detail": "seed is not an object",
@@ -578,17 +646,26 @@ def decide(*, pause: dict | None, seed: dict, cow_hb: dict | None,
     if pause is not None and not isinstance(pause, dict):
         cls = {"class": "HOLD", "why": "PAUSE.flag is not an object - fail-closed"}
     rec["pause_class"] = cls["class"]
+    wm = watermark(cow_hb, now, pid_is_alive=pid_alive)
+    rec["detectors"] = wm["detectors"]
+    rec["pack"] = bool(wm.get("pack"))
+    rec["warn"] = bool(wm.get("warn") or warn_latched)
+    if rec["warn"] and not wm.get("warn"):
+        rec["detectors"] = dict(wm["detectors"])
+        rec["detectors"]["w2_warn"] = True
     if cls["class"] == "HOLD":
         rec.update(state="HOLD", refused_kind="HOLD", refused_detail=cls["why"],
                    why=cls["why"])
         return rec
 
-    wm = watermark(cow_hb, now, pid_is_alive=pid_alive)
-    rec["detectors"] = wm["detectors"]
-    rec["pack"] = bool(wm.get("pack"))
     if not wm["fire"]:
         if wm.get("pack"):
             rec.update(state="PACKING", spawn_reason="pack", why=wm["why"])
+            return rec
+        if rec["warn"]:
+            rec.update(state="WARN", spawn_reason="warn",
+                       why=wm["why"] if wm.get("warn") else
+                       "W2-warn latched: persistent resession warning; never self-clears")
             return rec
         rec["why"] = wm["why"]
         return rec
@@ -660,13 +737,22 @@ def tick(root: Path, repo: Path, *, rail: str = "grok",
     rec = decide(pause=pause, seed=seed_rec, cow_hb=cow_hb,
                  pid_alive=pid_is_alive((cow_hb or {}).get("pid")),
                  now=now, prompt_sha=sha256_file(prompt), rail=rail,
-                 lease_held_by=None)
+                 lease_held_by=None,
+                 warn_latched=read_warn_latched(paths))
     rec["tree_id"] = paths.sentinel.tree_id
     rec["ts"] = datetime.now().astimezone().isoformat(timespec="seconds")
     rec["dry_run"] = bool(dry_run)
     rec["prompt_path"] = str(prompt)
     rec["projection_path"] = str(control / PROJECTION_NAME)
     rec["clock_id"] = CLOCK_ID
+    if rec.get("warn") and not dry_run:
+        rec["warn_flag"] = latch_warn(
+            paths,
+            sid=str((cow_hb or {}).get("vendor_session_id") or "") or None,
+            context_pct=(cow_hb or {}).get("context_pct"),
+            tokens_in=(cow_hb or {}).get("tokens_in"),
+            clock=lambda: now,
+        )
     return rec
 
 
@@ -920,6 +1006,21 @@ def selftest() -> int:
               watermark({"spawned_at_epoch": 999, "last_act_epoch": 1000,
                          "turn_n": 0, "context_pct": 0.70}, 1000.0,
                         pid_is_alive=True)))
+    check("65 percent warns and does not pack or fire",
+          lambda: (lambda r: r["warn"] and not r["pack"] and not r["fire"]
+                   and r["reason"] == "warn")(
+              watermark({"spawned_at_epoch": 999, "last_act_epoch": 1000,
+                         "turn_n": 0, "context_pct": 0.65}, 1000.0,
+                        pid_is_alive=True)))
+    check("Grok 130000 tokens warns (65 percent of 200k)",
+          lambda: (lambda r: r["warn"] and not r["pack"] and r["reason"] == "warn")(
+              watermark({"spawned_at_epoch": 999, "last_act_epoch": 1000,
+                         "turn_n": 0, "tokens_in": GROK_WARN_TOKENS}, 1000.0,
+                        pid_is_alive=True)))
+    check("64 percent does not warn",
+          lambda: watermark({"spawned_at_epoch": 999, "last_act_epoch": 1000,
+                             "turn_n": 0, "context_pct": 0.64}, 1000.0,
+                            pid_is_alive=True)["warn"] is False)
     check("90 percent fires close",
           lambda: watermark({"spawned_at_epoch": 999, "last_act_epoch": 1000,
                              "turn_n": 0, "context_pct": 0.90}, 1000.0,

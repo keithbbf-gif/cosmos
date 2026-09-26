@@ -1,0 +1,45 @@
+# GLM 5.3 Flash JUDGE DUD — same Mission as Luna (#587). Not occupancy on main.
+
+[legend]
+role = "JUDGE"
+model = "z-ai/glm-5.3-flash"
+harness_kind = "review"
+harness_via = "cli:hermes"  # mouth:openrouter until hermes bound
+service_tier = ""
+wrapper = "work_orders/ccr/hero_glm/L4_WRAPPER.md"
+style = "STYLES/_TEMPLATE"
+skills = []
+
+[legend.tools]
+allow = []
+forbid = ["apply_patch", "git_push", "git_merge", "grok.exe"]
+sandbox = "none"
+
+[legend.enviro]
+cwd = "V:\\A\\Ai\\COSMOS"
+pack = "house"
+wallet = "openrouter"
+budget_out_usd_per_m = 0.25
+context_window_tokens = 1300000
+
+[legend.output]
+what = "text"
+size_mode = "max_minus_margin"
+window_margin_frac = 0.20
+optimum = "float"
+
+[mission]
+id = "gitur-pr-587"
+item = "docs/CANON_PEN.md"
+author = "orch-716fbaea"
+
+[mission.output]
+where = [
+  "work_orders/ccr/JUDGE_GLM_PR587.json",
+  "work_orders/ccr/JUDGE_GLM_PR587_last.txt",
+  "live/state/attempts/attempts.jsonl",
+]
+what = "text"
+size_mode = "max_minus_margin"
+window_margin_frac = 0.20
+optimum = "float"

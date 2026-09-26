@@ -1,0 +1,1242 @@
+[
+[
+"n",
+"hop",
+"direction",
+"field",
+"sample",
+"why"
+],
+[
+1,
+"0 wish",
+"need",
+"wish_checkbox",
+"- [ ]",
+"Open wish. Gate pass flips to [x]."
+],
+[
+2,
+"0 wish",
+"need",
+"wish_verbatim",
+"AUTO-RESESSION \u2014 continue across the context boundary, zero / minimal user disturbance.",
+"WISHLIST.md line 128. Full line, not a headline stub."
+],
+[
+3,
+"0 wish",
+"need",
+"wish_path",
+"V:\\A\\Ai\\COSMOS\\docs\\WISHLIST.md",
+"Abs path + line. Not [read*] label."
+],
+[
+4,
+"0 wish",
+"need",
+"wish_line",
+128,
+"Checkable."
+],
+[
+5,
+"0 wish",
+"need",
+"wish_why",
+"Layer B orch session dies when the window fills; Layer A clocks keep running. Need a satellite that spawns a fresh orch, seeded from SEED/BU, zero or one human turn. --continue replays the full window and fails the wish.",
+"Keith: WHAT and WHY. Mesh decides HOW."
+],
+[
+6,
+"0 wish",
+"need",
+"backlog_verbatim",
+"AUTO-RESESSION \u2014 COSMOS continues its own route across the context boundary with zero / minimal user disturbance.",
+"BACKLOG.md. Same wish, extra route wording."
+],
+[
+7,
+"0 wish",
+"need",
+"feature_id",
+"F-51",
+"FEATURE_MASTER. Code landed; install-task still operator."
+],
+[
+8,
+"0 wish",
+"need",
+"origin_surface",
+"WISHLIST-open",
+"Also BACKLOG, Voice, email, cDeck CREATE."
+],
+[
+9,
+"1 frozen statement",
+"need",
+"motif_stage",
+"1 PROBLEM STATEMENT",
+"On-disk pack key remains define. RESEARCH does not start until this file exists."
+],
+[
+10,
+"1 frozen statement",
+"need",
+"frozen_what",
+"Acquire RE-SESSION automatically without user intervention, or with minimal user disturbance.",
+"Stage 1 WHAT."
+],
+[
+11,
+"1 frozen statement",
+"need",
+"frozen_why",
+"Context-full stops Layer B (orch). Layer A schtasks keep humming. Human must BootUP a new session.",
+"Stage 1 WHY."
+],
+[
+12,
+"1 frozen statement",
+"need",
+"frozen_acceptance",
+"Fresh window not replay; seeded from SEED.json+BUCm.toml+BACKLOG; no/one human turn; schtasks logged-on only; one orch lease; fail-closed; honest Keith surface.",
+"R1-R8 rubric."
+],
+[
+13,
+"1 frozen statement",
+"need",
+"frozen_off_limits",
+"Not --continue of the dying window. Not extra grok.exe as the product. Not USPTO. Not a second Core. Not ONSTART (V: is user-session).",
+"Stage 1 off-limits."
+],
+[
+14,
+"1 frozen statement",
+"need",
+"frozen_live_emit",
+"live/state/control/RESESSION.json + live/logs/resession_heartbeat.json + clock 18 COSMOS Resession tick",
+"Gate: value only the live tree emits. Never rc=0, never green log."
+],
+[
+15,
+"1 frozen statement",
+"produce",
+"frozen_statement_path",
+"V:\\A\\Ai\\COSMOS\\docs\\research\\AUTO_RESESSION.md",
+"This file IS the Task text for every later lane. Do not paraphrase."
+],
+[
+16,
+"1 frozen statement",
+"produce",
+"bootup_prompt_path",
+"V:\\A\\Ai\\COSMOS\\docs\\AUTO_RESESSION_PROMPT.md",
+"Read by cosmos_resession. Do not edit at fire time."
+],
+[
+17,
+"1 frozen statement",
+"produce",
+"bootup_prompt_sha",
+"5d10d8ff510503a00b01d6a2b1efca7941ca92a10efc3aa1c6ed59082cfca8db",
+"FEATURE_MASTER F-51 measured."
+],
+[
+18,
+"2 WO translation",
+"need",
+"sop_six",
+"Agent, Context source, Task, Target & scope, Timestamp, Output",
+"WORK_ORDER_SOP. All required."
+],
+[
+19,
+"2 WO translation",
+"produce",
+"order_id",
+"wish-13-womb",
+"Windows-legal. No colon in filename."
+],
+[
+20,
+"2 WO translation",
+"produce",
+"Agent",
+"OpenRouter | Nex | nex-agi/nex-n2.5-mini:free",
+"Family | Clade | Version. Not Cursor, not Claude, not grok.exe."
+],
+[
+21,
+"2 WO translation",
+"produce",
+"Context source",
+"V:\\A\\Ai\\COSMOS\\docs\\AGENT_BRIEF.md | V:\\A\\Ai\\COSMOS\\docs\\AGENT_BOUNDARIES.md | V:\\A\\Ai\\COSMOS\\docs\\WISHLIST.md | V:\\A\\Ai\\COSMOS\\docs\\research\\AUTO_RESESSION.md | V:\\A\\Ai\\COSMOS\\docs\\AUTO_RESESSION_PROMPT.md",
+"LIST of existing abs paths. Thin latch omitted research+prompt \u2014 those belong here."
+],
+[
+22,
+"2 WO translation",
+"produce",
+"Task",
+"FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Frozen statement is docs/research/AUTO_RESESSION.md (WHAT/WHY/acceptance/off-limits/live emit). Bite: satellite spawn of a FRESH orch at ~70% pack; SOP docs/RESESSION_SOP.md; 5a grok --prompt-file then 5b WMI grok --cwd --fullscreen -r <uuid>. Not -c of the dying window. First line NONE or diff --git.",
+"Complete translation. Current latched Task is thin (wish title only) \u2014 that is the gap."
+],
+[
+23,
+"2 WO translation",
+"produce",
+"task_thin_was",
+"FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. WISH: AUTO-RESESSION \u2014 continue across the context boundary, zero / minimal user disturbance.",
+"What latch wrote. Missing WHY, acceptance, off-limits, live emit, SOP."
+],
+[
+24,
+"2 WO translation",
+"produce",
+"Target & scope",
+"proposals under Output only; never kernel/ledger/sched/service; never LiT; never grok.exe",
+"SOP fence. Models drop this."
+],
+[
+25,
+"2 WO translation",
+"produce",
+"Timestamp",
+"2026-09-23T18:41:41-05:00",
+"ISO+offset. Product field. Not in PREFIX."
+],
+[
+26,
+"2 WO translation",
+"produce",
+"Output",
+"proposals | out.json",
+"folder | filename RELATIVE. No V:\\."
+],
+[
+27,
+"2 WO translation",
+"produce",
+"output_what",
+"python",
+"text | python | no_prose. Coder job."
+],
+[
+28,
+"2 WO translation",
+"produce",
+"expected_form",
+"NONE or diff --git then unified diff / object in Output",
+"Empty-Output class 3: name the form."
+],
+[
+29,
+"2 WO translation",
+"produce",
+"crew_mix",
+"Nex :free + North :free + Hy3 preview paid-low",
+"Mix paid-low vs :free. Not free-vs-free only."
+],
+[
+30,
+"2 WO translation",
+"produce",
+"item_tail_repo",
+"keithbbf-gif/cosmos",
+"AGENT_PROMPTING ITEM: Repo."
+],
+[
+31,
+"2 WO translation",
+"produce",
+"item_tail_do",
+"Satellite spawn of fresh orch; not resume of dying window.",
+"ITEM Do: one behavior."
+],
+[
+32,
+"2 WO translation",
+"produce",
+"item_tail_must_not",
+"ballot, extra grok.exe worker, --continue dying sid, USPTO, second Core, LiT write",
+"ITEM Must not."
+],
+[
+33,
+"2 WO translation",
+"produce",
+"item_tail_return",
+"unified diff first",
+"ITEM Return shape."
+],
+[
+34,
+"2 WO translation",
+"produce",
+"already_on_lit",
+"cosmos/cosmos_resession.py CLOCK_ID=18; tests/test_resession.py; prompt filed. --install-task still operator.",
+"Fulfill path (1) may apply. Do not 112x MOTIF-driver this daemon."
+],
+[
+35,
+"3 drop",
+"need",
+"windows_filename",
+"wo-luna-wombat-13.json",
+"No : * ? \" < > | \\ . TZ not in name."
+],
+[
+36,
+"3 drop",
+"produce",
+"wo_path",
+"V:\\A\\Ai\\COSMOS\\work_orders\\drop\\wo-luna-wombat-13.json",
+"Inbox."
+],
+[
+37,
+"3 drop",
+"produce",
+"write_path",
+"V:\\A\\Ai\\COSMOS\\live\\work\\orders\\wish-13-womb\\out\\proposals\\out.json",
+"Isolated worktree only write."
+],
+[
+38,
+"3 drop",
+"produce",
+"state",
+"PENDING",
+"Before ingest. Lifecycle: DROPPED \u2192 PICKED \u2192 DONE \u2192 CHECKED \u2192 COMPLETED."
+],
+[
+39,
+"4 ingest",
+"need",
+"drop_bytes",
+"wo-luna-wombat-13.json",
+"SGH ingest schtask."
+],
+[
+40,
+"4 ingest",
+"produce",
+"bucket_path",
+"V:\\A\\Ai\\COSMOS\\live\\state\\work_orders\\bucket",
+"DROPPED record."
+],
+[
+41,
+"4 ingest",
+"produce",
+"state_after_ingest",
+"DROPPED",
+"Not DONE."
+],
+[
+42,
+"5 pickup",
+"need",
+"role",
+"You write a proposed patch (unified diff). You do not merge. You do not hold the COSMOS live-tree pen. First line is NONE or a diff --git hunk.",
+"Legend 1. Sentence."
+],
+[
+43,
+"5 pickup",
+"need",
+"role_enum",
+"CODER",
+"ORC|WOMBAT|CODER|JUDGE|CCR|DAEMON. Empty=refuse."
+],
+[
+44,
+"5 pickup",
+"need",
+"model",
+"nex-agi/nex-n2.5-mini:free",
+"Legend 2."
+],
+[
+45,
+"5 pickup",
+"need",
+"harness_kind",
+"coding",
+"Legend 3 kind."
+],
+[
+46,
+"5 pickup",
+"need",
+"harness_via",
+"OpenRouterRail.dispatch named pin",
+"Via. Not extra grok.exe."
+],
+[
+47,
+"5 pickup",
+"need",
+"wrapper",
+"role=CODER pen=none propose_only=true first_line=NONE|diff --git wrap=What is the intent, and the best execution of this intent?",
+"Legend 4 full, not a path."
+],
+[
+48,
+"5 pickup",
+"need",
+"skill",
+"None extra.",
+"Legend 5. Value is the sentence."
+],
+[
+49,
+"5 pickup",
+"need",
+"tools_allow",
+"Read, Glob, Grep, Bash in worktree",
+"Legend 6 then kind-gate."
+],
+[
+50,
+"5 pickup",
+"need",
+"tools_forbid",
+"git_push, git_merge, grok.exe, LiT write, USPTO, CCR.lease",
+"Kind-gate."
+],
+[
+51,
+"5 pickup",
+"need",
+"cwd",
+"V:\\A\\Ai\\COSMOS\\live\\work\\openrouter\\hero-coder-nexmini",
+"Legend 7 enviro."
+],
+[
+52,
+"5 pickup",
+"need",
+"sandbox",
+"worktree",
+"WRITE-PRIVATE."
+],
+[
+53,
+"5 pickup",
+"need",
+"wallet",
+"V:\\A\\Ai\\COSMOS\\live\\config\\openrouter_api_key.txt",
+"Path. Never print key."
+],
+[
+54,
+"5 pickup",
+"need",
+"hero_pack",
+"V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\hero_coders\\13_nexmini",
+"No DUD = no spawn."
+],
+[
+55,
+"5 pickup",
+"need",
+"pen",
+"none",
+"CCr holds LiT pen."
+],
+[
+56,
+"5 pickup",
+"need",
+"propose_only",
+true,
+"P10 by mechanism."
+],
+[
+57,
+"5 pickup",
+"produce",
+"state_after_pickup",
+"PICKED",
+"Runner created the agent."
+],
+[
+58,
+"5 pickup",
+"produce",
+"session_id",
+"UNMEASURED",
+"New sid. Resume only if SEED/BU says."
+],
+[
+59,
+"5 pickup",
+"produce",
+"legend_hash",
+"2d7703fe8ba92a525c2d0c5a94a45526a60e9f896e7a0dbf9349a19922988dd6",
+"Seven layers as applied."
+],
+[
+60,
+"5 pickup",
+"produce",
+"sku_bound",
+"UNMEASURED",
+"If runtime SKU differs from model field, stop."
+],
+[
+61,
+"6 preload",
+"need",
+"prefix_path",
+"V:\\A\\Ai\\COSMOS\\docs\\PROMPT_CACHE.md",
+"P11 static first. CREW/IN/PREFIX.md named, missing on disk."
+],
+[
+62,
+"6 preload",
+"need",
+"cache_rule_path",
+"",
+"Named in SOP. Missing on disk = empty, not a fake path."
+],
+[
+63,
+"6 preload",
+"need",
+"frozen_in_prefix",
+true,
+"PREFIX + CACHE_RULE + frozen statement. Stage instruction is tail."
+],
+[
+64,
+"6 preload",
+"need",
+"naked_first",
+false,
+"Naked first query is out of SOP."
+],
+[
+65,
+"6 preload",
+"need",
+"P11_no_dates",
+true,
+"No dates, UUIDs, WO ids in PREFIX."
+],
+[
+66,
+"6 preload",
+"need",
+"cache_prefix",
+"legend+WRAP+STYLE+SKILL",
+"Not WOMBAT prompt notes. Not scars."
+],
+[
+67,
+"6 preload",
+"produce",
+"prefix_hash",
+"809e3387b3a7e6111c2660faa68a17ecdefdd0fce08f3157f4045ccb06536f64",
+"Exact bytes. Similarity does not cache."
+],
+[
+68,
+"6 preload",
+"produce",
+"cached_tokens",
+0,
+"Measure on response. Claimed hit without this is fabricated."
+],
+[
+69,
+"6 preload",
+"produce",
+"cache_write_tokens",
+0,
+"When vendor sends it."
+],
+[
+70,
+"6 preload",
+"produce",
+"prompt_tokens",
+0,
+"After preload, before MAX."
+],
+[
+71,
+"7 size",
+"need",
+"window_tokens",
+262000,
+"Seat 1."
+],
+[
+72,
+"7 size",
+"need",
+"margin_frac",
+0.2,
+"Thinking + error."
+],
+[
+73,
+"7 size",
+"produce",
+"MAX_tokens",
+209600,
+"window-(cache+prompts)-0.20*window. Never 0. <=0 refuse."
+],
+[
+74,
+"7 size",
+"produce",
+"OPTIMUM_tokens",
+"float",
+"Aim. Never 0. Shoot OPTIMUM; obey MAX."
+],
+[
+75,
+"7 size",
+"produce",
+"cap_tokens",
+209600,
+"API max_tokens = MAX. Never bake 2k/4k/8k."
+],
+[
+76,
+"7 size",
+"produce",
+"keep_in_tokens_under",
+200000,
+"xAI 2x above 200k."
+],
+[
+77,
+"7 size",
+"produce",
+"budget_out_usd_per_m",
+0.1,
+"GAC Luna Flex 0.10/0.60 and under unless named."
+],
+[
+78,
+"8 crew",
+"need",
+"crew1.Agent",
+"OpenRouter | Nex | nex-agi/nex-n2.5-mini:free",
+"ACTIVE :free."
+],
+[
+79,
+"8 crew",
+"need",
+"crew1.window",
+262000,
+"Number."
+],
+[
+80,
+"8 crew",
+"need",
+"crew1.MAX",
+209600,
+"Number."
+],
+[
+81,
+"8 crew",
+"need",
+"crew1.tps",
+49,
+"Measured."
+],
+[
+82,
+"8 crew",
+"need",
+"crew1.mouth_form_ok",
+true,
+"Ping NONE."
+],
+[
+83,
+"8 crew",
+"need",
+"crew2.Agent",
+"OpenRouter | North | cohere/north-mini-code:free",
+"ACTIVE :free."
+],
+[
+84,
+"8 crew",
+"need",
+"crew2.window",
+256000,
+"Number."
+],
+[
+85,
+"8 crew",
+"need",
+"crew2.MAX",
+204800,
+"Number."
+],
+[
+86,
+"8 crew",
+"need",
+"crew2.tps",
+58,
+"Measured."
+],
+[
+87,
+"8 crew",
+"need",
+"crew3.Agent",
+"OpenRouter | Hy3 | tencent/hy3-preview",
+"paid-low mix. Not tencent/hy3."
+],
+[
+88,
+"8 crew",
+"need",
+"crew3.window",
+262000,
+"Number."
+],
+[
+89,
+"8 crew",
+"need",
+"crew3.MAX",
+209600,
+"Number."
+],
+[
+90,
+"8 crew",
+"need",
+"crew3.tps",
+69,
+"Measured."
+],
+[
+91,
+"8 crew",
+"need",
+"crew3.mouth_form_ok",
+false,
+"S-156 class 6 preamble. Not coder-ACTIVE until first line NONE."
+],
+[
+92,
+"8 crew",
+"need",
+"first_line",
+"NONE | diff --git",
+"Coder mouth."
+],
+[
+93,
+"8 crew",
+"produce",
+"mouth_bytes",
+"UNMEASURED",
+"Until run."
+],
+[
+94,
+"8 crew",
+"produce",
+"first_line_ok",
+"UNMEASURED",
+"Must match expected_form."
+],
+[
+95,
+"8 crew",
+"produce",
+"spend",
+"UNMEASURED",
+"Ledger after call. Never quote the estimate."
+],
+[
+96,
+"9 output",
+"need",
+"write_private",
+true,
+"Only Output file."
+],
+[
+97,
+"9 output",
+"produce",
+"DONE",
+false,
+"Output file exists. Not COMPLETED."
+],
+[
+98,
+"9 output",
+"produce",
+"output_path",
+"UNMEASURED",
+"Abs after write."
+],
+[
+99,
+"9 output",
+"produce",
+"output_hash",
+"UNMEASURED",
+"sha256 of Output."
+],
+[
+100,
+"9 output",
+"produce",
+"empty_output_class",
+"UNMEASURED",
+"1 problem | 2 agent | 3 prompt | 4 follow-up."
+],
+[
+101,
+"10 4Cs",
+"need",
+"output_bytes",
+"UNMEASURED",
+"Split diffs per file before py_compile."
+],
+[
+102,
+"10 4Cs",
+"produce",
+"cpu_py_compile",
+"UNMEASURED",
+"PASS|FAIL|MISSING|NO_CODE."
+],
+[
+103,
+"10 4Cs",
+"produce",
+"cpu_ruff",
+"UNMEASURED",
+"4C."
+],
+[
+104,
+"10 4Cs",
+"produce",
+"cpu_mypy",
+"UNMEASURED",
+"4C."
+],
+[
+105,
+"10 4Cs",
+"produce",
+"cpu_pytest",
+"UNMEASURED",
+"PASS|FAIL|NO_TESTS."
+],
+[
+106,
+"10 4Cs",
+"produce",
+"4C",
+"UNMEASURED",
+"Blocks Judge on FAIL/MISSING."
+],
+[
+107,
+"11 gitur BUILD",
+"need",
+"route",
+"coding",
+"BUILD only through Gitur. Research = DOM not Gitur."
+],
+[
+108,
+"11 gitur BUILD",
+"need",
+"lane_b",
+"CURSOR in Task not Agent",
+"Same Task, no shared context. Composer 2.5 refused."
+],
+[
+109,
+"11 gitur BUILD",
+"need",
+"one_job_one_pr",
+true,
+"From origin/main. autoCreatePR."
+],
+[
+110,
+"11 gitur BUILD",
+"produce",
+"gitur_pr",
+"UNMEASURED",
+"Open PR. Do not merge."
+],
+[
+111,
+"11 gitur BUILD",
+"produce",
+"checks.github",
+"UNMEASURED",
+"Missing rail never fake green."
+],
+[
+112,
+"11 gitur BUILD",
+"produce",
+"checks.gitlab",
+"UNMEASURED",
+"CI gate."
+],
+[
+113,
+"12 judge",
+"need",
+"JUDGE_FLOOR",
+30,
+"30 complete 4C sets. n_board<20 do not sit."
+],
+[
+114,
+"12 judge",
+"need",
+"n_board",
+44,
+"Latched drops."
+],
+[
+115,
+"12 judge",
+"need",
+"judge_first_line",
+"KEEP | DROP | NONE | HOLD | UNMEASURED",
+"Not coder form."
+],
+[
+116,
+"12 judge",
+"produce",
+"verdict",
+"UNMEASURED",
+"Judge mouth."
+],
+[
+117,
+"12 judge",
+"produce",
+"judge_score_hero",
+"UNMEASURED",
+"Do not invent 0."
+],
+[
+118,
+"12 judge",
+"produce",
+"judge_winner",
+"PENDING",
+"hero|base|tie only when recorded."
+],
+[
+119,
+"13 verdict",
+"produce",
+"Verdict.status",
+"pending",
+"applied|rejected|pending. One, overwrite."
+],
+[
+120,
+"13 verdict",
+"produce",
+"Verdict.reason",
+"UNMEASURED",
+"One line."
+],
+[
+121,
+"13 verdict",
+"produce",
+"Verdict.objection",
+"UNMEASURED",
+"Rejected: file+line+fix. Voice-correctable."
+],
+[
+122,
+"13 verdict",
+"produce",
+"Verdict.timestamp",
+"UNMEASURED",
+"ISO."
+],
+[
+123,
+"14 fail/xfer",
+"need",
+"hot_cache_ttl_s",
+1800,
+"Rerun bad on hot cache 5-10 min idle or partner."
+],
+[
+124,
+"14 fail/xfer",
+"produce",
+"wo_partner",
+"UNMEASURED",
+"FAIL autopsies partner."
+],
+[
+125,
+"14 fail/xfer",
+"produce",
+"follow_up_oid",
+"UNMEASURED",
+"New six-field, new prompt. Never corpse retry."
+],
+[
+126,
+"14 fail/xfer",
+"produce",
+"xfer",
+"UNMEASURED",
+"superseded | partner | gitur | GAC | superseded_wd2."
+],
+[
+127,
+"14 fail/xfer",
+"produce",
+"corpse_on_womb",
+false,
+"Board = bucket+picked only."
+],
+[
+128,
+"14 fail/xfer",
+"produce",
+"fulfill_or_restate",
+"UNMEASURED",
+"(1) prove full GET/test/file+line or (2) restate + two GAC + new prompt."
+],
+[
+129,
+"15 student",
+"need",
+"job",
+"AUTO-RESESSION",
+"Short name."
+],
+[
+130,
+"15 student",
+"need",
+"chair",
+"WOMBAT",
+"Who authored the row."
+],
+[
+131,
+"15 student",
+"produce",
+"attempt",
+0,
+"N. Regrade N+1 never UPDATE."
+],
+[
+132,
+"15 student",
+"produce",
+"preload_hash",
+"UNMEASURED",
+"Prefix as applied."
+],
+[
+133,
+"15 student",
+"produce",
+"attempt_store",
+"V:\\A\\Ai\\COSMOS\\live\\state\\attempts\\attempts.jsonl",
+"Not porosity.sqlite."
+],
+[
+134,
+"16 porosity",
+"need",
+"axis",
+"coding",
+"Pair pick axis."
+],
+[
+135,
+"16 porosity",
+"produce",
+"orth_sketch",
+"UNMEASURED",
+"Missing not 0."
+],
+[
+136,
+"16 porosity",
+"produce",
+"mag",
+"UNMEASURED",
+"kind=UNMEASURED until mag exists."
+],
+[
+137,
+"16 porosity",
+"produce",
+"porosity_kind",
+"UNMEASURED",
+"MEASURED|UNMEASURED."
+],
+[
+138,
+"16 porosity",
+"produce",
+"n_obs",
+"UNMEASURED",
+"Empty store n=0."
+],
+[
+139,
+"17 CCr",
+"need",
+"pen_holder",
+"CCR",
+"One writer. Lease."
+],
+[
+140,
+"17 CCr",
+"produce",
+"COMPLETED",
+false,
+"CCr accept after Judge. Agents never mark COMPLETED."
+],
+[
+141,
+"17 CCr",
+"produce",
+"lit_write",
+false,
+"Only after KEEP + accept."
+],
+[
+142,
+"18 gate",
+"need",
+"gate_named",
+"RESESSION.json + resession_heartbeat.json + clock 18",
+"From frozen_live_emit."
+],
+[
+143,
+"18 gate",
+"produce",
+"gate_value",
+"UNMEASURED",
+"Quote the live-tree field. verification-before-completion."
+],
+[
+144,
+"18 gate",
+"produce",
+"clock_18",
+"COSMOS Resession cosmos_resession.py",
+"F-51. --install-task still operator."
+],
+[
+145,
+"19 wish checkoff",
+"need",
+"gate_pass",
+false,
+"Until live emit."
+],
+[
+146,
+"19 wish checkoff",
+"produce",
+"wish_checkbox_after",
+"- [ ]",
+"Flips to [x] only after gate. Not after DONE."
+],
+[
+147,
+"WOMBAT authoring",
+"need",
+"wombat.first_line",
+"ITEM | NONE",
+"Not KEEP/DROP. Not diff."
+],
+[
+148,
+"WOMBAT authoring",
+"need",
+"wombat.output_what",
+"no_prose",
+"JSON rows."
+],
+[
+149,
+"WOMBAT authoring",
+"need",
+"nex.prompting_notes",
+"First line NONE or diff --git. Named pin. Pair :free with paid-low.",
+"When writing Task. Not coder PREFIX."
+],
+[
+150,
+"WOMBAT authoring",
+"need",
+"nex.scar",
+"S-156 this slug ACTIVE. Gemma/Qwen :free 429 is upstream pool.",
+"Authoring."
+],
+[
+151,
+"WOMBAT authoring",
+"need",
+"hy3.prompting_notes",
+"First line MUST be NONE. Mouth prepends CoT. Slug hy3-preview not hy3.",
+"Authoring."
+],
+[
+152,
+"WOMBAT authoring",
+"need",
+"hy3.scar",
+"S-156 class 6 mouth form. Class 2 pin hole is tencent/hy3.",
+"Authoring."
+],
+[
+153,
+"WOMBAT authoring",
+"need",
+"pointer_as_cell",
+false,
+"Forbidden."
+],
+[
+154,
+"WOMBAT authoring",
+"need",
+"fifo",
+true,
+"Oldest first."
+]
+]

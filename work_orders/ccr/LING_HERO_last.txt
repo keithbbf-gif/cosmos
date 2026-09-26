@@ -1,0 +1,2 @@
+﻿NONE
+HERO_OK inclusionai/ling-3.0-flash

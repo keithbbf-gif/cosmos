@@ -1,0 +1,51 @@
+# Luna JUDGE DUD — Legend pack + Mission pack. Not occupancy on main.
+
+[legend]
+role = "JUDGE"
+model = "gpt-5.6-luna"
+harness_kind = "review"
+harness_via = "codex-cli"
+service_tier = "flex"
+wrapper = "work_orders/ccr/hero_luna/L4_WRAPPER.md"
+style = "STYLES/_TEMPLATE"
+skills = ["judge-keep-drop"]
+
+[legend.tools]
+allow = ["rg", "read_file", "list_dir", "glob_file_search"]
+forbid = ["apply_patch", "git_push", "git_merge", "git_reset_hard", "grok.exe"]
+sandbox = "read-only"
+
+[legend.enviro]
+cwd = "V:\\A\\Ai\\COSMOS\\live\\work\\codex\\hero-luna-587"
+pack = "house"
+wallet = "oa-api"
+ignore_user_config = true
+budget_out_usd_per_m = 0.60
+context_window_tokens = 1100000
+
+# Output target — canon in the DUD (Where / What / Size)
+# what: text = Codex loop until final assistant text (KEEP/DROP/HOLD first line)
+# Size after PREFIX+prompts, then spawn.
+# MAX = window - (cache + prompts) - 0.20*window  (hard, cannot float)
+# OPTIMUM = "float" if unknown (never 0). If expected_out known, positive count (10k py → 15000), ≤ MAX.
+[legend.output]
+what = "text"
+size_mode = "max_minus_margin"
+window_margin_frac = 0.20
+optimum = "float"
+
+[mission]
+id = "gitur-pr-587"
+item = "docs/CANON_PEN.md"
+author = "orch-716fbaea"
+
+[mission.output]
+where = [
+  "work_orders/ccr/JUDGE_LUNA_PR587.json",
+  "work_orders/ccr/JUDGE_LUNA_PR587_last.txt",
+  "live/state/attempts/attempts.jsonl",
+]
+what = "text"
+size_mode = "max_minus_margin"
+window_margin_frac = 0.20
+optimum = "float"

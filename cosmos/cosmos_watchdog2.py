@@ -523,9 +523,23 @@ class Watchdog2:
 # one pass
 # ---------------------------------------------------------------------------
 
+def _close_idle_sessions(wd: Watchdog2) -> int:
+    """30 minutes idle closes WOMBAT, Judge, and the final checker.
+
+    ORC and CCr stay. This is not a new drop, so a hold still runs it.
+    """
+    try:
+        from cosmos_duds import sweep_idle
+        return len(sweep_idle(wd.paths))
+    except Exception as e:  # noqa: BLE001
+        wd.log("sweep_idle: %s" % (e,))
+        return 0
+
+
 def scan_once(wd: Watchdog2, *, dry_run: bool = False) -> dict:
     t0 = time.time()
     stamp = _iso_now()
+    idle_closed = _close_idle_sessions(wd)
     paused = wd.pause_flag()
     if paused is not None and str(paused.get("state", "PAUSED")).upper() != "RUNNING":
         # RESUME GATE: a mode='resume_gate' flag self-clears at auto_resume_at
@@ -547,6 +561,7 @@ def scan_once(wd: Watchdog2, *, dry_run: bool = False) -> dict:
                 "path": paused.get("path"),
             },
             "assigned_this_pass": 0,
+            "idle_closed": idle_closed,
             "open_flagged": 0,
             "skipped": 0,
             "elapsed_s": round(time.time() - t0, 3),
@@ -568,7 +583,7 @@ def scan_once(wd: Watchdog2, *, dry_run: bool = False) -> dict:
     if wd._pause_logged:
         wd.log("RESUMED")
         wd._pause_logged = False
-    wd.write_heartbeat(extra={"tick": "scan"})
+    wd.write_heartbeat(extra={"tick": "scan", "idle_closed": idle_closed})
 
     tracker_text = wd.tracker.read_text(encoding="utf-8") if wd.tracker.exists() else ""
     dhx_text = wd.dhx.read_text(encoding="utf-8") if wd.dhx.exists() else ""

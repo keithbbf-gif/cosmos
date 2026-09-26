@@ -1,0 +1,2402 @@
+{
+  "schema": "cosmos-womb-ultimate/1",
+  "designed_from": "process logic: wish\u2192frozen\u2192translate\u2192drop\u2192spawn\u2192preload\u2192size\u2192crew\u2192mouth\u21924C\u2192gitur\u2192judge\u2192verdict\u2192fail\u2192student\u2192porosity\u2192CCr\u2192gate\u2192checkbox",
+  "count": 266,
+  "cells": [
+    {
+      "n": 1,
+      "hop": "0 origin",
+      "io": "need",
+      "field": "requester",
+      "typ": "text",
+      "sample": "Keith",
+      "rule": "Human origin. Mesh does not invent wishes."
+    },
+    {
+      "n": 2,
+      "hop": "0 origin",
+      "io": "need",
+      "field": "wish_checkbox",
+      "typ": "enum",
+      "sample": "- [ ]",
+      "rule": "Open. Flips [x] only after gate, never after DONE."
+    },
+    {
+      "n": 3,
+      "hop": "0 origin",
+      "io": "need",
+      "field": "wish_verbatim",
+      "typ": "text",
+      "sample": "AUTO-RESESSION \u2014 continue across the context boundary, zero / minimal user disturbance.",
+      "rule": "Full WISHLIST line. Not a stub. Not a paraphrase."
+    },
+    {
+      "n": 4,
+      "hop": "0 origin",
+      "io": "need",
+      "field": "wish_path",
+      "typ": "path",
+      "sample": "V:\\A\\Ai\\COSMOS\\docs\\WISHLIST.md",
+      "rule": "Abs path."
+    },
+    {
+      "n": 5,
+      "hop": "0 origin",
+      "io": "need",
+      "field": "wish_line",
+      "typ": "int",
+      "sample": 128,
+      "rule": "Checkable line."
+    },
+    {
+      "n": 6,
+      "hop": "0 origin",
+      "io": "need",
+      "field": "wish_why",
+      "typ": "text",
+      "sample": "Layer B orch dies when the window fills; Layer A clocks keep running. Need a satellite that spawns a FRESH orch from SEED/BU with zero or one human turn. --continue replays the full window and fails the wish.",
+      "rule": "Keith gives WHAT+WHY. Mesh decides HOW."
+    },
+    {
+      "n": 7,
+      "hop": "0 origin",
+      "io": "need",
+      "field": "backlog_verbatim",
+      "typ": "text",
+      "sample": "AUTO-RESESSION \u2014 COSMOS continues its own route across the context boundary with zero / minimal user disturbance.",
+      "rule": "Same wish if also on BACKLOG."
+    },
+    {
+      "n": 8,
+      "hop": "0 origin",
+      "io": "need",
+      "field": "feature_id",
+      "typ": "text",
+      "sample": "F-51",
+      "rule": "FEATURE_MASTER id if any."
+    },
+    {
+      "n": 9,
+      "hop": "0 origin",
+      "io": "need",
+      "field": "origin_surface",
+      "typ": "enum",
+      "sample": "WISHLIST-open",
+      "rule": "wishlist|backlog|voice|email|cdeck-create|daemon|chat. FIFO by Timestamp not by surface."
+    },
+    {
+      "n": 10,
+      "hop": "0 origin",
+      "io": "invariant",
+      "field": "fifo",
+      "typ": "bool",
+      "sample": true,
+      "rule": "Always. Chat silos join this queue. No priority jump."
+    },
+    {
+      "n": 11,
+      "hop": "0 origin",
+      "io": "invariant",
+      "field": "one_wish_one_bite",
+      "typ": "bool",
+      "sample": true,
+      "rule": "Never 112x Drive the MOTIF. WD2 already drives MOTIF."
+    },
+    {
+      "n": 12,
+      "hop": "1 problem",
+      "io": "need",
+      "field": "motif_stage",
+      "typ": "enum",
+      "sample": "1 PROBLEM STATEMENT",
+      "rule": "1..9. RESEARCH does not start until frozen file exists."
+    },
+    {
+      "n": 13,
+      "hop": "1 problem",
+      "io": "need",
+      "field": "frozen_what",
+      "typ": "text",
+      "sample": "Acquire RE-SESSION automatically without user intervention, or with minimal disturbance.",
+      "rule": "Stage-1 WHAT."
+    },
+    {
+      "n": 14,
+      "hop": "1 problem",
+      "io": "need",
+      "field": "frozen_why",
+      "typ": "text",
+      "sample": "Context-full stops Layer B. Layer A schtasks keep humming. Human must BootUP.",
+      "rule": "Stage-1 WHY."
+    },
+    {
+      "n": 15,
+      "hop": "1 problem",
+      "io": "need",
+      "field": "frozen_acceptance",
+      "typ": "text",
+      "sample": "Fresh window not replay; seeded from SEED.json+BUCm.toml+BACKLOG; no/one human turn; schtasks logged-on; one orch lease; fail-closed.",
+      "rule": "R1\u2013R8."
+    },
+    {
+      "n": 16,
+      "hop": "1 problem",
+      "io": "need",
+      "field": "frozen_off_limits",
+      "typ": "text",
+      "sample": "Not --continue of dying window. Not extra grok.exe as product. Not USPTO. Not second Core. Not ONSTART (V: is user-session).",
+      "rule": "Refuse if Task violates these."
+    },
+    {
+      "n": 17,
+      "hop": "1 problem",
+      "io": "need",
+      "field": "frozen_live_emit",
+      "typ": "text",
+      "sample": "live/state/control/RESESSION.json + live/logs/resession_heartbeat.json + clock 18 tick",
+      "rule": "Gate names the live-tree field now."
+    },
+    {
+      "n": 18,
+      "hop": "1 problem",
+      "io": "need",
+      "field": "negative_control",
+      "typ": "text",
+      "sample": "Same sid --continue; ONSTART task; second orch without lease; spawn that needs a click.",
+      "rule": "What would prove the wish failed."
+    },
+    {
+      "n": 19,
+      "hop": "1 problem",
+      "io": "produce",
+      "field": "frozen_statement_path",
+      "typ": "path",
+      "sample": "V:\\A\\Ai\\COSMOS\\docs\\research\\AUTO_RESESSION.md",
+      "rule": "This file IS Task for every later lane. Do not paraphrase per model."
+    },
+    {
+      "n": 20,
+      "hop": "1 problem",
+      "io": "produce",
+      "field": "bootup_prompt_path",
+      "typ": "path",
+      "sample": "V:\\A\\Ai\\COSMOS\\docs\\AUTO_RESESSION_PROMPT.md",
+      "rule": "Fire-time prompt. Do not edit at fire."
+    },
+    {
+      "n": 21,
+      "hop": "1 problem",
+      "io": "produce",
+      "field": "bootup_prompt_sha",
+      "typ": "hash",
+      "sample": "5d10d8ff510503a00b01d6a2b1efca7941ca92a10efc3aa1c6ed59082cfca8db",
+      "rule": "Measured F-51."
+    },
+    {
+      "n": 22,
+      "hop": "1 problem",
+      "io": "need",
+      "field": "already_on_lit",
+      "typ": "text",
+      "sample": "cosmos/cosmos_resession.py CLOCK_ID=18; tests/test_resession.py; --install-task still operator.",
+      "rule": "If full, fulfill path (1) not a new coding WO."
+    },
+    {
+      "n": 23,
+      "hop": "1 problem",
+      "io": "need",
+      "field": "layer_split",
+      "typ": "text",
+      "sample": "A=clocks survive; B=orch session dies",
+      "rule": "Do not conflate."
+    },
+    {
+      "n": 24,
+      "hop": "2 translate",
+      "io": "need",
+      "field": "sop_six",
+      "typ": "text",
+      "sample": "Agent | Context source | Task | Target & scope | Timestamp | Output",
+      "rule": "All required. Missing any = not a WO."
+    },
+    {
+      "n": 25,
+      "hop": "2 translate",
+      "io": "produce",
+      "field": "order_id",
+      "typ": "text",
+      "sample": "wish-13-womb",
+      "rule": "Stable idempotency key."
+    },
+    {
+      "n": 26,
+      "hop": "2 translate",
+      "io": "produce",
+      "field": "windows_filename",
+      "typ": "text",
+      "sample": "wo-luna-wombat-13.json",
+      "rule": "No : * ? \" < > | \\. TZ not in name."
+    },
+    {
+      "n": 27,
+      "hop": "2 translate",
+      "io": "produce",
+      "field": "Agent",
+      "typ": "text",
+      "sample": "OpenRouter | Nex | nex-agi/nex-n2.5-mini:free",
+      "rule": "Family | Clade | Version. Not Cursor. Not Claude. Not grok.exe."
+    },
+    {
+      "n": 28,
+      "hop": "2 translate",
+      "io": "produce",
+      "field": "Context source",
+      "typ": "list",
+      "sample": "V:\\A\\Ai\\COSMOS\\docs\\AGENT_BRIEF.md | V:\\A\\Ai\\COSMOS\\docs\\AGENT_BOUNDARIES.md | V:\\A\\Ai\\COSMOS\\docs\\WISHLIST.md | V:\\A\\Ai\\COSMOS\\docs\\research\\AUTO_RESESSION.md | V:\\A\\Ai\\COSMOS\\docs\\AUTO_RESESSION_PROMPT.md",
+      "rule": "LIST of existing abs paths. Concat middle-dot = NO_CONTEXT scar."
+    },
+    {
+      "n": 29,
+      "hop": "2 translate",
+      "io": "invariant",
+      "field": "ctx_is_list",
+      "typ": "bool",
+      "sample": true,
+      "rule": "Refuse concat."
+    },
+    {
+      "n": 30,
+      "hop": "2 translate",
+      "io": "produce",
+      "field": "Task",
+      "typ": "text",
+      "sample": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Frozen statement is docs/research/AUTO_RESESSION.md (WHAT/WHY/acceptance/off-limits/live emit). Bite: satellite spawn of a FRESH orch at ~70% pack; SOP docs/RESESSION_SOP.md; 5a grok --prompt-file then 5b WMI grok --cwd --fullscreen -r <uuid>. Not -c of the dying window. First line NONE or diff --git.",
+      "rule": "Complete translation. Thin title-only Task is class-1 empty Output."
+    },
+    {
+      "n": 31,
+      "hop": "2 translate",
+      "io": "produce",
+      "field": "task_thin_was",
+      "typ": "text",
+      "sample": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. WISH: AUTO-RESESSION \u2014 continue across the context boundary, zero / minimal user disturbance.",
+      "rule": "What latch wrote. Gap vs Task above."
+    },
+    {
+      "n": 32,
+      "hop": "2 translate",
+      "io": "produce",
+      "field": "Target & scope",
+      "typ": "text",
+      "sample": "proposals under Output only; never kernel/ledger/sched/service; never LiT; never grok.exe",
+      "rule": "Fence. Models drop this."
+    },
+    {
+      "n": 33,
+      "hop": "2 translate",
+      "io": "produce",
+      "field": "Timestamp",
+      "typ": "text",
+      "sample": "2026-09-23T18:41:41-05:00",
+      "rule": "ISO+offset. Product field. Not PREFIX."
+    },
+    {
+      "n": 34,
+      "hop": "2 translate",
+      "io": "produce",
+      "field": "Output",
+      "typ": "text",
+      "sample": "proposals | out.json",
+      "rule": "folder | filename RELATIVE. No V:\\ no / no .."
+    },
+    {
+      "n": 35,
+      "hop": "2 translate",
+      "io": "produce",
+      "field": "output_what",
+      "typ": "enum",
+      "sample": "python",
+      "rule": "text|python|no_prose. Coder=python. WOMBAT product=no_prose."
+    },
+    {
+      "n": 36,
+      "hop": "2 translate",
+      "io": "produce",
+      "field": "expected_form",
+      "typ": "text",
+      "sample": "NONE or diff --git then unified diff in Output",
+      "rule": "Name the form or class-3 miss."
+    },
+    {
+      "n": 37,
+      "hop": "2 translate",
+      "io": "produce",
+      "field": "verify_1",
+      "typ": "text",
+      "sample": "First line is NONE or diff --git",
+      "rule": "FULFILL: 3 VERIFY."
+    },
+    {
+      "n": 38,
+      "hop": "2 translate",
+      "io": "produce",
+      "field": "verify_2",
+      "typ": "text",
+      "sample": "Output file exists at write_path and hashes",
+      "rule": "VERIFY."
+    },
+    {
+      "n": 39,
+      "hop": "2 translate",
+      "io": "produce",
+      "field": "verify_3",
+      "typ": "text",
+      "sample": "Does not write LiT; no grok.exe worker",
+      "rule": "VERIFY."
+    },
+    {
+      "n": 40,
+      "hop": "2 translate",
+      "io": "produce",
+      "field": "item_repo",
+      "typ": "text",
+      "sample": "keithbbf-gif/cosmos",
+      "rule": "ITEM Repo."
+    },
+    {
+      "n": 41,
+      "hop": "2 translate",
+      "io": "produce",
+      "field": "item_do",
+      "typ": "text",
+      "sample": "Satellite spawn of fresh orch; not resume of dying window.",
+      "rule": "One behavior."
+    },
+    {
+      "n": 42,
+      "hop": "2 translate",
+      "io": "produce",
+      "field": "item_must_not",
+      "typ": "text",
+      "sample": "ballot; extra grok.exe worker; --continue dying sid; USPTO; second Core; LiT write; 112x MOTIF",
+      "rule": "Must not."
+    },
+    {
+      "n": 43,
+      "hop": "2 translate",
+      "io": "produce",
+      "field": "item_return",
+      "typ": "text",
+      "sample": "unified diff first",
+      "rule": "Return shape."
+    },
+    {
+      "n": 44,
+      "hop": "2 translate",
+      "io": "produce",
+      "field": "route",
+      "typ": "enum",
+      "sample": "coding",
+      "rule": "coding|CURSOR|DOM. Cursor is Task route not Agent. Research=DOM not Gitur."
+    },
+    {
+      "n": 45,
+      "hop": "2 translate",
+      "io": "invariant",
+      "field": "agent_forbids",
+      "typ": "text",
+      "sample": "Cursor, Claude, Sonnet, grok.exe, prepaid-orch flood",
+      "rule": "SOP + class 2."
+    },
+    {
+      "n": 46,
+      "hop": "2 translate",
+      "io": "produce",
+      "field": "set_id",
+      "typ": "text",
+      "sample": "wish-13-womb",
+      "rule": "Shared prompt set for the crew."
+    },
+    {
+      "n": 47,
+      "hop": "2 translate",
+      "io": "produce",
+      "field": "kind",
+      "typ": "enum",
+      "sample": "wish",
+      "rule": "wish|resurrect|heroab|create|voice|email|restate."
+    },
+    {
+      "n": 48,
+      "hop": "2 translate",
+      "io": "produce",
+      "field": "n",
+      "typ": "int",
+      "sample": 13,
+      "rule": "Board index."
+    },
+    {
+      "n": 49,
+      "hop": "3 drop",
+      "io": "produce",
+      "field": "wo_path",
+      "typ": "path",
+      "sample": "V:\\A\\Ai\\COSMOS\\work_orders\\drop\\wo-luna-wombat-13.json",
+      "rule": "Inbox."
+    },
+    {
+      "n": 50,
+      "hop": "3 drop",
+      "io": "produce",
+      "field": "write_path",
+      "typ": "path",
+      "sample": "V:\\A\\Ai\\COSMOS\\live\\work\\orders\\wish-13-womb\\out\\proposals\\out.json",
+      "rule": "Only write surface."
+    },
+    {
+      "n": 51,
+      "hop": "3 drop",
+      "io": "produce",
+      "field": "state",
+      "typ": "enum",
+      "sample": "PENDING",
+      "rule": "PENDING\u2192DROPPED\u2192PICKED\u2192DONE\u2192CHECKED\u2192COMPLETED. Never collapse DONE into COMPLETED."
+    },
+    {
+      "n": 52,
+      "hop": "3 drop",
+      "io": "produce",
+      "field": "folder",
+      "typ": "enum",
+      "sample": "drop",
+      "rule": "drop|bucket|picked|assigned|failed|completed."
+    },
+    {
+      "n": 53,
+      "hop": "3 drop",
+      "io": "produce",
+      "field": "fifo_ts",
+      "typ": "text",
+      "sample": "2026-09-23T18:41:41-05:00",
+      "rule": "Sort key."
+    },
+    {
+      "n": 54,
+      "hop": "3 drop",
+      "io": "need",
+      "field": "PAUSE.flag",
+      "typ": "enum",
+      "sample": "RUNNING",
+      "rule": "If PAUSED, runner does not pick."
+    },
+    {
+      "n": 55,
+      "hop": "3 drop",
+      "io": "need",
+      "field": "tree_id",
+      "typ": "text",
+      "sample": "KMesh-COSMOS-live",
+      "rule": "Occupancy."
+    },
+    {
+      "n": 56,
+      "hop": "4 ingest",
+      "io": "produce",
+      "field": "state_after_ingest",
+      "typ": "enum",
+      "sample": "DROPPED",
+      "rule": "Bucket record."
+    },
+    {
+      "n": 57,
+      "hop": "4 ingest",
+      "io": "produce",
+      "field": "bucket_path",
+      "typ": "path",
+      "sample": "V:\\A\\Ai\\COSMOS\\live\\state\\work_orders\\bucket",
+      "rule": "Live inbox."
+    },
+    {
+      "n": 58,
+      "hop": "5 spawn",
+      "io": "need",
+      "field": "role",
+      "typ": "text",
+      "sample": "You write a proposed patch (unified diff). You do not merge. You do not hold the COSMOS live-tree pen. First line is NONE or a diff --git hunk.",
+      "rule": "Layer 1 sentence. Empty enum after defaults = refuse."
+    },
+    {
+      "n": 59,
+      "hop": "5 spawn",
+      "io": "need",
+      "field": "role_enum",
+      "typ": "enum",
+      "sample": "CODER",
+      "rule": "ORC|WOMBAT|CODER|JUDGE|CCR|DAEMON."
+    },
+    {
+      "n": 60,
+      "hop": "5 spawn",
+      "io": "need",
+      "field": "model",
+      "typ": "text",
+      "sample": "nex-agi/nex-n2.5-mini:free",
+      "rule": "Layer 2. Empty = refuse."
+    },
+    {
+      "n": 61,
+      "hop": "5 spawn",
+      "io": "need",
+      "field": "family",
+      "typ": "text",
+      "sample": "OpenRouter",
+      "rule": "Agent part 1. Swiss cheese: crew families must differ enough to punch different holes."
+    },
+    {
+      "n": 62,
+      "hop": "5 spawn",
+      "io": "need",
+      "field": "clade",
+      "typ": "text",
+      "sample": "Nex",
+      "rule": "Agent part 2."
+    },
+    {
+      "n": 63,
+      "hop": "5 spawn",
+      "io": "need",
+      "field": "version",
+      "typ": "text",
+      "sample": "nex-agi/nex-n2.5-mini:free",
+      "rule": "Named pin."
+    },
+    {
+      "n": 64,
+      "hop": "5 spawn",
+      "io": "need",
+      "field": "harness_kind",
+      "typ": "enum",
+      "sample": "coding",
+      "rule": "orch|board|review|coding|dispose."
+    },
+    {
+      "n": 65,
+      "hop": "5 spawn",
+      "io": "need",
+      "field": "harness_via",
+      "typ": "text",
+      "sample": "OpenRouterRail.dispatch named pin",
+      "rule": "Full command line, not a nickname. Not extra grok.exe."
+    },
+    {
+      "n": 66,
+      "hop": "5 spawn",
+      "io": "need",
+      "field": "wrapper",
+      "typ": "text",
+      "sample": "role=CODER; pen=none; propose_only=true; merge=false; first_line=NONE|diff --git; wrap=What is the intent, and the best execution of this intent?; isolated_worktree=true",
+      "rule": "Layer 4 FULL text, not a path."
+    },
+    {
+      "n": 67,
+      "hop": "5 spawn",
+      "io": "need",
+      "field": "skill",
+      "typ": "text",
+      "sample": "None extra.",
+      "rule": "Layer 5. The sentence is the value."
+    },
+    {
+      "n": 68,
+      "hop": "5 spawn",
+      "io": "need",
+      "field": "tools_allow",
+      "typ": "text",
+      "sample": "Read, Glob, Grep, Bash in worktree",
+      "rule": "Layer 6 then kind-gate."
+    },
+    {
+      "n": 69,
+      "hop": "5 spawn",
+      "io": "need",
+      "field": "tools_forbid",
+      "typ": "text",
+      "sample": "git_push, git_merge, grok.exe, LiT write, USPTO, CCR.lease, apply_patch on LiT",
+      "rule": "Kind-gate."
+    },
+    {
+      "n": 70,
+      "hop": "5 spawn",
+      "io": "need",
+      "field": "cwd",
+      "typ": "path",
+      "sample": "V:\\A\\Ai\\COSMOS\\live\\work\\openrouter\\hero-coder-nexmini",
+      "rule": "Isolated worktree."
+    },
+    {
+      "n": 71,
+      "hop": "5 spawn",
+      "io": "need",
+      "field": "sandbox",
+      "typ": "enum",
+      "sample": "worktree",
+      "rule": "WRITE-PRIVATE. Requested policy."
+    },
+    {
+      "n": 72,
+      "hop": "5 spawn",
+      "io": "produce",
+      "field": "sandbox_measured",
+      "typ": "text",
+      "sample": "read-only",
+      "rule": "Codex 0.147 Windows may stamp read-only anyway. Measure, don't assume argv. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 73,
+      "hop": "5 spawn",
+      "io": "need",
+      "field": "wallet",
+      "typ": "path",
+      "sample": "V:\\A\\Ai\\COSMOS\\live\\config\\openrouter_api_key.txt",
+      "rule": "Path only. Never print key."
+    },
+    {
+      "n": 74,
+      "hop": "5 spawn",
+      "io": "need",
+      "field": "hero_pack",
+      "typ": "path",
+      "sample": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\hero_coders\\13_nexmini",
+      "rule": "No DUD = no HERO = no spawn."
+    },
+    {
+      "n": 75,
+      "hop": "5 spawn",
+      "io": "need",
+      "field": "hero_pack_ref",
+      "typ": "text",
+      "sample": "13_nexmini",
+      "rule": "Short id."
+    },
+    {
+      "n": 76,
+      "hop": "5 spawn",
+      "io": "need",
+      "field": "pen",
+      "typ": "enum",
+      "sample": "none",
+      "rule": "CCr holds LiT pen."
+    },
+    {
+      "n": 77,
+      "hop": "5 spawn",
+      "io": "need",
+      "field": "propose_only",
+      "typ": "bool",
+      "sample": true,
+      "rule": "P10 by mechanism."
+    },
+    {
+      "n": 78,
+      "hop": "5 spawn",
+      "io": "need",
+      "field": "merge",
+      "typ": "bool",
+      "sample": false,
+      "rule": "Do not merge."
+    },
+    {
+      "n": 79,
+      "hop": "5 spawn",
+      "io": "need",
+      "field": "lit_write",
+      "typ": "bool",
+      "sample": false,
+      "rule": "Boxes only until CCr."
+    },
+    {
+      "n": 80,
+      "hop": "5 spawn",
+      "io": "need",
+      "field": "write_private",
+      "typ": "bool",
+      "sample": true,
+      "rule": "Physically only Output."
+    },
+    {
+      "n": 81,
+      "hop": "5 spawn",
+      "io": "need",
+      "field": "isolated_worktree",
+      "typ": "bool",
+      "sample": true,
+      "rule": "Not LiT main."
+    },
+    {
+      "n": 82,
+      "hop": "5 spawn",
+      "io": "need",
+      "field": "service_tier",
+      "typ": "enum",
+      "sample": "flex",
+      "rule": "Luna :floor. Do not retap SOL/non-flex."
+    },
+    {
+      "n": 83,
+      "hop": "5 spawn",
+      "io": "need",
+      "field": "ephemeral",
+      "typ": "bool",
+      "sample": true,
+      "rule": "Codex: --ephemeral. Do not resume old thread."
+    },
+    {
+      "n": 84,
+      "hop": "5 spawn",
+      "io": "need",
+      "field": "ignore_user_config",
+      "typ": "bool",
+      "sample": false,
+      "rule": "Codex 0.147: never --ignore-user-config."
+    },
+    {
+      "n": 85,
+      "hop": "5 spawn",
+      "io": "need",
+      "field": "thinking",
+      "typ": "text",
+      "sample": "n/a this seat",
+      "rule": "GF38: medium never HIGH."
+    },
+    {
+      "n": 86,
+      "hop": "5 spawn",
+      "io": "need",
+      "field": "pack",
+      "typ": "enum",
+      "sample": "house",
+      "rule": "house if ctx<400k else fat. Fat only if EVERY seat can take it."
+    },
+    {
+      "n": 87,
+      "hop": "5 spawn",
+      "io": "produce",
+      "field": "state_after_pickup",
+      "typ": "enum",
+      "sample": "PICKED",
+      "rule": "Runner created the agent."
+    },
+    {
+      "n": 88,
+      "hop": "5 spawn",
+      "io": "produce",
+      "field": "session_id",
+      "typ": "text",
+      "sample": "or-nex-wish13-20260923T191000",
+      "rule": "New sid per spawn. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 89,
+      "hop": "5 spawn",
+      "io": "produce",
+      "field": "legend_hash",
+      "typ": "hash",
+      "sample": "2d7703fe8ba92a525c2d0c5a94a45526a60e9f896e7a0dbf9349a19922988dd6",
+      "rule": "Seven layers as applied."
+    },
+    {
+      "n": 90,
+      "hop": "5 spawn",
+      "io": "produce",
+      "field": "sku_bound",
+      "typ": "text",
+      "sample": "nex-agi/nex-n2.5-mini",
+      "rule": "If runtime SKU \u2260 model field, stop. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 91,
+      "hop": "5 spawn",
+      "io": "need",
+      "field": "pin_status",
+      "typ": "enum",
+      "sample": "PINNED",
+      "rule": "REFUSED before HTTP if not in PINNED."
+    },
+    {
+      "n": 92,
+      "hop": "5 spawn",
+      "io": "invariant",
+      "field": "subagent_new_legend",
+      "typ": "bool",
+      "sample": true,
+      "rule": "Child gets full 7 layers. Not a thinner copy."
+    },
+    {
+      "n": 93,
+      "hop": "5 spawn",
+      "io": "invariant",
+      "field": "warn3",
+      "typ": "text",
+      "sample": "grok.exe; concat CTX; two heads; Judge on empty WOMB",
+      "rule": "\u00d73 then refuse."
+    },
+    {
+      "n": 94,
+      "hop": "6 preload",
+      "io": "need",
+      "field": "prefix_path",
+      "typ": "path",
+      "sample": "V:\\A\\Ai\\COSMOS\\docs\\PROMPT_CACHE.md",
+      "rule": "Static first. CREW/IN/PREFIX.md named, missing on disk."
+    },
+    {
+      "n": 95,
+      "hop": "6 preload",
+      "io": "need",
+      "field": "cache_rule_path",
+      "typ": "path",
+      "sample": "",
+      "rule": "Named in SOP. Missing = empty cell, not a fake path."
+    },
+    {
+      "n": 96,
+      "hop": "6 preload",
+      "io": "need",
+      "field": "frozen_in_prefix",
+      "typ": "bool",
+      "sample": true,
+      "rule": "PREFIX + CACHE_RULE + frozen statement. Stage instruction is tail."
+    },
+    {
+      "n": 97,
+      "hop": "6 preload",
+      "io": "need",
+      "field": "naked_first",
+      "typ": "bool",
+      "sample": false,
+      "rule": "Naked first query is out of SOP."
+    },
+    {
+      "n": 98,
+      "hop": "6 preload",
+      "io": "need",
+      "field": "P11_no_dates",
+      "typ": "bool",
+      "sample": true,
+      "rule": "No dates, UUIDs, WO ids, timestamps in PREFIX."
+    },
+    {
+      "n": 99,
+      "hop": "6 preload",
+      "io": "need",
+      "field": "cache_prefix",
+      "typ": "text",
+      "sample": "legend+WRAP+STYLE+SKILL",
+      "rule": "Not WOMBAT notes. Not scars. Not Task."
+    },
+    {
+      "n": 100,
+      "hop": "6 preload",
+      "io": "need",
+      "field": "cache_ttl_s",
+      "typ": "int",
+      "sample": 1800,
+      "rule": "30m sliding. Bad output: rerun on hot cache before it dies."
+    },
+    {
+      "n": 101,
+      "hop": "6 preload",
+      "io": "need",
+      "field": "cache_floor_tokens",
+      "typ": "int",
+      "sample": 1024,
+      "rule": "Luna 1024. GF38 4096. Ling 262144 never CACHE_FAT."
+    },
+    {
+      "n": 102,
+      "hop": "6 preload",
+      "io": "need",
+      "field": "prompt_cache_key",
+      "typ": "text",
+      "sample": "policy:v2",
+      "rule": "Routing affinity only. Never request id."
+    },
+    {
+      "n": 103,
+      "hop": "6 preload",
+      "io": "produce",
+      "field": "prefix_hash",
+      "typ": "hash",
+      "sample": "809e3387b3a7e6111c2660faa68a17ecdefdd0fce08f3157f4045ccb06536f64",
+      "rule": "Exact bytes. Similarity does not cache."
+    },
+    {
+      "n": 104,
+      "hop": "6 preload",
+      "io": "produce",
+      "field": "cached_tokens",
+      "typ": "tokens",
+      "sample": 0,
+      "rule": "Measure. Claimed hit without this is fabricated."
+    },
+    {
+      "n": 105,
+      "hop": "6 preload",
+      "io": "produce",
+      "field": "cache_write_tokens",
+      "typ": "tokens",
+      "sample": 0,
+      "rule": "When vendor sends it."
+    },
+    {
+      "n": 106,
+      "hop": "6 preload",
+      "io": "produce",
+      "field": "prompt_tokens",
+      "typ": "tokens",
+      "sample": 0,
+      "rule": "After preload, before MAX."
+    },
+    {
+      "n": 107,
+      "hop": "6 preload",
+      "io": "produce",
+      "field": "prompt_sha",
+      "typ": "hash",
+      "sample": "3b6130b1ca7bf4b353fc3c5dcc2374ddd2ec4376bf7d82700c28582c6d5ec5ff",
+      "rule": "sha256 of Task. Stable stage-1."
+    },
+    {
+      "n": 108,
+      "hop": "6 preload",
+      "io": "produce",
+      "field": "prompt_hash",
+      "typ": "hash",
+      "sample": "b1cd835c76337ac4c3339357ad09cd32f26e524c60217ee23e3c3408a3ce6422",
+      "rule": "sha256 of drop file."
+    },
+    {
+      "n": 109,
+      "hop": "6 preload",
+      "io": "need",
+      "field": "item_tail",
+      "typ": "text",
+      "sample": "Frozen AUTO_RESESSION bite: satellite fresh orch; not -c dying window.",
+      "rule": "Volatile only."
+    },
+    {
+      "n": 110,
+      "hop": "7 size",
+      "io": "need",
+      "field": "window_tokens",
+      "typ": "tokens",
+      "sample": 262000,
+      "rule": "Seat window."
+    },
+    {
+      "n": 111,
+      "hop": "7 size",
+      "io": "need",
+      "field": "margin_frac",
+      "typ": "float",
+      "sample": 0.2,
+      "rule": "Thinking + error."
+    },
+    {
+      "n": 112,
+      "hop": "7 size",
+      "io": "produce",
+      "field": "MAX_tokens",
+      "typ": "tokens",
+      "sample": 209600,
+      "rule": "window-(cache+prompts)-0.20*window. Never 0. Never float. <=0 refuse."
+    },
+    {
+      "n": 113,
+      "hop": "7 size",
+      "io": "produce",
+      "field": "OPTIMUM_tokens",
+      "typ": "text",
+      "sample": "float",
+      "rule": "Aim. Expected+headroom or float. Never 0. Shoot OPTIMUM; obey MAX."
+    },
+    {
+      "n": 114,
+      "hop": "7 size",
+      "io": "produce",
+      "field": "cap_tokens",
+      "typ": "tokens",
+      "sample": 209600,
+      "rule": "API max_tokens = MAX every spawn. Never bake 2k/4k/8k."
+    },
+    {
+      "n": 115,
+      "hop": "7 size",
+      "io": "need",
+      "field": "keep_in_tokens_under",
+      "typ": "tokens",
+      "sample": 200000,
+      "rule": "xAI 2\u00d7 surcharge above 200k. Cheaper new session."
+    },
+    {
+      "n": 116,
+      "hop": "7 size",
+      "io": "need",
+      "field": "budget_out_usd_per_m",
+      "typ": "money",
+      "sample": 0.1,
+      "rule": "GAC: Luna Flex 0.10/0.60 and under unless Keith names quality."
+    },
+    {
+      "n": 117,
+      "hop": "7 size",
+      "io": "invariant",
+      "field": "size_after_preload",
+      "typ": "bool",
+      "sample": true,
+      "rule": "Write preload FIRST, then MAX, then spawn."
+    },
+    {
+      "n": 118,
+      "hop": "8 crew",
+      "io": "need",
+      "field": "CREW_SIZE",
+      "typ": "int",
+      "sample": 3,
+      "rule": "This desk: 3. Swiss cheese: different families."
+    },
+    {
+      "n": 119,
+      "hop": "8 crew",
+      "io": "need",
+      "field": "crew_mix",
+      "typ": "text",
+      "sample": "2 :free + 1 paid-low",
+      "rule": "Not free-vs-free only."
+    },
+    {
+      "n": 120,
+      "hop": "8 crew",
+      "io": "need",
+      "field": "crew1.Agent",
+      "typ": "text",
+      "sample": "OpenRouter | Nex | nex-agi/nex-n2.5-mini:free",
+      "rule": "Seat 1."
+    },
+    {
+      "n": 121,
+      "hop": "8 crew",
+      "io": "need",
+      "field": "crew1.tier",
+      "typ": "enum",
+      "sample": "free",
+      "rule": "free|paid-low."
+    },
+    {
+      "n": 122,
+      "hop": "8 crew",
+      "io": "need",
+      "field": "crew1.window",
+      "typ": "tokens",
+      "sample": 262000,
+      "rule": "Number."
+    },
+    {
+      "n": 123,
+      "hop": "8 crew",
+      "io": "need",
+      "field": "crew1.MAX",
+      "typ": "tokens",
+      "sample": 209600,
+      "rule": "Number."
+    },
+    {
+      "n": 124,
+      "hop": "8 crew",
+      "io": "need",
+      "field": "crew1.OPTIMUM",
+      "typ": "text",
+      "sample": "float",
+      "rule": "Never 0."
+    },
+    {
+      "n": 125,
+      "hop": "8 crew",
+      "io": "need",
+      "field": "crew1.tps",
+      "typ": "float",
+      "sample": 49,
+      "rule": "Measured."
+    },
+    {
+      "n": 126,
+      "hop": "8 crew",
+      "io": "need",
+      "field": "crew1.latency_s",
+      "typ": "float",
+      "sample": 0.864,
+      "rule": "Measured."
+    },
+    {
+      "n": 127,
+      "hop": "8 crew",
+      "io": "need",
+      "field": "crew1.in_usd_per_m",
+      "typ": "money",
+      "sample": 0.025,
+      "rule": "Number."
+    },
+    {
+      "n": 128,
+      "hop": "8 crew",
+      "io": "need",
+      "field": "crew1.out_usd_per_m",
+      "typ": "money",
+      "sample": 0.1,
+      "rule": "Number."
+    },
+    {
+      "n": 129,
+      "hop": "8 crew",
+      "io": "need",
+      "field": "crew1.timeout_s",
+      "typ": "int",
+      "sample": 900,
+      "rule": "Number."
+    },
+    {
+      "n": 130,
+      "hop": "8 crew",
+      "io": "need",
+      "field": "crew1.pack_path",
+      "typ": "path",
+      "sample": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\hero_coders\\13_nexmini",
+      "rule": "Abs."
+    },
+    {
+      "n": 131,
+      "hop": "8 crew",
+      "io": "need",
+      "field": "crew1.pin_status",
+      "typ": "enum",
+      "sample": "PINNED",
+      "rule": "ACTIVE."
+    },
+    {
+      "n": 132,
+      "hop": "8 crew",
+      "io": "need",
+      "field": "crew1.mouth_form_ok",
+      "typ": "bool",
+      "sample": true,
+      "rule": "Ping first line NONE."
+    },
+    {
+      "n": 133,
+      "hop": "8 crew",
+      "io": "need",
+      "field": "crew2.Agent",
+      "typ": "text",
+      "sample": "OpenRouter | North | cohere/north-mini-code:free",
+      "rule": "Seat 2."
+    },
+    {
+      "n": 134,
+      "hop": "8 crew",
+      "io": "need",
+      "field": "crew2.tier",
+      "typ": "enum",
+      "sample": "free",
+      "rule": "Second :free; mix saved by seat 3."
+    },
+    {
+      "n": 135,
+      "hop": "8 crew",
+      "io": "need",
+      "field": "crew2.window",
+      "typ": "tokens",
+      "sample": 256000,
+      "rule": "Number."
+    },
+    {
+      "n": 136,
+      "hop": "8 crew",
+      "io": "need",
+      "field": "crew2.MAX",
+      "typ": "tokens",
+      "sample": 204800,
+      "rule": "Number."
+    },
+    {
+      "n": 137,
+      "hop": "8 crew",
+      "io": "need",
+      "field": "crew2.OPTIMUM",
+      "typ": "text",
+      "sample": "float",
+      "rule": "Never 0."
+    },
+    {
+      "n": 138,
+      "hop": "8 crew",
+      "io": "need",
+      "field": "crew2.tps",
+      "typ": "float",
+      "sample": 58,
+      "rule": "Measured."
+    },
+    {
+      "n": 139,
+      "hop": "8 crew",
+      "io": "need",
+      "field": "crew2.latency_s",
+      "typ": "float",
+      "sample": 0.617,
+      "rule": "Measured."
+    },
+    {
+      "n": 140,
+      "hop": "8 crew",
+      "io": "need",
+      "field": "crew2.in_usd_per_m",
+      "typ": "money",
+      "sample": 0.0,
+      "rule": "Number."
+    },
+    {
+      "n": 141,
+      "hop": "8 crew",
+      "io": "need",
+      "field": "crew2.out_usd_per_m",
+      "typ": "money",
+      "sample": 0.0,
+      "rule": "Number."
+    },
+    {
+      "n": 142,
+      "hop": "8 crew",
+      "io": "need",
+      "field": "crew2.timeout_s",
+      "typ": "int",
+      "sample": 900,
+      "rule": "Number."
+    },
+    {
+      "n": 143,
+      "hop": "8 crew",
+      "io": "need",
+      "field": "crew2.pack_path",
+      "typ": "path",
+      "sample": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\hero_coders\\09_northmini",
+      "rule": "Abs."
+    },
+    {
+      "n": 144,
+      "hop": "8 crew",
+      "io": "need",
+      "field": "crew2.pin_status",
+      "typ": "enum",
+      "sample": "PINNED",
+      "rule": "ACTIVE."
+    },
+    {
+      "n": 145,
+      "hop": "8 crew",
+      "io": "need",
+      "field": "crew2.mouth_form_ok",
+      "typ": "bool",
+      "sample": true,
+      "rule": "Full-pack ping NONE."
+    },
+    {
+      "n": 146,
+      "hop": "8 crew",
+      "io": "need",
+      "field": "crew3.Agent",
+      "typ": "text",
+      "sample": "OpenRouter | Hy3 | tencent/hy3-preview",
+      "rule": "paid-low. Not tencent/hy3."
+    },
+    {
+      "n": 147,
+      "hop": "8 crew",
+      "io": "need",
+      "field": "crew3.tier",
+      "typ": "enum",
+      "sample": "paid-low",
+      "rule": "Required mix."
+    },
+    {
+      "n": 148,
+      "hop": "8 crew",
+      "io": "need",
+      "field": "crew3.window",
+      "typ": "tokens",
+      "sample": 262000,
+      "rule": "Number."
+    },
+    {
+      "n": 149,
+      "hop": "8 crew",
+      "io": "need",
+      "field": "crew3.MAX",
+      "typ": "tokens",
+      "sample": 209600,
+      "rule": "Number."
+    },
+    {
+      "n": 150,
+      "hop": "8 crew",
+      "io": "need",
+      "field": "crew3.OPTIMUM",
+      "typ": "text",
+      "sample": "float",
+      "rule": "Never 0."
+    },
+    {
+      "n": 151,
+      "hop": "8 crew",
+      "io": "need",
+      "field": "crew3.tps",
+      "typ": "float",
+      "sample": 69,
+      "rule": "Measured."
+    },
+    {
+      "n": 152,
+      "hop": "8 crew",
+      "io": "need",
+      "field": "crew3.latency_s",
+      "typ": "float",
+      "sample": 4.3,
+      "rule": "Measured."
+    },
+    {
+      "n": 153,
+      "hop": "8 crew",
+      "io": "need",
+      "field": "crew3.in_usd_per_m",
+      "typ": "money",
+      "sample": 0.18,
+      "rule": "Number."
+    },
+    {
+      "n": 154,
+      "hop": "8 crew",
+      "io": "need",
+      "field": "crew3.out_usd_per_m",
+      "typ": "money",
+      "sample": 0.6,
+      "rule": "Number."
+    },
+    {
+      "n": 155,
+      "hop": "8 crew",
+      "io": "need",
+      "field": "crew3.timeout_s",
+      "typ": "int",
+      "sample": 900,
+      "rule": "Number."
+    },
+    {
+      "n": 156,
+      "hop": "8 crew",
+      "io": "need",
+      "field": "crew3.pack_path",
+      "typ": "path",
+      "sample": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\hero_coders\\07_hy3preview",
+      "rule": "Abs."
+    },
+    {
+      "n": 157,
+      "hop": "8 crew",
+      "io": "need",
+      "field": "crew3.pin_status",
+      "typ": "enum",
+      "sample": "PINNED",
+      "rule": "hy3-preview pinned; tencent/hy3 REFUSED."
+    },
+    {
+      "n": 158,
+      "hop": "8 crew",
+      "io": "need",
+      "field": "crew3.mouth_form_ok",
+      "typ": "bool",
+      "sample": false,
+      "rule": "S-156 class 6: 200+SKU, preamble not NONE. Not coder-ACTIVE."
+    },
+    {
+      "n": 159,
+      "hop": "8 crew",
+      "io": "need",
+      "field": "first_line",
+      "typ": "enum",
+      "sample": "NONE | diff --git",
+      "rule": "Coder. WOMBAT=ITEM|NONE. Judge=KEEP|DROP|NONE|HOLD|UNMEASURED."
+    },
+    {
+      "n": 160,
+      "hop": "8 crew",
+      "io": "need",
+      "field": "axis",
+      "typ": "text",
+      "sample": "coding",
+      "rule": "Pair-pick axis. Stations also quality_per_cost."
+    },
+    {
+      "n": 161,
+      "hop": "8 crew",
+      "io": "need",
+      "field": "gac_line",
+      "typ": "text",
+      "sample": "Luna Flex 0.10/0.60 and under",
+      "rule": "Unless Keith names quality."
+    },
+    {
+      "n": 162,
+      "hop": "8 crew",
+      "io": "invariant",
+      "field": "same_task_no_peek",
+      "typ": "bool",
+      "sample": true,
+      "rule": "Crew shares Task text. No shared context between mouths."
+    },
+    {
+      "n": 163,
+      "hop": "9 product",
+      "io": "produce",
+      "field": "mouth_bytes",
+      "typ": "text",
+      "sample": "diff --git a/cosmos/cosmos_resession.py b/cosmos/cosmos_resession.py",
+      "rule": "Until run. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 164,
+      "hop": "9 product",
+      "io": "produce",
+      "field": "first_line_ok",
+      "typ": "bool",
+      "sample": true,
+      "rule": "Must match expected_form. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 165,
+      "hop": "9 product",
+      "io": "produce",
+      "field": "spend",
+      "typ": "money",
+      "sample": 0.0042,
+      "rule": "Ledger after call. Never quote the pre-run estimate. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 166,
+      "hop": "9 product",
+      "io": "produce",
+      "field": "DONE",
+      "typ": "bool",
+      "sample": true,
+      "rule": "Output file exists. Not COMPLETED. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 167,
+      "hop": "9 product",
+      "io": "produce",
+      "field": "output_path",
+      "typ": "path",
+      "sample": "V:\\A\\Ai\\COSMOS\\live\\work\\orders\\wish-13-womb\\out\\proposals\\out.json",
+      "rule": "Abs after write. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 168,
+      "hop": "9 product",
+      "io": "produce",
+      "field": "output_hash",
+      "typ": "hash",
+      "sample": "5187759e4fd5f689838a557ef0ff56ceebb1dddd80bdaf033a3fc7cdd419c6c5",
+      "rule": "sha256 of Output. Fat = path+hash not 2MB cell. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 169,
+      "hop": "9 product",
+      "io": "produce",
+      "field": "empty_output_class",
+      "typ": "enum",
+      "sample": 3,
+      "rule": "1 stating-the-problem | 2 choosing-the-agent | 3 prompt | 4 follow-up. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 170,
+      "hop": "9 product",
+      "io": "invariant",
+      "field": "empty_output_is_wombat",
+      "typ": "bool",
+      "sample": true,
+      "rule": "Not 'the model failed'. Classify 1\u20134. Do not as-is retry."
+    },
+    {
+      "n": 171,
+      "hop": "10 4Cs",
+      "io": "produce",
+      "field": "cpu_py_compile",
+      "typ": "enum",
+      "sample": "PASS",
+      "rule": "PASS|FAIL|MISSING|NO_CODE. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 172,
+      "hop": "10 4Cs",
+      "io": "produce",
+      "field": "cpu_ruff",
+      "typ": "enum",
+      "sample": "PASS",
+      "rule": "PASS|FAIL|MISSING|NO_CODE. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 173,
+      "hop": "10 4Cs",
+      "io": "produce",
+      "field": "cpu_mypy",
+      "typ": "enum",
+      "sample": "PASS",
+      "rule": "PASS|FAIL|MISSING|NO_CODE. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 174,
+      "hop": "10 4Cs",
+      "io": "produce",
+      "field": "cpu_pytest",
+      "typ": "enum",
+      "sample": "NO_TESTS",
+      "rule": "PASS|FAIL|NO_TESTS. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 175,
+      "hop": "10 4Cs",
+      "io": "produce",
+      "field": "4C",
+      "typ": "enum",
+      "sample": "PASS",
+      "rule": "Blocks Judge on FAIL/MISSING. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 176,
+      "hop": "10 4Cs",
+      "io": "need",
+      "field": "split_diffs",
+      "typ": "bool",
+      "sample": true,
+      "rule": "Check each file body, not the unified diff as reply.py."
+    },
+    {
+      "n": 177,
+      "hop": "11 gitur",
+      "io": "need",
+      "field": "lane_b",
+      "typ": "text",
+      "sample": "CURSOR in Task not Agent",
+      "rule": "Parallel builder, same Task, no peek. Composer 2.5 refused."
+    },
+    {
+      "n": 178,
+      "hop": "11 gitur",
+      "io": "need",
+      "field": "one_job_one_pr",
+      "typ": "bool",
+      "sample": true,
+      "rule": "From origin/main. autoCreatePR. Must commit."
+    },
+    {
+      "n": 179,
+      "hop": "11 gitur",
+      "io": "need",
+      "field": "unique_head_gate",
+      "typ": "bool",
+      "sample": true,
+      "rule": "Gitur proposes on main; do not restore unique-head."
+    },
+    {
+      "n": 180,
+      "hop": "11 gitur",
+      "io": "produce",
+      "field": "gitur_pr",
+      "typ": "text",
+      "sample": "https://github.com/keithbbf-gif/cosmos/pull/612",
+      "rule": "Open PR. Do not merge. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 181,
+      "hop": "11 gitur",
+      "io": "produce",
+      "field": "checks.github",
+      "typ": "enum",
+      "sample": "success",
+      "rule": "Missing rail never fake green. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 182,
+      "hop": "11 gitur",
+      "io": "produce",
+      "field": "checks.gitlab",
+      "typ": "enum",
+      "sample": "success",
+      "rule": "CI is the gate runner. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 183,
+      "hop": "11 gitur",
+      "io": "need",
+      "field": "skip_gitur_if",
+      "typ": "enum",
+      "sample": "not BUILD",
+      "rule": "RESEARCH = DOM rails. Skip Gitur."
+    },
+    {
+      "n": 184,
+      "hop": "12 judge",
+      "io": "need",
+      "field": "JUDGE_FLOOR",
+      "typ": "int",
+      "sample": 30,
+      "rule": "30 complete 4C sets. n_board<20 do not sit."
+    },
+    {
+      "n": 185,
+      "hop": "12 judge",
+      "io": "need",
+      "field": "n_board",
+      "typ": "int",
+      "sample": 44,
+      "rule": "Latched drops now."
+    },
+    {
+      "n": 186,
+      "hop": "12 judge",
+      "io": "need",
+      "field": "judge_first_line",
+      "typ": "enum",
+      "sample": "KEEP | DROP | NONE | HOLD | UNMEASURED",
+      "rule": "Not coder form."
+    },
+    {
+      "n": 187,
+      "hop": "12 judge",
+      "io": "need",
+      "field": "one_judge_per_run",
+      "typ": "bool",
+      "sample": true,
+      "rule": "One fat prefix for the whole run."
+    },
+    {
+      "n": 188,
+      "hop": "12 judge",
+      "io": "need",
+      "field": "judge_family_differs",
+      "typ": "bool",
+      "sample": true,
+      "rule": "Judge family \u2260 coder family when possible."
+    },
+    {
+      "n": 189,
+      "hop": "12 judge",
+      "io": "produce",
+      "field": "verdict",
+      "typ": "enum",
+      "sample": "KEEP",
+      "rule": "KEEP|DROP|NONE|HOLD|UNMEASURED. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 190,
+      "hop": "12 judge",
+      "io": "produce",
+      "field": "judge_score_hero",
+      "typ": "float",
+      "sample": 8.2,
+      "rule": "Do not invent 0. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 191,
+      "hop": "12 judge",
+      "io": "produce",
+      "field": "judge_score_base",
+      "typ": "float",
+      "sample": 6.1,
+      "rule": "AB only. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 192,
+      "hop": "12 judge",
+      "io": "produce",
+      "field": "judge_winner",
+      "typ": "enum",
+      "sample": "hero",
+      "rule": "hero|base|tie only when recorded. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 193,
+      "hop": "12 judge",
+      "io": "need",
+      "field": "ab_pair_id",
+      "typ": "text",
+      "sample": "",
+      "rule": "Empty unless AB."
+    },
+    {
+      "n": 194,
+      "hop": "12 judge",
+      "io": "need",
+      "field": "arm",
+      "typ": "enum",
+      "sample": "",
+      "rule": "hero|base or empty."
+    },
+    {
+      "n": 195,
+      "hop": "12 judge",
+      "io": "need",
+      "field": "FINAL_FLOOR",
+      "typ": "int",
+      "sample": 10,
+      "rule": "Final auditor after 10 KEEPs."
+    },
+    {
+      "n": 196,
+      "hop": "12 judge",
+      "io": "need",
+      "field": "needs_second_judge",
+      "typ": "bool",
+      "sample": false,
+      "rule": "Default one Judge."
+    },
+    {
+      "n": 197,
+      "hop": "13 verdict",
+      "io": "produce",
+      "field": "Verdict.status",
+      "typ": "enum",
+      "sample": "applied",
+      "rule": "applied|rejected|pending. One, overwrite. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 198,
+      "hop": "13 verdict",
+      "io": "produce",
+      "field": "Verdict.reason",
+      "typ": "text",
+      "sample": "Satellite spawn matches frozen statement; first line NONE.",
+      "rule": "One line. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 199,
+      "hop": "13 verdict",
+      "io": "produce",
+      "field": "Verdict.objection",
+      "typ": "text",
+      "sample": "cosmos/cosmos_resession.py:12 use --prompt-file not -c of dying sid",
+      "rule": "Rejected: file+line+fix. Voice-correctable. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 200,
+      "hop": "13 verdict",
+      "io": "produce",
+      "field": "Verdict.timestamp",
+      "typ": "text",
+      "sample": "2026-09-23T19:10:00-05:00",
+      "rule": "ISO. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 201,
+      "hop": "13 verdict",
+      "io": "produce",
+      "field": "Comparison",
+      "typ": "text",
+      "sample": "Lane A diff; Lane B same bite, different harness",
+      "rule": "Optional. Does not replace Lane B. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 202,
+      "hop": "14 fail",
+      "io": "need",
+      "field": "hot_cache_ttl_s",
+      "typ": "int",
+      "sample": 1800,
+      "rule": "Rerun bad on hot cache or partner. Do not burn a new prefix if warm."
+    },
+    {
+      "n": 203,
+      "hop": "14 fail",
+      "io": "produce",
+      "field": "wo_partner",
+      "typ": "text",
+      "sample": "wish-13-womb-b",
+      "rule": "Silent fail of A always autopsies B. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 204,
+      "hop": "14 fail",
+      "io": "produce",
+      "field": "follow_up_oid",
+      "typ": "text",
+      "sample": "wish-13-womb-r2",
+      "rule": "New six-field, new prompt. Never corpse retry. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 205,
+      "hop": "14 fail",
+      "io": "produce",
+      "field": "xfer",
+      "typ": "enum",
+      "sample": "partner",
+      "rule": "superseded|partner|gitur|GAC|superseded_wd2. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 206,
+      "hop": "14 fail",
+      "io": "produce",
+      "field": "xform",
+      "typ": "text",
+      "sample": "Tail only: first line MUST be NONE or diff --git.",
+      "rule": "Reprompt TAIL only. Do not rewrite PREFIX. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 207,
+      "hop": "14 fail",
+      "io": "produce",
+      "field": "STYLE_append",
+      "typ": "text",
+      "sample": "No preamble. First line NONE or diff --git.",
+      "rule": "Model quirk tail. Not PREFIX. Not WOMBAT notes copied onto coder. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 208,
+      "hop": "14 fail",
+      "io": "produce",
+      "field": "reattempt",
+      "typ": "bool",
+      "sample": false,
+      "rule": "N+1 never UPDATE."
+    },
+    {
+      "n": 209,
+      "hop": "14 fail",
+      "io": "produce",
+      "field": "rejected",
+      "typ": "bool",
+      "sample": false,
+      "rule": "Student."
+    },
+    {
+      "n": 210,
+      "hop": "14 fail",
+      "io": "produce",
+      "field": "fail_kind",
+      "typ": "text",
+      "sample": "",
+      "rule": "Empty until FAIL."
+    },
+    {
+      "n": 211,
+      "hop": "14 fail",
+      "io": "produce",
+      "field": "corpse_on_womb",
+      "typ": "bool",
+      "sample": false,
+      "rule": "Board = bucket+picked only."
+    },
+    {
+      "n": 212,
+      "hop": "14 fail",
+      "io": "produce",
+      "field": "fulfill_or_restate",
+      "typ": "enum",
+      "sample": "1 prove full",
+      "rule": "(1) prove full GET/test/file+line or (2) restate + two GAC + new prompt. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 213,
+      "hop": "14 fail",
+      "io": "need",
+      "field": "HOLD_never_self_clears",
+      "typ": "bool",
+      "sample": true,
+      "rule": "PAUSE/HOLD is human."
+    },
+    {
+      "n": 214,
+      "hop": "15 student",
+      "io": "need",
+      "field": "job",
+      "typ": "text",
+      "sample": "AUTO-RESESSION",
+      "rule": "Short name."
+    },
+    {
+      "n": 215,
+      "hop": "15 student",
+      "io": "need",
+      "field": "chair",
+      "typ": "enum",
+      "sample": "WOMBAT",
+      "rule": "WOMBAT|CODER|JUDGE|ORC|CCR."
+    },
+    {
+      "n": 216,
+      "hop": "15 student",
+      "io": "produce",
+      "field": "attempt",
+      "typ": "int",
+      "sample": 0,
+      "rule": "N. Regrade N+1 never UPDATE."
+    },
+    {
+      "n": 217,
+      "hop": "15 student",
+      "io": "produce",
+      "field": "parent_attempt",
+      "typ": "text",
+      "sample": "wish-13-womb-a0",
+      "rule": "Prior id. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 218,
+      "hop": "15 student",
+      "io": "produce",
+      "field": "preload_hash",
+      "typ": "hash",
+      "sample": "809e3387b3a7e6111c2660faa68a17ecdefdd0fce08f3157f4045ccb06536f64",
+      "rule": "Prefix as applied this spawn. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 219,
+      "hop": "15 student",
+      "io": "produce",
+      "field": "grader",
+      "typ": "text",
+      "sample": "openai/gpt-6-luna:floor | JUDGE",
+      "rule": "model + chair. CCr does not grade. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 220,
+      "hop": "15 student",
+      "io": "produce",
+      "field": "verdict_score",
+      "typ": "float",
+      "sample": 8.2,
+      "rule": "Not 0 for missing. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 221,
+      "hop": "15 student",
+      "io": "produce",
+      "field": "stamps",
+      "typ": "text",
+      "sample": "2026-09-23T19:10:00-05:00 KEEP",
+      "rule": "Not a verified badge instead of content. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 222,
+      "hop": "15 student",
+      "io": "need",
+      "field": "attempt_store",
+      "typ": "path",
+      "sample": "V:\\A\\Ai\\COSMOS\\live\\state\\attempts\\attempts.jsonl",
+      "rule": "Not porosity.sqlite. Not TOML."
+    },
+    {
+      "n": 223,
+      "hop": "16 porosity",
+      "io": "need",
+      "field": "axis_tensor",
+      "typ": "text",
+      "sample": "coding",
+      "rule": "Read T, do not rewrite."
+    },
+    {
+      "n": 224,
+      "hop": "16 porosity",
+      "io": "produce",
+      "field": "n_obs",
+      "typ": "int",
+      "sample": 12,
+      "rule": "Empty store n=0 kind=UNMEASURED. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 225,
+      "hop": "16 porosity",
+      "io": "produce",
+      "field": "orth_sketch",
+      "typ": "float",
+      "sample": 0.8,
+      "rule": "(xor-cofail)*mean_err. Missing \u2260 0. Pick pair max orth min mag. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 226,
+      "hop": "16 porosity",
+      "io": "produce",
+      "field": "mag",
+      "typ": "float",
+      "sample": 0.4,
+      "rule": "freq*mean_err. kind=UNMEASURED until mag exists. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 227,
+      "hop": "16 porosity",
+      "io": "produce",
+      "field": "disagree",
+      "typ": "float",
+      "sample": 0.33,
+      "rule": "disagree_n/n. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 228,
+      "hop": "16 porosity",
+      "io": "produce",
+      "field": "error_mag",
+      "typ": "float",
+      "sample": 2.4,
+      "rule": "mean 1\u201310 hole. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 229,
+      "hop": "16 porosity",
+      "io": "produce",
+      "field": "cofail",
+      "typ": "float",
+      "sample": 0.08,
+      "rule": "P both wrong. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 230,
+      "hop": "16 porosity",
+      "io": "produce",
+      "field": "xor_err",
+      "typ": "float",
+      "sample": 0.25,
+      "rule": "P exactly one wrong. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 231,
+      "hop": "16 porosity",
+      "io": "produce",
+      "field": "rescue",
+      "typ": "float",
+      "sample": 0.41,
+      "rule": "P(j right | i wrong). SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 232,
+      "hop": "16 porosity",
+      "io": "produce",
+      "field": "T_ija",
+      "typ": "text",
+      "sample": "T[nex,hy3,coding]=0.80",
+      "rule": "tensors[agent][vs][axis]. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 233,
+      "hop": "16 porosity",
+      "io": "produce",
+      "field": "C_ija",
+      "typ": "text",
+      "sample": "C[nex,hy3,coding]=0.17",
+      "rule": "Complement. UNMEASURED until who_erred. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 234,
+      "hop": "16 porosity",
+      "io": "produce",
+      "field": "porosity_kind",
+      "typ": "enum",
+      "sample": "MEASURED",
+      "rule": "MEASURED|UNMEASURED. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 235,
+      "hop": "16 porosity",
+      "io": "invariant",
+      "field": "unmeasured_not_zero",
+      "typ": "bool",
+      "sample": true,
+      "rule": "Never zero-fill mag/orth."
+    },
+    {
+      "n": 236,
+      "hop": "17 CCr",
+      "io": "need",
+      "field": "pen_holder",
+      "typ": "enum",
+      "sample": "CCR",
+      "rule": "One writer. Lease."
+    },
+    {
+      "n": 237,
+      "hop": "17 CCr",
+      "io": "need",
+      "field": "lease_name",
+      "typ": "text",
+      "sample": "CCR.lease",
+      "rule": "Presence is the write token. Not a spawn grant."
+    },
+    {
+      "n": 238,
+      "hop": "17 CCr",
+      "io": "produce",
+      "field": "COMPLETED",
+      "typ": "bool",
+      "sample": true,
+      "rule": "CCr accept after Judge. Agents never mark COMPLETED. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 239,
+      "hop": "17 CCr",
+      "io": "produce",
+      "field": "lit_applied",
+      "typ": "bool",
+      "sample": true,
+      "rule": "Only after KEEP + accept. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 240,
+      "hop": "17 CCr",
+      "io": "invariant",
+      "field": "boxes_not_lit",
+      "typ": "text",
+      "sample": "drop, ccr, proposals, attempts, live/work, _delme, open PR",
+      "rule": "Until CCr."
+    },
+    {
+      "n": 241,
+      "hop": "17 CCr",
+      "io": "invariant",
+      "field": "USPTO",
+      "typ": "bool",
+      "sample": false,
+      "rule": "Never from this chair."
+    },
+    {
+      "n": 242,
+      "hop": "18 gate",
+      "io": "need",
+      "field": "gate_named",
+      "typ": "text",
+      "sample": "RESESSION.json + resession_heartbeat.json + clock 18",
+      "rule": "Copied from frozen_live_emit."
+    },
+    {
+      "n": 243,
+      "hop": "18 gate",
+      "io": "produce",
+      "field": "gate_value",
+      "typ": "text",
+      "sample": "state=IDLE clock_id=18 prompt_sha=5d10d8ff510503a00b01d6a2b1efca7941ca92a10efc3aa1c6ed59082cfca8db",
+      "rule": "Quote the live-tree field. Never rc=0. Never green log. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 244,
+      "hop": "18 gate",
+      "io": "produce",
+      "field": "clock_18",
+      "typ": "text",
+      "sample": "COSMOS Resession cosmos_resession.py",
+      "rule": "F-51. --install-task still operator."
+    },
+    {
+      "n": 245,
+      "hop": "18 gate",
+      "io": "need",
+      "field": "schtasks_logged_on",
+      "typ": "bool",
+      "sample": true,
+      "rule": "V: is user-session volume. Not ONSTART."
+    },
+    {
+      "n": 246,
+      "hop": "18 gate",
+      "io": "need",
+      "field": "one_orch_lease",
+      "typ": "bool",
+      "sample": true,
+      "rule": "Satellite. Fail-closed."
+    },
+    {
+      "n": 247,
+      "hop": "18 gate",
+      "io": "need",
+      "field": "resession_at_pack_frac",
+      "typ": "float",
+      "sample": 0.7,
+      "rule": "~70% pack. 90% or 'resession now' = end of session SOP."
+    },
+    {
+      "n": 248,
+      "hop": "18 gate",
+      "io": "need",
+      "field": "resumed_from",
+      "typ": "text",
+      "sample": "stage-5",
+      "rule": "RESESSION.json.resumed_from. Never earlier. Do not re-dispatch SEED.inflight. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 249,
+      "hop": "19 close",
+      "io": "need",
+      "field": "gate_pass",
+      "typ": "bool",
+      "sample": true,
+      "rule": "Until live emit. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 250,
+      "hop": "19 close",
+      "io": "produce",
+      "field": "wish_checkbox_after",
+      "typ": "enum",
+      "sample": "- [x]",
+      "rule": "Flips [x] only after gate. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 251,
+      "hop": "19 close",
+      "io": "produce",
+      "field": "next_outcome",
+      "typ": "enum",
+      "sample": "closed",
+      "rule": "follow_up|superseded|judge|partner|closed. SAMPLE SHAPE \u2014 not a live measurement of wish-13."
+    },
+    {
+      "n": 252,
+      "hop": "19 close",
+      "io": "need",
+      "field": "iteration",
+      "typ": "int",
+      "sample": 1,
+      "rule": "MOTIF 9 returns to stage 1. Not 6\u21929."
+    },
+    {
+      "n": 253,
+      "hop": "19 close",
+      "io": "need",
+      "field": "contested",
+      "typ": "bool",
+      "sample": false,
+      "rule": "Consensus: both positions, one line to Keith. No third model auto-resolves."
+    },
+    {
+      "n": 254,
+      "hop": "WOMBAT only",
+      "io": "need",
+      "field": "wombat.first_line",
+      "typ": "enum",
+      "sample": "ITEM | NONE",
+      "rule": "Not KEEP/DROP. Not diff."
+    },
+    {
+      "n": 255,
+      "hop": "WOMBAT only",
+      "io": "need",
+      "field": "wombat.output_what",
+      "typ": "enum",
+      "sample": "no_prose",
+      "rule": "JSON board rows."
+    },
+    {
+      "n": 256,
+      "hop": "WOMBAT only",
+      "io": "need",
+      "field": "wombat.window",
+      "typ": "tokens",
+      "sample": 1100000,
+      "rule": "Luna 6."
+    },
+    {
+      "n": 257,
+      "hop": "WOMBAT only",
+      "io": "need",
+      "field": "wombat.MAX_ceiling",
+      "typ": "tokens",
+      "sample": 880000,
+      "rule": "0.8*window if cache+prompt 0."
+    },
+    {
+      "n": 258,
+      "hop": "WOMBAT only",
+      "io": "need",
+      "field": "nex.prompting_notes",
+      "typ": "text",
+      "sample": "First line NONE or diff --git. Named pin. Pair :free with paid-low.",
+      "rule": "When writing Task. Not crew cell. Not cache_prefix."
+    },
+    {
+      "n": 259,
+      "hop": "WOMBAT only",
+      "io": "need",
+      "field": "nex.scar",
+      "typ": "text",
+      "sample": "S-156 this slug ACTIVE. Gemma/Qwen :free 429 is upstream pool not our cap.",
+      "rule": "Authoring."
+    },
+    {
+      "n": 260,
+      "hop": "WOMBAT only",
+      "io": "need",
+      "field": "north.prompting_notes",
+      "typ": "text",
+      "sample": "First line NONE or diff --git. Full-pack ping returned NONE.",
+      "rule": "Authoring."
+    },
+    {
+      "n": 261,
+      "hop": "WOMBAT only",
+      "io": "need",
+      "field": "north.scar",
+      "typ": "text",
+      "sample": "S-156 ACTIVE. Same 429-class split.",
+      "rule": "Authoring."
+    },
+    {
+      "n": 262,
+      "hop": "WOMBAT only",
+      "io": "need",
+      "field": "hy3.prompting_notes",
+      "typ": "text",
+      "sample": "First line MUST be NONE. Mouth prepends CoT. Slug hy3-preview not hy3.",
+      "rule": "Authoring."
+    },
+    {
+      "n": 263,
+      "hop": "WOMBAT only",
+      "io": "need",
+      "field": "hy3.scar",
+      "typ": "text",
+      "sample": "S-156 class 6 mouth form. Class 2 pin hole is tencent/hy3.",
+      "rule": "Authoring."
+    },
+    {
+      "n": 264,
+      "hop": "WOMBAT only",
+      "io": "invariant",
+      "field": "pointer_as_cell",
+      "typ": "bool",
+      "sample": false,
+      "rule": "<pointer> [read*] see docs n/a UNASSIGNED verified-stamp = empty."
+    },
+    {
+      "n": 265,
+      "hop": "WOMBAT only",
+      "io": "invariant",
+      "field": "content_type_stamp",
+      "typ": "bool",
+      "sample": false,
+      "rule": "Do not stamp content_type as a fake cell."
+    },
+    {
+      "n": 266,
+      "hop": "WOMBAT only",
+      "io": "invariant",
+      "field": "notes_not_coder_prefix",
+      "typ": "bool",
+      "sample": true,
+      "rule": "WOMBAT notes/scars never enter coder AGENTS/STYLE/cache_prefix."
+    }
+  ],
+  "sample_means": "Example of a filled cell (type/shape). Not a claim that wish-13 ran."
+}

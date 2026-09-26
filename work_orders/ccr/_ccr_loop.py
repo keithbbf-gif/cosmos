@@ -60,7 +60,9 @@ def main() -> int:
             tick = _tick_line(cycle_out)
             with LOOP_LOG.open("a", encoding="utf-8") as f:
                 f.write("%s %s\n" % (stamp, tick))
-            # TICK every 5 minutes (cycle still every 60s)
+            # TICK every 5 minutes (cycle still every 60s).
+            # _ow_post.py itself no-ops on PAUSE / missing OW_SIT.sid so a
+            # live pythonw loop that still calls it cannot hit the pen.
             if n % 5 == 0:
                 with TICK_LOG.open("a", encoding="utf-8") as f:
                     f.write("%s %s\n" % (stamp, tick))

@@ -1,0 +1,63 @@
+{
+  "order_id": "wish-11-womb",
+  "Agent": "OpenRouter | Nex | nex-agi/nex-n2.5-mini:free",
+  "Context source": [
+    "V:\\A\\Ai\\COSMOS\\docs\\AGENT_BRIEF.md",
+    "V:\\A\\Ai\\COSMOS\\docs\\AGENT_BOUNDARIES.md",
+    "V:\\A\\Ai\\COSMOS\\docs\\WISHLIST.md"
+  ],
+  "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. WISH: WORK AGENTS CLASS (Keith 2026-09-02 \u2014 out now and coming). The Cowork fight is \u00b7 WATCHDOG2 ASSIGNED 2026-09-02T19:17:44.635751-05:00 cm/g46_grok_motif_work_agents_class_keith_2026_0_b2cb66fd__t1800.py\n      a product class, not one vendor. Named as of this date (SGH/GEMINI DOM must\n      re-verify; do not freeze): **OpenAI ChatGPT Work** (2026-07-09, GPT-5.6; Chat /\n      Work / Codex in one desktop app; finished decks/sheets/docs; computer use).\n      **OpenAI Codex** (merged into ChatGPT; still the coding agent). **Anthropic\n      Claude Cowork** (GA Apr; web+mobile Jul). **Microsoft Copilot Cowork** (GA\n      2026-06-16; Claude engine inside M365) plus **Microsoft Scout**. **Google\n      Gemini Spark / Workspace Studio / Computer Use**. Others in the class:\n      Perplexity Computer, Manus. xAI has no named Work SKU yet \u2014 **GrokBot is our\n      occupant**. NEW-AI scout must keep this table. File HANDS; `possessed=false`\n      until Keith mints a seat. Do not wire a live OpenAI/Anthropic/MS Work path.\n      Official Codex vs Work: https://developers.openai.com/codex/codex-manual.md\n      ChatGPT Work: https://openai.com (July 2026 merge). Keith credentials; open-window\n      handoff only.",
+  "Target & scope": "proposals under Output only; never kernel/ledger/sched/service; never LiT; never grok.exe",
+  "Timestamp": "2026-09-24T08:15:55-05:00",
+  "Output": "proposals | out.json",
+  "output_what": "python",
+  "OPTIMUM_tokens": "float",
+  "MAX_tokens": 209600,
+  "crew": [
+    {
+      "seat": 1,
+      "Agent": "OpenRouter | Nex | nex-agi/nex-n2.5-mini:free",
+      "tier": "free",
+      "context_window_tokens": 262000,
+      "cache_floor_tokens": 1024,
+      "cache_ttl": "30m",
+      "cache_prefix": "legend+WRAP+STYLE+SKILL",
+      "timeout_s": 900,
+      "tps": 49,
+      "pack": "work_orders/ccr/hero_coders/13_nexmini",
+      "output_what": "python",
+      "OPTIMUM_tokens": "float",
+      "MAX_tokens": 209600
+    },
+    {
+      "seat": 2,
+      "Agent": "OpenRouter | North | cohere/north-mini-code:free",
+      "tier": "free",
+      "context_window_tokens": 256000,
+      "cache_floor_tokens": 1024,
+      "cache_ttl": "30m",
+      "cache_prefix": "legend+WRAP+STYLE+SKILL",
+      "timeout_s": 900,
+      "tps": 58,
+      "pack": "work_orders/ccr/hero_coders/09_northmini",
+      "output_what": "python",
+      "OPTIMUM_tokens": "float",
+      "MAX_tokens": 204800
+    },
+    {
+      "seat": 3,
+      "Agent": "OpenRouter | Hy3 | tencent/hy3-preview",
+      "tier": "paid-low",
+      "context_window_tokens": 262000,
+      "cache_floor_tokens": 1024,
+      "cache_ttl": "30m",
+      "cache_prefix": "legend+WRAP+STYLE+SKILL",
+      "timeout_s": 900,
+      "tps": 69,
+      "pack": "work_orders/ccr/hero_coders/07_hy3preview",
+      "output_what": "python",
+      "OPTIMUM_tokens": "float",
+      "MAX_tokens": 209600
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "order_id": "wish-06-womb",
+  "Agent": "OpenRouter | Nex | nex-agi/nex-n2.5-mini:free",
+  "Context source": [
+    "V:\\A\\Ai\\COSMOS\\docs\\AGENT_BRIEF.md",
+    "V:\\A\\Ai\\COSMOS\\docs\\AGENT_BOUNDARIES.md",
+    "V:\\A\\Ai\\COSMOS\\docs\\WISHLIST.md"
+  ],
+  "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. WISH: SESSION TOOLS SUITE (Keith 2026-09-05). Full suite of session tools \u2014 not only the leftover Cowork\u2192OpenWork migrator. Covers **crashed systems**, **all AIs and installs**, and **load / convert / migrate / diff / check / anonymize** (and the rest of that verb set). Pack provenance already on disk: `C:\\Users\\Papa\\OpenWork Chat\\COW_SESSION_MIGRATION_CARRYOVER.toml` (666 sessions / 17439 turns). **Rebind onto COSMOS 2 DONE 2026-09-05T19:11:16** (`ws_726c64a2afa5`, `V:\\OPENWORK\\COSMOS 2`, 666/666; do not re-ingest). Suite itself still open. ORC does not recode this. CCr owns the suite. Not CORE kernel. Not Legal mining from this TUI. Stage-1: `docs/research/SESSION_TOOLS.md`. Stage-2 ARCH next. \u00b7 WATCHDOG2 ASSIGNED 2026-09-05T18:42:52.766724-05:00 cm/g46_grok_motif_session_tools_suite_keith_2026_ca4aec38__t1800.py\n\n> \ud83d\udd34 **FIRST PRODUCT (Keith 2026-09-05): Open Sessions** \u2014 `builds/open_sessions/Open_sessions.py`.\n> COSMOS is the OS; this is the first product it ships. List/open AI sessions\n> (cowork_to_openwork \u2192 cDeck RECENTS). Suite (crash / all AIs / diff / check /\n> anonymize) iterates on this. Not a second Core. Not Legal from this TUI.\n>\n> \ud83d\udd34 **COOKING (Keith, 2026-09-05): GFO seated as ORC.** She rebuilds Cowork history\n> in OpenWork, then other streams (Legal hoped today). **This TUI finishes COSMOS** \u2014\n> cDeck, features, federation. **Later:** CCr uses her pack to paint cDeck leftmost\n> RECENTS (resume-any). Keith steers CCr from this TUI and coordinates the two\n> by hand. P1\u2013P7 landed (GEM = Chrome Profile 2 + Alt+G, never gemini.google.com/app).\n> **C1 ConPTY later**. Not Legal\n> from this TUI. Not Cowork-log mining from this TUI.\n>\n> \u23f8 **VOICE REFINE TABLED (Keith, 2026-09-04/05).** Phone endpoint: **SGH Android Voice**\n> (Ara) + vendor **Grok Voice Think Fast 2.0**. Loop: Voice \u2192 GitHub drop \u2192 daemon \u2192\n> Drive/CCr \u2192 Voice reads Drive. **Not a mobile backend. Not a mobile frontend.** It is\n> a voice **development tool** on an async comm loop \u2014 rudimentary, keep it. APK\n> `kdash/cosmos-voice.apk` is a **draft** seed for a later Android app\n> (`kdash/ANDROID_VOICE_DRAFT.md`). Do not delete. Official:\n> [x.ai/news/grok-voice-think-fast-2](https://x.ai/news/grok-voice-think-fast-2).\n> Model id `grok-voice-think-fast-2.0`. Not a second COSMOS Voice app. Assignments still\n> `work_orders/drop/` + `docs/WORK_ORDER_SOP.md`.\n>\n> \u26d4 **CVM (COSMOS Voice) is SUPERSEDED** (Keith 2026-09-03). The 2026-08-25 #1 pull-clock and #2\n> DT-CVM-same-headphones directions are **not** the product voice path. `builds/cvm-dt/`,\n> `cosmos_cvm_clock.py`, and `POST /api/v1/voice` stay in the tree (keep-her-afloat). Do **not**\n> open new CVM MOTIF threads. Do **not** treat `cvm@4` as the route cursor. Historical arch:\n> `docs/CVM_ARCH.md` (bannered SUPERSEDED).\n>\n> \ud83d\udd34 **HEADLINE: AUTOMATED RESESSION.** COSMOS resessions itself across the context boundary with\n> zero / minimal user disturbance \u2014 the resume-gate (P3) is already built and canon; the full\n> auto-resession research is in flight (`docs/research/AUTO_RESESSION.md`). This is a first-class\n> capability, not a footnote. **Watermark (Keith 2026-09-01, not wired):** pack TU + COSMOS TU2\n> (adversarial recount; BTS tidyup2 is read-census only) + BU at **~70%**; hard close at **90%**;\n> spawn interactive Grok TUI; pack to `live/state/session_saves/`. Improper close: resume from\n> Grok session log and/or `live/state/running_session_file.toml`. **SOP (Keith 2026-09-01,\n> measured):** `docs/RESESSION_SOP.md` \u2014 TidyUP, TU2, write next BU, paste into a new Grok\n> Code session, print timestamps/paths, then END OF SESSION \u00d73.",
+  "Target & scope": "proposals under Output only; never kernel/ledger/sched/service; never LiT; never grok.exe",
+  "Timestamp": "2026-09-24T08:15:55-05:00",
+  "Output": "proposals | out.json",
+  "output_what": "python",
+  "OPTIMUM_tokens": "float",
+  "MAX_tokens": 209600,
+  "crew": [
+    {
+      "seat": 1,
+      "Agent": "OpenRouter | Nex | nex-agi/nex-n2.5-mini:free",
+      "tier": "free",
+      "context_window_tokens": 262000,
+      "cache_floor_tokens": 1024,
+      "cache_ttl": "30m",
+      "cache_prefix": "legend+WRAP+STYLE+SKILL",
+      "timeout_s": 900,
+      "tps": 49,
+      "pack": "work_orders/ccr/hero_coders/13_nexmini",
+      "output_what": "python",
+      "OPTIMUM_tokens": "float",
+      "MAX_tokens": 209600
+    },
+    {
+      "seat": 2,
+      "Agent": "OpenRouter | North | cohere/north-mini-code:free",
+      "tier": "free",
+      "context_window_tokens": 256000,
+      "cache_floor_tokens": 1024,
+      "cache_ttl": "30m",
+      "cache_prefix": "legend+WRAP+STYLE+SKILL",
+      "timeout_s": 900,
+      "tps": 58,
+      "pack": "work_orders/ccr/hero_coders/09_northmini",
+      "output_what": "python",
+      "OPTIMUM_tokens": "float",
+      "MAX_tokens": 204800
+    },
+    {
+      "seat": 3,
+      "Agent": "OpenRouter | Hy3 | tencent/hy3-preview",
+      "tier": "paid-low",
+      "context_window_tokens": 262000,
+      "cache_floor_tokens": 1024,
+      "cache_ttl": "30m",
+      "cache_prefix": "legend+WRAP+STYLE+SKILL",
+      "timeout_s": 900,
+      "tps": 69,
+      "pack": "work_orders/ccr/hero_coders/07_hy3preview",
+      "output_what": "python",
+      "OPTIMUM_tokens": "float",
+      "MAX_tokens": 209600
+    }
+  ]
+}

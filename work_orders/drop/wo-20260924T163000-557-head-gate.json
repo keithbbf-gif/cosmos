@@ -1,0 +1,15 @@
+{
+  "Agent": "OpenRouter | Hy3 | tencent/hy3-preview",
+  "Context source": [
+    "docs/AGENT_BRIEF.md [read*]",
+    "docs/AGENT_BOUNDARIES.md [read*]",
+    "cosmos/cosmos_warn.py [read*]",
+    "live/work/phase2/TASK_557.md [read*]"
+  ],
+  "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. ONE bite: cosmos_head_gate — git rev-list --count origin/main..HEAD must be 0 or refuse synced. First line NONE or diff --git. NONE if warn_if_two_heads already is the gate. VERIFY 3. No grok.exe.",
+  "Target & scope": "proposals under Output only; What=python; never kernel/ledger/sched/service",
+  "Timestamp": "2026-09-24T16:30:00-05:00",
+  "Output": "proposals | head_gate.diff",
+  "ab_pair_id": "ab-557-head-gate",
+  "womb_n": 557
+}

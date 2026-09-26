@@ -64,9 +64,11 @@ def main() -> int:
     fake[0] += 1
     g.guarded_call("gem", 0.10, lambda: {"text": "no usd field"})
     a = g.audit()
-    check("unpriced call counted as UNPRICED, settled unchanged",
+    check("unpriced call counted as UNPRICED; worst case held against cap",
           lambda: a["rails"]["gem"]["unpriced_calls"] == 1
-          and a["rails"]["gem"]["settled_usd"] == 0.05)
+          and a["rails"]["gem"]["settled_usd"] == 0.05
+          and a["rails"]["gem"]["unpriced_held_usd"] == 0.10
+          and a["rails"]["gem"]["headroom_usd"] == round(1.00 - 0.05 - 0.10, 6))
 
     # a raising call RELEASES its reservation
     def boom(): raise ValueError("rail died")

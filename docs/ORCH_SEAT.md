@@ -20,6 +20,8 @@ likely be **eclipsed** by **COSMOS_2** — built on OpenWork
 | **Joint job** | **Finish cDeck** — GFO orchs the live deck; this TUI writes CORE / `builds/cdeck`. |
 | **Not** | CCr. Not this TUI as human orch. Not g43. Not Vertex Claude. Not GLM/DeepSeek as orch brain. **No** COSMOS folder grant (root or authorized). |
 
+**One occupant per profile (2026-09-19 outstanding #2).** GFO, this TUI, GrokBot, later federation — each owns a tree. **No two streams share a root.** Folder grant + `CCR.lease` is the pen. Do not sit Legal from this TUI.
+
 Consumer: this TUI (Grok 4.6 Build — **CCr + coder**). Encodes occupancy; does not sit the orch chair.
 Not a Core rewrite this tick. Not an OpenRouter rail. Not a Claude 3.5 first-party override.
 

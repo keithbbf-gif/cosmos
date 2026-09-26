@@ -14,6 +14,8 @@ the BUILD in this TUI.
 
 ## Open wishes
 
+- [ ] **HERMES CREDENTIAL POOLS + PROVIDER ROUTING (Keith 2026-09-18).** Same-provider key rotate (`OPENROUTER_API_KEY`, `_2`, `_3`) and `ignore: ["deepinfra"]` for GLM. `fill_first` not round-robin (rotation busts prompt cache). Hermes is the GLM harness when bound; not Ori; not consumer Claude/Codex/Cursor UIs. MCP read-only for JUDGE. Keith pastes keys; orch does not `hermes auth add`. DEFINE: `work_orders/ccr/DEFINE_HERMES_POOLS.md`. TABLED for install until after JUDGE/CODER/WOMBAT seats. **Vertex via Hermes:** OAuth2/SA JSON, `google/gemini-3.8-flash`, `region: global`. **xAI Grok OAuth:** `xai-oauth` device code (SuperGrok / X Premium+), default `grok-4.6`, no extra `grok.exe`; 403 → `XAI_API_KEY`. **OAuth over SSH:** xAI/Codex/OR = no tunnel; Spotify/MCP loopback = `ssh -L`. **Worktree UI:** analog only (`htui`/`hgui`); our DUDs worktrees stay under `live/work/`. Guides: vertex, xai-grok-oauth, oauth-over-ssh, worktree-ui-dev.
+
 - [ ] **CHATBOT PHONE — FREEMIUM (Keith 2026-09-07).** *Follow the Freemium model.* *You can include adversarial AI over remote (terminal OR phone).* Phone ChatBot = **free forever** front door of the ThinkFast drop-box loop. Mouth = OpenRouter **named** `:free` models (low latency). Human **picks the model** — not `openrouter/free` rotator. Pitch: **FREE FOREVER — YOU PICK THE MODEL**. **Free** = real single-model chat, no trial. **Install (free)** = Desktop ChatBot. **Premium** = optional (paid models, desktop hands, later P06). **Adversarial over remote:** P05 occupancy (N isolated seats, different-family, one disposer) seated from a **terminal** or the **phone** through the same GitHub drop — not a second Core, not a shared-transcript crew on the device. Phone never mounts `live/`. Terminal is a mouth, not a second writer. DEFINE: `DEFINE_CHATBOT_PHONE.md` + `DEFINE_THINKFAST_DROP.md`. P13/P05 embodiment, not a 14th $65 slot. Do not publish. Do not file USPTO. · WATCHDOG2 ASSIGNED 2026-09-07T15:25:58.004404-05:00 cm/g46_grok_motif_chatbot_phone_free_forever_you_9ac84727__t1800.py
 
 - [ ] **OSS CODE BORROW (Keith 2026-09-07).** Besides layout, read LangGraph / LangFlow / Temporal / n8n / Dify **source**. IN COSMOS / BORROW / ADAPT / LEARN / REFUSE. Execute MOTIF. DEFINE `DEFINE_OSS_BORROW.md`. RESEARCH `CREW/OUT/OSS/R1_CODE.md`. Do not vendor their runtimes.
@@ -142,6 +144,17 @@ the BUILD in this TUI.
       task to the highest-competency available node). Assigned → SGH (proposes; COW files).
 - [ ] **Master description re-render** — regenerate `COSMOS_MASTER_DESCRIPTION.docx` via an AGENT · WATCHDOG2 ASSIGNED 2026-08-31T19:45:12.264797-05:00 cm/g46_grok_motif_master_description_re_render_s_1c6986aa__t1800.py
       (not COW's context), folding the ITERATE=back-to-stage-1 fix + the competency table.
+- [ ] **CDECK TOKEN + DOLLAR METERS (Keith 2026-09-23).** Always-readable meters in cDeck:
+      total tokens IN (sent) + total tokens OUT (received), with estimated Daily and Weekly
+      totals in both tokens and dollars. Feeds on existing `cosmos_spend_meter`
+      (`live/state/spend/meter.json`) + `builds/cdeck/cosmos_spend_panel.py` — surface it as a
+      persistent header strip, not a buried tab. Keep detailed per-call data underneath
+      (model, seat, IN/OUT, cost, timestamp) for drill-down.
+- [ ] **METER-EVERY-SOURCE RESEARCH (Keith 2026-09-23).** Have a subagent search how to meter
+      usage best from EACH model source: OpenRouter (usage accounting + `:floor` flex
+      pricing), Kelly Vertex (project billing), Codex CLI, Cursor Gitur BUILD, Grok API,
+      Bedrock. Deliver per-source meter recipe (which endpoint/log, granularity, lag,
+      cost formula) so the cDeck meters above read true on every rail. MOTIF RESEARCH first.
 
 ## New directions — Keith, 2026-08-27
 - [ ] **NEW-AI DISCOVERY (active scout).** A researcher/daemon that goes OUT and finds NEW AI
@@ -296,8 +309,27 @@ the BUILD in this TUI.
 > endpoint. It's a process."
 
 <!-- watchdog2-tick -->
-Last Watchdog2 tick: 2026-09-07T16:06:32.726810-05:00 · assigned=3 flagged=47 skipped=56
-Dropped: finish_cosmos_all_features_implemented@cm/g46_grok_backlog_finish_cosmos_all_features_i_d1e7cace__t1800.py, but_you_did_not_emit_the_mandatory_last@cm/g46_grok_backlog_but_you_did_not_emit_the_man_50ecdbec__t1800.py, task_you_reported_5_5_new_pins_failing_a@cm/g46_grok_backlog_task_you_reported_5_5_new_pi_1b95d6c7__t1800.py
-Flagged open (no agent this pass, queued for next / cap): finish_cosmos_all_features_implemented, but_you_did_not_emit_the_mandatory_last, task_you_reported_5_5_new_pins_failing_a, fix_the_code_and_prose_pair_together_so, task_1_restore_whatever_get_tools_needs, you_didn_t_get_the_new_ccr_session_prelo, we_need_to_set_up_the_api_keys_for_again, 2_take_the_next_highest_value_over_effor, bind_claims_to_real_code_sources_no_fabr, what_this_spike_proves_the_protocol_in_p, first_read_docs_agent_brief_md_dhx_docs, run_motif_stage_1_research_stage_2_arch, fix_1_point_cdeck_at_live_core_8770_by_d, build_propose_only_builds_cdeck_only_no, 2_bind_each_panel_to_a_real_core_get_rou, continue_pinning_unexercised_refusal_and, build_out_cdeck_this_cwd_the_cosmos_desk, extend_tests_test_rail_base_py_assert_al, a_contract_is_a_statement_plus_evidence, verify_each_one_with_grep_before_writing
-Skipped: cdeck:inflight, cvm:inflight, cdm:inflight, gbridge:inflight, collector:inflight, dispatch:inflight, makerhands:inflight, meshadditions:inflight, cursor:inflight, runner:inflight, runtimeall:meta, chatbot_phone_freemium_keith_2026_09_07:tracked:Watchdog2, oss_code_borrow_keith_2026_09_07:tracked:Watchdog2, perplexity_cdeck_stack_keith_2026_09_07_:checked, cdeck_parallel_instances_keith_2026_09_0:tracked:cDeck, openwork_is_load_bearing_keith_2026_09_0:tracked:cDeck
+Last Watchdog2 tick: 2026-09-26T03:39:39.392716-05:00 · assigned=3 flagged=59 skipped=48
+Dropped: cdeck@cm/g46_grok_motif_cdeck_s5_you_are_g46_grok_buil_1af4f4cb__t1800.py, cvm@cm/g46_grok_motif_cvm_s5_you_are_g46_grok_build_c345df7c__t1800.py, cdm@cm/g46_grok_motif_cdm_s5_you_are_g46_grok_build_dd02f968__t1800.py
+Flagged open (no agent this pass, queued for next / cap): cdeck, cvm, cdm, gbridge, collector, dispatch, makerhands, meshadditions, cursor, runner, mesh_additions, finish_cosmos_all_features_implemented, but_you_did_not_emit_the_mandatory_last, read_the_review_file, hard_constraints_still_hold_zero_core_ke, live_three_layer_shell_cdeck_head_div_wi, test_kdash_working_py_is_109_checks_pinn, holst_planets_mp3_player_owns_jvol_decid, fix_mermaid_mockup_route_lines, put_live_ids_on_mockups_id_age_health_et
+Skipped: runtimeall:meta, hermes_credential_pools_provider_routing:tracked:cursor, chatbot_phone_freemium_keith_2026_09_07:tracked:watchdog2, oss_code_borrow_keith_2026_09_07:already_assigned, perplexity_cdeck_stack_keith_2026_09_07_:checked, cdeck_parallel_instances_keith_2026_09_0:tracked:cDeck, openwork_is_load_bearing_keith_2026_09_0:tracked:cDeck, session_tools_suite_keith_2026_09_05:already_assigned, grok_cowork_surface:tracked:cDeck, orchestrator_profiles_keith_2026_09_02:already_assigned, chrome_extension_plugin_for_grok_future_:already_assigned, sgh_drive_hands_future_keith_2026_09_02:already_assigned, work_agents_class_keith_2026_09_02_out_n:already_assigned, cdeck:tracked:cDeck, the_dozen_cosmos_own_clocks:checked, cosmos_index:checked
 <!-- /watchdog2-tick -->
+
+### MAILBOX — note to Hermes (ORC) from outgoing ORC (OpenWork) — 2026-09-20
+
+**Signed:** outgoing-ORC-openwork · 2026-09-20T12:05-05
+
+Hermes — welcome to the ORC seat. Boot pack:
+V:\A\Ai\COSMOS\live\state\session_saves\20260920T120000-hermes-orc\
+(read ORC_BOOTUP_HERMES.md first, then HANDOFF_TO_HERMES.md).
+
+Immediate state:
+- Resume gate is open (PAUSE.flag mode=hold). Resume all / pick / hold — default MOTION.
+- CCR.lease is EXPIRED (nothing renews it). Do NOT acquire while grok 77372 lives. Keep-alive WO designed, not landed.
+- Grading pile: WO-20260920-001/002/003 await Judge Luna (seat when Keith names #587).
+- COSMOS KB is live: py -3.14 work_orders/ccr/cosmos_kb.py query "SELECT ..." — 164 scars, 14 keys, 5 Vertex accounts all GREEN.
+- Money: OR $88 left, Vertex ~$1,065, OAi ~$30, Grok good.
+
+Comms: drop WOs to the WOMB board; mailbox = this section; CCr disposes via Gitur. One pen, one mailbox, file-based handoffs.
+
+— outgoing ORC
