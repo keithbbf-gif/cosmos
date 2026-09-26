@@ -14,6 +14,7 @@ Keith: if CCr only writes LiT from Gitur, there is one head. The 37 occupancy co
 8. Unique work still wanted goes **Gitur first** (new PR), never a local 38th commit on a private line.
 9. Backup branches (`backup/unique-head-37`) are archive, not LiT.
 10. Spawn layers (Role→Enviro) still fail-closed (`docs/CANON_SPAWN.md`).
+11. **The checkout of `main` stays equal to LiT.** Edit in a worktree on a Gitur branch. Check the change against that branch, because that is the codebase it joins. After the merge, fast-forward the shared checkout and leave it clean. Do not stack the next land on an uncommitted checkout.
 
 ## Gate
 
