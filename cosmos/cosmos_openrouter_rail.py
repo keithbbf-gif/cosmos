@@ -250,6 +250,18 @@ def default_spec() -> dict:
     }
 
 
+def _pin_id(model: str) -> str:
+    """Catalog id. A routing suffix (:floor, :nitro, :exacto) is not the pin."""
+    from cosmos_route_variant import RouteVariantError, catalog_id
+    raw = str(model or "").strip()
+    if not raw:
+        return ""
+    try:
+        return catalog_id(raw)
+    except RouteVariantError:
+        return raw
+
+
 def model_refused(model: str) -> str | None:
     m = (model or "").strip()
     if not m:
@@ -355,11 +367,11 @@ def _provider_tag(model: str, payload: dict) -> str | None:
             tag = str(raw[0]).strip()
         elif isinstance(raw, str) and raw.strip():
             tag = raw.strip()
-    elif model in FLEX_MODELS:
+    elif _pin_id(model) in FLEX_MODELS:
         tag = OPENAI_FLEX
     if not tag:
         return None
-    if model in FLEX_MODELS and tag not in FLEX_PROVIDERS:
+    if _pin_id(model) in FLEX_MODELS and tag not in FLEX_PROVIDERS:
         return f"REFUSED:provider {tag!r} is not a Flex pin"
     return tag
 
@@ -925,7 +937,7 @@ class OpenRouterRail:
                         "model_requested": model, "link_id": self.link_id}
             prov["only"] = [tag]
             prov["order"] = [tag]
-        flex = model in FLEX_MODELS
+        flex = _pin_id(model) in FLEX_MODELS
         body = {
             "model": model,
             "messages": tag_preload(
@@ -980,9 +992,8 @@ class OpenRouterRail:
             err_msg = err[:400]
         response_model = obj.get("model") if isinstance(obj, dict) else None
         content = _message_text(obj if isinstance(obj, dict) else {})
-        bound_ok = bool(response_model) and (
-            str(response_model) == model or str(response_model).startswith(model.split(":")[0])
-        )
+        response_pin = _pin_id(response_model) if response_model else ""
+        bound_ok = bool(response_pin) and response_pin == _pin_id(model)
         ok = status == 200 and bound_ok and not err_msg
         usage_fold = fold_usage(obj if isinstance(obj, dict) else {})
         rec = {
@@ -990,7 +1001,7 @@ class OpenRouterRail:
             "http": status,
             "kind": None if ok else _http_kind(status),
             "model_requested": model,
-            "model": response_model,
+            "model": response_pin or response_model,
             "text": content[:4000],
             "usage": usage if isinstance(usage, dict) else {},
             "usage_fold": usage_fold,
@@ -1298,7 +1309,8 @@ def _selftest() -> int:
             assert body.get("provider", {}).get("allow_fallbacks") is False
             assert "usage" not in body
             assert "stream_options" not in body
-            if body.get("model") in FLEX_MODELS:
+            wire_pin = _pin_id(body.get("model") or "")
+            if wire_pin in FLEX_MODELS:
                 assert body.get("provider", {}).get("only") == [OPENAI_FLEX]
                 assert isinstance(body.get("prompt_cache_key"), str)
                 assert body["prompt_cache_key"].startswith("cdeck-")
@@ -1310,7 +1322,7 @@ def _selftest() -> int:
                 c0 = m0.get("content")
                 assert isinstance(c0, list) and c0 and isinstance(c0[0], dict)
                 assert c0[0].get("cache_control") == {"type": "ephemeral"}
-                if body.get("model") in FLEX_MODELS:
+                if wire_pin in FLEX_MODELS:
                     assert c0[0].get("prompt_cache_breakpoint") == {"mode": "explicit"}
                 user = next((m for m in msgs if isinstance(m, dict)
                              and str(m.get("role") or "") == "user"), None)
