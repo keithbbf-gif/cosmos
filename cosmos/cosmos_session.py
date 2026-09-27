@@ -19,7 +19,10 @@ unverifiable, unauthenticated, or wrong-tree seed is a typed refusal, not an
 operator-memory failure.
 
 The seed is a fixed-name handoff (state/SEED.json) plus a declaration sidecar. A
-dated archive is written beside it; nothing is unlinked (never-delete).
+dated archive is written beside it before the session is closed; nothing is
+unlinked (never-delete). A stamp that already holds other bytes keeps this
+predecessor under the next free suffix. A mutated copy refuses
+VERIFY_MISMATCH.
 """
 from __future__ import annotations
 
@@ -252,11 +255,12 @@ class SessionManager:
 
         watchers: dict = {}
         sid = "inherit"
-        if self.session is not None and self.session._open:
+        open_here = self.session is not None and self.session._open
+        live = None
+        if open_here:
             sid = self.session.sid
-            manifest = self.session.close(handoff_to, force=force)
-            watchers = dict(manifest.get("unresolved_watchers") or {})
-            self.session = None
+            if self.session._watchers and not force:
+                self.session.close(handoff_to, force=force)
         else:
             live = project_live_session(self.k.ledger)
             if live and live.get("open"):
@@ -269,18 +273,29 @@ class SessionManager:
                         f"a session that closes over an open watcher is how a paid "
                         f"return lands with nobody watching (S-121). Resolve them or "
                         f"close_session(force=True) to record the incident.")
-                if watchers:
-                    self.k.ledger.append(
-                        "OPEN_CONTEXT",
-                        {"sid": sid, "handoff_to": handoff_to,
-                         "unresolved": dict(watchers),
-                         "detail": "forced close with unresolved watchers - "
-                                   "the next boot MUST read this"})
+
+        # Archive first. A refusal here has not closed the session and has not
+        # replaced the live seed. The old order archived inside _write_seed,
+        # after SESSION_CLOSED, and skipped a stamp that already existed.
+        self._archive_predecessor(sid)
+
+        if open_here:
+            manifest = self.session.close(handoff_to, force=force)
+            watchers = dict(manifest.get("unresolved_watchers") or {})
+            self.session = None
+        elif live and live.get("open"):
+            if watchers:
                 self.k.ledger.append(
-                    "SESSION_CLOSED",
+                    "OPEN_CONTEXT",
                     {"sid": sid, "handoff_to": handoff_to,
-                     "facts": dict(live.get("facts") or {}),
-                     "unresolved_watchers": dict(watchers)})
+                     "unresolved": dict(watchers),
+                     "detail": "forced close with unresolved watchers - "
+                               "the next boot MUST read this"})
+            self.k.ledger.append(
+                "SESSION_CLOSED",
+                {"sid": sid, "handoff_to": handoff_to,
+                 "facts": dict(live.get("facts") or {}),
+                 "unresolved_watchers": dict(watchers)})
 
         inherit = boot_inherit(self.k.ledger)
         if not watchers:
@@ -298,7 +313,7 @@ class SessionManager:
             "closed_epoch": self._clock(),
             "tree_id": self.k.paths.sentinel.tree_id,
         }
-        path = self._write_seed(seed, sid)
+        path = self._write_seed(seed)
         self.k.ledger.append(
             "SESSION_SEED_WRITTEN",
             {"path": str(path), "sid": sid, "handoff": seed["handoff"],
@@ -334,27 +349,63 @@ class SessionManager:
             },
         )
 
-    def _write_seed(self, seed: dict, sid: str) -> Path:
+    def _archive_predecessor(self, sid: str) -> None:
+        """Keep the current SEED.json under state/seeds before it is replaced.
+
+        Same bytes at a candidate name are already kept. Other bytes take the
+        next free suffix (``name-2.json``, then ``-3``). The new file is
+        created with exclusive ``xb`` so a name that appears between the check
+        and the write is not truncated. A mutated copy refuses. Nothing is
+        unlinked and nothing already archived is overwritten.
+        """
+        path = self.k.paths.role("state", SEED_NAME)
+        if not path.is_file():
+            return
+        raw = path.read_bytes()
+        stamp = str(int(self._clock()))
+        safe = "".join(
+            c if c.isalnum() or c in "-_" else "-" for c in sid) or "inherit"
+        base = self.k.paths.role("state", "seeds", f"{safe}-{stamp}.json")
+        base.parent.mkdir(parents=True, exist_ok=True)
+        archive = base
+        n = 2
+        while True:
+            if archive.exists():
+                try:
+                    held_bytes = archive.read_bytes()
+                except OSError as e:
+                    raise SessionError(
+                        "VERIFY_MISMATCH",
+                        f"SEED archive unreadable: {archive}: {e}",
+                    ) from e
+                if held_bytes == raw:
+                    return
+                if n > 100:
+                    raise SessionError(
+                        "VERIFY_MISMATCH",
+                        f"SEED archive names exhausted at {base.name}",
+                    )
+                archive = base.with_name(f"{base.stem}-{n}{base.suffix}")
+                n += 1
+                continue
+            try:
+                with archive.open("xb") as fh:
+                    fh.write(raw)
+            except FileExistsError:
+                continue
+            copied = archive.read_bytes()
+            if copied != raw:
+                raise SessionError(
+                    "VERIFY_MISMATCH",
+                    f"SEED archive copy mutated during write: {archive}",
+                )
+            return
+
+    def _write_seed(self, seed: dict) -> Path:
         payload = json.dumps(seed, indent=1, sort_keys=True).encode("utf-8")
         path = self.k.paths.role("state", SEED_NAME)
         decl_path = self.k.paths.role("state", SEED_DECL_NAME)
         path.parent.mkdir(parents=True, exist_ok=True)
-
-        # Dated archive of whatever is currently at the fixed name - never unlink.
-        if path.is_file():
-            stamp = str(int(self._clock()))
-            safe = "".join(c if c.isalnum() or c in "-_" else "-" for c in sid) or "inherit"
-            archive = self.k.paths.role("state", "seeds", f"{safe}-{stamp}.json")
-            archive.parent.mkdir(parents=True, exist_ok=True)
-            if not archive.exists():
-                raw = path.read_bytes()
-                archive.write_bytes(raw)
-                copied = archive.read_bytes()
-                if copied != raw:
-                    raise SessionError(
-                        "VERIFY_MISMATCH",
-                        f"SEED archive copy mutated during write: {archive}",
-                    )
 
         try:
             decl = write_declared(path, payload)
