@@ -4,3 +4,6 @@
 [submodule "builds/cdm"]
 	path = builds/cdm
 	url = https://github.com/keithbbf-gif/cdm.git
+[submodule "builds/sessions-page"]
+	path = builds/sessions-page
+	url = https://github.com/keithbbf-gif/sessions-page.git
