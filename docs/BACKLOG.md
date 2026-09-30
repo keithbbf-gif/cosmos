@@ -135,10 +135,3 @@ Keith: square git, then stop COSMOS this pass. Open Sessions LIVE on `:8770`. GF
       `builds/probe/_f41_unplanned_cards.json` `card_count:116` `with_candidates:47`
       `disposition:null` (HOLD, no invented ruling). Remaining: COW applies the 27;
       COW records PORT_DECISIONS rulings for the 116 HOLD cards.
-
-<!-- watchdog2-tick -->
-Last Watchdog2 tick: 2026-09-26T03:39:39.392716-05:00 · assigned=3 flagged=59 skipped=48
-Dropped: cdeck@cm/g46_grok_motif_cdeck_s5_you_are_g46_grok_buil_1af4f4cb__t1800.py, cvm@cm/g46_grok_motif_cvm_s5_you_are_g46_grok_build_c345df7c__t1800.py, cdm@cm/g46_grok_motif_cdm_s5_you_are_g46_grok_build_dd02f968__t1800.py
-Flagged open (no agent this pass, queued for next / cap): cdeck, cvm, cdm, gbridge, collector, dispatch, makerhands, meshadditions, cursor, runner, mesh_additions, finish_cosmos_all_features_implemented, but_you_did_not_emit_the_mandatory_last, read_the_review_file, hard_constraints_still_hold_zero_core_ke, live_three_layer_shell_cdeck_head_div_wi, test_kdash_working_py_is_109_checks_pinn, holst_planets_mp3_player_owns_jvol_decid, fix_mermaid_mockup_route_lines, put_live_ids_on_mockups_id_age_health_et
-Skipped: runtimeall:meta, hermes_credential_pools_provider_routing:tracked:cursor, chatbot_phone_freemium_keith_2026_09_07:tracked:watchdog2, oss_code_borrow_keith_2026_09_07:already_assigned, perplexity_cdeck_stack_keith_2026_09_07_:checked, cdeck_parallel_instances_keith_2026_09_0:tracked:cDeck, openwork_is_load_bearing_keith_2026_09_0:tracked:cDeck, session_tools_suite_keith_2026_09_05:already_assigned, grok_cowork_surface:tracked:cDeck, orchestrator_profiles_keith_2026_09_02:already_assigned, chrome_extension_plugin_for_grok_future_:already_assigned, sgh_drive_hands_future_keith_2026_09_02:already_assigned, work_agents_class_keith_2026_09_02_out_n:already_assigned, cdeck:tracked:cDeck, the_dozen_cosmos_own_clocks:checked, cosmos_index:checked
-<!-- /watchdog2-tick -->

@@ -549,7 +549,7 @@ After an unattended watermark (or quiet) fire, **all** of the following must be 
    - `state=SPAWNED`.
 4. **Authority ledger** `SESSION_SEED_INJECTED` payload: `sid`, `path` ending in `SEED.json`, `facts` containing `motif_cursor` matching (2). Event after the spawn’s `SESSION_SEED_WRITTEN`.
 5. **WD2** `live/logs/WATCHDOG2.log` line `AUTO-RESUME (resume_gate)` whose `auto_resume_at` **equals** the ISO the satellite wrote on `PAUSE.flag` (or the heartbeat extra `auto_resume_at` from the PAUSED ticks immediately before). After that line, a heartbeat with `tick=scan` / not `state=PAUSED`.
-6. **A route artifact after `spawned_at`:** a new `<!-- watchdog2-tick -->` or DHx line (`docs/AGENT_BRIEF.md`) whose token is the **next** stage of `resumed_from` (or a P5 re-drop of a `JOB_STALE` row), **without** a human prompt in `RESESSION.json`.
+6. **A route artifact after `spawned_at`:** the Watchdog2 heartbeat (`live/logs/watchdog2_heartbeat.json`) whose `stamp` is after `spawned_at` and whose `tick` is `assigned`, with a job token that is the **next** stage of `resumed_from` (or a P5 re-drop of a `JOB_STALE` row), or a new DHx line (`docs/AGENT_BRIEF.md`) with that token, **without** a human prompt in `RESESSION.json`. The tick is that heartbeat. It is not a footer in the route markdown.
 
 The **tuple** `(seed_sha, resumed_from, vendor_session_id ≠ prev, SESSION_SEED_INJECTED.sid)` is structurally impossible for:
 
