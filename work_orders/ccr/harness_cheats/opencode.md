@@ -15,6 +15,7 @@ Ling door. Paid slug. Not Ling VL `:free`.
 - `FENCE` — first line was a fence, not `NONE` / `diff --git`. Fail.
 - Binary on this host was 1.18.30; docs said 1.18.31. Measure `opencode.cmd -V` before claiming the pin.
 - Ling VL `:free` is 404. Do not substitute it.
+- GATE-BREAKER 2026-09-28: this door binds `thinkingmachines/inkling[-small]:free` (OR-chat 403 + codex 400 both refuse). Runner: `work_orders/ccr/_summon_opencode.py` (bind AGENTS.md, `-m openrouter/<slug>`, grades ping/fizz, logs BAKEOFF70 set=DOOR2). Fizz prompt must state the RULES, not list the answers (listing teaches `Line 1` labels).
 
 ## Not
 
