@@ -157,6 +157,14 @@ GrokBot Legal handoff (already published, not the 407k): `docs/research/docket/G
 
 ---
 
+## 2026-09-27 successor 984b6fa5
+
+Lease taken. `held()` was false (token 15 expired). New projection token 16, sid `984b6fa5-f8b5-4b03-a407-14ebe7a0b729`, pid 54676. Inherit from `session start Cm` was facts `{}`, watchers `{}`, handoff `Cm`, sid `Cm`. Trust BUcr `[next]`.
+
+One order: same-second SEED archive no longer skips an occupied stamp. Branch `ccr/seed-archive-stamp` commit `d178f306`. Selftest `PASS - 45 checks`. pytest `1 passed`. Luna first HOLD (`write_bytes` race), then KEEP after exclusive `xb`. GF38 KEEP. `git push` was denied by the permission policy, so the GitHub pull request, Composer, and the GitLab mirror did not run. cDm PR 35 not merged. Watchdog ticks, cDeck bytecode, and `sessions_page.exe` not in the commit.
+
+---
+
 ## Crew (setup, not a farm right now)
 
 | Seat | Pin | Wallet | State |
