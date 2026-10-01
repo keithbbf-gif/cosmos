@@ -85,3 +85,18 @@ kdash/*.apk
 # ---- UNFILED IP PRELOAD (Keith 2026-09-10). Local CREW only. Never Gitur. ----
 work_orders/ccr/CREW/IN/CODER_PRELOAD_PATENT_IDEAS_CACHE.md
 work_orders/ccr/CREW/OUT/ELEGANT/
+
+# ---- BAKEOFF RUN ARTIFACTS (Hermes seat 2026-09-29). Local only. Never Gitur. ----
+# Smoke/fizz/probe outputs, per-run duds/packs under tmp/, summon sidecars.
+work_orders/ccr/*_last.txt
+work_orders/ccr/hero_coders/*/grade.json
+work_orders/ccr/hero_coders/*/wire.json
+work_orders/ccr/hero_coders/*/harness_log.jsonl
+work_orders/ccr/BAKEOFF70.jsonl
+tmp/bakeoff70/
+tmp/smoke_dozen/
+tmp/fizz70/
+tmp/math12/
+tmp/inkling-seat/
+tmp/antigrav-seat/
+tmp/nano41-seat/

@@ -16,6 +16,8 @@ Machine join (do not fork a second contract): `work_orders/ccr/hero_unify.py`
 | Door | Cheat | Binary / entry |
 |---|---|---|
 | COSMOS CODE | `cosmos-code.md` | `python -m cosmos_code` (propose-only) |
+| AntiGravity | `antigravity.md` | IDE in, SDK mapped, 401 on sign-in — ping pending |
+| Copilot CLI | `copilot.md` | `copilot.cmd -p` (auth live, ping+fizz exact) |
 | Pi | `pi.md` | `pi.cmd -p` |
 | OpenCode | `opencode.md` | `opencode.cmd run` |
 | dsh | `dsh.md` | `dsh.cmd --profile headless` |

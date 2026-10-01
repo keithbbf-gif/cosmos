@@ -24,7 +24,8 @@ Each pass (a 15s check that prevents a 30-second idle ceiling — Keith
   4. For any open item with NO in-flight agent: DROP the right Grok/Cursor
      job via cosmos_dispatch (DHx recipe) and flag it. Wishlist lines
      already in BACKLOG / MOTIF_TRACKER / DHx / queue are not re-dropped.
-  5. Append live\\logs\\WATCHDOG2.log; rewrite live\\logs\\watchdog2_heartbeat.json
+  5. Append live\\logs\\WATCHDOG2.log; rewrite live\\logs\\watchdog2_heartbeat.json.
+     That heartbeat is the tick. Do not write a tick footer into route markdown.
      Runtime-binding: jobs[] with source=wishlist + job_file + wishlist_line.
 
 Does NOT modify COSMOS core (kernel/ledger/sched/service). Cadence rubric:

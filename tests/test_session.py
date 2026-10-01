@@ -261,6 +261,51 @@ def main() -> int:
           expect(SessionError, "UNPARSEABLE")(lambda: k2.sessions.close_session()))
     extra.write_text(json.dumps({"ok": True}), encoding="utf-8")
 
+    # ================= stamp archive: other bytes keep a suffix, never skip =================
+    arch_root = td / "Arch"
+    install(arch_root, tree_id="session-arch")
+    frozen = {"t": 1700000000}
+    ka = Kernel(arch_root, worker="arch", clock=lambda: frozen["t"])
+    ka.sessions.open("pin", "Cm")
+    ka.sessions.session.record_fact("gen", "one")
+    first = ka.sessions.close_session(handoff_to="next")
+    prior = first.read_bytes()
+    ka.sessions.start_session("Cm")
+    live_sid = ka.sessions.session.sid
+    safe = "".join(
+        c if c.isalnum() or c in "-_" else "-" for c in live_sid) or "inherit"
+    occupied = ka.paths.role(
+        "state", "seeds", f"{safe}-{int(frozen['t'])}.json")
+    occupied.parent.mkdir(parents=True, exist_ok=True)
+    occupied.write_bytes(b"other-predecessor")
+    replaced = ka.sessions.close_session(handoff_to="next")
+    kept = occupied.with_name(f"{occupied.stem}-2{occupied.suffix}")
+    check("occupied stamp is not overwritten",
+          lambda: occupied.read_bytes() == b"other-predecessor")
+    check("other-bytes stamp keeps this predecessor under the next suffix",
+          lambda: kept.is_file() and kept.read_bytes() == prior)
+    check("close still replaces the live seed",
+          lambda: replaced.is_file() and replaced.read_bytes() != prior)
+    before_same = replaced.read_bytes()
+    same = ka.paths.role(
+        "state", "seeds", f"inherit-{int(frozen['t'])}.json")
+    same.write_bytes(before_same)
+    again = ka.sessions.close_session(handoff_to="next")
+    same_dup = same.with_name(f"{same.stem}-2{same.suffix}")
+    check("same-byte stamp archive is not rewritten or duplicated",
+          lambda: same.read_bytes() == before_same and not same_dup.exists())
+    check("same-byte stamp still closes",
+          lambda: again.is_file() and again.read_bytes() != before_same)
+    frozen["t"] = 1700000001
+    before_free = again.read_bytes()
+    freed = ka.sessions.close_session(handoff_to="next")
+    free_arch = ka.paths.role(
+        "state", "seeds", f"inherit-{int(frozen['t'])}.json")
+    check("a free stamp archives the predecessor byte-for-byte",
+          lambda: free_arch.is_file()
+          and free_arch.read_bytes() == before_free
+          and freed.read_bytes() != before_free)
+
     # ================= CLI: cosmos session close / start =================
     cli_close = _cli(root, "session", "close")
     check("CLI `cosmos session close` writes the seed and exits 0",

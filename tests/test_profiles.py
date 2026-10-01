@@ -1,5 +1,5 @@
 #!/usr/bin/env py -3.14
-"""profiles: Website GC MOTIF skins, IMPLEMENT dest, no auto-MOTIF."""
+"""profiles: Spidercaster MOTIF skins, IMPLEMENT dest, no auto-MOTIF."""
 from __future__ import annotations
 
 import sys

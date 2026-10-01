@@ -33,7 +33,7 @@ Naked first queries are out of SOP.
 | Farm / CREW | PREFIX + CACHE_RULE (+ guidelines if that seat always sends them) | ITEM |
 | Forge | PREFIX + pane/file map | the ticket / diff |
 | Crucible / Diligence / Docket | occupancy + schema | the live packet / casefile |
-| Website GC | frozen problem prompt | dest / publish |
+| Spidercaster | frozen problem prompt | dest / publish |
 | Gitur GLM review | short review rules | the PR diff (tail; cap it) |
 | Grok Bot QA | DHx + tab list (compact) | the overhaul item |
 | UPS | HOLD until Keith | — |

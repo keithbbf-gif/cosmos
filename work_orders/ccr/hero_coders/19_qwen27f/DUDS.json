@@ -1,0 +1,14 @@
+{
+  "session_id": "pool-revise-qwen27f",
+  "area": "pool-revise",
+  "legend": {
+    "l1_role": "CODER",
+    "l2_model": "qwen/qwen3.8-27b:free",
+    "l3_harness": "openrouter",
+    "l4_wrapper_path": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\hero_coders\\_CODER_WRAP.md",
+    "l5_skills": ["python-only"],
+    "l6_tools": {"allow": ["write"], "forbid": ["git_push", "LiT write", "grok.exe"]},
+    "l7_environment": {"cwd": "V:\\A\\Ai\\COSMOS\\live\\work", "what": "python", "optimum": "float"}
+  },
+  "tail": {"l8_mission": "Ping only. Reply NONE then HERO_OK."}
+}

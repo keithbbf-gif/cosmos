@@ -116,13 +116,34 @@ MUSE_SPARK_12C = "meta/muse-spark-1.2-contributor"
 MUSE_SPARK_11C = "meta/muse-spark-1.1-contributor"
 MUSE_SPARK_13C = "meta/muse-spark-1.3-contributor"
 MUSE_SPARK_12 = "meta/muse-spark-1.2"
+LONGCAT_20 = "meituan/longcat-2.0"
+MUSE_GLIMMER_30B = "meta/muse-glimmer-30b"
+MINIMAX_M3 = "minimax/minimax-m3"
+KIMI_K26 = "moonshotai/kimi-k2.6"
+PERCEPTRON_MK1 = "perceptron/perceptron-mk1"
+PERCEPTRON_MK15 = "perceptron/perceptron-mk1.5"
+QWEN35_PLUS = "qwen/qwen3.5-plus-20260420"
+QWEN36_27B = "qwen/qwen3.6-27b"
+QWEN36_FLASH = "qwen/qwen3.6-flash"
+QWEN36_PLUS = "qwen/qwen3.6-plus"
+QWEN37_PLUS = "qwen/qwen3.7-plus"
+STEP_37_FLASH = "stepfun/step-3.7-flash"
+INKLING_SMALL = "thinkingmachines/inkling-small"
+MIMO_V25_PRO = "xiaomi/mimo-v2.5-pro"
+MIMO_V26_PRO = "xiaomi/mimo-v2.6-pro"
+GLM53_FLASHX = "z-ai/glm-5.3-flashx"
+GLM53_BATCH = "z-ai/glm-5.3:batch"
 GEMINI_36_FLASH = "google/gemini-3.6-flash"
 GEMINI_38_FLASH_OR = "google/gemini-3.8-flash"
 DEEPSEEK_V4_PRO = "deepseek/deepseek-v4-pro-0813"
+DEEPSEEK_V4_PRO_0423 = "deepseek/deepseek-v4-pro-0423"
+DEEPSEEK_V4_FLASH_VISION_EXP = "deepseek/deepseek-v4-flash-vision-exp"
 GROK_46_OR = "x-ai/grok-4.6"
 GPT_OSS_120B = "openai/gpt-oss-120b"
 # Cheaper-than-Luna Flex $0.225/M (75/25). Named pins so WO pairs are not REFUSED.
 SEED_20_MINI = "bytedance-seed/seed-2.0-mini"
+SEED_20_CODE = "bytedance-seed/seed-2.0-code"
+SEED_21_TURBO = "bytedance-seed/seed-2-1-turbo"
 MINISTRAL_8B = "mistralai/ministral-8b-2512"
 LLAMA4_SCOUT = "meta-llama/llama-4-scout"
 LLAMA33_70B = "meta-llama/llama-3.3-70b-instruct"
@@ -168,14 +189,22 @@ PROMPT_CACHE_POLICY = "v2"
 # Named cheap-coder roster. Not :free. Not the rotator. Not ~latest aliases.
 # Keith 2026-09-08 word: pin Solar Pro4 + Ling 3.0 Flash (bound cheap pings).
 CHEAP_CODERS = (VALUE_CODER, GLM52, GLM53, GLM53_FLASH_BATCH,
-                DEEPSEEK_V4_FLASH, DEEPSEEK_V4_FLASH_0423,
+                DEEPSEEK_V4_FLASH,
                 QWEN38_FLASH, QWEN38_27B, QWEN38_MAX, NEMOTRON_LIGHTNING, MISTRAL_CODESTRAL,
-                LLAMA4_MAVERICK, MUSE_SPARK_12C, MUSE_SPARK_11C, MUSE_SPARK_13C,
+                LLAMA4_MAVERICK, MUSE_SPARK_12C, MUSE_SPARK_13C,
                 GPT_OSS_120B, HY3_PREVIEW,
                 SOLAR_PRO4, LING_FLASH, LING_FLASH_VL,
-                SEED_20_MINI, MINISTRAL_8B, LLAMA4_SCOUT, LLAMA33_70B,
+                SEED_20_MINI, MINISTRAL_8B, LLAMA33_70B,
                 QWEN3_8B, QWEN3_30B, QWEN3_VL_8B, QWEN3_VL_32B,
-                QWEN35_9B, GPT_OSS_20B, GEMMA_26B_PAID, MIMO_V25)
+                QWEN35_9B, GPT_OSS_20B, GEMMA_26B_PAID, MIMO_V25,
+                SEED_20_CODE, SEED_21_TURBO,
+                DEEPSEEK_V4_FLASH_VISION_EXP, LONGCAT_20, MUSE_GLIMMER_30B,
+                MINIMAX_M3, KIMI_K26,
+                PERCEPTRON_MK1, PERCEPTRON_MK15,
+                QWEN35_PLUS, QWEN36_27B, QWEN36_FLASH, QWEN36_PLUS,
+                QWEN37_PLUS, STEP_37_FLASH, INKLING_SMALL,
+                MIMO_V25_PRO, MIMO_V26_PRO,
+                GLM53_FLASHX, GLM53_BATCH)
 GPT6_LUNA = "openai/gpt-6-luna"
 GPT6_LUNA_PRO = "openai/gpt-6-luna-pro"
 QWEN37_FLASH = "qwen/qwen3.7-flash"
@@ -187,7 +216,7 @@ GEMMA_31B_PAID = "google/gemma-4-31b-it"
 SOLAR_MINI4 = "upstage/solar-mini4"
 PINNED_VALUE = frozenset(CHEAP_CODERS) | FLEX_MODELS | {
     GPT56_SOL, MUSE_SPARK_12, GEMINI_36_FLASH, GEMINI_38_FLASH_OR,
-    DEEPSEEK_V4_PRO, GROK_46_OR, GPT6_LUNA, GPT6_LUNA_PRO,
+    DEEPSEEK_V4_PRO, DEEPSEEK_V4_PRO_0423, GROK_46_OR, GPT6_LUNA, GPT6_LUNA_PRO,
     QWEN37_FLASH, LAGUNA_S, LAGUNA_XS, BONSAI_27B, DS41_FLASH,
     GEMMA_31B_PAID, SOLAR_MINI4,
     "thinkingmachines/inkling",

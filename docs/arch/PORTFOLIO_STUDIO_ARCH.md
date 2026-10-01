@@ -2,7 +2,7 @@
 
 ## 1. PURPOSE
 
-Keith sits down at Portfolio Studio to decide what each of seven products is trying to accomplish, see where every product actually is, inspect the evidence and cost of the work already running, and deliberately advance one product through the shared MOTIF method without losing sight of the other six. Portfolio Studio must therefore present Forge coding, Crucible legal, Diligence deals, Docket IP, UPS physics, Differentiator medical, and Website GC together while preserving each product's own pen, mailbox, hands, destination, occupancy, and refusal gates; it must bind every status, finding, estimate, and transition to a value returned by the live COSMOS Core. It must never start or advance MOTIF on its own, turn an empty or unavailable measurement into a reassuring zero, invent a run or stage from queue words, hide a RED health result, publish or write a product artifact on Keith's behalf, or create a second Core, scheduler, ledger writer, profile tree, or source of truth.
+Keith sits down at Portfolio Studio to decide what each of seven products is trying to accomplish, see where every product actually is, inspect the evidence and cost of the work already running, and deliberately advance one product through the shared MOTIF method without losing sight of the other six. Portfolio Studio must therefore present Forge coding, Crucible legal, Diligence deals, Docket IP, UPS physics, Differentiator medical, and Spidercaster together while preserving each product's own pen, mailbox, hands, destination, occupancy, and refusal gates; it must bind every status, finding, estimate, and transition to a value returned by the live COSMOS Core. It must never start or advance MOTIF on its own, turn an empty or unavailable measurement into a reassuring zero, invent a run or stage from queue words, hide a RED health result, publish or write a product artifact on Keith's behalf, or create a second Core, scheduler, ledger writer, profile tree, or source of truth.
 
 ## 2. TOOLS NEEDED
 
@@ -164,7 +164,7 @@ Stage movement is a two-step human operation:
 
 Core then checks the expected version, legal product transition, required evidence, health/tree binding, spend gate, product-specific gates, occupancy/CCr lease, and Keith decision. It writes the authoritative transition event through the single ledger writer and returns either the new projection plus evidence sequence or a typed refusal. It does **not** submit a job, start the next stage, publish, implement, retry, or cancel as a side effect. Starting stage work remains a separate explicit existing product/run action after the transition is accepted.
 
-Every transition in the target sequence requires Keith's explicit approval. IMPLEMENT additionally requires destination confirmation; Website GC `publish` remains a separate Keith click, GitHub/GitLab remains Gitur-first, Differentiator requires the anonymization gate, Docket filing remains Legal + Keith, UPS may remain blocked on Keith, and Crucible may return 501 when critics are unavailable.
+Every transition in the target sequence requires Keith's explicit approval. IMPLEMENT additionally requires destination confirmation; Spidercaster `publish` remains a separate Keith click, GitHub/GitLab remains Gitur-first, Differentiator requires the anonymization gate, Docket filing remains Legal + Keith, UPS may remain blocked on Keith, and Crucible may return 501 when critics are unavailable.
 
 ### Runs/findings feed
 

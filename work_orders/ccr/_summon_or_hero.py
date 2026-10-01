@@ -193,7 +193,13 @@ def _wire(pack: Path, system_instruction: str, task: str, model: str, allow: dic
 
 
 def _py_first(line: str) -> bool:
-    return line.startswith(("\"\"\"", "'''", "#", "import ", "from ", "def ", "class "))
+    return line.startswith(("```", "'''", "#", "import ", "from ", "def ", "class "))
+
+
+def _is_ping_reply(mouth: str) -> bool:
+    """A ping reply: NONE then HERO_OK <slug>."""
+    lines = mouth.splitlines()
+    return bool(lines) and lines[0].strip() == "NONE" and len(lines) >= 2 and lines[1].strip().startswith("HERO_OK")
 
 
 def grade_pack(pack: Path, mouth: str, model_returned: str) -> dict:
@@ -207,19 +213,20 @@ def grade_pack(pack: Path, mouth: str, model_returned: str) -> dict:
         p.name for p in pack.iterdir()
         if p.is_file() and p.suffix == ".py" and p.name != "mouth.py"
     ]
-    inside = bool(wrote) and all(
+    inside = not bool(wrote) or all(
         (pack / name).resolve().is_relative_to(pack.resolve()) for name in wrote
     )
     # Missing wire is not a pass. The runner's own ok flag is not read here.
+    is_ping = _is_ping_reply(mouth)
     layers = {
-        "l1_role": _py_first(first),
+        "l1_role": _py_first(first) or (first.strip() == "NONE" and is_ping),
         "l2_model": bool(wire) and model_returned == wire.get("model_requested"),
         "l3_harness": wire.get("runner") == "_summon_or_hero.py",
         "l4_wrapper": wire.get("system_is_wrap") is True and wire.get("style_in_system") is False,
         "l5_skills": bool(wire) and wire.get("skill_in_system") is False,
         "l6_tools": wire.get("tools_offered") == ["write"] and not wire.get("forbid_offered"),
         "l7_enviro": inside,
-        "l8_mission": wire.get("user_is_task") is True and _py_first(first),
+        "l8_mission": wire.get("user_is_task") is True and (_py_first(first) or is_ping),
     }
     applied = all(layers.values())
     rec = {

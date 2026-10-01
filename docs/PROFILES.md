@@ -20,7 +20,7 @@ profile, live vs dark. One occupant per profile. UPS / LEGAL / coding do
 | 4 | **Differentiator** | Medical Crucible: anonymized casefiles in; each model an independent opinion; then they argue. Not Crucible’s Legal tree. Not Legal transcripts. | cDeck Differentiator | **Named in occupancy.** Not built. Anonymize is a gate, not a nicety. |
 | 5 | **Diligence** | Fastest profitable clone of the same adversarial engine: a packet in (data room / 10-K / deck); **bull / bear / independent risk** write independently, then argue. Same seats pattern as Crucible. Not Legal. Not Medical. | cDeck Diligence | **Pick for “other.”** See below. |
 | 6 | **Docket** | Patents / trademarks / copyrights. MOTIF applied to IP: applicant / examiner / prior-art seats; provisionals; TESS. **Not** the Legal Crucible tree (cases). Filing is Legal + Keith. Research: `docs/research/IP_DOCKET.md`. Provenance split: `docs/PROVENANCE.md`. | cDeck Docket | **Named 2026-09-07.** MOTIF 1 only until DOM returns. |
-| 7 | **Website GC** | Site MOTIF. Step 1 is the problem prompt. Each of the 9 MOTIF stages is a left-tab **skin**. IMPLEMENT (was IMPROVE) writes a **staged site**, **sandbox**, **publish online** (Keith click — this TUI does not publish), or **Gitur**. Same engine shell as the other profiles. | cDeck Website GC | **Cooking.** Extra-pane Profiles tab. Does not start MOTIF. |
+| 7 | **Spidercaster** | Site MOTIF. Step 1 is the problem prompt. Each of the 9 MOTIF stages is a left-tab **skin**. IMPLEMENT (was IMPROVE) writes a **staged site**, **sandbox**, **publish online** (Keith click — this TUI does not publish), or **Gitur**. Same engine shell as the other profiles. | cDeck Spidercaster | **Cooking.** Extra-pane Profiles tab. Does not start MOTIF. |
 
 ## Fifth profile — why Diligence
 
@@ -73,14 +73,14 @@ row. Do not mix it into UPS / Forge / Crucible skins.
 
 Occupancy profiles above stay operator / federation skins. ChatBot phone
 does not get a `cdeck-instance` profile id until Keith says it is a deck
-skin (it is not, today). **Website GC** is an occupancy profile (`website`).
+skin (it is not, today). **Spidercaster** is an occupancy profile (`website`).
 
 ## MOTIF engine skins (Keith 2026-09-07)
 
 Every profile sets up the same 9-stage MOTIF engine, each stage a left tab
 with that profile's skin. Stage 1 is **PROBLEM STATEMENT / STATED GOAL**.
 Stage 8 is **IMPLEMENT** (was IMPROVE). Write dest is **profile-specific**:
-Forge/UPS → local / Gitur / cloud drive; Website GC → staged / sandbox /
+Forge/UPS → local / Gitur / cloud drive; Spidercaster → staged / sandbox /
 publish / Gitur. SAVE does not start MOTIF. Publish is Keith's click.
 
 ## Shared Forge tools (all profiles)

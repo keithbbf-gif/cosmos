@@ -452,39 +452,31 @@ def annotate_backlog(path: Path, item: dict, rec: dict, stamp: str) -> bool:
     return annotate_checkbox(path, item, rec, stamp)
 
 
-def update_source_tick(path: Path, stamp: str, assigned: list[dict],
-                       flagged: list[dict], skipped: list[dict]) -> None:
-    """Footer only — not every checkbox. Rewritten each pass."""
+def update_source_tick(path: Path, _stamp: str, _assigned: list[dict],
+                       _flagged: list[dict], _skipped: list[dict]) -> None:
+    """Strip a legacy tick footer from a route markdown.
+
+    The pass record is the heartbeat: stamp, counts, jobs. Writing that
+    footer into WISHLIST.md / BACKLOG.md dirties canon every 15s (BUCm
+    not-list: do not commit Watchdog2 ticks). Checkbox ASSIGNED markers
+    stay; those are annotate_checkbox, not this footer. The arguments
+    are kept so the scan_once call site does not change.
+    """
     if not path.exists():
         return
     original = path.read_text(encoding="utf-8")
-    drop_s = ", ".join(
-        f"{d.get('slug')}@{d.get('lane', '?')}/{d.get('job_file', '')}"
-        for d in assigned) or "(none)"
-    flag_s = ", ".join(f.get("slug", "?") for f in flagged[:20]) or "(none)"
-    skip_s = ", ".join(
-        f"{s.get('slug')}:{s.get('reason')}" for s in skipped[:16]
-    ) or "(none)"
-    block = (
-        f"{TICK_START}\n"
-        f"Last Watchdog2 tick: {stamp} · assigned={len(assigned)} "
-        f"flagged={len(flagged)} skipped={len(skipped)}\n"
-        f"Dropped: {drop_s}\n"
-        f"Flagged open (no agent this pass, queued for next / cap): {flag_s}\n"
-        f"Skipped: {skip_s}\n"
-        f"{TICK_END}\n"
-    )
     start = original.find(TICK_START)
     end = original.find(TICK_END)
-    if start >= 0 and end > start:
-        end = end + len(TICK_END)
-        after = original[end:]
-        if after.startswith("\n"):
-            after = after[1:]
-        text = original[:start] + block + after
-    else:
-        text = original if original.endswith("\n") else original + "\n"
-        text = text + "\n" + block
+    if start < 0 or end < start:
+        return
+    end = end + len(TICK_END)
+    prefix = original[:start].rstrip("\n")
+    suffix = original[end:].lstrip("\n")
+    text = prefix + "\n"
+    if suffix:
+        text += "\n" + suffix
+        if not text.endswith("\n"):
+            text += "\n"
     if text != original:
         path.write_text(text, encoding="utf-8")
 
