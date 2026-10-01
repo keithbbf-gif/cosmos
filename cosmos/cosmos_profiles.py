@@ -88,7 +88,7 @@ PROFILES = (
     {"id": "differentiator", "label": "Differentiator", "kind": "medical",
      "dest": LEGAL_DEST, "status": "named",
      "note": "Anonymized casefiles. Anonymize is a gate."},
-    {"id": "website", "label": "Website GC", "kind": "site",
+    {"id": "website", "label": "Spidercaster", "kind": "site",
      "dest": WEBSITE_DEST, "status": "cooking",
      "note": "Site MOTIF. IMPLEMENT dest: staged site, sandbox, publish online, or Gitur."},
 )
@@ -400,7 +400,7 @@ def snapshot(paths, *, profile: str = "", rec=None) -> dict:
         "does_not_start_motif": True,
         "does_not_publish": True,
         "note": (
-            "Per-profile MOTIF skins. Website GC IMPLEMENT dest is staged / "
+            "Per-profile MOTIF skins. Spidercaster IMPLEMENT dest is staged / "
             "sandbox / publish / Gitur. SAVE does not start MOTIF and does "
             "not publish."
         ),
@@ -425,10 +425,10 @@ def _selftest() -> int:
     paths = CosmosPaths(root)
 
     ids = {p["id"] for p in catalog()}
-    check("catalog names Website GC plus occupancy profiles",
+    check("catalog names Spidercaster plus occupancy profiles",
           lambda: ids >= {"website", "forge", "crucible", "ups",
                           "diligence", "docket", "differentiator"}
-          and any(p["label"] == "Website GC" for p in catalog()))
+          and any(p["label"] == "Spidercaster" for p in catalog()))
     snap = snapshot(paths, profile="website")
     check("GET missing engine is NO_SOURCE and does not mkdir",
           lambda: snap["kind"] == "NO_SOURCE"
@@ -442,7 +442,7 @@ def _selftest() -> int:
           and snap["motif_step_1"] == "PROBLEM STATEMENT / STATED GOAL"
           and snap["implement_was"] == "IMPROVE")
     dest_ids = {d["id"] for d in snap["dest_catalog"]}
-    check("Website GC IMPLEMENT dest is staged/sandbox/publish/Gitur",
+    check("Spidercaster IMPLEMENT dest is staged/sandbox/publish/Gitur",
           lambda: dest_ids == {"staged", "sandbox", "publish", "github", "gitlab"}
           and dest_via_gitur("github") is True
           and dest_via_gitur("staged") is False
@@ -474,7 +474,7 @@ def _selftest() -> int:
         save_engine(paths, {"profile": "website", "dest": {"kind": "s3"}})
     except ProfileError as e:
         bad = e.kind == "BAD_INPUT"
-    check("unknown dest for Website GC is BAD_INPUT", lambda: bad)
+    check("unknown dest for Spidercaster is BAD_INPUT", lambda: bad)
     unk = False
     try:
         snapshot(paths, profile="chatbot")
@@ -495,7 +495,7 @@ def _selftest() -> int:
           and forge.get("motif_top") is True
           and [s["id"] for s in forge["stages"]][0] == "define"
           and forge["label"] == "Forge — Coding")
-    check("Website GC does not pin MOTIF on top (left tabs ARE the 9 stages)",
+    check("Spidercaster does not pin MOTIF on top (left tabs ARE the 9 stages)",
           lambda: snap.get("motif_top") is False)
     setup = save_engine(paths, {
         "profile": "forge",
@@ -517,7 +517,7 @@ def _selftest() -> int:
           and "SGH" in (rs.get("roles") or "")
           and rs.get("prompt") == "SGH + GEM first")
     web_tabs = [t["id"] for t in (snap.get("skin_tabs") or [])]
-    check("Website GC skin left tabs are the 9 MOTIF stages",
+    check("Spidercaster skin left tabs are the 9 MOTIF stages",
           lambda: web_tabs[0] == "define" and web_tabs[-1] == "iterate"
           and len(web_tabs) == 9)
 
@@ -525,7 +525,7 @@ def _selftest() -> int:
     for label, ok, err in results:
         print("  %s  %s%s" % ("OK  " if ok else "FAIL", label,
                               ("  [" + err + "]") if err else ""))
-    print("SELFTEST %s - %d checks (Website GC MOTIF skins; no auto-MOTIF)"
+    print("SELFTEST %s - %d checks (Spidercaster MOTIF skins; no auto-MOTIF)"
           % ("PASS" if not failed else "FAIL", len(results)))
     return 0 if not failed else 1
 

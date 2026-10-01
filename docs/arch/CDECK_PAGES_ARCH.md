@@ -329,7 +329,7 @@ not in Forge.
 └───────────────────────────────────────────────────────────────────────────┘
 ```
 Stage 8 is **IMPLEMENT** (was IMPROVE) and its write destination is profile-specific
-(`docs/PROFILES.md`): Forge/UPS → local / Gitur / cloud drive; Website GC → staged / sandbox /
+(`docs/PROFILES.md`): Forge/UPS → local / Gitur / cloud drive; Spidercaster → staged / sandbox /
 publish / Gitur.
 
 ### DATA FLOW
@@ -1128,7 +1128,7 @@ Measured product ids (`cosmos_profiles.py:72–94`) — these are the **exact** 
 ```
 ┌ PROFILES ────────────────────────────────────────────────────────────────┐
 │ ◧ Forge  ◧ Crucible  ◧ Diligence  ◧ Docket  ◧ UPS  ◧ Differentiator      │
-│ ◧ Website GC                          ← switcher; skin applies on select │
+│ ◧ Spidercaster                          ← switcher; skin applies on select │
 ├──────────────────────────────────────────────────────────────────────────┤
 │ ENGINE   kind OK | NO_SOURCE | BROKE · motif_top · motif_step_1          │
 │ STAGES   the 9 MOTIF stages as this profile's skin tabs                  │
@@ -1163,7 +1163,7 @@ autocalc cost, override (`docs/PROFILES.md` "Shared Forge tools").
 | 4 | **Docket** (`docket`) | Named 2026-09-07 | applicant / examiner / prior-art | profiles + model_rater seats | **MOTIF 1 only until DOM returns.** Filing is Legal + Keith. **Do not file USPTO.** |
 | 5 | **UPS** (`ups`) | **Needs Keith** | UPS-JUDGE (GEM Vertex full-context judge) | `GET /tools_kit` (UPS-JUDGE is **NAMED**) | **Do not invent the app.** Rebuild from July sessions with Keith. Physics stays on the UPS tree. |
 | 6 | **Differentiator** (`differentiator`) | Named, not built | independent clinician opinions, then argue | `POST /session_tools {action:"anonymize"}` before anything | **Anonymize is a gate, not a nicety.** Not Crucible's Legal tree. Not Legal transcripts. |
-| 7 | **Website GC** (`website`) | Cooking (default) | site MOTIF, 9 stages as skins | `POST /profiles`, `POST /profiles/bg` | Stage 8 IMPLEMENT writes **staged / sandbox / publish / Gitur**. Publish is Keith's click. |
+| 7 | **Spidercaster** (`website`) | Cooking (default) | site MOTIF, 9 stages as skins | `POST /profiles`, `POST /profiles/bg` | Stage 8 IMPLEMENT writes **staged / sandbox / publish / Gitur**. Publish is Keith's click. |
 
 Each child paints: engine state, its 9 skin tabs, its **own** `dest_catalog`, its seats, and
 its refusals. **UPS ships as a named, honest placeholder** — a page that says *"Needs Keith;
