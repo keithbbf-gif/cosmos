@@ -92,6 +92,7 @@ work_orders/ccr/*_last.txt
 work_orders/ccr/hero_coders/*/grade.json
 work_orders/ccr/hero_coders/*/wire.json
 work_orders/ccr/hero_coders/*/harness_log.jsonl
+work_orders/ccr/hero_coders/*/mouth.py
 work_orders/ccr/BAKEOFF70.jsonl
 tmp/bakeoff70/
 tmp/smoke_dozen/

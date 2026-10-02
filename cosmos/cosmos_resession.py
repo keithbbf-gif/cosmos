@@ -88,7 +88,7 @@ SEED_DECL_NAME = "SEED.decl.json"
 AUTO_RESUME_GRACE_S = 15.0        # one WD2 Activity Clock cycle
 SESSION_AGE_WATERMARK_S = 2700.0  # 45 min: fire while the window still has room
 TURN_WATERMARK = 40               # dispatch caps at 60; 20 turns reserved for TidyUP
-HEARTBEAT_STALE_S = 180.0         # COW quiet -> W3 backstop, never the engine
+HEARTBEAT_STALE_S = 180.0         # COW quiet -> W3 record, never a fire and never a pack
 COW_LEASE_TTL_S = 600.0
 CONTEXT_WARN_PCT = 0.65           # Keith 2026-09-23: persistent warning; never self-clears
 CONTEXT_PACK_PCT = 0.70           # Keith 2026-09-01: start TU/TU2/BU packing
@@ -202,21 +202,25 @@ def watermark(cow_hb: dict | None, now: float,
               turns: int = TURN_WATERMARK,
               stale_s: float = HEARTBEAT_STALE_S,
               pid_is_alive: bool | None = None) -> dict:
-    """H9 - fire BEFORE truncation. W1/W2 are the engine (PID still alive), W3 is
-    the self-heal backstop. Returns {fire, reason, detectors}.
+    """H9 - fire BEFORE truncation. W1/W2 are the engine (PID still alive). W3
+    records a quiet or dead orchestrator and does not fire, pack, or close.
+    Returns {fire, pack, warn, reason, detectors, why}.
 
     'Prompt is too long' and 'process gone' are both AFTER the bite. A design that
-    waits for them has not implemented the wish, only survived it.
+    waits for them has not implemented the wish, only survived it. Silence is not
+    that bite.
     """
     det = {"w1_age": False, "w1_turns": False, "w2_context": False,
            "w2_warn": False, "w2_pack": False, "w2_close": False,
            "w3_quiet": False, "w3_dead": False}
+    quiet_why = "backstop seen; not a close and not a pack"
     empty = {"fire": False, "pack": False, "warn": False, "detectors": det,
              "reason": None, "why": "no COW heartbeat"}
     if cow_hb is None:
-        empty["fire"] = bool(pid_is_alive is False)
-        empty["reason"] = "quiet" if pid_is_alive is False else None
-        empty["why"] = "no COW heartbeat"
+        if pid_is_alive is False:
+            det["w3_dead"] = True
+            empty["reason"] = "quiet"
+            empty["why"] = quiet_why
         return empty
     if not isinstance(cow_hb, dict):
         empty["why"] = "heartbeat is not an object"
@@ -228,7 +232,7 @@ def watermark(cow_hb: dict | None, now: float,
     if int(cow_hb.get("turn_n") or 0) >= turns:
         det["w1_turns"] = True
     pct = cow_hb.get("context_pct")
-    if isinstance(pct, (int, float)):
+    if isinstance(pct, (int, float)) and not isinstance(pct, bool):
         if float(pct) >= CONTEXT_WARN_PCT:
             det["w2_warn"] = True
         if float(pct) >= CONTEXT_PACK_PCT:
@@ -237,7 +241,7 @@ def watermark(cow_hb: dict | None, now: float,
             det["w2_close"] = True
             det["w2_context"] = True  # close is the old W2 fire line
     tok = cow_hb.get("tokens_in")
-    if isinstance(tok, (int, float)) and float(tok) >= GROK_WARN_TOKENS:
+    if isinstance(tok, (int, float)) and not isinstance(tok, bool) and float(tok) >= GROK_WARN_TOKENS:
         det["w2_warn"] = True
     last = float(cow_hb.get("last_act_epoch") or 0)
     if last and (now - last) >= stale_s:
@@ -246,23 +250,23 @@ def watermark(cow_hb: dict | None, now: float,
         det["w3_dead"] = True
 
     warn = bool(det["w2_warn"])
-    if alive is not False and (det["w1_age"] or det["w1_turns"] or det["w2_close"]):
+    # None is not alive. An unproven pid is the backstop, same as a dead one.
+    if alive is True and (det["w1_age"] or det["w1_turns"] or det["w2_close"]):
         return {"fire": True, "pack": True, "warn": True, "reason": "watermark",
                 "detectors": det,
                 "why": "boundary detected while the window still has room"}
-    if alive is not False and det["w2_pack"]:
+    if alive is True and det["w2_pack"]:
         return {"fire": False, "pack": True, "warn": True, "reason": "pack",
                 "detectors": det,
                 "why": "W2-pack: start TU/TU2/BU at ~70%, do not spawn yet"}
-    if alive is not False and warn:
+    if alive is True and warn:
         return {"fire": False, "pack": False, "warn": True, "reason": "warn",
                 "detectors": det,
                 "why": "W2-warn: persistent resession warning at 65% of Grok "
                        "200k window (130000 tokens); do not spawn"}
     if det["w3_dead"] or det["w3_quiet"]:
-        return {"fire": True, "pack": True, "warn": warn, "reason": "quiet",
-                "detectors": det,
-                "why": "backstop: orchestrator gone or silent"}
+        return {"fire": False, "pack": False, "warn": warn, "reason": "quiet",
+                "detectors": det, "why": quiet_why}
     return {"fire": False, "pack": False, "warn": False, "reason": None,
             "detectors": det, "why": "in window"}
 
@@ -556,6 +560,26 @@ def write_running_session(path: Path, fields: dict) -> Path:
     return path
 
 
+def unique_stamp(parent: Path | None = None, suffix: str = "",
+                 now: datetime | None = None) -> str:
+    """Second-resolution name. A taken name gets _01, _02, so two saves in the
+    same second do not overwrite one pack. `suffix` is part of the existence
+    check (`.md` for a file) and is not included in the returned stem."""
+    moment = now or datetime.now().astimezone()
+    base = moment.strftime("%Y%m%dT%H%M%S")
+
+    def taken(name: str) -> bool:
+        return parent is not None and (Path(parent) / (name + suffix)).exists()
+
+    if not taken(base):
+        return base
+    for n in range(1, 100):
+        cand = "%s_%02d" % (base, n)
+        if not taken(cand):
+            return cand
+    return "%s_%d" % (base, time.time_ns())
+
+
 def write_session_save(dest: Path, *, banner: str,
                        files: dict[str, str]) -> Path:
     dest = Path(dest)
@@ -773,20 +797,58 @@ def _assert_clock_id() -> str | None:
 
 
 def poll_once(root: str, repo: str | None = None, *, rail: str = "grok",
-              dry_run: bool = False, spawn: bool = False) -> dict:
-    """Decide + (unless dry_run) write heartbeat, running toml, TU2, save pack.
+              dry_run: bool = False, spawn: bool = False,
+              engage: bool = False, bu_dir: str | None = None) -> dict:
+    """Decide + (unless dry_run) write heartbeat, running toml, and a save pack.
 
     Spawn of the interactive Grok TUI is opt-in (`spawn=True` / `--spawn`) so a
-    1-min --once clock cannot open windows by surprise.
+    1-min --once clock cannot open windows by surprise. An ask rung writes
+    RESESSION_ASK.flag. The 92 percent close runs only when `engage=True` and
+    the heartbeat pid is alive. A quiet or dead pid is recorded and does not
+    snapshot. `bu_dir` confines the BU file; the default is the repo.
     """
     clock_err = _assert_clock_id()
     repo_path = Path(repo) if repo else Path(__file__).resolve().parent.parent
     rec = tick(Path(root), repo_path, rail=rail, dry_run=dry_run)
     if clock_err:
         rec["clock_id_error"] = clock_err
+    paths = CosmosPaths(str(root))
+    try:
+        from cosmos_session_procedures import (
+            apply_rung, preview_rung, session_identity)
+        pause = read_json(paths.role("state") / "control" / PAUSE_NAME)
+        cow_hb = read_json(paths.role("state") / "control" / COW_HEARTBEAT_NAME)
+        rung = preview_rung(paths, heartbeat=cow_hb, pause=pause)
+        rec["rung"] = {"act": rung.get("act"), "pct": rung.get("pct"),
+                       "why": rung.get("why")}
+        # Unknown and dead are both "not alive". A stale 92% must not close.
+        seat_alive = pid_is_alive((cow_hb or {}).get("pid")) is True
+        if not seat_alive and rung.get("act") in ("ask", "force"):
+            rec["rung"]["held"] = "pid not alive"
+        elif not dry_run and rung.get("act") == "ask":
+            from cosmos_session_procedures import declined_set, read_ask, write_ask
+            write_ask(paths, rung=float(rung["pct"]),
+                      declined=declined_set(read_ask(paths)),
+                      why=str(rung.get("why") or ""))
+        elif not dry_run and engage and rung.get("act") == "force":
+            from cosmos_session_kit import load_kit
+            stream, session_type = session_identity(cow_hb)
+            engaged = apply_rung(
+                paths, repo_path, kit=load_kit(paths), stream=stream,
+                session_type=session_type,
+                reason=str(rung.get("why") or ""),
+                work=str((cow_hb or {}).get("note") or ""),
+                heartbeat=cow_hb, engage=True, pause=pause,
+                bu_dir=Path(bu_dir) if bu_dir else None)
+            rec["procedure"] = engaged.get("close")
+            rec["session_closed"] = bool(
+                engaged.get("close") and "tidyup" in (engaged["close"].get("steps") or []))
+            rec["rung"] = {"act": engaged.get("act"), "pct": engaged.get("pct"),
+                           "why": engaged.get("why"), "engaged": engaged.get("engaged")}
+    except Exception as e:  # noqa: BLE001
+        rec["rung_error"] = "%s: %s" % (type(e).__name__, e)
     if dry_run:
         return rec
-    paths = CosmosPaths(str(root))
     extra = {
         "schema": SCHEMA,
         "tick": "once",
@@ -821,12 +883,16 @@ def poll_once(root: str, repo: str | None = None, *, rail: str = "grok",
         "written_epoch": int(time.time()),
     })
     rec["running_session"] = str(running_path)
-    if rec.get("state") in ("PACKING", "ARMED") or rec.get("pack"):
+    # Snapshot only a real pack or a real arm. Quiet, hold, and a refusal
+    # used to fall through on the pack bit and write a save anyway.
+    if rec.get("session_closed"):
+        pass
+    elif rec.get("state") in ("PACKING", "ARMED") and rec.get("spawn_reason") != "quiet":
         tu2 = cosmos_tu2(repo=repo_path, root=state_dir.parent)
         rec["tu2"] = {"ok": tu2["ok"], "n_findings": tu2["n_findings"],
                       "findings": tu2["findings"]}
-        stamp = datetime.now().astimezone().strftime("%Y%m%dT%H%M%S")
-        dest = state_dir / SESSION_SAVES_DIR / stamp
+        saves = state_dir / SESSION_SAVES_DIR
+        dest = saves / unique_stamp(saves)
         # SESSION CLOSED x3 only after a real TidyUP close, never on a snapshot.
         closed = bool(rec.get("session_closed"))
         banner = close_banner(str(dest)) if closed else (
@@ -838,7 +904,19 @@ def poll_once(root: str, repo: str | None = None, *, rail: str = "grok",
         })
         rec["session_save"] = str(dest)
         rec["banner"] = banner if closed else None
-    if spawn and rec.get("state") == "ARMED" and rail == "grok":
+    if not rec.get("session_closed"):
+        try:
+            from cosmos_session_procedures import maybe_autosave
+            saved = maybe_autosave(
+                paths, cow_hb, now=time.time(),
+                pid_alive=pid_is_alive(cow_hb.get("pid")),
+                stale_s=HEARTBEAT_STALE_S)
+            if saved:
+                rec["autosave"] = {"pack": saved.get("pack"), "n": saved.get("n")}
+        except Exception as e:  # noqa: BLE001
+            rec["autosave_error"] = "%s: %s" % (type(e).__name__, e)
+    if (spawn and rec.get("state") == "ARMED" and rail == "grok"
+            and rec.get("spawn_reason") != "quiet"):
         sid = mint_session_id()
         paste = repo_path / "live" / "state" / "BOOTUP_PASTE.md"
         if not paste.is_file():
@@ -918,6 +996,8 @@ def main() -> int:
     ap.add_argument("--standup", action="store_true")
     ap.add_argument("--spawn", action="store_true",
                     help="on ARMED, launch a fresh interactive grok TUI (not -c)")
+    ap.add_argument("--engage", action="store_true",
+                    help="at the force rung, run TidyUP, TidyUP2, and the BU file")
     a = ap.parse_args()
 
     if a.selftest:
@@ -953,7 +1033,7 @@ def main() -> int:
         return 2
     if a.once and not (a.dry_run or a.status):
         rec = poll_once(a.root, a.repo, rail=a.rail, dry_run=False,
-                        spawn=bool(a.spawn))
+                        spawn=bool(a.spawn), engage=bool(a.engage))
     else:
         rec = tick(Path(a.root), Path(a.repo), rail=a.rail,
                    dry_run=bool(a.dry_run or a.status or not a.once))
@@ -994,9 +1074,25 @@ def selftest() -> int:
                              "turn_n": 0}, 3600.0,
                             pid_is_alive=True)["reason"] == "watermark")
     check("a dead pid is the backstop, not the engine",
-          lambda: watermark({"spawned_at_epoch": 999, "last_act_epoch": 1000,
-                             "turn_n": 0}, 1000.0,
-                            pid_is_alive=False)["reason"] == "quiet")
+          lambda: (lambda r: r["reason"] == "quiet" and r["fire"] is False
+                   and r["pack"] is False)(
+              watermark({"spawned_at_epoch": 999, "last_act_epoch": 1000,
+                         "turn_n": 0}, 1000.0, pid_is_alive=False)))
+    check("a dead pid past the age line still does not fire",
+          lambda: (lambda r: r["reason"] == "quiet" and r["fire"] is False
+                   and r["pack"] is False and r["detectors"]["w1_age"]
+                   and r["detectors"]["w3_dead"])(
+              watermark({"spawned_at_epoch": 1.0, "last_act_epoch": 1.0,
+                         "turn_n": 0}, 10000.0, pid_is_alive=False)))
+    check("no heartbeat and a dead pid does not fire",
+          lambda: (lambda r: r["fire"] is False and r["pack"] is False
+                   and r["reason"] == "quiet")(
+              watermark(None, 1.0, pid_is_alive=False)))
+    check("an unproven pid does not fire the age line",
+          lambda: (lambda r: r["fire"] is False and r["pack"] is False
+                   and r["reason"] == "quiet")(
+              watermark({"spawned_at_epoch": 1.0, "last_act_epoch": 1.0,
+                         "turn_n": 0}, 10000.0, pid_is_alive=None)))
     check("in-window does not fire",
           lambda: watermark({"spawned_at_epoch": 999, "last_act_epoch": 1000,
                              "turn_n": 0}, 1000.0,

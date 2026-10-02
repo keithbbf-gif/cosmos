@@ -17,6 +17,8 @@ from pathlib import Path
 SCHEMA = "cosmos-session-kit/1"
 PACK_NAME = "pack.json"
 AUTOSAVE_MIN = (5, 10, 20, 30)
+DEFAULT_ASK = (0.75, 0.80, 0.85)
+DEFAULT_FORCE = 0.92
 COS_PANES = (
     ("rold", "ROLD — Rule of Law Desk"),
     ("tidyup", "TidyUP"),
@@ -54,6 +56,8 @@ def default_kit() -> dict:
             "window_tokens": 200000,
             "warn_tokens": 130000,
             "warn_persistent": True,
+            "ask_pct": list(DEFAULT_ASK),
+            "force_pct": DEFAULT_FORCE,
         },
         "updated_at": None,
         "available": False,
@@ -69,6 +73,33 @@ def _clamp_int(raw, lo: int, hi: int, default: int) -> int:
     except (TypeError, ValueError):
         return default
     return max(lo, min(hi, n))
+
+
+def _pct(raw, default: float) -> float:
+    try:
+        got = float(raw)
+    except (TypeError, ValueError):
+        return default
+    if got > 1.0:
+        got = got / 100.0
+    return round(got, 4)
+
+
+def _ladder(rs: dict) -> tuple[list[float], float]:
+    raw = rs.get("ask_pct")
+    if raw is None:
+        ask = [_pct(x, x) for x in DEFAULT_ASK]
+    else:
+        if not isinstance(raw, (list, tuple)) or not raw:
+            raise SessionKitError("BAD_INPUT", "ask_pct must be a climbing list")
+        ask = [_pct(x, -1.0) for x in raw]
+    force = _pct(rs["force_pct"], DEFAULT_FORCE) if "force_pct" in rs else DEFAULT_FORCE
+    if (any(x <= 0.0 or x >= 1.0 for x in ask) or ask != sorted(ask)
+            or len(set(ask)) != len(ask)):
+        raise SessionKitError("BAD_INPUT", "ask_pct must climb inside 0 and 1")
+    if force <= 0.0 or force >= 1.0 or ask[-1] >= force:
+        raise SessionKitError("BAD_INPUT", "force_pct must sit above the ask rungs")
+    return ask, force
 
 
 def _public(rec: dict) -> dict:
@@ -96,6 +127,9 @@ def _public(rec: dict) -> dict:
         "warn_tokens": _clamp_int(rs.get("warn_tokens"), 0, 2_000_000, 130000),
         "warn_persistent": bool(rs["warn_persistent"]) if "warn_persistent" in rs else True,
     }
+    ask, force = _ladder(rs)
+    resession["ask_pct"] = ask
+    resession["force_pct"] = force
     if "warn_pct" in rs:
         try:
             wp = float(rs["warn_pct"])
@@ -244,6 +278,20 @@ def _selftest() -> int:
     except SessionKitError as e:
         bad = e.kind == "BAD_INPUT"
     check("autosave 7 min is BAD_INPUT", lambda: bad)
+    check("ask ladder defaults to 75 80 85 and force 92",
+          lambda: saved["resession"]["ask_pct"] == [0.75, 0.80, 0.85]
+          and saved["resession"]["force_pct"] == 0.92)
+    climbed = save_kit(paths, {"resession": {
+        "ask_pct": [70, 80, 88], "force_pct": 95}})
+    check("cDeck percents are stored as fractions",
+          lambda: climbed["resession"]["ask_pct"] == [0.70, 0.80, 0.88]
+          and climbed["resession"]["force_pct"] == 0.95)
+    bad_ladder = False
+    try:
+        save_kit(paths, {"resession": {"ask_pct": [0.80, 0.75, 0.85]}})
+    except SessionKitError as e:
+        bad_ladder = e.kind == "BAD_INPUT"
+    check("a ladder that does not climb is BAD_INPUT", lambda: bad_ladder)
 
     failed = [(l, e) for l, ok, e in results if not ok]
     for label, ok, err in results:

@@ -211,7 +211,7 @@ def default_step_setup() -> dict:
 def default_engine(profile_id: str = DEFAULT_PROFILE) -> dict:
     row = _profile(profile_id)
     notes = {s["id"]: "" for s in MOTIF_STAGES}
-    return {
+    engine = {
         "schema": SCHEMA,
         "profile": row["id"],
         "label": row["label"],
@@ -226,6 +226,10 @@ def default_engine(profile_id: str = DEFAULT_PROFILE) -> dict:
             "IMPLEMENT dest is profile-specific. Publish is Keith's click."
         ),
     }
+    if row["id"] == "website":
+        from cosmos_spidercaster import public_plugin
+        engine["plugin"] = public_plugin(None)
+    return engine
 
 
 def _public_step_setup(raw) -> dict:
@@ -297,7 +301,7 @@ def load_engine(paths, profile_id: str) -> dict:
         dest = _public_dest(rec.get("dest"), row)
     except ProfileError:
         dest = default_dest(row)
-    return {
+    loaded = {
         "schema": SCHEMA,
         "profile": row["id"],
         "label": row["label"],
@@ -312,6 +316,13 @@ def load_engine(paths, profile_id: str) -> dict:
         "kind": "OK",
         "note": base["note"],
     }
+    if row["id"] == "website":
+        from cosmos_spidercaster import SpiderError, public_plugin
+        try:
+            loaded["plugin"] = public_plugin(rec.get("plugin"))
+        except SpiderError:
+            loaded["plugin"] = public_plugin(None)
+    return loaded
 
 
 def save_engine(paths, body: dict) -> dict:
@@ -342,6 +353,13 @@ def save_engine(paths, body: dict) -> dict:
         cur["dest"] = _public_dest(body["dest"], row)
     if "step_setup" in body:
         cur["step_setup"] = _public_step_setup(body["step_setup"])
+    if row["id"] == "website":
+        from cosmos_spidercaster import SpiderError, public_plugin
+        src = body["plugin"] if "plugin" in body else cur.get("plugin")
+        try:
+            cur["plugin"] = public_plugin(src)
+        except SpiderError as exc:
+            raise ProfileError(exc.kind, exc.detail) from exc
     cur["saved_at"] = _iso_now()
     cur["kind"] = "OK"
     d = dir_for(paths, row["id"])
@@ -357,6 +375,8 @@ def save_engine(paths, body: dict) -> dict:
         "saved_at": cur["saved_at"],
         "note": cur["note"],
     }
+    if row["id"] == "website" and cur.get("plugin"):
+        out["plugin"] = cur["plugin"]
     engine_path(paths, row["id"]).write_text(
         json.dumps(out, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     out["kind"] = "OK"
@@ -520,6 +540,35 @@ def _selftest() -> int:
     check("Spidercaster skin left tabs are the 9 MOTIF stages",
           lambda: web_tabs[0] == "define" and web_tabs[-1] == "iterate"
           and len(web_tabs) == 9)
+    plug = saved["engine"].get("plugin") or {}
+    check("Spidercaster motif plugin is on the website profile",
+          lambda: plug.get("id") == "spidercaster"
+          and plug.get("module") == "motif"
+          and plug.get("cdeck", {}).get("sidebar") == "left"
+          and plug.get("publish") == "human"
+          and [r["id"] for r in plug.get("roles") or []] == [
+              "architect", "content", "frontend", "graphics",
+              "visual", "seo", "deployer"])
+    edited = save_engine(paths, {
+        "profile": "website",
+        "plugin": {
+            "roles": [{"id": "seo", "label": "Search", "model": "deepseek/deepseek-v4-flash",
+                       "hands": ["publish"]}],
+            "workflow": ["seo", "architect", "content", "frontend",
+                         "graphics", "visual", "deployer"],
+        },
+    })
+    seo = next(r for r in edited["engine"]["plugin"]["roles"] if r["id"] == "seo")
+    check("cDeck can retitle a seat and reorder workflow; hands stay package hands",
+          lambda: seo["label"] == "Search"
+          and seo["hands"] == ["uniqueness", "meta_basics"]
+          and edited["engine"]["plugin"]["workflow"][0] == "seo")
+    refused = False
+    try:
+        save_engine(paths, {"profile": "website", "plugin": {"workflow": ["architect"]}})
+    except ProfileError as e:
+        refused = e.kind == "BAD_INPUT"
+    check("a workflow that drops a seat is BAD_INPUT", lambda: refused)
 
     failed = [(l, e) for l, ok, e in results if not ok]
     for label, ok, err in results:

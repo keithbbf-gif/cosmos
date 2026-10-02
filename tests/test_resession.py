@@ -14,8 +14,10 @@ from __future__ import annotations
 import hashlib
 import importlib.util
 import json
+import os
 import sys
 import tempfile
+import time
 from datetime import datetime
 from pathlib import Path
 
@@ -33,7 +35,7 @@ from cosmos_resession import (                                        # noqa: E4
     plan_task_argv, poll_once, precheck_seed, read_warn_latched,
     render_running_session, resume_plan,
     spawn_argv, spawn_auto_resession, spawn_inject_argv, spawn_tui_argv,
-    transcript_path, watermark,
+    transcript_path, unique_stamp, watermark,
 )
 
 RESULTS: list[tuple[str, bool, str]] = []
@@ -170,27 +172,46 @@ def main() -> int:
                          lease_held_by=None)["spawn_reason"] is None)
 
     # ---- ordering: a bad manifest refuses before anything is armed ----------
+    # The fire has to be a live window. A dead pid is not that fire.
+    firing = {"spawned_at_epoch": 1.0, "last_act_epoch": 9e9,
+              "turn_n": 1, "context_pct": 0.90}
     bad = {"ok": False, "kind": "BAD_SEED", "detail": "mac", "sha": None,
            "sid": None, "schema": None, "thin": None, "cursor": None}
     check("a fired watermark over a BAD_SEED is REFUSED, not resumed",
           lambda: (lambda r: r["state"] == "REFUSED"
                    and r["refused_kind"] == "BAD_SEED")(
-              decide(pause=None, seed=bad, cow_hb=None, pid_alive=False, now=1.0,
+              decide(pause=None, seed=bad, cow_hb=firing, pid_alive=True, now=9e9,
                      prompt_sha="p", rail="grok", lease_held_by=None)))
     check("a missing BootUP prompt refuses rather than inventing one at fire time",
-          lambda: decide(pause=None, seed=ok_seed(), cow_hb=None, pid_alive=False,
-                         now=1.0, prompt_sha=None, rail="grok",
+          lambda: decide(pause=None, seed=ok_seed(), cow_hb=firing, pid_alive=True,
+                         now=9e9, prompt_sha=None, rail="grok",
                          lease_held_by=None)["refused_kind"] == "NO_PROMPT")
     check("a held cow lease refuses the second orchestrator",
-          lambda: decide(pause=None, seed=ok_seed(), cow_hb=None, pid_alive=False,
-                         now=1.0, prompt_sha="p", rail="grok",
+          lambda: decide(pause=None, seed=ok_seed(), cow_hb=firing, pid_alive=True,
+                         now=9e9, prompt_sha="p", rail="grok",
                          lease_held_by="resession-42")["refused_kind"] == "HELD")
 
-    armed = decide(pause=None, seed=ok_seed(), cow_hb=None, pid_alive=False,
-                   now=1.0, prompt_sha="p", rail="grok", lease_held_by=None)
+    armed = decide(pause=None, seed=ok_seed(), cow_hb=firing, pid_alive=True,
+                   now=9e9, prompt_sha="p", rail="grok", lease_held_by=None)
     check("the happy path arms and carries the signed cursor forward",
           lambda: armed["state"] == "ARMED"
+          and armed["spawn_reason"] == "watermark"
           and armed["resumed_from"] == {"slug": "auto-resession", "stage": 4})
+    quiet = decide(pause=None, seed=ok_seed(), cow_hb=None, pid_alive=False,
+                   now=1.0, prompt_sha="p", rail="grok", lease_held_by=None)
+    check("a dead pid with no heartbeat stays IDLE",
+          lambda: quiet["state"] == "IDLE" and quiet["spawn_reason"] is None
+          and quiet["pack"] is False and quiet["why"].startswith("backstop seen"))
+    stale_hb = {"spawned_at_epoch": 1.0, "last_act_epoch": 1.0,
+                "turn_n": 1, "context_pct": None, "role": "CCr", "stream": "Cm"}
+    stale = decide(pause=None, seed=ok_seed(), cow_hb=stale_hb, pid_alive=False,
+                   now=1.0e7, prompt_sha="p", rail="grok", lease_held_by=None)
+    check("a stale dead heartbeat does not arm and does not pack",
+          lambda: stale["state"] == "IDLE" and stale["spawn_reason"] is None
+          and stale["pack"] is False
+          and stale["detectors"]["w3_dead"] is True
+          and stale["detectors"]["w3_quiet"] is True
+          and stale["detectors"]["w1_age"] is True)
     check("an in-window session is IDLE - the satellite does not churn",
           lambda: decide(pause=None, seed=ok_seed(),
                          cow_hb={"spawned_at_epoch": 999.0,
@@ -389,6 +410,187 @@ def main() -> int:
           and not (dry_root / "logs" / HEARTBEAT_NAME).exists()
           and not (dry_root / "state" / "control" / PROJECTION_NAME).exists())
 
+    stamp_dir = tmp / "stamps"
+    stamp_dir.mkdir()
+    moment = datetime(2026, 10, 1, 12, 0, 0)
+    first_stamp = unique_stamp(stamp_dir, now=moment)
+    (stamp_dir / first_stamp).mkdir()
+    second_stamp = unique_stamp(stamp_dir, now=moment)
+    check("two saves in the same second get two names",
+          lambda: first_stamp == "20261001T120000"
+          and second_stamp == "20261001T120000_01")
+
+    def _plant(root: Path, hb: dict) -> None:
+        control = root / "state" / "control"
+        control.mkdir(parents=True, exist_ok=True)
+        (control / "COW_HEARTBEAT.json").write_text(
+            json.dumps(hb), encoding="utf-8")
+
+    def _mtime(path: Path):
+        return path.stat().st_mtime_ns if path.exists() else None
+
+    bu_cm = ROOT / "BUCm.toml"
+    bu_cr = ROOT / "BUcr.toml"
+    cm_before = _mtime(bu_cm)
+    cr_before = _mtime(bu_cr)
+    now_s = time.time()
+    seat = os.getpid()
+
+    stale_root = install(tmp / "stale", tree_id="spike-resession-stale")
+    _plant(stale_root, {
+        "schema": "cosmos-cow-heartbeat/1",
+        "pid": 99999999,
+        "rail": "grok",
+        "stream": "Cm",
+        "cosmos_sid": "Cm",
+        "role": "CCr",
+        "turn_n": 1,
+        "context_pct": None,
+        "last_act_epoch": 1788658529,
+        "spawned_at_epoch": 1788658529,
+        "note": "continue the route",
+        "dirty": True,
+    })
+    stale_rec = poll_once(
+        str(stale_root), str(ROOT), dry_run=False, spawn=False, engage=True,
+        bu_dir=str(stale_root / "bu"))
+    check("a stale Cm heartbeat does not arm, pack, ask, or autosave",
+          lambda: stale_rec.get("state") == "IDLE"
+          and stale_rec.get("spawn_reason") is None
+          and stale_rec.get("session_save") is None
+          and (stale_rec.get("rung") or {}).get("act") == "idle"
+          and (stale_rec.get("rung") or {}).get("why") == "no tokens"
+          and stale_rec.get("session_closed") is None
+          and stale_rec.get("autosave") is None
+          and not (stale_root / "state" / "session_saves").exists()
+          and not (stale_root / "bu").exists()
+          and "TidyUP + fresh spawn" not in str(stale_rec.get("why"))
+          and _mtime(bu_cm) == cm_before and _mtime(bu_cr) == cr_before)
+
+    dead_root = install(tmp / "dead92", tree_id="spike-resession-dead92")
+    _plant(dead_root, {
+        "schema": "cosmos-cow-heartbeat/1",
+        "pid": 99999999,
+        "rail": "grok",
+        "stream": "Cm",
+        "cosmos_sid": "Cm",
+        "role": "CCr",
+        "turn_n": 4,
+        "context_pct": 0.92,
+        "tokens_in": 184000,
+        "last_act_epoch": now_s,
+        "spawned_at_epoch": now_s,
+        "note": "continue the route",
+    })
+    dead_rec = poll_once(
+        str(dead_root), str(ROOT), dry_run=False, spawn=False, engage=True,
+        bu_dir=str(dead_root / "bu"))
+    check("92 percent on a dead pid does not close and does not write a BU",
+          lambda: dead_rec.get("session_closed") is None
+          and (dead_rec.get("rung") or {}).get("act") == "force"
+          and (dead_rec.get("rung") or {}).get("held") == "pid not alive"
+          and dead_rec.get("state") != "ARMED"
+          and dead_rec.get("session_save") is None
+          and not (dead_root / "state" / "session_saves").exists()
+          and not (dead_root / "bu" / "BUCm.toml").exists()
+          and not (dead_root / "bu" / "BUcr.toml").exists()
+          and not (dead_root / "state" / "control" / "RESESSION_ASK.flag").exists()
+          and _mtime(bu_cm) == cm_before and _mtime(bu_cr) == cr_before)
+
+    live_root = install(tmp / "live92", tree_id="spike-resession-live92")
+    write_seed(live_root / "state", seed_body(tree_id="spike-resession-live92"))
+    _plant(live_root, {
+        "schema": "cosmos-cow-heartbeat/1",
+        "pid": seat,
+        "rail": "grok",
+        "stream": "Cm",
+        "cosmos_sid": "Cm",
+        "role": "CCr",
+        "turn_n": 4,
+        "context_pct": 0.92,
+        "tokens_in": 184000,
+        "last_act_epoch": now_s,
+        "spawned_at_epoch": now_s,
+        "note": "continue the route",
+    })
+    live_rec = poll_once(
+        str(live_root), str(ROOT), dry_run=False, spawn=False, engage=False,
+        bu_dir=str(live_root / "bu"))
+    check("92 percent on a live pid packs and does not close without engage",
+          lambda: live_rec.get("state") == "ARMED"
+          and live_rec.get("spawn_reason") == "watermark"
+          and live_rec.get("session_closed") is None
+          and (live_rec.get("rung") or {}).get("act") == "force"
+          and (live_rec.get("rung") or {}).get("held") is None
+          and live_rec.get("banner") is None
+          and live_rec.get("session_save")
+          and Path(live_rec["session_save"]).is_dir()
+          and not (live_root / "bu" / "BUCm.toml").exists()
+          and _mtime(bu_cm) == cm_before and _mtime(bu_cr) == cr_before)
+
+    ask_root = install(tmp / "ask75", tree_id="spike-resession-ask75")
+    _plant(ask_root, {
+        "schema": "cosmos-cow-heartbeat/1",
+        "pid": seat,
+        "rail": "grok",
+        "stream": "Cm",
+        "cosmos_sid": "Cm",
+        "role": "CCr",
+        "turn_n": 4,
+        "context_pct": 0.75,
+        "tokens_in": 150000,
+        "last_act_epoch": now_s,
+        "spawned_at_epoch": now_s,
+        "note": "continue the route",
+    })
+    ask_rec = poll_once(
+        str(ask_root), str(ROOT), dry_run=False, spawn=False, engage=False,
+        bu_dir=str(ask_root / "bu"))
+    ask_flag = json.loads((ask_root / "state" / "control" / "RESESSION_ASK.flag")
+                          .read_text(encoding="utf-8"))
+    check("75 percent on a live pid asks and does not close",
+          lambda: ask_rec.get("state") == "PACKING"
+          and ask_rec.get("session_closed") is None
+          and (ask_rec.get("rung") or {}).get("act") == "ask"
+          and ask_flag.get("act") == "ask"
+          and not (ask_root / "bu" / "BUCm.toml").exists()
+          and not (ask_root / "bu" / "BUcr.toml").exists())
+
+    auto_root = install(tmp / "autosave", tree_id="spike-resession-autosave")
+    _plant(auto_root, {
+        "schema": "cosmos-cow-heartbeat/1",
+        "pid": seat,
+        "rail": "grok",
+        "stream": "Cm",
+        "cosmos_sid": "Cm",
+        "role": "CCr",
+        "turn_n": 2,
+        "context_pct": 0.10,
+        "tokens_in": 20000,
+        "last_act_epoch": now_s,
+        "spawned_at_epoch": now_s,
+        "note": "keep sk-live-secret-value",
+        "dirty": True,
+    })
+    auto_rec = poll_once(
+        str(auto_root), str(ROOT), dry_run=False, spawn=False, engage=False,
+        bu_dir=str(auto_root / "bu"))
+    packs = list((auto_root / "state" / "session_saves").rglob("AUTOSAVE.json"))
+    session_text = packs[0].with_name("SESSION.md").read_text(encoding="utf-8") if packs else ""
+    beat_text = (auto_root / "state" / "control" / "COW_HEARTBEAT.json").read_text(encoding="utf-8")
+    poll_once(str(auto_root), str(ROOT), dry_run=False, spawn=False, engage=False,
+              bu_dir=str(auto_root / "bu"))
+    packs_after = list((auto_root / "state" / "session_saves").rglob("AUTOSAVE.json"))
+    check("a fresh dirty beat autosaves once and redacts the secret",
+          lambda: auto_rec.get("state") == "IDLE"
+          and auto_rec.get("autosave_error") is None
+          and auto_rec.get("autosave")
+          and len(packs) == 1 and len(packs_after) == 1
+          and "sk-live" not in session_text
+          and "[redacted]" in session_text
+          and "sk-live" not in beat_text
+          and '"dirty": false' in beat_text)
+
     check("standup with injected create_task never calls real schtasks",
           lambda: _standup_injected(str(scratch)))
 
@@ -486,6 +688,12 @@ def _standup_injected(root: str) -> bool:
             and query_calls == [TASK_NAME]
             and create_calls[0]["args"][0] == TASK_NAME
             and create_calls[0]["kwargs"].get("run_now") is False)
+
+
+def test_resession_gate():
+    """pytest bridge: main() is the one gate; it returns 0 only when every
+    check passed and it wrote the proof JSON (cosmos/_f51_promote.json)."""
+    assert main() == 0
 
 
 if __name__ == "__main__":
