@@ -1,0 +1,156 @@
+{
+ "ok": true,
+ "stage": 6,
+ "deliverable": "CVM",
+ "agent": "G46",
+ "gated_at_epoch": 1788126142.825789,
+ "headline": "LIVE",
+ "source_apk": "V:\\Ai\\tmp\\cosmos-android\\app\\build\\outputs\\apk\\debug\\app-debug.apk",
+ "apk_sha256": "67ee1161376734f8c847ec41d87bb56c82316a1283db8559f9939b39dc7ad016",
+ "apk_bytes": 172749046,
+ "cosmos_api": {
+  "prefix": "/api/v1",
+  "major": 1,
+  "paths": {
+   "status": "/api/v1/status",
+   "health": "/api/v1/health",
+   "voice": "/api/v1/voice",
+   "events": "/api/v1/events?since_seq=0",
+   "control": "/api/v1/control?client_id=cvm-stage6-gate",
+   "resume": "/api/v1/control/resume",
+   "pull": "/api/v1/cvm/pull?client_id=cvm-stage6-gate",
+   "snapshot": "/api/v1/cvm/snapshot"
+  },
+  "vosk_sha256": "30f26242c4eb449f948e42cb302dd7a686cb29a3423a8367f99ff41780942498",
+  "piper_sha256": "93070ac9fadf512e56c46bdd0c5d2ce96b424fdc4e683d560167410bd2c4df7d",
+  "files": {
+   "CosmosVoiceApi.kt": {
+    "path": "V:\\Ai\\tmp\\cosmos-android\\app\\src\\main\\java\\com\\cosmos\\voice\\CosmosVoiceApi.kt",
+    "sha256": "de9f706a4ddc355f80919bc9719525f49b8a24228b20eda8c281dcadebd8e4e2",
+    "bytes": 1285
+   },
+   "ControlFlags.kt": {
+    "path": "V:\\Ai\\tmp\\cosmos-android\\app\\src\\main\\java\\com\\cosmos\\voice\\ControlFlags.kt",
+    "sha256": "a6c54c3faa92fb85a9772c8294f35e829193e2487a55bc9aef1c07877bf9c66b",
+    "bytes": 2100
+   },
+   "TransportPolicy.kt": {
+    "path": "V:\\Ai\\tmp\\cosmos-android\\app\\src\\main\\java\\com\\cosmos\\voice\\TransportPolicy.kt",
+    "sha256": "51a908651e1bde346b71d24849527f34cec90418f9cb2aac1f6e369738f40698",
+    "bytes": 2057
+   },
+   "ModelManager.kt": {
+    "path": "V:\\Ai\\tmp\\cosmos-android\\app\\src\\main\\java\\com\\cosmos\\voice\\ModelManager.kt",
+    "sha256": "1213974810014912ffb31714688dcedd0c934bb52696626a3b376ebbde232dfa",
+    "bytes": 8254
+   },
+   "TtsModelManager.kt": {
+    "path": "V:\\Ai\\tmp\\cosmos-android\\app\\src\\main\\java\\com\\cosmos\\voice\\TtsModelManager.kt",
+    "sha256": "94cfba26801a848216018e628e47876734f49a8ddf319da4e31b5c58fc0bc4e5",
+    "bytes": 8004
+   },
+   "CosmosClient.kt": {
+    "path": "V:\\Ai\\tmp\\cosmos-android\\app\\src\\main\\java\\com\\cosmos\\voice\\CosmosClient.kt",
+    "sha256": "dbee545dbf4683d11fc13dd063cc421eb2d2a976f4778cc73cb622dcc544f6fe",
+    "bytes": 10282
+   },
+   "ControlClient.kt": {
+    "path": "V:\\Ai\\tmp\\cosmos-android\\app\\src\\main\\java\\com\\cosmos\\voice\\ControlClient.kt",
+    "sha256": "6565c40aa7727d70541ffe050f526203edf80b1ddd18dada3fc97010a9c35815",
+    "bytes": 1899
+   },
+   "MainActivity.kt": {
+    "path": "V:\\Ai\\tmp\\cosmos-android\\app\\src\\main\\java\\com\\cosmos\\voice\\MainActivity.kt",
+    "sha256": "a869de705f08ebe7a5681ca384779902467eaf89338ed16f34f621a5d70c07eb",
+    "bytes": 146558
+   },
+   "CvmTicket.kt": {
+    "path": "V:\\Ai\\tmp\\cosmos-android\\app\\src\\main\\java\\com\\cosmos\\voice\\CvmTicket.kt",
+    "sha256": "783279b65fb25817c264c378c0f21a265c2365ff09e3edb08e450c54c6e3ad51",
+    "bytes": 2950
+   },
+   "CvmMule.kt": {
+    "path": "V:\\Ai\\tmp\\cosmos-android\\app\\src\\main\\java\\com\\cosmos\\voice\\CvmMule.kt",
+    "sha256": "34b03d25aa10f9fe208b337b74ee3abd59f1cbc9b557ede418315e3c4bcb2551",
+    "bytes": 5723
+   },
+   "CvmRefusal.kt": {
+    "path": "V:\\Ai\\tmp\\cosmos-android\\app\\src\\main\\java\\com\\cosmos\\voice\\CvmRefusal.kt",
+    "sha256": "53f5ade8f48b80350b7d69a7b46bb059c735e36003e4a438a37def33f912f5fb",
+    "bytes": 1034
+   }
+  }
+ },
+ "live_root": "V:\\A\\Ai\\COSMOS\\live",
+ "live_tree_id": "KMesh-COSMOS-live",
+ "live_system": "COSMOS",
+ "sentinel": "V:\\A\\Ai\\COSMOS\\live\\.cosmos-root.json",
+ "base_url": "http://127.0.0.1:8770",
+ "bearer_redacted": "V3…86XG",
+ "live_value": {
+  "live_tree_id": "KMesh-COSMOS-live",
+  "ready": true,
+  "root": "V:\\A\\Ai\\COSMOS\\live",
+  "ledger_seq": 651,
+  "ledger_event": "HEALTH_BOARD",
+  "served_at": 1788126142.607052,
+  "health_verdict": "RED x1",
+  "control_measured_at": 1788126142.762747,
+  "control_source": "effective",
+  "control_flags": {
+   "mic_off": false,
+   "pause": false,
+   "clear_queue": false
+  },
+  "apk_sha256": "67ee1161376734f8c847ec41d87bb56c82316a1283db8559f9939b39dc7ad016",
+  "status_url": "http://127.0.0.1:8770/api/v1/status",
+  "control_url": "http://127.0.0.1:8770/api/v1/control?client_id=cvm-stage6-gate",
+  "headline": "LIVE",
+  "cvm_pull": {
+   "http_status": 200,
+   "tree_id": "KMesh-COSMOS-live",
+   "cursor": "",
+   "audio_owner": "none",
+   "issued_epoch": 1788126129.236759,
+   "projection_mtime": 1788126129.2403064,
+   "pull": true,
+   "core_kind": "ok",
+   "url": "http://127.0.0.1:8770/api/v1/cvm/pull?client_id=cvm-stage6-gate"
+  },
+  "cvm_snapshot": {
+   "http_status": 200,
+   "cursor_out": "c0c14751371083a28ae2f9b035ca6e5e4ed8bdc9cbbabe8f276079b2f3876905",
+   "stored": [
+    "device",
+    "voice_session"
+   ],
+   "idempotent": null,
+   "request_id": "16eee9ee-4b06-450e-aa17-23c28e4ca0ee",
+   "url": "http://127.0.0.1:8770/api/v1/cvm/snapshot"
+  }
+ },
+ "critical_pair": {
+  "status_ok": true,
+  "health_ok": true,
+  "control_ok": true,
+  "events_ok": true,
+  "pull_ok": true,
+  "snapshot_ok": true,
+  "health_verdict": "RED x1"
+ },
+ "critique_applied": {
+  "HIGH_cleartext_bearer_refused": true,
+  "MED_piper_tts_documented": true,
+  "MED_sha256_pins": true,
+  "MED_post_notifications_runtime": true,
+  "MED_dual_model_first_run": true,
+  "control_reads_effective": true,
+  "HIGH_thin_phone_home_mule": true,
+  "HIGH_audio_owner_honor": true
+ },
+ "note": "rc=0 is not the gate. The live_value fields are. Unit tests / selftest are a green log, not this record.",
+ "emitted": "cvm:KMesh-COSMOS-live:651:1788126142.607052:1788126142.762747:67ee1161376734f8c847ec41d87bb56c82316a1283db8559f9939b39dc7ad016:pull:none:1788126129.236759:1788126129.2403064:snap:c0c14751371083a28ae2f9b035ca6e5e4ed8bdc9cbbabe8f276079b2f3876905",
+ "cvm_pull_emitted": "cvm-pull:KMesh-COSMOS-live::none:1788126129.236759",
+ "cvm_snap_emitted": "cvm-snap:c0c14751371083a28ae2f9b035ca6e5e4ed8bdc9cbbabe8f276079b2f3876905",
+ "proof_path": "V:\\Ai\\tmp\\cosmos-android\\STAGE6_GATE.json"
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Cleartext HTTP is allowed ONLY for the known LAN / Tailscale hosts the
+     unauthenticated (no-auth) trial talks to; every other destination must
+     be HTTPS. A bearer token over http:// is refused in TransportPolicy
+     unless the user enables the development-only override. If the server
+     moves to a new address, add that host here; otherwise the app fails
+     with "Cleartext HTTP traffic not permitted" (which is the config doing
+     its job, not a bug). -->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false" />
+    <domain-config cleartextTrafficPermitted="true">
+        <!-- LAN trial server (the app's default base URL). -->
+        <domain includeSubdomains="false">192.168.1.107</domain>
+        <!-- Local development. -->
+        <domain includeSubdomains="false">localhost</domain>
+        <domain includeSubdomains="false">127.0.0.1</domain>
+        <!-- Tailscale: the app dials the server by its Tailscale IP (kc-pc =
+             100.103.9.112), NOT by a *.ts.net MagicDNS name, so the IP itself
+             must be whitelisted or the road/LTE connection is refused. This is
+             the fix for the 2026-08-24 "failing to connect" — the scoped config
+             listed ts.net names but not the IP the app actually uses. Traffic is
+             WireGuard-encrypted end to end, so cleartext HTTP inside it is fine. -->
+        <domain includeSubdomains="false">100.103.9.112</domain>
+        <!-- Tailscale MagicDNS names (in case a name is ever used instead). -->
+        <domain includeSubdomains="true">ts.net</domain>
+    </domain-config>
+</network-security-config>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!-- Foreground service keeps the mic alive while the screen is off /
+         another app is in front — driving mode's whole point. The MICROPHONE
+         type is mandatory on API 34 for a mic-using foreground service. -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE" />
+    <!-- Android 13+: the ongoing "listening" notification (and its STOP /
+         CONFIRM actions). Requested at runtime when MIC ON enables a
+         session; denial does not stop the mic — the in-app STOP stays. -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <!-- Normal permission (no runtime prompt): connectivity change cues in driving mode. -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- Normal permission (no runtime prompt): lets the "Use phone mic" option
+         keep Bluetooth SCO down so recognition uses the built-in mic while
+         TTS output stays on the BT headset (A2DP). -->
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <!-- Normal permission (no runtime prompt): eyes-free haptic cues (mic tick,
+         sent double-tick, reply buzz, confirm/refusal pulses). -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:label="COSMOS Voice"
+        android:icon="@android:drawable/ic_btn_speak_now"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:theme="@android:style/Theme.Material.NoActionBar">
+        <!-- Cleartext HTTP is scoped to the known LAN/Tailscale hosts in
+             res/xml/network_security_config.xml (the old global
+             usesCleartextTraffic=true allowed cleartext to ANY host). -->
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden|uiMode">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Mic foreground service: recognition survives the app going
+             off-screen (see VoiceService). -->
+        <service
+            android:name=".VoiceService"
+            android:exported="false"
+            android:foregroundServiceType="microphone" />
+    </application>
+
+</manifest>

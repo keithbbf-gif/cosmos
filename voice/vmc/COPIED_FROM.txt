@@ -1,0 +1,5 @@
+Copied 2026-10-01 from V:\Ai\tmp\cosmos-android.
+Git HEAD 8fabdb1 (2026-08-25) on keithbbf-gif/cosmos-android.
+The working tree was dirty. This copy includes those uncommitted files.
+Excluded: .git, .gradle, build, .idea, *.keystore, *.jks, local.properties.
+The thinner checkout at V:\GitHub\cosmos-android is the same commit and was not copied.

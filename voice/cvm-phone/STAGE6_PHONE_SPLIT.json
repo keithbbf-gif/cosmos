@@ -1,0 +1,70 @@
+{
+ "ok": false,
+ "verdict": "PENDING_CORE",
+ "stage": 6,
+ "deliverable": "cvm-phone",
+ "half": "split",
+ "gated_at_epoch": 1788154067.235553,
+ "utc_offset_s": -18000,
+ "live_root": "V:\\A\\Ai\\COSMOS\\live",
+ "live_tree_id": "KMesh-COSMOS-live",
+ "python": "3.14.0",
+ "local": {
+  "ok": true,
+  "verdict": "PASS",
+  "counts": {
+   "PASS": 12,
+   "REFUSED": 0,
+   "UNMEASURED": 0,
+   "PENDING_CORE": 0,
+   "FAIL": 0
+  },
+  "emitted": "cvm-phone-local:KMesh-COSMOS-live:stale:27919.583:2/4:fcf2aa53caec7b04",
+  "proof_path": "V:\\A\\Ai\\COSMOS\\builds\\cvm-phone\\STAGE6_PHONE.json"
+ },
+ "core": {
+  "ok": false,
+  "verdict": "PENDING_CORE",
+  "counts": {
+   "PASS": 0,
+   "REFUSED": 0,
+   "UNMEASURED": 0,
+   "PENDING_CORE": 6,
+   "FAIL": 0
+  },
+  "emitted": "cvm-phone-core:KMesh-COSMOS-live:UNREACHABLE:NO_SEQ:fcf2aa53caec7b04",
+  "proof_path": "V:\\A\\Ai\\COSMOS\\builds\\cvm-phone\\STAGE6_PHONE_CORE.json",
+  "core_reachable": false,
+  "core_kind": "UNREACHABLE",
+  "rerun": "py -3.14 V:\\A\\Ai\\COSMOS\\builds\\cvm-phone\\cvm_phone_gate.py core --root V:\\A\\Ai\\COSMOS\\live --base http://127.0.0.1:8770"
+ },
+ "blocked_on_core": [
+  {
+   "check": "core_status_tree_id",
+   "needs": "GET /api/v1/status from the resident Core, answering with the live sentinel tree_id"
+  },
+  {
+   "check": "core_ledger_head_seq",
+   "needs": "the ledger_head.seq in that same /status \u2014 a value only the single signing ledger writer can emit"
+  },
+  {
+   "check": "core_pull_ticket_authoritative",
+   "needs": "GET /api/v1/cvm/pull?client_id=cvm-phone returning a ticket off the LIVE state/cvm/pull.json, stamped with projection_mtime / projection_owner / projection_size"
+  },
+  {
+   "check": "core_push_accepted_owner_desktop",
+   "needs": "POST /api/v1/cvm/push accepted by the resident Core, answering audio_owner=desktop and claimed=false"
+  },
+  {
+   "check": "core_cursor_advances_live",
+   "needs": "the GET /api/v1/cvm/pull after that push, carrying the cursor_out the push returned"
+  },
+  {
+   "check": "phone_reach_fresh_after_push",
+   "needs": "live state/cvm/phone.json written by Core in response to the push, so cvm_phone_pull.phone_reach flips to reachable/fresh inside deadline_s=45.0"
+  }
+ ],
+ "wire": "cvm-phone-gate-split/1",
+ "note": "Two claims, two records. The local half stands on its own numbers; the core half is PENDING until the resident authority answers. No substitute was accepted.",
+ "proof_path": "V:\\A\\Ai\\COSMOS\\builds\\cvm-phone\\STAGE6_PHONE_SPLIT.json"
+}

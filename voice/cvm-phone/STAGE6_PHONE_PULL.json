@@ -1,0 +1,68 @@
+{
+ "ok": true,
+ "stage": 6,
+ "deliverable": "cvm-phone",
+ "slice": "pull-contract",
+ "gated_at_epoch": 1788143858.0656662,
+ "source_path": "V:\\A\\Ai\\COSMOS\\builds\\cvm-phone\\cvm_phone_pull.py",
+ "source_sha256": "7f4bfba071c933423c1b2b28d04d6ab61b9e5ac1c28be13939db05064b419ba0",
+ "clock_path": "V:\\A\\Ai\\COSMOS\\builds\\cvm-phone\\cvm_phone_clock.py",
+ "clock_sha256": "ae5ebf4d5dd2d2bb6c86c06bcea5b6a50b5b6fe4efa249f24a1cb203825cfb29",
+ "live_root": "V:\\A\\Ai\\COSMOS\\live",
+ "python": "3.14.0",
+ "live_value": {
+  "live_tree_id": "KMesh-COSMOS-live",
+  "sentinel": "V:\\A\\Ai\\COSMOS\\live\\.cosmos-root.json",
+  "asked_kinds": [
+   "calendar",
+   "calls",
+   "contacts",
+   "device",
+   "notifications",
+   "pcm",
+   "sms",
+   "voice_session"
+  ],
+  "answered_kinds": [
+   "calendar",
+   "calls",
+   "contacts",
+   "device",
+   "notifications",
+   "pcm",
+   "sms",
+   "voice_session"
+  ],
+  "kind_status": {
+   "calendar": "PERM_DENIED:calendar",
+   "calls": "PERM_DENIED:calls",
+   "contacts": "PERM_DENIED:contacts",
+   "device": "ok",
+   "notifications": "PERM_DENIED:notifications",
+   "pcm": "PERM_DENIED:pcm",
+   "sms": "PERM_DENIED:sms",
+   "voice_session": "PERM_DENIED:voice_session"
+  },
+  "denied_kinds": [
+   "calendar",
+   "calls",
+   "contacts",
+   "notifications",
+   "pcm",
+   "sms",
+   "voice_session"
+  ],
+  "unanswered_kinds": [],
+  "phone_reachable": false,
+  "phone_reach_kind": "UNREACHABLE",
+  "phone_reach_reason": "stale",
+  "age_s": 17715.24,
+  "deadline_s": 45.0,
+  "last_seen_epoch": 1788126142.824778,
+  "source": "state/cvm/phone.json",
+  "cursor": "c0c14751371083a28ae2f9b035ca6e5e4ed8bdc9cbbabe8f276079b2f3876905"
+ },
+ "wire": "cvm-phone-pull/1",
+ "note": "rc=0 is not the gate. The live_value fields are. An UNREACHABLE phone is a passing refusal, not a green log: it is the measurement, not its absence.",
+ "emitted": "cvm-phone:KMesh-COSMOS-live:stale:17715.240:7/8:ae5ebf4d5dd2d2bb"
+}
