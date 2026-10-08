@@ -1,0 +1,10 @@
+[project]
+name = "cosmos-clusters"
+version = "0.1.0"
+description = "COSMOS Clusters backend. Supervises harness-seated agent clusters."
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts = "--basetemp=V:/streams/clusters/_pytest_tmp"
