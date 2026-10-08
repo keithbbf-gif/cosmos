@@ -1,0 +1,30 @@
+package com.cosmos.voice.duplex
+
+import android.app.Notification
+import android.app.Service
+import android.content.Intent
+import android.os.IBinder
+
+/**
+ * Microphone foreground service. Start it while the session screen is
+ * visible, and stop it when the user leaves or says stop. The service does
+ * not hold a model key.
+ */
+class VoiceForegroundService : Service() {
+    override fun onBind(intent: Intent?): IBinder? = null
+
+    override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
+        val notification: Notification = Notification.Builder(this, "cosmos-voice")
+            .setContentTitle("COSMOS voice")
+            .setContentText("Listening")
+            .setSmallIcon(android.R.drawable.ic_btn_speak_now)
+            .build()
+        startForeground(41, notification)
+        return START_NOT_STICKY
+    }
+
+    override fun onDestroy() {
+        stopForeground(STOP_FOREGROUND_REMOVE)
+        super.onDestroy()
+    }
+}
