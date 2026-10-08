@@ -1,0 +1,31 @@
+{
+  "qwen3-coder-30b-fp8": {
+    "rail": "runpod",
+    "endpoint": "RUNPOD_ENDPOINT_ID_PLACEHOLDER",
+    "lane": "A",
+    "cogs_per_m_usd": 0.18,
+    "cogs_provenance": "estimate",
+    "or_retail_per_m_usd": 0.30,
+    "eps_pct": 1.0,
+    "cap_multiple": 5.0,
+    "price_rule": "min(or-eps, cap)",
+    "price_per_m_usd": 0.297,
+    "note": "manufactured supply — the spread lane; nightly job recomputes COGS/price"
+  },
+  "gemini-flash-vertex": {
+    "rail": "vertex",
+    "lane": "A",
+    "price_rule": "passthrough+surcharge",
+    "surcharge_pct": 5.0,
+    "or_retail_per_m_usd": 0.30,
+    "note": "pass-through premium — provider rates incl. batch/cache/flex discounts at full value; 1.5% net"
+  },
+  "claude-sonnet-bedrock": {
+    "rail": "bedrock",
+    "lane": "A",
+    "price_rule": "passthrough+surcharge",
+    "surcharge_pct": 5.0,
+    "or_retail_per_m_usd": 3.00,
+    "note": "Claude via Bedrock — no Anthropic Console ID wall; pass-through lane"
+  }
+}

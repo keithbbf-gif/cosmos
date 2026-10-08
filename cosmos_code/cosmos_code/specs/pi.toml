@@ -1,0 +1,15 @@
+id = "pi"
+family = "pi"
+strength = "strong"
+grade = "worktree"
+via = "g47"
+
+[binds]
+l1_role = "native"
+l2_model = "native"
+l3_harness = "native"
+l4_wrapper = "native"
+l5_skills = "file"
+l6_tools = "native"
+l7_enviro = "native"
+l8_mission = "native"

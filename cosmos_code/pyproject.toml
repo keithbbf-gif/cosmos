@@ -1,0 +1,34 @@
+[project]
+name = "cosmos-code"
+version = "1.0.0"
+description = "COSMOS CODE — propose-only coding rail. G47 plans the call. This package verifies it."
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.6", "mypy>=1.11"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = [".", "../harness/G47"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py314"
+src = ["cosmos_code", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+ignore = ["E501"]
+
+[tool.ruff.lint.per-file-ignores]
+"cosmos_code/__init__.py" = ["E402"]
+
+[tool.mypy]
+python_version = "3.14"
+packages = ["cosmos_code"]
+mypy_path = ".:../harness/G47"
+ignore_missing_imports = true
+check_untyped_defs = true
+warn_unused_ignores = true
+pretty = true

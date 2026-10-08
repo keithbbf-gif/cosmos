@@ -1,0 +1,15 @@
+id = "vertex"
+family = "gemini"
+strength = "weak"
+grade = "filed_text"
+via = "g47"
+
+[binds]
+l1_role = "carried"
+l2_model = "native"
+l3_harness = "carried"
+l4_wrapper = "carried"
+l5_skills = "none"
+l6_tools = "none"
+l7_enviro = "carried"
+l8_mission = "carried"
