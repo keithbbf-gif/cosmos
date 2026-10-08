@@ -41,11 +41,10 @@ def check(name: str, cond: bool) -> None:
 def offline_self_test() -> None:
     print("-- offline self-test --")
     import cosmos_pay_config as cfg
-    import cosmos_pay_meter as meter_mod
-    import cosmos_pay_pricing as pricing
-    import cosmos_pay_toll as toll_mod
     import cosmos_pay_entitlement as ent
     import cosmos_pay_gateway as gw
+    import cosmos_pay_meter as meter_mod
+    import cosmos_pay_toll as toll_mod
 
     check("config loads", bool(cfg.load_config()))
     try:
@@ -73,7 +72,8 @@ def offline_self_test() -> None:
     meter = meter_mod.Meter(str(Path(tmp) / "meter.db"))
     ah, raw = store.create_account(plan="free")
     check("account + key minted", ah.startswith("h:") and raw.startswith("ck_"))
-    check("account lookup by key", store.account_for_key(raw)["account_hash"] == ah)
+    found = store.account_for_key(raw)
+    check("account lookup by key", found is not None and found["account_hash"] == ah)
 
     if not models:
         print("    -> registry still empty; skipping model-dependent checks")

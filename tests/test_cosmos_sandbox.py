@@ -72,8 +72,8 @@ def test_snapshot_ast_has_no_mkdir():
 
 
 def test_daytona_unconfigured_does_not_host_spawn():
-    from cosmos_paths import CosmosPaths, write_sentinel
     import cosmos_sandbox as sb
+    from cosmos_paths import CosmosPaths, write_sentinel
 
     td = Path(tempfile.mkdtemp(prefix="sandbox_nocred_"))
     live = td / "live"
@@ -150,6 +150,29 @@ def test_remote_listing_v_is_isolation():
     assert kind == "BACKEND_ISOLATION"
 
 
+def test_remote_listing_device_unc_and_extended_pen():
+    """Proved bypasses: \\\\.\\V:\\, \\\\localhost\\V$\\, \\\\?\\OneDrive."""
+    blocked = (
+        "\\\\.\\V:\\",
+        "\\\\.\\V:\\A\\Ai\\COSMOS",
+        "//localhost/V$/A/Ai/COSMOS",
+        "\\\\?\\UNC\\localhost\\V$\\Ai",
+        "\\\\?\\C:\\Users\\Papa\\OneDrive",
+        "\\\\?\\C:\\Users\\Papa\\OneDrive\\x",
+    )
+    for sample in blocked:
+        try:
+            assert_no_host_map("daytona", listing=(sample,))
+            kind = None
+        except SandboxError as e:
+            kind = e.kind
+        assert kind == "BACKEND_ISOLATION", sample
+    assert_no_host_map(
+        "daytona",
+        listing=("C:\\Users\\Papa\\OneDriveExtra\\x", "D:\\work\\attempts"),
+    )
+
+
 def test_modal_named_not_composed():
     assert NAMED_NOT_COMPOSED == ("modal",)
     assert REMOTE_BACKENDS == ("daytona", "e2b")
@@ -166,6 +189,53 @@ def test_default_pick_is_job_object():
     rec = snapshot()
     assert rec["composed"] in (COMPOSED_BACKEND, "posix_subprocess")
     assert rec["is_scheduler"] is False
+
+
+def test_key_file_stays_unmeasured_and_does_not_host_spawn():
+    import cosmos_sandbox as sb
+    from cosmos_paths import CosmosPaths, write_sentinel
+
+    td = Path(tempfile.mkdtemp(prefix="sandbox_key_"))
+    live = td / "live"
+    write_sentinel(live, tree_id="sbx-key")
+    (live / "work").mkdir(parents=True)
+    (live / "config").mkdir(parents=True)
+    paths = CosmosPaths(live)
+    paths.config("daytona_api_key.txt").write_text("not-a-live-key\n", encoding="utf-8")
+    ws = attempt_dir(paths, "t")
+    called = []
+    real = sb.spawn_in_job
+
+    def spy(*a, **k):
+        called.append(1)
+        return real(*a, **k)
+
+    sb.spawn_in_job = spy
+    try:
+        try:
+            spawn_backend(
+                "daytona", [sys.executable, "-c", "print(1)"], ws, paths=paths)
+            kind = None
+        except SandboxError as e:
+            kind = e.kind
+    finally:
+        sb.spawn_in_job = real
+    assert kind == "UNMEASURED"
+    assert called == []
+
+
+def test_undecodable_stdout_is_replaced():
+    td = Path(tempfile.mkdtemp(prefix="sandbox_bin_"))
+    ws = td / "ws"
+    ws.mkdir()
+    rec = spawn_in_job(
+        [sys.executable, "-c",
+         "import sys; sys.stdout.buffer.write(bytes([255, 10]))"],
+        ws,
+        timeout_s=15,
+    )
+    assert rec["ok"] is True
+    assert "\ufffd" in rec["stdout"]
 
 
 def test_extra_drives_refuse():

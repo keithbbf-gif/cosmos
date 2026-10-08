@@ -6,6 +6,25 @@ from pathlib import Path
 
 from cosmos_federation.errors import Refuse
 
+_DEVICES = frozenset(
+    {
+        "con",
+        "prn",
+        "aux",
+        "nul",
+        *(f"com{n}" for n in range(1, 10)),
+        *(f"lpt{n}" for n in range(1, 10)),
+    }
+)
+
+
+def _blocked(part: str) -> bool:
+    if ":" in part:
+        return True
+    stem = part.split(".", 1)[0].rstrip(" .").lower()
+    return stem in _DEVICES
+
+
 
 class PathJail:
     """Join a relative path under one root. Absolute, UNC, and `..` refuse."""
@@ -36,6 +55,8 @@ class PathJail:
         parts = [part for part in norm.split("/") if part not in ("", ".")]
         if not parts or any(part == ".." for part in parts):
             raise Refuse("PATH", "dotdot")
+        if any(_blocked(part) for part in parts):
+            raise Refuse("PATH", "device or stream")
         out = self._root.joinpath(*parts).resolve()
         try:
             out.relative_to(self._root)

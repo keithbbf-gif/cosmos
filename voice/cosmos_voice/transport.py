@@ -12,7 +12,8 @@ import urllib.error
 import urllib.parse
 import urllib.request
 from collections.abc import Mapping
-from typing import Protocol
+from email.message import Message
+from typing import IO, NoReturn, Protocol
 
 from cosmos_voice.errors import VoiceError
 from cosmos_voice.redact import redact, secret_shape
@@ -27,6 +28,30 @@ _PUSH = "/api/v1/cvm/push"
 _KILL = "/api/v1/kill"
 _RESUME = "/api/v1/control/resume"
 _LOOP = "/api/v1/voice_loop"
+
+
+class _NoRedirect(urllib.request.HTTPRedirectHandler):
+    """A Location is not a second hop for the bearer.
+
+    The stdlib redirect handler copies Authorization and allows http.
+    A Core call is one URL. A 3xx is the response, not a new request.
+    """
+
+    def redirect_request(
+        self,
+        req: urllib.request.Request,
+        fp: IO[bytes],
+        code: int,
+        msg: str,
+        headers: Message,
+        newurl: str,
+    ) -> NoReturn:
+        raise urllib.error.HTTPError(req.full_url, code, msg, headers, fp)
+
+
+def _opener() -> urllib.request.OpenerDirector:
+    """Opener whose redirect handler is ``_NoRedirect``."""
+    return urllib.request.build_opener(_NoRedirect)
 
 
 class Transport(Protocol):
@@ -76,7 +101,7 @@ class UrllibTransport:
         """Send one request. ``URLError`` and timeouts become UNREACHABLE."""
         req = urllib.request.Request(url, data=body, headers=dict(headers), method=method)
         try:
-            with urllib.request.urlopen(req, timeout=timeout) as response:
+            with _opener().open(req, timeout=timeout) as response:
                 status = int(response.status)
                 raw = response.read()
         except urllib.error.HTTPError as exc:

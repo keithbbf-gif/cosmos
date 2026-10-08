@@ -196,6 +196,53 @@ def test_openai_maps_spoken_field() -> None:
     assert matched is True
 
 
+def test_vendor_key_refuses_a_base_that_is_not_https_or_wss() -> None:
+    """A key is not posted on cleartext, ws, or a URL with no scheme."""
+    secret = "vendor-test-key"
+    bases = (
+        "http://vendor.example/v1",
+        "HTTP://vendor.example/v1",
+        "ws://vendor.example/v1",
+        "ftp://vendor.example/v1",
+        "vendor.example/v1",
+    )
+    for base in bases:
+        transport = MemoryTransport([("POST", "/", 200, {"output": "no"})])
+        err = _raise(GrokVoiceDoor(secret, transport=transport, base=base))
+        assert err.kind == "BEARER_OVER_HTTP"
+        leaked = secret in str(err) or secret in err.detail
+        assert not leaked
+        assert transport.calls == []
+    transport = MemoryTransport([("POST", "/", 200, {"spoken": "no"})])
+    opened = open_door(
+        "openai",
+        api_key=secret,
+        transport=transport,
+        base="http://vendor.example/v1",
+    )
+    err = _raise(opened)
+    assert err.kind == "BEARER_OVER_HTTP"
+    assert transport.calls == []
+
+
+def test_empty_vendor_key_on_http_is_still_no_key() -> None:
+    """An empty key is NO_KEY before the scheme is checked."""
+    transport = MemoryTransport([("POST", "/", 200, {"output": "no"})])
+    err = _raise(GrokVoiceDoor("", transport=transport, base="http://vendor.example/v1"))
+    assert err.kind == "NO_KEY"
+    assert transport.calls == []
+
+
+def test_vendor_key_is_sent_on_https() -> None:
+    """https is an allowed scheme, so the injected transport still sees the post."""
+    secret = "vendor-https-key"
+    transport = MemoryTransport([("POST", "/v1", 200, {"output": "ok"})])
+    door = GrokVoiceDoor(secret, transport=transport, base="https://vendor.example/v1")
+    mapped = door.speak_turn("hello", _session())
+    assert mapped["spoken"] == "ok"
+    assert transport.calls[0][2].get("Authorization") == "Bearer " + secret
+
+
 def test_doors_do_not_open_sockets_or_read_env() -> None:
     """The door module does not import a socket stack or read the environment."""
 

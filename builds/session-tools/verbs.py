@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """Slice-2/3/4 verbs: convert, diff, check, anonymize, crash-recover, migrate, rebind."""
 from __future__ import annotations
 
@@ -11,19 +10,28 @@ from pathlib import Path
 
 from refusals import SessionToolsRefusal
 from schema import (
-    encode_jsonl, parse_jsonl, sha256_bytes, sha256_path, spans_ok,
+    encode_jsonl,
+    parse_jsonl,
+    sha256_bytes,
+    sha256_path,
+    spans_ok,
     write_canonical,
 )
 
-REPO = Path(__file__).resolve().parent.parent.parent
+
+def _stage_root(out_dir: Path | None, fallback: Path) -> Path:
+    """Aside copies live under the out dir's parent, the stage folder passed in."""
+    if out_dir is not None:
+        return Path(out_dir).parent
+    return Path(fallback).parent
 
 
-def _stage_existing(path: Path, force: bool) -> None:
+def _stage_existing(path: Path, force: bool, stage_root: Path) -> None:
     if not path.exists():
         return
     if not force:
         raise SessionToolsRefusal("OUT_EXISTS", str(path))
-    dest = REPO / "_delme" / "session-tools" / time.strftime("%Y%m%dT%H%M%S") / path.name
+    dest = Path(stage_root) / time.strftime("%Y%m%dT%H%M%S") / path.name
     dest.parent.mkdir(parents=True, exist_ok=True)
     shutil.copy2(path, dest)
 
@@ -37,7 +45,7 @@ def convert(load_fn, rec_id: str, store: Path, out_dir: Path, force: bool = Fals
             f"span_sum={span_sum} source.len={src_len}")
     payload = encode_jsonl(h, turns)
     jsonl = out_dir / f"{h['id']}.ctr.jsonl"
-    _stage_existing(jsonl, force)
+    _stage_existing(jsonl, force, _stage_root(out_dir, out_dir))
     written = write_canonical(out_dir, h["id"], payload)
     back = Path(written["jsonl"]).read_bytes()
     if back != payload:
@@ -107,7 +115,25 @@ def check_sqlite(path: Path) -> dict:
     return {"kind": "VERIFIED", "integrity_check": integ, "foreign_key_check": [], "n_session": n}
 
 
+def resolve_seed_root(root: Path) -> Path:
+    """The root the caller handed in. No install record, no other tree."""
+    return Path(root)
+
+
+def _require_seed_root(root: Path) -> None:
+    """NO_ROOT / NO_MAC before Kernel. A stat is not a read of the key or the MAC."""
+    root = Path(root)
+    sentinel = root / ".cosmos-root.json"
+    if not root.is_dir() or not sentinel.is_file():
+        raise SessionToolsRefusal("NO_ROOT", f"no COSMOS sentinel at {sentinel}")
+    keyfile = root / "config" / "install_key.bin"
+    if not keyfile.is_file():
+        raise SessionToolsRefusal("NO_MAC", f"no install key at {keyfile}")
+
+
 def check_seed(root: Path) -> dict:
+    root = resolve_seed_root(root)
+    _require_seed_root(root)
     import hmac
 
     from cosmos_kernel import Kernel
@@ -186,21 +212,24 @@ def anonymize(load_fn, rec_id: str, store: Path, out_dir: Path) -> dict:
 
 
 def crash_recover(target: Path, bak: Path | None, stage_root: Path) -> dict:
+    """Copy bak to a new file. The target bytes stay where they are."""
     if bak is None or not bak.is_file():
         raise SessionToolsRefusal("NO_BAK", str(target))
     before = target.read_bytes() if target.is_file() else b""
-    staged = stage_root / time.strftime("%Y%m%dT%H%M%S") / target.name
-    staged.parent.mkdir(parents=True, exist_ok=True)
+    aside = Path(stage_root) / time.strftime("%Y%m%dT%H%M%S")
+    aside.mkdir(parents=True, exist_ok=True)
+    staged = aside / target.name
     if target.is_file():
         shutil.copy2(target, staged)
     staged_sha = sha256_bytes(staged.read_bytes()) if staged.is_file() else sha256_bytes(b"")
     bak_sha = sha256_bytes(bak.read_bytes())
-    shutil.copy2(bak, target)
-    restored_sha = sha256_bytes(target.read_bytes())
+    recovered = aside / f"{target.name}.restored"
+    shutil.copy2(bak, recovered)
+    restored_sha = sha256_bytes(recovered.read_bytes())
     if restored_sha != bak_sha:
-        # put back staged
-        if staged.is_file():
-            shutil.copy2(staged, target)
+        raise SessionToolsRefusal("RESTORE_FAILED", str(recovered))
+    after = target.read_bytes() if target.is_file() else b""
+    if after != before:
         raise SessionToolsRefusal("RESTORE_FAILED", str(target))
     return {
         "kind": "OK",
@@ -209,6 +238,7 @@ def crash_recover(target: Path, bak: Path | None, stage_root: Path) -> dict:
         "staged_path": str(staged),
         "staged_sha": staged_sha,
         "restored_sha": restored_sha,
+        "restored_path": str(recovered),
         "before_len": len(before),
     }
 
@@ -235,9 +265,10 @@ def _in_666(rec_id: str, head_rec: dict, store: Path) -> bool:
         sid = str(r.get("session_id") or "")
         if sid and (sid == vid or rec_id == f"cow-{sid}" or vid == sid):
             return True
-        if str(r.get("seq") or "") and str(r.get("seq")) == str(alias.get("seq") or ""):
-            if sid == vid:
-                return True
+        seq = str(r.get("seq") or "")
+        alias_seq = str(alias.get("seq") or "")
+        if seq and seq == alias_seq and sid == vid:
+            return True
     return False
 
 
@@ -285,7 +316,7 @@ def migrate(load_fn, rec_id: str, store: Path, workspace_id: str | None,
         return plan | {"kind": "DRY_RUN", "dry_run": True}
     if not db.is_file():
         raise SessionToolsRefusal("NO_BAK", f"no opencode.db in {ws}")
-    stage = REPO / "_delme" / "session-tools" / "migrate" / time.strftime("%Y%m%dT%H%M%S")
+    stage = _stage_root(out_dir, directory) / "migrate" / time.strftime("%Y%m%dT%H%M%S")
     stage.mkdir(parents=True, exist_ok=True)
     bak = stage / "opencode.db"
     try:
@@ -395,10 +426,9 @@ def rebind(ses_id: str, directory: Path, workspace_id: str, *,
     sid = str(ses_id or "").strip()
     if not sid:
         raise SessionToolsRefusal("BAD_INPUT", "ses_id required")
-    if sid.startswith("ses_cow_") or sid.startswith("cow-") or sid.startswith("ow-ses_cow_"):
+    if sid.startswith(("ses_cow_", "cow-", "ow-ses_cow_")):
         raise SessionToolsRefusal("DO_NOT_REINGEST", sid)
-    if sid.startswith("ow-"):
-        sid = sid[3:]
+    sid = sid.removeprefix("ow-")
     if not workspace_id:
         raise SessionToolsRefusal("WORKSPACE_UNKNOWN", "--workspace-id required")
     if directory is None:
@@ -417,7 +447,7 @@ def rebind(ses_id: str, directory: Path, workspace_id: str, *,
         return plan | {"kind": "DRY_RUN", "dry_run": True}
     if not db.is_file():
         raise SessionToolsRefusal("NO_BAK", f"no opencode.db in {ws}")
-    stage = REPO / "_delme" / "session-tools" / "rebind" / time.strftime("%Y%m%dT%H%M%S")
+    stage = _stage_root(out_dir, directory) / "rebind" / time.strftime("%Y%m%dT%H%M%S")
     stage.mkdir(parents=True, exist_ok=True)
     bak = stage / "opencode.db"
     try:

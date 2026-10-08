@@ -99,7 +99,9 @@ def main(argv: list[str] | None = None) -> int:
         t = rec.get("text") or rec.get("detail") or ""
         print(t[:2000])
         print(rec.get("openwork") or "")
-    return 0 if rec.get("ok") else 2
+    # NO_SOURCE sets ok for an empty list. That is not an opened id.
+    opened = rec.get("kind") in ("OPENED", "NO_TRANSCRIPT", "TRANSCRIPT_UNREADABLE")
+    return 0 if rec.get("ok") and opened else 2
 
 
 if __name__ == "__main__":

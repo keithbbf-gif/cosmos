@@ -48,6 +48,7 @@
     this.inflight = false;
     this.timer = null;
     this.bind = this.opts.bind || "";
+    this.notice = "";
   }
 
   XTalkPage.prototype.tabOn = function () {
@@ -134,6 +135,10 @@
         empty.classList.remove("hidden");
         empty.innerHTML = "<div>UNMEASURED</div><div class=\"hint\">" + esc(this.err) + "</div>";
       }
+      if (verEl) {
+        verEl.textContent = "";
+        verEl.className = "tiny dim";
+      }
       if (errEl) errEl.textContent = this.err;
       return;
     }
@@ -144,7 +149,7 @@
       (rec.n == null ? "UNMEASURED" : rec.n) +
       (rec.seq != null ? " · seq " + rec.seq : "") +
       (rec.writable === false ? " · read-only" : "");
-    if (errEl) errEl.textContent = "";
+    if (errEl) errEl.textContent = this.notice || "";
     if (verEl) {
       var v = rec.verify || [];
       verEl.textContent = v.length ? v.join(" · ") : "";
@@ -183,7 +188,9 @@
     }
     if (empty) empty.classList.add("hidden");
     if (!log) return;
-    log.innerHTML = lines.map(function (row) {
+    var stale = log.querySelectorAll(".xt-turn");
+    for (var s = 0; s < stale.length; s++) stale[s].remove();
+    var html = lines.map(function (row) {
       row = row || {};
       var m = row.msg || {};
       return "<div class=\"xt-turn t-" + esc(row.transport || "") + "\">" +
@@ -191,6 +198,9 @@
         esc(m.from) + " → " + esc(m.to) + " · " + esc(row.transport) + "</span>" +
         "<div>" + esc(m.body) + "</div></div>";
     }).join("");
+    // #xtEmpty is a child of #xtLog. Do not replace the parent's innerHTML.
+    if (empty && empty.parentNode === log) empty.insertAdjacentHTML("beforebegin", html);
+    else log.insertAdjacentHTML("beforeend", html);
     log.scrollTop = log.scrollHeight;
   };
 
@@ -204,6 +214,7 @@
       self.err = "";
       self.paint();
     }).catch(function (e) {
+      self.notice = "";
       self.err = String(e && e.message || e);
       self.paint();
     }).then(function () { self.inflight = false; });
@@ -218,14 +229,18 @@
     var fromV = frm && frm.value ? String(frm.value).trim() : "captain";
     var toV = to && to.value ? String(to.value).trim() : "";
     if (!text || !toV) return;
+    this.notice = "";
     this.post("/api/v1/xtalk", { from: fromV, to: toV, body: text, role: "captain" })
       .then(function (rec) {
         if (body) body.value = "";
         if (rec && rec.kind === "DRY_RUN") {
-          self.err = "DRY_RUN A · " + (rec.harness || "") + " · no inject · no append";
-          self.paint();
+          // DRY_RUN is a notice, not a failed GET.
+          self.err = "";
+          self.notice = "DRY_RUN A · " + (rec.harness || "") + " · no inject · no append";
+          self.tick();
           return;
         }
+        self.notice = "";
         self.tick();
       })
       .catch(function (e) {

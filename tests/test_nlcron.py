@@ -17,7 +17,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "cosmos"))
 
 from cosmos_clock import plan_create, run_schtasks, tr_cmdline  # noqa: E402
-from cosmos_nlcron import NlcronError, parse_cadence, _selftest  # noqa: E402
+from cosmos_nlcron import NlcronError, _selftest, parse_cadence  # noqa: E402
 
 NLCRON_SRC = ROOT / "cosmos" / "cosmos_nlcron.py"
 FORBIDDEN_CALLS = frozenset({
@@ -81,6 +81,43 @@ def test_daily_0700_schtasks():
     )
     assert argv[argv.index("/sc") + 1] == "DAILY"
     assert argv[argv.index("/st") + 1] == "07:00"
+    # Backup cadence is the hour list 07/11/19/23, not a substring of HH.
+    assert parse_cadence("daily 11:00")["clocks"] == "COSMOS Backup"
+    assert parse_cadence("daily 19:00")["clocks"] == "COSMOS Backup"
+    assert parse_cadence("daily 23:00")["clocks"] == "COSMOS Backup"
+    for phrase in ("daily 07:30", "daily 11:45", "daily 19:01", "daily 08:00"):
+        rec_off = parse_cadence(phrase)
+        assert rec_off["mode"] == "schtasks", phrase
+        assert rec_off["clocks"] is None, phrase
+
+
+def test_schtasks_mo_ceilings():
+    # HOURLY /mo is 1..23. 24h and 48h are exact days, not HOURLY/24.
+    day = parse_cadence("every 24 hours")
+    assert day["mode"] == "schtasks"
+    assert day["interval_s"] == 86400.0
+    assert day["schtasks"] == {"sc": "DAILY", "mo": None, "st": None}
+    assert day["tr_extra"] == ("--once",)
+    assert day["clocks"] is None
+    assert parse_cadence("every 24h")["schtasks"] == day["schtasks"]
+    assert parse_cadence("every 1440 minutes")["schtasks"] == day["schtasks"]
+    assert parse_cadence("every 48 hours")["schtasks"] == {
+        "sc": "DAILY", "mo": 2, "st": None,
+    }
+    assert parse_cadence("every 23 hours")["schtasks"] == {
+        "sc": "HOURLY", "mo": 23, "st": None,
+    }
+    assert parse_cadence("every 1439 minutes")["schtasks"] == {
+        "sc": "minute", "mo": 1439, "st": None,
+    }
+    for phrase in ("every 25 hours", "every 1441 minutes",
+                   "every " + ("1" + "0" * 307) + "h"):
+        try:
+            parse_cadence(phrase)
+        except NlcronError as e:
+            assert e.kind == "UNRECOGNIZED", phrase
+        else:
+            raise AssertionError(phrase)
 
 
 def test_on_logon():
@@ -183,6 +220,7 @@ def main() -> int:
     test_every_5m_schtasks_minute()
     test_hourly_schtasks()
     test_daily_0700_schtasks()
+    test_schtasks_mo_ceilings()
     test_on_logon()
     test_garbage_unrecognized()
     test_no_silent_default()

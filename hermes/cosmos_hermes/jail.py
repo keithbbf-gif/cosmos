@@ -19,6 +19,26 @@ _DRIVE_RELATIVE = re.compile(r"^[A-Za-z]:([^/\\]|$)")
 _DRIVE_ROOT = re.compile(r"^[A-Za-z]:[/\\]?$")
 _FILE_URL = re.compile(r"^file:", re.IGNORECASE)
 _DRIVE_PREFIX = re.compile(r"^[A-Za-z]:")
+_DEVICES = frozenset(
+    {
+        "con",
+        "prn",
+        "aux",
+        "nul",
+        *(f"com{n}" for n in range(1, 10)),
+        *(f"lpt{n}" for n in range(1, 10)),
+    }
+)
+
+
+def _device(raw: str) -> bool:
+    for part in re.split(r"[/\\]", raw):
+        if part in ("", ".", ".."):
+            continue
+        stem = part.split(".", 1)[0].split(":")[0].rstrip(" .").lower()
+        if stem in _DEVICES:
+            return True
+    return False
 
 
 def _shape(raw: str) -> None:
@@ -47,6 +67,8 @@ def _shape(raw: str) -> None:
             continue
         if part.endswith(".") or part.endswith(" "):
             raise Refuse("TRAILING_DOT")
+    if _device(raw):
+        raise Refuse("DEVICE_PATH")
 
 
 class PathJail:

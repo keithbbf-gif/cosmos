@@ -111,6 +111,64 @@ def test_live_tree_refuses(tmp_path):
     assert word["decision"] == "allow"
 
 
+def test_shell_chain_is_not_an_allowlist_hit(tmp_path):
+    store = Store(tmp_path / "p")
+    for command in (
+        "git status && echo ok",
+        "git status || echo ok",
+        "git status; echo ok",
+        "git status | echo ok",
+        "git status & echo ok",
+        "git status `echo ok`",
+        "git status $(echo ok)",
+    ):
+        result = check_command(store, command=command, turbo=True)
+        assert result["decision"] == "needs_approval"
+        assert result["code"] == "APPROVAL"
+        assert result["detail"] == "shell chain"
+    destructive = check_command(store, command="git status && rm -rf /tmp/x", turbo=True)
+    assert destructive["code"] == "DESTRUCTIVE"
+    set_limits(store, deny=["curl"])
+    curl = check_command(store, command="pytest && curl https://example.com", turbo=True)
+    assert curl["code"] == "DENY"
+    assert curl["detail"] == "curl"
+    # Deny matches the substring del, including inside a later token such as model.
+    set_limits(store, deny=["del"])
+    substring = check_command(store, command="git status && echo model", turbo=True)
+    assert substring["code"] == "DENY"
+    assert substring["detail"] == "del"
+    assert check_command(store, command="git status", turbo=False)["code"] == "OK"
+
+
+def test_protected_push_dash_c_and_refspec(tmp_path):
+    store = Store(tmp_path / "p")
+    refused = (
+        "git -C repo push origin main",
+        "git push origin HEAD:main",
+        "git push origin refs/heads/main",
+        "git push origin refs/heads/master",
+    )
+    for command in refused:
+        result = check_command(store, command=command, turbo=True)
+        assert result["decision"] == "refuse"
+        assert result["code"] == "PROTECTED"
+    feature = check_command(store, command="git -C repo push origin feature", turbo=True)
+    assert feature["code"] == "APPROVAL"
+    message = check_command(store, command="git commit -m git push origin main", turbo=True)
+    assert message["code"] == "APPROVAL"
+
+
+def test_live_segment_refuses_children(tmp_path):
+    store = Store(tmp_path / "p")
+    child = check_command(store, command=r"type live\state", turbo=True)
+    assert child["code"] == "LIVE_TREE"
+    nested = check_command(store, command="rg needle work/live/notes")
+    assert nested["code"] == "LIVE_TREE"
+    ledger = check_command(store, command="type live/ledger")
+    assert ledger["code"] == "LIVE_TREE"
+    assert check_command(store, command="git log --grep live")["code"] == "OK"
+
+
 def test_limits_reject_newline_and_non_string(tmp_path):
     store = Store(tmp_path / "p")
     with pytest.raises(Refuse) as newline:

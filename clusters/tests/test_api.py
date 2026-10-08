@@ -194,7 +194,7 @@ def test_import_does_not_load_console():
     assert "clusters.console" not in sys.modules
 
 
-_CASES = (
+_CASES: tuple[tuple[str, str, dict[str, object] | None, str, dict[str, object]], ...] = (
     ("GET", "/v1/health", None, "health", {}),
     ("GET", "/v1/features", None, "features", {}),
     ("POST", "/v1/projects", {"name": "Demo", "root": "V:/work/demo"}, "create_project", {

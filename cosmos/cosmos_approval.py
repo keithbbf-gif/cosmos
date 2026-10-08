@@ -29,11 +29,11 @@ from __future__ import annotations
 
 import hashlib
 import json
-from pathlib import Path
 import re
 import secrets
 import time
 import unicodedata
+from pathlib import Path
 from typing import Callable, Optional
 
 SCHEMA = "cosmos-approval/1"
@@ -51,7 +51,10 @@ HARDLINE_RULES = (
     ("delete-outside-delme", ("file_delete",), None,
      "COSMOS never deletes: stage to _delme\\ (AGENT_BOUNDARIES item 4)"),
     ("shell-recursive-delete", ("shell",),
-     re.compile(r"\brm\s+-[a-z]*r[a-z]*f|\brm\s+-[a-z]*f[a-z]*r|\brmdir\s+/s\b|\bdel\s+/[sq]"
+     re.compile(r"\brm\s+-[a-z]*r[a-z]*f|\brm\s+-[a-z]*f[a-z]*r"
+                r"|\brm\b[^\n]*?(?:--recursive\b|-[a-z]*r\b)[^\n]*?(?:--force\b|-[a-z]*f\b)"
+                r"|\brm\b[^\n]*?(?:--force\b|-[a-z]*f\b)[^\n]*?(?:--recursive\b|-[a-z]*r\b)"
+                r"|\brmdir\s+/s\b|\bdel\s+/[sq]"
                 r"|remove-item\b[^\n]*-recurse|\bshred\b|\bsdelete\b", _I),
      "recursive delete from a shell - never delete, stage to _delme\\"),
     ("disk-destroy", ("shell",),
@@ -59,13 +62,14 @@ HARDLINE_RULES = (
                 r"|initialize-disk\b", _I),
      "disk-level destruction"),
     ("force-push", ("git", "shell"),
-     re.compile(r"\bgit\s+push\b[^\n]*(--force\b|--force-with-lease\b|\s-f\b)"
-                r"|\bgit\s+push\b[^\n]*\s\+\S+", _I),
+     re.compile(r"\bgit\b[^\n]*\bpush\b[^\n]*(--force\b|--force-with-lease\b|\s-f+\b)"
+                r"|\bgit\b[^\n]*\bpush\b[^\n]*\s\+\S+", _I),
      "force push rewrites shared history (CCR.md: do not force-push)"),
     ("pipe-to-interpreter", ("shell",),
      re.compile(r"(curl|wget|iwr|irm|invoke-webrequest|invoke-restmethod)\b[^\n|;]*\|\s*"
-                r"(sh|bash|zsh|python\d*|py|node|iex|invoke-expression|pwsh|powershell)\b"
-                r"|\biex\s*\(\s*(irm|iwr|invoke-restmethod|invoke-webrequest)\b", _I),
+                r"(?:sudo\s+)?(?:sh|bash|zsh|python\d*|py|node|iex|invoke-expression|pwsh|powershell)\b"
+                r"|\b(?:iex|invoke-expression)\s*\(\s*(?:irm|iwr|invoke-restmethod|invoke-webrequest)\b",
+                _I),
      "executes code fetched from the network"),
     ("encoded-command", ("shell",),
      re.compile(r"\b(powershell|pwsh)(\.exe)?\b[^\n]*\s-e(nc(odedcommand)?)?\s+[A-Za-z0-9+/=]{16,}"
@@ -92,7 +96,7 @@ HARDLINE_RULES = (
 )
 
 CONFIRM_RULES = (
-    ("git-push", ("git", "shell"), re.compile(r"\bgit\s+push\b", _I), "publishes commits"),
+    ("git-push", ("git", "shell"), re.compile(r"\bgit\b[^\n]*\bpush\b", _I), "publishes commits"),
     ("pr-merge", ("git", "shell"),
      re.compile(r"\b(gh|glab)\s+(pr|mr)\s+merge\b", _I), "merges a PR / MR"),
     ("package-install", ("install", "shell"),
@@ -154,7 +158,7 @@ def content_scan(a: dict) -> list[str]:
     """Findings that can only RAISE a class (Hermes' Tirith role)."""
     t = _text(a)
     found = []
-    if any(ch in t for ch in ("​", "‌", "‍", "⁠", "﻿")):
+    if any(ch in t for ch in ("\u200B", "\u200C", "\u200D", "\u2060", "\uFEFF")):
         found.append("zero-width characters hide text")
     if any(unicodedata.bidirectional(ch) in ("RLO", "LRO", "RLE", "LRE", "RLI", "LRI", "FSI")
            for ch in t):
@@ -167,9 +171,70 @@ def content_scan(a: dict) -> list[str]:
     return found
 
 
+def _for_rules(text: str) -> str:
+    """Text the rule regexes see. NFKC folds fullwidth lookalikes; format
+    characters (zero-width, bidi) are removed so they cannot hide a match.
+    content_scan still reads the raw action and can only raise the class."""
+    folded = unicodedata.normalize("NFKC", text)
+    return "".join(ch for ch in folded if unicodedata.category(ch) != "Cf")
+
+
+def _canon_principal(name: object) -> str:
+    text = unicodedata.normalize("NFKC", "" if name is None else str(name))
+    text = "".join(ch for ch in text if unicodedata.category(ch) != "Cf")
+    return text.strip()
+
+
+def _is_captain(name: object) -> bool:
+    return str("" if name is None else name).startswith("captain:")
+
+
+def _same_principal(a: object, b: object) -> bool:
+    left, right = _canon_principal(a), _canon_principal(b)
+    return bool(left) and left == right
+
+
+def _is_anchor(part: str) -> bool:
+    if part in ("/", "\\") or part.endswith(("/", "\\")):
+        return True
+    return len(part) == 2 and part[1] == ":" and part[0].isalpha()
+
+
+def _lexical_parts(path: str) -> list[str]:
+    raw = path
+    if raw.startswith("\\\\?\\UNC\\") or raw.startswith("//?/UNC/"):
+        raw = "\\\\" + raw[8:]
+    elif raw.startswith("\\\\?\\") or raw.startswith("//?/"):
+        raw = raw[4:]
+    out: list[str] = []
+    for part in Path(raw).parts:
+        if part == ".":
+            continue
+        if part == "..":
+            if out and not _is_anchor(out[-1]) and out[-1] != "..":
+                out.pop()
+            else:
+                out.append("..")
+            continue
+        out.append(part)
+    return out
+
+
 def _is_under_delme(path: str) -> bool:
-    parts = Path(path).resolve(strict=False).parts
-    return any(p.lower() == "_delme" for p in parts)
+    """True only when a lexical component is exactly the staging directory.
+
+    Path.resolve() is the wrong test: it uses the process cwd and follows
+    links, so one action dict changes class, and a path that does not name
+    the staging directory can look staged."""
+    if not path or "\x00" in path:
+        return False
+    try:
+        parts = _lexical_parts(path)
+    except (OSError, ValueError):
+        return False
+    if any(part == ".." for part in parts):
+        return False
+    return any(part.lower() == "_delme" for part in parts)
 
 
 class ApprovalGate:
@@ -187,17 +252,25 @@ class ApprovalGate:
             return s
         rid = p.get("request_id")
         if ev == "APPROVAL_REQUESTED":
-            s["requests"][rid] = {"principal": p["principal"], "action_sha": p["action_sha"],
-                                  "action": p["action"], "expires": p["expires"],
-                                  "state": "PENDING", "nonce_sha": None,
-                                  "class": p["class"]}
+            # First id wins. A replay must not reopen a consumed or denied request.
+            if rid not in s["requests"]:
+                s["requests"][rid] = {"principal": p["principal"], "action_sha": p["action_sha"],
+                                      "action": p["action"], "expires": p["expires"],
+                                      "state": "PENDING", "nonce_sha": None,
+                                      "class": p["class"]}
         elif ev == "APPROVAL_GRANTED" and rid in s["requests"]:
-            s["requests"][rid].update(state="GRANTED", nonce_sha=p["nonce_sha"],
-                                      approver=p["approver"], grant_expires=p["expires"])
+            row = s["requests"][rid]
+            if row["state"] == "PENDING":
+                row.update(state="GRANTED", nonce_sha=p["nonce_sha"],
+                           approver=p["approver"], grant_expires=p["expires"])
         elif ev == "APPROVAL_DENIED" and rid in s["requests"]:
-            s["requests"][rid].update(state="DENIED", approver=p["approver"])
+            row = s["requests"][rid]
+            if row["state"] == "PENDING":
+                row.update(state="DENIED", approver=p["approver"])
         elif ev == "APPROVAL_CONSUMED" and rid in s["requests"]:
-            s["requests"][rid]["state"] = "CONSUMED"
+            row = s["requests"][rid]
+            if row["state"] == "GRANTED":
+                row["state"] = "CONSUMED"
         elif ev == "APPROVAL_ALLOWLISTED":
             s["allow"].append({"principal": p["principal"], "kind": p["kind"],
                                "pattern": p["pattern"], "expires": p.get("expires"),
@@ -211,7 +284,7 @@ class ApprovalGate:
     # ---------------- classification ----------------
     def classify(self, action, principal: Optional[str] = None) -> dict:
         a = normalize_action(action)
-        t = _text(a)
+        t = _for_rules(_text(a))
         hits, why = [], []
         for rid, kinds, rx, reason in HARDLINE_RULES:
             if kinds is not None and a["kind"] not in kinds:
@@ -260,9 +333,7 @@ class ApprovalGate:
         a = normalize_action(action)
         c = self.classify(a, principal)
         if c["class"] == HARDLINE:
-            self.ledger.append("APPROVAL_REFUSED", {
-                "schema": SCHEMA, "principal": principal, "action_sha": c["action_sha"],
-                "kind": a["kind"], "rules": c["rules"], "at": self.clock()})
+            self._record_refusal(principal, a, c)
             raise ApprovalError("HARDLINE", "; ".join(c["why"]), rules=c["rules"])
         if c["class"] == ALLOW:
             return {"class": ALLOW, "request_id": None, "action_sha": c["action_sha"]}
@@ -284,9 +355,9 @@ class ApprovalGate:
         r = self._state()["requests"].get(request_id)
         if r is None:
             raise ApprovalError("NO_REQUEST", f"unknown request {request_id}")
-        if not str(approver).startswith("captain:"):
+        if not _is_captain(approver):
             raise ApprovalError("NOT_APPROVER", f"{approver} cannot approve - captain only")
-        if approver == r["principal"]:
+        if _same_principal(approver, r["principal"]):
             raise ApprovalError("SELF_APPROVAL", "a principal never approves its own request")
         if r["state"] != "PENDING":
             raise ApprovalError("ALREADY_DECIDED", f"{request_id} is {r['state']}")
@@ -295,25 +366,42 @@ class ApprovalGate:
         return r
 
     def grant(self, request_id: str, approver: str, grant_ttl_s: float = 120.0) -> str:
-        self._decidable(request_id, approver)
         nonce = secrets.token_urlsafe(18)
-        self.ledger.append("APPROVAL_GRANTED", {
-            "schema": SCHEMA, "request_id": request_id, "approver": approver,
-            "nonce_sha": _sha(nonce), "expires": self.clock() + grant_ttl_s,
-            "at": self.clock()})
+        nonce_sha = _sha(nonce)
+        ttl = float(grant_ttl_s)
+
+        def decide(_recs):
+            self._decidable(request_id, approver)
+            now = self.clock()
+            return ("APPROVAL_GRANTED", {
+                "schema": SCHEMA, "request_id": request_id, "approver": approver,
+                "nonce_sha": nonce_sha, "expires": now + ttl, "at": now})
+
+        self.ledger.append_guarded(decide)  # check and append share the lock
         return nonce
 
     def deny(self, request_id: str, approver: str, reason: str = "") -> None:
-        self._decidable(request_id, approver)
-        self.ledger.append("APPROVAL_DENIED", {
-            "schema": SCHEMA, "request_id": request_id, "approver": approver,
-            "reason": str(reason)[:300], "at": self.clock()})
+        def decide(_recs):
+            self._decidable(request_id, approver)
+            return ("APPROVAL_DENIED", {
+                "schema": SCHEMA, "request_id": request_id, "approver": approver,
+                "reason": str(reason)[:300], "at": self.clock()})
+
+        self.ledger.append_guarded(decide)
 
     def consume(self, request_id: str, nonce: str, principal: str, action) -> None:
         a = normalize_action(action)
         failure: dict = {}
 
         def decide(_recs):
+            c = self.classify(a)
+            if c["class"] == HARDLINE:
+                failure["e"] = ("HARDLINE", "; ".join(c["why"]))
+                failure["extra"] = {"rules": c["rules"]}
+                return ("APPROVAL_REFUSED", {
+                    "schema": SCHEMA, "principal": principal, "action_sha": c["action_sha"],
+                    "kind": a["kind"], "rules": c["rules"], "request_id": request_id,
+                    "at": self.clock()})
             r = self._state()["requests"].get(request_id)
             if r is None:
                 failure["e"] = ("NO_REQUEST", f"unknown request {request_id}")
@@ -335,7 +423,8 @@ class ApprovalGate:
                                           "principal": principal, "at": self.clock()})
         self.ledger.append_guarded(decide)       # single use: decided under the lock
         if failure:
-            raise ApprovalError(*failure["e"])
+            extra = failure.get("extra") or {}
+            raise ApprovalError(*failure["e"], **extra)
 
     def guard(self, principal: str, action, run: Callable[[], object], *,
               request_id: Optional[str] = None, nonce: Optional[str] = None):
@@ -350,15 +439,21 @@ class ApprovalGate:
                                 request_id=r["request_id"])
         c = self.classify(a, principal)
         if c["class"] == HARDLINE:          # a grant can never unlock HARDLINE
+            self._record_refusal(principal, a, c)
             raise ApprovalError("HARDLINE", "; ".join(c["why"]), rules=c["rules"])
         self.consume(request_id, nonce or "", principal, a)
         return run()
+
+    def _record_refusal(self, principal: str, action: dict, classified: dict) -> None:
+        self.ledger.append("APPROVAL_REFUSED", {
+            "schema": SCHEMA, "principal": principal, "action_sha": classified["action_sha"],
+            "kind": action["kind"], "rules": classified["rules"], "at": self.clock()})
 
     def allowlist(self, principal: str, kind: str, pattern: str, approver: str, *,
                   ttl_s: Optional[float] = None) -> None:
         """A standing ALLOW for a principal (session: ttl_s; permanent: None). Never
         covers HARDLINE or any CONFIRM rule - those are checked first."""
-        if not str(approver).startswith("captain:") or approver == principal:
+        if not _is_captain(approver) or _same_principal(approver, principal):
             raise ApprovalError("NOT_APPROVER", "only another captain principal allowlists")
         if kind not in KINDS:
             raise ApprovalError("BAD_ACTION", f"kind {kind!r}")

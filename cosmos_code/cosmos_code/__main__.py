@@ -63,11 +63,15 @@ def cmd_refuse_retry() -> int:
 
 
 def cmd_check(root: str) -> int:
-    from cosmos_code.checks4 import check_package, fails_of
+    from cosmos_code.checks4 import check_package, package_blocked
 
     rows = check_package(Path(root))
     print(json.dumps(rows, indent=1))
-    return 1 if fails_of(rows) else 0
+    reason = package_blocked(rows)
+    if reason:
+        print(reason, file=sys.stderr)
+        return 1
+    return 0
 
 
 def main(argv: list[str] | None = None) -> int:

@@ -2,11 +2,23 @@
 
 from __future__ import annotations
 
+import inspect
+import io
 import json
+import urllib.error
+import urllib.request
 from collections.abc import Callable
+from email.message import Message
+from typing import cast
 
 from cosmos_voice.errors import VoiceError
-from cosmos_voice.transport import CoreClient, MemoryTransport
+from cosmos_voice.transport import (
+    CoreClient,
+    MemoryTransport,
+    UrllibTransport,
+    _NoRedirect,
+    _opener,
+)
 
 
 def _raised(action: Callable[[], object]) -> VoiceError | None:
@@ -151,6 +163,46 @@ def test_script_pops_the_first_match_only() -> None:
     assert missed is not None
     assert missed.kind == "NOT_COMPOSED"
     assert len(transport.script) == 1
+
+
+def test_redirect_keeps_the_original_https_url() -> None:
+    """A 3xx is the response. The Location is not a second request."""
+    handler = _NoRedirect()
+    original = "https://core.example/api/v1/status"
+    req = urllib.request.Request(original, headers={"Authorization": "Bearer not-a-live-key"})
+    headers = Message()
+    headers["Location"] = "http://other.example/taken"
+    caught: urllib.error.HTTPError | None = None
+    try:
+        handler.redirect_request(
+            req,
+            io.BytesIO(b""),
+            302,
+            "Found",
+            headers,
+            "http://other.example/taken",
+        )
+    except urllib.error.HTTPError as exc:
+        caught = exc
+    assert caught is not None
+    assert caught.url == req.full_url
+    assert caught.url == original
+    assert caught.code == 302
+    assert caught.url.startswith("https://")
+    moved = "http://other.example/taken" in caught.url
+    assert moved is False
+
+
+def test_urllib_transport_does_not_follow_with_urlopen() -> None:
+    """The live transport uses the opener that refuses a redirect."""
+    source = inspect.getsource(UrllibTransport.request)
+    assert "urlopen" not in source
+    assert "_opener()" in source
+    installed = cast(list[object], getattr(_opener(), "handlers"))
+    found = [item for item in installed if isinstance(item, _NoRedirect)]
+    plain = [item for item in installed if type(item) is urllib.request.HTTPRedirectHandler]
+    assert len(found) == 1
+    assert plain == []
 
 
 def test_construct_does_not_call_the_transport() -> None:

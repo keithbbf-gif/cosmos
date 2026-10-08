@@ -180,6 +180,55 @@ def _loop(
     return loop, ear, modes, session, gate
 
 
+def _wake_loop(mouth: _Mouth, gate: ConfirmGate) -> DesktopLoop:
+    """A loop with the real confirm gate and the real wake machine."""
+    session = _Session()
+    owner = _Owner(capture=True, playback=True)
+    control = _Control(False)
+    return DesktopLoop(
+        mouth,
+        cast(VoiceSession, session),
+        gate,
+        cast(AudioOwner, owner),
+        cast(ControlView, control),
+        NullEngine(),
+        ModeMachine(),
+    )
+
+
+def test_wake_yes_confirms_the_phrase_after_the_wake_word() -> None:
+    """``hey cosmos yes`` matches yes on the stripped phrase and attaches the id."""
+    body: dict[str, object] = {"spoken": "done"}
+    mouth = _Mouth(body)
+    gate = ConfirmGate()
+    stored = gate.observe(
+        {"needs_confirm": True, "confirm_id": "cid-yes", "spoken": "Say yes."}
+    )
+    assert stored == "cid-yes"
+    loop = _wake_loop(mouth, gate)
+    result = loop.once(transcript="hey cosmos yes", mode="wake", held=False, now=3.0)
+    assert mouth.calls == [("yes", "cid-yes")]
+    assert gate.pending() is None
+    assert result.ok is True
+    assert result.kind == "spoken"
+    assert result.spoken == "done"
+
+
+def test_wake_no_cancels_the_phrase_after_the_wake_word() -> None:
+    """``hey cosmos no`` clears the pending id and does not call the mouth."""
+    mouth = _Mouth({"spoken": "nope"})
+    gate = ConfirmGate()
+    gate.observe({"needs_confirm": True, "confirm_id": "cid-no", "spoken": "Say yes."})
+    loop = _wake_loop(mouth, gate)
+    result = loop.once(transcript="hey cosmos no", mode="wake", held=False, now=4.0)
+    assert mouth.calls == []
+    assert gate.pending() is None
+    assert result.ok is True
+    assert result.kind == "cancelled"
+    assert result.spoken == "Cancelled."
+    assert result.confirm_id == ""
+
+
 def test_blocked_skips_mouth() -> None:
     """A blocked control returns CONTROL_BLOCKED and does not call the mouth."""
     mouth = _Mouth({"spoken": "nope"})

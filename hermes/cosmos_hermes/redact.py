@@ -11,13 +11,16 @@ _BEARER = re.compile(r"(?i)\bBearer\s+[A-Za-z0-9._\-]{8,}")
 _ASSIGN = re.compile(
     r"(?i)\b(api_key|apikey|token|secret|password|authorization)\b\s*[:=]\s*\S+"
 )
+_XAI = re.compile(r"(?i)(?<![A-Za-z0-9])xai-[A-Za-z0-9_\-]{8,}")
 
 
 def secret_shape(text: str) -> bool:
     """True when `text` carries a key-shaped substring."""
     if not isinstance(text, str):
         return False
-    return bool(_SK.search(text) or _BEARER.search(text) or _ASSIGN.search(text))
+    return bool(
+        _SK.search(text) or _BEARER.search(text) or _ASSIGN.search(text) or _XAI.search(text)
+    )
 
 
 def redact(text: str) -> str:
@@ -27,6 +30,7 @@ def redact(text: str) -> str:
     out = _ASSIGN.sub("[redacted-assignment]", text)
     out = _BEARER.sub("[redacted-bearer]", out)
     out = _SK.sub("[redacted-key]", out)
+    out = _XAI.sub("[redacted-key]", out)
     return out
 
 

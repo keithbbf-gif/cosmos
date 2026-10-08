@@ -1,14 +1,14 @@
 {
  "ok": true,
- "passed": 71,
- "total": 71,
+ "passed": 85,
+ "total": 85,
  "live_value": {
   "refusal_kinds": [
    "BAD_SEED",
    "IDENTITY_MISMATCH",
    "NO_DECL"
   ],
-  "checks": 71,
+  "checks": 85,
   "clock_id": 18,
   "scratch_state": "IDLE",
   "heartbeat": "resession_heartbeat.json"

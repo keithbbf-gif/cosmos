@@ -102,6 +102,19 @@ def test_write_files_reads_back_owner_mode(scratch: Path, monkeypatch: pytest.Mo
     assert scratch.resolve() in key_path.parents
 
 
+def test_write_files_refuses_secret_shaped_bearer(scratch: Path) -> None:
+    jail = PathJail(scratch)
+    shaped = "sk-" + ("a" * 12)
+    with pytest.raises(Refuse) as caught:
+        write_files(jail, shaped, bytes(32))
+    assert caught.value.code == "SECRET_SHAPE"
+    padded = "\n" + "xai-" + ("b" * 8) + " "
+    with pytest.raises(Refuse) as caught:
+        write_files(jail, padded, bytes(32))
+    assert caught.value.code == "SECRET_SHAPE"
+    assert list(scratch.iterdir()) == []
+
+
 def test_blank_token_and_bad_key_write_nothing(scratch: Path) -> None:
     jail = PathJail(scratch)
     good_key = bytes(32)

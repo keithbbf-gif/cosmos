@@ -22,10 +22,10 @@ import re
 import time
 from datetime import datetime, timezone
 from pathlib import Path
+from typing import Any
 
-from cosmos_resession import (
-    close_banner, cosmos_tu2, render_running_session, unique_stamp,
-    write_session_save)
+from cosmos_pause import classify_pause
+from cosmos_resession import close_banner, cosmos_tu2, render_running_session, unique_stamp, write_session_save
 from cosmos_rold_index import index_credential, index_seat, index_skill, lookup
 from cosmos_session_kit import load_kit
 
@@ -74,10 +74,12 @@ def redact(text: str) -> str:
 
 
 def ladder(kit: dict) -> tuple[tuple[float, ...], float]:
-    rs = kit.get("resession") if isinstance(kit.get("resession"), dict) else {}
+    raw_rs = kit.get("resession")
+    rs = raw_rs if isinstance(raw_rs, dict) else {}
     raw = rs.get("ask_pct") or DEFAULT_ASK
     ask = tuple(float(x) for x in raw)
-    force = float(rs.get("force_pct") if rs.get("force_pct") is not None else DEFAULT_FORCE)
+    force_raw = rs.get("force_pct")
+    force = float(DEFAULT_FORCE if force_raw is None else force_raw)
     if (not ask or list(ask) != sorted(ask) or len(set(canon_pct(x) for x in ask)) != len(ask)
             or any(not (0.0 < x < 1.0) for x in ask)
             or not (0.0 < force < 1.0) or ask[-1] >= force):
@@ -86,17 +88,27 @@ def ladder(kit: dict) -> tuple[tuple[float, ...], float]:
     return ask, force
 
 
+def _one_token(raw) -> int | None:
+    """A bool is not a count. An unparsable value is not a count."""
+    if isinstance(raw, bool) or raw in (None, ""):
+        return None
+    try:
+        return int(raw)
+    except (TypeError, ValueError):
+        return None
+
+
 def pct_from_heartbeat(hb: dict | None, window: int) -> float | None:
     if not isinstance(hb, dict):
         return None
-    tokens = hb.get("tokens_in")
-    if tokens not in (None, "") and window:
+    count = _one_token(hb.get("tokens_in"))
+    if count is not None and window:
         try:
-            return float(tokens) / float(window)
+            return float(count) / float(window)
         except (TypeError, ValueError, ZeroDivisionError):
-            return None
+            pass
     raw = hb.get("context_pct")
-    if raw in (None, ""):
+    if isinstance(raw, bool) or raw in (None, ""):
         return None
     try:
         got = float(raw)
@@ -120,17 +132,14 @@ def decide_rung(pct: float, ask: tuple[float, ...], force: float,
 
 
 def _token_count(tokens_in, heartbeat: dict | None) -> int | None:
-    raw = None
-    if isinstance(heartbeat, dict) and heartbeat.get("tokens_in") not in (None, ""):
+    if isinstance(heartbeat, dict):
         raw = heartbeat.get("tokens_in")
-    elif tokens_in not in (None, ""):
-        raw = tokens_in
-    if raw is None:
-        return None
-    try:
-        return int(raw)
-    except (TypeError, ValueError):
-        return None
+        got = _one_token(raw)
+        if got is not None:
+            return got
+        if raw not in (None, ""):
+            return _one_token(tokens_in)
+    return _one_token(tokens_in)
 
 
 def _close_tokens(rs: dict) -> int:
@@ -146,11 +155,12 @@ def _close_tokens(rs: dict) -> int:
 def next_action(kit: dict, tokens_in, *, declined: set[str],
                 compaction: bool = False, heartbeat: dict | None = None) -> dict:
     ask, _force = ladder(kit)
-    rs = kit.get("resession") or {}
-    if compaction and rs.get("on_compaction", True):
-        if canon_pct(ask[0]) not in declined:
-            return {"act": "ask", "pct": ask[0], "why": "compaction"}
+    raw_rs = kit.get("resession")
+    rs = raw_rs if isinstance(raw_rs, dict) else {}
     if not rs.get("on_token_count", True):
+        if compaction and rs.get("on_compaction", True):
+            if canon_pct(ask[0]) not in declined:
+                return {"act": "ask", "pct": ask[0], "why": "compaction"}
         return {"act": "idle", "pct": 0.0, "why": "token count off"}
     window = int(rs.get("window_tokens") or 0)
     if heartbeat is not None:
@@ -169,6 +179,9 @@ def next_action(kit: dict, tokens_in, *, declined: set[str],
             and pct >= (close_at / float(window))):
         return {"act": "force", "pct": close_at / float(window),
                 "why": "close at %d tokens" % close_at}
+    if compaction and rs.get("on_compaction", True):
+        if canon_pct(ask[0]) not in declined:
+            return {"act": "ask", "pct": ask[0], "why": "compaction"}
     if pct is None:
         return {"act": "idle", "pct": 0.0, "why": "no tokens"}
     for rung in ask:
@@ -307,10 +320,11 @@ def close_resession(paths, repo, *, stream: str, session_type: str = "",
                     kit: dict, reason: str, work: str = "",
                     closer=None, bu_dir: Path | None = None) -> dict:
     """TidyUP, then TidyUP2, then one BU file. Panes that are off are skipped."""
-    cos = kit.get("cos") if isinstance(kit.get("cos"), dict) else {}
+    raw_cos = kit.get("cos")
+    cos = raw_cos if isinstance(raw_cos, dict) else {}
     saves = paths.state("session_saves")
     pack = saves / _stamp(saves)
-    out = {"pack": str(pack), "steps": []}
+    out: dict[str, Any] = {"pack": str(pack), "steps": []}
     files: dict[str, str] = {}
     tu2_ok = None
     if cos.get("tidyup", True):
@@ -380,7 +394,7 @@ def autosave_tick(paths, session: dict, kit: dict | None = None,
     docs = {
         "SESSION.md": markdown,
         "session.json": record_text,
-        "running.toml": render_running_session(fields),
+        "running.toml": redact(render_running_session(fields)),
     }
     blobs = [_artifact(paths, name, raw.encode("utf-8"))
              for name, raw in docs.items()]
@@ -445,6 +459,10 @@ def record_session_beat(paths, beat: dict, *, now: float | None = None,
     if acted:
         merged["last_act_epoch"] = now_s
         merged.setdefault("spawned_at_epoch", now_s)
+    elif "last_act_epoch" in prev:
+        merged["last_act_epoch"] = prev["last_act_epoch"]
+    else:
+        merged.pop("last_act_epoch", None)
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(merged, indent=1, default=str), encoding="utf-8")
     return merged
@@ -670,7 +688,8 @@ def promote_inbox(paths, rold: Path | None = None, registry=None) -> dict:
     """Propose inbox skills. A thin note stays in state/skill_inbox."""
     from cosmos_skills import NAME_RE, SkillError, parse_skill
     inbox = paths.state("skill_inbox")
-    promoted, skipped = [], []
+    promoted: list[Any] = []
+    skipped: list[Any] = []
     if not inbox.is_dir():
         return {"promoted": promoted, "skipped": skipped}
     reg = registry if registry is not None else _registry(paths)
@@ -691,25 +710,41 @@ def promote_inbox(paths, rold: Path | None = None, registry=None) -> dict:
             if sk["name"] != child.name:
                 skipped.append({"slug": child.name, "why": "name"})
                 continue
-            promoted.append(_propose_body(
-                paths, text, rold=rold, registry=reg))
+            try:
+                promoted.append(_propose_body(
+                    paths, text, rold=rold, registry=reg))
+            except SessionProcedureError as e:
+                skipped.append({"slug": child.name, "why": e.kind})
             continue
         parsed = parse_skill_md(text)
         if not parsed["description"] or not parsed["steps"]:
             skipped.append({"slug": child.name, "why": "thin"})
             continue
-        promoted.append(save_skill(
-            paths, child.name, name=parsed["name"] or child.name,
-            description=parsed["description"], steps=parsed["steps"],
-            when=parsed["when"], rold=rold, registry=reg))
+        try:
+            promoted.append(save_skill(
+                paths, child.name, name=parsed["name"] or child.name,
+                description=parsed["description"], steps=parsed["steps"],
+                when=parsed["when"], rold=rold, registry=reg))
+        except SessionProcedureError as e:
+            skipped.append({"slug": child.name, "why": e.kind})
     return {"promoted": promoted, "skipped": skipped}
+
+
+def _pause_blocks(pause) -> bool:
+    """Hold and the TidyUP arm block the ladder.
+
+    An unrecognised mode fails closed to hold. resume_gate does not.
+    """
+    if not isinstance(pause, dict):
+        return False
+    return classify_pause(pause).get("class") in ("HOLD", "ARM")
 
 
 def preview_rung(paths, *, heartbeat: dict | None = None, pause: dict | None = None,
                 tokens_in=None, compaction: bool = False) -> dict:
     """Decide the rung. Writes nothing."""
     kit = load_kit(paths)
-    if isinstance(pause, dict) and str(pause.get("mode") or "").lower() == "hold":
+    if _pause_blocks(pause):
         return {"act": "hold", "why": "operator hold", "engaged": False}
     action = next_action(
         kit, tokens_in, declined=declined_set(read_ask(paths)),
@@ -724,7 +759,7 @@ def apply_rung(paths, repo, *, kit: dict, stream: str, session_type: str = "",
                closer=None, bu_dir: Path | None = None, pause: dict | None = None,
                rold: Path | None = None) -> dict:
     """Ask, record a decline, or engage the close. HOLD does none of those."""
-    if isinstance(pause, dict) and str(pause.get("mode") or "").lower() == "hold":
+    if _pause_blocks(pause):
         return {"act": "hold", "why": "operator hold", "engaged": False}
     declined = declined_set(read_ask(paths))
     action = next_action(
@@ -796,6 +831,31 @@ def _selftest() -> int:
           lambda: next_action(kit, 190000, declined=declined_all)["act"] == "force")
     check("compaction asks at the first rung",
           lambda: next_action(kit, 10, declined=set(), compaction=True)["why"] == "compaction")
+    check("compaction does not hold off the 190000 close",
+          lambda: next_action(kit, 190000, declined=set(), compaction=True)["act"] == "force"
+          and "190000" in next_action(
+              kit, 190000, declined=set(), compaction=True)["why"])
+    off = {"resession": {
+        "ask_pct": [0.75, 0.80, 0.85],
+        "force_pct": 0.92,
+        "close_tokens": 190000,
+        "window_tokens": 200000,
+        "on_compaction": True,
+        "on_token_count": False,
+    }}
+    check("token count off does not close",
+          lambda: next_action(off, 190000, declined=set())["why"] == "token count off"
+          and next_action(off, 10, declined=set(), compaction=True)["why"] == "compaction")
+    check("a bad token count uses context percent",
+          lambda: next_action(kit, None, declined=set(), heartbeat={
+              "tokens_in": "pending", "context_pct": 0.80})["act"] == "ask"
+          and next_action(kit, None, declined=set(), heartbeat={
+              "tokens_in": True, "context_pct": 0.80})["act"] == "ask")
+    check("a boolean context percent does not close",
+          lambda: next_action(kit, None, declined=set(), heartbeat={
+              "context_pct": True})["act"] == "idle")
+    check("a non-object resession does not crash",
+          lambda: next_action({"resession": []}, 10, declined=set())["act"] == "idle")
     check("a secret in the session text is redacted",
           lambda: "sk-live" not in redact("token sk-live-secret-value"))
 
@@ -821,6 +881,20 @@ def _selftest() -> int:
         tokens_in=190000, engage=True, closer=closer)
     check("operator hold does not close",
           lambda: held["act"] == "hold" and calls == [])
+    padded = apply_rung(
+        paths, repo, kit=kit, stream="Cm", reason="hold", pause={"mode": "hold "},
+        tokens_in=190000, engage=True, closer=closer)
+    unknown = apply_rung(
+        paths, repo, kit=kit, stream="Cm", reason="hold", pause={"mode": "siesta"},
+        tokens_in=190000, engage=True, closer=closer)
+    check("a padded or unknown pause does not close",
+          lambda: padded["act"] == "hold" and unknown["act"] == "hold" and calls == [])
+    running = preview_rung(
+        paths, pause={"state": "RUNNING", "mode": "hold"}, tokens_in=10)
+    gate = preview_rung(paths, pause={"mode": "resume_gate"}, tokens_in=190000)
+    check("resume_gate does not block the close line",
+          lambda: running["act"] != "hold" and gate["act"] == "force"
+          and gate["engaged"] is False)
     asked = apply_rung(
         paths, repo, kit=kit, stream="Cm", reason="ask", tokens_in=150000,
         engage=True, closer=closer)
@@ -902,17 +976,24 @@ def _selftest() -> int:
     thin = paths.state("skill_inbox", "thin-skill")
     thin.mkdir(parents=True)
     (thin / "SKILL.md").write_text("# Thin\n\nNo steps yet.\n", encoding="utf-8")
+    refused = paths.state("skill_inbox", "bad-wipe")
+    refused.mkdir(parents=True)
+    (refused / "SKILL.md").write_text(
+        "---\nname: bad-wipe\ndescription: A wipe must not be learned.\n---\n\n"
+        "```\nrm -rf /\n```\n",
+        encoding="utf-8")
     promoted = promote_inbox(paths, rold=rold)
     check("inbox promotion keeps a thin skill and saves a complete one",
           lambda: [row["slug"] for row in promoted["promoted"]] == ["pack-pointer"]
           and promoted["promoted"][0]["state"] == "PROPOSED"
-          and promoted["skipped"][0]["slug"] == "thin-skill"
+          and [row["slug"] for row in promoted["skipped"]] == ["bad-wipe", "thin-skill"]
+          and [row["why"] for row in promoted["skipped"]] == ["HARDLINE", "thin"]
           and not paths.state("skills", "active").exists())
     saved = autosave_tick(paths, {
         "sid": "Cm",
         "markdown": "aim sk-live-secret-value",
         "record": {"aim": "continue"},
-        "fields": {"state": "OPEN", "stream": "Cm"},
+        "fields": {"state": "OPEN", "stream": "Cm", "rail": "sk-live-secret-value"},
         "seats": [{"id": "openai/gpt-5.6-luna", "harness": "codex",
                    "path": str(seat_file)}],
         "credentials": [{"rail": "openrouter", "kind": "api_key_file",
@@ -921,6 +1002,7 @@ def _selftest() -> int:
     pack = Path(saved["pack"])
     from cosmos_packet import cas_dir
     session_md = (pack / "SESSION.md").read_text(encoding="utf-8")
+    running_toml = (pack / "running.toml").read_text(encoding="utf-8")
     cred_index = (rold / "credentials.toml").read_text(encoding="utf-8")
     auto = json.loads((pack / "AUTOSAVE.json").read_text(encoding="utf-8"))
     manifest = json.loads((pack / "MANIFEST.json").read_text(encoding="utf-8"))
@@ -928,6 +1010,7 @@ def _selftest() -> int:
     check("autosave redacts, stores an artifact, and indexes the seat",
           lambda: "sk-live" not in session_md
           and "[redacted]" in session_md
+          and "sk-live" not in running_toml
           and manifest["schema"] == "cosmos-session-save/1"
           and (cas_dir(paths) / sha).is_file()
           and not paths.state("artifacts").exists()
@@ -959,15 +1042,19 @@ def _selftest() -> int:
     saved_auto = maybe_autosave(
         paths, beat, now=5000.0, pid_alive=True, stale_s=180.0)
     auto_md = (Path(saved_auto["pack"]) / "SESSION.md").read_text(encoding="utf-8") if saved_auto else ""
-    again = maybe_autosave(
+    later = maybe_autosave(
         paths, {**beat, "dirty": True, "last_act_epoch": 5000.0},
         now=5060.0, pid_alive=True, stale_s=180.0)
     dead_save = maybe_autosave(
         paths, {**beat, "dirty": True, "last_act_epoch": 5000.0},
         now=5000.0, pid_alive=False, stale_s=180.0)
     check("a fresh dirty beat autosaves once",
-          lambda: saved_auto is not None and again is None and dead_save is None
+          lambda: saved_auto is not None and later is None and dead_save is None
           and "sk-live" not in auto_md and "[redacted]" in auto_md)
+    quiet = record_session_beat(
+        paths, {"last_act_epoch": 99999}, now=8000.0, acted=False)
+    check("a quiet beat does not move last_act_epoch",
+          lambda: quiet["last_act_epoch"] == 5000.0)
 
     failed = [label for label, ok, _err in results if not ok]
     for label, ok, err in results:

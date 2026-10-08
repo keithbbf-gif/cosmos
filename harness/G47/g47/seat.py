@@ -8,6 +8,7 @@ never says the agent is seated.
 
 from __future__ import annotations
 
+from collections.abc import Callable
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -33,8 +34,9 @@ JUDGE_WRAP = (
 )
 
 TOOLS = (
-    "read\nedit\nwrite\nglob\ngrep\nshell\narchive\n"
+    "read\nedit\nwrite\nglob\ngrep\narchive\n"
     "delete is not a tool\n"
+    "shell is not a tool\n"
 )
 
 LOOP = (
@@ -93,7 +95,7 @@ def _attempt_root(where: str | Path) -> Path:
     return Path(text)
 
 
-def seat_agent(agent_id: str, task: str, where: str | Path, call) -> dict[str, object]:
+def seat_agent(agent_id: str, task: str, where: str | Path, call: Callable[[Attempt], dict[str, object]]) -> dict[str, object]:
     """Run the seat loop on the call the caller supplied.
 
     ``call`` is required, so importing this module does not spend a provider

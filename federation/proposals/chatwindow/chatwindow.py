@@ -128,11 +128,11 @@ def redeem(nonce: Nonce, presented: str, now: int, remote: bool) -> Cookie:
         raise Refuse("REMOTE", "loopback only")
     if not isinstance(nonce, Nonce):
         raise Refuse("NONCE", "mismatch")
-    if (
-        not isinstance(presented, str)
-        or len(presented) != _NONCE_BYTES * 2
-        or not const_eq(nonce.code, presented)
-    ):
+    if not isinstance(presented, str):
+        raise Refuse("NONCE", "mismatch")
+    same = len(presented) == len(nonce.code)
+    # Wrong length still runs a compare, against the stored code only.
+    if not const_eq(nonce.code, presented if same else nonce.code) or not same:
         raise Refuse("NONCE", "mismatch")
     if nonce._use.spent:
         raise Refuse("NONCE_USED", "replay")

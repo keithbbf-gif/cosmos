@@ -58,8 +58,8 @@ def effective_rate(coordinated_usd: float, brackets: Optional[List[List]] = None
 def free_allowance_remaining(coordinated_usd: float, brackets: Optional[List[List]] = None) -> float:
     """Dollars of coordinated spend still inside the 0% band this month."""
     first = _brackets(brackets)[0]
-    floor, ceiling, rate = first
-    if rate != 0.0:
+    _floor, ceiling, rate = first
+    if rate != 0.0 or ceiling is None:
         return 0.0
     return max(0.0, ceiling - max(0.0, float(coordinated_usd)))
 

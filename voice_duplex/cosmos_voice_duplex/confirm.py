@@ -12,6 +12,7 @@ plus the confirm id, which is what ``VoiceMode.handle`` binds the nonce to.
 
 from __future__ import annotations
 
+import string
 from dataclasses import dataclass
 from typing import Protocol
 
@@ -73,7 +74,9 @@ class GateResult:
 
 def first_word(text: str) -> str:
     parts = text.split()
-    return parts[0].lower() if parts else ""
+    if not parts:
+        return ""
+    return parts[0].strip(string.punctuation).lower()
 
 
 def normalize(text: str) -> str:

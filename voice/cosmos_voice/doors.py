@@ -7,6 +7,7 @@ A vendor key is sent only as an Authorization header, never in an error detail.
 from __future__ import annotations
 
 import json
+import urllib.parse
 from typing import cast
 
 from cosmos_voice.errors import VoiceError
@@ -82,6 +83,13 @@ def _mapped(body: dict[str, object], brain: str) -> dict[str, object]:
     return mapped
 
 
+def _secret_url(base: str) -> None:
+    """A vendor key is not sent on cleartext or on a URL with no scheme."""
+    scheme = urllib.parse.urlsplit(base).scheme.lower()
+    if scheme not in {"https", "wss"}:
+        raise VoiceError("BEARER_OVER_HTTP", "refused on cleartext http")
+
+
 def _vendor_turn(
     *,
     api_key: str,
@@ -100,6 +108,7 @@ def _vendor_turn(
 
     if not api_key.strip():
         raise VoiceError("NO_KEY")
+    _secret_url(base)
     if transport is None:
         raise VoiceError("NOT_COMPOSED")
     headers = {

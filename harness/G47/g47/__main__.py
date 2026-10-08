@@ -13,6 +13,7 @@ from g47.contracts import Legend, OutputContract
 from g47.doctor import report
 from g47.grade import grade
 from g47.locate import write_local
+from g47.refuse import Refuse
 from g47.seat import seat
 from g47.summon import plan
 
@@ -63,11 +64,20 @@ def main(argv: list[str] | None = None) -> int:
         sys.stdout.write("\n")
         return 0
     if args.cmd == "doctor":
-        json.dump(report(), sys.stdout, indent=1)
+        try:
+            rows = report()
+        except Refuse as exc:
+            print(f"{exc.reason}: {exc.detail}", file=sys.stderr)
+            return 2
+        json.dump(rows, sys.stdout, indent=1)
         sys.stdout.write("\n")
         return 0
     if args.cmd == "locate":
-        dest = write_local()
+        try:
+            dest = write_local()
+        except Refuse as exc:
+            print(f"{exc.reason}: {exc.detail}", file=sys.stderr)
+            return 2
         sys.stdout.write(str(dest) + "\n")
         return 0
     if args.cmd == "grade":

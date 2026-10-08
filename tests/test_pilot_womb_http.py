@@ -99,14 +99,21 @@ def main() -> int:
         check("GET womb board does not mkdir",
               not (root / "state" / "crew_pipe").exists())
 
-        for path in ("/api/v1/seats?stream=Cm", "/api/v1/chamber?room=Cm"):
-            code, rec = _call(port, "GET", path)
-            check("501 " + path.split("?")[0],
-                  code == 501 and rec.get("kind") == "UNMEASURED",
-                  "status={} kind={}".format(code, rec.get("kind")))
-        code, rec = _call(port, "POST", "/api/v1/approvals/grant", {"id": "x"})
-        check("POST approvals/grant is 501 UNMEASURED",
+        code, rec = _call(port, "GET", "/api/v1/seats?stream=Cm")
+        check("GET seats stays 501",
               code == 501 and rec.get("kind") == "UNMEASURED",
+              "status={} kind={}".format(code, rec.get("kind")))
+        code, rec = _call(port, "GET", "/api/v1/chamber?room=Cm")
+        check("GET chamber snapshot is 200",
+              code == 200 and rec.get("kind") == "UNMEASURED",
+              "status={} kind={}".format(code, rec.get("kind")))
+        code, rec = _call(port, "POST", "/api/v1/chamber", {"room": "Cm"})
+        check("POST chamber stays 501",
+              code == 501 and rec.get("kind") == "UNMEASURED",
+              "status={} kind={}".format(code, rec.get("kind")))
+        code, rec = _call(port, "POST", "/api/v1/approvals/grant", {"id": "x"})
+        check("POST approvals/grant without bearer is 401",
+              code == 401 and rec.get("kind") == "NO_BEARER",
               "status={} kind={}".format(code, rec.get("kind")))
 
         code, rec = _call(port, "GET", "/api/v1/womb/seat")

@@ -127,9 +127,32 @@ def _f(v):
     if v is None or v == "":
         return None
     try:
-        return float(v)
+        n = float(v)
     except (TypeError, ValueError):
         return None
+    if n != n or n == float("inf") or n == float("-inf"):
+        return None
+    return n
+
+
+def _error_mag(v):
+    """1–10 or omitted. NaN and non-numbers are BAD_INPUT, not a silent omit."""
+    if v is None or v == "":
+        return None
+    try:
+        em = float(v)
+    except (TypeError, ValueError):
+        raise PorosityError(
+            "BAD_INPUT", "error_mag must be 1–10 or omitted")
+    if em != em or em < 1 or em > 10:
+        raise PorosityError(
+            "BAD_INPUT", "error_mag must be 1–10 or omitted")
+    return em
+
+
+def _disagreed(value) -> bool:
+    """JSONL disagree bit. Fold and the sqlite projection use one predicate."""
+    return value in (True, 1, "1", "true", "yes")
 
 
 def _flag(v, name: str) -> bool:
@@ -282,7 +305,7 @@ def _fold_rows(rows: list[dict]) -> dict[tuple[str, str, str], dict]:
                     "rescue_lo_hi": 0, "rescue_hi_lo": 0}
             acc[key] = slot
         slot["n"] += 1
-        disc = o.get("disagree") in (True, 1, "1", "true", "yes")
+        disc = _disagreed(o.get("disagree"))
         if disc:
             slot["disagree_n"] += 1
         em = _f(o.get("error_mag"))
@@ -388,7 +411,7 @@ def _fold_compare(rows: list[dict]) -> dict[tuple, dict]:
                     "style_n": 0, "rescue_lo_hi": 0, "rescue_hi_lo": 0}
             acc[key] = slot
         slot["n"] += 1
-        if o.get("disagree") in (True, 1, "1", "true", "yes"):
+        if _disagreed(o.get("disagree")):
             slot["disagree_n"] += 1
         em = _f(o.get("error_mag"))
         if em is not None:
@@ -400,7 +423,7 @@ def _fold_compare(rows: list[dict]) -> dict[tuple, dict]:
         slot["scored_n"] += 1
         if cell == "none":
             slot["none_n"] += 1
-            if o.get("disagree") in (True, 1, "1", "true", "yes"):
+            if _disagreed(o.get("disagree")):
                 slot["style_n"] += 1
         elif cell == "both":
             slot["both_n"] += 1
@@ -453,19 +476,27 @@ def compare_snapshot(paths, *, judge="", axis="", mistake_type="",
     """Comparison cells. Does not pool co-variables. GET never mkdir."""
     rows = load_obs(paths)
     folds = _fold_compare(rows)
+    # Match record_pair's stored form. Axis is stripped and lowercased;
+    # the other co-variables are only truncated.
+    judge_q = str(judge or "")[:80]
+    axis_q = str(axis or "").strip().lower()[:80]
+    mistake_q = str(mistake_type or "")[:80]
+    size_q = str(prompt_size or "")[:40]
+    complex_q = str(complexity or "")[:40]
+    diff_q = str(difficulty or "")[:40]
     cells = []
     for f in folds.values():
-        if judge and f["judge"] != judge:
+        if judge_q and f["judge"] != judge_q:
             continue
-        if axis and f["axis"] != axis:
+        if axis_q and f["axis"] != axis_q:
             continue
-        if mistake_type and f["mistake_type"] != mistake_type:
+        if mistake_q and f["mistake_type"] != mistake_q:
             continue
-        if prompt_size and f["prompt_size"] != prompt_size:
+        if size_q and f["prompt_size"] != size_q:
             continue
-        if complexity and f["complexity"] != complexity:
+        if complex_q and f["complexity"] != complex_q:
             continue
-        if difficulty and f["difficulty"] != difficulty:
+        if diff_q and f["difficulty"] != diff_q:
             continue
         cells.append(f)
     cells.sort(key=lambda c: (
@@ -501,9 +532,11 @@ def _pair_cost(a: str, b: str, costs: dict) -> float | None:
 def recommend_call(paths, models, costs=None, *, k=2, judge="", axis="",
                    mistake_type="", prompt_size="", complexity="",
                    difficulty="") -> dict:
-    """Which pair / three to call. Coverage first, then orth, then cheap.
+    """Which pair / three to call. Coverage per dollar, then orth, then coverage.
 
     UNMEASURED pairs are skipped, never zero-filled. k=2 pair, k=3 greedy.
+    One pair can have several co-variable cells. Those cells arrive best-first.
+    Keep the first. Do not let a later bucket replace it.
     """
     pins = []
     seen = set()
@@ -522,7 +555,10 @@ def recommend_call(paths, models, costs=None, *, k=2, judge="", axis="",
     for c in snap["cells"]:
         if c["kind"] != "MEASURED" or c.get("coverage") is None:
             continue
-        by[(c["model_a"], c["model_b"])] = c
+        key = (c["model_a"], c["model_b"])
+        if key in by:
+            continue
+        by[key] = c
         by[(c["model_b"], c["model_a"])] = c
 
     def cell(a, b):
@@ -642,17 +678,36 @@ def record_hit_vectors(paths, hits: dict, *, judge="", axis="coding",
     """Store one hole-string per model. Each coordinate is a scored trial.
 
     hits = {model: '++--...'}. '+' right, '-' wrong. Expands to pairwise
-    who_erred. Does not invent scores.
+    who_erred. Does not invent scores. Validates every pin before the
+    first append so a later refusal cannot leave a partial log.
     """
-    names = [str(m).strip() for m in (hits or {}) if str(m).strip()]
-    if len(names) < 2:
+    if not isinstance(hits, dict):
         raise PorosityError("BAD_INPUT", "hit vectors need two named models")
-    n = len(str(hits[names[0]] or ""))
-    if n < 1 or any(len(str(hits[m] or "")) != n for m in names):
+    ordered: list[tuple[str, str]] = []
+    seen: set[str] = set()
+    for raw, bits in hits.items():
+        name = str(raw or "").strip()
+        if not name:
+            continue
+        if name in seen:
+            raise PorosityError("REFUSED", "pair requires two distinct models")
+        seen.add(name)
+        text = str(bits if bits is not None else "")
+        if any(ch not in "+-" for ch in text):
+            raise PorosityError(
+                "BAD_INPUT", "hit strings must use only + and -")
+        ordered.append((name, text))
+    if len(ordered) < 2:
+        raise PorosityError("BAD_INPUT", "hit vectors need two named models")
+    n = len(ordered[0][1])
+    if n < 1 or any(len(text) != n for _, text in ordered):
         raise PorosityError("BAD_INPUT", "hit strings must be the same length")
+    pinned = [(_pin(name), text) for name, text in ordered]
+    names = [name for name, _ in pinned]
+    em = _error_mag(error_mag)
     written = 0
     for k in range(n):
-        bits = {m: str(hits[m])[k] for m in names}
+        bits = {name: text[k] for name, text in pinned}
         for i in range(len(names)):
             for j in range(i + 1, len(names)):
                 a, b = names[i], names[j]
@@ -667,7 +722,7 @@ def record_hit_vectors(paths, hits: dict, *, judge="", axis="coding",
                     who, disc = "a", True
                 record_pair(
                     paths, a, b, axis=axis, disagree=disc,
-                    error_mag=error_mag, profile=profile,
+                    error_mag=em, profile=profile,
                     trial_id=f"{trial_id}:{k}",
                     who_erred=who, source=source,
                     authority=judge, action="hit-vector",
@@ -762,7 +817,7 @@ def _rebuild_sqlite(paths, rows: list[dict]) -> None:
                 (
                     o.get("at"), o.get("trial_id"), o.get("profile"),
                     o.get("stage"), o.get("axis"), a, b, lo, hi,
-                    1 if o.get("disagree") in (True, 1, "1", "true") else 0,
+                    1 if _disagreed(o.get("disagree")) else 0,
                     em, _f(o.get("tokens_a")), _f(o.get("tokens_b")),
                     o.get("who_erred") or "", o.get("source") or "local",
                     (o.get("authority") or "")[:80],
@@ -823,9 +878,7 @@ def record_pair(paths, model_a, model_b, *, axis="", disagree=True,
     who = str(who_erred or "").strip().lower()
     if who not in WHO_OK:
         raise PorosityError("BAD_INPUT", f"unknown who_erred {who_erred!r}")
-    em = _f(error_mag)
-    if em is not None and (em < 1 or em > 10):
-        raise PorosityError("BAD_INPUT", "error_mag must be 1–10 or omitted")
+    em = _error_mag(error_mag)
     disc = _flag(disagree, "disagree")
     rec = {
         "schema": SCHEMA,
@@ -856,17 +909,20 @@ def record_pair(paths, model_a, model_b, *, axis="", disagree=True,
     d = store_dir(paths)
     d.mkdir(parents=True, exist_ok=True)
     line = json.dumps(rec, ensure_ascii=False) + "\n"
+    # Hold the lock through the projection rebuild. Releasing it after the
+    # append lets a slower writer rebuild sqlite from a stale row list and
+    # drop a line that is already in the JSONL authority.
     with _OBS_LOCK:
         with obs_path(paths).open("a", encoding="utf-8") as fh:
             fh.write(line)
             fh.flush()
             os.fsync(fh.fileno())
-    rows = load_obs(paths)
-    _rebuild_sqlite(paths, rows)
-    snap = snapshot(paths, profile=rec["profile"])
-    snap["last"] = rec
-    key = (lo, hi, ax)
-    snap["fold"] = _fold_rows(rows).get(key)
+        rows = load_obs(paths)
+        _rebuild_sqlite(paths, rows)
+        snap = snapshot(paths, profile=rec["profile"])
+        snap["last"] = rec
+        key = (lo, hi, ax)
+        snap["fold"] = _fold_rows(rows).get(key)
     return snap
 
 
@@ -897,9 +953,18 @@ def hook_trial(paths, runs, *, profile="forge", stage="", axis="",
     skipped = 0
     stamp_action = str(action or "trial")[:40]
     stamp_auth = str(authority or "")[:80]
-    for i in range(len(rows)):
-        for j in range(i + 1, len(rows)):
-            a, b = rows[i], rows[j]
+    n_runs = len(rows)
+    distinct_rows = []
+    seen_models: set[str] = set()
+    for row in rows:
+        if row["model"] in seen_models:
+            skipped += 1
+            continue
+        seen_models.add(row["model"])
+        distinct_rows.append(row)
+    for i in range(len(distinct_rows)):
+        for j in range(i + 1, len(distinct_rows)):
+            a, b = distinct_rows[i], distinct_rows[j]
             if a["model"] == b["model"]:
                 skipped += 1
                 continue
@@ -919,7 +984,7 @@ def hook_trial(paths, runs, *, profile="forge", stage="", axis="",
     return {
         "schema": SCHEMA,
         "ok": True,
-        "n_runs": len(rows),
+        "n_runs": n_runs,
         "n_written": len(written),
         "n_skipped_same": skipped,
         "kind": "UNMEASURED" if not written else "OK",
@@ -1001,17 +1066,18 @@ def recommend(paths, seated, candidates, *, axes=None, costs=None,
                 if use_c and f.get("complement_kind") == "MEASURED":
                     rsc = _rescue_of(f, c, s)
                     cf = f.get("cofail")
-                    if rsc is None and cf is None:
+                    # Directed rescue can be UNMEASURED even when cofail is
+                    # scored. Do not treat that None as 0. Fall back to |v|.
+                    if rsc is not None and cf is not None:
+                        w = f.get("mean_err")
+                        if w is None:
+                            w = 1.0
+                        term = (rsc - cf) * w
+                        unmeasured = False
+                        score += term
+                        n_term += 1
+                        used = "complement"
                         continue
-                    w = f.get("mean_err")
-                    if w is None:
-                        w = 1.0
-                    term = ((0.0 if rsc is None else rsc) - (0.0 if cf is None else cf)) * w
-                    unmeasured = False
-                    score += term
-                    n_term += 1
-                    used = "complement"
-                    continue
                 if f.get("mag") is None:
                     continue
                 unmeasured = False
@@ -1207,6 +1273,7 @@ def snapshot(paths, *, profile: str = "", agents=None) -> dict:
 
 def _selftest() -> int:
     import tempfile
+
     from cosmos_kernel import install
     from cosmos_paths import CosmosPaths
 
@@ -1480,6 +1547,14 @@ def _selftest() -> int:
           and abs(cd["coverage"] - 0.9) < 1e-9
           and pair["kind"] == "MEASURED"
           and set(pair["call"]) == {"cmp/C", "cmp/D"})
+    cased = compare_snapshot(paths2, judge="luna", axis="Coding")
+    check("compare axis filter uses the stored lowercase axis",
+          lambda: cased["n_measured"] >= 1
+          and any(cell["axis"] == "coding" for cell in cased["cells"]))
+    pair_cased = recommend_call(
+        paths2, list(hits), costs, k=2, judge="luna", axis="Coding")
+    check("recommend_call axis filter is case-insensitive",
+          lambda: set(pair_cased.get("call") or []) == {"cmp/C", "cmp/D"})
     check("three-call is B+C+D; expensive A stays on the bench",
           lambda: set(three["call"]) == {"cmp/B", "cmp/C", "cmp/D"}
           and "cmp/A" not in three["call"])
@@ -1505,7 +1580,133 @@ def _selftest() -> int:
           lambda: all(o.get("error_mag") is None for o in load_obs(paths3))
           and all(f.get("mag") is None for f in _fold_rows(load_obs(paths3)).values()))
 
-    failed = [(l, e) for l, ok, e in results if not ok]
+    td4 = Path(tempfile.mkdtemp(prefix="cosmos_porosity_bug_"))
+    root4 = install(td4 / "live", tree_id="spike-porobug")
+    paths4 = CosmosPaths(root4)
+    nan_bad = False
+    try:
+        record_pair(paths4, "n/a", "n/b", error_mag=float("nan"))
+    except PorosityError as e:
+        nan_bad = e.kind == "BAD_INPUT"
+    nope_bad = False
+    try:
+        record_pair(paths4, "n/c", "n/d", error_mag="nope")
+    except PorosityError as e:
+        nope_bad = e.kind == "BAD_INPUT"
+    check("error_mag NaN or garbage is BAD_INPUT and does not create obs",
+          lambda: nan_bad and nope_bad and not obs_path(paths4).exists())
+
+    record_pair(
+        paths4, "ov/a", "ov/b", axis="coding", disagree=True, error_mag=5,
+        who_erred="a", judge="luna", difficulty="hard",
+    )
+    record_pair(
+        paths4, "ov/a", "ov/b", axis="coding", disagree=False, error_mag=5,
+        who_erred="both", judge="luna", difficulty="easy",
+    )
+    record_pair(
+        paths4, "ov/a", "ov/c", axis="coding", disagree=False, error_mag=5,
+        who_erred="both", judge="luna", difficulty="hard",
+    )
+    record_pair(
+        paths4, "ov/a", "ov/c", axis="coding", disagree=True, error_mag=5,
+        who_erred="a", judge="luna", difficulty="hard",
+    )
+    call_best = recommend_call(
+        paths4, ["ov/a", "ov/b", "ov/c"],
+        {"ov/a": 1.0, "ov/b": 1.0, "ov/c": 1.0},
+        k=2, judge="luna", axis="coding",
+    )
+    check("recommend_call keeps the best co-variable cell, not the last",
+          lambda: call_best.get("call") == ["ov/a", "ov/b"])
+
+    record_pair(
+        paths4, "vendor/seat", "vendor/zz-wrong",
+        axis="coding", disagree=True, error_mag=8, who_erred="b",
+    )
+    ranked_miss = recommend(
+        paths4, seated=["vendor/seat"], candidates=["vendor/zz-wrong"],
+        axes=["coding"], mode="complement",
+    )
+    check("missing rescue is not zero-filled; complement falls back to mag",
+          lambda: ranked_miss
+          and ranked_miss[0]["via_tensor"] == "mag"
+          and ranked_miss[0]["kind"] == "MEASURED"
+          and ranked_miss[0]["score"] == 8.0)
+
+    long_j = "j" * 81
+    record_pair(
+        paths4, "ax/c", "ax/d", axis="coding", disagree=True, error_mag=5,
+        who_erred="a", judge=long_j,
+    )
+    snap_j = compare_snapshot(paths4, judge=long_j, axis="coding")
+    check("compare judge filter uses the stored 80-char judge",
+          lambda: any(
+              {cell["model_a"], cell["model_b"]} == {"ax/c", "ax/d"}
+              for cell in snap_j["cells"]))
+
+    raw_yes = {
+        "model_a": "y/a", "model_b": "y/b", "axis": "task",
+        "disagree": "yes", "who_erred": "", "error_mag": 4,
+    }
+    with obs_path(paths4).open("a", encoding="utf-8") as fh:
+        fh.write(json.dumps(raw_yes) + "\n")
+    yes_rows = load_obs(paths4)
+    _rebuild_sqlite(paths4, yes_rows)
+    yes_fold = _fold_rows(yes_rows)
+    yes_key = next(
+        k for k, f in yes_fold.items()
+        if {f["model_a"], f["model_b"]} == {"y/a", "y/b"})
+    con = sqlite3.connect(str(db_path(paths4)))
+    try:
+        yes_sql = con.execute(
+            "SELECT disagree FROM obs WHERE model_a=? AND model_b=?",
+            ("y/a", "y/b"),
+        ).fetchone()
+    finally:
+        con.close()
+    check("sqlite disagree matches the fold for disagree=yes",
+          lambda: yes_fold[yes_key]["disagree_n"] == 1
+          and yes_sql is not None and yes_sql[0] == 1)
+
+    before_bad = len(load_obs(paths4))
+    rot_hit = False
+    try:
+        record_hit_vectors(
+            paths4, {"aa/a": "+", "aa/b": "-", "openrouter/free": "+"},
+        )
+    except PorosityError as e:
+        rot_hit = e.kind == "REFUSED"
+    bad_ch = False
+    try:
+        record_hit_vectors(paths4, {"h/a": "+0", "h/b": "+-"})
+    except PorosityError as e:
+        bad_ch = e.kind == "BAD_INPUT"
+    check("hit vectors refuse a rotator or a non +-/ char before any write",
+          lambda: rot_hit and bad_ch and len(load_obs(paths4)) == before_bad)
+    pad = record_hit_vectors(paths4, {" h/a": "+", " h/b": "-"})
+    check("hit-vector keys are stripped before lookup",
+          lambda: pad.get("n_written") == 1
+          and any(
+              {o.get("model_a"), o.get("model_b")} == {"h/a", "h/b"}
+              for o in load_obs(paths4)))
+
+    hook_dup = hook_trial(paths4, [
+        {"model": "dup/a", "ballot": "A"},
+        {"model": "dup/a", "ballot": "B"},
+        {"model": "dup/b", "ballot": "A"},
+    ])
+    dup_rows = [
+        o for o in load_obs(paths4)
+        if {o.get("model_a"), o.get("model_b")} == {"dup/a", "dup/b"}
+    ]
+    check("hook_trial writes one pair per distinct named model",
+          lambda: hook_dup["n_written"] == 1
+          and hook_dup["n_runs"] == 3
+          and len(dup_rows) == 1
+          and dup_rows[0].get("disagree") is False)
+
+    failed = [(label, e) for label, ok, e in results if not ok]
     for label, ok, err in results:
         line = ("%s %s %s" % (("PASS" if ok else "FAIL"), label, err))
         print(line.encode("ascii", "replace").decode("ascii"))

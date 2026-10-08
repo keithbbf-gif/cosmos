@@ -39,10 +39,16 @@ def test_const_eq_and_redact() -> None:
     assert not const_eq("same", "same ")
     assert secret_shape("sk-livekeyvalue")
     assert secret_shape("Authorization: Bearer abcdefghijk")
+    long_xai = "xai-" + ("a" * 8)
+    assert secret_shape(long_xai)
+    assert not secret_shape("xai-main")
     scrubbed = redact("token=supersecret sk-livekeyvalue")
     assert "supersecret" not in scrubbed
     assert "sk-livekeyvalue" not in scrubbed
     assert not secret_shape(scrubbed)
+    scrubbed_xai = redact("see " + long_xai)
+    assert long_xai not in scrubbed_xai
+    assert not secret_shape(scrubbed_xai)
 
 
 def test_jail_contains_and_refuses() -> None:
@@ -62,6 +68,7 @@ def test_jail_contains_and_refuses() -> None:
         "C:\\",
         "\\\\server\\share\\x",
         str(grant / "note.txt:stream"),
+        str(grant / "NUL"),
         str(root / "other" / "x"),
     ]
     codes: list[str] = []
@@ -72,6 +79,8 @@ def test_jail_contains_and_refuses() -> None:
     assert "DOTDOT" in codes
     assert "OUTSIDE_GRANT" in codes
     assert "FILE_URL" in codes
+    assert "ALT_STREAM" in codes
+    assert "DEVICE_PATH" in codes
     with pytest.raises(Refuse) as empty:
         PathJail([])
     assert empty.value.code == "NO_GRANT"

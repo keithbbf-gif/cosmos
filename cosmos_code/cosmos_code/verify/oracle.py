@@ -9,10 +9,29 @@ Missing OracleSpec on nontrivial WO → refuse DraftPatch.
 from __future__ import annotations
 
 import hashlib
+import os
 import subprocess
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Optional
+
+_SECRET = ("KEY", "TOKEN", "SECRET", "PASSWORD", "CREDENTIAL")
+_SHELLS = frozenset({
+    "cmd", "cmd.exe", "powershell", "powershell.exe", "pwsh", "pwsh.exe", "bash", "sh", "sh.exe",
+})
+
+
+def _scrub(env: dict[str, str]) -> dict[str, str]:
+    return {
+        key: value
+        for key, value in env.items()
+        if not any(part in key.upper() for part in _SECRET)
+    }
+
+
+def _argv0(cmd: str) -> str:
+    token = cmd.strip().split(None, 1)[0] if cmd.strip() else ""
+    return Path(token.strip('"').strip("'")).name.lower()
 
 
 class OracleGateError(RuntimeError):
@@ -87,10 +106,12 @@ class OracleGate:
             raise OracleGateError("NO_ORACLE_SPEC", "nontrivial WO missing OracleSpec")
         return OracleSpec.from_mapping(wo["oracle"])
 
-    def run(self, spec: OracleSpec) -> OracleResult:
-        import os
+    def run(self, spec: OracleSpec, *, timeout: float = 15.0) -> OracleResult:
         import shutil
 
+        exe = _argv0(spec.cmd)
+        if exe in _SHELLS:
+            raise OracleGateError("SHELL_ORACLE", exe)
         cwd = Path(spec.cwd)
         if not cwd.is_absolute():
             cwd = self.attempt_root / cwd
@@ -98,16 +119,21 @@ class OracleGate:
         # Avoid same-second .pyc masking a just-applied edit (fail-before-edit spine).
         for d in cwd.glob("**/__pycache__"):
             shutil.rmtree(d, ignore_errors=True)
-        env = os.environ.copy()
+        env = _scrub(dict(os.environ))
         env["PYTHONDONTWRITEBYTECODE"] = "1"
-        proc = subprocess.run(
-            spec.cmd,
-            shell=True,
-            cwd=str(cwd),
-            capture_output=True,
-            text=True,
-            env=env,
-        )
+        try:
+            proc = subprocess.run(
+                spec.cmd,
+                shell=True,
+                cwd=str(cwd),
+                capture_output=True,
+                text=True,
+                env=env,
+                timeout=timeout,
+            )
+        except subprocess.TimeoutExpired:
+            blob = b"124\n\ntimeout"
+            return OracleResult(124, "", "timeout", hashlib.sha256(blob).hexdigest())
         blob = f"{proc.returncode}\n{proc.stdout}\n{proc.stderr}".encode()
         return OracleResult(
             exit_code=proc.returncode,

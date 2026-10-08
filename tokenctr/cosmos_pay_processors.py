@@ -66,7 +66,7 @@ def net_usd(method: Dict[str, Any], amount_usd: float) -> float:
     return round(max(0.0, float(amount_usd) - method_cost_usd(method, amount_usd)), 4)
 
 
-def cheapest_first(registry: Dict[str, Dict[str, Any]], amount_usd: float) -> List[Dict[str, Any]]:
+def cheapest_first(registry: Dict[str, Dict[str, Any]], amount_usd: float) -> list[Dict[str, Any]]:
     """Methods sorted by collection cost, live-only, with the honest discount frame."""
     live = [m for m in registry.values() if m.get("status") not in ("off", "pending-rates")]
     for m in live:
@@ -236,7 +236,7 @@ class PayPalAdapter:
             "application_context": {"return_url": return_url, "cancel_url": cancel_url},
         }
         out = self._post_json("/v2/checkout/orders", body)
-        approve = next((l["href"] for l in out.get("links", []) if l.get("rel") == "approve"), "")
+        approve = next((link["href"] for link in out.get("links", []) if link.get("rel") == "approve"), "")
         return {"id": out.get("id"), "url": approve}
 
     def capture_order(self, order_id: str) -> Dict[str, Any]:

@@ -90,6 +90,7 @@ def verify_actions(ledger) -> dict:
 
 def _selftest() -> int:
     import tempfile
+
     from cosmos_ledger import Ledger
     results = []
 

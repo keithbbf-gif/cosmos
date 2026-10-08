@@ -22,7 +22,10 @@ Returned dict reuses cosmos_clock.plan_create / tr_cmdline field shapes:
 
 Unparseable or ambiguous phrases raise NlcronError kind=UNRECOGNIZED.
 Never a silent default. Sub-minute phrases are detached_daemon — never
-schtasks /sc minute with mo<1.
+schtasks /sc minute with mo<1. schtasks /mo ceilings are minute 1..1439,
+hourly 1..23, and daily 1..365. An exact multiple of a day uses DAILY.
+Anything else that is not an exact legal modifier is UNRECOGNIZED — not
+a rounded modifier and not an invented /st.
 
     py -3.14 cosmos\\cosmos_nlcron.py --selftest
 """
@@ -35,6 +38,10 @@ from typing import Any
 SCHEMA = "cosmos-nlcron/1"
 MODES = frozenset({"schtasks", "detached_daemon", "onlogon"})
 SCHTASKS_FLOOR_S = 60.0
+# schtasks /Create /mo ceilings (Microsoft schtasks-create).
+_MINUTE_MAX = 1439
+_HOUR_MAX = 23
+_DAY_MAX = 365
 
 _WS = re.compile(r"\s+")
 _ONLOGON = re.compile(
@@ -116,29 +123,49 @@ def _as_positive_float(raw: str) -> float | None:
     return n
 
 
+def _finite(n: float) -> bool:
+    return n == n and n != float("inf") and n != float("-inf")
+
+
 def _seconds(n: float, unit: str) -> float | None:
     if unit in _SEC_UNITS:
-        return n
-    if unit in _MIN_UNITS:
-        return n * 60.0
-    if unit in _HOUR_UNITS:
-        return n * 3600.0
-    return None
+        total = n
+    elif unit in _MIN_UNITS:
+        total = n * 60.0
+    elif unit in _HOUR_UNITS:
+        total = n * 3600.0
+    else:
+        return None
+    # Unit scale can overflow a finite count to inf. That is not a cadence.
+    if not _finite(total) or total <= 0.0:
+        return None
+    return total
+
+
+def _whole_int(n: int | float) -> int | None:
+    try:
+        out = int(n)
+    except (OverflowError, ValueError):
+        return None
+    return out
 
 
 def _from_interval(total_s: float) -> dict[str, Any] | None:
     """Map a clear interval onto a vehicle. Do not round. Do not invent /st."""
-    if total_s <= 0.0:
+    if not _finite(total_s) or total_s <= 0.0:
         return None
     if total_s < SCHTASKS_FLOOR_S:
         return _result("detached_daemon", float(total_s), None, ("--loop",))
     minutes = total_s / 60.0
-    if abs(minutes - round(minutes)) > 1e-9:
+    if not _finite(minutes):
+        return None
+    nearest = round(minutes)
+    if abs(minutes - nearest) > 1e-9:
         # Whole seconds that are not a whole minute (e.g. 90s): schtasks
         # cannot express them and rounding would be a silent default.
         return _result("detached_daemon", float(total_s), None, ("--loop",))
-    mo = int(round(minutes))
-    if mo < 1:
+    mo = _whole_int(nearest)
+    if mo is None or mo < 1:
         return None
     if mo % 60 == 0:
         hours = mo // 60
@@ -148,11 +175,24 @@ def _from_interval(total_s: float) -> dict[str, Any] | None:
                 _schtasks_shape("HOURLY"),
                 ("--once",),
             )
-        return _result(
-            "schtasks", float(hours * 3600),
-            _schtasks_shape("HOURLY", mo=hours),
-            ("--once",),
-        )
+        if hours <= _HOUR_MAX:
+            return _result(
+                "schtasks", float(hours * 3600),
+                _schtasks_shape("HOURLY", mo=hours),
+                ("--once",),
+            )
+        # HOURLY /mo stops at 23. An exact day count still has one vehicle.
+        if hours % 24 == 0:
+            days = hours // 24
+            if 1 <= days <= _DAY_MAX:
+                return _result(
+                    "schtasks", float(days * 86400),
+                    _schtasks_shape("DAILY", mo=None if days == 1 else days),
+                    ("--once",),
+                )
+        return None
+    if mo > _MINUTE_MAX:
+        return None
     return _result(
         "schtasks", float(mo * 60),
         _schtasks_shape("minute", mo=mo),
@@ -279,10 +319,14 @@ def _clocks_label(rec: dict[str, Any]) -> str | None:
     st = rec.get("schtasks") or {}
     token = None
     if mode == "detached_daemon" and isinstance(interval_s, (int, float)):
-        if float(interval_s) == int(interval_s):
-            token = f"{int(interval_s)}s"
+        iv = float(interval_s)
+        whole = _whole_int(iv) if _finite(iv) else None
+        if whole is None:
+            token = None
+        elif iv == whole:
+            token = f"{whole}s"
         else:
-            token = f"{interval_s}s"
+            token = f"{iv}s"
     elif mode == "schtasks":
         sc = st.get("sc")
         mo = st.get("mo")
@@ -292,12 +336,23 @@ def _clocks_label(rec: dict[str, Any]) -> str | None:
         elif sc == "HOURLY" and mo in (None, 1):
             token = "hourly"
         elif sc == "DAILY" and isinstance(start, str) and start:
-            hh = start.split(":", 1)[0]
-            hits = [
-                c["clock"] for c in CLOCKS
-                if "daily" in str(c.get("cadence") or "").lower()
-                and hh in str(c.get("cadence") or "")
-            ]
+            # '07/11/19/23 daily' lists hours. Match HH:00 only — a substring
+            # of the hour would label 07:30 (and 11:45, 19:01) as Backup.
+            hh, sep, mm = start.partition(":")
+            if sep != ":" or mm != "00" or len(hh) != 2 or not hh.isdigit():
+                return None
+            hits: list[str] = []
+            for c in CLOCKS:
+                cad = str(c.get("cadence") or "")
+                if "daily" not in cad.lower():
+                    continue
+                hours = {
+                    f"{int(part):02d}"
+                    for part in cad.replace("/", " ").split()
+                    if part.isdigit()
+                }
+                if hh in hours:
+                    hits.append(c["clock"])
             return hits[0] if len(hits) == 1 else None
     if token is None:
         return None
@@ -409,6 +464,40 @@ def _selftest() -> int:
 
     check("garbage is UNRECOGNIZED", _garbage)
 
+    def _exact_labels_and_ceilings():
+        off = parse_cadence("daily 07:30")
+        day = parse_cadence("every 24 hours")
+        two = parse_cadence("every 48h")
+        legal_hour = parse_cadence("every 23 hours")
+        legal_minute = parse_cadence("every 1439 minutes")
+        if off["schtasks"] != {"sc": "DAILY", "mo": None, "st": "07:30"}:
+            return False
+        if off["clocks"] is not None:
+            return False
+        if day["schtasks"] != {"sc": "DAILY", "mo": None, "st": None}:
+            return False
+        if day["interval_s"] != 86400.0 or day["tr_extra"] != ("--once",):
+            return False
+        if two["schtasks"] != {"sc": "DAILY", "mo": 2, "st": None}:
+            return False
+        if legal_hour["schtasks"] != {"sc": "HOURLY", "mo": 23, "st": None}:
+            return False
+        if legal_minute["schtasks"] != {"sc": "minute", "mo": 1439, "st": None}:
+            return False
+        for phrase in ("every 25 hours", "every 1441 minutes",
+                       "every " + ("1" + "0" * 307) + "h"):
+            try:
+                parse_cadence(phrase)
+            except NlcronError as e:
+                if e.kind != "UNRECOGNIZED":
+                    return False
+            else:
+                return False
+        return True
+
+    check("daily label is HH:00 only; /mo stays inside schtasks ceilings",
+          _exact_labels_and_ceilings)
+
     def _no_silent():
         for phrase in ("", "every", "15", "daily", "every 15",
                        "every 15s and hourly", "soon"):
@@ -424,8 +513,9 @@ def _selftest() -> int:
     check("empty / unitless / mixed phrases never silent-default", _no_silent)
 
     def _plan_shapes():
-        from cosmos_clock import plan_create, tr_cmdline
         from pathlib import Path
+
+        from cosmos_clock import plan_create, tr_cmdline
 
         argv5 = plan_create(
             "COSMOS Ledger Verify", "tr",
@@ -486,7 +576,7 @@ def _selftest() -> int:
     check("source is parser-only (no spawn / timer / schtasks write)",
           lambda: src_ok)
 
-    bad = [(l, e) for l, ok, e in results if not ok]
+    bad = [(label, e) for label, ok, e in results if not ok]
     for label, ok, err in results:
         print("  %s  %s%s" % ("OK  " if ok else "FAIL", label,
                               ("  [" + err + "]") if err else ""))

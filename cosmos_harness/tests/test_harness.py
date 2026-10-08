@@ -130,6 +130,26 @@ def test_edit_then_done_and_a_copy_traces_match(tmp_path: Path):
     assert "return 2" in (left / "bug.py").read_text(encoding="utf-8")
 
 
+def test_pack_hash_ignores_the_journal(tmp_path: Path):
+    from cosmos_harness.bundle import make
+    from cosmos_harness.hooks import done
+
+    pack = tmp_path / "pack"
+    pack.mkdir()
+    (pack / "TASK.md").write_text("task\n", encoding="utf-8")
+    (pack / "seat.jsonl").write_text('{"seated": false}\n', encoding="utf-8")
+    argv = ("py", "-c", "raise SystemExit(1)")
+    first = make(patches=["p"], oracle_argv=argv, oracle_log_hash="a", pack_dir=pack)
+    (pack / "seat.jsonl").write_text('{"seated": false, "n": 2}\n', encoding="utf-8")
+    second = make(patches=["p"], oracle_argv=argv, oracle_log_hash="a", pack_dir=pack)
+    assert first.pack_hash == second.pack_hash
+    assert first.pack_hash
+    empty = make(patches=["p"], oracle_argv=argv, oracle_log_hash="a", pack_dir=tmp_path / "missing")
+    assert empty.pack_hash == ""
+    refused = done(empty.as_dict())
+    assert refused.allow is False and refused.reason == "INCOMPLETE_BUNDLE"
+
+
 def test_a_second_edit_of_the_same_line_still_grades(tmp_path: Path):
     root = tmp_path / "twice"
     stack = _tree(root)
@@ -413,6 +433,37 @@ def test_seating_learns_one_sop_and_records_the_stop(tmp_path: Path):
     foreign = seat_proof("openrouter/auto-beta", "openai/gpt-5.6-sol", GOOD)
     assert foreign["seated"] is False and foreign["scar"] == "MOUTH_FOREIGN"
     assert host_constants("User Safety: safe")["ok"] is False
+
+
+def test_upstream_stop_is_listed(tmp_path: Path):
+    taken = step("nvidia/nemotron-3-ultra-550b-a55b:free", http=500, detail="Upstream error")
+    assert taken.sop == "upstream" and taken.again is False
+    journal = tmp_path / "seat.jsonl"
+    remember(journal, taken, method="upstream", http=500)
+    assert [row["sop"] for row in unmapped(journal)] == ["upstream"]
+
+
+def test_checker_child_drops_a_key(tmp_path: Path, monkeypatch: pytest.MonkeyPatch):
+    from cosmos_harness import checks
+
+    captured: dict[str, str] = {}
+
+    def capture(*_args, **kwargs):
+        captured.update(kwargs["env"])
+
+        class Proc:
+            returncode = 0
+            stdout = ""
+            stderr = ""
+
+        return Proc()
+
+    monkeypatch.setenv("OPENROUTER_API_KEY", "sk-test")
+    monkeypatch.setattr(checks.subprocess, "run", capture)
+    code, out, err = checks._run([sys.executable, "-c", "pass"], tmp_path)
+    assert (code, out, err) == (0, "", "")
+    assert "OPENROUTER_API_KEY" not in captured
+    assert captured["PYTHONDONTWRITEBYTECODE"] == "1"
 
 
 def test_job_is_not_wipe_proof_and_unsandboxed_retry_raises():

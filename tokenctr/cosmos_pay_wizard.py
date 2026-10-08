@@ -14,7 +14,7 @@ create their own key, test-calls it, saves it. Borrowed: Hermes `hermes model`
 Providers (v1):
     openrouter  — paste key (or the referral link to get one free) → test via /models
     google      — AI Studio auth key (guide opens aistudio.google.com/apikey) → test generateContent
-    bedrock     — AWS keys + region → saved unverified (SigV4 test lands with the rail)
+    bedrock     — AWS keys + region → saved unverified (format check only; no SigV4 call)
 Each: test call → save to live/config + models.json BYOK entry → rail appears in the picker.
 """
 from __future__ import annotations
@@ -68,7 +68,7 @@ def test_google(key: str) -> bool:
 
 
 def test_bedrock(key: str, secret: str, region: str) -> bool:
-    """v1: format validation only — the SigV4 test call lands with the bedrock rail."""
+    """Format validation only. Does not call the bedrock rail or SigV4."""
     return bool(key.startswith("AKIA") and len(secret) >= 30 and region)
 
 

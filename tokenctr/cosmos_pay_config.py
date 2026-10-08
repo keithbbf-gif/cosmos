@@ -21,7 +21,7 @@ from __future__ import annotations
 import json
 import os
 from pathlib import Path
-from typing import Any, Dict
+from typing import Any, Dict, Optional
 
 ROOT = Path(os.environ.get("COSMOS_PAY_ROOT", str(Path.home() / ".cosmos_pay")))
 CONFIG_PATH = ROOT / "config.json"

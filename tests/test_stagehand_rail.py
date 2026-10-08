@@ -25,13 +25,14 @@ from cosmos_stagehand_rail import (  # noqa: E402
     LINK_ID,
     UNDERLAY,
     UNSAFE_TOOL,
+    StagehandRail,
+    StagehandRailError,
     _selftest,
     cache_dir,
     default_spec,
     merge_spec,
     snapshot_cache,
-    StagehandRail,
-    StagehandRailError,
+    validate_projection,
 )
 
 
@@ -182,6 +183,128 @@ def test_merge_refuses_playwright_takeover_and_scheduler_dst():
     except StagehandRailError as e:
         raised = e.kind
     assert raised == "BAD_SPEC"
+
+
+def _counting_client(calls, *, data=None, text="tree_id=z"):
+    class _Client:
+        timeout_s = 1
+
+        def tools_call(self, name, args):
+            calls.append((name, dict(args) if isinstance(args, dict) else args))
+            if name == "extract":
+                return {"data": data if data is not None else {"tree_id": "ok"}}
+            if name == "act":
+                return {"content": [{"type": "text", "text": "acted-once"}]}
+            return {"content": [{"type": "text", "text": text}]}
+
+        def close(self):
+            return None
+
+    return _Client()
+
+
+def test_dst_scheduler_and_read_are_case_insensitive():
+    """Whitespace and case must not sneak a scheduler or READ route through."""
+    spec = default_spec()
+    for dst in ("SCHED", "Scheduler", "Queue"):
+        try:
+            merge_spec({"schema": spec["schema"], "rail_type": "DOM", "dst": dst})
+            raised = None
+        except StagehandRailError as e:
+            raised = e.kind
+        assert raised == "BAD_SPEC", dst
+    coerced = merge_spec({
+        "schema": spec["schema"], "rail_type": "DOM", "dst": " READ ",
+    })
+    assert coerced["dst"] == spec["dst"]
+    assert coerced["dst"] == "interact"
+
+
+def test_projection_rejects_html_outside_declared_properties():
+    schema = {
+        "type": "object",
+        "required": ["tree_id"],
+        "properties": {"tree_id": {"type": "string"}},
+    }
+    clean = validate_projection({"tree_id": "ok", "title": "fine"}, schema)
+    assert clean["title"] == "fine"
+    for dirty in (
+        {"tree_id": "ok", "body": "<script>alert(1)</script>"},
+        {"tree_id": "ok", "box": {"h": "<b>x</b>"}},
+        {"tree_id": "ok", "rows": ["<i>no</i>"]},
+    ):
+        try:
+            validate_projection(dirty, schema)
+            raised = None
+        except StagehandRailError as e:
+            raised = e.kind
+        assert raised == "BROKE", dirty
+
+
+def test_extract_schema_refused_before_call_and_expect_not_unreachable():
+    calls = []
+    rail = StagehandRail(
+        default_spec(), client_factory=lambda: _counting_client(calls))
+    missing = rail.dispatch({"verb": "extract", "instruction": "x"})
+    assert missing["ok"] is False
+    assert missing["kind"] == "BROKE"
+    assert calls == []
+
+    calls.clear()
+    schema = {
+        "type": "object",
+        "required": ["tree_id"],
+        "properties": {"tree_id": {"type": "string"}},
+    }
+    bad_expect = rail.dispatch({
+        "verb": "extract",
+        "instruction": "x",
+        "schema": schema,
+        "expect": 5,
+    })
+    assert calls and calls[0][0] == "extract"
+    assert bad_expect["ok"] is False
+    assert bad_expect["kind"] == "BROKE"
+    assert "TypeError" not in (bad_expect.get("detail") or "")
+
+    hit = rail.dispatch({
+        "verb": "extract",
+        "instruction": "x",
+        "schema": schema,
+        "expect": "ok",
+    })
+    assert hit["ok"] is True
+    assert hit["data"]["tree_id"] == "ok"
+
+    calls.clear()
+    padded = rail.dispatch({"url": " file:///C:/nope.html", "expect": 1})
+    assert padded["ok"] is False
+    assert padded["kind"] == "BROKE"
+    assert calls == []
+
+    under = rail.dispatch({"url": "http://127.0.0.1:9/", "expect": 1})
+    assert under["kind"] == "BROKE"
+    assert under["ok"] is False
+    assert "TypeError" not in (under.get("detail") or "")
+
+
+def test_action_cache_is_not_caller_aliased():
+    calls = []
+    rail = StagehandRail(
+        default_spec(), client_factory=lambda: _counting_client(calls))
+    first = rail.dispatch({"verb": "act", "instruction": "click the marker"})
+    assert first["ok"] is True
+    assert first["cached"] is False
+    assert first["action"]["cached"] is False
+    first["action"]["text"] = "POISON"
+    second = rail.dispatch({"verb": "act", "instruction": "click the marker"})
+    assert second["cached"] is True
+    assert second["text"] == "acted-once"
+    assert "POISON" not in second["text"]
+    second["action"]["text"] = "POISON-HIT"
+    third = rail.dispatch({"verb": "act", "instruction": "click the marker"})
+    assert third["text"] == "acted-once"
+    assert len([name for name, _args in calls if name == "act"]) == 1
 
 
 if __name__ == "__main__":

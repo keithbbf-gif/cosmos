@@ -11,11 +11,11 @@ That writes `installs/LOCAL.toml` for this machine and prints which doors are
 present. The same check is `py -3.14 -m g47 doctor` after the packages are on
 the path.
 
-Editable installs, from this directory:
+Editable installs, from the repo root (`V:\A\Ai\COSMOS` in this checkout):
 
 ```
-py -3.14 -m pip install -e harness/G47 -e cosmos_harness -e product
-py -3.14 -m pytest -q harness/G47/tests cosmos_harness/tests product/tests
+py -3.14 -m pip install -e harness/G47 -e cosmos_harness -e cosmos_code
+py -3.14 -m pytest -q harness/G47/tests cosmos_harness/tests cosmos_code/tests
 ```
 
 `installs/DOORS.toml` is the list a clone ships. `installs/LOCAL.toml` is

@@ -121,7 +121,7 @@ def unmapped(path: Path) -> list[dict[str, object]]:
         if not line.strip():
             continue
         row = json.loads(line)
-        if row.get("sop") in {"stop", "no_shape", "batch_unsupported", "batch_open", "foreign_mouth", "not_code", "task_ask", "unemitted", "pool_hold"}:
+        if row.get("sop") in {"stop", "no_shape", "batch_unsupported", "batch_open", "foreign_mouth", "not_code", "task_ask", "unemitted", "pool_hold", "upstream", "grade"}:
             rows.append(row)
     return rows
 

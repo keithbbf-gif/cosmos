@@ -75,7 +75,7 @@ def passthrough_price(
 def recompute_model(
     model: Dict[str, Any],
     billed_gpu_seconds: Optional[float] = None,
-    tokens_served: Optional[int] = None,
+    tokens_served: Optional[float] = None,
     usd_per_gpu_second: Optional[float] = None,
     eps_pct: Optional[float] = None,
     cap_multiple: Optional[float] = None,

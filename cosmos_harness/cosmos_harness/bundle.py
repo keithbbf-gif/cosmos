@@ -3,7 +3,8 @@
 ``diff_hash`` covers the patches the hands recorded.
 ``oracle_id`` covers the property and the argument vector.
 ``oracle_log_hash`` is the post-oracle digest.
-``pack_hash`` covers the eight layer files in name order.
+``pack_hash`` covers the pack files in name order. ``seat.jsonl`` is the
+journal the loop appends beside them and is not part of the hash.
 ``cmd_hash`` covers the oracle argument vector.
 
 Any empty field refuses the bundle. The worker stops here. Publishing the
@@ -17,6 +18,7 @@ from dataclasses import dataclass
 from pathlib import Path
 
 FIELDS = ("diff_hash", "oracle_id", "oracle_log_hash", "pack_hash", "cmd_hash")
+_JOURNAL = frozenset({"seat.jsonl"})
 
 
 def _sha(text: str) -> str:
@@ -47,12 +49,22 @@ def make(
     """Hash the artifacts the attempt actually wrote."""
     diff = "\n".join(patches)
     cmd = "\n".join(oracle_argv)
-    names = sorted(path.name for path in pack_dir.iterdir() if path.is_file()) if pack_dir.is_dir() else []
-    pack_body = "\n".join(f"{name}\n{(pack_dir / name).read_text(encoding='utf-8')}" for name in names)
+    names: list[str] = []
+    if pack_dir.is_dir():
+        names = sorted(
+            path.name
+            for path in pack_dir.iterdir()
+            if path.is_file() and path.name not in _JOURNAL
+        )
+    if names:
+        pack_body = "\n".join(f"{name}\n{(pack_dir / name).read_text(encoding='utf-8')}" for name in names)
+        pack_hash = _sha(pack_body)
+    else:
+        pack_hash = ""
     return DoneBundle(
         diff_hash=_sha(diff),
         oracle_id=_sha("constants\n" + cmd),
         oracle_log_hash=oracle_log_hash,
-        pack_hash=_sha(pack_body),
+        pack_hash=pack_hash,
         cmd_hash=_sha(cmd),
     )

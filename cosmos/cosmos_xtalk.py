@@ -95,7 +95,8 @@ def resolve_bind(paths, bind: str = "") -> dict:
 def fence_check(roles: dict, to: str) -> tuple[str, str | None]:
     """Match cosmos_msg.Fence.check. unknown is not Transport A."""
     row = roles.get(to)
-    if not row:
+    # A list or string is not a role row.
+    if not isinstance(row, dict) or not row:
         return "unknown", f"role {to!r} not in registry"
     owner = row.get("owner")
     alive = bool(row.get("alive", False))
@@ -143,11 +144,16 @@ def _read_records(path: Path) -> list[dict]:
             if not raw:
                 continue
             try:
-                rec = json.loads(raw.decode("utf-8"))
+                parsed = json.loads(raw.decode("utf-8"))
             except (json.JSONDecodeError, UnicodeDecodeError):
-                rec = {"kind": "BROKE", "raw": raw[:160].decode("utf-8", "replace")}
-            if isinstance(rec, dict):
-                rows.append(rec)
+                parsed = None
+            # Keep non-objects. The walker must see every line.
+            if not isinstance(parsed, dict):
+                parsed = {
+                    "kind": "BROKE",
+                    "raw": raw[:160].decode("utf-8", "replace"),
+                }
+            rows.append(parsed)
     return rows
 
 
@@ -223,11 +229,15 @@ def snapshot(paths, *, role: str = "", tail: int = 40, bind: str = "",
     }
     if rows:
         last = rows[-1]
-        out["seq"] = last.get("seq")
-        try:
-            out["head"] = _line_hash(_canonical(last))
-        except (TypeError, ValueError):
+        seq = last.get("seq")
+        if last.get("kind") == "BROKE" or isinstance(seq, bool) or not isinstance(seq, int):
             out["head"] = "UNMEASURED"
+        else:
+            out["seq"] = seq
+            try:
+                out["head"] = _line_hash(_canonical(last))
+            except (TypeError, ValueError):
+                out["head"] = "UNMEASURED"
     if verify:
         out["verify"] = verify_chain(p)
     return out
@@ -264,6 +274,20 @@ def _unlock(lock: Path) -> None:
         lock.unlink()
     except FileNotFoundError:
         pass
+
+
+def _next_link(last: dict | None) -> tuple[int, str]:
+    """Next seq and prev hash. An unreadable tail is not a link."""
+    if last is None:
+        return 1, GENESIS
+    seq = last.get("seq")
+    if last.get("kind") == "BROKE" or isinstance(seq, bool) or not isinstance(seq, int):
+        raise XTalkError("CHAIN", "stream tail is unreadable; refusing to append")
+    try:
+        prev = _line_hash(_canonical(last))
+    except (TypeError, ValueError) as e:
+        raise XTalkError("CHAIN", f"stream tail is not canonical: {type(e).__name__}") from e
+    return seq + 1, prev
 
 
 def send(paths, body: dict) -> dict:
@@ -336,9 +360,10 @@ def send(paths, body: dict) -> dict:
                     "note": "idempotent nonce. not a second line.",
                 }
         last = rows[-1] if rows else None
+        seq, prev = _next_link(last)
         rec = {
-            "seq": (last["seq"] + 1) if last else 1,
-            "prev": _line_hash(_canonical(last)) if last else GENESIS,
+            "seq": seq,
+            "prev": prev,
             "ts": int(time.time() * 1000),
             "transport": "B",
             "reply": None,
@@ -439,6 +464,39 @@ def _selftest() -> int:
     check("canonical chain clean after two B appends",
           lambda: acc2["seq"] == 2 and v[0].startswith("chain clean"))
 
+    saved_roles = (p.role("state") / "roles.json").read_text(encoding="utf-8")
+    (p.role("state") / "roles.json").write_text(json.dumps({
+        "orc": {"harness": "grok", "owner": "leader", "alive": True},
+        "blob": ["nope"],
+    }), encoding="utf-8")
+    try:
+        send(p, {"from": "captain", "to": "blob", "body": "x"})
+        role_ok = False
+    except XTalkError as e:
+        role_ok = e.kind == "BAD_ROLE"
+    except Exception:  # noqa: BLE001 — a crash is a failed check
+        role_ok = False
+    check("non-object role is BAD_ROLE", lambda: role_ok)
+    (p.role("state") / "roles.json").write_text(saved_roles, encoding="utf-8")
+
+    stream_p = p.role("state") / "xtalk.jsonl"
+    good = stream_p.read_bytes()
+    stream_p.write_bytes(good + b"null\n")
+    hid = verify_chain(stream_p)
+    check("non-object line is not chain clean",
+          lambda: bool(hid) and not hid[0].startswith("chain clean")
+          and any("unreadable" in line for line in hid))
+    snap_bad = snapshot(p)
+    check("unreadable tail head is not a fake sha256",
+          lambda: snap_bad.get("head") == "UNMEASURED")
+    try:
+        send(p, {"from": "captain", "to": "orc", "body": "third"})
+        tail_ok = False
+    except XTalkError as e:
+        tail_ok = e.kind == "CHAIN"
+    check("unreadable tail refuses append", lambda: tail_ok)
+    stream_p.write_bytes(good)
+
     # Wire-compatible with cosmos_msg.py: hash of canonical record.
     sample = {
         "msg": {"body": "x", "from": "a", "nonce": "n", "phase": None,
@@ -450,6 +508,12 @@ def _selftest() -> int:
               sample, sort_keys=True, separators=(",", ":"),
               ensure_ascii=False).encode("utf-8"))
 
+    try:
+        send(p, {"from": "xtalk", "to": "ccr", "body": "no", "bind": "openwork"})
+        ow_post = False
+    except XTalkError as e:
+        ow_post = e.kind == "BIND_READONLY"
+    check("POST cannot target OpenWork bind", lambda: ow_post)
     if OPENWORK_STREAM.is_file():
         ow = verify_chain(OPENWORK_STREAM)
         check("OpenWork live jsonl verifies with Core hasher",
@@ -458,19 +522,8 @@ def _selftest() -> int:
         check("GET ?bind=openwork is MEASURED read-only",
               lambda: ow_snap["kind"] == "MEASURED" and ow_snap["writable"] is False
               and ow_snap["bind"] == "openwork")
-        try:
-            send(p, {"from": "xtalk", "to": "ccr", "body": "no", "bind": "openwork"})
-            ow_post = False
-        except XTalkError as e:
-            ow_post = e.kind == "BIND_READONLY"
-        check("POST cannot target OpenWork bind",
-              lambda: ow_post)
-    else:
-        check("OpenWork live jsonl verifies with Core hasher", lambda: True)
-        check("GET ?bind=openwork is MEASURED read-only", lambda: True)
-        check("POST cannot target OpenWork bind", lambda: True)
 
-    failed = [(l, e) for l, ok, e in results if not ok]
+    failed = [(label, e) for label, ok, e in results if not ok]
     for label, ok, err in results:
         print(("PASS" if ok else "FAIL"), label, err)
     print("xtalk selftest", f"{len(results) - len(failed)}/{len(results)}")

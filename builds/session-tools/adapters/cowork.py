@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """Cowork pack adapter — catalog wrap. Do not re-ingest 666."""
 from __future__ import annotations
 
@@ -58,8 +57,8 @@ def scan(store: Path) -> dict:
 
 
 def load(store: Path, rec_id: str) -> tuple[dict, list]:
-    cat, rows = _load_catalog(store)
-    want = rec_id[4:] if rec_id.startswith("cow-") else rec_id
+    _cat, rows = _load_catalog(store)
+    want = rec_id.removeprefix("cow-")
     row = None
     for r in rows:
         sid = str(r.get("session_id") or "")

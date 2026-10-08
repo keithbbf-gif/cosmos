@@ -18,7 +18,6 @@ Rules:
 """
 from __future__ import annotations
 
-import sqlite3
 import time
 from typing import Any, Dict
 
@@ -29,7 +28,7 @@ class FoundingError(RuntimeError):
     """kind in {SOLD_OUT, BAD_TIER, ALREADY_FOUNDING}."""
 
 
-TIERS = {
+TIERS: Dict[str, Dict[str, Any]] = {
     "paid": {"price_usd": 10.0, "grant_face_usd": 20.0, "plan": "founding"},
     "verified": {"price_usd": 0.0, "grant_face_usd": 11.0, "plan": "verified_free"},
     # verified = $10 founding-tier tokens + $1 verification credit (the $1 auth,

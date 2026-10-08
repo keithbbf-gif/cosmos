@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """openwork_native — leftover Chat ses_* (not ses_cow_*). scan/load only."""
 from __future__ import annotations
 
@@ -66,7 +65,7 @@ def scan(store: Path) -> dict:
 
 
 def load(store: Path, rec_id: str) -> tuple[dict, list]:
-    want = rec_id[3:] if rec_id.startswith("ow-") else rec_id
+    want = rec_id.removeprefix("ow-")
     if _is_cow(want):
         raise SessionToolsRefusal("DO_NOT_REINGEST", rec_id)
     db = _db(store)

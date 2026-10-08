@@ -11,12 +11,13 @@ and re-shaped for COSMOS canon:
     not hold.
   * VERIFIED, INCREMENTAL. refresh() reads only the ledger bytes after its checkpoint
     (offset + prev_sha + seq) through the ledger's own chain/MAC walk. A ledger shorter
-    than the checkpoint REFUSES (TRUNCATED) - the index never outlives its history.
+    than the checkpoint REFUSES (TRUNCATED) on refresh, search, and state_sha - the
+    index never outlives its history.
   * OWNER-SCOPED. search() returns turns only from sessions whose owner equals the
     caller's principal (cosmos_convo's rule; an unknown and a foreign session look the
     same). `captain:*` principals search everything.
   * READS NEVER MKDIR. search() on a missing index is UNMEASURED, not an empty result
-    and not a new file.
+    and not a new file. The query is not judged until that file exists.
   * WAL, BEGIN IMMEDIATE, short transactions - the Hermes write pattern.
   * User text never reaches FTS5 syntax: every query term is quoted.
 
@@ -30,7 +31,7 @@ import os
 import re
 import sqlite3
 from pathlib import Path
-from typing import Optional
+from typing import Literal, Optional, overload
 
 SCHEMA = "cosmos-recall/1"
 
@@ -56,6 +57,12 @@ class Recall:
         self.db_path = Path(db_path)
 
     # ---------------- storage ----------------
+    @overload
+    def _connect(self, create: Literal[True]) -> sqlite3.Connection: ...
+
+    @overload
+    def _connect(self, create: Literal[False]) -> Optional[sqlite3.Connection]: ...
+
     def _connect(self, create: bool) -> Optional[sqlite3.Connection]:
         if not create and not self.db_path.exists():
             return None
@@ -82,16 +89,26 @@ class Recall:
         row = con.execute("SELECT offset, prev_sha, seq FROM checkpoint WHERE k = 1").fetchone()
         return (0, "", 0) if row is None else (int(row[0]), str(row[1]), int(row[2]))
 
+    def _ledger_size(self) -> int:
+        path = Path(self.ledger._path)
+        return path.stat().st_size if path.exists() else 0
+
+    def _refuse_if_short(self, con: sqlite3.Connection) -> None:
+        """A checkpoint past the end of the ledger is TRUNCATED. Do not serve it."""
+        off, _prev, _seq = self._checkpoint(con)
+        size = self._ledger_size()
+        if size < off:
+            raise RecallError("TRUNCATED", f"ledger is {size} bytes, index checkpoint "
+                                           f"is {off} - rebuild after the incident")
+
     # ---------------- indexing ----------------
     def refresh(self) -> dict:
         con = self._connect(create=True)
         try:
             off, prev, seq = self._checkpoint(con)
+            self._refuse_if_short(con)
             path = Path(self.ledger._path)
-            size = path.stat().st_size if path.exists() else 0
-            if size < off:
-                raise RecallError("TRUNCATED", f"ledger is {size} bytes, index checkpoint "
-                                               f"is {off} - rebuild after the incident")
+            size = self._ledger_size()
             n_turns = n_sessions = 0
             if size > off:
                 with open(path, "rb") as fh:
@@ -103,12 +120,16 @@ class Recall:
                             data, off, prev, seq, strict_tail=False, line_no=None):
                         if rec is None:
                             continue
-                        ev, p = rec.get("event"), rec.get("payload") or {}
+                        p = rec.get("payload")
+                        if not isinstance(p, dict):
+                            continue
+                        ev = rec.get("event")
                         if ev == "CONVO_OPENED" and isinstance(p.get("sid"), str):
-                            con.execute("INSERT OR IGNORE INTO sessions VALUES (?,?,?,?)",
-                                        (p["sid"], p.get("owner"), p.get("title"),
-                                         rec.get("t")))
-                            n_sessions += 1
+                            cur = con.execute(
+                                "INSERT OR IGNORE INTO sessions VALUES (?,?,?,?)",
+                                (p["sid"], p.get("owner"), p.get("title"), rec.get("t")))
+                            if cur.rowcount > 0:
+                                n_sessions += 1
                         elif (ev == "CONVO_TURN" and isinstance(p.get("text"), str)
                               and p["text"].strip()):
                             con.execute("INSERT INTO turns VALUES (?,?,?,?,?)",
@@ -143,6 +164,7 @@ class Recall:
         if con is None:
             return None
         try:
+            self._refuse_if_short(con)
             h = hashlib.sha256()
             for row in con.execute("SELECT sid, role, seq, t, text FROM turns "
                                    "ORDER BY t, sid, seq"):
@@ -155,12 +177,17 @@ class Recall:
 
     # ---------------- search ----------------
     def search(self, query: str, *, principal: Optional[str], limit: int = 10) -> dict:
+        # Missing file first: do not parse the query and do not create a parent.
+        if not self.db_path.exists():
+            return {"schema": SCHEMA, "kind": "UNMEASURED", "results": None,
+                    "note": "no recall index yet - refresh() builds it; reads never mkdir"}
         match = _quote_terms(query)
         con = self._connect(create=False)
         if con is None:
             return {"schema": SCHEMA, "kind": "UNMEASURED", "results": None,
                     "note": "no recall index yet - refresh() builds it; reads never mkdir"}
         try:
+            self._refuse_if_short(con)
             everything = str(principal or "").startswith("captain:")
             sql = ("SELECT t.sid, s.title, t.role, t.seq, t.t, "
                    "snippet(turns, 0, '[', ']', ' ... ', 12), bm25(turns) "

@@ -142,6 +142,8 @@ def write_files(jail: PathJail, token: str, key: bytes) -> None:
     if not isinstance(token, str) or token.strip() == "":
         raise Refuse("BLANK_TOKEN", "empty token is an open door")
     cleaned = bound_text(token, limit=_TOKEN_LIMIT, name="token").strip()
+    if secret_shape(cleaned):
+        raise Refuse("SECRET_SHAPE", "bearer looked like vendor key material")
     if not isinstance(key, bytes) or len(key) != _KEY_BYTES:
         raise Refuse("BAD_KEY", "install key must be 32 bytes")
     token_path = jail.contain(_TOKEN_REL)

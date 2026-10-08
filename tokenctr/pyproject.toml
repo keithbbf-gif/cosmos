@@ -1,0 +1,49 @@
+[project]
+name = "tokenctr"
+version = "1.0.0"
+description = "COSMOS Token Center. Loose pay modules, no third-party runtime."
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.6", "mypy>=1.11"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 120
+target-version = "py314"
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+ignore = ["E501"]
+
+[tool.mypy]
+python_version = "3.14"
+ignore_missing_imports = true
+check_untyped_defs = true
+warn_unused_ignores = true
+follow_imports = "skip"
+files = [
+    "cosmos_pay_azure_rail.py",
+    "cosmos_pay_bedrock_rail.py",
+    "cosmos_pay_cloudflare.py",
+    "cosmos_pay_config.py",
+    "cosmos_pay_entitlement.py",
+    "cosmos_pay_founding.py",
+    "cosmos_pay_gateway.py",
+    "cosmos_pay_meter.py",
+    "cosmos_pay_nightly.py",
+    "cosmos_pay_openrouter_rail.py",
+    "cosmos_pay_pricing.py",
+    "cosmos_pay_processors.py",
+    "cosmos_pay_runpod_rail.py",
+    "cosmos_pay_smoke.py",
+    "cosmos_pay_toll.py",
+    "cosmos_pay_vertex_rail.py",
+    "cosmos_pay_webhooks.py",
+    "cosmos_pay_wizard.py",
+    "gcp_billing_breaker.py",
+]

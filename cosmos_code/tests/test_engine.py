@@ -6,7 +6,7 @@ import sys
 from pathlib import Path
 
 import pytest
-from cosmos_code.checks4 import fails_of, reaches_judge, run_code_checks, split_unified_diff
+from cosmos_code.checks4 import fails_of, package_blocked, reaches_judge, run_code_checks, split_unified_diff
 from cosmos_code.doorspec import load_all, load_spec, negotiate
 from cosmos_code.propose import Provider, dispatch, propose
 from cosmos_code.session_log import SessionLog
@@ -177,3 +177,59 @@ def test_diff_split_and_none_and_prose(tmp_path: Path):
     assert prose[0]["status"] == "PROSE"
     assert not reaches_judge(prose)
     assert fails_of(none) == []
+
+
+def test_package_command_blocks_anything_but_four_passes(tmp_path: Path, monkeypatch: pytest.MonkeyPatch):
+    """NO_TESTS is not a pass. Reply NONE still is not a package failure."""
+    from cosmos_code.__main__ import main
+
+    assert package_blocked([{"status": "PASS"}] * 4) is None
+    assert package_blocked([{"status": "PASS"}] * 3) == "CHECKS"
+    no_tests = [{"status": "PASS"}, {"status": "PASS"}, {"status": "PASS"}, {"status": "NO_TESTS"}]
+    assert package_blocked(no_tests) == "NO_TESTS"
+    assert package_blocked([{"status": "NO_CODE"}]) == "NO_CODE"
+    monkeypatch.setattr("cosmos_code.checks4.check_package", lambda _root: no_tests)
+    assert main(["check", str(tmp_path)]) == 1
+    monkeypatch.setattr(
+        "cosmos_code.checks4.check_package",
+        lambda _root: [{"status": "PASS", "tool": tool} for tool in ("py_compile", "ruff", "mypy", "pytest")],
+    )
+    assert main(["check", str(tmp_path)]) == 0
+    assert reaches_judge([{"status": "NO_CODE"}])
+    assert fails_of([{"status": "NO_TESTS"}]) == []
+
+
+def test_checker_timeout_is_fail(tmp_path: Path, monkeypatch: pytest.MonkeyPatch):
+    import subprocess
+
+    from cosmos_code import checks4
+
+    def boom(*_args, **_kwargs):
+        raise subprocess.TimeoutExpired(cmd="py", timeout=120)
+
+    monkeypatch.setattr(checks4.subprocess, "run", boom)
+    code, out, err = checks4._run([sys.executable, "-c", "pass"], tmp_path)
+    assert (code, out, err) == (124, "", "timeout")
+
+
+def test_checker_child_drops_a_key(tmp_path: Path, monkeypatch: pytest.MonkeyPatch):
+    from cosmos_code import checks4
+
+    captured: dict[str, str] = {}
+
+    def capture(*_args, **kwargs):
+        captured.update(kwargs["env"])
+
+        class Proc:
+            returncode = 0
+            stdout = ""
+            stderr = ""
+
+        return Proc()
+
+    monkeypatch.setenv("OPENROUTER_API_KEY", "sk-test")
+    monkeypatch.setattr(checks4.subprocess, "run", capture)
+    code, out, err = checks4._run([sys.executable, "-c", "pass"], tmp_path, timeout=1)
+    assert (code, out, err) == (0, "", "")
+    assert "OPENROUTER_API_KEY" not in captured
+    assert captured["PYTHONDONTWRITEBYTECODE"] == "1"

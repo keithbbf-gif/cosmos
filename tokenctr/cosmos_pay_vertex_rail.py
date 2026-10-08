@@ -38,11 +38,20 @@ import urllib.error
 import urllib.parse
 import urllib.request
 from pathlib import Path
-from typing import Any, Dict, Iterator, List, Optional, Tuple
+from typing import Any, Callable, Dict, Iterator, List, Optional, Tuple
 
 
 class VertexRailError(RuntimeError):
     """Maps to RailError inside cosmos_pay_gateway."""
+
+
+class VertexNoSupply(VertexRailError):
+    """Project or credential missing. Gateway maps this to 503 with no meter event."""
+
+    no_supply = True
+
+    def __init__(self) -> None:
+        super().__init__("vertex rail is not configured")
 
 
 def _b64_urlsafe(data: bytes) -> str:
@@ -171,6 +180,7 @@ class VertexAIRail:
         token_provider: Optional[GoogleOAuthTokenProvider] = None,
         region: str = DEFAULT_REGION,
         timeout_s: int = 60,
+        transport: Optional[Callable[..., Any]] = None,
     ):
         self.project_id = str(project_id).strip()
         self._access_token = str(access_token).strip()
@@ -178,6 +188,12 @@ class VertexAIRail:
         self.token_provider = token_provider
         self.region = str(region or self.DEFAULT_REGION).strip()
         self.timeout_s = int(timeout_s)
+        self.transport = transport
+
+    def _configured(self) -> bool:
+        if not self.project_id:
+            return False
+        return bool(self._access_token or self._api_key or self.token_provider is not None)
 
     def _get_bearer(self) -> str:
         if self.token_provider:
@@ -255,9 +271,55 @@ class VertexAIRail:
             return "gemini-2.5-flash"
         return m.split("/")[-1].replace("-vertex", "")
 
+    def _post_json(self, url: str, payload: Dict[str, Any], timeout: int) -> Dict[str, Any]:
+        """Injected transport, else urllib. The transport is the only test path."""
+        if self.transport is not None:
+            raw = self.transport({
+                "url": url,
+                "method": "POST",
+                "headers": self._auth_headers(),
+                "body": payload,
+                "timeout_s": timeout,
+            })
+            if not isinstance(raw, dict):
+                raise VertexRailError("BAD_RESPONSE transport returned no object")
+            return raw
+        req = urllib.request.Request(
+            url, data=json.dumps(payload).encode("utf-8"), headers=self._auth_headers(), method="POST",
+        )
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as resp:
+                return json.loads(resp.read().decode("utf-8"))
+        except urllib.error.HTTPError as e:
+            detail = e.read().decode("utf-8", "replace")[:300] if hasattr(e, "read") else str(e)
+            raise VertexRailError(f"HTTP {e.code} on Vertex: {detail}") from e
+        except Exception as e:
+            raise VertexRailError(f"HTTP unreachable on Vertex: {e}") from e
+
+    @staticmethod
+    def _priced_usage(data: Dict[str, Any]) -> Optional[Dict[str, Any]]:
+        """OpenAI usage block from an injected transport. Native Vertex JSON returns None."""
+        usage = data.get("usage")
+        if not isinstance(usage, dict) or usage.get("unpriced"):
+            return None
+        if "prompt_tokens" not in usage and "completion_tokens" not in usage:
+            return None
+        out = dict(data)
+        out.setdefault(
+            "choices",
+            [{
+                "index": 0,
+                "message": {"role": "assistant", "content": ""},
+                "finish_reason": "stop",
+            }],
+        )
+        return out
+
     # ------------------------------------------------------------- blocking call
     def runsync(self, openai_request: Dict[str, Any], timeout_s: Optional[int] = None) -> Dict[str, Any]:
         """Execute blocking call against Vertex AI generateContent."""
+        if not self._configured():
+            raise VertexNoSupply()
         model = self._resolve_model_name(openai_request.get("model", "gemini-1.5-flash-002"))
         url = self.ENDPOINT_TMPL.format(region=self.region, project_id=self.project_id, model=model)
         if not self._get_bearer() and self._api_key:
@@ -270,19 +332,11 @@ class VertexAIRail:
         if sys_inst:
             payload["systemInstruction"] = sys_inst
 
-        req_bytes = json.dumps(payload).encode("utf-8")
-        req = urllib.request.Request(url, data=req_bytes, headers=self._auth_headers(), method="POST")
-
         t = int(timeout_s or self.timeout_s)
-        try:
-            with urllib.request.urlopen(req, timeout=t) as resp:
-                raw = resp.read().decode("utf-8")
-                data = json.loads(raw)
-        except urllib.error.HTTPError as e:
-            detail = e.read().decode("utf-8", "replace")[:300] if hasattr(e, "read") else str(e)
-            raise VertexRailError(f"HTTP {e.code} on Vertex {model}: {detail}") from e
-        except Exception as e:
-            raise VertexRailError(f"HTTP unreachable on Vertex {model}: {e}") from e
+        data = self._post_json(url, payload, t)
+        priced = self._priced_usage(data)
+        if priced is not None:
+            return priced
 
         # Extract text response
         candidates = data.get("candidates") or []
@@ -319,6 +373,17 @@ class VertexAIRail:
     def stream(self, openai_request: Dict[str, Any]) -> Iterator[Dict[str, Any]]:
         """SSE Streaming relay from Vertex streamGenerateContent.
         Yields chunk dicts in OpenAI format, ending with terminal usage block."""
+        if not self._configured():
+            raise VertexNoSupply()
+        if self.transport is not None:
+            resp = self.runsync(openai_request)
+            yield {
+                "id": resp.get("id", "vtx"),
+                "object": "chat.completion.chunk",
+                "choices": [{"index": 0, "delta": {"content": ""}, "finish_reason": "stop"}],
+                "usage": resp.get("usage") or {"unpriced": True},
+            }
+            return
         model = self._resolve_model_name(openai_request.get("model", "gemini-1.5-flash-002"))
         url = self.STREAM_TMPL.format(region=self.region, project_id=self.project_id, model=model)
         if not self._get_bearer() and self._api_key:
@@ -367,7 +432,7 @@ class VertexAIRail:
                             if parts:
                                 delta_text = parts[0].get("text", "")
 
-                        out_chunk = {
+                        out_chunk: Dict[str, Any] = {
                             "id": chunk_id,
                             "object": "chat.completion.chunk",
                             "choices": [{
@@ -394,3 +459,23 @@ class VertexAIRail:
             raise VertexRailError(f"HTTP {e.code} on stream Vertex {model}: {detail}") from e
         except Exception as e:
             raise VertexRailError(f"HTTP unreachable on stream Vertex {model}: {e}") from e
+
+
+def from_config(config: Dict[str, Any], secrets: Optional[Dict[str, Any]] = None) -> Optional[VertexAIRail]:
+    """Attach when config carries the vertex project and a credential.
+
+    Credential may sit on the vertex block or in secrets. This does not open
+    a key file and does not call the network.
+    """
+    secrets = secrets or {}
+    raw = config.get("vertex")
+    block: Dict[str, Any] = raw if isinstance(raw, dict) else {}
+    project = str(block.get("project_id") or config.get("vertex_project_id") or "").strip()
+    if not project:
+        return None
+    token = str(block.get("access_token") or secrets.get("vertex_access_token") or "").strip()
+    api_key = str(block.get("api_key") or secrets.get("vertex_api_key") or "").strip()
+    if not token and not api_key:
+        return None
+    region = str(block.get("region") or config.get("vertex_region") or VertexAIRail.DEFAULT_REGION).strip()
+    return VertexAIRail(project_id=project, access_token=token, api_key=api_key, region=region)

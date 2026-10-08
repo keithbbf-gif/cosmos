@@ -8,9 +8,10 @@ CANNOT RAISE; the parent sees only the child's final summary) and re-shaped for 
 
   * A delegation is a SCHEDULER JOB. Children are ordinary immutable manifests on the
     scheduler ledger; the delegation facts ride beside them as DELEGATION_* events.
-  * The decision is atomic. The depth / concurrency check and the DELEGATION_RESERVED
-    event are one Ledger.append_guarded critical section, so two parents racing (or one
-    parent spawning in parallel) cannot exceed max_children.
+  * The decision is atomic. Inside that Ledger.append_guarded section the parent must
+    still be RUNNING, and the concurrency check plus the DELEGATION_RESERVED event
+    commit together, so two parents racing (or one parent spawning in parallel) cannot
+    exceed max_children.
   * Budgets are policy, not requests. requested_iterations above policy is RECORDED and
     IGNORED (Hermes: "caller-supplied values are logged but ignored").
   * Capabilities are stripped, not trusted. A child never receives the blocked set
@@ -89,12 +90,27 @@ class Delegation:
                 "schema": SCHEMA, "parent": parent_job_id, "kind": "DEPTH_LIMIT",
                 "depth": depth, "at": self.clock()})
             raise DelegateError("DEPTH_LIMIT", f"depth {depth} > {self.policy['max_depth']}")
+        # Before DELEGATION_RESERVED: a bad request must not hold a live slot.
+        iterations = int(self.policy["max_iterations"])
+        if requested_iterations is not None and int(requested_iterations) < iterations:
+            iterations = int(requested_iterations)       # lower is allowed; higher is not
+        caps_list = [str(c) for c in caps]
+        blocked = set(BLOCKED_FOR_CHILDREN)
+        if depth >= self.policy["max_depth"]:
+            blocked.add("delegate")
+        granted = [c for c in caps_list if c not in blocked]
+        stripped = [c for c in caps_list if c in blocked]
         reservation = "dr-" + uuid.uuid4().hex[:12]
         refused: dict = {}
 
         def decide(_recs):
-            st = self._dstate()
             jobs_now = self.sched._state()
+            parent_now = jobs_now.get(parent_job_id)
+            if parent_now is None or parent_now["st"] != "RUNNING":
+                # Finished after the unlocked check. Raise aborts the append.
+                raise DelegateError("BAD_PARENT", f"{parent_job_id} is not a RUNNING job - "
+                                                  f"only running work delegates")
+            st = self._dstate()
             live = 0
             for r in st["res"].values():
                 if r["parent"] != parent_job_id:
@@ -116,15 +132,6 @@ class Delegation:
             raise DelegateError("CONCURRENCY_LIMIT",
                                 f"{parent_job_id} already has {refused['n']} live children "
                                 f"(max {self.policy['max_children']})")
-        caps = [str(c) for c in caps]
-        blocked = set(BLOCKED_FOR_CHILDREN)
-        if depth >= self.policy["max_depth"]:
-            blocked.add("delegate")
-        granted = [c for c in caps if c not in blocked]
-        stripped = [c for c in caps if c in blocked]
-        iterations = int(self.policy["max_iterations"])
-        if requested_iterations is not None and int(requested_iterations) < iterations:
-            iterations = int(requested_iterations)       # lower is allowed; higher is not
         try:
             child = self.sched.submit(command, priority=priority, timeout_s=timeout_s,
                                       lane=lane)
@@ -174,7 +181,21 @@ class Delegation:
         return out
 
     def sweep_stale(self, older_than_s: float) -> list[str]:
-        """Report stale RUNNING children - never re-run them (their side effects may
-        already have happened)."""
+        """Report stale RUNNING children - never re-run them, and never mark a job
+        this delegation does not own."""
         kids = set(self._dstate()["child"])
-        return [j for j in self.sched.report_stale(older_than_s) if j in kids]
+        st = self.sched._state()
+        now = self.sched._clock()
+        out = []
+        for jid, v in st.items():
+            if jid not in kids:
+                continue
+            if (v["st"] == "RUNNING" and not v.get("stale_reported")
+                    and now - v.get("claimed", now) > older_than_s):
+                self.ledger.append(
+                    "JOB_STALE",
+                    {"job_id": jid, "worker": self.sched.worker,
+                     "detail": "stale RUNNING - reported, NOT retried; "
+                               "its side effects may already have happened"})
+                out.append(jid)
+        return out

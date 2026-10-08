@@ -25,6 +25,7 @@ from __future__ import annotations
 
 import json
 import re
+from collections.abc import Callable
 from dataclasses import dataclass, replace
 from pathlib import Path
 
@@ -347,7 +348,7 @@ def _journal(
 
 def run(
     attempt: Attempt,
-    call,
+    call: Callable[[Attempt], dict[str, object]],
     *,
     catalog_form: str | None = None,
     journal: Path | None = None,

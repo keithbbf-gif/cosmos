@@ -28,14 +28,12 @@ from __future__ import annotations
 import argparse
 import json
 import os
-import re
 import sys
-import time
 import urllib.error
 import urllib.parse
 import urllib.request
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Tuple
+from typing import Any, Dict, List, Optional
 
 CF_API_BASE = "https://api.cloudflare.com/client/v4"
 TURNSTILE_VERIFY_URL = "https://challenges.cloudflare.com/turnstile/v0/siteverify"
@@ -441,6 +439,7 @@ def install_secrets_to_root(force: bool = False) -> Path:
     """Install discovered Cloudflare credentials and standard secrets safely
     into %USERPROFILE%\\.cosmos_pay\\secrets.json with ZERO chat/console echo."""
     import secrets as secrets_mod
+
     import cosmos_pay_config as cfg
 
     cfg.ensure_dirs()

@@ -41,10 +41,12 @@ class ToolRegistry:
     def schemas(self) -> list[dict[str, object]]:
         return [*self.server_tools, *[tool.schema() for tool in self.tools.values()]]
 
-    def call(self, name: str, arguments: str) -> str:
+    def call(self, name: str, arguments: str, *, confirmed: bool = False) -> str:
         tool = self.tools.get(name)
         if tool is None:
             return json.dumps({"ok": False, "error": f"unknown tool {name}"})
+        if tool.confirm and not confirmed:
+            return json.dumps({"ok": False, "error": "confirm required"})
         try:
             payload = json.loads(arguments) if arguments else {}
         except json.JSONDecodeError as exc:

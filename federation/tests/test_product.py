@@ -95,3 +95,29 @@ def test_jail_contains_relative_writes(scratch: Path) -> None:
             assert exc.code == "PATH"
         else:
             raise AssertionError(bad)
+
+
+def test_jail_refuses_device_names_and_streams(scratch: Path) -> None:
+    jail = PathJail(scratch)
+    blocked = (
+        "NUL",
+        "con",
+        "PRN.txt",
+        "aux",
+        "COM1",
+        "lpt9.dat",
+        "config/NUL",
+        "config/api_token.txt:stream",
+        "notes/file.txt:Zone.Identifier",
+    )
+    for rel in blocked:
+        try:
+            jail.contain(rel)
+        except Refuse as exc:
+            assert exc.code == "PATH"
+            assert exc.detail == "device or stream"
+        else:
+            raise AssertionError(rel)
+    plain = jail.contain("null.txt")
+    assert plain.name == "null.txt"
+    assert scratch.resolve() in plain.parents

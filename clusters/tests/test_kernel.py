@@ -30,6 +30,19 @@ def test_live_path_and_secrets_refuse():
     assert secret.value.code == "SECRET"
 
 
+def test_live_segment_refuses_relative_root_and_children(tmp_path):
+    for text in ("live", "live/ledger", r"work\live\ledger", "notes/live"):
+        with pytest.raises(Refuse) as refused:
+            guard_path(text)
+        assert refused.value.code == "LIVE_TREE"
+    assert guard_path("delivery") == "delivery"
+    assert guard_path("notes/olive") == "notes/olive"
+    with pytest.raises(Refuse) as stored:
+        Store(tmp_path / "live")
+    assert stored.value.code == "LIVE_TREE"
+    assert not (tmp_path / "live").exists()
+
+
 def test_store_folds_and_fsyncs(tmp_path):
     store = Store(tmp_path / "proj")
     store.append("note", {"id": "n1", "text": "one"})

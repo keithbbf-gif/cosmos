@@ -1,13 +1,16 @@
 """The 4Cs: py_compile, ruff, mypy, pytest.
 
 A missing tool is MISSING, never a silent skip. pytest exit 5 is NO_TESTS.
-NONE is NO_CODE. Prose does not reach a judge. FAIL and MISSING block.
+NONE is NO_CODE. Prose does not reach a judge. FAIL and MISSING block a
+reply row. The package command uses the harness verify rule: four rows,
+every status PASS. NO_TESTS is not a pass on that command.
 """
 
 from __future__ import annotations
 
 import hashlib
 import importlib.util
+import os
 import py_compile
 import subprocess
 import sys
@@ -16,6 +19,7 @@ from typing import Any
 
 TOOLS = ("py_compile", "ruff", "mypy", "pytest")
 BLOCKING = frozenset({"FAIL", "MISSING"})
+_SECRET = ("KEY", "TOKEN", "SECRET", "PASSWORD", "CREDENTIAL")
 
 
 def _sha(text: str) -> str:
@@ -47,6 +51,21 @@ def _row(
 
 def fails_of(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return [row for row in rows if row.get("status") in BLOCKING]
+
+
+def package_blocked(rows: list[dict[str, Any]]) -> str | None:
+    """Same checker half as ``cosmos_harness.hooks.verify``.
+
+    Four rows, every status PASS, or a reason. The reason is the first
+    status that is not PASS, or CHECKS when the count is not four and every
+    present status is already PASS. MISSING, UNAVAILABLE, NO_TESTS, NO_CODE,
+    and PROSE all block. Reply rows still use ``fails_of``.
+    """
+    statuses = [str(row.get("status") or "") for row in rows]
+    blocked = [status for status in statuses if status != "PASS"]
+    if len(statuses) != 4 or blocked:
+        return blocked[0] if blocked else "CHECKS"
+    return None
 
 
 def reaches_judge(rows: list[dict[str, Any]]) -> bool:
@@ -109,16 +128,32 @@ def _module(name: str) -> list[str] | None:
     return [sys.executable, "-m", name]
 
 
-def _run(argv: list[str], cwd: Path) -> tuple[int, str, str]:
-    proc = subprocess.run(
-        argv,
-        cwd=str(cwd),
-        capture_output=True,
-        text=True,
-        encoding="utf-8",
-        errors="replace",
-        shell=False,
-    )
+def _scrub(env: dict[str, str]) -> dict[str, str]:
+    return {
+        key: value
+        for key, value in env.items()
+        if not any(part in key.upper() for part in _SECRET)
+    }
+
+
+def _run(argv: list[str], cwd: Path, *, timeout: float = 120.0) -> tuple[int, str, str]:
+    """A hung checker is exit 124. That code is FAIL, not a pass."""
+    env = _scrub(dict(os.environ))
+    env["PYTHONDONTWRITEBYTECODE"] = "1"
+    try:
+        proc = subprocess.run(
+            argv,
+            cwd=str(cwd),
+            capture_output=True,
+            text=True,
+            encoding="utf-8",
+            errors="replace",
+            shell=False,
+            timeout=timeout,
+            env=env,
+        )
+    except subprocess.TimeoutExpired:
+        return 124, "", "timeout"
     return proc.returncode, proc.stdout or "", proc.stderr or ""
 
 
@@ -200,7 +235,12 @@ def check_package(root: Path) -> list[dict[str, Any]]:
     rec = {"order_id": root.name}
     digest = _sha(str(root))
     rows: list[dict[str, Any]] = []
-    files = [p for p in root.rglob("*.py") if "__pycache__" not in p.parts]
+    files = [
+        p for p in root.rglob("*.py")
+        if "__pycache__" not in p.parts and "_delme" not in p.parts
+    ]
+    if not files:
+        return [_row(rec, tool, "PROSE", 0, str(root), digest) for tool in TOOLS]
     errors: list[str] = []
     for path in files:
         try:

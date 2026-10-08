@@ -221,11 +221,9 @@ class DuplexSession:
             return
         if result.action == "cancel":
             self._apply(self.rail.force_say(result.spoken or "Cancelled."))
-            if result.transcript and self.on_user is not None:
-                self.on_user(result.transcript)
             return
         if result.action == "confirm" and result.tool_name:
-            output = self.tools.call(result.tool_name, result.tool_args)
+            output = self.tools.call(result.tool_name, result.tool_args, confirmed=True)
             self.rail.submit_tool_result(result.call_id, output)
             self._await_continue = True
             return

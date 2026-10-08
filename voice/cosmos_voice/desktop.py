@@ -143,10 +143,11 @@ class DesktopLoop:
         decision = self._modes.accept(heard, held=held, tapped=tapped, mode=mode, now=now)
         if not decision.accepted:
             return self._stop(decision.kind)
-        if self._confirm.reject_phrase(heard):
+        phrase = decision.transcript
+        if self._confirm.reject_phrase(phrase):
             return self._stop("cancelled", ok=True, spoken="Cancelled.")
-        confirm_id = self._confirm.accept_phrase(heard) or ""
-        body = self._mouth.speak_turn(decision.transcript, self._session, confirm_id=confirm_id)
+        confirm_id = self._confirm.accept_phrase(phrase) or ""
+        body = self._mouth.speak_turn(phrase, self._session, confirm_id=confirm_id)
         self._session.note_reply(body)
         self._confirm.observe(body)
         needs = bool(body.get("needs_confirm"))

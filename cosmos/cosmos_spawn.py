@@ -83,10 +83,10 @@ def _as_spec(spec) -> SpawnSpec:
     return SpawnSpec(
         role=str(spec.get("role") or "").strip(),
         model=str(spec.get("model") or "").strip(),
-        wrapper_paths=list(spec.get("wrapper_paths") or []),
-        skill_names=list(spec.get("skill_names") or []),
-        tools=list(spec.get("tools") or []),
-        params=dict(spec.get("params") or {}),
+        wrapper_paths=_str_list(spec.get("wrapper_paths"), "wrapper_paths"),
+        skill_names=_str_list(spec.get("skill_names"), "skill_names"),
+        tools=_str_list(spec.get("tools"), "tools"),
+        params=_param_dict(spec.get("params")),
     )
 
 
@@ -97,18 +97,75 @@ def _require_file(path: Path, layer: str) -> str:
     return str(p)
 
 
+def _same_dir(a: Path, b: Path) -> bool:
+    left = str(a).replace("/", "\\").lower()
+    right = str(b).replace("/", "\\").lower()
+    return left == right
+
+
+def _direct_file(root: Path, name: str) -> str | None:
+    """One path segment under root. `..` and slash names are not styles."""
+    raw = str(name or "").strip()
+    if not raw or raw in {".", ".."} or Path(raw).name != raw:
+        return None
+    candidate = root / raw
+    try:
+        resolved = candidate.resolve()
+        root_r = root.resolve()
+    except OSError:
+        return None
+    if not resolved.is_file() or not _same_dir(resolved.parent, root_r):
+        return None
+    return str(resolved)
+
+
 def _load_wrap(role: str) -> str:
     name = str(role or "").strip() or DEFAULT_ROLE
-    return _require_file(WRAP_DIR / name, f"WRAP/{name}")
+    found = _direct_file(WRAP_DIR, name)
+    if found is None:
+        raise SpawnError("MISSING_LAYER", f"WRAP/{name} missing")
+    return found
 
 
 def _load_style(model: str) -> str:
-    name = str(model or "").strip()
-    if name:
-        pinned = STYLES_DIR / name
-        if pinned.is_file():
-            return str(pinned)
-    return _require_file(STYLES_DIR / "_TEMPLATE", "STYLES/_TEMPLATE")
+    found = _direct_file(STYLES_DIR, str(model or "").strip())
+    if found is not None:
+        return found
+    tmpl = _direct_file(STYLES_DIR, "_TEMPLATE")
+    if tmpl is None:
+        raise SpawnError("MISSING_LAYER", "STYLES/_TEMPLATE missing")
+    return tmpl
+
+
+def _require_style(path) -> str:
+    raw = str(path or "").strip()
+    p = Path(raw) if raw else Path()
+    if not raw or not p.is_file():
+        raise SpawnError("MISSING_LAYER", f"style_path missing: {raw}")
+    try:
+        resolved = p.resolve()
+    except OSError as e:
+        raise SpawnError("MISSING_LAYER", f"style_path unreadable: {raw}") from e
+    if not _same_dir(resolved.parent, STYLES_DIR.resolve()):
+        raise SpawnError("MISSING_LAYER", f"style_path escapes STYLES: {raw}")
+    return str(resolved)
+
+
+def _str_list(value, label: str) -> list[str]:
+    """A str is a character sequence, not a list of names."""
+    if value is None:
+        return []
+    if isinstance(value, (str, bytes)) or not isinstance(value, (list, tuple)):
+        raise SpawnError("BAD_INPUT", f"{label} must be a list")
+    return [str(item).strip() for item in value if str(item).strip()]
+
+
+def _param_dict(value) -> dict:
+    if value is None:
+        return {}
+    if not isinstance(value, dict):
+        raise SpawnError("BAD_INPUT", "params must be an object")
+    return dict(value)
 
 
 def defaults(role: str = "", model: str = "") -> SpawnSpec:
@@ -147,35 +204,38 @@ def apply(spec) -> SpawnSpec:
     """Fill missing layers from defaults. Never silent-skip a hole."""
     cur = _as_spec(spec)
     filled = []
-    role = cur.role
+    role = str(cur.role or "").strip()
     if not role:
         role = DEFAULT_ROLE
         filled.append("role")
-    model = cur.model
-    if not model:
-        filled.append("model")
+    # No default model name. Do not record a fill that leaves model empty.
+    model = str(cur.model or "").strip()
     base = defaults(role, model)
-    wrappers = [str(p).strip() for p in (cur.wrapper_paths or []) if str(p).strip()]
+    wrappers = _str_list(cur.wrapper_paths, "wrapper_paths")
     if not wrappers:
         wrappers = list(base.wrapper_paths)
         filled.append("wrapper_paths")
     for p in wrappers:
         _require_file(Path(p), "wrapper_paths")
-    skills = [str(s).strip() for s in (cur.skill_names or []) if str(s).strip()]
+    skills = _str_list(cur.skill_names, "skill_names")
     if not skills:
         skills = list(base.skill_names)
         filled.append("skill_names")
-    tools = [str(t).strip() for t in (cur.tools or []) if str(t).strip()]
-    if not list(cur.tools or []):
+    tools = _str_list(cur.tools, "tools")
+    if not tools:
         tools = list(base.tools)
         filled.append("tools")
-    params = dict(cur.params) if cur.params else {}
-    if not cur.params:
+    params = _param_dict(cur.params)
+    if not params:
         params = dict(base.params)
         filled.append("params")
     if "ccr_session" not in params:
         params["ccr_session"] = CCR_SESSION
         filled.append("params.ccr_session")
+    if not str(params.get("style_path") or "").strip():
+        params["style_path"] = base.params["style_path"]
+        filled.append("params.style_path")
+    params["style_path"] = _require_style(params["style_path"])
     return SpawnSpec(
         role=role,
         model=model,
@@ -213,10 +273,10 @@ def spec_from_order(order: dict) -> SpawnSpec:
     return SpawnSpec(
         role=str(role or "").strip(),
         model=str(model or "").strip(),
-        wrapper_paths=list(extra.get("wrapper_paths") or []),
-        skill_names=list(extra.get("skill_names") or []),
-        tools=list(extra.get("tools") or []),
-        params=dict(extra.get("params") or {}),
+        wrapper_paths=_str_list(extra.get("wrapper_paths"), "wrapper_paths"),
+        skill_names=_str_list(extra.get("skill_names"), "skill_names"),
+        tools=_str_list(extra.get("tools"), "tools"),
+        params=_param_dict(extra.get("params")),
     )
 
 
@@ -282,15 +342,25 @@ def preflight_session(paths) -> dict:
     }
 
 
+_GROK_NAMES = {"grok", "grok.exe", "grok.cmd", "grok.bat"}
+
+
 def refuse(argv) -> None:
-    """Refuse extra grok.exe / grok --single as a work-order worker."""
-    parts = [str(a) for a in (argv or [])]
-    names = [Path(p).name.lower() for p in parts]
+    """Refuse extra grok.exe / grok --single as a work-order worker.
+
+    A string argv is one argument. Iterating it would see characters and
+    miss grok.exe. grok.cmd / grok.bat are the Windows shims for grok.
+    """
+    if isinstance(argv, (str, bytes)):
+        parts = [str(argv)]
+    else:
+        parts = [str(a) for a in (argv or [])]
     if any("grok.exe" in p.lower().replace("\\", "/") for p in parts):
         raise SpawnError(
             "REFUSED",
             "extra grok.exe as WO worker")
-    if "grok" in names and "--single" in parts:
+    names = [Path(p).name.lower() for p in parts]
+    if any(name in _GROK_NAMES for name in names) and "--single" in parts:
         raise SpawnError(
             "REFUSED",
             "grok --single as WO worker")
@@ -328,6 +398,11 @@ def fail_xfer(paths, rec: dict, kind: str, detail: str) -> dict:
         out["attempt_kind"] = "UNMEASURED"
         out["autopsy_error"] = "%s: %s" % (type(e).__name__, e)[:200]
     dest = order_file(dirs["failed"], oid)
+    try:
+        from cosmos_judge_run import archive_corpse
+        out["archive"] = archive_corpse(paths, out)
+    except Exception as e:  # noqa: BLE001
+        out["archive"] = {"ok": False, "kind": type(e).__name__, "detail": str(e)[:200]}
     dest.parent.mkdir(parents=True, exist_ok=True)
     tmp = dest.with_name(dest.name + ".tmp")
     tmp.write_text(json.dumps(out, indent=1, default=str), encoding="utf-8")
@@ -339,11 +414,6 @@ def fail_xfer(paths, rec: dict, kind: str, detail: str) -> dict:
                 stale.unlink()
             except OSError:
                 pass
-    try:
-        from cosmos_judge_run import archive_corpse
-        out["archive"] = archive_corpse(paths, out)
-    except Exception as e:  # noqa: BLE001
-        out["archive"] = {"ok": False, "kind": type(e).__name__, "detail": str(e)[:200]}
     return out
 
 
@@ -367,7 +437,10 @@ def _selftest() -> int:
           and "role" in filled.filled
           and any(Path(p).name == DEFAULT_ROLE for p in filled.wrapper_paths)
           and any(Path(p).name == CCR_ROLE for p in filled.wrapper_paths)
-          and filled.params.get("ccr_session") == CCR_SESSION)
+          and filled.params.get("ccr_session") == CCR_SESSION
+          and filled.model == ""
+          and "model" not in filled.filled
+          and Path(str(filled.params.get("style_path"))).name == "_TEMPLATE")
 
     concat_kind = None
     try:
@@ -390,6 +463,19 @@ def _selftest() -> int:
         exe_kind = e.kind
     check("VERIFY 3 grok argv refuses",
           lambda: grok_kind == "REFUSED" and exe_kind == "REFUSED")
+
+    string_kind = None
+    try:
+        refuse(r"C:\Users\Papa\.grok\bin\grok.exe")
+    except SpawnError as e:
+        string_kind = e.kind
+    cmd_kind = None
+    try:
+        refuse(["grok.cmd", "--single", "task"])
+    except SpawnError as e:
+        cmd_kind = e.kind
+    check("string grok.exe and grok.cmd --single refuse",
+          lambda: string_kind == "REFUSED" and cmd_kind == "REFUSED")
 
     td = Path(tempfile.mkdtemp(prefix="cosmos_spawn_"))
     live = td / "live"
@@ -457,9 +543,62 @@ def _selftest() -> int:
         ok_codex = False
     check("codex argv is not a grok WO refuse", lambda: ok_codex)
 
-    bad = [(l, e) for l, ok, e in results if not ok]
-    for l, ok, e in results:
-        print(("  OK  " if ok else "  FAIL") + f" {l}" + (f"  {e}" if e else ""))
+    partial = apply(SpawnSpec(role="CODER", params={"pack": "house"}))
+    check("partial params still carry style_path",
+          lambda: partial.params.get("pack") == "house"
+          and partial.params.get("ccr_session") == CCR_SESSION
+          and Path(str(partial.params.get("style_path"))).name == "_TEMPLATE"
+          and "params.style_path" in partial.filled)
+
+    blank = apply(SpawnSpec(role="   ", model="   "))
+    check("blank role is the CODER default and empty model is not a fill",
+          lambda: blank.role == "CODER"
+          and blank.model == ""
+          and "role" in blank.filled
+          and "model" not in blank.filled)
+
+    pinned = apply(SpawnSpec(role="CODER", model="gpt-6-luna", tools=["  "]))
+    check("named style is kept and blank tools are the default list",
+          lambda: Path(str(pinned.params.get("style_path"))).name == "gpt-6-luna"
+          and pinned.tools == []
+          and "tools" in pinned.filled)
+
+    escaped = _load_style("../WRAP/CODER")
+    check("style .. stays on the template",
+          lambda: Path(escaped).name == "_TEMPLATE"
+          and Path(escaped).parent.name.lower() == "styles")
+
+    outside = None
+    try:
+        apply(SpawnSpec(
+            role="CODER",
+            params={"style_path": str(WRAP_DIR / "CODER")},
+        ))
+    except SpawnError as e:
+        outside = e.kind
+    check("style_path outside STYLES is MISSING_LAYER",
+          lambda: outside == "MISSING_LAYER")
+
+    picked_dir = paths.role("state") / "work_orders" / "picked"
+    picked_dir.mkdir(parents=True, exist_ok=True)
+    (picked_dir / "spawn-fail.json").write_text("{}", encoding="utf-8")
+    xfer = fail_xfer(
+        paths,
+        {"order_id": "spawn-fail", "Task": "no-worker"},
+        "REFUSED",
+        "selftest",
+    )
+    corpse_path = paths.role("state") / "work_orders" / "failed" / "spawn-fail.json"
+    corpse = json.loads(corpse_path.read_text(encoding="utf-8"))
+    check("fail_xfer writes archive onto the corpse and clears the womb copy",
+          lambda: corpse.get("state") == "FAILED"
+          and corpse.get("archive") == xfer.get("archive")
+          and bool(xfer.get("archive"))
+          and not (picked_dir / "spawn-fail.json").exists())
+
+    bad = [(label, err) for label, ok, err in results if not ok]
+    for label, ok, err in results:
+        print(("  OK  " if ok else "  FAIL") + f" {label}" + (f"  {err}" if err else ""))
     print(f"{len(results) - len(bad)}/{len(results)} passed")
     return 1 if bad else 0
 

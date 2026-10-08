@@ -133,6 +133,24 @@ def test_consequential_line_is_held_until_yes() -> None:
     assert rail.said[-1] == "Submitted."
 
 
+def test_cancel_is_not_delivered_to_the_host() -> None:
+    rail = _Script()
+    seen: list[str] = []
+    session = DuplexSession(VoiceConfig(), rail, on_user=seen.append)
+    session.open()
+    rail.events.append(RailEvent("user_transcript", text="submit the job", final=True))
+    session.feed(silence(20))
+    rail.events.append(RailEvent("user_transcript", text="ok submit it", final=True))
+    session.feed(silence(20))
+    assert seen == []
+    assert rail.said[-1] == "Cancelled."
+    user_lines = [item.text for item in session.captions if item.role == "user"]
+    assert user_lines == ["submit the job", "ok submit it"]
+    rail.events.append(RailEvent("user_transcript", text="hello there", final=True))
+    session.feed(silence(20))
+    assert seen == ["hello there"]
+
+
 def test_destructive_transcript_is_refused() -> None:
     rail = _Script()
     session = DuplexSession(VoiceConfig(), rail)

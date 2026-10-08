@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """Grok TUI adapter — ~/.grok/sessions/<cwd>/<uuid>/ summary.json + chat_history.jsonl."""
 from __future__ import annotations
 
@@ -54,7 +53,7 @@ def scan(store: Path) -> dict:
 
 
 def load(store: Path, rec_id: str) -> tuple[dict, list]:
-    want = rec_id[5:] if rec_id.startswith("grok-") else rec_id
+    want = rec_id.removeprefix("grok-")
     hit = None
     for d in _sessions(store):
         vid = _vid(d)

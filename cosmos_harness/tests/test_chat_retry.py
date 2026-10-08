@@ -6,6 +6,8 @@ import json
 import sys
 from pathlib import Path
 
+import cosmos_harness  # noqa: F401  # this tree, before run_cheap inserts another
+
 sys.path.insert(0, str(Path(r"V:\streams\cosmos_code\attempts\cheap-seat")))
 
 from run_cheap import ChatSample  # noqa: E402

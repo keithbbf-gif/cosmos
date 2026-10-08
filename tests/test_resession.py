@@ -18,24 +18,48 @@ import os
 import sys
 import tempfile
 import time
+import tomllib
 from datetime import datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "cosmos"))
 
-from cosmos_kernel import install                                     # noqa: E402
-from cosmos_paths import CosmosPaths                                  # noqa: E402
-from cosmos_own_clocks import CLOCKS                                  # noqa: E402
-from cosmos_resession import (                                        # noqa: E402
-    CLOCK_ID, CONTEXT_CLOSE_PCT, CONTEXT_PACK_PCT, CONTEXT_WARN_PCT,
-    GROK_CLOSE_TOKENS, GROK_WARN_TOKENS, HEARTBEAT_NAME,
-    PROJECTION_NAME, ResessionRefusal, TASK_NAME, arm_gate_flag,
-    classify_pause, close_banner, cosmos_tu2, decide, latch_warn,
-    plan_task_argv, poll_once, precheck_seed, read_warn_latched,
-    render_running_session, resume_plan,
-    spawn_argv, spawn_auto_resession, spawn_inject_argv, spawn_tui_argv,
-    transcript_path, unique_stamp, watermark,
+from cosmos_kernel import install  # noqa: E402
+from cosmos_own_clocks import CLOCKS  # noqa: E402
+from cosmos_paths import CosmosPaths  # noqa: E402
+from cosmos_resession import (  # noqa: E402
+    CLOCK_ID,
+    CONTEXT_CLOSE_PCT,
+    CONTEXT_PACK_PCT,
+    CONTEXT_WARN_PCT,
+    GROK_CLOSE_TOKENS,
+    GROK_WARN_TOKENS,
+    GROK_WINDOW_TOKENS,
+    HEARTBEAT_NAME,
+    PROJECTION_NAME,
+    TASK_NAME,
+    ResessionRefusal,
+    arm_gate_flag,
+    classify_pause,
+    close_banner,
+    cosmos_tu2,
+    decide,
+    latch_warn,
+    plan_resession,
+    plan_task_argv,
+    poll_once,
+    precheck_seed,
+    read_warn_latched,
+    render_running_session,
+    resume_plan,
+    spawn_argv,
+    spawn_auto_resession,
+    spawn_inject_argv,
+    spawn_tui_argv,
+    transcript_path,
+    unique_stamp,
+    watermark,
 )
 
 RESULTS: list[tuple[str, bool, str]] = []
@@ -595,6 +619,37 @@ def main() -> int:
     check("standup with injected create_task never calls real schtasks",
           lambda: _standup_injected(str(scratch)))
 
+    # ---- installed doors: a plan per door, never a spawn -------------------
+    door_rows = tomllib.loads(
+        (ROOT / "installs" / "DOORS.toml").read_text(encoding="utf-8"))["door"]
+    door_ids = [str(row["id"]) for row in door_rows]
+    check("the door catalog lists every id the plan must cover",
+          lambda: set(door_ids) == {
+              "codex", "claude", "dsh", "opencode", "pi", "cursor",
+              "gemini", "hermes", "grok"})
+    for row in door_rows:
+        door_id = str(row["id"])
+        if door_id == "claude":
+            check("plan claude raises ANTHROPIC_OFF and builds no argv",
+                  lambda: _raises(lambda: plan_resession("claude", model=None),
+                                  "ANTHROPIC_OFF"))
+            continue
+        if door_id == "grok":
+            check("plan grok keeps 5a/5b, execute false, window 200000/190000",
+                  _plan_grok)
+            continue
+        binary = str(row["binary"])
+        check("plan %s is dry argv %r and window UNMEASURED" % (door_id, binary),
+              lambda d=door_id, b=binary: _plan_unmeasured(d, b))
+    check("plan unknown rail is NO_RAIL",
+          lambda: _raises(lambda: plan_resession("not-a-door"), "NO_RAIL"))
+    check("a passed model does not invent a token cap or a flag",
+          lambda: _model_stays_off_argv())
+    check("plan_resession source has no Popen or subprocess",
+          _plan_source_is_dry)
+    check("planning every door does not call subprocess.run",
+          _plans_do_not_launch)
+
     bad_rows = [r for r in RESULTS if not r[1]]
     for label, ok, err in RESULTS:
         print(f"  {'OK  ' if ok else 'FAIL'}  {label}{('  ' + err) if err else ''}")
@@ -616,9 +671,100 @@ def main() -> int:
         "passed": len(RESULTS) - len(bad_rows),
         "total": len(RESULTS),
         "live_value": live_value,
-        "failed": [{"label": l, "err": e} for l, ok, e in RESULTS if not ok],
+        "failed": [{"label": label, "err": err} for label, ok, err in RESULTS if not ok],
     }, indent=1), encoding="utf-8")
     return 1 if bad_rows else 0
+
+
+def _plan_grok() -> bool:
+    cwd, sid, prompt = "V:/A/Ai/COSMOS", "u-9", "P.md"
+    rec = plan_resession("grok", model=None, cwd=cwd, session_id=sid,
+                         prompt_file=prompt)
+    win = rec["window"]
+    named = plan_resession("grok", model="grok-4", cwd=cwd, session_id=sid,
+                           prompt_file=prompt)
+    return (rec["rail"] == "grok"
+            and rec["execute"] is False
+            and rec["steps"] == "5a+5b"
+            and rec["argv"] == spawn_inject_argv(cwd, sid, prompt)
+            and rec["tui_argv"] == spawn_tui_argv(cwd, sid)
+            and isinstance(rec["argv"], list)
+            and all(isinstance(part, str) for part in rec["argv"])
+            and all(isinstance(part, str) for part in rec["tui_argv"])
+            and isinstance(win, dict)
+            and win.get("tokens") == GROK_WINDOW_TOKENS == 200000
+            and win.get("warn") == GROK_WARN_TOKENS == 130000
+            and win.get("close") == GROK_CLOSE_TOKENS == 190000
+            and "-c" not in rec["argv"] and "-c" not in rec["tui_argv"]
+            and named["argv"] == rec["argv"]
+            and named["tui_argv"] == rec["tui_argv"]
+            and named["window"] == rec["window"]
+            and named["execute"] is False)
+
+
+def _plan_unmeasured(door_id: str, binary: str) -> bool:
+    rec = plan_resession(door_id, model=None)
+    argv = rec["argv"]
+    return (rec["rail"] == door_id
+            and rec["execute"] is False
+            and rec["window"] == "UNMEASURED"
+            and argv == [binary]
+            and isinstance(argv, list)
+            and all(isinstance(part, str) for part in argv)
+            and "model" not in rec)
+
+
+def _model_stays_off_argv() -> bool:
+    rec = plan_resession("hermes", model="hermes-3")
+    return (rec["argv"] == ["hermes"]
+            and rec["window"] == "UNMEASURED"
+            and rec["execute"] is False
+            and rec.get("model") == "hermes-3"
+            and "--model" not in rec["argv"]
+            and "-m" not in rec["argv"])
+
+
+def _plan_source_is_dry() -> bool:
+    """The plan function's own source must not name a launcher."""
+    import cosmos_resession as cr
+    text = Path(cr.__file__).read_text(encoding="utf-8")
+    start = text.find("def plan_resession(")
+    if start < 0:
+        return False
+    nxt = text.find("\ndef ", start + 1)
+    body = text[start: nxt if nxt != -1 else None]
+    return "Popen" not in body and "subprocess" not in body
+
+
+def _plans_do_not_launch() -> bool:
+    import cosmos_resession as cr
+    calls: list = []
+
+    def boom(*a, **k):
+        calls.append(a)
+        raise RuntimeError("plan launched a process")
+
+    real = cr.subprocess.run
+    cr.subprocess.run = boom
+    try:
+        rows = tomllib.loads(
+            (ROOT / "installs" / "DOORS.toml").read_text(encoding="utf-8"))["door"]
+        for row in rows:
+            door_id = str(row["id"])
+            if door_id == "claude":
+                if not _raises(lambda: cr.plan_resession("claude"), "ANTHROPIC_OFF"):
+                    return False
+                continue
+            rec = cr.plan_resession(door_id, model=None)
+            if rec.get("execute") is not False:
+                return False
+            if not isinstance(rec.get("argv"), list):
+                return False
+        if not _raises(lambda: cr.plan_resession("not-a-door"), "NO_RAIL"):
+            return False
+    finally:
+        cr.subprocess.run = real
+    return calls == []
 
 
 def _raises(fn, kind: str) -> bool:

@@ -18,6 +18,8 @@ import subprocess
 import sys
 from pathlib import Path
 
+from cosmos_harness.layers import scrub_env
+
 
 def _present(name: str) -> list[str] | None:
     if importlib.util.find_spec(name) is None:
@@ -31,7 +33,7 @@ def _run(argv: list[str], cwd: Path, *, timeout: float = 120.0) -> tuple[int, st
     Checkers stay outside the active-process job. That limit is for one
     oracle child, not for pytest collecting a tree.
     """
-    env = dict(os.environ)
+    env = scrub_env(dict(os.environ))
     env["PYTHONDONTWRITEBYTECODE"] = "1"
     try:
         proc = subprocess.run(

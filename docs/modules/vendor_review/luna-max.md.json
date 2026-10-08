@@ -1,0 +1,9 @@
+{
+ "ok": true,
+ "model": "openai/gpt-5.6-luna-pro",
+ "reason": null,
+ "detail": "http=200 response_model='openai/gpt-5.6-luna-pro'",
+ "tokens": {},
+ "usd": null,
+ "chars": 652
+}

@@ -7,8 +7,8 @@ Workers run under live/work/attempts/<id>, never on host pens.
 Job-Object is the default host backend (kill-on-close, 8 procs).
 Daytona and E2B are composed transports behind this facade; unconfigured
 → typed UNCONFIGURED, never a silent host cwd. Modal stays named, not
-composed. Not a scheduler. Live vendor HTTP is UNMEASURED until Keith
-pastes creds (config/sandbox_backend.json + key files).
+composed. Not a scheduler. Live vendor HTTP stays UNMEASURED.
+A key file is not a socket (config/sandbox_backend.json + key files).
 
     py -3.14 cosmos\\cosmos_sandbox.py --selftest
 """
@@ -19,9 +19,9 @@ import os
 import subprocess
 import sys
 import tempfile
-import time
 import uuid
 from pathlib import Path
+from typing import Any, cast
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
@@ -51,11 +51,53 @@ class SandboxError(RuntimeError):
         super().__init__(f"[{kind}] {detail}")
 
 
-def _is_v_volume(path) -> bool:
-    s = str(path or "").replace("/", "\\")
-    if s.upper().startswith("\\\\?\\"):
+def _listing_text(path) -> str:
+    """Win32 listing form. Extended and device prefixes hide V: and pens."""
+    s = str(path or "").strip().replace("/", "\\")
+    upper = s.upper()
+    if upper.startswith("\\\\?\\UNC\\"):
+        s = "\\\\" + s[8:]
+    elif upper.startswith("\\\\?\\") or upper.startswith("\\\\.\\"):
         s = s[4:]
-    return len(s) >= 2 and s[0].upper() == "V" and s[1] == ":"
+    return os.path.normpath(s) if s else ""
+
+
+def _is_v_volume(path) -> bool:
+    s = _listing_text(path)
+    if len(s) >= 2 and s[0].upper() == "V" and s[1] == ":":
+        return True
+    if s.startswith("\\\\"):
+        parts = s.split("\\")
+        share = parts[3] if len(parts) > 3 else ""
+        if share.upper() == "V$":
+            return True
+    return False
+
+
+def _text_under(child: str, pen: str) -> bool:
+    c = os.path.normcase(os.path.normpath(child))
+    host = os.path.normcase(os.path.normpath(pen))
+    if not c or not host or c == ".":
+        return False
+    if c == host:
+        return True
+    tail = "\\" if os.name == "nt" else os.sep
+    if not host.endswith(tail):
+        host = host + tail
+    return c.startswith(host)
+
+
+def _under_pen(path, pen: str) -> bool:
+    text = _listing_text(path)
+    if _text_under(text, pen):
+        return True
+    if text.startswith("\\\\"):
+        return False
+    try:
+        resolved = str(Path(text).resolve())
+    except OSError:
+        return False
+    return _text_under(resolved, pen)
 
 
 def load_backend_config(paths=None) -> dict:
@@ -150,28 +192,27 @@ def assert_no_host_map(backend: str, drives=None, listing=None) -> None:
                 "BACKEND_ISOLATION",
                 f"{backend} worker must not map {p}")
         for pen in HOST_PENS:
-            try:
-                Path(str(p)).resolve().relative_to(Path(pen).resolve())
-            except (OSError, ValueError):
-                continue
-            raise SandboxError(
-                "BACKEND_ISOLATION",
-                f"{backend} worker must not map host pen {pen}")
+            if _under_pen(p, pen):
+                raise SandboxError(
+                    "BACKEND_ISOLATION",
+                    f"{backend} worker must not map host pen {pen}")
 
 
 def spawn_remote(name, argv, cwd, *, paths=None, timeout_s: float = 30.0) -> dict:
-    """Daytona/E2B transport. Unconfigured → typed refuse, never host spawn."""
-    del argv, cwd, timeout_s  # payload is isolation-checked; no live HTTP
+    """Daytona/E2B transport. Unconfigured → typed refuse, never host spawn.
+
+    A key file still does not open a vendor socket. No invented drive listing.
+    """
+    del argv, cwd, timeout_s
     if not credentials_present(paths, name):
         raise SandboxError(
             "UNCONFIGURED",
             f"{name} backend unconfigured (Keith pastes "
             f"config/{KEY_FILES.get(name, name + '_api_key.txt')}; "
             f"never silent host cwd)")
-    assert_no_host_map(name, drives=[], listing=("V:\\", r"V:\Ai", r"V:\OPENWORK"))
     raise SandboxError(
         "UNMEASURED",
-        f"live {name} vendor call not bound; isolation recorded")
+        f"live {name} vendor call not bound")
 
 
 def spawn_backend(name, argv, cwd, *, timeout_s: float = 30.0,
@@ -202,12 +243,8 @@ def attempt_dir(paths, attempt_id: str | None = None) -> Path:
 def assert_sandbox_cwd(workspace, live_root, repo_tree=None) -> Path:
     ws = refuse_tree_cwd(workspace, live_root, repo_tree=repo_tree)
     for pen in HOST_PENS:
-        try:
-            host = Path(pen).resolve()
-            ws.relative_to(host)
-        except (OSError, ValueError):
-            continue
-        raise SandboxError("HOST_PEN", f"worker cwd refuses {pen}")
+        if _under_pen(ws, pen):
+            raise SandboxError("HOST_PEN", f"worker cwd refuses {pen}")
     return ws
 
 
@@ -225,8 +262,9 @@ def spawn_in_job(argv, cwd, *, timeout_s: float = 30.0,
             "job-object child must not map extra drives")
     cwd = str(Path(cwd).resolve())
     if os.name != "nt":
-        r = subprocess.run(argv, cwd=cwd, capture_output=True, text=True,
-                           timeout=timeout_s)
+        r = subprocess.run(
+            argv, cwd=cwd, capture_output=True, text=True,
+            encoding="utf-8", errors="replace", timeout=timeout_s)
         return {"ok": r.returncode == 0, "rc": r.returncode,
                 "job": False, "stdout": (r.stdout or "")[:400]}
     import ctypes
@@ -288,8 +326,9 @@ def spawn_in_job(argv, cwd, *, timeout_s: float = 30.0,
     try:
         proc = subprocess.Popen(
             argv, cwd=cwd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
-            text=True, creationflags=0x08000000)
-        if not k32.AssignProcessToJobObject(job, int(proc._handle)):
+            text=True, encoding="utf-8", errors="replace",
+            creationflags=0x08000000)
+        if not k32.AssignProcessToJobObject(job, int(cast(Any, proc)._handle)):
             proc.kill()
             raise SandboxError("JOB_ASSIGN", f"AssignProcessToJobObject {ctypes.get_last_error()}")
         out, _ = proc.communicate(timeout=timeout_s)
@@ -377,6 +416,17 @@ def _selftest() -> int:
     except SandboxError as e:
         results.append(("listing V:\\ is BACKEND_ISOLATION",
                         e.kind == "BACKEND_ISOLATION", e.kind))
+    for sample, label in (
+        ("\\\\.\\V:\\", "device V:"),
+        ("\\\\localhost\\V$\\Ai", "admin share V$"),
+        ("\\\\?\\C:\\Users\\Papa\\OneDrive", "extended OneDrive pen"),
+    ):
+        try:
+            assert_no_host_map("daytona", listing=(sample,))
+            results.append((f"{label} is BACKEND_ISOLATION", False, "did not"))
+        except SandboxError as e:
+            results.append((f"{label} is BACKEND_ISOLATION",
+                            e.kind == "BACKEND_ISOLATION", e.kind))
     try:
         spawn_in_job([sys.executable, "-c", "pass"], ws, extra_drives=["Z:"])
         results.append(("extra drives refuse", False, "did not"))

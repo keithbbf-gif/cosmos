@@ -19,7 +19,6 @@ import sqlite3
 import time
 from typing import Any, Dict, Optional
 
-import cosmos_pay_meter as meter_mod
 from cosmos_pay_meter import SCHEMA as METER_SCHEMA
 
 
@@ -41,16 +40,22 @@ class WebhookRouter:
     def attach(self, db_path: str) -> None:
         """Processed-webhook idempotency table (own connection, WAL)."""
         self._db = sqlite3.connect(db_path, check_same_thread=False)
-        self._db.execute("PRAGMA journal_mode=WAL")
-        self._db.execute(
+        self._conn().execute("PRAGMA journal_mode=WAL")
+        self._conn().execute(
             """CREATE TABLE IF NOT EXISTS webhook_seen (
                  processor TEXT, event_id TEXT, PRIMARY KEY (processor, event_id))"""
         )
-        self._db.commit()
+        self._conn().commit()
+
+    def _conn(self) -> sqlite3.Connection:
+        db = self._db
+        if db is None:
+            raise WebhookError("webhook store is not attached")
+        return db
 
     def _seen(self, processor: str, event_id: str) -> bool:
         with self._lock:
-            cur = self._db.execute(
+            cur = self._conn().execute(
                 "SELECT 1 FROM webhook_seen WHERE processor = ? AND event_id = ?",
                 (processor, event_id),
             )
@@ -58,37 +63,37 @@ class WebhookRouter:
 
     def _mark(self, processor: str, event_id: str) -> None:
         with self._lock:
-            self._db.execute(
+            self._conn().execute(
                 "INSERT OR IGNORE INTO webhook_seen (processor, event_id) VALUES (?,?)",
                 (processor, event_id),
             )
-            self._db.commit()
+            self._conn().commit()
 
     def _claim(self, processor: str, event_id: str) -> bool:
         """Atomic check-and-mark under one lock — concurrent duplicate webhooks
         cannot both pass the idempotency gate (double-grant defense)."""
         with self._lock:
-            cur = self._db.execute(
+            cur = self._conn().execute(
                 "SELECT 1 FROM webhook_seen WHERE processor = ? AND event_id = ?",
                 (processor, event_id),
             )
             if cur.fetchone() is not None:
                 return False
-            self._db.execute(
+            self._conn().execute(
                 "INSERT OR IGNORE INTO webhook_seen (processor, event_id) VALUES (?,?)",
                 (processor, event_id),
             )
-            self._db.commit()
+            self._conn().commit()
             return True
 
     def _release(self, processor: str, event_id: str) -> None:
         """Un-claim a webhook whose routing raised — lets the processor retry."""
         with self._lock:
-            self._db.execute(
+            self._conn().execute(
                 "DELETE FROM webhook_seen WHERE processor = ? AND event_id = ?",
                 (processor, event_id),
             )
-            self._db.commit()
+            self._conn().commit()
 
     # ------------------------------------------------------------- routing
     def receive(self, processor: str, payload: bytes, headers: Dict[str, str]) -> Dict[str, Any]:

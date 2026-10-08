@@ -39,6 +39,8 @@ def test_sol_native_is_codex_and_cosmos_code_is_not(tmp_path: Path):
     assert "--ignore-user-config" not in native.plan.argv
     assert own.executable is False
     assert "LOOP.md" in own.plan.files and "TOOLS.md" in own.plan.files
+    assert "shell\n" not in own.plan.files["TOOLS.md"]
+    assert "shell is not a tool" in own.plan.files["TOOLS.md"]
     assert own.plan.files["PIN.md"] == "model=gpt-5.4\n"
     assert "gpt-5.4" not in " ".join(own.plan.argv)
 

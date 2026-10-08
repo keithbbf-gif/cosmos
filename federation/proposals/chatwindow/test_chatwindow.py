@@ -5,6 +5,8 @@ from __future__ import annotations
 from collections.abc import Callable
 from pathlib import Path
 
+import pytest
+
 from chatwindow import COOKIE_NAME, SCHEMA, Cookie, issue_nonce, page, redeem
 from cosmos_federation import NONCE_TTL_S, ROUTE_CHAT, Refuse, secret_shape
 
@@ -43,6 +45,30 @@ def test_redeem_refuses_remote_without_spending() -> None:
         raise AssertionError("remote")
     cookie = redeem(nonce, nonce.code, 50, False)
     assert cookie.value_id == nonce.value_id
+
+
+def test_redeem_wrong_length_still_compares_stored_code(monkeypatch: pytest.MonkeyPatch) -> None:
+    import chatwindow
+
+    nonce = issue_nonce(_draw(bytes(range(64, 80))), 10)
+    seen: list[tuple[str, str]] = []
+    real = chatwindow.const_eq
+
+    def spy(left: str, right: str) -> bool:
+        seen.append((left, right))
+        return real(left, right)
+
+    monkeypatch.setattr(chatwindow, "const_eq", spy)
+    short = "aa"
+    try:
+        redeem(nonce, short, 10, False)
+    except Refuse as exc:
+        assert exc.code == "NONCE"
+    else:
+        raise AssertionError("short")
+    assert seen == [(nonce.code, nonce.code)]
+    assert short not in seen[0]
+    assert redeem(nonce, nonce.code, 10, False).http_only is True
 
 
 def test_redeem_refuses_mismatch_without_spending() -> None:

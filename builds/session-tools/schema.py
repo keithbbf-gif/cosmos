@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """cosmos-transcript/1 — JSONL head + turns. Sidecar is sha-only (no HMAC)."""
 from __future__ import annotations
 
@@ -82,13 +81,52 @@ def view(head_rec: dict, turns: list[dict]) -> dict:
     return out
 
 
+def _span_pieces(turns: list[dict], frames: list) -> list[tuple[int, int, str | None]]:
+    pieces: list[tuple[int, int, str | None]] = []
+    for item in list(turns) + list(frames):
+        src = item.get("src") if "src" in item else item
+        src = src or {}
+        if "off" not in src and "len" not in src:
+            continue
+        sha = src.get("sha256") or None
+        pieces.append((int(src.get("off") or 0), int(src.get("len") or 0), sha))
+    return pieces
+
+
 def spans_ok(head_rec: dict, turns: list[dict]) -> tuple[bool, int, int]:
-    """sum(span.len) vs first source.len. Frame spans count."""
+    """sum(span.len) vs first source.len. Span mode must tile that file."""
     sources = head_rec.get("sources") or []
-    src_len = int((sources[0] or {}).get("len") or 0) if sources else 0
-    total = sum(int((t.get("src") or {}).get("len") or 0) for t in turns)
-    total += sum(int(f.get("len") or 0) for f in (head_rec.get("frames") or []))
-    return total == src_len, total, src_len
+    src = sources[0] if sources else {}
+    if not isinstance(src, dict):
+        src = {}
+    src_len = int(src.get("len") or 0) if sources else 0
+    pieces = _span_pieces(turns, head_rec.get("frames") or [])
+    total = sum(ln for _, ln, _ in pieces)
+    if total != src_len:
+        return False, total, src_len
+    if str(src.get("fidelity") or "") == "blob" or not src.get("path"):
+        return True, total, src_len
+    path = Path(str(src.get("path")))
+    if not path.is_file():
+        return False, total, src_len
+    raw = path.read_bytes()
+    if len(raw) != src_len:
+        return False, total, src_len
+    want = src.get("sha256")
+    if want and sha256_bytes(raw) != want:
+        return False, total, src_len
+    cursor = 0
+    ordered = sorted(pieces, key=lambda item: (item[0], item[1]))
+    for off, ln, span_sha in ordered:
+        if ln < 0 or off != cursor or off + ln > len(raw):
+            return False, total, src_len
+        chunk = raw[off:off + ln]
+        if span_sha and sha256_bytes(chunk) != span_sha:
+            return False, total, src_len
+        cursor += ln
+    if cursor != len(raw):
+        return False, total, src_len
+    return True, total, src_len
 
 
 def parse_jsonl(payload: bytes) -> tuple[dict, list[dict]]:
@@ -101,7 +139,7 @@ def parse_jsonl(payload: bytes) -> tuple[dict, list[dict]]:
 
 
 def write_canonical(out_dir: Path, rec_id: str, payload: bytes) -> dict:
-    from cosmos_validate import write_declared, read_verified
+    from cosmos_validate import read_verified, write_declared
 
     out_dir.mkdir(parents=True, exist_ok=True)
     jsonl = out_dir / f"{rec_id}.ctr.jsonl"

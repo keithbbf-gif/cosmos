@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """session-tools — scan load convert diff check anonymize crash-recover migrate rebind.
 
     py -3.14 builds/session-tools/session_tools.py scan --family cowork --store <dir>
@@ -17,12 +16,12 @@ REPO = HERE.parent.parent
 sys.path.insert(0, str(HERE))
 sys.path.insert(0, str(REPO / "cosmos"))
 
-from adapters import cowork, grok_tui  # noqa: E402
-from adapters import openwork as openwork_native  # noqa: E402
-from adapters import unmeasured as _um  # noqa: E402
-from refusals import SessionToolsRefusal  # noqa: E402
-import verbs  # noqa: E402
-from schema import RESULT_SCHEMA, encode_jsonl, view, write_canonical  # noqa: E402
+import verbs
+from adapters import cowork, grok_tui
+from adapters import openwork as openwork_native
+from adapters import unmeasured as _um
+from refusals import SessionToolsRefusal
+from schema import RESULT_SCHEMA, encode_jsonl, view, write_canonical
 
 FAMILIES = {
     "cowork": cowork,
@@ -180,7 +179,7 @@ def main(argv: list[str] | None = None) -> int:
     cr = sub.add_parser("crash-recover")
     cr.add_argument("--target", required=True)
     cr.add_argument("--bak", default=None)
-    cr.add_argument("--stage", default=str(REPO / "_delme" / "session-tools"))
+    cr.add_argument("--stage", default=None)
     mg = sub.add_parser("migrate")
     mg.add_argument("--id", required=True)
     mg.add_argument("--store", required=True)
@@ -219,11 +218,13 @@ def main(argv: list[str] | None = None) -> int:
                 a.id, Path(a.directory), a.workspace_id,
                 Path(a.out) if a.out else None, a.dry_run)
         else:
-            rec = cmd_crash_recover(Path(a.target), Path(a.bak) if a.bak else None, Path(a.stage))
+            stage = Path(a.stage) if a.stage else Path(a.target).resolve().parent
+            rec = cmd_crash_recover(
+                Path(a.target), Path(a.bak) if a.bak else None, stage)
     except SessionToolsRefusal as e:
         rec = _result(a.cmd, e.kind, {"detail": str(e)}, legal_omitted=int(e.kind == "LEGAL_OMITTED"))
         print(json.dumps(rec, indent=2))
-        return 2 if e.kind != "LEGAL_OMITTED" else 2
+        return 2
     print(json.dumps(rec, indent=2))
     return 0 if rec["kind"] in ("OK", "TRUNCATED", "DRY_RUN", "VERIFIED") else 2
 

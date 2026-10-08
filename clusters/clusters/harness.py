@@ -97,7 +97,7 @@ def _load(harness_root: str | Path | None):
     if text not in sys.path:
         sys.path.insert(0, text)
     try:
-        from g47.seat import live_call, seat
+        from g47.seat import live_call, seat  # type: ignore[import-not-found]
     except ImportError:
         return None
     return seat, live_call

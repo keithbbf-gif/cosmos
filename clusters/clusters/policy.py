@@ -10,6 +10,13 @@ from clusters.models import ROUTINE
 from clusters.refuse import Refuse, forbidden_flag, is_destructive, is_protected_push
 from clusters.store import Store
 
+_CHAIN_MARKS = ("&&", "||", ";", "|", "&", "`", "$(")
+
+
+def _chained(command: str) -> bool:
+    """True when a shell would run more than the allowlisted prefix."""
+    return any(mark in command for mark in _CHAIN_MARKS)
+
 
 def check_command(
     store: Store,
@@ -34,6 +41,8 @@ def check_command(
     denied = _denied(text, extra_deny)
     if denied:
         return _decision("refuse", "DENY", denied)
+    if _chained(text):
+        return _decision("needs_approval", "APPROVAL", "shell chain")
     if _listed(text, [*ROUTINE, *extra_allow]):
         return _decision("allow", "OK", "")
     # Turbo allowlist and hard refusals: turbo does not widen this; code is APPROVAL. Records no claim.
@@ -121,7 +130,8 @@ def _live_hit(command: str) -> str:
     for token in command.split():
         if "/" not in token and "\\" not in token:
             continue
-        folded = token.replace("\\", "/").rstrip("/")
-        if folded.lower().endswith("/live"):
+        folded = token.replace("\\", "/").rstrip("/").lower()
+        parts = [part for part in folded.split("/") if part not in ("", ".")]
+        if any(part == "live" for part in parts):
             return token
     return ""

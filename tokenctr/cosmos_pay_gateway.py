@@ -52,20 +52,39 @@ from datetime import datetime, timezone
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from typing import Any, Dict, Iterator, List, Optional, Tuple
 
+import cosmos_pay_azure_rail as azure_mod
+import cosmos_pay_bedrock_rail as bedrock_mod
 import cosmos_pay_config as cfg
 import cosmos_pay_founding as founding_mod
 import cosmos_pay_meter as meter_mod
-import cosmos_pay_pricing as pricing
+import cosmos_pay_openrouter_rail as openrouter_mod
 import cosmos_pay_processors as proc_mod
+import cosmos_pay_vertex_rail as vtx_mod
 import cosmos_pay_webhooks as hooks_mod
 from cosmos_pay_runpod_rail import RailError, RunPodRail
 
+cf_mod: Any = None
 try:
     import cosmos_pay_cloudflare as cf_mod
 except ImportError:
     cf_mod = None
 
 UTC = timezone.utc
+
+
+def _is_no_supply(exc: BaseException) -> bool:
+    """Rails raise this when key or endpoint is missing. It is not a billed failure."""
+    return getattr(exc, "no_supply", False) is True
+
+
+def attach_rails(config: Dict[str, Any], secrets: Dict[str, Any]) -> Dict[str, Any]:
+    """Build resale rails from config. Missing fields stay unset so chat returns 503."""
+    return {
+        "vertex_rail": vtx_mod.from_config(config, secrets),
+        "bedrock_rail": bedrock_mod.from_config(config, secrets),
+        "openrouter_rail": openrouter_mod.from_config(config, secrets),
+        "azure_rail": azure_mod.from_config(config, secrets),
+    }
 
 
 # ----------------------------------------------------------------------------- rate limiting
@@ -381,11 +400,15 @@ class Store:
 class PayGateway:
     def __init__(self, store: Store, meter: meter_mod.Meter, rail: Any,
                  models: Dict[str, Any], config: Dict[str, Any],
-                 vertex_rail: Any = None):
+                 vertex_rail: Any = None, bedrock_rail: Any = None,
+                 openrouter_rail: Any = None, azure_rail: Any = None):
         self.store = store
         self.meter = meter
         self.rail = rail
         self.vertex_rail = vertex_rail
+        self.bedrock_rail = bedrock_rail
+        self.openrouter_rail = openrouter_rail
+        self.azure_rail = azure_rail
         self.models = models
         self.config = config
         self.free_daily = float(config.get("free_tier", {}).get("daily_face_usd", 1.50))
@@ -398,10 +421,27 @@ class PayGateway:
             pass
 
     def _resolve_rail(self, entry: Dict[str, Any]) -> Any:
-        rail_type = entry.get("rail", "")
-        if rail_type == "vertex" and self.vertex_rail:
+        """Named resale rails never fall through to RunPod. Absent rail stays RunPod."""
+        rail_type = str(entry.get("rail") or "runpod")
+        if rail_type == "vertex":
             return self.vertex_rail
-        return self.rail
+        if rail_type == "bedrock":
+            return self.bedrock_rail
+        if rail_type == "openrouter":
+            return self.openrouter_rail
+        if rail_type == "azure":
+            return self.azure_rail
+        if rail_type == "runpod":
+            return self.rail
+        return None
+
+    def _no_supply(self, entry: Dict[str, Any]) -> Tuple[int, Dict[str, Any], Dict[str, str]]:
+        return 503, {
+            "error": {
+                "code": "no_supply",
+                "message": f"rail {entry.get('rail')!r} is not configured",
+            }
+        }, {}
 
     def maybe_reload_models(self) -> bool:
         """Hot-reload models.json when the nightly job rewrites it — the
@@ -494,6 +534,10 @@ class PayGateway:
         if not entry:
             return 503, {"error": {"code": "no_supply", "message": f"model {model_id!r} not in the registry"}}, {}
 
+        target_rail = self._resolve_rail(entry)
+        if target_rail is None:
+            return self._no_supply(entry)
+
         price = float(entry.get("price_per_m_usd", 0.0))
         plan = acct["plan"]
         is_free = plan == "free" and self.store.credits(acct["account_hash"]) <= 0.0
@@ -530,12 +574,13 @@ class PayGateway:
             reserved = worst
 
         account_hash = acct["account_hash"]
-        target_rail = self._resolve_rail(entry)
         try:
             resp = target_rail.runsync(body)
         except Exception as e:
             if reserved:
                 self.store.settle_refund_unused(account_hash, reserved, 0.0)
+            if _is_no_supply(e):
+                return self._no_supply(entry)
             self._emit(schema=meter_mod.SCHEMA, event="RUN_FAILED", account=account_hash,
                        lane="A", rail=entry.get("endpoint") or entry.get("rail"), model=model_id, wallet="cosmos",
                        at=time.strftime("%Y-%m-%dT%H:%M:%S%z"))
@@ -597,6 +642,12 @@ class PayGateway:
             yield f"data: {json.dumps({'error': {'code': 'no_supply', 'message': f'model {model_id!r} not in registry'}})}\n\n"
             return
 
+        target_rail = self._resolve_rail(entry)
+        if target_rail is None:
+            _code, obj, _headers = self._no_supply(entry)
+            yield f"data: {json.dumps(obj)}\n\n"
+            return
+
         price = float(entry.get("price_per_m_usd", 0.0))
         plan = acct["plan"]
         is_free = plan == "free" and self.store.credits(acct["account_hash"]) <= 0.0
@@ -617,7 +668,6 @@ class PayGateway:
         account_hash = acct["account_hash"]
         final_usage = {}
         tokens_est = 0
-        target_rail = self._resolve_rail(entry)
         try:
             for chunk in target_rail.stream(body):
                 if isinstance(chunk, dict) and "usage" in chunk:
@@ -628,6 +678,10 @@ class PayGateway:
         except Exception as e:
             if reserved:
                 self.store.settle_refund_unused(account_hash, reserved, 0.0)
+            if _is_no_supply(e):
+                _code, obj, _headers = self._no_supply(entry)
+                yield f"data: {json.dumps(obj)}\n\n"
+                return
             yield f"data: {json.dumps({'error': {'code': 'stream_error', 'message': str(e)}})}\n\n"
             return
 
@@ -717,7 +771,7 @@ def make_handler(gw: PayGateway, api: Any = None) -> type:
             return None
 
         def do_GET(self):
-            from urllib.parse import urlparse, parse_qs
+            from urllib.parse import parse_qs, urlparse
             parsed = urlparse(self.path)
             raw_path = parsed.path
             path = raw_path.rstrip("/") if raw_path != "/" else "/"
@@ -964,7 +1018,7 @@ def make_handler(gw: PayGateway, api: Any = None) -> type:
 
             key = self._auth_key()
             acct = gw.store.account_for_key(key) if key else None
-            if not acct:
+            if not key or not acct:
                 self._send(401, {"error": {"code": "bad_key", "message": "unknown or revoked key"}})
                 return
 
@@ -1134,7 +1188,7 @@ def main() -> None:
                 yield  # make this a generator
 
         rail = _UnconfiguredRail()
-    gw = PayGateway(store, meter, rail, models, config)
+    gw = PayGateway(store, meter, rail, models, config, **attach_rails(config, secrets))
 
     # ---- UI-facing API mounts when components are available ----
     api: Any = None

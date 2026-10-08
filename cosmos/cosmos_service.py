@@ -84,8 +84,28 @@ that omits what it serves is an undocumented surface, not a short one):
                            cosmos/ or the ledger tree (PEN_REFUSED).
     GET /api/v1/womb/board - WOMB floor tail. GET never mkdir. Missing file
                            is 200 UNMEASURED. Does not replace /womb/seat.
-    GET/POST /api/v1/seats /approvals /chamber /skills /temporal /sandbox
-                           /delegate /recall - 501 UNMEASURED. Not composed.
+    GET /api/v1/recall   - search, or state_sha when q is empty. Never refresh().
+                           A missing index is the module's UNMEASURED. Never mkdir.
+    GET /api/v1/skills   - SkillRegistry.list only. accept and reject stay off.
+    GET /api/v1/sandbox  - sandbox snapshot. Modal stays NOT_COMPOSED.
+                           Does not configure a remote backend.
+    GET /api/v1/delegate - read-only delegation snapshot. Does not spawn.
+    GET /api/v1/approvals/pending - ApprovalGate.pending. GET never mkdir.
+    POST /api/v1/approvals/grant and /deny - ApprovalGate.grant and deny.
+                           Bearer required. No bearer is a refusal. A gate
+                           error is JSON, never HTTP 200. The approver is the
+                           one the body names. Unknown id is a refusal.
+    GET /api/v1/chamber  - chamber snapshot for ?room= (default Cm).
+                           GET never mkdir. join() is not called. A room off
+                           the deck is 400 STREAM_REFUSED. POST stays 501:
+                           join appends the ledger.
+    GET /api/v1/temporal - temporal-fold snapshot. Optional ?at= is a finite
+                           unix time. GET never mkdir. assert_fact and
+                           invalidate are not called. POST stays 501: those
+                           append the ledger.
+    GET/POST /api/v1/seats - 501 UNMEASURED. No seats module. POST /chamber
+                           and POST /temporal stay on that 501 table. Verbs
+                           this handler does not name stay there too.
     GET /api/v1/xtalk      - append-only agent stream fold (xtalk.jsonl).
                            GET never mkdir. Missing file = UNMEASURED.
                            Inbox is peek-only (?role=). ?bind=openwork reads
@@ -801,6 +821,10 @@ def _crucible_dispatchers(kernel, names) -> dict | None:
 
 
 # deck_orc.js already polls these. Typed absence, not a bare 404 and not a mkdir.
+# Composed reads and approval decisions return first. This table stays the
+# answer for seats (no module), for POST /chamber and POST /temporal (join,
+# assert_fact, and invalidate append the ledger), and for verbs the handlers
+# do not name. GET /chamber and GET /temporal call snapshot and return above.
 _ORC_UNMEASURED = {
     "/api/v1/seats": "SEATS_NOT_COMPOSED",
     "/api/v1/approvals/pending": "APPROVALS_NOT_COMPOSED",
@@ -825,6 +849,139 @@ def _orc_unmeasured(path: str) -> dict | None:
         "path": path,
         "note": "typed absence. GET never mkdir. Not CONN_CLOSED.",
     }
+
+
+def _orc_recall(kernel, query: str, principal: str | None,
+                limit: int) -> tuple[int, dict]:
+    """Read path only. refresh() builds the index and mkdirs; GET must not."""
+    from cosmos_recall import SCHEMA, Recall, RecallError
+    idx = kernel.paths.role("state", "recall", "turns.sqlite")
+    rec = Recall(kernel.ledger, idx)
+    try:
+        if str(query or "").strip():
+            out = rec.search(query, principal=principal, limit=limit)
+        else:
+            sha = rec.state_sha()
+            out = {
+                "schema": SCHEMA,
+                "kind": "UNMEASURED" if sha is None else "MEASURED",
+                "state_sha": sha,
+                "results": None,
+                "note": "no query; state_sha is the read. refresh() is not "
+                        "called. reads never mkdir.",
+            }
+    except RecallError as e:
+        return 400, {"ok": False, "error": e.kind, "kind": e.kind,
+                     "detail": str(e)[:300]}
+    out["tree_id"] = kernel.paths.sentinel.tree_id
+    out["measured_at"] = time.time()
+    return 200, out
+
+
+def _orc_skills(kernel) -> dict:
+    """Registry list only. accept and reject need the CCR pen."""
+    from cosmos_skills import SCHEMA, SkillRegistry
+    reg = SkillRegistry(kernel.paths, kernel.ledger, kernel.arbiter,
+                        clock=kernel._clock)
+    rows = reg.list()
+    return {
+        "schema": SCHEMA,
+        "kind": "MEASURED",
+        "skills": rows,
+        "n": len(rows),
+        "tree_id": kernel.paths.sentinel.tree_id,
+        "measured_at": time.time(),
+    }
+
+
+def _orc_sandbox(kernel) -> dict:
+    """Existing snapshot. Does not write a backend config or spawn."""
+    from cosmos_sandbox import snapshot
+    rec = snapshot(kernel.paths)
+    named = rec.get("named_not_composed") or []
+    if "modal" in named:
+        rec["modal"] = "NOT_COMPOSED"
+    rec["tree_id"] = kernel.paths.sentinel.tree_id
+    rec["measured_at"] = time.time()
+    return rec
+
+
+def _orc_delegate(kernel) -> dict:
+    """Read-only status. Import stays in Python; do not spawn."""
+    from cosmos_delegate import Delegation
+    rec = Delegation(kernel.sched, clock=kernel._clock).snapshot()
+    rec["tree_id"] = kernel.paths.sentinel.tree_id
+    rec["measured_at"] = time.time()
+    return rec
+
+
+def _orc_pending(kernel) -> dict:
+    from cosmos_approval import SCHEMA, ApprovalGate
+    rows = ApprovalGate(kernel.ledger, clock=kernel._clock).pending()
+    return {
+        "schema": SCHEMA,
+        "kind": "MEASURED",
+        "pending": rows,
+        "n": len(rows),
+        "tree_id": kernel.paths.sentinel.tree_id,
+        "measured_at": time.time(),
+    }
+
+
+def _orc_chamber(kernel, room: str) -> tuple[int, dict]:
+    """snapshot only. join() appends CHAMBER_JOIN; GET must not."""
+    from cosmos_chamber import ChamberError, snapshot
+    try:
+        rec = snapshot(kernel.ledger, str(room or "Cm"))
+    except ChamberError as e:
+        return 400, {"ok": False, "error": e.kind, "kind": e.kind,
+                     "detail": str(e)[:300]}
+    rec["tree_id"] = kernel.paths.sentinel.tree_id
+    rec["measured_at"] = time.time()
+    return 200, rec
+
+
+def _orc_temporal(kernel, at: float | None) -> tuple[int, dict]:
+    """snapshot only. assert_fact and invalidate append; GET must not."""
+    from cosmos_temporal_fold import snapshot
+    if at is None:
+        rec = snapshot(kernel.ledger)
+    else:
+        rec = snapshot(kernel.ledger, at=at)
+    rec["tree_id"] = kernel.paths.sentinel.tree_id
+    rec["measured_at"] = time.time()
+    return 200, rec
+
+
+def _orc_decide(kernel, verb: str, payload: dict) -> tuple[int, dict]:
+    """grant or deny. The approver string comes from the body, or the gate
+    refuses. Unknown id is the gate's NO_REQUEST, never HTTP 200."""
+    from cosmos_approval import SCHEMA, ApprovalError, ApprovalGate
+    gate = ApprovalGate(kernel.ledger, clock=kernel._clock)
+    rid = str(payload.get("request_id") or payload.get("id") or "")
+    if "approver" not in payload or payload.get("approver") is None:
+        approver = ""
+    else:
+        approver = payload.get("approver")
+        if not isinstance(approver, str):
+            return 400, {"ok": False, "schema": SCHEMA, "error": "BAD_REQUEST",
+                         "kind": "BAD_REQUEST", "request_id": rid,
+                         "detail": "approver must be a string"}
+    try:
+        if verb == "grant":
+            nonce = gate.grant(rid, approver)
+            return 200, {"ok": True, "schema": SCHEMA, "request_id": rid,
+                         "granted": True, "nonce": nonce,
+                         "tree_id": kernel.paths.sentinel.tree_id}
+        reason = payload.get("reason") if isinstance(payload.get("reason"), str) else ""
+        gate.deny(rid, approver, reason)
+        return 200, {"ok": True, "schema": SCHEMA, "request_id": rid,
+                     "denied": True,
+                     "tree_id": kernel.paths.sentinel.tree_id}
+    except ApprovalError as e:
+        return 403, {"ok": False, "schema": SCHEMA, "error": e.kind,
+                     "kind": e.kind, "detail": str(e)[:300],
+                     "request_id": rid}
 
 
 def make_handler(kernel: Kernel, token: str, open_access: bool = False):
@@ -1496,6 +1653,51 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                         "BAD_SNAPSHOT") else 500
                     return self._send(code, {"error": e.kind,
                                             "detail": str(e)[:300]})
+            if parsed.path == "/api/v1/recall":
+                q = _parse_qs(parsed.query)
+                raw_p = (q.get("principal") or [None])[0]
+                principal = raw_p if raw_p else None
+                raw_limit = (q.get("limit") or ["10"])[0]
+                try:
+                    limit = int(raw_limit)
+                except (TypeError, ValueError):
+                    return self._send(400, {"error": "BAD_LIMIT",
+                                            "kind": "BAD_LIMIT",
+                                            "detail": "limit must be an integer"})
+                term = (q.get("q") or q.get("query") or [""])[0]
+                code, rec = _orc_recall(kernel, term, principal, limit)
+                return self._send(code, rec)
+            if parsed.path == "/api/v1/skills":
+                # Never mkdir. A missing index is the module's UNMEASURED.
+                return self._send(200, _orc_skills(kernel))
+            if parsed.path == "/api/v1/sandbox":
+                return self._send(200, _orc_sandbox(kernel))
+            if parsed.path == "/api/v1/delegate":
+                return self._send(200, _orc_delegate(kernel))
+            if parsed.path == "/api/v1/approvals/pending":
+                return self._send(200, _orc_pending(kernel))
+            if parsed.path == "/api/v1/chamber":
+                q = _parse_qs(parsed.query)
+                room = (q.get("room") or ["Cm"])[0]
+                code, rec = _orc_chamber(kernel, room)
+                return self._send(code, rec)
+            if parsed.path == "/api/v1/temporal":
+                q = _parse_qs(parsed.query)
+                raw_at = (q.get("at") or [None])[0]
+                at = None
+                if raw_at not in (None, ""):
+                    try:
+                        at = float(raw_at)
+                    except (TypeError, ValueError):
+                        return self._send(400, {
+                            "ok": False, "error": "BAD_AT", "kind": "BAD_AT",
+                            "detail": "at must be a finite number"})
+                    if at != at or at in (float("inf"), float("-inf")):
+                        return self._send(400, {
+                            "ok": False, "error": "BAD_AT", "kind": "BAD_AT",
+                            "detail": "at must be a finite number"})
+                code, rec = _orc_temporal(kernel, at)
+                return self._send(code, rec)
             stub = _orc_unmeasured(parsed.path)
             if stub is not None:
                 return self._send(501, stub)
@@ -2650,6 +2852,36 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                 except CredError as e:
                     return self._send(400, {"error": e.kind,
                                             "detail": str(e)[:300]})
+            _ap = _cvm_urlparse(self.path).path
+            if _ap in ("/api/v1/approvals/grant", "/api/v1/approvals/deny"):
+                # Same do_POST _authed gate as /spend already ran. Loopback
+                # guarded mode can pass that gate with no bearer. Grant and
+                # deny still require the bearer to match: no bearer is a refusal.
+                if not _bearer_matches(
+                        self.headers.get("Authorization", "") or "", token):
+                    self._drain_body()
+                    return self._send(401, {
+                        "ok": False,
+                        "error": "UNAUTHORIZED",
+                        "kind": "NO_BEARER",
+                        "detail": "approvals grant and deny require the bearer",
+                    })
+                body = self._read_body(_MAX_SPEND_BODY_BYTES)
+                if body is None:
+                    return
+                try:
+                    d = json.loads(body.decode("utf-8")) if body.strip() else {}
+                except Exception as e:                            # noqa: BLE001
+                    return self._send(400, {"ok": False, "error": "BAD_REQUEST",
+                                            "kind": "BAD_REQUEST",
+                                            "detail": str(e)[:200]})
+                if not isinstance(d, dict):
+                    return self._send(400, {"ok": False, "error": "BAD_REQUEST",
+                                            "kind": "BAD_REQUEST",
+                                            "detail": "body must be a JSON object"})
+                verb = "grant" if _ap.endswith("/grant") else "deny"
+                code, out = _orc_decide(kernel, verb, d)
+                return self._send(code, out)
             stub = _orc_unmeasured(_cvm_urlparse(self.path).path)
             if stub is not None:
                 return self._send(501, stub)

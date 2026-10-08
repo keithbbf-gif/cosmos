@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from cosmos_voice_duplex.confirm import ConfirmGate
+from cosmos_voice_duplex.confirm import ConfirmGate, first_word
 
 
 class _Voice:
@@ -50,6 +50,26 @@ def test_destructive_is_refused_locally() -> None:
     result = gate.on_user_text("delete the ledger")
     assert result.action == "refuse"
     assert gate.pending is None
+
+
+def test_punctuation_does_not_hide_the_first_word() -> None:
+    assert first_word("delete, the ledger") == "delete"
+    assert first_word("submit, the job") == "submit"
+    assert first_word("Delete.") == "delete"
+    assert first_word("") == ""
+    gate = ConfirmGate()
+    refused = gate.on_user_text("delete, the ledger")
+    assert refused.action == "refuse"
+    assert gate.pending is None
+    held = gate.on_user_text("submit, the job")
+    assert held.action == "hold"
+    cancelled = gate.on_user_text("yes,")
+    assert cancelled.action == "cancel"
+    assert cancelled.transcript == "yes,"
+    again = ConfirmGate()
+    again.on_user_text("session close")
+    during = again.on_user_text("delete, it")
+    assert during.action == "refuse"
 
 
 def test_local_confirm_does_not_invent_a_nonce() -> None:

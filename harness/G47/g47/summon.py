@@ -40,7 +40,7 @@ class Plan:
     contract_line: str
     note: str
     env: dict[str, str] = field(default_factory=dict)
-    rail: dict | None = None
+    rail: dict[str, object] | None = None
 
     def to_json(self) -> str:
         payload = asdict(self)

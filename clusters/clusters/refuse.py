@@ -45,7 +45,10 @@ def guard_path(text: str) -> str:
     if ".." in parts:
         raise Refuse("PATH", "rejected")
     folded = text.replace("\\", "/").rstrip("/").lower()
-    if folded.endswith(("/live", ":live")) or "/cosmos/live" in folded:
+    segments = [part for part in folded.split("/") if part not in ("", ".")]
+    if folded.endswith(":live") or any(
+        part == "live" or part.endswith(":live") for part in segments
+    ):
         raise Refuse("LIVE_TREE", text)
     return text
 
@@ -79,15 +82,42 @@ def is_destructive(command: str) -> bool:
     return any(item in text for item in needles)
 
 
+def _push_args(tokens: list[str]) -> list[str] | None:
+    """Arguments of a git push subcommand, or None when this is not one."""
+    if "git" not in tokens:
+        return None
+    index = tokens.index("git") + 1
+    while index < len(tokens):
+        token = tokens[index]
+        if token == "push":
+            return tokens[index + 1 :]
+        if token in {"-c", "-C"} and index + 1 < len(tokens):
+            index += 2
+            continue
+        if token.startswith("-"):
+            index += 1
+            continue
+        return None
+    return None
+
+
 def is_protected_push(command: str, branch: str = "") -> bool:
     text = " ".join(command.lower().split())
     named = branch.strip().lower()
-    if named in PROTECTED_BRANCHES and "push" in text:
+    tokens = text.split()
+    if named in PROTECTED_BRANCHES and "push" in tokens:
         return True
-    if "git push" not in text and not text.startswith("git push"):
+    args = _push_args(tokens)
+    if args is None:
         return False
-    for item in PROTECTED_BRANCHES:
-        if item in text.split():
+    for token in args:
+        if token.startswith("-"):
+            continue
+        dest = token.rsplit(":", 1)[-1].removeprefix("+")
+        if dest in PROTECTED_BRANCHES:
+            return True
+        bare = dest.rsplit("/", 1)[-1]
+        if bare in {"main", "master"} and (dest == bare or "/heads/" in dest):
             return True
     return False
 

@@ -24,11 +24,15 @@ import os
 import sys
 from datetime import datetime
 from pathlib import Path
+from typing import Any
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from cosmos_mcp_client import (  # noqa: E402
-    DEFAULT_DENY, FakeTransport, McpClient, McpClientError,
+    DEFAULT_DENY,
+    FakeTransport,
+    McpClient,
+    McpClientError,
 )
 from cosmos_rail_base import (  # noqa: E402,F401
     RailError,
@@ -104,12 +108,13 @@ def _pin_origin(spec: dict) -> dict:
     spec["link_id"] = LINK_ID
     spec["rail_type"] = "DOM"
     spec["src"] = str(spec.get("src") or SRC) or SRC
-    dst = str(spec.get("dst") or DST) or DST
-    if dst in SCHEDULER_DSTS:
+    dst = str(spec.get("dst") or DST).strip() or DST
+    dst_key = dst.lower()
+    if dst_key in SCHEDULER_DSTS:
         raise StagehandRailError(
             "BAD_SPEC",
             f"dst={dst!r} refused: Stagehand is not a scheduler")
-    if dst in ("read", "models", "search", "code", "papers"):
+    if dst_key in ("read", "models", "search", "code", "papers"):
         spec["route_note"] = (
             f"coerced dst={dst!r} to {DST} (UNDER {UNDERLAY}; dump-dom stays READ)")
         dst = DST
@@ -197,32 +202,61 @@ def _cache_key(instruction: str) -> str:
     return hashlib.sha256(str(instruction or "").encode("utf-8")).hexdigest()
 
 
-def validate_projection(data, schema) -> dict:
-    """DOM is untrusted. Schema is the authority for an extract projection.
-
-    JSON-Schema-lite: type=object, required[], properties{name: {type}}.
-    Raw HTML / a bare string is REFUSED, not accepted as a page fact.
-    """
+def _require_extract_schema(schema: object) -> dict:
+    """Schema shape only. Called before any extract tools/call."""
     if not isinstance(schema, dict) or not schema:
         raise StagehandRailError(
             "BROKE", "extract requires a schema (DOM is untrusted)")
-    if isinstance(data, str):
-        raise StagehandRailError(
-            "BROKE", "raw DOM/string rejected (DOM is untrusted; want object)")
-    if not isinstance(data, dict):
-        raise StagehandRailError(
-            "BROKE", f"projection is {type(data).__name__}, want object")
     if schema.get("type") not in (None, "object"):
         raise StagehandRailError(
             "BROKE", f"schema.type {schema.get('type')!r} unsupported")
     required = schema.get("required") or []
     if not isinstance(required, list):
         raise StagehandRailError("BAD_SPEC", "schema.required must be a list")
+    return schema
+
+
+def _reject_raw_html(val: object, where: str) -> None:
+    """Same `<...>` refusal for every string, including undeclared and nested."""
+    if isinstance(val, str):
+        if "<" in val and ">" in val:
+            raise StagehandRailError(
+                "BROKE",
+                f"projection.{where} looks like raw HTML (DOM is untrusted)")
+        return
+    if isinstance(val, dict):
+        for key, child in val.items():
+            child_where = f"{where}.{key}" if where else str(key)
+            _reject_raw_html(child, child_where)
+        return
+    if isinstance(val, list):
+        for i, child in enumerate(val):
+            _reject_raw_html(child, f"{where}[{i}]")
+
+
+def validate_projection(data, schema) -> dict:
+    """DOM is untrusted. Schema is the authority for an extract projection.
+
+    JSON-Schema-lite: type=object, required[], properties{name: {type}}.
+    Raw HTML / a bare string is REFUSED, not accepted as a page fact.
+    The HTML refusal covers the whole object that is returned, not only
+    keys named in properties. Extra non-HTML keys stay (additional fields
+    are not a schema error).
+    """
+    schema = _require_extract_schema(schema)
+    if isinstance(data, str):
+        raise StagehandRailError(
+            "BROKE", "raw DOM/string rejected (DOM is untrusted; want object)")
+    if not isinstance(data, dict):
+        raise StagehandRailError(
+            "BROKE", f"projection is {type(data).__name__}, want object")
+    required = schema.get("required") or []
     missing = [k for k in required if k not in data]
     if missing:
         raise StagehandRailError(
             "BROKE", f"projection missing required {missing} (DOM is untrusted)")
-    props = schema.get("properties") if isinstance(schema.get("properties"), dict) else {}
+    raw_props = schema.get("properties")
+    props = raw_props if isinstance(raw_props, dict) else {}
     for name, rule in props.items():
         if name not in data:
             continue
@@ -244,9 +278,7 @@ def validate_projection(data, schema) -> dict:
         if want == "array" and not isinstance(val, list):
             raise StagehandRailError(
                 "BROKE", f"projection.{name} want array got {type(val).__name__}")
-        if isinstance(val, str) and "<" in val and ">" in val:
-            raise StagehandRailError(
-                "BROKE", f"projection.{name} looks like raw HTML (DOM is untrusted)")
+    _reject_raw_html(data, "")
     return dict(data)
 
 
@@ -348,21 +380,55 @@ def _json_of(result: dict):
     return obj if isinstance(obj, (dict, list)) else None
 
 
+def _misses_expect(expect: object, text: object, values: Any = None) -> bool:
+    """True when a truthy expect is in neither text nor values.
+
+    A non-string expect must not raise TypeError (that bucket is UNREACHABLE).
+    Strings keep substring match. Other truthy values match by str() in text
+    and by equality on values.
+    """
+    if not expect:
+        return False
+    blob = text if isinstance(text, str) else ""
+    if isinstance(expect, str):
+        if expect in blob:
+            return False
+    elif str(expect) in blob:
+        return False
+    if values is not None:
+        try:
+            if expect in values:
+                return False
+        except TypeError:
+            return True
+    return True
+
+
 class ActionCache:
-    """In-process Stagehand action cache. Disk persist is POST-only."""
+    """In-process Stagehand action cache. Disk persist is POST-only.
+
+    get and put hand back copies. The stored row is not the caller's object,
+    so a later mutation cannot poison the replay.
+    """
 
     def __init__(self):
         self._mem: dict[str, dict] = {}
 
-    def get(self, instruction: str):
-        return self._mem.get(_cache_key(instruction))
+    def get(self, instruction: str) -> dict | None:
+        hit = self._mem.get(_cache_key(instruction))
+        if hit is None:
+            return None
+        return dict(hit)
 
     def put(self, instruction: str, action: dict) -> dict:
         rec = dict(action) if isinstance(action, dict) else {"text": str(action)}
-        rec["cached"] = True
         rec["key"] = _cache_key(instruction)
-        self._mem[rec["key"]] = rec
-        return rec
+        stored = dict(rec)
+        stored["cached"] = True
+        self._mem[stored["key"]] = stored
+        out = dict(rec)
+        out["cached"] = False
+        return out
 
 
 class StagehandRail:
@@ -518,11 +584,12 @@ class StagehandRail:
             rec["candidates"] = _json_of(out) if isinstance(_json_of(out), list) else []
             rec["raw_dom_authority"] = False
             return rec
-        # extract — schema is mandatory (DOM is untrusted)
-        schema = payload.get("schema")
+        # extract — schema is mandatory (DOM is untrusted) and is refused
+        # before tools/call. An empty schema must not reach the page.
+        schema = _require_extract_schema(payload.get("schema"))
         out = self._call(client, "extract", {
             "instruction": str(instruction),
-            "schema": schema or {},
+            "schema": schema,
         })
         data = _json_of(out)
         if data is None:
@@ -530,33 +597,32 @@ class StagehandRail:
                 "BROKE", "extract returned no JSON object (DOM is untrusted)")
         rec["data"] = validate_projection(data, schema)
         rec["text"] = json.dumps(rec["data"])[:8000]
-        expect = payload.get("expect")
-        if expect and expect not in rec["text"] and expect not in rec["data"].values():
+        if _misses_expect(payload.get("expect"), rec["text"], rec["data"].values()):
             rec["ok"] = False
             rec["kind"] = "BROKE"
-            rec["detail"] = f"projection missing expect={expect!r}"
+            rec["detail"] = f"projection missing expect={payload.get('expect')!r}"
         return rec
 
     def _dispatch_underlay(self, client: McpClient, payload: dict, url) -> dict:
-        if str(url).lower().startswith("file:"):
+        target = str(url).strip()
+        if target.lower().startswith("file:"):
             return {"ok": False, "kind": "BROKE",
                     "detail": "file:// refused (gate is loopback HTTP; DOM is untrusted)",
                     "node": self.link_id}
-        nav = self._call(client, "browser_navigate", {"url": str(url)})
+        nav = self._call(client, "browser_navigate", {"url": target})
         snap = self._call(client, "browser_snapshot", {})
         text = _text_of(snap)
         rec = {
             "ok": True, "kind": "DOM", "node": self.link_id,
-            "verb": "underlay", "url": url, "text": text[:8000],
+            "verb": "underlay", "url": target, "text": text[:8000],
             "navigate_head": _text_of(nav)[:400],
             "underlay": UNDERLAY, "usd": 0.0, "kernel_attached": False,
             "dom_is_untrusted": True,
         }
-        expect = payload.get("expect")
-        if expect and expect not in text:
+        if _misses_expect(payload.get("expect"), text):
             rec["ok"] = False
             rec["kind"] = "BROKE"
-            rec["detail"] = f"underlay snapshot missing expect={expect!r}"
+            rec["detail"] = f"underlay snapshot missing expect={payload.get('expect')!r}"
         return rec
 
 
@@ -656,7 +722,7 @@ def refuse_live_authority_attach(paths) -> dict:
 
 
 def inspect_live_kernel(root) -> dict:
-    out = {
+    out: dict[str, Any] = {
         "opened": False,
         "stagehand_in_registry": None,
         "playwright_in_registry": None,
@@ -680,8 +746,8 @@ def inspect_live_kernel(root) -> dict:
 def _compose_isolated(paths, spec, client_factory):
     """Isolated --gate Dispatcher, not the live daemon. Not a scheduler."""
     from cosmos_ledger import Ledger
-    from cosmos_registry import Registry
     from cosmos_rails import Dispatcher
+    from cosmos_registry import Registry
     from cosmos_spend import SpendGate
 
     adapters = {}
@@ -762,7 +828,6 @@ def gate(root: str | os.PathLike, *, client_factory=None) -> dict:
         rec["serverInfo"] = ident.get("serverInfo")
         rec["unsafe_listed"] = ident.get("unsafe_listed")
         rec["unsafe_denied"] = ident.get("unsafe_denied")
-        marker = f"tree_id={paths.sentinel.tree_id}"
         schema = {
             "type": "object",
             "required": ["tree_id"],
@@ -936,10 +1001,11 @@ def _fake_factory(tree_id: str, *, with_unsafe: bool = True):
 def _selftest() -> int:
     """Isolated. Fake transport. No live Stagehand SDK, no authority ledger."""
     import tempfile
-    from cosmos_kernel import install, Kernel
+
+    from cosmos_kernel import Kernel, install
     from cosmos_ledger import Ledger
-    from cosmos_registry import Registry
     from cosmos_rails import Dispatcher
+    from cosmos_registry import Registry
     from cosmos_spend import SpendGate
 
     results = []
@@ -1068,7 +1134,7 @@ def _selftest() -> int:
 
     led = Ledger(td / "n.jsonl", b"k", "core")
     reg = Registry(led)
-    adapters = {}
+    adapters: dict[str, Any] = {}
     rec = register_stagehand_rail(
         reg, adapters, spend_gate=SpendGate(led), spec=spec,
         output_dir=td / "sh2", client_factory=factory)
@@ -1134,7 +1200,7 @@ def _selftest() -> int:
           lambda: "import cosmos_sch" + "ed" not in here
           and "from cosmos_sch" + "ed" not in here)
 
-    bad = [(l, e) for l, ok, e in results if not ok]
+    bad = [(label, e) for label, ok, e in results if not ok]
     for label, ok, err in results:
         print("  %s  %s%s" % ("OK  " if ok else "FAIL", label,
                               ("  [" + err + "]") if err else ""))

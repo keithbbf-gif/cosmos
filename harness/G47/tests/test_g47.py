@@ -390,6 +390,29 @@ def test_door_catalog_resolves_a_tree_without_downloading(tmp_path: Path):
     assert missing[0]["state"] == "missing"
 
 
+def test_absent_catalog_is_not_a_pass(tmp_path: Path, monkeypatch: pytest.MonkeyPatch):
+    from g47 import locate
+    from g47.__main__ import main
+
+    present = tmp_path / "present.toml"
+    present.write_text('[[door]]\nid = "codex"\nbinary = "codex"\n', encoding="utf-8")
+    assert locate.catalog(present)[0]["id"] == "codex"
+    missing = tmp_path / "gone" / "DOORS.toml"
+    monkeypatch.setattr(locate, "CATALOG", missing)
+    monkeypatch.setattr(locate, "LOCAL", tmp_path / "LOCAL.toml")
+    with pytest.raises(Refuse) as exc:
+        locate.catalog()
+    assert exc.value.reason == "CATALOG_ABSENT"
+    dest = tmp_path / "out" / "LOCAL.toml"
+    with pytest.raises(Refuse):
+        locate.write_local(dest)
+    assert not dest.exists()
+    assert not dest.parent.exists()
+    assert main(["locate"]) == 2
+    assert not (tmp_path / "LOCAL.toml").exists()
+    assert main(["doctor"]) == 2
+
+
 def test_prepare_keeps_the_caller_door():
     """Vendor doors stay choosable. prepare does not move the seat onto them."""
     from g47.loop import Attempt, action_for, prepare

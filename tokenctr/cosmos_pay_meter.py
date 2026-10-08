@@ -24,8 +24,8 @@ import json
 import sqlite3
 import threading
 import time
-import uuid
 import urllib.request
+import uuid
 from typing import Any, Dict, Iterable, List, Optional
 
 SCHEMA = "cosmos-meter/1"

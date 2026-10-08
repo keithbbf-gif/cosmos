@@ -39,6 +39,21 @@ def test_plugin_tools_do_not_import_cosmos_code() -> None:
     assert "cosmos_code" not in text
 
 
+def test_propose_call_honors_confirm() -> None:
+    host = _Host()
+    plugin = VoicePlugin(host)
+    blocked = json.loads(plugin.registry.call("propose", '{"text": "note"}'))
+    assert blocked["ok"] is False
+    assert blocked["error"] == "confirm required"
+    assert host.user == []
+    allowed = json.loads(plugin.registry.call("propose", '{"text": "note"}', confirmed=True))
+    assert allowed["ok"] is True
+    assert allowed["proposed"] is True
+    assert allowed["text"] == "note"
+    status = json.loads(plugin.registry.call("status", "{}"))
+    assert status["ok"] is True
+
+
 def test_status_check_and_propose_confirm() -> None:
     host = _Host()
     plugin = VoicePlugin(host)

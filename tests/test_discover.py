@@ -1,108 +1,141 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Selftest: COSMOS mesh-hands discovery projection + heartbeat.
+"""inventory_hands and discover argv plans. No probe, bind, or scheduler."""
 
-Isolated from the live COSMOS root. Does not register schtasks. Proves: bind
-uses the resolver; poll_once writes heartbeat + hands.json; *_HANDS.md files
-are inventoried; schtasks plan is HOURLY and points at cosmos_discover.py.
-"""
 from __future__ import annotations
 
-import json
+import importlib.util
+import os
+import subprocess
 import sys
-import tempfile
-import time
 from pathlib import Path
+from types import ModuleType
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "cosmos"))
+import pytest
 
-from cosmos_kernel import install
-from cosmos_discover import (
-    HEARTBEAT_NAME, TASK_NAME, bind, heartbeat_age_s, inventory_hands,
-    plan_once_argv, plan_task_argv, poll_once,
+_MODULE_PATH = Path(__file__).resolve().parents[1] / "cosmos" / "cosmos_discover.py"
+_FORBIDDEN = (
+    "probe_http",
+    "bind",
+    "poll_once",
+    "install_task",
+    "standup",
+    "write_heartbeat",
+    "main",
 )
 
-RESULTS = []
+
+def _load() -> ModuleType:
+    spec = importlib.util.spec_from_file_location("cosmos_discover", _MODULE_PATH)
+    if spec is None or spec.loader is None:
+        raise RuntimeError("cosmos_discover is missing")
+    module = importlib.util.module_from_spec(spec)
+    sys.modules[spec.name] = module
+    spec.loader.exec_module(module)
+    return module
 
 
-def check(label, fn):
-    try:
-        RESULTS.append((label, bool(fn()), ""))
-    except Exception as e:                                            # noqa: BLE001
-        RESULTS.append((label, False, f"{type(e).__name__}: {e}"))
+_discover = _load()
+inventory_hands = _discover.inventory_hands
+plan_once_argv = _discover.plan_once_argv
+plan_task_argv = _discover.plan_task_argv
 
 
-def main() -> int:
-    td = Path(tempfile.mkdtemp(prefix="cosmos_discover_"))
-    root = install(td / "live", tree_id="spike-discover")
-    research = td / "research"
-    research.mkdir(parents=True, exist_ok=True)
-    (research / "OLLAMA_HANDS.md").write_text("# OLLAMA HANDS\nprobe\n", encoding="utf-8")
-    (research / "nested" / "XAI_GROK_HANDS.md").parent.mkdir(parents=True, exist_ok=True)
-    (research / "nested" / "XAI_GROK_HANDS.md").write_text("# XAI\n", encoding="utf-8")
-    (research / "RESEARCH_1.md").write_text("not a hands file\n", encoding="utf-8")
+def _boom(label: str):
+    def _inner(*_args, **_kwargs):
+        raise AssertionError(label)
 
-    b = bind(str(root), research=research)
-    check("bind: heartbeat path is logs/mesh_discovery_heartbeat.json",
-          lambda: b["heartbeat"] == root / "logs" / HEARTBEAT_NAME)
-    check("bind: projection is under THIS root state/discovery",
-          lambda: b["projection"] == root / "state" / "discovery" / "hands.json")
-
-    hands = inventory_hands(research)
-    check("inventory: two *_HANDS.md files", lambda: len(hands) == 2)
-    check("inventory: maker names from filename",
-          lambda: {h["maker"] for h in hands} == {"OLLAMA", "XAI_GROK"})
-    check("inventory: ignores RESEARCH_1.md",
-          lambda: all("RESEARCH_1" not in h["path"] for h in hands))
-
-    t0 = int(time.time())
-    got = poll_once(str(root), research=research)
-    rec = json.loads(b["heartbeat"].read_text(encoding="utf-8"))
-    proj = json.loads(b["projection"].read_text(encoding="utf-8"))
-    check("poll_once: heartbeat file exists", lambda: b["heartbeat"].exists())
-    check("poll_once: last_run_epoch is an int near now",
-          lambda: isinstance(rec["last_run_epoch"], int)
-          and abs(rec["last_run_epoch"] - t0) < 10)
-    check("poll_once: worker is cosmos-discover",
-          lambda: rec["worker"] == "cosmos-discover")
-    check("poll_once: hands_md_count == 2",
-          lambda: rec.get("hands_md_count") == 2)
-    check("heartbeat_age_s: fresh after poll",
-          lambda: heartbeat_age_s(rec) is not None and heartbeat_age_s(rec) < 5)
-    check("projection: schema cosmos-discover/1",
-          lambda: proj.get("schema") == "cosmos-discover/1")
-    check("projection: py probe present (this process)",
-          lambda: any(x.get("id") == "py" and x.get("present") for x in proj["probes"]))
-    check("got: heartbeat path returned",
-          lambda: got["path"] == str(b["heartbeat"]))
-
-    once_argv = plan_once_argv(str(root))
-    task_argv = plan_task_argv(str(root))
-    check("plan_once_argv: py -3.14 cosmos_discover.py --once + this root",
-          lambda: once_argv[0] == "py" and "-3.14" in once_argv
-          and "--once" in once_argv
-          and str(root.resolve()) in once_argv
-          and "cosmos_discover.py" in once_argv[2])
-    check("plan_task_argv: schtasks /create /tn COSMOS Mesh Discovery /sc HOURLY",
-          lambda: task_argv[0] == "schtasks" and task_argv[1] == "/create"
-          and TASK_NAME in task_argv and "HOURLY" in task_argv)
-    check("plan_task_argv: /tr points at cosmos_discover.py --once",
-          lambda: "cosmos_discover.py" in task_argv[task_argv.index("/tr") + 1]
-          and "--once" in task_argv[task_argv.index("/tr") + 1])
-    check("plan_task_argv: no /rl highest (current-user registration)",
-          lambda: "/rl" not in task_argv)
-
-    bad = [(l, e) for l, ok, e in RESULTS if not ok]
-    for l, ok, e in RESULTS:
-        print(("  OK  " if ok else "  FAIL") + f" {l}" + (f"  {e}" if e else ""))
-    print(f"{len(RESULTS) - len(bad)}/{len(RESULTS)} passed")
-    return 1 if bad else 0
+    return _inner
 
 
-def test_discover():
-    assert main() == 0
+@pytest.fixture(autouse=True)
+def _no_spawn(monkeypatch: pytest.MonkeyPatch) -> None:
+    for name in _FORBIDDEN:
+        monkeypatch.setattr(_discover, name, _boom(name))
+    for fn in ("run", "Popen", "call", "check_call", "check_output"):
+        monkeypatch.setattr(subprocess, fn, _boom(f"subprocess.{fn}"))
+        monkeypatch.setattr(_discover.subprocess, fn, _boom(f"discover.subprocess.{fn}"))
+    clock = sys.modules["cosmos_clock"]
+    for fn in ("run", "Popen", "call", "check_call", "check_output"):
+        monkeypatch.setattr(clock.subprocess, fn, _boom(f"clock.subprocess.{fn}"))
+    monkeypatch.setattr(os, "system", _boom("os.system"))
 
 
-if __name__ == "__main__":
-    raise SystemExit(main())
+def test_inventory_hands_on_temp_research(tmp_path: Path, pytestconfig: pytest.Config) -> None:
+    base = Path(str(pytestconfig.option.basetemp)).resolve()
+    research = tmp_path / "research"
+    nested = research / "nested" / "deep"
+    nested.mkdir(parents=True)
+    assert research.resolve().is_relative_to(base)
+
+    ollama = "# OLLAMA HANDS\nprobe\n\u03a9\n"
+    (research / "OLLAMA_HANDS.md").write_bytes(ollama.encode("utf-8"))
+    (research / "EMPTY_HANDS.md").write_bytes(b"")
+    (research / "MiXeD_HANDS.md").write_bytes(b"mixed\n")
+    (research / "RESEARCH_1.md").write_bytes(b"not a hands file\n")
+    (research / "hands.md").write_bytes(b"no underscore suffix\n")
+    (research / "skip_HANDS.txt").write_bytes(b"wrong suffix\n")
+    (research / "nested" / "XAI_GROK_HANDS.md").write_bytes(b"# XAI\n")
+    (nested / "DEEP_HANDS.md").write_bytes(b"deep\n")
+
+    rows = inventory_hands(research)
+    by_name = {Path(row["path"]).name: row for row in rows}
+    assert set(by_name) == {
+        "OLLAMA_HANDS.md",
+        "EMPTY_HANDS.md",
+        "MiXeD_HANDS.md",
+        "XAI_GROK_HANDS.md",
+        "DEEP_HANDS.md",
+    }
+    assert by_name["OLLAMA_HANDS.md"]["maker"] == "OLLAMA"
+    assert by_name["XAI_GROK_HANDS.md"]["maker"] == "XAI_GROK"
+    assert by_name["MiXeD_HANDS.md"]["maker"] == "MiXeD"
+    assert by_name["EMPTY_HANDS.md"]["maker"] == "EMPTY"
+    assert by_name["DEEP_HANDS.md"]["maker"] == "DEEP"
+    assert by_name["OLLAMA_HANDS.md"]["bytes"] == len(ollama.encode("utf-8"))
+    assert by_name["EMPTY_HANDS.md"]["bytes"] == 0
+    assert by_name["OLLAMA_HANDS.md"]["bytes"] != len(ollama)
+
+    paths = [row["path"] for row in rows]
+    assert paths == [str(path) for path in sorted(Path(item) for item in paths)]
+    for row in rows:
+        assert set(row) == {"maker", "path", "bytes", "mtime", "mtime_iso"}
+        assert isinstance(row["mtime"], float)
+        assert row["mtime"] == Path(row["path"]).stat().st_mtime
+        assert isinstance(row["bytes"], int)
+        assert Path(row["path"]).resolve().is_relative_to(base)
+
+
+def test_inventory_hands_not_a_directory(tmp_path: Path) -> None:
+    missing = tmp_path / "missing-research"
+    assert not missing.exists()
+    assert inventory_hands(missing) == []
+    as_file = tmp_path / "research-file"
+    as_file.write_bytes(b"not a directory\n")
+    assert inventory_hands(as_file) == []
+
+
+def test_plan_argv_lists_do_not_spawn(tmp_path: Path) -> None:
+    root = tmp_path / "runtime-root"
+    script = str(_MODULE_PATH.resolve())
+    root_s = str(root.resolve())
+
+    once = plan_once_argv(str(root))
+    assert isinstance(once, list)
+    assert once == ["py", "-3.14", script, "--root", root_s, "--once"]
+    assert all(isinstance(part, str) for part in once)
+
+    task = plan_task_argv(str(root))
+    assert isinstance(task, list)
+    assert all(isinstance(part, str) for part in task)
+    assert task[:5] == ["schtasks", "/create", "/tn", _discover.TASK_NAME, "/tr"]
+    assert task[6:] == ["/sc", "HOURLY", "/mo", "1", "/f"]
+    assert "/rl" not in task
+    tr = task[5]
+    assert isinstance(tr, str)
+    assert script in tr
+    assert root_s in tr
+    assert "--root" in tr
+    assert "--once" in tr
+    assert "hush.py" in tr
+    assert "python" in tr.lower()

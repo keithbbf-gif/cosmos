@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """Clone-detect: identical tail of n chars. Muse/OSS/Llama farm scar."""
 from __future__ import annotations
 
@@ -20,5 +19,5 @@ def refuse_duplicate(a: str, b: str, n: int = 800) -> None:
     if shared_tail(a, b, n):
         raise SessionToolsRefusal(
             "CLONE",
-            "duplicate mouth refused: identical final %s characters" % n,
+            f"duplicate mouth refused: identical final {n} characters",
         )

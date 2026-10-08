@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """HOLD / UNMEASURED families. n is JSON null, never 0. Store must be passed."""
 from __future__ import annotations
 

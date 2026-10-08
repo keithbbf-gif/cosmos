@@ -56,15 +56,21 @@ import shutil
 import subprocess
 import sys
 import time
+import tomllib
 import urllib.parse
 import uuid
 from datetime import datetime, timedelta
 from pathlib import Path
+from typing import Any
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from cosmos_clock import (  # noqa: E402
-    atomic_json, create_task, plan_create, query_task, tr_cmdline,
+    atomic_json,
+    create_task,
+    plan_create,
+    query_task,
+    tr_cmdline,
     write_heartbeat,
 )
 from cosmos_paths import CosmosPathError, CosmosPaths  # noqa: E402
@@ -81,6 +87,7 @@ PROJECTION_NAME = "RESESSION.json"
 COW_HEARTBEAT_NAME = "COW_HEARTBEAT.json"
 PAUSE_NAME = "PAUSE.flag"
 PROMPT_RELPATH = ("docs", "AUTO_RESESSION_PROMPT.md")
+DOORS_RELPATH = ("installs", "DOORS.toml")
 SEED_NAME = "SEED.json"
 SEED_DECL_NAME = "SEED.decl.json"
 
@@ -126,8 +133,9 @@ def precheck_seed(seed_path: Path, decl_path: Path, live_tree_id: str) -> dict:
     surface (SESSION_SEED_THIN) and resume from the tracker; a seed whose bytes do
     not match its declaration is a lie and refuses.
     """
-    out = {"ok": False, "kind": None, "detail": "", "sha": None, "sid": None,
-           "schema": None, "thin": None, "cursor": None}
+    out: dict[str, Any] = {
+        "ok": False, "kind": None, "detail": "", "sha": None, "sid": None,
+        "schema": None, "thin": None, "cursor": None}
     if not seed_path.is_file():
         out.update(kind="NO_SEED", detail=f"no seed at {seed_path}")
         return out
@@ -390,6 +398,90 @@ def spawn_tui_argv(cwd: str, session_id: str, grok: str = "grok") -> list[str]:
     return [str(grok), "--cwd", str(cwd), "--fullscreen", "-r", str(session_id)]
 
 
+def doors_catalog_path() -> Path:
+    return Path(__file__).resolve().parent.parent.joinpath(*DOORS_RELPATH)
+
+
+def installed_doors(path: Path | None = None) -> list[dict[str, Any]]:
+    """Door rows from installs/DOORS.toml. Reading the catalog starts nothing."""
+    src = Path(path) if path is not None else doors_catalog_path()
+    try:
+        text = src.read_text(encoding="utf-8")
+    except OSError as e:
+        raise ResessionRefusal("NO_RAIL", f"door catalog unreadable: {e}") from e
+    try:
+        data = tomllib.loads(text)
+    except tomllib.TOMLDecodeError as e:
+        raise ResessionRefusal("NO_RAIL", f"door catalog unreadable: {e}") from e
+    rows = data.get("door") if isinstance(data, dict) else None
+    if not isinstance(rows, list):
+        raise ResessionRefusal("NO_RAIL", "door catalog has no door table")
+    out: list[dict[str, Any]] = []
+    for row in rows:
+        if isinstance(row, dict) and str(row.get("id") or "").strip():
+            out.append(dict(row))
+    return out
+
+
+def _door_row(rail: str) -> dict[str, Any] | None:
+    for row in installed_doors():
+        if str(row.get("id")) == rail:
+            return row
+    return None
+
+
+def _catalog_window(row: dict[str, Any]) -> Any:
+    """A missing catalog window stays UNMEASURED. Do not invent a token cap."""
+    if "window" not in row or row.get("window") is None:
+        return "UNMEASURED"
+    return row.get("window")
+
+
+def plan_resession(rail: str, model: str | None = None, *,
+                   cwd: str = "",
+                   session_id: str = "",
+                   prompt_file: str | Path = "") -> dict[str, Any]:
+    """Dry plan for one installed door. execute is always false.
+
+    `model` is recorded only when passed. The door catalog does not name
+    model flags, so a passed model is not turned into argv.
+    """
+    if rail == "claude":
+        raise ResessionRefusal(
+            "ANTHROPIC_OFF",
+            "Keith 2026-09-01: resession will not spawn claude")
+    row = _door_row(rail)
+    if row is None:
+        raise ResessionRefusal("NO_RAIL", f"unknown rail {rail!r}")
+    if rail == "grok":
+        # Measured 5a inject then 5b TUI. Not --single. Not grok.exe lookup.
+        inject = spawn_inject_argv(cwd, session_id, prompt_file, "grok")
+        tui = spawn_tui_argv(cwd, session_id, "grok")
+        rec: dict[str, Any] = {
+            "rail": "grok",
+            "argv": inject,
+            "tui_argv": tui,
+            "execute": False,
+            "steps": "5a+5b",
+            "window": {
+                "tokens": GROK_WINDOW_TOKENS,
+                "warn": GROK_WARN_TOKENS,
+                "close": GROK_CLOSE_TOKENS,
+            },
+        }
+    else:
+        binary = row.get("binary")
+        rec = {
+            "rail": rail,
+            "argv": [binary] if isinstance(binary, str) else [],
+            "execute": False,
+            "window": _catalog_window(row),
+        }
+    if model is not None:
+        rec["model"] = model
+    return rec
+
+
 def wmi_create(command_line: str, current_directory: str) -> dict:
     """Win32_Process.Create. Measured 5b. Not cmd /c start."""
     ps = (
@@ -403,7 +495,7 @@ def wmi_create(command_line: str, current_directory: str) -> dict:
         capture_output=True, text=True, timeout=60,
     )
     raw = (p.stdout or "").strip()
-    body = {}
+    body: dict[str, Any] = {}
     if raw:
         try:
             body = json.loads(raw[raw.find("{") :]) if "{" in raw else {}
@@ -429,7 +521,7 @@ def spawn_auto_resession(cwd: str, session_id: str, prompt_file: str | Path,
     exe = grok or "grok"
     a5 = spawn_inject_argv(cwd, session_id, prompt_file, exe)
     b5 = spawn_tui_argv(cwd, session_id, exe)
-    rec = {
+    rec: dict[str, Any] = {
         "ok": False,
         "vendor_session_id": str(session_id),
         "inject_argv": a5,
@@ -656,15 +748,16 @@ def decide(*, pause: dict | None, seed: dict, cow_hb: dict | None,
     seed refuses before any gate is armed; the cow lease is the last check before
     a spawn, so a live orchestrator can never be doubled.
     """
-    rec = {"schema": SCHEMA, "state": "IDLE", "spawn_reason": None, "rail": rail,
-           "refused_kind": None, "refused_detail": None,
-           "seed_sha": seed.get("sha") if isinstance(seed, dict) else None,
-           "seed_sid": seed.get("sid") if isinstance(seed, dict) else None,
-           "seed_schema": seed.get("schema") if isinstance(seed, dict) else None,
-           "seed_thin": seed.get("thin") if isinstance(seed, dict) else None,
-           "resumed_from": (seed.get("cursor") if isinstance(seed, dict) else None),
-           "prompt_sha": prompt_sha,
-           "detectors": {}, "why": "", "pack": False, "warn": False}
+    rec: dict[str, Any] = {
+        "schema": SCHEMA, "state": "IDLE", "spawn_reason": None, "rail": rail,
+        "refused_kind": None, "refused_detail": None,
+        "seed_sha": seed.get("sha") if isinstance(seed, dict) else None,
+        "seed_sid": seed.get("sid") if isinstance(seed, dict) else None,
+        "seed_schema": seed.get("schema") if isinstance(seed, dict) else None,
+        "seed_thin": seed.get("thin") if isinstance(seed, dict) else None,
+        "resumed_from": (seed.get("cursor") if isinstance(seed, dict) else None),
+        "prompt_sha": prompt_sha,
+        "detectors": {}, "why": "", "pack": False, "warn": False}
 
     if not isinstance(seed, dict):
         seed = {"ok": False, "kind": "BAD_SEED", "detail": "seed is not an object",
@@ -821,8 +914,7 @@ def poll_once(root: str, repo: str | None = None, *, rail: str = "grok",
         rec["clock_id_error"] = clock_err
     paths = CosmosPaths(str(root))
     try:
-        from cosmos_session_procedures import (
-            apply_rung, preview_rung, session_identity)
+        from cosmos_session_procedures import apply_rung, preview_rung, session_identity
         pause = read_json(paths.role("state") / "control" / PAUSE_NAME)
         cow_hb = read_json(paths.role("state") / "control" / COW_HEARTBEAT_NAME)
         rung = preview_rung(paths, heartbeat=cow_hb, pause=pause)
@@ -1164,6 +1256,18 @@ def selftest() -> int:
     check("claude transcript path is the vendor's, keyed by the minted id",
           lambda: transcript_path("claude", "V:/A", "abc",
                                   Path("/h")).name == "abc.jsonl")
+    check("claude plan is ANTHROPIC_OFF",
+          lambda: _raises(lambda: plan_resession("claude"), "ANTHROPIC_OFF"))
+    check("an unknown door plan is NO_RAIL",
+          lambda: _raises(lambda: plan_resession("not-a-door"), "NO_RAIL"))
+    check("grok plan stays 5a/5b and does not execute",
+          lambda: (lambda r: r["execute"] is False
+                   and r["argv"] == spawn_inject_argv("C:/x", "u", "P.md")
+                   and r["tui_argv"] == spawn_tui_argv("C:/x", "u")
+                   and r["window"]["tokens"] == 200000
+                   and r["window"]["close"] == 190000)(
+              plan_resession("grok", cwd="C:/x", session_id="u",
+                             prompt_file="P.md")))
 
     bad = [r for r in results if not r[1]]
     for label, ok, err in results:

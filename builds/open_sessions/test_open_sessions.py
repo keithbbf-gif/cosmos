@@ -74,12 +74,21 @@ def t_cli_list_no_guessed_root():
     return False
 
 
+def t_cli_open_missing_source_fails():
+    td = Path(tempfile.mkdtemp(prefix="open_sessions_"))
+    root = install(td / "live", tree_id="spike-open-nosource")
+    rc = osess.main(
+        ["--root", str(root), "--tree-id", "spike-open-nosource", "open", "cow-abc"])
+    return rc == 2
+
+
 def main() -> int:
     for label, fn in (
         ("list omits legal", t_list_omits_legal),
         ("open loads transcript", t_open_loads_text),
         ("open legal refuses", t_open_legal_refuses),
         ("CLI refuses guessed root", t_cli_list_no_guessed_root),
+        ("CLI open without projection fails", t_cli_open_missing_source_fails),
     ):
         check(label, fn)
     n = sum(1 for _, ok, _ in RESULTS if ok)
