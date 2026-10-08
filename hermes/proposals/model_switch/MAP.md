@@ -1,0 +1,20 @@
+# model_switch
+
+Hermes `hermes model` chooses an authenticated provider and a curated model, then writes `model.provider` and `model.default` for new sessions. `/model <id>` hot-swaps the running session and can persist with `--global` or last one turn with `--once`, restoring the previous model afterward. Auxiliary slots default to provider `auto`, which means the main model, not a provider the caller did not name. OpenRouter rotator ids (`openrouter/auto`, `openrouter/free`) are not named pins. A switch applies only to a model on the caller allowlist. An id that contains `auto` or `router` refuses unless that call explicitly enables router ids.
+
+The live seam is `cosmos/cosmos_openrouter_rail.py`. `model_refused` already rejects those rotator ids, an empty model, and any id outside the named `PINNED` set. `cosmos/cosmos_cursor_rail.py` `pin_cursor_model` rewrites a bare `auto` onto a pool model. Neither records a session's previous pin against a caller allowlist. This proposal is that session pin. It does not call a provider, rewrite `auto` onto another id, or write config.
+
+`set_model(session, model, allow, allow_routers=False)` checks the frozen `Session` and returns a frozen `Switch`. `previous` is the pin already on the session, including empty. `pin` is the new id. `allow` on the record is the grant that was checked, copied to a tuple of plain strings. Membership is one set of those ids. A name that is not on the list is `PIN_REFUSED`. Nothing rewrites it onto the first listed model, and nothing case-folds it onto a listed spelling. The router check is case-insensitive and runs only after the id is on the allowlist, so a router id that is not allowed is `PIN_REFUSED`. `openrouter/...` contains `router` and is included. `allow_routers=True` permits such an id only when it is also on the list. The previous pin may already be a router id. A path-shaped id (`..`, an empty or `.` slash segment, or a backslash) is `BAD_MODEL` or `BAD_SESSION`. The policy cap is 32 allowlist entries. A higher `cap` is ignored and `cap` records 32. A lower positive `cap` is the ceiling. A longer list is `OVERSIZE`, not a truncated grant. `rebuild` replays one `Switch` through `set_model` and returns an equal record. The module schema is `cosmos-hermes-model_switch/1`.
+
+Authority is human. The allowlist is the grant. The `Switch` is the fact a later session ledger would append. This module does not write the ledger, the rail spec, or a config file. A `Switch` built by hand is checked again: the pin must sit on that record's allow list. A missing grant is not a silent router.
+
+Refusal codes: `EMPTY_ALLOW`, `PIN_REFUSED`, `ROUTER`, `SECRET`, `BAD_MODEL`, `BAD_SESSION`, `BAD_ALLOW`, `BAD_FLAG`, `DUPLICATE`, `BAD_RECORD`, `BAD_CAP`, plus kernel codes `NOT_TEXT`, `NULL_BYTE`, `OVERSIZE`, `NOT_INT`, and `OUT_OF_RANGE`.
+
+CCr would call `set_model` before `model_refused` on the OpenRouter rail and before a harness session changes model. The rail's named `PINNED` set stays the provider allowlist. `allow_routers` stays false unless the human set it on that call. The ledger stores `previous`, `pin`, and `allow` from the record. No HTTP client and no silent rewrite of `auto` are added.
+
+## Ship
+
+- operations: `ASK_CAP`, `MODEL_CAP`, `POLICY_CAP`, `SCHEMA`, `SESSION_CAP`, `Session`, `Switch`, `rebuild`, `set_model`
+- refusal codes: `BAD_ALLOW`, `BAD_CAP`, `BAD_FLAG`, `BAD_MODEL`, `BAD_RECORD`, `BAD_SESSION`, `DUPLICATE`, `EMPTY_ALLOW`, `NOT_INT`, `NOT_TEXT`, `NULL_BYTE`, `OUT_OF_RANGE`, `OVERSIZE`, `PIN_REFUSED`, `ROUTER`, `SECRET`
+- what this module still refuses to execute: a provider call, a config or ledger write, a silent rewrite of `auto` or an unlisted id onto a listed model, a case-fold onto a listed spelling, a second model choice, and any router id the call did not explicitly enable
+- hot-path shape: one indexed pass over an exact list or tuple into a set, then one membership test; a list that does not fit the cap refuses the whole grant rather than truncating it

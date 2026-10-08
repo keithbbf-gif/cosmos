@@ -1,0 +1,23 @@
+# context_references
+
+Hermes expands `@` references in the interactive CLI and appends the bytes under an `--- Attached Context ---` heading. `@file` injects file text, and a `:start-end` suffix selects a 1-indexed inclusive line range. `@folder` injects a directory listing of at most 200 entries. `@diff` injects the unstaged git diff. `@staged` injects the staged diff. `@git:N` injects the last N commits and clamps N to the range 1..10. `@url` fetches a page and injects the extracted text. Trailing `,.;!?` on a reference value is discarded. Hermes answers a missing file, a binary file, a sensitive credential path, a path outside the workspace, a failed git command, and an empty fetch with an inline warning. Messaging gateways leave `@` tokens unchanged.
+
+The later fetch seam is `cosmos/cosmos_dom.py`. File, folder, and diff text are a new seam: the caller supplies them. This module performs the expansion only.
+
+`expand` parses `@file:name`, `@folder:name`, `@diff`, and `@url:http(s)://…` from left to right. A file or folder name is a logical catalog key, at most 200 characters, already in NFKC. A name that contains `..`, a slash, a backslash, a drive prefix, a dot segment, whitespace, or a control character is `BAD_NAME`. Percent-encoded and double-encoded forms of those characters are `BAD_NAME` too. A name absent from that catalog is `MISSING`. Two keys that canonicalize to one name are `BAD_CATALOG` detail `duplicate`. Each catalog holds at most 200 entries, and one message holds at most 200 references. `@diff` copies the supplied diff string, and a missing diff is `MISSING`. `@url` does not fetch. It becomes a `ContextRecord` whose `code` is `NEED_FETCH` and whose text is the bounded URL. `descriptors` projects those records into `FetchDescriptor` values for the DOM rail. The URL is `http` or `https`, with a hostname, without userinfo, without a `file:` scheme, and without `..` in any of four percent-decode layers. A truncated or non-hex `%` escape is `BAD_REF`. `@staged`, `@git`, and any other `@` token are `BAD_REF`. The rendered message keeps the caller's punctuation, replaces each reference with a marker, and appends an `--- Attached Context ---` section in the same order. Payload characters (file text, folder text, diff text, and URL text) share one cap of 64000. A higher `cap` argument is ignored, including values above 10**18. The result records the cap that was applied. An item that does not fit the remaining budget is a `SkippedRef` with reason `OVERSIZE` and does not abort later items that fit. A supplied string longer than 64000 is a raised `OVERSIZE`. `rebuild` from the emitted records reproduces the same public text, or raises `STALE` when the fence does not match. Line ranges, directory walks, and git commands stay with the caller, who puts the already chosen text in the catalog.
+
+Authority for file, folder, and diff bytes sits with the attempt workspace that already holds them. Authority for a fetch sits with the DOM rail. This module projects supplied text and names the fetch.
+
+Refusal codes are `BAD_NAME`, `MISSING`, `BAD_REF`, `BAD_CATALOG`, `SECRET`, `NOT_TEXT`, `NULL_BYTE`, `OVERSIZE`, `NOT_INT`, `OUT_OF_RANGE`, and `STALE`. `NEED_FETCH` is a descriptor code, not a refusal. A `SkippedRef` reason of `OVERSIZE` is not a raised refusal. A refusal is final.
+
+CCr lands this by calling `expand` on the CLI message before the harness turn. The attempt workspace fills `files`, `folders`, and `diff` from jailed reads and a git projection it already trusts. Each `FetchDescriptor` is the input `cosmos_dom.py` receives for that URL. The cap stays 64000.
+
+## Ship
+
+Operations: `SCHEMA`, `POLICY_CAP`, `ENTRY_CAP`, `NAME_CAP`, `ContextRecord`, `ExpandedContext`, `FetchDescriptor`, `SkippedRef`, `descriptors`, `expand`, `rebuild`.
+
+Refusal codes: `BAD_NAME`, `MISSING`, `BAD_REF`, `BAD_CATALOG`, `SECRET`, `NOT_TEXT`, `NULL_BYTE`, `OVERSIZE`, `NOT_INT`, `OUT_OF_RANGE`, `STALE`. `NEED_FETCH` is a descriptor code. `OVERSIZE` on a `SkippedRef` means the item did not fit the remaining budget.
+
+This module still refuses to execute network fetches, `file:` URLs, dotdot references (literal, percent-encoded, or fullwidth), directory walks, git commands, line-range slicing, and messaging-gateway expansion. A `FetchDescriptor` is the DOM rail's later input.
+
+Hot path: one left-to-right pass (`str.find` for `@`). Catalog membership is a `dict`. Trailing punctuation and hex digits are `frozenset`s. Regexes are compiled once. An item that does not fit the remaining payload budget is skipped. Later items that fit are kept. Percent-decoding runs only on names and URLs, and only when the text contains `%`.

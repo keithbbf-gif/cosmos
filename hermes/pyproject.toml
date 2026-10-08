@@ -1,0 +1,32 @@
+[project]
+name = "cosmos-hermes-proposals"
+version = "0.1.0"
+description = "Hermes features applied onto the COSMOS tree. Live seams stay the authority."
+requires-python = ">=3.11"
+
+[tool.ruff]
+line-length = 120
+target-version = "py314"
+src = ["cosmos_hermes", "proposals", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+ignore = ["E501"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["cosmos_hermes"]
+
+[tool.mypy]
+python_version = "3.14"
+strict = true
+packages = ["cosmos_hermes"]
+mypy_path = "."
+
+[[tool.mypy.overrides]]
+module = ["pytest", "pytest.*"]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests", "proposals"]
+pythonpath = ["."]
+addopts = "-q -p no:cacheprovider --tb=short"

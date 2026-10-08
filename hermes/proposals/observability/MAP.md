@@ -1,0 +1,20 @@
+# observability
+
+Hermes shared metrics is an opt-in projection. Turn, tool, and approval hooks feed a subscriber that keeps counters and later writes an immutable delta package. The subscriber accepts a versioned allowlist only. It does not export live spans. It does not keep keys, tokens, base URLs, or error text. Collection stays off until profile policy enables it, and the outbound sender transmits nothing unless the operator also enables send. Observer hooks are a separate read-only contract and must not change a request or a tool call. Gateway health gauges are another plane. Rich observability plugins are out of scope here.
+
+The live seam is projection counters, no second ledger. `cosmos/cosmos_spend.py` remains the only spend authority. No live module owns these counters.
+
+`Event(name, n=1)` is one caller-supplied increment. `n` is an int from 1 through 1000. A name matches `^[a-z0-9_:]{1,40}$`. `Counters(requested_cap)` records a name cap. The policy cap is 64. A requested cap above 64 is ignored and 64 is recorded. A lower positive cap is recorded as asked. The event ceiling is 256. The greatest total is 256000. The caller cannot raise either ceiling. `rebuild(events)` replaces the projection with one fold of those events. The same events rebuild to the same counts. Replaying them does not add a second copy. Three events named request, refusal, and request become `request=2` and `refusal=1` in first-seen order. `get(name)` and `measure(snapshot, name)` return a total only when that name occurred in the events. A missing index is `UNMEASURED`. A name that was not in the event set is `UNMEASURED`, not zero. An empty rebuild is a measured snapshot with no rows, and asking for any name on it is still `UNMEASURED`. `clear()` drops the index. The recorded cap stays. The next `get` or `snapshot` is `UNMEASURED`. A refused rebuild leaves the previous projection in place.
+
+Authority stays `projection`. These counters are not a ledger and not a spend authority. They do not append spend, open a database, start a thread, open a socket, or write a log file. A later service chooses which hook events to pass in. This module has no off switch and no retry.
+
+Refusal codes are `SECRET`, `BAD_NAME`, `NAME_CAP`, `EVENT_CAP`, `BAD_SCHEMA`, `BAD_AUTHORITY`, `BAD_SNAPSHOT`, `BAD_EVENT`, `BAD_EVENTS`, `BAD_LIMIT`, `NOT_TEXT`, `NULL_BYTE`, `OVERSIZE`, `NOT_INT`, `OUT_OF_RANGE`, and `UNMEASURED`. A name, schema, or authority that `secret_shape` accepts raises `SECRET` and is not stored. One distinct name past the recorded cap raises `NAME_CAP`. One event past 256 raises `EVENT_CAP`.
+
+## Ship
+
+- operations: `SCHEMA`, `AUTHORITY`, `NAME_CAP`, `EVENT_CAP`, `INC_MAX`, `TOTAL_MAX`, `Event`, `Snapshot`, `Counters`, `measure`, `rebuild`. `Counters` exposes `rebuild`, `snapshot`, `get`, `clear`, `schema`, `cap`, `authority`, and `indexed`.
+- refusal codes: `SECRET`, `BAD_NAME`, `NAME_CAP`, `EVENT_CAP`, `BAD_SCHEMA`, `BAD_AUTHORITY`, `BAD_SNAPSHOT`, `BAD_EVENT`, `BAD_EVENTS`, `BAD_LIMIT`, `NOT_TEXT`, `NULL_BYTE`, `OVERSIZE`, `NOT_INT`, `OUT_OF_RANGE`, `UNMEASURED`
+- what this module still refuses to execute: a second ledger, a spend append, a socket, a log file, a database, a thread, an exporter, a delta package, live spans, and any caller request to raise the name cap, the event ceiling, or the total ceiling. A missing index is not published as zero. There is no off switch and no retry.
+- hot-path shape: one forward pass over the event tuple into a dict of totals. `get` is one dict lookup. A missing key is `UNMEASURED`, not zero. A distinct name past the recorded cap refuses the whole rebuild. The prefix of that batch is not applied, because a short count would pretend to be measured.
+
+CCr would land this as a disposable projection beside the hook boundary, not inside `cosmos_spend.py`. The service keeps the hook events and calls `rebuild`. Shared-metrics SQLite, delta packages, sockets, log files, and any exporter stay outside this module. Spend stays in `cosmos_spend.py`. Deleting the counters and calling `rebuild` on the same events restores the counts, because the ledger never lived here.

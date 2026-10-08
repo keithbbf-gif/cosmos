@@ -1,0 +1,18 @@
+# credential_vault
+
+Hermes stores website logins, addresses, and card values as encrypted vault items scoped to a profile. Labels, site origins, and login identifiers stay visible. Passwords and card values leave the vault only to fill a page whose origin matches a saved origin exactly. The model sees a fill count and that origin, not the secret. A saved authenticator seed can mint a one-time code on a later seam. A code a human types is entered into the page and is not copied into the conversation. Passkeys and app approvals wait for the human. Detected 1Password or Bitwarden items fill the same way, on the exact saved origins, after that manager is unlocked. Card fills ask the human first. Headless sessions cannot answer a prompt, so a locked manager or a missing login refuses there. Local sealed logins still open.
+
+The live seam is sealed blobs. `cosmos/cosmos_cred_kit.py` names provider credential ids and its snapshot does not return secret material. It does not keep purpose-bound website logins. This module does not open either store.
+
+`CredentialVault.put` stores a credential id, exact `https` origins, a visible label, and a login identifier. It does not store key material. `resolve` returns that id, the matched origin, a fill count, and either `FILL` or `WAIT`. `item` and `list_ids` expose ids and visible metadata only. `select` walks sorted ids once and skips an item whose weight does not fit the remaining budget. `remove`, `unlock`, and `disable` append hash-chained records. `rebuild` from those records reproduces the snapshot. `mint`, `reveal`, and `store_plaintext` refuse. A second put of the same id refuses. A constructor cap above 32 is ignored and recorded on `CapNote`. A select budget above 256 is ignored the same way. A failed resolve does not retry.
+
+Authority stays with the human who sealed the blob and who confirms a card. The purpose check is exact origin equality under `const_eq`. This module does not decrypt, write a file, prompt, mint a code, or start a password-manager process.
+
+## Ship
+
+- operations: `SCHEMA`, `POLICY_CAP`, `POLICY_BUDGET`, `POLICY_ORIGINS`, `POLICY_HISTORY`, `FIELD_CAP`, `CapNote`, `Item`, `Resolution`, `Selection`, `Record`, `Snapshot`, `CredentialVault`, `rebuild`, `store_plaintext`. `CredentialVault` methods are `put`, `resolve`, `item`, `list_ids`, `select`, `remove`, `unlock`, `disable`, `mint`, `reveal`, `store_plaintext`, `records`, `snapshot`, and `cap_note`.
+- refusal codes: `SECRET`, `PLAINTEXT`, `SEALED`, `BAD_ID`, `BAD_ORIGIN`, `BAD_LABEL`, `BAD_LOGIN`, `BAD_KIND`, `BAD_SOURCE`, `BAD_SESSION`, `EMPTY`, `UNKNOWN`, `PURPOSE`, `DUPLICATE`, `CAP`, `NOT_TEXT`, `NULL_BYTE`, `OVERSIZE`, `NOT_INT`, `OUT_OF_RANGE`, `NOT_BOOL`, `NOT_TUPLE`, `NEED_CONFIRM`, `HEADLESS`, `LOCKED`, `UNAVAILABLE`, `DISABLED`, `PROMPT_UNAVAILABLE`, `STALE`, `CHAIN`, `REPLAY`, `BAD_RECORD`.
+- what this module still refuses to execute: opening a sealed blob, returning or minting secret material, prompting a human, unlocking `op` or `bw`, filling a card without a confirm bit, filling a card or any manager item in a headless session, inferring an origin that was not stored, raising the item cap or the select budget, and writing a vault file.
+- hot-path shape: one pass over sorted ids; skip an item whose weight exceeds the remaining budget; keep later items that fit.
+
+CCr would land this later as an in-memory id gate in front of the sealed-blob store, beside `cosmos_cred_kit.py`, not as a second key file. Browser fill stays on the DOM seam, and card confirmation stays on `cosmos_approval.py`. Manager CLIs stay outside this module.
