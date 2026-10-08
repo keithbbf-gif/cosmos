@@ -1,0 +1,264 @@
+/* Remote is not the default. The TLS row stays hidden until that choice
+   is on, because a remote bind without TLS is refused. */
+
+:root {
+  color-scheme: dark;
+  --bg: #0b0e12;
+  --panel: #12161c;
+  --panel-edge: #1f2630;
+  --ink: #c8d2dc;
+  --ink-dim: #7a8694;
+  --ink-faint: #4a545f;
+  --green: #3fd68f;
+  --amber: #e6b450;
+  --red: #e5534b;
+  --cyan: #56b6c2;
+  --head: #e2e8ee;
+  --mono: "Consolas", "Cascadia Mono", "Courier New", monospace;
+  --sans: "Segoe UI", system-ui, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #10151c 0, var(--bg) 12rem);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 1rem;
+  line-height: 1.45;
+}
+
+main {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem 4rem;
+}
+
+.mark {
+  margin: 0;
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.16em;
+  color: var(--green);
+}
+
+h1,
+h2 {
+  color: var(--head);
+  font-weight: 600;
+}
+
+h1 {
+  margin: 0.2rem 0 0.4rem;
+  font-size: 1.8rem;
+}
+
+h2 {
+  margin: 0 0 0.2rem;
+  font-size: 1.05rem;
+}
+
+.lede,
+.hint {
+  margin: 0.25rem 0 0;
+  color: var(--ink-dim);
+  font-size: 0.92rem;
+}
+
+.lede {
+  margin-bottom: 1.4rem;
+}
+
+section {
+  background: var(--panel);
+  border: 1px solid var(--panel-edge);
+  border-left: 3px solid var(--green);
+  padding: 1.15rem 1.2rem 1.4rem;
+}
+
+section + section {
+  margin-top: 1rem;
+}
+
+form {
+  counter-reset: step;
+}
+
+label.field {
+  display: block;
+  margin-top: 1rem;
+  color: var(--ink-dim);
+  font-family: var(--mono);
+  font-size: 0.78rem;
+}
+
+label.field::before {
+  content: counter(step) "  ";
+  counter-increment: step;
+  color: var(--green);
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+select,
+textarea {
+  display: block;
+  width: 100%;
+  margin-top: 0.35rem;
+  padding: 0.55rem 0.65rem;
+  color: var(--head);
+  background: var(--bg);
+  border: 1px solid var(--panel-edge);
+  border-radius: 0;
+  font: inherit;
+}
+
+textarea {
+  min-height: 6.5rem;
+  resize: vertical;
+}
+
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--green);
+  outline-offset: 2px;
+}
+
+fieldset {
+  margin: 1rem 0 0;
+  padding: 0;
+  border: 0;
+}
+
+legend {
+  color: var(--ink-dim);
+  font-family: var(--mono);
+  font-size: 0.78rem;
+}
+
+legend::before {
+  content: counter(step) "  ";
+  counter-increment: step;
+  color: var(--green);
+}
+
+.choice {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin-top: 0.45rem;
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 1rem;
+}
+
+.choice input {
+  width: 1.05rem;
+  height: 1.05rem;
+  margin: 0;
+}
+
+#tls-row {
+  display: none;
+  margin-top: 0.75rem;
+  padding: 0.75rem 0.8rem;
+  background: #1a150c;
+  border: 1px solid var(--amber);
+}
+
+#tls-row.show,
+fieldset:has(#bind-remote:checked) #tls-row {
+  display: block;
+}
+
+.help {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.25rem;
+  margin: 0.55rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.help a {
+  color: var(--cyan);
+  font-family: var(--mono);
+  font-size: 0.82rem;
+}
+
+button {
+  margin-top: 1.15rem;
+  padding: 0.55rem 1rem;
+  background: var(--green);
+  color: #062116;
+  border: 0;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #62e3a8;
+}
+
+.error {
+  margin: 0.8rem 0 0;
+  color: var(--red);
+}
+
+#empty-note {
+  margin: 0.7rem 0 0;
+  color: var(--ink-faint);
+}
+
+#transcript {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin: 0.8rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+#transcript li {
+  padding-top: 0.65rem;
+  border-top: 1px solid var(--panel-edge);
+}
+
+#transcript .who,
+#transcript .cost {
+  display: block;
+  font-family: var(--mono);
+  font-size: 0.72rem;
+}
+
+#transcript .who {
+  color: var(--green);
+}
+
+#transcript .assistant .who {
+  color: var(--amber);
+}
+
+#transcript .cost {
+  color: var(--ink-faint);
+}
+
+#transcript p {
+  margin: 0.2rem 0 0;
+  overflow-wrap: anywhere;
+  white-space: pre-wrap;
+}

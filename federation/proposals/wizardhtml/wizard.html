@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Help links must not carry this page's address. The key is never in that address. -->
+  <meta name="referrer" content="no-referrer">
+  <!-- GET /dayone serves this file. Setup and chat posts stay on this origin. -->
+  <title>COSMOS day one</title>
+  <link rel="stylesheet" href="wizard.css">
+  <script src="wizard.js" defer></script>
+</head>
+<body>
+  <main>
+    <p class="mark">COSMOS</p>
+    <h1>Day-one peer</h1>
+    <p class="lede">A root label, a tree id, your name, one door, a key you paste, a spend cap at or under one dollar, then where this peer listens.</p>
+    <noscript>
+      <p class="hint">Without a script, this form still posts to the setup route. The chat pane stays closed.</p>
+    </noscript>
+    <section id="wizard" aria-labelledby="wizard-title">
+      <h2 id="wizard-title">Setup</h2>
+      <form id="setup-form" action="/api/v1/dayone/setup" method="post" autocomplete="off">
+        <label class="field" for="root">Root label</label>
+        <input id="root" name="root" type="text" maxlength="80" required autocomplete="off">
+        <p class="hint">A label for this install. Not a path and not a drive letter.</p>
+
+        <label class="field" for="tree_id">Tree id</label>
+        <input id="tree_id" name="tree_id" type="text" maxlength="40" minlength="2" pattern="[A-Za-z][A-Za-z0-9-]{1,39}" required autocomplete="off" spellcheck="false">
+        <p class="hint">Letters, digits, and hyphens. You choose it. It is the install identity.</p>
+
+        <label class="field" for="name">Display name</label>
+        <input id="name" name="name" type="text" maxlength="80" required autocomplete="off">
+
+        <label class="field" for="door">Door</label>
+        <select id="door" name="door" required>
+          <option value="openrouter">OpenRouter</option>
+          <option value="xai">xAI</option>
+        </select>
+        <ul class="help">
+          <li><a href="https://openrouter.ai/keys" rel="noreferrer" target="_blank">OpenRouter keys</a></li>
+          <li><a href="https://console.x.ai" rel="noreferrer" target="_blank">xAI console</a></li>
+        </ul>
+        <p class="hint">Paste the key yourself. This page does not open a vendor login.</p>
+
+        <label class="field" for="key">Key</label>
+        <input id="key" name="key" type="password" required autocomplete="off" spellcheck="false" placeholder="paste-here">
+        <p class="hint">The field is cleared when you continue. The browser is not asked to keep it.</p>
+
+        <label class="field" for="cap">Spend cap in US dollars</label>
+        <input id="cap" name="cap" type="number" inputmode="decimal" min="0.01" max="1" step="0.01" value="0.25" required>
+        <p class="hint">At most 1.00. A higher cap is refused.</p>
+
+        <fieldset>
+          <legend>Listener</legend>
+          <label class="choice" for="bind-loopback">
+            <input id="bind-loopback" name="bind" type="radio" value="loopback" checked>
+            This machine only
+          </label>
+          <label class="choice" for="bind-remote">
+            <input id="bind-remote" name="bind" type="radio" value="remote">
+            Another machine
+          </label>
+          <div id="tls-row">
+            <label class="choice" for="tls">
+              <input id="tls" name="tls" type="checkbox" value="yes">
+              This remote listener uses TLS.
+            </label>
+            <p class="hint">A remote bind without TLS is refused.</p>
+          </div>
+        </fieldset>
+
+        <button type="submit">Continue</button>
+        <p id="setup-error" class="error" role="alert" hidden></p>
+      </form>
+    </section>
+    <section id="chat" hidden aria-labelledby="chat-title">
+      <h2 id="chat-title">Chat</h2>
+      <p id="empty-note">The transcript is empty.</p>
+      <ol id="transcript" aria-live="polite"></ol>
+      <form id="chat-form" action="/api/v1/dayone/chat" method="post" autocomplete="off">
+        <label class="field" for="draft">Message</label>
+        <textarea id="draft" name="text" maxlength="4000" required></textarea>
+        <button type="submit">Send</button>
+        <p id="chat-error" class="error" role="alert" hidden></p>
+      </form>
+    </section>
+  </main>
+</body>
+</html>

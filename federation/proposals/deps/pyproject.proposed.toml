@@ -1,0 +1,18 @@
+# Day-one installer metadata.
+# Dependencies are THIRD import roots measured in cosmos/*.py.
+# The day-one installer must not grow a hidden pip install:
+# no extra project, no build backend, and no submodule renamed
+# into its own distribution. `tools` is the in-repo package
+# tools/surface.py, recorded here so a landing step does not
+# replace it with a PyPI fetch.
+[project]
+name = "cosmos-dayone"
+version = "0.1.0"
+description = "Day-one COSMOS peer. Requires Python 3.14 and the measured third-party import roots only."
+requires-python = ">=3.14"
+dependencies = [
+    "cryptography",
+    "tools",
+    "vosk",
+    "watchdog",
+]

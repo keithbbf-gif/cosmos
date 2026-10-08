@@ -1,0 +1,49 @@
+[project]
+name = "cosmos-federation-proposals"
+version = "0.1.0"
+description = "Propose-only day-one installer for a COSMOS peer. Not the live tree."
+requires-python = ">=3.11"
+
+[tool.ruff]
+line-length = 120
+target-version = "py314"
+src = ["cosmos_federation", "proposals", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+ignore = ["E501"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["cosmos_federation"]
+
+[tool.mypy]
+python_version = "3.14"
+strict = true
+packages = ["cosmos_federation"]
+mypy_path = "."
+
+[[tool.mypy.overrides]]
+module = ["pytest", "pytest.*"]
+ignore_missing_imports = true
+
+# Proposal slices live in their own directories, added to sys.path at runtime.
+[[tool.mypy.overrides]]
+module = [
+    "account",
+    "bindpol",
+    "chatwindow",
+    "coldroot",
+    "domdefer",
+    "identity",
+    "ledgerboot",
+    "package",
+    "seat",
+    "spendcap",
+    "wizard",
+]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests", "proposals"]
+pythonpath = ["."]
+addopts = "-q -p no:cacheprovider --tb=short"

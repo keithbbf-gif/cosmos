@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>COSMOS day one</title>
+<style>
+  :root {
+    color-scheme: light;
+    --bg: #f4f1ea;
+    --ink: #1c1915;
+    --muted: #5e584e;
+    --line: #d9d2c5;
+    --user: #e7f0e4;
+    --agent: #fffdf8;
+    --accent: #0f6e56;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 16px/1.45 "Segoe UI", sans-serif;
+  }
+  main {
+    max-width: 40rem;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 1.25rem;
+    gap: 0.75rem;
+  }
+  h1 { font-size: 1.25rem; margin: 0; letter-spacing: 0.04em; }
+  .lede { margin: 0; color: var(--muted); }
+  #log {
+    flex: 1;
+    border: 1px solid var(--line);
+    background: #fff;
+    border-radius: 0.5rem;
+    padding: 0.75rem 1rem;
+    min-height: 16rem;
+  }
+  #empty { color: var(--muted); margin: 0; }
+  #transcript {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  #transcript li { border-radius: 0.4rem; padding: 0.45rem 0.6rem; }
+  #transcript li.user { background: var(--user); }
+  #transcript li.assistant { background: var(--agent); border: 1px solid var(--line); }
+  .who { display: block; font-size: 0.75rem; color: var(--muted); }
+  .micros { display: block; font-size: 0.75rem; color: var(--accent); }
+  form { display: flex; flex-direction: column; gap: 0.4rem; }
+  textarea {
+    font: inherit;
+    padding: 0.5rem;
+    border: 1px solid var(--line);
+    border-radius: 0.4rem;
+    resize: vertical;
+  }
+  button {
+    align-self: end;
+    background: var(--accent);
+    color: #fff;
+    border: 0;
+    border-radius: 0.4rem;
+    padding: 0.45rem 0.9rem;
+    font: inherit;
+  }
+  #status { min-height: 1.2rem; margin: 0; color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <h1>COSMOS</h1>
+  <p class="lede">Day one is this window. Nothing is sent until you write.</p>
+  <section id="log" aria-live="polite">
+    <p id="empty">No messages yet.</p>
+    <ol id="transcript"></ol>
+  </section>
+  <form id="composer" action="#" autocomplete="off">
+    <!-- autocomplete is off so a password manager does not drop a key into the composer. -->
+    <label for="text">Message</label>
+    <textarea id="text" name="text" rows="3" maxlength="4000" required></textarea>
+    <button type="submit">Send</button>
+  </form>
+  <p id="status" role="status"></p>
+</main>
+<script>
+/* Same-origin only. The installer opens http://127.0.0.1:8770/dayone and redeem sets the loopback cookie. The long-term token file stays out of this document. */
+(function () {
+  "use strict";
+  var route = "/api/v1/dayone/chat";
+  var form = document.getElementById("composer");
+  var box = document.getElementById("text");
+  var log = document.getElementById("transcript");
+  var empty = document.getElementById("empty");
+  var status = document.getElementById("status");
+  if (!form || !box || !log || !empty || !status) { return; }
+
+  function append(role, text, cost) {
+    empty.hidden = true;
+    var li = document.createElement("li");
+    li.className = role === "user" ? "user" : "assistant";
+    var who = document.createElement("span");
+    who.className = "who";
+    who.textContent = role;
+    var body = document.createElement("span");
+    body.className = "body";
+    body.textContent = text;
+    li.appendChild(who);
+    li.appendChild(body);
+    if (cost !== "") {
+      var micros = document.createElement("span");
+      micros.className = "micros";
+      micros.textContent = cost;
+      li.appendChild(micros);
+    }
+    log.appendChild(li);
+  }
+
+  form.addEventListener("submit", function (ev) {
+    ev.preventDefault();
+    var text = (box.value || "").trim();
+    if (!text) { return; }
+    box.value = "";
+    status.textContent = "";
+    append("user", text, "");
+    var button = form.querySelector("button");
+    if (button) { button.disabled = true; }
+    fetch(route, {
+      method: "POST",
+      credentials: "same-origin",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ role: "user", text: text })
+    }).then(function (res) {
+      return res.json();
+    }).then(function (reply) {
+      if (!reply || typeof reply.role !== "string" || typeof reply.text !== "string" || typeof reply.usd_micros !== "number") {
+        status.textContent = "Not sent.";
+        return;
+      }
+      /* One assistant line. Reply text is untrusted, so it stays textContent. */
+      append(reply.role, reply.text, String(reply.usd_micros));
+    }).catch(function () {
+      status.textContent = "Not sent.";
+    }).then(function () {
+      if (button) { button.disabled = false; }
+    });
+  });
+})();
+</script>
+</body>
+</html>
