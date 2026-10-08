@@ -16,7 +16,7 @@ def rms(pcm: bytes) -> float:
     total = 0.0
     for (sample,) in struct.iter_unpack("<h", pcm[: count * 2]):
         total += (sample / 32768.0) ** 2
-    return (total / count) ** 0.5
+    return float((total / count) ** 0.5)
 
 
 def silence(n_bytes: int) -> bytes:
