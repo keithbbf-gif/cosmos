@@ -92,8 +92,9 @@ HEARTBEAT_STALE_S = 180.0         # COW quiet -> W3 record, never a fire and nev
 COW_LEASE_TTL_S = 600.0
 CONTEXT_WARN_PCT = 0.65           # Keith 2026-09-23: persistent warning; never self-clears
 CONTEXT_PACK_PCT = 0.70           # Keith 2026-09-01: start TU/TU2/BU packing
-CONTEXT_CLOSE_PCT = 0.90          # hard close + fresh Grok TUI spawn
 GROK_WINDOW_TOKENS = 200_000      # Grok surcharge window; 65% = 130000
+GROK_CLOSE_TOKENS = 190_000       # Keith 2026-10-02: the close line. Not 90% and not 92%.
+CONTEXT_CLOSE_PCT = GROK_CLOSE_TOKENS / GROK_WINDOW_TOKENS
 GROK_WARN_TOKENS = int(GROK_WINDOW_TOKENS * CONTEXT_WARN_PCT)
 WARN_NAME = "RESESSION_WARN.flag"
 WARN_SCHEMA = "cosmos-resession-warn/1"
@@ -241,8 +242,12 @@ def watermark(cow_hb: dict | None, now: float,
             det["w2_close"] = True
             det["w2_context"] = True  # close is the old W2 fire line
     tok = cow_hb.get("tokens_in")
-    if isinstance(tok, (int, float)) and not isinstance(tok, bool) and float(tok) >= GROK_WARN_TOKENS:
-        det["w2_warn"] = True
+    if isinstance(tok, (int, float)) and not isinstance(tok, bool):
+        if float(tok) >= GROK_WARN_TOKENS:
+            det["w2_warn"] = True
+        if float(tok) >= GROK_CLOSE_TOKENS:
+            det["w2_close"] = True
+            det["w2_context"] = True
     last = float(cow_hb.get("last_act_epoch") or 0)
     if last and (now - last) >= stale_s:
         det["w3_quiet"] = True
@@ -803,9 +808,11 @@ def poll_once(root: str, repo: str | None = None, *, rail: str = "grok",
 
     Spawn of the interactive Grok TUI is opt-in (`spawn=True` / `--spawn`) so a
     1-min --once clock cannot open windows by surprise. An ask rung writes
-    RESESSION_ASK.flag. The 92 percent close runs only when `engage=True` and
-    the heartbeat pid is alive. A quiet or dead pid is recorded and does not
-    snapshot. `bu_dir` confines the BU file; the default is the repo.
+    RESESSION_ASK.flag. The 190000-token close runs only when `engage=True`
+    and the heartbeat pid is alive. It writes the pointer, TidyUP, and
+    TidyUP2. It does not walk the tree again. A quiet or dead pid is
+    recorded and does not snapshot. `bu_dir` confines the BU file; the
+    default is the repo.
     """
     clock_err = _assert_clock_id()
     repo_path = Path(repo) if repo else Path(__file__).resolve().parent.parent
@@ -1117,10 +1124,14 @@ def selftest() -> int:
           lambda: watermark({"spawned_at_epoch": 999, "last_act_epoch": 1000,
                              "turn_n": 0, "context_pct": 0.64}, 1000.0,
                             pid_is_alive=True)["warn"] is False)
-    check("90 percent fires close",
+    check("90 percent does not fire the close",
           lambda: watermark({"spawned_at_epoch": 999, "last_act_epoch": 1000,
                              "turn_n": 0, "context_pct": 0.90}, 1000.0,
-                            pid_is_alive=True)["reason"] == "watermark")
+                            pid_is_alive=True)["reason"] != "watermark")
+    check("190000 tokens fires the close",
+          lambda: watermark({"spawned_at_epoch": 999, "last_act_epoch": 1000,
+                             "turn_n": 0, "tokens_in": GROK_CLOSE_TOKENS},
+                            1000.0, pid_is_alive=True)["reason"] == "watermark")
     check("TUI spawn is grok --cwd --fullscreen -r (5b)",
           lambda: spawn_tui_argv("C:/x", "u")
           == ["grok", "--cwd", "C:/x", "--fullscreen", "-r", "u"])

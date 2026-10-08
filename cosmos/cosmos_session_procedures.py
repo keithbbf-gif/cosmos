@@ -4,8 +4,9 @@
 
 Resession order is TidyUP, then TidyUP2, then one BU file for the stream or
 the special session type. Auto-resession asks at 75, 80, and 85 percent of
-the context window. A decline waits for the next rung. 92 percent runs the
-close. Autosave writes the session to documents, the existing state/cas
+the context window. A decline waits for the next rung. A live Grok session
+closes at 190000 input tokens, not at 92 percent. Compaction asks. It does
+not close. Autosave writes the session to documents, the existing state/cas
 store, and a ROLD update. A demonstrated skill is proposed through
 cosmos_skills (agentskills.io frontmatter). CCr accept stays on the pen.
 
@@ -32,6 +33,7 @@ ASK_NAME = "RESESSION_ASK.flag"
 ASK_SCHEMA = "cosmos-resession-ask/1"
 DEFAULT_ASK = (0.75, 0.80, 0.85)
 DEFAULT_FORCE = 0.92
+DEFAULT_CLOSE_TOKENS = 190_000
 BU_FILES = {
     "Cm": "BUCm.toml",
     "CCr": "BUcr.toml",
@@ -117,9 +119,33 @@ def decide_rung(pct: float, ask: tuple[float, ...], force: float,
     return {"act": "idle", "pct": pct, "why": "below the next rung"}
 
 
+def _token_count(tokens_in, heartbeat: dict | None) -> int | None:
+    raw = None
+    if isinstance(heartbeat, dict) and heartbeat.get("tokens_in") not in (None, ""):
+        raw = heartbeat.get("tokens_in")
+    elif tokens_in not in (None, ""):
+        raw = tokens_in
+    if raw is None:
+        return None
+    try:
+        return int(raw)
+    except (TypeError, ValueError):
+        return None
+
+
+def _close_tokens(rs: dict) -> int:
+    raw = rs.get("close_tokens")
+    if raw in (None, ""):
+        return DEFAULT_CLOSE_TOKENS
+    try:
+        return int(raw)
+    except (TypeError, ValueError):
+        return DEFAULT_CLOSE_TOKENS
+
+
 def next_action(kit: dict, tokens_in, *, declined: set[str],
                 compaction: bool = False, heartbeat: dict | None = None) -> dict:
-    ask, force = ladder(kit)
+    ask, _force = ladder(kit)
     rs = kit.get("resession") or {}
     if compaction and rs.get("on_compaction", True):
         if canon_pct(ask[0]) not in declined:
@@ -134,9 +160,22 @@ def next_action(kit: dict, tokens_in, *, declined: set[str],
             pct = float(tokens_in) / float(window) if window else None
         except (TypeError, ValueError):
             pct = None
+    tokens = _token_count(tokens_in, heartbeat)
+    close_at = _close_tokens(rs)
+    if tokens is not None and tokens >= close_at:
+        return {"act": "force", "pct": (close_at / window) if window else 0.0,
+                "why": "close at %d tokens" % close_at}
+    if (tokens is None and pct is not None and window
+            and pct >= (close_at / float(window))):
+        return {"act": "force", "pct": close_at / float(window),
+                "why": "close at %d tokens" % close_at}
     if pct is None:
         return {"act": "idle", "pct": 0.0, "why": "no tokens"}
-    return decide_rung(pct, ask, force, declined)
+    for rung in ask:
+        if pct >= rung and canon_pct(rung) not in declined:
+            return {"act": "ask", "pct": rung,
+                    "why": "ask at %.0f%%" % (rung * 100)}
+    return {"act": "idle", "pct": pct, "why": "below the next rung"}
 
 
 def ask_path(paths) -> Path:
@@ -733,6 +772,7 @@ def _selftest() -> int:
         "resession": {
             "ask_pct": [0.75, 0.80, 0.85],
             "force_pct": 0.92,
+            "close_tokens": 190000,
             "window_tokens": 200000,
             "on_compaction": True,
             "on_token_count": True,
@@ -750,8 +790,10 @@ def _selftest() -> int:
           lambda: next_action(kit, 155000, declined={canon_pct(0.75)})["act"] == "idle"
           and next_action(kit, 160000, declined={canon_pct(0.75)})["pct"] == 0.80)
     declined_all = {canon_pct(x) for x in (0.75, 0.80, 0.85)}
-    check("92 percent engages after every decline",
-          lambda: next_action(kit, 184000, declined=declined_all)["act"] == "force")
+    check("184000 does not close",
+          lambda: next_action(kit, 184000, declined=declined_all)["act"] == "idle")
+    check("190000 tokens closes",
+          lambda: next_action(kit, 190000, declined=declined_all)["act"] == "force")
     check("compaction asks at the first rung",
           lambda: next_action(kit, 10, declined=set(), compaction=True)["why"] == "compaction")
     check("a secret in the session text is redacted",
@@ -791,7 +833,7 @@ def _selftest() -> int:
     forced = apply_rung(
         paths, repo, kit=kit, stream="Cm", reason="full", work="continue the route",
         tokens_in=190000, engage=True, closer=closer, bu_dir=td / "bu")
-    check("92 percent runs TidyUP then TU2 then BU",
+    check("190000 tokens runs TidyUP then TU2 then BU",
           lambda: forced["engaged"] is True
           and forced["close"]["steps"] == ["tidyup", "tu2", "bu"]
           and calls == ["tidyup"])

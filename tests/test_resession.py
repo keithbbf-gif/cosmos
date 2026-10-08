@@ -29,7 +29,7 @@ from cosmos_paths import CosmosPaths                                  # noqa: E4
 from cosmos_own_clocks import CLOCKS                                  # noqa: E402
 from cosmos_resession import (                                        # noqa: E402
     CLOCK_ID, CONTEXT_CLOSE_PCT, CONTEXT_PACK_PCT, CONTEXT_WARN_PCT,
-    GROK_WARN_TOKENS, HEARTBEAT_NAME,
+    GROK_CLOSE_TOKENS, GROK_WARN_TOKENS, HEARTBEAT_NAME,
     PROJECTION_NAME, ResessionRefusal, TASK_NAME, arm_gate_flag,
     classify_pause, close_banner, cosmos_tu2, decide, latch_warn,
     plan_task_argv, poll_once, precheck_seed, read_warn_latched,
@@ -174,7 +174,8 @@ def main() -> int:
     # ---- ordering: a bad manifest refuses before anything is armed ----------
     # The fire has to be a live window. A dead pid is not that fire.
     firing = {"spawned_at_epoch": 1.0, "last_act_epoch": 9e9,
-              "turn_n": 1, "context_pct": 0.90}
+              "turn_n": 1, "context_pct": CONTEXT_CLOSE_PCT,
+              "tokens_in": GROK_CLOSE_TOKENS}
     bad = {"ok": False, "kind": "BAD_SEED", "detail": "mac", "sha": None,
            "sid": None, "schema": None, "thin": None, "cursor": None}
     check("a fired watermark over a BAD_SEED is REFUSED, not resumed",
@@ -476,8 +477,8 @@ def main() -> int:
         "cosmos_sid": "Cm",
         "role": "CCr",
         "turn_n": 4,
-        "context_pct": 0.92,
-        "tokens_in": 184000,
+        "context_pct": CONTEXT_CLOSE_PCT,
+        "tokens_in": GROK_CLOSE_TOKENS,
         "last_act_epoch": now_s,
         "spawned_at_epoch": now_s,
         "note": "continue the route",
@@ -485,7 +486,7 @@ def main() -> int:
     dead_rec = poll_once(
         str(dead_root), str(ROOT), dry_run=False, spawn=False, engage=True,
         bu_dir=str(dead_root / "bu"))
-    check("92 percent on a dead pid does not close and does not write a BU",
+    check("190000 tokens on a dead pid does not close and does not write a BU",
           lambda: dead_rec.get("session_closed") is None
           and (dead_rec.get("rung") or {}).get("act") == "force"
           and (dead_rec.get("rung") or {}).get("held") == "pid not alive"
@@ -507,8 +508,8 @@ def main() -> int:
         "cosmos_sid": "Cm",
         "role": "CCr",
         "turn_n": 4,
-        "context_pct": 0.92,
-        "tokens_in": 184000,
+        "context_pct": CONTEXT_CLOSE_PCT,
+        "tokens_in": GROK_CLOSE_TOKENS,
         "last_act_epoch": now_s,
         "spawned_at_epoch": now_s,
         "note": "continue the route",
@@ -516,7 +517,7 @@ def main() -> int:
     live_rec = poll_once(
         str(live_root), str(ROOT), dry_run=False, spawn=False, engage=False,
         bu_dir=str(live_root / "bu"))
-    check("92 percent on a live pid packs and does not close without engage",
+    check("190000 tokens on a live pid packs and does not close without engage",
           lambda: live_rec.get("state") == "ARMED"
           and live_rec.get("spawn_reason") == "watermark"
           and live_rec.get("session_closed") is None
