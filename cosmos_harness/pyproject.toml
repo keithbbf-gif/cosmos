@@ -1,0 +1,31 @@
+[project]
+name = "cosmos-harness"
+version = "1.0.0"
+description = "COSMOS Harness. Deterministic hooks, eight proof layers, host-owned hands. The model sample is the unbound step."
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.6", "mypy>=1.11"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = [".", "../harness/G47"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py314"
+src = ["cosmos_harness", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+ignore = ["E501"]
+
+[tool.mypy]
+python_version = "3.14"
+packages = ["cosmos_harness"]
+mypy_path = ".:../harness/G47"
+ignore_missing_imports = true
+check_untyped_defs = true
+warn_unused_ignores = true
+pretty = true

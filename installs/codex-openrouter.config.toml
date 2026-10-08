@@ -1,0 +1,11 @@
+# Template. Copy to %USERPROFILE%\.codex\cosmos-openrouter.config.toml
+# Put the key in the environment named below. Do not write the key into this file.
+model = "openai/gpt-6-luna:floor"
+model_provider = "openrouter"
+model_reasoning_effort = "max"
+
+[model_providers.openrouter]
+name = "OpenRouter"
+base_url = "https://openrouter.ai/api/v1"
+env_key = "OPENROUTER_API_KEY"
+wire_api = "responses"

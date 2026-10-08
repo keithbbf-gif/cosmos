@@ -1,0 +1,108 @@
+{
+  "language": "json",
+  "layer": "l6_tools",
+  "tools": [
+    {
+      "type": "function",
+      "function": {
+        "name": "read",
+        "description": "Read a file inside the attempt. Refuses paths outside the jail and files over the byte cap.",
+        "parameters": {
+          "type": "object",
+          "properties": {"path": {"type": "string"}},
+          "required": ["path"]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "glob",
+        "description": "List files inside the attempt whose relative path matches the pattern. Does not leave the jail.",
+        "parameters": {
+          "type": "object",
+          "properties": {"pattern": {"type": "string"}},
+          "required": ["pattern"]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "grep",
+        "description": "Literal search inside the attempt. Not a shell pipeline.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "text": {"type": "string"},
+            "path": {"type": "string"}
+          },
+          "required": ["text"]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "edit",
+        "description": "Replace one exact occurrence. Requires the oracle to have failed first. Refuses a missing or repeated old string.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "path": {"type": "string"},
+            "old": {"type": "string"},
+            "new": {"type": "string"}
+          },
+          "required": ["path", "old", "new"]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "write",
+        "description": "Create a new file. Refuses a path that already exists. Requires the oracle to have failed first.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "path": {"type": "string"},
+            "content": {"type": "string"}
+          },
+          "required": ["path", "content"]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "archive",
+        "description": "Move a file into _delme and append a ledger line. This is the only removal hand.",
+        "parameters": {
+          "type": "object",
+          "properties": {"path": {"type": "string"}},
+          "required": ["path"]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "oracle",
+        "description": "Re-run the bound oracle and return its exit code. The verify hook, not this hand, decides done.",
+        "parameters": {"type": "object", "properties": {}}
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "worktree",
+        "description": "Create one directory under worktrees/ inside the jail. Does not call git.",
+        "parameters": {
+          "type": "object",
+          "properties": {"name": {"type": "string"}},
+          "required": ["name"]
+        }
+      }
+    }
+  ]
+}

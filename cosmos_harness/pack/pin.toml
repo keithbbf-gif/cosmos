@@ -1,0 +1,5 @@
+# L2 model. Language: TOML. The pin is decided before the sample.
+model = "{{MODEL}}"
+door = "{{DOOR}}"
+fallback = ""
+allow_fallbacks = false

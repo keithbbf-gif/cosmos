@@ -1,0 +1,59 @@
+# Optional doors. A cold clone reads this file. LOCAL.toml is this machine,
+# written by `py -3.14 -m g47 locate`. Binaries are not vendored here.
+
+[[door]]
+id = "codex"
+binary = "codex"
+obtain = "npm install -g @openai/codex"
+wire_api = "responses"
+note = "OpenRouter pins pass wire_api=responses on the argv. wire_api=chat is refused."
+
+[[door]]
+id = "claude"
+binary = "claude"
+obtain = "Claude Code native installer"
+note = "Optional native harness. Not a 4C checker."
+
+[[door]]
+id = "dsh"
+binary = "dsh.cmd"
+local_name = "deepseek-harness"
+obtain = "git clone --depth 1 https://github.com/deepseek-ai/deepseek-harness"
+note = "The source tree is the local_name directory. The CLI is the npm shim dsh.cmd."
+
+[[door]]
+id = "opencode"
+binary = "opencode.cmd"
+obtain = "npm install -g opencode-ai"
+note = "Optional native harness."
+
+[[door]]
+id = "pi"
+binary = "pi.cmd"
+obtain = "npm install -g @mariozechner/pi-coding-agent"
+note = "GLM's seated door. Not an OpenRouter chat call."
+
+[[door]]
+id = "cursor"
+binary = "cursor.cmd"
+local_name = "cursor"
+obtain = "Cursor installer"
+note = "Desktop install. The indexed tree is the install directory, not a git checkout."
+
+[[door]]
+id = "gemini"
+binary = "gemini"
+obtain = "npm install -g @google/gemini-cli"
+note = "Optional. Vertex remains the gf38 door in the roster."
+
+[[door]]
+id = "hermes"
+binary = "hermes"
+obtain = "Hermes installer"
+note = "Not a coder door. Indexed so the doctor can see it."
+
+[[door]]
+id = "grok"
+binary = "grok.exe"
+obtain = "not installed by this repo"
+note = "Do not start grok.exe. The index may record where the binary sits. It is not a worker."
