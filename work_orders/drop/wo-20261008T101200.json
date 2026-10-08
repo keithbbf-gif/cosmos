@@ -1,0 +1,8 @@
+{
+  "Agent": "xAI | Grok | grok-4.6",
+  "Context source": "docs/AGENT_BRIEF.md [read*], docs/AGENT_BOUNDARIES.md [read*], docs/WORK_ORDER_SOP.md [read*], docs/WORK_ORDER_SPEC.md [read*], cosmos/cosmos_sgh_drop_ingest.py [read*]",
+  "Task": "FIRST read docs/AGENT_BRIEF.md (DHx) and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Make the keithbbf-gif/cosmos GitHub repository private so the SGH voice-drop inbox (work_orders/drop/) is not publicly readable. The drop ingest daemon (cosmos/cosmos_sgh_drop_ingest.py) and the COSMOS Work-Order Runner schtask must keep working after the change: they authenticate as Keith (gh CLI / live/config/github_agent_token.txt), so a private repo is fine for them. Verify the daemon's token has the private repo in scope (fine-grained PAT) or that gh is authenticated as Keith. Update docs/WORK_ORDER_SOP.md with a short note that the repo is private and the drop still works for authenticated writers (SGH, COW, GrokBot). Do not delete anything. Do not touch kernel/ledger/sched/service.",
+  "Target & scope": "proposals under Output only; repo visibility change + SOP note; never kernel/ledger/sched/service",
+  "Timestamp": "2026-10-08T10:12:00-05:00",
+  "Output": "proposals | wo-20261008T101200_RESULT.json"
+}
