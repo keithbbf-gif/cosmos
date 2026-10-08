@@ -10,11 +10,14 @@ Keith 2026-09-18: *If I say you have the pen, you DISABLE THE OTHER WRITERS FIRS
 
 When Keith names you the pen:
 
-1. **Stop other writers first.** Do not write yet.
-   - Other `CCR.lease` holder — they stop; you do not dual-write.
-   - Extra `grok.exe` / `grok --single` — none.
-   - Codex / SOL / Cursor Cloud / farm Popen writing `cosmos/` or merging Gitur — stop.
-   - Orch “have her apply” while you also write — stop. One mouth.
+1. **Stop other writers first.** Do not write yet. Stop means stop the write. It does not mean kill the session.
+   - Another session that holds the pen, or that is writing or has written to the tree without the pen — stop it from writing to the tree. If it is mid-write and can finish, let it finish. You do not dual-write.
+   - Ask Keith to stop it, and tell him what is going on. Do not close the session yourself.
+   - A session that is only running has not taken the pen and has not written the tree. Leave it open.
+   - Codex / SOL / Cursor Cloud / farm Popen writing `cosmos/` or merging Gitur — stop that write the same way. Ask Keith. Do not kill the process.
+   - Orch “have her apply” while you also write — one mouth. Ask Keith. Do not kill the session.
+
+Keith 2026-10-02: "extra grok.exe: none" is not the rule. Stop does not mean kill the session. Stop the write, or let it finish. Ask Keith to stop it, and tell him what is going on.
 2. **Take the lease.** `live/state/control/CCR.lease` is you. Empty file is not “no pen.” A second CCr REFUSES.
 3. **One head.** `origin/main..HEAD` is 0. Unique-head stays dead.
 4. **Then** you may write — only through the pipe below.
@@ -43,4 +46,4 @@ Check the output that will be graded.
 
 ## Never
 
-Two streams on one root. Extra grok.exe. Restore unique-head. Merge without Judge KEEP. Orch writing CORE. USPTO from this chair. Straight-to-tree occupancy.
+Two streams on one root. A second pen, or a write to the tree without the pen. Restore unique-head. Merge without Judge KEEP. Orch writing CORE. USPTO from this chair. Straight-to-tree occupancy.

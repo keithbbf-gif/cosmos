@@ -5,7 +5,7 @@ Keith: if CCr only writes LiT from Gitur, there is one head. The 37 occupancy co
 ## Rules (smallest)
 
 1. **One git head.** `main` on disk = `origin/main`. Count `origin/main..HEAD` is 0.
-2. **One CCr.** Only that sid writes LiT. **Keith 2026-09-18:** if he names you the pen, **disable the other writers first** (lease, extra grok.exe, Codex/SOL, parallel Gitur merge). Then take `CCR.lease`. Then write. Canon: `docs/CANON_PEN.md`.
+2. **One CCr.** Only that sid writes LiT. **Keith 2026-09-18:** if he names you the pen, **disable the other writers first**. **Keith 2026-10-02:** a writer is a session that holds the pen, or that is writing or has written to the tree without it. A running session is not a writer. Stop means stop the write, or let it finish. Ask Keith before any session is closed, and tell him what is going on. Do not kill the process. Then take `CCR.lease`. Then write. Canon: `docs/CANON_PEN.md`.
 3. **One write pipe.** Gitur proposes (PR from `starting_ref: main`). **Judge KEEP.** CCr squash-merges to `main`, then fast-forward pull. That is the LiT write. They stay until judged. No straight-to-tree.
 4. **No occupancy-only commits** (“join GitHub / keep local”).
 5. **No side-door** `search_replace` on `cosmos/` from a non-CCr TUI.
