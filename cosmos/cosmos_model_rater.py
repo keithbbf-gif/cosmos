@@ -15,7 +15,9 @@ stamps is not an audit trail. Canon: docs/AGENT_AUDIT.md.
 Quality axes (vendor-measured, else UNMEASURED — never invented):
   intelligence, coding, agentic  (OpenRouter GET /benchmarks
   source=artificial-analysis, plus any indices already on GET /models).
-  Q is the mean of the axes that exist. Sortable across INT / COD / AGT / Q.
+  Design Arena code ELO is benchmarks.design_arena category codecategories.
+  Our scores stay in judge_ours.jsonl and are joined at load, not baked
+  into the vendor catalog. Q is the mean of the vendor axes that exist.
 Price: USD per 1M prompt/completion tokens (API is per-token).
 Type: coding | reasoning | images | audio | video | chat
 
@@ -43,6 +45,8 @@ TTL_S = 24 * 3600
 CATALOG_NAME = "catalog.json"
 SEATS_NAME = "seats.json"
 POROSITY_NAME = "porosity.json"
+OURS_NAME = "judge_ours.jsonl"
+OURS_SCHEMA = "cosmos-model-rater-ours/1"
 BLEND_IN = 0.75
 BLEND_OUT = 0.25
 ROTATING = frozenset({
@@ -159,6 +163,7 @@ SORT_KEYS = frozenset({
     "popularity", "recency", "created", "latency", "math",
     "gpqa", "hle", "ifbench", "tau2", "lcr", "gdpval", "critpt",
     "scicode", "terminal_bench", "omniscience", "omniscience_nh",
+    "da_code_elo", "ours_hero", "ours_coding", "ours_reliable",
     "name", "context", "id",
 })
 QUALITY_AXES = ("intelligence", "coding", "agentic")
@@ -166,7 +171,8 @@ RATIO_AXES = ("intelligence", "coding", "agentic", "quality")
 EXTRA_AXES = ("speed", "math", "office", "file", "stability",
               "popularity", "latency", "reasoning",
               "gpqa", "hle", "ifbench", "tau2", "lcr", "gdpval", "critpt",
-              "scicode", "terminal_bench", "omniscience", "omniscience_nh")
+              "scicode", "terminal_bench", "omniscience", "omniscience_nh",
+              "da_code_elo", "da_code_rank")
 TYPE_KEYS = frozenset({
     "coding", "reasoning", "images", "audio", "video", "chat", "free", "docs",
 })
@@ -244,6 +250,12 @@ AXES_META = (
      "source": "Artificial Analysis Coding Index via OpenRouter GET /benchmarks"},
     {"id": "agentic", "label": "agentic",
      "source": "Artificial Analysis Agentic Index via OpenRouter GET /benchmarks"},
+    {"id": "da_code_elo", "label": "DA code ELO",
+     "source": "OpenRouter benchmarks.design_arena category codecategories. Arena models wins when more than one row exists."},
+    {"id": "ours_hero", "label": "ours hero seat",
+     "source": "local judge_ours.jsonl axis hero_seat. 1 = HERO_FULL, 0 = a measured miss. Absent = UNMEASURED."},
+    {"id": "ours_coding", "label": "ours coding",
+     "source": "local judge_ours.jsonl axis coding. Separate from the vendor coding index."},
     {"id": "reasoning", "label": "reasoning (dedicated)",
      "source": "AA reasoning_index when OpenRouter sends it; else UNMEASURED (INT is the composite)"},
     {"id": "speed", "label": "speed",
@@ -347,6 +359,10 @@ def porosity_path(paths) -> Path:
 
 def seats_path(paths) -> Path:
     return dir_for(paths) / SEATS_NAME
+
+
+def ours_path(paths) -> Path:
+    return dir_for(paths) / OURS_NAME
 
 
 def job_est_path(paths) -> Path:
@@ -500,6 +516,31 @@ def is_favored(model_id: str, policy: dict) -> bool:
     return bool(fam) and any(fam == str(x).lower() for x in pol["favored_families"])
 
 
+def _design_arena_code(bench) -> tuple:
+    """Code-category ELO and rank. Prefer arena=models. Never invent."""
+    rows = bench.get("design_arena") if isinstance(bench, dict) else None
+    if not isinstance(rows, list):
+        return None, None
+    fallback = None
+    for row in rows:
+        if not isinstance(row, dict):
+            continue
+        if str(row.get("category") or "") != "codecategories":
+            continue
+        elo = _f(row.get("elo"))
+        rank = _f(row.get("rank"))
+        if elo is None and rank is None:
+            continue
+        if rank is not None and rank == int(rank):
+            rank = int(rank)
+        pair = (elo, rank)
+        if str(row.get("arena") or "") == "models":
+            return pair
+        if fallback is None:
+            fallback = pair
+    return fallback if fallback is not None else (None, None)
+
+
 def _copy_aa(dst: dict, aa: dict) -> bool:
     hit = False
     if not isinstance(aa, dict):
@@ -566,6 +607,8 @@ def normalize_row(raw: dict) -> dict:
         "terminal_bench": None,
         "omniscience": None,
         "omniscience_nh": None,
+        "da_code_elo": None,
+        "da_code_rank": None,
         "popularity": _popularity(raw),
         "weekly_tokens": _popularity(raw),
         "latency": None,
@@ -585,6 +628,9 @@ def normalize_row(raw: dict) -> dict:
         "banned": False,
     }
     _copy_aa(row, aa)
+    elo, rank = _design_arena_code(bench)
+    row["da_code_elo"] = elo
+    row["da_code_rank"] = rank
     row["throughput"] = row.get("speed")
     return row
 
@@ -719,7 +765,73 @@ def load_catalog(paths) -> dict:
     for m in rec["models"]:
         if isinstance(m, dict):
             _stamp_blend(m)
+    apply_ours(paths, [m for m in rec["models"] if isinstance(m, dict)])
     return rec
+
+
+def load_ours(paths) -> dict:
+    """Last scored row per (model, axis). A missing file is empty."""
+    folded: dict[tuple[str, str], dict] = {}
+    path = ours_path(paths)
+    if not path.is_file():
+        return folded
+    try:
+        text = path.read_text(encoding="utf-8")
+    except OSError:
+        return folded
+    for line in text.splitlines():
+        line = line.strip()
+        if not line:
+            continue
+        try:
+            row = json.loads(line)
+        except ValueError:
+            continue
+        if not isinstance(row, dict) or row.get("schema") != OURS_SCHEMA:
+            continue
+        model = str(row.get("model") or "").strip()
+        axis = str(row.get("axis") or "").strip()
+        if not model or not axis or _f(row.get("score")) is None:
+            continue
+        folded[(model, axis)] = row
+    return folded
+
+
+def apply_ours(paths, models: list) -> int:
+    """Join local judge_ours.jsonl onto rows. Does not write the catalog."""
+    folded = load_ours(paths)
+    n = 0
+    for m in models:
+        if not isinstance(m, dict):
+            continue
+        mid = str(m.get("id") or "")
+        hero = folded.get((mid, "hero_seat"))
+        coding = folded.get((mid, "coding"))
+        reliable = folded.get((mid, "hero_reliable"))
+        if hero:
+            m["ours_hero"] = _f(hero.get("score"))
+            m["ours_hero_n"] = _f(hero.get("n"))
+            m["ours_hero_at"] = hero.get("at")
+            m["ours_hero_note"] = hero.get("note")
+            m["ours_hero_source"] = hero.get("source")
+            n += 1
+        else:
+            m["ours_hero"] = None
+        if coding:
+            m["ours_coding"] = _f(coding.get("score"))
+            m["ours_coding_n"] = _f(coding.get("n"))
+            m["ours_coding_at"] = coding.get("at")
+            m["ours_coding_source"] = coding.get("source")
+            n += 1
+        else:
+            m["ours_coding"] = None
+        if reliable:
+            m["ours_reliable"] = _f(reliable.get("score"))
+            m["ours_reliable_n"] = _f(reliable.get("n"))
+            n += 1
+        else:
+            m["ours_reliable"] = None
+    return n
 
 
 def default_seats() -> list[dict]:
@@ -876,6 +988,7 @@ def refresh(paths, *, http=None) -> dict:
         "quality_source": "openrouter GET /api/v1/benchmarks?source=artificial-analysis",
     }
     save_catalog(paths, rec)
+    apply_ours(paths, rows)
     return rec
 
 
@@ -886,6 +999,7 @@ _AXIS_SORT = frozenset({
     "quality_per_cost", "V", "porosity",
     "gpqa", "hle", "ifbench", "tau2", "lcr", "gdpval", "critpt",
     "scicode", "terminal_bench", "omniscience", "omniscience_nh",
+    "da_code_elo", "ours_hero", "ours_coding", "ours_reliable",
 })
 
 
@@ -1787,7 +1901,15 @@ def _selftest() -> int:
                  "pricing": {"prompt": "0.000015", "completion": "0.000075"},
                  "benchmarks": {"artificial_analysis": {
                      "intelligence_index": 90.0, "coding_index": 88.0,
-                     "agentic_index": 85.0}},
+                     "agentic_index": 85.0},
+                     "design_arena": [
+                         {"arena": "models", "category": "website",
+                          "elo": 999, "rank": 1},
+                         {"arena": "models", "category": "codecategories",
+                          "elo": 1309, "rank": 11},
+                         {"arena": "agents", "category": "codecategories",
+                          "elo": 1, "rank": 99},
+                     ]},
                  "supported_parameters": ["tools", "reasoning"]},
                 {"id": "openrouter/free", "name": "Free rotator",
                  "context_length": 200000,
@@ -1909,6 +2031,32 @@ def _selftest() -> int:
     check("speed copies vendor output_speed, recency copies created",
           lambda: office.get("speed") == 42.0
           and office.get("created") == 1_800_000_000)
+    check("Design Arena code ELO copies codecategories and prefers arena models",
+          lambda: office.get("da_code_elo") == 1309
+          and office.get("da_code_rank") == 11
+          and gem_free.get("da_code_elo") is None)
+    ours_path(paths).write_text(json.dumps({
+        "schema": OURS_SCHEMA,
+        "at": "2026-10-08T00:00:00-05:00",
+        "model": "anthropic/claude-opus-5",
+        "axis": "hero_seat",
+        "score": 1,
+        "n": 1,
+        "source": "ours:hero:selftest",
+        "note": "stop=HERO_FULL http=200",
+    }) + "\n", encoding="utf-8")
+    disk = json.loads(catalog_path(paths).read_text(encoding="utf-8"))
+    disk_opus = next(m for m in disk["models"] if m["id"] == "anthropic/claude-opus-5")
+    joined = snapshot(paths, q="claude-opus-5", limit=5)
+    check("vendor catalog keeps DA and does not bake our hero score",
+          lambda: disk_opus.get("da_code_elo") == 1309
+          and "ours_hero" not in disk_opus)
+    check("snapshot joins our hero seat and leaves the vendor coding index",
+          lambda: any(m["id"] == "anthropic/claude-opus-5"
+                      and m.get("ours_hero") == 1.0
+                      and m.get("ours_coding") is None
+                      and m.get("intelligence") == 90.0
+                      for m in joined["models"]))
     check("OpenRouter AA benches copy GPQA/HLE/IFBench/SciCode/Terminal-Bench when sent",
           lambda: office.get("gpqa") == 86.7
           and office.get("hle") == 28.4
