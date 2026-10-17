@@ -26,6 +26,7 @@
     GET  /v1/founding/status    Founding cohort counter (sold/500)
     GET  /v1/cloudflare/status  Cloudflare zone and edge status
     GET  /healthz               gateway liveness
+    POST /v1/account/anonymous  anonymous key, $0 credit, per-IP daily limit
     OPTIONS *                   CORS preflight for browser portal
 
 Security & Stewardship Rules:
@@ -197,6 +198,36 @@ class Store:
                    )"""
             )
             self.db.commit()
+
+    def anon_allow(self, client_ip: str, per_ip_daily: int = 3, global_daily: int = 300) -> Tuple[bool, str]:
+        """Persistent per-IP + global daily limit for POST /v1/account/anonymous.
+        Survives process restarts (Passenger recycles workers). The IP is stored
+        only as a sha256 hash (privacy structural)."""
+        day = datetime.now(UTC).strftime("%Y-%m-%d")
+        ip_hash = hashlib.sha256(("anon:" + (client_ip or "unknown")).encode("utf-8")).hexdigest()
+        with self.lock:
+            self.db.execute(
+                """CREATE TABLE IF NOT EXISTS anon_issuance (
+                     ip_hash TEXT NOT NULL, day TEXT NOT NULL, n INTEGER NOT NULL DEFAULT 0,
+                     PRIMARY KEY (ip_hash, day))"""
+            )
+            total = self.db.execute(
+                "SELECT COALESCE(SUM(n), 0) FROM anon_issuance WHERE day = ?", (day,)
+            ).fetchone()[0]
+            if int(total) >= int(global_daily):
+                return False, "anonymous_daily_cap"
+            row = self.db.execute(
+                "SELECT n FROM anon_issuance WHERE ip_hash = ? AND day = ?", (ip_hash, day)
+            ).fetchone()
+            if row and int(row[0]) >= int(per_ip_daily):
+                return False, "anonymous_ip_limit"
+            self.db.execute(
+                """INSERT INTO anon_issuance (ip_hash, day, n) VALUES (?,?,1)
+                   ON CONFLICT(ip_hash, day) DO UPDATE SET n = n + 1""",
+                (ip_hash, day),
+            )
+            self.db.commit()
+        return True, ""
 
     @staticmethod
     def hash_key(key: str) -> str:
@@ -717,6 +748,16 @@ class PayGateway:
         )
 
 
+_SITE_ORIGINS = ("https://tokenctr.com/", "https://www.tokenctr.com/")
+
+
+def _site_url(value: Any, default: str) -> str:
+    """Checkout return URLs must stay on the TokenCenter site (no open redirect)."""
+    if isinstance(value, str) and value.startswith(_SITE_ORIGINS) and len(value) < 500:
+        return value
+    return default
+
+
 # ----------------------------------------------------------------------------- HTTP Handler
 def make_handler(gw: PayGateway, api: Any = None) -> type:
     class Handler(BaseHTTPRequestHandler):
@@ -1007,6 +1048,26 @@ def make_handler(gw: PayGateway, api: Any = None) -> type:
                     self._send(403, {"error": {"code": "turnstile_verification_failed"}})
                     return
 
+            # ---- anonymous key (no email, no card): $0 credit, per-IP daily limit ----
+            if path == "/v1/account/anonymous" and api:
+                anon_cfg = (api.get("config") or {}).get("anonymous", {}) if isinstance(api, dict) else {}
+                if anon_cfg.get("enabled", True) is False:
+                    self._send(403, {"error": {"code": "anonymous_disabled"}})
+                    return
+                ok, why = gw.store.anon_allow(
+                    client_ip,
+                    per_ip_daily=int(anon_cfg.get("per_ip_daily", 3)),
+                    global_daily=int(anon_cfg.get("global_daily", 300)),
+                )
+                if not ok:
+                    self._send(429, {"error": {"code": why, "message": "anonymous key limit reached; try again tomorrow"}},
+                               {"Retry-After": "3600"})
+                    return
+                ah, raw_key = gw.store.create_account(plan="free", credits_face_usd=0.0)
+                self._send(200, {"api_key": raw_key, "key": raw_key, "account": ah,
+                                 "credits_face_usd": 0.0, "shown_once": True})
+                return
+
             # ---- account bootstrap (setup key from secrets — v1 pre-OAuth) ----
             if path == "/v1/account/create" and api:
                 if body.get("setup_key") != api["setup_key"]:
@@ -1088,8 +1149,8 @@ def make_handler(gw: PayGateway, api: Any = None) -> type:
             if path == "/v1/credits/purchase" and api:
                 amount = float(body.get("amount_usd", 10.0))
                 processor = body.get("processor", "stripe")
-                success_url = body.get("success_url", "https://tokenctr.com/done")
-                cancel_url = body.get("cancel_url", "https://tokenctr.com/cancel")
+                success_url = _site_url(body.get("success_url"), "https://tokenctr.com/done.html")
+                cancel_url = _site_url(body.get("cancel_url"), "https://tokenctr.com/cancel.html")
                 try:
                     if processor == "paypal" and api.get("paypal"):
                         order = api["paypal"].create_order(acct["account_hash"], amount, success_url, cancel_url)
@@ -1121,8 +1182,8 @@ def make_handler(gw: PayGateway, api: Any = None) -> type:
                 try:
                     sess = api["stripe"].create_checkout_session(
                         acct["account_hash"], amounts[tier],
-                        success_url=body.get("success_url", "https://tokenctr.com/done"),
-                        cancel_url=body.get("cancel_url", "https://tokenctr.com/cancel"),
+                        success_url=_site_url(body.get("success_url"), "https://tokenctr.com/done.html"),
+                        cancel_url=_site_url(body.get("cancel_url"), "https://tokenctr.com/cancel.html"),
                         metadata={"founding": tier, "account_hash": acct["account_hash"]},
                     )
                 except proc_mod.ProcessorError as e:
@@ -1164,7 +1225,9 @@ def make_handler(gw: PayGateway, api: Any = None) -> type:
     return Handler
 
 
-def main() -> None:
+def build_app() -> Tuple[Any, Any, Dict[str, Any]]:
+    """Construct (gw, api, config) without binding a socket. Used by main() and
+    by passenger_wsgi.py (cPanel / CloudLinux Python app)."""
     config = cfg.load_config()
     secrets = cfg.load_secrets(required=["mesh_hmac_key_hex"])
     models = cfg.load_models()
@@ -1215,6 +1278,12 @@ def main() -> None:
     except Exception as e:
         print(f"UI API not fully mounted: {e} — core chat lane still serves")
 
+    return gw, api, config
+
+
+def main() -> None:
+    gw, api, config = build_app()
+    models = gw.models
     host = config["gateway"]["host"]
     port = int(config["gateway"]["port"])
     httpd = ThreadingHTTPServer((host, port), make_handler(gw, api))

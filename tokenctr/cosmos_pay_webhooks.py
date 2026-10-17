@@ -148,7 +148,13 @@ class WebhookRouter:
                 amount = float(data["amount_total"]) / 100.0
             except (TypeError, ValueError) as e:
                 raise WebhookError(f"BAD_PAYLOAD bad amount_total: {e}") from e
-        if etype == "checkout.session.completed" and account_hash:
+        if etype in ("checkout.session.completed", "checkout.session.async_payment_succeeded") and account_hash:
+            # Deny before grant: delayed methods (Klarna, Cash App, bank debits) fire
+            # checkout.session.completed with payment_status "unpaid"; credit only
+            # once Stripe says the money is in (async_payment_succeeded => "paid").
+            pstatus = data.get("payment_status")
+            if pstatus is not None and pstatus not in ("paid", "no_payment_required"):
+                return {"routed": False, "note": f"awaiting payment ({pstatus})", "account": account_hash}
             meta = data.get("metadata") or {}
             founding_tier = meta.get("founding")
             if founding_tier in ("paid", "verified"):
