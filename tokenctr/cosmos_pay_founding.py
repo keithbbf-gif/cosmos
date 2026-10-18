@@ -30,9 +30,9 @@ class FoundingError(RuntimeError):
 
 TIERS: Dict[str, Dict[str, Any]] = {
     "paid": {"price_usd": 10.0, "grant_face_usd": 20.0, "plan": "founding"},
-    "verified": {"price_usd": 0.0, "grant_face_usd": 11.0, "plan": "verified_free"},
-    # verified = $10 founding-tier tokens + $1 verification credit (the $1 auth,
-    # credited back — no dead money). Declared value $40 vs $50.
+    "verified": {"price_usd": 1.0, "grant_face_usd": 1.0, "plan": "verified_free"},
+    # verified = $1 card verification charge, credited back as $1 of credit
+    # (Keith 2026-10-18: $1, not $11). Credit is real dollars at provider cost.
 }
 
 
@@ -76,7 +76,9 @@ class Founding:
             row = self.store.db.execute(
                 "SELECT plan FROM accounts WHERE account_hash = ?", (account_hash,)
             ).fetchone()
-            if row and row[0] in ("founding", "verified_free"):
+            current = row[0] if row else None
+            # verified_free -> founding is the advertised upgrade; anything else repeats a tier.
+            if current == "founding" or (current == "verified_free" and tier != "paid"):
                 raise FoundingError("ALREADY_FOUNDING account already holds a founding tier")
             self._consume_slot()
             face = float(tier_cfg["grant_face_usd"])

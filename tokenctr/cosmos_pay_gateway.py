@@ -796,6 +796,31 @@ def billed_usd(prices: Tuple[float, float], tokens_in: int, tokens_out: int,
     return token_math
 
 
+# Fixed price table: the server decides what a pack costs; the client only names it.
+CREDIT_PACKS: Dict[str, Tuple[float, str]] = {
+    "mini": (5.0, "Mini \u2014 $5 credit"),
+    "maker": (19.0, "Maker \u2014 $19 credit"),
+    "studio": (59.0, "Studio \u2014 $59 credit"),
+}
+FOUNDING_OFFERS: Dict[str, Tuple[float, str]] = {
+    "paid": (10.0, "Founding \u2014 lifetime membership + $20 credit"),
+    "verified": (1.0, "Card verification \u2014 $1 credit"),
+}
+
+
+def _client_amount_mismatch(body: Dict[str, Any], price: float) -> Optional[str]:
+    """None if the client sent no amount or the exact table price; else an error string."""
+    if "amount_usd" not in body or body.get("amount_usd") is None:
+        return None
+    try:
+        sent = float(body.get("amount_usd"))
+    except (TypeError, ValueError):
+        return "amount_usd is not a number"
+    if sent != sent or abs(sent - price) > 1e-9:
+        return f"amount_usd {body.get('amount_usd')!r} does not match the pack price {price:.2f}"
+    return None
+
+
 _SITE_ORIGINS = ("https://tokenctr.com/", "https://www.tokenctr.com/")
 
 
@@ -1199,7 +1224,16 @@ def make_handler(gw: PayGateway, api: Any = None) -> type:
 
             # ---- credit purchase ----
             if path == "/v1/credits/purchase" and api:
-                amount = float(body.get("amount_usd", 10.0))
+                pack_id = str(body.get("pack_id") or body.get("pack") or "").strip().lower()
+                if pack_id not in CREDIT_PACKS:
+                    self._send(400, {"error": {"code": "bad_pack",
+                                               "message": "pack_id must be one of: " + ", ".join(CREDIT_PACKS)}})
+                    return
+                amount, product_name = CREDIT_PACKS[pack_id]
+                why = _client_amount_mismatch(body, amount)
+                if why:
+                    self._send(400, {"error": {"code": "amount_mismatch", "message": why}})
+                    return
                 processor = body.get("processor", "stripe")
                 success_url = _site_url(body.get("success_url"), "https://tokenctr.com/done.html")
                 cancel_url = _site_url(body.get("cancel_url"), "https://tokenctr.com/cancel.html")
@@ -1214,9 +1248,10 @@ def make_handler(gw: PayGateway, api: Any = None) -> type:
                             amount,
                             success_url=success_url,
                             cancel_url=cancel_url,
-                            metadata={"account_hash": acct["account_hash"]},
+                            metadata={"account_hash": acct["account_hash"], "pack_id": pack_id},
+                            product_name=product_name,
                         )
-                        self._send(200, {"checkout": sess})
+                        self._send(200, {"checkout": sess, "pack_id": pack_id, "amount_usd": amount})
                         return
                     self._send(503, {"error": {"code": "no_processor", "message": "payment processor unavailable"}})
                     return
@@ -1226,23 +1261,36 @@ def make_handler(gw: PayGateway, api: Any = None) -> type:
 
             # ---- founding ----
             if path == "/v1/founding/purchase" and api:
-                tier = body.get("tier", "paid")
-                amounts = {"paid": 10.0, "verified": 1.0}
-                if tier not in amounts:
+                tier = str(body.get("tier", "paid") or "").strip().lower()
+                if tier not in FOUNDING_OFFERS:
                     self._send(400, {"error": {"code": "bad_tier", "message": "paid | verified"}})
+                    return
+                f_amount, f_name = FOUNDING_OFFERS[tier]
+                why = _client_amount_mismatch(body, f_amount)
+                if why:
+                    self._send(400, {"error": {"code": "amount_mismatch", "message": why}})
+                    return
+                plan_now = acct.get("plan") if isinstance(acct, dict) else None
+                if plan_now == "founding" or (plan_now == "verified_free" and tier != "paid"):
+                    self._send(409, {"error": {"code": "already_founding",
+                                               "message": "this account already holds that tier"}})
+                    return
+                if not api.get("stripe"):
+                    self._send(503, {"error": {"code": "no_processor", "message": "payment processor unavailable"}})
                     return
                 try:
                     sess = api["stripe"].create_checkout_session(
-                        acct["account_hash"], amounts[tier],
+                        acct["account_hash"], f_amount,
                         success_url=_site_url(body.get("success_url"), "https://tokenctr.com/done.html"),
                         cancel_url=_site_url(body.get("cancel_url"), "https://tokenctr.com/cancel.html"),
                         metadata={"founding": tier, "account_hash": acct["account_hash"]},
+                        product_name=f_name,
                     )
                 except proc_mod.ProcessorError as e:
                     self._send(502, {"error": {"code": "processor_error", "message": str(e)}})
                     return
                 self._send(200, {
-                    "checkout": sess,
+                    "checkout": sess, "tier": tier, "amount_usd": f_amount,
                     "note": "the webhook grants the tier — the click only creates the session",
                 })
                 return

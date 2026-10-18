@@ -106,9 +106,11 @@ class StripeAdapter:
 
     def create_checkout_session(self, account_hash: str, amount_usd: float,
                                 success_url: str, cancel_url: str,
-                                metadata: Optional[Dict[str, str]] = None) -> Dict[str, Any]:
+                                metadata: Optional[Dict[str, str]] = None,
+                                product_name: str = "TokenCenter credits") -> Dict[str, Any]:
         """Hosted checkout for a credit purchase. Returns {id, url} — the UI
-        redirects to url; the webhook completes the grant."""
+        redirects to url; the webhook completes the grant. product_name is the
+        line-item name the buyer sees (matches the Stripe product names)."""
         unit = int(round(amount_usd * 100))
         params: Dict[str, str] = {
             "mode": "payment",
@@ -118,7 +120,7 @@ class StripeAdapter:
             "line_items[0][quantity]": "1",
             "line_items[0][price_data][currency]": "usd",
             "line_items[0][price_data][unit_amount]": str(unit),
-            "line_items[0][price_data][product_data][name]": "TokenCenter credits",
+            "line_items[0][price_data][product_data][name]": str(product_name or "TokenCenter credits")[:250],
         }
         for k, v in (metadata or {}).items():
             params[f"metadata[{k}]"] = str(v)
