@@ -911,8 +911,7 @@ def make_handler(gw: PayGateway, api: Any = None) -> type:
             self.send_header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS")
             self.send_header(
                 "Access-Control-Allow-Headers",
-                "Authorization, Content-Type, CF-Turnstile-Token, Stripe-Signature, PayPal-Webhook-Id, "
-                "PayPal-Transmission-Id, PayPal-Transmission-Time, PayPal-Transmission-Sig, PayPal-Cert-Url, PayPal-Auth-Algo, "
+                "Authorization, Content-Type, CF-Turnstile-Token, Stripe-Signature, "
                 "X-Cosmos-Quota-Remaining, X-Cosmos-Quota-Reset, X-Cosmos-Credit-Balance",
             )
             self.send_header(
