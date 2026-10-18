@@ -78,7 +78,7 @@ if __name__ == "__main__":
     router.attach(os.path.join(tmp, "webhooks.db"))
     class FakeStripeCheckout:
         """Checkout sessions without network; webhook verify stays on the real adapter."""
-        def create_checkout_session(self, account_hash, amount_usd, success_url, cancel_url, metadata=None):
+        def create_checkout_session(self, account_hash, amount_usd, success_url, cancel_url, metadata=None, product_name=None):
             return {"id": "cs_test_1", "url": "https://checkout.stripe.com/test"}
 
     api = {"founding": founding_inst, "webhooks": router, "stripe": FakeStripeCheckout(),

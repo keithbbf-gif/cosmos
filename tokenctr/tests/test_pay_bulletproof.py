@@ -78,7 +78,7 @@ if __name__ == "__main__":
 
     founding = founding_mod.Founding(store, meter, cap=500)
     class MockStripe(proc_mod.StripeAdapter):
-        def create_checkout_session(self, account_hash, amount_usd, success_url, cancel_url, metadata=None):
+        def create_checkout_session(self, account_hash, amount_usd, success_url, cancel_url, metadata=None, product_name=None):
             return {"id": "cs_mock_123", "url": "https://checkout.stripe.com/pay/cs_mock_123"}
 
     stripe = MockStripe(secret_key="sk_test_mock", webhook_secret="whsec_test")
@@ -199,8 +199,11 @@ if __name__ == "__main__":
 
     # 6. Credit purchase endpoint (POST /v1/credits/purchase)
     code, out, _ = req("/v1/credits/purchase", method="POST",
-                       body={"amount_usd": 20.0, "processor": "stripe"}, key=key)
+                       body={"pack_id": "mini", "amount_usd": 5.0, "processor": "stripe"}, key=key)
     check("credits purchase returns checkout session", code == 200 and "checkout" in out)
+    code, out, _ = req("/v1/credits/purchase", method="POST",
+                       body={"amount_usd": 20.0, "processor": "stripe"}, key=key)
+    check("credits purchase without a fixed pack is 400", code == 400)
 
     # 7. Log receipt lookup (GET /v1/logs and GET /v1/logs/{id})
     code, out, _ = req("/v1/logs", key=key)

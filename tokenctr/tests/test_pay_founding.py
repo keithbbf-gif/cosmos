@@ -55,10 +55,10 @@ if __name__ == "__main__":
     except founding.FoundingError as e:
         check("already-founding refused", "ALREADY_FOUNDING" in str(e))
 
-    # --- account B: verified tier ($10 + $1 = $11 face) ---
+    # --- account B: verified tier ($1 card verification -> $1 credit) ---
     ah_b, _ = store.create_account(plan="free")
     out = f.grant(ah_b, "verified")
-    check("verified tier grants $11 face ($10 + $1 credited auth)", out["granted_face_usd"] == 11.0)
+    check("verified tier grants exactly $1 credit", out["granted_face_usd"] == 1.0 and store.credits(ah_b) == 1.0)
     check("verified tier sets plan=verified_free", store.db.execute(
         "SELECT plan FROM accounts WHERE account_hash = ?", (ah_b,)).fetchone()[0] == "verified_free")
     check("status 2/2", f.status()["sold"] == 2)
