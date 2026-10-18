@@ -14,7 +14,10 @@ Skipped: missing pricing, negative/variable pricing (-1 routers), not on
 OpenRouter. Non-OpenRouter entries already in the target file are kept.
 
 Usage:
-  python3 build_models_from_catalog.py [--base URL] [--out PATH] [--dry-run]
+  python3 build_models_from_catalog.py [--base URL] [--out PATH] [--public-out PATH] [--dry-run]
+
+--public-out also writes a public price list (ids, names, split prices only; no
+secrets) for the site estimator, e.g. ~/tokenctr.com/data/prices.json.
 """
 from __future__ import annotations
 
@@ -84,6 +87,7 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--base", default=os.environ.get("TOKENCTR_CATALOG_BASE", "https://tokenctr.com/data"))
     ap.add_argument("--out", default=str(Path(os.environ.get("COSMOS_PAY_ROOT", str(Path.home() / ".cosmos_pay"))) / "models.json"))
+    ap.add_argument("--public-out", default="")
     ap.add_argument("--dry-run", action="store_true")
     a = ap.parse_args()
     out_path = Path(a.out)
@@ -101,6 +105,24 @@ def main() -> None:
     os.chmod(tmp, 0o600)
     os.replace(tmp, out_path)  # atomic; the gateway hot-reloads on mtime
     print(f"wrote {out_path} ({len(models)} entries)")
+    if a.public_out:
+        write_public(models, Path(a.public_out))
+
+
+def write_public(models: dict, path: Path) -> None:
+    import time
+    rows = [{"id": k, "name": v.get("name") or k,
+             "prompt_per_m_usd": v["prompt_per_m_usd"], "completion_per_m_usd": v["completion_per_m_usd"],
+             "context_length": v.get("context_length")}
+            for k, v in sorted(models.items())
+            if v.get("rail") == "openrouter" and "prompt_per_m_usd" in v and "completion_per_m_usd" in v]
+    doc = {"generated_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+           "unit": "USD per 1M tokens", "markup": 0, "source": "gateway registry (models.json)", "models": rows}
+    tmp = path.with_suffix(".json.tmp")
+    tmp.write_text(json.dumps(doc, separators=(",", ":")), encoding="utf-8")
+    os.chmod(tmp, 0o644)
+    os.replace(tmp, path)
+    print(f"wrote public price list {path} ({len(rows)} models)")
 
 
 if __name__ == "__main__":

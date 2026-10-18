@@ -50,7 +50,8 @@ refreshed from the hub at **mdata.mdrater.com**. Refresh flow:
 
        cp ~/.cosmos_pay/models.json ~/.cosmos_pay/models.json.$(date +%Y%m%d-%H%M%S).bak
        ~/virtualenv/tokenctr_gw/3.11/bin/python ~/tokenctr_gw/build_models_from_catalog.py \
-           --base https://tokenctr.com/data            # or the hub URL; --dry-run to preview
+           --base https://tokenctr.com/data --public-out ~/tokenctr.com/data/prices.json
+           # or the hub URL; --dry-run to preview. --public-out refreshes the site estimator's price list.
 
    It takes the paid lane, joins catalog pricing, verifies every id against OpenRouter's public
    `GET https://openrouter.ai/api/v1/models` (no key), skips missing/negative/variable (-1 router)
