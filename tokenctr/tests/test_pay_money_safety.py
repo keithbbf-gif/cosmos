@@ -166,7 +166,8 @@ if __name__ == "__main__":
 
     class NoUsageRail:
         def runsync(self, req):
-            raise AssertionError("not used")
+            assert "stream" not in req, "upstream must be called non-streaming"
+            return {"id": "c1", "choices": [{"message": {"role": "assistant", "content": "hi there"}}]}
 
         def stream(self, req):
             yield {"id": "c1", "choices": [{"delta": {"content": "hi"}}]}
@@ -175,7 +176,9 @@ if __name__ == "__main__":
 
     class UsageRail:
         def runsync(self, req):
-            raise AssertionError("not used")
+            assert "stream" not in req, "upstream must be called non-streaming"
+            return {"id": "c1", "choices": [{"message": {"role": "assistant", "content": "hi"}}],
+                    "usage": {"prompt_tokens": 50, "completion_tokens": 10}}
 
         def stream(self, req):
             yield {"id": "c1", "choices": [{"delta": {"content": "hi"}}]}
@@ -186,7 +189,7 @@ if __name__ == "__main__":
     gw_nousage = gw.PayGateway(store3, meter3, NoUsageRail(), models, config)
     ah_c, key_c = store3.create_account(plan="free")
     store3.grant(ah_c, 10.0)
-    chunks = list(gw_nousage.chat_stream(key_c, {"model": "m1", "messages": []}))
+    chunks = list(gw_nousage.chat_stream(key_c, {"model": "m1", "messages": [], "stream": True}))
     check("stream without usage still terminates", any("DONE" in c for c in chunks))
     evs = meter3.tail(10, account=ah_c)
     check("stream without usage emits RUN_UNPRICED",
@@ -199,7 +202,7 @@ if __name__ == "__main__":
     gw_usage = gw.PayGateway(store3, meter3, UsageRail(), models, config)
     ah_d, key_d = store3.create_account(plan="free")
     store3.grant(ah_d, 10.0)
-    list(gw_usage.chat_stream(key_d, {"model": "m1", "messages": []}))
+    list(gw_usage.chat_stream(key_d, {"model": "m1", "messages": [], "stream": True}))
     evs_d = meter3.tail(10, account=ah_d)
     settled = next((e for e in evs_d if e.get("event") == "RUN_SETTLED"), None)
     check("stream with usage still settles measured",

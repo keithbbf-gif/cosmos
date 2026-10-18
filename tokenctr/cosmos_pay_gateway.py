@@ -7,10 +7,10 @@
                                 meter -> headers
     GET  /v1/models             the supply registry (our prices)
     GET  /v1/usage/today        local meter query (real-time, no delayed dashboard)
-    GET  /v1/account            account info, plan, credit balance, keys, promises
+    GET  /v1/account            account info, plan, credit balance, keys
     GET  /v1/logs               audit logs and verification receipts
     GET  /v1/logs/{id}          single event receipt lookup
-    GET  /v1/statement          monthly toll statement and credit purchases
+    GET  /v1/statement          monthly usage summary and credit purchases
     GET  /v1/statement/export   CSV export of statement
     GET  /v1/export             audit export (events)
     GET  /v1/export/full        full export: account, keys, settings, meter
@@ -24,7 +24,7 @@
     POST /v1/founding/purchase  create checkout session for Founding member offer
     POST /v1/webhooks/{proc}    processor webhook receiver (raw body verified first)
     GET  /v1/founding/status    Founding cohort counter (sold/500)
-    GET  /v1/cloudflare/status  Cloudflare zone and edge status
+    GET  /v1/cloudflare/status  Cloudflare zone status (X-Setup-Key required)
     GET  /healthz               gateway liveness
     POST /v1/account/anonymous  anonymous key, $0 credit, per-IP daily limit
     OPTIONS *                   CORS preflight for browser portal
@@ -280,22 +280,48 @@ class Store:
             self.db.commit()
         return raw
 
+    MIN_KEY_REF = 8
+
+    def resolve_key(self, key_ref: Any, account_hash: str) -> Optional[str]:
+        """Map a raw key, full hash, or displayed hash prefix ("abcd1234ef56...")
+        to exactly ONE key_hash on this account. Empty, short, non-hex,
+        unknown or ambiguous references resolve to None — an empty prefix
+        must never match every key on the account."""
+        if not isinstance(key_ref, str):
+            return None
+        ref = key_ref.strip()
+        if ref.startswith("ck_"):
+            ref = self.hash_key(ref)
+        ref = ref.rstrip(".").lower()
+        if len(ref) < self.MIN_KEY_REF or any(c not in "0123456789abcdef" for c in ref):
+            return None
+        with self.lock:
+            rows = self.db.execute(
+                "SELECT key_hash FROM keys WHERE account_hash = ? AND substr(key_hash, 1, ?) = ?",
+                (account_hash, len(ref), ref),
+            ).fetchall()
+        return rows[0][0] if len(rows) == 1 else None
+
     def revoke_key(self, key_hash: str, account_hash: str) -> bool:
-        target = self.hash_key(key_hash) if key_hash.startswith("ck_") else key_hash.rstrip(".")
+        target = self.resolve_key(key_hash, account_hash)
+        if not target:
+            return False
         with self.lock:
             cur = self.db.execute(
-                "UPDATE keys SET revoked = 1 WHERE (key_hash = ? OR key_hash LIKE ?) AND account_hash = ?",
-                (target, target + "%", account_hash),
+                "UPDATE keys SET revoked = 1 WHERE key_hash = ? AND account_hash = ?",
+                (target, account_hash),
             )
             self.db.commit()
         return cur.rowcount > 0
 
     def set_key_cap(self, key_hash: str, account_hash: str, daily_cap_usd: Optional[float]) -> bool:
-        target = self.hash_key(key_hash) if key_hash.startswith("ck_") else key_hash.rstrip(".")
+        target = self.resolve_key(key_hash, account_hash)
+        if not target:
+            return False
         with self.lock:
             cur = self.db.execute(
-                "UPDATE keys SET daily_cap_usd = ? WHERE (key_hash = ? OR key_hash LIKE ?) AND account_hash = ?",
-                (daily_cap_usd, target, target + "%", account_hash),
+                "UPDATE keys SET daily_cap_usd = ? WHERE key_hash = ? AND account_hash = ?",
+                (daily_cap_usd, target, account_hash),
             )
             self.db.commit()
         return cur.rowcount > 0
@@ -512,11 +538,7 @@ class PayGateway:
             p_in = p_out = float(price_per_m)
         raw_max = openai_req.get("max_tokens") or openai_req.get("max_completion_tokens")
         max_tokens = int(raw_max) if raw_max is not None and str(raw_max).isdigit() else 4096
-        est_in = 0
-        for m in (openai_req.get("messages") or []):
-            est_in += len(json.dumps(m)) // 3  # ~chars/3 ~= tokens
-        # Under-counting the prompt would under-reserve; pad the estimate.
-        est_in = int(est_in * 1.5) + 16
+        est_in = _estimate_input_tokens(openai_req)
         return (est_in * p_in + max_tokens * p_out) / 1_000_000.0
 
     def _meter_headers(self, acct: Dict[str, Any], free_remaining_face: Optional[float]) -> Dict[str, str]:
@@ -537,7 +559,56 @@ class PayGateway:
         except meter_mod.MeterError:
             pass  # meter never breaks the call path; local buffer keeps the truth
 
+    def has_supply(self, model_id: str) -> bool:
+        """True when the model is in the registry AND its rail is configured."""
+        entry = self._model_entry(model_id)
+        return bool(entry) and _rail_configured(self._resolve_rail(entry))
+
     # ---- the main lane ----
+    def _out_of_credit(self, acct: Dict[str, Any], free_remaining: Optional[float] = None
+                       ) -> Tuple[int, Dict[str, Any], Dict[str, str]]:
+        return 402, {
+            "error": {
+                "code": "insufficient_credits",
+                "message": OUT_OF_CREDIT_MSG,
+                "add_credit_url": ADD_CREDIT_URL,
+            }
+        }, self._meter_headers(acct, free_remaining)
+
+    def _plan_reserve(self, body: Dict[str, Any], price: Any, entry: Dict[str, Any],
+                      balance: float) -> Optional[Tuple[float, Optional[int]]]:
+        """Return (reserve_usd, upstream_max_tokens) or None when the balance
+        cannot cover the call. An explicit max_tokens is honoured as-is. When it
+        is absent the output is capped at min(4096, model max) and clamped down
+        to what the balance can pay for; the cap is sent upstream so the call
+        can never outrun its reserve."""
+        if isinstance(price, (tuple, list)):
+            p_in, p_out = float(price[0]), float(price[1])
+        else:
+            p_in = p_out = float(price)
+        explicit = _explicit_max_tokens(body)
+        est_in = _estimate_input_tokens(body)
+        in_cost = est_in * p_in / 1_000_000.0
+        if explicit is not None:
+            worst = in_cost + explicit * p_out / 1_000_000.0
+            return (worst, None) if balance + 1e-12 >= worst else None
+        cap = DEFAULT_MAX_TOKENS
+        model_max = entry.get("max_completion_tokens") or entry.get("context_length")
+        try:
+            if model_max and int(model_max) > 0:
+                cap = min(cap, int(model_max))
+        except (TypeError, ValueError):
+            pass
+        full = in_cost + cap * p_out / 1_000_000.0
+        if balance + 1e-12 >= full:
+            return full, cap
+        if p_out <= 0 or balance <= in_cost:
+            return None
+        allowed = min(cap, int((balance - in_cost) * 1_000_000.0 / p_out))
+        if allowed < MIN_CLAMPED_TOKENS:
+            return None
+        return in_cost + allowed * p_out / 1_000_000.0, allowed
+
     def chat(self, key: str, body: Dict[str, Any], client_ip: str = "127.0.0.1") -> Tuple[int, Dict[str, Any], Dict[str, str]]:
         # 1. Rate limiting (before auth: burst protection for everyone)
         allowed, reason = self.limiter.check_and_record(key, client_ip)
@@ -556,7 +627,7 @@ class PayGateway:
         # Registry refresh only matters past auth (model lookup follows).
         self.maybe_reload_models()
 
-        # 2. Key-specific cap check
+        # 2. Key-specific cap check (a limit the owner set: stays 429)
         if acct.get("daily_cap_usd") is not None:
             k_used = self.store.key_usage_today(acct["key_hash"])
             if k_used >= float(acct["daily_cap_usd"]):
@@ -569,49 +640,49 @@ class PayGateway:
 
         model_id = str(body.get("model") or "")
         entry = self._model_entry(model_id)
-        if not entry:
-            return 503, {"error": {"code": "no_supply", "message": f"model {model_id!r} not in the registry"}}, {}
+        target_rail = self._resolve_rail(entry) if entry else None
+        if not entry or not _rail_configured(target_rail):
+            return 404, {"error": {
+                "code": "model_not_found",
+                "message": f"model {model_id!r} is not available. See GET /v1/models for the list.",
+            }}, {}
 
-        target_rail = self._resolve_rail(entry)
-        if target_rail is None:
-            return self._no_supply(entry)
+        # Upstream is always called non-streaming; SSE is synthesized by chat_sse.
+        body = {k: v for k, v in body.items() if k not in ("stream", "stream_options")}
 
         price = model_prices(entry)
         plan = acct["plan"]
-        is_free = plan == "free" and self.store.credits(acct["account_hash"]) <= 0.0
+        account_hash = acct["account_hash"]
+        balance = self.store.credits(account_hash)
+        is_free = plan == "free" and balance <= 0.0 and self.free_daily > 0
         free_remaining = None
         reserved = 0.0
 
         if is_free:
-            used = self.store.free_today(acct["account_hash"])
+            used = self.store.free_today(account_hash)
             free_remaining = max(0.0, self.free_daily - used)
             if free_remaining <= 0:
                 self._emit(
-                    schema=meter_mod.SCHEMA, event="QUOTA_HIT", account=acct["account_hash"],
+                    schema=meter_mod.SCHEMA, event="QUOTA_HIT", account=account_hash,
                     quota="free_daily", lane="A", model=model_id,
                     at=time.strftime("%Y-%m-%dT%H:%M:%S%z"),
                 )
-                reset = datetime.now(UTC).replace(hour=0, minute=0, second=0, microsecond=0)
-                from datetime import timedelta
-                reset += timedelta(days=1)
-                return 429, {
-                    "error": {
-                        "code": "quota_exhausted",
-                        "message": "You've used today's free capacity. $10 keeps you running tonight.",
-                        "resets_at": reset.strftime("%Y-%m-%dT%H:%M:%SZ"),
-                        "founding_offer": "/founding",
-                    }
-                }, self._meter_headers(acct, 0.0)
+                return self._out_of_credit(acct, 0.0)
+            if _explicit_max_tokens(body) is None:
+                body["max_tokens"] = DEFAULT_MAX_TOKENS
         else:
-            worst = self._estimate_worst_case(body, price)
-            if not self.store.reserve(acct["account_hash"], worst):
-                return 402, {
-                    "error": {"code": "insufficient_credits",
-                              "message": "reserve failed — the breaker denies before it spends"},
-                }, self._meter_headers(acct, None)
+            if balance <= 0.0:
+                return self._out_of_credit(acct)
+            plan_r = self._plan_reserve(body, price, entry, balance)
+            if plan_r is None:
+                return self._out_of_credit(acct)
+            worst, upstream_max = plan_r
+            if not self.store.reserve(account_hash, worst):
+                return self._out_of_credit(acct)
             reserved = worst
+            if upstream_max is not None:
+                body["max_tokens"] = upstream_max
 
-        account_hash = acct["account_hash"]
         try:
             resp = target_rail.runsync(body)
         except Exception as e:
@@ -624,12 +695,13 @@ class PayGateway:
                        at=time.strftime("%Y-%m-%dT%H:%M:%S%z"))
             return 502, {"error": {"code": "rail_error", "message": str(e)}}, self._meter_headers(acct, free_remaining)
 
-        usage = resp.get("usage") or {}
-        if usage.get("unpriced"):
+        usage = resp.get("usage") if isinstance(resp, dict) else None
+        usage = usage if isinstance(usage, dict) else {}
+        if usage.get("unpriced") or not usage:
             # UNPRICED is never zero: refund the reserve, hold the worst case as UNPRICED.
             self._emit(schema=meter_mod.SCHEMA, event="RUN_UNPRICED", account=account_hash,
                        lane="A", rail=entry.get("endpoint"), model=model_id, wallet="cosmos",
-                       cost={"estimated_usd": reserved, "provenance": "estimate"},
+                       cost={"estimated_usd": round(reserved, 6), "provenance": "estimate"},
                        at=time.strftime("%Y-%m-%dT%H:%M:%S%z"))
             if reserved:
                 self.store.settle_refund_unused(account_hash, reserved, 0.0)
@@ -659,100 +731,95 @@ class PayGateway:
         )
         return 200, resp, self._meter_headers(acct, free_remaining)
 
+    def chat_sse(self, key: str, body: Dict[str, Any], client_ip: str = "127.0.0.1"
+                 ) -> Tuple[int, Any, Dict[str, str]]:
+        """stream:true. The upstream call is non-streaming (same gating and
+        billing as chat). On 200 returns a list of OpenAI-compatible SSE lines;
+        on error returns the JSON error object with its real HTTP status."""
+        code, obj, headers = self.chat(key, body, client_ip)
+        if code != 200:
+            return code, obj, headers
+        return 200, completion_to_sse(obj, str(body.get("model") or "")), headers
+
     def chat_stream(self, key: str, body: Dict[str, Any], client_ip: str = "127.0.0.1") -> Iterator[str]:
-        """SSE streaming relay: yields data: <json> lines ending with data: [DONE]."""
-        allowed, reason = self.limiter.check_and_record(key, client_ip)
-        if not allowed:
-            yield f"data: {json.dumps({'error': {'code': reason, 'message': 'Rate limit exceeded'}})}\n\n"
-            return
-
-        acct = self.store.account_for_key(key)
-        if not acct:
-            yield f"data: {json.dumps({'error': {'code': 'bad_key', 'message': 'unknown or revoked key'}})}\n\n"
-            return
-
-        # Registry refresh only matters past auth (model lookup follows).
-        self.maybe_reload_models()
-
-        model_id = str(body.get("model") or "")
-        entry = self._model_entry(model_id)
-        if not entry:
-            yield f"data: {json.dumps({'error': {'code': 'no_supply', 'message': f'model {model_id!r} not in registry'}})}\n\n"
-            return
-
-        target_rail = self._resolve_rail(entry)
-        if target_rail is None:
-            _code, obj, _headers = self._no_supply(entry)
+        """Legacy generator form of chat_sse: errors become one SSE error line."""
+        code, obj, _headers = self.chat_sse(key, body, client_ip)
+        if code != 200:
             yield f"data: {json.dumps(obj)}\n\n"
             return
+        for line in obj:
+            yield line
 
-        price = model_prices(entry)
-        plan = acct["plan"]
-        is_free = plan == "free" and self.store.credits(acct["account_hash"]) <= 0.0
-        reserved = 0.0
 
-        if is_free:
-            used = self.store.free_today(acct["account_hash"])
-            if self.free_daily - used <= 0:
-                yield f"data: {json.dumps({'error': {'code': 'quota_exhausted', 'founding_offer': '/founding'}})}\n\n"
-                return
-        else:
-            worst = self._estimate_worst_case(body, price)
-            if not self.store.reserve(acct["account_hash"], worst):
-                yield f"data: {json.dumps({'error': {'code': 'insufficient_credits'}})}\n\n"
-                return
-            reserved = worst
+OUT_OF_CREDIT_MSG = "Out of credit. Add credit at https://tokenctr.com/pricing.html"
+ADD_CREDIT_URL = "https://tokenctr.com/pricing.html"
+DEFAULT_MAX_TOKENS = 4096
+MIN_CLAMPED_TOKENS = 16
 
-        account_hash = acct["account_hash"]
-        final_usage = {}
-        tokens_est = 0
-        try:
-            for chunk in target_rail.stream(body):
-                if isinstance(chunk, dict) and "usage" in chunk:
-                    final_usage = chunk["usage"]
-                yield f"data: {json.dumps(chunk)}\n\n"
-                tokens_est += 1
-            yield "data: [DONE]\n\n"
-        except Exception as e:
-            if reserved:
-                self.store.settle_refund_unused(account_hash, reserved, 0.0)
-            if _is_no_supply(e):
-                _code, obj, _headers = self._no_supply(entry)
-                yield f"data: {json.dumps(obj)}\n\n"
-                return
-            yield f"data: {json.dumps({'error': {'code': 'stream_error', 'message': str(e)}})}\n\n"
-            return
 
-        # Settle streaming call. No usage block from the worker means UNPRICED:
-        # refund the reserve and hold an estimate — never invent prompt tokens
-        # and bill them as measured (provenance discipline).
-        if not isinstance(final_usage, dict) or not final_usage:
-            self._emit(schema=meter_mod.SCHEMA, event="RUN_UNPRICED", account=account_hash,
-                       lane="A", rail=entry.get("endpoint"), model=model_id, wallet="cosmos",
-                       cost={"estimated_usd": round(reserved, 6), "provenance": "estimate"},
-                       at=time.strftime("%Y-%m-%dT%H:%M:%S%z"))
-            if reserved:
-                self.store.settle_refund_unused(account_hash, reserved, 0.0)
-            return
+def _rail_configured(rail: Any) -> bool:
+    return rail is not None and getattr(rail, "configured", True) is not False
 
-        tin = int(final_usage.get("prompt_tokens") or 0)
-        tout = int(final_usage.get("completion_tokens") or tokens_est)
-        measured = billed_usd(price, tin, tout, final_usage.get("cost"))
-        if reserved:
-            self.store.settle_refund_unused(account_hash, reserved, measured)
-        if is_free:
-            self.store.free_add(account_hash, measured)
-        if acct.get("key_hash"):
-            self.store.key_usage_add(acct["key_hash"], measured)
 
-        self._emit(
-            schema=meter_mod.SCHEMA, event="RUN_SETTLED", account=account_hash,
-            lane="A", rail=entry.get("endpoint"), model=model_id, wallet="cosmos",
-            tokens={"in": tin, "out": tout, "cached": 0},
-            cost={"estimated_usd": round(reserved, 6), "measured_usd": round(measured, 10),
-                  "provenance": "measured"},
-            at=time.strftime("%Y-%m-%dT%H:%M:%S%z"),
-        )
+def _explicit_max_tokens(body: Dict[str, Any]) -> Optional[int]:
+    raw = body.get("max_tokens")
+    if raw is None:
+        raw = body.get("max_completion_tokens")
+    if raw is None:
+        return None
+    try:
+        v = int(raw)
+    except (TypeError, ValueError):
+        return None
+    return v if v > 0 else None
+
+
+def _estimate_input_tokens(body: Dict[str, Any]) -> int:
+    est_in = 0
+    for m in (body.get("messages") or []):
+        est_in += len(json.dumps(m)) // 3  # ~chars/3 ~= tokens
+    # Under-counting the prompt would under-reserve; pad the estimate.
+    return int(est_in * 1.5) + 16
+
+
+def completion_to_sse(resp: Dict[str, Any], model: str = "") -> List[str]:
+    """Turn a non-streaming chat.completion into OpenAI-style SSE lines:
+    role chunk, content chunk(s), finish chunk carrying usage, [DONE]."""
+    resp = resp if isinstance(resp, dict) else {}
+    cid = str(resp.get("id") or f"chatcmpl-{int(time.time() * 1000)}")
+    created = int(resp.get("created") or time.time())
+    mdl = str(resp.get("model") or model)
+    choices = resp.get("choices") or [{"index": 0, "message": {"role": "assistant", "content": ""}}]
+
+    def chunk(index: int, delta: Dict[str, Any], finish: Any = None, usage: Any = None) -> str:
+        c: Dict[str, Any] = {"id": cid, "object": "chat.completion.chunk", "created": created,
+                             "model": mdl,
+                             "choices": [{"index": index, "delta": delta, "finish_reason": finish}]}
+        if usage is not None:
+            c["usage"] = usage
+        return f"data: {json.dumps(c)}\n\n"
+
+    out: List[str] = []
+    for i, ch in enumerate(choices):
+        idx = int(ch.get("index", i) or 0)
+        msg = ch.get("message") or {}
+        out.append(chunk(idx, {"role": msg.get("role") or "assistant", "content": ""}))
+        reasoning = msg.get("reasoning")
+        if isinstance(reasoning, str) and reasoning:
+            out.append(chunk(idx, {"reasoning": reasoning}))
+        text = msg.get("content")
+        if isinstance(text, str) and text:
+            for k in range(0, len(text), 512):
+                out.append(chunk(idx, {"content": text[k:k + 512]}))
+        tool_calls = msg.get("tool_calls")
+        if isinstance(tool_calls, list) and tool_calls:
+            tc = [dict(t, index=n) for n, t in enumerate(tool_calls) if isinstance(t, dict)]
+            out.append(chunk(idx, {"tool_calls": tc}))
+        last = i == len(choices) - 1
+        out.append(chunk(idx, {}, ch.get("finish_reason") or "stop",
+                         resp.get("usage") if last and resp.get("usage") else None))
+    out.append("data: [DONE]\n\n")
+    return out
 
 
 def model_prices(entry: Dict[str, Any]) -> Tuple[float, float]:
@@ -916,6 +983,7 @@ def make_handler(gw: PayGateway, api: Any = None) -> type:
                         "stocked": m.get("stocked", True),
                     }
                     for mid, m in gw.models.items()
+                    if gw.has_supply(mid)
                 ]
                 self._send(200, {"object": "list", "data": models})
             elif path.startswith("/v1/models/"):
@@ -924,7 +992,7 @@ def make_handler(gw: PayGateway, api: Any = None) -> type:
                     self._send(401, {"error": {"code": "bad_key", "message": "unknown or revoked key"}})
                     return
                 mid = path[len("/v1/models/"):].strip("/")
-                m = gw.models.get(mid)
+                m = gw.models.get(mid) if gw.has_supply(mid) else None
                 if not m:
                     self._send(404, {"error": {"code": "model_not_found", "message": f"model {mid!r} not found"}})
                     return
@@ -965,10 +1033,8 @@ def make_handler(gw: PayGateway, api: Any = None) -> type:
                     "keys": gw.store.keys_for(acct["account_hash"]),
                     "settings": gw.store.get_settings(acct["account_hash"]),
                     "promises": [
-                        "essentials free forever",
-                        "toll-free under $100/mo",
-                        "provider discounts pass at full value",
-                        "data opt-in, anonymized, never sold",
+                        "zero markup: usage is billed at the provider's cost",
+                        "prepaid credit; no subscription",
                     ],
                 })
             elif path.startswith("/v1/logs") and api:
@@ -1005,14 +1071,19 @@ def make_handler(gw: PayGateway, api: Any = None) -> type:
                     self._send(401, {"error": {"code": "bad_key", "message": "unknown or revoked key"}})
                     return
                 period = q.get("period", [datetime.now(UTC).strftime("%Y-%m")])[0]
-                import cosmos_pay_toll as toll_mod
                 events = [
                     e for e in gw.meter.tail(10000, account=acct["account_hash"])
-                    if e.get("at", "").startswith(period)
+                    if isinstance(e, dict) and str(e.get("at", "")).startswith(period)
                 ]
-                line = toll_mod.statement_line(events, period)
+                settled = [e for e in events if e.get("event") == "RUN_SETTLED"]
+                spent = sum(float((e.get("cost") or {}).get("measured_usd") or 0.0) for e in settled)
                 grants = [e for e in events if e.get("event") in ("CREDIT_GRANTED", "CREDIT_PURCHASED")]
-                self._send(200, {"period": period, "toll": line, "credit_events": grants})
+                self._send(200, {
+                    "period": period,
+                    "usage": {"runs": len(settled), "spent_usd": round(spent, 10),
+                              "unpriced_runs": sum(1 for e in events if e.get("event") == "RUN_UNPRICED")},
+                    "credit_events": grants,
+                })
             elif path == "/v1/statement/export" and api:
                 key = self._auth_key()
                 acct = gw.store.account_for_key(key) if key else None
@@ -1048,6 +1119,12 @@ def make_handler(gw: PayGateway, api: Any = None) -> type:
             elif path == "/v1/founding/status" and api:
                 self._send(200, api["founding"].status())
             elif path == "/v1/cloudflare/status":
+                import hmac as _hmac
+                sk = (api or {}).get("setup_key") or ""
+                given = self.headers.get("X-Setup-Key") or q.get("setup_key", [""])[0]
+                if not sk or not given or not _hmac.compare_digest(str(given), str(sk)):
+                    self._send(404, {"error": {"code": "not_found"}})
+                    return
                 if cf_mod:
                     try:
                         cf_client = cf_mod.CloudflareClient()
@@ -1193,19 +1270,28 @@ def make_handler(gw: PayGateway, api: Any = None) -> type:
                 )
                 self._send(200, {"key": raw_key, "shown_once": True})
                 return
+            if path in ("/v1/keys/revoke", "/v1/keys/rotate", "/v1/keys/cap") and api:
+                if not gw.store.resolve_key(body.get("key_hash"), acct["account_hash"]):
+                    self._send(400, {"error": {
+                        "code": "bad_key_hash",
+                        "message": "key_hash must identify exactly one key on this account "
+                                   "(at least 8 hex characters of the hash shown in your key list)",
+                    }})
+                    return
             if path == "/v1/keys/revoke" and api:
                 ok = gw.store.revoke_key(body.get("key_hash", ""), acct["account_hash"])
                 self._send(200, {"revoked": ok})
                 return
             if path == "/v1/keys/rotate" and api:
+                target = gw.store.resolve_key(body.get("key_hash"), acct["account_hash"])
                 cap = body.get("daily_cap_usd")
                 raw_key = gw.store.issue_key(
                     acct["account_hash"],
                     body.get("label", "rotated"),
                     daily_cap_usd=float(cap) if cap is not None else None,
                 )
-                gw.store.revoke_key(body.get("key_hash", ""), acct["account_hash"])
-                self._send(200, {"key": raw_key, "shown_once": True})
+                gw.store.revoke_key(target, acct["account_hash"])  # exact full hash: never the new key
+                self._send(200, {"key": raw_key, "shown_once": True, "revoked": target[:12] + "..."})
                 return
             if path == "/v1/keys/cap" and api:
                 kh = body.get("key_hash", "")
@@ -1305,15 +1391,23 @@ def make_handler(gw: PayGateway, api: Any = None) -> type:
                     return
 
                 if body.get("stream") is True:
+                    # Upstream is called non-streaming; errors keep their real
+                    # HTTP status as JSON, success becomes OpenAI-style SSE.
+                    code, obj, headers = gw.chat_sse(key, body, client_ip=client_ip)
+                    if code != 200:
+                        self._send(code, obj, headers)
+                        return
+                    payload = "".join(obj).encode("utf-8")
                     self.send_response(200)
-                    self.send_header("Content-Type", "text/event-stream")
+                    self.send_header("Content-Type", "text/event-stream; charset=utf-8")
                     self.send_header("Cache-Control", "no-cache")
-                    self.send_header("Connection", "keep-alive")
+                    self.send_header("Content-Length", str(len(payload)))
+                    for hk, hv in (headers or {}).items():
+                        self.send_header(hk, hv)
                     self._add_cors_headers()
                     self.end_headers()
-                    for chunk in gw.chat_stream(key, body, client_ip=client_ip):
-                        self.wfile.write(chunk.encode("utf-8"))
-                        self.wfile.flush()
+                    self.wfile.write(payload)
+                    self.wfile.flush()
                     return
 
                 code, obj, headers = gw.chat(key, body, client_ip=client_ip)
@@ -1343,6 +1437,8 @@ def build_app() -> Tuple[Any, Any, Dict[str, Any]]:
         print(f"RunPod rail not configured ({e}) — gateway serves 503 no_supply until endpoint lands")
 
         class _UnconfiguredRail:
+            configured = False
+
             def runsync(self, body: Dict[str, Any]) -> Dict[str, Any]:
                 raise RailError("BAD_CONFIG runpod endpoint/key not configured")
 

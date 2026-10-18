@@ -5,7 +5,7 @@
 No network: ThreadingHTTPServer on an ephemeral port, a FakeRail returning a
 fixed OpenAI response with a usage block. Proves the full lane:
     auth â†’ quota â†’ route â†’ relay â†’ settle â†’ meter â†’ headers
-Plus: 401 bad key, 429 quota exhaustion (QUOTA_HIT), webhook raw-body signature
+Plus: 401 bad key, 402 out-of-credit (QUOTA_HIT), webhook raw-body signature
 through the real HTTP layer (the re-serialize bug class).
 """
 from __future__ import annotations
@@ -69,7 +69,7 @@ if __name__ == "__main__":
     models = {"qwen3-coder-30b-fp8": {"endpoint": "ep-test", "price_per_m_usd": 0.297,
                                       "cogs_per_m_usd": 0.18, "or_retail_per_m_usd": 0.30}}
     config = json.loads(json.dumps(cfg.DEFAULT_CONFIG))
-    config["free_tier"]["daily_face_usd"] = 0.00001  # tiny quota â†’ 429 reachable fast
+    config["free_tier"]["daily_face_usd"] = 0.00001  # tiny quota â†’ 402 reachable fast
     gw_inst = gw.PayGateway(store, meter, rail, models, config)
 
     founding_inst = founding.Founding(store, meter, cap=500)
@@ -130,7 +130,7 @@ if __name__ == "__main__":
 
     # --- 503: unknown model ---
     code, out, _ = post("/v1/chat/completions", {"model": "nope", "messages": []}, key=KEY)
-    check("unknown model â†’ 503 no_supply", code == 503)
+    check("unknown model â†’ 404 model_not_found", code == 404 and out["error"]["code"] == "model_not_found")
 
     # --- the main lane: 200 + meter + headers ---
     code, out, headers = post("/v1/chat/completions",
@@ -150,9 +150,9 @@ if __name__ == "__main__":
     code, out, headers = post("/v1/chat/completions",
                               {"model": "qwen3-coder-30b-fp8", "messages": [{"role": "user", "content": "x"}]},
                               key=KEY)
-    check("quota exhausted â†’ 429", code == 429)
-    check("429 carries founding_offer", "founding_offer" in out.get("error", {}))
-    check("429 carries resets_at", "resets_at" in out.get("error", {}))
+    check("quota exhausted â†’ 402 insufficient_credits", code == 402 and out["error"]["code"] == "insufficient_credits")
+    check("402 points at pricing", "tokenctr.com/pricing.html" in out["error"]["message"])
+    check("402 has no free-capacity copy", "free capacity" not in json.dumps(out))
     check("QUOTA_HIT emitted", any(e.get("event") == "QUOTA_HIT" for e in meter.tail(10)))
 
     # --- webhook through the REAL HTTP layer: raw-body signature survives ---
