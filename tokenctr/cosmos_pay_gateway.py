@@ -345,8 +345,8 @@ class Store:
 
     def settle_refund_unused(self, account_hash: str, reserved: float, measured: float) -> None:
         """Settle: adjust balance by (reserved - measured)."""
-        diff = round(float(reserved) - float(measured), 8)
-        if abs(diff) > 1e-9:
+        diff = round(float(reserved) - float(measured), 12)
+        if abs(diff) > 1e-13:
             with self.lock:
                 self.db.execute(
                     "UPDATE accounts SET credits_face_usd = credits_face_usd + ? WHERE account_hash = ?",
@@ -502,15 +502,22 @@ class PayGateway:
             return None
         return m
 
-    def _estimate_worst_case(self, openai_req: Dict[str, Any], price_per_m: float) -> float:
-        """Reserve worst case: input estimate + max_tokens at the model price.
-        Rough by design — settle is measured; the reserve only bounds the deny."""
+    def _estimate_worst_case(self, openai_req: Dict[str, Any], price_per_m: Any) -> float:
+        """Reserve worst case: input estimate at the prompt price + max_tokens at
+        the completion price. Accepts a (prompt, completion) tuple or one float
+        (legacy). Rough by design — settle is measured; the reserve bounds the deny."""
+        if isinstance(price_per_m, (tuple, list)):
+            p_in, p_out = float(price_per_m[0]), float(price_per_m[1])
+        else:
+            p_in = p_out = float(price_per_m)
         raw_max = openai_req.get("max_tokens") or openai_req.get("max_completion_tokens")
         max_tokens = int(raw_max) if raw_max is not None and str(raw_max).isdigit() else 4096
         est_in = 0
         for m in (openai_req.get("messages") or []):
             est_in += len(json.dumps(m)) // 3  # ~chars/3 ~= tokens
-        return (est_in + max_tokens) * price_per_m / 1_000_000.0
+        # Under-counting the prompt would under-reserve; pad the estimate.
+        est_in = int(est_in * 1.5) + 16
+        return (est_in * p_in + max_tokens * p_out) / 1_000_000.0
 
     def _meter_headers(self, acct: Dict[str, Any], free_remaining_face: Optional[float]) -> Dict[str, str]:
         reset = datetime.now(UTC).replace(hour=0, minute=0, second=0, microsecond=0)
@@ -518,7 +525,7 @@ class PayGateway:
         reset += timedelta(days=1)
         h = {
             "x-cosmos-quota-reset": reset.strftime("%Y-%m-%dT%H:%M:%SZ"),
-            "x-cosmos-credit-balance": f"{self.store.credits(acct['account_hash']):.4f}",
+            "x-cosmos-credit-balance": f"{self.store.credits(acct['account_hash']):.8f}",
         }
         if free_remaining_face is not None:
             h["x-cosmos-quota-remaining"] = f"{free_remaining_face:.4f}"
@@ -569,7 +576,7 @@ class PayGateway:
         if target_rail is None:
             return self._no_supply(entry)
 
-        price = float(entry.get("price_per_m_usd", 0.0))
+        price = model_prices(entry)
         plan = acct["plan"]
         is_free = plan == "free" and self.store.credits(acct["account_hash"]) <= 0.0
         free_remaining = None
@@ -631,7 +638,7 @@ class PayGateway:
 
         tin = int(usage.get("prompt_tokens") or 0)
         tout = int(usage.get("completion_tokens") or 0)
-        measured = (tin + tout) * price / 1_000_000.0
+        measured = billed_usd(price, tin, tout, usage.get("cost"))
         if reserved:
             self.store.settle_refund_unused(account_hash, reserved, measured)
         if is_free:
@@ -646,7 +653,7 @@ class PayGateway:
             schema=meter_mod.SCHEMA, event="RUN_SETTLED", account=account_hash,
             lane="A", rail=entry.get("endpoint"), model=model_id, wallet="cosmos",
             tokens={"in": tin, "out": tout, "cached": int(usage.get("cached_tokens", 0) or 0)},
-            cost={"estimated_usd": round(reserved, 6), "measured_usd": round(measured, 8),
+            cost={"estimated_usd": round(reserved, 6), "measured_usd": round(measured, 10),
                   "provenance": "measured"},
             at=time.strftime("%Y-%m-%dT%H:%M:%S%z"),
         )
@@ -679,7 +686,7 @@ class PayGateway:
             yield f"data: {json.dumps(obj)}\n\n"
             return
 
-        price = float(entry.get("price_per_m_usd", 0.0))
+        price = model_prices(entry)
         plan = acct["plan"]
         is_free = plan == "free" and self.store.credits(acct["account_hash"]) <= 0.0
         reserved = 0.0
@@ -730,7 +737,7 @@ class PayGateway:
 
         tin = int(final_usage.get("prompt_tokens") or 0)
         tout = int(final_usage.get("completion_tokens") or tokens_est)
-        measured = (tin + tout) * price / 1_000_000.0
+        measured = billed_usd(price, tin, tout, final_usage.get("cost"))
         if reserved:
             self.store.settle_refund_unused(account_hash, reserved, measured)
         if is_free:
@@ -742,10 +749,51 @@ class PayGateway:
             schema=meter_mod.SCHEMA, event="RUN_SETTLED", account=account_hash,
             lane="A", rail=entry.get("endpoint"), model=model_id, wallet="cosmos",
             tokens={"in": tin, "out": tout, "cached": 0},
-            cost={"estimated_usd": round(reserved, 6), "measured_usd": round(measured, 8),
+            cost={"estimated_usd": round(reserved, 6), "measured_usd": round(measured, 10),
                   "provenance": "measured"},
             at=time.strftime("%Y-%m-%dT%H:%M:%S%z"),
         )
+
+
+def model_prices(entry: Dict[str, Any]) -> Tuple[float, float]:
+    """(prompt, completion) USD per 1M tokens for a registry entry.
+
+    Split prices win: prompt_per_m_usd / completion_per_m_usd. Older entries
+    carry one price_per_m_usd, used for both sides (backward compatible).
+    Missing or bad values are 0.0 here; registry loaders skip such models."""
+    def _num(v: Any) -> Optional[float]:
+        try:
+            f = float(v)
+        except (TypeError, ValueError):
+            return None
+        return f if f >= 0 and f == f and f != float("inf") else None
+
+    single = _num(entry.get("price_per_m_usd"))
+    p_in = _num(entry.get("prompt_per_m_usd"))
+    p_out = _num(entry.get("completion_per_m_usd"))
+    if p_in is None:
+        p_in = single if single is not None else 0.0
+    if p_out is None:
+        p_out = single if single is not None else 0.0
+    return p_in, p_out
+
+
+def billed_usd(prices: Tuple[float, float], tokens_in: int, tokens_out: int,
+               vendor_cost_usd: Any = None) -> float:
+    """prompt_tokens*prompt_price + completion_tokens*completion_price (per 1M).
+
+    If the rail reports what the vendor actually charged (OpenRouter
+    usage.cost) and that is HIGHER than the token math (images, web search,
+    audio, cache writes, a price change since the registry refresh), bill the
+    vendor cost instead. Zero markup still holds; the operator never eats it."""
+    token_math = (int(tokens_in) * prices[0] + int(tokens_out) * prices[1]) / 1_000_000.0
+    try:
+        vc = float(vendor_cost_usd) if vendor_cost_usd is not None else None
+    except (TypeError, ValueError):
+        vc = None
+    if vc is not None and vc == vc and vc > token_math and vc < 1e6:
+        return vc
+    return token_math
 
 
 _SITE_ORIGINS = ("https://tokenctr.com/", "https://www.tokenctr.com/")
@@ -836,6 +884,8 @@ def make_handler(gw: PayGateway, api: Any = None) -> type:
                         "id": mid,
                         "object": "model",
                         "price_per_m_usd": m.get("price_per_m_usd"),
+                        "prompt_per_m_usd": model_prices(m)[0],
+                        "completion_per_m_usd": model_prices(m)[1],
                         "cogs_per_m_usd": m.get("cogs_per_m_usd"),
                         "owned_by": "cosmos",
                         "stocked": m.get("stocked", True),
@@ -857,6 +907,8 @@ def make_handler(gw: PayGateway, api: Any = None) -> type:
                     "id": mid,
                     "object": "model",
                     "price_per_m_usd": m.get("price_per_m_usd"),
+                    "prompt_per_m_usd": model_prices(m)[0],
+                    "completion_per_m_usd": model_prices(m)[1],
                     "cogs_per_m_usd": m.get("cogs_per_m_usd"),
                     "owned_by": "cosmos",
                     "stocked": m.get("stocked", True),
