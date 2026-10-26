@@ -53,6 +53,7 @@ from datetime import datetime, timezone
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from typing import Any, Dict, Iterator, List, Optional, Tuple
 
+import cosmos_pay_auth as auth_mod
 import cosmos_pay_azure_rail as azure_mod
 import cosmos_pay_bedrock_rail as bedrock_mod
 import cosmos_pay_config as cfg
@@ -900,6 +901,9 @@ def _site_url(value: Any, default: str) -> str:
 
 # ----------------------------------------------------------------------------- HTTP Handler
 def make_handler(gw: PayGateway, api: Any = None) -> type:
+    auth = (api or {}).get("auth") if isinstance(api, dict) else None
+    auth_routes = auth_mod.AuthRoutes(auth) if auth is not None else None
+
     class Handler(BaseHTTPRequestHandler):
         protocol_version = "HTTP/1.1"
 
@@ -907,11 +911,18 @@ def make_handler(gw: PayGateway, api: Any = None) -> type:
             pass
 
         def _add_cors_headers(self) -> None:
-            self.send_header("Access-Control-Allow-Origin", "*")
+            origin = self.headers.get("Origin") if getattr(self, "headers", None) else None
+            if auth is not None and auth.enabled and auth.origin_ok(origin):
+                # Site dashboard (cookie session): exact origin + credentials. Everyone else: unchanged "*".
+                self.send_header("Access-Control-Allow-Origin", origin)
+                self.send_header("Access-Control-Allow-Credentials", "true")
+                self.send_header("Vary", "Origin")
+            else:
+                self.send_header("Access-Control-Allow-Origin", "*")
             self.send_header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS")
             self.send_header(
                 "Access-Control-Allow-Headers",
-                "Authorization, Content-Type, CF-Turnstile-Token, Stripe-Signature, "
+                "Authorization, Content-Type, CF-Turnstile-Token, Stripe-Signature, X-TC-CSRF, X-TC-Key, "
                 "X-Cosmos-Quota-Remaining, X-Cosmos-Quota-Reset, X-Cosmos-Credit-Balance",
             )
             self.send_header(
@@ -921,6 +932,9 @@ def make_handler(gw: PayGateway, api: Any = None) -> type:
             self.send_header("Access-Control-Max-Age", "86400")
 
         def do_OPTIONS(self):
+            if auth_routes is not None and self.path.startswith("/v1/auth/"):
+                auth_routes.preflight(self)
+                return
             self.send_response(204)
             self._add_cors_headers()
             self.end_headers()
@@ -947,7 +961,9 @@ def make_handler(gw: PayGateway, api: Any = None) -> type:
         def _auth_key(self) -> Optional[str]:
             h = self.headers.get("Authorization", "")
             if h.startswith("Bearer "):
-                return h[7:].strip()
+                return h[7:].strip()  # API-key auth: unchanged, always wins over a cookie
+            if auth is not None and auth.enabled and not h:
+                return auth.session_key_for(self.headers, self.command)
             return None
 
         def do_GET(self):
@@ -957,6 +973,9 @@ def make_handler(gw: PayGateway, api: Any = None) -> type:
             path = raw_path.rstrip("/") if raw_path != "/" else "/"
             q = parse_qs(parsed.query)
 
+            if auth_routes is not None and path.startswith("/v1/auth/"):
+                auth_routes.handle(self, "GET", path, q, {}, self._client_ip())
+                return
             if path == "/healthz":
                 self._send(200, {
                     "ok": True,
@@ -1181,6 +1200,10 @@ def make_handler(gw: PayGateway, api: Any = None) -> type:
                 body = json.loads(raw.decode("utf-8")) if raw else {}
             except json.JSONDecodeError:
                 self._send(400, {"error": {"code": "bad_json"}})
+                return
+
+            if auth_routes is not None and path.startswith("/v1/auth/"):
+                auth_routes.handle(self, "POST", path, {}, body if isinstance(body, dict) else {}, client_ip)
                 return
 
             # ---- webhooks: processor-agnostic, raw bytes verified first ----
@@ -1470,6 +1493,12 @@ def build_app() -> Tuple[Any, Any, Dict[str, Any]]:
             "setup_key": secrets.get("setup_key", ""),
             "config": config,
         }
+        try:
+            auth = auth_mod.AuthService(store, meter, config, secrets)
+            store.account_for_key = auth.wrap_account_for_key(store.account_for_key)  # type: ignore[method-assign]
+            api["auth"] = auth
+        except Exception as e:  # login is optional; API keys keep working
+            print(f"account login not mounted: {type(e).__name__}")
     except Exception as e:
         print(f"UI API not fully mounted: {e} — core chat lane still serves")
 

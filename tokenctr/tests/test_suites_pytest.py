@@ -76,3 +76,7 @@ def test_pay_vertex_rail() -> None:
 
 def test_pay_webhooks() -> None:
     _run("test_pay_webhooks.py")
+
+
+def test_pay_auth() -> None:
+    _run("test_pay_auth.py")
