@@ -1,0 +1,19 @@
+{
+ "order_id": "wo-20261111T012000-smoke-test",
+ "Agent": "OpenAI | Codex | gpt-5.3-codex",
+ "Context source": [
+  "docs/AGENT_BRIEF.md [read*]",
+  "docs/AGENT_BOUNDARIES.md [read*]",
+  "README.md [read*]"
+ ],
+ "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Type: RESEARCH (no Gitur, no Lane B). PIPELINE SMOKE TEST: read README.md and write its first line, verbatim, as the only content of the Output file. Nothing else. Budget: under 50K tokens.",
+ "Target & scope": "One tiny text file under Output only; no code changes; never kernel/ledger/sched/service; never LiT; never the live tree.",
+ "Timestamp": "2026-11-11T01:20:06-06:00",
+ "Output": "research | wo_smoke_test.txt",
+ "Verdict": {
+  "status": "pending",
+  "reason": "",
+  "objection": "",
+  "timestamp": ""
+ }
+}
