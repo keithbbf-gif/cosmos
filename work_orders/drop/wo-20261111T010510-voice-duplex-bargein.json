@@ -1,0 +1,29 @@
+{
+ "order_id": "wo-20261111T010510-voice-duplex-bargein",
+ "Agent": "OpenAI | Codex | gpt-5.3-codex",
+ "Context source": [
+  "docs/AGENT_BRIEF.md [read*]",
+  "docs/AGENT_BOUNDARIES.md [read*]",
+  "work_orders/ccr/PACKAGE_V3/PREFIX.md [read*]",
+  "docs/PROMPT_CACHE.md [read*]",
+  "docs/modules/voice_duplex.md [read*]",
+  "docs/modules/voice.md [read*]",
+  "voice_duplex/README.md [read*]",
+  "voice_duplex/ARCHITECTURE.md [read*]",
+  "voice_duplex/cosmos_voice_duplex/session.py [read*]",
+  "voice_duplex/cosmos_voice_duplex/turn.py [read*]",
+  "voice_duplex/cosmos_voice_duplex/vad.py [read*]",
+  "voice_duplex/cosmos_voice_duplex/playback.py [read*]",
+  "voice/cosmos_voice/doors.py [read*]"
+ ],
+ "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Type: BUILD. Parallel order 2 of 3, independent. VOICE DUPLEX BARGE-IN: finish the barge-in duplex voice build in voice_duplex/ (with voice/ doors as reference) on the xAI realtime voice model pinned in docs/modules/voice_duplex.md and voice/cosmos_voice/doors.py (the think-fast-2.0 pin; wss://api.x.ai/v1/realtime, server VAD, PCM16 mono 24 kHz). Barge-in: when the user starts speaking during playback, stop/duck playback immediately, cancel the in-flight response, and hand the turn to the user; resume cleanly. Include tests in voice_duplex/tests covering barge-in mid-playback, cancel, and resume (transport injected / mocked; no live keys). BUDGET: ~20-40M tokens. Deliverable: the completed duplex build with barge-in working, as a unified diff plus test results.",
+ "Target & scope": "voice_duplex/ (and voice/ only if required) as a proposal diff under Output only; never kernel/ledger/sched/service; never LiT; never the live tree.",
+ "Timestamp": "2026-11-11T01:05:10-06:00",
+ "Output": "proposals | voice_duplex_bargein.diff",
+ "Verdict": {
+  "status": "pending",
+  "reason": "",
+  "objection": "",
+  "timestamp": ""
+ }
+}
