@@ -1,0 +1,26 @@
+{
+ "order_id": "wo-20261111T010520-resession-monitor",
+ "Agent": "OpenAI | Codex | gpt-5.3-codex",
+ "Context source": [
+  "docs/AGENT_BRIEF.md [read*]",
+  "docs/AGENT_BOUNDARIES.md [read*]",
+  "work_orders/ccr/PACKAGE_V3/PREFIX.md [read*]",
+  "docs/PROMPT_CACHE.md [read*]",
+  "cosmos/cosmos_resession.py [read*]",
+  "cosmos/cosmos_session.py [read*]",
+  "docs/RESESSION_SOP.md [read*]",
+  "docs/RESESSION_190K_NOTES.md [read*]",
+  "docs/AUTO_RESESSION_PROMPT.md [read*]",
+  "docs/research/AUTO_RESESSION_DESIGN.md [read*]"
+ ],
+ "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Type: BUILD. Parallel order 3 of 3, independent. RESESSION MONITOR GAP: wire the automatic resession trigger in the COSMOS core runtime - the monitor that fires resession on its own (today the 190000 close only runs when engage=True / a manual ask). Rules (already constants in cosmos/cosmos_resession.py): model window 200,000 tokens; persistent warning at 65% (130,000); SEED.json packing at ~70% (140,000); hard close at 190,000. The monitor must read live context-token counts, raise the warning, start SEED.json packing, and trigger the close/resession automatically, fenced to one orchestrator. Add selftest checks for 65%, 70% and 190000 firing. BUDGET: ~10-20M tokens. Deliverable: the monitor wired and tested, as a unified diff plus selftest output.",
+ "Target & scope": "cosmos/cosmos_resession.py (+ its selftest) as a proposal diff under Output only; never kernel/ledger/sched/service; never LiT; never the live tree.",
+ "Timestamp": "2026-11-11T01:05:20-06:00",
+ "Output": "proposals | resession_monitor.diff",
+ "Verdict": {
+  "status": "pending",
+  "reason": "",
+  "objection": "",
+  "timestamp": ""
+ }
+}
