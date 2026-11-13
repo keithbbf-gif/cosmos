@@ -212,12 +212,14 @@ LAGUNA_S = "poolside/laguna-s-2.1"
 LAGUNA_XS = "poolside/laguna-xs-2.1"
 BONSAI_27B = "prism-ml/ternary-bonsai-2-27b"
 DS41_FLASH = "deepseek/deepseek-v4.1-flash"
+# 1017 is the release date, not a score. Distinct from the undated pin.
+DS41_FLASH_1017 = "deepseek/deepseek-v4.1-flash-1017"
 GEMMA_31B_PAID = "google/gemma-4-31b-it"
 SOLAR_MINI4 = "upstage/solar-mini4"
 PINNED_VALUE = frozenset(CHEAP_CODERS) | FLEX_MODELS | {
     GPT56_SOL, MUSE_SPARK_12, GEMINI_36_FLASH, GEMINI_38_FLASH_OR,
     DEEPSEEK_V4_PRO, DEEPSEEK_V4_PRO_0423, GROK_46_OR, GPT6_LUNA, GPT6_LUNA_PRO,
-    QWEN37_FLASH, LAGUNA_S, LAGUNA_XS, BONSAI_27B, DS41_FLASH,
+    QWEN37_FLASH, LAGUNA_S, LAGUNA_XS, BONSAI_27B, DS41_FLASH, DS41_FLASH_1017,
     GEMMA_31B_PAID, SOLAR_MINI4,
     "thinkingmachines/inkling",
     "qwen/qwen3.6-35b-a3b",

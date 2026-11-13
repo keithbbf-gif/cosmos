@@ -1,0 +1,13 @@
+[MAIN]
+ignore = tests,_delme,_pack,.git,__pycache__,builds,live,dist,tmp
+ignore-patterns = ^\..*
+
+[MESSAGES CONTROL]
+disable = all
+enable = E,F
+
+[FORMAT]
+max-line-length = 120
+
+[DESIGN]
+max-complexity = 15

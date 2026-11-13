@@ -889,13 +889,13 @@ def _selftest() -> int:
     vdir = Path(tempfile.mkdtemp(prefix="cosmos_vertex_cfg_"))
     (vdir / "config").mkdir()
     (vdir / "config" / "vertex.json").write_text(json.dumps({
-        "account": "joanna.bbf@gmail.com",
-        "project": "project-5a33f910-1251-4d6a-bf9",
+        "account": "orders.ggn@gmail.com",
+        "project": "project-10b3a132-ec5b-41e9-a2c",
         "location": "global",
     }), encoding="utf-8")
     ve = vertex_cli_env(vdir, base={"PATH": "x", "GEMINI_API_KEY": "steal"})
-    check("vertex env pins Joanna project and drops Studio key",
-          lambda: ve.get("GOOGLE_CLOUD_PROJECT") == "project-5a33f910-1251-4d6a-bf9"
+    check("vertex env pins orders.ggn project and drops Studio key",
+          lambda: ve.get("GOOGLE_CLOUD_PROJECT") == "project-10b3a132-ec5b-41e9-a2c"
           and ve.get("GOOGLE_CLOUD_LOCATION") == "global"
           and ve.get("GOOGLE_GENAI_USE_VERTEXAI") == "true"
           and "GEMINI_API_KEY" not in ve)

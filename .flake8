@@ -1,0 +1,21 @@
+[flake8]
+max-line-length = 120
+max-complexity = 30
+extend-ignore = E501, W503, E203
+exclude =
+    .git,
+    __pycache__,
+    _delme,
+    _pack,
+    .mypy_cache,
+    .pytest_cache,
+    .ruff_cache,
+    .venv,
+    venv,
+    node_modules,
+    builds,
+    live,
+    dist,
+    tmp
+per-file-ignores =
+    __init__.py: F401, E402

@@ -5,7 +5,7 @@
 Resession order is TidyUP, then TidyUP2, then one BU file for the stream or
 the special session type. Auto-resession asks at 75, 80, and 85 percent of
 the context window. A decline waits for the next rung. A live Grok session
-closes at 190000 input tokens, not at 92 percent. Compaction asks. It does
+closes at 180000 input tokens, not at 92 percent. Compaction asks. It does
 not close. Autosave writes the session to documents, the existing state/cas
 store, and a ROLD update. A demonstrated skill is proposed through
 cosmos_skills (agentskills.io frontmatter). CCr accept stays on the pen.
@@ -25,7 +25,16 @@ from pathlib import Path
 from typing import Any
 
 from cosmos_pause import classify_pause
-from cosmos_resession import close_banner, cosmos_tu2, render_running_session, unique_stamp, write_session_save
+from cosmos_resession import (
+    GROK_CLOSE_TOKENS,
+    Refuse,
+    close_banner,
+    cosmos_tu2,
+    grok_input_gate,
+    render_running_session,
+    unique_stamp,
+    write_session_save,
+)
 from cosmos_rold_index import index_credential, index_seat, index_skill, lookup
 from cosmos_session_kit import load_kit
 
@@ -33,7 +42,7 @@ ASK_NAME = "RESESSION_ASK.flag"
 ASK_SCHEMA = "cosmos-resession-ask/1"
 DEFAULT_ASK = (0.75, 0.80, 0.85)
 DEFAULT_FORCE = 0.92
-DEFAULT_CLOSE_TOKENS = 190_000
+DEFAULT_CLOSE_TOKENS = GROK_CLOSE_TOKENS
 BU_FILES = {
     "Cm": "BUCm.toml",
     "CCr": "BUcr.toml",
@@ -142,16 +151,6 @@ def _token_count(tokens_in, heartbeat: dict | None) -> int | None:
     return _one_token(tokens_in)
 
 
-def _close_tokens(rs: dict) -> int:
-    raw = rs.get("close_tokens")
-    if raw in (None, ""):
-        return DEFAULT_CLOSE_TOKENS
-    try:
-        return int(raw)
-    except (TypeError, ValueError):
-        return DEFAULT_CLOSE_TOKENS
-
-
 def next_action(kit: dict, tokens_in, *, declined: set[str],
                 compaction: bool = False, heartbeat: dict | None = None) -> dict:
     ask, _force = ladder(kit)
@@ -171,13 +170,16 @@ def next_action(kit: dict, tokens_in, *, declined: set[str],
         except (TypeError, ValueError):
             pct = None
     tokens = _token_count(tokens_in, heartbeat)
-    close_at = _close_tokens(rs)
-    if tokens is not None and tokens >= close_at:
+    if tokens is None:
+        # A missing count is not a close, and not a percent close.
+        if compaction and rs.get("on_compaction", True):
+            if canon_pct(ask[0]) not in declined:
+                return {"act": "ask", "pct": ask[0], "why": "compaction"}
+        return {"act": "idle", "pct": 0.0, "why": "no tokens"}
+    verdict = grok_input_gate(int(tokens), rail="grok")
+    if verdict == "close":
+        close_at = DEFAULT_CLOSE_TOKENS
         return {"act": "force", "pct": (close_at / window) if window else 0.0,
-                "why": "close at %d tokens" % close_at}
-    if (tokens is None and pct is not None and window
-            and pct >= (close_at / float(window))):
-        return {"act": "force", "pct": close_at / float(window),
                 "why": "close at %d tokens" % close_at}
     if compaction and rs.get("on_compaction", True):
         if canon_pct(ask[0]) not in declined:
@@ -788,6 +790,14 @@ def apply_rung(paths, repo, *, kit: dict, stream: str, session_type: str = "",
     return action
 
 
+def _ceiling(fn) -> bool:
+    try:
+        fn()
+    except Refuse as e:
+        return e.reason == "TOKEN_CEILING_BREACH"
+    return False
+
+
 def _selftest() -> int:
     import tempfile
 
@@ -807,7 +817,7 @@ def _selftest() -> int:
         "resession": {
             "ask_pct": [0.75, 0.80, 0.85],
             "force_pct": 0.92,
-            "close_tokens": 190000,
+            "close_tokens": 180000,
             "window_tokens": 200000,
             "on_compaction": True,
             "on_token_count": True,
@@ -825,32 +835,38 @@ def _selftest() -> int:
           lambda: next_action(kit, 155000, declined={canon_pct(0.75)})["act"] == "idle"
           and next_action(kit, 160000, declined={canon_pct(0.75)})["pct"] == 0.80)
     declined_all = {canon_pct(x) for x in (0.75, 0.80, 0.85)}
-    check("184000 does not close",
-          lambda: next_action(kit, 184000, declined=declined_all)["act"] == "idle")
-    check("190000 tokens closes",
-          lambda: next_action(kit, 190000, declined=declined_all)["act"] == "force")
+    check("170000 review stop does not close",
+          lambda: next_action(kit, 170000, declined=declined_all)["act"] == "idle")
+    check("179000 review stop does not close",
+          lambda: next_action(kit, 179000, declined=declined_all)["act"] == "idle")
+    check("180000 tokens closes",
+          lambda: next_action(kit, 180000, declined=declined_all)["act"] == "force")
+    check("184000 is past the hard limit and does not force",
+          lambda: _ceiling(lambda: next_action(kit, 184000, declined=declined_all)))
     check("compaction asks at the first rung",
           lambda: next_action(kit, 10, declined=set(), compaction=True)["why"] == "compaction")
-    check("compaction does not hold off the 190000 close",
-          lambda: next_action(kit, 190000, declined=set(), compaction=True)["act"] == "force"
-          and "190000" in next_action(
-              kit, 190000, declined=set(), compaction=True)["why"])
+    check("compaction does not hold off the 180000 close",
+          lambda: next_action(kit, 180000, declined=set(), compaction=True)["act"] == "force"
+          and "180000" in next_action(
+              kit, 180000, declined=set(), compaction=True)["why"])
     off = {"resession": {
         "ask_pct": [0.75, 0.80, 0.85],
         "force_pct": 0.92,
-        "close_tokens": 190000,
+        "close_tokens": 180000,
         "window_tokens": 200000,
         "on_compaction": True,
         "on_token_count": False,
     }}
     check("token count off does not close",
-          lambda: next_action(off, 190000, declined=set())["why"] == "token count off"
+          lambda: next_action(off, 180000, declined=set())["why"] == "token count off"
           and next_action(off, 10, declined=set(), compaction=True)["why"] == "compaction")
-    check("a bad token count uses context percent",
+    check("a missing token count does not force-close",
           lambda: next_action(kit, None, declined=set(), heartbeat={
-              "tokens_in": "pending", "context_pct": 0.80})["act"] == "ask"
+              "tokens_in": "pending", "context_pct": 0.99})["act"] == "idle"
           and next_action(kit, None, declined=set(), heartbeat={
-              "tokens_in": True, "context_pct": 0.80})["act"] == "ask")
+              "tokens_in": "pending", "context_pct": 0.99})["why"] == "no tokens"
+          and next_action(kit, None, declined=set(), heartbeat={
+              "tokens_in": True, "context_pct": 0.80})["act"] == "idle")
     check("a boolean context percent does not close",
           lambda: next_action(kit, None, declined=set(), heartbeat={
               "context_pct": True})["act"] == "idle")
@@ -878,20 +894,20 @@ def _selftest() -> int:
 
     held = apply_rung(
         paths, repo, kit=kit, stream="Cm", reason="hold", pause={"mode": "hold"},
-        tokens_in=190000, engage=True, closer=closer)
+        tokens_in=180000, engage=True, closer=closer)
     check("operator hold does not close",
           lambda: held["act"] == "hold" and calls == [])
     padded = apply_rung(
         paths, repo, kit=kit, stream="Cm", reason="hold", pause={"mode": "hold "},
-        tokens_in=190000, engage=True, closer=closer)
+        tokens_in=180000, engage=True, closer=closer)
     unknown = apply_rung(
         paths, repo, kit=kit, stream="Cm", reason="hold", pause={"mode": "siesta"},
-        tokens_in=190000, engage=True, closer=closer)
+        tokens_in=180000, engage=True, closer=closer)
     check("a padded or unknown pause does not close",
           lambda: padded["act"] == "hold" and unknown["act"] == "hold" and calls == [])
     running = preview_rung(
         paths, pause={"state": "RUNNING", "mode": "hold"}, tokens_in=10)
-    gate = preview_rung(paths, pause={"mode": "resume_gate"}, tokens_in=190000)
+    gate = preview_rung(paths, pause={"mode": "resume_gate"}, tokens_in=180000)
     check("resume_gate does not block the close line",
           lambda: running["act"] != "hold" and gate["act"] == "force"
           and gate["engaged"] is False)
@@ -906,8 +922,8 @@ def _selftest() -> int:
     decline_rung(paths, 0.85)
     forced = apply_rung(
         paths, repo, kit=kit, stream="Cm", reason="full", work="continue the route",
-        tokens_in=190000, engage=True, closer=closer, bu_dir=td / "bu")
-    check("190000 tokens runs TidyUP then TU2 then BU",
+        tokens_in=180000, engage=True, closer=closer, bu_dir=td / "bu")
+    check("180000 tokens runs TidyUP then TU2 then BU",
           lambda: forced["engaged"] is True
           and forced["close"]["steps"] == ["tidyup", "tu2", "bu"]
           and calls == ["tidyup"])

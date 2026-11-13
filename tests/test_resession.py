@@ -30,7 +30,6 @@ from cosmos_own_clocks import CLOCKS  # noqa: E402
 from cosmos_paths import CosmosPaths  # noqa: E402
 from cosmos_resession import (  # noqa: E402
     CLOCK_ID,
-    CONTEXT_CLOSE_PCT,
     CONTEXT_PACK_PCT,
     CONTEXT_WARN_PCT,
     GROK_CLOSE_TOKENS,
@@ -198,7 +197,7 @@ def main() -> int:
     # ---- ordering: a bad manifest refuses before anything is armed ----------
     # The fire has to be a live window. A dead pid is not that fire.
     firing = {"spawned_at_epoch": 1.0, "last_act_epoch": 9e9,
-              "turn_n": 1, "context_pct": CONTEXT_CLOSE_PCT,
+              "turn_n": 1, "context_pct": 0.90,
               "tokens_in": GROK_CLOSE_TOKENS}
     bad = {"ok": False, "kind": "BAD_SEED", "detail": "mac", "sha": None,
            "sid": None, "schema": None, "thin": None, "cursor": None}
@@ -321,11 +320,21 @@ def main() -> int:
                      pid_alive=True, now=9e8, prompt_sha="p", rail="grok",
                      lease_held_by=None, warn_latched=True)["warn"] is True)
     close90 = watermark({"spawned_at_epoch": 9e8, "last_act_epoch": 9e8,
-                         "turn_n": 1, "context_pct": CONTEXT_CLOSE_PCT}, 9e8,
-                        pid_is_alive=True)
-    check("90% context is W2-close: fire watermark",
-          lambda: close90["fire"] is True and close90["reason"] == "watermark"
-          and close90["detectors"]["w2_close"] is True)
+                         "turn_n": 1, "context_pct": 0.90, "tokens_in": 100000},
+                        9e8, pid_is_alive=True)
+    check("90 percent with tokens below 170000 does not close",
+          lambda: close90["fire"] is False and close90["reason"] != "watermark"
+          and close90["detectors"]["w2_close"] is False)
+    review = watermark({"spawned_at_epoch": 9e8, "last_act_epoch": 9e8,
+                        "turn_n": 1, "tokens_in": 170000}, 9e8,
+                       pid_is_alive=True)
+    check("170000 is review_stop and does not fire",
+          lambda: review["fire"] is False and review["pack"] is False
+          and review["review_stop"] is True and review["reason"] == "review_stop")
+    check("180001 raises and does not fire",
+          lambda: _ceiling(lambda: watermark(
+              {"spawned_at_epoch": 9e8, "last_act_epoch": 9e8,
+               "turn_n": 1, "tokens_in": 180001}, 9e8, pid_is_alive=True)))
     check("decide at 70% is PACKING, not ARMED",
           lambda: decide(pause=None, seed=ok_seed(),
                          cow_hb={"spawned_at_epoch": 9e8, "last_act_epoch": 9e8,
@@ -501,7 +510,7 @@ def main() -> int:
         "cosmos_sid": "Cm",
         "role": "CCr",
         "turn_n": 4,
-        "context_pct": CONTEXT_CLOSE_PCT,
+        "context_pct": 0.90,
         "tokens_in": GROK_CLOSE_TOKENS,
         "last_act_epoch": now_s,
         "spawned_at_epoch": now_s,
@@ -510,7 +519,7 @@ def main() -> int:
     dead_rec = poll_once(
         str(dead_root), str(ROOT), dry_run=False, spawn=False, engage=True,
         bu_dir=str(dead_root / "bu"))
-    check("190000 tokens on a dead pid does not close and does not write a BU",
+    check("180000 tokens on a dead pid does not close and does not write a BU",
           lambda: dead_rec.get("session_closed") is None
           and (dead_rec.get("rung") or {}).get("act") == "force"
           and (dead_rec.get("rung") or {}).get("held") == "pid not alive"
@@ -532,7 +541,7 @@ def main() -> int:
         "cosmos_sid": "Cm",
         "role": "CCr",
         "turn_n": 4,
-        "context_pct": CONTEXT_CLOSE_PCT,
+        "context_pct": 0.90,
         "tokens_in": GROK_CLOSE_TOKENS,
         "last_act_epoch": now_s,
         "spawned_at_epoch": now_s,
@@ -541,7 +550,7 @@ def main() -> int:
     live_rec = poll_once(
         str(live_root), str(ROOT), dry_run=False, spawn=False, engage=False,
         bu_dir=str(live_root / "bu"))
-    check("190000 tokens on a live pid packs and does not close without engage",
+    check("180000 tokens on a live pid packs and does not close without engage",
           lambda: live_rec.get("state") == "ARMED"
           and live_rec.get("spawn_reason") == "watermark"
           and live_rec.get("session_closed") is None
@@ -635,7 +644,7 @@ def main() -> int:
                                   "ANTHROPIC_OFF"))
             continue
         if door_id == "grok":
-            check("plan grok keeps 5a/5b, execute false, window 200000/190000",
+            check("plan grok keeps 5a/5b, execute false, window 200000/180000",
                   _plan_grok)
             continue
         binary = str(row["binary"])
@@ -694,7 +703,7 @@ def _plan_grok() -> bool:
             and isinstance(win, dict)
             and win.get("tokens") == GROK_WINDOW_TOKENS == 200000
             and win.get("warn") == GROK_WARN_TOKENS == 130000
-            and win.get("close") == GROK_CLOSE_TOKENS == 190000
+            and win.get("close") == GROK_CLOSE_TOKENS == 180000
             and "-c" not in rec["argv"] and "-c" not in rec["tui_argv"]
             and named["argv"] == rec["argv"]
             and named["tui_argv"] == rec["tui_argv"]
@@ -765,6 +774,14 @@ def _plans_do_not_launch() -> bool:
     finally:
         cr.subprocess.run = real
     return calls == []
+
+
+def _ceiling(fn) -> bool:
+    try:
+        fn()
+    except Exception as e:
+        return getattr(e, "reason", "") == "TOKEN_CEILING_BREACH"
+    return False
 
 
 def _raises(fn, kind: str) -> bool:

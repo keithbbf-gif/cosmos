@@ -476,6 +476,7 @@ _CDECK_UI_FILES = (
     ("deck_portfolio_cost.js", _CT_JS),
     ("deck_orders.js", _CT_JS),
     ("deck_sfx.js", _CT_JS),
+    ("deck_front.js", _CT_JS),
     ("openwork.svg", _CT_SVG),
     ("skins/forge-engineroom.jpg", _CT_JPEG),
     ("skins/crucible-chamber.jpg", _CT_JPEG),

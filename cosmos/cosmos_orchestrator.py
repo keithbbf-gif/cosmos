@@ -88,7 +88,7 @@ MAX_STEPS_DEFAULT = 4     # model calls per run() unless the caller says otherwi
 MAX_STEPS_CAP = 8         # even an explicit max_steps is bounded
 MAX_CALLS_PER_STEP = 4    # tool executions honored per model response
 RESULT_JSON_CAP = 8000    # chars of a tool result echoed back to the model
-SPOKEN_MAX = 320          # TTS trim, same figure as cosmos_voice
+SPOKEN_MAX = 640          # TTS trim, same figure as cosmos_voice
 
 FILE_HIT_CAP = 25         # hits per search_files call - voice answers are short
 SCAN_CAP = 20000          # files walked per search_files call - huge trees bounded
@@ -187,6 +187,9 @@ def _spoken(answer: str) -> str:
     if len(flat) <= SPOKEN_MAX:
         return flat
     cut = flat[:SPOKEN_MAX]
+    end = max(cut.rfind("."), cut.rfind("!"), cut.rfind("?"))
+    if end > 0:
+        return cut[: end + 1]
     if " " in cut:
         cut = cut[:cut.rfind(" ")]
     return cut + " ..."

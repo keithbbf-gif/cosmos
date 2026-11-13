@@ -6,7 +6,20 @@ requires-python = ">=3.11"
 dependencies = []
 
 [project.optional-dependencies]
-dev = ["pytest>=8", "ruff>=0.6", "mypy>=1.11"]
+dev = [
+    "pytest>=8",
+    "ruff>=0.6",
+    "mypy>=1.11",
+    "bandit>=1.7",
+    "pylint>=3.0",
+    "vulture>=2.10",
+    "isort>=5.12",
+    "pyflakes>=3.0",
+    "flake8>=7.0",
+    "pycodestyle>=2.11",
+    "mccabe>=0.7",
+    "coverage>=7.0",
+]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
@@ -30,3 +43,28 @@ ignore_missing_imports = true
 check_untyped_defs = true
 warn_unused_ignores = true
 pretty = true
+
+[tool.isort]
+profile = "black"
+line_length = 120
+
+[tool.bandit]
+exclude_dirs = ["tests", "_delme", "_pack", "seats"]
+skips = ["B101"]
+
+[tool.pylint.main]
+ignore-paths = ["tests", "_delme", "_pack", "seats"]
+
+[tool.pylint.messages_control]
+disable = ["all"]
+enable = ["E", "F"]
+
+[tool.vulture]
+min_confidence = 80
+exclude = ["tests", "_delme", "_pack", "seats"]
+
+[tool.coverage.run]
+omit = ["tests/*", "_delme/*", "_pack/*", "seats/*"]
+
+[tool.coverage.report]
+fail_under = 70

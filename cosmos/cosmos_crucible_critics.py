@@ -136,13 +136,15 @@ def make_grok_sgh_critic(*, work_dir: Path, run=subprocess.run,
 
 JOANNA_ACCOUNT = "joanna.bbf@gmail.com"
 JOANNA_PROJECT = "project-5a33f910-1251-4d6a-bf9"
+# DEAD 2026-10-13: Joanna wallet expired, key DEAD — never use, never ping,
+# never fall back. Default Vertex wallet is orders.ggn (Kelly Gregory).
 CODING_ACCOUNT = "orders.ggn@gmail.com"
 CODING_PROJECT = "project-10b3a132-ec5b-41e9-a2c"
 
 
 def make_vertex_critic(paths=None, *, rail=None, spend=None):
     """COSMOS Vertex Express on the named $300 coding rail (orders.ggn).
-    Joanna only if vertex_coding.json is absent. Not Activate.
+    Joanna is DEAD (expired 2026-10-13) — never a fallback. Not Activate.
     Spends on VERTEX_SPEND, never kernel gem-api / bts_gem (Studio mix)."""
     if rail is None:
         from cosmos_vertex_rail import (
@@ -169,15 +171,20 @@ def make_vertex_critic(paths=None, *, rail=None, spend=None):
         else:
             spec = load_spec(paths)
             acct = str(spec.get("account") or "").strip().lower()
-            if acct != JOANNA_ACCOUNT:
+            if acct == JOANNA_ACCOUNT:
                 raise CriticError(
                     "NO_RAIL",
-                    f"gem-api account {acct!r} is not Joanna Vertex — "
+                    "gem-api account is the DEAD Joanna wallet (expired 2026-10-13) — "
+                    "refusing; switch default to orders.ggn")
+            if acct != CODING_ACCOUNT:
+                raise CriticError(
+                    "NO_RAIL",
+                    f"gem-api account {acct!r} is not orders.ggn — "
                     "do not collapse onto another Google billing account")
             if spec.get("do_not_activate") is False:
                 raise CriticError(
                     "NO_RAIL",
-                    "Joanna Vertex do_not_activate is off — refusing rather than Activate")
+                    "orders.ggn do_not_activate is off — refusing rather than Activate")
             rail = rail_for(paths)
 
     def _fn(packet_text: str) -> str:

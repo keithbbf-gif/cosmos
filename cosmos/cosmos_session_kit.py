@@ -19,7 +19,10 @@ PACK_NAME = "pack.json"
 AUTOSAVE_MIN = (5, 10, 20, 30)
 DEFAULT_ASK = (0.75, 0.80, 0.85)
 DEFAULT_FORCE = 0.92
-DEFAULT_CLOSE_TOKENS = 190_000
+try:
+    from cosmos_harness.governor import GROK_HARD_LIMIT_TOKENS as DEFAULT_CLOSE_TOKENS
+except ImportError:
+    DEFAULT_CLOSE_TOKENS = 180_000  # governor.py is the owner when present.
 COS_PANES = (
     ("rold", "ROLD — Rule of Law Desk"),
     ("tidyup", "TidyUP"),
@@ -133,7 +136,7 @@ def _public(rec: dict) -> dict:
     resession["ask_pct"] = ask
     resession["force_pct"] = force
     resession["close_tokens"] = _clamp_int(
-        rs.get("close_tokens"), 1, 2_000_000, DEFAULT_CLOSE_TOKENS)
+        rs.get("close_tokens"), 1, DEFAULT_CLOSE_TOKENS, DEFAULT_CLOSE_TOKENS)
     if "warn_pct" in rs:
         try:
             wp = float(rs["warn_pct"])
@@ -282,10 +285,13 @@ def _selftest() -> int:
     except SessionKitError as e:
         bad = e.kind == "BAD_INPUT"
     check("autosave 7 min is BAD_INPUT", lambda: bad)
-    check("ask ladder defaults to 75 80 85 and the close is 190000",
+    check("ask ladder defaults to 75 80 85 and the close is 180000",
           lambda: saved["resession"]["ask_pct"] == [0.75, 0.80, 0.85]
           and saved["resession"]["force_pct"] == 0.92
-          and saved["resession"]["close_tokens"] == 190000)
+          and saved["resession"]["close_tokens"] == 180000)
+    clamped = save_kit(paths, {"resession": {"close_tokens": 190000}})
+    check("a stored 190000 close is clamped to 180000",
+          lambda: clamped["resession"]["close_tokens"] == 180000)
     climbed = save_kit(paths, {"resession": {
         "ask_pct": [70, 80, 88], "force_pct": 95}})
     check("cDeck percents are stored as fractions",

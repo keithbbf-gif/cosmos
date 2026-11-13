@@ -46,11 +46,16 @@ def snapshot(paths=None) -> dict:
     try:
         eng = _engine()
     except SessionToolsKitError as exc:
-        return {"schema": SCHEMA, "kind": exc.kind, "detail": str(exc), "verbs": []}
+        return {
+            "schema": SCHEMA, "kind": exc.kind, "detail": str(exc), "verbs": [],
+            "port": None, "window": "desk",
+        }
     return {
         "schema": SCHEMA,
         "kind": "OK",
         "engine": "builds/sessions-page",
+        "port": None,
+        "window": "desk",
         "verbs": list(eng.VERBS),
         "harnesses": list(eng.HARNESSES),
         "homes": eng.home_status(),

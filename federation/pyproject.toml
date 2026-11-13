@@ -3,6 +3,23 @@ name = "cosmos-federation-proposals"
 version = "0.1.0"
 description = "Propose-only day-one installer for a COSMOS peer. Not the live tree."
 requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8",
+    "ruff>=0.6",
+    "mypy>=1.11",
+    "bandit>=1.7",
+    "pylint>=3.0",
+    "vulture>=2.10",
+    "isort>=5.12",
+    "pyflakes>=3.0",
+    "flake8>=7.0",
+    "pycodestyle>=2.11",
+    "mccabe>=0.7",
+    "coverage>=7.0",
+]
 
 [tool.ruff]
 line-length = 120
@@ -47,3 +64,28 @@ ignore_missing_imports = true
 testpaths = ["tests", "proposals"]
 pythonpath = ["."]
 addopts = "-q -p no:cacheprovider --tb=short"
+
+[tool.isort]
+profile = "black"
+line_length = 120
+
+[tool.bandit]
+exclude_dirs = ["tests", "_delme", "_pack"]
+skips = ["B101"]
+
+[tool.pylint.main]
+ignore-paths = ["tests", "_delme", "_pack"]
+
+[tool.pylint.messages_control]
+disable = ["all"]
+enable = ["E", "F"]
+
+[tool.vulture]
+min_confidence = 80
+exclude = ["tests", "_delme", "_pack"]
+
+[tool.coverage.run]
+omit = ["tests/*", "_delme/*", "_pack/*"]
+
+[tool.coverage.report]
+fail_under = 70

@@ -100,15 +100,53 @@ COW_LEASE_TTL_S = 600.0
 CONTEXT_WARN_PCT = 0.65           # Keith 2026-09-23: persistent warning; never self-clears
 CONTEXT_PACK_PCT = 0.70           # Keith 2026-09-01: start TU/TU2/BU packing
 GROK_WINDOW_TOKENS = 200_000      # Grok surcharge window; 65% = 130000
-GROK_CLOSE_TOKENS = 190_000       # Keith 2026-10-02: the close line. Not 90% and not 92%.
-CONTEXT_CLOSE_PCT = GROK_CLOSE_TOKENS / GROK_WINDOW_TOKENS
 GROK_WARN_TOKENS = int(GROK_WINDOW_TOKENS * CONTEXT_WARN_PCT)
 WARN_NAME = "RESESSION_WARN.flag"
 WARN_SCHEMA = "cosmos-resession-warn/1"
 RUNNING_SESSION_NAME = "running_session_file.toml"
 SESSION_SAVES_DIR = "session_saves"
 
-RAILS = ("grok",)
+# Keith 2026-11-12: review stop 170k, close 180k, Grok only.
+# The close is still not a percent.
+try:
+    from cosmos_harness.refuse import Refuse
+except ImportError:
+    class Refuse(RuntimeError):
+        """Stand-in until cosmos_harness.refuse is on the path."""
+
+        def __init__(self, reason: str, detail: str = "") -> None:
+            self.reason = reason
+            self.detail = detail
+            super().__init__(reason if not detail else "%s: %s" % (reason, detail))
+
+
+try:
+    from cosmos_harness.governor import (
+        GROK_HARD_LIMIT_TOKENS as GROK_CLOSE_TOKENS,
+        GROK_REVIEW_STOP_TOKENS,
+        RAILS,
+        grok_input_gate,
+    )
+except ImportError:
+    GROK_CLOSE_TOKENS = 180_000  # governor.py is the owner when present.
+    GROK_REVIEW_STOP_TOKENS = 170_000
+    RAILS = ("grok",)
+
+    def grok_input_gate(tokens_in: int, *, rail: str) -> str:
+        if rail not in RAILS:
+            return "not_grok"
+        n = int(tokens_in)
+        if n < GROK_WARN_TOKENS:
+            return "ok"
+        if n < GROK_REVIEW_STOP_TOKENS:
+            return "warn"
+        if n < GROK_CLOSE_TOKENS:
+            return "review_stop"
+        if n == GROK_CLOSE_TOKENS:
+            return "close"
+        raise Refuse(
+            "TOKEN_CEILING_BREACH",
+            "tokens_in %s is past %s" % (n, GROK_CLOSE_TOKENS))
 
 
 class ResessionRefusal(RuntimeError):
@@ -210,10 +248,15 @@ def watermark(cow_hb: dict | None, now: float,
               age_s: float = SESSION_AGE_WATERMARK_S,
               turns: int = TURN_WATERMARK,
               stale_s: float = HEARTBEAT_STALE_S,
-              pid_is_alive: bool | None = None) -> dict:
+              pid_is_alive: bool | None = None,
+              rail: str = "grok") -> dict:
     """H9 - fire BEFORE truncation. W1/W2 are the engine (PID still alive). W3
     records a quiet or dead orchestrator and does not fire, pack, or close.
     Returns {fire, pack, warn, reason, detectors, why}.
+
+    context_pct never closes a Grok session. The token gate is Grok-only:
+    review_stop does not fire or pack, exactly GROK_CLOSE_TOKENS closes, and
+    a count above that raises. The raise is not turned into a fire.
 
     'Prompt is too long' and 'process gone' are both AFTER the bite. A design that
     waits for them has not implemented the wish, only survived it. Silence is not
@@ -221,7 +264,7 @@ def watermark(cow_hb: dict | None, now: float,
     """
     det = {"w1_age": False, "w1_turns": False, "w2_context": False,
            "w2_warn": False, "w2_pack": False, "w2_close": False,
-           "w3_quiet": False, "w3_dead": False}
+           "w2_review": False, "w3_quiet": False, "w3_dead": False}
     quiet_why = "backstop seen; not a close and not a pack"
     empty = {"fire": False, "pack": False, "warn": False, "detectors": det,
              "reason": None, "why": "no COW heartbeat"}
@@ -246,16 +289,27 @@ def watermark(cow_hb: dict | None, now: float,
             det["w2_warn"] = True
         if float(pct) >= CONTEXT_PACK_PCT:
             det["w2_pack"] = True
-        if float(pct) >= CONTEXT_CLOSE_PCT:
-            det["w2_close"] = True
-            det["w2_context"] = True  # close is the old W2 fire line
     tok = cow_hb.get("tokens_in")
-    if isinstance(tok, (int, float)) and not isinstance(tok, bool):
-        if float(tok) >= GROK_WARN_TOKENS:
-            det["w2_warn"] = True
-        if float(tok) >= GROK_CLOSE_TOKENS:
-            det["w2_close"] = True
-            det["w2_context"] = True
+    # 170/180 apply only on the grok rail. Other rails do not take this pair.
+    if (rail in RAILS and isinstance(tok, (int, float))
+            and not isinstance(tok, bool)):
+        counted = float(tok)
+        if counted > GROK_CLOSE_TOKENS:
+            over = int(counted)
+            if over <= GROK_CLOSE_TOKENS:
+                over = GROK_CLOSE_TOKENS + 1
+            grok_input_gate(over, rail=rail)
+        elif isinstance(tok, int) or counted.is_integer():
+            verdict = grok_input_gate(int(counted), rail=rail)
+            if verdict == "warn":
+                det["w2_warn"] = True
+            elif verdict == "review_stop":
+                det["w2_review"] = True
+                det["w2_warn"] = True
+            elif verdict == "close":
+                det["w2_close"] = True
+                det["w2_context"] = True
+                det["w2_warn"] = True
     last = float(cow_hb.get("last_act_epoch") or 0)
     if last and (now - last) >= stale_s:
         det["w3_quiet"] = True
@@ -264,6 +318,12 @@ def watermark(cow_hb: dict | None, now: float,
 
     warn = bool(det["w2_warn"])
     # None is not alive. An unproven pid is the backstop, same as a dead one.
+    # review_stop is not the old fire/pack/close branch. Age and turns still fire.
+    if (alive is True and det["w2_review"]
+            and not det["w1_age"] and not det["w1_turns"]):
+        return {"fire": False, "pack": False, "warn": True, "review_stop": True,
+                "reason": "review_stop", "detectors": det,
+                "why": "review stop: no new work; the close has not fired"}
     if alive is True and (det["w1_age"] or det["w1_turns"] or det["w2_close"]):
         return {"fire": True, "pack": True, "warn": True, "reason": "watermark",
                 "detectors": det,
@@ -324,7 +384,7 @@ def latch_warn(paths: CosmosPaths, *, sid: str | None = None,
         "latched_at": now,
         "last_seen": now,
         "reason": "context >= 65% of Grok 200k window (130000 tokens). "
-                  "Pack at 70%. Close at 90% or Keith says resession.",
+                  "Pack at 70%. The close is the Grok token line, not a percent.",
         "clear": "Never self-clears. New session / TidyUP close / Keith.",
     }
     atomic_json(p, rec)
@@ -768,7 +828,7 @@ def decide(*, pause: dict | None, seed: dict, cow_hb: dict | None,
     if pause is not None and not isinstance(pause, dict):
         cls = {"class": "HOLD", "why": "PAUSE.flag is not an object - fail-closed"}
     rec["pause_class"] = cls["class"]
-    wm = watermark(cow_hb, now, pid_is_alive=pid_alive)
+    wm = watermark(cow_hb, now, pid_is_alive=pid_alive, rail=rail)
     rec["detectors"] = wm["detectors"]
     rec["pack"] = bool(wm.get("pack"))
     rec["warn"] = bool(wm.get("warn") or warn_latched)
@@ -781,6 +841,10 @@ def decide(*, pause: dict | None, seed: dict, cow_hb: dict | None,
         return rec
 
     if not wm["fire"]:
+        if wm.get("review_stop"):
+            rec["review_stop"] = True
+            rec.update(state="REVIEW", spawn_reason="review_stop", why=wm["why"])
+            return rec
         if wm.get("pack"):
             rec.update(state="PACKING", spawn_reason="pack", why=wm["why"])
             return rec
@@ -901,7 +965,7 @@ def poll_once(root: str, repo: str | None = None, *, rail: str = "grok",
 
     Spawn of the interactive Grok TUI is opt-in (`spawn=True` / `--spawn`) so a
     1-min --once clock cannot open windows by surprise. An ask rung writes
-    RESESSION_ASK.flag. The 190000-token close runs only when `engage=True`
+    RESESSION_ASK.flag. The 180000-token close runs only when `engage=True`
     and the heartbeat pid is alive. It writes the pointer, TidyUP, and
     TidyUP2. It does not walk the tree again. A quiet or dead pid is
     recorded and does not snapshot. `bu_dir` confines the BU file; the
@@ -1216,14 +1280,38 @@ def selftest() -> int:
           lambda: watermark({"spawned_at_epoch": 999, "last_act_epoch": 1000,
                              "turn_n": 0, "context_pct": 0.64}, 1000.0,
                             pid_is_alive=True)["warn"] is False)
-    check("90 percent does not fire the close",
-          lambda: watermark({"spawned_at_epoch": 999, "last_act_epoch": 1000,
-                             "turn_n": 0, "context_pct": 0.90}, 1000.0,
-                            pid_is_alive=True)["reason"] != "watermark")
-    check("190000 tokens fires the close",
-          lambda: watermark({"spawned_at_epoch": 999, "last_act_epoch": 1000,
-                             "turn_n": 0, "tokens_in": GROK_CLOSE_TOKENS},
-                            1000.0, pid_is_alive=True)["reason"] == "watermark")
+    check("90 percent with tokens below 170000 does not close",
+          lambda: (lambda r: r["reason"] != "watermark" and r["fire"] is False
+                   and r["detectors"]["w2_close"] is False)(
+              watermark({"spawned_at_epoch": 999, "last_act_epoch": 1000,
+                         "turn_n": 0, "context_pct": 0.90, "tokens_in": 100000},
+                        1000.0, pid_is_alive=True)))
+    check("170000 is review_stop and does not fire",
+          lambda: (lambda r: r["fire"] is False and r["pack"] is False
+                   and r["review_stop"] is True and r["warn"] is True
+                   and r["reason"] == "review_stop")(
+              watermark({"spawned_at_epoch": 999, "last_act_epoch": 1000,
+                         "turn_n": 0, "tokens_in": GROK_REVIEW_STOP_TOKENS},
+                        1000.0, pid_is_alive=True)))
+    check("180000 tokens fires the close",
+          lambda: (lambda r: r["fire"] is True and r["pack"] is True
+                   and r["reason"] == "watermark"
+                   and r["detectors"]["w2_close"] is True)(
+              watermark({"spawned_at_epoch": 999, "last_act_epoch": 1000,
+                         "turn_n": 0, "tokens_in": 180000},
+                        1000.0, pid_is_alive=True)))
+    check("180001 raises and does not fire",
+          lambda: _ceiling(lambda: watermark(
+              {"spawned_at_epoch": 999, "last_act_epoch": 1000,
+               "turn_n": 0, "tokens_in": 180001},
+              1000.0, pid_is_alive=True)))
+    check("a non-grok rail does not use 170 or 180",
+          lambda: (lambda r: r["fire"] is False and r.get("review_stop") is not True
+                   and r["detectors"]["w2_close"] is False
+                   and r["detectors"]["w2_review"] is False)(
+              watermark({"spawned_at_epoch": 999, "last_act_epoch": 1000,
+                         "turn_n": 0, "tokens_in": 180001},
+                        1000.0, pid_is_alive=True, rail="cursor")))
     check("TUI spawn is grok --cwd --fullscreen -r (5b)",
           lambda: spawn_tui_argv("C:/x", "u")
           == ["grok", "--cwd", "C:/x", "--fullscreen", "-r", "u"])
@@ -1265,7 +1353,7 @@ def selftest() -> int:
                    and r["argv"] == spawn_inject_argv("C:/x", "u", "P.md")
                    and r["tui_argv"] == spawn_tui_argv("C:/x", "u")
                    and r["window"]["tokens"] == 200000
-                   and r["window"]["close"] == 190000)(
+                   and r["window"]["close"] == 180000)(
               plan_resession("grok", cwd="C:/x", session_id="u",
                              prompt_file="P.md")))
 
@@ -1282,6 +1370,14 @@ def _raises(fn, kind: str) -> bool:
         fn()
     except ResessionRefusal as e:
         return e.kind == kind
+    return False
+
+
+def _ceiling(fn) -> bool:
+    try:
+        fn()
+    except Refuse as e:
+        return e.reason == "TOKEN_CEILING_BREACH"
     return False
 
 

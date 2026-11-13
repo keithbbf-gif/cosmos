@@ -4,13 +4,17 @@
 
 Two wallets. Express generateContent. NOT AI Studio. NOT gemini.cmd.
 
-Joanna (`gem-api`): `joanna.bbf@gmail.com` — OpenWork GEM. Key via
-VERTEX_API_KEY / vertex_key.txt / vertex.json key_file.
+Default (`gem-api`): `orders.ggn@gmail.com` (console display Kelly
+Gregory) — COSMOS / Crucible $300. Key via VERTEX_API_KEY /
+vertex_coding_key.txt / vertex.json key_file.
 
-Coding (`vertex-coding`): `orders.ggn@gmail.com` (console display Kelly
-Gregory) — COSMOS / Crucible $300. API key (AQ.) via VERTEX_CODING_API_KEY /
-vertex_coding_key.txt / vertex_coding.json key_file. ADC is the fallback,
-not the daemon path. Never print the token.
+DEAD PREDECESSOR: `joanna.bbf@gmail.com` / project-5a33f910-1251-4d6a-bf9
+expired 2026-10-13, key DEAD — never use, never ping, never fall back.
+
+Coding (`vertex-coding`): `orders.ggn@gmail.com` — same wallet, coding
+rail. API key (AQ.) via VERTEX_CODING_API_KEY / vertex_coding_key.txt /
+vertex_coding.json key_file. ADC is the fallback, not the daemon path.
+Never print the token.
 
 Does not modify kernel/ledger/sched/service. No bts_* import.
 
@@ -94,16 +98,18 @@ def default_spec() -> dict:
         "src": "core",
         "dst": "models",
         "endpoint": ENDPOINT,
-        "default_model": DEFAULT_MODEL,
-        "key_name": KEY_NAME,
-        "account": "joanna.bbf@gmail.com",
-        "project": "project-5a33f910-1251-4d6a-bf9",
+        "default_model": CODING_DEFAULT_MODEL,
+        "key_name": CODING_KEY_NAME,
+        "account": "orders.ggn@gmail.com",
+        "project": "project-10b3a132-ec5b-41e9-a2c",
         "location": "global",
         "do_not_activate": True,
         "timeout_s": 120,
         "note": (
-            "Vertex Express. Existing Agent-Platform key. Do not Activate "
-            "the Joanna billing account."
+            "Vertex Express. orders.ggn (Kelly Gregory) $300 coding wallet. "
+            "DEAD PREDECESSOR joanna.bbf@gmail.com / project-5a33f910-1251-4d6a-bf9 "
+            "expired 2026-10-13, key DEAD — never use, never ping, never fall back. "
+            "Do not Activate/Upgrade the billing account."
         ),
     }
 
@@ -147,13 +153,14 @@ def key_path_for(paths, spec: dict | None = None) -> Path:
 def load_coding_spec(paths) -> dict:
     """orders.ggn $300 coding/reasoning rail when `vertex_coding.json` exists.
 
-    Absent file → Joanna fallback (current gem-api). Does not invent a
-    project id. Does not steal Joanna's key.
+    Absent file → orders.ggn default (vertex.json). Joanna is DEAD
+    (expired 2026-10-13) — never a fallback. Does not invent a
+    project id. Does not touch the dead Joanna key.
     """
     cfg = paths.config(CODING_SPEC_NAME)
     if not cfg.is_file():
         spec = load_spec(paths)
-        spec["role"] = "joanna-fallback"
+        spec["role"] = "orders-default"
         return spec
     try:
         raw = json.loads(cfg.read_text(encoding="utf-8"))
@@ -567,8 +574,9 @@ def attach_to_kernel(kernel, adapters: dict | None = None, http=None,
     """Bind the native Express adapter. Does not LINK_REGISTER (gem-api may
     already be claimed by node_rails / bts_gem). Does not generateContent.
 
-    Joanna stays `gem-api`. Optional `vertex-coding` binds only when
-    live/config/vertex_coding.json exists — does not steal Joanna.
+    Default gem-api is orders.ggn. Optional `vertex-coding` binds only when
+    live/config/vertex_coding.json exists — same wallet, coding role.
+    Joanna is DEAD (expired 2026-10-13) — never a fallback, never pinged.
     """
     from cosmos_rail_base import _ledger_is_authority
     if _ledger_is_authority(kernel) and not boot_compose:
@@ -636,19 +644,19 @@ def _selftest() -> int:
     keyp.write_text("vertex-test-key-not-real\n", encoding="utf-8")
     cfg = paths.config(SPEC_NAME)
     cfg.write_text(json.dumps({
-        "account": "joanna.bbf@gmail.com",
-        "project": "project-5a33f910-1251-4d6a-bf9",
+        "account": "orders.ggn@gmail.com",
+        "project": "project-10b3a132-ec5b-41e9-a2c",
         "location": "global",
-        "default_model": "gemini-2.5-flash",
+        "default_model": "gemini-3.8-flash",
         "do_not_activate": True,
     }), encoding="utf-8")
 
     spec = load_spec(paths)
-    check("load_spec pins gem-api + Joanna project",
+    check("load_spec pins gem-api + orders.ggn project",
           lambda: spec["link_id"] == LINK_ID
-          and spec["account"] == "joanna.bbf@gmail.com"
-          and spec["project"] == "project-5a33f910-1251-4d6a-bf9"
-          and spec["default_model"] == "gemini-2.5-flash")
+          and spec["account"] == "orders.ggn@gmail.com"
+          and spec["project"] == "project-10b3a132-ec5b-41e9-a2c"
+          and spec["default_model"] == "gemini-3.8-flash")
     check("key_path is runtime config vertex_key.txt",
           lambda: key_path_for(paths, spec) == keyp)
     from cosmos_kernel import Kernel
@@ -658,11 +666,11 @@ def _selftest() -> int:
           lambda: att.get("link_id") == LINK_ID
           and att.get("adapter") is True
           and getattr(k, "gem_rail", None) is not None)
-    check("no coding spec: vertex_coding_rail falls back to Joanna",
-          lambda: att.get("coding_role") == "joanna-fallback"
+    check("no coding spec: vertex_coding_rail falls back to orders.ggn default",
+          lambda: att.get("coding_role") == "orders-default"
           and getattr(k, "vertex_coding_rail", None) is not None
           and k.vertex_coding_rail.spec.get("project")
-          == "project-5a33f910-1251-4d6a-bf9"
+          == "project-10b3a132-ec5b-41e9-a2c"
           and CODING_LINK_ID not in k.adapters)
     ccfg = paths.config(CODING_SPEC_NAME)
     ccfg.write_text(json.dumps({
@@ -680,11 +688,11 @@ def _selftest() -> int:
     check("coding spec binds vertex-coding without stealing gem-api",
           lambda: att2.get("coding_role") == "coding"
           and k2.adapters[LINK_ID].spec.get("project")
-          == "project-5a33f910-1251-4d6a-bf9"
+          == "project-10b3a132-ec5b-41e9-a2c"
           and k2.adapters[CODING_LINK_ID].spec.get("project")
           == "company-coding-project"
           and k2.vertex_coding_rail.spec.get("role") == "coding")
-    check("coding key is not Joanna's vertex_key.txt",
+    check("coding key is not the dead Joanna vertex_key.txt",
           lambda: key_path_for_coding(paths).name == CODING_KEY_NAME)
 
     calls = []
@@ -889,7 +897,7 @@ def _gate(root: str, *, coding: bool = False) -> int:
         if spec.get("role") != "coding":
             print(json.dumps({
                 "ok": False, "reason": "NO_CODING_SPEC",
-                "detail": "vertex_coding.json missing — refusing to spend Joanna",
+                "detail": "vertex_coding.json missing — refusing to spend the dead Joanna wallet",
             }))
             return 2
         rail = rail_for_coding(paths)
