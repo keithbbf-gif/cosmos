@@ -1,0 +1,16 @@
+{
+ "runner": "_summon_or_hero.py",
+ "model_requested": "deepseek/deepseek-v4-flash-0731",
+ "system_sha": "6f2052e2f9135e58",
+ "system_is_wrap": true,
+ "style_in_system": false,
+ "skill_in_system": false,
+ "user_sha": "a7efaeb01731e332",
+ "user_is_task": true,
+ "tools_offered": [
+  "write"
+ ],
+ "forbid_offered": [],
+ "writes_serial": true,
+ "call_order": "system=WRAP, user=TASK, tools, then tool-result loop"
+}

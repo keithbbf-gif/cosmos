@@ -1,0 +1,2 @@
+{"step": 1, "http": null, "n_tools": 0, "detail": "not a pinned OpenRouter id 'deepseek/deepseek-v4-flash'; want ['bytedance-seed/seed-2-1-turbo', 'bytedance-seed/seed-2.0-code', 'bytedance-seed/seed-2.0-mini', 'cohere/north-mini-c"}
+{"step": 1, "http": 200, "n_tools": 0, "detail": "http=200 response_model='deepseek/deepseek-v4-flash-0731'"}

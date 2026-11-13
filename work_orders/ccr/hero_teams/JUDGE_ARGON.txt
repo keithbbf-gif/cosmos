@@ -1,0 +1,39 @@
+TEAM grok-4-7
+RAW 9
+MOBILE 10
+DESIGN 9
+ORCH 10
+ERROR None observed in the game batch or the earlier match-3 probe.
+SCAR clean-sweep
+SOP Route directly through the in-session hero pack and bypass the external grok.exe wrapper.
+NOTE Delivered all twenty-five thumb-specific games with strong near-miss hooks and nailed the disconnected-neighbor bug in the probe.
+
+TEAM gemini-4-argon
+RAW 8
+MOBILE 8
+DESIGN 7
+ORCH 8
+ERROR The model hallucinated that an L-shape is a legal match during the match-3 probe and needed a second wrap to emit the JavaScript.
+SCAR l-shape-wrap
+SOP Enforce strict grid-adjacency validation in logic probes and require raw code output on the initial pass.
+NOTE Completed the full twenty-five game batch plus the gap fill, though the game hooks leaned generic compared to the top finisher.
+
+TEAM muse-spark-1-3-contributor
+RAW 5
+MOBILE 7
+DESIGN 7
+ORCH 4
+ERROR The OpenRouter rail truncated the output at 4000 tokens, causing the model to degrade into a prose tail instead of finishing the last five games.
+SCAR rail-4000-prose
+SOP Raise the max token ceiling above 4000 on OpenRouter and strip all conversational preambles and tails.
+NOTE Produced good hooks across twenty games, but failed the obedience check by leaking a preamble in the probe and prose at the truncation boundary.
+
+TEAM glm-5-3-flash
+RAW 4
+MOBILE 7
+DESIGN 7
+ORCH 3
+ERROR The model hit the 4000-token rail and spent its tail arguing rather than coding, after failing to reach HTTP until the path sentinel pointed to the live root.
+SCAR sentinel-rail-arguer
+SOP Bind the path sentinel directly to the live root prior to invocation and enforce hard code-only stop sequences past 4000 tokens.
+NOTE Delivered twenty games with solid hooks, but lost five games to token truncation and wasted output tokens arguing with the prompt constraints.

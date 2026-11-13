@@ -1,0 +1,12 @@
+{
+  "name": "LMNator Arcade",
+  "short_name": "LMNator",
+  "start_url": "/arcade.html",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#070B14",
+  "theme_color": "#070B14",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

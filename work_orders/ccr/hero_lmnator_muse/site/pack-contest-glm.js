@@ -1,0 +1,22 @@
+window.LMN_PACK = window.LMN_PACK || [];
+window.LMN_PACK.push(
+{id:"c76",title:"Gems of the Deep",inspired:"Candy Crush Saga",players:"multi",engine:"match3",better:"Match glowing sea gems to trigger cascading combo waves that chain for extra points.",goal:8,speed:2,lives:3},
+{id:"c77",title:"Balloon Bonanza",inspired:"Toon Blast",players:"multi",engine:"blast",better:"Tap linked balloon clusters to pop huge combos and set off rocket party surprises.",goal:8,speed:2,lives:3},
+{id:"c78",title:"Skyline Sprint",inspired:"Subway Surfers",players:"multi",engine:"runner",better:"Swipe between rooftops to dodge drones and grab magnet powerups mid-leap.",goal:16,speed:3,lives:3},
+{id:"c79",title:"Tower Rise",inspired:"Stack",players:"multi",engine:"stack",better:"Time each tap to stack moving blocks perfectly and grow a wobbling skyscraper.",goal:8,speed:2,lives:3},
+{id:"c80",title:"Orbit Merge",inspired:"2048",players:"multi",engine:"merge",better:"Slide planet tiles together to merge orbiting worlds and keep the board from locking.",goal:5,speed:1,lives:3},
+{id:"c81",title:"Pet Card Flip",inspired:"Peek-a-Boo memory apps",players:"multi",engine:"memory",better:"Flip cards to remember bouncing pets and match pairs before the timer purrs out.",goal:6,speed:1,lives:3},
+{id:"c82",title:"Neon Serpent",inspired:"Snake",players:"multi",engine:"snake",better:"Steer a glowing snake through tight mazes to gulp pellets without biting your tail.",goal:8,speed:2,lives:3},
+{id:"c83",title:"Brick Blitz",inspired:"Ballz",players:"multi",engine:"breakout",better:"Angle bouncing orbs to smash numbered brick walls that grow every round.",goal:18,speed:3,lives:3},
+{id:"c84",title:"Mole Mash Mayhem",inspired:"Whack-a-Mole arcade",players:"multi",engine:"whack",better:"Smash popping moles fast but spare the golden ones for bonus multipliers.",goal:8,speed:3,lives:3},
+{id:"c85",title:"Slide Out Jail",inspired:"Unblock Me",players:"multi",engine:"slide",better:"Slide jammed blocks out of the way to free the trapped hero in one clean path.",goal:1,speed:1,lives:3},
+{id:"c86",title:"Word Drop Daily",inspired:"Wordle",players:"multi",engine:"word",better:"Guess the secret word in the fewest tries and celebrate the green grid reveal.",goal:1,speed:1,lives:3},
+{id:"c87",title:"Idle Gnome Forge",inspired:"AdVenture Capitalist",players:"multi",engine:"idle",better:"Hire tiny gnomes to hammer gold even while you watch the profits snowball.",goal:40,speed:1,lives:3},
+{id:"c88",title:"Lucky Stacks",inspired:"Solitaire",players:"multi",engine:"cards",better:"Chain alternating card runs to uncover hidden aces and clear the deck in one streak.",goal:5,speed:1,lives:3},
+{id:"c89",title:"Frog Hop Fever",inspired:"Crossy Road",players:"multi",engine:"lane",better:"Hop across endless traffic lanes and time logs on rivers for perfect crossings.",goal:12,speed:3,lives:3},
+{id:"c90",title:"Dice Duel Dash",inspired:"Ludo King",players:"multi",engine:"board",better:"Roll dice to race your tokens home while bumping rivals back to start.",goal:10,speed:2,lives:3},
+{id:"c91",title:"Beat Pulse",inspired:"Beatstar",players:"multi",engine:"rhythm",better:"Tap tiles perfectly on the beat to build a combo that shakes the screen.",goal:8,speed:2,lives:3},
+{id:"c92",title:"Tiny Sprout Farm",inspired:"Hay Day",players:"multi",engine:"farm",better:"Plant quick crops and harvest before the sun sets to stock the market stall.",goal:4,speed:1,lives:3},
+{id:"c93",title:"Quiz Quake",inspired:"Trivia Crack",players:"multi",engine:"quiz",better:"Answer lightning trivia across categories and trigger a quake bonus on streaks.",goal:5,speed:2,lives:3},
+{id:"c94",title:"Jewel Reef Rush",inspired:"Bejeweled",players:"multi",engine:"match3",better:"Swap colorful reef jewels to spark dazzling star-gem explosions.",goal:8,speed:2,lives:3}
+);

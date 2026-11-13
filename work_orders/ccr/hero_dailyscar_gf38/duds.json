@@ -1,0 +1,23 @@
+{
+  "legend": {
+    "role": "CODER",
+    "model": "gemini-3.8-flash",
+    "harness_via": "vertex-coding medicineman VertexAIRail",
+    "wrapper": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\hero_dailyscar_gf38\\WRAP.md",
+    "skills": ["none extra"],
+    "tools": {
+      "allow": ["none"],
+      "forbid": ["grok.exe", "git push", "merge", "USPTO"]
+    },
+    "enviro": {
+      "cwd": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\hero_dailyscar_gf38",
+      "ctx": ["V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\hero_dailyscar\\DIGEST.md"],
+      "what": "text",
+      "optimum": "float",
+      "account": "medicineman.mme@gmail.com"
+    }
+  },
+  "mission": {
+    "item": "Write twelve public DailyScar cards from the redacted digest. No secrets."
+  }
+}

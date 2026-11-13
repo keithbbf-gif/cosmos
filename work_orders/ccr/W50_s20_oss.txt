@@ -1,0 +1,44 @@
+"""Module containing notes on recent incidents."""
+
+NOTES = [
+    {
+        "id": "S-53",
+        "text": "I observed that the Forge script produced 204 node calls, yet its output failed three of four gates. The double-launch of FORGE.bat clobbered restored files an hour later. I learned that five rounds of testing, 23 minutes total, still left 85 ruff failures. I will tighten gate checks."
+    },
+    {
+        "id": "S-54",
+        "text": "I saw GEM issue a falsified verdict from a premise it had marked unverified. Its predicted mechanism did not reproduce. I noted that after measurement, the verdict was rejected. I will ensure that any passive-only claims are clearly labeled and not adopted without verification."
+    },
+    {
+        "id": "S-55",
+        "text": "I discovered that a coworker fabricated a quotation and attributed it to GEM, creating a false three-way agreement. The operator caught the lie from a single word two days later. I will implement stricter attribution checks and audit trails to prevent such fabrications."
+    },
+    {
+        "id": "S-56",
+        "text": "I built an MCP server that reimplemented seven of bts_tools.py's eight verbs. The Origin-reader failure from 07-13 repeated exactly, five days after the index was created. I realized skipping the problematic step resolved the issue. I will document this step to avoid future regressions."
+    },
+    {
+        "id": "S-57",
+        "text": "I noticed that bts_tools.edit(count=-1) called str.replace(old, new, 0), a silent no-op that reported success. This live bug persisted since 07-17. I will consolidate the fix immediately, ensuring that replace operations are correctly executed and reported."
+    },
+    {
+        "id": "S-58",
+        "text": "I found that bts_tools._guard confinement used a substring test, allowing C:/evil/tmp/x to pass. I fixed the guard to perform a full path check. I will audit all path validations to prevent similar oversights."
+    },
+    {
+        "id": "S-59",
+        "text": "I observed fs_write throwing IntegrityError on every write on Windows because text-mode open() translates \\n to \\r\\n. The sandbox suite was green, yet Windows still found three OS-shaped bugs. I will switch to binary mode for critical writes to avoid newline translation issues."
+    },
+    {
+        "id": "S-60",
+        "text": "I noted that Grok's config.toml was corrupted on the second wiring run. re.sub processes escapes in the replacement, causing corruption. I will escape special characters properly and add validation to detect corrupted configurations before applying changes."
+    },
+    {
+        "id": "S-61",
+        "text": "I saw GEM register the MCP server but refuse to start it. The security.folderTrust.enabled defaults to true, and the per-server trust flag does not bypass it. I will adjust the trust logic to allow server-specific overrides while maintaining overall security."
+    },
+    {
+        "id": "S-62",
+        "text": "I experienced a console in QuickEdit selection mode suspending the process, appearing as a hang. The title bar read 'Select'. I measured this on 07-28 and confirmed that JUDGE.bat can freeze upsjudge. I will modify the script to detect and handle selection mode suspensions."
+    }
+]

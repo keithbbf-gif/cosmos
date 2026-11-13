@@ -1,0 +1,5 @@
+window.LMN_PACK = window.LMN_PACK || [];
+window.LMN_PACK.push({id:"c331",title:"Jewel Forge",inspired:"Bejeweled Blitz",players:"single",engine:"match3",better:"A fifth ruby dropped right as the timer ran out, leaving a massive combo unpopped.",goal:8,speed:1,lives:3});
+window.LMN_PACK.push({id:"c332",title:"Jungle Dash",inspired:"Temple Run",players:"single",engine:"runner",better:"The heel clipped the last root right before the clear stone path opened up.",goal:16,speed:1,lives:3});
+window.LMN_PACK.push({id:"c333",title:"Skyline Balance",inspired:"Tower Bloxx",players:"single",engine:"stack",better:"The top penthouse block teetered on the edge and slid off a fraction of a second before locking.",goal:8,speed:1,lives:3});
+window.LMN_PACK.push({id:"c334",title:"Critter Bonk",inspired:"Whac-A-Mole",players:"single",engine:"whack",better:"The golden badger ducked back into the hole a millisecond before the mallet landed.",goal:8,speed:1,lives:3});

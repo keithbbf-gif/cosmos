@@ -1,0 +1,40 @@
+window.LMN_PACK = window.LMN_PACK || [];
+window.LMN_PACK.push(The user wants me to continue JavaScript code. They're building an array of objects pushed to `window.LMN_PACK`. The keys allowed are: id, title, inspired, players, engine, better, goal, speed, lives.
+
+Four objects with ids: c319, c320, c321, c322.
+- players: multi (multiplayer)
+- engines: blast, stack, merge, snake (one each, presumably in order)
+- goals: 8, 8, 5, 8 (one each in order)
+- speed: 2 (all)
+- lives: 3 (all)
+- better: "a near-miss" — better describes what makes it better? Probably "better" is a short description. "better is a near-miss" — maybe the value is something like "a near-miss" for each? Or "better" field describes... Hmm. Likely the "better" key value should be "a near-miss" — perhaps meaning each game is better than the inspiration because it's "a near-miss"? Let me interpret: better: "a near-miss" as the value.
+
+Also "No price" — there's no price key anyway since keys are limited. So just don't include price.
+
+Title and inspired: inspired presumably references a classic game the engine resembles. blast → maybe "Bomberman" or "Missile Command"? blast stack merge snake are engines — like game mechanics. Each object needs a title and an "inspired" source. I need to invent titles and inspiration games matching engines:
+
+- blast engine: inspired by "Bomberman" (blasts). Title maybe "Blast Alley".
+- stack engine: inspired by "Tetris" or "Stacker". Title "Stack Rush".
+- merge engine: inspired by "2048" or "Threes". Title "Merge Mates".
+- snake engine: inspired by "Snake". Title "Snake Pit".
+
+Players multi for all. Goal 8 for c319, 8 for c320, 5 for c321, 8 for c322. Speed 2, lives 3 for all.
+
+Format: The code continues with the four objects. Should be valid JS:
+
+```js
+window.LMN_PACK = window.LMN_PACK || [];
+window.LMN_PACK.push(
+  { id: "c319", title: "Blast Alley", inspired: "Bomberman", players: "multi", engine: "blast", better: "a near-miss", goal: 8, speed: 2, lives: 3 },
+  ...
+);
+```
+
+The user said "Do not explain." So output only code. Also "No price" — maybe LMN_PACK normally has a price field; instructed not to include it.
+
+Goal numbers — goals 8 8 5 8 map in order to c319 c320 c321 c322.
+
+Better: "a near-miss" — I'll use exactly "a near-miss" for each? "better is a near-miss" — singular statement. Yes, apply to all four.
+
+Invent titles: keep short. c319 blast: "Blast Yard" inspired "Bomberman". c320 stack: "Stack Siege" inspired "Tetris". c321 merge: "Merge Mat" inspired "2048". c322
+);

@@ -1,0 +1,242 @@
+[
+  {
+    "slug": "02-google-forum",
+    "role": "GOOGLE-FORUM",
+    "ok": true,
+    "status": 200,
+    "tokens": {
+      "in": 313,
+      "out": 285,
+      "cached": 0
+    },
+    "model": "gemini-3.8-flash"
+  },
+  {
+    "slug": "05-openai-sessions",
+    "role": "OPENAI-SESSIONS",
+    "ok": true,
+    "status": 200,
+    "tokens": {
+      "in": 339,
+      "out": 407,
+      "cached": 0
+    },
+    "model": "gemini-3.8-flash"
+  },
+  {
+    "slug": "03-google-release",
+    "role": "GOOGLE-RELEASE",
+    "ok": true,
+    "status": 200,
+    "tokens": {
+      "in": 297,
+      "out": 214,
+      "cached": 0
+    },
+    "model": "gemini-3.8-flash"
+  },
+  {
+    "slug": "01-google-caching",
+    "role": "GOOGLE-DOCS",
+    "ok": true,
+    "status": 200,
+    "tokens": {
+      "in": 380,
+      "out": 464,
+      "cached": 0
+    },
+    "model": "gemini-3.8-flash"
+  },
+  {
+    "slug": "07-anthropic-memory-tool",
+    "role": "ANTHROPIC-MEMORY",
+    "ok": true,
+    "status": 200,
+    "tokens": {
+      "in": 387,
+      "out": 276,
+      "cached": 0
+    },
+    "model": "gemini-3.8-flash"
+  },
+  {
+    "slug": "09-anthropic-hooks",
+    "role": "ANTHROPIC-HOOKS",
+    "ok": true,
+    "status": 200,
+    "tokens": {
+      "in": 335,
+      "out": 353,
+      "cached": 0
+    },
+    "model": "gemini-3.8-flash"
+  },
+  {
+    "slug": "04-openai-sandbox-memory",
+    "role": "OPENAI-DOCS",
+    "ok": true,
+    "status": 200,
+    "tokens": {
+      "in": 364,
+      "out": 351,
+      "cached": 0
+    },
+    "model": "gemini-3.8-flash"
+  },
+  {
+    "slug": "08-anthropic-claude-md",
+    "role": "ANTHROPIC-CLAUDE-MD",
+    "ok": true,
+    "status": 200,
+    "tokens": {
+      "in": 362,
+      "out": 419,
+      "cached": 0
+    },
+    "model": "gemini-3.8-flash"
+  },
+  {
+    "slug": "06-openai-release",
+    "role": "OPENAI-RELEASE",
+    "ok": true,
+    "status": 200,
+    "tokens": {
+      "in": 335,
+      "out": 333,
+      "cached": 0
+    },
+    "model": "gemini-3.8-flash"
+  },
+  {
+    "slug": "10-github-crystal-memory",
+    "role": "GITHUB-CRYSTAL-MEMORY",
+    "ok": true,
+    "status": 200,
+    "tokens": {
+      "in": 386,
+      "out": 343,
+      "cached": 0
+    },
+    "model": "gemini-3.8-flash"
+  },
+  {
+    "slug": "11-github-agent-crystallize",
+    "role": "GITHUB-AGENT-CRYSTALLIZE",
+    "ok": true,
+    "status": 200,
+    "tokens": {
+      "in": 380,
+      "out": 364,
+      "cached": 0
+    },
+    "model": "gemini-3.8-flash"
+  },
+  {
+    "slug": "13-arxiv-mindset",
+    "role": "ARXIV-MINDSET",
+    "ok": true,
+    "status": 200,
+    "tokens": {
+      "in": 445,
+      "out": 463,
+      "cached": 0
+    },
+    "model": "gemini-3.8-flash"
+  },
+  {
+    "slug": "12-github-context-crystal",
+    "role": "GITHUB-CONTEXT-CRYSTAL",
+    "ok": true,
+    "status": 200,
+    "tokens": {
+      "in": 369,
+      "out": 392,
+      "cached": 0
+    },
+    "model": "gemini-3.8-flash"
+  },
+  {
+    "slug": "16-arxiv-nurture",
+    "role": "ARXIV-NURTURE",
+    "ok": true,
+    "status": 200,
+    "tokens": {
+      "in": 367,
+      "out": 425,
+      "cached": 0
+    },
+    "model": "gemini-3.8-flash"
+  },
+  {
+    "slug": "14-arxiv-crystalmem",
+    "role": "ARXIV-CRYSTALMEM",
+    "ok": true,
+    "status": 200,
+    "tokens": {
+      "in": 420,
+      "out": 451,
+      "cached": 0
+    },
+    "model": "gemini-3.8-flash"
+  },
+  {
+    "slug": "17-elsewhere-supermemory",
+    "role": "ELSEWHERE-SUPERMEMORY",
+    "ok": true,
+    "status": 200,
+    "tokens": {
+      "in": 325,
+      "out": 355,
+      "cached": 0
+    },
+    "model": "gemini-3.8-flash"
+  },
+  {
+    "slug": "19-xai-unmeasured",
+    "role": "XAI-GROK",
+    "ok": true,
+    "status": 200,
+    "tokens": {
+      "in": 300,
+      "out": 162,
+      "cached": 0
+    },
+    "model": "gemini-3.8-flash"
+  },
+  {
+    "slug": "18-elsewhere-agentos",
+    "role": "ELSEWHERE-AGENTOS",
+    "ok": true,
+    "status": 200,
+    "tokens": {
+      "in": 318,
+      "out": 273,
+      "cached": 0
+    },
+    "model": "gemini-3.8-flash"
+  },
+  {
+    "slug": "20-muse-unmeasured",
+    "role": "MUSE",
+    "ok": true,
+    "status": 200,
+    "tokens": {
+      "in": 284,
+      "out": 259,
+      "cached": 0
+    },
+    "model": "gemini-3.8-flash"
+  },
+  {
+    "slug": "15-arxiv-progressive",
+    "role": "ARXIV-PROGRESSIVE",
+    "ok": true,
+    "status": 200,
+    "tokens": {
+      "in": 388,
+      "out": 510,
+      "cached": 0
+    },
+    "model": "gemini-3.8-flash"
+  }
+]

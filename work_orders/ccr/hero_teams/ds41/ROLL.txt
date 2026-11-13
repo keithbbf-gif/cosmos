@@ -1,0 +1,38 @@
+Here's a plan to fulfill the request:
+1.  **Analyze the constraints:**
+    *   The entire output must be JavaScript.
+    *   The output must start with `window.LMN_PACK = window.LMN_PACK || [];`.
+    *   Objects detailing the mission must be pushed into `window.LMN_PACK`.
+    *   Target IDs: `c167` through `c174` (8 IDs total).
+    *   Player count: Single.
+    *   Engines used (in order): `match3`, `blast`, `runner`, `stack`, `merge`, `memory`, `snake`, `breakout`. (8 engines - matches the number of IDs).
+    *   Goals: A long list of specific goalsWe need answer only JavaScript. Need emit ids c167 through c174. "players single" likely object fields. Use engines in order: match3, blast, runner, stack, merge, memory, snake, breakout. One each. Need construct objects for LMN_PACK. Need infer expected schema? This is a mission likely from benchmark where we generate game pack entries. Need know previous format? User says "Emit ids c167 through c174. players single. Use these engines in order..." Likely each object has id, title, engine, goal, players, speed, lives, inspiredBy, nearMiss? Need include "title original. inspired a real mobile game. better one sentence about a near-miss." Need no price/buying/tokens. Need not call tools. Need produce JS array push objects.
+
+We need decide exact object properties. Maybe from "LMN_PACK" game pack. There might be known schema. Let's think. These tasks likely request generating "game pack" with ids c### and fields: id, title, engine, goal, players, speed, lives, inspiredBy, twist? The phrasing "Goals: match3 8, blast 8, ... speed 1 or 2. lives 3. title original. inspired a real mobile game. better one sentence about a near-miss." So each game object likely contains:
+{
+ id: "c167",
+ title: "...",
+ engine: "match3",
+ goal: 8,
+ players: "single",
+ speed: 2,
+ lives: 3,
+ inspiredBy: "Candy Crush Saga",
+ nearMiss: "..."
+}
+Maybe property names exactly? "inspired a real mobile game" maybe "inspiredBy"; "better one sentence about a near-miss" maybe "nearMiss". Need ensure all goals correspond. There are 18 goals listed but only 8 engines? Wait goals list: match3 8, blast 8, runner 16, stack 8, merge 5, memory 6, snake 8, breakout 18, whack 8, slide 1, word 1, idle 40, cards 5, lane 12, board 10, rhythm 8, farm 4, quiz 5. But engines order only eight: match3, blast, runner, stack, merge, memory, snake, breakout. One each. Why extra goals for whack slide word idle cards lane board rhythm farm quiz? Maybe "Goals" includes all possible engine goal mapping but we only use first eight? Or maybe each object needs goal from corresponding engine and also include "goals" array? Hmm.
+
+"Emit ids c167 through c174. players single. Use these engines in order: match3, blast, runner, stack, merge, memory, snake, breakout. One each.
+Goals: match3 8, blast 8, runner 16, stack 8, merge 5, memory 6, snake 8, breakout 18, whack 8, slide 1, word 1, idle 40, cards 5, lane 12, board 10, rhythm 8, farm 4, quiz 5. speed 1 or 2. lives 3."
+
+Maybe need create 8 games using first 8 engines and set goals for those engines. The rest goals just mapping info? Could be they expect "goal" based on engine map. We use match3 goal 8 etc. Each object "goal": number. "players": "single" maybe field "players": 1? "single" explicit. "speed": 1 or 2. "lives": 3. Need titles original and inspired by real mobile games. Near-miss sentence.
+
+Need output valid JS. "window.LMN_PACK = window.LMN_PACK || []; window.LMN_PACK.push( the objects in the mission );" So we should produce exactly:
+window.LMN_PACK = window.LMN_PACK || [];
+window.LMN_PACK.push(
+  {...},
+ ...
+);
+No prose. Ensure JavaScript syntax valid. Could include trailing commas? Fine. Need no comments? Probably okay but no prose. Let's craft.
+
+Need "title original" means title not copying real game. "inspired a real mobile game" likely "inspiredBy" real title. "better one sentence about a near-miss." A near-miss: perhaps "A near-miss: ..." one sentence. Need not mention price. No tokens

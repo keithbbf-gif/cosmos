@@ -1,0 +1,94 @@
+/* Solaro Labs tokens v1 (WebDsnR, 2026-10-18). Dark-first. px only (house rule), no rem.
+   Contrast = WCAG 2.x, computed with contrast_calc.py in this folder. Floors: 4.5:1 text, 3:1 large text (>=24px or >=18.66px bold) and UI edges.
+   Inter is already loaded by the live site; the stack falls back to system UI fonts with no layout surprises. */
+:root{
+  color-scheme: dark;
+
+  /* ---- Base: ink (deep navy) ---- */
+  --ink-950:#070B14;   /* page canvas */
+  --ink-900:#0B1220;   /* section alt, glass solid fallback */
+  --ink-800:#121B2E;   /* cards */
+  --ink-700:#1B2742;   /* raised / hover */
+  --ink-600:#26345A;   /* decorative dividers only: 1.61:1 on ink-950, below the 3:1 UI floor */
+
+  /* ---- Text on dark ---- */
+  --text-1:#F6F2EA;    /* headings, body   17.63 ink-950 | 16.77 ink-900 | 15.39 ink-800 | 13.29 ink-700 */
+  --text-2:#C8CFDB;    /* body secondary   12.56 | 11.95 | 10.97 | 9.47 */
+  --text-3:#9BA6B8;    /* meta, captions    8.00 |  7.61 |  6.99 | 6.03  (replaces #64748b, which measured 3.99:1) */
+
+  /* ---- Solar accent (warm) ---- */
+  --solar-400:#FFB52E; /* primary accent, CTA fill, links   11.15 ink-950 | 9.74 ink-800 */
+  --solar-500:#F59E0B; /* hover/pressed CTA                  9.16 ink-950 | 8.00 ink-800 */
+  --flare-400:#FF8A57; /* secondary warm, sparingly          8.46 ink-950 | 7.39 ink-800 */
+  --on-solar:#070B14;  /* text on solar-400 = 11.15:1; on solar-500 = 9.16:1. Never white on amber (1.76:1). */
+
+  /* ---- Cool secondary ---- */
+  --sky-400:#5CC8FF;   /* code, data, focus ring, orbit     10.46 ink-950 | 9.13 ink-800 */
+
+  /* ---- Light surface (docs print, light logo) ---- */
+  --paper:#FBF8F2;
+  --ink-on-paper:#121B2E; /* 16.21 on paper */
+  --solar-800:#8A4F00;    /*  6.19 on paper (amber text on light) */
+  --sky-800:#075985;      /*  7.13 on paper */
+  --slate-600:#4F5A6B;    /*  6.59 on paper */
+
+  /* ---- Status (text-safe on ink-800) ---- */
+  --ok:#4ADE80; --warn:var(--solar-400); --err:#FF7A7A;
+
+  /* ---- Type (px; floors: body 18, labels 16, buttons 18) ---- */
+  --font-sans:"Inter",ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  --font-mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  --fs-label:16px;   --lh-label:24px;   /* kicker, nav, chips, meta: never below 16 */
+  --fs-body:18px;    --lh-body:30px;    /* paragraphs, card text */
+  --fs-lead:20px;    --lh-lead:32px;    /* hero promise, section intro */
+  --fs-btn:18px;     --lh-btn:24px;
+  --fs-code:16px;    --lh-code:26px;
+  --fs-h4:22px;      --lh-h4:30px;      /* card titles */
+  --fs-h3:26px;      --lh-h3:34px;
+  --fs-h2:clamp(30px, 4vw, 40px);       --lh-h2:1.15;
+  --fs-h1:clamp(38px, 6.2vw, 64px);     --lh-h1:1.05;   /* 360 -> 38px, 1280 -> 64px */
+  --fw-regular:400; --fw-medium:500; --fw-semibold:600; --fw-bold:700;
+  --track-tight:-0.02em; --track-label:0.04em;
+  --measure:68ch;
+
+  /* ---- Spacing (4px base) ---- */
+  --sp-1:4px; --sp-2:8px; --sp-3:12px; --sp-4:16px; --sp-5:24px; --sp-6:32px; --sp-7:48px; --sp-8:64px; --sp-9:96px; --sp-10:128px;
+  --gutter:20px;            /* mobile page gutter; 32px from 768 up */
+  --container:1160px;
+  --section-y:64px;         /* 96px from 1024 up */
+
+  /* ---- Radii ---- */
+  --r-sm:8px; --r-md:12px; --r-lg:16px; --r-xl:24px; --r-pill:999px;
+
+  /* ---- Borders / shadows ---- */
+  --line:rgba(246,242,234,.10);
+  --line-strong:rgba(246,242,234,.18);
+  --shadow-1:0 1px 2px rgba(0,0,0,.4);
+  --shadow-2:0 12px 32px -12px rgba(0,0,0,.6);
+  --shadow-3:0 28px 64px -24px rgba(0,0,0,.7);
+  --focus:0 0 0 3px var(--ink-950),0 0 0 5px var(--sky-400);
+
+  /* ---- Glass (one panel per view, max) ---- */
+  --glass-bg:rgba(11,18,32,.66);          /* over aurora: measured text-1 >= 12:1, text-2 >= 8:1 at worst pixel (see DESIGN_REVIEW) */
+  --glass-bg-solid:rgba(11,18,32,.94);    /* @supports fallback, no backdrop-filter */
+  --glass-blur:16px;
+  --glass-sat:140%;
+  --glass-edge:rgba(246,242,234,.14);
+  --glass-hi:inset 0 1px 0 rgba(246,242,234,.08);
+
+  /* ---- Aurora (hero only; low alpha so text never depends on it) ---- */
+  --aurora-1:rgba(255,181,46,.30);  /* solar */
+  --aurora-2:rgba(255,138,87,.20);  /* flare */
+  --aurora-3:rgba(92,200,255,.18);  /* sky */
+
+  /* ---- Motion ---- */
+  --ease-out:cubic-bezier(.2,.7,.2,1);
+  --dur-1:150ms; --dur-2:250ms; --dur-drift:40s;
+  --parallax-1:0.05; --parallax-2:0.10; --parallax-3:0.15;  /* scroll factors, max 3 layers */
+
+  /* ---- Tap ---- */
+  --tap:44px;
+}
+@media (min-width:768px){:root{--gutter:32px}}
+@media (min-width:1024px){:root{--section-y:96px}}
+@media (prefers-reduced-motion:reduce){:root{--dur-1:0ms;--dur-2:0ms;--parallax-1:0;--parallax-2:0;--parallax-3:0}}

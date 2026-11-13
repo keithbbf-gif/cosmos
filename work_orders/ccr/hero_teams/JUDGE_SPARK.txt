@@ -1,0 +1,1 @@
+Parsing judge rubric and formatting four team score blocks under strict output constraints.Assigning 0-10 scores to four teams using the rubric and formatting the blocks.

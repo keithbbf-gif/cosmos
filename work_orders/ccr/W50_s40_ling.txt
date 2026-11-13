@@ -1,0 +1,24 @@
+The user wants me to emit a single Python module. The first line must be a docstring. Then NOTES, a list of exactly these ids in order (S-73 through S-83, skipping S-82 which isn't listed). Each item is a dict with keys "id" and "text". The text must be 45-65 words, first person, anonymous. No name, path, email, or fact not in the line. I need to be careful about word counts.
+
+Let me draft each one:
+
+S-73: "I watched the operator's screen get captured roughly thirty times across two days, each test run costing ninety-five seconds in round-trip latency while he was actively working. I have restated Rule 2 as a hard boundary: no Run dialog, no computer-use launches, no cmd /k." 
+Let me count: I(1) watched(2) the(3) operator's(4) screen(5) get(6) captured(7) roughly(8) thirty(9) times(10) across(11) two(12) days(13) each(14) test(15) run(16) costing(17) ninety-five(18) seconds(19) in(20) round-trip(21) latency(22) while(23) he(24) was(25) actively(26) working(27) I(28) have(29) restated(30) Rule(31) 2(32) as(33) a(34) hard(35) boundary(36) no(37) Run(38) dialog(39) no(40) computer-use(41) launches(42) no(43) cmd(44) /k(45). That's 45. Good.
+
+S-74: "I saw the R2 publish consume sixteen minutes transferring zero bytes, eight-seven rclone invocations totaling nine-seventy-point-three seconds. The log answered why R2 was slow with a number, and that number was sixteen minutes to move nothing at all."
+Count: I(1) saw(2) the(3) R2(4) publish(5) consume(6) sixteen(7) minutes(8) transferring(9) zero(10) bytes(11) eight-seven(12) rclone(13) invocations(14) totaling(15) nine-seventy-point-three(16) seconds(17) The(18) log(19) answered(20) why(21) R2(22) was(23) slow(24) with(25) a(26) number(27) and(28) that(29) number(30) was(31) sixteen(32) minutes(33) to(34) move(35) nothing(36) at(37) all(38). That's 38. Need more.
+
+Let me redo: "I watched the R2 publish consume sixteen minutes transferring zero bytes across eighty-seven rclone invocations, nine-seventy-point-three seconds of total wall time. The log answered why R2 was slow with a single number, and that number was sixteen minutes to move absolutely nothing."
+Count: I(1) watched(2) the(3) R2(4) publish(5) consume(6) sixteen(7) minutes(8) transferring(9) zero(10) bytes(11) across(12) eighty-seven(13) rclone(14) invocations(15) nine-seventy-point-three(16) seconds(17) of(18) total(19) wall(20) time(21) The(22) log(23) answered(24) why(25) R2(26) was(27) slow(28) with(29) a(30) single(31) number(32) and(33) that(34) number(35) was(36) sixteen(37) minutes(38) to(39) move(40) absolutely(41) nothing(42). 42. Still short.
+
+"I watched the R2 publish consume sixteen minutes transferring zero bytes across eighty-seven rclone invocations, nine-seventy-point-three seconds of total wall time. The log answered why R2 was slow with a single number, and that number was sixteen minutes to move absolutely nothing at all."
+Add "at all" = 44. Still short.
+
+"I watched the R2 publish consume sixteen minutes transferring zero bytes across eighty-seven rclone invocations, nine-seventy-point-three seconds of total wall time. The log answered why R2 was slow with a single number, and that number was sixteen minutes to move absolutely nothing at all today."
+45. Good.
+
+S-75: "I discovered there are two zero-zero working directories, and my bats write to the unpublished one, meaning four reports reached nobody. This is a real failure I need to fix immediately."
+Count: I(1) discovered(2) there(3) are(4) two(5) zero-zero(6) working(7) directories(8) and(9) my(10) bats(11) write(12) to(13) the(14) unpublished(15) one(16) meaning(17) four(18) reports(19) reached(20) nobody(21) This(22) is(23) a(24) real(25) failure(26) I(27) need(28) to(29) fix(30) immediately(31). 31. Too short.
+
+"I discovered there are two zero-zero working directories on this system, and my bats write to the unpublished one, meaning four reports reached nobody at all. This is a real failure I need to fix immediately today."
+I(1) discovered(2) ther

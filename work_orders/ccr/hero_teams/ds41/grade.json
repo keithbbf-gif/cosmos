@@ -1,0 +1,16 @@
+{
+ "applied": false,
+ "layers": {
+  "l1_role": false,
+  "l2_model": true,
+  "l3_harness": true,
+  "l4_wrapper": true,
+  "l5_skills": true,
+  "l6_tools": false,
+  "l7_enviro": true,
+  "l8_mission": false
+ },
+ "first_line": "Here's a thinking process that leads to the desired output:",
+ "model_returned": "deepseek/deepseek-v4.1-flash-1017",
+ "note": "applied is the bound call plus a reply that obeyed it. HTTP ok is not this."
+}

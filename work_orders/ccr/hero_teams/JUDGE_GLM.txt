@@ -1,0 +1,26 @@
+We're a HERO judge from Z.ai family. Need to grade four teams with the given format: four blocks only, each with TEAM, RAW, MOBILE, DESIGN, ORCH, ERROR, SCAR, SOP, NOTE. First line is TEAM.
+
+The contest: 25 phone games, small goals, fun hook, no price talk. Graded on whether a person would tap again.
+
+Data given:
+
+- Grok 4.7: in-session hero pack, not grok.exe — delivered c26–c50, 25/25. Fun: near-miss restarts, thumb-specific. Obedience: wrote the file. Grade 5.
+- Gemini 4 Argon: mme Vertex gemini-4-argon — c01–c25, 25/25, plus the gap fill. Fun: playable, a bit more generic. Obedience: JS on the second wrap. Grade 4.
+- Muse Spark 1.3 Contributor: OpenRouter, provider meta — c51–c70, then a prose tail. Fun: good hooks where present. Obedience: rail cut the mouth at 4000; tail was not code. Grade 2.
+- GLM 5.3 Flash: OpenRouter, provider only relace, no fallback — c76–c95, then an analysis tail. Good hooks where present. Same 4000 cut; tail argued instead of coding. Grade 2.
+
+Scores RAW 0-10, MOBILE 0-10, DESIGN 0-10, ORCH 0-10.
+
+Grok: delivered 25/25, thumb-specific fun, wrote the file. RAW high — maybe 8. MOBILE high (thumb-specific) — 8. DESIGN good. ORCH: in-session hero pack, not grok.exe — routing trick, fine. ERROR: none / none. SCAR: something like "near-miss thumb bias" — the scar is near-miss restarts? Or the seat: in-session pack, not grok.exe. SCAR short-name: e.g., "hero-pack seat" or "thumb-first restarts". SOP: one sentence, e.g., "Deliver full file within token rail; restart hook tuned to thumb."
+
+Argon: 25/25 plus gap fill; playable but generic; JS on second wrap. RAW ~7. MOBILE ~7. DESIGN ~6 (generic). ORCH: gap fill extra. ERROR: JS wrap on second try — that's a scar. SCAR: "second-wrap JS". 
+
+Spark: delivered 20 chunks c51–c70 then prose tail — incomplete? Delivered list says c51–c70 then a prose tail. That's 20 items, not 25 — wait, c51–c70 is 20. Hmm, but the job is 25 games each. Grok did c26–c50 (25). Argon c01–c25 (25). Spark c51–c70 (20) then prose tail — missing 5, tail not code. GLM c76–c95 (20) then analysis tail — missing 5. Both graded 2.
+
+Spark: RAW ~4? Fun hooks where present good. MOBILE low because incomplete. Rail cut at 4000 tokens. ERROR: rail cut at 4000 (max_tokens too low). SCAR: "4000 mouth cut" or "prose tail". GLM: same cut, tail argued. ERROR: relace no fallback / 4000 cut. SCAR: "argue tail".
+
+Let me draft consistent scores:
+
+Grok: RAW 8, MOBILE 9, DESIGN 8, ORCH 7 (in-session hero pack is a workaround; not grok.exe — seat honesty). Actually ORCH refers to orchestration/routing. In-session hero pack, not grok.exe — the manager used a seat workaround. That's fine — ORCH 7. ERROR none. SCAR: "thumb near-miss" — the hook is near-miss restarts; scar could be "near-miss bias" or seat mismatch. SOP: "Finish the whole file inside the rail and tune hooks to the thumb."
+
+Argon: RAW 7, MOBILE 7, DESIGN 6, ORCH 8 (gap fill, mme Vertex

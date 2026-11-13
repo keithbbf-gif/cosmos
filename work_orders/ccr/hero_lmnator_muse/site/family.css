@@ -1,0 +1,169 @@
+/* solarolabs.com header logo: AHS corona mark (CFE 2026-10-19). Load after solaro.css. */
+/* Active Hollow Sun (AHS) v4 brand mark: the realistic eclipse corona (v3) at brand-mark size. Dark disc, white-hot limb, a
+   turbulent flame band (SVG feTurbulence + feDisplacementMap) and wispy streamers. Every layer is a static SVG raster on its own
+   compositor layer; motion is transform/opacity only (three flame rasters cross-fade, the streamers breathe). No JS, no inline styles. */
+.brand-mark.ahs-mark{position:relative;display:block;flex:none;width:40px;height:40px}
+.ahs-h-c-l{position:absolute;left:0;top:0;width:100%;height:100%;display:block;margin:0;padding:0;will-change:transform,opacity}
+.ahs-h-c-l svg{display:block;width:100%;height:100%;overflow:visible}
+.ahs-h-c-glow{animation:ahs-h-c-glow 1.73s ease-in-out infinite alternate}
+.ahs-h-c-sa{animation:ahs-h-c-sa 3.7s ease-in-out infinite alternate}
+.ahs-h-c-f0{animation:ahs-h-c-f0 1.9s ease-in-out infinite alternate}
+.ahs-h-c-f1{opacity:.55;animation:ahs-h-c-fx .83s ease-in-out infinite}
+.ahs-h-c-f2{opacity:.35;animation:ahs-h-c-fy 1.27s ease-in-out -.5s infinite}
+.ahs-h-c-disc{will-change:auto}
+@keyframes ahs-h-c-glow{0%{opacity:.5;transform:scale(.9)}35%{opacity:.95;transform:scale(1.08)}60%{opacity:.7;transform:scale(1)}100%{opacity:1;transform:scale(1.14)}}
+@keyframes ahs-h-c-sa{0%{transform:rotate(-7deg) scale(.94);opacity:.65}50%{opacity:1}100%{transform:rotate(7deg) scale(1.1);opacity:.8}}
+@keyframes ahs-h-c-f0{0%{transform:rotate(-5deg) scale(.95);opacity:.85}50%{opacity:1}100%{transform:rotate(5deg) scale(1.06);opacity:.9}}
+@keyframes ahs-h-c-fx{0%{opacity:0;transform:rotate(-3deg) scale(.96)}40%{opacity:1;transform:rotate(7deg) scale(1.05)}100%{opacity:0;transform:rotate(15deg) scale(1.08)}}
+@keyframes ahs-h-c-fy{0%{opacity:0;transform:rotate(4deg) scale(1.06)}45%{opacity:1;transform:rotate(-6deg) scale(.98)}100%{opacity:0;transform:rotate(-14deg) scale(1.04)}}
+@media (prefers-reduced-motion:reduce){ .brand-mark.ahs-mark *{animation:none!important}}
+@media (max-width:480px){.brand-mark.ahs-mark{width:38px;height:38px}}
+
+/* Solaro Labs ecosystem footer, v4.2 (centred; lively flames in the front sun and the wordmark O; CFE, 2026-10-19: realistic-corona AHS; 16px text floor, 44x44 link targets; full + lite modes). Everything is scoped under .eco-footer and every class, id and keyframe uses
+   the eco- prefix, so it can sit inside OceanWP, WordPress, SpiderCaster or hand-built static themes. No fonts, images or
+   scripts are fetched. The dark ground is part of the footer, so it reads the same on light and dark themes. */
+.eco-footer{--eco-accent:#2DD4BF;--eco-bg:#0A0F1C;--eco-text:#E5E7EB;--eco-muted:#A3ACBA;--eco-line:rgba(255,255,255,.09);--eco-focus:#FACC15;
+  display:block!important;width:100%;margin:0;padding:0;clear:both;position:relative;isolation:isolate;background:var(--eco-bg);color:var(--eco-muted);
+  border-top:1px solid var(--eco-line);text-align:center;font:400 16px/1.6 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  -webkit-font-smoothing:antialiased;letter-spacing:normal;text-transform:none}
+.eco-footer *,.eco-footer *::before,.eco-footer *::after{box-sizing:border-box}
+.eco-footer :where(div,p,ul,li,nav,h2,a,span){margin:0;padding:0;border:0;background:none;font:inherit;color:inherit;letter-spacing:inherit;text-transform:none;box-shadow:none;float:none}
+.eco-footer ul{list-style:none}
+.eco-footer li::before,.eco-footer li::marker{content:none}
+.eco-footer a{color:var(--eco-muted);text-decoration:none;transition:color .15s}
+.eco-footer a:hover{color:var(--eco-text);text-decoration:underline;text-decoration-color:var(--eco-accent);text-underline-offset:3px}
+.eco-footer a:focus-visible{outline:3px solid var(--eco-focus);outline-offset:2px;border-radius:6px}
+.eco-footer .eco-sr{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.eco-footer .eco-wrap{max-width:1280px;margin:0 auto;padding:40px 20px 0}
+.eco-footer .eco-grid{display:flex;flex-wrap:wrap;justify-content:center;gap:28px 48px}
+.eco-footer .eco-brandcol{flex:1 1 100%;display:flex;flex-direction:column;align-items:center}
+.eco-footer .eco-col{flex:0 1 190px;min-width:0}
+.eco-footer .eco-name{display:inline-flex;align-items:center;min-height:44px;min-width:44px;font-weight:700;font-size:18px;line-height:1.3;color:var(--eco-text);padding:0}
+.eco-footer .eco-name b{font-weight:700;color:var(--eco-accent)}
+.eco-footer .eco-tag{max-width:46ch;margin:4px auto 0}
+.eco-footer .eco-h{display:block;font-size:16px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--eco-text);line-height:1.4;margin-bottom:6px}
+.eco-footer .eco-col a{display:inline-flex;align-items:center;min-height:44px;min-width:44px;padding:0;line-height:1.4}
+.eco-footer .eco-col a[aria-current="page"]{color:var(--eco-text)}
+.eco-footer .eco-eco{margin-top:32px;padding:18px 0;border-top:1px solid var(--eco-line)}
+.eco-footer .eco-eco ul{display:flex;flex-wrap:wrap;justify-content:center;gap:4px 8px;margin-top:6px}
+.eco-footer .eco-eco a{display:inline-flex;align-items:center;min-height:44px;padding:0 12px;border:1px solid var(--eco-line);border-radius:999px;font-size:16px}
+.eco-footer .eco-eco a[aria-current="page"]{color:var(--eco-text);border-color:var(--eco-accent)}
+.eco-footer .eco-bottom{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:6px 18px;padding:12px 0 28px;border-top:1px solid var(--eco-line);font-size:16px}
+.eco-footer .eco-legal{margin:0 auto;max-width:72ch;text-align:center;padding:14px 0 12px;font-size:16px;line-height:1.5;color:var(--eco-muted)}
+.eco-footer .eco-copy{font-size:clamp(16px,1.4vw,18px);line-height:1;font-weight:500;color:var(--eco-muted);white-space:nowrap;margin-left:2px}
+.eco-footer a.eco-solaro{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 4px;color:var(--eco-text)}
+.eco-footer a.eco-solaro:hover,.eco-footer a.eco-built:hover{text-decoration:none}
+.eco-footer a.eco-built{display:inline-flex;align-items:center;gap:7px;min-height:44px;color:var(--eco-muted);font-size:16px}
+.eco-footer .eco-sc-mark{display:block;width:22px;height:22px;overflow:visible;flex:none}
+.eco-footer .eco-sc-word{display:block;height:18px;width:auto;aspect-ratio:229.4/52;flex:none}
+/* ahs:begin (generated by src/make_ahs.py, do not hand-edit) */
+/* Active Hollow Sun (AHS) v4 brand mark: the realistic eclipse corona (v3) at brand-mark size. Dark disc, white-hot limb, a
+   turbulent flame band (SVG feTurbulence + feDisplacementMap) and wispy streamers. Every layer is a static SVG raster on its own
+   compositor layer; motion is transform/opacity only (three flame rasters cross-fade, the streamers breathe). No JS, no inline styles. */
+.eco-footer .eco-sun{position:relative;display:block;flex:none;width:clamp(28.8px,2.64vw,36px);height:clamp(28.8px,2.64vw,36px)}
+.eco-footer .eco-c-l{position:absolute;left:0;top:0;width:100%;height:100%;display:block;margin:0;padding:0;will-change:transform,opacity}
+.eco-footer .eco-c-l svg{display:block;width:100%;height:100%;overflow:visible}
+.eco-footer .eco-c-glow{animation:eco-c-glow 1.73s ease-in-out infinite alternate}
+.eco-footer .eco-c-sa{animation:eco-c-sa 3.7s ease-in-out infinite alternate}
+.eco-footer .eco-c-f0{animation:eco-c-f0 1.9s ease-in-out infinite alternate}
+.eco-footer .eco-c-f1{opacity:.55;animation:eco-c-fx .83s ease-in-out infinite}
+.eco-footer .eco-c-f2{opacity:.35;animation:eco-c-fy 1.27s ease-in-out -.5s infinite}
+.eco-footer .eco-c-disc{will-change:auto}
+@keyframes eco-c-glow{0%{opacity:.5;transform:scale(.9)}35%{opacity:.95;transform:scale(1.08)}60%{opacity:.7;transform:scale(1)}100%{opacity:1;transform:scale(1.14)}}
+@keyframes eco-c-sa{0%{transform:rotate(-7deg) scale(.94);opacity:.65}50%{opacity:1}100%{transform:rotate(7deg) scale(1.1);opacity:.8}}
+@keyframes eco-c-f0{0%{transform:rotate(-5deg) scale(.95);opacity:.85}50%{opacity:1}100%{transform:rotate(5deg) scale(1.06);opacity:.9}}
+@keyframes eco-c-fx{0%{opacity:0;transform:rotate(-3deg) scale(.96)}40%{opacity:1;transform:rotate(7deg) scale(1.05)}100%{opacity:0;transform:rotate(15deg) scale(1.08)}}
+@keyframes eco-c-fy{0%{opacity:0;transform:rotate(4deg) scale(1.06)}45%{opacity:1;transform:rotate(-6deg) scale(.98)}100%{opacity:0;transform:rotate(-14deg) scale(1.04)}}
+@media (prefers-reduced-motion:reduce){.eco-footer .eco-sun *{animation:none!important}}
+/* SolarOLabs wordmark v3: the O is a static, simplified version of the same corona (filters rasterise once; no motion) */
+.eco-footer .eco-wm{display:block;height:clamp(24px,2.2vw,30px);width:auto;aspect-ratio:209/50;flex:none;overflow:visible}
+/* wordmark O (v4.3): a capital O first - crisp ring at cap height and stem weight; a thin flickering flame fringe and soft glow */
+.eco-footer .eco-wmw{position:relative;display:block;flex:none;line-height:0}
+.eco-footer .eco-wo{position:absolute;left:42.78%;top:8.90%;width:20.10%;height:84.00%;display:block}
+.eco-footer .eco-o-l{position:absolute;left:0;top:0;width:100%;height:100%;max-width:none;display:block;margin:0;padding:0;will-change:transform,opacity}
+.eco-footer .eco-o-l svg{display:block;width:100%;height:100%;overflow:visible}
+.eco-footer .eco-o-glow{animation:eco-o-glow 1.6s ease-in-out infinite alternate}
+.eco-footer .eco-o-f0{animation:eco-o-f0 1.3s ease-in-out infinite alternate}
+.eco-footer .eco-o-f1{opacity:.8;animation:eco-o-fx .71s ease-in-out infinite}
+.eco-footer .eco-o-f2{opacity:.6;animation:eco-o-fx 1.07s ease-in-out -.4s infinite reverse}
+@keyframes eco-o-glow{from{opacity:.3;transform:scale(.94)}to{opacity:1;transform:scale(1.07)}}
+@keyframes eco-o-f0{from{opacity:.55;transform:rotate(-14deg) scale(.985)}to{opacity:1;transform:rotate(14deg) scale(1.025)}}
+@keyframes eco-o-fx{0%{opacity:0;transform:rotate(0)}45%{opacity:1;transform:rotate(14deg)}100%{opacity:0;transform:rotate(28deg)}}
+@media (prefers-reduced-motion:reduce){.eco-footer .eco-wo *{animation:none!important}}
+
+/* lite mode: each corona layer is a cached <img> (padded 122.9% box, same centre), same animations as above */
+.eco-footer img.eco-c-l{position:absolute;left:-11.4%;top:-11.4%;width:122.9%;height:122.9%;max-width:none}
+
+/* ahs:end */
+@media (prefers-reduced-motion:reduce){.eco-footer a{transition:none}}
+/* lite mode: the corona layers, wordmark and Built-with marks are cached <img> files instead of inline SVG */
+.eco-footer img{max-width:none;max-height:none;margin:0;padding:0;border:0;background:none;box-shadow:none;border-radius:0;float:none;vertical-align:middle}
+.eco-footer img.eco-wm{height:clamp(24px,2.2vw,30px);width:auto;aspect-ratio:209/50}
+.eco-footer img.eco-sc-mark{width:22px;height:22px}
+.eco-footer img.eco-sc-word{height:18px;width:auto;aspect-ratio:229.4/52}
+@media (max-width:640px){.eco-footer .eco-grid{gap:24px 16px}.eco-footer .eco-col{flex:0 1 calc(50% - 8px)}}
+@media (forced-colors:active){.eco-footer .eco-eco a{border:1px solid CanvasText}}
+/* ai.solarolabs.com (CFE 2026-10-20, Keith 4:21 PM): wordmark only. Neutralise the site's unscoped .eco-wrap rules inside the footer. */
+.eco-footer .eco-wrap{display:block!important;border:0;border-radius:0;background:none}
+.eco-footer .eco-wrap svg{overflow:visible}
+.eco-footer .eco-bottom{border-top:0;margin-top:0;padding-top:0}
+.eco-footer a.eco-solaro{min-height:44px;min-width:44px;display:inline-flex;align-items:center;justify-content:center}
+.eco-footer .eco-wm{height:38px}.eco-footer .eco-bottom{padding:14px 0 22px}.eco-footer a.eco-solaro{padding:0 12px}
+@media (max-width:480px){.eco-footer .eco-wm{height:32px}}
+
+
+.nav-header{position:sticky;top:0;z-index:1000;background:rgba(7,11,20,.88);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-bottom:1px solid rgba(255,255,255,.09)}
+.nav-inner{display:flex;align-items:center;gap:12px;min-height:64px;height:auto;flex-wrap:wrap;max-width:1100px;margin:0 auto;padding:8px 16px;padding-left:max(16px,env(safe-area-inset-left));padding-right:max(16px,env(safe-area-inset-right))}
+.brand-wrapper{display:flex;align-items:center;gap:10px;text-decoration:none;color:#F6F2EA;min-height:44px}
+.brand-title{font-size:20px;font-weight:700;letter-spacing:-.01em;color:#F6F2EA}
+.brand-title span{color:#A5BB00;font-weight:500}
+.nav-menu{display:flex;align-items:center;gap:4px;margin-left:12px;flex-wrap:wrap}
+.nav-link{color:#C8CFDB;font-size:16px;font-weight:500;text-decoration:none;padding:8px 10px;min-height:44px;display:inline-flex;align-items:center}
+.nav-link:hover,.nav-link[aria-current="page"]{color:#F6F2EA}
+.nav-link[aria-current="page"]{box-shadow:inset 0 -2px 0 #A5BB00}
+.nav-right{margin-left:auto}
+.nav-right .btn{margin-top:0}
+.nav-mobile{display:none;position:relative}
+.nav-mobile summary{list-style:none;display:inline-flex;align-items:center;min-height:44px;min-width:44px;padding:0 16px;border:1px solid rgba(246,242,234,.28);border-radius:10px;font-size:18px;font-weight:600;cursor:pointer;color:#F6F2EA}
+.nav-mobile summary::-webkit-details-marker{display:none}
+.nav-mobile nav{display:flex;flex-direction:column;position:absolute;right:0;top:52px;min-width:220px;padding:8px;background:#0B1220;border:1px solid rgba(255,255,255,.12);border-radius:12px;z-index:1200}
+.nav-m{display:flex;align-items:center;min-height:44px;padding:0 14px;font-size:16px;color:#C8CFDB;text-decoration:none;border-radius:10px}
+.nav-m[aria-current="page"]{color:#F6F2EA;background:rgba(165,187,0,.12)}
+@media (max-width:899px){.nav-menu,.nav-right{display:none!important}.nav-mobile{display:block;margin-left:auto}.nav-inner{flex-wrap:nowrap;height:64px}}
+.wrap{padding-bottom:calc(72px + env(safe-area-inset-bottom))}
+.reels{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:12px 0}
+.reel{background:#0B1220;border:1px solid rgba(255,255,255,.12);border-radius:12px;min-height:88px;display:flex;align-items:center;justify-content:center;text-align:center;padding:10px;font-family:var(--mono);font-size:14px;line-height:1.3}
+.reel.spinning{color:#A5BB00}
+.pit-bar{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.pit-bar .btn{margin-top:0;min-height:52px}
+.chip-count{font-family:var(--mono);font-size:16px}
+.vote-row{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.vote-row .btn{width:100%;justify-content:center;margin-top:0}
+.seat-blind{background:#121B2E;border:1px solid rgba(255,255,255,.12);border-radius:12px;padding:14px;min-height:120px}
+.seat-blind h3{margin:0 0 6px}
+@media (max-width:520px){.reels{grid-template-columns:1fr}.vote-row{grid-template-columns:1fr}}
+.thumb{min-height:64px;font-size:20px;width:100%;justify-content:center;margin-top:0}
+.shop-grid{display:grid;grid-template-columns:1fr;gap:12px}
+@media (min-width:720px){.shop-grid{grid-template-columns:1fr 1fr}}
+.shop-card{background:#121B2E;border:1px solid rgba(255,255,255,.12);border-radius:16px;padding:16px}
+.shop-card h3{margin:0 0 6px}
+.shop-price{font-family:var(--mono);color:#A5BB00;font-size:22px;margin:0 0 8px}
+.hand{display:flex;gap:8px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:8px;-webkit-overflow-scrolling:touch}
+.pick{min-width:82%;scroll-snap-align:start;text-align:left;background:#121B2E;border:1px solid rgba(255,255,255,.14);border-radius:16px;padding:14px;color:#F6F2EA;min-height:128px}
+.pick.on{border-color:#A5BB00;box-shadow:0 0 0 1px #A5BB00}
+.bout-lane{display:grid;grid-template-columns:1fr 64px 1fr;gap:8px;align-items:stretch;margin:10px 0}
+.fighter{border-radius:12px;padding:10px;background:#0B1220;min-height:84px}
+.fighter.win{box-shadow:inset 0 0 0 2px #4ADE80}
+.fighter.lose{opacity:.4}
+.lane-mid{display:flex;align-items:center;justify-content:center;font-family:var(--mono);color:#A5BB00;font-size:12px;text-align:center}
+@media (min-width:720px){.pick{min-width:31%}}
+.hl-card{min-height:38vh;display:flex;flex-direction:column;justify-content:center;background:#121B2E;border-radius:20px;padding:18px;margin:12px 0}
+.hl-score{font-family:var(--mono);font-size:64px;line-height:.95;color:#A5BB00;margin:8px 0}
+.tile-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px}
+.tile{min-height:26vh;border:0;border-radius:18px;background:#0B1220;color:#F6F2EA;font-size:18px;font-weight:700;padding:12px}
+.tile:active{background:#A5BB00;color:#070B14}
+.field{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:10px 0}
+.seat-row{background:#0B1220;border-radius:12px;padding:8px 10px;min-height:64px}
+.seat-row.you{box-shadow:inset 0 0 0 1px #A5BB00}
+.seat-row.out{opacity:.4}
+.seat-row strong{display:block}

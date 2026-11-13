@@ -1,6 +1,6 @@
 # Layer 3 — Harness
 
-**Kind:** `review`. **Via:** `vertex-coding` = `cosmos_vertex_rail.ask()` + Kelly spec.
+**Kind:** `review`. **Via:** `vertex-coding` = `cosmos_vertex_rail.ask()` + MedicineMan Vertex `medicineman.mme` `project-cc5302c9-190c-4cdf-87d` (key file `V:\Research4\.secrets\vertex_medicineman_key.txt`). No Kelly, no OpenRouter fallback.
 
 - `location: global` (Google may **bill** `us-south1` Dallas — that is the farm GPU, not a pin).
 - `auth: apikey` (`AQ.` in `.secrets`). **Not ADC.** Explicit `cachedContents.create` **401** on API key; farm uses **implicit** `systemInstruction` cache (floor **4096** tokens).

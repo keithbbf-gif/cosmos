@@ -1,0 +1,1 @@
+Evaluating a JavaScript object format request against content and policy constraints for game data output.Constructing a JavaScript object array with specified fields while omitting prohibited terms.

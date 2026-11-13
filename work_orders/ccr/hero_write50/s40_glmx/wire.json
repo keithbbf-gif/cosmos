@@ -1,0 +1,16 @@
+{
+ "runner": "_summon_or_hero.py",
+ "model_requested": "z-ai/glm-5.3-flashx",
+ "system_sha": "ca68b685447c9f73",
+ "system_is_wrap": true,
+ "style_in_system": false,
+ "skill_in_system": false,
+ "user_sha": "00c1b48c34dc33e9",
+ "user_is_task": true,
+ "tools_offered": [
+  "write"
+ ],
+ "forbid_offered": [],
+ "writes_serial": true,
+ "call_order": "system=WRAP, user=TASK, tools, then tool-result loop"
+}

@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en" data-product="lmnator">
+<head><meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#070B14">
+<meta name="description" content="LMNator Arcade. One hundred phone games, single and multiplayer, installable, with TokenCenter checkout built in.">
+<title>LMNator — Arcade</title>
+<link rel="icon" href="../site/favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="../site/manifest.webmanifest">
+<link rel="stylesheet" href="../site/site.css">
+<link rel="stylesheet" href="../site/family.css">
+<link rel="stylesheet" href="lobby.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="nav-header"><div class="nav-inner"><a class="brand-wrapper" href="../site/index.html" aria-label="LMNator home"><img src="../site/favicon.svg" alt="" width="36" height="36"><span class="brand-title">LMN<span>ator</span></span></a><a class="nav-link" href="../site/index.html">Home</a><a class="nav-link" href="arcade_new.html" aria-current="page">Arcade</a><a class="nav-link" href="../site/account.html">Account</a></div></header>
+<main id="main"><div class="wrap">
+<p class="ticket-kicker">ELIMINATOR · ARCADE</p>
+<h1>One hundred phone games</h1>
+<p class="secondary">Fifty you play alone. Fifty you play against an AI seat or a queued human. Each one is its own loop, named for the chart game it improves, and every result is saved for the catalog. Buy a bench from inside the game. TokenCenter charges the card.</p>
+<p class="secondary">This copy adds an N-player lobby. The board waits until that match fills. In this folder the queue is the local mock unless queue.php answers the caps operation. The live arcade.html file is unchanged.</p>
+<p><button type="button" class="btn thumb" id="install">Install the app</button> <a class="btn thumb" href="../site/download.php" style="background:transparent;color:#F6F2EA;border:1px solid rgba(246,242,234,.28)">Download the files</a></p>
+<p class="secondary" id="install-note"></p>
+<div id="lobby-desk" data-desk="1" data-game="m01"></div>
+<div class="pit-bar" role="tablist">
+<button type="button" class="btn" id="tab-all">All</button>
+<button type="button" class="btn" id="tab-single">Single</button>
+<button type="button" class="btn" id="tab-multi">Multiplayer</button>
+</div>
+<div id="list"></div>
+<div id="play" hidden></div>
+</div></main>
+<script>
+(function () {
+  var here = location.protocol === "file:" || /site_new/.test(location.pathname);
+  if (!here || typeof window.fetch !== "function") return;
+  var orig = window.fetch;
+  window.fetch = function (url, opts) {
+    if (typeof url === "string" && url === "board.json") url = "../site/board.json";
+    return orig.call(this, url, opts);
+  };
+})();
+</script>
+<script src="../site/save.js?v=20261028b"></script>
+<script src="../site/buy.js?v=20261028b"></script>
+<script src="../site/lobby.js?v=20261028b"></script>
+<script src="mock_queue.js"></script>
+<script src="lobby-map-n.js"></script>
+<script src="lobby_new.js"></script>
+<script src="../site/packs/single-a.js?v=20261028b"></script>
+<script src="../site/packs/single-b.js?v=20261028b"></script>
+<script src="../site/packs/multi-a.js?v=20261028b"></script>
+<script src="../site/packs/multi-b.js?v=20261028b"></script>
+<script src="../site/pack-contest-argon.js?v=20261028b"></script>
+<script src="../site/pack-contest-grok.js?v=20261028b"></script>
+<script src="../site/pack-contest-spark.js?v=20261028b"></script>
+<script src="../site/pack-contest-glm.js?v=20261028b"></script>
+<script src="../site/pack-contest-gap.js?v=20261028b"></script>
+<script src="../site/pack-contest-c71.js?v=20261028b"></script>
+<script src="../site/pack-contest-more.js?v=20261028b"></script>
+<script src="../site/pack-roll-argon.js?v=20261028b"></script>
+<script src="../site/pack-roll-grok.js?v=20261028b"></script>
+<script src="../site/pack-roll-spark.js?v=20261028b"></script>
+<script src="../site/pack-roll-tail.js?v=20261028b"></script>
+<script src="../site/pack-luna6.js?v=20261028b"></script>
+<script src="../site/pack-luna6max.js?v=20261028b"></script>
+<script src="../site/pack-spark-opt.js?v=20261028b"></script>
+<script src="../site/pack-keep-argon.js?v=20261028b"></script>
+<script src="../site/pack-keep-grok.js?v=20261028b"></script>
+<script src="../site/pack-next-argon.js?v=20261028b"></script>
+<script src="../site/pack-next-grok.js?v=20261028b"></script>
+<script src="../site/pack-next-luna.js?v=20261028b"></script>
+<script src="../site/pack-next-lunamax.js?v=20261028b"></script>
+<script src="../site/pack-opt-argon.js?v=20261028b"></script>
+<script src="../site/pack-opt-grok.js?v=20261028b"></script>
+<script src="../site/pack-opt-luna.js?v=20261028b"></script>
+<script src="../site/pack-opt-lunamax.js?v=20261028b"></script>
+<script src="pack-teamA-01.js"></script>
+<script src="pack-teamA-02.js"></script>
+<script src="pack-teamA-03.js"></script>
+<script src="pack-teamA-04.js"></script>
+<script src="pack-teamB-new.js"></script>
+<script src="pack-teamB-priority.js"></script>
+<script src="pack-teamB-multi-s.js"></script>
+<script src="pack-teamB-multi-m.js"></script>
+<script src="pack-teamB-multi-c1.js"></script>
+<script src="pack-teamB-multi-c2.js"></script>
+<script src="pack-teamB-multi-c3.js"></script>
+<script src="pack-teamC-01.js"></script>
+<script src="pack-teamC-02.js"></script>
+<script src="pack-enh-s.js"></script>
+<script src="pack-enh-m.js"></script>
+<script src="pack-enh-c1.js"></script>
+<script src="pack-enh-c2.js"></script>
+<script src="pack-enh-c3.js"></script>
+<script src="pack-enh-c4.js"></script>
+<script src="../site/engines.js?v=20261028b"></script>
+<script src="APPLY_SETTINGS.js"></script>
+<script src="engines-lobby-n.js"></script>
+<script src="../site/arcade.js?v=20261028b"></script>
+<script>
+(function () {
+  var desk = document.getElementById("lobby-desk");
+  if (desk && window.LMN_MOUNT_LOBBY) window.LMN_MOUNT_LOBBY(desk);
+})();
+</script>
+</body>
+</html>

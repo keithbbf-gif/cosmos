@@ -1,0 +1,46 @@
+```python
+"""Operational lessons distilled into a portable NOTES register."""
+
+NOTES = [
+    {
+        "id": "S-42",
+        "text": "I kept relying on a connected-folder set that no one could actually edit, making my daily rail-health check blind for seven straight days. The lesson hit hard: the rail check no longer needs a mount at all, and I should have caught that the free-tier-allotment-check task was equally broken before the entire week ran out unnoticed.",
+    },
+    {
+        "id": "S-43",
+        "text": "I wrote 'GDX blocked, needs re-auth' too broadly because one of three paths was down but I reported it as all three. Nothing Cowork does is actually waiting on the other two legs. I need to be precise about which specific path is failing instead of collapsing the diagnosis into one sweeping statement.",
+    },
+    {
+        "id": "S-44",
+        "text": "Every document in the tree described GW as browser-only, so I treated it that way for weeks. It was actually one free GET to the models endpoint away from being a proper API model. I wasted enormous effort working around a constraint that only existed in documentation nobody had bothered to verify.",
+    },
+    {
+        "id": "S-45",
+        "text": "I ran a literature sweep without a verification step and got a one hundred percent citation failure rate. The verification gate is not ceremony. I skipped what looked like a rubber-stamp check and every single reference turned out to be fabricated or dead. The gate exists because without it I ship garbage confidently.",
+    },
+    {
+        "id": "S-46",
+        "text": "Five defects slipped past every linter I trusted until the headless GUI suite caught them. The worst involved two electronvolts lost between the screen and the arithmetic. The displayed bias never reached the work function because the load routine pushed the seeded voltage to the slider only. I had no test for that path.",
+    },
+    {
+        "id": "S-47",
+        "text": "The outside review found real physics bugs while all one hundred forty-three tests and twenty-six invariants stayed green. The binding energy function omitted the bias term entirely, so a biased sample produced a wrong result. I realized that passing tests mean nothing when the tests themselves encode the same misunderstanding as the code.",
+    },
+    {
+        "id": "S-48",
+        "text": "The adversarial model argued one finding confidently and it was simply wrong, claiming an issue that did not exist. Meanwhile it reported no findings at all on the file holding the real bug. I cannot treat a single reviewer pass as sufficient verification when it both hallucinates problems and misses actual ones.",
+    },
+    {
+        "id": "S-50",
+        "text": "Six defects hid in the fitting layer, including an unweighted Poisson fit and a gate that happily passed a reduced chi-squared of four thousand. Photoemission is a photon count so the noise is Poisson, but I fitted unweighted anyway. The gate should have flagged that absurd value and instead it silently accepted it.",
+    },
+    {
+        "id": "S-51",
+        "text": "The adversarial re-verification found the worst bug of the whole session. A default of zero for applied voltage reproduced an impossible work function of seven point one two electronvolts, the exact value the archive already had a name for. I had trusted the fallback logic without questioning what happens when nobody establishes a bias.",
+    },
+    {
+        "id": "S-52",
+        "text": "I designed the courier architecture around an absence that the nodes file had already denied. That file stated two legs existed since well before mid-July, yet I built everything assuming a single path. I ignored the only source that could have corrected my mental model and wasted design cycles on a phantom constraint.",
+    },
+]
+```

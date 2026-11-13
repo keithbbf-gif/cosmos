@@ -1,0 +1,16 @@
+{
+ "applied": false,
+ "layers": {
+  "l1_role": false,
+  "l2_model": true,
+  "l3_harness": true,
+  "l4_wrapper": true,
+  "l5_skills": true,
+  "l6_tools": true,
+  "l7_enviro": true,
+  "l8_mission": false
+ },
+ "first_line": "We need to emit one python module. First line is a docstring. Then NOTES, a list",
+ "model_returned": "nvidia/nemotron-3.5-lightning",
+ "note": "applied is the bound call plus a reply that obeyed it. HTTP ok is not this."
+}

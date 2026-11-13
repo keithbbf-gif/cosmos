@@ -1,0 +1,33 @@
+{
+ "legend": {
+  "role": "CODER",
+  "model": "meta/muse-spark-1.3-contributor",
+  "harness_via": "openrouter summon_or_hero.py",
+  "wrapper": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\hero_dailyscar_crew\\05_a11y\\WRAP.md",
+  "skills": [
+   "none extra"
+  ],
+  "tools": {
+   "allow": [
+    "write"
+   ],
+   "forbid": [
+    "grok.exe",
+    "git push",
+    "merge",
+    "USPTO"
+   ]
+  },
+  "enviro": {
+   "cwd": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\hero_dailyscar_crew\\05_a11y",
+   "what": "python",
+   "optimum": "float",
+   "ctx": [
+    "V:\\Streams\\WEBSITES\\DailyScar\\build_site.py"
+   ]
+  }
+ },
+ "mission": {
+  "item": "At most five access fixes."
+ }
+}

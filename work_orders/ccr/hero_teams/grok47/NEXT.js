@@ -1,0 +1,23 @@
+window.LMN_PACK = window.LMN_PACK || [];
+window.LMN_PACK.push(
+{id:"c255",title:"Jelly Row Pop",inspired:"Candy Crush Saga",players:"single",engine:"match3",better:"The cascade stopped one jelly short of the bottom row, and the thumb is already hunting the swap that would have finished it.",goal:8,speed:1,lives:3},
+{id:"c256",title:"Crate Pop Rally",inspired:"Toon Blast",players:"single",engine:"blast",better:"The last crate split but did not drop, leaving a gap that only another blast can close.",goal:8,speed:2,lives:3},
+{id:"c257",title:"Track Skip Sprint",inspired:"Subway Surfers",players:"single",engine:"runner",better:"A train skimmed the runner on the final rail, close enough that the next dash starts before the wipe finishes.",goal:16,speed:1,lives:3},
+{id:"c258",title:"Slab Snap Tower",inspired:"Stack",players:"single",engine:"stack",better:"The top slab overhung by a hair and sheared off, so the tower goes up again from the same perfect line.",goal:8,speed:2,lives:3},
+{id:"c259",title:"Nest Blend Grove",inspired:"Merge Dragons",players:"single",engine:"merge",better:"Two nests bumped and refused to blend, one drag short of the merge the thumb can already feel.",goal:5,speed:1,lives:3},
+{id:"c260",title:"Face Flash Pairs",inspired:"Simon",players:"single",engine:"memory",better:"The matching face flashed and vanished a beat before the tap, so the deck is dealt again while it is still remembered.",goal:6,speed:2,lives:3},
+{id:"c261",title:"Coil Yard Dash",inspired:"Snake.io",players:"single",engine:"snake",better:"The coil boxed itself in with a single open square behind the head, and that square is why the thumb restarts.",goal:8,speed:1,lives:3},
+{id:"c262",title:"Paddle Brick Skim",inspired:"Arkanoid",players:"single",engine:"breakout",better:"The ball grazed the final brick and dropped past the paddle edge, which is all it takes to serve again.",goal:18,speed:2,lives:3},
+{id:"c263",title:"Burrow Tap Frenzy",inspired:"Whack-a-Mole",players:"single",engine:"whack",better:"The mole sank the instant the thumb arrived, a miss so late it feels like the next hole is already rising.",goal:8,speed:1,lives:3},
+{id:"c264",title:"Tile Drift Pocket",inspired:"Threes",players:"single",engine:"slide",better:"The tiles sat one slide from order and then jammed, so the thumb scrambles them only to line them up again.",goal:1,speed:2,lives:3},
+{id:"c265",title:"Letter Latch",inspired:"Wordscapes",players:"single",engine:"word",better:"The last blank was one letter off a word that almost locked, and the keyboard stays under the thumb.",goal:1,speed:1,lives:3},
+{id:"c266",title:"Vein Drip Shift",inspired:"Idle Miner Tycoon",players:"single",engine:"idle",better:"The drip counter stalled a notch under the next hum, so the thumb keeps tapping through the stall.",goal:40,speed:2,lives:3},
+{id:"c267",title:"Suit Run Pile",inspired:"Solitaire",players:"single",engine:"cards",better:"The ace was one flip under the card just laid, and the thumb deals again before the pile is squared.",goal:5,speed:1,lives:3},
+{id:"c268",title:"Headlight Hop",inspired:"Crossy Road",players:"single",engine:"lane",better:"A bumper kissed the hopper on the last lane and still ended the run, so the street fills again at once.",goal:12,speed:2,lives:3},
+{id:"c269",title:"Home Square March",inspired:"Ludo King",players:"single",engine:"board",better:"Home was one square away when the piece got bumped back, and the next roll is already in the thumb.",goal:10,speed:1,lives:3},
+{id:"c270",title:"Pulse Tap Row",inspired:"Piano Tiles 2",players:"single",engine:"rhythm",better:"The final beat landed a hair late and snapped the streak, which pulls the thumb straight back onto the track.",goal:8,speed:2,lives:3},
+{id:"c271",title:"Barn Gate Plots",inspired:"Hay Day",players:"single",engine:"farm",better:"The last plot ripened as the gate shut, so the thumb is replanting before the wilt even shows.",goal:4,speed:1,lives:3},
+{id:"c272",title:"Rapid Fact Duel",inspired:"Trivia Crack",players:"single",engine:"quiz",better:"The last question was the fact almost recalled, and that near-answer starts another round on its own.",goal:5,speed:2,lives:3},
+{id:"c273",title:"Orb Chain Pocket",inspired:"Bejeweled",players:"single",engine:"match3",better:"Six orbs lined up and the swap slipped off the seventh, so the board gets one more try from the same thumb.",goal:8,speed:1,lives:3},
+{id:"c274",title:"Sling Arc Burst",inspired:"Angry Birds",players:"single",engine:"blast",better:"The last block wobbled, stayed up, and the sling is already drawn for the shot that should have dropped it.",goal:8,speed:2,lives:3}
+);

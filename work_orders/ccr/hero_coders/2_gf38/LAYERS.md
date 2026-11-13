@@ -1,8 +1,8 @@
-# CODER 2 DUDs — GF38 Kelly (sharp outfit)
+# CODER 2 DUDs — GF38 MedicineMan (sharp outfit)
 
 **1 Role** CODER. Not WOMBAT (that HERO is `hero_wombat_gf38/`, later). Same model, **different sid**.
 
-**2 Model** `gemini-3.8-flash`. $0.75/$0.075/$3.75. Thinking = output. **No HIGH.** Kelly $57 first. Not Medicine Man. Not Joanna.
+**2 Model** `gemini-3.8-flash`. $0.75/$0.075/$3.75. Thinking = output. **No HIGH.** MedicineMan active default ($265/300 left, exp 2026-12-18, project-cc5302c9-190c-4cdf-87d). Kelly and Joanna dead/retired.
 
 **3 Harness** `cosmos_vertex_rail.ask()` apikey `global`. Dallas is bill-region. Not ADC. Not Agent Platform. Not `_fire_gf38` loop. Implicit cache floor 4096.
 

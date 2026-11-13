@@ -1,0 +1,16 @@
+{
+ "runner": "_summon_or_hero.py",
+ "model_requested": "inclusionai/ling-3.0-flash",
+ "system_sha": "ca68b685447c9f73",
+ "system_is_wrap": true,
+ "style_in_system": false,
+ "skill_in_system": false,
+ "user_sha": "4d6fccdb5c2205f2",
+ "user_is_task": true,
+ "tools_offered": [
+  "write"
+ ],
+ "forbid_offered": [],
+ "writes_serial": true,
+ "call_order": "system=WRAP, user=TASK, tools, then tool-result loop"
+}

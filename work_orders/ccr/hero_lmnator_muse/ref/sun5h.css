@@ -1,0 +1,33 @@
+/* sun5h.css (CFE 2026-10-20, STAGED): hero corona upgrade + inner light on hover/focus/tap. Load after sun5u.css. Compositor-only motion; no layout work. */
+.mz>.wrap{pointer-events:none}.mz .mz-card{pointer-events:auto}
+.v5-sun .v5-cr,.v5-sun .v5-in{position:absolute;display:block;pointer-events:none}
+.v5-cr{inset:0;width:100%;height:100%;will-change:transform,opacity}
+.v5-cr1{animation:v5cr1 18s ease-in-out infinite alternate}
+.v5-cr2{opacity:.55;transform:rotate(19deg) scale(1.04);animation:v5cr2 26s ease-in-out infinite alternate}
+@keyframes v5cr1{0%{transform:rotate(-1.5deg) scale(.985);opacity:.85}100%{transform:rotate(1.5deg) scale(1.02);opacity:1}}
+@keyframes v5cr2{0%{transform:rotate(17deg) scale(1.03);opacity:.4}100%{transform:rotate(22deg) scale(1.07);opacity:.7}}
+/* hover target: the ring itself */
+.v5-sun .v5-ph{pointer-events:auto;cursor:pointer;-webkit-tap-highlight-color:transparent}
+/* inner light: the hollow interior fills with warm sunlight */
+.v5-in{left:calc(var(--R)*1.5);top:calc(var(--R)*1.5);width:calc(var(--R)*2);height:calc(var(--R)*2);border-radius:50%;opacity:0;transform:scale(.86);
+ background:radial-gradient(circle closest-side,#fffdf3 0,#fff3cf 34%,rgba(255,214,130,.85) 62%,rgba(255,170,80,.45) 84%,rgba(255,140,60,0) 93%);
+ box-shadow:0 0 calc(var(--R)*.35) calc(var(--R)*.06) rgba(255,190,100,.45);transition:opacity .55s ease,transform .7s cubic-bezier(.2,.8,.2,1);will-change:transform,opacity}
+/* no-JS fallback: plain hover light. With JS (.v5h) the fill, arcs and follow are driven by sun5h.js */
+.v5-sun:not(.v5h):hover .v5-in,.v5-sun:not(.v5h).lit .v5-in{opacity:1;transform:scale(1)}
+.v5-sun.v5h .v5-in{transition:none}
+.v5-arc{position:absolute;pointer-events:none;left:calc(var(--R)*1.5);top:calc(var(--R)*1.5);width:calc(var(--R)*2);height:calc(var(--R)*2);border-radius:50%;mix-blend-mode:screen}
+.v5-sun.v5h{will-change:transform}
+@media (prefers-reduced-motion:reduce){.v5-cr{animation:none!important}.v5-in{transition:none}.v5-arc{display:none}
+ .v5-sun:hover .v5-in,.v5-sun.lit .v5-in{opacity:.7!important;transform:scale(1)!important}}
+.v5-mute{position:absolute;right:12px;bottom:12px;z-index:2;width:44px;height:44px;border-radius:50%;border:1px solid rgba(160,190,255,.35);background:rgba(8,12,24,.55);color:#dfe8ff;font-size:18px;line-height:1;cursor:pointer;pointer-events:auto}
+.v5-mute[hidden]{display:none}.v5-mute:focus-visible{outline:2px solid #9db8ff;outline-offset:2px}
+@media (prefers-reduced-motion:reduce){.v5-mute{display:none}}
+/* v3 (Keith 7:24 PM): interior BLACK at rest; the fill sits above the ring and grows slowly (JS); photo-like raster corona replaces the SVG one; cartoon flame tongues hidden */
+.v5-sun .v5-ph{background:radial-gradient(circle closest-side,#000 0,#000 89%,rgba(255,190,100,.34) 89.8%,rgba(255,215,150,.6) 91.6%,#fff6dc 92.6%,#ffe39a 94.2%,#ffbd4a 96%,#ff9330 97.8%,#f0682a 99.3%,#e05420 100%)}
+.v5-sun .v5-in{z-index:1}.v5-sun .v5-arc{z-index:2}
+/* v4: flames, flares and eruptions (sun5u.js) restored over the raster corona */
+.v5-sun .v5-co{opacity:.7}
+/* header sun lightning */
+.brand-mark.ahs-mark .ahs-zap{position:absolute;left:0;top:0;width:100%;height:100%;pointer-events:none;z-index:2}
+/* v5 (Keith 9:04 PM): flicker ~2x slower */
+.v5-sun .v5-a{animation-duration:9.4s}.v5-sun .v5-b{animation-duration:10.6s}.v5-sun .v5-co{animation:v5co 10.6s ease-in-out infinite alternate}

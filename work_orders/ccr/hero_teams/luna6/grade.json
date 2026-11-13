@@ -1,0 +1,16 @@
+{
+ "applied": false,
+ "layers": {
+  "l1_role": false,
+  "l2_model": true,
+  "l3_harness": true,
+  "l4_wrapper": true,
+  "l5_skills": true,
+  "l6_tools": false,
+  "l7_enviro": true,
+  "l8_mission": false
+ },
+ "first_line": "window.LMN_PACK = window.LMN_PACK || [];",
+ "model_returned": "openai/gpt-5.6-luna",
+ "note": "applied is the bound call plus a reply that obeyed it. HTTP ok is not this."
+}

@@ -1,0 +1,348 @@
+{
+  "games_json_rows": 371,
+  "grades_non_null": 0,
+  "pack_games_loaded": 371,
+  "pack_load_errors": [],
+  "pack_dup_ids": [],
+  "missing_in_packs": [],
+  "pack_not_in_json": [],
+  "new_single": 65,
+  "new_multi": 34,
+  "contest": 34,
+  "enhancements": 371,
+  "multi_support": 371,
+  "levels": 371,
+  "modes": 371,
+  "grade_rows": 1621,
+  "blurbs": 483,
+  "blurb_omitted": 384,
+  "files": [
+    "levels-c.js",
+    "levels-m.js",
+    "levels-s.js",
+    "modes-c.js",
+    "modes-m.js",
+    "modes-s.js",
+    "pack-enh-c1.js",
+    "pack-enh-c2.js",
+    "pack-enh-c3.js",
+    "pack-enh-c4.js",
+    "pack-enh-m.js",
+    "pack-enh-s.js",
+    "pack-teamA-01.js",
+    "pack-teamA-02.js",
+    "pack-teamA-03.js",
+    "pack-teamA-04.js",
+    "pack-teamB-multi-c1.js",
+    "pack-teamB-multi-c2.js",
+    "pack-teamB-multi-c3.js",
+    "pack-teamB-multi-m.js",
+    "pack-teamB-multi-s.js",
+    "pack-teamB-new.js",
+    "pack-teamB-priority.js",
+    "pack-teamC-01.js",
+    "pack-teamC-02.js"
+  ],
+  "first": {
+    "pack-teamA-01.js": {
+      "id": "t101",
+      "title": "Straight Three"
+    },
+    "pack-teamA-02.js": {
+      "id": "t121",
+      "title": "Six Flips"
+    },
+    "pack-teamA-03.js": {
+      "id": "t141",
+      "title": "Cap Shift"
+    },
+    "pack-teamA-04.js": {
+      "id": "t161",
+      "title": "Fast Harvest"
+    },
+    "pack-teamB-priority.js": {
+      "id": "e472",
+      "title": "Sweet Grid queue"
+    },
+    "pack-teamB-new.js": {
+      "id": "t201",
+      "title": "Shared Line"
+    },
+    "pack-teamB-multi-s.js": {
+      "id": "e482",
+      "title": "Crown Align queue"
+    },
+    "pack-teamB-multi-m.js": {
+      "id": "e530",
+      "title": "Block Party queue"
+    },
+    "pack-teamB-multi-c1.js": {
+      "id": "e576",
+      "title": "Cube Detonator queue 2"
+    },
+    "pack-teamB-multi-c2.js": {
+      "id": "e666",
+      "title": "Siege Breakers queue"
+    },
+    "pack-teamB-multi-c3.js": {
+      "id": "e756",
+      "title": "Sugar Cascader queue"
+    },
+    "pack-teamC-01.js": {
+      "id": "t301",
+      "title": "Bout of Four"
+    },
+    "pack-teamC-02.js": {
+      "id": "t321",
+      "title": "Bout Twenty"
+    },
+    "pack-enh-s.js": {
+      "id": "e101",
+      "title": "Sweet Grid tuned"
+    },
+    "pack-enh-m.js": {
+      "id": "e151",
+      "title": "Throne Lane tuned"
+    },
+    "pack-enh-c1.js": {
+      "id": "e201",
+      "title": "Sugar Prism tuned"
+    },
+    "pack-enh-c2.js": {
+      "id": "e291",
+      "title": "Tap Titans Duel tuned"
+    },
+    "pack-enh-c3.js": {
+      "id": "e381",
+      "title": "Gem Blitz Merge tuned"
+    },
+    "pack-enh-c4.js": {
+      "id": "e471",
+      "title": "Quickfire Crowd tuned"
+    }
+  },
+  "node_check_fail": [],
+  "node_check_ok": 29,
+  "node_check_files": 29,
+  "push_fails": [],
+  "load_errors": [],
+  "load_count": 875,
+  "load_dups": [],
+  "sample": {
+    "e101": {
+      "id": "e101",
+      "title": "Sweet Grid tuned",
+      "players": "single",
+      "engine": "match3",
+      "settings": {
+        "base_id": "s01",
+        "parent_pack": "pack-single-a.js",
+        "listed_goal": 5000,
+        "listed_speed": 1,
+        "listed_lives": 5,
+        "listed_inspired": "Candy Crush Saga",
+        "goal_read": true,
+        "speed_read": false,
+        "lives_read": true,
+        "goal": 12,
+        "lives": 5,
+        "change": "listed goal 5000 is clamped to 12 inside LMN_PLAY; this entry stores 12. this engine does not read speed (listed 1)"
+      },
+      "better": "Tap the middle of a straight line of three identical names. 12 lines clear the board. 5 misses end it. A corner of two neighbors is not a line. Speed is not read. listed goal 5000 is clamped to 12 inside LMN_PLAY; this entry stores 12. this engine does not read speed (listed 1)",
+      "goal": 12,
+      "lives": 5,
+      "blurb": "After Candy Crush Saga",
+      "inspired": "Candy Crush Saga"
+    },
+    "s50": {
+      "id": "e150",
+      "title": "Tile Draw tuned",
+      "players": "single",
+      "engine": "cards",
+      "settings": {
+        "base_id": "s50",
+        "parent_pack": "pack-single-b.js",
+        "listed_goal": 144,
+        "listed_speed": 1,
+        "listed_lives": 3,
+        "listed_inspired": "Vita Mahjong",
+        "goal_read": true,
+        "speed_read": false,
+        "lives_read": true,
+        "goal": 5,
+        "lives": 3,
+        "change": "listed goal 144 is clamped to 5 inside LMN_PLAY; this entry stores 5. this engine does not read speed (listed 1)",
+        "blurb_omitted": "listed inspired stays in settings.listed_inspired. It is not copied onto this card."
+      },
+      "better": "Pick the higher of two catalog scores. 5 correct calls win. 3 misses end it. Speed is not read. listed goal 144 is clamped to 5 inside LMN_PLAY; this entry stores 5. this engine does not read speed (listed 1)",
+      "goal": 5,
+      "lives": 3
+    },
+    "priority0": {
+      "id": "e472",
+      "title": "Sweet Grid queue",
+      "players": "multi",
+      "engine": "match3",
+      "settings": {
+        "base_id": "s01",
+        "parent_pack": "pack-single-a.js",
+        "listed_goal": 5000,
+        "listed_speed": 1,
+        "listed_lives": 5,
+        "listed_inspired": "Candy Crush Saga",
+        "goal_read": true,
+        "speed_read": false,
+        "lives_read": true,
+        "goal": 12,
+        "lives": 5,
+        "change": "listed goal 5000 is clamped to 12 inside LMN_PLAY; this entry stores 12. this engine does not read speed (listed 1)",
+        "lobby": "players multi mounts the queue in shell() when lobby.js is loaded. The board still runs on this page. The matched seats are not a shared grid."
+      },
+      "better": "Tap the middle of a straight line of three identical names. 12 lines clear the board. 5 misses end it. A corner of two neighbors is not a line. Speed is not read. listed goal 5000 is clamped to 12 inside LMN_PLAY; this entry stores 12. this engine does not read speed (listed 1) players multi mounts the queue in shell() when lobby.js is loaded. The board still runs on this page. The matched seats are not a shared grid.",
+      "goal": 12,
+      "lives": 5,
+      "blurb": "After Candy Crush Saga",
+      "inspired": "Candy Crush Saga"
+    },
+    "t101": {
+      "id": "t101",
+      "title": "Straight Three",
+      "players": "single",
+      "engine": "match3",
+      "goal": 6,
+      "lives": 5,
+      "better": "Tap the middle of a straight line of three identical names. 6 lines clear the board. 5 misses end it. A corner of two neighbors is not a line. Speed is not read.",
+      "blurb": "After Bejeweled",
+      "inspired": "Bejeweled",
+      "settings": {
+        "goal_read": true,
+        "speed_read": false,
+        "lives_read": true,
+        "goal": 6,
+        "lives": 5
+      }
+    },
+    "t301": {
+      "id": "t301",
+      "title": "Bout of Four",
+      "players": "multi",
+      "engine": "match3",
+      "goal": 4,
+      "lives": 4,
+      "better": "Tap the middle of a straight line of three identical names. 4 lines clear the board. 4 misses end it. A corner of two neighbors is not a line. Speed is not read.",
+      "blurb": "After Candy Crush Saga",
+      "inspired": "Candy Crush Saga",
+      "settings": {
+        "goal_read": true,
+        "speed_read": false,
+        "lives_read": true,
+        "goal": 4,
+        "lives": 4,
+        "lobby": "players multi mounts the queue in shell() when lobby.js is loaded. The board still runs on this page.",
+        "contest": true
+      }
+    }
+  },
+  "priority": [
+    {
+      "id": "s01",
+      "title": "Sweet Grid",
+      "engine": "match3",
+      "players": "single",
+      "inspired": "Candy Crush Saga",
+      "goal": 5000,
+      "speed": 1,
+      "lives": 5
+    },
+    {
+      "id": "s50",
+      "title": "Tile Draw",
+      "engine": "cards",
+      "players": "single",
+      "inspired": "Vita Mahjong",
+      "goal": 144,
+      "speed": 1,
+      "lives": 3
+    },
+    {
+      "id": "m01",
+      "title": "Throne Lane",
+      "engine": "lane",
+      "players": "multi",
+      "inspired": "Honor of Kings",
+      "goal": 3,
+      "speed": 3,
+      "lives": 3
+    },
+    {
+      "id": "m15",
+      "title": "Realm Sprint",
+      "engine": "runner",
+      "players": "multi",
+      "inspired": "Genshin Impact",
+      "goal": 2000,
+      "speed": 6,
+      "lives": 1
+    },
+    {
+      "id": "m30",
+      "title": "Snap Trivia",
+      "engine": "quiz",
+      "players": "multi",
+      "inspired": "QuizUp",
+      "goal": 7,
+      "speed": 8,
+      "lives": 2
+    },
+    {
+      "id": "m50",
+      "title": "Party Buzz",
+      "engine": "quiz",
+      "players": "multi",
+      "inspired": "Stumble-party quiz",
+      "goal": 15,
+      "speed": 6,
+      "lives": 3
+    },
+    {
+      "id": "c01",
+      "title": "Sugar Prism",
+      "engine": "match3",
+      "players": "single",
+      "inspired": "Candy Crush Saga",
+      "goal": 8,
+      "speed": 2,
+      "lives": 3
+    },
+    {
+      "id": "c80",
+      "title": "Orbit Merge",
+      "engine": "merge",
+      "players": "multi",
+      "inspired": "2048",
+      "goal": 5,
+      "speed": 1,
+      "lives": 3
+    },
+    {
+      "id": "c150",
+      "title": "Bubble Drop",
+      "engine": "blast",
+      "players": "single",
+      "inspired": "Toon Blast",
+      "goal": 8,
+      "speed": 2,
+      "lives": 3
+    },
+    {
+      "id": "c200",
+      "title": "Cube Detonator",
+      "engine": "blast",
+      "players": "single",
+      "inspired": "Toon Blast",
+      "goal": 8,
+      "speed": 2,
+      "lives": 3
+    }
+  ]
+}

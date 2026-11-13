@@ -302,10 +302,14 @@ def main() -> int:
         payload["reasoning"] = rsn
     if routing is not None:
         payload["routing"] = routing
+    # Muse Spark 1.3 Contributor is its own endpoint
+    # (meta/muse-spark-1.3-contributor-20260902), not Standard muse-spark-1.3.
+    if a.model == "meta/muse-spark-1.3-contributor":
+        payload["provider_only"] = "meta"
     allow = duds.get("l6_tools") or {}
     if "write" in (allow.get("allow") or []):
         payload["tools"] = [WRITE_TOOL]
-        if "write" in task.lower():
+        if "call the write tool" in task.lower():
             payload["tool_choice"] = "required"
             payload["require_tool_provider"] = True
     if a.prefill_none:

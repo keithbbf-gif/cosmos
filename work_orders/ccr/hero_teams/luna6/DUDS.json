@@ -1,0 +1,14 @@
+{
+  "session_id": "roll-luna6",
+  "area": "lmnator",
+  "legend": {
+    "l1_role": "CODER",
+    "l2_model": "openai/gpt-5.6-luna",
+    "l3_harness": "openrouter summon_or_hero flex openai/flex",
+    "l4_wrapper_path": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\hero_teams\\luna6\\WRAP.md",
+    "l5_skills": ["none extra"],
+    "l6_tools": {"allow": ["reply"], "forbid": ["git_push", "merge", "grok.exe", "write"]},
+    "l7_environment": {"cwd": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\hero_teams\\luna6", "what": "text", "optimum": 1500, "ctx": []}
+  },
+  "tail": {"l8_mission": "Eight short phone games as JavaScript. First characters window.LMN_PACK."}
+}

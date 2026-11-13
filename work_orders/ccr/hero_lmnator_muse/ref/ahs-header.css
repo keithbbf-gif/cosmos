@@ -1,0 +1,20 @@
+/* solarolabs.com header logo: AHS corona mark (CFE 2026-10-19). Load after solaro.css. */
+/* Active Hollow Sun (AHS) v4 brand mark: the realistic eclipse corona (v3) at brand-mark size. Dark disc, white-hot limb, a
+   turbulent flame band (SVG feTurbulence + feDisplacementMap) and wispy streamers. Every layer is a static SVG raster on its own
+   compositor layer; motion is transform/opacity only (three flame rasters cross-fade, the streamers breathe). No JS, no inline styles. */
+.brand-mark.ahs-mark{position:relative;display:block;flex:none;width:40px;height:40px}
+.ahs-h-c-l{position:absolute;left:0;top:0;width:100%;height:100%;display:block;margin:0;padding:0;will-change:transform,opacity}
+.ahs-h-c-l svg{display:block;width:100%;height:100%;overflow:visible}
+.ahs-h-c-glow{animation:ahs-h-c-glow 1.73s ease-in-out infinite alternate}
+.ahs-h-c-sa{animation:ahs-h-c-sa 3.7s ease-in-out infinite alternate}
+.ahs-h-c-f0{animation:ahs-h-c-f0 1.9s ease-in-out infinite alternate}
+.ahs-h-c-f1{opacity:.55;animation:ahs-h-c-fx .83s ease-in-out infinite}
+.ahs-h-c-f2{opacity:.35;animation:ahs-h-c-fy 1.27s ease-in-out -.5s infinite}
+.ahs-h-c-disc{will-change:auto}
+@keyframes ahs-h-c-glow{0%{opacity:.5;transform:scale(.9)}35%{opacity:.95;transform:scale(1.08)}60%{opacity:.7;transform:scale(1)}100%{opacity:1;transform:scale(1.14)}}
+@keyframes ahs-h-c-sa{0%{transform:rotate(-7deg) scale(.94);opacity:.65}50%{opacity:1}100%{transform:rotate(7deg) scale(1.1);opacity:.8}}
+@keyframes ahs-h-c-f0{0%{transform:rotate(-5deg) scale(.95);opacity:.85}50%{opacity:1}100%{transform:rotate(5deg) scale(1.06);opacity:.9}}
+@keyframes ahs-h-c-fx{0%{opacity:0;transform:rotate(-3deg) scale(.96)}40%{opacity:1;transform:rotate(7deg) scale(1.05)}100%{opacity:0;transform:rotate(15deg) scale(1.08)}}
+@keyframes ahs-h-c-fy{0%{opacity:0;transform:rotate(4deg) scale(1.06)}45%{opacity:1;transform:rotate(-6deg) scale(.98)}100%{opacity:0;transform:rotate(-14deg) scale(1.04)}}
+@media (prefers-reduced-motion:reduce){ .brand-mark.ahs-mark *{animation:none!important}}
+@media (max-width:480px){.brand-mark.ahs-mark{width:38px;height:38px}}

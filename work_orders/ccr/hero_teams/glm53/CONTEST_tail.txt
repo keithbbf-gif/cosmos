@@ -1,0 +1,72 @@
+Let me analyze the requirements:
+
+- Entire reply is JavaScript, nothing else. First characters must be `window.LMN_PACK`.
+- Continue ids c96 through c100 only (5 games).
+- `players: "multi"`.
+- engines: rhythm, farm, quiz, match3, runner — in that order.
+- goals: 8, 4, 5, 8, 16.
+- speed: 1 or 2 (each game gets speed 1 or 2).
+- lives: 3.
+- title: original (I need to invent original titles).
+- inspired: a real mobile game (each game inspired by a real mobile game).
+- better one fun sentence — a description, one fun sentence, "better" phrasing like "better than X" style? Looking at the pattern, the "better" field seems to be a fun sentence comparing to the inspired game. Like "better" than the original because... a fun sentence.
+- No price. No buying.
+
+This appears to be a batch/pack format. The window.LMN_PACK suggests a structure like:
+
+```js
+window.LMN_PACK = [
+  {id:"c96", title:"...", players:"multi", engine:"rhythm", inspired:"Piano Tiles 2", better:"...", goal:8, speed:1, lives:3},
+  ...
+];
+```
+
+Since I don't have the exact prior schema, I need to infer. The pack continues c96 through c100. Games c96-c100, engines in order: rhythm, farm, quiz, match3, runner. Goals 8, 4, 5, 8, 16. Speed 1 or 2 — I can alternate, e.g., 2, 1, 2, 1, 2 or assign 1 or 2 each. Lives 3 for all. Players "multi".
+
+Titles: original titles. Inspired by real mobile games:
+- rhythm → inspired by "Piano Tiles 2"
+- farm → inspired by "Hay Day" or "Farm Heroes Saga"
+- quiz → inspired by "Trivia Crack" or "QuizUp"
+- match3 → inspired by "Candy Crush Saga" or "Bejeweled"
+- runner → inspired by "Subway Surfers" or "Temple Run"
+
+Better sentences: one fun sentence each explaining why it's better. E.g., "Better than Piano Tiles 2 because your rival taps the tiles beside you." Something like that.
+
+No price, no buying — so no mentions of money or purchases.
+
+Let me construct:
+
+```js
+window.LMN_PACK = window.LMN_PACK || [];
+window.LMN_PACK.push(
+  {id:"c96", title:"Beat Rivals", players:"multi", engine:"rhythm", inspired:"Piano Tiles 2", better:"Better than Piano Tiles 2 because you duel a friend on the same keyboard.", goal:8, speed:2, lives:3},
+  {id:"c97", title:"Harvest Hustle", players:"multi", engine:"farm", inspired:"Hay Day", better:"Better than Hay Day because plots are contested live instead of waiting.", goal:4, speed:1, lives:3},
+  {id:"c98", title:"Buzz Bout", players:"multi", engine:"quiz", inspired:"Trivia Crack", better:"Better than Trivia Crack because wrong answers are funny, not fatal.", goal:5, speed:1, lives:3},
+  {id:"c99", title:"Gem Grapple", players:"multi", engine:"match3", inspired:"Candy Crush Saga", better:"Better than Candy Crush Saga because swaps happen head-to-head.", goal:8, speed:2, lives:3},
+  {id:"c100", title:"Turbo Tunnel Dash", players:"multi", engine:"runner", inspired:"Subway Surfers", better:"Better than Subway Surfers because you race your friend down the tracks.", goal:16, speed:2, lives:3}
+);
+```
+
+Wait — "speed 1 or 2" — maybe means each game's speed is either 1 or 2. Fine.
+
+The whole reply must be JavaScript only, no prose, no code fences? "The entire reply is JavaScript and nothing else. First characters are window.LMN_PACK. No prose." So I should output raw JavaScript starting with `window.LMN_PACK`. No markdown code fences because then first characters would be ``` characters. So plain JS.
+
+Maybe also define a more complete object format. Since I don't have exact prior schema, I'll produce a reasonable flat array of objects. Alternatively assign window.LMN_PACK directly:
+
+```js
+window.LMN_PACK = [
+  {...}, ...
+];
+```
+
+But "Continue ids c96 through c100 only" suggests appending to an existing pack. Using push with a guard is safe. Or I could just assign the array with these five entries — but "continue" implies appending. Safer: push.
+
+Actually, maybe prior format is a single object per line like:
+
+window.LMN_PACK = {...}
+
+Without knowing, I'll do:
+
+window.LMN_PACK = (window.LMN_PACK || []).concat([...]);
+
+That's c

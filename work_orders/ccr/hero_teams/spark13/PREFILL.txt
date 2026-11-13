@@ -1,0 +1,1 @@
+Constructing four JavaScript objects with specified keys and abstract values under output constraints.Assigning title and inspired values while mapping remaining keys to the specified constraints.

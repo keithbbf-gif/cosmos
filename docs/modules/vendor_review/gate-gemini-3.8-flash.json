@@ -1,0 +1,16 @@
+{
+ "ok": true,
+ "model": "gemini-3.8-flash",
+ "reason": "OK",
+ "detail": "",
+ "tokens": {
+  "in": 317,
+  "out": 194,
+  "thinking": 1002,
+  "cached": 0
+ },
+ "usd": 0.003085,
+ "chars": 869,
+ "account": "patriotfuelstop.com@gmail.com",
+ "wallet_file": "vertex_patriotfuelstop.json"
+}

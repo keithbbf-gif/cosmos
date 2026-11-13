@@ -1,0 +1,31 @@
+{
+ "legend": {
+  "role": "CODER",
+  "model": "gemini-3.8-flash",
+  "harness_via": "vertex-coding medicineman VertexAIRail",
+  "wrapper": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\hero_dailyscar_crew\\02_editor\\WRAP.md",
+  "skills": [
+   "none extra"
+  ],
+  "tools": {
+   "allow": [
+    "none"
+   ],
+   "forbid": [
+    "grok.exe",
+    "git push",
+    "merge",
+    "USPTO"
+   ]
+  },
+  "enviro": {
+   "cwd": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\hero_dailyscar_crew\\02_editor",
+   "what": "text",
+   "optimum": "float",
+   "account": "medicineman.mme@gmail.com"
+  }
+ },
+ "mission": {
+  "item": "Bounded DailyScar pass. Stop at the cap."
+ }
+}

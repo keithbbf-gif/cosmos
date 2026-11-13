@@ -13,6 +13,10 @@ Keith 2026-09-10: *Keep your sandbox written to that drive as we go. Every
 ephemeral idea and work product — you take notes. That's canon for all
 future ORC and CCr sessions.* Path he named: `v:\a\ai\cosmos\ccr\sandbox_notes`.
 
+## 2026-10-12 Crystals — provisional
+
+ORC: read `ccr/sandbox_notes/CRYSTALS.md` first. Keith's definition, 2026-10-12: a k-crystal is distilled knowledge built during a session. It can be the tensors of the transfer function `M` in `y = M · x`, recovered from that session's inputs and outputs. Prose is ore. Noise, trash, and repeats fail. Provisional. Spidercaster holds the live-tree pen for the schema. The hero notes in `crystals/heroes/` used the word for a different public idea.
+
 ---
 
 ## 2026-09-10 fire-all (Keith: prompts checked twice, then all coders)

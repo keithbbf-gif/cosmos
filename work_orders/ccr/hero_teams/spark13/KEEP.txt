@@ -1,0 +1,1 @@
+Building a JavaScript object for window with four game entries and specified constraints.Constructing a JavaScript object literal with four game entries and required fields.

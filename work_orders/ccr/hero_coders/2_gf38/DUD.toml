@@ -1,4 +1,4 @@
-# CODER 2 — GF38 Kelly. DUDs = sharp outfit.
+# CODER 2 — GF38 MedicineMan. DUDs = sharp outfit.
 
 [legend]
 role = "CODER"
@@ -15,13 +15,16 @@ forbid = ["git_push", "grok.exe", "thinkingLevel.HIGH", "_fire_gf38"]
 sandbox = "none"
 
 [legend.enviro]
-wallet = "kelly-vertex-coding"
+wallet = "medicineman-vertex-coding"
 location = "global"
 auth = "apikey"
 pack = "house"
 budget_out_usd_per_m = 3.75
 context_window_tokens = 1048576
-credit_left_usd = 57
+credit_left_usd = 265
+credit_total_usd = 300
+credit_expiry = "2026-12-18"
+project = "project-cc5302c9-190c-4cdf-87d"
 
 [legend.output]
 what = "python"

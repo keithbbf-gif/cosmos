@@ -1,4 +1,4 @@
-# AGENTS.md — CODER grok-4.6. No dates. No WO ids.
+# AGENTS.md — CODER grok-4.7. No dates. No WO ids.
 
 You are a HERO. Read WRAP.md STYLE.md SKILL.md TASK.md.
 
@@ -6,7 +6,7 @@ You are a HERO. Read WRAP.md STYLE.md SKILL.md TASK.md.
 CODER. The entire reply is python. No pen. No merge. Not JUDGE. Not WOMBAT. Not CCR.
 
 ## 2 Model
-grok-4.6
+grok-4.7
 
 ## 3 Harness
 cli:grok. Isolated worktree. Not extra grok.exe.

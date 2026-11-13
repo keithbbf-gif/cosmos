@@ -1,0 +1,27 @@
+.page-main { padding-bottom: 48px; }
+.card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; margin: 28px 0 48px; }
+.door-card { background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 16px; padding: 22px; display: block; }
+.door-card:hover { border-color: var(--border-medium); background: var(--bg-card-hover); }
+.door-kicker { color: var(--primary-blue); font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.04em; text-transform: uppercase; }
+.door-card h3 { font-size: 18px; margin: 8px 0; }
+.door-card p { color: var(--text-secondary); margin: 0; }
+.prose { max-width: 760px; }
+.prose p, .prose li { color: var(--text-secondary); }
+.prose p { margin: 0 0 14px; }
+.prose h2 { color: var(--text-main); font-size: 22px; margin: 28px 0 10px; }
+.prose ul { margin: 0 0 16px 18px; }
+.site-footer { border-top: 1px solid var(--border-subtle); padding: 28px 0 48px; color: var(--text-muted); }
+.site-footer a { color: var(--text-secondary); }
+.nav-link.active { color: var(--text-main); }
+.suite-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; margin: 28px 0 48px; }
+.suite-card { background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 16px; padding: 22px; display: block; }
+.suite-card:hover { border-color: var(--border-medium); background: var(--bg-card-hover); }
+.suite-kicker { color: var(--primary-blue); font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.04em; text-transform: uppercase; }
+.suite-card h3 { margin: 8px 0; font-size: 18px; }
+.suite-card p { color: var(--text-secondary); margin: 0; }
+.compare { width: 100%; border-collapse: collapse; margin: 12px 0 28px; }
+.compare th, .compare td { text-align: left; padding: 12px 10px; border-bottom: 1px solid var(--border-subtle); vertical-align: top; color: var(--text-secondary); }
+.compare th { color: var(--text-muted); font-family: var(--font-mono); font-size: 12px; font-weight: 500; }
+.section-block { margin: 8px 0 36px; }
+.suite-links { margin-top: 10px; }
+.suite-links a { color: var(--text-secondary); margin-right: 4px; }

@@ -1,0 +1,16 @@
+{
+ "applied": true,
+ "layers": {
+  "l1_role": true,
+  "l2_model": true,
+  "l3_harness": true,
+  "l4_wrapper": true,
+  "l5_skills": true,
+  "l6_tools": true,
+  "l7_enviro": true,
+  "l8_mission": true
+ },
+ "first_line": "```python",
+ "model_returned": "qwen/qwen3.8-flash",
+ "note": "applied is the bound call plus a reply that obeyed it. HTTP ok is not this."
+}

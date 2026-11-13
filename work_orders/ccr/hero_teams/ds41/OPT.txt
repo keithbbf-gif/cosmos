@@ -1,0 +1,39 @@
+Thinking Process:
+
+1.  **Analyze the Request:** The user wants to add four more objects to the existing `window.LMN_PACK` array in JavaScript.
+2.  **Input Structure/Constraints:**
+    *   The entire output must be valid JavaScript.
+    *   The file must start with `window.LMN_PACK = window.LMN_PACK || [];` (or continue from the initialized state).
+    *   The structure must match the example: `{id: "...", title: "...", inspired: "...", players: "...", engine: "...", better: "...", goal: N, speed: N, lives: N}`.
+    *   IDs: `c311`, `c312`, `c313`, `c314`.
+    *   Players: `single`.
+    *   Engines (in order): `match3`, `blast`, `runner`, `stack`.
+    *   Goals: 8, 8, 16, 8.
+    *   Speed: 2 (all).
+    *We need produce JS code only? "The whole reply is JavaScript. First characters are window.LMN_PACK. Copy the keys in the example. Do not rename them. Do not assign window.LMN_PACK to {}. Do not explain." Need add four objects same keys. Keys from example: id,title,inspired,players,engine,better,goal,speed,lives. Need ids c311 c312 c313 c314. players single. engines order match3, blast, runner, stack. goals 8,8,16,8. speed 2. lives 3. title original. inspired real mobile game. better near-miss, one tile short or blink late. No price. Need ensure JS valid. We can append push with array? They said "Now four more objects, same keys, nothing else." Whole reply JavaScript. First chars window.LMN_PACK. We already have initial assignment in prompt? The reply should be JavaScript. Likely include initial line? "First characters are window.LMN_PACK. Copy the keys in the example. Do not rename them. Do not assign window.LMN_PACK to {}. Do not explain." It may expect continuing code? We can produce:
+
+window.LMN_PACK = window.LMN_PACK || [];
+window.LMN_PACK.push({id:"c000",...}); // maybe should we include original? "Now four more objects" likely only four new objects. But "The whole reply is JavaScript. First characters are window.LMN_PACK. Copy the keys in the example." We need include window.LMN_PACK = window.LMN_PACK || []; then pushes for four. If only four objects, first characters still window.LMN_PACK. Do not assign to {}. Okay.
+
+Need choose real mobile games for inspired: Candy Crush? But c000 already Candy Crush. Four inspired real mobile games: match3 -> Bejeweled? real mobile? "Candy Crush Saga" is real mobile. For c311 match3 inspired "Bejeweled Blitz" or "Homescapes". Need original title. c312 blast inspired "Toon Blast". c313 runner inspired "Subway Surfers". c314 stack inspired "Tower Bloxx"? Real mobile game "Stack" by Ketchapp. Good.
+
+Need "better is a near-miss, one tile short or a blink late." For each:
+c311 match3: "The last cherry lined up one tile shy of the five-cascade; the timer took the rest." goal 8 speed2 lives3.
+c312 blast: "The rocket cleared the row but left one crate standing as the moves ran out." 
+c313 runner: "A jump launched a blink late and clipped the barrier by a pixel."
+c314 stack: "The tower toppled one block short of the height bonus as the stack swayed."
+
+Need titles original:
+c311 "Plum Cascade" maybe original.
+c312 "Crate Comet" or "Blast Basket"
+c313 "Rooftop Rush"
+c314 "Block Balance"
+
+Need ensure no price. Same keys exactly. Use JSON-like objects. "nothing else" means no comments? Fine.
+
+Let's craft code:
+
+window.LMN_PACK = window.LMN_PACK || [];
+window.LMN_PACK.push({id:"c311",title:"Plum Cascade",inspired:"Bejeweled Blitz",players:"single",engine:"match3",better:"The last cherry lined up one tile shy of the five-cascade; the timer took the rest.",goal:8,speed:2,lives:3});
+window.LMN_PACK.push({id:"c312",title:"Crate Comet",inspired:"Toon Blast",players:"single",engine:"blast",better:"The rocket cleared the row but left one crate standing as the moves ran out.",goal:8,speed:2,lives:3});
+window.LMN_PACK.push({id:"c313",title:"Rooftop Rush",inspired:"Subway Surfers",players:"single",engine:"runner",better:"A jump launched a blink late and clipped the barrier by a pixel.",goal:16,speed:2,lives:3}

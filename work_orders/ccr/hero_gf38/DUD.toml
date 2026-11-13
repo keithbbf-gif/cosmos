@@ -1,4 +1,4 @@
-# GF38 Kelly JUDGE DUD — same Mission #587. Not Medicine Man. Not ADC.
+# GF38 MedicineMan JUDGE DUD — active Vertex rail. Not ADC.
 
 [legend]
 role = "JUDGE"
@@ -18,12 +18,12 @@ sandbox = "none"
 [legend.enviro]
 cwd = "V:\\A\\Ai\\COSMOS"
 pack = "house"
-wallet = "kelly-vertex-coding"
+wallet = "joanna-vertex"  # joanna.bbf / project-5a33f910-1251-4d6a-bf9; key V:\\Streams\\openwork\\.secrets\\vertex_key.txt; no Kelly, no OpenRouter fallback
 location = "global"
 auth = "apikey"
 budget_out_usd_per_m = 3.75
 context_window_tokens = 1048576
-credit_left_usd = 57
+credit_left_usd = 265  # MedicineMan ($300 total, $35 used); expires 2026-12-18
 
 [legend.output]
 what = "text"

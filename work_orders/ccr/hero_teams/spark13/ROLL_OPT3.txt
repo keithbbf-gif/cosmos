@@ -1,0 +1,1 @@
+Generating a JavaScript object with specified IDs and parameters while omitting prose and price.Mapping the four IDs to engines and goals while drafting original titles and a near-miss description.Drafting four JS objects with required fields and validating no price field is present.

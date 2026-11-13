@@ -1,0 +1,16 @@
+{
+ "runner": "_summon_or_hero.py",
+ "model_requested": "meta/muse-spark-1.3-contributor",
+ "system_sha": "8ed87e5683a276f1",
+ "system_is_wrap": true,
+ "style_in_system": false,
+ "skill_in_system": false,
+ "user_sha": "453c9d73879c6693",
+ "user_is_task": true,
+ "tools_offered": [
+  "write"
+ ],
+ "forbid_offered": [],
+ "writes_serial": true,
+ "call_order": "system=WRAP, user=TASK, tools, then tool-result loop"
+}

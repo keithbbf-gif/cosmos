@@ -1,0 +1,30 @@
+Here's a thinking process that leads to the desired output:
+
+1.  **Analyze the Request & Constraints:**
+    *   **Output Format:** Must be pure JavaScript.
+    *   **Prefix:** Must start with `window.LMN_PACK = window.LMN_PACK || [];`
+    *   **Function:** Must use `window.LMN_PACK.push(the objects in the mission);`
+    *   **Tone/Structure:** No prose before or after.
+    *   **Tool Restriction:** Do not call a tool, do not start `grok.exe`.
+    *   **Mission Details:**
+        *   **IDs:** c167 through c174 (8 IDs total).
+        *   **Players:** Single.
+        *   **Engine Order (must be used once each):** match3, blast, runner, stack, merge, memory, snake, breakout.
+        *   **Specific Engine Goal Data:**
+            *   match3: 8
+            *   blast: 8
+            *   runner: 16
+            *   stack: 8
+            *   merge: 5
+            *   memory: 6
+            *   snake: 8
+            *   breakout: 18
+            *   WhWe need answer in JavaScript only, first chars window.LMN_PACK. Need emit objects ids c167 through c174. Players single. Engines in order: match3, blast, runner, stack, merge, memory, snake, breakout. One each. Goals mapping? They list goals many: match3 8, blast 8, runner 16, stack 8, merge 5, memory 6, snake 8, breakout 18, whack 8, slide 1, word 1, idle 40, cards 5, lane 12, board 10, rhythm 8, farm 4, quiz 5. But only 8 engines for 8 games. Need likely each object goal corresponding engine? We have 8 ids and 8 engines. The extra goals likely distract? Need use appropriate goal for each engine: match3 8, blast 8, runner 16, stack 8, merge 5, memory 6, snake 8, breakout 18. Need speed 1 or 2, lives 3. title original. inspired a real mobile game. better one sentence about a near-miss. No price/buying/tokens.
+
+Need output array push objects. Need include fields? Existing pack? We don't know schema. Mission says "Emit ids... players single. Use engines... Goals... speed... lives... title original. inspired a real mobile game. better one sentence about a near-miss. No price..." Likely object schema includes id, engine, goal, speed, lives, players, title, inspiredBy? nearMiss? Maybe "better" maybe "blurb"? Need infer from LMN_PACK tasks. Could be game config objects. Need produce valid JS. Need not call tools. Need no prose. Need "window.LMN_PACK = window.LMN_PACK || []; window.LMN_PACK.push(...);" first characters. Need objects likely:
+{id:"c167", engine:"match3", goal:8, speed:1, lives:3, players:1, title:"...", inspired:"...", better:"..."}
+Need title original. "inspired a real mobile game." likely field "inspiredBy": "Candy Crush Saga". "better one sentence about a near-miss." Hm could mean "better" field? Maybe "nearMiss" field one sentence. The phrase "better one sentence about a near-miss" likely asks include "better" as a sentence? Maybe "better:"? Could be "better" field in schema? Let's parse: "title original. inspired a real mobile game. better one sentence about a near-miss." They might require fields: title, inspired, better? Maybe "better" means "write one sentence about a near-miss" — perhaps field "nearMiss". Need include. Maybe "better" is field name? "better one sentence about a near-miss" = "better" field should be one sentence about near-miss? Hmm.
+
+Need create 8 original titles. Inspired by real mobile games: match3 inspired Candy Crush; blast inspired Toon Blast; runner inspired Subway Surfers; stack inspired Stack; merge inspired 2048? Merge Dragons? memory inspired Memory; snake inspired Snake.io; breakout inspired Breakout. Near-miss sentence each. No price etc. Maybe include "nearMiss" sentence. Need avoid trademark? "inspired" can name real game. Fine.
+
+Need decide player value: "players": "single" or 1? They say "players single." Existing schema likely players: "single". Use "players":"single" maybe. But many game configs use players: 1. Mission says "players single" likely field "players": "single". Need follow exact? We can use "players": "single". Could also include "m

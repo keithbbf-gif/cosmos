@@ -1,0 +1,36 @@
+The user wants a JavaScript code block, starting with `window.LMN_PACK`, which will contain a configuration for a game.
+
+This configuration needs to specify:
+1.  **IDs**: `c167` through `c174` (8 IDs).
+2.  **Players**: Single player mode.
+3.  **Engines (in order)**: `match3`, `blast`, `runner`, `stack`, `merge`, `memory`, `snake`, `breakout`.
+4.  **Goals**: `8`, `8`, `16`, `8`, `5`, `6`, `8`, `18`.
+5.  **Speed**: `2`.
+6.  **Lives**: `3`.
+7.  **Title**: "original" (This likely refers to the name of the game configuration).
+8.  **Inspiration**: A real mobile game (The user implies the content is inspired by a real mobile game).
+9.  **Description**: A better one short near-miss sentence.
+10. **Price**: No price.We need answer only JS? User asks "Emit ids c167 through c174. players single. Engines in order: match3, blast, runner, stack, merge, memory, snake, breakout. Goals 8, 8, 16, 8, 5, 6, 8, 18. speed 2. lives 3. title original. inspired a real mobile game. better one short near-miss sentence. No price."
+
+We need infer task: likely generating game metadata entries/ids c167..c174. Need produce JS? "The whole reply is JavaScript. First characters are window.LMN_PACK. No prose." They specify first chars window.LMN_PACK. So output JS assignment window.LMN_PACK = ...? Need include ids c167 through c174 with players single, engines in order, goals, speed 2, lives 3, title original, inspired a real mobile game, better one short near-miss sentence. No price. We need craft titles original inspired by real mobile games per engine, with "better one short near-miss sentence" likely each entry has "inspiredBy" and "better" sentence? Need understand schema from previous? We don't have. Need decide format. "Emit ids c167 through c174. players single. Engines in order: match3, blast, runner, stack, merge, memory, snake, breakout. Goals 8, 8, 16, 8, 5, 6, 8, 18. speed 2. lives 3. title original. inspired a real mobile game. better one short near-miss sentence. No price."
+
+Maybe they expect array of objects with id, title, engine, players, goal, speed, lives, inspired, better. Need no price field. "Emit ids c167 through c174" means assign id sequentially. "players single" field players: "single". "Engines in order..." map each id to engine. "Goals..." map. speed 2 all. lives 3 all. "title original" means title original not copying. "inspired a real mobile game" means include inspiredBy real mobile game (maybe generic title). "better one short near-miss sentence" means include "better" field a short sentence describing near-miss? Need parse: "better one short near-miss sentence" maybe they want "better" as a sentence saying how game is better than inspired game, but "near-miss" means almost same but not exact? Hmm.
+
+This likely from a prompt style for game pack generation. Need produce JavaScript containing LMN_PACK. Need exact ids c167-c174. Need titles original. Inspired by real mobile games. Better one short near-miss sentence. No price. Need perhaps "better" field one short near-miss sentence per game. We can do.
+
+Let's construct array. Need ensure first characters exactly "window.LMN_PACK". Could be `window.LMN_PACK = { ... }` or array. Need no prose. Need likely include "items": [ ... ]. But we can choose. Maybe previous packs use object. Need all fields.
+
+We need map:
+c167 match3 goal 8 speed2 lives3
+c168 blast goal8
+c169 runner goal16
+c170 stack goal8
+c171 merge goal5
+c172 memory goal6
+c173 snake goal8
+c174 breakout goal18
+
+Need "title original. inspired a real mobile game." For each engine choose inspired real mobile game:
+match3 -> Candy Crush Saga (inspired). Original title e.g. "Gem Jumble: Sweet Swap" but avoid trademark? "Gem Orchard" inspired by Candy Crush. Better sentence: "Same match-three sparkle, but combos cascade with fewer dead boards." Short near-miss sentence. "better" field maybe "Near-miss: ..." Hmm.
+
+blast -> Candy Crush? Blast engine likely "blast" puzzle like Toon Blast. Inspired by Toon Blast. Title "Bubble Bloom B

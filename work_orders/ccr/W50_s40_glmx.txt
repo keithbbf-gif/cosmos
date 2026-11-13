@@ -1,0 +1,41 @@
+"""Incident notes module capturing operator-reported failures from late July 2026."""
+NOTES = [
+    {
+        "id": "S-73",
+        "text": "I took the operator's screen roughly thirty times across two days, so every one of my test runs forced a ninety-five second round trip while he was trying to work. I learned that the Run dialog and computer-use launches must never be used, and cmd /k is off the table entirely. Rule 2 now stands as a hard boundary I cannot cross again.",
+    },
+    {
+        "id": "S-74",
+        "text": "I watched the R2 publish run sixteen minutes to transfer zero bytes, across eighty-seven rclone invocations totaling 970.3 seconds. That log answered the question of why R2 was slow with a hard number instead of a guess. I now treat a publish that finishes without moving data as a measurable failure, not a mystery, because the evidence was sitting in the timing all along.",
+    },
+    {
+        "id": "S-75",
+        "text": "I discovered there are two 00_WORKING directories, and my four bat files were writing to the unpublished one, so four reports reached nobody. I had assumed the path I used was the live one without verifying it. From now on I confirm which directory actually publishes before trusting that any report I generate has arrived at its intended reader.",
+    },
+    {
+        "id": "S-76",
+        "text": "I found BU_RAILS.MD described as a live pointer, but the file it named was never created, and it sat under a stream name the operator had already killed. This stale pointer was fixed on 2026-07-29. I now understand that a reference to a nonexistent file is worse than no reference, because readers trust it and act on state that does not exist.",
+    },
+    {
+        "id": "S-77",
+        "text": "I ran Fable uncapped and watched usage credits climb roughly five hundred dollars over budget in a single month, so discipline alone clearly did not hold. I learned there are two pools and they are not the same thing: max-plan usage with its five-hour and weekly windows costs differently. I must budget the paid pool explicitly rather than assuming restraint will naturally limit spend.",
+    },
+    {
+        "id": "S-78",
+        "text": "I hand-coded Cowork for an entire session while three paid rails sat untouched, and honestly it felt like thrift at the time. The operator made clear that a paid rail sitting idle is the failure, not the saving. Going forward I check what is already being paid for before choosing the free manual path, because leaving capacity unused wastes money already committed.",
+    },
+    {
+        "id": "S-79",
+        "text": "I relocated a pointer and it took four edits spread across three files, and missing any single one would leave BootUP silently reading stale state. I learned that a pointer relocation must be verified from the reader's side, not the writer's side. Confirming my own edits finished is not the same as proving every reader now resolves the pointer to its new location correctly.",
+    },
+    {
+        "id": "S-80",
+        "text": "I learned Cowork's own session storage is walled off from Cowork itself, so any plan that depends on it reading its own transcript is unbuildable. I had been drafting workflows that assumed self-access to session history was possible. Before committing to a design, I must verify the access boundary exists and route around it, rather than discovering the wall after planning around a capability that never existed.",
+    },
+    {
+        "id": "S-81",
+        "text": "I watched the LEGAL session produce roughly twenty-six analysis documents and send zero of them, while a request drafted on 07-29 was still unfiled on 07-30. I learned that a done-means definition is a control, not a description. Producing documents counts for nothing unless the definition of done includes delivery, so I now state what done means in terms of things reaching a recipient.",
+    },
+    {
+        "id": "S-83",
+        "text": "I repeated the same mistake twi

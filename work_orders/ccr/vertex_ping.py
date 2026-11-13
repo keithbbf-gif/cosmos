@@ -24,7 +24,7 @@ BODY = json.dumps({
 }).encode()
 
 ACCOUNTS = [
-    ("joanna.bbf@gmail.com", "vertex_key.txt", "project-5a33f910-1251-4d6a-bf9"),
+    # DEAD 2026-10-13: joanna.bbf@gmail.com expired, key DEAD — never ping.
     ("orders.ggn@gmail.com", "vertex_coding_key.txt", "project-10b3a132-ec5b-41e9-a2c"),
     ("medicineman.mme@gmail.com", "vertex_medicineman_key.txt", "project-cc5302c9-190c-4cdf-87d"),
     ("patriotfuelstop.com@gmail.com", "vertex_patriotfuelstop_key.txt", "project-3cce004b-198c-45f3-81a"),

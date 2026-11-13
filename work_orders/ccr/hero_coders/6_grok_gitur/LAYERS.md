@@ -1,8 +1,8 @@
-# CODER 6 DUDs — Grok 4.6 Cursor Gitur BUILD (sharp outfit)
+# CODER 6 DUDs — Grok 4.7 Cursor Gitur BUILD (sharp outfit)
 
 **1 Role** CODER. **Not** CCr (G46 holds the pen). **Not** extra `grok.exe`.
 
-**2 Model** grok-4.6 **native Cursor Models**. Not Composer 2.5 (CHECK only).
+**2 Model** grok-4.7 **native Cursor Models**. Not Composer 2.5 (CHECK only).
 
 **3 Harness** **Cursor Cloud Agent** / Gitur. `starting_ref: main`. One job one PR. Not this TUI. Not `grok --single`.
 

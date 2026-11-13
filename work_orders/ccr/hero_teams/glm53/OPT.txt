@@ -1,0 +1,54 @@
+The user wants me to output JavaScript code, starting with `window.LMN_PACK`. The first line pattern from the example:
+
+```
+window.LMN_PACK = window.LMN_PACK || [];
+window.LMN_PACK.push({id:"c000",title:"Orchard Burst",inspired:"Candy Crush Saga",players:"single",engine:"match3",better:"...",goal:8,speed:1,lives:3});
+```
+
+Now I need four more objects with same keys: id, title, inspired, players, engine, better, goal, speed, lives.
+
+Requirements:
+- ids: c319, c320, c321, c322
+- players: multi
+- engines in order: blast, stack, merge, snake
+- goals: 8, 8, 5, 8
+- speed: 2
+- lives: 3
+- title: original (invented)
+- inspired: a real mobile game
+- better: a near-miss description, "one tile short or a blink late" — no price mentioned.
+
+Real mobile games for inspiration:
+- blast engine → inspired by "Toon Blast" or "Bomb Crew"? Toon Blast is real mobile game (Peak Games). Or "Angry Birds"? blast... "Toon Blast" fits.
+- stack engine → "Stack" (Ketchapp) is a real mobile game. Or "Tower Builder"? "Stack" by Ketchapp is real.
+- merge engine → "2048" (mobile) or "Merge Dragons!" or "Merge Magic!" — 2048 is real mobile. Or "Suika Game"? That's merge (watermelon). Suika Game / Watermelon Game is real mobile. "Merge Dragons!" also real.
+- snake engine → "Snake" classic mobile game, or "Snake.io" (real mobile game). "slither.io" is mobile too. "Snake vs Block" is a real mobile game. Let's use "Snake vs Block!" — actually it's "Snake VS Block" by Voodoo, real.
+
+Titles (original, invented):
+1. blast: "Fruit Fallout" or "Cinder Cascade" — let's craft. Engine blast like Toon Blast — tile matching blast. Title: "Bloom Blaster"? Must be original, so something like "Petal Pop Panic"? Keep original.
+2. stack: "Skyward Spire" or "Crane Stack".
+3. merge: "Berry Forge"? "Fusion Grove"?
+4. snake: "Coil Rush" or "Serpent Sprint".
+
+Better descriptions: near-miss, one tile short or a blink late:
+1. "One tile short of the quad blast, so the combo fizzled right before the final move." Hmm, "no price" — avoid mentioning coins/gems/prices. Keep like example: "Three plums sat one swap from the cascade, so the thumb goes back for that move."
+
+Better sentences:
+1. blast: "The last cluster needed one more tile, so the board reset a blink before the bomb chain."
+2. stack: "The spire tipped one blink late, and the block was half a tile from the ledge."
+3. merge: "Two stones sat one merge short of the golden tier, so the board froze mid-swap."
+4. snake: "The tail clipped a wall a blink late, and the run ended one pellet shy of the goal."
+
+Goals 8, 8, 5, 8; speed 2; lives 3. Note goal 5 for merge.
+
+Format: copy keys exactly in order: id, title, inspired, players, engine, better, goal, speed, lives.
+
+First characters must be `window.LMN_PACK`. Should I include the first line `window.LMN_PACK = window.LMN_PACK || [];` again? The instruction says "Copy the keys in the example. Do not rename them. Do not assign window.LMN_PACK to {}." So I should start with `window.LMN_PACK = window.LMN_PACK || [];` then pushes. "Now four more objects, same keys, nothing else." So output:
+
+```
+window.LMN_PACK = window.LMN_PACK || [];
+window.LMN_PACK.push({id:"c319",...});
+...4 pushes...
+```
+
+Whole reply is JavaScript. No explanation. Ensure no

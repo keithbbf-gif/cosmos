@@ -196,6 +196,31 @@ def run(wo_path: Path, dry_run: bool) -> int:
             "--ignore-user-config", "--skip-git-repo-check",
             "--sandbox", "read-only", "-m", model, "--", mission,
         ]
+    elif h.startswith("cli:grok") or "grok" in h:
+        (cwd / "TASK.md").write_text(mission, encoding="utf-8")
+        grok_bin = r"C:\Users\Papa\.grok\bin\grok.exe"
+        if not Path(grok_bin).exists():
+            grok_bin = "grok"
+        argv = [
+            grok_bin,
+            "--always-approve",
+            "--permission-mode", "bypassPermissions",
+            "--cwd", str(cwd),
+            "--prompt", "Read AGENTS.md and TASK.md in this directory. Complete TASK.md. Stay in this directory.",
+        ]
+    elif "vertex" in h or h == "gem-api":
+        (cwd / "TASK.md").write_text(mission, encoding="utf-8")
+        task_esc = str(cwd / "TASK.md").replace("\\", "/")
+        vrail_dir = str(Path(r"V:\a\ai\COSMOS\tokenctr")).replace("\\", "/")
+        code_snip = (
+            f"import sys; sys.path.insert(0, '{vrail_dir}'); "
+            f"import cosmos_pay_vertex_rail as v, pathlib; "
+            f"r = v.VertexAIRail(); "
+            f"text = pathlib.Path('{task_esc}').read_text(encoding='utf-8'); "
+            f"res, code, c = r.chat({{'model': '{model or 'gemini-3.8-flash'}', 'messages': [{{'role': 'user', 'content': text}}]}}); "
+            f"print(res['choices'][0]['message']['content'])"
+        )
+        argv = [sys.executable, "-c", code_snip]
     else:
         print(f"ERROR: unknown L3 harness: {harness}", file=sys.stderr)
         return 2

@@ -1,0 +1,30 @@
+{
+ "legend": {
+  "role": "CODER",
+  "model": "qwen/qwen3.8-flash",
+  "harness_via": "openrouter summon_or_hero.py",
+  "wrapper": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\hero_write_test\\C_qwen\\WRAP.md",
+  "skills": [
+   "none extra"
+  ],
+  "tools": {
+   "allow": [
+    "write"
+   ],
+   "forbid": [
+    "grok.exe",
+    "git push",
+    "merge",
+    "USPTO"
+   ]
+  },
+  "enviro": {
+   "cwd": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\hero_write_test\\C_qwen",
+   "what": "python",
+   "optimum": "float"
+  }
+ },
+ "mission": {
+  "item": "Retell ten scars. First person. No new facts."
+ }
+}

@@ -1,0 +1,44 @@
+Let me analyze the input carefully. Each line has an id, date, a text block, and a lesson. I need to create a Python module with a docstring and a NOTES list containing dicts with id and text keys. The text should be 45-65 words, first person, anonymous, and should not add names, paths, emails, or facts not in the line.
+
+Let me look at each entry and craft the text field to be 45-65 words, first person, incorporating the content from the line.
+
+Let me draft each one:
+
+S-42: "The daily rail-health task was blind for seven days because its connected-folder set is not a file anyone can edit. The rail check no longer needs a mount. The Cowork task free-tier-allotment-check was blind for"
+I need to make this 45-65 words, first person. Let me write it as a personal note.
+
+Let me count words carefully for each.
+
+S-42 text (first person, anonymous, 45-65 words):
+"I was running the daily rail-health task for seven days and it returned nothing because the connected-folder set is not a file anyone can edit. The rail check no longer needs a mount. The Cowork task free-tier-allotment-check was also blind for the same reason."
+Let me count: I(1) was(2) running(3) the(4) daily(5) rail-health(6) task(7) for(8) seven(9) days(10) and(11) it(12) returned(13) nothing(14) because(15) the(16) connected-folder(17) set(18) is(19) not(20) a(21) file(22) anyone(23) can(24) edit(25). The(26) rail(27) check(28) no(29) longer(30) needs(31) a(32) mount(33). The(34) Cowork(35) task(36) free-tier-allotment-check(37) was(38) also(39) blind(40) for(41) the(42) same(43) reason(44).
+
+That's 44 words. Need at least 45. Let me adjust.
+
+"I was running the daily rail-health task for seven days and it returned nothing because the connected-folder set is not a file anyone can edit. The rail check no longer needs a mount. The Cowork task free-tier-allotment-check was also blind for the same underlying reason."
+
+Count: ...same(43) underlying(44) reason(45). That's 45. Good.
+
+Let me do all of them carefully.
+
+S-43: "GDX blocked, needs re-auth" was too broad — one of three paths was down and I wrote it as all three. Nothing Cowork does is waiting on
+"I wrote 'GDX blocked, needs re-auth' as the error note but that was too broad because only one of three paths was actually down. I wrote it as if all three were failing. Nothing Cowork does is waiting on that broad label."
+Count: I(1) wrote(2) 'GDX(3) blocked(4) needs(5) re-auth'(6) as(7) the(8) error(9) note(10) but(11) that(12) was(13) too(14) broad(15) because(16) only(17) one(18) of(19) three(20) paths(21) was(22) actually(23) down(24). I(25) wrote(26) it(27) as(28) if(29) all(30) three(31) were(32) failing(33). Nothing(34) Cowork(35) does(36) is(37) waiting(38) on(39) that(40) broad(41) label(42).
+
+That's 42. Need more. Let me redo.
+
+"I wrote 'GDX blocked, needs re-auth' as the error note but that was too broad because only one of three paths was actually down. I wrote it as if all three were failing. Nothing Cowork does is waiting on that broad label anymore."
+
+That's 43. Still need more.
+
+"I wrote 'GDX blocked, needs re-auth' as the error note but that was too broad because only one of three paths was actually down and I wrote it as if all three were failing. Nothing Cowork does is waiting on that broad label anymore."
+
+Count: I(1) wrote(2) 'GDX(3) blocked(4) needs(5) re-auth'(6) as(7) the(8) error(9) note(10) but(11) that(12) was(13) too(14) broad(15) because(16) only(17) one(18) of(19) three(20) paths(21) was(22) actually(23) down(24) and(25) I(26) wrote(27) it(28) as(29) if(30) all(31) three(32) were(33) failing(34). Nothing(35) Cowork(36) does(37) is(38) waiting(39) on(40) that(41) broad(42) label(43) anymore(44).
+
+44 words. One more.
+
+"I wrote 'GDX blocked, needs re-auth' as the error note but that was too broad because only one of three paths was actually down and I wrote it as if all three were failing. Nothing Cowork does is waiting on that broad label anymore today."
+
+45 words. Good.
+
+S-44: "Every doc in the t

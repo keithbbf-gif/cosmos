@@ -1,0 +1,39 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>LMN site_new load test</title></head><body><div id="play"></div><div id="proposal"></div><pre id="out"></pre>
+<script src="../site/engines.js"></script>
+<script src="APPLY_SETTINGS.js"></script>
+<script src="pack-enh-c1.js"></script>
+<script src="pack-enh-c2.js"></script>
+<script src="pack-enh-c3.js"></script>
+<script src="pack-enh-c4.js"></script>
+<script src="pack-enh-m.js"></script>
+<script src="pack-enh-s.js"></script>
+<script src="pack-teamA-01.js"></script>
+<script src="pack-teamA-02.js"></script>
+<script src="pack-teamA-03.js"></script>
+<script src="pack-teamA-04.js"></script>
+<script src="pack-teamB-multi-c1.js"></script>
+<script src="pack-teamB-multi-c2.js"></script>
+<script src="pack-teamB-multi-c3.js"></script>
+<script src="pack-teamB-multi-m.js"></script>
+<script src="pack-teamB-multi-s.js"></script>
+<script src="pack-teamB-new.js"></script>
+<script src="pack-teamB-priority.js"></script>
+<script src="pack-teamC-01.js"></script>
+<script src="pack-teamC-02.js"></script>
+<script src="levels-s.js"></script>
+<script src="levels-m.js"></script>
+<script src="levels-c.js"></script>
+<script src="modes-s.js"></script>
+<script src="modes-m.js"></script>
+<script src="modes-c.js"></script>
+<script src="engines-new-proposals.js"></script>
+<script>
+var out = { pack: (window.LMN_PACK || []).length, levels: (window.LMN_LEVELS || []).length, modes: (window.LMN_MODES || []).length, play: typeof window.LMN_PLAY, proposals: Object.keys(window.LMN_ENGINES_NEW || {}) };
+var ids = {}; var dup = [];
+(window.LMN_PACK || []).forEach(function (g) { if (ids[g.id]) dup.push(g.id); ids[g.id] = 1; });
+out.dup = dup.length;
+out.has_t101 = !!ids.t101; out.has_e101 = !!ids.e101; out.has_t201 = !!ids.t201; out.has_t301 = !!ids.t301;
+try { window.LMN_PLAY(window.LMN_PACK.filter(function (g) { return g.id === "t101"; })[0], document.getElementById("play")); out.t101 = document.getElementById("play").innerHTML.length; } catch (e) { out.t101_error = String(e); }
+try { window.LMN_ENGINES_NEW.snake4({ title: "Snake four-way", engine: "snake4", goal: 4, speed: 1 }, document.getElementById("proposal")); out.down = document.getElementById("proposal").innerHTML.indexOf("Down") >= 0; } catch (e) { out.proposal_error = String(e); }
+document.getElementById("out").textContent = JSON.stringify(out);
+</script></body></html>

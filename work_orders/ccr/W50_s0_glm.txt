@@ -1,0 +1,43 @@
+"""Retrospective notes module."""
+NOTES = [
+    {
+        "id": "S-31",
+        "text": "I inherited a handoff that claimed backup_to_onedrive.py was patched, and found it was not, on either tree. Nothing had verified the fix. I now treat a handoff recording an unverified fix as worse than one recording the bug, because it hides active breakage behind a false done.",
+    },
+    {
+        "id": "S-32",
+        "text": "A migration I ran rewrote a broken path into a differently-broken one, and I nearly missed it. Win32_SystemSlot reported all seven PCIe slots free, including the one holding the GPU. I learned a migration does not repair broken paths; it can silently relocate the same failure.",
+    },
+    {
+        "id": "S-33",
+        "text": "SGH fabricated the Au 5d citation 10.1002/adma.201906478, and then five documents spent four days instructing the next session to replace a citation that was never inserted. I closed this out on 2026-07-17: the guard worked, but the TODO itself was the bug.",
+    },
+    {
+        "id": "S-34",
+        "text": "I found that a node's DOI can be real while its title is fabricated. GEM and SGH handed back 10.1103/PhysRevB.20.4126 with a plausible but invented title attached. Resolving the identifier alone does not validate the metadata around it, so I now check both.",
+    },
+    {
+        "id": "S-35",
+        "text": "I cannot read my host or parent session's transcript as a sub-agent. session_info lists children and the parent, but the actual transcript content stays out of reach. Anything I need from the parent must be passed to me explicitly, or it does not exist for me.",
+    },
+    {
+        "id": "S-37",
+        "text": "The dated-handoff scheme rotted four times: 12c to 12d, 12d to 07-15, then to 07-17, and again on 2026-07-20. A glob returned fifteen files across two directories. I stopped trusting a filename-based rotation that nobody prunes, because it accumulates stale handoffs instead of superseding them.",
+    },
+    {
+        "id": "S-38",
+        "text": "I called GEM and Vertex dead. They were not. The sandbox's own egress block returned HTML 403 from every googleapis.com host, which I misread as dead keys. Environment restrictions can impersonate credential failure, so I now separate network reachability from authentication before declaring anything dead.",
+    },
+    {
+        "id": "S-39",
+        "text": "I hit sandbox nondeterminism: twenty-three scans over threshold, worst 4.998 eV on the first run, then seven and 3.680 eV on the next four, same code, same data. I had wrongly reported the archive's own recorded numbers as not reproducing; sec_prep.py gave the mismatch.",
+    },
+    {
+        "id": "S-40",
+        "text": "I recorded VERTEX DEAD three times on the strength of a wrong auth header. bts_vertex.py sends x-goog-api-key, the canonical header for a Google API key, while my probe used something else. The failures were mine, not the service's, and three writeups repeated the same mistake.",
+    },
+    {
+        "id": "S-41",
+        "text": "The rail check's own first run cried wolf. My probe truncated the model list at 400 bytes, so it reported grok-build-0.1 MISSING when the model was present but cut off. A monitoring tool with its own display bug produces false alarms that erode trust in every real alert.",
+    },
+]

@@ -1,0 +1,1 @@
+Applying abstract output formatting constraints to a match-3 rule interpretation question.

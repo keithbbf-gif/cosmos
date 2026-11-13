@@ -1,0 +1,60 @@
+/* Solaro family tokens v3 (WebDsnR, 2026-10-18 03:45 CT). v2 hues + one chroma step. v1/v2 kept.
+   Load AFTER tokens.css (and before glass.css). Same variable names and data-product slugs as v1/v2.
+   sRGB hex below is the baseline every screen gets. Lightness per hue stays within 0.69-0.75 (v2: 0.72) so chroma can rise where sRGB allows.
+   Wide-gamut screens (Display-P3) get the full +0.025 chroma step through oklch() at the same lightness (contrast listed per line).
+   Lowest: 6.20:1 on #121B2E (CM Sessions); #070B14 button text >= 7.10:1. Amber #FFB52E unchanged: parent only. */
+:root{
+  --acc-solaro:#FFB52E; --acc-solaro-paper:#8A4F00; --acc-solaro-rgb:255,181,46;  /* ai.solarolabs.com: 11.15 on #070B14, 9.74 on #121B2E, button text #070B14 11.15 */
+  --acc-cosmos:#B48CFF; --acc-cosmos-paper:#6B3FC4; --acc-cosmos-rgb:180,140,255;  /* COSMOS (the OS around the sun): cosmic violet, the space the system orbits in. 7.62 on #070B14, 6.66 on #121B2E (palette v4, CFE 2026-10-20 11:3x PM) */
+  --acc-cosmos-code:#22D3EE; --acc-cosmos-code-paper:#0E7490; --acc-cosmos-code-rgb:34,211,238;  /* COSMOS CODE (coding harness): terminal cyan, clear logic and precision. 10.89 / 9.51 (palette v4, CFE 2026-10-20 11:3x PM) */
+  --acc-cosmos-clusters:#FF6A3D; --acc-cosmos-clusters-paper:#A33410; --acc-cosmos-clusters-rgb:255,106,61;  /* COSMOS Clusters (agent cluster): ember orange, many fires working at once, heat and speed. 6.92 / 6.04 (palette v4, CFE 2026-10-20 11:3x PM) */
+  --acc-cm-sessions:#5B8DEF; --acc-cm-sessions-paper:#1F4FA8; --acc-cm-sessions-rgb:91,141,239;  /* CM Sessions (sessions/memory): deep-ocean blue, depth and calm continuity. 6.09 / 5.32 (palette v4, CFE 2026-10-20 11:3x PM) */
+  --acc-modelraters:#5FBF35; --acc-modelraters-paper:#296904; --acc-modelraters-rgb:95,191,53;  /* modelraters.com: 8.43 on #070B14, 7.36 on #121B2E, button text #070B14 8.43 */
+  --acc-mdata:#00C9B1; --acc-mdata-paper:#00675A; --acc-mdata-rgb:0,201,177;  /* ModelRaters data feeds: 9.36 on #070B14, 8.18 on #121B2E, button text #070B14 9.36 */
+  --acc-spidercaster:#A3E635; --acc-spidercaster-paper:#4D7C0F; --acc-spidercaster-rgb:163,230,53;  /* SpiderCaster (site engine): spring lime, new sites growing (SpiderCaster's own brand lime). 13.05 / 11.4 (palette v4, CFE 2026-10-20 11:3x PM) */
+  --acc-tokencenter:#22C55E; --acc-tokencenter-paper:#0F7A43; --acc-tokencenter-rgb:34,197,94;  /* TokenCenter (cheap tokens, money): money green = tokenctr.com live --tcx-accent. 8.64 / 7.54 (palette v4, CFE 2026-10-20 11:3x PM) */
+  --acc-lmnator:#A5BB00; --acc-lmnator-paper:#535F00; --acc-lmnator-rgb:165,187,0;  /* lmnator.com: 9.1 on #070B14, 7.94 on #121B2E, button text #070B14 9.1 */
+  /* default accent = parent */
+  --accent:var(--acc-solaro); --accent-rgb:var(--acc-solaro-rgb); --accent-paper:var(--acc-solaro-paper);
+  --on-accent:#070B14;
+  --parent:#FFB52E;                            /* Solaro mark + hub primary CTA, nothing else */
+}
+/* Derived tints are re-declared wherever the accent can change (custom properties resolve var() where declared). */
+:root,[data-product]{--accent-soft:rgba(var(--accent-rgb),.12);--accent-line:rgba(var(--accent-rgb),.45)}
+/* Set once per site on <html data-product="...">, or per element for cross-links and cards. */
+[data-product="solaro"]{--accent:var(--acc-solaro);--accent-rgb:var(--acc-solaro-rgb);--accent-paper:var(--acc-solaro-paper)}
+[data-product="cosmos"]{--accent:var(--acc-cosmos);--accent-rgb:var(--acc-cosmos-rgb);--accent-paper:var(--acc-cosmos-paper)}
+[data-product="cosmos-code"]{--accent:var(--acc-cosmos-code);--accent-rgb:var(--acc-cosmos-code-rgb);--accent-paper:var(--acc-cosmos-code-paper)}
+[data-product="cosmos-clusters"]{--accent:var(--acc-cosmos-clusters);--accent-rgb:var(--acc-cosmos-clusters-rgb);--accent-paper:var(--acc-cosmos-clusters-paper)}
+[data-product="cm-sessions"]{--accent:var(--acc-cm-sessions);--accent-rgb:var(--acc-cm-sessions-rgb);--accent-paper:var(--acc-cm-sessions-paper)}
+
+[data-product="modelraters"]{--accent:var(--acc-modelraters);--accent-rgb:var(--acc-modelraters-rgb);--accent-paper:var(--acc-modelraters-paper)}
+[data-product="mdata"]{--accent:var(--acc-mdata);--accent-rgb:var(--acc-mdata-rgb);--accent-paper:var(--acc-mdata-paper)}
+[data-product="spidercaster"]{--accent:var(--acc-spidercaster);--accent-rgb:var(--acc-spidercaster-rgb);--accent-paper:var(--acc-spidercaster-paper)}
+[data-product="tokencenter"]{--accent:var(--acc-tokencenter);--accent-rgb:var(--acc-tokencenter-rgb);--accent-paper:var(--acc-tokencenter-paper)}
+[data-product="lmnator"]{--accent:var(--acc-lmnator);--accent-rgb:var(--acc-lmnator-rgb);--accent-paper:var(--acc-lmnator-paper)}
+
+/* Usage */
+.btn-primary,.btn-accent{background:var(--accent);color:var(--on-accent);border:1px solid var(--accent)}
+.kicker,.eyebrow{color:var(--accent)}
+.chip-product{color:var(--accent);background:var(--accent-soft);border:1px solid var(--accent-line)}
+.nav-link[aria-current="page"]{box-shadow:inset 0 -2px 0 var(--accent)}
+.card[data-product]{border-color:var(--accent-line)}
+.card[data-product]:hover{border-color:var(--accent)}
+/* Cross-link: <a class="xlink" data-product="tokencenter" href="https://tokenctr.com">TokenCenter</a> shows the TARGET's accent. */
+.xlink{color:var(--accent);text-decoration:underline;text-decoration-color:var(--accent-line);text-underline-offset:3px}
+.xlink::before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--accent);margin-right:8px;vertical-align:middle}
+/* "Part of Solaro Labs" footer strip: always parent amber, on every domain. */
+.solaro-strip{border-top:1px solid var(--line);color:var(--text-3);font-size:16px}
+.solaro-strip a{color:var(--parent)}
+
+/* Wide-gamut upgrade. --acc-*-rgb stays sRGB for the rgba() tints. */
+@supports (color: oklch(0 0 0)){
+  @media (color-gamut: p3){
+    :root{
+    --acc-modelraters:oklch(0.720 0.195 138);  /* P3 C 0.195: 8.45 / 7.38 */
+    --acc-mdata:oklch(0.750 0.156 180);  /* P3 C 0.156: 9.48 / 8.28 */
+    --acc-lmnator:oklch(0.750 0.193 118);  /* P3 C 0.193: 9.16 / 7.99 */
+    }
+  }
+}

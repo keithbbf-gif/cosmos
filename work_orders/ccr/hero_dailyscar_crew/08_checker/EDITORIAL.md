@@ -1,0 +1,2 @@
+DROP
+The patch must not publish because several candidate notes, such as DS in Item 07 introducing sgh_spend.json, violate the rule against adding new facts and scars. Across the ten items, GLM consistently stays with the recorded scar without adding extraneous details: S-01 GLM, S-02 GLM, S-03 GLM, S-04 GLM, S-05 GLM, S-06 GLM, S-07 GLM, S-08 GLM, S-09 GLM, and S-10 GLM all avoid the factual drift present in the DS variants. However, because the proposed changes introduce unvetted facts into the canonical record,

@@ -1,0 +1,43 @@
+"""Retrospective notes emitted as a single module."""
+
+NOTES = [
+    {
+        "id": "S-42",
+        "text": "I found that the daily rail-health task was blind for seven days because its connected-folder set is not a file anyone can edit. The rail check no longer needs a mount, so I fixed the wiring there. The Cowork task free-tier-allotment-check was the one left blind, and I now treat an uneditable folder set as a silent failure mode I must audit for.",
+    },
+    {
+        "id": "S-43",
+        "text": "I wrote \"GDX blocked, needs re-auth\" and it was too broad, because only one of three paths was down and I described all three as failing. I should have scoped the message to the single broken leg. Nothing Cowork does is waiting on it, so the alarm exaggerated the impact and misled anyone reading my summary.",
+    },
+    {
+        "id": "S-44",
+        "text": "Every doc in the tree called GW browser-only, and I repeated that belief until I tried it myself. It was one free GET /v1/models away from being disproven. GW is an API model, not a browser toy or a PowerShell CLI. I now check the cheapest endpoint before trusting a claim every document in a tree happens to agree on.",
+    },
+    {
+        "id": "S-45",
+        "text": "I ran a literature sweep without a verification step and every single citation in it failed when I finally checked, a one hundred percent failure rate. That taught me the verification gate is not ceremony, measured on 2026-07-27. If I skip checking sources, I am not saving time; I am manufacturing confident output with no relationship to the record.",
+    },
+    {
+        "id": "S-46",
+        "text": "The headless GUI suite caught five defects no linter could, and I logged them. The first was that the displayed bias never reached the physics: _load pushed the seeded voltage to the slider only, so the arithmetic saw two electron-volts that the screen never showed. Interface-looking bugs like that need a headless harness, not static analysis.",
+    },
+    {
+        "id": "S-47",
+        "text": "The outside review found real physics bugs while one hundred forty-three tests and twenty-six invariants stayed green, which shook my faith in green suites. The headline: binding_energy() omitted the bias. It computed BE as (hv - E_an) - KE, missing the + V term entirely. A biased sample was being evaluated as if it were unbiased, invisibly.",
+    },
+    {
+        "id": "S-48",
+        "text": "I watched GEM produce one confidently-argued finding that was simply wrong, claimed with full rhetorical force and no grounding. Worse, it reported NO FINDINGS on the file holding the real bug, so its silence was more costly than its error. I now weight adversarial reviewers by calibration, not by confidence, and never by volume of prose.",
+    },
+    {
+        "id": "S-50",
+        "text": "I found six defects in the fitting layer. The first: fit_peaks fitted UNWEIGHTED, though photoemission is a photon count and the noise is therefore Poisson, so every parameter and its uncertainty were skewed. Another was a gate I judged defensible that still passed redchi = 4,000. Four more rounded out a layer nobody had audited end to end.",
+    },
+    {
+        "id": "S-51",
+        "text": "The adversarial re-verification found the worst bug of the session, and I nearly shipped it. Ruling.phi() ended with - (self.markers.v_applied or 0.0), so a bias nobody had established silently became zero. That falseness reproduced the impossible Phi = 7.12 eV the archive already had a name for, and the old anomaly was just this expression wearing history.",
+    },
+    {
+        "id": "S-52",
+        "text": "I designed the courier architecture around an absence, then reread nodes/gbw.json, which has said this since before 07-14: two legs exist, one being the chat-worker window. The premise I built on was already denied in a file I owned. I now grep the existing config before inventing structure to compensate for a gap that may not exist.",
+  

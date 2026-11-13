@@ -1,0 +1,14 @@
+{
+  "session_id": "team-glm53",
+  "area": "lmnator",
+  "legend": {
+    "l1_role": "CODER",
+    "l2_model": "z-ai/glm-5.3-flash",
+    "l3_harness": "openrouter summon provider only relace allow_fallbacks false",
+    "l4_wrapper_path": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\hero_teams\\glm53\\WRAP.md",
+    "l5_skills": ["none extra"],
+    "l6_tools": {"allow": ["write"], "forbid": ["git_push", "merge", "grok.exe"]},
+    "l7_environment": {"cwd": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\hero_teams\\glm53", "what": "text", "optimum": 200, "ctx": []}
+  },
+  "tail": {"l8_mission": "Four-line finding on the match3 neighbor test. No tool."}
+}

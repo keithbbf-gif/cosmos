@@ -1,0 +1,82 @@
+/* Solaro glass system v1 (WebDsnR, 2026-10-18 03:50 CT). Load after tokens.css + family-tokens_v3.css.
+   One recipe everywhere: dark tinted fill + backdrop blur/saturate + 1px inner highlight + accent-tinted edge gradient.
+   Contrast is set for the WORST pixel behind the glass (pure white #FFFFFF), so text passes even over a bright photo:
+     fill alpha .80 over white -> text-1 9.15:1, text-2 6.52:1      (default .glass)
+     fill alpha .88 over white -> text-3 5.53:1, lowest accent (CM Sessions) 4.91:1, amber 7.71:1   (.glass-strong)
+   Rule: text-3 and accent-coloured TEXT only on .glass-strong or on the solid page; .glass is for text-1/text-2.
+   Fallback without backdrop-filter: solid ink fills (no transparency), same borders. */
+:root{
+  --glass-fill:11,18,32;                 /* #0B1220 */
+  --glass-a:.80;                         /* default */
+  --glass-a-strong:.88;                  /* text-3 / accent text / small text */
+  --glass-a-soft:.62;                    /* decoration only: NO text directly on it */
+  --glass-blur:18px;
+  --glass-sat:160%;
+  --glass-radius:16px;
+  --glass-hi:rgba(246,242,234,.10);      /* 1px inner highlight */
+  --glass-edge-a:.55;                    /* accent edge strength at the top-left corner */
+  --glass-shadow:0 24px 60px -24px rgba(0,0,0,.65);
+  --glass-solid:#0E1626;                 /* @supports fallback */
+  --glass-solid-strong:#0B1220;
+}
+/* ---------- base recipe ---------- */
+.glass,.glass-strong,.glass-nav,.glass-footer,.glass-menu,.glass-code,.glass-table,.btn-glass{
+  position:relative;isolation:isolate;
+  background:var(--glass-solid);
+  border:1px solid rgba(246,242,234,.08);
+  box-shadow:var(--glass-shadow),inset 0 1px 0 var(--glass-hi);
+}
+.glass,.glass-strong,.glass-menu,.glass-code,.glass-table{border-radius:var(--glass-radius)}
+.glass-strong,.glass-code,.glass-table,.glass-menu{background:var(--glass-solid-strong)}
+/* accent-tinted edge gradient: 1px ring, strongest top-left, fading to the base edge */
+.glass::before,.glass-strong::before,.glass-menu::before,.glass-code::before,.glass-table::before,.btn-glass::before{
+  content:"";position:absolute;inset:-1px;border-radius:inherit;padding:1px;pointer-events:none;z-index:-1;
+  background:linear-gradient(135deg,rgba(var(--accent-rgb),var(--glass-edge-a)),rgba(var(--accent-rgb),.08) 38%,rgba(246,242,234,.06) 70%,rgba(var(--accent-rgb),.22));
+  -webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;
+          mask:linear-gradient(#000 0 0) content-box exclude,linear-gradient(#000 0 0);
+}
+@supports ((-webkit-backdrop-filter:blur(1px)) or (backdrop-filter:blur(1px))){
+  .glass,.glass-nav,.glass-footer,.btn-glass{
+    background:linear-gradient(180deg,rgba(var(--accent-rgb),.05),rgba(var(--accent-rgb),0) 60%),rgba(var(--glass-fill),var(--glass-a));
+    -webkit-backdrop-filter:blur(var(--glass-blur)) saturate(var(--glass-sat));backdrop-filter:blur(var(--glass-blur)) saturate(var(--glass-sat))}
+  .glass-strong,.glass-menu,.glass-code,.glass-table{
+    background:linear-gradient(180deg,rgba(var(--accent-rgb),.05),rgba(var(--accent-rgb),0) 60%),rgba(var(--glass-fill),var(--glass-a-strong));
+    -webkit-backdrop-filter:blur(var(--glass-blur)) saturate(var(--glass-sat));backdrop-filter:blur(var(--glass-blur)) saturate(var(--glass-sat))}
+}
+.glass,.glass-strong{padding:24px;color:var(--text-1)}
+@media (min-width:768px){.glass,.glass-strong{padding:32px}}
+.glass p{color:var(--text-2)}
+/* ---------- nav bar ---------- */
+.glass-nav{position:sticky;top:0;z-index:50;border-width:0 0 1px;border-radius:0;box-shadow:inset 0 -1px 0 rgba(var(--accent-rgb),.18)}
+/* ---------- footer ---------- */
+.glass-footer{border-width:1px 0 0;border-radius:0;box-shadow:inset 0 1px 0 var(--glass-hi);color:var(--text-2)}
+.glass-footer a{color:var(--text-1)}
+/* ---------- mobile menu panel ---------- */
+.glass-menu{padding:8px;min-width:240px}
+.glass-menu a{display:flex;align-items:center;min-height:44px;padding:0 14px;border-radius:10px;font-size:16px;color:var(--text-1);text-decoration:none}
+.glass-menu a:hover,.glass-menu a[aria-current="page"]{background:rgba(var(--accent-rgb),.14)}
+/* ---------- buttons ---------- */
+/* Primary: solid accent + glass sheen (text #070B14, >= 7.10:1 on every v3 accent) */
+.btn-accent{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 22px;border-radius:12px;font-size:18px;line-height:24px;font-weight:600;text-decoration:none;
+  color:#070B14;background:linear-gradient(180deg,rgba(255,255,255,.22),rgba(255,255,255,0) 55%),var(--accent);border:1px solid rgba(255,255,255,.25);
+  box-shadow:0 10px 28px -12px rgba(var(--accent-rgb),.7),inset 0 1px 0 rgba(255,255,255,.35)}
+.btn-accent:hover{filter:brightness(1.06)}
+/* Secondary: glass tinted with the accent (text-1) */
+.btn-glass{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 22px;border-radius:12px;font-size:18px;line-height:24px;font-weight:600;text-decoration:none;color:var(--text-1);box-shadow:inset 0 1px 0 var(--glass-hi)}
+@supports ((-webkit-backdrop-filter:blur(1px)) or (backdrop-filter:blur(1px))){
+  .btn-glass{background:linear-gradient(180deg,rgba(var(--accent-rgb),.20),rgba(var(--accent-rgb),.10)),rgba(var(--glass-fill),var(--glass-a))}}
+.btn-glass:hover{box-shadow:inset 0 1px 0 var(--glass-hi),0 0 0 1px rgba(var(--accent-rgb),.6)}
+/* ---------- code ---------- */
+.glass-code{display:block;padding:16px 18px;overflow-x:auto;max-width:100%;font:400 16px/26px var(--font-mono);color:var(--text-1)}
+.glass-code .c{color:var(--text-3)}   /* comments: allowed, .glass-code is strong */
+.glass-code .k{color:var(--accent)}   /* keywords: accent on strong glass */
+/* ---------- tables ---------- */
+.glass-table{overflow-x:auto;max-width:100%}
+.glass-table table{border-collapse:collapse;width:100%;font-size:16px;line-height:26px}
+.glass-table th{text-align:left;color:var(--text-1);font-weight:600;padding:12px 16px;border-bottom:1px solid rgba(var(--accent-rgb),.30)}
+.glass-table td{color:var(--text-2);padding:12px 16px;border-bottom:1px solid rgba(246,242,234,.06)}
+/* ---------- utilities ---------- */
+.glass-kicker{font-size:16px;line-height:24px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--accent)}  /* use inside .glass-strong only */
+@media (prefers-reduced-transparency:reduce){
+  .glass,.glass-nav,.glass-footer,.btn-glass{background:var(--glass-solid);-webkit-backdrop-filter:none;backdrop-filter:none}
+  .glass-strong,.glass-menu,.glass-code,.glass-table{background:var(--glass-solid-strong);-webkit-backdrop-filter:none;backdrop-filter:none}}

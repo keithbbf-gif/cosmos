@@ -1,0 +1,28 @@
+window.LMN_PACK = window.LMN_PACK || [];
+window.LMN_PACK.push(
+  {id: "c01", title: "Sugar Prism", inspired: "Candy Crush Saga", players: "single", engine: "match3", better: "Chain reactions trigger rainbow shockwaves that clear diagonal lanes.", goal: 8, speed: 2, lives: 3},
+  {id: "c02", title: "Cube Detonator", inspired: "Toon Blast", players: "single", engine: "blast", better: "Adjacent combos merge into mega-bombs that shake the entire grid.", goal: 8, speed: 3, lives: 3},
+  {id: "c03", title: "Rail Dasher", inspired: "Subway Surfers", players: "single", engine: "runner", better: "Grinding on neon rails charges a jetpack boost that blasts through barriers.", goal: 16, speed: 3, lives: 3},
+  {id: "c04", title: "Skyline Drop", inspired: "Stack", players: "single", engine: "stack", better: "Perfectly aligned drops expand the platform width and trigger slow-motion.", goal: 8, speed: 2, lives: 3},
+  {id: "c05", title: "Manor Combine", inspired: "Merge Mansion", players: "single", engine: "merge", better: "Merging three items instead of two spawns a golden wildcard piece.", goal: 5, speed: 1, lives: 3},
+  {id: "c06", title: "Echo Tiles", inspired: "Simon", players: "single", engine: "memory", better: "Musical notes harmonize into a synthwave beat as your streak grows.", goal: 6, speed: 2, lives: 3},
+  {id: "c07", title: "Neon Viper", inspired: "Slither.io", players: "single", engine: "snake", better: "Coiling around glowing orbs magnetizes them straight into your tail.", goal: 8, speed: 3, lives: 3},
+  {id: "c08", title: "Prism Breaker", inspired: "Brick Breaker", players: "single", engine: "breakout", better: "Hitting glowing bumpers splits your ball into a chaotic laser volley.", goal: 18, speed: 3, lives: 3},
+  {id: "c09", title: "Critter Bash", inspired: "Whac-A-Mole", players: "single", engine: "whack", better: "Rapid multi-taps build a frenzy meter that freezes golden targets in place.", goal: 8, speed: 3, lives: 3},
+  {id: "c10", title: "Block Escape", inspired: "Unblock Me", players: "single", engine: "slide", better: "Slamming blocks at high speed shatters ice obstacles blocking the exit.", goal: 1, speed: 2, lives: 3},
+  {id: "c11", title: "Lexicon Link", inspired: "Wordscapes", players: "single", engine: "word", better: "Finding bonus words charges a hint lightning bolt that reveals vowels.", goal: 1, speed: 1, lives: 3},
+  {id: "c12", title: "Cookie Factory", inspired: "Cookie Clicker", players: "single", engine: "idle", better: "Overclocking the ovens creates a ten-second golden rain of instant upgrades.", goal: 40, speed: 3, lives: 3},
+  {id: "c13", title: "Royal Peaks", inspired: "Solitaire Grand Harvest", players: "single", engine: "cards", better: "Clearing five cards in five seconds ignites a wildfire joker that burns the deck.", goal: 5, speed: 2, lives: 3},
+  {id: "c14", title: "Bridge Blitz", inspired: "Clash Royale", players: "single", engine: "lane", better: "Deploying units on the beat grants them a shield that reflects enemy projectiles.", goal: 12, speed: 2, lives: 3},
+  {id: "c15", title: "Dice Kingdom", inspired: "Monopoly Go", players: "single", engine: "board", better: "Landing on corner tiles launches a pinball minigame for massive multiplier loot.", goal: 10, speed: 2, lives: 3},
+  {id: "c16", title: "Beat Tapper", inspired: "Beatstar", players: "single", engine: "rhythm", better: "Hitting perfect notes morphs the background into a reactive neon equalizer.", goal: 8, speed: 3, lives: 3},
+  {id: "c17", title: "Pocket Acres", inspired: "Hay Day", players: "single", engine: "farm", better: "Swiping across ripe crops triggers a tornado harvest that instantly fills your barn.", goal: 4, speed: 1, lives: 3},
+  {id: "c18", title: "Trivia Surge", inspired: "Trivia Crack", players: "single", engine: "quiz", better: "Answering within two seconds doubles your points and eliminates one wrong option next round.", goal: 5, speed: 2, lives: 3},
+  {id: "c19", title: "Gem Cascade", inspired: "Bejeweled Blitz", players: "single", engine: "match3", better: "Matching four in a square summons a homing butterfly that destroys the rarest gem.", goal: 8, speed: 3, lives: 3},
+  {id: "c20", title: "Toy Popper", inspired: "Toy Blast", players: "single", engine: "blast", better: "Color-matched rockets drill through entire columns and leave behind wild bubbles.", goal: 8, speed: 2, lives: 3},
+  {id: "c21", title: "Relic Sprint", inspired: "Temple Run", players: "single", engine: "runner", better: "Near-misses with traps fill an adrenaline bar that lets you phase through walls.", goal: 16, speed: 3, lives: 3},
+  {id: "c22", title: "Tower Balance", inspired: "Tower Bloxx", players: "single", engine: "stack", better: "Chain three center drops to weld the tower together and stop all swaying.", goal: 8, speed: 2, lives: 3},
+  {id: "c23", title: "Dragon Hatch", inspired: "Merge Dragons", players: "single", engine: "merge", better: "Merged creatures immediately blast nearby locked tiles with fireballs.", goal: 5, speed: 2, lives: 3},
+  {id: "c24", title: "Cyber Worms", inspired: "Snake Rivals", players: "single", engine: "snake", better: "Boosting leaves a trail of sparks that stuns rival chasers for three seconds.", goal: 8, speed: 3, lives: 3},
+  {id: "c25", title: "Neon Arkanoid", inspired: "BBTAN", players: "single", engine: "breakout", better: "Collecting plus-icons mid-volley immediately spawns ghost balls at the point of impact.", goal: 18, speed: 3, lives: 3}
+);

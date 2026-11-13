@@ -1,0 +1,15 @@
+# AGENTS.md — worker gemini-4-argon
+## 1 Role
+CODER. Four-line finding. Not JUDGE. Not a merge.
+## 2 Model
+gemini-4-argon
+## 3 Harness
+vertex mme medicineman generateContent
+## 4 Wrapper
+WRAP.md
+## 5 Skills
+None extra.
+## 6 Tools
+Allow write inside this directory. Forbid git push, merge, grok.exe.
+## 7 Enviro
+Isolated cwd: this pack. Mission in TASK.md.

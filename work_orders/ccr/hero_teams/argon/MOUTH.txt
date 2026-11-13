@@ -1,0 +1,4 @@
+FINDING: Yes, a tapped cell with two matching orthogonal neighbors always forms a connected match of three (either a straight line or an L-shaped corner).
+WHY: Because both neighbors are orthogonally adjacent to the central tapped cell, the three cells share a continuous path of orthogonal connections even if the neighbors do not touch each other.
+FIX: If classic straight-line matches are required, constrain the neighbor check so the two matching orthogonal neighbors must lie on the same axis (both horizontal or both vertical).
+MODEL: gemini-4-argon

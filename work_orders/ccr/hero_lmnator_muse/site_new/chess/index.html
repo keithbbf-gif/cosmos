@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LLM Chess</title>
+  <link rel="stylesheet" href="chess.css">
+</head>
+<body>
+  <header>
+    <p class="kicker">LMNATOR · TEAM F · LOCAL MOCK</p>
+    <h1>LLM Chess</h1>
+    <p class="lede">Browser chess with legal moves checked on this page. Opponents are local mocks. This page does not call a model, TokenCTR, or a payment endpoint.</p>
+    <p class="note" id="gf38-note">Gemini 3.8 Flash (GF38): off per Keith; future calls only via Joanna Vertex account after Keith re-enables.</p>
+    <p class="mono" id="boot">loading</p>
+    <p class="mono" id="perft-line"></p>
+  </header>
+  <main class="layout">
+    <section>
+      <div class="card row" role="tablist">
+        <button type="button" id="mode-human" aria-pressed="true">Human vs mock</button>
+        <button type="button" id="mode-agents" aria-pressed="false">Agent vs agent</button>
+        <button type="button" id="mode-hotseat" aria-pressed="false">Hotseat</button>
+      </div>
+      <div class="card" id="human-panel">
+        <h2>Human vs local mock</h2>
+        <div class="row">
+          <label>Your color
+            <select id="color">
+              <option value="w">White</option>
+              <option value="b">Black</option>
+            </select>
+          </label>
+          <label class="row"><input id="blind" type="checkbox"> Blind agent</label>
+        </div>
+        <label>Model
+          <select id="model-pick"></select>
+        </label>
+        <p class="note" id="model-note"></p>
+        <p class="note" id="blind-help" hidden></p>
+        <p><button type="button" class="primary" id="start-human">Start</button></p>
+      </div>
+      <div class="card" id="agents-panel" hidden>
+        <h2>Agent vs agent</h2>
+        <p class="warn" id="cut-line"></p>
+        <div class="row">
+          <label>White <select id="white-pick"></select></label>
+          <label>Black <select id="black-pick"></select></label>
+        </div>
+        <p id="purses"></p>
+        <form id="bet-form" class="row">
+          <label>Spectator
+            <select id="bet-name">
+              <option>You</option>
+              <option>Ada</option>
+              <option>Bo</option>
+            </select>
+          </label>
+          <label>Side
+            <select id="bet-side">
+              <option value="white">White</option>
+              <option value="black">Black</option>
+            </select>
+          </label>
+          <label>Amount <input id="bet-amount" type="number" min="1" step="1" value="10"></label>
+          <button type="submit">Place play-money bet</button>
+        </form>
+        <ul id="bet-list"></ul>
+        <p class="row">
+          <button type="button" class="primary" id="start-agents">Lock bets and start</button>
+          <button type="button" id="reset-purse">Reset mock purses</button>
+        </p>
+        <p id="settlement"></p>
+      </div>
+      <div class="board" id="board" role="grid" aria-label="Chess board"></div>
+      <p class="row">
+        <button type="button" id="flip">Flip board</button>
+        <button type="button" id="resign">Resign</button>
+        <button type="button" id="draw">Agree draw</button>
+        <button type="button" class="danger" id="abort">Abort</button>
+        <button type="button" id="new-game">New game</button>
+        <button type="button" class="primary" id="start-hotseat">Start hotseat</button>
+      </div>
+      <div class="row" id="promo" hidden>
+        <span>Promote to</span>
+        <button type="button" id="promo-Q">Queen</button>
+        <button type="button" id="promo-R">Rook</button>
+        <button type="button" id="promo-B">Bishop</button>
+        <button type="button" id="promo-N">Knight</button>
+      </div>
+      <p id="status" role="status">Set the mode, then start.</p>
+      <p id="reveal"></p>
+      <p class="mono" id="fen"></p>
+      <p class="mono" id="pgn"></p>
+    </section>
+    <section>
+      <div class="card">
+        <h2>Commentary</h2>
+        <p class="note">Generated from the move list on this page. It does not describe a real model.</p>
+        <ol id="talk"></ol>
+      </div>
+      <div class="card">
+        <h2>Mock benchmark</h2>
+        <p class="note">Counts from the local chooser. Tokens stay empty. Prompts and replies are not stored.</p>
+        <ul id="bench"></ul>
+      </div>
+      <div class="card">
+        <h2>Names checked against seats.json</h2>
+        <ul id="roster"></ul>
+        <p class="docs"><a href="SEATS.md">SEATS.md</a> · <a href="PROXY_API.md">PROXY_API.md</a> · <a href="TOKEN_INTERFACE.md">TOKEN_INTERFACE.md</a> · <a href="LOBBY_HOOK.md">LOBBY_HOOK.md</a> · <a href="LICENSES.md">LICENSES.md</a></p>
+      </div>
+      <div class="card" id="lobby-wrap">
+        <h2>Lobby</h2>
+        <p id="lobby-note">Checking for Team E lobby_new.js.</p>
+        <div id="lobby" data-game="t904"></div>
+        <p class="note">Two people on this device use Hotseat. That works now. A queued match needs the lobby script and a queue that accepts t904.</p>
+      </div>
+    </section>
+  </main>
+  <script src="config.js"></script>
+  <script src="models.js"></script>
+  <script src="chess_rules.js"></script>
+  <script src="mock_opponent.js"></script>
+  <script src="bets.js"></script>
+  <script src="commentary.js"></script>
+  <script src="bench.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

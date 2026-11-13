@@ -1,0 +1,222 @@
+window.LMN_PACK = [
+  {
+    id: "c111",
+    players: "single",
+    engine: "match3",
+    goal: 8,
+    speed: 1,
+    lives: 3,
+    title: "Syrup Swap",
+    inspired: "Candy Crush Saga",
+    better: "Watching a fifth-in-a-row gumdrop hover just one tile away as your final move expires guarantees an instant replay."
+  },
+  {
+    id: "c112",
+    players: "single",
+    engine: "blast",
+    goal: 8,
+    speed: 2,
+    lives: 3,
+    title: "Crate Crusher",
+    inspired: "Toon Blast",
+    better: "Leaving a single corner block unpopped while holding a useless two-cube cluster makes your thumb immediately tap retry."
+  },
+  {
+    id: "c113",
+    players: "single",
+    engine: "runner",
+    goal: 16,
+    speed: 2,
+    lives: 3,
+    title: "Rail Rushers",
+    inspired: "Subway Surfers",
+    better: "Clipping your ankle on a barrier a fraction of a second before grabbing the jetpack forces an immediate restart."
+  },
+  {
+    id: "c114",
+    players: "single",
+    engine: "stack",
+    goal: 8,
+    speed: 2,
+    lives: 3,
+    title: "Neon Zenith",
+    inspired: "Stack",
+    better: "Shaving the platform down to a sliver and missing the combo expansion by a hair makes you tap again instantly."
+  },
+  {
+    id: "c115",
+    players: "single",
+    engine: "merge",
+    goal: 5,
+    speed: 1,
+    lives: 3,
+    title: "Manor Meld",
+    inspired: "Merge Mansion",
+    better: "Running out of board space with two high-tier items sitting right next to each other demands one more try."
+  },
+  {
+    id: "c116",
+    players: "single",
+    engine: "memory",
+    goal: 6,
+    speed: 1,
+    lives: 3,
+    title: "Echo Tiles",
+    inspired: "Simon",
+    better: "Hitting the wrong color on the very last beat of a six-step sequence makes your thumb itch to prove it knew the pattern."
+  },
+  {
+    id: "c117",
+    players: "single",
+    engine: "snake",
+    goal: 8,
+    speed: 2,
+    lives: 3,
+    title: "Neon Viper",
+    inspired: "Slither.io",
+    better: "Grazing your own tail one pixel shy of swallowing the glowing victory orb triggers a reflex restart."
+  },
+  {
+    id: "c118",
+    players: "single",
+    engine: "breakout",
+    goal: 18,
+    speed: 2,
+    lives: 3,
+    title: "Prism Breaker",
+    inspired: "Brick Breaker Hero",
+    better: "Watching the ball miss the final cracked brick by a millimeter and slip past your paddle makes you launch another round."
+  },
+  {
+    id: "c119",
+    players: "single",
+    engine: "whack",
+    goal: 8,
+    speed: 2,
+    lives: 3,
+    title: "Critter Bop",
+    inspired: "Whac-A-Mole",
+    better: "Tapping the dirt a split-second after the eighth mole ducks back underground compels an immediate rematch."
+  },
+  {
+    id: "c120",
+    players: "single",
+    engine: "slide",
+    goal: 1,
+    speed: 1,
+    lives: 3,
+    title: "Timber Shift",
+    inspired: "Unblock Me",
+    better: "Getting the red block stuck one square from the exit because a vertical piece is off by a notch forces an instant reset."
+  },
+  {
+    id: "c121",
+    players: "single",
+    engine: "word",
+    goal: 1,
+    speed: 1,
+    lives: 3,
+    title: "Lexicon Link",
+    inspired: "Wordscapes",
+    better: "Realizing the final missing letter was an obvious vowel right as the strike counter fills up makes you swipe again."
+  },
+  {
+    id: "c122",
+    players: "single",
+    engine: "idle",
+    goal: 40,
+    speed: 2,
+    lives: 3,
+    title: "Biscuit Baron",
+    inspired: "Cookie Clicker",
+    better: "Falling one tap short of forty just as the frenzy timer hits zero practically forces your thumb to keep mashing."
+  },
+  {
+    id: "c123",
+    players: "single",
+    engine: "cards",
+    goal: 5,
+    speed: 1,
+    lives: 3,
+    title: "Peaks Patience",
+    inspired: "Solitaire Grand Harvest",
+    better: "Flipping your last stock card to find a seven when you only needed an eight to clear the board demands a fresh deal."
+  },
+  {
+    id: "c124",
+    players: "single",
+    engine: "lane",
+    goal: 12,
+    speed: 2,
+    lives: 3,
+    title: "Bridge Blitz",
+    inspired: "Clash Royale",
+    better: "Seeing the enemy tower survive with a sliver of health as your final troop dissolves makes you queue up again."
+  },
+  {
+    id: "c125",
+    players: "single",
+    engine: "board",
+    goal: 10,
+    speed: 1,
+    lives: 3,
+    title: "Dice Kingdoms",
+    inspired: "Board Kings",
+    better: "Rolling a four to land on a hazard just one tile before the tenth checkpoint makes your thumb roll again."
+  },
+  {
+    id: "c126",
+    players: "single",
+    engine: "rhythm",
+    goal: 8,
+    speed: 2,
+    lives: 3,
+    title: "Melody Keys",
+    inspired: "Magic Tiles 3",
+    better: "Sliding a hair too early on the final eighth note of a flawless run makes you tap the start button before the buzzer fades."
+  },
+  {
+    id: "c127",
+    players: "single",
+    engine: "farm",
+    goal: 4,
+    speed: 1,
+    lives: 3,
+    title: "Sunny Acres",
+    inspired: "Hay Day",
+    better: "Watching a crow snatch the fourth pumpkin while your finger is mid-swipe to the barn triggers an instant retry."
+  },
+  {
+    id: "c128",
+    players: "single",
+    engine: "quiz",
+    goal: 5,
+    speed: 1,
+    lives: 3,
+    title: "Brain Blitz",
+    inspired: "Trivia Crack",
+    better: "Second-guessing your gut instinct on the fifth question and seeing your first choice flash green makes you play again."
+  },
+  {
+    id: "c129",
+    players: "single",
+    engine: "match3",
+    goal: 8,
+    speed: 2,
+    lives: 3,
+    title: "Garden Gems",
+    inspired: "Gardenscapes",
+    better: "Triggering a massive cascade that stops one Acorn short of the goal as your moves run out guarantees another go."
+  },
+  {
+    id: "c130",
+    players: "single",
+    engine: "runner",
+    goal: 16,
+    speed: 2,
+    lives: 3,
+    title: "Idol Sprint",
+    inspired: "Temple Run",
+    better: "Swiping to turn the sixteenth corner a millisecond too late and stumbling off the cliff ledge forces a reflex retry."
+  }
+];

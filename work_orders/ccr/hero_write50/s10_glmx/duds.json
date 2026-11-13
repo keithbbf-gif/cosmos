@@ -1,0 +1,27 @@
+{
+ "legend": {
+  "role": "CODER",
+  "model": "z-ai/glm-5.3-flashx",
+  "harness_via": "openrouter summon_or_hero.py",
+  "wrapper": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\hero_write50\\s10_glmx\\WRAP.md",
+  "skills": [
+   "none extra"
+  ],
+  "tools": {
+   "allow": [
+    "write"
+   ],
+   "forbid": [
+    "grok.exe"
+   ]
+  },
+  "enviro": {
+   "cwd": "V:\\A\\Ai\\COSMOS\\work_orders\\ccr\\hero_write50\\s10_glmx",
+   "what": "python",
+   "optimum": "float"
+  }
+ },
+ "mission": {
+  "item": "Retell ten scars. First person. No new facts."
+ }
+}

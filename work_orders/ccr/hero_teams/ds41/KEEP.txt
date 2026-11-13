@@ -1,0 +1,35 @@
+*   **Analyze the Request:**
+    *   **Output Format:** JavaScript only. Must start with `window.LMN_PACK`.
+    *   **Content:** Game settings for specific IDs (`c167`, `c168`, `c169`, `c170`).
+    *   **Player count:** Single.
+    *   **Game Engines:** Match3, Blast, Runner, Stack.
+    *   **Goals:** 8, 8, 16, 8 (corresponding to the 4 IDs).
+    *   **Speed:** 2.
+    *   **Lives:** 3.
+    *   **Title:** Original, inspired by a real mobile game, better, short, near-miss sentence.
+    *   **Price:** No price.
+
+    *   **Constraint Check:** The output must be executable JS (a configuration object/function call) and strictly adhere to the format.
+
+    *   **ID Mapping (and Goals):**
+        *   c167: Goal 8
+        *   c168: Goal 8
+        *   c169: Goal 16
+        *   c170: Goal 8
+
+    *   **Game Selection:**
+        *   IDs c167 & c168: (Need to pick 1-2 engines for each, but the prompt lists 4 engines anWe need answer. Need parse. User asks "Emit ids c167 c168 c169 c170 only. players single. Engines match3, blast, runner, stack. Goals 8, 8, 16, 8. speed 2. lives 3. title original. inspired a real mobile game. better one short near-miss sentence. No price."
+
+Likely wants output JS? "Emit ids c167..." Maybe game config JSON? Need infer from prior? "The whole reply is JavaScript. First characters are window.LMN_PACK. No prose." This is system? Actually user message includes instruction? It says "The whole reply is JavaScript. First characters are window.LMN_PACK. No prose." That's in user? The last user message? It appears as part of user? Wait conversation: user: "Emit ids c167 c168 c169 c170 only. players single. Engines match3, blast, runner, stack. Goals 8, 8, 16, 8. speed 2. lives 3. title original. inspired a real mobile game. better one short near-miss sentence. No price."
+
+But top has "The whole reply is JavaScript. First characters are window.LMN_PACK. No prose." Actually in prompt? It is in user message? Let's read: The message from user is exactly:
+"Emit ids c167 c168 c169 c170 only. players single. Engines match3, blast, runner, stack. Goals 8, 8, 16, 8. speed 2. lives 3. title original. inspired a real mobile game. better one short near-miss sentence. No price."
+
+Wait at top there is "The whole reply is JavaScript. First characters are window.LMN_PACK. No prose." Maybe that's an instruction from system? It's included before user? Actually the displayed content starts with "The whole reply is JavaScript. First characters are window.LMN_PACK. No prose." Then blank? Let's see: The user message in transcript: 
+" The whole reply is JavaScript. First characters are window.LMN_PACK. No prose.
+
+Emit ids c167 c168 c169 c170 only. players single. Engines match3, blast, runner, stack. Goals 8, 8, 16, 8. speed 2. lives 3. title original. inspired a real mobile game. better one short near-miss sentence. No price."
+
+Yes likely combined instruction. Need produce JS starting window.LMN_PACK. No prose. Need emit ids c167 c168 c169 c170 only. Means create pack with those IDs only? Need know format. "LMN_PACK" maybe a known format from previous tasks? Need reconstruct. They want "players single", "Engines match3, blast, runner, stack", "Goals 8, 8, 16, 8", "speed 2", "lives 3", "title original", "inspired a real mobile game", "better one short near-miss sentence", "No price".
+
+Likely output a JS object/array of game metadata. Need design. Need include ids c167 c168 c169 c170 only. Each id corresponds to engine? There are 4 engines and goals. So each entry has id c167 etc, engine match3/blast/runner/stack, goal 8/8/16/8, speed 2, lives 3, players single. Title original for each? inspired by a real mobile game. Better one short near-miss sentence. No price. Need maybe each has title and "inspiredBy" real mobile game? "better one short near-miss sentence" Maybe a sentence that describes "inspired by X but not X"? Need avoid IP? "Original title. Inspired by real mobile game" means title should be original, and inspiration noted? "better on

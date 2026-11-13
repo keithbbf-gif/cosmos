@@ -1,0 +1,19 @@
+.lmn-lobby{margin:1rem 0}
+.lmn-lobby h2{margin-top:0}
+.lmn-lobby .lmn-field{display:flex;flex-direction:column;gap:4px;margin:.7rem 0;color:var(--secondary);font-size:16px}
+.lmn-lobby input,.lmn-lobby select{min-height:44px;border-radius:8px;padding:8px 10px;background:#0B1220;color:var(--text);border:1px solid rgba(255,255,255,.2);font:inherit}
+.lmn-lobby fieldset{border:1px solid #1e293b;border-radius:12px;margin:.8rem 0;padding:.6rem .8rem  .8rem}
+.lmn-lobby legend{padding:0 .3rem;color:var(--text)}
+.lmn-lobby .lmn-fill label{display:flex;align-items:center;gap:8px;min-height:44px}
+.lmn-lobby .lmn-actions .btn,.lmn-lobby .lmn-mock-only .btn,.lmn-lobby .lmn-code-row .btn{background:transparent;color:var(--text);border:1px solid rgba(246,242,234,.28)}
+.lmn-lobby .lmn-go{background:var(--accent);color:var(--on-accent);border:0}
+.lmn-code-row{display:flex;gap:8px;align-items:end;flex-wrap:wrap}
+.lmn-code-row .lmn-field{flex:1;min-width:8rem}
+.lmn-slots{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.lmn-slot{margin:0}
+.lmn-roster{margin:.4rem 0 0;padding-left:1.2rem}
+.lmn-roster li{margin:.2rem 0}
+.lmn-transport{margin-top:0}
+@media (max-width:720px){
+.lmn-slots{grid-template-columns:1fr}
+}

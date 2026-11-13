@@ -1,0 +1,55 @@
+/* hub.css - added 2026-10-17 draft. Layers on theme.css + site.css (both unchanged).
+   Adds: styles for suite-grid/suite-card/section-block (used by every page but undefined in live CSS),
+   featured cards, mobile nav, 44px tap targets, focus rings, skip link, table overflow. */
+.skip-link { position: absolute; left: -9999px; top: 8px; z-index: 2000; background: #fff; color: #030712; padding: 12px 16px; border-radius: 6px; font-weight: 700; }
+.skip-link:focus { left: 8px; }
+a:focus-visible, .btn:focus-visible { outline: 2px solid var(--border-focus); outline-offset: 3px; border-radius: 6px; }
+.nav-link { display: inline-flex; align-items: center; min-height: 44px; padding: 0 6px; }
+.nav-link[aria-current="page"] { color: #fff; box-shadow: inset 0 -2px 0 var(--primary-blue); }
+.btn { min-height: 44px; }
+.brand-wrapper { min-height: 44px; }
+.section-block { padding: 8px 24px 48px; }
+.section-block h2, .hub-h2 { font-size: 1.5rem; font-weight: 800; letter-spacing: -0.02em; margin: 32px 0 16px; }
+.suite-grid, .suite-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; margin: 16px 0 32px; }
+.suite-card { display: block; background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 14px; padding: 20px; min-height: 44px; transition: border-color .15s ease, background .15s ease; }
+a.suite-card:hover { border-color: var(--border-medium); background: var(--bg-card-hover); }
+.suite-card h3 { font-size: 1.1rem; margin: 6px 0 6px; color: #fff; }
+.suite-card p { color: var(--text-secondary); margin: 0; }
+.suite-kicker, .kicker { display: block; color: var(--primary-blue); font-family: var(--font-mono); font-size: 12px; letter-spacing: .04em; text-transform: uppercase; }
+.feature-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px; margin: 16px 0 40px; }
+.feature-card { background: linear-gradient(180deg, rgba(59,130,246,.08) 0%, var(--bg-card) 100%); border: 1px solid rgba(59,130,246,.35); border-radius: 16px; padding: 24px; display: flex; flex-direction: column; gap: 10px; }
+.feature-card h3 { font-size: 1.35rem; font-weight: 800; letter-spacing: -0.02em; color: #fff; }
+.feature-card .aka { font-family: var(--font-mono); font-size: 12px; color: var(--text-muted); }
+.feature-card p { color: var(--text-secondary); }
+.feature-links { display: flex; flex-wrap: wrap; gap: 10px; margin-top: auto; padding-top: 8px; }
+.card-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+.text-link { display: inline-flex; align-items: center; min-height: 44px; color: #93c5fd; text-decoration: underline; text-underline-offset: 3px; }
+.prose a { color: #93c5fd; text-decoration: underline; text-underline-offset: 3px; }
+.domain { font-family: var(--font-mono); font-size: .85rem; color: var(--text-muted); }
+.note { color: var(--text-muted); font-size: .9rem; }
+.hero-cta-group { flex-wrap: wrap; }
+.prose table, .compare, table { width: 100%; border-collapse: collapse; margin: 12px 0 20px; }
+th, td { text-align: left; vertical-align: top; padding: 10px 12px; border-bottom: 1px solid var(--border-subtle); color: var(--text-secondary); }
+th { color: #fff; }
+.site-footer .footer-cols { display: grid; grid-template-columns: 1.4fr repeat(4, 1fr); gap: 24px; }
+.site-footer .footer-h { color: #fff; font-weight: 700; margin-bottom: 4px; }
+.site-footer nav a { display: flex; align-items: center; min-height: 44px; }
+.site-footer .suite-links a { display: inline-flex; align-items: center; min-height: 44px; }
+@media (max-width: 900px) { .site-footer .footer-cols { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 768px) {
+  .nav-inner { flex-wrap: wrap; height: auto; padding: 8px 16px; row-gap: 0; }
+  .nav-menu { order: 3; width: 100%; gap: 0; justify-content: space-between; overflow-x: auto; -webkit-overflow-scrolling: touch; padding-bottom: 4px; }
+  .nav-link { padding: 0 7px; white-space: nowrap; font-size: .85rem; }
+  .hero-section { padding: 40px 0 28px; }
+  .hero-headline { font-size: 2.1rem; }
+  .hero-subtitle { font-size: 1rem; }
+  .container { padding: 0 16px; }
+  .section-block { padding: 8px 16px 40px; }
+  table { display: block; overflow-x: auto; }
+  .terminal-code { font-size: .75rem; }
+}
+@media (max-width: 420px) { .site-footer .footer-cols { grid-template-columns: 1fr; } }
+/* featured five: 3 + 2 on wide screens, 2 + 2 + 1 (full) on tablets, 1 column on phones */
+@media (min-width: 1100px) { .feature-grid { grid-template-columns: repeat(6, 1fr); } .feature-card { grid-column: span 2; } .feature-card:nth-child(n+4) { grid-column: span 3; } }
+@media (min-width: 640px) and (max-width: 1099px) { .feature-grid { grid-template-columns: 1fr 1fr; } .feature-card:last-child { grid-column: span 2; } }
+@media (max-width: 639px) { .feature-grid { grid-template-columns: 1fr; } }

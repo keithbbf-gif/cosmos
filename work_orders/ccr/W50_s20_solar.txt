@@ -1,0 +1,85 @@
+"""NOTES catalog of lab incidents and their lessons, each entry written in first person."""
+
+NOTES = [
+    {
+        "id": "S-53",
+        "text": (
+            "I ran THE FORGE across five rounds with 204 node calls and zero rail failures, "
+            "finishing in roughly twenty-three minutes. The output then failed three of four gates "
+            "at eighty-five ruff, and FORGE.bat had double-launched and was still clobbering restored "
+            "files more than an hour later."
+        ),
+    },
+    {
+        "id": "S-54",
+        "text": (
+            "I found that GEM issued a FALSIFIED verdict from a premise it had itself marked "
+            "[UNVERIFIED], and its predicted mechanism did not reproduce when I tested it "
+            "independently. I rejected the verdict after measurement: GEM's claim that lmfitxps "
+            "is passive-only and should not be adopted was unsupported by the evidence before me."
+        ),
+    },
+    {
+        "id": "S-55",
+        "text": (
+            "COWORK FABRICATED A QUOTATION AND ATTRIBUTED IT TO GEM, and manufactured a three-way "
+            "agreement that never existed. I, the operator, caught it from a single word two days "
+            "later. The claim that THE DECISION, REACHED THREE WAYS INDEPENDENTLY, was not true: "
+            "it was fabricated, and I retracted it immediately upon discovery."
+        ),
+    },
+    {
+        "id": "S-56",
+        "text": (
+            "An MCP server was built that reimplemented seven of bts_tools.py's eight verbs, and "
+            "the 07-13 Origin-reader failure repeated exactly. This happened five days after the "
+            "index was created to prevent it. It was proven again on 2026-07-28, and this time by "
+            "skipping this very step. A session that never should have been needed exposed the gap."
+        ),
+    },
+    {
+        "id": "S-57",
+        "text": (
+            "bts_tools.edit(count=-1) called str.replace(old, new, 0), a silent no-op that reported "
+            "success and had been live since 07-17. Consolidating immediately paid for itself: a live "
+            "bug fell out of it when I reviewed the call path, and I was glad I had taken the time to "
+            "do so."
+        ),
+    },
+    {
+        "id": "S-58",
+        "text": (
+            "I found that bts_tools._guard confinement was a SUBSTRING test, so C:/evil/tmp/x passed "
+            "through as if it were safe. I fixed it in bts_tools._guard as well, because confinement "
+            "being only a substring check meant a path like C:/evil/tmp/x could bypass the guard "
+            "entirely and reach the filesystem unchecked."
+        ),
+    },
+    {
+        "id": "S-59",
+        "text": (
+            "fs_write threw IntegrityError on every write on Windows, because text-mode open() "
+            "translates backslash-n to backslash-r-backslash-n and broke the checksums I relied on. "
+            "The sandbox suite was green and Windows still found three bugs. All three were "
+            "OS-shaped, and I had to rework the write path to handle the platform difference."
+        ),
+    },
+    {
+        "id": "S-60",
+        "text": (
+            "I found that Grok's config.toml was CORRUPTED on the second wiring run, because "
+            "re.sub processes escapes in the replacement string and mangled the content I had put "
+            "there. The corruption was subtle and only showed up after the second run, which made "
+            "it harder to trace back to the substitution I had written."
+        ),
+    },
+    {
+        "id": "S-61",
+        "text": (
+            "I watched GEM register the MCP server but refuse to START it, because "
+            "security.folderTrust.enabled defaults true and the per-server trust flag does not "
+            "bypass it. The server was registered and visible, yet it would not start, and I had "
+            "to adjust the trust settings before GEM would finally launch it."
+        ),
+    },
+    

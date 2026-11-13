@@ -1,0 +1,14 @@
+{
+ "runner": "_summon_or_hero.py",
+ "model_requested": "openai/gpt-5.6-luna-pro",
+ "system_sha": "46343458f85c6ac1",
+ "system_is_wrap": true,
+ "style_in_system": false,
+ "skill_in_system": false,
+ "user_sha": "c9c5300f8c7ca242",
+ "user_is_task": true,
+ "tools_offered": [],
+ "forbid_offered": [],
+ "writes_serial": true,
+ "call_order": "system=WRAP, user=TASK, tools, then tool-result loop"
+}

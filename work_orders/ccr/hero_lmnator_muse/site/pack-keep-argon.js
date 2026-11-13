@@ -1,0 +1,17 @@
+window.LMN_PACK = window.LMN_PACK || [];
+window.LMN_PACK.push(
+  {"id":"c199","players":"single","engine":"match3","goal":8,"speed":1,"lives":3,"title":"Sugar Cascader","inspired":"Candy Crush Saga","better":"Swapping the final two jellies left a four-in-a-row just one tile away from triggering the board clear."},
+  {"id":"c200","players":"single","engine":"blast","goal":8,"speed":2,"lives":3,"title":"Cube Detonator","inspired":"Toon Blast","better":"Tapping the mega cluster left a single stubborn blue block teetering on the bottom row."},
+  {"id":"c201","players":"single","engine":"runner","goal":16,"speed":2,"lives":3,"title":"Metro Dasher","inspired":"Subway Surfers","better":"My sneaker clipped the final barrier a split second before my boots would have cleared the oncoming train."},
+  {"id":"c202","players":"single","engine":"stack","goal":8,"speed":1,"lives":3,"title":"Monolith Riser","inspired":"Stack","better":"The eighth slab shaved off a millimeter too much and toppled right at the winning height."},
+  {"id":"c203","players":"single","engine":"merge","goal":5,"speed":1,"lives":3,"title":"Dragon Combiner","inspired":"Merge Dragons!","better":"Dragging the third glowing sprout slipped by half a grid space and missed the five-item chain."},
+  {"id":"c204","players":"single","engine":"memory","goal":6,"speed":1,"lives":3,"title":"Cortex Flip","inspired":"Peak","better":"I remembered the location of the final matching rune a heartbeat after tapping the adjacent decoy."},
+  {"id":"c206","players":"single","engine":"breakout","goal":18,"speed":2,"lives":3,"title":"Prism Shatter","inspired":"Brick Breaker Hero","better":"The ball grazed the edge of the paddle and missed ricocheting into the last cracked brick by a hair."},
+  {"id":"c207","players":"single","engine":"whack","goal":8,"speed":2,"lives":3,"title":"Critter Bopper","inspired":"Tap the Frog","better":"My thumb descended on the eighth burrow the exact frame the golden mole ducked back underground."},
+  {"id":"c208","players":"single","engine":"slide","goal":1,"speed":1,"lives":3,"title":"Timber Unblock","inspired":"Unblock Me","better":"Shifting the horizontal beam left the exit path blocked by a single notched peg as the timer ran dry."},
+  {"id":"c209","players":"single","engine":"word","goal":1,"speed":1,"lives":3,"title":"Lexicon Wheel","inspired":"Wordscapes","better":"My finger lifted off the screen one letter short of connecting the seven-letter anagram."},
+  {"id":"c210","players":"single","engine":"idle","goal":40,"speed":2,"lives":3,"title":"Cookie Foundry","inspired":"Egg, Inc.","better":"The frenzy meter expired at thirty-nine harvests while the fortieth crate was mid-flight toward the barn."},
+  {"id":"c211","players":"single","engine":"cards","goal":5,"speed":1,"lives":3,"title":"Dungeon Solitaire","inspired":"Card Crawl","better":"Drawing the final shield card left me one point short of surviving the boss monster's last strike."},
+  {"id":"c212","players":"single","engine":"lane","goal":12,"speed":2,"lives":3,"title":"Bridge Vanguard","inspired":"Clash Royale","better":"My twelfth vanguard unit swung its sword just as the enemy spire fired a last-millisecond arrow."},
+  {"id":"c213","players":"single","engine":"board","goal":10,"speed":1,"lives":3,"title":"Dice Kingdom","inspired":"Board Kings","better":"The die rolled over one extra pip and dropped my token onto a trap tile right beside the tenth landmark."}
+);
